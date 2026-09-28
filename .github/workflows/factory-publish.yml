@@ -1,0 +1,202 @@
+name: Factory Publish (chunked)
+
+# Pipeline publish tự động, deterministic — KHÔNG AI, KHÔNG API key, KHÔNG secret.
+# Kiến trúc vận hành port từ /vanchinh, adapt sang Node factory của /total:
+#   writer ngoài (agent/Mistral run) commit bài viết dưới factory/data/articles/
+#   -> pipeline chạy đúng công cụ của xưởng (factory.js, generate.js, test.js):
+#      READ STATE -> guard (không writer lock) -> chọn chunk (resume slot dở
+#      TRƯỚC, rồi mới claim slot PLANNED có bài, tối đa 5-10 slot)
+#      -> QA từng slot (>= 90 mới PASS) -> publish (PASS -> PUBLISHED, sinh
+#      lại site + test) -> cổng publish (audit >= 90, --check, test)
+#      -> MỘT commit duy nhất cho state + site đã sinh.
+# Repository là checkpoint: pipeline đứt giữa chừng thì lần đẩy bài sau tự
+# resume từ state trên nhánh main — không restart factory, không reset ma trận.
+
+on:
+  push:
+    branches: [main]
+    paths: ['factory/data/articles/**', '.github/workflows/factory-publish.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: factory-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Không AI/API bên trong Actions — mọi bước đều deterministic.
+
+      - name: Đọc trạng thái xưởng (READ STATE)
+        run: |
+          node factory/factory.js status
+          node factory/factory.js resume
+
+      - name: Gate (chỉ chạy khi push thêm bài mới hoặc còn backlog)
+        id: gate
+        run: |
+          # Chỉ bài MỚI THÊM khởi động chunk sản xuất; bài sửa (repair, rebuild)
+          # không tự claim chunk mới.
+          NEW_ARTICLES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- factory/data/articles/ | wc -l | tr -d ' ')
+          echo "bài mới trong push này: $NEW_ARTICLES"
+          BACKLOG=$(node <<'EOF'
+          const fs = require('fs');
+          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
+          const dir = 'factory/data/articles';
+          const slugs = new Set();
+          for (const f of fs.readdirSync(dir)) {
+            if (!f.endsWith('.js')) continue;
+            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); } catch (e) { /* bỏ qua file lỗi */ }
+          }
+          const CLAIMABLE = ['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'REPAIR', 'PASS'];
+          console.log(m.slots.some(s => CLAIMABLE.includes(s.state) && slugs.has(s.slug)) ? 1 : 0);
+          EOF
+          )
+          echo "backlog (slot chưa xong đã có bài): $BACKLOG"
+          if [ "$NEW_ARTICLES" -gt 0 ] || [ "$BACKLOG" -eq 1 ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "không có bài mới và không còn backlog -> bỏ qua pipeline publish"
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 'Guard: không writer lock bị bỏ lại, ma trận hợp lệ'
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          test ! -f factory/state/writer.lock || { echo "writer lock bị commit lại — xưởng đang bận/dở, rà soát trước khi publish"; exit 1; }
+          node <<'EOF'
+          const fs = require('fs');
+          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
+          const VALID = new Set(['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'PASS', 'PUBLISHED', 'REPAIR', 'BLOCKED']);
+          const bad = m.slots.filter(s => !VALID.has(s.state));
+          if (bad.length) { console.error('slot trạng thái không hợp lệ:', bad.map(s => s.id).join(', ')); process.exit(1); }
+          const slugs = m.slots.map(s => s.slug);
+          if (new Set(slugs).size !== slugs.length) { console.error('trùng slug trong ma trận'); process.exit(1); }
+          console.log('ma trận hợp lệ:', m.slots.length, 'slot');
+          EOF
+
+      - name: Chọn chunk (deterministic — resume trước, claim sau)
+        id: chunk
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          node <<'EOF' >> "$GITHUB_OUTPUT"
+          const fs = require('fs');
+          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
+          const dir = 'factory/data/articles';
+          const slugs = new Set();
+          for (const f of fs.readdirSync(dir)) {
+            if (!f.endsWith('.js')) continue;
+            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); } catch (e) { /* bỏ qua file lỗi */ }
+          }
+          const TERMINAL = ['PUBLISHED', 'BLOCKED'];
+          const unfinished = m.slots.filter(s => !TERMINAL.includes(s.state) && s.state !== 'PLANNED' && slugs.has(s.slug));
+          const planned = m.slots.filter(s => s.state === 'PLANNED' && slugs.has(s.slug));
+          const published = m.slots.filter(s => s.state === 'PUBLISHED').length;
+          const LIMIT = published === 0 ? 5 : 10;
+          const chunk = [...unfinished, ...planned].slice(0, LIMIT);
+          console.log('ids=' + chunk.map(s => s.id).join(' '));
+          console.log('count=' + chunk.length);
+          console.log('resume=' + unfinished.length);
+          console.log('claimed=' + Math.max(0, Math.min(planned.length, LIMIT - unfinished.length)));
+          EOF
+          echo "chunk: ${{ steps.chunk.outputs.count }} slot (resume ${{ steps.chunk.outputs.resume }}, claim mới ${{ steps.chunk.outputs.claimed }})"
+
+      - name: Xin writer lock (one writer — bị từ chối nếu có lock sống)
+        if: steps.gate.outputs.proceed == 'true'
+        run: node factory/factory.js lock ci-publisher
+
+      - name: Claim chunk + QA từng slot (>= 90 mới PASS)
+        id: qa
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          set -e
+          IDS="${{ steps.chunk.outputs.ids }}"
+          if [ -z "$IDS" ]; then
+            echo "KHÔNG có slot nào khớp bài trong push này — kiểm tra bài mới có slot PLANNED tương ứng trong ma trận chưa."
+            echo "pass=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          for ID in $IDS; do
+            ST=$(node -e "const m=require(process.cwd()+'/factory/state/matrix.json');const s=m.slots.find(x=>x.id===process.argv[1]);console.log(s.state)" "$ID")
+            if [ "$ST" = "PLANNED" ]; then
+              node factory/factory.js research "$ID"
+              ST=RESEARCH
+            fi
+            if [ "$ST" = "RESEARCH" ]; then
+              node factory/factory.js write "$ID"
+            fi
+            node factory/factory.js qa "$ID"
+          done
+          PASS=$(node -e "const m=require(process.cwd()+'/factory/state/matrix.json');console.log(m.slots.filter(s=>s.state==='PASS').length)")
+          echo "slot PASS sau QA: $PASS"
+          echo "pass=$PASS" >> "$GITHUB_OUTPUT"
+
+      - name: Publish (PASS -> PUBLISHED + sinh lại site + test)
+        id: publish
+        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0'
+        continue-on-error: true
+        run: node factory/factory.js publish
+
+      - name: 'Cổng publish: không patch tay HTML'
+        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0'
+        run: node factory/generate.js --check
+
+      - name: 'Cổng publish: audit mọi bài PUBLISHED >= 90'
+        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0'
+        run: node factory/factory.js audit --min-score 90
+
+      - name: 'Cổng publish: toàn bộ test nền tảng'
+        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0'
+        run: node factory/test.js
+
+      - name: Giải phóng writer lock
+        if: always() && steps.gate.outputs.proceed == 'true'
+        run: node factory/factory.js unlock
+
+      - name: Commit kết quả (một commit cho cả chunk — không force push)
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          git config user.name "total-factory-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "không có thay đổi state để commit"
+          else
+            git commit -m "factory: publish chunk (${{ steps.chunk.outputs.count }} slot, resume ${{ steps.chunk.outputs.resume }}) [automated txn]"
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push; then
+                echo "đã push (lần thử $i)"
+                exit 0
+              fi
+              echo "push vướng (lần $i) — rebase an toàn rồi thử lại"
+              sleep 5
+            done
+            echo "push thất bại sau 3 lần — repo vẫn là checkpoint, chunk sẽ được resume ở lần đẩy bài sau"
+            exit 1
+          fi
+
+      - name: Khẳng định state sạch
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          test ! -f factory/state/writer.lock || { echo "writer lock bị bỏ lại"; exit 1; }
+          node -e "const m=require(process.cwd()+'/factory/state/matrix.json');const c=require(process.cwd()+'/factory/state/checkpoint.json');if(c.slotCount!==m.slots.length){console.error('checkpoint lệch ma trận:',c.slotCount,'vs',m.slots.length);process.exit(1)}console.log('checkpoint khớp ma trận:',c.slotCount,'slot')"
+
+      - name: Báo refusal nếu chunk không sạch
+        if: steps.gate.outputs.proceed == 'true' && (steps.publish.outcome == 'failure' || steps.qa.outputs.pass == '0')
+        run: |
+          echo "publish bị từ chối (chunk không có slot PASS hoặc cổng publish thất bại)."
+          echo "state đã commit để rà soát; slot REPAIR/BLOCKED sẽ được resume ở lần đẩy bài sau."
+          exit 1

@@ -25,6 +25,7 @@ PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → RE
 - Ghi file atomic (ghi tạm → đổi tên).
 - Checkpoint khớp số slot ma trận.
 - Không gọi AI API trong GitHub Actions.
+- Pipeline publish theo chunk trong Actions (factory-publish.yml): resume slot dở trước khi claim mới, QA ≥ 90 mới PUBLISHED, một commit mỗi chunk, không force push, bounded retry khi push.
 
 ## Trình tự chuẩn
 ```bash

@@ -1,0 +1,38 @@
+name: Site Quality
+
+# Kiểm định site đã sinh: HTML phải khớp generator (chống sửa tay), liên kết
+# nội bộ/canonical/sitemap sạch rác ký tự. Deterministic, không AI.
+on:
+  push:
+    branches: [main]
+    paths: ['**.html', 'assets/**', 'sitemap.xml', 'sitemap-*.xml', 'robots.txt', '.github/workflows/site-quality.yml']
+  pull_request:
+    branches: [main]
+    paths: ['**.html', 'assets/**', 'sitemap.xml', 'sitemap-*.xml', 'robots.txt', '.github/workflows/site-quality.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-quality
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Site sinh khớp generator + liên kết sạch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: HTML trên đĩa phải khớp kết quả sinh (không patch tay)
+        run: node factory/generate.js --check
+
+      - name: Kiểm định trang sinh (liên kết, canonical, sitemap, ký tự rác)
+        run: node factory/test.js

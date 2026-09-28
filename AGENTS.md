@@ -23,6 +23,7 @@ Mọi agent phải đọc file này trước khi sửa repo.
 ## Vòng đời nội dung
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).
 Dùng `node factory/factory.js` (status/plan/list/research/write/qa/publish/audit/resume) — không sửa JSON state tay khi factory đang chạy.
+Pipeline publish tự động (factory-publish.yml) chạy chunk: resume slot dở trước khi claim mới, QA ≥ 90 mới PUBLISHED, một commit mỗi chunk. Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state khi pipeline đang chạy.
 
 ## Trước khi commit
 ```

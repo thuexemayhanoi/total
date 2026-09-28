@@ -1,0 +1,79 @@
+name: Factory Publish Verify (read-only)
+
+# Verify SAU publish — read-only, không commit. Luồng: READ STATE
+# -> RECOVER/RESUME -> VERIFY. Kiểm tra bất biến publish:
+#   - mọi slot PUBLISHED có bài + trang sinh + nằm trong sitemap-articles;
+#   - mọi URL bài trong sitemap-articles thuộc slot PUBLISHED;
+#   - checkpoint khớp ma trận, không writer lock bị bỏ lại.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/factory-publish-verify.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Đọc trạng thái (READ STATE -> RECOVER/RESUME)
+        run: |
+          node factory/factory.js status
+          node factory/factory.js resume
+
+      - name: Audit mọi bài PUBLISHED >= 90
+        run: node factory/factory.js audit --min-score 90
+
+      - name: Sinh lại site + kiểm tra không patch tay HTML
+        run: |
+          node factory/generate.js
+          node factory/generate.js --check
+
+      - name: Bộ kiểm thử nền tảng
+        run: node factory/test.js
+
+      - name: Bất biến publish (read-only)
+        run: |
+          set -e
+          test ! -f factory/state/writer.lock || { echo "writer lock bị commit lại — state bẩn"; exit 1; }
+          node <<'EOF'
+          const fs = require('fs');
+          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
+          const sm = fs.readFileSync('sitemap-articles.xml', 'utf8');
+          const { SITE } = require(process.cwd() + '/factory/site.config.js');
+          const file = s => s.hub.split('/').join('/') + '/' + s.slug + '/index.html';
+          const url = s => SITE.baseUrl + s.hub.split('/').join('/') + '/' + s.slug + '/';
+          const published = m.slots.filter(s => s.state === 'PUBLISHED');
+          const missingFile = published.filter(s => !fs.existsSync(file(s)));
+          const notInSitemap = published.filter(s => !sm.includes(url(s)));
+          if (missingFile.length) { console.error('slot PUBLISHED không có trang sinh:', missingFile.map(s => s.id).join(', ')); process.exit(1); }
+          if (notInSitemap.length) { console.error('slot PUBLISHED không nằm trong sitemap:', notInSitemap.map(s => s.id).join(', ')); process.exit(1); }
+          const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(x => x[1]);
+          const pubUrls = new Set(published.map(url));
+          const bad = locs.filter(l => !pubUrls.has(l));
+          if (bad.length) { console.error('URL bài trong sitemap không thuộc slot PUBLISHED:', bad.join(', ')); process.exit(1); }
+          const c = JSON.parse(fs.readFileSync('factory/state/checkpoint.json', 'utf8'));
+          if (c.slotCount !== m.slots.length) { console.error('checkpoint lệch ma trận:', c.slotCount, 'vs', m.slots.length); process.exit(1); }
+          const dir = 'factory/data/articles';
+          const slugs = new Set();
+          for (const f of fs.readdirSync(dir)) {
+            if (!f.endsWith('.js')) continue;
+            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); } catch (e) { /* bỏ qua file lỗi */ }
+          }
+          const PENDING = ['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'REPAIR', 'PASS'];
+          const pending = m.slots.filter(s => PENDING.includes(s.state) && slugs.has(s.slug));
+          console.log('bất biến publish OK:', published.length, 'bài PUBLISHED; checkpoint khớp ma trận');
+          console.log(pending.length
+            ? 'CẢNH BÁO: chunk đang chờ publish — ' + pending.map(s => s.id + ':' + s.state).join(', ')
+            : 'không có chunk đang chờ (state sạch)');
+          EOF

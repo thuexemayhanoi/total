@@ -22,3 +22,13 @@ Khi QA thất bại: QA → REPAIR → QA → BLOCKED (sau nhiều lần sửa k
 
 ## Không phá kiến trúc
 Factory phục vụ các lệnh mở rộng tương lai ("viết 20 bài cho /thue-xe/xe-may/", "audit mọi bài dưới 90") mà không cần thiết kế lại.
+
+## Pipeline publish tự động (GitHub Actions)
+Kiến trúc vận hành port từ /vanchinh, adapt toàn bộ sang Node factory hiện có (không Python, không thay taxonomy/URL):
+- **factory-publish.yml** — writer đẩy bài mới vào `factory/data/articles/` → pipeline: đọc state → guard (không writer lock) → chọn chunk (resume slot dở trước, rồi mới claim slot PLANNED có bài, tối đa 5–10 slot) → QA từng slot → publish (PASS → PUBLISHED, sinh site + test) → cổng publish (audit ≥ 90, `--check`, test) → MỘT commit state + site. Deterministic, không AI/API trong Actions.
+- **article-quality.yml** — cổng chất lượng push/PR đổi `factory/**` (tích hợp ci.yml cũ: generate, `--check`, audit ≥ 90, test).
+- **site-quality.yml** — kiểm định trang sinh khi push/PR đổi HTML/assets/sitemap/robots.
+- **article-batch.yml** — dry-run read-only: xem kế hoạch chunk, QA thử, không đổi state.
+- **factory-publish-verify.yml** — verify read-only sau publish: mọi slot PUBLISHED có trang sinh + nằm trong sitemap, mọi URL bài trong sitemap thuộc slot PUBLISHED, checkpoint khớp ma trận, không lock bỏ lại.
+
+Chống chồng lấn: concurrency group riêng cho từng workflow, writer lock TTL 30 phút, KHÔNG force push, bounded retry ≤ 3 khi push, KHÔNG cron AI writing, KHÔNG AI/API trong Actions.

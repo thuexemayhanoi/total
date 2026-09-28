@@ -70,7 +70,11 @@ function loadState() {
 function saveState(state, action) {
   state.lastAction = { action, at: new Date().toISOString() };
   atomicWrite(STATE_FILE, JSON.stringify(state, null, 1));
-  checkpoint({ at: new Date().toISOString(), action, slotCount: state.slots.length });
+  // Checkpoint ghi số slot của MA TRẬN chủ đề (factory-state.slots không dùng
+  // để đếm — theo docs: "checkpoint khớp số slot ma trận").
+  let slotCount = (state.slots || []).length;
+  try { slotCount = loadMatrix().slots.length; } catch (e) { /* ma trận chưa có — giữ giá trị dự phòng */ }
+  checkpoint({ at: new Date().toISOString(), action, slotCount });
 }
 function checkpoint(data) {
   atomicWrite(CHECKPOINT_FILE, JSON.stringify(data, null, 1));

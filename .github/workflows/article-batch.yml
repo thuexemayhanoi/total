@@ -1,0 +1,71 @@
+name: Article Batch (read-only dry-run)
+
+# Chạy thử KHÔNG GHI: xem trạng thái xưởng, kế hoạch chunk, QA thử bài đang chờ.
+# Không đổi state, không sinh site, không commit — tương đương article-batch
+# của /vanchinh, adapt sang Node factory của /total.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Số slot tối đa của chunk thử (mặc định 5)'
+        required: false
+        default: '5'
+  push:
+    branches: [main]
+    paths: ['.github/workflows/article-batch.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: article-batch
+  cancel-in-progress: false
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Trạng thái xưởng (READ STATE)
+        run: |
+          node factory/factory.js status
+          node factory/factory.js resume
+
+      - name: Kế hoạch chunk + QA thử (read-only)
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+          const { qaArticle } = require(process.cwd() + '/factory/qa.js');
+          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
+          const limit = Number('${{ inputs.limit || github.event.inputs.limit }}' || 5) || 5;
+          const dir = 'factory/data/articles';
+          const bySlug = new Map();
+          for (const f of fs.readdirSync(dir)) {
+            if (!f.endsWith('.js')) continue;
+            try { const a = require(process.cwd() + '/' + dir + '/' + f); bySlug.set(a.slug, a); } catch (e) { /* bỏ qua file lỗi */ }
+          }
+          const TERMINAL = ['PUBLISHED', 'BLOCKED'];
+          const unfinished = m.slots.filter(s => !TERMINAL.includes(s.state) && s.state !== 'PLANNED' && bySlug.has(s.slug));
+          const planned = m.slots.filter(s => s.state === 'PLANNED' && bySlug.has(s.slug));
+          const chunk = [...unfinished, ...planned].slice(0, limit);
+          console.log('kế hoạch chunk (limit ' + limit + '): ' + (chunk.length ? chunk.map(s => s.id + ':' + s.state).join(', ') : 'không có gì để claim'));
+          for (const s of chunk) {
+            const a = bySlug.get(s.slug);
+            const r = qaArticle(a);
+            console.log('QA thử ' + s.id + ' (' + s.slug + '): ' + r.score + '/100 — ' + (r.pass ? 'ĐẠT' : 'KHÔNG ĐẠT') + ' (' + r.words + ' từ)');
+            for (const c of r.checks.filter(x => !x.pass)) console.log('  - [' + c.name + '] ' + c.note);
+          }
+          console.log('chunk dry-run xong: ' + chunk.length + ' slot, KHÔNG ghi state.');
+          EOF
+
+      - name: 'Khẳng định: không lock, không state bẩn'
+        run: |
+          test ! -f factory/state/writer.lock || { echo "writer lock bị commit lại — state bẩn, cần rà"; exit 1; }
+          node -e "const m=require(process.cwd()+'/factory/state/matrix.json');const c=require(process.cwd()+'/factory/state/checkpoint.json');if(c.slotCount!==m.slots.length){console.error('checkpoint lệch ma trận');process.exit(1)}console.log('checkpoint khớp ma trận:',c.slotCount,'slot')"

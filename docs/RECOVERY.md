@@ -11,3 +11,6 @@ Mọi thứ sinh từ dữ liệu: HTML hỏng → chạy lại `node factory/ge
 
 ## Chống lặp lại
 Atomic write và checkpoint đảm bảo không có file dở; mọi thao tác state phải qua factory.js, không sửa JSON tay khi đang chạy.
+
+## Session/mạng đứt — repository là checkpoint
+Toàn bộ state (matrix, factory-state, checkpoint) nằm trên nhánh `main`. Pipeline publish đứt giữa chừng thì KHÔNG mất gì: lần đẩy bài sau tự chạy theo luồng **READ STATE → RECOVER/RESUME → VERIFY → mới claim mới** (slot dở được resume trước, chunk nhỏ 5–10 slot). Không restart factory, không reset ma trận, không quay về bài đầu.

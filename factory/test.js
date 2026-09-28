@@ -393,9 +393,15 @@ ok(exists('.github/workflows/og-image.yml'), 'Workflow sinh og-cover.png tồn t
 ok(exists('scripts/make-og-image.mjs'), 'Script sinh og-cover.png tồn tại');
 
 // ---------- 16. Factory state không đổi ----------
+// Cho phép cửa sổ claim: writer đẩy bài vào factory/data/articles/ trước khi
+// pipeline publish kịp chuyển slot (PLANNED -> ... -> PUBLISHED trong Actions).
 const publishedSlots = matrix.slots.filter(s => s.state === 'PUBLISHED').length;
-ok(publishedSlots === artFiles.length, 'Số slot PUBLISHED khớp số bài đã sinh', `${publishedSlots} vs ${artFiles.length}`);
-ok(readJson('factory/state/checkpoint.json').slotCount === 12, 'Checkpoint giữ nguyên 12 slot (không reset factory)');
+ok(publishedSlots <= artFiles.length, 'Số slot PUBLISHED không vượt số bài đã sinh', `${publishedSlots} vs ${artFiles.length}`);
+const slotSlugs = new Set(matrix.slots.map(s => s.slug));
+const orphanArts = artModules.filter(a => !slotSlugs.has(a.slug));
+ok(orphanArts.length === 0, 'Mọi bài viết đều có slot trong ma trận', orphanArts.map(a => a.slug).join(', '));
+const cpCount = readJson('factory/state/checkpoint.json').slotCount;
+ok(cpCount === matrix.slots.length, 'Checkpoint khớp số slot ma trận (không reset factory)', `${cpCount} vs ${matrix.slots.length}`);
 
 // ---------- Kết quả ----------
 console.log('');
