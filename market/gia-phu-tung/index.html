@@ -93,13 +93,7 @@
     </button>
     <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Mở menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
   </div>
-  <div class="mobile-nav" id="mobile-nav" hidden>
-    <a href="/total/thue-xe/">Thuê xe</a><a href="/total/guide/">Hướng dẫn</a><a href="/total/hub/">Trung tâm chủ đề</a><a href="/total/wiki/">Bách khoa xe</a><a href="/total/learn/">Kiến thức chuyên sâu</a><a href="/total/moto/">Xe máy</a><a href="/total/ride/">Hành trình</a><a href="/total/tips/">Mẹo</a><a href="/total/docs/">Tài liệu</a><a href="/total/news/">Tin tức</a><a href="/total/local/">Địa phương</a><a href="/total/map/">Bản đồ</a><a href="/total/garage/">Sửa chữa</a><a href="/total/market/">Thị trường</a><a href="/total/review/">Đánh giá</a>
-    <a href="/total/gioi-thieu/">Giới thiệu</a>
-    <a href="/total/tim-kiem/">Tìm kiếm</a>
-  </div>
-</header>
-<div class="mega" id="mega-all" hidden>
+  <div class="mega" id="mega-all" hidden>
     <div class="mega-grid"><div class="mega-cell">
       <a class="mega-cat" data-acc="emerald" href="/total/thue-xe/">Thuê xe</a>
       <a class="mega-sub" href="/total/thue-xe/xe-may/">Xe máy</a><a class="mega-sub" href="/total/thue-xe/xe-dien/">Xe điện</a><a class="mega-sub" href="/total/thue-xe/xe-oto/">Xe ô tô</a>
@@ -162,6 +156,19 @@
       <span class="mega-count">6 chủ đề</span>
     </div></div>
   </div>
+  <div class="mobile-nav" id="mobile-nav" aria-label="Menu di động" hidden>
+    <p class="mobile-nav-label">Danh mục</p>
+    <nav class="mobile-nav-grid" aria-label="Danh mục chính">
+      <a href="/total/thue-xe/">Thuê xe</a><a href="/total/guide/">Hướng dẫn</a><a href="/total/hub/">Trung tâm chủ đề</a><a href="/total/wiki/">Bách khoa xe</a><a href="/total/learn/">Kiến thức chuyên sâu</a><a href="/total/moto/">Xe máy</a><a href="/total/ride/">Hành trình</a><a href="/total/tips/">Mẹo</a><a href="/total/docs/">Tài liệu</a><a href="/total/news/">Tin tức</a><a href="/total/local/">Địa phương</a><a href="/total/map/">Bản đồ</a><a href="/total/garage/">Sửa chữa</a><a href="/total/market/">Thị trường</a><a href="/total/review/">Đánh giá</a>
+    </nav>
+    <p class="mobile-nav-label">Tiện ích</p>
+    <nav class="mobile-nav-grid" aria-label="Liên kết tiện ích">
+      <a href="/total/gioi-thieu/">Giới thiệu</a>
+      <a href="/total/tim-kiem/">Tìm kiếm</a>
+      <a href="/total/hub/">Trung tâm chủ đề</a>
+    </nav>
+  </nav>
+</header>
 <main id="noidung" class="site-main">
 
 <nav class="breadcrumb" aria-label="Breadcrumb"><span class="crumb-sep" aria-hidden="true">Bạn ở đây:</span><a class="crumb" href="/total/">Trang chủ</a><span class="crumb-sep" aria-hidden="true">/</span><a class="crumb" href="/total/market/">Thị trường</a><span class="crumb-sep" aria-hidden="true">/</span><span class="crumb" aria-current="page">Giá phụ tùng</span></nav>
@@ -185,43 +192,71 @@
       <a class="logo" href="/total/" aria-label="AI WIKI TOTAL — Trang chủ">
 <span class="logo-mark" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 26 26" fill="none"><rect x="1" y="1" width="24" height="24" rx="7" fill="#3157D5"/><path d="M7 17V9l6 8V7" stroke="#F7F5EF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 12h5M16 15h5" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round"/></svg></span>
 <span class="logo-text">AI WIKI <strong>TOTAL</strong></span></a>
-      <p>Kiến thức xe, thuê xe và hành trình cho người Việt.</p>
+      <p class="footer-tag">Kiến thức xe, thuê xe và hành trình cho người Việt.</p>
+      <p class="footer-note">Nội dung mang tính kiến thức tham khảo, viết bằng tiếng Việt cho người Việt. AI WIKI TOTAL không bán xe và không tự publish dữ kiện kinh doanh chưa xác minh.</p>
     </div>
-    <nav class="footer-cats" aria-label="Danh mục">
-      <a href="/total/thue-xe/">Thuê xe</a><a href="/total/moto/">Xe máy</a><a href="/total/garage/">Sửa chữa</a><a href="/total/local/">Địa phương</a><a href="/total/review/">Đánh giá</a><a href="/total/market/">Thị trường</a><a href="/total/guide/">Hướng dẫn</a><a href="/total/wiki/">Bách khoa xe</a><a href="/total/learn/">Kiến thức chuyên sâu</a><a href="/total/ride/">Hành trình</a>
+    <nav class="footer-col footer-cats" aria-label="Danh mục">
+      <p class="footer-col-title">Danh mục chính</p>
+      <a href="/total/thue-xe/">Thuê xe</a><a href="/total/moto/">Xe máy</a><a href="/total/garage/">Sửa chữa</a><a href="/total/local/">Địa phương</a><a href="/total/review/">Đánh giá</a><a href="/total/market/">Thị trường</a><a href="/total/guide/">Hướng dẫn</a><a href="/total/wiki/">Bách khoa xe</a>
+      <a class="footer-more" href="/total/hub/">Tất cả danh mục →</a>
+    </nav>
+    <nav class="footer-col footer-cats" aria-label="Danh mục khác">
+      <p class="footer-col-title">Chủ đề khác</p>
+      <a href="/total/learn/">Kiến thức chuyên sâu</a><a href="/total/ride/">Hành trình</a><a href="/total/tips/">Mẹo</a><a href="/total/docs/">Tài liệu</a><a href="/total/news/">Tin tức</a><a href="/total/map/">Bản đồ</a><a href="/total/hub/">Trung tâm chủ đề</a>
+    </nav>
+    <nav class="footer-col footer-meta" aria-label="Tiện ích">
+      <p class="footer-col-title">Tiện ích</p>
+      <a href="/total/gioi-thieu/">Giới thiệu</a>
+      <a href="/total/tim-kiem/">Tìm kiếm</a>
       <a href="/total/hub/">Trung tâm chủ đề</a>
       <a href="/total/map/">Bản đồ</a>
       <a href="/total/news/">Tin tức</a>
       <a href="/total/docs/">Tài liệu</a>
     </nav>
-    <div class="footer-meta">
-      <a href="/total/gioi-thieu/">Giới thiệu</a>
-      <a href="/total/tim-kiem/">Tìm kiếm</a>
-    </div>
-    <p class="footer-note">Nội dung mang tính kiến thức tham khảo, viết bằng tiếng Việt cho người Việt. AI WIKI TOTAL không bán xe và không tự publish dữ kiện kinh doanh chưa xác minh.</p>
   </div>
 </footer>
-<div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-label="Tìm kiếm" hidden>
-  <div class="search-box">
+<div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-labelledby="search-title" hidden>
+  <div class="search-box" role="document">
     <div class="search-head">
-      <span class="search-title">Bạn muốn tìm gì?</span>
-      <button type="button" class="search-close" id="search-close" aria-label="Đóng tìm kiếm">Đóng ✕</button>
+      <span class="search-title" id="search-title">Bạn muốn tìm gì?</span>
+      <button type="button" class="search-close" id="search-close" aria-label="Đóng tìm kiếm">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Đóng</span>
+      </button>
     </div>
-    <input type="search" id="search-input" autocomplete="off" placeholder="Thuê xe máy Hà Nội, Honda Vision, lỗi phanh, giá xe cũ..." aria-label="Nhập từ khoá tìm kiếm">
+    <div class="search-input-row">
+      <svg class="search-ico" width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.8"/><path d="m11 11 3.4 3.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="search-input" autocomplete="off" placeholder="Thuê xe máy Hà Nội, Honda Vision, lỗi phanh, giá xe cũ..." aria-label="Nhập từ khoá tìm kiếm">
+    </div>
     <div class="search-results" id="search-results" aria-live="polite"></div>
   </div>
 </div>
 <div class="chatbot" id="chatbot">
-  <button type="button" class="chatbot-launcher" id="chatbot-launcher" aria-expanded="false" aria-controls="chatbot-panel">Hỏi AI</button>
+  <button type="button" class="chatbot-launcher" id="chatbot-launcher" aria-expanded="false" aria-controls="chatbot-panel">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 1.5c-4.1 0-7.5 2.9-7.5 6.5 0 2 1.1 3.8 2.8 5v3l3-1.6c.6.1 1.1.1 1.7.1 4.1 0 7.5-2.9 7.5-6.5S13.1 1.5 9 1.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5.4 8.9h7.2M5.4 6.2h7.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <span>Hỏi AI</span>
+  </button>
   <div class="chatbot-panel" id="chatbot-panel" role="dialog" aria-label="Trợ lý AI WIKI TOTAL" hidden>
-    <div class="chatbot-head"><span>Trợ lý AI WIKI TOTAL</span><button type="button" class="chatbot-close" id="chatbot-close" aria-label="Đóng trợ lý">✕</button></div>
+    <div class="chatbot-head">
+      <span class="chatbot-head-ico" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 1.5c-4.1 0-7.5 2.9-7.5 6.5 0 2 1.1 3.8 2.8 5v3l3-1.6c.6.1 1.1.1 1.7.1 4.1 0 7.5-2.9 7.5-6.5S13.1 1.5 9 1.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="chatbot-head-name">Trợ lý AI WIKI TOTAL</span>
+      <button type="button" class="chatbot-close" id="chatbot-close" aria-label="Đóng trợ lý">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
     <div class="chatbot-log" id="chatbot-log" aria-live="polite"></div>
     <div class="chatbot-input-row">
-      <input type="text" id="chatbot-input" placeholder="Nhập câu hỏi về xe, thuê xe…" aria-label="Câu hỏi cho trợ lý">
-      <button type="button" id="chatbot-send" aria-label="Gửi câu hỏi">Gửi</button>
+      <textarea id="chatbot-input" rows="1" placeholder="Nhập câu hỏi về xe, thuê xe…" aria-label="Câu hỏi cho trợ lý"></textarea>
+      <button type="button" id="chatbot-send" aria-label="Gửi câu hỏi">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 9h12M10 4.5 14.5 9 10 13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Gửi</span>
+      </button>
     </div>
   </div>
 </div>
+<script src="/total/assets/js/overlay.js"></script>
 <script src="/total/assets/js/nav.js"></script>
 <script src="/total/assets/js/search.js"></script>
 <script src="/total/assets/js/chatbot.js"></script>
