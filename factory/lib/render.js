@@ -142,10 +142,13 @@ ${S.breadcrumbHtml(trail)}
 }
 
 // ---------- Bài viết ----------
+// Renderer dùng chung: mọi bài hiện tại & tương lai tự hưởng UI mới.
+// Cột đọc 760–820px desktop · TOC sticky (accordion trên mobile) · callout · prev/next.
 function renderArticle(cat, hub, a, articles, bySlug) {
   const trail = [{ name: 'Trang chủ', href: '' }, { name: cat.name, href: cat.slug + '/' }];
   if (hub) trail.push({ name: hub.name, href: cat.slug + '/' + hub.slug + '/' });
   trail.push({ name: a.title, href: up(a.path) });
+  const readMin = Math.max(1, Math.round(a.wordCount / 200));
   const toc = a.sections.map((s, i) => `<li><a href="#muc-${i + 1}">${S.esc(s.h2)}</a></li>`).join('');
   const keyPoints = (a.keyPoints || []).map(k => `<li>${S.safe(k)}</li>`).join('');
   const secs = a.sections.map((s, i) => `<section class="prose-sec" id="muc-${i + 1}">
@@ -166,33 +169,60 @@ function renderArticle(cat, hub, a, articles, bySlug) {
       <span class="card-meta">${S.esc(r.catName)}${r.hubName ? ' · ' + S.esc(r.hubName) : ''}</span>
     </a>`;
   }).join('');
+  // Điều hướng bài trước/bài sau: theo thứ tự ngày xuất bản toàn site
+  const ordered = articles.slice().sort((x, y) => (x.date === y.date ? String(x.slug).localeCompare(String(y.slug)) : String(x.date).localeCompare(String(y.date))));
+  const pos = ordered.findIndex(x => x.slug === a.slug);
+  const prevA = pos > 0 ? ordered[pos - 1] : null;
+  const nextA = pos >= 0 && pos < ordered.length - 1 ? ordered[pos + 1] : null;
+  const pnCard = (x, cls, label) => x
+    ? `<a class="pn-card ${cls}" href="${S.u(up(x.path))}"><span class="pn-label">${label}</span><span class="pn-title">${S.esc(x.title)}</span><span class="pn-meta">${S.esc(x.catName)} · ${formatDate(x.date)}</span></a>`
+    : '';
   const content = `
 ${S.breadcrumbHtml(trail)}
 <article class="article" itemscope itemtype="https://schema.org/Article">
-  <header class="page-head article-head">
+  <header class="article-head">
     <p class="eyebrow">${S.esc(cat.name)}${hub ? ' · ' + S.esc(hub.name) : ''}</p>
     <h1>${S.esc(a.title)}</h1>
-    <p class="article-meta"><time datetime="${a.date}">${formatDate(a.date)}</time>${a.updated && a.updated !== a.date ? ' · Cập nhật <time datetime="' + a.updated + '">' + formatDate(a.updated) + '</time>' : ''} · ${a.wordCount} từ</p>
-    <p class="page-lead">${S.esc(a.summary)}</p>
+    <p class="article-dek">${S.esc(a.summary)}</p>
+    <div class="article-byline">
+      <span class="byline-ava" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="14" height="14" rx="4" fill="#3157D5"/><path d="M4.5 11V5l4 6V5" stroke="#F7F5EF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span class="byline-pub">Ban biên tập <strong>AI WIKI TOTAL</strong></span>
+      <span class="byline-sep" aria-hidden="true">·</span>
+      <span class="byline-meta"><time datetime="${a.date}">${formatDate(a.date)}</time>${a.updated && a.updated !== a.date ? ' · Cập nhật <time datetime="' + a.updated + '">' + formatDate(a.updated) + '</time>' : ''}</span>
+      <span class="byline-sep" aria-hidden="true">·</span>
+      <span class="byline-read">${readMin} phút đọc</span>
+    </div>
   </header>
-  <section class="quick-answer" aria-labelledby="qa-h">
-    <h2 id="qa-h" class="h-small">Câu trả lời nhanh</h2>
-    <p>${S.esc(a.quickAnswer)}</p>
-  </section>
-  <section class="key-points" aria-labelledby="kp-h">
-    <h2 id="kp-h" class="h-small">Điểm chính</h2>
-    <ul>${keyPoints}</ul>
-  </section>
-  <nav class="toc" aria-labelledby="toc-h">
-    <h2 id="toc-h" class="h-small">Mục lục</h2>
-    <ol>${toc}</ol>
-  </nav>
-  <div class="prose">
-    ${secs}
-    ${blocks.join('\n')}
-    ${refs ? `<section class="aside-block aside-refs" aria-labelledby="rf-h"><h2 id="rf-h">Nguồn tham khảo</h2><ul>${refs}</ul></section>` : ''}
+  <div class="article-body">
+    <aside class="article-toc">
+      <nav class="toc" aria-label="Mục lục">
+        <details id="article-toc-details" open>
+          <summary><span class="toc-heading">Mục lục</span><span class="toc-chev" aria-hidden="true">▾</span></summary>
+          <ol>${toc}</ol>
+        </details>
+      </nav>
+    </aside>
+    <div class="article-content">
+      <section class="quick-answer" aria-labelledby="qa-h">
+        <h2 id="qa-h" class="h-small">Câu trả lời nhanh</h2>
+        <p>${S.esc(a.quickAnswer)}</p>
+      </section>
+      <section class="key-points" aria-labelledby="kp-h">
+        <h2 id="kp-h" class="h-small">Điểm chính</h2>
+        <ul>${keyPoints}</ul>
+      </section>
+      <div class="prose">
+        ${secs}
+        ${blocks.join('\n')}
+        ${refs ? `<section class="aside-block aside-refs" aria-labelledby="rf-h"><h2 id="rf-h">Nguồn tham khảo</h2><ul>${refs}</ul></section>` : ''}
+      </div>
+    </div>
   </div>
-  ${rel ? `<section class="latest" aria-labelledby="rel-h"><h2 id="rel-h">Bài liên quan</h2><div class="latest-grid">${rel}</div></section>` : ''}
+  ${rel ? `<section class="latest article-related" aria-labelledby="rel-h"><h2 id="rel-h">Bài liên quan</h2><div class="latest-grid">${rel}</div></section>` : ''}
+  ${(prevA || nextA) ? `<nav class="art-pn" aria-label="Bài trước và bài sau">
+    ${pnCard(prevA, 'pn-prev', 'Bài trước')}
+    ${pnCard(nextA, 'pn-next', 'Bài sau')}
+  </nav>` : ''}
 </article>`;
   return S.page({
     path: up(a.path), activeCat: cat.slug, title: a.seoTitle || a.title,

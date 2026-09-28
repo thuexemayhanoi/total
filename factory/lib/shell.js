@@ -86,23 +86,36 @@ function headerHtml(activeCat) {
     </button>
     <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Mở menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
   </div>
-  <div class="mobile-nav" id="mobile-nav" hidden>
-    ${CATEGORIES.map(c => `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`).join('')}
-    <a href="${u('gioi-thieu/')}">Giới thiệu</a>
-    <a href="${u('tim-kiem/')}">Tìm kiếm</a>
-  </div>
-</header>
-${megaMenu()}`;
+  ${megaMenu()}
+  <div class="mobile-nav" id="mobile-nav" aria-label="Menu di động" hidden>
+    <p class="mobile-nav-label">Danh mục</p>
+    <nav class="mobile-nav-grid" aria-label="Danh mục chính">
+      ${CATEGORIES.map(c => `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`).join('')}
+    </nav>
+    <p class="mobile-nav-label">Tiện ích</p>
+    <nav class="mobile-nav-grid" aria-label="Liên kết tiện ích">
+      <a href="${u('gioi-thieu/')}">Giới thiệu</a>
+      <a href="${u('tim-kiem/')}">Tìm kiếm</a>
+      <a href="${u('hub/')}">Trung tâm chủ đề</a>
+    </nav>
+  </nav>
+</header>`;
 }
 
 function searchModal() {
-  return `<div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-label="Tìm kiếm" hidden>
-  <div class="search-box">
+  return `<div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-labelledby="search-title" hidden>
+  <div class="search-box" role="document">
     <div class="search-head">
-      <span class="search-title">${esc(SITE.searchTitle)}</span>
-      <button type="button" class="search-close" id="search-close" aria-label="Đóng tìm kiếm">Đóng ✕</button>
+      <span class="search-title" id="search-title">${esc(SITE.searchTitle)}</span>
+      <button type="button" class="search-close" id="search-close" aria-label="Đóng tìm kiếm">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Đóng</span>
+      </button>
     </div>
-    <input type="search" id="search-input" autocomplete="off" placeholder="${esc(SITE.searchPlaceholder)}" aria-label="Nhập từ khoá tìm kiếm">
+    <div class="search-input-row">
+      <svg class="search-ico" width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.8"/><path d="m11 11 3.4 3.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="search-input" autocomplete="off" placeholder="${esc(SITE.searchPlaceholder)}" aria-label="Nhập từ khoá tìm kiếm">
+    </div>
     <div class="search-results" id="search-results" aria-live="polite"></div>
   </div>
 </div>`;
@@ -110,20 +123,38 @@ function searchModal() {
 
 function chatbotMarkup() {
   return `<div class="chatbot" id="chatbot">
-  <button type="button" class="chatbot-launcher" id="chatbot-launcher" aria-expanded="false" aria-controls="chatbot-panel">${esc(SITE.chatbotLauncher)}</button>
+  <button type="button" class="chatbot-launcher" id="chatbot-launcher" aria-expanded="false" aria-controls="chatbot-panel">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 1.5c-4.1 0-7.5 2.9-7.5 6.5 0 2 1.1 3.8 2.8 5v3l3-1.6c.6.1 1.1.1 1.7.1 4.1 0 7.5-2.9 7.5-6.5S13.1 1.5 9 1.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5.4 8.9h7.2M5.4 6.2h7.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <span>${esc(SITE.chatbotLauncher)}</span>
+  </button>
   <div class="chatbot-panel" id="chatbot-panel" role="dialog" aria-label="${esc(SITE.chatbotName)}" hidden>
-    <div class="chatbot-head"><span>${esc(SITE.chatbotName)}</span><button type="button" class="chatbot-close" id="chatbot-close" aria-label="Đóng trợ lý">✕</button></div>
+    <div class="chatbot-head">
+      <span class="chatbot-head-ico" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 1.5c-4.1 0-7.5 2.9-7.5 6.5 0 2 1.1 3.8 2.8 5v3l3-1.6c.6.1 1.1.1 1.7.1 4.1 0 7.5-2.9 7.5-6.5S13.1 1.5 9 1.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="chatbot-head-name">${esc(SITE.chatbotName)}</span>
+      <button type="button" class="chatbot-close" id="chatbot-close" aria-label="Đóng trợ lý">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
     <div class="chatbot-log" id="chatbot-log" aria-live="polite"></div>
     <div class="chatbot-input-row">
-      <input type="text" id="chatbot-input" placeholder="Nhập câu hỏi về xe, thuê xe…" aria-label="Câu hỏi cho trợ lý">
-      <button type="button" id="chatbot-send" aria-label="Gửi câu hỏi">Gửi</button>
+      <textarea id="chatbot-input" rows="1" placeholder="Nhập câu hỏi về xe, thuê xe…" aria-label="Câu hỏi cho trợ lý"></textarea>
+      <button type="button" id="chatbot-send" aria-label="Gửi câu hỏi">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 9h12M10 4.5 14.5 9 10 13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Gửi</span>
+      </button>
     </div>
   </div>
 </div>`;
 }
 
 function footerHtml() {
-  const cols = HOME_CATEGORY_ORDER.slice(0, 10).map(slug => {
+  const mainCats = HOME_CATEGORY_ORDER.slice(0, 8).map(slug => {
+    const c = CATEGORIES.find(x => x.slug === slug);
+    return `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`;
+  }).join('');
+  const otherCats = HOME_CATEGORY_ORDER.slice(8).map(slug => {
     const c = CATEGORIES.find(x => x.slug === slug);
     return `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`;
   }).join('');
@@ -131,20 +162,27 @@ function footerHtml() {
   <div class="footer-inner">
     <div class="footer-brand">
       ${logoMark()}
-      <p>${esc(SITE.tagline)}</p>
+      <p class="footer-tag">${esc(SITE.tagline)}</p>
+      <p class="footer-note">Nội dung mang tính kiến thức tham khảo, viết bằng tiếng Việt cho người Việt. AI WIKI TOTAL không bán xe và không tự publish dữ kiện kinh doanh chưa xác minh.</p>
     </div>
-    <nav class="footer-cats" aria-label="Danh mục">
-      ${cols}
+    <nav class="footer-col footer-cats" aria-label="Danh mục">
+      <p class="footer-col-title">Danh mục chính</p>
+      ${mainCats}
+      <a class="footer-more" href="${u('hub/')}">Tất cả danh mục →</a>
+    </nav>
+    <nav class="footer-col footer-cats" aria-label="Danh mục khác">
+      <p class="footer-col-title">Chủ đề khác</p>
+      ${otherCats}
+    </nav>
+    <nav class="footer-col footer-meta" aria-label="Tiện ích">
+      <p class="footer-col-title">Tiện ích</p>
+      <a href="${u('gioi-thieu/')}">Giới thiệu</a>
+      <a href="${u('tim-kiem/')}">Tìm kiếm</a>
       <a href="${u('hub/')}">Trung tâm chủ đề</a>
       <a href="${u('map/')}">Bản đồ</a>
       <a href="${u('news/')}">Tin tức</a>
       <a href="${u('docs/')}">Tài liệu</a>
     </nav>
-    <div class="footer-meta">
-      <a href="${u('gioi-thieu/')}">Giới thiệu</a>
-      <a href="${u('tim-kiem/')}">Tìm kiếm</a>
-    </div>
-    <p class="footer-note">Nội dung mang tính kiến thức tham khảo, viết bằng tiếng Việt cho người Việt. AI WIKI TOTAL không bán xe và không tự publish dữ kiện kinh doanh chưa xác minh.</p>
   </div>
 </footer>`;
 }
@@ -193,6 +231,7 @@ ${o.content}
 ${footerHtml()}
 ${searchModal()}
 ${chatbotMarkup()}
+<script src="${u('assets/js/overlay.js')}"></script>
 <script src="${u('assets/js/nav.js')}"></script>
 <script src="${u('assets/js/search.js')}"></script>
 <script src="${u('assets/js/chatbot.js')}"></script>

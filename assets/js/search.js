@@ -1,4 +1,6 @@
 // AI WIKI TOTAL — tìm kiếm client-side trên chỉ mục sinh sẵn
+// Modal đăng ký qua AWT (overlay.js): khoá cuộn body, lưu/phục hồi focus,
+// đóng AI/menu/dropdown/mega khi mở — chỉ một overlay tại một thời điểm.
 (function () {
   'use strict';
   var BASE = document.body.getAttribute('data-base-path') || '/';
@@ -36,7 +38,6 @@
     return s;
   }
 
-
   function doSearch(q, cb) {
     var terms = normalize(q).split(' ').filter(Boolean);
     if (!terms.length) return cb([]);
@@ -67,24 +68,40 @@
     }).join('');
   }
 
-  // Modal tìm kiếm trên header
+  // Modal tìm kiếm trên header — một overlay duy nhất, phối hợp qua AWT
   function bindModal() {
+    var AWT = window.AWT;
     var open = document.getElementById('search-open');
     var modal = document.getElementById('search-modal');
     var input = document.getElementById('search-input');
     var results = document.getElementById('search-results');
     var close = document.getElementById('search-close');
-    if (!open || !modal) return;
-    open.addEventListener('click', function () {
-      modal.hidden = false;
-      input.focus();
+    if (!open || !modal || !AWT) return;
+
+    AWT.register('search', {
+      lock: true, // khoá cuộn body khi modal mở
+      focusEl: input,
+      open: function () {
+        modal.hidden = false;
+        input.select();
+      },
+      close: function () { modal.hidden = true; },
+      isOpen: function () { return !modal.hidden; }
     });
-    close.addEventListener('click', function () { modal.hidden = true; });
-    modal.addEventListener('click', function (e) { if (e.target === modal) modal.hidden = true; });
+
+    open.addEventListener('click', function () { AWT.open('search'); });
+    close.addEventListener('click', function () { AWT.close('search'); });
+    // Click nền (backdrop) → đóng
+    modal.addEventListener('click', function (e) { if (e.target === modal) AWT.close('search'); });
+
+    // Ctrl/Cmd+K mở tìm kiếm; Escape đóng qua AWT (một nơi duy nhất)
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && !modal.hidden) modal.hidden = true;
-      if ((e.ctrlKey || e.metaKey) && e.key === 'k') { modal.hidden = false; input.focus(); e.preventDefault(); }
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) {
+        e.preventDefault();
+        if (!AWT.isOpen('search')) AWT.open('search'); else input.focus();
+      }
     });
+
     var timer = null;
     input.addEventListener('input', function () {
       clearTimeout(timer);

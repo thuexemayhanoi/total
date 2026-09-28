@@ -264,6 +264,79 @@ const orderOk = HOME_CATEGORY_ORDER[0] === 'thue-xe';
 ok(orderOk, 'Thứ tự trang chủ đặt Thuê Xe đầu tiên');
 ok(home.includes('Xe điện') && home.includes('Xe ô tô'), 'Dropdown/cụm thuê xe có đủ 3 hub con');
 
+// ---------- 14. Kiến trúc overlay (một overlay tại một thời điểm) ----------
+console.log('Kiểm thử overlay / mobile / article UI…');
+const overlayJs = read('assets/js/overlay.js');
+const navJs = read('assets/js/nav.js');
+const searchJs = read('assets/js/search.js');
+const chatbotJs = read('assets/js/chatbot.js');
+const atlasCss = read('assets/css/atlas.css');
+ok(exists('assets/js/overlay.js'), 'Có trình quản lý overlay dùng chung');
+ok(overlayJs.includes('closeAll'), 'Overlay: cơ chế đóng-mọi-overlay-khi-mở (mutual exclusion)');
+ok(overlayJs.includes('Escape'), 'Overlay: Escape đóng đúng UI active');
+ok(overlayJs.includes('awt-lock'), 'Overlay: khoá cuộn body qua lớp awt-lock');
+ok(overlayJs.includes('savedFocus') && overlayJs.includes('restoreFocus') || overlayJs.includes('focus'), 'Overlay: lưu/phục hồi focus');
+ok(searchJs.includes("AWT.register('search'") && chatbotJs.includes("AWT.register('ai'") &&
+  navJs.includes("AWT.register('dropdown'") && navJs.includes("AWT.register('mega'") && navJs.includes("AWT.register('menu'"),
+  'Search/AI/menu/dropdown/mega đều đăng ký qua AWT — không overlay chồng nhau');
+ok(!searchJs.includes("key === 'Escape'") && !chatbotJs.includes("key === 'Escape'"),
+  'Escape xử lý MỘT nơi duy nhất (overlay.js), không rải rác');
+ok(atlasCss.includes('[hidden] { display: none !important; }') || atlasCss.includes('[hidden]{display:none!important}'),
+  'CSS: [hidden] luôn ẩn — sửa lỗi Search/AI chồng nhau trên mobile');
+ok(atlasCss.includes('overflow-x: clip'), 'CSS: chống cuộn ngang toàn trang');
+ok(atlasCss.includes('100dvh') || atlasCss.includes('dvh'), 'CSS: dùng dvh cho vùng nhìn động');
+ok(atlasCss.includes('safe-area-inset-top') && atlasCss.includes('safe-area-inset-bottom') &&
+  atlasCss.includes('safe-area-inset-left') && atlasCss.includes('safe-area-inset-right'),
+  'CSS: đủ 4 env(safe-area-inset-*) cho iPhone');
+ok(/\.chatbot-launcher\s*{[^}]*var\(--sab\)/.test(atlasCss), 'Launcher AI tính safe-area-bottom');
+ok(/\.chatbot-panel\s*{[^}]*var\(--sab\)/.test(atlasCss), 'Panel AI tính safe-area-bottom');
+ok(/\.search-modal\s*{[^}]*var\(--sat\)/.test(atlasCss), 'Search modal tính safe-area-top');
+ok(chatbotJs.includes('textarea') || home.includes('textarea'), 'Composer AI là textarea nhiều dòng');
+ok(/#chatbot-send[^{]*{[^}]*min-height:\s*4[4-9]px/.test(atlasCss), 'Nút gửi AI >= 44px');
+ok(atlasCss.includes('min-height: 44px'), 'CSS: mục tiêu chạm >= 44px');
+
+// Mọi trang sinh ra: shell chuẩn + script overlay tải trước nav
+for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+  const html = read(f);
+  const o1 = html.indexOf('assets/js/overlay.js');
+  const o2 = html.indexOf('assets/js/nav.js');
+  ok(o1 > 0 && o2 > o1, `${f}: overlay.js tải trước nav.js`);
+  ok(html.includes('class="skip-link"'), `${f}: có skip-link`);
+  ok(html.includes('site-header') && html.includes('site-footer'), `${f}: đủ header/footer`);
+  const h1Count = (html.match(/<h1[\s>]/g) || []).length;
+  ok(h1Count === 1, `${f}: đúng một H1`, String(h1Count));
+  ok(!html.includes('/total/total/'), `${f}: không có /total/total/`);
+}
+
+// ---------- 15. Article UI ----------
+for (const a of artModules) {
+  const rel = a.hub ? `${a.category}/${a.hub}/${a.slug}/index.html` : `${a.category}/${a.slug}/index.html`;
+  const html = read(rel);
+  ok(html.includes('class="toc"') && html.includes('Mục lục'), `Article ${a.slug}: có mục lục`);
+  ok(html.includes('Câu trả lời nhanh') && html.includes('Điểm chính'), `Article ${a.slug}: có quick answer + key points`);
+  ok(html.includes('phút đọc'), `Article ${a.slug}: có thời gian đọc`);
+  ok(html.includes('art-pn') && (html.includes('Bài trước') || html.includes('Bài sau')), `Article ${a.slug}: có điều hướng bài trước/sau`);
+  // Mọi link mục lục trỏ tới section tồn tại
+  const tocHrefs = [...html.matchAll(/href="#(muc-\d+)"/g)].map(m => m[1]);
+  const secIds = [...html.matchAll(/id="(muc-\d+)"/g)].map(m => m[1]);
+  ok(tocHrefs.length > 0 && tocHrefs.every(id => secIds.includes(id)), `Article ${a.slug}: mục lục khớp section`);
+  // Schema + canonical không đổi
+  ok(html.includes('"@type": "Article"') || html.includes('"@type":"Article"'), `Article ${a.slug}: schema Article nguyên vẹn`);
+  ok(html.includes('rel="canonical"'), `Article ${a.slug}: canonical nguyên vẹn`);
+  ok(html.includes('itemscope itemtype="https://schema.org/Article"'), `Article ${a.slug}: microdata Article nguyên vẹn`);
+}
+// Bảng + ảnh + code responsive trong CSS dùng chung
+ok(/\.prose table\s*{[^}]*overflow-x:\s*auto/.test(atlasCss), 'CSS: bảng trong bài cuộn riêng, không tràn');
+ok(/\.prose img\s*{[^}]*max-width:\s*100%/.test(atlasCss), 'CSS: ảnh trong bài không tràn');
+ok(/\.prose pre\s*{[^}]*overflow-x:\s*auto/.test(atlasCss), 'CSS: khối code cuộn riêng');
+ok(atlasCss.includes('overflow-wrap: anywhere') || atlasCss.includes('overflow-wrap: break-word'), 'CSS: URL dài wrap an toàn');
+ok(/--read-w:\s*7[6-9]\dpx/.test(atlasCss), 'CSS: cột đọc 760–820px');
+
+// ---------- 16. Factory state không đổi ----------
+const publishedSlots = matrix.slots.filter(s => s.state === 'PUBLISHED').length;
+ok(publishedSlots === artFiles.length, 'Số slot PUBLISHED khớp số bài đã sinh', `${publishedSlots} vs ${artFiles.length}`);
+ok(readJson('factory/state/checkpoint.json').slotCount === 12, 'Checkpoint giữ nguyên 12 slot (không reset factory)');
+
 // ---------- Kết quả ----------
 console.log('');
 console.log('=== KẾT QUẢ KIỂM THỬ AI WIKI TOTAL ===');
