@@ -26,12 +26,14 @@ jobs:
       - name: Sinh og-cover.png
         run: node scripts/make-og-image.mjs
 
+      # Lưu ý: git diff KHÔNG thấy file chưa được track — phải git add trước,
+      # rồi so sánh khu vực staged, nếu không file mới sẽ bị bỏ qua.
       - name: Commit nếu thay đổi
         run: |
-          if ! git diff --quiet -- assets/img/og-cover.png; then
+          git add assets/img/og-cover.png
+          if ! git diff --cached --quiet -- assets/img/og-cover.png; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add assets/img/og-cover.png
             git commit -m "Sinh og-cover.png cho Open Graph [skip ci]"
             git push
           else
