@@ -1,0 +1,5 @@
+# robots.txt — AI WIKI TOTAL
+User-agent: *
+Allow: /
+
+Sitemap: https://thuexemayhanoi.github.io/total/sitemap.xml

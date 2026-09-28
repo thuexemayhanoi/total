@@ -1,0 +1,2006 @@
+[
+ {
+  "kind": "page",
+  "url": "",
+  "title": "AI WIKI TOTAL — Cẩm nang xe, thuê xe và kiến thức giao thông Việt Nam",
+  "description": "Cẩm nang tiếng Việt về thuê xe, xe máy, xe điện, ô tô, sửa chữa, giá xe, địa phương và hành trình — kiến thức tổng hợp cho người Việt.",
+  "category": "",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Kiến thức xe, thuê xe và hành trình cho người Việt."
+ },
+ {
+  "kind": "page",
+  "url": "gioi-thieu/",
+  "title": "Giới thiệu AI WIKI TOTAL",
+  "description": "Giới thiệu về AI WIKI TOTAL",
+  "category": "",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": ""
+ },
+ {
+  "kind": "category",
+  "url": "thue-xe/",
+  "title": "Thuê xe",
+  "description": "Thuê xe máy, xe điện, ô tô: thủ tục, đặt cọc và kinh nghiệm chọn xe.",
+  "category": "Thuê xe",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Cụm kiến thức thuê xe: thuê xe máy, xe điện, ô tô tự lái — thủ tục, giấy tờ, đặt cọc, hợp đồng, nghiệm thu xe và kinh nghiệm chọn xe phù hợp mỗi chuyến đi."
+ },
+ {
+  "kind": "hub",
+  "url": "thue-xe/xe-may/",
+  "title": "Xe máy",
+  "description": "Giá thuê, thủ tục và kinh nghiệm chọn xe.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [],
+  "keywords": [
+   "thuê xe máy",
+   "thuê xe máy hà nội",
+   "thuê honda vision",
+   "giấy tờ thuê xe",
+   "kinh nghiệm thuê xe máy",
+   "kiểm tra xe thuê"
+  ],
+  "summary": "Tổng hợp kiến thức thuê xe máy: loại xe phổ biến tại các điểm cho thuê, thủ tục cần chuẩn bị, cách kiểm tra xe khi nhận và khi trả, cùng kinh nghiệm chọn xe phù hợp với mục đích chuyến đi."
+ },
+ {
+  "kind": "hub",
+  "url": "thue-xe/xe-dien/",
+  "title": "Xe điện",
+  "description": "Thuê xe điện, pin, phạm vi hoạt động và chi phí.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [],
+  "keywords": [
+   "thuê xe điện",
+   "pin xe điện",
+   "trạm sạc",
+   "phạm vi hoạt động",
+   "chi phí sạc",
+   "thuê xe điện giao thông"
+  ],
+  "summary": "Thuê xe điện khác thuê xe xăng ở điểm quản lý pin và phạm vi hoạt động. Hub này tổng hợp kiến thức chọn xe điện, sạc pin đúng cách, tính chi phí sạc và lưu ý khi di chuyển quãng đường xa."
+ },
+ {
+  "kind": "hub",
+  "url": "thue-xe/xe-oto/",
+  "title": "Xe ô tô",
+  "description": "Kiến thức thuê ô tô, thủ tục và lựa chọn phù hợp.",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "entities": [],
+  "keywords": [
+   "thuê ô tô tự lái",
+   "thuê xe 4 chỗ",
+   "đặt cọc thuê ô tô",
+   "hợp đồng thuê ô tô",
+   "nghiệm thu xe",
+   "thuê ô tô đường dài"
+  ],
+  "summary": "Thuê ô tô tự lái đòi hỏi thủ tục chặt hơn xe máy: giấy phép lái xe hợp hạng, đặt cọc, hợp đồng và nghiệm thu xe kỹ lưỡng. Hub này tổng hợp mọi điều cần biết trước khi thuê ô tô tự lái."
+ },
+ {
+  "kind": "category",
+  "url": "guide/",
+  "title": "Hướng dẫn",
+  "description": "Hướng dẫn từng bước về mua, thuê, sử dụng và bảo dưỡng xe.",
+  "category": "Hướng dẫn",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Hướng dẫn kiến thức theo từng bước: mua xe, thuê xe, sử dụng xe hàng ngày, bảo dưỡng định kỳ, xử lý sự cố và thủ tục giấy tờ — viết cho người Việt, theo trình tự thực tế."
+ },
+ {
+  "kind": "hub",
+  "url": "guide/mua-xe/",
+  "title": "Mua xe",
+  "description": "Quy trình mua xe mới và cũ.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [],
+  "keywords": [
+   "mua xe máy mới",
+   "mua xe cũ",
+   "thủ tục sang tên",
+   "chọn xe theo nhu cầu",
+   "kiểm tra xe trước khi mua"
+  ],
+  "summary": "Từ xác định nhu cầu, chọn loại xe, so sánh giá đến làm thủ tục sang tên — trình tự đầy đủ khi quyết định mua một chiếc xe."
+ },
+ {
+  "kind": "hub",
+  "url": "guide/thue-xe/",
+  "title": "Thuê xe",
+  "description": "Hướng dẫn kiến thức thuê xe.",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "entities": [],
+  "keywords": [
+   "hướng dẫn thuê xe",
+   "đọc hợp đồng thuê xe",
+   "nghiệm thu xe thuê",
+   "quy trình thuê xe"
+  ],
+  "summary": "Hướng dẫn kiến thức về thuê xe (khác với cụm commercial /thue-xe/): cách đọc hợp đồng, chuẩn bị giấy tờ, nghiệm thu — tiếp cận dưới góc độ quy trình."
+ },
+ {
+  "kind": "hub",
+  "url": "guide/su-dung-xe/",
+  "title": "Sử dụng xe",
+  "description": "Dùng xe đúng cách mỗi ngày.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [],
+  "keywords": [
+   "cách sử dụng xe máy",
+   "chạy rà máy",
+   "để xe nơi nào",
+   "vận hành xe ga",
+   "thói quen dùng xe"
+  ],
+  "summary": "Vận hành, để xe, tiếp nhiên liệu, chạy rà máy và những thói quen hằng ngày giúp xe bền và an toàn hơn."
+ },
+ {
+  "kind": "hub",
+  "url": "guide/bao-duong/",
+  "title": "Bảo dưỡng",
+  "description": "Bảo dưỡng xe theo chu kỳ.",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "entities": [],
+  "keywords": [
+   "bảo dưỡng định kỳ",
+   "thay dầu nhớt",
+   "lịch bảo dưỡng xe máy",
+   "vệ sinh lọc gió",
+   "bảo dưỡng xe ga"
+  ],
+  "summary": "Lịch bảo dưỡng định kỳ theo số km: dầu nhớt, lọc gió, bugi, dầu hộp số, xiên chuyên và những hạng mục cần nhớ."
+ },
+ {
+  "kind": "hub",
+  "url": "guide/xu-ly-su-co/",
+  "title": "Xử lý sự cố",
+  "description": "Xử lý khi xe gặp sự cố.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [],
+  "keywords": [
+   "xe không nổ máy",
+   "xe chết máy giữa đường",
+   "thủng lốp giữa đường",
+   "cứu hộ xe máy",
+   "xe mất điện"
+  ],
+  "summary": "Xe không nổ, chết máy giữa đường, mất phanh, thủng lốp — cách nhận diện, xử lý an toàn tại chỗ và khi nào cần gọi hỗ trợ."
+ },
+ {
+  "kind": "hub",
+  "url": "guide/thu-tuc-xe/",
+  "title": "Thủ tục xe",
+  "description": "Giấy tờ và thủ tục pháp lý xe.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [],
+  "keywords": [
+   "đăng ký xe máy",
+   "sang tên xe",
+   "đổi giấy phép lái xe",
+   "thủ tục xe máy",
+   "nộp phí trước bạ"
+  ],
+  "summary": "Đăng ký xe, đăng kiểm, chuyển nhượng, đổi giấy phép lái xe và các thủ tục pháp lý thường gặp của người sở hữu xe."
+ },
+ {
+  "kind": "category",
+  "url": "hub/",
+  "title": "Trung tâm chủ đề",
+  "description": "Thư mục các cụm chủ đề: hãng xe, dòng xe, loại xe và nhu cầu sử dụng.",
+  "category": "Trung tâm chủ đề",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Thư mục trung tâm điều hướng: theo hãng xe, dòng xe, loại xe, nhu cầu sử dụng, địa phương và vấn đề thường gặp — điểm khởi đầu khi bạn chưa biết bắt đầu từ đâu."
+ },
+ {
+  "kind": "hub",
+  "url": "hub/hang-xe/",
+  "title": "Hãng xe",
+  "description": "Chủ đề theo hãng sản xuất.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Hãng xe",
+  "entities": [],
+  "keywords": [
+   "hãng xe máy việt nam",
+   "honda việt nam",
+   "yamaha việt nam",
+   "vinfast",
+   "so sánh hãng xe"
+  ],
+  "summary": "Honda, Yamaha, Suzuki, SYM, Piaggio, VinFast — tổng quan các hãng xe phổ biến tại Việt Nam."
+ },
+ {
+  "kind": "hub",
+  "url": "hub/dong-xe/",
+  "title": "Dòng xe",
+  "description": "Chủ đề theo dòng xe.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Dòng xe",
+  "entities": [],
+  "keywords": [
+   "dòng xe ga",
+   "xe vision",
+   "air blade",
+   "grande",
+   "freego"
+  ],
+  "summary": "Vision, Air Blade, Vision Future, FreeGo, Grande — kiến thức theo từng dòng xe cụ thể đang lưu hành."
+ },
+ {
+  "kind": "hub",
+  "url": "hub/loai-xe/",
+  "title": "Loại xe",
+  "description": "Chủ đề theo loại xe.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Loại xe",
+  "entities": [],
+  "keywords": [
+   "xe số hay xe ga",
+   "xe côn tay",
+   "xe điện",
+   "xe 50cc",
+   "phân loại xe máy"
+  ],
+  "summary": "Xe số, xe ga, xe điện, xe côn tay, xe 50cc — đặc điểm và cách chọn theo loại xe."
+ },
+ {
+  "kind": "hub",
+  "url": "hub/nhu-cau-su-dung/",
+  "title": "Nhu cầu sử dụng",
+  "description": "Chủ đề theo nhu cầu.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Nhu cầu sử dụng",
+  "entities": [],
+  "keywords": [
+   "xe đi làm",
+   "xe chở gia đình",
+   "xe đi phượt",
+   "xe giao hàng",
+   "chọn xe theo nhu cầu"
+  ],
+  "summary": "Đi làm hằng ngày, chở gia đình, đi phượt, giao hàng — chọn xe và dùng xe theo đúng nhu cầu thực tế."
+ },
+ {
+  "kind": "hub",
+  "url": "hub/dia-phuong/",
+  "title": "Địa phương",
+  "description": "Chủ đề theo địa phương.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Địa phương",
+  "entities": [],
+  "keywords": [
+   "giao thông hà nội",
+   "giao thông tp hcm",
+   "xe máy địa phương",
+   "quy định giao thông địa phương"
+  ],
+  "summary": "Kiến thức xe theo từng thành phố: điều kiện giao thông, quy định địa phương và đặc thù từng khu vực."
+ },
+ {
+  "kind": "hub",
+  "url": "hub/van-de-thuong-gap/",
+  "title": "Vấn đề thường gặp",
+  "description": "Chủ đề theo vấn đề.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [],
+  "keywords": [
+   "xe bị bó phanh",
+   "xe hao xăng",
+   "ắc quy yếu",
+   "xe máy kêu",
+   "máy ì"
+  ],
+  "summary": "Bó phanh, hao xăng, ắc quy yếu, máy ì — thư mục các vấn đề người dùng xe hay gặp nhất."
+ },
+ {
+  "kind": "category",
+  "url": "wiki/",
+  "title": "Bách khoa xe",
+  "description": "Kiến thức nền tảng về cấu tạo, động cơ, điện và thuật ngữ xe.",
+  "category": "Bách khoa xe",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Bách khoa toàn thư về xe máy: cấu tạo, động cơ, điện xe, hệ thống phanh, lốp bánh xe, dầu nhớt, ắc quy pin và thuật ngữ chuyên ngành — nền tảng để hiểu mọi bài viết sâu hơn."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/cau-tao-xe/",
+  "title": "Cấu tạo xe",
+  "description": "Cấu tạo tổng thể một chiếc xe máy.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [],
+  "keywords": [
+   "cấu tạo xe máy",
+   "khung xe",
+   "hệ thống treo",
+   "các cụm xe máy",
+   "bộ phận xe máy"
+  ],
+  "summary": "Khung xe, hệ thống treo, yên xe, đồng hồ, các cụm chính và vai trò của từng bộ phận trên xe máy."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/dong-co/",
+  "title": "Động cơ",
+  "description": "Nguyên lý động cơ xe máy.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [],
+  "keywords": [
+   "động cơ xe máy",
+   "nguyên lý 4 thì",
+   "piston xy lanh",
+   "dung tích xi lanh",
+   "tỷ số nén"
+  ],
+  "summary": "Động cơ four thì, two thì, xy-lanh, piston, cam — cách động cơ biến nhiên liệu thành chuyển động."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/dien-xe/",
+  "title": "Điện xe",
+  "description": "Hệ thống điện trên xe.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [],
+  "keywords": [
+   "hệ thống điện xe",
+   "ắc quy xe máy",
+   "đèn xe máy",
+   "còi xe",
+   "mạch điện xe"
+  ],
+  "summary": "Ắc quy, còi, đèn, gầu sạc và mạch điện — hệ thống dễ gặp rối nhất trên xe máy."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/he-thong-phanh/",
+  "title": "Hệ thống phanh",
+  "description": "Cấu tạo và nguyên lý phanh.",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "entities": [],
+  "keywords": [
+   "phanh đĩa",
+   "phanh tang trống",
+   "abs xe máy",
+   "cấu tạo phanh",
+   "bảo dưỡng phanh"
+  ],
+  "summary": "Phanh đĩa khác phanh tang trống chỗ nào, ABS trên xe máy hoạt động ra sao và cách bảo dưỡng hệ thống phanh."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/lop-banh-xe/",
+  "title": "Lốp và bánh xe",
+  "description": "Lốp xe và cách chọn.",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "entities": [],
+  "keywords": [
+   "lốp xe máy",
+   "kích cỡ lốp",
+   "lốp không săng",
+   "áp suất lốp",
+   "thay lốp khi nào"
+  ],
+  "summary": "Kích cỡ lốp, không lốp, lốp không săng, thời điểm thay và cách đọc ký hiệu trên lốp xe máy."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/dau-nhot/",
+  "title": "Dầu nhớt",
+  "description": "Dầu nhớt và các loại dầu.",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "entities": [],
+  "keywords": [
+   "dầu nhớt xe máy",
+   "độ đặc dầu",
+   "chu kỳ thay dầu",
+   "chọn dầu nhớt",
+   "dầu hộp số"
+  ],
+  "summary": "Dầu động cơ, dầu hộp số, độ đặc (độ sệt), chu kỳ thay và cách chọn đúng loại dầu cho xe."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/ac-quy-pin/",
+  "title": "Ắc quy và pin",
+  "description": "Ắc quy xe và pin xe điện.",
+  "category": "Bách khoa xe",
+  "hub": "Ắc quy và pin",
+  "entities": [],
+  "keywords": [
+   "ắc quy xe máy",
+   "ắc quy khô",
+   "pin xe điện",
+   "sạc ắc quy",
+   "tuổi thọ pin"
+  ],
+  "summary": "Ắc quy khô, ắc quy nước, pin lithium trên xe điện — cấu tạo, cách sạc và tuổi thọ."
+ },
+ {
+  "kind": "hub",
+  "url": "wiki/thuat-ngu-xe/",
+  "title": "Thuật ngữ xe",
+  "description": "Từ điển thuật ngữ.",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "entities": [],
+  "keywords": [
+   "thuật ngữ xe máy",
+   "từ điển xe máy",
+   "mô men xoắn",
+   "côn là gì",
+   "cvt là gì"
+  ],
+  "summary": "Giải nghĩa các thuật ngữ kỹ thuật xe máy bằng tiếng Việt — từ \"tuabin\" đến \"côn\", từ \"CVT\" đến \"mô-men xoắn\"."
+ },
+ {
+  "kind": "category",
+  "url": "learn/",
+  "title": "Kiến thức chuyên sâu",
+  "description": "Kỹ thuật lái xe, chăm sóc xe, đọc thông số và pháp lý.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Kiến thức chuyên sâu cho người muốn hiểu rõ hơn: kỹ thuật lái xe, chăm sóc xe, đọc hiểu thông số kỹ thuật, chẩn đoán lỗi, kiến thức pháp lý và kiến thức xe điện."
+ },
+ {
+  "kind": "hub",
+  "url": "learn/ky-thuat-lai-xe/",
+  "title": "Kỹ thuật lái xe",
+  "description": "Kỹ năng lái xe nâng cao.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [],
+  "keywords": [
+   "kỹ thuật lái xe máy",
+   "phanh khẩn cấp",
+   "vào cua an toàn",
+   "lái xe đường mưa",
+   "chở người ngồi sau"
+  ],
+  "summary": "Vào cua, phanh khẩn cấp, lái xe đường trơn, chở người ngồi sau — kỹ thuật lái an toàn ở các tình huống thực tế."
+ },
+ {
+  "kind": "hub",
+  "url": "learn/cham-soc-xe/",
+  "title": "Chăm sóc xe",
+  "description": "Chăm sóc xe lâu dài.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [],
+  "keywords": [
+   "chăm sóc xe máy",
+   "rửa xe đúng cách",
+   "chống rỉ sét xe",
+   "giữ xe bền",
+   "để xe nơi ẩm"
+  ],
+  "summary": "Rửa xe đúng cách, để xe nơi hợp lý, chống rỉ sét và thói quen giữ xe bền qua các năm."
+ },
+ {
+  "kind": "hub",
+  "url": "learn/doc-thong-so/",
+  "title": "Đọc thông số",
+  "description": "Đọc hiểu thông số kỹ thuật.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "entities": [],
+  "keywords": [
+   "đọc thông số xe",
+   "công suất mô men xoắn",
+   "tỷ số truyền",
+   "bảng thông số xe",
+   "kích thước lốp"
+  ],
+  "summary": "Công suất, mô-men xoắn, kích thước lốp, tỷ số truyền — cách đọc bảng thông số và hiểu ý nghĩa thực tế."
+ },
+ {
+  "kind": "hub",
+  "url": "learn/chuan-doan-loi/",
+  "title": "Chẩn đoán lỗi",
+  "description": "Chẩn đoán lỗi từ dấu hiệu.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "entities": [],
+  "keywords": [
+   "chẩn đoán lỗi xe",
+   "xe kêu lạch cạch",
+   "xe rung bất thường",
+   "xe ra khói",
+   "xe có mùi khét"
+  ],
+  "summary": "Tiếng kêu, rung, mùi, khói — phương pháp chẩn đoán sự cố xe từ dấu hiệu bên ngoài trước khi đến thợ."
+ },
+ {
+  "kind": "hub",
+  "url": "learn/kien-thuc-phap-ly/",
+  "title": "Kiến thức pháp lý",
+  "description": "Pháp lý giao thông xe.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [],
+  "keywords": [
+   "luật giao thông đường bộ",
+   "xử phạt vi phạm",
+   "bảo hiểm trách nhiệm",
+   "điều kiện lái xe máy",
+   "giấy tờ khi lái xe"
+  ],
+  "summary": "Luật giao thông, mức xử phạt, điều kiện lái xe, bảo hiểm bắt buộc — kiến thức pháp lý người điều khiển xe cần nắm."
+ },
+ {
+  "kind": "hub",
+  "url": "learn/kien-thuc-xe-dien/",
+  "title": "Kiến thức xe điện",
+  "description": "Nền tảng về xe điện.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [],
+  "keywords": [
+   "xe điện là gì",
+   "động cơ xe điện",
+   "pin lithium",
+   "sạc xe điện",
+   "xe điện việt nam"
+  ],
+  "summary": "Động cơ điện, pin, sạc, phạm vi — nền tảng kiến thức để hiểu và chọn xe điện tại Việt Nam."
+ },
+ {
+  "kind": "category",
+  "url": "moto/",
+  "title": "Xe máy",
+  "description": "Kiến thức về các dòng xe máy: Honda, Yamaha, Suzuki, SYM, Piaggio và các loại xe.",
+  "category": "Xe máy",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Kiến thức về xe máy tại Việt Nam: các hãng Honda, Yamaha, Suzuki, SYM, Piaggio, phân khúc xe 50cc, xe số, xe ga, xe côn tay — thông số, vận hành và đặc điểm từng dòng."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/honda/",
+  "title": "Honda",
+  "description": "Kiến thức về các dòng xe máy Honda tại Việt Nam.",
+  "category": "Xe máy",
+  "hub": "Honda",
+  "entities": [],
+  "keywords": [
+   "honda vision",
+   "honda air blade",
+   "honda sh",
+   "honda wave",
+   "xe honda việt nam"
+  ],
+  "summary": "Honda chiếm phần lớn thị trường xe máy Việt Nam: Vision, Air Blade, Future, SH, Wave — thông số, đặc điểm và vị trí từng dòng trong thị trường."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/yamaha/",
+  "title": "Yamaha",
+  "description": "Kiến thức về các dòng xe máy Yamaha.",
+  "category": "Xe máy",
+  "hub": "Yamaha",
+  "entities": [],
+  "keywords": [
+   "yamaha grande",
+   "yamaha freego",
+   "yamaha sirius",
+   "xe yamaha",
+   "janus"
+  ],
+  "summary": "Grande, FreeGo, Sirius, Janus — kiến thức về các dòng xe Yamaha và phong cách khác biệt của hãng."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/suzuki/",
+  "title": "Suzuki",
+  "description": "Kiến thức về các dòng xe máy Suzuki.",
+  "category": "Xe máy",
+  "hub": "Suzuki",
+  "entities": [],
+  "keywords": [
+   "suzuki raider",
+   "suzuki address",
+   "xe suzuki",
+   "suzuki gd",
+   "suzuki việt nam"
+  ],
+  "summary": "Raider, Address, GD — kiến thức về các dòng xe Suzuki tại Việt Nam và đặc điểm thiết kế thể thao."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/sym/",
+  "title": "SYM",
+  "description": "Kiến thức về các dòng xe SYM.",
+  "category": "Xe máy",
+  "hub": "SYM",
+  "entities": [],
+  "keywords": [
+   "sym angela",
+   "sym elegant",
+   "xe sym",
+   "sym excel",
+   "sym việt nam"
+  ],
+  "summary": "Angela, Elegant, Excel — kiến thức về các dòng xe SYM và vị trí của hãng trong phân khúc phổ thông."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/piaggio/",
+  "title": "Piaggio",
+  "description": "Kiến thức về các dòng xe Piaggio và Vespa.",
+  "category": "Xe máy",
+  "hub": "Piaggio",
+  "entities": [],
+  "keywords": [
+   "piaggio liberty",
+   "vespa",
+   "piaggio medley",
+   "xe piaggio",
+   "scooter ý"
+  ],
+  "summary": "Vespa, Liberty, Medley — kiến thức về dòng xe scooter châu Âu và đặc điểm riêng của Piaggio tại Việt Nam."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/xe-50cc/",
+  "title": "Xe 50cc",
+  "description": "Kiến thức nhóm xe 50cc.",
+  "category": "Xe máy",
+  "hub": "Xe 50cc",
+  "entities": [],
+  "keywords": [
+   "xe 50cc",
+   "xe dưới 50cc cần bằng lái",
+   "quy định xe 50cc",
+   "xe điện dưới 50cc",
+   "xe 50cc cho học sinh"
+  ],
+  "summary": "Xe 50cc có cần bằng lái không, quy định hiện hành và đặc điểm nhóm xe dưới 50cc tại Việt Nam."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/xe-so/",
+  "title": "Xe số",
+  "description": "Kiến thức về xe số.",
+  "category": "Xe máy",
+  "hub": "Xe số",
+  "entities": [],
+  "keywords": [
+   "xe số",
+   "wave alpha",
+   "xe số hay xe ga",
+   "ưu điểm xe số",
+   "xe số 110"
+  ],
+  "summary": "Wave, Sirius, Blade — ưu điểm của xe số: bền, nhẹ, tiết kiệm và dễ sửa; phù hợp với người cần xe đi lại thuần."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/xe-ga/",
+  "title": "Xe ga",
+  "description": "Kiến thức về xe ga.",
+  "category": "Xe máy",
+  "hub": "Xe ga",
+  "entities": [],
+  "keywords": [
+   "xe ga",
+   "xe ga 110cc",
+   "xe ga 125cc",
+   "cvt xe ga",
+   "bảo dưỡng xe ga"
+  ],
+  "summary": "Vision, Grande, Air Blade — đặc điểm xe ga: cốp xe, CVT, cách dùng và bảo dưỡng khác xe số chỗ nào."
+ },
+ {
+  "kind": "hub",
+  "url": "moto/xe-con-tay/",
+  "title": "Xe côn tay",
+  "description": "Kiến thức về xe côn tay.",
+  "category": "Xe máy",
+  "hub": "Xe côn tay",
+  "entities": [],
+  "keywords": [
+   "xe côn tay",
+   "winner x",
+   "raider rck",
+   "cách lái xe côn",
+   "xe thể thao việt nam"
+  ],
+  "summary": "Winner X, Raider RCK — nhóm xe côn tay thể thao: cấu tạo, cách lái và đối tượng phù hợp."
+ },
+ {
+  "kind": "category",
+  "url": "ride/",
+  "title": "Hành trình",
+  "description": "Cung đường, du lịch xe máy, đi phượt và kỹ năng lái xe an toàn.",
+  "category": "Hành trình",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Hành trình với xe máy: cung đường trong cả nước, du lịch xe máy, đi phượt, kỹ năng đường dài, lái xe trong thành phố và an toàn giao thông."
+ },
+ {
+  "kind": "hub",
+  "url": "ride/cung-duong/",
+  "title": "Cung đường",
+  "description": "Các cung đường nổi tiếng.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [],
+  "keywords": [
+   "cung đường xe máy",
+   "phượt miền bắc",
+   "đường ven biển",
+   "cung đường núi",
+   "du lịch đường dài"
+  ],
+  "summary": "Tổng quan các cung đường xe máy quen thuộc — từ đường ven biển đến đường miền núi phía bắc — và đặc điểm từng cung."
+ },
+ {
+  "kind": "hub",
+  "url": "ride/du-lich-xe-may/",
+  "title": "Du lịch xe máy",
+  "description": "Du lịch bằng xe máy.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [],
+  "keywords": [
+   "du lịch xe máy",
+   "thuê xe du lịch",
+   "chuẩn bị đi phượt",
+   "lịch trình du lịch",
+   "du lịch tự túc"
+  ],
+  "summary": "Chuẩn bị hành trang, thuê xe địa phương, lịch trình và an toàn khi du lịch bằng xe máy."
+ },
+ {
+  "kind": "hub",
+  "url": "ride/di-phuot/",
+  "title": "Đi phượt",
+  "description": "Kỹ năng đi phượt.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [],
+  "keywords": [
+   "đi phượt",
+   "phượt đoàn",
+   "đi phượt mưa",
+   "an toàn khi phượt",
+   "kỹ năng phượt"
+  ],
+  "summary": "Đi phượt an toàn: đi theo đoàn, giữ khoảng cách, xử lý thời tiết xấu và những quy tắc bất thành văn."
+ },
+ {
+  "kind": "hub",
+  "url": "ride/lai-xe-duong-dai/",
+  "title": "Lái xe đường dài",
+  "description": "Kỹ năng đường dài.",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "entities": [],
+  "keywords": [
+   "lái xe đường dài",
+   "chạy xe đường trường",
+   "mệt mỏi khi lái",
+   "chuẩn bị xe đường dài",
+   "tốc độ đường trường"
+  ],
+  "summary": "Mệt mỏi, điểm dừng, tốc độ hợp lý và chuẩn bị xe trước chuyến đường dài."
+ },
+ {
+  "kind": "hub",
+  "url": "ride/lai-xe-trong-thanh-pho/",
+  "title": "Lái xe trong thành phố",
+  "description": "Kỹ năng đô thị.",
+  "category": "Hành trình",
+  "hub": "Lái xe trong thành phố",
+  "entities": [],
+  "keywords": [
+   "lái xe trong thành phố",
+   "luồn lách an toàn",
+   "giờ cao điểm",
+   "giao thông hà nội",
+   "lái xe đô thị"
+  ],
+  "summary": "Luồn lách an toàn, giữ khoảng cách, xử lý giờ cao điểm và giao thông đông đúc trong các thành phố lớn."
+ },
+ {
+  "kind": "hub",
+  "url": "ride/an-toan-giao-thong/",
+  "title": "An toàn giao thông",
+  "description": "An toàn cho mọi hành trình.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [],
+  "keywords": [
+   "an toàn giao thông",
+   "mũ bảo hiểm đạt chuẩn",
+   "quy tắc giao thông",
+   "tầm nhìn khi lái",
+   "an toàn xe máy"
+  ],
+  "summary": "Mũ bảo hiểm đạt chuẩn, quy tắc cơ bản, tầm nhìn và những thói quen giữ an toàn mỗi khi ra đường."
+ },
+ {
+  "kind": "category",
+  "url": "tips/",
+  "title": "Mẹo",
+  "description": "Mẹo thực dụng: lái xe, tiết kiệm xăng, bảo dưỡng, mua và thuê xe.",
+  "category": "Mẹo",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Mẹo thực dụng súc tích cho người dùng xe hằng ngày: mẹo lái xe, tiết kiệm xăng, bảo dưỡng, mua xe, thuê xe và xử lý sự cố nhanh."
+ },
+ {
+  "kind": "hub",
+  "url": "tips/meo-lai-xe/",
+  "title": "Mẹo lái xe",
+  "description": "Mẹo lái xe thực dụng.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [],
+  "keywords": [
+   "mẹo lái xe",
+   "lái xe êm",
+   "lái xe đỡ mệt",
+   "mẹo vào cua",
+   "lái xe an toàn"
+  ],
+  "summary": "Những mẹo nhỏ giúp lái xe êm hơn, an toàn hơn và đỡ mệt hơn trên mọi chặng đường."
+ },
+ {
+  "kind": "hub",
+  "url": "tips/meo-tiet-kiem-xang/",
+  "title": "Mẹo tiết kiệm xăng",
+  "description": "Mẹo giảm hao xăng.",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "entities": [],
+  "keywords": [
+   "tiết kiệm xăng",
+   "xe hao xăng",
+   "tốc độ tiết kiệm",
+   "giảm hao xăng",
+   "ép xe đúng cách"
+  ],
+  "summary": "Tốc độ tiết kiệm, ép xe đúng cách, bảo dưỡng ảnh hưởng hao xăng và thói quen giúp giảm tiêu hao nhiên liệu."
+ },
+ {
+  "kind": "hub",
+  "url": "tips/meo-bao-duong/",
+  "title": "Mẹo bảo dưỡng",
+  "description": "Mẹo bảo dưỡng rẻ.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [],
+  "keywords": [
+   "mẹo bảo dưỡng",
+   "vệ sinh lọc gió",
+   "đo áp suất lốp",
+   "giữ ắc quy",
+   "bảo dưỡng tự làm"
+  ],
+  "summary": "Bảo dưỡng nhỏ tự làm: vệ sinh lọc gió, đo áp suất lốp, giữ ắc quy — việc rẻ cứu xe đắt."
+ },
+ {
+  "kind": "hub",
+  "url": "tips/meo-mua-xe/",
+  "title": "Mẹo mua xe",
+  "description": "Mẹo khi mua xe.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [],
+  "keywords": [
+   "mẹo mua xe",
+   "kiểm tra xe cũ",
+   "mặc giá xe",
+   "thời điểm mua xe",
+   "mua xe trả góp"
+  ],
+  "summary": "Mua mới mua cũ: thời điểm mua, kiểm tra xe, mặc giá và những điều cần hỏi trước khi xuống tiền."
+ },
+ {
+  "kind": "hub",
+  "url": "tips/meo-thue-xe/",
+  "title": "Mẹo thuê xe",
+  "description": "Mẹo khi thuê xe.",
+  "category": "Mẹo",
+  "hub": "Mẹo thuê xe",
+  "entities": [],
+  "keywords": [
+   "mẹo thuê xe",
+   "thuê xe cần hỏi gì",
+   "kiểm tra xe thuê",
+   "tránh tranh chấp khi thuê xe",
+   "chụp ảnh xe thuê"
+  ],
+  "summary": "Chụp ảnh xe, hỏi rõ điều khoản, kiểm tra thử đề — những mẹo giúp chuyến thuê xe suôn sẻ và tránh tranh chấp."
+ },
+ {
+  "kind": "hub",
+  "url": "tips/meo-xu-ly-su-co/",
+  "title": "Mẹo xử lý sự cố",
+  "description": "Mẹo xử lý nhanh.",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "entities": [],
+  "keywords": [
+   "xe không nổ xử lý",
+   "lốp non nhanh",
+   "xe chết máy",
+   "mẹo cứu xe",
+   "sự cố giữa đường"
+  ],
+  "summary": "Xe không nổ, quên chìa, lốp non nhanh — mẹo xử lý tại chỗ khi gặp sự cố giữa đường."
+ },
+ {
+  "kind": "category",
+  "url": "docs/",
+  "title": "Tài liệu",
+  "description": "Hướng dẫn sử dụng, checklist, quy trình bảo dưỡng và biểu mẫu thủ tục.",
+  "category": "Tài liệu",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Tài liệu tham khảo dạng quy trình: hướng dẫn sử dụng, checklist, quy trình bảo dưỡng, thông số kỹ thuật, biểu mẫu và tài liệu tham khảo — viết dưới dạng tài liệu dùng lại được."
+ },
+ {
+  "kind": "hub",
+  "url": "docs/huong-dan-su-dung/",
+  "title": "Hướng dẫn sử dụng",
+  "description": "Hướng dẫn sử dụng từng loại xe.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [],
+  "keywords": [
+   "hướng dẫn sử dụng xe máy",
+   "cách đề xe ga",
+   "hướng dẫn xe điện",
+   "vận hành xe số"
+  ],
+  "summary": "Hướng dẫn vận hành xe số, xe ga, xe điện — từ nổ máy, đề pa đến những chức năng đặc thù từng loại."
+ },
+ {
+  "kind": "hub",
+  "url": "docs/checklist/",
+  "title": "Checklist",
+  "description": "Danh sách kiểm tra chuẩn.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [],
+  "keywords": [
+   "checklist nhận xe",
+   "checklist đường dài",
+   "checklist bảo dưỡng",
+   "danh sách kiểm tra xe"
+  ],
+  "summary": "Checklist nhận xe thuê, checklist trước chuyến đi đường dài, checklist bảo dưỡng định kỳ — dùng lại được nhiều lần."
+ },
+ {
+  "kind": "hub",
+  "url": "docs/quy-trinh-bao-duong/",
+  "title": "Quy trình bảo dưỡng",
+  "description": "Quy trình bảo dưỡng chuẩn.",
+  "category": "Tài liệu",
+  "hub": "Quy trình bảo dưỡng",
+  "entities": [],
+  "keywords": [
+   "quy trình bảo dưỡng",
+   "bảo dưỡng 1000km",
+   "quy trình thay dầu",
+   "bảo dưỡng 5000km",
+   "quy trình chuyên môn"
+  ],
+  "summary": "Quy trình từng hạng mục bảo dưỡng theo số km: nhớt, lọc, bugi, xiên, ắc quy — theo trình tự thợ chuyên nghiệp."
+ },
+ {
+  "kind": "hub",
+  "url": "docs/thong-so-ky-thuat/",
+  "title": "Thông số kỹ thuật",
+  "description": "Bảng thông số kỹ thuật.",
+  "category": "Tài liệu",
+  "hub": "Thông số kỹ thuật",
+  "entities": [],
+  "keywords": [
+   "thông số xe máy",
+   "bảng thông số",
+   "thông số động cơ",
+   "kích thước xe",
+   "tra cứu thông số"
+  ],
+  "summary": "Bảng thông số các dòng xe: kích thước, động cơ, công suất, dung tích bình — dạng tài liệu tra cứu."
+ },
+ {
+  "kind": "hub",
+  "url": "docs/bieu-mau-thu-tuc/",
+  "title": "Biểu mẫu thủ tục",
+  "description": "Biểu mẫu và giấy tờ.",
+  "category": "Tài liệu",
+  "hub": "Biểu mẫu thủ tục",
+  "entities": [],
+  "keywords": [
+   "biểu mẫu thủ tục xe",
+   "giấy tờ đăng ký xe",
+   "hợp đồng thuê xe mẫu",
+   "giấy tờ sang tên"
+  ],
+  "summary": "Các loại biểu mẫu, giấy tờ cần chuẩn bị cho thủ tục xe — mô tả cấu trúc và mục cần điền."
+ },
+ {
+  "kind": "hub",
+  "url": "docs/tai-lieu-tham-khao/",
+  "title": "Tài liệu tham khảo",
+  "description": "Tài liệu tham khảo tổng hợp.",
+  "category": "Tài liệu",
+  "hub": "Tài liệu tham khảo",
+  "entities": [],
+  "keywords": [
+   "tài liệu kỹ thuật xe",
+   "tài liệu tham khảo",
+   "hướng dẫn chính hãng",
+   "sách kỹ thuật xe máy"
+  ],
+  "summary": "Tài liệu tổng hợp để đọc sâu: nguyên lý kỹ thuật, quy định pháp lý và hướng dẫn chính hãng."
+ },
+ {
+  "kind": "category",
+  "url": "news/",
+  "title": "Tin tức",
+  "description": "Tin thị trường xe, xe mới, xe điện, chính sách và giá xe.",
+  "category": "Tin tức",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Tin tức có ghi rõ ngày cập nhật về thị trường xe, xe mới ra mắt, xe điện, chính sách pháp lý, giá xe và công nghệ — không evergreen hóa thông tin lỗi thời."
+ },
+ {
+  "kind": "hub",
+  "url": "news/thi-truong-xe/",
+  "title": "Thị trường xe",
+  "description": "Thị trường xe Việt Nam.",
+  "category": "Tin tức",
+  "hub": "Thị trường xe",
+  "entities": [],
+  "keywords": [
+   "thị trường xe máy",
+   "doanh số xe",
+   "thị trường xe điện",
+   "cạnh tranh hãng xe"
+  ],
+  "summary": "Diễn biến thị trường xe máy, xe điện Việt Nam — doanh số, xu hướng và bối cảnh cạnh tranh giữa các hãng."
+ },
+ {
+  "kind": "hub",
+  "url": "news/xe-moi/",
+  "title": "Xe mới",
+  "description": "Xe mới ra mắt.",
+  "category": "Tin tức",
+  "hub": "Xe mới",
+  "entities": [],
+  "keywords": [
+   "xe mới ra mắt",
+   "xe mới 2026",
+   "mẫu xe mới việt nam",
+   "ra mắt xe máy"
+  ],
+  "summary": "Các mẫu xe mới ra mắt tại Việt Nam — thông tin công bố của hãng kèm ngày rõ ràng."
+ },
+ {
+  "kind": "hub",
+  "url": "news/xe-dien/",
+  "title": "Xe điện",
+  "description": "Tin xe điện.",
+  "category": "Tin tức",
+  "hub": "Xe điện",
+  "entities": [],
+  "keywords": [
+   "xe điện việt nam",
+   "tin xe điện",
+   "trạm sạc xe điện",
+   "chính sách xe điện"
+  ],
+  "summary": "Tin về xe điện: mẫu mới, pin, trạm sạc và chính sách khuyến khích xe điện tại Việt Nam."
+ },
+ {
+  "kind": "hub",
+  "url": "news/chinh-sach-phap-ly/",
+  "title": "Chính sách pháp lý",
+  "description": "Tin chính sách pháp lý.",
+  "category": "Tin tức",
+  "hub": "Chính sách pháp lý",
+  "entities": [],
+  "keywords": [
+   "quy định xe máy mới",
+   "nghị định giao thông",
+   "chính sách đăng ký xe",
+   "thay đổi luật giao thông"
+  ],
+  "summary": "Thay đổi quy định, nghị định, thông tư liên quan xe máy và giao thông — cập nhật theo ngày hiệu lực."
+ },
+ {
+  "kind": "hub",
+  "url": "news/gia-xe/",
+  "title": "Giá xe",
+  "description": "Tin biến động giá.",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "entities": [],
+  "keywords": [
+   "giá xe hôm nay",
+   "biến động giá xe",
+   "giá đại lý",
+   "giá niêm yết"
+  ],
+  "summary": "Biến động giá niêm yết và giá thực tế tại đại lý — luôn kèm mốc thời gian của thông tin."
+ },
+ {
+  "kind": "hub",
+  "url": "news/cong-nghe-xe/",
+  "title": "Công nghệ xe",
+  "description": "Công nghệ trên xe.",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "entities": [],
+  "keywords": [
+   "công nghệ xe máy",
+   "abs là gì",
+   "phun xăng điện tử",
+   "xe kết nối thông minh"
+  ],
+  "summary": "Công nghệ mới trên xe máy và xe điện: ABS, phun xăng điện tử, kết nối thông minh — giải thích dễ hiểu."
+ },
+ {
+  "kind": "category",
+  "url": "local/",
+  "title": "Địa phương",
+  "description": "Kiến thức xe theo địa phương: Hà Nội, TP.HCM, Đà Nẵng và các tỉnh thành.",
+  "category": "Địa phương",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Kiến thức xe theo địa phương: điều kiện giao thông, quy định và đặc thù từng thành phố — Hà Nội, TP. Hồ Chí Minh, Đà Nẵng, Hải Phòng, Cần Thơ và các tỉnh thành. Không doorway page: mỗi trang cần giá trị địa phương thực."
+ },
+ {
+  "kind": "hub",
+  "url": "local/ha-noi/",
+  "title": "Hà Nội",
+  "description": "Kiến thức xe tại Hà Nội.",
+  "category": "Địa phương",
+  "hub": "Hà Nội",
+  "entities": [],
+  "keywords": [
+   "giao thông hà nội",
+   "đường cấm xe máy hà nội",
+   "thuê xe hà nội",
+   "đi xe ở hà nội",
+   "giờ cao điểm hà nội"
+  ],
+  "summary": "Giao thông Hà Nội: giờ cao điểm, đường cấm xe máy, thời tiết bốn mùa và những đặc thù khi đi xe tại thủ đô."
+ },
+ {
+  "kind": "hub",
+  "url": "local/tp-hcm/",
+  "title": "TP. Hồ Chí Minh",
+  "description": "Kiến thức xe tại TP. Hồ Chí Minh.",
+  "category": "Địa phương",
+  "hub": "TP. Hồ Chí Minh",
+  "entities": [],
+  "keywords": [
+   "giao thông tp hcm",
+   "thuê xe tp hcm",
+   "ngập đường sài gòn",
+   "đi xe ở sài gòn"
+  ],
+  "summary": "Giao thông TP. Hồ Chí Minh: mưa chiều, ngập cục bộ, xu hướng xe điện và đặc thù đô thị phương Nam."
+ },
+ {
+  "kind": "hub",
+  "url": "local/da-nang/",
+  "title": "Đà Nẵng",
+  "description": "Kiến thức xe tại Đà Nẵng.",
+  "category": "Địa phương",
+  "hub": "Đà Nẵng",
+  "entities": [],
+  "keywords": [
+   "thuê xe đà nẵng",
+   "giao thông đà nẵng",
+   "du lịch đà nẵng",
+   "đi xe ở đà nẵng"
+  ],
+  "summary": "Đà Nẵng: đô thị dễ đi, cầu vượt sông, du lịch thuê xe hai bánh và quy định địa phương."
+ },
+ {
+  "kind": "hub",
+  "url": "local/hai-phong/",
+  "title": "Hải Phòng",
+  "description": "Kiến thức xe tại Hải Phòng.",
+  "category": "Địa phương",
+  "hub": "Hải Phòng",
+  "entities": [],
+  "keywords": [
+   "giao thông hải phòng",
+   "thuê xe hải phòng",
+   "đi xe ở hải phòng"
+  ],
+  "summary": "Hải Phòng: giao thông đô thị cảng, đặc thù khí hậu ven biển và những điều cần biết khi đi xe."
+ },
+ {
+  "kind": "hub",
+  "url": "local/can-tho/",
+  "title": "Cần Thơ",
+  "description": "Kiến thức xe tại Cần Thơ.",
+  "category": "Địa phương",
+  "hub": "Cần Thơ",
+  "entities": [],
+  "keywords": [
+   "giao thông cần thơ",
+   "thuê xe cần thơ",
+   "đi xe ở cần thơ"
+  ],
+  "summary": "Cần Thơ: đô thị sông nước, cầu lớn, thời tiết miền Tây và đi xe tại đồng bằng."
+ },
+ {
+  "kind": "hub",
+  "url": "local/tinh-thanh/",
+  "title": "Tỉnh thành",
+  "description": "Các tỉnh thành khác.",
+  "category": "Địa phương",
+  "hub": "Tỉnh thành",
+  "entities": [],
+  "keywords": [
+   "giao thông các tỉnh",
+   "đi xe miền núi",
+   "xe máy nông thôn",
+   "quy định tỉnh thành"
+  ],
+  "summary": "Kiến thức xe theo từng tỉnh thành — từ đô thị trung tâm đến các tỉnh miền núi, với đặc thù địa phương riêng."
+ },
+ {
+  "kind": "hub",
+  "url": "local/quan-huyen/",
+  "title": "Quận huyện",
+  "description": "Theo quận huyện.",
+  "category": "Địa phương",
+  "hub": "Quận huyện",
+  "entities": [],
+  "keywords": [
+   "giao thông quận huyện",
+   "đi xe theo quận",
+   "khu vực đông xe"
+  ],
+  "summary": "Góc nhìn chi tiết theo quận huyện trong các thành phố lớn: khu vực đông xe, điểm đỗ, đặc thù từng khu."
+ },
+ {
+  "kind": "category",
+  "url": "map/",
+  "title": "Bản đồ",
+  "description": "Bản đồ các điểm tiện ích xác minh được: cây xăng, trạm sạc, sửa xe, bãi đỗ.",
+  "category": "Bản đồ",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Bản đồ các điểm tiện ích cho người đi xe — chỉ bao gồm địa điểm xác minh được, không bịa POI: cây xăng, trạm sạc, điểm sửa xe, bãi đỗ xe, điểm đăng ký xe và điểm thi bằng lái."
+ },
+ {
+  "kind": "hub",
+  "url": "map/cay-xang/",
+  "title": "Cây xăng",
+  "description": "Vị trí cây xăng.",
+  "category": "Bản đồ",
+  "hub": "Cây xăng",
+  "entities": [],
+  "keywords": [
+   "cây xăng gần đây",
+   "tra cây xăng",
+   "cây xăng đường trường"
+  ],
+  "summary": "Cách tra vị trí cây xăng gần nhất, nhóm xăng và những điều cần biết khi tiếp nhiên liệu đường trường."
+ },
+ {
+  "kind": "hub",
+  "url": "map/tram-sac/",
+  "title": "Trạm sạc",
+  "description": "Vị trí trạm sạc xe điện.",
+  "category": "Bản đồ",
+  "hub": "Trạm sạc",
+  "entities": [],
+  "keywords": [
+   "trạm sạc xe điện",
+   "đổi pin xe điện",
+   "tra trạm sạc"
+  ],
+  "summary": "Trạm sạc và điểm đổi pin xe điện — cách tra vị trí và lưu ý khi phụ thuộc trạm sạc trên chuyến đi."
+ },
+ {
+  "kind": "hub",
+  "url": "map/diem-sua-xe/",
+  "title": "Điểm sửa xe",
+  "description": "Điểm sửa xe đáng tin.",
+  "category": "Bản đồ",
+  "hub": "Điểm sửa xe",
+  "entities": [],
+  "keywords": [
+   "tiệm sửa xe gần đây",
+   "sửa xe đường bộ",
+   "thợ sửa xe tin cậy"
+  ],
+  "summary": "Cách tìm và đánh giá điểm sửa xe: dấu hiệu thợ tin cậy, giá minh bạch và quy trình làm việc."
+ },
+ {
+  "kind": "hub",
+  "url": "map/bai-do-xe/",
+  "title": "Bãi đỗ xe",
+  "description": "Điểm đỗ xe.",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "entities": [],
+  "keywords": [
+   "bãi đỗ xe",
+   "giữ xe máy",
+   "đỗ xe ở đâu",
+   "quy định đỗ xe"
+  ],
+  "summary": "Bãi đỗ, điểm giữ xe, quy định đỗ xe trong đô thị — những điều cần biết để đỗ xe đúng chỗ."
+ },
+ {
+  "kind": "hub",
+  "url": "map/diem-dang-ky-xe/",
+  "title": "Điểm đăng ký xe",
+  "description": "Điểm đăng ký xe.",
+  "category": "Bản đồ",
+  "hub": "Điểm đăng ký xe",
+  "entities": [],
+  "keywords": [
+   "đăng ký xe ở đâu",
+   "cơ quan đăng ký xe",
+   "nơi làm đăng kiểm"
+  ],
+  "summary": "Cơ quan đăng ký xe: nơi làm thủ tục đăng ký, đăng kiểm, sang tên — tra vị trí và chuẩn bị giấy tờ."
+ },
+ {
+  "kind": "hub",
+  "url": "map/diem-thi-bang-lai/",
+  "title": "Điểm thi bằng lái",
+  "description": "Điểm thi bằng lái.",
+  "category": "Bản đồ",
+  "hub": "Điểm thi bằng lái",
+  "entities": [],
+  "keywords": [
+   "sát hạch bằng lái",
+   "trung tâm thi bằng lái",
+   "thi bằng lái xe máy"
+  ],
+  "summary": "Trung tâm sát hạch giấy phép lái xe: tra vị trí, quy trình và những điều cần chuẩn bị trước ngày thi."
+ },
+ {
+  "kind": "category",
+  "url": "garage/",
+  "title": "Sửa chữa",
+  "description": "Sửa chữa và bảo dưỡng: động cơ, phanh, lốp, điện ắc quy và các lỗi thường gặp.",
+  "category": "Sửa chữa",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Kiến thức sửa chữa và bảo dưỡng xe máy: động cơ, phanh, lốp, điện ắc quy, truyền động, phun xăng chế hòa khí, bảo dưỡng định kỳ và các lỗi thường gặp — giúp bạn hiểu vấn đề trước khi đến thợ."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/dong-co/",
+  "title": "Động cơ",
+  "description": "Sửa chữa động cơ.",
+  "category": "Sửa chữa",
+  "hub": "Động cơ",
+  "entities": [],
+  "keywords": [
+   "sửa động cơ xe máy",
+   "máy kêu",
+   "máy đuối",
+   "động cơ ra khói",
+   "két máy nóng"
+  ],
+  "summary": "Máy kêu, máy đuối, ra khói — chẩn đoán và hướng xử lý các vấn đề động cơ xe máy phổ biến."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/phanh/",
+  "title": "Phanh",
+  "description": "Hệ thống phanh: đĩa, tang trống và xử lý sự cố.",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "entities": [],
+  "keywords": [
+   "xe bị bó phanh",
+   "phanh kêu rít",
+   "thay má phanh",
+   "phanh đĩa",
+   "phanh tang trống",
+   "hụt phanh"
+  ],
+  "summary": "Phanh là bộ phận an toàn sống còn. Hub này tổng hợp kiến thức phanh đĩa, phanh tang trống, cách nhận biết phanh mòn và xử lý khi xe bị bó phanh hoặc hụt phanh."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/lop/",
+  "title": "Lốp",
+  "description": "Lốp xe và thay lốp.",
+  "category": "Sửa chữa",
+  "hub": "Lốp",
+  "entities": [],
+  "keywords": [
+   "thay lốp xe máy",
+   "vá lốp không săng",
+   "lốp mòn",
+   "chọn lốp xe",
+   "lốp nứt"
+  ],
+  "summary": "Lốp mòn, lốp nứt, vá lốp không săng và thời điểm thay — kiến thức về nhóm bộ phận duy nhất chạm đường."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/dien-ac-quy/",
+  "title": "Điện ắc quy",
+  "description": "Điện và ắc quy xe.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [],
+  "keywords": [
+   "ắc quy yếu",
+   "đề không nổ",
+   "đèn xe mờ",
+   "sạc ắc quy",
+   "hệ thống điện xe"
+  ],
+  "summary": "Đề không nổ, đèn mờ, còi yếu — chẩn đoán ắc quy và hệ thống điện, kèm cách xử lý từng tình huống."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/truyen-dong/",
+  "title": "Truyền động",
+  "description": "Hộp số và truyền động.",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "entities": [],
+  "keywords": [
+   "bi êm xe ga",
+   "thay nhíp xe",
+   "xích xe số",
+   "dây côn",
+   "hộp số cvt"
+  ],
+  "summary": "Bi êm, nhíp, xích và dây côn — nhóm bộ phận truyền lực của xe số và xe ga."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/phun-xang-che-hoa-khi/",
+  "title": "Phun xăng chế hòa khí",
+  "description": "Phun xăng và chế hòa khí.",
+  "category": "Sửa chữa",
+  "hub": "Phun xăng chế hòa khí",
+  "entities": [],
+  "keywords": [
+   "vệ sinh bugi",
+   "gió hòa",
+   "vòi phun xăng",
+   "xe hao xăng",
+   "chế hòa khí"
+  ],
+  "summary": "Bugi, gió hòa, vòi phun — hệ thống cung cấp nhiên liệu và cách nhận biết khi xe hao xăng bất thường."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/bao-duong-dinh-ky/",
+  "title": "Bảo dưỡng định kỳ",
+  "description": "Bảo dưỡng theo chu kỳ.",
+  "category": "Sửa chữa",
+  "hub": "Bảo dưỡng định kỳ",
+  "entities": [],
+  "keywords": [
+   "lịch bảo dưỡng",
+   "bảo dưỡng 3000km",
+   "dịch vụ bảo dưỡng",
+   "mốc bảo dưỡng xe"
+  ],
+  "summary": "Lịch bảo dưỡng theo số km — hạng mục nào làm ở mốc nào và vì sao, để bạn không bị làm quá dịch vụ."
+ },
+ {
+  "kind": "hub",
+  "url": "garage/loi-thuong-gap/",
+  "title": "Lỗi thường gặp",
+  "description": "Các lỗi xe hay gặp.",
+  "category": "Sửa chữa",
+  "hub": "Lỗi thường gặp",
+  "entities": [],
+  "keywords": [
+   "lỗi xe máy thường gặp",
+   "xe máy kêu rít",
+   "xe giật cục",
+   "máy nóng bất thường"
+  ],
+  "summary": "Thư mục lỗi hay gặp theo dòng xe và tình huống — điểm khởi đầu khi xe có dấu hiệu bất thường."
+ },
+ {
+  "kind": "category",
+  "url": "market/",
+  "title": "Thị trường",
+  "description": "Giá xe mới, xe cũ, phụ tùng, chi phí sử dụng và xu hướng thị trường.",
+  "category": "Thị trường",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Giá và thị trường xe máy Việt Nam: cách đọc giá xe mới, giá xe cũ, giá phụ tùng, chi phí sử dụng, khấu hao và xu hướng — mô tả cơ chế giá thay vì con số chết."
+ },
+ {
+  "kind": "hub",
+  "url": "market/gia-xe-moi/",
+  "title": "Giá xe mới",
+  "description": "Cách đọc và hiểu giá xe mới tại Việt Nam.",
+  "category": "Thị trường",
+  "hub": "Giá xe mới",
+  "entities": [],
+  "keywords": [
+   "giá xe máy mới",
+   "giá lăn bánh",
+   "phí trước bạ",
+   "so giá xe",
+   "bảng báo giá"
+  ],
+  "summary": "Giá công bố, giá đại lý, chi phí lăn bánh — cấu trúc con số khi mua xe mới và cách so sánh đúng giữa các nơi bán."
+ },
+ {
+  "kind": "hub",
+  "url": "market/gia-xe-cu/",
+  "title": "Giá xe cũ",
+  "description": "Giá xe đã qua sử dụng.",
+  "category": "Thị trường",
+  "hub": "Giá xe cũ",
+  "entities": [],
+  "keywords": [
+   "giá xe cũ",
+   "định giá xe cũ",
+   "xe cũ đời nào đáng mua",
+   "so giá xe cũ"
+  ],
+  "summary": "Cách định giá xe cũ: đời xe, số km, tình trạng và khung tham chiếu — mô tả cơ chế giá xe cũ."
+ },
+ {
+  "kind": "hub",
+  "url": "market/gia-phu-tung/",
+  "title": "Giá phụ tùng",
+  "description": "Giá phụ tùng và thay thế.",
+  "category": "Thị trường",
+  "hub": "Giá phụ tùng",
+  "entities": [],
+  "keywords": [
+   "giá phụ tùng",
+   "phụ tùng chính hãng",
+   "phụ tùng thải",
+   "so giá phụ tùng",
+   "giá lốp"
+  ],
+  "summary": "Phụ tùng chính hãng, phụ tùng thải, cách so giá và nhận biết phụ tùng kém chất lượng."
+ },
+ {
+  "kind": "hub",
+  "url": "market/chi-phi-su-dung/",
+  "title": "Chi phí sử dụng",
+  "description": "Chi phí vận hành xe.",
+  "category": "Thị trường",
+  "hub": "Chi phí sử dụng",
+  "entities": [],
+  "keywords": [
+   "chi phí sử dụng xe máy",
+   "chi phí xăng",
+   "chi phí bảo dưỡng",
+   "tính chi phí xe"
+  ],
+  "summary": "Xăng, bảo dưỡng, lốp, ắc quy, phí — khung tính chi phí sử dụng xe máy theo năm để tự lập kế hoạch."
+ },
+ {
+  "kind": "hub",
+  "url": "market/khau-hao/",
+  "title": "Khấu hao",
+  "description": "Khấu hao giá trị xe.",
+  "category": "Thị trường",
+  "hub": "Khấu hao",
+  "entities": [],
+  "keywords": [
+   "khấu hao xe máy",
+   "xe giữ giá",
+   "giá trị bán lại",
+   "xe nào giữ giá tốt"
+  ],
+  "summary": "Giá trị xe giảm theo thời gian ra sao, dòng nào giữ giá và khung suy nghĩ khi mua để bán lại."
+ },
+ {
+  "kind": "hub",
+  "url": "market/mua-ban-xe-cu/",
+  "title": "Mua bán xe cũ",
+  "description": "Giao dịch xe cũ.",
+  "category": "Thị trường",
+  "hub": "Mua bán xe cũ",
+  "entities": [],
+  "keywords": [
+   "mua bán xe cũ",
+   "kiểm tra xe cũ",
+   "sang tên xe cũ",
+   "công chứng xe máy",
+   "lừa đảo xe cũ"
+  ],
+  "summary": "Kiểm tra xe cũ, giấy tờ sang tên, thủ tục công chứng và những cạm bẫy khi mua bán xe đã qua sử dụng."
+ },
+ {
+  "kind": "hub",
+  "url": "market/xu-huong-thi-truong/",
+  "title": "Xu hướng thị trường",
+  "description": "Xu hướng thị trường xe.",
+  "category": "Thị trường",
+  "hub": "Xu hướng thị trường",
+  "entities": [],
+  "keywords": [
+   "xu hướng xe điện",
+   "thị trường xe việt nam",
+   "thị hiếu xe máy",
+   "tương lai xe máy"
+  ],
+  "summary": "Chuyển dịch xe điện, thay đổi thị hiếu, tác động chính sách — xu hướng dài hạn của thị trường xe Việt Nam."
+ },
+ {
+  "kind": "category",
+  "url": "review/",
+  "title": "Đánh giá",
+  "description": "Đánh giá và so sánh xe, phụ tùng, mũ bảo hiểm, lốp, dầu nhớt.",
+  "category": "Đánh giá",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": "Đánh giá và so sánh: xe, phụ tùng, mũ bảo hiểm, lốp, dầu nhớt, xe điện — tiêu chí rõ ràng, khách quan và theo trải nghiệm thực tế, không khen theo quảng cáo."
+ },
+ {
+  "kind": "hub",
+  "url": "review/review-xe/",
+  "title": "Đánh giá xe",
+  "description": "Đánh giá các dòng xe.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe",
+  "entities": [],
+  "keywords": [
+   "đánh giá xe máy",
+   "review vision",
+   "review air blade",
+   "đánh giá xe ga"
+  ],
+  "summary": "Đánh giá từng dòng xe theo tiêu chí nhất quán: vận hành, tiện ích, chi phí và đối tượng phù hợp."
+ },
+ {
+  "kind": "hub",
+  "url": "review/so-sanh-xe/",
+  "title": "So sánh xe",
+  "description": "So sánh các dòng xe.",
+  "category": "Đánh giá",
+  "hub": "So sánh xe",
+  "entities": [],
+  "keywords": [
+   "so sánh xe máy",
+   "vision hay grande",
+   "xe số hay xe ga",
+   "so sánh 125cc"
+  ],
+  "summary": "So sánh trực tiếp các dòng xe cùng phân khúc — bảng so sánh theo tiêu chí, cho từng đối tượng người dùng khác nhau."
+ },
+ {
+  "kind": "hub",
+  "url": "review/review-phu-tung/",
+  "title": "Đánh giá phụ tùng",
+  "description": "Đánh giá phụ tùng.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá phụ tùng",
+  "entities": [],
+  "keywords": [
+   "review phụ tùng",
+   "phụ tùng hãng hay thải",
+   "đánh giá phụ kiện xe"
+  ],
+  "summary": "Đánh giá nhóm phụ tùng: chính hãng, thải, phổ thông — tiêu chí chọn theo túi tiền và nhu cầu."
+ },
+ {
+  "kind": "hub",
+  "url": "review/review-mu-bao-hiem/",
+  "title": "Đánh giá mũ bảo hiểm",
+  "description": "Đánh giá mũ bảo hiểm.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá mũ bảo hiểm",
+  "entities": [],
+  "keywords": [
+   "mũ bảo hiểm loại nào tốt",
+   "mũ half hay full",
+   "tiêu chuẩn mũ bảo hiểm",
+   "review mũ bảo hiểm"
+  ],
+  "summary": "Mũ half, mũ full, tiêu chuẩn an toàn và đánh giá trải nghiệm thực tế các dòng mũ phổ biến."
+ },
+ {
+  "kind": "hub",
+  "url": "review/review-lop/",
+  "title": "Đánh giá lốp",
+  "description": "Đánh giá lốp xe.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá lốp",
+  "entities": [],
+  "keywords": [
+   "review lốp xe máy",
+   "lốp nào bền",
+   "lốp bám đường",
+   "chọn lốp"
+  ],
+  "summary": "Lốp săng truyền thống, lốp không săng, các dòng lốp phổ biến — đánh giá theo bám đường, bền và giá."
+ },
+ {
+  "kind": "hub",
+  "url": "review/review-dau-nhot/",
+  "title": "Đánh giá dầu nhớt",
+  "description": "Đánh giá dầu nhớt.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá dầu nhớt",
+  "entities": [],
+  "keywords": [
+   "review dầu nhớt",
+   "dầu nhớt loại nào tốt",
+   "chọn dầu theo xe",
+   "độ đặc dầu nhớt"
+  ],
+  "summary": "Đánh giá các dòng dầu nhớt theo độ đặc và đặc tính — cách chọn theo dòng xe và cách chạy."
+ },
+ {
+  "kind": "hub",
+  "url": "review/review-xe-dien/",
+  "title": "Đánh giá xe điện",
+  "description": "Đánh giá xe điện.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe điện",
+  "entities": [],
+  "keywords": [
+   "đánh giá xe điện",
+   "review xe điện",
+   "xe điện nào đáng mua",
+   "xe điện tầm giá"
+  ],
+  "summary": "Đánh giá xe điện: pin, phạm vi, chi phí và độ bền — bao gồm cả dòng xe điện phổ biến tại Việt Nam."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/thu-tuc-thue-xe-dieu-can-biet/",
+  "title": "Thủ tục thuê xe: những điều cần biết trước khi ký hợp đồng",
+  "description": "Thủ tục thuê xe máy, xe điện và ô tô tự lái: giấy tờ cần chuẩn bị, cách đọc hợp đồng, đặt cọc, nghiệm thu xe khi nhận và khi trả — viết cho người lần đầu thuê xe.",
+  "category": "Thuê xe",
+  "hub": "",
+  "entities": [
+   "thuê xe",
+   "hợp đồng thuê xe",
+   "đặt cọc",
+   "nghiệm thu xe",
+   "giấy tờ thuê xe",
+   "xe máy",
+   "xe điện",
+   "ô tô tự lái"
+  ],
+  "keywords": [
+   "thủ tục thuê xe",
+   "thuê xe cần gì",
+   "giấy tờ thuê xe",
+   "đặt cọc thuê xe",
+   "hợp đồng thuê xe",
+   "nghiệm thu xe thuê",
+   "kinh nghiệm thuê xe"
+  ],
+  "summary": "Thuê xe ngày càng phổ biến với cả người đi du lịch, người mới đến một thành phố và cả người bản địa khi xe riêng gặp sự cố. Tuy nhiên, thuê xe không chỉ là việc lấy chìa khóa và đi: giấy tờ, hợp đồng, đặt cọc và nghiệm thu xe là bốn khâu quyết định bạn có một "
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/kinh-nghiem-thue-xe-may-ha-noi/",
+  "title": "Kinh nghiệm thuê xe máy ở Hà Nội: từ chọn xe đến trả xe",
+  "description": "Kinh nghiệm thuê xe máy ở Hà Nội: chọn xe theo mục đích, thủ tục cần chuẩn bị, cách kiểm tra xe khi nhận, đi lại an toàn trong nội thành và trả xe không tranh chấp.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thuê xe máy Hà Nội",
+   "xe ga",
+   "xe số",
+   "đặt cọc",
+   "phố cổ Hà Nội",
+   "luật giao thông",
+   "nghiệm thu xe"
+  ],
+  "keywords": [
+   "thuê xe máy hà nội",
+   "kinh nghiệm thuê xe máy",
+   "thuê xe máy cần gì",
+   "chọn xe thuê",
+   "kiểm tra xe máy thuê",
+   "đi lại hà nội bằng xe máy",
+   "thuê xe máy du lịch"
+  ],
+  "summary": "Hà Nội là thành phố mà xe máy vẫn là phương tiện linh hoạt nhất để di chuyển hằng ngày lẫn khám phá các tuyến phố cổ, phố nghề và vùng ven. Với khách du lịch, người mới đến thành phố hoặc người tạm cần xe thay thế, thuê xe máy là lựa chọn phổ biến — nhưng cũng"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/thu-honda-vision-ha-noi/",
+  "title": "Thuê Honda Vision ở Hà Nội: nhu cầu, thủ tục và cách chọn xe",
+  "description": "Thuê Honda Vision ở Hà Nội: vì sao dòng xe này được thuê nhiều, thủ tục cần chuẩn bị, cách chọn bản phù hợp và những điểm cần kiểm tra trước khi nhận xe thuê.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "Honda Vision",
+   "thuê Honda Vision",
+   "thuê xe ga",
+   "Hà Nội",
+   "đặt cọc",
+   "nghiệm thu xe"
+  ],
+  "keywords": [
+   "thuê honda vision hà nội",
+   "thuê vision",
+   "thuê xe ga hà nội",
+   "vision thuê bao nhiêu",
+   "kiểm tra xe vision thuê",
+   "thuê xe máy du lịch"
+  ],
+  "summary": "Honda Vision là một trong những dòng xe ga được thuê nhiều nhất tại Hà Nội: gọn, nhẹ, dễ điều khiển ở tốc độ thấp và cốp rộng so với kích thước. Với người cần thuê xe máy để đi lại trong thành phố hoặc du lịch ngắn ngày, Vision thường nằm trong nhóm lựa chọn đ"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-dien/thu-xe-dien-nhung-dieu-can-biet/",
+  "title": "Thuê xe điện: pin, phạm vi hoạt động và những điều cần biết",
+  "description": "Thuê xe điện khác thuê xe xăng ở phần quản lý pin và phạm vi hoạt động — giải thích cách chọn xe, đọc thông số pin, sạc đúng và kiểm tra xe trước khi nhận.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [
+   "thuê xe điện",
+   "pin lithium",
+   "ắc quy",
+   "trạm sạc",
+   "phạm vi hoạt động",
+   "chi phí sạc"
+  ],
+  "keywords": [
+   "thuê xe điện",
+   "thuê xe điện cần gì",
+   "pin xe điện",
+   "phạm vi hoạt động xe điện",
+   "sạc xe điện",
+   "kinh nghiệm thuê xe điện",
+   "xe điện đi được bao xa"
+  ],
+  "summary": "Xe điện ngày càng phổ biến trong các điểm cho thuê nhờ vận hành êm, không phát thải tại chỗ và chi phí năng lượng thấp. Tuy nhiên, thuê xe điện không đơn giản là thay xăng bằng pin: bạn cần hiểu cách đọc mức pin, ước lượng phạm vi hoạt động thực tế, tìm chỗ sạ"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-oto/thu-o-to-tu-lai-dieu-can-biet/",
+  "title": "Thuê ô tô tự lái: những điều cần biết về giấy tờ, đặt cọc và nghiệm thu",
+  "description": "Thuê ô tô tự lái đòi hỏi thủ tục chặt hơn xe máy: giấy phép lái xe hợp hạng, hợp đồng, đặt cọc lớn và nghiệm thu xe kỹ — giải thích từng khâu của quy trình thuê.",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "entities": [
+   "thuê ô tô tự lái",
+   "giấy phép lái xe",
+   "đặt cọc ô tô",
+   "nghiệm thu ô tô",
+   "bảo hiểm xe",
+   "hợp đồng thuê ô tô"
+  ],
+  "keywords": [
+   "thuê ô tô tự lái",
+   "thuê xe ô tô cần gì",
+   "đặt cọc thuê ô tô",
+   "nghiệm thu ô tô",
+   "kinh nghiệm thuê ô tô",
+   "thuê ô tô đường dài",
+   "bảo hiểm xe thuê"
+  ],
+  "summary": "Thuê ô tô tự lái mang lại sự riêng tư và linh hoạt cao cho các chuyến đi gia đình, công tác dài ngày hoặc những lúc cần chở nhiều người, nhiều đồ. Đổi lại, đây là hình thức thuê đòi hỏi thủ tục chặt chẽ nhất: giấy phép lái xe hợp hạng, hợp đồng rõ ràng, khoản "
+ },
+ {
+  "kind": "article",
+  "url": "moto/honda/honda-vision-thong-so-va-kinh-nghiem/",
+  "title": "Honda Vision: thông số, vận hành và kinh nghiệm sử dụng",
+  "description": "Tổng quan Honda Vision dưới góc kiến thức xe máy: đọc thông số động cơ, đặc tính vận hành xe ga nhỏ, lịch bảo dưỡng định kỳ và kinh nghiệm giúp xe bền lâu dài.",
+  "category": "Xe máy",
+  "hub": "Honda",
+  "entities": [
+   "Honda Vision",
+   "xe ga",
+   "động cơ eSP",
+   "phun xăng điện tử",
+   "bảo dưỡng định kỳ",
+   "thông số kỹ thuật"
+  ],
+  "keywords": [
+   "honda vision",
+   "thông số honda vision",
+   "vision có tốt không",
+   "kinh nghiệm sử dụng vision",
+   "bảo dưỡng vision",
+   "xe ga 110cc",
+   "vision tiêu hao nhiên liệu"
+  ],
+  "summary": "Honda Vision là một trong những dòng xe ga bán chạy nhất Việt Nam suốt nhiều năm liền. Phía sau doanh số đó là một công thức đơn giản: động cơ nhỏ đủ dùng, khối lượng nhẹ, cốp rộng và chi phí sử dụng thấp. Bài viết này tiếp cận Vision như một chủ đề kiến thức "
+ },
+ {
+  "kind": "article",
+  "url": "garage/phanh/xe-may-bi-bo-phanh-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Xe máy bị bó phanh: nguyên nhân và cách xử lý an toàn",
+  "description": "Bó phanh là sự cố an toàn không được xem nhẹ: giải thích cơ chế phanh đĩa và phanh cơm, nguyên nhân xe bị bó phanh, cách nhận biết sớm và xử lý đúng.",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "entities": [
+   "bó phanh",
+   "phanh đĩa",
+   "phanh cơm",
+   "kẹp phanh",
+   "pistons kẹp",
+   "bảo dưỡng phanh"
+  ],
+  "keywords": [
+   "xe máy bị bó phanh",
+   "phanh đĩa bị kẹt",
+   "bó phanh nguyên nhân",
+   "sửa bó phanh",
+   "pistons kẹp phanh",
+   "xe ì do phanh",
+   "bảo dưỡng phanh xe máy"
+  ],
+  "summary": "Bó phanh là tình trạng cụm phanh không nhả ra hoàn toàn sau khi buông tay phanh hoặc nhả cần phanh, khiến má phanh vẫn cọ xát vào đĩa hoặc trống phanh khi xe đang chạy. Hậu quả nhẹ là xe ì, nóng bánh và mòn phanh nhanh; hậu quả nặng là khóa bánh, mất thăng bằn"
+ },
+ {
+  "kind": "article",
+  "url": "market/gia-xe-moi/cach-doc-gia-xe-may-moi/",
+  "title": "Cách đọc giá xe máy mới: giá công bố, giá lăn bánh và nghệ thuật so sánh",
+  "description": "Giá xe máy mới không chỉ là con số niêm yết: giải thích khác nhau giữa giá công bố, giá đại lý và giá lăn bánh, cấu trúc các khoản phí và cách so sánh nơi bán đúng.",
+  "category": "Thị trường",
+  "hub": "Giá xe mới",
+  "entities": [
+   "giá xe máy mới",
+   "giá lăn bánh",
+   "thuế trước bạ",
+   "phí đăng ký",
+   "bảo hiểm trách nhiệm",
+   "đại lý"
+  ],
+  "keywords": [
+   "giá xe máy mới",
+   "giá lăn bánh là gì",
+   "thuế trước bạ xe máy",
+   "phí đăng ký xe",
+   "mua xe máy mới",
+   "so giá xe máy",
+   "kinh nghiệm mua xe mới"
+  ],
+  "summary": "Nhiều người mua xe lần đầu bỡ ngỡ khi con số mình chuẩn bị bỏ ra cao hơn \"giá niêm yết\" thấy trên mạng. Lý do đơn giản: giá xe máy mới tại Việt Nam có nhiều tầng — giá công bố của nhà sản xuất, giá thực tế tại đại lý, và giá lăn bánh sau khi cộng các khoản phí"
+ }
+]

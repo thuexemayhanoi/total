@@ -1,0 +1,530 @@
+[
+ {
+  "rel": "index.html",
+  "kind": "page"
+ },
+ {
+  "rel": "gioi-thieu/index.html",
+  "kind": "page"
+ },
+ {
+  "rel": "tim-kiem/index.html",
+  "kind": "page"
+ },
+ {
+  "rel": "404.html",
+  "kind": "page"
+ },
+ {
+  "rel": "total/thue-xe/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/thue-xe/xe-may/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/thue-xe/xe-dien/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/thue-xe/xe-oto/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/guide/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/guide/mua-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/guide/thue-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/guide/su-dung-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/guide/bao-duong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/guide/xu-ly-su-co/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/guide/thu-tuc-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/hub/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/hub/hang-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/hub/dong-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/hub/loai-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/hub/nhu-cau-su-dung/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/hub/dia-phuong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/hub/van-de-thuong-gap/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/wiki/cau-tao-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/dong-co/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/dien-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/he-thong-phanh/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/lop-banh-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/dau-nhot/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/ac-quy-pin/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/wiki/thuat-ngu-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/learn/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/learn/ky-thuat-lai-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/learn/cham-soc-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/learn/doc-thong-so/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/learn/chuan-doan-loi/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/learn/kien-thuc-phap-ly/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/learn/kien-thuc-xe-dien/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/moto/honda/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/yamaha/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/suzuki/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/sym/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/piaggio/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/xe-50cc/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/xe-so/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/xe-ga/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/moto/xe-con-tay/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/ride/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/ride/cung-duong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/ride/du-lich-xe-may/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/ride/di-phuot/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/ride/lai-xe-duong-dai/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/ride/lai-xe-trong-thanh-pho/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/ride/an-toan-giao-thong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/tips/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/tips/meo-lai-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/tips/meo-tiet-kiem-xang/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/tips/meo-bao-duong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/tips/meo-mua-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/tips/meo-thue-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/tips/meo-xu-ly-su-co/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/docs/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/docs/huong-dan-su-dung/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/docs/checklist/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/docs/quy-trinh-bao-duong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/docs/thong-so-ky-thuat/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/docs/bieu-mau-thu-tuc/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/docs/tai-lieu-tham-khao/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/news/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/news/thi-truong-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/news/xe-moi/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/news/xe-dien/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/news/chinh-sach-phap-ly/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/news/gia-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/news/cong-nghe-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/local/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/local/ha-noi/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/local/tp-hcm/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/local/da-nang/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/local/hai-phong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/local/can-tho/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/local/tinh-thanh/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/local/quan-huyen/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/map/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/map/cay-xang/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/map/tram-sac/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/map/diem-sua-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/map/bai-do-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/map/diem-dang-ky-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/map/diem-thi-bang-lai/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/garage/dong-co/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/phanh/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/lop/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/dien-ac-quy/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/truyen-dong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/phun-xang-che-hoa-khi/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/bao-duong-dinh-ky/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/garage/loi-thuong-gap/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/market/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/market/gia-xe-moi/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/market/gia-xe-cu/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/market/gia-phu-tung/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/market/chi-phi-su-dung/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/market/khau-hao/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/market/mua-ban-xe-cu/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/market/xu-huong-thi-truong/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/review/index.html",
+  "kind": "category"
+ },
+ {
+  "rel": "total/review/review-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/review/so-sanh-xe/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/review/review-phu-tung/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/review/review-mu-bao-hiem/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/review/review-lop/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/review/review-dau-nhot/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/review/review-xe-dien/index.html",
+  "kind": "hub"
+ },
+ {
+  "rel": "total/thue-xe/thu-tuc-thue-xe-dieu-can-biet/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "total/thue-xe/xe-may/kinh-nghiem-thue-xe-may-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "total/thue-xe/xe-may/thu-honda-vision-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "total/thue-xe/xe-dien/thu-xe-dien-nhung-dieu-can-biet/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "total/thue-xe/xe-oto/thu-o-to-tu-lai-dieu-can-biet/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "total/moto/honda/honda-vision-thong-so-va-kinh-nghiem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "total/garage/phanh/xe-may-bi-bo-phanh-nguyen-nhan-va-cach-xu-ly/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "total/market/gia-xe-moi/cach-doc-gia-xe-may-moi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "assets/data/search-index.json",
+  "kind": "data"
+ },
+ {
+  "rel": "assets/data/chatbot-index.json",
+  "kind": "data"
+ },
+ {
+  "rel": "sitemap-pages.xml",
+  "kind": "sitemap"
+ },
+ {
+  "rel": "sitemap-categories.xml",
+  "kind": "sitemap"
+ },
+ {
+  "rel": "sitemap-hubs.xml",
+  "kind": "sitemap"
+ },
+ {
+  "rel": "sitemap-articles.xml",
+  "kind": "sitemap"
+ },
+ {
+  "rel": "sitemap.xml",
+  "kind": "sitemap"
+ },
+ {
+  "rel": "robots.txt",
+  "kind": "robots"
+ }
+]

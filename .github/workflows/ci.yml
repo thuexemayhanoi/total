@@ -1,0 +1,36 @@
+name: CI — AI WIKI TOTAL
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  factory:
+    name: Generate + Audit + Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Không AI API bên trong GitHub Actions — chỉ kiểm tra tĩnh
+
+      - name: Sinh site tĩnh
+        run: node factory/generate.js
+
+      - name: Kiểm tra không patch tay HTML
+        run: node factory/generate.js --check
+
+      - name: Audit chất lượng bài viết
+        run: node factory/factory.js audit --min-score 90
+
+      - name: Bộ kiểm thử nền tảng
+        run: node factory/test.js
