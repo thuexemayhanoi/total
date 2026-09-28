@@ -75,7 +75,7 @@
    "Vision phù hợp nhu cầu thuê đi lại nội thành: xe gọn, yên thấp, cốp rộng và dễ điều khiển trong dòng xe dày.",
    "Chọn bản xe theo ngân sách và nhu cầu; đời xe mới hơn thường êm hơn nhưng chi phí thuê theo ngày cũng cao hơn.",
    "Thủ tục thuê giống xe máy phổ thông: căn cước công dân hoặc hộ chiếu, đặt cọc và hợp đồng ghi rõ điều kiện hoàn cọc.",
-   "Kiểm tra đặc thù của xe ga khi nhận: tay ga rơ, phanh đĩa hoặc phanh cơm, đèn báo lỗi và tiếng máy khi nổ nguội."
+   "Kiểm tra đặc thù của xe ga khi nhận: tay ga rơ, phanh đĩa hoặc phanh tang trống, đèn báo lỗi và tiếng máy khi nổ nguội."
   ],
   "entities": [
    "Honda Vision",
@@ -197,13 +197,13 @@
   "keyPoints": [
    "Bó phanh là cụm phanh không nhả hoàn toàn sau khi buông phanh — má phanh vẫn cọ lên đĩa hoặc trống phanh.",
    "Dấu hiệu nhận biết: bánh xe nóng bất thường, xe ì khi buông ga, tay phanh đùn cứng, tiếng rè liên tục.",
-   "Nguyên nhân phổ biến: trục kẹp phanh khô bẩn, pistons kẹp kẹt, lò xo trả má phanh yếu, bố phanh cơm mòn lệch.",
+   "Nguyên nhân phổ biến: trục kẹp phanh khô bẩn, pistons kẹp kẹt, lò xo trả má phanh yếu, bố phanh tang trống mòn lệch.",
    "Xử lý an toàn: giảm tốc từ từ, dừng nơi thoáng, kiểm tra độ nóng bánh, không phanh gấp bánh bị bó."
   ],
   "entities": [
    "bó phanh",
    "phanh đĩa",
-   "phanh cơm",
+   "phanh tang trống",
    "kẹp phanh",
    "pistons kẹp",
    "bảo dưỡng phanh"

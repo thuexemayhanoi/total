@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Ảnh minh họa: xe máy và chìa khóa trao tay khi thuê xe">
+  <!-- AI WIKI TOTAL — minh họa editorial: thuê xe -->
+  <rect width="960" height="640" fill="#F4F1E8"/>
+  <rect y="520" width="960" height="120" fill="#FFFFFF"/>
+  <line x1="0" y1="520" x2="960" y2="520" stroke="#172033" stroke-width="3"/>
+  <circle cx="700" cy="470" r="62" fill="#172033"/>
+  <circle cx="700" cy="470" r="26" fill="#F4F1E8"/>
+  <circle cx="700" cy="470" r="10" fill="#3157D5"/>
+  <circle cx="280" cy="470" r="62" fill="#172033"/>
+  <circle cx="280" cy="470" r="26" fill="#F4F1E8"/>
+  <circle cx="280" cy="470" r="10" fill="#3157D5"/>
+  <!-- thân xe ga -->
+  <path d="M280 470 C 272 400 300 356 360 348 L 560 336 C 610 330 660 356 682 400 L 700 440"
+        fill="none" stroke="#172033" stroke-width="14" stroke-linecap="round"/>
+  <path d="M330 356 C 380 300 470 288 540 300 L 610 318 C 560 300 420 306 372 362 Z" fill="#3157D5"/>
+  <path d="M372 362 C 460 322 560 322 618 344 L 640 380 C 580 352 460 352 396 392 Z" fill="#26449F"/>
+  <rect x="560" y="290" width="150" height="16" rx="8" fill="#172033"/>
+  <rect x="640" y="236" width="14" height="60" rx="7" fill="#172033"/>
+  <ellipse cx="647" cy="226" rx="24" ry="14" fill="#3157D5"/>
+  <path d="M560 300 L 700 470" stroke="#172033" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <!-- chìa khóa -->
+  <circle cx="820" cy="180" r="46" fill="none" stroke="#F59E0B" stroke-width="16"/>
+  <rect x="852" y="166" width="84" height="28" rx="14" fill="#F59E0B"/>
+  <circle cx="880" cy="180" r="9" fill="#F4F1E8"/>
+  <!-- tem hợp đồng -->
+  <rect x="60" y="120" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#172033" stroke-width="4"/>
+  <line x1="84" y1="156" x2="216" y2="156" stroke="#3157D5" stroke-width="8" stroke-linecap="round"/>
+  <line x1="84" y1="186" x2="196" y2="186" stroke="#172033" stroke-width="6" opacity="0.35"/>
+  <line x1="84" y1="210" x2="176" y2="210" stroke="#172033" stroke-width="6" opacity="0.35"/>
+  <circle cx="222" cy="126" r="16" fill="#F59E0B"/>
+  <path d="M215 126 l5 6 10 -14" stroke="#172033" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="120" cy="330" r="10" fill="#3157D5" opacity="0.5"/>
+  <circle cx="180" cy="380" r="6" fill="#3157D5" opacity="0.3"/>
+  <circle cx="860" cy="560" r="8" fill="#3157D5" opacity="0.4"/>
+</svg>

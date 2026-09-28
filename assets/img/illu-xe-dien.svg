@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Ảnh minh họa: xe điện và biểu tượng pin, tia sạc">
+  <!-- AI WIKI TOTAL — minh họa editorial: xe điện -->
+  <rect width="960" height="640" fill="#F4F1E8"/>
+  <rect y="500" width="960" height="140" fill="#FFFFFF"/>
+  <line x1="0" y1="500" x2="960" y2="500" stroke="#172033" stroke-width="3"/>
+  <!-- tia sạc -->
+  <path d="M120 60 L 60 220 L 130 220 L 96 340 L 196 190 L 124 190 L 164 60 Z" fill="#F59E0B"/>
+  <!-- khối pin -->
+  <rect x="700" y="90" width="200" height="110" rx="18" fill="#FFFFFF" stroke="#172033" stroke-width="6"/>
+  <rect x="908" y="122" width="22" height="46" rx="8" fill="#172033"/>
+  <rect x="716" y="106" width="132" height="78" rx="10" fill="#3157D5"/>
+  <rect x="716" y="106" width="86" height="78" rx="10" fill="#26449F"/>
+  <!-- xe điện -->
+  <circle cx="330" cy="450" r="56" fill="#172033"/>
+  <circle cx="330" cy="450" r="23" fill="#F4F1E8"/>
+  <circle cx="330" cy="450" r="9" fill="#3157D5"/>
+  <circle cx="720" cy="450" r="56" fill="#172033"/>
+  <circle cx="720" cy="450" r="23" fill="#F4F1E8"/>
+  <circle cx="720" cy="450" r="9" fill="#3157D5"/>
+  <path d="M330 450 C 324 396 348 364 400 356 L 560 348 C 610 344 664 366 700 410" fill="none" stroke="#172033" stroke-width="13" stroke-linecap="round"/>
+  <path d="M392 356 C 448 310 548 306 606 322 L 648 342 C 592 322 500 326 452 372 Z" fill="#3157D5"/>
+  <path d="M452 372 C 516 336 604 334 652 356 L 664 382 C 614 360 524 362 472 400 Z" fill="#26449F"/>
+  <rect x="596" y="288" width="150" height="16" rx="8" fill="#172033"/>
+  <rect x="676" y="238" width="13" height="56" rx="7" fill="#172033"/>
+  <ellipse cx="683" cy="230" rx="22" ry="12" fill="#F59E0B"/>
+  <path d="M596 296 L 712 410" stroke="#172033" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <!-- cổng sạc -->
+  <rect x="820" y="330" width="70" height="96" rx="14" fill="#FFFFFF" stroke="#172033" stroke-width="6"/>
+  <rect x="838" y="356" width="34" height="20" rx="5" fill="#3157D5"/>
+  <rect x="838" y="386" width="34" height="20" rx="5" fill="#F59E0B"/>
+  <path d="M890 378 C 930 378 944 400 940 430" stroke="#172033" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="180" cy="430" r="9" fill="#3157D5" opacity="0.4"/>
+  <circle cx="220" cy="560" r="7" fill="#F59E0B" opacity="0.5"/>
+</svg>
