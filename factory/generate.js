@@ -19,10 +19,10 @@ function loadArticles() {
   return out;
 }
 
-// path so với gốc site: 'total/thue-xe/xe-may/…/' — canonical URL bỏ 'total/'
+// path so với gốc repo: 'thue-xe/xe-may/…/' — site GitHub Pages phục vụ repo gốc dưới /total/
 function articlePath(a) {
-  if (a.hub) return `total/${a.category}/${a.hub}/${a.slug}/`;
-  return `total/${a.category}/${a.slug}/`;
+  if (a.hub) return `${a.category}/${a.hub}/${a.slug}/`;
+  return `${a.category}/${a.slug}/`;
 }
 function stripTotal(p) { return String(p).replace(/^total\//, ''); }
 
@@ -91,7 +91,7 @@ function main() {
   const pagesForIndex = [];
   const urlOf = (rel) => {
     if (rel === 'index.html') return '';
-    // '/index.html' → đường dẫn thư mục; luôn bỏ tiền tố 'total/' (site phục vụ dưới /total/)
+    // '/index.html' → đường dẫn thư mục; URL công khai = tiền tố /total/ của GitHub Pages + rel
     return stripTotal(rel.endsWith('/index.html') ? rel.slice(0, -'index.html'.length) : rel);
   };
   const put = (rel, content, meta) => {
@@ -114,13 +114,13 @@ function main() {
   // Danh mục cha + hub con
   const catUrls = [], hubUrls = [], artUrls = [];
   for (const cat of CATEGORIES) {
-    put(`total/${cat.slug}/index.html`, R.renderCategory(cat, articlesRaw),
+    put(`${cat.slug}/index.html`, R.renderCategory(cat, articlesRaw),
       { kind: 'category', title: cat.name, description: cat.tagline, category: cat.name, summary: cat.metaDescription });
-    catUrls.push(`total/${cat.slug}/`);
+    catUrls.push(`${cat.slug}/`);
     for (const hub of cat.children) {
-      put(`total/${cat.slug}/${hub.slug}/index.html`, R.renderHub(cat, hub, articlesRaw),
+      put(`${cat.slug}/${hub.slug}/index.html`, R.renderHub(cat, hub, articlesRaw),
         { kind: 'hub', title: hub.name, description: hub.desc, category: cat.name, hub: hub.name, summary: hub.moTa, keywords: hub.chuDe });
-      hubUrls.push(`total/${cat.slug}/${hub.slug}/`);
+      hubUrls.push(`${cat.slug}/${hub.slug}/`);
     }
   }
 
@@ -139,7 +139,7 @@ function main() {
   put('assets/data/chatbot-index.json', JSON.stringify(buildChatbotIndex(articlesRaw), null, 1), { kind: 'data', title: 'Chỉ mục chatbot', indexable: false });
 
   // Sitemap + robots
-  put('sitemap-pages.xml', sitemapFile('pages', ['total/', 'total/gioi-thieu/']), { kind: 'sitemap', title: 'sitemap pages', indexable: false });
+  put('sitemap-pages.xml', sitemapFile('pages', ['', 'gioi-thieu/']), { kind: 'sitemap', title: 'sitemap pages', indexable: false });
   put('sitemap-categories.xml', sitemapFile('categories', catUrls), { kind: 'sitemap', title: 'sitemap categories', indexable: false });
   put('sitemap-hubs.xml', sitemapFile('hubs', hubUrls), { kind: 'sitemap', title: 'sitemap hubs', indexable: false });
   put('sitemap-articles.xml', sitemapFile('articles', artUrls), { kind: 'sitemap', title: 'sitemap articles', indexable: false });

@@ -46,9 +46,9 @@ ok(exists('gioi-thieu/index.html'), 'Có trang giới thiệu');
 ok(exists('tim-kiem/index.html'), 'Có trang tìm kiếm');
 ok(exists('404.html'), 'Có trang 404');
 for (const c of CATEGORIES) {
-  ok(exists(`total/${c.slug}/index.html`), `Trang danh mục ${c.slug}`);
+  ok(exists(`${c.slug}/index.html`), `Trang danh mục ${c.slug}`);
   for (const h of c.children) {
-    ok(exists(`total/${c.slug}/${h.slug}/index.html`), `Trang hub ${c.slug}/${h.slug}`);
+    ok(exists(`${c.slug}/${h.slug}/index.html`), `Trang hub ${c.slug}/${h.slug}`);
   }
 }
 
@@ -59,15 +59,15 @@ for (const s of uiStrings) ok(home.includes(s), `Trang chủ có UI tiếng Vi�
 const badUI = [/>Home</, />About</, />Read more</, />Latest articles</, />Category</, />Search</];
 for (const b of badUI) ok(!b.test(home), `Không có UI tiếng Anh: ${b}`);
 for (const p of CATEGORIES) {
-  const cat = read(`total/${p.slug}/index.html`);
+  const cat = read(`${p.slug}/index.html`);
   ok(cat.includes('<html lang="vi">'), `${p.slug}: lang="vi"`);
 }
 ok(read('assets/js/search.js').includes('Không tìm thấy kết quả phù hợp'), 'Search: câu không-kết-quả bằng tiếng Việt');
 ok(read('assets/js/chatbot.js').includes('Trợ lý AI WIKI TOTAL'), 'Chatbot: tên công khai tiếng Việt');
 
 // ---------- 4. Canonical + breadcrumb + schema ----------
-const samplePaths = ['index.html', 'total/thue-xe/index.html', 'total/thue-xe/xe-may/index.html',
-  'total/moto/honda/index.html', 'total/garage/phanh/index.html'];
+const samplePaths = ['index.html', 'thue-xe/index.html', 'thue-xe/xe-may/index.html',
+  'moto/honda/index.html', 'garage/phanh/index.html'];
 for (const p of samplePaths) {
   const html = read(p);
   const expect = SITE.basePath + (p === 'index.html' ? '' : p.replace(/\/index\.html$/, '/').replace(/^total\//, ''));
@@ -75,7 +75,7 @@ for (const p of samplePaths) {
   ok(html.includes('application/ld+json'), `Có JSON-LD: ${p}`);
 }
 for (const c of CATEGORIES) {
-  const cat = read(`total/${c.slug}/index.html`);
+  const cat = read(`${c.slug}/index.html`);
   ok(cat.includes('BreadcrumbList') || cat.includes('breadcrumb'), `${c.slug}: có breadcrumb schema`);
   ok(cat.includes('CollectionPage'), `${c.slug}: schema CollectionPage`);
 }
@@ -84,13 +84,13 @@ for (const c of CATEGORIES) {
 const manifest = readJson('factory/state/manifest.json').map(m => m.rel);
 const allFiles = manifest.slice();
 function urlToFile(uHref) {
-  // '/total/X' → repo path; các đường mức gốc (assets, sitemap, robots, gioi-thieu, tim-kiem, 404) nằm ở gốc repo
+  // URL '/total/X' → repo path 'X' (repo được GitHub Pages phục vụ dưới tiền tố /total/)
   const rel = uHref.startsWith(SITE.basePath) ? uHref.slice(SITE.basePath.length) : uHref.replace(/^\//, '');
   if (!rel) return 'index.html';
   const ROOT_LEVEL = /^(assets\/|sitemap|robots\.txt|gioi-thieu\/|tim-kiem\/|404\.html)/;
   if (ROOT_LEVEL.test(rel)) return rel.replace(/\/$/, '/index.html');
-  if (rel.endsWith('/')) return 'total/' + rel + 'index.html';
-  return 'total/' + rel;
+  if (rel.endsWith('/')) return rel + 'index.html';
+  return rel;
 }
 let broken = 0;
 const referenced = new Set();
@@ -153,7 +153,7 @@ for (const a of artModules) {
   const cat = CATEGORIES.find(c => c.slug === a.category);
   ok(!!cat, `Bài "${a.slug}" thuộc danh mục hợp lệ`);
   if (a.hub) ok(cat.children.some(h => h.slug === a.hub), `Bài "${a.slug}" thuộc hub hợp lệ`);
-  const expectPath = a.hub ? `total/${a.category}/${a.hub}/${a.slug}/index.html` : `total/${a.category}/${a.slug}/index.html`;
+  const expectPath = a.hub ? `${a.category}/${a.hub}/${a.slug}/index.html` : `${a.category}/${a.slug}/index.html`;
   ok(exists(expectPath), `Bài "${a.slug}" đã sinh trang: ${expectPath}`);
 }
 
@@ -172,7 +172,7 @@ ok(reserveSum === 4000, 'Tổng các pool dự phòng = 4.000', String(reserveSu
 // Slot PUBLISHED phải có file tương ứng
 function slotToFile(s) {
   const parts = s.hub.split('/');
-  return 'total/' + parts.join('/') + '/' + s.slug + '/index.html';
+  return parts.join('/') + '/' + s.slug + '/index.html';
 }
 for (const s of matrix.slots.filter(x => x.state === 'PUBLISHED')) {
   ok(exists(slotToFile(s)), 'Slot PUBLISHED có bài đã sinh: ' + s.slug);
@@ -195,7 +195,7 @@ for (const d of sIdx) {
   if (d.url == null) { badIdx++; continue; }
   const target = d.url === '' ? 'index.html'
     : /^(assets\/|sitemap|robots\.txt|gioi-thieu\/|tim-kiem\/|404\.html)/.test(d.url) ? d.url.replace(/\/$/, '/index.html')
-    : d.url.endsWith('/') ? 'total/' + d.url + 'index.html' : 'total/' + d.url;
+    : d.url.endsWith('/') ? d.url + 'index.html' : d.url;
   if (!exists(target)) { badIdx++; if (badIdx <= 5) console.log(`    index mục vỡ: ${d.url}`); }
 }
 ok(badIdx === 0, 'Mọi mục chỉ mục trỏ tới trang tồn tại', badIdx + ' mục vỡ');
@@ -210,7 +210,7 @@ ok(Array.isArray(cIdx) && cIdx.length === artFiles.length, 'Chỉ mục chatbot 
 ok(!cIdx.some(d => String(d.url).startsWith('total/')), 'Chatbot index không chứa tiền tố total/');
 let badChat = 0;
 for (const d of cIdx) {
-  if (!exists(('total/' + d.url).replace(/\/$/, '/index.html'))) badChat++;
+  if (!exists(d.url.replace(/\/$/, '/index.html'))) badChat++;
 }
 ok(badChat === 0, 'Chatbot index trỏ tới trang tồn tại', badChat + ' mục vỡ');
 
@@ -228,7 +228,7 @@ for (const sm of ['sitemap-pages.xml', 'sitemap-categories.xml', 'sitemap-hubs.x
     const rel = loc.startsWith(SITE.baseUrl) ? loc.slice(SITE.baseUrl.length) : loc;
     const target = rel === '' ? 'index.html'
       : /^(sitemap|robots\.txt|gioi-thieu\/|tim-kiem\/|404\.html)/.test(rel) ? rel.replace(/\/$/, '/index.html')
-      : rel.endsWith('/') ? 'total/' + rel + 'index.html' : 'total/' + rel;
+      : rel.endsWith('/') ? rel + 'index.html' : rel;
     if (!exists(target)) { smBroken++; if (smBroken <= 5) console.log(`    sitemap vỡ: ${loc}`); }
   }
 }
@@ -251,8 +251,8 @@ for (let i = 0; i < matrix.slots.length; i++) {
   }
 }
 pass++; // cặp bài Vision: kiểm tra riêng dưới đây
-const motoHub = read('total/moto/honda/index.html');
-const rentalHub = read('total/thue-xe/xe-may/index.html');
+const motoHub = read('moto/honda/index.html');
+const rentalHub = read('thue-xe/xe-may/index.html');
 ok(motoHub.includes('kiến thức') || motoHub.includes('Thông số') || motoHub.includes('thông số'), 'Hub moto/honda giữ intent kiến thức model');
 ok(rentalHub.includes('thuê') || rentalHub.includes('Thuê'), 'Hub thue-xe/xe-may giữ intent thuê');
 

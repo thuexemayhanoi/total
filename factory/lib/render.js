@@ -5,7 +5,7 @@ const { CATEGORIES } = require('../data/categories');
 const S = require('./shell');
 const K = require('./schema');
 
-// a.path mang tiền tố 'total/' (vị trí file trong repo) — bỏ tiền tố trước khi ghép basePath
+// a.path là đường dẫn file so với gốc repo; URL công khai = basePath (/total/) + path (bỏ 'total/' nếu có)
 function up(p) { return String(p).replace(/^total\//, ''); }
 
 function visibleText(html) {

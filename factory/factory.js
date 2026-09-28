@@ -119,7 +119,7 @@ function loadArticleBySlug(slug) {
     try {
       const a = require(path.join(dir, f));
       if (a.slug === slug) {
-        return { ...a, path: a.hub ? `total/${a.category}/${a.hub}/${a.slug}/` : `total/${a.category}/${a.slug}/` };
+        return { ...a, path: a.hub ? `${a.category}/${a.hub}/${a.slug}/` : `${a.category}/${a.slug}/` };
       }
     } catch (e) { /* bỏ qua file lỗi */ }
   }
