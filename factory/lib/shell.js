@@ -197,9 +197,11 @@ function breadcrumbHtml(trail) {
   return `<nav class="breadcrumb" aria-label="Breadcrumb"><span class="crumb-sep" aria-hidden="true">Bạn ở đây:</span>${items}</nav>`;
 }
 
-// metaTags: thẻ SEO dùng chung
+// metaTags: thẻ SEO dùng chung (canonical + og:url tuyệt đối theo spec)
 function metaTags(o) {
-  const canonical = u(o.path || '');
+  const rel = String(o.path || '').replace(/index\.html$/, '');
+  const canonical = rel ? SITE.baseUrl + rel : SITE.baseUrl;
+  const ogImage = SITE.baseUrl + 'assets/img/og-cover.png';
   return `<title>${esc(o.title)}</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -211,6 +213,14 @@ function metaTags(o) {
 <meta property="og:description" content="${esc(o.description)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:locale" content="vi_VN">
+<meta property="og:image" content="${ogImage}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo và tên site AI WIKI TOTAL trên nền trắng ngà, nhấn cobalt">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(o.title)}">
+<meta name="twitter:description" content="${esc(o.description)}">
+<meta name="twitter:image" content="${ogImage}">
 <meta name="theme-color" content="#3157D5">`;
 }
 

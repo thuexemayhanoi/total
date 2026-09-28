@@ -34,7 +34,7 @@ module.exports = {
       h2: 'Cách đọc thông số kỹ thuật của xe ga nhỏ như Vision',
       html: `<p>Thông số kỹ thuật của xe máy thường được đọc qua vài nhóm chính. Nhóm thứ nhất là khối động cơ: kiểu xi-lanh đơn, dung tích xilanh công bố khoảng một trăm mười phân khối đối với thế hệ mới; công suất và mô-men xoắn cực đại đạt được ở dải vòng tua máy cao. Con số công suất với xe ga nhỏ ít nói lên nhiều hơn mô-men xoắn ở dải tua thấp — vì đi lại đô thị, bạn hầu như không bao giờ chạm dải công suất cực đại.</p>
 <p>Nhóm thứ hai là truyền động: hộp số tự động biến thiên không cấp (CVT) với cụm ly hợp ly tâm. Cơ chế này lý giải vì sao xe ga không có tay côn và sang số: dây đai và puli tự thay đổi tỷ số truyền theo tốc độ. Hệ quả bảo dưỡng là bộ dây đai và bi ba càng phải thay theo chu kỳ km — mục chi phí đặc trưng của xe ga mà xe số không có ở cấp độ này.</p>
-<p>Nhóm thứ ba là khung và lốp: bánh trước và sau cỡ nhỏ, phanh trước tùy thế hệ dùng phanh cơm hoặc phanh đĩa, phanh sau hầu hết là phanh cơm. Nhóm thứ tư là kích thước và khối lượng: chiều cao yên thấp, khoảng cách trục bánh ngắn và khối lượng khô nhỏ — ba con số quyết định độ "gọn" của xe khi luồn ngõ và chống chân khi dừng đèn đỏ.</p>
+<p>Nhóm thứ ba là khung và lốp: bánh trước và sau cỡ nhỏ, phanh trước tùy thế hệ dùng phanh tang trống hoặc phanh đĩa, phanh sau hầu hết là phanh tang trống. Nhóm thứ tư là kích thước và khối lượng: chiều cao yên thấp, khoảng cách trục bánh ngắn và khối lượng khô nhỏ — ba con số quyết định độ "gọn" của xe khi luồn ngõ và chống chân khi dừng đèn đỏ.</p>
 <p>Khi so sánh các mẫu xe cùng phân khúc, đừng chỉ nhìn công suất: hãy so mô-men xoắn ở dải tua thấp, khối lượng bản xe, dung tích cốp và chi phí bảo dưỡng định kỳ. Với xe đô thị, nhóm chỉ số sau nói lên trải nghiệm thực tế nhiều hơn con số công suất cực đại.</p>`,
     },
     {
@@ -63,7 +63,7 @@ module.exports = {
       h2: 'Những hư hỏng hay gặp theo tuổi xe và cách nhận biết',
       html: `<p>Ắc quy là hạng mục hỏng phổ biến nhất của xe ga đã dùng vài năm: khóa điện và hệ thống đề tiêu thụ điện, và người dùng chỉ nhận ra khi máy không đề được. Dấu hiệu sớm là tiếng đề yếu dần, đèn nhá dưới mức bình thường. Giữ ắc quy, kiểm tra khi bảo dưỡng và thay đúng loại giúp tránh sự cố giữa đường.</p>
 <p>Khớp trước và bi lái phát tiếng kêu "cạch cạch" khi xoay lái nhẹ hoặc gặp gờ đường ở xe đã chạy nhiều. Đây là hao mòn tự nhiên, sửa không phức tạp nhưng để lâu ảnh hưởng độ chính xác lái. Tương tự, các bạc đảo chân trước hết hạn khiến xe lắc đầu khi phanh gấp — dấu hiệu cần kiểm tra ngay vì liên quan an toàn.</p>
-<p>Cụm phanh: má phanh cơm mòn dần khiến tay phanh phải bóp sâu dần và tiếng rè rè lúc phanh nhẹ; bố phanh đĩa mòn cho cảm giác phanh mềm dần. Phanh là hệ thống an toàn số một — phát hiện bất thường nên kiểm tra ngay, đừng để tới kỳ bảo dưỡng.</p>
+<p>Cụm phanh: má phanh tang trống mòn dần khiến tay phanh phải bóp sâu dần và tiếng rè rè lúc phanh nhẹ; bố phanh đĩa mòn cho cảm giác phanh mềm dần. Phanh là hệ thống an toàn số một — phát hiện bất thường nên kiểm tra ngay, đừng để tới kỳ bảo dưỡng.</p>
 <p>Cụm cung cấp nhiên liệu: kim phun bẩn vì xăng kém chất lượng khiến máy rung khi không tải, nổ khó lúc máy nguội. Chạy xăng sạch và vệ sinh kim phun theo chu kỳ là phòng bệnh đơn giản nhất. Cuối cùng, gioăng cốp bị lão hóa cho nước hắt vào cốp mỗi mùa mưa — đồ điện để trong cốp có thể hỏng, nên kiểm tra gioăng nếu thấy cốp ẩm.</p>`,
     },
   ],

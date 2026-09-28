@@ -1,4 +1,5 @@
-// AI WIKI TOTAL — trình kết xuất trang: chủ / danh mục cha / hub con / bài viết / giới thiệu / tìm kiếm / 404
+// AI WIKI TOTAL — trình kết xuất trang (Editorial Magazine v3):
+// chủ / danh mục cha / hub con / bài viết / giới thiệu / tìm kiếm / 404
 'use strict';
 const { SITE, HOME_CATEGORY_ORDER } = require('../site.config');
 const { CATEGORIES } = require('../data/categories');
@@ -14,40 +15,106 @@ function visibleText(html) {
 function wordCount(s) {
   return visibleText(s).split(/\s+/).filter(w => /[a-zA-ZÀ-Ỹà-ỹ0-9]/.test(w)).length;
 }
+// Thời gian đọc ước tính từ số từ — chỉ hiển thị số liệu suy từ dữ liệu thật
+function readMin(words) { return Math.max(1, Math.round(words / 200)); }
 const MONTHS = ['tháng 1', 'tháng 2', 'tháng 3', 'tháng 4', 'tháng 5', 'tháng 6',
   'tháng 7', 'tháng 8', 'tháng 9', 'tháng 10', 'tháng 11', 'tháng 12'];
 function formatDate(iso) {
   const [y, m, d] = String(iso).split('-').map(Number);
   return `${d} ${MONTHS[m - 1]}, ${y}`;
 }
+// Thứ tự bài chuẩn toàn site: ngày xuất bản, rồi slug — dùng cho prev/next và "mới nhất"
+function byOrder(x, y) {
+  const d = String(x.date).localeCompare(String(y.date));
+  return d !== 0 ? d : String(x.slug).localeCompare(String(y.slug));
+}
 
-function catCard(c) {
-  return `<a class="cat-card" data-acc="${S.ACCENTS[c.slug]}" href="${S.u(c.slug + '/')}">
-  <span class="cat-name">${S.esc(c.name)}</span>
-  <span class="cat-tag">${S.esc(c.tagline)}</span>
-  <span class="cat-count">${c.children.length} chủ đề</span>
+// Minh họa dùng chung theo danh mục — SVG do AI WIKI TOTAL tự vẽ, ghi rõ "Ảnh minh họa"
+const ILLU = {
+  'thue-xe': { file: 'illu-thue-xe.svg', title: 'xe máy, hợp đồng và chìa khóa khi thuê xe' },
+  'thue-xe/xe-may': { file: 'illu-xe-may.svg', title: 'xe máy ga di chuyển trong phố' },
+  'thue-xe/xe-dien': { file: 'illu-xe-dien.svg', title: 'xe điện, pin và trạm sạc' },
+  'thue-xe/xe-oto': { file: 'illu-xe-oto.svg', title: 'ô tô tự lái trên đường' },
+  'moto': { file: 'illu-xe-may.svg', title: 'xe máy ga cỡ nhỏ' },
+  'garage': { file: 'illu-garage.svg', title: 'đĩa phanh, kẹp phanh và công cụ bảo dưỡng' },
+  'market': { file: 'illu-gia-xe.svg', title: 'thẻ giá và biểu đồ so sánh giá xe' },
+};
+function illuFor(cat, hub) { return ILLU[cat + '/' + hub] || ILLU[cat] || ILLU['thue-xe']; }
+
+function illuImg(cat, hub, opts) {
+  const il = illuFor(cat, hub);
+  const eager = opts && opts.eager;
+  return `<img src="${S.u('assets/img/' + il.file)}" width="960" height="640" alt="Ảnh minh họa: ${S.esc(il.title)}" ${eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} decoding="async">`;
+}
+
+// Thẻ bài dùng chung: ảnh + chuyên mục + tiêu đề + mô tả + meta từ dữ liệu thật
+function postCard(a) {
+  return `<a class="post-card" href="${S.u(up(a.path))}">
+  <span class="post-thumb">${illuImg(a.category, a.hub)}</span>
+  <span class="post-cat">${S.esc(a.catName)}${a.hubName ? ' · ' + S.esc(a.hubName) : ''}</span>
+  <span class="post-title">${S.esc(a.title)}</span>
+  <span class="post-dek">${S.esc(a.summary.slice(0, 160))}…</span>
+  <span class="post-meta">${formatDate(a.date)} · ${readMin(a.wordCount)} phút đọc</span>
+</a>`;
+}
+
+// Bài nổi bật = bài mới nhất — nhãn nói đúng bản chất dữ liệu, không bịa "phổ biến nhất"
+function featuredCard(a, opts) {
+  const label = (opts && opts.label) || 'Bài mới nhất';
+  return `<section class="featured" aria-label="${S.esc(label)}">
+<a class="feat-card" href="${S.u(up(a.path))}">
+  <figure class="feat-media">${illuImg(a.category, a.hub, { eager: true })}</figure>
+  <div class="feat-body">
+    <p class="feat-cat"><span class="feat-label">${S.esc(label)}</span>${S.esc(a.catName)}${a.hubName ? ' · ' + S.esc(a.hubName) : ''}</p>
+    <h2 class="feat-title">${S.esc(a.title)}</h2>
+    <p class="feat-dek">${S.esc(a.summary.slice(0, 260))}…</p>
+    <p class="feat-meta">${formatDate(a.date)}${a.updated && a.updated !== a.date ? ' · cập nhật ' + formatDate(a.updated) : ''} · ${readMin(a.wordCount)} phút đọc</p>
+    <span class="feat-cta">Đọc tiếp <span aria-hidden="true">→</span></span>
+  </div>
+</a>
+</section>`;
+}
+
+// Hàng bài gọn trong danh mục/hub
+function postRow(a) {
+  return `<a class="post-row" href="${S.u(up(a.path))}">
+  <span class="row-thumb">${illuImg(a.category, a.hub)}</span>
+  <span class="row-body">
+    <span class="row-title">${S.esc(a.title)}</span>
+    <span class="row-meta">${formatDate(a.date)} · ${readMin(a.wordCount)} phút đọc</span>
+  </span>
 </a>`;
 }
 
 // ---------- Trang chủ ----------
 function renderHomepage(articles) {
+  const ordered = articles.slice().sort(byOrder).reverse();
+  const newest = ordered[0];
+  const rest = ordered.slice(1);
   const rental = CATEGORIES.find(c => c.slug === 'thue-xe');
   const rentalCells = rental.children.map(h => `<a class="rental-cell" href="${S.u('thue-xe/' + h.slug + '/')}">
     <span class="rental-name">${S.esc(h.name)}</span>
     <span class="rental-desc">${S.esc(h.desc)}</span>
   </a>`).join('');
-  const cats = HOME_CATEGORY_ORDER.map(slug => CATEGORIES.find(c => c.slug === slug)).map(catCard).join('');
-  const latest = articles.slice().sort((x, y) => (y.date || '').localeCompare(x.date || '')).slice(0, 8)
-    .map(a => `<a class="latest-card" href="${S.u(up(a.path))}">
-      <span class="latest-title">${S.esc(a.title)}</span>
-      <span class="card-summary">${S.esc(a.summary.slice(0, 150))}…</span>
-      <span class="card-meta">${formatDate(a.date)} · ${a.wordCount} từ · ${S.esc(a.catName)}${a.hubName ? ' · ' + S.esc(a.hubName) : ''}</span>
-    </a>`).join('');
+  const latest = rest.slice(0, 6).map(postCard).join('');
+  // Khám phá danh mục: 5 ô lớn + mục lục gọn cho 10 mục còn lại — giảm ô chữ giống nhau
+  const tiles = HOME_CATEGORY_ORDER.slice(0, 5).map(slug => {
+    const c = CATEGORIES.find(x => x.slug === slug);
+    return `<a class="cat-tile" data-acc="${S.ACCENTS[c.slug]}" href="${S.u(c.slug + '/')}">
+      <span class="tile-name">${S.esc(c.name)}</span>
+      <span class="tile-tag">${S.esc(c.tagline)}</span>
+      <span class="tile-count">${c.children.length} chủ đề</span>
+    </a>`;
+  }).join('');
+  const indexList = HOME_CATEGORY_ORDER.slice(5).map(slug => {
+    const c = CATEGORIES.find(x => x.slug === slug);
+    return `<li><a class="cat-idx" data-acc="${S.ACCENTS[c.slug]}" href="${S.u(c.slug + '/')}">${S.esc(c.name)}<span class="idx-count">${c.children.length}</span></a></li>`;
+  }).join('');
   const content = `
 <section class="hero">
   <p class="hero-kicker">Cẩm nang tiếng Việt · Kiến thức xe &amp; thuê xe</p>
   <h1 class="hero-title">${S.esc(SITE.name)}</h1>
-  <p class="hero-sub">Cẩm nang xe, thuê xe và giao thông Việt Nam. Khám phá kiến thức về thuê xe máy, xe điện, xe ô tô, sửa chữa, giá xe, địa phương và hàng nghìn chủ đề liên quan.</p>
+  <p class="hero-sub">Kiến thức về thuê xe máy, xe điện, xe ô tô, sửa chữa, giá xe, địa phương và hành trình — viết cho người Việt, dễ tra cứu trên điện thoại.</p>
   <form class="hero-search" role="search" action="${S.u('tim-kiem/')}" method="get">
     <label class="visually-hidden" for="hero-search-input">Tìm kiếm trong AI WIKI TOTAL</label>
     <input id="hero-search-input" type="search" name="q" placeholder="${S.esc(SITE.searchPlaceholder)}">
@@ -55,18 +122,20 @@ function renderHomepage(articles) {
   </form>
   <p class="hero-tag">${S.esc(SITE.tagline)}</p>
 </section>
+${newest ? featuredCard(newest) : ''}
 <section class="rental-cluster" aria-labelledby="rental-h">
-  <h2 id="rental-h">Thuê xe — cụm chủ đề ưu tiên</h2>
+  <h2 id="rental-h" class="section-h">Thuê xe — cụm chủ đề ưu tiên</h2>
   <div class="rental-grid">${rentalCells}</div>
   <p><a class="read-more" href="${S.u('thue-xe/')}">Khám phá toàn bộ Thuê xe →</a></p>
 </section>
-<section class="cats" aria-labelledby="cats-h">
-  <h2 id="cats-h">15 danh mục chủ đề</h2>
-  <div class="cat-grid">${cats}</div>
-</section>
 <section class="latest" aria-labelledby="latest-h">
-  <h2 id="latest-h">Bài mới</h2>
+  <h2 id="latest-h" class="section-h">Bài mới</h2>
   <div class="latest-grid">${latest}</div>
+</section>
+<section class="cats" aria-labelledby="cats-h">
+  <h2 id="cats-h" class="section-h">Khám phá 15 danh mục</h2>
+  <div class="cat-tiles">${tiles}</div>
+  <ul class="cat-index">${indexList}</ul>
 </section>`;
   return S.page({
     path: '', title: SITE.homeTitle, description: SITE.homeDescription,
@@ -78,6 +147,9 @@ function renderHomepage(articles) {
 // ---------- Danh mục cha ----------
 function renderCategory(cat, articles) {
   const trail = [{ name: 'Trang chủ', href: '' }, { name: cat.name, href: cat.slug + '/' }];
+  const inCat = articles.filter(a => a.category === cat.slug).sort(byOrder).reverse();
+  const featured = inCat[0];
+  const more = inCat.slice(1);
   const hubs = cat.children.map(h => {
     const count = articles.filter(a => a.category === cat.slug && a.hub === h.slug).length;
     return `<a class="hub-card" data-acc="${S.ACCENTS[cat.slug]}" href="${S.u(cat.slug + '/' + h.slug + '/')}">
@@ -94,7 +166,12 @@ ${S.breadcrumbHtml(trail)}
   <h1>${S.esc(cat.name)}</h1>
   <p class="page-lead">${S.esc(cat.tagline)}</p>
 </header>
+${featured ? featuredCard(featured, { label: 'Bài mới nhất trong danh mục' }) : `<p class="empty-note">Danh mục này đang trong kế hoạch biên soạn. Bạn có thể khám phá các chủ đề bên dưới.</p>`}
+${more.length ? `<section class="post-list" aria-label="Bài khác trong ${S.esc(cat.name)}">
+  ${more.map(postRow).join('\n  ')}
+</section>` : ''}
 <section class="hub-cards" aria-label="Chủ đề trong ${S.esc(cat.name)}">
+  <h2 class="section-h">Chủ đề trong ${S.esc(cat.name)}</h2>
   <div class="hub-grid">${hubs}</div>
 </section>`;
   const items = cat.children.map(h => ({ name: h.name, path: cat.slug + '/' + h.slug + '/' }));
@@ -109,14 +186,15 @@ ${S.breadcrumbHtml(trail)}
 // ---------- Hub con ----------
 function renderHub(cat, hub, articles) {
   const trail = [{ name: 'Trang chủ', href: '' }, { name: cat.name, href: cat.slug + '/' }, { name: hub.name, href: cat.slug + '/' + hub.slug + '/' }];
-  const inHub = articles.filter(a => a.category === cat.slug && a.hub === hub.slug);
-  const list = inHub.length ? inHub.map(a => `<a class="latest-card" href="${S.u(up(a.path))}">
-      <span class="latest-title">${S.esc(a.title)}</span>
-      <span class="card-summary">${S.esc(a.summary.slice(0, 150))}…</span>
-      <span class="card-meta">${formatDate(a.date)} · ${a.wordCount} từ</span>
-    </a>`).join('') : '<p class="empty-note">Chủ đề này đang trong kế hoạch biên soạn. Bạn có thể xem các chủ đề liên quan trong cùng danh mục.</p>';
-  const siblings = cat.children.filter(h => h.slug !== hub.slug).slice(0, 6)
+  const inHub = articles.filter(a => a.category === cat.slug && a.hub === hub.slug).sort(byOrder).reverse();
+  const featured = inHub[0];
+  const more = inHub.slice(1);
+  const siblings = cat.children.filter(h => h.slug !== hub.slug).slice(0, 8)
     .map(h => `<a class="chip" href="${S.u(cat.slug + '/' + h.slug + '/')}">${S.esc(h.name)}</a>`).join('');
+  // Gợi ý thực sự liên quan khi chủ đề chưa có bài: bài mới nhất trong cùng danh mục, rồi toàn site
+  const suggest = (articles.filter(a => a.category === cat.slug).sort(byOrder).reverse().slice(0, 3).length
+    ? articles.filter(a => a.category === cat.slug).sort(byOrder).reverse().slice(0, 3)
+    : articles.slice().sort(byOrder).reverse().slice(0, 3)).map(postRow).join('\n  ');
   const content = `
 ${S.breadcrumbHtml(trail)}
 <header class="page-head">
@@ -124,12 +202,18 @@ ${S.breadcrumbHtml(trail)}
   <h1>${S.esc(hub.name)}</h1>
   <p class="page-lead">${S.esc(hub.moTa)}</p>
 </header>
-<section class="latest" aria-labelledby="hub-art-h">
-  <h2 id="hub-art-h">Bài trong chủ đề này</h2>
-  <div class="latest-grid">${list}</div>
+${featured ? featuredCard(featured, { label: 'Bài mới nhất trong chủ đề' }) + (more.length ? `<section class="post-list" aria-label="Bài khác trong ${S.esc(hub.name)}">
+  ${more.map(postRow).join('\n  ')}
+</section>` : '') : `
+<section class="empty-state" aria-label="Trạng thái chủ đề">
+  <h2 class="section-h">Chủ đề đang trong kế hoạch biên soạn</h2>
+  <p>Chủ đề <strong>${S.esc(hub.name)}</strong> thuộc danh mục ${S.esc(cat.name)} chưa có bài hoàn chỉnh. Danh sách dưới đây là những bài đã xuất bản liên quan gần nhất — không phải nội dung trang trí.</p>
 </section>
+<section class="post-list" aria-label="Bài liên quan gợi ý">
+  ${suggest}
+</section>`}
 <section class="chips" aria-label="Chủ đề liên quan">
-  <h2 class="h-small">Chủ đề khác trong ${S.esc(cat.name)}</h2>
+  <h2 class="section-h">Chủ đề khác trong ${S.esc(cat.name)}</h2>
   ${siblings}
 </section>`;
   const items = inHub.map(a => ({ name: a.title, path: up(a.path) }));
@@ -142,13 +226,13 @@ ${S.breadcrumbHtml(trail)}
 }
 
 // ---------- Bài viết ----------
-// Renderer dùng chung: mọi bài hiện tại & tương lai tự hưởng UI mới.
-// Cột đọc 760–820px desktop · TOC sticky (accordion trên mobile) · callout · prev/next.
+// Template dùng chung cho mọi bài hiện tại và tương lai:
+// breadcrumb → eyebrow → H1 → dek → byline (ban biên tập, ngày, phút đọc) → ảnh minh họa
+// → quick answer → key points → TOC (sticky/accordion) → thân bài 65–75 ký tự/dòng → nguồn → chia sẻ → liên quan → trước/sau
 function renderArticle(cat, hub, a, articles, bySlug) {
   const trail = [{ name: 'Trang chủ', href: '' }, { name: cat.name, href: cat.slug + '/' }];
   if (hub) trail.push({ name: hub.name, href: cat.slug + '/' + hub.slug + '/' });
   trail.push({ name: a.title, href: up(a.path) });
-  const readMin = Math.max(1, Math.round(a.wordCount / 200));
   const toc = a.sections.map((s, i) => `<li><a href="#muc-${i + 1}">${S.esc(s.h2)}</a></li>`).join('');
   const keyPoints = (a.keyPoints || []).map(k => `<li>${S.safe(k)}</li>`).join('');
   const secs = a.sections.map((s, i) => `<section class="prose-sec" id="muc-${i + 1}">
@@ -163,20 +247,17 @@ function renderArticle(cat, hub, a, articles, bySlug) {
   const refs = (a.references || []).map(r => `<li>${S.esc(r)}</li>`).join('');
   const rel = (a.related || []).filter(s => bySlug[s]).map(s => {
     const r = bySlug[s];
-    return `<a class="latest-card" href="${S.u(up(r.path))}">
-      <span class="latest-title">${S.esc(r.title)}</span>
-      <span class="card-summary">${S.esc(r.summary.slice(0, 130))}…</span>
-      <span class="card-meta">${S.esc(r.catName)}${r.hubName ? ' · ' + S.esc(r.hubName) : ''}</span>
-    </a>`;
+    return postCard(r);
   }).join('');
   // Điều hướng bài trước/bài sau: theo thứ tự ngày xuất bản toàn site
-  const ordered = articles.slice().sort((x, y) => (x.date === y.date ? String(x.slug).localeCompare(String(y.slug)) : String(x.date).localeCompare(String(y.date))));
+  const ordered = articles.slice().sort(byOrder);
   const pos = ordered.findIndex(x => x.slug === a.slug);
   const prevA = pos > 0 ? ordered[pos - 1] : null;
   const nextA = pos >= 0 && pos < ordered.length - 1 ? ordered[pos + 1] : null;
   const pnCard = (x, cls, label) => x
     ? `<a class="pn-card ${cls}" href="${S.u(up(x.path))}"><span class="pn-label">${label}</span><span class="pn-title">${S.esc(x.title)}</span><span class="pn-meta">${S.esc(x.catName)} · ${formatDate(x.date)}</span></a>`
     : '';
+  const il = illuFor(cat.slug, hub ? hub.slug : null);
   const content = `
 ${S.breadcrumbHtml(trail)}
 <article class="article" itemscope itemtype="https://schema.org/Article">
@@ -190,9 +271,24 @@ ${S.breadcrumbHtml(trail)}
       <span class="byline-sep" aria-hidden="true">·</span>
       <span class="byline-meta"><time datetime="${a.date}">${formatDate(a.date)}</time>${a.updated && a.updated !== a.date ? ' · Cập nhật <time datetime="' + a.updated + '">' + formatDate(a.updated) + '</time>' : ''}</span>
       <span class="byline-sep" aria-hidden="true">·</span>
-      <span class="byline-read">${readMin} phút đọc</span>
+      <span class="byline-read">${readMin(a.wordCount)} phút đọc</span>
+    </div>
+    <div class="art-actions">
+      <button type="button" class="act-btn" id="art-share" data-title="${S.esc(a.title)}">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><circle cx="11.5" cy="3.5" r="2.2" stroke="currentColor" stroke-width="1.6"/><circle cx="3.5" cy="7.5" r="2.2" stroke="currentColor" stroke-width="1.6"/><circle cx="11.5" cy="11.5" r="2.2" stroke="currentColor" stroke-width="1.6"/><path d="M5.4 6.4l4.3-2.1M5.4 8.6l4.3 2.1" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span>Chia sẻ</span>
+      </button>
+      <button type="button" class="act-btn" id="art-copy">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><rect x="4.5" y="4.5" width="8" height="8" rx="1.8" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 4.5v-1a1.8 1.8 0 0 0-1.8-1.8h-5A1.8 1.8 0 0 0 1.9 3.5v5A1.8 1.8 0 0 0 3.7 10.3h.8" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span>Sao chép liên kết</span>
+      </button>
+      <span class="act-hint" id="art-copy-hint" role="status" aria-live="polite"></span>
     </div>
   </header>
+  <figure class="art-lead">
+    ${illuImg(cat.slug, hub ? hub.slug : null, { eager: true })}
+    <figcaption>Ảnh minh họa: ${S.esc(il.title)} — minh họa mang tính biểu tượng, không phải ảnh sản phẩm cụ thể.</figcaption>
+  </figure>
   <div class="article-body">
     <aside class="article-toc">
       <nav class="toc" aria-label="Mục lục">
@@ -218,7 +314,7 @@ ${S.breadcrumbHtml(trail)}
       </div>
     </div>
   </div>
-  ${rel ? `<section class="latest article-related" aria-labelledby="rel-h"><h2 id="rel-h">Bài liên quan</h2><div class="latest-grid">${rel}</div></section>` : ''}
+  ${rel ? `<section class="latest article-related" aria-labelledby="rel-h"><h2 id="rel-h" class="section-h">Bài liên quan</h2><div class="latest-grid">${rel}</div></section>` : ''}
   ${(prevA || nextA) ? `<nav class="art-pn" aria-label="Bài trước và bài sau">
     ${pnCard(prevA, 'pn-prev', 'Bài trước')}
     ${pnCard(nextA, 'pn-next', 'Bài sau')}
@@ -238,11 +334,15 @@ function renderAbout(stats) {
 ${S.breadcrumbHtml(trail)}
 <header class="page-head"><h1>Giới thiệu AI WIKI TOTAL</h1>
 <p class="page-lead">${S.esc(SITE.tagline)}</p></header>
-<div class="prose">
+<figure class="art-lead">
+  <img src="${S.u('assets/img/illu-thue-xe.svg')}" width="960" height="640" alt="Ảnh minh họa: xe máy và chìa khóa trao tay khi thuê xe" loading="eager" fetchpriority="high" decoding="async">
+  <figcaption>Ảnh minh họa: xe máy, hợp đồng và chìa khóa khi thuê xe — minh họa mang tính biểu tượng.</figcaption>
+</figure>
+<div class="prose about-prose">
 <section class="prose-sec"><h2>AI WIKI TOTAL là gì?</h2>
 <p>AI WIKI TOTAL là cổng kiến thức tổng hợp bằng tiếng Việt về xe máy, xe điện, ô tô, thuê xe, sửa chữa, giá xe, thị trường, pháp lý, hành trình và địa phương. Mục tiêu dài hạn là một bách khoa toàn thư mở rộng dần lên hàng nghìn chủ đề, trong đó <strong>thuê xe</strong> là cụm chủ đề ưu tiên hàng đầu.</p></section>
 <section class="prose-sec"><h2>Nguyên tắc biên soạn</h2>
-<p>Mọi bài viết tuân theo ba nguyên tắc: kiến thức trước (knowledge-first), tiếng Việt chuẩn cho người Việt, và không đưa dữ kiện chưa xác minh. Thông tin kinh doanh chỉ xuất hiện khi đã được xác minh; phần còn lại là nội dung kiến thức tham khảo.</p></section>
+<p>Mọi bài viết tuân theo ba nguyên tắc: kiến thức trước (knowledge-first), tiếng Việt chuẩn cho người Việt, và không đưa dữ kiện chưa xác minh. Thông tin kinh doanh chỉ xuất hiện khi đã được xác minh; phần còn lại là nội dung kiến thức tham khảo. Ảnh minh họa trên site do ban biên tập tự vẽ, ghi rõ tính chất minh họa — không sử dụng ảnh chụp sản phẩm thật để tránh gây hiểu nhầm về dòng xe.</p></section>
 <section class="prose-sec"><h2>Cấu trúc hiện tại</h2>
 <p>Hiện site gồm <strong>${stats.parents} danh mục cha</strong>, <strong>${stats.hubs} hub con</strong> và các bài viết nền tảng, tất cả sinh từ dữ liệu qua trình sinh trang tĩnh (generator-first) — không chỉnh sửa HTML thủ công.</p></section>
 <section class="prose-sec"><h2>Trợ lý AI</h2>
@@ -260,7 +360,7 @@ function renderSearchPage() {
   const content = `
 ${S.breadcrumbHtml(trail)}
 <header class="page-head"><h1>Tìm kiếm</h1>
-<p class="page-lead">Nhập từ khoá để tìm trong toàn bộ AI WIKI TOTAL.</p></header>
+<p class="page-lead">Nhập từ khoá để tìm trong toàn bộ AI WIKI TOTAL — hỗ trợ tiếng Việt có dấu và không dấu.</p></header>
 <section class="search-page-box">
   <form role="search" id="page-search-form">
     <label class="visually-hidden" for="page-search-input">Từ khoá tìm kiếm</label>
@@ -274,13 +374,29 @@ ${S.breadcrumbHtml(trail)}
 
 // ---------- 404 ----------
 function render404() {
+  const popular = ['thue-xe', 'moto', 'garage', 'market', 'guide'].map(slug => {
+    const c = CATEGORIES.find(x => x.slug === slug);
+    return `<a class="chip" href="${S.u(c.slug + '/')}">${S.esc(c.name)}</a>`;
+  }).join('');
   const content = `
 <header class="page-head">
+  <p class="eyebrow">Lỗi 404</p>
   <h1>Không tìm thấy trang</h1>
-  <p class="page-lead">Trang bạn tìm không tồn tại hoặc đã di chuyển. Thử tìm từ khoá hoặc quay về trang chủ.</p>
+  <p class="page-lead">Trang bạn tìm không tồn tại hoặc đã di chuyển. Thử tìm từ khoá, chọn một danh mục bên dưới hoặc quay về trang chủ.</p>
 </header>
-<p><a class="read-more" href="${S.u('')}">Về trang chủ</a> · <a class="read-more" href="${S.u('tim-kiem/')}">Tìm kiếm</a></p>`;
+<section class="search-page-box">
+  <form role="search" action="${S.u('tim-kiem/')}" method="get">
+    <label class="visually-hidden" for="nf-search-input">Từ khoá tìm kiếm</label>
+    <input id="nf-search-input" type="search" name="q" placeholder="${S.esc(SITE.searchPlaceholder)}">
+    <button type="submit">Tìm kiếm</button>
+  </form>
+</section>
+<section class="chips" aria-label="Danh mục gợi ý">
+  <h2 class="section-h">Danh mục để bắt đầu</h2>
+  ${popular}
+</section>
+<p><a class="read-more" href="${S.u('')}">Về trang chủ →</a></p>`;
   return S.page({ path: '404.html', title: 'Không tìm thấy trang — AI WIKI TOTAL', description: 'Trang không tồn tại.', content });
 }
 
-module.exports = { up, visibleText, wordCount, formatDate, renderHomepage, renderCategory, renderHub, renderArticle, renderAbout, renderSearchPage, render404 };
+module.exports = { up, visibleText, wordCount, readMin, formatDate, renderHomepage, renderCategory, renderHub, renderArticle, renderAbout, renderSearchPage, render404 };

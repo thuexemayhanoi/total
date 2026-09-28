@@ -5,6 +5,7 @@
   'use strict';
   var BASE = document.body.getAttribute('data-base-path') || '/';
   var INDEX = null;
+  var LOAD_ERR = false;
 
   // Chuẩn hoá: bỏ dấu tiếng Việt để tìm không phụ thuộc dấu
   function normalize(s) {
@@ -16,12 +17,14 @@
       .trim();
   }
 
+  // cb(idx|null, isError): phân biệt "đang tải", "lỗi tải chỉ mục" và "có chỉ mục"
   function loadIndex(cb) {
-    if (INDEX) return cb(INDEX);
+    if (INDEX) return cb(INDEX, false);
+    if (LOAD_ERR) return cb(null, true);
     fetch(BASE + 'assets/data/search-index.json')
-      .then(function (r) { return r.json(); })
-      .then(function (d) { INDEX = d; cb(INDEX); })
-      .catch(function () { cb([]); });
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) { INDEX = d; cb(d, false); })
+      .catch(function () { LOAD_ERR = true; cb(null, true); });
   }
 
   function score(entry, terms) {
@@ -34,20 +37,24 @@
       if (k.indexOf(term) >= 0) s += 6;
       if (d.indexOf(term) >= 0) s += 3;
     }
-    if (entry.kind === 'article') s += 2;
+    // Ưu tiên bài viết CHỈ khi đã khớp từ khoá — truy vấn không khớp không được trả kết quả
+    if (s > 0 && entry.kind === 'article') s += 2;
     return s;
   }
 
+  // state: 'loading' | 'error' | 'ok'
   function doSearch(q, cb) {
     var terms = normalize(q).split(' ').filter(Boolean);
-    if (!terms.length) return cb([]);
-    loadIndex(function (idx) {
+    if (!terms.length) return cb([], 'ok');
+    cb(null, 'loading');
+    loadIndex(function (idx, isError) {
+      if (isError) return cb(null, 'error');
       var hits = idx.map(function (e) { return { e: e, s: score(e, terms) }; })
         .filter(function (h) { return h.s > 0; })
         .sort(function (a, b) { return b.s - a.s; })
         .slice(0, 12)
         .map(function (h) { return h.e; });
-      cb(hits);
+      cb(hits, 'ok');
     });
   }
 
@@ -55,8 +62,16 @@
   function esc(s) {
     return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
-  function renderResults(container, hits, q) {
-    if (!hits.length) {
+  function renderResults(container, hits, state) {
+    if (state === 'loading') {
+      container.innerHTML = '<p class="sr-empty" role="status">Đang tải chỉ mục tìm kiếm…</p>';
+      return;
+    }
+    if (state === 'error') {
+      container.innerHTML = '<p class="sr-empty" role="alert">Không tải được chỉ mục tìm kiếm. Hãy kiểm tra kết nối và thử lại.</p>';
+      return;
+    }
+    if (!hits || !hits.length) {
       container.innerHTML = '<p class="sr-empty">Không tìm thấy kết quả phù hợp.</p>';
       return;
     }
@@ -105,7 +120,9 @@
     var timer = null;
     input.addEventListener('input', function () {
       clearTimeout(timer);
-      timer = setTimeout(function () { doSearch(input.value, function (hits) { renderResults(results, hits); }); }, 160);
+      var q = input.value;
+      if (!q.trim()) { results.innerHTML = ''; return; }
+      timer = setTimeout(function () { doSearch(q, function (hits, state) { renderResults(results, hits, state); }); }, 160);
     });
   }
 
@@ -117,12 +134,13 @@
     if (!form || !input) return;
     var initial = new URLSearchParams(window.location.search).get('q') || '';
     if (initial) input.value = initial;
-    function run() { doSearch(input.value, function (hits) { renderResults(results, hits); }); }
+    function run() { doSearch(input.value, function (hits, state) { renderResults(results, hits, state); }); }
     if (initial) run();
     form.addEventListener('submit', function (e) { e.preventDefault(); run(); });
     var timer = null;
     input.addEventListener('input', function () {
       clearTimeout(timer);
+      if (!input.value.trim()) { results.innerHTML = ''; return; }
       timer = setTimeout(run, 160);
     });
   }

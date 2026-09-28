@@ -8,6 +8,7 @@
   'use strict';
   var BASE = document.body.getAttribute('data-base-path') || '/';
   var INDEX = null;
+  var LOAD_ERR = false;
 
   function normalize(s) {
     return String(s || '').toLowerCase()
@@ -19,11 +20,12 @@
   }
 
   function loadIndex(cb) {
-    if (INDEX) return cb(INDEX);
+    if (INDEX) return cb(INDEX, false);
+    if (LOAD_ERR) return cb(null, true);
     fetch(BASE + 'assets/data/chatbot-index.json')
-      .then(function (r) { return r.json(); })
-      .then(function (d) { INDEX = d; cb(INDEX); })
-      .catch(function () { cb([]); });
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) { INDEX = d; cb(INDEX, false); })
+      .catch(function () { LOAD_ERR = true; cb(null, true); });
   }
 
   function esc(s) {
@@ -47,7 +49,11 @@
   var GREETING = 'Xin chào! Tôi là Trợ lý AI WIKI TOTAL. Hỏi tôi về thuê xe, xe máy, xe điện, sửa chữa, giá xe hoặc bất kỳ chủ đề nào có trên site — tôi trả lời từ nội dung đã publish.';
 
   function reply(q, cb) {
-    loadIndex(function (idx) {
+    loadIndex(function (idx, isError) {
+      if (isError) {
+        cb('Không tải được dữ liệu trợ lý. Hãy kiểm tra kết nối và thử lại.', null);
+        return;
+      }
       var hits = rank(q, idx);
       if (!hits.length) {
         cb('Tôi chưa có bài viết phù hợp cho câu hỏi này. Bạn thử tìm với từ khoá khác, hoặc xem danh mục Thuê xe / Xe máy trên menu.', null);

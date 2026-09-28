@@ -4,7 +4,7 @@ const { SITE } = require('../site.config');
 
 // URL tuyệt đối: baseUrl đã chứa /total/ — bỏ tiền tố 'total/' của đường dẫn file nếu còn
 function absUrl(p) {
-  return SITE.baseUrl + String(p || '').replace(/^total\//, '').replace(/^\/+/, '');
+  return SITE.baseUrl + String(p || '').replace(/^total\//, '').replace(/^\/+/, '').replace(/index\.html$/, '');
 }
 
 function jsonld(obj) {

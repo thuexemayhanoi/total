@@ -83,4 +83,61 @@
     syncToc();
     if (mqSmall.addEventListener) mqSmall.addEventListener('change', syncToc);
   }
+
+  // ---------- Chia sẻ / sao chép liên kết bài viết ----------
+  function copyToClipboard(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text);
+    }
+    // Fallback cho trình duyệt cũ / bối cảnh không secure
+    return new Promise(function (resolve, reject) {
+      try {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        var ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        if (ok) resolve(); else reject(new Error('copy failed'));
+      } catch (err) { reject(err); }
+    });
+  }
+
+  var shareBtn = $('art-share');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', function () {
+      var title = shareBtn.getAttribute('data-title') || document.title;
+      if (navigator.share) {
+        navigator.share({ title: title, url: window.location.href }).catch(function () { /* người dùng huỷ */ });
+      } else {
+        copyToClipboard(window.location.href).then(function () {
+          var old = shareBtn.textContent;
+          shareBtn.textContent = 'Đã sao chép liên kết!';
+          setTimeout(function () { shareBtn.textContent = old; }, 2000);
+        }).catch(function () { /* bỏ qua */ });
+      }
+    });
+  }
+
+  var copyBtn = $('art-copy');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function () {
+      var old = copyBtn.textContent;
+      copyToClipboard(window.location.href).then(function () {
+        copyBtn.textContent = 'Đã sao chép liên kết!';
+        var hint = $('art-copy-hint');
+        if (hint) hint.textContent = 'Đã sao chép liên kết bài viết này.';
+        setTimeout(function () {
+          copyBtn.textContent = old;
+          if (hint) hint.textContent = '';
+        }, 2000);
+      }).catch(function () {
+        var hint = $('art-copy-hint');
+        if (hint) hint.textContent = 'Không sao chép được — hãy copy từ thanh địa chỉ trình duyệt.';
+      });
+    });
+  }
 })();

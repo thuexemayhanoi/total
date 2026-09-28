@@ -5,13 +5,13 @@ module.exports = {
   slug: 'xe-may-bi-bo-phanh-nguyen-nhan-va-cach-xu-ly',
   title: 'Xe máy bị bó phanh: nguyên nhân và cách xử lý an toàn',
   seoTitle: 'Xe máy bị bó phanh: nguyên nhân và cách xử lý',
-  metaDescription: 'Bó phanh là sự cố an toàn không được xem nhẹ: giải thích cơ chế phanh đĩa và phanh cơm, nguyên nhân xe bị bó phanh, cách nhận biết sớm và xử lý đúng.',
+  metaDescription: 'Bó phanh là sự cố an toàn không được xem nhẹ: giải thích cơ chế phanh đĩa và phanh tang trống, nguyên nhân xe bị bó phanh, cách nhận biết sớm và xử lý đúng.',
   summary: 'Bó phanh là tình trạng cụm phanh không nhả ra hoàn toàn sau khi buông tay phanh hoặc nhả cần phanh, khiến má phanh vẫn cọ xát vào đĩa hoặc trống phanh khi xe đang chạy. Hậu quả nhẹ là xe ì, nóng bánh và mòn phanh nhanh; hậu quả nặng là khóa bánh, mất thăng bằng ở tốc độ cao. Bài viết này giải thích cơ chế của sự cố, những nguyên nhân phổ biến nhất trên xe máy, cách nhận biết sớm khi đang chạy và trình tự xử lý an toàn.',
   quickAnswer: 'Khi xe máy bị bó phanh, hãy giảm tốc từ từ, dừng ở nơi an toàn và kiểm tra độ nóng của bánh xe, cảm giác đùn của tay phanh và tiếng cọ khi đẩy xe. Đa số trường hợp xuất phát từ trục kẹp phanh thiếu bôi trơn, pistons kẹp bị kẹt bẩn hoặc lò xo trả má phanh yếu. Không nên chạy tiếp dài ngày với phanh bó — nên kiểm tra ở garage vì đây là sự cố ảnh hưởng trực tiếp đến an toàn.',
   keyPoints: [
     'Bó phanh là cụm phanh không nhả hoàn toàn sau khi buông phanh — má phanh vẫn cọ lên đĩa hoặc trống phanh.',
     'Dấu hiệu nhận biết: bánh xe nóng bất thường, xe ì khi buông ga, tay phanh đùn cứng, tiếng rè liên tục.',
-    'Nguyên nhân phổ biến: trục kẹp phanh khô bẩn, pistons kẹp kẹt, lò xo trả má phanh yếu, bố phanh cơm mòn lệch.',
+    'Nguyên nhân phổ biến: trục kẹp phanh khô bẩn, pistons kẹp kẹt, lò xo trả má phanh yếu, bố phanh tang trống mòn lệch.',
     'Xử lý an toàn: giảm tốc từ từ, dừng nơi thoáng, kiểm tra độ nóng bánh, không phanh gấp bánh bị bó.',
     'Phòng ngừa: vệ sinh và bôi trơn trục kẹp định kỳ, kiểm tra phanh mỗi kỳ bảo dưỡng.',
   ],
@@ -19,7 +19,7 @@ module.exports = {
   hub: 'phanh',
   date: '2026-09-21',
   updated: '2026-09-21',
-  entities: ['bó phanh', 'phanh đĩa', 'phanh cơm', 'kẹp phanh', 'pistons kẹp', 'bảo dưỡng phanh'],
+  entities: ['bó phanh', 'phanh đĩa', 'phanh tang trống', 'kẹp phanh', 'pistons kẹp', 'bảo dưỡng phanh'],
   keywords: ['xe máy bị bó phanh', 'phanh đĩa bị kẹt', 'bó phanh nguyên nhân', 'sửa bó phanh', 'pistons kẹp phanh', 'xe ì do phanh', 'bảo dưỡng phanh xe máy'],
   sections: [
     {
@@ -29,10 +29,10 @@ module.exports = {
 <p>Vì thế, bó phanh được xếp vào nhóm sự cố an toàn chứ không phải lỗi vận hành khó chịu. Đối xử đúng cách với nó là: nhận biết sớm, dừng kiểm tra, khắc phục trước khi tiếp tục những chặng dài.</p>`,
     },
     {
-      h2: 'Cơ chế phanh đĩa và phanh cơm: hai con đường hư hỏng khác nhau',
+      h2: 'Cơ chế phanh đĩa và phanh tang trống: hai con đường hư hỏng khác nhau',
       html: `<p>Phanh đĩa hiện diện ở bánh trước của phần lớn xe máy đời mới. Cấu tạo gồm đĩa phanh gắn liền moay-ơ bánh, kẹp phanh (caliper) ôm quanh đĩa chứa pistons, và má phanh gắn trong kẹp. Khi bóp phanh, dầu phanh truyền lực ép pistons đẩy má phanh kẹp hai bên đĩa. Khi buông, áp lực dầu hạ, pistons cần rút lại nhờ phớt cao su co giãn và độ rung của đĩa đẩy má phanh rời xa vài phần mười milimét.</p>
 <p>Đường hư hỏng của phanh đĩa nằm ở sự rút về này: pistons bị bẩn cặn bụi bám quanh thân không rút nổi, trục trượt của kẹp bị khô gỉ khiến nửa kẹp không trượt tự do, và má phanh mòn lệch kẹt trong kẹp. Bất kỳ khâu nào "không nhả" cũng tạo lực cọ thường trực lên đĩa.</p>
-<p>Phanh cơm (trống phanh) hiện diện ở bánh sau của hầu hết xe máy phổ thông và bánh trước của các đời xe cũ. Cấu tạo gồm trống phanh quay cùng bánh, hai má phanh cong lò xo kéo về vị trí nghỉ, và cơ cấu cam xoay đẩy má ép vào trống khi kéo phanh. Đường hư hỏng của phanh cơm: lò xo trả về yếu hoặc gãy, cam xoay khô gỉ quay không trở về, má phanh mòn lệch hoặc vụn nát cọ vào trống, và vệt rãnh mòn trên bề mặt trống giữ má phanh không nhả hết.</p>
+<p>Phanh cơm (trống phanh) hiện diện ở bánh sau của hầu hết xe máy phổ thông và bánh trước của các đời xe cũ. Cấu tạo gồm trống phanh quay cùng bánh, hai má phanh cong lò xo kéo về vị trí nghỉ, và cơ cấu cam xoay đẩy má ép vào trống khi kéo phanh. Đường hư hỏng của phanh tang trống: lò xo trả về yếu hoặc gãy, cam xoay khô gỉ quay không trở về, má phanh mòn lệch hoặc vụn nát cọ vào trống, và vệt rãnh mòn trên bề mặt trống giữ má phanh không nhả hết.</p>
 <p>Hiểu cơ chế giúp bạn mô tả chính xác hiện tượng cho thợ sửa xe — điều quan trọng vì triệu chứng "xe ì, bánh nóng" có nhiều nguyên nhân, và chẩn đoán sai dẫn tới sửa sai, thay phụ tùng không cần thiết.</p>`,
     },
     {
@@ -46,7 +46,7 @@ module.exports = {
       h2: 'Các nguyên nhân phổ biến và cách xử lý từng trường hợp',
       html: `<p>Trường hợp phổ biến nhất ở phanh đĩa là trục trượt kẹp phanh bị khô và bẩn. Trục này cho phép nửa kẹp trượt nhẹ mỗi lần phanh; cặn bụi và thiếu mỡ làm nó kẹt, giữ một má phanh luôn áp nhẹ vào đĩa. Xử lý: tháo kẹp, vệ sinh trục, bôi mỡ chịu nhiệt, kiểm tra phớt bụi. Đây là công việc bảo dưỡng định kỳ nên làm mỗi khi thay má phanh.</p>
 <p>Thứ hai là pistons kẹp bị cặn bẩn. Hơi bụi ma sát tích quanh thân pistons mỗi lần mòn má phanh; khi pistons phải rút về, cặn làm kẹt. Xử lý: vệ sinh quanh pistons bằng dung dịch chuyên dụng, đẩy pistons về và quan sát; nếu phớt nứt hoặc pistons rỉ sét thì phải thay hoặc thay cả kẹp trong trường hợp nặng.</p>
-<p>Thứ ba là lò xo trả má phanh yếu ở phanh cơm và cam phanh khô gỉ. Xử lý: mở nắp trống phanh, làm sạch buồng trống, thay lò xo mới, bôi mỡ điểm xoay cam. Trong lúc mở, quan sát bề mặt trống và độ mòn má phanh: nếu có vệt rãnh sâu, nên đưa trống đi tiện lại hoặc thay.</p>
+<p>Thứ ba là lò xo trả má phanh yếu ở phanh tang trống và cam phanh khô gỉ. Xử lý: mở nắp trống phanh, làm sạch buồng trống, thay lò xo mới, bôi mỡ điểm xoay cam. Trong lúc mở, quan sát bề mặt trống và độ mòn má phanh: nếu có vệt rãnh sâu, nên đưa trống đi tiện lại hoặc thay.</p>
 <p>Thứ tư là má phanh mòn lệch hoặc lắp sai: má nghiêng, kẹt trong rãnh kẹp hoặc trong đòn đẩy của trống phanh. Xử lý: thay má mới theo bộ và lắp đúng vị trí. Thứ năm, ít gặp hơn: dầu phanh bẩn mất tính năng hoặc ống dẫn bị gập khiến áp lực không hạ về — cần thay dầu và kiểm tra đường dẫn. Với phanh sau pedal, kiểm tra thêm lò xo trả pedal và hành trình tự do.</p>
 <p>Một lưu ý về tự sửa tại nhà: vệ sinh, bôi trơn trục và quan sát là việc người dùng có thể làm; nhưng thao tác tháo pistons, thay phớt hay tiện trống phanh đòi hỏi dụng cụ và kỹ thuật. Phanh là hệ thống an toàn — nếu chưa chắc, hãy để garage xử lý.</p>`,
     },
@@ -59,7 +59,7 @@ module.exports = {
     },
     {
       h2: 'Phòng ngừa bó phanh: bảo dưỡng đúng chu kỳ',
-      html: `<p>Bó phanh gần như luôn là kết quả tích lũy của thiếu bảo dưỡng, chứ không phải hỏng đột ngột. Bởi vậy công việc phòng ngừa đơn giản: mỗi kỳ thay nhớt hoặc bảo dưỡng định kỳ, nhờ thợ vệ sinh và bôi trơn trục kẹp phanh đĩa, làm sạch buồng trống phanh cơm, kiểm tra lò xo và cam phanh, kiểm tra độ mòn má phanh.</p>
+      html: `<p>Bó phanh gần như luôn là kết quả tích lũy của thiếu bảo dưỡng, chứ không phải hỏng đột ngột. Bởi vậy công việc phòng ngừa đơn giản: mỗi kỳ thay nhớt hoặc bảo dưỡng định kỳ, nhờ thợ vệ sinh và bôi trơn trục kẹp phanh đĩa, làm sạch buồng tang trống, kiểm tra lò xo và cam phanh, kiểm tra độ mòn má phanh.</p>
 <p>Với xe hay đi mưa, đi bụi hoặc rửa xe bằng vòi áp lực mạnh thường xuyên, cụm phanh bẩn nhanh hơn. Vệt bụi ma sát tích quanh pistons và trục trượt chính là "mồi" của bó phanh — vệ sinh định kỳ loại bỏ mồi này. Sau mỗi mùa mưa hoặc những chuyến đường bụi, một lần kiểm tra nhanh cụm phanh không bao giờ là thừa.</p>
 <p>Thay má phanh đúng lúc cũng là phòng ngừa: má mòn quá mức gây lệch kẹp, kẹt má và làm hỏng bề mặt đĩa hoặc trống. Khi thay má, ưu tiên thay theo bộ, dùng má đúng loại xe và nhờ thợ kiểm tra đồng thời pistons, phớt và trục trượt — đây là lúc cụm phanh đang mở, kiểm tra tốn kém nhất là công tháo lại lần nữa.</p>
 <p>Cuối cùng, tạo thói quen nghe và cảm nhận xe: tiếng rè liên tục, cảm giác xe ì bất thường, tay phanh đùn — mỗi sự bất thường nhỏ đều có lý do. Với phanh, phát hiện sớm luôn là chênh lệch giữa một lần vệ sinh vài chục phút và một cụm phanh hỏng phải thay nguyên bộ giữa mùa bận rộn.</p>`,
@@ -84,7 +84,7 @@ module.exports = {
     'Phanh là hệ thống an toàn: khi không chắc chắn về khả năng tự xử lý, luôn ưu tiên nhờ thợ chuyên nghiệp kiểm tra.',
   ],
   references: [
-    'Tài liệu bảo dưỡng của nhà sản xuất về hệ thống phanh đĩa và phanh cơm trên xe máy phổ thông.',
+    'Tài liệu bảo dưỡng của nhà sản xuất về hệ thống phanh đĩa và phanh tang trống trên xe máy phổ thông.',
     'Hướng dẫn kỹ thuật về vệ sinh và bôi trơn kẹp phanh, trục trượt của các hãng phụ tùng phanh.',
     'Quy định về điều kiện an toàn kỹ thuật của xe máy khi tham gia giao thông.',
   ],

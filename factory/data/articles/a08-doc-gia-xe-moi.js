@@ -30,7 +30,7 @@ module.exports = {
 <p>Nguyên tắc đọc giá vì thế rất rõ: khi hỏi giá, đừng hỏi "giá xe bao nhiêu" mà hỏi "giá lăn bánh bao nhiêu, gồm những gì". Câu hỏi này buộc người bán liệt kê đầy đủ, và hai nơi bán chỉ thực sự so được khi cả hai đều trả lời bằng tổng chi phí cùng cấu phần.</p>`,
     },
     {
-      h2: 'Giải phóng giá lăn bánh: những khoản nào nằm trong tổng',
+      h2: 'Giá lăn bánh: những khoản nào nằm trong tổng số tiền',
       html: `<p>Thành phần lớn nhất của phần lăn bánh là thuế trước bạ: khoản thu một lần khi đăng ký xe, tính theo tỷ lệ phần trăm trên giá tính thuế, với mức tỷ lệ do địa phương quyết định trong khung quốc gia. Vì tỷ lệ theo địa phương, cùng một chiếc xe đăng ký ở hai tỉnh khác nhau có thể chênh nhau một khoản đáng kể ở mục này.</p>
 <p>Thành phần thứ hai là phí đăng ký, cấp biển số: gồm lệ phí đăng ký xe và chi phí làm biển. Biển thường và các dạng biển đặc biệt có chi phí khác nhau tùy quy định từng thời kỳ. Thành phần thứ ba là bảo hiểm trách nhiệm dân sự bắt buộc: không có nó, xe không được lưu thông; bạn có thể mua thêm bảo hiểm tự nguyện cho người ngồi trên xe và tài sản.</p>
 <p>Ngoài nhóm bắt buộc, nhiều nơi bán tính thêm các dịch vụ kèm: phí ra hồ sơ, phí hỗ trợ đăng ký, gói đăng kiểm định kỳ nếu áp dụng. Các dịch vụ này không bắt buộc mua tại nơi bán xe — bạn hoàn toàn có thể tự làm hồ sơ đăng ký. Đó là lý do khi nhận bảng báo giá, nên yêu cầu tách rõ: phần bắt buộc theo quy định và phần dịch vụ tự chọn, từ đó quyết định phần sau dựa trên thời gian và sự tiện lợi của mình.</p>

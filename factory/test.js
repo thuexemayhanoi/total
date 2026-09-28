@@ -65,15 +65,19 @@ for (const p of CATEGORIES) {
 ok(read('assets/js/search.js').includes('Không tìm thấy kết quả phù hợp'), 'Search: câu không-kết-quả bằng tiếng Việt');
 ok(read('assets/js/chatbot.js').includes('Trợ lý AI WIKI TOTAL'), 'Chatbot: tên công khai tiếng Việt');
 
-// ---------- 4. Canonical + breadcrumb + schema ----------
+// ---------- 4. Canonical + breadcrumb + schema (URL tuyệt đối) ----------
 const samplePaths = ['index.html', 'thue-xe/index.html', 'thue-xe/xe-may/index.html',
   'moto/honda/index.html', 'garage/phanh/index.html'];
 for (const p of samplePaths) {
   const html = read(p);
-  const expect = SITE.basePath + (p === 'index.html' ? '' : p.replace(/\/index\.html$/, '/').replace(/^total\//, ''));
-  ok(html.includes(`rel="canonical" href="${expect}"`), `Canonical đúng: ${p}`, expect);
+  const rel = p === 'index.html' ? '' : p.replace(/\/index\.html$/, '/');
+  const expect = SITE.baseUrl + rel;
+  ok(html.includes(`rel="canonical" href="${expect}"`), `Canonical tuyệt đối đúng: ${p}`, expect);
+  ok(html.includes(`property="og:url" content="${expect}"`), `og:url tuyệt đối đúng: ${p}`, expect);
   ok(html.includes('application/ld+json'), `Có JSON-LD: ${p}`);
 }
+// og:image + twitter:card trên MỌI trang sinh ra (allFiles định nghĩa ở mục 5)
+const ogImageExpect = SITE.baseUrl + 'assets/img/og-cover.png';
 for (const c of CATEGORIES) {
   const cat = read(`${c.slug}/index.html`);
   ok(cat.includes('BreadcrumbList') || cat.includes('breadcrumb'), `${c.slug}: có breadcrumb schema`);
@@ -111,6 +115,25 @@ const orphanCandidates = manifest.filter(x => x.endsWith('.html') && !x.startsWi
   .filter(x => !['index.html', '404.html'].includes(x))
   .filter(x => !referenced.has(x));
 ok(orphanCandidates.length === 0, 'Không có trang mồ côi', orphanCandidates.slice(0, 5).join(', '));
+
+// og:image + twitter:card trên MỌI trang sinh ra
+for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+  const html = read(f);
+  ok(html.includes(`property="og:image" content="${ogImageExpect}"`), `${f}: og:image tuyệt đối`);
+  ok(html.includes('name="twitter:card" content="summary_large_image"'), `${f}: twitter:card`);
+}
+
+// Mọi ảnh tham chiếu trong HTML trỏ tới file tồn tại (không placeholder chết)
+let missingAssets = 0;
+for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+  const html = read(f);
+  const srcs = [...html.matchAll(/(?:src|href)="(\/total\/assets\/[^"?]+)"/g)].map(m => m[1]);
+  for (const s of srcs) {
+    const rel = s.slice(SITE.basePath.length);
+    if (!exists(rel)) { missingAssets++; if (missingAssets <= 5) console.log(`    asset vỡ: ${f} → ${s}`); }
+  }
+}
+ok(missingAssets === 0, 'Không có asset (ảnh/CSS/JS) tham chiếu mà thiếu file', `${missingAssets} vỡ`);
 
 // ---------- 6. Bài viết ----------
 const artFiles = fs.readdirSync(path.join(ROOT, 'factory/data/articles')).filter(f => f.endsWith('.js')).sort();
@@ -324,6 +347,12 @@ for (const a of artModules) {
   ok(html.includes('"@type": "Article"') || html.includes('"@type":"Article"'), `Article ${a.slug}: schema Article nguyên vẹn`);
   ok(html.includes('rel="canonical"'), `Article ${a.slug}: canonical nguyên vẹn`);
   ok(html.includes('itemscope itemtype="https://schema.org/Article"'), `Article ${a.slug}: microdata Article nguyên vẹn`);
+  // Ảnh đầu bài minh họa: figure.art-lead + kích thước cố định + caption ghi rõ
+  ok(html.includes('<figure class="art-lead">'), `Article ${a.slug}: có ảnh đầu bài art-lead`);
+  ok(html.includes('width="960" height="640"'), `Article ${a.slug}: ảnh đầu bài có kích thước cố định`);
+  ok(/Ảnh minh họa/.test(html), `Article ${a.slug}: caption ghi rõ ảnh minh họa`);
+  // Nút chia sẻ / sao chép liên kết
+  ok(html.includes('id="art-share"') && html.includes('id="art-copy"'), `Article ${a.slug}: có nút chia sẻ + sao chép liên kết`);
 }
 // Bảng + ảnh + code responsive trong CSS dùng chung
 ok(/\.prose table\s*{[^}]*overflow-x:\s*auto/.test(atlasCss), 'CSS: bảng trong bài cuộn riêng, không tràn');
@@ -331,6 +360,37 @@ ok(/\.prose img\s*{[^}]*max-width:\s*100%/.test(atlasCss), 'CSS: ảnh trong bà
 ok(/\.prose pre\s*{[^}]*overflow-x:\s*auto/.test(atlasCss), 'CSS: khối code cuộn riêng');
 ok(atlasCss.includes('overflow-wrap: anywhere') || atlasCss.includes('overflow-wrap: break-word'), 'CSS: URL dài wrap an toàn');
 ok(/--read-w:\s*7[6-9]\dpx/.test(atlasCss), 'CSS: cột đọc 760–820px');
+ok(atlasCss.includes('scroll-margin-top'), 'CSS: anchor neo dưới header sticky (scroll-margin-top)');
+
+// ---------- 15b. Sửa lỗi đã xác nhận (P0) + trạng thái search ----------
+// a) Search: bonus bài viết chỉ cộng khi KHỚP từ khoá — "zzqxv987654321" không được trả kết quả
+ok(searchJs.includes('s > 0 && entry.kind'), 'Search: bonus loại bài chỉ khi có độ khớp (lỗi zzqxv đã sửa)');
+ok(searchJs.includes('Đang tải chỉ mục tìm kiếm'), 'Search: trạng thái đang tải chỉ mục');
+ok(searchJs.includes('Không tải được chỉ mục tìm kiếm'), 'Search: trạng thái lỗi tải chỉ mục');
+ok(searchJs.includes('Không tìm thấy kết quả phù hợp'), 'Search: trạng thái không có kết quả');
+ok(chatbotJs.includes('Không tải được dữ liệu trợ lý'), 'Trợ lý: trạng thái lỗi tải dữ liệu');
+// b) Thuật ngữ "phanh tang trống" thay "phanh cơm"; H2 vô nghĩa đã đổi
+let comPhanh = 0, giaiPhong = 0;
+for (const f of artFiles) {
+  if (read('factory/data/articles/' + f).includes('phanh cơm')) comPhanh++;
+  if (read('factory/data/articles/' + f).includes('Giải phóng giá lăn bánh')) giaiPhong++;
+}
+for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+  if (read(f).includes('phanh cơm')) comPhanh++;
+}
+ok(comPhanh === 0, 'Toàn site không còn thuật ngữ sai "phanh cơm"', `${comPhanh} file`);
+ok(giaiPhong === 0, 'Không còn H2 vô nghĩa "Giải phóng giá lăn bánh"', `${giaiPhong} file`);
+ok(read('factory/data/articles/a07-bo-phanh-garage.js').includes('phanh tang trống'), 'a07 dùng thuật ngữ đúng "phanh tang trống"');
+// c) Chia sẻ / sao chép liên kết hoạt động
+ok(navJs.includes('navigator.share') && navJs.includes('clipboard'), 'JS: chia sẻ + sao chép liên kết qua nav.js');
+ok(navJs.includes('Đã sao chép liên kết!'), 'JS: phản hồi sau khi sao chép');
+// d) Ảnh minh họa SVG tồn tại trong repo
+for (const svg of ['illu-thue-xe.svg', 'illu-xe-may.svg', 'illu-xe-dien.svg', 'illu-xe-oto.svg', 'illu-garage.svg', 'illu-gia-xe.svg']) {
+  ok(exists('assets/img/' + svg), `Ảnh minh họa tồn tại: ${svg}`);
+}
+// e) og-cover: CI sinh PNG + workflow + script
+ok(exists('.github/workflows/og-image.yml'), 'Workflow sinh og-cover.png tồn tại');
+ok(exists('scripts/make-og-image.mjs'), 'Script sinh og-cover.png tồn tại');
 
 // ---------- 16. Factory state không đổi ----------
 const publishedSlots = matrix.slots.filter(s => s.state === 'PUBLISHED').length;

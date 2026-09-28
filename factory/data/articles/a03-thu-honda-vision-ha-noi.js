@@ -13,7 +13,7 @@ module.exports = {
     'Vision phù hợp nhu cầu thuê đi lại nội thành: xe gọn, yên thấp, cốp rộng và dễ điều khiển trong dòng xe dày.',
     'Chọn bản xe theo ngân sách và nhu cầu; đời xe mới hơn thường êm hơn nhưng chi phí thuê theo ngày cũng cao hơn.',
     'Thủ tục thuê giống xe máy phổ thông: căn cước công dân hoặc hộ chiếu, đặt cọc và hợp đồng ghi rõ điều kiện hoàn cọc.',
-    'Kiểm tra đặc thù của xe ga khi nhận: tay ga rơ, phanh đĩa hoặc phanh cơm, đèn báo lỗi và tiếng máy khi nổ nguội.',
+    'Kiểm tra đặc thù của xe ga khi nhận: tay ga rơ, phanh đĩa hoặc phanh tang trống, đèn báo lỗi và tiếng máy khi nổ nguội.',
     'Không dùng xe thuê để chở quá tải hoặc chở người thứ ba; mọi hư hỏng do quá tải đều thuộc trách nhiệm bên thuê.',
   ],
   category: 'thue-xe',
@@ -48,7 +48,7 @@ module.exports = {
       h2: 'Kiểm tra Honda Vision trước khi nhận xe thuê',
       html: `<p>Vision là xe ga nên nhóm cần kiểm tra tập trung khác xe số một chút. Bắt đầu bằng vòng ngoài: chụp ảnh toàn cảnh xe, mũi, đuôi, hai bên hông, vùng cổ áo xe và cốp. Vết xước cũ của xe thuê thường tập trung quanh chắn trước và mép vè nhựa — ghi lại hết để tránh bị quy là hư hỏng mới khi trả xe.</p>
 <p>Tiếp đến là cụm điện và báo hiệu: bật chìa, kiểm tra đèn pha, đèn hậu, đèn rẽ trước sau, còi và đồng hồ. Ghi số km hiện có vào ảnh. Đèn báo lỗi trên bảng đồng hồ phải tắt sau khi máy nổ; đèn còn sáng là dấu hiệu cần đổi xe ngay, đừng nhận về với lời hứa "đi vậy đó, không sao".</p>
-<p>Rồi đến phần vận hành. Xe ga không có tay côn nên điểm quan trọng là độ rơ của tay ga: vặn nhẹ, ga phải quay mượt và tự trở về vị trí cũ ngay khi buông. Phanh trước của các bản đời mới là phanh đĩa, đời cũ là phanh cơm — cả hai đều phải bóp chắc, không bị xốp. Nhấc nhẹ đầu xe, quay bánh trước nghe tiếng ồn từ ổ bi. Lắc nhẹ xe giữa hai tay để cảm nhận độ lỏng của hệ thống lái. Nổ máy nghe tiếng đều, không có tiếng lạch cạch bất thường từ khoang máy.</p>
+<p>Rồi đến phần vận hành. Xe ga không có tay côn nên điểm quan trọng là độ rơ của tay ga: vặn nhẹ, ga phải quay mượt và tự trở về vị trí cũ ngay khi buông. Phanh trước của các bản đời mới là phanh đĩa, đời cũ là phanh tang trống — cả hai đều phải bóp chắc, không bị xốp. Nhấc nhẹ đầu xe, quay bánh trước nghe tiếng ồn từ ổ bi. Lắc nhẹ xe giữa hai tay để cảm nhận độ lỏng của hệ thống lái. Nổ máy nghe tiếng đều, không có tiếng lạch cạch bất thường từ khoang máy.</p>
 <p>Cuối cùng là mũ bảo hiểm đi kèm: mũ phải vừa đầu, quai cài chắc, lớp lót còn nguyên. Nếu mũ giao kèm quá cũ hoặc nứt vỏ, yêu cầu đổi mũ khác — mũ bảo hiểm là trang bị an toàn, không phải phụ kiện hình thức khi thuê xe.</p>`,
     },
     {
