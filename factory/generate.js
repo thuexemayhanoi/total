@@ -2,19 +2,35 @@
 // AI WIKI TOTAL — trình sinh trang tĩnh (generator-first)
 // Cách chạy: node factory/generate.js [--out <thư-mục>] [--check]
 // Mọi trang HTML công khai đều sinh từ dữ liệu — KHÔNG patch tay HTML.
+//
+// HARDENING:
+//   - buildAll() THUẦN trong BẢN NHỚ (không ghi đĩa) — writeOutputs() mới ghi.
+//   - --check READ-ONLY BYTE-EXACT: KHÔNG ghi đĩa, KHÔNG sinh lại rồi so —
+//     so từng BYTE file trên đĩa với kết quả sinh, gộp cả sitemap/robots/data
+//     JSON và manifest. Bất kỳ THIẾU / LỆCH NỘI DUNG / THỪA / LỆCH MANIFEST
+//     nào cũng exit 1 kèm tên file.
+//   - loadArticles FAIL LOUD: module bài lỗi -> in tên file + lỗi, exit khác 0.
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const { SITE, HOME_CATEGORY_ORDER } = require('./site.config');
 const { CATEGORIES } = require('./data/categories');
-const { u } = require('./lib/shell');
 const R = require('./lib/render');
 
+// ---------- Nạp dữ liệu ----------
+// FAIL LOUD: module bài lỗi làm toàn bộ xưởng dừng, không âm thầm bỏ qua.
 function loadArticles() {
   const dir = path.join(__dirname, 'data', 'articles');
   const out = [];
   for (const f of fs.readdirSync(dir).filter(x => x.endsWith('.js')).sort()) {
-    out.push(require(path.join(dir, f)));
+    let a;
+    try {
+      a = require(path.join(dir, f));
+    } catch (e) {
+      e.message = 'Không nạp được module bài factory/data/articles/' + f + ' — ' + (e && e.message ? e.message : e);
+      throw e;
+    }
+    out.push(a);
   }
   return out;
 }
@@ -25,6 +41,12 @@ function articlePath(a) {
   return `${a.category}/${a.slug}/`;
 }
 function stripTotal(p) { return String(p).replace(/^total\//, ''); }
+
+// rel do generator mô tả ('…/' cho trang thư mục) -> đường dẫn file trên đĩa
+// ('…/index.html'). THUẦN — dùng cho mọi lối ghi/so sánh.
+function normalizeRel(rel) {
+  return rel.endsWith('/') ? rel + 'index.html' : rel;
+}
 
 function buildSearchIndex(pages) {
   // Nguồn duy nhất: mọi trang + bài viết đã ghi vào pagesForIndex — không tạo mục trùng
@@ -57,21 +79,9 @@ function robots() {
   return `# robots.txt — AI WIKI TOTAL\nUser-agent: *\nAllow: /\n\nSitemap: ${SITE.baseUrl}sitemap.xml\n`;
 }
 
-function write(outDir, rel, content) {
-  // rel kết thúc bằng '/' => trang thư mục => thêm index.html
-  const fileRel = rel.endsWith('/') ? rel + 'index.html' : rel;
-  const file = path.join(outDir, fileRel);
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, content);
-  return fileRel;
-}
-
-function main() {
-  const args = process.argv.slice(2);
-  const checkMode = args.includes('--check');
-  const outIdx = args.indexOf('--out');
-  const outDir = outIdx >= 0 ? path.resolve(args[outIdx + 1]) : path.resolve(__dirname, '..');
-
+// ---------- Sinh THUẦN trong BẢN NHỚ ----------
+// Trả về { manifest, files, manifestContent, stats } — KHÔNG ghi đĩa.
+function buildAll() {
   const articlesRaw = loadArticles().map(a => {
     const cat = CATEGORIES.find(c => c.slug === a.category);
     if (!cat) throw new Error('Bài "' + a.slug + '" tham chiếu danh mục không tồn tại: ' + a.category);
@@ -88,6 +98,7 @@ function main() {
   for (const a of articlesRaw) bySlug[a.slug] = a;
 
   const manifest = []; // [{rel, kind}]
+  const files = {};    // rel (đã normalize) -> content
   const pagesForIndex = [];
   const urlOf = (rel) => {
     if (rel === 'index.html') return '';
@@ -95,7 +106,8 @@ function main() {
     return stripTotal(rel.endsWith('/index.html') ? rel.slice(0, -'index.html'.length) : rel);
   };
   const put = (rel, content, meta) => {
-    const written = write(outDir, rel, content);
+    const written = normalizeRel(rel);
+    files[written] = content;
     manifest.push({ rel: written, kind: meta.kind });
     if (meta.indexable !== false) {
       pagesForIndex.push({ kind: meta.kind, urlPath: urlOf(written), title: meta.title, ...meta });
@@ -114,7 +126,7 @@ function main() {
   put('tim-kiem/index.html', R.renderSearchPage(), { kind: 'page', title: 'Tìm kiếm', description: 'Tìm kiếm nội dung AI WIKI TOTAL', category: '', indexable: false });
   put('404.html', R.render404(), { kind: 'page', title: 'Không tìm thấy trang', description: '', category: '', indexable: false });
 
-  // Danh mục cha + hub con
+  // Danh mục cha + hub con (kể cả danh mục 'docs' — docs/*.html đều là trang sinh)
   const catUrls = [], hubUrls = [], artUrls = [];
   for (const cat of CATEGORIES) {
     put(`${cat.slug}/index.html`, R.renderCategory(cat, articlesRaw),
@@ -149,40 +161,120 @@ function main() {
   put('sitemap.xml', sitemapIndex(), { kind: 'sitemap', title: 'sitemap index', indexable: false });
   put('robots.txt', robots(), { kind: 'robots', title: 'robots', indexable: false });
 
-  // Manifest dùng cho test
-  fs.mkdirSync(path.join(outDir, 'factory/state'), { recursive: true });
-  fs.writeFileSync(path.join(outDir, 'factory/state/manifest.json'), JSON.stringify(
-    manifest.map(m => ({ rel: m.rel, kind: m.kind })), null, 1));
-
-  console.log(`Đã sinh ${manifest.length} file vào ${outDir}`);
-  console.log(`  - ${CATEGORIES.length} danh mục cha, ${stats.hubs} hub con, ${articlesRaw.length} bài viết`);
-
-  if (checkMode) {
-    // Kiểm tra không patch tay: sinh lại phải phủ đúng mọi file HTML đang có
-    const htmlOnDisk = fs.readdirSync ? walk(outDir, outDir).filter(f => f.endsWith('.html')) : [];
-    const generated = manifest.map(m => m.rel).filter(f => f.endsWith('.html'));
-    const missing = generated.filter(g => !htmlOnDisk.includes(g));
-    const extra = htmlOnDisk.filter(f => !['factory', 'docs'].some(d => f.startsWith(d)) && !generated.includes(f));
-    if (missing.length || extra.length) {
-      console.error('KIỂM TRA THẤT BẠI: HTML trên đĩa lệch với kết quả sinh.');
-      if (missing.length) console.error('  Thiếu: ' + missing.slice(0, 5).join(', '));
-      if (extra.length) console.error('  Thừa: ' + extra.slice(0, 5).join(', '));
-      process.exit(1);
-    }
-    console.log('Kiểm tra --check: HTML trên đĩa khớp kết quả sinh.');
-  }
+  const manifestContent = JSON.stringify(manifest.map(m => ({ rel: m.rel, kind: m.kind })), null, 1);
+  return {
+    manifest,
+    files,
+    manifestContent,
+    stats: {
+      parents: CATEGORIES.length,
+      hubs: stats.hubs,
+      articles: articlesRaw.length,
+      files: manifest.length,
+    },
+  };
 }
 
-function walk(root, dir, acc) {
+// ---------- Ghi kết quả ra đĩa (chỉ khi KHÔNG --check) ----------
+function writeOutputs(outDir, built) {
+  built = built || buildAll();
+  let count = 0;
+  for (const rel of Object.keys(built.files)) {
+    const file = path.join(outDir, rel);
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, built.files[rel]);
+    count++;
+  }
+  fs.mkdirSync(path.join(outDir, 'factory/state'));
+  fs.writeFileSync(path.join(outDir, 'factory/state/manifest.json'), built.manifestContent);
+  return count;
+}
+
+// ---------- Namespace mà generator sở hữu ----------
+// Mọi file sinh ra nằm trong: *.html (bất kỳ đâu trừ thư mục làm việc),
+// sitemap*.xml, robots.txt, assets/data/*.json.
+// Bỏ qua: .git, .github, factory, scripts, node_modules và mọi thư mục/file ẩn (dấu chấm).
+function walkGeneratedNamespace(root, dir, acc) {
+  dir = dir || root;
   acc = acc || [];
+  const SKIP_DIRS = new Set(['.git', '.github', 'factory', 'scripts', 'node_modules']);
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     if (e.name.startsWith('.')) continue;
     const p = path.join(dir, e.name);
-    if (e.isDirectory()) walk(root, p, acc);
-    else acc.push(path.relative(root, p).split(path.sep).join('/'));
+    if (e.isDirectory()) {
+      if (SKIP_DIRS.has(e.name)) continue;
+      walkGeneratedNamespace(root, p, acc);
+    } else {
+      const rel = path.relative(root, p).split(path.sep).join('/');
+      if (rel.endsWith('.html') || /^sitemap.*\.xml$/.test(rel) || rel === 'robots.txt'
+          || (rel.startsWith('assets/data/') && rel.endsWith('.json'))) {
+        acc.push(rel);
+      }
+    }
   }
-  return acc;
+  return acc.sort();
+}
+
+// ---------- --check: READ-ONLY BYTE-EXACT ----------
+// KHÔNG ghi đĩa ở bất kỳ đường nào. So từng byte của:
+//   1) mọi file generator chịu trách nhiệm (THIẾU / LỆCH NỘI DUNG),
+//   2) mọi file trong namespace mà generator KHÔNG sinh ra (THỪA),
+//   3) factory/state/manifest.json (LỆCH MANIFEST).
+function runCheck(rootDir) {
+  const root = path.resolve(rootDir || path.resolve(__dirname, '..'));
+  const built = buildAll();
+  const expected = new Set(Object.keys(built.files));
+  const missing = [], mismatched = [], extra = [];
+  for (const rel of expected) {
+    let disk;
+    try {
+      disk = fs.readFileSync(path.join(root, rel));
+    } catch (e) {
+      missing.push(rel);
+      continue;
+    }
+    if (!disk.equals(Buffer.from(built.files[rel], 'utf8'))) mismatched.push(rel);
+  }
+  for (const rel of walkGeneratedNamespace(root)) {
+    if (!expected.has(rel)) extra.push(rel);
+  }
+  let manifestOk = false;
+  let manifestDetail = 'không đọc được factory/state/manifest.json';
+  try {
+    const diskManifest = fs.readFileSync(path.join(root, 'factory/state/manifest.json'), 'utf8');
+    manifestOk = diskManifest === built.manifestContent;
+    manifestDetail = manifestOk ? 'khớp' : `đĩa ${diskManifest.length} byte vs sinh ${built.manifestContent.length} byte`;
+  } catch (e) { /* giữ manifestOk = false */ }
+  const ok = !missing.length && !mismatched.length && !extra.length && manifestOk;
+  return { ok, root, missing, mismatched, extra, manifestOk, manifestDetail, stats: built.stats };
+}
+
+// ---------- CLI ----------
+function main() {
+  const args = process.argv.slice(2);
+  const checkMode = args.includes('--check');
+  const outIdx = args.indexOf('--out');
+  const outDir = outIdx >= 0 ? path.resolve(args[outIdx + 1]) : path.resolve(__dirname, '..');
+
+  if (checkMode) {
+    const r = runCheck(outDir);
+    if (r.ok) {
+      console.log(`Kiểm tra --check: ${r.stats.files} file trên đĩa khớp kết quả sinh (byte-exact, gồm cả sitemap/robots/data/manifest).`);
+      return;
+    }
+    console.error('KIỂM TRA THẤT BẠI: output trên đĩa lệch với kết quả sinh (chống patch tay HTML).');
+    if (r.missing.length) console.error('  THIẾU (' + r.missing.length + '): ' + r.missing.slice(0, 10).join(', ') + (r.missing.length > 10 ? ', …' : ''));
+    if (r.mismatched.length) console.error('  LỆCH NỘI DUNG (' + r.mismatched.length + '): ' + r.mismatched.slice(0, 10).join(', ') + (r.mismatched.length > 10 ? ', …' : ''));
+    if (r.extra.length) console.error('  THỪA (' + r.extra.length + '): ' + r.extra.slice(0, 10).join(', ') + (r.extra.length > 10 ? ', …' : ''));
+    if (!r.manifestOk) console.error('  LỆCH MANIFEST: ' + r.manifestDetail);
+    process.exit(1);
+  }
+
+  const built = buildAll();
+  const count = writeOutputs(outDir, built);
+  console.log(`Đã sinh ${count} file vào ${outDir}`);
+  console.log(`  - ${built.stats.parents} danh mục cha, ${built.stats.hubs} hub con, ${built.stats.articles} bài viết`);
 }
 
 if (require.main === module) main();
-module.exports = { articlePath, stripTotal, buildSearchIndex, buildChatbotIndex };
+module.exports = { articlePath, stripTotal, buildSearchIndex, buildChatbotIndex, normalizeRel, loadArticles, buildAll, writeOutputs, walkGeneratedNamespace, runCheck };
