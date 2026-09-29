@@ -286,19 +286,29 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
 }
 .hero-tag { color: var(--muted); font-size: 14.5px; margin: 0; }
 
-/* ---------- 6. Bài nổi bật (featured) ---------- */
+/* ---------- 6. Bài nổi bật (featured) — TEXT-ONLY editorial ----------
+   Card lớn không ảnh: accent viền trái cobalt + typography lớn.
+   Desktop chia 2 vùng CHỮ: trái = nhãn/chuyên mục, phải = tiêu đề/tóm tắt/meta/CTA. */
 .featured { padding: 34px 0; border-bottom: 1px solid var(--line); }
 .feat-card {
-  display: grid; grid-template-columns: 1.04fr 1fr; background: var(--card);
-  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  display: grid; grid-template-columns: 190px minmax(0, 1fr); background: var(--card);
+  border: 1px solid var(--line); border-left: 4px solid var(--cobalt);
+  border-radius: var(--radius);
   color: inherit; text-decoration: none;
 }
-.feat-card:hover { text-decoration: none; border-color: var(--cobalt); }
-.feat-media { margin: 0; border-right: 1px solid var(--line); background: var(--bg-soft); }
-.feat-media img { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 3 / 2; }
-.feat-body { padding: 24px 26px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
-.feat-cat { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 12px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: var(--muted); margin: 0; }
-.feat-label { color: #fff; background: var(--cobalt); padding: 3px 9px; border-radius: 999px; font-size: 11px; }
+.feat-card:hover { text-decoration: none; border-color: var(--cobalt); box-shadow: var(--shadow-sm); }
+.feat-side {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 12px;
+  padding: 22px 20px; border-right: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(49, 87, 213, 0.045), rgba(49, 87, 213, 0));
+}
+.feat-label {
+  display: inline-block; color: #fff; background: var(--cobalt);
+  padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700;
+  letter-spacing: 0.8px; text-transform: uppercase;
+}
+.feat-cat { font-size: 12px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: var(--muted); }
+.feat-body { padding: 22px 26px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
 .feat-title { font-family: var(--font-head); font-size: clamp(22px, 2.6vw, 30px); line-height: 1.25; margin: 0; color: var(--ink); }
 .feat-card:hover .feat-title { text-decoration: underline; text-decoration-color: var(--cobalt); text-underline-offset: 4px; }
 .feat-dek { font-size: 15.5px; color: var(--ink-soft); margin: 0; }
@@ -323,37 +333,36 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
 /* Featured nằm TRONG khối latest — không còn padding/viền đôi của section cũ */
 .latest .featured { padding: 0; border-bottom: 1px solid var(--line); margin: 0 0 28px; }
 .latest .featured + .latest-grid { margin-top: 0; }
+/* Thẻ bài TEXT-ONLY: chuyên mục → tiêu đề → mô tả → meta → CTA.
+   Card tự co theo nội dung — không fixed/min-height, không ảnh. */
 .post-card {
-  display: flex; flex-direction: column; gap: 8px; background: var(--card);
-  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 7px;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 16px 16px 14px;
   color: inherit; text-decoration: none;
 }
-.post-card:hover { text-decoration: none; border-color: var(--cobalt); }
+.post-card:hover { text-decoration: none; border-color: var(--cobalt); box-shadow: var(--shadow-sm); }
 .post-card:hover .post-title { text-decoration: underline; text-decoration-color: var(--cobalt); text-underline-offset: 3px; }
-.post-thumb { display: block; background: var(--bg-soft); border-bottom: 1px solid var(--line); }
-.post-thumb img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
-.post-card .post-cat, .post-card .post-title, .post-card .post-dek, .post-card .post-meta { padding: 0 16px; }
-.post-card .post-cat { padding-top: 14px; }
-.post-card .post-meta { padding-bottom: 16px; }
 .post-cat { font-size: 11.5px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: var(--cobalt); }
 .post-title { font-family: var(--font-head); font-size: 18px; line-height: 1.35; color: var(--ink); }
-.post-dek { font-size: 14px; color: var(--ink-soft); flex: 1; }
+.post-dek { font-size: 14px; color: var(--ink-soft); }
 .post-meta { font-size: 12.5px; color: var(--muted); }
+.post-cta { font-size: 14px; font-weight: 700; color: var(--cobalt); margin-top: 2px; }
 
-/* Danh sách hàng bài gọn (danh mục/hub) */
+/* Danh sách hàng bài gọn text-only (danh mục/hub) */
 .post-list { display: flex; flex-direction: column; padding: 6px 0 26px; }
 .post-row {
-  display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 16px; align-items: center;
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: center;
   padding: 14px 4px; border-bottom: 1px solid var(--line); color: inherit; text-decoration: none;
   min-height: 44px;
 }
 .post-row:hover { text-decoration: none; background: rgba(255, 255, 255, 0.7); }
 .post-row:hover .row-title { text-decoration: underline; text-decoration-color: var(--cobalt); text-underline-offset: 3px; }
-.row-thumb { display: block; background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius-sm); overflow: hidden; }
-.row-thumb img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
 .row-body { display: flex; flex-direction: column; gap: 4px; }
+.row-cat { font-size: 11.5px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: var(--cobalt); }
 .row-title { font-family: var(--font-head); font-size: 16.5px; line-height: 1.35; color: var(--ink); }
 .row-meta { font-size: 12.5px; color: var(--muted); }
+.row-go { color: var(--cobalt); font-weight: 700; font-size: 15px; }
 
 /* ---------- 9. Khối danh mục: 5 ô lớn + mục lục gọn ---------- */
 .cats { padding-bottom: 40px; }
@@ -436,17 +445,6 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
 }
 .act-btn:hover { border-color: var(--cobalt); color: var(--cobalt); }
 .act-hint { font-size: 13px; color: var(--muted); }
-
-/* Ảnh đầu bài: khung viền + caption ghi rõ tính minh họa */
-.art-lead { margin: 0 0 26px; }
-.art-lead img {
-  display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover;
-  background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius);
-}
-.art-lead figcaption {
-  font-size: 13px; color: var(--muted); margin-top: 10px; padding-left: 12px;
-  border-left: 2px solid var(--line-strong); line-height: 1.55;
-}
 
 /* Lưới thân bài: TOC sticky bên trái + cột đọc */
 .article-body {
@@ -732,9 +730,12 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   .article-toc { margin-bottom: 20px; }
   .toc { position: static; max-height: none; }
   .toc ol { max-height: 40vh; max-height: 40dvh; }
-  /* Featured: ảnh trên, chữ dưới */
+  /* Featured text-only: xếp 1 cột — nhãn/chuyên mục lên trên, tiêu đề dưới */
   .feat-card { grid-template-columns: 1fr; }
-  .feat-media { border-right: 0; border-bottom: 1px solid var(--line); }
+  .feat-side {
+    flex-direction: row; align-items: center; flex-wrap: wrap; gap: 10px;
+    border-right: 0; border-bottom: 1px solid var(--line); padding: 16px 18px 14px;
+  }
 }
 @media (max-width: 767px) {
   .site-main { padding: 20px 16px 56px; }
@@ -752,7 +753,6 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   .prose { font-size: 17px; line-height: 1.7; max-width: none; }
   .quick-answer, .key-points { padding: 14px 16px; }
   .aside-block { padding: 14px 16px; }
-  .post-row { grid-template-columns: 72px minmax(0, 1fr); gap: 12px; }
   /* Search: sheet gần full màn hình, lề 12px */
   .search-modal {
     padding: calc(var(--sat) + 12px) max(12px, var(--sar)) calc(var(--sab) + 12px) max(12px, var(--sal));
