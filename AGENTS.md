@@ -22,8 +22,16 @@ Mọi agent phải đọc file này trước khi sửa repo.
 
 ## Vòng đời nội dung
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).
-Dùng `node factory/factory.js` (status/plan/list/research/write/qa/publish/audit/resume) — không sửa JSON state tay khi factory đang chạy.
+Dùng `node factory/factory.js` (status/plan/list/research/write/qa/publish/audit/resume/expand-capacity/set-planned-target) — không sửa JSON state tay khi factory đang chạy.
 Pipeline publish tự động (factory-publish.yml) chạy chunk: resume slot dở trước khi claim mới, QA ≥ 90 mới PUBLISHED, một commit mỗi chunk. Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state khi pipeline đang chạy.
+
+## Capacity là cấu hình, không phải hard limit
+`capacity = 10000` trong `factory/state/matrix.json` là capacity đang cấu hình, KHÔNG phải giới hạn vĩnh viễn của AI WIKI TOTAL. Quy tắc:
+- **Không hardcode 10.000** (hay bất kỳ con số capacity nào) trong code/test — mọi validation đọc từ matrix.json (canonical) hoặc qua helper của factory.js; `factory/test.js` có test chống regression literal này.
+- Mở rộng qua đúng một lệnh canonical: `node factory/factory.js expand-capacity <N>` (chỉ tăng; shrink/cùng mức bị refuse; `--dry-run` xem trước). KHÔNG sửa tay `capacity` trong matrix.json.
+- Expand không đụng ID/slot/PUBLISHED/plannedTarget/reserved; phần capacity mới là unallocated cho tới khi chủ repo ra lệnh (set-planned-target / điều chỉnh pool).
+- ID slot (S00001…) không renumber, không recycle; generator hoạt động vượt 10.000 và 100.000 (S10000, S100000 hợp lệ).
+- Chỉ chủ repo quyết định mở rộng — agent không tự expand capacity hay tự phân phối capacity mới vào các pool dự phòng.
 
 ## Trước khi commit
 ```

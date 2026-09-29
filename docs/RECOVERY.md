@@ -14,3 +14,9 @@ Atomic write và checkpoint đảm bảo không có file dở; mọi thao tác s
 
 ## Session/mạng đứt — repository là checkpoint
 Toàn bộ state (matrix, factory-state, checkpoint) nằm trên nhánh `main`. Pipeline publish đứt giữa chừng thì KHÔNG mất gì: lần đẩy bài sau tự chạy theo luồng **READ STATE → RECOVER/RESUME → VERIFY → mới claim mới** (slot dở được resume trước, chunk nhỏ 5–10 slot). Không restart factory, không reset ma trận, không quay về bài đầu.
+
+## Mở rộng capacity (expand-capacity) đứt giữa chừng
+`expand-capacity` là migration có giao dịch: lock → snapshot (hash ma trận ghi vào factory-state.lastAction) → migrate (chỉ đổi con số capacity) → verify (generate --check, test, audit) → commit → unlock.
+- **Verify fail:** tự ROLLBACK về capacity cũ — không bao giờ để state half-migrated.
+- **Process chết giữa chừng:** matrix ghi atomic (không có file dở); writer lock hết hạn TTL 30 phút tự giải phóng; checkpoint không đổi (số slot không đổi). Chạy `node factory/factory.js status` + `resume` để kiểm, rồi chạy lại lệnh expand — mọi validate (checkpoint khớp, không lock, ma trận hợp lệ, refuse shrink) sẽ từ chối nếu state chưa sạch.
+- **Không bao giờ** sửa tay `capacity` trong matrix.json — luôn qua lệnh canonical (hoặc rollback bằng `git checkout` state cũ khi chủ repo yêu cầu).

@@ -2,7 +2,7 @@
 
 Cẩm nang xe, thuê xe và hành trình cho người Việt.
 
-Cổng kiến thức tổng hợp tiếng Việt về thuê xe, xe máy, xe điện, xe ô tô, sửa chữa, phụ tùng, giá xe, thị trường, đánh giá, pháp lý, hành trình, địa phương, bản đồ và kiến thức kỹ thuật. Đây là nền móng của một hệ thống có thể mở rộng lên 6.000–10.000 bài.
+Cổng kiến thức tổng hợp tiếng Việt về thuê xe, xe máy, xe điện, xe ô tô, sửa chữa, phụ tùng, giá xe, thị trường, đánh giá, pháp lý, hành trình, địa phương, bản đồ và kiến thức kỹ thuật. Đây là nền móng của một hệ thống có thể mở rộng lên 6.000–10.000 bài — **10.000 là capacity đang cấu hình, không phải giới hạn trọn đời của AI WIKI TOTAL**: mở rộng bất cứ lúc nào bằng `node factory/factory.js expand-capacity 20000` (migration an toàn, không đổi ID/URL/state hiện có).
 
 ## Trang web
 - Địa chỉ: https://thuexemayhanoi.github.io/total/
@@ -31,6 +31,15 @@ node factory/test.js              # bộ kiểm thử nền tảng
 node factory/factory.js status    # trạng thái content factory
 node factory/factory.js audit --min-score 90
 ```
+
+## Capacity mở rộng được
+`capacity = 10000` trong `factory/state/matrix.json` là **cấu hình hiện tại**, không phải hard limit trong code. Quy trình mở rộng khi cần:
+```bash
+node factory/factory.js expand-capacity 20000 --dry-run   # xem trước, không ghi file
+node factory/factory.js expand-capacity 20000              # migration thật (chỉ tăng, refuse shrink)
+node factory/factory.js set-planned-target 8000           # tùy nhu cầu, sau khi đã mở rộng
+```
+Expand chỉ tăng logical capacity — không preallocate slot, giữ nguyên mọi ID/slot/PUBLISHED/plannedTarget/reserved; phần capacity mới là unallocated cho tới khi chủ repo ra lệnh.
 
 ## Nguyên tắc nội dung
 - Tiếng Việt cho toàn bộ UI và nội dung; QA ≥ 90 mới xuất bản.

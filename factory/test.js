@@ -181,17 +181,22 @@ for (const a of artModules) {
 }
 
 // ---------- 7. Ma trận chủ đề ----------
+// Capacity là cấu hình canonical trong matrix.json — KHÔNG hardcode con số
+// ở đây: 10.000 là capacity đang cấu hình, mở rộng được qua expand-capacity
+// mà bộ test vẫn xanh.
 const matrix = readJson('factory/state/matrix.json');
-ok(matrix.capacity === 10000, 'Sức chứa ma trận = 10.000', String(matrix.capacity));
-ok(matrix.slots.length <= matrix.capacity, 'Số slot trong sức chứa');
-ok(matrix.plannedTarget === 6000, 'Mục tiêu kế hoạch 6.000', String(matrix.plannedTarget));
+ok(Number.isInteger(matrix.capacity) && matrix.capacity > 0, 'Capacity là số nguyên dương cấu hình được', String(matrix.capacity));
+ok(matrix.slots.length <= matrix.capacity, 'Số slot trong sức chứa', `${matrix.slots.length} vs ${matrix.capacity}`);
+ok(Number.isInteger(matrix.plannedTarget) && matrix.plannedTarget > 0, 'Mục tiêu kế hoạch là số nguyên dương', String(matrix.plannedTarget));
+ok(matrix.plannedTarget <= matrix.capacity, 'Mục tiêu kế hoạch <= capacity', `${matrix.plannedTarget} vs ${matrix.capacity}`);
 const slugs = matrix.slots.map(s => s.slug);
 ok(new Set(slugs).size === slugs.length, 'Không trùng slug trong ma trận');
 const VALID_STATES = new Set(['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'PASS', 'PUBLISHED', 'REPAIR', 'BLOCKED']);
 ok(matrix.slots.every(s => VALID_STATES.has(s.state)), 'Mọi slot có trạng thái hợp lệ');
-ok(matrix.reserved && matrix.reserved.total === 4000, 'Dự phòng 4.000 slot cho truy vấn mới');
+ok(matrix.reserved && Number.isInteger(matrix.reserved.total) && matrix.reserved.total >= 0, 'Tổng dự phòng là số nguyên >= 0', String(matrix.reserved && matrix.reserved.total));
 const reserveSum = Object.entries(matrix.reserved).filter(([k]) => k !== 'total').reduce((n, [, v]) => n + v, 0);
-ok(reserveSum === 4000, 'Tổng các pool dự phòng = 4.000', String(reserveSum));
+ok(reserveSum === matrix.reserved.total, 'Tổng các pool dự phòng khớp reserved.total', `${reserveSum} vs ${matrix.reserved.total}`);
+ok(matrix.plannedTarget + matrix.reserved.total <= matrix.capacity, 'plannedTarget + reserved <= capacity (phần dư là unallocated)', `${matrix.plannedTarget} + ${matrix.reserved.total} vs ${matrix.capacity}`);
 // Slot PUBLISHED phải có file tương ứng
 function slotToFile(s) {
   const parts = s.hub.split('/');
@@ -402,6 +407,66 @@ const orphanArts = artModules.filter(a => !slotSlugs.has(a.slug));
 ok(orphanArts.length === 0, 'Mọi bài viết đều có slot trong ma trận', orphanArts.map(a => a.slug).join(', '));
 const cpCount = readJson('factory/state/checkpoint.json').slotCount;
 ok(cpCount === matrix.slots.length, 'Checkpoint khớp số slot ma trận (không reset factory)', `${cpCount} vs ${matrix.slots.length}`);
+
+// ---------- 17. Capacity cấu hình + ID generator (mở rộng được, không hard limit) ----------
+const factoryMod = require('./factory');
+const factorySrc = read('factory/factory.js');
+// Chống regression hard-limit: business logic không được chứa literal 10.000
+// hay gán capacity từ hằng số — capacity phải đi qua config (matrix.json).
+ok(!/\b10[.,_]?000\b/.test(factorySrc), 'Chống hardcode: factory.js không chứa literal 10.000 trần (capacity qua config — S10000 là ID hợp lệ, không bị cờ)');
+ok(!/\.capacity\s*=\s*[0-9]/.test(factorySrc), 'Chống hardcode: capacity chỉ gán từ biến/config, không từ hằng số');
+// Invariant capacity (mục 15): mọi ràng buộc đọc từ canonical, không cố định.
+ok(Number.isInteger(matrix.capacity) && matrix.capacity >= matrix.slots.length, 'Invariant: capacity >= số slot đã dùng', `${matrix.slots.length} vs ${matrix.capacity}`);
+ok(matrix.plannedTarget <= matrix.capacity, 'Invariant: plannedTarget <= capacity');
+ok(matrix.plannedTarget + matrix.reserved.total <= matrix.capacity, 'Invariant: plannedTarget + reserved <= capacity');
+const reservedPools = Object.entries(matrix.reserved).filter(([k]) => k !== 'total');
+ok(reservedPools.length >= 7, 'Các pool dự phòng hiện tại còn nguyên (>= 7 pool)', String(reservedPools.length));
+// ID: duy nhất, đúng dạng, monotonic, không tái sử dụng.
+const slotIds = matrix.slots.map(s => s.id);
+ok(new Set(slotIds).size === slotIds.length, 'ID slot duy nhất');
+ok(slotIds.every(id => /^S\d{5,}$/.test(id)), 'ID slot đúng dạng S + tối thiểu 5 chữ số');
+let idMono = true;
+let prevNum = 0;
+for (const id of slotIds) {
+  const num = factoryMod.parseSlotId(id);
+  if (num === null || num <= prevNum) idMono = false;
+  if (num !== null) prevNum = num;
+}
+ok(idMono, 'ID slot monotonic tăng dần (không recycle ID)');
+const maxNum2 = Math.max(...matrix.slots.map(s => factoryMod.parseSlotId(s.id)));
+ok(factoryMod.parseSlotId(factoryMod.nextSlotId(matrix)) === maxNum2 + 1, 'ID kế tiếp > ID lớn nhất đang có', `${factoryMod.nextSlotId(matrix)} > S${maxNum2}`);
+// ID generator hoạt động qua các mốc 9999 -> 10000 -> 10001 và 99999 -> 100000.
+ok(factoryMod.formatSlotId(9999) === 'S09999', 'ID generator: 9999 -> S09999', factoryMod.formatSlotId(9999));
+ok(factoryMod.formatSlotId(10000) === 'S10000', 'ID generator: 10000 -> S10000 (vượt 10K, không đổi ID cũ)', factoryMod.formatSlotId(10000));
+ok(factoryMod.formatSlotId(10001) === 'S10001', 'ID generator: 10001 -> S10001', factoryMod.formatSlotId(10001));
+ok(factoryMod.formatSlotId(99999) === 'S99999', 'ID generator: 99999 -> S99999', factoryMod.formatSlotId(99999));
+ok(factoryMod.formatSlotId(100000) === 'S100000', 'ID generator: 100000 -> S100000 (6 chữ số, không truncate)', factoryMod.formatSlotId(100000));
+ok(factoryMod.formatSlotId(100001) === 'S100001', 'ID generator: 100001 -> S100001', factoryMod.formatSlotId(100001));
+// Fixture mở rộng 10.000 -> 20.000 trên bản sao trong bộ nhớ (KHÔNG đụng file production).
+const fxMatrix = JSON.parse(JSON.stringify(matrix));
+const fxUnchanged = JSON.stringify({ slots: fxMatrix.slots, plannedTarget: fxMatrix.plannedTarget, reserved: fxMatrix.reserved });
+ok(factoryMod.expansionError(fxMatrix, 20000) === null, 'Fixture: expand 10.000 -> 20.000 hợp lệ');
+factoryMod.applyExpansion(fxMatrix, 20000);
+ok(fxMatrix.capacity === 20000, 'Fixture: capacity = 20.000 sau migration', String(fxMatrix.capacity));
+ok(JSON.stringify({ slots: fxMatrix.slots, plannedTarget: fxMatrix.plannedTarget, reserved: fxMatrix.reserved }) === fxUnchanged,
+  'Fixture: slots/ID/PUBLISHED/plannedTarget/reserved giữ nguyên sau mở rộng (chỉ capacity đổi)');
+ok(fxMatrix.slots.filter(s => s.state === 'PUBLISHED').length === matrix.slots.filter(s => s.state === 'PUBLISHED').length,
+  'Fixture: số slot PUBLISHED không đổi sau mở rộng');
+// Các trường hợp từ chối (mục 5).
+ok(factoryMod.expansionError(matrix, matrix.capacity) !== null, 'Fixture: expand cùng capacity bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, 5000) !== null, 'Fixture: shrink capacity (10000 -> 5000) bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, 0) !== null, 'Fixture: 0 bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, -5) !== null, 'Fixture: số âm bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, 'abc') !== null, 'Fixture: không phải số nguyên bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, 20000.5) !== null, 'Fixture: số thập phân bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, 7000) !== null, 'Fixture: NEW_CAPACITY < plannedTarget + reserved bị TỪ CHỐI');
+ok(factoryMod.plannedTargetError(matrix, 20000) !== null, 'Fixture: plannedTarget vượt capacity bị TỪ CHỐI');
+ok(factoryMod.plannedTargetError(matrix, matrix.slots.length - 1) !== null, 'Fixture: plannedTarget dưới số slot đã có bị TỪ CHỐI');
+ok(factoryMod.plannedTargetError(matrix, 8000) !== null, 'Fixture: plannedTarget + reserved vượt capacity bị TỪ CHỐI (không tự phá pool dự phòng)');
+ok(factoryMod.plannedTargetError(matrix, matrix.plannedTarget) === null, 'Fixture: giữ nguyên plannedTarget hiện tại là hợp lệ');
+const fxExpanded = JSON.parse(JSON.stringify(matrix));
+factoryMod.applyExpansion(fxExpanded, 20000);
+ok(factoryMod.plannedTargetError(fxExpanded, 8000) === null, 'Fixture: set-planned-target 8.000 hợp lệ SAU khi đã expand lên 20.000 (phần dư unallocated đảm bảo chỗ cho target)');
 
 // ---------- Kết quả ----------
 console.log('');

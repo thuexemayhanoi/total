@@ -13,6 +13,17 @@ Khi QA thất bại: QA → REPAIR → QA → BLOCKED (sau nhiều lần sửa k
 - `publish` — chuyển mọi slot PASS → PUBLISHED và sinh site.
 - `audit --min-score 90` — kiểm lại toàn bộ bài PUBLISHED.
 - `resume` — xem checkpoint, slot đang dở để tiếp tục.
+- `expand-capacity <N> [--dry-run]` — mở rộng capacity ma trận (migration an toàn: chỉ tăng, refuse shrink/cùng mức; giữ nguyên ID/slots/plannedTarget/reserved; `--dry-run` chỉ báo cáo, không ghi file).
+- `set-planned-target <N> [--dry-run]` — đặt mục tiêu kế hoạch (phải <= capacity và >= số slot đã tồn tại; không trộn với expand-capacity).
+
+## Capacity là cấu hình
+`capacity` (hiện 10.000) nằm trong `state/matrix.json` — đây là canonical source-of-truth, không phải hard limit trong code. **10.000 is the current configured capacity, not the lifetime limit of AI WIKI TOTAL.** Quy trình tương lai:
+```bash
+node factory/factory.js expand-capacity 20000 --dry-run   # xem trước (CURRENT/REQUESTED/DELTA/STATE_SAFE/MIGRATION_ACTIONS)
+node factory/factory.js expand-capacity 20000             # migration: lock -> snapshot(hash) -> migrate -> verify (generate --check, test, audit) -> rollback nếu fail -> unlock
+node factory/factory.js set-planned-target ...             # sau đó, tùy nhu cầu chủ repo
+```
+Phần capacity mới là unallocated/future-reserve — không tự phân vào các pool dự phòng nếu chủ repo chưa yêu cầu. plannedTarget có thể giữ nguyên sau khi expand.
 
 ## Bảo mật quy trình
 - **One writer:** writer lock TTL 30 phút, chống hai agent ghi đồng thời.

@@ -80,7 +80,7 @@ function checkpoint(data) {
   atomicWrite(CHECKPOINT_FILE, JSON.stringify(data, null, 1));
 }
 
-// ---------- Ma trận chủ đề (10.000 slot) ----------
+// ---------- Ma trận chủ đề (capacity là cấu hình trong state/matrix.json) ----------
 function loadMatrix() {
   const m = readJson(MATRIX_FILE, null);
   if (!m) {
@@ -91,7 +91,24 @@ function loadMatrix() {
 }
 function saveMatrix(m) { atomicWrite(MATRIX_FILE, JSON.stringify(m, null, 1)); }
 
-function slotId(m) { return 'S' + String(m.slots.length + 1).padStart(5, '0'); }
+// ID slot: S + số thứ tự, zero-padding TỐI THIỂU 5 chữ số — số lớn hơn tự dài
+// thêm (S10000, S100000...) và không bao giờ bị cắt bớt. ID sinh từ số lớn
+// nhất đang có + 1 nên monotonic và không tái sử dụng ID đã dùng.
+function parseSlotId(id) {
+  const mm = /^S(\d{5,})$/.exec(String(id || ''));
+  return mm ? Number(mm[1]) : null;
+}
+function formatSlotId(n) { return 'S' + String(n).padStart(5, '0'); }
+function maxSlotNumber(m) {
+  let max = 0;
+  for (const s of m.slots) {
+    const n = parseSlotId(s.id);
+    if (n !== null && n > max) max = n;
+  }
+  return max;
+}
+function nextSlotId(m) { return formatSlotId(maxSlotNumber(m) + 1); }
+function slotId(m) { return nextSlotId(m); }
 
 function planSlot(m, { hub, slug, title, intent, notes }) {
   if (m.slots.length + 1 > m.capacity) throw new Error('Vượt sức chứa ma trận ' + m.capacity);
@@ -112,6 +129,85 @@ function transition(m, sid, to, extra) {
   slot.state = to;
   slot.updatedAt = new Date().toISOString();
   Object.assign(slot, extra || {});
+}
+
+// ---------- Capacity cấu hình + migration an toàn ----------
+const VALID_SLOT_STATES = Object.keys(TRANSITIONS);
+
+// Kiểm định ma trận — mọi validation capacity/ID đều đọc từ matrix.json
+// (canonical source-of-truth), KHÔNG hardcode con số trong code.
+function validateMatrix(m) {
+  if (!m || !Array.isArray(m.slots)) throw new Error('Ma trận không hợp lệ');
+  if (!Number.isInteger(m.capacity) || m.capacity <= 0) throw new Error('capacity phải là số nguyên dương (đọc từ matrix.json)');
+  if (!Number.isInteger(m.plannedTarget) || m.plannedTarget <= 0) throw new Error('plannedTarget phải là số nguyên dương');
+  if (m.plannedTarget > m.capacity) throw new Error(`plannedTarget (${m.plannedTarget}) vượt capacity (${m.capacity})`);
+  if (m.slots.length > m.capacity) throw new Error(`Số slot (${m.slots.length}) vượt capacity (${m.capacity})`);
+  const ids = new Set();
+  const slugs = new Set();
+  let lastNum = 0;
+  for (const s of m.slots) {
+    const n = parseSlotId(s.id);
+    if (n === null) throw new Error('ID slot không hợp lệ: ' + s.id);
+    if (n <= lastNum) throw new Error('ID slot không monotonic (trùng/lùi số): ' + s.id);
+    lastNum = n;
+    if (ids.has(s.id)) throw new Error('Trùng ID slot: ' + s.id);
+    ids.add(s.id);
+    if (!s.slug) throw new Error('Slot thiếu slug: ' + s.id);
+    if (slugs.has(s.slug)) throw new Error('Trùng slug trong ma trận: ' + s.slug);
+    slugs.add(s.slug);
+    if (!VALID_SLOT_STATES.includes(s.state)) throw new Error('Trạng thái slot không hợp lệ: ' + s.state + ' (' + s.id + ')');
+  }
+  if (m.reserved) {
+    if (!Number.isInteger(m.reserved.total) || m.reserved.total < 0) throw new Error('reserved.total phải là số nguyên >= 0');
+    const poolSum = Object.entries(m.reserved).filter(([k]) => k !== 'total').reduce((acc, [, v]) => acc + v, 0);
+    if (poolSum !== m.reserved.total) throw new Error(`Tổng pool dự phòng (${poolSum}) lệch reserved.total (${m.reserved.total})`);
+    if (m.plannedTarget + m.reserved.total > m.capacity) {
+      throw new Error(`plannedTarget (${m.plannedTarget}) + reserved (${m.reserved.total}) vượt capacity (${m.capacity})`);
+    }
+  }
+  return true;
+}
+
+function parsePositiveInt(v) {
+  const s = String(v === undefined || v === null ? '' : v).trim();
+  if (!/^\d+$/.test(s)) return null;
+  const n = Number(s);
+  return Number.isSafeInteger(n) && n > 0 ? n : null;
+}
+
+// Kiểm tra yêu cầu mở rộng — THUẦN (không IO, không mutate). Trả null nếu hợp lệ.
+function expansionError(m, newCapacity) {
+  const n = parsePositiveInt(newCapacity);
+  if (n === null) return 'NEW_CAPACITY phải là số nguyên dương (ví dụ: expand-capacity 20000)';
+  if (n <= m.capacity) return `Từ chối: NEW_CAPACITY (${n}) phải LỚN HƠN capacity hiện tại (${m.capacity}) — không hỗ trợ shrink hay cùng mức`;
+  const reservedTotal = m.reserved ? m.reserved.total : 0;
+  if (m.plannedTarget + reservedTotal > n) {
+    return `Từ chối: plannedTarget (${m.plannedTarget}) + reserved (${reservedTotal}) vượt NEW_CAPACITY (${n})`;
+  }
+  return null;
+}
+
+// Áp dụng mở rộng — CHỈ đổi con số logical capacity. Slots, ID, plannedTarget,
+// reserved giữ nguyên; KHÔNG preallocate slot object (engine chỉ instantiate
+// khi plan — tăng capacity không sinh sẵn hàng nghìn slot rỗng).
+function applyExpansion(m, newCapacity) {
+  const err = expansionError(m, newCapacity);
+  if (err) throw new Error(err);
+  m.capacity = parsePositiveInt(newCapacity);
+  return m;
+}
+
+// Kiểm tra yêu cầu đổi plannedTarget — THUẦN. Trả null nếu hợp lệ.
+function plannedTargetError(m, nRaw) {
+  const n = parsePositiveInt(nRaw);
+  if (n === null) return 'N phải là số nguyên dương (ví dụ: set-planned-target 8000)';
+  if (n > m.capacity) return `Từ chối: N (${n}) vượt capacity (${m.capacity}) — mở rộng capacity trước bằng expand-capacity`;
+  if (n < m.slots.length) return `Từ chối: không giảm plannedTarget (${n}) xuống dưới số slot đã tồn tại (${m.slots.length})`;
+  const reservedTotal = m.reserved ? m.reserved.total : 0;
+  if (n + reservedTotal > m.capacity) {
+    return `Từ chối: N (${n}) + reserved (${reservedTotal}) vượt capacity (${m.capacity}) — điều chỉnh pool dự phòng trước theo lệnh của chủ repo`;
+  }
+  return null;
 }
 
 // ---------- QA ----------
@@ -174,7 +270,9 @@ Lệnh:
   qa <id>                         Chấm QA bài của slot
   publish                         Sinh lại site + chạy toàn bộ test
   audit [--min-score 90]          Rà mọi bài PUBLISHED
-  resume                          Tiếp tục từ checkpoint`);
+  resume                          Tiếp tục từ checkpoint
+  expand-capacity <N> [--dry-run] Mở rộng capacity ma trận (chỉ tăng, KHÔNG shrink)
+  set-planned-target <N> [--dry-run] Đặt mục tiêu kế hoạch (<= capacity, >= số slot đã có)`);
 }
 
 function opt(flag) {
@@ -260,6 +358,119 @@ function main() {
     console.log(`Audit đạt: mọi bài >= ${min} điểm.`);
     return;
   }
+  if (cmd === 'expand-capacity' || cmd === 'set-planned-target') {
+    const isExpand = cmd === 'expand-capacity';
+    const dry = rest.includes('--dry-run') || process.argv.includes('--dry-run');
+    const rawArg = rest.find(a => a && !a.startsWith('--')) || null;
+    const m = loadMatrix();
+    const prefix = dry ? 'STATE_SAFE: false — ' : 'TỪ CHỐI: ';
+    try { validateMatrix(m); }
+    catch (e) { console.error(prefix + 'ma trận không hợp lệ — ' + e.message); process.exit(1); }
+    // Migration chỉ chạy khi state an toàn: checkpoint khớp + không có mutation/transaction đang chạy.
+    const cp = readJson(CHECKPOINT_FILE, null);
+    if (!cp || cp.slotCount !== m.slots.length) {
+      console.error(prefix + `checkpoint (${cp ? cp.slotCount : 'không có'}) lệch ma trận (${m.slots.length}) — chạy recovery/rà soát trước khi migrate`);
+      process.exit(1);
+    }
+    const lo = lockOwner();
+    if (lo) {
+      console.error(prefix + `writer lock đang giữ bởi "${lo.owner}" — không migrate khi transaction/mutation đang chạy`);
+      process.exit(1);
+    }
+    if (isExpand) {
+      const n = parsePositiveInt(rawArg);
+      const err = expansionError(m, n);
+      if (dry) {
+        console.log('=== EXPAND CAPACITY — DRY RUN (KHÔNG ghi file) ===');
+        console.log('CURRENT_CAPACITY: ' + m.capacity);
+        console.log('REQUESTED_CAPACITY: ' + (rawArg === null ? '(thiếu đối số)' : rawArg));
+        console.log('DELTA: ' + (n === null || err ? 'N/A' : n - m.capacity));
+        console.log('EXISTING_SLOT_COUNT: ' + m.slots.length);
+        console.log('MAX_EXISTING_ID: ' + formatSlotId(maxSlotNumber(m)));
+        console.log('NEXT_AVAILABLE_ID: ' + nextSlotId(m));
+        console.log('PLANNED_TARGET: ' + m.plannedTarget + ' (giữ nguyên)');
+        console.log('RESERVED_TOTAL: ' + (m.reserved ? m.reserved.total : 0) + ' (giữ nguyên từng pool)');
+        console.log('STATE_SAFE: ' + (err ? 'false' : 'true'));
+        if (err) { console.log('REFUSE: ' + err); process.exit(1); }
+        console.log('MIGRATION_ACTIONS:');
+        console.log('  1. acquire writer lock (expand-capacity)');
+        console.log('  2. snapshot + hash ma trận (sha1) ghi vào factory-state.lastAction');
+        console.log(`  3. matrix.capacity: ${m.capacity} -> ${n} — KHÔNG preallocate slot; ID/slots/plannedTarget/reserved giữ nguyên`);
+        console.log('  4. validate IDs + validate ma trận + khớp checkpoint');
+        console.log('  5. verify: generate --check + test.js + audit --min-score 90 (fail -> ROLLBACK toàn vẹn)');
+        console.log('  6. commit state + release lock sạch');
+        return;
+      }
+      if (err) { console.error('TỪ CHỐI: ' + err); process.exit(1); }
+    } else {
+      const n = parsePositiveInt(rawArg);
+      const err = plannedTargetError(m, n);
+      if (dry) {
+        console.log('=== SET PLANNED TARGET — DRY RUN (KHÔNG ghi file) ===');
+        console.log('CURRENT_PLANNED_TARGET: ' + m.plannedTarget);
+        console.log('REQUESTED_PLANNED_TARGET: ' + (rawArg === null ? '(thiếu đối số)' : rawArg));
+        console.log('CAPACITY: ' + m.capacity + ' (giữ nguyên)');
+        console.log('EXISTING_SLOT_COUNT: ' + m.slots.length);
+        console.log('RESERVED_TOTAL: ' + (m.reserved ? m.reserved.total : 0) + ' (giữ nguyên từng pool)');
+        console.log('STATE_SAFE: ' + (err ? 'false' : 'true'));
+        if (err) { console.log('REFUSE: ' + err); process.exit(1); }
+        console.log('MIGRATION_ACTIONS:');
+        console.log('  1. acquire writer lock (set-planned-target)');
+        console.log(`  2. matrix.plannedTarget: ${m.plannedTarget} -> ${n} — capacity/reserved/slots giữ nguyên`);
+        console.log('  3. validate ma trận + verify test.js (fail -> ROLLBACK toàn vẹn)');
+        console.log('  4. commit state + release lock sạch');
+        return;
+      }
+      if (err) { console.error('TỪ CHỐI: ' + err); process.exit(1); }
+    }
+    // ---- REAL migration: READ STATE -> VALIDATE -> LOCK -> SNAPSHOT -> MIGRATE -> VERIFY -> COMMIT -> UNLOCK ----
+    const n = parsePositiveInt(rawArg);
+    const before = JSON.stringify(m, null, 1);
+    let beforeSha = '';
+    try {
+      const crypto = require('crypto');
+      beforeSha = crypto.createHash('sha1').update(before).digest('hex');
+    } catch (e) { beforeSha = 'unavailable'; }
+    const oldVal = isExpand ? m.capacity : m.plannedTarget;
+    acquireLock(isExpand ? 'expand-capacity' : 'set-planned-target');
+    let migrated = false;
+    try {
+      if (isExpand) applyExpansion(m, n);
+      else m.plannedTarget = n;
+      validateMatrix(m);
+      saveMatrix(m);
+      migrated = true;
+      // Verify sau migration — bất kỳ bước nào fail thì rollback toàn vẹn.
+      execFileSync(process.execPath, [path.join(__dirname, 'generate.js'), '--check'], { stdio: 'inherit' });
+      execFileSync(process.execPath, [path.join(__dirname, 'test.js')], { stdio: 'inherit' });
+      execFileSync(process.execPath, [__filename, 'audit', '--min-score', '90'], { stdio: 'inherit' });
+    } catch (e) {
+      if (migrated) {
+        atomicWrite(MATRIX_FILE, before);
+        console.error(`Kiểm định sau migration thất bại — ĐÃ ROLLBACK ${isExpand ? 'capacity' : 'plannedTarget'} về ${oldVal}. Không để state half-migrated.`);
+      } else {
+        console.error('TỪ CHỐI migration: ' + (e && e.message ? e.message : e));
+      }
+      releaseLock();
+      process.exit(1);
+    }
+    const st = loadState();
+    st.lastAction = {
+      action: `${cmd}:${oldVal}->${n}`,
+      at: new Date().toISOString(),
+      ...(isExpand ? { matrixShaBefore: beforeSha } : { prevPlannedTarget: oldVal }),
+    };
+    atomicWrite(STATE_FILE, JSON.stringify(st, null, 1));
+    checkpoint({ at: new Date().toISOString(), action: `${cmd}:${oldVal}->${n}`, slotCount: m.slots.length });
+    releaseLock();
+    console.log(`Đã migrate ${isExpand ? 'capacity' : 'plannedTarget'}: ${oldVal} -> ${n}.`);
+    if (isExpand) {
+      console.log(`Slots/ID/PUBLISHED giữ nguyên; plannedTarget (${m.plannedTarget}) + reserved (${m.reserved ? m.reserved.total : 0}) giữ nguyên — phần tăng thêm là unallocated/future-reserve.`);
+    } else {
+      console.log('Capacity + reserved pools giữ nguyên; các slot hiện tại không bị ảnh hưởng.');
+    }
+    return;
+  }
   if (cmd === 'resume') {
     const cp = readJson(CHECKPOINT_FILE, null);
     const st = loadState();
@@ -274,4 +485,8 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { TRANSITIONS, planSlot, transition };
+module.exports = {
+  TRANSITIONS, planSlot, transition,
+  validateMatrix, parseSlotId, formatSlotId, maxSlotNumber, nextSlotId,
+  parsePositiveInt, expansionError, applyExpansion, plannedTargetError,
+};

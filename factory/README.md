@@ -13,12 +13,21 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 | `lib/render.js` | Kết xuất trang chủ, danh mục, hub, bài viết |
 | `generate.js` | Sinh toàn bộ site tĩnh + chỉ mục + sitemap (`--check`, `--out`) |
 | `qa.js` | Kiểm định chất lượng bài viết (ngưỡng ≥ 90) |
-| `factory.js` | CLI vòng đời slot: plan → research → write → qa → publish |
+| `factory.js` | CLI vòng đời slot: plan → research → write → qa → publish; expand-capacity/set-planned-target |
 | `test.js` | Bộ kiểm thử nền tảng (chạy sau generate) |
 | `state/` | matrix.json, factory-state.json, checkpoint.json, manifest.json |
 
 ## Vòng đời slot
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → REPAIR → QA → BLOCKED.
+
+## Capacity (cấu hình, không hard limit)
+`capacity` nằm trong `state/matrix.json` (hiện 10.000 — không phải giới hạn trọn đời):
+```bash
+node factory/factory.js expand-capacity 20000 --dry-run  # xem trước: CURRENT/REQUESTED/DELTA/STATE_SAFE...
+node factory/factory.js expand-capacity 20000             # migration thật: lock -> snapshot -> migrate -> verify -> rollback nếu fail
+node factory/factory.js set-planned-target 8000           # mục tiêu kế hoạch (<= capacity, >= số slot đã có)
+```
+Chỉ tăng (refuse shrink/cùng mức), không preallocate slot, giữ nguyên ID/PUBLISHED/plannedTarget/reserved.
 
 ## Bảo vệ
 - One writer + writer lock TTL 30 phút.
