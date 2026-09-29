@@ -8,6 +8,18 @@
   "kind": "page"
  },
  {
+  "rel": "lien-he/index.html",
+  "kind": "page"
+ },
+ {
+  "rel": "chinh-sach-bao-mat/index.html",
+  "kind": "page"
+ },
+ {
+  "rel": "dieu-khoan-su-dung/index.html",
+  "kind": "page"
+ },
+ {
   "rel": "tim-kiem/index.html",
   "kind": "page"
  },
