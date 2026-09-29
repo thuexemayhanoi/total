@@ -8,9 +8,9 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 | `site.config.js` | Cấu hình site: tên, URL, basePath, thứ tự trang chủ, menu |
 | `data/categories.js` | 15 danh mục cha + 97 hub con (nguồn sự thật duy nhất) |
 | `data/articles/*.js` | Dữ liệu bài viết (module JS) |
-| `lib/shell.js` | Vỏ trang: header, footer, nav, mega menu, breadcrumb |
+| `lib/shell.js` | Vỏ trang: header, footer, nav desktop (dropdown + mega), mobile drawer accordion, breadcrumb |
 | `lib/schema.js` | JSON-LD: WebSite, CollectionPage, Article, BreadcrumbList |
-| `lib/render.js` | Kết xuất trang chủ, danh mục, hub, bài viết |
+| `lib/render.js` | Kết xuất trang chủ, danh mục, hub, bài viết, trang tiện ích (giới thiệu, liên hệ, bảo mật, điều khoản) |
 | `generate.js` | Sinh toàn bộ site tĩnh + chỉ mục + sitemap (`--check`, `--out`) |
 | `qa.js` | Kiểm định chất lượng bài viết (ngưỡng ≥ 90) |
 | `factory.js` | CLI vòng đời slot: plan → research → write → qa → publish; expand-capacity/set-planned-target |
@@ -21,7 +21,7 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → REPAIR → QA → BLOCKED.
 
 ## Capacity (cấu hình, không hard limit)
-`capacity` nằm trong `state/matrix.json` (hiện 10.000 — không phải giới hạn trọn đời):
+`capacity` nằm trong `state/matrix.json` (hiện 20.000 — không phải giới hạn trọn đời):
 ```bash
 node factory/factory.js expand-capacity 20000 --dry-run  # xem trước: CURRENT/REQUESTED/DELTA/STATE_SAFE...
 node factory/factory.js expand-capacity 20000             # migration thật: lock -> snapshot -> migrate -> verify -> rollback nếu fail
