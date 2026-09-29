@@ -15,7 +15,7 @@
   --bg-soft: #F1EEE4;
   --ink: #16243D;
   --ink-soft: #3A4A66;
-  --muted: #6E7688;
+  --muted: #626D80; /* ≥4.5:1 trên nền trắng ngà lẫn trắng card (WCAG AA chữ nhỏ) */
   --cobalt: #3157D5;
   --cobalt-deep: #26449F;
   --amber: #B45309;
@@ -54,18 +54,18 @@
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
-/* Nhấn theo danh mục (data-acc) */
-[data-acc="emerald"] { --acc: #0E9F6E; }
+/* Nhấn theo danh mục (data-acc) — mọi token dùng làm CHỖ phải đạt ≥4.5:1 trên trắng */
+[data-acc="emerald"] { --acc: #0B7A55; }
 [data-acc="cobalt"], .acc-cobalt { --acc: #3157D5; }
 [data-acc="navy"] { --acc: #22406F; }
 [data-acc="violet"] { --acc: #7C5CD9; }
-[data-acc="cyan"] { --acc: #0891B2; }
+[data-acc="cyan"] { --acc: #036A82; }
 [data-acc="blue"], .acc-blue { --acc: #2563EB; }
-[data-acc="teal"] { --acc: #0D9488; }
+[data-acc="teal"] { --acc: #0A6E63; }
 [data-acc="amber"] { --acc: #B45309; }
 [data-acc="slate"] { --acc: #64748B; }
 [data-acc="red"] { --acc: #C2410C; }
-[data-acc="orange"] { --acc: #C2540A; }
+[data-acc="orange"] { --acc: #B44E0A; }
 [data-acc="gold"] { --acc: #8A6D1C; }
 [data-acc="purple"] { --acc: #7C4DBE; }
 
@@ -277,6 +277,13 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   font-size: 15.5px; font-weight: 600; cursor: pointer; min-height: 50px; font-family: inherit;
 }
 .hero-search button:hover { background: var(--cobalt-deep); }
+.hero-search:focus-within { border-color: var(--cobalt); box-shadow: 0 0 0 3px rgba(49, 87, 213, 0.14); }
+.hero-hint { color: var(--muted); font-size: 12.5px; margin: 2px 0 14px; }
+.hero-hint kbd {
+  font-family: var(--mono); font-size: 11.5px; color: var(--ink);
+  background: #fff; border: 1px solid var(--line-strong); border-bottom-width: 2px;
+  border-radius: var(--radius-sm); padding: 1px 6px;
+}
 .hero-tag { color: var(--muted); font-size: 14.5px; margin: 0; }
 
 /* ---------- 6. Bài nổi bật (featured) ---------- */
@@ -311,8 +318,11 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
 .rental-desc { display: block; font-size: 14px; color: var(--ink-soft); margin-top: 6px; }
 .rental-cluster .read-more { display: inline-block; margin-top: 18px; }
 
-/* ---------- 8. Bài mới: thẻ có ảnh ---------- */
+/* ---------- 8. Bài mới nhất (featured + lưới gộp MỘT khối duy nhất) ---------- */
 .latest-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+/* Featured nằm TRONG khối latest — không còn padding/viền đôi của section cũ */
+.latest .featured { padding: 0; border-bottom: 1px solid var(--line); margin: 0 0 28px; }
+.latest .featured + .latest-grid { margin-top: 0; }
 .post-card {
   display: flex; flex-direction: column; gap: 8px; background: var(--card);
   border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
@@ -470,7 +480,7 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   content: counter(toc); float: left; margin-left: 8px;
   font-size: 12px; color: var(--muted); line-height: 2.2; min-width: 16px;
 }
-.toc a { display: block; padding: 8px 8px 8px 30px; border-radius: var(--radius-sm); font-size: 13.5px; color: var(--ink-soft); line-height: 1.45; }
+.toc a { display: flex; align-items: center; min-height: 44px; padding: 8px 8px 8px 30px; border-radius: var(--radius-sm); font-size: 13.5px; color: var(--ink-soft); line-height: 1.45; }
 .toc a:hover { background: var(--bg-soft); color: var(--ink); text-decoration: none; }
 
 /* Quick answer + key points: left-rule + tint, không dày hộp */
@@ -698,6 +708,10 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
 .footer-cats a, .footer-meta a {
   display: block; color: #C9D2E3; font-size: 14px; padding: 5px 0;
 }
+/* Mobile: link footer là mục chạm — đủ cao 44px cho ngón tay */
+@media (max-width: 767px) {
+  .footer-cats a, .footer-meta a { display: flex; align-items: center; min-height: 44px; padding: 0; }
+}
 .footer-cats a:hover, .footer-meta a:hover { color: #fff; text-decoration: none; }
 
 /* ---------- 15. Responsive ————
@@ -726,6 +740,7 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   .site-main { padding: 20px 16px 56px; }
   .hero { padding: 32px 0 26px; }
   .hero-search button { padding: 15px 18px; }
+  .hero-hint { display: none; } /* gợi ý bàn phím chỉ có nghĩa trên desktop */
   .rental-grid { grid-template-columns: 1fr; }
   .hub-grid { grid-template-columns: 1fr; }
   .latest-grid { grid-template-columns: 1fr; }
@@ -768,7 +783,9 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   .chatbot-launcher { padding: 10px 14px; font-size: 13.5px; min-height: 44px; }
   .cat-tiles { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .cat-tile, .hub-card, .rental-cell { padding: 14px; }
-  .footer-inner { grid-template-columns: 1fr; gap: 24px; }
+  /* Footer gọn trên điện thoại nhỏ: giữ 2 cột (brand tràn hàng) thay vì dốc dài 1 cột */
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 18px 24px; }
+  .footer-brand { grid-column: 1 / -1; }
   .article-byline { font-size: 12.5px; }
   .article-dek { font-size: 16.5px; }
   .toc a { font-size: 13px; }

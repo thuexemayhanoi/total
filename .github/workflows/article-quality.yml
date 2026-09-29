@@ -1,7 +1,12 @@
 name: Article Quality
 
-# Cổng chất lượng nội dung — tích hợp ci.yml cũ (giữ nguyên 4 lệnh chuẩn),
-# thêm path filter theo nội dung + workflow_dispatch. Deterministic, không AI.
+# Cổng chất lượng nội dung — deterministic, không AI.
+# THAY ĐỔI HARDENING:
+#   - KHÔNG chạy `generate` trước `--check` nữa: --check giờ là read-only
+#     byte-exact, so sánh trực tiếp với output đã commit — chạy generate trước
+#     sẽ xoá sạch bằng chứng stale/patch tay.
+#   - Thêm test-hardening.js (regression cho --check, publish atomic, breadcrumb).
+#   - Concurrency theo ref để PR không cancel run của main (và ngược lại).
 on:
   push:
     branches: [main]
@@ -15,12 +20,12 @@ permissions:
   contents: read
 
 concurrency:
-  group: article-quality
+  group: article-quality-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   quality:
-    name: Generate + Audit + Test
+    name: Check + Audit + Test
     runs-on: ubuntu-latest
     steps:
       - name: Lấy mã nguồn
@@ -33,10 +38,7 @@ jobs:
 
       # Không AI API bên trong GitHub Actions — chỉ kiểm tra tĩnh.
 
-      - name: Sinh site tĩnh
-        run: node factory/generate.js
-
-      - name: Kiểm tra không patch tay HTML
+      - name: Kiểm tra không patch tay HTML (read-only, byte-exact)
         run: node factory/generate.js --check
 
       - name: Audit chất lượng bài viết
@@ -44,3 +46,6 @@ jobs:
 
       - name: Bộ kiểm thử nền tảng
         run: node factory/test.js
+
+      - name: Bộ kiểm thử hardening (regression --check/publish/breadcrumb)
+        run: node factory/test-hardening.js

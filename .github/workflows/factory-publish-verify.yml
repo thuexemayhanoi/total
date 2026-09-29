@@ -5,8 +5,20 @@ name: Factory Publish Verify (read-only)
 #   - mọi slot PUBLISHED có bài + trang sinh + nằm trong sitemap-articles;
 #   - mọi URL bài trong sitemap-articles thuộc slot PUBLISHED;
 #   - checkpoint khớp ma trận, không writer lock bị bỏ lại.
+#
+# THAY ĐỔI HARDENING:
+#   - Tự chạy SAU mỗi lần "Factory Publish (chunked)" thành công
+#     (workflow_run) — trước đây chỉ chạy manual, verify bị bỏ lọt khi cần nhất.
+#   - Checkout đúng HEAD main SAU bot commit (head_branch của run publish).
+#   - XÓA bước `generate` đột biến: chỉ chạy `--check` read-only — không ghi
+#     đĩa, không xoá bằng chứng stale.
+#   - Script bất biến FAIL LOUD khi module bài lỗi (in tên file + exit 1).
+
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Factory Publish (chunked)']
+    types: [completed]
   push:
     branches: [main]
     paths: ['.github/workflows/factory-publish-verify.yml']
@@ -14,12 +26,20 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: factory-publish-verify-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   verify:
+    # workflow_run: chỉ verify khi publish chạy xong thành công.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Lấy mã nguồn
+      - name: Lấy mã nguồn (HEAD main SAU bot commit của publish)
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref }}
 
       - name: Cài Node.js
         uses: actions/setup-node@v4
@@ -34,13 +54,14 @@ jobs:
       - name: Audit mọi bài PUBLISHED >= 90
         run: node factory/factory.js audit --min-score 90
 
-      - name: Sinh lại site + kiểm tra không patch tay HTML
-        run: |
-          node factory/generate.js
-          node factory/generate.js --check
+      - name: Kiểm tra không patch tay HTML (read-only, byte-exact)
+        run: node factory/generate.js --check
 
       - name: Bộ kiểm thử nền tảng
         run: node factory/test.js
+
+      - name: Bộ kiểm thử hardening
+        run: node factory/test-hardening.js
 
       - name: Bất biến publish (read-only)
         run: |
@@ -68,7 +89,8 @@ jobs:
           const slugs = new Set();
           for (const f of fs.readdirSync(dir)) {
             if (!f.endsWith('.js')) continue;
-            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); } catch (e) { /* bỏ qua file lỗi */ }
+            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); }
+            catch (e) { console.error('Không nạp được module bài ' + dir + '/' + f + ' — ' + e.message); process.exit(1); }
           }
           const PENDING = ['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'REPAIR', 'PASS'];
           const pending = m.slots.filter(s => PENDING.includes(s.state) && slugs.has(s.slug));

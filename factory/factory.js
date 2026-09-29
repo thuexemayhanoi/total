@@ -211,19 +211,33 @@ function plannedTargetError(m, nRaw) {
 }
 
 // ---------- QA ----------
-function loadArticleBySlug(slug) {
-  const dir = path.join(__dirname, 'data', 'articles');
-  if (!fs.existsSync(dir)) return null;
-  for (const f of fs.readdirSync(dir)) {
-    if (!f.endsWith('.js')) continue;
-    try {
-      const a = require(path.join(dir, f));
-      if (a.slug === slug) {
-        return { ...a, path: a.hub ? `${a.category}/${a.hub}/${a.slug}/` : `${a.category}/${a.slug}/` };
+// FAIL LOUD + DETERMINISTIC: nạp TOÀN BỘ module bài trước khi trả về một bài —
+// module lỗi bất kỳ nào cũng làm cả xưởng dừng (in tên file + exit khác 0),
+// không phụ thuộc thứ tự readdirSync hay slot nào đang được hỏi.
+let _articlesBySlugCache = null;
+function loadAllArticlesBySlug() {
+  if (!_articlesBySlugCache) {
+    const dir = path.join(__dirname, 'data', 'articles');
+    const map = new Map();
+    if (fs.existsSync(dir)) {
+      for (const f of fs.readdirSync(dir)) {
+        if (!f.endsWith('.js')) continue;
+        let a;
+        try {
+          a = require(path.join(dir, f));
+        } catch (e) {
+          e.message = 'Không nạp được module bài factory/data/articles/' + f + ' — ' + (e && e.message ? e.message : e);
+          throw e;
+        }
+        map.set(a.slug, { ...a, path: a.hub ? `${a.category}/${a.hub}/${a.slug}/` : `${a.category}/${a.slug}/` });
       }
-    } catch (e) { /* bỏ qua file lỗi */ }
+    }
+    _articlesBySlugCache = map;
   }
-  return null;
+  return _articlesBySlugCache;
+}
+function loadArticleBySlug(slug) {
+  return loadAllArticlesBySlug().get(slug) || null;
 }
 
 function runQa(m, sid) {
@@ -250,6 +264,44 @@ function runQa(m, sid) {
   return result;
 }
 
+// ---------- Publish theo ID (selective + atomic) ----------
+// Chỉ nhận ID tường minh — KHÔNG sweep mọi slot PASS, KHÔNG cờ --.
+const PUBLISH_CHUNK_LIMIT = 10;
+
+// Thuần (không IO): trả { ids } nếu yêu cầu hợp lệ, ném Error tiếng Việt nếu không.
+// Quy tắc: cú pháp duy nhất `publish <ID> [<ID>...]`; slot đã PUBLISHED được bỏ qua
+// (idempotent khi resume); slot phải tồn tại và đang PASS; không trùng ID; tối đa
+// PUBLISH_CHUNK_LIMIT ID mỗi lệnh; không chấp nhận cờ `--`.
+function parsePublishRequest(m, args) {
+  const ids = String(args || '').split(/\s+/).filter(Boolean);
+  if (!ids.length) {
+    throw new Error('publish cần ID tường minh: publish <ID> [<ID>...] — KHÔNG hỗ trợ publish-all');
+  }
+  for (const a of ids) {
+    if (!/^S\d{5,}$/.test(a)) throw new Error('Đối số không hợp lệ: "' + a + '" — chỉ nhận ID slot (S00001...), không nhận cờ --');
+  }
+  const seen = new Set();
+  for (const id of ids) {
+    if (seen.has(id)) throw new Error('ID bị lặp trong yêu cầu publish: ' + id);
+    seen.add(id);
+  }
+  if (ids.length > PUBLISH_CHUNK_LIMIT) {
+    throw new Error('Quá ' + PUBLISH_CHUNK_LIMIT + ' ID mỗi lệnh publish (nhận ' + ids.length + ') — chia nhỏ chunk');
+  }
+  const out = [];
+  for (const id of ids) {
+    const s = m.slots.find(x => x.id === id);
+    if (!s) throw new Error('Không tìm thấy slot ' + id + ' trong ma trận');
+    if (s.state === 'PUBLISHED') continue; // đã publish — bỏ qua (resume an toàn)
+    if (s.state !== 'PASS') {
+      throw new Error('Slot ' + id + ' đang ' + s.state + ' — chỉ publish slot PASS; slot khác giữ nguyên để resume');
+    }
+    out.push(id);
+  }
+  if (!out.length) throw new Error('Không còn slot nào cần publish — mọi ID đã PUBLISHED từ trước');
+  return { ids: out };
+}
+
 // ---------- Publish: sinh lại site + indexes + test ----------
 function publishAll() {
   execFileSync(process.execPath, [path.join(__dirname, 'generate.js')], { stdio: 'inherit' });
@@ -268,7 +320,9 @@ Lệnh:
   research <id>                   PLANNED → RESEARCH
   write <id>                      RESEARCH → WRITING
   qa <id>                         Chấm QA bài của slot
-  publish                         Sinh lại site + chạy toàn bộ test
+  publish <ID> [<ID>...]       Publish slot PASS theo ID tường minh (atomic,
+                               tối đa 10 ID; cổng sinh lại site + test xanh
+                               mới ghi state, fail thì giữ nguyên để resume)
   audit [--min-score 90]          Rà mọi bài PUBLISHED
   resume                          Tiếp tục từ checkpoint
   expand-capacity <N> [--dry-run] Mở rộng capacity ma trận (chỉ tăng, KHÔNG shrink)
@@ -331,14 +385,27 @@ function main() {
     return;
   }
   if (cmd === 'publish') {
+    // PUBLISH SELECTIVE + ATOMIC THEO ID: validate -> flip TRONG BẢN NHỚ ->
+    // cổng generate/test -> CHỈ khi mọi cổng xanh mới ghi matrix/state ra đĩa.
+    // Publish fail -> exit 1, KHÔNG ghi state: repo vẫn là checkpoint resumable.
     const m = loadMatrix();
-    for (const s of m.slots.filter(x => x.state === 'PASS')) {
+    validateMatrix(m);
+    const { ids } = parsePublishRequest(m, rest.join(' '));
+    for (const id of ids) {
+      const s = m.slots.find(x => x.id === id);
       s.state = 'PUBLISHED';
       s.updatedAt = new Date().toISOString();
     }
+    try {
+      publishAll();
+    } catch (e) {
+      console.error('PUBLISH TỪ CHỐI: sinh lại site/test thất bại — KHÔNG ghi matrix/state, slot giữ nguyên để resume.');
+      console.error('  Chi tiết: ' + (e && e.message ? e.message : e));
+      process.exit(1);
+    }
     saveMatrix(m);
-    saveState(loadState(), 'publish');
-    publishAll();
+    saveState(loadState(), 'publish:' + ids.join(','));
+    console.log('Đã publish ' + ids.length + ' slot theo ID: ' + ids.join(', '));
     return;
   }
   if (cmd === 'audit') {
@@ -489,4 +556,5 @@ module.exports = {
   TRANSITIONS, planSlot, transition,
   validateMatrix, parseSlotId, formatSlotId, maxSlotNumber, nextSlotId,
   parsePositiveInt, expansionError, applyExpansion, plannedTargetError,
+  loadArticleBySlug, PUBLISH_CHUNK_LIMIT, parsePublishRequest,
 };
