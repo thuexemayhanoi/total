@@ -22,6 +22,39 @@
   "summary": ""
  },
  {
+  "kind": "page",
+  "url": "lien-he/",
+  "title": "Liên hệ — AI WIKI TOTAL",
+  "description": "Trang liên hệ của AI WIKI TOTAL — cổng kiến thức, không bán xe và không đặt xe hộ.",
+  "category": "",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": ""
+ },
+ {
+  "kind": "page",
+  "url": "chinh-sach-bao-mat/",
+  "title": "Chính sách bảo mật — AI WIKI TOTAL",
+  "description": "Chính sách bảo mật của AI WIKI TOTAL: trang kiến thức tĩnh, không tài khoản, không form thu thập dữ liệu cá nhân.",
+  "category": "",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": ""
+ },
+ {
+  "kind": "page",
+  "url": "dieu-khoan-su-dung/",
+  "title": "Điều khoản sử dụng — AI WIKI TOTAL",
+  "description": "Điều khoản sử dụng nội dung AI WIKI TOTAL: kiến thức tham khảo, không phải chào hàng thương mại.",
+  "category": "",
+  "hub": "",
+  "entities": [],
+  "keywords": [],
+  "summary": ""
+ },
+ {
   "kind": "category",
   "url": "thue-xe/",
   "title": "Thuê xe",
