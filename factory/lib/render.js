@@ -437,7 +437,7 @@ ${S.breadcrumbHtml(trail)}
   </form>
   <div class="search-results" id="page-search-results" aria-live="polite"></div>
 </section>`;
-  return S.page({ path: 'tim-kiem/', title: 'Tìm kiếm — AI WIKI TOTAL', description: 'Tìm kiếm nội dung trong AI WIKI TOTAL.', content });
+  return S.page({ path: 'tim-kiem/', title: 'Tìm kiếm — AI WIKI TOTAL', description: 'Tìm kiếm nội dung trong AI WIKI TOTAL.', content, headExtra: K.jsonld(K.breadcrumbSchema(trail)) });
 }
 
 // ---------- 404 ----------
