@@ -5,10 +5,10 @@ name: Article Quality
 on:
   push:
     branches: [main]
-    paths: ['factory/**', '.github/workflows/article-quality.yml']
+    paths: ['factory/**', 'assets/css/**', 'assets/js/**', '.github/workflows/article-quality.yml']
   pull_request:
     branches: [main]
-    paths: ['factory/**', '.github/workflows/article-quality.yml']
+    paths: ['factory/**', 'assets/css/**', 'assets/js/**', '.github/workflows/article-quality.yml']
   workflow_dispatch:
 
 permissions:

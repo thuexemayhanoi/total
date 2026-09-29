@@ -354,6 +354,74 @@ ${S.breadcrumbHtml(trail)}
   });
 }
 
+// ---------- Liên hệ ----------
+function renderContact() {
+  const trail = [{ name: 'Trang chủ', href: '' }, { name: 'Liên hệ', href: 'lien-he/' }];
+  const content = `
+${S.breadcrumbHtml(trail)}
+<header class="page-head"><h1>Liên hệ</h1>
+<p class="page-lead">Kênh liên hệ của AI WIKI TOTAL với bạn đọc.</p></header>
+<div class="prose about-prose">
+<section class="prose-sec"><h2>Cách liên hệ</h2>
+<p>AI WIKI TOTAL là cổng kiến thức, không bán xe và không nhận đặt xe hộ. Nếu bạn có câu hỏi về nội dung, phát hiện dữ kiện cần kiểm chứng, hoặc muốn góp ý cho ban biên tập, hãy sử dụng một trong các cách dưới đây.</p>
+<ul>
+<li><strong>Góp ý nội dung:</strong> dùng trang <a href="${S.u('tim-kiem/')}">Tìm kiếm</a> để kiểm tra xem chủ đề đã có bài chưa; nếu chưa, đề xuất chủ đề mới qua trợ lý AI trên trang chủ.</li>
+<li><strong>Báo lỗi dữ kiện:</strong> nêu rõ bài viết, đoạn trích và lý do cần kiểm chứng — ban biên tập sẽ rà soát theo nguyên tắc knowledge-first.</li>
+<li><strong>Vấn đề kỹ thuật:</strong> mô tả trang, trình duyệt và hành vi gặp lỗi để được hỗ trợ nhanh hơn.</li>
+</ul></section>
+<section class="prose-sec"><h2>Nguyên tắc phản hồi</h2>
+<p>Trang này không thu thập dữ liệu cá nhân: không có form, không tài khoản, không theo dõi hành vi. Câu hỏi thường gặp về nội dung đã được trợ lý AI trả lời trực tiếp dựa trên các bài viết đã publish. Mọi dữ kiện kinh doanh chỉ được đưa lên site khi đã được xác minh qua nguồn độc lập.</p></section>
+</div>`;
+  return S.page({
+    path: 'lien-he/', title: 'Liên hệ — AI WIKI TOTAL', description: 'Trang liên hệ của AI WIKI TOTAL — cổng kiến thức, không bán xe và không đặt xe hộ.',
+    content, headExtra: K.jsonld(K.breadcrumbSchema(trail)),
+  });
+}
+
+// ---------- Chính sách bảo mật ----------
+function renderPrivacy() {
+  const trail = [{ name: 'Trang chủ', href: '' }, { name: 'Chính sách bảo mật', href: 'chinh-sach-bao-mat/' }];
+  const content = `
+${S.breadcrumbHtml(trail)}
+<header class="page-head"><h1>Chính sách bảo mật</h1>
+<p class="page-lead">AI WIKI TOTAL là trang kiến thức tĩnh — không tài khoản, không form thu thập dữ liệu cá nhân.</p></header>
+<div class="prose about-prose">
+<section class="prose-sec"><h2>Dữ liệu chúng tôi KHÔNG thu thập</h2>
+<p>Site không yêu cầu đăng ký, không có biểu mẫu nhập liệu và không đặt cookie quảng cáo. Trang Tìm kiếm hoạt động hoàn toàn phía trình duyệt: chỉ mục tìm kiếm được tải xuống máy của bạn và việc tìm kiếm diễn ra cục bộ, không gửi từ khoá về máy chủ của chúng tôi.</p></section>
+<section class="prose-sec"><h2>Trợ lý AI trên trang</h2>
+<p>Trợ lý AI WIKI TOTAL trả lời dựa trên chỉ mục nội dung đã publish, chạy trong trình duyệt của bạn. Câu hỏi bạn nhập không dùng để hồ sơ hoá người dùng và không liên kết với danh tính.</p></section>
+<section class="prose-sec"><h2>Dịch vụ bên thứ ba</h2>
+<p>Trang được lưu trữ trên hạ tầng GitHub Pages; các yêu cầu truy cập thông thường được ghi nhận ở tầng hạ tầng như mọi website tĩnh khác. Chúng tôi không nhúng theo dõi phân tích của bên thứ ba và không chia sẻ dữ liệu với đơn vị quảng cáo.</p></section>
+<section class="prose-sec"><h2>Thay đổi chính sách</h2>
+<p>Khi chính sách thay đổi, phiên bản mới sẽ được publish trực tiếp trên trang này kèm nội dung đầy đủ. Vì site không có tài khoản nên không cần cơ chế thông báo riêng cho từng người dùng.</p></section>
+</div>`;
+  return S.page({
+    path: 'chinh-sach-bao-mat/', title: 'Chính sách bảo mật — AI WIKI TOTAL', description: 'Chính sách bảo mật của AI WIKI TOTAL: trang kiến thức tĩnh, không tài khoản, không form thu thập dữ liệu cá nhân.',
+    content, headExtra: K.jsonld(K.breadcrumbSchema(trail)),
+  });
+}
+
+// ---------- Điều khoản sử dụng ----------
+function renderTerms() {
+  const trail = [{ name: 'Trang chủ', href: '' }, { name: 'Điều khoản sử dụng', href: 'dieu-khoan-su-dung/' }];
+  const content = `
+${S.breadcrumbHtml(trail)}
+<header class="page-head"><h1>Điều khoản sử dụng</h1>
+<p class="page-lead">Nội dung AI WIKI TOTAL dùng cho mục đích tham khảo — không phải chào hàng thương mại.</p></header>
+<div class="prose about-prose">
+<section class="prose-sec"><h2>Tính chất nội dung</h2>
+<p>Toàn bộ bài viết là kiến thức tham khảo tổng hợp bằng tiếng Việt, tuân theo nguyên tắc knowledge-first: ưu tiên dữ kiện đã xác minh, ghi rõ tính chất minh họa cho hình ảnh và không đưa số liệu kinh doanh trần trụi. Nội dung không thay thế tư vấn chuyên môn của nhà cung cấp dịch vụ hoặc kỹ thuật viên.</p></section>
+<section class="prose-sec"><h2>Giới hạn trách nhiệm</h2>
+<p>Giá cả, quy định thuê xe và tình trạng pháp lý có thể thay đổi theo thời gian và theo địa phương. Trước khi quyết định, hãy đối chiếu với nhà cung cấp dịch vụ hoặc cơ quan có thẩm quyền. AI WIKI TOTAL không chịu trách nhiệm về tổn thất phát sinh do dựa hoàn toàn vào nội dung tham khảo trên site.</p></section>
+<section class="prose-sec"><h2>Bản quyền và trích dẫn</h2>
+<p>Bạn có thể trích dẫn đoạn ngắn kèm đường dẫn về bài gốc. Việc sao chép hàng loạt bài viết, phát hành lại thành bộ sưu tập hoặc dùng nội dung cho mục đích thương mại cần sự đồng ý của ban biên tập.</p></section>
+</div>`;
+  return S.page({
+    path: 'dieu-khoan-su-dung/', title: 'Điều khoản sử dụng — AI WIKI TOTAL', description: 'Điều khoản sử dụng nội dung AI WIKI TOTAL: kiến thức tham khảo, không phải chào hàng thương mại.',
+    content, headExtra: K.jsonld(K.breadcrumbSchema(trail)),
+  });
+}
+
 // ---------- Tìm kiếm ----------
 function renderSearchPage() {
   const trail = [{ name: 'Trang chủ', href: '' }, { name: 'Tìm kiếm', href: 'tim-kiem/' }];
@@ -399,4 +467,4 @@ function render404() {
   return S.page({ path: '404.html', title: 'Không tìm thấy trang — AI WIKI TOTAL', description: 'Trang không tồn tại.', content });
 }
 
-module.exports = { up, visibleText, wordCount, readMin, formatDate, renderHomepage, renderCategory, renderHub, renderArticle, renderAbout, renderSearchPage, render404 };
+module.exports = { up, visibleText, wordCount, readMin, formatDate, renderHomepage, renderCategory, renderHub, renderArticle, renderAbout, renderContact, renderPrivacy, renderTerms, renderSearchPage, render404 };

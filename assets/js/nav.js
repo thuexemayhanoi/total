@@ -49,6 +49,8 @@
       lock: true, // khoá cuộn body khi drawer mở
       focusEl: mobileNav.querySelector('a'),
       open: function () {
+        var openGroups = mobileNav.querySelectorAll('.mnav-group[open]');
+        for (var i = 0; i < openGroups.length; i++) openGroups[i].open = false;
         mobileNav.hidden = false;
         mobileNav.classList.add('open');
         navToggle.setAttribute('aria-expanded', 'true');

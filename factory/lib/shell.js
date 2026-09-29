@@ -47,14 +47,14 @@ function thueXeDropdown() {
   </div>`;
 }
 
-// Mega menu "Tất cả" — 15 danh mục theo thứ tự trang chủ
+// Mega menu "Danh mục" — 15 danh mục cha theo thứ tự trang chủ + TOÀN BỘ hub con
 function megaMenu() {
   const cells = HOME_CATEGORY_ORDER.map(slug => {
     const c = CATEGORIES.find(x => x.slug === slug);
     if (!c) return '';
     return `<div class="mega-cell">
       <a class="mega-cat" data-acc="${ACCENTS[c.slug]}" href="${u(c.slug + '/')}">${esc(c.name)}</a>
-      ${c.children.slice(0, 4).map(h => `<a class="mega-sub" href="${u(c.slug + '/' + h.slug + '/')}">${esc(h.name)}</a>`).join('')}
+      ${c.children.map(h => `<a class="mega-sub" href="${u(c.slug + '/' + h.slug + '/')}">${esc(h.name)}</a>`).join('')}
       <span class="mega-count">${c.children.length} chủ đề</span>
     </div>`;
   }).join('');
@@ -88,17 +88,33 @@ function headerHtml(activeCat) {
   </div>
   ${megaMenu()}
   <div class="mobile-nav" id="mobile-nav" aria-label="Menu di động" hidden>
-    <p class="mobile-nav-label">Danh mục</p>
-    <nav class="mobile-nav-grid" aria-label="Danh mục chính">
-      ${CATEGORIES.map(c => `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`).join('')}
+    <nav class="mnav-list" aria-label="Trang chính">
+      <p class="mnav-cap">Trang</p>
+      <a class="mnav-link" href="${u('')}">Trang chủ</a>
+      <a class="mnav-link" href="${u('gioi-thieu/')}">Giới thiệu</a>
     </nav>
-    <p class="mobile-nav-label">Tiện ích</p>
-    <nav class="mobile-nav-grid" aria-label="Liên kết tiện ích">
-      <a href="${u('gioi-thieu/')}">Giới thiệu</a>
-      <a href="${u('tim-kiem/')}">Tìm kiếm</a>
-      <a href="${u('hub/')}">Trung tâm chủ đề</a>
+    <nav class="mnav-list mnav-acc" aria-label="Danh mục">
+      <p class="mnav-cap">Danh mục</p>
+      ${HOME_CATEGORY_ORDER.map(slug => {
+        const c = CATEGORIES.find(x => x.slug === slug);
+        if (!c) return '';
+        return `<details class="mnav-group">
+        <summary class="mnav-parent"><span>${esc(c.name)}</span><svg class="mnav-chev" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="m3 5 4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="mnav-children">
+          <a class="mnav-cat" href="${u(c.slug + '/')}">Trang danh mục ${esc(c.name)}</a>
+          ${c.children.map(h => `<a class="mnav-child" href="${u(c.slug + '/' + h.slug + '/')}">${esc(h.name)}</a>`).join('')}
+        </div>
+      </details>`;
+      }).join('')}
     </nav>
-  </nav>
+    <nav class="mnav-list" aria-label="Thông tin">
+      <p class="mnav-cap">Thông tin</p>
+      <a class="mnav-link" href="${u('lien-he/')}">Liên hệ</a>
+      <a class="mnav-link" href="${u('chinh-sach-bao-mat/')}">Chính sách bảo mật</a>
+      <a class="mnav-link" href="${u('dieu-khoan-su-dung/')}">Điều khoản sử dụng</a>
+      <a class="mnav-link" href="${u('tim-kiem/')}">Tìm kiếm</a>
+    </nav>
+  </div>
 </header>`;
 }
 
@@ -150,11 +166,11 @@ function chatbotMarkup() {
 }
 
 function footerHtml() {
-  const mainCats = HOME_CATEGORY_ORDER.slice(0, 8).map(slug => {
+  const exploreCats = HOME_CATEGORY_ORDER.slice(0, 7).map(slug => {
     const c = CATEGORIES.find(x => x.slug === slug);
     return `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`;
   }).join('');
-  const otherCats = HOME_CATEGORY_ORDER.slice(8).map(slug => {
+  const topicCats = HOME_CATEGORY_ORDER.slice(7).map(slug => {
     const c = CATEGORIES.find(x => x.slug === slug);
     return `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`;
   }).join('');
@@ -165,23 +181,21 @@ function footerHtml() {
       <p class="footer-tag">${esc(SITE.tagline)}</p>
       <p class="footer-note">Nội dung mang tính kiến thức tham khảo, viết bằng tiếng Việt cho người Việt. AI WIKI TOTAL không bán xe và không tự publish dữ kiện kinh doanh chưa xác minh.</p>
     </div>
-    <nav class="footer-col footer-cats" aria-label="Danh mục">
-      <p class="footer-col-title">Danh mục chính</p>
-      ${mainCats}
-      <a class="footer-more" href="${u('hub/')}">Tất cả danh mục →</a>
+    <nav class="footer-col footer-cats" aria-label="Khám phá">
+      <p class="footer-col-title">Khám phá</p>
+      ${exploreCats}
     </nav>
-    <nav class="footer-col footer-cats" aria-label="Danh mục khác">
-      <p class="footer-col-title">Chủ đề khác</p>
-      ${otherCats}
+    <nav class="footer-col footer-cats" aria-label="Chủ đề">
+      <p class="footer-col-title">Chủ đề</p>
+      ${topicCats}
     </nav>
-    <nav class="footer-col footer-meta" aria-label="Tiện ích">
-      <p class="footer-col-title">Tiện ích</p>
+    <nav class="footer-col footer-meta" aria-label="Thông tin">
+      <p class="footer-col-title">Thông tin</p>
       <a href="${u('gioi-thieu/')}">Giới thiệu</a>
+      <a href="${u('lien-he/')}">Liên hệ</a>
+      <a href="${u('chinh-sach-bao-mat/')}">Chính sách bảo mật</a>
+      <a href="${u('dieu-khoan-su-dung/')}">Điều khoản sử dụng</a>
       <a href="${u('tim-kiem/')}">Tìm kiếm</a>
-      <a href="${u('hub/')}">Trung tâm chủ đề</a>
-      <a href="${u('map/')}">Bản đồ</a>
-      <a href="${u('news/')}">Tin tức</a>
-      <a href="${u('docs/')}">Tài liệu</a>
     </nav>
   </div>
 </footer>`;
@@ -193,8 +207,8 @@ function breadcrumbHtml(trail) {
     return last
       ? `<span class="crumb" aria-current="page">${esc(t.name)}</span>`
       : `<a class="crumb" href="${u(t.href)}">${esc(t.name)}</a>`;
-  }).join('<span class="crumb-sep" aria-hidden="true">/</span>');
-  return `<nav class="breadcrumb" aria-label="Breadcrumb"><span class="crumb-sep" aria-hidden="true">Bạn ở đây:</span>${items}</nav>`;
+  }).join('<span class="crumb-sep" aria-hidden="true">›</span>');
+  return `<nav class="breadcrumb" aria-label="Breadcrumb">${items}</nav>`;
 }
 
 // metaTags: thẻ SEO dùng chung (canonical + og:url tuyệt đối theo spec)

@@ -108,6 +108,9 @@ function main() {
   // Giới thiệu + Tìm kiếm + 404
   const stats = { parents: CATEGORIES.length, hubs: CATEGORIES.reduce((n, c) => n + c.children.length, 0) };
   put('gioi-thieu/index.html', R.renderAbout(stats), { kind: 'page', title: 'Giới thiệu AI WIKI TOTAL', description: 'Giới thiệu về AI WIKI TOTAL', category: '' });
+  put('lien-he/index.html', R.renderContact(), { kind: 'page', title: 'Liên hệ — AI WIKI TOTAL', description: 'Trang liên hệ của AI WIKI TOTAL — cổng kiến thức, không bán xe và không đặt xe hộ.', category: '' });
+  put('chinh-sach-bao-mat/index.html', R.renderPrivacy(), { kind: 'page', title: 'Chính sách bảo mật — AI WIKI TOTAL', description: 'Chính sách bảo mật của AI WIKI TOTAL: trang kiến thức tĩnh, không tài khoản, không form thu thập dữ liệu cá nhân.', category: '' });
+  put('dieu-khoan-su-dung/index.html', R.renderTerms(), { kind: 'page', title: 'Điều khoản sử dụng — AI WIKI TOTAL', description: 'Điều khoản sử dụng nội dung AI WIKI TOTAL: kiến thức tham khảo, không phải chào hàng thương mại.', category: '' });
   put('tim-kiem/index.html', R.renderSearchPage(), { kind: 'page', title: 'Tìm kiếm', description: 'Tìm kiếm nội dung AI WIKI TOTAL', category: '', indexable: false });
   put('404.html', R.render404(), { kind: 'page', title: 'Không tìm thấy trang', description: '', category: '', indexable: false });
 
@@ -139,7 +142,7 @@ function main() {
   put('assets/data/chatbot-index.json', JSON.stringify(buildChatbotIndex(articlesRaw), null, 1), { kind: 'data', title: 'Chỉ mục chatbot', indexable: false });
 
   // Sitemap + robots
-  put('sitemap-pages.xml', sitemapFile('pages', ['', 'gioi-thieu/']), { kind: 'sitemap', title: 'sitemap pages', indexable: false });
+  put('sitemap-pages.xml', sitemapFile('pages', ['', 'gioi-thieu/', 'lien-he/', 'chinh-sach-bao-mat/', 'dieu-khoan-su-dung/']), { kind: 'sitemap', title: 'sitemap pages', indexable: false });
   put('sitemap-categories.xml', sitemapFile('categories', catUrls), { kind: 'sitemap', title: 'sitemap categories', indexable: false });
   put('sitemap-hubs.xml', sitemapFile('hubs', hubUrls), { kind: 'sitemap', title: 'sitemap hubs', indexable: false });
   put('sitemap-articles.xml', sitemapFile('articles', artUrls), { kind: 'sitemap', title: 'sitemap articles', indexable: false });

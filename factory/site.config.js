@@ -24,16 +24,16 @@ const HOME_CATEGORY_ORDER = [
   'guide', 'wiki', 'learn', 'ride', 'tips', 'docs', 'news', 'map', 'hub',
 ];
 
-// Menu chính desktop (spec mục 30) — "Tất cả" mở mega menu 15 danh mục
+// Menu chính desktop — header gọn (spec UI/UX): Trang chủ → Giới thiệu → nhóm ưu tiên
+// Thuê xe (dropdown) → một mục "Danh mục" (mega menu 15 cha + toàn bộ hub con) → Liên hệ.
+// Chính sách bảo mật / Điều khoản sử dụng nằm trong nhóm "Thông tin" của menu mobile
+// và cột "Thông tin" của footer — vẫn truy cập được từ mọi trang.
 const PRIMARY_NAV = [
   { label: 'Trang chủ', href: '', cat: null },
+  { label: 'Giới thiệu', href: 'gioi-thieu/', cat: null },
   { label: 'Thuê xe', href: 'thue-xe/', cat: 'thue-xe', dropdown: true },
-  { label: 'Xe máy', href: 'moto/', cat: 'moto' },
-  { label: 'Sửa chữa', href: 'garage/', cat: 'garage' },
-  { label: 'Địa phương', href: 'local/', cat: 'local' },
-  { label: 'Thị trường', href: 'market/', cat: 'market' },
-  { label: 'Đánh giá', href: 'review/', cat: 'review' },
-  { label: 'Tất cả', href: null, cat: null, mega: true },
+  { label: 'Danh mục', href: null, cat: null, mega: true },
+  { label: 'Liên hệ', href: 'lien-he/', cat: null },
 ];
 
 module.exports = { SITE, HOME_CATEGORY_ORDER, PRIMARY_NAV };

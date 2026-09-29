@@ -472,6 +472,115 @@ const fxExpanded = JSON.parse(JSON.stringify(matrix));
 factoryMod.applyExpansion(fxExpanded, matrix.capacity + 10000);
 ok(factoryMod.plannedTargetError(fxExpanded, matrix.plannedTarget + 2000) === null, 'Fixture: set-planned-target (plannedTarget+2.000) hợp lệ SAU khi đã expand (phần dư unallocated đảm bảo chỗ cho target)');
 
+// ---------- 18. UI/UX responsive: nav hierarchy, footer, breadcrumb ----------
+console.log('Kiểm thử UI nav/footer/breadcrumb…');
+const PRIMARY_NAV = require('./site.config').PRIMARY_NAV;
+// 18.1 Thứ tự điều hướng chính: Trang chủ đứng trước Giới thiệu
+ok(PRIMARY_NAV[0].label === 'Trang chủ', 'Nav: mục đầu tiên là Trang chủ', PRIMARY_NAV[0].label);
+const navGioiThieu = PRIMARY_NAV.findIndex(n => n.label === 'Giới thiệu');
+ok(navGioiThieu > 0, 'Nav: Giới thiệu có trong menu chính', String(navGioiThieu));
+ok(PRIMARY_NAV.findIndex(n => n.label === 'Trang chủ') < navGioiThieu, 'Nav: Trang chủ đứng trước Giới thiệu');
+const hdrSlice = home.slice(home.indexOf('main-nav'), home.indexOf('search-open'));
+const hdrHomePos = hdrSlice.indexOf('>Trang chủ<');
+const hdrAboutPos = hdrSlice.indexOf('>Giới thiệu<');
+ok(hdrHomePos >= 0 && hdrAboutPos > hdrHomePos, 'Header sinh ra: Trang chủ trước Giới thiệu');
+// 18.2 Thứ tự utility: Liên hệ → Chính sách bảo mật → Điều khoản sử dụng
+const mnavSlice = home.slice(home.indexOf('id="mobile-nav"'), home.indexOf('</header>'));
+const mContact = mnavSlice.indexOf('lien-he/');
+const mPrivacy = mnavSlice.indexOf('chinh-sach-bao-mat/');
+const mTerms = mnavSlice.indexOf('dieu-khoan-su-dung/');
+ok(mContact >= 0 && mPrivacy > mContact && mTerms > mPrivacy, 'Menu mobile: thứ tự Liên hệ → Bảo mật → Điều khoản');
+const footerSlice = home.slice(home.indexOf('site-footer'));
+const fContact = footerSlice.indexOf('lien-he/');
+const fPrivacy = footerSlice.indexOf('chinh-sach-bao-mat/');
+const fTerms = footerSlice.indexOf('dieu-khoan-su-dung/');
+ok(fContact >= 0 && fPrivacy > fContact && fTerms > fPrivacy, 'Footer: thứ tự Liên hệ → Bảo mật → Điều khoản');
+// 18.3 Menu mobile không trùng href vô nghĩa
+const mnavHrefs = [...mnavSlice.matchAll(/href="([^"]+)"/g)].map(m => m[1]);
+const mnavDupCount = mnavHrefs.length - new Set(mnavHrefs).size;
+ok(mnavDupCount === 0, 'Menu mobile: không có href trùng lặp', mnavDupCount + ' trùng');
+// 18.4 Parent/child derive từ categories.js (source of truth)
+let mnavTaxOk = true;
+let mnavTaxMissing = '';
+for (const c of CATEGORIES) {
+  if (!mnavSlice.includes('>' + c.name + '</span>')) { mnavTaxOk = false; mnavTaxMissing += ' ' + c.slug; }
+  for (const h of c.children) {
+    if (!mnavSlice.includes(c.slug + '/' + h.slug + '/')) { mnavTaxOk = false; mnavTaxMissing += ' ' + c.slug + '/' + h.slug; }
+  }
+}
+ok(mnavTaxOk, 'Menu mobile: đủ 15 cha + 97 hub con theo categories.js', mnavTaxMissing.slice(0, 60));
+const knownHubPaths = new Set();
+for (const c of CATEGORIES) for (const h of c.children) knownHubPaths.add(c.slug + '/' + h.slug + '/');
+const mnavHubHrefs = [...mnavSlice.matchAll(/href="\/total\/([a-z0-9-]+\/[a-z0-9-]+\/)"/g)].map(m => m[1]);
+ok(mnavHubHrefs.every(h => knownHubPaths.has(h)), 'Menu mobile: không có hub nào ngoài source of truth');
+// 18.5 Footer có đủ nhóm Thông tin
+for (const pair of [['Giới thiệu', 'gioi-thieu/'], ['Liên hệ', 'lien-he/'], ['Chính sách bảo mật', 'chinh-sach-bao-mat/'], ['Điều khoản sử dụng', 'dieu-khoan-su-dung/'], ['Tìm kiếm', 'tim-kiem/']]) {
+  ok(footerSlice.includes(pair[1]), `Footer có link: ${pair[0]}`);
+}
+// 18.6 Breadcrumb article đủ tầng: Trang chủ → cha → con → bài
+const hubArt = artModules.find(a => a.hub);
+if (hubArt) {
+  const hubArtRel = `${hubArt.category}/${hubArt.hub}/${hubArt.slug}/index.html`;
+  const hubArtHtml = read(hubArtRel);
+  const artBc = hubArtHtml.slice(hubArtHtml.indexOf('class="breadcrumb"'), hubArtHtml.indexOf('</nav>', hubArtHtml.indexOf('class="breadcrumb"')));
+  const hubArtCat = CATEGORIES.find(c => c.slug === hubArt.category);
+  const hubArtHub = hubArtCat.children.find(h => h.slug === hubArt.hub);
+  const pHome = artBc.indexOf('Trang chủ');
+  const pCat = artBc.indexOf(hubArtCat.name);
+  const pHub = artBc.indexOf(hubArtHub.name);
+  const pTitle = artBc.indexOf(hubArt.title);
+  ok(pHome >= 0 && pCat > pHome && pHub > pCat && pTitle > pHub, `Breadcrumb article ${hubArt.slug}: Trang chủ → cha → con → bài`);
+  ok(artBc.includes('aria-current="page"'), 'Breadcrumb article: trang hiện tại có aria-current');
+}
+// 18.7 Breadcrumb danh mục cha: aria-current cho trang hiện tại
+const catBcHtml = read('moto/index.html');
+const catBc = catBcHtml.slice(catBcHtml.indexOf('class="breadcrumb"'), catBcHtml.indexOf('</nav>', catBcHtml.indexOf('class="breadcrumb"')));
+ok(catBc.includes('Trang chủ') && catBc.includes('Xe máy') && catBc.includes('aria-current="page"'),
+  'Breadcrumb danh mục cha: Trang chủ › Xe máy (aria-current)');
+// 18.8 JSON-LD BreadcrumbList khớp breadcrumb hiển thị (visual ≠ structured data là lỗi)
+const hubPgHtml = read('thue-xe/xe-may/index.html');
+const hubPgBc = hubPgHtml.slice(hubPgHtml.indexOf('class="breadcrumb"'), hubPgHtml.indexOf('</nav>', hubPgHtml.indexOf('class="breadcrumb"')));
+let bcLd = null;
+for (const m of hubPgHtml.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+  try {
+    const obj = JSON.parse(m[1]);
+    if (obj['@type'] === 'BreadcrumbList') bcLd = obj;
+  } catch (e) { ok(false, 'JSON-LD hub parse được', String(e).slice(0, 60)); }
+}
+ok(!!bcLd, 'Hub có JSON-LD BreadcrumbList');
+if (bcLd) {
+  const ldNames = bcLd.itemListElement.map(x => x.name).join('>');
+  ok(ldNames === 'Trang chủ>Thuê xe>Xe máy', 'JSON-LD breadcrumb names khớp hierarchy hiển thị', ldNames);
+  const ldUrls = bcLd.itemListElement.map(x => x.item);
+  ok(ldUrls[0] === SITE.baseUrl && ldUrls[1] === SITE.baseUrl + 'thue-xe/' && ldUrls[2] === SITE.baseUrl + 'thue-xe/xe-may/',
+    'JSON-LD breadcrumb URLs khớp URL hierarchy', ldUrls.join(' '));
+  ok(hubPgBc.includes('href="' + SITE.basePath + 'thue-xe/"') && hubPgBc.includes('<span class="crumb" aria-current="page">Xe máy</span>'),
+    'Breadcrumb visual khớp URL của JSON-LD (link cha trùng item 2, trang hiện tại aria-current trùng item 3)');
+}
+// 18.9 Mọi trang sinh ra có viewport meta (responsive)
+let noViewportList = [];
+for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+  if (!read(f).includes('name="viewport"')) noViewportList.push(f);
+}
+ok(noViewportList.length === 0, 'Mọi trang sinh ra có viewport meta', noViewportList.slice(0, 3).join(', '));
+// 18.10 Trang tiện ích tồn tại, vào sitemap, được trang chủ liên kết
+for (const p of ['lien-he/index.html', 'chinh-sach-bao-mat/index.html', 'dieu-khoan-su-dung/index.html']) {
+  ok(exists(p), `Trang tiện ích tồn tại: ${p}`);
+  ok(read('sitemap-pages.xml').includes(SITE.baseUrl + p.replace('/index.html', '/')), `sitemap-pages có ${p}`);
+}
+ok(home.includes('lien-he/') && home.includes('chinh-sach-bao-mat/') && home.includes('dieu-khoan-su-dung/'),
+  'Trang chủ liên kết 3 trang tiện ích');
+// 18.11 Header/footer/breadcrumb trên utility pages (cùng shell)
+for (const p of ['lien-he/index.html', 'chinh-sach-bao-mat/index.html', 'dieu-khoan-su-dung/index.html', 'gioi-thieu/index.html']) {
+  const h = read(p);
+  ok(h.includes('site-header') && h.includes('site-footer'), `${p}: đủ header/footer`);
+  ok(h.includes('class="breadcrumb"') && h.includes('aria-current="page"'), `${p}: breadcrumb + aria-current`);
+}
+// 18.12 CSS không tạo chiều rộng cố định phá mobile (> 320px phải nằm trong min()/max())
+const badWidths = [...atlasCss.matchAll(/(?:^|[^\w-])(?:min-width|width):\s*(\d{3,})px/g)]
+  .map(m => parseInt(m[1])).filter(n => n > 320);
+ok(badWidths.length === 0, 'CSS: không còn width/min-width cố định > 320px (chống tràn mobile)', badWidths.join(', '));
+
 // ---------- Kết quả ----------
 console.log('');
 console.log('=== KẾT QUẢ KIỂM THỬ AI WIKI TOTAL ===');
