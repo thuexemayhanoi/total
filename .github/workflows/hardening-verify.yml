@@ -1,0 +1,49 @@
+name: Hardening Verify (branch)
+
+# Workflow TẠM — CHỈ chạy trên nhánh hardening/post-ui-audit, KHÔNG merge lên main
+# (sẽ bị xoá khỏi nhánh trước khi mở PR). Toàn bộ nội dung hardening được đẩy
+# thẳng lên nhánh (đã verify cục bộ byte-exact), nên workflow này KHÔNG patch,
+# KHÔNG sinh lại, KHÔNG commit — chỉ chạy ĐẦY ĐỦ các cổng verify read-only
+# trên đúng HEAD của nhánh:
+#   --check byte-exact -> audit >= 90 -> test.js -> test-hardening.js -> state sạch.
+
+on:
+  push:
+    branches: ['hardening/post-ui-audit']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hardening-verify
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 'Cổng 1: không patch tay HTML (read-only, byte-exact)'
+        run: node factory/generate.js --check
+
+      - name: 'Cổng 2: audit mọi bài PUBLISHED >= 90'
+        run: node factory/factory.js audit --min-score 90
+
+      - name: 'Cổng 3: bộ test nền tảng'
+        run: node factory/test.js
+
+      - name: 'Cổng 4: bộ test hardening (regression --check/publish/breadcrumb)'
+        run: node factory/test-hardening.js
+
+      - name: 'Cổng 5: READ STATE sạch + resumable'
+        run: |
+          node factory/factory.js status
+          node factory/factory.js resume
+          test ! -f factory/state/writer.lock || { echo "writer lock bị bỏ lại"; exit 1; }

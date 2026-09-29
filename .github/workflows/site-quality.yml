@@ -2,20 +2,23 @@ name: Site Quality
 
 # Kiểm định site đã sinh: HTML phải khớp generator (chống sửa tay), liên kết
 # nội bộ/canonical/sitemap sạch rác ký tự. Deterministic, không AI.
+# THAY ĐỔI HARDENING:
+#   - Paths thêm `factory/**`: đổi generator/template là đổi cả site sinh.
+#   - Concurrency theo ref: run của PR không cancel run của main.
 on:
   push:
     branches: [main]
-    paths: ['**.html', 'assets/**', 'sitemap.xml', 'sitemap-*.xml', 'robots.txt', '.github/workflows/site-quality.yml']
+    paths: ['**.html', 'factory/**', 'assets/**', 'sitemap.xml', 'sitemap-*.xml', 'robots.txt', '.github/workflows/site-quality.yml']
   pull_request:
     branches: [main]
-    paths: ['**.html', 'assets/**', 'sitemap.xml', 'sitemap-*.xml', 'robots.txt', '.github/workflows/site-quality.yml']
+    paths: ['**.html', 'factory/**', 'assets/**', 'sitemap.xml', 'sitemap-*.xml', 'robots.txt', '.github/workflows/site-quality.yml']
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: site-quality
+  group: site-quality-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:

@@ -3,6 +3,9 @@ name: Article Batch (read-only dry-run)
 # Chạy thử KHÔNG GHI: xem trạng thái xưởng, kế hoạch chunk, QA thử bài đang chờ.
 # Không đổi state, không sinh site, không commit — tương đương article-batch
 # của /vanchinh, adapt sang Node factory của /total.
+#
+# THAY ĐỔI HARDENING: module bài lỗi -> FAIL LOUD (in tên file + exit 1),
+# không âm thầm bỏ qua khiến QA "không có bài" giả.
 on:
   workflow_dispatch:
     inputs:
@@ -49,7 +52,8 @@ jobs:
           const bySlug = new Map();
           for (const f of fs.readdirSync(dir)) {
             if (!f.endsWith('.js')) continue;
-            try { const a = require(process.cwd() + '/' + dir + '/' + f); bySlug.set(a.slug, a); } catch (e) { /* bỏ qua file lỗi */ }
+            try { const a = require(process.cwd() + '/' + dir + '/' + f); bySlug.set(a.slug, a); }
+            catch (e) { console.error('Không nạp được module bài ' + dir + '/' + f + ' — ' + e.message); process.exit(1); }
           }
           const TERMINAL = ['PUBLISHED', 'BLOCKED'];
           const unfinished = m.slots.filter(s => !TERMINAL.includes(s.state) && s.state !== 'PLANNED' && bySlug.has(s.slug));
