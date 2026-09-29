@@ -2,7 +2,8 @@
  "version": 1,
  "slots": [],
  "lastAction": {
-  "action": "publish",
-  "at": "2026-09-28T22:17:19.221Z"
+  "action": "expand-capacity:10000->20000",
+  "at": "2026-09-29T10:25:28.880Z",
+  "matrixShaBefore": "4754f6071f98435834c42ae2b2d0b64b465a2ea8"
  }
 }

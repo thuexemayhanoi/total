@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capacity": 10000,
+ "capacity": 20000,
  "plannedTarget": 6000,
  "reserved": {
   "total": 4000,
