@@ -442,31 +442,35 @@ ok(factoryMod.formatSlotId(10001) === 'S10001', 'ID generator: 10001 -> S10001',
 ok(factoryMod.formatSlotId(99999) === 'S99999', 'ID generator: 99999 -> S99999', factoryMod.formatSlotId(99999));
 ok(factoryMod.formatSlotId(100000) === 'S100000', 'ID generator: 100000 -> S100000 (6 chữ số, không truncate)', factoryMod.formatSlotId(100000));
 ok(factoryMod.formatSlotId(100001) === 'S100001', 'ID generator: 100001 -> S100001', factoryMod.formatSlotId(100001));
-// Fixture mở rộng 10.000 -> 20.000 trên bản sao trong bộ nhớ (KHÔNG đụng file production).
+// Fixture mở rộng capacity +10.000 trên bản sao trong bộ nhớ (KHÔNG đụng file production).
+// Mọi giá trị tính TƯƠNG ĐỐI theo ma trận hiện tại — test hợp lệ ở MỌI capacity,
+// kể cả sau khi expand thật (test không tự-veto migration của chính nó).
 const fxMatrix = JSON.parse(JSON.stringify(matrix));
+const fxCapBefore = fxMatrix.capacity;
+const fxTarget = fxCapBefore + 10000; // mở rộng thêm 10.000
 const fxUnchanged = JSON.stringify({ slots: fxMatrix.slots, plannedTarget: fxMatrix.plannedTarget, reserved: fxMatrix.reserved });
-ok(factoryMod.expansionError(fxMatrix, 20000) === null, 'Fixture: expand 10.000 -> 20.000 hợp lệ');
-factoryMod.applyExpansion(fxMatrix, 20000);
-ok(fxMatrix.capacity === 20000, 'Fixture: capacity = 20.000 sau migration', String(fxMatrix.capacity));
+ok(factoryMod.expansionError(fxMatrix, fxTarget) === null, 'Fixture: expand capacity -> capacity+10.000 hợp lệ');
+factoryMod.applyExpansion(fxMatrix, fxTarget);
+ok(fxMatrix.capacity === fxTarget, 'Fixture: capacity = mức mới sau migration', String(fxMatrix.capacity));
 ok(JSON.stringify({ slots: fxMatrix.slots, plannedTarget: fxMatrix.plannedTarget, reserved: fxMatrix.reserved }) === fxUnchanged,
   'Fixture: slots/ID/PUBLISHED/plannedTarget/reserved giữ nguyên sau mở rộng (chỉ capacity đổi)');
 ok(fxMatrix.slots.filter(s => s.state === 'PUBLISHED').length === matrix.slots.filter(s => s.state === 'PUBLISHED').length,
   'Fixture: số slot PUBLISHED không đổi sau mở rộng');
-// Các trường hợp từ chối (mục 5).
+// Các trường hợp từ chối (mục 5) — giá trị tương đối, không phụ thuộc capacity đang cấu hình.
 ok(factoryMod.expansionError(matrix, matrix.capacity) !== null, 'Fixture: expand cùng capacity bị TỪ CHỐI');
-ok(factoryMod.expansionError(matrix, 5000) !== null, 'Fixture: shrink capacity (10000 -> 5000) bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, matrix.capacity - 1) !== null, 'Fixture: shrink capacity bị TỪ CHỐI');
 ok(factoryMod.expansionError(matrix, 0) !== null, 'Fixture: 0 bị TỪ CHỐI');
 ok(factoryMod.expansionError(matrix, -5) !== null, 'Fixture: số âm bị TỪ CHỐI');
 ok(factoryMod.expansionError(matrix, 'abc') !== null, 'Fixture: không phải số nguyên bị TỪ CHỐI');
-ok(factoryMod.expansionError(matrix, 20000.5) !== null, 'Fixture: số thập phân bị TỪ CHỐI');
-ok(factoryMod.expansionError(matrix, 7000) !== null, 'Fixture: NEW_CAPACITY < plannedTarget + reserved bị TỪ CHỐI');
-ok(factoryMod.plannedTargetError(matrix, 20000) !== null, 'Fixture: plannedTarget vượt capacity bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, matrix.capacity + 0.5) !== null, 'Fixture: số thập phân bị TỪ CHỐI');
+ok(factoryMod.expansionError(matrix, matrix.plannedTarget + matrix.reserved.total - 1) !== null, 'Fixture: NEW_CAPACITY < plannedTarget + reserved bị TỪ CHỐI');
+ok(factoryMod.plannedTargetError(matrix, matrix.capacity + 10000) !== null, 'Fixture: plannedTarget vượt capacity bị TỪ CHỐI');
 ok(factoryMod.plannedTargetError(matrix, matrix.slots.length - 1) !== null, 'Fixture: plannedTarget dưới số slot đã có bị TỪ CHỐI');
-ok(factoryMod.plannedTargetError(matrix, 8000) !== null, 'Fixture: plannedTarget + reserved vượt capacity bị TỪ CHỐI (không tự phá pool dự phòng)');
+ok(factoryMod.plannedTargetError(matrix, matrix.capacity - matrix.reserved.total + 1) !== null, 'Fixture: plannedTarget + reserved vượt capacity bị TỪ CHỐI (không tự phá pool dự phòng)');
 ok(factoryMod.plannedTargetError(matrix, matrix.plannedTarget) === null, 'Fixture: giữ nguyên plannedTarget hiện tại là hợp lệ');
 const fxExpanded = JSON.parse(JSON.stringify(matrix));
-factoryMod.applyExpansion(fxExpanded, 20000);
-ok(factoryMod.plannedTargetError(fxExpanded, 8000) === null, 'Fixture: set-planned-target 8.000 hợp lệ SAU khi đã expand lên 20.000 (phần dư unallocated đảm bảo chỗ cho target)');
+factoryMod.applyExpansion(fxExpanded, matrix.capacity + 10000);
+ok(factoryMod.plannedTargetError(fxExpanded, matrix.plannedTarget + 2000) === null, 'Fixture: set-planned-target (plannedTarget+2.000) hợp lệ SAU khi đã expand (phần dư unallocated đảm bảo chỗ cho target)');
 
 // ---------- Kết quả ----------
 console.log('');
