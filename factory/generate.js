@@ -185,7 +185,7 @@ function writeOutputs(outDir, built) {
     fs.writeFileSync(file, built.files[rel]);
     count++;
   }
-  fs.mkdirSync(path.join(outDir, 'factory/state'));
+  fs.mkdirSync(path.join(outDir, 'factory/state'), { recursive: true });
   fs.writeFileSync(path.join(outDir, 'factory/state/manifest.json'), built.manifestContent);
   return count;
 }
