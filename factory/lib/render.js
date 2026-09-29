@@ -29,60 +29,50 @@ function byOrder(x, y) {
   return d !== 0 ? d : String(x.slug).localeCompare(String(y.slug));
 }
 
-// Minh họa dùng chung theo danh mục — SVG do AI WIKI TOTAL tự vẽ, ghi rõ "Ảnh minh họa"
-const ILLU = {
-  'thue-xe': { file: 'illu-thue-xe.svg', title: 'xe máy, hợp đồng và chìa khóa khi thuê xe' },
-  'thue-xe/xe-may': { file: 'illu-xe-may.svg', title: 'xe máy ga di chuyển trong phố' },
-  'thue-xe/xe-dien': { file: 'illu-xe-dien.svg', title: 'xe điện, pin và trạm sạc' },
-  'thue-xe/xe-oto': { file: 'illu-xe-oto.svg', title: 'ô tô tự lái trên đường' },
-  'moto': { file: 'illu-xe-may.svg', title: 'xe máy ga cỡ nhỏ' },
-  'garage': { file: 'illu-garage.svg', title: 'đĩa phanh, kẹp phanh và công cụ bảo dưỡng' },
-  'market': { file: 'illu-gia-xe.svg', title: 'thẻ giá và biểu đồ so sánh giá xe' },
-};
-function illuFor(cat, hub) { return ILLU[cat + '/' + hub] || ILLU[cat] || ILLU['thue-xe']; }
+// THIẾT KẾ TEXT-ONLY EDITORIAL: không còn ảnh minh họa trong card/hàng bài/body.
+// Thay vào đó: nhãn chuyên mục (derive từ category/hub thật) + typography + whitespace.
+// Cấu trúc thẻ: chuyên mục → tiêu đề → mô tả → meta → CTA.
 
-function illuImg(cat, hub, opts) {
-  const il = illuFor(cat, hub);
-  const eager = opts && opts.eager;
-  return `<img src="${S.u('assets/img/' + il.file)}" width="960" height="640" alt="Ảnh minh họa: ${S.esc(il.title)}" ${eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} decoding="async">`;
-}
-
-// Thẻ bài dùng chung: ảnh + chuyên mục + tiêu đề + mô tả + meta từ dữ liệu thật
+// Thẻ bài dùng chung (text-only): chuyên mục + tiêu đề + mô tả + meta + CTA
 function postCard(a) {
   return `<a class="post-card" href="${S.u(up(a.path))}">
-  <span class="post-thumb">${illuImg(a.category, a.hub)}</span>
   <span class="post-cat">${S.esc(a.catName)}${a.hubName ? ' · ' + S.esc(a.hubName) : ''}</span>
   <span class="post-title">${S.esc(a.title)}</span>
   <span class="post-dek">${S.esc(a.summary.slice(0, 160))}…</span>
   <span class="post-meta">${formatDate(a.date)} · ${readMin(a.wordCount)} phút đọc</span>
+  <span class="post-cta">Đọc tiếp <span aria-hidden="true">→</span></span>
 </a>`;
 }
 
-// Bài nổi bật = bài mới nhất — nhãn nói đúng bản chất dữ liệu, không bịa "phổ biến nhất"
+// Bài nổi bật = bài mới nhất — nhãn nói đúng bản chất dữ liệu, không bịa "phổ biến nhất".
+// Card lớn TEXT-ONLY: desktop chia 2 vùng chữ (trái = nhãn/chuyên mục, phải = tiêu đề/tóm tắt/meta).
 function featuredCard(a, opts) {
   const label = (opts && opts.label) || 'Bài mới nhất';
   return `<section class="featured" aria-label="${S.esc(label)}">
 <a class="feat-card" href="${S.u(up(a.path))}">
-  <figure class="feat-media">${illuImg(a.category, a.hub, { eager: true })}</figure>
+  <div class="feat-side">
+    <span class="feat-label">${S.esc(label)}</span>
+    <span class="feat-cat">${S.esc(a.catName)}${a.hubName ? ' · ' + S.esc(a.hubName) : ''}</span>
+  </div>
   <div class="feat-body">
-    <p class="feat-cat"><span class="feat-label">${S.esc(label)}</span>${S.esc(a.catName)}${a.hubName ? ' · ' + S.esc(a.hubName) : ''}</p>
     <h2 class="feat-title">${S.esc(a.title)}</h2>
     <p class="feat-dek">${S.esc(a.summary.slice(0, 260))}…</p>
     <p class="feat-meta">${formatDate(a.date)}${a.updated && a.updated !== a.date ? ' · cập nhật ' + formatDate(a.updated) : ''} · ${readMin(a.wordCount)} phút đọc</p>
-    <span class="feat-cta">Đọc tiếp <span aria-hidden="true">→</span></span>
+    <span class="feat-cta">Đọc bài <span aria-hidden="true">→</span></span>
   </div>
 </a>
 </section>`;
 }
 
-// Hàng bài gọn trong danh mục/hub
+// Hàng bài gọn text-only trong danh mục/hub: [chuyên mục] tiêu đề / meta →
 function postRow(a) {
   return `<a class="post-row" href="${S.u(up(a.path))}">
-  <span class="row-thumb">${illuImg(a.category, a.hub)}</span>
   <span class="row-body">
+    <span class="row-cat">${S.esc(a.catName)}${a.hubName ? ' · ' + S.esc(a.hubName) : ''}</span>
     <span class="row-title">${S.esc(a.title)}</span>
     <span class="row-meta">${formatDate(a.date)} · ${readMin(a.wordCount)} phút đọc</span>
   </span>
+  <span class="row-go" aria-hidden="true">→</span>
 </a>`;
 }
 
@@ -228,8 +218,9 @@ ${featured ? featuredCard(featured, { label: 'Bài mới nhất trong chủ đ�
 
 // ---------- Bài viết ----------
 // Template dùng chung cho mọi bài hiện tại và tương lai:
-// breadcrumb → eyebrow → H1 → dek → byline (ban biên tập, ngày, phút đọc) → ảnh minh họa
+// breadcrumb → eyebrow → H1 → dek → byline (ban biên tập, ngày, phút đọc)
 // → quick answer → key points → TOC (sticky/accordion) → thân bài 65–75 ký tự/dòng → nguồn → chia sẻ → liên quan → trước/sau
+// KHÔNG tự sinh ảnh minh họa: body bắt đầu ngay bằng nội dung (text-only editorial).
 function renderArticle(cat, hub, a, articles, bySlug) {
   const trail = [{ name: 'Trang chủ', href: '' }, { name: cat.name, href: cat.slug + '/' }];
   if (hub) trail.push({ name: hub.name, href: cat.slug + '/' + hub.slug + '/' });
@@ -258,7 +249,6 @@ function renderArticle(cat, hub, a, articles, bySlug) {
   const pnCard = (x, cls, label) => x
     ? `<a class="pn-card ${cls}" href="${S.u(up(x.path))}"><span class="pn-label">${label}</span><span class="pn-title">${S.esc(x.title)}</span><span class="pn-meta">${S.esc(x.catName)} · ${formatDate(x.date)}</span></a>`
     : '';
-  const il = illuFor(cat.slug, hub ? hub.slug : null);
   const content = `
 ${S.breadcrumbHtml(trail)}
 <article class="article" itemscope itemtype="https://schema.org/Article">
@@ -286,10 +276,6 @@ ${S.breadcrumbHtml(trail)}
       <span class="act-hint" id="art-copy-hint" role="status" aria-live="polite"></span>
     </div>
   </header>
-  <figure class="art-lead">
-    ${illuImg(cat.slug, hub ? hub.slug : null, { eager: true })}
-    <figcaption>Ảnh minh họa: ${S.esc(il.title)} — minh họa mang tính biểu tượng, không phải ảnh sản phẩm cụ thể.</figcaption>
-  </figure>
   <div class="article-body">
     <aside class="article-toc">
       <nav class="toc" aria-label="Mục lục">
@@ -335,15 +321,11 @@ function renderAbout(stats) {
 ${S.breadcrumbHtml(trail)}
 <header class="page-head"><h1>Giới thiệu AI WIKI TOTAL</h1>
 <p class="page-lead">${S.esc(SITE.tagline)}</p></header>
-<figure class="art-lead">
-  <img src="${S.u('assets/img/illu-thue-xe.svg')}" width="960" height="640" alt="Ảnh minh họa: xe máy và chìa khóa trao tay khi thuê xe" loading="eager" fetchpriority="high" decoding="async">
-  <figcaption>Ảnh minh họa: xe máy, hợp đồng và chìa khóa khi thuê xe — minh họa mang tính biểu tượng.</figcaption>
-</figure>
 <div class="prose about-prose">
 <section class="prose-sec"><h2>AI WIKI TOTAL là gì?</h2>
 <p>AI WIKI TOTAL là cổng kiến thức tổng hợp bằng tiếng Việt về xe máy, xe điện, ô tô, thuê xe, sửa chữa, giá xe, thị trường, pháp lý, hành trình và địa phương. Mục tiêu dài hạn là một bách khoa toàn thư mở rộng dần lên hàng nghìn chủ đề, trong đó <strong>thuê xe</strong> là cụm chủ đề ưu tiên hàng đầu.</p></section>
 <section class="prose-sec"><h2>Nguyên tắc biên soạn</h2>
-<p>Mọi bài viết tuân theo ba nguyên tắc: kiến thức trước (knowledge-first), tiếng Việt chuẩn cho người Việt, và không đưa dữ kiện chưa xác minh. Thông tin kinh doanh chỉ xuất hiện khi đã được xác minh; phần còn lại là nội dung kiến thức tham khảo. Ảnh minh họa trên site do ban biên tập tự vẽ, ghi rõ tính chất minh họa — không sử dụng ảnh chụp sản phẩm thật để tránh gây hiểu nhầm về dòng xe.</p></section>
+<p>Mọi bài viết tuân theo ba nguyên tắc: kiến thức trước (knowledge-first), tiếng Việt chuẩn cho người Việt, và không đưa dữ kiện chưa xác minh. Thông tin kinh doanh chỉ xuất hiện khi đã được xác minh; phần còn lại là nội dung kiến thức tham khảo. Trang trình bày theo phong cách chữ-first kiểu bách khoa – tạp chí: nội dung truyền tải bằng văn bản, nhãn chuyên mục và typography, không phụ thuộc ảnh minh họa.</p></section>
 <section class="prose-sec"><h2>Cấu trúc hiện tại</h2>
 <p>Hiện site gồm <strong>${stats.parents} danh mục cha</strong>, <strong>${stats.hubs} hub con</strong> và các bài viết nền tảng, tất cả sinh từ dữ liệu qua trình sinh trang tĩnh (generator-first) — không chỉnh sửa HTML thủ công.</p></section>
 <section class="prose-sec"><h2>Trợ lý AI</h2>
@@ -411,7 +393,7 @@ ${S.breadcrumbHtml(trail)}
 <p class="page-lead">Nội dung AI WIKI TOTAL dùng cho mục đích tham khảo — không phải chào hàng thương mại.</p></header>
 <div class="prose about-prose">
 <section class="prose-sec"><h2>Tính chất nội dung</h2>
-<p>Toàn bộ bài viết là kiến thức tham khảo tổng hợp bằng tiếng Việt, tuân theo nguyên tắc knowledge-first: ưu tiên dữ kiện đã xác minh, ghi rõ tính chất minh họa cho hình ảnh và không đưa số liệu kinh doanh trần trụi. Nội dung không thay thế tư vấn chuyên môn của nhà cung cấp dịch vụ hoặc kỹ thuật viên.</p></section>
+<p>Toàn bộ bài viết là kiến thức tham khảo tổng hợp bằng tiếng Việt, tuân theo nguyên tắc knowledge-first: ưu tiên dữ kiện đã xác minh, trình bày rõ ràng theo cấu trúc bài viết và không đưa số liệu kinh doanh trần trụi. Nội dung không thay thế tư vấn chuyên môn của nhà cung cấp dịch vụ hoặc kỹ thuật viên.</p></section>
 <section class="prose-sec"><h2>Giới hạn trách nhiệm</h2>
 <p>Giá cả, quy định thuê xe và tình trạng pháp lý có thể thay đổi theo thời gian và theo địa phương. Trước khi quyết định, hãy đối chiếu với nhà cung cấp dịch vụ hoặc cơ quan có thẩm quyền. AI WIKI TOTAL không chịu trách nhiệm về tổn thất phát sinh do dựa hoàn toàn vào nội dung tham khảo trên site.</p></section>
 <section class="prose-sec"><h2>Bản quyền và trích dẫn</h2>

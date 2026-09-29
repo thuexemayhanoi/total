@@ -299,6 +299,7 @@ const navJs = read('assets/js/nav.js');
 const searchJs = read('assets/js/search.js');
 const chatbotJs = read('assets/js/chatbot.js');
 const atlasCss = read('assets/css/atlas.css');
+const renderJs = read('factory/lib/render.js');
 ok(exists('assets/js/overlay.js'), 'Có trình quản lý overlay dùng chung');
 ok(overlayJs.includes('closeAll'), 'Overlay: cơ chế đóng-mọi-overlay-khi-mở (mutual exclusion)');
 ok(overlayJs.includes('Escape'), 'Overlay: Escape đóng đúng UI active');
@@ -352,10 +353,10 @@ for (const a of artModules) {
   ok(html.includes('"@type": "Article"') || html.includes('"@type":"Article"'), `Article ${a.slug}: schema Article nguyên vẹn`);
   ok(html.includes('rel="canonical"'), `Article ${a.slug}: canonical nguyên vẹn`);
   ok(html.includes('itemscope itemtype="https://schema.org/Article"'), `Article ${a.slug}: microdata Article nguyên vẹn`);
-  // Ảnh đầu bài minh họa: figure.art-lead + kích thước cố định + caption ghi rõ
-  ok(html.includes('<figure class="art-lead">'), `Article ${a.slug}: có ảnh đầu bài art-lead`);
-  ok(html.includes('width="960" height="640"'), `Article ${a.slug}: ảnh đầu bài có kích thước cố định`);
-  ok(/Ảnh minh họa/.test(html), `Article ${a.slug}: caption ghi rõ ảnh minh họa`);
+  // Text-only editorial: bài KHÔNG còn ảnh minh họa do factory sinh
+  ok(!html.includes('<figure class="art-lead">'), `Article ${a.slug}: không còn ảnh đầu bài art-lead`);
+  ok(!/<img\s/i.test(html), `Article ${a.slug}: không có thẻ img nào (không illustration)`);
+  ok(!/Ảnh minh họa/.test(html), `Article ${a.slug}: không còn caption ảnh minh họa`);
   // Nút chia sẻ / sao chép liên kết
   ok(html.includes('id="art-share"') && html.includes('id="art-copy"'), `Article ${a.slug}: có nút chia sẻ + sao chép liên kết`);
 }
@@ -389,9 +390,10 @@ ok(read('factory/data/articles/a07-bo-phanh-garage.js').includes('phanh tang tr�
 // c) Chia sẻ / sao chép liên kết hoạt động
 ok(navJs.includes('navigator.share') && navJs.includes('clipboard'), 'JS: chia sẻ + sao chép liên kết qua nav.js');
 ok(navJs.includes('Đã sao chép liên kết!'), 'JS: phản hồi sau khi sao chép');
-// d) Ảnh minh họa SVG tồn tại trong repo
+// d) Asset hệ thống giữ nguyên; SVG minh họa legacy không còn được tham chiếu
+ok(exists('assets/img/og-cover.png'), 'OG cover (social metadata) vẫn tồn tại');
 for (const svg of ['illu-thue-xe.svg', 'illu-xe-may.svg', 'illu-xe-dien.svg', 'illu-xe-oto.svg', 'illu-garage.svg', 'illu-gia-xe.svg']) {
-  ok(exists('assets/img/' + svg), `Ảnh minh họa tồn tại: ${svg}`);
+  ok(!renderJs.includes(svg), `Renderer không còn tham chiếu SVG minh họa: ${svg}`);
 }
 // e) og-cover: CI sinh PNG + workflow + script
 ok(exists('.github/workflows/og-image.yml'), 'Workflow sinh og-cover.png tồn tại');
@@ -459,6 +461,62 @@ console.log('Kiểm thử UI/UX audit cuối (homepage gộp, contrast, tap-targ
   const mq479 = (atlasCss.match(/@media \(max-width: 479px\) \{[\s\S]*?\n\}/) || [''])[0];
   ok(!/\.footer-inner\s*\{[^}]*grid-template-columns:\s*1fr;/.test(mq479),
     'Footer: điện thoại nhỏ giữ 2 cột gọn thay vì dốc 1 cột');
+}
+
+// ---------- 15e. TEXT-ONLY editorial: regression chống ảnh minh họa quay lại ----------
+console.log('Kiểm thử text-only editorial (không illustration trong body/card)…');
+{
+  // a) Không trang sinh nào còn selector/container media cũ
+  let mediaRefs = [];
+  for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+    const html = read(f);
+    if (html.includes('feat-media') || html.includes('post-thumb') || html.includes('row-thumb') || html.includes('art-lead')) mediaRefs.push(f);
+  }
+  ok(mediaRefs.length === 0, 'Trang sinh không còn selector media cũ (feat-media/post-thumb/row-thumb/art-lead)', mediaRefs.slice(0, 5).join(', '));
+
+  // b) Không img minh họa do factory sinh trong bất kỳ trang nào
+  let illuImgs = [];
+  for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+    if (read(f).includes('assets/img/illu-')) illuImgs.push(f);
+  }
+  ok(illuImgs.length === 0, 'Trang sinh không tham chiếu img minh họa (illu-*.svg)', illuImgs.slice(0, 5).join(', '));
+
+  // c) Không figure rỗng
+  let emptyFigures = [];
+  for (const f of allFiles.filter(x => x.endsWith('.html'))) {
+    if (/<figure[^>]*>\s*<\/figure>/.test(read(f))) emptyFigures.push(f);
+  }
+  ok(emptyFigures.length === 0, 'Trang sinh không có figure rỗng', emptyFigures.slice(0, 5).join(', '));
+
+  // d) CSS dọn sạch: hết selector + property media-card cũ, không để dead CSS
+  ok(!atlasCss.includes('.feat-media') && !atlasCss.includes('.post-thumb') &&
+     !atlasCss.includes('.row-thumb') && !atlasCss.includes('.art-lead'),
+    'CSS: không còn selector media cũ (feat-media/post-thumb/row-thumb/art-lead)');
+  ok(!atlasCss.includes('object-fit') && !atlasCss.includes('aspect-ratio'),
+    'CSS: hết object-fit/aspect-ratio của ảnh card (không còn ảnh card)');
+  ok(!/img[^{}]*\{[^}]*height:\s*100%/.test(atlasCss), 'CSS: không còn img height:100% (media card cũ)');
+
+  // e) Renderer không còn helper illustration
+  ok(!renderJs.includes('illuImg') && !renderJs.includes('illuFor') && !renderJs.includes('const ILLU'),
+    'Renderer: xóa sạch helper illustration (ILLU/illuFor/illuImg)');
+
+  // f) Card text-only có cấu trúc mới: featured 2 vùng chữ, post-card có CTA, post-row có nhãn + mũi tên
+  ok(home.includes('feat-side') && home.includes('feat-label') && home.includes('feat-cat'),
+    'Featured text-only: có vùng nhãn/chuyên mục riêng (feat-side/feat-label/feat-cat)');
+  ok(home.includes('post-cta'), 'Post card text-only: có CTA "Đọc tiếp" (post-cta)');
+  const rowHtml = allFiles.filter(x => x.endsWith('.html')).map(f => read(f)).find(h => h.includes('class="post-row"')) || '';
+  ok(rowHtml.includes('row-cat') && rowHtml.includes('row-go'), 'Post row text-only: nhãn chuyên mục (row-cat) + mũi tên (row-go)');
+
+  // g) Logo + icon hệ thống vẫn tồn tại (không bị đụng khi bỏ illustration)
+  ok(home.includes('class="logo"') && home.includes('logo-mark'), 'Logo AI WIKI TOTAL vẫn tồn tại trong header');
+  ok(home.includes('id="search-open"') && home.includes('id="nav-toggle"') && home.includes('id="chatbot-launcher"'),
+    'Icon hệ thống (search/menu/chatbot) vẫn tồn tại');
+
+  // h) Search/chatbot text-only (không thumbnail trong kết quả)
+  ok(!searchJs.includes('<img') && !chatbotJs.includes('<img'), 'Search/Chatbot: kết quả text-only, không thumbnail');
+
+  // i) OG image metadata vẫn hợp lệ (social share ngoài body)
+  ok(home.includes(`property="og:image" content="${SITE.baseUrl}assets/img/og-cover.png"`), 'OG image metadata vẫn trỏ og-cover.png');
 }
 
 // ---------- 16. Factory state không đổi ----------
