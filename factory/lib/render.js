@@ -120,17 +120,18 @@ function renderHomepage(articles) {
     <input id="hero-search-input" type="search" name="q" placeholder="${S.esc(SITE.searchPlaceholder)}">
     <button type="submit">Tìm kiếm</button>
   </form>
+  <p class="hero-hint">Nhấn <kbd>Ctrl</kbd>+<kbd>K</kbd> (hoặc <kbd>⌘</kbd>+<kbd>K</kbd>) để tìm nhanh từ bất kỳ trang nào</p>
   <p class="hero-tag">${S.esc(SITE.tagline)}</p>
 </section>
-${newest ? featuredCard(newest) : ''}
+<section class="latest" aria-labelledby="latest-h">
+  <h2 id="latest-h" class="section-h">Bài mới nhất</h2>
+  ${newest ? featuredCard(newest, { label: 'Mới nhất' }) : ''}
+  <div class="latest-grid">${latest}</div>
+</section>
 <section class="rental-cluster" aria-labelledby="rental-h">
   <h2 id="rental-h" class="section-h">Thuê xe — cụm chủ đề ưu tiên</h2>
   <div class="rental-grid">${rentalCells}</div>
   <p><a class="read-more" href="${S.u('thue-xe/')}">Khám phá toàn bộ Thuê xe →</a></p>
-</section>
-<section class="latest" aria-labelledby="latest-h">
-  <h2 id="latest-h" class="section-h">Bài mới</h2>
-  <div class="latest-grid">${latest}</div>
 </section>
 <section class="cats" aria-labelledby="cats-h">
   <h2 id="cats-h" class="section-h">Khám phá 15 danh mục</h2>

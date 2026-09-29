@@ -62,7 +62,7 @@
   function esc(s) {
     return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
-  function renderResults(container, hits, state) {
+  function renderResults(container, hits, state, q) {
     if (state === 'loading') {
       container.innerHTML = '<p class="sr-empty" role="status">Đang tải chỉ mục tìm kiếm…</p>';
       return;
@@ -72,7 +72,9 @@
       return;
     }
     if (!hits || !hits.length) {
-      container.innerHTML = '<p class="sr-empty">Không tìm thấy kết quả phù hợp.</p>';
+      // Trạng thái không-kết quả: nhắc lại đúng từ khoá người dùng vừa nhập + gợi ý tiếp
+      container.innerHTML = '<p class="sr-empty">Không tìm thấy kết quả phù hợp' + (q ? ' cho <strong>' + esc(q) + '</strong>' : '') +
+        '. Gợi ý: thử từ khoá ngắn hơn, bớt dấu hoặc xem các danh mục ở menu.</p>';
       return;
     }
     container.innerHTML = hits.map(function (h) {
@@ -122,7 +124,14 @@
       clearTimeout(timer);
       var q = input.value;
       if (!q.trim()) { results.innerHTML = ''; return; }
-      timer = setTimeout(function () { doSearch(q, function (hits, state) { renderResults(results, hits, state); }); }, 160);
+      timer = setTimeout(function () { doSearch(q, function (hits, state) { renderResults(results, hits, state, q); }); }, 160);
+    });
+    // Bàn phím: mũi tên xuống / Enter đưa focus vào kết quả đầu tiên — không cần chuột
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowDown' || (e.key === 'Enter' && !e.shiftKey)) {
+        var first = results.querySelector('.sr-item');
+        if (first) { e.preventDefault(); first.focus(); }
+      }
     });
   }
 
@@ -134,7 +143,7 @@
     if (!form || !input) return;
     var initial = new URLSearchParams(window.location.search).get('q') || '';
     if (initial) input.value = initial;
-    function run() { doSearch(input.value, function (hits, state) { renderResults(results, hits, state); }); }
+    function run() { doSearch(input.value, function (hits, state) { renderResults(results, hits, state, input.value); }); }
     if (initial) run();
     form.addEventListener('submit', function (e) { e.preventDefault(); run(); });
     var timer = null;
@@ -142,6 +151,12 @@
       clearTimeout(timer);
       if (!input.value.trim()) { results.innerHTML = ''; return; }
       timer = setTimeout(run, 160);
+    });
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowDown') {
+        var first = results.querySelector('.sr-item');
+        if (first) { e.preventDefault(); first.focus(); }
+      }
     });
   }
 

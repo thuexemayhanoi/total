@@ -397,6 +397,70 @@ for (const svg of ['illu-thue-xe.svg', 'illu-xe-may.svg', 'illu-xe-dien.svg', 'i
 ok(exists('.github/workflows/og-image.yml'), 'Workflow sinh og-cover.png tồn tại');
 ok(exists('scripts/make-og-image.mjs'), 'Script sinh og-cover.png tồn tại');
 
+// ---------- 15c. UI/UX audit cuối: gộp khối "Bài mới nhất", search primary, contrast, tap-target ----------
+console.log('Kiểm thử UI/UX audit cuối (homepage gộp, contrast, tap-target)…');
+{
+  // a) Homepage: MỘT khối "Bài mới nhất" duy nhất — hết trùng chức năng với "Bài mới"
+  const heroPos = home.indexOf('class="hero"');
+  const searchPos = home.indexOf('class="hero-search"');
+  const latestPos = home.indexOf('id="latest-h"');
+  const featPos = home.indexOf('class="feat-card"');
+  const gridPos = home.indexOf('class="latest-grid"');
+  const rentalPos2 = home.indexOf('id="rental-h"');
+  const catsPos2 = home.indexOf('id="cats-h"');
+  ok(heroPos >= 0 && searchPos > heroPos, 'Homepage: Search là CTA chính trong hero, đầu trang');
+  ok(home.includes('Bài mới nhất'), 'Homepage: khối gộp có tiêu đề "Bài mới nhất"');
+  ok(!/>Bài mới<\/h2>/.test(home), 'Homepage: hết tiêu đề "Bài mới" tách riêng (trùng chức năng đã gộp)');
+  ok(latestPos > heroPos && featPos > latestPos && gridPos > featPos,
+    'Homepage: featured + lưới bài nằm trong CÙNG khối latest (một mục mới nhất duy nhất)');
+  ok(rentalPos2 > latestPos && catsPos2 > rentalPos2,
+    'Homepage: thứ tự Search → Bài mới nhất → Thuê xe → 15 danh mục (đọc trước khám phá)');
+  ok(home.includes('hero-hint') && home.includes('Ctrl'), 'Homepage: gợi ý phím tắt tìm kiếm (Ctrl/⌘+K)');
+
+  // b) Search: điều hướng bàn phím + trạng thái không-kết quả nhắc lại từ khoá
+  ok(searchJs.includes('ArrowDown'), 'Search: mũi tên xuống đưa focus vào kết quả đầu (keyboard)');
+  ok(searchJs.includes("results.querySelector('.sr-item')"), 'Search: focus first-result dùng chung modal + trang');
+  ok(/Không tìm thấy kết quả phù hợp' \+ \(q \?/.test(searchJs), 'Search: no-result nhắc lại từ khoá người dùng nhập');
+  ok(searchJs.includes('Gợi ý:'), 'Search: no-result kèm gợi ý tiếp theo');
+
+  // c) Contrast WCAG AA: token chữ ≥ 4.5:1 — đo trực tiếp từ atlas.css (chống hồi quy token)
+  function hexLum(hex) {
+    const c = hex.replace('#', '');
+    const f = (i) => { let v = parseInt(c.substr(i, 2), 16) / 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+    return 0.2126 * f(0) + 0.7152 * f(2) + 0.0722 * f(4);
+  }
+  function contrast(fg, bg) {
+    const l1 = hexLum(fg), l2 = hexLum(bg);
+    return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+  }
+  function cssVar(name) {
+    const m = atlasCss.match(new RegExp('--' + name + ':\\s*(#[0-9A-Fa-f]{6})'));
+    return m ? m[1] : null;
+  }
+  const bgc = cssVar('bg'), inkSoft = cssVar('ink-soft'), muted = cssVar('muted'), cobalt = cssVar('cobalt');
+  ok(contrast(inkSoft, bgc) >= 4.5, 'Contrast: --ink-soft trên nền ≥ 4.5:1', contrast(inkSoft, bgc).toFixed(2));
+  ok(contrast(muted, bgc) >= 4.5, 'Contrast: --muted trên nền trắng ngà ≥ 4.5:1', contrast(muted, bgc).toFixed(2));
+  ok(contrast(muted, '#FFFFFF') >= 4.5, 'Contrast: --muted trên trắng card ≥ 4.5:1', contrast(muted, '#FFFFFF').toFixed(2));
+  ok(contrast(cobalt, bgc) >= 4.5, 'Contrast: --cobalt (link/CTA) ≥ 4.5:1', contrast(cobalt, bgc).toFixed(2));
+  const accTokens = [...atlasCss.matchAll(/\[data-acc="([a-z]+)"\][^{]*\{\s*--acc:\s*(#[0-9A-Fa-f]{6})/g)];
+  ok(accTokens.length >= 13, 'Contrast: đủ 13 token nhấn danh mục để đo', String(accTokens.length));
+  for (const [, name, hex] of accTokens) {
+    ok(contrast(hex, '#FFFFFF') >= 4.5, `Contrast: nhấn "${name}" dùng làm chữ trên card ≥ 4.5:1`, contrast(hex, '#FFFFFF').toFixed(2));
+  }
+  ok(contrast('#C9D2E3', '#101B31') >= 4.5, 'Contrast: link footer trên navy ≥ 4.5:1', contrast('#C9D2E3', '#101B31').toFixed(2));
+  ok(contrast('#8B99B8', '#101B31') >= 4.5, 'Contrast: chữ phụ footer trên navy ≥ 4.5:1', contrast('#8B99B8', '#101B31').toFixed(2));
+
+  // d) Tap-target + CSS hardening cho homepage/footer sau gộp
+  ok(atlasCss.includes('.latest .featured'), 'CSS: featured gộp vào khối latest không còn viền/padding đôi');
+  ok(atlasCss.includes('.hero-search:focus-within'), 'CSS: hero search có vòng focus-within rõ ràng');
+  ok(/\.toc a\s*{[^}]*min-height:\s*44px/.test(atlasCss), 'Tap-target: link mục lục ≥ 44px');
+  ok(/@media \(max-width: 767px\)[\s\S]*\.footer-cats a, \.footer-meta a \{[^}]*min-height:\s*44px/.test(atlasCss),
+    'Tap-target: link footer ≥ 44px trên mobile');
+  const mq479 = (atlasCss.match(/@media \(max-width: 479px\) \{[\s\S]*?\n\}/) || [''])[0];
+  ok(!/\.footer-inner\s*\{[^}]*grid-template-columns:\s*1fr;/.test(mq479),
+    'Footer: điện thoại nhỏ giữ 2 cột gọn thay vì dốc 1 cột');
+}
+
 // ---------- 16. Factory state không đổi ----------
 // Cho phép cửa sổ claim: writer đẩy bài vào factory/data/articles/ trước khi
 // pipeline publish kịp chuyển slot (PLANNED -> ... -> PUBLISHED trong Actions).
