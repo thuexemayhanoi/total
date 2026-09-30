@@ -572,11 +572,12 @@
    "title": "Kỹ thuật lái xe tiết kiệm xăng",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:01:58.466Z",
-   "updatedAt": "2026-09-30T04:01:58.468Z"
+   "updatedAt": "2026-09-30T04:08:02.697Z",
+   "words": 3116
   },
   {
    "id": "S00042",
@@ -585,11 +586,12 @@
    "title": "Chăm sóc xe máy trong mùa mưa",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:01:58.542Z",
-   "updatedAt": "2026-09-30T04:01:58.543Z"
+   "updatedAt": "2026-09-30T04:08:02.697Z",
+   "words": 2772
   },
   {
    "id": "S00043",
@@ -598,11 +600,12 @@
    "title": "Hướng dẫn sử dụng các chức năng trên xe ga",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:01:58.616Z",
-   "updatedAt": "2026-09-30T04:01:58.618Z"
+   "updatedAt": "2026-09-30T04:08:02.697Z",
+   "words": 2719
   },
   {
    "id": "S00044",
@@ -611,11 +614,12 @@
    "title": "Đi xe máy ở Hà Nội: lưu ý cho người mới",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:01:58.690Z",
-   "updatedAt": "2026-09-30T04:01:58.692Z"
+   "updatedAt": "2026-09-30T04:08:02.697Z",
+   "words": 3137
   }
  ]
 }

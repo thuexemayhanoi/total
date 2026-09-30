@@ -636,6 +636,22 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-tiet-kiem-xang/ky-thuat-lai-xe-tiet-kiem-xang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/cham-soc-xe/cham-soc-xe-may-mua-mua/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/huong-dan-su-dung/huong-dan-su-dung-cac-chuc-nang-tren-xe-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/ha-noi/di-xe-may-o-ha-noi-luu-y/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
