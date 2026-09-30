@@ -17,7 +17,7 @@ AI WIKI TOTAL là cổng kiến thức tĩnh tiếng Việt, sinh từ dữ li�
 - Chỉ mục tìm kiếm/chatbot lưu URL **không** có tiền tố `total/`.
 
 ## Ma trận chủ đề
-`factory/state/matrix.json`: sức chứa **đang cấu hình** 10.000 slot (10.000 là capacity hiện tại, không phải giới hạn trọn đời của AI WIKI TOTAL — mở rộng qua `node factory/factory.js expand-capacity <N>`), mục tiêu kế hoạch 6.000, dự phòng 4.000 chia pool (gsc-query-discovery, model-xe-moi, dia-phuong-moi, luat-moi, thi-truong, technical-gaps, rental-intent-gaps). Capacity là logical: engine chỉ instantiate slot khi `plan` — mở rộng capacity KHÔNG sinh sẵn slot object và không thay đổi trang/site đã phát hành.
+`factory/state/matrix.json`: capacity/plannedTarget/reserved luôn đọc từ file này (canonical — con số không được hardcode trong docs/code; EXAMPLE ONLY: mục tiêu kế hoạch plannedTarget, dự phòng reserved.total chia pool (gsc-query-discovery, model-xe-moi, dia-phuong-moi, luat-moi, thi-truong, technical-gaps, rental-intent-gaps). Capacity là logical: engine chỉ instantiate slot khi `plan` — mở rộng capacity KHÔNG sinh sẵn slot object và không thay đổi trang/site đã phát hành.
 
 ## Sitemap
 Sitemap index `sitemap.xml` trỏ 4 sitemap phân đoạn: pages, categories, hubs, articles. Sẵn sàng mở rộng theo phân đoạn khi vượt ngưỡng khi vượt ngưỡng hợp lý.

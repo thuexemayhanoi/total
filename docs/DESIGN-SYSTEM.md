@@ -4,8 +4,9 @@
 Editorial + Knowledge Atlas + Technical Magazine + Knowledge Graph. Không giống SaaS landing, admin dashboard, spam SEO blog hay WordPress template phổ thông.
 
 ## Màu
-- Nền: `#F7F5EF`; chữ: `#172033`.
-- Thương hiệu cobalt: `#3157D5`; nhấn amber: `#F59E0B`; phụ: `#64748B`; footer navy đậm; card trắng.
+- Nền: `#FBFAF6`; chữ: `#16243D`.
+- Thương hiệu cobalt: `#3157D5` (đậm `#26449F`); nhấn amber: `#B45309`; phụ: `#64748B`; footer navy đậm; card trắng.
+- Token màu canonical là `assets/css/atlas.css` (biến `--bg`, `--ink`, `--cobalt`, `--amber`, …); tài liệu này không thay thế atlas.css.
 - Dùng màu tiết chế, không lạm gradient, không glassmorphism nặng.
 
 ## Màu nhấn danh mục (data-acc)

@@ -2,16 +2,31 @@
 // AI WIKI TOTAL — CONTENT FACTORY
 // Một writer duy nhất (writer lock), checkpoint, bảo vệ transaction, resume.
 'use strict';
+// AI WIKI TOTAL — CONTENT FACTORY
+// Một writer duy nhất (writer lock ownership-safe), checkpoint, bảo vệ
+// transaction, resume, continuous backlog drain.
+//
+// HARDENING 4-TẦNG:
+//   - Writer lock: acquire bằng primitive exclusive thật (open 'wx'), token
+//     ownership unique từng acquisition; unlock chỉ xóa lock CỦA MÌNH
+//     (--owner + --token); sai owner/token -> REFUSE exit 1; --force là lệnh
+//     recovery RIÊNG, workflow không bao giờ gọi. Chi tiết: factory/lib/lock.js
+//     + docs/RECOVERY.md + docs/FACTORY-RELIABILITY.md.
+//   - Continuous backlog drain: một production run DRAIN TOÀN BỘ backlog
+//     article-backed claimable theo chunk <= 10 ID (không dựa self-trigger của
+//     bot commit), có NO-PROGRESS sentinel fail-loud. Logic thuần nằm ở
+//     factory/lib/factory-runtime.js (YAML chỉ orchestration).
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const lock = require('./lib/lock');
+const runtime = require('./lib/factory-runtime');
 
 const STATE_DIR = path.join(__dirname, 'state');
 const STATE_FILE = path.join(STATE_DIR, 'factory-state.json');
 const MATRIX_FILE = path.join(STATE_DIR, 'matrix.json');
 const LOCK_FILE = path.join(STATE_DIR, 'writer.lock');
 const CHECKPOINT_FILE = path.join(STATE_DIR, 'checkpoint.json');
-const LOCK_TTL_MS = 30 * 60 * 1000; // 30 phút
 
 const TRANSITIONS = {
   PLANNED: ['RESEARCH'],
@@ -36,31 +51,14 @@ function readJson(file, fallback) {
   catch (e) { if (fallback !== undefined) return fallback; throw e; }
 }
 
-// ---------- Writer lock ----------
-function lockOwner() {
-  if (!fs.existsSync(LOCK_FILE)) return null;
-  const cur = readJson(LOCK_FILE, null);
-  if (!cur) return null;
-  // Quá hạn TTL → coi như lock chết
-  if (Date.now() - new Date(cur.at).getTime() > LOCK_TTL_MS) {
-    fs.unlinkSync(LOCK_FILE);
-    console.log(`Writer lock cũ của "${cur.owner}" đã quá hạn — đã giải phóng.`);
-    return null;
-  }
-  return cur;
-}
-function acquireLock(owner) {
-  const cur = lockOwner();
-  if (cur && cur.owner !== owner) {
-    console.error(`BỊ TỪ CHỐI: writer lock đang giữ bởi "${cur.owner}" (từ ${new Date(cur.at).toISOString()}).`);
-    process.exit(1);
-  }
-  atomicWrite(LOCK_FILE, JSON.stringify({ owner, at: new Date().toISOString() }, null, 1));
-  console.log(`Writer lock: cấp cho "${owner}".`);
-}
-function releaseLock() {
-  if (fs.existsSync(LOCK_FILE)) fs.unlinkSync(LOCK_FILE);
-  console.log('Writer lock: đã giải phóng.');
+// ---------- Writer lock (ownership-safe — chi tiết trong lib/lock.js) ----------
+// Đường đọc KHÔNG mutate: lock stale KHÔNG bị xóa ở đây, chỉ được reclaim
+// theo contract bên trong lock.acquire().
+function lockStatus() { return lock.status(STATE_DIR); }
+// Lock "sống" (chưa quá TTL) — null khi trống hoặc stale.
+function activeLock() {
+  const st = lockStatus();
+  return st.lock && !st.expired ? st.lock : null;
 }
 
 // ---------- State + checkpoint ----------
@@ -266,7 +264,8 @@ function runQa(m, sid) {
 
 // ---------- Publish theo ID (selective + atomic) ----------
 // Chỉ nhận ID tường minh — KHÔNG sweep mọi slot PASS, KHÔNG cờ --.
-const PUBLISH_CHUNK_LIMIT = 10;
+// Giới hạn chunk lấy từ factory-runtime (canonical, single source).
+const PUBLISH_CHUNK_LIMIT = runtime.PUBLISH_CHUNK_LIMIT;
 
 // Thuần (không IO): trả { ids } nếu yêu cầu hợp lệ, ném Error tiếng Việt nếu không.
 // Quy tắc: cú pháp duy nhất `publish <ID> [<ID>...]`; slot đã PUBLISHED được bỏ qua
@@ -308,25 +307,154 @@ function publishAll() {
   execFileSync(process.execPath, [path.join(__dirname, 'test.js')], { stdio: 'inherit' });
 }
 
+// ---------- Continuous backlog drain (DEFECT B hardening) ----------
+// MỘT vòng drain của production run (workflow gọi lặp tới done=true):
+//   READ STATE -> acquire lock (ownership-safe) -> tìm backlog claimable
+//   -> chọn chunk <= 10 ID (resume trước, claim sau) -> QA từng slot
+//   -> publish explicit IDs (atomic) -> thả lock CỦA MÌNH -> NO-PROGRESS
+//   sentinel. KHÔNG dựa vào self-trigger của bot commit; KHÔNG sweep PASS.
+// Trả exit code (0 = vòng sạch; done=true nghĩa là backlog đã drain hết).
+function drainIteration(owner, tokenFile) {
+  let slugs;
+  try {
+    slugs = new Set(loadAllArticlesBySlug().keys()); // fail loud khi module bài lỗi
+  } catch (e) {
+    console.error('TỪ CHỐI drain: ' + (e && e.message ? e.message : e));
+    return 1;
+  }
+  let m = loadMatrix();
+  validateMatrix(m);
+  let before = runtime.snapshotState(m, slugs);
+  if (before.claimableBacklog === 0) {
+    console.log('Không còn backlog claimable (article-backed) — không cần lock.');
+    console.log(`DRAIN_RESULT done=true published=${before.published} backlog=0 waiting=${before.waitingForWriter}`);
+    return 0;
+  }
+  // ACQUIRE LOCK — primitive exclusive + token ownership; stale reclaim race-safe.
+  let record;
+  try {
+    record = lock.acquire(STATE_DIR, owner);
+  } catch (e) {
+    console.error((e && e.message) || String(e));
+    console.error('TỪ CHỐI drain: không xin được writer lock — KHÔNG đụng state.');
+    return 1;
+  }
+  if (tokenFile) atomicWrite(tokenFile, record.token);
+  let code = 0;
+  try {
+    // Re-read state SAU khi có lock (chờ lock có thể làm state đổi).
+    m = loadMatrix();
+    validateMatrix(m);
+    before = runtime.snapshotState(m, slugs);
+    if (before.claimableBacklog === 0) {
+      console.log('Backlog đã bị drain bởi writer khác trong lúc chờ lock.');
+      console.log(`DRAIN_RESULT done=true published=${before.published} backlog=0 waiting=${before.waitingForWriter}`);
+      return 0;
+    }
+    const { chunk, limit } = runtime.selectChunk(m, slugs);
+    console.log(`Chunk: ${chunk.length}/${limit} slot (resume trước, claim sau): ${chunk.map(s => s.id + ':' + s.state).join(', ')}`);
+    // PROCESS từng slot: transitions chuẩn + QA (state save từng bước — repo là checkpoint).
+    for (const ref of chunk) {
+      let s = m.slots.find(x => x.id === ref.id);
+      if (s.state === 'PLANNED') {
+        transition(m, s.id, 'RESEARCH');
+        saveMatrix(m); saveState(loadState(), 'drain:research:' + s.id);
+      }
+      s = m.slots.find(x => x.id === ref.id);
+      if (s.state === 'RESEARCH') {
+        transition(m, s.id, 'WRITING');
+        saveMatrix(m); saveState(loadState(), 'drain:write:' + s.id);
+      }
+      s = m.slots.find(x => x.id === ref.id);
+      if (s.state !== 'PASS') {
+        runQa(m, s.id);
+        saveMatrix(m); saveState(loadState(), 'drain:qa:' + s.id);
+      }
+    }
+    // PUBLISH explicit IDs — chỉ ID PASS của CHÍNH chunk này (atomic).
+    const passIds = chunk
+      .map(ref => m.slots.find(x => x.id === ref.id))
+      .filter(s => s && s.state === 'PASS')
+      .map(s => s.id);
+    if (passIds.length) {
+      const { ids } = parsePublishRequest(m, passIds.join(' '));
+      for (const id of ids) {
+        const s = m.slots.find(x => x.id === id);
+        s.state = 'PUBLISHED';
+        s.updatedAt = new Date().toISOString();
+      }
+      try {
+        publishAll();
+      } catch (e) {
+        console.error('PUBLISH TỪ CHỐI: sinh lại site/test thất bại — KHÔNG ghi matrix/state của phần publish, slot giữ nguyên để resume.');
+        console.error('  Chi tiết: ' + (e && e.message ? e.message : e));
+        code = 1;
+        return code;
+      }
+      saveMatrix(m);
+      saveState(loadState(), 'publish:' + ids.join(','));
+      console.log('Đã publish ' + ids.length + ' slot theo ID: ' + ids.join(', '));
+    } else {
+      console.log('Không có slot PASS nào trong chunk này (QA chưa đạt) — không publish.');
+    }
+    // NO-PROGRESS SENTINEL: backlog > 0 mà không tiến -> FAIL LOUD.
+    const after = runtime.snapshotState(m, slugs);
+    runtime.assertProgress(before, after);
+    console.log(`DRAIN_RESULT done=${after.claimableBacklog === 0} published=${after.published} backlog=${after.claimableBacklog} waiting=${after.waitingForWriter}`);
+    return 0;
+  } catch (e) {
+    console.error('DRAIN FAIL: ' + (e && e.message ? e.message : e));
+    code = 1;
+    return code;
+  } finally {
+    // RELEASE OWN LOCK — chỉ xóa được lock của chính run này (token khớp).
+    try {
+      lock.release(STATE_DIR, record);
+    } catch (relErr) {
+      console.error('LỖI giải phóng lock (có thể lock đã bị reclaim): ' + relErr.message);
+      code = 1;
+    }
+    if (tokenFile) { try { fs.unlinkSync(tokenFile); } catch (_) { /* đã xóa */ } }
+  }
+}
+
+
 // ---------- CLI ----------
 function usage() {
   console.log(`AI WIKI TOTAL — CONTENT FACTORY
 Lệnh:
   status                          Xem trạng thái xưởng + ma trận
-  lock <owner>                    Xin writer lock
-  unlock                          Giải phóng writer lock
+  lock <owner>                    Xin writer lock (in WRITER_LOCK_TOKEN=<token>)
+  unlock --owner O --token T      Giải phóng writer lock CỦA MÌNH (sai owner/token bị REFUSE);
+                                  unlock --force = recovery thủ công (workflow không dùng)
   plan <hub> <slug> <title>       Thêm slot PLANNED vào ma trận
   list                            Liệt kê slot
   research <id>                   PLANNED → RESEARCH
   write <id>                      RESEARCH → WRITING
   qa <id>                         Chấm QA bài của slot
+  qa-preview <id>                 QA thử read-only (KHÔNG ghi state)
   publish <ID> [<ID>...]       Publish slot PASS theo ID tường minh (atomic,
                                tối đa 10 ID; cổng sinh lại site + test xanh
                                mới ghi state, fail thì giữ nguyên để resume)
   audit [--min-score 90]          Rà mọi bài PUBLISHED
   resume                          Tiếp tục từ checkpoint
   expand-capacity <N> [--dry-run] Mở rộng capacity ma trận (chỉ tăng, KHÔNG shrink)
-  set-planned-target <N> [--dry-run] Đặt mục tiêu kế hoạch (<= capacity, >= số slot đã có)`);
+  set-planned-target <N> [--dry-run] Đặt mục tiêu kế hoạch (<= capacity, >= số slot đã có)
+  backlog [--fail-if-claimable] [--head-sha S]
+                                  Đếm backlog claimable (article-backed) +
+                                  WAITING_FOR_WRITER; --fail-if-claimable: exit 1
+                                  nếu còn backlog (dùng làm cổng CI)
+  check-state                     Guard: không lock bị commit, ma trận hợp lệ,
+                                  checkpoint khớp (exit 1 nếu state bẩn)
+  plan-chunk [--limit N]          Kế hoạch chunk read-only (resume trước, claim sau)
+  verify-invariant                Bất biến production (PUBLISHED ↔ source ↔ trang
+                                  ↔ sitemap, checkpoint, không lock) — fail loud
+  drain-bound <N>                 Giới hạn vòng drain an toàn từ workload thực tế
+  drain-iteration [--owner O] [--token-file F]
+                                  MỘT vòng drain: lock -> chọn chunk <= 10 -> QA ->
+                                  publish explicit IDs -> thả lock -> NO-PROGRESS
+                                  sentinel; in DRAIN_RESULT done=... (workflow gọi
+                                  lặp tới khi done=true)`);
 }
 
 function opt(flag) {
@@ -340,20 +468,54 @@ function main() {
 
   if (cmd === 'status') {
     const m = loadMatrix();
-    const lo = lockOwner();
+    const st = lockStatus();
+    const lo = st.lock;
     console.log('=== AI WIKI TOTAL FACTORY ===');
-    console.log('Writer lock:', lo ? `đang giữ bởi "${lo.owner}"` : 'trống');
+    console.log('Writer lock:', lo
+      ? `đang giữ bởi "${lo.owner}" (từ ${lo.at}, pid ${lo.pid})${st.expired ? ' — QUÁ HẠN TTL, reclaim được ở lần acquire kế (không tự xóa)' : ''}`
+      : 'trống');
+    const back = runtime.findClaimableBacklog(m, new Set(loadAllArticlesBySlug().keys()));
+    console.log('Backlog claimable (article-backed):', back.claimable.length,
+      '| WAITING_FOR_WRITER:', back.waitingForWriter.length);
     console.log('Sức chứa ma trận:', m.capacity, '| đã dùng:', m.slots.length, '| dự phòng:', m.capacity - m.slots.length);
     const dist = {};
     for (const s of m.slots) dist[s.state] = (dist[s.state] || 0) + 1;
     console.log('Phân bố trạng thái:', JSON.stringify(dist));
-    const st = loadState();
-    console.log('Hành động cuối:', st.lastAction ? `${st.lastAction.action} @ ${st.lastAction.at}` : 'chưa có');
+    const stt = loadState();
+    console.log('Hành động cuối:', stt.lastAction ? `${stt.lastAction.action} @ ${stt.lastAction.at}` : 'chưa có');
     if (m.reserved) console.log('Reserve:', JSON.stringify(m.reserved, null, 1));
     return;
   }
-  if (cmd === 'lock') { acquireLock(rest[0] || 'agent'); return; }
-  if (cmd === 'unlock') { releaseLock(); return; }
+  if (cmd === 'lock') {
+    const record = lock.acquire(STATE_DIR, rest[0] || 'agent');
+    console.log(`Writer lock: cấp cho "${record.owner}" (token ${record.token}).`);
+    console.log('WRITER_LOCK_TOKEN=' + record.token);
+    return;
+  }
+  if (cmd === 'unlock') {
+    const force = process.argv.includes('--force');
+    const owner = opt('--owner');
+    const token = opt('--token');
+    const st = lockStatus();
+    if (!st.lock) { console.log('Writer lock: trống — không có gì để giải phóng (idempotent).'); return; }
+    if (force) {
+      const r = lock.forceRelease(STATE_DIR);
+      console.log(`Force release (recovery thủ công): đã xóa lock của "${r.holder ? r.holder.owner : '?'}" — CHỈ dùng sau khi xác minh writer không còn sống.`);
+      return;
+    }
+    if (!owner || !token) {
+      console.error(`TỪ CHỐI unlock: lock đang giữ bởi "${st.lock.owner}" — cần --owner + --token của CHÍNH acquisition này (hoặc --force cho recovery thủ công). Không xóa lock của writer khác.`);
+      process.exit(1);
+    }
+    try {
+      lock.release(STATE_DIR, { owner, token });
+      console.log(`Writer lock: đã giải phóng (owner "${owner}", token khớp).`);
+    } catch (e) {
+      console.error(e.message);
+      process.exit(1);
+    }
+    return;
+  }
   if (cmd === 'list') {
     const m = loadMatrix();
     for (const s of m.slots) console.log(`${s.id}  ${s.state.padEnd(9)} qa=${s.qaScore == null ? '-' : s.qaScore}  ${s.hub}  ${s.slug}`);
@@ -425,6 +587,105 @@ function main() {
     console.log(`Audit đạt: mọi bài >= ${min} điểm.`);
     return;
   }
+  if (cmd === 'qa-preview') {
+    const m = loadMatrix();
+    const slot = m.slots.find(s => s.id === rest[0]);
+    if (!slot) { console.error('Không tìm thấy slot ' + rest[0]); process.exit(1); }
+    const article = loadArticleBySlug(slot.slug);
+    if (!article) {
+      console.log(`QA thử ${slot.id} (${slot.slug}): CHƯA CÓ module bài — WAITING_FOR_WRITER (dry-run, không ghi state).`);
+      return;
+    }
+    const { qaArticle } = require('./qa');
+    const r = qaArticle(article);
+    console.log(`QA thử ${slot.id} (${slot.slug}): ${r.score}/100 — ${r.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} (${r.words} từ) — KHÔNG ghi state.`);
+    for (const c of r.checks.filter(x => !x.pass)) console.log(`  - [${c.name}] ${c.note}`);
+    return;
+  }
+  if (cmd === 'backlog') {
+    const failIfClaimable = process.argv.includes('--fail-if-claimable');
+    const headSha = opt('--head-sha') || '(không rõ)';
+    const m = loadMatrix();
+    const slugs = new Set(loadAllArticlesBySlug().keys()); // fail loud khi module lỗi
+    const { claimable, waitingForWriter } = runtime.findClaimableBacklog(m, slugs);
+    console.log('CLAIMABLE_BACKLOG=' + claimable.length);
+    console.log('WAITING_FOR_WRITER=' + waitingForWriter.length);
+    for (const s of claimable) console.log(`PENDING ${s.id} state=${s.state} article=yes`);
+    for (const s of waitingForWriter) console.log(`PENDING ${s.id} state=${s.state} article=no`);
+    if (failIfClaimable && claimable.length > 0) {
+      console.error(`FAIL: còn ${claimable.length} slot claimable (article-backed) sau run publish — "SUCCESS + backlog > 0" là regression của continuous drain.`);
+      console.error(`HEAD_SHA: ${headSha}`);
+      console.error('Chẩn đoán từng ID: xem các dòng PENDING ở trên (state + có/không article source).');
+      console.error('WAITING_FOR_WRITER không fail CI — writer chưa viết bài không phải lỗi.');
+      process.exit(1);
+    }
+    return;
+  }
+  if (cmd === 'check-state') {
+    if (fs.existsSync(LOCK_FILE)) { console.error('writer lock bị commit lại vào repo — state bẩn, rà soát trước khi chạy production.'); process.exit(1); }
+    const m = loadMatrix();
+    validateMatrix(m);
+    const cp = readJson(CHECKPOINT_FILE, null);
+    if (!cp || cp.slotCount !== m.slots.length) {
+      console.error(`checkpoint (${cp ? cp.slotCount : 'không có'}) lệch ma trận (${m.slots.length}) — chạy recovery trước.`);
+      process.exit(1);
+    }
+    console.log(`STATE_OK: ma trận hợp lệ (${m.slots.length} slot, capacity ${m.capacity} đọc từ matrix.json), checkpoint khớp, không writer lock.`);
+    return;
+  }
+  if (cmd === 'plan-chunk') {
+    const m = loadMatrix();
+    const slugs = new Set(loadAllArticlesBySlug().keys()); // fail loud khi module lỗi
+    const limit = parsePositiveInt(opt('--limit'));
+    const { chunk, limit: usedLimit, resume, claimed } = runtime.selectChunk(m, slugs, limit || undefined);
+    console.log('PLAN ids=' + chunk.map(s => s.id + ':' + s.state).join(' '));
+    console.log('PLAN count=' + chunk.length);
+    console.log('PLAN limit=' + usedLimit);
+    console.log('PLAN resume=' + resume);
+    console.log('PLAN claimed=' + claimed);
+    return;
+  }
+  if (cmd === 'verify-invariant') {
+    const root = path.join(__dirname, '..');
+    const m = loadMatrix();
+    const { SITE } = require('./site.config');
+    let sm = '';
+    try { sm = fs.readFileSync(path.join(root, 'sitemap-articles.xml'), 'utf8'); }
+    catch (e) { console.error('Không đọc được sitemap-articles.xml — ' + e.message); process.exit(1); }
+    const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(x => x[1]);
+    const url = s => SITE.baseUrl + s.hub + '/' + s.slug + '/';
+    const result = runtime.checkProductionInvariant(m, {
+      hasLock: fs.existsSync(LOCK_FILE),
+      checkpointSlotCount: (readJson(CHECKPOINT_FILE, {}) || {}).slotCount,
+      validateMatrix,
+      articleExists: slug => !!loadArticleBySlug(slug),
+      pageExists: s => fs.existsSync(path.join(root, s.hub, s.slug, 'index.html')),
+      sitemapHas: u => locs.includes(u),
+      url,
+      sitemapUrls: locs,
+    });
+    if (!result.ok) {
+      for (const e of result.errors) console.error('INVARIANT_FAIL: ' + e);
+      process.exit(1);
+    }
+    const published = m.slots.filter(s => s.state === 'PUBLISHED').length;
+    console.log(`INVARIANT_OK: ${m.slots.length} slot, ${published} PUBLISHED, checkpoint khớp, sitemap-articles khớp, không writer lock.`);
+    return;
+  }
+  if (cmd === 'drain-bound') {
+    // Chấp nhận 0 (push bài mới nhưng chưa có slot claimable) -> 1 vòng xác nhận sạch.
+    const n = /^\d+$/.test(String(rest[0] === undefined ? '' : rest[0]).trim()) ? Number(rest[0]) : null;
+    if (n === null) { console.error('Cần: drain-bound <số slot claimable ban đầu>'); process.exit(1); }
+    console.log('MAX_ITERATIONS=' + runtime.maxIterations(n, runtime.PUBLISH_CHUNK_LIMIT));
+    return;
+  }
+  if (cmd === 'drain-iteration') {
+    const owner = opt('--owner') || 'ci-publisher';
+    const tokenFile = opt('--token-file') || null;
+    const code = drainIteration(owner, tokenFile);
+    if (code !== 0) process.exit(code);
+    return;
+  }
   if (cmd === 'expand-capacity' || cmd === 'set-planned-target') {
     const isExpand = cmd === 'expand-capacity';
     const dry = rest.includes('--dry-run') || process.argv.includes('--dry-run');
@@ -439,7 +700,7 @@ function main() {
       console.error(prefix + `checkpoint (${cp ? cp.slotCount : 'không có'}) lệch ma trận (${m.slots.length}) — chạy recovery/rà soát trước khi migrate`);
       process.exit(1);
     }
-    const lo = lockOwner();
+    const lo = activeLock();
     if (lo) {
       console.error(prefix + `writer lock đang giữ bởi "${lo.owner}" — không migrate khi transaction/mutation đang chạy`);
       process.exit(1);
@@ -499,7 +760,9 @@ function main() {
       beforeSha = crypto.createHash('sha1').update(before).digest('hex');
     } catch (e) { beforeSha = 'unavailable'; }
     const oldVal = isExpand ? m.capacity : m.plannedTarget;
-    acquireLock(isExpand ? 'expand-capacity' : 'set-planned-target');
+    // Acquire bằng primitive exclusive (token ownership-safe) — lock stale
+    // (quá TTL) được reclaim race-safe bên trong lock.acquire.
+    const lockRecord = lock.acquire(STATE_DIR, isExpand ? 'expand-capacity' : 'set-planned-target');
     let migrated = false;
     try {
       if (isExpand) applyExpansion(m, n);
@@ -518,7 +781,8 @@ function main() {
       } else {
         console.error('TỪ CHỐI migration: ' + (e && e.message ? e.message : e));
       }
-      releaseLock();
+      try { lock.release(STATE_DIR, lockRecord); }
+      catch (relErr) { console.error('CẢNH BÁO: ' + relErr.message); }
       process.exit(1);
     }
     const st = loadState();
@@ -529,7 +793,8 @@ function main() {
     };
     atomicWrite(STATE_FILE, JSON.stringify(st, null, 1));
     checkpoint({ at: new Date().toISOString(), action: `${cmd}:${oldVal}->${n}`, slotCount: m.slots.length });
-    releaseLock();
+    try { lock.release(STATE_DIR, lockRecord); }
+    catch (relErr) { console.error('LỖI giải phóng lock: ' + relErr.message); process.exit(1); }
     console.log(`Đã migrate ${isExpand ? 'capacity' : 'plannedTarget'}: ${oldVal} -> ${n}.`);
     if (isExpand) {
       console.log(`Slots/ID/PUBLISHED giữ nguyên; plannedTarget (${m.plannedTarget}) + reserved (${m.reserved ? m.reserved.total : 0}) giữ nguyên — phần tăng thêm là unallocated/future-reserve.`);
@@ -557,4 +822,7 @@ module.exports = {
   validateMatrix, parseSlotId, formatSlotId, maxSlotNumber, nextSlotId,
   parsePositiveInt, expansionError, applyExpansion, plannedTargetError,
   loadArticleBySlug, PUBLISH_CHUNK_LIMIT, parsePublishRequest,
+  // hardening 4-tầng: lock ownership-safe + runtime thuần cho CI/test
+  lock: { status: lockStatus, active: activeLock },
+  runtime,
 };

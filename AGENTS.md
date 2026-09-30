@@ -22,16 +22,25 @@ Mọi agent phải đọc file này trước khi sửa repo.
 
 ## Vòng đời nội dung
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).
-Dùng `node factory/factory.js` (status/plan/list/research/write/qa/publish/audit/resume/expand-capacity/set-planned-target) — không sửa JSON state tay khi factory đang chạy.
-Pipeline publish tự động (factory-publish.yml) chạy chunk: resume slot dở trước khi claim mới, QA ≥ 90 mới PUBLISHED, một commit mỗi chunk. Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state khi pipeline đang chạy.
+Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/publish/audit/resume/expand-capacity/set-planned-target/backlog/check-state/plan-chunk/verify-invariant/drain-bound/drain-iteration) — không sửa JSON state tay khi factory đang chạy.
+Pipeline publish tự động (factory-publish.yml) chạy **continuous backlog drain**: mỗi vòng một chunk ≤ 10 ID (resume slot dở trước khi claim mới), QA ≥ 90 mới PUBLISHED, publish theo **explicit IDs** (`publish <ID> [<ID>...]` — KHÔNG có publish-all, KHÔNG sweep mọi slot PASS), một commit mỗi chunk, lặp tới khi backlog article-backed claimable = 0 — KHÔNG dựa vào bot commit tự trigger workflow kế tiếp. NO-PROGRESS sentinel: một vòng không tiến triển hợp lệ (published tăng / backlog giảm / slot BLOCKED vì QA thật) mà backlog > 0 → workflow FAIL LOUD.
+Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state khi pipeline đang chạy. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose).
+
+## Writer lock — ownership-safe
+- Acquire dùng primitive exclusive thật (link/open 'wx') + token unique mỗi acquisition; xem `factory/lib/lock.js`.
+- Unlock chỉ xóa lock CỦA MÌNH: `node factory/factory.js unlock --owner <O> --token <T>`. Sai owner/token → REFUSE exit 1. `unlock --force` là lệnh recovery thủ công RIÊNG — workflow không bao giờ gọi.
+- TTL 30 phút KHÔNG phải background daemon: lock stale chỉ được reclaim theo contract trong `lock.acquire` (race-safe, re-read trước mutation).
 
 ## Capacity là cấu hình, không phải hard limit
-`capacity = 10000` trong `factory/state/matrix.json` là capacity đang cấu hình, KHÔNG phải giới hạn vĩnh viễn của AI WIKI TOTAL. Quy tắc:
-- **Không hardcode 10.000** (hay bất kỳ con số capacity nào) trong code/test — mọi validation đọc từ matrix.json (canonical) hoặc qua helper của factory.js; `factory/test.js` có test chống regression literal này.
+`capacity` luôn đọc từ `factory/state/matrix.json` (canonical source-of-truth) — KHÔNG hardcode con số capacity trong docs/code/test. Mọi giá trị "hiện tại" trong tài liệu chỉ là ví dụ **EXAMPLE ONLY** và có thể stale sau migration. Quy tắc:
+- **Không hardcode** (hay bất kỳ con số capacity nào) trong code/test — mọi validation đọc từ matrix.json (canonical) hoặc qua helper của factory.js; `factory/test.js` có test chống regression literal này.
 - Mở rộng qua đúng một lệnh canonical: `node factory/factory.js expand-capacity <N>` (chỉ tăng; shrink/cùng mức bị refuse; `--dry-run` xem trước). KHÔNG sửa tay `capacity` trong matrix.json.
 - Expand không đụng ID/slot/PUBLISHED/plannedTarget/reserved; phần capacity mới là unallocated cho tới khi chủ repo ra lệnh (set-planned-target / điều chỉnh pool).
-- ID slot (S00001…) không renumber, không recycle; generator hoạt động vượt 10.000 và 100.000 (S10000, S100000 hợp lệ).
+- ID slot (S00001…) không renumber, không recycle; generator hoạt động vượt mọi mốc (S10000, S100000 hợp lệ).
 - Chỉ chủ repo quyết định mở rộng — agent không tự expand capacity hay tự phân phối capacity mới vào các pool dự phòng.
+
+## Chuẩn bắt buộc khi sửa factory/workflow — 4 tầng kiểm thử
+Mọi thay đổi factory/workflow/docs phải giữ và mở rộng bộ test theo chuẩn: **Unit → Integration → Production invariant → Long-run / Failure recovery** (chi tiết: `docs/FACTORY-RELIABILITY.md`, acceptance contract "green means progress"). KHÔNG xóa test cũ để lấy màu xanh.
 
 ## Trước khi commit
 ```
@@ -39,5 +48,7 @@ node factory/generate.js
 node factory/generate.js --check
 node factory/test.js
 node factory/factory.js audit --min-score 90
+node factory/test-hardening.js
+node factory/test-reliability.js
 ```
-Cả bốn lệnh phải xanh.
+Cả sáu lệnh phải xanh (reliability/hardening là cổng pre-commit bắt buộc cho thay đổi factory/workflow).
