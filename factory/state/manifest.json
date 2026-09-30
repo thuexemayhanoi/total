@@ -668,6 +668,22 @@
   "kind": "article"
  },
  {
+  "rel": "moto/yamaha/cac-dong-xe-yamaha-o-viet-nam/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/tp-hcm/di-xe-may-o-tp-hcm-luu-y/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/truyen-dong/bi-em-xe-ga-cau-tao-va-thoi-diem-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-thue-xe/meo-thue-xe-may-tranh-tranh-chap/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },

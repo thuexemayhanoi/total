@@ -684,11 +684,12 @@
    "title": "Các dòng xe Yamaha phổ biến tại Việt Nam: đặc điểm từng dòng và cách chọn phù hợp nhu cầu",
    "primaryIntent": "informational/cac-dong-xe-yamaha-o-viet-nam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T06:52:37.132Z",
-   "updatedAt": "2026-09-30T06:52:37.134Z"
+   "updatedAt": "2026-09-30T07:09:49.661Z",
+   "words": 3549
   },
   {
    "id": "S00050",
@@ -697,11 +698,12 @@
    "title": "Đi xe máy ở TP. Hồ Chí Minh: những lưu ý đặc thù về giao thông, thời tiết và giữ xe",
    "primaryIntent": "informational/di-xe-may-o-tp-hcm-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T06:52:37.207Z",
-   "updatedAt": "2026-09-30T06:52:37.209Z"
+   "updatedAt": "2026-09-30T07:09:49.661Z",
+   "words": 3681
   },
   {
    "id": "S00051",
@@ -710,11 +712,12 @@
    "title": "Bi êm xe ga: cấu tạo, vai trò trong bộ truyền động và thời điểm cần thay",
    "primaryIntent": "informational/bi-em-xe-ga-cau-tao-va-thoi-diem-thay",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T06:52:37.289Z",
-   "updatedAt": "2026-09-30T06:52:37.291Z"
+   "updatedAt": "2026-09-30T07:09:49.661Z",
+   "words": 3166
   },
   {
    "id": "S00052",
@@ -723,11 +726,12 @@
    "title": "Mẹo thuê xe máy: kiểm tra xe kỹ khi nhận và cách tránh tranh chấp khi trả xe",
    "primaryIntent": "informational/meo-thue-xe-may-tranh-tranh-chap",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T06:52:37.370Z",
-   "updatedAt": "2026-09-30T06:52:37.372Z"
+   "updatedAt": "2026-09-30T07:09:49.661Z",
+   "words": 3713
   }
  ]
 }
