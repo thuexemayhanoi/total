@@ -3260,5 +3260,57 @@
    "mức áp suất bánh trước bánh sau"
   ],
   "summary": "Áp suất lốp là thông số bị xem nhẹ nhất trên xe máy, dù nó quyết định gần như mọi chỉ số an toàn cơ bản: độ bám đường, quãng đường phanh, khả năng giữ xe trong cua và cả mức hao xăng. Lốp non hơi vài phần cũng đủ làm vết mòn lệch, vành xe dễ cong và móp, còn l"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/bugi-xe-may-chu-ky-thay-va-dau-hieu-hong/",
+  "title": "Bugi xe máy: chu kỳ thay và dấu hiệu bugi yếu",
+  "description": "Bugi xe máy yếu gây khó nổ, giật máy và hao xăng. Bài viết giải thích chu kỳ thay tham khảo theo km, cách đọc màu điện cực và lưu ý khi tự thay bugi.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "bugi xe máy",
+   "điện cực",
+   "chu kỳ thay bugi",
+   "bồ hóng",
+   "khe hở bugi",
+   "bảo dưỡng động cơ",
+   "iridium"
+  ],
+  "keywords": [
+   "bugi xe máy",
+   "chu kỳ thay bugi",
+   "dấu hiệu bugi yếu",
+   "thay bugi xe máy",
+   "bugi iridium",
+   "đọc màu bugi"
+  ],
+  "summary": "Bugi xe máy là chi tiết nhỏ nhưng ảnh hưởng trực tiếp đến khả năng nổ máy, độ êm của động cơ và mức tiêu hao nhiên liệu, vì đây là bộ phận sinh ra tia lửa đốt hỗn hợp khí xăng trong buồng đốt. Khi bugi già cỗi, người lái sẽ nhận ra những biểu hiện điển hình: đ"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-bao-duong/bao-quan-xe-may-lau-ngay-khong-dung/",
+  "title": "Bảo quản xe máy lâu ngày không đi: hướng dẫn đúng cách",
+  "description": "Bảo quản xe máy lâu ngày không đi cần chuẩn bị trước khi cất: dầu nhớt, ắc quy, lốp, xăng và che chắn. Bài viết tóm tắt từng bước giữ xe khỏe suốt thời gian đỗ.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "bảo quản xe máy",
+   "ắc quy",
+   "dầu nhớt",
+   "lốp xe",
+   "xăng cũ",
+   "phanh tay",
+   "bạt che xe"
+  ],
+  "keywords": [
+   "bảo quản xe máy lâu ngày",
+   "xe máy để lâu không đi",
+   "cách cất xe máy lâu ngày",
+   "xe để lâu hỏng gì",
+   "bảo quản ắc quy xe máy",
+   "xăng cũ trong bình xe"
+  ],
+  "summary": "Một chiếc xe máy để lâu ngày không đi không giữ nguyên tình trạng như lúc cất, mà xuống cấp theo cách riêng: ắc quy tụt điện và sulfate, dầu nhớt lắng cặn và mất đặc tính bao bôi trơn, cao su và lốp già đi vì chịu tĩnh tải một chỗ, xăng trong bình biến chất, c"
  }
 ]
