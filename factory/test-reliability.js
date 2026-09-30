@@ -667,6 +667,11 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
   const ab = wf('article-batch.yml');
   ok(ab.includes('plan-chunk'), 'article-batch.yml: kế hoạch chunk qua factory.js plan-chunk (không duplicate logic heredoc)');
   ok(ab.includes('qa-preview'), 'article-batch.yml: QA dry-run qua factory.js qa-preview (read-only)');
+  const sq = wf('site-quality.yml');
+  ok(sq.includes('factory.js backlog'), 'site-quality.yml: đo backlog claimable qua factory.js backlog (không duplicate logic heredoc)');
+  ok(/claimable != '0'/.test(sq) && /claimable == '0'/.test(sq), 'site-quality.yml: gate cây sinh chỉ chạy khi CLAIMABLE_BACKLOG = 0 (backlog-aware, không đỏ giả trên writer commit)');
+  ok(sq.includes('deferred to Factory Publish'), 'site-quality.yml: log hoãn gate rõ ràng khi backlog > 0');
+  ok(/generate.js --check/.test(sq) && /factory\/test\.js/.test(sq), 'site-quality.yml: vẫn giữ đủ gate cây sinh (generate --check + test.js) cho nhánh backlog = 0 — không làm yếu cổng');
 }
 
 // ---------- Kết luận: state repo THẬT nguyên vẹn (byte-identical) ----------

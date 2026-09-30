@@ -5,6 +5,16 @@ name: Site Quality
 # THAY ĐỔI HARDENING:
 #   - Paths thêm `factory/**`: đổi generator/template là đổi cả site sinh.
 #   - Concurrency theo ref: run của PR không cancel run của main.
+# THAY ĐỔI BACKLOG-AWARE (fix race Site Quality vs Factory Publisher):
+#   - Writer push article source (PLANNED/PASS chưa drain) → cây HTML committed
+#     trên main vẫn là cây CŨ (publisher mới sinh cây mới). Gate so cây sinh
+#     (`generate --check`, test nền tảng) chạy trên cây cũ sẽ đỏ GIẢ.
+#   - Sau checkout: đo `factory.js backlog` lấy CLAIMABLE_BACKLOG.
+#     CLAIMABLE_BACKLOG > 0  → đây là writer/source commit chờ publisher: HOÃN
+#     mọi gate phụ thuộc cây sinh (in log rõ ràng). Nhiệm vụ sinh cây + gate
+#     đầy đủ thuộc về Factory Publish và Factory Publish Verify (verify
+#     read-only sau publish) — không làm yếu cổng đó ở đây.
+#     CLAIMABLE_BACKLOG = 0  → chạy toàn bộ Site Quality như bình thường.
 on:
   push:
     branches: [main]
@@ -34,8 +44,22 @@ jobs:
         with:
           node-version: 20
 
+      - name: Đo backlog claimable (writer commit chờ publisher?)
+        id: backlog
+        run: |
+          set -euo pipefail
+          CLAIMABLE=$(node factory/factory.js backlog | grep -E '^CLAIMABLE_BACKLOG=' | cut -d= -f2)
+          echo "CLAIMABLE_BACKLOG=${CLAIMABLE}"
+          echo "claimable=${CLAIMABLE}" >> "$GITHUB_OUTPUT"
+
+      - name: Báo hoãn gate cây sinh (backlog > 0 — chờ Factory Publish)
+        if: steps.backlog.outputs.claimable != '0'
+        run: echo "Site Quality generated-tree checks deferred to Factory Publish / Factory Publish Verify because claimable backlog > 0."
+
       - name: HTML trên đĩa phải khớp kết quả sinh (không patch tay)
+        if: steps.backlog.outputs.claimable == '0'
         run: node factory/generate.js --check
 
       - name: Kiểm định trang sinh (liên kết, canonical, sitemap, ký tự rác)
+        if: steps.backlog.outputs.claimable == '0'
         run: node factory/test.js
