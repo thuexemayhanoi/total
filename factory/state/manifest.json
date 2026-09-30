@@ -756,6 +756,14 @@
   "kind": "article"
  },
  {
+  "rel": "learn/ky-thuat-lai-xe/ky-thuat-di-xe-may-ban-dem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/nuoc-vao-may-xe-may-nhan-biet-va-xu-ly/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },

@@ -1008,11 +1008,13 @@
    "title": "Kỹ thuật đi xe máy ban đêm an toàn",
    "primaryIntent": "informational/ky-thuat-di-xe-may-ban-dem",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T18:13:27.083Z",
-   "updatedAt": "2026-09-30T18:13:27.085Z"
+   "updatedAt": "2026-09-30T18:19:42.698Z",
+   "seoScore": 100,
+   "words": 2615
   },
   {
    "id": "S00072",
@@ -1021,11 +1023,13 @@
    "title": "Nước vào máy xe máy: nhận biết và xử lý",
    "primaryIntent": "informational/nuoc-vao-may-xe-may-nhan-biet-va-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T18:13:27.173Z",
-   "updatedAt": "2026-09-30T18:13:27.175Z"
+   "updatedAt": "2026-09-30T18:19:42.698Z",
+   "seoScore": 100,
+   "words": 2568
   }
  ]
 }
