@@ -44,8 +44,6 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    env:
-      TOKEN_FILE: ${{ runner.temp }}/writer-lock-token
     steps:
       - name: Lấy mã nguồn
         uses: actions/checkout@v4
@@ -102,6 +100,9 @@ jobs:
       - name: Drain liên tục (mỗi vòng <= 10 ID — tới khi backlog = 0)
         id: drain
         if: steps.gate.outputs.proceed == 'true'
+        env:
+          # Context `runner` chỉ hợp lệ ở step-level (KHÔNG dùng env cấp job).
+          TOKEN_FILE: ${{ runner.temp }}/writer-lock-token
         run: |
           set -e
           MAX="${{ steps.bound.outputs.max }}"
@@ -151,6 +152,8 @@ jobs:
       # đụng lock của writer khác.
       - name: Giải phóng writer lock (chỉ khi run này giữ lock)
         if: always() && steps.gate.outputs.proceed == 'true'
+        env:
+          TOKEN_FILE: ${{ runner.temp }}/writer-lock-token
         run: |
           if [ -f "$TOKEN_FILE" ]; then
             node factory/factory.js unlock --owner ci-publisher --token "$(cat "$TOKEN_FILE")"
