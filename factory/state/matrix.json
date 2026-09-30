@@ -1038,11 +1038,13 @@
    "title": "Kỹ thuật vượt xe an toàn",
    "primaryIntent": "informational/ky-thuat-vuot-xe-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T18:21:40.752Z",
-   "updatedAt": "2026-09-30T18:21:40.754Z"
+   "updatedAt": "2026-09-30T18:25:15.953Z",
+   "seoScore": 91,
+   "words": 2528
   },
   {
    "id": "S00074",
@@ -1051,11 +1053,13 @@
    "title": "Dầu phanh xe máy: khi nào cần thay",
    "primaryIntent": "informational/dau-phanh-xe-may-khi-nao-thay",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T18:21:40.836Z",
-   "updatedAt": "2026-09-30T18:21:40.838Z"
+   "updatedAt": "2026-09-30T18:25:15.953Z",
+   "seoScore": 91,
+   "words": 2589
   }
  ]
 }
