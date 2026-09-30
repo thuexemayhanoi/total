@@ -880,6 +880,32 @@
    "updatedAt": "2026-09-30T17:45:10.081Z",
    "seoScore": 91,
    "words": 2738
+  },
+  {
+   "id": "S00063",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "ky-thuat-di-xe-may-trong-mua-lon",
+   "title": "Kỹ thuật đi xe máy trong mưa lớn",
+   "primaryIntent": "informational/ky-thuat-di-xe-may-trong-mua-lon",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T17:47:24.124Z",
+   "updatedAt": "2026-09-30T17:47:24.126Z"
+  },
+  {
+   "id": "S00064",
+   "hub": "guide/thu-tuc-xe",
+   "slug": "bao-hiem-trach-nhiem-dan-su-xe-may",
+   "title": "Bảo hiểm trách nhiệm dân sự xe máy: vì sao bắt buộc và mua thế nào",
+   "primaryIntent": "informational/bao-hiem-trach-nhiem-dan-su-xe-may",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T17:47:24.199Z",
+   "updatedAt": "2026-09-30T17:47:24.200Z"
   }
  ]
 }
