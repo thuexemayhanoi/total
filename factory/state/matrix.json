@@ -768,11 +768,13 @@
    "title": "Xe 50cc có cần bằng lái không: quy định và lưu ý",
    "primaryIntent": "informational/xe-50cc-can-bang-lai-khong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:19:42.808Z",
-   "updatedAt": "2026-09-30T17:19:42.810Z"
+   "updatedAt": "2026-09-30T17:26:44.238Z",
+   "seoScore": 91,
+   "words": 2776
   },
   {
    "id": "S00056",
@@ -781,11 +783,13 @@
    "title": "Áp suất lốp xe máy: chuẩn và cách kiểm tra",
    "primaryIntent": "informational/ap-suat-lop-xe-may-chuan-va-cach-kiem-tra",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:19:42.893Z",
-   "updatedAt": "2026-09-30T17:19:42.895Z"
+   "updatedAt": "2026-09-30T17:26:44.238Z",
+   "seoScore": 100,
+   "words": 2684
   }
  ]
 }
