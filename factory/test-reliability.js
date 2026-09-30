@@ -657,7 +657,11 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
   ok(!pub.includes('continue-on-error'), 'factory-publish.yml: KHÔNG còn continue-on-error giấu lỗi');
   ok(pub.includes('--fail-if-claimable'), 'factory-publish.yml: cổng cuối fail khi còn backlog claimable');
   ok(pub.includes('check-state'), 'factory-publish.yml: guard state sạch qua factory.js check-state');
-  ok(pub.includes('drain-bound'), 'factory-publish.yml: giới hạn vòng tính từ workload (drain-bound), không hardcode');
+  // SIMPLE PRODUCTION MODE: hot path là pair txn đúng 2 ID, kế hoạch bounded
+  // bởi publish-plan (deterministic) — KHÔNG còn vòng drain hardcode.
+  ok(pub.includes('publish-pair'), 'factory-publish.yml: hot path publish-pair (pair txn đúng 2 ID)');
+  ok(pub.includes('push-scope'), 'factory-publish.yml: EXACT push scope (không sweep slot khác)');
+  ok(pub.includes('recover-txn'), 'factory-publish.yml: recover txn marker sau crash');
   ok(/unlock --owner/.test(pub), 'factory-publish.yml: cleanup unlock theo owner+token (ownership-safe)');
   const verify = wf('factory-publish-verify.yml');
   ok(verify.includes('verify-invariant'), 'factory-publish-verify.yml: bất biến qua factory.js verify-invariant');

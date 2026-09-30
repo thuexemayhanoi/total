@@ -15,15 +15,15 @@ Mọi agent phải đọc file này trước khi sửa repo.
 2. **Generator-first:** mọi trang HTML sinh từ `node factory/generate.js`. Không bao giờ sửa tay file HTML đã sinh.
 3. **Mọi liên kết nội bộ qua `u()`** trong `factory/lib/shell.js` — tránh lỗi `/total/total/`.
 4. **Không bịa dữ kiện kinh doanh:** giá, địa chỉ, giờ mở cửa, danh sách xe, điều khoản dịch vụ. Chỉ dùng verified business facts; ngoài khu vực xác minh là informational only.
-5. **QA ≥ 75** mới được PUBLISHED; test (`node factory/test.js`) phải PASSED trước khi commit.
+5. **QA ≥ 75 và SEO ≥ 70** mới được PUBLISHED (critical fail luôn override điểm); test (`node factory/test.js`) phải PASSED trước khi commit engine.
 6. **Không deploy draft**; không chặn nội dung công khai trong robots.txt.
 7. Chỉ mục tìm kiếm/chatbot lưu URL **không** có tiền tố `total/`; file trong repo **có** tiền tố `total/`.
 8. Không để ký tự rác CJK/Cyrillic/Hangul trong bất kỳ nguồn nào.
 
 ## Vòng đời nội dung
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).
-Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/publish/audit/resume/expand-capacity/set-planned-target/backlog/check-state/plan-chunk/verify-invariant/drain-bound/drain-iteration) — không sửa JSON state tay khi factory đang chạy.
-Pipeline publish tự động (factory-publish.yml) chạy **continuous backlog drain**: mỗi vòng một chunk ≤ 10 ID (resume slot dở trước khi claim mới), QA ≥ 75 mới PUBLISHED, publish theo **explicit IDs** (`publish <ID> [<ID>...]` — KHÔNG có publish-all, KHÔNG sweep mọi slot PASS), một commit mỗi chunk, lặp tới khi backlog article-backed claimable = 0 — KHÔNG dựa vào bot commit tự trigger workflow kế tiếp. NO-PROGRESS sentinel: một vòng không tiến triển hợp lệ (published tăng / backlog giảm / slot BLOCKED vì QA thật) mà backlog > 0 → workflow FAIL LOUD.
+Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/publish/audit/resume/expand-capacity/set-planned-target/backlog/check-state/plan-chunk/verify-invariant/drain-bound/drain-iteration + hot path pair: publish-pair/verify-pair/verify-sources/push-scope/publish-plan/change-mode/recover-txn) — không sửa JSON state tay khi factory đang chạy.
+Pipeline publish tự động (factory-publish.yml) chạy **SIMPLE PRODUCTION MODE (pair)**: writer ngoài viết ĐÚNG 2 bài/lần (PAIR_SIZE = 2), tự `verify-sources` scoped (QA ≥ 75 + SEO ≥ 70) rồi push main → publisher xác định EXACT push scope (`push-scope`), `publish-plan` (resume backlog cũ trước, pair scope sau) → từng txn `publish-pair <ID,ID>` atomic (scoped QA/SEO → generate → verify-pair → lật đúng rows → COMMIT txn) → commit "factory: publish pair <ids>". KHÔNG sweep slot khác, KHÔNG claim 10 bài khác; IDs đã PUBLISHED push lại = repair (chấm lại + sinh lại đúng IDs). Txn marker sót → `recover-txn` idempotent. Heavy gate (audit/invariant/test suite) chỉ chạy khi engine đổi, mốc 100 PUBLISHED, hoặc `factory-deep-audit.yml` (workflow_dispatch).
 Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state khi pipeline đang chạy. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose).
 
 ## Writer lock — ownership-safe
@@ -50,5 +50,6 @@ node factory/test.js
 node factory/factory.js audit --min-score 75
 node factory/test-hardening.js
 node factory/test-reliability.js
+node factory/test-pair.js
 ```
-Cả sáu lệnh phải xanh (reliability/hardening là cổng pre-commit bắt buộc cho thay đổi factory/workflow).
+Cả bảy lệnh phải xanh (reliability/hardening là cổng pre-commit bắt buộc cho thay đổi factory/workflow).

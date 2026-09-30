@@ -17,8 +17,15 @@ Khi QA thất bại: QA → REPAIR → QA → BLOCKED (sau nhiều lần sửa k
 - `check-state` — guard state sạch (không lock bị commit, ma trận hợp lệ, checkpoint khớp).
 - `plan-chunk [--limit N]` — kế hoạch chunk read-only (resume trước, claim sau).
 - `verify-invariant` — bất biến production: PUBLISHED ↔ article source ↔ trang sinh ↔ sitemap-articles, checkpoint, không lock.
+- `publish-pair <ID,ID> [--owner O] [--token-file F]` — **hot path SIMPLE PRODUCTION MODE**: publish đúng pair (tối đa PAIR_SIZE = 2 ID) — lock → scoped QA ≥ 75 + SEO ≥ 70 → generate → verify-pair → lật đúng rows PUBLISHED → COMMIT txn (atomic, idempotent, resumable sau crash). IDs đã PUBLISHED → repair (chấm lại + sinh lại trang đúng IDs).
+- `verify-pair <ID,ID>` — light verify chỉ pair (QA/SEO/intent/HTML/canonical/schema/sitemap/checkpoint; không scan toàn site, chạy vài giây).
+- `verify-sources <ID,ID>` — rà source đúng pair read-only, chạy được TRƯỚC publish (writer tự chấm trước khi push).
+- `push-scope [--base B]` — EXACT article IDs được ADD/MODIFY bởi commit vừa push (A → pair mới, M → repair, D → fail-loud).
+- `publish-plan [--scope ID,ID]` — kế hoạch txn pair: resume backlog article-backed cũ TRƯỚC, scope push SAU; WAITING_FOR_WRITER không bao giờ vào plan.
+- `change-mode` — phân loại commit CONTENT_ONLY | ENGINE_CHANGE (CI chọn gate nhẹ/nặng).
+- `recover-txn` — recover txn marker sót sau crash (ids đã PUBLISHED → completed, ngược lại → rolled-back).
 - `drain-bound <N>` — giới hạn vòng drain an toàn tính từ workload (ceil(N/10)+2).
-- `drain-iteration [--owner O] [--token-file F]` — một vòng drain (workflow gọi lặp tới khi backlog = 0; NO-PROGRESS sentinel fail-loud).
+- `drain-iteration [--owner O] [--token-file F]` — một vòng drain (legacy/manual recovery — KHÔNG còn là hot path production).
 - `lock <owner>` / `unlock --owner <O> --token <T>` — writer lock ownership-safe (token unique mỗi acquisition; sai owner/token bị REFUSE; `unlock --force` chỉ dành cho recovery thủ công).
 - `expand-capacity <N> [--dry-run]` — mở rộng capacity ma trận (migration an toàn: chỉ tăng, refuse shrink/cùng mức; giữ nguyên ID/slots/plannedTarget/reserved; `--dry-run` chỉ báo cáo, không ghi file).
 - `set-planned-target <N> [--dry-run]` — đặt mục tiêu kế hoạch (phải <= capacity và >= số slot đã tồn tại; không trộn với expand-capacity).
@@ -41,12 +48,13 @@ Phần capacity mới là unallocated/future-reserve — không tự phân vào 
 ## Không phá kiến trúc
 Factory phục vụ các lệnh mở rộng tương lai ("viết 20 bài cho /thue-xe/xe-may/", "audit mọi bài dưới 90") mà không cần thiết kế lại.
 
-## Pipeline publish tự động (GitHub Actions)
-Kiến trúc vận hành port từ /vanchinh, adapt toàn bộ sang Node factory hiện có (không Python, không thay taxonomy/URL):
-- **factory-publish.yml** — writer đẩy bài mới vào `factory/data/articles/` → pipeline: đọc state → guard (không writer lock) → chọn chunk (resume slot dở trước, rồi mới claim slot PLANNED có bài, tối đa 5–10 slot) → QA từng slot → publish (PASS → PUBLISHED, sinh site + test) → cổng publish (audit ≥ 75, `--check`, test) → MỘT commit state + site. Deterministic, không AI/API trong Actions.
-- **article-quality.yml** — cổng chất lượng push/PR đổi `factory/**` (tích hợp ci.yml cũ: generate, `--check`, audit ≥ 75, test).
-- **site-quality.yml** — kiểm định trang sinh khi push/PR đổi HTML/assets/sitemap/robots.
+## Pipeline publish tự động (GitHub Actions — SIMPLE PRODUCTION MODE)
+Kiến trúc vận hành port từ /vanchinh, đơn giản hóa cho 6.000–20.000+ bài. Writer ngoài viết đúng 2 bài/lần (PAIR_SIZE = 2) và push main; pipeline xử lý EXACT push scope:
+- **factory-publish.yml (pair)** — writer push bài vào `factory/data/articles/` → pipeline: đọc state → recover txn → `push-scope` (đúng IDs của commit) → `publish-plan` (resume backlog cũ trước, pair scope sau) → từng txn `publish-pair` (scoped QA ≥ 75 + SEO ≥ 70 → sinh site → verify-pair → atomic COMMIT) → commit "factory: publish pair <ids>". Cổng cuối nhẹ (check-state + backlog = 0 + generate --check); mốc 100 PUBLISHED chạy thêm heavy gate. Deterministic, không AI/API trong Actions.
+- **article-quality.yml** — phân mode bằng `change-mode`: CONTENT_ONLY → gate nhẹ `verify-sources` đúng EXACT IDs (cây sinh hoãn về publisher, không đỏ giả); ENGINE_CHANGE/PR → audit + toàn bộ test suite (kể cả test-pair.js).
+- **site-quality.yml** — CONTENT_ONLY → hoãn gate cây sinh (cây cũ trên main chờ publisher); ENGINE_CHANGE → generate --check + test như cũ, backlog-aware.
+- **factory-publish-verify.yml** — light verify read-only sau publish: state sạch, không patch tay HTML, verify-invariant, backlog = 0.
+- **factory-deep-audit.yml** — heavy full gate (audit ≥ 75 + verify-invariant + toàn bộ test suite) chạy theo workflow_dispatch — KHÔNG chặn writer sau mỗi pair.
 - **article-batch.yml** — dry-run read-only: xem kế hoạch chunk, QA thử, không đổi state.
-- **factory-publish-verify.yml** — verify read-only sau publish: mọi slot PUBLISHED có trang sinh + nằm trong sitemap, mọi URL bài trong sitemap thuộc slot PUBLISHED, checkpoint khớp ma trận, không lock bỏ lại.
 
 Chống chồng lấn: concurrency group riêng cho từng workflow, writer lock TTL 30 phút, KHÔNG force push, bounded retry ≤ 3 khi push, KHÔNG cron AI writing, KHÔNG AI/API trong Actions.

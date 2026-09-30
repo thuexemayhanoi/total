@@ -1,24 +1,16 @@
 name: Article Quality
 
 # Cổng chất lượng nội dung — deterministic, không AI.
-# THAY ĐỔI HARDENING:
-#   - KHÔNG chạy `generate` trước `--check` nữa: --check giờ là read-only
-#     byte-exact, so sánh trực tiếp với output đã commit — chạy generate trước
-#     sẽ xoá sạch bằng chứng stale/patch tay.
-#   - Thêm test-hardening.js (regression cho --check, publish atomic, breadcrumb).
-#   - Concurrency theo ref để PR không cancel run của main (và ngược lại).
-# THAY ĐỔI BACKLOG-AWARE (fix race Article Quality vs Factory Publisher):
-#   - Writer push article source (PLANNED/PASS chưa drain) → cây HTML committed
-#     trên main vẫn là cây CŨ (publisher mới sinh cây mới). Gate so cây sinh
-#     (`generate --check`, test nền tảng, hardening, reliability) chạy trên
-#     cây cũ sẽ đỏ GIẢ.
-#   - Sau checkout: đo `factory.js backlog` lấy CLAIMABLE_BACKLOG.
-#     CLAIMABLE_BACKLOG > 0  → đây là writer/source commit chờ publisher: HOÃN
-#     mọi gate phụ thuộc cây sinh (in log rõ ràng), vẫn chạy audit source
-#     (read-only). Nhiệm vụ sinh cây + gate đầy đủ thuộc về Factory Publish và
-#     Factory Publish Verify (verify read-only sau publish) — không làm yếu
-#     cổng đó ở đây.
-#     CLAIMABLE_BACKLOG = 0  → chạy toàn bộ Article Quality như bình thường.
+# SIMPLE PRODUCTION MODE:
+#   - `change-mode` phân loại push: CONTENT_ONLY (chỉ article source + state)
+#     -> gate NHẸ: verify-sources đúng EXACT IDs của push (scoped, read-only,
+#     vài giây); mọi gate cây sinh (generate --check, test suite) HOÃN —
+#     cây HTML trên main vẫn là cây cũ cho tới khi Factory Publish (pair)
+#     sinh lại, gate cây cũ sẽ ĐỎ GIẢ.
+#   - ENGINE_CHANGE (engine/workflow/template đổi) hoặc pull_request ->
+#     gate ĐẦY ĐỦ như cũ + test-pair.js (regression pair mode).
+#   - Backlog-aware giữ nguyên: claimable > 0 nghĩa là publisher chưa drain —
+#     chỉ chạy source gate.
 on:
   push:
     branches: [main]
@@ -42,6 +34,8 @@ jobs:
     steps:
       - name: Lấy mã nguồn
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Cài Node.js
         uses: actions/setup-node@v4
@@ -49,6 +43,27 @@ jobs:
           node-version: 20
 
       # Không AI API bên trong GitHub Actions — chỉ kiểm tra tĩnh.
+
+      - name: Phân loại thay đổi (CONTENT_ONLY | ENGINE_CHANGE)
+        id: mode
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          MODE=$(node factory/factory.js change-mode | sed -n 's/^CHANGE_MODE=//p')
+          echo "CHANGE_MODE=$MODE"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+
+      - name: 'EXACT PUSH SCOPE: article IDs của commit này (content push)'
+        id: scope
+        if: steps.mode.outputs.mode == 'CONTENT_ONLY'
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          OUT=$(node factory/factory.js push-scope)
+          echo "$OUT"
+          echo "ids=$(printf '%s\n' "$OUT" | sed -n 's/^SCOPE_IDS=//p')" >> "$GITHUB_OUTPUT"
 
       - name: Đo backlog claimable (writer commit chờ publisher?)
         id: backlog
@@ -58,28 +73,46 @@ jobs:
           echo "CLAIMABLE_BACKLOG=${CLAIMABLE}"
           echo "claimable=${CLAIMABLE}" >> "$GITHUB_OUTPUT"
 
+      # CONTENT_ONLY: gate NHẸ — rà source đúng pair vừa push (QA >= 75,
+      # SEO >= 70, intent, duplicate) trong vài giây, KHÔNG đụng cây sinh.
+      - name: 'Gate nhẹ (CONTENT_ONLY): verify-sources đúng EXACT IDs'
+        if: steps.mode.outputs.mode == 'CONTENT_ONLY' && steps.scope.outputs.ids != ''
+        run: |
+          set -euo pipefail
+          node factory/factory.js verify-sources "${{ steps.scope.outputs.ids }}"
+
+      - name: 'Gate nhẹ (CONTENT_ONLY): xác nhận không sót backlog lạ'
+        if: steps.mode.outputs.mode == 'CONTENT_ONLY'
+        run: |
+          echo "CONTENT_ONLY — generated-tree gates deferred to Factory Publish (pair) / Publish Verify."
+          echo "claimable backlog=${{ steps.backlog.outputs.claimable }} (publisher sẽ resume đúng pair, không sweep)."
+
+      # ENGINE_CHANGE: audit toàn bộ + toàn bộ test suite (có backlog thì
+      # hoãn gate cây sinh như cũ).
       - name: Audit chất lượng bài viết (read-only theo article source)
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY'
         run: node factory/factory.js audit --min-score 75
 
       - name: Báo hoãn gate cây sinh (backlog > 0 — chờ Factory Publish)
-        if: steps.backlog.outputs.claimable != '0'
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable != '0'
         run: echo "Generated-site checks deferred to Factory Publish / Factory Publish Verify because claimable backlog > 0."
 
       - name: Kiểm tra không patch tay HTML (read-only, byte-exact)
-        if: steps.backlog.outputs.claimable == '0'
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable == '0'
         run: node factory/generate.js --check
 
       - name: Bộ kiểm thử nền tảng
-        if: steps.backlog.outputs.claimable == '0'
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable == '0'
         run: node factory/test.js
 
       - name: Bộ kiểm thử hardening (regression --check/publish/breadcrumb)
-        if: steps.backlog.outputs.claimable == '0'
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable == '0'
         run: node factory/test-hardening.js
 
-      # BỘ RELIABILITY 4 TẦNG (Unit -> Integration -> Production invariant ->
-      # Long-run/Failure recovery): lock ownership-safe, continuous drain,
-      # NO-PROGRESS sentinel, soak/recovery — mọi kịch bản trên fixture tmp.
       - name: Bộ kiểm thử reliability 4 tầng (lock/drain/invariant/recovery)
-        if: steps.backlog.outputs.claimable == '0'
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable == '0'
         run: node factory/test-reliability.js
+
+      - name: Bộ kiểm thử pair mode (PAIR_SIZE/exact scope/txn recovery)
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable == '0'
+        run: node factory/test-pair.js

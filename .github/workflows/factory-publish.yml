@@ -1,38 +1,33 @@
-name: Factory Publish (chunked)
+name: Factory Publish (pair)
 
 # Pipeline publish tự động, deterministic — KHÔNG AI, KHÔNG API key, KHÔNG secret.
-# Kiến trúc vận hành port từ /vanchinh, adapt sang Node factory của /total:
-#   writer ngoài (agent/Mistral run) commit bài viết dưới factory/data/articles/
-#   -> pipeline chạy đúng công cụ của xưởng (factory.js, generate.js, test.js).
+# SIMPLE PRODUCTION MODE (port /vanchinh, đơn giản hóa cho 6.000–20.000+ bài):
+#   writer ngoài viết ĐÚNG 2 bài/lần (PAIR_SIZE = 2) rồi push main
+#   -> publisher xác định EXACT article IDs của commit (push-scope)
+#   -> publish-plan (resume backlog cũ TRƯỚC, scope pair SAU)
+#   -> mỗi txn: publish-pair <ids> (lock -> scoped QA >= 75 + SEO >= 70 ->
+#      generate -> verify-pair nhẹ -> lật đúng rows PUBLISHED -> COMMIT txn)
+#   -> commit "factory: publish pair <ids>" + push
+#   -> cổng cuối: state sạch + backlog claimable = 0 + generate --check.
 #
-# THAY ĐỔI HARDENING 4-TẦNG (docs/FACTORY-RELIABILITY.md):
-#   - DEFECT A: writer lock ownership-safe. Acquire dùng primitive exclusive
-#     thật + token unique từng acquisition; cleanup của workflow CHỈ giải phóng
-#     lock khi token file tồn tại (chính run này đã acquire) — acquire fail
-#     thì KHÔNG BAO GIỜ xóa lock của writer khác. TTL 30 phút không phải daemon:
-#     stale chỉ được reclaim theo contract trong lock.acquire (race-safe).
-#   - DEFECT B: CONTINUOUS BACKLOG DRAIN — commit bằng GITHUB_TOKEN không tự
-#     trigger workflow push tiếp theo, nên một production run phải DRAIN TOÀN
-#     BỘ backlog article-backed claimable: mỗi vòng `drain-iteration` xử lý
-#     đúng một chunk <= 10 ID (QA >= 75 -> publish explicit IDs, atomic),
-#     commit chunk, rồi lặp tới khi backlog = 0. KHÔNG sweep toàn bộ PASS.
-#   - NO-PROGRESS SENTINEL: backlog > 0 mà một vòng không tiến triển hợp lệ
-#     (published tăng / backlog giảm / slot BLOCKED vì QA thật) -> FAIL LOUD.
-#   - Giới hạn vòng an toàn tính từ workload thực tế qua `drain-bound`
-#     (ceil(initial/limit) + phụ cấp recovery) — không hardcode "1000 vòng".
-#   - SUCCESS chỉ khi cuối run: state sạch + backlog claimable = 0
-#     (--fail-if-claimable) + generate --check + audit >= 75 + test.js +
-#     test-hardening.js. PLANNED chưa có module bài = WAITING_FOR_WRITER,
-#     KHÔNG phải lỗi CI.
-#   - Logic backlog/chunk/invariant nằm trong factory/lib/factory-runtime.js
-#     (deterministic, test được 4 tầng) — YAML chỉ orchestration.
-#   - Mọi cổng fail loud, không có step nào được phép "lỗi mà vẫn xanh" —
-#     repo là checkpoint resumable nên fail là an toàn.
+#   KHÔNG sweep slot khác, KHÔNG tự claim <= 10 bài khác (exact push scope),
+#   KHÔNG audit/test toàn site mỗi pair — heavy gate chỉ chạy ở:
+#   (a) mốc 100 PUBLISHED, (b) workflow factory-deep-audit.yml, (c) engine CI.
+#   drain-iteration/publish legacy vẫn còn trong factory.js (manual recovery).
+#
+#   NO-PROGRESS/RECOVERY: repo là checkpoint resumable — txn marker sót ->
+#   recover-txn; fail giữa chừng KHÔNG ghi state dở, chạy lại sẽ resume.
 
 on:
   push:
     branches: [main]
     paths: ['factory/data/articles/**', '.github/workflows/factory-publish.yml']
+  workflow_dispatch:
+    inputs:
+      pair:
+        description: 'ID pair cần publish (vd S00055,S00056) — bỏ trống để resume backlog'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -62,20 +57,49 @@ jobs:
           node factory/factory.js status
           node factory/factory.js resume
 
-      - name: Gate (chỉ chạy khi push thêm bài mới hoặc còn backlog claimable)
+      # RECOVER txn marker sót (crash giữa transaction của run trước) —
+      # idempotent: ids đã PUBLISHED -> completed, ngược lại -> rolled-back.
+      - name: Recover txn nếu sót (fail-closed khi check-state đỏ vì txn)
+        run: |
+          if ! node factory/factory.js check-state; then
+            echo "state không sạch — thử recover txn marker…"
+            node factory/factory.js recover-txn
+            node factory/factory.js check-state
+          fi
+
+      - name: 'EXACT PUSH SCOPE: article IDs được ADD/MODIFY bởi commit này'
+        id: scope
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          if [ -n "${{ github.event.inputs.pair }}" ]; then
+            # Manual dispatch: ID tường minh, đúng pair contract.
+            SCOPE_MODE="pair"; SCOPE_IDS="${{ github.event.inputs.pair }}"
+            echo "scope từ workflow_dispatch input"
+          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            OUT=$(node factory/factory.js push-scope)
+            echo "$OUT"
+            SCOPE_MODE=$(printf '%s\n' "$OUT" | sed -n 's/^SCOPE_MODE=//p')
+            SCOPE_IDS=$(printf '%s\n' "$OUT" | sed -n 's/^SCOPE_IDS=//p')
+          else
+            SCOPE_MODE="empty"; SCOPE_IDS=""
+          fi
+          echo "scope mode=$SCOPE_MODE ids=$SCOPE_IDS"
+          echo "mode=$SCOPE_MODE" >> "$GITHUB_OUTPUT"
+          echo "ids=$SCOPE_IDS" >> "$GITHUB_OUTPUT"
+
+      - name: Gate (chỉ chạy khi pair/repair trong scope hoặc còn backlog claimable)
         id: gate
         run: |
-          # Chỉ bài MỚI THÊM khởi động chunk sản xuất; bài sửa (repair, rebuild)
-          # không tự claim chunk mới. Backlog tính bằng factory.js backlog
-          # (logic canonical — KHÔNG heredoc duplicate).
-          NEW_ARTICLES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- factory/data/articles/ | wc -l | tr -d ' ')
-          echo "bài mới trong push này: $NEW_ARTICLES"
+          set -euo pipefail
           BACKLOG=$(node factory/factory.js backlog | sed -n 's/^CLAIMABLE_BACKLOG=//p')
-          echo "backlog claimable (slot chưa xong đã có bài): $BACKLOG"
-          if [ "$NEW_ARTICLES" -gt 0 ] || [ "$BACKLOG" -gt 0 ]; then
+          echo "backlog claimable: $BACKLOG"
+          SCOPE_IDS="${{ steps.scope.outputs.ids }}"
+          if [ -n "$SCOPE_IDS" ] || [ "$BACKLOG" -gt 0 ]; then
             echo "proceed=true" >> "$GITHUB_OUTPUT"
           else
-            echo "không có bài mới và không còn backlog claimable -> bỏ qua pipeline publish"
+            echo "không có article trong push và không còn backlog claimable -> bỏ qua pipeline publish"
             echo "proceed=false" >> "$GITHUB_OUTPUT"
           fi
 
@@ -83,49 +107,38 @@ jobs:
         if: steps.gate.outputs.proceed == 'true'
         run: node factory/factory.js check-state
 
-      - name: Giới hạn vòng an toàn (tính từ workload thực tế — không hardcode)
-        id: bound
+      # PLAN: resume backlog article-backed CŨ trước (crash recovery, không
+      # trộn), rồi scope của push này; mỗi txn đúng PAIR_SIZE = 2 ID.
+      - name: Kế hoạch txn (publish-plan — resume trước, exact scope sau)
+        id: plan
         if: steps.gate.outputs.proceed == 'true'
         run: |
-          CLAIMABLE=$(node factory/factory.js backlog | sed -n 's/^CLAIMABLE_BACKLOG=//p')
-          MAX=$(node factory/factory.js drain-bound "$CLAIMABLE" | sed -n 's/^MAX_ITERATIONS=//p')
-          echo "max=$MAX" >> "$GITHUB_OUTPUT"
-          echo "backlog ban đầu: $CLAIMABLE -> tối đa $MAX vòng drain (ceil($CLAIMABLE/10) + phụ cấp recovery)"
+          set -euo pipefail
+          if [ -n "${{ steps.scope.outputs.ids }}" ]; then
+            node factory/factory.js publish-plan --scope "${{ steps.scope.outputs.ids }}" | tee /tmp/plan.txt
+          else
+            node factory/factory.js publish-plan | tee /tmp/plan.txt
+          fi
 
-      # CONTINUOUS BACKLOG DRAIN: mỗi vòng = acquire lock (token ghi ra file)
-      # -> chunk <= 10 ID (resume trước, claim sau) -> QA >= 75 -> publish
-      # explicit IDs (atomic: cổng generate + test xanh mới ghi state) -> thả
-      # lock CỦA run này -> NO-PROGRESS sentinel. Vòng fail -> exit 1 (state
-      # trước chunk vẫn resumable). KHÔNG dựa vào self-trigger của bot commit.
-      - name: Drain liên tục (mỗi vòng <= 10 ID — tới khi backlog = 0)
-        id: drain
+      # EXACT-PUSH-SCOPE PUBLISH: mỗi dòng TXN = đúng 1 pair transaction.
+      # publish-pair là atomic: QA/SEO scoped đủ điều kiện MỚI ghi state; fail
+      # giữ nguyên state để retry/resume. Sau mỗi pair: commit + push (retry
+      # rebase an toàn).
+      - name: Publish từng pair (publish-pair — atomic, đúng 1-2 ID/txn)
+        id: pairs
         if: steps.gate.outputs.proceed == 'true'
         env:
-          # Context `runner` chỉ hợp lệ ở step-level (KHÔNG dùng env cấp job).
           TOKEN_FILE: ${{ runner.temp }}/writer-lock-token
         run: |
-          set -e
-          MAX="${{ steps.bound.outputs.max }}"
-          i=0
-          while :; do
-            i=$((i+1))
-            echo "=== VÒNG DRAIN $i / tối đa $MAX ==="
-            set +e
-            OUT=$(node factory/factory.js drain-iteration --owner ci-publisher --token-file "$TOKEN_FILE" 2>&1)
-            ST=$?
-            set -e
-            echo "$OUT"
-            if [ "$ST" != "0" ]; then
-              echo "drain iteration fail (exit $ST) — state trước chunk vẫn resumable; chạy lại sẽ resume đúng điểm."
-              exit 1
-            fi
-            DONE=$(printf '%s\n' "$OUT" | sed -n 's/^DRAIN_RESULT done=//p' | cut -d' ' -f1)
-            # Commit chunk nếu có thay đổi (một commit cho state + site đã sinh).
-            git config user.name "total-factory-bot"
-            git config user.email "nguyentuantu2482@users.noreply.github.com"
+          set -euo pipefail
+          git config user.name "total-factory-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          grep '^TXN ' /tmp/plan.txt | while read -r _ idx ids mode; do
+            echo "=== PAIR TXN $idx: $ids (mode=$mode) ==="
+            node factory/factory.js publish-pair "$ids" --owner ci-publisher --token-file "$TOKEN_FILE"
             git add -A
             if ! git diff --cached --quiet; then
-              git commit -m "factory: publish chunk (drain vòng $i) [automated txn]"
+              git commit -m "factory: publish pair $ids [automated txn]"
               ok=0
               for t in 1 2 3; do
                 if git pull --rebase origin main && git push; then ok=1; break; fi
@@ -133,24 +146,18 @@ jobs:
                 sleep 5
               done
               if [ "$ok" != "1" ]; then
-                echo "push thất bại sau 3 lần — repo vẫn là checkpoint, vòng drain kế tiếp sẽ resume đúng điểm"
+                echo "push thất bại sau 3 lần — repo vẫn là checkpoint, chạy lại sẽ resume đúng pair"
                 exit 1
               fi
-            fi
-            if [ "$DONE" = "true" ]; then
-              echo "backlog claimable đã drain hết sau $i vòng."
-              exit 0
-            fi
-            if [ "$i" -ge "$MAX" ]; then
-              echo "FAIL: vượt giới hạn vòng an toàn ($MAX) mà backlog chưa drain hết — NO_PROGRESS guard / rà soát thủ công."
-              exit 1
+            else
+              echo "pair $ids không thay đổi gì trên đĩa (đã publish?) — không cần commit"
             fi
           done
+          echo "toàn bộ txn pair hoàn tất"
 
-      # Cleanup CHỈ giải phóng lock khi CHÍNH run này đã acquire thành công
-      # (token file tồn tại). Acquire fail / run chưa từng giữ lock -> KHÔNG
-      # đụng lock của writer khác.
-      - name: Giải phóng writer lock (chỉ khi run này giữ lock)
+      # Cleanup CHỈ giải phóng lock khi CHÍNH run này còn giữ token (publish-pair
+      # tự thả lock sau mỗi pair — bước này là lưới an toàn cho run bị kill).
+      - name: Giải phóng writer lock nếu còn sót (chỉ khi run này giữ token)
         if: always() && steps.gate.outputs.proceed == 'true'
         env:
           TOKEN_FILE: ${{ runner.temp }}/writer-lock-token
@@ -159,10 +166,12 @@ jobs:
             node factory/factory.js unlock --owner ci-publisher --token "$(cat "$TOKEN_FILE")"
             rm -f "$TOKEN_FILE"
           else
-            echo "run này không giữ writer lock — KHÔNG đụng lock của writer khác."
+            echo "run này không còn giữ writer lock — KHÔNG đụng lock của writer khác."
           fi
 
-      # CỔNG CUỐI — SUCCESS chỉ khi mọi điều kiện dưới đây xanh.
+      # CỔNG CUỐI NHẸ — SUCCESS chỉ khi: state sạch + backlog claimable = 0 +
+      # cây sinh khớp generator. Heavy suite (audit/hardening/reliability)
+      # KHÔNG chạy mỗi pair — chỉ ở mốc 100 bài và deep audit.
       - name: 'Cổng cuối: state sạch + backlog claimable = 0'
         if: steps.gate.outputs.proceed == 'true'
         run: |
@@ -173,18 +182,22 @@ jobs:
         if: steps.gate.outputs.proceed == 'true'
         run: node factory/generate.js --check
 
-      - name: 'Cổng cuối: audit mọi bài PUBLISHED >= 75'
+      # MỐC 100 BÀI: milestone heavy gate (audit toàn factory + invariant +
+      # toàn bộ test suite) — không chặn writer sau mỗi pair, chỉ theo mốc.
+      - name: 'Mốc 100 PUBLISHED: heavy gate (audit + invariant + test suite)'
         if: steps.gate.outputs.proceed == 'true'
-        run: node factory/factory.js audit --min-score 75
-
-      - name: 'Cổng cuối: toàn bộ test nền tảng'
-        if: steps.gate.outputs.proceed == 'true'
-        run: node factory/test.js
-
-      - name: 'Cổng cuối: bộ test hardening'
-        if: steps.gate.outputs.proceed == 'true'
-        run: node factory/test-hardening.js
-
-      - name: 'Cổng cuối: bất biến production (PUBLISHED ↔ source ↔ trang ↔ sitemap)'
-        if: steps.gate.outputs.proceed == 'true'
-        run: node factory/factory.js verify-invariant
+        run: |
+          set -euo pipefail
+          PUBLISHED=$(node -e "const m=require('./factory/state/matrix.json');console.log(m.slots.filter(s=>s.state==='PUBLISHED').length)")
+          echo "PUBLISHED=$PUBLISHED"
+          if [ $((PUBLISHED % 100)) -eq 0 ]; then
+            echo "milestone $PUBLISHED bài — chạy heavy gate"
+            node factory/factory.js audit --min-score 75
+            node factory/factory.js verify-invariant
+            node factory/test.js
+            node factory/test-hardening.js
+            node factory/test-reliability.js
+            node factory/test-pair.js
+          else
+            echo "chưa chạm mốc 100 bài — bỏ qua heavy gate (deep audit vẫn chạy được manual)"
+          fi

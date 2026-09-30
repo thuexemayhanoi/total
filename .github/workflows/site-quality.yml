@@ -2,19 +2,13 @@ name: Site Quality
 
 # Kiểm định site đã sinh: HTML phải khớp generator (chống sửa tay), liên kết
 # nội bộ/canonical/sitemap sạch rác ký tự. Deterministic, không AI.
-# THAY ĐỔI HARDENING:
-#   - Paths thêm `factory/**`: đổi generator/template là đổi cả site sinh.
-#   - Concurrency theo ref: run của PR không cancel run của main.
-# THAY ĐỔI BACKLOG-AWARE (fix race Site Quality vs Factory Publisher):
-#   - Writer push article source (PLANNED/PASS chưa drain) → cây HTML committed
-#     trên main vẫn là cây CŨ (publisher mới sinh cây mới). Gate so cây sinh
-#     (`generate --check`, test nền tảng) chạy trên cây cũ sẽ đỏ GIẢ.
-#   - Sau checkout: đo `factory.js backlog` lấy CLAIMABLE_BACKLOG.
-#     CLAIMABLE_BACKLOG > 0  → đây là writer/source commit chờ publisher: HOÃN
-#     mọi gate phụ thuộc cây sinh (in log rõ ràng). Nhiệm vụ sinh cây + gate
-#     đầy đủ thuộc về Factory Publish và Factory Publish Verify (verify
-#     read-only sau publish) — không làm yếu cổng đó ở đây.
-#     CLAIMABLE_BACKLOG = 0  → chạy toàn bộ Site Quality như bình thường.
+# SIMPLE PRODUCTION MODE:
+#   - CONTENT_ONLY (chỉ article source + state): cây HTML trên main vẫn là
+#     cây CŨ cho tới khi Factory Publish (pair) sinh lại — mọi gate cây sinh
+#     chạy trên cây cũ sẽ ĐỎ GIẢ (kể cả repair push khi backlog = 0). Hoãn hết,
+#     ghi log rõ; gate cây sinh thuộc về Factory Publish + Publish Verify.
+#   - ENGINE_CHANGE: chạy gate đầy đủ, backlog-aware như cũ (claimable > 0 ->
+#     hoãn; publisher chưa drain).
 on:
   push:
     branches: [main]
@@ -38,11 +32,23 @@ jobs:
     steps:
       - name: Lấy mã nguồn
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Cài Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Phân loại thay đổi (CONTENT_ONLY | ENGINE_CHANGE)
+        id: mode
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          MODE=$(node factory/factory.js change-mode | sed -n 's/^CHANGE_MODE=//p')
+          echo "CHANGE_MODE=$MODE"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
 
       - name: Đo backlog claimable (writer commit chờ publisher?)
         id: backlog
@@ -52,14 +58,20 @@ jobs:
           echo "CLAIMABLE_BACKLOG=${CLAIMABLE}"
           echo "claimable=${CLAIMABLE}" >> "$GITHUB_OUTPUT"
 
-      - name: Báo hoãn gate cây sinh (backlog > 0 — chờ Factory Publish)
-        if: steps.backlog.outputs.claimable != '0'
+      # CONTENT_ONLY: HOÃN mọi gate cây sinh — cây cũ trên main chỉ được sinh
+      # lại bởi Factory Publish (pair); gate ở đây sẽ đỏ giả.
+      - name: Báo hoãn gate cây sinh (CONTENT_ONLY — chờ Factory Publish)
+        if: steps.mode.outputs.mode == 'CONTENT_ONLY'
+        run: echo "CONTENT_ONLY push — generated-tree checks deferred to Factory Publish (pair) / Publish Verify (không đỏ giả trên cây cũ)."
+
+      - name: Báo hoãn gate cây sinh (ENGINE_CHANGE + backlog > 0)
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable != '0'
         run: echo "Site Quality generated-tree checks deferred to Factory Publish / Factory Publish Verify because claimable backlog > 0."
 
       - name: HTML trên đĩa phải khớp kết quả sinh (không patch tay)
-        if: steps.backlog.outputs.claimable == '0'
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable == '0'
         run: node factory/generate.js --check
 
       - name: Kiểm định trang sinh (liên kết, canonical, sitemap, ký tự rác)
-        if: steps.backlog.outputs.claimable == '0'
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.backlog.outputs.claimable == '0'
         run: node factory/test.js

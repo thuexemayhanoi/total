@@ -1,30 +1,19 @@
 name: Factory Publish Verify (read-only)
 
-# Verify SAU publish — read-only, không commit. Luồng: READ STATE
-# -> RECOVER/RESUME -> VERIFY. Kiểm tra bất biến publish:
+# Verify SAU publish — read-only, không commit. LIGHT VERIFY: chỉ những gì
+# cần để khẳng định pair đã drain sạch và cây sinh khớp. Heavy suite
+# (audit/hardening/reliability) thuộc về Factory Publish mốc 100 bài và
+# factory-deep-audit.yml — KHÔNG chạy mỗi pair.
+# Kiểm tra bất biến publish:
 #   - mọi slot PUBLISHED có bài + trang sinh + nằm trong sitemap-articles;
 #   - mọi URL bài trong sitemap-articles thuộc slot PUBLISHED;
-#   - checkpoint khớp ma trận, không writer lock bị bỏ lại.
-#
-# THAY ĐỔI HARDENING:
-#   - Tự chạy SAU mỗi lần "Factory Publish (chunked)" thành công
-#     (workflow_run) — trước đây chỉ chạy manual, verify bị bỏ lọt khi cần nhất.
-#   - Checkout đúng HEAD main SAU bot commit (head_branch của run publish).
-#   - XÓA bước `generate` đột biến: chỉ chạy `--check` read-only — không ghi
-#     đĩa, không xoá bằng chứng stale.
-#   - Script bất biến FAIL LOUD khi module bài lỗi (in tên file + exit 1).
-#
-# THAY ĐỔI HARDENING 4-TẦNG (docs/FACTORY-RELIABILITY.md):
-#   - Bất biến production chuyển sang `factory.js verify-invariant` (logic
-#     canonical trong factory/lib/factory-runtime.js — KHÔNG heredoc duplicate).
-#   - DEFECT B: publish SUCCESS + backlog article-backed claimable > 0 -> FAIL
-#     (trước đây chỉ in "CẢNH BÁO" — workflow xanh trong khi factory đứng).
-#     PLANNED chưa có module bài (WAITING_FOR_WRITER) KHÔNG fail CI.
+#   - checkpoint khớp ma trận, không writer lock / txn marker bị bỏ lại;
+#   - backlog article-backed claimable = 0 (FAIL nếu còn — regression drain).
 
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ['Factory Publish (chunked)']
+    workflows: ['Factory Publish (pair)']
     types: [completed]
   push:
     branches: [main]
@@ -58,23 +47,16 @@ jobs:
           node factory/factory.js status
           node factory/factory.js resume
 
-      - name: Audit mọi bài PUBLISHED >= 75
-        run: node factory/factory.js audit --min-score 75
+      - name: 'Guard: state sạch (không lock/txn sót, checkpoint khớp)'
+        run: node factory/factory.js check-state
 
       - name: Kiểm tra không patch tay HTML (read-only, byte-exact)
         run: node factory/generate.js --check
 
-      - name: Bộ kiểm thử nền tảng
-        run: node factory/test.js
-
-      - name: Bộ kiểm thử hardening
-        run: node factory/test-hardening.js
-
       - name: Bất biến publish + backlog drain hết (FAIL nếu còn claimable)
         run: |
           node factory/factory.js verify-invariant
-          # DEFECT B hardening: publish workflow SUCCESS mà còn backlog
-          # article-backed claimable -> verify PHẢI FAIL (không chỉ cảnh báo),
-          # kèm chẩn đoán: pending ID, state, article source, HEAD SHA.
+          # publish SUCCESS mà còn backlog article-backed claimable -> FAIL
+          # (kèm chẩn đoán: pending ID, state, article source, HEAD SHA).
           # PLANNED chưa có module bài (WAITING_FOR_WRITER) KHÔNG fail CI.
           node factory/factory.js backlog --fail-if-claimable --head-sha "${{ github.sha }}"

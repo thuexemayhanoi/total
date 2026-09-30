@@ -13,8 +13,10 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 | `lib/render.js` | Kết xuất trang chủ, danh mục, hub, bài viết, trang tiện ích (giới thiệu, liên hệ, bảo mật, điều khoản) |
 | `generate.js` | Sinh toàn bộ site tĩnh + chỉ mục + sitemap (`--check`, `--out`) |
 | `qa.js` | Kiểm định chất lượng bài viết (ngưỡng ≥ 75) |
+| `seo.js` | Kiểm định SEO theo bài (ngưỡng ≥ 70, deterministic, không AI/API) |
 | `factory.js` | CLI vòng đời slot: plan → research → write → qa → publish; expand-capacity/set-planned-target |
 | `test.js` | Bộ kiểm thử nền tảng (chạy sau generate) |
+| `test-pair.js` | Regression SIMPLE PRODUCTION MODE (PAIR_SIZE = 2, exact push scope, txn recovery) |
 | `state/` | matrix.json, factory-state.json, checkpoint.json, manifest.json |
 
 ## Vòng đời slot

@@ -47,4 +47,4 @@ Expand chỉ tăng logical capacity — không preallocate slot, giữ nguyên m
 - Chi tiết đầy đủ trong `AGENTS.md` và `docs/`.
 
 ## Vận hành tự động
-Pipeline publish theo chunk (kiến trúc port từ /vanchinh, chạy Node factory): `factory-publish` claim → QA ≥ 75 → publish → một commit mỗi chunk; cổng `article-quality` và `site-quality`; dry-run `article-batch`; kiểm định sau publish `factory-publish-verify`. Không cron AI writing, không AI/API trong Actions, không force push.
+Pipeline publish SIMPLE PRODUCTION MODE (kiến trúc port từ /vanchinh, chạy Node factory): writer ngoài viết đúng 2 bài/lần (PAIR_SIZE = 2) push main → `factory-publish` xử lý EXACT push scope (`publish-pair`: scoped QA ≥ 75 + SEO ≥ 70 → sinh site → verify-pair → atomic COMMIT txn); cổng `article-quality`/`site-quality` phân mode nhẹ/nặng bằng `change-mode`; kiểm định sau publish `factory-publish-verify` (light); heavy gate ở `factory-deep-audit` và mốc 100 bài. Không cron AI writing, không AI/API trong Actions, không force push.

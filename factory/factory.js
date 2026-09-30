@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 // AI WIKI TOTAL — CONTENT FACTORY
 // Một writer duy nhất (writer lock), checkpoint, bảo vệ transaction, resume.
+//
+// SIMPLE PRODUCTION MODE (pair hot path): writer ngoài viết ĐÚNG 2 bài/lần,
+// publisher xử lý EXACT push scope (publish-pair/verify-pair/push-scope);
+// drain-iteration/publish legacy giữ làm đường manual recovery, KHÔNG phải
+// hot path production nữa.
 'use strict';
 // AI WIKI TOTAL — CONTENT FACTORY
 // Một writer duy nhất (writer lock ownership-safe), checkpoint, bảo vệ
@@ -26,6 +31,7 @@ const STATE_DIR = path.join(__dirname, 'state');
 const STATE_FILE = path.join(STATE_DIR, 'factory-state.json');
 const MATRIX_FILE = path.join(STATE_DIR, 'matrix.json');
 const LOCK_FILE = path.join(STATE_DIR, 'writer.lock');
+const TXN_FILE = path.join(STATE_DIR, 'txn.json');
 const CHECKPOINT_FILE = path.join(STATE_DIR, 'checkpoint.json');
 
 const TRANSITIONS = {
@@ -324,6 +330,213 @@ function publishAll() {
 //   -> publish explicit IDs (atomic) -> thả lock CỦA MÌNH -> NO-PROGRESS
 //   sentinel. KHÔNG dựa vào self-trigger của bot commit; KHÔNG sweep PASS.
 // Trả exit code (0 = vòng sạch; done=true nghĩa là backlog đã drain hết).
+// ---------- SIMPLE PRODUCTION MODE (pair hot path — exact push scope) ----------
+// PAIR_SIZE = 2 (canonical trong factory-runtime). HOT PATH chỉ: 1-2 ID tường
+// minh -> scoped QA+SEO -> generate -> verify-pair (nhẹ) -> lật đúng rows ->
+// save atomic. KHÔNG audit toàn site, KHÔNG test.js trong từng pair; heavy gate
+// chạy ở deep audit (engine change / dispatch / mốc 100 bài).
+function loadTxn() { return readJson(TXN_FILE, null); }
+function writeTxn(t) { atomicWrite(TXN_FILE, JSON.stringify(t, null, 1)); }
+function clearTxn() { try { fs.unlinkSync(TXN_FILE); } catch (_) { /* chưa có */ } }
+
+// RECOVERY txn crash — idempotent, fail-closed: mọi ID đã PUBLISHED -> complete
+// (xóa marker); ngược lại -> rollback (matrix chỉ ghi SAU mọi cổng nên marker
+// sót nghĩa là chưa từng ghi). Trả null khi không có marker.
+function recoverTxn(m) {
+  const t = loadTxn();
+  if (!t || !Array.isArray(t.ids)) return null;
+  const states = t.ids.map((id) => { const s = m.slots.find((x) => x.id === id); return s ? s.state : 'MISSING'; });
+  const done = states.every((st) => st === 'PUBLISHED');
+  clearTxn();
+  return { txn: t, outcome: done ? 'completed' : 'rolled-back' };
+}
+
+// Scoped QA + SEO một slot (đúng module của slot, KHÔNG scan toàn site).
+function qaSeoArticle(slot) {
+  const article = loadArticleBySlug(slot.slug);
+  if (!article) throw new Error('Chưa có module bài cho slot ' + slot.id + ' (' + slot.slug + ') — WAITING_FOR_WRITER');
+  const { qaArticle } = require('./qa');
+  const { seoArticle } = require('./seo');
+  const qa = qaArticle(article);
+  const seo = seoArticle(article, { knownSlugs: new Set(loadAllArticlesBySlug().keys()) });
+  return { article, qa, seo };
+}
+
+// Cannibalization scoped: intent của từng ID phải rỗng-không-bị, đúng format,
+// và KHÔNG trùng intent của slot khác trong ma trận.
+function intentConflicts(m, ids) {
+  const errs = [];
+  const others = m.slots.filter((s) => !ids.includes(s.id));
+  for (const id of ids) {
+    const s = m.slots.find((x) => x.id === id);
+    if (!s) { errs.push('không tìm thấy slot ' + id); continue; }
+    const v = String(s.primaryIntent || '').trim();
+    if (!v) errs.push('Slot ' + id + ' primaryIntent RỖNG — intent bắt buộc (cannibalization guard)');
+    else if (!INTENT_RE.test(v)) errs.push('Slot ' + id + ' primaryIntent sai format: ' + v);
+    else if (others.some((o) => String(o.primaryIntent || '').trim() === v)) {
+      errs.push('Slot ' + id + ' trùng primaryIntent với slot khác (' + v + ') — cannibalization');
+    }
+  }
+  return errs;
+}
+
+// VERIFY-PAIR (nhẹ, deterministic): đúng IDs — source + QA>=75 + SEO>=70 +
+// intent sạch + trang sinh tồn tại + canonical/schema/H1 + sitemap entry +
+// không ký tự rác + checkpoint/lock/txn sạch.
+function verifyPair(m, ids, opts) {
+  const errors = [];
+  const requirePublished = !opts || opts.requirePublished !== false;
+  const checkLock = !opts || opts.checkLock !== false;
+  const root = path.join(__dirname, '..');
+  const { SITE } = require('./site.config');
+  const cp = readJson(CHECKPOINT_FILE, {}) || {};
+  if (cp.slotCount !== m.slots.length) {
+    errors.push('checkpoint.slotCount (' + cp.slotCount + ') != matrix.slots.length (' + m.slots.length + ')');
+  }
+  if (checkLock && fs.existsSync(LOCK_FILE)) errors.push('writer lock còn tồn tại — không verify OK khi lock chưa giải phóng');
+  if (checkLock && fs.existsSync(TXN_FILE)) errors.push('txn marker còn sót — recover trước khi verify');
+  let sm = '';
+  try { sm = fs.readFileSync(path.join(root, 'sitemap-articles.xml'), 'utf8'); }
+  catch (e) { errors.push('không đọc được sitemap-articles.xml — ' + e.message); }
+  const GARBAGE = /[\u4e00-\u9fff\u0400-\u04ff\u3040-\u30ff\uac00-\ud7ff]/;
+  for (const id of ids) {
+    const s = m.slots.find((x) => x.id === id);
+    if (!s) { errors.push('không tìm thấy slot ' + id); continue; }
+    if (requirePublished && s.state !== 'PUBLISHED') errors.push('Slot ' + id + ' đang ' + s.state + ' — phải PUBLISHED');
+    let res;
+    try { res = qaSeoArticle(s); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
+    if (!res.qa.pass) errors.push('Slot ' + id + ' QA ' + res.qa.score + '/100 — dưới 75 hoặc critical fail');
+    if (!res.seo.pass) errors.push('Slot ' + id + ' SEO ' + res.seo.score + '/100 — dưới 70 hoặc critical fail');
+    for (const e of intentConflicts(m, [id])) errors.push(e);
+    const url = SITE.baseUrl + s.hub + '/' + s.slug + '/';
+    let html = '';
+    try { html = fs.readFileSync(path.join(root, s.hub, s.slug, 'index.html'), 'utf8'); }
+    catch (e) { errors.push('Slot ' + id + ' KHÔNG có trang sinh (' + s.hub + '/' + s.slug + '/index.html)'); continue; }
+    if (!/rel=["']canonical["']/.test(html) || !html.includes(url)) errors.push('Slot ' + id + ' canonical thiếu/sai (kỳ ' + url + ')');
+    if (!(/["']?@type["']?:\s*["']Article["']/.test(html))) errors.push('Slot ' + id + ' thiếu JSON-LD @type Article');
+    if (!html.includes('datePublished')) errors.push('Slot ' + id + ' thiếu datePublished trong schema');
+    const h1n = (html.match(/<h1[\s>]/g) || []).length;
+    if (h1n !== 1) errors.push('Slot ' + id + ' phải có đúng 1 thẻ H1 (có ' + h1n + ')');
+    if (!sm.includes(url)) errors.push('Slot ' + id + ' KHÔNG nằm trong sitemap-articles');
+    if (GARBAGE.test(html)) errors.push('Slot ' + id + ' trang sinh chứa ký tự rác');
+  }
+  return { ok: errors.length === 0, errors };
+}
+
+// VERIFY-SOURCES (read-only, chạy được TRƯỚC publish — writer commit): scoped
+// QA + SEO + intent cho đúng IDs, không đòi trang sinh.
+function verifySources(m, ids) {
+  const errors = [];
+  for (const id of ids) {
+    const s = m.slots.find((x) => x.id === id);
+    if (!s) { errors.push('không tìm thấy slot ' + id); continue; }
+    let res;
+    try { res = qaSeoArticle(s); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
+    if (!res.qa.pass) errors.push('Slot ' + id + ' (QA ' + res.qa.score + '/100): ' + res.qa.checks.filter((x) => !x.pass).map((x) => x.name).join('; '));
+    if (!res.seo.pass) errors.push('Slot ' + id + ' (SEO ' + res.seo.score + '/100): ' + res.seo.checks.filter((x) => !x.pass).map((x) => x.name).join('; '));
+    for (const e of intentConflicts(m, [id])) errors.push(e);
+  }
+  return { ok: errors.length === 0, errors };
+}
+
+function parsePairIds(args) {
+  const ids = String(args || '').split(/[\s,]+/).filter(Boolean);
+  if (!ids.length) throw new Error('publish-pair / verify-pair cần 1-' + runtime.PAIR_SIZE + ' ID tường minh (S00055,S00056)');
+  const seen = new Set();
+  for (const id of ids) {
+    if (!/^S\d{5,}$/.test(id)) throw new Error('ID không hợp lệ: ' + id);
+    if (seen.has(id)) throw new Error('ID lặp trong pair: ' + id);
+    seen.add(id);
+  }
+  if (ids.length > runtime.PAIR_SIZE) throw new Error('Quá ' + runtime.PAIR_SIZE + ' ID mỗi transaction (nhận ' + ids.length + ') — chia pair');
+  return ids;
+}
+
+// PUBLISH-PAIR — transaction đúng 1-2 ID: VALIDATE -> LOCK -> scoped QA+SEO+intent
+// -> BEGIN TXN -> generate -> verify-pair -> lật đúng rows -> save atomic -> COMMIT
+// (xóa txn) -> thả lock. Fail bất kỳ bước nào: KHÔNG ghi state (resumable).
+function publishPair(ids, opts) {
+  const o = opts || {};
+  const t0 = Date.now();
+  const spawn = o.spawn || ((file, args) => execFileSync(process.execPath, [file].concat(args || []), { stdio: 'inherit' }));
+  let m = loadMatrix();
+  validateMatrix(m);
+  const rec = recoverTxn(m);
+  if (rec) console.log('TXN_RECOVER ' + rec.outcome + ' (ids ' + (rec.txn.ids || []).join(',') + ')');
+  m = loadMatrix();
+  validateMatrix(m);
+  for (const id of ids) {
+    const s = m.slots.find((x) => x.id === id);
+    if (!s) throw new Error('Không tìm thấy slot ' + id);
+    if (s.state === 'BLOCKED') throw new Error('Slot ' + id + ' BLOCKED — cần người rà, KHÔNG tự publish');
+    if (!runtime.CLAIMABLE_STATES.includes(s.state) && s.state !== 'PUBLISHED') {
+      throw new Error('Slot ' + id + ' đang ' + s.state + ' — không publish được');
+    }
+  }
+  const pending = ids.filter((id) => m.slots.find((x) => x.id === id).state !== 'PUBLISHED');
+  // REPAIR: mọi ID đã PUBLISHED (writer sửa bài đã xuất bản) -> chấm lại
+  // QA/SEO + sinh lại trang + cập nhật điểm cho ĐÚNG IDs, KHÔNG đụng slot khác.
+  const isRepair = pending.length === 0;
+  const work = isRepair ? ids.slice() : pending;
+  if (isRepair) console.log('PAIR_REPAIR: mọi ID đã PUBLISHED — chấm lại QA/SEO + sinh lại trang (repair scope).');
+  const owner = o.owner || 'ci-publisher';
+  const record = lock.acquire(STATE_DIR, owner);
+  if (o.tokenFile) atomicWrite(o.tokenFile, record.token);
+  let committed = false;
+  try {
+    m = loadMatrix();
+    validateMatrix(m);
+    const tQa = Date.now();
+    const results = [];
+    for (const id of work) {
+      const s = m.slots.find((x) => x.id === id);
+      const res = qaSeoArticle(s);
+      results.push({ s, res });
+      console.log('QA+SEO ' + id + ' (' + s.slug + '): QA ' + res.qa.score + '/100 ' + (res.qa.pass ? 'ĐẠT' : 'TRƯỢT') + ' | SEO ' + res.seo.score + '/100 ' + (res.seo.pass ? 'ĐẠT' : 'TRƯỢT'));
+    }
+    const qaTime = Date.now() - tQa;
+    const intentErrs = intentConflicts(m, pending);
+    const failedIds = results.filter((r) => !r.res.qa.pass || !r.res.seo.pass).map((r) => r.s.id);
+    if (failedIds.length || intentErrs.length) {
+      for (const e of intentErrs) console.error('PAIR_REJECT: ' + e);
+      for (const r of results.filter((x) => !x.res.qa.pass || !x.res.seo.pass)) {
+        console.error('PAIR_REJECT: ' + r.s.id + ' — QA ' + r.res.qa.score + ' (pass=' + r.res.qa.pass + '), SEO ' + r.res.seo.score + ' (pass=' + r.res.seo.pass + ')');
+      }
+      throw new Error('Pair KHÔNG đủ điều kiện (QA >= 75, SEO >= 70, intent sạch) — KHÔNG mutate state; repair rồi push lại.');
+    }
+    writeTxn({ ids: work, phase: isRepair ? 'repairing' : 'publishing', at: new Date().toISOString(), owner });
+    const tGen = Date.now();
+    spawn(path.join(__dirname, 'generate.js'), []);
+    const genTime = Date.now() - tGen;
+    const tVer = Date.now();
+    const v = verifyPair(m, work, { requirePublished: isRepair, checkLock: false });
+    const verTime = Date.now() - tVer;
+    if (!v.ok) { for (const e of v.errors) console.error('VERIFY_PAIR_FAIL: ' + e); throw new Error('verify-pair không đạt — KHÔNG ghi state.'); }
+    for (const id of work) {
+      const s = m.slots.find((x) => x.id === id);
+      const res = results.find((r) => r.s.id === id).res;
+      s.state = 'PUBLISHED';
+      s.qaScore = res.qa.score;
+      s.seoScore = res.seo.score;
+      s.words = res.qa.words;
+      s.attempts = (s.attempts || 0) + 1;
+      s.updatedAt = new Date().toISOString();
+    }
+    validateMatrix(m);
+    saveMatrix(m);
+    saveState(loadState(), 'publish-pair:' + work.join(','));
+    clearTxn();
+    committed = true;
+    console.log('PAIR_RESULT ok=' + (isRepair ? 'republished' : 'published') + ' ids=' + work.join(',') +
+      ' qa_time=' + qaTime + 'ms generate_time=' + genTime + 'ms verify_time=' + verTime + 'ms total=' + (Date.now() - t0) + 'ms');
+  } finally {
+    try { lock.release(STATE_DIR, record); }
+    catch (e) { console.error('LỖI giải phóng lock (có thể bị reclaim): ' + e.message); }
+    if (!committed && fs.existsSync(TXN_FILE)) clearTxn();
+    if (o.tokenFile) { try { fs.unlinkSync(o.tokenFile); } catch (_) { /* đã xóa */ } }
+  }
+}
+
 function drainIteration(owner, tokenFile) {
   let slugs;
   try {
@@ -465,12 +678,40 @@ Lệnh:
                                   MỘT vòng drain: lock -> chọn chunk <= 10 -> QA ->
                                   publish explicit IDs -> thả lock -> NO-PROGRESS
                                   sentinel; in DRAIN_RESULT done=... (workflow gọi
-                                  lặp tới khi done=true)`);
+                                  lặp tới khi done=true)
+  publish-pair <ID,ID> [--owner O] [--token-file F]
+                                  Hot path: publish ĐÚNG pair (tối đa 2 ID) —
+                                  lock -> QA/SEO scoped -> generate -> verify-pair
+                                  -> flip PUBLISHED -> COMMIT txn (atomic,
+                                  idempotent, resumable sau crash)
+  verify-pair <ID,ID>            Light verify chỉ pair (QA/SEO/intent/HTML/
+                                  canonical/schema/sitemap/checkpoint, không
+                                  scan toàn site)
+  verify-sources <ID,ID>         Read-only pre-publish: rà source pair trước
+                                  khi writer push
+  recover-txn                    Recover txn marker sót sau crash (in TXN_RECOVER)
+  push-scope [--base B]          Xác định EXACT article IDs được ADD/MODIFY bởi
+                                  commit vừa push (in SCOPE_MODE/SCOPE_IDS/…)
+  publish-plan [--scope ID,ID]   Kế hoạch txn pair từ exact push scope (resume
+                                  backlog cũ trước, pair mới sau; WAITING_FOR_WRITER
+                                  không bao giờ vào plan)
+  change-mode                    Phân loại commit: CONTENT_ONLY | ENGINE_CHANGE
+                                  (cho CI chọn gate nhẹ/nặng)`);
 }
 
 function opt(flag) {
   const i = process.argv.indexOf(flag);
   return i >= 0 ? process.argv[i + 1] : null;
+}
+// Tham số vị trí của lệnh: bỏ flag + giá trị flag (--owner O, --scope ID, ...).
+function positional(rest) {
+  const WITH_VALUE = new Set(['--owner', '--token-file', '--base', '--scope', '--head-sha', '--limit', '--intent', '--min-score', '--fail-if-claimable']);
+  const out = [];
+  for (let i = 0; i < rest.length; i++) {
+    if (String(rest[i]).startsWith('--')) { if (WITH_VALUE.has(rest[i])) i++; continue; }
+    out.push(rest[i]);
+  }
+  return out;
 }
 
 function main() {
@@ -629,6 +870,10 @@ function main() {
     const r = qaArticle(article);
     console.log(`QA thử ${slot.id} (${slot.slug}): ${r.score}/100 — ${r.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} (${r.words} từ) — KHÔNG ghi state.`);
     for (const c of r.checks.filter(x => !x.pass)) console.log(`  - [${c.name}] ${c.note}`);
+    const { seoArticle } = require('./seo');
+    const sr = seoArticle(article, { knownSlugs: new Set(loadAllArticlesBySlug().keys()) });
+    console.log(`SEO thử ${slot.id} (${slot.slug}): ${sr.score}/100 — ${sr.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} — KHÔNG ghi state.`);
+    for (const c of sr.checks.filter(x => !x.pass)) console.log(`  - [${c.name}] ${c.note}`);
     return;
   }
   if (cmd === 'backlog') {
@@ -652,6 +897,7 @@ function main() {
   }
   if (cmd === 'check-state') {
     if (fs.existsSync(LOCK_FILE)) { console.error('writer lock bị commit lại vào repo — state bẩn, rà soát trước khi chạy production.'); process.exit(1); }
+    if (fs.existsSync(TXN_FILE)) { console.error('txn marker còn sót (crash giữa transaction) — chạy recover-txn / publish-pair để recover.'); process.exit(1); }
     const m = loadMatrix();
     validateMatrix(m);
     const cp = readJson(CHECKPOINT_FILE, null);
@@ -842,6 +1088,102 @@ function main() {
     console.log('Hành động cuối:', st.lastAction ? st.lastAction.action : 'chưa có');
     return;
   }
+  if (cmd === 'publish-pair') {
+    const ids = parsePairIds(positional(rest).join(' '));
+    const owner = opt('--owner') || 'ci-publisher';
+    const tokenFile = opt('--token-file');
+    try {
+      publishPair(ids, { owner, tokenFile });
+    } catch (e) {
+      console.error('PUBLISH_PAIR_FAIL: ' + (e && e.message ? e.message : e));
+      process.exit(1);
+    }
+    return;
+  }
+  if (cmd === 'verify-pair') {
+    const ids = parsePairIds(positional(rest).join(' '));
+    const m = loadMatrix();
+    const v = verifyPair(m, ids, { requirePublished: true });
+    if (!v.ok) { for (const e of v.errors) console.error('VERIFY_PAIR_FAIL: ' + e); process.exit(1); }
+    console.log('VERIFY_PAIR_OK: ' + ids.join(','));
+    return;
+  }
+  if (cmd === 'verify-sources') {
+    const ids = parsePairIds(positional(rest).join(' '));
+    const m = loadMatrix();
+    const v = verifySources(m, ids);
+    if (!v.ok) { for (const e of v.errors) console.error('VERIFY_SOURCES_FAIL: ' + e); process.exit(1); }
+    console.log('VERIFY_SOURCES_OK: ' + ids.join(','));
+    return;
+  }
+  if (cmd === 'recover-txn') {
+    if (!fs.existsSync(TXN_FILE)) { console.log('TXN_RECOVER none'); return; }
+    const m = loadMatrix();
+    validateMatrix(m);
+    const out = recoverTxn(m);
+    if (!out) { console.log('TXN_RECOVER none'); return; }
+    console.log('TXN_RECOVER ' + out.outcome + ' ids=' + (out.txn.ids || []).join(','));
+    return;
+  }
+  if (cmd === 'push-scope') {
+    const base = opt('--base') || 'HEAD~1';
+    const out = execFileSync('git', ['diff', '--name-status', base, 'HEAD', '--', 'factory/data/articles/'], { encoding: 'utf8' });
+    const entries = [];
+    for (const line of out.split('\n')) {
+      if (!line.trim()) continue;
+      const parts = line.split('\t');
+      if (parts.length < 2) { console.error('PUSH_SCOPE_FAIL: dòng diff lạ: ' + line); process.exit(1); }
+      const status = parts[0][0];
+      const file = parts[parts.length - 1];
+      if (!file.endsWith('.js')) continue;
+      let mod;
+      try { mod = require(path.join(process.cwd(), file)); }
+      catch (e) { console.error('PUSH_SCOPE_FAIL: không require được ' + file + ': ' + e.message); process.exit(1); }
+      if (!mod || !mod.slug) { console.error('PUSH_SCOPE_FAIL: module không có slug: ' + file); process.exit(1); }
+      entries.push({ status, slug: mod.slug });
+    }
+    const m = loadMatrix();
+    const scope = runtime.scopeFromSlugEntries(m, entries);
+    if (scope.deletedSlugs.length) { console.error('PUSH_SCOPE_FAIL: commit chứa DELETE article: ' + scope.deletedSlugs.join(',')); process.exit(1); }
+    const ids = scope.newIds.concat(scope.repairIds);
+    const mode = ids.length === 0 ? 'empty' : (scope.newIds.length === 0 ? 'repair' : 'pair');
+    console.log('SCOPE_MODE=' + mode);
+    console.log('SCOPE_IDS=' + ids.join(','));
+    console.log('SCOPE_NEW=' + scope.newIds.join(','));
+    console.log('SCOPE_REPAIR=' + scope.repairIds.join(','));
+    return;
+  }
+  if (cmd === 'publish-plan') {
+    const m = loadMatrix();
+    const scopeArg = opt('--scope');
+    let scopeIds = [];
+    if (scopeArg) {
+      scopeIds = scopeArg.split(',').map(x => x.trim()).filter(Boolean);
+      for (const id of scopeIds) {
+        if (!m.slots.find(sl => sl.id === id)) { console.error('PUBLISH_PLAN_FAIL: ID không tồn tại trong ma trận: ' + id); process.exit(1); }
+      }
+    }
+    const slugs = new Set(loadAllArticlesBySlug().keys());
+    const plan = runtime.buildPublishPlan(m, slugs, scopeIds);
+    if (!plan.txns.length) { console.log('PLAN_TXNS=0'); return; }
+    for (let i = 0; i < plan.txns.length; i++) {
+      const t = plan.txns[i];
+      console.log('TXN ' + (i + 1) + ' ' + t.ids.join(',') + ' mode=' + t.mode);
+    }
+    console.log('PLAN_TXNS=' + plan.txns.length);
+    return;
+  }
+  if (cmd === 'change-mode') {
+    let mode;
+    if ((process.env.GITHUB_EVENT_NAME || '') === 'push') {
+      const paths = execFileSync('git', ['diff', '--name-only', 'HEAD~1', 'HEAD'], { encoding: 'utf8' }).split('\n').filter(Boolean);
+      mode = runtime.classifyChangeMode(paths);
+    } else {
+      mode = 'ENGINE_CHANGE'; // workflow_dispatch/manual: mặc định engine
+    }
+    console.log('CHANGE_MODE=' + mode);
+    return;
+  }
   usage();
 }
 
@@ -854,4 +1196,7 @@ module.exports = {
   // hardening 4-tầng: lock ownership-safe + runtime thuần cho CI/test
   lock: { status: lockStatus, active: activeLock },
   runtime,
+  // simple production mode (pair hot path)
+  publishPair, parsePairIds, verifyPair, verifySources, intentConflicts,
+  recoverTxn, loadTxn, writeTxn, clearTxn, TXN_FILE,
 };

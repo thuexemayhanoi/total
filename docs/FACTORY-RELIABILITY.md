@@ -9,7 +9,9 @@ Một CI run SUCCESS với backlog article-backed claimable > 0 là **defect**, 
 - writer lock sạch (run đã release đúng lock của chính mình),
 - article-backed claimable backlog == 0,
 - production invariant (`factory.js verify-invariant`) PASS,
-- `generate.js --check`, `audit --min-score 75`, `test.js`, `test-hardening.js`, `test-reliability.js` đều xanh.
+- `generate.js --check`, `audit --min-score 75`, `test.js`, `test-hardening.js`, `test-reliability.js`, `test-pair.js` đều xanh.
+
+SIMPLE PRODUCTION MODE (pair): hot path của writer/publisher là `publish-pair` (đúng PAIR_SIZE = 2 ID, exact push scope, scoped QA >= 75 + SEO >= 70, txn atomic resumable). Heavy gate KHÔNG chạy mỗi pair — chỉ khi: engine/workflow đổi (CI ENGINE_CHANGE), mốc 100 PUBLISHED, hoặc `factory-deep-audit.yml` (workflow_dispatch).
 
 PLANNED chưa có article module KHÔNG phải backlog claimable — đó là `WAITING_FOR_WRITER`, không làm CI fail.
 
@@ -59,6 +61,7 @@ Logic production nằm trong `factory/lib/lock.js` và `factory/lib/factory-runt
 node factory/test.js              # nền tảng (Layer 1 cơ bản + UI/UX regression)
 node factory/test-hardening.js   # hardening regression
 node factory/test-reliability.js  # 4 tầng reliability (L1–L4)
+node factory/test-pair.js     # pair mode (PAIR_SIZE/exact scope/txn recovery)
 ```
 
-Cả ba được CI chạy trong Article Quality workflow. Không xóa test cũ để lấy màu xanh.
+Cả bốn được CI chạy trong Article Quality workflow khi ENGINE_CHANGE. CONTENT_ONLY push chỉ chạy gate nhẹ (`verify-sources` đúng EXACT IDs). Không xóa test cũ để lấy màu xanh.

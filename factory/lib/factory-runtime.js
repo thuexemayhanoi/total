@@ -16,6 +16,8 @@ const TERMINAL_STATES = ['PUBLISHED', 'BLOCKED'];
 const CLAIMABLE_STATES = ['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'REPAIR', 'PASS'];
 const PUBLISH_CHUNK_LIMIT = 10; // tối đa ID mỗi publish transaction
 const FIRST_CHUNK_LIMIT = 5;    // chunk đầu khi xưởng chưa có bài PUBLISHED nào
+const PAIR_SIZE = 2;             // SIMPLE PRODUCTION MODE: đúng 2 bài mỗi pair transaction
+const SEO_PASS_MIN = 70;        // ngưỡng SEO pass canonical (factory/seo.js chấm)
 
 function toSlugSet(articleSlugs) {
   if (articleSlugs instanceof Set) return articleSlugs;
@@ -107,6 +109,66 @@ function assertProgress(before, after) {
   return true;
 }
 
+// ---------- SIMPLE PRODUCTION MODE (pair hot path) ----------
+// Map slug -> ID slot theo ma trận (thuần).
+function slotIdsBySlugs(m, slugs) {
+  const out = [];
+  for (const s of m.slots) {
+    if ((slugs || []).includes(s.slug)) out.push(s.id);
+  }
+  return out;
+}
+
+// Phân loại push theo path đổi: mọi file đổi thuộc bài viết/state = CONTENT_ONLY;
+// bất kỳ file ngoài (engine, workflow, template...) = ENGINE_CHANGE.
+const CONTENT_PATH_RES = [/^factory\/data\/articles\//, /^factory\/state\//];
+function classifyChangeMode(changedPaths) {
+  const all = (Array.isArray(changedPaths) ? changedPaths : []).map(String).filter(Boolean);
+  if (!all.length) return 'EMPTY';
+  const isContent = (p) => CONTENT_PATH_RES.some((re) => re.test(p));
+  return all.every(isContent) ? 'CONTENT_ONLY' : 'ENGINE_CHANGE';
+}
+
+// EXACT PUSH SCOPE: entry = { status: 'A'|'M', slug } (từ git diff module bài).
+// Trả { newIds, repairIds, deletedSlugs } — chỉ đúng bài của commit này, không sweep.
+function scopeFromSlugEntries(m, entries) {
+  const bySlug = new Map(m.slots.map((s) => [s.slug, s]));
+  const newIds = [];
+  const repairIds = [];
+  const deletedSlugs = [];
+  for (const e of entries || []) {
+    const s = bySlug.get(e.slug);
+    if (!s) continue; // module không có slot tương ứng — bỏ qua (backlog command sẽ báo)
+    if (e.status === 'D') deletedSlugs.push(e.slug);
+    else if (e.status === 'A') newIds.push(s.id);
+    else repairIds.push(s.id);
+  }
+  return { newIds, repairIds, deletedSlugs };
+}
+
+// Kế hoạch publish theo pair: RESUME backlog article-backed CŨ TRƯỚC (crash
+// recovery, không trộn), rồi mới đến scope của push này; mỗi txn đúng PAIR_SIZE.
+// Slot WAITING_FOR_WRITER (chưa có bài) KHÔNG BAO GIỜ vào plan — không sweep.
+function buildPublishPlan(m, articleSlugs, scopeIds, opts) {
+  const size = (opts && Number.isFinite(opts.pairSize) && opts.pairSize > 0) ? opts.pairSize : PAIR_SIZE;
+  const slugs = toSlugSet(articleSlugs);
+  const scope = new Set((scopeIds || []).map(String));
+  const { claimable } = findClaimableBacklog(m, slugs);
+  const backlog = claimable
+    .filter((s) => !scope.has(s.id))
+    .sort((a, b) => (Number(String(a.id).slice(1)) - Number(String(b.id).slice(1))))
+    .map((s) => s.id);
+  const txns = [];
+  for (let i = 0; i < backlog.length; i += size) {
+    txns.push({ ids: backlog.slice(i, i + size), mode: 'resume' });
+  }
+  const scopeArr = (scopeIds || []).map(String).filter(Boolean);
+  for (let i = 0; i < scopeArr.length; i += size) {
+    txns.push({ ids: scopeArr.slice(i, i + size), mode: scopeArr.length === 1 ? 'repair' : 'pair' });
+  }
+  return { txns, backlogCount: backlog.length };
+}
+
 // Bất biến production sau SUCCESS — nhận predicate tiêm vào (test được ở unit
 // với fixture thuần; CLI verify-invariant cấp predicate từ đĩa thật).
 // ctx: {
@@ -142,6 +204,8 @@ function checkProductionInvariant(m, ctx) {
   }
   for (const s of m.slots.filter(x => x.state === 'PUBLISHED')) {
     if (!(Number(s.qaScore) >= minQa)) errors.push('slot ' + s.id + ' PUBLISHED nhưng qaScore=' + s.qaScore + ' < ' + minQa);
+    const minSeo = Number.isFinite(ctx && ctx.minSeoScore) ? ctx.minSeoScore : SEO_PASS_MIN;
+    if (s.seoScore != null && !(Number(s.seoScore) >= minSeo)) errors.push('slot ' + s.id + ' PUBLISHED nhưng seoScore=' + s.seoScore + ' < ' + minSeo);
     if (ctx && ctx.articleExists && !ctx.articleExists(s.slug)) {
       errors.push('slot ' + s.id + ' PUBLISHED nhưng KHÔNG có article source (' + s.slug + ')');
     }
@@ -163,6 +227,7 @@ function checkProductionInvariant(m, ctx) {
 
 module.exports = {
   TERMINAL_STATES, CLAIMABLE_STATES, PUBLISH_CHUNK_LIMIT, FIRST_CHUNK_LIMIT,
+  PAIR_SIZE, SEO_PASS_MIN, classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
   chunkLimit, maxIterations, findClaimableBacklog, selectChunk,
   snapshotState, computeProgress, assertProgress, checkProductionInvariant,
 };
