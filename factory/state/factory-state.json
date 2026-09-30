@@ -2,8 +2,7 @@
  "version": 1,
  "slots": [],
  "lastAction": {
-  "action": "expand-capacity:10000->20000",
-  "at": "2026-09-29T10:25:28.880Z",
-  "matrixShaBefore": "4754f6071f98435834c42ae2b2d0b64b465a2ea8"
+  "action": "publish:S00010,S00011,S00012",
+  "at": "2026-09-30T03:01:32.536Z"
  }
 }

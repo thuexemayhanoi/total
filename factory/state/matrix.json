@@ -138,11 +138,12 @@
    "title": "Thuê xe điện đi quán: những lưu ý",
    "primaryIntent": "informational/thue-xe-dien-di-quan",
    "notes": "Mở rộng cụm thuê xe điện theo tình huống đi quán.",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-22T00:00:00.000Z",
-   "updatedAt": "2026-09-22T00:00:00.000Z"
+   "updatedAt": "2026-09-30T03:01:31.977Z",
+   "words": 3040
   },
   {
    "id": "S00011",
@@ -151,11 +152,12 @@
    "title": "Đặt cọc thuê ô tô: những điều cần biết",
    "primaryIntent": "informational/dat-coc-thue-o-to",
    "notes": "Đào sâu khâu đặt cọc của cụm thuê ô tô.",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-22T00:00:00.000Z",
-   "updatedAt": "2026-09-22T00:00:00.000Z"
+   "updatedAt": "2026-09-30T03:01:31.977Z",
+   "words": 3050
   },
   {
    "id": "S00012",
@@ -164,11 +166,12 @@
    "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
    "primaryIntent": "informational/thue-xe-cho-do-cong-kenh",
    "notes": "Tình huống thuê theo nhu cầu chở hàng — thuộc pool rental-intent-gaps.",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-22T00:00:00.000Z",
-   "updatedAt": "2026-09-22T00:00:00.000Z"
+   "updatedAt": "2026-09-30T03:01:31.977Z",
+   "words": 3083
   }
  ]
 }

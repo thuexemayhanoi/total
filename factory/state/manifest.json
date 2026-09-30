@@ -512,6 +512,18 @@
   "kind": "article"
  },
  {
+  "rel": "thue-xe/xe-dien/thue-xe-dien-di-quan-luu-y/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
