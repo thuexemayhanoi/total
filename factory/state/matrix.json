@@ -180,11 +180,12 @@
    "title": "Thuê xe máy đi phượt: chuẩn bị và lưu ý",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:04:28.735Z",
-   "updatedAt": "2026-09-30T03:04:28.738Z"
+   "updatedAt": "2026-09-30T03:10:45.586Z",
+   "words": 2972
   },
   {
    "id": "S00014",
@@ -193,11 +194,12 @@
    "title": "Thuê ô tô có tài xế: những điều cần biết",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:04:28.821Z",
-   "updatedAt": "2026-09-30T03:04:28.823Z"
+   "updatedAt": "2026-09-30T03:10:45.586Z",
+   "words": 2974
   },
   {
    "id": "S00015",
@@ -206,11 +208,12 @@
    "title": "Xe máy không nổ máy: nguyên nhân và cách xử lý",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:04:28.895Z",
-   "updatedAt": "2026-09-30T03:04:28.896Z"
+   "updatedAt": "2026-09-30T03:10:45.586Z",
+   "words": 2884
   },
   {
    "id": "S00016",
@@ -219,11 +222,12 @@
    "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:04:28.967Z",
-   "updatedAt": "2026-09-30T03:04:28.969Z"
+   "updatedAt": "2026-09-30T03:10:45.586Z",
+   "words": 3107
   }
  ]
 }
