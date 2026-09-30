@@ -236,11 +236,12 @@
    "title": "Thuê xe điện theo tháng: những điều cần biết",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:11:42.592Z",
-   "updatedAt": "2026-09-30T03:11:42.594Z"
+   "updatedAt": "2026-09-30T03:18:05.805Z",
+   "words": 2995
   },
   {
    "id": "S00018",
@@ -249,11 +250,12 @@
    "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:11:42.669Z",
-   "updatedAt": "2026-09-30T03:11:42.670Z"
+   "updatedAt": "2026-09-30T03:18:05.805Z",
+   "words": 2510
   },
   {
    "id": "S00019",
@@ -262,11 +264,12 @@
    "title": "Lốp xe máy: cách chọn và thời điểm thay",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:11:42.751Z",
-   "updatedAt": "2026-09-30T03:11:42.753Z"
+   "updatedAt": "2026-09-30T03:18:05.805Z",
+   "words": 3091
   },
   {
    "id": "S00020",
@@ -275,11 +278,12 @@
    "title": "Xe hao xăng: nguyên nhân và cách xử lý",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:11:42.834Z",
-   "updatedAt": "2026-09-30T03:11:42.836Z"
+   "updatedAt": "2026-09-30T03:18:05.805Z",
+   "words": 2801
   }
  ]
 }

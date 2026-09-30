@@ -540,6 +540,22 @@
   "kind": "article"
  },
  {
+  "rel": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/lop-banh-xe/lop-xe-may-cach-chon-va-thoi-diem-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/van-de-thuong-gap/xe-hao-xang-nguyen-nhan-va-cach-xu-ly/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
