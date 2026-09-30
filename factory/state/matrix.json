@@ -460,11 +460,12 @@
    "title": "Động cơ 2 thì và 4 thì: khác biệt cơ bản",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:47:36.528Z",
-   "updatedAt": "2026-09-30T03:47:36.530Z"
+   "updatedAt": "2026-09-30T03:53:00.019Z",
+   "words": 2769
   },
   {
    "id": "S00034",
@@ -473,11 +474,12 @@
    "title": "Mua xe máy cũ: những điểm cần kiểm tra",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:47:36.607Z",
-   "updatedAt": "2026-09-30T03:47:36.609Z"
+   "updatedAt": "2026-09-30T03:53:00.019Z",
+   "words": 3210
   },
   {
    "id": "S00035",
@@ -486,11 +488,12 @@
    "title": "Khấu hao xe máy theo thời gian",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:47:36.682Z",
-   "updatedAt": "2026-09-30T03:47:36.683Z"
+   "updatedAt": "2026-09-30T03:53:00.019Z",
+   "words": 2924
   },
   {
    "id": "S00036",
@@ -499,11 +502,12 @@
    "title": "Cách đọc thông số kỹ thuật xe máy",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:47:36.753Z",
-   "updatedAt": "2026-09-30T03:47:36.754Z"
+   "updatedAt": "2026-09-30T03:53:00.019Z",
+   "words": 3120
   }
  ]
 }

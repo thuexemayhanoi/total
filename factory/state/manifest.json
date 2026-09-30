@@ -604,6 +604,22 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/dong-co-2-thi-va-4-thi-khac-biet-co-ban/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/mua-xe/mua-xe-may-cu-nhung-diem-can-kiem-tra/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "market/khau-hao/khau-hao-xe-may-theo-thoi-gian/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/doc-thong-so/doc-thong-so-ky-thuat-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },

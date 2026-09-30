@@ -2655,5 +2655,103 @@
    "người ngồi sau cần làm gì"
   ],
   "summary": "Chở thêm một người sau lưng không đơn giản là xe nặng thêm — toàn bộ hành vi của xe thay đổi: quãng đường phanh dài ra, trọng tâm dịch chuyển, lực cua khác đi, và mỗi thao tác ga - phanh - cua đều truyền qua người ngồi sau như qua một hành khách không có tay l"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/dong-co-2-thi-va-4-thi-khac-biet-co-ban/",
+  "title": "Động cơ 2 thì và 4 thì: khác biệt cơ bản",
+  "description": "Động cơ 2 thì và 4 thì khác nhau thế nào: nguyên lý nạp - nén - nổ - xả, cấu tạo, ưu nhược điểm, mức tiêu hao nhiên liệu và cách nhận biết trên xe máy.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "động cơ 2 thì",
+   "động cơ 4 thì",
+   "xy-lanh",
+   "piston",
+   "trục khuỷu",
+   "hòa khí"
+  ],
+  "keywords": [
+   "khác nhau động cơ 2 thì và 4 thì",
+   "động cơ 2 thì là gì",
+   "động cơ 4 thì hoạt động thế nào",
+   "xe 2 thì với 4 thì",
+   "nguyên lý động cơ 4 thì",
+   "động cơ 2 thì khói xanh"
+  ],
+  "summary": "Hỏi \"xe 2 thì với 4 thì khác nhau cái gì\" là câu hỏi kinh điển của người mới tìm hiểu xe máy — và cũng là câu hỏi bị trả lời sai nhiều nhất, vì khác biệt không nằm ở chỗ nào xe nhanh hơn, mà nằm trong nguyên lý làm việc của từng kỳ piston. Bài viết này giải th"
+ },
+ {
+  "kind": "article",
+  "url": "guide/mua-xe/mua-xe-may-cu-nhung-diem-can-kiem-tra/",
+  "title": "Mua xe máy cũ: những điểm cần kiểm tra",
+  "description": "Mua xe máy cũ cần kiểm tra gì: hồ sơ nguồn gốc, khung xe, máy, thử xe, đàm phán và thủ tục sang tên — hướng dẫn theo trình tự từ lúc xem xe tới lúc bàn giao.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "mua xe máy cũ",
+   "kiểm tra xe cũ",
+   "số khung số máy",
+   "sơn lại xe",
+   "chạy thử xe",
+   "sang tên xe"
+  ],
+  "keywords": [
+   "mua xe máy cũ cần kiểm tra gì",
+   "cách kiểm tra xe máy cũ",
+   "mua xe cũ lưu ý gì",
+   "kiểm tra máy xe cũ",
+   "mua xe máy cũ hồ sơ giấy tờ",
+   "chạy thử xe máy cũ"
+  ],
+  "summary": "Mua xe cũ là bài toán bất cân xứng: người bán biết mọi điểm yếu của xe, người mua chỉ có một buổi để tìm ra chúng. Bài viết này xây dựng phương pháp kiểm tra theo trình tự đúng của một buổi đi xem xe — bắt đầu từ hồ sơ và nguồn gốc (loại rủi ro tốn kém nhất nế"
+ },
+ {
+  "kind": "article",
+  "url": "market/khau-hao/khau-hao-xe-may-theo-thoi-gian/",
+  "title": "Khấu hao xe máy theo thời gian",
+  "description": "Khấu hao xe máy theo thời gian: giai đoạn mất giá nhanh nhất, các yếu tố ảnh hưởng, cách giữ giá xe và khi nào mua cũ đáng tiền hơn mua mới.",
+  "category": "Thị trường",
+  "hub": "Khấu hao",
+  "entities": [
+   "khấu hao xe máy",
+   "mất giá xe",
+   "giá bán lại",
+   "xe cũ giữ giá",
+   "thị trường xe cũ"
+  ],
+  "keywords": [
+   "khấu hao xe máy theo thời gian",
+   "xe máy mất giá nhanh",
+   "giá bán lại xe máy",
+   "xe cũ giữ giá",
+   "mua xe mới hay xe cũ",
+   "yếu tố ảnh hưởng giá xe cũ"
+  ],
+  "summary": "Chiếc xe máy rời khỏi cửa hàng là bắt đầu một quá trình thầm lặng nhất của vật sở hữu: mất giá. Khấu hao xe máy không diễn ra đều đặn theo từng năm — năm đầu rơi nhanh nhất, sau đó chậm dần tới mặt bằng cuối đời xe. Bài viết này giải thích đường cong khấu hao "
+ },
+ {
+  "kind": "article",
+  "url": "learn/doc-thong-so/doc-thong-so-ky-thuat-xe-may/",
+  "title": "Cách đọc thông số kỹ thuật xe máy",
+  "description": "Cách đọc thông số kỹ thuật xe máy: dung tích xy-lanh, công suất, mô-men xoắn, trọng lượng, tiêu hao nhiên liệu — ý nghĩa từng thông số và cách chọn xe theo nhu cầu.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "entities": [
+   "thông số kỹ thuật xe máy",
+   "dung tích xy-lanh",
+   "công suất",
+   "mô-men xoắn",
+   "tiêu hao nhiên liệu"
+  ],
+  "keywords": [
+   "đọc thông số kỹ thuật xe máy",
+   "dung tích xy-lanh là gì",
+   "công suất mô-men xoắn xe máy",
+   "thông số xe máy ý nghĩa",
+   "chọn xe theo thông số",
+   "mã lực xe máy"
+  ],
+  "summary": "Trang thông số kỹ thuật của một chiếc xe máy là bản khai tóm gọn nhất về tính cách của nó — nhưng chỉ với người biết cách đọc. Dung tích xy-lanh nói về khối lượng công việc mỗi vòng nổ, công suất và mô-men xoắn nói về sức mạnh và cách sức mạnh đó được trút ra,"
  }
 ]

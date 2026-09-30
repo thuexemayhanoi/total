@@ -988,5 +988,123 @@
    "chở trẻ em trên xe máy",
    "người ngồi sau cần làm gì"
   ]
+ },
+ {
+  "url": "wiki/dong-co/dong-co-2-thi-va-4-thi-khac-biet-co-ban/",
+  "title": "Động cơ 2 thì và 4 thì: khác biệt cơ bản",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "summary": "Hỏi \"xe 2 thì với 4 thì khác nhau cái gì\" là câu hỏi kinh điển của người mới tìm hiểu xe máy — và cũng là câu hỏi bị trả lời sai nhiều nhất, vì khác biệt không nằm ở chỗ nào xe nhanh hơn, mà nằm trong nguyên lý làm việc của từng kỳ piston. Bài viết này giải thích trình tự nạp - nén - nổ - xả của hai trường phái động cơ, so sánh cấu tạo (van, cạc te, hòa khí), phân tích ưu nhược điểm về công suất, tiêu hao nhiên liệu, độ ồn và khí thải, chỉ ra vì sao 4 thì thống trị xe máy hiện đại trong khi 2 thì còn sót lại ở vài ngóc ngách, và cách nhận biết loại động cơ của một chiếc xe.",
+  "quickAnswer": "Động cơ 2 thì hoàn thành cả chu trình nạp - nén - nổ - xả chỉ trong một vòng quay trục khuỷu (một kỳ piston lên, một kỳ hạ), cho công suất đột biến lớn hơn mỗi lần nổ nhưng xả nhớt ra theo khí thải. Động cơ 4 thì cần hai vòng quay (bốn kỳ piston), có van đóng mở đúng nhịp nên chạy êm, tiết kiệm và sạch hơn. Xe máy phổ thông hiện nay gần như toàn bộ dùng 4 thì; 2 thì còn gặp ở xe máy cũ, một số xe đua và máy công cụ nhỏ. Nhận biết: 4 thì cần thay nhớt theo chu kỳ và không có vòi xả nhớt nhòe xanh, 2 thì xả khói xanh và dùng xăng pha nhớt.",
+  "keyPoints": [
+   "\"Thì\" là một hành trình piston: 2 thì gói cả nạp - nén - nổ - xả trong hai hành trình (một vòng quay), 4 thì dành riêng mỗi hành trình cho mỗi kỳ (hai vòng quay) — khác biệt gốc tạo ra mọi khác biệt phía sau.",
+   "Cấu tạo khác nhau ở van: 4 thì có hệ van cam đóng mở đúng nhịp, 2 thì lấy khí qua lỗ trên thành xy-lanh — vì thế 2 thì ít chi tiết hơn, nhẹ hơn nhưng khó kiểm soát khí thải tinh vi.",
+   "Công suất mỗi lần nổ của 2 thì đậm hơn (nổ mỗi vòng quay), nhưng 4 thì bù lại bằng vòng tua cao ổn định, chạy êm và dải công suất dùng được rộng hơn.",
+   "Tiêu hao nhiên liệu và nhớt khác hẳn: 2 thì đốt nhớt trộn trong hòa khí (khói xanh là đặc trưng), 4 thì giữ nhớt trong cạc te tuần hoàn, thay theo chu kỳ — gọn và sạch hơn."
+  ],
+  "entities": [
+   "động cơ 2 thì",
+   "động cơ 4 thì",
+   "xy-lanh",
+   "piston",
+   "trục khuỷu",
+   "hòa khí"
+  ],
+  "keywords": [
+   "khác nhau động cơ 2 thì và 4 thì",
+   "động cơ 2 thì là gì",
+   "động cơ 4 thì hoạt động thế nào",
+   "xe 2 thì với 4 thì",
+   "nguyên lý động cơ 4 thì",
+   "động cơ 2 thì khói xanh"
+  ]
+ },
+ {
+  "url": "guide/mua-xe/mua-xe-may-cu-nhung-diem-can-kiem-tra/",
+  "title": "Mua xe máy cũ: những điểm cần kiểm tra",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Mua xe cũ là bài toán bất cân xứng: người bán biết mọi điểm yếu của xe, người mua chỉ có một buổi để tìm ra chúng. Bài viết này xây dựng phương pháp kiểm tra theo trình tự đúng của một buổi đi xem xe — bắt đầu từ hồ sơ và nguồn gốc (loại rủi ro tốn kém nhất nếu bỏ qua), sang ngoại hình và khung (nơi giấu dấu va chạm lớn), tới bộ máy và tư thế lái khi chạy thử, rồi mới tới chuyện đàm phán giá và thủ tục bàn giao. Mỗi phần kèm cả các dấu hiệu \"đạt\" lẫn \"cờ đỏ\" cần quay lưng, để một buổi xem xe biến thành một quyết định có căn cứ thay vì một canh bạc.",
+  "quickAnswer": "Khi đi xem xe cũ, kiểm tra theo trình tự: hồ sơ trước hết — giấy đăng ký khớp số khung số máy, nguồn gốc rõ, không thế chấp; khung và ngoại hình — nhìn dấu sơn lại, gờ hàn, khung thẳng, không móp lệch; bộ máy — đề nhanh, không khói lạ, không tiếng gõ, không rò dầu nhớt; chạy thử — tay lái không rung lệch, phanh chắc, số vào nhẹ; và cuối cùng mới đàm phán giá kèm điều khoản sang tên. Bỏ qua hồ sơ để mặc vào giá là rủi ro lớn nhất — xe rẻ mà hồ sơ có vấn đề là tiền mất táo víu.",
+  "keyPoints": [
+   "Hồ sơ và nguồn gốc là cổng kiểm tra số một: khớp số khung - số máy với đăng ký, chủ đứng tên rõ ràng, không tranh chấp hay thế chấp — rủi ro hồ sơ đắt hơn mọi lỗi kỹ thuật.",
+   "Vết sơn lại và gờ hàn kể lại lịch sử va chạm: soi mép lỗi sơn, bỏ gờ, khuỷu khung — dấu va chạm lớn có thể giấu dưới lớp sơn đẹp nhưng khó giấu dưới các chi tiết nhỏ.",
+   "Máy thử bằng tai và mũi trước mắt: đề nhanh, không khói xanh trắng đậm, không mùi khét, không tiếng gõ kim loại khi ga — một vòng nghe ở tua thấp và tua cao đáng giá hơn mọi lời quảng cáo.",
+   "Chạy thử là bắt buộc, không phải tùy chọn: tay lái thẳng, không rung lệch ở tốc độ, phanh chắc, vào số nhẹ, và hết hành trình gợi ý của riêng xe (tăng ga - phanh gấp nhẹ - cua chậm) trong điều kiện an toàn."
+  ],
+  "entities": [
+   "mua xe máy cũ",
+   "kiểm tra xe cũ",
+   "số khung số máy",
+   "sơn lại xe",
+   "chạy thử xe",
+   "sang tên xe"
+  ],
+  "keywords": [
+   "mua xe máy cũ cần kiểm tra gì",
+   "cách kiểm tra xe máy cũ",
+   "mua xe cũ lưu ý gì",
+   "kiểm tra máy xe cũ",
+   "mua xe máy cũ hồ sơ giấy tờ",
+   "chạy thử xe máy cũ"
+  ]
+ },
+ {
+  "url": "market/khau-hao/khau-hao-xe-may-theo-thoi-gian/",
+  "title": "Khấu hao xe máy theo thời gian",
+  "category": "Thị trường",
+  "hub": "Khấu hao",
+  "summary": "Chiếc xe máy rời khỏi cửa hàng là bắt đầu một quá trình thầm lặng nhất của vật sở hữu: mất giá. Khấu hao xe máy không diễn ra đều đặn theo từng năm — năm đầu rơi nhanh nhất, sau đó chậm dần tới mặt bằng cuối đời xe. Bài viết này giải thích đường cong khấu hao điển hình của xe máy, các yếu tố quyết định chiếc xe giữ giá hay rơi giá (màu sắc, dòng xe, lịch sử bảo dưỡng, tình trạng giấy tờ, cung cầu từng phân khúc), cách người chủ tác động được tới tốc độ mất giá của chính xe mình, và góc nhìn mua hàng: thời điểm nào mua xe cũ là hợp lý nhất trên đường cong này.",
+  "quickAnswer": "Khấu hao xe máy có đường cong điển hình: mất giá mạnh nhất trong năm đầu ra khỏi cửa hàng, sau đó chậm dần qua các năm giữa và gần như phẳng ở cuối đời xe. Yếu tố giữ giá mạnh nhất không phải thương hiệu mà là tình trạng giữ xe: lịch sử bảo dưỡng, km chạy, nguyên bản hay sơn lại, giấy tờ sạch. Người bán xe giữ được giá bằng chăm xe đều đặn và giữ nguyên bản; người mua nên nắm đường cong này để biết khoảng nào trên đời xe là vùng mua đáng tiền nhất.",
+  "keyPoints": [
+   "Đường cong khấu hao điển hình: dốc nhất ở năm đầu (chiếc xe chuyển từ \"mới\" sang \"đã qua sử dụng\"), thoải dần ở các năm giữa, và phẳng ở cuối đời — vì thế giá bán lại chênh rất nhiều chỉ vì xe nằm ở đâu trên đường cong.",
+   "Giá xe cũ bị chi phối bởi cung cầu phân khúc: dòng xe bán chạy, phụ tùng dễ kiếm, màu phổ biến luôn dễ bán và giữ giá tốt hơn xe đẹp nhưng kén người mua.",
+   "Tình trạng giữ xe quyết định chênh giá trong cùng đời xe: hai chiếc cùng đời cùng model có thể lệch nhau một khoảng lớn chỉ vì một chiếc có sổ bảo dưỡng và một chiếc sơn lại ba tấm.",
+   "Nguyên tắc \"giữ nguyên bản\" là cách giữ giá rẻ nhất: các nâng cấp đồ chơi hầu như không trả lại tiền lúc bán, còn trạng thái nguyên bản là thứ người mua cũ trả giá cao nhất."
+  ],
+  "entities": [
+   "khấu hao xe máy",
+   "mất giá xe",
+   "giá bán lại",
+   "xe cũ giữ giá",
+   "thị trường xe cũ"
+  ],
+  "keywords": [
+   "khấu hao xe máy theo thời gian",
+   "xe máy mất giá nhanh",
+   "giá bán lại xe máy",
+   "xe cũ giữ giá",
+   "mua xe mới hay xe cũ",
+   "yếu tố ảnh hưởng giá xe cũ"
+  ]
+ },
+ {
+  "url": "learn/doc-thong-so/doc-thong-so-ky-thuat-xe-may/",
+  "title": "Cách đọc thông số kỹ thuật xe máy",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Trang thông số kỹ thuật của một chiếc xe máy là bản khai tóm gọn nhất về tính cách của nó — nhưng chỉ với người biết cách đọc. Dung tích xy-lanh nói về khối lượng công việc mỗi vòng nổ, công suất và mô-men xoắn nói về sức mạnh và cách sức mạnh đó được trút ra, tỷ số nén nói về hiệu quả đốt, trọng lượng và kích thước nói về thể chất thật của xe, và tiêu hao nhiên liệu nói về chi phí owning dài hạn. Bài viết này đi qua từng nhóm thông số: ý nghĩa vật lý của con số, cách so sánh giữa hai chiếc xe, các lỗi đọc phổ biến, và cuối cùng là cách ghép các con số với nhu cầu sử dụng thật để chọn xe đúng người.",
+  "quickAnswer": "Đọc thông số xe máy theo nhóm: dung tích xy-lanh (cc — cỡ máy, cùng quyết định hạng giấy phép lái xe); công suất (kW hoặc mã lực — tốc độ tối đa và khả năng tăng tốc) và mô-men xoắn (Nm — lực kéo ở tua thấp, quan trọng với xe chở nặng và leo dốc); tỷ số nén (hiệu quả đốt); kích thước - trọng lượng (khéo léo trong phố hay ổn định đường trường); bình xăng và tiêu hao nhiên liệu (quãng đường và chi phí dài hạn). So sánh xe bằng thông số chỉ có nghĩa khi so cùng loại, và không con số nào thay thế được một chuyến chạy thử.",
+  "keyPoints": [
+   "Dung tích xy-lanh (cc) là con số \"danh tính\" của máy: cỡ khoang nổ — to hơn thường mạnh hơn nhưng ăn xăng hơn; và cũng là con số quyết định hạng giấy phép lái xe được phép điều khiển.",
+   "Công suất (kW/mã lực) và mô-men xoắn (Nm) là hai con số khác nhau: công suất trỏ về tốc độ tối đa và tăng tốc, mô-men trỏ về lực kéo ở tua thấp — xe chở nặng, leo dốc cần mô-men, xe chạy nhanh cần công suất.",
+   "Trọng lượng và kích thước quyết định \"thể chất\" xe: xe gọn nhẹ lắt lái trong phố, xe dài và nặng ổn định trên đường trường — con số này đáng chú ý hơn mọi lời quảng cáo về thiết kế.",
+   "Dung tích bình xăng cùng mức tiêu hao nhiên liệu cho biết quãng đường giữa hai lần đổ và chi phí dài hạn — thông số ít hấp dẫn khi mua nhưng hiện diện trong từng cây số của owning."
+  ],
+  "entities": [
+   "thông số kỹ thuật xe máy",
+   "dung tích xy-lanh",
+   "công suất",
+   "mô-men xoắn",
+   "tiêu hao nhiên liệu"
+  ],
+  "keywords": [
+   "đọc thông số kỹ thuật xe máy",
+   "dung tích xy-lanh là gì",
+   "công suất mô-men xoắn xe máy",
+   "thông số xe máy ý nghĩa",
+   "chọn xe theo thông số",
+   "mã lực xe máy"
+  ]
  }
 ]
