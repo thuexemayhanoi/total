@@ -49,3 +49,9 @@ jobs:
 
       - name: Bộ kiểm thử hardening (regression --check/publish/breadcrumb)
         run: node factory/test-hardening.js
+
+      # BỘ RELIABILITY 4 TẦNG (Unit -> Integration -> Production invariant ->
+      # Long-run/Failure recovery): lock ownership-safe, continuous drain,
+      # NO-PROGRESS sentinel, soak/recovery — mọi kịch bản trên fixture tmp.
+      - name: Bộ kiểm thử reliability 4 tầng (lock/drain/invariant/recovery)
+        run: node factory/test-reliability.js

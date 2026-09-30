@@ -3,26 +3,31 @@ name: Factory Publish (chunked)
 # Pipeline publish tự động, deterministic — KHÔNG AI, KHÔNG API key, KHÔNG secret.
 # Kiến trúc vận hành port từ /vanchinh, adapt sang Node factory của /total:
 #   writer ngoài (agent/Mistral run) commit bài viết dưới factory/data/articles/
-#   -> pipeline chạy đúng công cụ của xưởng (factory.js, generate.js, test.js):
-#      READ STATE -> guard (không writer lock) -> chọn chunk (resume slot dở
-#      TRƯỚC, rồi mới claim slot PLANNED có bài, tối đa 5-10 slot)
-#      -> QA từng slot (>= 90 mới PASS)
-#      -> PUBLISH THEO ID THẨN TRỌNG: chỉ đúng các ID PASS của chunk này được
-#      lật PUBLISHED; flip state + sinh lại site + test trên BẢN NHỚ;
-#      mọi cổng xanh mới ghi matrix/state ra đĩa (publish atomic). Publish fail
-#      -> exit 1, KHÔNG ghi state, slot giữ nguyên để resume.
-#      -> cổng publish lần 2 (audit >= 90, --check, test, test-hardening)
-#      -> MỘT commit duy nhất cho state + site đã sinh.
-# Repository là checkpoint: pipeline đứt giữa chừng thì lần đẩy bài sau tự
-# resume từ state trên nhánh main — không restart factory, không reset ma trận.
+#   -> pipeline chạy đúng công cụ của xưởng (factory.js, generate.js, test.js).
 #
-# THAY ĐỔI HARDENING:
-#   - Gate/chunk FAIL LOUD khi có module bài lỗi (in tên file + exit 1) —
-#     không âm thầm bỏ qua.
-#   - Đếm PASS trong CHÍNH chunk này (không quét cả ma trận), tránh lật
-#     slot PASS ngoài yêu cầu.
-#   - `publish` nhận ID tường minh; KHÔNG commit khi publish fail (state cũ
-#     còn resumable), KHÔNG continue-on-error giấu lỗi ở cổng.
+# THAY ĐỔI HARDENING 4-TẦNG (docs/FACTORY-RELIABILITY.md):
+#   - DEFECT A: writer lock ownership-safe. Acquire dùng primitive exclusive
+#     thật + token unique từng acquisition; cleanup của workflow CHỈ giải phóng
+#     lock khi token file tồn tại (chính run này đã acquire) — acquire fail
+#     thì KHÔNG BAO GIỜ xóa lock của writer khác. TTL 30 phút không phải daemon:
+#     stale chỉ được reclaim theo contract trong lock.acquire (race-safe).
+#   - DEFECT B: CONTINUOUS BACKLOG DRAIN — commit bằng GITHUB_TOKEN không tự
+#     trigger workflow push tiếp theo, nên một production run phải DRAIN TOÀN
+#     BỘ backlog article-backed claimable: mỗi vòng `drain-iteration` xử lý
+#     đúng một chunk <= 10 ID (QA >= 90 -> publish explicit IDs, atomic),
+#     commit chunk, rồi lặp tới khi backlog = 0. KHÔNG sweep toàn bộ PASS.
+#   - NO-PROGRESS SENTINEL: backlog > 0 mà một vòng không tiến triển hợp lệ
+#     (published tăng / backlog giảm / slot BLOCKED vì QA thật) -> FAIL LOUD.
+#   - Giới hạn vòng an toàn tính từ workload thực tế qua `drain-bound`
+#     (ceil(initial/limit) + phụ cấp recovery) — không hardcode "1000 vòng".
+#   - SUCCESS chỉ khi cuối run: state sạch + backlog claimable = 0
+#     (--fail-if-claimable) + generate --check + audit >= 90 + test.js +
+#     test-hardening.js. PLANNED chưa có module bài = WAITING_FOR_WRITER,
+#     KHÔNG phải lỗi CI.
+#   - Logic backlog/chunk/invariant nằm trong factory/lib/factory-runtime.js
+#     (deterministic, test được 4 tầng) — YAML chỉ orchestration.
+#   - Mọi cổng fail loud, không có step nào được phép "lỗi mà vẫn xanh" —
+#     repo là checkpoint resumable nên fail là an toàn.
 
 on:
   push:
@@ -39,6 +44,8 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      TOKEN_FILE: ${{ runner.temp }}/writer-lock-token
     steps:
       - name: Lấy mã nguồn
         uses: actions/checkout@v4
@@ -52,172 +59,129 @@ jobs:
 
       # Không AI/API bên trong Actions — mọi bước đều deterministic.
 
-      - name: Đọc trạng thái xưởng (READ STATE)
+      - name: Đọc trạng thái xưởng (READ STATE -> RECOVER/RESUME)
         run: |
           node factory/factory.js status
           node factory/factory.js resume
 
-      - name: Gate (chỉ chạy khi push thêm bài mới hoặc còn backlog)
+      - name: Gate (chỉ chạy khi push thêm bài mới hoặc còn backlog claimable)
         id: gate
         run: |
           # Chỉ bài MỚI THÊM khởi động chunk sản xuất; bài sửa (repair, rebuild)
-          # không tự claim chunk mới.
+          # không tự claim chunk mới. Backlog tính bằng factory.js backlog
+          # (logic canonical — KHÔNG heredoc duplicate).
           NEW_ARTICLES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- factory/data/articles/ | wc -l | tr -d ' ')
           echo "bài mới trong push này: $NEW_ARTICLES"
-          BACKLOG=$(node <<'EOF'
-          const fs = require('fs');
-          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
-          const dir = 'factory/data/articles';
-          const slugs = new Set();
-          for (const f of fs.readdirSync(dir)) {
-            if (!f.endsWith('.js')) continue;
-            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); }
-            catch (e) { console.error('Không nạp được module bài ' + dir + '/' + f + ' — ' + e.message); process.exit(1); }
-          }
-          const CLAIMABLE = ['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'REPAIR', 'PASS'];
-          console.log(m.slots.some(s => CLAIMABLE.includes(s.state) && slugs.has(s.slug)) ? 1 : 0);
-          EOF
-          )
-          echo "backlog (slot chưa xong đã có bài): $BACKLOG"
-          if [ "$NEW_ARTICLES" -gt 0 ] || [ "$BACKLOG" -eq 1 ]; then
+          BACKLOG=$(node factory/factory.js backlog | sed -n 's/^CLAIMABLE_BACKLOG=//p')
+          echo "backlog claimable (slot chưa xong đã có bài): $BACKLOG"
+          if [ "$NEW_ARTICLES" -gt 0 ] || [ "$BACKLOG" -gt 0 ]; then
             echo "proceed=true" >> "$GITHUB_OUTPUT"
           else
-            echo "không có bài mới và không còn backlog -> bỏ qua pipeline publish"
+            echo "không có bài mới và không còn backlog claimable -> bỏ qua pipeline publish"
             echo "proceed=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: 'Guard: không writer lock bị bỏ lại, ma trận hợp lệ'
+      - name: 'Guard: state sạch (không lock bị commit, ma trận hợp lệ, checkpoint khớp)'
+        if: steps.gate.outputs.proceed == 'true'
+        run: node factory/factory.js check-state
+
+      - name: Giới hạn vòng an toàn (tính từ workload thực tế — không hardcode)
+        id: bound
         if: steps.gate.outputs.proceed == 'true'
         run: |
-          test ! -f factory/state/writer.lock || { echo "writer lock bị commit lại — xưởng đang bận/dở, rà soát trước khi publish"; exit 1; }
-          node <<'EOF'
-          const fs = require('fs');
-          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
-          const VALID = new Set(['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'PASS', 'PUBLISHED', 'REPAIR', 'BLOCKED']);
-          const bad = m.slots.filter(s => !VALID.has(s.state));
-          if (bad.length) { console.error('slot trạng thái không hợp lệ:', bad.map(s => s.id).join(', ')); process.exit(1); }
-          const slugs = m.slots.map(s => s.slug);
-          if (new Set(slugs).size !== slugs.length) { console.error('trùng slug trong ma trận'); process.exit(1); }
-          console.log('ma trận hợp lệ:', m.slots.length, 'slot');
-          EOF
+          CLAIMABLE=$(node factory/factory.js backlog | sed -n 's/^CLAIMABLE_BACKLOG=//p')
+          MAX=$(node factory/factory.js drain-bound "$CLAIMABLE" | sed -n 's/^MAX_ITERATIONS=//p')
+          echo "max=$MAX" >> "$GITHUB_OUTPUT"
+          echo "backlog ban đầu: $CLAIMABLE -> tối đa $MAX vòng drain (ceil($CLAIMABLE/10) + phụ cấp recovery)"
 
-      - name: Chọn chunk (deterministic — resume trước, claim sau)
-        id: chunk
-        if: steps.gate.outputs.proceed == 'true'
-        run: |
-          node <<'EOF' >> "$GITHUB_OUTPUT"
-          const fs = require('fs');
-          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
-          const dir = 'factory/data/articles';
-          const slugs = new Set();
-          for (const f of fs.readdirSync(dir)) {
-            if (!f.endsWith('.js')) continue;
-            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); }
-            catch (e) { console.error('Không nạp được module bài ' + dir + '/' + f + ' — ' + e.message); process.exit(1); }
-          }
-          const TERMINAL = ['PUBLISHED', 'BLOCKED'];
-          const unfinished = m.slots.filter(s => !TERMINAL.includes(s.state) && s.state !== 'PLANNED' && slugs.has(s.slug));
-          const planned = m.slots.filter(s => s.state === 'PLANNED' && slugs.has(s.slug));
-          const published = m.slots.filter(s => s.state === 'PUBLISHED').length;
-          const LIMIT = published === 0 ? 5 : 10;
-          const chunk = [...unfinished, ...planned].slice(0, LIMIT);
-          console.log('ids=' + chunk.map(s => s.id).join(' '));
-          console.log('count=' + chunk.length);
-          console.log('resume=' + unfinished.length);
-          console.log('claimed=' + Math.max(0, Math.min(planned.length, LIMIT - unfinished.length)));
-          EOF
-          echo "chunk: ${{ steps.chunk.outputs.count }} slot (resume ${{ steps.chunk.outputs.resume }}, claim mới ${{ steps.chunk.outputs.claimed }})"
-
-      - name: Xin writer lock (one writer — bị từ chối nếu có lock sống)
-        if: steps.gate.outputs.proceed == 'true'
-        run: node factory/factory.js lock ci-publisher
-
-      - name: Claim chunk + QA từng slot (>= 90 mới PASS)
-        id: qa
+      # CONTINUOUS BACKLOG DRAIN: mỗi vòng = acquire lock (token ghi ra file)
+      # -> chunk <= 10 ID (resume trước, claim sau) -> QA >= 90 -> publish
+      # explicit IDs (atomic: cổng generate + test xanh mới ghi state) -> thả
+      # lock CỦA run này -> NO-PROGRESS sentinel. Vòng fail -> exit 1 (state
+      # trước chunk vẫn resumable). KHÔNG dựa vào self-trigger của bot commit.
+      - name: Drain liên tục (mỗi vòng <= 10 ID — tới khi backlog = 0)
+        id: drain
         if: steps.gate.outputs.proceed == 'true'
         run: |
           set -e
-          IDS="${{ steps.chunk.outputs.ids }}"
-          if [ -z "$IDS" ]; then
-            echo "KHÔNG có slot nào khớp bài trong push này — kiểm tra bài mới có slot PLANNED tương ứng trong ma trận chưa."
-            echo "pass=0" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          for ID in $IDS; do
-            ST=$(node -e "const m=require(process.cwd()+'/factory/state/matrix.json');const s=m.slots.find(x=>x.id===process.argv[1]);console.log(s.state)" "$ID")
-            if [ "$ST" = "PLANNED" ]; then
-              node factory/factory.js research "$ID"
-              ST=RESEARCH
+          MAX="${{ steps.bound.outputs.max }}"
+          i=0
+          while :; do
+            i=$((i+1))
+            echo "=== VÒNG DRAIN $i / tối đa $MAX ==="
+            set +e
+            OUT=$(node factory/factory.js drain-iteration --owner ci-publisher --token-file "$TOKEN_FILE" 2>&1)
+            ST=$?
+            set -e
+            echo "$OUT"
+            if [ "$ST" != "0" ]; then
+              echo "drain iteration fail (exit $ST) — state trước chunk vẫn resumable; chạy lại sẽ resume đúng điểm."
+              exit 1
             fi
-            if [ "$ST" = "RESEARCH" ]; then
-              node factory/factory.js write "$ID"
+            DONE=$(printf '%s\n' "$OUT" | sed -n 's/^DRAIN_RESULT done=//p' | cut -d' ' -f1)
+            # Commit chunk nếu có thay đổi (một commit cho state + site đã sinh).
+            git config user.name "total-factory-bot"
+            git config user.email "nguyentuantu2482@users.noreply.github.com"
+            git add -A
+            if ! git diff --cached --quiet; then
+              git commit -m "factory: publish chunk (drain vòng $i) [automated txn]"
+              ok=0
+              for t in 1 2 3; do
+                if git pull --rebase origin main && git push; then ok=1; break; fi
+                echo "push vướng (lần $t) — rebase an toàn rồi thử lại"
+                sleep 5
+              done
+              if [ "$ok" != "1" ]; then
+                echo "push thất bại sau 3 lần — repo vẫn là checkpoint, vòng drain kế tiếp sẽ resume đúng điểm"
+                exit 1
+              fi
             fi
-            node factory/factory.js qa "$ID"
+            if [ "$DONE" = "true" ]; then
+              echo "backlog claimable đã drain hết sau $i vòng."
+              exit 0
+            fi
+            if [ "$i" -ge "$MAX" ]; then
+              echo "FAIL: vượt giới hạn vòng an toàn ($MAX) mà backlog chưa drain hết — NO_PROGRESS guard / rà soát thủ công."
+              exit 1
+            fi
           done
-          # Liệt kê ID PASS trong CHÍNH chunk này — không quét cả ma trận
-          # (chống sweep slot PASS ngoài yêu cầu vào lệnh publish).
-          node -e "const m=require(process.cwd()+'/factory/state/matrix.json');const ids=process.argv[1].split(/\s+/).filter(Boolean);const passIds=m.slots.filter(s=>ids.includes(s.id)&&s.state==='PASS').map(s=>s.id);console.log('passids='+passIds.join(' '));console.log('pass='+passIds.length)" "$IDS" >> "$GITHUB_OUTPUT"
-          echo "slot PASS trong chunk: ${{ steps.qa.outputs.pass }}"
 
-      - name: Publish theo ID (atomic — mọi cổng xanh mới ghi state)
-        id: publish
-        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0'
-        continue-on-error: true
-        run: node factory/factory.js publish ${{ steps.qa.outputs.passids }}
+      # Cleanup CHỈ giải phóng lock khi CHÍNH run này đã acquire thành công
+      # (token file tồn tại). Acquire fail / run chưa từng giữ lock -> KHÔNG
+      # đụng lock của writer khác.
+      - name: Giải phóng writer lock (chỉ khi run này giữ lock)
+        if: always() && steps.gate.outputs.proceed == 'true'
+        run: |
+          if [ -f "$TOKEN_FILE" ]; then
+            node factory/factory.js unlock --owner ci-publisher --token "$(cat "$TOKEN_FILE")"
+            rm -f "$TOKEN_FILE"
+          else
+            echo "run này không giữ writer lock — KHÔNG đụng lock của writer khác."
+          fi
 
-      - name: 'Cổng publish: không patch tay HTML'
-        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0' && steps.publish.outcome == 'success'
+      # CỔNG CUỐI — SUCCESS chỉ khi mọi điều kiện dưới đây xanh.
+      - name: 'Cổng cuối: state sạch + backlog claimable = 0'
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          node factory/factory.js check-state
+          node factory/factory.js backlog --fail-if-claimable --head-sha "$GITHUB_SHA"
+
+      - name: 'Cổng cuối: không patch tay HTML (read-only, byte-exact)'
+        if: steps.gate.outputs.proceed == 'true'
         run: node factory/generate.js --check
 
-      - name: 'Cổng publish: audit mọi bài PUBLISHED >= 90'
-        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0' && steps.publish.outcome == 'success'
+      - name: 'Cổng cuối: audit mọi bài PUBLISHED >= 90'
+        if: steps.gate.outputs.proceed == 'true'
         run: node factory/factory.js audit --min-score 90
 
-      - name: 'Cổng publish: toàn bộ test nền tảng'
-        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0' && steps.publish.outcome == 'success'
+      - name: 'Cổng cuối: toàn bộ test nền tảng'
+        if: steps.gate.outputs.proceed == 'true'
         run: node factory/test.js
 
-      - name: 'Cổng publish: bộ test hardening'
-        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0' && steps.publish.outcome == 'success'
+      - name: 'Cổng cuối: bộ test hardening'
+        if: steps.gate.outputs.proceed == 'true'
         run: node factory/test-hardening.js
 
-      - name: Giải phóng writer lock
-        if: always() && steps.gate.outputs.proceed == 'true'
-        run: node factory/factory.js unlock
-
-      # CHỈ commit khi publish THÀNH CÔNG. Publish fail -> state trên đĩa vẫn là
-      # state trước chunk (resumable), KHÔNG commit để nguyên rác dở.
-      - name: Commit kết quả (một commit cho cả chunk — không force push)
-        if: steps.gate.outputs.proceed == 'true' && steps.qa.outputs.pass != '0' && steps.publish.outcome == 'success'
-        run: |
-          git config user.name "total-factory-bot"
-          git config user.email "nguyentuantu2482@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "không có thay đổi state để commit"
-          else
-            git commit -m "factory: publish chunk (${{ steps.chunk.outputs.count }} slot, resume ${{ steps.chunk.outputs.resume }}) [automated txn]"
-            for i in 1 2 3; do
-              if git pull --rebase origin main && git push; then
-                echo "đã push (lần thử $i)"
-                exit 0
-              fi
-              echo "push vướng (lần $i) — rebase an toàn rồi thử lại"
-              sleep 5
-            done
-            echo "push thất bại sau 3 lần — repo vẫn là checkpoint, chunk sẽ được resume ở lần đẩy bài sau"
-            exit 1
-          fi
-
-      - name: Khẳng định state sạch
-        if: always() && steps.gate.outputs.proceed == 'true'
-        run: |
-          test ! -f factory/state/writer.lock || { echo "writer lock bị bỏ lại"; exit 1; }
-          node -e "const m=require(process.cwd()+'/factory/state/matrix.json');const c=require(process.cwd()+'/factory/state/checkpoint.json');if(c.slotCount!==m.slots.length){console.error('checkpoint lệch ma trận:',c.slotCount,'vs',m.slots.length);process.exit(1)}console.log('checkpoint khớp ma trận:',c.slotCount,'slot')"
-
-      - name: Báo refusal nếu chunk không sạch
-        if: always() && steps.gate.outputs.proceed == 'true' && (steps.publish.outcome == 'failure' || steps.qa.outputs.pass == '0')
-        run: |
-          echo "publish bị từ chối (chunk không có slot PASS hoặc publish thất bại)."
-          echo "state trước chunk vẫn nguyên vẹn trên repo — slot sẽ được resume ở lần đẩy bài sau."
-          exit 1
+      - name: 'Cổng cuối: bất biến production (PUBLISHED ↔ source ↔ trang ↔ sitemap)'
+        if: steps.gate.outputs.proceed == 'true'
+        run: node factory/factory.js verify-invariant

@@ -13,6 +13,13 @@ name: Factory Publish Verify (read-only)
 #   - XÓA bước `generate` đột biến: chỉ chạy `--check` read-only — không ghi
 #     đĩa, không xoá bằng chứng stale.
 #   - Script bất biến FAIL LOUD khi module bài lỗi (in tên file + exit 1).
+#
+# THAY ĐỔI HARDENING 4-TẦNG (docs/FACTORY-RELIABILITY.md):
+#   - Bất biến production chuyển sang `factory.js verify-invariant` (logic
+#     canonical trong factory/lib/factory-runtime.js — KHÔNG heredoc duplicate).
+#   - DEFECT B: publish SUCCESS + backlog article-backed claimable > 0 -> FAIL
+#     (trước đây chỉ in "CẢNH BÁO" — workflow xanh trong khi factory đứng).
+#     PLANNED chưa có module bài (WAITING_FOR_WRITER) KHÔNG fail CI.
 
 on:
   workflow_dispatch:
@@ -63,39 +70,11 @@ jobs:
       - name: Bộ kiểm thử hardening
         run: node factory/test-hardening.js
 
-      - name: Bất biến publish (read-only)
+      - name: Bất biến publish + backlog drain hết (FAIL nếu còn claimable)
         run: |
-          set -e
-          test ! -f factory/state/writer.lock || { echo "writer lock bị commit lại — state bẩn"; exit 1; }
-          node <<'EOF'
-          const fs = require('fs');
-          const m = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
-          const sm = fs.readFileSync('sitemap-articles.xml', 'utf8');
-          const { SITE } = require(process.cwd() + '/factory/site.config.js');
-          const file = s => s.hub.split('/').join('/') + '/' + s.slug + '/index.html';
-          const url = s => SITE.baseUrl + s.hub.split('/').join('/') + '/' + s.slug + '/';
-          const published = m.slots.filter(s => s.state === 'PUBLISHED');
-          const missingFile = published.filter(s => !fs.existsSync(file(s)));
-          const notInSitemap = published.filter(s => !sm.includes(url(s)));
-          if (missingFile.length) { console.error('slot PUBLISHED không có trang sinh:', missingFile.map(s => s.id).join(', ')); process.exit(1); }
-          if (notInSitemap.length) { console.error('slot PUBLISHED không nằm trong sitemap:', notInSitemap.map(s => s.id).join(', ')); process.exit(1); }
-          const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(x => x[1]);
-          const pubUrls = new Set(published.map(url));
-          const bad = locs.filter(l => !pubUrls.has(l));
-          if (bad.length) { console.error('URL bài trong sitemap không thuộc slot PUBLISHED:', bad.join(', ')); process.exit(1); }
-          const c = JSON.parse(fs.readFileSync('factory/state/checkpoint.json', 'utf8'));
-          if (c.slotCount !== m.slots.length) { console.error('checkpoint lệch ma trận:', c.slotCount, 'vs', m.slots.length); process.exit(1); }
-          const dir = 'factory/data/articles';
-          const slugs = new Set();
-          for (const f of fs.readdirSync(dir)) {
-            if (!f.endsWith('.js')) continue;
-            try { slugs.add(require(process.cwd() + '/' + dir + '/' + f).slug); }
-            catch (e) { console.error('Không nạp được module bài ' + dir + '/' + f + ' — ' + e.message); process.exit(1); }
-          }
-          const PENDING = ['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'REPAIR', 'PASS'];
-          const pending = m.slots.filter(s => PENDING.includes(s.state) && slugs.has(s.slug));
-          console.log('bất biến publish OK:', published.length, 'bài PUBLISHED; checkpoint khớp ma trận');
-          console.log(pending.length
-            ? 'CẢNH BÁO: chunk đang chờ publish — ' + pending.map(s => s.id + ':' + s.state).join(', ')
-            : 'không có chunk đang chờ (state sạch)');
-          EOF
+          node factory/factory.js verify-invariant
+          # DEFECT B hardening: publish workflow SUCCESS mà còn backlog
+          # article-backed claimable -> verify PHẢI FAIL (không chỉ cảnh báo),
+          # kèm chẩn đoán: pending ID, state, article source, HEAD SHA.
+          # PLANNED chưa có module bài (WAITING_FOR_WRITER) KHÔNG fail CI.
+          node factory/factory.js backlog --fail-if-claimable --head-sha "${{ github.sha }}"
