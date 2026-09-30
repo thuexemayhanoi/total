@@ -1106,5 +1106,124 @@
    "chọn xe theo thông số",
    "mã lực xe máy"
   ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/cau-tao-xe-may-tong-quan-cac-he-thong/",
+  "title": "Cấu tạo xe máy: tổng quan các hệ thống chính",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Nhìn một chiếc xe máy, ta thấy tay lái, yên, hai bánh — nhưng đằng sau vẻ ngoài gọn là sự phối hợp của khoảng chục hệ thống kỹ thuật, mỗi hệ thống giữ một vai riêng và giao tiếp với nhau qua những liên kết ít ai để ý. Bài viết này là bản đồ tổng quan cấu tạo xe máy: từ khối máy sinh công suất, hệ truyền động mang công suất tới bánh sau, hệ thống điện nuôi bugi - đèn - đề, nhóm treo và phanh giữ an toàn, tới khung xe là bộ khung mang mọi thứ. Mỗi phần giải thích vai trò, các bộ phận chính và dấu hiệu hỏng đặc trưng — kiến thức nền để đọc hiểu mọi bài viết kỹ thuật sâu hơn trong bộ wiki.",
+  "quickAnswer": "Một chiếc xe máy gồm các hệ thống chính: khối máy (sinh công suất từ đốt nhiên liệu), hệ truyền động (truyền lực tới bánh sau qua côn, hộp số, xích hoặc CVT), hệ thống điện (ắc quy, dây nồng, bugi, đèn còi đề), hệ thống nhiên liệu (bình, bơm phin, họng ga), nhóm treo và bánh xe (giảm xóc, lốp), hệ thống phanh, và khung xe chịu tải tổng. Mỗi hệ thống có dấu hiệu hỏng đặc trưng — nghe, nhìn, ngửi đúng chỗ giúp phát hiện sớm trước khi hỏng lan sang hệ khác.",
+  "keyPoints": [
+   "Khối máy là nơi sinh công suất: piston - trục khuỷu - trục cam phối hợp theo nhịp nạp nén nổ xả; mọi triệu chứng máy (khó nổ, giật, hao nhớt) đều truy về nhóm này trước tiên.",
+   "Hệ truyền động là cầu nối từ máy ra bánh sau: côn - hộp số - xích (xe số) hoặc pulley - curoa - pulley (CVT xe ga) — mất mát và hao mòn của xe phần lớn xảy ra ở đúng đoạn này.",
+   "Hệ thống điện là thần kinh: ắc quy dự trữ, dây nồng phát, bugi đánh lửa, dây - cầu chì dẫn — hỏng điện thường biểu hiện bằng nhiều triệu chứng rắc rối khiến hay bị chẩn nhầm sang máy.",
+   "Nhóm treo và phanh là bộ đôi quyết định an toàn: giảm xóc giữ bánh tiếp đất, phanh biến chuyển động thành nhiệt — hai hệ này thoái hóa từ từ nên dễ bị chủ quan khi chưa hẳn hỏng."
+  ],
+  "entities": [
+   "cấu tạo xe máy",
+   "hệ thống truyền động",
+   "hệ thống điện xe máy",
+   "khung xe",
+   "hệ thống phanh",
+   "hệ thống treo"
+  ],
+  "keywords": [
+   "cấu tạo xe máy",
+   "xe máy gồm những hệ thống nào",
+   "hệ thống truyền động xe máy",
+   "hệ thống điện xe máy",
+   "nguyên lý hoạt động xe máy",
+   "các bộ phận chính của xe máy"
+  ]
+ },
+ {
+  "url": "wiki/dien-xe/he-thong-dien-xe-may-tong-quan/",
+  "title": "Hệ thống điện xe máy: tổng quan",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Trong mọi cụm của xe máy, hệ thống điện là cụm hay bị ghét nhất: hỏng của nó không đổ dầu, không bốc khói, chỉ hiện lên bằng những triệu chứng mập mờ — đề yếu, còi nhỏ, đèn chập chờn, chết máy lúc nóng — khiến người ta chẩn nhầm sang máy, thay bugi vô cớ và tháo lăm le các cụm khác. Bài viết này vẽ bản đồ hệ thống điện xe máy theo ba mạch: nguồn (ắc quy, dây nồng, chỉnh lưu), đánh lửa (cuộn, bugi, đúng thì nổ máy), và phụ tải (đèn, còi, đề) — kèm cách đọc triệu chứng theo mạch, nhóm hỏng thường gặp theo tuổi xe, và các thao tác tự kiểm an toàn người dùng có dụng cụ cơ bản làm được.",
+  "quickAnswer": "Hệ thống điện xe máy chia ba mạch: mạch nguồn (ắc quy dự trữ, dây nồng phát khi máy quay, chỉnh lưu ổn áp) nuôi toàn hệ thống; mạch đánh lửa (cuộn nguồn, bugi) sinh tia lửa đúng thì để máy nổ; mạch phụ tải (đèn, còi, đề, IC) tiêu thụ. Triệu chứng điện thường mập mờ: đề yếu - còi nhỏ - đèn mờ cùng lúc trỏ về nguồn; đề máy bình thường nhưng không nổ trỏ về đánh lửa; chập chờn lúc nóng thường do cuộn dây cô lập kém. Kiểm an toàn: đo ắc quy, soi đầu cọc, thử bugi — còn sâu hơn thì cần thợ có đồng hồ.",
+  "keyPoints": [
+   "Hệ thống điện là ba mạch chứ không phải một khối: nguồn (ắc quy - dây nồng - chỉnh lưu), đánh lửa (cuộn - bugi), phụ tải (đèn còi đề) — triệu chứng cho biết hỏng ở mạch nào, đừng tháo mò cả hệ.",
+   "Ắc quy là điểm khởi đầu của mọi chẩn đoán điện: nguồn yếu làm mọi phụ tải cùng giảm (đề chậm, còi nhỏ, đèn mờ) — thay vì \"xe hỏng nhiều thứ\", thường chỉ là một nguồn chung xuống cấp.",
+   "Dây nồng là máy phát điện của xe: khi máy quay, nó sạc lại ắc quy và nuôi phụ tải; dây nồng già hoặc chỉnh lưu hỏng là vòng luẩn quẩn \"sạc không đủ - ắc quy tụt - điện yếu - đề khó\".",
+   "Bugi là điểm giao cuối của mạch đánh lửa và là chi tiết đáng kiểm nhất khi máy khó nổ: một con bugi bẩn hoặc khe hở sai làm triệu chứng hệt như bệnh máy nặng — kiểm nó rẻ nhất nên làm trước nhất."
+  ],
+  "entities": [
+   "hệ thống điện xe máy",
+   "ắc quy xe máy",
+   "dây nồng",
+   "bugi",
+   "chỉnh lưu",
+   "mạch đánh lửa"
+  ],
+  "keywords": [
+   "hệ thống điện xe máy",
+   "ắc quy xe máy yếu",
+   "dây nồng xe máy",
+   "bugi xe máy",
+   "xe máy điện yếu",
+   "đèn xe máy mờ"
+  ]
+ },
+ {
+  "url": "tips/meo-bao-duong/bao-duong-xe-may-tai-nha-viec-tu-lam-duoc/",
+  "title": "Bảo dưỡng xe máy tại nhà: việc tự làm được",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "summary": "Không phải mọi kỳ bảo dưỡng đều cần ghé tiệm: một phần đáng kể công việc giữ xe khỏe nằm trong tầm tay người dùng tại nhà, với bộ dụng cụ nhỏ và các buổi chiều rảnh. Bài viết này gom nhóm việc tự làm được theo mức độ: nhóm hàng tuần gần như không cần dụng cụ (kiểm tra lốp, nhớt, ánh sáng), nhóm hàng tháng với tuýp cơ bản (xịch và tra mỡ, vệ sinh lọc gió, kiểm bugi), nhóm kỳ dài cần dụng cụ hơn (thay nhớt, thay bugi, chỉnh xích - côn); cùng ranh giới rõ ràng — những việc nào nên nhường thợ vì cần đồng hồ, thiết bị hoặcExperience đặc thù. Mỗi mục có trình tự và lỗi thường gặp để buổi tự làm đúng ngay từ lần đầu.",
+  "quickAnswer": "Bảo dưỡng xe tại nhà tự làm được ba nhóm: hàng tuần — soi lốp, kiểm tra mực nhớt và dầu phanh, rà đèn còi phanh bằng một vòng xe; hàng tháng — xịch và tra mỡ xích, vệ sinh lọc gió, kiểm bugi, siết ốc lỏng; theo kỳ km — thay nhớt và lọc, thay bugi, chỉnh xích - càng côn. Dụng cụ tối thiểu: bộ tuýp, cờ lê của xe, mỏ lết, dầu mỡ, chậu hứng và khăn. Nhường thợ: đo van, dầu phanh - xả hơi, chỉnh cam và mọi việc cần đồng hồ — tự làm những gì làm được, biết rõ cái gì nên nhờ.",
+  "keyPoints": [
+   "Bảo dưỡng tại nhà chia ba nhịp: hàng tuần (lốp, mực nhớt, đèn còi phanh), hàng tháng (xịch mỡ, lọc gió, bugi, ốc), theo kỳ km (thay nhớt, lọc, bugi) — gắn việc với nhịp là cách không quên.",
+   "Bộ dụng cụ tối thiểu không đắt: bộ tuýp đúng cỡ xe, cờ lê, mỏ lết nhỏ, dầu xịch, mỡ, chậu hứng, khăn và đèn pin — đầu tư một lần dùng nhiều năm, đổi lại phát hiện sớm mọi hỏng.",
+   "Thay nhớt và vệ sinh lọc gió là hai việc tự làm giá trị nhất: chiếm phần lớn \"khí\" bảo dưỡng định kỳ, chỉ cần tuân thủ đúng loại nhớt và đúng số km trong sổ tay.",
+   "Xích và phanh là hai cụm tự chăm được nhiều nhất và lợi nhất: xịch - tra mỡ - chỉnh căng giữ tuổi thọ xích gấp; vệ sinh kẹp và kiểm má phanh giữ phanh luôn chắc."
+  ],
+  "entities": [
+   "bảo dưỡng xe máy tại nhà",
+   "tự thay nhớt xe",
+   "xịch xích xe máy",
+   "vệ sinh lọc gió",
+   "thay bugi xe máy"
+  ],
+  "keywords": [
+   "bảo dưỡng xe máy tại nhà",
+   "tự bảo dưỡng xe máy",
+   "tự thay nhớt xe máy",
+   "cách xịch xích xe máy",
+   "vệ sinh lọc gió xe máy",
+   "những việc tự làm khi chăm xe"
+  ]
+ },
+ {
+  "url": "learn/kien-thuc-xe-dien/pin-va-sac-xe-may-dien-nhung-dieu-can-biet/",
+  "title": "Pin và sạc xe máy điện: những điều cần biết",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Với xe máy điện, pin không phải phụ tùng — pin là trái tim và là khoản chi lớn nhất trọn đời xe. Hiểu pin là hiểu ba nhóm điều: loại pin xe mình dùng (chì và lithium với các đặc tính khác nhau), cách sạc giữ tuổi pin (thói quen hằng ngày ảnh hưởng trực tiếp số năm pin sống), và dấu hiệu pin xuống cấp cần nhận ra sớm. Bài viết này đi qua các loại pin phổ biến trên xe máy điện tại Việt Nam, giải thích vòng đời sạc và vì sao sạc sai cách rút ngắn tuổi pin, hướng dẫn thói quen sạc - bảo quản - cất xe lâu ngày đúng cách, và trả lời những câu hỏi thực tế người đi xe điện hay gặp: sạc mỗi đêm có hại không, để kiệt pin có sao không, khi nào nên thay pin.",
+  "quickAnswer": "Pin xe máy điện có hai nhóm chính: pin chì (rẻ, nặng, chịu lạm dụng tốt hơn nhưng tuổi thọ sạc ngắn hơn mỗi ngày) và pin lithium (nhẹ, dung lượng cao, tuổi thọ chu kỳ dài nhưng cần sạc đúng cách hơn). Thói quen giữ pin: tránh xả kiệt thường xuyên, tránh sạc qua đêm đều đặn với sạc không có tự ngắt, tránh để xe dưới nắng nóng khi sạc, và đừng cất xe lâu ngày với pin cạn. Dấu hiệu pin yếu: xe đi ngắn dần cùng mức sạc, sạc nhanh đầy nhưng kiệt nhanh, pin nóng bất thường khi sạc — chấm mốc nên kiểm tra sớm thay vì để tới hỏng hẳn.",
+  "keyPoints": [
+   "Pin là khoản chi lớn nhất của xe điện: hiểu loại pin xe mình dùng (chì hay lithium, dung lượng bao nhiêu) là kiến thức số một — mọi thói quen chăm pin khác nhau giữa hai loại.",
+   "Tuổi pin đo bằng chu kỳ sạc - xả chứ không chỉ bằng năm: mỗi lần kiệt - đầy là một chu kỳ, và thói quen quyết định số chu kỳ pin đạt được trong đời — dùng hết một nửa rồi sạc là cách sạc nhẹ gánh nhất.",
+   "Xả kiệt thường xuyên là thói quen rút ngắn tuổi pin nhanh nhất — đặc biệt với lithium; ngược lại, giữ pin trong dải giữa (khoảng một phần năm tới chín phần mười) là vùng pin thoải mái nhất.",
+   "Sạc đúng: sạc nơi thoáng mát, dùng sạc zin có tự ngắt, không \"sạc qua đêm đều đặn\" với sạc không có chức năng ngắt, và rút khi đầy — nhiệt và việc giữ áp sạc cao liên tục là hai thứ pin ghét nhất."
+  ],
+  "entities": [
+   "pin xe máy điện",
+   "pin lithium",
+   "pin chì",
+   "sạc pin",
+   "chu kỳ sạc",
+   "xe máy điện"
+  ],
+  "keywords": [
+   "pin xe máy điện",
+   "cách sạc pin xe điện đúng cách",
+   "tuổi thọ pin xe máy điện",
+   "pin lithium xe điện",
+   "sạc pin xe điện bao lâu",
+   "bảo quản pin xe điện"
+  ]
  }
 ]

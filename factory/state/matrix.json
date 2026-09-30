@@ -516,11 +516,12 @@
    "title": "Cấu tạo xe máy: tổng quan các hệ thống chính",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:54:39.457Z",
-   "updatedAt": "2026-09-30T03:54:39.460Z"
+   "updatedAt": "2026-09-30T04:00:31.497Z",
+   "words": 2681
   },
   {
    "id": "S00038",
@@ -529,11 +530,12 @@
    "title": "Hệ thống điện xe máy: tổng quan",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:54:39.534Z",
-   "updatedAt": "2026-09-30T03:54:39.536Z"
+   "updatedAt": "2026-09-30T04:00:31.497Z",
+   "words": 2881
   },
   {
    "id": "S00039",
@@ -542,11 +544,12 @@
    "title": "Bảo dưỡng xe máy tại nhà: việc tự làm được",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:54:39.605Z",
-   "updatedAt": "2026-09-30T03:54:39.607Z"
+   "updatedAt": "2026-09-30T04:00:31.497Z",
+   "words": 2702
   },
   {
    "id": "S00040",
@@ -555,11 +558,12 @@
    "title": "Pin và sạc xe máy điện: những điều cần biết",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:54:39.675Z",
-   "updatedAt": "2026-09-30T03:54:39.677Z"
+   "updatedAt": "2026-09-30T04:00:31.497Z",
+   "words": 2875
   }
  ]
 }

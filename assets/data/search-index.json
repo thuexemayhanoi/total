@@ -2753,5 +2753,104 @@
    "mã lực xe máy"
   ],
   "summary": "Trang thông số kỹ thuật của một chiếc xe máy là bản khai tóm gọn nhất về tính cách của nó — nhưng chỉ với người biết cách đọc. Dung tích xy-lanh nói về khối lượng công việc mỗi vòng nổ, công suất và mô-men xoắn nói về sức mạnh và cách sức mạnh đó được trút ra,"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/cau-tao-xe-may-tong-quan-cac-he-thong/",
+  "title": "Cấu tạo xe máy: tổng quan các hệ thống chính",
+  "description": "Cấu tạo xe máy gồm những hệ thống nào: máy, truyền động, điện, phanh, treo, khung — vai trò từng cụm và cách chúng phối hợp khi xe vận hành.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "cấu tạo xe máy",
+   "hệ thống truyền động",
+   "hệ thống điện xe máy",
+   "khung xe",
+   "hệ thống phanh",
+   "hệ thống treo"
+  ],
+  "keywords": [
+   "cấu tạo xe máy",
+   "xe máy gồm những hệ thống nào",
+   "hệ thống truyền động xe máy",
+   "hệ thống điện xe máy",
+   "nguyên lý hoạt động xe máy",
+   "các bộ phận chính của xe máy"
+  ],
+  "summary": "Nhìn một chiếc xe máy, ta thấy tay lái, yên, hai bánh — nhưng đằng sau vẻ ngoài gọn là sự phối hợp của khoảng chục hệ thống kỹ thuật, mỗi hệ thống giữ một vai riêng và giao tiếp với nhau qua những liên kết ít ai để ý. Bài viết này là bản đồ tổng quan cấu tạo x"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dien-xe/he-thong-dien-xe-may-tong-quan/",
+  "title": "Hệ thống điện xe máy: tổng quan",
+  "description": "Hệ thống điện xe máy gồm những gì: ắc quy, dây nồng, bugi, đèn còi đề — vai trò từng mạch, dấu hiệu hỏng thường gặp và cách đọc triệu chứng điện.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "hệ thống điện xe máy",
+   "ắc quy xe máy",
+   "dây nồng",
+   "bugi",
+   "chỉnh lưu",
+   "mạch đánh lửa"
+  ],
+  "keywords": [
+   "hệ thống điện xe máy",
+   "ắc quy xe máy yếu",
+   "dây nồng xe máy",
+   "bugi xe máy",
+   "xe máy điện yếu",
+   "đèn xe máy mờ"
+  ],
+  "summary": "Trong mọi cụm của xe máy, hệ thống điện là cụm hay bị ghét nhất: hỏng của nó không đổ dầu, không bốc khói, chỉ hiện lên bằng những triệu chứng mập mờ — đề yếu, còi nhỏ, đèn chập chờn, chết máy lúc nóng — khiến người ta chẩn nhầm sang máy, thay bugi vô cớ và th"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-bao-duong/bao-duong-xe-may-tai-nha-viec-tu-lam-duoc/",
+  "title": "Bảo dưỡng xe máy tại nhà: việc tự làm được",
+  "description": "Bảo dưỡng xe máy tại nhà: những việc tự làm được như nhớt, xích, lọc gió, bugi, vệ sinh — dụng cụ tối thiểu, trình tự và giới hạn nên nhường thợ.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "bảo dưỡng xe máy tại nhà",
+   "tự thay nhớt xe",
+   "xịch xích xe máy",
+   "vệ sinh lọc gió",
+   "thay bugi xe máy"
+  ],
+  "keywords": [
+   "bảo dưỡng xe máy tại nhà",
+   "tự bảo dưỡng xe máy",
+   "tự thay nhớt xe máy",
+   "cách xịch xích xe máy",
+   "vệ sinh lọc gió xe máy",
+   "những việc tự làm khi chăm xe"
+  ],
+  "summary": "Không phải mọi kỳ bảo dưỡng đều cần ghé tiệm: một phần đáng kể công việc giữ xe khỏe nằm trong tầm tay người dùng tại nhà, với bộ dụng cụ nhỏ và các buổi chiều rảnh. Bài viết này gom nhóm việc tự làm được theo mức độ: nhóm hàng tuần gần như không cần dụng cụ ("
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/pin-va-sac-xe-may-dien-nhung-dieu-can-biet/",
+  "title": "Pin và sạc xe máy điện: những điều cần biết",
+  "description": "Pin và sạc xe máy điện: các loại pin phổ biến, vòng tuổi pin, thói quen sạc đúng cách, bảo quản mùa lạnh và dấu hiệu pin xuống cấp.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "pin xe máy điện",
+   "pin lithium",
+   "pin chì",
+   "sạc pin",
+   "chu kỳ sạc",
+   "xe máy điện"
+  ],
+  "keywords": [
+   "pin xe máy điện",
+   "cách sạc pin xe điện đúng cách",
+   "tuổi thọ pin xe máy điện",
+   "pin lithium xe điện",
+   "sạc pin xe điện bao lâu",
+   "bảo quản pin xe điện"
+  ],
+  "summary": "Với xe máy điện, pin không phải phụ tùng — pin là trái tim và là khoản chi lớn nhất trọn đời xe. Hiểu pin là hiểu ba nhóm điều: loại pin xe mình dùng (chì và lithium với các đặc tính khác nhau), cách sạc giữ tuổi pin (thói quen hằng ngày ảnh hưởng trực tiếp số"
  }
 ]
