@@ -15,3 +15,9 @@
 
 ## Quy trình sau QA
 QA không đạt → REPAIR → QA; nhiều lần không đạt → BLOCKED. Không bao giờ publish bài dưới ngưỡng.
+
+## QA bài KHÔNG thay thế factory reliability tests
+`qa <slot-id>` / `audit` chỉ chấm chất lượng nội dung một bài. Sự ổn định của xưởng (lock ownership-safe, continuous backlog drain, NO-PROGRESS sentinel, recovery/resume, bất biến production) nằm ở bộ test 4 tầng — chuẩn bắt buộc khi sửa factory/workflow:
+- `node factory/test-hardening.js` — regression hardening (byte-exact --check, publish atomic, breadcrumb, sitemap).
+- `node factory/test-reliability.js` — **Unit → Integration → Production invariant → Long-run/Failure recovery** (chi tiết contract: `docs/FACTORY-RELIABILITY.md`, "green means progress").
+Cả hai do Article Quality chạy trên CI và đều phải xanh trước khi merge mọi thay đổi factory/workflow.

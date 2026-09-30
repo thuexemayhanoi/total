@@ -21,18 +21,20 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → REPAIR → QA → BLOCKED.
 
 ## Capacity (cấu hình, không hard limit)
-`capacity` nằm trong `state/matrix.json` (hiện 20.000 — không phải giới hạn trọn đời):
+`capacity` luôn đọc từ `state/matrix.json` (canonical — KHÔNG hardcode con số trong docs/code; giá trị ví dụ dưới chỉ là **EXAMPLE ONLY**, lệnh sẽ REFUSE nếu `<NEW_CAPACITY>` không lớn hơn capacity hiện tại):
 ```bash
-node factory/factory.js expand-capacity 20000 --dry-run  # xem trước: CURRENT/REQUESTED/DELTA/STATE_SAFE...
-node factory/factory.js expand-capacity 20000             # migration thật: lock -> snapshot -> migrate -> verify -> rollback nếu fail
-node factory/factory.js set-planned-target 8000           # mục tiêu kế hoạch (<= capacity, >= số slot đã có)
+node factory/factory.js expand-capacity <NEW_CAPACITY> --dry-run  # xem trước: CURRENT/REQUESTED/DELTA/STATE_SAFE...
+node factory/factory.js expand-capacity <NEW_CAPACITY>            # migration thật: lock -> snapshot -> migrate -> verify -> rollback nếu fail
+node factory/factory.js set-planned-target <N>                    # mục tiêu kế hoạch (<= capacity, >= số slot đã có)
 ```
 Chỉ tăng (refuse shrink/cùng mức), không preallocate slot, giữ nguyên ID/PUBLISHED/plannedTarget/reserved.
 
 ## Bảo vệ
-- One writer + writer lock TTL 30 phút.
+- One writer — lock **ownership-safe**: acquire bằng primitive exclusive thật (link/open 'wx') + token unique mỗi acquisition; unlock cần `--owner` + `--token` của chính acquisition (sai là REFUSE), TTL 30 phút chỉ reclaim theo contract trong `factory/lib/lock.js` (không phải daemon tự xóa).
+- Publish theo explicit IDs, tối đa 10 ID mỗi transaction (KHÔNG publish-all, KHÔNG sweep PASS); continuous drain trong workflow không dựa vào self-trigger của bot commit.
 - Ghi file atomic (ghi tạm → đổi tên).
 - Checkpoint khớp số slot ma trận.
+- Bộ test reliability 4 tầng: `node factory/test-reliability.js` (xem `docs/FACTORY-RELIABILITY.md`).
 - Không gọi AI API trong GitHub Actions.
 - Pipeline publish theo chunk trong Actions (factory-publish.yml): resume slot dở trước khi claim mới, QA ≥ 90 mới PUBLISHED, một commit mỗi chunk, không force push, bounded retry khi push.
 
