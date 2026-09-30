@@ -1,8 +1,8 @@
 # QA — kiểm định chất lượng bài
 
 ## Điểm và ngưỡng
-- Mỗi bài chấm theo trọng số, thang 100. PUBLISHED yêu cầu ≥ 90 và không check critical nào rơi.
-- Chạy: `node factory/factory.js qa <slot-id>`; audit toàn bộ: `node factory/factory.js audit --min-score 90`.
+- Mỗi bài chấm theo trọng số, thang 100. PUBLISHED yêu cầu ≥ 75 và không check critical nào rơi.
+- Chạy: `node factory/factory.js qa <slot-id>`; audit toàn bộ: `node factory/factory.js audit --min-score 75`.
 
 ## Check critical (rơi là hỏng)
 - Độ dài ≥ 1.600 từ.

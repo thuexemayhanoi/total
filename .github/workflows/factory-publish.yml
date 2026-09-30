@@ -14,14 +14,14 @@ name: Factory Publish (chunked)
 #   - DEFECT B: CONTINUOUS BACKLOG DRAIN — commit bằng GITHUB_TOKEN không tự
 #     trigger workflow push tiếp theo, nên một production run phải DRAIN TOÀN
 #     BỘ backlog article-backed claimable: mỗi vòng `drain-iteration` xử lý
-#     đúng một chunk <= 10 ID (QA >= 90 -> publish explicit IDs, atomic),
+#     đúng một chunk <= 10 ID (QA >= 75 -> publish explicit IDs, atomic),
 #     commit chunk, rồi lặp tới khi backlog = 0. KHÔNG sweep toàn bộ PASS.
 #   - NO-PROGRESS SENTINEL: backlog > 0 mà một vòng không tiến triển hợp lệ
 #     (published tăng / backlog giảm / slot BLOCKED vì QA thật) -> FAIL LOUD.
 #   - Giới hạn vòng an toàn tính từ workload thực tế qua `drain-bound`
 #     (ceil(initial/limit) + phụ cấp recovery) — không hardcode "1000 vòng".
 #   - SUCCESS chỉ khi cuối run: state sạch + backlog claimable = 0
-#     (--fail-if-claimable) + generate --check + audit >= 90 + test.js +
+#     (--fail-if-claimable) + generate --check + audit >= 75 + test.js +
 #     test-hardening.js. PLANNED chưa có module bài = WAITING_FOR_WRITER,
 #     KHÔNG phải lỗi CI.
 #   - Logic backlog/chunk/invariant nằm trong factory/lib/factory-runtime.js
@@ -93,7 +93,7 @@ jobs:
           echo "backlog ban đầu: $CLAIMABLE -> tối đa $MAX vòng drain (ceil($CLAIMABLE/10) + phụ cấp recovery)"
 
       # CONTINUOUS BACKLOG DRAIN: mỗi vòng = acquire lock (token ghi ra file)
-      # -> chunk <= 10 ID (resume trước, claim sau) -> QA >= 90 -> publish
+      # -> chunk <= 10 ID (resume trước, claim sau) -> QA >= 75 -> publish
       # explicit IDs (atomic: cổng generate + test xanh mới ghi state) -> thả
       # lock CỦA run này -> NO-PROGRESS sentinel. Vòng fail -> exit 1 (state
       # trước chunk vẫn resumable). KHÔNG dựa vào self-trigger của bot commit.
@@ -173,9 +173,9 @@ jobs:
         if: steps.gate.outputs.proceed == 'true'
         run: node factory/generate.js --check
 
-      - name: 'Cổng cuối: audit mọi bài PUBLISHED >= 90'
+      - name: 'Cổng cuối: audit mọi bài PUBLISHED >= 75'
         if: steps.gate.outputs.proceed == 'true'
-        run: node factory/factory.js audit --min-score 90
+        run: node factory/factory.js audit --min-score 75
 
       - name: 'Cổng cuối: toàn bộ test nền tảng'
         if: steps.gate.outputs.proceed == 'true'

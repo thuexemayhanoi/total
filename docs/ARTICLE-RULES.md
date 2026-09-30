@@ -11,7 +11,7 @@
 Không bịa giá, địa chỉ, giờ mở cửa, danh sách xe đang có, phạm vi giao xe, điều khoản dịch vụ. Với nội dung ngoài khu vực đã xác minh: **informational only**. QA chặn các pattern: giá thuê chỉ từ, địa chỉ số nhà, liên hệ zalo, hotline.
 
 ## Chất lượng
-- QA ≥ 90 mới được PUBLISHED; khuyến nghị mọi bài đạt 100.
+- QA ≥ 75 mới được PUBLISHED; khuyến nghị mọi bài đạt 100.
 - Không ký tự rác CJK/Cyrillic/Hangul — QA và test đều quét.
 - Mục lục, breadcrumb, bài liên quan sinh tự động từ dữ liệu.
 

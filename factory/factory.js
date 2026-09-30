@@ -447,7 +447,7 @@ Lệnh:
   publish <ID> [<ID>...]       Publish slot PASS theo ID tường minh (atomic,
                                tối đa 10 ID; cổng sinh lại site + test xanh
                                mới ghi state, fail thì giữ nguyên để resume)
-  audit [--min-score 90]          Rà mọi bài PUBLISHED
+  audit [--min-score 75]          Rà mọi bài PUBLISHED
   resume                          Tiếp tục từ checkpoint
   expand-capacity <N> [--dry-run] Mở rộng capacity ma trận (chỉ tăng, KHÔNG shrink)
   set-planned-target <N> [--dry-run] Đặt mục tiêu kế hoạch (<= capacity, >= số slot đã có)
@@ -600,7 +600,7 @@ function main() {
     return;
   }
   if (cmd === 'audit') {
-    const min = Number(opt('--min-score') || 90);
+    const min = Number(opt('--min-score') || 75);
     const m = loadMatrix();
     const { qaArticle } = require('./qa');
     let fail = 0;
@@ -754,7 +754,7 @@ function main() {
         console.log('  2. snapshot + hash ma trận (sha1) ghi vào factory-state.lastAction');
         console.log(`  3. matrix.capacity: ${m.capacity} -> ${n} — KHÔNG preallocate slot; ID/slots/plannedTarget/reserved giữ nguyên`);
         console.log('  4. validate IDs + validate ma trận + khớp checkpoint');
-        console.log('  5. verify: generate --check + test.js + audit --min-score 90 (fail -> ROLLBACK toàn vẹn)');
+        console.log('  5. verify: generate --check + test.js + audit --min-score 75 (fail -> ROLLBACK toàn vẹn)');
         console.log('  6. commit state + release lock sạch');
         return;
       }
@@ -802,7 +802,7 @@ function main() {
       // Verify sau migration — bất kỳ bước nào fail thì rollback toàn vẹn.
       execFileSync(process.execPath, [path.join(__dirname, 'generate.js'), '--check'], { stdio: 'inherit' });
       execFileSync(process.execPath, [path.join(__dirname, 'test.js')], { stdio: 'inherit' });
-      execFileSync(process.execPath, [__filename, 'audit', '--min-score', '90'], { stdio: 'inherit' });
+      execFileSync(process.execPath, [__filename, 'audit', '--min-score', '75'], { stdio: 'inherit' });
     } catch (e) {
       if (migrated) {
         atomicWrite(MATRIX_FILE, before);

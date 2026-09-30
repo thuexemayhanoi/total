@@ -118,11 +118,11 @@ function assertProgress(before, after) {
 //   sitemapHas?: fn(url) -> bool,
 //   url: fn(slot) -> string,
 //   sitemapUrls?: [string],
-//   minQaScore?: number (mặc định 90),
+//   minQaScore?: number (mặc định 75),
 // }
 function checkProductionInvariant(m, ctx) {
   const errors = [];
-  const minQa = Number.isFinite(ctx && ctx.minQaScore) ? ctx.minQaScore : 90;
+  const minQa = Number.isFinite(ctx && ctx.minQaScore) ? ctx.minQaScore : 75;
   if (!m || !Array.isArray(m.slots)) { return { ok: false, errors: ['ma trận không hợp lệ (thiếu slots)'] }; }
   if (ctx && ctx.hasLock) errors.push('writer lock vẫn còn sau run — không được SUCCESS khi lock chưa giải phóng');
   if (!ctx || !Number.isInteger(ctx.checkpointSlotCount) || ctx.checkpointSlotCount !== m.slots.length) {

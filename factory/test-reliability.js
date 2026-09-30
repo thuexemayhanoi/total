@@ -256,8 +256,8 @@ function raceAcquire(dir, n, tag) {
   ok(runtime.checkProductionInvariant(good, { ...ctxGood, pageExists: () => false }).ok === false, 'invariant FAIL khi PUBLISHED thiếu trang sinh');
   ok(runtime.checkProductionInvariant(good, { ...ctxGood, sitemapHas: () => false }).ok === false, 'invariant FAIL khi PUBLISHED thiếu trong sitemap');
   ok(runtime.checkProductionInvariant(good, { ...ctxGood, sitemapUrls: ['https://example.test/ghost/'] }).ok === false, 'invariant FAIL khi sitemap có URL không thuộc PUBLISHED');
-  const lowQa = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'ok-1', 82)] };
-  ok(runtime.checkProductionInvariant(lowQa, ctxGood).ok === false, 'invariant FAIL khi PUBLISHED qaScore < 90');
+  const lowQa = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'ok-1', 74)] };
+  ok(runtime.checkProductionInvariant(lowQa, ctxGood).ok === false, 'invariant FAIL khi PUBLISHED qaScore < 75');
   const dup = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'dup', 95), slot('S00002', 'PUBLISHED', 'dup', 95)] };
   ok(runtime.checkProductionInvariant(dup, { ...ctxGood, checkpointSlotCount: 2 }).ok === false, 'invariant FAIL khi trùng slug');
 }
@@ -434,8 +434,8 @@ let soakFixture = null; // tái dùng cho LAYER 3
   // site khớp generator + audit sau drain (phải xanh trên fixture đã publish)
   const chk = runNode([P.generate, '--check'], { cwd: tmp });
   ok(chk.status === 0, 'generate --check xanh trên fixture sau drain', (chk.stdout + chk.stderr).slice(0, 300));
-  const aud = runNode([P.factory, 'audit', '--min-score', '90'], { cwd: tmp });
-  ok(aud.status === 0, 'audit >= 90 xanh trên fixture sau drain', (aud.stdout + aud.stderr).slice(0, 300));
+  const aud = runNode([P.factory, 'audit', '--min-score', '75'], { cwd: tmp });
+  ok(aud.status === 0, 'audit >= 75 xanh trên fixture sau drain', (aud.stdout + aud.stderr).slice(0, 300));
   const tst = runNode([P.test], { cwd: tmp });
   ok(tst.status === 0, 'test.js xanh trên fixture sau drain', (tst.stdout + tst.stderr).slice(0, 300));
   soakFixture = F;

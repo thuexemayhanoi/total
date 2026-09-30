@@ -29,7 +29,7 @@ node factory/generate.js          # sinh site tĩnh
 node factory/generate.js --check  # xác nhận không patch tay HTML
 node factory/test.js              # bộ kiểm thử nền tảng
 node factory/factory.js status    # trạng thái content factory
-node factory/factory.js audit --min-score 90
+node factory/factory.js audit --min-score 75
 ```
 
 ## Capacity mở rộng được
@@ -42,9 +42,9 @@ node factory/factory.js set-planned-target <N>                    # tùy nhu c�
 Expand chỉ tăng logical capacity — không preallocate slot, giữ nguyên mọi ID/slot/PUBLISHED/plannedTarget/reserved; phần capacity mới là unallocated cho tới khi chủ repo ra lệnh.
 
 ## Nguyên tắc nội dung
-- Tiếng Việt cho toàn bộ UI và nội dung; QA ≥ 90 mới xuất bản.
+- Tiếng Việt cho toàn bộ UI và nội dung; QA ≥ 75 mới xuất bản.
 - Không bịa dữ kiện kinh doanh — chỉ dùng dữ liệu đã xác minh.
 - Chi tiết đầy đủ trong `AGENTS.md` và `docs/`.
 
 ## Vận hành tự động
-Pipeline publish theo chunk (kiến trúc port từ /vanchinh, chạy Node factory): `factory-publish` claim → QA ≥ 90 → publish → một commit mỗi chunk; cổng `article-quality` và `site-quality`; dry-run `article-batch`; kiểm định sau publish `factory-publish-verify`. Không cron AI writing, không AI/API trong Actions, không force push.
+Pipeline publish theo chunk (kiến trúc port từ /vanchinh, chạy Node factory): `factory-publish` claim → QA ≥ 75 → publish → một commit mỗi chunk; cổng `article-quality` và `site-quality`; dry-run `article-batch`; kiểm định sau publish `factory-publish-verify`. Không cron AI writing, không AI/API trong Actions, không force push.

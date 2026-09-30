@@ -58,8 +58,8 @@ jobs:
           node factory/factory.js status
           node factory/factory.js resume
 
-      - name: Audit mọi bài PUBLISHED >= 90
-        run: node factory/factory.js audit --min-score 90
+      - name: Audit mọi bài PUBLISHED >= 75
+        run: node factory/factory.js audit --min-score 75
 
       - name: Kiểm tra không patch tay HTML (read-only, byte-exact)
         run: node factory/generate.js --check

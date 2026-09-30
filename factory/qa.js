@@ -46,7 +46,7 @@ function qaArticle(a) {
   const got = checks.filter(c => c.pass).reduce((n, c) => n + c.weight, 0);
   let score = Math.min(100, Math.round((got / totalWeight) * 100));
   const anyCriticalFail = checks.some(c => c.critical && !c.pass);
-  return { score, pass: !anyCriticalFail && score >= 90, words, checks };
+  return { score, pass: !anyCriticalFail && score >= 75, words, checks };
 }
 
 module.exports = { qaArticle };

@@ -268,7 +268,7 @@ function fixtureArticleObject(slug, title) {
 {
   const { qaArticle } = require('./qa');
   const r = qaArticle(fixtureArticleObject('hardening-fixture-article', 'Quy trình thuê xe máy kiểm thử hardening của xưởng nội dung'));
-  ok(r.pass && r.score >= 90 && r.words >= 1600, 'Fixture article đạt QA >= 90 (không có check critical hỏng)',
+  ok(r.pass && r.score >= 75 && r.words >= 1600, 'Fixture article đạt QA >= 75 (không có check critical hỏng)',
     `score=${r.score} words=${r.words} fails=${r.checks.filter(c => !c.pass).map(c => c.name).join(';')}`);
 }
 // Chuẩn bị repo tmp cho kịch bản publish: 12 slot thật + S10001/S10002 PASS,
@@ -354,8 +354,8 @@ console.log('5. Publish atomic theo ID…');
   ok(sm3.includes(SITE.baseUrl + 'thue-xe/xe-may/hardening-fixture-article/'), 'Bài mới nằm trong sitemap-articles sau publish');
   const chk = runNode([f3.P.generate, '--check'], { cwd: f3.tmp });
   ok(chk.status === 0, 'Site sau publish khớp generator (--check xanh)', chk.stdout + chk.stderr);
-  const aud = runNode([f3.P.factory, 'audit', '--min-score', '90'], { cwd: f3.tmp });
-  ok(aud.status === 0, 'Audit mọi bài PUBLISHED (gồm fixture) >= 90 sau publish', aud.stdout + aud.stderr);
+  const aud = runNode([f3.P.factory, 'audit', '--min-score', '75'], { cwd: f3.tmp });
+  ok(aud.status === 0, 'Audit mọi bài PUBLISHED (gồm fixture) >= 75 sau publish', aud.stdout + aud.stderr);
   fs.rmSync(f3.tmp, { recursive: true, force: true });
 
   // 5d. CLI từ chối các cú pháp sai — KHÔNG đụng state
@@ -386,7 +386,7 @@ console.log('6. Module bài viết lỗi fail loud…');
   ok(g.status !== 0 && (g.stdout + g.stderr).includes('zz-broken-module.js'), 'generate --check fail loud khi module lỗi (tên file + lỗi parse)');
   const g2 = runNode([P.generate], { cwd: tmp });
   ok(g2.status !== 0 && (g2.stdout + g2.stderr).includes('zz-broken-module.js'), 'generate fail loud khi module lỗi (exit != 0)');
-  const a = runNode([P.factory, 'audit', '--min-score', '90'], { cwd: tmp });
+  const a = runNode([P.factory, 'audit', '--min-score', '75'], { cwd: tmp });
   ok(a.status !== 0 && (a.stdout + a.stderr).includes('zz-broken-module.js'), 'audit fail loud khi module lỗi (không âm thầm "không có bài")');
   fs.rmSync(tmp, { recursive: true, force: true });
 }

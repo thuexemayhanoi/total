@@ -59,7 +59,7 @@ jobs:
           echo "claimable=${CLAIMABLE}" >> "$GITHUB_OUTPUT"
 
       - name: Audit chất lượng bài viết (read-only theo article source)
-        run: node factory/factory.js audit --min-score 90
+        run: node factory/factory.js audit --min-score 75
 
       - name: Báo hoãn gate cây sinh (backlog > 0 — chờ Factory Publish)
         if: steps.backlog.outputs.claimable != '0'

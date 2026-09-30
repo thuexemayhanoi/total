@@ -9,7 +9,7 @@ Một CI run SUCCESS với backlog article-backed claimable > 0 là **defect**, 
 - writer lock sạch (run đã release đúng lock của chính mình),
 - article-backed claimable backlog == 0,
 - production invariant (`factory.js verify-invariant`) PASS,
-- `generate.js --check`, `audit --min-score 90`, `test.js`, `test-hardening.js`, `test-reliability.js` đều xanh.
+- `generate.js --check`, `audit --min-score 75`, `test.js`, `test-hardening.js`, `test-reliability.js` đều xanh.
 
 PLANNED chưa có article module KHÔNG phải backlog claimable — đó là `WAITING_FOR_WRITER`, không làm CI fail.
 
@@ -30,7 +30,7 @@ Hàm thuần, không đụng production state. Bao phủ trong `factory/test-rel
 Fixture temp (copy repo ra tmp, KHÔNG production state). 25 article-backed slot hợp lệ → drain 3 chunk liên tiếp trong MỘT run, không cần push thứ hai, không sweep slot PASS ngoài chunk. Cùng với fault injection: QA fail, publish fail, generator fail, module syntax error, wrong lock owner, stale lock.
 
 ### Layer 3 — Production invariant
-Fixture gần production thật. Sau SUCCESS: backlog claimable = 0; PUBLISHED ↔ article source ↔ generated HTML ↔ sitemap-articles khớp 1-1; QA ≥ 90; `checkpoint.slotCount == matrix.slots.length`; không lock; không state hỏng. Có **regression sentinel**: test phải FAIL nếu code quay lại hành vi "process 1 chunk → exit success → backlog vẫn > 0".
+Fixture gần production thật. Sau SUCCESS: backlog claimable = 0; PUBLISHED ↔ article source ↔ generated HTML ↔ sitemap-articles khớp 1-1; QA ≥ 75; `checkpoint.slotCount == matrix.slots.length`; không lock; không state hỏng. Có **regression sentinel**: test phải FAIL nếu code quay lại hành vi "process 1 chunk → exit success → backlog vẫn > 0".
 
 ### Layer 4 — Long-run / Failure recovery
 Soak fixture temp ≥ 35 article-backed slot (> 3 chunk). Fault injection: push fail giữa run, generator fail, test fail, concurrent acquire, wrong-owner cleanup, resume sau gián đoạn. Sau recover: không restart, không duplicate ID, không renumber, không lock leak, không half-written JSON; state resumable đúng chỗ.

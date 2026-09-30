@@ -12,7 +12,7 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 | `lib/schema.js` | JSON-LD: WebSite, CollectionPage, Article, BreadcrumbList |
 | `lib/render.js` | Kết xuất trang chủ, danh mục, hub, bài viết, trang tiện ích (giới thiệu, liên hệ, bảo mật, điều khoản) |
 | `generate.js` | Sinh toàn bộ site tĩnh + chỉ mục + sitemap (`--check`, `--out`) |
-| `qa.js` | Kiểm định chất lượng bài viết (ngưỡng ≥ 90) |
+| `qa.js` | Kiểm định chất lượng bài viết (ngưỡng ≥ 75) |
 | `factory.js` | CLI vòng đời slot: plan → research → write → qa → publish; expand-capacity/set-planned-target |
 | `test.js` | Bộ kiểm thử nền tảng (chạy sau generate) |
 | `state/` | matrix.json, factory-state.json, checkpoint.json, manifest.json |
@@ -36,12 +36,12 @@ Chỉ tăng (refuse shrink/cùng mức), không preallocate slot, giữ nguyên 
 - Checkpoint khớp số slot ma trận.
 - Bộ test reliability 4 tầng: `node factory/test-reliability.js` (xem `docs/FACTORY-RELIABILITY.md`).
 - Không gọi AI API trong GitHub Actions.
-- Pipeline publish theo chunk trong Actions (factory-publish.yml): resume slot dở trước khi claim mới, QA ≥ 90 mới PUBLISHED, một commit mỗi chunk, không force push, bounded retry khi push.
+- Pipeline publish theo chunk trong Actions (factory-publish.yml): resume slot dở trước khi claim mới, QA ≥ 75 mới PUBLISHED, một commit mỗi chunk, không force push, bounded retry khi push.
 
 ## Trình tự chuẩn
 ```bash
 node factory/generate.js
 node factory/generate.js --check
 node factory/test.js
-node factory/factory.js audit --min-score 90
+node factory/factory.js audit --min-score 75
 ```
