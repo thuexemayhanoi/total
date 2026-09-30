@@ -828,11 +828,13 @@
    "title": "Gương chiếu hậu xe máy: cách chỉnh đúng",
    "primaryIntent": "informational/guong-chieu-hau-xe-may-cach-chinh-dung",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:35:42.215Z",
-   "updatedAt": "2026-09-30T17:35:42.217Z"
+   "updatedAt": "2026-09-30T17:38:57.639Z",
+   "seoScore": 91,
+   "words": 2490
   },
   {
    "id": "S00060",
@@ -841,11 +843,13 @@
    "title": "Chống trộm xe máy: mẹo và thiết bị đáng dùng",
    "primaryIntent": "informational/chong-trom-xe-may-meo-va-thiet-bi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:35:42.290Z",
-   "updatedAt": "2026-09-30T17:35:42.291Z"
+   "updatedAt": "2026-09-30T17:38:57.640Z",
+   "seoScore": 91,
+   "words": 2778
   }
  ]
 }

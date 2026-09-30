@@ -708,6 +708,14 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/guong-chieu-hau-xe-may-cach-chinh-dung/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/van-de-thuong-gap/chong-trom-xe-may-meo-va-thiet-bi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
