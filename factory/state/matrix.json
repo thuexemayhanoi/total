@@ -404,11 +404,12 @@
    "title": "Giấy tờ cần mang khi lái xe máy",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:37:36.869Z",
-   "updatedAt": "2026-09-30T03:37:36.871Z"
+   "updatedAt": "2026-09-30T03:45:01.333Z",
+   "words": 3308
   },
   {
    "id": "S00030",
@@ -417,11 +418,12 @@
    "title": "Phanh đĩa và phanh tang trống: khác biệt và bảo dưỡng",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:37:36.951Z",
-   "updatedAt": "2026-09-30T03:37:36.953Z"
+   "updatedAt": "2026-09-30T03:45:01.333Z",
+   "words": 2965
   },
   {
    "id": "S00031",
@@ -430,11 +432,12 @@
    "title": "Checklist chuẩn bị chuyến đi đường dài bằng xe máy",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:37:37.034Z",
-   "updatedAt": "2026-09-30T03:37:37.036Z"
+   "updatedAt": "2026-09-30T03:45:01.333Z",
+   "words": 2918
   },
   {
    "id": "S00032",
@@ -443,11 +446,12 @@
    "title": "Chở người ngồi sau an toàn: kỹ năng cần có",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:37:37.117Z",
-   "updatedAt": "2026-09-30T03:37:37.119Z"
+   "updatedAt": "2026-09-30T03:45:01.333Z",
+   "words": 3098
   }
  ]
 }

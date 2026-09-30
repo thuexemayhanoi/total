@@ -588,6 +588,22 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/giay-to-can-mang-khi-lai-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/he-thong-phanh/phanh-dia-va-phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/checklist/checklist-chuyen-duong-dai-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/cho-nguoi-ngoi-sau-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
