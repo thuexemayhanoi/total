@@ -888,11 +888,13 @@
    "title": "Kỹ thuật đi xe máy trong mưa lớn",
    "primaryIntent": "informational/ky-thuat-di-xe-may-trong-mua-lon",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:47:24.124Z",
-   "updatedAt": "2026-09-30T17:47:24.126Z"
+   "updatedAt": "2026-09-30T17:50:54.245Z",
+   "seoScore": 100,
+   "words": 2493
   },
   {
    "id": "S00064",
@@ -901,11 +903,13 @@
    "title": "Bảo hiểm trách nhiệm dân sự xe máy: vì sao bắt buộc và mua thế nào",
    "primaryIntent": "informational/bao-hiem-trach-nhiem-dan-su-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:47:24.199Z",
-   "updatedAt": "2026-09-30T17:47:24.200Z"
+   "updatedAt": "2026-09-30T17:50:54.245Z",
+   "seoScore": 100,
+   "words": 2871
   }
  ]
 }
