@@ -940,6 +940,32 @@
    "updatedAt": "2026-09-30T17:56:36.406Z",
    "seoScore": 100,
    "words": 2508
+  },
+  {
+   "id": "S00067",
+   "hub": "learn/cham-soc-xe",
+   "slug": "giam-xoc-xe-may-cham-soc-va-dau-hieu-yeu",
+   "title": "Giảm xóc xe máy: chăm sóc và dấu hiệu yếu",
+   "primaryIntent": "informational/giam-xoc-xe-may-cham-soc-va-dau-hieu-yeu",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T17:58:47.213Z",
+   "updatedAt": "2026-09-30T17:58:47.216Z"
+  },
+  {
+   "id": "S00068",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "di-xe-may-theo-nhom-an-toan",
+   "title": "Đi xe máy theo nhóm: kỹ năng giữ đội hình an toàn",
+   "primaryIntent": "informational/di-xe-may-theo-nhom-an-toan",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T17:58:47.296Z",
+   "updatedAt": "2026-09-30T17:58:47.298Z"
   }
  ]
 }
