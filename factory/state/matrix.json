@@ -850,6 +850,32 @@
    "updatedAt": "2026-09-30T17:38:57.640Z",
    "seoScore": 91,
    "words": 2778
+  },
+  {
+   "id": "S00061",
+   "hub": "guide/bao-duong",
+   "slug": "cap-ga-va-cap-phanh-xe-may-khi-nao-thay",
+   "title": "Cáp ga và cáp phanh xe máy: khi nào cần thay",
+   "primaryIntent": "informational/cap-ga-va-cap-phanh-xe-may-khi-nao-thay",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T17:41:53.654Z",
+   "updatedAt": "2026-09-30T17:41:53.656Z"
+  },
+  {
+   "id": "S00062",
+   "hub": "docs/huong-dan-su-dung",
+   "slug": "den-canh-bao-tren-xe-may-hieu-va-xu-ly",
+   "title": "Đèn cảnh báo trên xe máy: hiểu và xử lý",
+   "primaryIntent": "informational/den-canh-bao-tren-xe-may-hieu-va-xu-ly",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T17:41:53.742Z",
+   "updatedAt": "2026-09-30T17:41:53.744Z"
   }
  ]
 }
