@@ -267,14 +267,25 @@ ok(robots.includes('User-agent: *') && robots.includes('Allow: /'), 'robots.txt 
 ok(robots.includes('Sitemap: ' + SITE.baseUrl + 'sitemap.xml'), 'robots.txt khai sitemap');
 
 // ---------- 12. Không cannibalization intent ----------
+// Metadata bắt buộc: primaryIntent rỗng là lỗi RIÊNG, được liệt kê từng slot —
+// không gộp vào phép so intent để không che mất lỗi cannibalization thật.
+for (const s of matrix.slots) {
+  if (typeof s.primaryIntent !== 'string' || s.primaryIntent.trim() === '') {
+    ok(false, 'Slot thiếu primaryIntent: ' + s.id + ' (' + s.slug + ') — intent bắt buộc từ lệnh plan');
+  }
+}
 for (let i = 0; i < matrix.slots.length; i++) {
   for (let j = i + 1; j < matrix.slots.length; j++) {
     const s1 = matrix.slots[i], s2 = matrix.slots[j];
     if (s1.slug === s2.slug) ok(false, 'Trùng slug giữa 2 slot: ' + s1.slug);
+    const i1 = (s1.primaryIntent || '').trim();
+    const i2 = (s2.primaryIntent || '').trim();
     const cross = (s1.hub.startsWith('thue-xe') && s2.hub.startsWith('moto')) ||
                   (s1.hub.startsWith('moto') && s2.hub.startsWith('thue-xe'));
-    if (cross && s1.primaryIntent === s2.primaryIntent) {
-      ok(false, 'Hai slot moto/thue-xe cùng intent: ' + s1.slug + ' & ' + s2.slug);
+    // Chỉ so intent HỢP LỆ: hai chuỗi rỗng là lỗi metadata (báo riêng ở trên),
+    // không phải một lỗi "cùng intent" duy nhất nuốt phần còn lại của ma trận.
+    if (cross && i1 && i2 && i1 === i2) {
+      ok(false, 'Hai slot moto/thue-xe cùng intent: ' + s1.slug + ' & ' + s2.slug + ' (' + i1 + ')');
     }
   }
 }

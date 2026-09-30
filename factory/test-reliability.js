@@ -345,7 +345,7 @@ function buildDrainFixture(tag, opts) {
     const id = 'S' + String(10000 + i);
     m.slots.push({
       id, hub: 'thue-xe/xe-may', slug, title: `Bài fixture reliability ${i} của xưởng nội dung`,
-      primaryIntent: '', notes: '', state: (o.preStates && o.preStates[i]) || 'PLANNED',
+      primaryIntent: 'informational/' + slug, notes: '', state: (o.preStates && o.preStates[i]) || 'PLANNED',
       qaScore: null, attempts: 0, createdAt: now, updatedAt: now,
     });
     const a = (o.badQa === i) ? brokenArticle(slug) : fixtureArticle(i, slug, `Bài fixture reliability ${i} của xưởng nội dung`);
@@ -355,7 +355,7 @@ function buildDrainFixture(tag, opts) {
     // slot PASS KHÔNG có module bài — không claimable, KHÔNG được đụng tới
     m.slots.push({
       id: 'S' + String(10000 + n + 1), hub: 'thue-xe/xe-may', slug: o.bystanderPass,
-      title: 'Bystander PASS không bài', primaryIntent: '', notes: '',
+      title: 'Bystander PASS không bài', primaryIntent: 'informational/' + o.bystanderPass, notes: '',
       state: 'PASS', qaScore: 95, attempts: 1, createdAt: now, updatedAt: now,
     });
   }
@@ -403,7 +403,7 @@ let soakFixture = null; // tái dùng cho LAYER 3
 {
   const F = buildDrainFixture('drain25', { n: 25, bystanderPass: 'rel-bystander-no-article' });
   const { tmp, P } = F;
-  const publishedBefore = countState(P, 'PUBLISHED'); // 9 bài thật
+  const publishedBefore = countState(P, 'PUBLISHED'); // baseline đọc từ state THẬT (không hardcode)
   const iters = drainAll(P, 6);
   const okIters = iters.filter(r => r.status === 0);
   ok(iters.length === 3 && iters.every(r => r.status === 0),
@@ -445,6 +445,7 @@ let soakFixture = null; // tái dùng cho LAYER 3
 {
   const F = buildDrainFixture('qafail', { n: 1, badQa: 1 });
   const { tmp, P } = F;
+  const publishedBefore = countState(P, 'PUBLISHED'); // baseline động từ state thật
   const r1 = drainOnce(P, tmp);
   ok(r1.status !== 0, 'drain iteration exit != 0 khi QA fail (NO-PROGRESS fail loud)', (r1.stdout + r1.stderr).slice(0, 400));
   ok((r1.stdout + r1.stderr).includes('NO_PROGRESS'), 'báo rõ NO_PROGRESS — không SUCCESS giả');
@@ -458,7 +459,7 @@ let soakFixture = null; // tái dùng cho LAYER 3
     'module.exports = ' + JSON.stringify(fixtureArticle(1, 'rel-fixture-bai-1', 'Bài fixture reliability 1 của xưởng nội dung')) + ';\n');
   const r2 = drainOnce(P, tmp);
   ok(r2.status === 0 && /done=true/.test(r2.stdout), 'rerun sau khi sửa bài -> QA đạt, publish, done=true', (r2.stdout + r2.stderr).slice(0, 400));
-  ok(countState(P, 'PUBLISHED') === 10, 'slot REPAIR được publish sau khi sửa (resume không restart)');
+  ok(countState(P, 'PUBLISHED') === publishedBefore + 1, 'slot REPAIR được publish sau khi sửa (resume không restart)', String(countState(P, 'PUBLISHED')));
 }
 
 // 2.3 Publish fail giữa drain (test gate hỏng) -> exit 1, KHÔNG ghi flip, resume được
@@ -466,11 +467,12 @@ let soakFixture = null; // tái dùng cho LAYER 3
   const F = buildDrainFixture('pubfail', { n: 12, breakTest: true });
   const { tmp, P } = F;
   const before = readB(P.matrix);
+  const publishedBefore = countState(P, 'PUBLISHED'); // baseline động từ state thật
   const r1 = drainOnce(P, tmp);
   ok(r1.status !== 0, 'drain iteration exit != 0 khi publish gate fail', (r1.stdout + r1.stderr).slice(0, 400));
   ok((r1.stdout + r1.stderr).includes('PUBLISH TỪ CHỐI'), 'báo rõ PUBLISH TỪ CHỐI (không lặng lẽ)');
   const m1 = JSON.parse(readS(P.matrix));
-  ok(countState(P, 'PUBLISHED') === 9, 'PUBLISHED KHÔNG tăng khi publish fail (flip không ghi)');
+  ok(countState(P, 'PUBLISHED') === publishedBefore, 'PUBLISHED KHÔNG tăng khi publish fail (flip không ghi)', String(countState(P, 'PUBLISHED')));
   const repaired = m1.slots.filter(s => s.state === 'PASS').length;
   ok(repaired >= 10, 'QA transitions đã lưu (slot -> PASS) — resumable, không làm lại QA từ đầu', String(repaired));
   ok(!fs.existsSync(P.lock), 'không lock leak khi publish fail');
@@ -480,7 +482,7 @@ let soakFixture = null; // tái dùng cho LAYER 3
   const iters = drainAll(P, 5);
   ok(iters.every(r => r.status === 0) && iters.some(r => /done=true/.test(r.stdout)),
     'resume sau publish fail: drain nốt phần còn lại, không duplicate, không restart', iters.map(r => r.status).join(','));
-  ok(countState(P, 'PUBLISHED') === 9 + 12, 'toàn bộ 12 slot được publish sau resume (không mất, không đếm đôi)');
+  ok(countState(P, 'PUBLISHED') === publishedBefore + 12, 'toàn bộ 12 slot được publish sau resume (không mất, không đếm đôi)', String(countState(P, 'PUBLISHED')));
   const chk = runNode([P.generate, '--check'], { cwd: tmp });
   ok(chk.status === 0, '--check xanh trên fixture sau resume', (chk.stdout + chk.stderr).slice(0, 300));
 }
@@ -500,13 +502,14 @@ let soakFixture = null; // tái dùng cho LAYER 3
 {
   const F = buildDrainFixture('wrongowner', { n: 1 });
   const { tmp, P } = F;
+  const publishedBefore = countState(P, 'PUBLISHED'); // baseline động từ state thật
   const a = lockMod.acquire(path.dirname(P.lock), 'writer-A');
   const r = drainOnce(P, tmp, 'ci-publisher');
   ok(r.status !== 0, 'drain iteration bị refuse khi lock thuộc writer khác', (r.stdout + r.stderr).slice(0, 300));
   ok((r.stdout + r.stderr).includes('BỊ TỪ CHỐI'), 'báo rõ BỊ TỪ CHỐI (không ghi đè lock người khác)');
   const onDisk = JSON.parse(readS(P.lock));
   ok(onDisk.token === a.token && onDisk.owner === 'writer-A', 'lock của writer A VẪN tồn tại (cleanup của loser không xóa lock winner)');
-  ok(countState(P, 'PUBLISHED') === 9, 'state KHÔNG bị đụng khi acquire fail');
+  ok(countState(P, 'PUBLISHED') === publishedBefore, 'state KHÔNG bị đụng khi acquire fail', String(countState(P, 'PUBLISHED')));
   // Cleanup kiểu workflow cũ (unlock không token) cũng KHÔNG xóa được lock A
   const bad = runNode([P.factory, 'unlock'], { cwd: tmp });
   ok(bad.status !== 0, 'unlock không owner/token bị REFUSE khi có lock của writer khác');
@@ -520,12 +523,13 @@ let soakFixture = null; // tái dùng cho LAYER 3
 {
   const F = buildDrainFixture('stale', { n: 1 });
   const { tmp, P } = F;
+  const publishedBefore = countState(P, 'PUBLISHED'); // baseline động từ state thật
   const stale = { owner: 'writer-gone', token: 'stale-tok', at: new Date(Date.now() - 40 * 60 * 1000).toISOString(), pid: 999, ttlMs: lockMod.LOCK_TTL_MS };
   fs.writeFileSync(P.lock, JSON.stringify(stale, null, 1) + '\n');
   const r = drainOnce(P, tmp);
   ok(r.status === 0 && /done=true/.test(r.stdout), 'drain reclaim được stale lock (quá TTL) và hoàn tất chunk', (r.stdout + r.stderr).slice(0, 400));
   ok(!fs.existsSync(P.lock), 'lock sạch sau drain (reclaim -> release đúng ownership)');
-  ok(countState(P, 'PUBLISHED') === 10, 'slot được xử lý sau khi reclaim stale lock');
+  ok(countState(P, 'PUBLISHED') === publishedBefore + 1, 'slot được xử lý sau khi reclaim stale lock', String(countState(P, 'PUBLISHED')));
 }
 
 // =====================================================================
@@ -577,7 +581,7 @@ console.log('LAYER 3 — PRODUCTION INVARIANT…');
     ok((gate.stdout + gate.stderr).includes('deadbeef'), 'chẩn đoán ghi HEAD_SHA');
     // PLANNED không có module bài KHÔNG fail CI (WAITING_FOR_WRITER không phải lỗi)
     const m2 = JSON.parse(readS(F2.P.matrix));
-    m2.slots.push({ ...m2.slots[0], id: 'S10099', slug: 'chua-co-bai-nay', state: 'PLANNED', qaScore: null, attempts: 0 });
+    m2.slots.push({ ...m2.slots[0], id: 'S10099', slug: 'chua-co-bai-nay', primaryIntent: 'informational/chua-co-bai-nay', state: 'PLANNED', qaScore: null, attempts: 0 });
     writeJson(F2.P.matrix, m2);
     const cp2 = JSON.parse(readS(F2.P.checkpoint));
     cp2.slotCount = m2.slots.length;
@@ -600,6 +604,7 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
 {
   const F = buildDrainFixture('soak35', { n: 35 });
   const { tmp, P } = F;
+  const publishedBefore = countState(P, 'PUBLISHED'); // baseline động từ state thật
   const bound = Number((runNode([P.factory, 'drain-bound', '35'], { cwd: tmp }).stdout.match(/MAX_ITERATIONS=(\d+)/) || [0, 0])[1]);
   ok(bound === 6, 'drain-bound(35) = 6 vòng an toàn (ceil(35/10)+2)', String(bound));
   const iters = drainAll(P, bound);
@@ -608,7 +613,7 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
     `vòng=${iters.length} status=[${iters.map(r => r.status)}]`);
   ok(iters[3] && /done=true/.test(iters[3].stdout) && /backlog=0/.test(iters[3].stdout), 'vòng soak cuối: done=true, backlog=0');
   const m = JSON.parse(readS(P.matrix));
-  ok(countState(P, 'PUBLISHED') === 9 + 35, 'soak: 9 thật + 35 fixture = 44 PUBLISHED', String(countState(P, 'PUBLISHED')));
+  ok(countState(P, 'PUBLISHED') === publishedBefore + 35, 'soak: baseline thật + 35 fixture = đủ PUBLISHED (không hardcode)', String(countState(P, 'PUBLISHED')));
   const relIds = m.slots.filter(s => s.slug.startsWith('rel-fixture')).map(s => s.id).sort();
   ok(relIds.length === 35 && relIds[0] === 'S10001' && relIds[34] === 'S10035', 'không renumber ID (S10001..S10035 nguyên vẹn)');
   ok(new Set(m.slots.map(s => s.id)).size === m.slots.length, 'không duplicate ID sau soak');
@@ -629,13 +634,14 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
 {
   const F = buildDrainFixture('resume', { n: 35 });
   const { tmp, P } = F;
+  const publishedBefore = countState(P, 'PUBLISHED'); // baseline động từ state thật
   const r1 = drainOnce(P, tmp);
   ok(r1.status === 0 && /done=false/.test(r1.stdout), 'chunk 1 xong (10 slot) — run "chết" ở đây (giả lập đứt giữa chừng)');
   // "Quá trình chết": run thứ hai khởi động lại — resume từ state, không restart
   const iters = drainAll(P, 6);
   ok(iters.length === 3 && iters.every(r => r.status === 0) && /done=true/.test(iters[iters.length - 1].stdout),
     'rerun drain nốt 25 slot còn lại trong 3 vòng (resume đúng điểm, không cần push 2)', iters.map(r => r.status).join(','));
-  ok(countState(P, 'PUBLISHED') === 9 + 35, 'resume: đủ 44 PUBLISHED — không mất, không đếm đôi');
+  ok(countState(P, 'PUBLISHED') === publishedBefore + 35, 'resume: đủ baseline + 35 PUBLISHED — không mất, không đếm đôi', String(countState(P, 'PUBLISHED')));
   const m = JSON.parse(readS(P.matrix));
   ok(m.slots.filter(s => s.slug.startsWith('rel-fixture')).every(s => s.state === 'PUBLISHED'), 'mọi slot fixture PUBLISHED đúng một lần (idempotent)');
   ok(!fs.existsSync(P.lock), 'resume xong: không lock leak');

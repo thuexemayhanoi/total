@@ -7,6 +7,18 @@ name: Article Quality
 #     sẽ xoá sạch bằng chứng stale/patch tay.
 #   - Thêm test-hardening.js (regression cho --check, publish atomic, breadcrumb).
 #   - Concurrency theo ref để PR không cancel run của main (và ngược lại).
+# THAY ĐỔI BACKLOG-AWARE (fix race Article Quality vs Factory Publisher):
+#   - Writer push article source (PLANNED/PASS chưa drain) → cây HTML committed
+#     trên main vẫn là cây CŨ (publisher mới sinh cây mới). Gate so cây sinh
+#     (`generate --check`, test nền tảng, hardening, reliability) chạy trên
+#     cây cũ sẽ đỏ GIẢ.
+#   - Sau checkout: đo `factory.js backlog` lấy CLAIMABLE_BACKLOG.
+#     CLAIMABLE_BACKLOG > 0  → đây là writer/source commit chờ publisher: HOÃN
+#     mọi gate phụ thuộc cây sinh (in log rõ ràng), vẫn chạy audit source
+#     (read-only). Nhiệm vụ sinh cây + gate đầy đủ thuộc về Factory Publish và
+#     Factory Publish Verify (verify read-only sau publish) — không làm yếu
+#     cổng đó ở đây.
+#     CLAIMABLE_BACKLOG = 0  → chạy toàn bộ Article Quality như bình thường.
 on:
   push:
     branches: [main]
@@ -38,20 +50,36 @@ jobs:
 
       # Không AI API bên trong GitHub Actions — chỉ kiểm tra tĩnh.
 
-      - name: Kiểm tra không patch tay HTML (read-only, byte-exact)
-        run: node factory/generate.js --check
+      - name: Đo backlog claimable (writer commit chờ publisher?)
+        id: backlog
+        run: |
+          set -euo pipefail
+          CLAIMABLE=$(node factory/factory.js backlog | grep -E '^CLAIMABLE_BACKLOG=' | cut -d= -f2)
+          echo "CLAIMABLE_BACKLOG=${CLAIMABLE}"
+          echo "claimable=${CLAIMABLE}" >> "$GITHUB_OUTPUT"
 
-      - name: Audit chất lượng bài viết
+      - name: Audit chất lượng bài viết (read-only theo article source)
         run: node factory/factory.js audit --min-score 90
 
+      - name: Báo hoãn gate cây sinh (backlog > 0 — chờ Factory Publish)
+        if: steps.backlog.outputs.claimable != '0'
+        run: echo "Generated-site checks deferred to Factory Publish / Factory Publish Verify because claimable backlog > 0."
+
+      - name: Kiểm tra không patch tay HTML (read-only, byte-exact)
+        if: steps.backlog.outputs.claimable == '0'
+        run: node factory/generate.js --check
+
       - name: Bộ kiểm thử nền tảng
+        if: steps.backlog.outputs.claimable == '0'
         run: node factory/test.js
 
       - name: Bộ kiểm thử hardening (regression --check/publish/breadcrumb)
+        if: steps.backlog.outputs.claimable == '0'
         run: node factory/test-hardening.js
 
       # BỘ RELIABILITY 4 TẦNG (Unit -> Integration -> Production invariant ->
       # Long-run/Failure recovery): lock ownership-safe, continuous drain,
       # NO-PROGRESS sentinel, soak/recovery — mọi kịch bản trên fixture tmp.
       - name: Bộ kiểm thử reliability 4 tầng (lock/drain/invariant/recovery)
+        if: steps.backlog.outputs.claimable == '0'
         run: node factory/test-reliability.js

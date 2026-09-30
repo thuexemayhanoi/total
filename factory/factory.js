@@ -108,12 +108,22 @@ function maxSlotNumber(m) {
 function nextSlotId(m) { return formatSlotId(maxSlotNumber(m) + 1); }
 function slotId(m) { return nextSlotId(m); }
 
+// Intent chuẩn: <type>/<slug-chữ-thường> (ví dụ informational/thue-xe-may).
+// Rỗng / khoảng trắng / format lạ -> throw: không bao giờ âm thầm tạo intent rỗng.
+const INTENT_RE = /^[a-z0-9][a-z0-9-]*(?:\/[a-z0-9][a-z0-9-]*)+$/;
+function normalizeIntent(intent, slug) {
+  const raw = String(intent == null ? '' : intent).trim();
+  if (!raw) throw new Error('primaryIntent rỗng cho slot ' + slug + ' — intent bắt buộc (mặc định informational/<slug>)');
+  if (/\s/.test(raw)) throw new Error('primaryIntent chứa khoảng trắng: "' + raw + '"');
+  if (!INTENT_RE.test(raw)) throw new Error('primaryIntent sai format (type/slug chữ thường, gạch nối): ' + raw);
+  return raw;
+}
 function planSlot(m, { hub, slug, title, intent, notes }) {
   if (m.slots.length + 1 > m.capacity) throw new Error('Vượt sức chứa ma trận ' + m.capacity);
   const dup = m.slots.find(s => s.slug === slug);
   if (dup) throw new Error(`Slot trùng slug: ${slug} (state ${dup.state})`);
   m.slots.push({
-    id: slotId(m), hub, slug, title, primaryIntent: intent || '', notes: notes || '',
+    id: slotId(m), hub, slug, title, primaryIntent: normalizeIntent(intent, slug), notes: notes || '',
     state: 'PLANNED', qaScore: null, attempts: 0,
     createdAt: new Date().toISOString(), updatedAt: new Date().toISOString(),
   });
@@ -427,7 +437,8 @@ Lệnh:
   lock <owner>                    Xin writer lock (in WRITER_LOCK_TOKEN=<token>)
   unlock --owner O --token T      Giải phóng writer lock CỦA MÌNH (sai owner/token bị REFUSE);
                                   unlock --force = recovery thủ công (workflow không dùng)
-  plan <hub> <slug> <title>       Thêm slot PLANNED vào ma trận
+  plan <hub> <slug> <title>       Thêm slot PLANNED vào ma trận (intent mặc định informational/<slug>,
+                                  override bằng --intent <type/slug>; cờ không rơi vào tiêu đề)
   list                            Liệt kê slot
   research <id>                   PLANNED → RESEARCH
   write <id>                      RESEARCH → WRITING
@@ -523,12 +534,30 @@ function main() {
   }
   if (cmd === 'plan') {
     const m = loadMatrix();
-    const [hub, slug, ...title] = rest;
-    if (!hub || !slug || !title.length) { console.error('Cần: plan <hub> <slug> <tiêu đề...>'); process.exit(1); }
-    planSlot(m, { hub, slug, title: title.join(' '), intent: rest[rest.length - 1] !== slug ? '' : '' });
+    // Tách cờ --intent <giá trị> (hoặc --intent=<giá trị>) TRƯỚC khi parse
+    // hub/slug/title — cờ và giá trị của nó không được rơi vào tiêu đề slot.
+    const intents = [];
+    const cleaned = [];
+    for (let i = 0; i < rest.length; i++) {
+      const a = rest[i];
+      if (a === '--intent') {
+        const v = rest[i + 1];
+        if (v === undefined) { console.error('TỪ CHỐI plan: --intent cần một giá trị theo sau (ví dụ --intent informational/thue-xe-may).'); process.exit(1); }
+        intents.push(v); i += 1; continue;
+      }
+      if (a.startsWith('--intent=')) { intents.push(a.slice('--intent='.length)); continue; }
+      cleaned.push(a);
+    }
+    const [hub, slug, ...title] = cleaned;
+    if (!hub || !slug || !title.length) { console.error('Cần: plan <hub> <slug> <tiêu đề...> [--intent <type/slug>]'); process.exit(1); }
+    const intent = intents.length ? intents[intents.length - 1] : ('informational/' + slug);
+    try {
+      planSlot(m, { hub, slug, title: title.join(' '), intent });
+    } catch (e) { console.error('TỪ CHỐI plan: ' + e.message); process.exit(1); }
     saveMatrix(m);
     saveState(loadState(), 'plan:' + slug);
-    console.log(`Đã thêm slot ${m.slots[m.slots.length - 1].id} (${slug}) → PLANNED`);
+    const added = m.slots[m.slots.length - 1];
+    console.log(`Đã thêm slot ${added.id} (${slug}) → PLANNED (intent: ${added.primaryIntent})`);
     return;
   }
   if (cmd === 'research' || cmd === 'write') {

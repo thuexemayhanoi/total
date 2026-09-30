@@ -75,6 +75,12 @@ function runNode(args, opts) {
 }
 function writeJson(file, obj) { fs.writeFileSync(file, JSON.stringify(obj, null, 1)); }
 
+// State thật TRƯỚC suite (snapshot byte-exact): mọi fixture chạy trên bản sao tmp,
+// cuối suite state thật phải BYTE-IDENTICAL — bảo vệ đúng ở MỌI cỡ ma trận
+// (12 hay 100 hay 6000 slot đều một logic), không hardcode số slot/PUBLISHED.
+const REAL_STATE_SNAPSHOT = ['matrix.json', 'factory-state.json', 'checkpoint.json', 'manifest.json']
+  .map(f => ({ f, b: readB(path.join(ROOT, 'factory', 'state', f)) }));
+
 // ---------- 1. generate --check read-only byte-exact ----------
 console.log('1. --check read-only byte-exact…');
 {
@@ -191,9 +197,9 @@ console.log('4. parsePublishRequest…');
   // Ma trận fixture: thêm S10001, S10002 (PASS) + S10003 (PLANNED)
   const fx = JSON.parse(JSON.stringify(base));
   fx.slots.push(
-    { id: 'S10001', hub: 'thue-xe/xe-may', slug: 'hardening-fixture-article', title: 'Fixture A', primaryIntent: '', notes: '', state: 'PASS', qaScore: 96, attempts: 1, createdAt: now, updatedAt: now },
-    { id: 'S10002', hub: 'thue-xe/xe-may', slug: 'hardening-bystander-article', title: 'Fixture B', primaryIntent: '', notes: '', state: 'PASS', qaScore: 95, attempts: 1, createdAt: now, updatedAt: now },
-    { id: 'S10003', hub: 'thue-xe/xe-may', slug: 'hardening-planned-article', title: 'Fixture C', primaryIntent: '', notes: '', state: 'PLANNED', qaScore: null, attempts: 0, createdAt: now, updatedAt: now },
+    { id: 'S10001', hub: 'thue-xe/xe-may', slug: 'hardening-fixture-article', title: 'Fixture A', primaryIntent: 'informational/hardening-fixture-article', notes: '', state: 'PASS', qaScore: 96, attempts: 1, createdAt: now, updatedAt: now },
+    { id: 'S10002', hub: 'thue-xe/xe-may', slug: 'hardening-bystander-article', title: 'Fixture B', primaryIntent: 'informational/hardening-bystander-article', notes: '', state: 'PASS', qaScore: 95, attempts: 1, createdAt: now, updatedAt: now },
+    { id: 'S10003', hub: 'thue-xe/xe-may', slug: 'hardening-planned-article', title: 'Fixture C', primaryIntent: 'informational/hardening-planned-article', notes: '', state: 'PLANNED', qaScore: null, attempts: 0, createdAt: now, updatedAt: now },
   );
   const throws = (name, fn, want) => {
     try { fn(); ok(false, name, 'không ném lỗi'); }
@@ -211,7 +217,7 @@ console.log('4. parsePublishRequest…');
   // 11 ID PASS -> quá giới hạn chunk
   const fx11 = JSON.parse(JSON.stringify(fx));
   for (let i = 4; i <= 13; i++) {
-    fx11.slots.push({ id: 'S100' + String(i).padStart(2, '0'), hub: 'thue-xe/xe-may', slug: 'x-' + i, title: 'X' + i, primaryIntent: '', notes: '', state: 'PASS', qaScore: 95, attempts: 1, createdAt: now, updatedAt: now });
+    fx11.slots.push({ id: 'S100' + String(i).padStart(2, '0'), hub: 'thue-xe/xe-may', slug: 'x-' + i, title: 'X' + i, primaryIntent: 'informational/x-' + i, notes: '', state: 'PASS', qaScore: 95, attempts: 1, createdAt: now, updatedAt: now });
   }
   throws('Từ chối > 10 ID mỗi lệnh', () => factoryMod.parsePublishRequest(fx11, 'S10001 S10002 S10004 S10005 S10006 S10007 S10008 S10009 S10010 S10011 S10012'), 'chia nhỏ');
   ok(factoryMod.parsePublishRequest(fx11, 'S10001 S10002 S10004 S10005 S10006 S10007 S10008 S10009 S10010 S10011').ids.length === 10,
@@ -273,8 +279,8 @@ function fixturePrep(tag, opts) {
   const now = new Date().toISOString();
   const m = JSON.parse(readS(P.matrix));
   m.slots.push(
-    { id: 'S10001', hub: 'thue-xe/xe-may', slug: 'hardening-fixture-article', title: 'Fixture A', primaryIntent: '', notes: '', state: 'PASS', qaScore: 96, attempts: 1, createdAt: now, updatedAt: now },
-    { id: 'S10002', hub: 'thue-xe/xe-may', slug: 'hardening-bystander-article', title: 'Fixture B', primaryIntent: '', notes: '', state: 'PASS', qaScore: 95, attempts: 1, createdAt: now, updatedAt: now },
+    { id: 'S10001', hub: 'thue-xe/xe-may', slug: 'hardening-fixture-article', title: 'Fixture A', primaryIntent: 'informational/hardening-fixture-article', notes: '', state: 'PASS', qaScore: 96, attempts: 1, createdAt: now, updatedAt: now },
+    { id: 'S10002', hub: 'thue-xe/xe-may', slug: 'hardening-bystander-article', title: 'Fixture B', primaryIntent: 'informational/hardening-bystander-article', notes: '', state: 'PASS', qaScore: 95, attempts: 1, createdAt: now, updatedAt: now },
   );
   writeJson(P.matrix, m);
   const cp = JSON.parse(readS(P.checkpoint));
@@ -472,14 +478,68 @@ console.log('9. Invariant capacity…');
   ok(!fs.existsSync(path.join(ROOT, 'factory', 'state', 'writer.lock')), 'Không writer lock bỏ lại trên repo thật');
 }
 
-// ---------- Kết luận: state THẬT nguyên vẹn ----------
-console.log('10. State thật nguyên vẹn sau bộ test…');
+// ---------- 10. Regression scale: ma trận tăng slot -> hardening vẫn xanh ----------
+// Dùng CHÍNH CLI plan (canonical) để thêm slot trên bản sao tmp — đồng thời là
+// regression cho fix intent của lệnh plan: default informational/<slug>, override
+// --intent không rơi vào tiêu đề, và slot mới KHÔNG BAO GIỜ có primaryIntent rỗng.
+console.log('10. Regression scale (ma trận tăng slot qua CLI plan)…');
 {
-  const before = JSON.parse(readS(path.join(ROOT, 'factory', 'state', 'factory-state.json')));
-  ok(before && typeof before === 'object', 'factory-state đọc được (không bị test ghi hỏng)');
+  const tmp = copyRepoToTmp('growth');
+  const P = tmpPaths(tmp);
+  const beforeCount = JSON.parse(readS(P.matrix)).slots.length;
+  // 10a. plan mặc định -> informational/<slug>
+  const r1 = runNode([P.factory, 'plan', 'thue-xe/xe-may', 'growth-fixture-a', 'Slot tăng trưởng A của hardening'], { cwd: tmp });
+  ok(r1.status === 0, 'plan mặc định xanh trên tmp', r1.stdout + r1.stderr);
+  const m1 = JSON.parse(readS(P.matrix));
+  const a1 = m1.slots[m1.slots.length - 1];
+  ok(a1.primaryIntent === 'informational/growth-fixture-a', 'plan mặc định sinh intent informational/<slug>', a1.primaryIntent);
+  // 10b. --intent override
+  const r2 = runNode([P.factory, 'plan', 'moto/yamaha', 'growth-fixture-b', 'Slot tăng trưởng B', '--intent', 'informational/yamaha-growth-b'], { cwd: tmp });
+  ok(r2.status === 0, 'plan --intent override xanh', r2.stdout + r2.stderr);
+  const b1 = JSON.parse(readS(P.matrix)).slots.slice(-1)[0];
+  ok(b1.primaryIntent === 'informational/yamaha-growth-b', 'plan --intent ghi đúng intent override', b1.primaryIntent);
+  // 10c. --intent đặt GIỮA các phần tiêu đề: cờ + giá trị không được vào title
+  const r3 = runNode([P.factory, 'plan', 'garage/lop', 'growth-fixture-c', 'Tiêu đề thứ nhất', '--intent', 'informational/growth-fixture-c', 'Tiêu đề thứ hai'], { cwd: tmp });
+  ok(r3.status === 0, 'plan với --intent ở giữa title xanh', r3.stdout + r3.stderr);
+  const c1 = JSON.parse(readS(P.matrix)).slots.slice(-1)[0];
+  ok(c1.title === 'Tiêu đề thứ nhất Tiêu đề thứ hai', 'title KHÔNG nuốt --intent + giá trị', c1.title);
+  ok(c1.primaryIntent === 'informational/growth-fixture-c', 'intent đúng khi cờ ở giữa title', c1.primaryIntent);
+  // 10d. --intent sai format -> từ chối, KHÔNG tạo slot rỗng intent
+  const before = JSON.parse(readS(P.matrix));
+  const r4 = runNode([P.factory, 'plan', 'tips/meo-lai-xe', 'growth-fixture-d', 'Slot sai intent', '--intent', 'bad intent'], { cwd: tmp });
+  ok(r4.status !== 0, 'plan từ chối --intent chứa khoảng trắng', r4.stdout + r4.stderr);
+  const r5 = runNode([P.factory, 'plan', 'tips/meo-lai-xe', 'growth-fixture-d', 'Slot sai intent', '--intent', 'wrongformat'], { cwd: tmp });
+  ok(r5.status !== 0, 'plan từ chối --intent sai format (thiếu type/slug)', r5.stdout + r5.stderr);
+  const after = JSON.parse(readS(P.matrix));
+  ok(after.slots.length === before.slots.length, 'Slot KHÔNG được tạo khi intent sai');
+  // 10e. Ma trận lớn hơn: state hợp lệ + cây sinh không đổi
+  ok(after.slots.length === beforeCount + 3, 'Ma trận tăng đúng 3 slot qua plan', String(after.slots.length) + ' vs ' + String(beforeCount + 3));
+  ok(after.slots.every(sx => typeof sx.primaryIntent === 'string' && sx.primaryIntent.trim() !== ''),
+    'Mọi slot (thật + fixture) có primaryIntent không rỗng');
+  ok(runNode([P.factory, 'check-state'], { cwd: tmp }).status === 0, 'check-state xanh trên ma trận đã tăng');
+  const chk = runNode([P.generate, '--check'], { cwd: tmp });
+  ok(chk.status === 0, 'generate --check xanh khi ma trận thêm slot PLANNED (cây sinh không đổi)', chk.stdout + chk.stderr);
+  fs.rmSync(tmp, { recursive: true, force: true });
+}
+
+// ---------- Kết luận: state THẬT nguyên vẹn ----------
+console.log('11. State thật nguyên vẹn sau bộ test…');
+{
+  // Snapshot byte-exact TRƯỚC suite (REAL_STATE_SNAPSHOT) — so lại SAU toàn bộ
+  // fixture: chứng minh fixture KHÔNG rò/mutate repo thật, ở mọi cỡ ma trận
+  // (không hardcode số slot hay số PUBLISHED — scale vô hạn 100/1000/6000 bài).
+  let intact = true;
+  for (const st of REAL_STATE_SNAPSHOT) {
+    const nowB = readB(path.join(ROOT, 'factory', 'state', st.f));
+    if (!nowB.equals(st.b)) { intact = false; console.log('  ✗ factory/state/' + st.f + ' BỊ THAY ĐỔI — test rò ra production state'); }
+  }
+  ok(intact, 'State thật BYTE-IDENTICAL sau suite (matrix/factory-state/checkpoint/manifest)', String(REAL_STATE_SNAPSHOT.length) + ' file');
   const m = JSON.parse(readS(path.join(ROOT, 'factory', 'state', 'matrix.json')));
-  ok(m.slots.length === 12, 'Ma trận thật vẫn 12 slot (fixture không rò ra repo)', String(m.slots.length));
-  ok(m.slots.filter(s => s.state === 'PUBLISHED').length === 9, 'Vẫn 9 slot PUBLISHED như trước bộ test', String(m.slots.filter(s => s.state === 'PUBLISHED').length));
+  const cp = JSON.parse(readS(path.join(ROOT, 'factory', 'state', 'checkpoint.json')));
+  ok(cp.slotCount === m.slots.length, 'checkpoint slotCount khớp ma trận thật (mọi cỡ)', String(cp.slotCount) + ' vs ' + String(m.slots.length));
+  ok(m.slots.every(sx => typeof sx.primaryIntent === 'string' && sx.primaryIntent.trim() !== ''),
+    'Mọi slot thật có primaryIntent không rỗng (regression intent)');
+  ok(!fs.existsSync(path.join(ROOT, 'factory', 'state', 'writer.lock')), 'Không writer lock bỏ lại trên repo thật');
   // --check xanh trên repo thật lần cuối: bộ test KHÔNG để lại vết trên đĩa
   const r = runNode([path.join(ROOT, 'factory', 'generate.js'), '--check']);
   ok(r.status === 0, 'Repo thật: --check xanh sau toàn bộ bộ test (không vết ghi)', r.stdout + r.stderr);

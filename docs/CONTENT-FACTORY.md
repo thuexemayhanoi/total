@@ -6,7 +6,7 @@ Khi QA thất bại: QA → REPAIR → QA → BLOCKED (sau nhiều lần sửa k
 
 ## Lệnh CLI (`node factory/factory.js`)
 - `status` — tổng quan ma trận, writer lock, checkpoint.
-- `plan --hub <hub> --slug <slug> --intent <intent>` — thêm slot PLANNED.
+- `plan <hub> <slug> <tiêu đề...> [--intent <type/slug>]` — thêm slot PLANNED. Intent mặc định `informational/<slug>`; override bằng `--intent` (cờ + giá trị không rơi vào tiêu đề; intent rỗng/sai format bị từ chối — slot mới không bao giờ có `primaryIntent` rỗng).
 - `list` — liệt kê slot theo trạng thái.
 - `research <id>` / `write <id>` — chuyển trạng thái.
 - `qa <id>` — chạy kiểm định chất lượng bài của slot; `qa-preview <id>` — QA thử read-only (không ghi state).
