@@ -348,11 +348,12 @@
    "title": "Lốp xe máy bị dằm giữa đường: xử lý và phòng tránh",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:30:05.418Z",
-   "updatedAt": "2026-09-30T03:30:05.420Z"
+   "updatedAt": "2026-09-30T03:35:54.246Z",
+   "words": 3090
   },
   {
    "id": "S00026",
@@ -361,11 +362,12 @@
    "title": "CVT là gì: hộp số tự động trên xe ga",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:30:05.501Z",
-   "updatedAt": "2026-09-30T03:30:05.504Z"
+   "updatedAt": "2026-09-30T03:35:54.246Z",
+   "words": 3039
   },
   {
    "id": "S00027",
@@ -374,11 +376,12 @@
    "title": "Sang tên xe máy: quy trình và giấy tờ",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:30:05.583Z",
-   "updatedAt": "2026-09-30T03:30:05.585Z"
+   "updatedAt": "2026-09-30T03:35:54.246Z",
+   "words": 3002
   },
   {
    "id": "S00028",
@@ -387,11 +390,12 @@
    "title": "Xe máy có mùi khét: nguyên nhân và cách xử lý",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T03:30:05.663Z",
-   "updatedAt": "2026-09-30T03:30:05.665Z"
+   "updatedAt": "2026-09-30T03:35:54.246Z",
+   "words": 3095
   }
  ]
 }

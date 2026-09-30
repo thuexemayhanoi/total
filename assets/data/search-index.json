@@ -2454,5 +2454,109 @@
    "phanh không bó cứng"
   ],
   "summary": "ABS là một trong những công nghệ an toàn có bằng chứng rõ nhất trên xe hai bánh: hệ thống giữ bánh xe không khóa cứng khi phanh gấp, loại trừ nhóm ngã phổ biến do bó cứng phanh trước. Nhưng xung quanh ABS cũng có không ít hiểu nhầm — rằng ABS rút ngắn mọi quãn"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-xu-ly-su-co/lop-xe-may-bi-dame-giua-duong/",
+  "title": "Lốp xe máy bị dằm giữa đường: xử lý và phòng tránh",
+  "description": "Lốp xe máy bị dằm giữa đường: nhận biết xe đang xẹp, xử lý an toàn tại chỗ, gọi cứu hộ hay tự vá, và các thói quen phòng tránh lốp hỏng khi đang chạy.",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "entities": [
+   "lốp xe máy",
+   "xẹp lốp",
+   "vá lốp",
+   "lốp không săng",
+   "cứu hộ xe máy",
+   "áp suất lốp"
+  ],
+  "keywords": [
+   "lốp xe máy bị dằm",
+   "xe máy xẹp lốp giữa đường",
+   "vá lốp xe máy",
+   "lốp non giữa đường",
+   "dằm lốp xử lý",
+   "cứu hộ xe máy",
+   "xe máy bị dằm phải làm sao"
+  ],
+  "summary": "Xẹp lốp giữa đường là sự cố vừa phiền vừa nguy hiểm: phiền vì nó dễ xảy ra đúng lúc gấp nhất, nguy hiểm vì một chiếc xe hai bánh mất áp suất đột ngột rất khó giữ thăng bằng. May mắn thay, đây cũng là sự cố có kịch bản xử lý rõ ràng nhất: nhận biết sớm, vào lề "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/thuat-ngu-xe/cvt-la-gi-tren-xe-ga/",
+  "title": "CVT là gì: hộp số tự động trên xe ga",
+  "description": "CVT là gì trên xe ga: nguyên lý pulley và dây curoa, vì sao xe ga không sang số, cách bảo dưỡng curoa và oil, dấu hiệu CVT hỏng và thói quen dùng đúng.",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "entities": [
+   "CVT",
+   "hộp số vô cấp",
+   "dây curoa",
+   "pulley",
+   "dầu hộp số",
+   "xe ga"
+  ],
+  "keywords": [
+   "cvt là gì",
+   "cvt xe ga",
+   "hộp số tự động xe ga",
+   "dây curoa xe ga",
+   "pulley xe ga",
+   "bảo dưỡng cvt",
+   "xe ga có cần sang số không"
+  ],
+  "summary": "Xe ga không có cần sang số và không có côn tay — nhưng nó không phải \"không có hộp số\": bên trong là một cụm truyền động tên CVT, bộ máy biến tốc vô cấp làm đúng việc người lái xe số làm bằng tay chân — điều chỉnh tỷ số truyền giữa máy và bánh sau. Bài viết nà"
+ },
+ {
+  "kind": "article",
+  "url": "guide/thu-tuc-xe/sang-ten-xe-may-quy-trinh-va-giay-to/",
+  "title": "Sang tên xe máy: quy trình và giấy tờ",
+  "description": "Sang tên xe máy: giấy tờ bên bán và bên mua cần chuẩn bị, trình tự công chứng - khai báo - cấp đăng ký, lệ phí theo quy định và những lỗi khiến hồ sơ bị trả lại.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "sang tên xe máy",
+   "công chứng",
+   "giấy đăng ký xe",
+   "lệ phí trước bạ",
+   "chuyển quyền sở hữu",
+   "đăng ký xe"
+  ],
+  "keywords": [
+   "sang tên xe máy",
+   "thủ tục sang tên xe",
+   "giấy tờ sang tên xe máy",
+   "công chứng mua bán xe",
+   "lệ phí sang tên xe",
+   "mua xe cũ sang tên",
+   "đăng ký xe máy sang tên"
+  ],
+  "summary": "Mua xe máy cũ là giao dịch bằng tiền, nhưng quyền sở hữu thật sự chỉ chuyển tay khi giấy tờ sang tên xong — xe chưa sang tên thì người mua vẫn đang \"mượn\" chiếc xe theo mắt pháp luật, và người bán vẫn ôm trách nhiệm pháp lý cho một chiếc xe không còn trong tay"
+ },
+ {
+  "kind": "article",
+  "url": "learn/chuan-doan-loi/xe-may-co-mui-khet-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Xe máy có mùi khét: nguyên nhân và cách xử lý",
+  "description": "Xe máy có mùi khét: phân biệt mùi xăng, mùi dầu cháy, mùi khét điện, mùi côn và cao su — từng nhóm nguyên nhân, mức độ nguy hiểm và trình tự chẩn đoán an toàn.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "entities": [
+   "mùi khét xe máy",
+   "chẩn đoán lỗi xe",
+   "rò xăng",
+   "nhớt cháy",
+   "côn mòn",
+   "dây curoa cháy"
+  ],
+  "keywords": [
+   "xe máy có mùi khét",
+   "xe máy bị mùi khét",
+   "xe có mùi xăng",
+   "xe máy mùi dầu cháy",
+   "xe máy khét côn",
+   "chẩn đoán lỗi xe máy",
+   "xe máy có mùi khét phải làm sao"
+  ],
+  "summary": "Mũi là công cụ chẩn đoán sớm nhất mà người đi xe có sẵn: tai nghe được tiếng kêu sau khi hỏng bắt đầu, mắt thấy được rò rỉ sau khi vết đã lan — còn mùi bắt được nhiều sự cố ở giai đoạn chưa thành hỏng hóc, khi thứ gì đó vừa bắt đầu nóng bất thường hay cháy xém"
  }
 ]

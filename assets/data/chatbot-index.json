@@ -747,5 +747,129 @@
    "abs xe máy có đáng không",
    "phanh không bó cứng"
   ]
+ },
+ {
+  "url": "tips/meo-xu-ly-su-co/lop-xe-may-bi-dame-giua-duong/",
+  "title": "Lốp xe máy bị dằm giữa đường: xử lý và phòng tránh",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Xẹp lốp giữa đường là sự cố vừa phiền vừa nguy hiểm: phiền vì nó dễ xảy ra đúng lúc gấp nhất, nguy hiểm vì một chiếc xe hai bánh mất áp suất đột ngột rất khó giữ thăng bằng. May mắn thay, đây cũng là sự cố có kịch bản xử lý rõ ràng nhất: nhận biết sớm, vào lề an toàn, đánh giá tình trạng, rồi chọn giữa tự vá tạm - gọi cứu hộ - chạy tới tiệm gần. Bài viết này đi theo đúng trình tự ấy, kèm phần phòng tránh: vì phần lớn các vụ dằm lốp giữa đường đều đến từ những điều có thể kiểm soát từ trước — lốp mòn, áp suất non, đường quen có vật rơi, và thói quen lướt sát mép đường.",
+  "quickAnswer": "Khi lốp bị dằm giữa đường: giữ ga đều và thẳng tay lái, giảm tốc từ từ bằng ga và phanh sau, vào lề an toàn và bật đèn khẩn cấp nếu có. Đánh giá: dằm chậm có thể chạy chậm tới tiệm gần nhất, xẹp nhanh thì dừng hẳn. Tự vá tạm chỉ với bộ vá và lốp có săng; lốp không săng nên gọi cứu hộ hoặc thay vát. Phòng tránh: bơm đúng áp suất, thay lốp mòn kịp kỳ, và tránh lướt sát mép đường nhiều mảnh vỡ.",
+  "keyPoints": [
+   "Dấu hiệu dằm lốp nhận biết được khi đang chạy: xe lắc nhẹ một bên, tay lái nặng lệch, tiếng phành phạch theo nhịp bánh — phản ứng đúng là giữ thẳng, giảm từ từ, không phanh gấp trước.",
+   "Xẹp chậm và xẹp nhanh là hai tình huống khác nhau: chậm có thể chạy chậm tới nơi sửa, nhanh phải dừng ngay — cố chạy tiếp là hủy vành và tự tạo ngã.",
+   "Bộ vá mini cứu được lốp có săng và vết dằm nhỏ ở giữa lốp; lốp không săng, vết ở vai lốp hoặc rách to thì vá tại chỗ không đủ an toàn.",
+   "Vị trí dằm quyết định kết cục: giữa lốp là vùng vá được, vai và thành lốp là vùng kết án thay mới — không tin lời hứa vá được ở những vị trí này."
+  ],
+  "entities": [
+   "lốp xe máy",
+   "xẹp lốp",
+   "vá lốp",
+   "lốp không săng",
+   "cứu hộ xe máy",
+   "áp suất lốp"
+  ],
+  "keywords": [
+   "lốp xe máy bị dằm",
+   "xe máy xẹp lốp giữa đường",
+   "vá lốp xe máy",
+   "lốp non giữa đường",
+   "dằm lốp xử lý",
+   "cứu hộ xe máy",
+   "xe máy bị dằm phải làm sao"
+  ]
+ },
+ {
+  "url": "wiki/thuat-ngu-xe/cvt-la-gi-tren-xe-ga/",
+  "title": "CVT là gì: hộp số tự động trên xe ga",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Xe ga không có cần sang số và không có côn tay — nhưng nó không phải \"không có hộp số\": bên trong là một cụm truyền động tên CVT, bộ máy biến tốc vô cấp làm đúng việc người lái xe số làm bằng tay chân — điều chỉnh tỷ số truyền giữa máy và bánh sau. Bài viết này giải thích CVT theo lối từ điển thuật ngữ nhưng đi trọn một vòng: cụm pulley và dây curoa vận hành ra sao, vì sao ga lên là vòng tua máy gào trước khi xe tương ứng, dầu hộp số đóng vai trò gì, các dấu hiệu CVT yếu và cách bảo dưỡng, kèm phần phân biệt các tiếng kêu bình thường với tiếng kêu báo hỏng — để người đi xe ga hiểu chiếc xe mình đang ngồi trên hộp số nào.",
+  "quickAnswer": "CVT (transmission vô cấp) là hộp số tự động trên xe ga: hai pulley biến đường kính qua bi và lò xo, nối bằng dây curoa — khi ga tăng, pulley trước siết làm curoa chạy vòng lớn hơn, thay đổi tỷ số truyền liên tục thay vì từng số rời rạc như xe số. CVT gần như không cần bảo dưỡng từ người lái ngoài thay curoa và dầu đúng kỳ; dấu hiệu hỏng: giật khi tăng tốc, curoa rít, máy gào mà xe không nhích.",
+  "keyPoints": [
+   "CVT viết tắt của continuously variable transmission — truyền động biến tốc vô cấp: thay đổi tỷ số truyền mượt liên tục thay vì nhảy từng cấp số như hộp số xe số.",
+   "Ba thành phần chính: pulley trước gắn máy (biến đường kính theo cảm biến ga), pulley sau gắn trục bánh (lò xo và bi ly tâm), và dây curoa truyền lực giữa hai pulley.",
+   "Cảm giác \"máy gào mà xe chưa nhích\" khi tăng tốc là đặc tính CVT: vòng tua máy nhảy lên vùng có mô-men mạnh trước, rồi tỷ số truyền chạy theo sau — không phải lỗi xe.",
+   "Bảo dưỡng CVT là việc của kỳ: thay curoa đúng số km khuyến nghị, thay dầu hộp số (nhiều người nhầm là không cần), vệ sinh buồng CVT khỏi bụi curoa."
+  ],
+  "entities": [
+   "CVT",
+   "hộp số vô cấp",
+   "dây curoa",
+   "pulley",
+   "dầu hộp số",
+   "xe ga"
+  ],
+  "keywords": [
+   "cvt là gì",
+   "cvt xe ga",
+   "hộp số tự động xe ga",
+   "dây curoa xe ga",
+   "pulley xe ga",
+   "bảo dưỡng cvt",
+   "xe ga có cần sang số không"
+  ]
+ },
+ {
+  "url": "guide/thu-tuc-xe/sang-ten-xe-may-quy-trinh-va-giay-to/",
+  "title": "Sang tên xe máy: quy trình và giấy tờ",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "summary": "Mua xe máy cũ là giao dịch bằng tiền, nhưng quyền sở hữu thật sự chỉ chuyển tay khi giấy tờ sang tên xong — xe chưa sang tên thì người mua vẫn đang \"mượn\" chiếc xe theo mắt pháp luật, và người bán vẫn ôm trách nhiệm pháp lý cho một chiếc xe không còn trong tay mình. Bài viết này đi trọn quy trình sang tên xe máy theo trình tự thực tế: giấy tờ cần chuẩn bị cho hai bên, các bước công chứng - khai báo - nộp hồ sơ - nhận đăng ký mới, các khoản lệ phí theo quy định hiện hành, và những lỗi khiến hồ sơ bị trả lại — vì phần lớn thời gian mất trong quy trình này không phải do luật chậm, mà do hồ sơ đến nơi đã thiếu một tờ.",
+  "quickAnswer": "Sang tên xe máy gồm ba chặng chính: công chứng hợp đồng mua bán (hoặc giấy tờ chuyển nhượng hợp pháp khác), bên bán khai báo chuyển quyền sở hữu với cơ quan công an nơi quản lý xe, và bên mua nộp hồ sơ xin cấp lại đăng ký xe kèm lệ phí theo quy định. Chuẩn bị trước: giấy đăng ký xe, giấy tờ chứng nhận nguồn gốc xe, chứng minh nhân dân hoặc căn cước của cả hai bên; kiểm tra tên trên đăng ký khớp người bán thật, và đừng giao tiền hết trước khi giấy tờ của bên bán được xác minh đủ.",
+  "keyPoints": [
+   "Chưa sang tên là chưa xong giao dịch: người mua không có giấy tờ pháp lý khi bị kiểm tra, người bán vẫn chịu trách nhiệm với phương tiện mang biển số của mình — thiệt hại rơi về cả hai phía.",
+   "Bộ hồ sơ gốc quan trọng nhất: giấy đăng ký xe và giấy tờ nguồn gốc xe — thiếu một trong hai thì hồ sơ xin cấp đăng ký gần như chắc chắn bị trả lại.",
+   "Tên trên đăng ký phải khớp người bán thật: chủ cũ mất CCCD/còn giấy tờ cũ, hoặc xe qua nhiều tay chưa sang tên kịp là hai nhóm rắc rối phổ biến nhất cần xử trước khi công chứng.",
+   "Kê khai lệ phí theo quy định hiện hành (lệ phí trước bạ và lệ phí cấp biển - đăng ký) — mang đủ tiền theo thông báo và giữ hóa đơn làm bằng chứng pháp lý."
+  ],
+  "entities": [
+   "sang tên xe máy",
+   "công chứng",
+   "giấy đăng ký xe",
+   "lệ phí trước bạ",
+   "chuyển quyền sở hữu",
+   "đăng ký xe"
+  ],
+  "keywords": [
+   "sang tên xe máy",
+   "thủ tục sang tên xe",
+   "giấy tờ sang tên xe máy",
+   "công chứng mua bán xe",
+   "lệ phí sang tên xe",
+   "mua xe cũ sang tên",
+   "đăng ký xe máy sang tên"
+  ]
+ },
+ {
+  "url": "learn/chuan-doan-loi/xe-may-co-mui-khet-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Xe máy có mùi khét: nguyên nhân và cách xử lý",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Mũi là công cụ chẩn đoán sớm nhất mà người đi xe có sẵn: tai nghe được tiếng kêu sau khi hỏng bắt đầu, mắt thấy được rò rỉ sau khi vết đã lan — còn mùi bắt được nhiều sự cố ở giai đoạn chưa thành hỏng hóc, khi thứ gì đó vừa bắt đầu nóng bất thường hay cháy xém. Nhưng \"mùi khét\" là một thuật ngữ ôm ghép nhiều loại mùi hoàn toàn khác nhau — xăng, dầu nhớt, cao su, điện, côn — mỗi loại trỏ về một nhóm nguyên nhân và một mức độ gấp khác nhau. Bài viết này phân loại mùi trên xe máy theo nhóm, cho mỗi nhóm nguyên nhân thường gặp, mức độ cần dừng xe ngay hay để đó chạy tiếp, và trình tự chẩn đoán an toàn từ dấu hiệu mùi tới thủ phạm cụ thể.",
+  "quickAnswer": "Mùi khét trên xe máy cần phân loại trước khi xử lý: mùi xăng phi ra quanh xe — nguy hiểm cháy, dừng kiểm tra rò ngay; mùi dầu cháy ám (nhớt cháy trên máy nóng) — thường do rò nhớt văng, kiểm tra mực nhớt; mùi khét chua của điện — ngắt nguồn và kiểm tra dây nồng, ắc quy; mùi cao su cháy — curoa côn xích hay lốp cạ; mùi côn khét khi lún côn kéo dài — côn mòn. Nguyên tắc chung: mùi mới xuất hiện và đậm dần thì dừng kiểm tra sớm, không chạy dài theo kiểu \"chắc đàn xe nào cũng vậy\".",
+  "keyPoints": [
+   "Mùi là cảnh báo sớm: phần lớn các sự cố làm mùi đều bắt đầu từ nhiệt bất thường — và nhiệt bất thường luôn có một thủ phạm cụ thể tìm ra được, không phải \"xe cũ thì vậy\".",
+   "Phân nhóm mùi trước khi lo: xăng (nguy hiểm cháy — ưu tiên cao nhất), dầu cháy ám, khét chua điện, cao su cháy, côn khét — năm nhóm năm hướng xử lý khác nhau.",
+   "Mùi xăng quanh xe khi đứng hay sau khi đổ là loại không được chủ quan: rò nhiên liệu vừa hao vừa là rủi ro cháy — dừng xe, tìm vệt ướt trước khi tiếp tục.",
+   "Mùi nhớt cháy thường kèm mực nhớt tụt: rò từ nắp máy, gioăng — tìm vệt dầu ám quanh khối máy nóng, xử bằng vệ sinh và thay gioăng đúng chỗ rò."
+  ],
+  "entities": [
+   "mùi khét xe máy",
+   "chẩn đoán lỗi xe",
+   "rò xăng",
+   "nhớt cháy",
+   "côn mòn",
+   "dây curoa cháy"
+  ],
+  "keywords": [
+   "xe máy có mùi khét",
+   "xe máy bị mùi khét",
+   "xe có mùi xăng",
+   "xe máy mùi dầu cháy",
+   "xe máy khét côn",
+   "chẩn đoán lỗi xe máy",
+   "xe máy có mùi khét phải làm sao"
+  ]
  }
 ]
