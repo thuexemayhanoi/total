@@ -918,11 +918,13 @@
    "title": "Xe máy nóng máy: nguyên nhân và cách xử lý",
    "primaryIntent": "informational/xe-may-nong-may-nguyen-nhan-va-cach-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:53:01.262Z",
-   "updatedAt": "2026-09-30T17:53:01.263Z"
+   "updatedAt": "2026-09-30T17:56:36.406Z",
+   "seoScore": 100,
+   "words": 2564
   },
   {
    "id": "S00066",
@@ -931,11 +933,13 @@
    "title": "Bảo dưỡng xe máy sau chuyến đi xa",
    "primaryIntent": "informational/bao-duong-xe-may-sau-chuyen-di-xa",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:53:01.349Z",
-   "updatedAt": "2026-09-30T17:53:01.351Z"
+   "updatedAt": "2026-09-30T17:56:36.406Z",
+   "seoScore": 100,
+   "words": 2508
   }
  ]
 }
