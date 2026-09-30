@@ -676,6 +676,58 @@
    "createdAt": "2026-09-30T04:16:22.028Z",
    "updatedAt": "2026-09-30T04:20:39.517Z",
    "words": 3200
+  },
+  {
+   "id": "S00049",
+   "hub": "moto/yamaha",
+   "slug": "cac-dong-xe-yamaha-o-viet-nam",
+   "title": "Các dòng xe Yamaha phổ biến tại Việt Nam: đặc điểm từng dòng và cách chọn phù hợp nhu cầu",
+   "primaryIntent": "informational/cac-dong-xe-yamaha-o-viet-nam",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T06:52:37.132Z",
+   "updatedAt": "2026-09-30T06:52:37.134Z"
+  },
+  {
+   "id": "S00050",
+   "hub": "local/tp-hcm",
+   "slug": "di-xe-may-o-tp-hcm-luu-y",
+   "title": "Đi xe máy ở TP. Hồ Chí Minh: những lưu ý đặc thù về giao thông, thời tiết và giữ xe",
+   "primaryIntent": "informational/di-xe-may-o-tp-hcm-luu-y",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T06:52:37.207Z",
+   "updatedAt": "2026-09-30T06:52:37.209Z"
+  },
+  {
+   "id": "S00051",
+   "hub": "garage/truyen-dong",
+   "slug": "bi-em-xe-ga-cau-tao-va-thoi-diem-thay",
+   "title": "Bi êm xe ga: cấu tạo, vai trò trong bộ truyền động và thời điểm cần thay",
+   "primaryIntent": "informational/bi-em-xe-ga-cau-tao-va-thoi-diem-thay",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T06:52:37.289Z",
+   "updatedAt": "2026-09-30T06:52:37.291Z"
+  },
+  {
+   "id": "S00052",
+   "hub": "tips/meo-thue-xe",
+   "slug": "meo-thue-xe-may-tranh-tranh-chap",
+   "title": "Mẹo thuê xe máy: kiểm tra xe kỹ khi nhận và cách tránh tranh chấp khi trả xe",
+   "primaryIntent": "informational/meo-thue-xe-may-tranh-tranh-chap",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-09-30T06:52:37.370Z",
+   "updatedAt": "2026-09-30T06:52:37.372Z"
   }
  ]
 }
