@@ -556,6 +556,22 @@
   "kind": "article"
  },
  {
+  "rel": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/cong-nghe-xe/abs-tren-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
