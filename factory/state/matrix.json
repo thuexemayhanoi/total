@@ -978,11 +978,13 @@
    "title": "Kỹ thuật qua ngã tư và quy tắc ưu tiên",
    "primaryIntent": "informational/ky-thuat-qua-nga-tu-va-quy-tac-uu-tien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 97,
+   "attempts": 1,
    "createdAt": "2026-09-30T18:06:43.373Z",
-   "updatedAt": "2026-09-30T18:06:43.374Z"
+   "updatedAt": "2026-09-30T18:11:13.206Z",
+   "seoScore": 91,
+   "words": 2622
   },
   {
    "id": "S00070",
@@ -991,11 +993,13 @@
    "title": "Lốp không săng tubeless là gì: ưu điểm và lưu ý",
    "primaryIntent": "informational/lop-khong-sang-tubeless-la-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T18:06:43.449Z",
-   "updatedAt": "2026-09-30T18:06:43.451Z"
+   "updatedAt": "2026-09-30T18:11:13.206Z",
+   "seoScore": 91,
+   "words": 2657
   }
  ]
 }
