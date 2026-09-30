@@ -628,11 +628,12 @@
    "title": "Kỹ thuật đi xe đèo dốc an toàn",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:16:21.820Z",
-   "updatedAt": "2026-09-30T04:16:21.822Z"
+   "updatedAt": "2026-09-30T04:20:39.517Z",
+   "words": 2997
   },
   {
    "id": "S00046",
@@ -641,11 +642,12 @@
    "title": "Nhông sên dĩa xe máy: cấu tạo và thời điểm thay",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:16:21.890Z",
-   "updatedAt": "2026-09-30T04:16:21.892Z"
+   "updatedAt": "2026-09-30T04:20:39.517Z",
+   "words": 2930
   },
   {
    "id": "S00047",
@@ -654,11 +656,12 @@
    "title": "Xe máy bị giật hụt ga: nguyên nhân và cách xử lý",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:16:21.959Z",
-   "updatedAt": "2026-09-30T04:16:21.960Z"
+   "updatedAt": "2026-09-30T04:20:39.517Z",
+   "words": 3022
   },
   {
    "id": "S00048",
@@ -667,11 +670,12 @@
    "title": "Xupap xe máy: vai trò và dấu hiệu cần chỉnh",
    "primaryIntent": "",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T04:16:22.028Z",
-   "updatedAt": "2026-09-30T04:16:22.029Z"
+   "updatedAt": "2026-09-30T04:20:39.517Z",
+   "words": 3200
   }
  ]
 }
