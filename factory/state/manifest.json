@@ -716,6 +716,14 @@
   "kind": "article"
  },
  {
+  "rel": "guide/bao-duong/cap-ga-va-cap-phanh-xe-may-khi-nao-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/huong-dan-su-dung/den-canh-bao-tren-xe-may-hieu-va-xu-ly/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
