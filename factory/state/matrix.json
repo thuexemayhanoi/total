@@ -948,11 +948,13 @@
    "title": "Giảm xóc xe máy: chăm sóc và dấu hiệu yếu",
    "primaryIntent": "informational/giam-xoc-xe-may-cham-soc-va-dau-hieu-yeu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:58:47.213Z",
-   "updatedAt": "2026-09-30T17:58:47.216Z"
+   "updatedAt": "2026-09-30T18:04:25.584Z",
+   "seoScore": 100,
+   "words": 2458
   },
   {
    "id": "S00068",
@@ -961,11 +963,13 @@
    "title": "Đi xe máy theo nhóm: kỹ năng giữ đội hình an toàn",
    "primaryIntent": "informational/di-xe-may-theo-nhom-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-09-30T17:58:47.296Z",
-   "updatedAt": "2026-09-30T17:58:47.298Z"
+   "updatedAt": "2026-09-30T18:04:25.584Z",
+   "seoScore": 100,
+   "words": 2704
   }
  ]
 }
