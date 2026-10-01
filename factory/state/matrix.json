@@ -1120,6 +1120,32 @@
    "updatedAt": "2026-10-01T00:26:31.545Z",
    "seoScore": 91,
    "words": 2371
+  },
+  {
+   "id": "S00079",
+   "hub": "wiki/thuat-ngu-xe",
+   "slug": "can-gio-xe-may-chuc-nang-va-cach-dung",
+   "title": "Cần gió xe máy: chức năng và cách dùng",
+   "primaryIntent": "informational/can-gio-xe-may-chuc-nang-va-cach-dung",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-01T00:28:35.568Z",
+   "updatedAt": "2026-10-01T00:28:35.570Z"
+  },
+  {
+   "id": "S00080",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "den-xi-nhan-hong-giua-duong-cach-xu-ly",
+   "title": "Đèn xi-nhan hỏng giữa đường: cách xử lý",
+   "primaryIntent": "informational/den-xi-nhan-hong-giua-duong-cach-xu-ly",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-01T00:28:35.655Z",
+   "updatedAt": "2026-10-01T00:28:35.656Z"
   }
  ]
 }
