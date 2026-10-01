@@ -1488,11 +1488,13 @@
    "title": "Nước làm mát xe máy: vai trò và cách kiểm tra",
    "primaryIntent": "informational/nuoc-lam-mat-xe-may-vai-tro-va-cach-kiem-tra",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:33:04.064Z",
-   "updatedAt": "2026-10-01T01:33:04.066Z"
+   "updatedAt": "2026-10-01T01:36:49.013Z",
+   "seoScore": 100,
+   "words": 2593
   },
   {
    "id": "S00104",
@@ -1501,11 +1503,13 @@
    "title": "Xe máy bị rò nhớt: nguyên nhân và xử lý",
    "primaryIntent": "informational/xe-may-bi-ro-nhot-nguyen-nhan-va-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:33:04.141Z",
-   "updatedAt": "2026-10-01T01:33:04.143Z"
+   "updatedAt": "2026-10-01T01:36:49.013Z",
+   "seoScore": 100,
+   "words": 2856
   }
  ]
 }

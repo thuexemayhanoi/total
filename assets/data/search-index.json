@@ -2165,6 +2165,56 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/nuoc-lam-mat-xe-may-vai-tro-va-cach-kiem-tra/",
+  "title": "Nước làm mát xe máy: vai trò và cách kiểm tra",
+  "description": "Xe máy làm mát bằng nước khác gì xe làm mát bằng gió: cấu tạo, vai trò của dung dịch làm mát, cách kiểm tra mức nước và các dấu hiệu thiếu nước.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "nước làm mát",
+   "két làm mát",
+   "bình phụ",
+   "dung dịch làm mát",
+   "nhiệt độ động cơ",
+   "bảo dưỡng xe máy"
+  ],
+  "keywords": [
+   "nước làm mát xe máy",
+   "kiểm tra nước làm mát xe",
+   "dấu hiệu thiếu nước làm mát",
+   "thay nước làm mát xe máy",
+   "két nước xe máy",
+   "xe máy nóng máy nước làm mát"
+  ],
+  "summary": "Phần lớn xe máy phổ thông làm mát bằng gió — kim loại tản nhiệt qua vây niken nhờ dòng không khí khi xe chạy — nhưng các dòng xe ga lớn và xe thể thao ngày càng dùng hệ làm mát bằng nước: một vòng khép kín đưa dung dịch làm mát qua khoang máy, ra két, rồi về l"
+ },
+ {
+  "kind": "article",
+  "url": "guide/xu-ly-su-co/xe-may-bi-ro-nhot-nguyen-nhan-va-xu-ly/",
+  "title": "Xe máy bị rò nhớt: nguyên nhân và xử lý",
+  "description": "Xe máy bị rò nhớt: cách đọc vết nhớt dưới gầm theo vị trí, phân biệt nhớt máy với nước làm mát, nguyên nhân thường gặp và trình tự xử lý an toàn.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "rò nhớt",
+   "nhớt xe máy",
+   "phớt xe",
+   "gioăng nắp máy",
+   "nắp xả nhớt",
+   "xử lý sự cố xe máy"
+  ],
+  "keywords": [
+   "xe máy bị rò nhớt",
+   "dấu hiệu xe rò nhớt",
+   "vết nhớt dưới gầm xe",
+   "nguyên nhân xe rò nhớt",
+   "xử lý xe rò nhớt",
+   "xe rò nhớt phải làm sao"
+  ],
+  "summary": "Phát hiện một vết nhớt đen dưới gầm chỗ xe đỗ qua đêm là cảnh báo sớm giá trị nhất mà một chiếc xe có thể tự nói với chủ: rò nhỏ hôm nay là hư hỏng lớn sau vài trăm cây số. Bài viết này dạy cách đọc vết rò trước khi làm gì khác. Bước đầu: xác định chất lỏng đa"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/",
   "title": "Đặt cọc thuê ô tô: những điều cần biết",
   "description": "Đặt cọc thuê ô tô: khác nhau giữa cọc tiền mặt và giữ trước trên thẻ, điều khoản trừ cọc hợp lệ, mối quan hệ với bảo hiểm và cách đối chiếu khi nhận lại cọc.",
