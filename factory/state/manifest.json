@@ -836,6 +836,14 @@
   "kind": "article"
  },
  {
+  "rel": "guide/su-dung-xe/muon-xe-may-di-khi-nao-kiem-tra-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/chuan-doan-loi/tieng-keu-la-tren-xe-may-phan-doan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },

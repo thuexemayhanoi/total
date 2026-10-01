@@ -1308,11 +1308,13 @@
    "title": "Mượn xe máy đi: kiểm tra gì trước khi chạy",
    "primaryIntent": "informational/muon-xe-may-di-khi-nao-kiem-tra-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:59:29.769Z",
-   "updatedAt": "2026-10-01T00:59:29.771Z"
+   "updatedAt": "2026-10-01T01:04:08.441Z",
+   "seoScore": 100,
+   "words": 2011
   },
   {
    "id": "S00092",
@@ -1321,11 +1323,13 @@
    "title": "Tiếng kêu lạ trên xe máy: phán đoán theo vị trí",
    "primaryIntent": "informational/tieng-keu-la-tren-xe-may-phan-doan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:59:29.854Z",
-   "updatedAt": "2026-10-01T00:59:29.856Z"
+   "updatedAt": "2026-10-01T01:04:08.441Z",
+   "seoScore": 91,
+   "words": 2680
   }
  ]
 }
