@@ -4104,6 +4104,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-khi-co-bao-lu-nen-di-hay-nen-dung/",
+  "title": "Đi xe máy khi có báo lũ: nên đi hay nên dừng",
+  "description": "Báo lũ là lúc mọi quyết định đi xe máy đều đắt: nước dâng, dòng chảy, đường sập ẩn. Bài viết chỉ cách đọc tin, chọn phương án và chuẩn bị nếu buộc phải di chuyển.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "báo lũ",
+   "nước tràn đường",
+   "cầu ngầm",
+   "dòng chảy",
+   "sạt lở",
+   "trú tránh"
+  ],
+  "keywords": [
+   "đi xe máy mùa lũ",
+   "báo lũ đi xe máy",
+   "nước tràn mặt đường",
+   "cầu ngầm nước dâng",
+   "xe máy qua đường ngập",
+   "trú tránh khi có lũ"
+  ],
+  "summary": "Mùa lũ ở nhiều tỉnh miền núi và đồng bằng đưa người đi xe máy vào những tình huống mà không có kỹ thuật lái nào gánh được: nước dâng nhanh hơn mọi dự đoán, dòng chảy tràn qua mặt đường đẩy cả người lẫn xe, đoạn đắp mới sạt lở không báo trước, và cú quyết định "
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/di-xe-may-qua-doan-song-da-va-cat-luu-y/",
+  "title": "Đi xe máy qua đoạn sỏi đá và cát: lưu ý",
+  "description": "Sỏi đá và cát là mặt đường mất độ bám bán phần. Bài viết chỉ cách chọn vệt đi, điều chỉnh ga, phanh, tư thế và các lỗi khiến xe ngã phổ biến.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "sỏi đá",
+   "cát",
+   "độ bám bánh xe",
+   "phanh động cơ",
+   "vệt đi",
+   "đường cấp phối"
+  ],
+  "keywords": [
+   "đi xe máy trên sỏi đá",
+   "đi xe máy qua cát",
+   "mặt đường sỏi",
+   "lốp xe đường sỏi",
+   "phanh trên sỏi",
+   "xe máy đường cấp phối"
+  ],
+  "summary": "Đoạn sỏi đá và cát là kiểu mặt đường khiến nhiều tay lái vững trên nhựa bỗng lúng túng: mọi kỹ thuật quen — bóp phanh gấp, đánh lái nhanh, vào cua với ga sớm — đều phản tác dụng khi bánh xe không còn bám trên một mặt phẳng mà lăn trên hàng nghìn viên đá nhỏ xê"
+ },
+ {
+  "kind": "article",
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "description": "Lịch bảo dưỡng xe máy định kỳ theo số km: dầu nhớt, lọc gió, bugi, má phanh và các mốc kiểm tra phổ biến, kèm cách điều chỉnh theo điều kiện chạy xe.",

@@ -2726,6 +2726,66 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-khi-co-bao-lu-nen-di-hay-nen-dung/",
+  "title": "Đi xe máy khi có báo lũ: nên đi hay nên dừng",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Mùa lũ ở nhiều tỉnh miền núi và đồng bằng đưa người đi xe máy vào những tình huống mà không có kỹ thuật lái nào gánh được: nước dâng nhanh hơn mọi dự đoán, dòng chảy tràn qua mặt đường đẩy cả người lẫn xe, đoạn đắp mới sạt lở không báo trước, và cú quyết định sai giữa hai lựa chọn — cố về hay chịu dừng — nhiều khi là khác biệt giữa về nhà và cho tìm thấy xe ở hạ nguồn. Bài viết này không dạy cách vượt lũ — nó dạy cách quyết định, vì trong tình huống lũ, phần lớn các tai nạn và mất tích bắt đầu từ một quyết định di chuyển không đủ căn cứ. Cấu trúc: phần đọc thông tin — hiểu các mức cảnh báo lũ, nguồn tin chính thống, và dấu hiệu tự quan sát trên đường: màu nước, tốc độ dâng, rác trôi; phần quyết định — khung ba câu hỏi trước khi lăn bánh: tuyến có qua sông suối, cầu ngầm không; nước đã tràn mặt đường đoạn nào chưa; mình có phải di chuyển thật sự không; phần nếu buộc phải đi — chuẩn bị xe, giấy tờ bị nước, tư trang gói kín, giờ đi và giờ không đi, quy tắc quay đầu tuyệt đối; phần nếu quyết định dừng — trú ở đâu, trú thế nào, khi nào mới tiếp tục; và phần sau lũ — đoạn đường nhìn ráo mà nguy hiểm nhất: sạt lở ẩn, cầu ngầm cuốn, vét cống mất nắp. Thông điệp xuyên suốt: với lũ, người lái giỏi nhất không phải người qua được nước sâu nhất — là người biết mình không nên qua.",
+  "quickAnswer": "Trả lời ngắn: khi có báo lũ, nguyên tắc đầu là tin thông tin chính thống về mức cảnh báo của tuyến, và nguyên tắc hai là tự quan sát tại chỗ: nước đục cuồn cuộn chảy qua mặt đường, rác trôi dày, mực nước dâng lên từng phút — bất kỳ dấu hiệu nào xuất hiện thì dừng, không quyết định đi bằng hy vọng. Khung ba câu trước khi lăn bánh: một, tuyến của mình có qua cầu ngầm, qua suối tràn, qua đê không; hai, mực nước hiện tại ở đoạn trũng thấp nhất của tuyến là bao nhiêu; ba, việc đi hôm nay có thật sự không thể hoãn không — ba câu mà có một câu trả lời xấu thì chọn phương án khác: đường vòng cao, chờ nước rút, hoặc hoãn. Nếu buộc phải đi: đi lúc nước đứng chứ không lúc nước đang dâng, gói giấy tờ điện thoại trong túi kín, mặc áo mưa kín, đội mũ bảo hiểm chắc quai, không bao giờ đi sau khi trời tối giữa lũ. Trên đường gặp nước tràn mặt đường mà không thấy rõ mặt đường dưới nước — quay đầu, không thử: đoạn cuốn cầu ngầm và cống mất nắp không phân biệt xe máy với người. Nếu kẹt giữa chặng, trú cao, báo vị trí cho người thân, và coi việc tới muộn là chi phí rẻ nhất của mùa lũ.",
+  "keyPoints": [
+   "Báo lũ có mức và có tuyến: quyết định đi phải dựa trên cảnh báo chính thống cho đúng tuyến, cộng quan sát tại chỗ — mực nước và tốc độ dâng là căn cứ cuối cùng.",
+   "Nước tràn mặt đường mà không thấy rõ mặt đường bên dưới là điểm quay đầu tuyệt đối — cầu ngầm cuốn và cống mất náp không phân biệt xe máy với người.",
+   "Nước đục chảy ngang qua đường có lực đẩy thật: hai mươi cen-ti-mét dòng chảy mạnh đủ quăng ngã một chiếc xe máy — đừng đo độ sâu bằng mắt, đo bằng dòng chảy.",
+   "Nếu buộc phải di chuyển giữa lũ: đi lúc nước đứng, gói kín giấy tờ và điện thoại, tránh đoạn trũng và cầu ngầm, tuyệt đối không đi ban đêm."
+  ],
+  "entities": [
+   "báo lũ",
+   "nước tràn đường",
+   "cầu ngầm",
+   "dòng chảy",
+   "sạt lở",
+   "trú tránh"
+  ],
+  "keywords": [
+   "đi xe máy mùa lũ",
+   "báo lũ đi xe máy",
+   "nước tràn mặt đường",
+   "cầu ngầm nước dâng",
+   "xe máy qua đường ngập",
+   "trú tránh khi có lũ"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/di-xe-may-qua-doan-song-da-va-cat-luu-y/",
+  "title": "Đi xe máy qua đoạn sỏi đá và cát: lưu ý",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Đoạn sỏi đá và cát là kiểu mặt đường khiến nhiều tay lái vững trên nhựa bỗng lúng túng: mọi kỹ thuật quen — bóp phanh gấp, đánh lái nhanh, vào cua với ga sớm — đều phản tác dụng khi bánh xe không còn bám trên một mặt phẳng mà lăn trên hàng nghìn viên đá nhỏ xê dịch, hoặc chìm trong lớp cát mềm lún dần mà không thấy. Bản chất khác biệt của hai mặt đường này cần hiểu trước khi xử lý: sỏi đá mất độ bám theo kiểu động — mỗi viên đá là một lực xô không báo trước, xe lắc liên tục và lực lái bị lọc qua lớp đá; cát mất độ bám theo kiểu tĩnh — bánh chìm, ga ra thành đào hố, và xe ngã chậm kiểu bịn rịn chứ không ngã đột ngột kiểu trượt. Bài viết này sắp xếp theo trình tự một lượt qua: phần chuẩn bị trước đoạn — giảm tốc từ trước, chọn vệt đi, quan sát dài đoạn để biết loại đá và độ dày; phần tư thế và điều khiển — gót ghì, khuỷu mềm, nhìn xa, ga đều, và vì sao trên sỏi lắc thì tay cứng là kẻ thù; phần phanh và vào cua trên sỏi — phanh động cơ, phanh sau là bạn, phanh trước là phần phải đo đếm; phần qua cát — giữ đà, không ra ga nổi, không dừng giữa cát, và cách tự thoát khi bánh đã chìm; phần các tình huống thật của đường Việt Nam — sỏi rơi từ xe ben, cát đọng sau mưa ở cua, đoạn thi công cấp phối; và phần cuối — khi nào nên đi qua, khi nào nên xuống dắt, vì trên những mặt đường này, đôi chân đi bộ là hệ thống an toàn đã bị bỏ quên.",
+  "quickAnswer": "Trả lời ngắn: gặp đoạn sỏi đá hoặc cát, việc đầu tiên là giảm tốc từ TRƯỚC đoạn, không phải trong đoạn — mọi cú phanh mạnh trên sỏi đều là cú trượt. Trên sỏi: đứng nửa trên bàn đạp, gót ghì hông yên, khuỷu buông mềm, nhìn ra cuối đoạn chứ không nhìn sát bánh trước, ga đều như xe máy cũ chứ không bôn — xe lắc là do đá xô, không phải do mình lái sai, cố giữ thẳng tuyệt đối là mệt người mà không được gì. Phanh trên sỏi: phanh động cơ và phanh sau trước, phanh trước bóp nhẹ và muộn hơn thường lệ — bánh trước trượt trên sỏi gần như không cứu được. Qua cát: giữ đà đều từ trước, đi theo vệt xe trước nếu có, không ra ga mạnh khi thấy bánh chậm — cát càng đào càng chìm; lỡ chìm giữa cát thì đừng cố đi tiếp, xuống dắt hoặc vén cát theo vệt rồi đi lại. Và một quy tắc chung cho cả hai: đoạn nào mà chân trong óc lên hình ảnh mình ngã, thì xuống dắt qua — dắt xe qua đoạn sỏi cát mười mét không mất mặt, còn ngã giữa sỏi đá là mất một mảng da và một buổi chiều ở tiệm sửa.",
+  "keyPoints": [
+   "Giảm tốc trước khi vào đoạn sỏi cát, không phanh trong đoạn — cú phanh mạnh trên mặt đường mất độ bám là mở màn của cú trượt.",
+   "Trên sỏi: gót ghì, khuỷu mềm, nhìn xa về cuối đoạn, chấp nhận xe lắc và thả lỏng tay lái — tay cứng truyền mọi lực đá vào vai và làm xe khó tự cân bằng.",
+   "Phanh trên sỏi dùng phanh sau và phanh động cơ làm chủ, phanh trước chỉ bóp nhẹ và muộn — bánh trước trượt trên sỏi là thứ gần như không cứu được.",
+   "Qua cát giữ đà đều từ trước, đi theo vệt xe trước, không ra ga mạnh khi bánh chậm — cát bị đào càng chìm sâu."
+  ],
+  "entities": [
+   "sỏi đá",
+   "cát",
+   "độ bám bánh xe",
+   "phanh động cơ",
+   "vệt đi",
+   "đường cấp phối"
+  ],
+  "keywords": [
+   "đi xe máy trên sỏi đá",
+   "đi xe máy qua cát",
+   "mặt đường sỏi",
+   "lốp xe đường sỏi",
+   "phanh trên sỏi",
+   "xe máy đường cấp phối"
+  ]
+ },
+ {
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "category": "Hướng dẫn",
