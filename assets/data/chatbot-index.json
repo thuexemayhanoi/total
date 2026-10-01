@@ -2001,6 +2001,66 @@
   ]
  },
  {
+  "url": "tips/meo-lai-xe/di-xe-may-qua-khu-vuc-xay-dung-luu-y/",
+  "title": "Đi xe máy qua khu vực xây dựng: lưu ý an toàn",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Một công trường mở ra giữa đường đổi hoàn toàn môi trường lái chỉ trong vài chục mét: mặt nhựa phẳng thay bằng đá dăm lởm chởm, vạch kẻ đường biến mất dưới lớp bụi, gờ chữ A mọc lên không báo trước, và ở mọi lối ra vào lại có những chiếc xe tải chở đầy đang lùi ra giữa đường với tài xế không thể thấy chiếc xe máy nhỏ bên hông. Điều làm đoạn đường này đặc biệt không phải một nguy hiểm riêng lẻ mà là số lượng nguy hiểm chồng lớp trong không gian hẹp: người điều khiển công trường không có nhiệm vụ với xe lưu thông, biển báo có khi gãy nghiêng hoặc chưa cập nhật theo tiến độ, và đoạn đường \"điều chỉnh giao thông tạm thời\" thì tồn tại hàng tháng trời. Bài viết này đi theo ba tầng: đọc công trường từ xa — nhận biết loại công việc đang làm (đào đường, rót bê tông, xây nhà sát mép) để biết loại rủi ro mình sắp gặp; kỹ thuật đi qua — giữ khoảng cách với xe tải ra vào, né đá dăm và vũng nước trộn bùn, đi theo vết bánh xe đã nén chặt thay vì mặt rời rạc, và xử lý gờ chữ A đúng cách; cùng phần thường bị bỏ qua — các tình huống cụ thể như lối ra của xe ben không có người chỉ dẫn, đoạn bê tông mới rót còn chăn che, và hố đào có rào chắn lệch vào làn xe. Mục tiêu không phải đi chậm mặc định qua mọi công trường, mà là biết nhìn công trường kiểu người lái: thấy gì sắp thay đổi trước khi tới chỗ nó thay đổi.",
+  "quickAnswer": "Trả lời ngắn: qua khu vực xây dựng theo ba nguyên tắc. Một — giảm tốc sớm từ lúc nhìn thấy biển, không đợi tới sát gờ chữ A mới phanh: đá dăm trơn và phanh trên đá dăm không bám như phanh trên nhựa. Hai — giữ khoảng cách với mọi xe tải và xe ben ra vào công trường: chiếc xe lùi ra không thấy xe máy bên hông, và bùn nước văng từ bánh xe tải phủ kín tầm nhìn của người đi sau. Ba — đi theo vết bánh xe đã nén chặt trên mặt đá dăm, né vũng nước màu sữa (nước trộn bùn xi măng, trơn hơn nước thường) và né mép đường mới đào. Gờ chữ A: lấy góc xiên nhẹ với tốc độ gần dừng nếu gờ cao, đạp sớm hai phanh; nếu có làn chờ có người chỉ dẫn thì tuân theo, và quan trọng hơn — coi mọi lối ra vào công trường là nơi xe lớn có quyền tuyệt đối, vì tài xế xe ben đang nhìn công trường chứ không nhìn đường. Sau khi ra khỏi đoạn: kiểm tra nhanh lốp có dăm cua và thân xe có bùn mới phủ ở lốp trước khi chạy tốc độ bình thường trở lại.",
+  "keyPoints": [
+   "Giảm tốc từ lúc thấy biển công trường — phanh trên mặt đá dăm không bám như trên nhựa, và đa số trượt ngã trong công trường xảy ra ở cú phanh sát gờ.",
+   "Đi theo vết bánh xe đã nén chặt trên mặt đá dăm, né vũng nước màu sữa của nước trộn bùn và mép đường mới đào.",
+   "Mọi lối ra vào công trường là quyền tuyệt đối của xe ben: chiếc xe lùi ra không thấy xe máy bên hông, chờ cho tới khi nó xong thao tác.",
+   "Gờ chữ A lấy góc xiên nhẹ với tốc độ gần dừng nếu cao — đây là chỗ hay bị rơi đồ và trượt bánh nhất của cả đoạn."
+  ],
+  "entities": [
+   "khu vực xây dựng",
+   "gờ chữ A",
+   "đá dăm",
+   "xe ben",
+   "biển báo tạm",
+   "vết bánh xe"
+  ],
+  "keywords": [
+   "đi xe máy qua khu vực xây dựng",
+   "đường qua công trường",
+   "gờ chữ A xe máy",
+   "đá dăm trơn",
+   "xe ben ra vào công trường",
+   "đường đang sửa an toàn"
+  ]
+ },
+ {
+  "url": "ride/an-toan-giao-thong/cho-nguoi-bi-say-xe-luu-y/",
+  "title": "Chở người bị say xe: giảm rung và nghỉ đúng lúc",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Say xe ở người ngồi sau là rắc rối ít được nói tới nhưng đầy rẫy trên những chuyến đi xa: người sau mỏi mắt, buồn nôn, người lơ đãng — và khác với say tàu hay say xe hơi, người say trên yên sau còn là một khối lượng đang thay đổi tư thế trên một phương tiện hai bánh. Một người sau gục sang một bên trong cú quặt, hoặc đột nhiên ngả người ra sau khi xe tăng ga, đủ làm lệch cả chiếc xe mà người lái không hiểu vì sao. Điều người lái cần nắm trước hết là các cơ chế gây say: thị giác nhận chuyển động không khớp với tín hiệu của cơ thể, tư thế đầu cứng không dám di chuyển, và không khí bí bách dưới mũ; sau đó là bộ kỹ năng giảm mức say — đi đều ga, né ổ gà, thông báo trước mọi cú phanh và cua để người sau kịp chuẩn bị tư thế; và phần quan trọng nhất về an toàn — nhận biết dấu hiệu say nặng để dừng đúng lúc trước khi người sau gục hoặc nôn trên yên giữa dòng xe. Bài viết kết thúc bằng lịch nghỉ hợp lý cho chuyến có người hay say: chặng ngắn, mốc dừng đặt sẵn, và cách luyện dần cho người mới quen xe máy qua các cung đường tăng dần độ khó.",
+  "quickAnswer": "Trả lời ngắn: chở người hay say xe cần làm ba việc — giảm rung, báo trước mọi thao tác, và nghỉ đúng trước lúc say nặng. Giảm rung: đi đều ga, né ổ gà và đường xấu thay vì chạy xuyên qua, phanh sớm dồn từ từ, quay cua rộng đều tốc; mỗi cú xóc và cú nghiêng bất ngờ đều đẩy cơn say lên nhanh. Báo trước: nói ngắn trước mỗi cú phanh, cua và đổi làn để người sau kịp áp sát, chống chân tư thế sẵn; người say mất khả năng phản ứng nhanh như bình thường. Nghỉ đúng lúc: người hay say thường muốn \"cố về tới rồi nghỉ\", nhưng say nặng mới nghỉ thì mất nhiều thời gian hơn nghỉ sớm một lần — dấu hiệu nên dừng là khi người sau im lặng khác thường, hỏi chậm đáp chậm, hoặc nói đầu óc lơ đãng. Dừng: xuống xe ngồi chỗ thoáng mát, uống từng ngụm nước mát, nghỉ đủ mười lăm phút tới khi cảm giác nôn qua hẳn, rồi đi tiếp với chặng ngắn hơn. Phòng trước cho người hay say: không ăn no ngay trước chuyến, mũ thoáng kính sạch, và đi các cung quen độ dài tăng dần để cơ thể quen dần với chuyển động của xe máy.",
+  "keyPoints": [
+   "Người say trên yên sau không chỉ khó chịu — họ là khối lượng thay đổi tư thế đột ngột, và mỗi cú gục ngả giữa cua là một lần lệch xe.",
+   "Giảm rung là giảm say: đi đều ga, né đường xấu, phanh dồn từ từ, cua rộng — mọi xóc và nghiêng bất ngờ đẩy cơn say lên nhanh.",
+   "Báo trước mọi cú phanh, cua và đổi làn bằng câu ngắn để người sau kịp áp sát và chuẩn bị tư thế.",
+   "Dấu hiệu say nặng cần dừng ngay: im lặng khác thường, hỏi chậm đáp chậm, người ngả gục — đừng chờ tới lúc nôn."
+  ],
+  "entities": [
+   "say xe",
+   "người ngồi sau",
+   "buồn nôn",
+   "nghỉ giữa chặng",
+   "đều ga",
+   "tư thế trên yên"
+  ],
+  "keywords": [
+   "chở người bị say xe",
+   "say xe máy",
+   "người ngồi sau say xe",
+   "cách giảm say xe",
+   "đi xe máy hay say",
+   "nôn khi ngồi xe máy"
+  ]
+ },
+ {
   "url": "wiki/dau-nhot/dau-nhot-xe-may-loai-chu-ky-va-cach-chon/",
   "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
   "category": "Bách khoa xe",

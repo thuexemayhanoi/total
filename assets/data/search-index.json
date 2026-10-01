@@ -3499,6 +3499,56 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/di-xe-may-qua-khu-vuc-xay-dung-luu-y/",
+  "title": "Đi xe máy qua khu vực xây dựng: lưu ý an toàn",
+  "description": "Khu vực xây dựng có gờ chữ A, đá dăm, xe tải ra vào và mặt đường thay đổi liên tục. Bài viết chỉ cách đọc công trường, giữ khoảng cách và chọn làn an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "khu vực xây dựng",
+   "gờ chữ A",
+   "đá dăm",
+   "xe ben",
+   "biển báo tạm",
+   "vết bánh xe"
+  ],
+  "keywords": [
+   "đi xe máy qua khu vực xây dựng",
+   "đường qua công trường",
+   "gờ chữ A xe máy",
+   "đá dăm trơn",
+   "xe ben ra vào công trường",
+   "đường đang sửa an toàn"
+  ],
+  "summary": "Một công trường mở ra giữa đường đổi hoàn toàn môi trường lái chỉ trong vài chục mét: mặt nhựa phẳng thay bằng đá dăm lởm chởm, vạch kẻ đường biến mất dưới lớp bụi, gờ chữ A mọc lên không báo trước, và ở mọi lối ra vào lại có những chiếc xe tải chở đầy đang lù"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/cho-nguoi-bi-say-xe-luu-y/",
+  "title": "Chở người bị say xe: giảm rung và nghỉ đúng lúc",
+  "description": "Người ngồi sau bị say xe gây buồn nôn, lơ đãng và mất thăng bằng, dễ làm lệch xe. Bài viết chỉ dấu hiệu nhận biết, cách giảm rung và lịch nghỉ đúng lúc.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "say xe",
+   "người ngồi sau",
+   "buồn nôn",
+   "nghỉ giữa chặng",
+   "đều ga",
+   "tư thế trên yên"
+  ],
+  "keywords": [
+   "chở người bị say xe",
+   "say xe máy",
+   "người ngồi sau say xe",
+   "cách giảm say xe",
+   "đi xe máy hay say",
+   "nôn khi ngồi xe máy"
+  ],
+  "summary": "Say xe ở người ngồi sau là rắc rối ít được nói tới nhưng đầy rẫy trên những chuyến đi xa: người sau mỏi mắt, buồn nôn, người lơ đãng — và khác với say tàu hay say xe hơi, người say trên yên sau còn là một khối lượng đang thay đổi tư thế trên một phương tiện ha"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dau-nhot/dau-nhot-xe-may-loai-chu-ky-va-cach-chon/",
   "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
   "description": "Dầu nhớt xe máy: vai trò trong động cơ, khác nhau giữa dầu khoáng, bán tổng hợp và tổng hợp, cách đọc nhãn độ sệt và chuẩn API JASO, chu kỳ thay theo điều kiện chạy.",
