@@ -1,4 +1,4 @@
-name: Factory Writer Assist (diag-repair)
+name: Factory Writer Assist (S00121,S00122)
 
 on:
   push:
@@ -14,54 +14,299 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  diag-repair:
+  write-pair:
     runs-on: ubuntu-latest
     steps:
       - name: Lay ma nguon
         uses: actions/checkout@v4
         with:
-          fetch-depth: 12
+          fetch-depth: 2
       - name: Cai Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Voi ban goc va ban sua
+      - name: No-op guard
         run: |
-          set -u
-          W=43367cf2bc65c49d7f7a688e071fb74d975c85ad
-          A119=factory/data/articles/a119-pha-may-xe-may-moi-1000km-dau-tien.js
-          A120=factory/data/articles/a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
-          mkdir -p cand
-          {
-            echo "start diag-repair v2"
-            for f in "$A119" "$A120"; do
-              b=$(basename "$f")
-              git show "$W:$f" > "cand/base-$b"
-              cp "$f" "cand/fix-$b"
-              node -e 'const fs=require("fs");const p=process.argv[1];let s=fs.readFileSync(p,"utf8");let out="",inStr=false;const Q=String.fromCharCode(39),NL=String.fromCharCode(10),CR=String.fromCharCode(13);for(let i=0;i<s.length;i++){const ch=s[i];if(!inStr&&ch===Q){inStr=true;out+=ch;continue;}if(inStr&&ch===Q){inStr=false;out+=ch;continue;}if(inStr&&(ch===NL||ch===CR)){continue;}out+=ch;}fs.writeFileSync(p,out);' "cand/fix-$b"
-              echo "== $b =="
-              if node --check "cand/base-$b"; then echo "BASE_OK $b"; else echo "BASE_BROKEN $b"; fi
-              if node --check "cand/fix-$b"; then echo "FIX_OK $b"; else echo "FIX_BROKEN $b"; fi
-              if diff -q "cand/base-$b" "cand/fix-$b" >/dev/null 2>&1; then echo "IDENTICAL base vs fix: $b"; else echo "DIFFER base vs fix: $b"; fi
-              wc -c "cand/base-$b" "cand/fix-$b" "$f"
-            done
-            echo "done"
-          } > verdict.txt 2>&1
-          cat verdict.txt
-          base64 -w 76 "cand/base-a119-pha-may-xe-may-moi-1000km-dau-tien.js" > b119base.txt
-          base64 -w 76 "cand/fix-a119-pha-may-xe-may-moi-1000km-dau-tien.js" > b119fix.txt
-          base64 -w 76 "cand/base-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js" > b120base.txt
-          base64 -w 76 "cand/fix-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js" > b120fix.txt
-      - name: Push diag branch
+          if grep -q "di-xe-may-khi-troi-lanh-luu-y-an-toan" factory/state/matrix.json; then
+            echo "pair da nam trong matrix - no-op"
+            exit 0
+          fi
+      - name: Guard state sach
+        run: node factory/factory.js check-state
+      - name: Viet 2 bai
+        run: |
+          cat > factory/data/articles/a121-di-xe-may-khi-troi-lanh-luu-y-an-toan.js << 'ARTICLE_EOF'
+          // AI WIKI TOTAL — bài mở rộng cụm /learn/ky-thuat-lai-xe/: Đi xe máy khi trời lạnh: lưu ý an toàn (slot S00121)
+          'use strict';
+
+          module.exports = {
+            slug: 'di-xe-may-khi-troi-lanh-luu-y-an-toan',
+            title: 'Đi xe máy khi trời lạnh: lưu ý an toàn',
+            seoTitle: 'Đi xe máy khi trời lạnh: lưu ý an toàn',
+            metaDescription: 'Trời lạnh làm tay cứng, phanh xa và ắc quy yếu đi. Mặc đủ lớp, khởi động máy đúng cách, giữ khoảng cách lớn hơn và những lưu ý an toàn khi đi xe máy mùa lạnh.',
+            summary: 'Trời lạnh không chỉ khiến người lái khó chịu, nó thay đổi cả cách chiếc xe vận hành lẫn khả năng phản ứng của chính người cầm tay lái. Bài viết này tổng hợp các lưu ý theo đúng trình tự một chuyến đi: chuẩn bị người trước, chuẩn bị xe sau, rồi mới đến kỹ thuật trên đường. Về con người, phần nguy hiểm nhất của trời lạnh là tay chân bị lạnh cóng: bàn tay là nơi đón gió trực tiếp và cũng là nơi quyết định mọi thao tác ga và phanh, nên khi tay mất cảm giác thì mọi kỹ năng đều giảm theo. Về chiếc xe, nhiệt độ thấp làm ắc quy cho dòng điện khởi động kém đi, nhớt máy đặc hơn trong những phút đầu sau khi nổ, còn áp suất lốp thì tụt xuống so với lần đo hồi trời nóng. Về kỹ thuật, nguyên tắc lớn nhất của mùa lạnh là làm mọi thứ chậm hơn: khởi động sớm, chờ máy ổn định, phanh sớm hơn và giữ khoảng cách lớn hơn. Những tình huống đặc thù như sương muối đọng sáng sớm, băng giá nhẹ trên cầu hay màn sương che tầm nhìn đều được nêu rõ để chủ động tránh trước. Kết thúc bài là phần chăm sóc sau chuyến đi: lau khô xe, che kín nơi thoáng và sạc bổ sung ắc quy định kỳ, vì một chiếc xe được giữ khô ấm sẽ nổ máy dễ dàng hơn nhiều ở lần khởi hành kế tiếp.',
+            quickAnswer: 'Trả lời ngắn: đi xe máy khi trời lạnh an toàn nếu bạn chuẩn bị cả người lẫn xe. Mặc nhiều lớp và che kín tay chân, khởi động máy rồi chờ máy ổn định trước khi chạy, phanh sớm hơn bình thường vì tay cứng và mặt đường ẩm, và đừng cố chạy tiếp khi tay đã tê cóng — tay lạnh mất cảm giác thì mất cả kỹ năng.',
+            keyPoints: [
+              'Cơ thể lạnh thì phản ứng chậm: tay cứng làm thao tác ga và phanh đều giảm độ chính xác — mặc đủ lớp, che kín tay chân và giữ ấm người trước khi lên xe.',
+              'Chiếc xe cũng chịu tác động của trời lạnh: ắc quy yếu đi, nhớt đặc hơn và áp suất lốp tụt khi nhiệt độ thấp — khởi động máy và chờ vài phút cho ổn định trước khi chạy.',
+              'Phanh sớm và nhẹ hơn mùa nóng: mặt đường ẩm đọng và lốp nguội bám đường kém hơn, nên tăng khoảng cách với xe phía trước.',
+              'Sáng sớm có sương muối hoặc băng giá nhẹ trên cầu và đoạn trũng: giảm tốc từ trước, đi thẳng góc, không phanh giữa nhịp cầu.',
+              'Không cố chạy khi tay đã tê: dừng vào nơi ấm, vận động tay chân cho máu lưu thông rồi mới đi tiếp — vài phút nghỉ rẻ hơn một lần ngã xe.',
+              'Chăm sóc sau chuyến đi mùa lạnh: lau khô xe, che kín nơi thoáng, sạc bổ sung ắc quy và đo áp suất lốp lúc lốp nguội.',
+            ],
+            category: 'learn',
+            hub: 'ky-thuat-lai-xe',
+            date: '2026-10-01',
+            updated: '2026-10-01',
+            entities: [
+              'đi xe máy trời lạnh',
+              'khởi động máy khi trời lạnh',
+              'gió nghẹn',
+              'ắc quy xe máy',
+              'áp suất lốp',
+              'sương muối',
+            ],
+            keywords: [
+              'đi xe máy khi trời lạnh',
+              'khởi động xe máy trời lạnh',
+              'đi xe máy mùa lạnh',
+              'lưu ý đi xe máy trời lạnh',
+              'xe máy khó nổ khi trời lạnh',
+              'đi xe máy an toàn khi lạnh',
+            ],
+            sections: [
+              {
+                h2: 'Trời lạnh thay đổi điều kiện lái theo cách ít người để ý',
+                html: '<p>Nhiệt độ thấp tác động đến con người trước cả khi bạn thấy lạnh rõ rệt. Bàn tay là bộ phận đầu tiên chịu đựng: chỉ sau vài phút ôm ga chạy trong gió, các ngón tay bắt đầu cứng lại, độ nhạy khi bóp cùm phanh và cảm giác về vị trí tay ga đều giảm dần. Người có kinh nghiệm vẫn lái được, nhưng mọi thao tác đều chậm hơn so với mùa nóng vài giây, và trên đường thì vài giây là khoảng cách giữa một lần phanh kịp và một lần phanh muộn.</p><p>Chiếc xe cũng bị ảnh hưởng âm thầm. Ắc quy cho dòng điện khởi động kém đi rõ rệt khi nhiệt độ tụt, vì phản ứng hóa học bên trong pin diễn ra chậm khi lạnh. Nhớt máy đặc hơn lúc mới nổ, nên những giây đầu tiên sau khi khởi động là lúc các chi tiết kim loại bên trong động cơ chạy với lớp dầu bôi trơn mỏng hơn bình thường. Áp suất lốp cũng tụt theo nhiệt độ, làm bánh xe mềm hơn và mòn không đều nếu không được bơm cho đủ chuẩn.</p><p>Hệ quả của cả hai phía cộng lại: khoảng cách an toàn theo thói quen mùa nóng thường không đủ cho mùa lạnh. Một chuyến đi an toàn khi trời lạnh bắt đầu từ việc thừa nhận điều kiện đã thay đổi, rồi chủ động điều chỉnh từ trang phục, cách khởi động cho đến nhịp phanh ga trên đường.</p>',
+              },
+              {
+                h2: 'Chuẩn bị người: mặc đủ lớp và giữ ấm đúng chỗ',
+                html: '<p>Nguyên tắc mặc nhiều lớp mỏng giữ ấm tốt hơn một lớp dày duy nhất, vì lớp không khí nằm giữa các lớp áo chính là lớp cách nhiệt. Bên trong là áo giữ nhiệt mỏng, ở giữa là áo len hoặc áo phao, bên ngoài là áo gió chắn. Cổ tay và hông là nơi gió hay len vào, nên lớp áo ngoài nên có chun ôm cổ tay và độ dài đủ phủ hông khi ngồi trên yên.</p><p>Tay và đầu cần được chăm chu hơn cả: găng tay đủ dày nhưng vẫn cho phép bóp phanh hết cặp và cảm nhận rõ núm ga, mũ bảo hiểm kín tai hoặc thêm khăn quấn giữ ấm vành tai, mặt nạ che gió cho phần mặt. Nên đi giày cao cổ giữ ấm bàn chân, vì bàn chân lạnh sẽ phản ứng chậm khi cần đặt chân chống hay giữ xe lúc dừng đèn đỏ.</p><p>Không lên xe khi người đã tê cóng. Nếu buộc phải khởi hành sớm, hãy chuẩn bị theo trình tự: khởi động máy trước vài phút cho máy kịp ấm, tranh thủ vận động tay chân, xoa nóng bàn tay rồi mới lăn bánh. Cơ thể đã ổn thì kỹ thuật mới có chỗ để phát huy.</p>',
+              },
+              {
+                h2: 'Khởi động máy và những phút đầu sau khi nổ',
+                html: '<p>Với xe có đề điện, nhấn đề ngắn từ hai đến ba giây rồi nghỉ vài giây, lặp lại nếu máy chưa nổ, tránh đề dài liên tục làm ắc quy tụt điện nhanh. Với xe số dùng kích chân, đặt xe chắc chắn, kéo gió nghẹn nếu máy quá lạnh và đạp dứt khoát trọn hành trình chân kích; máy đã nổ thì trả kích về vị trí ngay để không vấp phải khi xe đã chạy.</p><p>Chờ máy ổn định trước khi chạy, chừng một đến ba phút tùy nhiệt độ. Chưa cần chờ vòng tua hạ về mức không tải tuyệt đối, nhưng đừng vặn ga lớn ngay: mấy trăm mét đầu tiên hãy chạy nhẹ, cho nhớt có thời gian len vào mọi khe kim loại trước khi động cơ nhận tải lớn. Xe có chế độ gió nghẹn tự động thì để máy tự điều hòa, nhưng vẫn giữ nguyên tắc khởi hành nhẹ nhàng.</p><p>Trước khi lăn bánh, làm một vòng kiểm tra nhanh: bóp phanh trước và sau xem độ ăn, bật đèn chiếu soi xuống mặt đất xem đèn sáng đều, bấm còi thử, đảo mắt xuống hai bánh xem có gì bất thường, chỉnh gương. Cả vòng này chỉ mất khoảng một phút và tiết kiệm cho bạn cả chuyến đi.</p>',
+              },
+              {
+                h2: 'Trên đường: phanh sớm, ga nhẹ và khoảng cách lớn hơn',
+                html: '<p>Mùa lạnh nên tăng khoảng cách theo dõi xe phía trước so với mùa nóng, vì tay cứng làm thao tác phanh chậm đi, còn mặt đường ẩm làm má phanh và lốp đạt lực bám tối đa chậm hơn. Phanh sớm và dồn lực nhẹ nhàng, kết hợp giảm số sớm để dùng phanh động cơ hỗ trợ, thay vì dồn hết vào tay phanh vốn đang bị lạnh làm cho cứng.</p><p>Mặt đường mùa lạnh có những vùng ẩm bất thường: hơi nước ngưng ở những đoạn trũng, ở rìa ruộng ven đường, ở những chỗ cây rợp bóng. Vùng sẫm màu đó trơn hơn hẳn phần đường khô quanh nó, nên khi thấy mặt đường đổi màu, hãy hạ tốc trước khi tới và tránh rẽ gấp hay đổi hướng ngay trên vùng ẩm.</p><p>Gió lạnh buốt còn làm tay ga mất cảm giác, dễ vặn ga nặng hơn ý muốn mà không nhận ra. Thỉnh thoảng liếc xuống đồng hồ vòng tua, giữ vòng tua đều, và khi tay đã tê hẳn thì dừng lại nghỉ ấm thay vì cố thêm một đoạn nữa. Đi thêm được vài cây số nhưng đánh đổi bằng khả năng phanh thì không đáng.</p>',
+              },
+              {
+                h2: 'Sương muối, băng giá nhẹ và những đoạn cần đề phòng',
+                html: '<p>Sáng sớm mùa lạnh, sương muối có thể đọng thành lớp màng mỏng trên mặt đường, nhất là ở cầu và những đoạn trũng thoáng gió. Lớp màng này gần như không nhìn thấy nhưng làm lốp trượt rõ rệt, nên qua cầu bằng tốc độ thấp, đi thẳng góc, không phanh giữa nhịp cầu và không đổi số ngay trên mặt cầu.</p><p>Khi có sương mù dày, tầm nhìn co lại thì tốc độ phải co theo. Bật đèn vị trí lẫn đèn chiếu sớm kể cả ban ngày để người đi ngược chiều thấy mình sớm. Lưu ý rằng đèn pha chiếu xa trong sương dày lại gây loá chói, nên chuyển sang đèn chiếu gần khi sương phủ dày là lựa chọn thực tế hơn.</p><p>Nếu vùng bạn đi có dự báo băng giá, cân nhắc hoãn những chuyến đi không cần thiết. Buộc phải đi thì giữ tốc độ rất thấp, tránh mọi cú phanh gấp, và đề phòng nhất những cây cầu, vòm vượt và đoạn đường cao thoáng gió — nơi nhiệt độ mặt đường xuống thấp nhất và đóng băng sớm nhất.</p>',
+              },
+              {
+                h2: 'Sau chuyến đi: chăm sóc xe trong mùa lạnh',
+                html: '<p>Về đến nơi, lau khô xe nếu lốp và thân xe dính nước, nhất là sau những đoạn đường ẩm sương. Nếu buộc phải để xe ngoài trời, che kín bằng tạt xe có độ thoáng, tránh để hơi sương ngưng đọng suốt đêm trên yên, đồng hồ và các đầu giắc điện.</p><p>Chú ý ắc quy: những chuyến đi ngắn nhiều lần trong mùa lạnh không đủ thời gian nạp lại lượng điện đã tiêu hao lúc đề máy. Nếu xe đề yếu, nên sạc bổ sung định kỳ hoặc chạy một chuyến dài vừa phải mỗi tuần cho ắc quy đủ dung lượng; lâu ngày không đi thì tháo cọc ắc quy để xe không rỉ điện.</p><p>Cuối cùng, áp suất lốp nên đo vào buổi sáng trước khi đi, vì lốp nguội thì số đo mới đúng. Bơm cho đủ chuẩn so với lần đo mùa nóng là cách đơn giản để bánh xe luôn cứng cáp trên đường lạnh, vừa đỡ mòn lốp vừa đỡ hao xăng.</p>',
+              },
+            ],
+            checklist: [
+              'Mặc đủ lớp, găng tay giữ ấm nhưng vẫn bóp được phanh, mặt nạ che gió.',
+              'Khởi động máy, chờ máy chạy ổn định từ một đến ba phút trước khi khởi hành.',
+              'Kiểm tra đèn trước sau, còi và độ ăn của hai cùm phanh trước khi lăn bánh.',
+              'Giữ khoảng cách với xe phía trước lớn hơn thói quen mùa nóng.',
+              'Giảm tốc trước những đoạn cầu, trũng và nơi có sương muối đọng sáng sớm.',
+              'Sau chuyến đi: lau khô xe, che kín và để nơi khô thoáng.',
+            ],
+            steps: [
+              {
+                title: 'Khởi động máy khi trời lạnh',
+                detail: 'Bật chìa khóa, kéo gió nghẹn nếu xe có chế độ này, đề ngắn từ hai đến ba giây rồi nghỉ vài giây, lặp lại nếu máy chưa nổ. Khi máy đã nổ, giữ vòng tua nhẹ chừng một đến ba phút cho nhớt bôi trơn đều các chi tiết, sau đó trả gió nghẹn về vị trí gốc rồi mới khởi hành.',
+              },
+              {
+                title: 'Kiểm tra nhanh trước khi lăn bánh',
+                detail: 'Bóp thử cả hai cùm phanh xem độ ăn, bật đèn kiểm tra đèn chiếu và đèn hậu, bấm còi, liếc xuống hai bánh xem áp suất lốp có vẻ bình thường, chỉnh gương. Cả vòng kiểm tra chỉ mất khoảng một phút nhưng đó là một phút đáng giá nhất của buổi đi.',
+              },
+              {
+                title: 'Giữ nhịp đi trên đường',
+                detail: 'Khởi hành nhẹ ga, sang số sớm, giữ tốc độ vừa phải và tăng khoảng cách với xe phía trước. Phanh sớm và dồn lực nhẹ, kết hợp giảm số để phanh động cơ hỗ trợ, thay vì chỉ trông vào tay phanh đang bị lạnh làm cho cứng.',
+              },
+              {
+                title: 'Dừng nghỉ và trở về',
+                detail: 'Tay tê thì dừng vào nơi ấm, vận động các ngón tay vài phút cho máu lưu thông rồi mới đi tiếp. Về đến nơi thì lau khô xe nếu có nước đọng, che kín xe và bóp thử phanh lần cuối để chắc mọi thứ còn ăn bình thường cho lần đi sau.',
+              },
+            ],
+            warnings: [
+              'Không khởi hành khi tay đã tê cóng và mất cảm giác: phản ứng phanh chậm thêm vài giây cũng đủ để xảy ra va chạm trong đô thị đông xe.',
+              'Không nổ máy trong nhà kín hoặc gara đóng cửa: khí thải tích tụ trong không gian hẹp rất nguy hiểm.',
+              'Không kéo gió nghẹn suốt cả hành trình: xăng dư đốt lâu ngày sinh muội than bám bugi, khiến máy ì và khó nổ ở những lần khởi động sau.',
+            ],
+            notes: [
+              'Một số xe ga đời mới tự điều hòa gió nghẹn bằng điện tử, không cần kéo chế độ thủ công; đọc kỹ sách hướng dẫn của hãng để biết xe của mình theo cơ cấu nào.',
+              'Mùa lạnh cũng là lúc ắc quy về cuối đời lộ diện trước: nếu đề hai ba lần mới nổ, nên mang ắc quy đi kiểm tra sớm thay vì chờ đến một buổi sáng máy không nổ hẳn.',
+            ],
+            references: [
+              'Sổ tay vận hành và bảo dưỡng của nhà sản xuất xe máy: hướng dẫn khởi động máy khi trời lạnh và chu kỳ bảo dưỡng theo nhiệt độ môi trường.',
+              'Tài liệu giáo dục an toàn giao thông về điều khiển phương tiện trong điều kiện thời tiết bất lợi: sương mù, trời lạnh và mặt đường trơn.',
+            ],
+            related: [
+              'ky-thuat-di-xe-may-ban-dem',
+              'chay-am-may-truoc-khi-di-can-khong',
+              'xe-may-kho-no-buoi-sang-nguyen-nhan-va-xu-ly',
+              'cham-soc-xe-may-mua-mua',
+            ],
+          };
+
+          ARTICLE_EOF
+          cat > factory/data/articles/a122-di-xe-may-qua-duong-sat-quy-tac-an-toan.js << 'ARTICLE_EOF'
+          // AI WIKI TOTAL — bài mở rộng cụm /ride/an-toan-giao-thong/: Đi xe máy qua đường sắt: quy tắc an toàn (slot S00122)
+          'use strict';
+
+          module.exports = {
+            slug: 'di-xe-may-qua-duong-sat-quy-tac-an-toan',
+            title: 'Đi xe máy qua đường sắt: quy tắc an toàn',
+            seoTitle: 'Đi xe máy qua đường sắt: quy tắc an toàn',
+            metaDescription: 'Giao cắt đường sắt là nơi phải dừng hẳn, quan sát cả hai hướng và nhường ưu tiên cho tàu. Quy tắc qua rào chắn, đèn tín hiệu và cách xử lý khi xe kẹt trên đường ray.',
+            summary: 'Giao cắt giữa đường bộ và đường sắt là một trong số ít vị trí trên đường mà quy tắc không hề cân bằng: tàu không thể dừng nhanh như xe máy dừng được, nên trách nhiệm tránh nhau gần như trọn vẹn thuộc về người điều khiển phương tiện đường bộ. Bài viết này hệ thống lại toàn bộ quy tắc theo từng loại giao cắt. Với giao cắt có rào chắn tự động và đèn tín hiệu: đèn chấm nháy là tín hiệu giảm tốc, đèn đỏ kèm chuông và rào hạ là lệnh dừng hẳn trước vạch; chờ rào nâng hoàn toàn và đường thật sự thông rồi mới qua. Với giao cắt không rào chắn: áp dụng trọn vẹn quy tắc dừng, nhìn, nghe — dừng hẳn trước vạch, quan sát cả hai hướng, lắng nghe tiếng còi và tiếng bánh xe, rồi mới qua bằng số thấp với ga đều. Bài viết cũng dành riêng một phần cho tình huống xấu nhất: xe chết máy hoặc bị kẹt giữa đường ray, nơi mọi quyết định phải tính bằng giây và mỗi giây chỉ nên dành cho việc rời khỏi đường ray cùng báo hiệu cho người phía sau. Kết lại là phần quyền ưu tiên và trách nhiệm chung: giữ đúng vạch, không chen lấn, và coi mọi giao cắt quen thuộc như lần đầu đi qua.',
+            quickAnswer: 'Trả lời ngắn: qua đường sắt cần dừng hẳn, quan sát cả hai hướng và luôn nhường ưu tiên cho tàu, vì tàu cần hàng trăm mét mới dừng được. Chờ rào chắn mở hoàn toàn, không luồn lách, không dừng trên đường ray; nếu xe kẹt giữa đường ray, bỏ xe, chạy chéo hướng ray và báo hiệu người phía sau ngay lập tức.',
+            keyPoints: [
+              'Tàu luôn có quyền ưu tiên: quãng đường hãm của đoàn tàu tính bằng hàng trăm mét, nên dừng hẳn và quan sát trước mọi giao cắt đường sắt, kể cả nơi không có rào chắn.',
+              'Chờ rào chắn mở hoàn toàn và đường đã thông mới qua: không luồn lách chui gầm thanh chắn, không cố vượt qua khi rào đang hạ.',
+              'Giao cắt không rào chắn áp dụng trọn quy tắc dừng, nhìn, nghe: dừng hẳn trước vạch, quan sát cả hai hướng, lắng nghe tiếng tàu rồi mới qua bằng số thấp.',
+              'Không dừng, không đỗ và không để bị kẹt trên đường ray: nếu phía trước giao cắt còn ùn tắc, hãy chờ bên này vạch an toàn.',
+              'Xe chết máy giữa đường ray: cố nổ lại đúng một lần ngắn, không được thì bỏ xe, chạy chéo hướng ray và báo hiệu người phía sau dừng lại.',
+              'Nhận biết giao cắt từ xa qua biển báo, đèn chấm nháy, chuông báo và gờ giảm tốc để chủ động giảm tốc độ sớm.',
+            ],
+            category: 'ride',
+            hub: 'an-toan-giao-thong',
+            date: '2026-10-01',
+            updated: '2026-10-01',
+            entities: [
+              'giao cắt đường sắt',
+              'rào chắn đường sắt',
+              'đường ray',
+              'đèn tín hiệu giao cắt',
+              'quy tắc dừng nhìn nghe',
+              'quyền ưu tiên của tàu',
+            ],
+            keywords: [
+              'đi xe máy qua đường sắt',
+              'quy tắc qua đường sắt',
+              'giao cắt đường sắt',
+              'rào chắn đường sắt',
+              'xe kẹt trên đường ray',
+              'an toàn khi qua đường sắt',
+            ],
+            sections: [
+              {
+                h2: 'Vì sao giao cắt đường sắt luôn đòi hỏi dừng hẳn',
+                html: '<p>Một đoàn tàu chở khách hay chở hàng nặng từ hàng trăm đến hàng nghìn tấn; chạy với tốc độ cao, quãng đường hãm của tàu kéo dài hàng trăm mét, chưa kể khoảng thời gian từ lúc người lái tàu nhìn thấy chướng ngại đến lúc tàu tới nơi. Nói cách khác, khi bạn nhìn thấy tàu thì tàu chưa chắc đã dừng nổi trước điểm giao cắt, dù người lái đã kéo hãm ngay từ đầu.</p><p>Với người đi xe máy, mọi thứ lại nghịch lại: tầm nhìn bị giới hạn bởi mái che, hàng hóa, cột dựng ven đường hay chính những toa tàu đậu sát; tiếng máy xe và mũ bảo hiểm trùm tai che mất phần lớn tiếng còi; nắng thấp chiếu thẳng vào mặt lúc chiều muộn cũng làm đèn tín hiệu và rào chắn khó nhận thấy sớm.</p><p>Sự chênh lệch đó quyết định quy tắc: ở giao cắt đường sắt, phương tiện đường bộ phải dừng và nhường, không có ngoại lệ. Mọi kỹ thuật trong bài viết đều xoay quanh nguyên tắc gốc này.</p>',
+              },
+              {
+                h2: 'Nhận biết các loại giao cắt trên đường',
+                html: '<p>Loại đầy đủ nhất có rào chắn tự động hai bên, đèn đỏ chấm nháy và chuông báo, hạ xuống khi tàu tới gần. Loại thứ hai có nhà gác và nhân viên trực, rào được hạ thủ công theo lịch tàu chạy. Cả hai loại đều có vạch dừng sơn trên mặt đường và thường có gờ giảm tốc đặt trước vạch.</p><p>Loại thứ ba là giao cắt chỉ có biển báo, đôi khi thêm vạch sơn, không rào chắn và không đèn: dạng này thường gặp ở đường nhỏ, đường liên thôn hoặc lối đi tư nhân cắt ngang đường ray. Nguy hiểm của loại này nằm ở chỗ không có tín hiệu nào nhắc bạn lúc tàu đang tới, nên mọi thứ trông cậy vào thói quen dừng và quan sát của chính người lái.</p><p>Dù loại nào, hãy nhận biết từ xa: biển tam giác vẽ đầu tàu, biển lệnh dừng, cột đèn chấm nháy, gờ nhấp nhô trên mặt đường. Thấy bất kỳ tín hiệu nào trong số đó là bắt đầu nhả ga, không đợi sát vạch mới phanh gấp.</p>',
+              },
+              {
+                h2: 'Qua giao cắt có rào chắn và đèn tín hiệu',
+                html: '<p>Khi đèn vàng chấm nháy bật lên, giảm tốc và chuẩn bị dừng. Khi đèn đỏ nháy cùng chuông và rào chắn bắt đầu hạ, dừng hẳn trước vạch: về số 0 hoặc về mo cho xe không bị tuột, giữ phanh, đặt chân xuống đất nếu cần. Dừng hẳn nghĩa là hai bánh xe không còn lăn, chứ không phải chỉ nhả ga cho xe trôi chậm dần.</p><p>Chờ rào chắn nâng hoàn toàn và đèn tắt hẳn, rồi quan sát thêm một nhịp nữa trước khi tăng ga: cần chắc chắn phía trước vạch không còn xe kẹt, và không có đoàn tàu thứ hai đi sát sau đoàn đầu tiên. Rào nâng không đồng nghĩa đường đã an toàn tuyệt đối, nó chỉ có nghĩa là tín hiệu đã thôi báo hiệu.</p><p>Khi qua, đi thẳng góc với đường ray, ga đều, không tăng tốc đột ngột khi bánh trước vừa chạm gờ ray vì bánh xe có thể nảy nhẹ làm tay lái hụt. Qua xong mới tăng tốc lại bình thường, nhưng vẫn giữ tầm quan sát vì mặt đường sau giao cắt thường xấu hơn đoạn trước đó.</p>',
+              },
+              {
+                h2: 'Giao cắt không rào chắn: quy tắc dừng, nhìn, nghe',
+                html: '<p>Bước một là dừng: giảm tốc sớm, về số thấp, dừng hẳn trước vạch hoặc trước mép đường ray, đặt chân xuống đất. Dừng hẳn mang lại hai điều mà chỉ hạ tốc chậm là không có: tầm nhìn cố định để quan sát kỹ, và tư thế sẵn sàng chờ đợi an toàn.</p><p>Bước hai là nhìn: đảo mắt cả hai hướng, hướng nào tầm nhìn ngắn thì nhìn kỹ hơn, chú ý những đoạn đường cong mà tàu có thể xuất hiện đột ngột. Bước ba là nghe: lắng nghe tiếng còi và tiếng bánh xe lăn trên đường ray, vốn phát ra từ khá xa nếu không bị tiếng máy xe của bạn che mất. Ba bước này mất chưa đến mười giây nhưng là toàn bộ khác biệt giữa thấy tàu và không thấy tàu.</p><p>Chỉ qua khi chắc chắn không có tàu từ cả hai hướng trong khoảng thời gian mình cần để băng qua. Qua bằng số thấp, ga đều, thẳng góc, không đổi số khi đang ở giữa đường ray, và không dừng lại giữa chừng vì bất kỳ lý do gì.</p>',
+              },
+              {
+                h2: 'Khi xe chết máy hoặc bị kẹt trên đường ray',
+                html: '<p>Nếu xe chết máy ngay giữa giao cắt, giữ bình tĩnh và xử lý theo thứ tự ưu tiên: cố nổ lại đúng một lần ngắn; nếu có người cùng đi hoặc người phía sau giúp được thì đẩy xe chéo khỏi đường ray; nếu một mình và xe không nổ lại được thì không câu giờ thêm nữa.</p><p>Bỏ xe và rời khỏi vùng đường ray ngay, chạy theo hướng chéo góc với đường ray và chéo theo hướng tàu có thể tới, tránh đứng ngay sát mép đường vì xe bị tông có thể văng ra xa. Tài sản có thể thay thế, còn vài giây bạn ở lại thêm thì không lấy lại được bằng cách nào.</p><p>Sau khi thoát, quay mặt về phía giao cắt, phất tay, ra hiệu và hô to báo cho các phương tiện phía sau dừng lại trước vạch. Nếu nhận thấy có tàu đang tới gần, hãy tiếp tục chạy ra xa khỏi đường ray và cố báo hiệu cho người ở phía bên kia giao cắt nếu còn có thể.</p>',
+              },
+              {
+                h2: 'Quyền ưu tiên và trách nhiệm chung',
+                html: '<p>Về nguyên tắc, tàu luôn được ưu tiên qua giao cắt, và phương tiện đường bộ phải dừng nhường theo tín hiệu hoặc theo quan sát ở nơi không có tín hiệu. Dừng đúng vạch, không đè lên vạch, và không dừng đỗ gần mép giao cắt làm che tầm nhìn của người khác.</p><p>Với những giao cắt quen thuộc, nguy hiểm lại nằm ở chính sự quen thuộc: đường nhà đi mỗi ngày dễ tạo cảm giác không bao giờ có tàu lúc này. Hãy giữ một thói quen như nhau với mọi giao cắt: giảm tốc từ khi thấy biển, dừng hẳn, quan sát đủ hai hướng, rồi mới qua.</p><p>Trách nhiệm còn nằm ở phía cộng đồng: nhắc nhau giữ vạch khi xe đông, không chen lấn khi chờ rào chắn, đặc biệt gần trường học và chợ nơi phương tiện dày đặc vào giờ cao điểm, vì một người chen là cả hàng xe phía sau có nguy cơ bị đẩy sát mép đường ray.</p>',
+              },
+            ],
+            checklist: [
+              'Giảm tốc ngay từ khi thấy biển báo hoặc đèn chấm nháy của giao cắt đường sắt.',
+              'Dừng hẳn trước vạch, đặt chân xuống đất và quan sát đủ cả hai hướng.',
+              'Lắng nghe tiếng còi và tiếng bánh xe trước khi qua, kể cả lúc tầm nhìn thoáng.',
+              'Qua thẳng góc, số thấp, ga đều; không đổi số khi đang ở trên đường ray.',
+              'Không dừng, không đỗ và không để xe phía trước đẩy tới kẹt giữa giao cắt.',
+              'Xe chết máy giữa đường ray: cố nổ một lần ngắn, không được thì bỏ xe, chạy chéo hướng ray và báo hiệu người phía sau.',
+            ],
+            steps: [
+              {
+                title: 'Nhận diện giao cắt từ xa',
+                detail: 'Trên đường thấy biển tam giác hình đầu máy, biển lệnh dừng, cột đèn chấm nháy hoặc gờ nhấp nhô là bắt đầu nhả ga. Ước lượng khoảng cách còn lại để giảm tốc êm, về số thấp từ trước, tránh phanh gấp sát vạch làm xe phía sau không kịp phản ứng theo.',
+              },
+              {
+                title: 'Dừng đúng vị trí và quan sát',
+                detail: 'Dừng hẳn trước vạch dừng hoặc mép đường ray, đặt chân xuống đất, giữ phanh. Quan sát trái, phải rồi trở lại trái thêm lần nữa, lắng nghe tiếng còi tàu. Ở những đoạn cong tầm nhìn ngắn, đừng vội, chờ tới khi nhìn được đủ xa cả hai hướng rồi hãy quyết định.',
+              },
+              {
+                title: 'Băng qua đường ray',
+                detail: 'Khi chắc chắn an toàn, chọn số thấp vừa sức, tăng ga đều và đi thẳng góc qua đường ray. Không đổi số, không phanh gấp và không đánh tay lái lớn khi đang ở giữa giao cắt; lúc bánh xe đè lên gờ ray, giữ tay lái nhẹ nhàng cho xe không bị nảy.',
+              },
+              {
+                title: 'Sau khi qua giao cắt',
+                detail: 'Về số phù hợp, giữ tốc độ thấp thêm vài chục mét vì mặt đường sau giao cắt thường xấu và có thể còn ẩm. Quan sát gương xem xe phía sau có băng theo an toàn không, rồi mới trở lại nhịp đi bình thường của hành trình.',
+              },
+            ],
+            warnings: [
+              'Không bao giờ luồn lách qua rào chắn đang hạ hoặc chui gầm thanh chắn: đó là tự đặt mình vào vị trí không còn đường rút kịp khi tàu tới.',
+              'Không đua với rào chắn đang hạ: thanh chắn hạ nhanh hơn bạn nghĩ, và nhiều tai nạn xảy ra ở đúng những mét cuối trước vạch.',
+              'Không dừng sát đuôi xe phía trước khi chờ qua giao cắt: luôn chừa một khoảng trống để mình còn lối rút ra khỏi đường ray nếu có tình huống bất ngờ.',
+            ],
+            notes: [
+              'Một số giao cắt có các đoàn tàu đi gần nhau với khoảng cách hai chuyến rất ngắn: chờ đường thật sự thông rồi mới qua, đừng chen vào khoảng trống giữa hai đoàn tàu.',
+              'Rào chắn tự động đôi khi gặp trục trặc, nâng khi chưa hết tàu hoặc hạ lại đột ngột: sau khi rào nâng vẫn phải nhìn và nghe thêm một nhịp trước khi băng qua.',
+            ],
+            references: [
+              'Quy định về quyền ưu tiên của phương tiện giao thông đường sắt và nghĩa vụ nhường đường của phương tiện đường bộ tại nơi giao cắt.',
+              'Tài liệu tuyên truyền an toàn giao thông đường sắt: quy tắc dừng, nhìn, nghe tại nơi giao cắt đường bộ và đường sắt.',
+            ],
+            related: [
+              'bat-xi-nhan-dung-luc-tin-hieu-giua-dong-xe',
+              'ky-thuat-qua-nga-tu-va-quy-tac-uu-tien',
+              'giu-khoang-cach-an-toan-khi-di-xe-may',
+              'den-xi-nhan-hong-giua-duong-cach-xu-ly',
+            ],
+          };
+
+          ARTICLE_EOF
+      - name: Kiem tra cu phap
+        run: |
+          node --check factory/data/articles/a121-di-xe-may-khi-troi-lanh-luu-y-an-toan.js
+          node --check factory/data/articles/a122-di-xe-may-qua-duong-sat-quy-tac-an-toan.js
+      - name: Plan 2 slot
+        run: |
+          node factory/factory.js plan learn/ky-thuat-lai-xe di-xe-may-khi-troi-lanh-luu-y-an-toan "Đi xe máy khi trời lạnh: lưu ý an toàn"
+          node factory/factory.js plan ride/an-toan-giao-thong di-xe-may-qua-duong-sat-quy-tac-an-toan "Đi xe máy qua đường sắt: quy tắc an toàn"
+          grep -q "S00121" factory/state/matrix.json || { echo "thieu S00121"; exit 1; }
+          grep -q "S00122" factory/state/matrix.json || { echo "thieu S00122"; exit 1; }
+      - name: QA va SEO
+        run: |
+          node factory/factory.js qa-preview S00121 > /tmp/qa121.txt 2>&1 || { cat /tmp/qa121.txt; exit 1; }
+          if grep -q "KHÔNG ĐẠT" /tmp/qa121.txt; then cat /tmp/qa121.txt; echo "S00121 co muc khong dat"; exit 1; fi
+          grep -q "ĐẠT" /tmp/qa121.txt || { cat /tmp/qa121.txt; echo "S00121 khong thay ĐẠT"; exit 1; }
+          node factory/factory.js qa-preview S00122 > /tmp/qa122.txt 2>&1 || { cat /tmp/qa122.txt; exit 1; }
+          if grep -q "KHÔNG ĐẠT" /tmp/qa122.txt; then cat /tmp/qa122.txt; echo "S00122 co muc khong dat"; exit 1; fi
+          grep -q "ĐẠT" /tmp/qa122.txt || { cat /tmp/qa122.txt; echo "S00122 khong thay ĐẠT"; exit 1; }
+      - name: Verify sources
+        run: |
+          node factory/factory.js verify-sources S00121,S00122 > /tmp/vs.txt 2>&1 || { cat /tmp/vs.txt; exit 1; }
+          grep -q "VERIFY_SOURCES_OK" /tmp/vs.txt || { cat /tmp/vs.txt; echo "verify-sources khong ok"; exit 1; }
+      - name: Day state len main
+        run: |
+          git config user.name "Mr Tú"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add factory/state/matrix.json factory/state/checkpoint.json factory/state/factory-state.json
+          if git diff --cached --quiet; then echo "khong co thay doi state - loi logic"; exit 1; fi
+          git commit -m "chore(state): plan pair S00121,S00122 (qa-pass, seo-pass)"
+          ok=0
+          for t in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            echo "thu lai lan $t"
+            sleep 5
+          done
+          [ "$ok" = "1" ] || exit 1
+      - name: Dump bai sang diag branch
         if: always()
         run: |
+          base64 -w 76 factory/data/articles/a121-di-xe-may-khi-troi-lanh-luu-y-an-toan.js > b121.txt 2>/dev/null || true
+          base64 -w 76 factory/data/articles/a122-di-xe-may-qua-duong-sat-quy-tac-an-toan.js > b122.txt 2>/dev/null || true
           git config user.name "factory-diag"
           git config user.email "nguyentuantu2482@users.noreply.github.com"
           git checkout -b diag-state
-          git add -f verdict.txt b119base.txt b119fix.txt b120base.txt b120fix.txt 2>/dev/null || true
+          git add -f b121.txt b122.txt 2>/dev/null || true
           if ! git diff --cached --quiet; then
-            git commit -m "diag: repair candidates v2 for S00119,S00120"
-            git push -f origin diag-state
-          else
-            echo "khong co gi de day"
+            git commit -m "diag: base64 articles S00121,S00122"
+            git push -f origin diag-state || true
           fi
