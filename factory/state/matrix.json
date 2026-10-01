@@ -2358,11 +2358,13 @@
    "title": "Đi xe máy gặp xe chạy ngược chiều: xử lý an toàn",
    "primaryIntent": "informational/di-xe-may-gap-xe-chay-nguoc-chieu-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T07:44:22.454Z",
-   "updatedAt": "2026-10-01T07:44:22.462Z"
+   "updatedAt": "2026-10-01T07:49:32.074Z",
+   "seoScore": 91,
+   "words": 2828
   },
   {
    "id": "S00162",
@@ -2371,11 +2373,13 @@
    "title": "Nhường đường cho xe ưu tiên: cứu thương, PCCC, cảnh sát",
    "primaryIntent": "informational/nhuong-duong-cho-xe-uu-tien-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T07:44:22.547Z",
-   "updatedAt": "2026-10-01T07:44:22.548Z"
+   "updatedAt": "2026-10-01T07:49:32.074Z",
+   "seoScore": 91,
+   "words": 2808
   }
  ]
 }

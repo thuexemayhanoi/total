@@ -3778,6 +3778,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-gap-xe-chay-nguoc-chieu-xu-ly/",
+  "title": "Đi xe máy gặp xe chạy ngược chiều: xử lý an toàn",
+  "description": "Xe máy chạy ngược chiều trên đường một chiều hoặc lấn làn xuất hiện bất ngờ. Bài viết chỉ cách giảm tốc, chọn vị trí và né an toàn.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "xe ngược chiều",
+   "đường một chiều",
+   "vạch phân làn",
+   "tốc độ khép lại",
+   "dải phân cách cứng",
+   "xe vượt ngược chiều"
+  ],
+  "keywords": [
+   "xe máy gặp xe ngược chiều",
+   "xe chạy ngược chiều",
+   "đường một chiều an toàn",
+   "né xe ngược chiều",
+   "xe lấn làn ngược chiều",
+   "phòng tránh va chạm đối đầu"
+  ],
+  "summary": "Xe chạy ngược chiều là một trong những tình huống bất ngờ nhất trên đường: chiếc xe đạp lù lù xuất hiện đầu đường một chiều, xe máy đi tắt ngược lên làn của mình, hoặc ô tô lấn hẳn sang làn ngược để vượt trên quốc lộ. Điểm nguy hiểm của tình huống này nằm ở tố"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/nhuong-duong-cho-xe-uu-tien-luu-y/",
+  "title": "Nhường đường cho xe ưu tiên: cứu thương, PCCC, cảnh sát",
+  "description": "Xe cứu thương, xe PCCC và cảnh sát có còi ưu tiên cần đường thông thoáng. Bài viết chỉ cách nhận biết, nhường và đi lại an toàn.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "xe cứu thương",
+   "xe ưu tiên",
+   "còi ưu tiên",
+   "xe PCCC",
+   "dòng xe",
+   "phần đường thông thoáng"
+  ],
+  "keywords": [
+   "nhường đường xe ưu tiên",
+   "xe cứu thương nhường đường",
+   "còi ưu tiên xe máy",
+   "nhường đường cứu thương",
+   "xe PCCC nhường đường",
+   "đi xe máy gặp xe ưu tiên"
+  ],
+  "summary": "Tiếng còi ưu tiên vang lên trên đường là tình huống giao thông đòi hỏi phản ứng nhanh và đúng của mọi phương tiện, và xe máy — phương tiện nhỏ, cơ động và gần nhất với dòng chảy — lại là bên có vai trò lớn nhất trong việc mở đường. Nghĩa vụ nhường đường cho xe"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/",
   "title": "Thuê xe điện theo tháng: những điều cần biết",
   "description": "Thuê xe điện theo tháng: khi nào hợp lý, thỏa thuận pin và trạm sạc trong hợp đồng dài hạn, trách nhiệm suy giảm pin, bảo dưỡng và nghiệm thu khi trả xe.",
