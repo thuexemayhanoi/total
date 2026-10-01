@@ -33,18 +33,19 @@ jobs:
           A120=factory/data/articles/a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
           mkdir -p cand
           {
+            echo "start diag-repair v2"
             for f in "$A119" "$A120"; do
               b=$(basename "$f")
               git show "$W:$f" > "cand/base-$b"
               cp "$f" "cand/fix-$b"
-              node -e 'const fs=require("fs");const p=process.argv[1];let s=fs.readFileSync(p,"utf8");let out="",inStr=false;for(let i=0;i<s.length;i++){const ch=s[i];if(!inStr&&ch==="'"){inStr=true;out+=ch;continue;}if(inStr&&ch==="'"){inStr=false;out+=ch;continue;}if(inStr&&(ch==="
-"||ch==="")){continue;}out+=ch;}fs.writeFileSync(p,out);' "cand/fix-$b"
+              node -e 'const fs=require("fs");const p=process.argv[1];let s=fs.readFileSync(p,"utf8");let out="",inStr=false;const Q=String.fromCharCode(39),NL=String.fromCharCode(10),CR=String.fromCharCode(13);for(let i=0;i<s.length;i++){const ch=s[i];if(!inStr&&ch===Q){inStr=true;out+=ch;continue;}if(inStr&&ch===Q){inStr=false;out+=ch;continue;}if(inStr&&(ch===NL||ch===CR)){continue;}out+=ch;}fs.writeFileSync(p,out);' "cand/fix-$b"
               echo "== $b =="
               if node --check "cand/base-$b"; then echo "BASE_OK $b"; else echo "BASE_BROKEN $b"; fi
               if node --check "cand/fix-$b"; then echo "FIX_OK $b"; else echo "FIX_BROKEN $b"; fi
               if diff -q "cand/base-$b" "cand/fix-$b" >/dev/null 2>&1; then echo "IDENTICAL base vs fix: $b"; else echo "DIFFER base vs fix: $b"; fi
               wc -c "cand/base-$b" "cand/fix-$b" "$f"
             done
+            echo "done"
           } > verdict.txt 2>&1
           cat verdict.txt
           base64 -w 76 "cand/base-a119-pha-may-xe-may-moi-1000km-dau-tien.js" > b119base.txt
@@ -52,10 +53,15 @@ jobs:
           base64 -w 76 "cand/base-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js" > b120base.txt
           base64 -w 76 "cand/fix-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js" > b120fix.txt
       - name: Push diag branch
+        if: always()
         run: |
           git config user.name "factory-diag"
           git config user.email "nguyentuantu2482@users.noreply.github.com"
           git checkout -b diag-state
-          git add verdict.txt b119base.txt b119fix.txt b120base.txt b120fix.txt
-          git commit -m "diag: candidates for repairing S00119,S00120"
-          git push -f origin diag-state
+          git add -f verdict.txt b119base.txt b119fix.txt b120base.txt b120fix.txt 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "diag: repair candidates v2 for S00119,S00120"
+            git push -f origin diag-state
+          else
+            echo "khong co gi de day"
+          fi
