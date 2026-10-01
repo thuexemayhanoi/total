@@ -3371,6 +3371,58 @@
  },
  {
   "kind": "article",
+  "url": "learn/cham-soc-xe/kiem-tra-siet-oc-xe-may-dinh-ky/",
+  "title": "Kiểm tra siết ốc xe máy định kỳ: điểm nào và bao lâu một lần",
+  "description": "Ốc xe máy nới dần theo rung động, gây rơi phụ tùng, rung tay lái, thậm chí mất bánh. Bài viết chỉ điểm cần siết, chu kỳ kiểm tra và cách vặn đúng lực không quá tay.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "ốc xe máy",
+   "cờ lê lực",
+   "trục bánh xe",
+   "cổ giảm xóc",
+   "cột tay lái",
+   "bộ treo động cơ",
+   "ren bu-lông"
+  ],
+  "keywords": [
+   "siết ốc xe máy",
+   "kiểm tra ốc xe máy",
+   "ốc xe máy bị lỏng",
+   "chu kỳ siết ốc xe",
+   "bảo dưỡng ốc xe máy định kỳ",
+   "dấu hiệu ốc xe lỏng"
+  ],
+  "summary": "Một chiếc xe máy là hàng trăm mối nối đang chịu rung động mỗi ngày: mỗi cái gờ giảm tốc, mỗi đoạn đường đá, mỗi lần phanh gấp đều làm lực kẹp của mối nối lỏng dần theo thời gian — và quá trình này âm thầm tới khi người lái nghe tiếng lục cục ở sàn chân, thấy t"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/cho-do-de-vo-tren-xe-may/",
+  "title": "Chở đồ dễ vỡ trên xe máy: cố định và lái an toàn",
+  "description": "Chở đồ dễ vỡ trên xe máy cần lót đúng, buộc chắc, lái mềm: phanh sớm, né gờ giảm tốc, giữ tốc độ thấp. Bài viết chỉ cách đóng gói, cố định và xử lý khi sự cố xảy ra.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "đồ dễ vỡ",
+   "hộp xốp",
+   "dây buộc",
+   "gờ giảm tốc",
+   "phanh trước",
+   "cốp xe",
+   "baga sau"
+  ],
+  "keywords": [
+   "chở đồ dễ vỡ trên xe máy",
+   "chở đồ dễ vỡ",
+   "đóng gói đồ dễ vỡ",
+   "chở đồ trên xe máy",
+   "chở bình gốm đi xe máy",
+   "kỹ thuật lái chở đồ dễ vỡ"
+  ],
+  "summary": "Một hộp trứng, một cái chén, một khung ảnh kính hay một chiếc bình gốm đặt lên yên sau nghe có vẻ đơn giản — cho tới khi chiếc xe ăn một cái gờ giảm tốc, cả lực phanh và vài cú rung được truyền thẳng vào món đồ đó trong tích tắc. Khác với chở hàng cồng kềnh là"
+ },
+ {
+  "kind": "article",
   "url": "guide/xu-ly-su-co/xe-may-khong-no-may-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe máy không nổ máy: nguyên nhân và cách xử lý",
   "description": "Xe máy không nổ máy: cách chẩn đoán theo trình tự nhiên liệu - điện - cơ khí, các nguyên nhân phổ biến và khi nào cần gọi hỗ trợ thay vì sửa tại chỗ.",

@@ -2148,11 +2148,13 @@
    "title": "Kiểm tra siết ốc xe máy định kỳ: điểm nào và bao lâu một lần",
    "primaryIntent": "informational/kiem-tra-siet-oc-xe-may-dinh-ky",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:45:20.606Z",
-   "updatedAt": "2026-10-01T04:45:20.608Z"
+   "updatedAt": "2026-10-01T04:50:55.558Z",
+   "seoScore": 100,
+   "words": 3074
   },
   {
    "id": "S00148",
@@ -2161,11 +2163,13 @@
    "title": "Chở đồ dễ vỡ trên xe máy: cố định và lái an toàn",
    "primaryIntent": "informational/cho-do-de-vo-tren-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:45:20.686Z",
-   "updatedAt": "2026-10-01T04:45:20.688Z"
+   "updatedAt": "2026-10-01T04:50:55.558Z",
+   "seoScore": 100,
+   "words": 3155
   }
  ]
 }
