@@ -522,6 +522,66 @@
   ]
  },
  {
+  "url": "learn/chuan-doan-loi/xe-may-kho-no-buoi-sang-nguyen-nhan-va-xu-ly/",
+  "title": "Xe máy khó nổ buổi sáng: nguyên nhân và cách xử lý",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Sáng ra đạp nổ máy phải hụt vài lần mới lên, có hôm phải bóp ga kéo chọc lâu — và đến trưa thì xe nổ ngay giật một — đó là loại sự cố có quy luật, mà mọi sự cố có quy luật đều chẩn đoán được. Bài viết này đi theo đúng trình tự một người đi xe tự kiểm được. Bước một, xác định xe thuộc nhóm nào: xe điện nón khó nổ buổi sáng thường chỉ về ac quy và xăng, còn xe ga khó nổ có thêm gió tự chế và bơm xăng. Triệu chứng chìa khóa: tiếng máy quay nhanh hay chậm khi đạp — quay chậm là ac yếu, quay nhanh mà không lên là nhiên liệu hoặc tia lửa. Bước hai, đi qua danh sách nguyên nhân theo thứ tự xác suất: ac chai là thủ phạm số một — pin đã mòn thì sáng lạnh điện khởi động yếu nhất đúng lúc máy đặc nhất cần điện mạnh nhất; kế đến là bugi bẩn hoặc ẩm sau đêm ẩm thấp; kim ga chế hòa khí lệch, gió tự chế đóng mở sai vị trí; nhớt đặc quá vào trời lạnh làm máy cứng; xăng trong bình phai sau nhiều ngày xe đứng; và côn tay mòn trên xe số khiến ly hợp trượt, máy không được kéo tới vòng tua nổ. Bước ba, cách xử lý theo từng nguyên nhân — từ việc nhà như thay bugi, sạc hoặc thay ac, chỉnh lại chế hòa khí, tới việc thợ như cân lại phao chế hòa khí và phục hồi máy nổ. Cuối cùng là phòng bệnh: ac quy có tuổi thì thay trước khi nó chọn một sáng mưa làm cột mốc, và giữ xe qua đêm nơi khô ráo giúp phần lớn các nguyên nhân ẩm không có cửa sinh ra.",
+  "quickAnswer": "Trả lời ngắn: xe khó nổ buổi sáng nhưng nổ tốt lúc trời nóng thì gần như luôn rơi vào ba nhóm: điện yếu, nhiên liệu sai, hoặc máy cứng vì lạnh. Ba bước tự chẩn. Một, nghe tiếng máy khi đạp: quay chậm lì là ac quy hoặc ắc quy chai — sáng lạnh là lúc ac yếu thể hiện rõ nhất vì nhớt đặc gây cản lớn; quay nhanh đều mà không nổ là chuyện tia lửa hoặc xăng. Hai, kiểm theo thứ tự xác suất: bugi tháo ra xem điện cực — đen bụi hoặc ẩm là vệ sinh hoặc thay; kim ga kẹt, chế hòa khí lệch làm hỗn hợp quá nghèo buổi sáng; xăng cũ phai sau nhiều ngày xe đứng cũng gây nổ khó. Ba, xử lý đúng trình tự: thay bugi theo kỳ, ac chai thì thay chứ đừng kéo dài bằng cách chọc đề — mỗi lần đè ac yếu là thêm một lần hụt tuổi pin. Cẩn thận hai điều: đừng rớt xăng tươi vào bugi để cầu may, và đừng đạp liên tục mất kiểm soát khi máy đã nóng — biết giới hạn và mời thợ sớm luôn rẻ hơn một ngày đạp cho tới khi pin chết hẳn.",
+  "keyPoints": [
+   "Quy luật chẩn đoán đầu tiên là nghe tiếng máy: đạp mà máy quay chậm lì là thiếu điện khởi động — ac chai; quay nhanh đều mà không nổ là thiếu tia lửa hoặc nhiên liệu sai.",
+   "Ac quy chai là nguyên nhân số một của khó nổ sáng lạnh: sáng là lúc ac yếu nhất gặp đúng lúc máy nhớt đặc cần dòng khởi động lớn nhất.",
+   "Bugi bẩn hoặc ẩm sau đêm ẩm thấp là nguyên nhân số hai: tháo kiểm tra điện cực — đen bụi, ướt hoặc mòn điện cực là vệ sinh hoặc thay đúng kỳ.",
+   "Chế hòa khí lệch và gió tự chế sai vị trí làm hỗn hợp quá nghèo lúc máy lạnh — cần chỉnh, không phải bóp ga mạnh hơn."
+  ],
+  "entities": [
+   "khó nổ máy",
+   "ac quy",
+   "bugi",
+   "chế hòa khí",
+   "gió tự chế",
+   "bảo dưỡng xe máy"
+  ],
+  "keywords": [
+   "xe máy khó nổ buổi sáng",
+   "xe khó nổ sáng lạnh",
+   "nguyên nhân xe khó nổ",
+   "xe máy đạp không nổ",
+   "ac quy yếu khó nổ",
+   "bugi bẩn khó nổ"
+  ]
+ },
+ {
+  "url": "ride/an-toan-giao-thong/bat-xi-nhan-dung-luc-tin-hieu-giua-dong-xe/",
+  "title": "Bật xi nhan đúng lúc: tín hiệu giữa dòng xe",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Xi nhan là ngôn ngữ ngắn nhất của người đi đường: một lần bấm nói thay cả một phán đoán — tôi sắp rẽ, cho tôi qua. Nhưng ngôn ngữ chỉ hoạt động khi đúng ngữ pháp, và ngữ pháp của xi nhan nằm ở thời điểm bấm, độ rõ của tín hiệu, và việc giữ tín hiệu đủ lâu cho người xung quanh đọc hiểu. Bài viết này nói kỹ phần ngữ pháp ấy. Thời điểm chuẩn: bấm trước khi thay đổi hướng hoặc vị trí đủ xa để người phía sau phản ứng được, không phải bấm và quẹo cùng một giây — tín hiệu đổi ý thành thông báo. Bốn tình huống tiêu biểu: rẽ tại ngã tư có đèn — bấm sớm trước vạch dừng để xe sau biết chọn làn; chuyển làn trên đường lớn — xi nhan trước, quan sát, rồi mới chuyển; vào đường từ ngõ — xi nhan hướng muốn vào để đường lớn hiểu ý; và tấp vào lề dừng — xi nhan trước khi giảm tốc, không phanh gọn rồi mới bấm. Sai lầm phổ biến: bấm xi nhan rồi quên tắt cho tín hiệu chạy dọc cả chục cây số, làm mọi quyết định phía sau sai theo; bấm xi nhan mà vẫn đi thẳng khiến người khác đọc nhầm; và quan trọng nhất — coi xi nhan là quyền ưu tiên: xi nhan thông báo ý định, không mua đứt đoạn đường, và người bấm vẫn phải nhường người đang đi đúng phần đường của họ. Cuối cùng là góc nhìn giao tiếp: xi nhan đối thoại hai chiều — bấm cho người sau, nhưng mắt mình vẫn phải đọc xi nhan của người khác, và tín hiệu tốt nhất là tín hiệu rõ ràng, đúng lúc, và kèm quan sát thật.",
+  "quickAnswer": "Trả lời ngắn: xi nhan chỉ có giá trị khi bấm trước hành động đủ lâu cho người khác phản ứng, và phải tắt khi hành động xong. Ba quy tắc lõi. Một, bấm trước khi đổi hướng hoặc đổi vị trí — trước khi rẽ, trước khi chuyển làn, trước khi tấp lề — chứ không phải cùng lúc quẹo; tín hiệu và hành động xảy ra đồng thời là không còn tín hiệu. Hai, bấm đúng hướng và giữ tới khi hoàn tất thao tác, xong thì tắt ngay — xi nhan chạy dọc cả cây số là tin giả, khiến người sau ra quyết định sai. Ba, xi nhan thông báo chứ không ưu tiên: bấm rồi vẫn phải quan sát, nhường người đang đi đúng phần đường — tín hiệu là mở đầu của thương lượng, không mua đứt đoạn đường. Nhớ thêm hai cặp dễ lẫn: xi nhan khác còi — còi báo sự có mặt, xi nhan báo ý định; và xi nhan không thay mắt — bấm xong vẫn phải quay đầu nhìn, vì tín hiệu chỉ phát đi, không thu về điều gì cả.",
+  "keyPoints": [
+   "Bấm xi nhan trước hành động đủ xa để người sau phản ứng: trước khi rẽ, chuyển làn, tấp lề — bấm cùng lúc quẹo là biến tín hiệu thành thông báo sau việc.",
+   "Tắt xi nhan ngay khi thao tác xong: tín hiệu chạy dọc cả cây số là tin giả, khiến xe sau ra quyết định sai theo cả chục giây.",
+   "Xi nhan thông báo ý định, không tạo quyền ưu tiên: bấm rồi vẫn phải quan sát và nhường người đang đi đúng phần đường của họ.",
+   "Rẽ tại ngã tư: bấm trước vạch dừng để xe sau kịp chọn làn; vào đường lớn từ ngõ: bấm hướng muốn vào rồi chờ khe hợp lý."
+  ],
+  "entities": [
+   "xi nhan",
+   "tín hiệu xe máy",
+   "chuyển làn",
+   "rẽ tại ngã tư",
+   "ưu tiên giao thông",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "bật xi nhan đúng lúc",
+   "xi nhan xe máy",
+   "khi nào bật xi nhan",
+   "xi nhan chuyển làn",
+   "sai lầm xi nhan",
+   "xi nhan khi rẽ"
+  ]
+ },
+ {
   "url": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/",
   "title": "Đặt cọc thuê ô tô: những điều cần biết",
   "category": "Thuê xe",
