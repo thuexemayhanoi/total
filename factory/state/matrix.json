@@ -1458,11 +1458,13 @@
    "title": "Xe máy vào đường cao tốc: quy định và lý do",
    "primaryIntent": "informational/xe-may-di-vao-duong-cao-toc-quy-dinh-va-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:28:03.724Z",
-   "updatedAt": "2026-10-01T01:28:03.726Z"
+   "updatedAt": "2026-10-01T01:31:05.927Z",
+   "seoScore": 91,
+   "words": 2572
   },
   {
    "id": "S00102",
@@ -1471,11 +1473,13 @@
    "title": "Chống buồn ngủ khi lái xe máy: nhận biết và xử lý",
    "primaryIntent": "informational/chong-buon-ngu-khi-lai-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:28:03.810Z",
-   "updatedAt": "2026-10-01T01:28:03.812Z"
+   "updatedAt": "2026-10-01T01:31:05.927Z",
+   "seoScore": 100,
+   "words": 2458
   }
  ]
 }
