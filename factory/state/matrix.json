@@ -2470,6 +2470,32 @@
    "updatedAt": "2026-10-01T15:12:38.739Z",
    "seoScore": 100,
    "words": 3186
+  },
+  {
+   "id": "S00169",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "o-ga-va-vet-san-tren-duong-nhan-biet-va-xu-ly",
+   "title": "Ổ gà và vết san trên đường: nhận biết và xử lý",
+   "primaryIntent": "informational/o-ga-va-vet-san-tren-duong-nhan-biet-va-xu-ly",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-01T15:20:54.593Z",
+   "updatedAt": "2026-10-01T15:20:54.596Z"
+  },
+  {
+   "id": "S00170",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "bi-xe-khac-bam-sau-giu-an-toan-va-xu-ly",
+   "title": "Bị xe khác bám sát phía sau: giữ an toàn và xử lý",
+   "primaryIntent": "informational/bi-xe-khac-bam-sau-giu-an-toan-va-xu-ly",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-01T15:20:54.689Z",
+   "updatedAt": "2026-10-01T15:20:54.691Z"
   }
  ]
 }
