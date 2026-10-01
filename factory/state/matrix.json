@@ -1968,11 +1968,13 @@
    "title": "Qua vòng xuyến: quy tắc ưu tiên và kỹ năng",
    "primaryIntent": "informational/qua-vong-xuyen-quy-tac-uu-tien-va-ky-nang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:08:54.867Z",
-   "updatedAt": "2026-10-01T04:08:54.869Z"
+   "updatedAt": "2026-10-01T04:12:54.803Z",
+   "seoScore": 100,
+   "words": 2654
   },
   {
    "id": "S00136",
@@ -1981,11 +1983,13 @@
    "title": "Đồ bảo hộ đi xe máy: chọn và dùng",
    "primaryIntent": "informational/do-bao-ho-di-xe-may-chon-va-dung",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:08:54.960Z",
-   "updatedAt": "2026-10-01T04:08:54.962Z"
+   "updatedAt": "2026-10-01T04:12:54.803Z",
+   "seoScore": 100,
+   "words": 2683
   }
  ]
 }

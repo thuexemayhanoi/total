@@ -1456,6 +1456,66 @@
   ]
  },
  {
+  "url": "learn/ky-thuat-lai-xe/qua-vong-xuyen-quy-tac-uu-tien-va-ky-nang/",
+  "title": "Qua vòng xuyến: quy tắc ưu tiên và kỹ năng",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "summary": "Vòng xuyến được thiết kế để dòng xe tự điều phối mà không cần đèn tín hiệu — nhưng chính sự tự điều phối đó khiến nhiều người lái xe máy bối rối: ai nhường ai, vào làn nào, và ra ở vị trí nào. Bài viết này giải quyết trọn bộ ba câu hỏi. Phần nguyên lý: vòng xuyến đổi phép tắc của giao lộ — mọi xe trong vòng được ưu tiên trước xe chuẩn bị vào, và trật tự ra khỏi dòng ưu tiên là nguồn gần như mọi va chạm tại đây. Phần quy tắc cụ thể: nhường xe đang trong vòng trước khi vào, chọn làn theo hướng ra — phải cho lối ra đầu, trái cho lối ra xa, vào làn rồi giữ làn tới điểm ra, và báo hiệu xi nhan đúng nhịp: xi nhan phải khi chuẩn bị ra, không xi nhan khi còn đi tiếp. Ph phần kỹ năng chạy trong vòng: tốc độ đúng — đủ chậm để xử lý, đủ đều để không làm dòng phía sau gấp; vị trí trong làn rõ ràng để xe khác đọc được ý định; quan sát góc vào mù của vòng; và cách đối phó với xe ô tô lớn chiếm làn. Ph phần các tình huống khó: vòng xuyến nhiều làn đông giờ cao điểm, vòng nhỏ trong hẻm khu dân cư, và vòng có xe đạp xe điện lẫn dòng; cách xử lý khi lỡ qua lối ra — đi tiếp một vòng rồi ra, không phanh gấp và cắt ngang. Ph phần sai lầm phổ biến: dừng chết trước vòng khi dòng vẫn chảy đều, vào vòng không nhường, đổi làn giữa vòng không báo hiệu, và tốc độ quá nhanh khiến xe trong vòng không đoán được. Kết bài là nguyên tắc tổng: vòng xuyến an toàn dựa trên ba chữ — nhường trước, giữ làn, và ra dứt khoát.",
+  "quickAnswer": "Trả lời ngắn: qua vòng xuyến an toàn nằm ở ba chữ — nhường trước, giữ làn, ra dứt khoát. Vào vòng: giảm tốc từ xa, quan sát dòng trong vòng, nhường mọi xe đang đi trong vòng rồi mới vào với ga đều — không dừng chết trước vòng khi dòng vẫn chảy, chỉ dừng khi thực sự cần. Trong vòng: chọn làn theo hướng ra ngay từ lúc vào — lối ra đầu thì làn ngoài, lối xa thì làn trong; giữ đúng làn của mình và báo hiệu rõ: xi nhan phải trước khi chuẩn bị ra, không xi nhan khi còn đi tiếp. Ra vòng: xi nhan phải sớm, thong thả chuyển ra làn ngoài rồi rời vòng, nhường người đi bộ và xe đạp ở miệng ra nếu có. Lỡ qua lối ra: giữ bình tĩnh đi tiếp một vòng nữa rồi ra — không phanh gấp, không cắt ngang làn giữa vòng. Với ô tô lớn trong vòng: đừng bám sát vào góc mù của nó, để nó chiếm chỗ trước rồi mình đi sau theo hướng rõ ràng. Tốc độ trong vòng giữ ở mức dòng xe cùng chạy: quá nhanh làm xe khác không đoán được mình, quá chậm làm cả vòng bị nghẽn sau lưng.",
+  "keyPoints": [
+   "Xe đang trong vòng được ưu tiên — nhường dòng trong vòng rồi mới vào, không dừng chết khi dòng vẫn chảy đều.",
+   "Chọn làn ngay từ lúc vào theo hướng ra: lối ra đầu đi làn ngoài, lối xa đi làn trong, giữ làn tới điểm ra.",
+   "Xi nhan đúng nhịp: xi nhan phải khi chuẩn bị ra khỏi vòng, không xi nhan khi còn tiếp tục trong vòng.",
+   "Tốc độ trong vòng đủ đều để dòng phía sau đọc được — quá nhanh làm người khác không đoán, quá chậm làm nghẽn."
+  ],
+  "entities": [
+   "vòng xuyến",
+   "quy tắc ưu tiên",
+   "làn đường",
+   "xi nhan",
+   "góc mù",
+   "miệng vòng"
+  ],
+  "keywords": [
+   "qua vòng xuyến xe máy",
+   "quy tắc vòng xuyến",
+   "nhường đường vòng xuyến",
+   "kỹ thuật đi vòng xuyến",
+   "vào vòng xuyến đúng làn",
+   "đi vòng xuyến an toàn"
+  ]
+ },
+ {
+  "url": "ride/an-toan-giao-thong/do-bao-ho-di-xe-may-chon-va-dung/",
+  "title": "Đồ bảo hộ đi xe máy: chọn và dùng",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Mũ bảo hiểm là vật bắt buộc và được nói nhiều nhất, nhưng bộ đồ bảo hộ của người đi xe máy thực chất là một hệ thống: mỗi món che một nhóm cơ quan có nguy cơ thương tích riêng, và đa số té xe máy trượt xa trên mặt đường nên các tiếp điểm thân đất — lòng bàn tay, đầu gối, khuỷu, hông và bàn chân — là những chỗ chịu mất da và gãy nhiều nhất. Bài viết này trình bày cách chọn và dùng từng món theo nhu cầu thực tế. Phần logic bảo hộ: cơ chế thương tích của té xe máy — trượt trên mặt đường tạo ma sát mất da, va đập tạo gãy, và bị đè tạo dập — mỗi cơ chế ứng với nhóm trang bị nào. Phần găng tay: vì sao bàn tay là phản xạ chặn ngã đầu tiên, chọn găng có mũ che khớp cổ tay và gồ bảo ức ngón, phân biệt găng xe máy với găng thời trang không bảo hộ gì. Phần giày và dép: giày cao cổ che mắt cá là chuẩn tối thiểu, giày có mũi cứng và đế không trơn, và vì sao đi dép lê là lựa chọn tự nhận gãy ngón. Phần knee guard và knee guard dạng dài: bảo vệ đầu gối và xương chày — nhóm chấn thương tốn phẫu thuật nhất của té xe, cách chọn loại vừa và cách đeo không xê dịch. Phần áo bảo hộ dạng jacket: cho người đi xa cuối tuần — lớp lót xốp giảm ma sát và gồ cứng bảo khuỷu vai, và mức đầu tư hợp lý theo tần suất đi. Phần dùng đúng: mặc từng món đúng cách, bảo quản không làm hỏng lớp bảo hộ, và thời điểm thay — găng rách ở lớp gan là hết nhiệm vụ dù còn mới. Kết bài là nguyên tắc phân tầng: đi phố hằng ngày tối thiểu mũ và găng; đi xa thêm giày và knee guard; chạy liên vùng thêm áo bảo hộ — trang bị theo rủi ro của chuyến đi chứ không theo mốt.",
+  "quickAnswer": "Trả lời ngắn: đồ bảo hộ ngoài mũ gồm bốn món chính — găng tay, giày, knee guard và áo bảo hộ — mỗi món chặn một cơ chế thương tích. Chọn nhanh: găng có mũ che cổ tay và gồ bảo ngón, chất liệu da hoặc vải dày có gan chống trượt; giày cao cổ che mắt cá, mũi cứng, đế bám — không dép lê, không giày vải mỏng; knee guard loại có bản lề hoặc dạng ống chụp vừa khít, đeo không xê dịch khi gập chân; áo bảo hộ cho người đi xa: lót xốp giảm ma sát và gồ bảo vai khuỷu lưng. Dùng đúng: găng đeo kín tới cổ tay không hở cổ, knee guard chỉnh dây tới không lỏng, và bảo quản tránh nắng nóng làm lớp xốp chai. Thay khi: găng rách lớp bảo hộ, knee guard nứt vỏ sau cú ngã, áo xẹp gồ bảo — món đã nhận một cú va là hết nhiệm vụ, không \"tiết kiệm\" mặc tiếp. Phân tầng theo chuyến đi: phố hằng ngày tối thiểu mũ và găng; đi xa cuối tuần thêm giày tốt và knee guard; liên vùng và đường đèo thêm áo bảo hộ — mức trang bị đi theo rủi ro của tuyến, không theo mốt.",
+  "keyPoints": [
+   "Té xe máy chủ yếu trượt trên mặt đường: bàn tay, đầu gối, khuỷu và bàn chân là các tiếp điểm chịu mất da và gãy nhiều nhất.",
+   "Găng tay là món giá rẻ nhất bảo chỗ tự vệ đầu tiên của cơ thể — chọn loại có mũ che cổ tay và gồ bảo ức ngón.",
+   "Giày cao cổ che mắt cá với mũi cứng và đế bám là chuẩn tối thiểu — dép lê là tự nhận gãy ngón khi té.",
+   "Knee guard bảo đầu gối và xương chày — nhóm chấn thương tốn phẫu thuật nhất; chọn loại vừa và đeo không xê dịch."
+  ],
+  "entities": [
+   "găng tay bảo hộ",
+   "knee guard",
+   "giày bảo hộ",
+   "áo bảo hộ",
+   "lớp xốp giảm ma sát",
+   "mũ bảo hiểm"
+  ],
+  "keywords": [
+   "đồ bảo hộ đi xe máy",
+   "găng tay đi xe máy",
+   "knee guard xe máy",
+   "giày đi xe máy an toàn",
+   "áo bảo hộ xe máy",
+   "trang bị bảo hộ khi đi xe"
+  ]
+ },
+ {
   "url": "thue-xe/xe-oto/thue-o-to-co-tai-xe-dieu-can-biet/",
   "title": "Thuê ô tô có tài xế: những điều cần biết",
   "category": "Thuê xe",

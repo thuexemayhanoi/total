@@ -3044,6 +3044,56 @@
  },
  {
   "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/qua-vong-xuyen-quy-tac-uu-tien-va-ky-nang/",
+  "title": "Qua vòng xuyến: quy tắc ưu tiên và kỹ năng",
+  "description": "Vòng xuyến khiến nhiều người lái bối rối về nhường đường và làn. Bài viết giải thích quy tắc ưu tiên, chọn làn và kỹ thuật ra vào vòng xuyến an toàn.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "vòng xuyến",
+   "quy tắc ưu tiên",
+   "làn đường",
+   "xi nhan",
+   "góc mù",
+   "miệng vòng"
+  ],
+  "keywords": [
+   "qua vòng xuyến xe máy",
+   "quy tắc vòng xuyến",
+   "nhường đường vòng xuyến",
+   "kỹ thuật đi vòng xuyến",
+   "vào vòng xuyến đúng làn",
+   "đi vòng xuyến an toàn"
+  ],
+  "summary": "Vòng xuyến được thiết kế để dòng xe tự điều phối mà không cần đèn tín hiệu — nhưng chính sự tự điều phối đó khiến nhiều người lái xe máy bối rối: ai nhường ai, vào làn nào, và ra ở vị trí nào. Bài viết này giải quyết trọn bộ ba câu hỏi. Phần nguyên lý: vòng xu"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/do-bao-ho-di-xe-may-chon-va-dung/",
+  "title": "Đồ bảo hộ đi xe máy: chọn và dùng",
+  "description": "Ngoài mũ bảo hiểm, găng tay, giày và knee guard giảm thương tích khi té. Bài viết hướng dẫn chọn đồ bảo hộ theo nhu cầu đi đường và cách dùng đúng.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "găng tay bảo hộ",
+   "knee guard",
+   "giày bảo hộ",
+   "áo bảo hộ",
+   "lớp xốp giảm ma sát",
+   "mũ bảo hiểm"
+  ],
+  "keywords": [
+   "đồ bảo hộ đi xe máy",
+   "găng tay đi xe máy",
+   "knee guard xe máy",
+   "giày đi xe máy an toàn",
+   "áo bảo hộ xe máy",
+   "trang bị bảo hộ khi đi xe"
+  ],
+  "summary": "Mũ bảo hiểm là vật bắt buộc và được nói nhiều nhất, nhưng bộ đồ bảo hộ của người đi xe máy thực chất là một hệ thống: mỗi món che một nhóm cơ quan có nguy cơ thương tích riêng, và đa số té xe máy trượt xa trên mặt đường nên các tiếp điểm thân đất — lòng bàn ta"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-oto/thue-o-to-co-tai-xe-dieu-can-biet/",
   "title": "Thuê ô tô có tài xế: những điều cần biết",
   "description": "Thuê ô tô có tài xế: cấu trúc chi phí theo chuyến và theo ngày, điều khoản hợp đồng, giờ nghỉ của tài xế và cách phối hợp lịch trình để chuyến đi suôn sẻ.",
