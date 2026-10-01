@@ -2315,6 +2315,31 @@
  },
  {
   "kind": "article",
+  "url": "wiki/thuat-ngu-xe/immobilizer-tren-xe-may-la-gi/",
+  "title": "Immobilizer trên xe máy là gì",
+  "description": "Immobilizer là gì trên xe máy: cách công tắc chống nổ máy đọc chìa mã hóa, vì sao nó giảm trộm xe, các lỗi thường gặp và cách sử dụng đúng.",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "entities": [
+   "immobilizer",
+   "chìa khóa mã hóa",
+   "chống trộm xe máy",
+   "hệ thống đánh lửa",
+   "chip chìa",
+   "công nghệ xe máy"
+  ],
+  "keywords": [
+   "immobilizer xe máy",
+   "công tắc chống nổ máy",
+   "chìa khóa chip xe máy",
+   "xe có immobilizer",
+   "chìa xe không nổ máy",
+   "chống trộm xe máy immobilizer"
+  ],
+  "summary": "Trộm xe ngày nay không bẻ khóa cơ khí nữa mà bẻ khóa điện tử — và immobilizer, hay công tắc chống nổ máy, là lớp phòng thủ điện tử nằm ngay trên chính chiếc xe. Bài viết này giải thích thứ công nghệ hay bị gọi tắt một cách mơ hồ. Nguyên lý: immobilizer là sự t"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/",
   "title": "Đặt cọc thuê ô tô: những điều cần biết",
   "description": "Đặt cọc thuê ô tô: khác nhau giữa cọc tiền mặt và giữ trước trên thẻ, điều khoản trừ cọc hợp lệ, mối quan hệ với bảo hiểm và cách đối chiếu khi nhận lại cọc.",
@@ -2338,6 +2363,31 @@
    "thuê ô tô tự lái cọc bao nhiêu"
   ],
   "summary": "Trong mọi khoản tiền của hợp đồng thuê ô tô, phần đặt cọc là khoản dễ gây hiểu lầm nhất: người thuê thường chỉ nhìn con số mà bỏ qua hình thức giữ tiền, điều kiện hoàn trả và các tình huống được phép trừ. Thực tế, đặt cọc không phải một loại phí — đó là tài sả"
+ },
+ {
+  "kind": "article",
+  "url": "guide/xu-ly-su-co/xe-may-bi-nuoc-vao-dong-co-nguyen-nhan-va-xu-ly/",
+  "title": "Xe máy bị nước vào động cơ: nhận biết và xử lý",
+  "description": "Nước vào động cơ xe máy: con đường nước lọt qua ống hút gió, dấu hiệu nhận biết sau khi đi ngập, quy trình xử lý an toàn và những việc tuyệt đối không làm.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "nước vào động cơ",
+   "khóa nước",
+   "ống hút gió",
+   "que nhớt",
+   "buồng đốt",
+   "xử lý sự cố xe máy"
+  ],
+  "keywords": [
+   "nước vào động cơ xe máy",
+   "xe máy đi mưa chết máy",
+   "khóa nước động cơ",
+   "xe đi ngập chết máy xử lý",
+   "nhớt màu trắng đục",
+   "đề không nổ sau khi đi ngập"
+  ],
+  "summary": "Đi qua vũng ngập rồi về nhà nghe máy khác thường — đó là kịch bản nước vào động cơ, một trong những sự cố đắt nhất nếu xử lý sai và rẻ nhất nếu xử lý đúng ngay từ phút đầu. Bài viết này đi theo đường nước đi. Con đường vào: miệng hút gió của nhiều xe nằm thấp,"
  },
  {
   "kind": "article",

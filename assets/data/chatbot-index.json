@@ -582,6 +582,36 @@
   ]
  },
  {
+  "url": "wiki/thuat-ngu-xe/immobilizer-tren-xe-may-la-gi/",
+  "title": "Immobilizer trên xe máy là gì",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Trộm xe ngày nay không bẻ khóa cơ khí nữa mà bẻ khóa điện tử — và immobilizer, hay công tắc chống nổ máy, là lớp phòng thủ điện tử nằm ngay trên chính chiếc xe. Bài viết này giải thích thứ công nghệ hay bị gọi tắt một cách mơ hồ. Nguyên lý: immobilizer là sự thỏa thuận giữa chìa và xe — chìa có một con chip mã hóa, khi vặn chìa thì xe hỏi chip một câu hỏi mã hóa, chip trả lời đúng thì bộ điều khiển cho phép hệ thống đánh lửa khởi động; không có cuộc đối đáp đúng, máy có đề cũng không nổ vì không có tia lửa và không có xăng được bơm. Vai trò: khóa cơ khí giữ kẻ trộm chậm lại, immobilizer giữ chiếc xe không chạy được đi đâu cả — phần lớn xe bị cướp cổ điển bằng bẻ khóa then đề mất hiệu lực trên xe có immobilizer đúng chuẩn. Thực hành: có hai loại chìa — chìa gốc và chìa cơ khí cắt thêm; chìa cơ khí có thể mở khóa cửa và vặn được công tắc nhưng không nổ máy vì không có chip, và đây là lý do làm chìa phụ phải làm đúng quy trình tại nơi có thiết bị. Lỗi thường gặp: chìa bị thẻ từ và điện thoại đè lâu làm chip yếu, chìa rơi nhiều lần làm chip rão tiếp xúc, và tín hiệu lẫn giữa hai chìa để cạnh nhau. Cuối cùng là giới hạn thật: immobilizer chống nổ máy, không chống vác — xe bị khiêng lên xe tải là bài toán của khóa đĩa, chỗ đỗ và thiết bị định vị; hiểu đúng ranh giới giúp trang bị đúng tầng, thay vì tin một lớp là đủ.",
+  "quickAnswer": "Trả lời ngắn: immobilizer là hệ thống khóa điện tử chống nổ máy — chìa có chip mã hóa, xe có bộ đọc; vặn chìa là hai bên bắt tay bằng mã hóa, đúng mã thì đánh lửa được mở, sai hoặc không có chip thì đề cả buổi máy vẫn im. Ba điều cần nhớ. Một, chìa cơ khí cắt thêm không nổ máy: răng chìa đúng chỉ mở được khóa và vặn công tắc — chip mã hóa không thể cắt bằng máy cắt chìa thường, làm chìa phụ phải theo quy trình của nhà sản xuất. Hai, dấu hiệu chip chìa yếu: vặn chìa mà đèn khóa nhấp nháy hoặc máy không phản ứng, đổi vị trí chìa, lấy chìa ra khỏi chùm chìa và thẻ từ để thử — nhiều ca tưởng hỏng immobilizer thực ra là chìa bị lẫn tín hiệu. Ba, immobilizer không phải mọi tầng an toàn: nó giữ xe không tự đi được, nhưng không giữ xe không bị vác — khóa đĩa, chọn chỗ đỗ và thiết bị định vị là tầng tiếp theo, và ai coi một lớp là đủ thì đúng nghĩa để một lớp gánh cả bài toán. Nói chung, immobilizer là con chó giữ của chiếc xe: im lặng mọi ngày, và sủa đúng lúc cần nhất.",
+  "keyPoints": [
+   "Immobilizer là khóa điện tử chống nổ máy: chìa mang chip mã hóa, xe đọc và đối đáp qua mã — đúng mã mới mở hệ thống đánh lửa và bơm xăng.",
+   "Chìa cơ khí cắt thêm không nổ máy dù vặn được công tắc: chip không cắt được bằng máy thường — làm chìa phụ phải theo đúng quy trình của nhà sản xuất.",
+   "Dấu hiệu chìa chip yếu: vặn chìa mà đèn khóa nhấp nháy hoặc máy không đề — thử tách chìa khỏi chùm chìa, thẻ từ và điện thoại trước khi kết luận hỏng hệ thống.",
+   "Immobilizer giảm trộm kiểu bẻ khóa then đề: xe có đề nhưng không có tia lửa và xăng — phần lớn kẻ trộm cơ khí không vượt nổi lớp này."
+  ],
+  "entities": [
+   "immobilizer",
+   "chìa khóa mã hóa",
+   "chống trộm xe máy",
+   "hệ thống đánh lửa",
+   "chip chìa",
+   "công nghệ xe máy"
+  ],
+  "keywords": [
+   "immobilizer xe máy",
+   "công tắc chống nổ máy",
+   "chìa khóa chip xe máy",
+   "xe có immobilizer",
+   "chìa xe không nổ máy",
+   "chống trộm xe máy immobilizer"
+  ]
+ },
+ {
   "url": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/",
   "title": "Đặt cọc thuê ô tô: những điều cần biết",
   "category": "Thuê xe",
@@ -610,6 +640,36 @@
    "trừ cọc thuê xe",
    "điều khoản đặt cọc",
    "thuê ô tô tự lái cọc bao nhiêu"
+  ]
+ },
+ {
+  "url": "guide/xu-ly-su-co/xe-may-bi-nuoc-vao-dong-co-nguyen-nhan-va-xu-ly/",
+  "title": "Xe máy bị nước vào động cơ: nhận biết và xử lý",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Đi qua vũng ngập rồi về nhà nghe máy khác thường — đó là kịch bản nước vào động cơ, một trong những sự cố đắt nhất nếu xử lý sai và rẻ nhất nếu xử lý đúng ngay từ phút đầu. Bài viết này đi theo đường nước đi. Con đường vào: miệng hút gió của nhiều xe nằm thấp, khi bánh xe quạt nước hoặc xe liệng qua vũng sâu, nước được hút thẳng vào buồng đốt — nơi chỉ dành cho không khí và xăng; một lượng nhỏ nước làm máy giật tắt máy, một lượng lớn xảy ra hiện tượng khóa nước khi piston không nén được chất lỏng — chi tiết uốn, thanh truyền gãy. Dấu hiệu nhận biết: máy chết đột ngột khi đang trong vũng, đề không lại, ống xả nhả khói trắng dày, que nhớt sau kiểm tra thấy màu trắng đục như sữa — dấu nước đã vào khoang nhớt, và máy chạy kèm tiếng gõ bất thường. Xử lý đúng phút đầu: không đề lại liên tục — mỗi lần đề là một lần piston cố nén nước, và đó chính là cơ chế cong chi tiết; tắt khóa, đẩy xe ra khỏi vũng, kiểm tra bugi và nhớt trước khi bất kỳ lần nổ nào. Quy trình khi chắc chắn ngạt nước: rút bugi xả nước, thay nhớt cho tới khi hết màu sữa, sấy khô hệ thống điện, chạy máy thử nhẹ. Và ranh giới tự làm — tới thợ: khóa nước đã xảy ra là việc xưởng; còn mọi người còn may mắn chưa chết máy thì giá trị nhất nằm ở kỷ luật không đề lại để biến sự cố nhỏ thành sự cố đắt.",
+  "quickAnswer": "Trả lời ngắn: nước vào động cơ qua ống hút gió khi đi ngập sâu — và sai lầm chết người là đề lại liên tục. Ba điều quyết định mức thiệt hại. Một, dấu hiệu: máy chết đột ngột trong vũng, ống xả nhả khói trắng dày, que nhớt màu trắng đục như sữa, đề mà máy cứng hoặc kêu khác thường — dừng ngay, không đề thêm lần nào nữa vì piston cố nén nước là cơ chế uốn chi tiết và gãy thanh truyền. Hai, xử lý phút đầu: tắt khóa, đẩy xe ra khỏi nước, tháo bugi xả nước bớt, kiểm nhớt — nhớt màu sữa là thay ngay; làm các bước này trước bất kỳ lần nổ nào. Ba, khi nào tới thợ: máy chết cứng khi đề là dấu khóa nước đã xảy ra — xe đó không tự nổ lại được nữa, chở đi hoặc mời thợ tới; còn xe may mắn chết máy nhưng đề nhẹ thì xử lý theo quy trình xả nước, thay nhớt, sấy điện, chạy thử nhẹ. Nguyên tắc vàng của cả bài: với nước trong buồng đốt, mỗi lần đề thêm là một lần ném tiền vào piston.",
+  "keyPoints": [
+   "Nước vào buồng đốt qua miệng hút gió thấp khi đi ngập sâu hoặc bị quạt ngược — buồng đốt chỉ chứa không khí và xăng, nước vào là máy giật và chết.",
+   "Không đề lại liên tục khi máy chết trong vũng: piston cố nén nước không nén được là cơ chế khóa nước — uốn chi tiết, gãy thanh truyền, hỏng đầu máy.",
+   "Dấu hiệu nước vào khoang nhớt: que nhớt màu trắng đục như sữa — nước đã trộn vào nhớt, thay ngay và kiểm lại sau vài chục cây số.",
+   "Quy trình xử lý ngạt nước: tháo bugi xả nước, thay nhớt cho tới khi hết màu sữa, sấy khô hệ thống điện, nổ máy thử nhẹ và theo dõi khói trắng."
+  ],
+  "entities": [
+   "nước vào động cơ",
+   "khóa nước",
+   "ống hút gió",
+   "que nhớt",
+   "buồng đốt",
+   "xử lý sự cố xe máy"
+  ],
+  "keywords": [
+   "nước vào động cơ xe máy",
+   "xe máy đi mưa chết máy",
+   "khóa nước động cơ",
+   "xe đi ngập chết máy xử lý",
+   "nhớt màu trắng đục",
+   "đề không nổ sau khi đi ngập"
   ]
  },
  {

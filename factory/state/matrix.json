@@ -1578,11 +1578,13 @@
    "title": "Immobilizer trên xe máy là gì",
    "primaryIntent": "informational/immobilizer-tren-xe-may-la-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:49:53.127Z",
-   "updatedAt": "2026-10-01T01:49:53.130Z"
+   "updatedAt": "2026-10-01T01:52:19.974Z",
+   "seoScore": 91,
+   "words": 2895
   },
   {
    "id": "S00110",
@@ -1591,11 +1593,13 @@
    "title": "Xe máy bị nước vào động cơ: nhận biết và xử lý",
    "primaryIntent": "informational/xe-may-bi-nuoc-vao-dong-co-nguyen-nhan-va-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:49:53.224Z",
-   "updatedAt": "2026-10-01T01:49:53.226Z"
+   "updatedAt": "2026-10-01T01:52:19.974Z",
+   "seoScore": 100,
+   "words": 2902
   }
  ]
 }
