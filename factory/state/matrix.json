@@ -1758,11 +1758,13 @@
    "title": "Đi xe máy khi trời lạnh: lưu ý an toàn",
    "primaryIntent": "informational/di-xe-may-khi-troi-lanh-luu-y-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:57:28.389Z",
-   "updatedAt": "2026-10-01T02:57:28.390Z"
+   "updatedAt": "2026-10-01T03:33:34.909Z",
+   "seoScore": 100,
+   "words": 2627
   },
   {
    "id": "S00122",
@@ -1771,11 +1773,13 @@
    "title": "Đi xe máy qua đường sắt: quy tắc an toàn",
    "primaryIntent": "informational/di-xe-may-qua-duong-sat-quy-tac-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:57:28.426Z",
-   "updatedAt": "2026-10-01T02:57:28.426Z"
+   "updatedAt": "2026-10-01T03:33:34.909Z",
+   "seoScore": 100,
+   "words": 2651
   }
  ]
 }
