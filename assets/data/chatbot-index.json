@@ -2515,6 +2515,66 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-sau-xe-tai-khoang-cach-va-tam-nhin/",
+  "title": "Đi xe máy sau xe tải: giữ khoảng cách và tầm nhìn",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Đi xe máy sau một chiếc xe tải là vị trí mù thông tin nguy hiểm bậc nhất trên đường: người lái xe không thấy gì phía trước ngoài tấm lùi của chiếc tải, không biết đèn đỏ còn bao xa, không biết chốt giảm tốc hay ổ gà đang chờ ở đâu, và mọi quyết định đều bị đặt theo nhịp của một chiếc xe nặng gấp trăm lần mình. Bài viết này viết cho người hay rơi vào thế đi sau xe tải ở quốc lộ, đường vành đai, khu công nghiệp. Trọng tâm không nằm ở khẩu quyết giữ khoảng cách chung chung, mà ở việc hiểu tại sao khoảng cách với xe tải có tính chất khác hẳn khoảng cách với xe con: xe tải dài nên che nhiều, đạp phanh tỏa nhiệt mòn nên quãng phanh của nó không phải quãng phanh của mình, và tài xế tải ngồi cao nhìn được xa — nghĩa là anh ta phanh sớm cho những thứ mình còn chưa nhìn thấy, khiến xe máy bám sát phía sau luôn bị bất ngờ trước những cú giảm tốc vô cớ. Bài viết sắp xếp thành năm phần: hiểu thế mù thông tin khi bám hậu xe tải; cách chọn vị trí và khoảng cách theo tốc độ và loại đường; đọc tín hiệu của xe tải — đèn phanh, góc đầu nghiêng, nhịp tăng giảm; các tình huống đặc biệt — tải chạy cùng ki-lô-mét, tải rẽ phải vào ngõ hẹp, đường trơn và bụi; và cuối cùng là quy tắc chọn thời điểm vượt: bao giờ vượt được, bao giờ phải đợi, và cách vượt để không rơi vào vùng mù lần thứ hai ngay giữa quá trình vượt. Thông điệp xuyên suốt: khoảng cách với xe tải mua được thứ quý nhất của người đi xe máy — thông tin, chứ không chỉ an toàn.",
+  "quickAnswer": "Trả lời ngắn: khi buộc phải đi sau xe tải, đừng bám sát để nhờ khoảng trống — hãy lùi lại tới khoảng cách đủ để nhìn thấy gương của xe tải và quan trọng hơn là nhìn được đường phía trước hoặc bên hông nó; quy tắc ước lượng là giữ khoảng cách bằng ít nhất hai, ba thân xe máy ở tốc độ trong phố và nhiều hơn trên quốc lộ, vì xe tải phanh được sớm cho những chướng ngại mình chưa kịp nhìn thấy. Đừng đi giữa ngay sau xe tải mà lệch sang nửa làn bên trái chút ít để nhìn được qua góc xe — nhưng chỉ khi vẫn giữ được khoảng cách và lối thoát. Không bao giờ đi ngay sau xe tải đang lùi hoặc đang chuẩn bị lùi: nếu đèn lùi hoặc tiếng máy thay đổi, dừng hẳn và chờ. Vượt xe tải chỉ khi nhìn thấy đường phía trước đủ dài và xe tải không có dấu hiệu rẽ, tăng tốc hay đổi làn; khi đã vượt thì vượt dứt khoát, không đi song song dài hạn ở vùng mù hai bên sườn. Nếu xe tải chạy cùng ki-lô-mét với mình suốt đoạn dài, coi đó là dấu hiệu đường phía trước có vấn đề — chốt giảm tốc, tàu ngang, cảnh sát — và chuẩn bị phanh theo.",
+  "keyPoints": [
+   "Khoảng cách với xe tải là mua thông tin, không phải chỉ an toàn: xe tải che tầm nhìn, và người không nhìn thấy phía trước thì mọi phán đoán đều chậm một nhịp.",
+   "Đừng đi thẳng ngay sau lưng xe tải: lệch làn nhẹ về phía trái, giữ khoảng cách, để nhìn được đường qua sườn xe thay vì chỉ nhìn vào tấm lùi.",
+   "Xe tải phanh sớm vì tài xế ngồi cao nhìn xa — cú giảm tốc tưởng như vô cớ của xe tải gần như luôn có lý do nằm ngoài tầm mắt của người đi sau.",
+   "Không đi sát sau xe tải đang lùi hoặc vào ngõ: tải lùi nhiều lần mới vào được ngõ nhỏ, và vùng sau xe tải là chỗ xe máy bị lấn mất hoàn toàn."
+  ],
+  "entities": [
+   "xe tải",
+   "khoảng cách an toàn",
+   "vùng mù",
+   "tầm nhìn",
+   "đèn phanh",
+   "vượt xe"
+  ],
+  "keywords": [
+   "khoảng cách với xe tải",
+   "vùng mù xe tải",
+   "tầm nhìn khi đi sau xe",
+   "vượt xe tải an toàn",
+   "đi sau xe tải",
+   "bụi xe tải trên đường"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/di-xe-may-sau-mua-vua-tat-duong-tron-luu-y/",
+  "title": "Đi xe máy sau mưa vừa tạnh: đường trơn bất ngờ",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Người đi xe máy thường coi mưa to là lúc nguy hiểm và mưa tạnh là lúc hết nguy hiểm — và đó chính là sai lầm làm nên phần lớn các cú ngã sau mưa. Trong khoảng mười, ba mươi phút sau khi mưa tạnh, mặt đường không sạch đi mà trơn lên: dầu và nhớt tích từ nhiều ngày nằm trong khoảng trống giữa hạt đá nhựa đường, khi khô thì bám chặt, khi ướt thì nổi lên thành màng; bụi khô cùng mảnh lá bị nước dồn về sát mép đường và các vệt bánh xe đè bẹp; mũ nilon, lá ướt, vạch sơn cũ mòn — tất cả cùng được một lớp nước bôi trơn cho. Kết quả là đoạn đường đã chạy năm mươi ki-lô-mét giờ hàng tuần bỗng thành tấm băng mỏng đúng ở những chỗ quen tay nhất: đầu ngã tư, vệt bánh xe ở cua, miệng cống, dốc thoái vào hẻm. Bài viết này đi theo dòng thời gian của cơn mưa: vì sao đường tạnh mưa trơn hơn đường đang mưa thật sự; những chỗ nào trên đường tập trung dầu và trơn nhất; cách điều chỉnh phanh, ga, tư thế và tốc độ cho đúng loại mặt đường ướt mới; và những thói quen nhỏ — như đi lệch vệt bánh xe trước, tránh phanh ngay đầu ngã tư, giữ bề rộng lốp bằng áp suất chuẩn — tạo nên khác biệt giữa về tới nhà và nằm giữa cua. Thông điệp gói lại: sau mưa tạnh, đường chưa khô, và người lái cũng chưa nên về ngay với tốc độ cũ.",
+  "quickAnswer": "Trả lời ngắn: sau khi mưa tạnh, đừng vội lấy lại tốc độ quen thuộc — cho đường khoảng mười, ba mươi phút đầu đó là mặt phẳng trơn nhất trong ngày, vì dầu và bụi tích tụ được nước nhấc lên thành màng bôi trơn. Đi chậm hơn bình thường, phanh nhẹ và sớm thay vì mạnh và muộn, và tách ra khỏi vệt bánh xe cũ: vệt xe trước đè bẹp là nơi dầu được in lại rõ nhất. Những chỗ cần hạ tốc độ ngay cả khi trông không trơn: đầu ngã tư và nơi xe hay dừng đèn đỏ, miệng cống và mép trũng, vạch sơn và mũi phân cách, dốc thoái vào hẻm, và mọi tấm nắp cống bọc sắt. Tư thế: hai gót kẹp sát hông yên, trọng tâm thấp, không dựng người phản ứng theo thói quen khô ráo. Nếu lỡ phanh trên chỗ trơn mà xe bắt đầu khựng, đừng bóp thêm: nhả phanh, giữ hướng thẳng, để bánh tự tìm lại độ bám rồi mới giảm tiếp. Và luôn mặc niệm một điều khi trời tạnh mà mặt đường còn loang nước: dưới lớp loang đó có thể là vệt dầu.",
+  "keyPoints": [
+   "Đường sau mưa tạnh thường trơn hơn đường đang mưa thật sự: dầu, bụi và cặn khô được nước nhấc lên thành màng bôi trơn đúng lúc người ta tưởng nguy hiểm đã qua.",
+   "Dầu tập trung ở nơi xe hay dừng và giảm tốc: đầu ngã tư, vệt bánh trước đèn đỏ, miệng cống, đường vào hẻm — hạ tốc ở những chỗ quen tay nhất.",
+   "Tách khỏi vệt bánh xe cũ trên đường ướt: vệt xe trước đè bẹp là nơi dầu in lại rõ nhất; chọn mặt đường còn nhám, gờ asphalt khô nhanh hơn.",
+   "Phanh nhẹ, sớm, đều hai bánh; nếu xe khựng trên chỗ trơn thì nhả phanh, giữ thẳng, để bánh tìm lại bám rồi mới giảm tiếp — bóp thêm là ngã."
+  ],
+  "entities": [
+   "mưa tạnh",
+   "đường trơn",
+   "vệt dầu",
+   "vạch sơn",
+   "nắp cống",
+   "độ bám lốp"
+  ],
+  "keywords": [
+   "đường trơn sau mưa",
+   "vệt dầu trên đường ướt",
+   "mưa vừa tạnh đi xe máy",
+   "phanh trên đường ướt",
+   "đi xe đường ướt an toàn",
+   "lốp xe máy đường trơn"
+  ]
+ },
+ {
   "url": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/",
   "title": "Thuê xe điện theo tháng: những điều cần biết",
   "category": "Thuê xe",

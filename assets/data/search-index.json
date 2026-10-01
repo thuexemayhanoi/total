@@ -3928,6 +3928,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-sau-xe-tai-khoang-cach-va-tam-nhin/",
+  "title": "Đi xe máy sau xe tải: giữ khoảng cách và tầm nhìn",
+  "description": "Đi sau xe tải che mất tầm nhìn là một trong những vị trí nguy hiểm nhất của xe máy. Bài viết chỉ cách giữ khoảng cách, đọc tín hiệu và chọn thời điểm vượt.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "xe tải",
+   "khoảng cách an toàn",
+   "vùng mù",
+   "tầm nhìn",
+   "đèn phanh",
+   "vượt xe"
+  ],
+  "keywords": [
+   "khoảng cách với xe tải",
+   "vùng mù xe tải",
+   "tầm nhìn khi đi sau xe",
+   "vượt xe tải an toàn",
+   "đi sau xe tải",
+   "bụi xe tải trên đường"
+  ],
+  "summary": "Đi xe máy sau một chiếc xe tải là vị trí mù thông tin nguy hiểm bậc nhất trên đường: người lái xe không thấy gì phía trước ngoài tấm lùi của chiếc tải, không biết đèn đỏ còn bao xa, không biết chốt giảm tốc hay ổ gà đang chờ ở đâu, và mọi quyết định đều bị đặt"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/di-xe-may-sau-mua-vua-tat-duong-tron-luu-y/",
+  "title": "Đi xe máy sau mưa vừa tạnh: đường trơn bất ngờ",
+  "description": "Mưa vừa tạnh là lúc đường trơn nhất: dầu, bụi và mũ nilon nổi lên mặt đường ướt. Bài viết chỉ cách nhận diện vệt trơn và điều chỉnh phanh, ga, tư thế khi đi.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "mưa tạnh",
+   "đường trơn",
+   "vệt dầu",
+   "vạch sơn",
+   "nắp cống",
+   "độ bám lốp"
+  ],
+  "keywords": [
+   "đường trơn sau mưa",
+   "vệt dầu trên đường ướt",
+   "mưa vừa tạnh đi xe máy",
+   "phanh trên đường ướt",
+   "đi xe đường ướt an toàn",
+   "lốp xe máy đường trơn"
+  ],
+  "summary": "Người đi xe máy thường coi mưa to là lúc nguy hiểm và mưa tạnh là lúc hết nguy hiểm — và đó chính là sai lầm làm nên phần lớn các cú ngã sau mưa. Trong khoảng mười, ba mươi phút sau khi mưa tạnh, mặt đường không sạch đi mà trơn lên: dầu và nhớt tích từ nhiều n"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/",
   "title": "Thuê xe điện theo tháng: những điều cần biết",
   "description": "Thuê xe điện theo tháng: khi nào hợp lý, thỏa thuận pin và trạm sạc trong hợp đồng dài hạn, trách nhiệm suy giảm pin, bảo dưỡng và nghiệm thu khi trả xe.",

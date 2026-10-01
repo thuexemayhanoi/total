@@ -2448,11 +2448,13 @@
    "title": "Đi xe máy sau xe tải: giữ khoảng cách và tầm nhìn",
    "primaryIntent": "informational/di-xe-may-sau-xe-tai-khoang-cach-va-tam-nhin",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T15:07:03.156Z",
-   "updatedAt": "2026-10-01T15:07:03.159Z"
+   "updatedAt": "2026-10-01T15:12:38.739Z",
+   "seoScore": 100,
+   "words": 3458
   },
   {
    "id": "S00168",
@@ -2461,11 +2463,13 @@
    "title": "Đi xe máy sau mưa vừa tạnh: đường trơn bất ngờ",
    "primaryIntent": "informational/di-xe-may-sau-mua-vua-tat-duong-tron-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T15:07:03.244Z",
-   "updatedAt": "2026-10-01T15:07:03.246Z"
+   "updatedAt": "2026-10-01T15:12:38.739Z",
+   "seoScore": 100,
+   "words": 3186
   }
  ]
 }
