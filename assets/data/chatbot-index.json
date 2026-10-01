@@ -1910,6 +1910,36 @@
   ]
  },
  {
+  "url": "tips/meo-lai-xe/di-xe-may-khi-moi-nhan-biet-va-phong-tranh/",
+  "title": "Đi xe máy khi mỏi: nhận biết và phòng tránh",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Chạy xe máy từ nay được xem là công việc nhẹ, nhưng thực chất giữ tư thế bất động trên xe chạy giữa dòng giao thông là một nhiệm vụ não bộ nặng: mắt quét, tay chỉnh ga, chân đánh phanh, đầu dự đoán hành vi chục phương tiện xung quanh — tất cả diễn ra đồng thời trong hàng giờ. Khi các cơ quan mỏi, não thiếu các tín hiệu đầu vào chính xác: mắt khép lại mỗi giây tự nhiên (bản nháy kéo dài), cơ cổ gáy cứng giữ đầu, bàn tay chết cứng trên tay lái, và kết quả là người lái không còn thấy sớm những gì nên thấy sớm. Điều đáng sợ nhất là trạng thái mỏi khi lái tự lừa người ta rất giỏi: một người lái gật gù trong vài giây thường không biết mình vừa gật, và khoảng trống đó đủ đi lạc làn hoặc đâm trực diện. Bài viết này phân biệt ba loại mỏi — mỏi mắt, mỏi cơ và mỏi não — kèm dấu hiệu nhận biết mỗi loại đúng lúc lái; trả lời câu hỏi bao lâu thì nên nghỉ, nghỉ kiểu gì mới thực sự hồi phục (không phải dừng xe hút thuốc là hồi phục); kỹ thuật giảm mức mỏi cho các chuyến bắt buộc phải đi xa: chỉnh tư thế và gương trước khi đi, chia chặng ngắn có mốc dừng, ăn nhẹ và uống đủ nước đúng lúc; và cuối cùng là ranh giới đỏ — những dấu hiệu mà nếu xuất hiện thì phải dừng ngay, không còn chỗ cho việc \"cố thêm chút nữa\".",
+  "quickAnswer": "Trả lời ngắn: mỏi khi lái không phải một trạng thái chung mà ba loại khác nhau — mỏi mắt (nháy mắt nhiều, nhìn mờ từng đợt, mất dấu làn), mỏi cơ (cổ vai gáy cứng, bàn tay tê, lưng nhức), mỏi não (lơ đãng, quên chặng vừa đi, suy nghĩ chậm, gật gù) — và mỗi loại có cách xử riêng. Với mỏi nhẹ: giảm tốc độ, kéo về làn trong, tăng khoảng cách với các xe khác, tìm chỗ dừng trong mười lăm phút tới. Với mỏi não và gật gù: dừng ngay, không bàn thêm — đỗ xe an toàn vào lề, khóa xe, và ngồi nghỉ hoặc ngủ ngắn mười đến hai mươi phút. Phòng tránh trước: ngủ đủ trước chuyến xa, chia chặng mỗi một giờ rưỡi tới hai giờ có dừng thật sự, tránh giờ sinh học sụp (sau bữa trưa và nửa đêm về sáng), ăn nhẹ và uống nước đều đặn. Mức nghiêm trọng của mỏi khi lái tương đương vi phạm nồng độ cồn nhẹ — phản xạ chậm, đánh giá khoảng cách sai — nên chuẩn bị trước là phần lớn của giải pháp.",
+  "keyPoints": [
+   "Mỏi khi lái có ba loại — mỏi mắt, mỏi cơ, mỏi não — và xử lý đúng loại mới hiệu quả: nghỉ mắt khác nghỉ lưng, nghỉ lưng khác nghỉ não.",
+   "Dấu hiệu đỏ phải dừng ngay: gật gù, quên chặng vừa đi, lơ đãng nhìn một điểm lâu, đánh võng không rõ lý do — những dấu này không \"cố thêm\" được.",
+   "Ngủ ngắn mười đến hai mươi phút sau khi đỗ an toàn là biện pháp hồi phục nhanh nhất — tốt hơn cà phê, tốt hơn rửa mặt.",
+   "Chia chặng mỗi một giờ rưỡi tới hai giờ có dừng thật sự: xuống xe, đi bộ vài phút, uống nước — không phải dừng đứng hút thuốc."
+  ],
+  "entities": [
+   "mỏi khi lái",
+   "gật gù",
+   "ngủ ngắn",
+   "khoảng cách an toàn",
+   "tư thế lái",
+   "giờ sinh học"
+  ],
+  "keywords": [
+   "đi xe máy khi mỏi",
+   "lái xe khi mệt",
+   "dấu hiệu mỏi khi lái xe",
+   "ngủ gật khi lái xe",
+   "phòng tránh mỏi khi lái",
+   "nghỉ giữa chuyến đi xa"
+  ]
+ },
+ {
   "url": "guide/xu-ly-su-co/xe-may-khong-no-may-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe máy không nổ máy: nguyên nhân và cách xử lý",
   "category": "Hướng dẫn",
@@ -1938,6 +1968,36 @@
    "bugi xe máy",
    "ắc quy yếu",
    "xử lý khi xe không nổ máy"
+  ]
+ },
+ {
+  "url": "learn/kien-thuc-phap-ly/quay-dau-xe-may-quy-dinh-va-ky-thuat/",
+  "title": "Quay đầu xe máy: quy định và kỹ thuật an toàn",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "summary": "Quay đầu tưởng là thao tác nhỏ nhưng nằm trong nhóm hành vi gây va chạm nhiều trên đường đô thị: xe sau không ngờ xe trước đang chuẩn bị xoay, người xoay vội vàng kiểm tra nửa vế rồi cắt ngang dòng xe, và hơn một lần tai nạn xảy ra vì người đảo chiều tin rằng \"xe sau nhìn thấy mình rồi\". Về quy định, luật đặt ba điều kiện gói gọn trong một câu: chỉ đảo chiều ở nơi cho phép, phải có tín hiệu báo trước cho các xe xung quanh, và phải nhường đường cho các phương tiện đi trên đường trước khi xoay. Bài viết này đi theo ba tầng: tầng quy định — đọc đúng biển cấm đảo chiều và biển cấm đi ngược chiều, phân biệt chỗ luật cho phép với chỗ dù không có biển nhưng vẫn nguy hiểm như khúc cua, dốc, chỗ qua đường sắt; tầng kỹ thuật — trình tự chuẩn của một cú đảo chiều an toàn từ lúc có ý định tới lúc hoàn tất cung xoay, cách xử lý khi đường hẹp phải xoay kiểu tiến lùi, và khi nào nên đẩy bộ thay vì cố xoay trong không gian không đủ; và tầng lỗi — những thói quen gây va chạm nhiều nhất như đảo chiều đột ngột không tín hiệu, xoay sát gờ chia đường, hay đảo chiều ngay trước đầu xe phía sau. Mục tiêu không phải học luật để đối phó, mà là làm cho thao tác đảo chiều trở thành một trong những cú thao tác chắc tay nhất của người lái — vì nó là thao tác duy nhất bắt buộc xe đi ngược lại toàn bộ dòng xe đang chạy.",
+  "quickAnswer": "Trả lời ngắn: đảo chiều xe máy hợp lệ cần đủ ba điều kiện — nơi cho phép (không có biển cấm đảo chiều và không thuộc nhóm điểm cấm như khúc cua, dốc, chỗ qua đường sắt, trên cầu, đầu cầu), có tín hiệu báo trước cho các xe xung quanh, và nhường đường cho các phương tiện đang đi trên đường trước khi cắt ngang. Trình tự an toàn: xác định chỗ đủ rộng và tầm nhìn đủ xa, bật xi-nhan sớm, giảm tốc, kiểm tra gương và đảo chiều nhìn lại vai phía sẽ xoay, chờ dòng xe thoáng rồi xoay theo cung tròn đều ga — không đi vòng quá rộng lấn sang phần đường ngược chiều, cũng không xoay chết trong không gian không đủ. Đường hẹp không đủ xoay một cung: dùng kiểu tiến lùi hai nhịp — xe tiến chếch một góc, dừng, lùi xoay phần đuôi, rồi tiến tiếp — hoặc đẩy bộ lên vỉa hè nếu đường quá nhỏ. Ba lỗi gây va chạm nhiều nhất: đảo chiều không xi-nhan, xoay sát đầu xe phía sau mà không quan sát, và đảo chiều ngay sau gờ hoặc khúc cua nơi xe sau không nhìn thấy kịp.",
+  "keyPoints": [
+   "Ba điều kiện hợp lệ của một cú đảo chiều: nơi cho phép, có tín hiệu báo trước, và nhường đường cho các phương tiện đang đi trên đường.",
+   "Biển cấm đảo chiều khác biển cấm đi ngược chiều: một biển cấm đảo chiều không cấm đi thẳng, và ngược lại cần đọc cả hai trước khi chọn hướng.",
+   "Dù không có biển cấm, tránh đảo chiều tại khúc cua, dốc, đầu cầu, gần giao cắt đường sắt và chỗ tầm nhìn bị che — hợp lệ nhưng vẫn là chỗ va chạm.",
+   "Trình tự an toàn: xi-nhan sớm, giảm tốc, kiểm tra gương và nhìn qua vai, chờ thoáng, quay cung tròn đều ga — tuyệt đối không xoay trong thế bị bất ngờ."
+  ],
+  "entities": [
+   "đảo chiều xe",
+   "biển cấm đảo chiều",
+   "xi-nhan",
+   "nhường đường",
+   "giao cắt đường sắt",
+   "nơi tầm nhìn hạn chế"
+  ],
+  "keywords": [
+   "quay đầu xe máy",
+   "quy định quay đầu xe máy",
+   "kỹ thuật quay đầu xe",
+   "biển cấm quay đầu",
+   "quay đầu xe an toàn",
+   "quay đầu ở đâu được phép"
   ]
  },
  {

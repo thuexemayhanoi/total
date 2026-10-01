@@ -2178,11 +2178,13 @@
    "title": "Đi xe máy khi mỏi: nhận biết và phòng tránh",
    "primaryIntent": "informational/di-xe-may-khi-moi-nhan-biet-va-phong-tranh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:53:12.638Z",
-   "updatedAt": "2026-10-01T04:53:12.640Z"
+   "updatedAt": "2026-10-01T04:58:06.358Z",
+   "seoScore": 100,
+   "words": 3149
   },
   {
    "id": "S00150",
@@ -2191,11 +2193,13 @@
    "title": "Quay đầu xe máy: quy định và kỹ thuật an toàn",
    "primaryIntent": "informational/quay-dau-xe-may-quy-dinh-va-ky-thuat",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:53:12.723Z",
-   "updatedAt": "2026-10-01T04:53:12.725Z"
+   "updatedAt": "2026-10-01T04:58:06.358Z",
+   "seoScore": 100,
+   "words": 3118
   }
  ]
 }

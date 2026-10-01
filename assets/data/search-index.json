@@ -3423,6 +3423,31 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/di-xe-may-khi-moi-nhan-biet-va-phong-tranh/",
+  "title": "Đi xe máy khi mỏi: nhận biết và phòng tránh",
+  "description": "Lái xe khi mỏi làm chậm phản xạ, lơ đãng và đánh võng như vi phạm nồng độ cồn. Bài viết chỉ dấu hiệu mỏi khi lái, cách xử lý và phòng tránh trước chuyến đi.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "mỏi khi lái",
+   "gật gù",
+   "ngủ ngắn",
+   "khoảng cách an toàn",
+   "tư thế lái",
+   "giờ sinh học"
+  ],
+  "keywords": [
+   "đi xe máy khi mỏi",
+   "lái xe khi mệt",
+   "dấu hiệu mỏi khi lái xe",
+   "ngủ gật khi lái xe",
+   "phòng tránh mỏi khi lái",
+   "nghỉ giữa chuyến đi xa"
+  ],
+  "summary": "Chạy xe máy từ nay được xem là công việc nhẹ, nhưng thực chất giữ tư thế bất động trên xe chạy giữa dòng giao thông là một nhiệm vụ não bộ nặng: mắt quét, tay chỉnh ga, chân đánh phanh, đầu dự đoán hành vi chục phương tiện xung quanh — tất cả diễn ra đồng thời"
+ },
+ {
+  "kind": "article",
   "url": "guide/xu-ly-su-co/xe-may-khong-no-may-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe máy không nổ máy: nguyên nhân và cách xử lý",
   "description": "Xe máy không nổ máy: cách chẩn đoán theo trình tự nhiên liệu - điện - cơ khí, các nguyên nhân phổ biến và khi nào cần gọi hỗ trợ thay vì sửa tại chỗ.",
@@ -3446,6 +3471,31 @@
    "xử lý khi xe không nổ máy"
   ],
   "summary": "Xe không nổ máy là một trong những sự cố khiến người dùng hoang mang nhất: đề mãi không được, có khi đề được nhưng thả ga lại chết, hoặc thậm chí không đề nổi tiếng nào. Thực tế, phần lớn các ca không nổ máy rơi vào ba nhóm nguyên nhân — nhiên liệu, điện và cơ"
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/quay-dau-xe-may-quy-dinh-va-ky-thuat/",
+  "title": "Quay đầu xe máy: quy định và kỹ thuật an toàn",
+  "description": "Quay đầu xe máy chỉ được ở nơi cho phép, có xi-nhan và nhường đường. Bài viết chỉ cách đọc biển, kỹ thuật quay đầu an toàn và các lỗi hay gây tai nạn.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "đảo chiều xe",
+   "biển cấm đảo chiều",
+   "xi-nhan",
+   "nhường đường",
+   "giao cắt đường sắt",
+   "nơi tầm nhìn hạn chế"
+  ],
+  "keywords": [
+   "quay đầu xe máy",
+   "quy định quay đầu xe máy",
+   "kỹ thuật quay đầu xe",
+   "biển cấm quay đầu",
+   "quay đầu xe an toàn",
+   "quay đầu ở đâu được phép"
+  ],
+  "summary": "Quay đầu tưởng là thao tác nhỏ nhưng nằm trong nhóm hành vi gây va chạm nhiều trên đường đô thị: xe sau không ngờ xe trước đang chuẩn bị xoay, người xoay vội vàng kiểm tra nửa vế rồi cắt ngang dòng xe, và hơn một lần tai nạn xảy ra vì người đảo chiều tin rằng "
  },
  {
   "kind": "article",
