@@ -853,6 +853,66 @@
   ]
  },
  {
+  "url": "tips/meo-xu-ly-su-co/mat-chia-khoa-xe-may-xu-ly-the-nao/",
+  "title": "Mất chìa khóa xe máy: xử lý thế nào",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Mất chìa khóa xe máy là tình huống vừa bực vừa dễ xử sai: hỏng ổ khóa vì mò khóa vội, làm gãy chìa dự phòng, hoặc gọi phải thợ không rõ nguồn gốc và bị đòi giá cắt cổ. Bài viết này đi theo đúng trình tự một người mất khóa nên làm. Bước một: đứng yên và nghĩ lại — phần lớn chìa khóa mất không phải bị trộm mà rơi ở chính nơi bạn vừa ghé: túi áo, balo, quầy thanh toán, bàn làm việc, chỗ ngồi cũ. Mười phút soát lại hành trình tiết kiệm cả buổi. Bước hai: nếu có chìa dự phòng ở nhà — cách phổ biến và rẻ nhất — nhờ người thân mang đến hoặc tự về lấy, thay vì đập phá ổ khóa. Bước ba: nếu xe dùng chìa khóa cơ đơn giản, thợ có thể mò khóa tại chỗ trong thời gian ngắn với chứng minh chủ xe rõ ràng; nếu là chìa từ có chip chống trộm thì phải liên hệ đúng đơn vị hỗ trợ của hãng hoặc thợ uy tín, vì chìa mới cần được lập trình khớp với khóa từ chống trộm của xe — tự chế chìa không chip thì xe không nổ máy. Bước bốn: trường hợp xấu nhất là thay ổ khóa mới — chi phí và thời gian cao hơn, chỉ làm khi thật sự không còn đường nào. Về pháp lý: giữ sẵn giấy tờ xe và chứng minh nhân dân để chứng minh sở hữu trước khi nhờ ai đó chạm vào ổ khóa — thợ tử tế nào cũng hỏi, và chính bạn cũng muốn họ hỏi. Về phòng ngừa: mỗi xe nên có một chìa dự phòng để ở nơi cố định, chụp ảnh chìa và mã số ổ để làm chìa phụ khi cần, và không treo cả hai chìa cùng một móc. Cuối cùng: mất chìa khóa không phải thảm họa — nó là bài học xếp lại thói quen cất chìa, và người có sẵn chìa dự phòng thường chỉ mất mười phút thay vì cả buổi chiều.",
+  "quickAnswer": "Trả lời ngắn: mất chìa khóa xe máy thì làm theo bốn bước theo thứ tự. Một, dừng lại soát lại chỗ vừa ghé và túi đồ — chìa thường rơi ở nơi bạn vừa đứng chứ không biến mất. Hai, gọi người nhà mang chìa dự phòng nếu có — đây là đường rẻ và nhanh nhất, đừng vội đụng vào ổ khóa. Ba, không có dự phòng thì tìm thợ mò khóa uy tín, xuất trình giấy tờ xe để chứng minh xe của mình — chìa từ có chip phải làm qua đơn vị hỗ trợ của hãng vì cần lập trình khớp khóa từ chống trộm. Bốn, chỉ thay ổ khóa mới khi không còn phương án nào khác, vì đó là phương án đắt và lâu nhất. Sau khi xử lý xong, khắc phục ngay gốc rễ: làm một chìa dự phòng, cất ở nơi cố định, và không treo cả hai chìa trên cùng một móc khóa.",
+  "keyPoints": [
+   "Chìa khóa mất thường rơi ở chính nơi bạn vừa ghé — dừng lại, ngẫm lại hành trình và soát túi áo, balo, quầy thanh toán trước khi nghĩ đến việc đụng ổ khóa.",
+   "Chìa dự phòng ở nhà là đường thoát rẻ và nhanh nhất: nhờ người thân mang đến hoặc tự về lấy, đừng vì nôn nóng mà phá ổ khóa rồi lại tiếc.",
+   "Chìa từ có chip chống trộm không thể tự chế — phải làm qua đơn vị hỗ trợ của hãng hoặc thợ uy tín để lập trình khớp với hệ thống chống trộm của xe.",
+   "Trước khi nhờ thợ mò khóa, chuẩn bị chứng minh sở hữu: đăng ký xe và giấy tờ tùy thân — thợ đúng đắn luôn hỏi, và đó cũng là dấu hiệu bạn đang gọi đúng người."
+  ],
+  "entities": [
+   "chìa khóa xe máy",
+   "chìa khóa dự phòng",
+   "chìa khóa từ có chip",
+   "ổ khóa xe máy",
+   "mò khóa xe máy",
+   "hệ thống chống trộm xe máy"
+  ],
+  "keywords": [
+   "mất chìa khóa xe máy",
+   "mất chìa khóa xe máy phải làm sao",
+   "làm chìa khóa xe máy dự phòng",
+   "mò khóa xe máy",
+   "thay ổ khóa xe máy",
+   "chìa khóa từ xe máy có chip"
+  ]
+ },
+ {
+  "url": "learn/cham-soc-xe/xe-may-bi-ri-set-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Xe máy bị rỉ sét: nguyên nhân và cách xử lý",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "summary": "Rỉ sét là một trong số ít vấn đề của xe máy đi theo chiều thời gian: không xảy ra trong một ngày, nhưng cứ mỗi mùa mưa trôi qua mà chủ xe không để ý thì lớp sét lại ăn sâu thêm một chút — vào ốc vít, khung xe, êm xúp, vành bánh, ống pô. Bài viết này đi theo trình tự người chăm xe nên nắm. Nguyên nhân: ba thủ phạm chính là nước đọng lâu ngày, môi trường ven biển giàu muối, và các vết xước sâu tới lớp kim loại không được sơn lại kịp — rỉ không xuất hiện trên sơn còn nguyên vẹn, nó chỉ cần một điểm trầy nhỏ để bắt đầu. Nhận biết sớm: những chấm sét li ti quanh đầu ốc, vành xe, mặt trong của êm xúp là giai đoạn rẻ nhất để xử — lâu dần thành mảng sét dày, ăn sâu làm ốc gãy đầu, mối hàn yếu đi. Xử lý theo mức độ: sét nông thì làm sạch bằng vật liệu chuyên dụng rồi sơn chống sét và sơn phủ lại; sét đã ăn sâu ở khung hoặc mối hàn thì phải nhờ thợ, vì ở đây rỉ đã thành vấn đề kết cấu chứ không còn là vấn đề thẩm mỹ. Phòng ngừa: rửa xe sạch nước muối sau những ngày mưa hoặc đi biển, lau khô thay vì phơi nắng tự khô, sơn lại ngay vết xước sâu, tra dầu mỡ vào ốc và mối nối định kỳ, và đừng để xe ẩm ướt trong góc nhà không thoáng. Điểm đáng nhớ nhất: rỉ sét là vấn đề rẻ khi xử sớm và đắt khi để muộn — chi phí của một buổi làm sạch và sơn lại ốc vít nhỏ hơn nhiều so với thay êm xúp hoặc xử lý khung bị ăn sâu, và chiếc xe sạch khô là chiếc xe giữ giá.",
+  "quickAnswer": "Trả lời ngắn: rỉ sét đến từ ba thủ phạm — nước đọng, muối từ môi trường ven biển hoặc đường bẩn, và vết xước sâu tới lớp kim loại chưa sơn lại kịp. Cách xử theo mức độ: sét li ti quanh ốc, vành, êm xúp thì làm sạch bằng dung dịch chuyên dụng, để khô hẳn rồi phủ sơn chống sét và sơn màu lại chỗ bị trầy; sét đã dày, bong lớp sơn hoặc nằm ở khung, mối hàn thì mang ra thợ vì lúc đó đây là vấn đề kết cấu. Cách phòng: rửa xe sau mùa mưa và những chuyến đi biển, lau khô xe thay vì để tự khô, sơn lại ngay vết xước, tra dầu mỡ định kỳ vào ốc và mối nối, và để xe nơi thoáng khô. Nguyên tắc chung: rỉ rẻ khi xử sớm và đắt khi để lâu — buổi tối định kỳ soi các điểm ốc và vành xe là khoản đầu tư lãi nhất trong chuyện chống sét.",
+  "keyPoints": [
+   "Rỉ sét cần ba điều để bắt đầu: kim loại trần, nước và thời gian — lớp sơn còn nguyên là tấm khiên, và một vết xước nhỏ không sơn lại kịp là đủ mở cửa.",
+   "Chấm sét li ti ở đầu ốc, vành bánh, mặt trong êm xúp là giai đoạn rẻ nhất để xử — làm sạch, sơn chống sét và phủ lại trong một buổi.",
+   "Sét đã dày, bong sơn, hoặc nằm ở khung xe và mối hàn phải nhờ thợ: đó là vấn đề kết cấu, không còn là chuyện lau chùi tại nhà.",
+   "Môi trường ven biển và mùa mưa là hai giai đoạn rỉ phát triển nhanh nhất — rửa sạch và lau khô xe sau mỗi đợt là việc hiệu quả nhất."
+  ],
+  "entities": [
+   "rỉ sét xe máy",
+   "sơn chống sét",
+   "êm xúp xe máy",
+   "vết xước trên xe máy",
+   "bảo dưỡng khung xe",
+   "rửa xe máy đúng cách"
+  ],
+  "keywords": [
+   "xe máy bị rỉ sét",
+   "nguyên nhân rỉ sét xe máy",
+   "cách xử lý rỉ sét xe máy",
+   "sơn chống sét xe máy",
+   "chống rỉ sét cho xe máy",
+   "bảo dưỡng xe máy tránh rỉ sét"
+  ]
+ },
+ {
   "url": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/",
   "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
   "category": "Thuê xe",

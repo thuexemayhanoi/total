@@ -1698,11 +1698,13 @@
    "title": "Mất chìa khóa xe máy: xử lý thế nào",
    "primaryIntent": "informational/mat-chia-khoa-xe-may-xu-ly-the-nao",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:13:28.581Z",
-   "updatedAt": "2026-10-01T02:13:28.583Z"
+   "updatedAt": "2026-10-01T02:19:20.078Z",
+   "seoScore": 91,
+   "words": 2794
   },
   {
    "id": "S00118",
@@ -1711,11 +1713,13 @@
    "title": "Xe máy bị rỉ sét: nguyên nhân và cách xử lý",
    "primaryIntent": "informational/xe-may-bi-ri-set-nguyen-nhan-va-cach-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:13:28.671Z",
-   "updatedAt": "2026-10-01T02:13:28.673Z"
+   "updatedAt": "2026-10-01T02:19:20.078Z",
+   "seoScore": 100,
+   "words": 2918
   }
  ]
 }

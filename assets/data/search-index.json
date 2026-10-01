@@ -2541,6 +2541,56 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-xu-ly-su-co/mat-chia-khoa-xe-may-xu-ly-the-nao/",
+  "title": "Mất chìa khóa xe máy: xử lý thế nào",
+  "description": "Mất chìa khóa xe máy: đánh giá tình huống, các lựa chọn lấy lại chìa dự phòng, mò khóa, thay ổ khóa và cách phòng mất khóa từ hôm nay.",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "entities": [
+   "chìa khóa xe máy",
+   "chìa khóa dự phòng",
+   "chìa khóa từ có chip",
+   "ổ khóa xe máy",
+   "mò khóa xe máy",
+   "hệ thống chống trộm xe máy"
+  ],
+  "keywords": [
+   "mất chìa khóa xe máy",
+   "mất chìa khóa xe máy phải làm sao",
+   "làm chìa khóa xe máy dự phòng",
+   "mò khóa xe máy",
+   "thay ổ khóa xe máy",
+   "chìa khóa từ xe máy có chip"
+  ],
+  "summary": "Mất chìa khóa xe máy là tình huống vừa bực vừa dễ xử sai: hỏng ổ khóa vì mò khóa vội, làm gãy chìa dự phòng, hoặc gọi phải thợ không rõ nguồn gốc và bị đòi giá cắt cổ. Bài viết này đi theo đúng trình tự một người mất khóa nên làm. Bước một: đứng yên và nghĩ lạ"
+ },
+ {
+  "kind": "article",
+  "url": "learn/cham-soc-xe/xe-may-bi-ri-set-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Xe máy bị rỉ sét: nguyên nhân và cách xử lý",
+  "description": "Xe máy bị rỉ sét do nước, muối và lớp sơn bảo vệ hư hỏng. Nhận biết sớm, làm sạch đúng cách, chống sét lại và phòng ngừa từng mùa.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "rỉ sét xe máy",
+   "sơn chống sét",
+   "êm xúp xe máy",
+   "vết xước trên xe máy",
+   "bảo dưỡng khung xe",
+   "rửa xe máy đúng cách"
+  ],
+  "keywords": [
+   "xe máy bị rỉ sét",
+   "nguyên nhân rỉ sét xe máy",
+   "cách xử lý rỉ sét xe máy",
+   "sơn chống sét xe máy",
+   "chống rỉ sét cho xe máy",
+   "bảo dưỡng xe máy tránh rỉ sét"
+  ],
+  "summary": "Rỉ sét là một trong số ít vấn đề của xe máy đi theo chiều thời gian: không xảy ra trong một ngày, nhưng cứ mỗi mùa mưa trôi qua mà chủ xe không để ý thì lớp sét lại ăn sâu thêm một chút — vào ốc vít, khung xe, êm xúp, vành bánh, ống pô. Bài viết này đi theo tr"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/",
   "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
   "description": "Thuê xe máy chở đồ cồng kềnh: cách chọn xe phù hợp tải trọng, buộc và gia cố hàng đúng kỹ thuật, quy định chở hàng và vận hành an toàn trên đường.",
