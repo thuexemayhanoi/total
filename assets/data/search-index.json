@@ -3700,6 +3700,31 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/cho-nguoi-cao-tuoi-tren-xe-may-luu-y/",
+  "title": "Chở người cao tuổi trên xe máy: giữ an toàn cho người ngồi sau",
+  "description": "Chở ông bà, cha mẹ lớn tuổi trên xe máy cần đi chậm, phanh dịu và cách lên xuống đúng. Bài viết chỉ cách giữ an toàn cho người ngồi sau.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "người cao tuổi",
+   "người ngồi sau",
+   "mũ bảo hiểm có chốt",
+   "phanh dịu",
+   "lên xuống xe",
+   "chặng nghỉ"
+  ],
+  "keywords": [
+   "chở người cao tuổi trên xe máy",
+   "chở người già đi xe máy",
+   "an toàn người ngồi sau",
+   "mũ bảo hiểm cho người già",
+   "đi xe máy chở cha mẹ",
+   "xe máy chở người lớn tuổi"
+  ],
+  "summary": "Chở người cao tuổi trên xe máy là một việc rất phổ biến ở Việt Nam nhưng ít khi được nói tới như một kỹ năng riêng: người ngồi sau lớn tuổi có cả một tập đặc điểm sinh lý và tâm lý khác với người trưởng thành trẻ — khớp cứng khiến việc bước qua xe khó, cơ đùi "
+ },
+ {
+  "kind": "article",
   "url": "wiki/dau-nhot/dau-nhot-xe-may-loai-chu-ky-va-cach-chon/",
   "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
   "description": "Dầu nhớt xe máy: vai trò trong động cơ, khác nhau giữa dầu khoáng, bán tổng hợp và tổng hợp, cách đọc nhãn độ sệt và chuẩn API JASO, chu kỳ thay theo điều kiện chạy.",
@@ -3725,6 +3750,31 @@
    "thay nhớt xe máy bao lâu một lần"
   ],
   "summary": "Dầu nhớt là dịch vụ bảo dưỡng định kỳ quen thuộc nhất của xe máy, nhưng cũng là thứ bị hiểu lông nhất: nhiều người thay nhớt theo cảm tính, chọn dầu theo lời rao, hoặc tin rằng loại đắt nhất luôn là tốt nhất cho xe của mình. Thực tế, chọn và thay dầu nhớt đúng"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-tranh-va-cham-voi-xe-buyt/",
+  "title": "Đi xe máy tránh va chạm với xe buýt: vùng mù, điểm rẽ và làn bị chiếm",
+  "description": "Xe buýt có vùng mù lớn, rẽ ngang không báo trước và chiếm làn khi đón khách. Bài viết chỉ cách đi xe máy tránh va chạm với xe buýt.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "xe buýt",
+   "vùng mù",
+   "trạm dừng",
+   "ngã tư rẽ",
+   "làn đường",
+   "gương chiếu hậu"
+  ],
+  "keywords": [
+   "đi xe máy tránh xe buýt",
+   "vùng mù xe buýt",
+   "vượt xe buýt bằng xe máy",
+   "an toàn đi cùng xe buýt",
+   "xe máy và xe buýt",
+   "va chạm xe buýt"
+  ],
+  "summary": "Xe buýt là một trong những đối tượng giao thông đặc thù nhất với người đi xe máy: khối lượng lớn khiến nó không thể phanh hay đổi hướng nhanh, kích thước cao tạo vùng mù rộng hơn mọi phương tiện đường bộ khác, và tính chất tuyến điểm khiến nó rẽ ngang, dừng đó"
  },
  {
   "kind": "article",

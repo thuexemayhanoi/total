@@ -2328,11 +2328,13 @@
    "title": "Chở người cao tuổi trên xe máy: giữ an toàn cho người ngồi sau",
    "primaryIntent": "informational/cho-nguoi-cao-tuoi-tren-xe-may-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:31:55.717Z",
-   "updatedAt": "2026-10-01T05:31:55.719Z"
+   "updatedAt": "2026-10-01T05:36:17.250Z",
+   "seoScore": 100,
+   "words": 2705
   },
   {
    "id": "S00160",
@@ -2341,11 +2343,13 @@
    "title": "Đi xe máy tránh va chạm với xe buýt",
    "primaryIntent": "informational/di-xe-may-tranh-va-cham-voi-xe-buyt",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:31:55.796Z",
-   "updatedAt": "2026-10-01T05:31:55.798Z"
+   "updatedAt": "2026-10-01T05:36:17.250Z",
+   "seoScore": 91,
+   "words": 2858
   }
  ]
 }

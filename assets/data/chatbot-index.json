@@ -2242,6 +2242,36 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/cho-nguoi-cao-tuoi-tren-xe-may-luu-y/",
+  "title": "Chở người cao tuổi trên xe máy: giữ an toàn cho người ngồi sau",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Chở người cao tuổi trên xe máy là một việc rất phổ biến ở Việt Nam nhưng ít khi được nói tới như một kỹ năng riêng: người ngồi sau lớn tuổi có cả một tập đặc điểm sinh lý và tâm lý khác với người trưởng thành trẻ — khớp cứng khiến việc bước qua xe khó, cơ đùi và lưng yếu khiến tư thế ngồi lâu mỏi nhanh, tiền đình cảm thăng bằng kém khiến phanh gấp dễ khiến họ ngã lệch khỏi tư thế, và tâm lý thường là nín chịu hơn là nói ra khi thấy không thoải mái. Bài viết này đi theo toàn bộ hành trình một chuyến chở người cao tuổi: từ khâu chuẩn bị — mũ đúng cỡ có chốt, tư cách sức khỏe của chuyến đi, thời điểm và chọn đường; qua khâu lên xe — cách chống xe giúp người lớn tuổi bước lên an toàn, chỗ nắm, tư thế ngồi; đến khâu vận hành — ga đều, phanh dịu, cách báo trước mỗi cua và mỗi ổ gà, và điều chỉnh theo từng loại người ngồi sau có bệnh nền như đau lưng, huyết áp, đầu gối. Phần cuối dành cho việc xuống xe và những việc tránh: chở người cao tuổi khi chính mình vội, khi trời quá nóng, khi quãng đường quá dài không có điểm nghỉ — vì trong những chuyến như vậy, người chịu nhiều nhất luôn là người ngồi sau, người không điều khiển được gì ngoài việc ôm chặt và tin người lái.",
+  "quickAnswer": "Trả lời ngắn: chở người cao tuổi, người lái gánh cả hai người — đi chậm hơn bình thường, ga đều và phanh dịu, báo trước mỗi cua, mỗi ổ gà, mỗi lần dừng. Lên xuống là khúc nguy hiểm nhất: chống xe chắc chắn, để người lớn tuổi bước lên hoặc xuống khi xe đứng yên hoàn toàn, tay họ nắm tay nắm sau hoặc bám hông người lái. Mũ phải đúng cỡ có chốt — mũ lỏng tuột cằm khi phanh gấp làm người già mất điểm tựa của cổ. Đi quãng trên ba mươi phút thì chặng nghỉ: người ngồi sau không kêu mỏi nhưng khớp và lưng của họ chịu đủ. Tránh phanh gấp tới mức tối đa — với người cao tuổi, một cú ngã dù tại chỗ cũng rủi ro gãy xương lớn hơn nhiều so với người trẻ. Và điều quan trọng nhất: hỏi họ trong chuyến đi — tốc độ vậy có ổn không, có mỏi không — vì người lớn tuổi gần như không bao giờ tự đề nghị chậm lại.",
+  "keyPoints": [
+   "Lên xuống xe là khúc nguy hiểm nhất — xe phải đứng yên hoàn toàn, chống chắc, người lớn tuổi bước lên hoặc xuống với điểm tựa rõ ràng.",
+   "Mũ đúng cỡ có chốt cằm: mũ lỏng khi phanh gấp làm người cao tuổi mất điểm tựa cổ — mua mũ theo đầu của họ, không dùng mũ thừa.",
+   "Ga đều, phanh dịu, báo trước mỗi cua và ổ gà — người ngồi sau không thấy đường phía trước và cần nửa giây chuẩn bị.",
+   "Đi trên ba mươi phút thì chặng nghỉ — người cao tuổi ít kêu mỏi nhưng khớp, lưng và khả năng giữ tư thế của họ yếu đi theo thời gian ngồi."
+  ],
+  "entities": [
+   "người cao tuổi",
+   "người ngồi sau",
+   "mũ bảo hiểm có chốt",
+   "phanh dịu",
+   "lên xuống xe",
+   "chặng nghỉ"
+  ],
+  "keywords": [
+   "chở người cao tuổi trên xe máy",
+   "chở người già đi xe máy",
+   "an toàn người ngồi sau",
+   "mũ bảo hiểm cho người già",
+   "đi xe máy chở cha mẹ",
+   "xe máy chở người lớn tuổi"
+  ]
+ },
+ {
   "url": "wiki/dau-nhot/dau-nhot-xe-may-loai-chu-ky-va-cach-chon/",
   "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
   "category": "Bách khoa xe",
@@ -2272,6 +2302,36 @@
    "dầu khoáng",
    "JASO MA là gì",
    "thay nhớt xe máy bao lâu một lần"
+  ]
+ },
+ {
+  "url": "ride/an-toan-giao-thong/di-xe-may-tranh-va-cham-voi-xe-buyt/",
+  "title": "Đi xe máy tránh va chạm với xe buýt: vùng mù, điểm rẽ và làn bị chiếm",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Xe buýt là một trong những đối tượng giao thông đặc thù nhất với người đi xe máy: khối lượng lớn khiến nó không thể phanh hay đổi hướng nhanh, kích thước cao tạo vùng mù rộng hơn mọi phương tiện đường bộ khác, và tính chất tuyến điểm khiến nó rẽ ngang, dừng đón khách và xuất phát lại theo nhịp riêng không báo trước. Va chạm xe máy với xe buýt gần như luôn nghiêm trọng — không phải vì tốc độ xe buýt cao, mà vì khối lượng: một va chạm chậm với phương tiện nặng nhiều chục tấn vẫn tạo lực nghiền vượt xa khả năng chịu đựng của con người trên xe máy. Bài viết này hệ thống lại toàn bộ các tình huống giao nhau giữa xe máy và xe buýt: đi song song và vượt — vùng mù nào của xe buýt phải tránh; đi phía sau — cự ly không được rơi vào khi xe buýt xuất phát lại từ trạm; đi phía trước và bên — điểm rẽ của xe buýt vào trạm và ra khỏi làn; và tình huống nguy hiểm nhất — xe buýt và xe máy cùng rẽ tại ngã tư, nơi làn rẽ của hai loại phương tiện giao nhau chéo. Toàn bài xoay quanh một nguyên tắc: với xe buýt, người đi xe máy không giành quyền ưu tiên bằng vị trí — giành bằng thời gian, tức giữ khoảng cách đủ để mọi hành động của xe buýt đều có thời gian thấy, phản ứng và né.",
+  "quickAnswer": "Trả lời ngắn: tránh va chạm với xe buýt dựa trên một quy tắc — không ở trong vùng nó không thấy và không ở trong vùng nó không thể tránh. Không đi song song dài với xe buýt, nhất là phần đầu và phần đuôi: đầu xe buýt là vùng mù của gương, đuôi là nơi nó chuẩn bị rẽ vào trạm. Vượt xe buýt thì vượt dứt điểm về phía trái với chênh tốc đủ, không vượt khi nó đang tiến gần trạm hoặc ngã rẽ. Đi phía sau xe buýt: thấy toàn bộ gương của nó trong tầm nhìn mới là cự ly an toàn; không bám sát vì nó xuất phát lại từ trạm với gia tốc thấp nhưng lẫn xe máy dễ vào đúng vùng mù. Đi phía trước: không cắt ngang trước đầu xe buýt đang bắt đầu xuất phát — nó chậm nhưng khối lượng khiến phanh của nó dài xa hơn xe máy tưởng. Tại ngã tư rẽ cùng chiều với xe buýt: đi theo mép ngoài của nó, không bám sát mép trong — điểm rẽ xe buýt quét ra ngoài nhiều hơn xe máy tưởng và đây là kịch bản va chạm chéo phổ biến nhất.",
+  "keyPoints": [
+   "Vùng mù xe buýt trải rộng dọc thân: nếu không thấy gương của xe buýt trong tầm nhìn thì tài xế không thấy mình — nguyên tắc áp cho mọi vị trí song song.",
+   "Không vượt xe buýt khi nó tiến gần trạm hoặc ngã rẽ — nó sẽ rẽ hoặc xuất phát lại ngay lúc mình đang ở đúng vùng mù.",
+   "Đi phía sau giữ cự ly thấy được gương hai bên; không bám sát đuôi — xe buýt xuất phát từ trạm chậm nhưng chiếm làn theo quỹ đạo rộng.",
+   "Không cắt đầu xe buýt đang xuất phát: cự ly phanh của xe buýt dài hơn xe máy tưởng nhiều vì khối lượng, dù tốc độ thấp."
+  ],
+  "entities": [
+   "xe buýt",
+   "vùng mù",
+   "trạm dừng",
+   "ngã tư rẽ",
+   "làn đường",
+   "gương chiếu hậu"
+  ],
+  "keywords": [
+   "đi xe máy tránh xe buýt",
+   "vùng mù xe buýt",
+   "vượt xe buýt bằng xe máy",
+   "an toàn đi cùng xe buýt",
+   "xe máy và xe buýt",
+   "va chạm xe buýt"
   ]
  },
  {
