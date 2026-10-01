@@ -1,0 +1,308 @@
+name: Factory Writer Assist (S00119,S00120)
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/factory-writer-assist.yml']
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: factory-writer-assist
+  cancel-in-progress: false
+
+jobs:
+  write-pair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lay ma nguon
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Cai Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: No-op guard
+        run: |
+          if grep -q "pha-may-xe-may-moi-1000km-dau-tien" factory/state/matrix.json; then
+            echo "pair da nam trong matrix - no-op"
+            exit 0
+          fi
+      - name: Guard state sach
+        run: node factory/factory.js check-state
+      - name: Viet 2 bai
+        run: |
+          cat > factory/data/articles/a119-pha-may-xe-may-moi-1000km-dau-tien.js << 'ARTICLE_EOF'
+          // AI WIKI TOTAL — bài mở rộng cụm /guide/bao-duong/: pha máy xe máy mới: 1000 km đầu tiên (slot S00119)
+          'use strict';
+
+          module.exports = {
+            slug: 'pha-may-xe-may-moi-1000km-dau-tien',
+            title: 'Pha máy xe máy mới: 1000 km đầu tiên',
+            seoTitle: 'Pha máy xe máy mới: 1000 km đầu tiên',
+            metaDescription: 'Pha máy xe máy mới: cách chạy 1000 km đầu tiên đúng cách — nhẹ ga, đa dạng tốc độ, thay nhớt đúng lịch và những thói quen cần tránh.',
+            summary: 'Xe máy mới về nhà giống một vận động viên mới vào đội: sức mạnh đã có sẵn nhưng các chi tiết kim loại vẫn cần thời gian ăn khớp nhau, và ngàn km đầu tiên chính là giai đoạn quyết định chiếc xe sẽ bền hay xấu về sau. Bài viết này đi theo từng giai đoạn của pha máy để người mới tự tin chạy đúng cách. Bản chất: các bề mặt tiếp xúc — piston và xilanh, bánh răng hộp số, bạc đạn, xích — được gia công rất mịn nhưng không hoàn hảo tuyệt đối; ngàn km đầu là lúc các vi nhấp nhô được bào mòn dần để hai bề mặt ôm khít nhau. Giai đoạn đầu của ngàn km đầu tiên: giữ vòng tua nhẹ nhàng, không vặn ga hết cỡ, đa dạng tốc độ thay vì chạy đều một mức, và tránh chở nặng hoặc chở người ngồi sau trong những chuyến đầu. Giữa giai đoạn: tăng dần mức tải, thỉnh thoảng chạy nhanh hơn một chút rồi nhả ga, cho hộp số làm việc ở nhiều cấp số khác nhau. Việc bắt buộc: thay dầu nhớt đúng lịch của nhà sản xuất — nhớt pha máy chứa mạt kim loại mài ra trong giai đoạn này, để quá hạn là kéo mạt kim loại đi khắp động cơ. Những điều kiêng: chạy lại ga kéo dài, phanh gấp giữa lúc đang chạy nhanh, đổ thêm nhớt ngoài lịch, kéo ga lên cao cho đã tay. Sau ngàn km đầu, xe chuyển sang chu kỳ bảo dưỡng định kỳ và bạn đã có một động cơ ôm khít — món quà của một tháng kiên nhẫn.',
+            quickAnswer: 'Trả lời ngắn: pha máy là giai đoạn ngàn km đầu tiên để các bề mặt kim loại của xe ăn khớp nhau, và cách chạy trong giai đoạn này quyết định phần lớn tuổi thọ động cơ. Ba nguyên tắc. Một, nhẹ ga: không vặn ga hết cỡ, không chạy lại ga kéo dài, giữ vòng tua ở mức vừa phải theo khuyến cáo của nhà sản xuất. Hai, đa dạng tốc độ: thay đổi tốc độ và cấp số liên tục thay vì chạy đều một mức suốt buổi, cho các cặp bánh răng và bề mặt ma sát được chạy rà ở nhiều điều kiện. Ba, thay nhớt đúng lịch: nhớt đầu và các kỳ đầu chứa nhiều mạt kim loại mài ra, đúng hạn thay là việc quan trọng nhất của cả giai đoạn pha máy. Kèm theo: tránh chở nặng, tránh những chuyến đường dài liên tục, và nghe ngóng tiếng động cơ — có tiếng lạ thì mang xe về đại lý kiểm tra. Xong ngàn km đầu là xe sang chu kỳ bảo dưỡng định kỳ, còn bạn giữ nguyên thói quen chạy xe nhẹ nhàng ấy thì động cơ bền thêm nhiều năm.',
+            keyPoints: [
+              'Pha máy là giai đoạn các bề mặt kim loại trong động cơ và hộp số ăn khớp nhau — cách chạy ngàn km đầu quyết định độ bền và độ mượt của xe về sau.',
+              'Giữ ga nhẹ nhàng: không vặn ga hết cỡ, không chạy lại ga kéo dài, và tuân theo khuyến cáo vòng tua của nhà sản xuất trong giai đoạn đầu.',
+              'Đa dạng tốc độ: thay đổi tốc độ và cấp số liên tục thay vì chạy đều một mức, để mọi cặp bánh răng và bề mặt ma sát được chạy rà đầy đủ.',
+              'Thay dầu nhớt đúng lịch của nhà sản xuất — nhớt pha máy chứa mạt kim loại mài ra, để quá hạn là kéo mạt kim loại đi khắp động cơ.',
+              'Tránh chở nặng và những chuyến đường dài liên tục trong giai đoạn đầu — cho tải trọng tăng dần sau khi xe đã chạy rà được một quãng.',
+              'Có tiếng động bất thường là mang xe về đại lý kiểm tra ngay — tuổi thọ xe được quyết định bởi cả cách chạy lẫn cách xử lý sớm các dấu hiệu lạ.',
+            ],
+            category: 'guide',
+            hub: 'bao-duong',
+            date: '2026-10-01',
+            updated: '2026-10-01',
+            entities: [
+              'pha máy xe máy',
+              'xe máy mới',
+              'dầu nhớt pha máy',
+              'vòng tua máy',
+              'hộp số xe máy',
+              'bảo dưỡng định kỳ',
+            ],
+            keywords: [
+              'pha máy xe máy mới',
+              'chạy rà xe máy',
+              '1000 km đầu tiên xe máy',
+              'thay nhớt pha máy',
+              'cách pha máy đúng cách',
+              'lưu ý khi mua xe máy mới',
+            ],
+            sections: [
+              {
+                h2: 'Pha máy là gì và vì sao ngàn km đầu quyết định tuổi thọ xe',
+                html: '<p>Pha máy là giai đoạn chạy rà đầu tiên của một chiếc xe mới: các chi tiết kim loại bên trong động cơ và hộp số tuy được gia công chính xác đến mức mắt thường không thấy khuyết điểm, nhưng dưới kính lúp vẫn còn những vi nhấp nhô rất nhỏ. Trong ngàn km đầu tiên, những bề mặt tiếp xúc này mài mòn dần vào nhau, hai bề mặt ngày càng ôm khít, và kết quả của quá trình ấy là một động cơ chạy mượt, kín và bền — hoặc nếu chạy sai cách, là một động cơ mài mòn lệch và ồn ào suốt đời.</p><p>Nghĩa của điều này với người mua xe mới: chiếc xe bạn đang cầm ga đang ở thời điểm dễ tổn thương nhất và cũng dễ nuôi tốt nhất. Mọi thói quen tốt được gieo trong một tháng đầu sẽ được động cơ trả lại bằng nhiều năm chạy êm; mọi thói quen xấu — vặn ga hết cỡ, chạy lại ga, để quá hạn nhớt — cũng được ghi nhận y như vậy, chỉ là theo chiều ngược lại. Vì vậy hiểu pha máy không phải hiểu một thủ tục kỹ thuật khô khan, mà là nắm đúng một tháng vàng để chăm chiếc xe.</p><p>Cần nói rõ để khỏi lo lắng quá mức: xe máy hiện đại được sản xuất với độ chính xác cao, pha máy sai một vài lần không lập tức làm hỏng động cơ. Chuẩn mực ở đây là kỷ luật trong đa số thời gian — giữ nguyên tắc trong phần lớn quãng đường, không cần run rẩy trước từng cú vặn ga. Một buổi chạy nhanh hơn bình thường trong ngàn km đầu không kết liễu chiếc xe của bạn; điều làm hỏng là thói quen lặp lại ngày này qua ngày khác.</p>',
+              },
+              {
+                h2: 'Giai đoạn đầu: nhẹ ga, đa dạng tốc độ, tránh chở nặng',
+                html: '<p>Giai đoạn đầu tiên của ngàn km đầu là lúc các bề mặt ma sát mới bắt đầu làm quen nhau, nên nguyên tắc lớn nhất là giữ mọi thứ nhẹ nhàng. Vặn ga vừa đủ, tăng tốc từ tốn, không rồ ga cho xe bốc rồi phanh gấp — mỗi cú tăng giảm tốc dữ dội tạo tải đột ngột lên những bề mặt đang còn non. Vòng tua lý tưởng theo giai đoạn này thường được nhà sản xuất ghi trong sách hướng dẫn kèm theo xe; nếu không nhớ con số, hãy mốc theo cảm giác: ga nhẹ nhàng đủ xe lăn bánh mau, không đưa ga vào vùng gằn cuối cùng của hành trình ga.</p><p>Nguyên tắc thứ hai dễ bị bỏ qua: đa dạng tốc độ. Nhiều người mới đi một cung đường cố định mỗi ngày và giữ đúng một tốc độ quen — cách chạy đều đấy nghe có vẻ hiền nhưng lại khiến các bề mặt chỉ được chạy rà ở đúng một điều kiện. Hãy chủ động đổi nhịp: chặng này chậm hơn, chặng sau nhanh hơn chút xíu, thỉnh thoảng xuống số rồi lên số lại. Hộp số là nơi có nhiều cặp bánh răng nhất cần ăn khớp, và nó chỉ được chạy rà đầy đủ khi bạn dùng đủ các cấp số trong nhiều tình huống khác nhau.</p><p>Thứ ba là tải trọng: tránh chở nặng, chở thêm người ngồi sau, hoặc đi những chuyến đường dài liên tục nhiều tiếng trong giai đoạn đầu. Tải nặng ép các bề mặt non trẻ làm việc quá mức trước khi chúng kịp ôm khít. Nếu buộc phải chở người hay đồ, hãy đi chậm hơn, nghỉ giữa chặng, và giảm bớt quãng đường. Sau khi xe đã qua phần đầu của ngàn km đầu, tăng tải dần dần — sức chịu của xe lớn hơn bạn nghĩ, nó chỉ cần được tăng theo nấc chứ không nhảy cóc từ đầu.</p>',
+              },
+              {
+                h2: 'Thay nhớt đúng lịch: việc quan trọng nhất của pha máy',
+                html: '<p>Nếu phải chọn một việc duy nhất để làm đúng trong pha máy, đó là thay dầu nhớt đúng lịch. Trong giai đoạn chạy rà, các bề mặt kim loại mài vào nhau và thải ra một lượng mạt kim loại cực nhỏ lẫn trong nhớt. Mạt ấy ở mức nhỏ không nhìn thấy được, nhưng nó tồn tại thật, và nhớt pha máy đúng loại được thiết kế để gánh chịu giai đoạn này. Để nhớt quá hạn nghĩa là để mạt kim loại được kéo đi khắp động cơ, làm vai trò của những hạt mài mòn cực nhỏ giữa các bề mặt đang cần ôm khít.</p><p>Lịch thay nhớt của giai đoạn pha máy dày hơn lịch bảo dưỡng thường: kỳ đầu thường ngắn, sau đó dần dãn ra, và mức cụ thể theo khuyến cáo kèm xe — mỗi hãng một lịch riêng, nên việc của bạn là đọc đúng lịch của chiếc xe mình chứ đừng nghe lại kinh nghiệm đời người khác với mẫu xe khác. Khi thay nhớt ở đại lý, nhớ yêu cầu kiểm tra cả dầu hộp số và dầu phanh nếu xe dùng loại cần thay riêng, vì đây cũng là dịp duy nhất trong tháng đầu mà xe được soi toàn diện.</p><p>Một thói quen đáng có trong giai đoạn này: liếc số km mỗi tối và đối chiếu với lịch thay nhớt — bấm sẵn vào lịch điện thoại hai mốc quan trọng nhất của pha máy, để phòng ngày bận mà quên. Chi phí của một lần thay nhớt đúng hạn rất nhỏ so với chi phí sửa một động cơ bị mài mòn lệch; đây là khoản đầu tư lãi nhất trong toàn bộ giai đoạn pha máy.</p>',
+              },
+              {
+                h2: 'Những thói quen hủy hoại pha máy',
+                html: '<p>Danh sách các việc cần tránh trong ngàn km đầu không dài, nhưng mỗi mục đều là thói quen phổ biến của người mới. Một, chạy lại ga: vặn ga lên rồi giữ ở vòng tua cao kéo dài trong lúc xe đứng yên — thói quen nghe rất oai nhưng ép piston non trẻ làm việc ở vòng tua cao khi không có gió làm mát. Hai, rồ ga hết cỡ ngay từ đèn xanh: xuất phát bốc làm dây côn, dây xích và hộp số non trẻ nhận tải đột ngột. Ba, phanh gấp rồi ép số thấp để lấy tiếng máy gằn to: tạo xung lực dập lên hệ thống truyền động còn đang chạy rà.</p><p>Bốn, chở nặng hoặc đi hai người ngay những chuyến đầu, kể cả bạn bè muốn thử xe mới. Năm, đi chuyến dài liên tục nhiều tiếng đồng hồ, cho động cơ làm việc liên tục không nghỉ trước khi các bề mặt khít nhau. Sáu, tự ý đổ thêm nhớt ngoài lịch hoặc thay loại nhớt không đúng khuyến cáo — nghĩ là tốt hơn lại thành phá vỡ kế hoạch chạy rà mà nhà sản xuất đã tính toán.</p><p>Bảy, và cũng là cái ít người ngờ nhất: để xe phơi nắng mưa suốt tháng đầu. Giai đoạn này bạn đang chăm xe nhiều nhất, và việc để xe ở nơi thoáng, có mái che, lau khô sau mưa cũng là một phần của pha máy — chiếc xe sạch và khô cho mọi chi tiết, kể cả xích và các mối nối, một khởi đầu tốt. Không mục nào trong danh sách này đòi hỏi kỹ năng; tất cả chỉ đòi hỏi kỷ luật trong một tháng.</p>',
+              },
+              {
+                h2: 'Nghe ngóng dấu hiệu bất thường trong tháng đầu',
+                html: '<p>Pha máy cũng là lúc bạn và chiếc xe làm quen nhau, nên hãy dành chút chú ý cho tiếng động cơ mỗi buổi sáng. Động cơ mới chạy đúng chuẩn có một chất âm đều và mượt theo tốc độ; điều cần bắt là những âm đi lệch khỏi chất âm ấy — tiếng lục cục nhẹ từ hộp số khi vào số, tiếng rít từ vùng xích, tiếng kêu lạ từ phía côn mỗi lần tháo côn. Nhiều tiếng trong giai đoạn đầu là do các chi tiết chưa khít và sẽ tự biến mất sau khi xe chạy rà thêm — nhưng bạn không thể tự chắc được tiếng nào lành tiếng nào dữ, và đó chính là lý do mọi tiếng lạ đều đáng để hỏi thợ trong lần thay nhớt đầu tiên.</p><p>Đừng xem việc mang xe về đại lý lúc xe còn mới là phiền phức: trong thời hạn bảo hành, mọi kiểm tra đều nên được ghi lại một cách rõ ràng — một chiếc xe được chăm sóc đúng lịch và có dấu vết chăm sóc là một chiếc xe giữ được giá trị lẫn sự tin tưởng của thợ sau này. Ngược lại, một tiếng kêu nhỏ bị bỏ qua trong tháng đầu đôi khi là dấu hiệu sớm của một chi tiết lắp chưa khít — cái loại vấn đề sửa trong một buổi khi còn nhỏ, và thành cả một đại tu khi để muộn.</p><p>Ngoài âm thanh, để ý thêm ba dấu hiệu trực quan: vết dầu nhớt dưới chỗ đỗ xe mỗi sáng, độ căng của xích sau những ngày mưa, và màu khói xả khi đề máy lạnh. Xe mới gần như không để lại vết dầu, xích mới không duỗi nhanh, và khói xả gần như không thấy — bất kỳ điều gì khác biệt đều đáng mang xe đi sớm một buổi.</p>',
+              },
+              {
+                h2: 'Sau ngàn km đầu: chuyển sang chu kỳ bảo dưỡng định kỳ',
+                html: '<p>Ngàn km đầu trôi qua, thay đúng kỳ nhớt cuối của lịch pha máy, và chiếc xe chính thức sang giai đoạn trưởng thành: mọi bề mặt đã ôm khít, mọi chi tiết đã quen tải, và xe sẵn sàng làm việc nặng. Từ đây lịch chăm xe dãn ra theo chu kỳ bảo dưỡng định kỳ — thay nhớt, kiểm tra lọc gió, siết xích, kiểm tra phanh — và bạn chuyển từ vai người chạy rà sang vai người giữ nhịp. Danh sách việc không còn dày như tháng đầu, nhưng tính đều đặn quyết định tất cả: một xe được bảo dưỡng đúng kỳ dùng rất lâu, một xe được bảo dưỡng theo cảm hứng thì không.</p><p>Điều đáng giữ lại từ giai đoạn pha máy là thói quen chạy xe nhẹ nhàng. Những ai trải qua một tháng đầu kỷ luật thường giữ được nhịp ga từ tốn, cách vào số mượt và cách phanh sớm — những thói quen ấy lợi cho xe mọi giai đoạn, không chỉ tháng đầu. Nói cách khác, pha máy không chỉ nuôi xe, nó còn nuôi người cầm ga; và sau này khi xe đã cũ, chính những thói quen được rèn trong tháng đầu giữ cho động cơ bền và bình xăng ít hao hơn hẳn.</p><p>Cuối cùng, hãy nhìn lại một tháng pha máy như một khoản đầu tư đã đặt đúng chỗ: bạn đã dành đúng vài giờ đọc lịch bảo dưỡng, vài buổi thay nhớt đúng hạn, và một tháng kiên nhẫn giữ ga nhẹ. Đổi lại, chiếc xe trả bằng một động cơ kín, mượt và bền — và một sự quen thuộc giữa bạn với từng âm thanh của nó, thứ mà không khoản tiền nào mua nổi khi xe gặp sự cố sau này.</p>',
+              },
+            ],
+            checklist: [
+              'Đọc lịch pha máy và bảo dưỡng kèm theo xe ngay hôm nhận xe, bấm sẵn các mốc thay nhớt vào lịch điện thoại.',
+              'Giữ ga nhẹ nhàng trong giai đoạn đầu — không vặn ga hết cỡ, không chạy lại ga kéo dài, tăng tốc từ tốn.',
+              'Đa dạng tốc độ và cấp số mỗi chuyến đi thay vì chạy đều một mức suốt buổi.',
+              'Không chở nặng, chở thêm người hoặc đi chuyến dài liên tục trong giai đoạn đầu của ngàn km đầu.',
+              'Thay dầu nhớt đúng kỳ lịch pha máy — kỳ đầu ngắn nhất và quan trọng nhất của toàn bộ giai đoạn.',
+              'Nghe động cơ mỗi sáng; có tiếng lạ, vết dầu dưới gầm hoặc khói xả bất thường thì mang xe về đại lý kiểm tra sớm.',
+            ],
+            steps: [
+              {
+                title: 'Đọc kỹ lịch pha máy kèm xe',
+                detail: 'Ngay hôm nhận xe, đọc khuyến cáo của nhà sản xuất về vòng tua, tải trọng và các kỳ thay nhớt của giai đoạn pha máy, và bấm mốc vào lịch để không bỏ sót.',
+              },
+              {
+                title: 'Chạy nhẹ và đa dạng trong giai đoạn đầu',
+                detail: 'Giữ ga vừa phải, đổi tốc độ và cấp số liên tục, tránh chở nặng và những chuyến dài liên tục — cho các bề mặt được chạy rà ở nhiều điều kiện chứ không chỉ một nhịp.',
+              },
+              {
+                title: 'Thay nhớt đúng kỳ và nhờ thợ soi toàn diện',
+                detail: 'Thay nhớt đúng từng kỳ của lịch pha máy, và nhân mỗi lần thay nhờ thợ kiểm tra dầu hộp số, độ căng xích và toàn bộ tiếng động bất thường bạn đã ghi chú.',
+              },
+              {
+                title: 'Kết thúc pha máy và chuyển sang chu kỳ định kỳ',
+                detail: 'Sau ngàn km đầu và kỳ thay nhớt cuối cùng của lịch pha máy, chuyển hẳn sang chu kỳ bảo dưỡng định kỳ và giữ thói quen chạy xe nhẹ nhàng đã rèn được.',
+              },
+            ],
+            warnings: [
+              'Không chạy lại ga kéo dài và không vặn ga hết cỡ trong ngàn km đầu — ép piston non trẻ làm việc ở vòng tua cao khi thiếu gió làm mát là cách hủy pha máy nhanh nhất.',
+              'Đừng để quá hạn thay nhớt của giai đoạn pha máy — nhớt giai đoạn này gánh mạt kim loại mài ra, để quá hạn là kéo mạt ấy đi khắp động cơ.',
+              'Không tự đổ thêm nhớt ngoài lịch hoặc đổi loại nhớt khác khuyến cáo trong giai đoạn pha máy — làm vậy phá vỡ kế hoạch chạy rà đã được tính toán sẵn.',
+            ],
+            notes: [
+              'Lịch pha máy cụ thể về vòng tua và các kỳ thay nhớt khác nhau theo từng mẫu xe — luôn theo đúng khuyến cáo kèm theo xe của bạn.',
+              'Trong thời hạn bảo hành, hãy cho mọi lần kiểm tra và bảo dưỡng được ghi nhận rõ ràng tại đại lý — hồ sơ chăm sóc đầy đủ giúp xe giữ giá trị và niềm tin kỹ thuật về sau.',
+            ],
+            references: [
+              'Sách hướng dẫn sử dụng và khuyến cáo pha máy của nhà sản xuất kèm theo xe.',
+              'Lịch bảo dưỡng định kỳ do đại lý hoặc đơn vị phân phối công bố cho mẫu xe của bạn.',
+            ],
+            related: [
+              'lich-bao-duong-xe-may-dinh-ky-theo-so-km',
+              'chay-am-may-truoc-khi-di-can-khong',
+              'bao-duong-xe-may-sau-chuyen-di-xa',
+              'huong-dan-su-dung-cac-chuc-nang-tren-xe-ga',
+            ],
+          };
+
+          ARTICLE_EOF
+          cat > factory/data/articles/a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js << 'ARTICLE_EOF'
+          // AI WIKI TOTAL — bài mở rộng cụm /guide/xu-ly-su-co/: xe máy bị kẹt ga: phát hiện và xử lý (slot S00120)
+          'use strict';
+
+          module.exports = {
+            slug: 'xe-may-bi-ket-ga-phat-hien-va-xu-ly',
+            title: 'Xe máy bị kẹt ga: phát hiện và xử lý',
+            seoTitle: 'Xe máy bị kẹt ga: phát hiện và xử lý',
+            metaDescription: 'Xe máy bị kẹt ga là sự cố nguy hiểm nhất: nhận biết sớm, ba bước xử lý giữa đường, nguyên nhân cáp ga khô, bướm ga kẹt và cách phòng ngừa.',
+            summary: 'Trong tất cả các sự cố của xe máy, kẹt ga là tình huống ít gặp nhất nhưng đáng sợ nhất: bạn nhả tay ga mà xe vẫn tiếp tục tăng tốc, và trong vài giây đó mọi quyết định đều là quyết định sống còn. Bài viết này chia sự cố thành ba phần để bạn nắm chắc. Phần nhận biết: kẹt ga hiếm khi xảy ra đột ngột hoàn toàn — trước đó thường có dấu hiệu vặt như tay ga quay lên không thấy độ nề, ga quay xuống có cảm giác khựng, hoặc vòng tua không hạ ngay khi nhả ga; ghi nhớ các dấu hiệu này giúp bạn xử lý trước khi sự cố thật sự ập đến. Phần xử lý giữa đường: ba bước theo thứ tự ưu tiên — bóp phanh trước và sau để giảm tốc độ, bóp côn hoặc cho hộp số về số không để ngắt truyền động, và tắt chìa khóa điện để máy tắt hẳn; trong mọi trường hợp giữ hướng thẳng và nhìn trước tìm một chỗ dừng an toàn, tuyệt đối không hoảng loạn đánh lái gấp giữa tốc độ cao. Phần nguyên nhân và phòng ngừa: thủ phạm phổ biến nhất là cáp ga khô dầu hoặc rỉ sét khiến cáp quay không trơn, kế đến là bướm ga dính bẩn kẹt ở vị trí mở, lò xo hồi ga yếu gãy, và những trường hợp hiếm hơn như đồ trang trí kẹt vào cổ ga; phòng ngừa chủ yếu là tra dầu cáp ga định kỳ, vệ sinh vùng bướm ga trong mỗi lần bảo dưỡng lớn, và thấy tay ga nặng là kiểm ngay chứ đừng đợi. Cuối cùng là phần rèn phản xạ: chưa bao giờ gặp kẹt ga thì hãy tập trước trong sân vắng — phanh, về số không, tắt máy — cho đến khi ba bước thành một hành động liền mạch. Kẹt ga hiếm khi xảy đến hai lần trong đời một người, nhưng người có phản xạ đúng thì lần duy nhất ấy chỉ là một buổi hú vía chứ không phải một vụ va chạm.',
+            quickAnswer: 'Trả lời ngắn: kẹt ga là khi bạn nhả tay ga mà vòng tua không hạ hoặc xe vẫn tiếp tục tăng tốc do cơ cấu ga bị kẹt ở vị trí mở. Xử lý giữa đường theo ba bước ưu tiên: bóp cả hai phanh để giữ tốc độ trong tầm kiểm soát, bóp côn hoặc về số không để ngắt truyền động, rồi tắt chìa khóa điện cho máy nổ tắt hẳn rồi thắng lại từ từ vào lề. Tuyệt đối không tắt máy khi đang vào cua hoặc giữa tốc độ cao nếu bạn chưa chắc chắn phanh — giảm tốc trước, tắt máy sau. Nhận biết sớm: tay ga nặng hay khựng khi quay, không thấy độ nề của ga, nhả ga mà vòng tua hạ chậm — đó là lúc mang xe tra dầu cáp ga và vệ sinh bướm ga ngay, đừng đợi đến khi kẹt thật. Phòng ngừa: tra dầu cáp định kỳ, vệ sinh vùng ga mỗi lần bảo dưỡng, và tập sẵn trình tự phanh — về số — tắt máy trong sân vắng để phản xạ có sẵn khi cần.',
+            keyPoints: [
+              'Kẹt ga là sự cố nguy hiểm nhất của xe máy vì người lái mất khả năng giảm tốc bằng ga — mọi xử lý khác đều phải chuyển sang phanh và hộp số.',
+              'Ba bước xử lý theo ưu tiên: bóp phanh giữ tốc độ, bóp côn hoặc về số không ngắt truyền động, rồi tắt chìa khóa điện cho máy tắt hẳn và thắng dừng vào lề.',
+              'Dấu hiệu sớm của kẹt ga: tay ga nặng hoặc khựng khi quay, không thấy độ nề của ga, và vòng tua không hạ ngay khi nhả ga — thấy một trong các dấu hiệu này là đi tra dầu cáp ga ngay.',
+              'Nguyên nhân phổ biến nhất là cáp ga khô dầu hoặc rỉ sét; kế đến là bướm ga dính bẩn, lò xo hồi ga yếu và ngoại vật kẹt vào cổ ga.',
+              'Phòng ngừa rẻ nhất: tra dầu cáp ga theo định kỳ bảo dưỡng, vệ sinh vùng bướm ga mỗi lần bảo dưỡng lớn, và thay cáp ga khi thấy dấu hiệu mòn.',
+              'Tập trước trình tự phanh — về số — tắt máy trong sân vắng cho đến khi thành phản xạ — người có sẵn phản xạ đúng biến sự cố hiếm gặp thành một buổi hú vía.',
+            ],
+            category: 'guide',
+            hub: 'xu-ly-su-co',
+            date: '2026-10-01',
+            updated: '2026-10-01',
+            entities: [
+              'kẹt ga xe máy',
+              'cáp ga xe máy',
+              'bướm ga',
+              'lò xo hồi ga',
+              'vòng tua máy',
+              'hộp số xe máy',
+            ],
+            keywords: [
+              'xe máy bị kẹt ga',
+              'kẹt ga xe máy xử lý thế nào',
+              'dấu hiệu kẹt ga',
+              'cáp ga khô dầu',
+              'tra dầu cáp ga',
+              'nhả ga không giảm tốc',
+            ],
+            sections: [
+              {
+                h2: 'Kẹt ga là gì và vì sao là sự cố nguy hiểm nhất',
+                html: '<p>Kẹt ga là tình trạng cơ cấu điều khiển ga bị giữ ở vị trí mở: bạn đã nhả tay ga, nhưng cáp ga không kéo bướm ga quay về vị trí đóng, hoặc bướm ga bị kẹt không quay về được. Kết quả là động cơ vẫn nhận nhiên liệu và không ngừng tăng tua, và nếu đang vào số, xe tiếp tục kéo tới. Người lái bình thường giảm tốc bằng ba công cụ: nhả ga, phanh, và hộp số — kẹt ga lập tức tước mất công cụ đầu tiên và khiến hai công cụ còn lại phải làm việc trong điều kiện bất thường.</p><p>Điều làm kẹt ga nguy hiểm hơn hẳn các sự cố khác không phải ở tần suất — nó hiếm gặp hơn hẳn thủng lốp hay cạn xăng — mà ở tính bất ngờ và ở chỗ nó xảy ra đúng lúc bạn đang cần giảm tốc nhất: sắp vào cua, sắp tới ngã tư, hoặc thấy chướng ngại phía trước. Người lái quen để xe trôi theo đà sau khi nhả ga sẽ mất vài giây quý giá trước khi nhận ra ga không còn nghe lời, và trong vài giây ấy tốc độ có thể vẫn đang tăng thay vì giảm.</p><p>Mặt tốt của vấn đề: kẹt ga gần như luôn có dấu hiệu báo trước — một tay ga hơi nặng, một độ khựng rất nhỏ, một vòng tua hạ chậm hơn bình thường. Người đọc được các dấu hiệu ấy xử được từ khi sự cố còn là chuyện tra dầu cáp vài phút; người bỏ qua thì lần đầu biết đến kẹt ga là lần nó xảy ra thật. Bài viết này tồn tại để đưa bạn vào nhóm thứ nhất.</p>',
+              },
+              {
+                h2: 'Dấu hiệu nhận biết sớm khi ga bắt đầu không nghe lời',
+                html: '<p>Sự cố kẹt ga thật sự hiếm, nhưng các dấu hiệu trước nó thì khá thường gặp ở xe ít bảo dưỡng. Dấu hiệu thứ nhất: tay ga nặng — quay ga lên thấy độ cản lớn hơn nhớt, hoặc cảm giác lạo xạo như cáp chạy không trơn trong vỏ cáp. Dấu hiệu thứ hai: ga khựng — quay lên trơn nhưng quay về có một điểm nhíp nhỏ, hoặc một độ nề đột ngột rồi lại trơn, báo rằng cáp có đoạn bị kẹt rồi tuột ra. Dấu hiệu thứ ba: vòng tua hạ chậm — nhả ga mà vòng tua không hạ ngay theo bàn tay, máy vẫn gằn một nhịp rồi mới hạ.</p><p>Ngoài ra còn các dấu hiệu liên quan tới ngoại vật: nắp bình xăng giở hay túi đồ trên xe đè lên cổ ga khiến ga không quay về, ống gió hoặc gương gắn thêm bịa lỏng rơi vào kẹt tay ga. Những tình huống này không phải lỗi máy móc nhưng hậu quả y hệt — và cách xử ngay đơn giản: kéo xe vào lề, gỡ ngoại vật khỏi cổ ga, kiểm tra độ quay tự do của tay ga trước khi tiếp tục chạy.</p><p>Thói quen kiểm tra tốn mười giây: mỗi buổi sáng đề máy xong, nhẹ nhàng vặn ga lên rồi nhả hoàn toàn — quan sát tay ga quay về nhịp nhàng và vòng tua hạ ngay. Làm đều đặn mỗi sáng, bạn sẽ nhận ra ngay hôm nào ga khác thường, và mười giây ấy là chênh lệch giữa một chuyến ra tiệm tra dầu cáp và một pha nguy hiểm thật sự ngoài đường lớn.</p>',
+              },
+              {
+                h2: 'Xử lý giữa đường: phanh — ngắt truyền động — tắt máy',
+                html: '<p>Nếu kẹt ga xảy ra thật sự, trình tự xử lý phải theo đúng thứ tự ưu tiên. Bước một: bóp phanh — dùng cả phanh trước và phanh sau với lực mạnh nhưng có kiểm soát, mục tiêu là giữ tốc độ ngừng tăng và bắt đầu giảm. Đừng phanh dập tắt tốc độ trong một cú — với động cơ đang kéo, phanh cần lực đều và dài hơn bình thường. Giữ tay lái vững và nhìn về phía trước tìm chỗ dừng an toàn, tuyệt đối không đánh lái lách lên giữa hai xe đang chạy.</p><p>Bước hai: ngắt truyền động — xe tay ga thì bóp phanh sau và giữ để hộp số ly hợp tự ngắt, xe côn tay thì bóp côn hoặc về số không. Ngắt được truyền động nghĩa là dù động cơ có kéo, các bánh xe không còn nhận lực — xe bắt đầu trôi giảm tốc như bình thường. Đây là bước cho bạn lại quyền kiểm soát hoàn toàn tốc độ, kể cả khi máy vẫn gào lên.</p><p>Bước ba: tắt máy — khi tốc độ đã giảm và bạn kiểm soát được hướng, tắt chìa khóa điện cho động cơ ngừng chạy, rồi thắng dần vào lề hoặc chỗ trống. Trình tự giảm tốc trước tắt máy sau có lý do: tắt máy sớm khi còn ở tốc độ cao làm mất hỗ trợ và khiến phanh nặng hơn ở một số xe, trong khi ngắt truyền động và phanh đã đủ dừng xe. Sau khi dừng: kéo chống đứng xe, không đề lại máy, gọi hỗ trợ hoặc kiểm tra ngoại vật quanh cổ ga nếu tự tin tay nghề — và tuyệt đối không tiếp tục chạy nếu ga vẫn không quay về.</p>',
+              },
+              {
+                h2: 'Nguyên nhân: cáp ga khô, bướm ga bẩn, lò xo hồi yếu',
+                html: '<p>Thủ phạm số một của kẹt ga là cáp ga — sợi cáp thép chạy trong một ống vỏ bọc, dùng lâu ngày không tra dầu thì lớp dầu bôi trơn bay hơi, cáp bắt đầu chạy khô, rồi rỉ sét nhẹ làm bề mặt gợn. Cáp khô trước hết làm tay ga nặng, tiến triển thành khựng, và trong trường hợp xấu nhất kẹt cứng ở vị trí ga mở. Cáp ga có tuổi thọ và là chi phí thay thế rẻ — thấy nặng thì tra dầu, tra dầu không đỡ thì thay cáp, đừng tiết kiệm một bộ cáp mà đánh đổi cả phản ứng ga.</p><p>Thủ phạm số hai là bướm ga — cánh bướm quay trong cổ ga để đóng mở luồng khí, và là nơi bẩn muội từ gió bụi đường và hơi xăng đọng lại theo năm tháng. Muội đóng dày làm bướm quay không trơn, lâu ngày kẹt ở một vị trí nào đó. Vệ sinh vùng bướm ga trong mỗi lần bảo dưỡng lớn, hoặc đơn giản hơn, mỗi lần thấy ga hơi nặng thì xịt dung dịch vệ sinh đúng loại vào theo hướng dẫn của thợ — được làm đều đặn thì bướm ga gần như không bao giờ kẹt.</p><p>Các thủ phạm khác hiếm hơn nhưng vẫn đáng biết: lò xo hồi ga yếu hoặc gãy khiến bướm không quay về vị trí đóng dù cáp khỏe — lò xo này nằm trong cụm ga và được kiểm tra cùng lúc với cáp; ngoại vật kẹt vào cổ ga — gương gắn thêm, ốp trang trí, dây thắt đồ — từng gây ra nhiều ca tưởng như kẹt ga thật; và những tình huống dễ nhầm như hệ thống nhiên liệu làm việc lệch khiến vòng tua không hạ dù ga quay về trơn — loại này cần thợ chẩn đoán kỹ. Với mọi trường hợp, một lần kiểm tra tại thợ sau sự cố là bắt buộc, kể cả khi xe có vẻ đã chạy lại bình thường.</p>',
+              },
+              {
+                h2: 'Phòng ngừa: mười phút mỗi kỳ bảo dưỡng',
+                html: '<p>Phòng kẹt ga không cần kỹ năng gì cao siêu — chỉ cần đưa việc chăm ga vào nhịp bảo dưỡng định kỳ. Việc một: tra dầu cáp ga mỗi kỳ bảo dưỡng, hoặc chí ít hai ba tháng một lần nếu xe chạy nhiều bụi và mưa. Việc hai: vệ sinh vùng bướm ga mỗi lần bảo dưỡng lớn — cùng lúc với thay nhớt và vệ sinh lọc gió là nhịp tự nhiên nhất. Việc ba: nhờ thợ kiểm tra độ hồi của ga và lò xo hồi — thợ thao tác quen chỉ mất vài phút, và bắt được lò xo đang yếu trước khi nó gãy.</p><p>Với người ít rành máy móc, cách dễ nhất là treo chuỗi các việc này vào lịch thay nhớt: mỗi lần thay nhớt là hỏi thợ một câu thẳng — tra dầu cáp ga giúp tôi, và soi giúp tôi xem bướm ga có bẩn không. Câu hỏi mười giây ấy, lặp lại mỗi kỳ, gần như loại bỏ hoàn toàn rủi ro kẹt ga từ phía máy móc. Phía ngoại vật thì là thói quen người dùng: không gắn ốp gương tùy chỉnh kẹm vào cổ ga, không cuộn dây thắt đồ quanh vùng tay lái, và trước mỗi chuyến đi xa thì thử độ quay tự do của ga một lần.</p><p>Nhìn tổng thể, toàn bộ chi phí phòng ngừa kẹt ga của một chiếc xe trong một năm nhỏ hơn giá một bữa cơm — so với cái giá của một lần kẹt ga thật ngoài đường: sức khỏe, tiền sửa xe, và cả niềm tin khi cầm ga sau đó. Trong danh sách các khoản tiền lãi của chuyện chăm xe, đây là một trong những khoản lãi cao nhất mà ít người để ý.</p>',
+              },
+              {
+                h2: 'Tập phản xạ trước khi cần đến nó',
+                html: '<p>Sự thật phũ phàng của kẹt ga: khi nó xảy ra, bạn không có thời gian để nghĩ. Vài giây đầu tiên của sự cố là vài giây quyết định mọi thứ, và người xử đúng không phải người thông minh hơn lúc đó — mà là người đã có sẵn trình tự trong cơ bắp. Vì thế phần quan trọng nhất của bài viết này không nằm ở kiến thức, mà ở buổi tập trong sân vắng mà bạn nên dành ba mươi phút để làm.</p><p>Cách tập: tìm một đoạn sân hoặc đường vắng dài, chạy tốc độ vừa, rồi mô phỏng đúng trình tự — nhả ga, bóp phanh, bóp côn hoặc về số không, tắt chìa khóa — và làm lại mười lăm hai mươi lần cho đến khi các bước nối thành một chuỗi liền mạch không cần nghĩ. Người tập như vậy, khi ga thật sự kẹt, cơ thể tự làm đúng trình tự trong khi đầu còn choáng váng; người không tập thì thường mất vài giây quý giá cho sự không tin nổi — và vài giây ấy ở tốc độ cao là hàng chục mét.</p><p>Đừng quên phần tâm lý: người có phản xạ còn giữ được cái đầu mát, và cái đầu mát mới là thứ cho phép tất cả các bước ở trên được thực hiện đúng. Sau buổi tập, hầu hết người lái kể lại rằng cảm giác lo âu khi cầm ga giảm hẳn — vì họ biết rõ trong đầu mình có một lối thoát cho ngay cả sự cố được coi là đáng sợ nhất. Kiến thức về kẹt ga không dùng để sống chung với nỗi sợ; nó dùng để khiến nỗi sợ kia không bao giờ có cớ tồn tại.</p>',
+              },
+            ],
+            checklist: [
+              'Mỗi sáng khi đề máy, vặn ga nhẹ lên rồi nhả hoàn toàn — quan sát tay ga quay về nhịp nhàng và vòng tua hạ ngay.',
+              'Thấy tay ga nặng, ga khựng hoặc vòng tua hạ chậm thì tra dầu cáp ga ngay, không đợi đến kỳ bảo dưỡng.',
+              'Mỗi kỳ thay nhớt, nhờ thợ tra dầu cáp ga, vệ sinh vùng bướm ga và kiểm tra lò xo hồi ga.',
+              'Không gắn ốp trang trí hay gương kẹm vào cổ ga, không buộc dây thắt đồ quanh vùng tay lái.',
+              'Dành một buổi tập trong sân vắng trình tự: phanh — bóp côn hoặc về số không — tắt chìa khóa.',
+              'Sau một sự cố kẹt ga, tuyệt đối không tiếp tục chạy dài — dừng, kiểm tra hoặc gọi hỗ trợ và cho xe được thợ kiểm tra đầy đủ.',
+            ],
+            steps: [
+              {
+                title: 'Nhận biết sớm qua các dấu hiệu vặt',
+                detail: 'Để ý tay ga nặng, độ khựng khi quay, không thấy độ nề của ga và vòng tua hạ chậm — một dấu hiệu duy nhất cũng đủ lý do mang xe tra dầu cáp ga trong hôm ấy.',
+              },
+              {
+                title: 'Xử lý giữa đường theo đúng trình tự',
+                detail: 'Bóp hai phanh giữ tốc độ trong tầm kiểm soát, bóp côn hoặc về số không để ngắt truyền động, rồi tắt chìa khóa điện cho máy tắt hẳn và thắng dần vào chỗ trống an toàn.',
+              },
+              {
+                title: 'Tìm và xử lý gốc nguyên nhân',
+                detail: 'Kiểm tra cáp ga khô rỉ, bướm ga dính bẩn, lò xo hồi yếu và ngoại vật kẹt quanh cổ ga — cáp mòn thì thay, bướm bẩn thì vệ sinh, không tự chạy tiếp khi ga chưa quay về trơn tru.',
+              },
+              {
+                title: 'Phòng ngừa định kỳ và rèn phản xạ',
+                detail: 'Tra dầu cáp ga và vệ sinh bướm ga mỗi kỳ bảo dưỡng, giữ vùng cổ ga thông thoáng, và tập sẵn trình tự phanh — về số — tắt máy cho đến khi thành phản xạ tự nhiên.',
+              },
+            ],
+            warnings: [
+              'Không tắt máy ngay khi còn ở tốc độ cao hoặc đang vào cua nếu chưa chắc tốc độ đã được kiểm soát — ngắt truyền động và phanh trước, tắt máy sau.',
+              'Đừng tiếp tục chạy khi ga đã từng kẹt rồi tự khỏi — kẹt ga luôn tái phát ở thời điểm xấu nhất, hãy cho xe được kiểm tra gốc nguyên nhân trước khi chạy lại dài.',
+              'Không dùng dung dịch vệ sinh sai loại hoặc xịt tùy tiện vào vùng bướm ga — làm sai có thể hỏ lớp phủ bên trong và tạo kẹt mới, hãy theo hướng dẫn thợ.',
+            ],
+            notes: [
+              'Kẹt ga ở xe tay ga và xe côn tay khác nhau ở bước ngắt truyền động — xe tay ga bóp phanh sau giữ để hộp số ly hợp ngắt, xe côn tay bóp côn hoặc về số không.',
+              'Sau mọi sự cố kẹt ga, một lần kiểm tra đầy đủ tại thợ là bắt buộc kể cả khi xe chạy lại bình thường — nguyên nhân chưa xử sẽ quay lại.',
+            ],
+            references: [
+              'Sách hướng dẫn bảo dưỡng của nhà sản xuất về lịch tra dầu cáp ga và vệ sinh cụm ga.',
+              'Khuyến cáo an toàn chung về xử lý sự cố mất kiểm soát ga khi lưu hành.',
+            ],
+            related: [
+              'xe-may-bi-giat-hut-ga-nguyen-nhan-va-cach-xu-ly',
+              'cap-ga-va-cap-phanh-xe-may-khi-nao-thay',
+              'ky-thuat-vuot-xe-an-toan',
+              'sau-khi-nga-xe-may-kiem-tra-nguoi-va-xe',
+            ],
+          };
+
+          ARTICLE_EOF
+          node --check factory/data/articles/a119-pha-may-xe-may-moi-1000km-dau-tien.js
+          node --check factory/data/articles/a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+      - name: Plan 2 slot
+        run: |
+          set -euo pipefail
+          OUT1=$(node factory/factory.js plan guide/bao-duong pha-may-xe-may-moi-1000km-dau-tien "Pha máy xe máy mới: 1000 km đầu tiên")
+          OUT2=$(node factory/factory.js plan guide/xu-ly-su-co xe-may-bi-ket-ga-phat-hien-va-xu-ly "Xe máy bị kẹt ga: phát hiện và xử lý")
+          echo "$OUT1"
+          echo "$OUT2"
+          echo "$OUT1" | grep -q "S00119" || { echo "LOI: slot 1 khong phai S00119"; exit 1; }
+          echo "$OUT2" | grep -q "S00120" || { echo "LOI: slot 2 khong phai S00120"; exit 1; }
+      - name: QA SEO scoped
+        id: qa
+        run: |
+          set -euo pipefail
+          node factory/factory.js qa-preview S00119 | tee /tmp/qa1.txt
+          node factory/factory.js qa-preview S00120 | tee /tmp/qa2.txt
+          grep -q "ĐẠT" /tmp/qa1.txt || { echo "QA/SEO slot 1 khong DAT"; exit 1; }
+          grep -q "ĐẠT" /tmp/qa2.txt || { echo "QA/SEO slot 2 khong DAT"; exit 1; }
+          QA1=$(grep "^QA thử" /tmp/qa1.txt | grep -o "[0-9]*/100" | head -1 | cut -d/ -f1)
+          QA2=$(grep "^QA thử" /tmp/qa2.txt | grep -o "[0-9]*/100" | head -1 | cut -d/ -f1)
+          SEO1=$(grep "^SEO thử" /tmp/qa1.txt | grep -o "[0-9]*/100" | head -1 | cut -d/ -f1)
+          SEO2=$(grep "^SEO thử" /tmp/qa2.txt | grep -o "[0-9]*/100" | head -1 | cut -d/ -f1)
+          echo "Diem: QA $QA1/$QA2 SEO $SEO1/$SEO2"
+          echo "qa=$QA1/$QA2" >> "$GITHUB_OUTPUT"
+          echo "seo=$SEO1/$SEO2" >> "$GITHUB_OUTPUT"
+      - name: Verify sources
+        run: |
+          set -euo pipefail
+          node factory/factory.js verify-sources S00119,S00120 | grep VERIFY_SOURCES_OK
+          node factory/factory.js check-state
+      - name: Commit va push writer
+        run: |
+          set -euo pipefail
+          git config user.name "Mr Tú"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add factory/data/articles/a119-pha-may-xe-may-moi-1000km-dau-tien.js factory/data/articles/a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js factory/state/matrix.json factory/state/checkpoint.json factory/state/factory-state.json
+          git commit -m "content(articles): write pair S00119,S00120 (qa ${{ steps.qa.outputs.qa }}, seo ${{ steps.qa.outputs.seo }})"
+          ok=0
+          for t in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep 5
+          done
+          if [ "$ok" != "1" ]; then echo "push that bai - repo van resumable"; exit 1; fi
+          echo "WRITER_COMMIT_DONE"
