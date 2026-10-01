@@ -673,6 +673,66 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/hop-cau-chi-xe-may-cau-tao-va-cach-kiem-tra/",
+  "title": "Hộp cầu chì xe máy: cấu tạo và cách kiểm tra",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Một hôm đèn xi nhan im, còi câm, nhưng máy vẫn nổ tốt — điện thoại vẫn sạc, đèn pha vẫn sáng — đó là chữ ký quen thuộc của một chiếc cầu chì đã đứt: mất đúng một nhánh điện, các nhánh khác khỏe. Bài viết này nói về người gác nhỏ nhất của hệ thống điện: cấu tạo, vai trò, và cách tự kiểm không cần thợ. Cấu tạo: cầu chì là một sợi dẫn mỏng được tính toán sẵn nằm trong hộp nhựa hai chân cắm; dòng điện vượt ngưỡng thiết kế làm sợi nóng chảy đứt — đứt trong một phần giây, cắt nhánh điện đang có sự cố và bảo vệ dây, công tắc, các thiết bị phía sau. Vai trò trong bản đồ điện: mỗi nhánh phụ — xi nhan, còi, đèn, ổ sạc — có một cầu chì riêng, nên một cháy không kéo cả hệ; đây là chia để trị bằng điện tử, và sơ đồ trên nắp hộp là bản đồ của sự chia ấy. Cách kiểm: mất một chức năng điện thì mở hộp cầu chì, rút đúng vị trí theo sơ đồ, soi sợi qua nguồn sáng — sợi đứt nhìn thấy được; cầu chì có thể kiểm bằng đồng hồ nhưng mắt thường là đủ cho phần lớn ca. Thay đúng: đúng ampe ghi trên hộp hoặc trong sách — thay cầu chì to hơn là bỏ người gác, và hậu quả sự cố kế tiếp rơi thẳng lên dây và thiết bị; thay cầu chì mà cháy lại ngay là dấu sự cố thật nằm ở nhánh — tìm, đừng cứ thay to. Sau cùng: mang theo vài cầu chì dự phòng đúng loại trong cốp là một trong những món đồ rẻ nhất cứu được một tối mưa không đèn.",
+  "quickAnswer": "Trả lời ngắn: cầu chì là sợi dẫn mảnh đã tính toán nằm giữa nguồn và từng nhánh điện — dòng quá ngưỡng làm sợi chảy đứt, đứt là nhánh đó mất điện nhưng các nhánh khác sống. Ba bước tự xử. Một, định vị: mất chức năng nào — xi nhan, còi, đèn — thì mở hộp cầu chì, đối chiếu sơ đồ trên nắp hộp hoặc trong sách xe để tìm đúng vị trí. Hai, kiểm: rút cầu chì bằng nhíp nhựa có sẵn trong hộp, soi sợi trước nguồn sáng — sợi đứt lộ rõ, sợi còn liền thì vấn đề nằm nơi khác trên nhánh. Ba, thay đúng ampe ghi trên hộp hoặc sách xe: thay nhỏ hơn là cháy hoài, thay to hơn là bỏ lớp bảo vệ — và nếu cầu chì mới cháy lại ngay khi bật chức năng, đó là tín hiệu chập thật trên nhánh, mời thợ truy thay vì tiếp tục thay. Ghi nhớ hai điều: thanh đồng không phải cầu chì — đừng tì đồng hay kẹp giấy vào chỗ cầu chì; và hộp cầu chì có sẵn nhíp nhựa vì rút bằng kim loại khi chưa ngắt nguồn là cách nhận một cú tạt điện không cần thiết.",
+  "keyPoints": [
+   "Cầu chì là sợi dẫn mảnh tính toán sẵn: dòng vượt ngưỡng làm sợi chảy đứt trong tích tắc — đứt một nhánh, sống các nhánh khác, bảo vệ dây và thiết bị phía sau.",
+   "Mỗi chức năng có cầu chì riêng: mất đúng xi nhan hoặc đúng còi mà đèn pha vẫn sáng là chữ ký của cầu chì cháy — mở hộp, đối chiếu sơ đồ, rút đúng vị trí.",
+   "Kiểm tra bằng mắt thường: soi sợi qua nguồn sáng — sợi đứt thấy rõ; cầu chì còn liền mà nhánh chết thì sự cố nằm trên đường dây hoặc tại công tắc.",
+   "Thay đúng ampe ghi trên hộp hoặc sách xe: nhỏ hơn là cháy lặp, to hơn là bỏ lớp bảo vệ — mọi hậu quả sự cố kế tiếp rơi thẳng lên dây và thiết bị."
+  ],
+  "entities": [
+   "cầu chì",
+   "hộp cầu chì",
+   "hệ thống điện xe máy",
+   "ampe",
+   "đèn xi nhan",
+   "bảo dưỡng xe máy"
+  ],
+  "keywords": [
+   "hộp cầu chì xe máy",
+   "cầu chì xe máy",
+   "cách kiểm tra cầu chì xe",
+   "thay cầu chì xe máy",
+   "cầu chì xe máy cháy",
+   "mất điện nhánh xe máy"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/vung-mu-cua-xe-tai-khi-di-xe-may/",
+  "title": "Vùng mù của xe tải khi đi xe máy",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Chiếc xe máy nhanh, gọn, lách được — nhưng chính những ưu thế ấy khiến nó trở thành phương tiện dễ biến mất khỏi gương của tài xế xe tải nhất. Bài viết này vẽ lại bản đồ nhìn từ ghế lái xe tải để người đi xe máy biết mình đứng đâu trong mắt người khác. Góc chết là thật và nhiều hơn tưởng tượng: bên cạnh buồng lái — ngay cả mũi xe tải có người đi bộ cũng chưa chắc thấy — dọc hai bên rơ moóc dài, và đặc biệt nguy hiểm là góc sau phải nơi gương không phủ hết. Xe tải có gương nhưng gương xe tải phục vụ tầm nhìn của một chiếc xe dài cả chục mét — người tài xế phải theo dõi mười hai mét thân xe, mười tám bánh, ba gương, và xe máy chỉ là một vật nhỏ có thể bị che bởi một cột điện, một bụi cây ven đường. Nguyên tắc sống còn số một: nếu không thấy gương xe tải thì tài xế cũng không thấy mình — vị trí mình không thấy gương của họ là vị trí mình không tồn tại trong nhận thức của họ. Song hành an toàn: không đi song song phần giữa thân xe tải lâu — hoặc vượt nhanh dứt điểm hoặc tụt lại sát sau; khi vượt: nhìn gương trước, xi nhan, vượt gọn ở làn trống, không trèo giữa hai xe tải; khi bị vượt: giữ làn thẳng, đừng tăng ga tranh — kịch bản thua thiệt luôn thuộc bên nhẹ hơn. Đến ngã tư và vòng xoay là lúc vùng mù sinh thêm rủi ro: xe tải cua phải với bán kính lớn kéo đuôi quét qua làn bên trong — xe máy kẹt vòng trong là chỗ bị quét trước khi được nhìn thấy. Sau cùng là tư duy: xe tải không cố tình, tài xế chỉ không thấy — và mục tiêu của người đi xe máy là luôn ở trong phần đường được nhìn thấy, hoặc hẳn ngoài phần đường không ai nhìn thấy.",
+  "quickAnswer": "Trả lời ngắn: xe tải có các vùng gương không phủ — cạnh buồng lái, dọc thân rơ moóc, góc sau phải — và xe máy nhỏ gọn dễ trôi đúng vào các vùng ấy. Ba quy tắc sống còn. Một, quy tắc gương: không thấy được gương của xe tải nghĩa là tài xế không thấy mình — di chuyển tức khắc ra vị trí thấy gương hoặc tụt lại sau. Hai, không song song phần thân xe tải: hoặc vượt nhanh dứt điểm khi có khoảng trống, hoặc giữ khoảng cách an toàn sau — phần giữa thân xe là vùng mù di động, đậu trong đó là tự nhận rủi ro theo từng cây số. Ba, cua của xe tải quét đuôi: ngã tư và vòng xoay, xe tải cua với bán kính lớn kéo đuôi quét làn trong — không chen bên phải một xe tải đang cua phải, dù khe nhìn có vẻ rộng. Thêm tư duy nền: đa số tài xế không cố tình — họ chỉ không nhìn thấy; và trách nhiệm thực dụng của người đi xe máy không phải tranh cãi chỗ đứng mà là luôn đứng trong vùng được nhìn thấy, vì trong mọi va chạm giữa xe máy và xe tải, vật lý không phân xử theo ai có lý.",
+  "keyPoints": [
+   "Quy tắc gương: không thấy được gương của xe tải nghĩa là tài xế không thấy mình — rời ngay vùng đó, hoặc vượt hoặc tụt về sau an toàn.",
+   "Không song song phần giữa thân xe tải lâu: phần thân là vùng mù di động dài hàng chục mét — hoặc vượt nhanh dứt điểm hoặc giữ khoảng cách an toàn sau.",
+   "Góc chết lớn nhất thường ở cạnh phải xe tải — cạnh buồng lái và sau rơ moóc: tuyệt đối không chen khe bên phải khi xe tải cua phải.",
+   "Xe tải cua với bán kính lớn kéo đuôi quét qua làn trong tại ngã tư và vòng xoay: kẹt vòng trong là chỗ bị quét trước khi được nhìn thấy."
+  ],
+  "entities": [
+   "vùng mù",
+   "xe tải",
+   "góc chết",
+   "gương chiếu hậu",
+   "vượt xe",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "vùng mù xe tải",
+   "góc chết xe tải xe máy",
+   "đi xe máy cạnh xe tải",
+   "vượt xe tải an toàn",
+   "xe máy song hành xe tải",
+   "quy tắc gương xe tải"
+  ]
+ },
+ {
   "url": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/",
   "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
   "category": "Thuê xe",

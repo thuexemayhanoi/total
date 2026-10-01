@@ -2391,6 +2391,56 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/hop-cau-chi-xe-may-cau-tao-va-cach-kiem-tra/",
+  "title": "Hộp cầu chì xe máy: cấu tạo và cách kiểm tra",
+  "description": "Hộp cầu chì xe máy: vai trò của từng cầu chì trong hệ điện, cách đọc sơ đồ, kiểm tra cầu chì cháy đúng cách và thay đúng ampe an toàn.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "cầu chì",
+   "hộp cầu chì",
+   "hệ thống điện xe máy",
+   "ampe",
+   "đèn xi nhan",
+   "bảo dưỡng xe máy"
+  ],
+  "keywords": [
+   "hộp cầu chì xe máy",
+   "cầu chì xe máy",
+   "cách kiểm tra cầu chì xe",
+   "thay cầu chì xe máy",
+   "cầu chì xe máy cháy",
+   "mất điện nhánh xe máy"
+  ],
+  "summary": "Một hôm đèn xi nhan im, còi câm, nhưng máy vẫn nổ tốt — điện thoại vẫn sạc, đèn pha vẫn sáng — đó là chữ ký quen thuộc của một chiếc cầu chì đã đứt: mất đúng một nhánh điện, các nhánh khác khỏe. Bài viết này nói về người gác nhỏ nhất của hệ thống điện: cấu tạo"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/vung-mu-cua-xe-tai-khi-di-xe-may/",
+  "title": "Vùng mù của xe tải khi đi xe máy",
+  "description": "Vùng mù của xe tải với người đi xe máy: các góc chết quanh đầu xe và rơ moóc, vì sao xe máy biến mất trong gương, vị trí an toàn khi song hành và vượt.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "vùng mù",
+   "xe tải",
+   "góc chết",
+   "gương chiếu hậu",
+   "vượt xe",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "vùng mù xe tải",
+   "góc chết xe tải xe máy",
+   "đi xe máy cạnh xe tải",
+   "vượt xe tải an toàn",
+   "xe máy song hành xe tải",
+   "quy tắc gương xe tải"
+  ],
+  "summary": "Chiếc xe máy nhanh, gọn, lách được — nhưng chính những ưu thế ấy khiến nó trở thành phương tiện dễ biến mất khỏi gương của tài xế xe tải nhất. Bài viết này vẽ lại bản đồ nhìn từ ghế lái xe tải để người đi xe máy biết mình đứng đâu trong mắt người khác. Góc chế"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/",
   "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
   "description": "Thuê xe máy chở đồ cồng kềnh: cách chọn xe phù hợp tải trọng, buộc và gia cố hàng đúng kỹ thuật, quy định chở hàng và vận hành an toàn trên đường.",
