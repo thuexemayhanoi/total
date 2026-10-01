@@ -2944,6 +2944,56 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/leo-via-he-ky-thuat-len-xuong-le-an-toan/",
+  "title": "Leo vỉa hè: kỹ thuật lên xuống lề an toàn",
+  "description": "Leo vỉa hè sai cách làm hư phuộc, vòng bi và dễ ngã. Bài viết hướng dẫn kỹ thuật lên xuống lề đúng: góc tiếp cận, tốc độ, và vị trí đứng phanh.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "vỉa hè",
+   "phuộc xe",
+   "vòng bi tay lái",
+   "góc tiếp cận",
+   "phanh sau",
+   "mép lề"
+  ],
+  "keywords": [
+   "leo vỉa hè xe máy",
+   "kỹ thuật lên lề xe máy",
+   "húc lề hại xe",
+   "xuống vỉa hè an toàn",
+   "leo lề xe tay ga",
+   "hư phuộc do leo lề"
+  ],
+  "summary": "Leo vỉa hè là thao tác nhỏ nhất mà người lái xe máy làm mỗi ngày, và cũng là thao tác phá phuộc, mòn vòng bi và gây ngã nhiều nhất trong mọi thao tác nhỏ. Bài viết này phân tích kỹ thuật leo lề đúng từ góc tiếp cận tới vị trí đặt chân. Phần vì sao lề nguy hiểm"
+ },
+ {
+  "kind": "article",
+  "url": "learn/cham-soc-xe/bao-ve-xe-may-duoi-nang-nong/",
+  "title": "Bảo vệ xe máy dưới nắng nóng",
+  "description": "Nắng nóng làm sơn bạc, lốp lão hóa, dầu mau thoái hóa và ắc quy yếu nhanh. Bài viết hướng dẫn che xe, chọn chỗ đỗ và chăm sóc xe mùa nắng.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "tia cực tím",
+   "áp suất lốp",
+   "dầu máy",
+   "ắc quy",
+   "nước làm mát",
+   "áo che xe"
+  ],
+  "keywords": [
+   "bảo vệ xe máy dưới nắng",
+   "che xe máy ngoài trời",
+   "đỗ xe máy mùa nắng",
+   "xe máy phơi nắng hại gì",
+   "áp suất lốp mùa nóng",
+   "chăm sóc xe máy mùa hè"
+  ],
+  "summary": "Mùa nắng nóng là mùa xe máy già nhanh nhất: một chiếc xe phơi ngoài trời suốt mùa hè chịu cùng lúc hàng loạt quá trình lão hóa — sơn và nhựa bị tia cực tím phá cấu trúc, lốp bị nhiệt và ozone làm chai cứng, dầu máy thoái hóa nhanh hơn trong máy nóng, ắc quy ba"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-oto/thue-o-to-co-tai-xe-dieu-can-biet/",
   "title": "Thuê ô tô có tài xế: những điều cần biết",
   "description": "Thuê ô tô có tài xế: cấu trúc chi phí theo chuyến và theo ngày, điều khoản hợp đồng, giờ nghỉ của tài xế và cách phối hợp lịch trình để chuyến đi suôn sẻ.",
