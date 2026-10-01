@@ -2666,6 +2666,66 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-trong-hem-pho-hep-luu-y/",
+  "title": "Đi xe máy trong hẻm phố hẹp: lưu ý an toàn",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Hẻm là nơi xe máy va chạm nhiều nhất nhưng ít khi va chết người — và chính vì thế mà nó bị xem thường: các cú va hẻm là những tổn thất nhỏ kéo dài cả thập kỷ, từ gương gãy, chắn quẹt, đến các vụ ngã nhẹ khi gạt đỡ một đứa trẻ lao từ cổng ra. Đặc trưng nguy hiểm của hẻm không nằm ở tốc độ — tốc độ trong hẻm vốn thấp — mà nằm ở mặt cắt thông tin: giao lộ hẻm bị hai bức tường chắn tầm nhìn, cổng nhà mở ra bất cứ lúc nào không có đèn báo trước, xe ngược chiều và xe đạp điện đi ngược chiều thuận theo thói quen, và người đi bộ coi hẻm là sân nhà — mọi hành vi của họ đều hợp lý trong mắt họ và bất ngờ trong mắt người đi đường. Bài viết này đi theo cấu trúc của một chuyến đi hẻm: trước hết là nguyên tắc nền — hẻm là không gian chung, không phải lối tắt riêng của xe máy, và tốc độ phải theo tầm nhìn chứ không theo độ rộng đường; rồi phần quan sát — cách đọc tường, góc mù, bóng đổ và tiếng động để bù cho những gì mắt không thấy được; phần xử lý giao nhau — ai nhường ai, đứng ở đâu, để xe ngược chiều qua như thế nào cho không biến thành cú dằng co phe; phần những chủ thể đặc thù của hẻm — trẻ em, người già, xe ba gác, chó nằm giữa đường, cửa mở; và phần cuối là văn hóa dừng đỗ trong hẻm — vì phần lớn cãi vã và cú quẹt trong hẻm không đến từ lúc hai xe chạy, mà từ lúc một xe đỗ không đúng chỗ. Thông điệp xuyên suốt: trong hẻm, người chậm nhất và quan sát nhất là người về nhà không phải đền gương xe ai.",
+  "quickAnswer": "Trả lời ngắn: đi xe máy trong hẻm hẹp, tốc độ phải theo tầm nhìn — qua mỗi giao nhau mù, cổng nhà, góc tường, hạ tốc về mức mà nếu có người lao ra thì mình dừng được trong khoảng trống nhìn thấy trước mũi xe. Đi sát phải phần đường của mình, còi bấm ngắn khi qua giao mù thay vì phóng qua nhờ may; đầu ngóc cao hơn thân xe để nhìn qua tường và qua nóc xe đỗ. Gặp xe ngược chiều trong hẻm chật: xe nào gần chỗ rộng hơn thì nhường trước, không tiến thêm nửa mét nữa để tranh — cú kẹt giữa hai xe trong hẻm là tổn thương sơn rẻ nhất và cãi nhau đắt nhất. Trẻ em và người già là luật bất ngờ: qua nhà có trẻ em chơi trước cổng thì coi như cổng đó sắp nhả ra một người — buông ga sẵn. Chó nằm giữa đường không phải chướng ngại để né, là chướng ngại để dừng. Và dừng đỗ trong hẻm: sát mép, không chắn cổng, không chắn lối đi bộ — vì mọi chuyến đi tiếp theo trong hẻm đều bị chính cách xe mình đỗ định hình lại.",
+  "keyPoints": [
+   "Tốc độ trong hẻm đo bằng tầm nhìn chứ không bằng độ rộng đường: qua giao mù và cổng nhà, đi với tốc độ dừng được trong khoảng mình nhìn thấy trước mũi xe.",
+   "Đầu ngóc cao, mắt đọc tường và bóng đổ: góc mù hẻm hiện ra trước bằng bóng và tiếng, không phải bằng mắt trực tiếp.",
+   "Gặp xe ngược chiều trong hẻm chật: ai gần chỗ rộng hơn nhường trước — tiến thêm để tranh nửa mét là tự kẹt cả hai.",
+   "Cổng nhà có trẻ em hoặc người già: buông ga từ xa và coi như cổng sắp nhả người ra; hẻm là sân nhà của họ, mình chỉ là xe đi qua."
+  ],
+  "entities": [
+   "hẻm hẹp",
+   "góc mù",
+   "giao nhau trong hẻm",
+   "cổng nhà",
+   "trẻ em trong hẻm",
+   "dừng đỗ trong hẻm"
+  ],
+  "keywords": [
+   "đi xe máy trong hẻm",
+   "an toàn hẻm hẹp",
+   "giao nhau trong hẻm",
+   "xe máy hẻm nhỏ",
+   "góc mù trong hẻm",
+   "đỗ xe trong hẻm"
+  ]
+ },
+ {
+  "url": "learn/ky-thuat-lai-xe/cach-tinh-khoang-cach-dung-an-toan-theo-toc-do/",
+  "title": "Cách tính khoảng cách dừng an toàn theo tốc độ",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "summary": "Hầu hết người đi xe máy không biết mình cần bao nhiêu mét để dừng xe ở tốc độ đang đi — họ chỉ biết sau khi đã cần tới số mét đó mà không còn. Khoảng cách dừng không phải một con số học thuộc, mà là một phép tính hai thành phần: quãng đường phản ứng — phần xe vẫn chạy đều trong một giây mắt nhìn thấy, não nhận ra, tay bóp phanh; cộng quãng phanh thật — phần xe ăn phanh kéo tốc độ về không. Cả hai thành phần đều phụ thuộc tốc độ, và phụ thuộc theo kiểu người ta ít ngờ: tốc độ tăng gấp đôi thì quãng phanh tăng gần gấp bốn, vì năng lượng chuyển động tăng theo bình phương. Bài viết này mở phép tính ra từng bước: cách ước quãng phản ứng bằng giây và bằng cột mốc đường quen; quãng phanh thay đổi thế nào theo tốc độ, mặt đường khô hay ướt, lốp mòn hay còn gai, phanh đĩa hay phanh cơm; cách đếm khoảng cách theo giây trên đường thật — quy tắc ba giây và vì sao đường ướt cần bốn giây; khoảng cách theo quy định giao thông hiện hành với xe máy; và cuối cùng là phần biến phép tính thành phản xạ: cách tự thử quãng phanh của chính chiếc xe mình ở bãi trống, để con số trong sách thành con số của chiếc xe mình đang cầm. Thông điệp xuyên suốt: khoảng cách an toàn không mua ở cửa hàng, nó tính trên tay lái mỗi ngày, bằng tốc độ mình chọn và khoảng trống mình giữ.",
+  "quickAnswer": "Trả lời ngắn: khoảng cách dừng an toàn bằng quãng phản ứng cộng quãng phanh. Quãng phản ứng ước nhanh theo công thức nhân đôi: đi ba mươi ki-lô-mét giờ thì một giây chạy được khoảng tám mét; ở sáu mươi thì mười sáu mét — đó là phần đường xe vẫn tiến đều từ lúc mắt thấy tới lúc phanh bắt đầu ăn. Quãng phanh thì tăng theo bình phương tốc độ: tốc độ tăng gấp đôi thì quãng phanh tăng gần gấp bốn, và trên đường ướt nhân thêm khoảng một phần tư tới một phần ba. Cách dùng hàng ngày là quy tắc ba giây: chọn một mốc phía trước — cột, vạch, bóng cây — đếm mười một, mười hai, ba; nếu mũi xe tới mốc trước khi đếm xong thì đang quá gần xe trước, nhả ga ra sau. Đường mưa, đường trơn, đêm tối thì bốn giây trở lên. Với quy định, luật giao thông đường bộ hiện hành yêu cầu xe tham gia giao thông giữ khoảng cách an toàn thích hợp với tốc độ và mật độ xe phía trước để không va vào xe trước khi phanh gấp — con số cụ thể do chủ xe tự tính theo điều kiện thật. Và cách đáng tin nhất: ra bãi trống, tự thử một cú phanh ở tốc độ mình hay đi — biết quãng phanh thật của xe mình tốt hơn mọi con số trung bình.",
+  "keyPoints": [
+   "Khoảng cách dừng bằng quãng phản ứng cộng quãng phanh — hai phần đều tăng theo tốc độ, và quãng phanh tăng theo bình phương: nhanh gấp đôi là phanh gần gấp bốn.",
+   "Quãng phản ứng ước nhanh theo tốc độ: ba mươi ki-lô-mét giờ chạy khoảng tám mét mỗi giây; sáu mươi thì mười sáu mét — đó là phần đường đi trong lúc mắt thấy nhưng tay chưa kịp bóp.",
+   "Quy tắc ba giây giữ khoảng với xe trước: chọn mốc, đếm ba giây; đường ướt, trơn, tối thì bốn giây trở lên.",
+   "Quãng phanh thay đổi theo mặt đường và lốp: đường ướt, lốp mòn, phanh chỉnh kém cộng dồn — tự thử xe mình ở bãi trống mới biết con số thật."
+  ],
+  "entities": [
+   "khoảng cách dừng",
+   "quãng phản ứng",
+   "quãng phanh",
+   "quy tắc ba giây",
+   "lốp xe",
+   "phanh gấp"
+  ],
+  "keywords": [
+   "khoảng cách dừng xe máy",
+   "quãng phanh theo tốc độ",
+   "quy tắc ba giây",
+   "khoảng cách an toàn xe máy",
+   "tính quãng phanh",
+   "phanh gấp đường ướt"
+  ]
+ },
+ {
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "category": "Hướng dẫn",

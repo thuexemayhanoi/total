@@ -2508,11 +2508,13 @@
    "title": "Đi xe máy trong hẻm phố hẹp: lưu ý an toàn",
    "primaryIntent": "informational/di-xe-may-trong-hem-pho-hep-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T15:29:41.218Z",
-   "updatedAt": "2026-10-01T15:29:41.220Z"
+   "updatedAt": "2026-10-01T15:35:20.570Z",
+   "seoScore": 100,
+   "words": 3275
   },
   {
    "id": "S00172",
@@ -2521,11 +2523,13 @@
    "title": "Cách tính khoảng cách dừng an toàn theo tốc độ",
    "primaryIntent": "informational/cach-tinh-khoang-cach-dung-an-toan-theo-toc-do",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T15:29:41.299Z",
-   "updatedAt": "2026-10-01T15:29:41.301Z"
+   "updatedAt": "2026-10-01T15:35:20.570Z",
+   "seoScore": 100,
+   "words": 3271
   }
  ]
 }
