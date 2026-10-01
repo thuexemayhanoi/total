@@ -3721,5 +3721,55 @@
    "xả khí dầu phanh"
   ],
   "summary": "Phanh đĩa và phanh tang trống có dầu phanh là cụm nhiều người đánh giá ngược chiều: thấy phanh còn ăn là tưởng dầu còn tốt, trong khi dầu phanh là một trong số ít chất lỏng trên xe có tuổi thọ thật sự — nó hút ẩm từ không khí qua gioăng, van và thành bình chứa"
+ },
+ {
+  "kind": "article",
+  "url": "learn/doc-thong-so/cong-suat-va-mo-men-xoan-khac-nhau-the-nao/",
+  "title": "Công suất và mô-men xoắn khác nhau thế nào",
+  "description": "Mô-men xoắn là lực quay tại trục khuỷu, công suất là tốc độ tạo ra lực đó. Bài viết giải thích hai chỉ số, cách đọc và ý nghĩa thực tế khi chọn xe máy.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "entities": [
+   "công suất",
+   "mô-men xoắn",
+   "vòng tua máy",
+   "trục khuỷu",
+   "đường cong mô-men",
+   "dải vòng tua"
+  ],
+  "keywords": [
+   "công suất và mô-men xoắn",
+   "mô-men xoắn là gì",
+   "đọc thông số xe máy",
+   "công suất xe máy",
+   "vòng tua máy",
+   "chọn xe theo mô-men"
+  ],
+  "summary": "Trên thông số kỹ thuật của mọi chiếc xe máy đều có hai con số được in cạnh nhau — công suất và mô-men xoắn — và đây cũng là cặp chỉ số bị hiểu lầm nhiều nhất: người mua xe so công suất như so điểm, tưởng con số to hơn là xe mạnh hơn, trong khi hai chỉ số này đ"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/piston-xilanh-xe-may-cau-tao-va-dau-hieu-mon/",
+  "title": "Piston và xy-lanh xe máy: cấu tạo và dấu hiệu mòn",
+  "description": "Piston và xy-lanh là trái tim của động cơ xe máy, chịu nhiệt và áp suất cực đại mỗi vòng quay. Bài viết giải thích cấu tạo, xéc-măng và dấu hiệu mòn.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "piston",
+   "xy-lanh",
+   "xéc-măng",
+   "thanh truyền",
+   "áp suất nén",
+   "lọc gió"
+  ],
+  "keywords": [
+   "piston xy-lanh xe máy",
+   "cấu tạo piston xe máy",
+   "dấu hiệu mòn xy-lanh",
+   "xéc-măng xe máy",
+   "đo áp suất nén",
+   "xe hao nhớt thổi khói"
+  ],
+  "summary": "Piston và xy-lanh là cặp chi tiết làm việc nặng nhất trong động cơ xe máy: mỗi phút, piston đi lên đi xuống hàng nghìn lần, chịu nhiệt độ cháy cao và áp suất nén lớn, vừa phải kín khí vừa phải trượt mượt trong xy-lanh với lớp dầu mỏng vài mi-li-mét phần trăm. "
  }
 ]

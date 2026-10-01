@@ -2264,5 +2264,65 @@
    "điểm sôi dầu phanh",
    "xả khí dầu phanh"
   ]
+ },
+ {
+  "url": "learn/doc-thong-so/cong-suat-va-mo-men-xoan-khac-nhau-the-nao/",
+  "title": "Công suất và mô-men xoắn khác nhau thế nào",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Trên thông số kỹ thuật của mọi chiếc xe máy đều có hai con số được in cạnh nhau — công suất và mô-men xoắn — và đây cũng là cặp chỉ số bị hiểu lầm nhiều nhất: người mua xe so công suất như so điểm, tưởng con số to hơn là xe mạnh hơn, trong khi hai chỉ số này đo hai thuộc tính khác nhau của cùng một động cơ. Mô-men xoắn là lực quay mà trục khuỷu tạo ra ở một vòng quay — nó quyết định cảm giác giật bánh khi vặn ga, khả năng leo dốc chở nặng và độ dứt khoát khi xuất phát. Công suất là tốc độ làm việc — mô-men nhân với tốc độ quay — nó quyết định xe đạt được vận tốc cao nhất và duy trì tốc độ đó ra sao. Bài viết này giải thích hai khái niệm bằng hình ảnh đời thường: mô-men là độ mạnh của một cú vặn, công suất là tần suất vặn liên tục; cách đọc hai con số đúng — kèm đơn vị và vòng tua đi kèm mới có nghĩa; vì sao xe tay ga có mô-men tối đa ở vòng tua thấp tạo cảm giác bốc ở phố trong khi xe số thể thao đòi lấy ga cao mới có lực; và ý nghĩa thực tế khi chọn xe theo mục đích dùng: chở hàng leo dốc thì ưu tiên mô-men, chạy đường trường nhanh thì cần công suất. Bài cũng nhắc các hiểu lầm phổ biến như so công suất của hai loại xe khác kiểu máy, hoặc tưởng tăng công suất bằng việc lắp ống xả thể thao mà không hiểu nó chỉ đổi hình dáng đường cong công suất chứ không thêm lực.",
+  "quickAnswer": "Trả lời ngắn: mô-men xoắn là lực quay tại trục khuỷu — đơn giản là độ bốc khi vặn ga ở vòng tua đó; công suất là tốc độ làm việc của lực đó — mô-men nhân với vòng tua. Vì vậy mô-men quyết định giật bánh, leo dốc, chở nặng — những việc cần lực tại số thấp; công suất quyết định tốc độ tối đa và khả năng giữ tốc độ cao — những việc cần lực được tạo liên tục thật nhanh. Khi đọc thông số, luôn xem kèm vòng tua đi liền con số: mô-men lớn tại vòng tua thấp là xe bốc ở phố; mô-men ngang nhưng tại vòng tua cao là xe khỏe ở dải cao, hợp đường trường. Chọn xe theo mục đích: đi phố chở hàng leo dốc ưu tiên mô-men sớm và dải vòng tua thấp; chạy xa nhanh ưu tiên công suất và dải mô-men trải rộng. Hai con số không so trực tiếp giữa các loại máy khác nhau — xe ga được chỉnh dải cao có thể công suất cao nhưng ga thấp đuối, và cảm giác lái phụ thuộc đường cong mô-men cả dải chứ không phụ thuộc một đỉnh số.",
+  "keyPoints": [
+   "Mô-men xoắn là lực quay tại trục khuỷu: quyết định giật bánh, leo dốc, chở nặng.",
+   "Công suất là tốc độ làm việc của lực đó: quyết định tốc độ tối đa và giữ tốc độ.",
+   "Luôn đọc kèm vòng tua đi liền con số — một con số mô-men không kèm vòng tua là con số mù.",
+   "Mô-men sớm ở vòng tua thấp hợp đi phố; mô-men ở dải cao hợp đường trường nhanh."
+  ],
+  "entities": [
+   "công suất",
+   "mô-men xoắn",
+   "vòng tua máy",
+   "trục khuỷu",
+   "đường cong mô-men",
+   "dải vòng tua"
+  ],
+  "keywords": [
+   "công suất và mô-men xoắn",
+   "mô-men xoắn là gì",
+   "đọc thông số xe máy",
+   "công suất xe máy",
+   "vòng tua máy",
+   "chọn xe theo mô-men"
+  ]
+ },
+ {
+  "url": "wiki/dong-co/piston-xilanh-xe-may-cau-tao-va-dau-hieu-mon/",
+  "title": "Piston và xy-lanh xe máy: cấu tạo và dấu hiệu mòn",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "summary": "Piston và xy-lanh là cặp chi tiết làm việc nặng nhất trong động cơ xe máy: mỗi phút, piston đi lên đi xuống hàng nghìn lần, chịu nhiệt độ cháy cao và áp suất nén lớn, vừa phải kín khí vừa phải trượt mượt trong xy-lanh với lớp dầu mỏng vài mi-li-mét phần trăm. Bài viết này giải thích cấu tạo của cặp chi tiết đó: thân piston với các đường rãnh lắp xéc-măng, chốt piston nối với thanh truyền, và thành xy-lanh được mạ hoặc lót lớp chống mài mòn; vai trò của từng lá xéc-măng — lá khí kín buồng đốt, lá dầu gạt ngược — và vì sao khoảng hở giữa piston và xy-lanh tính bằng phần trăm mi-li-mét lại quyết định cả tuổi thọ lẫn tiếng máy. Từ cấu tạo, bài mô tả quá trình mòn tự nhiên theo cây số: thành xy-lanh mòn thành hình oval, xéc-măng mòn mép, khoảng hở mở dần thành tiếng gõ khi máy nguội và khó nổ khi máy nóng; các nguyên nhân làm mòn nhanh ngoài chu kỳ: nhớt kém, nghèo xăng chạy lâu gây nóng, lọc gió hở hút bụi, hoặc nước vào máy. Phần cuối hướng dẫn cách nhận biết dấu hiệu mòn từ ngoài máy — máy thổi khói xanh, hao nhớt đều, máy yếu, tiếng kêu gõ khi nguội mất dần khi nóng — và cách kiểm tra chuẩn bằng đồng hồ đo áp suất nén, kèm những việc nên làm khi phát hiện sớm so với hậu quả của việc để muộn.",
+  "quickAnswer": "Trả lời ngắn: piston là chi tiết trượt lên xuống trong xy-lanh, nhận lực cháy đẩy xuống truyền sang trục khuỷu; xy-lanh là ống chứa, thành trong nhẵn bóng để piston trượt với lớp dầu mỏng. Kín khí giữa hai chi tiết này nhờ các lá xéc-măng đàn hồi ép sát thành xy-lanh. Mòn diễn ra tự nhiên theo cây số: thành xy-lanh mở rộng và hơi oval, xéc-măng mòn mép, kết quả là khí lọt xuống các-te, nhớt lọt lên buồng đốt. Dấu hiệu nhận biết: máy thổi khói xanh đặc khi ga, hao nhớt đều đặn không thấy rò, máy yếu và khó nổ khi trời nóng, và tiếng gõ lỏng khi máy nguội mất dần khi máy nóng lên. Kiểm tra chuẩn là đo áp suất nén bằng đồng hồ: con số thấp hơn ngưỡng khuyến nghị của hãng, hoặc chênh lệch giữa hai xy-lanh trên xe hai xy-lanh, là bằng chứng mòn thật. Muốn mòn chậm: thay nhớt đúng loại và đúng chu kỳ, giữ lọc gió sạch, không chạy liên tục ga đầy, không để máy nghèo xăng chạy nóng. Khi đã mòn: sửa sớm bằng bộ chi tiết kích cỡ tăng cấp theo tiêu chuẩn sửa chữa của hãng, rẻ hơn nhiều so với để xy-lanh nứt hoặc piston bó chết giữa đường.",
+  "keyPoints": [
+   "Piston nhận lực cháy, truyền qua thanh truyền sang trục khuỷu; xy-lanh là ống dẫn piston với thành trong bóng nhẵn.",
+   "Xéc-măng ép sát thành xy-lanh giữ kín khí và gạt dầu; mòn xéc-măng là mòn nhanh nhất của cặp chi tiết này.",
+   "Mòn tự nhiên: xy-lanh mở rộng và oval theo thời gian, khoảng hở piston mở dần thành tiếng gõ và hao nhớt.",
+   "Dấu hiệu ngoài máy: khói xanh khi ga, hao nhớt không rò, máy yếu, gõ khi nguội mất dần khi nóng."
+  ],
+  "entities": [
+   "piston",
+   "xy-lanh",
+   "xéc-măng",
+   "thanh truyền",
+   "áp suất nén",
+   "lọc gió"
+  ],
+  "keywords": [
+   "piston xy-lanh xe máy",
+   "cấu tạo piston xe máy",
+   "dấu hiệu mòn xy-lanh",
+   "xéc-măng xe máy",
+   "đo áp suất nén",
+   "xe hao nhớt thổi khói"
+  ]
  }
 ]

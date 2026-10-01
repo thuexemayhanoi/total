@@ -1068,11 +1068,13 @@
    "title": "Công suất và mô-men xoắn khác nhau thế nào",
    "primaryIntent": "informational/cong-suat-va-mo-men-xoan-khac-nhau-the-nao",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:15:53.779Z",
-   "updatedAt": "2026-10-01T00:15:53.781Z"
+   "updatedAt": "2026-10-01T00:18:15.821Z",
+   "seoScore": 100,
+   "words": 2454
   },
   {
    "id": "S00076",
@@ -1081,11 +1083,13 @@
    "title": "Piston và xy-lanh xe máy: cấu tạo và dấu hiệu mòn",
    "primaryIntent": "informational/piston-xilanh-xe-may-cau-tao-va-dau-hieu-mon",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:15:53.862Z",
-   "updatedAt": "2026-10-01T00:15:53.864Z"
+   "updatedAt": "2026-10-01T00:18:15.821Z",
+   "seoScore": 100,
+   "words": 2462
   }
  ]
 }
