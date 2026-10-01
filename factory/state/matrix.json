@@ -2028,11 +2028,13 @@
    "title": "Đi xe máy đường trơn dầu nhớt đổ",
    "primaryIntent": "informational/di-xe-may-duong-tron-dau-nhot",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:20:33.896Z",
-   "updatedAt": "2026-10-01T04:20:33.898Z"
+   "updatedAt": "2026-10-01T04:24:04.416Z",
+   "seoScore": 91,
+   "words": 2801
   },
   {
    "id": "S00140",
@@ -2041,11 +2043,13 @@
    "title": "Cân bằng bánh xe máy: thời điểm và kỹ thuật",
    "primaryIntent": "informational/can-bang-banh-xe-may-thoi-diem-va-thoi-quen",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:20:33.982Z",
-   "updatedAt": "2026-10-01T04:20:33.984Z"
+   "updatedAt": "2026-10-01T04:24:04.416Z",
+   "seoScore": 100,
+   "words": 3002
   }
  ]
 }
