@@ -1660,6 +1660,32 @@
    "updatedAt": "2026-10-01T02:04:19.780Z",
    "seoScore": 91,
    "words": 3023
+  },
+  {
+   "id": "S00115",
+   "hub": "guide/thu-tuc-xe",
+   "slug": "dang-kiem-xe-may-quy-trinh-va-luu-y",
+   "title": "Đăng kiểm xe máy: quy trình và lưu ý",
+   "primaryIntent": "informational/dang-kiem-xe-may-quy-trinh-va-luu-y",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-01T02:06:28.857Z",
+   "updatedAt": "2026-10-01T02:06:28.859Z"
+  },
+  {
+   "id": "S00116",
+   "hub": "market/gia-xe-moi",
+   "slug": "chi-phi-lan-banh-xe-may-moi-gom-nhung-gi",
+   "title": "Chi phí lăn bánh xe máy mới gồm những gì",
+   "primaryIntent": "informational/chi-phi-lan-banh-xe-may-moi-gom-nhung-gi",
+   "notes": "",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-01T02:06:28.947Z",
+   "updatedAt": "2026-10-01T02:06:28.949Z"
   }
  ]
 }
