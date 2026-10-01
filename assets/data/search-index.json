@@ -3271,6 +3271,56 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/lai-xe-sau-khi-dung-thuoc-luu-y/",
+  "title": "Lái xe sau khi dùng thuốc: lưu ý",
+  "description": "Thuốc cảm, dị ứng, giảm đau, an thần đều có thể làm buồn ngủ và chậm phản xạ khi lái. Bài viết giúp nhận nhóm thuốc rủi ro và bố trí lịch dùng an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "thuốc kháng histamin",
+   "suy giảm khả năng lái",
+   "tương tác thuốc",
+   "buồn ngủ",
+   "tờ hướng dẫn sử dụng",
+   "liều đầu tiên"
+  ],
+  "keywords": [
+   "lái xe sau khi uống thuốc",
+   "thuốc cảm và lái xe",
+   "thuốc gây buồn ngủ khi lái",
+   "suy giảm khả năng lái",
+   "thuốc dị ứng lái xe máy",
+   "ốm có nên lái xe"
+  ],
+  "summary": "Chuyện lái xe sau khi uống rượu bia đã được nói nhiều, nhưng nhóm tác nhân gây suy giảm khả năng lái phổ biến thứ hai lại âm thầm hơn nhiều: thuốc. Thuốc cảm thông thường có chứa thành phần kháng histamin gây buồn ngủ; thuốc dị ứng không kê đơn có thể khiến mắ"
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/di-xe-may-qua-pha-trinh-tu-va-luu-y/",
+  "title": "Đi xe máy qua phà: trình tự và lưu ý",
+  "description": "Qua phà bằng xe máy có trình tự riêng: mua vé, lên tàu, dựng xe chống giữa khi tàu lắc và xuống theo hiệu lệnh. Bài viết hướng dẫn từng bước cho người mới đi phà.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "bến phà",
+   "mạn tàu",
+   "gác giữa",
+   "vé phà",
+   "chiêng tàu",
+   "khe mạn bến"
+  ],
+  "keywords": [
+   "đi phà bằng xe máy",
+   "quy trình đi phà xe máy",
+   "dựng xe trên phà",
+   "lên xuống tàu an toàn",
+   "đi phà lần đầu",
+   "xe máy qua sông"
+  ],
+  "summary": "Ở những vùng sông nước miền Tây và dọc các tuyến quốc lộ cắt qua sông lớn, phà vẫn là một mắt xích giao thông hằng ngày: sáng ngược chiều quê, chiều lại qua phà về chợ, và người đi xe máy thường là nhóm đông nhất trên mỗi chuyến. Nhìn người quen quá dễ — xe tấ"
+ },
+ {
+  "kind": "article",
   "url": "guide/xu-ly-su-co/xe-may-khong-no-may-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe máy không nổ máy: nguyên nhân và cách xử lý",
   "description": "Xe máy không nổ máy: cách chẩn đoán theo trình tự nhiên liệu - điện - cơ khí, các nguyên nhân phổ biến và khi nào cần gọi hỗ trợ thay vì sửa tại chỗ.",

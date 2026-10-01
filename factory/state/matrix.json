@@ -2088,11 +2088,13 @@
    "title": "Lái xe sau khi dùng thuốc: lưu ý",
    "primaryIntent": "informational/lai-xe-sau-khi-dung-thuoc-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:31:25.688Z",
-   "updatedAt": "2026-10-01T04:31:25.691Z"
+   "updatedAt": "2026-10-01T04:34:47.649Z",
+   "seoScore": 91,
+   "words": 3006
   },
   {
    "id": "S00144",
@@ -2101,11 +2103,13 @@
    "title": "Đi xe máy qua phà: trình tự và lưu ý",
    "primaryIntent": "informational/di-xe-may-qua-pha-trinh-tu-va-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:31:25.777Z",
-   "updatedAt": "2026-10-01T04:31:25.779Z"
+   "updatedAt": "2026-10-01T04:34:47.649Z",
+   "seoScore": 91,
+   "words": 2793
   }
  ]
 }
