@@ -2441,6 +2441,56 @@
  },
  {
   "kind": "article",
+  "url": "docs/checklist/checklist-kiem-tra-xe-may-hang-tuan/",
+  "title": "Checklist kiểm tra xe máy hàng tuần",
+  "description": "Checklist kiểm tra xe máy hàng tuần: lốp, phanh, nhớt, đèn, xích, ắc quy và các điểm siết — mười phút mỗi tuần giữ xe khỏe quanh năm.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [
+   "checklist xe máy",
+   "kiểm tra định kỳ",
+   "áp suất lốp",
+   "phanh",
+   "nhớt máy",
+   "bảo dưỡng xe máy"
+  ],
+  "keywords": [
+   "checklist xe máy",
+   "kiểm tra xe máy hàng tuần",
+   "bảo dưỡng xe máy định kỳ",
+   "kiểm tra lốp áp suất",
+   "kiểm tra phanh xe máy",
+   "điểm kiểm xe mỗi tuần"
+  ],
+  "summary": "Một buổi bảo dưỡng tại xưởng bắt đầu từ một thói quen mười phút mỗi tuần ở nhà: vòng quanh xe, sáu bảy điểm kiểm, và gần như toàn bộ hỏng hóc lớn đều được bắt gặp ở dạng vết mờ trước khi thành sự cố. Bài viết này là bản checklist hàng tuần đầy đủ, viết theo tr"
+ },
+ {
+  "kind": "article",
+  "url": "guide/bao-duong/thay-loc-gio-xe-may-khi-nao-va-cach-lam/",
+  "title": "Thay lọc gió xe máy: khi nào và cách làm",
+  "description": "Thay lọc gió xe máy: chu kỳ theo cây số và môi trường, dấu hiệu lọc bẩn, phân biệt lọc giấy và lọc bọt, quy trình thay và vệ sinh đúng cách.",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "entities": [
+   "lọc gió",
+   "bộ lọc không khí",
+   "bảo dưỡng xe máy",
+   "buồng đốt",
+   "hỗn hợp nhiên liệu",
+   "hao xăng"
+  ],
+  "keywords": [
+   "thay lọc gió xe máy",
+   "chu kỳ thay lọc gió",
+   "dấu hiệu lọc gió bẩn",
+   "vệ sinh lọc gió xe",
+   "lọc gió giấy và bọt",
+   "lọc không khí xe máy"
+  ],
+  "summary": "Lọc gió là lá phổi của động cơ: mỗi cây số chạy, nó hớt hàng nghìn lít không khí — và cùng với không khí là bụi, cát, côn trùng — giữ lại mọi thứ ngoài trừ không khí sạch. Khi lá phổi bẩn, ba hệ quả dây chuyền: không khí vào kém làm máy hụt hơi, hỗn hợp cháy l"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/",
   "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
   "description": "Thuê xe máy chở đồ cồng kềnh: cách chọn xe phù hợp tải trọng, buộc và gia cố hàng đúng kỹ thuật, quy định chở hàng và vận hành an toàn trên đường.",

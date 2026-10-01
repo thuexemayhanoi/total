@@ -1638,11 +1638,13 @@
    "title": "Checklist kiểm tra xe máy hàng tuần",
    "primaryIntent": "informational/checklist-kiem-tra-xe-may-hang-tuan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:59:19.886Z",
-   "updatedAt": "2026-10-01T01:59:19.888Z"
+   "updatedAt": "2026-10-01T02:04:19.780Z",
+   "seoScore": 100,
+   "words": 2836
   },
   {
    "id": "S00114",
@@ -1651,11 +1653,13 @@
    "title": "Thay lọc gió xe máy: khi nào và cách làm",
    "primaryIntent": "informational/thay-loc-gio-xe-may-khi-nao-va-cach-lam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:59:19.974Z",
-   "updatedAt": "2026-10-01T01:59:19.976Z"
+   "updatedAt": "2026-10-01T02:04:19.780Z",
+   "seoScore": 91,
+   "words": 3023
   }
  ]
 }

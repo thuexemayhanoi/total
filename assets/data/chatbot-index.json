@@ -733,6 +733,66 @@
   ]
  },
  {
+  "url": "docs/checklist/checklist-kiem-tra-xe-may-hang-tuan/",
+  "title": "Checklist kiểm tra xe máy hàng tuần",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "summary": "Một buổi bảo dưỡng tại xưởng bắt đầu từ một thói quen mười phút mỗi tuần ở nhà: vòng quanh xe, sáu bảy điểm kiểm, và gần như toàn bộ hỏng hóc lớn đều được bắt gặp ở dạng vết mờ trước khi thành sự cố. Bài viết này là bản checklist hàng tuần đầy đủ, viết theo trình tự đi vòng một quanh xe. Nhóm một — chân xe: áp suất lốp bằng đo hoặc bóp khi chưa có đồng hồ, soi mặt lốp vết cắm đinh mòn gai, căng xích bằng ngón giữa điểm giữa xích, và bôi trơn xích nếu khô. Nhóm hai — phanh và nhớt: độ rãnh má phanh, độ căng cần phanh tay, độ nhún của pedal phanh chân, và que nhớt máy — mức, màu, và vết dưới gầm sau đêm đỗ. Nhóm ba — điện và đèn: còi, xi nhan trái phải, đèn pha cốt, đèn phanh sáng khi bóp phanh, chì sáng khỏe. Nhóm bốn — tiếng và cảm giác: chạy máy nghe tiếng lạ, vặn tay ga nghe đều, giữ phanh trước đẩy nhẹ xe cảm nhận độ cứng. Nhóm năm — điểm siết và độ: ốc gương, ốc biển số, độ căng dây ga và dây côn. Trình tự thực dụng: làm cùng một thứ tự mỗi tuần — vòng từ trái sang phải quanh xe — để vị trí nào bị bỏ quên thì tuần sau tự lộ; và ghi nhận nhanh các điểm hao mòn theo thời gian như má phanh, lốp, xích để biết nhịp thay của riêng chiếc xe mình. Bài chốt bằng cách lưu checklist: in một tờ dán trong cốp hoặc lưu ảnh trong điện thoại, và tích từng dòng mỗi tuần — vì checklist không có tác dụng ở lần đầu, tác dụng nằm ở tuần thứ mười lăm khi mọi thứ đã thành phản xạ.",
+  "quickAnswer": "Trả lời ngắn: mười phút mỗi tuần, một vòng quanh xe theo thứ tự cố định, bảy nhóm điểm kiểm. Một, lốp: áp suất chuẩn theo má ống xe hoặc sách — đo, không bóp đoán; soi mặt lốp cắm đinh và mòn gai. Hai, xích: căng nhẹ ngón giữa điểm giữa xích, khô thì bôi trơn. Ba, phanh: má còn rãnh, cần phanh tay căng chắc, phanh chân nhún không quá mềm. Bốn, nhớt: que ở mức chuẩn, màu chưa đen kịt đục, nền đỗ qua đêm không có vết loang mới. Năm, đèn và còi: pha cốt sáng, xi nhan hai bên nhấp nháy, phanh sáng đèn, còi rõ. Sáu, điểm siết: gương, biển số, không nghe lục cục khi đẩy xe. Bảy, chạy máy một phút: nghe tiếng, vặn ga đều, không khói lạ. Làm theo cùng thứ tự mỗi tuần để không bỏ sót, và ghi nhanh những điểm hao mòn theo thời gian — má phanh, gai lốp, độ giãn xích — để biết nhịp thay của riêng xe mình trước khi hỏng giữa đường.",
+  "keyPoints": [
+   "Áp suất lốp kiểm hàng tuần khi lốp nguội theo số ghi trên má ống hoặc sách xe — đo bằng đồng hồ, không bóp đoán; kèm soi mặt lốp cắm đinh và mòn gai.",
+   "Xích xe: đặt ngón giữa điểm giữa xích kéo lên — độ giãn trong khoảng vài mi-li-mét là chuẩn; khô thì bôi trơn, quá giãn thì tới kỳ chỉnh hoặc thay.",
+   "Phanh kiểm ba điểm: má còn rãnh nhìn bằng mắt, cần phanh tay căng chắc không rãnh quá sâu, phanh chân nhấn không chạm sàn.",
+   "Que nhớt hàng tuần khi máy nguội: mức giữa hai vạch, màu chưa sẫm đục bất thường, và nền đỗ qua đêm sạch vết loang mới."
+  ],
+  "entities": [
+   "checklist xe máy",
+   "kiểm tra định kỳ",
+   "áp suất lốp",
+   "phanh",
+   "nhớt máy",
+   "bảo dưỡng xe máy"
+  ],
+  "keywords": [
+   "checklist xe máy",
+   "kiểm tra xe máy hàng tuần",
+   "bảo dưỡng xe máy định kỳ",
+   "kiểm tra lốp áp suất",
+   "kiểm tra phanh xe máy",
+   "điểm kiểm xe mỗi tuần"
+  ]
+ },
+ {
+  "url": "guide/bao-duong/thay-loc-gio-xe-may-khi-nao-va-cach-lam/",
+  "title": "Thay lọc gió xe máy: khi nào và cách làm",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "summary": "Lọc gió là lá phổi của động cơ: mỗi cây số chạy, nó hớt hàng nghìn lít không khí — và cùng với không khí là bụi, cát, côn trùng — giữ lại mọi thứ ngoài trừ không khí sạch. Khi lá phổi bẩn, ba hệ quả dây chuyền: không khí vào kém làm máy hụt hơi, hỗn hợp cháy lệch tỷ lệ làm tốn xăng và khó khởi động, và bụi lọt qua lọc hư thẳng vào buồng đốt mài mọi bề mặt kim loại. Bài viết này nói khi nào thay và thay thế nào cho đúng. Chu kỳ: sách xe ghi kỳ theo cây số cho mỗi dòng, nhưng môi trường chỉnh thực tế — xe đi đường bụi đỏ, công trường, mùa hanh khô thì kỳ rút ngắn; xe phố sạch thì theo kỳ chuẩn. Dấu hiệu lọc bẩn nhận ra không cần mở: máy hụt hơi tức thì khi vặn ga, hao xăng không rõ lý do, khó nổ buổi sáng dù điện tốt, và tháo ra thấy màu lọc chuyển từ trắng hồng sang nâu xám bụi. Hai loại lọc quyết định cách xử lý: lọc giấy sấy hay thổi là hỏng — giấy đã tẩm dầu giữ bụi, giặt là hủy cấu trúc, thay mới là con đường duy nhất; lọc bọt thì vệ sinh được bằng nước xà phòng loãng, sấy thật khô, thoa lại lớp dầu lọc theo hướng dẫn rồi cắm lại. Quy trình thay tự làm: mở nắp hộp lọc, nhớ thứ tự ốc, rút lọc cũ nhẹ nhàng tránh rắc bụi ngược vào đường hút, kiểm tra mặt lỗ hút sạch, cắm lọc mới đúng chiều, đóng hộp chắc. Sau cùng là hai lỗi hay gặp: mua lọc không đúng mã xe làm khe hở cho bụi lọt, và vệ sinh lọc giấy bằng gió nén áp mạnh làm rách lớp giấy — và cả hai đều biến lọc thành thứ trang trí trên đường hút của động cơ.",
+  "quickAnswer": "Trả lời ngắn: lọc gió bẩn làm máy hụt hơi, hao xăng, khó nổ — và lọc hư cho bụi vào buồng đốt mài thẳng động cơ. Ba việc cần nhớ. Một, chu kỳ: theo cây số ghi trong sách xe, rút ngắn nếu hay đi đường bụi — và dấu lọc bẩn thấy qua máy hụt hơi tức thì, hao xăng vô cớ, khó nổ sáng lạnh dù pin bugi tốt. Hai, phân biệt hai loại: lọc giấy chỉ thay mới — giặt hoặc thổi áp lực là hủy; lọc bọt vệ sinh được: rửa nước xà phòng loãng, sấy thật khô, thoa lại lớp dầu lọc, cắm lại đúng chiều. Ba, thay đúng mã xe và đúng chiều: lọc sai mã để lại khe hở cho bụi lọt, cắm ngược chiều làm kín kém — cả hai đều khiến mọi chuyện khác thành vô nghĩa. Tự làm được với chìa vặn: mở hộp lọc theo thứ tự ốc, rút nhẹ nhàng, lau mặt tiếp, cắm mới, đóng chắc — mười lăm phút cho một trong những việc bảo dưỡng rẻ nhất nhưng ảnh hưởng lớn nhất lên cảm giác máy và mức hao xăng.",
+  "keyPoints": [
+   "Chu kỳ thay lọc gió theo cây số ghi trong sách xe, rút ngắn khi hay đi đường bụi, công trường, mùa hanh — môi trường là biến số lớn nhất của kỳ thực tế.",
+   "Dấu hiệu lọc bẩn không cần mở hộp: máy hụt hơi khi vặn ga, hao xăng vô cớ, khó nổ sáng dù điện tốt — tháo xác nhận bằng màu lọc nâu xám bụi.",
+   "Lọc giấy chỉ thay mới: giặt là hủy lớp tẩm dầu, thổi gió nén áp mạnh làm rách giấy — không có chuyện vệ sinh tái sử dụng với lọc giấy.",
+   "Lọc bọt vệ sinh được đúng cách: rửa nước xà phòng loãng, sấy thật khô, thoa lại lớp dầu lọc theo hướng dẫn — lọc bọt ướt hoặc thiếu dầu lọc là lọc kém."
+  ],
+  "entities": [
+   "lọc gió",
+   "bộ lọc không khí",
+   "bảo dưỡng xe máy",
+   "buồng đốt",
+   "hỗn hợp nhiên liệu",
+   "hao xăng"
+  ],
+  "keywords": [
+   "thay lọc gió xe máy",
+   "chu kỳ thay lọc gió",
+   "dấu hiệu lọc gió bẩn",
+   "vệ sinh lọc gió xe",
+   "lọc gió giấy và bọt",
+   "lọc không khí xe máy"
+  ]
+ },
+ {
   "url": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/",
   "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
   "category": "Thuê xe",
