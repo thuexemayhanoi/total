@@ -50,7 +50,7 @@ jobs:
           echo "mode=$(echo "$out" | sed -n 's/^SCOPE_MODE=//p')" >> "$GITHUB_OUTPUT"
           echo "scope: mode=$(echo "$out" | sed -n 's/^SCOPE_MODE=//p') ids=$ids"
 
-      - name: Guard: factory state sạch (không lock, không txn, checkpoint khớp)
+      - name: "Guard: factory state sạch (không lock, không txn, checkpoint khớp)"
         if: steps.scope.outputs.ids != ''
         run: node factory/factory.js check-state
 
@@ -78,7 +78,7 @@ jobs:
             if [ "$ok" != "1" ]; then echo "KHÔNG push được state sau 3 lần"; exit 1; fi
           fi
 
-      - name: Cổng cuối: state sạch + backlog 0 + site sinh lại khớp
+      - name: "Cổng cuối: state sạch + backlog 0 + site sinh lại khớp"
         if: steps.scope.outputs.ids != ''
         run: |
           node factory/factory.js check-state
