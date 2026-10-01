@@ -2238,11 +2238,13 @@
    "title": "Đi xe máy trong mưa dông sét: né gió lốc và tìm chỗ trú",
    "primaryIntent": "informational/di-xe-may-trong-mua-dong-set-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:08:43.769Z",
-   "updatedAt": "2026-10-01T05:08:43.771Z"
+   "updatedAt": "2026-10-01T05:14:44.738Z",
+   "seoScore": 100,
+   "words": 3035
   },
   {
    "id": "S00154",
@@ -2251,11 +2253,13 @@
    "title": "Côn trùng bay vào mũ khi đi xe máy: xử lý an toàn",
    "primaryIntent": "informational/con-trung-bay-vao-mu-khi-di-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:08:43.855Z",
-   "updatedAt": "2026-10-01T05:08:43.857Z"
+   "updatedAt": "2026-10-01T05:14:44.738Z",
+   "seoScore": 100,
+   "words": 3064
   }
  ]
 }
