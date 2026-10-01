@@ -1398,11 +1398,13 @@
    "title": "Đèn pha xe máy mờ: nguyên nhân và xử lý",
    "primaryIntent": "informational/den-pha-xe-may-mo-nguyen-nhan-va-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:16:03.329Z",
-   "updatedAt": "2026-10-01T01:16:03.331Z"
+   "updatedAt": "2026-10-01T01:19:20.048Z",
+   "seoScore": 91,
+   "words": 2277
   },
   {
    "id": "S00098",
@@ -1411,11 +1413,13 @@
    "title": "Đi xe máy khi trời sương: tầm nhìn và tốc độ",
    "primaryIntent": "informational/di-xe-may-khi-troi-suong-tam-nhin-va-toc-do",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:16:03.418Z",
-   "updatedAt": "2026-10-01T01:16:03.420Z"
+   "updatedAt": "2026-10-01T01:19:20.048Z",
+   "seoScore": 100,
+   "words": 2397
   }
  ]
 }
