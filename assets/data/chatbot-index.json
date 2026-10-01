@@ -1185,6 +1185,66 @@
   ]
  },
  {
+  "url": "tips/meo-xu-ly-su-co/xe-may-sa-lay-thoat-khoi-bun-va-cat/",
+  "title": "Xe máy sa lầy: thoát khỏi bùn và cát",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Sa lầy là một trong những tình huống làm người lái xe máy mất phương án nhanh nhất: bánh xe lún xuống mặt bùn mềm hoặc cát khô, ga mạnh thêm làm bánh xoáy càng lún sâu, và chỉ sau vài giây sai lầm, xe đã nằm chôn nửa bánh với cả xe lẫn người bị mắc kẹt. Bài viết này trình bày cách nhận ra mặt đường sắp lún, kỹ thuật thoát xe khi đã lún, và những việc tuyệt đối không làm. Phần nhận biết và phòng tránh: dấu hiệu mặt bùn biết trước — vệt bánh xe nông hay sâu, mép đường lún hiển thị, bề mặt bóng loáng giữ nước; đọc địa hình đường đất sau mưa và chọn tuyến; và cách chạy qua đoạn lún ngắn khi chưa kịp dừng. Phần thoát xe khỏi bùn: quy tắc giảm ga ngay khi bánh bắt đầu xoay không tiến, xuống xe trước khi xe nghiêng, đệm vật cứng dưới bánh theo hướng ra, và kỹ thuật đưa xe ra theo hướng bánh xe đang nằm chứ không theo hướng đường đang muốn đi. Phần thoát xe khỏi cát lún: vì sao cát khô lún nhanh hơn bùn, kỹ thuật tăng diện tích tiếp xúc, giảm áp suất chênh trong phạm vi an toàn, và chạy nối đoạn cát dài. Phần những việc không làm: tăng ga khi bánh đã xoáy — hành vi tự đào hố cho xe; đổ nước vào lỗ bánh khiến bùn nhão thêm; và lượm người lên xe kéo theo té ngã chôn xe đè người. Phần sau khi thoát: kiểm tra xe trước khi chạy tiếp — phanh, xích, lọc gió bám bùn, và rửa xe đúng cách để bùn không bám khô thành lớp vỏ. Kết bài là trang bị tối thiểu nên mang khi hay đi đường đất: một tấm ván mỏng hoặc tấm gỗ gấp, dây cáp, găng tay, và nhận thức rằng xuống xe sớm luôn rẻ hơn kéo xe cả tiếng.",
+  "quickAnswer": "Trả lời ngắn: xe sa lầy thoát được trong vài phút nếu làm đúng ngay khoảnh khắc bánh bắt đầu xoay không tiến. Năm bước. Một, buông ga ngay — mọi nhát ga thêm sau khi bánh xoáy là một nhát đào sâu hố lún; đặt chân xuống đất giữ xe đứng. Hai, xuống xe trước khi bánh sau lún thêm và xe nghiêng, người ra hướng bên trọng lượng chưa nghiêng. Ba, quan sát hướng bánh xe đang nằm: thoát theo hướng ngang hoặc ngược ra mặt đường cứng gần nhất, không kéo thẳng theo hướng định đi nếu đó là hướng lún sâu. Bốn, đệm vật cứng — tấm ván, khúc gỗ, cành cây, gạch — xuống dưới bánh sau và bánh trước, đẩy xe theo hướng đã chọn, người đứng bên đẩy xe nghiêng nhẹ về phía không đè bánh để giảm áp lực bánh. Năm, thoát ra mặt cứng thì dừng ngay kiểm tra: phanh có bám bùn không, xích có cát cặn không, lỗ thoát nước và lọc gió sạch chưa — rồi mới chạy tiếp. Ba điều cấm: không ga mạnh khi bánh xoáy, không đổ nước vào lỗ làm bùn nhão hơn, và không kéo xe bằng tay khi người còn đứng ở hướng xe có thể đổ. Trong cát khô: đệm rộng diện tích, ga đều nhẹ và chạy tiếp đoạn nối, không dừng giữa đoạn cát dài.",
+  "keyPoints": [
+   "Bánh xoay không tiến: buông ga ngay — mỗi nhát ga thêm tự đào hố lún sâu thêm cho chính xe.",
+   "Xuống xe sớm trước khi xe nghiêng: giữ xe đứng và thoát người ra hướng an toàn, không kéo theo xe té.",
+   "Thoát theo hướng mặt đường cứng gần nhất hoặc ngang ra khỏi vệt lún — không nhất thiết theo hướng định đi.",
+   "Đệm vật cứng dưới bánh: ván, gỗ, cành cây, gạch tạo mặt đỡ cho bánh bám mà ra."
+  ],
+  "entities": [
+   "mặt đường bùn",
+   "cát lún",
+   "vệt bánh xe",
+   "tấm đệm",
+   "lọc gió",
+   "thiết bị kéo xe"
+  ],
+  "keywords": [
+   "xe máy sa lầy",
+   "thoát xe khỏi bùn lún",
+   "xe máy đi đường cát",
+   "kỹ thuật đi xe đường đất sau mưa",
+   "xe máy lún bánh",
+   "đường bùn trơn"
+  ]
+ },
+ {
+  "url": "tips/meo-tiet-kiem-xang/do-xang-xe-may-luu-y-va-sai-lam/",
+  "title": "Đổ xăng xe máy: lưu ý và sai lầm thường gặp",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "summary": "Đổ xăng là việc làm mỗi tuần mà hầu như không ai coi là kỹ năng — cho tới khi xe bị phản ứng: đề khó hơn sau một lần đổ sai chỗ, hao xăng tăng đều sau khi đổi loại nhiên liệu, hay thảm nhất là chết máy giữa đường vì nước lẫn trong xăng. Bài viết này hệ thống lại toàn bộ kiến thức quanh việc đổ xăng cho xe máy. Phần chuẩn bị: hiểu các loại nhiên liệu phổ biến trên thị trường — xăng pha chì đã bị loại bỏ, các loại xăng không pha chì với chỉ số octan khác nhau, và ethanol trong xăng sinh học ảnh hưởng thế nào tới xe máy và bình chứa cũ. Phần chọn loại xăng: xe máy phổ thông nên đổ loại nào theo khuyến nghị nhà sản xuất ghi trong hướng dẫn sử dụng, vì sao tự ý lên loại xăng chỉ số octan cao không cho thêm công suất, và khi nào cần lưu ý với xe máy đời cũ về tỷ lệ ethanol. Phần kỹ thuật đổ: vị trí đổ an toàn, cách mở nắp bình đúng, đổ tới đâu thì dừng — ý nghĩa của khoảng trống giãn nở trong bình, và cách xử lý khi xăng tràn. Phần tại trạm: kiểm tra sự cố đồng hồ, những thủ thuật phổ biến cần nhận biết để không bị thiệt, và các lưu ý an toàn quanh khu vực trạm có hơi xăng. Phần sai lầm thường gặp: đổ xăng khi cạn kiệt giữa đường cho xe chưa từng cạn — cặn đáy bình, để xe hơi đổ xăng đang nóng, đổ tại điểm bán xăng vỉa hè không kiểm định, trữ xăng trong can nhựa lâu ngày. Kết bài là thói quen đổ đúng giờ chỗ: đổ ở trạm lớn bán chạy, ghi lại mốc km để theo dõi hao xăng, và coi mỗi lần đổ là một điểm kiểm tra nhanh xe.",
+  "quickAnswer": "Trả lời ngắn: đổ xăng đúng là việc năm phút nhưng giữ xe khỏe cả năm. Năm lưu ý chính. Một, đổ đúng loại ghi trong hướng dẫn sử dụng của xe — xe máy phổ thông chạy tốt loại xăng không pha chì tiêu chuẩn, tự lên loại chỉ số octan cao hơn không thêm công suất mà chỉ thêm chi phí. Hai, đổ tại trạm lớn bán chạy — bồn bán chạy có vòng quay nhiên liệu nhanh thì ít cặn lắng, và đồng hồ được kiểm định định kỳ. Ba, khi đổ để ý số đồng hồ nhảy đều không giật, chốt số tiền trước khi rót, và đừng bỏ xe chạy sang chỗ khác khuất tầm mắt. Bốn, đổ gần đầy nhưng chừa miệng giãn nở — xăng nóng nở ra, chèn tới hết cổ bình dễ tràn khi xe phơi nắng; xăng tràn thì lau ngay và không đề máy liền tại chỗ. Năm, sau khi đổ nếu xe đề khó hoặc chạy giật bất thường thì dừng dùng lô xăng đó và chuyển sang trạm khác quan sát — xăng lẫn nước hoặc tạp có thể là nguyên nhân. Hai điều tránh: không đổ can xăng trôi nổi ngoài vỉa hè vì không kiểm định chất lượng, và không trữ xăng trong can nhựa thường lâu ngày — can thép chuyên dụng nơi mát mới là chỗ trữ đúng.",
+  "keyPoints": [
+   "Chọn loại xăng theo hướng dẫn sử dụng của xe — chỉ số octan cao hơn khuyến nghị không thêm công suất cho xe phổ thông.",
+   "Đổ tại trạm lớn bán chạy: xăng quay nhanh ít cặn bồn, đồng hồ kiểm định định kỳ, hóa đơn đầy đủ.",
+   "Để ý đồng hồ nhảy đều, chốt số tiền trước, không rời xe khuất tầm mắt trong lúc đổ.",
+   "Đổ gần đầy chừa khoảng giãn nở — xăng nở khi nóng và dễ tràn chảy vào hốc xe."
+  ],
+  "entities": [
+   "chỉ số octan",
+   "xăng không pha chì",
+   "ethanol",
+   "bình chứa xăng",
+   "đồng hồ trạm xăng",
+   "can chứa nhiên liệu"
+  ],
+  "keywords": [
+   "đổ xăng xe máy",
+   "chọn loại xăng cho xe máy",
+   "xăng RON là gì",
+   "xăng pha ethanol",
+   "xăng lẫn nước",
+   "đổ xăng đúng cách"
+  ]
+ },
+ {
   "url": "thue-xe/xe-may/thue-xe-may-di-phuot-chuan-bi-va-luu-y/",
   "title": "Thuê xe máy đi phượt: chuẩn bị và lưu ý",
   "category": "Thuê xe",

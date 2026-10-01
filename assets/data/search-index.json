@@ -2818,6 +2818,56 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-xu-ly-su-co/xe-may-sa-lay-thoat-khoi-bun-va-cat/",
+  "title": "Xe máy sa lầy: thoát khỏi bùn và cát",
+  "description": "Xe máy sa lầy bùn hoặc lún cát cần giảm ga ngay, đệm vật đỡ và kéo xe theo hướng ngang. Bài viết hướng dẫn thoát xe an toàn và phòng tránh.",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "entities": [
+   "mặt đường bùn",
+   "cát lún",
+   "vệt bánh xe",
+   "tấm đệm",
+   "lọc gió",
+   "thiết bị kéo xe"
+  ],
+  "keywords": [
+   "xe máy sa lầy",
+   "thoát xe khỏi bùn lún",
+   "xe máy đi đường cát",
+   "kỹ thuật đi xe đường đất sau mưa",
+   "xe máy lún bánh",
+   "đường bùn trơn"
+  ],
+  "summary": "Sa lầy là một trong những tình huống làm người lái xe máy mất phương án nhanh nhất: bánh xe lún xuống mặt bùn mềm hoặc cát khô, ga mạnh thêm làm bánh xoáy càng lún sâu, và chỉ sau vài giây sai lầm, xe đã nằm chôn nửa bánh với cả xe lẫn người bị mắc kẹt. Bài vi"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-tiet-kiem-xang/do-xang-xe-may-luu-y-va-sai-lam/",
+  "title": "Đổ xăng xe máy: lưu ý và sai lầm thường gặp",
+  "description": "Đổ xăng đúng loại, đúng cách giúp xe khỏe và tiết kiệm. Bài viết tổng hợp lưu ý tại trạm xăng, sai lầm phổ biến và cách kiểm tra chất lượng nhiên liệu.",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "entities": [
+   "chỉ số octan",
+   "xăng không pha chì",
+   "ethanol",
+   "bình chứa xăng",
+   "đồng hồ trạm xăng",
+   "can chứa nhiên liệu"
+  ],
+  "keywords": [
+   "đổ xăng xe máy",
+   "chọn loại xăng cho xe máy",
+   "xăng RON là gì",
+   "xăng pha ethanol",
+   "xăng lẫn nước",
+   "đổ xăng đúng cách"
+  ],
+  "summary": "Đổ xăng là việc làm mỗi tuần mà hầu như không ai coi là kỹ năng — cho tới khi xe bị phản ứng: đề khó hơn sau một lần đổ sai chỗ, hao xăng tăng đều sau khi đổi loại nhiên liệu, hay thảm nhất là chết máy giữa đường vì nước lẫn trong xăng. Bài viết này hệ thống l"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/thue-xe-may-di-phuot-chuan-bi-va-luu-y/",
   "title": "Thuê xe máy đi phượt: chuẩn bị và lưu ý",
   "description": "Thuê xe máy đi phượt: chọn xe cho hành trình dài, điều khoản phạm vi hoạt động, chuẩn bị phụ tùng dự phòng và vận hành an toàn trên đường đèo.",

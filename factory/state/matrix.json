@@ -1848,11 +1848,13 @@
    "title": "Xe máy sa lầy: thoát khỏi bùn và cát",
    "primaryIntent": "informational/xe-may-sa-lay-thoat-khoi-bun-va-cat",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T03:48:56.663Z",
-   "updatedAt": "2026-10-01T03:48:56.665Z"
+   "updatedAt": "2026-10-01T03:51:38.886Z",
+   "seoScore": 91,
+   "words": 2782
   },
   {
    "id": "S00128",
@@ -1861,11 +1863,13 @@
    "title": "Đổ xăng xe máy: lưu ý và sai lầm thường gặp",
    "primaryIntent": "informational/do-xang-xe-may-luu-y-va-sai-lam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T03:48:56.752Z",
-   "updatedAt": "2026-10-01T03:48:56.754Z"
+   "updatedAt": "2026-10-01T03:51:38.886Z",
+   "seoScore": 91,
+   "words": 2742
   }
  ]
 }
