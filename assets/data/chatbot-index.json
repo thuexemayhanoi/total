@@ -462,6 +462,66 @@
   ]
  },
  {
+  "url": "wiki/dau-nhot/nhot-ly-hop-va-nhot-may-khac-nhau-o-dau/",
+  "title": "Nhớt ly hợp và nhớt máy khác nhau ở đâu",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Nhiều người đi xe số gọi chung mọi chai dầu đổ vào xe là nhớt, nhưng bên trong xe có hai loại nhớt hoàn toàn khác nhau về nhiệm vụ: nhớt máy bôi trơn động cơ, còn nhớt ly hợp làm việc trong hộp số để các tấm ma sát bám và tách mượt mà. Bài viết này tách rõ hai thứ vốn hay bị trộn lẫn. Chức năng: nhớt máy phải chống mài mòn chi tiết kim loại và tản nhiệt trong điều kiện nhiệt độ rất cao; nhớt ly hợp phải vừa bôi trơn bánh răng hộp số vừa vẫn cho các tấm ly hợp ma sát bám nhau — một việc đòi độ sánh thấp hơn và phụ gia hoàn toàn khác. Độ sánh: nhớt máy xe số phổ thông quanh các cấp sánh mỏng, nhớt ly hợp thường sánh hơn chút nhưng quan trọng nhất là đúng loại xe ghi trong sách. Ký hiệu: bao bì ghi rõ dầu động cơ hay dầu hộp số — ly hợp, và đổ nhầm chiều nào cũng hỏng theo chiều đó: nhớt máy đổ vào khoang ly hợp làm các tấm ma sát trượt, bóp côn cóm, xe lì; nhớt ly hợp đổ vào cacte máy thì thiếu gói phụ gia chống oxy hóa nhiệt độ cao, nhớt chóng thoái hóa. Cách kiểm: que nhớt máy quen thuộc kiểm động cơ, còn khoang ly hợp nhiều xe có que riêng hoặc nắp tra, và triệu chứng của mỗi loại nhớt yếu khác nhau — máy ồn khác ly hợp trượt. Cuối cùng là hai lỗi thường gặp: đổ chung một chai cho gọn, và tin rằng xe tay ga không có ly hợp vì không có cần bóp — xe tay ga vẫn có ly hợp, chỉ là tự động, vẫn cần đúng loại nhớt của nó.",
+  "quickAnswer": "Trả lời ngắn: nhớt máy bôi trơn động cơ, nhớt ly hợp làm việc trong hộp số để tấm ma sát bám — tách mượt mà. Ba điểm phân biệt cần nhớ. Một, nhiệm vụ ngược nhau một nửa: cả hai đều bôi trơn, nhưng nhớt ly hợp phải để các tấm ma sát bám nhau khi nhả côn — dùng nhớt máy thay vào là tấm trượt, xe hụt lực, bóp côn cóm. Hai, độ sánh và phụ gia khác nhau: nhớt máy chịu nhiệt cao cần gói phụ gia chống oxy hóa mạnh, nhớt ly hợp cần độ ma sát đúng chuẩn cho tấm bám — bao bì ghi rõ loại, không đổ lẫn. Ba, kiểm tra đúng chỗ: que nhớt máy cho động cơ, nhiều xe số có que hoặc nắp tra riêng cho khoang ly hợp — triệu chứng nhớt máy thoái hóa là máy ồn nóng, triệu chứng nhớt ly hợp yếu là côn trượt, giật khi chuyển số. Chỉ mua đúng loại sách xe ghi, thay đúng kỳ riêng của từng khoang — hai chai khác nhau là cách rẻ nhất để cả hai hệ sống lâu.",
+  "keyPoints": [
+   "Nhớt máy bôi trơn động cơ trong nhiệt độ cao; nhớt ly hợp làm việc trong hộp số, vừa bôi trơn bánh răng vừa giữ tấm ma sát bám đúng lúc.",
+   "Đổ nhớt máy vào khoang ly hợp làm tấm ma sát trượt: xe hụt lực, bóp côn cóm, cố ga mà xe lì — triệu chứng điển hình của nhầm loại.",
+   "Nhớt ly hợp không chịu nổi nhiệt độ đầu máy: đổ vào cacte là nhớt chóng thoái hóa, sụt áp suất phim dầu, mài mòn chi tiết.",
+   "Độ sánh và phụ gia khác nhau theo nhiệm vụ: mua đúng loại ghi trên sách xe, đọc kỹ bao bì chữ dầu động cơ hay dầu hộp số — ly hợp."
+  ],
+  "entities": [
+   "nhớt ly hợp",
+   "nhớt máy",
+   "độ sánh",
+   "hộp số",
+   "tấm ma sát",
+   "bảo dưỡng xe số"
+  ],
+  "keywords": [
+   "nhớt ly hợp và nhớt máy",
+   "phân biệt nhớt ly hợp nhớt máy",
+   "nhớt ly hợp xe số",
+   "đổ nhầm nhớt ly hợp",
+   "nhớt hộp số xe máy",
+   "bóp côn cóm nhầm nhớt"
+  ]
+ },
+ {
+  "url": "tips/meo-xu-ly-su-co/dung-xang-du-phong-tren-xe-may-an-toan/",
+  "title": "Đựng xăng dự phòng trên xe máy: an toàn hay rủi ro",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Chuyến xe máy dài ngày về quê, lên vùng núi hoặc đi qua quãng đường vắng trạm xăng — một chai xăng dự phòng đúng chuẩn là mạng an toàn, còn một chai nước ngọt tái chế đựng xăng chằng lỏng lẻo sau yên là trái bom chờ sự cố. Bài viết này vẽ ranh giới giữa hai tình huống ấy. Khi nào cần: hành trình có quãng dài không trạm, xe phóng hao xăng hơn thường lệ, hoặc mùa lễ đường đông tràn — còn trong phố có trăm trạm thì mang xăng chỉ là tự gánh rủi ro không đổi lấy gì. Chai đựng: chai nhựa PET là lỗi nghiêm trọng nhất vì xăng làm nhựa giòn dần, nắp silicon không kín nữa, va chạm nhỏ cũng vỡ — bình xăng phụ kim loại có nắp kín và van là lựa chọn đúng, kích thước vừa đủ dùng chứ không to cho oai. Chỗ đặt và cách chằng: nằm ngang trên sàn xe đạp chân hoặc cốp ngoài, chằng bằng dây chẹt vào điểm cứng của xe, không dựa vào giằng cao su mỏng, không để chai xăng cạnh ống pô nóng hoặc dưới nắng trực tiếp lâu. Bảo quản: xăng có tuổi, bay hơi phân đoạn nhẹ trước, chai mở nắp từng phần là xăng mỗi ngày một kém — đổ lượt xăng cũ vào xe dùng trước rồi mua mới cho lần sau. Và pháp lý — khung quy định về vận chuyển xăng sinh hoạt được nêu để người đọc tự đối chiếu, không đưa ra con số khống: mỗi nước mỗi ngưỡng, và vượt ngưỡng là chuyển từ mang xăng sang vận chuyển hàng nguy hiểm. Rốt cuộc: chai xăng dự phòng là công cụ của chuyến dài được chuẩn bị — không phải thói quen hằng ngày trong phố.",
+  "quickAnswer": "Trả lời ngắn: chỉ mang xăng dự phòng khi hành trình thật cần — quãng vắng trạm, chuyến xa về quê, vùng núi — và khi mang thì mang đúng chuẩn. Ba điều quyết định an toàn. Một, chai đựng: tuyệt đối không dùng chai nhựa PET đựng nước ngọt — xăng ăn nhựa, nắp mất kín, vỡ khi va; dùng bình xăng phụ kim loại hoặc nhựa chuyên dụng có nắp kín, đúng dung tích cần dùng. Hai, chặng đặt: nằm ngang, chằng chặt bằng dây căng vào điểm cứng của xe, tránh ống pô nóng và nắng chiếu trực tiếp — giằng cao su mỏng buộc tạm không tính là chằng an toàn. Ba, tuổi của xăng: chai mở nắp thì bay hơi phần nhẹ, mỗi ngày một kém — về tới nơi là đổ lượt xăng cũ vào xe dùng hết, lần sau mua mới; không để chai xăng tồn quanh năm trong cốp ngoài. Sau cùng là quy định vận chuyển xăng sinh hoạt — tự đối chiếu khung hiện hành trước chuyến dài, vì mang quá ngưỡng không còn là chuyện tiện đường nữa.",
+  "keyPoints": [
+   "Chỉ mang xăng dự phòng khi thật cần: quãng đường vắng trạm, chuyến xa hao xăng lớn — trong phố nhiều trạm, mang xăng là tự gánh rủi ro không đổi lấy gì.",
+   "Không bao giờ dùng chai nhựa PET đựng nước ngọt: xăng làm nhựa giòn, nắp mất kín, chai vỡ khi va chạm nhỏ — dùng bình phụ kim loại hoặc nhựa chuyên dụng nắp kín.",
+   "Chằng chặt vào điểm cứng: dây căng buộc bình nằm ngang ở sàn đạp chân hoặc cốp ngoài, không dựa giằng cao su mỏng, không để lỏng để khỏi kêu.",
+   "Giữ bình xa nguồn nhiệt: tránh ống pô, tránh nắng trực tiếp lâu — xăng bay hơi, áp trong bình dâng, nắp kém kín thì thoát hơi đúng chỗ người ngồi."
+  ],
+  "entities": [
+   "xăng dự phòng",
+   "bình xăng phụ",
+   "chai đựng xăng",
+   "an toàn cháy nổ",
+   "chuyến xe đường dài",
+   "xe máy"
+  ],
+  "keywords": [
+   "đựng xăng dự phòng trên xe máy",
+   "bình xăng phụ xe máy",
+   "chai xăng dự phòng an toàn",
+   "mang xăng trên xe máy",
+   "xăng dự phòng có cần không",
+   "đựng xăng chai nhựa nguy hiểm"
+  ]
+ },
+ {
   "url": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/",
   "title": "Đặt cọc thuê ô tô: những điều cần biết",
   "category": "Thuê xe",

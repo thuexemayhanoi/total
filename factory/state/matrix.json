@@ -1518,11 +1518,13 @@
    "title": "Nhớt ly hợp và nhớt máy khác nhau ở đâu",
    "primaryIntent": "informational/nhot-ly-hop-va-nhot-may-khac-nhau-o-dau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:39:17.958Z",
-   "updatedAt": "2026-10-01T01:39:17.960Z"
+   "updatedAt": "2026-10-01T01:42:05.430Z",
+   "seoScore": 100,
+   "words": 2832
   },
   {
    "id": "S00106",
@@ -1531,11 +1533,13 @@
    "title": "Đựng xăng dự phòng trên xe máy: an toàn hay rủi ro",
    "primaryIntent": "informational/dung-xang-du-phong-tren-xe-may-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:39:18.044Z",
-   "updatedAt": "2026-10-01T01:39:18.046Z"
+   "updatedAt": "2026-10-01T01:42:05.430Z",
+   "seoScore": 100,
+   "words": 2825
   }
  ]
 }
