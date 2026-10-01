@@ -1245,6 +1245,36 @@
   ]
  },
  {
+  "url": "guide/mua-xe/xe-so-hay-xe-tay-ga-chon-theo-nhu-cau/",
+  "title": "Xe số hay xe tay ga: chọn theo nhu cầu",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Câu hỏi \"mua xe số hay xe tay ga\" không có đáp án đúng cho mọi người — nó chỉ có đáp án đúng cho một người với một nhu cầu, một tuyến đường và một ngân sách cụ thể. Bài viết này không quảng cáo loại nào hơn, mà trình bày khung so sánh để người mua tự rút ra kết luận cho mình. Phần bản chất kỹ thuật: xe số và xe tay ga khác nhau ở hệ thống truyền động — bộ số tay với ly hợp tay ở xe số và hệ truyền động tự động biến thiên ở xe tay ga, và khác biệt đó sinh ra toàn bộ khác biệt về nết xe, độ bền, chi phí và cách vận hành. Phần trải nghiệm lái: xe số cho kiểm soát trực tiếp qua tay bóp ly hợp và chân số, thắng máy mỗi khi về số; xe tay ga cho thao tác đơn giản chỉ tay ga và phanh, êm trong phố tắc và dễ lái cho người mới. Phần chi phí: giá mua, hao xăng, chu kỳ bảo dưỡng — xe số rẻ hơn về hầu hết các thứ nhưng đòi hỏi chu kỳ về nhông xích; xe tay ga nhỉnh hơn xăng và bảo dưỡng nhưng nhường lại sự tiện của cốp rộng và không buồng nhớa. Phần độ bền và sửa chữa: phần hỏng thường gặp của từng loại — xích sên nhông với xe số, bi-em và dây curoa với xe tay ga — và ý nghĩa của chúng với người ở xa tiệm sửa. Phần nhu cầu thực tế: bốn hồn cách dùng xe thường gặp — đi phố ngắn, đi xa cuối tuần, chở hàng, người mới học lái — và loại xe khớp với từng hồn cách. Phần câu hỏi thử trước khi quyết định: tuyến đường hằng ngày của bạn trông thế nào, ai nữa sẽ dùng xe, và ngân sách bảo dưỡng hằng năm bằng bao nhiêu. Kết bài là nguyên tắc chọn xe đúng: mua chiếc xe cho chuyến đi thật của mình, không phải cho hình dung lý tưởng về mình.",
+  "quickAnswer": "Trả lời ngắn: chọn xe số khi tuyến đường có nhiều trường liên, đường xấu, chở nặng, ở xa tiệm sửa, hoặc ngân sách muốn tối ưu mọi chi phí — xe số bền, sửa dễ, hao xăng ít, đổi lại là phải bóp tay và đạp số mỗi lần chạy. Chọn xe tay ga khi đi phố tắc nhiều, cần cốp đựng đồ, có người nhà cùng dùng chưa quen lái số, hoặc cần yên tĩnh không buồng nhớa — tay ga tiện và êm, đổi lại là ăn xăng hơn và bảo dưỡng hệ truyền động tự động đắt hơn khi có hỏng. Ba câu tự vấn trước khi quyết định. Một, tuyến đường hằng ngày: phố tắc ngắn hay xa liên vùng? Hai, ai dùng xe: chỉ mình, hay có thêm người mới lái? Ba, mỗi năm chấp nhận chi bao nhiêu cho bảo dưỡng và xăng? Nếu phần trả lời nghiêng về tiện nghi và người mới thì tay ga; nghiêng về bền bỉ và tiết kiệm thì xe số. Một điều đáng nhớ: cả hai loại đều đáng tin cậy khi bảo dưỡng đều — lựa chọn đúng không nằm ở loại xe nào tốt hơn, mà ở loại xe nào khớp cách đi đường của bạn.",
+  "keyPoints": [
+   "Khác biệt gốc nằm ở truyền động: số tay với ly hợp tay ở xe số, hệ tự động biến thiên ở xe tay ga — sinh ra mọi khác biệt còn lại.",
+   "Xe số mạnh mẽ hơn về kiểm soát, kéo nặng, hao xăng ít và sửa rẻ; đổi lại là thao tác bóp tay đạp số mỏi trong phố tắc.",
+   "Xe tay ga êm, tiện cốp rộng, thao tác đơn giản cho người mới; đổi lại là xăng và bảo dưỡng nhỉnh hơn.",
+   "Phần hỏng đặc trưng: xích sên nhông với xe số, bi-em và dây curoa với xe tay ga — cân nhắc khi ở xa tiệm sửa."
+  ],
+  "entities": [
+   "xe số",
+   "xe tay ga",
+   "ly hợp",
+   "hệ truyền động tự động",
+   "xích sên nhông",
+   "dây curoa"
+  ],
+  "keywords": [
+   "nên mua xe số hay xe tay ga",
+   "so sánh xe số và xe tay ga",
+   "xe tay ga tốn xăng hơn xe số",
+   "chi phí bảo dưỡng xe tay ga",
+   "xe số bền hơn tay ga",
+   "chọn xe máy theo nhu cầu"
+  ]
+ },
+ {
   "url": "thue-xe/xe-may/thue-xe-may-di-phuot-chuan-bi-va-luu-y/",
   "title": "Thuê xe máy đi phượt: chuẩn bị và lưu ý",
   "category": "Thuê xe",
@@ -1273,6 +1303,36 @@
    "kiểm tra xe trước khi đi phượt",
    "hợp đồng thuê xe đi phượt",
    "an toàn khi đi phượt xe máy"
+  ]
+ },
+ {
+  "url": "tips/meo-bao-duong/tu-thay-dau-may-xe-may-tai-nha/",
+  "title": "Tự thay dầu máy xe máy tại nhà đúng cách",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "summary": "Thay dầu máy là công việc bảo dưỡng đều đặn nhất của mọi chiếc xe máy, và cũng là công việc hợp lý nhất để tự làm tại nhà: dụng cụ tối thiểu, thời gian dưới một giờ, và lợi ích lớn hơn cả khoản tiền tiết kiệm — đó là việc kiểm soát được chất lượng dầu và độ kín của bu lông xả, thứ không phải tiệm nào cũng làm tử tế. Bài viết này trình bày quy trình đầy đủ cho người lần đầu. Phần chuẩn bị: đúng loại dầu theo hướng dẫn nhà sản xuất, đúng thể tích đong, chậu hứng và các dụng cụ gồm chìa phe, can dầu cũ, phễu và khăn — vì sao nên thay sau chuyến chạy cho dầu loãng chảy hết. Phần quy trình từng bước: dựng xe bằng chống giữa trên mặt phẳng, mở nạp và xả, chờ dầu chảy kiệt đúng cách chứ không chờ một phút là tưởng xong, vệ sinh bu lông xả và lõi nam châm lọc mạt, đong dầu mới đủ theo thể tích ghi trong hướng dẫn, và kiểm tra qua kim xem mức chuẩn. Phần các lỗi thường gặp: đong thiếu và đong thừa đều hại như nhau — thừa dầu làm mi óc tràn, làm tay ga và lọc gió ám dầu; xả chưa kiệt dầu cũ làm dầu mới pha loãng mất chu kỳ; siết bu lông xả quá mạnh làm ren hỏng; và sai thời điểm — thay khi máy đang nguội sâu làm dầu đặc không chảy hết cặn. Phần an toàn: dầu cũ là chất thải cần thu gom đúng cách, không đổ ra cống ra đất; dầu nóng gây bỏng; và nới lỏng bu lông khi máy vừa tắt cần cẩn thận. Kết bài là cách lên lịch thay đúng chu kỳ theo km và ghi lại mỗi lần thay, để việc tự thay thành một thói quen bền thay vì một lần thử tò mò.",
+  "quickAnswer": "Trả lời ngắn: tự thay dầu máy tại nhà làm được trong khoảng bốn mươi phút nếu chuẩn bị đủ. Năm bước. Một, chuẩn bị: dầu mới đúng loại theo hướng dẫn xe, can đong đúng thể tích, chậu hứng, chìa phe bu lông xả, phễu và khăn; chạy xe mười phút trước khi thay cho dầu loãng mang cặn chảy hết. Hai, dựng xe bằng chống giữa trên mặt phẳng, mở nắp dầu, đặt chậu hứng, mở bu lông xả và chờ dầu chảy hết — chờ kiệt đủ lâu, dòng dầu nhỏ giọt cuối cùng mang theo phần cặn đọng. Ba, vệ sinh bu lông xả và rãnh nam châm lọc mạt nếu xe có, kiểm tra vòng phớng còn lành không rồi siết bu lông vừa độ — siết cho kín, không siết cho đau ren. Bốn, đong dầu mới qua phễu đúng thể tích ghi trong hướng dẫn, tránh đong thừa làm mi óc tràn. Năm, nổ máy một phút, tắt, chờ ba phút rồi xem kim: mức nằm giữa hai vạch là xong, thiếu thì châm. Hai điều cấm: không xả khi máy lạnh sâu vì dầu đặc giữ cặn lại trong máy, và không đổ dầu cũ ra cống hay xuống đất — hứng vào can, giao cho điểm thu gom chất thải. Ghi lại km thay mỗi lần để chu kỳ sau không lộn.",
+  "keyPoints": [
+   "Chuẩn bị đủ trước khi bắt đầu: dầu đúng loại, can đong đúng thể tích, chậu hứng, chìa phe, phễu và khăn.",
+   "Thay khi máy vừa ấm: dầu loãng chảy hết cùng cặn — máy lạnh sâu làm dầu đặc giữ cặn lại trong máy.",
+   "Chờ xả kiệt đủ lâu: dòng nhỏ giọt cuối mang phần cặn đọng, không vội siết lại bu lông.",
+   "Siết bu lông xả vừa độ và kiểm tra vòng phớng: kín là đủ, siết quá làm ren hỏng và rò rỉ về sau."
+  ],
+  "entities": [
+   "dầu máy",
+   "bu lông xả dầu",
+   "vòng phớng",
+   "kim xem mức dầu",
+   "nam châm lọc mạt",
+   "chất thải dầu"
+  ],
+  "keywords": [
+   "tự thay dầu máy xe máy",
+   "thay dầu máy tại nhà",
+   "cách thay dầu xe máy",
+   "thay dầu máy xe tay ga",
+   "đong bao nhiêu lít dầu máy",
+   "dầu cũ xe máy xử lý"
   ]
  },
  {

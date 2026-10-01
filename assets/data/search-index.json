@@ -2868,6 +2868,31 @@
  },
  {
   "kind": "article",
+  "url": "guide/mua-xe/xe-so-hay-xe-tay-ga-chon-theo-nhu-cau/",
+  "title": "Xe số hay xe tay ga: chọn theo nhu cầu",
+  "description": "Xe số bền và tiết kiệm, xe tay ga tiện và êm trong phố. Bài viết so sánh chi phí, độ bền và nhu cầu sử dụng để chọn đúng loại xe.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "xe số",
+   "xe tay ga",
+   "ly hợp",
+   "hệ truyền động tự động",
+   "xích sên nhông",
+   "dây curoa"
+  ],
+  "keywords": [
+   "nên mua xe số hay xe tay ga",
+   "so sánh xe số và xe tay ga",
+   "xe tay ga tốn xăng hơn xe số",
+   "chi phí bảo dưỡng xe tay ga",
+   "xe số bền hơn tay ga",
+   "chọn xe máy theo nhu cầu"
+  ],
+  "summary": "Câu hỏi \"mua xe số hay xe tay ga\" không có đáp án đúng cho mọi người — nó chỉ có đáp án đúng cho một người với một nhu cầu, một tuyến đường và một ngân sách cụ thể. Bài viết này không quảng cáo loại nào hơn, mà trình bày khung so sánh để người mua tự rút ra kế"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/thue-xe-may-di-phuot-chuan-bi-va-luu-y/",
   "title": "Thuê xe máy đi phượt: chuẩn bị và lưu ý",
   "description": "Thuê xe máy đi phượt: chọn xe cho hành trình dài, điều khoản phạm vi hoạt động, chuẩn bị phụ tùng dự phòng và vận hành an toàn trên đường đèo.",
@@ -2891,6 +2916,31 @@
    "an toàn khi đi phượt xe máy"
   ],
   "summary": "Đi phượt bằng xe máy thuê là hình thức phổ biến với người muốn khám phá những cung đường mà chưa có xe phù hợp hoặc không muốn ép chiếc xe hàng ngày lên hành trình dài. Khác với thuê xe đi phố, thuê xe đi phượt đặt ra yêu cầu khác hẳn: chiếc xe phải bền xuyên "
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-bao-duong/tu-thay-dau-may-xe-may-tai-nha/",
+  "title": "Tự thay dầu máy xe máy tại nhà đúng cách",
+  "description": "Thay dầu máy tại nhà tiết kiệm và kiểm soát được chất lượng. Bài viết hướng dẫn từng bước: dụng cụ, xả đúng, đong đủ, và các lỗi thường gặp.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "dầu máy",
+   "bu lông xả dầu",
+   "vòng phớng",
+   "kim xem mức dầu",
+   "nam châm lọc mạt",
+   "chất thải dầu"
+  ],
+  "keywords": [
+   "tự thay dầu máy xe máy",
+   "thay dầu máy tại nhà",
+   "cách thay dầu xe máy",
+   "thay dầu máy xe tay ga",
+   "đong bao nhiêu lít dầu máy",
+   "dầu cũ xe máy xử lý"
+  ],
+  "summary": "Thay dầu máy là công việc bảo dưỡng đều đặn nhất của mọi chiếc xe máy, và cũng là công việc hợp lý nhất để tự làm tại nhà: dụng cụ tối thiểu, thời gian dưới một giờ, và lợi ích lớn hơn cả khoản tiền tiết kiệm — đó là việc kiểm soát được chất lượng dầu và độ kí"
  },
  {
   "kind": "article",
