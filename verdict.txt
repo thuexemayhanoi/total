@@ -1,0 +1,18 @@
+start diag-repair v2
+== a119-pha-may-xe-may-moi-1000km-dau-tien.js ==
+BASE_OK a119-pha-may-xe-may-moi-1000km-dau-tien.js
+FIX_OK a119-pha-may-xe-may-moi-1000km-dau-tien.js
+DIFFER base vs fix: a119-pha-may-xe-may-moi-1000km-dau-tien.js
+20289 cand/base-a119-pha-may-xe-may-moi-1000km-dau-tien.js
+20373 cand/fix-a119-pha-may-xe-may-moi-1000km-dau-tien.js
+20380 factory/data/articles/a119-pha-may-xe-may-moi-1000km-dau-tien.js
+61042 total
+== a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js ==
+BASE_OK a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+FIX_OK a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+DIFFER base vs fix: a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+20278 cand/base-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+20363 cand/fix-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+20369 factory/data/articles/a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+61010 total
+done
