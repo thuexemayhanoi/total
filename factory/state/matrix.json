@@ -2268,11 +2268,13 @@
    "title": "Đi xe máy qua khu vực trường học giờ tan học: giữ khoảng cách và tốc độ",
    "primaryIntent": "informational/di-xe-may-qua-khu-vuc-truong-hoc-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:16:40.903Z",
-   "updatedAt": "2026-10-01T05:16:40.905Z"
+   "updatedAt": "2026-10-01T05:21:53.531Z",
+   "seoScore": 100,
+   "words": 2998
   },
   {
    "id": "S00156",
@@ -2281,11 +2283,13 @@
    "title": "Xe máy đi đường ven biển: nước mặn và rỉ sét",
    "primaryIntent": "informational/xe-may-di-duong-ven-bien-nuoc-man-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:16:40.984Z",
-   "updatedAt": "2026-10-01T05:16:40.985Z"
+   "updatedAt": "2026-10-01T05:21:53.531Z",
+   "seoScore": 100,
+   "words": 3006
   }
  ]
 }

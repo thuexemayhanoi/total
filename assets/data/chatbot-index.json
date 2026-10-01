@@ -2121,6 +2121,67 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-khu-vuc-truong-hoc-luu-y/",
+  "title": "Đi xe máy qua khu vực trường học giờ tan học: giữ khoảng cách và tốc độ",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Cổng trường học lúc tan học là một trong những môi trường giao thông khó nhất trong đô thị: trong vài phút, hàng trăm học sinh ùa ra cùng lúc — đi bộ, xe đạp, xe máy chạy thử, người lớn đón xe bất cứ đâu dừng được — và toàn bộ dòng này hòa vào dòng xe lưu thông đang chạy với tốc độ đường bình thường. Điểm khác biệt của môi trường này so với mọi đoạn đường đông khác: các chủ thể nhỏ nhất trong đó là trẻ em, và trẻ em đi đường theo logic riêng — chạy bỗng dưng, dừng bỗng dưng, đi ngược chiều trong làn, cắt chéo để tới chỗ bạn đứng vẫy. Người lái xe máy qua khu vực này cần một bộ nguyên tắc riêng: hạ tốc trước khi tới, không phải vì luật ghi biển (nhiều đoạn có biển) mà vì tốc độ an toàn ở đây do mật độ quyết định; đọc các cụm nguy hiểm — nhóm học sinh ba bốn đứa dọc mép, phụ huynh dừng đón bỗng ngangang trước mặt, xe đạp nghiêng ngả; và cách xử lý khi bị kẹt giữa dòng người dồn trước cổng. Bài viết cũng đề cập phía bên kia: khi mình là phụ huynh đón con, cách dừng đón đúng chỗ và trao xe an toàn để không góp phần vào hỗn độn, cùng các thói quen giúp trẻ em quen dần việc nhìn đường khi tự đi. Toàn bài xoay quanh một ý: qua cổng trường, mọi người đều từng là học sinh hoặc phụ huynh — cách đi của mình lúc này chính là bài học trực quan mà hàng trăm đứa trẻ đang nhìn thấy.",
+  "quickAnswer": "Trả lời ngắn: qua khu vực trường học trong khung giờ tan học, nguyên tắc hàng đầu là hạ tốc trước khi tới và coi mọi khoảng trống có thể bị lấp đầy bất cứ lúc nào. Giữ khoảng cách xa hơn với mọi đối tượng: xe đạp nghiêng ngả có thể rẽ bỗng, nhóm học sinh đi bộ dọc mép có thể băng chéo tới xe bán nước, phụ huynh dừng đón bỗng ngangang trước mặt. Không bấm còi dài trong cụm học sinh — gây hoảng và vô dụng; đi chậm tự nó là tín hiệu. Không vượt xe khác trong đoạn cổng trường, kể cả khi thấy \"còn chỗ\" — phần bị che của xe trước chính là chỗ trẻ đang băng. Với phụ huynh đón con: dừng hẳn vào lề hoặc bãi đỗ quy định, trao mũ cho con trước khi nổ máy, dặn cháu nhìn hai chiều trước khi lên. Nếu bị kẹt giữa dòng dồn: đứng dừng đàng hoàng, nhường người đi bộ qua trước, để dòng tự giải — giành vài giây trong đám đông cổng trường không đổi được tổng thời gian nhưng tăng rủi ro rõ rệt.",
+  "keyPoints": [
+   "Hạ tốc trước khi tới cổng trường — tốc độ an toàn ở đây do mật độ người quyết định, không phải biển báo; đa số tai nạn ở cổng trường xảy ra ở xe đi tốc độ đường thường.",
+   "Mọi khoảng trống có thể bị lấp đầy bất cứ lúc nào: trẻ băng chéo tới xe bán nước, xe đạp rẽ bỗng, phụ huynh dừng đón bỗng ngang.",
+   "Không vượt xe khác trong đoạn cổng trường — phần bị che của xe trước chính là chỗ trẻ đang băng qua.",
+   "Không bấm còi dài trong cụm học sinh: gây hoảng và không giúp xe đi nhanh hơn — tốc độ thấp tự nó là tín hiệu cho mọi người."
+  ],
+  "entities": [
+   "cổng trường học",
+   "giờ tan học",
+   "học sinh",
+   "xe đạp điện",
+   "phụ huynh đón con",
+   "tốc độ an toàn"
+  ],
+  "keywords": [
+   "đi xe máy qua khu vực trường học",
+   "giờ tan học an toàn",
+   "xe máy cổng trường",
+   "chở học sinh",
+   "khu vực trường học tốc độ",
+   "đón con đi xe máy an toàn"
+  ]
+ },
+ {
+  "url": "tips/meo-bao-duong/xe-may-di-duong-ven-bien-nuoc-man-luu-y/",
+  "title": "Xe máy đi đường ven biển: nước mặn và rỉ sét",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "summary": "Vùng ven biển có một thứ đặc trưng mà người đi đất liền không gặp: không khí mặn. Giọt nước biển bay trong gió lắng đọng khắp mọi bề mặt — lớp màng mỏng trên ốc, xích, mâm phanh, ống dẫn và cả những chùm dây điện — rồi khô lại trong nắng, để lại muối. Muối là chất điện giải: nó vừa hút ẩm không ngừng khiến kim loại ướt liên tục, vừa dẫn điện làm quá trình rỉ ăn nhanh hơn nhiều lần so với gỉ ẩm thường; cộng thêm cát mịn trong gió biển mài mòn lớp sơn bảo vệ, một chiếc xe chạy ven biển vài tuần có thể rỉ những chỗ mà xe đất liền vài năm chưa thấy. Bài viết này đi theo vòng đời một chuyến đi biển với chiếc xe: trước chuyến — chuẩn bị lớp bảo vệ, chỗ nào cần mỡ, chỗ nào cần sơn chống mặn và băng keo che; trong chuyến — nước mặn văng và cát xay tác động ra sao, và những thao tác nhỏ giữ xe qua từng ngày ở biển; sau chuyến — quy trình rửa xả muối đúng cách trong vòng một hai ngày, làm khô, tra mỡ lại, và kiểm tra các điểm yếu kinh điển như ốc mâm, đầu xích, đế ê-cu và các chùm dây. Phần cuối trả lời câu hỏi thực tế nhất: xe sống ở ven biển thường trực thì bảo dưỡng khác gì xe đất liền chỉ đi biển dịp nghỉ hè — tần suất rửa, chu kỳ thay nhớt và những điểm cần theo dõi quanh năm.",
+  "quickAnswer": "Trả lời ngắn: nước mặn ăn rỉ nhanh vì muối hút ẩm và dẫn điện — một xe chạy ven biển vài tuần rỉ bằng xe đất liền vài năm. Trước chuyến: tra mỡ xích, phủ lớp sơn chống mặn hoặc dầu phủ lên các mối nối kim loại, băng keo che đầu ốc và chùm dây, kiểm tra các gioăng che. Trong chuyến: tránh phun nước biển trực diện, không đỗ xe sát mép nước lúc gió từ biển thổi mạnh, và lau mặt xích ướt mặn mỗi tối. Sau chuyến: rửa xe bằng nước ngọt trong vòng một hai ngày — vòi vừa xả từ trên xuống, chú ý gầm, mâm phanh và khe ốc — lau khô bằng giẻ, sấy nắng chỗ khuất gió, rồi tra mỡ xích và dầu bảo vệ lại toàn bộ các điểm kim loại trần. Với xe sống ven biển thường trực: rửa xả muối hằng tuần, thay nhớt chu kỳ ngắn hơn, theo dõi đầu xích và ốc mâm mỗi tháng — và hiểu rằng ở vùng biển, rỉ sét là quá trình liên tục, công chống rỉ chỉ quyết định nhanh chậm chứ không quyết định có hay không.",
+  "keyPoints": [
+   "Muối hút ẩm và dẫn điện — quá trình rỉ ở ven biển nhanh gấp nhiều lần đất liền, và xảy ra liên tục kể cả khi xe đứng im.",
+   "Trước chuyến biển: mỡ xích, phủ lớp chống mặn lên mối nối kim loại trần, băng keo che đầu ốc và chùm dây điện.",
+   "Trong chuyến: tránh phun nước biển trực diện và đỗ sát mép nước lúc gió thổi từ biển vào — lớp màng mặn phủ nhanh nhất đúng lúc đó.",
+   "Sau chuyến rửa xả muối bằng nước ngọt trong vòng một hai ngày — quá hạn này, muối đã bắt đầu phản ứng lên kim loại."
+  ],
+  "entities": [
+   "nước mặn",
+   "rỉ sét",
+   "muối biển",
+   "sơn chống mặn",
+   "xích xe",
+   "mâm phanh",
+   "dầu bảo vệ kim loại"
+  ],
+  "keywords": [
+   "xe máy đi ven biển",
+   "xe máy bị nước mặn",
+   "chống rỉ sét xe máy",
+   "bảo dưỡng xe máy vùng biển",
+   "rửa xe sau khi đi biển",
+   "muối biển hại xe máy"
+  ]
+ },
+ {
   "url": "wiki/dau-nhot/dau-nhot-xe-may-loai-chu-ky-va-cach-chon/",
   "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
   "category": "Bách khoa xe",
