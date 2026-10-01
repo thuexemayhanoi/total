@@ -1396,6 +1396,66 @@
   ]
  },
  {
+  "url": "wiki/he-thong-phanh/thay-ma-phanh-xe-may-thoi-diem-va-cach-kiem-tra/",
+  "title": "Thay má phanh xe máy: thời điểm và cách kiểm tra",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "summary": "Phanh là hệ thống an toàn số một của xe máy, và má phanh là bộ phận duy nhất trong hệ thống đó bị tiêu hao theo thiết kế — mỗi lần bóp phanh là một lần má phanh bị mài đi chút ít, cho tới khi lớp ma sát mỏng tới ngưỡng không còn đủ lực. Bài viết này trình bày toàn bộ kiến thức quanh má phanh: cách nhận biết thời điểm thay, cách kiểm tra đúng, và những sai lầm khiến phanh yếu dù má còn mới. Phần cơ chế: má phanh làm việc ra sao trong phanh đĩa và phanh tang tròn, vật liệu ma sát tiêu hao theo động học nào, và vì sao chạy phố tắc mòn má nhanh gấp nhiều lần đường trường. Phần dấu hiệu mòn: tiếng rít kim loại khi phanh nhẹ, hành trình tay phanh sâu dần, xe phanh không ăn sát và lệch một bên, vòng má phanh đĩa cạn tới rãnh giới hạn — mỗi dấu hiệu kèm cách kiểm tra bằng mắt và bằng tai cho cả hai loại phanh. Phần thời điểm và kiểm tra định kỳ: soi độ dày má qua khe quan sát, nghe thử ở tốc độ thấp, và chu kỳ kiểm tra hợp lý theo km và theo kiểu đường hay chạy. Phần chọn má thay: cốt má và vật liệu ma sát — vì sao má rẻ quá và má đắt quá đều có vấn đề, má nguyên bản và má tương đương, và việc thay thành bộ với lò xo tấm ép ở phanh tang tròn. Phần sai lầm sau khi thay: phanh mới chưa ăn liền cần rà, bóp phanh liên tục trên đường đèo dài làm má cháy bóng, dầu phanh cũ chưa xả làm điểm mềm, và việc để đĩa phanh cong do kẹp kẹt cục bộ. Kết bài là nguyên tắc: má phanh là thứ rẻ nhất trong toàn hệ thống phanh nhưng quyết định toàn hệ thống — thay đúng lúc, rà đúng cách, và không để dấu hiệu rít kim loại tự biến mất.",
+  "quickAnswer": "Trả lời ngắn: má phanh tới hạn có năm dấu hiệu và mỗi dấu hiệu kiểm tra được ngay. Một, tiếng rít kim loại khi phanh nhẹ là tấm báo mòn chạm đĩa hoặc tang tròn — thay sớm, không chờ tới kỳ bảo dưỡng. Hai, hành trình tay phanh hoặc bàn đạp sâu dần: xả hết khoảng không, có thể là dầu phanh hoặc má mòn, soi má trước rồi mới kết luận. Ba, phanh yếu ở tốc độ cao hoặc xe kéo lệch một bên khi phanh: một bên má mòn nhanh hơn hoặc kẹp kẹt. Bốn, soi trực tiếp: phanh đĩa xem độ dày má qua khe kẹp, mỏng tới dưới cỡ hai milimet hoặc gần rãnh báo mòn là tới hạn; phanh tang tròn tháo bánh xem lớp ma sát trên guốc, mòn gần đầu tán là thay. Năm, sau khi thay: bóp nhẹ vài lần cho pít tông đẩy má áp sát rồi mới lăn xe, rà má trong vài chục km đầu bằng phanh nhẹ đều, không bóp phanh liên tục xuống đèo dài vì má mới dễ cháy bóng. Về chọn má: dùng má đúng mã xe hoặc má tương đương loại tốt — má quá rẻ mòn nhanh và phanh yếu khi nóng, không tự nâng cấp loại đua nếu xe chạy phố thường.",
+  "keyPoints": [
+   "Tiếng rít kim loại khi phanh nhẹ là tấm báo mòn chạm: tới hạn thay ngay, không chờ kỳ bảo dưỡng kế tiếp.",
+   "Hành trình tay phanh sâu dần và phanh yếu tốc độ cao: soi má trước khi đổ lỗi dầu phanh hoặc ắc quy.",
+   "Phanh đĩa: soi độ dày má qua khe kẹp, dưới cỡ hai milimet hoặc tới rãnh báo mòn là thay.",
+   "Phanh tang tròn: tháo bánh xem lớp ma sát trên guốc, mòn gần đầu tán là tới hạn, thay cả bộ với lò xo."
+  ],
+  "entities": [
+   "má phanh",
+   "phanh đĩa",
+   "phanh tang tròn",
+   "rãnh báo mòn",
+   "pít tông kẹp",
+   "dầu phanh"
+  ],
+  "keywords": [
+   "thay má phanh xe máy",
+   "dấu hiệu má phanh mòn",
+   "má phanh đĩa xe máy",
+   "má phanh tang tròn",
+   "khi nào thay má phanh",
+   "rà má phanh mới"
+  ]
+ },
+ {
+  "url": "wiki/dien-xe/cau-chi-xe-may-vai-tro-kiem-tra-va-thay/",
+  "title": "Cầu chì xe máy: vai trò, kiểm tra và thay",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Cầu chì là chi tiết rẻ nhất trên xe máy nhưng giữ vai trò bảo vệ đắt nhất: nó là mắt xích yếu có chủ ý của toàn hệ thống điện — mạch nào gặp sự cố, cầu chì của mạch đó cháy trước để cắt dòng, bảo vệ dây dẫn và các bộ phận đắt giá phía sau. Bài viết này trình bày đầy đủ kiến thức để hiểu, kiểm tra và thay cầu chì đúng cách. Phần nguyên lý: cầu chì làm việc ra sao — dây dẫn bên trong nóng chảy khi dòng vượt ngưỡng, vì sao nó là bảo hiểm tính mạng của hệ thống điện, và vì sao chảy chậm của cầu chì xe khác ngắt của aptomat nhà. Phần đọc số: ampe trên cầu chì nghĩa là gì, vì sao thay cầu chì to hơn quy cách là tắt luôn chức năng bảo hiểm, và vì sao cầu chì nhỏ hơn cũng sai — cháy liên tục dù mạch bình thường. Phần triệu chứng: các hiện tượng báo cầu chì cháy — đèn hậu tắt nhưng đèn pha còn, còi im, đề quay không nổ máy trên xe điện tử, đồng hồ tối; và cách xác định cầu chì nào trong hộp thuộc mạch nào qua sơ đồ in trên nắp. Phần kiểm tra và thay: tháo cầu chì bằng nhíp chuyên dụng trong hộp, soi dây bên trong còn liền không, thay bằng loại đúng ampe đúng kích cỡ, và quy tắc sau khi thay — nếu cầu chì mới cháy lại ngay thì ngừng thay, đi tìm nguyên nhân chập. Phần nguyên nhân khiến cầu chì cháy: chập dây do cắn chuột hoặc vỏ bó dây cọ xát, nước vào giắc, bóng đèn cháy nội mạch, phụ kiện gắn thêm kéo dòng quá tải — mỗi nguyên nhân kèm hướng xử lý. Kết bài là cách dự phòng: hộp cầu chì phụ ba bốn que đúng loại xe để trong cốp, và thói quen xem bảng sơ đồ trước khi cần gấp giữa đường.",
+  "quickAnswer": "Trả lời ngắn: cầu chì cháy là hệ thống đang tự bảo vệ mình — thay đúng loại và tìm nguyên nhân. Bốn bước xử lý. Một, xác định mạch chết: đèn hậu, còi, hay hệ đề — mở nắp hộp cầu chì, đối chiếu sơ đồ in trên nắp để tìm que đúng mạch. Hai, kiểm tra que: tháo bằng nhíp gắn sẵn trong hộp, soi dây nhỏ bên trong qua vỏ — dây đứt hoặc bạc màu cháy là que cháy; que còn dây liền là mạch sống, chuyển nghi sang chỗ khác. Ba, thay bằng que đúng ampe đúng cỡ in trên que cũ và bảng trong nắp — không thay to hơn vì que cháy liên tục, không thay nhỏ hơn vì cháy dù không có sự cố. Bốn, que mới cháy lại ngay sau khi cắm: dừng thay, mạch đang chập — soi dây mạch đó, giắc cắm có nước, bóng đèn và phụ kiện thêm vào; không bao giờ quấn giấy thiếc hay que to hơn để \"vượt qua\" vì đó là bẻ khoá bảo hiểm của chính xe mình. Dự phòng đáng mang: ba bốn que đúng loại trong cốp cùng nhíp — mỗi que nặng vài gram và cứu được một đêm giữa đường.",
+  "keyPoints": [
+   "Cầu chì là mắt xích yếu có chủ ý: mạch có sự cố thì que cháy trước, bảo vệ dây dẫn và bộ phận đắt phía sau.",
+   "Thay đúng ampe in trên que cũ và bảng nắp hộp — to hơn là tắt bảo hiểm, nhỏ hơn là cháy nhầm khi không có sự cố.",
+   "Triệu chứng theo mạch: đèn hậu tắt, còi im, đề không nổ, đồng hồ tối — đối chiếu sơ đồ trên nắp hộp để tìm que đúng.",
+   "Que mới cháy lại ngay: ngừng thay và tìm nguyên nhân chập — soi dây, giắc cắm nước, bóng đèn và phụ kiện kéo dòng."
+  ],
+  "entities": [
+   "cầu chì",
+   "hộp cầu chì",
+   "ampe",
+   "mạch điện",
+   "sơ đồ điện",
+   "chập mạch"
+  ],
+  "keywords": [
+   "cầu chì xe máy",
+   "cầu chì xe máy cháy",
+   "thay cầu chì xe máy",
+   "cầu chì bao nhiêu ampe",
+   "cầu chì cháy liên tục",
+   "hộp cầu chì xe máy"
+  ]
+ },
+ {
   "url": "thue-xe/xe-oto/thue-o-to-co-tai-xe-dieu-can-biet/",
   "title": "Thuê ô tô có tài xế: những điều cần biết",
   "category": "Thuê xe",

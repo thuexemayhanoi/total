@@ -1938,11 +1938,13 @@
    "title": "Thay má phanh xe máy: thời điểm và cách kiểm tra",
    "primaryIntent": "informational/thay-ma-phanh-xe-may-thoi-diem-va-cach-kiem-tra",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:03:56.222Z",
-   "updatedAt": "2026-10-01T04:03:56.225Z"
+   "updatedAt": "2026-10-01T04:06:54.933Z",
+   "seoScore": 91,
+   "words": 2788
   },
   {
    "id": "S00134",
@@ -1951,11 +1953,13 @@
    "title": "Cầu chì xe máy: vai trò, kiểm tra và thay",
    "primaryIntent": "informational/cau-chi-xe-may-vai-tro-kiem-tra-va-thay",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:03:56.307Z",
-   "updatedAt": "2026-10-01T04:03:56.309Z"
+   "updatedAt": "2026-10-01T04:06:54.933Z",
+   "seoScore": 100,
+   "words": 2791
   }
  ]
 }

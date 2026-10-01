@@ -2994,6 +2994,56 @@
  },
  {
   "kind": "article",
+  "url": "wiki/he-thong-phanh/thay-ma-phanh-xe-may-thoi-diem-va-cach-kiem-tra/",
+  "title": "Thay má phanh xe máy: thời điểm và cách kiểm tra",
+  "description": "Má phanh mòn làm phanh yếu và kêu rít. Bài viết hướng dẫn nhận biết thời điểm thay, kiểm tra đúng cách và chọn loại má phù hợp cho phanh đĩa và phanh tang tròn.",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "entities": [
+   "má phanh",
+   "phanh đĩa",
+   "phanh tang tròn",
+   "rãnh báo mòn",
+   "pít tông kẹp",
+   "dầu phanh"
+  ],
+  "keywords": [
+   "thay má phanh xe máy",
+   "dấu hiệu má phanh mòn",
+   "má phanh đĩa xe máy",
+   "má phanh tang tròn",
+   "khi nào thay má phanh",
+   "rà má phanh mới"
+  ],
+  "summary": "Phanh là hệ thống an toàn số một của xe máy, và má phanh là bộ phận duy nhất trong hệ thống đó bị tiêu hao theo thiết kế — mỗi lần bóp phanh là một lần má phanh bị mài đi chút ít, cho tới khi lớp ma sát mỏng tới ngưỡng không còn đủ lực. Bài viết này trình bày "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dien-xe/cau-chi-xe-may-vai-tro-kiem-tra-va-thay/",
+  "title": "Cầu chì xe máy: vai trò, kiểm tra và thay",
+  "description": "Cầu chì cháy làm đèn, còi hoặc đề chết máy ngắt quãng. Bài viết giải thích vai trò của cầu chì, cách đọc bảng ampe và thay đúng chuẩn an toàn.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "cầu chì",
+   "hộp cầu chì",
+   "ampe",
+   "mạch điện",
+   "sơ đồ điện",
+   "chập mạch"
+  ],
+  "keywords": [
+   "cầu chì xe máy",
+   "cầu chì xe máy cháy",
+   "thay cầu chì xe máy",
+   "cầu chì bao nhiêu ampe",
+   "cầu chì cháy liên tục",
+   "hộp cầu chì xe máy"
+  ],
+  "summary": "Cầu chì là chi tiết rẻ nhất trên xe máy nhưng giữ vai trò bảo vệ đắt nhất: nó là mắt xích yếu có chủ ý của toàn hệ thống điện — mạch nào gặp sự cố, cầu chì của mạch đó cháy trước để cắt dòng, bảo vệ dây dẫn và các bộ phận đắt giá phía sau. Bài viết này trình b"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-oto/thue-o-to-co-tai-xe-dieu-can-biet/",
   "title": "Thuê ô tô có tài xế: những điều cần biết",
   "description": "Thuê ô tô có tài xế: cấu trúc chi phí theo chuyến và theo ngày, điều khoản hợp đồng, giờ nghỉ của tài xế và cách phối hợp lịch trình để chuyến đi suôn sẻ.",
