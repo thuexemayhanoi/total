@@ -1128,11 +1128,13 @@
    "title": "Cần gió xe máy: chức năng và cách dùng",
    "primaryIntent": "informational/can-gio-xe-may-chuc-nang-va-cach-dung",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:28:35.568Z",
-   "updatedAt": "2026-10-01T00:28:35.570Z"
+   "updatedAt": "2026-10-01T00:31:20.220Z",
+   "seoScore": 100,
+   "words": 2108
   },
   {
    "id": "S00080",
@@ -1141,11 +1143,13 @@
    "title": "Đèn xi-nhan hỏng giữa đường: cách xử lý",
    "primaryIntent": "informational/den-xi-nhan-hong-giua-duong-cach-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:28:35.655Z",
-   "updatedAt": "2026-10-01T00:28:35.656Z"
+   "updatedAt": "2026-10-01T00:31:20.220Z",
+   "seoScore": 100,
+   "words": 2210
   }
  ]
 }
