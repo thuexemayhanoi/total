@@ -1218,11 +1218,13 @@
    "title": "Chăm sóc dây xích xe máy đúng kỹ thuật",
    "primaryIntent": "informational/cham-soc-day-xich-xe-may-dung-ky",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:43:49.850Z",
-   "updatedAt": "2026-10-01T00:43:49.852Z"
+   "updatedAt": "2026-10-01T00:46:40.020Z",
+   "seoScore": 100,
+   "words": 2056
   },
   {
    "id": "S00086",
@@ -1231,11 +1233,13 @@
    "title": "Giữ khoảng cách an toàn khi đi xe máy",
    "primaryIntent": "informational/giu-khoang-cach-an-toan-khi-di-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:43:49.934Z",
-   "updatedAt": "2026-10-01T00:43:49.936Z"
+   "updatedAt": "2026-10-01T00:46:40.020Z",
+   "seoScore": 100,
+   "words": 2104
   }
  ]
 }
