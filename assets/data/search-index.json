@@ -3094,6 +3094,57 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/di-xe-nguoc-nang-chieu-ky-thuat-an-toan/",
+  "title": "Đi xe ngược nắng chiều: kỹ thuật an toàn",
+  "description": "Nắng chiều chiếu ngược làm chói mắt, che khuất khoảng nhìn và gây tảng mù khi rẽ. Bài viết hướng dẫn kỹ thuật giảm chói, giữ khoảng cách và xử lý điểm mù nắng.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "nắng chiều",
+   "tảng mù nắng",
+   "kính chống chói",
+   "mũ bảo hiểm",
+   "khoảng cách an toàn",
+   "giờ tan tầm"
+  ],
+  "keywords": [
+   "đi xe ngược nắng",
+   "nắng chiều chói mắt",
+   "tảng mù nắng",
+   "chống chói khi đi xe",
+   "kỹ thuật lái xe nắng gắt",
+   "an toàn giờ tan tầm"
+  ],
+  "summary": "Buổi chiều muộn, mặt trời hạ thấp gần đường chân trời là một trong những điều kiện nhìn thấy tệ nhất của người đi xe máy: nắng chiếu thẳng vào mắt làm chói và nhòe hình khối, ly kính chắn gió và mũ bảo hiểm phản chiếu làm mù thêm một lớp, và ngược lại với dòng"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-bao-duong/ve-sinh-buong-ga-xe-may-tai-nha/",
+  "title": "Vệ sinh buồng ga xe máy tại nhà",
+  "description": "Buồng ga dơ khiến xe chết máy, giật ga và tốn xăng. Bài viết hướng dẫn vệ sinh buồng ga xe máy tại nhà: dấu hiệu bẩn, dụng cụ, từng bước và sai lầm cần tránh.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "buồng ga",
+   "chế hòa khí",
+   "lỗ ga không tải",
+   "kim ga",
+   "màng chuột",
+   "vít giò",
+   "lọc gió"
+  ],
+  "keywords": [
+   "vệ sinh buồng ga",
+   "rửa chế hòa khí",
+   "buồng ga bẩn",
+   "xe chết máy ga không",
+   "chỉnh vít giò",
+   "bảo dưỡng xe máy tại nhà"
+  ],
+  "summary": "Buồng ga là nơi không khí hòa trộn xăng trước khi vào động cơ, và cũng là nơi tích tụ mọi thứ máy mók nhất trên chiếc xe: bụi lọt qua lọc gió, cặn nhựa từ xăng, dầu bốc lên từ động cơ ngược qua cổ hút. Khi các lỗ ga nhỏ li ti bị nhựa dính đóng dần, xe bắt đầu "
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-oto/thue-o-to-co-tai-xe-dieu-can-biet/",
   "title": "Thuê ô tô có tài xế: những điều cần biết",
   "description": "Thuê ô tô có tài xế: cấu trúc chi phí theo chuyến và theo ngày, điều khoản hợp đồng, giờ nghỉ của tài xế và cách phối hợp lịch trình để chuyến đi suôn sẻ.",

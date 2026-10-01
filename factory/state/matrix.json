@@ -1998,11 +1998,13 @@
    "title": "Đi xe ngược nắng chiều: kỹ thuật an toàn",
    "primaryIntent": "informational/di-xe-nguoc-nang-chieu-ky-thuat-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:15:03.451Z",
-   "updatedAt": "2026-10-01T04:15:03.453Z"
+   "updatedAt": "2026-10-01T04:18:19.997Z",
+   "seoScore": 100,
+   "words": 2832
   },
   {
    "id": "S00138",
@@ -2011,11 +2013,13 @@
    "title": "Vệ sinh buồng ga xe máy tại nhà",
    "primaryIntent": "informational/ve-sinh-buong-ga-xe-may-tai-nha",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:15:03.543Z",
-   "updatedAt": "2026-10-01T04:15:03.545Z"
+   "updatedAt": "2026-10-01T04:18:19.997Z",
+   "seoScore": 100,
+   "words": 2717
   }
  ]
 }
