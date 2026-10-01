@@ -1,4 +1,4 @@
-name: Factory Writer Assist (diag-state)
+name: Factory Writer Assist (diag-repair)
 
 on:
   push:
@@ -14,47 +14,48 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  diag:
+  diag-repair:
     runs-on: ubuntu-latest
     steps:
       - name: Lay ma nguon
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 12
       - name: Cai Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Dump state
+      - name: Voi ban goc va ban sua
         run: |
-          set +e
+          set -u
+          W=43367cf2bc65c49d7f7a688e071fb74d975c85ad
+          A119=factory/data/articles/a119-pha-may-xe-may-moi-1000km-dau-tien.js
+          A120=factory/data/articles/a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js
+          mkdir -p cand
           {
-            echo '=== head ==='
-            git log --oneline -3
-            echo '=== check-state ==='
-            node factory/factory.js check-state
-            echo "CHECK_STATE_EXIT=$?"
-            echo '=== backlog ==='
-            node factory/factory.js backlog
-            echo "BACKLOG_EXIT=$?"
-            echo '=== checkpoint ==='
-            cat factory/state/checkpoint.json
-            echo '=== factory-state ==='
-            cat factory/state/factory-state.json
-            echo '=== matrix id counts ==='
-            grep -oE 'S001[0-9]{2}' factory/state/matrix.json | sort | uniq -c
-            echo '=== matrix tail ==='
-            tail -c 3000 factory/state/matrix.json
-            echo '=== verify-invariant ==='
-            node factory/factory.js verify-invariant
-            echo "INVARIANT_EXIT=$?"
-          } > diag.txt 2>&1
-          cat diag.txt
+            for f in "$A119" "$A120"; do
+              b=$(basename "$f")
+              git show "$W:$f" > "cand/base-$b"
+              cp "$f" "cand/fix-$b"
+              node -e 'const fs=require("fs");const p=process.argv[1];let s=fs.readFileSync(p,"utf8");let out="",inStr=false;for(let i=0;i<s.length;i++){const ch=s[i];if(!inStr&&ch==="'"){inStr=true;out+=ch;continue;}if(inStr&&ch==="'"){inStr=false;out+=ch;continue;}if(inStr&&(ch==="
+"||ch==="")){continue;}out+=ch;}fs.writeFileSync(p,out);' "cand/fix-$b"
+              echo "== $b =="
+              if node --check "cand/base-$b"; then echo "BASE_OK $b"; else echo "BASE_BROKEN $b"; fi
+              if node --check "cand/fix-$b"; then echo "FIX_OK $b"; else echo "FIX_BROKEN $b"; fi
+              if diff -q "cand/base-$b" "cand/fix-$b" >/dev/null 2>&1; then echo "IDENTICAL base vs fix: $b"; else echo "DIFFER base vs fix: $b"; fi
+              wc -c "cand/base-$b" "cand/fix-$b" "$f"
+            done
+          } > verdict.txt 2>&1
+          cat verdict.txt
+          base64 -w 76 "cand/base-a119-pha-may-xe-may-moi-1000km-dau-tien.js" > b119base.txt
+          base64 -w 76 "cand/fix-a119-pha-may-xe-may-moi-1000km-dau-tien.js" > b119fix.txt
+          base64 -w 76 "cand/base-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js" > b120base.txt
+          base64 -w 76 "cand/fix-a120-xe-may-bi-ket-ga-phat-hien-va-xu-ly.js" > b120fix.txt
       - name: Push diag branch
         run: |
           git config user.name "factory-diag"
           git config user.email "nguyentuantu2482@users.noreply.github.com"
           git checkout -b diag-state
-          git add diag.txt
-          git commit -m "diag: dump state for publisher failure"
+          git add verdict.txt b119base.txt b119fix.txt b120base.txt b120fix.txt
+          git commit -m "diag: candidates for repairing S00119,S00120"
           git push -f origin diag-state
