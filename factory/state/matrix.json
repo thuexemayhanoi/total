@@ -1248,11 +1248,13 @@
    "title": "ECU trên xe máy là gì",
    "primaryIntent": "informational/ecu-tren-xe-may-la-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:48:43.015Z",
-   "updatedAt": "2026-10-01T00:48:43.017Z"
+   "updatedAt": "2026-10-01T00:52:19.231Z",
+   "seoScore": 100,
+   "words": 2241
   },
   {
    "id": "S00088",
@@ -1261,11 +1263,13 @@
    "title": "Sau khi ngã xe máy: kiểm tra người và xe",
    "primaryIntent": "informational/sau-khi-nga-xe-may-kiem-tra-nguoi-va-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:48:43.090Z",
-   "updatedAt": "2026-10-01T00:48:43.092Z"
+   "updatedAt": "2026-10-01T00:52:19.231Z",
+   "seoScore": 100,
+   "words": 2121
   }
  ]
 }

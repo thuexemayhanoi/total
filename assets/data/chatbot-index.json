@@ -2624,5 +2624,65 @@
    "điểm mù xe tải",
    "đâm đuôi xe máy"
   ]
+ },
+ {
+  "url": "wiki/thuat-ngu-xe/ecu-tren-xe-may-la-gi/",
+  "title": "ECU trên xe máy là gì",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Xe máy đời mới bấm nút là nổ, ga là lên đều, tiêu hao xăng thấp hơn hẳn dòng xe cũ — phần lớn công trạng thuộc về một chi tiết bé bằng bàn tay giấu dưới yên: bộ điều khiển electronic, gọi tắt ECU. Bài viết này giải thích ECU là gì bằng ngôn ngữ người dùng: bộ não của xe, nơi nhận tín hiệu từ các cảm biến — vị trí bướm ga, nhiệt độ máy, nhiệt độ gió vào, vòng tua, oxy trong khí xả — rồi tính ra lượng xăng phun, thời điểm bugi đánh lửa, và nhịp máy chạy không tải. Vì sao xe có ECU thay vì bộ chế hòa khí: đáp ứng chính xác theo từng tình huống, tiết kiệm xăng, giảm khí xả độc, và tự khởi động máy nguội mà không cần cần gió. ECU làm gì mỗi giây: đọc cảm biến, đối chiếu bản đồ dữ liệu nhà sản xuất đã ghi sẵn, ra lệnh cho vòi phun và bugi — lặp lại hàng nghìn lần mỗi phút. Dấu hiệu ECU trục trặc: đèn kiểm tra máy sáng, đề lâu nổ hoặc không nổ, ga không lên đều, hao xăng bất thường — và lưu ý đa số triệu chứng giống ECU lại do cảm biến hoặc giắc nối lỗi, đừng vội đổi ECU. Chăm sóc ECU: tránh rửa xe xịt nước áp lực thẳng vào khu vực giắc điện, giữ ắc quy khỏe vì điện áp yếu rối loạn dữ liệu, và khi cần sửa thì dùng thiết bị chẩn đoán đọc mã lỗi thay vì mò mẫm. Bài cũng nói về giới hạn: ECU không phải hộp đen thần bí — nó chỉ tốt theo dữ liệu được ghi vào, và việc đọc mã lỗi là quyền của người dùng.",
+  "quickAnswer": "Trả lời ngắn: ECU là bộ điều khiển electronic của xe máy phun xăng điện tử — bộ não nhỏ nhận tín hiệu từ các cảm biến về ga, nhiệt độ máy, nhiệt độ gió vào, vòng tua, rồi tính và ra lệnh: lượng xăng vòi phun xịt, thời điểm bugi đánh lửa, chế độ khởi động máy nguội. Xe có ECU nên không cần cần gió — máy tự làm giàu hỗn hợp lúc lạnh — và ga lên đều, tốn xăng ít hơn. Dấu hiệu ECU có vấn đề: đèn kiểm tra máy trên bảng sáng, đề lâu nổ, ga giật không đều, hao xăng vô cớ. Nhưng chú ý: đa số triệu chứng giống vậy lại do cảm biến bẩn, giắc lỏng, ắc quy yếu — đọc mã lỗi bằng thiết bị chẩn đoán trước, không đổi ECU vội. Bảo quản: không xịt nước áp lực thẳng vào cụm giắc điện, giữ ắc quy khỏe — điện áp loạn làm dữ liệu loạn theo. ECU hỏng thật thì sửa ở chỗ có thiết bị đọc mã đúng, và hỏi mã lỗi là gì để biết mình trả tiền cho việc gì.",
+  "keyPoints": [
+   "ECU là bộ não xe máy phun xăng điện tử: đọc cảm biến, tính lượng xăng và thời điểm đánh lửa theo từng nhịp máy.",
+   "Có ECU nên xe tự khởi động máy nguội, ga đều, tốn xăng ít — không cần cần gió như xe buồng hòa khí.",
+   "Đèn kiểm tra máy sáng, đề khó, ga giật, hao xăng vô cớ là dấu hiệu cần đọc mã lỗi sớm.",
+   "Đa số triệu chứng giống lỗi ECU lại do cảm biến bẩn, giắc lỏng, ắc quy yếu — chẩn đoán trước, đổi sau."
+  ],
+  "entities": [
+   "ECU",
+   "cảm biến",
+   "vòi phun",
+   "bướm ga",
+   "mã lỗi",
+   "đèn kiểm tra máy"
+  ],
+  "keywords": [
+   "ECU xe máy là gì",
+   "bộ điều khiển xe máy",
+   "đèn kiểm tra máy xe máy",
+   "đọc mã lỗi xe máy",
+   "ECU hỏng dấu hiệu",
+   "xe máy phun xăng điện tử"
+  ]
+ },
+ {
+  "url": "guide/xu-ly-su-co/sau-khi-nga-xe-may-kiem-tra-nguoi-va-xe/",
+  "title": "Sau khi ngã xe máy: kiểm tra người và xe",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Ngã xe máy là ca không ai muốn tập trước — nhưng vài phút ngay sau cú ngã lại là khoảng thời gian quyết định giữa thương nhẹ và biến chứng nặng. Bài viết này sắp thứ tự ưu tiên đúng chuẩn: người trước xe, giấy tờ sau cùng. Ba mươi giây đầu: nằm im tự kiểm, đừng vội bật dậy vì cú ngã có thể làm cổ và lưng tổn thương mà adrenaline che đi; lăn ra khỏi luồng xe nếu đang nằm giữa đường. Kiểm tra người theo thứ tự: đầu và cổ, nhìn hai bên vai có đau dữ không; cử động ngón tay chân — không cử động được thì kêu cứu và giữ nguyên tư thế, chờ người có chuyên môn đỡ; sờ gờ xương đòn, sườn; xem trầy và chỗ ống pô có bỏng da không. Khi nào cần đi viện ngay: bất tỉnh dù chỉ vài giây, đau cổ hoặc lưng dữ dội, mất cảm giác hoặc tê chân tay, chảy máu không cầm bằng ấn trực tiếp, gãy nhìn thấy biến dạng hoặc nghe tiếng kêu xương lúc ngã. Kiểm tra xe trước khi đi tiếp: bóp phanh thử khi xe đứng, nhìn lỏng tay lái, cần ga không kẹt, vòng tua không lên tự do, lốp và vành, nhớt rò từ nắp máy, đèn xi nhan phanh. Đi thử chậm vài chục mét quanh khu vực an toàn rồi mới vào đường chính. Phần sau: chụp ảnh hiện trường và vị trí xe ngay khi có thể — phục vụ bảo hiểm và xác định trách nhiệm; ghi lại thời điểm, đường, thời tiết; và bài học phòng ngã lần sau từ chính nguyên nhân cú ngã.",
+  "quickAnswer": "Trả lời ngắn: sau khi ngã, thứ tự là người — xe — giấy tờ. Ba mươi giây đầu nằm im tự kiểm: nhìn thấy rõ, không đau cổ lưng, ngón tay chân cử động được, máu không chảy mạnh. Đang giữa đường thì lăn sát lề theo hướng ít xe nhất, đừng đứng bật dậy ngay. Cần đi viện ngay nếu: bất tỉnh dù vài giây, đau cổ hoặc lưng dữ, tê yếu tay chân, chảy máu không cầm sau vài phút ấn, hoặc nghe tiếng rắc gãy lúc ngã. Xe: bóp phanh đứng thử, xem tay lái không lệch, ga về được, lốp không xì, không rò nhớt — rồi đi thử chậm vài chục mét ở đoạn an toàn mới vào đường chính. Chụp ảnh hiện trường, vị trí xe, giấy tờ còn đủ; gọi người thân nếu mình lơ đãng vì sốc. Sau tất cả, tự hỏi nguyên nhân cú ngã là gì — vật cản, lốp non, phanh gắt, đeo bám — và sửa nguyên nhân đó để cú ngã không lặp lại.",
+  "keyPoints": [
+   "Ba mươi giây đầu nằm im tự kiểm: đầu, cổ, ngón tay chân cử động được, máu không chảy mạnh — rồi mới lăn tới chỗ an toàn.",
+   "Cần đi viện ngay: bất tỉnh dù vài giây, đau cổ lưng dữ, tê yếu tay chân, máu không cầm, nghe tiếng rắc gãy lúc ngã.",
+   "Không tự dựng dậy người ngã đau cổ: giữ nguyên tư thế, kêu người trông xe luồng, chờ người có chuyên môn đỡ.",
+   "Kiểm tra xe theo thứ tự: phanh đứng, tay lái, cần ga, lốp vành, rò nhớt, đèn — rồi đi thử chậm ở đoạn an toàn."
+  ],
+  "entities": [
+   "ngã xe",
+   "sốc",
+   "trầy xước",
+   "kiểm tra xe",
+   "bảo hiểm",
+   "hiện trường"
+  ],
+  "keywords": [
+   "ngã xe máy xử lý",
+   "kiểm tra sau khi ngã xe",
+   "ngã xe máy đi viện",
+   "sau khi ngã xe kiểm tra xe",
+   "ngã xe máy bảo hiểm",
+   "sốc sau khi ngã xe"
+  ]
  }
 ]
