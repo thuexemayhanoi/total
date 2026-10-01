@@ -3321,6 +3321,56 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-bao-duong/ve-sinh-va-bao-quan-mu-bao-hiem/",
+  "title": "Vệ sinh và bảo quản mũ bảo hiểm",
+  "description": "Mũ bảo hiểm bẩn gây mùi hôi, nấm và làm giảm tuổi thọ lớp xốp. Bài viết hướng dẫn giặt mũ đúng cách, phơi đúng chỗ và nhận biết khi nào mũ hết hạn sử dụng.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "mũ bảo hiểm",
+   "lớp lót xốp",
+   "kính mũ",
+   "quai mũ",
+   "nấm mốc",
+   "xà phòng trung tính"
+  ],
+  "keywords": [
+   "vệ sinh mũ bảo hiểm",
+   "giặt mũ bảo hiểm",
+   "bảo quản mũ bảo hiểm",
+   "mũ bảo hiểm hôi",
+   "mũ bảo hiểm hết hạn",
+   "chăm sóc mũ bảo hiểm"
+  ],
+  "summary": "Mũ bảo hiểm là món đồ bị sử dụng gắt nhất và chăm sóc ít nhất trên chiếc xe: ngày nào cũng đeo vài giờ, hấp hết mồ hôi, ám khói bụi đường, rồi bị treo vào gọng thùng xe phơi nắng mưa quanh năm. Kết quả là chiếc mũ hai nhăm tuổi trở thành chỗ sinh sôi vi nấm ng"
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/di-xe-may-qua-duong-ham-luu-y/",
+  "title": "Đi xe máy qua đường hầm: lưu ý",
+  "description": "Đường hầm đổi ánh sáng, âm và khoảng làn chỉ trong vài giây vào cửa. Bài viết hướng dẫn chuẩn bị kính mũ, vị trí làn, tốc độ và xử lý lúc kẹt xe sâu bên trong.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "đường hầm",
+   "hầm chui",
+   "kính mũ",
+   "rãnh thoát nước",
+   "dải dừng khẩn cấp",
+   "đèn xe"
+  ],
+  "keywords": [
+   "đi xe máy qua hầm",
+   "lưu ý khi qua đường hầm",
+   "hầm chui xe máy",
+   "an toàn trong hầm",
+   "bật đèn xe khi qua hầm",
+   "kẹt xe giữa đường"
+  ],
+  "summary": "Hầm chui và hầm vượt ngày càng phổ biến ở các đô thị lớn, và đi xe máy qua hầm là một trải nghiệm hoàn toàn khác với đi trên đường hở: chỉ trong vài giây qua cửa vào, mắt phải chuyển từ nắng chói sang ánh đèn vàng công nghiệp, âm thanh động cơ của cả dòng xe d"
+ },
+ {
+  "kind": "article",
   "url": "guide/xu-ly-su-co/xe-may-khong-no-may-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe máy không nổ máy: nguyên nhân và cách xử lý",
   "description": "Xe máy không nổ máy: cách chẩn đoán theo trình tự nhiên liệu - điện - cơ khí, các nguyên nhân phổ biến và khi nào cần gọi hỗ trợ thay vì sửa tại chỗ.",

@@ -2118,11 +2118,13 @@
    "title": "Vệ sinh và bảo quản mũ bảo hiểm",
    "primaryIntent": "informational/ve-sinh-va-bao-quan-mu-bao-hiem",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:36:35.972Z",
-   "updatedAt": "2026-10-01T04:36:35.975Z"
+   "updatedAt": "2026-10-01T04:42:50.940Z",
+   "seoScore": 100,
+   "words": 2905
   },
   {
    "id": "S00146",
@@ -2131,11 +2133,13 @@
    "title": "Đi xe máy qua đường hầm: lưu ý",
    "primaryIntent": "informational/di-xe-may-qua-duong-ham-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:36:36.064Z",
-   "updatedAt": "2026-10-01T04:36:36.066Z"
+   "updatedAt": "2026-10-01T04:42:50.940Z",
+   "seoScore": 100,
+   "words": 2756
   }
  ]
 }
