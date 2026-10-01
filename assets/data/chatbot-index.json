@@ -2182,6 +2182,66 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-khu-cho-luu-y/",
+  "title": "Đi xe máy qua khu chợ: giữ an toàn giữa chật chội",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Khu chợ là một trong những môi trường giao thông đặc thù nhất mà người đi xe máy đô thị phải qua lại thường xuyên: lề đường bị sạp hàng và xe bán chiếm gần hết, người bộ hành băng ngang liên tục với tư duy \"chỉ vài bước\", xe mua hàng dừng nghiêng ngay giữa đoạn hẹp, hàng hóa và sạp tràn ra chiếm cả tầm nhìn. Điểm khác biệt của chợ so với đường đông thông thường: ở chợ, mọi chủ thể đều chấp nhận đi chậm và chấp nhận dừng — nhưng chính vì vậy, kẽ hở nhỏ nhất cũng bị người ta lọt vào, và một xe máy cố giữ nhịp bình thường giữa dòng người đang \"tự sắp xếp\" là nguồn xung đột lớn nhất. Bài viết này chia vấn đề theo ba tầng: tầng quan sát — đọc các mẫu hình nguy hiểm đặc trưng của chợ như người vác bao băng ngang, trẻ chạy theo mẹ, xe thúng ba bánh rẽ ngược; tầng thao tác — chọn tốc độ, chọn làn, chọn thời điểm vượt và cách xử lý khi bị kẹt giữa cụm người; và tầng đỗ xe — vì đi qua chợ đa số là để mua hàng, phần lớn rủi ro và mất mát thật sự nằm ở khúc đỗ xe: chọn chỗ, chống trộm, và cách sắp xếp để không chắn lối. Toàn bài xoay quanh một nguyên tắc đơn giản: ở khu chợ, người chịu thương tật khi va chạm luôn là người đi bộ — và vì vậy người lái xe máy là bên có toàn bộ trách nhiệm điều chỉnh.",
+  "quickAnswer": "Trả lời ngắn: qua khu chợ, hạ tốc về gần bằng bước người bộ hành và coi lề đường là \"nước lớn\" — người có thể băng ra từ sạp bất cứ lúc nào, hàng hóa có thể rơi, xe dừng mua hàng có thể nghiêng bất ngờ. Không đi sát mép sạp; đi theo rãnh xe mà dòng xe đang tự xếp, giữ tốc độ thấp nhất của dòng thay vì tìm cách vượt từng chiếc. Nhường tuyệt đối người bộ hành băng ngang, kể cả khi họ đi ngược quy tắc — ở chợ, khoảng vài bước ngắn không ai quan niệm là \"băng đường\". Khi dừng mua hàng: chọn chỗ đỗ có người qua lại nhìn thấy được, khóa cổ, khóa từ, không chèn xe chắn lối sạp; mua nhanh ở gần xe khi được. Nếu bị kẹt giữa cụm người: chân đặt sẵn, không vặn ga, chờ dòng tự dãn — kẹt thêm vài phút đổi lấy một vết xước là giao dịch lỗ.",
+  "keyPoints": [
+   "Tốc độ qua chợ do mật độ người bộ hành quyết định, không phải biển — hạ về gần bằng bước người đi, đủ dừng được trong một hai mét.",
+   "Coi lề đường như vùng nguy hiểm cao: người băng ra từ sạp, hàng rơi, xe dừng mua hàng nghiêng bất ngờ — đi theo rãnh xe giữa đường hơn là bám sát mép sạp.",
+   "Nhường người bộ hành tuyệt đối, kể cả khi họ đi không theo quy tắc — ở chợ, bên chịu thương tật khi va chạm luôn là người đi bộ.",
+   "Không vượt trong đoạn chật: kẽ hở nhỏ được người ta lọt vào ngay, và xe máy cố giữ nhịp bình thường giữa dòng tự sắp xếp là nguồn xung đột lớn nhất."
+  ],
+  "entities": [
+   "khu chợ",
+   "người bộ hành",
+   "sạp hàng",
+   "xe thúng ba bánh",
+   "chỗ đỗ xe",
+   "tốc độ an toàn"
+  ],
+  "keywords": [
+   "đi xe máy qua khu chợ",
+   "xe máy đường chật chội",
+   "an toàn khi đi chợ",
+   "đỗ xe máy ở chợ",
+   "tránh va chạm người đi bộ",
+   "đường đông người đi chậm"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/do-xe-may-tren-le-doc-an-toan/",
+  "title": "Đỗ xe máy trên lề dốc: chống trôi và lăn",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Đỗ xe máy trên mặt bằng phẳng là thao tác phản xạ, nhưng trên lề dốc thì mọi giả định của thao tác đó đều thay đổi: chân chống nghiêng theo độ dốc làm xe đứng xiên hơn thiết kế, mặt nhựa nóng mùa hè làm chân chống lún, và trọng lượng xe có xu hướng trôi theo hướng dốc bất chấp khóa cổ. Bài viết này giải thích ba lực đang đấu với nhau khi xe đỗ trên dốc — trọng lực kéo theo phương dốc, ma sát chân chống với mặt đường, và lực giữ của hệ truyền động khi vào số — rồi từ đó rút ra quy trình đỗ đúng cho hai tình huống: dốc lên và dốc xuống. Nội dung bao gồm cách quay đầu xe vào lề sao cho bánh trước khum men theo mép đường, việc vào số một như một lớp khóa cơ khí thứ hai, điểm khác nhau giữa chân chống bên và càng giữa trên mặt dốc, cách xử lý khi mặt đường là nhựa mềm hoặc đất mềm, và cách kiểm tra trước khi rời xe — nghiêng nhẹ vào xe để thử độ đứng. Phần cuối nhắc lại một nguyên tắc mà nhiều người bỏ qua: xe đỗ trên dốc không chỉ tự vệ — nó còn bị tác động từ bên ngoài: gió lớn, xe khác đỗ chạm, trẻ em dựa — và lớp phòng thủ tốt nhất vẫn là vị trí đỗ và hướng bánh, chứ không phải một lớp khóa duy nhất.",
+  "quickAnswer": "Trả lời ngắn: đỗ trên dốc lên, quay đầu xe sao cho bánh trước hướng vào lề và hơi lái về phía mép — xe nếu trôi sẽ bị mép đường đỡ; đỗ trên dốc xuống, vẫn quay bánh trước vào lề và cho xe nghiêng sao cho trọng lượng ép vào chân chống phía trên dốc. Vào số một trước khi rời xe: số vào làm bánh sau khóa cứng với động cơ, tạo lớp chặn cơ khí mà không lớp khóa điện nào thay được. Buông côn từ từ để xe ăn số, không để côn căng. Ưu tiên chân chống bên đặt phía cao của mặt đường, mặt đặt phẳng; nếu mặt nhựa nóng hoặc đất mềm thì lót tấm ván mỏng dưới chân chống. Trước khi đi: nghiêng nhẹ xe thử độ đứng, nhìn góc xiên của xe so với mặt đường. Không bao giờ đỗ ngang mặt dốc hoặc chỉ trông chờ vào khóa cổ — trôi xe trên dốc xảy ra trong chớp mắt và xe tự lăn là vật nặng không thể né.",
+  "keyPoints": [
+   "Quay đầu bánh trước vào lề khi đỗ trên dốc — xe nếu trôi sẽ bị mép đường chặn lại thay vì chạy thẳng ra lòng đường.",
+   "Vào số một và buông côn từ từ trước khi rời xe: bánh sau khóa cứng với động cơ là lớp chặn cơ khí mà khóa điện không thay được.",
+   "Chân chống bên nên đặt phía cao của mặt dốc, mặt đặt phẳng — lót ván mỏng trên nhựa nóng hoặc đất mềm để chống lún.",
+   "Không đỗ ngang mặt dốc: xe nghiêng quá góc an toàn của chân chống là tự đổ, kể cả khi không trôi."
+  ],
+  "entities": [
+   "lề dốc",
+   "chân chống",
+   "vào số một",
+   "bánh trước",
+   "mặt nhựa nóng",
+   "khóa cổ xe"
+  ],
+  "keywords": [
+   "đỗ xe máy trên dốc",
+   "xe máy đỗ lề dốc",
+   "chống trôi xe máy",
+   "vào số khi đỗ xe",
+   "chân chống xe máy",
+   "đỗ xe máy an toàn"
+  ]
+ },
+ {
   "url": "wiki/dau-nhot/dau-nhot-xe-may-loai-chu-ky-va-cach-chon/",
   "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
   "category": "Bách khoa xe",

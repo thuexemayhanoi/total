@@ -2298,11 +2298,13 @@
    "title": "Đi xe máy qua khu chợ: giữ an toàn giữa chật chội",
    "primaryIntent": "informational/di-xe-may-qua-khu-cho-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:24:09.572Z",
-   "updatedAt": "2026-10-01T05:24:09.574Z"
+   "updatedAt": "2026-10-01T05:29:27.920Z",
+   "seoScore": 100,
+   "words": 2676
   },
   {
    "id": "S00158",
@@ -2311,11 +2313,13 @@
    "title": "Đỗ xe máy trên lề dốc: chống trôi và lăn",
    "primaryIntent": "informational/do-xe-may-tren-le-doc-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T05:24:09.648Z",
-   "updatedAt": "2026-10-01T05:24:09.649Z"
+   "updatedAt": "2026-10-01T05:29:27.920Z",
+   "seoScore": 91,
+   "words": 2734
   }
  ]
 }

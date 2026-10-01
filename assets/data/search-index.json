@@ -3650,6 +3650,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-khu-cho-luu-y/",
+  "title": "Đi xe máy qua khu chợ: giữ an toàn giữa chật chội",
+  "description": "Khu chợ chật chội có người bộ hành băng ngang, xe dừng mua hàng và sạp chiếm lề. Bài viết chỉ cách đi xe máy qua chợ an toàn và chọn chỗ đỗ xe.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "khu chợ",
+   "người bộ hành",
+   "sạp hàng",
+   "xe thúng ba bánh",
+   "chỗ đỗ xe",
+   "tốc độ an toàn"
+  ],
+  "keywords": [
+   "đi xe máy qua khu chợ",
+   "xe máy đường chật chội",
+   "an toàn khi đi chợ",
+   "đỗ xe máy ở chợ",
+   "tránh va chạm người đi bộ",
+   "đường đông người đi chậm"
+  ],
+  "summary": "Khu chợ là một trong những môi trường giao thông đặc thù nhất mà người đi xe máy đô thị phải qua lại thường xuyên: lề đường bị sạp hàng và xe bán chiếm gần hết, người bộ hành băng ngang liên tục với tư duy \"chỉ vài bước\", xe mua hàng dừng nghiêng ngay giữa đoạ"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/do-xe-may-tren-le-doc-an-toan/",
+  "title": "Đỗ xe máy trên lề dốc: chống trôi và lăn",
+  "description": "Đỗ xe máy trên lề dốc dễ bị trôi, lăn hoặc đổ khi chân chống lún. Bài viết chỉ cách vào số, quay đầu xe và chọn chỗ đỗ đúng.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "lề dốc",
+   "chân chống",
+   "vào số một",
+   "bánh trước",
+   "mặt nhựa nóng",
+   "khóa cổ xe"
+  ],
+  "keywords": [
+   "đỗ xe máy trên dốc",
+   "xe máy đỗ lề dốc",
+   "chống trôi xe máy",
+   "vào số khi đỗ xe",
+   "chân chống xe máy",
+   "đỗ xe máy an toàn"
+  ],
+  "summary": "Đỗ xe máy trên mặt bằng phẳng là thao tác phản xạ, nhưng trên lề dốc thì mọi giả định của thao tác đó đều thay đổi: chân chống nghiêng theo độ dốc làm xe đứng xiên hơn thiết kế, mặt nhựa nóng mùa hè làm chân chống lún, và trọng lượng xe có xu hướng trôi theo h"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dau-nhot/dau-nhot-xe-may-loai-chu-ky-va-cach-chon/",
   "title": "Dầu nhớt xe máy: loại, chu kỳ thay và cách chọn",
   "description": "Dầu nhớt xe máy: vai trò trong động cơ, khác nhau giữa dầu khoáng, bán tổng hợp và tổng hợp, cách đọc nhãn độ sệt và chuẩn API JASO, chu kỳ thay theo điều kiện chạy.",
