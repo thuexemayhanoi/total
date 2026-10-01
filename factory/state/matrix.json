@@ -1428,11 +1428,13 @@
    "title": "Học lái xe máy từ đầu: lộ trình cho người mới",
    "primaryIntent": "informational/hoc-lai-xe-may-tu-dau-cho-nguoi-moi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:21:09.453Z",
-   "updatedAt": "2026-10-01T01:21:09.456Z"
+   "updatedAt": "2026-10-01T01:24:04.024Z",
+   "seoScore": 100,
+   "words": 2383
   },
   {
    "id": "S00100",
@@ -1441,11 +1443,13 @@
    "title": "Xăng E5 với xe máy: lưu ý khi dùng",
    "primaryIntent": "informational/xang-e5-voi-xe-may-luu-y-khi-dung",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:21:09.565Z",
-   "updatedAt": "2026-10-01T01:21:09.569Z"
+   "updatedAt": "2026-10-01T01:24:04.024Z",
+   "seoScore": 91,
+   "words": 2556
   }
  ]
 }

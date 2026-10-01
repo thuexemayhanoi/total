@@ -2090,6 +2090,31 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dau-nhot/xang-e5-voi-xe-may-luu-y-khi-dung/",
+  "title": "Xăng E5 với xe máy: lưu ý khi dùng",
+  "description": "Xăng E5 dùng được cho xe máy thế nào: khác biệt so với xăng thường, những lưu ý khi đổ và bảo quản xe, cùng cách nhận biết xe chạy không hợp.",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "entities": [
+   "xăng E5",
+   "ethanol",
+   "nhiên liệu xe máy",
+   "bình xăng",
+   "hút ẩm",
+   "khuyến cáo nhà sản xuất"
+  ],
+  "keywords": [
+   "xăng E5 xe máy",
+   "xe máy dùng xăng E5 được không",
+   "xăng E5 có hại cho xe máy",
+   "xăng E5 để lâu",
+   "xe máy ga không đều sau khi đổ E5",
+   "phân biệt xăng E5 và xăng thường"
+  ],
+  "summary": "Xăng E5 — xăng pha ethanol năm phần trăm — đã trở thành loại xăng bán phổ biến tại nhiều cây xăng, và câu hỏi của người đi xe máy không phải dùng được không, mà là dùng thế nào cho đúng. Bài viết này trả lời theo bốn nhóm vấn đề. Bản chất: ethanol là cồn có hà"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/",
   "title": "Đặt cọc thuê ô tô: những điều cần biết",
   "description": "Đặt cọc thuê ô tô: khác nhau giữa cọc tiền mặt và giữ trước trên thẻ, điều khoản trừ cọc hợp lệ, mối quan hệ với bảo hiểm và cách đối chiếu khi nhận lại cọc.",
@@ -4321,5 +4346,30 @@
    "nguyên tắc tốc độ theo tầm nhìn"
   ],
   "summary": "Trời sương là một trong những điều kiện khó hơn cả mưa lớn: không có tiếng rào rào báo động, không có gió nổi — chỉ có một bức màn trắng lặng lẽ ăn dần tầm nhìn, và nhiều người đi xe chỉ điều chỉnh cảm giác chứ không điều chỉnh tốc độ. Sự thật cần khắc ghi: tố"
+ },
+ {
+  "kind": "article",
+  "url": "docs/huong-dan-su-dung/hoc-lai-xe-may-tu-dau-cho-nguoi-moi/",
+  "title": "Học lái xe máy từ đầu: lộ trình cho người mới",
+  "description": "Lộ trình học lái xe máy cho người mới bắt đầu: chuẩn bị xe và sân tập, các bước quen tay lái, ra đường lần đầu và thói quen an toàn cần rèn.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [
+   "học lái xe máy",
+   "người mới lái",
+   "sân tập xe",
+   "mũ bảo hiểm",
+   "kỹ năng lái xe",
+   "bằng lái xe máy"
+  ],
+  "keywords": [
+   "học lái xe máy từ đầu",
+   "cách tập lái xe máy",
+   "người mới đi xe máy",
+   "tập lái xe máy sân tập",
+   "lộ trình học xe máy",
+   "ra đường lần đầu đi xe máy"
+  ],
+  "summary": "Học lái xe máy không khó vì kỹ thuật, khó vì thứ tự học sai: nhiều người ngồi lên xe là muốn ra đường ngay, trong khi mọi kỹ năng an toàn — ga, phanh, dựng xe, ngước nhìn — đều phải được đặt đúng chỗ trước khi dòng chảy giao thông tham gia. Bài viết này sắp xế"
  }
 ]

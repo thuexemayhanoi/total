@@ -312,6 +312,36 @@
   ]
  },
  {
+  "url": "wiki/dau-nhot/xang-e5-voi-xe-may-luu-y-khi-dung/",
+  "title": "Xăng E5 với xe máy: lưu ý khi dùng",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Xăng E5 — xăng pha ethanol năm phần trăm — đã trở thành loại xăng bán phổ biến tại nhiều cây xăng, và câu hỏi của người đi xe máy không phải dùng được không, mà là dùng thế nào cho đúng. Bài viết này trả lời theo bốn nhóm vấn đề. Bản chất: ethanol là cồn có hàm lượng oxy, trộn vào xăng giúp cháy đầy hơn và giảm phụ thuộc xăng khoáng; khác biệt đáng kể nhất với người dùng là ethanol hút ẩm — xăng E5 để lâu trong bình dễ lẫn nước, và hơi ẩm có thể làm máy chạy không đều. Tương thích: hầu hết xe máy đời mới chạy được với E5 theo khuyến cáo của nhà sản xuất, nhưng xe quá cũ với dây dẫn và phụ tùng cao su cũ có thể cần kiểm tra — lời khuyên gốc vẫn là xem tài liệu xe và hỏi kỹ thuật viên quen. Sử dụng hằng ngày: đổ ở trạm uy tín, quay nhanh, không để xăng cũ tồn trong bình hàng tháng trời — xe để lâu nên đổ ít và chạy hết; nếu máy có dấu hiệu ga không đều sau khi đổ, thử đổi nguồn xăng trước khi nghĩ hư hỏng lớn. Bảo quản xe mùa ẩm: bình càng đầy càng ít không gian ngưng tụ nước, xe để lâu không chạy nên khởi động định kỳ hoặc đổ tối thiểu. Kết: E5 không phải kẻ thù của xe máy, cũng không phải phép màu tiết kiệm — nó là một loại nhiên liệu với tính cách riêng, và người dùng hiểu tính cách ấy thì chẳng có gì phải lo lắng.",
+  "quickAnswer": "Trả lời ngắn: xe máy dùng xăng E5 được với vài lưu ý. Một, xem tài liệu xe: hầu hết xe đời mới khuyến cáo dùng được, xe quá cũ thì hỏi kỹ thuật viên trước khi chuyển hẳn. Hai, đặc tính hút ẩm: E5 để lâu trong bình dễ lẫn nước — đổ ở trạm quay nhanh, không mua xăng để tồn, xe nghỉ dài ngày thì đổ ít và chạy hết rồi đổ mới. Ba, bình càng đầy càng ít ngưng tụ: xe để lâu nên khởi động định kỳ hoặc đổ tối thiểu rồi chạy hết. Bốn, khi máy ga không đều sau khi đổ: nghi ngờ nguồn xăng trước — đổi trạm, chạy hết bình xem có đỡ không, rồi mới nghĩ tới hư hỏng khác. Năm, không pha trộn tự ý và không đổ xăng trôi nổi không nguồn gốc: chất lượng ethanol và tỉ lệ pha mới là thứ quyết định E5 tốt hay xấu. Ghi nhớ: E5 là nhiên liệu hợp lệ, tính năng xe hầu như không đổi — thứ cần quản lý là xăng cũ và ẩm, không phải cái tên E5.",
+  "keyPoints": [
+   "E5 là xăng pha ethanol năm phần trăm — nhiên liệu hợp lệ, hầu hết xe máy đời mới khuyến cáo dùng được; xe quá cũ thì kiểm tra trước khi chuyển hẳn.",
+   "Điểm khác biệt quan trọng nhất: ethanol hút ẩm — xăng E5 để lâu trong bình dễ lẫn nước, gây máy chạy không đều, khó đề khi để dành.",
+   "Đổ ở trạm quay nhanh, không để xăng cũ tồn hàng tháng: xe nghỉ dài nên đổ ít, chạy hết rồi đổ mới.",
+   "Bình càng đầy, ít ngưng tụ: xe để lâu không chạy hoặc khởi động định kỳ, hoặc đổ tối thiểu cho đủ chạy cữ ngắn."
+  ],
+  "entities": [
+   "xăng E5",
+   "ethanol",
+   "nhiên liệu xe máy",
+   "bình xăng",
+   "hút ẩm",
+   "khuyến cáo nhà sản xuất"
+  ],
+  "keywords": [
+   "xăng E5 xe máy",
+   "xe máy dùng xăng E5 được không",
+   "xăng E5 có hại cho xe máy",
+   "xăng E5 để lâu",
+   "xe máy ga không đều sau khi đổ E5",
+   "phân biệt xăng E5 và xăng thường"
+  ]
+ },
+ {
   "url": "thue-xe/xe-oto/dat-coc-thue-o-to-nhung-dieu-can-biet/",
   "title": "Đặt cọc thuê ô tô: những điều cần biết",
   "category": "Thuê xe",
@@ -2983,6 +3013,36 @@
    "tầm nhìn khi lái xe",
    "đi xe máy sáng sớm sương mù",
    "nguyên tắc tốc độ theo tầm nhìn"
+  ]
+ },
+ {
+  "url": "docs/huong-dan-su-dung/hoc-lai-xe-may-tu-dau-cho-nguoi-moi/",
+  "title": "Học lái xe máy từ đầu: lộ trình cho người mới",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "summary": "Học lái xe máy không khó vì kỹ thuật, khó vì thứ tự học sai: nhiều người ngồi lên xe là muốn ra đường ngay, trong khi mọi kỹ năng an toàn — ga, phanh, dựng xe, ngước nhìn — đều phải được đặt đúng chỗ trước khi dòng chảy giao thông tham gia. Bài viết này sắp xếp lộ trình học thành năm chặng. Chuẩn bị: xe ga hoặc xe số nhẹ cho người mới, mũ đạt chuẩn, sân tập bằng phẳng vắng người — sân tập là lớp học, đường là kỳ thi. Chặng làm quen xe không nổ máy: chỉnh gương, dựng chống đôi, đẩy xe đi quen trọng lượng, bóp phanh đứng tại chỗ cảm nhận lực. Chặng điều khiển tại chỗ: đề máy, quen tay ga ở chỗ trống người, đi vòng chậm trong sân — tốc độ học không nằm ở ga lớn, nằm ở ga nhỏ đều. Chặng kỹ năng trước khi ra đường: bóp phanh cho dừng hẳn đúng chỗ vạch, quay đầu trong phạm vi hẹp, tự dựng xe và lấy lại tư thế lên xuống xe tử tế. Chặng ra đường lần đầu: chọn sáng sớm đường vắng, đi theo người có kinh nghiệm phía trước, quỹ đạo quen thuộc ngắn rồi mới kéo dài. Chặng thành thói quen: mỗi chuyến đi đều kiểm ba điểm — gương, tín hiệu, khoảng cách — và hiểu rằng bằng lái mới là giấy chứng nhận được phép học, không phải giấy chứng nhận đã biết. Cuối bài là các lỗi người mới hay bỏ qua khiến việc học kéo dài: học bằng xe quá nặng, học khi mệt, và ngại quay lại sân tập sau lần ngã nhẹ.",
+  "quickAnswer": "Trả lời ngắn: học lái xe máy theo năm chặng. Một, chuẩn bị: xe nhẹ vừa sức, mũ đạt chuẩn, sân tập bằng phẳng vắng người — đừng học giữa đường đông. Hai, làm quen xe tắt máy: chỉnh gương, đẩy xe đi quen trọng lượng, bóp phanh cảm nhận lực tay. Ba, điều khiển trong sân: đề máy, quen ga nhỏ đều, đi vòng chậm, tập dừng đúng vạch, quay đầu trong hẹp. Bốn, ra đường lần đầu: sáng sớm đường vắng, có người kinh nghiệm đi trước, quỹ đường ngắn gần nhà rồi mới kéo dài. Năm, thành thói quen: mỗi chuyến kiểm gương — tín hiệu — khoảng cách, và lấy bằng lái xong vẫn coi mình đang học. Ba lỗi khiến học lâu: xe quá nặng so với sức, tập lúc mệt, và ngại quay lại sân sau một lần ngã nhẹ — ngã trong lúc học là một phần chương trình, sợ ngã mới là thứ phá lộ trình.",
+  "keyPoints": [
+   "Chuẩn bị đúng: xe nhẹ vừa sức, mũ đạt chuẩn, sân tập bằng phẳng vắng người — sân là lớp học, đường là kỳ thi, đừng đảo thứ tự.",
+   "Làm quen xe với máy tắt: chỉnh gương theo mình, đẩy xe đi quen trọng lượng, bóp phanh đứng cảm nhận lực — nền móng của mọi kỹ năng sau.",
+   "Tập trong sân trước khi ra đường: ga nhỏ đều, dừng đúng vạch, quay đầu trong hẹp, lên xuống xe tử tế — bốn kỹ năng nền.",
+   "Ra đường lần đầu: sáng sớm đường vắng, đi theo người có kinh nghiệm phía trước, quỹ đường ngắn quen thuộc rồi kéo dài dần."
+  ],
+  "entities": [
+   "học lái xe máy",
+   "người mới lái",
+   "sân tập xe",
+   "mũ bảo hiểm",
+   "kỹ năng lái xe",
+   "bằng lái xe máy"
+  ],
+  "keywords": [
+   "học lái xe máy từ đầu",
+   "cách tập lái xe máy",
+   "người mới đi xe máy",
+   "tập lái xe máy sân tập",
+   "lộ trình học xe máy",
+   "ra đường lần đầu đi xe máy"
   ]
  }
 ]
