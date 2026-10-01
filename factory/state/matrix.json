@@ -1278,11 +1278,13 @@
    "title": "Kỹ thuật đi xe máy trong gió lớn",
    "primaryIntent": "informational/ky-thuat-di-xe-may-trong-gio-lon",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:54:18.858Z",
-   "updatedAt": "2026-10-01T00:54:18.860Z"
+   "updatedAt": "2026-10-01T00:57:31.772Z",
+   "seoScore": 91,
+   "words": 1981
   },
   {
    "id": "S00090",
@@ -1291,11 +1293,13 @@
    "title": "Chạy ấm máy trước khi đi: có cần không",
    "primaryIntent": "informational/chay-am-may-truoc-khi-di-can-khong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:54:18.954Z",
-   "updatedAt": "2026-10-01T00:54:18.956Z"
+   "updatedAt": "2026-10-01T00:57:31.772Z",
+   "seoScore": 100,
+   "words": 2016
   }
  ]
 }
