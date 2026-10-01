@@ -1668,11 +1668,13 @@
    "title": "Đăng kiểm xe máy: quy trình và lưu ý",
    "primaryIntent": "informational/dang-kiem-xe-may-quy-trinh-va-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:06:28.857Z",
-   "updatedAt": "2026-10-01T02:06:28.859Z"
+   "updatedAt": "2026-10-01T02:10:37.689Z",
+   "seoScore": 100,
+   "words": 2894
   },
   {
    "id": "S00116",
@@ -1681,11 +1683,13 @@
    "title": "Chi phí lăn bánh xe máy mới gồm những gì",
    "primaryIntent": "informational/chi-phi-lan-banh-xe-may-moi-gom-nhung-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:06:28.947Z",
-   "updatedAt": "2026-10-01T02:06:28.949Z"
+   "updatedAt": "2026-10-01T02:10:37.689Z",
+   "seoScore": 100,
+   "words": 3071
   }
  ]
 }
