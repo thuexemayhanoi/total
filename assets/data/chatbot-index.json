@@ -2575,6 +2575,36 @@
   ]
  },
  {
+  "url": "guide/xu-ly-su-co/o-ga-va-vet-san-tren-duong-nhan-biet-va-xu-ly/",
+  "title": "Ổ gà và vết san trên đường: nhận biết và xử lý",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Ổ gà là sự cố đường nằm im chờ người vội: nó không nhường, không đổi chỗ, và gần như mọi người đi xe máy đều từng ăn một cú — khác biệt chỉ nằm ở chỗ người này đâm qua trong tư thế sẵn sàng và xe chỉ hụt bánh, người kia đâm qua lúc đang phanh gấp cho một chuyện khác và nằm ra giữa đường với cân xe gãy. Bài viết này gom lại kinh nghiệm xử lý các bẫy mặt đường thành một hệ: phần nhận biết — đọc ổ gà, vết san, rãnh cắt, mép nhựa sập từ xa qua màu sắc mặt đường, bóng nước, tư thế của các xe đi trước; phần phòng ngự — đặt xe ở đâu, giữ tốc độ nào, và vì sao nhìn xa ba giây trước mũi xe là miễn phí còn repair thì không; phần xử lý trong khoảnh khắc — kỹ thuật đè qua ổ gà đúng cách: nhả phanh ngay trước vệt, rót trọng tâm xuống chân, hông nhún theo, và tuyệt đối không bóp phanh hoặc ra ga giữa vệt; phần xử lý tình huống đã trót — không nhìn thấy, bánh trước đã rơi: làm gì trong hai phần mười giây để đổi cú ngã thành cú hụt; và phần sau cú đâm — kiểm tra xe theo thứ tự mối nguy trước mối hư: phanh, coccấu lái, vành, ống dầu; và khi nào phải đi sửa chứ không nên đi tiếp. Thông điệp xuyên suốt: với mặt đường, người lái cảnh giác hơn mặt đường tốt hơn — vì mặt đường xấu luôn xuất hiện sớm hơn bộ phận chịu tải muốn.",
+  "quickAnswer": "Trả lời ngắn: ổ gà và vết san xử lý được bằng ba tầng. Tầng một là nhìn xa — quét mặt đường ba, bốn giây phía trước thay vì nhìn vào đuôi xe trước, vì nhìn xuống ba mét trước bánh thì mọi ổ gà đều hiện ra quá muộn để làm gì. Tầng hai là né đúng — đổi vệt bánh từ xa với tín hiệu cho xe sau, không đánh lái đột ngột sát vệt; không né được thì chuẩn bị đè qua: nhả phanh hết ngay trước ổ gà, giữ ga đều, gót ghì sát hông yên, để người nhún theo cú va thay vì cứng ngắc đón nó — bóp phanh giữa vệt ổ gà là công thức ngã kinh điển vì bánh trước đang vùi thì lực phanh kéo nó trượt luôn. Tầng ba là sau cú đâm — dừng kiểm tra ở chỗ an toàn: bóp phanh thử xem còn ăn, thò lắc tay lái nghe có đơ lỏng không, ngó vành cong, mốp mép vành, ống phanh dầu chảy; mà bánh mép gãy hay nghiêng cột trước thì đừng cố đi tiếp. Và với vệt san, rãnh cắt mép đường: đặt bánh song song qua nó chứ không chéo — bánh băng qua vệt theo phương dọc gần như mất tiếng va, băng chéo là tự quay xe trong hai phần mười giây.",
+  "keyPoints": [
+   "Ổ gà phát hiện được từ xa: nhìn mặt đường ba, bốn giây phía trước mũi xe — nhìn xuống sát bánh thì mọi vệt đều hiện ra sau khi đã quá muộn.",
+   "Né từ xa với tín hiệu cho xe sau; không đánh lái chèn vọt sát vệt — cú va với xe bên cạnh tệ hơn cú hụt của chính ổ gà.",
+   "Không né được thì đè qua đúng kỹ thuật: nhả phanh hết trước vệt, giữ ga đều, trọng tâm thấp, người nhún theo cú va — không bóp phanh, không ra ga giữa vệt.",
+   "Băng qua vệt san và rãnh cắt theo phương song song với vệt, không chéo — bánh chéo qua rãnh là tự lay động cả hệ lái trong tích tắc."
+  ],
+  "entities": [
+   "ổ gà",
+   "vết san",
+   "mặt đường",
+   "phanh",
+   "nhún giảm xóc",
+   "vành bánh xe"
+  ],
+  "keywords": [
+   "ổ gà trên đường",
+   "vết san xe máy",
+   "đi xe qua ổ gà",
+   "mặt đường xấu xe máy",
+   "bánh xe đâm ổ gà",
+   "rãnh cắt mặt đường"
+  ]
+ },
+ {
   "url": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/",
   "title": "Thuê xe điện theo tháng: những điều cần biết",
   "category": "Thuê xe",
@@ -2603,6 +2633,36 @@
    "chi phí sạc xe điện",
    "hợp đồng thuê xe điện",
    "thuê xe điện giao hàng"
+  ]
+ },
+ {
+  "url": "ride/an-toan-giao-thong/bi-xe-khac-bam-sau-giu-an-toan-va-xu-ly/",
+  "title": "Bị xe khác bám sát phía sau: giữ an toàn và xử lý",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Bị bám sát là một trong những tình huống khiến người đi xe máy mất đầu óc nhanh nhất: một chiếc xe máy, ô tô hay xe tải lù lù sau lưng, và mọi cú phanh của mình bỗng trở thành chuyện của hai người. Phản ứng phổ biến nhất làtăng tốc — dùng ga để thoát, và đó là phản ứng sai, vì nó trao cho người bám sát đúng cái anh ta đang muốn: mình chạy nhanh hơn trong khi anh ta vẫn ở đó, xa hơn chút nhưng vẫn dính vào sau với khoảng cách đóng lại ở tốc độ cao hơn, nơi mọi tai nạn đều nặng hơn. Phản ứng sai thứ hai là phanh gắt nhẹ để dạy — nhát phanh đe dọa mang lại cảm giác đã trả đũa, nhưng nó đổi một khó chịu nhỏ lấy một rủi ro va chạm thật: người phía sau có thể không phanh kịp, và trong mọi tranh cãi sau tai nạn, xe bóp phanh đe dọa phía trước luôn là xe khó nói hơn. Bài viết này sắp xếp vấn đề theo trình tự của một người chuyên nghiệp: trước hết hiểu tại sao bị bám sát thường là hệ quả của chính cách mình đi — đi chậm trên làn nhanh, đi lệch làn, phanh thất thường; rồi phần cơ chế — khoảng cách dừng của người sau không thuộc quyền kiểm soát của mình, thứ thuộc quyền kiểm soát là nhịp đi của mình; phần xử lý — giữ tốc độ ổn định, nhường đường đúng cách, dùng tín hiệu đúng lúc, khôngtăng tốc tranh giành; phần tình huống đặc biệt — bị bám sát trong hẻm hẹp, trên cao tốc, vào lúc trời tối hay mưa; và phần đáy vấn đề — khi nào bị bám sát biến thành nỗi đe dọa cá nhân và cần xử lý kiểu khác hẳn. Thông điệp xuyên suốt: người bị bám sát không có nghĩa vụ bỏ chạy, chỉ có nghĩa vụ đi cho dễ đoán.",
+  "quickAnswer": "Trả lời ngắn: bị xe khác bám sát sau lưng, việc đầu tiên không phải tăng tốc thoát mà là tự hỏi vì sao mình bị bám — đi chậm trên làn trong, giữ nhịp thất thường, hay phanh gấp không lý do. Sau đó giữ nguyên tốc độ ổn định, cho xe sau thấy mình dễ đoán: không phanh bất chợt, không đổi hướng đột ngột. Nếu đường rộng và có chỗ nhường được thì bật đèn xin nhường đúng luật và nhường hẳn cho qua — nhường sớm là mua lại khoảng không gian cho chính mình. Tuyệt đối không tăng tốc đua: thoát một xe bám sát bằng tốc độ chỉ tạo ra một xe bám sát khác nguy hiểm hơn. Không nhát phanh đe dọa — cú phanh gắt không lý do của xe phía trước là bước gần nhất tới va chạm thật. Đo khoảng cách an toàn của mình với chướng ngại phía trước theo xe sau: cứ đi với khoảng cách đủ để mình phanh nhẹ nhàng hai lần thay vì một lần, để xe sau đọc được tín hiệu qua nhịp phanh của mình. Nếu xe sau bám sát kiểu đe dọa — rú ga, bấm còi, bon ngay sát — tìm không gian công cộng: kéo về chỗ đông người, trạm xăng, trạm cảnh sát, rồi dừng hẳn để tình huống hết là chuyện hai xe trên đường. An toàn trong tình huống này đến từ dễ đoán, không phải từ nhanh.",
+  "keyPoints": [
+   "Bị bám sát phần lớn đến từ nhịp đi của chính mình: đi chậm trên làn trong, phanh thất thường, đổi hướng không tín hiệu — sửa nhịp đi trước rồi hãy trách người sau.",
+   "Tăng tốc để thoát xe bám sát là phản ứng sai về bản chất: nó giữ nguyên xe bám sát và nâng toàn bộ tai nạn tiềm năng lên tốc độ cao hơn.",
+   "Nhát phanh đe dọa không dạy được ai — nó chỉ tự biến mình thành xe khó lý giải nhất trong hồ sơ tai nạn nếu xe sau không kịp dừng.",
+   "Nhường đường đúng cách: đèn xin, lệch hẳn, để xe qua dứt khoát — mua lại không gian xung quanh mình bằng một lần nhường sớm."
+  ],
+  "entities": [
+   "bám sát",
+   "khoảng cách an toàn",
+   "nhường đường",
+   "tín hiệu phanh",
+   "làn đường",
+   "đe dọa trên đường"
+  ],
+  "keywords": [
+   "bị xe bám sát phía sau",
+   "xe bám sát xử lý",
+   "nhường đường xe máy",
+   "khoảng cách với xe sau",
+   "đi xe dễ đoán",
+   "xe đe dọa trên đường"
   ]
  },
  {

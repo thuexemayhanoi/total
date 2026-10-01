@@ -3978,6 +3978,31 @@
  },
  {
   "kind": "article",
+  "url": "guide/xu-ly-su-co/o-ga-va-vet-san-tren-duong-nhan-biet-va-xu-ly/",
+  "title": "Ổ gà và vết san trên đường: nhận biết và xử lý",
+  "description": "Ổ gà, vết san và mép đường sập là bẫy quen thuộc của người đi xe máy. Bài viết chỉ cách nhận biết từ xa, né hay đè qua đúng kỹ thuật, và kiểm tra xe sau cú đâm.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "ổ gà",
+   "vết san",
+   "mặt đường",
+   "phanh",
+   "nhún giảm xóc",
+   "vành bánh xe"
+  ],
+  "keywords": [
+   "ổ gà trên đường",
+   "vết san xe máy",
+   "đi xe qua ổ gà",
+   "mặt đường xấu xe máy",
+   "bánh xe đâm ổ gà",
+   "rãnh cắt mặt đường"
+  ],
+  "summary": "Ổ gà là sự cố đường nằm im chờ người vội: nó không nhường, không đổi chỗ, và gần như mọi người đi xe máy đều từng ăn một cú — khác biệt chỉ nằm ở chỗ người này đâm qua trong tư thế sẵn sàng và xe chỉ hụt bánh, người kia đâm qua lúc đang phanh gấp cho một chuyệ"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/",
   "title": "Thuê xe điện theo tháng: những điều cần biết",
   "description": "Thuê xe điện theo tháng: khi nào hợp lý, thỏa thuận pin và trạm sạc trong hợp đồng dài hạn, trách nhiệm suy giảm pin, bảo dưỡng và nghiệm thu khi trả xe.",
@@ -4001,6 +4026,31 @@
    "thuê xe điện giao hàng"
   ],
   "summary": "Thuê xe điện theo tháng đang trở thành lựa chọn của nhiều người công tác dài hạn, sinh viên và người giao hàng nội thành: chi phí năng lượng thấp, xe êm và không tốn xăng. Nhưng hợp đồng dài hạn với xe điện có một chủ đề riêng mà thuê xe xăng không có: pin — t"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/bi-xe-khac-bam-sau-giu-an-toan-va-xu-ly/",
+  "title": "Bị xe khác bám sát phía sau: giữ an toàn và xử lý",
+  "description": "Bị xe khác bám sát sau lưng dễ khiến người đi xe máy xử lý sai. Bài viết chỉ cách giữ khoảng cách, truyền tín hiệu và lối thoát an toàn.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "bám sát",
+   "khoảng cách an toàn",
+   "nhường đường",
+   "tín hiệu phanh",
+   "làn đường",
+   "đe dọa trên đường"
+  ],
+  "keywords": [
+   "bị xe bám sát phía sau",
+   "xe bám sát xử lý",
+   "nhường đường xe máy",
+   "khoảng cách với xe sau",
+   "đi xe dễ đoán",
+   "xe đe dọa trên đường"
+  ],
+  "summary": "Bị bám sát là một trong những tình huống khiến người đi xe máy mất đầu óc nhanh nhất: một chiếc xe máy, ô tô hay xe tải lù lù sau lưng, và mọi cú phanh của mình bỗng trở thành chuyện của hai người. Phản ứng phổ biến nhất làtăng tốc — dùng ga để thoát, và đó là"
  },
  {
   "kind": "article",

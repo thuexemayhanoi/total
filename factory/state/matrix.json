@@ -2478,11 +2478,13 @@
    "title": "Ổ gà và vết san trên đường: nhận biết và xử lý",
    "primaryIntent": "informational/o-ga-va-vet-san-tren-duong-nhan-biet-va-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T15:20:54.593Z",
-   "updatedAt": "2026-10-01T15:20:54.596Z"
+   "updatedAt": "2026-10-01T15:26:34.047Z",
+   "seoScore": 100,
+   "words": 3219
   },
   {
    "id": "S00170",
@@ -2491,11 +2493,13 @@
    "title": "Bị xe khác bám sát phía sau: giữ an toàn và xử lý",
    "primaryIntent": "informational/bi-xe-khac-bam-sau-giu-an-toan-va-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T15:20:54.689Z",
-   "updatedAt": "2026-10-01T15:20:54.691Z"
+   "updatedAt": "2026-10-01T15:26:34.048Z",
+   "seoScore": 100,
+   "words": 3477
   }
  ]
 }
