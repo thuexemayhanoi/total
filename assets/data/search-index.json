@@ -4221,5 +4221,55 @@
    "sau khi đi qua đường ngập kiểm tra gì"
   ],
   "summary": "Đường ngập là một trong những tình huống đánh đố xe máy nhất: nước không chỉ làm mất ma sát của lốp và mất lực phanh, mà còn tìm mọi khe hở để tràn vào máy — bugi, gió máy, ống xả — và một chiếc xe tắt máy giữa dòng nước chảy là một vấn đề lớn hơn nhiều lần mộ"
+ },
+ {
+  "kind": "article",
+  "url": "docs/huong-dan-su-dung/di-xe-may-so-ky-thuat-bop-con-va-chuyen-so/",
+  "title": "Đi xe máy số: kỹ thuật bóp côn và chuyển số",
+  "description": "Hướng dẫn đi xe máy số từ cơ bản đến thuần thục: bóp côn đúng điểm, chuyển số đúng vòng tua, xuống số an toàn và các lỗi hay làm mòn côn.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [
+   "xe máy số",
+   "bộ côn",
+   "tay côn",
+   "chuyển số",
+   "điểm ma sát côn",
+   "kỹ thuật lái xe số"
+  ],
+  "keywords": [
+   "đi xe máy số đúng cách",
+   "bóp côn xe máy",
+   "kỹ thuật chuyển số xe số",
+   "xe máy số lên số khi nào",
+   "điểm ma sát côn",
+   "xuống số xe máy số"
+  ],
+  "summary": "Xe máy số vẫn là loại xe phổ biến nhất trên đường Việt Nam — từ chiếc xe số phổ thông chở hàng chở người đến các dòng xe thể thao — nhưng rất nhiều người đi xe số nhiều năm mà vẫn bóp côn chuyển số theo thói quen sai, để lại hai hậu quả âm thầm: bộ côn mòn sớm"
+ },
+ {
+  "kind": "article",
+  "url": "learn/chuan-doan-loi/xe-may-rung-tay-lai-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Xe máy rung tay lái: nguyên nhân và cách xử lý",
+  "description": "Tay lái xe máy rung khi phanh, khi tăng tốc hay rung ngay từ lúc chạy chậm: các nguyên nhân thường gặp từ vành, lốp, trục lái và cách kiểm tra từng bước.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "entities": [
+   "rung tay lái",
+   "lốp xe máy",
+   "vành xe",
+   "trục lái",
+   "ốp lái",
+   "bố phanh trước"
+  ],
+  "keywords": [
+   "xe máy rung tay lái",
+   "xe máy rung khi chạy nhanh",
+   "xe máy rung khi phanh",
+   "chẩn đoán rung tay lái",
+   "xe rung khi tăng tốc",
+   "lốp mòn gây rung"
+  ],
+  "summary": "Cảm giác rung truyền lên tay lái là một trong những tín hiệu chẩn đoán hữu ích nhất của xe máy, vì mỗi nhóm nguyên nhân để lại một dạng rung riêng: rung theo tốc độ và biến mất khi về số thấp thường dẫn về lốp và vành; rung chỉ khi bóp phanh trước dẫn về bố ho"
  }
 ]

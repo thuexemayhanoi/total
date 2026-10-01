@@ -1368,11 +1368,13 @@
    "title": "Đi xe máy số: kỹ thuật bóp côn và chuyển số",
    "primaryIntent": "informational/di-xe-may-so-ky-thuat-bop-con-va-chuyen-so",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:10:50.974Z",
-   "updatedAt": "2026-10-01T01:10:50.976Z"
+   "updatedAt": "2026-10-01T01:14:04.723Z",
+   "seoScore": 100,
+   "words": 2601
   },
   {
    "id": "S00096",
@@ -1381,11 +1383,13 @@
    "title": "Xe máy rung tay lái: nguyên nhân và cách xử lý",
    "primaryIntent": "informational/xe-may-rung-tay-lai-nguyen-nhan-va-cach-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T01:10:51.058Z",
-   "updatedAt": "2026-10-01T01:10:51.060Z"
+   "updatedAt": "2026-10-01T01:14:04.723Z",
+   "seoScore": 100,
+   "words": 2492
   }
  ]
 }

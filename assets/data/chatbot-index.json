@@ -2864,5 +2864,65 @@
    "nước vào gió máy",
    "sau khi đi qua đường ngập kiểm tra gì"
   ]
+ },
+ {
+  "url": "docs/huong-dan-su-dung/di-xe-may-so-ky-thuat-bop-con-va-chuyen-so/",
+  "title": "Đi xe máy số: kỹ thuật bóp côn và chuyển số",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "summary": "Xe máy số vẫn là loại xe phổ biến nhất trên đường Việt Nam — từ chiếc xe số phổ thông chở hàng chở người đến các dòng xe thể thao — nhưng rất nhiều người đi xe số nhiều năm mà vẫn bóp côn chuyển số theo thói quen sai, để lại hai hậu quả âm thầm: bộ côn mòn sớm và động cơ bị kéo ở vòng tua không hợp lý. Bài viết này đi theo trình tự một người mới học. Hiểu bộ côn trước: tay côn điều khiển hai tấm ma sát tách ra hoặc ép vào — bóp côn là tách, nhả côn là nối — và điểm ma sát ở nửa hành trình nhả là khoảnh khắc quan trọng nhất của mọi thao tác. Kỹ thuật xuất phát: bóp côn hết cỡ, về số một, nhả từ từ đến điểm ma sát, cảm giác xe nhích lên thì giữ nhịp ga — đi học xe là học nhịp tay chân ăn khớp này. Chuyển số lên: ga tới vòng tua hợp lý, bóp côn dứt khoát, nhả côn từ từ — lên số quá sớm làm máy đuối, lên quá muộn làm máy gào và hao xăng. Xuống số: bóp côn, giảm số, nhả chậm và cảm nhận — xuống số khi cần lực cho dốc, khi chuẩn bị phanh, và luôn xuống số từng nấc chứ không nhảy số. Các lỗi kinh điển: giữ nửa côn dài ngày ở đèn đỏ, tay trái bóp côn theo phản xạ mỗi lần phanh gấp dù không cần chuyển số, về số không khi xe chưa dừng hẳn. Cuối cùng là bài tập nhịp: một chuyến đi yên tĩnh, tự đếm nhịp bóp-nhả, để tay chân tự ghi nhớ thay vì đầu óc nghĩ từng bước.",
+  "quickAnswer": "Trả lời ngắn: đi xe máy số gói trong ba kỹ thuật. Một, bóp côn đúng: bóp hết cỡ khi chuyển số, nhả từ từ đến điểm ma sát — nửa hành trình đầu là nơi xe bắt đầu nhận lực; hiểu điểm này là hiểu mấu chốt của mọi thao tác. Hai, chuyển số đúng lúc: lên số khi máy đã đủ vòng tua, nghe tiếng máy đậm và xe có đà; xuống số khi máy bắt đầu đuối, khi vào dốc, hoặc khi cần phanh mạnh hơn — xuống từng nấc, không nhảy số. Ba, bỏ thói quen đắt tiền: không giữ nửa côn dài ở đèn đỏ, không bóp côn khi phanh gấp nếu không cần chuyển số, không về số không khi xe còn lăn. Bộ côn là chi tiết hao mòn, và cách tay trái xử lý nó quyết định tuổi thọ của cả bộ — bóp dứt khoát, nhả từ từ, đừng nửa vời.",
+  "keyPoints": [
+   "Hiểu bộ côn: bóp là tách lực, nhả là nối lực, điểm ma sát ở nửa hành trình nhả là khoảnh khắc xe bắt đầu nhận lực.",
+   "Xuất phát: bóp côn hết, về số một, nhả từ từ tới điểm ma sát, ga nhịp nhàng — học nhịp tay chân ăn khớp là học đi xe số.",
+   "Lên số đúng lúc: máy đậm và có đà thì lên, lên sớm làm máy đuối, kéo dài ga gào làm hao xăng và mòn máy.",
+   "Xuống số từng nấc: khi vào dốc, khi cần lực phanh, khi máy đuối — nhả côn chậm để vòng tua khớp lại với bánh xe."
+  ],
+  "entities": [
+   "xe máy số",
+   "bộ côn",
+   "tay côn",
+   "chuyển số",
+   "điểm ma sát côn",
+   "kỹ thuật lái xe số"
+  ],
+  "keywords": [
+   "đi xe máy số đúng cách",
+   "bóp côn xe máy",
+   "kỹ thuật chuyển số xe số",
+   "xe máy số lên số khi nào",
+   "điểm ma sát côn",
+   "xuống số xe máy số"
+  ]
+ },
+ {
+  "url": "learn/chuan-doan-loi/xe-may-rung-tay-lai-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Xe máy rung tay lái: nguyên nhân và cách xử lý",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Cảm giác rung truyền lên tay lái là một trong những tín hiệu chẩn đoán hữu ích nhất của xe máy, vì mỗi nhóm nguyên nhân để lại một dạng rung riêng: rung theo tốc độ và biến mất khi về số thấp thường dẫn về lốp và vành; rung chỉ khi bóp phanh trước dẫn về bố hoặc má phanh; rung khi ga ở tốc độ thấp nhịp đều dẫn về xích và chuỗi truyền lực; còn hiện tượng xe loằng ngoằng cả tay lẫn cảm giác bánh trước lắc nhẹ thì thường ở cụm trục lái và ốp lái. Bài viết này chia bài chẩn đoán thành các vòng kiểm tra từ đơn giản đến phức tạp: lốp non hoặc mòn cào bằng, vành cong nhẹ sau ổ gà lớn, nan hoa lỏng, then hoa và ốc xy-lanh lỏng, bố phanh trước hoặc cam phanh mòn, bạc trục lái mòn, ốp lái chai. Mỗi vòng kèm cách kiểm tại nhà bằng tay và mắt thường trước khi đến thợ, cùng ranh giới an toàn: những dấu hiệu nào của cụm lái thì không nên tự theo dõi thêm tại nhà. Điều quan trọng nhất cần nhớ: rung tay lái không phải phiền phức nhỏ để quen dần — nó vừa là dấu hiệu hư hỏng đang tiến triển, vừa là thứ làm mòn dần khả năng cảm nhận đường của người lái, và tay lái yếu rung cũng là tay lái yếu phản xạ đúng thời điểm.",
+  "quickAnswer": "Trả lời ngắn: xe rung tay lái thì chẩn theo tình huống rung. Rung tăng theo tốc độ và giảm khi về số thấp: soi lốp có mòn cào bằng, gờ cào, hay đóng cục bùn trong vành — lốp non hoặc lốp mòn lệch là nguyên nhân phổ biến nhất. Rung chỉ khi bóp phanh trước: bố hoặc má phanh trước mòn, cong, hoặc cam phanh mòn — tháo bánh ra kiểm là chắc nhất. Rung nhịp đều ở ga thấp: xích khô, nhông sên mòn, giỏ xích lỏng. Rung theo bánh xe quay tròn: vành cong, nan hoa lỏng, then hoa hoặc ốc xy-lanh lỏng — nâng bánh xoay tay xem vành lắc lư. Toàn bộ xe lỏng lẻo cảm giác lạc tay: kiểm trục lái và ốp lái — nhấc bánh trước lắc nhẹ theo phương dọc, có khe hở đập nhẹ là bạc mòn. Cụm lái là nhóm an toàn: trục lái lỏng, ốp lái mòn, hoặc phanh trước bất thường thì đến thợ ngay, không tự theo dõi thêm tại nhà.",
+  "keyPoints": [
+   "Rung tăng theo tốc độ, giảm khi về số thấp: soi lốp trước — non hơi, mòn cào bằng, gờ cào, hoặc cục bùn đóng trong vành là nhóm phổ biến nhất.",
+   "Rung chỉ khi bóp phanh trước: dẫn về bố hoặc má phanh cong mòn, cam phanh mòn — nhóm cần xử sớm vì nằm trên vòng an toàn.",
+   "Rung nhịp đều theo bánh: vành cong nhẹ, nan hoa hoặc ốc xy-lanh lỏng — nâng bánh xoay tay xem quỹ đạo vành và nan có nhấp nhô không.",
+   "Cảm giác xe lạc tay, bánh trước lắc nhẹ theo phương dọc: trục lái hoặc ốp lái mòn — nhấc bánh trước lắc thử là kiểm được tại nhà."
+  ],
+  "entities": [
+   "rung tay lái",
+   "lốp xe máy",
+   "vành xe",
+   "trục lái",
+   "ốp lái",
+   "bố phanh trước"
+  ],
+  "keywords": [
+   "xe máy rung tay lái",
+   "xe máy rung khi chạy nhanh",
+   "xe máy rung khi phanh",
+   "chẩn đoán rung tay lái",
+   "xe rung khi tăng tốc",
+   "lốp mòn gây rung"
+  ]
  }
 ]
