@@ -2418,11 +2418,13 @@
    "title": "Kỹ thuật đi xe máy qua cầu: gió ngang và mặt đường",
    "primaryIntent": "informational/ky-thuat-di-xe-may-qua-cau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T14:37:35.225Z",
-   "updatedAt": "2026-10-01T14:37:35.228Z"
+   "updatedAt": "2026-10-01T14:42:30.556Z",
+   "seoScore": 91,
+   "words": 3017
   },
   {
    "id": "S00166",
@@ -2431,11 +2433,13 @@
    "title": "Đi xe máy khi trời nắng gắt: giữ người mát và tỉnh táo",
    "primaryIntent": "informational/di-xe-may-khi-troi-nang-gat",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T14:37:35.306Z",
-   "updatedAt": "2026-10-01T14:37:35.308Z"
+   "updatedAt": "2026-10-01T14:42:30.556Z",
+   "seoScore": 100,
+   "words": 3124
   }
  ]
 }

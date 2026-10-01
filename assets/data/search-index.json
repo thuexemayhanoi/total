@@ -3878,6 +3878,56 @@
  },
  {
   "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/ky-thuat-di-xe-may-qua-cau/",
+  "title": "Kỹ thuật đi xe máy qua cầu: gió ngang và mặt đường",
+  "description": "Qua cầu bằng xe máy khác hẳn đường thường: gió ngang hở hai bên, mối nối đầu cầu và làn hẹp không lối thoát. Bài viết chỉ kỹ thuật đi đúng.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "cầu",
+   "gió ngang",
+   "mối nối cầu",
+   "khe giãn nở",
+   "làn đường",
+   "xe tải"
+  ],
+  "keywords": [
+   "qua cầu an toàn",
+   "gió ngang trên cầu",
+   "kỹ thuật qua cầu",
+   "mặt đường cầu",
+   "cầu một làn",
+   "đi xe máy trên cầu"
+  ],
+  "summary": "Cầu là một trong những đoạn đường đòi hỏi kỹ năng riêng của người đi xe máy, bởi ba đặc tính không có trên đường thường: gió ngang không bị che chắn — hai bên cầu hở thoáng nên gió thẳng hướng thổi xe lệch làn mà không có nhà cửa chặn lại; mặt đường thay đổi đ"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/di-xe-may-khi-troi-nang-gat/",
+  "title": "Đi xe máy khi trời nắng gắt: giữ người mát và tỉnh táo",
+  "description": "Nắng gắt bào mòn nước, sự tập trung và khả năng phán đoán của người đi xe máy. Bài viết chỉ cách giữ người mát, nhận say nắng và nghỉ đúng lúc.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "nắng gắt",
+   "mất nước",
+   "say nắng",
+   "mũ bảo hiểm",
+   "bóng mát",
+   "nghỉ giữa đường"
+  ],
+  "keywords": [
+   "đi xe máy trời nắng",
+   "say nắng khi đi xe",
+   "mất nước khi lái xe",
+   "nghỉ giữa đường nắng",
+   "che nắng khi đi xe máy",
+   "chống nắng người đi xe"
+  ],
+  "summary": "Trời nắng gắt ảnh hưởng đến người đi xe máy theo một đường mà ít ai để ý: không phải cái nóng khiến khó chịu, mà là chuỗi suy yếu diễn ra âm thầm — mất nước làm máu đặc đi, máu đặc làm đầu óc chậm lại, và đầu óc chậm thì mọi kỹ năng lái tốt đến đâu cũng chỉ ch"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/",
   "title": "Thuê xe điện theo tháng: những điều cần biết",
   "description": "Thuê xe điện theo tháng: khi nào hợp lý, thỏa thuận pin và trạm sạc trong hợp đồng dài hạn, trách nhiệm suy giảm pin, bảo dưỡng và nghiệm thu khi trả xe.",
