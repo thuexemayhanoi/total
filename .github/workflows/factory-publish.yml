@@ -1,0 +1,86 @@
+name: Factory Publish (pair)
+
+# Publish pipeline đơn giản cho AI WIKI TOTAL — học từ /vanchinh, engine Node.
+# KHÔNG AI, KHÔNG API key, KHÔNG secret. Writer ngoài (Mistral run) commit
+# article files + state; workflow derive EXACT scope từ files Added/Modified
+# trong push rồi chạy tooling chính thống:
+#   push article mới: push-scope (exact IDs) -> guard state sạch
+#                     -> publish-pair (atomic: scoped QA >= 75 + SEO >= 70
+#                        -> generate -> verify-pair -> flip PUBLISHED -> clear txn)
+#   repair article:   push-scope mode=repair -> publish-pair chấm lại đúng IDs
+#   commit khác:      SCOPE rỗng -> workflow thoát sạch, không đụng gì
+# MỘT commit derived state (site sinh lại + matrix/checkpoint/factory-state)
+# mỗi chunk; cổng cuối assert state sạch + backlog 0 + site xanh.
+on:
+  push:
+    branches: [main]
+    paths: ['factory/data/articles/**', '.github/workflows/factory-publish.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: factory-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Resume + recover (txn sót sau crash thì gom trước)
+        run: |
+          node factory/factory.js resume
+          node factory/factory.js recover-txn
+
+      - name: Select push scope (exact IDs từ article files Added/Modified)
+        id: scope
+        run: |
+          set -e
+          out=$(node factory/factory.js push-scope)
+          echo "$out"
+          ids=$(echo "$out" | sed -n 's/^SCOPE_IDS=//p')
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+          echo "mode=$(echo "$out" | sed -n 's/^SCOPE_MODE=//p')" >> "$GITHUB_OUTPUT"
+          echo "scope: mode=$(echo "$out" | sed -n 's/^SCOPE_MODE=//p') ids=$ids"
+
+      - name: Guard: factory state sạch (không lock, không txn, checkpoint khớp)
+        if: steps.scope.outputs.ids != ''
+        run: node factory/factory.js check-state
+
+      - name: Publish pair (atomic, QA >= 75 + SEO >= 70, đúng SCOPE_IDS)
+        if: steps.scope.outputs.ids != ''
+        run: node factory/factory.js publish-pair "${{ steps.scope.outputs.ids }}" --owner ci-publisher
+
+      - name: Commit derived state (một commit mỗi chunk)
+        if: steps.scope.outputs.ids != ''
+        run: |
+          git config user.name "total-factory-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no state changes to commit"
+          else
+            git commit -m "factory: publish pair ${{ steps.scope.outputs.ids }} [automated txn]"
+            ok=0
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push; then ok=1; break; fi
+              echo "push/rebase thất bại (lần $i) — retry sau 5s"
+              sleep 5
+              git rebase --abort 2>/dev/null || true
+            done
+            if [ "$ok" != "1" ]; then echo "KHÔNG push được state sau 3 lần"; exit 1; fi
+          fi
+
+      - name: Cổng cuối: state sạch + backlog 0 + site sinh lại khớp
+        if: steps.scope.outputs.ids != ''
+        run: |
+          node factory/factory.js check-state
+          node factory/factory.js backlog --fail-if-claimable
+          node factory/factory.js generate --check
