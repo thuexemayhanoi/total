@@ -1818,11 +1818,13 @@
    "title": "Khi bị CSGT dừng xe: quy trình và quyền",
    "primaryIntent": "informational/khi-bi-dung-xe-kiem-tra-quy-trinh-va-quyen",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T03:43:55.875Z",
-   "updatedAt": "2026-10-01T03:43:55.877Z"
+   "updatedAt": "2026-10-01T03:46:52.498Z",
+   "seoScore": 100,
+   "words": 3091
   },
   {
    "id": "S00126",
@@ -1831,11 +1833,13 @@
    "title": "Bộ vá lốp không săng: chọn và dùng giữa đường",
    "primaryIntent": "informational/bo-va-lop-khong-sang-chon-va-su-dung",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T03:43:55.966Z",
-   "updatedAt": "2026-10-01T03:43:55.968Z"
+   "updatedAt": "2026-10-01T03:46:52.498Z",
+   "seoScore": 100,
+   "words": 2821
   }
  ]
 }
