@@ -2058,11 +2058,13 @@
    "title": "Dừng đỗ xe máy đúng quy định",
    "primaryIntent": "informational/dung-do-xe-may-dung-quy-dinh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:26:20.659Z",
-   "updatedAt": "2026-10-01T04:26:20.662Z"
+   "updatedAt": "2026-10-01T04:29:22.020Z",
+   "seoScore": 100,
+   "words": 3000
   },
   {
    "id": "S00142",
@@ -2071,11 +2073,13 @@
    "title": "Động vật chạy ra đường: xử lý như thế nào",
    "primaryIntent": "informational/dong-vat-chay-ra-duong-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T04:26:20.746Z",
-   "updatedAt": "2026-10-01T04:26:20.748Z"
+   "updatedAt": "2026-10-01T04:29:22.020Z",
+   "seoScore": 100,
+   "words": 3078
   }
  ]
 }

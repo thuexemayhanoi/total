@@ -3221,6 +3221,56 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/dung-do-xe-may-dung-quy-dinh/",
+  "title": "Dừng đỗ xe máy đúng quy định",
+  "description": "Dừng đỗ sai chỗ là lỗi bị xử phạt phổ biến nhất tại nội đô. Bài viết giải thích chỗ nào được dừng, chỗ nào cấm và trình tự nhận xe khi bị cưỡng chế.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "dừng xe",
+   "đỗ xe",
+   "biển cấm dừng đỗ",
+   "vỉa hè",
+   "cưỡng chế",
+   "xử phạt vi phạm"
+  ],
+  "keywords": [
+   "dừng đỗ xe máy",
+   "nơi cấm đỗ xe máy",
+   "đỗ xe lên vỉa hè",
+   "bị treo xe máy",
+   "biển cấm dừng đỗ",
+   "quy định đỗ xe máy"
+  ],
+  "summary": "Dừng và đỗ xe máy là thao tác lặp lại nhiều lần mỗi ngày, và cũng là một trong những lỗi bị xử phạt nhiều nhất trong nội đô: đỗ lên vỉa hè chật người đi bộ, đỗ sát góc giao lộ che khuất tầm nhìn, đỗ trên vạch dành cho xe buýt, hoặc đơn giản là gác xe trước cửa"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/dong-vat-chay-ra-duong-xu-ly/",
+  "title": "Động vật chạy ra đường: xử lý như thế nào",
+  "description": "Chó, mèo, gà, bò chạy ra đường là tình huống bất ngờ nhất với người đi xe máy. Bài viết hướng dẫn kỹ năng quan sát sớm, phanh đúng và xử lý sau va chạm với động vật.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "động vật trên đường",
+   "chó đuổi xe",
+   "gia súc",
+   "phanh khẩn cấp",
+   "quan sát sớm",
+   "va chạm"
+  ],
+  "keywords": [
+   "chó chạy ra đường",
+   "động vật băng qua đường",
+   "chó đuổi xe máy",
+   "né động vật trên đường",
+   "đường quê chó gà",
+   "xe máy tông chó"
+  ],
+  "summary": "Trong danh sách các tình huống bất ngờ trên đường Việt Nam, động vật xuất hiện đột ngột chiếm vị trí đặc biệt: chó nằm giữa làn đường quen thuộc, gà lao ra từ bụi cây, bò đi thẳng qua đường cong không cảnh báo ở vùng ngoại ô, và chó đuổi theo bánh xe — kịch bả"
+ },
+ {
+  "kind": "article",
   "url": "guide/xu-ly-su-co/xe-may-khong-no-may-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe máy không nổ máy: nguyên nhân và cách xử lý",
   "description": "Xe máy không nổ máy: cách chẩn đoán theo trình tự nhiên liệu - điện - cơ khí, các nguyên nhân phổ biến và khi nào cần gọi hỗ trợ thay vì sửa tại chỗ.",
