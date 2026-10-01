@@ -2388,11 +2388,13 @@
    "title": "Ô tô rẽ phải trước mặt: xe máy đi thẳng xử lý thế nào",
    "primaryIntent": "informational/o-to-re-phai-xe-may-di-thang-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T14:21:09.419Z",
-   "updatedAt": "2026-10-01T14:21:09.421Z"
+   "updatedAt": "2026-10-01T14:27:08.909Z",
+   "seoScore": 100,
+   "words": 3665
   },
   {
    "id": "S00164",
@@ -2401,11 +2403,13 @@
    "title": "Dắt xe máy qua đường đông: vị trí, hướng và kỹ năng",
    "primaryIntent": "informational/dat-xe-may-qua-duong-dong-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T14:21:09.502Z",
-   "updatedAt": "2026-10-01T14:21:09.504Z"
+   "updatedAt": "2026-10-01T14:27:08.909Z",
+   "seoScore": 100,
+   "words": 3139
   }
  ]
 }

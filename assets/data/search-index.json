@@ -3828,6 +3828,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/o-to-re-phai-xe-may-di-thang-xu-ly/",
+  "title": "Ô tô rẽ phải trước mặt: xe máy đi thẳng xử lý thế nào",
+  "description": "Ô tô rẽ phải vào ngõ cắt ngang làn xe máy là tình huống va chạm rất phổ biến. Bài viết chỉ cách giữ vị trí, đọc tín hiệu và phanh thoát hiểm đúng.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "ô tô",
+   "xe máy",
+   "gương chiếu hậu",
+   "xi nhan",
+   "ngõ",
+   "làn đường"
+  ],
+  "keywords": [
+   "rẽ phải an toàn",
+   "gương chiếu hậu ô tô",
+   "ngõ nhỏ",
+   "làn xe máy",
+   "tai nạn giao thông",
+   "khoảng cách an toàn"
+  ],
+  "summary": "Trong danh sách các tình huống va chạm hay gặp nhất với người đi xe máy tại Việt Nam, ô tô rẽ phải vào ngõ khi xe máy đang đi thẳng ở làn bên sườn gần như đứng đầu — và cái khó của nó nằm ở chỗ gần như không có cảnh báo thật sự: xi nhan thường chỉ bật khi bánh"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/dat-xe-may-qua-duong-dong-an-toan/",
+  "title": "Dắt xe máy qua đường đông: vị trí, hướng và kỹ năng",
+  "description": "Hết xăng hay hỏng xe giữa đường đôi khi phải dắt bộ? Bài viết chỉ cách chọn thời điểm, vị trí dắt xe và quy tắc qua ngã tư an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "xe máy",
+   "ngã tư",
+   "đèn đỏ",
+   "vạch qua đường",
+   "làn đường",
+   "vỉa hè"
+  ],
+  "keywords": [
+   "dắt xe máy qua đường",
+   "dắt bộ xe máy",
+   "quy tắc giao thông",
+   "ngã tư an toàn",
+   "hết xăng giữa đường",
+   "đèn đỏ xe máy"
+  ],
+  "summary": "Hết xăng trước ngã tư, lốp xịt giữa đường lớn, máy chết giữa dòng xe — đó là những lúc người đi xe máy rơi vào một vai diễn bất ngờ: người đi bộ kéo theo một cục sắt nặng gần trăm ký. Dắt bộ xe máy qua đường đông khác hẳn đi bộ qua đường: tầm nhìn thấp vì bị t"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-dien/thue-xe-dien-theo-thang-dieu-can-biet/",
   "title": "Thuê xe điện theo tháng: những điều cần biết",
   "description": "Thuê xe điện theo tháng: khi nào hợp lý, thỏa thuận pin và trạm sạc trong hợp đồng dài hạn, trách nhiệm suy giảm pin, bảo dưỡng và nghiệm thu khi trả xe.",
