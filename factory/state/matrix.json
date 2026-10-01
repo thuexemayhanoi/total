@@ -1098,11 +1098,13 @@
    "title": "Đề xe đẩy khi ắc quy yếu",
    "primaryIntent": "informational/de-xe-day-khi-ac-quy-yeu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:22:14.822Z",
-   "updatedAt": "2026-10-01T00:22:14.824Z"
+   "updatedAt": "2026-10-01T00:26:31.545Z",
+   "seoScore": 91,
+   "words": 2377
   },
   {
    "id": "S00078",
@@ -1111,11 +1113,13 @@
    "title": "Kỹ thuật đổ đèo an toàn",
    "primaryIntent": "informational/ky-thuat-do-deo-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T00:22:14.910Z",
-   "updatedAt": "2026-10-01T00:22:14.912Z"
+   "updatedAt": "2026-10-01T00:26:31.545Z",
+   "seoScore": 91,
+   "words": 2371
   }
  ]
 }
