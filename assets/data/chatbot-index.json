@@ -913,6 +913,36 @@
   ]
  },
  {
+  "url": "guide/bao-duong/pha-may-xe-may-moi-1000km-dau-tien/",
+  "title": "Pha máy xe máy mới: 1000 km đầu tiên",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "summary": "Xe máy mới về nhà giống một vận động viên mới vào đội: sức mạnh đã có sẵn nhưng các chi tiết kim loại vẫn cần thời gian ăn khớp nhau, và ngàn km đầu tiên chính là giai đoạn quyết định chiếc xe sẽ bền hay xấu về sau. Bài viết này đi theo từng giai đoạn của pha máy để người mới tự tin chạy đúng cách. Bản chất: các bề mặt tiếp xúc — piston và xilanh, bánh răng hộp số, bạc đạn, xích — được gia công rất mịn nhưng không hoàn hảo tuyệt đối; ngàn km đầu là lúc các vi nhấp nhô được bào mòn dần để hai bề mặt ôm khít nhau. Giai đoạn đầu của ngàn km đầu tiên: giữ vòng tua nhẹ nhàng, không vặn ga hết cỡ, đa dạng tốc độ thay vì chạy đều một mức, và tránh chở nặng hoặc chở người ngồi sau trong những chuyến đầu. Giữa giai đoạn: tăng dần mức tải, thỉnh thoảng chạy nhanh hơn một chút rồi nhả ga, cho hộp số làm việc ở nhiều cấp số khác nhau. Việc bắt buộc: thay dầu nhớt đúng lịch của nhà sản xuất — nhớt pha máy chứa mạt kim loại mài ra trong giai đoạn này, để quá hạn là kéo mạt kim loại đi khắp động cơ. Những điều kiêng: chạy lại ga kéo dài, phanh gấp giữa lúc đang chạy nhanh, đổ thêm nhớt ngoài lịch, kéo ga lên cao cho đã tay. Sau ngàn km đầu, xe chuyển sang chu kỳ bảo dưỡng định kỳ và bạn đã có một động cơ ôm khít — món quà của một tháng kiên nhẫn.",
+  "quickAnswer": "Trả lời ngắn: pha máy là giai đoạn ngàn km đầu tiên để các bề mặt kim loại của xe ăn khớp nhau, và cách chạy trong giai đoạn này quyết định phần lớn tuổi thọ động cơ. Ba nguyên tắc. Một, nhẹ ga: không vặn ga hết cỡ, không chạy lại ga kéo dài, giữ vòng tua ở mức vừa phải theo khuyến cáo của nhà sản xuất. Hai, đa dạng tốc độ: thay đổi tốc độ và cấp số liên tục thay vì chạy đều một mức suốt buổi, cho các cặp bánh răng và bề mặt ma sát được chạy rà ở nhiều điều kiện. Ba, thay nhớt đúng lịch: nhớt đầu và các kỳ đầu chứa nhiều mạt kim loại mài ra, đúng hạn thay là việc quan trọng nhất của cả giai đoạn pha máy. Kèm theo: tránh chở nặng, tránh những chuyến đường dài liên tục, và nghe ngóng tiếng động cơ — có tiếng lạ thì mang xe về đại lý kiểm tra. Xong ngàn km đầu là xe sang chu kỳ bảo dưỡng định kỳ, còn bạn giữ nguyên thói quen chạy xe nhẹ nhàng ấy thì động cơ bền thêm nhiều năm.",
+  "keyPoints": [
+   "Pha máy là giai đoạn các bề mặt kim loại trong động cơ và hộp số ăn khớp nhau — cách chạy ngàn km đầu quyết định độ bền và độ mượt của xe về sau.",
+   "Giữ ga nhẹ nhàng: không vặn ga hết cỡ, không chạy lại ga kéo dài, và tuân theo khuyến cáo vòng tua của nhà sản xuất trong giai đoạn đầu.",
+   "Đa dạng tốc độ: thay đổi tốc độ và cấp số liên tục thay vì chạy đều một mức, để mọi cặp bánh răng và bề mặt ma sát được chạy rà đầy đủ.",
+   "Thay dầu nhớt đúng lịch của nhà sản xuất — nhớt pha máy chứa mạt kim loại mài ra, để quá hạn là kéo mạt kim loại đi khắp động cơ."
+  ],
+  "entities": [
+   "pha máy xe máy",
+   "xe máy mới",
+   "dầu nhớt pha máy",
+   "vòng tua máy",
+   "hộp số xe máy",
+   "bảo dưỡng định kỳ"
+  ],
+  "keywords": [
+   "pha máy xe máy mới",
+   "chạy rà xe máy",
+   "1000 km đầu tiên xe máy",
+   "thay nhớt pha máy",
+   "cách pha máy đúng cách",
+   "lưu ý khi mua xe máy mới"
+  ]
+ },
+ {
   "url": "thue-xe/xe-may/thue-xe-may-cho-do-cong-kenh-luu-y/",
   "title": "Thuê xe máy chở đồ cồng kềnh: những lưu ý",
   "category": "Thuê xe",
@@ -941,6 +971,36 @@
    "tải trọng xe máy",
    "thuê xe máy chở thùng",
    "chở hàng bằng xe máy an toàn"
+  ]
+ },
+ {
+  "url": "guide/xu-ly-su-co/xe-may-bi-ket-ga-phat-hien-va-xu-ly/",
+  "title": "Xe máy bị kẹt ga: phát hiện và xử lý",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Trong tất cả các sự cố của xe máy, kẹt ga là tình huống ít gặp nhất nhưng đáng sợ nhất: bạn nhả tay ga mà xe vẫn tiếp tục tăng tốc, và trong vài giây đó mọi quyết định đều là quyết định sống còn. Bài viết này chia sự cố thành ba phần để bạn nắm chắc. Phần nhận biết: kẹt ga hiếm khi xảy ra đột ngột hoàn toàn — trước đó thường có dấu hiệu vặt như tay ga quay lên không thấy độ nề, ga quay xuống có cảm giác khựng, hoặc vòng tua không hạ ngay khi nhả ga; ghi nhớ các dấu hiệu này giúp bạn xử lý trước khi sự cố thật sự ập đến. Phần xử lý giữa đường: ba bước theo thứ tự ưu tiên — bóp phanh trước và sau để giảm tốc độ, bóp côn hoặc cho hộp số về số không để ngắt truyền động, và tắt chìa khóa điện để máy tắt hẳn; trong mọi trường hợp giữ hướng thẳng và nhìn trước tìm một chỗ dừng an toàn, tuyệt đối không hoảng loạn đánh lái gấp giữa tốc độ cao. Phần nguyên nhân và phòng ngừa: thủ phạm phổ biến nhất là cáp ga khô dầu hoặc rỉ sét khiến cáp quay không trơn, kế đến là bướm ga dính bẩn kẹt ở vị trí mở, lò xo hồi ga yếu gãy, và những trường hợp hiếm hơn như đồ trang trí kẹt vào cổ ga; phòng ngừa chủ yếu là tra dầu cáp ga định kỳ, vệ sinh vùng bướm ga trong mỗi lần bảo dưỡng lớn, và thấy tay ga nặng là kiểm ngay chứ đừng đợi. Cuối cùng là phần rèn phản xạ: chưa bao giờ gặp kẹt ga thì hãy tập trước trong sân vắng — phanh, về số không, tắt máy — cho đến khi ba bước thành một hành động liền mạch. Kẹt ga hiếm khi xảy đến hai lần trong đời một người, nhưng người có phản xạ đúng thì lần duy nhất ấy chỉ là một buổi hú vía chứ không phải một vụ va chạm.",
+  "quickAnswer": "Trả lời ngắn: kẹt ga là khi bạn nhả tay ga mà vòng tua không hạ hoặc xe vẫn tiếp tục tăng tốc do cơ cấu ga bị kẹt ở vị trí mở. Xử lý giữa đường theo ba bước ưu tiên: bóp cả hai phanh để giữ tốc độ trong tầm kiểm soát, bóp côn hoặc về số không để ngắt truyền động, rồi tắt chìa khóa điện cho máy nổ tắt hẳn rồi thắng lại từ từ vào lề. Tuyệt đối không tắt máy khi đang vào cua hoặc giữa tốc độ cao nếu bạn chưa chắc chắn phanh — giảm tốc trước, tắt máy sau. Nhận biết sớm: tay ga nặng hay khựng khi quay, không thấy độ nề của ga, nhả ga mà vòng tua hạ chậm — đó là lúc mang xe tra dầu cáp ga và vệ sinh bướm ga ngay, đừng đợi đến khi kẹt thật. Phòng ngừa: tra dầu cáp định kỳ, vệ sinh vùng ga mỗi lần bảo dưỡng, và tập sẵn trình tự phanh — về số — tắt máy trong sân vắng để phản xạ có sẵn khi cần.",
+  "keyPoints": [
+   "Kẹt ga là sự cố nguy hiểm nhất của xe máy vì người lái mất khả năng giảm tốc bằng ga — mọi xử lý khác đều phải chuyển sang phanh và hộp số.",
+   "Ba bước xử lý theo ưu tiên: bóp phanh giữ tốc độ, bóp côn hoặc về số không ngắt truyền động, rồi tắt chìa khóa điện cho máy tắt hẳn và thắng dừng vào lề.",
+   "Dấu hiệu sớm của kẹt ga: tay ga nặng hoặc khựng khi quay, không thấy độ nề của ga, và vòng tua không hạ ngay khi nhả ga — thấy một trong các dấu hiệu này là đi tra dầu cáp ga ngay.",
+   "Nguyên nhân phổ biến nhất là cáp ga khô dầu hoặc rỉ sét; kế đến là bướm ga dính bẩn, lò xo hồi ga yếu và ngoại vật kẹt vào cổ ga."
+  ],
+  "entities": [
+   "kẹt ga xe máy",
+   "cáp ga xe máy",
+   "bướm ga",
+   "lò xo hồi ga",
+   "vòng tua máy",
+   "hộp số xe máy"
+  ],
+  "keywords": [
+   "xe máy bị kẹt ga",
+   "kẹt ga xe máy xử lý thế nào",
+   "dấu hiệu kẹt ga",
+   "cáp ga khô dầu",
+   "tra dầu cáp ga",
+   "nhả ga không giảm tốc"
   ]
  },
  {

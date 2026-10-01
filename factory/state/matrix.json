@@ -1728,11 +1728,13 @@
    "title": "Pha máy xe máy mới: 1000 km đầu tiên",
    "primaryIntent": "informational/pha-may-xe-may-moi-1000km-dau-tien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:34:26.358Z",
-   "updatedAt": "2026-10-01T02:34:26.359Z"
+   "updatedAt": "2026-10-01T02:50:36.696Z",
+   "seoScore": 100,
+   "words": 3046
   },
   {
    "id": "S00120",
@@ -1741,11 +1743,13 @@
    "title": "Xe máy bị kẹt ga: phát hiện và xử lý",
    "primaryIntent": "informational/xe-may-bi-ket-ga-phat-hien-va-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-01T02:34:26.396Z",
-   "updatedAt": "2026-10-01T02:34:26.396Z"
+   "updatedAt": "2026-10-01T02:50:36.696Z",
+   "seoScore": 91,
+   "words": 3093
   }
  ]
 }
