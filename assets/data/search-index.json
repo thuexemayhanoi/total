@@ -2717,6 +2717,57 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/cho-hang-cong-kenh-tren-xe-may-an-toan/",
+  "title": "Chở hàng cồng kềnh trên xe máy an toàn",
+  "description": "Chở hàng cồng kềnh trên xe máy làm trọng tâm dịch, phanh dài hơn và cánh tay va vướng. Bài viết hướng dẫn buộc hàng, phân bổ tải và kỹ thuật lái khi chở đồ to.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "chở hàng",
+   "trọng tâm xe",
+   "buộc hàng",
+   "tải trọng",
+   "dây buộc",
+   "quán tính"
+  ],
+  "keywords": [
+   "chở hàng cồng kềnh xe máy",
+   "buộc hàng trên xe máy",
+   "chở đồ to trên xe máy",
+   "tải trọng xe máy",
+   "kỹ thuật chở hàng an toàn",
+   "xe máy chở hàng nặng"
+  ],
+  "summary": "Xe máy là phương tiện chở hàng mềm dẻo nhất đường phố: từ thùng bia, cặp sách, bao gạo tới cây sắt ống và khung cửa, người Việt buộc mọi thứ lên yên sau và đi — nhưng chính sự mềm dẻo đó che giấu một thực tế vật lý: xe máy chỉ được thiết kế để chở một khối lượ"
+ },
+ {
+  "kind": "article",
+  "url": "guide/xu-ly-su-co/xe-may-bi-chuot-can-day-dien-phong-va-xu-ly/",
+  "title": "Xe máy bị chuột cắn dây điện: phòng và xử lý",
+  "description": "Chuột cắn dây điện khiến xe chết máy, chập chờn, cháy cầu chì và hỏng bộ điều khiển tốn kém. Bài viết hướng dẫn nhận biết, xử lý an toàn và ngăn chuột vào xe.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "bó dây điện",
+   "khóa điện",
+   "cầu chì",
+   "bộ điều khiển electronic",
+   "ắc quy",
+   "băng keo cách điện",
+   "ống co cách điện"
+  ],
+  "keywords": [
+   "chuột cắn dây điện xe máy",
+   "dây điện xe máy bị chuột cắn",
+   "xe máy không nổ sau khi để lâu",
+   "cách chống chuột cắn dây điện",
+   "sửa dây điện xe máy bị cắn",
+   "cầu chì xe máy cháy liên tục"
+  ],
+  "summary": "Trong các hư hỏng xe máy, chuột cắn dây điện là loại vừa khó đoán nhất vừa dễ lặp lại nhất: xe để vài ngày không chạy, đề không nổ, hoặc đang chạy êm thì đèn và máy ngắt quãng, kéo ra kiểm tra mới thấy bó dây từ khóa điện tới hộp điều khiển đã bị cắn trọc vỏ. "
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/thue-xe-may-di-phuot-chuan-bi-va-luu-y/",
   "title": "Thuê xe máy đi phượt: chuẩn bị và lưu ý",
   "description": "Thuê xe máy đi phượt: chọn xe cho hành trình dài, điều khoản phạm vi hoạt động, chuẩn bị phụ tùng dự phòng và vận hành an toàn trên đường đèo.",

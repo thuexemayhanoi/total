@@ -1064,6 +1064,67 @@
   ]
  },
  {
+  "url": "tips/meo-lai-xe/cho-hang-cong-kenh-tren-xe-may-an-toan/",
+  "title": "Chở hàng cồng kềnh trên xe máy an toàn",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Xe máy là phương tiện chở hàng mềm dẻo nhất đường phố: từ thùng bia, cặp sách, bao gạo tới cây sắt ống và khung cửa, người Việt buộc mọi thứ lên yên sau và đi — nhưng chính sự mềm dẻo đó che giấu một thực tế vật lý: xe máy chỉ được thiết kế để chở một khối lượng nhất định ở đúng một vùng trọng tâm, và mọi chiếc hàng vượt vùng đó đều phải trả giá bằng tay lái. Bài viết này phân tích ba tầng rủi ro của việc chở hàng cồng kềnh: trọng tâm dịch khiến xe khó đứng và khó chống, quán tính khối lượng lớn khiến phanh và chuyển hướng trở nên trì trệ, và kích thước vượt tầm với của xe khiến cánh tay người lái cùng hàng hóa cùng nhau cản mọi thao tác. Từ đó bài hướng dẫn cách chuẩn bị trước khi chở: cân nhắc đường đi và tải trọng, chọn điểm buộc thật trên khung xe thay vì chỉ buộc vào yên, phân bổ trọng tâm thấp và gần giữa xe, dùng dây đúng loại và buộc theo phương chéo cố định ba hướng. Trong lúc lái: khởi động nhẹ, phanh sớm hơn bình thường, đi chậm ở cua và nhận biết sớm các tình huống gió hất hàng. Cuối cùng là những trường hợp nên từ chối: hàng quá tải vượt khuyến nghị nhà sản xuất, hàng che đèn hậu và xi nhan, hàng quá dài vượt trước tai xe hoặc quá rộng vượt hai bên, và các lựa chọn thay thế hợp lý từ xe ba bánh đến dịch vụ giao hàng — vì đôi khi an toàn nhất là để hàng đi bằng phương tiện của nó.",
+  "quickAnswer": "Trả lời ngắn: chở hàng cồng kềnh an toàn trên xe máy dựa trên bốn nguyên tắc. Một, trọng tâm thấp và gần giữa xe: hàng nặng đặt sát yên, không chất cao như tháp — trọng tâm cao làm xe lắc lư ở tốc độ thấp và đổ khi dựng xe. Hai, buộc vào điểm thật của khung: dây đai qua khung sườn, móc sau hoặc chân chống đôi, không buộc duy nhất vào miếng yên mềm — yên bị giật ra khỏi chốt khi hàng nặng đung đưa. Ba, buộc chéo cố định ba hướng: một vòng quanh xe, hai vòng chéo căng về phía trước, siết lại sau vài trăm mét đầu tiên vì dây mới buộc luôn giãn một nhịp. Bốn, lái theo tải: khởi động nhẹ nhàng, phanh sớm dài hơn vì quán tính lớn, đi chậm trong cua vì hàng cao làm xe nghiêng khó về, và canh gió hất ở khoảng thông thoáng. Ba dấu hiệu nên từ chối: hàng vượt tải khuyến nghị ghi trên xe, hàng che đèn hậu hoặc xi nhan, hàng dài vượt trước tai xe hoặc rộng hai bên xe — với các trường hợp đó, chuyển hàng sang phương tiện chở được hoặc chia nhiều chuyến.",
+  "keyPoints": [
+   "Trọng tâm thấp và gần giữa xe: hàng nặng sát yên, không chất thành tháp cao — xe cồng kềnh đổ ở tốc độ thấp và khi dựng chống.",
+   "Buộc vào điểm thật của khung xe, không buộc duy nhất vào miếng yên mềm dễ bị giật rời.",
+   "Buộc chéo ba hướng và siết lại sau vài trăm mét đầu — dây mới luôn giãn một nhịp rồi mới căng thật.",
+   "Hàng không được che đèn hậu, xi nhan và đèn phanh, không vượt dài trước tai xe hay rộng hai bên xe."
+  ],
+  "entities": [
+   "chở hàng",
+   "trọng tâm xe",
+   "buộc hàng",
+   "tải trọng",
+   "dây buộc",
+   "quán tính"
+  ],
+  "keywords": [
+   "chở hàng cồng kềnh xe máy",
+   "buộc hàng trên xe máy",
+   "chở đồ to trên xe máy",
+   "tải trọng xe máy",
+   "kỹ thuật chở hàng an toàn",
+   "xe máy chở hàng nặng"
+  ]
+ },
+ {
+  "url": "guide/xu-ly-su-co/xe-may-bi-chuot-can-day-dien-phong-va-xu-ly/",
+  "title": "Xe máy bị chuột cắn dây điện: phòng và xử lý",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Trong các hư hỏng xe máy, chuột cắn dây điện là loại vừa khó đoán nhất vừa dễ lặp lại nhất: xe để vài ngày không chạy, đề không nổ, hoặc đang chạy êm thì đèn và máy ngắt quãng, kéo ra kiểm tra mới thấy bó dây từ khóa điện tới hộp điều khiển đã bị cắn trọc vỏ. Bài viết này trình bày toàn bộ kiến thức cần để xử lý tình huống đó. Phần nhận biết: dấu hiệu đặc trưng của dây bị cắn — xe chết máy không rõ lý do sau khi để lâu, hệ thống điện chập chờn theo độ ẩm, cầu chì cháy liên tục, mùi khét nhẹ, phân chuột và mùi nước tiểu trong hốc xe, và các điểm xe máy hay bị chuột làm tổ: hốc dẫn động cơ, trên ắc quy, quanh hộp điện tử. Phần kiểm tra: cách soi dây có hệ thống theo từng bó, cách phân biệt cắn mới và cắn cũ, và những vị trí bắt buộc kiểm tra kỹ vì một chỗ cắn thường kéo theo hư hỏng thứ phát. Phần xử lý: sửa tạm trên đường để về nhà an toàn, tiêu chuẩn nối dây đúng cách, khi nào phải thay cả bó, vì sao băng keo đen là nguyên nhân chập cháy thứ cấp, và cách xử lý khi dây bị cắn gần bộ điều khiển electronic. Phần phòng chống: vì sao chuột chọn xe máy, biện pháp giữ xe không bị chuột vào khi để lâu, biện pháp dùng lưới chắn và chất xua đuổi, và thói quen khởi động định kỳ. Kết bài là cách kiểm tra điện định kỳ để phát hiện sớm tổn thương trước khi chúng thành sự cố trên đường.",
+  "quickAnswer": "Trả lời ngắn: khi xe để lâu rồi không nổ hoặc điện chập chờn, hãy nghi ngờ chuột cắn dây trước khi đổ lỗi cho ắc quy. Bốn bước xử lý. Một, soi các bó dây chính: từ khóa điện tới hộp cầu chì, từ ắc quy tới đề, và bó dây quanh hộp điều khiển electronic — tìm vỏ dây bị trọc, răng cắn, phân chuột, mùi nước tiểu. Hai, sửa tạm trên đường: nếu chỉ một sợi bị đứt và biết rõ hai đầu, nối tạm, bọc cách điện và chạy về nhà nhẹ ga; không sửa tạm nếu dây bị cắn gần bộ điều khiển hoặc nhiều sợi trọc lẫn nhau. Ba, sửa đúng chuẩn: nối lại bằng đầu nối bấm và ống co cách điện, thay cả bó nếu vỏ bó bị cắn nhiều đoạn, luôn thay cầu chì đúng ampe sau khi sửa, không dùng băng keo đen trùm cả mối nối vĩnh viễn. Bốn, chống tái phát: rửa sạch vùng có mùi chuột, bịt các lỗ hốc bằng lưới, không để xe ở góc ẩm gần nguồn thức ăn, khởi động xe định kỳ mỗi tuần. Điều cấm: không thắp diêm soi trong hốc xe vì có thể có xăng bốc hơi, và không đề liên tục khi máy đã chập — chập điện có thể đốt cháy bó dây còn lại.",
+  "keyPoints": [
+   "Xe để lâu không nổ hoặc điện chập chờn theo độ ẩm: nghi ngờ dây bị chuột cắn trước khi đổ lỗi cho ắc quy.",
+   "Điểm hay bị cắn nhất: bó dây khóa điện, dây đề, dây quanh hộp điều khiển — soi bằng đèn pin, tìm vỏ trọc và phân chuột.",
+   "Sửa tạm chỉ để về nhà: nối hai đầu, bọc cách điện, chạy nhẹ ga; không sửa tạm khi dây cắn gần bộ điều khiển.",
+   "Sửa đúng chuẩn là bấm đầu nối, thay bó khi cắn nhiều đoạn, thay cầu chì đúng ampe — không trùm băng keo đen vĩnh viễn."
+  ],
+  "entities": [
+   "bó dây điện",
+   "khóa điện",
+   "cầu chì",
+   "bộ điều khiển electronic",
+   "ắc quy",
+   "băng keo cách điện",
+   "ống co cách điện"
+  ],
+  "keywords": [
+   "chuột cắn dây điện xe máy",
+   "dây điện xe máy bị chuột cắn",
+   "xe máy không nổ sau khi để lâu",
+   "cách chống chuột cắn dây điện",
+   "sửa dây điện xe máy bị cắn",
+   "cầu chì xe máy cháy liên tục"
+  ]
+ },
+ {
   "url": "thue-xe/xe-may/thue-xe-may-di-phuot-chuan-bi-va-luu-y/",
   "title": "Thuê xe máy đi phượt: chuẩn bị và lưu ý",
   "category": "Thuê xe",
