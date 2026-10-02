@@ -2718,11 +2718,13 @@
    "title": "Đi xe máy qua đoạn phơi nông sản mùa gặt: lưu ý an toàn",
    "primaryIntent": "informational/di-xe-may-qua-doan-phoi-nong-san-mua-gat-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:30:53.482Z",
-   "updatedAt": "2026-10-02T02:30:53.484Z"
+   "updatedAt": "2026-10-02T02:34:21.757Z",
+   "seoScore": 100,
+   "words": 3795
   },
   {
    "id": "S00186",
@@ -2731,11 +2733,13 @@
    "title": "Đi xe máy qua khu công nghiệp xe tải ra vào: giữ khoảng và vị trí",
    "primaryIntent": "informational/di-xe-may-qua-khu-vuc-cong-nghiep-xe-tai-ra-vao-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:30:53.557Z",
-   "updatedAt": "2026-10-02T02:30:53.558Z"
+   "updatedAt": "2026-10-02T02:34:21.757Z",
+   "seoScore": 91,
+   "words": 4255
   }
  ]
 }
