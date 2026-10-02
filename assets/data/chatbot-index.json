@@ -3570,6 +3570,36 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-tram-thu-phi-luu-y/",
+  "title": "Đi xe máy qua trạm thu phí: chọn làn, giữ khoảng cách và vượt điểm ghép làn",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Trạm thu phí là một trong các điểm nút của đường cao tốc và các trục thu phí: toàn bộ dòng xe đang chạy nhanh phải phanh về tốc dừng, dàn ra theo các làn cabin, dừng giao dịch, rồi tăng tốc lại và ghép về các làn chính — tức là trong vòng vài trăm mét, người đi xe máy trải qua cả ba pha dễ va nhất của đường nhanh: phanh đông, dừng lẫn, và ghép làn. Bài viết này đi theo đúng trình tự đó: chuẩn bị từ xa — đọc biển báo trạm, các làn mở hay đóng (đèn mũi tên xanh đỏ trên trạm), làn xe máy hoặc làn thu phí tự động nếu có, và vì sao mọi quyết định của trạm cần làm trước vạch giảm tốc chứ không phải tại đó; chọn làn và giữ khoảng trong hàng chờ: hàng xe tại cabin là hàng xe bị che tầm nhìn (cabin, cần chắn, xe tải hai bên), xe máy thuộc nhóm yếu nhất trong hàng đó, và cách chọn vị trí trong làn — không kẹp giữa hai xe tải, không bám sát sau xe tải đang phanh; giao dịch tại cabin: cách dừng đúng chỗ, các lỗi rớt thẻ rớt tiền của người đi xe máy, và vì sao không chen hai bên xe đang giao dịch; vùng sau trạm — phần nguy nhất: mọi xe đang tăng tốc lại với tốc lệch nhau lớn, ghép làn không nhìn, và xe tải hạng nặng cần hàng trăm mét mới lấy lại tốc — cách đi qua vùng ghép bằng tốc dè và vị trí tránh; hai biến thể của trạm: trạm thu phí tự động không dừng (làn điện tử) tạo điểm chuyển tốc đột ngột, và trạm đang trong giai đoạn dỡ rào chắn hoặc đổi ca tạo các đợt dừng bất thường; phần cuối là các câu hỏi thường gặp quanh trạm — thẻ mất, làn hỏng, người đi xe máy trả bằng gì — để hành trình qua trạm không bị chi phối bởi lúng túng. Kết bằng nguyên tắc gói: trạm thu phí là nơi đường nhanh bị thu hẹp lại đúng nhịp chậm của con người — an toàn của đoạn nằm ở việc người lái chấp nhận nhịp chậm đó sớm (giảm sớm, chờ nhường, tăng tốc lại muộn) thay vì kéo nhịp nhanh của đường trường vào trong trạm.",
+  "quickAnswer": "Trả lời ngắn: qua trạm thu phí an toàn nằm ở ba việc đúng trình tự. Trước trạm: đọc biển và đèn mũi tên của các làn từ xa (xanh là mở, đỏ là đóng), quyết định làn trước vạch giảm tốc, và bắt đầu giảm sớm — trạm là đoạn duy nhất cao tốc mà phanh sớm luôn rẻ hơn. Trong hàng chờ: không kẹp giữa hai xe tải, không bám sát đuôi xe tải đang phanh (cabin và cần chắn che hết tầm nhìn), dừng đúng ô trước rào chắn, giao dịch gọn — nếu thẻ rớt hoặc máy không nhận thì bấm chuông chờ nhân viên, không xuống xe nhặt giữa làn khi có xe sau đang tới. Sau trạm — phần nguy nhất: mọi xe tăng tốc lại với tốc lệch nhau lớn, ghép làn gấp vì chậm lấy lại nhịp — đi xe máy bằng số thấp sẵn, giữ làn của mình thêm vài trăm mét cho dòng ổn định, không cắt chéo các làn để \"lách nhanh\", và né các xe tải hạng nặng đang lấy đà (chúng cần cả trăm mét và không phanh lại được cho xe máy). Trạm điện tử không dừng vẫn cần giảm về tốc ghi trên biển — điểm đó là điểm tốc độ đổi đột ngột của cả dòng, và người giữ đúng tốc biển là người không bị dòng phanh đột ngột sau lưng.",
+  "keyPoints": [
+   "Quyết định làn trước vạch giảm tốc: đọc biển và đèn mũi tên từ xa, bắt đầu giảm sớm — mọi quyết định để sau vạch là quyết định giữa dòng xe đang phanh.",
+   "Trong hàng chờ không kẹp giữa hai xe tải và không bám sát đuôi xe tải — cabin và cần chắn che tầm nhìn, và xe máy là nhóm yếu nhất của hàng chờ.",
+   "Giao dịch gọn: thẻ rớt hoặc máy không nhận thì bấm chuông chờ nhân viên — không xuống xe nhặt giữa làn khi xe sau đang tới gần.",
+   "Vùng sau trạm là phần nguy nhất: xe tăng tốc lệch nhau và ghép làn gấp — giữ làn của mình thêm vài trăm mét, số thấp sẵn, không cắt chéo các làn để đi nhanh."
+  ],
+  "entities": [
+   "trạm thu phí",
+   "cabin",
+   "rào chắn",
+   "làn điện tử",
+   "vạch giảm tốc",
+   "ghép làn"
+  ],
+  "keywords": [
+   "đi xe máy qua trạm thu phí",
+   "trạm thu phí cao tốc xe máy",
+   "chọn làn trạm thu phí",
+   "ghép làn sau trạm thu phí",
+   "trạm thu phí tự động xe máy",
+   "hàng chờ trạm thu phí"
+  ]
+ },
+ {
   "url": "hub/van-de-thuong-gap/xe-hao-xang-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe hao xăng: nguyên nhân và cách xử lý",
   "category": "Trung tâm chủ đề",
@@ -3598,6 +3628,36 @@
    "lọc gió xe máy",
    "bugi xe máy",
    "tiết kiệm xăng xe máy"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/cho-do-dai-vuot-chieu-xe-may-luu-y/",
+  "title": "Chở đồ dài vượt quá chiều xe máy: buộc, treo và đi sao cho an toàn",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Chở đồ dài trên xe máy — cây tre, ống nước, thanh sắt, ống thoát nước, khung cửa — là nhu cầu thật của đời sống: sửa nhà, làm vườn, chở đồ về quê; nhưng nó cũng là một trong các kiểu chở làm thay đổi xe nhiều nhất: vật dài vượt thân xe trước và sau thay đổi trục trọng tâm, quét rộng hai bên khi cua, và biến mọi cú phanh nghiêng thành một cú có đòn bẩy dài ở hai đầu. Bài viết này đi theo trình tự của một chuyến chở đồ dài: đánh giá trước khi chở — vật dài bao nhiêu thì còn chở được bằng xe máy, bao nhiêu thì phải gọi xe khác (một giới hạn thực dụng chứ không phải phép thử), và các quy định về chiều dài vượt khung xe; phân bổ và vị trí: vì sao đồ dài phải chạy dọc trục xe (đầu gá lên vai trước, đuôi ló sau), vì sao một đầu tựa vào một điểm cố định của xe, và vì sao tuyệt đối không chở ngang trên yên; buộc và điểm tựa: các điểm buộc chắc của xe máy (khung sau, móc hàng, bậm chân, giá sau), chất liệu buộc đúng (dây chạc, niền rút, không dây nilon mỏng), và vì sao điểm buộc phải là điểm giữa vật chứ không phải hai đầu vật; đi với đồ dài: bán kính cua lớn thêm, chậm hơn, né khe hẹp, và cách xử các tình huống đặc thù (gió bên, gờ giảm tốc, xuống dốc — đuôi vật nhấc lên; qua cửa và vào nhà — đầu vật quét trần và tường); các lỗi kinh điển: buộc lỏng để \"đi tí rồi chỉnh\", chở đồ dài kèm người ngồi sau, chở đồ dài bản to cản gió, và chở đồ dài ban đêm không đánh dấu; phần cuối là câu hỏi khi nào không chở: khoảng cách xa, đường đông, đồ vừa dài vừa nặng — và các phương án thay thế (giao hàng, xe ôm tải, mượn xe ben nhỏ) đáng tính trước khi cuốn dây. Kết bằng nguyên tắc: đồ dài không nguy vì nó nặng — nó nguy vì nó dài; và mọi kỹ năng của bài đều xoay quanh một việc: biến vật dài thành một phần của trục xe — dọc, giữa, chắc — thay vì để nó thành một cánh tay đòn đang vẫy trên đường.",
+  "quickAnswer": "Trả lời ngắn: chở đồ dài vượt thân xe máy an toàn nằm ở bốn việc. Phân bổ: vật chạy dọc trục xe, một đầu tựa chắc lên một điểm trước (bệ chân trước, khung sau gác lên vai nếu nhẹ), đuôi ló sau không quá mức cản trở, và tuyệt đối không chở ngang trên yên — vật ngang là vật quét hai bên mọi cú cua và mọi khe hẹp. Buộc: buộc tại ít nhất hai điểm dọc vật (một điểm giữa vật vào khung sau, một điểm đầu vật vào điểm tựa trước), dùng dây chạc hoặc niền rút kéo được, không dây nilon mỏng; buộc xong, lắc thử vật bằng tay — vật không xê dịch theo tay là đạt. Đi: bán kính cua của xe giờ rộng thêm theo chiều dài vật — cua mở sớm hơn, né người và xe hai bên; chậm hơn bình thường một bậc; và xuống dốc hoặc qua gờ, giữ đuôi vật không nhấc quét lên người xe sau hoặc xe đi sau. Đánh dấu: đuôi vật ló sau quấn vải sáng hoặc dán phản quang, ban đêm buộc đèn đỏ nhỏ nếu có; và nếu đồ dài kèm nặng (quá một nửa tải trọng) hoặc kèm người ngồi sau — chọn một: hoặc đồ, hoặc người. Quy tắc cuối: vật dài buộc lỏng là vật dài rơi — rơi giữa đường đang chạy là va lôi cho xe sau; chỉnh lại dây ngay khi nghe vật lạch cạch, đừng đợi tới chỗ",
+  "keyPoints": [
+   "Vật dài chạy dọc trục xe, một đầu tựa chắc vào điểm cố định trước, đuôi ló sau vừa phải — tuyệt đối không chở ngang trên yên vì vật ngang quét hai bên mọi cú cua và mọi khe hẹp.",
+   "Buộc hai điểm dọc vật (giữa vật vào khung sau, đầu vật vào điểm tựa trước) bằng dây chạc hoặc niền rút — buộc xong lắc thử bằng tay, không xê dịch mới đạt; không dùng dây nilon mỏng.",
+   "Đi chậm hơn bình thường một bậc, cua mở sớm vì bán kính quét rộng thêm theo chiều dài vật, né khe hẹp và người hai bên; xuống dốc và qua gờ giữ đuôi vật không nhấc quét.",
+   "Đánh dấu đuôi vật ló sau bằng vải sáng hoặc băng phản quang, ban đêm thêm đèn đỏ nhỏ — xe sau nhìn thấy đuôi vật sớm thì nhường sớm."
+  ],
+  "entities": [
+   "đồ dài vượt khung",
+   "trục xe",
+   "dây chạc",
+   "niền rút",
+   "điểm tựa",
+   "bán kính cua"
+  ],
+  "keywords": [
+   "chở đồ dài trên xe máy",
+   "chở tre trên xe máy",
+   "chở ống nước xe máy",
+   "buộc đồ dài vào xe máy",
+   "chở hàng vượt thân xe",
+   "chở thanh sắt xe máy"
   ]
  },
  {
