@@ -2838,11 +2838,13 @@
    "title": "Đi xe máy khi mưa đá rơi: giữ lái, che chắn và tìm chỗ trú",
    "primaryIntent": "informational/di-xe-may-khi-mua-da-roi-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:55:33.174Z",
-   "updatedAt": "2026-10-02T02:55:33.176Z"
+   "updatedAt": "2026-10-02T03:00:34.330Z",
+   "seoScore": 100,
+   "words": 4532
   },
   {
    "id": "S00194",
@@ -2851,11 +2853,13 @@
    "title": "Đi xe máy gặp xe tưới nước hoặc rửa đường: giữ khoảng cách và vượt đúng cách",
    "primaryIntent": "informational/di-xe-may-gap-xe-tuoi-nuoc-rua-duong-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:55:33.255Z",
-   "updatedAt": "2026-10-02T02:55:33.257Z"
+   "updatedAt": "2026-10-02T03:00:34.330Z",
+   "seoScore": 91,
+   "words": 4503
   }
  ]
 }
