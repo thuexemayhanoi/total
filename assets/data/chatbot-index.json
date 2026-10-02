@@ -3510,6 +3510,66 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-duong-ray-tau-hoa-luu-y/",
+  "title": "Đi xe máy qua đường ray tàu hỏa: đọc vệt, nghiêng bánh và chờ nhịp",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Giao cắt giữa đường bộ và đường ray tàu hỏa là một trong các điểm giao cắt đặc biệt nhất mà người đi xe máy gặp: nó hẹp theo chiều ngang (một hai vệt rail chỉ rộng chừng hai ba chục centimet nhưng trơn và cứng như thanh thép đánh bóng), nó trơn theo kiểu riêng (rail thép bóng, khe ray, và lớp đá bazan quanh ray đều là các chất liệu mất bám), và nó có một thành phần không có ở mọi chướng ngại khác: tàu hỏa — một vật dài hàng trăm mét, nặng hàng nghìn tấn, không phanh gấp được và không đổi hướng để nhường ai. Bài viết này bóc từng lớp: bản chất của rail dưới bánh xe máy — vì sao một thanh thép hẹp lại nguy hơn một ổ gà (vì nó dài theo hướng đi, trơn như băng, và hai bánh xe rơi lên rail cùng lúc thì mất bám đồng thời hai bánh); kỹ thuật qua rail đúng: góc nghiêng bánh khoảng chín mươi độ với rail (cắt ngang vuông vức thay vì xiên), tốc thấp và ga đều, không phanh và không bóp ga trên rail, và vì sao các cú xiên nghiêng qua ray là các cú ngã kinh điển tại giao cắt; đọc cấu trúc giao cắt: các loại giao cắt (có rào chắn, có đèn tín hiệu, giao cắt trống không có gác), lớp đá bazan quanh ray và khe ray, và các vũng lún trước mép ray; chờ nhịp với tàu: vì sao cần dừng và nhìn cả hai hướng kể cả đường một chiều (tàu có thể chạy ngược theo lịch điều độ), cách đọc đèn và rào chắn, và vì sao không bao giờ chen qua nửa rào chắn đang hạ; hai tình huống khó: giao cắt trong mưa (rail ướt trơn gấp, vũng quanh ray loang rộng) và giao cắt đông (các xe dừng phía trước tạo điểm mù che tàu tới); phần cuối là quy tắc căn bản nhất: xe máy có thể tắt máy đúng trên ray (khởi động lại cần vài giây mà tàu cần vài trăm mét để dừng) — và cách xử khi xe tắt máy giữa giao cắt. Kết bằng nguyên tắc của toàn bài: qua đường ray là một trong vài tình huống mà mọi quy tắc đều về một mục tiêu duy nhất — đừng bao giờ ở trên ray lâu hơn một giây cần thiết, và đừng bao giờ vào giao cắt khi chưa thấy rõ đường thoát của mình bên kia.",
+  "quickAnswer": "Trả lời ngắn: qua đường ray tàu hỏa bằng trình tự bốn bước — giảm tốc từ xa, nhìn cả hai hướng đường ray trước khi tới, qua bằng góc vuông với rail (nghiêng bánh cắt ngang rail chứ không xiên theo rail), và ga đều qua trọn giao cắt không phanh trên rail. Góc vuông là chi tiết quan trọng nhất: bánh xe cắt ngang rail chỉ đè lên rail trong một khoảnh khắc, còn các cú xiên nghiêng để \"mượt\" qua lại đưa bánh lê dọc theo rail dài — và bánh lê trên rail thép bóng là trượt gần như chắc. Tại giao cắt có rào chắn hoặc đèn tín hiệu: dừng hẳn khi đèn đỏ hoặc rào đang hạ, không chen quanh nửa rào chắn — và kể cả giao cắt trống không có gác, vẫn dừng chân đất ngó hai hướng: đường ray có thể có tàu chạy theo lịch và hướng không như dòng xe bộ. Mưa làm rail trơn gấp và các vũng quanh ray loang rộng: qua chậm hơn nữa, không phanh quanh vùng đá bazan (đá rải trơn như sỏi khi ướt). Và quy tắc sống còn nhất: nếu xe tắt máy trên ray, đừng vội lo khởi động — đẩy hoặc lăn xe ra khỏi vùng ray trước tiên (xe có thể nhấc rồi kéo), người ra trước xe sau; tàu cần vài trăm mét để dừng từ tốc chạy, và vài giây mình tiết kiệm khi lo khởi động lại là khoảng cách tàu không có.",
+  "keyPoints": [
+   "Qua rail bằng góc vuông: nghiêng bánh cắt ngang rail, không xiên nghiêng theo — bánh lê dọc trên rail thép bóng là trượt gần như chắc chắn, nhất là khi ướt.",
+   "Tốc thấp và ga đều qua trọn giao cắt: không phanh trên rail, không bóp ga trên rail, và không đổi hướng giữa vùng ray — mọi thao tác lớn để cho trước hoặc sau vùng ray.",
+   "Dừng nhìn cả hai hướng ở mọi giao cắt, kể cả giao cắt trống không gác và đường ray \"một chiều\" — tàu chạy theo lịch, không theo thói quen của dòng xe bộ.",
+   "Đèn đỏ và rào chắn đang hạ là dừng hẳn — không chen quanh nửa rào chắn, không chen theo xe trước qua giao cắt: giao cắt chiếm bởi xe dừng là bẫy đúng cho xe máy."
+  ],
+  "entities": [
+   "đường ray tàu hỏa",
+   "giao cắt đường ray",
+   "rail",
+   "rào chắn",
+   "đá bazan",
+   "đèn tín hiệu"
+  ],
+  "keywords": [
+   "đi xe máy qua đường ray",
+   "qua đường ray tàu hỏa",
+   "giao cắt đường sắt xe máy",
+   "xe máy qua đường ray trơn",
+   "đường ray ướt trơn",
+   "rào chắn đường ray"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/di-xe-may-khi-nang-choi-mat-luu-y/",
+  "title": "Đi xe máy khi nắng chói mặt: tầm nhìn chiều và cách giảm chói",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Nắng chói mặt là tình huống tầm nhìn của người đi xe máy bị yếu hóa theo một cách riêng: không phải bị che như sương mù hay mưa, mà bị ngược sáng — mặt trời thấp ở cuối đường, mọi thứ giữa mình và nó chìm thành bóng đen, và mắt thì vừa mất chi tiết vừa bị chói làm nhắm lại. Bài viết này đi theo từng lớp của tình huống: cơ chế của nắng chói — vì sao tầm nhìn bị mù tạm thời ở hướng nắng (đồng tử co lại làm mọi thứ ngoài vùng chói tối đi, và thời gian mắt thích ứng lại khi quay hướng khác là vài giây); hai khung giờ nguy nhất: buổi sớm và chiều muộn khi mặt trời thấp ngang tầm mắt trên các trục hướng đông tây — và vì sao các trục đó chính là trục giờ đi làm; các biện pháp giảm chói thật sự: kính mát và kính mũ (đặc điểm của kính giảm chói tốt cho người đi xe máy — màu nào, độ phủ nào, và vì sao kính tối quá lại nguy), vị trí mắt và tư thế (dịch đầu xuống thấp khỏi mép chói, dùng bóng các xe trước làm bình che di động), và cách dùng đường để che (cách đi lệch trong làn để nhờ thân nhà, hàng cây che nắng); cách đọc đường khi ngược sáng: mọi vật giữa mình và mặt trời thành bóng đen (người đi bộ, xe đang dừng, xe chậm đều tối đen) — tức là ngược sáng là tình huống \"thấy nhưng không đọc được\", và tốc phải hạ theo đúng mức đó; giao thoa với các nguồn chói khác: kính phản chiếu của xe ngược chiều, mặt đường ướt loang, và đèn pha xe ô tô ban ngày không giúp gì cho mình lúc ngược sáng; phần cuối là hành trình tự lập: chọn hướng đi tránh nắng khi có lối khác, chờ năm phút cho mặt trời xuống thấp thêm, và vì sao các quyết định nhỏ về lịch trình là biện pháp giảm chói mạnh nhất. Kết bằng nguyên tắc: nắng chói không che tầm nhìn — nó lấy của mình một phần đôi mắt; và phần đó phải được bù bằng kính đúng, vị trí đúng và tốc đúng trong suốt quãng hướng nắng.",
+  "quickAnswer": "Trả lời ngắn: đi xe máy hướng vào mặt trời thấp, ba việc làm ngay là đeo kính giảm chói (kính mũ hạ xuống hoặc kính mát — màu nâu hoặc xám nhạt, không dùng kính xanh đậm vì làm tối cả phần không chói), hạ tốc về mức phù hợp với phần đường mình thực sự đọc được, và dịch vị trí trong làn sao cho bóng của thân nhà, hàng cây hoặc xe phía trước che bớt mặt trời cho mình. Cơ chế cần biết: nắng chói làđồng tử co lại và mọi thứ ngoài vùng chói chìm thành bóng đen — người đi bộ, xe đạp, xe đang rẽ từ phía nắng đều \"thấy mà không đọc được\"; vì vậy quãng hướng nắng được đi bằng tốc của người đang thấy một nửa đường. Hai chi tiết hay quên: kính của các xe ngược chiều phản chiếu nắng tạo vệt chói nháy — đừng nhìn thẳng vào điểm nháy, mắt về phần đường gần; và khi vừa rời khỏi vùng nắng vào bóng râm, mắt cần vài giây thích ứng lại — giữ tốc thấp thêm vài giây sau khi hết chói thay lấy lại tốc ngay. Với trục quen thuộc hướng đông buổi sáng hoặc hướng tây buổi chiều, nếu có lối vòng khác tránh hướng nắng thì lối đó đáng đi: giảm chói tốt nhất là không nhìn thẳng vào nó.",
+  "keyPoints": [
+   "Nắng thấp buổi sớm và chiều muộn chiếu thẳng tầm mắt trên các trục hướng đông tây — khung giờ đi làm chính là khung giờ chói nhất, chuẩn bị kính trước khi khởi hành.",
+   "Nắng chói làđồng tử co và mọi vật ngoài vùng chói chìm thành bóng đen — người đi bộ và xe chậm từ phía nắng thấy mà không đọc được, nên hạ tốc theo đúng phần đường mình đọc được.",
+   "Kính giảm chói tốt cho người đi xe máy: màu nâu hoặc xám nhạt, phủ kín hai bên, không xanh đậm hoặc tối quá — kính tối quá làm mù phần bóng râm cần đọc.",
+   "Dịch vị trí trong làn để mượn bóng: thân nhà, hàng cây, xe buýt phía trước là các bình che di động — lệch nửa xe trong làn có khi che được trọn mặt trời."
+  ],
+  "entities": [
+   "nắng chói",
+   "ngược sáng",
+   "kính giảm chói",
+   "tầm nhìn",
+   "mặt trời thấp",
+   "đồng tử"
+  ],
+  "keywords": [
+   "đi xe máy bị nắng chói mặt",
+   "đi xe máy ngược sáng",
+   "kính mát đi xe máy",
+   "nắng chiều chói mắt khi lái",
+   "giảm chói khi đi xe máy",
+   "đi xe máy buổi sáng hướng mặt trời"
+  ]
+ },
+ {
   "url": "hub/van-de-thuong-gap/xe-hao-xang-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe hao xăng: nguyên nhân và cách xử lý",
   "category": "Trung tâm chủ đề",

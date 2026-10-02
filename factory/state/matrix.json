@@ -2898,11 +2898,13 @@
    "title": "Đi xe máy qua đường ray tàu hỏa: đọc vệt, nghiêng bánh và chờ nhịp",
    "primaryIntent": "informational/di-xe-may-qua-duong-ray-tau-hoa-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T03:09:23.234Z",
-   "updatedAt": "2026-10-02T03:09:23.236Z"
+   "updatedAt": "2026-10-02T03:13:57.645Z",
+   "seoScore": 100,
+   "words": 4608
   },
   {
    "id": "S00198",
@@ -2911,11 +2913,13 @@
    "title": "Đi xe máy khi nắng chói mặt: tầm nhìn chiều và cách giảm chói",
    "primaryIntent": "informational/di-xe-may-khi-nang-choi-mat-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T03:09:23.331Z",
-   "updatedAt": "2026-10-02T03:09:23.333Z"
+   "updatedAt": "2026-10-02T03:13:57.645Z",
+   "seoScore": 100,
+   "words": 4392
   }
  ]
 }
