@@ -4204,6 +4204,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-khu-vuc-ben-xe-luu-y/",
+  "title": "Đi xe máy qua khu vực bến xe: đọc dòng, né cửa và chờ nhịp",
+  "description": "Qua bến xe bằng xe máy là đi giữa dòng người cuống hành lý và xe buýt đang lùi. Bài viết chỉ cách đọc dòng, né cửa xe và chọn nhịp đi.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "bến xe khách",
+   "xe buýt",
+   "hành lý",
+   "xe om",
+   "luồng xe",
+   "đèn lùi"
+  ],
+  "keywords": [
+   "qua bến xe an toàn",
+   "đi xe máy khu vực bến xe",
+   "xe buýt lùi",
+   "đón khách bến xe",
+   "dòng người bến xe",
+   "đi xe máy trong bãi xe"
+  ],
+  "summary": "Khu vực quanh bến xe khách là một trong những đoạn đường có mật độ rủi ro dày đặc biệt: mọi thứ bình thường của giao thông ở đó bị nén lại trong vài trăm mét — xe buýt to đang ra vào theo lịch, taxi và xe ôm chen gom khách, xe tải xếp dỡ hàng ngang đường, và d"
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/ky-thuat-di-xe-may-qua-cau-vuot/",
+  "title": "Kỹ thuật đi xe máy qua cầu vượt: dốc, giao cắt và làn gộp",
+  "description": "Qua cầu vượt bằng xe máy có ba phần rủi ro riêng: lên dốc giữ đà, trên cao né làn gộp, xuống dốc giữ phanh động cơ. Bài viết chỉ từng phần.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "cầu vượt",
+   "dốc lên",
+   "dốc xuống",
+   "phanh động cơ",
+   "nhánh rẽ",
+   "làn gộp"
+  ],
+  "keywords": [
+   "qua cầu vượt an toàn",
+   "đi xe máy cầu vượt",
+   "kỹ thuật xuống dốc",
+   "phanh động cơ xe máy",
+   "lên dốc giữ đà",
+   "nhánh rẽ cầu vượt"
+  ],
+  "summary": "Cầu vượt là công trình được xây để tách dòng xe khỏi ngã tư, nhưng với người đi xe máy, nó thay một giao cắt ngang bằng ba đoạn rủi ro nối tiếp: dốc lên dài giữ đà nhưng nuốt tốc nếu vào số sai, đoạn cao với các nhánh gộp và nhánh rẽ bắt dòng xe phải trộn vào "
+ },
+ {
+  "kind": "article",
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "description": "Lịch bảo dưỡng xe máy định kỳ theo số km: dầu nhớt, lọc gió, bugi, má phanh và các mốc kiểm tra phổ biến, kèm cách điều chỉnh theo điều kiện chạy xe.",

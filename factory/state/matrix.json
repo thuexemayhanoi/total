@@ -2598,11 +2598,13 @@
    "title": "Đi xe máy qua khu vực bến xe: đọc dòng, né cửa và chờ nhịp",
    "primaryIntent": "informational/di-xe-may-qua-khu-vuc-ben-xe-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:09:13.431Z",
-   "updatedAt": "2026-10-02T02:09:13.434Z"
+   "updatedAt": "2026-10-02T02:12:41.378Z",
+   "seoScore": 91,
+   "words": 3279
   },
   {
    "id": "S00178",
@@ -2611,11 +2613,13 @@
    "title": "Kỹ thuật đi xe máy qua cầu vượt: dốc, giao cắt và làn gộp",
    "primaryIntent": "informational/ky-thuat-di-xe-may-qua-cau-vuot",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:09:13.531Z",
-   "updatedAt": "2026-10-02T02:09:13.533Z"
+   "updatedAt": "2026-10-02T02:12:41.378Z",
+   "seoScore": 100,
+   "words": 3477
   }
  ]
 }
