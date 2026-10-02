@@ -4332,6 +4332,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-gap-o-to-dang-lui-xu-ly/",
+  "title": "Gặp ô tô đang lùi: nhận biết sớm và né đúng",
+  "description": "Xe máy nằm trong vùng mù tuyệt đối phía sau ô tô đang lùi. Bài viết chỉ cách nhận biết xe sắp lùi, chọn vị trí và né vùng quét đúng cách.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "ô tô lùi",
+   "đèn lùi",
+   "điểm mù",
+   "vùng quét",
+   "gương chiếu hậu",
+   "hẻm hẹp"
+  ],
+  "keywords": [
+   "ô tô đang lùi",
+   "xe máy vùng mù ô tô",
+   "đèn lùi ô tô",
+   "né ô tô lùi",
+   "điểm mù xe tải",
+   "đi xe máy hẻm hẹp"
+  ],
+  "summary": "Một ô tô đang lùi là một khối sắt di chuyển theo hướng ngược với mọi giả định của dòng xe — và với người đi xe máy, đó là một trong những tình huống có tỷ lệ va cao nhất trong đô thị, vì ba lý do cộng hưởng: vùng phía sau ô tô là điểm mù tuyệt đối mà không gươ"
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/ky-thuat-di-xe-may-qua-doan-oc-ga/",
+  "title": "Kỹ thuật đi xe máy qua đoạn ổ gà và mặt đường mấp mô",
+  "description": "Đoạn ổ gà liên tục làm xe rung, lệch lái và tuột bánh. Bài viết chỉ tư thế ngồi, cách chọn vệt, tốc độ đúng và giữ lái khi bánh rơi ổ.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "ổ gà",
+   "mặt đường mấp mô",
+   "tay lái",
+   "vệt bánh xe",
+   "lốp xe",
+   "giảm xóc"
+  ],
+  "keywords": [
+   "đi xe máy qua ổ gà",
+   "kỹ thuật qua đường xấu",
+   "mặt đường mấp mô",
+   "tư thế đi xe đường ổ gà",
+   "ổ gà ngập nước",
+   "giữ lái khi bánh rơi ổ"
+  ],
+  "summary": "Một ổ gà đơn lẻ chỉ là một cú nhún — nhưng một đoạn ổ gà liên tục, mặt đường mấp mô nứt nẻ dài hàng trăm mét, là một môi trường lái thật sự: xe rung liên tục cộng dồn, tay lái bị các mép ổ dẫn đi thay vì theo tay, phanh và ga mất độ mịn vì bàn chân cũng đang r"
+ },
+ {
+  "kind": "article",
   "url": "wiki/lop-banh-xe/lop-xe-may-cach-chon-va-thoi-diem-thay/",
   "title": "Lốp xe máy: cách chọn và thời điểm thay",
   "description": "Lốp xe máy: cách đọc ký hiệu kích cỡ, chọn lốp không săng hay có săng, áp suất chuẩn, dấu hiệu lốp mòn và thời điểm thay để an toàn khi chạy.",
