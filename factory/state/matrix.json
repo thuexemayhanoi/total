@@ -2778,11 +2778,13 @@
    "title": "Chở thú cưng trên xe máy: giữ an toàn cho cả chó mèo và người lái",
    "primaryIntent": "informational/cho-thu-cung-tren-xe-may-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:42:24.810Z",
-   "updatedAt": "2026-10-02T02:42:24.812Z"
+   "updatedAt": "2026-10-02T02:46:10.055Z",
+   "seoScore": 100,
+   "words": 4152
   },
   {
    "id": "S00190",
@@ -2791,11 +2793,13 @@
    "title": "Dùng điện thoại và tai nghe khi đi xe máy: rủi ro và cách bỏ",
    "primaryIntent": "informational/dung-dien-thoai-va-tai-nghe-khi-di-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:42:24.894Z",
-   "updatedAt": "2026-10-02T02:42:24.896Z"
+   "updatedAt": "2026-10-02T02:46:10.055Z",
+   "seoScore": 100,
+   "words": 4252
   }
  ]
 }
