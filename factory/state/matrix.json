@@ -2808,11 +2808,13 @@
    "title": "Ra từ ngõ nhỏ vào đường lớn: kỹ thuật cú nhập làn an toàn",
    "primaryIntent": "informational/ra-tu-ngo-nho-vao-duong-lon-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:48:18.850Z",
-   "updatedAt": "2026-10-02T02:48:18.853Z"
+   "updatedAt": "2026-10-02T02:53:57.483Z",
+   "seoScore": 91,
+   "words": 4104
   },
   {
    "id": "S00192",
@@ -2821,11 +2823,13 @@
    "title": "Vết dầu trơn trên đường: nhận biết và xử lý khi đi xe máy",
    "primaryIntent": "informational/di-xe-may-qua-doan-vet-dau-tron-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:48:18.933Z",
-   "updatedAt": "2026-10-02T02:48:18.935Z"
+   "updatedAt": "2026-10-02T02:53:57.483Z",
+   "seoScore": 100,
+   "words": 4089
   }
  ]
 }

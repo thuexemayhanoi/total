@@ -4608,6 +4608,56 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/ra-tu-ngo-nho-vao-duong-lon-luu-y/",
+  "title": "Ra từ ngõ nhỏ vào đường lớn: kỹ thuật cú nhập làn an toàn",
+  "description": "Cú ra khỏi ngõ vào đường lớn là cú nhập làn nguy nhất đô thị: tầm nhìn bị che, tốc hai bên lệch nhau. Bài viết chỉ cách thăm dò, lấy khe và lấy đà đúng.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "ngõ nhỏ",
+   "đường lớn",
+   "vạch ngầm",
+   "vùng che tầm nhìn",
+   "khoảng trống",
+   "lấy đà"
+  ],
+  "keywords": [
+   "ra khỏi ngõ vào đường lớn",
+   "xe máy ra ngõ",
+   "nhập làn xe máy",
+   "cú nhập làn an toàn",
+   "ngõ nhỏ đường lớn",
+   "thăm dò khi ra ngõ"
+  ],
+  "summary": "Cú ra khỏi ngõ nhỏ vào đường lớn là một trong vài thao tác khiến xe máy yếu thế nhất so với mọi phương tiện: ngõ hẹp không cho lấy tốc trước khi ra, tường hai bên che hết hai hướng nhìn cho tới khi mũi xe đã nhô ra giữa đường, và phần đường ngay trước miệng ng"
+ },
+ {
+  "kind": "article",
+  "url": "guide/xu-ly-su-co/di-xe-may-qua-doan-vet-dau-tron-luu-y/",
+  "title": "Vết dầu trơn trên đường: nhận biết và xử lý khi đi xe máy",
+  "description": "Vệt dầu trên nhựa trơn hơn nước và gần như không nhìn thấy lúc trời khô. Bài viết chỉ cách nhận biết vệt dầu, giữ lái khi dính và xử lý khi bánh trượt.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "vệt dầu",
+   "độ bám lốp",
+   "mặt đường nhựa",
+   "trượt bánh",
+   "mảng loáng",
+   "mưa đầu buổi"
+  ],
+  "keywords": [
+   "vệt dầu trên đường",
+   "đường trơn vết dầu",
+   "xe máy trượt dầu",
+   "mất bám lốp",
+   "đi xe máy đường loáng",
+   "vệt dầu mưa"
+  ],
+  "summary": "Trong tất cả các mặt đường trơn, vệt dầu là loại nguy nhất và cũng kín nhất: nước mưa làm mặt đường loáng và mọi người thấy — vệt dầu cũ nằm im trên mặt nhựa, ngày khô gần như vô hình, và độ bám của lốp trên nó thấp hơn trên nước vì dầu không tự bay hơi thành "
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/xe-hao-xang-nguyen-nhan-va-cach-xu-ly/",
   "title": "Xe hao xăng: nguyên nhân và cách xử lý",
   "description": "Xe máy hao xăng bất thường: nguyên nhân từ lọc gió, bugi, dây curoa, gió hoazin và thói quen lái, cách chẩn đoán từng nhóm và xử lý đúng thứ tự ưu tiên.",
