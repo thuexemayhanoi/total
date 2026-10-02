@@ -2868,11 +2868,13 @@
    "title": "Đi xe máy qua đoạn sương muối sớm mùa đông: mặt đường trắng và cách đọc trơn",
    "primaryIntent": "informational/di-xe-may-qua-doan-suong-muoi-mua-dong-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T03:02:12.754Z",
-   "updatedAt": "2026-10-02T03:02:12.756Z"
+   "updatedAt": "2026-10-02T03:06:18.957Z",
+   "seoScore": 100,
+   "words": 4565
   },
   {
    "id": "S00196",
@@ -2881,11 +2883,13 @@
    "title": "Đi xe máy gặp xe bồn xăng dầu: giữ khoảng cách và vượt đúng cách",
    "primaryIntent": "informational/di-xe-may-gap-xe-bon-xang-dau-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T03:02:12.832Z",
-   "updatedAt": "2026-10-02T03:02:12.834Z"
+   "updatedAt": "2026-10-02T03:06:18.957Z",
+   "seoScore": 91,
+   "words": 4581
   }
  ]
 }
