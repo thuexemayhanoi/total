@@ -2688,11 +2688,13 @@
    "title": "Kỹ thuật đi xe máy qua gờ giảm tốc an toàn, không hất bánh",
    "primaryIntent": "informational/ky-thuat-di-xe-may-qua-go-giam-toc",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:24:13.211Z",
-   "updatedAt": "2026-10-02T02:24:13.213Z"
+   "updatedAt": "2026-10-02T02:29:37.430Z",
+   "seoScore": 91,
+   "words": 3582
   },
   {
    "id": "S00184",
@@ -2701,11 +2703,13 @@
    "title": "Đi xe máy khi gió giật và xe tải vượt qua: giữ lái và vị trí",
    "primaryIntent": "informational/di-xe-may-khi-gio-giat-va-xe-tai-vuot",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:24:13.287Z",
-   "updatedAt": "2026-10-02T02:24:13.288Z"
+   "updatedAt": "2026-10-02T02:29:37.430Z",
+   "seoScore": 100,
+   "words": 4072
   }
  ]
 }
