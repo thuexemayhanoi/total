@@ -2906,6 +2906,36 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-xe-may-duong-lang-xa-quanh-co-luu-y/",
+  "title": "Đi xe máy đường làng quanh co: cua gắt, bụi và lối qua lạ",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Đường làng quanh co là loại đường dễ đánh giá thấp nhất bởi vẻ ngoài hiền hòa: không xe container, không đèn đỏ, dòng xe thưa — nhưng đúng loại đường này chứa một bộ rủi ro mà đường lớn không có: cua gắt không có biển báo vì người trong làng thuộc lòng, mặt đường hẹp không vạch nên mọi cuộc gặp nhau đều là một bài toán nhường mới, bụi che tầm nhìn hai chiều, và trên đường luôn có những thành viên không tuân theo quy tắc nào — gà vịt, con chó, đứa trẻ đá bóng, cụ già dắt bò. Bài viết này đi qua từng lớp: cách đọc đường làng từ tốc độ — tại sao đường quanh co phải đi chậm hơn mức nhìn thấy đường, vì phần đường không nhìn thấy được ở cua gắt dài hơn nhiều mắt đoán; kỹ thuật vào cua gắt và cua mù — giảm tốc trước, về số, nghiêng người, và đọc các tín hiệu phụ của cua khó thấy — bụi treo, vết phanh, rơm rơi; cách đi trong bụi: vệt nào, khoảng cách nào với xe trước, và khi nào buộc dừng hẳn; thành phần đặc trưng của đường làng — đàn gia cầm, chó nhà, trẻ nhỏ, xe chở nông sản quá tải, và cách đọc trọn một khuôn cảnh thay vì đọc từng vật; lối qua lạ — đệm bão cầu tạm, cống bắc nối, khúc cua có đỉnh che nhau — và nguyên tắc tin vệt của người địa phương; cuối cùng là luật gặp nhau trên đường một làn: ai lùi, ai né, và vì sao nhường sớm bao giờ cũng rẻ. Kết lại bằng một nguyên tắc tốc độ riêng cho đường làng: đi bằng tốc độ của người lạ, không phải tốc độ của người quen — vì người quen đang thuộc lòng từng khúc cua, còn mình thì không.",
+  "quickAnswer": "Trả lời ngắn: trên đường làng quanh co, hãy đi chậm hơn mức mình nghĩ là đủ — phần đường khuất sau cua gắt dài hơn mắt ước đoán, và cua làng không có biển báo. Vào cua: giảm và về số trước khi tới, nghiêng người theo cua, không phanh giữa cua, và đọc tín hiệu phụ — bụi treo giữa không trung, vết phanh trên mặt, rơm rơi ven — để biết cua có xe ra vào. Trong bụi: nếu xe trước kéo bụi dày thì buông khoảng cách lớn chứ không bám theo sát, đi về phía mép có gió thổi bụi ra, và bụi mù hai chiều thì dừng hẳn chờ cho tới khi nhìn được nửa đường phía trước. Gặp gà vịt, chó, trẻ nhỏ: giảm sớm và né rộng — vật nuôi trên đường làng đi theo bản năng, không theo quy tắc, và trẻ nhỏ nghe tiếng xe càng chạy. Gặp xe trên đường một làn hẹp: người nào gần chỗ rộng thì nhường, người xuống dốc nhường người lên dốc, và nhường sớm luôn rẻ hơn lùi muộn. Và một quy tắc cuối: tin vệt bánh của người địa phương — chỗ nào họ chậm, mình chậm, vì họ thuộc đường hơn mình thuộc bản đồ.",
+  "keyPoints": [
+   "Đường làng quanh co phải đi chậm hơn mức nhìn thấy đường: cua gắt không biển báo, và phần khuất sau cua dài hơn mắt đoán.",
+   "Vào cua gắt: giảm và về số trước cua, nghiêng người theo cua, không phanh giữa cua; đọc tín hiệu phụ — bụi treo, vết phanh, rơm rơi ven đường.",
+   "Bụi là màn che hai chiều của đường làng: buông khoảng cách với xe trước, né về phía gió thổi bụi, bụi mù thì dừng hẳn chờ tầm nhìn.",
+   "Vật nuôi và trẻ nhỏ trên đường làng không theo quy tắc giao thông: giảm sớm, né rộng, và coi mọi con vật gần đường là đang định băng."
+  ],
+  "entities": [
+   "đường làng",
+   "cua gắt",
+   "bụi đường",
+   "làn hẹp",
+   "vật nuôi",
+   "cầu tạm"
+  ],
+  "keywords": [
+   "đi xe máy đường làng",
+   "đường quanh co an toàn",
+   "vào cua gắt",
+   "đi xe máy trong bụi",
+   "đường hẹp một làn",
+   "nhường đường trên đường làng"
+  ]
+ },
+ {
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "category": "Hướng dẫn",
@@ -2936,6 +2966,36 @@
    "chỉnh xích xe máy",
    "bảo dưỡng xe ga",
    "bảo dưỡng xe số"
+  ]
+ },
+ {
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-doan-rai-nhua-va-da-dam-luu-y/",
+  "title": "Qua đoạn đường rải nhựa và rải đá dăm: lốp dính, đá văng và xe công trình",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Đoạn đường đang thi công nhựa là một trong những môi trường mặt đường thay đổi nhanh nhất mà xe máy có thể gặp: trong vài trăm mét, mặt đường có thể chuyển từ nhựa phẳng cũ sang nhựa nóng còn dẻo dính bánh, rồi sang lớp đá dăm rải lỏng như một trống bi, rồi tới đoạn bóc lớp cũ lộ đá gốc gồ ghề — và xen giữa tất cả là đội xe công trình đang làm việc: máy trải nhựa đỏ lửa, xe tải thùng trùm chở đá, và người cầm cờ đứng đúng ranh giới giữa làn xe chạy và vùng làm việc. Bài viết này đi qua từng lớp: ba loại mặt đường của thi công nhựa và cơ chế rủi ro riêng của từng loại — nhựa nóng dẻo làm bánh xe dính và kéo, đá dăm lỏng làm bánh trượt như trên bi, lớp bóc lộ mặt gồ ghề làm xe rung lệch hướng; kỹ thuật qua nhựa nóng — chọn vệt bánh đã cán, không phanh gấp không tăng ga vọt đúng chỗ dẻo; kỹ thuật qua đá dăm — đi vệt xe trước, phanh trước nhát ngắn, và khoảng cách với xe phía sau để đá không văng vào mình cũng như mình không văng vào người sau; cách đọc đội xe công trình — vùng hoạt động của máy trải nhựa, khoảng dừng của xe tải thùng trùm, và tín hiệu của người cầm cờ; và cuối cùng là những điều cần kiểm tra sau khi ra khỏi đoạn thi công: lốp dính nhựa, má phanh dính bụi đá, và những cú rung nhỏ có thể làm lỏng ốc. Kết lại bằng nguyên tắc của mọi đoạn thi công: đi như người khách đi qua nơi người khác đang làm việc — chậm, rộng khoảng, và không mang theo bất cứ giả định nào về mặt đường phía trước.",
+  "quickAnswer": "Trả lời ngắn: gặp đoạn đang rải nhựa hoặc rải đá dăm, việc đầu tiên là hạ tốc và đọc cờ chỉ dẫn — cờ là tín hiệu duy nhất cho biết làn nào đang mở. Qua nhựa nóng còn dẻo: đi thẳng bánh theo vệt xe trước đã cán, không phanh gấp, không bẻ lái gắt, không tăng ga vọt — mọi cú xé mặt ở chỗ dẻo để lại rảnh nhựa dính lốp và lệch đường. Qua đá dăm rải lỏng: đi vệt bánh xe đã cán chặt, phanh nhẹ nhát ngắn và phanh trước nhiều hơn phanh sau, không bẻ lái giữa lớp đá — và kéo khoảng cách với xe sau để đá không văng theo. Xe công trình: né vùng hoạt động của máy trải nhựa, không bám sát sau xe tải thùng trùm vì nó lùi bất ngờ để dốc đá, và người cầm cờ giơ thì dừng hẳn. Ra khỏi đoạn thi công thì kiểm tra nhanh: lốp dính sỏi nhựa, người sau có bị đá văng trúng không, và sau chuyến đi có cú rung lạ nào cần siết lại. Và nguyên tắc tổng: không vượt, không bấm khe, không coi mặt đường phía trước giống mặt đường mình đang đi — trong đoạn thi công, mặt đường đổi từng mét.",
+  "keyPoints": [
+   "Đoạn thi công nhựa có ba loại mặt đổi liên tục: nhựa nóng dẻo dính bánh, đá dăm rải lỏng trượt như bi, lớp bóc cũ gồ ghề làm lệch hướng — đọc từng đoạn, không dùng một kỹ thuật cho cả đoạn.",
+   "Qua nhựa nóng: đi thẳng theo vệt xe trước đã cán, không phanh gấp, không bẻ lái gắt, không tăng ga vọt đúng chỗ dẻo.",
+   "Qua đá dăm lỏng: đi vệt bánh đã cán chặt, phanh trước nhát ngắn nhiều hơn phanh sau, không bẻ lái trên lớp đá, và né đá văng bằng khoảng cách.",
+   "Đọc đội xe công trình: máy trải nhựa có vùng hoạt động rộng, xe thùng trùm lùi để dốc đá, người cầm cờ giơ là dừng hẳn — không bám sát, không băng qua vùng làm việc."
+  ],
+  "entities": [
+   "đường thi công",
+   "nhựa nóng",
+   "đá dăm",
+   "máy trải nhựa",
+   "xe thùng trùm",
+   "cờ chỉ dẫn"
+  ],
+  "keywords": [
+   "qua đường rải nhựa",
+   "đường đá dăm trơn",
+   "xe máy qua đoạn thi công",
+   "nhựa dính lốp xe máy",
+   "xe công trình trên đường",
+   "đi xe máy đường đang sửa"
   ]
  },
  {

@@ -2628,11 +2628,13 @@
    "title": "Đi xe máy đường làng quanh co: cua gắt, bụi và lối qua lạ",
    "primaryIntent": "informational/di-xe-may-duong-lang-xa-quanh-co-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:13:47.089Z",
-   "updatedAt": "2026-10-02T02:13:47.090Z"
+   "updatedAt": "2026-10-02T02:16:59.285Z",
+   "seoScore": 100,
+   "words": 3218
   },
   {
    "id": "S00180",
@@ -2641,11 +2643,13 @@
    "title": "Qua đoạn đường rải nhựa và rải đá dăm: lốp dính, đá văng và xe công trình",
    "primaryIntent": "informational/di-xe-may-qua-doan-rai-nhua-va-da-dam-luu-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-02T02:13:47.182Z",
-   "updatedAt": "2026-10-02T02:13:47.184Z"
+   "updatedAt": "2026-10-02T02:16:59.285Z",
+   "seoScore": 100,
+   "words": 3304
   }
  ]
 }

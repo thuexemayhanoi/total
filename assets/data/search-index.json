@@ -4254,6 +4254,31 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-duong-lang-xa-quanh-co-luu-y/",
+  "title": "Đi xe máy đường làng quanh co: cua gắt, bụi và lối qua lạ",
+  "description": "Đường làng hẹp, cua gắt không biển báo, bụi mù và gà vịt trên đường. Bài viết chỉ cách vào cua, đọc bụi và nhường đường trên đường làng quanh co.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "đường làng",
+   "cua gắt",
+   "bụi đường",
+   "làn hẹp",
+   "vật nuôi",
+   "cầu tạm"
+  ],
+  "keywords": [
+   "đi xe máy đường làng",
+   "đường quanh co an toàn",
+   "vào cua gắt",
+   "đi xe máy trong bụi",
+   "đường hẹp một làn",
+   "nhường đường trên đường làng"
+  ],
+  "summary": "Đường làng quanh co là loại đường dễ đánh giá thấp nhất bởi vẻ ngoài hiền hòa: không xe container, không đèn đỏ, dòng xe thưa — nhưng đúng loại đường này chứa một bộ rủi ro mà đường lớn không có: cua gắt không có biển báo vì người trong làng thuộc lòng, mặt đư"
+ },
+ {
+  "kind": "article",
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "description": "Lịch bảo dưỡng xe máy định kỳ theo số km: dầu nhớt, lọc gió, bugi, má phanh và các mốc kiểm tra phổ biến, kèm cách điều chỉnh theo điều kiện chạy xe.",
@@ -4279,6 +4304,31 @@
    "bảo dưỡng xe số"
   ],
   "summary": "Bảo dưỡng định kỳ là khoản đầu tư rẻ nhất cho tuổi thọ chiếc xe, nhưng nhiều người chỉ nhớ mỗi việc thay nhớt mà bỏ qua toàn bộ phần còn lại của lịch trình. Thực tế, một chiếc xe máy có gần chục hạng mục cần chăm theo chu kỳ khác nhau: dầu nhớt, lọc gió, bugi,"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-doan-rai-nhua-va-da-dam-luu-y/",
+  "title": "Qua đoạn đường rải nhựa và rải đá dăm: lốp dính, đá văng và xe công trình",
+  "description": "Đường đang rải nhựa nóng dính lốp, đá dăm rải lỏng gây trượt và xe công trình ra vào. Bài viết chỉ cách chọn vệt, giữ phanh và né đá văng.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "đường thi công",
+   "nhựa nóng",
+   "đá dăm",
+   "máy trải nhựa",
+   "xe thùng trùm",
+   "cờ chỉ dẫn"
+  ],
+  "keywords": [
+   "qua đường rải nhựa",
+   "đường đá dăm trơn",
+   "xe máy qua đoạn thi công",
+   "nhựa dính lốp xe máy",
+   "xe công trình trên đường",
+   "đi xe máy đường đang sửa"
+  ],
+  "summary": "Đoạn đường đang thi công nhựa là một trong những môi trường mặt đường thay đổi nhanh nhất mà xe máy có thể gặp: trong vài trăm mét, mặt đường có thể chuyển từ nhựa phẳng cũ sang nhựa nóng còn dẻo dính bánh, rồi sang lớp đá dăm rải lỏng như một trống bi, rồi tớ"
  },
  {
   "kind": "article",
