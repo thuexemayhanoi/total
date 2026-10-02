@@ -4154,6 +4154,56 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-sau-xe-may-tap-su/",
+  "title": "Đi sau xe máy tập sự: giữ khoảng cách và đọc tín hiệu",
+  "description": "Xe gắn biển tập sự đi chậm, ngập ngừng và dừng đột ngột giữa dòng. Bài viết chỉ cách giữ khoảng cách, chọn vị trí và vượt đúng lúc khi đi sau.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "xe tập sự",
+   "biển tập sự",
+   "khoảng cách an toàn",
+   "làn đường",
+   "tay lái",
+   "phanh trước"
+  ],
+  "keywords": [
+   "đi sau xe tập sự",
+   "khoảng cách an toàn xe máy",
+   "xe máy tập sự",
+   "vượt xe an toàn",
+   "đọc tín hiệu xe phía trước",
+   "hướng dẫn người mới chạy xe"
+  ],
+  "summary": "Đi sau một xe máy gắn biển tập sự là một trong những tình huống đòi hỏi kỹ năng quan sát nhiều hơn tốc độ: xe tập sự không đi theo nhịp của dòng xe — ga lên xuống từng nhịp, thân xe lắc lư khi giảm số, và quan trọng nhất là những cú dừng đột ngột không ra hiệu"
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/di-xe-may-duong-mot-chieu-dung-lan/",
+  "title": "Đi xe máy trên đường một chiều: chọn làn và né cửa mở",
+  "description": "Đường một chiều tưởng dễ lại giấu rủi ro riêng: cửa xe đỗ mở, ngõ đẻ ra và người băng giữa dòng xe. Bài viết chỉ cách chọn làn và né cửa mở.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "đường một chiều",
+   "làn đường",
+   "xe đỗ",
+   "cửa xe mở",
+   "ngõ nhỏ",
+   "vạch phân làn"
+  ],
+  "keywords": [
+   "đi xe máy đường một chiều",
+   "chọn làn an toàn",
+   "né cửa xe mở",
+   "rẽ trái đường một chiều",
+   "cửa xe đỗ mở",
+   "khe hở giữa các xe"
+  ],
+  "summary": "Nhiều người nghĩ đường một chiều là loại đường dễ đi nhất: không có xe ngược chiều, không có cảnh vượt nhau chéo mặt, tốc độ dòng xe đồng đều. Nhưng chính vì dễ, nó sinh ra một bộ rủi ro riêng mà người đi xe máy hay bỏ qua: vì không cần canh xe ngược, ánh nhìn"
+ },
+ {
+  "kind": "article",
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "description": "Lịch bảo dưỡng xe máy định kỳ theo số km: dầu nhớt, lọc gió, bugi, má phanh và các mốc kiểm tra phổ biến, kèm cách điều chỉnh theo điều kiện chạy xe.",

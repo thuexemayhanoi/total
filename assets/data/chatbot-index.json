@@ -2786,6 +2786,66 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/di-sau-xe-may-tap-su/",
+  "title": "Đi sau xe máy tập sự: giữ khoảng cách và đọc tín hiệu",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Đi sau một xe máy gắn biển tập sự là một trong những tình huống đòi hỏi kỹ năng quan sát nhiều hơn tốc độ: xe tập sự không đi theo nhịp của dòng xe — ga lên xuống từng nhịp, thân xe lắc lư khi giảm số, và quan trọng nhất là những cú dừng đột ngột không ra hiệu vì người mới thường bóp cả hai phanh cùng lúc khi hoảng. Bài viết này đi qua từng lớp của tình huống: trước hết là hiểu hành vi của người mới cầm lái — vì sao xe của họ đi lệch làn, ngó sượt, đổi hướng đột xuất — để những cú giật phía trước trở thành đoán trước được thay vì bất ngờ; rồi khoảng cách và vị trí — khoảng cách đổi theo tốc độ và theo mặt đường, cùng nguyên tắc đứng chéo nhẹ bên này hay bên kia để luôn có một lối thoát nếu xe trước dừng chết; cách đọc tín hiệu tay lái, đầu người lái và chân đặt phanh — ba bộ phận tiết lộ ý định của xe phía trước sớm hơn mọi đèn tín hiệu; các khoảnh khắc rủi ro cao — khi xe tập sự bị xe khác bóp vào, khi họ rẽ không ra hiệu, khi họ chết máy giữa ngã tư; và khi nào nên vượt, vượt thế nào cho hai bên đều an toàn, hoặc đi theo hộ tống phía trước cho người mới. Kết lại bằng quy tắc đơn giản: đi sau xe tập sự thì hạ nhịp của mình xuống nhịp của họ — vì khoảng cách an toàn thật sự không đo bằng mét mà bằng thời gian mình cần để phản ứng trước một người chưa chắc chắn mình sẽ làm gì.",
+  "quickAnswer": "Trả lời ngắn: đi sau xe tập sự, hạ tốc độ của mình về gần nhịp của họ và giữ khoảng cách lớn hơn khoảng cách đi sau xe thường — tối thiểu vài thân xe ở tốc độ phố, thêm nữa khi đường ướt hoặc đông. Đứng chéo nhẹ sang một bên so với vệt bánh xe của họ — thường là bên trái — để nhìn được qua vai xe và có lối vòng ra nếu họ dừng chết. Đọc tín hiệu của người lái trước: đầu ngó sượt tức là sắp đổi hướng, tay lái đảo nhẹ tức là đang cân bằng, chân gác phanh liên tục tức là đang lo lắng và có thể dừng bất kỳ lúc. Tuyệt đối không bám sát gần để ép tốc độ, không rú ga gây áp lực, không vượt trong lúc xe tập sự đang ngập ngừng giữa làn. Muốn vượt thì chờ đoạn thẳng thoáng, ra tín hiệu sớm, vượt nhanh và rộng biên độ, rồi kéo khoảng cách trước khi về lại làn. Nếu đi cùng hướng dẫn người mới, đi trước làm điểm neo tốc độ thay vì đốc phía sau — chọn làn trong đi đều, giảm sớm trước ngã tư, và dừng hẳn về vạch khi phải chờ.",
+  "keyPoints": [
+   "Xe tập sự không đi theo nhịp dòng xe: ga lên xuống, đi lệch làn, ngó sượt và dừng đột ngột — coi mọi cú giật của họ là khả năng cao chứ không phải bất thường.",
+   "Khoảng cách đi sau xe tập sự phải lớn hơn khoảng cách đi sau xe thường, và vị trí đứng chéo nhẹ một bên để luôn có lối thoát nếu xe trước dừng chết giữa làn.",
+   "Ba bộ phận tiết lộ ý định xe trước sớm hơn đèn tín hiệu: tay lái đảo, đầu người lái ngó, và chân đặt phanh liên tục — tập đọc cả ba qua vai xe và trong gương.",
+   "Không bao giờ ép tốc độ xe tập sự bằng cách bám sát, bóp còi hay vượt hớp đầu — áp lực làm người mới gồng cứng và mất thêm chính kỹ năng đang có."
+  ],
+  "entities": [
+   "xe tập sự",
+   "biển tập sự",
+   "khoảng cách an toàn",
+   "làn đường",
+   "tay lái",
+   "phanh trước"
+  ],
+  "keywords": [
+   "đi sau xe tập sự",
+   "khoảng cách an toàn xe máy",
+   "xe máy tập sự",
+   "vượt xe an toàn",
+   "đọc tín hiệu xe phía trước",
+   "hướng dẫn người mới chạy xe"
+  ]
+ },
+ {
+  "url": "learn/ky-thuat-lai-xe/di-xe-may-duong-mot-chieu-dung-lan/",
+  "title": "Đi xe máy trên đường một chiều: chọn làn và né cửa mở",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "summary": "Nhiều người nghĩ đường một chiều là loại đường dễ đi nhất: không có xe ngược chiều, không có cảnh vượt nhau chéo mặt, tốc độ dòng xe đồng đều. Nhưng chính vì dễ, nó sinh ra một bộ rủi ro riêng mà người đi xe máy hay bỏ qua: vì không cần canh xe ngược, ánh nhìn của mình dồn về phía trước và mất hẳn sự cảnh giác hai bên — trong khi trên đường một chiều, nguy hiểm lại đến từ hai bên nhiều hơn từ phía trước: cửa xe đỗ mở ra đúng lúc mình đi ngang, ngõ nhỏ đẻ xe ra mà không ai nhường, người đi bộ băng giữa khe hai xe vì thấy dòng xe cùng chiều dễ đoán, và những chiếc xe rẽ trái cắt qua cả dòng xe để vào ngõ. Bài viết này đi qua từng lớp kỹ thuật: cách chọn làn — vì sao làn trong là làn chậm và an toàn cho người đi ngắn, còn làn ngoài là làn của cửa mở và miệng ngõ; cách đọc hàng xe đỗ để đoán cửa sắp mở và chọn khe đi; kỹ thuật né cú mở cửa vô tình và cách nhìn khe hở giữa các xe; cách xử lý người đi bộ băng giữa dòng — họ nhìn dòng trước, không nhìn dòng sau mình; trình tự rẽ trái qua dòng trên đường một chiều và vị trí chờ đúng; và cuối cùng là cách đi trong giờ cao điểm và buổi tối, khi hàng xe đỗ dài hơn, khe xe hẹp hơn, và các ngõ không đèn trở thành những mồm tối không đoán được. Kết lại bằng một quy tắc đảo chiều lưu ý: trên đường một chiều, phần đầu của mình vẫn nhìn về trước, nhưng phần cảnh giác phải rải về hai bên — vì dòng xe không còn đánh mình từ phía trước nữa, nó đánh mình từ bên cạnh.",
+  "quickAnswer": "Trả lời ngắn: trên đường một chiều, chọn làn theo mục đích — đi ngắn hoặc sắp rẽ vào ngõ thì bám làn trong cho chắc, đi xa và thẳng thì làn giữa hoặc ngoài, nhưng tuyệt đối không lượn sát mép ngoài nơi xe đỗ, vì cửa mở và ngõ đẻ đều nằm ở mép đó. Đọc hàng xe đỗ như đọc một bức tường có cửa: xe nào có người ngồi trong, gương gập lệch, đèn trần bật, hoặc bánh trước xoay — đó là cửa sắp mở, chậm lại hoặc kéo ra khỏi mép. Người đi bộ trên đường một chiều hay băng giữa khe hai xe vì họ chỉ canh dòng xe cùng chiều với mình — vì vậy khi thấy hai xe phía trước đang bít tầm nhìn của mình, hạ sẵn tốc độ và chờ khe mở. Rẽ trái qua dòng: không cắt góc từ làn trong, mà rời sớm về phía vạch phân làn, xi nhan từ xa, nhường dòng trước rồi mới cắt — chấp nhận chờ một nhịp chứ đừng chen xiên qua hai làn. Buổi tối, mọi miệng ngõ không đèn đều coi như có xe lao ra: giảm nhẹ, nghiêng người nhìn vào, và luôn giữ một khe thoát về phía làn trong.",
+  "keyPoints": [
+   "Đường một chiều không có xe ngược chiều nhưng đầy rủi ro từ hai bên: cửa xe đỗ mở, ngõ đẻ ra, và người đi bộ băng giữa khe xe — phần cảnh giác phải rải về hai bên.",
+   "Chọn làn theo mục đích: bám làn trong khi đi ngắn hoặc chuẩn bị rẽ, giữ làn giữa hoặc ngoài khi đi thẳng xa, nhưng không lượn sát mép xe đỗ.",
+   "Đọc hàng xe đỗ như đọc một bức tường có cửa: người ngồi trong xe, gương gập lệch, đèn trần bật, bánh trước xoay — tín hiệu cửa sắp mở, chậm lại hoặc kéo khỏi mép.",
+   "Người đi bộ băng giữa khe hai xe vì họ chỉ canh dòng xe cùng chiều — khi hai xe phía trước bít tầm nhìn, hạ sẵn tốc độ chờ khe mở, không giữ nguyên tốc độ bấm khe."
+  ],
+  "entities": [
+   "đường một chiều",
+   "làn đường",
+   "xe đỗ",
+   "cửa xe mở",
+   "ngõ nhỏ",
+   "vạch phân làn"
+  ],
+  "keywords": [
+   "đi xe máy đường một chiều",
+   "chọn làn an toàn",
+   "né cửa xe mở",
+   "rẽ trái đường một chiều",
+   "cửa xe đỗ mở",
+   "khe hở giữa các xe"
+  ]
+ },
+ {
   "url": "guide/bao-duong/lich-bao-duong-xe-may-dinh-ky-theo-so-km/",
   "title": "Lịch bảo dưỡng xe máy định kỳ theo số km",
   "category": "Hướng dẫn",
