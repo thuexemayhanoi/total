@@ -598,6 +598,143 @@ function publishPair(ids, opts) {
   }
 }
 
+// ---------- PRODUCTION CYCLE (12-18 bài, 3 writer) ----------
+// parseCycleIds: 1-CYCLE_MAX ID tường minh, unique, đúng format S-format.
+function parseCycleIds(args) {
+  const ids = String(args || '').split(/[\s,]+/).filter(Boolean);
+  if (!ids.length) throw new Error('cycle-qa/cycle-publish cần 1-' + runtime.CYCLE_MAX + ' ID tường minh (S00055,S00056,...)');
+  const seen = new Set();
+  for (const id of ids) {
+    if (!/^S\d{5,}$/.test(id)) throw new Error('ID không hợp lệ: ' + id);
+    if (seen.has(id)) throw new Error('ID lặp trong cycle: ' + id);
+    seen.add(id);
+  }
+  if (ids.length > runtime.CYCLE_MAX) throw new Error('Quá ' + runtime.CYCLE_MAX + ' ID mỗi cycle (nhận ' + ids.length + ')');
+  return ids;
+}
+
+// CYCLE-QA: scoped minimal QA CHỈ bài mới của cycle hiện tại — KHÔNG bao giờ
+// quét lại toàn site, KHÔNG re-audit bài đã PUBLISHED. FAIL -> REPAIR queue
+// (một bài FAIL KHÔNG giữ cycle); PASS -> state PASS để coordinator publish.
+function cycleQa(m, ids) {
+  const passed = [], failed = [], pending = [];
+  const { qaArticle } = require('./qa');
+  for (const id of ids) {
+    const s = m.slots.find(x => x.id === id);
+    if (!s) throw new Error('Không tìm thấy slot ' + id);
+    if (s.state === 'PUBLISHED') {
+      console.log('CYCLE_QA_SKIP ' + id + ' (' + s.slug + ') đã PUBLISHED — không re-audit bài đã xuất bản');
+      continue;
+    }
+    const article = loadArticleBySlug(s.slug);
+    if (!article) {
+      pending.push(id);
+      console.log('CYCLE_QA_PENDING ' + id + ' (' + s.slug + ') chưa có module bài — writer chưa nộp (KHÔNG giữ cycle)');
+      continue;
+    }
+    const result = qaArticle(article, buildQaCtx(m, { excludeSlug: s.slug, slot: s }));
+    s.attempts = (s.attempts || 0) + 1;
+    s.qaScore = result.score;
+    s.words = result.words;
+    console.log('QA ' + id + ' (' + s.slug + '): ' + result.score + '/100 — ' + (result.pass ? 'ĐẠT' : 'TRƯỢT') + ' (minimal gate ' + runtime.QA_PASS_MIN + ', scoped cycle)');
+    for (const c of result.checks.filter(x => !x.pass)) console.log('  - [' + (c.critical ? 'CRITICAL' : 'WARNING') + '] ' + c.name + ' ' + c.note);
+    s.updatedAt = new Date().toISOString();
+    if (result.pass) { s.state = 'PASS'; passed.push(id); }
+    else { s.state = 'REPAIR'; failed.push(id); console.log('  → REPAIR queue (điểm < 70 hoặc critical) — KHÔNG giữ cycle'); }
+  }
+  return { passed, failed, pending };
+}
+
+// CYCLE-PUBLISH: coordinator duy nhất merge + build/deploy ĐÚNG 1 LẦN cho cả
+// cycle. Chỉ publish slot PASS; slot FAIL đã ở REPAIR queue được DEFER (không
+// giữ cycle). Txn atomic + resumable như publish-pair nhưng N <= CYCLE_MAX ID.
+function cyclePublish(ids, opts) {
+  const o = opts || {};
+  const t0 = Date.now();
+  const spawn = o.spawn || ((file, args) => execFileSync(process.execPath, [file].concat(args || []), { stdio: 'inherit' }));
+  let m = loadMatrix();
+  validateMatrix(m);
+  const rec = recoverTxn(m);
+  if (rec) console.log('TXN_RECOVER ' + rec.outcome + ' (ids ' + (rec.txn.ids || []).join(',') + ')');
+  m = loadMatrix();
+  validateMatrix(m);
+  for (const id of ids) {
+    const s = m.slots.find((x) => x.id === id);
+    if (!s) throw new Error('Không tìm thấy slot ' + id);
+    if (s.state === 'BLOCKED') throw new Error('Slot ' + id + ' BLOCKED — cần người rà, KHÔNG tự publish');
+    if (!runtime.CLAIMABLE_STATES.includes(s.state) && s.state !== 'PUBLISHED') {
+      throw new Error('Slot ' + id + ' đang ' + s.state + ' — không publish được');
+    }
+  }
+  const work = ids.filter((id) => m.slots.find((x) => x.id === id).state !== 'PUBLISHED');
+  const owner = o.owner || 'coordinator';
+  const record = lock.acquire(STATE_DIR, owner);
+  let committed = false;
+  try {
+    m = loadMatrix();
+    validateMatrix(m);
+    const tQa = Date.now();
+    const results = [];
+    for (const id of work) {
+      const s = m.slots.find((x) => x.id === id);
+      const res = qaSeoArticle(s);
+      results.push({ s, res });
+      console.log('QA+SEO ' + id + ' (' + s.slug + '): QA ' + res.qa.score + '/100 ' + (res.qa.pass ? 'ĐẠT' : 'TRƯỢT') + ' | SEO ' + res.seo.score + '/100 (advisory)');
+    }
+    const qaTime = Date.now() - tQa;
+    for (const r of results) {
+      if (!r.res.seo.pass) console.log('PAIR_ADVISORY: ' + r.s.id + ' — SEO ' + r.res.seo.score + '/100 dưới 70 (advisory, KHÔNG chặn publish)');
+    }
+    for (const e of intentConflicts(m, work)) console.log('PAIR_ADVISORY: ' + e + ' (KHÔNG chặn publish)');
+    const failedResults = results.filter((r) => !r.res.qa.pass);
+    for (const r of failedResults) {
+      console.log('CYCLE_REJECT: ' + r.s.id + ' (' + r.s.slug + ') — QA ' + r.res.qa.score + '/100 FAIL minimal gate -> REPAIR queue (defer, KHÔNG giữ cycle)' +
+        (r.res.qa.criticals.length ? ' (critical: ' + r.res.qa.criticals.join('; ') + ')' : ' (điểm < 70)'));
+      r.s.state = 'REPAIR';
+      r.s.qaScore = r.res.qa.score;
+      r.s.attempts = (r.s.attempts || 0) + 1;
+      r.s.updatedAt = new Date().toISOString();
+    }
+    const publishable = results.filter((r) => r.res.qa.pass).map((r) => r.s.id);
+    if (!publishable.length) {
+      validateMatrix(m);
+      saveMatrix(m);
+      saveState(loadState(), 'cycle-publish:repair-queue:' + work.join(','));
+      console.log('CYCLE_RESULT ok=repair-queue ids= (repaired=' + work.join(',') + ') qa_time=' + qaTime + 'ms total=' + (Date.now() - t0) + 'ms');
+      committed = true;
+      return;
+    }
+    writeTxn({ ids: publishable, phase: 'publishing', at: new Date().toISOString(), owner });
+    const tGen = Date.now();
+    spawn(path.join(__dirname, 'generate.js'), []); // build/deploy ĐÚNG 1 LẦN cho cả cycle
+    const genTime = Date.now() - tGen;
+    const v = verifyPair(m, publishable, { requirePublished: false, checkLock: false });
+    if (!v.ok) { for (const e of v.errors) console.error('VERIFY_PAIR_FAIL: ' + e); throw new Error('verify-pair không đạt — KHÔNG ghi state.'); }
+    for (const id of publishable) {
+      const s = m.slots.find((x) => x.id === id);
+      const res = results.find((r) => r.s.id === id).res;
+      s.state = 'PUBLISHED';
+      s.qaScore = res.qa.score;
+      s.seoScore = res.seo.score;
+      s.words = res.qa.words;
+      s.attempts = (s.attempts || 0) + 1;
+      s.updatedAt = new Date().toISOString();
+    }
+    validateMatrix(m);
+    saveMatrix(m);
+    saveState(loadState(), 'cycle-publish:' + publishable.join(','));
+    clearTxn();
+    committed = true;
+    console.log('CYCLE_RESULT ok=published ids=' + publishable.join(',') +
+      (failedResults.length ? ' repaired=' + failedResults.map((r) => r.s.id).join(',') : '') +
+      ' generate=1 deploy=1 qa_time=' + qaTime + 'ms generate_time=' + genTime + 'ms total=' + (Date.now() - t0) + 'ms');
+  } finally {
+    try { lock.release(STATE_DIR, record); }
+    catch (e) { console.error('LỖI giải phóng lock (có thể bị reclaim): ' + e.message); }
+    if (!committed && fs.existsSync(TXN_FILE)) clearTxn();
+  }
+}
+
 function drainIteration(owner, tokenFile) {
   let slugs;
   try {
@@ -771,7 +908,16 @@ Lệnh:
                                   KHÔNG commit) từ manifest + content — an toàn
                                   khi missing/corrupt/stale; chỉ role=coordinator
   index-check                    Read-only: kiểm SQLite vs manifest (quick_check,
-                                  số dòng, manifest_sha256) — exit 1 khi cần rebuild`);
+                                  số dòng, manifest_sha256) — exit 1 khi cần rebuild
+  cycle-plan                     Kế hoạch cycle hiện tại: 12-18 slot PLANNED,
+                                  3 writer (read-only; planned < 100 -> hint refill)
+  cycle-qa <ID,ID,...>           Scoped minimal QA CHỈ bài mới của cycle (1-18
+                                  ID) — KHÔNG quét toàn site; FAIL -> REPAIR
+                                  queue, PASS tiếp tục publish
+  cycle-publish <ID,ID,...>      Coordinator duy nhất: publish slot PASS của
+                                  cycle, defer REPAIR, build/deploy ĐÚNG 1 lần
+  queue-refill [--role R]        Planned < 100 -> refill queue lên ~300 topic
+                                  hợp lệ từ topic-pool (chỉ role=coordinator)`);
 }
 
 function opt(flag) {
@@ -780,7 +926,7 @@ function opt(flag) {
 }
 // Tham số vị trí của lệnh: bỏ flag + giá trị flag (--owner O, --scope ID, ...).
 function positional(rest) {
-  const WITH_VALUE = new Set(['--owner', '--token-file', '--base', '--scope', '--head-sha', '--limit', '--intent', '--min-score', '--fail-if-claimable']);
+  const WITH_VALUE = new Set(['--owner', '--token-file', '--base', '--scope', '--head-sha', '--limit', '--intent', '--min-score', '--fail-if-claimable', '--role']);
   const out = [];
   for (let i = 0; i < rest.length; i++) {
     if (String(rest[i]).startsWith('--')) { if (WITH_VALUE.has(rest[i])) i++; continue; }
@@ -1274,6 +1420,68 @@ function main() {
     console.log('PLAN_TXNS=' + plan.txns.length);
     return;
   }
+  if (cmd === 'cycle-plan') {
+    // Read-only: kế hoạch cycle hiện tại (12-18 slot PLANNED, 3 writer).
+    const m = loadMatrix();
+    validateMatrix(m);
+    const plan = runtime.buildCyclePlan(m);
+    console.log('CYCLE_PLAN ids=' + plan.ids.join(',') + ' size=' + plan.size + ' writers=' + plan.writers +
+      ' (min ' + runtime.CYCLE_MIN + ', max ' + runtime.CYCLE_MAX + ')');
+    if (!plan.complete) console.log('CYCLE_PLAN incomplete: chỉ còn ' + plan.size + ' bài PLANNED (< ' + runtime.CYCLE_MIN + ')');
+    if (plan.needsRefill) console.log('CYCLE_PLAN refill: planned < ' + runtime.QUEUE_REFILL_FLOOR + ' -> chạy queue-refill (coordinator, target ' + runtime.QUEUE_REFILL_TARGET + ')');
+    return;
+  }
+  if (cmd === 'cycle-qa') {
+    // Scoped minimal QA CHỈ bài mới của cycle (12-18 ID) — KHÔNG quét toàn site.
+    const ids = parseCycleIds(positional(rest).join(' '));
+    const m = loadMatrix();
+    validateMatrix(m);
+    const out = cycleQa(m, ids);
+    validateMatrix(m);
+    saveMatrix(m);
+    saveState(loadState(), 'cycle-qa:' + out.passed.length + '/' + ids.length);
+    console.log('CYCLE_QA pass=' + out.passed.length + ' fail=' + out.failed.length + ' pending=' + out.pending.length +
+      (out.failed.length ? ' failed=' + out.failed.join(',') : '') +
+      ' (scoped ' + ids.length + '/' + runtime.CYCLE_MAX + ' bài — KHÔNG quét toàn site, KHÔNG re-audit bài đã PUBLISHED)');
+    return;
+  }
+  if (cmd === 'cycle-publish') {
+    // Coordinator duy nhất: chỉ publish slot PASS, defer REPAIR, build/deploy 1 lần.
+    const ids = parseCycleIds(positional(rest).join(' '));
+    cyclePublish(ids, { owner: opt('--owner') || 'coordinator' });
+    return;
+  }
+  if (cmd === 'queue-refill') {
+    // Allocator: planned < QUEUE_REFILL_FLOOR -> refill lên ~QUEUE_REFILL_TARGET
+    // topic hợp lệ từ topic-pool. CHỈ coordinator được chạy.
+    contentIndex.assertCoordinator(opt('--role') || 'coordinator');
+    const m = loadMatrix();
+    validateMatrix(m);
+    const planned = m.slots.filter(s => s.state === 'PLANNED').length;
+    if (planned >= runtime.QUEUE_REFILL_FLOOR) {
+      console.log('QUEUE_REFILL none planned=' + planned + ' (>= floor ' + runtime.QUEUE_REFILL_FLOOR + ') — đủ queue, không refill.');
+      return;
+    }
+    const { TOPICS } = require('./data/topic-pool');
+    const topics = runtime.selectRefillTopics(TOPICS, m.slots.map(s => s.slug), planned, runtime.QUEUE_REFILL_TARGET);
+    const room = m.capacity - m.slots.length;
+    const picked = topics.slice(0, Math.max(0, Math.min(topics.length, room)));
+    let added = 0;
+    for (const t of picked) {
+      try {
+        planSlot(m, { hub: t.hub, slug: t.slug, title: t.title, intent: 'informational/' + t.slug });
+        added++;
+      } catch (e) {
+        console.error('BỎ topic ' + t.slug + ': ' + e.message);
+      }
+    }
+    validateMatrix(m);
+    saveMatrix(m);
+    saveState(loadState(), 'queue-refill:+' + added);
+    console.log('QUEUE_REFILL added=' + added + ' planned=' + (planned + added) +
+      ' (floor ' + runtime.QUEUE_REFILL_FLOOR + ', target ' + runtime.QUEUE_REFILL_TARGET + ') — intent mặc định informational/<slug>');
+    return;
+  }
   if (cmd === 'change-mode') {
     let mode;
     if ((process.env.GITHUB_EVENT_NAME || '') === 'push') {
@@ -1304,4 +1512,6 @@ module.exports = {
   MANIFEST_FILE, contentIndex,
   // minimal production QA gate
   runQa, buildQaCtx,
+  // production cycle (12-18 bài, 3 writer, scoped QA, repair queue)
+  parseCycleIds, cycleQa, cyclePublish,
 };

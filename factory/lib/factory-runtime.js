@@ -19,6 +19,13 @@ const FIRST_CHUNK_LIMIT = 5;    // chunk đầu khi xưởng chưa có bài PUBL
 const PAIR_SIZE = 2;             // SIMPLE PRODUCTION MODE: đúng 2 bài mỗi pair transaction
 const SEO_PASS_MIN = 70;        // ngưỡng SEO advisory (factory/seo.js chấm — KHÔNG chặn publish)
 const QA_PASS_MIN = 70;         // MINIMAL PRODUCTION QA GATE: 70-100 PASS, <70 FAIL/REPAIR
+// PRODUCTION CYCLE: mỗi cycle 12-18 bài chia cho 3 writer; scoped QA chỉ bài
+// mới của cycle (KHÔNG bao giờ quét lại toàn site trong production loop).
+const CYCLE_MIN = 12;           // cycle thiếu < 12 bài PLANNED -> cần refill queue
+const CYCLE_MAX = 18;           // tối đa bài mỗi cycle (parseCycleIds từ chối quá 18)
+const WRITER_COUNT = 3;         // 3 writer — writer CHỈ viết, không đụng state/txn/publish
+const QUEUE_REFILL_FLOOR = 100; // planned < 100 -> allocator tự refill queue
+const QUEUE_REFILL_TARGET = 300; // refill lên ~300 topic hợp lệ (từ topic-pool)
 
 function toSlugSet(articleSlugs) {
   if (articleSlugs instanceof Set) return articleSlugs;
@@ -226,9 +233,50 @@ function checkProductionInvariant(m, ctx) {
   return { ok: errors.length === 0, errors };
 }
 
+// PRODUCTION CYCLE PLAN: chọn 12-18 slot PLANNED theo ID tăng dần (deterministic).
+// Trả { ids, size, writers, complete, needsRefill }:
+//   complete    = đủ CYCLE_MIN bài để chạy cycle trọn vẹn;
+//   needsRefill = tổng slot PLANNED < QUEUE_REFILL_FLOOR -> cần queue-refill.
+function buildCyclePlan(m) {
+  const num = (id) => Number(String(id || '').replace(/^S0*/, '')) || 0;
+  const planned = (m && Array.isArray(m.slots) ? m.slots : [])
+    .filter(s => s.state === 'PLANNED')
+    .sort((a, b) => num(a.id) - num(b.id));
+  const ids = planned.slice(0, CYCLE_MAX).map(s => s.id);
+  return {
+    ids,
+    size: ids.length,
+    writers: WRITER_COUNT,
+    complete: ids.length >= CYCLE_MIN,
+    needsRefill: planned.length < QUEUE_REFILL_FLOOR,
+  };
+}
+
+// QUEUE REFILL: chọn topic từ pool (factory/data/topic-pool) không trùng slug
+// đã có (bài hiện có lẫn slot đã plan), đủ đưa planned lên ~target.
+function selectRefillTopics(pool, existingSlugs, plannedCount, targetArg) {
+  const target = Number.isFinite(targetArg) && targetArg > 0 ? targetArg : QUEUE_REFILL_TARGET;
+  const planned = Number.isFinite(plannedCount) && plannedCount >= 0 ? plannedCount : 0;
+  const need = Math.max(0, target - planned);
+  const seen = toSlugSet(existingSlugs);
+  const out = [];
+  if (need === 0) return out;
+  for (const t of (Array.isArray(pool) ? pool : [])) {
+    if (out.length >= need) break;
+    if (!t || !t.slug || !t.hub || !t.title) continue;
+    if (seen.has(t.slug)) continue;
+    seen.add(t.slug);
+    out.push({ hub: t.hub, slug: t.slug, title: t.title });
+  }
+  return out;
+}
+
 module.exports = {
   TERMINAL_STATES, CLAIMABLE_STATES, PUBLISH_CHUNK_LIMIT, FIRST_CHUNK_LIMIT,
-  PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
+  PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, CYCLE_MIN, CYCLE_MAX, WRITER_COUNT,
+  QUEUE_REFILL_FLOOR, QUEUE_REFILL_TARGET,
+  classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
   chunkLimit, maxIterations, findClaimableBacklog, selectChunk,
   snapshotState, computeProgress, assertProgress, checkProductionInvariant,
+  buildCyclePlan, selectRefillTopics,
 };
