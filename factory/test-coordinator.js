@@ -76,6 +76,20 @@ console.log('1. Workflow contract…');
   ok(!/drain-iteration/.test(wf) || !/while\s+true/.test(wf), 'factory-coordinator.yml: KHÔNG while-true vô hạn — schedule chỉ là watchdog');
   ok(!/while\s+true/.test(wf), 'factory-coordinator.yml: không có vòng lặp vô hạn (mỗi run bounded một cycle)');
   ok(/timeout-minutes:/.test(wf), 'factory-coordinator.yml: run bounded bởi timeout-minutes');
+  // YAML an toàn: MỌI workflow (không riêng coordinator) không có inline
+  // `run: <lệnh>` chứa ": " — plain scalar với colon+space là LỖI cú pháp YAML
+  // (GitHub bắt được là "Invalid workflow file ... error in your yaml syntax").
+  {
+    const wfDir = path.join(ROOT, '.github', 'workflows');
+    const offenders = [];
+    for (const f of fs.readdirSync(wfDir).filter(x => x.endsWith('.yml'))) {
+      fs.readFileSync(path.join(wfDir, f), 'utf8').split('\n').forEach((l, i) => {
+        const m = l.match(/^\s*run:(?!\s*\|)(.*)$/);
+        if (m && m[1].trim().includes(': ')) offenders.push(f + ':' + (i + 1));
+      });
+    }
+    ok(offenders.length === 0, 'MỌI workflow yml: inline run KHÔNG chứa ": " (cú pháp YAML hợp lệ — bug đã xảy ra ở COORD_IDLE)', offenders.join(', '));
+  }
   // Coordinator-only state mutation.
   ok(/queue-refill --role coordinator/.test(wf) && /manifest-sync --role coordinator/.test(wf),
     'factory-coordinator.yml: mọi lệnh ghi state đều --role coordinator (writer bị role guard từ chối)');

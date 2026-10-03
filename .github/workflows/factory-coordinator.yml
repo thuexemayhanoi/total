@@ -73,7 +73,8 @@ jobs:
 
       - name: "5. Không workload -> thoát sạch (exit 0)"
         if: steps.plan.outputs.ids == ''
-        run: echo 'COORD_IDLE: không còn slot PLANNED và không có bài PASS chờ publish — thoát sạch.'
+        run: |
+          echo 'COORD_IDLE: không còn slot PLANNED và không có bài PASS chờ publish — thoát sạch.'
 
       - name: "6. Scoped cycle QA (chỉ bài mới của cycle — KHÔNG quét toàn site, KHÔNG re-audit bài PUBLISHED)"
         if: steps.plan.outputs.ids != ''
