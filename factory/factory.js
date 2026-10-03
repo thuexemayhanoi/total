@@ -26,6 +26,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const lock = require('./lib/lock');
 const runtime = require('./lib/factory-runtime');
+const contentIndex = require('./lib/content-index');
 
 const STATE_DIR = path.join(__dirname, 'state');
 const STATE_FILE = path.join(STATE_DIR, 'factory-state.json');
@@ -33,6 +34,7 @@ const MATRIX_FILE = path.join(STATE_DIR, 'matrix.json');
 const LOCK_FILE = path.join(STATE_DIR, 'writer.lock');
 const TXN_FILE = path.join(STATE_DIR, 'txn.json');
 const CHECKPOINT_FILE = path.join(STATE_DIR, 'checkpoint.json');
+const MANIFEST_FILE = contentIndex.MANIFEST_FILE; // JSONL — source of truth (commit)
 
 const TRANSITIONS = {
   PLANNED: ['RESEARCH'],
@@ -696,7 +698,14 @@ Lệnh:
                                   backlog cũ trước, pair mới sau; WAITING_FOR_WRITER
                                   không bao giờ vào plan)
   change-mode                    Phân loại commit: CONTENT_ONLY | ENGINE_CHANGE
-                                  (cho CI chọn gate nhẹ/nặng)`);
+                                  (cho CI chọn gate nhẹ/nặng)
+  manifest-sync [--role R]       Đồng bộ article-manifest.jsonl từ articles+matrix
+                                  (JSONL — source of truth; chỉ role=coordinator)
+  index-rebuild [--role R]       Dựng lại content-index.sqlite (derived cache,
+                                  KHÔNG commit) từ manifest + content — an toàn
+                                  khi missing/corrupt/stale; chỉ role=coordinator
+  index-check                    Read-only: kiểm SQLite vs manifest (quick_check,
+                                  số dòng, manifest_sha256) — exit 1 khi cần rebuild`);
 }
 
 function opt(flag) {
@@ -1125,6 +1134,30 @@ function main() {
     console.log('TXN_RECOVER ' + out.outcome + ' ids=' + (out.txn.ids || []).join(','));
     return;
   }
+  if (cmd === 'manifest-sync') {
+    // JSONL manifest là SOURCE OF TRUTH (được commit). CHỈ coordinator ghi.
+    contentIndex.assertCoordinator(opt('--role') || 'coordinator');
+    const rows = contentIndex.buildManifestFromRepo(path.join(__dirname, '..'));
+    const n = contentIndex.writeManifestAtomic(MANIFEST_FILE, rows);
+    console.log('MANIFEST_SYNC rows=' + n + ' file=factory/state/article-manifest.jsonl');
+    return;
+  }
+  if (cmd === 'index-rebuild') {
+    // SQLite derived cache — KHÔNG commit. Rebuild an toàn từ manifest + content.
+    contentIndex.assertCoordinator(opt('--role') || 'coordinator');
+    const rows = contentIndex.buildManifestFromRepo(path.join(__dirname, '..'));
+    contentIndex.writeManifestAtomic(MANIFEST_FILE, rows);
+    const n = contentIndex.rebuild(contentIndex.DB_FILE, rows, MANIFEST_FILE);
+    console.log('INDEX_REBUILD rows=' + n + ' db=factory/state/content-index.sqlite (derived, gitignored)');
+    return;
+  }
+  if (cmd === 'index-check') {
+    // Read-only: missing/corrupt/stale -> exit 1 (gợi ý index-rebuild).
+    const st = contentIndex.status(contentIndex.DB_FILE, MANIFEST_FILE);
+    if (!st.ok) { console.error('INDEX_CHECK_FAIL: ' + st.why); process.exit(1); }
+    console.log('INDEX_OK rows=' + st.dbRows + '/' + st.manifestRows + ' quick_check=ok manifest_sha256=match');
+    return;
+  }
   if (cmd === 'push-scope') {
     const base = opt('--base') || 'HEAD~1';
     const out = execFileSync('git', ['diff', '--name-status', base, 'HEAD', '--', 'factory/data/articles/'], { encoding: 'utf8' });
@@ -1199,4 +1232,6 @@ module.exports = {
   // simple production mode (pair hot path)
   publishPair, parsePairIds, verifyPair, verifySources, intentConflicts,
   recoverTxn, loadTxn, writeTxn, clearTxn, TXN_FILE,
+  // content-index: manifest JSONL (source of truth) + sqlite derived cache
+  MANIFEST_FILE, contentIndex,
 };
