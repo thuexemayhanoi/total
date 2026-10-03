@@ -27,6 +27,8 @@ name: Factory Coordinator (production tick)
 #     -> coordinator và publisher KHÔNG BAO GIỜ chạy đè nhau (queued, không
 #     cancel).
 #   - Schedule là cơ chế đánh thức chính; KHÔNG bot-commit tự kích workflow.
+
+# Schedule kick (2026-10-03): comment-only commit để GitHub refresh schedule registry sau khi cron bị miss tick đầu (delay propagation).
 on:
   workflow_dispatch:
   schedule:
@@ -47,7 +49,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      - uses: actions/setup-node@v4
+      - uses: acti
+ons/setup-node@v4
         with:
           node-version: '22'
 
@@ -93,7 +96,8 @@ jobs:
           set -euo pipefail
           if ! node factory/factory.js cycle-publish "$PASS_IDS" --owner ci-coordinator; then
             # Fail recoverable (lock bị actor khác giữ / crash giữa txn):
-            # recover idempotent + KHÔNG loop ngay — tick sau (10 phút) thử lại.
+            # recover idempotent + KHÔNG loop ngay — tick s
+au (10 phút) thử lại.
             node factory/factory.js recover-txn || true
             if node factory/factory.js check-state >/dev/null 2>&1; then
               echo 'COORD_RETRY_NEXT_TICK: đã recover, state sạch — tick sau publish nốt (slot PASS được cycle-plan resume ưu tiên).'
