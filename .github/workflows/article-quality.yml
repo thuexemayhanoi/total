@@ -1,0 +1,69 @@
+name: Article Quality (scoped)
+
+# CI theo change-mode — KHÔNG full-site audit trong production loop:
+#   CONTENT_ONLY  -> scoped gate: verify-sources CHỈ các bài của commit này
+#                    (QA minimal gate >= 70 chặn; SEO/intent chỉ advisory).
+#   ENGINE_CHANGE -> heavy gate: full test suites + verify-invariant +
+#                    generate --check (engine/CI/test thay đổi thì phải chứng
+#                    minh toàn vẹn cây sinh).
+# Full-site deep audit là workflow riêng factory-deep-audit.yml —
+# MANUAL-ONLY (workflow_dispatch), không chạy trong production loop.
+on:
+  push:
+    branches: [main]
+    paths: ['factory/**', '.github/workflows/**']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: article-quality
+  cancel-in-progress: false
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Phân loại commit (CONTENT_ONLY | ENGINE_CHANGE | EMPTY)
+        id: mode
+        run: echo "mode=$(node factory/factory.js change-mode)" >> "$GITHUB_OUTPUT"
+
+      - name: Scoped gate (CONTENT_ONLY) - QA minimal >= 70 chi bai cua commit
+        if: steps.mode.outputs.mode == 'CONTENT_ONLY'
+        run: |
+          set -euo pipefail
+          node factory/factory.js push-scope
+          IDS=$(node factory/factory.js push-scope | grep '^SCOPE_IDS=' | cut -d= -f2)
+          echo "Scoped IDs: ${IDS:-<none>}"
+          if [ -n "${IDS}" ]; then
+            IFS=',' read -r -a arr <<< "${IDS}"
+            for ((i = 0; i < ${#arr[@]}; i += 2)); do
+              PAIR=$(IFS=,; echo "${arr[*]:i:2}")
+              echo "-- verify-sources pair: ${PAIR}"
+              node factory/factory.js verify-sources "${PAIR}"
+            done
+          fi
+          echo 'CONTENT_ONLY scoped gate OK (SEO advisory - khong chan publish)'
+
+      - name: Heavy gate (ENGINE_CHANGE) - full suites + invariant + sinh cay
+        if: steps.mode.outputs.mode == 'ENGINE_CHANGE'
+        run: |
+          set -euo pipefail
+          node factory/test.js
+          node factory/test-hardening.js
+          node factory/test-reliability.js
+          node factory/test-pair.js
+          node factory/factory.js verify-invariant
+          node factory/generate.js --check
+          echo 'ENGINE_CHANGE heavy gate OK'
+
+      - name: Nothing to do (EMPTY)
+        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.mode.outputs.mode != 'ENGINE_CHANGE'
+        run: echo 'CHANGE_MODE=EMPTY - thoat sach, khong dia gi'

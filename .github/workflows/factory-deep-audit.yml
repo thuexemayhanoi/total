@@ -1,0 +1,58 @@
+name: Factory Deep Audit (manual only)
+
+# FULL-SITE AUDIT — KHÔNG thuộc production loop. Chỉ chạy khi owner bấm
+# "Run workflow" (workflow_dispatch). Production loop chỉ dùng scoped QA
+# (12-18 bài/cycle, factory.js cycle-qa) — không bao giờ quét lại toàn site
+# trong vòng publish.
+# Bao gồm: sync manifest + rebuild/check SQLite derived cache (coordinator
+# role trên CI), audit >= 70 toàn bộ bài PUBLISHED, full test suites,
+# verify-invariant, generate --check.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: factory-deep-audit
+  cancel-in-progress: false
+
+jobs:
+  deep-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Manifest sync (JSONL source of truth)
+        run: |
+          set -euo pipefail
+          node factory/factory.js manifest-sync --role coordinator
+
+      - name: Rebuild + check SQLite derived cache
+        run: |
+          set -euo pipefail
+          node factory/factory.js index-rebuild --role coordinator
+          node factory/factory.js index-check
+
+      - name: Audit toan bo bai PUBLISHED (QA minimal gate >= 70)
+        run: |
+          set -euo pipefail
+          node factory/factory.js audit --min-score 70
+
+      - name: Full test suites
+        run: |
+          set -euo pipefail
+          node factory/test.js
+          node factory/test-hardening.js
+          node factory/test-reliability.js
+          node factory/test-pair.js
+
+      - name: Production invariant + sinh cay
+        run: |
+          set -euo pipefail
+          node factory/factory.js verify-invariant
+          node factory/generate.js --check
+          echo 'DEEP_AUDIT_OK'

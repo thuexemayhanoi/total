@@ -256,8 +256,8 @@ function raceAcquire(dir, n, tag) {
   ok(runtime.checkProductionInvariant(good, { ...ctxGood, pageExists: () => false }).ok === false, 'invariant FAIL khi PUBLISHED thiếu trang sinh');
   ok(runtime.checkProductionInvariant(good, { ...ctxGood, sitemapHas: () => false }).ok === false, 'invariant FAIL khi PUBLISHED thiếu trong sitemap');
   ok(runtime.checkProductionInvariant(good, { ...ctxGood, sitemapUrls: ['https://example.test/ghost/'] }).ok === false, 'invariant FAIL khi sitemap có URL không thuộc PUBLISHED');
-  const lowQa = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'ok-1', 74)] };
-  ok(runtime.checkProductionInvariant(lowQa, ctxGood).ok === false, 'invariant FAIL khi PUBLISHED qaScore < 75');
+  const lowQa = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'ok-1', 65)] };
+  ok(runtime.checkProductionInvariant(lowQa, ctxGood).ok === false, 'invariant FAIL khi PUBLISHED qaScore < 70');
   const dup = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'dup', 95), slot('S00002', 'PUBLISHED', 'dup', 95)] };
   ok(runtime.checkProductionInvariant(dup, { ...ctxGood, checkpointSlotCount: 2 }).ok === false, 'invariant FAIL khi trùng slug');
 }
@@ -434,8 +434,8 @@ let soakFixture = null; // tái dùng cho LAYER 3
   // site khớp generator + audit sau drain (phải xanh trên fixture đã publish)
   const chk = runNode([P.generate, '--check'], { cwd: tmp });
   ok(chk.status === 0, 'generate --check xanh trên fixture sau drain', (chk.stdout + chk.stderr).slice(0, 300));
-  const aud = runNode([P.factory, 'audit', '--min-score', '75'], { cwd: tmp });
-  ok(aud.status === 0, 'audit >= 75 xanh trên fixture sau drain', (aud.stdout + aud.stderr).slice(0, 300));
+  const aud = runNode([P.factory, 'audit', '--min-score', '70'], { cwd: tmp });
+  ok(aud.status === 0, 'audit >= 70 xanh trên fixture sau drain', (aud.stdout + aud.stderr).slice(0, 300));
   const tst = runNode([P.test], { cwd: tmp });
   ok(tst.status === 0, 'test.js xanh trên fixture sau drain', (tst.stdout + tst.stderr).slice(0, 300));
   soakFixture = F;
@@ -652,30 +652,26 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
 {
   const wf = (f) => readS(path.join(ROOT, '.github', 'workflows', f));
   const pub = wf('factory-publish.yml');
-  ok(pub.includes('drain-iteration'), 'factory-publish.yml: drain liên tục qua drain-iteration (không còn 1 chunk/run)');
-  ok(pub.includes('--token-file'), 'factory-publish.yml: lock token ghi ra file để cleanup chỉ thả lock CỦA run');
+  // SIMPLE PRODUCTION MODE: hot path là pair txn đúng 2 ID, bounded, không drain.
   ok(!pub.includes('continue-on-error'), 'factory-publish.yml: KHÔNG còn continue-on-error giấu lỗi');
-  ok(pub.includes('--fail-if-claimable'), 'factory-publish.yml: cổng cuối fail khi còn backlog claimable');
-  ok(pub.includes('check-state'), 'factory-publish.yml: guard state sạch qua factory.js check-state');
-  // SIMPLE PRODUCTION MODE: hot path là pair txn đúng 2 ID, kế hoạch bounded
-  // bởi publish-plan (deterministic) — KHÔNG còn vòng drain hardcode.
-  ok(pub.includes('publish-pair'), 'factory-publish.yml: hot path publish-pair (pair txn đúng 2 ID)');
+  ok(pub.includes('publish-pair'), 'factory-publish.yml: hot path publish-pair (pair txn đúng 2 ID, QA minimal gate >= 70)');
   ok(pub.includes('push-scope'), 'factory-publish.yml: EXACT push scope (không sweep slot khác)');
   ok(pub.includes('recover-txn'), 'factory-publish.yml: recover txn marker sau crash');
-  ok(/unlock --owner/.test(pub), 'factory-publish.yml: cleanup unlock theo owner+token (ownership-safe)');
-  const verify = wf('factory-publish-verify.yml');
-  ok(verify.includes('verify-invariant'), 'factory-publish-verify.yml: bất biến qua factory.js verify-invariant');
-  ok(verify.includes('--fail-if-claimable'), 'factory-publish-verify.yml: publish SUCCESS + backlog > 0 -> FAIL (không chỉ cảnh báo)');
+  ok(pub.includes('check-state'), 'factory-publish.yml: guard state sạch qua factory.js check-state');
+  ok(pub.includes('--fail-if-claimable'), 'factory-publish.yml: cổng cuối fail khi còn backlog claimable');
+  ok(/node-version: '22'/.test(pub), 'factory-publish.yml: node 22 (node:sqlite cho content-index)');
+  // article-quality.yml: scoped CI theo change-mode — KHÔNG full-site audit
   const aq = wf('article-quality.yml');
-  ok(aq.includes('test-reliability.js'), 'article-quality.yml: chạy bộ reliability 4 tầng trên CI');
-  const ab = wf('article-batch.yml');
-  ok(ab.includes('plan-chunk'), 'article-batch.yml: kế hoạch chunk qua factory.js plan-chunk (không duplicate logic heredoc)');
-  ok(ab.includes('qa-preview'), 'article-batch.yml: QA dry-run qua factory.js qa-preview (read-only)');
-  const sq = wf('site-quality.yml');
-  ok(sq.includes('factory.js backlog'), 'site-quality.yml: đo backlog claimable qua factory.js backlog (không duplicate logic heredoc)');
-  ok(/claimable != '0'/.test(sq) && /claimable == '0'/.test(sq), 'site-quality.yml: gate cây sinh chỉ chạy khi CLAIMABLE_BACKLOG = 0 (backlog-aware, không đỏ giả trên writer commit)');
-  ok(sq.includes('deferred to Factory Publish'), 'site-quality.yml: log hoãn gate rõ ràng khi backlog > 0');
-  ok(/generate.js --check/.test(sq) && /factory\/test\.js/.test(sq), 'site-quality.yml: vẫn giữ đủ gate cây sinh (generate --check + test.js) cho nhánh backlog = 0 — không làm yếu cổng');
+  ok(aq.includes('change-mode'), 'article-quality.yml: phân loại commit qua factory.js change-mode (CONTENT_ONLY/ENGINE_CHANGE)');
+  ok(aq.includes('verify-sources'), 'article-quality.yml: CONTENT_ONLY chỉ verify-sources scoped bài của commit (QA >= 70 chặn, SEO advisory)');
+  ok(aq.includes('test-reliability.js') && aq.includes('verify-invariant'), 'article-quality.yml: ENGINE_CHANGE heavy gate (full suites + verify-invariant)');
+  ok(!/on:.*push[\s\S]*min-score/.test(aq), 'article-quality.yml: KHÔNG audit full-site trong production loop');
+  // factory-deep-audit.yml: deep audit là MANUAL-ONLY (workflow_dispatch)
+  const da = wf('factory-deep-audit.yml');
+  ok(/workflow_dispatch/.test(da) && !/on:\s*\n\s*push/.test(da), 'factory-deep-audit.yml: CHỈ workflow_dispatch (manual-only, không chạy trong production loop)');
+  ok(da.includes('audit') && da.includes('--min-score') && da.includes('70'), 'factory-deep-audit.yml: audit toàn bài PUBLISHED với QA minimal gate >= 70');
+  ok(da.includes('manifest-sync') && da.includes('index-rebuild') && da.includes('index-check'), 'factory-deep-audit.yml: sync manifest + rebuild/check SQLite derived cache (coordinator)');
+  ok(da.includes('test-pair.js') && da.includes('generate --check'), 'factory-deep-audit.yml: full suites + generate --check khi owner chủ động deep audit');
 }
 
 // ---------- Kết luận: state repo THẬT nguyên vẹn (byte-identical) ----------

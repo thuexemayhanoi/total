@@ -1,7 +1,8 @@
 // AI WIKI TOTAL — kiểm định SEO theo bài (scoped, deterministic, KHÔNG AI/API).
-// Chấm SEO một article source + (nếu có) trang sinh tương ứng. Ngưỡng canonical:
-// SEO_PASS_MIN = 70 (factory/lib/factory-runtime.js). Critical failure luôn
-// override điểm: liên kết nội bộ hỏng / ký tự rác là chặn tuyệt đối, dù điểm 100.
+// SEO giờ là ADVISORY (KHÔNG chặn publish): điểm SEO chỉ cảnh báo/huấn luyện
+// writer; QA minimal gate (factory/qa.js) mới là gate chặn publish >= 70.
+// Chấm SEO một article source + (nếu có) trang sinh tương ứng. Ngưỡng tham chiếu:
+// SEO_PASS_MIN = 70 (factory/lib/factory-runtime.js).
 'use strict';
 const R = require('./lib/render');
 const S = require('./lib/shell');

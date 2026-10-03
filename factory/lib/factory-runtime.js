@@ -17,7 +17,8 @@ const CLAIMABLE_STATES = ['PLANNED', 'RESEARCH', 'WRITING', 'QA', 'REPAIR', 'PAS
 const PUBLISH_CHUNK_LIMIT = 10; // tối đa ID mỗi publish transaction
 const FIRST_CHUNK_LIMIT = 5;    // chunk đầu khi xưởng chưa có bài PUBLISHED nào
 const PAIR_SIZE = 2;             // SIMPLE PRODUCTION MODE: đúng 2 bài mỗi pair transaction
-const SEO_PASS_MIN = 70;        // ngưỡng SEO pass canonical (factory/seo.js chấm)
+const SEO_PASS_MIN = 70;        // ngưỡng SEO advisory (factory/seo.js chấm — KHÔNG chặn publish)
+const QA_PASS_MIN = 70;         // MINIMAL PRODUCTION QA GATE: 70-100 PASS, <70 FAIL/REPAIR
 
 function toSlugSet(articleSlugs) {
   if (articleSlugs instanceof Set) return articleSlugs;
@@ -184,7 +185,7 @@ function buildPublishPlan(m, articleSlugs, scopeIds, opts) {
 // }
 function checkProductionInvariant(m, ctx) {
   const errors = [];
-  const minQa = Number.isFinite(ctx && ctx.minQaScore) ? ctx.minQaScore : 75;
+  const minQa = Number.isFinite(ctx && ctx.minQaScore) ? ctx.minQaScore : QA_PASS_MIN;
   if (!m || !Array.isArray(m.slots)) { return { ok: false, errors: ['ma trận không hợp lệ (thiếu slots)'] }; }
   if (ctx && ctx.hasLock) errors.push('writer lock vẫn còn sau run — không được SUCCESS khi lock chưa giải phóng');
   if (!ctx || !Number.isInteger(ctx.checkpointSlotCount) || ctx.checkpointSlotCount !== m.slots.length) {
@@ -227,7 +228,7 @@ function checkProductionInvariant(m, ctx) {
 
 module.exports = {
   TERMINAL_STATES, CLAIMABLE_STATES, PUBLISH_CHUNK_LIMIT, FIRST_CHUNK_LIMIT,
-  PAIR_SIZE, SEO_PASS_MIN, classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
+  PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
   chunkLimit, maxIterations, findClaimableBacklog, selectChunk,
   snapshotState, computeProgress, assertProgress, checkProductionInvariant,
 };

@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 // AI WIKI TOTAL — kiểm thử SIMPLE PRODUCTION MODE (pair hot path)
 // 18 regression của engine port pair model: PAIR_SIZE=2, exact push scope,
-// scoped QA (>=75) + SEO (>=70), critical override, txn crash recovery, lock
-// ownership, no-sweep, không heavy suite trong hot path, state byte-safe.
-// Mọi fixture chạy trên bản sao repo trong tmp — state thật PHẢI byte-identical.
+// scoped QA MINIMAL gate (>=70 PASS, <70 -> REPAIR queue, KHÔNG giữ pair),
+// 7 critical gate override điểm, SEO + intent chỉ ADVISORY, txn crash
+// recovery, lock ownership, no-sweep, không heavy suite trong hot path,
+// state byte-safe. Mọi fixture chạy trên bản sao repo trong tmp —
+// state thật PHẢI byte-identical.
 'use strict';
 const fs = require('fs');
 const os = require('os');
@@ -64,7 +66,7 @@ const REAL_STATE_SNAPSHOT = ['matrix.json', 'factory-state.json', 'checkpoint.js
   .map(f => ({ f, b: readB(path.join(ROOT, 'factory', 'state', f)) }));
 
 // ---------- Fixture bài viết ----------
-// Bài fixture đạt QA >= 75 + SEO >= 70 (tự khẳng định ở dưới).
+// Bài fixture đạt QA >= 70 (minimal gate sạch) + SEO >= 70 (tự khẳng định ở dưới).
 function fixtureArticleObject(slug, title) {
   const p = (i) => `<p>Đoạn kiểm thử ${i}: quy trình thuê xe máy tại Hà Nội gồm chuẩn bị giấy tờ, kiểm tra tình trạng xe, ký hợp đồng, đặt cọc và nghiệm thu khi hoàn trả. Người thuê nên đối chiếu kỹ từng điều khoản, chụp lại hình ảnh hiện trạng xe trước khi nhận và giữ trọn bộ giấy tờ trong suốt thời gian sử dụng. Nắm lịch bảo dưỡng giúp nhận diện sớm tiếng động bất thường ở máy, mức mòn của lốp và độ nhạy của phanh trước khi vấn đề lớn dần.</p>`;
   const sec = (h2, from, to) => ({ h2, html: Array.from({ length: to - from }, (_, k) => p(from + k)).join('\n') });
@@ -101,23 +103,27 @@ function fixtureArticleObject(slug, title) {
     related: ['kinh-nghiem-thue-xe-may-ha-noi', 'thu-honda-vision-ha-noi'],
   };
 }
-// Biến thể QA 74: fail non-critical (meta/summary/quickAnswer/checklist/
-// warnings/notes) — KHÔNG critical — đúng mức "74 trở xuống = repair".
-function qa74Article(slug, title) {
+// Biến thể QA thấp (65 < 70): fail 7 warning (W1 seoTitle, W2 meta, W4
+// checklist, W5 warnings, W7 notes, W8 date, W9 keywords) — KHÔNG critical —
+// đúng mức "điểm tụt dưới 70 -> REPAIR queue".
+function lowQaArticle(slug, title) {
   const a = fixtureArticleObject(slug, title);
-  a.metaDescription = 'Ngắn.'; a.summary = 'Ngắn.'; a.quickAnswer = 'Ngắn.';
+  a.seoTitle = 'Ngắn.'; a.metaDescription = 'Ngắn.';
   a.checklist = []; a.warnings = []; a.notes = [];
+  a.date = 'sai-ngay'; a.updated = 'sai-ngay';
+  a.keywords = ['thuê xe máy hà nội'];
   return a;
 }
-// Biến thể SEO <70 (QA vẫn pass): meta ngắn, keywords <3, summary/quickAnswer
-// lệch chủ đề, một mục H2 quá mỏng.
+// Biến thể SEO <70 (QA VẪN PASS >= 70 — SEO giờ chỉ advisory): seoTitle/meta
+// ngắn, keywords < 3, summary/quickAnswer ngắn + lệch chủ đề — KHÔNG đụng
+// critical gate (đủ cấu trúc, đủ 1600 từ).
 function seoFailArticle(slug, title) {
   const a = fixtureArticleObject(slug, title);
+  a.seoTitle = 'Ngắn.';
   a.metaDescription = 'Meta ngắn.';
   a.keywords = ['thuê xe máy hà nội', 'quy trình thuê xe'];
-  a.summary = 'Bài viết nói về bảo quản dây curoa, vệ sinh buồng gió và cách thay dầu nhông sên đề canh đúng định kỳ ở garage gần nhà.';
-  a.quickAnswer = 'Nội dung hướng dẫn bảo quản chi tiết hệ thống truyền động và làm sạch các linh kiện nhỏ nhằm kéo dài tuổi thọ phương tiện.';
-  a.sections[0] = { h2: 'Mục mỏng', html: '<p>Nội dung rất ngắn.</p>' };
+  a.summary = 'Ngắn.';
+  a.quickAnswer = 'Ngắn.';
   return a;
 }
 // Tự khẳng định fixture trước khi dùng — không chạy suite với fixture hỏng.
@@ -128,19 +134,19 @@ function seoFailArticle(slug, title) {
     .map(f => { try { return require(path.join(__dirname, 'data', 'articles', f)).slug; } catch (_) { return null; } }).filter(Boolean));
   const good = fixtureArticleObject('pair-fixture-selfcheck', 'Quy trình thuê xe máy kiểm thử pair mode của xưởng nội dung');
   const qaG = qaArticle(good), seoG = seoArticle(good, { knownSlugs: known });
-  ok(qaG.pass && qaG.score >= 75 && seoG.pass && seoG.score >= 70, 'Fixture tốt đạt QA >= 75 và SEO >= 70',
+  ok(qaG.pass && qaG.score >= 70 && seoG.pass && seoG.score >= 70, 'Fixture tốt đạt QA >= 70 và SEO >= 70',
     `qa=${qaG.score}/${qaG.pass} seo=${seoG.score}/${seoG.pass}`);
-  const qaB = qaArticle(qa74Article('pair-fixture-qa74', 'Quy trình thuê xe máy kiểm thử pair mode của xưởng nội dung'));
-  ok(!qaB.pass && qaB.score < 75 && !qaB.checks.some(c => c.critical && !c.pass), 'Fixture QA-74 fail đúng mức dưới ngưỡng, không critical',
+  const qaB = qaArticle(lowQaArticle('pair-fixture-lowqa', 'Quy trình thuê xe máy kiểm thử pair mode của xưởng nội dung'));
+  ok(!qaB.pass && qaB.score < 70 && !qaB.checks.some(c => c.critical && !c.pass), 'Fixture low-QA (65) fail đúng mức dưới ngưỡng 70, không critical',
     `qa=${qaB.score}/${qaB.pass}`);
   const seoB = seoArticle(seoFailArticle('pair-fixture-seo', 'Quy trình thuê xe máy kiểm thử pair mode của xưởng nội dung'), { knownSlugs: known });
   const qaSeoB = qaArticle(seoFailArticle('pair-fixture-seo', 'Quy trình thuê xe máy kiểm thử pair mode của xưởng nội dung'));
-  ok(qaSeoB.pass && !seoB.pass && seoB.score < 70, 'Fixture SEO-fail: QA pass nhưng SEO dưới 70',
+  ok(qaSeoB.pass && !seoB.pass && seoB.score < 70, 'Fixture SEO-fail: QA vẫn PASS (>= 70) còn SEO dưới 70 (advisory, không chặn)',
     `qa=${qaSeoB.score}/${qaSeoB.pass} seo=${seoB.score}/${seoB.pass}`);
 }
 
 // Chuẩn bị tmp cho kịch bản pair: thêm slot + module bài theo cfg.
-// cfg.slots = [{ id, slug, title, state, intent, article: 'good'|'qa74'|'seoFail'|'cjk'|'relatedBad'|null }]
+// cfg.slots = [{ id, slug, title, state, intent, article: 'good'|'lowQa'|'seoFail'|'cjk'|'relatedBad'|null }]
 function pairFixturePrep(tag, cfg) {
   const tmp = copyRepoToTmp(tag);
   const P = tmpPaths(tmp);
@@ -156,7 +162,7 @@ function pairFixturePrep(tag, cfg) {
     if (s.article) {
       let a;
       if (s.article === 'good') a = fixtureArticleObject(s.slug, s.title);
-      else if (s.article === 'qa74') a = qa74Article(s.slug, s.title);
+      else if (s.article === 'lowQa') a = lowQaArticle(s.slug, s.title);
       else if (s.article === 'seoFail') a = seoFailArticle(s.slug, s.title);
       else if (s.article === 'cjk') { a = fixtureArticleObject(s.slug, s.title); a.sections[0].html += ' 年限 kiểm thử.'; }
       else if (s.article === 'relatedBad') { a = fixtureArticleObject(s.slug, s.title); a.related = ['slug-khong-ton-tai-mot', 'slug-khong-ton-tai-hai']; }
@@ -217,7 +223,7 @@ let T2;
   const m = JSON.parse(readS(P.matrix));
   ok(rowOf(m, 'S10001').state === 'PUBLISHED' && rowOf(m, 'S10002').state === 'PUBLISHED', 'publish-pair lật đúng 2 ID lên PUBLISHED');
   ok(rowOf(m, 'S10001').seoScore >= 70 && rowOf(m, 'S10002').seoScore >= 70, 'publish-pair ghi seoScore >= 70 cho pair');
-  ok(rowOf(m, 'S10001').qaScore >= 75, 'publish-pair ghi qaScore >= 75');
+  ok(rowOf(m, 'S10001').qaScore >= 70, 'publish-pair ghi qaScore >= 70 (minimal gate)');
   const third = rowOf(m, 'S10003');
   ok(third.state === 'PASS' && third.qaScore === null && third.attempts === 0, 'Slot thứ ba (có bài, ngoài scope) KHÔNG bị mutate', JSON.stringify(third));
   ok(rowOf(m, 'S10004').state === 'PLANNED', 'Slot WAITING_FOR_WRITER (PLANNED, chưa có bài) không bị đụng');
@@ -226,23 +232,27 @@ let T2;
   ok(calls.length === 1 && /generate\.js$/.test(calls[0]), 'Hot path chỉ spawn generate.js — không test/hardening/reliability', JSON.stringify(calls));
 }
 
-// ---------- 3. QA 74 = reject, state giữ nguyên ----------
-console.log('3. QA 74 reject…');
+// ---------- 3. QA < 70 -> REPAIR queue, PASS của pair vẫn publish ----------
+console.log('3. QA thấp -> repair queue, không giữ pair…');
 {
   const { tmp, P } = pairFixturePrep('t3', { slots: [
-    { id: 'S10001', slug: 'pair-qa74-a', title: 'Bài A QA 74', article: 'qa74' },
-    { id: 'S10002', slug: 'pair-qa74-b', title: 'Bài B QA 74', article: 'good' },
+    { id: 'S10001', slug: 'pair-lowqa-a', title: 'Bài A QA thấp', article: 'lowQa' },
+    { id: 'S10002', slug: 'pair-lowqa-b', title: 'Bài B QA tốt', article: 'good' },
   ] });
-  const before = stateBytes(P);
   const r = runNode([P.factory, 'publish-pair', 'S10001,S10002', '--owner', 'pair-test'], { cwd: tmp });
-  ok(r.status !== 0, 'publish-pair exit != 0 khi một bài QA 74', r.stdout + r.stderr);
-  ok(/PAIR_REJECT/.test(r.stdout + r.stderr), 'Output nêu rõ PAIR_REJECT QA dưới ngưỡng');
-  ok(!/PAIR_RESULT ok=published/.test(r.stdout + r.stderr), 'KHÔNG có PAIR_RESULT ok khi reject');
-  ok(bytesEq(before, stateBytes(P)), 'Matrix/state/checkpoint BYTE-IDENTICAL sau reject QA');
-  ok(!fs.existsSync(P.txn) && !fs.existsSync(P.lock), 'Không sót txn/lock sau reject');
+  ok(r.status === 0, 'publish-pair exit 0: một bài FAIL KHÔNG giữ cycle (bài PASS vẫn publish)', r.stdout + r.stderr);
+  ok(/PAIR_REJECT: S10001 [^]*-> REPAIR queue/.test(r.stdout), 'Output nêu rõ PAIR_REJECT -> REPAIR queue cho bài < 70', r.stdout);
+  ok(/PAIR_RESULT ok=published ids=S10002 repaired=S10001/.test(r.stdout), 'PAIR_RESULT ok=published đúng bài PASS + repaired=bài FAIL', r.stdout);
+  const m = JSON.parse(readS(P.matrix));
+  const a = rowOf(m, 'S10001'), b = rowOf(m, 'S10002');
+  ok(a.state === 'REPAIR' && a.qaScore < 70 && a.attempts === 1, 'Slot FAIL chuyển REPAIR queue (qaScore < 70)', JSON.stringify(a));
+  ok(b.state === 'PUBLISHED' && b.qaScore >= 70, 'Slot PASS của pair vẫn PUBLISHED (cycle không bị giữ)', JSON.stringify(b));
+  ok(!fs.existsSync(P.txn) && !fs.existsSync(P.lock), 'Không sót txn/lock sau khi FAIL đi repair queue');
+  const cs = runNode([P.factory, 'check-state'], { cwd: tmp });
+  ok(cs.status === 0, 'check-state OK sau repair-queue flow', cs.stdout + cs.stderr);
 }
 
-// ---------- 4. QA >= 75 + SEO >= 70 = PASS (CLI end-to-end) ----------
+// ---------- 4. QA >= 70 (minimal gate) = PASS (CLI end-to-end) ----------
 console.log('4. Pair tốt publish qua CLI…');
 let T4;
 {
@@ -262,36 +272,43 @@ let T4;
   ok(cs.status === 0 && /STATE_OK/.test(cs.stdout), 'check-state OK sau publish-pair', cs.stdout + cs.stderr);
 }
 
-// ---------- 5. SEO dưới 70 = reject dù QA pass ----------
-console.log('5. SEO dưới ngưỡng reject…');
+// ---------- 5. SEO dưới 70 = ADVISORY (vẫn publish, chỉ cảnh báo) ----------
+console.log('5. SEO thấp chỉ advisory…');
 {
   const { tmp, P } = pairFixturePrep('t5', { slots: [
     { id: 'S10001', slug: 'pair-seo-a', title: 'Bài A SEO thấp', article: 'seoFail' },
     { id: 'S10002', slug: 'pair-seo-b', title: 'Bài B SEO thấp', article: 'good' },
   ] });
-  const before = stateBytes(P);
   const r = runNode([P.factory, 'publish-pair', 'S10001,S10002', '--owner', 'pair-test'], { cwd: tmp });
-  ok(r.status !== 0, 'publish-pair exit != 0 khi SEO dưới 70 (dù QA pass)', r.stdout + r.stderr);
-  ok(/SEO \d+\/100 TRƯỢT|PAIR_REJECT/.test(r.stdout + r.stderr), 'Output nêu SEO TRƯỢT/PAIR_REJECT');
-  ok(bytesEq(before, stateBytes(P)), 'State byte-identical sau reject SEO');
+  ok(r.status === 0, 'publish-pair exit 0 khi SEO dưới 70 (advisory, KHÔNG chặn)', r.stdout + r.stderr);
+  ok(/PAIR_ADVISORY: S10001 — SEO \d+\/100 dưới 70/.test(r.stdout), 'Output nêu PAIR_ADVISORY SEO cho bài thấp', r.stdout);
+  ok(/PAIR_RESULT ok=published ids=S10001,S10002/.test(r.stdout), 'Cả hai bài vẫn PUBLISHED (SEO chỉ advisory)', r.stdout);
+  const m = JSON.parse(readS(P.matrix));
+  ok(rowOf(m, 'S10001').state === 'PUBLISHED' && rowOf(m, 'S10002').state === 'PUBLISHED', 'Hai slot PUBLISHED dù SEO thấp');
+  ok(rowOf(m, 'S10001').seoScore < 70, 'seoScore thực tế được ghi lại (< 70) để theo dõi/huấn luyện', String(rowOf(m, 'S10001').seoScore));
+  ok(!fs.existsSync(P.txn) && !fs.existsSync(P.lock), 'Không sót txn/lock sau publish advisory');
 }
 
-// ---------- 6/7. CRITICAL override điểm ----------
+// ---------- 6/7. CRITICAL override điểm cao (-> REPAIR queue) ----------
 console.log('6+7. Critical fail override điểm cao…');
 {
   const cases = [
-    { art: 'cjk', label: 'QA critical (ký tự rác CJK)' },
-    { art: 'relatedBad', label: 'SEO critical (related không tồn tại)' },
+    { art: 'cjk', label: 'QA critical (ký tự rác CJK — trang không render sạch)' },
+    { art: 'relatedBad', label: 'QA critical (related trỏ slug không tồn tại — links-ok)' },
   ];
   for (const c of cases) {
     const { tmp, P } = pairFixturePrep('t7' + c.art, { slots: [
-      { id: 'S10001', slug: 'pair-crit-' + c.art, title: 'Bài critical ' + c.art, article: c.art },
-      { id: 'S10002', slug: 'pair-crit-b-' + c.art, title: 'Bài kèm critical ' + c.art, article: 'good' },
+      { id: 'S10001', slug: 'pair-crit-' + c.art.toLowerCase(), title: 'Bài critical ' + c.art, article: c.art },
+      { id: 'S10002', slug: 'pair-crit-b-' + c.art.toLowerCase(), title: 'Bài kèm critical ' + c.art, article: 'good' },
     ] });
-    const before = stateBytes(P);
     const r = runNode([P.factory, 'publish-pair', 'S10001,S10002', '--owner', 'pair-test'], { cwd: tmp });
-    ok(r.status !== 0, `publish-pair từ chối ${c.label} dù phần còn lại đạt`, r.stdout + r.stderr);
-    ok(bytesEq(before, stateBytes(P)), `State byte-identical sau critical reject (${c.label})`);
+    ok(r.status === 0, `publish-pair exit 0 — bài critical vào REPAIR queue, KHÔNG giữ pair (${c.label})`, r.stdout + r.stderr);
+    ok(/PAIR_REJECT: S10001 [^]*critical/.test(r.stdout), `PAIR_REJECT nêu critical cho slot lỗi (${c.label})`, r.stdout);
+    ok(/PAIR_RESULT ok=published ids=S10002 repaired=S10001/.test(r.stdout), `Bài tốt của pair vẫn publish (${c.label})`, r.stdout);
+    const m = JSON.parse(readS(P.matrix));
+    ok(rowOf(m, 'S10001').state === 'REPAIR', `Slot critical -> REPAIR queue dù phần còn lại đạt (${c.label})`);
+    ok(rowOf(m, 'S10002').state === 'PUBLISHED', `Slot tốt PUBLISHED (${c.label})`);
+    ok(!fs.existsSync(P.txn) && !fs.existsSync(P.lock), `Không sót txn/lock sau critical repair-queue (${c.label})`);
   }
 }
 
@@ -417,7 +434,7 @@ console.log('13. Duplicate slug…');
   ok(threw, 'planSlot throw khi duplicate slug');
 }
 
-// ---------- 14. primaryIntent rỗng reject ----------
+// ---------- 14. primaryIntent rỗng = ADVISORY (cannibalization guard không chặn) ----------
 console.log('14. primaryIntent rỗng…');
 {
   const { tmp, P } = pairFixturePrep('t14', { slots: [
@@ -425,11 +442,13 @@ console.log('14. primaryIntent rỗng…');
     { id: 'S10002', slug: 'pair-intent-b', title: 'Bài B intent rỗng', article: 'good' },
   ] });
   const vs = runNode([P.factory, 'verify-sources', 'S10001,S10002'], { cwd: tmp });
-  ok(vs.status !== 0 && /primaryIntent RỖNG/.test(vs.stdout + vs.stderr), 'verify-sources bắt primaryIntent rỗng', vs.stdout + vs.stderr);
-  const before = stateBytes(P);
+  ok(vs.status === 0, 'verify-sources exit 0 — intent rỗng chỉ INTENT_WARNING (advisory)', vs.stdout + vs.stderr);
+  ok(/INTENT_WARNING S10001 [^]*primaryIntent RỖNG/.test(vs.stdout), 'INTENT_WARNING nêu rõ primaryIntent RỖNG (không chặn)', vs.stdout);
   const r = runNode([P.factory, 'publish-pair', 'S10001,S10002', '--owner', 'pair-test'], { cwd: tmp });
-  ok(r.status !== 0, 'publish-pair từ chối primaryIntent rỗng (cannibalization guard)', r.stdout + r.stderr);
-  ok(bytesEq(before, stateBytes(P)), 'State byte-identical sau reject intent rỗng');
+  ok(r.status === 0, 'publish-pair exit 0 — intent rỗng KHÔNG chặn publish (chỉ advisory)', r.stdout + r.stderr);
+  ok(/PAIR_ADVISORY: Slot S10001 primaryIntent RỖNG/.test(r.stdout), 'PAIR_ADVISORY nêu intent rỗng (cannibalization guard theo dõi)', r.stdout);
+  const m = JSON.parse(readS(P.matrix));
+  ok(rowOf(m, 'S10001').state === 'PUBLISHED' && rowOf(m, 'S10002').state === 'PUBLISHED', 'Cả hai slot PUBLISHED (intent chỉ advisory)');
 }
 
 // ---------- 16/17. Change mode + gate nhẹ/nặng ----------

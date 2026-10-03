@@ -5,7 +5,7 @@ name: Factory Publish (pair)
 # article files + state; workflow derive EXACT scope từ files Added/Modified
 # trong push rồi chạy tooling chính thống:
 #   push article mới: push-scope (exact IDs) -> guard state sạch
-#                     -> publish-pair (atomic: scoped QA >= 75 + SEO >= 70
+#                     -> publish-pair (atomic: scoped QA MINIMAL gate >= 70
 #                        -> generate -> verify-pair -> flip PUBLISHED -> clear txn)
 #   repair article:   push-scope mode=repair -> publish-pair chấm lại đúng IDs
 #   commit khác:      SCOPE rỗng -> workflow thoát sạch, không đụng gì
@@ -32,7 +32,7 @@ jobs:
           fetch-depth: 2
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Resume + recover (txn sót sau crash thì gom trước)
         run: |
@@ -54,7 +54,7 @@ jobs:
         if: steps.scope.outputs.ids != ''
         run: node factory/factory.js check-state
 
-      - name: Publish pair (atomic, QA >= 75 + SEO >= 70, đúng SCOPE_IDS)
+      - name: Publish pair (atomic, QA minimal gate >= 70, đúng SCOPE_IDS)
         if: steps.scope.outputs.ids != ''
         run: node factory/factory.js publish-pair "${{ steps.scope.outputs.ids }}" --owner ci-publisher
 

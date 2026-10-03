@@ -145,7 +145,7 @@ for (const a of artModules) {
   const r = qaArticle(a);
   totalWords += r.words;
   ok(r.pass, `Bài "${a.slug}" đạt QA`, `điểm ${r.score}, ${r.words} từ`);
-  if (r.score < 75) lowQa++;
+  if (r.score < 70) lowQa++;
   // Bài liên quan: mọi related slug phải tồn tại
   const known = new Set(artModules.map(x => x.slug));
   for (const rel of a.related || []) {
@@ -153,7 +153,7 @@ for (const a of artModules) {
   }
   if (a.related && a.related.length >= 2) pass++; else ok(false, `"${a.slug}" có ≥2 bài liên quan`);
 }
-ok(lowQa === 0, 'Không có bài dưới 75 điểm');
+ok(lowQa === 0, 'Không có bài dưới 70 điểm');
 // GARBAGE toàn repo nguồn
 const GARBAGE = /[\u4e00-\u9fff\u0400-\u04ff\u3040-\u30ff\uac00-\ud7ff]/;
 let garbageFiles = [];

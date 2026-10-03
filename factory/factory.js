@@ -1,6 +1,18 @@
 #!/usr/bin/env node
 // AI WIKI TOTAL — CONTENT FACTORY
-// Một writer duy nhất (writer lock), checkpoint, bảo vệ transaction, resume.
+//
+// PRODUCTION CYCLE (mỗi cycle 12-18 bài): auto-refill queue -> allocate ->
+// 3 writer chỉ viết -> scoped MINIMAL QA (chỉ bài mới của cycle) -> PASS >= 70
+// -> coordinator duy nhất merge/publish/deploy đúng 1 lần -> mark PUBLISHED
+// -> cycle mới. Bài FAIL vào repair queue, KHÔNG giữ cycle.
+//
+// MINIMAL PRODUCTION QA GATE (factory/qa.js): 70-100 PASS, <70 FAIL/REPAIR;
+// chỉ 7 critical gate (not-empty/dup-id/dup-slug/canonical/render-ok/
+// business/links-ok); SEO chỉ ADVISORY — KHÔNG chặn publish; KHÔNG REVIEW,
+// KHÔNG EXCELLENT, KHÔNG band. KHÔNG full-site QA trong production loop —
+// audit toàn site chỉ chạy ở deep audit (workflow_dispatch, manual).
+//
+// Writer KHÔNG sửa global state/matrix/txn/manifest/sqlite — chỉ coordinator.
 //
 // SIMPLE PRODUCTION MODE (pair hot path): writer ngoài viết ĐÚNG 2 bài/lần,
 // publisher xử lý EXACT push scope (publish-pair/verify-pair/push-scope);
@@ -256,15 +268,34 @@ function loadArticleBySlug(slug) {
   return loadAllArticlesBySlug().get(slug) || null;
 }
 
+// QA ctx cho MINIMAL GATE (scoped, deterministic): knownIds/knownSlugs lấy từ
+// ma trận, ĐÃ LỌC entry self — bài đang QA không tự bị coi là trùng chính nó.
+function buildQaCtx(m, opts) {
+  const o = opts || {};
+  const knownIds = new Map();
+  const knownSlugs = new Set();
+  for (const s of m.slots) {
+    if (o.excludeSlug && s.slug === o.excludeSlug) continue;
+    knownIds.set(s.id, s.slug);
+    knownSlugs.add(s.slug);
+  }
+  const slot = o.slot || null;
+  return {
+    knownIds, knownSlugs,
+    slotId: slot ? slot.id : null,
+    slot: slot ? { id: slot.id, hub: slot.hub, slug: slot.slug } : null,
+  };
+}
+
 function runQa(m, sid) {
   const slot = m.slots.find(s => s.id === sid);
   const { qaArticle } = require('./qa');
   const article = loadArticleBySlug(slot.slug);
   if (!article) throw new Error('Chưa có nội dung bài cho slot ' + sid + ' — hãy viết trước (lệnh write).');
-  const result = qaArticle(article);
+  const result = qaArticle(article, buildQaCtx(m, { excludeSlug: slot.slug, slot }));
   slot.attempts = (slot.attempts || 0) + 1;
-  console.log(`QA ${sid} (${slot.slug}): điểm ${result.score}/100 — ${result.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'}`);
-  for (const c of result.checks.filter(x => !x.pass)) console.log(`  - [${c.name}] ${c.note}`);
+  console.log(`QA ${sid} (${slot.slug}): điểm ${result.score}/100 — ${result.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} (minimal gate, ngưỡng ${runtime.QA_PASS_MIN})`);
+  for (const c of result.checks.filter(x => !x.pass)) console.log(`  - [${c.critical ? 'CRITICAL' : 'WARNING'}] ${c.name} ${c.note}`);
   slot.qaScore = result.score;
   slot.words = result.words;
   if (result.pass) {
@@ -354,12 +385,14 @@ function recoverTxn(m) {
 }
 
 // Scoped QA + SEO một slot (đúng module của slot, KHÔNG scan toàn site).
+// QA = MINIMAL GATE (chặn); SEO = ADVISORY (không chặn — chỉ ghi điểm).
 function qaSeoArticle(slot) {
   const article = loadArticleBySlug(slot.slug);
   if (!article) throw new Error('Chưa có module bài cho slot ' + slot.id + ' (' + slot.slug + ') — WAITING_FOR_WRITER');
   const { qaArticle } = require('./qa');
   const { seoArticle } = require('./seo');
-  const qa = qaArticle(article);
+  const m = loadMatrix();
+  const qa = qaArticle(article, buildQaCtx(m, { excludeSlug: slot.slug, slot }));
   const seo = seoArticle(article, { knownSlugs: new Set(loadAllArticlesBySlug().keys()) });
   return { article, qa, seo };
 }
@@ -382,9 +415,10 @@ function intentConflicts(m, ids) {
   return errs;
 }
 
-// VERIFY-PAIR (nhẹ, deterministic): đúng IDs — source + QA>=75 + SEO>=70 +
-// intent sạch + trang sinh tồn tại + canonical/schema/H1 + sitemap entry +
-// không ký tự rác + checkpoint/lock/txn sạch.
+// VERIFY-PAIR (nhẹ, deterministic): đúng IDs — source + QA MINIMAL GATE
+// (>= 70, critical override) + trang sinh tồn tại + canonical/schema/H1 +
+// sitemap entry + không ký tự rác + checkpoint/lock/txn sạch. SEO + intent
+// chỉ ADVISORY (in ra, KHÔNG chặn).
 function verifyPair(m, ids, opts) {
   const errors = [];
   const requirePublished = !opts || opts.requirePublished !== false;
@@ -407,9 +441,9 @@ function verifyPair(m, ids, opts) {
     if (requirePublished && s.state !== 'PUBLISHED') errors.push('Slot ' + id + ' đang ' + s.state + ' — phải PUBLISHED');
     let res;
     try { res = qaSeoArticle(s); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
-    if (!res.qa.pass) errors.push('Slot ' + id + ' QA ' + res.qa.score + '/100 — dưới 75 hoặc critical fail');
-    if (!res.seo.pass) errors.push('Slot ' + id + ' SEO ' + res.seo.score + '/100 — dưới 70 hoặc critical fail');
-    for (const e of intentConflicts(m, [id])) errors.push(e);
+    if (!res.qa.pass) errors.push('Slot ' + id + ' QA ' + res.qa.score + '/100 — FAIL minimal gate (<70 hoặc critical)');
+    if (!res.seo.pass) console.log('SEO_ADVISORY ' + id + ' — SEO ' + res.seo.score + '/100 (KHÔNG chặn publish)');
+    for (const e of intentConflicts(m, [id])) console.log('INTENT_WARNING ' + id + ' — ' + e + ' (KHÔNG chặn publish)');
     const url = SITE.baseUrl + s.hub + '/' + s.slug + '/';
     let html = '';
     try { html = fs.readFileSync(path.join(root, s.hub, s.slug, 'index.html'), 'utf8'); }
@@ -435,8 +469,8 @@ function verifySources(m, ids) {
     let res;
     try { res = qaSeoArticle(s); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
     if (!res.qa.pass) errors.push('Slot ' + id + ' (QA ' + res.qa.score + '/100): ' + res.qa.checks.filter((x) => !x.pass).map((x) => x.name).join('; '));
-    if (!res.seo.pass) errors.push('Slot ' + id + ' (SEO ' + res.seo.score + '/100): ' + res.seo.checks.filter((x) => !x.pass).map((x) => x.name).join('; '));
-    for (const e of intentConflicts(m, [id])) errors.push(e);
+    if (!res.seo.pass) console.log('SEO_ADVISORY ' + id + ' — SEO ' + res.seo.score + '/100 (KHÔNG chặn publish)');
+    for (const e of intentConflicts(m, [id])) console.log('INTENT_WARNING ' + id + ' — ' + e + ' (KHÔNG chặn publish)');
   }
   return { ok: errors.length === 0, errors };
 }
@@ -454,9 +488,11 @@ function parsePairIds(args) {
   return ids;
 }
 
-// PUBLISH-PAIR — transaction đúng 1-2 ID: VALIDATE -> LOCK -> scoped QA+SEO+intent
-// -> BEGIN TXN -> generate -> verify-pair -> lật đúng rows -> save atomic -> COMMIT
-// (xóa txn) -> thả lock. Fail bất kỳ bước nào: KHÔNG ghi state (resumable).
+// PUBLISH-PAIR — transaction đúng 1-2 ID: VALIDATE -> LOCK -> scoped QA
+// (MINIMAL GATE) -> FAIL vào REPAIR QUEUE (KHÔNG giữ pair), PASS publish ->
+// BEGIN TXN -> generate -> verify-pair -> lật đúng rows -> save atomic ->
+// COMMIT (xóa txn) -> thả lock. SEO/intent chỉ ADVISORY (stdout, không chặn).
+// Fail hạ tầng bất kỳ bước nào: KHÔNG ghi state (resumable).
 function publishPair(ids, opts) {
   const o = opts || {};
   const t0 = Date.now();
@@ -494,27 +530,49 @@ function publishPair(ids, opts) {
       const s = m.slots.find((x) => x.id === id);
       const res = qaSeoArticle(s);
       results.push({ s, res });
-      console.log('QA+SEO ' + id + ' (' + s.slug + '): QA ' + res.qa.score + '/100 ' + (res.qa.pass ? 'ĐẠT' : 'TRƯỢT') + ' | SEO ' + res.seo.score + '/100 ' + (res.seo.pass ? 'ĐẠT' : 'TRƯỢT'));
+      console.log('QA+SEO ' + id + ' (' + s.slug + '): QA ' + res.qa.score + '/100 ' + (res.qa.pass ? 'ĐẠT' : 'TRƯỢT') + ' | SEO ' + res.seo.score + '/100 (advisory)');
     }
     const qaTime = Date.now() - tQa;
-    const intentErrs = intentConflicts(m, pending);
-    const failedIds = results.filter((r) => !r.res.qa.pass || !r.res.seo.pass).map((r) => r.s.id);
-    if (failedIds.length || intentErrs.length) {
-      for (const e of intentErrs) console.error('PAIR_REJECT: ' + e);
-      for (const r of results.filter((x) => !x.res.qa.pass || !x.res.seo.pass)) {
-        console.error('PAIR_REJECT: ' + r.s.id + ' — QA ' + r.res.qa.score + ' (pass=' + r.res.qa.pass + '), SEO ' + r.res.seo.score + ' (pass=' + r.res.seo.pass + ')');
-      }
-      throw new Error('Pair KHÔNG đủ điều kiện (QA >= 75, SEO >= 70, intent sạch) — KHÔNG mutate state; repair rồi push lại.');
+    // ADVISORY (stdout, KHÔNG chặn): intent + SEO.
+    for (const e of intentConflicts(m, pending)) console.log('PAIR_ADVISORY: ' + e + ' (KHÔNG chặn publish)');
+    for (const r of results) {
+      if (!r.res.seo.pass) console.log('PAIR_ADVISORY: ' + r.s.id + ' — SEO ' + r.res.seo.score + '/100 dưới 70 (advisory, KHÔNG chặn publish)');
     }
-    writeTxn({ ids: work, phase: isRepair ? 'repairing' : 'publishing', at: new Date().toISOString(), owner });
+    // MINIMAL GATE: FAIL -> REPAIR QUEUE (không giữ pair); PASS -> publish.
+    const failedResults = results.filter((r) => !r.res.qa.pass);
+    for (const r of failedResults) {
+      console.log('PAIR_REJECT: ' + r.s.id + ' (' + r.s.slug + ') — QA ' + r.res.qa.score + '/100 FAIL minimal gate -> REPAIR queue' +
+        (r.res.qa.criticals.length ? ' (critical: ' + r.res.qa.criticals.join('; ') + ')' : ' (điểm < 70)'));
+    }
+    const okResults = results.filter((r) => r.res.qa.pass);
+    // Đánh dấu repair queue cho slot FAIL (lưu cùng transaction — resumable).
+    for (const r of failedResults) {
+      r.s.state = 'REPAIR';
+      r.s.qaScore = r.res.qa.score;
+      r.s.attempts = (r.s.attempts || 0) + 1;
+      r.s.updatedAt = new Date().toISOString();
+    }
+    const publishable = okResults.map((r) => r.s.id);
+    if (!publishable.length) {
+      // Mọi slot FAIL -> toàn bộ vào repair queue, KHÔNG publish gì. Ghi state
+      // repair (trong lock) rồi thoát sạch — bài sửa xong sẽ publish ở pair sau.
+      validateMatrix(m);
+      saveMatrix(m);
+      saveState(loadState(), 'publish-pair:repair-queue:' + work.join(','));
+      console.log('PAIR_RESULT ok=repair-queue ids= (repaired=' + work.join(',') + ') qa_time=' + qaTime + 'ms total=' + (Date.now() - t0) + 'ms');
+      committed = true;
+      return;
+    }
+    const publishWork = publishable;
+    writeTxn({ ids: publishWork, phase: isRepair ? 'repairing' : 'publishing', at: new Date().toISOString(), owner });
     const tGen = Date.now();
     spawn(path.join(__dirname, 'generate.js'), []);
     const genTime = Date.now() - tGen;
     const tVer = Date.now();
-    const v = verifyPair(m, work, { requirePublished: isRepair, checkLock: false });
+    const v = verifyPair(m, publishWork, { requirePublished: isRepair, checkLock: false });
     const verTime = Date.now() - tVer;
     if (!v.ok) { for (const e of v.errors) console.error('VERIFY_PAIR_FAIL: ' + e); throw new Error('verify-pair không đạt — KHÔNG ghi state.'); }
-    for (const id of work) {
+    for (const id of publishWork) {
       const s = m.slots.find((x) => x.id === id);
       const res = results.find((r) => r.s.id === id).res;
       s.state = 'PUBLISHED';
@@ -526,10 +584,11 @@ function publishPair(ids, opts) {
     }
     validateMatrix(m);
     saveMatrix(m);
-    saveState(loadState(), 'publish-pair:' + work.join(','));
+    saveState(loadState(), 'publish-pair:' + publishWork.join(','));
     clearTxn();
     committed = true;
-    console.log('PAIR_RESULT ok=' + (isRepair ? 'republished' : 'published') + ' ids=' + work.join(',') +
+    console.log('PAIR_RESULT ok=' + (isRepair ? 'republished' : 'published') + ' ids=' + publishWork.join(',') +
+      (failedResults.length ? ' repaired=' + failedResults.map((r) => r.s.id).join(',') : '') +
       ' qa_time=' + qaTime + 'ms generate_time=' + genTime + 'ms verify_time=' + verTime + 'ms total=' + (Date.now() - t0) + 'ms');
   } finally {
     try { lock.release(STATE_DIR, record); }
@@ -657,12 +716,16 @@ Lệnh:
   list                            Liệt kê slot
   research <id>                   PLANNED → RESEARCH
   write <id>                      RESEARCH → WRITING
-  qa <id>                         Chấm QA bài của slot
+  qa <id>                         Chấm QA minimal gate (70-100 PASS, <70
+                                  FAIL/REPAIR — 7 critical gate, SEO chỉ
+                                  warning) bài của slot
   qa-preview <id>                 QA thử read-only (KHÔNG ghi state)
   publish <ID> [<ID>...]       Publish slot PASS theo ID tường minh (atomic,
                                tối đa 10 ID; cổng sinh lại site + test xanh
                                mới ghi state, fail thì giữ nguyên để resume)
-  audit [--min-score 75]          Rà mọi bài PUBLISHED
+  audit [--min-score 70]          Deep audit MANUAL-ONLY: rà mọi bài
+                                  PUBLISHED theo minimal gate (KHÔNG chạy
+                                  trong production loop)
   resume                          Tiếp tục từ checkpoint
   expand-capacity <N> [--dry-run] Mở rộng capacity ma trận (chỉ tăng, KHÔNG shrink)
   set-planned-target <N> [--dry-run] Đặt mục tiêu kế hoạch (<= capacity, >= số slot đã có)
@@ -683,14 +746,17 @@ Lệnh:
                                   lặp tới khi done=true)
   publish-pair <ID,ID> [--owner O] [--token-file F]
                                   Hot path: publish ĐÚNG pair (tối đa 2 ID) —
-                                  lock -> QA/SEO scoped -> generate -> verify-pair
-                                  -> flip PUBLISHED -> COMMIT txn (atomic,
-                                  idempotent, resumable sau crash)
-  verify-pair <ID,ID>            Light verify chỉ pair (QA/SEO/intent/HTML/
-                                  canonical/schema/sitemap/checkpoint, không
-                                  scan toàn site)
+                                  lock -> QA minimal scoped (FAIL -> repair
+                                  queue, KHÔNG giữ pair) -> generate ->
+                                  verify-pair -> flip PUBLISHED -> COMMIT txn
+                                  (atomic, idempotent, resumable sau crash);
+                                  SEO/intent chỉ advisory
+  verify-pair <ID,ID>            Light verify chỉ pair (QA minimal/HTML/
+                                  canonical/schema/sitemap/checkpoint; SEO/
+                                  intent chỉ advisory, không scan toàn site)
   verify-sources <ID,ID>         Read-only pre-publish: rà source pair trước
-                                  khi writer push
+                                  khi writer push (QA minimal chặn; SEO/
+                                  intent advisory)
   recover-txn                    Recover txn marker sót sau crash (in TXN_RECOVER)
   push-scope [--base B]          Xác định EXACT article IDs được ADD/MODIFY bởi
                                   commit vừa push (in SCOPE_MODE/SCOPE_IDS/…)
@@ -850,20 +916,22 @@ function main() {
     return;
   }
   if (cmd === 'audit') {
-    const min = Number(opt('--min-score') || 75);
+    // Deep audit MANUAL-ONLY (workflow_dispatch) — KHÔNG chạy trong production
+    // loop. Ngưỡng mặc định theo MINIMAL GATE (70).
+    const min = Number(opt('--min-score') || runtime.QA_PASS_MIN);
     const m = loadMatrix();
     const { qaArticle } = require('./qa');
     let fail = 0;
     for (const s of m.slots.filter(x => x.state === 'PUBLISHED')) {
       const a = loadArticleBySlug(s.slug);
       if (!a) { console.log(`✗ ${s.slug} — KHÔNG TÌM THẤY bài`); fail++; continue; }
-      const r = qaArticle(a);
-      const mark = r.score >= min ? '✓' : '✗';
+      const r = qaArticle(a, buildQaCtx(m, { excludeSlug: s.slug, slot: s }));
+      const mark = r.pass && r.score >= min ? '✓' : '✗';
       console.log(`${mark} ${s.slug.padEnd(45)} ${r.score}/100  ${r.words} từ`);
-      if (r.score < min) fail++;
+      if (mark !== '✓') fail++;
     }
-    if (fail) { console.log(`Audit: ${fail} bài dưới ${min} điểm.`); process.exit(1); }
-    console.log(`Audit đạt: mọi bài >= ${min} điểm.`);
+    if (fail) { console.log(`Audit: ${fail} bài không đạt minimal gate ${min}.`); process.exit(1); }
+    console.log(`Audit đạt: mọi bài >= ${min} điểm (minimal gate).`);
     return;
   }
   if (cmd === 'qa-preview') {
@@ -876,12 +944,12 @@ function main() {
       return;
     }
     const { qaArticle } = require('./qa');
-    const r = qaArticle(article);
-    console.log(`QA thử ${slot.id} (${slot.slug}): ${r.score}/100 — ${r.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} (${r.words} từ) — KHÔNG ghi state.`);
-    for (const c of r.checks.filter(x => !x.pass)) console.log(`  - [${c.name}] ${c.note}`);
+    const r = qaArticle(article, buildQaCtx(m, { excludeSlug: slot.slug, slot }));
+    console.log(`QA thử ${slot.id} (${slot.slug}): ${r.score}/100 — ${r.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} (minimal gate ${runtime.QA_PASS_MIN}+, ${r.words} từ) — KHÔNG ghi state.`);
+    for (const c of r.checks.filter(x => !x.pass)) console.log(`  - [${c.critical ? 'CRITICAL' : 'WARNING'}] ${c.name} ${c.note}`);
     const { seoArticle } = require('./seo');
     const sr = seoArticle(article, { knownSlugs: new Set(loadAllArticlesBySlug().keys()) });
-    console.log(`SEO thử ${slot.id} (${slot.slug}): ${sr.score}/100 — ${sr.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} — KHÔNG ghi state.`);
+    console.log(`SEO thử ${slot.id} (${slot.slug}): ${sr.score}/100 — ${sr.pass ? 'ĐẠT' : 'KHÔNG ĐẠT'} (advisory — KHÔNG chặn publish) — KHÔNG ghi state.`);
     for (const c of sr.checks.filter(x => !x.pass)) console.log(`  - [${c.name}] ${c.note}`);
     return;
   }
@@ -1009,7 +1077,7 @@ function main() {
         console.log('  2. snapshot + hash ma trận (sha1) ghi vào factory-state.lastAction');
         console.log(`  3. matrix.capacity: ${m.capacity} -> ${n} — KHÔNG preallocate slot; ID/slots/plannedTarget/reserved giữ nguyên`);
         console.log('  4. validate IDs + validate ma trận + khớp checkpoint');
-        console.log('  5. verify: generate --check + test.js + audit --min-score 75 (fail -> ROLLBACK toàn vẹn)');
+        console.log('  5. verify: generate --check + test.js + audit --min-score 70 (fail -> ROLLBACK toàn vẹn)');
         console.log('  6. commit state + release lock sạch');
         return;
       }
@@ -1057,7 +1125,7 @@ function main() {
       // Verify sau migration — bất kỳ bước nào fail thì rollback toàn vẹn.
       execFileSync(process.execPath, [path.join(__dirname, 'generate.js'), '--check'], { stdio: 'inherit' });
       execFileSync(process.execPath, [path.join(__dirname, 'test.js')], { stdio: 'inherit' });
-      execFileSync(process.execPath, [__filename, 'audit', '--min-score', '75'], { stdio: 'inherit' });
+      execFileSync(process.execPath, [__filename, 'audit', '--min-score', '70'], { stdio: 'inherit' });
     } catch (e) {
       if (migrated) {
         atomicWrite(MATRIX_FILE, before);
@@ -1234,4 +1302,6 @@ module.exports = {
   recoverTxn, loadTxn, writeTxn, clearTxn, TXN_FILE,
   // content-index: manifest JSONL (source of truth) + sqlite derived cache
   MANIFEST_FILE, contentIndex,
+  // minimal production QA gate
+  runQa, buildQaCtx,
 };
