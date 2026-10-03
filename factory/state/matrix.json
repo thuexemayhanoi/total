@@ -2525,11 +2525,11 @@
    "notes": "",
    "state": "PUBLISHED",
    "qaScore": 100,
-   "attempts": 1,
+   "attempts": 2,
    "createdAt": "2026-10-01T15:29:41.299Z",
-   "updatedAt": "2026-10-01T15:35:20.570Z",
+   "updatedAt": "2026-10-03T08:35:12.574Z",
    "seoScore": 100,
-   "words": 3271
+   "words": 3273
   },
   {
    "id": "S00173",
