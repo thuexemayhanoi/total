@@ -351,9 +351,19 @@ function parsePublishRequest(m, args) {
 }
 
 // ---------- Publish: sinh lại site + indexes + test ----------
-function publishAll() {
-  execFileSync(process.execPath, [path.join(__dirname, 'generate.js')], { stdio: 'inherit' });
-  execFileSync(process.execPath, [path.join(__dirname, 'test.js')], { stdio: 'inherit' });
+// slugs: bài đang được publish trong lệnh này (slot trên đĩa có thể còn PASS/
+// PLANNED) — truyền qua FACTORY_GEN_INCLUDE để generate render chúng; mọi
+// draft khác (REPAIR/...) KHÔNG lên site.
+function publishAll(slugs) {
+  const prev = process.env.FACTORY_GEN_INCLUDE;
+  if (Array.isArray(slugs) && slugs.length) process.env.FACTORY_GEN_INCLUDE = slugs.join(',');
+  try {
+    execFileSync(process.execPath, [path.join(__dirname, 'generate.js')], { stdio: 'inherit' });
+    execFileSync(process.execPath, [path.join(__dirname, 'test.js')], { stdio: 'inherit' });
+  } finally {
+    if (prev === undefined) delete process.env.FACTORY_GEN_INCLUDE;
+    else process.env.FACTORY_GEN_INCLUDE = prev;
+  }
 }
 
 // ---------- Continuous backlog drain (DEFECT B hardening) ----------
@@ -566,7 +576,16 @@ function publishPair(ids, opts) {
     const publishWork = publishable;
     writeTxn({ ids: publishWork, phase: isRepair ? 'repairing' : 'publishing', at: new Date().toISOString(), owner });
     const tGen = Date.now();
-    spawn(path.join(__dirname, 'generate.js'), []);
+    // Chỉ render bài PUBLISHED + đúng scope đang publish — bài FAIL (repair
+    // queue) KHÔNG được lên site/sitemap trong lần generate này.
+    const prevInc = process.env.FACTORY_GEN_INCLUDE;
+    process.env.FACTORY_GEN_INCLUDE = publishWork.map(id => (m.slots.find(x => x.id === id) || {}).slug).filter(Boolean).join(',');
+    try {
+      spawn(path.join(__dirname, 'generate.js'), []);
+    } finally {
+      if (prevInc === undefined) delete process.env.FACTORY_GEN_INCLUDE;
+      else process.env.FACTORY_GEN_INCLUDE = prevInc;
+    }
     const genTime = Date.now() - tGen;
     const tVer = Date.now();
     const v = verifyPair(m, publishWork, { requirePublished: isRepair, checkLock: false });
@@ -667,6 +686,13 @@ function cyclePublish(ids, opts) {
     }
   }
   const work = ids.filter((id) => m.slots.find((x) => x.id === id).state !== 'PUBLISHED');
+  if (!work.length) {
+    // IDLE: mọi ID đã PUBLISHED (thường do factory-publish đã publish khi
+    // writer push bài) — KHÔNG đụng state, KHÔNG double-publish, exit sạch.
+    console.log('CYCLE_PUBLISH idle: mọi ID đã PUBLISHED — không có gì để publish (không đụng state).');
+    console.log('CYCLE_RESULT ok=idle ids=' + ids.join(','));
+    return;
+  }
   const owner = o.owner || 'coordinator';
   const record = lock.acquire(STATE_DIR, owner);
   let committed = false;
@@ -706,7 +732,16 @@ function cyclePublish(ids, opts) {
     }
     writeTxn({ ids: publishable, phase: 'publishing', at: new Date().toISOString(), owner });
     const tGen = Date.now();
-    spawn(path.join(__dirname, 'generate.js'), []); // build/deploy ĐÚNG 1 LẦN cho cả cycle
+    // Chỉ render bài PUBLISHED + đúng scope cycle đang publish — bài FAIL
+    // (repair queue) KHÔNG được lên site/sitemap trong lần generate này.
+    const prevInc = process.env.FACTORY_GEN_INCLUDE;
+    process.env.FACTORY_GEN_INCLUDE = publishable.map(id => (m.slots.find(x => x.id === id) || {}).slug).filter(Boolean).join(',');
+    try {
+      spawn(path.join(__dirname, 'generate.js'), []); // build/deploy ĐÚNG 1 LẦN cho cả cycle
+    } finally {
+      if (prevInc === undefined) delete process.env.FACTORY_GEN_INCLUDE;
+      else process.env.FACTORY_GEN_INCLUDE = prevInc;
+    }
     const genTime = Date.now() - tGen;
     const v = verifyPair(m, publishable, { requirePublished: false, checkLock: false });
     if (!v.ok) { for (const e of v.errors) console.error('VERIFY_PAIR_FAIL: ' + e); throw new Error('verify-pair không đạt — KHÔNG ghi state.'); }
@@ -805,7 +840,7 @@ function drainIteration(owner, tokenFile) {
         s.updatedAt = new Date().toISOString();
       }
       try {
-        publishAll();
+        publishAll(ids.map(id => { const s = m.slots.find(x => x.id === id); return s && s.slug; }));
       } catch (e) {
         console.error('PUBLISH TỪ CHỐI: sinh lại site/test thất bại — KHÔNG ghi matrix/state của phần publish, slot giữ nguyên để resume.');
         console.error('  Chi tiết: ' + (e && e.message ? e.message : e));
@@ -1050,7 +1085,7 @@ function main() {
       s.updatedAt = new Date().toISOString();
     }
     try {
-      publishAll();
+      publishAll(ids.map(id => { const s = m.slots.find(x => x.id === id); return s && s.slug; }));
     } catch (e) {
       console.error('PUBLISH TỪ CHỐI: sinh lại site/test thất bại — KHÔNG ghi matrix/state, slot giữ nguyên để resume.');
       console.error('  Chi tiết: ' + (e && e.message ? e.message : e));
@@ -1421,12 +1456,21 @@ function main() {
     return;
   }
   if (cmd === 'cycle-plan') {
-    // Read-only: kế hoạch cycle hiện tại (12-18 slot PLANNED, 3 writer).
+    // Read-only: kế hoạch cycle hiện tại (12-18 slot, 3 writer). Slot PASS đã
+    // có bài (QA xong, chưa publish — crash giữa tick) được RESUME TRƯỚC.
     const m = loadMatrix();
     validateMatrix(m);
-    const plan = runtime.buildCyclePlan(m);
+    const plan = runtime.buildCyclePlan(m, new Set(loadAllArticlesBySlug().keys()));
     console.log('CYCLE_PLAN ids=' + plan.ids.join(',') + ' size=' + plan.size + ' writers=' + plan.writers +
       ' (min ' + runtime.CYCLE_MIN + ', max ' + runtime.CYCLE_MAX + ')');
+    // ALLOCATE: chia workload cho 3 writer (writer-a/b/c) — external writer
+    // (Mistral run) đọc ma trận/ke hoạch rồi tự nộp module bài; Actions KHÔNG
+    // tự viết prose (không AI API). Slot chưa có module = WAITING_FOR_WRITER.
+    const names = ['writer-a', 'writer-b', 'writer-c'];
+    (plan.allocations || []).forEach((group, i) => {
+      console.log('CYCLE_ALLOCATE ' + (names[i] || ('writer-' + (i + 1))) + '=' + group.join(',') +
+        ' (state=PLANNED — external writer nộp bài vào factory/data/articles/)');
+    });
     if (!plan.complete) console.log('CYCLE_PLAN incomplete: chỉ còn ' + plan.size + ' bài PLANNED (< ' + runtime.CYCLE_MIN + ')');
     if (plan.needsRefill) console.log('CYCLE_PLAN refill: planned < ' + runtime.QUEUE_REFILL_FLOOR + ' -> chạy queue-refill (coordinator, target ' + runtime.QUEUE_REFILL_TARGET + ')');
     return;
@@ -1441,6 +1485,7 @@ function main() {
     saveMatrix(m);
     saveState(loadState(), 'cycle-qa:' + out.passed.length + '/' + ids.length);
     console.log('CYCLE_QA pass=' + out.passed.length + ' fail=' + out.failed.length + ' pending=' + out.pending.length +
+      (out.passed.length ? ' passed=' + out.passed.join(',') : '') +
       (out.failed.length ? ' failed=' + out.failed.join(',') : '') +
       ' (scoped ' + ids.length + '/' + runtime.CYCLE_MAX + ' bài — KHÔNG quét toàn site, KHÔNG re-audit bài đã PUBLISHED)');
     return;

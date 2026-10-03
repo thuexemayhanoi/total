@@ -27,12 +27,15 @@ Trong production cycle: một bài FAIL → REPAIR queue, KHÔNG giữ cycle —
 - Xem thêm trong `factory/lib/content-index.js` (node:sqlite — cần Node 22).
 
 ## Pipeline publish tự động (GitHub Actions)
+- **factory-coordinator.yml (production tick)** — schedule `7,17,27,37,47,57 * * * *` (mỗi 10 phút) + `workflow_dispatch`; mỗi run BOUNDED một tick: recover-txn → resume/check-state → queue-refill → cycle-plan (allocate 3 writer) → idle exit 0 → cycle-qa scoped → cycle-publish chỉ slot PASS → manifest-sync → check-state/verify-invariant → commit state. KHÔNG while-true; push bằng GITHUB_TOKEN không tự kích workflow kế tiếp. Concurrency `total-production` dùng CHUNG với factory-publish.yml → hai actor không bao giờ chạy đè nhau. Writer là EXTERNAL (session Mistral ngoài đọc `CYCLE_ALLOCATE`); Actions không tự viết prose, không fake article.
 - **factory-publish.yml (pair)** — writer push article files → pipeline: recover txn → `push-scope` (EXACT IDs) → guard `check-state` → `publish-pair` (scoped QA minimal ≥ 70 → FAIL vào repair queue, PASS publish → generate → verify-pair → atomic COMMIT) → commit derived state. Cổng cuối: check-state + backlog 0 + generate --check. Node 22.
-- **article-quality.yml** — phân mode bằng `change-mode`: CONTENT_ONLY → gate nhẹ `verify-sources` scoped đúng EXACT IDs (QA minimal chặn; SEO/intent advisory); ENGINE_CHANGE → heavy gate (full test suites + verify-invariant + generate --check). KHÔNG full-site audit trong production loop.
+- **article-quality.yml** — phân mode bằng `change-mode`: CONTENT_ONLY → gate nhẹ `verify-sources` scoped đúng EXACT IDs (QA minimal chặn; SEO/intent advisory); ENGINE_CHANGE → heavy gate (full test suites, gồm test-cycle.js + test-coordinator.js, + verify-invariant + generate --check). KHÔNG full-site audit trong production loop.
 - **factory-deep-audit.yml** — full gate MANUAL-ONLY (`workflow_dispatch`): manifest-sync + index-rebuild + index-check + `audit --min-score 70` + full suites + verify-invariant + generate --check. Không chạy theo push.
 - **og-image.yml** — sinh ảnh OG.
 
-Chống chồng lấn: concurrency group riêng cho từng workflow, writer lock TTL 30 phút, KHÔNG force push, bounded retry ≤ 3, KHÔNG cron AI writing, KHÔNG AI/API trong Actions.
+Draft không rò lên site: `generate.js` chỉ render slot PUBLISHED (+ scope publish hiện tại truyền qua FACTORY_GEN_INCLUDE) — bài REPAIR/WAITING/PLANNED không có trang, không vào sitemap/search/chatbot.
+
+Chống chồng lấn: concurrency group `total-production` chung cho coordinator + publisher (không cancel, queued), group riêng cho các workflow CI, writer lock TTL 30 phút, KHÔNG force push, bounded retry ≤ 3, KHÔNG cron AI writing, KHÔNG AI/API trong Actions.
 
 ## Capacity là cấu hình
 `capacity` luôn đọc từ `state/matrix.json` — canonical source-of-truth, KHÔNG hardcode con số trong docs/code:

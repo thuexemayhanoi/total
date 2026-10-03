@@ -1,4 +1,30 @@
-# Quy trình xuất bản — PRODUCTION CYCLE + PAIR
+# Quy trình xuất bản — PRODUCTION COORDINATOR + CYCLE + PAIR
+
+## Production coordinator (factory-coordinator.yml — tự động)
+Workflow `factory-coordinator.yml` là **watchdog tick** chạy mỗi 10 phút
+(`cron: 7,17,27,37,47,57 * * * *` + `workflow_dispatch`; concurrency group
+`total-production`, `cancel-in-progress: false` — dùng CHUNG group với
+`factory-publish.yml` nên coordinator và publisher KHÔNG BAO GIỜ chạy đè nhau).
+Mỗi run BOUNDED — đúng một lượt tick rồi thoát, KHÔNG while-true:
+
+```
+recover-txn → resume + check-state → queue-refill (idempotent) → cycle-plan
+→ không workload: exit 0 → cycle-qa scoped → cycle-publish chỉ slot PASS
+(FAIL đã ở repair queue, build/deploy đúng 1 lần) → manifest-sync →
+check-state + verify-invariant + backlog → commit derived state (retry ≤ 3)
+```
+
+- Crash giữa tick: run sau `recover-txn` + resume (slot PASS có bài được
+  cycle-plan xếp RESUME ưu tiên) — không mất backlog, không publish trùng.
+- Push bằng GITHUB_TOKEN KHÔNG trigger workflow kế tiếp — schedule là cơ chế
+  đánh thức chính, KHÔNG đệ quy.
+- Writer là **external** (session Mistral ngoài): Actions KHÔNG tự viết prose,
+  KHÔNG tạo fake article. Coordinator allocate `CYCLE_ALLOCATE writer-a/b/c`
+  trong `cycle-plan`; writer đọc allocation từ repo, viết module bài vào
+  `factory/data/articles/` rồi push main → `factory-publish.yml` publish exact
+  push scope, tick sau cycle-qa/cycle-publish gom nốt. Phần integration còn
+  thiếu để chạy 100% tay: runner/model tự viết bài trong Actions (self-hosted
+  runner + API) — hiện writer phải là session AI ngoài.
 
 ## Production loop (vòng cycle)
 ```
@@ -28,8 +54,9 @@ auto-refill queue (queue-refill, planned < 100 → refill ~300 topic)
 
 ## CI theo change-mode (article-quality.yml)
 - `change-mode` → **CONTENT_ONLY**: chỉ `verify-sources` scoped các bài của commit (QA minimal chặn; SEO advisory).
-- **ENGINE_CHANGE** (engine/test/workflow đổi): heavy gate — full test suites + `verify-invariant` + `generate --check`.
+- **ENGINE_CHANGE** (engine/test/workflow đổi): heavy gate — full test suites (gồm `test-cycle.js` + `test-coordinator.js`) + `verify-invariant` + `generate --check`.
 - **Full-site audit KHÔNG thuộc production loop**: `factory-deep-audit.yml` chỉ chạy khi owner bấm Run workflow (workflow_dispatch) — manifest-sync + index-rebuild/index-check + `audit --min-score 70` + full suites.
+- Bài draft (REPAIR/WAITING_FOR_WRITER/PLANNED) KHÔNG render trang, KHÔNG vào sitemap/search/chatbot — `generate.js` chỉ render slot PUBLISHED (+ scope publish hiện tại).
 
 ## Trình tự thủ công (dự phòng)
 1. Viết bài (module trong `factory/data/articles/`).
@@ -38,7 +65,7 @@ auto-refill queue (queue-refill, planned < 100 → refill ~300 topic)
 4. `node factory/factory.js cycle-publish <IDs>` (cycle) hoặc `publish-pair <ID,ID>` (pair).
 5. `node factory/generate.js --check` — xác nhận không patch tay HTML.
 6. `node factory/factory.js verify-invariant` + `backlog --fail-if-claimable`.
-7. Full gate (`test.js` + `test-hardening.js` + `test-reliability.js` + `test-pair.js` + `test-cycle.js`) chỉ bắt buộc khi đổi engine/workflow.
+7. Full gate (`test.js` + `test-hardening.js` + `test-reliability.js` + `test-pair.js` + `test-cycle.js` + `test-coordinator.js`) chỉ bắt buộc khi đổi engine/workflow.
 8. Commit và push lên `main` — KHÔNG force push.
 
 ## Quy tắc

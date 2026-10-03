@@ -49,6 +49,8 @@ jobs:
           node factory/test-hardening.js
           node factory/test-reliability.js
           node factory/test-pair.js
+          node factory/test-cycle.js
+          node factory/test-coordinator.js
 
       - name: Production invariant + sinh cay
         run: |

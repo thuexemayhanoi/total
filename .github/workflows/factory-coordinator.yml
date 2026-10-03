@@ -1,0 +1,131 @@
+name: Factory Coordinator (production tick)
+
+# COORDINATOR TỰ ĐỘNG — tick mỗi 10 phút (cron lệch phút), KHÔNG while-true:
+# mỗi run BOUNDED, đúng một cycle rồi thoát; schedule chỉ là watchdog đánh thức.
+#
+# Trình tự an toàn mỗi tick:
+#   recover-txn -> resume/check-state -> queue-refill (idempotent) ->
+#   cycle-plan (allocate 3 writer) -> không workload thì exit 0 ->
+#   cycle-qa scoped (chỉ bài mới của cycle, KHÔNG quét toàn site) ->
+#   cycle-publish chỉ slot PASS (FAIL đã ở repair queue, KHÔNG giữ cycle,
+#   build/deploy ĐÚNG 1 lần) -> manifest-sync -> verify-invariant ->
+#   commit/push state atomic (bounded retry <= 3).
+#
+# ARCHITECTURE — external writer (Mistral run), KHÔNG AI API trong Actions:
+#   Actions KHÔNG tự viết prose và KHÔNG tạo fake article. Writer-a/b/c được
+#   allocate qua CYCLE_ALLOCATE + ma trận; external writer nộp module bài vào
+#   factory/data/articles/ rồi push main -> factory-publish.yml publish exact
+#   push scope. Slot chưa có module bài = WAITING_FOR_WRITER (không phải lỗi).
+#   Coordinator KHÔNG publish hai lần: slot đã PUBLISHED bị cycle-qa skip
+#   (CYCLE_QA_SKIP) và cycle-publish idle (KHÔNG đụng state).
+#   Phần integration còn thiếu: không có runner/model tự viết bài — writers
+#   là các session Mistral ngoài đọc allocation từ repo.
+#
+# KHÔNG recursion nguy hiểm:
+#   - Push bằng GITHUB_TOKEN KHÔNG trigger workflow kế tiếp (GitHub mặc định).
+#   - concurrency group `total-production` DÙNG CHUNG với factory-publish.yml
+#     -> coordinator và publisher KHÔNG BAO GIỜ chạy đè nhau (queued, không
+#     cancel).
+#   - Schedule là cơ chế đánh thức chính; KHÔNG bot-commit tự kích workflow.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,17,27,37,47,57 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: total-production
+  cancel-in-progress: false
+
+jobs:
+  coordinator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: "1. Recover transaction (run trước crash giữa cycle)"
+        run: node factory/factory.js recover-txn
+
+      - name: "2. Resume view + state guard"
+        run: |
+          node factory/factory.js resume
+          node factory/factory.js check-state
+
+      - name: "3. Queue refill (idempotent: planned < 100 -> ~300, chỉ coordinator)"
+        run: node factory/factory.js queue-refill --role coordinator
+
+      - name: "4. Cycle plan (12-18 slot, allocate 3 writer)"
+        id: plan
+        run: |
+          set -euo pipefail
+          out=$(node factory/factory.js cycle-plan)
+          echo "$out"
+          ids=$(echo "$out" | sed -n 's/^CYCLE_PLAN ids=//p' | cut -d' ' -f1)
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+
+      - name: "5. Không workload -> thoát sạch (exit 0)"
+        if: steps.plan.outputs.ids == ''
+        run: echo 'COORD_IDLE: không còn slot PLANNED và không có bài PASS chờ publish — thoát sạch.'
+
+      - name: "6. Scoped cycle QA (chỉ bài mới của cycle — KHÔNG quét toàn site, KHÔNG re-audit bài PUBLISHED)"
+        if: steps.plan.outputs.ids != ''
+        id: qa
+        run: |
+          set -euo pipefail
+          out=$(node factory/factory.js cycle-qa "${{ steps.plan.outputs.ids }}")
+          echo "$out"
+          passed=$(echo "$out" | sed -n 's/^CYCLE_QA pass=[0-9]* fail=[0-9]* pending=[0-9]* passed=//p' | cut -d' ' -f1)
+          echo "passed=$passed" >> "$GITHUB_OUTPUT"
+          echo "PASS_IDS=$passed" >> "$GITHUB_ENV"
+
+      - name: "7. Publish slot PASS (coordinator duy nhất, build/deploy đúng 1 lần; FAIL defer repair queue)"
+        if: steps.plan.outputs.ids != '' && env.PASS_IDS != ''
+        run: |
+          set -euo pipefail
+          if ! node factory/factory.js cycle-publish "$PASS_IDS" --owner ci-coordinator; then
+            # Fail recoverable (lock bị actor khác giữ / crash giữa txn):
+            # recover idempotent + KHÔNG loop ngay — tick sau (10 phút) thử lại.
+            node factory/factory.js recover-txn || true
+            if node factory/factory.js check-state >/dev/null 2>&1; then
+              echo 'COORD_RETRY_NEXT_TICK: đã recover, state sạch — tick sau publish nốt (slot PASS được cycle-plan resume ưu tiên).'
+              exit 0
+            fi
+            echo 'COORD_DIRTY: state bẩn sau fail — exit 1 báo động; tick sau recover-txn + resume.'
+            exit 1
+          fi
+
+      - name: "8. Manifest sync (article-manifest.jsonl — JSONL source of truth, chỉ coordinator)"
+        run: node factory/factory.js manifest-sync --role coordinator
+
+      - name: "9. Invariant + state sạch sau tick (KHÔNG deep audit trong hot path)"
+        run: |
+          node factory/factory.js check-state
+          node factory/factory.js verify-invariant
+          node factory/factory.js backlog
+
+      - name: "10. Commit derived state (một commit, bounded retry <= 3)"
+        run: |
+          git config user.name "total-factory-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'COORD_NO_CHANGES: tick này không đổi state — không commit.'
+          else
+            git commit -m "factory: coordinator tick [automated]"
+            ok=0
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push; then ok=1; break; fi
+              echo "push/rebase thất bại (lần $i) — retry sau 5s"
+              sleep 5
+              git rebase --abort 2>/dev/null || true
+            done
+            if [ "$ok" != "1" ]; then echo "KHÔNG push được state sau 3 lần"; exit 1; fi
+          fi

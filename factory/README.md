@@ -37,6 +37,7 @@ queue-refill (planned < 100 → refill ~300 topic, chỉ coordinator)
 → PUBLISHED → cycle mới
 ```
 Pair mode (commit-based): `verify-sources <ID,ID>` → push → factory-publish.yml `publish-pair` atomic.
+Coordinator tự động: `factory-coordinator.yml` tick mỗi 10 phút (cron lệch phút, concurrency `total-production` dùng chung với factory-publish.yml) — recover → check-state → queue-refill → cycle-plan → idle exit 0 → cycle-qa → cycle-publish → manifest-sync → verify-invariant → commit state. Mỗi run bounded một tick, KHÔNG while-true. Writer là external (session Mistral ngoài) đọc `CYCLE_ALLOCATE` — Actions không tự viết bài.
 
 ## Content index (scale 10k–100k bài)
 - `state/article-manifest.jsonl` (commit) + content files = SOURCE OF TRUTH.
@@ -54,7 +55,7 @@ node factory/factory.js set-planned-target <N>                    # mục tiêu 
 - One writer — lock **ownership-safe** (token unique; unlock cần `--owner` + `--token` đúng; TTL 30 phút reclaim theo contract).
 - Publish theo explicit IDs (pair ≤ 2, cycle ≤ 18 mỗi txn) — KHÔNG publish-all, KHÔNG sweep PASS.
 - Ghi file atomic (ghi tạm → đổi tên); checkpoint khớp ma trận.
-- Bộ test: `test.js` + `test-hardening.js` + `test-reliability.js` (4 tầng) + `test-pair.js` + `test-cycle.js` — xem `docs/FACTORY-RELIABILITY.md`.
+- Bộ test: `test.js` + `test-hardening.js` + `test-reliability.js` (4 tầng) + `test-pair.js` + `test-cycle.js` + `test-coordinator.js` — xem `docs/FACTORY-RELIABILITY.md`.
 - Không gọi AI API trong GitHub Actions.
 - CI: article-quality.yml theo change-mode (CONTENT_ONLY → verify-sources scoped; ENGINE_CHANGE → heavy gate); full-site audit chỉ trong factory-deep-audit.yml MANUAL-ONLY (workflow_dispatch).
 

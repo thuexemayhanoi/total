@@ -253,6 +253,13 @@ let T7;
   const { tmp, p, ids } = T6;
   const m = JSON.parse(readS(p.matrix));
   const byId = new Map(m.slots.map(s => [s.id, s]));
+  // Baseline SQLite (200 rows) TRƯỚC khi fixture bài mới xuất hiện — sqlite là
+  // derived cache KHÔNG commit nên fixture tự dựng (không phụ thuộc cây làm việc);
+  // mục 9 sẽ thấy nó STALE so với manifest 204 sau khi publish.
+  const rbBase = runNode([p.factory, 'index-rebuild', '--role', 'coordinator'], { cwd: tmp });
+  ok(rbBase.status === 0, 'index-rebuild dựng baseline SQLite từ manifest cũ (200 rows)', rbBase.stdout + rbBase.stderr);
+  const icBase = runNode([p.factory, 'index-check'], { cwd: tmp });
+  ok(icBase.status === 0 && /INDEX_OK rows=200\/200/.test(icBase.stdout), 'Baseline SQLite khớp manifest cũ (200/200)', icBase.stdout + icBase.stderr);
   // Writer "nộp bài" cho 4 slot đầu cycle: 3 tốt + 1 low-QA.
   const qaIds = ids.slice(0, 4);
   const lowId = qaIds[3];

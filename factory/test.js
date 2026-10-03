@@ -141,7 +141,19 @@ ok(artFiles.length >= 8, 'Có ít nhất 8 bài nền tảng', String(artFiles.l
 const { qaArticle } = require('./qa');
 let lowQa = 0, totalWords = 0;
 const artModules = artFiles.map(f => require(path.join(ROOT, 'factory/data/articles', f)));
-for (const a of artModules) {
+// Bài LIVE = slot PUBLISHED trong ma trận (+ scope publish hiện tại qua env
+// FACTORY_GEN_INCLUDE khi test.js chạy làm cổng trong publish flow). Draft
+// (REPAIR/WAITING_FOR_WRITER/PLANNED) là việc của pipeline QA — KHÔNG nằm
+// trên site, KHÔNG được đếm vào chỉ mục site. Module ngoài ma trận giữ nguyên
+// hành vi cũ (push-scope/backlog phụ trách phát hiện).
+const matrixForLive = readJson('factory/state/matrix.json');
+const liveStateOf = new Map();
+for (const s of matrixForLive.slots) liveStateOf.set(s.slug, s.state);
+const genInclude = new Set(String(process.env.FACTORY_GEN_INCLUDE || '').split(/[\s,]+/).filter(Boolean));
+const isLiveArticle = (a) => { const st = liveStateOf.get(a.slug); return st === undefined || st === 'PUBLISHED' || genInclude.has(a.slug); };
+const liveArtModules = artModules.filter(isLiveArticle);
+ok(liveArtModules.length >= 8, 'Có ít nhất 8 bài live trên site', String(liveArtModules.length));
+for (const a of liveArtModules) {
   const r = qaArticle(a);
   totalWords += r.words;
   ok(r.pass, `Bài "${a.slug}" đạt QA`, `điểm ${r.score}, ${r.words} từ`);
@@ -171,11 +183,13 @@ for (const f of allFiles.filter(x => x.endsWith('.html')).slice(0, 400)) {
 }
 ok(garbageHtml.length === 0, 'Không có ký tự rác trong HTML sinh ra', garbageHtml.slice(0, 3).join(', '));
 
-// Cấu trúc hub đúng cho các bài: category + hub hợp lệ
+// Cấu trúc hub đúng cho các bài: category + hub hợp lệ (mọi module, kể cả draft);
+// trang sinh chỉ bắt buộc cho bài LIVE (draft KHÔNG được render).
 for (const a of artModules) {
   const cat = CATEGORIES.find(c => c.slug === a.category);
   ok(!!cat, `Bài "${a.slug}" thuộc danh mục hợp lệ`);
   if (a.hub) ok(cat.children.some(h => h.slug === a.hub), `Bài "${a.slug}" thuộc hub hợp lệ`);
+  if (!isLiveArticle(a)) continue;
   const expectPath = a.hub ? `${a.category}/${a.hub}/${a.slug}/index.html` : `${a.category}/${a.slug}/index.html`;
   ok(exists(expectPath), `Bài "${a.slug}" đã sinh trang: ${expectPath}`);
 }
@@ -230,11 +244,11 @@ ok(badIdx === 0, 'Mọi mục chỉ mục trỏ tới trang tồn tại', badIdx
 ok(!sIdx.some(d => String(d.url).startsWith('total/')), 'Chỉ mục không chứa tiền tố total/');
 ok(sIdx.some(d => d.kind === 'article'), 'Chỉ mục có mục bài viết');
 const artCount = sIdx.filter(d => d.kind === 'article').length;
-ok(artCount === artFiles.length, 'Số mục bài viết khớp số bài', `${artCount} vs ${artFiles.length}`);
+ok(artCount === liveArtModules.length, 'Số mục bài viết khớp số bài live', `${artCount} vs ${liveArtModules.length}`);
 
 // ---------- 10. Chatbot index ----------
 const cIdx = readJson('assets/data/chatbot-index.json');
-ok(Array.isArray(cIdx) && cIdx.length === artFiles.length, 'Chỉ mục chatbot đủ bài', cIdx.length + ' mục');
+ok(Array.isArray(cIdx) && cIdx.length === liveArtModules.length, 'Chỉ mục chatbot đủ bài live', cIdx.length + ' mục');
 ok(!cIdx.some(d => String(d.url).startsWith('total/')), 'Chatbot index không chứa tiền tố total/');
 let badChat = 0;
 for (const d of cIdx) {
@@ -349,7 +363,9 @@ for (const f of allFiles.filter(x => x.endsWith('.html'))) {
 }
 
 // ---------- 15. Article UI ----------
-for (const a of artModules) {
+// Chỉ bài LIVE có trang sinh; draft (chưa PUBLISHED) KHÔNG render nên
+// KHÔNG assert UI ở đây.
+for (const a of liveArtModules) {
   const rel = a.hub ? `${a.category}/${a.hub}/${a.slug}/index.html` : `${a.category}/${a.slug}/index.html`;
   const html = read(rel);
   ok(html.includes('class="toc"') && html.includes('Mục lục'), `Article ${a.slug}: có mục lục`);
@@ -651,7 +667,7 @@ for (const pair of [['Giới thiệu', 'gioi-thieu/'], ['Liên hệ', 'lien-he/'
   ok(footerSlice.includes(pair[1]), `Footer có link: ${pair[0]}`);
 }
 // 18.6 Breadcrumb article đủ tầng: Trang chủ → cha → con → bài
-const hubArt = artModules.find(a => a.hub);
+const hubArt = liveArtModules.find(a => a.hub);
 if (hubArt) {
   const hubArtRel = `${hubArt.category}/${hubArt.hub}/${hubArt.slug}/index.html`;
   const hubArtHtml = read(hubArtRel);

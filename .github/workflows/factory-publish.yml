@@ -20,7 +20,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: factory-publish
+  # DÙNG CHUNG group với factory-coordinator.yml: publisher và coordinator
+  # KHÔNG BAO GIỜ chạy đồng thời (queued, không cancel) — tránh hai actor
+  # đụng matrix/txn cùng lúc (một article push chỉ được publish đúng một lần).
+  group: total-production
   cancel-in-progress: false
 
 jobs:

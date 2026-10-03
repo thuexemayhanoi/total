@@ -79,10 +79,38 @@ function robots() {
   return `# robots.txt — AI WIKI TOTAL\nUser-agent: *\nAllow: /\n\nSitemap: ${SITE.baseUrl}sitemap.xml\n`;
 }
 
+// ---------- BÀI NÀO ĐƯỢC LÊN SITE (live filter) ----------
+// Chỉ render bài thuộc slot PUBLISHED, cộng thêm slug mà publish flow yêu cầu
+// tường minh qua env FACTORY_GEN_INCLUDE (bài đang được publish trong txn này —
+// slot trên đĩa chưa kịp lật). Bài REPAIR/WAITING_FOR_WRITER/PLANNED là DRAFT
+// chưa qua gate: KHÔNG render trang, KHÔNG vào sitemap/search/chatbot — không
+// rò bài FAIL ra production site. Module không có slot trong ma trận giữ nguyên
+// hành vi cũ (push-scope/backlog phụ trách phát hiện module lạ).
+function filterLiveArticles(articlesAll) {
+  let m = null;
+  try { m = JSON.parse(fs.readFileSync(path.join(__dirname, 'state', 'matrix.json'), 'utf8')); }
+  catch (e) { m = null; } // không đọc được ma trận -> KHÔNG lọc (fail-open cho standalone)
+  if (!m || !Array.isArray(m.slots)) return articlesAll;
+  const stateOf = new Map();
+  for (const s of m.slots) if (s && s.slug) stateOf.set(s.slug, s.state);
+  const extra = new Set(String(process.env.FACTORY_GEN_INCLUDE || '').split(/[\s,]+/).filter(Boolean));
+  const kept = [];
+  const skipped = [];
+  for (const a of articlesAll) {
+    const st = stateOf.get(a.slug);
+    if (st === undefined || st === 'PUBLISHED' || extra.has(a.slug)) kept.push(a);
+    else skipped.push(a.slug + ':' + st);
+  }
+  if (skipped.length) {
+    console.error('GEN_SKIP_DRAFT: ' + skipped.join(', ') + ' — draft chưa PUBLISHED, KHÔNG render/KHÔNG vào sitemap.');
+  }
+  return kept;
+}
+
 // ---------- Sinh THUẦN trong BẢN NHỚ ----------
 // Trả về { manifest, files, manifestContent, stats } — KHÔNG ghi đĩa.
 function buildAll() {
-  const articlesRaw = loadArticles().map(a => {
+  const articlesAll = loadArticles().map(a => {
     const cat = CATEGORIES.find(c => c.slug === a.category);
     if (!cat) throw new Error('Bài "' + a.slug + '" tham chiếu danh mục không tồn tại: ' + a.category);
     const hub = a.hub ? cat.children.find(h => h.slug === a.hub) : null;
@@ -94,6 +122,9 @@ function buildAll() {
        (a.warnings || []).join(' '), (a.notes || []).join(' ')].join(' '));
     return { ...a, catName: cat.name, hubName: hub ? hub.name : null, path: articlePath(a), wordCount };
   });
+  // Live filter: draft (REPAIR/WAITING/PLANNED) không lên site; publish flow
+  // yêu cầu thêm slug đang publish qua FACTORY_GEN_INCLUDE.
+  const articlesRaw = filterLiveArticles(articlesAll);
   const bySlug = {};
   for (const a of articlesRaw) bySlug[a.slug] = a;
 

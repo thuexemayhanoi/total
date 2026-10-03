@@ -58,5 +58,8 @@ node factory/test-hardening.js
 node factory/test-reliability.js
 node factory/test-pair.js
 node factory/test-cycle.js
+node factory/test-coordinator.js
 ```
 Cả tám lệnh phải xanh (reliability/hardening là cổng pre-commit bắt buộc cho thay đổi factory/workflow).
+
+**PRODUCTION COORDINATOR TỰ ĐỘNG (factory-coordinator.yml):** tick mỗi 10 phút (`cron 7,17,27,37,47,57 * * * *` + workflow_dispatch), mỗi run bounded một lượt: recover-txn → check-state → queue-refill → cycle-plan (allocate 3 writer) → idle exit 0 → cycle-qa scoped → cycle-publish chỉ slot PASS → manifest-sync → verify-invariant → commit state. Concurrency `total-production` dùng chung với factory-publish.yml (không cancel). Writer là external (session Mistral ngoài) — Actions KHÔNG tự viết bài, KHÔNG fake article; writer đọc `CYCLE_ALLOCATE` rồi nộp module bài vào `factory/data/articles/`.

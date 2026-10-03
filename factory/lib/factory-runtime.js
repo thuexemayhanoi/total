@@ -233,23 +233,44 @@ function checkProductionInvariant(m, ctx) {
   return { ok: errors.length === 0, errors };
 }
 
-// PRODUCTION CYCLE PLAN: chọn 12-18 slot PLANNED theo ID tăng dần (deterministic).
-// Trả { ids, size, writers, complete, needsRefill }:
+// PRODUCTION CYCLE PLAN: 12-18 slot cho cycle tiếp theo (deterministic).
+// Trả { ids, size, writers, complete, needsRefill, allocations }:
+//   - RESUME TRƯỚC: slot PASS đã có module bài (QA xong nhưng chưa kịp
+//     publish — crash giữa tick) được xếp đầu để tick sau publish nốt,
+//     không để backlog mồ côi. Cần articleSlugs để biết slot PASS nào có bài.
+//   - PLANNED SAU: slot chờ writer nộp bài (cycle-qa tự pending slot chưa có
+//     module — KHÔNG giả bài).
 //   complete    = đủ CYCLE_MIN bài để chạy cycle trọn vẹn;
 //   needsRefill = tổng slot PLANNED < QUEUE_REFILL_FLOOR -> cần queue-refill.
-function buildCyclePlan(m) {
+function buildCyclePlan(m, articleSlugs) {
   const num = (id) => Number(String(id || '').replace(/^S0*/, '')) || 0;
+  const byId = (a, b) => num(a.id) - num(b.id);
+  const slugs = articleSlugs ? toSlugSet(articleSlugs) : null;
+  const passReady = (m && Array.isArray(m.slots) ? m.slots : [])
+    .filter(s => s.state === 'PASS' && slugs && slugs.has(s.slug))
+    .sort(byId);
   const planned = (m && Array.isArray(m.slots) ? m.slots : [])
     .filter(s => s.state === 'PLANNED')
-    .sort((a, b) => num(a.id) - num(b.id));
-  const ids = planned.slice(0, CYCLE_MAX).map(s => s.id);
+    .sort(byId);
+  const chosen = passReady.concat(planned).slice(0, CYCLE_MAX);
+  const ids = chosen.map(s => s.id);
   return {
     ids,
     size: ids.length,
     writers: WRITER_COUNT,
     complete: ids.length >= CYCLE_MIN,
     needsRefill: planned.length < QUEUE_REFILL_FLOOR,
+    allocations: splitWorkload(ids, WRITER_COUNT),
   };
+}
+
+// ALLOCATE: chia N ID cho `count` writer round-robin (deterministic — cùng
+// ma trận luôn ra cùng phân bổ). Mỗi ID thuộc đúng 1 writer.
+function splitWorkload(ids, countArg) {
+  const n = Number.isInteger(countArg) && countArg > 0 ? countArg : WRITER_COUNT;
+  const out = Array.from({ length: n }, () => []);
+  for (let i = 0; i < (Array.isArray(ids) ? ids.length : 0); i++) out[i % n].push(ids[i]);
+  return out;
 }
 
 // QUEUE REFILL: chọn topic từ pool (factory/data/topic-pool) không trùng slug
@@ -278,5 +299,5 @@ module.exports = {
   classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
   chunkLimit, maxIterations, findClaimableBacklog, selectChunk,
   snapshotState, computeProgress, assertProgress, checkProductionInvariant,
-  buildCyclePlan, selectRefillTopics,
+  buildCyclePlan, selectRefillTopics, splitWorkload,
 };
