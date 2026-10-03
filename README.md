@@ -29,7 +29,7 @@ node factory/generate.js          # sinh site tĩnh
 node factory/generate.js --check  # xác nhận không patch tay HTML
 node factory/test.js              # bộ kiểm thử nền tảng
 node factory/factory.js status    # trạng thái content factory
-node factory/factory.js audit --min-score 75
+node factory/factory.js audit --min-score 70
 ```
 
 ## Capacity mở rộng được
@@ -42,9 +42,9 @@ node factory/factory.js set-planned-target <N>                    # tùy nhu c�
 Expand chỉ tăng logical capacity — không preallocate slot, giữ nguyên mọi ID/slot/PUBLISHED/plannedTarget/reserved; phần capacity mới là unallocated cho tới khi chủ repo ra lệnh.
 
 ## Nguyên tắc nội dung
-- Tiếng Việt cho toàn bộ UI và nội dung; QA ≥ 75 mới xuất bản.
+- Tiếng Việt cho toàn bộ UI và nội dung; **MINIMAL PRODUCTION QA GATE 70–100 = PASS** (SEO chỉ advisory).
 - Không bịa dữ kiện kinh doanh — chỉ dùng dữ liệu đã xác minh.
 - Chi tiết đầy đủ trong `AGENTS.md` và `docs/`.
 
 ## Vận hành tự động
-Pipeline publish SIMPLE PRODUCTION MODE (kiến trúc port từ /vanchinh, chạy Node factory): writer ngoài viết đúng 2 bài/lần (PAIR_SIZE = 2) push main → `factory-publish` xử lý EXACT push scope (`publish-pair`: scoped QA ≥ 75 + SEO ≥ 70 → sinh site → verify-pair → atomic COMMIT txn); cổng `article-quality`/`site-quality` phân mode nhẹ/nặng bằng `change-mode`; kiểm định sau publish `factory-publish-verify` (light); heavy gate ở `factory-deep-audit` và mốc 100 bài. Không cron AI writing, không AI/API trong Actions, không force push.
+Hai đường publish: **pair mode** (writer viết đúng 2 bài/lần, PAIR_SIZE = 2, push main → `factory-publish` xử lý EXACT push scope: `publish-pair` scoped QA minimal ≥ 70 → sinh site → verify-pair → atomic COMMIT txn) và **production cycle** (queue-refill → cycle-plan 12–18 bài → 3 writer chỉ viết → `cycle-qa` scoped → `cycle-publish` coordinator duy nhất build/deploy đúng 1 lần). CI `article-quality` phân mode bằng `change-mode` (CONTENT_ONLY → verify-sources scoped; ENGINE_CHANGE → heavy gate full suites); full-site audit chỉ ở `factory-deep-audit` MANUAL-ONLY (workflow_dispatch) — KHÔNG thuộc production loop. Content index: article-manifest.jsonl là source of truth, content-index.sqlite là derived cache (không commit, chỉ coordinator ghi/rebuild). Không cron AI writing, không AI/API trong Actions, không force push.

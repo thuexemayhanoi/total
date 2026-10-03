@@ -9,9 +9,9 @@ Một CI run SUCCESS với backlog article-backed claimable > 0 là **defect**, 
 - writer lock sạch (run đã release đúng lock của chính mình),
 - article-backed claimable backlog == 0,
 - production invariant (`factory.js verify-invariant`) PASS,
-- `generate.js --check`, `audit --min-score 75`, `test.js`, `test-hardening.js`, `test-reliability.js`, `test-pair.js` đều xanh.
+- `generate.js --check`, `audit --min-score 70`, `test.js`, `test-hardening.js`, `test-reliability.js`, `test-pair.js`, `test-cycle.js` đều xanh.
 
-SIMPLE PRODUCTION MODE (pair): hot path của writer/publisher là `publish-pair` (đúng PAIR_SIZE = 2 ID, exact push scope, scoped QA >= 75 + SEO >= 70, txn atomic resumable). Heavy gate KHÔNG chạy mỗi pair — chỉ khi: engine/workflow đổi (CI ENGINE_CHANGE), mốc 100 PUBLISHED, hoặc `factory-deep-audit.yml` (workflow_dispatch).
+SIMPLE PRODUCTION MODE (pair + cycle): hot path của writer/publisher là `publish-pair` (đúng PAIR_SIZE = 2 ID, exact push scope, scoped QA MINIMAL gate >= 70 — SEO/intent advisory, txn atomic resumable) và `cycle-qa`/`cycle-publish` (12–18 bài/cycle, scoped QA chỉ bài mới, FAIL → repair queue không giữ cycle). Heavy gate KHÔNG chạy mỗi pair/cycle — chỉ khi engine/workflow đổi (CI ENGINE_CHANGE) hoặc owner chủ động chạy `factory-deep-audit.yml` (workflow_dispatch, MANUAL-ONLY).
 
 PLANNED chưa có article module KHÔNG phải backlog claimable — đó là `WAITING_FOR_WRITER`, không làm CI fail.
 
@@ -32,7 +32,7 @@ Hàm thuần, không đụng production state. Bao phủ trong `factory/test-rel
 Fixture temp (copy repo ra tmp, KHÔNG production state). 25 article-backed slot hợp lệ → drain 3 chunk liên tiếp trong MỘT run, không cần push thứ hai, không sweep slot PASS ngoài chunk. Cùng với fault injection: QA fail, publish fail, generator fail, module syntax error, wrong lock owner, stale lock.
 
 ### Layer 3 — Production invariant
-Fixture gần production thật. Sau SUCCESS: backlog claimable = 0; PUBLISHED ↔ article source ↔ generated HTML ↔ sitemap-articles khớp 1-1; QA ≥ 75; `checkpoint.slotCount == matrix.slots.length`; không lock; không state hỏng. Có **regression sentinel**: test phải FAIL nếu code quay lại hành vi "process 1 chunk → exit success → backlog vẫn > 0".
+Fixture gần production thật. Sau SUCCESS: backlog claimable = 0; PUBLISHED ↔ article source ↔ generated HTML ↔ sitemap-articles khớp 1-1; QA ≥ 70; `checkpoint.slotCount == matrix.slots.length`; không lock; không state hỏng. Có **regression sentinel**: test phải FAIL nếu code quay lại hành vi "process 1 chunk → exit success → backlog vẫn > 0".
 
 ### Layer 4 — Long-run / Failure recovery
 Soak fixture temp ≥ 35 article-backed slot (> 3 chunk). Fault injection: push fail giữa run, generator fail, test fail, concurrent acquire, wrong-owner cleanup, resume sau gián đoạn. Sau recover: không restart, không duplicate ID, không renumber, không lock leak, không half-written JSON; state resumable đúng chỗ.
@@ -53,7 +53,7 @@ Logic production nằm trong `factory/lib/lock.js` và `factory/lib/factory-runt
 
 ## Continuous backlog drain
 
-`factory-publish.yml` drain theo vòng: mỗi vòng `drain-iteration` xử lý đúng 1 chunk ≤ 10, commit + push (retry ≤ 3), lặp tới khi backlog = 0 hoặc vượt `MAX_ITERATIONS` (fail). KHÔNG dựa vào bot-commit tự trigger workflow kế tiếp (GITHUB_TOKEN không đảm bảo self-trigger). Verify workflow (`factory-publish-verify.yml`) fail nếu publish vừa SUCCESS mà claimable backlog > 0, kèm diagnostic (pending IDs, state, article source, HEAD SHA).
+`factory-publish.yml` (pair) xử lý EXACT push scope: `push-scope` → `publish-pair` đúng IDs của commit (txn atomic, commit derived state, retry ≤ 3), KHÔNG sweep slot khác. KHÔNG dựa vào bot-commit tự trigger workflow kế tiếp (GITHUB_TOKEN không đảm bảo self-trigger). Cổng cuối `backlog --fail-if-claimable` fail nếu publish vừa SUCCESS mà claimable backlog > 0. Full-site audit là `factory-deep-audit.yml` MANUAL-ONLY (workflow_dispatch) — KHÔNG thuộc production loop.
 
 ## Chạy
 
@@ -62,6 +62,7 @@ node factory/test.js              # nền tảng (Layer 1 cơ bản + UI/UX regr
 node factory/test-hardening.js   # hardening regression
 node factory/test-reliability.js  # 4 tầng reliability (L1–L4)
 node factory/test-pair.js     # pair mode (PAIR_SIZE/exact scope/txn recovery)
+node factory/test-cycle.js    # production cycle (12-18 bài, scoped QA, refill, defer REPAIR)
 ```
 
-Cả bốn được CI chạy trong Article Quality workflow khi ENGINE_CHANGE. CONTENT_ONLY push chỉ chạy gate nhẹ (`verify-sources` đúng EXACT IDs). Không xóa test cũ để lấy màu xanh.
+Cả năm được CI chạy khi ENGINE_CHANGE (article-quality.yml) và trong deep audit manual. CONTENT_ONLY push chỉ chạy gate nhẹ (`verify-sources` đúng EXACT IDs). Không xóa test cũ để lấy màu xanh.

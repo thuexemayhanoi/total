@@ -15,16 +15,22 @@ Mọi agent phải đọc file này trước khi sửa repo.
 2. **Generator-first:** mọi trang HTML sinh từ `node factory/generate.js`. Không bao giờ sửa tay file HTML đã sinh.
 3. **Mọi liên kết nội bộ qua `u()`** trong `factory/lib/shell.js` — tránh lỗi `/total/total/`.
 4. **Không bịa dữ kiện kinh doanh:** giá, địa chỉ, giờ mở cửa, danh sách xe, điều khoản dịch vụ. Chỉ dùng verified business facts; ngoài khu vực xác minh là informational only.
-5. **QA ≥ 75 và SEO ≥ 70** mới được PUBLISHED (critical fail luôn override điểm); test (`node factory/test.js`) phải PASSED trước khi commit engine.
+5. **QA MINIMAL GATE ≥ 70** mới được PUBLISHED (7 critical gate override điểm; SEO/intent chỉ advisory — không đòi 75/90/100, không REVIEW/EXCELLENT; bài ≥ 70 không sửa chỉ để tăng điểm); test (`node factory/test.js`) phải PASSED trước khi commit engine.
 6. **Không deploy draft**; không chặn nội dung công khai trong robots.txt.
 7. Chỉ mục tìm kiếm/chatbot lưu URL **không** có tiền tố `total/`; file trong repo **có** tiền tố `total/`.
 8. Không để ký tự rác CJK/Cyrillic/Hangul trong bất kỳ nguồn nào.
 
 ## Vòng đời nội dung
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).
-Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/publish/audit/resume/expand-capacity/set-planned-target/backlog/check-state/plan-chunk/verify-invariant/drain-bound/drain-iteration + hot path pair: publish-pair/verify-pair/verify-sources/push-scope/publish-plan/change-mode/recover-txn) — không sửa JSON state tay khi factory đang chạy.
-Pipeline publish tự động (factory-publish.yml) chạy **SIMPLE PRODUCTION MODE (pair)**: writer ngoài viết ĐÚNG 2 bài/lần (PAIR_SIZE = 2), tự `verify-sources` scoped (QA ≥ 75 + SEO ≥ 70) rồi push main → publisher xác định EXACT push scope (`push-scope`), `publish-plan` (resume backlog cũ trước, pair scope sau) → từng txn `publish-pair <ID,ID>` atomic (scoped QA/SEO → generate → verify-pair → lật đúng rows → COMMIT txn) → commit "factory: publish pair <ids>". KHÔNG sweep slot khác, KHÔNG claim 10 bài khác; IDs đã PUBLISHED push lại = repair (chấm lại + sinh lại đúng IDs). Txn marker sót → `recover-txn` idempotent. Heavy gate (audit/invariant/test suite) chỉ chạy khi engine đổi, mốc 100 PUBLISHED, hoặc `factory-deep-audit.yml` (workflow_dispatch).
-Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state khi pipeline đang chạy. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose).
+Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/publish/audit/resume/expand-capacity/set-planned-target/backlog/check-state/plan-chunk/verify-invariant/drain-bound/drain-iteration + hot path pair: publish-pair/verify-pair/verify-sources/push-scope/publish-plan/change-mode/recover-txn + production cycle: cycle-plan/cycle-qa/cycle-publish/queue-refill + content index: manifest-sync/index-rebuild/index-check) — không sửa JSON state tay khi factory đang chạy.
+
+**PRODUCTION CYCLE (12–18 bài, 3 writer):** `queue-refill` (coordinator, planned < 100 → refill ~300 topic từ topic-pool) → `cycle-plan` (allocate 12–18) → 3 writer CHỈ viết → `cycle-qa <IDs>` (scoped minimal QA chỉ bài mới của cycle — KHÔNG quét toàn site, KHÔNG re-audit bài PUBLISHED) → PASS ≥ 70 → `cycle-publish <IDs>` (coordinator DUY NHẤT merge/publish/deploy ĐÚNG 1 lần; bài FAIL → repair queue, KHÔNG giữ cycle).
+
+**PAIR (commit-based hot path):** writer viết đúng 2 bài, `verify-sources` scoped (QA minimal ≥ 70 chặn; SEO/intent advisory) rồi push main → `factory-publish.yml`: push-scope (EXACT IDs) → publish-pair atomic (scoped QA → FAIL vào repair queue, PASS publish → generate → verify-pair → lật đúng rows → COMMIT txn). KHÔNG sweep slot khác. Txn marker sót → `recover-txn` idempotent. Heavy gate (audit ≥ 70/invariant/test suites) chỉ chạy khi engine đổi (ENGINE_CHANGE) hoặc owner chủ động chạy `factory-deep-audit.yml` (workflow_dispatch MANUAL-ONLY) — KHÔNG chạy trong production loop.
+
+**Content index (scale 10k–100k bài):** `factory/state/article-manifest.jsonl` + content files là SOURCE OF TRUTH (được commit); `factory/state/content-index.sqlite` là DERIVED CACHE (KHÔNG commit, đã .gitignore) — chỉ coordinator được ghi/rebuild (manifest-sync/index-rebuild/index-check); QA/query đọc SQLite thay vì rescan; missing/corrupt/stale → index-rebuild an toàn.
+
+Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state/matrix/txn/sqlite khi pipeline đang chạy. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose).
 
 ## Writer lock — ownership-safe
 - Acquire dùng primitive exclusive thật (link/open 'wx') + token unique mỗi acquisition; xem `factory/lib/lock.js`.
@@ -47,9 +53,10 @@ Mọi thay đổi factory/workflow/docs phải giữ và mở rộng bộ test t
 node factory/generate.js
 node factory/generate.js --check
 node factory/test.js
-node factory/factory.js audit --min-score 75
+node factory/factory.js audit --min-score 70
 node factory/test-hardening.js
 node factory/test-reliability.js
 node factory/test-pair.js
+node factory/test-cycle.js
 ```
-Cả bảy lệnh phải xanh (reliability/hardening là cổng pre-commit bắt buộc cho thay đổi factory/workflow).
+Cả tám lệnh phải xanh (reliability/hardening là cổng pre-commit bắt buộc cho thay đổi factory/workflow).

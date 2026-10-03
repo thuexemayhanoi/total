@@ -11,9 +11,10 @@
 Không bịa giá, địa chỉ, giờ mở cửa, danh sách xe đang có, phạm vi giao xe, điều khoản dịch vụ. Với nội dung ngoài khu vực đã xác minh: **informational only**. QA chặn các pattern: giá thuê chỉ từ, địa chỉ số nhà, liên hệ zalo, hotline.
 
 ## Chất lượng
-- QA ≥ 75 mới được PUBLISHED; khuyến nghị mọi bài đạt 100.
+- **MINIMAL PRODUCTION QA GATE**: 70–100 = PASS, < 70 = FAIL/REPAIR (7 critical gate override điểm). KHÔNG REVIEW/EXCELLENT/score band; không đòi 75/90/100; bài ≥ 70 không sửa chỉ để tăng điểm.
 - Không ký tự rác CJK/Cyrillic/Hangul — QA và test đều quét.
 - Mục lục, breadcrumb, bài liên quan sinh tự động từ dữ liệu.
+- SEO chỉ advisory (điểm được ghi lại để huấn luyện, KHÔNG chặn publish).
 
 ## Cạnh tranh intent
 Mỗi bài chỉ nhắm một intent. Bài thuộc `/moto/` không được nhắm intent thuê (thuộc `/thue-xe/`).

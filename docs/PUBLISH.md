@@ -1,31 +1,50 @@
-# Quy trình xuất bản
+# Quy trình xuất bản — PRODUCTION CYCLE + PAIR
 
-## Xuất bản tự động (SIMPLE PRODUCTION MODE — pair, port /vanchinh)
-1. Writer ngoài viết **ĐÚNG 2 bài** (PAIR_SIZE = 2) mỗi vòng: module trong `factory/data/articles/` + slot tương ứng trong ma trận, `verify-sources` scoped đạt (QA ≥ 75, SEO ≥ 70, intent sạch) rồi push lên nhánh `main`.
-2. Workflow `Factory Publish (pair)` tự chạy: đọc state → recover txn nếu sót → xác định **EXACT push scope** (`push-scope`: đúng article IDs được ADD/MODIFY bởi commit đó) → `publish-plan` (resume backlog article-backed cũ TRƯỚC, scope pair SAU; mỗi txn đúng 2 ID) → từng txn `publish-pair <ids>`: lock → scoped QA + SEO → sinh site → `verify-pair` nhẹ → lật đúng rows PUBLISHED → COMMIT txn (atomic) → commit "factory: publish pair <ids>" + push.
-   - **KHÔNG sweep slot khác**, không tự claim 10 bài khác — publisher xử lý đúng IDs của commit.
-   - QA < 75 hoặc SEO < 70 → REPAIR: sửa bài rồi push lại; pipeline chỉ xử lý đúng IDs được sửa (mode repair: chấm lại + sinh lại trang, không lật state).
-   - Fail giữa chừng → KHÔNG ghi state dở (txn marker recover-txn: ids đã PUBLISHED → completed, ngược lại → rolled-back); chạy lại resume đúng pair.
-3. Cổng cuối nhẹ: `check-state` + `backlog --fail-if-claimable` + `generate --check`. **Mốc 100 PUBLISHED**: heavy gate (audit ≥ 75, `verify-invariant`, toàn bộ test suite) tự chạy thêm trong cùng workflow.
-4. Sau publish, `factory-publish-verify` (read-only, light) verify: state sạch, không patch tay HTML, bất biến PUBLISHED ↔ trang sinh ↔ sitemap, backlog claimable = 0.
-5. Heavy gate đầy đủ (audit + hardening + reliability + pair + invariant) chạy tại `factory-deep-audit.yml` (workflow_dispatch) và khi engine/workflow đổi — KHÔNG chạy mỗi pair.
+## Production loop (vòng cycle)
+```
+auto-refill queue (queue-refill, planned < 100 → refill ~300 topic)
+→ cycle-plan: allocate 12–18 bài
+→ chia cho 3 writer (writer CHỈ viết)
+→ cycle-qa: scoped minimal QA (chỉ bài mới của cycle, KHÔNG quét toàn site)
+→ PASS ≥ 70 (FAIL → repair queue, KHÔNG giữ cycle)
+→ cycle-publish: COORDINATOR duy nhất merge + build/deploy ĐÚNG 1 LẦN
+→ mark PUBLISHED → cycle mới
+```
+- **Coordinator là thành phần duy nhất** được claim ID, đổi state, merge, publish, deploy.
+- **Writer tuyệt đối không sửa** global state/matrix/txn/publish — chỉ nộp module bài vào `factory/data/articles/`.
+- Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` — không phải lỗi.
+- Lỗi nhỏ tự repair/retry; chỉ dừng khi lỗi lớn không recover, hết topic hợp lệ, hết quota/runtime, hoặc owner ra lệnh dừng.
 
-Quy trình thủ công dưới đây là đường dự phòng khi pipeline không dùng được.
+### Lệnh cycle (`node factory/factory.js`)
+- `queue-refill [--role coordinator]` — planned < 100 (QUEUE_REFILL_FLOOR) → refill lên ~300 (QUEUE_REFILL_TARGET) slot PLANNED từ `factory/data/topic-pool.js` (intent mặc định `informational/<slug>`; chỉ coordinator).
+- `cycle-plan` — kế hoạch cycle hiện tại (read-only): 12–18 slot PLANNED theo ID tăng dần, `writers=3`, hint refill khi planned < 100.
+- `cycle-qa <ID,ID,...>` (1–18 ID) — scoped minimal QA chỉ bài mới của cycle; PASS → state PASS, FAIL → REPAIR queue; skip bài đã PUBLISHED.
+- `cycle-publish <ID,ID,...> [--owner coordinator]` — chỉ publish slot PASS, defer slot REPAIR (không giữ cycle); txn atomic + `generate` **đúng 1 lần** cho cả cycle → verify → lật PUBLISHED → COMMIT.
 
-## Trình tự (thủ công)
-1. Viết xong bài (module trong `factory/data/articles/`).
-2. `node factory/factory.js qa-preview <slot-id>` — QA thử + SEO thử, đạt QA ≥ 75 / SEO ≥ 70.
-3. `node factory/factory.js verify-sources <ID,ID>` — rà source đúng pair (read-only).
-4. `node factory/factory.js publish-pair <ID,ID>` — publish đúng pair (tối đa 2 ID; lệnh tự sinh lại site + verify-pair, chỉ ghi state khi mọi cổng xanh). Lệnh legacy `publish <ID>...` (≤ 10 ID) và `drain-iteration` giữ làm manual recovery.
+## Xuất bản pair (hot path commit-based, SIMPLE PRODUCTION MODE)
+1. Writer viết ĐÚNG 2 bài (PAIR_SIZE = 2): module trong `factory/data/articles/` + slot trong ma trận, `verify-sources <ID,ID>` đạt (QA minimal ≥ 70 chặn; SEO/intent chỉ advisory) rồi push lên `main`.
+2. Workflow `factory-publish.yml` tự chạy: recover txn nếu sót → `push-scope` (EXACT IDs của commit) → `check-state` guard → `publish-pair <ids>`: lock → scoped QA minimal → FAIL vào repair queue (bài PASS của pair vẫn publish) → generate → verify-pair → lật đúng rows → COMMIT txn → commit derived state.
+3. Cổng cuối: `check-state` + `backlog --fail-if-claimable` + `generate --check`.
+
+## CI theo change-mode (article-quality.yml)
+- `change-mode` → **CONTENT_ONLY**: chỉ `verify-sources` scoped các bài của commit (QA minimal chặn; SEO advisory).
+- **ENGINE_CHANGE** (engine/test/workflow đổi): heavy gate — full test suites + `verify-invariant` + `generate --check`.
+- **Full-site audit KHÔNG thuộc production loop**: `factory-deep-audit.yml` chỉ chạy khi owner bấm Run workflow (workflow_dispatch) — manifest-sync + index-rebuild/index-check + `audit --min-score 70` + full suites.
+
+## Trình tự thủ công (dự phòng)
+1. Viết bài (module trong `factory/data/articles/`).
+2. `node factory/factory.js qa-preview <slot-id>` — QA thử + SEO thử (advisory), read-only.
+3. `node factory/factory.js verify-sources <ID,ID>` — rà source đúng pair.
+4. `node factory/factory.js cycle-publish <IDs>` (cycle) hoặc `publish-pair <ID,ID>` (pair).
 5. `node factory/generate.js --check` — xác nhận không patch tay HTML.
-6. `node factory/factory.js verify-pair <ID,ID>` — light verify chỉ pair.
-7. `node factory/factory.js verify-invariant` + `node factory/factory.js backlog --fail-if-claimable --head-sha "$(git rev-parse HEAD)"`.
-8. Full gate (`test.js` + `test-hardening.js` + `test-reliability.js` + `test-pair.js`) chỉ bắt buộc khi đổi engine/workflow.
-9. Commit và push lên nhánh `main` — GitHub Pages triển khai từ gốc nhánh main.
+6. `node factory/factory.js verify-invariant` + `backlog --fail-if-claimable`.
+7. Full gate (`test.js` + `test-hardening.js` + `test-reliability.js` + `test-pair.js` + `test-cycle.js`) chỉ bắt buộc khi đổi engine/workflow.
+8. Commit và push lên `main` — KHÔNG force push.
 
 ## Quy tắc
-- Draft không được deploy: chỉ commit khi QA ≥ 75 và SEO ≥ 70.
-- Một writer tại một thời điểm (writer lock ownership-safe: unlock cần --owner + --token của chính acquisition; xem docs/RECOVERY.md).
-- Publish luôn theo explicit IDs, tối đa 2 ID mỗi transaction (PAIR_SIZE) — không bao giờ sweep mọi slot PASS.
-- WAITING_FOR_WRITER (PLANNED chưa có bài) không bao giờ vào publish plan.
+- Draft không được deploy: chỉ publish bài PASS minimal gate (≥ 70, không critical).
+- Bài ≥ 70 không sửa chỉ để tăng điểm; SEO/intent chỉ advisory.
+- Một writer tại một thời điểm (writer lock ownership-safe).
+- Publish theo explicit IDs (pair ≤ 2, cycle ≤ 18 mỗi txn) — không bao giờ sweep mọi slot PASS.
+- WAITING_FOR_WRITER không bao giờ vào publish plan.
 - Sau push, xác minh các trang live trả HTTP 200.
