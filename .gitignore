@@ -1,0 +1,10 @@
+# ---- Derived cache (KHÔNG commit — rebuild bằng index-rebuild) ----
+factory/state/content-index.sqlite
+factory/state/content-index.sqlite-journal
+factory/state/content-index.sqlite-wal
+factory/state/content-index.sqlite-shm
+
+# ---- Runtime ephemeral (không bao giờ commit) ----
+factory/state/*.tmp
+factory/state/writer.lock
+factory/state/txn.json
