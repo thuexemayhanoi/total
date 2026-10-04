@@ -3528,11 +3528,13 @@
    "title": "Hướng dẫn chi tiết về xe chết máy giữa đường",
    "primaryIntent": "informational/xe-chet-may-giua-duong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T12:41:16.127Z",
+   "seoScore": 100,
+   "words": 2191
   },
   {
    "id": "S00240",
@@ -3541,11 +3543,13 @@
    "title": "Tổng hợp kiến thức: thủng lốp giữa đường",
    "primaryIntent": "informational/thung-lop-giua-duong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T12:41:16.127Z",
+   "seoScore": 100,
+   "words": 2099
   },
   {
    "id": "S00241",
