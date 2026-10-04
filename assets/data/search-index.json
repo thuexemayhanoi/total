@@ -5306,6 +5306,28 @@
  },
  {
   "kind": "article",
+  "url": "guide/mua-xe/mua-xe-may-moi/",
+  "title": "Mua xe máy mới — hướng dẫn chi tiết từng bước",
+  "description": "Hướng dẫn từng bước mua xe máy mới: chọn dòng theo nhu cầu, so sánh phiên bản và giá lăn bánh, mua ở đâu, trả giá, giấy tờ cần nhận và giai đoạn chạy rà đầu tiên.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "giá lăn bánh",
+   "phiên bản xe",
+   "giấy chứng nhận kiểm tra chất lượng",
+   "giai đoạn chạy rà"
+  ],
+  "keywords": [
+   "mua xe máy mới",
+   "mua xe may moi",
+   "giá lăn bánh xe máy",
+   "chọn xe máy theo nhu cầu",
+   "chạy rà xe máy mới"
+  ],
+  "summary": "Mua xe máy mới tưởng là giao dịch đơn giản nhất trong các giao dịch xe, nhưng phần lớn người mua kết thúc với phiên bản không đúng nhu cầu, giá lăn bánh vượt dự tính, hoặc thiếu giấy tờ gốc mà đến khi bán lại mới phát hiện. Bài viết chia quy trình mua xe máy m"
+ },
+ {
+  "kind": "article",
   "url": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/",
   "title": "Ắc quy xe máy: cấu tạo và cách bảo quản",
   "description": "Ắc quy xe máy: cấu tạo ắc quy khô và ắc quy nước, vai trò với hệ thống điện, dấu hiệu yếu, cách sạc và bảo quản để ắc quy bền lâu hơn.",
@@ -5329,6 +5351,28 @@
    "thay ắc quy xe máy"
   ],
   "summary": "Ắc quy là bộ phận khi khỏe thì không ai nhớ tới, còn khi yếu thì làm cả chiếc xe tê liệt: đề không nổ, còi rè, đèn mờ, chíp đồng hồ báo lỗi. Bài viết này giải thích ắc quy xe máy theo kiểu wiki — từ cấu tạo bên trong (bản cực, chất điện phân, các đơn vị pin nố"
+ },
+ {
+  "kind": "article",
+  "url": "guide/mua-xe/mua-xe-cu/",
+  "title": "Mua xe cũ — tổng hợp kiến thức cho người mua",
+  "description": "Tổng hợp kiến thức khi mua xe cũ: chọn nguồn mua, định giá, kiểm tra hiện trạng, thẩm định giấy tờ pháp lý, đặt cọc và thanh toán an toàn, sang tên đúng luật.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "giấy chứng nhận đăng ký xe",
+   "số khung số máy",
+   "đặt cọc mua xe",
+   "thẩm định giấy tờ"
+  ],
+  "keywords": [
+   "mua xe cũ",
+   "mua xe cu",
+   "kiểm tra xe cũ trước khi mua",
+   "giấy tờ mua xe cũ",
+   "sang tên xe cũ"
+  ],
+  "summary": "Mua xe cũ là cách tiết kiệm lớn nhất khi cần một chiếc xe, nhưng cũng là giao dịch dễ rủi ro nhất nếu không nắm đủ kiến thức: xe đẹp giá tốt vẫn có thể là xe không rõ nguồn gốc, đã từng đâm nặng, hoặc giấy tờ không thể sang tên. Bài viết tổng hợp kiến thức mua"
  },
  {
   "kind": "article",

@@ -4178,6 +4178,33 @@
   ]
  },
  {
+  "url": "guide/mua-xe/mua-xe-may-moi/",
+  "title": "Mua xe máy mới — hướng dẫn chi tiết từng bước",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Mua xe máy mới tưởng là giao dịch đơn giản nhất trong các giao dịch xe, nhưng phần lớn người mua kết thúc với phiên bản không đúng nhu cầu, giá lăn bánh vượt dự tính, hoặc thiếu giấy tờ gốc mà đến khi bán lại mới phát hiện. Bài viết chia quy trình mua xe máy mới thành bảy bước theo đúng trật tự nên làm: chốt nhu cầu và ngân sách trước khi xem xe, chọn dòng xe và phiên bản phù hợp, so sánh giá niêm yết với giá lăn bánh thực trả, chọn nơi mua, kiểm tra xe khi nhận, nhận đủ giấy tờ, và vận hành đúng giai đoạn chạy rà đầu tiên.",
+  "quickAnswer": "Hướng dẫn chi tiết từng bước mua xe máy mới: viết ra nhu cầu thực tế (chạy gần, chở người, đi xa) và tổng ngân sách gồm giá lăn bánh. Chọn phiên bản đúng nhu cầu thay vì mẫu đẹp nhất trong tầm tiền. Khi nhận xe, kiểm tra công tơ mét và số khung số máy khớp giấy chứng nhận chất lượng. Nhận đủ hóa đơn gốc và giấy chứng nhận kiểm tra chất lượng xuất xưởng. Một nghìn ki-lô-mét đầu chạy nhẹ máy, tránh tăng ga đột ngột và thay dầu đúng hẹn.",
+  "keyPoints": [
+   "Chốt nhu cầu thực tế và tổng ngân sách trước khi đi xem xe.",
+   "So giá thực trả bằng bảng chi phí: giá xe, lệ phí trước bạ, biển số, bảo hiểm.",
+   "Kiểm tra số khung, số máy, công tơ mét khớp giấy chứng nhận chất lượng.",
+   "Nhận hóa đơn giá trị gia tăng gốc và giấy chứng nhận kiểm tra chất lượng xuất xưởng."
+  ],
+  "entities": [
+   "giá lăn bánh",
+   "phiên bản xe",
+   "giấy chứng nhận kiểm tra chất lượng",
+   "giai đoạn chạy rà"
+  ],
+  "keywords": [
+   "mua xe máy mới",
+   "mua xe may moi",
+   "giá lăn bánh xe máy",
+   "chọn xe máy theo nhu cầu",
+   "chạy rà xe máy mới"
+  ]
+ },
+ {
   "url": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/",
   "title": "Ắc quy xe máy: cấu tạo và cách bảo quản",
   "category": "Bách khoa xe",
@@ -4206,6 +4233,33 @@
    "sạc ắc quy xe máy",
    "bảo quản ắc quy xe",
    "thay ắc quy xe máy"
+  ]
+ },
+ {
+  "url": "guide/mua-xe/mua-xe-cu/",
+  "title": "Mua xe cũ — tổng hợp kiến thức cho người mua",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Mua xe cũ là cách tiết kiệm lớn nhất khi cần một chiếc xe, nhưng cũng là giao dịch dễ rủi ro nhất nếu không nắm đủ kiến thức: xe đẹp giá tốt vẫn có thể là xe không rõ nguồn gốc, đã từng đâm nặng, hoặc giấy tờ không thể sang tên. Bài viết tổng hợp kiến thức mua xe cũ theo đúng trật tự của một giao dịch an toàn: chọn nguồn mua, định giá dựa trên đời xe và hiện trạng, kiểm tra hiện trạng kỹ thuật, thẩm định giấy tờ pháp lý, và tổ chức đặt cọc — thanh toán — sang tên sao cho tiền và xe đổi chủ cùng một lúc, không lọt vào kẽ hở nào.",
+  "quickAnswer": "Khi mua xe cũ, làm đủ sáu việc theo thứ tự: xác định nguồn mua đáng tin, tra giá thị trường của đúng đời xe, kiểm tra hiện trạng tại chỗ, thẩm định giấy tờ và đối chiếu số khung số máy, đặt cọc kèm giấy ghi rõ điều kiện, và thanh toán cùng lúc nhận đủ giấy tờ gốc để sang tên. Không chuyển tiền trước khi giấy tờ gốc nằm trên tay — và không nhận xe không kèm giấy chứng nhận đăng ký gốc.",
+  "keyPoints": [
+   "Chọn nguồn mua: người quen, cửa hàng có địa chỉ rõ, hoặc nền tảng có đánh giá.",
+   "Định giá dựa trên đời xe, số ki-lô-mét, hiện trạng, và giá chào bán cùng đời trên thị trường.",
+   "Kiểm tra hiện trạng: khung xe, động cơ, điện, và dấu vết từng đâm sửa.",
+   "Thẩm định giấy tờ: đăng ký gốc, chủ tên thật, số khung số máy khớp."
+  ],
+  "entities": [
+   "giấy chứng nhận đăng ký xe",
+   "số khung số máy",
+   "đặt cọc mua xe",
+   "thẩm định giấy tờ"
+  ],
+  "keywords": [
+   "mua xe cũ",
+   "mua xe cu",
+   "kiểm tra xe cũ trước khi mua",
+   "giấy tờ mua xe cũ",
+   "sang tên xe cũ"
   ]
  },
  {

@@ -3228,11 +3228,13 @@
    "title": "Hướng dẫn chi tiết về mua xe máy mới",
    "primaryIntent": "informational/mua-xe-may-moi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:24:42.711Z",
+   "seoScore": 100,
+   "words": 2488
   },
   {
    "id": "S00220",
@@ -3241,11 +3243,13 @@
    "title": "Tổng hợp kiến thức: mua xe cũ",
    "primaryIntent": "informational/mua-xe-cu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:24:42.711Z",
+   "seoScore": 100,
+   "words": 2120
   },
   {
    "id": "S00221",
