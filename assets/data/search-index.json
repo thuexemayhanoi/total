@@ -4884,6 +4884,50 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-may/thue-xe-may/",
+  "title": "Kinh nghiệm thuê xe máy dành cho người mới",
+  "description": "Kinh nghiệm thuê xe máy lần đầu dành cho người mới: chuẩn bị giấy tờ, kiểm tra xe, đọc hợp đồng, đặt cọc, vận hành an toàn và nghiệm thu khi trả xe đúng hẹn.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thuê xe máy",
+   "hợp đồng thuê xe",
+   "đặt cọc",
+   "nghiệm thu xe"
+  ],
+  "keywords": [
+   "kinh nghiệm thuê xe máy",
+   "thuê xe máy cho người mới",
+   "kiểm tra xe trước khi thuê",
+   "hợp đồng thuê xe máy",
+   "nghiệm thu xe thuê"
+  ],
+  "summary": "Bài viết tổng hợp kinh nghiệm thuê xe máy dành cho người mới bắt đầu: từ chuẩn bị giấy tờ, kiểm tra hiện trạng xe, đọc kỹ hợp đồng và đặt cốc, cho đến cách vận hành an toàn trong suốt thời gian thuê và nghiệm thu khi hoàn trả."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/thue-xe-may-ha-noi/",
+  "title": "Thuê xe máy Hà Nội — những điều cần biết",
+  "description": "Những điều cần biết khi thuê xe máy ở Hà Nội: chọn xe hợp phố đông, thủ tục thuê, lưu ý di chuyển nội đô và cách chọn nơi cho thuê đáng tin cậy.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thuê xe máy",
+   "Hà Nội",
+   "nội đô",
+   "đường một chiều"
+  ],
+  "keywords": [
+   "thuê xe máy hà nội",
+   "thuê xe máy nội đô",
+   "di chuyển bằng xe máy hà nội",
+   "xe máy ngoại thành",
+   "lưu ý thuê xe hà nội"
+  ],
+  "summary": "Tổng hợp những điều cần biết khi thuê xe máy tại Hà Nội: vì sao xe máy phù hợp với đặc thù phố phường thủ đô, cách chọn loại xe theo nhu cầu, thủ tục thuê, kinh nghiệm di chuyển trong nội đô và lưu ý khi chạy xe ngoại thành."
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/",
   "title": "Kỹ thuật phanh khẩn cấp trên xe máy",
   "description": "Kỹ thuật phanh khẩn cấp trên xe máy: phối hợp phanh trước và sau, chống bó cứng, phanh khi đường ướt, có ABS và không ABS — từng bước đúng.",

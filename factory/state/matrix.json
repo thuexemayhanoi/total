@@ -2958,11 +2958,13 @@
    "title": "Kinh nghiệm thuê xe máy dành cho người mới",
    "primaryIntent": "informational/thue-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.039Z",
-   "updatedAt": "2026-10-03T23:13:26.039Z"
+   "updatedAt": "2026-10-04T05:27:02.665Z",
+   "seoScore": 100,
+   "words": 2096
   },
   {
    "id": "S00202",
@@ -2971,11 +2973,13 @@
    "title": "Thuê xe máy hà nội — những điều cần biết",
    "primaryIntent": "informational/thue-xe-may-ha-noi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.039Z",
-   "updatedAt": "2026-10-03T23:13:26.039Z"
+   "updatedAt": "2026-10-04T05:27:02.665Z",
+   "seoScore": 100,
+   "words": 2006
   },
   {
    "id": "S00203",

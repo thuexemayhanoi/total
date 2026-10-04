@@ -3661,6 +3661,60 @@
   ]
  },
  {
+  "url": "thue-xe/xe-may/thue-xe-may/",
+  "title": "Kinh nghiệm thuê xe máy dành cho người mới",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "summary": "Bài viết tổng hợp kinh nghiệm thuê xe máy dành cho người mới bắt đầu: từ chuẩn bị giấy tờ, kiểm tra hiện trạng xe, đọc kỹ hợp đồng và đặt cốc, cho đến cách vận hành an toàn trong suốt thời gian thuê và nghiệm thu khi hoàn trả.",
+  "quickAnswer": "Người mới thuê xe máy nên chuẩn bị đầy đủ giấy tờ tùy thân, kiểm tra kỹ hiện trạng xe và chụp ảnh lưu vết, đọc kỹ hợp đồng trước khi đặt cọc, vận hành xe an toàn theo đúng khuyến nghị của hãng và trả xe đúng hẹn kèm biên bản nghiệm thu.",
+  "keyPoints": [
+   "Chuẩn bị giấy tờ tùy thân còn hiệu lực và tìm hiểu trước quy định của nơi cho thuê.",
+   "Kiểm tra hiện trạng xe kỹ lưỡng, chụp ảnh mọi vết xước trước khi nhận xe.",
+   "Đọc kỹ hợp đồng, đặc biệt các điều khoản về tiền cọc, thời hạn và bồi thường.",
+   "Vận hành xe an toàn, đổ đúng loại nhiên liệu và trả xe đúng hẹn kèm biên bản."
+  ],
+  "entities": [
+   "thuê xe máy",
+   "hợp đồng thuê xe",
+   "đặt cọc",
+   "nghiệm thu xe"
+  ],
+  "keywords": [
+   "kinh nghiệm thuê xe máy",
+   "thuê xe máy cho người mới",
+   "kiểm tra xe trước khi thuê",
+   "hợp đồng thuê xe máy",
+   "nghiệm thu xe thuê"
+  ]
+ },
+ {
+  "url": "thue-xe/xe-may/thue-xe-may-ha-noi/",
+  "title": "Thuê xe máy Hà Nội — những điều cần biết",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "summary": "Tổng hợp những điều cần biết khi thuê xe máy tại Hà Nội: vì sao xe máy phù hợp với đặc thù phố phường thủ đô, cách chọn loại xe theo nhu cầu, thủ tục thuê, kinh nghiệm di chuyển trong nội đô và lưu ý khi chạy xe ngoại thành.",
+  "quickAnswer": "Khi thuê xe máy ở Hà Nội, bạn nên chọn loại xe phù hợp lộ trình, chuẩn bị giấy tờ tùy thân, kiểm tra kỹ hiện trạng xe trước khi nhận, tuân thủ quy tắc di chuyển trong phố đông và lên kế hoạch thô cho các tuyến ngoại thành trước khi xuất phát.",
+  "keyPoints": [
+   "Xe máy phù hợp với đặc thù đường phố Hà Nội: ngắn, đông và nhiều tuyến một chiều.",
+   "Chọn loại xe theo lộ trình: xe số nhỏ gọn cho phố, xe phân khối lớn hơn cho đường trường.",
+   "Thủ tục thuê cần giấy tờ tùy thân, biên bản giao nhận và hợp đồng rõ ràng.",
+   "Nội đô cần chủ động quan sát; ngoại thành cần kiểm tra xe và nghỉ định kỳ."
+  ],
+  "entities": [
+   "thuê xe máy",
+   "Hà Nội",
+   "nội đô",
+   "đường một chiều"
+  ],
+  "keywords": [
+   "thuê xe máy hà nội",
+   "thuê xe máy nội đô",
+   "di chuyển bằng xe máy hà nội",
+   "xe máy ngoại thành",
+   "lưu ý thuê xe hà nội"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/",
   "title": "Kỹ thuật phanh khẩn cấp trên xe máy",
   "category": "Kiến thức chuyên sâu",
