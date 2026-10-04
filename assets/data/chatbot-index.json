@@ -4617,6 +4617,60 @@
   ]
  },
  {
+  "url": "guide/bao-duong/bao-duong-dinh-ky/",
+  "title": "Kinh nghiệm bảo dưỡng định kỳ dành cho người mới",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "summary": "Chiếc xe máy mới về tay lần đầu thường đi kèm một câu hỏi mà sách hướng dẫn không trả lời trọn: nên làm gì, ở đâu, và tốn bao nhiêu. Kinh nghiệm bảo dưỡng định kỳ dành cho người mới trong bài này không phải bảng số ki-lô-mét nghiêm ngặt, mà là cách tư duy: định kỳ nghĩa là gì và ai quyết định chu kỳ, các hạng mục phổ biến được làm gì và vì sao, chi phí chung của từng đợt, cách chọn tiệm đáng tin, và quan trọng nhất — nhận ra dịch vụ được \"chào thêm\" mà xe không cần. Người mới hiểu đúng năm điều này sẽ không bị hớ, và chiếc xe được chăm đúng nhịp thay vì chăm theo tiếng thợ.",
+  "quickAnswer": "Bảo dưỡng định kỳ cho người mới: làm nhớt và lọc đúng kỳ nhà sản xuất khuyến nghị, ghi số ki-lô-mét và giữ hóa đơn mỗi lần tiệm, hỏi giá từng hạng mục trước khi đồng ý làm. Ba hạng mục nền tảng là nhớt đúng kỳ, lọc gió sạch và một đợt kiểm tra tổng thể mỗi năm; chi phí vừa phải nếu không nhận dịch vụ thừa. Chọn tiệm theo độ tin cậy tích lũy qua vài lần nhỏ, không theo khuyến mãi.",
+  "keyPoints": [
+   "Định kỳ do nhà sản xuất khuyến nghị và điều kiện chạy xe của bạn quyết định — không phải tiệm.",
+   "Ba hạng mục nền tảng: nhớt đúng kỳ, lọc gió sạch, và một đợt kiểm tra tổng thể mỗi năm.",
+   "Ghi số ki-lô-mét và giữ hóa đơn mỗi lần làm — đây là sổ tay đáng tin nhất của người mới.",
+   "Hỏi giá từng việc trước khi đồng ý; dịch vụ \"chào thêm\" nên tra trong sách xe trước khi nhận."
+  ],
+  "entities": [
+   "nhà sản xuất",
+   "lọc gió",
+   "dầu nhớt",
+   "hóa đơn bảo dưỡng"
+  ],
+  "keywords": [
+   "bảo dưỡng định kỳ",
+   "bao duong dinh ky",
+   "kinh nghiệm bảo dưỡng xe máy",
+   "chi phí bảo dưỡng",
+   "kỳ bảo dưỡng"
+  ]
+ },
+ {
+  "url": "guide/bao-duong/thay-dau-nhot/",
+  "title": "Thay dầu nhớt — những điều cần biết",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "summary": "Thay dầu nhớt là việc bảo dưỡng thường xuyên nhất của xe máy — và cũng là việc dễ làm sai nhất: sai kỳ, sai loại, sai lượng, hoặc kèm theo những dịch vụ không cần thiết. Bài này gom những điều cần biết quanh việc thay nhớt: vì sao nhớt trong máy chai đi theo thời gian dù xe có chạy hay không, cách đọc kỳ thay của nhà sản xuất và tự chỉnh theo điều kiện chạy của mình, ba loại nhớt phổ biến và khác biệt thật sự giữa chúng, số lít vừa đủ cho xe tay ga và xe số, việc đi kèm nên làm đúng buổi (lọc nhớt, gioăng, kiểm bugi), cùng các dấu hiệu nhớt đã hỏng và những đề nghị \"nâng cấp\" đáng hoài nghi. Làm đúng một việc nhỏ lặp lại mỗi quý này là cách rẻ nhất kéo tuổi thọ động cơ.",
+  "quickAnswer": "Thay dầu nhớt đúng cách: theo kỳ nhà sản xuất (thường 2.000–3.000 km hoặc 6 tháng, điều kiện nào tới trước), chọn loại nhớt đúng khuyến nghị của xe, đổ đủ lượng ghi trong sách — không hơn không kém, và thay kèm lọc nhớt cùng gioăng đúng buổi. Xe chạy bụi, chở nặng, hoặc chạy từng đoạn ngắn thì rút ngắn kỳ. Nhớt sẫm màu sau vài trăm ki-lô-mét là bình thường; đáng lo là nhớt vẩn đục sữa hoặc bạc màu — nên thay sớm và kiểm tra.",
+  "keyPoints": [
+   "Kỳ thay: theo khuyến nghị hãng, rút ngắn nếu chạy bụi, chở nặng hoặc đoạn ngắn.",
+   "Loại nhớt: theo đúng mã khuyến nghị — nâng bậc tổng hợp chỉ khi điều kiện chạy xứng đáng.",
+   "Số lượng: đúng vạch hoặc đúng lít trong sách; đổ thừa hại không kém đổ thiếu.",
+   "Thay kèm: lọc nhớt và gioăng cùng buổi; bugi và lọc gió theo kỳ riêng."
+  ],
+  "entities": [
+   "dầu nhớt",
+   "lọc nhớt",
+   "bugi",
+   "vạch dầu"
+  ],
+  "keywords": [
+   "thay dầu nhớt",
+   "thay dau nhot",
+   "kỳ thay nhớt",
+   "loại nhớt xe máy",
+   "chọn dầu nhớt"
+  ]
+ },
+ {
   "url": "news/cong-nghe-xe/abs-tren-xe-may-la-gi/",
   "title": "ABS trên xe máy: hoạt động ra sao và khi nào cần",
   "category": "Tin tức",
