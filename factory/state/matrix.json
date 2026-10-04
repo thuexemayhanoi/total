@@ -3048,11 +3048,13 @@
    "title": "Hướng dẫn chi tiết về thuê xe điện",
    "primaryIntent": "informational/thue-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.039Z",
-   "updatedAt": "2026-10-03T23:13:26.039Z"
+   "updatedAt": "2026-10-04T07:01:26.900Z",
+   "seoScore": 100,
+   "words": 2056
   },
   {
    "id": "S00208",
@@ -3061,11 +3063,13 @@
    "title": "Tổng hợp kiến thức: pin xe điện",
    "primaryIntent": "informational/pin-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T07:01:26.900Z",
+   "seoScore": 100,
+   "words": 2013
   },
   {
    "id": "S00209",

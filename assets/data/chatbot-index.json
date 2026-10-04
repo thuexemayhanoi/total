@@ -3823,6 +3823,60 @@
   ]
  },
  {
+  "url": "thue-xe/xe-dien/thue-xe-dien/",
+  "title": "Thuê xe điện — hướng dẫn chi tiết từng bước",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "summary": "Thuê xe điện ngày càng phổ biến nhờ vận hành êm, chi phí năng lượng thấp và phù hợp lộ trình đô thị. Bài viết là hướng dẫn chi tiết theo từng bước của một giao dịch thuê xe điện: quyết định xe điện có phù hợp nhu cầu, cách tìm và chọn nơi thuê, hiểu cấu trúc chi phí đặc thù của xe điện, quy trình nhận xe, sử dụng trong suốt kỳ thuê và trả xe không tranh chấp.",
+  "quickAnswer": "Thuê xe điện hợp lý khi lộ trình của bạn ngắn, trong đô thị và có điểm sạc thuận tiện. Các bước gồm: xác định nhu cầu đi, chọn nơi thuê có xe và pin tốt, hỏi rõ cách tính chi phí sạc, kiểm tra pin và phanh khi nhận, sạc đúng cách trong kỳ thuê, và trả xe theo đúng mức pin thỏa thuận ban đầu.",
+  "keyPoints": [
+   "Xe điện hợp lộ trình đô thị ngắn, êm và chi phí năng lượng thấp.",
+   "Hỏi trước cách tính chi phí sạc: gói đã bao, hoàn theo hóa đơn hay tính chéo.",
+   "Kiểm tra pin khi nhận: dung lượng hiển thị, độ chai pin, phạm vi thực tế.",
+   "Sạc đúng cách: tránh cạn kiệt sâu, tránh sạc ngay khi pin đang nóng."
+  ],
+  "entities": [
+   "xe điện",
+   "pin xe điện",
+   "trạm sạc",
+   "hợp đồng thuê xe"
+  ],
+  "keywords": [
+   "thuê xe điện",
+   "thue xe dien",
+   "mướn xe điện",
+   "kinh nghiệm thuê xe điện",
+   "chi phí thuê xe điện"
+  ]
+ },
+ {
+  "url": "thue-xe/xe-dien/pin-xe-dien/",
+  "title": "Pin xe điện — tổng hợp kiến thức cho người thuê xe",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "summary": "Pin là bộ phận quyết định trải nghiệm thuê xe điện: quãng đường chạy được, thời gian chờ sạc và cả khoản cọc của bạn. Bài viết tổng hợp kiến thức pin dưới góc nhìn người thuê — không đòi hỏi nền tảng kỹ thuật: các loại pin phổ biến, cách đọc dung lượng và ước lượng quãng đường thực tế, dấu hiệu pin đã chai, nguyên tắc sạc giữ pin bền, cách xử lý khi pin cạn giữa đường và những điều cần ghi vào hợp đồng.",
+  "quickAnswer": "Với người thuê xe điện, ba điều quan trọng nhất về pin là: ước lượng quãng đường thực tế thấp hơn công bố, hỏi tuổi pin và quan sát hiển thị phạm vi khi nhận xe, và sạc đúng cách — không cạn kiệt sâu, không sạc khi pin còn nóng. Ghi mức pin lúc nhận vào biên bản để trả xe không tranh chấp.",
+  "keyPoints": [
+   "Hai loại pin phổ biến: chì giá rẻ nặng hơn, lithium nhẹ và bền hơn.",
+   "Quãng đường thực tế luôn thấp hơn công bố — trừ hao theo tải trọng, dốc, thời tiết.",
+   "Dấu hiệu pin chai: sạc đầy nhanh bất thường nhưng phạm vi ngắn dần.",
+   "Nguyên tắc sạc bền: tránh cạn kiệt sâu, tránh sạc khi pin nóng, dùng bộ sạc đúng hãng."
+  ],
+  "entities": [
+   "pin xe điện",
+   "dung lượng pin",
+   "trạm sạc",
+   "pin lithium"
+  ],
+  "keywords": [
+   "pin xe điện",
+   "kiến thức pin xe điện",
+   "pin xe điện thuê",
+   "sạc pin xe điện",
+   "pin chai xe điện"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/",
   "title": "Kỹ thuật phanh khẩn cấp trên xe máy",
   "category": "Kiến thức chuyên sâu",

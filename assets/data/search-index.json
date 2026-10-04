@@ -5016,6 +5016,50 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-dien/thue-xe-dien/",
+  "title": "Thuê xe điện — hướng dẫn chi tiết từng bước",
+  "description": "Hướng dẫn chi tiết thuê xe điện từng bước: quyết định chọn xe điện, tìm nơi thuê, kiểm soát chi phí sạc, nhận xe, sử dụng và trả xe đúng hợp đồng.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [
+   "xe điện",
+   "pin xe điện",
+   "trạm sạc",
+   "hợp đồng thuê xe"
+  ],
+  "keywords": [
+   "thuê xe điện",
+   "thue xe dien",
+   "mướn xe điện",
+   "kinh nghiệm thuê xe điện",
+   "chi phí thuê xe điện"
+  ],
+  "summary": "Thuê xe điện ngày càng phổ biến nhờ vận hành êm, chi phí năng lượng thấp và phù hợp lộ trình đô thị. Bài viết là hướng dẫn chi tiết theo từng bước của một giao dịch thuê xe điện: quyết định xe điện có phù hợp nhu cầu, cách tìm và chọn nơi thuê, hiểu cấu trúc c"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-dien/pin-xe-dien/",
+  "title": "Pin xe điện — tổng hợp kiến thức cho người thuê xe",
+  "description": "Kiến thức pin xe điện cho người thuê: các loại pin, đọc dung lượng, ước quãng đường, nhận biết pin chai, sạc đúng cách và xử lý khi hết pin giữa đường.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [
+   "pin xe điện",
+   "dung lượng pin",
+   "trạm sạc",
+   "pin lithium"
+  ],
+  "keywords": [
+   "pin xe điện",
+   "kiến thức pin xe điện",
+   "pin xe điện thuê",
+   "sạc pin xe điện",
+   "pin chai xe điện"
+  ],
+  "summary": "Pin là bộ phận quyết định trải nghiệm thuê xe điện: quãng đường chạy được, thời gian chờ sạc và cả khoản cọc của bạn. Bài viết tổng hợp kiến thức pin dưới góc nhìn người thuê — không đòi hỏi nền tảng kỹ thuật: các loại pin phổ biến, cách đọc dung lượng và ước "
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/",
   "title": "Kỹ thuật phanh khẩn cấp trên xe máy",
   "description": "Kỹ thuật phanh khẩn cấp trên xe máy: phối hợp phanh trước và sau, chống bó cứng, phanh khi đường ướt, có ABS và không ABS — từng bước đúng.",
