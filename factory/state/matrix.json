@@ -3648,11 +3648,13 @@
    "title": "Hướng dẫn chi tiết về nộp phí trước bạ",
    "primaryIntent": "informational/nop-phi-truoc-ba",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T13:11:05.253Z",
+   "seoScore": 100,
+   "words": 2016
   },
   {
    "id": "S00248",
@@ -3661,11 +3663,13 @@
    "title": "Tổng hợp kiến thức: hãng xe máy việt nam",
    "primaryIntent": "informational/hang-xe-may-viet-nam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T13:11:05.253Z",
+   "seoScore": 100,
+   "words": 1894
   },
   {
    "id": "S00249",
