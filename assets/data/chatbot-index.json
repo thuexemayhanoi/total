@@ -4479,6 +4479,33 @@
   ]
  },
  {
+  "url": "guide/su-dung-xe/chay-ra-may/",
+  "title": "Chạy rà máy — kinh nghiệm cho người mới",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "summary": "Chạy rà máy không chỉ là chuyện của xe mới — chiếc xe vừa thay piston, xi-lanh, hoặc đại tu động cơ cũng cần một kỳ chạy rà nghiêm túc không kém, và người mới hay bỏ qua đúng phần này. Bài viết gói kinh nghiệm chạy rà máy cho người chưa từng qua kỳ rà nào: kỷ luật dùng xe trong giai đoạn rà, cách ghi nhật ký theo mốc ki-lô-mét, các dấu hiệu cho thấy rà không đạt cần quay lại xưởng, khác biệt giữa chạy rà xe mới và chạy rà sau sửa chữa lớn, cùng thói quen nghe-ngóng máy mỗi ngày. Kỳ rà làm đúng giúp các bề mặt kim loại khít vào nhau êm — làm sai thì mọi chi phí sửa vừa bỏ ra mất đi từ từ theo từng ki-lô-mét.",
+  "quickAnswer": "Chạy rà máy sau xe mới hoặc sửa chữa lớn: giữ vòng tua dưới ba phần tư mức tối đa trong một nghìn ki-lô-mét đầu, tăng giảm ga nhẹ nhàng, không chở nặng kéo dài, và thay dầu đúng mốc đầu. Ghi nhật ký theo mốc: mỗi hai trăm ki-lô-mét một dòng về tiếng máy, độ nóng, và mùi lạ. Dấu hiệu rà không đạt gồm máy đuối sau khi đủ mốc, khói lạ, hoặc tiếng gõ nhẹ — quay lại xưởng sớm khi thấy.",
+  "keyPoints": [
+   "Sau sửa chữa lớn, kỳ rà một nghìn ki-lô-mét đầu quan trọng không kém xe mới.",
+   "Giữ vòng tua dưới ba phần tư tối đa, tăng giảm ga nhẹ, không chở nặng kéo dài.",
+   "Ghi nhật ký theo mốc ki-lô-mét: tiếng máy, độ nóng, mùi, mọi điều bất thường.",
+   "Thay dầu đúng mốc đầu — dầu đầu chứa mạt kim loại của giai đoạn rà."
+  ],
+  "entities": [
+   "chạy rà máy",
+   "đại tu động cơ",
+   "nhật ký chạy rà",
+   "thay dầu mốc đầu"
+  ],
+  "keywords": [
+   "chạy rà máy",
+   "chay ra may",
+   "chạy rà sau đại tu",
+   "chạy rà động cơ",
+   "kỳ chạy rà"
+  ]
+ },
+ {
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "category": "Hướng dẫn",
@@ -4506,6 +4533,33 @@
    "chạy rà xe số",
    "thay nhớt lần đầu",
    "xe máy mới nên chạy thế nào"
+  ]
+ },
+ {
+  "url": "guide/su-dung-xe/de-xe-noi-nao/",
+  "title": "Để xe nơi nào — những điều cần biết",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "summary": "Nơi để xe là quyết định nhỏ về mặt chi phí nhưng lớn về mặt hậu quả: chiếc xe dành cả đời ở ngoài đường chỉ vài giờ, còn chỗ để lại tiếp nhận nó hàng chục giờ mỗi ngày — và phần hao mòn, rủi ro trộm cắp, va quật của xe phần lớn diễn ra đúng ở nơi bạn để nó. Bài viết tổng hợp những điều cần biết khi chọn nơi để xe: so sánh các loại hình bãi gửi từ vỉa hè tới tầng hầm và bãi chung cư, cách chọn vị trí trong bãi giảm rủi ro trộm cắp và va quật, ảnh hưởng của nắng mưa tới xe và cách che chắn, cùng các quy tắc nhỏ khi để xe qua đêm hoặc dài ngày. Chọn đúng chỗ để là kỹ năng rẻ nhất giữ xe bền.</p>",
+  "quickAnswer": "Khi chọn chỗ để xe: ưu tiên nơi có người trông, có mái che, và lối ra vào rộng; trong bãi chọn vị trí gần trụ quan sát, không chắn lối, và không sát xe khác. Tránh để qua đêm ở vỉa hè vắng, tránh cạnh miệng cống và gờ mềm làm chống lún, và gập gương khi để bãi chật. Với để xe dài ngày: đầy lốp, kín cốp, che nắng, và nhờ người quen khởi động định kỳ nếu có thể.",
+  "keyPoints": [
+   "Ưu tiên nơi có người trông, có mái che, và lối ra vào rộng không chắn lối.",
+   "Trong bãi: gần trụ quan sát, không sát xe khác, không che lối lùi của ô tô.",
+   "Chống xe đặt trên nền phẳng cứng — tránh miệng cống, gờ vỉa hè mềm.",
+   "Gập gương khi để bãi chật — gương là chi tiết hay vỡ nhất."
+  ],
+  "entities": [
+   "bãi gửi xe",
+   "chống xe",
+   "tầng hầm",
+   "trộm cắp xe"
+  ],
+  "keywords": [
+   "để xe nơi nào",
+   "de xe noi nao",
+   "bãi gửi xe máy",
+   "chỗ để xe an toàn",
+   "để xe qua đêm"
   ]
  },
  {

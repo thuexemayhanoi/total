@@ -5552,6 +5552,28 @@
  },
  {
   "kind": "article",
+  "url": "guide/su-dung-xe/chay-ra-may/",
+  "title": "Chạy rà máy — kinh nghiệm cho người mới",
+  "description": "Kinh nghiệm chạy rà máy cho người mới: kỷ luật sau khi nhận xe mới hoặc xe vừa sửa chữa lớn, nhật ký theo dõi, các dấu hiệu rà không đạt và mốc bảo dưỡng đầu.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "chạy rà máy",
+   "đại tu động cơ",
+   "nhật ký chạy rà",
+   "thay dầu mốc đầu"
+  ],
+  "keywords": [
+   "chạy rà máy",
+   "chay ra may",
+   "chạy rà sau đại tu",
+   "chạy rà động cơ",
+   "kỳ chạy rà"
+  ],
+  "summary": "Chạy rà máy không chỉ là chuyện của xe mới — chiếc xe vừa thay piston, xi-lanh, hoặc đại tu động cơ cũng cần một kỳ chạy rà nghiêm túc không kém, và người mới hay bỏ qua đúng phần này. Bài viết gói kinh nghiệm chạy rà máy cho người chưa từng qua kỳ rà nào: kỷ "
+ },
+ {
+  "kind": "article",
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "description": "Chạy rà xe máy đúng cách: vì sao phải chạy rà, chạy bao nhiêu km, vòng tua và tải trọng thế nào, thay nhớt lần đầu khi nào để máy bền lâu.",
@@ -5574,6 +5596,28 @@
    "xe máy mới nên chạy thế nào"
   ],
   "summary": "Chạy rà là khoảng nghìn cây số đầu đời của chiếc xe mới — giai đoạn mà các chi tiết máy còn thô, mòn vào nhau dần để tạo ra các bề mặt tiếp xúc chuẩn. Nhiều người coi chuyện chạy rà là mê tín của đời xe cũ, nhiều người khác coi nhẹ đến mức nhận xe là vọt ga th"
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/de-xe-noi-nao/",
+  "title": "Để xe nơi nào — những điều cần biết",
+  "description": "Những điều cần biết khi chọn nơi để xe: bãi gửi, vỉa hè, tầng hầm và chung cư, cách chọn vị trí an toàn trộm cắp, tránh nắng mưa và giữ xe bền quanh năm.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "bãi gửi xe",
+   "chống xe",
+   "tầng hầm",
+   "trộm cắp xe"
+  ],
+  "keywords": [
+   "để xe nơi nào",
+   "de xe noi nao",
+   "bãi gửi xe máy",
+   "chỗ để xe an toàn",
+   "để xe qua đêm"
+  ],
+  "summary": "Nơi để xe là quyết định nhỏ về mặt chi phí nhưng lớn về mặt hậu quả: chiếc xe dành cả đời ở ngoài đường chỉ vài giờ, còn chỗ để lại tiếp nhận nó hàng chục giờ mỗi ngày — và phần hao mòn, rủi ro trộm cắp, va quật của xe phần lớn diễn ra đúng ở nơi bạn để nó. Bà"
  },
  {
   "kind": "article",

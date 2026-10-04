@@ -3378,11 +3378,13 @@
    "title": "Kinh nghiệm chạy rà máy dành cho người mới",
    "primaryIntent": "informational/chay-ra-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T08:50:41.136Z",
+   "seoScore": 100,
+   "words": 2096
   },
   {
    "id": "S00230",
@@ -3391,11 +3393,13 @@
    "title": "Để xe nơi nào — những điều cần biết",
    "primaryIntent": "informational/de-xe-noi-nao",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T08:50:41.136Z",
+   "seoScore": 100,
+   "words": 1950
   },
   {
    "id": "S00231",
