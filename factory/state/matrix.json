@@ -3468,11 +3468,13 @@
    "title": "Hướng dẫn chi tiết về lịch bảo dưỡng xe máy",
    "primaryIntent": "informational/lich-bao-duong-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T09:46:09.138Z",
+   "seoScore": 100,
+   "words": 1786
   },
   {
    "id": "S00236",
@@ -3481,11 +3483,13 @@
    "title": "Tổng hợp kiến thức: vệ sinh lọc gió",
    "primaryIntent": "informational/ve-sinh-loc-gio",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T09:46:09.138Z",
+   "seoScore": 100,
+   "words": 1852
   },
   {
    "id": "S00237",
