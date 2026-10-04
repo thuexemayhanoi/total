@@ -4124,6 +4124,60 @@
   ]
  },
  {
+  "url": "thue-xe/xe-oto/nghiem-thu-xe/",
+  "title": "Nghiệm thu xe khi thuê — kinh nghiệm cho người mới",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "summary": "Nghiệm thu xe là mười lăm phút đầu tiên quyết định toàn bộ khoản cọc bạn sẽ nhận lại cuối kỳ thuê, nhưng người mới thường làm vội vì ngại hoặc không biết bắt đầu từ đâu. Bài viết gói kinh nghiệm nghiệm thu xe cho người chưa từng thuê ô tô thành quy trình bốn vòng: nhìn quanh xe theo chiều kim đồng hồ, kiểm tra khoang nội thất, khởi động và thử các chức năng khi chạy thử, và ghi lại tất cả vào biên bản giao nhận. Mỗi vòng kèm danh sách điểm cần chạm tay, chụp ảnh, và những dấu hiệu cho thấy nên yêu cầu đổi xe ngay tại điểm giao.",
+  "quickAnswer": "Nghiệm thu xe theo bốn vòng: vòng quanh xe tìm vết xước và mâm lốp, vòng trong xe kiểm tra ghế, dây an toàn và điều hòa, vòng khởi động nghe tiếng máy và thử phanh khi chạy thử, vòng cuối ghi hết vào biên bản giao nhận kèm ảnh. Mọi vết đã có sẵn phải nằm trong biên bản trước khi rời đi — thứ gì không được ghi sẽ coi như xuất hiện trong kỳ thuê của bạn.",
+  "keyPoints": [
+   "Nghiệm thu theo vòng: quanh xe, trong xe, khởi động chạy thử, rồi ghi biên bản.",
+   "Chụp ảnh toàn thân xe từ bốn góc trước khi chạm vào bất cứ thứ gì.",
+   "Vết xước, móp, lốp mòn sẵn có: ghi rõ vị trí và mô tả vào biên bản.",
+   "Chạy thử vài trăm mét để thử phanh, tay lái, và các đèn tín hiệu."
+  ],
+  "entities": [
+   "nghiệm thu xe",
+   "biên bản giao nhận",
+   "vết xước hiện hữu",
+   "đèn cảnh báo"
+  ],
+  "keywords": [
+   "nghiem thu xe",
+   "nghiệm thu xe khi thuê",
+   "kiểm tra xe trước khi nhận",
+   "biên bản giao nhận xe",
+   "nhận xe thuê lần đầu"
+  ]
+ },
+ {
+  "url": "thue-xe/xe-oto/thue-o-to-duong-dai/",
+  "title": "Thuê ô tô đường dài — những điều cần biết",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "summary": "Thuê ô tô cho hành trình đường dài khác thuê xe đi lại quanh thành phố ở một điểm căn bản: chiếc xe và hợp đồng phải chịu được nhiều giờ liên tục và nhiều trăm ki-lô-mét, nên mọi lựa chọn đều cần tính theo chặng chứ không theo ngày. Bài viết đi qua các điều người thuê cần nắm trước khi nhận xe: chọn dòng xe phù hợp chặng, đọc kỹ điều khoản quãng đường và phạm vi di chuyển, lên kế hoạch nghỉ và tiếp nhiên liệu giữa chặng, giữ an toàn khi chạy cao tốc nhiều giờ, và cách trả xe cuối hành trình mà không vướng phụ thu ngoài dự kiến.",
+  "quickAnswer": "Trước khi thuê ô tô đi đường dài, chốt trong hợp đồng mức quãng đường cho phép và phụ thu vượt, phạm vi tỉnh thành được phép đi, và trách nhiệm khi xe hỏng giữa chặng. Chọn xe chỗ ngồi rộng và đã bảo dưỡng gần đây. Trên đường, nghỉ định kỳ mỗi hai giờ, tiếp nhiên liệu khi còn lại khoảng một phần tư bình, và tránh chạy khung giờ buồn ngủ. Khi trả, đối chiếu công tơ mét và nhiên liệu theo biên bản giao nhận ban đầu.",
+  "keyPoints": [
+   "Hợp đồng đường dài phải ghi rõ mức km cho phép và đơn giá phụ thu vượt.",
+   "Xác nhận phạm vi tỉnh thành được phép đi trước khi lên kế hoạch.",
+   "Hỏi thời điểm bảo dưỡng gần nhất của xe nếu kỳ thuê vượt ba nghìn ki-lô-mét.",
+   "Nghỉ mỗi hai giờ hoặc hai trăm ki-lô-mét — đi cùng nhiều người để thay nhau lái."
+  ],
+  "entities": [
+   "quãng đường cho phép",
+   "phụ thu vượt ki-lô-mét",
+   "nghỉ giữa chặng",
+   "biên bản giao nhận"
+  ],
+  "keywords": [
+   "thuê ô tô đường dài",
+   "thue o to duong dai",
+   "thuê xe đi tỉnh",
+   "chạy cao tốc thuê xe",
+   "phụ thu vượt quãng đường"
+  ]
+ },
+ {
   "url": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/",
   "title": "Ắc quy xe máy: cấu tạo và cách bảo quản",
   "category": "Bách khoa xe",
