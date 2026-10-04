@@ -3558,11 +3558,13 @@
    "title": "Kinh nghiệm cứu hộ xe máy dành cho người mới",
    "primaryIntent": "informational/cuu-ho-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T12:48:46.715Z",
+   "seoScore": 100,
+   "words": 2151
   },
   {
    "id": "S00242",
@@ -3571,11 +3573,13 @@
    "title": "Xe mất điện — những điều cần biết",
    "primaryIntent": "informational/xe-mat-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T12:48:46.715Z",
+   "seoScore": 100,
+   "words": 2044
   },
   {
    "id": "S00243",
