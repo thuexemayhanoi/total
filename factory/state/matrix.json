@@ -3888,11 +3888,13 @@
    "title": "Hướng dẫn chi tiết về xe đi làm",
    "primaryIntent": "informational/xe-di-lam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-04T14:50:18.952Z",
+   "seoScore": 100,
+   "words": 1891
   },
   {
    "id": "S00264",
@@ -3901,11 +3903,13 @@
    "title": "Tổng hợp kiến thức: xe chở gia đình",
    "primaryIntent": "informational/xe-cho-gia-dinh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-04T14:50:18.952Z",
+   "seoScore": 100,
+   "words": 1652
   },
   {
    "id": "S00265",
