@@ -1,4 +1,4 @@
-// Tổng hợp kiến thức: thói quen dùng xe — S00232 (hub guide/su-dung-xe)
+// Tổng hợp kiến thức: thói quen dùng xe — S00232 (hub guide/su-dung-xe) [touch: nộp lại scope sau sự cố 3-ID]
 'use strict';
 module.exports = {
   slug: 'thoi-quen-dung-xe',

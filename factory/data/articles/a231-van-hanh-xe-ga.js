@@ -1,4 +1,4 @@
-// Hướng dẫn chi tiết về vận hành xe ga — S00231 (hub guide/su-dung-xe)
+// Hướng dẫn chi tiết về vận hành xe ga — S00231 (hub guide/su-dung-xe) [touch: nộp lại scope sau sự cố 3-ID]
 'use strict';
 module.exports = {
   slug: 'van-hanh-xe-ga',
