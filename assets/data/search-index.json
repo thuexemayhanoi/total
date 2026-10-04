@@ -5060,6 +5060,28 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-dien/tram-sac/",
+  "title": "Trạm sạc xe điện — kinh nghiệm cho người thuê lần đầu",
+  "description": "Kinh nghiệm dùng trạm sạc khi thuê xe điện: các loại trạm, cách tìm và quy trình sạc, an toàn điện, chi phí và mẹo lên kế hoạch năng lượng cho lộ trình.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [
+   "trạm sạc",
+   "ổ sạc",
+   "bộ sạc",
+   "xe điện"
+  ],
+  "keywords": [
+   "trạm sạc xe điện",
+   "sạc xe điện ở đâu",
+   "cách sạc xe điện",
+   "ổ sạc công cộng",
+   "kinh nghiệm sạc xe điện thuê"
+  ],
+  "summary": "Lần đầu thuê xe điện, câu hỏi lo lắng nhất thường không phải về xe mà về trạm sạc: sạc ở đâu, sạc thế nào, mất bao lâu và an toàn không. Bài viết tổng hợp kinh nghiệm dùng trạm sạc cho người mới: các loại trạm sạc phổ biến, cách tìm và chọn trạm, quy trình sạc"
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/",
   "title": "Kỹ thuật phanh khẩn cấp trên xe máy",
   "description": "Kỹ thuật phanh khẩn cấp trên xe máy: phối hợp phanh trước và sau, chống bó cứng, phanh khi đường ướt, có ABS và không ABS — từng bước đúng.",
@@ -5083,6 +5105,28 @@
    "cách phanh xe máy an toàn"
   ],
   "summary": "Phanh khẩn cấp là kỹ năng mà cả đời lái xe chỉ cần dùng vài lần — nhưng mỗi lần ấy đều là lần quyết định kết quả của một tình huống không ai muốn gặp. Khác với phanh thường, phanh khẩn cấp đòi hỏi phối hợp đồng thời nhiều thứ: lực phanh trước và sau chia đúng "
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-dien/pham-vi-hoat-dong/",
+  "title": "Phạm vi hoạt động của xe điện thuê — những điều cần biết",
+  "description": "Phạm vi hoạt động xe điện thuê: yếu tố quyết định quãng đường, cách ước lượng cho lộ trình, kỹ thuật lái kéo dài phạm vi và giới hạn khu vực trong hợp đồng.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [
+   "phạm vi hoạt động",
+   "quãng đường thực tế",
+   "xe điện thuê",
+   "hợp đồng thuê xe"
+  ],
+  "keywords": [
+   "phạm vi hoạt động xe điện",
+   "quãng đường xe điện",
+   "xe điện chạy được bao xa",
+   "ước lượng phạm vi xe điện",
+   "kéo dài quãng đường xe điện"
+  ],
+  "summary": "Phạm vi hoạt động là câu hỏi trung tâm của mọi kỳ thuê xe điện: chiếc xe này chạy được bao xa, và bạn được phép đi tới đâu. Bài viết giải thích hai lớp của khái niệm này — phạm vi trên mỗi lần sạc phụ thuộc tải trọng, tốc độ, độ dốc, thời tiết và tuổi pin; cùn"
  },
  {
   "kind": "article",
