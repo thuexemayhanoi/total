@@ -3018,11 +3018,13 @@
    "title": "Kinh nghiệm kinh nghiệm thuê xe máy dành cho người mới",
    "primaryIntent": "informational/kinh-nghiem-thue-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.039Z",
-   "updatedAt": "2026-10-03T23:13:26.039Z"
+   "updatedAt": "2026-10-04T06:53:26.432Z",
+   "seoScore": 100,
+   "words": 2034
   },
   {
    "id": "S00206",
@@ -3031,11 +3033,13 @@
    "title": "Kiểm tra xe thuê — những điều cần biết",
    "primaryIntent": "informational/kiem-tra-xe-thue",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.039Z",
-   "updatedAt": "2026-10-03T23:13:26.039Z"
+   "updatedAt": "2026-10-04T06:53:26.432Z",
+   "seoScore": 100,
+   "words": 2021
   },
   {
    "id": "S00207",

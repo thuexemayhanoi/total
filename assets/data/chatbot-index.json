@@ -3769,6 +3769,60 @@
   ]
  },
  {
+  "url": "thue-xe/xe-may/kinh-nghiem-thue-xe-may/",
+  "title": "Kinh nghiệm thuê xe máy dành cho người mới bắt đầu",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "summary": "Lần đầu thuê xe máy dễ khiến người ta lo lắng: không biết chọn nơi nào, sợ bị giữ giấy tờ, sợ trừ cọc oan hay nhận phải xe kém chất lượng. Bài viết tổng hợp kinh nghiệm thuê xe máy dành cho người mới bắt đầu theo đúng trình tự của một chuyến thuê: tìm và chọn nơi cho thuê, chuẩn bị giấy tờ, hiểu hợp đồng, kiểm tra xe khi nhận, vận hành an toàn những lần đầu tiên và trả xe gọn gàng để hoàn cọc trọn vẹn.",
+  "quickAnswer": "Người mới thuê xe máy nên chọn nơi có địa điểm rõ ràng và hợp đồng bài bản, chuẩn bị giấy tờ tùy thân còn hạn, đọc kỹ điều khoản cọc, kiểm tra xe theo danh mục khi nhận và chụp lại mọi vết xước hiện hữu. Khi trả xe, đối chiếu biên bản gốc và giữ toàn bộ hồ sơ cho tới khi nhận lại cọc đầy đủ.",
+  "keyPoints": [
+   "Chọn nơi cho thuê theo dấu hiệu tin cậy: địa điểm rõ, hợp đồng bài bản, đánh giá nhất quán.",
+   "Chuẩn bị giấy tờ tùy thân còn hạn và tìm hiểu trước hình thức cọc.",
+   "Đọc kỹ hợp đồng, đặc biệt các mục trách nhiệm bồi thường và điều kiện trừ cọc.",
+   "Kiểm tra xe theo danh mục khi nhận và chụp ảnh mọi vết xước hiện hữu."
+  ],
+  "entities": [
+   "thuê xe máy",
+   "hợp đồng thuê xe",
+   "biên bản giao nhận",
+   "tiền cọc"
+  ],
+  "keywords": [
+   "kinh nghiệm thuê xe máy",
+   "thuê xe máy lần đầu",
+   "mướn xe máy cho người mới",
+   "lưu ý khi thuê xe máy",
+   "thuê xe máy cần gì"
+  ]
+ },
+ {
+  "url": "thue-xe/xe-may/kiem-tra-xe-thue/",
+  "title": "Kiểm tra xe thuê — những điều cần biết trước khi nhận",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "summary": "Kiểm tra hiện trạng xe trước khi nhận là bước bảo vệ người thuê hiệu quả nhất trong mọi giao dịch thuê xe máy. Bài viết hướng dẫn chi tiết cách kiểm tra từng cụm: động cơ và truyền động, hệ thống phanh, cổ lái và bánh xe, đèn còi, cốp khóa; cách chạy thử để phát hiện vấn đề ẩn; cùng cách ghi biên bản và chụp ảnh hiện trạng sao cho việc hoàn cọc sau này không gặp tranh chấp.",
+  "quickAnswer": "Trước khi nhận xe thuê, hãy đề máy thử, bóp cả hai phanh, xoay tay lái xem độ rơ, kiểm tra lốp đèn còi cốp, chạy thử một đoạn ngắn lắng nghe tiếng bất thường, rồi chụp ảnh mọi vết xước hiện hữu và ghi vào biên bản giao nhận. Mười phút kiểm tra này quyết định việc bạn có bị trừ cọc oan khi trả xe hay không.",
+  "keyPoints": [
+   "Kiểm tra là quyền của người thuê — không phải thể hiện khó tính.",
+   "Kiểm theo trình tự: máy, phanh, lái, lốp, đèn còi, cốp, phụ kiện đi kèm.",
+   "Chạy thử đoạn ngắn để lộ các vấn đề ẩn: tiếng kêu, ga giật, xe lệch lái.",
+   "Chụp ảnh mọi vết xước hiện hữu từ nhiều góc và ghi vào biên bản."
+  ],
+  "entities": [
+   "kiểm tra xe thuê",
+   "biên bản giao nhận",
+   "hiện trạng xe",
+   "tiền cọc"
+  ],
+  "keywords": [
+   "kiểm tra xe thuê",
+   "cách kiểm tra xe máy thuê",
+   "nhận xe thuê cần kiểm tra gì",
+   "biên bản giao nhận xe",
+   "kiểm tra xe trước khi thuê"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/",
   "title": "Kỹ thuật phanh khẩn cấp trên xe máy",
   "category": "Kiến thức chuyên sâu",

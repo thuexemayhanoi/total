@@ -4972,6 +4972,50 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-may/kinh-nghiem-thue-xe-may/",
+  "title": "Kinh nghiệm thuê xe máy dành cho người mới bắt đầu",
+  "description": "Kinh nghiệm thuê xe máy cho người mới: tìm nơi cho thuê đáng tin, hiểu hợp đồng, kiểm tra xe khi nhận, vận hành an toàn lần đầu và trả xe suôn sẻ không mất cọc.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thuê xe máy",
+   "hợp đồng thuê xe",
+   "biên bản giao nhận",
+   "tiền cọc"
+  ],
+  "keywords": [
+   "kinh nghiệm thuê xe máy",
+   "thuê xe máy lần đầu",
+   "mướn xe máy cho người mới",
+   "lưu ý khi thuê xe máy",
+   "thuê xe máy cần gì"
+  ],
+  "summary": "Lần đầu thuê xe máy dễ khiến người ta lo lắng: không biết chọn nơi nào, sợ bị giữ giấy tờ, sợ trừ cọc oan hay nhận phải xe kém chất lượng. Bài viết tổng hợp kinh nghiệm thuê xe máy dành cho người mới bắt đầu theo đúng trình tự của một chuyến thuê: tìm và chọn "
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/kiem-tra-xe-thue/",
+  "title": "Kiểm tra xe thuê — những điều cần biết trước khi nhận",
+  "description": "Hướng dẫn kiểm tra xe thuê trước khi nhận: động cơ, phanh, lái, lốp, đèn, cốp và thử chạy; cách ghi biên bản hiện trạng để trả xe không bị trừ cọc oan.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "kiểm tra xe thuê",
+   "biên bản giao nhận",
+   "hiện trạng xe",
+   "tiền cọc"
+  ],
+  "keywords": [
+   "kiểm tra xe thuê",
+   "cách kiểm tra xe máy thuê",
+   "nhận xe thuê cần kiểm tra gì",
+   "biên bản giao nhận xe",
+   "kiểm tra xe trước khi thuê"
+  ],
+  "summary": "Kiểm tra hiện trạng xe trước khi nhận là bước bảo vệ người thuê hiệu quả nhất trong mọi giao dịch thuê xe máy. Bài viết hướng dẫn chi tiết cách kiểm tra từng cụm: động cơ và truyền động, hệ thống phanh, cổ lái và bánh xe, đèn còi, cốp khóa; cách chạy thử để ph"
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/ky-thuat-phanh-khan-cap-xe-may/",
   "title": "Kỹ thuật phanh khẩn cấp trên xe máy",
   "description": "Kỹ thuật phanh khẩn cấp trên xe máy: phối hợp phanh trước và sau, chống bó cứng, phanh khi đường ướt, có ABS và không ABS — từng bước đúng.",
