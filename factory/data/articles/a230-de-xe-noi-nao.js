@@ -1,4 +1,4 @@
-// Để xe nơi nào — những điều cần biết — S00230 (hub guide/su-dung-xe)
+// Để xe nơi nào — những điều cần biết — S00230 (hub guide/su-dung-xe) [rev2: sửa thẻ rác trong summary]
 'use strict';
 module.exports = {
   slug: 'de-xe-noi-nao',
