@@ -6113,6 +6113,50 @@
  },
  {
   "kind": "article",
+  "url": "hub/hang-xe/vinfast/",
+  "title": "Hướng dẫn chi tiết về vinfast",
+  "description": "Hướng dẫn chi tiết về VinFast: dòng xe máy điện, pin và trạm sạc, chi phí chạy, kinh nghiệm chọn dòng theo nhu cầu, bảo dưỡng và lưu ý khi dùng xe điện.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Hãng xe",
+  "entities": [
+   "VinFast",
+   "pin xe điện",
+   "trạm sạc",
+   "xe máy điện"
+  ],
+  "keywords": [
+   "vinfast",
+   "vinfast viet nam",
+   "kinh nghiệm xe vinfast",
+   "chọn xe vinfast",
+   "pin xe vinfast"
+  ],
+  "summary": "VinFast là thương hiệu Việt gây chú ý lớn trên thị trường xe máy điện: từ những dòng xe ga điện phổ thông tới hệ thống pin và các gói dịch vụ đi kèm, thương hiệu này đã tạo một cách sở hữu xe hơi khác biệt so với xe xăng truyền thống. Hướng dẫn chi tiết về Vin"
+ },
+ {
+  "kind": "article",
+  "url": "hub/hang-xe/so-sanh-hang-xe/",
+  "title": "Tổng hợp kiến thức: so sánh hãng xe",
+  "description": "Tổng hợp kiến thức so sánh hãng xe máy Nhật, Âu, Việt và xe điện theo giá, tổng chi phí sở hữu, phụ tùng, khả năng giữ giá và nhu cầu đi lại hằng ngày.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Hãng xe",
+  "entities": [
+   "hãng xe Nhật",
+   "hãng xe Âu",
+   "hãng xe Việt",
+   "xe máy điện"
+  ],
+  "keywords": [
+   "so sánh hãng xe",
+   "so sanh hang xe",
+   "chọn hãng xe máy",
+   "hãng xe nào tốt",
+   "kinh nghiệm chọn hãng xe"
+  ],
+  "summary": "So sánh hãng xe máy là câu hỏi không có đáp án chung cho mọi người: mỗi thương hiệu mạnh ở một mảng riêng, và người đi một tuyến đường khác nhau nên trọng tâm so sánh khác hẳn nhau. Bài tổng hợp kiến thức này gom các tiêu chí đáng cân nhắc nhất khi so sánh hãn"
+ },
+ {
+  "kind": "article",
   "url": "wiki/thuat-ngu-xe/cvt-la-gi-tren-xe-ga/",
   "title": "CVT là gì: hộp số tự động trên xe ga",
   "description": "CVT là gì trên xe ga: nguyên lý pulley và dây curoa, vì sao xe ga không sang số, cách bảo dưỡng curoa và oil, dấu hiệu CVT hỏng và thói quen dùng đúng.",

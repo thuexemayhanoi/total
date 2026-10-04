@@ -3708,11 +3708,13 @@
    "title": "Hướng dẫn chi tiết về vinfast",
    "primaryIntent": "informational/vinfast",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T13:32:52.036Z",
+   "seoScore": 100,
+   "words": 1949
   },
   {
    "id": "S00252",
@@ -3721,11 +3723,13 @@
    "title": "Tổng hợp kiến thức: so sánh hãng xe",
    "primaryIntent": "informational/so-sanh-hang-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T13:32:52.036Z",
+   "seoScore": 100,
+   "words": 1929
   },
   {
    "id": "S00253",
