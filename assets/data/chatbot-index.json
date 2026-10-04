@@ -4371,6 +4371,60 @@
   ]
  },
  {
+  "url": "guide/thue-xe/doc-hop-dong-thue-xe/",
+  "title": "Đọc hợp đồng thuê xe — kinh nghiệm cho người mới",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "summary": "Hợp đồng thuê xe thường dài, chữ nhỏ, và được in sẵn — ba đặc điểm khiến người mới đọc lướt thay vì đọc kỹ, rồi trả tiền cho chính những dòng mình đã bỏ qua. Bài viết gói kinh nghiệm đọc hợp đồng thuê xe cho người mới thành một phương pháp thực dụng: đọc theo bốn nhóm thay vì đọc từ đầu tới cuối, mang theo bộ câu hỏi mẫu để hỏi từng mục, nhận biết các bẫy in sẵn thường gặp trong hợp đồng cho thuê xe, và biết lúc nào nên yêu cầu sửa hợp đồng trước khi đặt bút. Đọc hợp đồng không cần bằng luật — chỉ cần trật tự đúng và không ngại hỏi.",
+  "quickAnswer": "Đọc hợp đồng thuê xe theo bốn nhóm: nhóm tiền (giá, cọc, thanh toán, phạt), nhóm phạm vi (quãng đường, địa bàn, ai được lái), nhóm hiện trạng (biên bản giao nhận, bảo hiểm), và nhóm chấm dứt (trả xe, hoàn cọc, gia hạn). Với mỗi mục chưa rõ, dùng câu hỏi mẫu: con số cụ thể là bao nhiêu, tính từ thời điểm nào, và nếu vi phạm thì sao. Không ký khi một câu hỏi chưa có trả lời bằng chữ trong hợp đồng.",
+  "keyPoints": [
+   "Đọc theo bốn nhóm: tiền, phạm vi, hiện trạng, chấm dứt — không đọc dàn trải.",
+   "Mọi khoản phải có con số cụ thể và thời điểm tính, không chấp nhận mô tả chung.",
+   "Phần chữ nhỏ cuối trang là nơi chứa miễn trách nhiệm và điều kiện giữ cọc.",
+   "Câu hỏi mẫu ba lớp: bao nhiêu, tính từ khi nào, vi phạm thì ra sao."
+  ],
+  "entities": [
+   "nhóm điều khoản",
+   "miễn trách nhiệm",
+   "điều kiện giữ cọc",
+   "xác nhận bằng văn bản"
+  ],
+  "keywords": [
+   "đọc hợp đồng thuê xe",
+   "doc hop dong thue xe",
+   "điều khoản hợp đồng thuê xe",
+   "hợp đồng thuê xe máy",
+   "bẫy hợp đồng thuê xe"
+  ]
+ },
+ {
+  "url": "guide/thue-xe/nghiem-thu-xe-thue/",
+  "title": "Nghiệm thu xe thuê — những điều cần biết",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "summary": "Nghiệm thu xe thuê là mười phút có tiếng nặng nhất trong toàn bộ kỳ thuê: nó quyết định việc khoản cọc của bạn được hoàn trọn vẹn hay bị trừ oan lúc trả, và là lúc duy nhất bạn còn toàn quyền yêu cầu đổi xe. Bài viết tổng hợp những điều cần biết về nghiệm thu xe thuê áp dụng cho cả xe máy lẫn ô tô: vì sao nghiệm thu gắn chặt với hoàn cọc, các vòng kiểm tra cần đi qua theo đúng thứ tự, cách ghi biên bản để hai bên cùng hiểu một cách, khác biệt khi nghiệm thu xe máy với ô tô, và những dấu hiệu đủ mạnh để yêu cầu đổi xe ngay tại điểm giao thay vì nhận rồi khắc phục.",
+  "quickAnswer": "Nghiệm thu xe thuê gồm bốn việc theo thứ tự: chụp ảnh toàn thân xe trước khi chạm vào, đi vòng kiểm tra hiện trạng theo hướng kim đồng hồ và ghi từng vết sẵn có, thử chức năng từ đèn còi tới khởi động và chạy thử, rồi ghi tất cả vào biên bản có chữ ký hai bên. Mục tiêu là một biên bản đủ chi tiết để lúc trả không còn tranh luận — vì mọi vết không được ghi hôm nay sẽ được coi là xuất hiện trong kỳ thuê của bạn.",
+  "keyPoints": [
+   "Chụp ảnh toàn thân xe từ bốn góc trước khi chạm vào bất cứ thứ gì.",
+   "Đi một vòng quanh xe theo một hướng và ghi từng vết sẵn có kèm ảnh cận.",
+   "Thử đủ chức năng: đèn, còi, phanh, khởi động, và chạy thử nếu được phép.",
+   "Biên bản ghi đủ: công tơ mét, nhiên liệu, vết sẵn có, trang bị đi kèm."
+  ],
+  "entities": [
+   "biên bản giao nhận",
+   "hiện trạng xe",
+   "hoàn cọc",
+   "đổi xe tại điểm giao"
+  ],
+  "keywords": [
+   "nghiệm thu xe thuê",
+   "nghiem thu xe thue",
+   "kiểm tra xe khi nhận thuê",
+   "biên bản giao nhận xe thuê",
+   "tránh bị trừ cọc"
+  ]
+ },
+ {
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "category": "Hướng dẫn",

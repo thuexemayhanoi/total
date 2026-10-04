@@ -5464,6 +5464,50 @@
  },
  {
   "kind": "article",
+  "url": "guide/thue-xe/doc-hop-dong-thue-xe/",
+  "title": "Đọc hợp đồng thuê xe — kinh nghiệm cho người mới",
+  "description": "Kinh nghiệm đọc hợp đồng thuê xe cho người mới: đọc từ đâu, bốn nhóm điều khoản bắt buộc soi, các câu hỏi mẫu và những bẫy in sẵn hay khiến người thuê chịu thiệt.",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "entities": [
+   "nhóm điều khoản",
+   "miễn trách nhiệm",
+   "điều kiện giữ cọc",
+   "xác nhận bằng văn bản"
+  ],
+  "keywords": [
+   "đọc hợp đồng thuê xe",
+   "doc hop dong thue xe",
+   "điều khoản hợp đồng thuê xe",
+   "hợp đồng thuê xe máy",
+   "bẫy hợp đồng thuê xe"
+  ],
+  "summary": "Hợp đồng thuê xe thường dài, chữ nhỏ, và được in sẵn — ba đặc điểm khiến người mới đọc lướt thay vì đọc kỹ, rồi trả tiền cho chính những dòng mình đã bỏ qua. Bài viết gói kinh nghiệm đọc hợp đồng thuê xe cho người mới thành một phương pháp thực dụng: đọc theo "
+ },
+ {
+  "kind": "article",
+  "url": "guide/thue-xe/nghiem-thu-xe-thue/",
+  "title": "Nghiệm thu xe thuê — những điều cần biết",
+  "description": "Những điều cần biết khi nghiệm thu xe thuê: các vòng kiểm tra cho xe máy và ô tô, cách ghi biên bản, mối liên với khoản cọc và các dấu hiệu nên yêu cầu đổi xe ngay.",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "entities": [
+   "biên bản giao nhận",
+   "hiện trạng xe",
+   "hoàn cọc",
+   "đổi xe tại điểm giao"
+  ],
+  "keywords": [
+   "nghiệm thu xe thuê",
+   "nghiem thu xe thue",
+   "kiểm tra xe khi nhận thuê",
+   "biên bản giao nhận xe thuê",
+   "tránh bị trừ cọc"
+  ],
+  "summary": "Nghiệm thu xe thuê là mười phút có tiếng nặng nhất trong toàn bộ kỳ thuê: nó quyết định việc khoản cọc của bạn được hoàn trọn vẹn hay bị trừ oan lúc trả, và là lúc duy nhất bạn còn toàn quyền yêu cầu đổi xe. Bài viết tổng hợp những điều cần biết về nghiệm thu "
+ },
+ {
+  "kind": "article",
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "description": "Chạy rà xe máy đúng cách: vì sao phải chạy rà, chạy bao nhiêu km, vòng tua và tải trọng thế nào, thay nhớt lần đầu khi nào để máy bền lâu.",

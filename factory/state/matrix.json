@@ -3318,11 +3318,13 @@
    "title": "Kinh nghiệm đọc hợp đồng thuê xe dành cho người mới",
    "primaryIntent": "informational/doc-hop-dong-thue-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:39:01.908Z",
+   "seoScore": 100,
+   "words": 2082
   },
   {
    "id": "S00226",
@@ -3331,11 +3333,13 @@
    "title": "Nghiệm thu xe thuê — những điều cần biết",
    "primaryIntent": "informational/nghiem-thu-xe-thue",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T08:39:01.908Z",
+   "seoScore": 100,
+   "words": 2101
   },
   {
    "id": "S00227",
