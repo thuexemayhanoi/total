@@ -3828,11 +3828,13 @@
    "title": "Hướng dẫn chi tiết về xe côn tay",
    "primaryIntent": "informational/xe-con-tay",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-04T14:11:27.664Z",
+   "seoScore": 100,
+   "words": 1789
   },
   {
    "id": "S00260",
@@ -3841,11 +3843,13 @@
    "title": "Tổng hợp kiến thức: xe điện",
    "primaryIntent": "informational/xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-04T14:11:27.664Z",
+   "seoScore": 100,
+   "words": 1810
   },
   {
    "id": "S00261",

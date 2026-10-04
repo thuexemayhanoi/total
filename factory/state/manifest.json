@@ -1212,7 +1212,15 @@
   "kind": "article"
  },
  {
+  "rel": "hub/loai-xe/xe-con-tay/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/thuat-ngu-xe/cvt-la-gi-tren-xe-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/loai-xe/xe-dien/index.html",
   "kind": "article"
  },
  {
