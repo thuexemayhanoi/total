@@ -3798,11 +3798,13 @@
    "title": "Kinh nghiệm freego dành cho người mới",
    "primaryIntent": "informational/freego",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T14:01:02.016Z",
+   "seoScore": 100,
+   "words": 1852
   },
   {
    "id": "S00258",
@@ -3811,11 +3813,13 @@
    "title": "Xe số hay xe ga — những điều cần biết",
    "primaryIntent": "informational/xe-so-hay-xe-ga",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T14:01:02.016Z",
+   "seoScore": 100,
+   "words": 1823
   },
   {
    "id": "S00259",

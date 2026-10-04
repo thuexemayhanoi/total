@@ -6245,6 +6245,50 @@
  },
  {
   "kind": "article",
+  "url": "hub/dong-xe/freego/",
+  "title": "Kinh nghiệm freego dành cho người mới",
+  "description": "Kinh nghiệm FreeGo dành cho người mới: đặc trưng dòng 125 của Yamaha, làm quen từ xe số, chi phí dùng thật, bảo dưỡng và nhóm người hợp nhất với dòng.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Dòng xe",
+  "entities": [
+   "Yamaha FreeGo",
+   "xe ga 125",
+   "chạy rà",
+   "cốp xe"
+  ],
+  "keywords": [
+   "freego",
+   "yamaha freego",
+   "kinh nghiệm freego",
+   "chọn freego",
+   "xe freego"
+  ],
+  "summary": "FreeGo là dòng 125 của Yamaha hướng tới sự tiện dụng hằng ngày: cốp chứa rộng, thân xe cân đối và trang bị phục vụ việc chở đồ, đưa đón người thân quen thuộc. Kinh nghiệm FreeGo dành cho người mới trong bài này giúp người chưa từng dùng dòng này nắm nhanh trọn"
+ },
+ {
+  "kind": "article",
+  "url": "hub/loai-xe/xe-so-hay-xe-ga/",
+  "title": "Xe số hay xe ga — những điều cần biết",
+  "description": "Xe số hay xe ga — những điều cần biết: khác biệt cấu tạo, cách vận hành, chi phí sở hữu, học lần đầu, an toàn và khung quyết định theo hoàn cảnh của bạn.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Loại xe",
+  "entities": [
+   "xe số",
+   "xe ga",
+   "hộp số",
+   "chi phí sở hữu"
+  ],
+  "keywords": [
+   "xe số hay xe ga",
+   "xe so hay xe ga",
+   "khác biệt xe số và xe ga",
+   "kinh nghiệm chọn xe số hay xe ga",
+   "so sánh xe số xe ga"
+  ],
+  "summary": "Xe số hay xe ga là câu hỏi đầu tiên của hầu hết người mới mua xe máy tại Việt Nam, và để trả lời được, bạn cần nắm những điều cần biết về bản chất của hai loại này. Bài viết giải thích khác biệt cấu tạo giữa côn số truyền động cơ khí và tay ga tự động, cách mỗ"
+ },
+ {
+  "kind": "article",
   "url": "wiki/thuat-ngu-xe/cvt-la-gi-tren-xe-ga/",
   "title": "CVT là gì: hộp số tự động trên xe ga",
   "description": "CVT là gì trên xe ga: nguyên lý pulley và dây curoa, vì sao xe ga không sang số, cách bảo dưỡng curoa và oil, dấu hiệu CVT hỏng và thói quen dùng đúng.",
