@@ -3858,11 +3858,13 @@
    "title": "Kinh nghiệm xe 50cc dành cho người mới",
    "primaryIntent": "informational/xe-50cc",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-04T14:21:21.211Z",
+   "seoScore": 100,
+   "words": 1738
   },
   {
    "id": "S00262",
@@ -3871,11 +3873,13 @@
    "title": "Phân loại xe máy — những điều cần biết",
    "primaryIntent": "informational/phan-loai-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-04T14:21:21.211Z",
+   "seoScore": 100,
+   "words": 1834
   },
   {
    "id": "S00263",
