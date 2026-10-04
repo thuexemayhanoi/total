@@ -4317,6 +4317,60 @@
   ]
  },
  {
+  "url": "guide/mua-xe/kiem-tra-xe-truoc-khi-mua/",
+  "title": "Kiểm tra xe trước khi mua — hướng dẫn chi tiết",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Kiểm tra xe trước khi mua là công đoạn duy nhất người mua có toàn quyền quyết định, nhưng phần lớn lại làm theo cảm tính: nhìn vài vòng, nghe người bán nói, rồi quyết. Bài viết trình bày quy trình kiểm tra chi tiết theo trật tự khoa học — từ ngoài vào trong, từ đứng yên đến khởi động — gồm: quan sát toàn thân và các điểm từng sửa, kiểm tra khung và hiện trạng vết xước, soi điện và nội thất, nghe động cơ khởi động nguội, chạy thử đúng cách, và ghi lại toàn bộ lỗi để thương lượng hoặc rút lui dựa trên bằng chứng chứ không dựa trên linh cảm.",
+  "quickAnswer": "Hướng dẫn chi tiết kiểm tra xe trước khi mua gồm năm vòng theo trật tự: quan sát toàn thân dưới đủ sáng, kiểm tra khung và các mối nối từng mở, soi hệ điện và nội thất, khởi động nguội nghe động cơ và thử các đèn tín hiệu, rồi chạy thử phanh và tay lái. Mọi lỗi tìm thấy đều chụp ảnh và ghi lại thành danh mục — dùng để trả giá hoặc rút lui. Không mua đúng buổi đầu xem xe; về soi lại danh mục rồi quyết.",
+  "keyPoints": [
+   "Kiểm tra theo trật tự từ ngoài vào trong, từ đứng yên đến khởi động.",
+   "Quan sát dưới đủ ánh sáng — vết trầy nhẹ vô hình trong bóng râm.",
+   "Tìm dấu từng sửa: chênh màu sơn, mối hàn, ốc từng mở dấu; theo đúng hướng dẫn từng vòng.",
+   "Khởi động nguội là lúc tiếng bất thường của động cơ lộ rõ nhất."
+  ],
+  "entities": [
+   "hiện trạng xe",
+   "dấu vết từng sửa",
+   "khởi động nguội",
+   "danh mục lỗi"
+  ],
+  "keywords": [
+   "kiểm tra xe trước khi mua",
+   "kiem tra xe truoc khi mua",
+   "kiểm tra xe cũ trước khi mua",
+   "chạy thử xe trước khi mua",
+   "dấu hiệu xe từng đâm"
+  ]
+ },
+ {
+  "url": "guide/thue-xe/huong-dan-thue-xe/",
+  "title": "Hướng dẫn thuê xe — tổng hợp kiến thức cần nắm",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "summary": "Thuê xe là giải pháp linh hoạt cho người cần di chuyển mà chưa cần mua xe, nhưng mỗi lần thuê là một hợp đồng ngắn với nhiều điểm có thể phát sinh tranh chấp nếu làm theo cảm tính. Bài viết là bản tổng hợp kiến thức hướng dẫn thuê xe cho cả người mới lẫn người đã thuê nhiều lần: chọn loại hình thuê đúng việc (xe máy quanh phố, ô tô tự lái đi tỉnh, ô tô có tài xế cho dịp đặc biệt), so sánh nơi cho thuê trên đúng tiêu chí, đọc giá và điều khoản trước khi ký, nhận xe bằng nghi thức nghiệm thu, và trả xe khép lại giao dịch sạch không tranh chấp. Mỗi phần là bản tóm của một kỹ năng riêng — đủ để một buổi thuê xe đi đúng trật tự từ đầu tới cuối.",
+  "quickAnswer": "Hướng dẫn thuê xe gồm năm bước theo trật tự: chọn loại hình thuê đúng việc cần làm; so sánh hai ba nơi cho thuê về giá tổng, điều khoản cọc và đánh giá thực khách cũ; đọc kỹ hợp đồng về quãng đường, phạm vi và các khoản phạt; nhận xe bằng nghi thức nghiệm thu có biên bản và ảnh; trả xe đối chiếu đúng biên bản và chốt hoàn cọc bằng văn bản. Làm đủ năm bước, gần như không còn kẽ hở cho tranh chấp.",
+  "keyPoints": [
+   "Chọn loại hình thuê theo việc: xe máy quanh phố, ô tô tự lái đi tỉnh, có tài xế cho dịp đặc biệt.",
+   "So sánh nơi cho thuê theo giá tổng và điều khoản, không theo giá ngày niêm yết.",
+   "Đọc kỹ ba điều khoản: quãng đường, phạm vi di chuyển, và các khoản phạt.",
+   "Nhận xe bằng biên bản giao nhận kèm ảnh hiện trạng — không nhận qua loa."
+  ],
+  "entities": [
+   "loại hình thuê xe",
+   "biên bản giao nhận",
+   "điều khoản phạt",
+   "xác nhận hoàn cọc"
+  ],
+  "keywords": [
+   "hướng dẫn thuê xe",
+   "huong dan thue xe",
+   "kinh nghiệm thuê xe",
+   "thuê xe tự lái",
+   "thuê xe không bị trừ cọc"
+  ]
+ },
+ {
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "category": "Hướng dẫn",

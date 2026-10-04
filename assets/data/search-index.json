@@ -5420,6 +5420,50 @@
  },
  {
   "kind": "article",
+  "url": "guide/mua-xe/kiem-tra-xe-truoc-khi-mua/",
+  "title": "Kiểm tra xe trước khi mua — hướng dẫn chi tiết",
+  "description": "Hướng dẫn chi tiết kiểm tra xe trước khi mua: trình tự từ ngoài vào trong, từ đứng yên đến khởi động, cách ghi lỗi tìm thấy và thương lượng dựa trên hiện trạng thực.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "hiện trạng xe",
+   "dấu vết từng sửa",
+   "khởi động nguội",
+   "danh mục lỗi"
+  ],
+  "keywords": [
+   "kiểm tra xe trước khi mua",
+   "kiem tra xe truoc khi mua",
+   "kiểm tra xe cũ trước khi mua",
+   "chạy thử xe trước khi mua",
+   "dấu hiệu xe từng đâm"
+  ],
+  "summary": "Kiểm tra xe trước khi mua là công đoạn duy nhất người mua có toàn quyền quyết định, nhưng phần lớn lại làm theo cảm tính: nhìn vài vòng, nghe người bán nói, rồi quyết. Bài viết trình bày quy trình kiểm tra chi tiết theo trật tự khoa học — từ ngoài vào trong, t"
+ },
+ {
+  "kind": "article",
+  "url": "guide/thue-xe/huong-dan-thue-xe/",
+  "title": "Hướng dẫn thuê xe — tổng hợp kiến thức cần nắm",
+  "description": "Tổng hợp kiến thức thuê xe: chọn loại hình thuê phù hợp, so sánh nơi cho thuê, đọc giá và điều khoản, nhận xe và trả xe đúng cách không phát sinh tranh chấp.",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "entities": [
+   "loại hình thuê xe",
+   "biên bản giao nhận",
+   "điều khoản phạt",
+   "xác nhận hoàn cọc"
+  ],
+  "keywords": [
+   "hướng dẫn thuê xe",
+   "huong dan thue xe",
+   "kinh nghiệm thuê xe",
+   "thuê xe tự lái",
+   "thuê xe không bị trừ cọc"
+  ],
+  "summary": "Thuê xe là giải pháp linh hoạt cho người cần di chuyển mà chưa cần mua xe, nhưng mỗi lần thuê là một hợp đồng ngắn với nhiều điểm có thể phát sinh tranh chấp nếu làm theo cảm tính. Bài viết là bản tổng hợp kiến thức hướng dẫn thuê xe cho cả người mới lẫn người"
+ },
+ {
+  "kind": "article",
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "description": "Chạy rà xe máy đúng cách: vì sao phải chạy rà, chạy bao nhiêu km, vòng tua và tải trọng thế nào, thay nhớt lần đầu khi nào để máy bền lâu.",

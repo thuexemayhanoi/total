@@ -3288,11 +3288,13 @@
    "title": "Hướng dẫn chi tiết về kiểm tra xe trước khi mua",
    "primaryIntent": "informational/kiem-tra-xe-truoc-khi-mua",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:34:10.476Z",
+   "seoScore": 100,
+   "words": 1998
   },
   {
    "id": "S00224",
@@ -3301,11 +3303,13 @@
    "title": "Tổng hợp kiến thức: hướng dẫn thuê xe",
    "primaryIntent": "informational/huong-dan-thue-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:34:10.476Z",
+   "seoScore": 100,
+   "words": 2085
   },
   {
    "id": "S00225",
