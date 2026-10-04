@@ -4070,6 +4070,60 @@
   ]
  },
  {
+  "url": "thue-xe/xe-oto/dat-coc-thue-o-to/",
+  "title": "Đặt cọc thuê ô tô — hướng dẫn chi tiết từng bước",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "summary": "Tiền cọc là khoản tiền lớn nhất bạn giao cho bên cho thuê trong một hợp đồng ô tô, và cách xử lý nó quyết định việc bạn nhận lại trọn vẹn hay không. Bài viết là hướng dẫn chi tiết theo đúng dòng thời gian của người thuê: chuẩn bị gì trước khi tới điểm giao xe, các thao tác cần làm lúc đặt cọc, những gì ảnh hưởng tới cọc trong suốt kỳ thuê, và quy trình nhận lại cọc không sót bước khi trả xe — kèm cách xử lý khi có khoản trừ không rõ ràng.",
+  "quickAnswer": "Trước khi thuê ô tô, hỏi rõ mức cọc và hình thức giữ, chuẩn bị thẻ với hạn mức đủ nếu nơi cho thuê giữ tiền trên thẻ. Khi đặt cọc, chụp lại phiếu giao dịch và biên bản. Trong kỳ thuê, giữ xe theo đúng điều khoản. Khi trả, đối chiếu biên bản hiện trạng gốc, yêu cầu xác nhận hoàn cọc rõ ràng, và theo dõi thời hạn mở khóa tiền trên thẻ tới khi khoản đó về đủ.",
+  "keyPoints": [
+   "Hỏi trước mức cọc và hình thức: tiền mặt hay giữ trước trên thẻ.",
+   "Kiểm tra hạn mức thẻ và báo ngân hàng nếu cần giữ tiền lớn.",
+   "Chụp lại phiếu giao dịch, biên bản đặt cọc khi ký.",
+   "Mọi va chạm hoặc sự cố trong kỳ thuê: báo ngay, chụp ảnh, lưu vết."
+  ],
+  "entities": [
+   "tiền cọc",
+   "giữ tiền trên thẻ",
+   "biên bản giao nhận",
+   "hợp đồng thuê ô tô"
+  ],
+  "keywords": [
+   "đặt cọc thuê ô tô",
+   "dat coc thue o to",
+   "cọc thuê xe ô tô",
+   "giữ tiền trên thẻ thuê xe",
+   "nhận lại cọc thuê ô tô"
+  ]
+ },
+ {
+  "url": "thue-xe/xe-oto/hop-dong-thue-o-to/",
+  "title": "Hợp đồng thuê ô tô — đọc kỹ trước khi ký",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "summary": "Hợp đồng là tài liệu duy nhất bảo vệ bạn khi thuê ô tô, và phần lớn tranh chấp phát sinh từ những điều khoản đã in sẵn mà người thuê không đọc. Bài viết hệ thống lại toàn bộ kiến thức về hợp đồng thuê ô tô theo cách đọc được: cấu trúc một bản hợp đồng gồm những phần nào, nhóm điều khoản về tiền cần đối chiếu ra sao, nhóm điều khoản về trách nhiệm và hiện trạng xe ăn vào việc gì, những điểm hay phát sinh tranh chấp nhất, vai trò của biên bản giao nhận và các phụ lục, cùng sự khác biệt giữa hợp đồng ngắn hạn và dài hạn — để bạn ký với hiểu rõ mình đã cam kết điều gì.",
+  "quickAnswer": "Trước khi ký hợp đồng thuê ô tô, đọc đủ bốn nhóm: điều khoản tiền (giá, cọc, thanh toán, phạt), điều khoản trách nhiệm (tự lái, có tài xế, hiện trạng xe), điều khoản phạm vi (đi đâu, bao nhiêu km, ai được lái), và điều khoản chấm dứt (trả sớm, gia hạn, hoàn cọc). Mọi lời hứa miệng phải ghi thành văn bản trong hợp đồng hoặc biên bản giao nhận. Chụp lại toàn bộ trang ký và giữ bản cho tới khi hoàn cọc về đủ.",
+  "keyPoints": [
+   "Hợp đồng thuê ô tô là căn cứ duy nhất khi có tranh chấp — mọi thỏa thuận miệng đều cần ghi vào văn bản.",
+   "Bốn nhóm điều khoản bắt buộc đọc: tiền, trách nhiệm, phạm vi sử dụng, và chấm dứt hợp đồng.",
+   "Đối chiếu giá thuê đã ghi với số tiền thực thu, gồm phụ thu và trừ ngày lễ.",
+   "Biên bản giao nhận xe là phụ lục gắn chặt với hợp đồng — hiện trạng xe phải ghi đủ kèm ảnh."
+  ],
+  "entities": [
+   "hợp đồng thuê ô tô",
+   "biên bản giao nhận",
+   "điều khoản phạt",
+   "tiền cọc"
+  ],
+  "keywords": [
+   "hợp đồng thuê ô tô",
+   "hop dong thue o to",
+   "điều khoản hợp đồng thuê xe",
+   "ký hợp đồng thuê ô tô",
+   "hợp đồng thuê xe dài hạn"
+  ]
+ },
+ {
   "url": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/",
   "title": "Ắc quy xe máy: cấu tạo và cách bảo quản",
   "category": "Bách khoa xe",

@@ -3168,11 +3168,13 @@
    "title": "Hướng dẫn chi tiết về đặt cọc thuê ô tô",
    "primaryIntent": "informational/dat-coc-thue-o-to",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:12:16.990Z",
+   "seoScore": 100,
+   "words": 2091
   },
   {
    "id": "S00216",
@@ -3181,11 +3183,13 @@
    "title": "Tổng hợp kiến thức: hợp đồng thuê ô tô",
    "primaryIntent": "informational/hop-dong-thue-o-to",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:12:16.990Z",
+   "seoScore": 100,
+   "words": 2303
   },
   {
    "id": "S00217",

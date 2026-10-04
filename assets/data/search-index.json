@@ -5218,6 +5218,50 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-oto/dat-coc-thue-o-to/",
+  "title": "Đặt cọc thuê ô tô — hướng dẫn chi tiết từng bước",
+  "description": "Hướng dẫn từng bước đặt cọc thuê ô tô: chuẩn bị tiền và thẻ, thao tác giữ tiền tại điểm giao xe, bảo vệ cọc trong kỳ thuê và nhận lại trọn vẹn khi trả.",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "entities": [
+   "tiền cọc",
+   "giữ tiền trên thẻ",
+   "biên bản giao nhận",
+   "hợp đồng thuê ô tô"
+  ],
+  "keywords": [
+   "đặt cọc thuê ô tô",
+   "dat coc thue o to",
+   "cọc thuê xe ô tô",
+   "giữ tiền trên thẻ thuê xe",
+   "nhận lại cọc thuê ô tô"
+  ],
+  "summary": "Tiền cọc là khoản tiền lớn nhất bạn giao cho bên cho thuê trong một hợp đồng ô tô, và cách xử lý nó quyết định việc bạn nhận lại trọn vẹn hay không. Bài viết là hướng dẫn chi tiết theo đúng dòng thời gian của người thuê: chuẩn bị gì trước khi tới điểm giao xe,"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-oto/hop-dong-thue-o-to/",
+  "title": "Hợp đồng thuê ô tô — đọc kỹ trước khi ký",
+  "description": "Tổng hợp kiến thức về hợp đồng thuê ô tô: cấu trúc cơ bản, nhóm điều khoản về tiền và trách nhiệm, các điểm hay tranh chấp và biên bản giao nhận cần kiểm tra.",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "entities": [
+   "hợp đồng thuê ô tô",
+   "biên bản giao nhận",
+   "điều khoản phạt",
+   "tiền cọc"
+  ],
+  "keywords": [
+   "hợp đồng thuê ô tô",
+   "hop dong thue o to",
+   "điều khoản hợp đồng thuê xe",
+   "ký hợp đồng thuê ô tô",
+   "hợp đồng thuê xe dài hạn"
+  ],
+  "summary": "Hợp đồng là tài liệu duy nhất bảo vệ bạn khi thuê ô tô, và phần lớn tranh chấp phát sinh từ những điều khoản đã in sẵn mà người thuê không đọc. Bài viết hệ thống lại toàn bộ kiến thức về hợp đồng thuê ô tô theo cách đọc được: cấu trúc một bản hợp đồng gồm nhữn"
+ },
+ {
+  "kind": "article",
   "url": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/",
   "title": "Ắc quy xe máy: cấu tạo và cách bảo quản",
   "description": "Ắc quy xe máy: cấu tạo ắc quy khô và ắc quy nước, vai trò với hệ thống điện, dấu hiệu yếu, cách sạc và bảo quản để ắc quy bền lâu hơn.",
