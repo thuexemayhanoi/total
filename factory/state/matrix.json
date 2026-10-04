@@ -3588,11 +3588,13 @@
    "title": "Hướng dẫn chi tiết về đăng ký xe máy",
    "primaryIntent": "informational/dang-ky-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T12:54:17.384Z",
+   "seoScore": 100,
+   "words": 2207
   },
   {
    "id": "S00244",
@@ -3601,11 +3603,13 @@
    "title": "Tổng hợp kiến thức: sang tên xe",
    "primaryIntent": "informational/sang-ten-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T12:54:17.384Z",
+   "seoScore": 100,
+   "words": 2190
   },
   {
    "id": "S00245",

@@ -5911,6 +5911,50 @@
  },
  {
   "kind": "article",
+  "url": "guide/thu-tuc-xe/dang-ky-xe-may/",
+  "title": "Hướng dẫn chi tiết về đăng ký xe máy",
+  "description": "Hướng dẫn chi tiết đăng ký xe máy lần đầu: điều kiện, giấy tờ cần nộp, nơi làm thủ tục, lệ phí và biển số, cùng các câu hỏi thường gặp về đăng ký xe.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "giấy chứng nhận đăng ký",
+   "biển số xe",
+   "hóa đơn mua xe",
+   "công an xã"
+  ],
+  "keywords": [
+   "đăng ký xe máy",
+   "dang ky xe may",
+   "thủ tục đăng ký xe máy",
+   "giấy tờ đăng ký xe",
+   "lệ phí đăng ký xe"
+  ],
+  "summary": "Mua xe mới về tới nhà chưa phải là lúc kết thúc mọi giấy tờ: xe chỉ chính thức mang biển và được cấp phép lưu thông sau khi hoàn tất đăng ký xe máy tại cơ quan công an. Hướng dẫn chi tiết này đi theo đúng thứ tự mà người lần đầu làm thủ tục cần nắm: điều kiện "
+ },
+ {
+  "kind": "article",
+  "url": "guide/thu-tuc-xe/sang-ten-xe/",
+  "title": "Tổng hợp kiến thức: sang tên xe",
+  "description": "Tổng hợp kiến thức về sang tên xe: thời hạn làm, mức phạt quá hạn, các hình thức chuyển chủ, rủi ro khi chưa sang tên và những tình huống khó thường gặp.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "lệ phí trước bạ",
+   "chứng từ chuyển quyền sở hữu",
+   "thời hạn 30 ngày",
+   "giấy chứng nhận đăng ký"
+  ],
+  "keywords": [
+   "sang tên xe máy",
+   "sang ten xe may",
+   "lệ phí sang tên xe",
+   "rủi ro chưa sang tên xe",
+   "an toàn khi mua xe chưa sang tên"
+  ],
+  "summary": "Sang tên xe là bước biến một giao dịch giấy tờ thành sự thật pháp lý: cho tới khi chứng từ chuyển quyền được công nhận và sổ đăng ký ghi đúng người, chiếc xe vẫn mang tên người cũ trước đó. Tổng hợp kiến thức trong bài gom lại những gì người mua và người bán x"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-xu-ly-su-co/lop-xe-may-bi-dame-giua-duong/",
   "title": "Lốp xe máy bị dằm giữa đường: xử lý và phòng tránh",
   "description": "Lốp xe máy bị dằm giữa đường: nhận biết xe đang xẹp, xử lý an toàn tại chỗ, gọi cứu hộ hay tự vá, và các thói quen phòng tránh lốp hỏng khi đang chạy.",
