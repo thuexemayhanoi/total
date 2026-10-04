@@ -3962,6 +3962,60 @@
   ]
  },
  {
+  "url": "thue-xe/xe-dien/chi-phi-sac/",
+  "title": "Chi phí sạc xe điện thuê — hướng dẫn chi tiết",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "summary": "Chi phí sạc là phần dễ gây hiểu lầm nhất trong một hợp đồng thuê xe điện, vì mỗi nơi tính một kiểu và người thuê thường chỉ phát hiện ra khác biệt lúc hoàn cọc. Bài viết hướng dẫn chi tiết: bốn mô hình tính phí năng lượng phổ biến trên thị trường, cách so sánh chúng cho đúng lịch trình của bạn, cách ước tính tổng chi năng lượng cho một lộ trình cụ thể, và các thói quen giữ chứng từ giúp bạn hoàn chi phí suôn sẻ không tranh chấp.",
+  "quickAnswer": "Chi phí sạc khi thuê xe điện được tính theo một trong bốn mô hình: gói trọn gói, hoàn theo hóa đơn, mức chéo cố định, hoặc người thuê tự lo toàn bộ. Hỏi rõ mô hình trước khi ký, ước tính tổng chi theo lịch trình của mình để so sánh, giữ lại màn hình công tơ và hóa đơn mỗi lần nạp có phí, và đối chiếu các khoản hoàn khi trả xe.",
+  "keyPoints": [
+   "Bốn mô hình tính phí năng lượng: trọn gói, hoàn hóa đơn, mức chéo, tự lo.",
+   "Mô hình rẻ nhất phụ thuộc lịch trình của bạn, không phụ thuộc con số niêm yết.",
+   "Nạp tại nhà hoặc điểm cho thuê luôn rẻ hơn trạm công cộng và trạm nhanh.",
+   "Giữ màn hình công tơ và hóa đơn mỗi lần nạp có phí — chứng từ quyết định khoản hoàn."
+  ],
+  "entities": [
+   "chi phí sạc",
+   "hợp đồng thuê xe",
+   "hóa đơn",
+   "trạm sạc"
+  ],
+  "keywords": [
+   "chi phí sạc xe điện",
+   "tiền sạc xe điện",
+   "chi phí năng lượng xe điện thuê",
+   "cách tính chi phí sạc",
+   "hoàn chi phí sạc"
+  ]
+ },
+ {
+  "url": "thue-xe/xe-dien/thue-xe-dien-giao-thong/",
+  "title": "Thuê xe điện phục vụ giao thông hằng ngày",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "summary": "Với nhiều người sống ở đô thị, thuê xe điện theo tuần hoặc theo tháng là giải pháp di chuyển hằng ngày thay cho việc sở hữu xe riêng. Bài viết tổng hợp kiến thức quanh việc dùng xe điện thuê phục vụ giao thông thường nhật: khi nào phương án này hợp lý so với mua xe hay đi xe công cộng, cách so chi phí đúng cách, tổ chức một tuyến quen thuộc giữa nhà và nơi làm việc, thói quen nạp điện đều đặn, và kỹ năng đi lại an toàn trong giờ cao điểm cùng các điều kiện thời tiết quanh năm.",
+  "quickAnswer": "Thuê xe điện phục vụ giao thông hằng ngày hợp lý khi quãng đường đi vừa phải, có chỗ nạp tại nhà hoặc nơi làm việc, và bạn muốn tránh chi phí mua xe và bảo dưỡng. Hãy chốt hợp đồng theo tuần hoặc tháng, dựng tuyến quen với điểm nạp dự phòng, nạp điện đều đặn theo lịch, và giữ thói quen an toàn khi đi trong giờ cao điểm hoặc trời mưa.",
+  "keyPoints": [
+   "Thuê xe điện hằng ngày hợp lý khi quãng đường vừa phải và có chỗ nạp cố định.",
+   "So chi phí đúng cách: cộng giá thuê, năng lượng, và so với tổng chi sở hữu xe.",
+   "Dựng tuyến quen giữa nhà và nơi làm việc, kèm một đến hai điểm nạp dự phòng.",
+   "Nạp theo lịch cố định — thói quen quan trọng nhất của việc dùng xe điện hằng ngày."
+  ],
+  "entities": [
+   "xe điện thuê",
+   "tuyến quen",
+   "giờ cao điểm",
+   "hợp đồng thuê xe"
+  ],
+  "keywords": [
+   "thuê xe điện đi làm",
+   "xe điện thuê giao thông",
+   "đi lại bằng xe điện thuê",
+   "thuê xe điện hằng ngày",
+   "xe điện thuê theo tháng"
+  ]
+ },
+ {
   "url": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/",
   "title": "Ắc quy xe máy: cấu tạo và cách bảo quản",
   "category": "Bách khoa xe",

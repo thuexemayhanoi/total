@@ -3108,11 +3108,13 @@
    "title": "Hướng dẫn chi tiết về chi phí sạc",
    "primaryIntent": "informational/chi-phi-sac",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:01:54.617Z",
+   "seoScore": 100,
+   "words": 2079
   },
   {
    "id": "S00212",
@@ -3121,11 +3123,13 @@
    "title": "Tổng hợp kiến thức: thuê xe điện giao thông",
    "primaryIntent": "informational/thue-xe-dien-giao-thong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.040Z",
-   "updatedAt": "2026-10-03T23:13:26.040Z"
+   "updatedAt": "2026-10-04T08:01:54.617Z",
+   "seoScore": 100,
+   "words": 2088
   },
   {
    "id": "S00213",

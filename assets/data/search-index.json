@@ -5130,6 +5130,50 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-dien/chi-phi-sac/",
+  "title": "Chi phí sạc xe điện thuê — hướng dẫn chi tiết",
+  "description": "Hướng dẫn chi tiết chi phí sạc khi thuê xe điện: bốn mô hình tính phí, cách so sánh và ước tính tổng chi cho lộ trình, tránh tranh chấp khi hoàn chi phí.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [
+   "chi phí sạc",
+   "hợp đồng thuê xe",
+   "hóa đơn",
+   "trạm sạc"
+  ],
+  "keywords": [
+   "chi phí sạc xe điện",
+   "tiền sạc xe điện",
+   "chi phí năng lượng xe điện thuê",
+   "cách tính chi phí sạc",
+   "hoàn chi phí sạc"
+  ],
+  "summary": "Chi phí sạc là phần dễ gây hiểu lầm nhất trong một hợp đồng thuê xe điện, vì mỗi nơi tính một kiểu và người thuê thường chỉ phát hiện ra khác biệt lúc hoàn cọc. Bài viết hướng dẫn chi tiết: bốn mô hình tính phí năng lượng phổ biến trên thị trường, cách so sánh"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-dien/thue-xe-dien-giao-thong/",
+  "title": "Thuê xe điện phục vụ giao thông hằng ngày",
+  "description": "Thuê xe điện cho việc đi lại hằng ngày: khi nào hợp lý, so chi phí với các phương thức khác, tổ chức tuyến quen, nạp điện đều đặn và an toàn trong giờ cao điểm.",
+  "category": "Thuê xe",
+  "hub": "Xe điện",
+  "entities": [
+   "xe điện thuê",
+   "tuyến quen",
+   "giờ cao điểm",
+   "hợp đồng thuê xe"
+  ],
+  "keywords": [
+   "thuê xe điện đi làm",
+   "xe điện thuê giao thông",
+   "đi lại bằng xe điện thuê",
+   "thuê xe điện hằng ngày",
+   "xe điện thuê theo tháng"
+  ],
+  "summary": "Với nhiều người sống ở đô thị, thuê xe điện theo tuần hoặc theo tháng là giải pháp di chuyển hằng ngày thay cho việc sở hữu xe riêng. Bài viết tổng hợp kiến thức quanh việc dùng xe điện thuê phục vụ giao thông thường nhật: khi nào phương án này hợp lý so với m"
+ },
+ {
+  "kind": "article",
   "url": "wiki/ac-quy-pin/ac-quy-xe-may-cau-tao-va-cach-bao-quan/",
   "title": "Ắc quy xe máy: cấu tạo và cách bảo quản",
   "description": "Ắc quy xe máy: cấu tạo ắc quy khô và ắc quy nước, vai trò với hệ thống điện, dấu hiệu yếu, cách sạc và bảo quản để ắc quy bền lâu hơn.",
