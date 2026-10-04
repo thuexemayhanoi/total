@@ -3738,11 +3738,13 @@
    "title": "Kinh nghiệm dòng xe ga dành cho người mới",
    "primaryIntent": "informational/dong-xe-ga",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T13:40:54.680Z",
+   "seoScore": 100,
+   "words": 1881
   },
   {
    "id": "S00254",
@@ -3751,11 +3753,13 @@
    "title": "Xe vision — những điều cần biết",
    "primaryIntent": "informational/xe-vision",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.042Z",
-   "updatedAt": "2026-10-03T23:13:26.042Z"
+   "updatedAt": "2026-10-04T13:40:54.680Z",
+   "seoScore": 100,
+   "words": 1846
   },
   {
    "id": "S00255",
