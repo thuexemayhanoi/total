@@ -5508,6 +5508,50 @@
  },
  {
   "kind": "article",
+  "url": "guide/thue-xe/quy-trinh-thue-xe/",
+  "title": "Quy trình thuê xe — hướng dẫn chi tiết từng bước",
+  "description": "Quy trình thuê xe theo bảy bước: chốt nhu cầu, đặt xe, chuẩn bị giấy tờ, nhận xe, dùng đúng hợp đồng, trả xe và theo dõi hoàn cọc tới khi giao dịch đóng.",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "entities": [
+   "xác nhận đặt xe",
+   "biên bản giao nhận",
+   "đối chiếu biên bản",
+   "xác nhận hoàn cọc"
+  ],
+  "keywords": [
+   "quy trình thuê xe",
+   "quy trinh thue xe",
+   "các bước thuê xe",
+   "thuê xe lần đầu",
+   "trình tự thuê xe"
+  ],
+  "summary": "Thuê xe trôi chảy hay gặp trở ngại không phụ thuộc may rủi — phụ thuộc vào việc có đi đúng quy trình hay không. Bài viết trình bày quy trình thuê xe như một bản hướng dẫn từng bước có thể làm theo từ đầu tới cuối: chốt nhu cầu và loại xe, chọn nơi cho thuê và "
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/cach-su-dung-xe-may/",
+  "title": "Cách sử dụng xe máy — tổng hợp kiến thức",
+  "description": "Tổng hợp kiến thức cách sử dụng xe máy: thao tác cơ bản khi ngồi lên xe, khởi động vào số, điều khiển ga phanh, chở người và đồ, cùng thói quen dùng mỗi ngày bền xe.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "tay ga",
+   "phanh trước",
+   "cần số",
+   "chống xe"
+  ],
+  "keywords": [
+   "cách sử dụng xe máy",
+   "cach su dung xe may",
+   "thao tác xe máy",
+   "lái xe máy cho người mới",
+   "dùng xe máy đúng cách"
+  ],
+  "summary": "Xe máy là phương tiện phổ biến nhất nhưng nhiều người dùng nó theo thói quen học lỏm từ ai đó, không theo hiểu biết — và các thói quen sai tích tụ thành hỏng hóc sớm và chi phí bảo dưỡng cao hơn dự kiến. Bài viết tổng hợp kiến thức cách sử dụng xe máy từ những"
+ },
+ {
+  "kind": "article",
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "description": "Chạy rà xe máy đúng cách: vì sao phải chạy rà, chạy bao nhiêu km, vòng tua và tải trọng thế nào, thay nhớt lần đầu khi nào để máy bền lâu.",

@@ -3348,11 +3348,13 @@
    "title": "Hướng dẫn chi tiết về quy trình thuê xe",
    "primaryIntent": "informational/quy-trinh-thue-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T08:44:09.138Z",
+   "seoScore": 100,
+   "words": 2329
   },
   {
    "id": "S00228",
@@ -3361,11 +3363,13 @@
    "title": "Tổng hợp kiến thức: cách sử dụng xe máy",
    "primaryIntent": "informational/cach-su-dung-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.041Z",
-   "updatedAt": "2026-10-03T23:13:26.041Z"
+   "updatedAt": "2026-10-04T08:44:09.138Z",
+   "seoScore": 100,
+   "words": 2052
   },
   {
    "id": "S00229",

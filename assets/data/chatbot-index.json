@@ -4425,6 +4425,60 @@
   ]
  },
  {
+  "url": "guide/thue-xe/quy-trinh-thue-xe/",
+  "title": "Quy trình thuê xe — hướng dẫn chi tiết từng bước",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "summary": "Thuê xe trôi chảy hay gặp trở ngại không phụ thuộc may rủi — phụ thuộc vào việc có đi đúng quy trình hay không. Bài viết trình bày quy trình thuê xe như một bản hướng dẫn từng bước có thể làm theo từ đầu tới cuối: chốt nhu cầu và loại xe, chọn nơi cho thuê và đặt xe, chuẩn bị giấy tờ cần mang, nhận xe bằng nghi thức nghiệm thu, sử dụng đúng các điều khoản đã ký, trả xe theo trình tự đối chiếu, và theo dõi hoàn cọc tới khi giao dịch thật sự đóng. Mỗi bước nêu rõ việc cần làm và sản phẩm cần có sau bước đó — giấy xác nhận đặt xe, biên bản giao nhận, xác nhận hoàn cọc — để bạn luôn biết mình đã xong bước nào và còn thiếu gì.",
+  "quickAnswer": "Quy trình thuê xe gồm bảy bước: chốt nhu cầu và loại xe; đặt xe và nhận xác nhận đặt; chuẩn bị giấy tờ theo yêu cầu nơi cho thuê; nhận xe bằng nghi thức nghiệm thu có biên bản; sử dụng đúng phạm vi và điều khoản hợp đồng; trả xe theo trình tự đối chiếu biên bản; và theo dõi hoàn cọc tới khi tiền về đủ. Mỗi bước có sản phẩm riêng — làm thiếu một sản phẩm là mở một kẽ cho tranh chấp về sau.",
+  "keyPoints": [
+   "Bước một: chốt nhu cầu, loại xe, và thời gian thuê trước khi liên hệ.",
+   "Bước hai: đặt xe và giữ xác nhận đặt — không đặt cọc không có giấy.",
+   "Bước ba: mang đủ giấy tờ nơi cho thuê yêu cầu, không để bản gốc.",
+   "Bước bốn: nhận xe bằng nghi thức nghiệm thu và biên bản có chữ ký hai bên."
+  ],
+  "entities": [
+   "xác nhận đặt xe",
+   "biên bản giao nhận",
+   "đối chiếu biên bản",
+   "xác nhận hoàn cọc"
+  ],
+  "keywords": [
+   "quy trình thuê xe",
+   "quy trinh thue xe",
+   "các bước thuê xe",
+   "thuê xe lần đầu",
+   "trình tự thuê xe"
+  ]
+ },
+ {
+  "url": "guide/su-dung-xe/cach-su-dung-xe-may/",
+  "title": "Cách sử dụng xe máy — tổng hợp kiến thức",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "summary": "Xe máy là phương tiện phổ biến nhất nhưng nhiều người dùng nó theo thói quen học lỏm từ ai đó, không theo hiểu biết — và các thói quen sai tích tụ thành hỏng hóc sớm và chi phí bảo dưỡng cao hơn dự kiến. Bài viết tổng hợp kiến thức cách sử dụng xe máy từ những thao tác đầu tiên: làm quen vị trí các tay điều khiển, khởi động và vào số đúng cách, điều khiển ga và phanh trong phố, dắt lùi và để xe đúng chống, chở người và đồ an toàn, cùng các thói quen dùng hằng ngày giữ xe bền — từ kiểm tra lốp tới gửi xe nơi thoáng. Phù hợp cả người mới ngồi lên xe lần đầu và người muốn tự sửa lại thói quen đang dùng sai.",
+  "quickAnswer": "Cách sử dụng xe máy đúng bắt đầu từ làm quen vị trí điều khiển: ga bên phải, phanh trước bên phải, phanh sau và côn bên trái, số ở chân trái. Khởi động để máy ổn rồi mới vào số đi. Phanh trước là lực phanh chính, bóp kèm phanh sau và không bóp gấp khi đường ướt. Chở người và đồ trong giới hạn thiết kế, và mỗi tuần một lần kiểm tra lốp, đèn, xích, dầu. Xe bền không nhờ đắt — nhờ thói quen dùng đúng.",
+  "keyPoints": [
+   "Làm quen vị trí điều khiển trước khi nổ máy: ga, hai phanh, côn, cần số.",
+   "Khởi động để máy ổn vài giây rồi mới vào số — không tăng ga ngay lúc vừa nổ.",
+   "Phanh trước là lực chính, dùng kèm phanh sau, không bóp gấp đường trơn.",
+   "Vào số theo tốc độ, về số thấp khi chuẩn bị dừng — không trượt côn dài."
+  ],
+  "entities": [
+   "tay ga",
+   "phanh trước",
+   "cần số",
+   "chống xe"
+  ],
+  "keywords": [
+   "cách sử dụng xe máy",
+   "cach su dung xe may",
+   "thao tác xe máy",
+   "lái xe máy cho người mới",
+   "dùng xe máy đúng cách"
+  ]
+ },
+ {
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "category": "Hướng dẫn",
