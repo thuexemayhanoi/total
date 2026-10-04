@@ -4263,6 +4263,60 @@
   ]
  },
  {
+  "url": "guide/mua-xe/thu-tuc-sang-ten/",
+  "title": "Thủ tục sang tên xe — kinh nghiệm cho người mới",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Sang tên là bước cuối của mọi giao dịch mua bán xe nhưng là bước quyết định việc xe thật sự thuộc về bạn — xe đã trả tiền mà chưa sang tên vẫn về mặt pháp lý là xe của người bán. Bài viết gói kinh nghiệm làm thủ tục sang tên xe cho người mới theo trật tự thực tế: chuẩn bị giấy tờ từ cả hai bên, nộp hồ sơ đúng nơi, đóng các khoản lệ phí, nhận đăng ký mới, và xử lý những tình huống hay khiến hồ sơ bị trả lại như chứng từ cũ, xe từng đổi chủ nhiều đời, hoặc người bán không thể có mặt. Làm đúng một lần, sang tên thường chỉ mất vài buổi — làm vội một khâu thì mất nhiều tuần chạy đi chạy lại.",
+  "quickAnswer": "Thủ tục sang tên xe gồm ba bước chính: chuẩn bị đầy đủ giấy tờ hai bên — chứng từ chuyển nhượng, đăng ký xe gốc, giấy tờ tùy thân, phiếu khai; nộp hồ sơ tại cơ quan công an nơi người mua đăng ký thường trú; đóng lệ phí và nhận giấy đăng ký mới trong thời hạn quy định. Kinh nghiệm quan trọng nhất: làm ngay sau khi mua, giữ bản sao toàn bộ chứng từ, và yêu cầu người bán đi cùng ít nhất một lần nếu chứng từ cũ có chi tiết chưa rõ.",
+  "keyPoints": [
+   "Chuẩn bị đủ giấy tờ hai bên trước ngày nộp — thiếu một tờ là mất một buổi.",
+   "Nộp hồ sơ tại cơ quan công an nơi người mua đăng ký thường trú.",
+   "Chứng từ chuyển nhượng phải đúng mẫu và có đủ chữ ký hai bên.",
+   "Làm ngay sau khi mua — trễ hạn có thể bị xử phạt hành chính."
+  ],
+  "entities": [
+   "chứng từ chuyển nhượng",
+   "giấy chứng nhận đăng ký xe",
+   "lệ phí trước bạ",
+   "nộp hồ sơ"
+  ],
+  "keywords": [
+   "thủ tục sang tên xe",
+   "thu tuc sang ten xe",
+   "sang tên ô tô",
+   "sang tên xe máy",
+   "hồ sơ sang tên xe"
+  ]
+ },
+ {
+  "url": "guide/mua-xe/chon-xe-theo-nhu-cau/",
+  "title": "Chọn xe theo nhu cầu — những điều cần biết",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Phần lớn người mua xe chọn theo mẫu xe đang được khen hoặc theo giá đang giảm, rồi sau vài tháng phát hiện xe không hợp với quãng đường mình thật sự đi mỗi ngày. Bài viết trình bày cách chọn xe theo nhu cầu như một quy trình bốn bước: phân loại nhu cầu đi lại thực tế, tính ngân sách theo chi phí sở hữu chứ không chỉ giá bán, so sánh dòng xe trên những tiêu chí đúng với nhu cầu đó, và cân các thỏi hiệp mà người mua hay bỏ qua — giữa cốp rộng và trọng lượng nhẹ, giữa động cơ êm và chi phí bảo dưỡng, giữa giá rẻ lúc mua và chi phí giữ xe lâu dài.",
+  "quickAnswer": "Chọn xe theo nhu cầu bằng bốn bước: viết ra quãng đường đi mỗi ngày, người chở và nơi để xe; tính ngân sách gồm giá xe cộng chi phí lăn bánh, xăng, bảo dưỡng và bảo hiểm mỗi năm; so sánh các dòng xe trên đúng tiêu chí của nhu cầu đó; và cân các thỏi hiệp về cốp, trọng lượng, chi phí bảo dưỡng. Chọn xe đúng nhu cầu rẻ hơn mua nhầm rồi đổi xe.",
+  "keyPoints": [
+   "Viết ra quãng đường mỗi ngày, người chở, và địa hình hay đi trước khi xem xe.",
+   "Tính ngân sách theo chi phí sở hữu mỗi năm, không chỉ giá bán.",
+   "So sánh dòng xe trên tiêu chí đúng nhu cầu: cốp, trọng lượng, chiều cao yên.",
+   "Xe số rẻ bảo dưỡng hơn; xe tay ga êm và tiện đồ hơn — không dòng nào thắng tuyệt đối."
+  ],
+  "entities": [
+   "nhu cầu đi lại",
+   "chi phí sở hữu",
+   "thỏi hiệp chọn xe",
+   "ngân sách mua xe"
+  ],
+  "keywords": [
+   "chọn xe theo nhu cầu",
+   "chon xe theo nhu cau",
+   "chọn xe máy theo nhu cầu",
+   "tính chi phí sở hữu xe",
+   "chọn dòng xe phù hợp"
+  ]
+ },
+ {
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "category": "Hướng dẫn",

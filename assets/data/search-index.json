@@ -5376,6 +5376,50 @@
  },
  {
   "kind": "article",
+  "url": "guide/mua-xe/thu-tuc-sang-ten/",
+  "title": "Thủ tục sang tên xe — kinh nghiệm cho người mới",
+  "description": "Kinh nghiệm làm thủ tục sang tên xe cho người mới: giấy tờ cần chuẩn bị, các bước nộp hồ sơ, lệ phí phải đóng và những lỗi khiến hồ sơ bị trả lại.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "chứng từ chuyển nhượng",
+   "giấy chứng nhận đăng ký xe",
+   "lệ phí trước bạ",
+   "nộp hồ sơ"
+  ],
+  "keywords": [
+   "thủ tục sang tên xe",
+   "thu tuc sang ten xe",
+   "sang tên ô tô",
+   "sang tên xe máy",
+   "hồ sơ sang tên xe"
+  ],
+  "summary": "Sang tên là bước cuối của mọi giao dịch mua bán xe nhưng là bước quyết định việc xe thật sự thuộc về bạn — xe đã trả tiền mà chưa sang tên vẫn về mặt pháp lý là xe của người bán. Bài viết gói kinh nghiệm làm thủ tục sang tên xe cho người mới theo trật tự thực "
+ },
+ {
+  "kind": "article",
+  "url": "guide/mua-xe/chon-xe-theo-nhu-cau/",
+  "title": "Chọn xe theo nhu cầu — những điều cần biết",
+  "description": "Những điều cần biết khi chọn xe theo nhu cầu: phân loại nhu cầu đi lại, tính ngân sách theo chi phí sở hữu, so sánh dòng xe và các thỏi hiệp thường bị bỏ qua.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "nhu cầu đi lại",
+   "chi phí sở hữu",
+   "thỏi hiệp chọn xe",
+   "ngân sách mua xe"
+  ],
+  "keywords": [
+   "chọn xe theo nhu cầu",
+   "chon xe theo nhu cau",
+   "chọn xe máy theo nhu cầu",
+   "tính chi phí sở hữu xe",
+   "chọn dòng xe phù hợp"
+  ],
+  "summary": "Phần lớn người mua xe chọn theo mẫu xe đang được khen hoặc theo giá đang giảm, rồi sau vài tháng phát hiện xe không hợp với quãng đường mình thật sự đi mỗi ngày. Bài viết trình bày cách chọn xe theo nhu cầu như một quy trình bốn bước: phân loại nhu cầu đi lại "
+ },
+ {
+  "kind": "article",
   "url": "guide/su-dung-xe/chay-ra-xe-may-dung-cach/",
   "title": "Chạy rà xe máy: vì sao cần và cách làm đúng",
   "description": "Chạy rà xe máy đúng cách: vì sao phải chạy rà, chạy bao nhiêu km, vòng tua và tải trọng thế nào, thay nhớt lần đầu khi nào để máy bền lâu.",
