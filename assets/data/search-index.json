@@ -8408,6 +8408,61 @@
  },
  {
   "kind": "article",
+  "url": "hub/van-de-thuong-gap/xe-bi-bo-phanh/",
+  "title": "Hướng dẫn chi tiết về xe bị bó phanh",
+  "description": "Xe bị bó phanh: dấu hiệu, nguyên nhân từ má phanh, piston đến trục cam, cách xử lý từng cấp độ và quy trình kiểm tra an toàn trước khi tới tiệm.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [
+   "bó phanh",
+   "má phanh",
+   "piston phanh",
+   "trục cam phanh",
+   "tàu phanh",
+   "vành xe",
+   "bảo dưỡng phanh",
+   "phanh đĩa",
+   "phanh cơ"
+  ],
+  "keywords": [
+   "xe bị bó phanh",
+   "dấu hiệu bó phanh",
+   "xe máy bó phanh",
+   "cách xử lý bó phanh",
+   "phanh không nhả",
+   "nguyên nhân bó phanh"
+  ],
+  "summary": "Bó phanh là tình trạng hệ thống phanh không nhả hết sau khi bỏ tay lái hoặc nhả pedal, khiến xe bị kéo, ì, nóng pô và hao xăng bất thường. Hiện tượng này tiến triển chậm nên nhiều người chủ quan, nhưng nếu để lâu, ma phanh mòn lệch, vành nóng biến dạng và tai "
+ },
+ {
+  "kind": "article",
+  "url": "hub/van-de-thuong-gap/xe-hao-xang/",
+  "title": "Tổng hợp kiến thức: xe hao xăng",
+  "description": "Tổng hợp nguyên nhân khiến xe máy hao xăng từ bộ hóa dầu, lọc gió, lốp non đến thói quen lái, kèm cách tự kiểm tra mức tiêu thụ và thời điểm cần bảo dưỡng đúng chỗ.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [
+   "hao xăng",
+   "bộ hòa khí",
+   "bugi",
+   "lọc gió",
+   "bình xăng con",
+   "áp suất lốp",
+   "nhớt máy",
+   "mức tiêu thụ nhiên liệu"
+  ],
+  "keywords": [
+   "xe hao xăng",
+   "xe máy hao xăng",
+   "nguyên nhân hao xăng",
+   "cách tiết kiệm xăng",
+   "bộ hòa khí bẩn",
+   "đo mức tiêu thụ xăng"
+  ],
+  "summary": "Xe hao xăng là hiện tượng mức tiêu thụ nhiên liệu tăng bất thường mà không kèm hỏng hóc lớn: xe vẫn nổ, vẫn đi nhưng mỗi bình xăng đi được ít km hơn trước. Nguyên nhân trải từ bộ hòa khí bẩn, bugi yếu, lọc gió tắc, nhớt đặc, lốp non cho tới thói quen lái ga độ"
+ },
+ {
+  "kind": "article",
   "url": "hub/dia-phuong/xe-may-dia-phuong/",
   "title": "Kinh nghiệm xe máy địa phương dành cho người mới",
   "description": "Kinh nghiệm đi xe máy đô thị Việt Nam cho người mới: đọc dòng chảy giao thông, nhường đường, gửi xe, xử lý tình huống và thói quen an toàn của người địa phương.",

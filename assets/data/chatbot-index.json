@@ -7925,6 +7925,71 @@
   ]
  },
  {
+  "url": "hub/van-de-thuong-gap/xe-bi-bo-phanh/",
+  "title": "Hướng dẫn chi tiết về xe bị bó phanh",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "summary": "Bó phanh là tình trạng hệ thống phanh không nhả hết sau khi bỏ tay lái hoặc nhả pedal, khiến xe bị kéo, ì, nóng pô và hao xăng bất thường. Hiện tượng này tiến triển chậm nên nhiều người chủ quan, nhưng nếu để lâu, ma phanh mòn lệch, vành nóng biến dạng và tai nạn do phanh đột ngột bó cứng có thể xảy ra. Bài viết tách từng nhóm dấu hiệu, nguyên nhân và cách xử lý theo mức độ nghiêm trọng để người dùng tự đánh giá trước khi đưa xe vào bảo dưỡng.",
+  "quickAnswer": "Khi thấy xe ì hơn thường ngày dù ga đều, vành hoặc pô nóng bất thường khi chạy đoạn ngắn, hay xe bị kéo lệch một bên sau khi phanh, hãy nghi ngờ bó phanh. Cách xử lý ngay: dừng xe nơi thoáng, kiểm tra độ nóng vành và pô bằng tay hờ, không phanh gấp; nếu nóng rõ rệt, để xe nguội rồi chạy chậm tới tiệm gần nhất. Không nên tự tháo má phanh nếu chưa nắm chắc kỹ thuật.",
+  "keyPoints": [
+   "Dấu hiệu nhận biết sớm: xe ì và hao xăng bất thường, vành nóng ran sau đoạn đường ngắn, tiếng rít nhẹ khi chạy đều ga.",
+   "Nguyên nhân phổ biến nhất là má phanh mòn hoặc piston phanh bẩn, kẹt do bụi và nước; trục cam khô cũng khiến nhả phanh không hết.",
+   "Không phanh gấp và không chạy đường dài khi nghi bó phanh: nhiệt tích tụ làm vành nóng biến dạng, nổ lốp.",
+   "Mức độ nhẹ làm sạch piston và tra dầu bôi trơn là đủ; mức độ nặng cần thay má, xilanh phanh hoặc ống dẫn khí nén."
+  ],
+  "entities": [
+   "bó phanh",
+   "má phanh",
+   "piston phanh",
+   "trục cam phanh",
+   "tàu phanh",
+   "vành xe",
+   "bảo dưỡng phanh",
+   "phanh đĩa",
+   "phanh cơ"
+  ],
+  "keywords": [
+   "xe bị bó phanh",
+   "dấu hiệu bó phanh",
+   "xe máy bó phanh",
+   "cách xử lý bó phanh",
+   "phanh không nhả",
+   "nguyên nhân bó phanh"
+  ]
+ },
+ {
+  "url": "hub/van-de-thuong-gap/xe-hao-xang/",
+  "title": "Tổng hợp kiến thức: xe hao xăng",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "summary": "Xe hao xăng là hiện tượng mức tiêu thụ nhiên liệu tăng bất thường mà không kèm hỏng hóc lớn: xe vẫn nổ, vẫn đi nhưng mỗi bình xăng đi được ít km hơn trước. Nguyên nhân trải từ bộ hòa khí bẩn, bugi yếu, lọc gió tắc, nhớt đặc, lốp non cho tới thói quen lái ga đột ngột và chở nặng. Bài viết tổng hợp toàn bộ các nhóm nguyên nhân theo thứ tự tần suất gặp, cách tự đo mức tiêu thụ chuẩn xác và lộ trình xử lý từ những việc tự làm được tại nhà đến các hạng mục cần mang xe vào tiệm.",
+  "quickAnswer": "Để đánh giá xe có hao xăng thật sự không, hãy đo chuẩn: đổ đầy bình, chạy 100 km đường quen thuộc với ga đều, đổ lại đầy và ghi số lít. Mức vượt ngưỡng khuyến cáo của xe khoảng 15 đến 20 phần trăm là dấu hiệu đáng kiểm tra. Bắt đầu bằng các việc rẻ nhất: vệ sinh lọc gió, kiểm tra áp lốp, thay bugi đúng kỳ, rồi mới tới xăng xử lý bộ hòa khí hoặc tiệm đo áp suất bình xăng con.",
+  "keyPoints": [
+   "Đo mức tiêu thụ bằng phương pháp đổ đầy trước và sau mỗi 100 km mới là căn cứ chính xác, đừng phán xét theo cảm giác.",
+   "Nhóm nguyên nhân rẻ nhất hay gặp nhất: lọc gió bẩn, bugi đến kỳ thay, nhớt đặc, lốp non áp suất.",
+   "Bộ hòa khí bẩn và điều chỉnh sai là thủ phạm lớn nhất với xe số; với xe tay ga cần kiểm tra thêm áp suất bình xăng con và hệ thống điện.",
+   "Thói quen lái quyết định rõ: ga đột ngột, phanh nhồi, chở nặng và chạy khi máy chưa đủ nóng đều tăng tiêu thụ."
+  ],
+  "entities": [
+   "hao xăng",
+   "bộ hòa khí",
+   "bugi",
+   "lọc gió",
+   "bình xăng con",
+   "áp suất lốp",
+   "nhớt máy",
+   "mức tiêu thụ nhiên liệu"
+  ],
+  "keywords": [
+   "xe hao xăng",
+   "xe máy hao xăng",
+   "nguyên nhân hao xăng",
+   "cách tiết kiệm xăng",
+   "bộ hòa khí bẩn",
+   "đo mức tiêu thụ xăng"
+  ]
+ },
+ {
   "url": "hub/dia-phuong/xe-may-dia-phuong/",
   "title": "Kinh nghiệm xe máy địa phương dành cho người mới",
   "category": "Trung tâm chủ đề",
