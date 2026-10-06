@@ -534,8 +534,8 @@ console.log('12. CLI fail-loud (lệnh sai phải thất bại)…');
   // 12a. Lịch sử sai: "factory.js generate --check" phải exit != 0 + báo rõ.
   const wrong = runNode([P.factory, 'generate', '--check'], { cwd: tmp });
   ok(wrong.status !== 0, '"factory.js generate --check" (lệnh sai cũ) giờ FAIL exit != 0 — không còn no-op xanh', String(wrong.status));
-  ok((wrong.stdout + wrong.stderr).includes('LỆNH KHÔNG TỒN TẠI'),
-    'Lệnh sai báo rõ "LỆNH KHÔNG TỒN TẠI" + gợi ý generate.js', (wrong.stdout + wrong.stderr).slice(0, 200));
+  ok(/lệnh không tồn tại/i.test(wrong.stdout + wrong.stderr),
+    'Lệnh sai báo rõ "Lệnh không tồn tại" (exit 1) + hướng dẫn usage', (wrong.stdout + wrong.stderr).slice(0, 200));
   // 12b. Lệnh lạ bất kỳ cũng fail-loud.
   const bad = runNode([P.factory, 'khong-ton-tai-xyz'], { cwd: tmp });
   ok(bad.status !== 0, 'Lệnh lạ bất kỳ exit != 0 (không âm thầm exit 0)', String(bad.status));
