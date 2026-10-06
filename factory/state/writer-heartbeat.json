@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-06T17:24:50.021Z",
+ "at": "2026-10-06T17:36:14.576Z",
  "phase": "waiting-publish",
- "pair": "S00363-S00372",
- "note": "queue S00363-S00372 da viet QA 100/100, verify-sources OK — cho push + Factory Publish"
+ "pair": "S00373-S00382",
+ "note": "Queue 6 (10 bai: xe-so, wave-alpha, uu-diem-xe-so, xe-so-110, xe-ga, xe-ga-110cc, xe-ga-125cc, cvt-xe-ga, winner-x, raider-rck) da QA 100/100, verify-sources OK, cho push"
 }
