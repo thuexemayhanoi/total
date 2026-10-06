@@ -1,21 +1,15 @@
-name: Factory Publish (write-ahead queue)
+name: Factory Publish Lite (batch 1-10)
 
-# TURBO WRITE-AHEAD QUEUE — học mô hình ổn định của /vanchinh, giữ engine Node của /total.
-# Writer ngoài có thể push 1..10 article modules trong một commit. Workflow:
-#   1) chụp EXACT push scope của event trước khi refresh;
-#   2) refresh origin/main để tránh stale checkout/race;
-#   3) recover + check-state;
-#   4) publish-plan chia scope/backlog article-backed thành PAIR 1-2 ID;
-#   5) consume tuần tự từng pair bằng publish-pair (QA minimal >=70);
-#   6) generate --check TRƯỚC commit;
-#   7) commit/push một lần cho toàn queue.
-# Pair QA fail đi REPAIR nhưng không giữ queue. Hạ tầng fail ở pair sau:
-# recover txn, commit tiến độ pair đã thành công, rồi workflow báo đỏ để sửa.
-# KHÔNG AI/API trong Actions; Actions chỉ tích hợp/QA/publish bài writer đã nộp.
+# HOT PATH giống Motoopen Article Factory Lite nhưng giữ chuẩn bài dài /total:
+# exact push scope -> fresh main -> scoped QA -> publish 1-10 bài MỘT transaction
+# -> scoped internal-link 404 gate -> commit một lần.
+# Full-site audit/generate byte-exact/invariant nặng được tách sang workflow manual.
 on:
   push:
     branches: [main]
-    paths: ['factory/data/articles/**', '.github/workflows/factory-publish.yml']
+    paths:
+      - 'factory/data/articles/**'
+      - '.github/workflows/factory-publish.yml'
 
 permissions:
   contents: write
@@ -26,6 +20,7 @@ concurrency:
 
 jobs:
   publish:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -37,94 +32,56 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Capture push scope (event SHA, trước truth refresh)
+      - name: Capture exact push scope
         id: scope
+        shell: bash
         run: |
           set -euo pipefail
           base="${{ github.event.before }}"
-          if [ -z "$base" ] || [[ "$base" =~ ^0+$ ]]; then
-            base="HEAD~1"
-          fi
+          if [ -z "$base" ] || [[ "$base" =~ ^0+$ ]]; then base="HEAD~1"; fi
           out=$(node factory/factory.js push-scope --base "$base")
           echo "$out"
-          ids=$(echo "$out" | sed -n 's/^SCOPE_IDS=//p')
-          mode=$(echo "$out" | sed -n 's/^SCOPE_MODE=//p')
-          if [ -z "$ids" ]; then
-            count=0
-            proceed=false
-          else
-            count=$(awk -F',' '{print NF}' <<< "$ids")
-            proceed=true
-          fi
-          if [ "$count" -gt 10 ]; then
-            echo "QUEUE_REFUSE: push có $count article IDs; tối đa 10 như /vanchinh."
-            exit 1
-          fi
+          ids=$(printf '%s\n' "$out" | sed -n 's/^SCOPE_IDS=//p')
+          if [ -z "$ids" ]; then count=0; proceed=false; else count=$(awk -F',' '{print NF}' <<< "$ids"); proceed=true; fi
+          if [ "$count" -gt 10 ]; then echo "QUEUE_REFUSE: tối đa 10 article IDs mỗi batch"; exit 1; fi
           echo "ids=$ids" >> "$GITHUB_OUTPUT"
-          echo "mode=$mode" >> "$GITHUB_OUTPUT"
           echo "count=$count" >> "$GITHUB_OUTPUT"
           echo "proceed=$proceed" >> "$GITHUB_OUTPUT"
-          echo "WRITE_AHEAD_SCOPE mode=$mode count=$count ids=$ids"
 
-      - name: Refresh repository truth (fetch origin/main; never force)
+      - name: Refresh fresh main
         if: steps.scope.outputs.proceed == 'true'
         run: |
           set -euo pipefail
           git fetch origin main
           git checkout -B main origin/main
-          echo "factory truth: $(git log -1 --format='%h %s')"
 
-      - name: Resume + recover trên fresh truth
+      - name: Recover + state guard
         if: steps.scope.outputs.proceed == 'true'
         run: |
           set -euo pipefail
-          node factory/factory.js resume
           node factory/factory.js recover-txn
           node factory/factory.js check-state
 
-      - name: Build deterministic publish plan (resume backlog trước, scope sau)
+      - name: Scoped preflight QA (1-10)
         if: steps.scope.outputs.proceed == 'true'
         run: |
           set -euo pipefail
-          node factory/factory.js publish-plan --scope "${{ steps.scope.outputs.ids }}" | tee /tmp/publish-plan.txt
-          grep '^PLAN_TXNS=' /tmp/publish-plan.txt
+          node factory/factory.js verify-batch "${{ steps.scope.outputs.ids }}"
 
-      - name: Consume queue tuần tự (PAIR 1-2 ID)
-        id: queue
-        if: steps.scope.outputs.proceed == 'true'
-        run: |
-          set -uo pipefail
-          fatal=0
-          done_pairs=0
-          while IFS= read -r line; do
-            case "$line" in
-              TXN\ *)
-                ids=$(printf '%s\n' "$line" | awk '{print $3}')
-                mode=$(printf '%s\n' "$line" | sed -n 's/.* mode=//p')
-                echo "QUEUE_PAIR $((done_pairs + 1)) ids=$ids mode=$mode"
-                if node factory/factory.js publish-pair "$ids" --owner ci-publisher; then
-                  done_pairs=$((done_pairs + 1))
-                else
-                  echo "QUEUE_PAIR_FATAL ids=$ids — recover rồi giữ nguyên tiến độ pair trước."
-                  node factory/factory.js recover-txn || true
-                  fatal=1
-                  break
-                fi
-                ;;
-            esac
-          done < /tmp/publish-plan.txt
-          echo "fatal=$fatal" >> "$GITHUB_OUTPUT"
-          echo "pairs=$done_pairs" >> "$GITHUB_OUTPUT"
-          echo "QUEUE_RESULT pairs_done=$done_pairs fatal=$fatal"
-
-      - name: Site verify TRƯỚC commit (generate.js --check — không push site chưa qua kiểm)
+      - name: Publish whole batch once
         if: steps.scope.outputs.proceed == 'true'
         run: |
           set -euo pipefail
-          node factory/generate.js --check
+          node factory/factory.js publish-batch "${{ steps.scope.outputs.ids }}" --owner ci-publisher
+
+      - name: 404 gate defense-in-depth
+        if: steps.scope.outputs.proceed == 'true'
+        run: |
+          set -euo pipefail
+          node factory/link-integrity.js --ids "${{ steps.scope.outputs.ids }}"
           node factory/factory.js check-state
 
-      - name: Commit derived state (một commit cho toàn queue)
+      - name: Commit batch outputs + state once
         if: steps.scope.outputs.proceed == 'true'
         run: |
           set -euo pipefail
@@ -132,44 +89,18 @@ jobs:
           git config user.email "nguyentuantu2482@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
-            echo "QUEUE_NO_CHANGES: không có state/site cần commit."
-          else
-            git commit -m "factory: publish queue ${{ steps.scope.outputs.ids }} [automated txn]"
-            ok=0
-            for i in 1 2 3; do
-              if git push; then
-                ok=1
-                break
-              fi
-              echo "push race lost; refresh + rebase (attempt $i/3)"
-              git fetch origin main
-              if ! git rebase origin/main; then
-                git rebase --abort 2>/dev/null || true
-                echo "rebase conflict — fail closed, không force push."
-                break
-              fi
-            done
-            if [ "$ok" != "1" ]; then
-              echo "KHÔNG push được queue state sau bounded retry."
-              exit 1
-            fi
+            echo "BATCH_NO_CHANGES"
+            exit 0
           fi
-
-      - name: Cổng cuối (state sạch + site khớp; backlog mới không làm đỏ giả)
-        if: steps.scope.outputs.proceed == 'true'
-        run: |
-          set -euo pipefail
-          node factory/factory.js check-state
-          node factory/generate.js --check
-          node factory/factory.js production-status
-
-      - name: Báo lỗi hạ tầng sau khi đã giữ checkpoint pair thành công
-        if: steps.scope.outputs.proceed == 'true' && steps.queue.outputs.fatal == '1'
-        run: |
-          echo "QUEUE_FATAL: có pair hạ tầng lỗi; tiến độ pair trước đã được giữ, cần repair/resume."
-          exit 1
+          git commit -m "factory: publish lite batch ${{ steps.scope.outputs.ids }} [automated]"
+          ok=0
+          for i in 1 2 3; do
+            if git push; then ok=1; break; fi
+            git fetch origin main
+            if ! git rebase origin/main; then git rebase --abort 2>/dev/null || true; break; fi
+          done
+          if [ "$ok" != "1" ]; then echo "BATCH_PUSH_FAIL"; exit 1; fi
 
       - name: Empty scope
         if: steps.scope.outputs.proceed != 'true'
-        run: |
-          echo "SCOPE_EMPTY: commit không chứa article module cần publish — thoát sạch."
+        run: echo "SCOPE_EMPTY"

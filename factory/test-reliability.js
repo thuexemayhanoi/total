@@ -669,31 +669,30 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
 {
   const wf = (f) => readS(path.join(ROOT, '.github', 'workflows', f));
   const pub = wf('factory-publish.yml');
-  // WRITE-AHEAD QUEUE: writer push <=10 bài; publisher chia pair và consume tuần tự.
+  // FACTORY LITE: writer push <=10 bài; publisher xử lý nguyên batch một lần.
   ok(!pub.includes('continue-on-error'), 'factory-publish.yml: KHÔNG continue-on-error giấu lỗi');
-  ok(pub.includes('publish-pair'), 'factory-publish.yml: transaction unit vẫn publish-pair (QA minimal >= 70)');
+  ok(pub.includes('publish-batch'), 'factory-publish.yml: transaction unit hot path = publish-batch 1-10');
+  ok(pub.includes('verify-batch'), 'factory-publish.yml: QA scoped 1-10');
+  ok(pub.includes('link-integrity.js --ids'), 'factory-publish.yml: chặn internal link 404 trước commit');
   ok(pub.includes('push-scope'), 'factory-publish.yml: capture EXACT push scope');
-  ok(pub.includes('publish-plan --scope'), 'factory-publish.yml: publish-plan chia write-ahead queue thành pair deterministic');
-  ok(pub.includes('Refresh repository truth'), 'factory-publish.yml: refresh fresh origin/main trước mutation (chống stale checkout)');
+  ok(pub.includes('Refresh fresh main'), 'factory-publish.yml: refresh fresh origin/main trước mutation');
   ok(pub.includes('recover-txn'), 'factory-publish.yml: recover txn marker sau crash');
-  ok(pub.includes('check-state'), 'factory-publish.yml: guard state sạch qua factory.js check-state');
-  ok(!pub.includes('backlog --fail-if-claimable'), 'factory-publish.yml: KHÔNG đỏ giả khi writer vừa nộp queue kế tiếp');
-  ok(pub.includes('tối đa 10') || pub.includes('-gt 10'), 'factory-publish.yml: queue cap tối đa 10 article IDs');
-  ok(/node-version: '22'/.test(pub), 'factory-publish.yml: node 22 (node:sqlite cho content-index)');
-  // article-quality.yml: scoped CI theo change-mode — KHÔNG full-site audit
+  ok(pub.includes('check-state'), 'factory-publish.yml: guard state sạch');
+  ok(!pub.includes('publish-plan --scope') && !pub.includes('publish-pair'), 'factory-publish.yml: KHÔNG pair-split trong hot path');
+  ok(!pub.includes('node factory/generate.js --check'), 'factory-publish.yml: KHÔNG full-site byte check trong hot path');
+  ok(pub.includes('tối đa 10') || pub.includes('-gt 10'), 'factory-publish.yml: batch cap tối đa 10');
+  ok(/node-version: '22'/.test(pub), 'factory-publish.yml: node 22');
+  // article-quality.yml: engine-only; content QA không chạy duplicate pipeline.
   const aq = wf('article-quality.yml');
-  ok(aq.includes('change-mode'), 'article-quality.yml: phân loại commit qua factory.js change-mode (CONTENT_ONLY/ENGINE_CHANGE)');
-  ok(aq.includes("sed -n 's/^CHANGE_MODE=//p'") && aq.includes('CHANGE_MODE_PARSE_FAIL'),
-    'article-quality.yml: parse đúng prefix CHANGE_MODE= trước khi so điều kiện (chống xanh giả/skip heavy gate)');
-  ok(aq.includes('verify-sources'), 'article-quality.yml: CONTENT_ONLY chỉ verify-sources scoped bài của commit (QA >= 70 chặn, SEO advisory)');
-  ok(aq.includes('test-reliability.js') && aq.includes('verify-invariant'), 'article-quality.yml: ENGINE_CHANGE heavy gate (full suites + verify-invariant)');
-  ok(!/on:.*push[\s\S]*min-score/.test(aq), 'article-quality.yml: KHÔNG audit full-site trong production loop');
+  ok(/Factory Engine Quality/.test(aq), 'article-quality.yml: engine-only heavy gate');
+  ok(!aq.includes('factory/data/articles/**'), 'article-quality.yml: article content push không trigger');
+  ok(aq.includes('test-reliability.js') && aq.includes('verify-invariant'), 'article-quality.yml: engine change full suites + invariant');
   // factory-deep-audit.yml: deep audit là MANUAL-ONLY (workflow_dispatch)
   const da = wf('factory-deep-audit.yml');
   ok(/workflow_dispatch/.test(da) && !/on:\s*\n\s*push/.test(da), 'factory-deep-audit.yml: CHỈ workflow_dispatch (manual-only, không chạy trong production loop)');
   ok(da.includes('audit') && da.includes('--min-score') && da.includes('70'), 'factory-deep-audit.yml: audit toàn bài PUBLISHED với QA minimal gate >= 70');
   ok(da.includes('manifest-sync') && da.includes('index-rebuild') && da.includes('index-check'), 'factory-deep-audit.yml: sync manifest + rebuild/check SQLite derived cache (coordinator)');
-  ok(da.includes('test-pair.js') && da.includes('generate --check'), 'factory-deep-audit.yml: full suites + generate --check khi owner chủ động deep audit');
+  ok(da.includes('test-pair.js') && da.includes('generate --check') && da.includes('link-integrity.js --all'), 'factory-deep-audit.yml: full suites + generate check + full-site link integrity');
 }
 
 // ---------- Kết luận: state repo THẬT nguyên vẹn (byte-identical) ----------

@@ -1,76 +1,56 @@
-# Production roles — WRITE-AHEAD QUEUE
+# Production roles — FACTORY LITE BATCH
 
-Mô hình production của `/total` giữ 3 vai trò (Writer 1 + Đốc công 2 + Đốc công 3), nhưng hot path publish đã học cơ chế ổn định của `/vanchinh`.
+`/total` dùng mô hình Writer ngoài + GitHub publisher, tối ưu cho quy mô lớn (capacity hiện tại 20.000).
 
-## WRITER 1 — viết queue, không sửa engine
+## Hot loop
 
-Writer vẫn là phiên AI bên ngoài. GitHub Actions không tự viết prose và không gọi AI API.
+Writer:
 
-### Vòng lặp chuẩn
+1. fetch fresh `main`;
+2. `node factory/factory.js writer-next --count 10`;
+3. viết 1–10 article modules thật trong `factory/data/articles/`;
+4. `node factory/factory.js verify-batch ID1,ID2,...`;
+5. push batch;
+6. **không cần chờ để viết tiếp trong tư duy/session**; sau khi batch trước được publisher xử lý, fetch fresh main và lấy batch kế.
 
-1. Fetch fresh `main`.
-2. Chạy `node factory/factory.js writer-next --count N`, với `N=2..10` (turbo có thể dùng 10).
-3. Viết đúng các module được trả về trong `factory/data/articles/`.
-4. Chia danh sách thành pair 1–2 ID và chạy `verify-sources` cho từng pair trước khi push.
-5. Ghi `writer-heartbeat --phase waiting-publish --pair <ids>`.
-6. Push **1–10 bài** trong một commit. Đây là write-ahead queue an toàn trên `main`.
-7. `factory-publish.yml` chụp exact push scope, refresh fresh truth, dựng `publish-plan`, rồi tự chia queue thành pair 1–2 ID và consume tuần tự.
-8. Xác nhận workflow/Pages xanh, fetch fresh `main`, lấy queue kế tiếp và lặp.
+Publisher `.github/workflows/factory-publish.yml`:
 
-Không cần dừng sau mỗi pair 2 bài. Pair vẫn là đơn vị transaction/QA, còn writer push là queue tối đa 10 bài.
+exact push scope → fresh main → recover/check-state → verify-batch → **publish-batch 1–10 một lần** → scoped 404 link gate → commit/push một lần.
 
-## Publisher — event driven, queue 1–10
+Không còn chia queue 10 bài thành 5 pair trong hot path. `publish-pair` vẫn giữ lại làm recovery/repair compatibility.
 
-`factory-publish.yml`:
+## QA hot path
 
-- capture exact event scope **trước** khi refresh;
-- từ chối push có hơn 10 article IDs;
-- refresh `origin/main` trước mọi mutation để tránh stale checkout;
-- recover txn + check-state;
-- `publish-plan --scope` ưu tiên backlog article-backed cũ rồi scope mới;
-- consume từng pair bằng `publish-pair`;
-- QA minimal gate vẫn **>=70**, SEO/intent advisory như hiện tại;
-- pair QA fail đi REPAIR và queue tiếp tục;
-- infra fail ở pair sau sẽ recover, giữ checkpoint pair trước, commit phần đã thành công rồi báo đỏ;
-- `generate.js --check` chạy trước commit;
-- commit/push **một lần cho cả queue**;
-- final gate không ép `backlog=0`, vì writer mới có thể vừa push queue kế tiếp và đó không phải lỗi.
+Mỗi bài vẫn giữ minimal gate hiện có:
 
-Publisher và coordinator dùng chung concurrency `total-production`, không chạy đè nhau.
+- cấu trúc + tối thiểu 1.600 từ;
+- không trùng ID/slug;
+- canonical đúng slot;
+- render sạch;
+- không bịa business facts;
+- related links hợp lệ;
+- QA >= 70; SEO advisory.
 
-## Coordinator — maintenance only
+Thêm **internal link integrity fail-closed** sau render. Mọi href nội bộ trên trang vừa sinh phải resolve tới file thật dưới project path `/total/`. Link nội bộ dẫn tới 404 hoặc thoát sai project base làm batch fail trước khi ghi PUBLISHED.
 
-`factory-coordinator.yml` chạy mỗi 10 phút:
+Checker hot path chỉ quét 1–10 trang mới, nên không biến mỗi batch thành full-site scan. Deep audit có `link-integrity --all` để rà toàn site khi chủ động chạy.
 
-fresh `origin/main` → recover → check-state → queue-refill → manifest-sync → verify-invariant → backlog/status → commit chỉ khi có diff thật.
+## Heavy work tách khỏi hot loop
 
-Refresh fresh truth ngay đầu tick là bắt buộc để tránh lỗi rebase conflict do scheduled event checkout SHA cũ.
+`article-quality.yml` chỉ chạy khi engine/template/workflow/test thay đổi. Article content push không chạy thêm một pipeline QA trùng lặp.
 
-## Đốc công 2
+`factory-coordinator.yml` chỉ làm maintenance nhẹ: recover/state guard → queue refill → production status. Không manifest rebuild / invariant full-site mỗi 10 phút.
 
-Theo dõi `production-status`, `liveness` và `error-queue`.
+`factory-deep-audit.yml` là manual-only và chịu trách nhiệm full suites, manifest/index rebuild, invariant, byte-exact generate check và full-site link integrity.
 
-- heartbeat cũ quá 120 phút khi đang writing/waiting-publish → stalled;
-- lỗi writer/publisher được ghi `error-log`;
-- 3 lần không sửa được → escalated cho Đốc công 3;
-- không khởi chạy writer trùng khi heartbeat còn tươi.
+## 20k scale
 
-## Đốc công 3
+Matrix hiện có logical capacity 20.000; không reset ID, slug hay bài đã PUBLISHED. Hot path luôn bounded 10 bài/batch và scoped QA/link check. Full-site O(N) work không nằm trong mỗi article push.
 
-Chỉ xử lý entry escalated, sửa nguyên nhân gốc, chạy validation liên quan rồi `error-resolve`.
+Nguồn topic vẫn là giới hạn độc lập: capacity 20.000 không tự sinh 20.000 chủ đề. Queue-refill chỉ dùng topic hợp lệ sẵn có; không bịa topic để lấp số lượng.
 
-## Watchdog và verify
+## Recovery
 
-- `factory-liveness.yml`: read-only mỗi giờ, chỉ phát hiện stall/escalated.
-- `factory-publish-verify.yml`: manual read-only, chạy invariant + generate check + toàn bộ regression suite.
-- `factory-deep-audit.yml`: manual full-site audit; không đưa vào hot path.
+Mất session: fetch fresh main → recover-txn → writer-next. Không force push, không reset matrix, không tái sử dụng ID/slug, không bypass QA.
 
-## Giới hạn môi trường
-
-GitHub Actions không thể tự đánh thức một phiên Mistral đã kết thúc. Write-ahead queue giúp một phiên writer làm được nhiều bài hơn trước khi kết thúc, còn watchdog chỉ phát hiện xưởng đứng.
-
-Topic pool vẫn là nguồn đề tài của queue-refill. Không reset matrix, không tái sử dụng ID/slug đã dùng.
-
-## Resume an toàn
-
-Mất phiên giữa chừng: phiên sau fetch fresh `main` → `writer-next --count N` ưu tiên bài dở có module trước, rồi PLANNED mới. Txn marker sót được `recover-txn` xử lý. Không force push và không bypass QA.
+GitHub Actions không tự viết prose và không thể đánh thức một Mistral session đã chết; writer vẫn là phiên AI ngoài.

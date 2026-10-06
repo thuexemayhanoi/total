@@ -70,13 +70,13 @@ console.log('1. Workflow + CLI contract…');
     ['recover-txn', wf.indexOf('factory.js recover-txn')],
     ['check-state', wf.indexOf('factory.js check-state')],
     ['queue-refill', wf.indexOf('factory.js queue-refill --role coordinator')],
-    ['manifest-sync', wf.indexOf('factory.js manifest-sync --role coordinator')],
-    ['verify-invariant', wf.indexOf('factory.js verify-invariant')],
     ['production-status', wf.indexOf('factory.js production-status')],
   ];
-  ok(order.every(([, i]) => i >= 0), 'factory-coordinator.yml: đủ 6 lệnh maintenance tick', JSON.stringify(order));
+  ok(order.every(([, i]) => i >= 0), 'factory-coordinator.yml: đủ maintenance nhẹ', JSON.stringify(order));
   ok(order.every(([n, i], k) => k === 0 || i > order[k - 1][1]),
-    'factory-coordinator.yml: đúng thứ tự recover -> state -> refill -> manifest -> invariant -> status');
+    'factory-coordinator.yml: đúng thứ tự recover -> state -> refill -> status');
+  ok(!/manifest-sync|verify-invariant/.test(wf),
+    'factory-coordinator.yml: KHÔNG full O(N) manifest/invariant trong tick 10 phút');
   // MÔ HÌNH 3 WRITER ĐÃ BỎ: coordinator KHÔNG còn cycle steps.
   ok(!/cycle-plan|cycle-qa|cycle-publish|drain-iteration/.test(wf),
     'factory-coordinator.yml: KHÔNG còn cycle-plan/cycle-qa/cycle-publish (bỏ phân công 3 writer)');
@@ -98,16 +98,23 @@ console.log('1. Workflow + CLI contract…');
     'factory-publish.yml: trigger CHỈ article files + chính nó (một article push chỉ publish một lần)');
   ok(/group:\s*total-production/.test(pub) && /cancel-in-progress:\s*false/.test(pub),
     'factory-publish.yml: dùng CHUNG concurrency group total-production — publisher duy nhất, không chạy đè coordinator');
-  ok(/node factory\/generate\.js --check/.test(pub), 'factory-publish.yml: cổng cuối dùng factory/generate.js --check');
-  ok(pub.indexOf('node factory/generate.js --check') >= 0 && pub.indexOf('node factory/generate.js --check') < pub.indexOf('Commit derived state'),
-    'factory-publish.yml: generate.js --check chạy TRƯỚC commit/push — không đẩy state/site chưa qua kiểm');
-  ok(!/factory\.js generate/.test(pub), 'factory-publish.yml: KHÔNG còn "factory.js generate" (lệnh không tồn tại — trước đây exit 0 âm thầm)');
-  ok(pub.includes('publish-plan --scope') && pub.includes('QUEUE_RESULT'),
-    'factory-publish.yml: write-ahead queue -> publish-plan -> consume pair tuần tự');
+  ok(pub.includes('publish-batch'), 'factory-publish.yml: HOT PATH publish cả batch 1-10 một transaction');
+  ok(pub.includes('verify-batch'), 'factory-publish.yml: scoped QA batch trước publish');
+  ok(pub.includes('link-integrity.js --ids'), 'factory-publish.yml: 404 gate scoped fail-closed');
+  ok(!pub.includes('publish-plan --scope') && !pub.includes('QUEUE_RESULT'),
+    'factory-publish.yml: KHÔNG chia queue thành pair trong hot path');
+  ok(!pub.includes('node factory/generate.js --check'),
+    'factory-publish.yml: KHÔNG full byte-exact generate check trong hot path');
   ok(pub.includes('Refresh repository truth') && pub.indexOf('Capture push scope') < pub.indexOf('Refresh repository truth'),
     'factory-publish.yml: capture event scope trước, refresh fresh truth sau');
   ok(!pub.includes('backlog --fail-if-claimable'),
     'factory-publish.yml: final gate không fail backlog mới do writer push song song');
+
+  const aq = readS(path.join(ROOT, '.github', 'workflows', 'article-quality.yml'));
+  ok(/name:\s*Factory Engine Quality/.test(aq), 'article-quality.yml: engine-only heavy gate');
+  ok(!aq.includes("factory/data/articles/**"), 'article-quality.yml: article push KHÔNG chạy pipeline QA trùng');
+  ok(aq.includes('test-reliability.js') && aq.includes('verify-invariant') && aq.includes('generate.js --check'),
+    'article-quality.yml: engine change vẫn có full heavy gate');
 
   // Watchdog: factory-liveness.yml.
   const lv = readS(path.join(ROOT, '.github', 'workflows', 'factory-liveness.yml'));

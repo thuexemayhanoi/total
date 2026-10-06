@@ -1,10 +1,7 @@
-name: Factory Coordinator (maintenance tick)
+name: Factory Coordinator (light maintenance)
 
-# Maintenance tick nhẹ — writer/publisher hot path nằm ở factory-publish.yml.
-# Mỗi tick PHẢI refresh origin/main trước khi mutate để tránh scheduled event
-# checkout SHA cũ rồi rebase conflict với publisher (bug stale snapshot cũ).
-# Tick: fresh truth -> recover -> check -> refill -> manifest -> invariant/status
-# -> commit CHỈ khi có diff thật.
+# Lightweight only: do not rescan/rebuild the whole 20k-site namespace.
+# Full manifest/invariant/site audits live in factory-deep-audit.yml.
 on:
   workflow_dispatch:
   schedule:
@@ -20,69 +17,45 @@ concurrency:
 jobs:
   coordinator:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Refresh repository truth (chống stale scheduled checkout)
+      - name: Fresh truth
         run: |
           set -euo pipefail
           git fetch origin main
           git checkout -B main origin/main
-          echo "coordinator truth: $(git log -1 --format='%h %s')"
 
-      - name: "1. Recover transaction (run trước crash giữa publish)"
-        run: node factory/factory.js recover-txn
-
-      - name: "2. Resume view + state guard"
+      - name: Recover + state guard
         run: |
-          node factory/factory.js resume
+          set -euo pipefail
+          node factory/factory.js recover-txn
           node factory/factory.js check-state
 
-      - name: "3. Queue refill (idempotent: planned < 100 -> ~300, chỉ coordinator)"
+      - name: Queue refill only
         run: node factory/factory.js queue-refill --role coordinator
 
-      - name: "4. Manifest sync (article-manifest.jsonl — JSONL source of truth)"
-        run: node factory/factory.js manifest-sync --role coordinator
+      - name: Production status
+        run: node factory/factory.js production-status
 
-      - name: "5. Invariant + backlog + production status (read-only)"
-        run: |
-          node factory/factory.js verify-invariant
-          node factory/factory.js backlog
-          node factory/factory.js production-status
-
-      - name: "6. Commit derived state (CHỈ khi có diff thật — tick rỗng không commit)"
+      - name: Commit only real maintenance changes
         run: |
           set -euo pipefail
           git config user.name "total-factory-bot"
           git config user.email "nguyentuantu2482@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then
-            echo 'COORD_NO_CHANGES: tick này không đổi state — không commit (chống churn timestamp).'
-          else
-            git commit -m "factory: coordinator maintenance tick [automated]"
-            ok=0
-            for i in 1 2 3; do
-              if git push; then
-                ok=1
-                break
-              fi
-              echo "push race lost; refresh + rebase (attempt $i/3)"
-              git fetch origin main
-              if ! git rebase origin/main; then
-                git rebase --abort 2>/dev/null || true
-                echo "rebase conflict — fail closed, không force push."
-                break
-              fi
-            done
-            if [ "$ok" != "1" ]; then
-              echo "KHÔNG push được state sau 3 lần"
-              exit 1
-            fi
-          fi
+          if git diff --cached --quiet; then echo "COORD_NO_CHANGES"; exit 0; fi
+          git commit -m "factory: coordinator light tick [automated]"
+          ok=0
+          for i in 1 2 3; do
+            if git push; then ok=1; break; fi
+            git fetch origin main
+            if ! git rebase origin/main; then git rebase --abort 2>/dev/null || true; break; fi
+          done
+          if [ "$ok" != "1" ]; then exit 1; fi

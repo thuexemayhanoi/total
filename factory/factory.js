@@ -39,6 +39,7 @@ const { execFileSync } = require('child_process');
 const lock = require('./lib/lock');
 const runtime = require('./lib/factory-runtime');
 const contentIndex = require('./lib/content-index');
+const linkIntegrity = require('./link-integrity');
 
 const STATE_DIR = path.join(__dirname, 'state');
 const STATE_FILE = path.join(STATE_DIR, 'factory-state.json');
@@ -502,6 +503,21 @@ function parsePairIds(args) {
   return ids;
 }
 
+function parseBatchIds(args) {
+  const ids = String(args || '').split(/[\s,]+/).filter(Boolean);
+  if (!ids.length) throw new Error('batch cần 1-' + runtime.PUBLISH_CHUNK_LIMIT + ' ID tường minh');
+  const seen = new Set();
+  for (const id of ids) {
+    if (!/^S\d{5,}$/.test(id)) throw new Error('ID không hợp lệ: ' + id);
+    if (seen.has(id)) throw new Error('ID lặp trong batch: ' + id);
+    seen.add(id);
+  }
+  if (ids.length > runtime.PUBLISH_CHUNK_LIMIT) {
+    throw new Error('Quá ' + runtime.PUBLISH_CHUNK_LIMIT + ' ID mỗi batch (nhận ' + ids.length + ')');
+  }
+  return ids;
+}
+
 // PUBLISH-PAIR — transaction đúng 1-2 ID: VALIDATE -> LOCK -> scoped QA
 // (MINIMAL GATE) -> FAIL vào REPAIR QUEUE (KHÔNG giữ pair), PASS publish ->
 // BEGIN TXN -> generate -> verify-pair -> lật đúng rows -> save atomic ->
@@ -591,6 +607,18 @@ function publishPair(ids, opts) {
       else process.env.FACTORY_GEN_INCLUDE = prevInc;
     }
     const genTime = Date.now() - tGen;
+    // FAIL-CLOSED 404 GATE: chỉ quét các trang vừa sinh của scope này,
+    // nhưng resolve mọi href nội bộ tới file thật trên cây production.
+    // Không quét lại 20k trang mỗi batch; link sai của bài mới vẫn bị chặn
+    // TRƯỚC khi matrix lật PUBLISHED.
+    const tLink = Date.now();
+    const li = linkIntegrity.checkScopeIds(publishWork, path.join(__dirname, '..'));
+    if (!li.ok) {
+      for (const e of li.errors) console.error('LINK_404_FAIL: ' + e);
+      throw new Error('link-integrity không đạt — KHÔNG ghi state.');
+    }
+    console.log('LINK_INTEGRITY_OK ids=' + publishWork.join(',') + ' checked=' + li.checkedLinks);
+    const linkTime = Date.now() - tLink;
     const tVer = Date.now();
     const v = verifyPair(m, publishWork, { requirePublished: isRepair, checkLock: false });
     const verTime = Date.now() - tVer;
@@ -612,7 +640,7 @@ function publishPair(ids, opts) {
     committed = true;
     console.log('PAIR_RESULT ok=' + (isRepair ? 'republished' : 'published') + ' ids=' + publishWork.join(',') +
       (failedResults.length ? ' repaired=' + failedResults.map((r) => r.s.id).join(',') : '') +
-      ' qa_time=' + qaTime + 'ms generate_time=' + genTime + 'ms verify_time=' + verTime + 'ms total=' + (Date.now() - t0) + 'ms');
+      ' qa_time=' + qaTime + 'ms generate_time=' + genTime + 'ms link_time=' + linkTime + 'ms verify_time=' + verTime + 'ms total=' + (Date.now() - t0) + 'ms');
   } finally {
     try { lock.release(STATE_DIR, record); }
     catch (e) { console.error('LỖI giải phóng lock (có thể bị reclaim): ' + e.message); }
@@ -920,6 +948,11 @@ Lệnh:
                                   publish explicit IDs -> thả lock -> NO-PROGRESS
                                   sentinel; in DRAIN_RESULT done=... (workflow gọi
                                   lặp tới khi done=true)
+  publish-batch <ID,...> [--owner O] [--token-file F]
+                                  HOT PATH LITE: publish 1-10 ID trong MỘT batch —
+                                  scoped QA >=70 + generate một lần + link 404
+                                  fail-closed + verify + flip state atomic
+  verify-batch <ID,...>           Read-only pre-publish QA cho 1-10 ID (writer)
   publish-pair <ID,ID> [--owner O] [--token-file F]
                                   Hot path: publish ĐÚNG pair (tối đa 2 ID) —
                                   lock -> QA minimal scoped (FAIL -> repair
@@ -1366,6 +1399,28 @@ function main() {
     console.log('Hành động cuối:', st.lastAction ? st.lastAction.action : 'chưa có');
     return;
   }
+  if (cmd === 'publish-batch') {
+    const ids = parseBatchIds(positional(rest).join(' '));
+    const owner = opt('--owner') || 'ci-publisher';
+    const tokenFile = opt('--token-file');
+    try {
+      // Reuse transaction core của publishPair, nhưng chạy 1-10 ID trong MỘT
+      // generate + MỘT scoped link gate + MỘT state commit.
+      publishPair(ids, { owner, tokenFile });
+    } catch (e) {
+      console.error('PUBLISH_BATCH_FAIL: ' + (e && e.message ? e.message : e));
+      process.exit(1);
+    }
+    return;
+  }
+  if (cmd === 'verify-batch') {
+    const ids = parseBatchIds(positional(rest).join(' '));
+    const m = loadMatrix();
+    const v = verifySources(m, ids);
+    if (!v.ok) { for (const e of v.errors) console.error('VERIFY_BATCH_FAIL: ' + e); process.exit(1); }
+    console.log('VERIFY_BATCH_OK: ' + ids.join(','));
+    return;
+  }
   if (cmd === 'publish-pair') {
     const ids = parsePairIds(positional(rest).join(' '));
     const owner = opt('--owner') || 'ci-publisher';
@@ -1709,7 +1764,7 @@ module.exports = {
   lock: { status: lockStatus, active: activeLock },
   runtime,
   // simple production mode (pair hot path)
-  publishPair, parsePairIds, verifyPair, verifySources, intentConflicts,
+  publishPair, parsePairIds, parseBatchIds, verifyPair, verifySources, intentConflicts,
   recoverTxn, loadTxn, writeTxn, clearTxn, TXN_FILE,
   // content-index: manifest JSONL (source of truth) + sqlite derived cache
   MANIFEST_FILE, contentIndex,

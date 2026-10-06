@@ -57,4 +57,5 @@ jobs:
           set -euo pipefail
           node factory/factory.js verify-invariant
           node factory/generate.js --check
+          node factory/link-integrity.js --all
           echo 'DEEP_AUDIT_OK'

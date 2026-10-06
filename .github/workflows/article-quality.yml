@@ -1,23 +1,29 @@
-name: Article Quality (scoped)
+name: Factory Engine Quality
 
-# CI theo change-mode — KHÔNG full-site audit trong production loop:
-#   CONTENT_ONLY  -> scoped gate: verify-sources CHỈ các bài của commit này
-#                    (QA minimal gate >= 70 chặn; SEO/intent chỉ advisory).
-#   ENGINE_CHANGE -> heavy gate: full test suites + verify-invariant +
-#                    generate --check (engine/CI/test thay đổi thì phải chứng
-#                    minh toàn vẹn cây sinh).
-# Full-site deep audit là workflow riêng factory-deep-audit.yml —
-# MANUAL-ONLY (workflow_dispatch), không chạy trong production loop.
+# Engine/template/workflow changes get the heavy gate.
+# Article content pushes do NOT trigger this workflow; Factory Publish Lite owns
+# scoped content QA so the hot loop has only one content pipeline.
 on:
+  workflow_dispatch:
   push:
     branches: [main]
-    paths: ['factory/**', '.github/workflows/**']
+    paths:
+      - 'factory/factory.js'
+      - 'factory/generate.js'
+      - 'factory/qa.js'
+      - 'factory/seo.js'
+      - 'factory/site.config.js'
+      - 'factory/link-integrity.js'
+      - 'factory/lib/**'
+      - 'factory/data/categories.js'
+      - 'factory/test*.js'
+      - '.github/workflows/**'
 
 permissions:
   contents: read
 
 concurrency:
-  group: article-quality
+  group: factory-engine-quality
   cancel-in-progress: false
 
 jobs:
@@ -31,38 +37,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Phân loại commit (CONTENT_ONLY | ENGINE_CHANGE | EMPTY)
-        id: mode
-        run: |
-          set -euo pipefail
-          out=$(node factory/factory.js change-mode)
-          echo "$out"
-          mode=$(printf '%s\n' "$out" | sed -n 's/^CHANGE_MODE=//p')
-          case "$mode" in
-            CONTENT_ONLY|ENGINE_CHANGE|EMPTY) ;;
-            *) echo "CHANGE_MODE_PARSE_FAIL: $out"; exit 1 ;;
-          esac
-          echo "mode=$mode" >> "$GITHUB_OUTPUT"
-
-      - name: Scoped gate (CONTENT_ONLY) - QA minimal >= 70 chi bai cua commit
-        if: steps.mode.outputs.mode == 'CONTENT_ONLY'
-        run: |
-          set -euo pipefail
-          node factory/factory.js push-scope
-          IDS=$(node factory/factory.js push-scope | grep '^SCOPE_IDS=' | cut -d= -f2)
-          echo "Scoped IDs: ${IDS:-<none>}"
-          if [ -n "${IDS}" ]; then
-            IFS=',' read -r -a arr <<< "${IDS}"
-            for ((i = 0; i < ${#arr[@]}; i += 2)); do
-              PAIR=$(IFS=,; echo "${arr[*]:i:2}")
-              echo "-- verify-sources pair: ${PAIR}"
-              node factory/factory.js verify-sources "${PAIR}"
-            done
-          fi
-          echo 'CONTENT_ONLY scoped gate OK (SEO advisory - khong chan publish)'
-
-      - name: Heavy gate (ENGINE_CHANGE) - full suites + invariant + sinh cay
-        if: steps.mode.outputs.mode == 'ENGINE_CHANGE'
+      - name: Heavy engine gate
         run: |
           set -euo pipefail
           node factory/test.js
@@ -73,8 +48,4 @@ jobs:
           node factory/test-coordinator.js
           node factory/factory.js verify-invariant
           node factory/generate.js --check
-          echo 'ENGINE_CHANGE heavy gate OK'
-
-      - name: Nothing to do (EMPTY)
-        if: steps.mode.outputs.mode != 'CONTENT_ONLY' && steps.mode.outputs.mode != 'ENGINE_CHANGE'
-        run: echo 'CHANGE_MODE=EMPTY - thoat sach, khong dia gi'
+          echo 'ENGINE_GATE_OK'
