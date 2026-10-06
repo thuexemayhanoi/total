@@ -81,8 +81,8 @@ module.exports = {
   related:   [
     'ky-thuat-lai-xe-tiet-kiem-xang',
     'xe-hao-xang',
-    'do-ap-suat-lop',
-    'meo-bao-duong',
+    'ap-suat-lop',
+    'bao-duong-xe-may-tai-nha-viec-tu-lam-duoc',
     'meo-lai-xe'
   ]
 };
