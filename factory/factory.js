@@ -270,7 +270,28 @@ function loadAllArticlesBySlug() {
   return _articlesBySlugCache;
 }
 function loadArticleBySlug(slug) {
-  return loadAllArticlesBySlug().get(slug) || null;
+  // HOT PATH 20k: đọc đúng module theo slug, không require toàn bộ thư mục.
+  // Full-site/deep-audit vẫn dùng loadAllArticlesBySlug() để fail-loud toàn repo.
+  const file = path.join(__dirname, 'data', 'articles', String(slug || '') + '.js');
+  if (!fs.existsSync(file)) return null;
+  let a;
+  try {
+    a = require(file);
+  } catch (e) {
+    e.message = 'Không nạp được module bài factory/data/articles/' + path.basename(file) + ' — ' + (e && e.message ? e.message : e);
+    throw e;
+  }
+  if (!a || a.slug !== slug) throw new Error('Module ' + path.basename(file) + ' có slug không khớp: ' + (a && a.slug));
+  return { ...a, path: a.hub ? (a.category + '/' + a.hub + '/' + a.slug + '/') : (a.category + '/' + a.slug + '/') };
+}
+
+function linkableSlugsFor(m, ids) {
+  const scope = new Set(ids || []);
+  const out = new Set();
+  for (const s of m.slots || []) {
+    if (s.state === 'PUBLISHED' || scope.has(s.id)) out.add(s.slug);
+  }
+  return out;
 }
 
 // QA ctx cho MINIMAL GATE (scoped, deterministic): knownIds/knownSlugs lấy từ
@@ -287,6 +308,7 @@ function buildQaCtx(m, opts) {
   const slot = o.slot || null;
   return {
     knownIds, knownSlugs,
+    linkableSlugs: o.linkableSlugs instanceof Set ? o.linkableSlugs : null,
     slotId: slot ? slot.id : null,
     slot: slot ? { id: slot.id, hub: slot.hub, slug: slot.slug } : null,
   };
@@ -401,14 +423,16 @@ function recoverTxn(m) {
 
 // Scoped QA + SEO một slot (đúng module của slot, KHÔNG scan toàn site).
 // QA = MINIMAL GATE (chặn); SEO = ADVISORY (không chặn — chỉ ghi điểm).
-function qaSeoArticle(slot) {
+function qaSeoArticle(slot, opts) {
+  const o = opts || {};
   const article = loadArticleBySlug(slot.slug);
   if (!article) throw new Error('Chưa có module bài cho slot ' + slot.id + ' (' + slot.slug + ') — WAITING_FOR_WRITER');
   const { qaArticle } = require('./qa');
   const { seoArticle } = require('./seo');
-  const m = loadMatrix();
-  const qa = qaArticle(article, buildQaCtx(m, { excludeSlug: slot.slug, slot }));
-  const seo = seoArticle(article, { knownSlugs: new Set(loadAllArticlesBySlug().keys()) });
+  const m = o.matrix || loadMatrix();
+  const linkable = o.linkableSlugs instanceof Set ? o.linkableSlugs : new Set(m.slots.map((s) => s.slug));
+  const qa = qaArticle(article, buildQaCtx(m, { excludeSlug: slot.slug, slot, linkableSlugs: linkable }));
+  const seo = seoArticle(article, { knownSlugs: linkable });
   return { article, qa, seo };
 }
 
@@ -478,11 +502,12 @@ function verifyPair(m, ids, opts) {
 // QA + SEO + intent cho đúng IDs, không đòi trang sinh.
 function verifySources(m, ids) {
   const errors = [];
+  const linkable = linkableSlugsFor(m, ids);
   for (const id of ids) {
     const s = m.slots.find((x) => x.id === id);
     if (!s) { errors.push('không tìm thấy slot ' + id); continue; }
     let res;
-    try { res = qaSeoArticle(s); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
+    try { res = qaSeoArticle(s, { matrix: m, linkableSlugs: linkable }); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
     if (!res.qa.pass) errors.push('Slot ' + id + ' (QA ' + res.qa.score + '/100): ' + res.qa.checks.filter((x) => !x.pass).map((x) => x.name).join('; '));
     if (!res.seo.pass) console.log('SEO_ADVISORY ' + id + ' — SEO ' + res.seo.score + '/100 (KHÔNG chặn publish)');
     for (const e of intentConflicts(m, [id])) console.log('INTENT_WARNING ' + id + ' — ' + e + ' (KHÔNG chặn publish)');
@@ -556,9 +581,10 @@ function publishPair(ids, opts) {
     validateMatrix(m);
     const tQa = Date.now();
     const results = [];
+    const linkable = linkableSlugsFor(m, work);
     for (const id of work) {
       const s = m.slots.find((x) => x.id === id);
-      const res = qaSeoArticle(s);
+      const res = qaSeoArticle(s, { matrix: m, linkableSlugs: linkable });
       results.push({ s, res });
       console.log('QA+SEO ' + id + ' (' + s.slug + '): QA ' + res.qa.score + '/100 ' + (res.qa.pass ? 'ĐẠT' : 'TRƯỢT') + ' | SEO ' + res.seo.score + '/100 (advisory)');
     }
