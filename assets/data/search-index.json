@@ -8588,6 +8588,29 @@
  },
  {
   "kind": "article",
+  "url": "moto/xe-con-tay/cach-lai-xe-con/",
+  "title": "Hướng dẫn chi tiết về cách lái xe côn",
+  "description": "Hướng dẫn chi tiết cách lái xe côn tay: bố trí tay lái, điểm ăn côn, khởi động, sang số, dừng dốc và các lỗi thường gặp.",
+  "category": "Xe máy",
+  "hub": "Xe côn tay",
+  "entities": [
+   "xe côn tay",
+   "tay côn",
+   "điểm ăn côn",
+   "sang số",
+   "phanh động cơ"
+  ],
+  "keywords": [
+   "cach lai xe con",
+   "hoc lai xe con tay",
+   "diem an con",
+   "cach sang so xe con",
+   "lai xe con tay cho nguoi moi"
+  ],
+  "summary": "Lái xe côn tay là kỹ năng mở cánh cửa sang cả một lớp xe rộng hơn — từ dòng thể thao phổ thông đến mô tô lớn — nhưng với người mới, nó trông đáng ngại hơn bản chất của nó. Sự thật là: côn chỉ có bốn thao tác lặp lại (vào số, nhả côn, ga, và về số), và mọi tay "
+ },
+ {
+  "kind": "article",
   "url": "wiki/he-thong-phanh/cau-tao-phanh/",
   "title": "Cấu tạo phanh — những điều cần biết",
   "description": "Hệ thống phanh xe máy gồm những cụm nào, phanh đĩa và tang trống khác nhau ra sao, hệ dẫn lực cơ khí và thủy lực hoạt động thế nào, cách đọc và bảo trì từng bộ phận.",
@@ -8793,6 +8816,29 @@
  },
  {
   "kind": "article",
+  "url": "ride/du-lich-xe-may/chuan-bi-di-phuot/",
+  "title": "Tổng hợp kiến thức: chuẩn bị đi phượt",
+  "description": "Tổng hợp kiến thức chuẩn bị đi phượt bằng xe máy: chuẩn bị xe, đồ cá nhân, giấy tờ, thời tiết và kế hoạch nhóm.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "chuẩn bị đi phượt",
+   "bảo dưỡng trước chuyến",
+   "đóng gói nhẹ",
+   "phương án B",
+   "checklist"
+  ],
+  "keywords": [
+   "chuan bi di phuot",
+   "checklist di phuot",
+   "do di phuot xe may",
+   "chuan bi xe di phuot",
+   "chuan bi phuot cho nguoi moi"
+  ],
+  "summary": "Phượt vui hay vất vả thường được quyết định trước khi xe lăn mét đầu tiên — ở khâu chuẩn bị. Một chuyến chuẩn bị đúng thì mưa chỉ là đổi lịch, hỏng nhỏ chỉ là mười phút ven đường, và cả nhóm về với chuyện kể; một chuyến chuẩn bị qua loa thì mọi thứ nhỏ cũng th"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dien-xe/coi-xe/",
   "title": "Kinh nghiệm còi xe dành cho người mới",
   "description": "Kinh nghiệm về còi xe máy: vì sao còi quan trọng, còi rè hay yếu xử thế nào, và dùng còi đúng hoàn cảnh để báo hiệu an toàn không gây phiền.",
@@ -8867,6 +8913,52 @@
    "vong tua may"
   ],
   "summary": "Mở bảng thông số bất kỳ mẫu xe máy nào, hai dòng đầu tiên thường là công suất (kW hoặc mã lực) và mô-men xoắn (N.m) — và đây cũng là hai con số bị hiểu sai nhiều nhất. Người mới hay nghĩ \"công suất cao là xe bốc\", rồi mua về thấy xe yếu ở đèn đỏ, hoặc ngược lạ"
+ },
+ {
+  "kind": "article",
+  "url": "ride/cung-duong/cung-duong-nui/",
+  "title": "Tổng hợp kiến thức: cung đường núi",
+  "description": "Tổng hợp kiến thức về cung đường núi: kỹ năng đèo dốc cua gắt, sương mù, mưa trơn, chuẩn bị xe và quy tắc an toàn vùng cao.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [
+   "cung đường núi",
+   "đèo",
+   "dốc dài",
+   "sương mù",
+   "sạt lở"
+  ],
+  "keywords": [
+   "cung duong nui",
+   "chay xe deo nui",
+   "kinh nghiem cung duong nui",
+   "lai xe duong nui",
+   "an toan cung nui"
+  ],
+  "summary": "Cung đường núi là \"trường đại học\" của người đi xe máy Việt Nam: nơi dốc – cua – sương – mưa – đá – cát tồn tại trên cùng một chặng, và nơi tay lái tiến bộ nhanh nhất nếu tôn trọng đúng cách — hoặc trả giá đắt nhất nếu đi bừa. Tổng hợp kiến thức này xếp theo đ"
+ },
+ {
+  "kind": "article",
+  "url": "ride/cung-duong/cung-duong-xe-may/",
+  "title": "Kinh nghiệm cung đường xe máy dành cho người mới",
+  "description": "Kinh nghiệm chạy cung đường xe máy cho người mới: chọn cung đầu tiên, chuẩn bị xe, kỹ năng đường trường và thói quen an toàn.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [
+   "cung đường",
+   "đường trường",
+   "tỉnh lộ",
+   "đi nhóm",
+   "nghỉ giữa chặng"
+  ],
+  "keywords": [
+   "cung duong xe may",
+   "kinh nghiem cung duong",
+   "chay cung duong xe may",
+   "cung duong cho nguoi moi",
+   "di cung duong an toan"
+  ],
+  "summary": "Chạy cung đường — đi một cung phố quen ra vùng ven rồi dần xa hơn — là cách thú vị nhất để tay lái người mới tiến bộ: mỗi cung dạy những thứ phố không dạy được (gió chéo, cua dốc, mưa giữa đường, mệt mỏi cuối ngày). Nhưng cung đường cũng là nơi sai lầm không n"
  },
  {
   "kind": "article",
@@ -9148,6 +9240,52 @@
  },
  {
   "kind": "article",
+  "url": "ride/cung-duong/du-lich-duong-dai/",
+  "title": "Kinh nghiệm du lịch đường dài dành cho người mới",
+  "description": "Kinh nghiệm du lịch đường dài bằng xe máy cho người mới: lên lịch, chống mệt mỏi, an toàn chặng dài và nghỉ ngơi hợp lý.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [
+   "du lịch đường dài",
+   "chặng dài",
+   "mệt mỏi",
+   "nghỉ giữa chặng",
+   "lịch trình lỏng"
+  ],
+  "keywords": [
+   "du lich duong dai",
+   "kinh nghiem di duong dai xe may",
+   "chong met khi lai xe",
+   "an toan duong dai",
+   "nghi giua chang"
+  ],
+  "summary": "Du lịch đường dài bằng xe máy khác một chuyến chạy cung cuối tuần ở một điều cốt lõi: nó là bài marathon, không phải chạy nước rút. Chặng dài trăm ki-lô-mét mỗi ngày đòi hỏi thứ phố không cần — quản lý cơ thể (mệt mỏi, mất nước, cồn kẹt cổ tay), quản lý thời g"
+ },
+ {
+  "kind": "article",
+  "url": "ride/du-lich-xe-may/du-lich-xe-may/",
+  "title": "Du lịch xe máy — những điều cần biết",
+  "description": "Du lịch xe máy: cần biết trước khi bắt đầu — chọn hình thức, chọn xe, lên lịch trình, an toàn và chi phí một chuyến đi.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "du lịch xe máy",
+   "hình thức du lịch",
+   "xe thuê",
+   "lịch trình",
+   "bảo hộ"
+  ],
+  "keywords": [
+   "du lich xe may",
+   "kinh nghiem du lich xe may",
+   "du lich xe may cho nguoi moi",
+   "chon xe du lich",
+   "chi phi du lich xe may"
+  ],
+  "summary": "Du lịch bằng xe máy đang là cách người Việt trẻ (và không còn trẻ) khám phá đất nước nhiều nhất — tự do dừng ở mọi khúc sông, đổi tuyến theo một quán nước ven đường nhìn ra, và về nhà với chuyện kể chứ không chỉ ảnh. Nhưng \"du lịch xe máy\" là cụm từ ôm nhiều h"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/dung-tich-xi-lanh/",
   "title": "Tổng hợp kiến thức: dung tích xi lanh",
   "description": "Dung tích xi lanh là gì, tính thế nào, quan hệ với công suất và tua máy, và nên chọn xe dung tích bao nhiêu theo nhu cầu thực tế.",
@@ -9170,6 +9308,29 @@
    "cc xe máy ý nghĩa"
   ],
   "summary": "Con số 50cc, 110cc, 150cc ghi trên tài liệu xe chính là dung tích xi lanh — chỉ số quen thuộc nhất nhưng ít người hiểu đúng ý nghĩa. Dung tích xi lanh quyết định lượng hòa khí mỗi chu trình động cơ nạp được, từ đó chi phối sức mạnh tiềm năng; nhưng nó không qu"
+ },
+ {
+  "kind": "article",
+  "url": "ride/cung-duong/duong-ven-bien/",
+  "title": "Hướng dẫn chi tiết về đường ven biển",
+  "description": "Hướng dẫn chi tiết chạy xe máy trên đường ven biển: gió chéo, cát muối, nắng gắt và bảo dưỡng xe sau chuyến biển.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [
+   "đường ven biển",
+   "gió chéo",
+   "cát muối",
+   "phản chiếu",
+   "ăn mòn muối"
+  ],
+  "keywords": [
+   "duong ven bien",
+   "chay xe ven bien",
+   "kinh nghiem duong ven bien",
+   "xe may ven bien",
+   "bao duong xe sau bien"
+  ],
+  "summary": "Đường ven biển là một trong những trải nghiệm đẹp nhất của người đi xe máy Việt Nam — một bên là biển, một bên dừa rợp bóng, đường thẳng dài mời gọi. Nhưng ven biển cũng là môi trường lái đặc thù nhất: gió chéo thổi vuông góc lúc nào cũng có thể đẩy đà xe lệch"
  },
  {
   "kind": "article",
@@ -9822,6 +9983,29 @@
  },
  {
   "kind": "article",
+  "url": "ride/cung-duong/phuot-mien-bac/",
+  "title": "Phượt miền bắc — những điều cần biết",
+  "description": "Những điều cần biết khi phượt miền Bắc: thời tiết bốn mùa, đường núi vùng cao, mùa mưa sương mù và quy tắc an toàn cho người mới.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [
+   "phượt miền Bắc",
+   "vùng cao",
+   "mùa mưa",
+   "sương mù",
+   "đèo dốc"
+  ],
+  "keywords": [
+   "phuot mien bac",
+   "kinh nghiem phuot mien bac",
+   "chay xe mien bac",
+   "thoi tiet mien bac phuot",
+   "an toan phuot mien bac"
+  ],
+  "summary": "Miền Bắc là vùng phượt xe máy đa dạng nhất Việt Nam — và cũng là vùng \"đầy cá tính\" nhất về thời tiết: bốn mùa rõ, mùa đông rét buốt, mùa hè mưa dông chớp mặt, mùa xuân – thu đẹp nhưng sương mù vùng cao mỗi sớm. Cùng với địa hình: đồng bằng châu thổ dày phố xá"
+ },
+ {
+  "kind": "article",
   "url": "moto/piaggio/piaggio-liberty/",
   "title": "Tổng hợp kiến thức: piaggio liberty",
   "description": "Piaggio Liberty là xe ga châu Âu phổ thông của Piaggio tại Việt Nam. Tổng hợp đặc tính, cách dùng, bảo dưỡng và kinh nghiệm mua cũ dòng Liberty.",
@@ -10322,6 +10506,29 @@
    "phun xăng điện tử FI"
   ],
   "summary": "Bước vào thế giới xe máy, người mới va vào một bức tường thuật ngữ: thợ nói \"côn ba di chim\", diễn đàn bàn về \"tua đáy\", quảng cáo ghi \"phun xăng điện tử\". Hiểu lầm một thuật ngữ dẫn tới mua sai, sửa sai và nói sai khi trao đổi với thợ. Bài này không phải cuốn"
+ },
+ {
+  "kind": "article",
+  "url": "ride/du-lich-xe-may/thue-xe-du-lich/",
+  "title": "Hướng dẫn chi tiết về thuê xe du lịch",
+  "description": "Hướng dẫn chi tiết thuê xe du lịch: chọn tiệm, thử xe, hợp đồng, đặt cọc, chụp hiện trạng và xử lý tranh chấp khi thuê.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "thuê xe du lịch",
+   "hợp đồng thuê xe",
+   "đặt cọc",
+   "hiện trạng xe",
+   "thử xe"
+  ],
+  "keywords": [
+   "thue xe du lich",
+   "huong dan thue xe",
+   "chon tiem thue xe",
+   "hop dong thue xe",
+   "dat coc thue xe"
+  ],
+  "summary": "Thuê xe du lịch là lựa chọn tự nhiên khi bạn bay đến điểm đi — nhưng cũng là khâu khiến nhiều chuyến vui trở thành phiền: nhận xe hỏng giữa đường, bị trừ cọc vì \"trầy có sẵn\", hoặc kẹt tranh chấp lúc trả vì hai bên không cùng một bộ ghi nhớ hiện trạng. Vấn đề "
  },
  {
   "kind": "article",
@@ -11074,6 +11281,29 @@
    "mua xe sym cu"
   ],
   "summary": "SYM (Sanyang Motor) là thương hiệu xe Đài Loan có mặt lâu đời tại thị trường Việt Nam — một trong số ít hãng \"cũ\" giữ được vị trí trong dàn xe phổ thông qua nhiều thập kỷ, với hình ảnh gắn liền hai chữ: bền và rẻ chi phí. Với người mới mua moto lần đầu, SYM th"
+ },
+ {
+  "kind": "article",
+  "url": "moto/xe-con-tay/xe-the-thao-viet-nam/",
+  "title": "Tổng hợp kiến thức: xe thể thao việt nam",
+  "description": "Tổng hợp kiến thức về xe thể thao tại Việt Nam: các dòng côn tay phổ biến, mô tô lớn, văn hóa chơi xe và lời khuyên cho người mới.",
+  "category": "Xe máy",
+  "hub": "Xe côn tay",
+  "entities": [
+   "xe thể thao",
+   "xe côn tay thể thao",
+   "mô tô lớn",
+   "độ xe",
+   "văn hóa chơi xe"
+  ],
+  "keywords": [
+   "xe the thao viet nam",
+   "xe con tay the thao",
+   "moto lon viet nam",
+   "choi xe the thao",
+   "xe the thao cho nguoi moi"
+  ],
+  "summary": "\"Xe thể thao\" ở Việt Nam là một cụm từ rộng hơn vẻ ngoài: từ dòng côn tay thể thao 150cc bán chạy dành cho giới trẻ, đến lớp mô tô lớn nhập khẩu với cộng đồng chơi xe riêng, đến cả những chiếc xe số – xe ga được độ theo phong cách thể thao. Mỗi lớp có chi phí "
  },
  {
   "kind": "article",

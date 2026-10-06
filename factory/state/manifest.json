@@ -1580,6 +1580,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-con-tay/cach-lai-xe-con/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/cau-tao-phanh/index.html",
   "kind": "article"
  },
@@ -1612,6 +1616,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/du-lich-xe-may/chuan-bi-di-phuot/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/coi-xe/index.html",
   "kind": "article"
  },
@@ -1621,6 +1629,14 @@
  },
  {
   "rel": "learn/doc-thong-so/cong-suat-mo-men-xoan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/cung-duong/cung-duong-nui/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/cung-duong/cung-duong-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -1668,7 +1684,19 @@
   "kind": "article"
  },
  {
+  "rel": "ride/cung-duong/du-lich-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/du-lich-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/dung-tich-xi-lanh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/cung-duong/duong-ven-bien/index.html",
   "kind": "article"
  },
  {
@@ -1776,6 +1804,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/cung-duong/phuot-mien-bac/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/piaggio/piaggio-liberty/index.html",
   "kind": "article"
  },
@@ -1857,6 +1889,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/thuat-ngu-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/thue-xe-du-lich/index.html",
   "kind": "article"
  },
  {
@@ -1981,6 +2017,10 @@
  },
  {
   "rel": "moto/sym/xe-sym/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-con-tay/xe-the-thao-viet-nam/index.html",
   "kind": "article"
  },
  {
