@@ -79,7 +79,7 @@ module.exports = {
     'Thói quen lái xe và mức tiêu thụ thực tế trong đô thị: đo đếm theo từng tuần (tài liệu nghiên cứu hành vi lái, 2024).'
   ],
   related:   [
-    'ky-thuat-tiet-kiem-xang',
+    'ky-thuat-lai-xe-tiet-kiem-xang',
     'xe-hao-xang',
     'do-ap-suat-lop',
     'meo-bao-duong',
