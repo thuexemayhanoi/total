@@ -8591,6 +8591,56 @@
  },
  {
   "kind": "article",
+  "url": "learn/cham-soc-xe/cham-soc-xe-may/",
+  "title": "Chăm sóc xe máy định kỳ: lịch bảo dưỡng cơ bản cho người mới",
+  "description": "Hướng dẫn chăm sóc xe máy định kỳ theo mốc km: kiểm tra dầu máy, lốp, phanh, ắc quy, xích sên và các hạng mục tự kiểm tại nhà giúp xe bền và an toàn hơn.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "bảo dưỡng định kỳ",
+   "dầu máy",
+   "xích sên",
+   "má phanh",
+   "ắc quy",
+   "nhật ký bảo dưỡng"
+  ],
+  "keywords": [
+   "cham soc xe may",
+   "lich bao duong xe may",
+   "baoduong xe may dinh ky",
+   "kiem tra xe may hang tuan",
+   "ve sinh xich sen",
+   "thay dau may xe may chu ky"
+  ],
+  "summary": "Chăm sóc xe máy định kỳ không cần thợ chuyên sâu cho mọi hạng mục: phần lớn việc kiểm tra và bảo dưỡng cơ bản có thể làm tại nhà với dụng cụ đơn giản. Bài viết này chia lịch chăm sóc theo mốc kilomet, phân biệt hạng mục tự làm và hạng mục cần tiệm, giúp xe luô"
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/",
+  "title": "Chở người ngồi sau an toàn: từ cách lên xe đến xuống xe",
+  "description": "Chở người ngồi sau làm thay đổi trọng tâm, quãng phanh và độ ổn định của xe máy. Hướng dẫn này dạy cách lên – xuống xe, tư thế ngồi đúng, liên lạc giữa hai người và xử lý các tình huống thường gặp.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "chở người sau",
+   "tandem",
+   "trọng tâm xe",
+   "tay nắm sau",
+   "quãng phanh",
+   "tư thế ngồi sau"
+  ],
+  "keywords": [
+   "cho nguoi ngoi sau xe may",
+   "di xe hai nguoi an toan",
+   "tu the ngoi sau xe may",
+   "tay nam sau xe may",
+   "anh huong nguoi ngoi sau den phanh",
+   "ky nang cho khach tren xe"
+  ],
+  "summary": "Chở người sau không chỉ là \"thêm một chút nặng\": xe nghiêng khác đi, phanh dài hơn, và mọi động tác của người sau đều truyền thẳng vào hệ thống cân bằng của xe. Bài viết này hướng dẫn quy trình chuẩn từ lúc mời khách lên xe đến lúc dừng cho xuống, cùng các quy"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dau-nhot/chon-dau-nhot/",
   "title": "Tổng hợp kiến thức: chọn dầu nhớt",
   "description": "Cách chọn dầu nhớt xe máy: đọc chuẩn JASO, SAE, API trên nhãn, chọn theo loại xe và điều kiện chạy, phân biệt nhớt thật giả và khi nào đáng tiền nhớt tổng hợp.",
@@ -8614,6 +8664,31 @@
    "phân biệt nhớt thật giả"
   ],
   "summary": "Chọn dầu nhớt là việc ra quyết định với quá nhiều lựa chọn và quá ít thông tin đáng tin: kệ hàng có mấy chục chai với đủ màu vỏ và lời hứa, người bán khuyên theo doanh số, diễn đàn khuyên theo sở thích. Thực tế việc chọn đơn giản hơn nhiều khi gom về ba câu hỏ"
+ },
+ {
+  "kind": "article",
+  "url": "learn/cham-soc-xe/chong-ri-set-xe/",
+  "title": "Chống rỉ sét cho xe máy: phát hiện, xử lý và phòng ngừa",
+  "description": "Rỉ sét xe máy xuất phát từ nước, muối và trầy xước lớp sơn. Hướng dẫn này giúp bạn nhận diện điểm rỉ sớm, xử lý rỉ mặt và phòng ngừa bằng thao tác rửa – bảo quản đúng kỹ thuật.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "rỉ sét",
+   "ăn mòn",
+   "sơn dặm",
+   "đinh tán",
+   "bảo quản xe",
+   "chống rỉ"
+  ],
+  "keywords": [
+   "chong ri set xe may",
+   "xe may bi ri set",
+   "cach xu ly ri set tren xe",
+   "phong ngua ri set xe may",
+   "son dam xe may",
+   "bao quan xe chong am"
+  ],
+  "summary": "Rỉ sét không chỉ làm xấu xe: đinh tán và ốc rỉ ăn sâu làm yếu khung xe, vành rỉ làm mòn phe. Bài viết này phân tích nguyên nhân hình thành rỉ sét trên xe máy, hướng dẫn xử lý các mức rỉ từ vết loang nhẹ tới rỉ đinh tán, và lập thói quen bảo quản ngăn rỉ tái ph"
  },
  {
   "kind": "article",
@@ -8691,6 +8766,32 @@
    "lá côn mòn"
   ],
   "summary": "\"Côn\" là từ được nói nhiều nhất mỗi khi xe giật, ì, hoặc ga tuôn — nhưng ít thuật ngữ nào bị định nghĩa lỏng lẻo hơn: người mới gọi cần bóp bên trái là \"côn\", gọi bộ lá ly hợp trong máy là \"côn\", gọi hiện tượng xe không vọt là \"hết côn\". Bài tổng hợp này bóc k"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/thuat-ngu-xe/cvt-la-gi/",
+  "title": "Kinh nghiệm CVT là gì dành cho người mới",
+  "description": "CVT là gì trên xe tay ga: pulley, bi set, dây curoa hoạt động thế nào, vì sao ga là đủ, các dấu hiệu hư CVT và chu kỳ bảo dưỡng cụm truyền lực.",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "entities": [
+   "CVT",
+   "hộp số vô cấp",
+   "pulley",
+   "bi set pulley",
+   "dây curoa",
+   "lò xo pulley sau",
+   "trượt curoa"
+  ],
+  "keywords": [
+   "cvt là gì",
+   "hộp số vô cấp xe ga",
+   "pulley là gì",
+   "dây curoa xe tay ga",
+   "thay bi pulley",
+   "bảo dưỡng cvt"
+  ],
+  "summary": "CVT (continuously variable transmission — hộp số vô cấp) là trái tim của mọi xe tay ga: lý do xe ga không có cần côn, không có cần số, chỉ cần vặn ga là đi. Nhưng \"vô cấp\" hoạt động ra sao mà ga thành số, và vì sao xe ga lại có kỳ bảo dưỡng pulley — curoa — bi"
  },
  {
   "kind": "article",
@@ -8897,6 +8998,31 @@
  },
  {
   "kind": "article",
+  "url": "learn/cham-soc-xe/giu-xe-ben/",
+  "title": "Giữ xe bền: thói quen nhỏ giúp xe chạy trơn tru nhiều năm",
+  "description": "Xe bền không phải do may mắn: khởi động đúng, làm máy nóng đều, tránh chở quá tải, bảo quản nơi khô thoáng và chăm sóc định kỳ là năm nhóm thói quen quyết định tuổi thọ xe.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "tuổi thọ xe",
+   "khởi động máy",
+   "chở quá tải",
+   "bảo quản xe",
+   "chăm sóc định kỳ",
+   "thói quen lái"
+  ],
+  "keywords": [
+   "giu xe may ben",
+   "cach giu xe may ben lau",
+   "van hanh xe may dung cach",
+   "khoi dong xe may dung cach",
+   "tuoi tho xe may",
+   "bao quan xe may lau dai"
+  ],
+  "summary": "Tuổi thọ xe máy phụ thuộc vào cách mỗi ngày bạn đối xử với nó hơn là thương hiệu hay giá tiền. Bài viết này tổng hợp các thói quen lái – bảo quản giúp xe giữ độ bền: khởi động và làm nóng máy đúng cách, tránh các tình huống ép máy, bảo quản nơi đỗ, và quy tắc "
+ },
+ {
+  "kind": "article",
   "url": "wiki/dien-xe/he-thong-dien-xe/",
   "title": "Hệ thống điện xe — những điều cần biết",
   "description": "Tổng quan hệ thống điện xe máy: ắc quy, máy phát, chỉnh lưu, đánh lửa, đèn còi — cách hoạt động, lỗi thường gặp và bảo dưỡng.",
@@ -8997,6 +9123,56 @@
    "lốp khác cỡ dùng được không"
   ],
   "summary": "Hàng số khắc trên thành lốp trông như mật mã nhưng chỉ có vài quy tắc: bề ngang, tỷ lệ chiều cao, đường kính vành, chỉ số tải, ký tự tốc độ. Người mới thường vấp ở hai ngã: hoặc mua lốp \"gần đúng\" vì rẻ hơn, hoặc nghe lời tư vấn nâng cỡ lốp cho \"đẹp, bám hơn\" "
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/ky-thuat-lai-xe-may/",
+  "title": "Kỹ thuật lái xe máy — những điều cần biết",
+  "description": "Tổng hợp kỹ thuật lái xe máy an toàn cho người mới: tư thế ngồi đúng, quan sát xa, phanh phối hợp, giữ khoảng cách và xử lý các tình huống đường thật.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "kỹ thuật lái xe",
+   "tư thế ngồi",
+   "tầm nhìn",
+   "khoảng cách an toàn",
+   "phanh phối hợp",
+   "điểm mù"
+  ],
+  "keywords": [
+   "kỹ thuật lái xe máy",
+   "lái xe an toàn",
+   "tư thế ngồi xe máy",
+   "khoảng cách an toàn",
+   "nhìn xa khi lái",
+   "lái xe cho người mới"
+  ],
+  "summary": "Lái xe máy an toàn không phải tài năng bẩm sinh — đó là tập hợp kỹ thuật nhỏ có thể học: ngồi thế nào để xe ổn, nhìn đâu để thấy nguy cơ trước khi nó tới, phanh thế nào để dừng ngắn nhất mà không ngã, và giữ khoảng cách bao xa là đủ. Bài tổng hợp này gom các k"
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/lai-xe-duong-mua/",
+  "title": "Lái xe máy dưới mưa: checklist an toàn từ áo mưa đến điểm bám đường",
+  "description": "Lái xe máy trong mưa làm giảm lực bám đường và tầm nhìn. Hướng dẫn này giúp bạn chuẩn bị áo mưa, chọn vạch đi, giữ khoảng cách và nhận diện các điểm trơn trượt nguy hiểm nhất.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "lái xe dưới mưa",
+   "đường trơn",
+   "áo mưa",
+   "lực bám lốp",
+   "aquaplaning",
+   "bảo dưỡng sau mưa"
+  ],
+  "keywords": [
+   "lai xe may duoi mua",
+   "di xe mua an toan",
+   "ao mua xe may",
+   "duong tron di xe may",
+   "ky thuat phanh duong uot",
+   "aquaplaning xe may"
+  ],
+  "summary": "Mưa thay đổi mọi quy tắc lái xe thông thường: đường trơn, phanh kém nhạy, người khác cũng thấy kém. Bài viết này tổng hợp cách chuẩn bị trước khi ra đường mưa, các kỹ thuật giữ xe ổn định, những điểm nguy hiểm cần né, cùng quy tắc bảo vệ bản thân khi bị kẹt gi"
  },
  {
   "kind": "article",
@@ -9182,6 +9358,31 @@
  },
  {
   "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/phanh-khan-cap/",
+  "title": "Hướng dẫn chi tiết về phanh khẩn cấp",
+  "description": "Phanh khẩn cấp xe máy đúng cách: phối hợp trước-sau, giữ xe thẳng, có và không có ABS, các lỗi gây ngã và bài tập luyện cho người mới.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "phanh khẩn cấp",
+   "bó cứng bánh",
+   "ngưỡng bó cứng",
+   "ABS",
+   "phối hợp phanh trước sau",
+   "khoảng cách dừng"
+  ],
+  "keywords": [
+   "phanh khẩn cấp xe máy",
+   "bóp phanh gấp",
+   "phanh trước sau phối hợp",
+   "xe máy bó cứng bánh",
+   "kỹ thuật phanh an toàn",
+   "phanh khẩn cấp có ABS"
+  ],
+  "summary": "Phanh khẩn cấp là kỹ thuật người lái hi vọng không bao giờ dùng — nhưng khi cần, nó là khoảng cách giữa \"may quá\" và tai nạn. Vấn đề của phanh khẩn cấp không phải bóp mạnh — mà là bóp mạnh đúng: lực lớn nhất mà bánh xe vẫn bám đường, phân công đúng giữa phanh "
+ },
+ {
+  "kind": "article",
   "url": "wiki/he-thong-phanh/phanh-tang-trong/",
   "title": "Tổng hợp kiến thức: phanh tang trống",
   "description": "Phanh tang trống trên xe máy: cấu tạo bên trong trống phanh, vì sao đơn giản bền, dấu hiệu mòn má và cách chỉnh khe hở đúng.",
@@ -9257,6 +9458,31 @@
    "phân luồng giao thông"
   ],
   "summary": "Ngoài Luật Trật tự an toàn giao thông đường bộ áp dụng toàn quốc, mỗi thành phố còn có các quy định và biện pháp phân luồng mang tính địa phương: tuyến cấm xe máy theo giờ, khu vực cấm đỗ, cách tổ chức làn đường và mức lệ phí gửi xe. Bài viết giúp người đi xe "
+ },
+ {
+  "kind": "article",
+  "url": "learn/cham-soc-xe/rua-xe-dung-cach/",
+  "title": "Rửa xe đúng cách: giữ xe mới mà không hại phụ tùng",
+  "description": "Rửa xe máy đúng cách cần chọn nước áp thấp, tránh xịt thẳng vào bộ điện, ổ khóa và ống xả, dùng dung dịch tẩy rửa chuyên dụng và lau khô ngay. Xem hướng dẫn chi tiết từng bước.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "rửa xe",
+   "bảo dưỡng ngoài",
+   "dung dịch rửa xe",
+   "áp suất nước",
+   "lau khô",
+   "bảo quản xe"
+  ],
+  "keywords": [
+   "rua xe dung cach",
+   "cach rua xe may",
+   "rua xe may dung ky thuat",
+   "dung dich rua xe may",
+   "xat phong rua xe",
+   "bao quan xe may lau"
+  ],
+  "summary": "Rửa xe tưởng chừng đơn giản nhưng rửa sai cách gây hại dai dẳng: nước lọt vào bộ đề, ắc quy, ổ khóa và bạc đạn làm xe hỏng vặt sau mỗi lần rửa. Bài viết này hướng dẫn quy trình rửa đúng kỹ thuật từng bước, phân biệt xịt nước nhiều và ít ở khu vực nào, cùng thó"
  },
  {
   "kind": "article",
@@ -9414,6 +9640,31 @@
    "tiếng gõ máy khi tăng ga"
   ],
   "summary": "Tỷ số nén là con số kỹ thuật ít được người dùng xe máy để ý nhưng lại gói nhiều ý nghĩa: nó nói buồng đốt nén hòa khí lại bao nhiêu lần trước khi cháy, và mức nén ấy quyết định cả hiệu suất lẫn \"kén\" hay \"không kén\" xăng. Xe tỷ số nén cao ra công suất tốt hơn "
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/vao-cua-an-toan/",
+  "title": "Vào cua an toàn: kỹ thuật nhìn – giảm tốc – ghi-đổ",
+  "description": "Hướng dẫn vào cua an toàn trên xe máy: quy tắc nhìn xa, giảm tốc trước cua, ghi-đổ đúng kỹ thuật và các lỗi khiến người mới trượt ngang khi vào cua.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "vào cua",
+   "kỹ thuật lái",
+   "ghi-đổ",
+   "góc nghiêng",
+   "tốc độ vào cua",
+   "lỗi vào cua"
+  ],
+  "keywords": [
+   "vao cua an toan",
+   "ky thuat vao cua xe may",
+   "ghi do xe may",
+   "do nguoi khi vao cua",
+   "goc nghieng xe may",
+   "hanh trinh nguoi moi lai xe"
+  ],
+  "summary": "Vào cua là khoảnh khắc xe máy dễ mất ổn định nhất: tốc độ, tư thế người và hướng nhìn quyết định xe ôm cua hay trượt ngang. Bài viết phân tích quy trình vào cua an toàn theo bốn bước chuẩn – nhìn – giảm – ghi – đổ – cùng các lỗi phổ biến của người mới lái."
  },
  {
   "kind": "article",

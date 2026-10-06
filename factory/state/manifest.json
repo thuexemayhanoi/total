@@ -1580,7 +1580,19 @@
   "kind": "article"
  },
  {
+  "rel": "learn/cham-soc-xe/cham-soc-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dau-nhot/chon-dau-nhot/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/cham-soc-xe/chong-ri-set-xe/index.html",
   "kind": "article"
  },
  {
@@ -1593,6 +1605,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/con-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/thuat-ngu-xe/cvt-la-gi/index.html",
   "kind": "article"
  },
  {
@@ -1628,6 +1644,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/cham-soc-xe/giu-xe-ben/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/he-thong-dien-xe/index.html",
   "kind": "article"
  },
@@ -1641,6 +1661,14 @@
  },
  {
   "rel": "wiki/lop-banh-xe/kich-co-lop/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/ky-thuat-lai-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/lai-xe-duong-mua/index.html",
   "kind": "article"
  },
  {
@@ -1672,6 +1700,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/ky-thuat-lai-xe/phanh-khan-cap/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
   "kind": "article"
  },
@@ -1681,6 +1713,10 @@
  },
  {
   "rel": "hub/dia-phuong/quy-dinh-giao-thong-dia-phuong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/cham-soc-xe/rua-xe-dung-cach/index.html",
   "kind": "article"
  },
  {
@@ -1705,6 +1741,10 @@
  },
  {
   "rel": "wiki/dong-co/ty-so-nen/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/vao-cua-an-toan/index.html",
   "kind": "article"
  },
  {

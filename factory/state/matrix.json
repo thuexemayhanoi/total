@@ -4638,11 +4638,13 @@
    "title": "Kinh nghiệm cvt là gì dành cho người mới",
    "primaryIntent": "informational/cvt-la-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:06.292Z",
+   "seoScore": 100,
+   "words": 1729
   },
   {
    "id": "S00314",
@@ -4651,11 +4653,13 @@
    "title": "Kỹ thuật lái xe máy — những điều cần biết",
    "primaryIntent": "informational/ky-thuat-lai-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:07.188Z",
+   "seoScore": 91,
+   "words": 1756
   },
   {
    "id": "S00315",
@@ -4664,11 +4668,13 @@
    "title": "Hướng dẫn chi tiết về phanh khẩn cấp",
    "primaryIntent": "informational/phanh-khan-cap",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:08.060Z",
+   "seoScore": 100,
+   "words": 1668
   },
   {
    "id": "S00316",
@@ -4677,11 +4683,13 @@
    "title": "Tổng hợp kiến thức: vào cua an toàn",
    "primaryIntent": "informational/vao-cua-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:08.922Z",
+   "seoScore": 100,
+   "words": 1837
   },
   {
    "id": "S00317",
@@ -4690,11 +4698,13 @@
    "title": "Kinh nghiệm lái xe đường mưa dành cho người mới",
    "primaryIntent": "informational/lai-xe-duong-mua",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:08.060Z",
+   "seoScore": 91,
+   "words": 1760
   },
   {
    "id": "S00318",
@@ -4703,11 +4713,13 @@
    "title": "Chở người ngồi sau — những điều cần biết",
    "primaryIntent": "informational/cho-nguoi-ngoi-sau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:05.410Z",
+   "seoScore": 83,
+   "words": 1644
   },
   {
    "id": "S00319",
@@ -4716,11 +4728,13 @@
    "title": "Hướng dẫn chi tiết về chăm sóc xe máy",
    "primaryIntent": "informational/cham-soc-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:05.410Z",
+   "seoScore": 100,
+   "words": 1705
   },
   {
    "id": "S00320",
@@ -4729,11 +4743,13 @@
    "title": "Tổng hợp kiến thức: rửa xe đúng cách",
    "primaryIntent": "informational/rua-xe-dung-cach",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:08.922Z",
+   "seoScore": 91,
+   "words": 1688
   },
   {
    "id": "S00321",
@@ -4742,11 +4758,13 @@
    "title": "Kinh nghiệm chống rỉ sét xe dành cho người mới",
    "primaryIntent": "informational/chong-ri-set-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:06.292Z",
+   "seoScore": 91,
+   "words": 1672
   },
   {
    "id": "S00322",
@@ -4755,11 +4773,13 @@
    "title": "Giữ xe bền — những điều cần biết",
    "primaryIntent": "informational/giu-xe-ben",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:48:07.188Z",
+   "seoScore": 91,
+   "words": 1651
   },
   {
    "id": "S00323",
