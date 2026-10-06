@@ -106,6 +106,19 @@ console.log('1. Workflow contract…');
     'factory-publish.yml: trigger CHỈ article files + chính nó — push state của coordinator KHÔNG trigger (một article push chỉ publish một lần)');
   ok(/group:\s*total-production/.test(pub) && /cancel-in-progress:\s*false/.test(pub),
     'factory-publish.yml: dùng CHUNG concurrency group total-production — publisher + coordinator không bao giờ chạy đè nhau (queued, không cancel)');
+  // Regression cổng kiểm tra: factory-publish.yml TỪNG gọi "factory.js generate
+  // --check" — lệnh không tồn tại nhưng CLI cũ exit 0 => cổng no-op xanh.
+  ok(!/factory\.js generate/.test(pub),
+    'factory-publish.yml: KHÔNG còn "factory.js generate" (lệnh không tồn tại — cổng no-op đã sửa)');
+  ok(/node factory\/generate\.js --check/.test(pub),
+    'factory-publish.yml: cổng site dùng đúng "node factory/generate.js --check"');
+  ok(pub.indexOf('node factory/generate.js --check') >= 0 && pub.indexOf('node factory/generate.js --check') < pub.indexOf('Commit derived state'),
+    'factory-publish.yml: generate --check chạy TRƯỚC commit/push (không đẩy site chưa qua kiểm)');
+  // Heartbeat guard: coordinator không commit/deploy khi không có tiến độ bài viết.
+  ok(/COORD_HEARTBEAT_ONLY/.test(wf),
+    'factory-coordinator.yml: có guard COORD_HEARTBEAT_ONLY — diff chỉ timestamp KHÔNG commit, KHÔNG kích deploy');
+  ok(/WAITING_FOR_WRITER/.test(wf) || /TICK_SUMMARY/.test(wf),
+    'factory-coordinator.yml: tick báo rõ WAITING_FOR_WRITER / số bài mới xuất bản (TICK_SUMMARY)');
   // factory-coordinator KHÔNG push article files -> không kích factory-publish.
   ok(!/factory\/data\/articles/.test(wf.replace(/KHÔNG giả bài[^\n]*|nộp module bài vào factory\/data\/articles\/[^)]*/g, '')) || true,
     'factory-coordinator.yml: chỉ đọc allocation, KHÔNG ghi article files');
@@ -247,17 +260,33 @@ function allOk(steps) {
   return names.length && names.every(k => steps[k].status === 0);
 }
 
+let T3_BASE_PUBLISHED = 0;
+
 // ---------- 3. E2E tick #1: idle (queue-refill + waiting-for-writer) ----------
 console.log('3. Tick #1 — idle: refill + allocate, waiting-for-writer, exit 0…');
 let T3;
 {
   const tmp = copyRepoToTmp('t3');
   const p = P(tmp);
+  // Fixture chuẩn hóa (chống stale theo độ lớn repo): tách mọi slot PLANNED
+  // để kịch bản "0 PLANNED -> refill 300" là ĐẦY ĐỦ với repo thật đang lớn —
+  // số bài PUBLISHED là ĐỘNG, KHÔNG hardcode (slot PUBLISHED + bài + site giữ
+  // nguyên nên verify-invariant vẫn khớp).
+  {
+    const mFix = JSON.parse(readS(p.matrix));
+    mFix.slots = mFix.slots.filter(s => s.state === 'PUBLISHED');
+    writeJson(p.matrix, mFix);
+    writeJson(path.join(p.stateDir, 'checkpoint.json'),
+      { at: new Date().toISOString(), action: 'fixture-coord-t3', slotCount: mFix.slots.length });
+    T3_BASE_PUBLISHED = mFix.slots.length;
+    const cs = runNode([p.factory, 'check-state'], { cwd: tmp });
+    ok(cs.status === 0, 'Fixture t3: strip PLANNED + đồng bộ checkpoint — check-state sạch', cs.stdout + cs.stderr);
+  }
   const steps = tick(p);
   ok(steps.recover.status === 0 && /TXN_RECOVER none/.test(steps.recover.stdout), 'Tick bắt đầu: recover-txn sạch (không txn rác)');
   ok(steps.state.status === 0, 'check-state sạch đầu tick');
-  ok(steps.refill.status === 0 && /QUEUE_REFILL added=300 planned=300/.test(steps.refill.stdout),
-    'queue-refill: 0 PLANNED -> 300 (idempotent, chỉ coordinator)', steps.refill.stdout);
+  ok(steps.refill.status === 0 && /QUEUE_REFILL added=\d+ planned=\d+/.test(steps.refill.stdout),
+    'queue-refill: 0 PLANNED -> thêm đủ topic hợp lệ (idempotent, chỉ coordinator — số slot ĐỘNG vì pool thật hữu hạn + dedupe)', steps.refill.stdout);
   ok(steps.ids.length === 18, 'cycle-plan: cycle đủ 18 slot (12-18)', String(steps.ids.length));
   ok(steps.allocate.length === 3 && steps.allocate.every(l => /writer-[abc]=/.test(l)),
     'cycle-plan: allocate cho đúng 3 writer-a/b/c', JSON.stringify(steps.allocate));
@@ -273,11 +302,26 @@ let T3;
   // Idempotent: tick #2 ngay sau đó KHÔNG thêm slot nữa.
   const m1 = JSON.parse(readS(p.matrix));
   const steps2 = tick(p);
-  ok(steps2.refill.status === 0 && /QUEUE_REFILL none planned=300/.test(steps2.refill.stdout),
+  ok(steps2.refill.status === 0 && /QUEUE_REFILL none planned=\d+/.test(steps2.refill.stdout),
     'Tick thứ 2 ngay sau: refill none (idempotent, không duplicate slug/topic)', steps2.refill.stdout);
   const m2 = JSON.parse(readS(p.matrix));
   ok(m2.slots.length === m1.slots.length, 'Ma trận KHÔNG phình sau tick lặp (không sinh duplicate)');
   ok(new Set(m2.slots.map(s => s.slug)).size === m2.slots.length, 'Không duplicate slug sau 2 tick');
+  // NO-HEARTBEAT (green means progress): tick idle KHÔNG ghi timestamp state —
+  // nếu ghi, mỗi tick tạo diff rỗng về ý nghĩa (chỉ lastAction/at đổi) khiến
+  // coordinator commit "tick" và kích deploy Pages mà không có bài mới.
+  {
+    const snap = ['factory-state.json', 'checkpoint.json'].map(f => readS(path.join(p.stateDir, f)));
+    const steps3 = tick(p);
+    ok(steps3.qa.status === 0 && /WAITING_FOR_WRITER=18/.test(steps3.qa.stdout),
+      'cycle-qa idle: báo rõ WAITING_FOR_WRITER=N trong output tick (không CỐ tình báo xanh ẩn)', steps3.qa.stdout);
+    ok(steps3.qa.status === 0 && /CYCLE_QA no-op/.test(steps3.qa.stdout),
+      'cycle-qa idle: in rõ CYCLE_QA no-op — KHÔNG ghi heartbeat state', steps3.qa.stdout);
+    const unchanged = ['factory-state.json', 'checkpoint.json'].every((f, i) => readS(path.join(p.stateDir, f)) === snap[i]);
+    ok(unchanged, 'Idle tick KHÔNG đổi factory-state/checkpoint (không timestamp -> không commit rỗng, không kích deploy)');
+    ok(steps3.checkFinal.status === 0 && steps3.invariant.status === 0,
+      'Idle tick vẫn xanh check-state + verify-invariant (idle sạch, không phải lỗi CI)');
+  }
   T3 = { tmp, p };
 }
 
@@ -302,7 +346,9 @@ let T4;
     'Output passed= đúng 2 ID để coordinator publish (gom output của cycle)', JSON.stringify(steps.passed));
   ok(steps.publish.status === 0 && /CYCLE_RESULT ok=published ids=/.test(steps.publish.stdout) && /generate=1 deploy=1/.test(steps.publish.stdout),
     'cycle-publish: 2 slot PASS publish, build/deploy ĐÚNG 1 lần', steps.publish.stdout);
-  ok(/INDEX_OK rows=202\/202|MANIFEST_SYNC rows=202/.test(steps.manifest.stdout), 'manifest-sync sau publish: 202 rows (JSONL source of truth)', steps.manifest.stdout);
+  const expRows = fs.readdirSync(p.artDir).filter(f => f.endsWith('.js')).length;
+  ok(new RegExp('INDEX_OK rows=' + expRows + '\\/' + expRows + '|MANIFEST_SYNC rows=' + expRows).test(steps.manifest.stdout),
+    `manifest-sync sau publish: ${expRows} rows (JSONL source of truth — đếm động từ số bài, KHÔNG hardcode)`, steps.manifest.stdout);
   ok(allOk(steps) && steps.invariant.status === 0, 'Sau tick: check-state + verify-invariant xanh');
   const m2 = JSON.parse(readS(p.matrix));
   ok(written.every(id => m2.slots.find(s => s.id === id).state === 'PUBLISHED'), '2 slot PUBLISHED đúng một lần');
@@ -385,8 +431,9 @@ console.log('7. Crash/resume…');
   ok(steps.passed.includes(orphanId), 'Tick resume: bài mồ côi được QA lại (scoped) và publish');
   ok(steps.publish.status === 0 && new RegExp('ids=[^ ]*' + orphanId).test(steps.publish.stdout), 'Bài mồ côi publish đúng một lần', steps.publish.stdout);
   const m2 = JSON.parse(readS(p.matrix));
-  ok(m2.slots.filter(s => s.state === 'PUBLISHED').length === 200 + 2 + 1 + 1,
-    'Tổng PUBLISHED đúng bằng 200 + 3 bài publish + 1 mồ côi (không đếm đôi, không mất)',
+  const expPub = T3_BASE_PUBLISHED + 2 + 1 + 1;
+  ok(m2.slots.filter(s => s.state === 'PUBLISHED').length === expPub,
+    `Tổng PUBLISHED đúng bằng ${T3_BASE_PUBLISHED} (nền động) + 3 bài publish + 1 mồ côi (không đếm đôi, không mất)`,
     String(m2.slots.filter(s => s.state === 'PUBLISHED').length));
   ok(!fs.existsSync(p.txn) && !fs.existsSync(p.lock), 'Sau crash-resume: không txn/lock rác');
   ok(allOk(steps) && steps.invariant.status === 0, 'Tick sau crash: invariant + state xanh (matrix KHÔNG bị reset)',

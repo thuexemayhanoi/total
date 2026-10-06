@@ -1481,6 +1481,17 @@ function main() {
     const m = loadMatrix();
     validateMatrix(m);
     const out = cycleQa(m, ids);
+    // GREEN MEANS PROGRESS: khi cả cycle đều PENDING (WAITING_FOR_WRITER —
+    // writer chưa nộp bài) thì KHÔNG ghi state/timestamp — nếu ghi, mỗi tick
+    // coordinator tạo diff rỗng về ý nghĩa (chỉ lastAction/at đổi), gây
+    // commit "coordinator tick" và kích deploy Pages mà không có bài mới.
+    if (!out.passed.length && !out.failed.length) {
+      console.log('CYCLE_QA pass=' + out.passed.length + ' fail=' + out.failed.length + ' pending=' + out.pending.length +
+        ' WAITING_FOR_WRITER=' + out.pending.length +
+        ' (scoped ' + ids.length + '/' + runtime.CYCLE_MAX + ' bài — KHÔNG quét toàn site, KHÔNG re-audit bài PUBLISHED)');
+      console.log('CYCLE_QA no-op: toàn bộ pending — KHÔNG ghi timestamp/heartbeat state (tránh commit rỗng + deploy vô nghĩa).');
+      return;
+    }
     validateMatrix(m);
     saveMatrix(m);
     saveState(loadState(), 'cycle-qa:' + out.passed.length + '/' + ids.length);
@@ -1538,7 +1549,13 @@ function main() {
     console.log('CHANGE_MODE=' + mode);
     return;
   }
+  // Lệnh không tồn tại: FAIL LOUD (exit 1) — KHÔNG rơi vào usage() exit 0.
+  // Regression: factory-publish.yml từng gọi "factory.js generate --check"
+  // (lệnh không tồn tại) và vẫn exit 0 xanh — cổng kiểm tra thành no-op.
+  console.error('LỆNH KHÔNG TỒN TẠI: "' + cmd + '" — xem danh sách lệnh hợp lệ dưới đây.');
+  console.error('Lưu ý: sinh/kiểm tra site là "node factory/generate.js [--check]", không phải lệnh của factory.js.');
   usage();
+  process.exit(1);
 }
 
 if (require.main === module) main();

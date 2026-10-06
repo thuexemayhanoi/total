@@ -522,6 +522,34 @@ console.log('10. Regression scale (ma trận tăng slot qua CLI plan)…');
   fs.rmSync(tmp, { recursive: true, force: true });
 }
 
+// ---------- 12. CLI fail-loud: lệnh không tồn tại exit != 0 ----------
+// Regression: factory-publish.yml từng gọi "node factory/factory.js generate
+// --check" — lệnh KHÔNG tồn tại nhưng rơi vào usage() exit 0, khiến cổng kiểm
+// tra site thành no-op xanh (workflow pass mà site lệch không bị bắt).
+console.log('12. CLI fail-loud (lệnh sai phải thất bại)…');
+{
+  const tmp = copyRepoToTmp('cli');
+  const P = tmpPaths(tmp);
+  const snapState = [P.matrix, P.fstate, P.checkpoint].map(f => ({ f, b: readB(f) }));
+  // 12a. Lịch sử sai: "factory.js generate --check" phải exit != 0 + báo rõ.
+  const wrong = runNode([P.factory, 'generate', '--check'], { cwd: tmp });
+  ok(wrong.status !== 0, '"factory.js generate --check" (lệnh sai cũ) giờ FAIL exit != 0 — không còn no-op xanh', String(wrong.status));
+  ok((wrong.stdout + wrong.stderr).includes('LỆNH KHÔNG TỒN TẠI'),
+    'Lệnh sai báo rõ "LỆNH KHÔNG TỒN TẠI" + gợi ý generate.js', (wrong.stdout + wrong.stderr).slice(0, 200));
+  // 12b. Lệnh lạ bất kỳ cũng fail-loud.
+  const bad = runNode([P.factory, 'khong-ton-tai-xyz'], { cwd: tmp });
+  ok(bad.status !== 0, 'Lệnh lạ bất kỳ exit != 0 (không âm thầm exit 0)', String(bad.status));
+  // 12c. help/--help và không đối số vẫn exit 0 (không phá hợp lệ hiện có).
+  ok(runNode([P.factory, 'help'], { cwd: tmp }).status === 0, 'factory.js help exit 0 (giữ nguyên hợp lệ)');
+  ok(runNode([P.factory, '--help'], { cwd: tmp }).status === 0, 'factory.js --help exit 0');
+  ok(runNode([P.factory], { cwd: tmp }).status === 0, 'factory.js (không đối số) exit 0');
+  // 12d. Bảo vệ chống thụt lùi: lệnh đúng của cổng là generate.js --check.
+  ok(runNode([P.generate, '--check'], { cwd: tmp }).status === 0, 'Cổng đúng "generate.js --check" vẫn xanh trên repo nhất quán');
+  // 12e. State KHÔNG bị đụng bởi lệnh sai (fail-loud phải sạch).
+  ok(snapState.every(s => readB(s.f).equals(s.b)), 'Lệnh sai KHÔNG ghi state (matrix/factory-state/checkpoint byte-identical)');
+  fs.rmSync(tmp, { recursive: true, force: true });
+}
+
 // ---------- Kết luận: state THẬT nguyên vẹn ----------
 console.log('11. State thật nguyên vẹn sau bộ test…');
 {

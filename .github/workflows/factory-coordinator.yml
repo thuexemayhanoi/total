@@ -58,6 +58,8 @@ jobs:
         run: |
           node factory/factory.js resume
           node factory/factory.js check-state
+          pub_before=$(node -e "const m=require('./factory/state/matrix.json');let n=0;for(const s of m.slots)if(s.state==='PUBLISHED')n++;console.log(n)")
+          echo "PUBLISHED_BEFORE=$pub_before" >> "$GITHUB_ENV"
 
       - name: "3. Queue refill (idempotent: planned < 100 -> ~300, chỉ coordinator)"
         run: node factory/factory.js queue-refill --role coordinator
@@ -112,7 +114,7 @@ jobs:
           node factory/factory.js verify-invariant
           node factory/factory.js backlog
 
-      - name: "10. Commit derived state (một commit, bounded retry <= 3)"
+      - name: "10. Commit derived state (một commit, bounded retry <= 3 — KHÔNG commit heartbeat rỗng)"
         run: |
           git config user.name "total-factory-bot"
           git config user.email "nguyentuantu2482@users.noreply.github.com"
@@ -120,13 +122,34 @@ jobs:
           if git diff --cached --quiet; then
             echo 'COORD_NO_CHANGES: tick này không đổi state — không commit.'
           else
-            git commit -m "factory: coordinator tick [automated]"
-            ok=0
-            for i in 1 2 3; do
-              if git pull --rebase origin main && git push; then ok=1; break; fi
-              echo "push/rebase thất bại (lần $i) — retry sau 5s"
-              sleep 5
-              git rebase --abort 2>/dev/null || true
-            done
-            if [ "$ok" != "1" ]; then echo "KHÔNG push được state sau 3 lần"; exit 1; fi
+            # HEARTBEAT GUARD: diff chỉ nằm trong factory-state/checkpoint và chỉ
+            # là timestamp/lastAction -> KHÔNG phải tiến độ thật. Commit kiểu đó
+            # là commit rỗng về ý nghĩa và kích deploy Pages vô ích.
+            non_state=$(git diff --cached --name-only -- . ':(exclude)factory/state/factory-state.json' ':(exclude)factory/state/checkpoint.json')
+            heartbeat_only=0
+            if [ -z "$non_state" ]; then
+              substantive=$(git diff --cached -U0 -- factory/state/factory-state.json factory/state/checkpoint.json | grep -E '^[+-][^+-]' | grep -vE '^[+-] *"(at|action)" *:' || true)
+              if [ -z "$substantive" ]; then heartbeat_only=1; fi
+            fi
+            if [ "$heartbeat_only" = "1" ]; then
+              echo 'COORD_HEARTBEAT_ONLY: diff chỉ là timestamp/lastAction — KHÔNG commit, KHÔNG kích deploy (không có bài mới).'
+            else
+              git commit -m "factory: coordinator tick [automated]"
+              ok=0
+              for i in 1 2 3; do
+                if git pull --rebase origin main && git push; then ok=1; break; fi
+                echo "push/rebase thất bại (lần $i) — retry sau 5s"
+                sleep 5
+                git rebase --abort 2>/dev/null || true
+              done
+              if [ "$ok" != "1" ]; then echo "KHÔNG push được state sau 3 lần"; exit 1; fi
+            fi
           fi
+
+      - name: "11. Tóm tắt tick (WAITING_FOR_WRITER + số bài mới xuất bản)"
+        if: always()
+        run: |
+          node factory/factory.js backlog
+          node factory/factory.js status
+          pub_after=$(node -e "const m=require('./factory/state/matrix.json');let n=0;for(const s of m.slots)if(s.state==='PUBLISHED')n++;console.log(n)")
+          echo "TICK_SUMMARY published_before=${PUBLISHED_BEFORE:-?} published_after=$pub_after newly_published=$((pub_after - ${PUBLISHED_BEFORE:-$pub_after}))"
