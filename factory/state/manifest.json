@@ -1540,6 +1540,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/ac-quy-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/van-de-thuong-gap/ac-quy-yeu/index.html",
   "kind": "article"
  },
@@ -1556,7 +1560,19 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/coi-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/den-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/dong-co-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/dung-tich-xi-lanh/index.html",
   "kind": "article"
  },
  {
@@ -1568,11 +1584,19 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/he-thong-dien-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/he-thong-treo/index.html",
   "kind": "article"
  },
  {
   "rel": "wiki/cau-tao-xe/khung-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/mach-dien-xe/index.html",
   "kind": "article"
  },
  {
@@ -1584,7 +1608,23 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/he-thong-phanh/phanh-dia/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/piston-xy-lanh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/quy-dinh-giao-thong-dia-phuong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/ty-so-nen/index.html",
   "kind": "article"
  },
  {

@@ -7833,6 +7833,37 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/ac-quy-xe-may/",
+  "title": "Hướng dẫn chi tiết về ắc quy xe máy",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Ắc quy là cụm điện hao mòn theo thời gian rõ ràng nhất trên xe máy: cứ hai đến bốn năm là phải thay, và thay đúng — đúng chủng loại, đúng nguồn hàng — quyết định xe có khởi động êm trong chu kỳ kế tiếp hay không. Bài viết đi chi tiết từng khía cạnh của ắc quy xe máy: hai loại phổ biến và khác biệt của chúng, các chỉ số cần đọc trên vỏ ắc quy, cách chọn mua tránh hàng kém, thời điểm nên thay, và cách bảo quản giúp ắc quy sống đủ tuổi thọ thay vì chết sớm vì thói quen sử dụng.",
+  "quickAnswer": "Ắc quy xe máy chia hai loại chính: ắc quy nước (cần châm dung dịch, giá rẻ) và ắc quy khô miễn bảo quản (kín, không cần chăm, phổ biến trên xe đời mới). Khi mua, đọc ba chỉ số trên vỏ: điện áp chuẩn (thường 12V), dung lượng tính bằng Ampe giờ (Ah) và dòng khởi động; chọn đúng chỉ số xe đang dùng và mua từ nguồn tin cậy, chú ý ngày sản xuất vì ắc quy \"cận date\" đã mất một phần tuổi thọ ngay khi xuất kho.",
+  "keyPoints": [
+   "Ắc quy nước rẻ nhưng cần châm nước cất định kỳ; ắc quy khô kín tiện nhưng nhạy với phóng sâu.",
+   "Ba chỉ số cần khớp khi mua: điện áp (V), dung lượng (Ah), dòng khởi động (A).",
+   "Ngày sản xuất quyết định tuổi thực tế của ắc quy: hàng để kho lâu đã giảm tuổi từ trước.",
+   "Ắc quy chết vì phóng sâu nhiều lần: đề quá lâu, để xe lâu không nổ, phụ kiện rút điện nhỏ giọt."
+  ],
+  "entities": [
+   "ắc quy",
+   "ắc quy nước",
+   "ắc quy khô",
+   "dung lượng Ah",
+   "chỉnh lưu",
+   "sạc ắc quy",
+   "đề máy"
+  ],
+  "keywords": [
+   "ắc quy xe máy",
+   "chọn ắc quy xe máy",
+   "ắc quy nước và ắc quy khô",
+   "tuổi thọ ắc quy xe máy",
+   "chỉ số ắc quy",
+   "bảo quản ắc quy xe"
+  ]
+ },
+ {
   "url": "hub/van-de-thuong-gap/ac-quy-yeu/",
   "title": "Kinh nghiệm ắc quy yếu dành cho người mới",
   "category": "Trung tâm chủ đề",
@@ -7958,6 +7989,67 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/coi-xe/",
+  "title": "Kinh nghiệm còi xe dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Còi là thiết bị nhỏ nhất trên xe máy nhưng là thiết bị báo hiệu âm thanh duy nhất: đúng lúc, một tiếng còi tránh được một va chạm. Thực tế, còi lại là cụm hay bị hỏng nhất trong nhóm an toàn — rè, yếu, hoặc im lặng hoàn toàn — và người dùng thường bỏ qua cho tới khi cần gấp. Bài viết giúp người mới hiểu vai trò của còi theo quy định, nhận diện và tự xử các lỗi còi phổ biến, và quan trọng hơn cả: biết dùng còi đúng hoàn cảnh — đủ để báo hiệu, không biến còi thành tiếng ồn gây khó chịu cho người xung quanh.",
+  "quickAnswer": "Còi xe máy là thiết bị âm báo bắt buộc theo quy định kỹ thuật, dùng để báo hiệu khi chuyển hướng, sắp vượt hoặc trong tình huống có nguy hiểm. Lỗi thường gặp: còi rè (màng ẩm hoặc ốc chỉnh lệch), còi yếu (tiếp xúc kém hoặc ắc quy yếu), còi không kêu (cháy cuộn hoặc dây đứt). Tự xử được: siết giắc, xịt chống ẩm, chỉnh ốc chỉnh âm; cần thợ khi cháy cuộn hoặc lỗi công tắc. Dùng còi đúng: tiếng ngắn trong đô thị, không bấm còi dài trong khu dân cư và bệnh viện.",
+  "keyPoints": [
+   "Còi là âm báo duy nhất trên xe: dùng để báo hiệu vượt, chuyển hướng và tình huống nguy hiểm.",
+   "Còi rè thường do màng còi ẩm hoặc ốc chỉnh âm lệch — hai lỗi tự xử được trong vài phút.",
+   "Còi yếu dần thường do tiếp xúc giắc kém hoặc ắc quy đang yếu — kiểm tra theo trình tự.",
+   "Còi cháy bóng không có: còi cháy cuộn dây điện từ thì phải thay còi mới."
+  ],
+  "entities": [
+   "còi xe",
+   "âm báo",
+   "công tắc còi",
+   "cuộn điện từ",
+   "màng còi",
+   "chỉnh âm"
+  ],
+  "keywords": [
+   "còi xe máy",
+   "còi xe bị rè",
+   "chỉnh còi xe máy",
+   "còi xe yếu",
+   "sửa còi xe máy",
+   "dùng còi đúng lúc"
+  ]
+ },
+ {
+  "url": "wiki/dien-xe/den-xe-may/",
+  "title": "Tổng hợp kiến thức: đèn xe máy",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Hệ thống đèn là ngôn ngữ giao tiếp của xe máy với thế giới xung quanh: đèn pha nói \"xe tôi ở đây\", xi nhan nói \"tôi sắp rẽ\", đèn phanh nói \"tôi đang giảm tốc\". Nhưng trên thực tế, đèn là cụm bị thờ ơ nhất cho tới khi bóng cháy đúng lúc chạy đêm hoặc mưa. Bài viết tổng hợp kiến thức về đèn xe máy: các loại bóng và công suất chuẩn, cách chỉnh đèn pha đúng độ chiếu, cách bảo trì xi nhan và đèn phanh, cùng các lỗi thường gặp và cách tự xử cũng như lúc nào nên nhờ thợ.",
+  "quickAnswer": "Đèn xe máy gồm đèn pha chiếu sáng, đèn hậu và đèn phanh, xi nhan, đèn biển số và đồng hồ. Bóng đèn phổ biến là halogen với công suất ghi chuẩn trên chụp bóng — thay đúng công suất, không thay loại \"sáng hơn\" trôi nổi vì rút điện mạnh đốt cháy ổ điện. Đèn pha chỉnh bằng ốc điều chỉnh để vệt sáng dừng đúng khoảng cách mặt đường theo quy định. Xi nhan cháy một bên thường do bóng hoặc flasher; đèn phanh không sáng thường do công tắc phanh hoặc bóng.",
+  "keyPoints": [
+   "Đèn là cụm an toàn giao tiếp: bóng cháy một bên xi nhan vẫn rủi ro khi chuyển hướng vào đêm.",
+   "Thay bóng đúng công suất ghi trên chụp: bóng \"cường sáng\" trôi tiếp đốt dây và ổ điện.",
+   "Đèn pha chỉnh bằng ốc: vệt sáng quá cao gây chói mắt xe ngược chiều, quá thấp thì mất tầm nhìn.",
+   "Xi nhan nháy nhanh hơn bình thường thường là bóng cháy một bên hoặc tiếp xúc kém."
+  ],
+  "entities": [
+   "đèn pha",
+   "đèn hậu",
+   "xi nhan",
+   "đèn phanh",
+   "bóng đèn halogen",
+   "công tắc phanh",
+   "flasher"
+  ],
+  "keywords": [
+   "đèn xe máy",
+   "chỉnh đèn pha xe máy",
+   "bóng đèn xe máy",
+   "xi nhan xe máy",
+   "đèn phanh không sáng",
+   "chọn bóng đèn xe máy"
+  ]
+ },
+ {
   "url": "wiki/dong-co/dong-co-xe-may/",
   "title": "Kinh nghiệm động cơ xe máy dành cho người mới",
   "category": "Bách khoa xe",
@@ -7986,6 +8078,36 @@
    "nguyên lý động cơ xe máy",
    "động cơ 4 thì",
    "giữ động cơ bền"
+  ]
+ },
+ {
+  "url": "wiki/dong-co/dung-tich-xi-lanh/",
+  "title": "Tổng hợp kiến thức: dung tích xi lanh",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "summary": "Con số 50cc, 110cc, 150cc ghi trên tài liệu xe chính là dung tích xi lanh — chỉ số quen thuộc nhất nhưng ít người hiểu đúng ý nghĩa. Dung tích xi lanh quyết định lượng hòa khí mỗi chu trình động cơ nạp được, từ đó chi phối sức mạnh tiềm năng; nhưng nó không quyết định một mình: tỷ số nén, thời điểm phối khí, cách phối khí v.v. cùng góp phần. Bài viết giải thích dung tích xi lanh theo cách tổng hợp: nó là gì, tính ra sao, quan hệ thực tế với công suất và cách chọn xe theo dung tích phù hợp nhu cầu đi lại hằng ngày.",
+  "quickAnswer": "Dung tích xi lanh là thể tích buồng cháy mà piston quét qua trong một chu trình, tính bằng đường kính xy lanh nhân với chiều dài hành trình piston. Xe 50cc nạp ít hòa khí nên nhẹ và tiết kiệm; xe 150cc nạp nhiều hơn nên khỏe hơn khi chở nặng hoặc lên dốc. Dung tích lớn hơn thường đi kèm xe nặng hơn và hao xăng hơn, nên chọn dung tích theo nhu cầu: đi phố một mình dùng xe nhỏ gọn, thường xuyên chở người hoặc đi xa nên chọn dung tích lớn hơn.",
+  "keyPoints": [
+   "Dung tích xi lanh là thể tích piston quét trong một chu trình: đường kính nhân chiều dài hành trình.",
+   "Dung tích quyết định lượng hòa khí mỗi lần cháy — nền của công suất tiềm năng, không phải toàn bộ.",
+   "Cùng dung tích, xe có thể khác sức mạnh rõ rệt do tỷ số nén, phối khí và điều chỉnh của từng hãng.",
+   "Dung tích lớn hơn thường nghĩa là khỏe hơn khi chở nặng — lên dốc, nhưng hao xăng và xe nặng hơn."
+  ],
+  "entities": [
+   "dung tích xi lanh",
+   "phân khối",
+   "công suất",
+   "mô men xoắn",
+   "hành trình piston",
+   "đường kính xy lanh"
+  ],
+  "keywords": [
+   "dung tích xi lanh là gì",
+   "phân khối xe máy",
+   "xe 50cc 110cc 150cc",
+   "chọn xe theo phân khối",
+   "công suất và dung tích xi lanh",
+   "cc xe máy ý nghĩa"
   ]
  },
  {
@@ -8046,6 +8168,37 @@
    "đường cao tốc tphcm",
    "đi xe máy sài gòn",
    "ngập đường tphcm"
+  ]
+ },
+ {
+  "url": "wiki/dien-xe/he-thong-dien-xe/",
+  "title": "Hệ thống điện xe — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Hệ thống điện là \"mạch máu\" của xe máy: không có nó, máy không nổ, đèn không sáng, còi không kêu. Nhưng khác với động cơ, điện là cụm mà người dùng thường sợ chạm tới và dễ nhất để tự kiểm tra nếu hiểu theo đúng mô hình ba phần: nguồn (ắc quy), phần phát (máy phát và chỉnh lưu), phần tiêu thụ (đánh lửa, đèn, còi, đồng hồ). Bài viết đi qua từng phần của hệ thống điện, nhóm lỗi thường gặp theo từng phần và những thói quen giữ hệ thống điện khỏe mà không cần dụng cụ chuyên dụng.",
+  "quickAnswer": "Hệ thống điện xe máy gồm ba phần: nguồn là ắc quy dự trữ điện; phần phát gồm máy phát xoay chiều và chỉnh lưu sạc lại cho ắc quy khi máy chạy; phần tiêu thụ gồm hệ thống đánh lửa (bugi, bô bin, cục đánh lửa), đèn, còi, đồng hồ. Chẩn đoán theo dòng điện: đề yếu, đèn mờ khi tắt máy — nguồn ắc quy; thay ắc quy mới mà vẫn yếu — chỉnh lưu hoặc máy phát; khó nổ — đánh lửa; đèn cháy bóng liên tục — điện áp cao do chỉnh lưu hỏng.",
+  "keyPoints": [
+   "Ba phần của hệ thống điện: nguồn (ắc quy), phát (máy phát, chỉnh lưu), tiêu thụ (đánh lửa, đèn, còi).",
+   "Đèn mờ khi tắt máy nhưng sáng khi máy chạy thường là ắc quy yếu — dấu hiệu đơn giản nhất để nhận biết.",
+   "Thay ắc quy mới mà vài ngày lại yếu: lỗi ở bộ chỉnh lưu sạc, không phải ở ắc quy.",
+   "Khó nổ với ắc quy khỏe thường nằm ở cụm đánh lửa: bugi, bô bin, cục đánh lửa hoặc cảm biến."
+  ],
+  "entities": [
+   "hệ thống điện",
+   "ắc quy",
+   "máy phát",
+   "chỉnh lưu",
+   "bugi",
+   "đánh lửa",
+   "cọc ắc quy"
+  ],
+  "keywords": [
+   "hệ thống điện xe máy",
+   "máy phát xe máy",
+   "chỉnh lưu sạc",
+   "ắc quy xe máy yếu",
+   "chẩn đoán lỗi điện xe máy",
+   "hệ thống đánh lửa"
   ]
  },
  {
@@ -8111,6 +8264,37 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/mach-dien-xe/",
+  "title": "Mạch điện xe — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Mạch điện là phần \"vô hình\" của hệ thống điện: các bó dây chạy sau ốp xe, các cầu chì nằm trong hộp nhỏ, các giắc nối rải rác từ tay lái tới đèn hậu. Khi đèn, còi hay đề gặp lỗi, phần lớn trục trặc nằm ở mạch — giắc oxyt, cầu chì đứt, dây chèn xẹp — chứ không phải ở thiết bị. Bài viết giúp người mới đọc được bức tranh mạch điện: các thành phần và vai trò, cách chẩn đoán lỗi theo từng nhóm triệu chứng, và những thao tác an toàn cần thuộc trước khi tự kiểm tra điện trên xe.",
+  "quickAnswer": "Mạch điện xe gồm bốn thành phần: dây dẫn (nối nguồn tới thiết bị), cầu chì (ngắt dòng khi quá tải để bảo vệ mạch), giắc nối (các điểm tháo lắp được) và điểm mát (nối vỏ xe làm cực âm). Chẩn đoán theo triệu chứng: cả cụm đèn chết — kiểm cầu chì; một thiết bị chết — kiểm giắc và bóng; thiết bị kêu lúc được lúc không — tiếp xúc oxyt hoặc dây chèn. An toàn: tháo cọc âm ắc quy trước khi thao tác mạch, không thay cầu chì bằng dây kẽm.",
+  "keyPoints": [
+   "Mạch gồm dây dẫn, cầu chì, giắc nối và điểm mát — bốn thành phần với bốn nhóm lỗi riêng.",
+   "Cầu chì là \"cửa ải bảo vệ\": đứt là có nguyên nhân quá tải, thay mới mà không tìm nguyên nhân là lỗi lặp lại.",
+   "Không bao giờ thay cầu chì bằng dây kẽm hoặc bạc năm — mất lớp bảo vệ, cháy mạch khi quá tải.",
+   "Điểm mát là thủ phạm ẩn: bulong mát oxyt khiến đèn mờ, đề yếu dù ắc quy đầy."
+  ],
+  "entities": [
+   "mạch điện",
+   "cầu chì",
+   "giắc nối",
+   "điểm mát",
+   "sơ đồ mạch",
+   "dây dẫn điện",
+   "oxyt"
+  ],
+  "keywords": [
+   "mạch điện xe máy",
+   "cầu chì xe máy",
+   "sơ đồ mạch xe máy",
+   "điểm mát xe máy",
+   "giắc nối điện xe",
+   "tìm chập điện xe máy"
+  ]
+ },
+ {
   "url": "hub/van-de-thuong-gap/may-i/",
   "title": "Hướng dẫn chi tiết về máy ì",
   "category": "Trung tâm chủ đề",
@@ -8173,6 +8357,98 @@
   ]
  },
  {
+  "url": "wiki/he-thong-phanh/phanh-dia/",
+  "title": "Hướng dẫn chi tiết về phanh đĩa",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "summary": "Phanh đĩa đã trở thành chuẩn trên hầu hết xe máy mới nhờ lực phanh mạnh, ổn định và ít giảm hiệu quả khi nóng hay mưa. Nhưng phanh đĩa cũng có lịch bảo dưỡng riêng: má phanh mòn theo độ dùng, dầu phanh hút ẩm giảm dần chất lượng, đĩa phanh có giới hạn độ mòn quy định. Bài viết đi chi tiết vào cấu tạo và nguyên lý của phanh đĩa, so sánh với phanh tang trống, chỉ ra các dấu hiệu cần kiểm tra và trình tự bảo dưỡng giúp cụm phanh luôn tin cậy — cụm mà người lái tin tưởng nhất mỗi lần cần dừng gấp.",
+  "quickAnswer": "Phanh đĩa gồm đĩa phanh gắn bánh xe, caliper (cụm kẹp) chứa piston và má phanh hai bên, và hệ thống thủy lực dẫn dầu phanh từ cần bóp. Khi bóp phanh, dầu ép piston kẹp má phanh vào đĩa, ma sát làm chậm bánh xe. Bảo dưỡng gồm: canh độ mòn má phanh (thay khi mỏng gần giới hạn), thay dầu phanh theo chu kỳ vì dầu hút ẩm giảm điểm sôi, kiểm tra đĩa không móp lệch và trên độ mòn cho phép. Phanh đĩa rít nhẹ khi ẩm là bình thường; rít liên tục hoặc phanh mềm thì cần kiểm ngay.",
+  "keyPoints": [
+   "Phanh đĩa mạnh và ổn định hơn phanh tang trống vì tản nhiệt tốt và ít bị giảm hiệu lực khi mưa.",
+   "Má phanh đĩa là vật liệu tiêu hao: thay khi mỏng tới giới hạn in trên má hoặc theo khuyến nghị hãng.",
+   "Dầu phanh hút ẩm theo thời gian, giảm điểm sôi làm phanh mềm khi chạy dốc dài — thay theo chu kỳ.",
+   "Đĩa phanh có giới hạn độ dày tối thiểu in trên đĩa; đĩa móp gây rung tay phanh cần đo hoặc thay."
+  ],
+  "entities": [
+   "phanh đĩa",
+   "caliper",
+   "má phanh",
+   "dầu phanh",
+   "đĩa phanh",
+   "piston phanh",
+   "xả khí phanh"
+  ],
+  "keywords": [
+   "phanh đĩa xe máy",
+   "cấu tạo phanh đĩa",
+   "thay dầu phanh xe máy",
+   "má phanh đĩa khi nào thay",
+   "phanh đĩa rít",
+   "phanh mềm nguyên nhân"
+  ]
+ },
+ {
+  "url": "wiki/he-thong-phanh/phanh-tang-trong/",
+  "title": "Tổng hợp kiến thức: phanh tang trống",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "summary": "Phanh tang trống là loại phanh \"veteran\" trên xe máy: cấu tạo đơn giản, bền, kín bụi và rẻ bảo dưỡng, nên vẫn giữ chỗ đứng vững chắc ở phanh sau của hầu hết xe phổ thông, ngay cả khi phanh trước đã chuyển sang đĩa. Bài viết tổng hợp kiến thức về phanh tang trống: cấu tạo bên trong trống quay, nguyên lý giãn má ép vào trống, ưu nhược điểm so với phanh đĩa, các dấu hiệu mòn và việc chỉnh khe hở định kỳ — mục bảo dưỡng đặc trưng mà người dùng cần biết để phanh trống luôn chắc chắn.",
+  "quickAnswer": "Phanh tang trống gồm trống phanh quay cùng bánh xe, hai má phanh cố định bên trong, return lò xo kéo má về, và trục cam giãn má khi bóp phanh. Khi bóp, cam giãn hai má ép vào mặt trong trống, ma sát làm chậm bánh. Ưu điểm: kín bụi nước, rẻ, bền, ít hỏng vặt; nhược: tản nhiệt kém hơn đĩa và cần chỉnh khe hở má định kỳ. Bảo dưỡng chính: canh độ mòn má, chỉnh cần phanh đúng độ rơ, giữ trống sạch và không dính dầu mỡ.",
+  "keyPoints": [
+   "Phanh tang trống đơn giản, kín bụi nước và bền — vẫn là lựa chọn phanh sau tiêu chuẩn của xe phổ thông.",
+   "Má trống mòn chậm hơn má đĩa; thời điểm thay theo độ dày và dấu hiệu cần kéo sâu bất thường.",
+   "Chỉnh độ rơ cần phanh định kỳ là bảo dưỡng đặc trưng: cần quá rơ là lực phanh giảm rõ.",
+   "Trống phanh dính dầu mỡ hoặc bột mòn bám dày gây trượt phanh — vệ sinh định kỳ cần thiết."
+  ],
+  "entities": [
+   "phanh tang trống",
+   "trống phanh",
+   "má phanh",
+   "trục cam",
+   "độ rơ cần phanh",
+   "xương phanh"
+  ],
+  "keywords": [
+   "phanh tang trống",
+   "phanh trống xe máy",
+   "chỉnh phanh xe số",
+   "má phanh trống",
+   "phanh sau yếu",
+   "cấu tạo phanh trống"
+  ]
+ },
+ {
+  "url": "wiki/dong-co/piston-xy-lanh/",
+  "title": "Hướng dẫn chi tiết về piston xy lanh",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "summary": "Piston và xy lanh là trái tim của động cơ: piston chuyển động lên xuống hàng nghìn lần mỗi phút trong xy lanh, chịu nhiệt độ và áp suất cao để sinh ra công suất. Đây cũng là cặp chi tiết quyết định sức khỏe dài hạn của máy: khi piston và xy lanh còn khít, xe êm, đủ sức và tiết kiệm; khi cặp đôi này mòn, mọi triệu chứng hao nhớt, khói pô, yếu máy đều lần lượt xuất hiện. Bài viết giải thích cấu tạo, cách nhận dấu hiệu mòn từ sớm và những thói quen sử dụng giúp piston xy lanh bền bỉ qua từng chặng đường dài.",
+  "quickAnswer": "Piston là chi tiết tròn di chuyển lên xuống trong xy lanh, nhận lực cháy để truyền ra trục khuỷu; vòng găng piston giữ kín buồng đốt và cạo nhớt. Dấu hiệu piston xy lanh mòn: hao nhớt giữa hai lần thay, khói pô xanh hoặc trắng liên tục, xe yếu lên dốc, khó nổ sáng lạnh, thậm chí tiếng gõ khi máy nóng. Bảo vệ cặp đôi này chủ yếu bằng thói quen: thay nhớt đúng kỳ, không chạy máy nóng kéo dài, khởi động nhẹ nhàng và dùng xăng tốt để tránh cặn và cháy kích nổ.",
+  "keyPoints": [
+   "Piston làm việc trong môi trường khắc nghiệt nhất động cơ: nhiệt cao, áp suất cao, ma sát liên tục.",
+   "Vòng găng piston là chi tiết giữ kín: găng mòn thì nén giảm và nhớt lọt lên buồng đốt cháy.",
+   "Dấu hiệu mòn sớm: hao nhớt nhẹ, khói pô lúc tăng ga, khó nổ sáng — nên đo nén sớm thay vì chờ triệu chứng nặng.",
+   "Nhớt là lá chắn duy nhất giữa piston và xy lanh: thiếu hoặc sai nhớt là mòn nhanh nhất."
+  ],
+  "entities": [
+   "piston",
+   "xy lanh",
+   "vòng găng",
+   "buồng đốt",
+   "đo nén",
+   "hao nhớt",
+   "đại tu máy"
+  ],
+  "keywords": [
+   "piston xy lanh xe máy",
+   "dấu hiệu mòn piston",
+   "vòng găng piston",
+   "đại tu máy xe máy",
+   "hao nhớt nguyên nhân",
+   "piston xe máy cấu tạo"
+  ]
+ },
+ {
   "url": "hub/dia-phuong/quy-dinh-giao-thong-dia-phuong/",
   "title": "Quy định giao thông địa phương — những điều cần biết",
   "category": "Trung tâm chủ đề",
@@ -8202,6 +8478,37 @@
    "tuyến cấm xe máy",
    "xử phạt giao thông đô thị",
    "phân luồng giao thông"
+  ]
+ },
+ {
+  "url": "wiki/dong-co/ty-so-nen/",
+  "title": "Kinh nghiệm tỷ số nén dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "summary": "Tỷ số nén là con số kỹ thuật ít được người dùng xe máy để ý nhưng lại gói nhiều ý nghĩa: nó nói buồng đốt nén hòa khí lại bao nhiêu lần trước khi cháy, và mức nén ấy quyết định cả hiệu suất lẫn \"kén\" hay \"không kén\" xăng. Xe tỷ số nén cao ra công suất tốt hơn nhưng đòi hỏi xăng chống kích nổ tốt — đổ xăng sai loại là mở đường cho cháy kích nổ, hiện tượng âm thầm mài mòn động cơ. Bài viết giải thích tỷ số nén bằng ngôn ngữ người mới hiểu được, kèm các thực hành bảo vệ: chọn xăng đúng, nhận biết dấu hiệu kích nổ và không tự \"nâng nén\" thiếu tính toán.",
+  "quickAnswer": "Tỷ số nén là mức hòa khí bị nén lại trước khi bugi đánh lửa — ví dụ 10:1 nghĩa là thể tích hòa khí giảm còn một phần mười. Nén cao hơn thì hiệu suất cháy tốt hơn, nhưng cần xăng có chỉ số chống kích nổ cao (như xăng RON 95) để hòa khí không tự bùng cháy sớm. Dấu hiệu kích nổ: tiếng gõ \"cộp cộp\" khi vặn ga mạnh máy nguội, máy nóng nhanh. Người mới nên đổ đúng loại xăng sổ tay khuyến nghị và không tự nâng tỷ số nén vì hệ quả nhiệt và kích nổ khó kiểm soát.",
+  "keyPoints": [
+   "Tỷ số nén là mức nén hòa khí trước lúc cháy: nén càng cao, hiệu suất khai thác càng tốt trong giới hạn thiết kế.",
+   "Nén cao đòi hỏi xăng chống kích nổ tốt: đổ sai loại xăng gây cháy kích nổ — tiếng gõ và mài mòn dài hạn.",
+   "Cháy kích nổ nghe như tiếng gõ cộp cộp khi tăng ga, thường gặp khi máy nguội, chở nặng hoặc trời nóng.",
+   "Hở nén do găng mòn hoặc xupap hở làm tỷ số nén thực tế giảm: xe yếu, khó nổ, hao xăng."
+  ],
+  "entities": [
+   "tỷ số nén",
+   "cháy kích nổ",
+   "RON 95",
+   "buồng đốt",
+   "đo nén",
+   "khe hở xupap",
+   "hiệu suất động cơ"
+  ],
+  "keywords": [
+   "tỷ số nén là gì",
+   "cháy kích nổ xe máy",
+   "đổ xăng ron 92 hay 95",
+   "nâng tỷ số nén",
+   "động cơ nén cao",
+   "tiếng gõ máy khi tăng ga"
   ]
  },
  {

@@ -4188,11 +4188,13 @@
    "title": "Hướng dẫn chi tiết về piston xy lanh",
    "primaryIntent": "informational/piston-xy-lanh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:31.924Z",
+   "seoScore": 100,
+   "words": 1728
   },
   {
    "id": "S00284",
@@ -4201,11 +4203,13 @@
    "title": "Tổng hợp kiến thức: dung tích xi lanh",
    "primaryIntent": "informational/dung-tich-xi-lanh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:29.860Z",
+   "seoScore": 91,
+   "words": 1748
   },
   {
    "id": "S00285",
@@ -4214,11 +4218,13 @@
    "title": "Kinh nghiệm tỷ số nén dành cho người mới",
    "primaryIntent": "informational/ty-so-nen",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:31.924Z",
+   "seoScore": 91,
+   "words": 1706
   },
   {
    "id": "S00286",
@@ -4227,11 +4233,13 @@
    "title": "Hệ thống điện xe — những điều cần biết",
    "primaryIntent": "informational/he-thong-dien-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:30.548Z",
+   "seoScore": 100,
+   "words": 1637
   },
   {
    "id": "S00287",
@@ -4240,11 +4248,13 @@
    "title": "Hướng dẫn chi tiết về ắc quy xe máy",
    "primaryIntent": "informational/ac-quy-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:29.166Z",
+   "seoScore": 100,
+   "words": 1608
   },
   {
    "id": "S00288",
@@ -4253,11 +4263,13 @@
    "title": "Tổng hợp kiến thức: đèn xe máy",
    "primaryIntent": "informational/den-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:29.859Z",
+   "seoScore": 91,
+   "words": 1619
   },
   {
    "id": "S00289",
@@ -4266,11 +4278,13 @@
    "title": "Kinh nghiệm còi xe dành cho người mới",
    "primaryIntent": "informational/coi-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:29.166Z",
+   "seoScore": 83,
+   "words": 1669
   },
   {
    "id": "S00290",
@@ -4279,11 +4293,13 @@
    "title": "Mạch điện xe — những điều cần biết",
    "primaryIntent": "informational/mach-dien-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:30.548Z",
+   "seoScore": 100,
+   "words": 1633
   },
   {
    "id": "S00291",
@@ -4292,11 +4308,13 @@
    "title": "Hướng dẫn chi tiết về phanh đĩa",
    "primaryIntent": "informational/phanh-dia",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:31.238Z",
+   "seoScore": 91,
+   "words": 1637
   },
   {
    "id": "S00292",
@@ -4305,11 +4323,13 @@
    "title": "Tổng hợp kiến thức: phanh tang trống",
    "primaryIntent": "informational/phanh-tang-trong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:04:31.238Z",
+   "seoScore": 91,
+   "words": 1616
   },
   {
    "id": "S00293",

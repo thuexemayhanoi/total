@@ -8331,6 +8331,32 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/ac-quy-xe-may/",
+  "title": "Hướng dẫn chi tiết về ắc quy xe máy",
+  "description": "Chi tiết về ắc quy xe máy: phân loại ắc quy nước và ắc quy khô, tuổi thọ, cách chọn mua đúng chủng loại và bảo quản kéo dài tuổi thọ.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "ắc quy",
+   "ắc quy nước",
+   "ắc quy khô",
+   "dung lượng Ah",
+   "chỉnh lưu",
+   "sạc ắc quy",
+   "đề máy"
+  ],
+  "keywords": [
+   "ắc quy xe máy",
+   "chọn ắc quy xe máy",
+   "ắc quy nước và ắc quy khô",
+   "tuổi thọ ắc quy xe máy",
+   "chỉ số ắc quy",
+   "bảo quản ắc quy xe"
+  ],
+  "summary": "Ắc quy là cụm điện hao mòn theo thời gian rõ ràng nhất trên xe máy: cứ hai đến bốn năm là phải thay, và thay đúng — đúng chủng loại, đúng nguồn hàng — quyết định xe có khởi động êm trong chu kỳ kế tiếp hay không. Bài viết đi chi tiết từng khía cạnh của ắc quy "
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/ac-quy-yeu/",
   "title": "Kinh nghiệm ắc quy yếu dành cho người mới",
   "description": "Dấu hiệu nhận biết ắc quy xe máy yếu, nguyên nhân phổ biến và các bước xử lý an toàn dành cho người mới, cùng cách kéo dài tuổi thọ ắc quy.",
@@ -8436,6 +8462,57 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/coi-xe/",
+  "title": "Kinh nghiệm còi xe dành cho người mới",
+  "description": "Kinh nghiệm về còi xe máy: vì sao còi quan trọng, còi rè hay yếu xử thế nào, và dùng còi đúng hoàn cảnh để báo hiệu an toàn không gây phiền.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "còi xe",
+   "âm báo",
+   "công tắc còi",
+   "cuộn điện từ",
+   "màng còi",
+   "chỉnh âm"
+  ],
+  "keywords": [
+   "còi xe máy",
+   "còi xe bị rè",
+   "chỉnh còi xe máy",
+   "còi xe yếu",
+   "sửa còi xe máy",
+   "dùng còi đúng lúc"
+  ],
+  "summary": "Còi là thiết bị nhỏ nhất trên xe máy nhưng là thiết bị báo hiệu âm thanh duy nhất: đúng lúc, một tiếng còi tránh được một va chạm. Thực tế, còi lại là cụm hay bị hỏng nhất trong nhóm an toàn — rè, yếu, hoặc im lặng hoàn toàn — và người dùng thường bỏ qua cho t"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dien-xe/den-xe-may/",
+  "title": "Tổng hợp kiến thức: đèn xe máy",
+  "description": "Tổng hợp về đèn xe máy: các loại bóng đèn, đèn pha chỉnh thế nào, xi nhan và đèn phanh hoạt động ra sao, và lỗi đèn thường gặp.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "đèn pha",
+   "đèn hậu",
+   "xi nhan",
+   "đèn phanh",
+   "bóng đèn halogen",
+   "công tắc phanh",
+   "flasher"
+  ],
+  "keywords": [
+   "đèn xe máy",
+   "chỉnh đèn pha xe máy",
+   "bóng đèn xe máy",
+   "xi nhan xe máy",
+   "đèn phanh không sáng",
+   "chọn bóng đèn xe máy"
+  ],
+  "summary": "Hệ thống đèn là ngôn ngữ giao tiếp của xe máy với thế giới xung quanh: đèn pha nói \"xe tôi ở đây\", xi nhan nói \"tôi sắp rẽ\", đèn phanh nói \"tôi đang giảm tốc\". Nhưng trên thực tế, đèn là cụm bị thờ ơ nhất cho tới khi bóng cháy đúng lúc chạy đêm hoặc mưa. Bài v"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/dong-co-xe-may/",
   "title": "Kinh nghiệm động cơ xe máy dành cho người mới",
   "description": "Người mới hiểu động cơ xe máy: nguyên lý làm việc, các dấu hiệu động cơ có vấn đề và những thói quen bảo dưỡng giúp động cơ bền nhất.",
@@ -8459,6 +8536,31 @@
    "giữ động cơ bền"
   ],
   "summary": "Động cơ là cụm đắt nhất trên chiếc xe máy, cũng là cụm phụ thuộc nhiều nhất vào thói quen sử dụng. Cùng một mẫu xe, có chiếc chạy một trăm nghìn cây số vẫn êm, có chiếc ba vạn cây số đã vào đại tu — khác biệt nằm ở nhớt, xăng, cách ga và cách chăm sóc. Bài viế"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/dung-tich-xi-lanh/",
+  "title": "Tổng hợp kiến thức: dung tích xi lanh",
+  "description": "Dung tích xi lanh là gì, tính thế nào, quan hệ với công suất và tua máy, và nên chọn xe dung tích bao nhiêu theo nhu cầu thực tế.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "dung tích xi lanh",
+   "phân khối",
+   "công suất",
+   "mô men xoắn",
+   "hành trình piston",
+   "đường kính xy lanh"
+  ],
+  "keywords": [
+   "dung tích xi lanh là gì",
+   "phân khối xe máy",
+   "xe 50cc 110cc 150cc",
+   "chọn xe theo phân khối",
+   "công suất và dung tích xi lanh",
+   "cc xe máy ý nghĩa"
+  ],
+  "summary": "Con số 50cc, 110cc, 150cc ghi trên tài liệu xe chính là dung tích xi lanh — chỉ số quen thuộc nhất nhưng ít người hiểu đúng ý nghĩa. Dung tích xi lanh quyết định lượng hòa khí mỗi chu trình động cơ nạp được, từ đó chi phối sức mạnh tiềm năng; nhưng nó không qu"
  },
  {
   "kind": "article",
@@ -8509,6 +8611,32 @@
    "ngập đường tphcm"
   ],
   "summary": "Thành phố Hồ Chí Minh là siêu đô thị của phương Nam, nơi giao thông vận hành theo những quy luật riêng hình thành từ quy mô dân số, mô hình các khu công nghiệp ven đô và hệ thống sông ngòi kênh rạch chằng chịt. Bài viết tổng hợp kiến thức về giao thông TP.HCM "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dien-xe/he-thong-dien-xe/",
+  "title": "Hệ thống điện xe — những điều cần biết",
+  "description": "Tổng quan hệ thống điện xe máy: ắc quy, máy phát, chỉnh lưu, đánh lửa, đèn còi — cách hoạt động, lỗi thường gặp và bảo dưỡng.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "hệ thống điện",
+   "ắc quy",
+   "máy phát",
+   "chỉnh lưu",
+   "bugi",
+   "đánh lửa",
+   "cọc ắc quy"
+  ],
+  "keywords": [
+   "hệ thống điện xe máy",
+   "máy phát xe máy",
+   "chỉnh lưu sạc",
+   "ắc quy xe máy yếu",
+   "chẩn đoán lỗi điện xe máy",
+   "hệ thống đánh lửa"
+  ],
+  "summary": "Hệ thống điện là \"mạch máu\" của xe máy: không có nó, máy không nổ, đèn không sáng, còi không kêu. Nhưng khác với động cơ, điện là cụm mà người dùng thường sợ chạm tới và dễ nhất để tự kiểm tra nếu hiểu theo đúng mô hình ba phần: nguồn (ắc quy), phần phát (máy "
  },
  {
   "kind": "article",
@@ -8564,6 +8692,32 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/mach-dien-xe/",
+  "title": "Mạch điện xe — những điều cần biết",
+  "description": "Mạch điện xe máy gồm dây dẫn, cầu chì, giắc nối: cách đọc sơ đồ mạch đơn giản, lỗi mạch thường gặp và thao tác an toàn khi tự kiểm tra.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "mạch điện",
+   "cầu chì",
+   "giắc nối",
+   "điểm mát",
+   "sơ đồ mạch",
+   "dây dẫn điện",
+   "oxyt"
+  ],
+  "keywords": [
+   "mạch điện xe máy",
+   "cầu chì xe máy",
+   "sơ đồ mạch xe máy",
+   "điểm mát xe máy",
+   "giắc nối điện xe",
+   "tìm chập điện xe máy"
+  ],
+  "summary": "Mạch điện là phần \"vô hình\" của hệ thống điện: các bó dây chạy sau ốp xe, các cầu chì nằm trong hộp nhỏ, các giắc nối rải rác từ tay lái tới đèn hậu. Khi đèn, còi hay đề gặp lỗi, phần lớn trục trặc nằm ở mạch — giắc oxyt, cầu chì đứt, dây chèn xẹp — chứ không "
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/may-i/",
   "title": "Hướng dẫn chi tiết về máy ì",
   "description": "Vì sao xe máy bị ì máy, kém ga, hao xăng: nguyên nhân từ lọc gió, bugi, xăng, chuột cống và cách kiểm tra xử lý từng bước cho người mới.",
@@ -8616,6 +8770,83 @@
  },
  {
   "kind": "article",
+  "url": "wiki/he-thong-phanh/phanh-dia/",
+  "title": "Hướng dẫn chi tiết về phanh đĩa",
+  "description": "Phanh đĩa xe máy gồm những gì, vì sao lực phanh mạnh hơn phanh tang trống, các dấu hiệu hao mòn và cách bảo dưỡng đĩa, má phanh, dầu phanh.",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "entities": [
+   "phanh đĩa",
+   "caliper",
+   "má phanh",
+   "dầu phanh",
+   "đĩa phanh",
+   "piston phanh",
+   "xả khí phanh"
+  ],
+  "keywords": [
+   "phanh đĩa xe máy",
+   "cấu tạo phanh đĩa",
+   "thay dầu phanh xe máy",
+   "má phanh đĩa khi nào thay",
+   "phanh đĩa rít",
+   "phanh mềm nguyên nhân"
+  ],
+  "summary": "Phanh đĩa đã trở thành chuẩn trên hầu hết xe máy mới nhờ lực phanh mạnh, ổn định và ít giảm hiệu quả khi nóng hay mưa. Nhưng phanh đĩa cũng có lịch bảo dưỡng riêng: má phanh mòn theo độ dùng, dầu phanh hút ẩm giảm dần chất lượng, đĩa phanh có giới hạn độ mòn q"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/he-thong-phanh/phanh-tang-trong/",
+  "title": "Tổng hợp kiến thức: phanh tang trống",
+  "description": "Phanh tang trống trên xe máy: cấu tạo bên trong trống phanh, vì sao đơn giản bền, dấu hiệu mòn má và cách chỉnh khe hở đúng.",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "entities": [
+   "phanh tang trống",
+   "trống phanh",
+   "má phanh",
+   "trục cam",
+   "độ rơ cần phanh",
+   "xương phanh"
+  ],
+  "keywords": [
+   "phanh tang trống",
+   "phanh trống xe máy",
+   "chỉnh phanh xe số",
+   "má phanh trống",
+   "phanh sau yếu",
+   "cấu tạo phanh trống"
+  ],
+  "summary": "Phanh tang trống là loại phanh \"veteran\" trên xe máy: cấu tạo đơn giản, bền, kín bụi và rẻ bảo dưỡng, nên vẫn giữ chỗ đứng vững chắc ở phanh sau của hầu hết xe phổ thông, ngay cả khi phanh trước đã chuyển sang đĩa. Bài viết tổng hợp kiến thức về phanh tang trố"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/piston-xy-lanh/",
+  "title": "Hướng dẫn chi tiết về piston xy lanh",
+  "description": "Piston và xy lanh là cặp đôi sinh công của động cơ: cấu tạo, các dấu hiệu mòn piston xy lanh và thói quen giúp cặp đôi này bền nhất.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "piston",
+   "xy lanh",
+   "vòng găng",
+   "buồng đốt",
+   "đo nén",
+   "hao nhớt",
+   "đại tu máy"
+  ],
+  "keywords": [
+   "piston xy lanh xe máy",
+   "dấu hiệu mòn piston",
+   "vòng găng piston",
+   "đại tu máy xe máy",
+   "hao nhớt nguyên nhân",
+   "piston xe máy cấu tạo"
+  ],
+  "summary": "Piston và xy lanh là trái tim của động cơ: piston chuyển động lên xuống hàng nghìn lần mỗi phút trong xy lanh, chịu nhiệt độ và áp suất cao để sinh ra công suất. Đây cũng là cặp chi tiết quyết định sức khỏe dài hạn của máy: khi piston và xy lanh còn khít, xe ê"
+ },
+ {
+  "kind": "article",
   "url": "hub/dia-phuong/quy-dinh-giao-thong-dia-phuong/",
   "title": "Quy định giao thông địa phương — những điều cần biết",
   "description": "Tổng hợp quy định giao thông áp dụng tại địa phương: giới hạn tốc độ, đội mũ bảo hiểm, khu vực cấm, gửi xe và các lỗi bị xử phạt người đi xe máy đô thị cần nắm.",
@@ -8640,6 +8871,32 @@
    "phân luồng giao thông"
   ],
   "summary": "Ngoài Luật Trật tự an toàn giao thông đường bộ áp dụng toàn quốc, mỗi thành phố còn có các quy định và biện pháp phân luồng mang tính địa phương: tuyến cấm xe máy theo giờ, khu vực cấm đỗ, cách tổ chức làn đường và mức lệ phí gửi xe. Bài viết giúp người đi xe "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/ty-so-nen/",
+  "title": "Kinh nghiệm tỷ số nén dành cho người mới",
+  "description": "Tỷ số nén là gì vì sao quan trọng, mối liên hệ với xăng A95 hay RON 95, hiện tượng cháy kích nổ và cách người mới bảo vệ tỷ số nén.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "tỷ số nén",
+   "cháy kích nổ",
+   "RON 95",
+   "buồng đốt",
+   "đo nén",
+   "khe hở xupap",
+   "hiệu suất động cơ"
+  ],
+  "keywords": [
+   "tỷ số nén là gì",
+   "cháy kích nổ xe máy",
+   "đổ xăng ron 92 hay 95",
+   "nâng tỷ số nén",
+   "động cơ nén cao",
+   "tiếng gõ máy khi tăng ga"
+  ],
+  "summary": "Tỷ số nén là con số kỹ thuật ít được người dùng xe máy để ý nhưng lại gói nhiều ý nghĩa: nó nói buồng đốt nén hòa khí lại bao nhiêu lần trước khi cháy, và mức nén ấy quyết định cả hiệu suất lẫn \"kén\" hay \"không kén\" xăng. Xe tỷ số nén cao ra công suất tốt hơn "
  },
  {
   "kind": "article",
