@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-06T18:04:22.197Z",
- "phase": "waiting-publish",
- "pair": "S00393-S00402",
- "note": "Queue 8: 10 bai da viet + QA 100/100 + SEO 100/100 + verify-sources OK; cho push"
+ "at": "2026-10-06T18:32:54.417Z",
+ "phase": "writing",
+ "pair": "S00403-S00412",
+ "note": "Queue 9 (S00403-S00412, ride/lai-xe-duong-dai + lai-xe-trong-thanh-pho + an-toan-giao-thong): writer bat dau viet 10 bai; sandbox local dang fail (VibeFS 401) nen writer chay qua GitHub API theo engine "
 }
