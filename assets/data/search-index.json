@@ -8331,6 +8331,137 @@
  },
  {
   "kind": "article",
+  "url": "hub/van-de-thuong-gap/ac-quy-yeu/",
+  "title": "Kinh nghiệm ắc quy yếu dành cho người mới",
+  "description": "Dấu hiệu nhận biết ắc quy xe máy yếu, nguyên nhân phổ biến và các bước xử lý an toàn dành cho người mới, cùng cách kéo dài tuổi thọ ắc quy.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [
+   "ắc quy",
+   "đề máy",
+   "điện áp",
+   "sạc ắc quy",
+   "ắc quy chai",
+   "hệ thống điện",
+   "khó nổ máy"
+  ],
+  "keywords": [
+   "ắc quy xe máy yếu",
+   "dấu hiệu ắc quy yếu",
+   "ắc quy xe máy",
+   "xe đề yếu",
+   "sạc ắc quy xe máy",
+   "ắc quy chai phải làm sao"
+  ],
+  "summary": "Ắc quy yếu là một trong những trục trặc phổ biến nhất trên xe máy sau một thời gian sử dụng: xe khó nổ buổi sáng, đề yếu, đèn không đủ sáng, thậm chí xe chết máy giữa đường. Bài viết giúp người mới nhận biết chính xác các dấu hiệu ắc quy yếu, hiểu nguyên nhân "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/bo-phan-xe-may/",
+  "title": "Tổng hợp kiến thức: bộ phận xe máy",
+  "description": "Danh mục các bộ phận xe máy theo nhóm: bộ phận vận hành, an toàn, điện, tiện nghi — mỗi bộ phận làm gì và chăm sóc thế nào cho đúng.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "bộ phận xe máy",
+   "tay ga",
+   "cần số",
+   "dây xích",
+   "phanh",
+   "lốp xe",
+   "gương chiếu hậu",
+   "yên xe"
+  ],
+  "keywords": [
+   "bộ phận xe máy",
+   "các bộ phận chính trên xe máy",
+   "tên bộ phận xe máy",
+   "chức năng bộ phận xe máy",
+   "danh mục bộ phận xe số",
+   "bộ phận xe tay ga"
+  ],
+  "summary": "Xe máy có hàng trăm chi tiết, nhưng với người sử dụng, chỉ cần nắm khoảng hai mươi bộ phận quan trọng là đủ để hiểu xe, mô tả đúng khi sửa và chăm sóc không sót chỗ. Bài viết tổng hợp các bộ phận theo bốn nhóm: nhóm vận hành (ga, côn, cần số, dây xích), nhóm a"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/cac-cum-xe-may/",
+  "title": "Hướng dẫn chi tiết về các cụm xe máy",
+  "description": "Chia cấu tạo xe máy thành từng cụm nhỏ — nắp máy, đầu máy, lốc, truyền động, điện, treo, phanh — mỗi cụm vai trò gì và triệu chứng khi hỏng ra sao.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "cụm máy",
+   "nắp máy",
+   "đầu máy",
+   "lốc xe",
+   "truyền động",
+   "cụm điện",
+   "cụm phanh"
+  ],
+  "keywords": [
+   "các cụm xe máy",
+   "cấu tạo cụm máy xe máy",
+   "nắp máy xupap",
+   "lốc xe tay ga",
+   "cụm điện xe máy",
+   "chức năng các cụm trên xe máy"
+  ],
+  "summary": "Nhìn tổng thể một chiếc xe máy, người mới thường choáng ngợp vì quá nhiều chi tiết. Cách học hiệu quả là chia chiếc xe thành các cụm nhỏ theo chức năng: cụm nắp máy và hệ thống phân phối khí, cụm đầu máy với piston và trục khuỷu, cụm lốc và bộ truyền, cụm điện"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/cau-tao-xe-may/",
+  "title": "Tổng hợp kiến thức: cấu tạo xe máy",
+  "description": "Tổng hợp cấu tạo xe máy theo từng cụm: khung, động cơ, truyền động, điện, treo, phanh — mỗi cụm làm gì và liên hệ bảo dưỡng thực tế.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "cấu tạo xe máy",
+   "khung xe",
+   "động cơ",
+   "bộ truyền động",
+   "hệ thống điện",
+   "hệ thống treo",
+   "phanh"
+  ],
+  "keywords": [
+   "cấu tạo xe máy",
+   "các bộ phận chính của xe máy",
+   "xe máy gồm những gì",
+   "nguyên lý hoạt động xe máy",
+   "cụm chính trên xe máy",
+   "cấu tạo xe tay ga và xe số"
+  ],
+  "summary": "Hiểu cấu tạo xe máy không cần phải là kỹ sư: chỉ cần nắm được bốn cụm lớn — khung xe và hệ thống treo, động cơ, bộ truyền động và hệ thống điện — cùng cách chúng phối hợp với nhau, người điều khiển đã đủ tự tin đọc các triệu chứng của xe, mô tả đúng cho thợ và"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/dong-co-xe-may/",
+  "title": "Kinh nghiệm động cơ xe máy dành cho người mới",
+  "description": "Người mới hiểu động cơ xe máy: nguyên lý làm việc, các dấu hiệu động cơ có vấn đề và những thói quen bảo dưỡng giúp động cơ bền nhất.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "động cơ xe máy",
+   "nhớt động cơ",
+   "hòa khí",
+   "nén máy",
+   "khó nổ",
+   "hao xăng",
+   "đại tu máy"
+  ],
+  "keywords": [
+   "động cơ xe máy",
+   "kinh nghiệm bảo dưỡng động cơ",
+   "dấu hiệu động cơ xấu",
+   "nguyên lý động cơ xe máy",
+   "động cơ 4 thì",
+   "giữ động cơ bền"
+  ],
+  "summary": "Động cơ là cụm đắt nhất trên chiếc xe máy, cũng là cụm phụ thuộc nhiều nhất vào thói quen sử dụng. Cùng một mẫu xe, có chiếc chạy một trăm nghìn cây số vẫn êm, có chiếc ba vạn cây số đã vào đại tu — khác biệt nằm ở nhớt, xăng, cách ga và cách chăm sóc. Bài viế"
+ },
+ {
+  "kind": "article",
   "url": "hub/dia-phuong/giao-thong-ha-noi/",
   "title": "Hướng dẫn chi tiết về giao thông hà nội",
   "description": "Kiến thức giao thông Hà Nội: cấu trúc phố cổ và vành đai, quy luật giờ cao điểm, cầu vượt sông Hồng, thời tiết theo mùa và lưu ý khi đi xe máy nội thành.",
@@ -8378,6 +8509,110 @@
    "ngập đường tphcm"
   ],
   "summary": "Thành phố Hồ Chí Minh là siêu đô thị của phương Nam, nơi giao thông vận hành theo những quy luật riêng hình thành từ quy mô dân số, mô hình các khu công nghiệp ven đô và hệ thống sông ngòi kênh rạch chằng chịt. Bài viết tổng hợp kiến thức về giao thông TP.HCM "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/he-thong-treo/",
+  "title": "Hệ thống treo — những điều cần biết",
+  "description": "Hệ thống treo xe máy gồm những gì, vì sao xe nảy lún, đu đưa, và cách bảo dưỡng giảm xóc, phuộc, vòng bi cổ đúng chu kỳ.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "hệ thống treo",
+   "phuộc trước",
+   "giảm xóc sau",
+   "dầu phuộc",
+   "vòng bi cổ",
+   "ống đồng",
+   "lò xo"
+  ],
+  "keywords": [
+   "hệ thống treo xe máy",
+   "phuộc trước xe máy",
+   "giảm xóc sau xe máy",
+   "dấu hiệu phuộc yếu",
+   "thay dầu phuộc",
+   "xe nảy lục cục"
+  ],
+  "summary": "Hệ thống treo là cụm \"vô danh anh hùng\" của xe máy: mỗi ổ gà, mỗi hố ga bạn đi qua êm ru là nhờ cụm treo đang làm việc. Khi treo yếu, người lái nhận ra qua xe nảy lún bất thường, cầm lái nặng tay khi đường xấu, phanh kém hiệu quả vì bánh xe mất tiếp xúc mặt đư"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/khung-xe/",
+  "title": "Kinh nghiệm khung xe dành cho người mới",
+  "description": "Khung xe máy làm gì, dấu hiệu khung cong, lệch hay ốc lỏng ra sao, và những kinh nghiệm kiểm tra chăm sóc khung xe dành cho người mới.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "khung xe",
+   "bulong khung",
+   "tì vè",
+   "đòn after",
+   "vòng bi cổ",
+   "khung cong",
+   "rỉ sét"
+  ],
+  "keywords": [
+   "khung xe máy",
+   "dấu hiệu khung xe cong",
+   "ốc tì vè lỏng",
+   "xe đu đưa tay lái",
+   "chăm sóc khung xe",
+   "kiểm tra khung sau ngã xe"
+  ],
+  "summary": "Khung xe là bộ phận \"vô hình\" nhất trên chiếc xe máy: ít ai nghĩ tới nó cho tới khi xe bị va chạm mạnh, đu đưa khó điều khiển hoặc tiếng kêu lục cục không rõ nguồn. Thực tế khung gánh toàn bộ tải trọng, giữ thẳng hàng các cụm máy, treo và bánh xe; khung cong h"
+ },
+ {
+  "kind": "article",
+  "url": "hub/van-de-thuong-gap/may-i/",
+  "title": "Hướng dẫn chi tiết về máy ì",
+  "description": "Vì sao xe máy bị ì máy, kém ga, hao xăng: nguyên nhân từ lọc gió, bugi, xăng, chuột cống và cách kiểm tra xử lý từng bước cho người mới.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [
+   "máy ì",
+   "côn trượt",
+   "lọc gió",
+   "bugi",
+   "chuột cống",
+   "họng xăng",
+   "kém ga"
+  ],
+  "keywords": [
+   "xe máy bị ì máy",
+   "máy ì là gì",
+   "xe ì máy nguyên nhân",
+   "xe yếu ga",
+   "xe tay ga ì máy",
+   "côn trượt xe máy"
+  ],
+  "summary": "Máy ì là trạng thái xe nổ máy bình thường nhưng khi vặn ga lại ì ạch, tăng tốc yếu, có khi kèm hao xăng hoặc máy rung bất thường. Hiện tượng này đến từ nhiều nguyên nhân khác nhau: từ chuyện nhỏ như lọc gió bẩn, bugi cũ, xăng kém, đến chuyện lớn như côn trượt,"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/nguyen-ly-4-thi/",
+  "title": "Nguyên lý 4 thì — những điều cần biết",
+  "description": "Giải thích nguyên lý 4 thì trên động cơ xe máy: bốn kỳ nạp nén cháy thải, vai trò xupap và trục cam, và vì sao 4 thì bền hơn 2 thì.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "động cơ 4 thì",
+   "piston",
+   "xupap",
+   "trục cam",
+   "trục khuỷu",
+   "chu trình nạp nén công thải",
+   "khe hở xupap"
+  ],
+  "keywords": [
+   "nguyên lý 4 thì",
+   "động cơ 4 thì là gì",
+   "chu trình 4 thì",
+   "nạp nén công thải",
+   "xupap động cơ",
+   "4 thì và 2 thì khác nhau"
+  ],
+  "summary": "Hầu hết xe máy hôm nay chạy bằng động cơ 4 thì, nhưng ít người dùng hiểu bốn \"thì\" ấy là gì và vì sao nó quyết định cách xe vận hành cũng như cách bảo dưỡng. Bài viết đi qua bốn kỳ của chu trình — nạp, nén, công và thải — bằng ngôn ngữ đời thường, giải thích v"
  },
  {
   "kind": "article",
@@ -8487,5 +8722,31 @@
    "đi xe máy trong thành phố"
   ],
   "summary": "Xe máy là phương tiện phổ biến nhất tại các thành phố Việt Nam, nhưng với người mới đến, việc hòa vào dòng chảy giao thông địa phương không đơn giản là thuộc luật: đó là cả một tập quy tắc bất thành văn về nhường đường, chuyển hướng, gửi xe và xử lý các tình h"
+ },
+ {
+  "kind": "article",
+  "url": "hub/van-de-thuong-gap/xe-may-keu/",
+  "title": "Xe máy kêu — những điều cần biết",
+  "description": "Hướng dẫn phân loại các tiếng kêu bất thường trên xe máy: kêu ở đầu máy, bộ truyền, phanh, giảm xóc — cách nhận diện và khi nào cần kiểm tra ngay.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [
+   "tiếng kêu xe máy",
+   "giảm xóc",
+   "bộ truyền động",
+   "phanh",
+   "vòng bi",
+   "nhông sên dĩa",
+   "chuột cống"
+  ],
+  "keywords": [
+   "xe máy kêu",
+   "xe máy có tiếng kêu lạ",
+   "xe kêu lạch cạch",
+   "xe kêu cọt cẹt",
+   "phân biệt tiếng kêu xe máy",
+   "xe tay ga kêu ọc ọc"
+  ],
+  "summary": "Xe máy sau một thời gian chạy thường xuất hiện các tiếng kêu lạ: lạch cạch, ù ù, kêu loẹt xoẹt hoặc rè rè ở nhiều vị trí khác nhau. Không ít người chủ quan bỏ qua vì xe vẫn chạy bình thường, nhưng tiếng kêu chính là cách xe báo hiệu một chi tiết đang mòn, lỏng"
  }
 ]

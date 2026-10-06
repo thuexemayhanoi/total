@@ -7833,6 +7833,162 @@
   ]
  },
  {
+  "url": "hub/van-de-thuong-gap/ac-quy-yeu/",
+  "title": "Kinh nghiệm ắc quy yếu dành cho người mới",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "summary": "Ắc quy yếu là một trong những trục trặc phổ biến nhất trên xe máy sau một thời gian sử dụng: xe khó nổ buổi sáng, đề yếu, đèn không đủ sáng, thậm chí xe chết máy giữa đường. Bài viết giúp người mới nhận biết chính xác các dấu hiệu ắc quy yếu, hiểu nguyên nhân khiến ắc quy xuống cấp nhanh và biết các bước xử lý an toàn, từ kiểm tra điện áp, sạc bổ sung đến thay thế đúng lúc, để không rơi vào tình huống bị bỏ lại giữa đường.",
+  "quickAnswer": "Ắc quy yếu thường biểu hiện qua tiếng đề chậm và yếu, đèn pha mờ hơn bình thường khi máy chưa nổ, còi rè hoặc tiếng còi nhỏ. Người mới nên kiểm tra điện áp ắc quy bằng đồng hồ đo: ắc quy 12V khỏe ở mức khoảng 12,6V khi tắt máy, nếu chỉ còn dưới 12V là đã yếu. Không nên \"quay nhờ\" nổ máy bằng dây kéo nhiều lần vì có thể làm hỏng hệ thống đánh lửa; hãy sạc lại bằng sạc chuyên dụng hoặc thay ắc quy mới khi đã qua chu kỳ sạc.",
+  "keyPoints": [
+   "Dấu hiệu ắc quy yếu điển hình là đề chậm, đèn mờ khi máy tắt, còi rè và các thiết bị điện hoạt động thiếu ổn định.",
+   "Ắc quy xe máy thường có tuổi thọ khoảng hai đến bốn năm; tần suất đi xe ngắn, để xe lâu không chạy làm ắc quy tụt nhanh hơn.",
+   "Đo điện áp bằng đồng hồ là cách kiểm tra đơn giản nhất: dưới 12V khi tắt máy là ắc quy đã yếu đáng kể.",
+   "Đề liên tục khi xe không nổ là nguyên nhân khiến ắc quy kiệt nhanh; mỗi lần đề quá khoảng năm giây nên nghỉ một lát."
+  ],
+  "entities": [
+   "ắc quy",
+   "đề máy",
+   "điện áp",
+   "sạc ắc quy",
+   "ắc quy chai",
+   "hệ thống điện",
+   "khó nổ máy"
+  ],
+  "keywords": [
+   "ắc quy xe máy yếu",
+   "dấu hiệu ắc quy yếu",
+   "ắc quy xe máy",
+   "xe đề yếu",
+   "sạc ắc quy xe máy",
+   "ắc quy chai phải làm sao"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/bo-phan-xe-may/",
+  "title": "Tổng hợp kiến thức: bộ phận xe máy",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Xe máy có hàng trăm chi tiết, nhưng với người sử dụng, chỉ cần nắm khoảng hai mươi bộ phận quan trọng là đủ để hiểu xe, mô tả đúng khi sửa và chăm sóc không sót chỗ. Bài viết tổng hợp các bộ phận theo bốn nhóm: nhóm vận hành (ga, côn, cần số, dây xích), nhóm an toàn (phanh, lốp, đèn, còi, gương), nhóm điện (ắc quy, bugi, máy phát), nhóm tiện nghi và thân vỏ (yên, cốp, tì vè). Mỗi bộ phận kèm một dòng vai trò và một ghi chú chăm sóc thực tế.",
+  "quickAnswer": "Các bộ phận xe máy cần nhớ theo nhóm: vận hành gồm tay ga, cần số, côn (xe số) hoặc cụm lốc (xe tay ga), dây xích hoặc dây cua, nhông sên dĩa; an toàn gồm phanh trước sau, lốp và vành, đèn pha đèn xe, còi, gương chiếu hậu; điện gồm ắc quy, bugi, máy phát chỉnh lưu; thân vỏ gồm yên, cốp xe, tì vè, khung. Khi bảo dưỡng, mỗi nhóm có chu kỳ riêng: nhớt theo cây số, phanh và lốp theo độ mòn, điện theo định kỳ kiểm tra.",
+  "keyPoints": [
+   "Chia bộ phận theo nhóm vận hành — an toàn — điện — thân vỏ giúp kiểm tra định kỳ không bỏ sót.",
+   "Bộ phận an toàn (phanh, lốp, đèn, còi, gương) cần kiểm tra trước mỗi chuyến đi dài, không chỉ theo chu kỳ.",
+   "Bộ phận vận hành hao mòn theo cây số: xích, lốc, côn, cần số — nghe tiếng và cảm giác để canh thời điểm.",
+   "Bộ phận điện hư theo thời gian và thói quen dùng: ắc quy, bugi, các chụp cọc — kiểm định kỳ mỗi vài tháng."
+  ],
+  "entities": [
+   "bộ phận xe máy",
+   "tay ga",
+   "cần số",
+   "dây xích",
+   "phanh",
+   "lốp xe",
+   "gương chiếu hậu",
+   "yên xe"
+  ],
+  "keywords": [
+   "bộ phận xe máy",
+   "các bộ phận chính trên xe máy",
+   "tên bộ phận xe máy",
+   "chức năng bộ phận xe máy",
+   "danh mục bộ phận xe số",
+   "bộ phận xe tay ga"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/cac-cum-xe-may/",
+  "title": "Hướng dẫn chi tiết về các cụm xe máy",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Nhìn tổng thể một chiếc xe máy, người mới thường choáng ngợp vì quá nhiều chi tiết. Cách học hiệu quả là chia chiếc xe thành các cụm nhỏ theo chức năng: cụm nắp máy và hệ thống phân phối khí, cụm đầu máy với piston và trục khuỷu, cụm lốc và bộ truyền, cụm điện, cụm treo, cụm phanh và cụm điều khiển. Mỗi cụm chỉ cần hiểu một câu \"nó làm gì\" là đủ để nghe triệu chứng và đoán được đúng hướng. Bài viết đi qua từng cụm theo cách này, kèm triệu chứng đặc trưng khi cụm đó suy giảm.",
+  "quickAnswer": "Chia xe máy thành các cụm để dễ hiểu: cụm nắp máy (cam, xupap) quản việc đóng mở khí; cụm đầu máy (piston, xilanh, trục khuỷu) sinh công; cụm lốc (nhông trước, côn, puly với xe tay ga) truyền lực ra bánh; cụm điện (ắc quy, máy phát, đánh lửa) cấp năng lượng; cụm treo và phanh giữ an toàn vận hành. Khi xe có triệu chứng, hãy xếp nó vào đúng cụm: tiếng kêu có nhịp theo tua máy thuộc cụm máy, tiếng kêu khi nảy xe thuộc cụm treo, đèn mờ thuộc cụm điện.",
+  "keyPoints": [
+   "Chia xe thành cụm nhỏ giúp người mới ghi nhớ cấu tạo nhanh hơn nhiều so với học từng chi tiết rời rạc.",
+   "Cụm nắp máy và đầu máy là nơi sinh công: triệu chứng thường là khó nổ, ì máy, kêu theo vòng tua.",
+   "Cụm lốc và truyền động quyết định lực có tới bánh xe hay không: triệu chứng là tua lên mà xe không nhích.",
+   "Cụm điện gồm nguồn, phát và tiêu thụ: triệu chứng là đề yếu, đèn mờ, khó nổ."
+  ],
+  "entities": [
+   "cụm máy",
+   "nắp máy",
+   "đầu máy",
+   "lốc xe",
+   "truyền động",
+   "cụm điện",
+   "cụm phanh"
+  ],
+  "keywords": [
+   "các cụm xe máy",
+   "cấu tạo cụm máy xe máy",
+   "nắp máy xupap",
+   "lốc xe tay ga",
+   "cụm điện xe máy",
+   "chức năng các cụm trên xe máy"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/cau-tao-xe-may/",
+  "title": "Tổng hợp kiến thức: cấu tạo xe máy",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Hiểu cấu tạo xe máy không cần phải là kỹ sư: chỉ cần nắm được bốn cụm lớn — khung xe và hệ thống treo, động cơ, bộ truyền động và hệ thống điện — cùng cách chúng phối hợp với nhau, người điều khiển đã đủ tự tin đọc các triệu chứng của xe, mô tả đúng cho thợ và bảo dưỡng đúng lúc. Bài viết tổng hợp kiến thức cấu tạo theo hướng thực dụng: mỗi cụm được giải thích vai trò, các chi tiết đáng chú ý nhất và liên hệ tới việc bảo dưỡng hằng ngày mà người mới thường phải làm.",
+  "quickAnswer": "Một chiếc xe máy gồm bốn cụm lớn: khung xe gánh toàn bộ tải trọng và là nơi gắn mọi chi tiết; động cơ biến nhiên liệu thành chuyển động; bộ truyền động đưa lực tới bánh sau qua nhông sên dĩa hoặc hộp truyền vô cấp; hệ thống điện cấp nguồn cho nổ máy, đèn, còi. Thêm hai cụm hỗ trợ là hệ thống treo (giảm xóc, phuộc) và phanh. Khi xe có triệu chứng lạ, việc đầu tiên là đoán xem triệu chứng đó thuộc cụm nào để mô tả đúng cho thợ.",
+  "keyPoints": [
+   "Bốn cụm lớn của xe máy: khung, động cơ, bộ truyền động, hệ thống điện; hai cụm hỗ trợ: treo và phanh.",
+   "Khung xe là \"xương sống\": mọi triệu chứng rung lắc, tiếng kêu kim loại đều nên loại trừ bulong khung trước khi nghi máy.",
+   "Động cơ 2 thì gọn nhẹ, 4 thì tiết kiệm nhiên liệu và bền hơn — hầu hết xe hiện nay dùng 4 thì.",
+   "Xe số truyền lực qua xích tới dĩa sau; xe tay ga truyền qua dây cua và chuột cống — điểm khác biệt quan trọng khi chẩn bệnh."
+  ],
+  "entities": [
+   "cấu tạo xe máy",
+   "khung xe",
+   "động cơ",
+   "bộ truyền động",
+   "hệ thống điện",
+   "hệ thống treo",
+   "phanh"
+  ],
+  "keywords": [
+   "cấu tạo xe máy",
+   "các bộ phận chính của xe máy",
+   "xe máy gồm những gì",
+   "nguyên lý hoạt động xe máy",
+   "cụm chính trên xe máy",
+   "cấu tạo xe tay ga và xe số"
+  ]
+ },
+ {
+  "url": "wiki/dong-co/dong-co-xe-may/",
+  "title": "Kinh nghiệm động cơ xe máy dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "summary": "Động cơ là cụm đắt nhất trên chiếc xe máy, cũng là cụm phụ thuộc nhiều nhất vào thói quen sử dụng. Cùng một mẫu xe, có chiếc chạy một trăm nghìn cây số vẫn êm, có chiếc ba vạn cây số đã vào đại tu — khác biệt nằm ở nhớt, xăng, cách ga và cách chăm sóc. Bài viết giúp người mới hiểu động cơ theo kiểu thực dụng: nguyên lý làm việc ở mức vừa đủ, bảng dấu hiệu động cơ có vấn đề từ sớm đến muộn, và những thói quen giữ động cơ khỏe mà không cần kiến thức chuyên sâu.",
+  "quickAnswer": "Động cơ xe máy khỏe cần ba điều: nén tốt, tia lửa đúng lúc, hòa khí đúng tỷ lệ. Người mới không cần hiểu sâu kỹ thuật, chỉ cần nhận các dấu hiệu động cơ xấu đi: khó nổ sáng lạnh, hao xăng bất thường, hao nhớt, khói pô nhiều, tiếng gõ trong máy, máy nóng nhanh. Bảo dưỡng cốt lõi gồm thay nhớt đúng chu kỳ, dùng xăng tốt, giữ lọc gió sạch và khởi động máy nhẹ nhàng — bốn thói quen này quyết định phần lớn tuổi thọ động cơ.",
+  "keyPoints": [
+   "Động cơ khỏe cần nén tốt, tia lửa đúng lúc, hòa khí đúng tỷ lệ — thiếu một trong ba, xe báo lỗi theo cách khác nhau.",
+   "Dấu hiệu động cơ xấu đi từ sớm: khó nổ lúc lạnh, hao xăng, tiếng kêu nhẹ có nhịp — cần để ý sớm.",
+   "Hao nhớt và khói pô nhiều là dấu hiệu mòn bên trong: piston, găng hoặc xupap cần kiểm tra.",
+   "Nhớt là bảo hiểm của động cơ: đúng loại, đúng cấp, thay đúng chu kỳ — không kéo dài quá hạn."
+  ],
+  "entities": [
+   "động cơ xe máy",
+   "nhớt động cơ",
+   "hòa khí",
+   "nén máy",
+   "khó nổ",
+   "hao xăng",
+   "đại tu máy"
+  ],
+  "keywords": [
+   "động cơ xe máy",
+   "kinh nghiệm bảo dưỡng động cơ",
+   "dấu hiệu động cơ xấu",
+   "nguyên lý động cơ xe máy",
+   "động cơ 4 thì",
+   "giữ động cơ bền"
+  ]
+ },
+ {
   "url": "hub/dia-phuong/giao-thong-ha-noi/",
   "title": "Hướng dẫn chi tiết về giao thông hà nội",
   "category": "Trung tâm chủ đề",
@@ -7890,6 +8046,130 @@
    "đường cao tốc tphcm",
    "đi xe máy sài gòn",
    "ngập đường tphcm"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/he-thong-treo/",
+  "title": "Hệ thống treo — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Hệ thống treo là cụm \"vô danh anh hùng\" của xe máy: mỗi ổ gà, mỗi hố ga bạn đi qua êm ru là nhờ cụm treo đang làm việc. Khi treo yếu, người lái nhận ra qua xe nảy lún bất thường, cầm lái nặng tay khi đường xấu, phanh kém hiệu quả vì bánh xe mất tiếp xúc mặt đường. Bài viết giải thích cấu tạo của hệ thống treo phía trước và phía sau, các dấu hiệu suy giảm thường gặp và cách bảo dưỡng đúng cách, giúp người mới hiểu khi nào chỉ cần thay dầu phuộc và khi nào cần thay hẳn bộ giảm xóc.",
+  "quickAnswer": "Hệ thống treo gồm phuộc trước (dầu phuộc và lò xo), giảm xóc sau (thường là ống đồng có lò xo và dầu), cùng các vòng bi cổ trước. Nhiệm vụ: giữ bánh xe bám mặt đường và không truyền xóc lên người ngồi. Dấu hiệu treo yếu: xe nảy mãi không dứt sau ổ gà, bóp phun ga trước nghe tiếng kêu khô, xe \"tõng\" xuống khi hai người ngồi, đu đưa tay lái trên đường xấu. Bảo dưỡng chính là thay dầu phuộc theo chu kỳ, kiểm tra móc giảm xóc và vòng bi cổ định kỳ.",
+  "keyPoints": [
+   "Hệ thống treo giữ bánh xe bám mặt đường — treo yếu không chỉ khó chịu mà còn giảm an toàn phanh và into cua.",
+   "Phuộc trước gồm lò xo và dầu phuộc: dầu chai sau thời gian dài khiến phuộc mất giảm chấn.",
+   "Giảm xóc sau dạng ống đồng: hư thường gặp là khô dầu, móp ống, bulong lỏng.",
+   "Vòng bi cổ trước mòn tạo cảm giác lái lỏng lẻo, kêu lục cục khi bóp xe — cần thay đúng lúc."
+  ],
+  "entities": [
+   "hệ thống treo",
+   "phuộc trước",
+   "giảm xóc sau",
+   "dầu phuộc",
+   "vòng bi cổ",
+   "ống đồng",
+   "lò xo"
+  ],
+  "keywords": [
+   "hệ thống treo xe máy",
+   "phuộc trước xe máy",
+   "giảm xóc sau xe máy",
+   "dấu hiệu phuộc yếu",
+   "thay dầu phuộc",
+   "xe nảy lục cục"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/khung-xe/",
+  "title": "Kinh nghiệm khung xe dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Khung xe là bộ phận \"vô hình\" nhất trên chiếc xe máy: ít ai nghĩ tới nó cho tới khi xe bị va chạm mạnh, đu đưa khó điều khiển hoặc tiếng kêu lục cục không rõ nguồn. Thực tế khung gánh toàn bộ tải trọng, giữ thẳng hàng các cụm máy, treo và bánh xe; khung cong hoặc lỏng bulong ảnh hưởng trực tiếp đến độ ổn định lái và độ bền của mọi chi tiết gắn trên nó. Bài viết giúp người mới hiểu vai trò khung xe, nhận các dấu hiệu bất thường sớm và có thói quen kiểm tra, chăm sóc khung đúng cách.",
+  "quickAnswer": "Khung xe là bộ khung chịu lực của cả xe; mọi cụm như máy, treo, phanh, bình xăng đều gắn lên khung. Dấu hiệu khung có vấn đề: xe đu đưa tay lái dù lốp và vòng bi cổ tốt, xe bị \"rơi\" về một bên dù đã canh, tiếng kêu lục cục ở ốc tì vè, hoặc sau va chạm mạnh xe chạy lệch thẳng. Người mới nên định kỳ siết các bulong khung, nghe tiếng khi bóp xe tại chỗ, và sau các cú ngã mạnh nên nhờ thợ soi khung thay vì chỉ nhìn trầy xước bên ngoài.",
+  "keyPoints": [
+   "Khung xe chịu toàn bộ tải trọng và là nền gắn của mọi cụm: khung yếu thì mọi cụm trên đó xấu theo.",
+   "Dấu hiệu khung cong: xe đu đưa, rơi về một bên, bánh trước sau không thẳng hàng dù lốp tốt.",
+   "Bulong khung, tì vè, đòn after lỏng là nguyên nhân phổ biến nhất của tiếng kêu lục cục không rõ nguồn.",
+   "Va chạm mạnh, ngã xe tốc độ cao có thể cong khung mà bề ngoài chỉ thấy trầy sơn — cần soi khung."
+  ],
+  "entities": [
+   "khung xe",
+   "bulong khung",
+   "tì vè",
+   "đòn after",
+   "vòng bi cổ",
+   "khung cong",
+   "rỉ sét"
+  ],
+  "keywords": [
+   "khung xe máy",
+   "dấu hiệu khung xe cong",
+   "ốc tì vè lỏng",
+   "xe đu đưa tay lái",
+   "chăm sóc khung xe",
+   "kiểm tra khung sau ngã xe"
+  ]
+ },
+ {
+  "url": "hub/van-de-thuong-gap/may-i/",
+  "title": "Hướng dẫn chi tiết về máy ì",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "summary": "Máy ì là trạng thái xe nổ máy bình thường nhưng khi vặn ga lại ì ạch, tăng tốc yếu, có khi kèm hao xăng hoặc máy rung bất thường. Hiện tượng này đến từ nhiều nguyên nhân khác nhau: từ chuyện nhỏ như lọc gió bẩn, bugi cũ, xăng kém, đến chuyện lớn như côn trượt, chuột cống mòn hoặc piston bị giảm nén. Bài viết đi từng bước kiểm tra từ đơn giản đến phức tạp giúp người mới tự khoanh vùng nguyên nhân xe ì máy, biết việc gì tự làm được và khi nào cần mang xe vào tiệm để xử lý đúng gốc rễ thay vì chỉ đổi đồ theo phán đoán.",
+  "quickAnswer": "Xe ì máy thường gặp nhất ở ba nhóm nguyên nhân: hệ thống nhiên liệu và lọc gió (lọc gió bẩn, xăng dởm, họng xăng mòn), hệ thống đánh lửa (bugi mòn, bô bin yếu), và bộ truyền (côn trượt, chuột cống mòn khiến vòng tua lên mà xe không nhích). Cách kiểm tra nhanh: thay hoặc thổi sạch lọc gió, thay bugi nếu đã lâu chưa thay, thử chạy hết bình xăng và đổ xăng cây khác. Nếu vẫn ì, phần lớn nằm ở cụm côn — côn tay ga hoặc chuột cống — cần thợ kiểm tra.",
+  "keyPoints": [
+   "Máy ì khác khó nổ: xe vẫn nổ và không đèn báo lỗi, chỉ đơn thuần tăng tốc yếu hơn trước.",
+   "Ba nhóm nguyên nhân chính: lọc gió và nhiên liệu, hệ thống đánh lửa, và cụm côn truyền động.",
+   "Lọc gió bẩn và bugi cũ là hai nguyên nhân rẻ tiền và dễ tự xử nhất, nên kiểm trước.",
+   "Côn trượt và chuột cống mòn khiến vòng tua tăng nhanh nhưng tốc độ không theo — dấu hiệu phân biệt quan trọng."
+  ],
+  "entities": [
+   "máy ì",
+   "côn trượt",
+   "lọc gió",
+   "bugi",
+   "chuột cống",
+   "họng xăng",
+   "kém ga"
+  ],
+  "keywords": [
+   "xe máy bị ì máy",
+   "máy ì là gì",
+   "xe ì máy nguyên nhân",
+   "xe yếu ga",
+   "xe tay ga ì máy",
+   "côn trượt xe máy"
+  ]
+ },
+ {
+  "url": "wiki/dong-co/nguyen-ly-4-thi/",
+  "title": "Nguyên lý 4 thì — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "summary": "Hầu hết xe máy hôm nay chạy bằng động cơ 4 thì, nhưng ít người dùng hiểu bốn \"thì\" ấy là gì và vì sao nó quyết định cách xe vận hành cũng như cách bảo dưỡng. Bài viết đi qua bốn kỳ của chu trình — nạp, nén, công và thải — bằng ngôn ngữ đời thường, giải thích vai trò của piston, xupap và trục cam, rồi rút ra các hệ quả thực tế: vì sao xe 4 thì phải thay nhớt định kỳ, vì sao chỉnh khe hở xupap giúp xe êm và tiết kiệm hơn, và vì sao động cơ 4 thì bền, sạch hơn động cơ 2 thì cũ.",
+  "quickAnswer": "Chu trình 4 thì gồm bốn kỳ piston thực hiện trong hai vòng quay trục khuỷu: kỳ nạp (hòa khí chảy vào khi xupap nạp mở), kỳ nén (cả hai xupap đóng, piston nén hòa khí), kỳ công (tia lửa đốt, khí dãn đẩy piston xuống sinh công) và kỳ thải (xupap xả mở, piston đẩy khí cháy ra). Người dùng cần nhớ hai hệ quả: nhớt được tuần hoàn riêng nên phải thay định kỳ, và xupap có khe hở phải chỉnh theo chu kỳ để xe êm, khỏe và đỡ hao xăng.",
+  "keyPoints": [
+   "Bốn thì là nạp, nén, công, thải — hoàn tất trong hai vòng quay trục khuỷu cho mỗi lần cháy.",
+   "Xupap đóng mở theo nhịp của trục cam; khe hở xupap đúng giúp máy êm, đủ nén và tiết kiệm xăng.",
+   "Động cơ 4 thì có hệ thống nhớt riêng tuần hoàn: thay nhớt định kỳ là bảo dưỡng số một.",
+   "Cháy xảy ra chỉ ở kỳ công; ba kỳ còn lại là \"chuẩn bị và dọn dẹp\" — hiểu vậy là hiểu nhịp máy."
+  ],
+  "entities": [
+   "động cơ 4 thì",
+   "piston",
+   "xupap",
+   "trục cam",
+   "trục khuỷu",
+   "chu trình nạp nén công thải",
+   "khe hở xupap"
+  ],
+  "keywords": [
+   "nguyên lý 4 thì",
+   "động cơ 4 thì là gì",
+   "chu trình 4 thì",
+   "nạp nén công thải",
+   "xupap động cơ",
+   "4 thì và 2 thì khác nhau"
   ]
  },
  {
@@ -8019,6 +8299,37 @@
    "giao thông đô thị việt nam",
    "kinh nghiệm gửi xe máy",
    "đi xe máy trong thành phố"
+  ]
+ },
+ {
+  "url": "hub/van-de-thuong-gap/xe-may-keu/",
+  "title": "Xe máy kêu — những điều cần biết",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "summary": "Xe máy sau một thời gian chạy thường xuất hiện các tiếng kêu lạ: lạch cạch, ù ù, kêu loẹt xoẹt hoặc rè rè ở nhiều vị trí khác nhau. Không ít người chủ quan bỏ qua vì xe vẫn chạy bình thường, nhưng tiếng kêu chính là cách xe báo hiệu một chi tiết đang mòn, lỏng hoặc thiếu dầu mỡ. Bài viết giúp người mới phân loại tiếng kêu theo vị trí và hoàn cảnh xuất hiện, đoán gần đúng nguyên nhân và biết những gì có thể tự xử, những gì nên mang xe đi kiểm tra sớm trước khi hư hỏng lan rộng thành chi phí lớn.",
+  "quickAnswer": "Cách nhanh nhất để nhận diện tiếng kêu là ghi lại hoàn cảnh xuất hiện: kêu khi tăng ga thường nằm ở máy hoặc bộ truyền; kêu khi qua ổ gà, đường gồ ghề thường nằm ở giảm xóc và hệ thống treo; kêu khi bóp phanh thường nằm ở bộ phanh và má phanh. Tiếng kim loại chạm kim loại khan, lạch cạch hoặc rè là dấu hiệu đáng lo nhất, cần kiểm tra sớm; còn tiếng ọc ọc khi trời lạnh lần đầu nổ máy buổi sáng là hiện tượng phổ biến ở xe tay ga và thường giảm dần sau khi máy nóng.",
+  "keyPoints": [
+   "Ghi lại hoàn cảnh tiếng kêu xuất hiện (tăng ga, qua ổ gà, bóp phanh, để số) giúp chẩn đoán nhanh hơn nhiều so với mô tả chung chung.",
+   "Tiếng kim loại kêu khan và lạch cạch khi máy chạy là dấu hiệu nghiêm trọng nhất, không nên tiếp tục chạy dài.",
+   "Tiếng ọc ọc khi nổ máy buổi sáng lạnh trên xe tay ga thường do chuột cống và vòng bi, giảm dần sau khi máy nóng.",
+   "Tiếng \"cọt cẹt\" khi qua đường gồ ghề thường nằm ở giảm xóc trước, ống đồng hoặc hệ thống treo lỏng."
+  ],
+  "entities": [
+   "tiếng kêu xe máy",
+   "giảm xóc",
+   "bộ truyền động",
+   "phanh",
+   "vòng bi",
+   "nhông sên dĩa",
+   "chuột cống"
+  ],
+  "keywords": [
+   "xe máy kêu",
+   "xe máy có tiếng kêu lạ",
+   "xe kêu lạch cạch",
+   "xe kêu cọt cẹt",
+   "phân biệt tiếng kêu xe máy",
+   "xe tay ga kêu ọc ọc"
   ]
  }
 ]

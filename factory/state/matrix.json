@@ -4038,11 +4038,13 @@
    "title": "Kinh nghiệm ắc quy yếu dành cho người mới",
    "primaryIntent": "informational/ac-quy-yeu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T10:47:07.626Z",
+   "seoScore": 83,
+   "words": 2082
   },
   {
    "id": "S00274",
@@ -4051,11 +4053,13 @@
    "title": "Xe máy kêu — những điều cần biết",
    "primaryIntent": "informational/xe-may-keu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T10:47:09.877Z",
+   "seoScore": 100,
+   "words": 1999
   },
   {
    "id": "S00275",
@@ -4064,11 +4068,13 @@
    "title": "Hướng dẫn chi tiết về máy ì",
    "primaryIntent": "informational/may-i",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T10:47:09.303Z",
+   "seoScore": 91,
+   "words": 1819
   },
   {
    "id": "S00276",
@@ -4077,11 +4083,13 @@
    "title": "Tổng hợp kiến thức: cấu tạo xe máy",
    "primaryIntent": "informational/cau-tao-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T10:47:08.219Z",
+   "seoScore": 91,
+   "words": 1773
   },
   {
    "id": "S00277",
@@ -4090,11 +4098,13 @@
    "title": "Kinh nghiệm khung xe dành cho người mới",
    "primaryIntent": "informational/khung-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T10:47:09.303Z",
+   "seoScore": 83,
+   "words": 1695
   },
   {
    "id": "S00278",
@@ -4103,11 +4113,13 @@
    "title": "Hệ thống treo — những điều cần biết",
    "primaryIntent": "informational/he-thong-treo",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T10:47:08.754Z",
+   "seoScore": 91,
+   "words": 1717
   },
   {
    "id": "S00279",
@@ -4116,11 +4128,13 @@
    "title": "Hướng dẫn chi tiết về các cụm xe máy",
    "primaryIntent": "informational/cac-cum-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T10:47:08.219Z",
+   "seoScore": 91,
+   "words": 1604
   },
   {
    "id": "S00280",
@@ -4129,11 +4143,13 @@
    "title": "Tổng hợp kiến thức: bộ phận xe máy",
    "primaryIntent": "informational/bo-phan-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T10:47:07.626Z",
+   "seoScore": 100,
+   "words": 1615
   },
   {
    "id": "S00281",
@@ -4142,11 +4158,13 @@
    "title": "Kinh nghiệm động cơ xe máy dành cho người mới",
    "primaryIntent": "informational/dong-co-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T10:47:08.754Z",
+   "seoScore": 91,
+   "words": 1703
   },
   {
    "id": "S00282",
@@ -4155,11 +4173,13 @@
    "title": "Nguyên lý 4 thì — những điều cần biết",
    "primaryIntent": "informational/nguyen-ly-4-thi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T10:47:09.877Z",
+   "seoScore": 91,
+   "words": 1755
   },
   {
    "id": "S00283",
