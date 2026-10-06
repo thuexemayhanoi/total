@@ -5238,11 +5238,13 @@
    "title": "Kinh nghiệm janus dành cho người mới",
    "primaryIntent": "informational/janus",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:49.473Z",
+   "seoScore": 91,
+   "words": 1719
   },
   {
    "id": "S00354",
@@ -5251,11 +5253,13 @@
    "title": "Suzuki raider — những điều cần biết",
    "primaryIntent": "informational/suzuki-raider",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:50.325Z",
+   "seoScore": 100,
+   "words": 1881
   },
   {
    "id": "S00355",
@@ -5264,11 +5268,13 @@
    "title": "Hướng dẫn chi tiết về suzuki address",
    "primaryIntent": "informational/suzuki-address",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:49.473Z",
+   "seoScore": 91,
+   "words": 1734
   },
   {
    "id": "S00356",
@@ -5277,11 +5283,13 @@
    "title": "Tổng hợp kiến thức: xe suzuki",
    "primaryIntent": "informational/xe-suzuki",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:52.736Z",
+   "seoScore": 91,
+   "words": 1780
   },
   {
    "id": "S00357",
@@ -5290,11 +5298,13 @@
    "title": "Kinh nghiệm suzuki gd dành cho người mới",
    "primaryIntent": "informational/suzuki-gd",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:50.325Z",
+   "seoScore": 91,
+   "words": 1981
   },
   {
    "id": "S00358",
@@ -5303,11 +5313,13 @@
    "title": "Suzuki việt nam — những điều cần biết",
    "primaryIntent": "informational/suzuki-viet-nam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:51.116Z",
+   "seoScore": 100,
+   "words": 1909
   },
   {
    "id": "S00359",
@@ -5316,11 +5328,13 @@
    "title": "Hướng dẫn chi tiết về sym angela",
    "primaryIntent": "informational/sym-angela",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:51.116Z",
+   "seoScore": 83,
+   "words": 1941
   },
   {
    "id": "S00360",
@@ -5329,11 +5343,13 @@
    "title": "Tổng hợp kiến thức: sym elegant",
    "primaryIntent": "informational/sym-elegant",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:51.928Z",
+   "seoScore": 91,
+   "words": 1955
   },
   {
    "id": "S00361",
@@ -5342,11 +5358,13 @@
    "title": "Kinh nghiệm xe sym dành cho người mới",
    "primaryIntent": "informational/xe-sym",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:52.736Z",
+   "seoScore": 91,
+   "words": 1967
   },
   {
    "id": "S00362",
@@ -5355,11 +5373,13 @@
    "title": "Sym excel — những điều cần biết",
    "primaryIntent": "informational/sym-excel",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:13:51.928Z",
+   "seoScore": 100,
+   "words": 1935
   },
   {
    "id": "S00363",

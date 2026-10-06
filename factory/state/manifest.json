@@ -1708,6 +1708,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/yamaha/janus/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/khung-xe/index.html",
   "kind": "article"
  },
@@ -1792,6 +1796,34 @@
   "kind": "article"
  },
  {
+  "rel": "moto/suzuki/suzuki-address/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/suzuki/suzuki-gd/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/suzuki/suzuki-raider/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/suzuki/suzuki-viet-nam/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/sym/sym-angela/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/sym/sym-elegant/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/sym/sym-excel/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/thay-lop-khi-nao/index.html",
   "kind": "article"
  },
@@ -1861,6 +1893,14 @@
  },
  {
   "rel": "learn/chuan-doan-loi/xe-rung-bat-thuong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/suzuki/xe-suzuki/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/sym/xe-sym/index.html",
   "kind": "article"
  },
  {
