@@ -4938,11 +4938,13 @@
    "title": "Kinh nghiệm xe có mùi khét dành cho người mới",
    "primaryIntent": "informational/xe-co-mui-khet",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:45:00.413Z",
+   "seoScore": 100,
+   "words": 2048
   },
   {
    "id": "S00334",
@@ -4951,11 +4953,13 @@
    "title": "Luật giao thông đường bộ — những điều cần biết",
    "primaryIntent": "informational/luat-giao-thong-duong-bo",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:44:59.386Z",
+   "seoScore": 100,
+   "words": 2168
   },
   {
    "id": "S00335",
@@ -4964,11 +4968,13 @@
    "title": "Hướng dẫn chi tiết về xử phạt vi phạm",
    "primaryIntent": "informational/xu-phat-vi-pham",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:45:01.334Z",
+   "seoScore": 100,
+   "words": 2126
   },
   {
    "id": "S00336",
@@ -4977,11 +4983,13 @@
    "title": "Tổng hợp kiến thức: bảo hiểm trách nhiệm",
    "primaryIntent": "informational/bao-hiem-trach-nhiem",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:44:57.540Z",
+   "seoScore": 100,
+   "words": 2297
   },
   {
    "id": "S00337",
@@ -4990,11 +4998,13 @@
    "title": "Kinh nghiệm điều kiện lái xe máy dành cho người mới",
    "primaryIntent": "informational/dieu-kien-lai-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:44:57.540Z",
+   "seoScore": 91,
+   "words": 2152
   },
   {
    "id": "S00338",
@@ -5003,11 +5013,13 @@
    "title": "Giấy tờ khi lái xe — những điều cần biết",
    "primaryIntent": "informational/giay-to-khi-lai-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:44:58.471Z",
+   "seoScore": 100,
+   "words": 2396
   },
   {
    "id": "S00339",
@@ -5016,11 +5028,13 @@
    "title": "Hướng dẫn chi tiết về xe điện là gì",
    "primaryIntent": "informational/xe-dien-la-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:45:01.334Z",
+   "seoScore": 83,
+   "words": 2290
   },
   {
    "id": "S00340",
@@ -5029,11 +5043,13 @@
    "title": "Tổng hợp kiến thức: động cơ xe điện",
    "primaryIntent": "informational/dong-co-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:44:58.471Z",
+   "seoScore": 100,
+   "words": 2053
   },
   {
    "id": "S00341",
@@ -5042,11 +5058,13 @@
    "title": "Kinh nghiệm pin lithium dành cho người mới",
    "primaryIntent": "informational/pin-lithium",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:44:59.386Z",
+   "seoScore": 83,
+   "words": 1924
   },
   {
    "id": "S00342",
@@ -5055,11 +5073,13 @@
    "title": "Sạc xe điện — những điều cần biết",
    "primaryIntent": "informational/sac-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:45:00.413Z",
+   "seoScore": 100,
+   "words": 1855
   },
   {
    "id": "S00343",

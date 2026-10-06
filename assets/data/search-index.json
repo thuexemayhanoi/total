@@ -8510,6 +8510,31 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/",
+  "title": "Bảo hiểm trách nhiệm: nghĩa vụ bắt buộc của chủ xe máy",
+  "description": "Bảo hiểm TNDS là nghĩa vụ bắt buộc với chủ xe máy tại Việt Nam. Bài viết giải thích bảo hiểm chi trả cho ai, mua ở đâu, hiệu lực và quy trình yêu cầu bồi thường.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "bảo hiểm TNDS",
+   "bảo hiểm bắt buộc",
+   "Nghị định 21/2021/NĐ-CP",
+   "người thứ ba",
+   "giấy chứng nhận bảo hiểm",
+   "bồi thường"
+  ],
+  "keywords": [
+   "bao hiem trach nhiem",
+   "bao hiem tnds xe may",
+   "mua bao hiem xe may",
+   "gia han bao hiem xe may",
+   "boi thuong bao hiem xe may",
+   "bao hiem bat buoc"
+  ],
+  "summary": "Trong bộ giấy tờ bắt buộc của một chiếc xe máy, bảo hiểm trách nhiệm dân sự (TNDS) là tờ giấy thường bị coi nhẹ nhất — cho tới ngày nó phát huy tác dụng. Bảo hiểm TNDS bắt buộc là hợp đồng giữa chủ xe và công ty bảo hiểm, chi trả phần bồi thường cho người thứ "
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/bo-phan-xe-may/",
   "title": "Tổng hợp kiến thức: bộ phận xe máy",
   "description": "Danh mục các bộ phận xe máy theo nhóm: bộ phận vận hành, an toàn, điện, tiện nghi — mỗi bộ phận làm gì và chăm sóc thế nào cho đúng.",
@@ -8973,6 +8998,31 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/",
+  "title": "Điều kiện lái xe máy: tuổi, giấy phép và sức khỏe theo quy định",
+  "description": "Lái xe máy hợp pháp tại Việt Nam cần đủ tuổi, giấy phép lái xe đúng hạng và sức khỏe phù hợp. Bài viết tóm tắt các điều kiện theo Luật giao thông đường bộ 2024.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "điều kiện lái xe",
+   "giấy phép lái xe hạng A1",
+   "tuổi điều khiển xe",
+   "sát hạch GPLX",
+   "sức khỏe người lái",
+   "xe 50cc"
+  ],
+  "keywords": [
+   "dieu kien lai xe may",
+   "tuoi lai xe may",
+   "hang a1 lai xe gi",
+   "thi giay phep lai xe may",
+   "giay phep lai xe may moi nhat",
+   "xe may 50cc can giay phep"
+  ],
+  "summary": "Con bạn mười sáu tuổi có được lái chiếc xe 50cc nhà mình chưa? Đúng mười tám tuổi thi GPLX A1 thì bao lâu có bằng? Bệnh tim, kính cận nặng có bị cấm lái xe không? Đây là những câu hỏi thực tế mà nhiều gia đình trả lời theo lời đồn đại — trong khi câu trả lời đ"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dau-nhot/do-dac-dau/",
   "title": "Độ đặc dầu — những điều cần biết",
   "description": "Độ đặc dầu nhớt là gì, hai con số 10W-30 nghĩa là sao, chọn độ đặc theo sổ tay và khí hậu, và vì sao đặc hơn chuẩn không phải tốt hơn.",
@@ -9022,6 +9072,30 @@
    "tieu hao nhien lieu xe may"
   ],
   "summary": "Mỗi mẫu xe máy ra mắt đều kèm một bảng thông số dài: dung tích công tác, công suất tối đa, mô-men xoắn, kích thước dài rộng cao, chiều cao yên, khoảng sáng gầm, trọng lượng, dung tích bình xăng, tiêu hao nhiên liệu. Với người chưa quen, đây là mớ con số khó nh"
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/dong-co-xe-dien/",
+  "title": "Tổng hợp kiến thức: động cơ xe điện",
+  "description": "Động cơ xe điện gồm hub motor và mid-drive, chạy bằng công nghệ brushless. Tìm hiểu cách đọc công suất kW, mô-men xoắn và chọn động cơ phù hợp.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "hub motor",
+   "mid-drive",
+   "động cơ brushless",
+   "mô-men xoắn",
+   "controller",
+   "rotor"
+  ],
+  "keywords": [
+   "dong co xe dien",
+   "hub motor",
+   "mid drive xe dien",
+   "cong suat xe may dien",
+   "mo men xoan dong co dien"
+  ],
+  "summary": "Động cơ là bộ phận làm nên tính cách của xe điện: không xy-lanh, không bugi, không nhớt — chỉ có rotor quay trong từ trường. Nhưng giữa các dòng xe hai bánh điện, kiểu lắp động cơ lại tạo ra khác biệt lớn về cảm giác lái, độ bền và cách bảo trì. Bài viết này h"
  },
  {
   "kind": "article",
@@ -9123,6 +9197,29 @@
    "ngập đường tphcm"
   ],
   "summary": "Thành phố Hồ Chí Minh là siêu đô thị của phương Nam, nơi giao thông vận hành theo những quy luật riêng hình thành từ quy mô dân số, mô hình các khu công nghiệp ven đô và hệ thống sông ngòi kênh rạch chằng chịt. Bài viết tổng hợp kiến thức về giao thông TP.HCM "
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/giay-to-khi-lai-xe/",
+  "title": "Giấy tờ khi lái xe — những điều cần biết",
+  "description": "Giấy tờ khi lái xe gồm GPLX, đăng ký xe và bảo hiểm TNDS bắt buộc. Hướng dẫn đọc hạn giấy tờ, trình khi bị kiểm tra và lưu ý với xe thuê, xe mượn.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "giấy phép lái xe",
+   "giấy chứng nhận đăng ký xe",
+   "bảo hiểm TNDS bắt buộc",
+   "VNeID",
+   "Luật Trật tự, an toàn giao thông đường bộ"
+  ],
+  "keywords": [
+   "giay to khi lai xe",
+   "giay to can mang khi lai xe may",
+   "gplx xe may",
+   "cang cure xe may",
+   "bao hiem tnds xe may"
+  ],
+  "summary": "Hỏi một người lái xe máy \"khi lái xe cần giấy tờ gì\", phần lớn sẽ trả lời \"căng cước với GPLX\" — nhưng câu trả lời đầy đủ của pháp luật hiện hành gồm ba nhóm: giấy phép lái xe phù hợp hạng xe, giấy chứng nhận đăng ký xe và giấy chứng nhận bảo hiểm trách nhiệm "
  },
  {
   "kind": "article",
@@ -9381,6 +9478,31 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/luat-giao-thong-duong-bo/",
+  "title": "Luật giao thông đường bộ: điều người đi xe máy cần nắm",
+  "description": "Luật Trật tự, an toàn giao thông đường bộ 2024 thay luật cũ từ 01/01/2025 — tóm lược cho người đi xe máy: tốc độ, mũ bảo hiểm, rượu bia, giấy tờ, ưu tiên.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "Luật Trật tự an toàn giao thông đường bộ",
+   "Nghị định 168/2024/NĐ-CP",
+   "mũ bảo hiểm",
+   "giấy phép lái xe",
+   "bảo hiểm TNDS",
+   "tốc độ tối đa"
+  ],
+  "keywords": [
+   "luat giao thong duong bo",
+   "luat giao thong 2024",
+   "luat 36/2024/qh15",
+   "nghi dinh 168/2024",
+   "di xe may luat moi",
+   "quy dinh giao thong xe may"
+  ],
+  "summary": "Từ ngày 01/01/2025, Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 chính thức thay thế Luật Giao thông đường bộ 2008, kèm Nghị định 168/2024/NĐ-CP về xử phạt — tạo nên \"bộ luật giao thông\" mới mà mọi người điều khiển xe máy tại Việt Nam cần cập nhật"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dien-xe/mach-dien-xe/",
   "title": "Mạch điện xe — những điều cần biết",
   "description": "Mạch điện xe máy gồm dây dẫn, cầu chì, giắc nối: cách đọc sơ đồ mạch đơn giản, lỗi mạch thường gặp và thao tác an toàn khi tự kiểm tra.",
@@ -9561,6 +9683,30 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/pin-lithium/",
+  "title": "Kinh nghiệm pin lithium dành cho người mới",
+  "description": "Pin lithium là trái tim của xe điện: cấu tạo cell, BMS, chu kỳ sạc và các hóa học pin thông dụng. Tìm hiểu cách đọc thông số và dùng pin bền lâu.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "pin lithium",
+   "BMS",
+   "LiFePO4",
+   "cell pin",
+   "chu kỳ sạc",
+   "Wh"
+  ],
+  "keywords": [
+   "pin lithium",
+   "pin lithium xe dien",
+   "pin lifepo4",
+   "chu ky sac pin",
+   "cach dung pin lithium ben"
+  ],
+  "summary": "Pin lithium là bộ phận đắt nhất và cũng bị hiểu sai nhiều nhất trên xe điện hai bánh. Người mới thường hỏi đúng một câu — \"pin này bền không\" — nhưng để trả lời được, cần tách bốn lớp kiến thức: cấu tạo (cell, module, BMS và vì sao BMS quan trọng ngang chất ce"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/piston-xy-lanh/",
   "title": "Hướng dẫn chi tiết về piston xy lanh",
   "description": "Piston và xy lanh là cặp đôi sinh công của động cơ: cấu tạo, các dấu hiệu mòn piston xy lanh và thói quen giúp cặp đôi này bền nhất.",
@@ -9662,6 +9808,30 @@
    "đo ắc quy bằng vôn kế"
   ],
   "summary": "Sạc ắc quy là việc đơn giản đến mức dễ làm sai: dùng sai loại sạc, chọn sai dòng, hoặc sạc khi không cần — mỗi lỗi đều rút ngắn tuổi thọ ắc thay vì kéo dài. Trên xe máy, ắc quy được nạp chủ yếu bởi máy phát trên xe khi chạy, nên sạc ngoài là biện pháp bổ trợ c"
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/sac-xe-dien/",
+  "title": "Sạc xe điện — những điều cần biết",
+  "description": "Sạc xe điện đúng cách quyết định tuổi thọ pin: thời gian sạc, khi nào cắm sạc, sạc ở nhà hay trạm, và các thói quen an toàn phòng cháy.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "sạc xe điện",
+   "dòng sạc",
+   "Wh",
+   "pin lithium",
+   "ổ cắm",
+   "thiết bị ngắt tự động"
+  ],
+  "keywords": [
+   "sac xe dien",
+   "sac xe may dien bao lau",
+   "cach sac xe dien dung cach",
+   "sac xe dien qua dem",
+   "chi phi sac xe dien"
+  ],
+  "summary": "Sạc là \"nhiệm vụ duy nhất\" mà người dùng phải làm để giữ xe điện chạy — nhưng cũng là khâu lạm dụng nhiều nhất: cắm qua đêm hàng tháng, sạc pin còn nóng sau dốc, dùng sạc lẫn dòng xe khác, để xe sạc trong hành lang kín. Bài viết này gói lại toàn bộ kiến thức s"
  },
  {
   "kind": "article",
@@ -9874,6 +10044,55 @@
  },
  {
   "kind": "article",
+  "url": "learn/chuan-doan-loi/xe-co-mui-khet/",
+  "title": "Xe có mùi khét: đánh giá theo vị trí và hoàn cảnh xuất hiện",
+  "description": "Mùi khét trên xe máy đến từ bugi, phanh, dây điện, nhớt hoặc curoa. Bài viết hướng dẫn phân biệt mùi theo vị trí và hoàn cảnh để biết khi nào cần dừng xe kiểm tra.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "entities": [
+   "mùi khét",
+   "bugi",
+   "má phanh",
+   "curoa",
+   "dây điện",
+   "nhớt máy"
+  ],
+  "keywords": [
+   "xe co mui khet",
+   "xe may co mui khet",
+   "mui khet tren xe may",
+   "mui nhua chay tren xe",
+   "mui khet khi phanh xe",
+   "mui khet khi ga xe may"
+  ],
+  "summary": "Khác với tiếng kêu và độ rung, mùi khét là dấu hiệu xe báo động bằng khứu giác — và cũng là dấu hiệu dễ bị bỏ qua nhất, vì nó thoáng qua trong gió rồi biến mất. Nhưng mùi khét luôn có một vật lý đằng sau: một thứ gì đó đang ma sát quá mức, quá nhiệt hoặc đang "
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/xe-dien-la-gi/",
+  "title": "Hướng dẫn chi tiết về xe điện là gì",
+  "description": "Xe điện là gì: xe hai bánh dùng động cơ điện thay động cơ đốt trong, gồm xe đạp điện và xe máy điện. Tìm hiểu ưu nhược điểm và nhóm nào phù hợp bạn.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "động cơ điện",
+   "pin sạc",
+   "xe đạp điện",
+   "xe máy điện",
+   "mô-men xoắn",
+   "controller"
+  ],
+  "keywords": [
+   "xe dien la gi",
+   "xe may dien",
+   "xe dap dien",
+   "xe dien co can gplx khong",
+   "khac biet xe dien va xe xang"
+  ],
+  "summary": "Câu hỏi \"xe điện là gì\" nghe như định nghĩa một dòng xe, nhưng trả lời đúng lại là phân loại: trên thị trường hai bánh hiện có xe đạp điện — chạy hỗ trợ hoặc thuần điện, tốc độ và công suất thấp, không cần GPLX — và xe máy điện — công suất tương đương mô tô xă"
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/xe-hao-xang/",
   "title": "Tổng hợp kiến thức: xe hao xăng",
   "description": "Tổng hợp nguyên nhân khiến xe máy hao xăng từ bộ hóa dầu, lọc gió, lốp non đến thói quen lái, kèm cách tự kiểm tra mức tiêu thụ và thời điểm cần bảo dưỡng đúng chỗ.",
@@ -10026,5 +10245,30 @@
    "nguyen nhan xe rung"
   ],
   "summary": "Mọi chiếc xe máy đều rung — đó là đặc tính vật lý của động cơ piston và bánh xe hai bánh. Nhưng có một khoảng cách lớn giữa \"độ rung đặc trưng\" của một dòng xe và độ rung bất thường mới xuất hiện: tay lái \"dần\" lên trong các chuyến dài, yên nhún theo nhịp khó "
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/xu-phat-vi-pham/",
+  "title": "Xử phạt vi phạm giao thông: quy trình, quyền lợi và cách tránh rắc rối",
+  "description": "Bị lập biên bản xử phạt giao thông diễn ra theo trình tự luật định — bài viết giải thích quy trình, hình thức phạt, quyền của người bị phạt và cách nộp đúng hạn.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "xử phạt vi phạm",
+   "biên bản vi phạm hành chính",
+   "Nghị định 168/2024/NĐ-CP",
+   "hệ thống điểm GPLX",
+   "khiếu nại",
+   "nộp phạt"
+  ],
+  "keywords": [
+   "xu phat vi pham giao thong",
+   "nghi dinh 168 xu phat",
+   "bien ban xu phat giao thong",
+   "nop phat giao thong online",
+   "tru diem giay phep lai xe",
+   "khieu nai xu phat"
+  ],
+  "summary": "Bị dừng xe vì một lỗi giao thông là trải nghiệm quen thuộc với nhiều người đi xe máy — nhưng ít ai nắm đủ quy trình diễn ra sau đó: biên bản ghi những gì, quyền giải trình của bạn là gì, các hình thức xử phạt gồm những loại, thời hạn nộp phạt và cách nộp, điểm"
  }
 ]

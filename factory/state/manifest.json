@@ -1568,6 +1568,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/bo-phan-xe-may/index.html",
   "kind": "article"
  },
@@ -1640,11 +1644,19 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dau-nhot/do-dac-dau/index.html",
   "kind": "article"
  },
  {
   "rel": "learn/doc-thong-so/doc-thong-so-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/dong-co-xe-dien/index.html",
   "kind": "article"
  },
  {
@@ -1661,6 +1673,10 @@
  },
  {
   "rel": "hub/dia-phuong/giao-thong-tp-hcm/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/giay-to-khi-lai-xe/index.html",
   "kind": "article"
  },
  {
@@ -1704,6 +1720,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/luat-giao-thong-duong-bo/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/mach-dien-xe/index.html",
   "kind": "article"
  },
@@ -1732,6 +1752,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/pin-lithium/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/piston-xy-lanh/index.html",
   "kind": "article"
  },
@@ -1745,6 +1769,10 @@
  },
  {
   "rel": "wiki/ac-quy-pin/sac-ac-quy/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/sac-xe-dien/index.html",
   "kind": "article"
  },
  {
@@ -1780,6 +1808,14 @@
   "kind": "article"
  },
  {
+  "rel": "learn/chuan-doan-loi/xe-co-mui-khet/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/xe-dien-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/van-de-thuong-gap/xe-hao-xang/index.html",
   "kind": "article"
  },
@@ -1801,6 +1837,10 @@
  },
  {
   "rel": "learn/chuan-doan-loi/xe-rung-bat-thuong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xu-phat-vi-pham/index.html",
   "kind": "article"
  },
  {
