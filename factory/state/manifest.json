@@ -1548,6 +1548,14 @@
   "kind": "article"
  },
  {
+  "rel": "hub/dia-phuong/quy-dinh-giao-thong-dia-phuong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/dia-phuong/xe-may-dia-phuong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },
