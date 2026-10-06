@@ -5538,11 +5538,13 @@
    "title": "Kinh nghiệm xe số dành cho người mới",
    "primaryIntent": "informational/xe-so",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:54.916Z",
+   "seoScore": 91,
+   "words": 1915
   },
   {
    "id": "S00374",
@@ -5551,11 +5553,13 @@
    "title": "Wave alpha — những điều cần biết",
    "primaryIntent": "informational/wave-alpha",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:51.881Z",
+   "seoScore": 100,
+   "words": 1962
   },
   {
    "id": "S00375",
@@ -5564,11 +5568,13 @@
    "title": "Hướng dẫn chi tiết về ưu điểm xe số",
    "primaryIntent": "informational/uu-diem-xe-so",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:51.881Z",
+   "seoScore": 91,
+   "words": 1903
   },
   {
    "id": "S00376",
@@ -5577,11 +5583,13 @@
    "title": "Tổng hợp kiến thức: xe số 110",
    "primaryIntent": "informational/xe-so-110",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:54.916Z",
+   "seoScore": 100,
+   "words": 1883
   },
   {
    "id": "S00377",
@@ -5590,11 +5598,13 @@
    "title": "Kinh nghiệm xe ga dành cho người mới",
    "primaryIntent": "informational/xe-ga",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:53.904Z",
+   "seoScore": 91,
+   "words": 1873
   },
   {
    "id": "S00378",
@@ -5603,11 +5613,13 @@
    "title": "Xe ga 110cc — những điều cần biết",
    "primaryIntent": "informational/xe-ga-110cc",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:52.898Z",
+   "seoScore": 100,
+   "words": 2139
   },
   {
    "id": "S00379",
@@ -5616,11 +5628,13 @@
    "title": "Hướng dẫn chi tiết về xe ga 125cc",
    "primaryIntent": "informational/xe-ga-125cc",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:53.904Z",
+   "seoScore": 100,
+   "words": 2158
   },
   {
    "id": "S00380",
@@ -5629,11 +5643,13 @@
    "title": "Tổng hợp kiến thức: cvt xe ga",
    "primaryIntent": "informational/cvt-xe-ga",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:50.884Z",
+   "seoScore": 100,
+   "words": 2013
   },
   {
    "id": "S00381",
@@ -5642,11 +5658,13 @@
    "title": "Kinh nghiệm winner x dành cho người mới",
    "primaryIntent": "informational/winner-x",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:52.898Z",
+   "seoScore": 100,
+   "words": 2155
   },
   {
    "id": "S00382",
@@ -5655,11 +5673,13 @@
    "title": "Raider rck — những điều cần biết",
    "primaryIntent": "informational/raider-rck",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:37:50.884Z",
+   "seoScore": 100,
+   "words": 2149
   },
   {
    "id": "S00383",

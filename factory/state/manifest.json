@@ -1628,6 +1628,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-ga/cvt-xe-ga/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dau-nhot/dau-hop-so/index.html",
   "kind": "article"
  },
@@ -1796,6 +1800,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-con-tay/raider-rck/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/rua-xe-dung-cach/index.html",
   "kind": "article"
  },
@@ -1868,11 +1876,23 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-so/uu-diem-xe-so/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/vao-cua-an-toan/index.html",
   "kind": "article"
  },
  {
   "rel": "moto/piaggio/vespa/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-so/wave-alpha/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-con-tay/winner-x/index.html",
   "kind": "article"
  },
  {
@@ -1901,6 +1921,18 @@
  },
  {
   "rel": "moto/xe-50cc/xe-duoi-50cc-can-bang-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-ga/xe-ga-110cc/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-ga/xe-ga-125cc/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-ga/xe-ga/index.html",
   "kind": "article"
  },
  {
@@ -1933,6 +1965,14 @@
  },
  {
   "rel": "learn/chuan-doan-loi/xe-rung-bat-thuong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-so/xe-so-110/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-so/xe-so/index.html",
   "kind": "article"
  },
  {
