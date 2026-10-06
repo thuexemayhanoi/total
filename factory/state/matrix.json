@@ -6048,11 +6048,13 @@
    "title": "Hướng dẫn chi tiết về giờ cao điểm",
    "primaryIntent": "informational/gio-cao-diem",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:47:52.770Z",
+   "seoScore": 100,
+   "words": 2458
   },
   {
    "id": "S00408",
@@ -6061,11 +6063,13 @@
    "title": "Tổng hợp kiến thức: lái xe đô thị",
    "primaryIntent": "informational/lai-xe-do-thi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:47:52.771Z",
+   "seoScore": 100,
+   "words": 2411
   },
   {
    "id": "S00409",
