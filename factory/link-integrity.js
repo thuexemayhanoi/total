@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// AI WIKI TOTAL — SCOPED INTERNAL LINK INTEGRITY GATE (v1.2, fail-closed)
+// AI WIKI TOTAL — SCOPED INTERNAL LINK INTEGRITY GATE (v1.3, fail-closed)
 //
 // Mục tiêu: chặn link nội bộ dẫn tới 404 TRƯỚC khi batch được ghi PUBLISHED.
 // Hot path chỉ quét HTML của 1-10 bài trong scope; target được resolve tới
