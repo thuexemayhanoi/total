@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-06T17:47:47.556Z",
+ "at": "2026-10-06T18:04:22.197Z",
  "phase": "waiting-publish",
- "pair": "S00383-S00392",
- "note": "Queue 7 (10 bai: cach-lai-xe-con, xe-the-thao-viet-nam, cung-duong-xe-may, phuot-mien-bac, duong-ven-bien, cung-duong-nui, du-lich-duong-dai, du-lich-xe-may, thue-xe-du-lich, chuan-bi-di-phuot) QA 100/100, verify OK, cho push"
+ "pair": "S00393-S00402",
+ "note": "Queue 8: 10 bai da viet + QA 100/100 + SEO 100/100 + verify-sources OK; cho push"
 }
