@@ -19,13 +19,127 @@ const FIRST_CHUNK_LIMIT = 5;    // chunk đầu khi xưởng chưa có bài PUBL
 const PAIR_SIZE = 2;             // SIMPLE PRODUCTION MODE: đúng 2 bài mỗi pair transaction
 const SEO_PASS_MIN = 70;        // ngưỡng SEO advisory (factory/seo.js chấm — KHÔNG chặn publish)
 const QA_PASS_MIN = 70;         // MINIMAL PRODUCTION QA GATE: 70-100 PASS, <70 FAIL/REPAIR
-// PRODUCTION CYCLE: mỗi cycle 12-18 bài chia cho 3 writer; scoped QA chỉ bài
-// mới của cycle (KHÔNG bao giờ quét lại toàn site trong production loop).
+// PRODUCTION CYCLE (legacy recovery path, KHÔNG còn hot path): scoped QA chỉ
+// bài mới của cycle (KHÔNG bao giờ quét lại toàn site trong production loop).
+// Mô hình 3 writer song song ĐÃ BỎ — thay bằng 3 VAI TRÒ (xem
+// docs/PRODUCTION-ROLES.md): WRITER 1 duy nhất viết bài theo pair; ĐỐC CÔNG 2
+// theo dõi heartbeat/checkpoint + sửa lỗi; ĐỐC CÔNG 3 nhận lỗi escalated.
 const CYCLE_MIN = 12;           // cycle thiếu < 12 bài PLANNED -> cần refill queue
 const CYCLE_MAX = 18;           // tối đa bài mỗi cycle (parseCycleIds từ chối quá 18)
-const WRITER_COUNT = 3;         // 3 writer — writer CHỈ viết, không đụng state/txn/publish
 const QUEUE_REFILL_FLOOR = 100; // planned < 100 -> allocator tự refill queue
 const QUEUE_REFILL_TARGET = 300; // refill lên ~300 topic hợp lệ (từ topic-pool)
+
+// ---------- 3-ROLE PRODUCTION (WRITER 1 + ĐỐC CÔNG 2/3) ----------
+const WRITER_STALL_MINUTES = 120; // heartbeat cũ hơn ngưỡng này (đang writing/waiting-publish) = writer ĐỨNG
+const DOCONG2_MAX_ATTEMPTS = 3;   // Đốc công 2 sửa tối đa; quá -> escalated cho Đốc công 3
+const WRITER_PHASES = ['writing', 'waiting-publish', 'waiting-writer', 'idle', 'error'];
+
+// Chọn pair kế tiếp cho WRITER 1 (thuần, deterministic):
+//   - RESUME TRƯỚC: slot dở CÓ module bài (RESEARCH/WRITING/QA/REPAIR/PASS) —
+//     tiếp tục bài chưa hoàn thành, KHÔNG viết trùng slot đã có bài.
+//   - FRESH SAU: slot PLANNED CHƯA có bài (WAITING_FOR_WRITER), theo ID tăng dần.
+function selectWriterPair(m, articleSlugs, countArg) {
+  const size = (Number.isFinite(countArg) && countArg > 0) ? Math.min(countArg, PUBLISH_CHUNK_LIMIT) : PAIR_SIZE;
+  const slugs = toSlugSet(articleSlugs);
+  const num = (id) => Number(String(id || '').replace(/^S0*/, '')) || 0;
+  const byId = (a, b) => num(a.id) - num(b.id);
+  const resume = (m && Array.isArray(m.slots) ? m.slots : [])
+    .filter(s => CLAIMABLE_STATES.includes(s.state) && s.state !== 'PLANNED' && slugs.has(s.slug))
+    .sort(byId);
+  const fresh = (m && Array.isArray(m.slots) ? m.slots : [])
+    .filter(s => s.state === 'PLANNED' && !slugs.has(s.slug))
+    .sort(byId);
+  const chosen = resume.slice(0, size).concat(fresh.slice(0, Math.max(0, size - Math.min(resume.length, size))));
+  return {
+    ids: chosen.map(s => s.id),
+    resume: resume.slice(0, size).map(s => s.id),
+    fresh: chosen.filter(s => s.state === 'PLANNED').map(s => s.id),
+    details: chosen.map(s => ({ id: s.id, state: s.state, hub: s.hub, slug: s.slug, title: s.title, intent: s.primaryIntent })),
+  };
+}
+
+// Tuổi heartbeat (phút) — trả null khi không có heartbeat.
+function heartbeatAgeMinutes(hb, nowMs) {
+  if (!hb || !hb.at) return null;
+  const t = Number.isFinite(nowMs) ? nowMs : Date.now();
+  const at = Date.parse(hb.at);
+  if (!Number.isFinite(at)) return null;
+  return Math.max(0, (t - at) / 60000);
+}
+
+// Chẩn đoán trạng thái production (thuần — test được): gộp heartbeat writer,
+// hàng đợi lỗi và snapshot ma trận thành MỘT trạng thái rõ ràng để Đốc công 2
+// (production-status) và watchdog (liveness) cùng dùng một logic.
+// ctx: { heartbeat, errors, waitingForWriter, claimableBacklog, nowMs,
+//        stallMinutes }
+function classifyProductionState(ctx) {
+  const o = ctx || {};
+  const stall = Number.isFinite(o.stallMinutes) && o.stallMinutes > 0 ? o.stallMinutes : WRITER_STALL_MINUTES;
+  const hb = o.heartbeat || null;
+  const phase = hb && WRITER_PHASES.includes(hb.phase) ? hb.phase : (hb ? String(hb.phase) : null);
+  const ageMin = heartbeatAgeMinutes(hb, o.nowMs);
+  const errors = Array.isArray(o.errors) ? o.errors : [];
+  const open = errors.filter(e => e.status === 'open');
+  const escalated = errors.filter(e => e.status === 'escalated');
+  const out = {
+    phase: null, stalled: false, escalated: escalated.length > 0,
+    openErrors: open.length, escalatedErrors: escalated.length,
+    heartbeatAgeMinutes: ageMin === null ? null : Math.round(ageMin),
+    reasons: [],
+  };
+  if (escalated.length) out.reasons.push('error-escalated: Đốc công 2 đã thử ' + DOCONG2_MAX_ATTEMPTS + '+ lần — cần Đốc công 3');
+  if (open.length) out.reasons.push('error-open: ' + open.length + ' lỗi chưa giải quyết');
+  if (!hb) {
+    // Writer chưa từng báo heartbeat: nếu còn slot chờ writer thì là
+    // WAITING_WRITER (không phải đứng); hết queue thì IDLE.
+    out.phase = (o.waitingForWriter > 0) ? 'waiting-writer' : 'idle';
+    if (o.waitingForWriter > 0) out.reasons.push('chưa có heartbeat — chờ Writer 1 nhận pair đầu tiên');
+    return out;
+  }
+  if (phase === 'error') {
+    out.phase = 'error';
+    return out;
+  }
+  if ((phase === 'writing' || phase === 'waiting-publish') && ageMin !== null && ageMin > stall) {
+    out.phase = 'stalled';
+    out.stalled = true;
+    out.reasons.push('heartbeat cũ ' + Math.round(ageMin) + ' phút > ' + stall + ' phút (phase ' + phase + ')');
+    return out;
+  }
+  out.phase = phase || 'unknown';
+  return out;
+}
+
+// Hàng đợi lỗi (thuần): thêm/lần-thử-mới cho một khóa (source+pair). Trả về
+// entry đã cập nhật; tự escalated khi attempts đạt DOCONG2_MAX_ATTEMPTS.
+// key rỗng (không --pair) dùng '-'.
+function upsertError(errors, entry) {
+  const list = Array.isArray(errors) ? errors.slice() : [];
+  const key = (entry.pair && String(entry.pair).trim()) || '-';
+  // CHỈ lỗi "open" của Đốc công 2 được tăng attempts. Lỗi đã escalated thuộc
+  // Đốc công 3, lỗi đã resolved đã đóng — lần xuất hiện mới sinh entry riêng.
+  const found = list.find(e => e.status === 'open' && e.source === entry.source && String(e.pair || '-') === key);
+  const now = new Date().toISOString();
+  if (found) {
+    found.attempts = (Number(found.attempts) || 1) + 1;
+    found.message = entry.message || found.message;
+    if (entry.context) found.context = entry.context;
+    found.updatedAt = now;
+    if (found.attempts >= DOCONG2_MAX_ATTEMPTS && found.status !== 'escalated') {
+      found.status = 'escalated';
+      found.escalatedAt = now;
+    }
+    return { errors: list, entry: found };
+  }
+  const max = list.reduce((acc, e) => Math.max(acc, Number(e.id) || 0), 0);
+  const fresh = {
+    id: max + 1, source: entry.source, pair: key,
+    message: entry.message || '', context: entry.context || '',
+    attempts: 1, status: 'open', at: now, updatedAt: now,
+  };
+  list.push(fresh);
+  return { errors: list, entry: fresh };
+}
 
 function toSlugSet(articleSlugs) {
   if (articleSlugs instanceof Set) return articleSlugs;
@@ -233,10 +347,10 @@ function checkProductionInvariant(m, ctx) {
   return { ok: errors.length === 0, errors };
 }
 
-// PRODUCTION CYCLE PLAN: 12-18 slot cho cycle tiếp theo (deterministic).
-// Trả { ids, size, writers, complete, needsRefill, allocations }:
+// PRODUCTION CYCLE PLAN (legacy recovery path, KHÔNG còn hot path — mô hình
+// 3 writer đã bỏ). Trả { ids, size, complete, needsRefill }:
 //   - RESUME TRƯỚC: slot PASS đã có module bài (QA xong nhưng chưa kịp
-//     publish — crash giữa tick) được xếp đầu để tick sau publish nốt,
+//     publish — crash giữa tick) được xếp đầu để publish nốt,
 //     không để backlog mồ côi. Cần articleSlugs để biết slot PASS nào có bài.
 //   - PLANNED SAU: slot chờ writer nộp bài (cycle-qa tự pending slot chưa có
 //     module — KHÔNG giả bài).
@@ -257,20 +371,9 @@ function buildCyclePlan(m, articleSlugs) {
   return {
     ids,
     size: ids.length,
-    writers: WRITER_COUNT,
     complete: ids.length >= CYCLE_MIN,
     needsRefill: planned.length < QUEUE_REFILL_FLOOR,
-    allocations: splitWorkload(ids, WRITER_COUNT),
   };
-}
-
-// ALLOCATE: chia N ID cho `count` writer round-robin (deterministic — cùng
-// ma trận luôn ra cùng phân bổ). Mỗi ID thuộc đúng 1 writer.
-function splitWorkload(ids, countArg) {
-  const n = Number.isInteger(countArg) && countArg > 0 ? countArg : WRITER_COUNT;
-  const out = Array.from({ length: n }, () => []);
-  for (let i = 0; i < (Array.isArray(ids) ? ids.length : 0); i++) out[i % n].push(ids[i]);
-  return out;
 }
 
 // QUEUE REFILL: chọn topic từ pool (factory/data/topic-pool) không trùng slug
@@ -294,10 +397,12 @@ function selectRefillTopics(pool, existingSlugs, plannedCount, targetArg) {
 
 module.exports = {
   TERMINAL_STATES, CLAIMABLE_STATES, PUBLISH_CHUNK_LIMIT, FIRST_CHUNK_LIMIT,
-  PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, CYCLE_MIN, CYCLE_MAX, WRITER_COUNT,
+  PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, CYCLE_MIN, CYCLE_MAX,
   QUEUE_REFILL_FLOOR, QUEUE_REFILL_TARGET,
+  WRITER_STALL_MINUTES, DOCONG2_MAX_ATTEMPTS, WRITER_PHASES,
+  selectWriterPair, heartbeatAgeMinutes, classifyProductionState, upsertError,
   classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
   chunkLimit, maxIterations, findClaimableBacklog, selectChunk,
   snapshotState, computeProgress, assertProgress, checkProductionInvariant,
-  buildCyclePlan, selectRefillTopics, splitWorkload,
+  buildCyclePlan, selectRefillTopics,
 };

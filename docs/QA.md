@@ -26,7 +26,7 @@ W1 seoTitle 25–70 ký tự · W2 meta 100–165 ký tự · W3 keyPoints ≥ 4
 Mọi lỗi SEO nhẹ khác **chỉ ghi warning — KHÔNG chặn publish**.
 
 ## SCOPED QA — chỉ bài mới của cycle
-- QA **chỉ** các bài mới trong cycle hiện tại (**12–18 bài/cycle**, chia 3 writer): `node factory/factory.js cycle-qa <ID,ID,...>`.
+- QA **chỉ** các bài mới của pair/cycle hiện tại: `publish-pair <ID,ID>` (hot path, 2 bài) hoặc `cycle-qa <ID,ID,...>` (legacy, 12–18 bài) — `node factory/factory.js`.
 - **Tuyệt đối không quét lại toàn site trong production loop.**
 - **Không re-audit bài đã PUBLISHED** (cycle-qa tự skip).
 - **Một bài FAIL không giữ cycle**: bài FAIL → repair queue, các bài PASS tiếp tục publish (`cycle-publish` defer REPAIR, chỉ publish PASS).

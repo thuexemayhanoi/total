@@ -1,0 +1,34 @@
+name: Factory Liveness Watchdog
+
+# WATCHDOG READ-ONLY — phát hiện "workflow xanh nhưng xưởng đứng yên"
+# (học từ /vanchinh factory-liveness.yml). Mỗi giờ chạy `factory.js liveness`:
+#   - Writer 1 đứng (heartbeat cũ hơn ngưỡng WRITER_STALL_MINUTES khi đang
+#     writing/waiting-publish) -> run ĐỎ kèm chẩn đoán (đang viết / chờ
+#     publish / hết phiên / gặp lỗi).
+#   - Lỗi escalated (Đốc công 2 đã thử quá số lần) -> run ĐỎ.
+#   - Chờ writer bình thường (WAITING_FOR_WRITER) -> xanh, KHÔNG phải lỗi.
+# Watchdog KHÔNG recover, KHÔNG xóa lock/txn, KHÔNG publish, KHÔNG push gì,
+# và KHÔNG thể đánh thức phiên Mistral ngoài (không có kết nối thật — xem
+# docs/PRODUCTION-ROLES.md "Giới hạn môi trường").
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: factory-liveness
+  cancel-in-progress: false
+
+jobs:
+  liveness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Read-only liveness check
+        run: node factory/factory.js liveness

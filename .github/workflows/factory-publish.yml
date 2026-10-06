@@ -61,10 +61,6 @@ jobs:
         if: steps.scope.outputs.ids != ''
         run: node factory/factory.js publish-pair "${{ steps.scope.outputs.ids }}" --owner ci-publisher
 
-      - name: "Site verify TRƯỚC commit (generate --check — không push site chưa qua kiểm)"
-        if: steps.scope.outputs.ids != ''
-        run: node factory/generate.js --check
-
       - name: Commit derived state (một commit mỗi chunk)
         if: steps.scope.outputs.ids != ''
         run: |

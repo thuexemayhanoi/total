@@ -27,17 +27,17 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → REPAIR → QA → BLOCKED.
 Trong cycle: một bài FAIL → repair queue, KHÔNG giữ cycle (bài PASS vẫn publish).
 
-## Production cycle (12–18 bài, 3 writer)
+## Production 3 vai trò (docs/PRODUCTION-ROLES.md)
 ```
-queue-refill (planned < 100 → refill ~300 topic, chỉ coordinator)
-→ cycle-plan (12–18 slot PLANNED)
-→ 3 writer chỉ viết
-→ cycle-qa (scoped minimal QA, chỉ bài mới — KHÔNG quét toàn site)
-→ PASS ≥ 70 → cycle-publish (coordinator duy nhất, build/deploy ĐÚNG 1 lần)
-→ PUBLISHED → cycle mới
+WRITER 1 (writer duy nhất, mỗi pair 2 bài):
+  writer-next → viết 2 bài → verify-sources → push bài + heartbeat
+  → factory-publish.yml publish (scoped QA ≥ 70, atomic txn)
+  → checkpoint khớp state → pair kế
+ĐỐC CÔNG 2: production-status/liveness → sửa lỗi → error-log (escalated tại 3 lần thử)
+ĐỐC CÔNG 3: xử lý entry escalated trong error-queue.json → error-resolve → bàn giao lại
 ```
-Pair mode (commit-based): `verify-sources <ID,ID>` → push → factory-publish.yml `publish-pair` atomic.
-Coordinator tự động: `factory-coordinator.yml` tick mỗi 10 phút (cron lệch phút, concurrency `total-production` dùng chung với factory-publish.yml) — recover → check-state → queue-refill → cycle-plan → idle exit 0 → cycle-qa → cycle-publish → manifest-sync → verify-invariant → commit state. Mỗi run bounded một tick, KHÔNG while-true. Writer là external (session Mistral ngoài) đọc `CYCLE_ALLOCATE` — Actions không tự viết bài.
+Legacy recovery (chỉ chạy thủ công, KHÔNG còn 3 writer): `cycle-plan` → `cycle-qa` → `cycle-publish` (coordinator duy nhất, build/deploy ĐÚNG 1 lần).
+Coordinator tự động: `factory-coordinator.yml` tick mỗi 10 phút (cron lệch phút, concurrency `total-production` dùng chung với factory-publish.yml) — maintenance only: recover-txn → check-state → queue-refill → manifest-sync → verify-invariant → production-status → commit state CHỈ KHI có diff thật. Mỗi run bounded một tick, KHÔNG while-true. Writer là external (session Mistral ngoài) đọc `writer-next` — Actions không tự viết bài; `factory-liveness.yml` mỗi giờ chỉ phát hiện đứng/lỗi (Actions đỏ), không tự resume.
 
 ## Content index (scale 10k–100k bài)
 - `state/article-manifest.jsonl` (commit) + content files = SOURCE OF TRUTH.

@@ -19,22 +19,21 @@ check-state + verify-invariant + backlog → commit derived state (retry ≤ 3)
 - Push bằng GITHUB_TOKEN KHÔNG trigger workflow kế tiếp — schedule là cơ chế
   đánh thức chính, KHÔNG đệ quy.
 - Writer là **external** (session Mistral ngoài): Actions KHÔNG tự viết prose,
-  KHÔNG tạo fake article. Coordinator allocate `CYCLE_ALLOCATE writer-a/b/c`
-  trong `cycle-plan`; writer đọc allocation từ repo, viết module bài vào
-  `factory/data/articles/` rồi push main → `factory-publish.yml` publish exact
-  push scope, tick sau cycle-qa/cycle-publish gom nốt. Phần integration còn
-  thiếu để chạy 100% tay: runner/model tự viết bài trong Actions (self-hosted
-  runner + API) — hiện writer phải là session AI ngoài.
+  KHÔNG tạo fake article. WRITER 1 chạy `writer-next` lấy pair 2 ID, viết
+  module bài vào `factory/data/articles/` rồi push main cùng
+  `writer-heartbeat` → `factory-publish.yml` publish exact push scope.
+  KHÔNG có kết nối Actions↔Mistral: watchdog `factory-liveness.yml` chỉ phát
+  hiện đứng (Actions đỏ), resume do phiên writer/đốc công kế tiếp đọc
+  checkpoint + heartbeat + matrix thật mà tiếp tục.
 
-## Production loop (vòng cycle)
+## Production loop (pair 2 bài, 3 vai trò — docs/PRODUCTION-ROLES.md)
 ```
-auto-refill queue (queue-refill, planned < 100 → refill ~300 topic)
-→ cycle-plan: allocate 12–18 bài
-→ chia cho 3 writer (writer CHỈ viết)
-→ cycle-qa: scoped minimal QA (chỉ bài mới của cycle, KHÔNG quét toàn site)
-→ PASS ≥ 70 (FAIL → repair queue, KHÔNG giữ cycle)
-→ cycle-publish: COORDINATOR duy nhất merge + build/deploy ĐÚNG 1 LẦN
-→ mark PUBLISHED → cycle mới
+queue-refill tự động (planned < 100 → refill từ topic-pool, chỉ coordinator)
+→ WRITER 1: writer-next (pair 2 ID) → viết 2 bài → verify-sources → push
+→ factory-publish.yml: publish-pair atomic (scoped QA ≥ 70, ĐÚNG 1 LẦN)
+→ mark PUBLISHED + checkpoint + heartbeat → pair kế
+→ ĐỐC CÔNG 2: production-status/liveness → sửa lỗi → error-log (escalated tại 3)
+→ ĐỐC CÔNG 3: xử lý escalated → error-resolve → bàn giao lại
 ```
 - **Coordinator là thành phần duy nhất** được claim ID, đổi state, merge, publish, deploy.
 - **Writer tuyệt đối không sửa** global state/matrix/txn/publish — chỉ nộp module bài vào `factory/data/articles/`.

@@ -46,6 +46,10 @@ const MATRIX_FILE = path.join(STATE_DIR, 'matrix.json');
 const LOCK_FILE = path.join(STATE_DIR, 'writer.lock');
 const TXN_FILE = path.join(STATE_DIR, 'txn.json');
 const CHECKPOINT_FILE = path.join(STATE_DIR, 'checkpoint.json');
+// 3-ROLE PRODUCTION (docs/PRODUCTION-ROLES.md): Writer 1 báo heartbeat sau
+// mỗi pair; Đốc công 2/3 dùng hàng đợi lỗi escalade theo attempts.
+const HEARTBEAT_FILE = path.join(STATE_DIR, 'writer-heartbeat.json');
+const ERROR_FILE = path.join(STATE_DIR, 'error-queue.json');
 const MANIFEST_FILE = contentIndex.MANIFEST_FILE; // JSONL — source of truth (commit)
 
 const TRANSITIONS = {
@@ -944,15 +948,31 @@ Lệnh:
                                   khi missing/corrupt/stale; chỉ role=coordinator
   index-check                    Read-only: kiểm SQLite vs manifest (quick_check,
                                   số dòng, manifest_sha256) — exit 1 khi cần rebuild
-  cycle-plan                     Kế hoạch cycle hiện tại: 12-18 slot PLANNED,
-                                  3 writer (read-only; planned < 100 -> hint refill)
+  cycle-plan                     (Legacy recovery) Kế hoạch cycle: 12-18 slot
+                                  PASS/PLANNED, không còn phân công writer
+                                  (hot path nay la Writer 1 pair — writer-next)
   cycle-qa <ID,ID,...>           Scoped minimal QA CHỈ bài mới của cycle (1-18
                                   ID) — KHÔNG quét toàn site; FAIL -> REPAIR
                                   queue, PASS tiếp tục publish
   cycle-publish <ID,ID,...>      Coordinator duy nhất: publish slot PASS của
                                   cycle, defer REPAIR, build/deploy ĐÚNG 1 lần
   queue-refill [--role R]        Planned < 100 -> refill queue lên ~300 topic
-                                  hợp lệ từ topic-pool (chỉ role=coordinator)`);
+                                  hợp lệ từ topic-pool (chỉ role=coordinator)
+  writer-next [--count N]        WRITER 1: pair kế tiếp (resume slot dở có bài
+                                  TRƯỚC, sau đó slot PLANNED theo ID tăng dần)
+  writer-heartbeat --phase P     WRITER 1: báo heartbeat (P = writing |
+                                  [--note T] [--pair I,I]       waiting-publish | waiting-writer | idle | error)
+  production-status              ĐỐC CÔNG 2: một trạng thái rõ ràng — đang
+                                  viết / chờ publish / chờ writer / đứng /
+                                  gặp lỗi (heartbeat + error queue + ma trận)
+  liveness                       Watchdog read-only: exit 1 khi writer ĐỨNG
+                                  (heartbeat quá ngưỡng) hoặc lỗi escalated
+  error-log --source S --message M [--context C] [--pair I,I]
+                                  ĐỐC CÔNG 2: ghi lỗi + lần thử; quá
+                                  ${runtime.DOCONG2_MAX_ATTEMPTS} lần tự escalated cho Đốc công 3
+  error-queue                    Liệt kê hàng đợi lỗi (open/escalated/resolved)
+  error-resolve --id N [--note T]
+                                  Đóng lỗi N sau khi đã sửa đúng nguyên nhân`);
 }
 
 function opt(flag) {
@@ -1456,21 +1476,16 @@ function main() {
     return;
   }
   if (cmd === 'cycle-plan') {
-    // Read-only: kế hoạch cycle hiện tại (12-18 slot, 3 writer). Slot PASS đã
-    // có bài (QA xong, chưa publish — crash giữa tick) được RESUME TRƯỚC.
+    // Read-only (legacy recovery path — hot path nay la Writer 1 pair):
+    // ke hoach cycle hien tai (12-18 slot). Slot PASS da co bai (QA xong,
+    // chua publish — crash giua tick) duoc RESUME TRUOC.
+    // MÔ HÌNH 3 WRITER ĐÃ BỎ — không còn phân công writer-a/b/c; Writer 1
+    // duy nhất lấy bài bằng lệnh writer-next.
     const m = loadMatrix();
     validateMatrix(m);
     const plan = runtime.buildCyclePlan(m, new Set(loadAllArticlesBySlug().keys()));
-    console.log('CYCLE_PLAN ids=' + plan.ids.join(',') + ' size=' + plan.size + ' writers=' + plan.writers +
+    console.log('CYCLE_PLAN ids=' + plan.ids.join(',') + ' size=' + plan.size +
       ' (min ' + runtime.CYCLE_MIN + ', max ' + runtime.CYCLE_MAX + ')');
-    // ALLOCATE: chia workload cho 3 writer (writer-a/b/c) — external writer
-    // (Mistral run) đọc ma trận/ke hoạch rồi tự nộp module bài; Actions KHÔNG
-    // tự viết prose (không AI API). Slot chưa có module = WAITING_FOR_WRITER.
-    const names = ['writer-a', 'writer-b', 'writer-c'];
-    (plan.allocations || []).forEach((group, i) => {
-      console.log('CYCLE_ALLOCATE ' + (names[i] || ('writer-' + (i + 1))) + '=' + group.join(',') +
-        ' (state=PLANNED — external writer nộp bài vào factory/data/articles/)');
-    });
     if (!plan.complete) console.log('CYCLE_PLAN incomplete: chỉ còn ' + plan.size + ' bài PLANNED (< ' + runtime.CYCLE_MIN + ')');
     if (plan.needsRefill) console.log('CYCLE_PLAN refill: planned < ' + runtime.QUEUE_REFILL_FLOOR + ' -> chạy queue-refill (coordinator, target ' + runtime.QUEUE_REFILL_TARGET + ')');
     return;
@@ -1480,16 +1495,13 @@ function main() {
     const ids = parseCycleIds(positional(rest).join(' '));
     const m = loadMatrix();
     validateMatrix(m);
+    const before = JSON.stringify(m.slots.filter(s => ids.includes(s.id)));
     const out = cycleQa(m, ids);
-    // GREEN MEANS PROGRESS: khi cả cycle đều PENDING (WAITING_FOR_WRITER —
-    // writer chưa nộp bài) thì KHÔNG ghi state/timestamp — nếu ghi, mỗi tick
-    // coordinator tạo diff rỗng về ý nghĩa (chỉ lastAction/at đổi), gây
-    // commit "coordinator tick" và kích deploy Pages mà không có bài mới.
-    if (!out.passed.length && !out.failed.length) {
-      console.log('CYCLE_QA pass=' + out.passed.length + ' fail=' + out.failed.length + ' pending=' + out.pending.length +
-        ' WAITING_FOR_WRITER=' + out.pending.length +
-        ' (scoped ' + ids.length + '/' + runtime.CYCLE_MAX + ' bài — KHÔNG quét toàn site, KHÔNG re-audit bài PUBLISHED)');
-      console.log('CYCLE_QA no-op: toàn bộ pending — KHÔNG ghi timestamp/heartbeat state (tránh commit rỗng + deploy vô nghĩa).');
+    const after = JSON.stringify(m.slots.filter(s => ids.includes(s.id)));
+    // CHỐNG TIMESTAMP CHURN: mọi slot pending/skip (không QA gì) -> KHÔNG ghi
+    // state — tick lặp không tạo commit rỗng chỉ vì `at` đổi.
+    if (before === after) {
+      console.log('CYCLE_QA no-change: mọi slot pending/skip — KHÔNG ghi state (chống commit rỗng theo timestamp).');
       return;
     }
     validateMatrix(m);
@@ -1538,6 +1550,139 @@ function main() {
       ' (floor ' + runtime.QUEUE_REFILL_FLOOR + ', target ' + runtime.QUEUE_REFILL_TARGET + ') — intent mặc định informational/<slug>');
     return;
   }
+  // ---------- 3-ROLE PRODUCTION: WRITER 1 + ĐỐC CÔNG 2/3 ----------
+  if (cmd === 'writer-next') {
+    // WRITER 1 (writer duy nhất): pair kế tiếp, deterministic — resume slot
+    // dở CÓ bài trước, sau đó slot PLANNED chưa có bài theo ID tăng dần.
+    // KHÔNG bao giờ trả slot đã có bài cho reason "new" (chống viết trùng).
+    const m = loadMatrix();
+    validateMatrix(m);
+    const count = parsePositiveInt(opt('--count')) || runtime.PAIR_SIZE;
+    const plan = runtime.selectWriterPair(m, new Set(loadAllArticlesBySlug().keys()), count);
+    if (!plan.ids.length) {
+      console.log('WRITER_NEXT ids= (không còn gì để viết — queue rỗng và không có bài dở)');
+      return;
+    }
+    console.log('WRITER_NEXT ids=' + plan.ids.join(',') +
+      ' reason=resume:' + plan.resume.length + ',new:' + plan.fresh.length);
+    for (const d of plan.details) {
+      console.log('NEXT ' + d.id + ' state=' + d.state + ' hub=' + d.hub + ' slug=' + d.slug +
+        ' intent=' + d.intent + ' title=' + d.title);
+    }
+    return;
+  }
+  if (cmd === 'writer-heartbeat') {
+    // WRITER 1 báo heartbeat sau mỗi pair (push cùng commit bài). File là
+    // operational state thật — Đốc công 2/watchdog đo tuổi từ đây.
+    const phase = opt('--phase');
+    if (!runtime.WRITER_PHASES.includes(phase)) {
+      console.error('TỪ CHỐI writer-heartbeat: --phase phải là một trong ' + runtime.WRITER_PHASES.join('|'));
+      process.exit(1);
+    }
+    const hb = {
+      schemaVersion: 1,
+      at: new Date().toISOString(),
+      phase,
+      pair: (opt('--pair') || '').trim() || null,
+      note: (opt('--note') || '').trim() || null,
+    };
+    atomicWrite(HEARTBEAT_FILE, JSON.stringify(hb, null, 1));
+    console.log('WRITER_HEARTBEAT at=' + hb.at + ' phase=' + hb.phase + (hb.pair ? ' pair=' + hb.pair : ''));
+    return;
+  }
+  if (cmd === 'production-status' || cmd === 'liveness') {
+    // ĐỐC CÔNG 2 (production-status) + watchdog (liveness) dùng CÙNG logic
+    // classifyProductionState — một chân lý, không phân vẹn status.
+    const m = loadMatrix();
+    validateMatrix(m);
+    const slugs = new Set(loadAllArticlesBySlug().keys());
+    const { claimable, waitingForWriter } = runtime.findClaimableBacklog(m, slugs);
+    const hb = readJson(HEARTBEAT_FILE, null);
+    const errors = (readJson(ERROR_FILE, { errors: [] }) || { errors: [] }).errors || [];
+    const st = runtime.classifyProductionState({
+      heartbeat: hb, errors,
+      waitingForWriter: waitingForWriter.length,
+      claimableBacklog: claimable.length,
+      nowMs: Date.now(),
+      stallMinutes: runtime.WRITER_STALL_MINUTES,
+    });
+    const dist = {};
+    for (const s of m.slots) dist[s.state] = (dist[s.state] || 0) + 1;
+    const stallMin = opt('--stall-minutes');
+    console.log('PRODUCTION_STATUS phase=' + st.phase + ' stalled=' + st.stalled +
+      ' heartbeat_age_min=' + st.heartbeatAgeMinutes + ' (ngưỡng ' + (stallMin || runtime.WRITER_STALL_MINUTES) + ' phút)');
+    console.log('PUBLISHED=' + (dist.PUBLISHED || 0) + ' WAITING_FOR_WRITER=' + waitingForWriter.length +
+      ' CLAIMABLE_BACKLOG=' + claimable.length + ' REPAIR=' + (dist.REPAIR || 0) + ' BLOCKED=' + (dist.BLOCKED || 0));
+    console.log('ERRORS open=' + st.openErrors + ' escalated=' + st.escalatedErrors);
+    const stt = loadState();
+    console.log('LAST_ACTION ' + (stt.lastAction ? stt.lastAction.action + ' @ ' + stt.lastAction.at : 'chưa có'));
+    for (const r of st.reasons) console.log('REASON ' + r);
+    if (cmd === 'liveness') {
+      if (st.stalled) {
+        console.error('LIVENESS_FAIL: Writer 1 ĐỨNG — heartbeat cũ ' + st.heartbeatAgeMinutes +
+          ' phút (phase ' + st.phase + '). Đốc công 2 kiểm tra: đang viết / chờ publish / hết phiên / lỗi; không có kết nối đánh thức phiên Mistral từ Actions — cần session writer mới resume từ checkpoint.');
+        process.exit(1);
+      }
+      if (st.escalated) {
+        console.error('LIVENESS_FAIL: ' + st.escalatedErrors + ' lỗi đã escalated — Đốc công 3 xử lý (xem error-queue).');
+        process.exit(1);
+      }
+      console.log('LIVENESS_OK: ' + st.phase + (st.openErrors ? ' (có ' + st.openErrors + ' lỗi open — Đốc công 2 đang xử)' : ''));
+      return;
+    }
+    return;
+  }
+  if (cmd === 'error-log') {
+    // ĐỐC CÔNG 2: mỗi lần thử sửa lỗi được ghi lại; cùng khóa (source+pair)
+    // tăng attempts; đạt DOCONG2_MAX_ATTEMPTS -> escalated cho Đốc công 3.
+    const source = opt('--source');
+    const message = opt('--message');
+    if (!source || !message) {
+      console.error('Cần: error-log --source <writer|publisher|engine> --message <mô tả> [--context C] [--pair I,I]');
+      process.exit(1);
+    }
+    const cur = readJson(ERROR_FILE, { errors: [] }) || { errors: [] };
+    const { errors, entry } = runtime.upsertError(cur.errors || [], {
+      source, message, context: opt('--context') || '', pair: opt('--pair') || '',
+    });
+    atomicWrite(ERROR_FILE, JSON.stringify({ schemaVersion: 1, errors }, null, 1));
+    console.log('ERROR_LOG id=' + entry.id + ' source=' + entry.source + ' pair=' + (entry.pair || '-') +
+      ' attempts=' + entry.attempts + ' status=' + entry.status +
+      (entry.status === 'escalated' ? ' — ĐÃ CHUYỂN ĐỐC CÔNG 3' : ''));
+    return;
+  }
+  if (cmd === 'error-queue') {
+    const cur = readJson(ERROR_FILE, { errors: [] }) || { errors: [] };
+    const errors = cur.errors || [];
+    if (!errors.length) { console.log('ERROR_QUEUE empty — không có lỗi nào đang theo dõi.'); return; }
+    for (const e of errors) {
+      console.log('ERROR #' + e.id + ' status=' + e.status + ' source=' + e.source + ' pair=' + (e.pair || '-') +
+        ' attempts=' + e.attempts + ' at=' + e.at + (e.updatedAt ? ' updated=' + e.updatedAt : ''));
+      if (e.message) console.log('  message: ' + e.message);
+      if (e.context) console.log('  context: ' + e.context);
+      if (e.resolveNote) console.log('  resolved: ' + e.resolveNote);
+    }
+    const open = errors.filter(e => e.status === 'open').length;
+    const esc = errors.filter(e => e.status === 'escalated').length;
+    console.log('ERROR_QUEUE total=' + errors.length + ' open=' + open + ' escalated=' + esc +
+      ' resolved=' + errors.filter(e => e.status === 'resolved').length);
+    return;
+  }
+  if (cmd === 'error-resolve') {
+    const id = parsePositiveInt(opt('--id'));
+    if (!id) { console.error('Cần: error-resolve --id <N> [--note mô tả cách sửa]'); process.exit(1); }
+    const cur = readJson(ERROR_FILE, { errors: [] }) || { errors: [] };
+    const errors = cur.errors || [];
+    const e = errors.find(x => Number(x.id) === id);
+    if (!e) { console.error('Không tìm thấy lỗi #' + id + ' (xem error-queue).'); process.exit(1); }
+    if (e.status === 'resolved') { console.log('ERROR #' + id + ' đã resolved từ trước (idempotent).'); return; }
+    e.status = 'resolved';
+    e.resolvedAt = new Date().toISOString();
+    e.resolveNote = (opt('--note') || '').trim() || null;
+    atomicWrite(ERROR_FILE, JSON.stringify({ schemaVersion: 1, errors }, null, 1));
+    console.log('ERROR_RESOLVE id=' + id + ' — bàn giao lại Đốc công 2, Writer 1 chạy tiếp.');
+    return;
+  }
   if (cmd === 'change-mode') {
     let mode;
     if ((process.env.GITHUB_EVENT_NAME || '') === 'push') {
@@ -1549,11 +1694,7 @@ function main() {
     console.log('CHANGE_MODE=' + mode);
     return;
   }
-  // Lệnh không tồn tại: FAIL LOUD (exit 1) — KHÔNG rơi vào usage() exit 0.
-  // Regression: factory-publish.yml từng gọi "factory.js generate --check"
-  // (lệnh không tồn tại) và vẫn exit 0 xanh — cổng kiểm tra thành no-op.
-  console.error('LỆNH KHÔNG TỒN TẠI: "' + cmd + '" — xem danh sách lệnh hợp lệ dưới đây.');
-  console.error('Lưu ý: sinh/kiểm tra site là "node factory/generate.js [--check]", không phải lệnh của factory.js.');
+  console.error('Lệnh không tồn tại: "' + cmd + '" (exit 1) — chạy không đối số xem usage.');
   usage();
   process.exit(1);
 }

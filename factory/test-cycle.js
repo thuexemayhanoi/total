@@ -46,7 +46,7 @@ console.log('1. buildCyclePlan…');
   const m0 = { slots: [mk('S00001', 'PUBLISHED'), mk('S00002', 'REPAIR')] };
   const p0 = runtime.buildCyclePlan(m0);
   ok(p0.size === 0 && p0.ids.length === 0 && p0.complete === false, 'Không có slot PLANNED -> plan rỗng, incomplete');
-  ok(p0.writers === runtime.WRITER_COUNT && runtime.WRITER_COUNT === 3, 'Plan chia cho đúng 3 writer');
+  ok(!('writers' in p0) && !('allocations' in p0), 'buildCyclePlan: KHÔNG còn phân công writer (mô hình 3 writer đã bỏ — Writer 1 dùng writer-next)');
   ok(p0.needsRefill === true, 'planned 0 < floor 100 -> needsRefill');
   ok(runtime.CYCLE_MIN === 12 && runtime.CYCLE_MAX === 18, 'Cycle 12-18 bài (CYCLE_MIN/CYCLE_MAX)');
   ok(runtime.QUEUE_REFILL_FLOOR === 100 && runtime.QUEUE_REFILL_TARGET === 300, 'Refill floor 100 / target 300');
@@ -119,19 +119,9 @@ console.log('4. topic-pool…');
   ok(slugs.size === TOPICS.length, 'Slug topic unique trong pool');
   const artSlugs = new Set(fs.readdirSync(path.join(__dirname, 'data', 'articles')).filter(f => f.endsWith('.js'))
     .map(f => { try { return require(path.join(__dirname, 'data', 'articles', f)).slug; } catch (_) { return null; } }).filter(Boolean));
-  // Pool chứa topic cho slot TƯƠNG LAI — khi topic đã được viết thành bài
-  // (PUBLISHED), slug trùng bài hiện có là ĐIỀU LỆ THƯỜNG của repo đang lớn,
-  // không phải lỗi dữ liệu. Bất biến thật nằm ở dedupe khi refill: topic trùng
-  // slug đã dùng KHÔNG BAO GIỜ vào ma trận (kiểm với pool thật + ma trận thật).
-  const mReal = JSON.parse(readS(path.join(__dirname, 'state', 'matrix.json')));
-  const usedSlugs = mReal.slots.map(s => s.slug);
-  const picked = runtime.selectRefillTopics(TOPICS, usedSlugs, 0, 5);
-  ok(picked.length > 0 && picked.every(t => !usedSlugs.includes(t.slug)) &&
-     new Set(picked.map(t => t.slug)).size === picked.length,
-    'selectRefillTopics với pool THẬT + slug đã dùng: không chọn topic trùng (dedupe khi repo đã lớn)');
-  const pickedAll = runtime.selectRefillTopics(TOPICS, usedSlugs, 0, 1000);
-  ok(pickedAll.every(t => !usedSlugs.includes(t.slug)),
-    'Refill toàn bộ pool: KHÔNG topic nào trùng slug ma trận hiện có (chống duplicate slot)');
+  // Topic trùng slug bài/matrix KHÔNG phải lỗi pool — queue-refill dedupe bỏ
+  // (unit mục 3 đã chặn); invariant quan trọng là refill không bao giờ tạo
+  // slot trùng slug (e2e mục 5 assert).
   ok(TOPICS.every(t => typeof t.title === 'string' && t.title.length >= 8), 'Mọi topic có tiêu đề hợp lệ');
   ok(!TOPICS.some(t => t.intent !== undefined), 'Topic KHÔNG có intent (intent gán lúc queue-refill)');
 }
@@ -212,67 +202,72 @@ function lowQaArticle(slot) {
   return a;
 }
 
-// ---------- 5. E2E queue-refill: 0 -> 300 ----------
-console.log('5. queue-refill e2e (0 -> 300)…');
+// ---------- 5. E2E queue-refill: 0 -> mọi topic còn tự do ----------
+console.log('5. queue-refill e2e (0 PLANNED -> toàn bộ topic còn tự do)…');
 let T5;
 {
   const tmp = copyRepoToTmp('t5');
   const p = P(tmp);
-  // Fixture chuẩn hóa (chống stale theo độ lớn repo): tách mọi slot PLANNED để
-  // kịch bản "0 PLANNED -> refill 300" là ĐẦY ĐỦ với repo thật đang lớn — số
-  // bài PUBLISHED là ĐỘNG, KHÔNG hardcode (slot PUBLISHED + bài + site giữ
-  // nguyên nên verify-invariant/check-state vẫn khớp).
+  // Fixture TẠO RÕ (không phụ thuộc số bài thật trên main — chống stale test):
+  // ép mọi slot về PUBLISHED, checkpoint khớp, rồi refill từ 0 PLANNED.
   const mFix = JSON.parse(readS(p.matrix));
-  mFix.slots = mFix.slots.filter(s => s.state === 'PUBLISHED');
-  const pub0 = mFix.slots.length;
-  fs.writeFileSync(p.matrix, JSON.stringify(mFix, null, 1));
-  fs.writeFileSync(path.join(tmp, 'factory', 'state', 'checkpoint.json'),
-    JSON.stringify({ at: new Date().toISOString(), action: 'fixture-cycle-t5', slotCount: pub0 }, null, 1));
-  const cs0 = runNode([p.factory, 'check-state'], { cwd: tmp });
-  ok(cs0.status === 0, 'Fixture t5: strip PLANNED + đồng bộ checkpoint — check-state sạch', cs0.stdout + cs0.stderr);
+  for (const s of mFix.slots) { s.state = 'PUBLISHED'; if (s.qaScore == null) s.qaScore = 75; }
+  writeJson(p.matrix, mFix);
+  const cpF = JSON.parse(readS(path.join(tmp, 'factory', 'state', 'checkpoint.json')));
+  cpF.slotCount = mFix.slots.length;
+  writeJson(path.join(tmp, 'factory', 'state', 'checkpoint.json'), cpF);
+  const origSlots = mFix.slots.length;
+  const { TOPICS } = require('./data/topic-pool');
+  // Refill bị chặn bởi pool: chỉ topic KHÔNG trùng slug đã có được nhận. Số
+  // kỳ vọng TÍNH ĐỘNG (pool gần cạn khi ma trận lớn — không hardcode).
+  const expected = runtime.selectRefillTopics(TOPICS, mFix.slots.map(s => s.slug), 0, runtime.QUEUE_REFILL_TARGET).length;
   const m0 = JSON.parse(readS(p.matrix));
   ok(m0.slots.every(s => s.state === 'PUBLISHED') && m0.slots.filter(s => s.state === 'PLANNED').length === 0,
-    `Fixture bắt đầu: ${pub0} PUBLISHED (đếm động), 0 PLANNED — không hardcode số bài`);
+    'Fixture bắt đầu: mọi slot PUBLISHED, 0 PLANNED (refill từ đầu, không stale)');
+  ok(expected >= 18, 'Pool còn đủ topic tự do cho cycle 18 bài (>= 18)', String(expected));
   // Writer KHÔNG được refill (role guard).
   const rw = runNode([p.factory, 'queue-refill', '--role', 'writer'], { cwd: tmp });
   ok(rw.status !== 0, 'queue-refill từ chối role=writer (chỉ coordinator)', rw.stdout + rw.stderr);
   ok(/coordinator/i.test(rw.stderr + rw.stdout), 'Thông báo role guard rõ ràng', (rw.stderr || rw.stdout).slice(0, 200));
   const before = readS(p.matrix);
-  // Pool thật là hữu hạn: topic trùng slug đã dùng bị dedupe → số slot refill
-  // được = min(target 300, topic còn hợp lệ) — ĐỘNG, không hardcode 300.
-  const { TOPICS } = require('./data/topic-pool');
-  const avail = runtime.selectRefillTopics(TOPICS, JSON.parse(before).slots.map(s => s.slug), 0, 1000000).length;
-  const expAdded = Math.min(300, avail);
   const r = runNode([p.factory, 'queue-refill', '--role', 'coordinator'], { cwd: tmp });
   ok(r.status === 0, 'queue-refill (coordinator) exit 0', r.stdout + r.stderr);
-  ok(new RegExp('QUEUE_REFILL added=' + expAdded + ' planned=' + expAdded).test(r.stdout),
-    `Refill thêm đúng ${expAdded} slot (planned 0 -> ${expAdded}; pool còn ${avail} topic hợp lệ — động)`, r.stdout);
+  const addRe = new RegExp('QUEUE_REFILL added=' + expected + ' planned=' + expected);
+  ok(addRe.test(r.stdout), 'Refill thêm đúng ' + expected + ' slot (mọi topic còn tự do, dedupe)', r.stdout);
   const m1 = JSON.parse(readS(p.matrix));
   const planned = m1.slots.filter(s => s.state === 'PLANNED');
-  ok(planned.length === expAdded, `Ma trận có đúng ${expAdded} slot PLANNED mới (động)`, String(planned.length));
-  ok(m1.slots.length === pub0 + expAdded, `Tổng slot ${pub0} + ${expAdded} (capacity 20000 đủ — không hardcode)`, String(m1.slots.length));
+  ok(planned.length === expected, 'Ma trận có đúng ' + expected + ' slot PLANNED mới', String(planned.length));
+  ok(m1.slots.length === origSlots + expected, 'Tổng slot ' + origSlots + ' + ' + expected + ' (capacity đủ)', String(m1.slots.length));
   ok(planned.every(s => s.primaryIntent === 'informational/' + s.slug), 'Mọi slot mới: intent mặc định informational/<slug>');
   ok(new Set(m1.slots.map(s => s.slug)).size === m1.slots.length, 'Không slug trùng sau refill');
   const cs = runNode([p.factory, 'check-state'], { cwd: tmp });
   ok(cs.status === 0 && /STATE_OK/.test(cs.stdout), 'check-state OK sau refill (checkpoint tự khớp)', cs.stdout + cs.stderr);
   const r2 = runNode([p.factory, 'queue-refill', '--role', 'coordinator'], { cwd: tmp });
-  ok(r2.status === 0 && new RegExp('QUEUE_REFILL none planned=' + expAdded).test(r2.stdout),
-    `Refill idempotent: planned >= 100 -> none (planned=${expAdded})`, r2.stdout);
-  T5 = { tmp, p };
+  // Pool đủ (>= floor) -> "none planned=<expected>"; pool cạn (< floor) ->
+  // thử refill thêm nhưng added=0 planned=<expected>. Cả hai đều idempotent.
+  const idleMsg = expected >= runtime.QUEUE_REFILL_FLOOR
+    ? new RegExp('QUEUE_REFILL none planned=' + expected)
+    : new RegExp('QUEUE_REFILL added=0 planned=' + expected);
+  ok(r2.status === 0 && idleMsg.test(r2.stdout), 'Refill idempotent: không thêm slot trùng (planned=' + expected + ')', r2.stdout);
+  T5 = { tmp, p, expected, rowsBase: null };
 }
 
 // ---------- 6. E2E cycle-plan: 18 ID ----------
 console.log('6. cycle-plan e2e…');
 let T6;
 {
-  const { tmp, p } = T5;
+  const { tmp, p, expected } = T5;
   const r = runNode([p.factory, 'cycle-plan'], { cwd: tmp });
   ok(r.status === 0, 'cycle-plan exit 0', r.stdout + r.stderr);
   const ids = (r.stdout.match(/^CYCLE_PLAN ids=([^ ]*)/m) || [])[1] || '';
   const arr = ids.split(',').filter(Boolean);
   ok(arr.length === 18, 'cycle-plan chọn đúng 18 slot (CYCLE_MAX)', String(arr.length));
-  ok(/writers=3/.test(r.stdout), 'cycle-plan ghi rõ 3 writer');
-  ok(!/refill:/.test(r.stdout), 'planned 300 >= 100 -> KHÔNG hint refill');
+  ok(!/writers=|CYCLE_ALLOCATE/.test(r.stdout), 'cycle-plan: KHÔNG còn writers/CYCLE_ALLOCATE (bỏ phân công 3 writer)');
+  if (expected >= runtime.QUEUE_REFILL_FLOOR) {
+    ok(!/refill:/.test(r.stdout), 'planned >= floor -> KHÔNG hint refill');
+  } else {
+    ok(/refill:/.test(r.stdout), 'planned < floor (pool cạn) -> cycle-plan hint refill đúng');
+  }
   ok(arr.every(id => /^S\d{5,}$/.test(id)), 'ID đúng format S');
   ok(!/incomplete/.test(r.stdout), 'Cycle đủ 18 bài -> complete (không incomplete)');
   T6 = { tmp, p, ids: arr };
@@ -285,16 +280,16 @@ let T7;
   const { tmp, p, ids } = T6;
   const m = JSON.parse(readS(p.matrix));
   const byId = new Map(m.slots.map(s => [s.id, s]));
-  // Baseline SQLite TRƯỚC khi fixture bài mới xuất hiện — sqlite là derived
-  // cache KHÔNG commit nên fixture tự dựng (không phụ thuộc cây làm việc);
-  // mục 9 sẽ thấy nó STALE so với manifest sau khi publish. rows là ĐỘNG
-  // (số bài hiện có trong repo thật — KHÔNG hardcode).
-  const baseRows = fs.readdirSync(p.artDir).filter(f => f.endsWith('.js')).length;
+  // Baseline manifest + SQLite TRƯỚC khi fixture bài mới xuất hiện — số row
+  // TÍNH ĐỘNG theo state thật (không hardcode — chống stale test khi số bài
+  // trên main tăng). SQLite là derived cache KHÔNG commit nên fixture tự dựng.
+  const msBase = runNode([p.factory, 'manifest-sync', '--role', 'coordinator'], { cwd: tmp });
+  const rowsBase = Number(((msBase.stdout.match(/rows=(\d+)/) || [])[1]) || 0);
+  ok(msBase.status === 0 && rowsBase > 0, 'manifest-sync dựng baseline JSONL (rows động: ' + rowsBase + ')', msBase.stdout + msBase.stderr);
   const rbBase = runNode([p.factory, 'index-rebuild', '--role', 'coordinator'], { cwd: tmp });
-  ok(rbBase.status === 0, `index-rebuild dựng baseline SQLite từ manifest cũ (${baseRows} rows — đếm động)`, rbBase.stdout + rbBase.stderr);
+  ok(rbBase.status === 0, 'index-rebuild dựng baseline SQLite từ manifest cũ', rbBase.stdout + rbBase.stderr);
   const icBase = runNode([p.factory, 'index-check'], { cwd: tmp });
-  ok(icBase.status === 0 && new RegExp('INDEX_OK rows=' + baseRows + '\\/' + baseRows).test(icBase.stdout),
-    `Baseline SQLite khớp manifest cũ (${baseRows}/${baseRows} — động)`, icBase.stdout + icBase.stderr);
+  ok(icBase.status === 0 && new RegExp('INDEX_OK rows=' + rowsBase + '/' + rowsBase).test(icBase.stdout), 'Baseline SQLite khớp manifest cũ (' + rowsBase + '/' + rowsBase + ')', icBase.stdout + icBase.stderr);
   // Writer "nộp bài" cho 4 slot đầu cycle: 3 tốt + 1 low-QA.
   const qaIds = ids.slice(0, 4);
   const lowId = qaIds[3];
@@ -305,7 +300,7 @@ let T7;
   }
   const r = runNode([p.factory, 'cycle-qa', qaIds.join(',')], { cwd: tmp });
   ok(r.status === 0, 'cycle-qa exit 0 (FAIL đi repair queue, KHÔNG giữ cycle)', r.stdout + r.stderr);
-  ok(/CYCLE_QA pass=3 fail=1/.test(r.stdout), 'Scoped QA: 3 PASS + 1 FAIL (chỉ 4 bài của cycle, KHÔNG quét 200 bài cũ)', r.stdout);
+  ok(/CYCLE_QA pass=3 fail=1/.test(r.stdout), 'Scoped QA: 3 PASS + 1 FAIL (chỉ 4 bài của cycle, KHÔNG quét bài đã xuất bản)', r.stdout);
   ok(new RegExp('failed=' + lowId).test(r.stdout), 'Output nêu đúng ID bài FAIL', r.stdout);
   const m2 = JSON.parse(readS(p.matrix));
   const passedIds = qaIds.filter(x => x !== lowId);
@@ -321,7 +316,7 @@ let T7;
   ok(r2.status === 0 && /CYCLE_QA_SKIP .* đã PUBLISHED/.test(r2.stdout), 'Bài PUBLISHED bị skip — KHÔNG re-audit bài đã xuất bản', r2.stdout);
   const m3 = JSON.parse(readS(p.matrix));
   ok(m3.slots.find(s => s.id === pub.id).updatedAt === beforeAt, 'Slot PUBLISHED KHÔNG bị đụng');
-  T7 = { tmp, p, qaIds, lowId, baseRows };
+  T7 = { tmp, p, qaIds, lowId, rowsBase };
 }
 
 // ---------- 8. E2E cycle-publish: defer REPAIR, publish PASS, 1 build/deploy ----------
@@ -342,7 +337,7 @@ console.log('8. cycle-publish e2e…');
   const cs = runNode([p.factory, 'check-state'], { cwd: tmp });
   ok(cs.status === 0, 'check-state OK sau cycle-publish', cs.stdout + cs.stderr);
   const cp = JSON.parse(readS(path.join(tmp, 'factory', 'state', 'checkpoint.json')));
-  ok(cp.slotCount === m.slots.length, 'Checkpoint khớp ma trận (500 slot)');
+  ok(cp.slotCount === m.slots.length, 'Checkpoint khớp ma trận (' + m.slots.length + ' slot)');
   const vp = runNode([p.factory, 'verify-pair', passIds[0] + ',' + passIds[1]], { cwd: tmp });
   ok(vp.status === 0 && /VERIFY_PAIR_OK/.test(vp.stdout), 'verify-pair OK với 2 slot vừa publish', vp.stdout + vp.stderr);
 }
@@ -350,19 +345,17 @@ console.log('8. cycle-publish e2e…');
 // ---------- 9. E2E manifest + sqlite derived cache trên tmp ----------
 console.log('9. manifest-sync + index (tmp)…');
 {
-  const { tmp, p, baseRows } = T7;
-  const expRows = baseRows + 4; // 3 bài PASS + 1 bài REPAIR nộp trong mục 7 (động)
+  const { tmp, p, rowsBase } = T7;
+  const rowsAfter = rowsBase + 4; // 3 bài publish + 1 bài REPAIR (module có file)
   const ms = runNode([p.factory, 'manifest-sync', '--role', 'coordinator'], { cwd: tmp });
-  ok(ms.status === 0 && new RegExp('MANIFEST_SYNC rows=' + expRows).test(ms.stdout),
-    `Manifest sync: ${baseRows} cũ (động) + 3 bài mới + 1 bài REPAIR = ${expRows} rows`, ms.stdout + ms.stderr);
+  ok(ms.status === 0 && new RegExp('MANIFEST_SYNC rows=' + rowsAfter).test(ms.stdout),
+    'Manifest sync: ' + rowsBase + ' cũ + 3 bài mới + 1 bài REPAIR = ' + rowsAfter + ' rows', ms.stdout + ms.stderr);
   const ic = runNode([p.factory, 'index-check'], { cwd: tmp });
-  ok(ic.status !== 0 && /stale/.test(ic.stdout + ic.stderr),
-    `SQLite cũ (${baseRows} dòng) đúng báo STALE so với manifest ${expRows} — phát hiện cần rebuild`, ic.stdout + ic.stderr);
+  ok(ic.status !== 0 && /stale/.test(ic.stdout + ic.stderr), 'SQLite cũ (' + rowsBase + ' dòng) đúng báo STALE so với manifest ' + rowsAfter + ' — phát hiện cần rebuild', ic.stdout + ic.stderr);
   const rb0 = runNode([p.factory, 'index-rebuild', '--role', 'coordinator'], { cwd: tmp });
   ok(rb0.status === 0, 'index-rebuild cập nhật SQLite derived cache từ manifest mới', rb0.stdout + rb0.stderr);
   const ic0 = runNode([p.factory, 'index-check'], { cwd: tmp });
-  ok(ic0.status === 0 && new RegExp('INDEX_OK rows=' + expRows + '\\/' + expRows).test(ic0.stdout),
-    `Sau rebuild: SQLite khớp manifest (${expRows}/${expRows} — động)`, ic0.stdout + ic0.stderr);
+  ok(ic0.status === 0 && new RegExp('INDEX_OK rows=' + rowsAfter + '/' + rowsAfter).test(ic0.stdout), 'Sau rebuild: SQLite khớp manifest (' + rowsAfter + '/' + rowsAfter + ')', ic0.stdout + ic0.stderr);
   // Corrupt sqlite -> index-check fail -> index-rebuild phục hồi.
   fs.writeFileSync(p.sqlite, Buffer.from('day-khong-phai-sqlite'));
   const icBad = runNode([p.factory, 'index-check'], { cwd: tmp });
@@ -370,8 +363,7 @@ console.log('9. manifest-sync + index (tmp)…');
   const rb = runNode([p.factory, 'index-rebuild', '--role', 'coordinator'], { cwd: tmp });
   ok(rb.status === 0, 'index-rebuild phục hồi an toàn từ manifest + content (coordinator)', rb.stdout + rb.stderr);
   const ic2 = runNode([p.factory, 'index-check'], { cwd: tmp });
-  ok(ic2.status === 0 && new RegExp('INDEX_OK rows=' + expRows + '\\/' + expRows).test(ic2.stdout),
-    'Sau rebuild: INDEX_OK trở lại (rows động)', ic2.stdout + ic2.stderr);
+  ok(ic2.status === 0 && new RegExp('INDEX_OK rows=' + rowsAfter + '/' + rowsAfter).test(ic2.stdout), 'Sau rebuild: INDEX_OK trở lại', ic2.stdout + ic2.stderr);
   const rw = runNode([p.factory, 'index-rebuild', '--role', 'writer'], { cwd: tmp });
   ok(rw.status !== 0, 'Writer KHÔNG được rebuild SQLite (role guard)', (rw.stderr || rw.stdout).slice(0, 120));
 }
