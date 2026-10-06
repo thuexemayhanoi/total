@@ -80,7 +80,7 @@ module.exports = {
     'di-phuot',
     'ky-nang-phuot',
     'an-toan-khi-phuot',
-    'checklist-duong-dai',
+    'checklist-chuyen-duong-dai-xe-may',
     'chuan-bi-xe-duong-dai',
   ],
 };
