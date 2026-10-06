@@ -332,6 +332,22 @@ function brokenArticle(slug) {
 }
 // Chuẩn bị fixture drain: N slot PLANNED article-backed (S10001...) + module bài.
 // opts: { n, badQa (index hỏng QA), breakTest, brokenModule, bystanderPass (slug không có module), preStates: {index: state} }
+// Chuẩn hóa chống stale: bài draft THẬT của repo (slot chưa PUBLISHED/BLOCKED
+// nhưng đã có module bài — ví dụ writer vừa nộp cặp chờ publish) sẽ bị drain
+// fixture claim, làm lệch các delta đếm động. Gỡ module của những slot đó trong
+// BẢN SAO tmp (slot về WAITING_FOR_WRITER như trước khi có draft) — KHÔNG
+// hardcode slug, quyét động từ matrix + slug trong module.
+function stripDraftModules(P) {
+  const m = JSON.parse(readS(P.matrix));
+  const draftSlugs = new Set(m.slots.filter(s => s.state !== 'PUBLISHED' && s.state !== 'BLOCKED').map(s => s.slug));
+  const artDir = path.join(P.root, 'factory', 'data', 'articles');
+  for (const f of fs.readdirSync(artDir).filter(f => f.endsWith('.js'))) {
+    const fp = path.join(artDir, f);
+    const txt = readS(fp);
+    const sl = /slug:\s*["']([^"']+)["']/.exec(txt);
+    if (sl && draftSlugs.has(sl[1])) fs.rmSync(fp);
+  }
+}
 function buildDrainFixture(tag, opts) {
   const o = opts || {};
   const n = o.n || 0;
@@ -340,6 +356,7 @@ function buildDrainFixture(tag, opts) {
   const now = new Date().toISOString();
   const m = JSON.parse(readS(P.matrix));
   const artDir = path.join(tmp, 'factory', 'data', 'articles');
+  stripDraftModules(P);
   for (let i = 1; i <= n; i++) {
     const slug = `rel-fixture-bai-${i}`;
     const id = 'S' + String(10000 + i);
