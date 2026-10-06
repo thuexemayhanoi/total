@@ -125,10 +125,13 @@ function qaArticle(a, ctx) {
 
   // G7 links-ok: related >= 2 và mọi related tồn tại (broken link nghiêm trọng).
   const related = (a && Array.isArray(a.related)) ? a.related : [];
+  // Linkability khác duplicate namespace: slug PLANNED chưa có URL public thì
+  // KHÔNG được coi là target hợp lệ. Hot batch truyền PUBLISHED + cùng batch.
+  const linkableSlugs = ctx.linkableSlugs instanceof Set ? ctx.linkableSlugs : knownSlugs;
   let linksOk = related.length >= 2;
   const linksNotes = [];
-  if (linksOk && knownSlugs) {
-    const missing = related.filter(r => !knownSlugs.has(r));
+  if (linksOk && linkableSlugs) {
+    const missing = related.filter(r => !linkableSlugs.has(r));
     if (missing.length) { linksOk = false; linksNotes.push('related không tồn tại: ' + missing.join(', ')); }
   }
   add('G7 Liên kết nội bộ nguyên vẹn (related >= 2, tồn tại)', linksOk,
