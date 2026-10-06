@@ -8,8 +8,7 @@ module.exports = {
   keyPoints: [
     'Tốc độ phải theo những gì thấy được — giảm trước khi tới vùng không thấy, không phải sau khi có lý do.',
     'Ba vùng nhìn: thấy rõ để đi, thấy mờ để chuẩn bị, không thấy để chủ động giảm tới mức dừng được.',
-    'Vùng mù của
- mình chỉnh xóa bằng gương đúng; vùng mù của xe khác tránh đứng vào — điểm mù ngã tư tiếp cận bằng góc mở.',
+    'Vùng mù của mình chỉnh xóa bằng gương đúng; vùng mù của xe khác tránh đứng vào — điểm mù ngã tư tiếp cận bằng góc mở.',
     'Mở tầm nhìn bằng vị trí: lệch làn để thấy sớm và được thấy sớm, giảm trước khúc cua và mọi điểm che.',
     'Điều kiện xấu rút ngắn mọi quãng nhìn và làm mắt chậm thêm — tốc độ giảm phải sâu hơn cảm giác.',
     'Nhìn xa trước, nhìn gần sau: hai quét liên tục là nhịp thở của mọi kỹ năng còn lại.',
@@ -72,8 +71,7 @@ kim đồng hồ vẫn trong hạn pháp lý. Pháp luật đặt trần tốc �
     'Chia quãng trước mặt ba vùng: rõ để đi, mờ để chuẩn bị phanh, không thấy để giảm tới mức dừng được tại mép.',
     'Chỉnh gương thấy hai góc xiên sau, giữ sạch, chỉnh lại sau mỗi lần xe bị va.',
     'Không đứng vào vùng mù xe khác; nếu buộc qua thì qua dứt khoát — không trôi trong vùng mù.',
-    'Ngã tư và hẻm có che: tiếp cận bằng góc mở, nghiêng tầm nhìn qua mép che sớm nhất có thể.
-',
+    'Ngã tư và hẻm có che: tiếp cận bằng góc mở, nghiêng tầm nhìn qua mép che sớm nhất có thể.',
     'Khúc cua dốc che: chậm trước nhìn sau; không ra vượt ở đoạn che dù khe có mở.',
     'Đêm: không nhìn thẳng đèn pha đối diện, quét mép phải làn; mưa: mọi vệt sáng trên mặt đường coi là trượt.',
     'Khu đông người: mọi khe là có người, tốc độ giữ ở mức mọi phanh đều là phanh chủ động.',
