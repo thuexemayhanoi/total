@@ -6108,11 +6108,13 @@
    "title": "Hướng dẫn chi tiết về quy tắc giao thông",
    "primaryIntent": "informational/quy-tac-giao-thong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:52:40.802Z",
+   "seoScore": 100,
+   "words": 2370
   },
   {
    "id": "S00412",
@@ -6121,11 +6123,13 @@
    "title": "Tổng hợp kiến thức: tầm nhìn khi lái",
    "primaryIntent": "informational/tam-nhin-khi-lai",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:52:40.802Z",
+   "seoScore": 100,
+   "words": 2190
   },
   {
    "id": "S00413",
