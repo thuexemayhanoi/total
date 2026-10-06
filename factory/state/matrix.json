@@ -6216,11 +6216,13 @@
    "title": "Hướng dẫn chi tiết về tiết kiệm xăng",
    "primaryIntent": "informational/tiet-kiem-xang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T20:22:59.965Z",
+   "seoScore": 91,
+   "words": 2220
   },
   {
    "id": "S00420",
