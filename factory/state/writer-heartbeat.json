@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-06T11:31:02.533Z",
+ "at": "2026-10-06T11:46:36.383Z",
  "phase": "waiting-publish",
- "pair": "S00303,S00304,S00305,S00306,S00307,S00308,S00309,S00310,S00311,S00312",
- "note": "queue 10 bai S00303-S00312"
+ "pair": "S00313,S00314,S00315,S00316,S00317,S00318,S00319,S00320,S00321,S00322",
+ "note": "queue S00313-S00322 (10 bai) — verify-sources OK, chờ Factory Publish"
 }
