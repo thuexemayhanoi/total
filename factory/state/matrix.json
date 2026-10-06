@@ -3948,11 +3948,13 @@
    "title": "Hướng dẫn chi tiết về giao thông hà nội",
    "primaryIntent": "informational/giao-thong-ha-noi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T04:16:51.514Z",
+   "seoScore": 100,
+   "words": 2486
   },
   {
    "id": "S00268",
@@ -3961,11 +3963,13 @@
    "title": "Tổng hợp kiến thức: giao thông tp hcm",
    "primaryIntent": "informational/giao-thong-tp-hcm",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.043Z",
-   "updatedAt": "2026-10-03T23:13:26.043Z"
+   "updatedAt": "2026-10-06T04:16:51.514Z",
+   "seoScore": 100,
+   "words": 2407
   },
   {
    "id": "S00269",

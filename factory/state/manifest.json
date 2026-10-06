@@ -1540,6 +1540,14 @@
   "kind": "article"
  },
  {
+  "rel": "hub/dia-phuong/giao-thong-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/dia-phuong/giao-thong-tp-hcm/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "assets/data/search-index.json",
   "kind": "data"
  },

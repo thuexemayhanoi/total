@@ -7831,5 +7831,65 @@
    "lộ trình học xe máy",
    "ra đường lần đầu đi xe máy"
   ]
+ },
+ {
+  "url": "hub/dia-phuong/giao-thong-ha-noi/",
+  "title": "Hướng dẫn chi tiết về giao thông hà nội",
+  "category": "Trung tâm chủ đề",
+  "hub": "Địa phương",
+  "summary": "Hà Nội là một trong hai đô thị có mật độ giao thông lớn nhất Việt Nam, nơi mô hình \"phố cổ bên trong — vành đai bao ngoài\" tạo nên những quy luật di chuyển rất riêng. Bài viết tổng hợp kiến thức về giao thông Hà Nội dưới góc độ thông tin tham khảo: đặc điểm cấu trúc đường phố, quy luật giờ cao điểm, vai trò của các cây cầu vượt sông Hồng, ảnh hưởng của thời tiết theo mùa, và những kỹ năng phù hợp khi đi lại bằng xe máy trong nội thành. Nội dung mang tính kiến thức chung, không thay thế quy định pháp luật hiện hành.",
+  "quickAnswer": "Giao thông Hà Nội có hai giờ cao điểm rõ rệt vào buổi sáng và buổi chiều, tập trung tại các cửa ngõ và nút giao quanh hồ Hoàn Kiếm, các tuyến vành đai và đầu cầu vượt sông Hồng. Người mới nên nắm cấu trúc một chiều của phố cổ, tránh đường vào khung giờ đông, đi chậm trong khu vực đông dân cư và chuẩn bị phương án theo thời tiết: mưa lớn, ngập cục bộ hoặc sương mù mùa đông đều thay đổi điều kiện di chuyển đáng kể.",
+  "keyPoints": [
+   "Cấu trúc giao thông Hà Nội theo lớp: phố cổ một chiều ở lõi, các tuyến trục hướng tâm, và các vành đai bao quanh.",
+   "Giờ cao điểm sáng và chiều có quy luật: xe đổ về trung tâm buổi sáng và tỏa ra các cửa ngõ buổi chiều.",
+   "Các cây cầu qua sông Hồng là điểm thắt cổ chai: biến động nhỏ ở một cầu có thể ảnh hưởng nhiều tuyến.",
+   "Mùa mưa gây ngập cục bộ ở một số điểm trũng; mùa đông sương mù giảm tầm nhìn, cần giảm tốc và bật đèn."
+  ],
+  "entities": [
+   "giao thông Hà Nội",
+   "giờ cao điểm",
+   "vành đai",
+   "sông Hồng",
+   "phố cổ",
+   "xe máy"
+  ],
+  "keywords": [
+   "giao thông hà nội",
+   "giờ cao điểm hà nội",
+   "đường một chiều phố cổ",
+   "vành đai hà nội",
+   "cầu qua sông hồng",
+   "đi xe máy hà nội"
+  ]
+ },
+ {
+  "url": "hub/dia-phuong/giao-thong-tp-hcm/",
+  "title": "Tổng hợp kiến thức: giao thông tp hcm",
+  "category": "Trung tâm chủ đề",
+  "hub": "Địa phương",
+  "summary": "Thành phố Hồ Chí Minh là siêu đô thị của phương Nam, nơi giao thông vận hành theo những quy luật riêng hình thành từ quy mô dân số, mô hình các khu công nghiệp ven đô và hệ thống sông ngòi kênh rạch chằng chịt. Bài viết tổng hợp kiến thức về giao thông TP.HCM dưới góc độ thông tin tham khảo: cấu trúc các trục chính và các tuyến cao tốc hướng vùng, sự khác biệt của giờ cao điểm theo ca kíp, ảnh hưởng của mưa và triều cường, kỹ năng phù hợp khi đi xe máy trong đô thị lớn, cùng xu hướng hạ tầng giao thông đang thay đổi diện mạo đi lại của thành phố. Nội dung mang tính kiến thức chung, không thay thế quy định pháp luật hiện hành.",
+  "quickAnswer": "Giao thông TP.HCM đông nhất quanh hai khung giờ ca làm việc và ca học, đồng thời chịu ảnh hưởng của mưa lớn và triều cường gây ngập ở các vùng trũng thấp. Người di chuyển nên nắm các trục chính theo hướng vùng, tránh các đoạn trũng quen thuộc khi mưa, dự phòng thêm thời gian qua các nút giao lớn giờ cao điểm và kết hợp phương tiện công cộng khi hành trình đi theo trục phù hợp.",
+  "keyPoints": [
+   "Mạng giao thông TP.HCM tổ chức quanh các trục lớn hướng về các vùng lân cận, kết hợp các tuyến cao tốc dài.",
+   "Giờ cao điểm không chỉ theo giờ hành chính: ca kíp nhà máy và khu công nghiệp tạo các đỉnh sớm và muộn riêng.",
+   "Mưa lớn kết hợp triều cường khiến một số vùng trũng thấp dễ ngập, thay đổi điều kiện di chuyển cục bộ.",
+   "Hệ thống sông và kênh chia cắt mặt bằng: các cây cầu và hầm là điểm tập trung lưu lượng đáng kể."
+  ],
+  "entities": [
+   "giao thông TP.HCM",
+   "giờ cao điểm",
+   "cao tốc",
+   "triều cường",
+   "xe máy",
+   "khu công nghiệp"
+  ],
+  "keywords": [
+   "giao thông tp hcm",
+   "giờ cao điểm tphcm",
+   "triều cường sài gòn",
+   "đường cao tốc tphcm",
+   "đi xe máy sài gòn",
+   "ngập đường tphcm"
+  ]
  }
 ]
