@@ -4488,11 +4488,13 @@
    "title": "Hướng dẫn chi tiết về chu kỳ thay dầu",
    "primaryIntent": "informational/chu-ky-thay-dau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:32:33.313Z",
+   "seoScore": 100,
+   "words": 1789
   },
   {
    "id": "S00304",
@@ -4501,11 +4503,13 @@
    "title": "Tổng hợp kiến thức: chọn dầu nhớt",
    "primaryIntent": "informational/chon-dau-nhot",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:32.423Z",
+   "seoScore": 100,
+   "words": 1714
   },
   {
    "id": "S00305",
@@ -4514,11 +4518,13 @@
    "title": "Kinh nghiệm dầu hộp số dành cho người mới",
    "primaryIntent": "informational/dau-hop-so",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:34.188Z",
+   "seoScore": 83,
+   "words": 1702
   },
   {
    "id": "S00306",
@@ -4527,11 +4533,13 @@
    "title": "Ắc quy khô — những điều cần biết",
    "primaryIntent": "informational/ac-quy-kho",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:32.423Z",
+   "seoScore": 83,
+   "words": 1737
   },
   {
    "id": "S00307",
@@ -4540,11 +4548,13 @@
    "title": "Hướng dẫn chi tiết về sạc ắc quy",
    "primaryIntent": "informational/sac-ac-quy",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:35.037Z",
+   "seoScore": 91,
+   "words": 1672
   },
   {
    "id": "S00308",
@@ -4553,11 +4563,13 @@
    "title": "Tổng hợp kiến thức: tuổi thọ pin",
    "primaryIntent": "informational/tuoi-tho-pin",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:35.897Z",
+   "seoScore": 100,
+   "words": 1726
   },
   {
    "id": "S00309",
@@ -4566,11 +4578,13 @@
    "title": "Kinh nghiệm thuật ngữ xe máy dành cho người mới",
    "primaryIntent": "informational/thuat-ngu-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:35.037Z",
+   "seoScore": 83,
+   "words": 1760
   },
   {
    "id": "S00310",
@@ -4579,11 +4593,13 @@
    "title": "Từ điển xe máy — những điều cần biết",
    "primaryIntent": "informational/tu-dien-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:35.897Z",
+   "seoScore": 100,
+   "words": 1656
   },
   {
    "id": "S00311",
@@ -4592,11 +4608,13 @@
    "title": "Hướng dẫn chi tiết về mô men xoắn",
    "primaryIntent": "informational/mo-men-xoan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:34.188Z",
+   "seoScore": 91,
+   "words": 1678
   },
   {
    "id": "S00312",
@@ -4605,11 +4623,13 @@
    "title": "Tổng hợp kiến thức: côn là gì",
    "primaryIntent": "informational/con-la-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T11:32:33.313Z",
+   "seoScore": 83,
+   "words": 1729
   },
   {
    "id": "S00313",

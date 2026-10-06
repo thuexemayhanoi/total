@@ -7863,6 +7863,37 @@
   ]
  },
  {
+  "url": "wiki/ac-quy-pin/ac-quy-kho/",
+  "title": "Ắc quy khô — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Ắc quy và pin",
+  "summary": "Ắc quy khô là loại ắc quy phổ biến nhất trên xe máy hiện nay — nhưng tên gọi này nửa đúng nửa sai: bên trong không \"khô\" mà là các tấm cực và tấm separator ngập trong dung dịch điện phân được giữ chặt trong chất sợi thủy tinh, không cần châm và khó tràn như ắc quy nước. Tên chuẩn hơn là ắc quy MF (bảo dưỡng ít) hoặc VRLA/AGM/GEL theo công nghệ bên trong. Bài viết đi theo trình tự: cấu tạo bên trong của một ắc quy \"khô\" và vì sao nó không cần châm như ắc quy nước; các công nghệ AGM và GEL khác nhau ở đâu; tuổi thọ thật phụ thuộc vào gì (sạc xả sâu, nhiệt, thời gian để xe không chạy); các dấu hiệu ắc quy xuống cấp từ đề máy yếu tới đèn nhấp nháy; và cách bảo quản đúng — đặc biệt với nhóm người để xe vài ngày không đi, nhóm giết ắc quy nhanh nhất bằng cách nào ngờ nhất.",
+  "quickAnswer": "Ắc quy khô (chuẩn hơn: ắc quy MF/VRLA) là ắc quy chì-axit hở van: dung dịch điện phân được hút giữ trong tấm separator sợi thủy tinh (AGM) hoặc đóng thành gel, không tràn, không cần châm nước như ắc quy nước. Ưu: bảo quản gần như không phải làm, ít tự phóng điện hơn, không tràn axit ăn gỉ. Nhược: nhạy với xả sâu — để xe không chạy lâu ắc tụt xuống mức thấp và hư không hồi phục. Tuổi thọ tham chiếu 1,5-3 năm tùy cách dùng. Bảo quản: chạy xe đủ dài mỗi tuần để hệ thống nạp đầy, hoặc dùng sạc giữ điện nếu để lâu; thấy đề yếu, đèn nhấp nháy là kiểm sớm.",
+  "keyPoints": [
+   "Ắc quy khô thực chất là ắc quy MF/VRLA: điện phân giữ trong AGM hoặc gel, không tràn, không châm.",
+   "Van một chiều thoát khí khi nạp mạnh — vì vậy gọi là \"hở van kín\" (VRLA), không hẳn kín tuyệt đối.",
+   "Khác ắc quy nước: không châm được, ít bảo dưỡng, nhưng nhạy hơn với xả sâu và sạc sai loại.",
+   "Tuổi thọ 1,5-3 năm; kẻ thù lớn nhất là để xe lâu không chạy — ắc xả sâu chết không hồi phục."
+  ],
+  "entities": [
+   "ắc quy khô",
+   "ắc quy MF",
+   "VRLA",
+   "AGM",
+   "gel",
+   "xả sâu",
+   "van một chiều"
+  ],
+  "keywords": [
+   "ắc quy khô xe máy",
+   "ắc quy MF là gì",
+   "ắc quy khô và nước khác nhau",
+   "ắc quy AGM gel",
+   "tuổi thọ ắc quy xe máy",
+   "bảo quản ắc quy khi để xe lâu"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/ac-quy-xe-may/",
   "title": "Hướng dẫn chi tiết về ắc quy xe máy",
   "category": "Bách khoa xe",
@@ -8112,6 +8143,67 @@
   ]
  },
  {
+  "url": "wiki/dau-nhot/chon-dau-nhot/",
+  "title": "Tổng hợp kiến thức: chọn dầu nhớt",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Chọn dầu nhớt là việc ra quyết định với quá nhiều lựa chọn và quá ít thông tin đáng tin: kệ hàng có mấy chục chai với đủ màu vỏ và lời hứa, người bán khuyên theo doanh số, diễn đàn khuyên theo sở thích. Thực tế việc chọn đơn giản hơn nhiều khi gom về ba câu hỏi: xe mình cần chuẩn gì (JASO, SAE — có sẵn trong sổ tay), xe mình chạy thế nào (phố ngắn, đường trường, chở nặng, máy mới hay già), và trong số các chai đạt chuẩn kia chai nào hợp túi tiền và nguồn mua đáng tin. Bài tổng hợp đi lần lượt ba câu hỏi, kèm phần phân biệt hàng thật hàng giả qua bao bì và giá thị trường, và kết luận thực dụng: khi nào đổ tổng hợp là đáng tiền, khi nào khoáng là đủ, và vì sao \"chai đắt nhất\" gần như không bao giờ là câu trả lời đúng cho xe phổ thông chạy phố.",
+  "quickAnswer": "Chọn dầu nhớt theo ba bước. Một: mở sổ tay xe ghi ba chỉ số — chuẩn JASO (MA/MA2 cho xe số ly hợp ướt, MB cho xe tay ga), độ đặc SAE (ví dụ 10W-30), cấp chất lượng API (SG trở lên). Hai: chọn gốc dầu theo điều kiện chạy — khoáng cho xe phổ thông chạy phố, bán tổng hợp cho hỗn hợp phố-trường, tổng hợp cho đường trường dài, tải nặng, máy nóng cao hoặc máy già cần chu kỳ dài. Ba: mua nơi tin cậy, kiểm bao bì và giá thị trường để tránh hàng giả. Không chọn theo màu vỏ chai, lời quảng cáo \"racing\", hoặc \"chai đắt nhất\" — chỉ số trên nhãn mới là cam kết kỹ thuật.",
+  "keyPoints": [
+   "Ba chỉ số quyết định nằm trên nhãn: JASO (tương thích ly hợp), SAE (độ đặc), API (cấp chất lượng).",
+   "Sổ tay xe là nguồn chỉ số chuẩn — ghi lại trước khi ra cửa hàng.",
+   "Gốc dầu theo điều kiện chạy: khoáng cho phố thường, bán tổng hợp cho hỗn hợp, tổng hợp cho đường trường dài và tải nặng.",
+   "Máy già khe rộng có thể nhích một cấp độ đặc — không phải nhảy hai cấp vì \"đặc cho chắc\"."
+  ],
+  "entities": [
+   "chọn dầu nhớt",
+   "JASO MA",
+   "SAE",
+   "API",
+   "nhớt khoáng",
+   "bán tổng hợp",
+   "nhớt tổng hợp"
+  ],
+  "keywords": [
+   "chọn dầu nhớt xe máy",
+   "dầu nhớt xe số",
+   "dầu nhớt xe tay ga",
+   "JASO MA MA2 MB",
+   "nhớt tổng hợp đáng không",
+   "phân biệt nhớt thật giả"
+  ]
+ },
+ {
+  "url": "wiki/dau-nhot/chu-ky-thay-dau/",
+  "title": "Hướng dẫn chi tiết về chu kỳ thay dầu",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Chu kỳ thay dầu là con số bị hỏi nhiều nhất và trả lời sai nhiều nhất trong việc giữ xe: có người thay mỗi 1.000 km, có người để 5.000 km, cả hai đều có thể đúng — vì chu kỳ không phải một con số cố định mà là kết quả của ba yếu tố: loại dầu đổ vào, điều kiện chạy của xe, và thời gian trôi qua kể cả khi xe nằm im. Bài hướng dẫn xếp ba yếu tố đó thành khung tính chu kỳ riêng cho từng xe: mốc km tham chiếu theo loại dầu và loại xe, mốc thời gian cho xe chạy ít, các yếu tố rút ngắn chu kỳ (chạy phố ngắn liên tục, chở nặng, đường bụi, máy cũ), và ba phép kiểm bằng mắt thường để biết dầu còn dùng được hay đã tới hạn — soi màu, nhỏ giọt giấy, và theo dõi mực. Kết là cách lập lịch thay trong sổ xe để không bao giờ để quá hạn mà vẫn không phí tiền thay sớm vô ích.",
+  "quickAnswer": "Chu kỳ thay dầu xe máy phổ thông tham chiếu: xe số chạy phố 1.000-1.500 km một lần, xe tay ga 2.000-3.000 km, xe dùng nhớt tổng hợp theo sổ tay có thể dài hơn. Xe chạy ít phải thay theo thời gian: không quá 3-6 tháng một lần, vì nhớt oxy hóa trong lọc chờ. Rút ngắn chu kỳ khi: chạy phố quãng ngắn liên tục (máy không đạt nhiệt chuẩn, nhớt nhiễm nước condensation), chở nặng, đường bụi, máy cũ. Tự kiểm nhanh: nhớt đổi màu sữa nhạt là nhiễm nước, nhỏ một giọt lên giấy thấm thấy lõi sáng quanh chấm sẫm là nhớt còn phụ gia, mực hạ nhanh là máy ăn nhớt.",
+  "keyPoints": [
+   "Chu kỳ là kết quả của ba yếu tố: loại dầu, điều kiện chạy, và thời gian — không phải một con số chung.",
+   "Tham chiếu phổ thông: xe số 1.000-1.500 km, xe tay ga 2.000-3.000 km, nhớt tổng hợp dài hơn theo sổ tay.",
+   "Xe chạy ít vẫn phải thay 3-6 tháng một lần: oxy hóa và ẩm ngưng hư nhớt trong lọc chờ.",
+   "Chạy phố quãng ngắn liên tục là điều kiện khắc nhất: máy không nóng đủ, nhớt nhiễm nước và xăng loãng."
+  ],
+  "entities": [
+   "chu kỳ thay dầu",
+   "oxy hóa nhớt",
+   "nhớt nhiễm nước",
+   "giấy thấm nhớt",
+   "lịch thay nhớt",
+   "mực nhớt"
+  ],
+  "keywords": [
+   "chu kỳ thay dầu xe máy",
+   "thay nhớt bao lâu một lần",
+   "xe chạy ít thay nhớt",
+   "dấu hiệu nhớt cũ",
+   "thay nhớt 1000km",
+   "nhớt nhiễm nước"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/coi-xe/",
   "title": "Kinh nghiệm còi xe dành cho người mới",
   "category": "Bách khoa xe",
@@ -8139,6 +8231,68 @@
    "còi xe yếu",
    "sửa còi xe máy",
    "dùng còi đúng lúc"
+  ]
+ },
+ {
+  "url": "wiki/thuat-ngu-xe/con-la-gi/",
+  "title": "Tổng hợp kiến thức: côn là gì",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "\"Côn\" là từ được nói nhiều nhất mỗi khi xe giật, ì, hoặc ga tuôn — nhưng ít thuật ngữ nào bị định nghĩa lỏng lẻo hơn: người mới gọi cần bóp bên trái là \"côn\", gọi bộ lá ly hợp trong máy là \"côn\", gọi hiện tượng xe không vọt là \"hết côn\". Bài tổng hợp này bóc khái niệm côn theo đúng bản chất: một bộ ngắt-nối lực giữa máy đang quay và hộp số — chi tiết duy nhất cho phép xe vừa khởi hành êm từ máy đang chạy, vừa đổi số không giật. Từ nguyên lý ma sát, bài đi qua bốn loại côn trên xe máy: côn ướt nhiều lá trên xe số, côn khô trên xe tay ga khởi động, cụm ly hợp tự động pulley-belt truyền lực chính của xe ga, và các biến thể côn tay trên xe thể thao. Kèm theo là dấu hiệu trượt côn và mòn côn đọc qua cảm giác xe, cách chỉnh độ rơ cần côn, và nhóm thói quen phá côn nhanh nhất mà người mới cần tránh từ ngày đầu cầm xe.",
+  "quickAnswer": "Côn (ly hợp) là bộ ngắt-nối lực giữa máy và hộp số: các lá kim loại và lá ma sát ép sát nhau truyền lực, tách nhau ra để ngắt. Bóp côn = tách lá = máy quay tự do khỏi hộp số — cho đổi số và dừng xe không tắt máy. Trên xe số: côn ướt nhiều lá ngâm nhớt, điều khiển bằng cần tay trái. Trên xe tay ga: ly hợp tự động bằng pulley và dây curoa, không có cần côn. Dấu hiệu trượt côn: vặn ga máy gằn mà xe không vọt, mùi khét khi leo dốc chở nặng,tua máy lên mà tốc độ không theo. Bảo dưỡng: chỉnh độ rơ cần côn đúng, dùng nhớt JASO MA đúng chuẩn, không ôm côn khi chờ đèn đỏ.",
+  "keyPoints": [
+   "Côn là bộ ngắt-nối lực máy — hộp số bằng các lá ép và tách: không có côn, xe không thể vừa chạy vừa đổi số.",
+   "Xe số dùng côn ướt nhiều lá ngâm trong nhớt; xe tay ga dùng cụm ly hợp tự động pulley và dây curoa.",
+   "Bóp côn khi đổi số và khi dừng xe; buông côn khi chạy — trình tự điều phối lực mỗi lần lên xuống số.",
+   "Trượt côn: ga vặn mà xe không vọt, tua lên nhanh hơn tốc độ — lá mòn hoặc nhớt sai chuẩn."
+  ],
+  "entities": [
+   "côn",
+   "ly hợp",
+   "lá côn",
+   "trượt côn",
+   "độ rơ cần côn",
+   "pulley",
+   "dây curoa",
+   "JASO MA"
+  ],
+  "keywords": [
+   "côn là gì",
+   "ly hợp xe máy",
+   "trượt côn xe số",
+   "côn xe tay ga",
+   "bóp côn đúng cách",
+   "lá côn mòn"
+  ]
+ },
+ {
+  "url": "wiki/dau-nhot/dau-hop-so/",
+  "title": "Kinh nghiệm dầu hộp số dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Nhiều người đi xe máy cả chục năm không biết xe mình có hai loại dầu: nhớt máy bôi trơn động cơ, và dầu hộp số bôi trơn bộ bánh răng truyền lực sau — hai việc khác nhau đến mức nhiều xe, đặc biệt là xe tay ga, dùng hai loại dầu riêng trong hai khoang riêng. Xe số phổ thông thường dùng chung một khoang nhớt cho cả máy và hộp số (ly hợp ướt), nhưng xe tay ga hầu hết tách riêng: khoang nhớt máy và khoang dầu hộp số sau, mỗi khoang một chu kỳ, một loại dầu. Bài viết giải thích vai trò của dầu hộp số, vì sao không thể thay bằng nhớt máy, các dấu hiệu dầu hộp số xuống cấp (khó đẩy xe khi tắt máy, tiếng rít khi tăng tốc, đổi số giật), chu kỳ thay tham chiếu, và cách tự kiểm mực dầu hộp số cho người mới bắt đầu chăm xe đúng cách.",
+  "quickAnswer": "Dầu hộp số bôi trơn các cặp bánh răng truyền lực — làm việc ở áp suất điểm tiếp xúc rất cao, cần dầu có phụ gia chống mài mòn cực áp (EP) khác nhớt máy. Xe tay ga thường có khoang dầu hộp số tách riêng, thay mỗi 5.000-10.000 km theo sổ tay; xe số phổ thông dùng chung nhớt máy cho hộp số. Dấu hiệu dầu hộp số cũ: khó đẩy tay khi xe tắt máy (tang trống giật do bôi trơn kém), tiếng rè rè khi lăn chậm, giật khi tăng tốc. Dùng đúng loại dầu ghi sổ tay (SAE 80W-90 dạng dầu bánh răng hoặc dầu hộp số xe máy), không đổ nhớt máy thay thế.",
+  "keyPoints": [
+   "Dầu hộp số bôi trơn bánh răng truyền lực — áp suất điểm tiếp xúc cao, cần phụ gia cực áp (EP) riêng.",
+   "Xe tay ga thường có khoang dầu hộp số tách riêng khỏi nhớt máy, thay mỗi 5.000-10.000 km theo sổ tay.",
+   "Xe số phổ thông dùng chung một khoang nhớt cho máy và hộp số — thay nhớt máy là thay luôn dầu hộp số.",
+   "Dấu hiệu dầu hộp số cũ: đẩy tay nặng khi tắt máy, rè rè khi lăn chậm, giật khi vào ga."
+  ],
+  "entities": [
+   "dầu hộp số",
+   "phụ gia cực áp",
+   "bánh răng truyền lực",
+   "tang trống",
+   "khoang hộp số",
+   "bulông thăm mực"
+  ],
+  "keywords": [
+   "dầu hộp số xe máy",
+   "thay dầu hộp số xe tay ga",
+   "dầu hộp số là gì",
+   "chọn dầu hộp số",
+   "chu kỳ thay dầu hộp số",
+   "dầu lyp xe ga"
   ]
  },
  {
@@ -8602,6 +8756,37 @@
   ]
  },
  {
+  "url": "wiki/thuat-ngu-xe/mo-men-xoan/",
+  "title": "Hướng dẫn chi tiết về mô men xoắn",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Mô men xoắn là chỉ số bị hiểu lầm nhiều nhất trên bảng thông số xe: người ta đọc \"9,5 Nm tại 6.500 vòng\" mà không biết nó nói gì về cảm giác ngồi trên xe. Thực tế mô men là khái niệm vật lý gần gũi nhất với người lái — nó chính là \"lực kéo\" mà ta cảm nhận mỗi lần ra ga: xe bốc lên hay ì ịch, leo dốc gọn hay đuối. Bài hướng dẫn này giải thích mô men bằng hình ảnh thật (lực vặn nắp chai, đòn bẩy), đơn vị Nm, vì sao mô men luôn đi kèm một vòng tua cụ thể, và khác công suất như thế nào — vì sao xe mô men lớn chạy phố dễ chịu hơn xe công suất lớn nhưng mô men nhỏ. Phần hai là ý nghĩa thực tiễn: đọc bảng thông số xe mới ra sao, mô men của xe phổ thông so với xe phân khối khác bao nhiêu, và vì sao chạy phố dùng phần dưới của dải mô men — nơi người lái sống 90% thời gian.",
+  "quickAnswer": "Mô men xoắn là lực xoay — đo bằng Nm (newton-mét): lực 1 newton tác động tại cánh tay đòn dài 1 mét. Trên xe, mô men là lực xoắn trục khuỷu sinh ra, quyết định cảm giác kéo khi ra ga và leo dốc; công suất (mã lực) là tốc độ sinh công, quyết định tốc độ tối đa. Công thức nối hai đại lượng: công suất tỷ lệ với mô men nhân vòng tua. Mô men luôn ghi kèm một vòng tua cụ thể (\"9,5 Nm tại 6.500 vòng\") vì lực xoay thay đổi theo tốc độ máy. Xe mô men lớn ở tua thấp chạy phố dễ chịu, tăng tốc gọn; xe hướng công suất cần vặn tua cao mới ra sức — kiểu chạy đường trường.",
+  "keyPoints": [
+   "Mô men xoắn (Nm) là lực xoay — cảm giác \"lực kéo\" người lái thấy khi ra ga.",
+   "Công suất là tốc độ sinh công (mã lực); hai đại lượng nối nhau qua vòng tua.",
+   "Mô men luôn đi kèm vòng tua: giá trị mô men thay đổi theo tốc độ quay máy.",
+   "Xe mô men lớn ở tua thấp dễ chịu trong phố; xe công suất lớn hợp đường trường vặn tua."
+  ],
+  "entities": [
+   "mô men xoắn",
+   "Nm",
+   "công suất",
+   "vòng tua",
+   "dải mô men",
+   "đường cong công suất",
+   "cảm giác kéo"
+  ],
+  "keywords": [
+   "mô men xoắn là gì",
+   "mô men và công suất khác nhau",
+   "Nm là gì",
+   "mô men xe máy",
+   "đọc thông số xe máy",
+   "xe mô men lớn"
+  ]
+ },
+ {
   "url": "wiki/dong-co/nguyen-ly-4-thi/",
   "title": "Nguyên lý 4 thì — những điều cần biết",
   "category": "Bách khoa xe",
@@ -8757,6 +8942,37 @@
   ]
  },
  {
+  "url": "wiki/ac-quy-pin/sac-ac-quy/",
+  "title": "Hướng dẫn chi tiết về sạc ắc quy",
+  "category": "Bách khoa xe",
+  "hub": "Ắc quy và pin",
+  "summary": "Sạc ắc quy là việc đơn giản đến mức dễ làm sai: dùng sai loại sạc, chọn sai dòng, hoặc sạc khi không cần — mỗi lỗi đều rút ngắn tuổi thọ ắc thay vì kéo dài. Trên xe máy, ắc quy được nạp chủ yếu bởi máy phát trên xe khi chạy, nên sạc ngoài là biện pháp bổ trợ cho các tình huống cụ thể: xe để lâu không chạy, mùa lạnh đề yếu, ắc mới trước khi lắp, hoặc sau khi để quên đèn. Bài hướng dẫn này trả lời theo trình tự: khi nào thực sự cần sạc ngoài (và khi nào chạy xe là đủ); đo ắc trước khi quyết định bằng vôn kế; chọn đúng loại sạc cho ắc chì-axit MF/VRLA; dòng và thời gian sạc tham chiếu; trình tự sạc an toàn từng bước cho người tự làm ở nhà — và danh sách những việc tuyệt đối không làm với ắc quy chì-axit trong gara nhà.",
+  "quickAnswer": "Sạc ngoài cần khi: ắc đo dưới 12,4V hở mạch sau đêm để, xe sẽ không chạy được vài tuần, ắc mới mua chuẩn bị lắp, hoặc đề yếu buổi sáng mùa lạnh. Chọn sạc có ghi hỗ trợ ắc chì-axit MF/AGM/VRLA với chế độ dòng nhỏ tự động (tối ưu có chế độ giữ điện float). Dòng sạc tham chiếu: khoảng 1/10 dung lượng Ah — ắc 5Ah sạc dòng 0,5A, thời gian vài tiếng cho ắc tụt nhẹ. Trình tự: cọt đỏ vào cực dương trước, đen vào cực âm, đặt sạc, cắm điện, sạc tới khi đèn báo đầy — ngược lại khi tháo: rút điện, tháo cực âm trước. Không sạc ắc phồng, không sạc qua đêm không canh, không để tia lửa gần ắc đang sạc.",
+  "keyPoints": [
+   "Chạy xe đủ dài là cách nạp chính — sạc ngoài chỉ dành cho các tình huống cụ thể: để lâu, ắc yếu, ắc mới.",
+   "Đo trước khi sạc: 12,4-12,8V hở mạch là khỏe, dưới 12V là cần sạc, dưới 11,5V là xả sâu nghiêm trọng.",
+   "Dùng sạc hỗ trợ ắc chì-axit MF/VRLA với dòng tự động — không dùng sạc thô không kiểm soát.",
+   "Dòng sạc tham chiếu khoảng 1/10 dung lượng Ah; ắc xe máy sạc vài tiếng là đủ, không quá đêm không canh."
+  ],
+  "entities": [
+   "sạc ắc quy",
+   "sạc giữ điện",
+   "dòng sạc",
+   "điện thế hở mạch",
+   "sulfat hóa",
+   "ắc quy MF",
+   "chế độ float"
+  ],
+  "keywords": [
+   "sạc ắc quy xe máy",
+   "cách sạc ắc quy đúng",
+   "sạc ắc quy bao lâu",
+   "chọn sạc ắc quy xe máy",
+   "sạc ắc quy khi để xe lâu",
+   "đo ắc quy bằng vôn kế"
+  ]
+ },
+ {
   "url": "wiki/lop-banh-xe/thay-lop-khi-nao/",
   "title": "Tổng hợp kiến thức: thay lốp khi nào",
   "category": "Bách khoa xe",
@@ -8785,6 +9001,100 @@
    "lốp nứt phải thay không",
    "TWI lốp",
    "kế hoạch thay lốp"
+  ]
+ },
+ {
+  "url": "wiki/thuat-ngu-xe/thuat-ngu-xe-may/",
+  "title": "Kinh nghiệm thuật ngữ xe máy dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Bước vào thế giới xe máy, người mới va vào một bức tường thuật ngữ: thợ nói \"côn ba di chim\", diễn đàn bàn về \"tua đáy\", quảng cáo ghi \"phun xăng điện tử\". Hiểu lầm một thuật ngữ dẫn tới mua sai, sửa sai và nói sai khi trao đổi với thợ. Bài này không phải cuốn từ điển — nó là bản đồ học thuật ngữ theo nhóm chức năng: nhóm vận hành mà tay chân người lái chạm mỗi ngày (côn, ga, phanh, số); nhóm trái tim máy (xy-lanh, piston, tua, công suất và mô men); nhóm hệ thống quanh máy (điện, nạp, phun xăng); và nhóm danh xưng xe (xe số, xe ga, xe côn tay, đề điện, chủ động). Mỗi thuật ngữ được giải bằng một câu chức năng thật — nó làm gì trên xe — thay vì định nghĩa trích dẫn. Kết bài là phương pháp tự học thuật ngữ: hỏi đúng câu khi gặp thợ, ghi chép theo nhóm, và đọc tài liệu xe mình thay vì tài liệu chung chung.",
+  "quickAnswer": "Thuật ngữ xe máy cơ bản chia theo nhóm. Vận hành: côn (ly hợp — ngắt-nối lực giữa máy và hộp số), ga (điều vị độ mở bướm ga), phanh trước/sau, số (tỷ lệ truyền trong hộp số). Máy: xy-lanh (nơi piston chuyển động), piston (nén và nhận lực cháy), vòng tua (vòng quay mỗi phút — rpm), công suất (mã lực — tốc độ tối đa), mô men xoắn (lực kéo — tăng tốc và leo dốc). Hệ thống: đề điện (mô tơ khởi động), phun xăng điện tử vs chế hòa khí, ắc quy và hệ thống nạp. Danh xưng: xe số (bóp côn đổi số bằng chân), xe tay ga (tăng giảm ga tự đổi tỉ lệ), xe côn tay (xe số bóp côn tay), xe đề điện (bấm nút đề).",
+  "keyPoints": [
+   "Côn (ly hợp) là bộ ngắt-nối lực máy vào hộp số — bóp côn để đổi số không cho máy giật.",
+   "Vòng tua (rpm) là tốc độ quay máy; vùng tua đẹp cho xe phổ thông khoảng giữa đồng hồ, không đáy, không đỏ.",
+   "Công suất (mã lực) quyết định tốc độ tối đa; mô men xoắn quyết định cảm giác kéo khi ra ga và leo dốc.",
+   "Xe số đổi số bằng chân, xe tay ga đổi tỉ số tự động qua ly hợp và pulley — hai nguyên lý khác hẳn nhau."
+  ],
+  "entities": [
+   "thuật ngữ xe máy",
+   "côn",
+   "vòng tua",
+   "mô men xoắn",
+   "xy-lanh",
+   "phun xăng điện tử",
+   "xe tay ga"
+  ],
+  "keywords": [
+   "thuật ngữ xe máy",
+   "côn là gì",
+   "vòng tua là gì",
+   "mô men xoắn là gì",
+   "xe số và xe ga khác nhau",
+   "phun xăng điện tử FI"
+  ]
+ },
+ {
+  "url": "wiki/thuat-ngu-xe/tu-dien-xe-may/",
+  "title": "Từ điển xe máy — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Sau bài bản đồ nhóm thuật ngữ, đây là từ điển tra cứu: các từ hay gặp nhất khi đọc bảng báo giá sửa xe, nghe thợ nói, hoặc đọc tin tức xe — xếp theo thứ tự bảng chữ và giải thích trong một đến ba câu theo chức năng thật. Mỗi mục từ cũng chỉ ra nhóm nào của xe nó thuộc (điện, máy, truyền lực, khung-xóc, tiêu hao) để tra xong biết nó nằm đâu trên xe mình. Cuối từ điển là đoạn hướng dẫn dùng: cách tra khi đứng trước cửa hàng (mở bảng này trên điện thoại), cách đối chiếu tên trong bảng giá với tên catalogue của hãng, và cách nhận ra khi nào một từ trong miệng người bán là từ marketing chứ không phải thuật ngữ kỹ thuật — ranh giới đáng biết để tiền được chi cho phụ tùng chứ không cho tính từ.",
+  "quickAnswer": "Từ điển chọn lọc theo tần suất gặp: áp suất (lốp, nhớt), bộ chế hòa khí (carb), bugi (nến điện), côn (ly hợp), dây curoa (xe tay ga), găng xéc măng (piston ring), giun/dec côn, hồ quang điện, kim phun FI, lọc nhớt, lọc gió, mô tơ đề, pulley, sên (dây xích), chỉnh lưu, tải (chở), van bơm, xéc măng. Tra theo mục: từ thuộc nhóm nào (điện — máy — truyền lực — khung — tiêu hao) và nó làm việc gì. Tên phụ tùng trong bảng giá nên đối chiếu với catalogue hãng trước khi duyệt — cùng một món nhiều khi có hai ba tên gọi.",
+  "keyPoints": [
+   "Tra từ điển theo hai cột: từ đó thuộc cụm nào trên xe và nó làm việc gì.",
+   "Tên trong bảng giá sửa đối chiếu catalogue hãng — cùng một phụ tùng có nhiều tên gọi.",
+   "Từ quảng cáo (bền, êm, xịn) không phải thuật ngữ — hỏi lại chỉ số kỹ thuật cụ thể.",
+   "Nhóm tiêu hao (bugi, lọc gió, nhớt, má phanh, lốp) là các từ xuất hiện nhiều nhất trong hóa đơn."
+  ],
+  "entities": [
+   "từ điển xe máy",
+   "bugi",
+   "chế hòa khí",
+   "găng xéc măng",
+   "pulley",
+   "chỉnh lưu",
+   "dây curoa",
+   "sên"
+  ],
+  "keywords": [
+   "từ điển xe máy",
+   "bugi là gì",
+   "pulley là gì",
+   "găng xéc măng",
+   "chỉnh lưu xe máy",
+   "dây curoa xe ga"
+  ]
+ },
+ {
+  "url": "wiki/ac-quy-pin/tuoi-tho-pin/",
+  "title": "Tổng hợp kiến thức: tuổi thọ pin",
+  "category": "Bách khoa xe",
+  "hub": "Ắc quy và pin",
+  "summary": "Hỏi \"ắc quy xe máy sống bao lâu\" sẽ nhận các câu trả từ sáu tháng đến năm năm — và tất cả đều có thể đúng, vì tuổi thọ pin không phải con số cố định mà là kết quả của cách nó được đối xử. Cùng một cục ắc, trên xe chạy đều mỗi ngày sống ba năm; trên xe để công tác hai tháng một lần sống sáu tháng. Bài tổng hợp này gom các yếu tố quyết định tuổi thọ thành bốn nhóm — xả sâu (kẻ giết số một), nhiệt, nạp sai cách, và dòng rò trên xe — giải thích cơ chế mỗi nhóm hư ắc theo kiểu gì, cho con số tham chiếu tuổi thọ theo từng kiểu sử dụng thật, và cuối cùng là \"hành trình suy giảm\" của một ắc: từ đầy đủ, tới giữ kém, tới sulfat cứng — để người dùng nhận ra ắc của mình đang ở đâu và còn cứu được bao nhiêu. Phần kết là checklist kéo dài tuổi ắc gần như miễn phí: chạy xe đều, ngắt cực khi để lâu, vệ sinh cột cực, và sạc đúng loại khi cần.",
+  "quickAnswer": "Tuổi thọ ắc quy chì-axit xe máy tham chiếu: 1,5-3 năm với cách dùng phổ thông; dưới một năm nếu xe để lâu không chạy (xả sâu lặp lại); trên 3 năm khi xe chạy đều hằng ngày và hệ thống nạp khỏe. Bốn yếu tố quyết định: xả sâu (sulfat hóa tấm cực không hồi phục), nhiệt (mùa hè trong khoang máy làm phụ gia hao nhanh), nạp sai (dòng lớn qua van mất nước không bù được), và dòng rò trên xe (đồng hồ, IC chờ). Kéo tuổi: chạy 20-30 phút mỗi tuần, ngắt cực âm khi để lâu, giữ cột cực sạch, sạc ngoài bằng sạc MF dòng nhỏ khi cần. ắc đề yếu mỗi sáng liên tục là đã gần cuối — thay đúng thông số, không chờ chết hẳn.",
+  "keyPoints": [
+   "Tuổi thọ tham chiếu 1,5-3 năm — nhưng cách dùng quyết định nhiều hơn thương hiệu ắc.",
+   "Xả sâu là kẻ giết số một: vài lần tụt dưới 11,5V là sulfat hóa tấm cực vĩnh viễn.",
+   "Nóng mùa hè trong khoang máy làm ắc già nhanh — xe để nắng là trừ tuổi ắc từng ngày.",
+   "Dòng rò của đồng hồ và IC chờ tụt ắc âm thầm khi xe nằm im nhiều tuần."
+  ],
+  "entities": [
+   "tuổi thọ ắc quy",
+   "sulfat hóa",
+   "xả sâu",
+   "dòng rò",
+   "tự phóng điện",
+   "giữ điện",
+   "ắc quy MF"
+  ],
+  "keywords": [
+   "tuổi thọ ắc quy xe máy",
+   "ắc quy sống bao lâu",
+   "kéo dài tuổi thọ ắc quy",
+   "ắc quy tụt nhanh",
+   "xả sâu ắc quy",
+   "dấu hiệu ắc yếu"
   ]
  },
  {
