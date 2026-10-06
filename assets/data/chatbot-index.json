@@ -7987,6 +7987,36 @@
   ]
  },
  {
+  "url": "learn/doc-thong-so/bang-thong-so-xe/",
+  "title": "Bảng thông số xe máy: cách đọc, so sánh và tránh bẫy con số",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Mở trang giới thiệu một mẫu xe máy, khối nội dung dài nhất thường là bảng thông số: vài chục dòng từ dung tích xi lanh đến chiều dài cơ sở, từ lực nén đến trọng lượng không tải. Bảng này là nguồn dữ liệu khách quan nhất người mua có được — nhưng cũng là nơi dễ gây hiểu lầm nhất, vì mỗi dòng chỉ có ý nghĩa khi đọc đúng điều kiện kèm theo và so trong đúng ngữ cảnh. Bài viết này xem bảng thông số như một \"tài liệu thẩm định\": hướng dẫn chia bảng thành các nhóm dễ đọc, chỉ ra dòng nào quyết định trải nghiệm hàng ngày, dòng nào chỉ mang tính kỹ thuật, cách so hai bảng cạnh nhau cho công bằng, và những bẫy quen thuộc — con số quảng cáo tách khỏi điều kiện đo, thông số giữa các phiên bản bị trộn lẫn, hay cách ghi đơn vị không đồng nhất giữa các hãng.",
+  "quickAnswer": "Đọc bảng thông số xe máy hiệu quả theo bốn bước: (1) chia bảng thành nhóm động cơ, kích thước – trọng lượng, khung gầm – phanh – lốp, vận hành; (2) với mỗi con số quan trọng, đọc kèm điều kiện đo (vòng tua, điều kiện đường, mức tải); (3) khi so hai xe, xếp hai bảng cạnh nhau và chỉ so các dòng cùng đơn vị, cùng phiên bản; (4) ưu tiên các dòng ảnh hưởng trực tiếp đến bạn hàng ngày — chiều cao yên, trọng lượng, mô-men xoắn ở vòng tua thấp, khoảng sáng gầm, tiêu hao nhiên liệu — trước khi nhìn các con số \"khoe\" như công suất tối đa và tốc độ đỉnh.",
+  "keyPoints": [
+   "Bảng thông số chia được thành bốn nhóm: động cơ, kích thước – trọng lượng, khung gầm – an toàn, vận hành — đọc theo nhóm nhanh hơn đọc từng dòng rời rạc.",
+   "Con số nào cũng cần điều kiện kèm: công suất/mô-men gắn với vòng tua, tiêu hao nhiên liệu gắn với điều kiện đo, tải trọng gắn với trạng thái xe.",
+   "Khi so hai xe: đặt hai bảng cạnh nhau, chuẩn hóa đơn vị (kW đổi mã lực, mm đổi mét) và xác nhận đang so cùng phiên bản, cùng năm.",
+   "Các dòng ảnh hưởng hàng ngày nhất: chiều cao yên, trọng lượng, mô-men xoắn, khoảng sáng gầm, dung tích bình xăng, cỡ lốp."
+  ],
+  "entities": [
+   "bảng thông số",
+   "thông số kỹ thuật",
+   "phiên bản xe",
+   "điều kiện đo",
+   "so sánh xe",
+   "phiên bản đặc biệt"
+  ],
+  "keywords": [
+   "bang thong so xe",
+   "doc bang thong so xe may",
+   "so sanh thong so xe may",
+   "thong so xe may la gi",
+   "chon xe theo thong so",
+   "thong so ky thuat"
+  ]
+ },
+ {
   "url": "wiki/he-thong-phanh/bao-duong-phanh/",
   "title": "Hướng dẫn chi tiết về bảo dưỡng phanh",
   "category": "Bách khoa xe",
@@ -8173,6 +8203,37 @@
   ]
  },
  {
+  "url": "learn/chuan-doan-loi/chan-doan-loi-xe/",
+  "title": "Chẩn đoán lỗi xe máy cho người mới: hỏi đúng câu, mô tả đúng triệu chứng",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Chiếc xe \"không chịu như hôm qua\" là câu chuyện quen thuộc với mọi người đi xe máy: sáng nay đề khó hơn, tiếng máy có thêm một âm lạ, ga nặng hơn một chút hoặc đèn nháy không đều. Với người không rành máy móc, phản ứng thường là một trong hai thái cực — hoặc bỏ qua chờ \"tự hết\", hoặc vội vàng kết luận \"hỏng máy\" rồi lo lắng. Bài viết này đưa ra cách tiếp cận thứ ba: chẩn đoán có phương pháp. Bạn không cần biết tháo máy, chỉ cần biết quan sát đúng thứ, hỏi đúng câu hỏi cô lập lỗi, ghi lại hoàn cảnh triệu chứng xuất hiện, và mô tả chính xác cho người thợ — vì 80% chẩn đoán đúng bắt nguồn từ một mô tả triệu chứng đúng, và một mô tả chuẩn giúp tiết kiệm cả thời gian lẫn chi phí sửa xe.",
+  "quickAnswer": "Chẩn đoán lỗi xe máy theo bốn bước: (1) quan sát — triệu chứng xuất hiện lúc nào, ở tốc độ nào, khi máy nguội hay nóng; (2) cô lập — thử theo từng hệ thống (điện, nhiên liệu, truyền động) để xem lỗi phụ thuộc điều gì; (3) đối chiếu — với thói quen gần đây như lần cuối thay dầu, vê dầu, đi đường ngập; (4) mô tả chuẩn khi đến thợ: hiện tượng gì, xảy ra khi nào, kèm âm thanh gì. Quy tắc an toàn: lỗi liên quan phanh, đèn, khói máy hoặc tiếng gõ kim loại trong máy thì ngừng dùng xe ngay và mang đi kiểm tra.",
+  "keyPoints": [
+   "Ghi lại hoàn cảnh triệu chứng xuất hiện (máy nguội hay nóng, tốc độ nào, sau sự việc gì) là bước chẩn đoán quan trọng nhất.",
+   "Cô lập theo bốn hệ thống: điện — nhiên liệu — truyền động — khung, mỗi hệ thống có vài phép thử đơn giản không cần dụng cụ.",
+   "Đa số \"xe yếu, đề khó\" nằm ở bảo dưỡng cơ bản: bugi, lọc gió, xích căng, nhớt cũ, ắc quy — kiểm tra những thứ này trước.",
+   "Một triệu chứng lặp lại hai lần là triệu chứng thật — đừng chờ \"tự hết\", nhưng cũng đừng vội kết luận hỏng lớn."
+  ],
+  "entities": [
+   "chẩn đoán lỗi",
+   "triệu chứng",
+   "bugi",
+   "ắc quy",
+   "lọc gió",
+   "hộp số",
+   "phanh"
+  ],
+  "keywords": [
+   "chan doan loi xe may",
+   "xe may bi loi lam sao",
+   "xe may yeu may nguyen nhan",
+   "trieu chung hong xe may",
+   "xe may kho khoi dong",
+   "mo ta loi xe cho tho"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/",
   "title": "Chở người ngồi sau an toàn: từ cách lên xe đến xuống xe",
   "category": "Kiến thức chuyên sâu",
@@ -8356,6 +8417,36 @@
   ]
  },
  {
+  "url": "learn/doc-thong-so/cong-suat-mo-men-xoan/",
+  "title": "Công suất và mô-men xoắn dành cho người mới: hiểu bằng ví dụ đời thường",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Mở bảng thông số bất kỳ mẫu xe máy nào, hai dòng đầu tiên thường là công suất (kW hoặc mã lực) và mô-men xoắn (N.m) — và đây cũng là hai con số bị hiểu sai nhiều nhất. Người mới hay nghĩ \"công suất cao là xe bốc\", rồi mua về thấy xe yếu ở đèn đỏ, hoặc ngược lại xem thường xe mô-men xoắn cao vì \"mã lực thấp\". Bài viết này giải thích hai khái niệm bằng hình ảnh đời thường: công suất như nhịp thở dài của máy ở tốc độ cao, mô-men xoắn như cú giật mạnh lúc mới mở ga. Từ đó, bạn sẽ biết vì sao hai xe cùng phân khúc cho cảm giác khác hẳn nhau, đọc vòng tua đi kèm con số để hiểu xe \"mạnh\" ở dải nào, và chọn được chiếc xe hợp với cách đi hàng ngày của mình thay vì đuổi theo con số quảng cáo.",
+  "quickAnswer": "Mô-men xoắn (N.m) là lực quay trục khuỷu sinh ra — quyết định độ giật, độ bốc ngay khi mở ga ở vòng tua thấp; công suất (kW/mã lực) là tốc độ sinh công của máy — quyết định khả năng phóng nhanh và giữ đà ở vòng tua cao. Xe mô-men xoắn lớn đạt ở vòng tua thấp sẽ bốc ở đèn đỏ, leo dốc khỏe; xe công suất lớn đạt ở vòng tua cao sẽ có dư địa khi chạy nhanh, nhưng nếu vòng tua đạt công suất quá cao thì hàng ngày ít dùng tới. Khi chọn xe đi phố, ưu tiên mô-men xoắn và vòng tua thấp; khi đi đường trường, xem thêm công suất và dải tua rộng.",
+  "keyPoints": [
+   "Mô-men xoắn (N.m) là lực quay truyền ra trục khuỷu — cảm giác xe giật mạnh hay \"lết\" khi vặn ga phụ thuộc vào nó.",
+   "Công suất (kW, đổi ra mã lực) là tốc độ sinh công — càng cao máy càng có khả năng duy trì tốc độ và tăng tốc ở vòng tua cao.",
+   "Mọi con số công suất/mô-men đều phải đọc kèm vòng tua đạt tối đa — không có phần \"tại bao nhiêu vòng\" thì con số vô nghĩa.",
+   "Dải tua sử dụng hàng ngày của xe phố chỉ khoảng 3000–6000 vòng/phút — xe đạt mô-men trong dải này sẽ \"dễ đi\" hơn hẳn."
+  ],
+  "entities": [
+   "công suất",
+   "mô-men xoắn",
+   "vòng tua máy",
+   "trục khuỷu",
+   "phối khí",
+   "tăng tốc"
+  ],
+  "keywords": [
+   "cong suat mo men xoan",
+   "mo men xoan la gi",
+   "cong suat xe may la gi",
+   "xe may boc la gi",
+   "chon xe theo mo men xoan",
+   "vong tua may"
+  ]
+ },
+ {
   "url": "wiki/thuat-ngu-xe/cvt-la-gi/",
   "title": "Kinh nghiệm CVT là gì dành cho người mới",
   "category": "Bách khoa xe",
@@ -8447,6 +8538,37 @@
   ]
  },
  {
+  "url": "learn/cham-soc-xe/de-xe-noi-am/",
+  "title": "Để xe nơi ẩm: tác hại âm thầm và cách bảo vệ xe máy",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "summary": "Nhiều người coi việc để xe ở tầng hầm, sân sau hay góc nhà ẩm chỉ là vấn đề \"xe nhanh bẩn\". Thực tế độ ẩm là một trong những kẻ thù lớn nhất của xe máy: nó làm rỉ sét các chi tiết thép, ăn mòn mối nối điện, suy giảm ắc quy và lão hóa cao su và nhựa nhanh gấp nhiều lần so với môi trường khô thoáng. Bài viết này giải thích từng nhóm thiệt hại do môi trường ẩm gây ra cho xe máy, cách nhận biết sớm dấu hiệu xe đang \"ngấm ẩm\", và các biện pháp bảo vệ thực tế — từ cách chọn chỗ đỗ, thói quen sau khi đi mưa, đến quy trình chăm sóc định kỳ cho xe phải sống ở nơi thiếu điều kiện.",
+  "quickAnswer": "Để xe máy nơi ẩm thường xuyên gây bốn nhóm hậu quả: rỉ sét và ăn mòn chi tiết thép (khung, ốc, nhông xích, tấm che), hỏng hóc bộ điện và ắc quy do ẩm lọt vào mối nối, hư hại cao su – nhựa và lốp do lão hóa nhanh, cùng mùi ẩm mốc ám vào yên và khung xe. Cách hạn chế: ưu tiên chỗ đỗ có mái che và thoáng gió, lau và hong khô xe sau khi đi mưa, tra dầu chống rỉ định kỳ cho các mối nối, kiểm tra ắc quy và bộ điện theo chu kỳ, và dùng tấm phủ thoáng khí thay vì phủ kín xe còn ướt.",
+  "keyPoints": [
+   "Độ ẩm cao khiến rỉ sét hình thành trên thép tấm, ốc vít và nhông xích ngay cả khi xe không bị mưa trực tiếp.",
+   "Ẩm là nguyên nhân hàng đầu của hỏng bộ điện: mối nối oxy hóa làm đèn nhấp nháy, đề yếu, chập chờn còi và cảm biến.",
+   "Ắc quy để lâu trong môi trường ẩm tự phóng nhanh hơn, cực bị sunfat hóa và tuổi thọ giảm rõ rệt.",
+   "Cao su, nhựa và lốp xe lão hóa nhanh ở nơi ẩm – nắng, xuất hiện vết nứt nhỏ trên mặt lốp và bọt ga."
+  ],
+  "entities": [
+   "độ ẩm",
+   "rỉ sét",
+   "bộ điện xe máy",
+   "ắc quy",
+   "lão hóa cao su",
+   "nhông xích",
+   "chỗ đỗ xe"
+  ],
+  "keywords": [
+   "de xe noi am",
+   "de xe may noi am uot",
+   "bao ve xe may khoi am",
+   "ri set xe may",
+   "xac quy xe may yeu",
+   "cham soc xe may o noi am"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/den-xe-may/",
   "title": "Tổng hợp kiến thức: đèn xe máy",
   "category": "Bách khoa xe",
@@ -8506,6 +8628,37 @@
    "chọn độ đặc nhớt xe máy",
    "W trong 10W nghĩa là gì",
    "đổ nhớt đặc hơn được không"
+  ]
+ },
+ {
+  "url": "learn/doc-thong-so/doc-thong-so-xe/",
+  "title": "Đọc thông số xe máy: hiểu con số nhà sản xuất công bố",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Mỗi mẫu xe máy ra mắt đều kèm một bảng thông số dài: dung tích công tác, công suất tối đa, mô-men xoắn, kích thước dài rộng cao, chiều cao yên, khoảng sáng gầm, trọng lượng, dung tích bình xăng, tiêu hao nhiên liệu. Với người chưa quen, đây là mớ con số khó nhớ và dễ hiểu sai. Bài viết này đi theo từng nhóm thông số, giải thích đơn vị đo, ý nghĩa vật lý và — quan trọng nhất — thông số đó nói gì về trải nghiệm thực tế khi ride: xe bốc ở dải tốc nào, yên cao thấp ra sao với chiều cao của bạn, xe tốn xăng cỡ nào và gầm có chịu được đường quê không. Đọc xong, bạn có thể mở bảng thông số của bất kỳ mẫu xe nào và tự trả lời được câu hỏi \"con số này ảnh hưởng gì đến mình\".",
+  "quickAnswer": "Đọc thông số xe máy nên theo bốn nhóm: (1) động cơ — dung tích xi lanh cho biết \"khối thở\" của máy, công suất (k mã lực tại vòng tua) nói sức vọt ở tốc độ cao, mô-men xoắn (N.m) nói độ bốc ở tốc độ thấp; (2) kích thước — dài rộng cao và chiều cao yên quyết định xe có hợp vóc dáng bạn và chỗ đỗ hẹp hay không; (3) trọng lượng và khoảng sáng gầm — xe nặng chắc chắn hơn nhưng khó đẩy, gầm thấp êm trên đường đẹp nhưng dễ cấn ở đường gồ ghề; (4) vận hành — dung tích bình xăng và tiêu hao nhiên liệu tính ra quãng đường mỗi bình. Luôn chú ý kèm điều kiện đo: công suất chỉ có ý nghĩa khi biết ở vòng tua máy nào.",
+  "keyPoints": [
+   "Dung tích xi lanh (cc) là \"sức chứa\" của mỗi kỳ nạp — xe cc lớn thường mạnh hơn nhưng cũng tốn xăng và nặng hơn.",
+   "Công suất (kW/mã lực) quyết định khả năng tăng tốc và vọt ở vòng tua cao; luôn đọc kèm giá trị \"tại vòng tua mỗi phút\".",
+   "Mô-men xoắn (N.m) quyết định độ bốc tức thì khi mở ga ở tốc độ thấp — quan trọng hơn công suất với xe đi phố.",
+   "Chiều cao yên và trọng lượng là hai thông số ảnh hưởng trực tiếp đến việc chỗ hai chân chống có chạm đất, đẩy xe vào gara hay không."
+  ],
+  "entities": [
+   "thông số kỹ thuật",
+   "dung tích xi lanh",
+   "công suất",
+   "mô-men xoắn",
+   "chiều cao yên",
+   "khoảng sáng gầm",
+   "tiêu hao nhiên liệu"
+  ],
+  "keywords": [
+   "doc thong so xe",
+   "thong so ky thuat xe may",
+   "cong suat xe may",
+   "mo men xoan la gi",
+   "chieu cao yen xe may",
+   "tieu hao nhien lieu xe may"
   ]
  },
  {
@@ -8780,6 +8933,36 @@
    "2.75-14 lốp",
    "nâng cỡ lốp xe máy",
    "lốp khác cỡ dùng được không"
+  ]
+ },
+ {
+  "url": "learn/doc-thong-so/kich-thuoc-lop/",
+  "title": "Kích thước lốp xe máy: đọc vạch số trên thành lốp đúng cách",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Nhìn vào thành một chiếc lốp xe máy, bạn sẽ thấy một dãy số kiểu 90/90-14 M/C 46J hoặc 3.00-18 — đó là \"chứng minh nhân dân\" của chiếc lốp: nói lên bề rộng, độ cao lốp, đường kính vành, mức tải và tốc độ tối đa mà lốp chịu được. Người đi xe phổ thông ít khi đọc dãy số này, cho tới khi ra tiệm thay lốp và nghe thợ hỏi \"đổi cỡ khác được không\" hoặc thấy hai loại lốp cùng xe nhưng giá chênh nhau đáng kể. Bài viết này giải mã từng con số một, cho biết vì sao cùng cỡ mà khác mẫu mã vẫn khác cảm giác lái, chuyện gì xảy ra khi thay lốp to hoặc nhỏ hơn cỡ zin, và cách chọn lốp đúng cỡ cho từng kiểu sử dụng — đi phố, chở nặng, chạy đường trường.",
+  "quickAnswer": "Cỡ lốp xe máy ghi trên thành lốp theo hai kiểu phổ biến: dạng metric như 90/90-14 nghĩa là bề rộng 90 mm, độ cao bằng 90% bề rộng (≈81 mm), lắp vành 14 inch; dạng inch như 3.00-18 nghĩa là bề rộng 3 inch (≈76 mm) trên vành 18 inch. Số phụ kèm theo là chỉ số tải (kg tối đa) và ký tự tốc độ. Khi thay lốp, ưu tiên đúng cỡ zin do nhà sản xuất khuyến nghị; muốn đổi cỡ chỉ nên lệch trong dải cho phép và phải kiểm tra khe hở với giảm xóc và hộp che, vì lốp to hơn làm nặng lái, sai chỉ số tốc độ và có thể cấn vào gầm.",
+  "keyPoints": [
+   "Dạng cỡ metric 90/90-14: bề rộng 90 mm, thành cao 90% bề rộng, vành 14 inch — chuẩn phổ biến trên xe tay ga.",
+   "Dạng cỡ inch 3.00-18: bề rộng 3 inch trên vành 18 inch — phổ biến trên xe số phổ thông đời cũ và trung.",
+   "Chỉ số tải (con số) và ký tự tốc độ (chữ) phía sau cỡ cho biết lốp chịu được bao nhiêu kg và chạy tối đa tốc độ nào.",
+   "Thay đúng cỡ zin là lựa chọn an toàn nhất — nhà sản xuất đã cân bằng bám đường, nặng lái và chỉ số tốc độ theo cỡ đó."
+  ],
+  "entities": [
+   "kích thước lốp",
+   "chỉ số tải",
+   "ký tự tốc độ",
+   "vành xe",
+   "bề rộng lốp",
+   "lốp không săn"
+  ],
+  "keywords": [
+   "kich thuoc lop xe may",
+   "doc co so lop",
+   "90/90-14 la gi",
+   "3.00-18 lop",
+   "chi so tai lop xe may",
+   "doi lop khac co"
   ]
  },
  {
@@ -9400,6 +9583,36 @@
   ]
  },
  {
+  "url": "learn/doc-thong-so/ty-so-truyen/",
+  "title": "Tỷ số truyền của xe máy: con số quyết định xe bốc hay phóng",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Giữa trục khuỷu đang quay hàng nghìn vòng mỗi phút và bánh sau chỉ cần quay vài trăm vòng, cả một hệ thống bánh răng và xích làm nhiệm vụ \"quy đổi\" lực máy thành chuyển động — tỷ số truyền chính là các con số mô tả sự quy đổi đó. Đây là phần ít được nói đến nhất khi người ta xem xe, nhưng lại là thứ khiến hai xe cùng động cơ chạy khác hẳn nhau: một xe truyền \"ngắn\" để giật mạnh ở phố, một xe truyền \"dài\" để êm ở tốc độ cao. Bài viết này giải thích tỷ số truyền bằng ngôn ngữ đời thường: vì sao lên số xe thay đổi \"giọng\" máy, vì sao xe tải leo dốc khỏe dù máy nhỏ, nhông xích của bạn thuộc phần nào của hệ thống, và điều gì xảy ra khi đổi nhông trước hoặc răng sau to nhỏ khác biệt so với zin.",
+  "quickAnswer": "Tỷ số truyền là mức nhân lực giữa trục khuỷu và bánh sau: tỷ số lớn (truyền ngắn) cho mô-men ra bánh mạnh, xe bốc ở tốc độ thấp nhưng ì khi chạy nhanh; tỷ số nhỏ (truyền dài) cho tốc độ cao êm nhưng giật yếu lúc mở ga. Trên xe số, mỗi cấp số có tỷ số riêng — số 1 ngắn nhất để xuất phát, số 4 dài nhất để chạy nhanh; trên xe ga, hệ pulley tự biến tỷ số liên tục. Đổi nhông/xích răng khác cỡ sẽ đổi tỷ số cuối: nhông trước to hơn = truyền dài, răng sau to hơn = truyền ngắn.",
+  "keyPoints": [
+   "Tỷ số truyền là \"bộ nhân lực\" giữa máy và bánh sau — quyết định lực ra bánh và tốc độ tối đa ở từng cấp số.",
+   "Truyền ngắn (tỷ số lớn): giật mạnh, leo dốc khỏe, nhưng máy gào ở tốc độ cao và tốn xăng hơn.",
+   "Truyền dài (tỷ số nhỏ): êm và tiết kiệm khi chạy nhanh, nhưng xuất phát và leo dốc yếu hơn.",
+   "Mỗi cấp số của xe số có tỷ số riêng, sắp từ ngắn (số 1) đến dài (số cao nhất) để máy luôn ở dải tua hợp lý."
+  ],
+  "entities": [
+   "tỷ số truyền",
+   "nhông xích",
+   "hộp số",
+   "trục khuỷu",
+   "bánh sau",
+   "pulley"
+  ],
+  "keywords": [
+   "ty so truyen",
+   "ty so truyen xe may",
+   "truyen ngan truyen dai",
+   "doi nho nho xich",
+   "nho sau to hon",
+   "so 1 so 2 xe may"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/vao-cua-an-toan/",
   "title": "Vào cua an toàn: kỹ thuật nhìn – giảm tốc – ghi-đổ",
   "category": "Kiến thức chuyên sâu",
@@ -9495,6 +9708,36 @@
   ]
  },
  {
+  "url": "learn/chuan-doan-loi/xe-keu-lach-cach/",
+  "title": "Xe kêu lạch cạch: truy tìm nguồn tiếng kêu gõ rời rạc",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Tiếng lạch cạch là loại âm thanh \"gõ rời rạc\" quen thuộc: lặp lại theo nhịp bánh xe hoặc nhịp máy, như có vật gì đó đang gõ nhẹ vào kim loại. Khác với tiếng rít, tiếng rú hay tiếng gõ trầm từ trong máy — tiếng lạch cạch thường đến từ những mối nối lỏng, chi tiết mòn hoặc hai bộ phận đang chạm nhau lúc xe chuyển động. Điểm tốt: đa số nguồn gây ra nó sửa được rẻ. Điểm phải nghiêm túc: nếu bỏ qua lâu ngày, một con ốc lỏng có thể thành mất toàn bộ tấm che giữa đường, một bi bánh mòn có thể kẹt bánh ở tốc độ cao. Bài viết này hướng dẫn cách truy nguồn tiếng kêu theo hoàn cảnh xuất hiện (đi thẳng, phanh, qua ổ gà, theo vòng tua máy), rà soát từng cụm nghi ngờ theo thứ tự từ rẻ đến đắt, và ranh giới khi nào tự siết ốc được — khi nào phải mang xe đến thợ.",
+  "quickAnswer": "Tiếng lạch cạch trên xe máy hay gặp ở năm nguồn: xích lỏng hoặc khô nhớt (kêu theo nhịp, biến mất khi kéo ga đều); ốc vít tấm che, chắn bùn, hộp che lỏng (kêu khi rung mặt đường, phát hiện bằng bấm tay từng tấm); nhông trước - răng sau mòn răng (kêu lạch cạch kèm rít nhẹ, xích có \"đề pa\"); bi bánh xích hoặc bi càng mòn (kêu theo vòng bánh, lắc ngang bánh thấy lỏng); và các vật dụng lỏng trong cốp, khay đồ hoặc móc treo — nguồn \"lầm\" phổ biến nhất. Trật tự kiểm tra: dỡ hết đồ vác theo, bấm tay từng tấm che, rồi kiểm tra xích; nếu tiếng kêu theo vòng bánh khi lắc ngang thấy lỏng thì đến thợ kiểm bi bánh.",
+  "keyPoints": [
+   "Tiếng lạch cạch là tiếng gõ rời rạc lặp theo nhịp — trước hết tách bạch nó kêu theo nhịp bánh xe hay theo vòng tua máy.",
+   "Nguồn bị \"gánh oan\" phổ biến nhất là đồ đạc lỏng trong cốp, giỏ trước, móc treo — dỡ hết rồi chạy thử trước mọi kết luận.",
+   "Xích lỏng, khô nhớt hoặc nhông răng mòn là nguồn lạch cạch kinh điển — kiểm tra độ căng và răng mòn trước.",
+   "Bấm tay từng tấm che, chắn bùn, chắn xích để phát hiện ốc lỏng; siết lại theo lực khuyến nghị, không siết quá."
+  ],
+  "entities": [
+   "tiếng kêu lạch cạch",
+   "xích xe",
+   "nhông răng",
+   "bi bánh",
+   "ốc lỏng",
+   "tấm che"
+  ],
+  "keywords": [
+   "xe keu lach cach",
+   "xe may keu lac cach",
+   "tieng keu lac cach tren xe",
+   "xich lac cach",
+   "bi banh xe may mon",
+   "oc long xe may"
+  ]
+ },
+ {
   "url": "hub/dia-phuong/xe-may-dia-phuong/",
   "title": "Kinh nghiệm xe máy địa phương dành cho người mới",
   "category": "Trung tâm chủ đề",
@@ -9555,6 +9798,66 @@
    "xe kêu cọt cẹt",
    "phân biệt tiếng kêu xe máy",
    "xe tay ga kêu ọc ọc"
+  ]
+ },
+ {
+  "url": "learn/chuan-doan-loi/xe-ra-khoi/",
+  "title": "Xe ra khói: đọc màu khói để biết xe đang bị gì",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Một làn khói phả ra từ ống xả luôn khiến người đi xe máy lo lắng — nhưng không phải làn khói nào cũng là \"bệnh\". Khói loãng trắng khi đề máy nguội buổi sáng sớm là hiện tượng ngưng tụ bình thường; khói xanh đậm kèm mùi nhớt khét mỗi khi ga là báo nhớt đang lọt vào buồng đốt; khói đen dày khi vặn ga nói hệ xăng gió đang dư thừa nhiên liệu. Nói cách khác, màu khói là \"phiên dịch\" của chiếc xe: trắng đặc — nước, xanh — nhớt, đen — xăng. Bài viết này hướng dẫn đọc màu khói theo từng hoàn cảnh, liệt kê các nguyên nhân đi kèm từ những gì sửa rẻ (bugi, lọc gió, nhớt quá mức) đến những cụm cần thợ mở máy (xéc-măng, xupap, làm mát), và quan trọng nhất — khi nào cần dừng xe ngay để tránh hư hại lan truyền thành lần mở máy lớn.",
+  "quickAnswer": "Đọc khói xe theo ba màu: khói trắng loãng lúc đề máy nguội rồi mất khi máy nóng là ngưng tụ bình thường; khói trắng đặc kéo dài kèm mùi ngọt hoặc mực nước — nghi nước lọt buồng đốt hoặc nhớt cháy nhiều, cần kiểm tra sớm; khói xanh kèm mùi nhớt khét — nhớt lọt buồng đốt qua xéc-măng mòn, bugi sẽ bám lớp muội đen dầu; khói đen dày khi ga — xăng gió quá đậm do lọc gió nghẹt, bugi bẩn hoặc chế hòa khí ga lệch. Hành động theo mức độ: khói đen và khói xanh nhẹ — kiểm tra bugi, lọc gió và mực nhớt đúng loại; khói trắng đặc liên tục hoặc khói xanh dày kèm máy yếu — ngừng dùng xe và mang đi kiểm tra sâu.",
+  "keyPoints": [
+   "Ba màu khói tương ứng ba hướng: trắng — nước hoặc nhớt cháy, xanh — nhớt lọt buồng đốt, đen — xăng gió quá đậm.",
+   "Khói trắng loãng lúc đề máy nguội rồi biến mất khi máy nóng là ngưng tụ bình thường — không phải hỏng.",
+   "Khói xanh đậm kèm mùi khét và bugi bám muội đen — báo xéc-măng, piston hoặc thành xy-lanh mòn, nhóm cần thợ mở máy.",
+   "Khói đen dày khi ga mạnh thường do lọc gió nghẹt hoặc hệ xăng gió lệch — sửa được rẻ nếu xử lý sớm."
+  ],
+  "entities": [
+   "khói xe",
+   "xéc-măng",
+   "bugi",
+   "lọc gió",
+   "nhớt máy",
+   "ống xả"
+  ],
+  "keywords": [
+   "xe ra khoi",
+   "xe may ra khoi",
+   "xe may ra khoi xanh",
+   "xe ra khoi den",
+   "xe ra khoi trang la benh gi",
+   "xe may ra khoi khi ga"
+  ]
+ },
+ {
+  "url": "learn/chuan-doan-loi/xe-rung-bat-thuong/",
+  "title": "Xe rung bất thường: phân loại độ rung và truy nguồn",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Mọi chiếc xe máy đều rung — đó là đặc tính vật lý của động cơ piston và bánh xe hai bánh. Nhưng có một khoảng cách lớn giữa \"độ rung đặc trưng\" của một dòng xe và độ rung bất thường mới xuất hiện: tay lái \"dần\" lên trong các chuyến dài, yên nhún theo nhịp khó chịu, toàn khung phát rung ở một dải tốc độ nhất định hoặc rung kèm tiếng kêu lạ. Vấn đề là \"rung\" là triệu chứng mơ hồ nhất trong các dấu hiệu xe hỏng — cùng một cảm giác rung có thể đến từ xích căng quá, bi bánh mòn, trục piston mòn, giảm xóc yếu, bulong khung lỏng, thậm chí từ vành méo. Bài viết này hệ thống cách phân loại độ rung theo vị trí, theo dải tốc độ xuất hiện và theo hoàn cảnh — từ đó truy được đúng cụm nghi ngờ và biết thứ tự kiểm tra, thay vì thay mù giảm xóc như nhiều người vẫn làm.",
+  "quickAnswer": "Truy nguồn độ rung bất thường theo ba câu hỏi: rung ở đâu (tay lái, yên, toàn khung, một phía), xuất hiện ở dải nào (theo vòng tua máy hay theo tốc độ bánh xe), và biến đổi thế nào (chở nặng tệ hơn, phanh nhẹ hơn, chỉ ở một dải 50–60 km/h). Rung theo vòng tua — nghi cụm máy và truyền lực (bugi khô, bi nồi xe ga, trục piston); rung theo tốc độ bánh — nghi bánh xe (vành méo, bi bánh, lốp); rung mạnh khi chở nặng hoặc qua ổ gà — nghi giảm xóc và lò xo yếu; rung lan cả khung kèm tiếng lạch cạch — nghi ốc khung hoặc chân máy lỏng. Kiểm tra từ rẻ đến đắt: áp suất lốp, độ căng xích, ốc khung, rồi mới đến giảm xóc và các cụm sâu trong máy.",
+  "keyPoints": [
+   "Mọi xe máy đều có độ rung đặc trưng — đáng lo là độ rung mới xuất hiện hoặc tăng dần theo thời gian so với trạng thái quen thuộc của xe mình.",
+   "Rung theo vòng tua máy (tăng khi vặn ga đứng yên) — nghi cụm máy và truyền lực: bi nồi, xích-nhông, trục piston.",
+   "Rung theo tốc độ bánh xe (đứng yên vặn ga không rung) — nghi vành méo, lốp, bi bánh, nan xe lỏng.",
+   "Rung mạnh hơn khi chở nặng hoặc qua ổ gà — nghi giảm xóc yếu, lò xo mềm hoặc ốc chân máy lỏng."
+  ],
+  "entities": [
+   "độ rung",
+   "giảm xóc",
+   "vành xe",
+   "bi bánh",
+   "trục piston",
+   "cân bằng bánh"
+  ],
+  "keywords": [
+   "xe rung bat thuong",
+   "xe may rung nhieu",
+   "xe may rung tay lai",
+   "giam xoc xe may yeu",
+   "xe rung khi chay nhanh",
+   "nguyen nhan xe rung"
   ]
  }
 ]

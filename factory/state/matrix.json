@@ -4788,11 +4788,13 @@
    "title": "Hướng dẫn chi tiết về để xe nơi ẩm",
    "primaryIntent": "informational/de-xe-noi-am",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:11.683Z",
+   "seoScore": 100,
+   "words": 2005
   },
   {
    "id": "S00324",
@@ -4801,11 +4803,13 @@
    "title": "Tổng hợp kiến thức: đọc thông số xe",
    "primaryIntent": "informational/doc-thong-so-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:12.582Z",
+   "seoScore": 100,
+   "words": 2337
   },
   {
    "id": "S00325",
@@ -4814,11 +4818,13 @@
    "title": "Kinh nghiệm công suất mô men xoắn dành cho người mới",
    "primaryIntent": "informational/cong-suat-mo-men-xoan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:11.683Z",
+   "seoScore": 91,
+   "words": 2093
   },
   {
    "id": "S00326",
@@ -4827,11 +4833,13 @@
    "title": "Tỷ số truyền — những điều cần biết",
    "primaryIntent": "informational/ty-so-truyen",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:13.471Z",
+   "seoScore": 91,
+   "words": 2108
   },
   {
    "id": "S00327",
@@ -4840,11 +4848,13 @@
    "title": "Hướng dẫn chi tiết về bảng thông số xe",
    "primaryIntent": "informational/bang-thong-so-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:10.791Z",
+   "seoScore": 100,
+   "words": 2132
   },
   {
    "id": "S00328",
@@ -4853,11 +4863,13 @@
    "title": "Tổng hợp kiến thức: kích thước lốp",
    "primaryIntent": "informational/kich-thuoc-lop",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:12.582Z",
+   "seoScore": 100,
+   "words": 2133
   },
   {
    "id": "S00329",
@@ -4866,11 +4878,13 @@
    "title": "Kinh nghiệm chẩn đoán lỗi xe dành cho người mới",
    "primaryIntent": "informational/chan-doan-loi-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:10.791Z",
+   "seoScore": 100,
+   "words": 2101
   },
   {
    "id": "S00330",
@@ -4879,11 +4893,13 @@
    "title": "Xe kêu lạch cạch — những điều cần biết",
    "primaryIntent": "informational/xe-keu-lach-cach",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:13.471Z",
+   "seoScore": 100,
+   "words": 2033
   },
   {
    "id": "S00331",
@@ -4892,11 +4908,13 @@
    "title": "Hướng dẫn chi tiết về xe rung bất thường",
    "primaryIntent": "informational/xe-rung-bat-thuong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:15.253Z",
+   "seoScore": 100,
+   "words": 2086
   },
   {
    "id": "S00332",
@@ -4905,11 +4923,13 @@
    "title": "Tổng hợp kiến thức: xe ra khói",
    "primaryIntent": "informational/xe-ra-khoi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:30:15.253Z",
+   "seoScore": 100,
+   "words": 2023
   },
   {
    "id": "S00333",
