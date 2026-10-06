@@ -6078,11 +6078,13 @@
    "title": "Kinh nghiệm an toàn giao thông dành cho người mới",
    "primaryIntent": "informational/an-toan-giao-thong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:50:59.668Z",
+   "seoScore": 100,
+   "words": 2365
   },
   {
    "id": "S00410",
@@ -6091,11 +6093,13 @@
    "title": "Mũ bảo hiểm đạt chuẩn — những điều cần biết",
    "primaryIntent": "informational/mu-bao-hiem-dat-chuan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:50:59.668Z",
+   "seoScore": 100,
+   "words": 2409
   },
   {
    "id": "S00411",
