@@ -1,0 +1,47 @@
+name: Factory Publish Verify (read-only)
+
+# Manual verification giống lớp verify của /vanchinh.
+# Không mutate state, không publish, không push.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: factory-publish-verify
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Factory state + production invariant
+        run: |
+          set -euo pipefail
+          node factory/factory.js check-state
+          node factory/factory.js verify-invariant
+          node factory/generate.js --check
+
+      - name: Full regression suites
+        run: |
+          set -euo pipefail
+          node factory/test.js
+          node factory/test-hardening.js
+          node factory/test-reliability.js
+          node factory/test-pair.js
+          node factory/test-cycle.js
+          node factory/test-coordinator.js
+
+      - name: Read-only production snapshot
+        run: |
+          set -euo pipefail
+          node factory/factory.js production-status
+          node factory/factory.js liveness
+          echo "FACTORY_PUBLISH_VERIFY_OK"

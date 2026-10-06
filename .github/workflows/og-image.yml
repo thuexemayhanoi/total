@@ -1,11 +1,14 @@
 name: Sinh og-cover.png
-# Sinh ảnh đại diện Open Graph thuần Node (deterministic) — không cài phụ thuộc.
-# Chỉ commit khi bytes thay đổi; commit ghép [skip ci] để không lặp workflow.
+
+# Ảnh OG là deterministic và KHÔNG phụ thuộc nội dung bài.
+# Chỉ chạy khi chính script/workflow OG đổi — không chạy theo mỗi writer push,
+# heartbeat hay coordinator commit (giảm Actions/Pages churn không cần thiết).
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - 'assets/img/og-cover.png'
+    paths:
+      - 'scripts/make-og-image.mjs'
+      - '.github/workflows/og-image.yml'
   workflow_dispatch:
 
 permissions:
@@ -21,13 +24,11 @@ jobs:
       - name: Cài Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20'
 
       - name: Sinh og-cover.png
         run: node scripts/make-og-image.mjs
 
-      # Lưu ý: git diff KHÔNG thấy file chưa được track — phải git add trước,
-      # rồi so sánh khu vực staged, nếu không file mới sẽ bị bỏ qua.
       - name: Commit nếu thay đổi
         run: |
           git add assets/img/og-cover.png

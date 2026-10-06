@@ -1,24 +1,10 @@
 name: Factory Coordinator (maintenance tick)
 
-# COORDINATOR GIẢN LỢC — mô hình 3 VAI TRÒ (docs/PRODUCTION-ROLES.md):
-#   WRITER 1 (writer duy nhất, Mistral run ngoài) viết từng pair 2 bài -> push
-#   -> factory-publish.yml publish exact push scope.
-#   Coordinator KHÔNG còn phân công 3 writer, KHÔNG chạy các lệnh
-#   cycle-* (legacy recovery, chỉ chạy thủ công) — chỉ là maintenance
-#   tick mỗi 10 phút:
-#     recover-txn -> resume/check-state -> queue-refill (idempotent) ->
-#     manifest-sync (JSONL source of truth) -> verify-invariant -> backlog +
-#     production-status -> commit state CHỈ KHI có thay đổi thật.
-#   Tick rỗng KHÔNG commit (chống commit/deploy chỉ vì timestamp).
-#
-# Publish hot path nằm ở factory-publish.yml (một publisher duy nhất,
-# concurrency group `total-production` dùng chung — không bao giờ chạy đè).
-# Watchdog phát hiện writer đứng: factory-liveness.yml (read-only, exit 1).
-#
-# KHÔNG recursion nguy hiểm:
-#   - Push bằng GITHUB_TOKEN KHÔNG trigger workflow kế tiếp (GitHub mặc định).
-#   - Coordinator KHÔNG bao giờ chạm factory/data/articles/ -> không kích
-#     factory-publish.yml.
+# Maintenance tick nhẹ — writer/publisher hot path nằm ở factory-publish.yml.
+# Mỗi tick PHẢI refresh origin/main trước khi mutate để tránh scheduled event
+# checkout SHA cũ rồi rebase conflict với publisher (bug stale snapshot cũ).
+# Tick: fresh truth -> recover -> check -> refill -> manifest -> invariant/status
+# -> commit CHỈ khi có diff thật.
 on:
   workflow_dispatch:
   schedule:
@@ -38,10 +24,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+
+      - name: Refresh repository truth (chống stale scheduled checkout)
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout -B main origin/main
+          echo "coordinator truth: $(git log -1 --format='%h %s')"
 
       - name: "1. Recover transaction (run trước crash giữa publish)"
         run: node factory/factory.js recover-txn
@@ -65,6 +59,7 @@ jobs:
 
       - name: "6. Commit derived state (CHỈ khi có diff thật — tick rỗng không commit)"
         run: |
+          set -euo pipefail
           git config user.name "total-factory-bot"
           git config user.email "nguyentuantu2482@users.noreply.github.com"
           git add -A
@@ -74,10 +69,20 @@ jobs:
             git commit -m "factory: coordinator maintenance tick [automated]"
             ok=0
             for i in 1 2 3; do
-              if git pull --rebase origin main && git push; then ok=1; break; fi
-              echo "push/rebase thất bại (lần $i) — retry sau 5s"
-              sleep 5
-              git rebase --abort 2>/dev/null || true
+              if git push; then
+                ok=1
+                break
+              fi
+              echo "push race lost; refresh + rebase (attempt $i/3)"
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort 2>/dev/null || true
+                echo "rebase conflict — fail closed, không force push."
+                break
+              fi
             done
-            if [ "$ok" != "1" ]; then echo "KHÔNG push được state sau 3 lần"; exit 1; fi
+            if [ "$ok" != "1" ]; then
+              echo "KHÔNG push được state sau 3 lần"
+              exit 1
+            fi
           fi

@@ -1,94 +1,76 @@
-# Production 3 VAI TRÒ (Writer 1 + Đốc công 2 + Đốc công 3)
+# Production roles — WRITE-AHEAD QUEUE
 
-> Thay thế mô hình "3 writer song song" cũ (writer-a/b/c + CYCLE_ALLOCATE).
-> Mô hình mới KHÔNG phải 3 agent độc lập chạy nền — là **3 vai trò** trong một
-> quy trình có checkpoint, heartbeat và hàng đợi lỗi. Không tạo 3 tên trong log
-> rồi tuyên bố có 3 agent; mỗi vai trò là một phiên làm việc thật (session
-> Mistral) hoặc một pha trong phiên đó.
+Mô hình production của `/total` giữ 3 vai trò (Writer 1 + Đốc công 2 + Đốc công 3), nhưng hot path publish đã học cơ chế ổn định của `/vanchinh`.
 
-## Vai trò
+## WRITER 1 — viết queue, không sửa engine
 
-### WRITER 1 — chỉ viết bài (writer duy nhất)
+Writer vẫn là phiên AI bên ngoài. GitHub Actions không tự viết prose và không gọi AI API.
 
-Mỗi vòng **1 pair = 2 bài**:
+### Vòng lặp chuẩn
 
-1. Fetch state mới nhất từ `main` (matrix + checkpoint + heartbeat).
-2. `node factory/factory.js writer-next` → nhận đúng 2 ID (resume slot dở có
-   bài trước, còn lại lấy PLANNED mới theo ID; KHÔNG bao giờ trả PUBLISHED).
-3. Viết 2 module bài vào `factory/data/articles/<mới>-<slug>.js` theo chuẩn
-   QA hiện có (gate ≥ 70, không hạ chuẩn).
-4. `node factory/factory.js verify-sources <ID,ID>` rồi qa-preview từng bài.
-5. Push **2 file bài + `factory/state/writer-heartbeat.json`**
-   (phase `waiting-publish`, kèm 2 ID) → `factory-publish.yml` tự publish
-   exact push scope (scoped QA → sinh site → verify-pair → atomic txn).
-6. Xác nhận publish xong (matrix +2 PUBLISHED) → ghi heartbeat phase
-   `writing` cho pair kế → lặp lại pair tiếp theo.
+1. Fetch fresh `main`.
+2. Chạy `node factory/factory.js writer-next --count N`, với `N=2..10` (turbo có thể dùng 10).
+3. Viết đúng các module được trả về trong `factory/data/articles/`.
+4. Chia danh sách thành pair 1–2 ID và chạy `verify-sources` cho từng pair trước khi push.
+5. Ghi `writer-heartbeat --phase waiting-publish --pair <ids>`.
+6. Push **1–10 bài** trong một commit. Đây là write-ahead queue an toàn trên `main`.
+7. `factory-publish.yml` chụp exact push scope, refresh fresh truth, dựng `publish-plan`, rồi tự chia queue thành pair 1–2 ID và consume tuần tự.
+8. Xác nhận workflow/Pages xanh, fetch fresh `main`, lấy queue kế tiếp và lặp.
 
-Ràng buộc: KHÔNG sửa engine/workflow, KHÔNG chạy lệnh coordinator
-(queue-refill/manifest-sync bị role guard chặn), KHÔNG viết trùng ID/slug.
+Không cần dừng sau mỗi pair 2 bài. Pair vẫn là đơn vị transaction/QA, còn writer push là queue tối đa 10 bài.
 
-### ĐỐC CÔNG 2 — theo dõi và sửa lỗi
+## Publisher — event driven, queue 1–10
 
-- Đọc `node factory/factory.js production-status` (phase hiện tại:
-  `waiting-writer` / `idle` / `writing` / `waiting-publish` / `error` /
-  `stalled`) và `liveness` (heartbeat cũ quá `WRITER_STALL_MINUTES`=120 phút
-  → stall).
-- Heartbeat ngừng tiến triển → kiểm tra nguyên nhân: đang viết, chờ publish,
-  hết phiên, hay gặp lỗi. KHÔNG có kết nối Actions↔Mistral nên **không thể
-  đánh thức phiên writer** — chỉ phiên writer mới resume từ checkpoint.
-- Lỗi writer/publisher → ghi `error-log` (cùng nguồn+pair tăng attempts,
-  tự `escalated` khi đạt `DOCONG2_MAX_ATTEMPTS`=3), đọc log, sửa đúng nguyên
-  nhân, đẩy phần việc dang dở tiếp tục.
-- KHÔNG khởi chạy writer trùng khi writer còn đang hoạt động (heartbeat còn tươi).
-- Sửa không được sau 3 lần thử → lỗi đã `escalated` chờ Đốc công 3.
+`factory-publish.yml`:
 
-### ĐỐC CÔNG 3 — xử lý lỗi được chuyển lên
+- capture exact event scope **trước** khi refresh;
+- từ chối push có hơn 10 article IDs;
+- refresh `origin/main` trước mọi mutation để tránh stale checkout;
+- recover txn + check-state;
+- `publish-plan --scope` ưu tiên backlog article-backed cũ rồi scope mới;
+- consume từng pair bằng `publish-pair`;
+- QA minimal gate vẫn **>=70**, SEO/intent advisory như hiện tại;
+- pair QA fail đi REPAIR và queue tiếp tục;
+- infra fail ở pair sau sẽ recover, giữ checkpoint pair trước, commit phần đã thành công rồi báo đỏ;
+- `generate.js --check` chạy trước commit;
+- commit/push **một lần cho cả queue**;
+- final gate không ép `backlog=0`, vì writer mới có thể vừa push queue kế tiếp và đó không phải lỗi.
 
-- Chỉ audit đúng các entry `escalated` trong
-  `factory/state/error-queue.json` (đọc: `error-queue --role coordinator`).
-- Tìm nguyên nhân gốc, sửa, kiểm tra phần liên quan, push.
-- Đóng entry: `node factory/factory.js error-resolve <id> --note "..."` →
-  bàn giao lại cho Đốc công 2, Writer 1 chạy tiếp.
-- KHÔNG audit toàn repo mỗi vòng; KHÔNG sửa đồng thời với Đốc công 2.
+Publisher và coordinator dùng chung concurrency `total-production`, không chạy đè nhau.
 
-## Trạng thái & công cụ
+## Coordinator — maintenance only
 
-| Lệnh | Vai trò | Ý nghĩa |
-|---|---|---|
-| `writer-next` | Writer 1 | Lấy pair 2 ID tiếp theo (resume trước, new sau) |
-| `writer-heartbeat --phase <p> --pair <ids>` | Writer 1 | Ghi heartbeat (phase `writing`/`waiting-publish`/`idle`) |
-| `production-status` | đọc | Phase tổng hợp + PUBLISHED/PLANNED + lỗi escalated |
-| `liveness` | đọc | Exit 1 khi stall > 120' hoặc có lỗi escalated (watchdog `factory-liveness.yml` chạy read-only mỗi giờ) |
-| `error-log --source <s> --pair <ids> --message <m>` | Đốc công 2 | Thêm/cập nhật entry (attempts, tự escalate tại 3) |
-| `error-queue` | Đốc công 2/3 | Xem hàng đợi lỗi |
-| `error-resolve <id>` | Đốc công 3 | Đóng entry đã xử lý |
+`factory-coordinator.yml` chạy mỗi 10 phút:
 
-File state: `factory/state/writer-heartbeat.json` (Writer 1 ghi),
-`factory/state/error-queue.json` (ledger Đốc công 2→3, resolve loại khỏi match).
+fresh `origin/main` → recover → check-state → queue-refill → manifest-sync → verify-invariant → backlog/status → commit chỉ khi có diff thật.
 
-## Coordinator giờ là maintenance tick
+Refresh fresh truth ngay đầu tick là bắt buộc để tránh lỗi rebase conflict do scheduled event checkout SHA cũ.
 
-`factory-coordinator.yml` (cron 7,17,27,37,47,57 * * * *) KHÔNG còn phân công
-writer: recover-txn → check-state → queue-refill (idempotent) → manifest-sync
-→ verify-invariant → backlog + production-status → commit CHỈ KHI có diff thật
-(tick rỗng không commit — chống churn timestamp). Publish hot path là
-`factory-publish.yml` (publisher duy nhất, concurrency `total-production`).
-Các lệnh `cycle-plan`/`cycle-qa`/`cycle-publish` còn lại chỉ là legacy recovery
-chạy thủ công, không thuộc tick.
+## Đốc công 2
 
-## GIỚI HẠN đã ghi nhận
+Theo dõi `production-status`, `liveness` và `error-queue`.
 
-- **Không có agent/phiên độc lập tự đánh thức nhau** trong môi trường Mistral:
-  không có cơ chế gửi lệnh giữa các agent. Watchdog (`factory-liveness.yml`)
-  chỉ PHÁT HIỆN đứng (Actions đỏ) — không thể tự resume phiên writer. Resume
-  do phiên writer/đốc công kế tiếp đọc trạng thái thật trên `main` (checkpoint
-  + heartbeat + matrix) mà tiếp tục.
-- Topic pool gần cạn (~27 topic tự do): queue-refill thêm được tối đa ~27 slot;
-  KHÔNG reset matrix để lấy thêm đề bài.
-- GitHub Actions không tự viết nội dung, không gọi API trả phí, không secret mới.
+- heartbeat cũ quá 120 phút khi đang writing/waiting-publish → stalled;
+- lỗi writer/publisher được ghi `error-log`;
+- 3 lần không sửa được → escalated cho Đốc công 3;
+- không khởi chạy writer trùng khi heartbeat còn tươi.
+
+## Đốc công 3
+
+Chỉ xử lý entry escalated, sửa nguyên nhân gốc, chạy validation liên quan rồi `error-resolve`.
+
+## Watchdog và verify
+
+- `factory-liveness.yml`: read-only mỗi giờ, chỉ phát hiện stall/escalated.
+- `factory-publish-verify.yml`: manual read-only, chạy invariant + generate check + toàn bộ regression suite.
+- `factory-deep-audit.yml`: manual full-site audit; không đưa vào hot path.
+
+## Giới hạn môi trường
+
+GitHub Actions không thể tự đánh thức một phiên Mistral đã kết thúc. Write-ahead queue giúp một phiên writer làm được nhiều bài hơn trước khi kết thúc, còn watchdog chỉ phát hiện xưởng đứng.
+
+Topic pool vẫn là nguồn đề tài của queue-refill. Không reset matrix, không tái sử dụng ID/slug đã dùng.
 
 ## Resume an toàn
 
-Mất phiên giữa chừng: phiên sau fetch state thật → `writer-next` trả đúng slot
-dở (chưa PUBLISHED, có bài rồi thì reason=resume) → KHÔNG viết lại bài đã xuất
-bản. Txn marker còn sót (crash giữa publish) → `recover-txn` rollback rồi publish lại đúng 1 lần.
+Mất phiên giữa chừng: phiên sau fetch fresh `main` → `writer-next --count N` ưu tiên bài dở có module trước, rồi PLANNED mới. Txn marker sót được `recover-txn` xử lý. Không force push và không bypass QA.

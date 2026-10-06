@@ -669,13 +669,16 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
 {
   const wf = (f) => readS(path.join(ROOT, '.github', 'workflows', f));
   const pub = wf('factory-publish.yml');
-  // SIMPLE PRODUCTION MODE: hot path là pair txn đúng 2 ID, bounded, không drain.
-  ok(!pub.includes('continue-on-error'), 'factory-publish.yml: KHÔNG còn continue-on-error giấu lỗi');
-  ok(pub.includes('publish-pair'), 'factory-publish.yml: hot path publish-pair (pair txn đúng 2 ID, QA minimal gate >= 70)');
-  ok(pub.includes('push-scope'), 'factory-publish.yml: EXACT push scope (không sweep slot khác)');
+  // WRITE-AHEAD QUEUE: writer push <=10 bài; publisher chia pair và consume tuần tự.
+  ok(!pub.includes('continue-on-error'), 'factory-publish.yml: KHÔNG continue-on-error giấu lỗi');
+  ok(pub.includes('publish-pair'), 'factory-publish.yml: transaction unit vẫn publish-pair (QA minimal >= 70)');
+  ok(pub.includes('push-scope'), 'factory-publish.yml: capture EXACT push scope');
+  ok(pub.includes('publish-plan --scope'), 'factory-publish.yml: publish-plan chia write-ahead queue thành pair deterministic');
+  ok(pub.includes('Refresh repository truth'), 'factory-publish.yml: refresh fresh origin/main trước mutation (chống stale checkout)');
   ok(pub.includes('recover-txn'), 'factory-publish.yml: recover txn marker sau crash');
   ok(pub.includes('check-state'), 'factory-publish.yml: guard state sạch qua factory.js check-state');
-  ok(pub.includes('--fail-if-claimable'), 'factory-publish.yml: cổng cuối fail khi còn backlog claimable');
+  ok(!pub.includes('backlog --fail-if-claimable'), 'factory-publish.yml: KHÔNG đỏ giả khi writer vừa nộp queue kế tiếp');
+  ok(pub.includes('tối đa 10') || pub.includes('-gt 10'), 'factory-publish.yml: queue cap tối đa 10 article IDs');
   ok(/node-version: '22'/.test(pub), 'factory-publish.yml: node 22 (node:sqlite cho content-index)');
   // article-quality.yml: scoped CI theo change-mode — KHÔNG full-site audit
   const aq = wf('article-quality.yml');

@@ -88,6 +88,8 @@ console.log('1. Workflow + CLI contract…');
   ok(/COORD_NO_CHANGES/.test(wf) && /git diff --cached --quiet/.test(wf),
     'factory-coordinator.yml: tick không diff -> KHÔNG commit (chống churn timestamp)');
   ok(/for i in 1 2 3/.test(wf), 'factory-coordinator.yml: push bounded retry <= 3');
+  ok(wf.includes('Refresh repository truth') && wf.indexOf('Refresh repository truth') < wf.indexOf('factory.js recover-txn'),
+    'factory-coordinator.yml: refresh fresh main TRƯỚC recover/mutation (chống stale scheduled checkout)');
   ok(!/pull_request/.test(wf), 'factory-coordinator.yml: KHÔNG trigger pull_request');
 
   // Publisher: factory-publish.yml.
@@ -100,6 +102,12 @@ console.log('1. Workflow + CLI contract…');
   ok(pub.indexOf('node factory/generate.js --check') >= 0 && pub.indexOf('node factory/generate.js --check') < pub.indexOf('Commit derived state'),
     'factory-publish.yml: generate.js --check chạy TRƯỚC commit/push — không đẩy state/site chưa qua kiểm');
   ok(!/factory\.js generate/.test(pub), 'factory-publish.yml: KHÔNG còn "factory.js generate" (lệnh không tồn tại — trước đây exit 0 âm thầm)');
+  ok(pub.includes('publish-plan --scope') && pub.includes('QUEUE_RESULT'),
+    'factory-publish.yml: write-ahead queue -> publish-plan -> consume pair tuần tự');
+  ok(pub.includes('Refresh repository truth') && pub.indexOf('Capture push scope') < pub.indexOf('Refresh repository truth'),
+    'factory-publish.yml: capture event scope trước, refresh fresh truth sau');
+  ok(!pub.includes('backlog --fail-if-claimable'),
+    'factory-publish.yml: final gate không fail backlog mới do writer push song song');
 
   // Watchdog: factory-liveness.yml.
   const lv = readS(path.join(ROOT, '.github', 'workflows', 'factory-liveness.yml'));
