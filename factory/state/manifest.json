@@ -1772,6 +1772,14 @@
   "kind": "article"
  },
  {
+  "rel": "moto/piaggio/piaggio-liberty/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/piaggio/piaggio-medley/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/pin-lithium/index.html",
   "kind": "article"
  },
@@ -1784,6 +1792,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-50cc/quy-dinh-xe-50cc/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/rua-xe-dung-cach/index.html",
   "kind": "article"
  },
@@ -1793,6 +1805,10 @@
  },
  {
   "rel": "learn/kien-thuc-xe-dien/sac-xe-dien/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/piaggio/scooter-y/index.html",
   "kind": "article"
  },
  {
@@ -1824,6 +1840,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/sym/sym-viet-nam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/thay-lop-khi-nao/index.html",
   "kind": "article"
  },
@@ -1852,6 +1872,14 @@
   "kind": "article"
  },
  {
+  "rel": "moto/piaggio/vespa/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-50cc/xe-50cc-cho-hoc-sinh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/van-de-thuong-gap/xe-bi-bo-phanh/index.html",
   "kind": "article"
  },
@@ -1860,11 +1888,19 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-50cc/xe-dien-duoi-50cc/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/xe-dien-la-gi/index.html",
   "kind": "article"
  },
  {
   "rel": "learn/kien-thuc-xe-dien/xe-dien-viet-nam/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-50cc/xe-duoi-50cc-can-bang-lai/index.html",
   "kind": "article"
  },
  {
@@ -1885,6 +1921,10 @@
  },
  {
   "rel": "hub/van-de-thuong-gap/xe-may-keu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/piaggio/xe-piaggio/index.html",
   "kind": "article"
  },
  {

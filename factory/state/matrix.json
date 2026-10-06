@@ -5388,11 +5388,13 @@
    "title": "Hướng dẫn chi tiết về sym việt nam",
    "primaryIntent": "informational/sym-viet-nam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:53.070Z",
+   "seoScore": 100,
+   "words": 1960
   },
   {
    "id": "S00364",
@@ -5401,11 +5403,13 @@
    "title": "Tổng hợp kiến thức: piaggio liberty",
    "primaryIntent": "informational/piaggio-liberty",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:51.140Z",
+   "seoScore": 91,
+   "words": 1958
   },
   {
    "id": "S00365",
@@ -5414,11 +5418,13 @@
    "title": "Kinh nghiệm vespa dành cho người mới",
    "primaryIntent": "informational/vespa",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:53.070Z",
+   "seoScore": 91,
+   "words": 2115
   },
   {
    "id": "S00366",
@@ -5427,11 +5433,13 @@
    "title": "Piaggio medley — những điều cần biết",
    "primaryIntent": "informational/piaggio-medley",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:51.140Z",
+   "seoScore": 100,
+   "words": 2007
   },
   {
    "id": "S00367",
@@ -5440,11 +5448,13 @@
    "title": "Hướng dẫn chi tiết về xe piaggio",
    "primaryIntent": "informational/xe-piaggio",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:55.018Z",
+   "seoScore": 83,
+   "words": 2086
   },
   {
    "id": "S00368",
@@ -5453,11 +5463,13 @@
    "title": "Tổng hợp kiến thức: scooter ý",
    "primaryIntent": "informational/scooter-y",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:52.116Z",
+   "seoScore": 91,
+   "words": 2076
   },
   {
    "id": "S00369",
@@ -5466,11 +5478,13 @@
    "title": "Kinh nghiệm xe dưới 50cc cần bằng lái dành cho người mới",
    "primaryIntent": "informational/xe-duoi-50cc-can-bang-lai",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:55.018Z",
+   "seoScore": 83,
+   "words": 2091
   },
   {
    "id": "S00370",
@@ -5479,11 +5493,13 @@
    "title": "Quy định xe 50cc — những điều cần biết",
    "primaryIntent": "informational/quy-dinh-xe-50cc",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:52.116Z",
+   "seoScore": 83,
+   "words": 2083
   },
   {
    "id": "S00371",
@@ -5492,11 +5508,13 @@
    "title": "Hướng dẫn chi tiết về xe điện dưới 50cc",
    "primaryIntent": "informational/xe-dien-duoi-50cc",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:54.033Z",
+   "seoScore": 91,
+   "words": 2035
   },
   {
    "id": "S00372",
@@ -5505,11 +5523,13 @@
    "title": "Tổng hợp kiến thức: xe 50cc cho học sinh",
    "primaryIntent": "informational/xe-50cc-cho-hoc-sinh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T17:26:54.033Z",
+   "seoScore": 91,
+   "words": 1998
   },
   {
    "id": "S00373",
