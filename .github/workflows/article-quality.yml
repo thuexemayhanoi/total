@@ -33,7 +33,16 @@ jobs:
 
       - name: Phân loại commit (CONTENT_ONLY | ENGINE_CHANGE | EMPTY)
         id: mode
-        run: echo "mode=$(node factory/factory.js change-mode)" >> "$GITHUB_OUTPUT"
+        run: |
+          set -euo pipefail
+          out=$(node factory/factory.js change-mode)
+          echo "$out"
+          mode=$(printf '%s\n' "$out" | sed -n 's/^CHANGE_MODE=//p')
+          case "$mode" in
+            CONTENT_ONLY|ENGINE_CHANGE|EMPTY) ;;
+            *) echo "CHANGE_MODE_PARSE_FAIL: $out"; exit 1 ;;
+          esac
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
 
       - name: Scoped gate (CONTENT_ONLY) - QA minimal >= 70 chi bai cua commit
         if: steps.mode.outputs.mode == 'CONTENT_ONLY'

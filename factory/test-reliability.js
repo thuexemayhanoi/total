@@ -683,6 +683,8 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
   // article-quality.yml: scoped CI theo change-mode — KHÔNG full-site audit
   const aq = wf('article-quality.yml');
   ok(aq.includes('change-mode'), 'article-quality.yml: phân loại commit qua factory.js change-mode (CONTENT_ONLY/ENGINE_CHANGE)');
+  ok(aq.includes("sed -n 's/^CHANGE_MODE=//p'") && aq.includes('CHANGE_MODE_PARSE_FAIL'),
+    'article-quality.yml: parse đúng prefix CHANGE_MODE= trước khi so điều kiện (chống xanh giả/skip heavy gate)');
   ok(aq.includes('verify-sources'), 'article-quality.yml: CONTENT_ONLY chỉ verify-sources scoped bài của commit (QA >= 70 chặn, SEO advisory)');
   ok(aq.includes('test-reliability.js') && aq.includes('verify-invariant'), 'article-quality.yml: ENGINE_CHANGE heavy gate (full suites + verify-invariant)');
   ok(!/on:.*push[\s\S]*min-score/.test(aq), 'article-quality.yml: KHÔNG audit full-site trong production loop');
