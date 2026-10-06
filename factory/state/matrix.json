@@ -5088,11 +5088,13 @@
    "title": "Hướng dẫn chi tiết về xe điện việt nam",
    "primaryIntent": "informational/xe-dien-viet-nam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:57:15.275Z",
+   "seoScore": 100,
+   "words": 2078
   },
   {
    "id": "S00344",
@@ -5101,11 +5103,13 @@
    "title": "Tổng hợp kiến thức: honda vision",
    "primaryIntent": "informational/honda-vision",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:57:14.365Z",
+   "seoScore": 91,
+   "words": 1849
   },
   {
    "id": "S00345",
@@ -5114,11 +5118,13 @@
    "title": "Kinh nghiệm honda air blade dành cho người mới",
    "primaryIntent": "informational/honda-air-blade",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:57:13.466Z",
+   "seoScore": 100,
+   "words": 1949
   },
   {
    "id": "S00346",
@@ -5127,11 +5133,13 @@
    "title": "Honda sh — những điều cần biết",
    "primaryIntent": "informational/honda-sh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:57:13.466Z",
+   "seoScore": 100,
+   "words": 1933
   },
   {
    "id": "S00347",
@@ -5140,11 +5148,13 @@
    "title": "Hướng dẫn chi tiết về honda wave",
    "primaryIntent": "informational/honda-wave",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:57:14.365Z",
+   "seoScore": 100,
+   "words": 1879
   },
   {
    "id": "S00348",
@@ -5153,11 +5163,13 @@
    "title": "Tổng hợp kiến thức: xe honda việt nam",
    "primaryIntent": "informational/xe-honda-viet-nam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:57:15.275Z",
+   "seoScore": 100,
+   "words": 1894
   },
   {
    "id": "S00349",
@@ -5166,11 +5178,13 @@
    "title": "Kinh nghiệm yamaha grande dành cho người mới",
    "primaryIntent": "informational/yamaha-grande",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.045Z",
-   "updatedAt": "2026-10-03T23:13:26.045Z"
+   "updatedAt": "2026-10-06T16:57:17.401Z",
+   "seoScore": 100,
+   "words": 1825
   },
   {
    "id": "S00350",
@@ -5179,11 +5193,13 @@
    "title": "Yamaha freego — những điều cần biết",
    "primaryIntent": "informational/yamaha-freego",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T16:57:16.246Z",
+   "seoScore": 100,
+   "words": 1721
   },
   {
    "id": "S00351",
@@ -5192,11 +5208,13 @@
    "title": "Hướng dẫn chi tiết về yamaha sirius",
    "primaryIntent": "informational/yamaha-sirius",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T16:57:17.401Z",
+   "seoScore": 100,
+   "words": 1904
   },
   {
    "id": "S00352",
@@ -5205,11 +5223,13 @@
    "title": "Tổng hợp kiến thức: xe yamaha",
    "primaryIntent": "informational/xe-yamaha",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.046Z",
-   "updatedAt": "2026-10-03T23:13:26.046Z"
+   "updatedAt": "2026-10-06T16:57:16.246Z",
+   "seoScore": 100,
+   "words": 1861
   },
   {
    "id": "S00353",

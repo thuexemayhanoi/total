@@ -1692,6 +1692,22 @@
   "kind": "article"
  },
  {
+  "rel": "moto/honda/honda-air-blade/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/honda/honda-sh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/honda/honda-vision/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/honda/honda-wave/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/khung-xe/index.html",
   "kind": "article"
  },
@@ -1816,7 +1832,15 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/xe-dien-viet-nam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/van-de-thuong-gap/xe-hao-xang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/honda/xe-honda-viet-nam/index.html",
   "kind": "article"
  },
  {
@@ -1840,7 +1864,23 @@
   "kind": "article"
  },
  {
+  "rel": "moto/yamaha/xe-yamaha/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/xu-phat-vi-pham/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/yamaha/yamaha-freego/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/yamaha/yamaha-grande/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/yamaha/yamaha-sirius/index.html",
   "kind": "article"
  },
  {

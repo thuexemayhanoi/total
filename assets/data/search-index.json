@@ -9300,6 +9300,99 @@
  },
  {
   "kind": "article",
+  "url": "moto/honda/honda-air-blade/",
+  "title": "Kinh nghiệm honda air blade dành cho người mới",
+  "description": "Honda Air Blade là xe ga thể thao phổ biến tại Việt Nam. Tìm hiểu khác biệt các thế hệ, đặc tính vận hành, bảo dưỡng và kinh nghiệm khi mua cũ.",
+  "category": "Xe máy",
+  "hub": "Honda",
+  "entities": [
+   "Honda Air Blade",
+   "xe ga thể thao",
+   "HEAD",
+   "số khung",
+   "đòn trước"
+  ],
+  "keywords": [
+   "honda air blade",
+   "xe air blade",
+   "kinh nghiem air blade",
+   "cac doi air blade",
+   "mua air blade cu"
+  ],
+  "summary": "Air Blade chiếm vị trí \"xe ga thể thao đa dụng\" trong dải sản phẩm Honda Việt Nam: mạnh mẽ hơn nhóm xe ga phổ thông, gọn gàng hơn nhóm xe ga lớn, và đủ lịch sự để đi làm lẫn đủ nhanh để đi xa cuối tuần. Nhưng giữa các thế hệ, Air Blade thay đổi đủ nhiều để việ"
+ },
+ {
+  "kind": "article",
+  "url": "moto/honda/honda-sh/",
+  "title": "Honda sh — những điều cần biết",
+  "description": "Honda SH là xe ga cao cấp giữ giá tốt tại Việt Nam. Tìm hiểu lý do giá cao, khác biệt các phiên bản, chi phí bảo dưỡng và lưu ý khi mua cũ.",
+  "category": "Xe máy",
+  "hub": "Honda",
+  "entities": [
+   "Honda SH",
+   "xe ga cao cấp",
+   "giữ giá",
+   "HEAD",
+   "khóa thông minh"
+  ],
+  "keywords": [
+   "honda sh",
+   "xe sh",
+   "mua honda sh cu",
+   "bao duong xe sh",
+   "sh 160"
+  ],
+  "summary": "Honda SH là hiện tượng hiếm hoi của thị trường xe Việt Nam: một chiếc xe ga có giá cao vượt trội phân khúc nhưng vẫn bán chạy suốt nhiều năm, thậm chí có thời điểm khan hàng. Người chưa bao giờ đi SH thường hỏi một câu thẳng: \"đắt thế thì được gì\"; người đang "
+ },
+ {
+  "kind": "article",
+  "url": "moto/honda/honda-vision/",
+  "title": "Tổng hợp kiến thức: honda vision",
+  "description": "Honda Vision là xe ga phổ biến nhất Việt Nam. Hướng dẫn làm quen xe mới, tiện nghi, thói quen vận hành, phụ tùng và giữ xe bền qua từng năm máy.",
+  "category": "Xe máy",
+  "hub": "Honda",
+  "entities": [
+   "Honda Vision",
+   "HEAD",
+   "chạy rà",
+   "bugi",
+   "lọc gió",
+   "ắc quy"
+  ],
+  "keywords": [
+   "honda vision",
+   "xe honda vision",
+   "kinh nghiem honda vision",
+   "bao duong honda vision",
+   "huong dan su dung honda vision"
+  ],
+  "summary": "Honda Vision là dòng xe ga bán chạy bậc nhất Việt Nam — và cũng là dòng mà người mua dễ ra quyết định nhanh nhất, vì \"ai cũng mua\" đã thay cho việc tự trả lời xe có hợp mình không. Bài viết này không lặp lại bảng thông số đã có ở bài riêng, mà tập trung vào ph"
+ },
+ {
+  "kind": "article",
+  "url": "moto/honda/honda-wave/",
+  "title": "Hướng dẫn chi tiết về honda wave",
+  "description": "Honda Wave là dòng xe số bền bỉ nhất phân khúc phổ thông Việt Nam. Hướng dẫn phiên bản, thói quen vận hành, bảo dưỡng siêu rẻ và kinh nghiệm mua cũ.",
+  "category": "Xe máy",
+  "hub": "Honda",
+  "entities": [
+   "Honda Wave",
+   "xe số phổ thông",
+   "tiêu hao nhiên liệu",
+   "nhớt máy",
+   "lọc gió"
+  ],
+  "keywords": [
+   "honda wave",
+   "xe wave",
+   "bao duong honda wave",
+   "wave alpha",
+   "mua wave cu"
+  ],
+  "summary": "Nếu thị trường xe máy Việt Nam có một chiếc xe \"quốc dân\" đúng nghĩa số lượng, đó là Honda Wave: xe số nhỏ gọn, tiêu hao nhiên liệu thuộc hàng thấp nhất, giá phụ tùng rẻ như bút bi, và tuổi thọ khiến nhiều chiếc xe chạy hai mươi năm vẫn còn nguyên vẹn cho công"
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/khung-xe/",
   "title": "Kinh nghiệm khung xe dành cho người mới",
   "description": "Khung xe máy làm gì, dấu hiệu khung cong, lệch hay ốc lỏng ra sao, và những kinh nghiệm kiểm tra chăm sóc khung xe dành cho người mới.",
@@ -10093,6 +10186,29 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/xe-dien-viet-nam/",
+  "title": "Hướng dẫn chi tiết về xe điện việt nam",
+  "description": "Thị trường xe điện Việt Nam: các thương hiệu nội địa và quốc tế, hạ tầng trạm sạc, quy định biển số và dự báo xu hướng cho người đang cân nhắc.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "thị trường xe điện Việt Nam",
+   "pin lithium",
+   "trạm sạc",
+   "biển số xe điện",
+   "bảo hành pin"
+  ],
+  "keywords": [
+   "xe dien viet nam",
+   "thi truong xe may dien viet nam",
+   "cac hang xe dien o viet nam",
+   "tram sac xe dien",
+   "mua xe dien o viet nam"
+  ],
+  "summary": "Thị trường xe điện hai bánh Việt Nam trong vài năm trở lại đây không còn là \"thứ để thử\": xe đạp điện phủ kín trường học, xe máy điện điện phân khúc từ vài chục triệu tới dòng hiệu năng cao, và dải thương hiệu vừa có tên nội địa vừa có hãng xe tư nhân mới nổi."
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/xe-hao-xang/",
   "title": "Tổng hợp kiến thức: xe hao xăng",
   "description": "Tổng hợp nguyên nhân khiến xe máy hao xăng từ bộ hóa dầu, lọc gió, lốp non đến thói quen lái, kèm cách tự kiểm tra mức tiêu thụ và thời điểm cần bảo dưỡng đúng chỗ.",
@@ -10117,6 +10233,29 @@
    "đo mức tiêu thụ xăng"
   ],
   "summary": "Xe hao xăng là hiện tượng mức tiêu thụ nhiên liệu tăng bất thường mà không kèm hỏng hóc lớn: xe vẫn nổ, vẫn đi nhưng mỗi bình xăng đi được ít km hơn trước. Nguyên nhân trải từ bộ hòa khí bẩn, bugi yếu, lọc gió tắc, nhớt đặc, lốp non cho tới thói quen lái ga độ"
+ },
+ {
+  "kind": "article",
+  "url": "moto/honda/xe-honda-viet-nam/",
+  "title": "Tổng hợp kiến thức: xe honda việt nam",
+  "description": "Xe Honda tại Việt Nam trải từ xe số Wave tới ga cao cấp SH. Tìm hiểu bản đồ các dòng, công nghệ động cơ, hệ thống HEAD và cách chọn theo nhu cầu.",
+  "category": "Xe máy",
+  "hub": "Honda",
+  "entities": [
+   "Honda Việt Nam",
+   "HEAD",
+   "xe số",
+   "xe ga",
+   "phun xăng điện tử"
+  ],
+  "keywords": [
+   "xe honda viet nam",
+   "cac dong xe honda",
+   "xe may honda",
+   "honda co nhung dong xe nao",
+   "chon xe honda"
+  ],
+  "summary": "Honda là nhà sản xuất xe máy lớn nhất Việt Nam cả về doanh số lẫn độ phủ dải sản phẩm — từ chiếc xe số phổ thông chạy việc tới những chiếc xe ga cao cấp nhất phân khúc. Nhưng chính độ rộng đó khiến người mua dễ lạc: cùng là Honda, chiếc này phụ tùng rẻ như rau"
  },
  {
   "kind": "article",
@@ -10248,6 +10387,29 @@
  },
  {
   "kind": "article",
+  "url": "moto/yamaha/xe-yamaha/",
+  "title": "Tổng hợp kiến thức: xe yamaha",
+  "description": "Xe Yamaha tại Việt Nam: công nghệ Blue Core, đề êm SMG, dải xe số tới xe ga. Tìm hiểu đặc trưng từng dòng, mạng dịch vụ và cách chọn theo nhu cầu.",
+  "category": "Xe máy",
+  "hub": "Yamaha",
+  "entities": [
+   "Yamaha Việt Nam",
+   "Blue Core",
+   "Smart Motor Generator",
+   "Exciter",
+   "dải sản phẩm"
+  ],
+  "keywords": [
+   "xe yamaha",
+   "cac dong xe yamaha",
+   "yamaha viet nam",
+   "cong nghe yamaha",
+   "chon xe yamaha"
+  ],
+  "summary": "Yamaha là nhà sản xuất đứng thứ hai thị trường xe máy Việt Nam — nhưng vị trí đó chỉ nói nửa câu chuyện; nửa còn lại là cách Yamaha khác Honda: dải sản phẩm thiên về cảm giác (xe thể thao, xe côn tay được đầu tư hơn hẳn), công nghệ động cơ đặt mục tiêu tiết ki"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/xu-phat-vi-pham/",
   "title": "Xử phạt vi phạm giao thông: quy trình, quyền lợi và cách tránh rắc rối",
   "description": "Bị lập biên bản xử phạt giao thông diễn ra theo trình tự luật định — bài viết giải thích quy trình, hình thức phạt, quyền của người bị phạt và cách nộp đúng hạn.",
@@ -10270,5 +10432,74 @@
    "khieu nai xu phat"
   ],
   "summary": "Bị dừng xe vì một lỗi giao thông là trải nghiệm quen thuộc với nhiều người đi xe máy — nhưng ít ai nắm đủ quy trình diễn ra sau đó: biên bản ghi những gì, quyền giải trình của bạn là gì, các hình thức xử phạt gồm những loại, thời hạn nộp phạt và cách nộp, điểm"
+ },
+ {
+  "kind": "article",
+  "url": "moto/yamaha/yamaha-freego/",
+  "title": "Yamaha freego — những điều cần biết",
+  "description": "Yamaha FreeGo là xe ga thực dụng với cốp rộng và trang bị cân bằng. Tìm hiểu đặc tính vận hành, tiện nghi, bảo dưỡng và cân nhắc khi chọn FreeGo.",
+  "category": "Xe máy",
+  "hub": "Yamaha",
+  "entities": [
+   "Yamaha FreeGo",
+   "cốp xe",
+   "nhớt máy",
+   "lọc gió",
+   "bạc lốp"
+  ],
+  "keywords": [
+   "yamaha freego",
+   "xe freego",
+   "kinh nghiem freego",
+   "bao duong freego",
+   "freego hop voi ai"
+  ],
+  "summary": "FreeGo là mẫu xe mà Yamaha làm đúng một việc: cạnh tranh trực diện ở mặt trận xe ga thực dụng — nơi khách hàng hỏi \"cốp có rộng không, xe có bền không, giá có hợp lý không\" trước cả câu hỏi về phong cách. Kết quả là một chiếc xe ga cân bằng: cốp rộng thuộc nhó"
+ },
+ {
+  "kind": "article",
+  "url": "moto/yamaha/yamaha-grande/",
+  "title": "Kinh nghiệm yamaha grande dành cho người mới",
+  "description": "Yamaha Grande là xe ga phong cách với công nghệ đề êm Smart Motor Generator. Tìm hiểu trải nghiệm thực, bảo dưỡng và lỗi hay gặp khi dùng Grande.",
+  "category": "Xe máy",
+  "hub": "Yamaha",
+  "entities": [
+   "Yamaha Grande",
+   "Smart Motor Generator",
+   "cốp xe",
+   "ắc quy",
+   "lọc gió"
+  ],
+  "keywords": [
+   "yamaha grande",
+   "xe grande",
+   "kinh nghiem yamaha grande",
+   "bao duong yamaha grande",
+   "grande co tom"
+  ],
+  "summary": "Grande là câu trả lời của Yamaha cho nhóm khách muốn chiếc xe ga vừa là phương tiện vừa là phụ kiện phong cách: đường nét thon, bảng màu theo mùa thời trang, cốp rộng bất ngờ so với vóc dáng, và một công nghệ đặc trưng — hệ thống đề êm cho máy khởi động nhẹ gầ"
+ },
+ {
+  "kind": "article",
+  "url": "moto/yamaha/yamaha-sirius/",
+  "title": "Hướng dẫn chi tiết về yamaha sirius",
+  "description": "Yamaha Sirius là xe số phổ thông bền của Yamaha Việt Nam. Tìm hiểu các phiên bản, thói quen vận hành tiết kiệm, bảo dưỡng và kinh nghiệm mua cũ.",
+  "category": "Xe máy",
+  "hub": "Yamaha",
+  "entities": [
+   "Yamaha Sirius",
+   "xe số phổ thông",
+   "bộ truyền xích",
+   "nhớt máy",
+   "lọc gió"
+  ],
+  "keywords": [
+   "yamaha sirius",
+   "xe sirius",
+   "bao duong sirius",
+   "mua sirius cu",
+   "sirius co ton xang khong"
+  ],
+  "summary": "Sirius là lời trả lời của Yamaha cho phân khúc xe số phổ thông — nơi khách hàng chỉ hỏi ba câu: xăng tiết kiệm không, sửa có rẻ không, chạy có bền không. Trong nhiều năm, Sirius giữ vị trí đối thủ trực tiếp và bền bỉ nhất của dòng xe số \"quốc dân\": kết cấu đơn"
  }
 ]
