@@ -4338,11 +4338,13 @@
    "title": "Kinh nghiệm abs xe máy dành cho người mới",
    "primaryIntent": "informational/abs-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:14.165Z",
+   "seoScore": 83,
+   "words": 1934
   },
   {
    "id": "S00294",
@@ -4351,11 +4353,13 @@
    "title": "Cấu tạo phanh — những điều cần biết",
    "primaryIntent": "informational/cau-tao-phanh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:15.044Z",
+   "seoScore": 91,
+   "words": 1760
   },
   {
    "id": "S00295",
@@ -4364,11 +4368,13 @@
    "title": "Hướng dẫn chi tiết về bảo dưỡng phanh",
    "primaryIntent": "informational/bao-duong-phanh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:15.044Z",
+   "seoScore": 100,
+   "words": 1792
   },
   {
    "id": "S00296",
@@ -4377,11 +4383,13 @@
    "title": "Tổng hợp kiến thức: lốp xe máy",
    "primaryIntent": "informational/lop-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:17.587Z",
+   "seoScore": 83,
+   "words": 1819
   },
   {
    "id": "S00297",
@@ -4390,11 +4398,13 @@
    "title": "Kinh nghiệm kích cỡ lốp dành cho người mới",
    "primaryIntent": "informational/kich-co-lop",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:16.738Z",
+   "seoScore": 91,
+   "words": 1603
   },
   {
    "id": "S00298",
@@ -4403,11 +4413,13 @@
    "title": "Lốp không săng — những điều cần biết",
    "primaryIntent": "informational/lop-khong-sang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:16.738Z",
+   "seoScore": 83,
+   "words": 1654
   },
   {
    "id": "S00299",
@@ -4416,11 +4428,13 @@
    "title": "Hướng dẫn chi tiết về áp suất lốp",
    "primaryIntent": "informational/ap-suat-lop",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:14.165Z",
+   "seoScore": 100,
+   "words": 1620
   },
   {
    "id": "S00300",
@@ -4429,11 +4443,13 @@
    "title": "Tổng hợp kiến thức: thay lốp khi nào",
    "primaryIntent": "informational/thay-lop-khi-nao",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:17.587Z",
+   "seoScore": 91,
+   "words": 1628
   },
   {
    "id": "S00301",
@@ -4442,11 +4458,13 @@
    "title": "Kinh nghiệm dầu nhớt xe máy dành cho người mới",
    "primaryIntent": "informational/dau-nhot-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:15.894Z",
+   "seoScore": 100,
+   "words": 1790
   },
   {
    "id": "S00302",
@@ -4455,11 +4473,13 @@
    "title": "Độ đặc dầu — những điều cần biết",
    "primaryIntent": "informational/do-dac-dau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.044Z",
-   "updatedAt": "2026-10-03T23:13:26.044Z"
+   "updatedAt": "2026-10-06T11:18:15.894Z",
+   "seoScore": 91,
+   "words": 1751
   },
   {
    "id": "S00303",

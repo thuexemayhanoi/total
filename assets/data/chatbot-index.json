@@ -7833,6 +7833,36 @@
   ]
  },
  {
+  "url": "wiki/he-thong-phanh/abs-xe-may/",
+  "title": "Kinh nghiệm abs xe máy dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "summary": "ABS (hệ thống chống bó cứng phanh) là trang bị an toàn quan trọng nhất trên xe máy hiện đại sau mũ bảo hiểm. Với người mới, ABS thay đổi hoàn toàn cách xử lý tình huống phanh gấp: thay vì lo bánh trước bó cứng ngã ngay tại chỗ, người lái có thể bóp phanh hết lực mà hệ thống tự nhả-kẹp hàng chục lần mỗi giây để giữ bánh đang quay. Nhưng ABS không phải đũa thần: nó vô dụng khi bánh đã trượt ngang, không rút ngắn quãng đường trên cát sỏi lỏng lẻo, và đòi hỏi người lái làm quen với cảm giác rung nhịp nhàng ở cần phanh để không hốt hoảng buông phanh giữa lúc gấp. Bài viết giải thích nguyên lý, các tình huống ABS phát huy và không phát huy, cách tập quen cảm giác ABS, cùng những thói quen phanh đúng để hệ thống này làm đúng việc của nó.",
+  "quickAnswer": "ABS là hệ thống chống bó cứng phanh: cảm biến đo tốc độ quay bánh, khi bánh sắp khựng lại so với thân xe, hệ thống tự nhả và kẹp phanh liên tục (mỗi giây hàng chục nhịp) giữ bánh ở gần ngưỡng bó cứng — nơi lực phanh lớn nhất mà bánh vẫn bám đường. ABS phát huy nhất khi phanh gấp trên đường ướt, cát đá dịu, vệt dầu; vô dụng khi xe trượt ngang đã mất bám, khi chạy quá nhanh vào khúc cua gấp, hoặc khi bánh không tiếp xúc đường. Người mới nên tập bóp phanh trước thật lực trong chỗ vắng để quen cảm giác rung nhịp ở cần phanh — rung là dấu hiệu ABS đang làm việc, tuyệt đối không buông phanh khi thấy rung.",
+  "keyPoints": [
+   "ABS giữ bánh đang quay gần ngưỡng bó cứng — nơi lực phanh lớn nhất, thay vì để bánh trượt dài mất toàn bộ khả năng lái.",
+   "Cảm giác rung nhịp ở cần phanh khi ABS hoạt động là bình thường: đó là hệ thống nhả-kẹp liên tục, không buông phanh.",
+   "ABS phát huy trên đường ướt, cát đá dịu, vệt dầu và tình huống phanh gấp bất ngờ; không giúp khi xe đã trượt ngang.",
+   "Khoảng cách dừng có ABS có thể dài hơn một chút trên cát sỏi lỏng — nhưng đổi lại là xe không ngã do bó cứng."
+  ],
+  "entities": [
+   "ABS xe máy",
+   "chống bó cứng phanh",
+   "cảm biến tốc độ bánh xe",
+   "ngưỡng bó cứng",
+   "rung cần phanh",
+   "kênh ABS"
+  ],
+  "keywords": [
+   "abs xe máy",
+   "abs là gì",
+   "kinh nghiệm dùng abs",
+   "phanh abs rung",
+   "abs có tác dụng gì",
+   "abs trên đường ướt"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/ac-quy-xe-may/",
   "title": "Hướng dẫn chi tiết về ắc quy xe máy",
   "category": "Bách khoa xe",
@@ -7892,6 +7922,67 @@
    "xe đề yếu",
    "sạc ắc quy xe máy",
    "ắc quy chai phải làm sao"
+  ]
+ },
+ {
+  "url": "wiki/lop-banh-xe/ap-suat-lop/",
+  "title": "Hướng dẫn chi tiết về áp suất lốp",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "summary": "Áp suất lốp là thông số duy nhất của lốp mà người dùng chỉnh được mỗi tuần — và cũng là thông số bị sai nhiều nhất. Non hơi vài PSI nhìn mắt thường không ra, nhưng đổi hình dạng vệt tiếp xúc: mép lốp gập xuống ăn mặt đường, mòn hai mép nhanh gấp bội, tăng lực cản lăn, và lốp nóng nhiều hơn khi chạy dài. Căng quá thì ngược lại: vệt tiếp xúc co vào giữa, giữa lốp mòn nhanh, lớp mỏi chịu ứng suất cao, và lực bám giảm đúng lúc cần bám nhất. Bài hướng dẫn này đi từ con số: áp suất chuẩn ở đâu, trước-sau khác nhau ra sao, chạy đôi hay chở nặng chỉnh thế nào; tới dụng cụ và kỹ thuật đo đúng (đo khi lốp nguội, kim đo hay đồng hồ trạm bơm); tới ba hệ quả vật lý của đo sai; và cuối cùng là cách săn tìm nguồn rò khí kéo dài — van, mép vành, hay lỗ đâm nhỏ vô hình.",
+  "quickAnswer": "Áp suất lốp chuẩn nằm trên tem dán ở cổ giò hoặc trong cốp xe (ví dụ phổ biến quanh 29-33 psi trước, 33-36 psi sau tùy dòng xe), hoặc trong sổ tay. Kiểm hàng tuần khi lốp nguội bằng kim đo — kim cơ đáng tin hơn đồng hồ trạm bơm công cộng. Non hơi: mép lốp mòn nhanh, lăn nặng, nóng lốp, tay lái nặng. Căng quá: giữa lốp mòn nhanh, giảm bám và xóc. Chở nặng hoặc chạy đôi: chỉnh theo cột tải nặng trên tem dán (thường thêm 2-4 psi). Rò kéo dài không lỗ thấy rõ: xà phòng quanh van và mép vành để tìm bong bóng.",
+  "keyPoints": [
+   "Con số chuẩn nằm trên tem dán cổ xe hoặc sổ tay — không dùng con số \"người ta nói\" cho xe mình.",
+   "Đo khi lốp nguội: chạy xa rồi đo là sai con số — nhiệt làm áp tăng tự nhiên 2-4 psi.",
+   "Trước và sau thường khác áp suất — kiểm cả hai bánh, mỗi tuần một lần.",
+   "Non hơi mòn hai mép lốp và tăng nhiệt; căng quá mòn giữa và giảm lực bám."
+  ],
+  "entities": [
+   "áp suất lốp",
+   "psi",
+   "kim đo áp suất",
+   "tem dán áp suất",
+   "lốp non hơi",
+   "lốp căng quá",
+   "vệt tiếp xúc"
+  ],
+  "keywords": [
+   "áp suất lốp xe máy",
+   "bơm lốp bao nhiêu psi",
+   "lốp non hơi dấu hiệu",
+   "kiểm tra áp suất lốp",
+   "áp suất chuẩn xe tay ga",
+   "áp suất lốp chạy đôi"
+  ]
+ },
+ {
+  "url": "wiki/he-thong-phanh/bao-duong-phanh/",
+  "title": "Hướng dẫn chi tiết về bảo dưỡng phanh",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "summary": "Phanh là hệ thống không có \"chỉ số hao mòn\" trên bảng đồng hồ — nó mòn âm thầm cho tới khi cần bóp lún sâu hoặc rít gắt mới báo. Vì vậy bảo dưỡng phanh là công việc của lịch trình, không phải của cảm giác: mỗi tuần một phép kiểm nhanh không dụng cụ, mỗi kỳ thay nhớt một lần soi má và các điểm lưu động, mỗi hai năm một lần thay dầu phanh. Bài viết này xếp bảo dưỡng phanh thành ba tầng theo chu kỳ: kiểm tra hàng tuần, bảo dưỡng theo kỳ, và thay thế theo ngưỡng — kèm trình tự từng bước cho từng công việc, danh sách sai lầm phổ biến từ việc tra mỡ sai chỗ tới xả khí chưa hết bọt, và cách lập sổ bảo dưỡng để mọi món thay đều có căn cứ đo đếm chứ không phỏng đo.",
+  "quickAnswer": "Bảo dưỡng phanh chia ba tầng. Hàng tuần: kiểm độ rơ cần phanh (ăn trong nửa đầu hành trình), nghe tiếng khi đẩy xe, nhìn vệt dầu dưới xe. Theo kỳ (cùng thay nhớt): soi độ mòn má qua khe caliper, lau bột má trên đĩa, vệ sinh bột mòn trong trống, tra mỡ chịu nhiệt trục cam, kiểm cáp và ống cao su. Theo ngưỡng: thay má khi tới độ dày giới hạn, thay dầu phanh hai năm một lần (dầu hút ẩm), xả khí khi cần mềm, đo đĩa/trống khi thay má. Nguyên tắc nền tảng: không để mỡ dính mặt má hoặc mặt đĩa, luôn dùng đúng loại dầu ghi trên nắp bình, và thay theo chỉ số khắc trên chi tiết.",
+  "keyPoints": [
+   "Phanh mòn âm thầm: bảo dưỡng phải chạy theo lịch, không chờ dấu hiệu — độ rơ, tiếng rít là dấu hiệu muộn.",
+   "Ba tầng chu kỳ: kiểm nhanh hàng tuần, soi và vệ sinh theo kỳ thay nhớt, thay thế theo ngưỡng khắc trên chi tiết.",
+   "Dầu phanh hút ẩm không đảo ngược được — thay hai năm một lần bất kể nhìn dầu còn trong.",
+   "Vệ sinh bột mòn là việc bắt buộc: bột má đóng mặt đĩa tạo rít và giảm lực; bột trong trống tích dần làm phanh kẹt."
+  ],
+  "entities": [
+   "bảo dưỡng phanh",
+   "độ rơ cần phanh",
+   "thay dầu phanh",
+   "xả khí phanh",
+   "vệ sinh caliper",
+   "độ mòn má phanh"
+  ],
+  "keywords": [
+   "bảo dưỡng phanh xe máy",
+   "thay dầu phanh",
+   "xả khí phanh xe máy",
+   "vệ sinh phanh đĩa",
+   "chu kỳ bảo dưỡng phanh",
+   "phanh mềm phải làm gì"
   ]
  },
  {
@@ -7958,6 +8049,38 @@
   ]
  },
  {
+  "url": "wiki/he-thong-phanh/cau-tao-phanh/",
+  "title": "Cấu tạo phanh — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "summary": "Cụm phanh là hệ thống duy nhất trên xe máy mà người lái tin tưởng tuyệt đối mỗi lần cần dừng, nhưng ít người hình dung nổi bên trong nó có gì. Thực tế cấu tạo phanh gọn hơn nhiều người nghĩ: một bộ phận sinh lực ma sát (đĩa và má, hoặc trống và má), một bộ phận dẫn lực từ tay chân người lái tới điểm ma sát (cáp cơ khí hoặc thủy lực dầu phanh), và các chi tiết phụ trợ giúp lực phát đi đúng lúc, đúng chỗ. Bài viết bóc tách từng cụm của phanh đĩa và phanh tang trống, giải thích đường dầu thủy lực và xilanh phanh hoạt động ra sao, chỉ ra vai trò của những chi tiết nhỏ thường bị bỏ qua — lò xo, phớt, bulông xả khí — và cách nhận diện dấu hiệu mỗi bộ phận đang xuống cấp qua tiếng động, độ rơ và cảm giác cần phanh.",
+  "quickAnswer": "Hệ thống phanh xe máy gồm ba cụm: (1) bộ sinh ma sát — phanh đĩa gồm đĩa gắn bánh + caliper chứa piston và má phanh, hoặc phanh tang trông gồm trống + hai má hình lưỡi liềm + trục cam; (2) bộ dẫn lực — cáp/thanh truyền cơ khí hoặc đường dầu thủy lực nối từ cần/phanh pedal qua xilanh chính tới caliper; (3) bộ điều tiết — lò xo, phớt, van xả khí, cảm biến (nếu có ABS). Phanh đĩa mạnh và tản nhiệt tốt; phanh trống kín bụi và bền. Hãy tìm hiểu kỹ từng cụm để chẩn đoán qua cảm giác bóp phanh.",
+  "keyPoints": [
+   "Hệ thống phanh gồm bộ sinh ma sát (đĩa/trống + má), bộ dẫn lực (cáp hoặc thủy lực), và chi tiết phụ trợ (lò xo, phớt, van xả khí).",
+   "Phanh đĩa dùng lực thủy lực: xilanh chính tạo áp dầu, piston caliper ép má vào đĩa — lực mạnh và đều.",
+   "Phanh tang trống dùng lực cơ khí: cáp xoay trục cam, đẩy hai má giãn ép vào trống — đơn giản, kín, bền.",
+   "Phớt (seal) piston là chi tiết nhỏ quyết định lớn: phớt chai làm piston kẹt, gây mòn má lệch và rít."
+  ],
+  "entities": [
+   "cấu tạo phanh",
+   "caliper",
+   "xilanh chính",
+   "piston phanh",
+   "má phanh",
+   "trục cam",
+   "phớt piston",
+   "van xả khí"
+  ],
+  "keywords": [
+   "cấu tạo phanh xe máy",
+   "hệ thống phanh xe máy",
+   "phanh đĩa cấu tạo",
+   "phanh tang trống cấu tạo",
+   "xilanh phanh",
+   "caliper là gì"
+  ]
+ },
+ {
   "url": "wiki/cau-tao-xe/cau-tao-xe-may/",
   "title": "Tổng hợp kiến thức: cấu tạo xe máy",
   "category": "Bách khoa xe",
@@ -8019,6 +8142,36 @@
   ]
  },
  {
+  "url": "wiki/dau-nhot/dau-nhot-xe-may/",
+  "title": "Kinh nghiệm dầu nhớt xe máy dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Dầu nhớt là \"máu\" của động cơ xe máy: bôi trơn các chi tiết kim loại quay ở tốc độ hàng nghìn vòng mỗi phút, mang nhiệt từ piston về cacte, giữ kín xilanh, và cuốn mạt kim loại đi lọc. Nhưng với người mới, ngần ấy vai trò thường bị cô đọng thành hai câu hỏi thực tế: mua chai nào, và bao lâu thay một lần. Bài viết trả lời theo trình tự người mới cần: dầu làm gì trong động cơ bốn kỳ; hai chỉ số trên nhãn chai quan trọng nhất — chuẩn JASO (MB/MA cho ly hợp ướt) và độ đặc SAE — nghĩa là gì; bao giờ dùng nhớt bán tổng hợp hay tổng hợp; chu kỳ thay tham chiếu theo km và theo thời gian; và năm hiểu lầm kinh điển từ \"nhớt càng đặc càng tốt\" tới \"đổ cao cấp là chạy êm hơn\" — mỗi hiểu lầm kèm giải thích vì sao sai.",
+  "quickAnswer": "Dầu nhớt xe máy bôi trơn, làm mát, giữ kín và rửa sạch động cơ. Chọn nhớt theo hai chỉ số trên nhãn: chuẩn JASO MA/MA2 cho xe số ly hợp ướt (MB cho xe tay ga ly hợp khô), và độ đặc SAE như 10W-30 theo khuyến nghị sổ tay. Chu kỳ thay phổ thông: 1.000 km cho xe số chạy phố nhiều (hoặc theo sổ tay), không quá 6 tháng cho xe chạy ít. Không lạm dụng nhớt quá đặc — nhớt đặc hơn chuẩn tăng ma sát bên trong máy và nóng máy; không pha nhớt khác loại; và đổ đúng mực, thừa nhớt cũng hại như thiếu.",
+  "keyPoints": [
+   "Dầu nhớt làm bốn việc: bôi trơn, mang nhiệt, giữ kín xilanh, cuốn mạt kim loại đi lọc.",
+   "Chuẩn JASO quyết định tương thích ly hợp: MA/MA2 cho xe số ly hợp ướt, MB cho tay ga ly hợp khô.",
+   "Độ đặc SAE (10W-30, 15W-40) chọn theo sổ tay xe — đặc hơn chuẩn không phải tốt hơn.",
+   "Xe chạy ít vẫn phải thay theo thời gian: nhớt oxy hóa theo tháng, không chỉ theo km."
+  ],
+  "entities": [
+   "dầu nhớt xe máy",
+   "JASO MA",
+   "SAE 10W-30",
+   "ly hợp ướt",
+   "chu kỳ thay nhớt",
+   "mực nhớt"
+  ],
+  "keywords": [
+   "dầu nhớt xe máy",
+   "chọn dầu nhớt xe số",
+   "JASO MA là gì",
+   "10W-30 là gì",
+   "thay nhớt bao lâu một lần",
+   "nhớt tổng hợp xe máy"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/den-xe-may/",
   "title": "Tổng hợp kiến thức: đèn xe máy",
   "category": "Bách khoa xe",
@@ -8047,6 +8200,37 @@
    "xi nhan xe máy",
    "đèn phanh không sáng",
    "chọn bóng đèn xe máy"
+  ]
+ },
+ {
+  "url": "wiki/dau-nhot/do-dac-dau/",
+  "title": "Độ đặc dầu — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Hai con số nhỏ trên chai nhớt — 10W-30, 15W-40, 20W-50 — là thông số bị đọc nhiều nhất và hiểu ít nhất. Người bán khuyên \"đặc cho chắc\", người lái chọn theo quảng cáo \"loãng cho mát\", trong khi câu trả lời thật nằm trong sổ tay xe và một ít vật lý. Độ đặc (viscosity) là mức độ chảy của dầu: loãng chảy nhanh, bơm nhẹ, nhưng màng dầu mỏng hơn; đặc chảy chậm, màng dày hơn, nhưng bơm nặng lúc máy lạnh và tăng ma sát nội bộ. Bài viết giải thích cách đọc hai con số theo chuẩn SAE, vì sao chữ W là mùa đông mà ở Việt Nam vẫn quan trọng, màng dầu dày mỏng đánh đổi ra sao, khi nào tăng giảm độ đặc là hợp lý (máy già, khí hậu nóng, chạy tải nặng), và ba sai lầm phổ biến khi chọn độ đặc — kèm câu trả lời cho câu hỏi được hỏi nhiều nhất: \"xe tôi đổ 20W-50 thay vì 10W-30 được không?\".",
+  "quickAnswer": "Độ đặc (SAE) ghi dạng 10W-30: số trước chữ W là độ đặc đo ở nhiệt độ lạnh (W = winter, mùa đông) — càng nhỏ, dầu càng loãng lúc khởi động, bơm nhanh lên các chi tiết; số sau là độ đặc ở 100°C nhiệt độ làm việc — càng lớn, màng dầu càng dày khi nóng. Chọn độ đặc theo sổ tay xe là chuẩn an toàn nhất. Tăng độ đặc chỉ hợp lý cho máy già khe hở rộng (ăn nhớt, tiếng máy to) hoặc chạy tải nặng khí hậu nóng kéo dài; đặc hơn chuẩn làm khởi động lạnh nặng, máy nóng và tốn xăng. Không giảm độ đặc dưới chuẩn — màng dầu mỏng mất bảo vệ.",
+  "keyPoints": [
+   "Độ đặc là mức độ chịu chảy của dầu: loãng bơm nhanh nhưng màng mỏng, đặc màng dày nhưng bơm nặng.",
+   "Dạng 10W-30: 10W đo lúc lạnh (W = winter), 30 đo ở 100°C lúc làm việc.",
+   "Sổ tay xe là nơi chọn độ đặc chuẩn — nhà sản xuất tính theo khe hở chế tạo của máy.",
+   "Tăng độ đặc chỉ khi có lý do: máy già khe rộng, ăn nhớt, hoặc chạy tải nặng khí hậu nóng dài hạn."
+  ],
+  "entities": [
+   "độ đặc dầu",
+   "SAE",
+   "10W-30",
+   "màng dầu",
+   "độ đặc khi lạnh",
+   "màng dầu",
+   "độ bền đặc"
+  ],
+  "keywords": [
+   "độ đặc dầu nhớt",
+   "10W-30 là gì",
+   "20W-50 và 10W-30 khác nhau",
+   "chọn độ đặc nhớt xe máy",
+   "W trong 10W nghĩa là gì",
+   "đổ nhớt đặc hơn được không"
   ]
  },
  {
@@ -8264,6 +8448,98 @@
   ]
  },
  {
+  "url": "wiki/lop-banh-xe/kich-co-lop/",
+  "title": "Kinh nghiệm kích cỡ lốp dành cho người mới",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "summary": "Hàng số khắc trên thành lốp trông như mật mã nhưng chỉ có vài quy tắc: bề ngang, tỷ lệ chiều cao, đường kính vành, chỉ số tải, ký tự tốc độ. Người mới thường vấp ở hai ngã: hoặc mua lốp \"gần đúng\" vì rẻ hơn, hoặc nghe lời tư vấn nâng cỡ lốp cho \"đẹp, bám hơn\" mà không biết mình đang đổi gì — tốc độ đồng hồ sai, bám đổi theo chiều hướng không đoán được, và nhiều khi còn cạ gầm. Bài viết này giải mã từng con số trong dòng cỡ, chỉ rõ việc gì xảy ra khi thay đổi từng thông số, và đưa ra các quy tắc an toàn cho người mới: chỉ dùng đúng cỡ hãng, chỉ đổi cỡ khi hiểu hệ quả, và những cỡ phổ biến nhất trên các xe phổ thông tại Việt Nam để mua lốp không lúng túng.",
+  "quickAnswer": "Kích cỡ lốp xe máy ghi theo hai kiểu: kiểu mét 90/90-14 (bề ngang 90 mm; chiều cao bằng 90% bề ngang; vành 14 inch) và kiểu inch 2.75-14 (bề ngang 2,75 inch; vành 14 inch; chiều cao thường bằng bề ngang). Chọn cỡ an toàn nhất cho người mới: dùng đúng cỡ ghi trên sổ tay hoặc tem cốp xe. Không tự nâng cỡ — lốp cao hơn đổi bán kính lăn làm đồng hồ sai và chạm gầm; lốp rộng hơn đổi độ ổn định hướng và cách xe vào cua. Sau cỡ là chỉ số tải và ký tự tốc độ — chọn bằng hoặc cao hơn chuẩn hãng.",
+  "keyPoints": [
+   "Đọc cỡ kiểu mét 90/90-14: bề ngang 90 mm, chiều cao 90% của bề ngang, vành 14 inch.",
+   "Kiểu inch 2.75-14: bề ngang 2,75 inch, chiều cao xấp xỉ bằng bề ngang — hai kiểu quy đổi được qua nhau.",
+   "Bán kính lăn tăng vài mm làm đồng hồ đọc sai và lốp chạm gầm/chén bẩn — không nâng cỡ khi không hiểu hệ quả.",
+   "Lốp rộng hơn không tự động bám hơn: diện tích tiếp xúc gần như giữ nguyên theo áp suất, đổi là hình dạng vệt tiếp xúc."
+  ],
+  "entities": [
+   "kích cỡ lốp",
+   "bán kính lăn",
+   "chỉ số tải lốp",
+   "ký tự tốc độ",
+   "bề ngang lốp",
+   "tỷ lệ chiều cao lốp"
+  ],
+  "keywords": [
+   "kích cỡ lốp xe máy",
+   "đọc cỡ lốp",
+   "90/90-14 là gì",
+   "2.75-14 lốp",
+   "nâng cỡ lốp xe máy",
+   "lốp khác cỡ dùng được không"
+  ]
+ },
+ {
+  "url": "wiki/lop-banh-xe/lop-khong-sang/",
+  "title": "Lốp không săng — những điều cần biết",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "summary": "Lốp không săng (tubeless) đã trở thành chuẩn của phần lớn xe máy mới, nhưng quanh nó vẫn tồn tại nhiều hiểu lầm: rằng lốp không săng \"không bao giờ xịt\", rằng xe cũ không thể đổi, rằng bị đâm thì phải thay cả lốp. Thực tế tubeless không phải phép màu — nó là một thiết kế thông minh hơn: bỏ ruột khí, ép hơi trực tiếp vào thành lốp qua gờ ôm vành, và khi bị đinh đâm thì chính vật thể đâm giữ chặt lỗ khiến hơi thoát chậm. Bài viết giải thích cơ chế kín khí của tubeless, các điều kiện để đổi từ xe có săng sang không săng, quy trình xử lý khi đâm lốp giữa đường bằng bộ vá không cần tháo lốp, cùng các hiểu lầm cần bỏ để dùng tubeless đúng cách và an toàn thật sự.",
+  "quickAnswer": "Lốp không săng (tubeless) không có ruột khí bên trong: mặt trong lốp phủ lớp màng kín hơi, hơi được giữ bằng lực ép giữa gờ lốp và vành. Ưu điểm lớn nhất: khi bị đinh đâm, hơi xì chậm thay vì xịt đột ngột — an toàn hơn hẳn lốp có săng. Điều kiện đổi: cần lốp tubeless và vành nguyên không móp mép. Khi bị đâm: coi vật thể trong lỗ như một cái nút — rút ra khi đã sẵn sàng vá; dùng bộ vá que hoặc dây vá không cần tháo lốp, bơm lại bằng bình mini; không rút đinh rồi chạy tiếp chờ \"xì chậm\".",
+  "keyPoints": [
+   "Tubeless giữ hơi bằng ép gờ lốp vào vành — không có ruột khí riêng như lốp có săng.",
+   "Khi bị đâm, vật thể kẹt giữ chặt lỗ khiến hơi thoát chậm — người lái có thời gian dừng an toàn thay vì xẹp đột ngột.",
+   "Đổi sang tubeless cần hai điều: lốp thiết kế tubeless và vành nguyên vẹn, không móp mép gờ.",
+   "Bộ vá que/dây vá không cần tháo lốp: rút vật thể, luồn que vá tẩm keo, xoay rút ra, bơm lại — xong trong vài phút."
+  ],
+  "entities": [
+   "lốp không săng",
+   "tubeless",
+   "ruột xe",
+   "gờ lốp",
+   "van bơm",
+   "vá que",
+   "màng kín khí"
+  ],
+  "keywords": [
+   "lốp không săng",
+   "tubeless là gì",
+   "đổi lốp không săng",
+   "vá lốp không săng",
+   "lốp tubeless bị đâm",
+   "xe cũ đổi tubeless"
+  ]
+ },
+ {
+  "url": "wiki/lop-banh-xe/lop-xe-may/",
+  "title": "Tổng hợp kiến thức: lốp xe máy",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "summary": "Lốp là chi tiết duy nhất nối xe với mặt đường — mọi mã lực, mọi lần bóp phanh, mỗi cua rẽ đều đi qua hai mảng cao su nhỏ bằng bàn tay. Nhưng lốp cũng là chi tiết bị hiểu lầm nhiều nhất: người ta chọn lốp theo mẫu vẽ \"đẹp\", tra áp suất theo cảm giác, và dùng lốp cho tới khi chạm sườn mà không biết lốp có tuổi thọ dùng bằng cả thời gian lẫn số km. Bài tổng hợp này gói kiến thức lốp vào một vòng tròn: cấu tạo bên trong quyết định vì sao lốp no hơi lại đủ dẻo bám đường; sự khác nhau giữa lốp có săng và không săng; cách đọc kích cỡ trên thành lốp; ba nhóm hoa văn phục ba loại đường; tuổi lốp tính theo ký tự tuần sản xuất; và dấu hiệu xuống cấp đọc được bằng mắt thường — từ nứt tóc vỏ đến gờ mòn chỉ báo. Kết bài là phương pháp chọn lốp theo cách chạy thật thay vì theo giá niêm yết.",
+  "quickAnswer": "Lốp xe máy gồm các lớp mỏi (ply) xếp chéo hoặc xoắn tròn quanh ruột khí, ngoài phủ lớp hoa văn cao su chịu mài. Hai loại chính: có săng (tube) — ruột khí riêng, vá dễ nhưng nổ là xì ngay; không săng (tubeless) — không ruột, hơi bị lỗ đâm thì xì chậm, an toàn hơn. Hệ số bám phụ thuộc trạng thái mặt đường, áp suất đúng và độ mòn hoa. Lốp không nên dùng quá 5 năm tính từ ngày sản xuất — cao su lão hóa theo thời gian dù ít chạy. Chọn lốp: đúng kích cỡ khắc trên thành, hoa văn đúng loại đường (sạch/ổ tròn/cát đá), và bám theo nhu cầu chạy ướt nếu đi mưa nhiều.",
+  "keyPoints": [
+   "Lốp là điểm tiếp xúc duy nhất giữa xe và đường — khoảng tiếp xúc chỉ cỡ hai bàn tay chịu toàn bộ lực phanh và lái.",
+   "Hai loại chính: có săng (dễ vá, nổ nhanh) và không săng (xì chậm, an toàn hơn, cần vành nguyên).",
+   "Đọc kích cỡ trên thành lốp: ví dụ 90/90-14 nghĩa là ngang 90 mm, cao 90% bề ngang, vành 14 inch.",
+   "Áp suất đúng quyết định cả tuổi thọ lốp lẫn lực bám — non hơi mép mòn nhanh, căng quá giữa mòn và mất bám."
+  ],
+  "entities": [
+   "lốp xe máy",
+   "lốp không săng",
+   "lốp có săng",
+   "mã DOT",
+   "hoa văn lốp",
+   "áp suất lốp",
+   "chỉ báo mòn lốp"
+  ],
+  "keywords": [
+   "lốp xe máy",
+   "chọn lốp xe máy",
+   "tuổi thọ lốp",
+   "lốp không săng là gì",
+   "đọc kích cỡ lốp",
+   "dấu hiệu lốp mòn"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/mach-dien-xe/",
   "title": "Mạch điện xe — những điều cần biết",
   "category": "Bách khoa xe",
@@ -8478,6 +8754,37 @@
    "tuyến cấm xe máy",
    "xử phạt giao thông đô thị",
    "phân luồng giao thông"
+  ]
+ },
+ {
+  "url": "wiki/lop-banh-xe/thay-lop-khi-nao/",
+  "title": "Tổng hợp kiến thức: thay lốp khi nào",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "summary": "Thay lốp sớm quá là phí tiền, thay muộn quá là phí cả an toàn — và khoảng giữa hai thái cực đó được đo bằng các dấu hiệu đọc được, không phải cảm giác. Lốp không có đèn báo trên đồng hồ, nhưng nó có một hệ thống báo hiệu riêng: khối chỉ báo mòn nổi trong rãnh hoa, vết nứt tóc trên thành cao su, độ cứng tăng dần theo tuổi, tiếng rít khác thường khi vào cua ướt. Bài tổng hợp này gom cả bảy tín hiệu của một chiếc lốp đã tới lúc thay, phân loại tín hiệu \"thay ngay\" với tín hiệu \"kế hoạch thay\", giải thích các ngưỡng quyết định (TWI, tuổi lốp theo mã DOT, độ mòn lệch), và chỉ cách lập kế hoạch thay để không bị ép mua lốp giữa mưa hoặc chọn đại một bộ lốp dở vì đang kẹt xe.",
+  "quickAnswer": "Thay lốp ngay khi có một trong các dấu hiệu: mòn tới chỉ báo TWI (khối cao su trong rãnh), phồng trên thành, rách hông, nứt thành lộ lớp mỏi, đâm hông lốp không vá được. Lên kế hoạch thay khi: lốp quá khoảng 5 năm tuổi (mã DOT), mòn gần chỉ báo, nứt tóc rải rác, mòn lệch mép kéo dài dù đã chỉnh áp suất. Mòn lệch trái-phái rõ là vấn đề căn bánh, giải quyết trước khi thay lốp mới nếu không lốp mới mòn lệch lại. Mua lốp dự trữ đúng cỡ khi còn chạy được thì chủ động chọn được thương hiệu và giá.",
+  "keyPoints": [
+   "Chỉ báo TWI trong rãnh hoa là ngưỡng khách quan nhất: mặt lốp mòn ngang đỉnh khối là tới hạn thay.",
+   "Tuổi lốp kể từ ngày sản xuất (mã DOT 4 số) — quá khoảng 5 năm là thay dù hoa còn sâu.",
+   "Phồng, rách hông, nứt tới lộ lớp mỏi: thay ngay, không vá, không chạy tiếp.",
+   "Mòn mép hai bên kéo dài: lỗi áp suất non — chỉnh áp suất rồi theo dõi, không thay ngay."
+  ],
+  "entities": [
+   "thay lốp",
+   "chỉ báo mòn TWI",
+   "mã DOT",
+   "nứt thành lốp",
+   "phồng lốp",
+   "mòn lệch lốp",
+   "căn chỉnh bánh"
+  ],
+  "keywords": [
+   "thay lốp xe máy khi nào",
+   "dấu hiệu lốp mòn",
+   "tuổi thọ lốp xe máy",
+   "lốp nứt phải thay không",
+   "TWI lốp",
+   "kế hoạch thay lốp"
   ]
  },
  {
