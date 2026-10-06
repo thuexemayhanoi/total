@@ -7956,6 +7956,34 @@
   ]
  },
  {
+  "url": "ride/di-phuot/an-toan-khi-phuot/",
+  "title": "An toàn khi phượt — những điều cần biết",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "summary": "An toàn trong phượt không nằm ở một món đồ nào — nó nằm ở chuỗi quyết định trước, trong và sau chuyến. Người mới thường nghĩ \"an toàn\" là đi chậm; thực tế người đi chậm nhưng chuẩn bị sơ sài vẫn nguy hiểm hơn người đi nhanh nhưng hiểu rõ xe, đường và giới hạn của mình. Bài này gom lại thành năm phần: kiểm tra xe trước chuyến theo quy trình bốn mươi phút; trang bị bảo hộ theo thứ tự ưu tiên tiền đúng chỗ; ba nguyên tắc chạy đoàn không đánh mất nhau; nhận biết dấu hiệu cơ thể mệt và dấu hiệu đường nguy hiểm; và quy trình xử lý khi có sự cố — ngã, hỏng xe, kẹt đường. Mỗi phần viết theo kiểu checklist người mới dùng được ngay: phượt an toàn là thói quen lặp lại, không phải tài năng.",
+  "quickAnswer": "An toàn khi phượt = chuẩn bị + giới hạn + phản xạ. Chuẩn bị: kiểm tra xe theo quy trình bốn mươi phút (lốp — phanh — xích — đèn — điện — đồ dự phòng), bảo hộ theo thứ tự mũ chuẩn — găng — giày — đầu gối — áo gió, và mọi chuyến đều có người biết hành trình. Giới hạn: tự trả lời ba câu trước mỗi chuyến — xe chịu nổi chặng này không, mình lái nổi trong điều kiện này không, trời có cho đi hôm nay không; một câu \"không\" là chỉnh kế hoạch. Chạy đoàn: thỏa trước tốc người chậm nhất, điểm dừng kế tiếp, tín hiệu dừng khẩn. Trên đường: nghe cơ thể (mắt nheo — vai cứng — ảo giác ga) là dừng ngay. Sự cố: ngã thì nằm im tự kiểm trước khi bò dậy; hỏng xe thì đưa khỏi làn đường trước mọi việc khác. Chậm tới trễ hơn tới viện — câu này xứng đáng dán trên đồng hồ của mọi người mới.",
+  "keyPoints": [
+   "Kiểm tra xe trước chuyến theo quy trình: lốp — phanh — xích — đèn — điện — đồ dự phòng, bốn mươi phút đổi cả chuyến.",
+   "Bảo hộ ưu tiên đúng thứ tự: mũ chuẩn đứng đầu — găng — giày — đầu gối — áo gió, tiền bỏ đúng chỗ đầu tiên.",
+   "Trước mỗi chuyến trả ba câu: xe chịu nổi không, mình lái nổi không, trời có cho đi không — một câu không là chỉnh kế hoạch.",
+   "Chạy đoàn: tốc người chậm nhất, điểm dừng kế tiếp rõ, tín hiệu dừng khẩn — ba thứ đó không mất nhau."
+  ],
+  "entities": [
+   "an toàn phượt",
+   "kiểm tra xe",
+   "bảo hộ",
+   "chạy đoàn",
+   "dấu hiệu mệt"
+  ],
+  "keywords": [
+   "an toan khi phuot",
+   "phuot an toan",
+   "kinh nghiem di phuot",
+   "chay xe may an toan",
+   "trang bay bao ho"
+  ]
+ },
+ {
   "url": "wiki/lop-banh-xe/ap-suat-lop/",
   "title": "Hướng dẫn chi tiết về áp suất lốp",
   "category": "Bách khoa xe",
@@ -8289,6 +8317,34 @@
    "trieu chung hong xe may",
    "xe may kho khoi dong",
    "mo ta loi xe cho tho"
+  ]
+ },
+ {
+  "url": "ride/lai-xe-duong-dai/chay-xe-duong-truong/",
+  "title": "Kinh nghiệm chạy xe đường trường dành cho người mới",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "summary": "Đường trường khác đường phố không chỉ ở độ dài — nó là một môi trường có luật riêng: xe tải, đường hẹp qua thị trấn, ánh sáng thiếu và thời tiết đổi giữa chặng. Người mới lên đường trường thường mang theo phản xạ phố (chạy sát, vượt nhanh, coi đèn xe trước là chuẩn mực) và những phản xạ đó chính là thứ gây rủi ro. Kinh nghiệm trong bài gồm năm phần: đọc mặt đường trường qua bốn dấu hiệu (vệt cua sẫm, sỏi mới, vệt dầu, mép cát); kỹ thuật vượt xe an toàn theo quy trình ba bước; đi đêm đúng cách — hoặc tốt hơn là không đi đêm; đi qua thị trấn và đoạn đường hẹp đông; và xử lý mưa gió giữa chặng. Mỗi phần là thứ người mới dùng được ngay chuyến đầu: đường trường tha thứ cho người chậm, và không tha cho người vội — đó là quy luật xuyên suốt của mọi phần bên dưới.",
+  "quickAnswer": "Chạy xe đường trường an toàn = đọc đường + nhịp điệu + kiên nhẫn. Đọc đường: vệt phanh cua sẫm là chỗ người khác phanh nhiều — coi chừng phía sau cua; sỏi mới và vệt dầu là chỗ trơn; mép đường cát cuốn gió tránh lăn sát. Vượt xe ba bước: theo sau hai giây tìm tầm nhìn, ra tín hiệu và lấy đà với khoảng cách, vượt dứt khoát trong tầm nhìn rồi mới về làn. Đi đêm: nếu buộc đi thì đèn chế sáng, tốc giảm một bậc, không bao giờ chạy theo đèn xe đối diện đoán đường; tốt hơn hết là dừng trước hoàng hôn. Thị trấn: tốc chạm ba mươi — bốn mươi, coi mọi người đi bộ là ngẫu nhiên, không vượt trong đoạn đông. Thời tiết xấu: mưa vừa mới là mặt đường trơn nhất; gió ngang giữ ga nhẹ và ngả người ngược nhẹ. Quy tắc gộp: đường trường không tha cho người vội — mọi kỹ thuật trên đều là các cách khác nhau của việc chậm đúng chỗ.",
+  "keyPoints": [
+   "Đọc mặt đường qua bốn dấu: vệt cua sẫm, sỏi mới rải, vệt dầu loang, mép cát — mỗi dấu là một lệnh giảm tốc.",
+   "Vượt xe ba bước: theo sau hai giây tìm tầm nhìn — ra tín hiệu và lấy đà — vượt dứt khoát rồi mới về làn.",
+   "Đêm: tốt nhất không đi; buộc đi thì đèn chế sáng, chậm một bậc, và tuyệt đối không đoán đường theo đèn xe đối diện.",
+   "Thị trấn và đoạn đông: chạm ba mươi — bốn mươi, coi người đi bộ là ngẫu nhiên, không vượt trong đoạn đông."
+  ],
+  "entities": [
+   "đường trường",
+   "vượt xe",
+   "đi đêm",
+   "thị trấn",
+   "mặt đường trơn"
+  ],
+  "keywords": [
+   "chay xe duong truong",
+   "kinh nghiem duong truong",
+   "vuot xe an toan",
+   "xe may di dem",
+   "doc duong"
   ]
  },
  {
@@ -8770,6 +8826,62 @@
   ]
  },
  {
+  "url": "ride/di-phuot/di-phuot-mua/",
+  "title": "Kinh nghiệm đi phượt mưa dành cho người mới",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "summary": "Mưa không hủy chuyến phượt — nó chỉ thay đổi luật chơi. Người mới thường mắc hai lỗi đối lập: hoặc hoảng hủy chuyên khi thấy mây đổ, hoặc coi thường màn mưa thứ nhất rồi trượt ngã ở màn thứ hai. Kinh nghiệm trong bài gói lại thành năm phần: chuẩn bị đồ chống nước theo tầng (người — đồ — xe); đọc thời tiết và ba loại mưa (nhoáng — cơn — dầm) để quyết đi hay dừng; kỹ năng lái trên đường ướt (ga — phanh — tư thế); ba điểm đỏ tuyệt đối tránh khi mưa (vũng lớn — sơn dầu — đèo trơn); và quy trình dừng an toàn khi mưa lớn — chọn chỗ, giữ ấm, và khung giờ chờ hợp lý. Nắm được cái này, mưa từ kẻ thù trở thành chi tiết của chuyến đi: phần đông kỷ niệm phượt đáng nhớ nhất lại quay đúng giữa màn mưa.",
+  "quickAnswer": "Đi phượt mưa an toàn theo ba tầng: trang bị — kỹ năng — quyết định. Trang bị: áo mưa hai mảnh kín, đựng giấy tờ và điện thoại trong túi chống nước, bọc hành lý bằng túi nilon hai lớp, kiểm tra lốp và má phanh trước chuyến. Kỹ năng: giảm tốc so với khô khoảng một phần ba, vào cua rộng và ra ga nhẹ, phanh trước nh ưu tiên phanh sau, tránh luôn vết bánh xe cũ trên mặt đường ướt. Ba điểm đỏ: vũng lớn không thấy đáy, đoạn sơn dầu óng ánh nhiều màu, đèo dốc trơn khi mưa vừa mới — nếu gặp một trong ba, dừng chờ. Quyết định: mưa nhoáng thì đi chậm, cơn mưa lớn thì tìm mái che 15–30 phút, mưa dầm kèm gió lạnh thì nghỉ hẳn — không bao giờ chạy đua với mưa trên đường núi.",
+  "keyPoints": [
+   "Trang bị chống nước theo tầng: người (áo mưa kín) — đồ (túi chống nước hai lớp) — xe (kiểm tra lốp, má phanh, độ căng dây).",
+   "Phân biệt ba loại mưa: nhoáng đi chậm được, cơn lớn tìm mái che 15–30 phút, dầm kèm lạnh thì nghỉ hẳn.",
+   "Trên đường ướt: giảm khoảng một phần ba tốc độ, ga nhẹ trong cua, phanh sau trước phanh trước, tránh vết bánh xe cũ.",
+   "Ba điểm đỏ: vũng không thấy đáy, vết sơn dầu óng ánh, đèo trơn sau mưa mới — gặp là dừng."
+  ],
+  "entities": [
+   "đi phượt mưa",
+   "áo mưa hai mảnh",
+   "đường trơn",
+   "sơn dầu",
+   "vết bánh xe"
+  ],
+  "keywords": [
+   "di phuot mua",
+   "kinh nghiem phuot mua",
+   "xe may di mua",
+   "chay xe duong uot",
+   "an toan khi mua"
+  ]
+ },
+ {
+  "url": "ride/di-phuot/di-phuot/",
+  "title": "Hướng dẫn chi tiết về đi phượt",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "summary": "Đi phượt — tự lái xe máy đến những nơi xa nhà, tự lo từng chặng — là một kỹ năng gồm nhiều lớp: lớp chuẩn bị (xe, đồ, kế hoạch), lớp đường trường (kỹ năng lái và thói quen an toàn), lớp ứng xử (thời tiết, người lạ, địa phương) và lớp sau chuyến (rút kinh nghiệm, chăm lại xe). Người mới thường chỉ nhìn lớp giữa — phần chạy đường vui — và bỏ sót chính là các lớp khung quanh nó làm phần giữa vui được. Hướng dẫn này đi chi tiết theo đúng trình tự một chuyến phượt: chuẩn bị xe theo danh mục thật (không theo cảm giác \"chắc được\"); lên kế hoạch có giờ về và phương án dự phòng; bốn nhóm thói quen trên đường (nghỉ, nước, tốc, dừng); ứng xử thời tiết và sự cố nhỏ; và phần về nhà — hai việc bắt buộc làm trong ngày về mà dân phượt lâu năm không bỏ. Đọc xong, chuyến phượt đầu của bạn có đủ khung để tự nó dạy bạn phần còn lại — vì phượt đúng cách là lớp học mỗi cuối tuần đều mở.",
+  "quickAnswer": "Đi phượt trọn vẹn = 5 khâu. 1) Chuẩn bị xe trước chuyến vài ngày: nhớt – lốp – phanh – xích – đèn, vòng thử hôm trước, bộ vá lốp mini + bơm theo xe. 2) Kế hoạch: tuyến + giờ xuất phát, điểm nghỉ đặt trước, và giờ về — lịch không có giờ về là lịch hụt; xem dự báo tuyến đêm trước. 3) Trên đường: nghỉ 45–60 phút/lần, uống nước trước khát, giữ tốc \"êm\" của mình (không phải tốc người khác), dừng ở mọi điểm xăng lớn để đổ đầy + mua nước + hỏi tin đường. 4) Thời tiết – sự cố: mưa lớn vào quán chờ, hỏng nhỏ tự xử theo bộ đồ mang, gọi hỗ trợ sớm khi hỏng lớn; sức khỏe là mốc duy nhất không dời. 5) Về nhà: rửa xe thật sạch trong ngày, soi lại xe, và ghi 3 dòng rút kinh nghiệm. Phượt giỏi không phải đi xa nhất — là mỗi chuyến về đều nguyên vẹn và chuyến sau nhẹ hơn chuyến trước.",
+  "keyPoints": [
+   "Năm khâu: chuẩn bị xe — kế hoạch — thói quen trên đường — xử thời tiết/sự cố — hai việc sau khi về.",
+   "Xe: bảo dưỡng trước vài ngày + vòng thử; bộ vá lốp mini và bơm là trang bị chuẩn của mọi chuyến.",
+   "Kế hoạch phải có giờ về và phương án dự phòng; lịch không có giờ về kéo chuyến vào khung xấu nhất.",
+   "Trên đường: nghỉ 45–60 phút, uống trước khát, tốc \"êm\" của mình, dừng đổ đầy ở mọi điểm xăng lớn."
+  ],
+  "entities": [
+   "đi phượt",
+   "chuẩn bị xe",
+   "kế hoạch chuyến đi",
+   "nghỉ giữa chặng",
+   "rút kinh nghiệm"
+  ],
+  "keywords": [
+   "di phuot",
+   "huong dan di phuot",
+   "kinh nghiem di phuot",
+   "phuot xe may cho nguoi moi",
+   "chuan bi di phuot"
+  ]
+ },
+ {
   "url": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/",
   "title": "Điều kiện lái xe máy: tuổi, giấy phép và sức khỏe theo quy định",
   "category": "Kiến thức chuyên sâu",
@@ -8947,6 +9059,34 @@
    "chong met khi lai xe",
    "an toan duong dai",
    "nghi giua chang"
+  ]
+ },
+ {
+  "url": "ride/du-lich-xe-may/du-lich-tu-tuc/",
+  "title": "Du lịch tự túc — những điều cần biết",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "summary": "Du lịch tự túc là hình thức du lịch phát triển nhanh nhất một thập kỷ qua — và cũng là hình thức bị hiểu lầm nhiều nhất: nhiều người nghĩ \"tự túc\" nghĩa là rẻ, trong khi bản chất của nó là tự quyết định. Tự lo chuyến đi đồng nghĩa chọn được điểm dừng theo mình, đổi lịch theo trời, ăn quán theo người địa phương chỉ — và đồng nghĩa cũng tự gánh mọi khâu: kế hoạch, ngân sách, sự cố. Bài viết xếp những điều cần biết theo đúng một chuyến tự túc đầu tiên: chuẩn bị kiểu tự túc (lịch trình, ngân sách có dự phòng, chỗ nghỉ); các khâu hay bị đánh giá thấp nhất (di chuyển tại điểm đến, liên lạc, sức khỏe); an toàn và phòng trừ (giấy tờ, tiền, đồ đạc, nơi nghỉ tin cậy); tự túc theo nhóm nhỏ so với một mình; và phần sự cố — khi có chuyện giữa chuyến, cách người tự túc xử cho chuyến tiếp tục. Hiểu đúng bảy phần này, tự túc từ \"liều\" thành kỹ năng — và kỹ năng đó theo người đi mọi chuyến sau, kể cả những chuyến có sau này người ta muốn đi theo tour.",
+  "quickAnswer": "Du lịch tự túc = tự quyết định + tự gánh mọi khâu. Chuẩn bị: lịch trình có khe (mỗi mốc +20%), ngân sách có khoản dự phòng sự cố 15–20% tách khỏi tiền tiêu, chỗ nghỉ đặt trước và có lựa chọn dự phòng. Khâu bị đánh giá thấp nhất: di chuyển tại điểm đến (xe gì, giá nào, hỏi trước), liên lạc (sim/sóng, bản offline), sức khỏe (thuốc cá nhân, điểm y tế gần nhất). An toàn: giấy tờ bản chính theo người bản photo để ở balo khác, tiền tách túi, đồ đạc không để bừa nơi công cộng, nơi nghỉ có đánh giá tốt và xe/trông giữ được. Một mình hợp ai đã tự lo ổn chuyến ngắn; nhóm nhỏ 2–4 người là cấu trúc tự túc vui nhất. Sự cố giữa chuyến: bình tĩnh, gọi hỗ trợ sớm, ghi lại mọi thứ — tự túc giỏi không phải không gặp sự cố, là gặp sự cố vẫn chủ động.",
+  "keyPoints": [
+   "Tự túc = tự quyết định và tự gánh: đẹp ở tự do, nặng ở mọi khâu đều của mình — biết trước để chuẩn bị đúng.",
+   "Lịch trình có khe 20%, ngân sách có dự phòng sự cố 15–20% tách khỏi tiền tiêu, nghỉ đặt trước có dự phòng.",
+   "Hai khâu hay bị đánh giá thấp nhất: di chuyển tại điểm đến và liên lạc (sim, bản đồ offline).",
+   "An toàn mẫu số chung: giấy tờ chính theo người (photo để chỗ khác), tiền tách túi, nơi nghỉ có xe trông giữ."
+  ],
+  "entities": [
+   "du lịch tự túc",
+   "ngân sách dự phòng",
+   "chỗ nghỉ",
+   "di chuyển địa phương",
+   "an toàn du lịch"
+  ],
+  "keywords": [
+   "du lich tu tuc",
+   "kinh nghiem du lich tu tuc",
+   "du lich tu tuc cho nguoi moi",
+   "ngan sach du lich tu tuc",
+   "an toan du lich tu tuc"
   ]
  },
  {
@@ -9448,6 +9588,34 @@
   ]
  },
  {
+  "url": "ride/di-phuot/ky-nang-phuot/",
+  "title": "Hướng dẫn chi tiết về kỹ năng phượt",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "summary": "Kỹ năng phượt không phải tài năng — đó là tập hợp phản xạ nhỏ được lặp lại đúng cách, và người mới có thể xây đủ bộ kỹ năng cho chuyến đầu chỉ trong vài cuối tuần. Bài này xếp kỹ năng theo bốn tầng từ gốc lên: kỹ thuật nền (tư thế — ga — phanh — số) là mọi thứ khác dựng lên trên; kỹ thuật cua đúng trình tự — chậm trước, nhìn xuyên, nghiêng người không nghiêng xe vội; kỹ năng đường đặc biệt gồm đèo dốc, đường sỏi, và cua mù; và cuối là phương pháp tập — cách người mới luyện phản xạ an toàn ở bãi xe vắng thay vì học bằng sự cố thật. Người mới đọc xong biết chính xác mình cần tập gì tuần này, tuần sau, và khi nào là đủ để đi chuyến đầu tiên.",
+  "quickAnswer": "Kỹ năng phượt xếp theo bốn tầng. Tư thế nền: mắt nhìn xa, vai thả, khuỷu không khoá, gót bám chân — tư thế đúng cho tay lái nhẹ và phản xạ sống. Phanh đồng bộ: phanh sau giữ thân xe, phanh trước làm chính việc giảm tốc — bóp dằn trước nhát, tăng dần lực, thẳng xe mới phanh mạnh. Cua bốn bước: về số sớm và chậm trước cua, mắt nhìn lối thoát phía trong cuối cua, mở cua rộng vừa đủ, trả ga nhẹ dọc cua và ra ga khi thẳng xe. Đường đặc biệt: đèo về số thấp giữ động cơ do việc phanh, sỏi ga đều không phanh gắt, cua mù không vượt và luôn giữ bên phần đường mình. Phương pháp tập: bãi vắng luyện phanh khẩn và cua hẹp trước, rồi mới thêm chuyến thật ngắn — kỹ năng không có ở người không tập, chỉ ở người tập.",
+  "keyPoints": [
+   "Tư thế nền quyết định mọi kỹ năng khác: mắt nhìn xa, vai thả, gót bám chân — tay lái nhẹ là kết quả, không phải mục đích.",
+   "Phanh đồng bộ: sau giữ thân xe, trước làm chính việc giảm, bóp dằn nhát đầu và chỉ phanh mạnh khi xe thẳng.",
+   "Cua bốn bước: chậm trước cua — nhìn lối thoát — mở cua rộng vừa đủ — trả ga nhẹ, ra ga khi thẳng xe.",
+   "Đèo: số thấp để động cơ giữ xe, phanh nhịp không phanh ôm; sỏi: ga đều, không phanh gắt, chọn vạch bánh xe đi."
+  ],
+  "entities": [
+   "kỹ năng phượt",
+   "tư thế lái",
+   "phanh đồng bộ",
+   "kỹ thuật cua",
+   "đường đèo"
+  ],
+  "keywords": [
+   "ky nang phuot",
+   "ky thuat lai xe may",
+   "cua xe may",
+   "phanh xe may",
+   "hoc lai xe duong dai"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/ky-thuat-lai-xe-may/",
   "title": "Kỹ thuật lái xe máy — những điều cần biết",
   "category": "Kiến thức chuyên sâu",
@@ -9478,6 +9646,34 @@
   ]
  },
  {
+  "url": "ride/lai-xe-duong-dai/lai-xe-duong-dai/",
+  "title": "Tổng hợp kiến thức: lái xe đường dài",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "summary": "Lái xe đường dài là môn thể lực có kỹ thuật, không phải chỉ ngồi xoay ga — và người mới hay để sự căng thẳng làm hỏng chuyến đầu tiên. Bài này tổng hợp kiến thức theo trình tự của một chuyến đi thật: chuẩn bị xe và người trước khi xuất phát; chia chặng theo nhịp sinh học thay vì theo ki-lô-mét; giữ tốc độ hợp lý — khái niệm bị hiểu sai nhiều nhất của đường dài; nhận diện và xử lý cảm giác mệt trước khi nó trở thành buồn ngủ; và cuối là bốn lỗi kinh điển của người mới trên đường trường, từ theo đèn xe trước tới bấm còi xin vượt ở chỗ không được vượt. Đọc xong, người mới có được khung tư duy của chuyến dài: đường dài không đo bằng quãng đường đi được, mà đo bằng việc tới nơi còn tỉnh và còn nguyên vẹn.",
+  "quickAnswer": "Lái xe đường dài gồm bốn mảng. Chuẩn bị: xe kiểm tra quy trình đầy đủ (lốp — phanh — xích — đèn — dầu), người ngủ đủ đêm trước, đồ xếp theo tầng lấy-nhiều-nằm-ngoài. Chặng: chia theo nhịp sinh học — xuất phát sau trời sáng, nghỉ mười lăm phút mỗi một tiếng rưỡi, bữa trưa nghỉ thật, dừng về trước hoàng hôn; chặng buổi sáng dài, buổi chiều ngắn dần. Tốc độ: hợp lý là mức mình giữ được đều cả ngày, thường chậm hơn người mới tưởng khoảng mười phần trăm — nhanh hơn chút không tới sớm bao nhiêu nhưng hao người và hao xe gấp. Mệt: dấu đầu là mắt nheo và ga nặng — xuống xe đứng, uống nước, ăn nhẹ chứ không phải cố; buồn ngủ là dừng thật, chứ không phải mở kính hay bật nhạc. Lỗi kinh điển: không theo đèn xe trước làm điểm phanh giùm, không xin vượt ở cua mù, không tin đoạn quen, và không coi đường trường là đường thi.",
+  "keyPoints": [
+   "Đường dài là môn thể lực: ngủ đủ đêm trước chuyến đáng giá hơn mọi kỹ thuật chạy ngày hôm sau.",
+   "Chia chặng theo nhịp sinh học: sáng chặng dài, nghỉ mười lăm phút mỗi một tiếng rưỡi, trưa nghỉ thật, chiều ngắn dần.",
+   "Tốc độ hợp lý là mức giữ đều cả ngày — nhanh hơn chút không tới sớm là mấy nhưng hao người hao xe gấp.",
+   "Dấu mệt đầu tiên (mắt nheo, ga nặng) là lúc dừng — để tới buồn ngủ thì đã quá muộn."
+  ],
+  "entities": [
+   "lái xe đường dài",
+   "chia chặng",
+   "tốc độ hợp lý",
+   "nghỉ ngắn",
+   "đường trường"
+  ],
+  "keywords": [
+   "lai xe duong dai",
+   "chay xe duong dai",
+   "kinh nghiem lai xe duong dai",
+   "ngu khi lai xe",
+   "toc do duong truong"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/lai-xe-duong-mua/",
   "title": "Lái xe máy dưới mưa: checklist an toàn từ áo mưa đến điểm bám đường",
   "category": "Kiến thức chuyên sâu",
@@ -9505,6 +9701,34 @@
    "duong tron di xe may",
    "ky thuat phanh duong uot",
    "aquaplaning xe may"
+  ]
+ },
+ {
+  "url": "ride/du-lich-xe-may/lich-trinh-du-lich/",
+  "title": "Kinh nghiệm lịch trình du lịch dành cho người mới",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "summary": "Lịch trình tốt là thứ phân biệt chuyến du lịch \"đi về mệt\" với chuyến \"về đầy\": cùng một điểm đến, cùng một ngân sách, người có lịch trình đúng về nhà kể chuyện, người không có về nhà kể tội. Với người mới, lỗi lịch trình phổ biến nhất không phải thiếu kế hoạch mà là kế hoạch quá tham — nhồi bảy điểm vào một ngày, ghi khung giờ chính xác đến phút, và coi mọi sai lệch là thất bại. Kinh nghiệm trong bài xây dựng lịch trình theo tư duy ngược: chọn ít, đi sâu, để khe; cụ thể gồm năm phần — chọn điểm đến và mùa; cấu trúc ngày hợp lý (khung vàng, khung nghỉ, khung bỏ); nguyên tắc khe dự phòng 20%; lịch trình theo nhóm (thỏa thuận năm phút và tốc người chậm nhất); và bản lịch trình thực dụng mẫu cho chuyến 2 ngày 1 đêm — để người mới copy khung mà dùng. Làm được bài này, mọi chuyến sau chỉ cần đổi địa danh: khung lịch trình tốt dùng lại được cả đời đi.",
+  "quickAnswer": "Lịch trình du lịch cho người mới theo nguyên tắc \"chọn ít — đi sâu — để khe\". Chọn: mỗi ngày một điểm chính + tối đa hai điểm phụ; điểm chính là nơi đáng dành nửa ngày, không phải nơi đáng chụp 5 phút. Chia ngày theo khung: sáng đi chặng dài (mát, tỉnh), trưa nghỉ thật 30–60 phút, chiều chặng nhẹ, tối về/đến nghỉ trước hoàng hôn. Khe dự phòng 20%: mọi mốc giờ +20% thời gian di chuyển — lịch trình không khe là lịch trình vỡ ở sự cố đầu tiên. Mùa: điểm nào mùa nào đẹp phải xem trước, và mùa cao điểm đặt nghỉ trước bằng tiền. Nhóm: thỏa trước tốc người chậm nhất, điểm dừng kế tiếp, tín hiệu dừng khẩn. Chuyến 2 ngày 1 đêm mẫu: ngày 1 một điểm chính + một điểm phụ nhẹ, ngày 2 điểm chính thứ hai và đường về khác đường đi — hai tuyến khác nhau là hai trải nghiệm.",
+  "keyPoints": [
+   "Nguyên tắc nền: chọn ít điểm — đi sâu mỗi điểm; lịch trình nhồi là công thức của du lịch mệt nhất.",
+   "Cấu trúc ngày: sáng chặng dài, nghỉ trưa thật, chiều nhẹ, đến/ghé về trước hoàng hôn.",
+   "Khe dự phòng 20%: mọi mốc +20% — sự cố đầu tiên không nên phá cả lịch.",
+   "Mùa quyết định điểm: xem trước điểm nào mùa nào đẹp; cao điểm đặt nghỉ sớm bằng tiền."
+  ],
+  "entities": [
+   "lịch trình du lịch",
+   "điểm chính",
+   "khung giờ vàng",
+   "khe dự phòng",
+   "lịch trình nhóm"
+  ],
+  "keywords": [
+   "lich trinh du lich",
+   "len ke hoach du lich",
+   "lich trinh du lich cho nguoi moi",
+   "chon diem den",
+   "lich trinh 2 ngay 1 dem"
   ]
  },
  {
@@ -9662,6 +9886,34 @@
   ]
  },
  {
+  "url": "ride/lai-xe-duong-dai/met-moi-khi-lai/",
+  "title": "Mệt mỏi khi lái — những điều cần biết",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "summary": "Mệt mỏi là nguyên nhân ẩn sau rất nhiều sự cố được ghi nguyên nhân \"mất tập trung\" — và nó nguy hiểm chính vì người lái hầu như không nhận ra mình đã mệt. Bài này viết về mệt khi lái như một quá trình có thang đo được: từ dấu hiệu sớm (mắt nheo, vai cứng, ga nặng) tới ba cấp độ cần ba cách xử lý khác nhau; phân biệt mệt cơ với buồn ngủ — hai thứ này gần nhưng xử khác nhau; cơ chế vì sao mệt làm lái nguy hiểm (phản xạ chậm, tầm nhìn hẹp, và não tự \"đi tắt\" quyết định); và cuối là bộ thói quen chống mệt từ đêm trước chuyến tới nhịp nghỉ trên đường. Người mới nắm được thang này sẽ biến \"cố thêm chút nữa\" — câu cửa miệng nguy hiểm nhất của người lái — thành \"nghỉ đúng lúc\", và chuyến dài từ đó an toàn hẳn mà không cần bất kỳ kỹ thuật lái mới nào.",
+  "quickAnswer": "Mệt mỏi khi lái — những điều cần biết: mệt có thang và đọc được. Cấp một — mắt nheo dù không gió, vai cổ cứng: nghỉ ngắn mười lăm phút, xuống xe đứng, uống nước. Cấp hai — ga cảm giác nặng, liếc đồng hồ thấy nhanh hơn cảm giác, tự đàm phán \"cố thêm chút\": nghỉ dài nửa tiếng, ăn nhẹ đồ ngọt, đi bộ, nếu được thì chợp mắt mười lăm phút. Cấp ba — chớp mắt dài, không nhớ rõ đoạn vừa đi: dừng hẳn, ngủ một chập thật — không có cách thứ hai. Phân biệt: mệt cơ thì nghỉ ngắn sạch được; buồn ngủ thì chỉ ngủ mới hết, mọi cách khác (kính mở, nhạc to) chỉ đánh lừa cảm giác. Chống mệt từ gốc: ngủ đủ đêm trước chuyến, nghỉ mười lăm phút mỗi một tiếng rưỡi, ăn nhẹ nhiều bữa thay no căng một bữa, và uống nước đều đặn — mất nước nhẹ đã đủ làm tập trung sa. Quy tắc cốt lõi: mệt lái là rượu lái không nhãn — đừng để đồng hồ tốc độ cao hơn mức tỉnh táo của mình.",
+  "keyPoints": [
+   "Mệt có ba cấp: nghỉ ngắn (mắt nheo) — nghỉ dài (ga nặng, tự đàm phán) — dừng hẳn (chớp dài, không nhớ đoạn vừa đi).",
+   "Buồn ngủ chỉ ngủ mới hết; mọi cách khác đánh lừa cảm giác tỉnh, không cải thiện phản xạ.",
+   "Mệt làm lái nguy hiểm qua ba đường: phản xạ chậm, tầm nhìn hẹp, và não quyết định theo lối tắt không kiểm tra.",
+   "Chống mệt bắt đầu đêm trước chuyến: nợ ngủ là món nợ lãi cao nhất của người lái."
+  ],
+  "entities": [
+   "mệt mỏi khi lái",
+   "buồn ngủ",
+   "nghỉ ngắn",
+   "phản xạ",
+   "tập trung"
+  ],
+  "keywords": [
+   "met moi khi lai",
+   "buon ngu khi lai xe",
+   "ngu giat khi lai",
+   "chong met moi",
+   "nghi khi lai xe duong dai"
+  ]
+ },
+ {
   "url": "wiki/thuat-ngu-xe/mo-men-xoan/",
   "title": "Hướng dẫn chi tiết về mô men xoắn",
   "category": "Bách khoa xe",
@@ -9812,6 +10064,34 @@
    "má phanh trống",
    "phanh sau yếu",
    "cấu tạo phanh trống"
+  ]
+ },
+ {
+  "url": "ride/di-phuot/phuot-doan/",
+  "title": "Tổng hợp kiến thức: phượt đoàn",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "summary": "Phượt đoàn — nhiều người cùng xe máy theo một lịch trình — vui gấp bội chuyến một mình nếu tổ chức đúng, và mệt gấp bội nếu tổ chức bừa: cùng một tuyến, đoàn có cấu trúc về với chuyện kể, đoàn không cấu trúc về với chuyện cãi. Tổng hợp kiến thức này gói tổ chức phượt đoàn vào năm phần: cấu trúc đoàn chuẩn (dẫn – chốt – giữa, và vì sao đoàn lớn nên chia nhóm); bảy thỏa thuận trước khi xe lăn (tốc, điểm dừng, tín hiệu, nghỉ, quỹ, đồ chung, giờ về); đội hình và khoảng cách trên đường trường; ba mâu thuẫn kinh điển của đoàn (nhanh – chậm, tiền – quỹ, giờ – đợi) và cách chặn từ gốc; và khâu hậu cần — chở đồ, xe hỏng, người mệt. Nắm được năm phần, quy mô đoàn chỉ còn là con số: từ bốn xe đến hai mươi xe, nguyên tắc không đổi — đổi duy nhất số người giữ vai và số nhóm.",
+  "quickAnswer": "Phượt đoàn an toàn = cấu trúc + thỏa thuận + đội hình. Cấu trúc: 1 người dẫn (giữ tốc đoàn, không phải tốc mình), 1 người chốt (cuối đoàn, mang đồ sửa), đoàn trên 6–8 xe chia nhóm 4–5 xe mỗi nhóm có dẫn – chốt riêng. Bảy thỏa thuận trước khi xe lăn: tốc đoàn = tốc người chậm nhất; điểm dừng kế tiếp; tín hiệu tay (rẽ – dừng – nguy hiểm); nhịp nghỉ 45–60 phút; quỹ chung nộp trước và người giữ quỹ; đồ chung ai chở; giờ về. Đội hình: khoảng cách đủ phanh lại (không đoàn sát), không đi song song trò chuyện, vượt nhau theo lượt tại điểm dừng. Ba mâu thuẫn kinh điển (nhanh – chậm, tiền – quỹ, giờ – đợi) chặn từ gốc bằng đúng bảy thỏa thuận đầu. Xe hỏng: cả nhóm đó dừng, các nhóm khác tiếp tục đến điểm hẹn — đoàn lớn không bao giờ cả đoàn đứng vì một xe.",
+  "keyPoints": [
+   "Cấu trúc chuẩn: người dẫn giữ tốc đoàn, người chốt cuối mang đồ sửa; trên 6–8 xe chia nhóm 4–5 xe.",
+   "Bảy thỏa thuận trước khi xe lăn: tốc, điểm dừng kế, tín hiệu tay, nhịp nghỉ, quỹ chung, đồ chung, giờ về.",
+   "Tốc độ đoàn = tốc người chậm nhất — quy tắc không thương lượng của mọi đoàn đi được xa cùng nhau.",
+   "Đội hình: khoảng cách đủ phanh lại, không đi song song, vượt theo lượt tại điểm dừng."
+  ],
+  "entities": [
+   "phượt đoàn",
+   "người dẫn đoàn",
+   "người chốt",
+   "quỹ chung",
+   "đội hình đoàn"
+  ],
+  "keywords": [
+   "phuot doan",
+   "to chuc phuot doan",
+   "di phuot nhom",
+   "doi hinh phuot doan",
+   "kinh nghiem phuot doan"
   ]
  },
  {

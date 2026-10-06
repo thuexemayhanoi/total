@@ -1556,6 +1556,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/di-phuot/an-toan-khi-phuot/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/ap-suat-lop/index.html",
   "kind": "article"
  },
@@ -1597,6 +1601,10 @@
  },
  {
   "rel": "learn/chuan-doan-loi/chan-doan-loi-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-duong-dai/chay-xe-duong-truong/index.html",
   "kind": "article"
  },
  {
@@ -1664,6 +1672,14 @@
   "kind": "article"
  },
  {
+  "rel": "ride/di-phuot/di-phuot-mua/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/di-phuot/di-phuot/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/index.html",
   "kind": "article"
  },
@@ -1685,6 +1701,10 @@
  },
  {
   "rel": "ride/cung-duong/du-lich-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/du-lich-tu-tuc/index.html",
   "kind": "article"
  },
  {
@@ -1756,11 +1776,23 @@
   "kind": "article"
  },
  {
+  "rel": "ride/di-phuot/ky-nang-phuot/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/ky-thuat-lai-xe-may/index.html",
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/lai-xe-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/lai-xe-duong-mua/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/lich-trinh-du-lich/index.html",
   "kind": "article"
  },
  {
@@ -1784,6 +1816,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/met-moi-khi-lai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/thuat-ngu-xe/mo-men-xoan/index.html",
   "kind": "article"
  },
@@ -1801,6 +1837,10 @@
  },
  {
   "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/di-phuot/phuot-doan/index.html",
   "kind": "article"
  },
  {

@@ -8434,6 +8434,29 @@
  },
  {
   "kind": "article",
+  "url": "ride/di-phuot/an-toan-khi-phuot/",
+  "title": "An toàn khi phượt — những điều cần biết",
+  "description": "An toàn khi phượt cho người mới: kiểm tra xe, trang bị bảo hộ, nguyên tắc chạy đoàn, dấu hiệu mệt và xử lý khi có sự cố trên đường.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "an toàn phượt",
+   "kiểm tra xe",
+   "bảo hộ",
+   "chạy đoàn",
+   "dấu hiệu mệt"
+  ],
+  "keywords": [
+   "an toan khi phuot",
+   "phuot an toan",
+   "kinh nghiem di phuot",
+   "chay xe may an toan",
+   "trang bay bao ho"
+  ],
+  "summary": "An toàn trong phượt không nằm ở một món đồ nào — nó nằm ở chuỗi quyết định trước, trong và sau chuyến. Người mới thường nghĩ \"an toàn\" là đi chậm; thực tế người đi chậm nhưng chuẩn bị sơ sài vẫn nguy hiểm hơn người đi nhanh nhưng hiểu rõ xe, đường và giới hạn "
+ },
+ {
+  "kind": "article",
   "url": "wiki/lop-banh-xe/ap-suat-lop/",
   "title": "Hướng dẫn chi tiết về áp suất lốp",
   "description": "Áp suất lốp xe máy chuẩn là bao nhiêu, kiểm khi nào, vì sao non hơi mòn mép lốp nhanh, vì sao căng quá mất bám, và cách xử lý rò khí kéo dài.",
@@ -8712,6 +8735,29 @@
    "mo ta loi xe cho tho"
   ],
   "summary": "Chiếc xe \"không chịu như hôm qua\" là câu chuyện quen thuộc với mọi người đi xe máy: sáng nay đề khó hơn, tiếng máy có thêm một âm lạ, ga nặng hơn một chút hoặc đèn nháy không đều. Với người không rành máy móc, phản ứng thường là một trong hai thái cực — hoặc b"
+ },
+ {
+  "kind": "article",
+  "url": "ride/lai-xe-duong-dai/chay-xe-duong-truong/",
+  "title": "Kinh nghiệm chạy xe đường trường dành cho người mới",
+  "description": "Kinh nghiệm chạy xe đường trường cho người mới: đọc mặt đường, vượt xe an toàn, đi đêm, qua thị trấn và xử lý thời tiết xấu trên đường trường.",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "entities": [
+   "đường trường",
+   "vượt xe",
+   "đi đêm",
+   "thị trấn",
+   "mặt đường trơn"
+  ],
+  "keywords": [
+   "chay xe duong truong",
+   "kinh nghiem duong truong",
+   "vuot xe an toan",
+   "xe may di dem",
+   "doc duong"
+  ],
+  "summary": "Đường trường khác đường phố không chỉ ở độ dài — nó là một môi trường có luật riêng: xe tải, đường hẹp qua thị trấn, ánh sáng thiếu và thời tiết đổi giữa chặng. Người mới lên đường trường thường mang theo phản xạ phố (chạy sát, vượt nhanh, coi đèn xe trước là "
  },
  {
   "kind": "article",
@@ -9113,6 +9159,52 @@
  },
  {
   "kind": "article",
+  "url": "ride/di-phuot/di-phuot-mua/",
+  "title": "Kinh nghiệm đi phượt mưa dành cho người mới",
+  "description": "Kinh nghiệm đi phượt mưa cho người mới: trang bị chống nước, kỹ năng lái đường trơn, dấu hiệu đường nguy hiểm và khi nào nên dừng hẳn.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "đi phượt mưa",
+   "áo mưa hai mảnh",
+   "đường trơn",
+   "sơn dầu",
+   "vết bánh xe"
+  ],
+  "keywords": [
+   "di phuot mua",
+   "kinh nghiem phuot mua",
+   "xe may di mua",
+   "chay xe duong uot",
+   "an toan khi mua"
+  ],
+  "summary": "Mưa không hủy chuyến phượt — nó chỉ thay đổi luật chơi. Người mới thường mắc hai lỗi đối lập: hoặc hoảng hủy chuyên khi thấy mây đổ, hoặc coi thường màn mưa thứ nhất rồi trượt ngã ở màn thứ hai. Kinh nghiệm trong bài gói lại thành năm phần: chuẩn bị đồ chống n"
+ },
+ {
+  "kind": "article",
+  "url": "ride/di-phuot/di-phuot/",
+  "title": "Hướng dẫn chi tiết về đi phượt",
+  "description": "Hướng dẫn chi tiết đi phượt bằng xe máy: chuẩn bị xe, lên kế hoạch, an toàn trên đường và thói quen sau chuyến đi.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "đi phượt",
+   "chuẩn bị xe",
+   "kế hoạch chuyến đi",
+   "nghỉ giữa chặng",
+   "rút kinh nghiệm"
+  ],
+  "keywords": [
+   "di phuot",
+   "huong dan di phuot",
+   "kinh nghiem di phuot",
+   "phuot xe may cho nguoi moi",
+   "chuan bi di phuot"
+  ],
+  "summary": "Đi phượt — tự lái xe máy đến những nơi xa nhà, tự lo từng chặng — là một kỹ năng gồm nhiều lớp: lớp chuẩn bị (xe, đồ, kế hoạch), lớp đường trường (kỹ năng lái và thói quen an toàn), lớp ứng xử (thời tiết, người lạ, địa phương) và lớp sau chuyến (rút kinh nghiệ"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/",
   "title": "Điều kiện lái xe máy: tuổi, giấy phép và sức khỏe theo quy định",
   "description": "Lái xe máy hợp pháp tại Việt Nam cần đủ tuổi, giấy phép lái xe đúng hạng và sức khỏe phù hợp. Bài viết tóm tắt các điều kiện theo Luật giao thông đường bộ 2024.",
@@ -9260,6 +9352,29 @@
    "nghi giua chang"
   ],
   "summary": "Du lịch đường dài bằng xe máy khác một chuyến chạy cung cuối tuần ở một điều cốt lõi: nó là bài marathon, không phải chạy nước rút. Chặng dài trăm ki-lô-mét mỗi ngày đòi hỏi thứ phố không cần — quản lý cơ thể (mệt mỏi, mất nước, cồn kẹt cổ tay), quản lý thời g"
+ },
+ {
+  "kind": "article",
+  "url": "ride/du-lich-xe-may/du-lich-tu-tuc/",
+  "title": "Du lịch tự túc — những điều cần biết",
+  "description": "Du lịch tự túc: cần biết trước khi đi — lên kế hoạch, ngân sách, chỗ nghỉ, an toàn và tự do thật sự của việc tự lo.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "du lịch tự túc",
+   "ngân sách dự phòng",
+   "chỗ nghỉ",
+   "di chuyển địa phương",
+   "an toàn du lịch"
+  ],
+  "keywords": [
+   "du lich tu tuc",
+   "kinh nghiem du lich tu tuc",
+   "du lich tu tuc cho nguoi moi",
+   "ngan sach du lich tu tuc",
+   "an toan du lich tu tuc"
+  ],
+  "summary": "Du lịch tự túc là hình thức du lịch phát triển nhanh nhất một thập kỷ qua — và cũng là hình thức bị hiểu lầm nhiều nhất: nhiều người nghĩ \"tự túc\" nghĩa là rẻ, trong khi bản chất của nó là tự quyết định. Tự lo chuyến đi đồng nghĩa chọn được điểm dừng theo mình"
  },
  {
   "kind": "article",
@@ -9676,6 +9791,29 @@
  },
  {
   "kind": "article",
+  "url": "ride/di-phuot/ky-nang-phuot/",
+  "title": "Hướng dẫn chi tiết về kỹ năng phượt",
+  "description": "Hướng dẫn kỹ năng phượt xe máy cho người mới: kỹ thuật cua, phanh đồng bộ, chạy đường đèo, đường sỏi và tập luyện đúng cách trước chuyến đầu.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "kỹ năng phượt",
+   "tư thế lái",
+   "phanh đồng bộ",
+   "kỹ thuật cua",
+   "đường đèo"
+  ],
+  "keywords": [
+   "ky nang phuot",
+   "ky thuat lai xe may",
+   "cua xe may",
+   "phanh xe may",
+   "hoc lai xe duong dai"
+  ],
+  "summary": "Kỹ năng phượt không phải tài năng — đó là tập hợp phản xạ nhỏ được lặp lại đúng cách, và người mới có thể xây đủ bộ kỹ năng cho chuyến đầu chỉ trong vài cuối tuần. Bài này xếp kỹ năng theo bốn tầng từ gốc lên: kỹ thuật nền (tư thế — ga — phanh — số) là mọi thứ"
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/ky-thuat-lai-xe-may/",
   "title": "Kỹ thuật lái xe máy — những điều cần biết",
   "description": "Tổng hợp kỹ thuật lái xe máy an toàn cho người mới: tư thế ngồi đúng, quan sát xa, phanh phối hợp, giữ khoảng cách và xử lý các tình huống đường thật.",
@@ -9701,6 +9839,29 @@
  },
  {
   "kind": "article",
+  "url": "ride/lai-xe-duong-dai/lai-xe-duong-dai/",
+  "title": "Tổng hợp kiến thức: lái xe đường dài",
+  "description": "Tổng hợp kiến thức lái xe đường dài: chuẩn bị xe, chia chặng, tốc độ hợp lý, xử lý mệt và những lỗi người mới hay mắc trên đường trường.",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "entities": [
+   "lái xe đường dài",
+   "chia chặng",
+   "tốc độ hợp lý",
+   "nghỉ ngắn",
+   "đường trường"
+  ],
+  "keywords": [
+   "lai xe duong dai",
+   "chay xe duong dai",
+   "kinh nghiem lai xe duong dai",
+   "ngu khi lai xe",
+   "toc do duong truong"
+  ],
+  "summary": "Lái xe đường dài là môn thể lực có kỹ thuật, không phải chỉ ngồi xoay ga — và người mới hay để sự căng thẳng làm hỏng chuyến đầu tiên. Bài này tổng hợp kiến thức theo trình tự của một chuyến đi thật: chuẩn bị xe và người trước khi xuất phát; chia chặng theo nh"
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/lai-xe-duong-mua/",
   "title": "Lái xe máy dưới mưa: checklist an toàn từ áo mưa đến điểm bám đường",
   "description": "Lái xe máy trong mưa làm giảm lực bám đường và tầm nhìn. Hướng dẫn này giúp bạn chuẩn bị áo mưa, chọn vạch đi, giữ khoảng cách và nhận diện các điểm trơn trượt nguy hiểm nhất.",
@@ -9723,6 +9884,29 @@
    "aquaplaning xe may"
   ],
   "summary": "Mưa thay đổi mọi quy tắc lái xe thông thường: đường trơn, phanh kém nhạy, người khác cũng thấy kém. Bài viết này tổng hợp cách chuẩn bị trước khi ra đường mưa, các kỹ thuật giữ xe ổn định, những điểm nguy hiểm cần né, cùng quy tắc bảo vệ bản thân khi bị kẹt gi"
+ },
+ {
+  "kind": "article",
+  "url": "ride/du-lich-xe-may/lich-trinh-du-lich/",
+  "title": "Kinh nghiệm lịch trình du lịch dành cho người mới",
+  "description": "Kinh nghiệm lên lịch trình du lịch cho người mới: chọn điểm, chia ngày, dự phòng thời tiết và tránh lịch trình nhồi quá dày.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "lịch trình du lịch",
+   "điểm chính",
+   "khung giờ vàng",
+   "khe dự phòng",
+   "lịch trình nhóm"
+  ],
+  "keywords": [
+   "lich trinh du lich",
+   "len ke hoach du lich",
+   "lich trinh du lich cho nguoi moi",
+   "chon diem den",
+   "lich trinh 2 ngay 1 dem"
+  ],
+  "summary": "Lịch trình tốt là thứ phân biệt chuyến du lịch \"đi về mệt\" với chuyến \"về đầy\": cùng một điểm đến, cùng một ngân sách, người có lịch trình đúng về nhà kể chuyện, người không có về nhà kể tội. Với người mới, lỗi lịch trình phổ biến nhất không phải thiếu kế hoạc"
  },
  {
   "kind": "article",
@@ -9855,6 +10039,29 @@
  },
  {
   "kind": "article",
+  "url": "ride/lai-xe-duong-dai/met-moi-khi-lai/",
+  "title": "Mệt mỏi khi lái — những điều cần biết",
+  "description": "Mệt mỏi khi lái xe: dấu hiệu sớm, cách phân biệt mệt với buồn ngủ, xử lý đúng lúc và thói quen chống mệt cho chuyến đường dài.",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "entities": [
+   "mệt mỏi khi lái",
+   "buồn ngủ",
+   "nghỉ ngắn",
+   "phản xạ",
+   "tập trung"
+  ],
+  "keywords": [
+   "met moi khi lai",
+   "buon ngu khi lai xe",
+   "ngu giat khi lai",
+   "chong met moi",
+   "nghi khi lai xe duong dai"
+  ],
+  "summary": "Mệt mỏi là nguyên nhân ẩn sau rất nhiều sự cố được ghi nguyên nhân \"mất tập trung\" — và nó nguy hiểm chính vì người lái hầu như không nhận ra mình đã mệt. Bài này viết về mệt khi lái như một quá trình có thang đo được: từ dấu hiệu sớm (mắt nheo, vai cứng, ga n"
+ },
+ {
+  "kind": "article",
   "url": "wiki/thuat-ngu-xe/mo-men-xoan/",
   "title": "Hướng dẫn chi tiết về mô men xoắn",
   "description": "Mô men xoắn là gì, đơn vị Nm nghĩa sao, mô men khác công suất ở đâu, vì sao mô men quyết định cảm giác kéo của xe, và cách đọc thông số xe.",
@@ -9980,6 +10187,29 @@
    "cấu tạo phanh trống"
   ],
   "summary": "Phanh tang trống là loại phanh \"veteran\" trên xe máy: cấu tạo đơn giản, bền, kín bụi và rẻ bảo dưỡng, nên vẫn giữ chỗ đứng vững chắc ở phanh sau của hầu hết xe phổ thông, ngay cả khi phanh trước đã chuyển sang đĩa. Bài viết tổng hợp kiến thức về phanh tang trố"
+ },
+ {
+  "kind": "article",
+  "url": "ride/di-phuot/phuot-doan/",
+  "title": "Tổng hợp kiến thức: phượt đoàn",
+  "description": "Tổng hợp kiến thức phượt đoàn: cấu trúc đoàn, thỏa thuận trước khi đi, phân vai, đội hình trên đường và xử mâu thuẫn.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "phượt đoàn",
+   "người dẫn đoàn",
+   "người chốt",
+   "quỹ chung",
+   "đội hình đoàn"
+  ],
+  "keywords": [
+   "phuot doan",
+   "to chuc phuot doan",
+   "di phuot nhom",
+   "doi hinh phuot doan",
+   "kinh nghiem phuot doan"
+  ],
+  "summary": "Phượt đoàn — nhiều người cùng xe máy theo một lịch trình — vui gấp bội chuyến một mình nếu tổ chức đúng, và mệt gấp bội nếu tổ chức bừa: cùng một tuyến, đoàn có cấu trúc về với chuyện kể, đoàn không cấu trúc về với chuyện cãi. Tổng hợp kiến thức này gói tổ chứ"
  },
  {
   "kind": "article",

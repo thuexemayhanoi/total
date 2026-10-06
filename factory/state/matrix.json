@@ -5838,11 +5838,13 @@
    "title": "Kinh nghiệm lịch trình du lịch dành cho người mới",
    "primaryIntent": "informational/lich-trinh-du-lich",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:53.121Z",
+   "seoScore": 100,
+   "words": 1912
   },
   {
    "id": "S00394",
@@ -5851,11 +5853,13 @@
    "title": "Du lịch tự túc — những điều cần biết",
    "primaryIntent": "informational/du-lich-tu-tuc",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:52.231Z",
+   "seoScore": 100,
+   "words": 2040
   },
   {
    "id": "S00395",
@@ -5864,11 +5868,13 @@
    "title": "Hướng dẫn chi tiết về đi phượt",
    "primaryIntent": "informational/di-phuot",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:51.331Z",
+   "seoScore": 100,
+   "words": 1987
   },
   {
    "id": "S00396",
@@ -5877,11 +5883,13 @@
    "title": "Tổng hợp kiến thức: phượt đoàn",
    "primaryIntent": "informational/phuot-doan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:53.981Z",
+   "seoScore": 100,
+   "words": 2041
   },
   {
    "id": "S00397",
@@ -5890,11 +5898,13 @@
    "title": "Kinh nghiệm đi phượt mưa dành cho người mới",
    "primaryIntent": "informational/di-phuot-mua",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:51.331Z",
+   "seoScore": 100,
+   "words": 1831
   },
   {
    "id": "S00398",
@@ -5903,11 +5913,13 @@
    "title": "An toàn khi phượt — những điều cần biết",
    "primaryIntent": "informational/an-toan-khi-phuot",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:50.285Z",
+   "seoScore": 100,
+   "words": 1936
   },
   {
    "id": "S00399",
@@ -5916,11 +5928,13 @@
    "title": "Hướng dẫn chi tiết về kỹ năng phượt",
    "primaryIntent": "informational/ky-nang-phuot",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:52.231Z",
+   "seoScore": 100,
+   "words": 1953
   },
   {
    "id": "S00400",
@@ -5929,11 +5943,13 @@
    "title": "Tổng hợp kiến thức: lái xe đường dài",
    "primaryIntent": "informational/lai-xe-duong-dai",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:53.121Z",
+   "seoScore": 100,
+   "words": 1922
   },
   {
    "id": "S00401",
@@ -5942,11 +5958,13 @@
    "title": "Kinh nghiệm chạy xe đường trường dành cho người mới",
    "primaryIntent": "informational/chay-xe-duong-truong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:50.285Z",
+   "seoScore": 100,
+   "words": 1979
   },
   {
    "id": "S00402",
@@ -5955,11 +5973,13 @@
    "title": "Mệt mỏi khi lái — những điều cần biết",
    "primaryIntent": "informational/met-moi-khi-lai",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-06T18:05:53.981Z",
+   "seoScore": 100,
+   "words": 2098
   },
   {
    "id": "S00403",
