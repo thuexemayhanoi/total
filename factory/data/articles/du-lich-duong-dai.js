@@ -80,7 +80,7 @@ module.exports = {
     'chay-xe-duong-truong',
     'met-moi-khi-lai',
     'chuan-bi-xe-duong-dai',
-    'checklist-duong-dai',
+    'checklist-chuyen-duong-dai-xe-may',
     'du-lich-xe-may',
   ],
 };
