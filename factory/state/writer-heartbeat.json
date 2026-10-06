@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-06T16:55:42.193Z",
+ "at": "2026-10-06T17:11:10.313Z",
  "phase": "waiting-publish",
- "pair": "S00343,S00344,S00345,S00346,S00347,S00348,S00349,S00350,S00351,S00352",
- "note": "queue S00343-S00352 (10 bai) — verify-sources OK 5/5 pair, cho Factory Publish"
+ "pair": "S00353-S00362",
+ "note": "queue S00353-S00362 da viet xong QA 100/100, verify-sources OK cac pair — cho push + Factory Publish"
 }
