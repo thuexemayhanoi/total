@@ -77,10 +77,10 @@ module.exports = {
     'Quy trình kiểm tra hiện trạng xe thuê: bộ ảnh – video hai đầu chuyến (tài liệu hướng dẫn tiêu dùng, 2023).',
   ],
   related: [
-    'thue-xe-can-hoi-gi',
-    'tranh-tranh-chap-khi-thue-xe',
-    'chup-anh-xe-thue',
-    'hop-dong-thue-xe-mau',
+    'thu-tuc-thue-xe-dieu-can-biet',
+    'meo-thue-xe-may-tranh-tranh-chap',
+    'kiem-tra-xe-thue',
+    'doc-hop-dong-thue-xe',
     'du-lich-xe-may',
   ],
 };
