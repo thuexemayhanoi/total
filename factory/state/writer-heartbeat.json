@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-06T17:11:10.313Z",
+ "at": "2026-10-06T17:24:50.021Z",
  "phase": "waiting-publish",
- "pair": "S00353-S00362",
- "note": "queue S00353-S00362 da viet xong QA 100/100, verify-sources OK cac pair — cho push + Factory Publish"
+ "pair": "S00363-S00372",
+ "note": "queue S00363-S00372 da viet QA 100/100, verify-sources OK — cho push + Factory Publish"
 }
