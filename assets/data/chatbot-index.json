@@ -8101,6 +8101,34 @@
   ]
  },
  {
+  "url": "docs/thong-so-ky-thuat/bang-thong-so/",
+  "title": "Hướng dẫn chi tiết về bảng thông số",
+  "category": "Tài liệu",
+  "hub": "Thông số kỹ thuật",
+  "summary": "Hướng dẫn chi tiết về bảng thông số xe máy — bảng thông số là tài liệu ngắn nhất và chứa nhiều thông tin nhất về một chiếc xe: hai mươi dòng chữ và con số tóm tắt toàn bộ tính cách kỹ thuật của chiếc xe. Nhưng bảng chỉ nói chuyện với người biết đọc: cột nào là số đo, cột nào là ghi chú; đơn vị nào dễ nhầm (milimét hay centimét, ký lô hay cân); ký hiệu nào là viết tắt chuẩn của ngành; và đâu là bảng chính thức — bảng trong sách hướng dẫn của hãng — đâu là bảng đã qua chỉnh sửa của tin rao. Bài viết này đi từng phần của một bảng thông số chuẩn: nhóm thông số tổng thể, nhóm động cơ và truyền động, nhóm khung và vận hành, nhóm tiêu thụ; giải thích các cột và đơn vị hay gặp; chỉ cách nhận bảng gốc của hãng; và hướng dẫn quy trình so sánh hai bảng thông số khi cân nhắc hai dòng xe — so từng cột cùng thứ tự, ghi chênh lệch, và hiểu mỗi chênh lệch nói gì. Người mới đọc xong sẽ mở bất kỳ bảng thông số nào và biết trong ba mươi giây con số nào đáng đọc cho mình.",
+  "quickAnswer": "Đọc bảng thông số xe máy theo bốn bước. Bước một — xác nhận bảng gốc: bảng chính thức nằm trong sách hướng dẫn hoặc tài liệu kỹ thuật của hãng; bảng trong tin rao có thể đã cắt cột hoặc làm tròn số. Bước hai — đọc theo nhóm: tổng thể (dài rộng cao, trục bánh, trọng lượng, chiều cao yên), động cơ (loại máy, dung tích, đường kính xilanh và hành trình piston, công suất, mô men), truyền động (ly hợp, số cấp, tỷ số, kiểu khởi động), vận hành (bình xăng, tiêu hao, khoảng sáng gầm, phanh, lốp). Bước ba — kiểm tra đơn vị mỗi cột: milimét với centimét, ký với lít, mã lực với kilo oát — đổi về cùng một đơn vị trước khi so hai bảng. Bước bốn — so từng cột cùng thứ tự giữa hai xe, ghi ba đến năm chênh lệch lớn nhất, và đọc mỗi chênh lệch theo nhu cầu mình: yên, trọng lượng, mô men, bình xăng. Bốn bước đó biến bảng chữ và số thành bản mô tả tính cách của hai chiếc xe — và chọn xe trở thành việc của dữ liệu thay vì của cảm giác.",
+  "keyPoints": [
+   "Bảng gốc là bảng trong sách hướng dẫn của hãng — bảng trong tin rao có thể bị cắt cột hoặc làm tròn.",
+   "Đọc theo bốn nhóm: tổng thể, động cơ, truyền động, vận hành — mỗi nhóm trả một câu hỏi khác nhau.",
+   "Kiểm tra đơn vị từng cột trước khi so sánh — milimét với centimét, ký với lít là hai chỗ nhầm phổ thông nhất.",
+   "Đường kính xilanh nhân hành trình piston cho biết máy kiểu dài hay vuông — cơ sở của tính cách kéo ga."
+  ],
+  "entities": [
+   "bảng thông số",
+   "thông số kỹ thuật",
+   "đơn vị đo lường",
+   "so sánh thông số",
+   "sách hướng dẫn xe"
+  ],
+  "keywords": [
+   "bang thong so xe may",
+   "cach doc bang thong so",
+   "thong so ky thuat xe may",
+   "so sanh thong so xe may",
+   "don vi thong so xe may"
+  ]
+ },
+ {
   "url": "docs/quy-trinh-bao-duong/bao-duong-1000km/",
   "title": "Bảo dưỡng 1000km — những điều cần biết",
   "category": "Tài liệu",
@@ -8242,6 +8270,34 @@
    "gia han bao hiem xe may",
    "boi thuong bao hiem xe may",
    "bao hiem bat buoc"
+  ]
+ },
+ {
+  "url": "docs/bieu-mau-thu-tuc/bieu-mau-thu-tuc-xe/",
+  "title": "Hướng dẫn chi tiết về biểu mẫu thủ tục xe",
+  "category": "Tài liệu",
+  "hub": "Biểu mẫu thủ tục",
+  "summary": "Hướng dẫn chi tiết về biểu mẫu thủ tục xe — mỗi thủ tục về xe máy, từ đăng ký lần đầu, cấp đổi giấy chứng nhận đăng ký, đến sang tên và đăng kiểm, đều đi qua một hoặc vài tờ biểu mẫu khai. Tờ biểu mẫu là phần dễ nhất của thủ tục về lý thuyết — in sẵn, ghi sẵn mục — nhưng lại là phần gây trả hồ sơ nhiều nhất trên thực tế: khai lệch một ô, thiếu một chữ ký, dùng bản photo không bản chính, hoặc khai thông tin không khớp với giấy tờ tùy thân. Bài viết này đi qua các nhóm biểu mẫu hay gặp của người sở hữu xe máy: biểu mẫu đăng ký xe mới và cấp đổi giấy chứng nhận; biểu mẫu sang tên di chuyển trong tỉnh và ngoài tỉnh; biểu mẫu đăng kiểm; và các giấy tờ khai kèm theo chứng từ. Mỗi nhóm được trình bày theo cùng một khung: tờ biểu mẫu lấy ở đâu, những mục nào phải khai và khai thế nào cho khớp, giấy tờ gì phải mang theo kèm, và những lỗi khiến hồ sơ bị trả lại ở quầy. Người mới đọc xong sẽ đến quầy thủ tục với bộ hồ sơ đã tự kiểm — một lần qua thay vì hai ba lần đi lại.",
+  "quickAnswer": "Làm biểu mẫu thủ tục xe theo bốn nguyên tắc. Một — lấy đúng mẫu tại đúng nơi: các biểu mẫu đăng ký, sang tên lấy trực tiếp tại trụ sở đăng ký xe của công an cấp huyện hoặc tải từ trang thông tin điện tử chính thức; mẫu tự gõ hoặc photo tay viết nhiều khi bị từ chối vì sai biểu. Hai — khai khớp tuyệt đối với giấy tờ gốc: họ tên, số căn cước, địa chỉ ghi đúng từng ký tự như trên căn cước công dân; số khung số máy chép từ giấy tờ xe, đối chiếu hai lần trước khi nộp. Ba — mang đủ bản chính: căn cước công dân, giấy chứng nhận đăng ký xe, chứng từ nguồn gốc xe — bản photo không thay được bản chính ở khâu đối chiếu. Bốn — kiểm trước khi nộp theo danh sách trả hồ sơ phổ biến: mọi ô đã khai, chữ ký đủ, bản chính photo đủ số, lệ phí chuẩn bị theo thông báo. Làm đúng bốn nguyên tắc thì phần lớn hồ sơ qua ngay tại quầy — còn sai thì hồ sơ quay lại và mất thêm một buổi đi lại.",
+  "keyPoints": [
+   "Lấy biểu mẫu tại trụ sở đăng ký xe hoặc trang thông tin điện tử chính thức — mẫu tự gõ hay photo tay viết dễ bị từ chối.",
+   "Khai khớp tuyệt đối giấy tờ gốc: họ tên, số căn cước, địa chỉ đúng từng ký tự; số khung số máy chép và đối chiếu hai lần.",
+   "Mang bản chính: căn cước công dân, giấy chứng nhận đăng ký, chứng từ nguồn gốc xe — bản photo chỉ dùng kèm, không thay.",
+   "Mỗi loại thủ tục một bộ biểu mẫu riêng — đăng ký, sang tên trong tỉnh, sang tên ngoài tỉnh không dùng lẫn tờ nào."
+  ],
+  "entities": [
+   "biểu mẫu thủ tục xe",
+   "đăng ký xe máy",
+   "sang tên xe",
+   "giấy chứng nhận đăng ký xe",
+   "hồ sơ xe máy"
+  ],
+  "keywords": [
+   "bieu mau thu tuc xe may",
+   "ho so dang ky xe may",
+   "giay to sang ten xe may",
+   "khai bieu mau xe may",
+   "thu tuc dang ky xe may"
   ]
  },
  {
@@ -9656,6 +9712,34 @@
   ]
  },
  {
+  "url": "docs/bieu-mau-thu-tuc/giay-to-dang-ky-xe/",
+  "title": "Tổng hợp kiến thức: giấy tờ đăng ký xe",
+  "category": "Tài liệu",
+  "hub": "Biểu mẫu thủ tục",
+  "summary": "Tổng hợp kiến thức: giấy tờ đăng ký xe — bộ giấy tờ của một chiếc xe máy gồm nhiều tờ, mỗi tờ một vai trò, và người chủ hiểu vai trò của từng tờ là người không bao giờ bị kẹt giữa các thủ tục. Giấy chứng nhận đăng ký xe là tờ quan trọng nhất: định danh xe gắn với chủ, ghi biển số, số khung, số máy và thông tin chủ sở hữu. Hóa đơn mua xe và giấy chứng nhận xuất xưởng là chứng từ nguồn gốc — bộ đôi chứng minh xe mua từ đâu, hợp pháp từ đầu. Các tờ khác quanh bộ gốc: giấy xác nhận thuế lệ phí, giấy đăng kiểm với xe có kiểm định, và các giấy tờ ủy quyền khi xe qua tay người khác dùng. Bài viết này tổng hợp từng loại giấy tờ: thông tin gì in trên đó, vai trò pháp lý của tờ trong thủ tục nào, những chỗ phải đối chiếu để phát hiện giả lệch, cách lưu giữ an toàn, và quy trình làm lại khi mất từng loại. Người mới đọc xong nhìn bộ giấy tờ xe mình và biết tờ nào là gốc, tờ nào là phụ, và tờ nào không bao giờ được để lẫn vào cốp.",
+  "quickAnswer": "Bộ giấy tờ đăng ký xe máy gồm bốn nhóm. Nhóm định danh: giấy chứng nhận đăng ký xe — tờ gốc ghi biển số, số khung, số máy, họ tên chủ; tờ này theo xe mọi thủ tục và người giữ tờ gốc phần lớn được coi là người có quyền. Nhóm nguồn gốc: hóa đơn mua xe và giấy chứng nhận xuất xưởng — chứng minh xe hợp pháp từ đầu, cần trọn cho tới khi bán lại. Nhóm thuế lệ phí: giấy nộp lệ phí trước bạ — chứng từ đã hoàn thành nghĩa vụ tài chính khi đăng ký. Nhóm kiểm định: giấy đăng kiểm với các loại xe phải kiểm định định kỳ. Ba quy tắc giữ giấy: đối chiếu số khung số máy trên giấy với số dập trên xe khi mua; giữ bản chính ở nơi an toàn, chỉ mang theo khi làm thủ tục; photo toàn bộ làm bản lưu. Khi mất: báo ngay, làm lại theo hướng dẫn từng loại giấy tại nơi cấp — đừng để tới khi cần gấp mới phát hiện mất.",
+  "keyPoints": [
+   "Giấy chứng nhận đăng ký xe là tờ gốc định danh — ghi biển số, số khung, số máy, thông tin chủ sở hữu.",
+   "Hóa đơn mua xe và giấy xuất xưởng là chứng từ nguồn gốc — cần trọn đến khi bán xe, thiếu là các thủ tục sau đều vướng.",
+   "Đối chiếu số khung số máy trên giấy với số dập trên xe thật khi mua — phép kiểm quan trọng nhất chống giấy lệch.",
+   "Giấy nộp lệ phí trước bạ là chứng từ hoàn thành nghĩa vụ tài chính — cần cho một số thủ tục sang tên."
+  ],
+  "entities": [
+   "giấy chứng nhận đăng ký xe",
+   "hóa đơn mua xe",
+   "giấy xuất xưởng",
+   "lệ phí trước bạ",
+   "giấy tờ xe máy"
+  ],
+  "keywords": [
+   "giay to dang ky xe may",
+   "giay chung nhan dang ky xe",
+   "hoa don mua xe may",
+   "lam lai giay dang ky xe may",
+   "chung tu nguon goc xe may"
+  ]
+ },
+ {
   "url": "learn/kien-thuc-phap-ly/giay-to-khi-lai-xe/",
   "title": "Giấy tờ khi lái xe — những điều cần biết",
   "category": "Kiến thức chuyên sâu",
@@ -9681,6 +9765,34 @@
    "gplx xe may",
    "cang cure xe may",
    "bao hiem tnds xe may"
+  ]
+ },
+ {
+  "url": "docs/bieu-mau-thu-tuc/giay-to-sang-ten/",
+  "title": "Giấy tờ sang tên — những điều cần biết",
+  "category": "Tài liệu",
+  "hub": "Biểu mẫu thủ tục",
+  "summary": "Giấy tờ sang tên — những điều cần biết khi mua hoặc bán một chiếc xe máy đã qua sử dụng. Sang tên là thủ tục chuyển quyền sở hữu trên giấy tờ — bước biến thỏa thuận tay đôi thành chuyện pháp lý trọn vẹn, và cũng là bước hay bị trì hoãn nhất: người mua về chạy được liền nên tin rằng \"sang tên sau cũng được\", để rồi mọi rắc rối — phạt nguội về chủ cũ, hồ sơ thiếu chứng từ, xe bị kẹt khi bán lại — đều mọc lên từ chỗ trì hoãn đó. Bài viết này tổng hợp toàn bộ giấy tờ cần cho một cuộc sang tên trọn vẹn: giấy chứng nhận đăng ký xe bản chính, chứng từ nguồn gốc (hóa đơn và xuất xưởng), giấy xác nhận sang tên di chuyển với xe từ tỉnh khác, tờ khai thông tin hai bên, giấy tờ tùy thân; kèm theo trình tự làm — chuẩn bị của người bán, chuẩn bị của người mua, thứ tự tại quầy — và thời hạn pháp lý nên nhớ. Phần cuối là những lỗi hay gặp nhất: xe qua tay nhiều đời không sang tên, giấy tờ đứt chuỗi, và chuyện mua xe đứng tên người khác. Người mua xe cũ đọc xong biết đòi đúng bộ giấy trước khi trả tiền, và người bán biết chuẩn bị đúng bộ giấy để bán nhanh.",
+  "quickAnswer": "Giấy tờ sang tên xe máy gồm hai bộ. Bộ của người bán: giấy chứng nhận đăng ký xe bản chính; chứng từ nguồn gốc xe — hóa đơn mua và giấy xuất xưởng, hoặc chuỗi chứng từ các lần chuyển nhượng trước; chữ ký trên tờ khai bán; và với xe từ tỉnh khác — giấy xác nhận sang tên di chuyển do nơi đăng ký cũ cấp. Bộ của người mua: căn cước công dân bản chính và bản photo; tờ khai thông tin người mua; chuẩn bị lệ phí theo hướng dẫn. Trình tự: hai bên đối chiếu số khung số máy trên xe với giấy tờ — ký tờ khai hai bên — nộp hồ sơ tại trụ sở đăng ký nơi người mua cư trú — nhận hẹn — nhận giấy chứng nhận đăng ký mới đứng tên mình. Thời hạn: làm ngay sau khi nhận xe, đừng để \"sang tên sau\" — xe chưa sang tên thì phạt nguội, phí đường bộ, mọi trách nhiệm pháp lý vẫn về người đứng tên cũ, và người mua chưa phải chủ pháp lý của xe mình chạy mỗi ngày.",
+  "keyPoints": [
+   "Bộ giấy của người bán: đăng ký bản chính, chứng từ nguồn gốc, chữ ký tờ khai, giấy di chuyển tỉnh nếu có.",
+   "Bộ giấy của người mua: căn cước bản chính, tờ khai, lệ phí — nộp tại trụ sở đăng ký nơi mình cư trú.",
+   "Đối chiếu số khung số máy trên xe với giấy tờ trước khi trả tiền — phép kiểm đứng đầu mọi giao dịch xe cũ.",
+   "Sang tên trong tỉnh và ngoài tỉnh khác bộ giấy — hỏi rõ xe từ đâu tới để chuẩn bị đúng chứng từ di chuyển."
+  ],
+  "entities": [
+   "sang tên xe máy",
+   "giấy chứng nhận đăng ký xe",
+   "chứng từ nguồn gốc xe",
+   "giấy xác nhận di chuyển",
+   "trường hợp cư trú"
+  ],
+  "keywords": [
+   "giay to sang ten xe may",
+   "thu tuc sang ten xe may",
+   "sang ten xe may trong tinh",
+   "giay xac nhan di chuyen xe",
+   "mua xe cu sang ten"
   ]
  },
  {
@@ -9945,6 +10057,34 @@
   ]
  },
  {
+  "url": "docs/bieu-mau-thu-tuc/hop-dong-thue-xe-mau/",
+  "title": "Kinh nghiệm hợp đồng thuê xe mẫu dành cho người mới",
+  "category": "Tài liệu",
+  "hub": "Biểu mẫu thủ tục",
+  "summary": "Kinh nghiệm hợp đồng thuê xe mẫu dành cho người mới — thuê xe máy là giao dịch nhỏ nhưng giấy tờ quyết định lớn: khi xe hỏng giữa đường, khi cọc bị trừ, khi tranh chấp trách nhiệm, mọi câu trả lời nằm trong hợp đồng đã ký — hoặc đáng lẽ phải nằm đó. Một hợp đồng thuê xe mẫu tốt không cần dài, chỉ cần đủ: các thông tin định danh hai bên, thông tin xe và giấy tờ thế chấp, thời hạn và giá thuê, đặt cọc và điều kiện hoàn, trách nhiệm với hư hỏng và mất mát, và trình tự nghiệm thu khi nhận và khi trả. Bài viết này trình bày một hợp đồng thuê xe máy theo từng nhóm điều khoản: mục nào bắt buộc, mục nào hay bị bỏ qua nhưng nên có, và câu chữ mẫu cho từng điều khoản then chốt; kèm theo hai góc nhìn — người thuê cần đọc gì để không bị gài, người cho thuê cần ghi gì để không chịu thiệt. Người mới đọc xong có thể tự lập hoặc tự đọc một bản hợp đồng thuê xe trong vài phút, và biết đúng chỗ nào đáng góp ý trước khi ký.",
+  "quickAnswer": "Một hợp đồng thuê xe máy mẫu đủ gồm sáu nhóm điều khoản. Một — định danh: họ tên, căn cước, địa chỉ, điện thoại của bên thuê và bên cho thuê; thông tin xe: biển số, loại xe, số khung, số máy. Hai — tài sản giữ và thế chấp: loại giấy tờ hoặc tiền cọc, giá trị cọc, và việc cọc giữ ở đâu, ai giữ. Ba — thời hạn và giá: thuê từ giờ nào tới giờ nào, giá theo ngày hay giờ, phụ phí quá hạn, phụ phí vượt số cây. Bốn — trách nhiệm: hư hỏng do ai chịu theo tình huống (mòn tự nhiên khác hỏng do sử dụng sai), mất xe xử lý thế nào, vi phạm giao thông ai chịu. Năm — nghiệm thu: biên bản ghi tình trạng xe khi giao và khi nhận lại, kèm ảnh. Sáu — ký và lưu: hai bên ký, mỗi bên giữ một bản. Ba câu nên hỏi trước khi ký: cọc khi nào và điều kiện gì được hoàn đủ; xe hỏng giữa đường thì gọi ai và ai trả; biên bản giao xe có ghi tình trạng cũ không — ba câu đó phủ phần lớn tranh chấp hay gặp.",
+  "keyPoints": [
+   "Định danh đầy đủ hai bên và thông tin xe — hợp đồng thiếu số khung số máy là hợp đồng khó chứng khi có việc.",
+   "Điều khoản cọc phải ghi rõ: giá trị, nơi giữ, và điều kiện hoàn đủ — cọc miệng là cọc tranh chấp.",
+   "Trách nhiệm chia theo tình huống: hao mòn tự nhiên khác hư hỏng do lỗi sử dụng, mất xe có cách tính riêng.",
+   "Biên bản nghiệm thu khi giao và khi nhận xe, kèm ảnh chụp tình trạng — bằng chứng tốt nhất khi so sánh."
+  ],
+  "entities": [
+   "hợp đồng thuê xe máy",
+   "đặt cọc thuê xe",
+   "biên bản giao xe",
+   "trách nhiệm hư hỏng",
+   "nghiệm thu xe thuê"
+  ],
+  "keywords": [
+   "hop dong thue xe may",
+   "mau hop dong thue xe",
+   "dat coc thue xe may",
+   "bien ban giao xe thue",
+   "thue xe may can giay to"
+  ]
+ },
+ {
   "url": "docs/huong-dan-su-dung/huong-dan-su-dung-xe-may/",
   "title": "Kinh nghiệm hướng dẫn sử dụng xe máy dành cho người mới",
   "category": "Tài liệu",
@@ -10117,6 +10257,34 @@
    "3.00-18 lop",
    "chi so tai lop xe may",
    "doi lop khac co"
+  ]
+ },
+ {
+  "url": "docs/thong-so-ky-thuat/kich-thuoc-xe/",
+  "title": "Kinh nghiệm kích thước xe dành cho người mới",
+  "category": "Tài liệu",
+  "hub": "Thông số kỹ thuật",
+  "summary": "Kinh nghiệm kích thước xe dành cho người mới — câu hỏi đầu tiên khi chọn xe không phải \"xe nào tốt\" mà là \"xe nào vừa\": vừa chân mình, vừa chỗ đỗ nhà mình, vừa con hẻm mình hay đi, vừa bãi giữ xe cơ quan. Kích thước xe máy là nhóm thông số ảnh hưởng trực tiếp tới an toàn và tiện nghi mỗi ngày, nhưng lại là nhóm hay bị bỏ qua vì không quảng cáo bằng hình ảnh đẹp — chiều cao yên không bao giờ là ảnh bìa, dù nó quyết định việc chân người cưỡi chạm đất ở mọi đèn đỏ. Bài viết này đi qua từng con số kích thước và cách đối chiếu với người cưỡi: chiều cao yên và phép thử chân; khoảng cách trục bánh và sự linh hoạt; chiều dài tổng thể và chỗ đỗ; trọng lượng và việc dắt giữ xe; khoảng sáng gầm và các chướng ngại quen thuộc. Kèm theo là cách đo trước những chỗ đi lại thật — bãi giữ xe, hẻm, cổng nhà — trước khi quyết định. Người mới đọc xong sẽ chọn được chiếc xe vừa mình theo con số, thay vì chọn theo mắt rồi chịu đựng theo chân.",
+  "quickAnswer": "Chọn kích thước xe theo bốn phép đối chiếu. Một — chân với yên: ngồi thử với giày dép thường ngày, mục tiêu là hai bàn chân hoặc vững chạm đất; khoảng vài xen ti mét chiều cao yên là khác biệt giữa đặt vững và nhón mũi — người thấp ưu tiên yên xe ga thấp hoặc xe số nhỏ gọn. Hai — thân xe với chỗ đỗ: đo chiều dài chỗ đỗ ở nhà và bãi làm, so với chiều dài xe cộng chỗ chống; chiều dài xe in trong bảng thông số, cộng thêm mười phân cho thoáng. Ba — trục bánh với lối đi: hẻm hẹp và phố đông ưu tiên trục bánh ngắn, xe tổng thể gọn; đường trường ưu tiên trục dài, chạy bền ổn định hơn. Bốn — trọng lượng với người dắt: dắt thử xe lên dốc nhỏ hoặc vỉa hè trước khi mua; trọng lượng đủ trang bị là con số thật. Bốn phép đó làm trước khi trả tiền thì sau này không phải chịu đựng theo xe.",
+  "keyPoints": [
+   "Chiều cao yên quyết định chân chạm đất — phép thử chân cần làm với giày dép thường ngày, không giày mỏn.",
+   "Trục bánh ngắn gọn vào cua và luồn lách; trục dài ổn định khi chở nặng và chạy bền.",
+   "Chiều dài xe so với chỗ đỗ thật ở nhà và nơi làm — cộng thêm khoảng thoáng khi đo.",
+   "Trọng lượng đủ trang bị là con số của dắt, đẩy, giữ xe — dắt thử lên dốc nhỏ trước khi mua."
+  ],
+  "entities": [
+   "kích thước xe máy",
+   "chiều cao yên",
+   "trục bánh xe",
+   "trọng lượng xe",
+   "chọn xe vừa người"
+  ],
+  "keywords": [
+   "kich thuoc xe may",
+   "chieu cao yen xe may",
+   "chon xe theo chieu cao",
+   "truc banh xe may",
+   "xe nho gon cho nguoi moi"
   ]
  },
  {
@@ -11363,6 +11531,34 @@
   ]
  },
  {
+  "url": "docs/quy-trinh-bao-duong/quy-trinh-chuyen-mon/",
+  "title": "Kinh nghiệm quy trình chuyên môn dành cho người mới",
+  "category": "Tài liệu",
+  "hub": "Quy trình bảo dưỡng",
+  "summary": "Kinh nghiệm quy trình chuyên môn dành cho người mới — giữa việc tự bảo dưỡng tại nhà và việc giao xe cho tiệm có một vùng việc mang tên chung là \"chuyên môn\": chỉnh xupap, cân bằng động cơ, chẩn đoán điện tử, xử lý phun xăng điện tử, án máy. Đây là vùng người mới không nên tự mò, nhưng càng không nên đi vào mù mờ — vì mù mờ là chỗ chuyện về giá phình ra và chất lượng thì co lại. Bài viết này vẽ rõ vùng chuyên môn đó: những việc thuộc về thợ có nghề và lý do kỹ thuật của chúng; dấu hiệu phân biệt một quy trình chuyên môn thật (tiếp nhận có ghi, chẩn đoán có số, báo trước khi làm) với một buổi làm theo cảm tính; cách trao đổi với thợ để được nói chuyện bằng con số thay vì bằng niềm tin; và cách nghiệm thu một công việc chuyên môn dù mình không rành máy. Người mới đọc xong sẽ không thành thợ — nhưng sẽ thành khách hàng khó bị làm, và chiếc xe vì vậy được phục vụ đúng nghề.",
+  "quickAnswer": "Quy trình chuyên môn với người mới gồm bốn nguyên tắc. Một — biết ranh giới: chỉnh xupap, cân máy, chẩn đoán điện tử, án máy, điện phức tạp là việc của thợ có nghề; tự mò những việc này tốn tiền hơn tiền thợ. Hai — chọn nơi làm đúng trình tự: một tiệm chuyên môn thật tiếp nhận có ghi công tơ, hỏi bệnh, đo và báo số, chẩn đoán trước rồi mới báo giá — tiệm thay giá trước khi nhìn xe là tín hiệu nên rời đi. Ba — trao đổi bằng dữ liệu: kể triệu chứng theo trình tự (khi nào, tiếng gì, điều kiện nào), xin kết quả đo, hỏi phương án và các lựa chọn thay thế — công việc chuyên môn nói được bằng số thì tin được. Bốn — nghiệm thu đúng phần mình: chạy thử đúng triệu chứng ban đầu, hỏi lại nguyên nhân và việc đã làm, xin ghi chú vào sổ xe. Bốn nguyên tắc đó biến người không rành máy thành đối tác của thợ thay vì mục tiêu dễ.",
+  "keyPoints": [
+   "Vùng chuyên môn gồm: chỉnh xupap, cân bằng động cơ, chẩn đoán điện tử, phun xăng điện tử, án máy, điện phức tạp — không phải việc tự mò.",
+   "Tiệm làm đúng nghề tiếp nhận có ghi, chẩn đoán có số, báo giá trước khi làm — trình tự đó là dấu nghề thật.",
+   "Kể triệu chứng theo trình tự: khi nào, tiếng gì, điều kiện gì — mô tả chuẩn rút ngắn phân nửa thời gian chẩn đoán.",
+   "Yêu cầu kết quả đo và phương án kèm lý do — công việc chuyên môn nói được bằng con số."
+  ],
+  "entities": [
+   "quy trình chuyên môn",
+   "chỉnh xupap",
+   "chẩn đoán điện tử",
+   "án máy",
+   "nghiệm thu sửa chữa"
+  ],
+  "keywords": [
+   "quy trinh chuyen mon xe may",
+   "sua xe may chuyen mon",
+   "chon tiem sua xe uy tin",
+   "chinh xupap xe may",
+   "chan doan dien tu xe may"
+  ]
+ },
+ {
   "url": "docs/quy-trinh-bao-duong/quy-trinh-thay-dau/",
   "title": "Hướng dẫn chi tiết về quy trình thay dầu",
   "category": "Tài liệu",
@@ -11876,6 +12072,62 @@
   ]
  },
  {
+  "url": "docs/thong-so-ky-thuat/thong-so-dong-co/",
+  "title": "Tổng hợp kiến thức: thông số động cơ",
+  "category": "Tài liệu",
+  "hub": "Thông số kỹ thuật",
+  "summary": "Tổng hợp kiến thức: thông số động cơ — động cơ là trái tim của chiếc xe, và bảng thông số động cơ là bản điện tim của nó: dung tích xilanh, đường kính và hành trình piston, tỷ số nén, kiểu làm mát, số xupap, kiểu phun xăng, công suất và mô men. Với kỹ sư, những con số đó là bản thiết kế; với người cưỡi, chúng là bản mô tả tính cách — chiếc xe bốc hay bền, êm hay gắt, hao hay tiết kiệm, và mấy lần trong đời xe cần mở máy. Bài viết này tổng hợp từng thông số động cơ theo thứ tự đọc: bắt đầu từ dung tích — con số ai cũng hỏi; đi vào cặp đường kính và hành trình piston — cặp số ít ai đọc nhưng quyết định cảm giác ga; tới tỷ số nén và kiểu nhiên liệu nó đòi hỏi; rồi kiểu làm mát và tuổi thọ máy ở điều kiện nhiệt; số xupap và tính năng cao vòng tua; và kiểu phun xăng — kiểu hóa khí truyền thống hay phun xăng điện tử — cùng hệ quả với bảo dưỡng. Mỗi thông số đều được trả lời bằng một câu hỏi thực dụng: con số này ảnh hưởng gì tới chuyến đi và hóa đơn của người cưỡi.",
+  "quickAnswer": "Đọc thông số động cơ theo sáu con số và một kiểu cấu tạo. Dung tích xilanh — sức chứa đốt của máy, nói sức kéo tổng thể. Đường kính xilanh nhân hành trình piston — hành trình dài kéo mạnh vòng thấp hợp phố, máy vuông nhạy ở vòng cao. Tỷ số nén — mức nén hỗn hợp, quyết định loại xăng máy cần: nén cao đòi xăng octan cao. Kiểu làm mát — gió hoặc bình làm mát, quyết định máy chịu nắng kẹt xe giỏi tới đâu. Số xupap — nhiều xupap đổi khí tốt ở vòng cao, ít xupap đơn giản bền. Kiểu phun xăng — hóa khí hoặc phun xăng điện tử, điện tử tiết kiệm hơn và sạch hơn nhưng bảo dưỡng cần thợ có máy quét. Công suất và mô men kèm vòng tua — cảm giác ga thật. Khi chọn xe phố: ưu tiên mô men vòng thấp, làm mát hợp điều kiện chạy, và kiểu phun hợp điều kiện bảo dưỡng quanh mình; coi công suất đỉnh là mục phụ.",
+  "keyPoints": [
+   "Dung tích nói sức kéo tổng thể, nhưng cặp đường kính và hành trình piston mới vẽ cảm giác ga thật của máy.",
+   "Tỷ số nén quyết định loại xăng máy cần — nén cao với xăng octan thấp là hiện tượng cháy sớm, máy gõ và nóng.",
+   "Làm mát gió hợp xe chạy thông thoáng; bình làm mát giữ máy ổn khi kẹt xe nắng nóng kéo dài.",
+   "Máy nhiều xupap mạnh ở vòng cao; máy ít xupap đơn giản và phần lớn dễ bảo dưỡng hơn ở vùng phố."
+  ],
+  "entities": [
+   "thông số động cơ",
+   "hành trình piston",
+   "tỷ số nén",
+   "làm mát động cơ",
+   "phun xăng điện tử"
+  ],
+  "keywords": [
+   "thong so dong co xe may",
+   "hanh trinh piston xe may",
+   "ty so nen dong co",
+   "lam mat dong co xe may",
+   "phun xang dien tu xe may"
+  ]
+ },
+ {
+  "url": "docs/thong-so-ky-thuat/thong-so-xe-may/",
+  "title": "Thông số xe máy — những điều cần biết",
+  "category": "Tài liệu",
+  "hub": "Thông số kỹ thuật",
+  "summary": "Thông số xe máy — những điều cần biết cho người muốn hiểu chiếc xe của mình qua những con số. Mỗi chiếc xe đi kèm một bảng thông số: dung tích xilanh, công suất tối đa, mô men xoắn, kích thước dài rộng cao, khoảng cách trục bánh, chiều cao yên, trọng lượng, dung tích bình xăng. Với người bán, bảng đó là tài liệu quảng cáo; với người dùng biết đọc, nó là bản mô tả tính cách của chiếc xe — con số nào nói về sức kéo, con số nào nói về sự nhẹ nhàng, con số nào quyết định vừa vặn với thân hình người cưỡi. Bài viết này đi qua từng nhóm thông số và giải thích theo ngôn ngữ sử dụng: dung tích và mô men nói gì về cảm giác ga, công suất thực sự cần ở đâu, trọng lượng ảnh hưởng thế nào khi dắt khi đỗ, chiều cao yên và khoảng sáng gầm quyết định những tình huống nào. Kết luận thực dụng: người mới không cần thuộc hết bảng — chỉ cần biết trước năm con số quyết định với mình, và bỏ qua phần còn lại.",
+  "quickAnswer": "Đọc thông số xe máy theo năm nhóm. Nhóm động cơ: dung tích xilanh tính bằng phân khối, đi cùng mô men xoắn — con số nói sức kéo; công suất tối đa tính bằng mã lực, chỉ thật sự có ý nghĩa ở vòng tua cao, ít quan trọng với xe chạy phố. Nhóm kích thước: dài rộng cao và trục bánh nói xe gọn hay dài, ôm cua ra sao. Nhóm vừa người: chiều cao yên và trọng lượng là hai con số quyết định chân chạm đất được không và dắt đỗ có vất vả không. Nhóm tiêu thụ: dung tích bình xăng nhân với mức tiêu hao cho biết một bình chạy bao xa. Nhóm vận hành: khoảng sáng gầm quyết định vượt gờ giảm tốc và ngập nước tới đâu. Khi chọn xe, đối chiếu năm nhóm này với nhu cầu thật — chạy phố, chở người, đường trường — thay vì so con số lớn nhất, vì xe máy phổ thông chọn theo vừa người và hợp việc, không theo mạnh nhất.",
+  "keyPoints": [
+   "Dung tích xilanh và mô men xoắn nói sức kéo ở vòng tua thấp — con số quan trọng nhất với xe chạy phố.",
+   "Công suất tối đa chỉ đạt ở vòng tua cao — ít dùng tới ở đường phố, quan trọng hơn ở xe thể thao.",
+   "Chiều cao yên và trọng lượng là hai con số \"vừa người\" — quyết định chân chạm đất và dắt đỗ có nhẹ nhàng không.",
+   "Dung tích bình xăng nhân mức tiêu hao cho quãng đường một bình — con số của sự yên tâm trên đường dài."
+  ],
+  "entities": [
+   "thông số xe máy",
+   "dung tích xilanh",
+   "công suất động cơ",
+   "mô men xoắn",
+   "chiều cao yên xe"
+  ],
+  "keywords": [
+   "thong so xe may",
+   "dung tich xilanh xe may",
+   "cong suat xe may",
+   "mo men xoan xe may",
+   "chieu cao yen xe may"
+  ]
+ },
+ {
   "url": "wiki/thuat-ngu-xe/thuat-ngu-xe-may/",
   "title": "Kinh nghiệm thuật ngữ xe máy dành cho người mới",
   "category": "Bách khoa xe",
@@ -12044,6 +12296,34 @@
    "xe may tiet kiem xang",
    "giu toc do deu",
    "toc do nao tiet kiem xang"
+  ]
+ },
+ {
+  "url": "docs/thong-so-ky-thuat/tra-cuu-thong-so/",
+  "title": "Tra cứu thông số — những điều cần biết",
+  "category": "Tài liệu",
+  "hub": "Thông số kỹ thuật",
+  "summary": "Tra cứu thông số — những điều cần biết khi bạn cần con số đúng của chiếc xe mình. Người cưỡi tra cứu thông số trong ba tình huống lớn: khi mua phụ tùng — cỡ lốp, loại bugi, độ nhớt nhớt đúng; khi bảo dưỡng — kỳ thay, loại phụ tùng khuyến nghị, áp suất chuẩn; và khi đọc hướng dẫn — tài liệu đúng dòng xe, đúng phiên bản. Ba tình huống đó đều có một điểm chung: tra sai nguồn là mất tiền mua sai đồ, và tra cứu đúng là kỹ năng đơn giản nhất trong danh mục kỹ năng của người cưỡi. Bài viết này tổng hợp các nguồn tra cứu đúng: tài liệu chính thức của hãng đi kèm xe, tra cứu theo số khung và số máy, cách đọc các bảng khớp phụ tùng, và cách phân biệt tài liệu gốc với nội dung copy thiếu chuẩn trên mạng. Kèm theo là các phép tra hay dùng nhất của người mới: tra cỡ lốp khi mua lốp, tra loại bugi khi thay bugi, tra áp suất khi bơm, và tra kỳ bảo dưỡng khi lên lịch. Mục tiêu: mọi con số dùng cho chiếc xe của bạn đều có nguồn rõ ràng.",
+  "quickAnswer": "Tra cứu thông số xe máy theo ba bước. Bước một — xác định đúng xe: dòng xe, phiên bản, năm sản xuất; chính xác nhất là lấy số khung (chùm chữ số dập trên khung, thường dưới cổ trước hoặc dưới yên) và số máy (dập trên vỏ máy) — hai dãy số này định danh chiếc xe tuyệt đối, tra theo chúng là không sai phiên bản. Bước hai — chọn nguồn đúng: tài liệu đi kèm xe (sách hướng dẫn và bảng thông số của hãng) là chuẩn gốc; trang chính thức của hãng tra theo dòng và năm; chỉ dùng nội dung trên mạng khi có dẫn về nguồn gốc. Bước ba — tra đúng mục: mua lốp thì tra cỡ lốp trên vành và sách; thay bugi thì ghi mã bugi in trên bugi cũ; bơm thì tra áp suất chuẩn ghi trên khung hoặc trong sách; lên lịch bảo dưỡng thì tra bảng kỳ theo dòng xe. Ghi lại các con số hay dùng vào một trang trong điện thoại — bộ tra cứu cá nhân của chiếc xe mình.",
+  "keyPoints": [
+   "Số khung và số máy định danh chiếc xe tuyệt đối — tra phụ tùng theo hai dãy số là không sai phiên bản.",
+   "Sách hướng dẫn đi kèm xe là chuẩn gốc — mọi nguồn trên mạng chỉ đáng tin khi dẫn về được tài liệu gốc.",
+   "Mua lốp tra cỡ trên vành và sách; thay bugi ghi mã in trên bugi cũ — mua theo đúng mã, không mua theo \"loại giống\".",
+   "Áp suất lốp chuẩn ghi trên đề can khung xe hoặc trong sách — không bơm theo phép ước của người xung quanh."
+  ],
+  "entities": [
+   "tra cứu thông số",
+   "số khung xe máy",
+   "số máy",
+   "cỡ lốp xe",
+   "sách hướng dẫn xe"
+  ],
+  "keywords": [
+   "tra cuu thong so xe may",
+   "so khung xe may",
+   "bang thong so xe may tra cuu",
+   "co lop xe may",
+   "ma bugi xe may"
   ]
  },
  {

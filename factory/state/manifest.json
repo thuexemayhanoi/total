@@ -1576,6 +1576,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/thong-so-ky-thuat/bang-thong-so/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/quy-trinh-bao-duong/bao-duong-1000km/index.html",
   "kind": "article"
  },
@@ -1593,6 +1597,10 @@
  },
  {
   "rel": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/bieu-mau-thu-tuc/bieu-mau-thu-tuc-xe/index.html",
   "kind": "article"
  },
  {
@@ -1788,7 +1796,15 @@
   "kind": "article"
  },
  {
+  "rel": "docs/bieu-mau-thu-tuc/giay-to-dang-ky-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/giay-to-khi-lai-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/bieu-mau-thu-tuc/giay-to-sang-ten/index.html",
   "kind": "article"
  },
  {
@@ -1828,6 +1844,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/bieu-mau-thu-tuc/hop-dong-thue-xe-mau/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/huong-dan-su-dung/huong-dan-su-dung-xe-may/index.html",
   "kind": "article"
  },
@@ -1849,6 +1869,10 @@
  },
  {
   "rel": "learn/doc-thong-so/kich-thuoc-lop/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/thong-so-ky-thuat/kich-thuoc-xe/index.html",
   "kind": "article"
  },
  {
@@ -2024,6 +2048,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/quy-trinh-bao-duong/quy-trinh-chuyen-mon/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/quy-trinh-bao-duong/quy-trinh-thay-dau/index.html",
   "kind": "article"
  },
@@ -2096,6 +2124,14 @@
   "kind": "article"
  },
  {
+  "rel": "docs/thong-so-ky-thuat/thong-so-dong-co/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/thong-so-ky-thuat/thong-so-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/thuat-ngu-xe/thuat-ngu-xe-may/index.html",
   "kind": "article"
  },
@@ -2117,6 +2153,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/toc-do-tiet-kiem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/thong-so-ky-thuat/tra-cuu-thong-so/index.html",
   "kind": "article"
  },
  {

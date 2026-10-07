@@ -6738,11 +6738,13 @@
    "title": "Kinh nghiệm quy trình chuyên môn dành cho người mới",
    "primaryIntent": "informational/quy-trinh-chuyen-mon",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2254
   },
   {
    "id": "S00454",
@@ -6751,11 +6753,13 @@
    "title": "Thông số xe máy — những điều cần biết",
    "primaryIntent": "informational/thong-so-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2383
   },
   {
    "id": "S00455",
@@ -6764,11 +6768,13 @@
    "title": "Hướng dẫn chi tiết về bảng thông số",
    "primaryIntent": "informational/bang-thong-so",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2264
   },
   {
    "id": "S00456",
@@ -6777,11 +6783,13 @@
    "title": "Tổng hợp kiến thức: thông số động cơ",
    "primaryIntent": "informational/thong-so-dong-co",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2190
   },
   {
    "id": "S00457",
@@ -6790,11 +6798,13 @@
    "title": "Kinh nghiệm kích thước xe dành cho người mới",
    "primaryIntent": "informational/kich-thuoc-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 91,
+   "words": 2169
   },
   {
    "id": "S00458",
@@ -6803,11 +6813,13 @@
    "title": "Tra cứu thông số — những điều cần biết",
    "primaryIntent": "informational/tra-cuu-thong-so",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2202
   },
   {
    "id": "S00459",
@@ -6816,11 +6828,13 @@
    "title": "Hướng dẫn chi tiết về biểu mẫu thủ tục xe",
    "primaryIntent": "informational/bieu-mau-thu-tuc-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2334
   },
   {
    "id": "S00460",
@@ -6829,11 +6843,13 @@
    "title": "Tổng hợp kiến thức: giấy tờ đăng ký xe",
    "primaryIntent": "informational/giay-to-dang-ky-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2305
   },
   {
    "id": "S00461",
@@ -6842,11 +6858,13 @@
    "title": "Kinh nghiệm hợp đồng thuê xe mẫu dành cho người mới",
    "primaryIntent": "informational/hop-dong-thue-xe-mau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2281
   },
   {
    "id": "S00462",
@@ -6855,11 +6873,13 @@
    "title": "Giấy tờ sang tên — những điều cần biết",
    "primaryIntent": "informational/giay-to-sang-ten",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T06:55:27.373Z",
+   "seoScore": 100,
+   "words": 2357
   },
   {
    "id": "S00463",
