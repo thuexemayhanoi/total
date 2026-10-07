@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-07T05:50:20.654Z",
- "phase": "writing",
- "pair": "S00423,S00424",
- "note": "repair batch queue-10 (S00413-S00418,S00420-S00422): fix G7 related links S00420-22 + cluster links, verify-batch OK 9/9; push lai lan 2 sau khi phat hien ban push truoc bi mo newline (open_url) gay loi syntax — dung noi dung goc af88efbb"
+ "at": "2026-10-07T06:04:37.035Z",
+ "phase": "waiting-publish",
+ "pair": "S00423,S00432",
+ "note": "queue 11 S00423-S00432 written 10/10, QA pass, verify-batch OK 10/10 (tips/meo-bao-duong + tips/meo-mua-xe + tips/meo-thue-xe)"
 }
