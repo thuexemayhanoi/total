@@ -1760,7 +1760,15 @@
   "kind": "article"
  },
  {
+  "rel": "local/da-nang/di-xe-o-da-nang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/ha-noi/di-xe-o-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/tp-hcm/di-xe-o-sai-gon/index.html",
   "kind": "article"
  },
  {
@@ -1789,6 +1797,10 @@
  },
  {
   "rel": "wiki/dong-co/dong-co-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/da-nang/du-lich-da-nang/index.html",
   "kind": "article"
  },
  {
@@ -1836,7 +1848,15 @@
   "kind": "article"
  },
  {
+  "rel": "local/da-nang/giao-thong-da-nang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/giao-thong-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/hai-phong/giao-thong-hai-phong/index.html",
   "kind": "article"
  },
  {
@@ -1853,6 +1873,10 @@
  },
  {
   "rel": "docs/bieu-mau-thu-tuc/giay-to-sang-ten/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/ha-noi/gio-cao-diem-ha-noi/index.html",
   "kind": "article"
  },
  {
@@ -2048,6 +2072,10 @@
   "kind": "article"
  },
  {
+  "rel": "local/tp-hcm/ngap-duong-sai-gon/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/chinh-sach-phap-ly/nghi-dinh-giao-thong/index.html",
   "kind": "article"
  },
@@ -2236,11 +2264,23 @@
   "kind": "article"
  },
  {
+  "rel": "local/da-nang/thue-xe-da-nang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/du-lich-xe-may/thue-xe-du-lich/index.html",
   "kind": "article"
  },
  {
   "rel": "local/ha-noi/thue-xe-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/hai-phong/thue-xe-hai-phong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/tp-hcm/thue-xe-tp-hcm/index.html",
   "kind": "article"
  },
  {

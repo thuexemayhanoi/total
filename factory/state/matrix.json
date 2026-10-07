@@ -7338,11 +7338,13 @@
    "title": "Kinh nghiệm giờ cao điểm hà nội dành cho người mới",
    "primaryIntent": "informational/gio-cao-diem-ha-noi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2297
   },
   {
    "id": "S00494",
@@ -7351,11 +7353,13 @@
    "title": "Thuê xe tp hcm — những điều cần biết",
    "primaryIntent": "informational/thue-xe-tp-hcm",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2422
   },
   {
    "id": "S00495",
@@ -7364,11 +7368,13 @@
    "title": "Hướng dẫn chi tiết về ngập đường sài gòn",
    "primaryIntent": "informational/ngap-duong-sai-gon",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2354
   },
   {
    "id": "S00496",
@@ -7377,11 +7383,13 @@
    "title": "Tổng hợp kiến thức: đi xe ở sài gòn",
    "primaryIntent": "informational/di-xe-o-sai-gon",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2738
   },
   {
    "id": "S00497",
@@ -7390,11 +7398,13 @@
    "title": "Kinh nghiệm thuê xe đà nẵng dành cho người mới",
    "primaryIntent": "informational/thue-xe-da-nang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2714
   },
   {
    "id": "S00498",
@@ -7403,11 +7413,13 @@
    "title": "Giao thông đà nẵng — những điều cần biết",
    "primaryIntent": "informational/giao-thong-da-nang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2738
   },
   {
    "id": "S00499",
@@ -7416,11 +7428,13 @@
    "title": "Hướng dẫn chi tiết về du lịch đà nẵng",
    "primaryIntent": "informational/du-lich-da-nang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2789
   },
   {
    "id": "S00500",
@@ -7429,11 +7443,13 @@
    "title": "Tổng hợp kiến thức: đi xe ở đà nẵng",
    "primaryIntent": "informational/di-xe-o-da-nang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2685
   },
   {
    "id": "S00501",
@@ -7442,11 +7458,13 @@
    "title": "Kinh nghiệm giao thông hải phòng dành cho người mới",
    "primaryIntent": "informational/giao-thong-hai-phong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.504Z",
-   "updatedAt": "2026-10-06T20:23:12.504Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2758
   },
   {
    "id": "S00502",
@@ -7455,11 +7473,13 @@
    "title": "Thuê xe hải phòng — những điều cần biết",
    "primaryIntent": "informational/thue-xe-hai-phong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.504Z",
-   "updatedAt": "2026-10-06T20:23:12.504Z"
+   "updatedAt": "2026-10-07T12:41:33.946Z",
+   "seoScore": 100,
+   "words": 2352
   },
   {
    "id": "S00503",
