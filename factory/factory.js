@@ -1267,7 +1267,9 @@ function main() {
     const failIfClaimable = process.argv.includes('--fail-if-claimable');
     const headSha = opt('--head-sha') || '(không rõ)';
     const m = loadMatrix();
-    const slugs = openArticleSlugs(m);
+    // Diagnostic/deep contract: hỗ trợ cả legacy filename != slug.
+    // Hot writer/status vẫn dùng openArticleSlugs() O(open queue).
+    const slugs = new Set(loadAllArticlesBySlug().keys());
     const { claimable, waitingForWriter } = runtime.findClaimableBacklog(m, slugs);
     console.log('CLAIMABLE_BACKLOG=' + claimable.length);
     console.log('WAITING_FOR_WRITER=' + waitingForWriter.length);
@@ -1297,7 +1299,8 @@ function main() {
   }
   if (cmd === 'plan-chunk') {
     const m = loadMatrix();
-    const slugs = openArticleSlugs(m);
+    // Manual/diagnostic planner giữ full legacy compatibility.
+    const slugs = new Set(loadAllArticlesBySlug().keys());
     const limit = parsePositiveInt(opt('--limit'));
     const { chunk, limit: usedLimit, resume, claimed } = runtime.selectChunk(m, slugs, limit || undefined);
     console.log('PLAN ids=' + chunk.map(s => s.id + ':' + s.state).join(' '));
