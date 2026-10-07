@@ -7833,6 +7833,35 @@
   ]
  },
  {
+  "url": "news/cong-nghe-xe/abs-la-gi/",
+  "title": "Hướng dẫn chi tiết về abs là gì",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "summary": "ABS là chữ viết tắt của anti-lock braking system — hệ thống phanh chống bó cứng: bộ phanh được điều khiển tự động nhả và kẹp theo nhịp rất nhanh để bánh xe không bao giờ bị khóa đứng khi người lái bóp phanh hết lực. Công nghệ này ra đời từ hàng không, lan sang ô tô rồi mới xuống xe máy, và mỗi chặng chuyển dịch đều vì một lý do giống nhau: khi bánh bị khóa, xe mất điều khiển và quãng đường dừng dài ra — con người không đủ nhanh để canh ngưỡng ấy trong tình huống bất ngờ, nên máy làm thay. Nhưng \"ABS là gì\" không dừng ở một câu định nghĩa: cùng là ABS, cách làm việc trên ô tô và trên xe máy khác nhau đáng kể vì hai loại xe có số bánh, tư thế và đặc tính mất lái khác nhau; và xung quanh công nghệ này có vô số hiểu lầm — từ \"ABS rút ngắn cự ly phanh mọi lúc\" tới \"có ABS thì khỏi cần giữ khoảng cách\". Bài viết giải nghĩa ABS từ gốc: nguyên lý vật lý của hiện tượng bó cứng, hệ thống làm gì từng nhịp, lịch sử phát triển, điểm khác nhau giữa các loại phương tiện, các hiểu lầm hay gặp và cách dùng ABS đúng vai trong bài học phanh của người lái.",
+  "quickAnswer": "ABS (anti-lock braking system — hệ thống phanh chống bó cứng) là công nghệ tự động nhả-kẹp phanh hàng chục lần mỗi giây để giữ bánh xe ở gần ngưỡng bó cứng mà vẫn còn quay, nơi lực phanh đạt lớn nhất và xe còn khả năng lái. ABS không phanh thay người lái mạnh hơn và không chắc chắn rút ngắn quãng đường phanh — giá trị thật là giữ bánh không khóa cứng trong tình huống phanh gấp bất ngờ. Trên ô tô, ABS giữ cả hướng lái và ổn định thân xe; trên xe máy, ABS chủ yếu cứu bánh trước khỏi bó cứng — nguyên nhân phổ biến của cú ngã khi phanh gấp. Khi ABS hoạt động, cần phanh rung nhịp: giữ nguyên lực phanh, tuyệt đối không buông vì rung.",
+  "keyPoints": [
+   "ABS là hệ thống phanh chống bó cứng: tự động nhả-kẹp phanh để bánh xe không bị khóa khi phanh hết lực.",
+   "Nguyên lý vật lý: bánh gần ngưỡng bó cứng nhưng vẫn quay là nơi lực phanh lớn nhất và xe còn khả năng điều khiển.",
+   "ABS ra đời trên máy bay, phổ cập trên ô tô rồi mới xuống xe máy — mỗi loại phương tiện có cách hiện diện khác nhau.",
+   "Trên xe máy, ABS cứu chủ yếu ở bánh trước; trên ô tô, ABS giữ thêm hướng lái khi phanh gấp."
+  ],
+  "entities": [
+   "ABS",
+   "hệ thống phanh chống bó cứng",
+   "ngưỡng bó cứng",
+   "cảm biến tốc độ bánh",
+   "bó cứng bánh trước",
+   "phanh gấp"
+  ],
+  "keywords": [
+   "abs la gi",
+   "he thong chong bo cung phanh",
+   "abs hoat dong the nao",
+   "abs o to va xe may",
+   "phanh abs rung"
+  ]
+ },
+ {
   "url": "wiki/he-thong-phanh/abs-xe-may/",
   "title": "Kinh nghiệm abs xe máy dành cho người mới",
   "category": "Bách khoa xe",
@@ -8270,6 +8299,35 @@
    "gia han bao hiem xe may",
    "boi thuong bao hiem xe may",
    "bao hiem bat buoc"
+  ]
+ },
+ {
+  "url": "news/gia-xe/bien-dong-gia-xe/",
+  "title": "Hướng dẫn chi tiết về biến động giá xe",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "summary": "Giá xe máy không phải con số cố định in trong catalogue mà là một dòng chảy luôn dịch chuyển theo bốn lực: chi phí sản xuất và nhập khẩu, chu kỳ đời của từng mẫu xe, chính sách thuế phí theo từng thời kỳ, và mối quan hệ cung–cầu tại từng đại lý. Cùng một chiếc xe, ba tháng trước và ba tháng sau có thể mang hai mức giá khác nhau — không hẳn vì hãng giảm giá, mà vì xe sắp có phiên bản kế tiếp, vì kho đại lý đang quá tải tồn, hoặc vì một khoản lệ phí sắp điều chỉnh. Người mua hiểu được nhịp biến động này sẽ không hoảng hốt trước tin \"giảm sốc\", không mua hớ ở pha ra mắt, và biết chờ tới đúng thời điểm tổng chi phí chạm đáy. Bài viết phân tích từng nhóm nguyên nhân, cách đọc chu kỳ đời một mẫu xe, tác động của chính sách lên giá thực tế, cách lập thói quen theo dõi giá theo tuần mà không bị nhiễu tin, và cuối cùng là cách ghép toàn bộ dữ kiện thành một quyết định mua đúng lúc.",
+  "quickAnswer": "Biến động giá xe máy đến từ bốn nguồn chính: chi phí đầu vào (linh kiện, tỷ giá, vận chuyển), chu kỳ đời mẫu xe (mới ra mắt giữ giá, gần thay thế hạ giá), chính sách (lệ phí trước bạ, ưu đãi đăng ký cho dòng xe mới hoặc xe điện), và tồn kho tại từng đại lý. Cách tận dụng: theo dõi bảng giá hãng và báo giá thật của vài đại lý theo tuần, chú ý tin ra mắt phiên bản kế tiếp của mẫu đang định mua — thời điểm vài tuần quanh sự kiện đó thường là lúc tổng chi phí thấp nhất. Không nhảy theo từng tin \"khuyến mãi sốc\" vì nhiều đợt chỉ là đổi tên khoản giảm; hãy so tổng chi phí bỏ ra đường gồm cả phí trước bạ và đăng ký trước khi kết luận rẻ hay đắt.",
+  "keyPoints": [
+   "Giá xe máy dao động theo bốn lực: chi phí đầu vào, chu kỳ đời mẫu xe, chính sách thuế phí, và tồn kho của đại lý.",
+   "Mẫu xe gần bị thay thế bằng thế hệ kế tiếp thường có mức chiết khấu sâu nhất trong cả chu kỳ.",
+   "Lệ phí trước bạ và các khoản thu theo địa phương khiến cùng một xe có tổng chi phí khác nhau giữa các tỉnh và các thời kỳ.",
+   "Khuyến mãi \"sốc\" cần soi kỹ: nhiều đợt chỉ là gói phụ kiện hoặc đổi tên khoản giảm vốn có."
+  ],
+  "entities": [
+   "biến động giá xe",
+   "chu kỳ đời mẫu xe",
+   "lệ phí trước bạ",
+   "tồn kho đại lý",
+   "khuyến mãi",
+   "giá xe cũ"
+  ],
+  "keywords": [
+   "bien dong gia xe",
+   "gia xe may giam",
+   "thoi diem mua xe may",
+   "chu ky doi xe",
+   "khuyen mai xe may"
   ]
  },
  {
@@ -9007,6 +9065,35 @@
   ]
  },
  {
+  "url": "news/cong-nghe-xe/cong-nghe-xe-may/",
+  "title": "Công nghệ xe máy — những điều cần biết",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "summary": "Xe máy không còn là cỗ máy cơ khí thuần khi ba mươi năm trước: phun xăng điện tử thay bộ chế hòa khí, hệ thống phanh chống bó cứng và phanh liên động xuống tới cả dòng phổ thông, màn hình TFT, khóa smart, đèn LED và các tính năng kết nối smartphone lần lượt xuất hiện trên cả những chiếc xe giá vừa túi tiền. Song công nghệ trên xe máy không ai tặng không: mỗi trang bị có giá mua lúc đầu và giá duy trì về sau — cảm biến cần vệ sinh, điện tử cần nguồn khỏe, phần mềm cần cập nhật. Hiểu mỗi nhóm công nghệ làm gì, ưu điểm thật sự nằm ở đâu, và chi phí đi kèm thế nào giúp bạn chọn xe đúng nhu cầu thay vì chọn theo danh sách tính năng dài nhất. Bài viết này đi qua bốn nhóm công nghệ chính trên xe máy hiện đại — an toàn, động lực, tiện nghi, kết nối — kèm góc nhìn thực tế về trang bị nào đáng tiền ở phân khúc nào và thói quen bảo trì để công nghệ sống lâu cùng chiếc xe.",
+  "quickAnswer": "Công nghệ xe máy hiện đại chia bốn nhóm chính: an toàn (ABS, phanh liên động CBS, đèn LED), động lực (phun xăng điện tử EFI, xe điện, hệ thống khởi động), tiện nghi (khóa smart, màn hình LCD/TFT, cốp điện, cổng sạc), và kết nối (app theo dõi vị trí, định hướng, cuộc gọi trên tay lái). Khi chọn xe: ưu tiên nhóm an toàn trước vì tác động trực tiếp tới tính mạng; EFI là chuẩn phổ thông nên không cần trả thêm; các trang bị tiện nghi nên chọn theo tần suất dùng thật. Lưu ý chi phí duy trì: xe nhiều điện tử cần ắc quy khỏe hơn, cảm biến cần vệ sinh định kỳ, và sửa chữa đòi hỏi thợ có máy chẩn đoán — hãy tính công nghệ vào tổng chi phí sở hữu, không chỉ giá mua.",
+  "keyPoints": [
+   "Bốn nhóm công nghệ chính trên xe máy hiện đại: an toàn, động lực, tiện nghi và kết nối — mỗi nhóm có giá trị và chi phí riêng.",
+   "Nhóm an toàn (ABS, phanh liên động, đèn LED) đáng ưu tiên cao nhất khi chọn xe vì tác động trực tiếp đến giảm thiểu tai nạn.",
+   "Phun xăng điện tử đã là chuẩn phổ thông trên xe xăng mới: tiết kiệm hơn, khởi động dễ hơn, nhưng cần vệ sinh vòi phun định kỳ.",
+   "Trang bị tiện nghi nên chọn theo tần suất dùng thật — khóa smart, màn hình TFT chỉ đáng tiền nếu bạn dùng chúng mỗi ngày."
+  ],
+  "entities": [
+   "công nghệ xe máy",
+   "phun xăng điện tử",
+   "ABS",
+   "phanh liên động",
+   "khóa smart",
+   "xe điện"
+  ],
+  "keywords": [
+   "cong nghe xe may",
+   "trang bi tren xe may",
+   "abs tren xe may",
+   "phun xang dien tu",
+   "xe may thong minh"
+  ]
+ },
+ {
   "url": "learn/doc-thong-so/cong-suat-mo-men-xoan/",
   "title": "Công suất và mô-men xoắn dành cho người mới: hiểu bằng ví dụ đời thường",
   "category": "Kiến thức chuyên sâu",
@@ -9358,6 +9445,35 @@
   ]
  },
  {
+  "url": "local/ha-noi/di-xe-o-ha-noi/",
+  "title": "Tổng hợp kiến thức: đi xe ở hà nội",
+  "category": "Địa phương",
+  "hub": "Hà Nội",
+  "summary": "Đi xe ở Hà Nội không khó vì đường xấu hay xe đông — mọi thành phố đều có những thứ đó. Đi xe ở Hà Nội khó vì thành phố có nhịp riêng: một quãng đường thông thoáng lúc chín giờ sáng có thể tắc cứng lúc sáu giờ chiều; một tuyến quen thuộc mùa hanh có thể ngập sau một cơn mưa chiều mùa hạ; và một khu vực dễ gửi xe giữa tuần lại thành nỗi ám ảnh vào tối cuối tuần quanh không gian đi bộ. Người mới đến — và cả người sống lâu năm mà vẫn đi theo thói quen — sẽ nhanh hơn hẳn nếu nắm được những kiến thức nền: bố cục địa lý của thành phố với các khu chính và vai trò của sông Hồng cùng các cây cầu, cách lên tuyến đường theo giờ trong ngày, nhận biết nhịp cao điểm thật của từng khu, chuẩn bị theo mùa mưa — nóng — rét của miền Bắc, và quy luật của hệ thống gửi xe vốn là \"trạm dừng\" của mọi hành trình trong phố. Bài viết tổng hợp các kiến thức này thành một bức tranh liền mạch, giúp bạn không chỉ lái được ở Hà Nội mà đọc được thành phố — biết vì sao đường này giờ này đông, và dự đoán được điều gì sắp xảy ra ở ngã tư kế tiếp.",
+  "quickAnswer": "Đi xe ở Hà Nội hiệu quả dựa trên bốn lớp kiến thức. Một: địa lý — trung tâm quanh hồ Gươm, các quận tỏa ra, sông Hồng chia hai bờ với các cây cầu chính là điểm thắt của mọi tuyến xuyên sông; hiểu bố cục để chọn hướng trước khi xuất phát. Hai: nhịp giờ — cao điểm sáng và chiều tập trung ở các trục lớn và cổng trường, cổng cơ quan; giờ thấp điểm giữa trưa và sau chín tối; một tuyến tốt ở giờ này có thể tệ ở giờ khác — nên lên tuyến theo giờ dự kiến đi, không theo trí nhớ. Ba: mùa — mùa mưa cần lối tránh đoạn ngập và áo mưa sẵn trong cốp; nắng nóng cần trù che và đủ nước; rét cần găng và giữ khoảng cách xa hơn vì lốp cứng. Bốn: gửi xe — nắm quy luật bãi đỗ quanh khu hay đến, gửi đúng chỗ để không phải vẽ vương lề đường. Ghép bốn lớp này lại, mỗi chuyến đi ở Hà Nội bớt ít nhất một phần tư thời gian so với đi theo cảm tính.",
+  "keyPoints": [
+   "Bố cục Hà Nội: trung tâm quanh hồ Gươm, các khu tỏa tròn ra ngoài, sông Hồng chia hai bờ — các cây cầu chính là điểm thắt của tuyến xuyên sông.",
+   "Nhịp giờ cao điểm sáng và chiều tập trung ở trục lớn, cổng trường, cổng cơ quan; cùng một tuyến, chất lượng khác nhau theo giờ.",
+   "Mùa quyết định trải nghiệm: mưa hè cần lối tránh đoạn ngập, nắng cần che chắn, rét cần găng và phanh sớm hơn vì lốp cứng.",
+   "Gửi xe là một phần của tuyến: nắm trước bãi đỗ quanh điểm đến để không bị vẽ vương lề đường phút cuối."
+  ],
+  "entities": [
+   "đi xe ở Hà Nội",
+   "giờ cao điểm",
+   "sông Hồng",
+   "gửi xe",
+   "tuyến đường",
+   "mùa mưa"
+  ],
+  "keywords": [
+   "di xe o ha noi",
+   "gio cao diem ha noi",
+   "gui xe ha noi",
+   "len tuyen ha noi",
+   "giao thong ha noi"
+  ]
+ },
+ {
   "url": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/",
   "title": "Điều kiện lái xe máy: tuổi, giấy phép và sức khỏe theo quy định",
   "category": "Kiến thức chuyên sâu",
@@ -9680,6 +9796,35 @@
   ]
  },
  {
+  "url": "local/ha-noi/duong-cam-xe-may-ha-noi/",
+  "title": "Đường cấm xe máy hà nội — những điều cần biết",
+  "category": "Địa phương",
+  "hub": "Hà Nội",
+  "summary": "Đi xe máy ở Hà Nội, sớm muộn bạn cũng gặp một tấm biển cấm đúng lúc cần rẽ — và câu hỏi \"lui lại hay chạy tiếp\" là câu hỏi sai lầm nhiều người trả bằng cảm tính, với cái giá là cả một vụ va chạm lùi trên phố đông hoặc một phiên xử phạt. Thực tế là mạng lưới cấm của Hà Nội không cố định: có tuyến cấm toàn thời gian, có tuyến cấm theo khung giờ cao điểm, có khu phố đi bộ cuối tuần, và có cả những đoạn một chiều mà người đi nhầm lẫn với \"cấm\". Bài viết này không liệt kê danh sách đường cấm — danh sách thay đổi theo từng đợt điều chỉnh của thành phố và đọc trên mạng rất dễ gặp bản cũ — mà dạy cách tự bảo vệ mình bằng đúng nguồn: đọc biển cấm và biển phụ chuẩn, phân biệt các dạng hạn chế lưu thông thường gặp ở Hà Nội, xử lý an toàn khi lỡ đi vào đường cấm, hiểu khung xử phạt theo quy định hiện hành mà không cần nhớ con số, và cách tra thông tin điều chỉnh giao thông đang hiệu lực trước mỗi chuyến đi xa khu quen thuộc.",
+  "quickAnswer": "Đường cấm xe máy ở Hà Nội chia các dạng: cấm toàn thời gian (biển cấm xe gắn máy hoặc cấm đi ngược chiều), cấm theo khung giờ (biển phụ ghi giờ, thường áp các trục giờ cao điểm), khu vực đi bộ cuối tuần quanh hồ Gươm, và tuyến một chiều — nơi xe máy được đi theo đúng một hướng quy định. Ba nguyên tắc: biển báo tại chỗ là nguồn chính xác nhất — đọc biển chính kèm biển phụ trước khi rẽ; không lùi xe giữa dòng khi đi nhầm — chấp hành đi tới điểm kết thúc tuyến rồi quay lại đường khác; và khi điều tiết thay đổi, cơ quan chức năng thông báo công khai — tra bản đang hiệu lực thay vì tin chia sẻ cũ. Đi vào đường cấm là hành vi vi phạm xử theo quy định hiện hành, mức độ tùy dạng cấm và tình huống — vì vậy cách rẻ nhất vẫn là nhìn biển trước, không phải tranh luận sau.",
+  "keyPoints": [
+   "Đường cấm xe máy ở Hà Nội có nhiều dạng: cấm toàn thời gian, cấm theo khung giờ, khu đi bộ cuối tuần, và tuyến một chiều.",
+   "Biển báo tại chỗ là nguồn chính xác nhất: đọc biển chính kèm toàn bộ biển phụ về giờ, hướng và đối tượng áp dụng.",
+   "Một chiều không đồng nghĩa cấm: xe máy vẫn được đi — chỉ được đi đúng một hướng quy định.",
+   "Đi nhầm đường cấm: không lùi giữa dòng, đi tới điểm an toàn rồi quay lại bằng tuyến khác."
+  ],
+  "entities": [
+   "đường cấm xe máy",
+   "biển báo cấm",
+   "phố một chiều",
+   "khu đi bộ",
+   "giờ cao điểm",
+   "điều tiết giao thông"
+  ],
+  "keywords": [
+   "duong cam xe may ha noi",
+   "pho mot chieu ha noi",
+   "bien cam xe may",
+   "khu di bo ho guom",
+   "di nguoc chieu"
+  ]
+ },
+ {
   "url": "ride/cung-duong/duong-ven-bien/",
   "title": "Hướng dẫn chi tiết về đường ven biển",
   "category": "Hành trình",
@@ -9733,6 +9878,64 @@
    "ep xe dung cach",
    "mui than buong dot",
    "xe may chay ep"
+  ]
+ },
+ {
+  "url": "news/gia-xe/gia-dai-ly/",
+  "title": "Tổng hợp kiến thức: giá đại lý",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "summary": "Giá đại lý là con số bạn thực sự trả khi bước ra khỏi cửa hàng, và nó hiếm khi trùng với giá đề xuất in trên website hãng. Giữa hai mốc đó là cả một hệ thống: biên lợi nhuận của đại lý, chỉ tiêu doanh số theo tháng, chi phí mặt bằng từng khu vực, chính sách dòng tiền từ hãng, và các gói phụ kiện đi kèm. Hiểu hệ thống này, bạn sẽ hiểu vì sao cùng lúc cùng mẫu xe mà mỗi đại lý báo một giá — nơi chiết sâu vì đang gấp chỉ tiêu, nơi bán sát giá vì khan hàng, nơi \"giảm\" nhưng bù lại bằng gói đồ bắt buộc mua kèm. Bài viết tổng hợp kiến thức về giá đại lý từ gốc: giá đề xuất và giá bán thực tế khác nhau chỗ nào, điều gì tạo chênh giữa các đại lý, cách xin và so sánh báo giá cho đúng, đàm phán trên tổng chi phí thay vì giá trần, và nhận diện các khoản \"độn\" đằng sau con số đẹp trên tờ bút xách.",
+  "quickAnswer": "Giá đại lý là giá bán thực tế tại từng cửa hàng, hình thành từ giá đề xuất của hãng cộng trừ biên lợi nhuận, chi phí vận hành, chỉ tiêu doanh số và tình trạng tồn kho của đại lý đó. Vì bốn yếu tố này khác nhau giữa các nơi bán, cùng một mẫu xe có thể nhận nhiều mức báo giá chênh nhau trong cùng tuần. Cách mua khôn: xin báo giá bằng văn bản từ hai ba đại lý, yêu cầu ghi rõ các khoản gồm và không gồm, so trên tổng chi phí ra đường thay vì giá trần, và hỏi trước các khoản thu thêm sau cọc. Mức chiết sâu bất thường nên kèm câu hỏi: hàng còn bảo hành đầy đủ không, xe có phải hàng trưng bày tồn lâu không, và gói phụ kiện bắt buộc mua kèm giá bao nhiêu.",
+  "keyPoints": [
+   "Giá đại lý khác giá đề xuất hãng: giá đề xuất là mốc tham chiếu, giá đại lý là kết quả của biên lợi nhuận, chỉ tiêu và tồn kho từng nơi.",
+   "Chênh giá giữa các đại lý là bình thường — đến từ chi phí mặt bằng, dòng hàng và áp lực chỉ tiêu khác nhau.",
+   "So báo giá đại lý phải so tổng chi phí ra đường, không so giá trần chưa tính lệ phí và các khoản thu thêm.",
+   "Yêu cầu báo giá bằng văn bản, ghi rõ thời hạn, các khoản gồm, không gồm, và điều kiện bảo hành."
+  ],
+  "entities": [
+   "giá đại lý",
+   "giá đề xuất",
+   "báo giá",
+   "chiết khấu",
+   "chỉ tiêu doanh số",
+   "tồn kho"
+  ],
+  "keywords": [
+   "gia dai ly xe may",
+   "bao gia dai ly",
+   "chiep khau xe may",
+   "mua xe o dai ly",
+   "so gia dai ly"
+  ]
+ },
+ {
+  "url": "news/gia-xe/gia-niem-yet/",
+  "title": "Kinh nghiệm giá niêm yết dành cho người mới",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "summary": "Lần đầu mua xe, con số đầu tiên bạn thấy gần như luôn là giá niêm yết — mức giá hãng công bố cho từng phiên bản, in trong catalogue, catalogue website và bảng báo tại cửa hàng. Con số đó hữu ích làm mặt bằng so sánh, nhưng là nơi khởi đầu chứ không phải đích: giá niêm yết chưa gồm lệ phí trước bạ, phí đăng ký, đăng kiểm, bảo hiểm bắt buộc; chưa nói tới khuyến mãi và cách mỗi đại lý vận hành. Người mới dễ mắc ba lỗi với giá niêm yết: tưởng đó là số tiền cuối cùng phải trả, so sánh hai mẫu xe chỉ bằng giá niêm yết mà quên các khoản kèm theo khác nhau, và bị cụm \"giá bán lẻ đề xuất\" khiến tay co rút lại đàm phán dù thị trường đang có ưu đãi. Bài viết này giải nghĩa giá niêm yết từ gốc, chỉ ra những gì con số gồm và không gồm, hướng dẫn quy đổi ra tổng chi phí ra đường từng bước, và các kinh nghiệm thực tế để người mới dùng giá niêm yết đúng vai trò của nó: thước đo, không phải hóa đơn.",
+  "quickAnswer": "Giá niêm yết (giá bán lẻ đề xuất) là mức hãng công bố cho mỗi phiên bản xe, đóng vai trò mặt bằng tham chiếu cho toàn thị trường. Nó chưa gồm lệ phí trước bạ, phí đăng ký, đăng kiểm và bảo hiểm bắt buộc — các khoản này cộng thêm khi xe ra đường; đồng thời chưa phản ánh chiết khấu hay gói mua kèm tại từng đại lý. Cách dùng đúng: lấy giá niêm yết làm mốc so các phiên bản và các mẫu xe với nhau, rồi xin báo giá thực tế để biết con số phải trả; nhân form ra tổng chi phí trước khi so xe rẻ hay đắt. Người mới không nên đàm phán bám sát giá niêm yết như trần cứng — trong nhiều giai đoạn thị trường, mức chốt thực tế thấp hơn giá niêm yết.",
+  "keyPoints": [
+   "Giá niêm yết là giá bán lẻ đề xuất do hãng công bố cho từng phiên bản — mặt bằng tham chiếu, không phải số tiền cuối cùng.",
+   "Con số niêm yết chưa gồm lệ phí trước bạ, phí đăng ký, đăng kiểm và bảo hiểm bắt buộc.",
+   "Giá thực tế còn phụ thuộc chiết khấu và gói mua kèm tại từng đại lý, có thể thấp hoặc cao hơn giá niêm yết.",
+   "So sánh hai mẫu xe cần so tổng chi phí ra đường của cùng bản máy, không so giá niêm yết trần với nhau."
+  ],
+  "entities": [
+   "giá niêm yết",
+   "giá bán lẻ đề xuất",
+   "lệ phí trước bạ",
+   "phiên bản xe",
+   "tổng chi phí ra đường",
+   "báo giá"
+  ],
+  "keywords": [
+   "gia niem yet xe may",
+   "gia de xuat xe may",
+   "phi la banh",
+   "mua xe lan dau",
+   "tong chi phi mua xe"
   ]
  },
  {
@@ -11467,6 +11670,35 @@
   ]
  },
  {
+  "url": "news/cong-nghe-xe/phun-xang-dien-tu/",
+  "title": "Tổng hợp kiến thức: phun xăng điện tử",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "summary": "Phun xăng điện tử — thường gọi tắt EFI — là bước chuyển công nghệ lớn nhất của động cơ xe máy thế hệ mới: bộ chế hòa khí cơ khí cho qua vị trí, nhường chỗ cho hệ thống các cảm biến, bơm xăng điện và vòi phun được điều khiển bởi máy tính nhỏ onboard. Thay vì trộn xăng gió theo mạch hút thụ động của khí nạp, EFI đo liên tục nhiệt độ máy, vị trí bướm ga, lượng khí vào và số vòng quay, rồi tính toán lượng nhiên liệu phun chính xác theo từng nhịp hút — cho khởi động lạnh dễ, tiêu hao đều đặn, khí thải sạch hơn và cảm giác ga mượt. Nhưng EFI cũng mang theo bộ hóa đơn mới: xăng bẩn và cặn lâu ngày làm vòi phun tắc nhẹ; ắc quy yếu làm bơm xăng yếu; thợ sửa cần máy chẩn đoán thay vì chỉ vặn ốc gió. Bài viết tổng hợp kiến thức về phun xăng điện tử từ cấu tạo, nguyên lý so với chế hòa khí, ưu nhược điểm thật ngoài đời, đến quy trình bảo dưỡng đúng và các hỏng hóc thường gặp kèm dấu hiệu nhận biết sớm — để người dùng EFI biết chiếc xe của mình cần gì để chạy bền.",
+  "quickAnswer": "Phun xăng điện tử (EFI) là hệ thống cấp nhiên liệu dùng cảm biến và máy tính điều khiển vòi phun xăng theo từng nhịp máy, thay cho bộ chế hòa khí trộn xăng gió bằng cơ khí. Ưu điểm thật: khởi động lạnh dễ mà không cần choke, tiêu hao ổn định, ga mượt, khí thải sạch. Nhược điểm: nhạy với xăng bẩn (vòi phun dễ tắc nhẹ), phụ thuộc ắc quy và bơm điện, sửa chữa cần thợ có máy chẩn đoán. Bảo dưỡng đúng: vệ sinh vòi phun theo chu kỳ, thay lọc xăng đúng hạn, dùng xăng sạch nguồn tin cậy, không để xe hết xăng thường xuyên vì bơm xăng nóng khi chạy khô. Dấu hiệu vòi phun tắc: ga giật khi mở nhanh, hao xăng tăng, máy rung không đều khi đứng chờ.",
+  "keyPoints": [
+   "EFI dùng cảm biến và máy tính nhỏ để phun xăng đúng lượng theo từng nhịp máy, thay cho việc trộn xăng gió cơ khí của chế hòa khí.",
+   "Ưu điểm thật: khởi động lạnh dễ, tiêu hao ổn định, ga mượt, khí thải sạch hơn — lý do EFI thành chuẩn phổ thông.",
+   "Điểm yếu chính: nhạy với xăng bẩn và cặn — vòi phun tắc nhẹ gây ga giật, hao xăng, máy rung không đều.",
+   "Bơm xăng điện nóng lên khi bình gần cạn: tránh chạy khô thường xuyên để bơm sống lâu."
+  ],
+  "entities": [
+   "phun xăng điện tử",
+   "EFI",
+   "vòi phun",
+   "bơm xăng điện",
+   "chế hòa khí",
+   "cảm biến bướm ga"
+  ],
+  "keywords": [
+   "phun xang dien tu",
+   "efi xe may",
+   "voi phun bi tac",
+   "che hoa khi va efi",
+   "bao duong efi"
+  ]
+ },
+ {
   "url": "ride/di-phuot/phuot-doan/",
   "title": "Tổng hợp kiến thức: phượt đoàn",
   "category": "Hành trình",
@@ -12663,6 +12895,35 @@
   ]
  },
  {
+  "url": "local/ha-noi/thue-xe-ha-noi/",
+  "title": "Hướng dẫn chi tiết về thuê xe hà nội",
+  "category": "Địa phương",
+  "hub": "Hà Nội",
+  "summary": "Thuê xe là cách nhiều người chọn để tự do di chuyển ở Hà Nội: khách du lịch cần chiếc xe máy dạo phố cổ và các vùng ven, người mới đến cần phương tiện tạm trước khi mua xe, người bản xứ thỉnh thoảng cần xe dự phòng khi xe chính nằm sửa. Nhưng thuê xe ở một đô thị đông đúc có luật chơi riêng mà người lơ đãng dễ trả giá bằng cọc bị trừ oan, bằng chiếc xe kém an toàn giữa giờ cao điểm, hoặc bằng những tranh chấp không ai ghi rõ từ đầu. Hướng dẫn này đi qua toàn bộ hành trình thuê xe ở Hà Nội theo hướng kiến thức: chọn loại xe và loại dịch vụ khớp mục đích chuyến đi, chuẩn bị giấy tờ theo đúng quy định, đọc và đàm phán hợp đồng thuê như người hiểu mình đang ký gì, nắm rõ trách nhiệm khi xe hư hỏng hoặc mất cắp, nhận diện các tín hiệu của nơi thuê đáng tin và không đáng tin, cùng những quy tắc an toàn đặc thù khi lái xe thuê giữa dòng giao thông Hà Nội. Mục tiêu không phải thuê được xe rẻ nhất — mà là thuê đúng xe, từ đúng nơi, với điều khoản rõ ràng để chuyến đi chỉ còn một việc để bận tâm: tận hưởng thành phố.",
+  "quickAnswer": "Thuê xe ở Hà Nội đúng cách trải theo năm bước: chọn loại xe theo mục đích (số sàn gọn cho phố cổ, tay ga cho đường dài, xe đạp cho khoảng cách ngắn); chuẩn bị giấy tờ theo quy định (thẻ căn cước hoặc hộ chiếu, giấy phép lái phù hợp nếu điều khiển xe gắn máy — khách quốc tế cần giấy phép lái quốc tế phù hợp); đọc kỹ hợp đồng trước cọc: tiền thuê tính theo ngày, khoản đặt cọc, trách nhiệm khi mất hoặc hư xe, cách nhận/trả xe; kiểm tra xe cùng chủ thuê ngay khi nhận — chụp ảnh tình trạng xe, xăng, khung máy; và trả xe đúng giờ theo thỏa thuận để hoàn cọc trọn vẹn. Ba tín hiệu nơi thuê đáng tin: hợp đồng bằng văn bản, xe được bảo dưỡng sạch sẽ, và điều khoản trách nhiệm nói rõ không úp mở. Tín hiệu cảnh báo: cọc cao bất thường mà không giải thích, hợp đồng không cho mang theo bản, và lời hứa miệng thay cho điều khoản viết.",
+  "keyPoints": [
+   "Chọn loại xe theo mục đích chuyến đi: số sàn gọn nhẹ cho phố đông, tay ga thoải mái cho đường dài, xe đạp cho quãng ngắn quanh khu trung tâm.",
+   "Giấy tờ khi thuê và điều khiển xe gắn máy theo quy định hiện hành: giấy tờ tùy thân và giấy phép lái phù hợp — khách quốc tế cần giấy phép lái quốc tế được chấp nhận.",
+   "Hợp đồng thuê bằng văn bản là điều kiện tiên quyết: ghi rõ tiền thuê, cọc, trách nhiệm hư hỏng — mất xe, và điều kiện hoàn cọc.",
+   "Kiểm tra xe cùng chủ thuê lúc nhận: chụp ảnh xe, mức xăng, vết trầy — bằng chứng tránh tranh chấp khi trả."
+  ],
+  "entities": [
+   "thuê xe hà nội",
+   "thuê xe máy",
+   "hợp đồng thuê xe",
+   "đặt cọc",
+   "giấy phép lái",
+   "trách nhiệm hư hỏng"
+  ],
+  "keywords": [
+   "thue xe ha noi",
+   "thue xe may o ha noi",
+   "hop dong thue xe",
+   "dat coc thue xe",
+   "giay to thue xe"
+  ]
+ },
+ {
   "url": "tips/meo-tiet-kiem-xang/tiet-kiem-xang/",
   "title": "Hướng dẫn chi tiết về tiết kiệm xăng",
   "category": "Mẹo",
@@ -13526,6 +13787,35 @@
    "xe may honda",
    "honda co nhung dong xe nao",
    "chon xe honda"
+  ]
+ },
+ {
+  "url": "news/cong-nghe-xe/xe-ket-noi-thong-minh/",
+  "title": "Kinh nghiệm xe kết nối thông minh dành cho người mới",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "summary": "Xe máy kết nối thông minh là bước tiến nhỏ về phần cứng nhưng lớn về trải nghiệm: một modul gắn trên xe nói chuyện với điện thoại qua Bluetooth hoặc sóng di động, báo cho bạn biết xe đang ở đâu, cảnh báo nếu xe bị di chuyển khi vắng chủ, nhắc lịch bảo dưỡng theo số kilomet thật, và lưu lại từng chuyến đi. Với người mới, lớp công nghệ này mang lại thứ hiếm có ở phương tiện giá vừa túi tiền: sự an tâm — biết xe mình đang ở đâu, biết nó đang được chạy đúng cách hay bị lạm dụng, và có dữ liệu để chăm xe đúng lúc. Nhưng trải nghiệm tốt không đến tự nhiên: app cần cài đúng, ghép nối ổn, tài khoản bảo mật kỹ; tính năng định vị phụ thuộc ắc quy và sóng; và ranh giới an toàn phải rõ — mọi thao tác trên điện thoại khi đang chạy đều phản tác dụng. Bài viết này tổng hợp kinh nghiệm thực hành cho người mới: các lớp tính năng của xe kết nối và ích thật của từng lớp, cách kích hoạt lần đầu cho sạch, thói quen dùng hằng ngày an toàn, xử lý các trục trặc thường gặp, và những câu hỏi nên hỏi trước khi chọn một chiếc xe thông minh đầu tiên.",
+  "quickAnswer": "Xe máy kết nối thông minh là xe có modul điện tử nói chuyện với app trên điện thoại, cung cấp các tính năng: định vị và theo dõi xe trên bản đồ, cảnh báo khi xe bị di chuyển hoặc rung, lịch bảo dưỡng theo kilomet thật, ghi lộ trình chuyến đi, và trên một số mẫu — trạng thái pin hay chìa khóa điện tử. Người mới bắt đầu đúng cách: tải app chính thức của hãng, ghép nối theo hướng dẫn trong lúc xe đứng yên, bật thông báo và đặt quyền hợp lý, cập nhật firmware khi hãng có bản mới. Ba nguyên tắc an toàn: không nhìn điện thoại khi đang chạy, ghép tai nghe chỉ dùng để nghe chỉ dẫn giọng nói ngắn, và tin cảnh báo từ app — kiểm tra xe ngay khi nhận thông báo di chuyển bất thường. Tính năng định vị phụ thuộc ắc quy xe và sóng di động: để xe lâu ngày nên giữ ắc quy khỏe.",
+  "keyPoints": [
+   "Xe kết nối thông minh gồm các lớp tính năng: định vị, cảnh báo di chuyển, lịch bảo dưỡng theo kilomet, ghi lộ trình và trạng thái xe.",
+   "Ích thật lớn nhất với người mới là an tâm: biết xe ở đâu, nhận cảnh báo sớm khi xe bị di chuyển khi vắng chủ.",
+   "Kích hoạt lần đầu cần làm đúng: app chính thức của hãng, ghép nối khi xe đứng yên, tài khoản bảo mật bằng mật khẩu riêng.",
+   "Mọi thao tác điện thoại phải chờ xe dừng hẳn — tai nghe chỉ nên dùng cho chỉ dẫn giọng nói ngắn."
+  ],
+  "entities": [
+   "xe kết nối thông minh",
+   "app xe máy",
+   "định vị xe",
+   "cảnh báo di chuyển",
+   "Bluetooth",
+   "lịch bảo dưỡng"
+  ],
+  "keywords": [
+   "xe ket noi thong minh",
+   "app theo doi xe may",
+   "dinh vi xe may",
+   "canh bao di chuyen",
+   "xe may thong minh"
   ]
  },
  {

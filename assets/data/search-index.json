@@ -8331,6 +8331,30 @@
  },
  {
   "kind": "article",
+  "url": "news/cong-nghe-xe/abs-la-gi/",
+  "title": "Hướng dẫn chi tiết về abs là gì",
+  "description": "ABS là hệ thống chống bó cứng phanh, giữ bánh xe quay ngưỡng khi phanh gấp. Giải thích nguyên lý, lịch sử, khác biệt giữa xe máy và ô tô và các hiểu lầm phổ biến.",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "entities": [
+   "ABS",
+   "hệ thống phanh chống bó cứng",
+   "ngưỡng bó cứng",
+   "cảm biến tốc độ bánh",
+   "bó cứng bánh trước",
+   "phanh gấp"
+  ],
+  "keywords": [
+   "abs la gi",
+   "he thong chong bo cung phanh",
+   "abs hoat dong the nao",
+   "abs o to va xe may",
+   "phanh abs rung"
+  ],
+  "summary": "ABS là chữ viết tắt của anti-lock braking system — hệ thống phanh chống bó cứng: bộ phanh được điều khiển tự động nhả và kẹp theo nhịp rất nhanh để bánh xe không bao giờ bị khóa đứng khi người lái bóp phanh hết lực. Công nghệ này ra đời từ hàng không, lan sang"
+ },
+ {
+  "kind": "article",
   "url": "wiki/he-thong-phanh/abs-xe-may/",
   "title": "Kinh nghiệm abs xe máy dành cho người mới",
   "description": "ABS xe máy hoạt động thế nào, khi nào phát huy tác dụng, khi nào vô dụng, cách tập làm quen với cảm giác rung cần phanh và các kinh nghiệm thực tế cho người mới.",
@@ -8693,6 +8717,30 @@
    "bao hiem bat buoc"
   ],
   "summary": "Trong bộ giấy tờ bắt buộc của một chiếc xe máy, bảo hiểm trách nhiệm dân sự (TNDS) là tờ giấy thường bị coi nhẹ nhất — cho tới ngày nó phát huy tác dụng. Bảo hiểm TNDS bắt buộc là hợp đồng giữa chủ xe và công ty bảo hiểm, chi trả phần bồi thường cho người thứ "
+ },
+ {
+  "kind": "article",
+  "url": "news/gia-xe/bien-dong-gia-xe/",
+  "title": "Hướng dẫn chi tiết về biến động giá xe",
+  "description": "Giá xe máy dao động theo chi phí đầu vào, chu kỳ đời mẫu xe, chính sách lệ phí và tồn kho đại lý. Hướng dẫn đọc biến động giá và chọn thời điểm mua.",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "entities": [
+   "biến động giá xe",
+   "chu kỳ đời mẫu xe",
+   "lệ phí trước bạ",
+   "tồn kho đại lý",
+   "khuyến mãi",
+   "giá xe cũ"
+  ],
+  "keywords": [
+   "bien dong gia xe",
+   "gia xe may giam",
+   "thoi diem mua xe may",
+   "chu ky doi xe",
+   "khuyen mai xe may"
+  ],
+  "summary": "Giá xe máy không phải con số cố định in trong catalogue mà là một dòng chảy luôn dịch chuyển theo bốn lực: chi phí sản xuất và nhập khẩu, chu kỳ đời của từng mẫu xe, chính sách thuế phí theo từng thời kỳ, và mối quan hệ cung–cầu tại từng đại lý. Cùng một chiếc"
  },
  {
   "kind": "article",
@@ -9305,6 +9353,30 @@
  },
  {
   "kind": "article",
+  "url": "news/cong-nghe-xe/cong-nghe-xe-may/",
+  "title": "Công nghệ xe máy — những điều cần biết",
+  "description": "Công nghệ xe máy ngày nay gồm phun xăng điện tử, ABS, phanh liên động, keyless, màn hình TFT và xe điện. Tổng quan trang bị nào đáng tiền với nhu cầu của bạn.",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "entities": [
+   "công nghệ xe máy",
+   "phun xăng điện tử",
+   "ABS",
+   "phanh liên động",
+   "khóa smart",
+   "xe điện"
+  ],
+  "keywords": [
+   "cong nghe xe may",
+   "trang bi tren xe may",
+   "abs tren xe may",
+   "phun xang dien tu",
+   "xe may thong minh"
+  ],
+  "summary": "Xe máy không còn là cỗ máy cơ khí thuần khi ba mươi năm trước: phun xăng điện tử thay bộ chế hòa khí, hệ thống phanh chống bó cứng và phanh liên động xuống tới cả dòng phổ thông, màn hình TFT, khóa smart, đèn LED và các tính năng kết nối smartphone lần lượt xu"
+ },
+ {
+  "kind": "article",
   "url": "learn/doc-thong-so/cong-suat-mo-men-xoan/",
   "title": "Công suất và mô-men xoắn dành cho người mới: hiểu bằng ví dụ đời thường",
   "description": "Công suất và mô-men xoắn là hai con số hay bị nhầm lẫn nhất khi đọc thông số xe. Bài viết giải thích hai khái niệm bằng ví dụ đời thường và cách áp dụng khi chọn xe.",
@@ -9596,6 +9668,30 @@
  },
  {
   "kind": "article",
+  "url": "local/ha-noi/di-xe-o-ha-noi/",
+  "title": "Tổng hợp kiến thức: đi xe ở hà nội",
+  "description": "Đi xe ở Hà Nội dễ hơn khi hiểu bố cục thành phố, nhịp giờ cao điểm, mùa mưa và cách chọn tuyến. Tổng hợp kiến thức di chuyển quanh Hà Nội cho người mới.",
+  "category": "Địa phương",
+  "hub": "Hà Nội",
+  "entities": [
+   "đi xe ở Hà Nội",
+   "giờ cao điểm",
+   "sông Hồng",
+   "gửi xe",
+   "tuyến đường",
+   "mùa mưa"
+  ],
+  "keywords": [
+   "di xe o ha noi",
+   "gio cao diem ha noi",
+   "gui xe ha noi",
+   "len tuyen ha noi",
+   "giao thong ha noi"
+  ],
+  "summary": "Đi xe ở Hà Nội không khó vì đường xấu hay xe đông — mọi thành phố đều có những thứ đó. Đi xe ở Hà Nội khó vì thành phố có nhịp riêng: một quãng đường thông thoáng lúc chín giờ sáng có thể tắc cứng lúc sáu giờ chiều; một tuyến quen thuộc mùa hanh có thể ngập sa"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/",
   "title": "Điều kiện lái xe máy: tuổi, giấy phép và sức khỏe theo quy định",
   "description": "Lái xe máy hợp pháp tại Việt Nam cần đủ tuổi, giấy phép lái xe đúng hạng và sức khỏe phù hợp. Bài viết tóm tắt các điều kiện theo Luật giao thông đường bộ 2024.",
@@ -9863,6 +9959,30 @@
  },
  {
   "kind": "article",
+  "url": "local/ha-noi/duong-cam-xe-may-ha-noi/",
+  "title": "Đường cấm xe máy hà nội — những điều cần biết",
+  "description": "Hà Nội có nhiều tuyến cấm xe máy theo giờ và khu vực. Hướng dẫn đọc biển cấm, nhận diện khu một chiều, xử khi đi nhầm và cách tra thông tin đang hiệu lực.",
+  "category": "Địa phương",
+  "hub": "Hà Nội",
+  "entities": [
+   "đường cấm xe máy",
+   "biển báo cấm",
+   "phố một chiều",
+   "khu đi bộ",
+   "giờ cao điểm",
+   "điều tiết giao thông"
+  ],
+  "keywords": [
+   "duong cam xe may ha noi",
+   "pho mot chieu ha noi",
+   "bien cam xe may",
+   "khu di bo ho guom",
+   "di nguoc chieu"
+  ],
+  "summary": "Đi xe máy ở Hà Nội, sớm muộn bạn cũng gặp một tấm biển cấm đúng lúc cần rẽ — và câu hỏi \"lui lại hay chạy tiếp\" là câu hỏi sai lầm nhiều người trả bằng cảm tính, với cái giá là cả một vụ va chạm lùi trên phố đông hoặc một phiên xử phạt. Thực tế là mạng lưới cấ"
+ },
+ {
+  "kind": "article",
   "url": "ride/cung-duong/duong-ven-bien/",
   "title": "Hướng dẫn chi tiết về đường ven biển",
   "description": "Hướng dẫn chi tiết chạy xe máy trên đường ven biển: gió chéo, cát muối, nắng gắt và bảo dưỡng xe sau chuyến biển.",
@@ -9906,6 +10026,54 @@
    "xe may chay ep"
   ],
   "summary": "Ép xe đúng cách — những điều cần biết cho ai hay nghe dân đi đường nói xe yếu thì đem ra chạy ép. Chạy ép nghĩa là đưa máy lên vùng tua cao trong thời gian ngắn trên đường thoáng, để nhiệt độ và dòng khí mạnh đánh bật phần muội than bám nhẹ trong buồng đốt, tr"
+ },
+ {
+  "kind": "article",
+  "url": "news/gia-xe/gia-dai-ly/",
+  "title": "Tổng hợp kiến thức: giá đại lý",
+  "description": "Giá đại lý xe máy khác giá đề xuất của hãng và khác nhau giữa từng nơi bán. Tổng hợp kiến thức về cách hình thành, lý do chênh lệch và cách so báo giá đại lý.",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "entities": [
+   "giá đại lý",
+   "giá đề xuất",
+   "báo giá",
+   "chiết khấu",
+   "chỉ tiêu doanh số",
+   "tồn kho"
+  ],
+  "keywords": [
+   "gia dai ly xe may",
+   "bao gia dai ly",
+   "chiep khau xe may",
+   "mua xe o dai ly",
+   "so gia dai ly"
+  ],
+  "summary": "Giá đại lý là con số bạn thực sự trả khi bước ra khỏi cửa hàng, và nó hiếm khi trùng với giá đề xuất in trên website hãng. Giữa hai mốc đó là cả một hệ thống: biên lợi nhuận của đại lý, chỉ tiêu doanh số theo tháng, chi phí mặt bằng từng khu vực, chính sách dò"
+ },
+ {
+  "kind": "article",
+  "url": "news/gia-xe/gia-niem-yet/",
+  "title": "Kinh nghiệm giá niêm yết dành cho người mới",
+  "description": "Giá niêm yết là giá hãng công bố cho mỗi phiên bản xe. Hướng dẫn người mới đọc giá niêm yết, hiểu các khoản chưa gồm và quy đổi ra tổng chi phí thực tế.",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "entities": [
+   "giá niêm yết",
+   "giá bán lẻ đề xuất",
+   "lệ phí trước bạ",
+   "phiên bản xe",
+   "tổng chi phí ra đường",
+   "báo giá"
+  ],
+  "keywords": [
+   "gia niem yet xe may",
+   "gia de xuat xe may",
+   "phi la banh",
+   "mua xe lan dau",
+   "tong chi phi mua xe"
+  ],
+  "summary": "Lần đầu mua xe, con số đầu tiên bạn thấy gần như luôn là giá niêm yết — mức giá hãng công bố cho từng phiên bản, in trong catalogue, catalogue website và bảng báo tại cửa hàng. Con số đó hữu ích làm mặt bằng so sánh, nhưng là nơi khởi đầu chứ không phải đích: "
  },
  {
   "kind": "article",
@@ -11340,6 +11508,30 @@
  },
  {
   "kind": "article",
+  "url": "news/cong-nghe-xe/phun-xang-dien-tu/",
+  "title": "Tổng hợp kiến thức: phun xăng điện tử",
+  "description": "Phun xăng điện tử EFI thay thế chế hòa khí trên xe máy hiện đại. Tổng hợp kiến thức về nguyên lý, ưu nhược điểm, bảo dưỡng vòi phun và hỏng hóc thường gặp.",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "entities": [
+   "phun xăng điện tử",
+   "EFI",
+   "vòi phun",
+   "bơm xăng điện",
+   "chế hòa khí",
+   "cảm biến bướm ga"
+  ],
+  "keywords": [
+   "phun xang dien tu",
+   "efi xe may",
+   "voi phun bi tac",
+   "che hoa khi va efi",
+   "bao duong efi"
+  ],
+  "summary": "Phun xăng điện tử — thường gọi tắt EFI — là bước chuyển công nghệ lớn nhất của động cơ xe máy thế hệ mới: bộ chế hòa khí cơ khí cho qua vị trí, nhường chỗ cho hệ thống các cảm biến, bơm xăng điện và vòi phun được điều khiển bởi máy tính nhỏ onboard. Thay vì tr"
+ },
+ {
+  "kind": "article",
   "url": "ride/di-phuot/phuot-doan/",
   "title": "Tổng hợp kiến thức: phượt đoàn",
   "description": "Tổng hợp kiến thức phượt đoàn: cấu trúc đoàn, thỏa thuận trước khi đi, phân vai, đội hình trên đường và xử mâu thuẫn.",
@@ -12326,6 +12518,30 @@
  },
  {
   "kind": "article",
+  "url": "local/ha-noi/thue-xe-ha-noi/",
+  "title": "Hướng dẫn chi tiết về thuê xe hà nội",
+  "description": "Thuê xe máy ở Hà Nội cần biết loại xe nào hợp nhu cầu, giấy tờ cần mang, điều khoản hợp đồng, trách nhiệm hư hỏng mất xe và cách chọn nơi thuê đáng tin.",
+  "category": "Địa phương",
+  "hub": "Hà Nội",
+  "entities": [
+   "thuê xe hà nội",
+   "thuê xe máy",
+   "hợp đồng thuê xe",
+   "đặt cọc",
+   "giấy phép lái",
+   "trách nhiệm hư hỏng"
+  ],
+  "keywords": [
+   "thue xe ha noi",
+   "thue xe may o ha noi",
+   "hop dong thue xe",
+   "dat coc thue xe",
+   "giay to thue xe"
+  ],
+  "summary": "Thuê xe là cách nhiều người chọn để tự do di chuyển ở Hà Nội: khách du lịch cần chiếc xe máy dạo phố cổ và các vùng ven, người mới đến cần phương tiện tạm trước khi mua xe, người bản xứ thỉnh thoảng cần xe dự phòng khi xe chính nằm sửa. Nhưng thuê xe ở một đô "
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-tiet-kiem-xang/tiet-kiem-xang/",
   "title": "Hướng dẫn chi tiết về tiết kiệm xăng",
   "description": "Hướng dẫn chi tiết về tiết kiệm xăng cho xe máy: giữ vòng tua kinh tế, bảo dưỡng đúng hạn, giảm tải trọng, nhả ga sớm trước đèn đỏ và đo mức tiêu thụ mỗi tuần.",
@@ -13039,6 +13255,30 @@
    "chon xe honda"
   ],
   "summary": "Honda là nhà sản xuất xe máy lớn nhất Việt Nam cả về doanh số lẫn độ phủ dải sản phẩm — từ chiếc xe số phổ thông chạy việc tới những chiếc xe ga cao cấp nhất phân khúc. Nhưng chính độ rộng đó khiến người mua dễ lạc: cùng là Honda, chiếc này phụ tùng rẻ như rau"
+ },
+ {
+  "kind": "article",
+  "url": "news/cong-nghe-xe/xe-ket-noi-thong-minh/",
+  "title": "Kinh nghiệm xe kết nối thông minh dành cho người mới",
+  "description": "Xe máy kết nối thông minh giúp theo dõi vị trí, cảnh báo di chuyển và nhắc bảo dưỡng qua app. Kinh nghiệm chọn, kích hoạt và dùng an toàn cho người mới.",
+  "category": "Tin tức",
+  "hub": "Công nghệ xe",
+  "entities": [
+   "xe kết nối thông minh",
+   "app xe máy",
+   "định vị xe",
+   "cảnh báo di chuyển",
+   "Bluetooth",
+   "lịch bảo dưỡng"
+  ],
+  "keywords": [
+   "xe ket noi thong minh",
+   "app theo doi xe may",
+   "dinh vi xe may",
+   "canh bao di chuyen",
+   "xe may thong minh"
+  ],
+  "summary": "Xe máy kết nối thông minh là bước tiến nhỏ về phần cứng nhưng lớn về trải nghiệm: một modul gắn trên xe nói chuyện với điện thoại qua Bluetooth hoặc sóng di động, báo cho bạn biết xe đang ở đâu, cảnh báo nếu xe bị di chuyển khi vắng chủ, nhắc lịch bảo dưỡng th"
  },
  {
   "kind": "article",

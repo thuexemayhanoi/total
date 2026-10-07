@@ -1540,6 +1540,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/cong-nghe-xe/abs-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/abs-xe-may/index.html",
   "kind": "article"
  },
@@ -1597,6 +1601,10 @@
  },
  {
   "rel": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/gia-xe/bien-dong-gia-xe/index.html",
   "kind": "article"
  },
  {
@@ -1700,6 +1708,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/cong-nghe-xe/cong-nghe-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/doc-thong-so/cong-suat-mo-men-xoan/index.html",
   "kind": "article"
  },
@@ -1748,6 +1760,10 @@
   "kind": "article"
  },
  {
+  "rel": "local/ha-noi/di-xe-o-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/index.html",
   "kind": "article"
  },
@@ -1792,11 +1808,23 @@
   "kind": "article"
  },
  {
+  "rel": "local/ha-noi/duong-cam-xe-may-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/cung-duong/duong-ven-bien/index.html",
   "kind": "article"
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/ep-xe-dung-cach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/gia-xe/gia-dai-ly/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/gia-xe/gia-niem-yet/index.html",
   "kind": "article"
  },
  {
@@ -2040,6 +2068,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/cong-nghe-xe/phun-xang-dien-tu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/di-phuot/phuot-doan/index.html",
   "kind": "article"
  },
@@ -2208,6 +2240,10 @@
   "kind": "article"
  },
  {
+  "rel": "local/ha-noi/thue-xe-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-tiet-kiem-xang/tiet-kiem-xang/index.html",
   "kind": "article"
  },
@@ -2325,6 +2361,10 @@
  },
  {
   "rel": "moto/honda/xe-honda-viet-nam/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/cong-nghe-xe/xe-ket-noi-thong-minh/index.html",
   "kind": "article"
  },
  {

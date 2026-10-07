@@ -7188,11 +7188,13 @@
    "title": "Hướng dẫn chi tiết về biến động giá xe",
    "primaryIntent": "informational/bien-dong-gia-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2437
   },
   {
    "id": "S00484",
@@ -7201,11 +7203,13 @@
    "title": "Tổng hợp kiến thức: giá đại lý",
    "primaryIntent": "informational/gia-dai-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2312
   },
   {
    "id": "S00485",
@@ -7214,11 +7218,13 @@
    "title": "Kinh nghiệm giá niêm yết dành cho người mới",
    "primaryIntent": "informational/gia-niem-yet",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2332
   },
   {
    "id": "S00486",
@@ -7227,11 +7233,13 @@
    "title": "Công nghệ xe máy — những điều cần biết",
    "primaryIntent": "informational/cong-nghe-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2274
   },
   {
    "id": "S00487",
@@ -7240,11 +7248,13 @@
    "title": "Hướng dẫn chi tiết về abs là gì",
    "primaryIntent": "informational/abs-la-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2294
   },
   {
    "id": "S00488",
@@ -7253,11 +7263,13 @@
    "title": "Tổng hợp kiến thức: phun xăng điện tử",
    "primaryIntent": "informational/phun-xang-dien-tu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2312
   },
   {
    "id": "S00489",
@@ -7266,11 +7278,13 @@
    "title": "Kinh nghiệm xe kết nối thông minh dành cho người mới",
    "primaryIntent": "informational/xe-ket-noi-thong-minh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 91,
+   "words": 2447
   },
   {
    "id": "S00490",
@@ -7279,11 +7293,13 @@
    "title": "Đường cấm xe máy hà nội — những điều cần biết",
    "primaryIntent": "informational/duong-cam-xe-may-ha-noi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2476
   },
   {
    "id": "S00491",
@@ -7292,11 +7308,13 @@
    "title": "Hướng dẫn chi tiết về thuê xe hà nội",
    "primaryIntent": "informational/thue-xe-ha-noi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2525
   },
   {
    "id": "S00492",
@@ -7305,11 +7323,13 @@
    "title": "Tổng hợp kiến thức: đi xe ở hà nội",
    "primaryIntent": "informational/di-xe-o-ha-noi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.050Z",
-   "updatedAt": "2026-10-03T23:13:26.050Z"
+   "updatedAt": "2026-10-07T12:15:15.304Z",
+   "seoScore": 100,
+   "words": 2623
   },
   {
    "id": "S00493",
