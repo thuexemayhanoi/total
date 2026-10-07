@@ -6288,11 +6288,13 @@
    "title": "Hướng dẫn chi tiết về mẹo bảo dưỡng",
    "primaryIntent": "informational/meo-bao-duong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 1918
   },
   {
    "id": "S00424",
@@ -6301,11 +6303,13 @@
    "title": "Tổng hợp kiến thức: đo áp suất lốp",
    "primaryIntent": "informational/do-ap-suat-lop",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 1846
   },
   {
    "id": "S00425",
@@ -6314,11 +6318,13 @@
    "title": "Kinh nghiệm giữ ắc quy dành cho người mới",
    "primaryIntent": "informational/giu-ac-quy",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 1843
   },
   {
    "id": "S00426",
@@ -6327,11 +6333,13 @@
    "title": "Bảo dưỡng tự làm — những điều cần biết",
    "primaryIntent": "informational/bao-duong-tu-lam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 1755
   },
   {
    "id": "S00427",
@@ -6340,11 +6348,13 @@
    "title": "Hướng dẫn chi tiết về mẹo mua xe",
    "primaryIntent": "informational/meo-mua-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 1742
   },
   {
    "id": "S00428",
@@ -6353,11 +6363,13 @@
    "title": "Tổng hợp kiến thức: kiểm tra xe cũ",
    "primaryIntent": "informational/kiem-tra-xe-cu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 2194
   },
   {
    "id": "S00429",
@@ -6366,11 +6378,13 @@
    "title": "Kinh nghiệm mặc giá xe dành cho người mới",
    "primaryIntent": "informational/mac-gia-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 2212
   },
   {
    "id": "S00430",
@@ -6379,11 +6393,13 @@
    "title": "Thời điểm mua xe — những điều cần biết",
    "primaryIntent": "informational/thoi-diem-mua-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 2184
   },
   {
    "id": "S00431",
@@ -6392,11 +6408,13 @@
    "title": "Hướng dẫn chi tiết về mua xe trả góp",
    "primaryIntent": "informational/mua-xe-tra-gop",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 2456
   },
   {
    "id": "S00432",
@@ -6405,11 +6423,13 @@
    "title": "Tổng hợp kiến thức: mẹo thuê xe",
    "primaryIntent": "informational/meo-thue-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:05:56.719Z",
+   "seoScore": 100,
+   "words": 2339
   },
   {
    "id": "S00433",

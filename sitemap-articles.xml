@@ -276,6 +276,7 @@
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/lop-banh-xe/ap-suat-lop/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/doc-thong-so/bang-thong-so-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/he-thong-phanh/bao-duong-phanh/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-bao-duong/bao-duong-tu-lam/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/cau-tao-xe/bo-phan-xe-may/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/cau-tao-xe/cac-cum-xe-may/</loc></url>
@@ -305,6 +306,7 @@
   <url><loc>https://thuexemayhanoi.github.io/total/ride/di-phuot/di-phuot-mua/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/di-phuot/di-phuot/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-bao-duong/do-ap-suat-lop/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/dau-nhot/do-dac-dau/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/doc-thong-so/doc-thong-so-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/kien-thuc-xe-dien/dong-co-xe-dien/</loc></url>
@@ -320,6 +322,7 @@
   <url><loc>https://thuexemayhanoi.github.io/total/hub/dia-phuong/giao-thong-tp-hcm/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/kien-thuc-phap-ly/giay-to-khi-lai-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/lai-xe-trong-thanh-pho/gio-cao-diem/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-bao-duong/giu-ac-quy/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/cham-soc-xe/giu-xe-ben/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/dien-xe/he-thong-dien-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/cau-tao-xe/he-thong-treo/</loc></url>
@@ -331,6 +334,7 @@
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/cau-tao-xe/khung-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/lop-banh-xe/kich-co-lop/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/doc-thong-so/kich-thuoc-lop/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-mua-xe/kiem-tra-xe-cu/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/di-phuot/ky-nang-phuot/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/ky-thuat-lai-xe/ky-thuat-lai-xe-may/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-lai-xe/lai-xe-an-toan/</loc></url>
@@ -345,13 +349,18 @@
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/lop-banh-xe/lop-xe-may/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/kien-thuc-phap-ly/luat-giao-thong-duong-bo/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/lai-xe-trong-thanh-pho/luon-lach-an-toan/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-mua-xe/mac-gia-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/dien-xe/mach-dien-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/hub/van-de-thuong-gap/may-i/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-bao-duong/meo-bao-duong/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-lai-xe/meo-lai-xe/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-mua-xe/meo-mua-xe/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-thue-xe/meo-thue-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-lai-xe/meo-vao-cua/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/lai-xe-duong-dai/met-moi-khi-lai/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/thuat-ngu-xe/mo-men-xoan/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/an-toan-giao-thong/mu-bao-hiem-dat-chuan/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-mua-xe/mua-xe-tra-gop/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/dong-co/nguyen-ly-4-thi/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/he-thong-phanh/phanh-dia/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/learn/ky-thuat-lai-xe/phanh-khan-cap/</loc></url>
@@ -380,6 +389,7 @@
   <url><loc>https://thuexemayhanoi.github.io/total/moto/sym/sym-viet-nam/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/an-toan-giao-thong/tam-nhin-khi-lai/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/lop-banh-xe/thay-lop-khi-nao/</loc></url>
+  <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-mua-xe/thoi-diem-mua-xe/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/wiki/thuat-ngu-xe/thuat-ngu-xe-may/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/ride/du-lich-xe-may/thue-xe-du-lich/</loc></url>
   <url><loc>https://thuexemayhanoi.github.io/total/tips/meo-tiet-kiem-xang/tiet-kiem-xang/</loc></url>

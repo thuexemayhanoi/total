@@ -1580,6 +1580,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-bao-duong/bao-duong-tu-lam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/index.html",
   "kind": "article"
  },
@@ -1696,6 +1700,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-bao-duong/do-ap-suat-lop/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dau-nhot/do-dac-dau/index.html",
   "kind": "article"
  },
@@ -1756,6 +1764,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-bao-duong/giu-ac-quy/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/giu-xe-ben/index.html",
   "kind": "article"
  },
@@ -1797,6 +1809,10 @@
  },
  {
   "rel": "learn/doc-thong-so/kich-thuoc-lop/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-mua-xe/kiem-tra-xe-cu/index.html",
   "kind": "article"
  },
  {
@@ -1856,6 +1872,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-mua-xe/mac-gia-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/mach-dien-xe/index.html",
   "kind": "article"
  },
@@ -1864,7 +1884,19 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-bao-duong/meo-bao-duong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/meo-lai-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-mua-xe/meo-mua-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-thue-xe/meo-thue-xe/index.html",
   "kind": "article"
  },
  {
@@ -1881,6 +1913,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/mu-bao-hiem-dat-chuan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-mua-xe/mua-xe-tra-gop/index.html",
   "kind": "article"
  },
  {
@@ -1993,6 +2029,10 @@
  },
  {
   "rel": "wiki/lop-banh-xe/thay-lop-khi-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-mua-xe/thoi-diem-mua-xe/index.html",
   "kind": "article"
  },
  {

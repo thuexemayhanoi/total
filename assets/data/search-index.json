@@ -8579,6 +8579,29 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-bao-duong/bao-duong-tu-lam/",
+  "title": "Bảo dưỡng tự làm — những điều cần biết",
+  "description": "Bảo dưỡng xe máy tự làm tại nhà: những việc nên tự làm, bộ dụng cụ cơ bản, quy trình theo tuần và tháng, ranh giới nên giao thợ và sai lầm thường gặp.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "bảo dưỡng tự làm",
+   "tự thay dầu máy",
+   "dụng cụ bảo dưỡng xe",
+   "tra mỡ xích",
+   "giấy lọc gió"
+  ],
+  "keywords": [
+   "bao duong tu lam xe may",
+   "tu thay dau may xe",
+   "dung cu bao duong xe may",
+   "tra mo xich xe may",
+   "tu lam bao duong tai nha"
+  ],
+  "summary": "Bảo dưỡng tự làm — giữa hai thái cực chạy ra tiệm cho mọi việc nhỏ và tự tay tháo cả máy, có một vùng việc vừa sức chủ xe: lau, tra, siết, nhìn, thay những tấm lọc và giữ sạch chiếc xe của mình. Bài viết này đi qua trọn vùng đó: bộ dụng cụ cơ bản một lần đầu t"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/",
   "title": "Bảo hiểm trách nhiệm: nghĩa vụ bắt buộc của chủ xe máy",
   "description": "Bảo hiểm TNDS là nghĩa vụ bắt buộc với chủ xe máy tại Việt Nam. Bài viết giải thích bảo hiểm chi trả cho ai, mua ở đâu, hiệu lực và quy trình yêu cầu bồi thường.",
@@ -9299,6 +9322,29 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-bao-duong/do-ap-suat-lop/",
+  "title": "Tổng hợp kiến thức: đo áp suất lốp",
+  "description": "Tổng hợp kiến thức về đo áp suất lốp xe máy: áp suất chuẩn theo từng dòng xe, cách đo từng bước tại trạm bơm, chu kỳ đo lại và các lỗi bơm lốp thường gặp.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "áp suất lốp",
+   "đo áp suất lốp xe máy",
+   "áp suất chuẩn lốp xe ga",
+   "bơm lốp đúng cách",
+   "mòn lốp bất thường"
+  ],
+  "keywords": [
+   "do ap suat lop xe may",
+   "ap suat lop chuan",
+   "ap suat lop xe ga",
+   "bom lop xe may dung cach",
+   "kiem tra ap suat lop"
+  ],
+  "summary": "Tổng hợp kiến thức: đo áp suất lốp — áp suất đúng là khoản bảo dưỡng rẻ nhất và bị bỏ qua nhiều nhất trên xe máy: lốp non vài phân vẫn nhìn có vẻ bình thường nhưng âm thầm làm xe ăn xăng, đú đởn, mòn vách lốp và dài quãng phanh. Bài viết tổng hợp toàn bộ kiến "
+ },
+ {
+  "kind": "article",
   "url": "wiki/dau-nhot/do-dac-dau/",
   "title": "Độ đặc dầu — những điều cần biết",
   "description": "Độ đặc dầu nhớt là gì, hai con số 10W-30 nghĩa là sao, chọn độ đặc theo sổ tay và khí hậu, và vì sao đặc hơn chuẩn không phải tốt hơn.",
@@ -9660,6 +9706,29 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-bao-duong/giu-ac-quy/",
+  "title": "Kinh nghiệm giữ ắc quy dành cho người mới",
+  "description": "Kinh nghiệm giữ ắc quy xe máy dành cho người mới: dấu hiệu ắc yếu, nguyên nhân chai sớm, thói quen kéo dài tuổi thọ và thời điểm nên thay ắc quy mới.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "ắc quy xe máy",
+   "sạc ắc quy",
+   "đề máy yếu",
+   "cực ắc quy",
+   "tuổi thọ ắc quy"
+  ],
+  "keywords": [
+   "giu ac quy xe may",
+   "ac quy yeu dau hieu",
+   "cach giu ac quy ben",
+   "ac quy xe may chai",
+   "thay ac quy xe may"
+  ],
+  "summary": "Kinh nghiệm giữ ắc quy — ắc quy là chi tiết chết âm thầm nhất trên xe máy: không rò rỉ, không kêu, chỉ từ từ mất khả năng nạp tới một sáng máy không đề nổ và bạn bị kẹt giữa phố. Bài viết tổng hợp kinh nghiệm cho người mới: nhận dấu hiệu ắc quy yếu trước khi c"
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/giu-xe-ben/",
   "title": "Giữ xe bền: thói quen nhỏ giúp xe chạy trơn tru nhiều năm",
   "description": "Xe bền không phải do may mắn: khởi động đúng, làm máy nóng đều, tránh chở quá tải, bảo quản nơi khô thoáng và chăm sóc định kỳ là năm nhóm thói quen quyết định tuổi thọ xe.",
@@ -9926,6 +9995,29 @@
    "doi lop khac co"
   ],
   "summary": "Nhìn vào thành một chiếc lốp xe máy, bạn sẽ thấy một dãy số kiểu 90/90-14 M/C 46J hoặc 3.00-18 — đó là \"chứng minh nhân dân\" của chiếc lốp: nói lên bề rộng, độ cao lốp, đường kính vành, mức tải và tốc độ tối đa mà lốp chịu được. Người đi xe phổ thông ít khi đọ"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-mua-xe/kiem-tra-xe-cu/",
+  "title": "Tổng hợp kiến thức: kiểm tra xe cũ",
+  "description": "Kiểm tra xe cũ theo trình tự chuẩn: giấy tờ và khung số, tem đăng kiểm, ngoại hình và dấu va đâm, máy lạnh khi nổ, đi thử phanh giảm xóc, và cách chốt giá an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "xe cũ",
+   "khung số",
+   "tem đăng kiểm",
+   "cà vẹt xe",
+   "nghiệm thu xe"
+  ],
+  "keywords": [
+   "kiem tra xe cu",
+   "cach kiem tra xe may cu",
+   "kiem tra giay to xe cu",
+   "dau hieu xe dam nang khung",
+   "mua xe may cu luu y"
+  ],
+  "summary": "Tổng hợp kiến thức: kiểm tra xe cũ — mua một chiếc xe đã qua sử dụng là mua toàn bộ lịch sử mà người bán không nhất thiết kể đầy đủ, nên cách duy nhất an toàn là kiểm tra theo một trình tự cố định, từ giấy tờ tới từng chi tiết kim loại. Bài viết gộp các kiến t"
  },
  {
   "kind": "article",
@@ -10263,6 +10355,29 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-mua-xe/mac-gia-xe/",
+  "title": "Kinh nghiệm mặc giá xe dành cho người mới",
+  "description": "Kinh nghiệm mặc giá xe máy cho người mới: chuẩn bị trước khi hỏi giá, ra giá hợp lý, dùng lỗi thật của xe làm đòn bẩy, xử lý kịch bản và biết lúc dừng lại.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "mặc giá",
+   "trả giá",
+   "đặt cọc",
+   "giá thị trường",
+   "thương lượng"
+  ],
+  "keywords": [
+   "mac gia xe may",
+   "kinh nghiem tra gia xe cu",
+   "cach tra gia mua xe",
+   "thuong luong mua xe may",
+   "meo mac gia xe cu"
+  ],
+  "summary": "Kinh nghiệm mặc giá xe dành cho người mới — mặc giá không phải là trò đấu khẩu mà là một cuộc thương lượng có chuẩn bị, trong đó người biết nhiều hơn thường trả ít hơn. Bài viết gộp kinh nghiệm thành năm nhóm: chuẩn bị trước khi hỏi giá (biết mặt bằng giá thị "
+ },
+ {
+  "kind": "article",
   "url": "wiki/dien-xe/mach-dien-xe/",
   "title": "Mạch điện xe — những điều cần biết",
   "description": "Mạch điện xe máy gồm dây dẫn, cầu chì, giắc nối: cách đọc sơ đồ mạch đơn giản, lỗi mạch thường gặp và thao tác an toàn khi tự kiểm tra.",
@@ -10315,6 +10430,29 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-bao-duong/meo-bao-duong/",
+  "title": "Hướng dẫn chi tiết về mẹo bảo dưỡng",
+  "description": "Hướng dẫn chi tiết về mẹo bảo dưỡng xe máy: lịch bảo dưỡng theo mốc, hạng mục tự kiểm tra mỗi tuần, khi nào cần đến tiệm và thói quen giúp xe chạy bền.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "bảo dưỡng xe máy",
+   "thay dầu máy",
+   "áp suất lốp",
+   "sổ bảo dưỡng",
+   "thói quen lái xe bền"
+  ],
+  "keywords": [
+   "meo bao duong xe may",
+   "lich bao duong xe may",
+   "tu kiem tra xe may hang tuan",
+   "bao duong xe may dung cach",
+   "xe may ben lau nam"
+  ],
+  "summary": "Hướng dẫn chi tiết về mẹo bảo dưỡng — bảo dưỡng xe máy không phải việc làm một lần rồi xong, mà là chuỗi thói quen nhỏ lặp lại đều đặn: nhớ mốc thay dầu, nhìn vết rỉ, nghe tiếng máy, siết lại con ốc lỏng. Bài viết này gộp toàn bộ mẹo bảo dưỡng thành một hệ thố"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/meo-lai-xe/",
   "title": "Mẹo lái xe — những điều cần biết",
   "description": "Mẹo lái xe — những điều cần biết cho người đi xe máy: vặn ga đều, phanh sớm phối hợp, vào cua đúng kỹ thuật, quan sát liên tục và giữ bình tĩnh giữa dòng giao thông.",
@@ -10335,6 +10473,52 @@
    "phanh-xe"
   ],
   "summary": "Mẹo lái xe — những điều cần biết không nằm ở thao tác phức tạp mà ở việc làm đúng những điều cơ bản mỗi ngày: vặn ga mượt, phanh sớm, vào cua chậm vào nhanh ra, mắt luôn quét xa hơn tốc độ và đầu óc giữ bình tĩnh. Bài viết gói các mẹo này thành nguyên tắc dễ n"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-mua-xe/meo-mua-xe/",
+  "title": "Hướng dẫn chi tiết về mẹo mua xe",
+  "description": "Hướng dẫn chi tiết về mẹo mua xe máy: xác định nhu cầu và ngân sách, chọn dòng xe phù hợp, khảo giá, kiểm tra xe và giấy tờ, chốt mua và làm thủ tục sang tên.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "mua xe máy",
+   "chọn dòng xe",
+   "khảo giá xe",
+   "kiểm tra giấy tờ xe",
+   "thủ tục sang tên"
+  ],
+  "keywords": [
+   "meo mua xe may",
+   "kinh nghiem mua xe may",
+   "chon xe may phu hop",
+   "mua xe may kiem tra gi",
+   "thu tuc sang ten xe may"
+  ],
+  "summary": "Hướng dẫn chi tiết về mẹo mua xe — mua xe máy là quyết định vài chục triệu nhưng phần lớn người mua chuẩn bị cho nó ít hơn một bữa ăn nhà hàng: xem xe theo cảm tình, hỏi giá một nguồn, và cọc trước khi đọc hết giấy tờ. Bài viết này dựng lại toàn bộ hành trình "
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-thue-xe/meo-thue-xe/",
+  "title": "Tổng hợp kiến thức: mẹo thuê xe",
+  "description": "Tổng hợp mẹo thuê xe máy: chọn nơi cho thuê, đọc hợp đồng, kiểm tra và chụp ảnh xe khi nhận, quy tắc dùng xe khi thuê và nghiệm thu khi trả xe.",
+  "category": "Mẹo",
+  "hub": "Mẹo thuê xe",
+  "entities": [
+   "thuê xe",
+   "hợp đồng thuê xe",
+   "tiền cọc",
+   "nghiệm thu xe",
+   "tranh chấp thuê xe"
+  ],
+  "keywords": [
+   "meo thue xe may",
+   "kinh nghiem thue xe",
+   "hop dong thue xe luu y",
+   "kiem tra xe khi nhan thue",
+   "tranh chap thue xe"
+  ],
+  "summary": "Tổng hợp kiến thức: mẹo thuê xe — thuê khác mua ở một điểm cốt lõi: người thuê chỉ mượn chiếc xe trong một quãng thời gian, nên mọi rủi ro phát sinh trong quãng đó đều phải được xử lý bằng hợp đồng và bằng chứng, không phải bằng sự tin tưởng. Bài viết gộp các "
  },
  {
   "kind": "article",
@@ -10430,6 +10614,29 @@
    "tuoi tho mu bao hiem"
   ],
   "summary": "Mũ bảo hiểm đạt chuẩn — những điều cần biết cho người đi xe máy: một chiếc mũ chỉ là mũ bảo hiểm đạt chuẩn khi có đủ ba thành phần làm việc cùng nhau — vỏ cứng phân tán lực, lớp xốp hấp thụ xung, và hệ quai giữ mũ đúng chỗ suốt cú va. Bài viết đi qua cách đọc "
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-mua-xe/mua-xe-tra-gop/",
+  "title": "Hướng dẫn chi tiết về mua xe trả góp",
+  "description": "Hướng dẫn chi tiết mua xe máy trả góp: tính tổng chi thực, so sánh lãi flat và dư nợ giảm dần, đọc hợp đồng tài chính, các khoản phí ẩn và cách tất toán sớm an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "trả góp",
+   "lãi suất",
+   "tất toán",
+   "hợp đồng tài chính",
+   "lịch sử tín dụng"
+  ],
+  "keywords": [
+   "mua xe may tra gop",
+   "tra gop xe may luu y",
+   "lai suat tra gop xe",
+   "phi tat toan som xe tra gop",
+   "hop dong tra gop xe may"
+  ],
+  "summary": "Hướng dẫn chi tiết về mua xe trả góp — trả góp biến một khoản chi lớn thành nhiều khoản nhỏ, và đổi lại người mua trả một khoản phụ gọi là lãi cùng một loạt khoản phí; hiểu rõ toàn bộ cấu trúc đó trước khi ký là ranh giới giữa một khoản vay hợp lý và một gói h"
  },
  {
   "kind": "article",
@@ -11101,6 +11308,29 @@
    "kế hoạch thay lốp"
   ],
   "summary": "Thay lốp sớm quá là phí tiền, thay muộn quá là phí cả an toàn — và khoảng giữa hai thái cực đó được đo bằng các dấu hiệu đọc được, không phải cảm giác. Lốp không có đèn báo trên đồng hồ, nhưng nó có một hệ thống báo hiệu riêng: khối chỉ báo mòn nổi trong rãnh "
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-mua-xe/thoi-diem-mua-xe/",
+  "title": "Thời điểm mua xe — những điều cần biết",
+  "description": "Thời điểm mua xe máy ảnh hưởng tới giá: cuối năm xả tồn kho, trước Tết giá tăng, mẫu mới ra đời cũ giảm, mùa vắng khách dễ mặc giá — và thời điểm của chính túi tiền.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "thời điểm mua xe",
+   "tồn kho",
+   "mùa cao điểm",
+   "khuyến mại",
+   "chu kỳ đời mẫu"
+  ],
+  "keywords": [
+   "thoi diem mua xe may",
+   "mua xe may luc nao re",
+   "cuoi nam mua xe co re khong",
+   "mua xe truoc tet",
+   "khuyen mai xe may"
+  ],
+  "summary": "Thời điểm mua xe — những điều cần biết — giá của một chiếc xe máy không chỉ nằm trong bảng niêm yết mà còn nằm trong ngày tháng người mua chọn mở ví: cùng một chiếc xe, cùng một cửa hàng, giá chốt có thể khác nhau đáng kể giữa tuần trước Tết và những tuần vắng"
  },
  {
   "kind": "article",
