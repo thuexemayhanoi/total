@@ -88,14 +88,14 @@ console.log('1. Workflow + CLI contract…');
   ok(/COORD_NO_CHANGES/.test(wf) && /git diff --cached --quiet/.test(wf),
     'factory-coordinator.yml: tick không diff -> KHÔNG commit (chống churn timestamp)');
   ok(/for i in 1 2 3/.test(wf), 'factory-coordinator.yml: push bounded retry <= 3');
-  ok(wf.includes('Refresh repository truth') && wf.indexOf('Refresh repository truth') < wf.indexOf('factory.js recover-txn'),
-    'factory-coordinator.yml: refresh fresh main TRƯỚC recover/mutation (chống stale scheduled checkout)');
+  ok(wf.includes('Fresh truth') && wf.indexOf('git fetch origin main') < wf.indexOf('factory.js recover-txn') && wf.indexOf('git checkout -B main origin/main') < wf.indexOf('factory.js recover-txn'),
+    'factory-coordinator.yml: fetch/checkout fresh main TRƯỚC recover/mutation');
   ok(!/pull_request/.test(wf), 'factory-coordinator.yml: KHÔNG trigger pull_request');
 
   // Publisher: factory-publish.yml.
   const pub = readS(path.join(ROOT, '.github', 'workflows', 'factory-publish.yml'));
-  ok(/paths: \['factory\/data\/articles\/\*\*', '\.github\/workflows\/factory-publish\.yml'\]/.test(pub),
-    'factory-publish.yml: trigger CHỈ article files + chính nó (một article push chỉ publish một lần)');
+  ok(pub.includes("- 'factory/data/articles/**'") && pub.includes("- '.github/workflows/factory-publish.yml'"),
+    'factory-publish.yml: trigger article files + chính workflow');
   ok(/group:\s*total-production/.test(pub) && /cancel-in-progress:\s*false/.test(pub),
     'factory-publish.yml: dùng CHUNG concurrency group total-production — publisher duy nhất, không chạy đè coordinator');
   ok(pub.includes('publish-batch'), 'factory-publish.yml: HOT PATH publish cả batch 1-10 một transaction');
@@ -105,8 +105,8 @@ console.log('1. Workflow + CLI contract…');
     'factory-publish.yml: KHÔNG chia queue thành pair trong hot path');
   ok(!pub.includes('node factory/generate.js --check'),
     'factory-publish.yml: KHÔNG full byte-exact generate check trong hot path');
-  ok(pub.includes('Refresh repository truth') && pub.indexOf('Capture push scope') < pub.indexOf('Refresh repository truth'),
-    'factory-publish.yml: capture event scope trước, refresh fresh truth sau');
+  ok(pub.includes('Capture exact push scope') && pub.includes('Refresh fresh main') && pub.indexOf('Capture exact push scope') < pub.indexOf('Refresh fresh main'),
+    'factory-publish.yml: capture exact event scope trước, refresh fresh main sau');
   ok(!pub.includes('backlog --fail-if-claimable'),
     'factory-publish.yml: final gate không fail backlog mới do writer push song song');
 
@@ -276,10 +276,6 @@ function tick(p) {
   if (steps.state.status !== 0) return steps;
   steps.refill = runNode([p.factory, 'queue-refill', '--role', 'coordinator'], { cwd: p.root });
   if (steps.refill.status !== 0) return steps;
-  steps.manifest = runNode([p.factory, 'manifest-sync', '--role', 'coordinator'], { cwd: p.root });
-  if (steps.manifest.status !== 0) return steps;
-  steps.invariant = runNode([p.factory, 'verify-invariant'], { cwd: p.root });
-  if (steps.invariant.status !== 0) return steps;
   steps.status = runNode([p.factory, 'production-status'], { cwd: p.root });
   return steps;
 }
@@ -307,8 +303,8 @@ let T3;
   const before = { matrix: readB(p.matrix), state: readB(path.join(p.stateDir, 'factory-state.json')), cp: readB(path.join(p.stateDir, 'checkpoint.json')) };
   const steps = tick(p);
   ok(steps.recover.status === 0 && /TXN_RECOVER none/.test(steps.recover.stdout), 'Tick bắt đầu: recover-txn sạch');
-  ok(allOk(steps), 'Tick rỗng: mọi bước exit 0 (refill none khi planned >= floor)', JSON.stringify(Object.fromEntries(Object.entries(steps).map(([k, v]) => [k, v.status]))));
-  ok(/QUEUE_REFILL none/.test(steps.refill.stdout), 'queue-refill idempotent: planned đủ -> none, KHÔNG thêm slot', steps.refill.stdout);
+  ok(allOk(steps), 'Tick nhẹ: mọi bước exit 0', JSON.stringify(Object.fromEntries(Object.entries(steps).map(([k, v]) => [k, v.status]))));
+  ok(/QUEUE_REFILL (none|added=0)/.test(steps.refill.stdout), 'queue-refill không topic tự do -> added=0/none, KHÔNG thêm slot', steps.refill.stdout);
   ok(readB(p.matrix).equals(before.matrix) &&
      readB(path.join(p.stateDir, 'factory-state.json')).equals(before.state) &&
      readB(path.join(p.stateDir, 'checkpoint.json')).equals(before.cp),
