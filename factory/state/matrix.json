@@ -6588,11 +6588,13 @@
    "title": "Hướng dẫn chi tiết về hướng dẫn xe điện",
    "primaryIntent": "informational/huong-dan-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.468Z",
+   "seoScore": 91,
+   "words": 2383
   },
   {
    "id": "S00444",
@@ -6601,11 +6603,13 @@
    "title": "Tổng hợp kiến thức: vận hành xe số",
    "primaryIntent": "informational/van-hanh-xe-so",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.468Z",
+   "seoScore": 100,
+   "words": 2243
   },
   {
    "id": "S00445",
@@ -6614,11 +6618,13 @@
    "title": "Kinh nghiệm checklist nhận xe dành cho người mới",
    "primaryIntent": "informational/checklist-nhan-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.467Z",
+   "seoScore": 100,
+   "words": 2183
   },
   {
    "id": "S00446",
@@ -6627,11 +6633,13 @@
    "title": "Checklist đường dài — những điều cần biết",
    "primaryIntent": "informational/checklist-duong-dai",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.467Z",
+   "seoScore": 100,
+   "words": 2172
   },
   {
    "id": "S00447",
@@ -6640,11 +6648,13 @@
    "title": "Hướng dẫn chi tiết về checklist bảo dưỡng",
    "primaryIntent": "informational/checklist-bao-duong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.467Z",
+   "seoScore": 100,
+   "words": 2128
   },
   {
    "id": "S00448",
@@ -6653,11 +6663,13 @@
    "title": "Tổng hợp kiến thức: danh sách kiểm tra xe",
    "primaryIntent": "informational/danh-sach-kiem-tra-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.467Z",
+   "seoScore": 100,
+   "words": 2189
   },
   {
    "id": "S00449",
@@ -6666,11 +6678,13 @@
    "title": "Kinh nghiệm quy trình bảo dưỡng dành cho người mới",
    "primaryIntent": "informational/quy-trinh-bao-duong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.468Z",
+   "seoScore": 100,
+   "words": 2201
   },
   {
    "id": "S00450",
@@ -6679,11 +6693,13 @@
    "title": "Bảo dưỡng 1000km — những điều cần biết",
    "primaryIntent": "informational/bao-duong-1000km",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.467Z",
+   "seoScore": 100,
+   "words": 2161
   },
   {
    "id": "S00451",
@@ -6692,11 +6708,13 @@
    "title": "Hướng dẫn chi tiết về quy trình thay dầu",
    "primaryIntent": "informational/quy-trinh-thay-dau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.468Z",
+   "seoScore": 100,
+   "words": 2164
   },
   {
    "id": "S00452",
@@ -6705,11 +6723,13 @@
    "title": "Tổng hợp kiến thức: bảo dưỡng 5000km",
    "primaryIntent": "informational/bao-duong-5000km",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:38:26.467Z",
+   "seoScore": 100,
+   "words": 2227
   },
   {
    "id": "S00453",

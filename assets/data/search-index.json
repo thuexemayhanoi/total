@@ -8554,6 +8554,52 @@
  },
  {
   "kind": "article",
+  "url": "docs/quy-trinh-bao-duong/bao-duong-1000km/",
+  "title": "Bảo dưỡng 1000km — những điều cần biết",
+  "description": "Kỳ bảo dưỡng 1000km của xe mới: thay nhớt đầu, xiết ốc tổng, chỉnh sên, kiểm tra phanh và ắc quy — danh mục, cách nghiệm thu, lỗi nên tránh.",
+  "category": "Tài liệu",
+  "hub": "Quy trình bảo dưỡng",
+  "entities": [
+   "bảo dưỡng 1000km",
+   "thay nhớt lần đầu",
+   "chạy rà máy",
+   "chỉnh sên",
+   "siết ốc tổng quát"
+  ],
+  "keywords": [
+   "bao duong 1000km xe may",
+   "ky bao duong dau tien xe moi",
+   "thay nhot lan dau xe may",
+   "chay ra may xe may",
+   "danh muc bao duong 1000km"
+  ],
+  "summary": "Bảo dưỡng 1000km — những điều cần biết cho người vừa mua xe. Nghìn cây số đầu tiên là giai đoạn các chi tiết trong máy làm quen nhau: piston với thành xilanh, nhông với sên, các ốc với khung xe. Chính vì vậy, kỳ bảo dưỡng 1000km không phải là một kỳ thay nhớt "
+ },
+ {
+  "kind": "article",
+  "url": "docs/quy-trinh-bao-duong/bao-duong-5000km/",
+  "title": "Tổng hợp kiến thức: bảo dưỡng 5000km",
+  "description": "Tổng hợp về bảo dưỡng 5000km xe máy: danh mục từng mục từ nhớt lọc đến phanh ắc quy, cách đọc xu hướng xe ở kỳ giữa và chuẩn bị cho các kỳ lớn.",
+  "category": "Tài liệu",
+  "hub": "Quy trình bảo dưỡng",
+  "entities": [
+   "bảo dưỡng 5000km",
+   "kỳ giữa bảo dưỡng",
+   "lọc gió",
+   "má phanh",
+   "sổ bảo dưỡng"
+  ],
+  "keywords": [
+   "bao duong 5000km xe may",
+   "ky giua bao duong xe may",
+   "danh muc bao duong 5000km",
+   "vem sinh loc gio xe may",
+   "doc xong hu bao duong xe"
+  ],
+  "summary": "Tổng hợp kiến thức: bảo dưỡng 5000km — mốc năm nghìn cây là kỳ giữa quen thuộc trong đời một chiếc xe máy phổ thông: xe đã qua giai đoạn chạy rà, chưa tới các kỳ lớn, và là lúc mọi hệ thống đều có đủ dữ liệu để đánh giá. Bài viết này tổng hợp kiến thức quanh k"
+ },
+ {
+  "kind": "article",
   "url": "wiki/he-thong-phanh/bao-duong-phanh/",
   "title": "Hướng dẫn chi tiết về bảo dưỡng phanh",
   "description": "Bảo dưỡng phanh xe máy theo lịch: kiểm độ rơ, soi má, vệ sinh caliper và trống, thay dầu phanh, xả khí — hướng dẫn từng bước và các sai lầm thường gặp.",
@@ -8850,6 +8896,75 @@
    "doc duong"
   ],
   "summary": "Đường trường khác đường phố không chỉ ở độ dài — nó là một môi trường có luật riêng: xe tải, đường hẹp qua thị trấn, ánh sáng thiếu và thời tiết đổi giữa chặng. Người mới lên đường trường thường mang theo phản xạ phố (chạy sát, vượt nhanh, coi đèn xe trước là "
+ },
+ {
+  "kind": "article",
+  "url": "docs/checklist/checklist-bao-duong/",
+  "title": "Hướng dẫn chi tiết về checklist bảo dưỡng",
+  "description": "Checklist bảo dưỡng xe máy theo từng kỳ: hàng tuần, mỗi tháng, theo số cây số — nhớt, lốp, phanh, đèn, sên, ắc quy — kèm dấu hiệu cần đi sớm hơn lịch.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [
+   "checklist bảo dưỡng",
+   "thay nhớt định kỳ",
+   "lọc gió",
+   "bugi",
+   "sổ bảo dưỡng"
+  ],
+  "keywords": [
+   "checklist bao duong xe may",
+   "bao duong xe may dinh ky",
+   "kiem tra xe hang tuan",
+   "thay nhot xe may ky",
+   "dau hieu xe can bao duong"
+  ],
+  "summary": "Hướng dẫn chi tiết về checklist bảo dưỡng — bảo dưỡng xe máy không phải một cuộc kiểm tra lớn mỗi năm, mà là một chuỗi kiểm tra nhỏ lặp lại theo nhịp: hàng tuần vài phút, mỗi tháng một vòng, và theo từng mốc cây số những hạng mục cần thay hoặc chỉnh. Bài viết "
+ },
+ {
+  "kind": "article",
+  "url": "docs/checklist/checklist-duong-dai/",
+  "title": "Checklist đường dài — những điều cần biết",
+  "description": "Checklist đi đường dài bằng xe máy: chuẩn bị xe, đồ mang theo, sức khỏe người lái, nghỉ đúng nhịp và xử lý tình huống giữa chặng — trọn gói cho chuyến đi xa an toàn.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [
+   "đi đường dài",
+   "checklist chuyến đi",
+   "chuẩn bị xe máy",
+   "nghỉ giữa chặng",
+   "túi công cụ"
+  ],
+  "keywords": [
+   "checklist duong dai",
+   "di duong dai bang xe may",
+   "chuan bi xe may di xa",
+   "do can mang khi di xa",
+   "nghi giua chang khi di xe may"
+  ],
+  "summary": "Checklist đường dài — những điều cần biết — một chuyến đi xa bằng xe máy khác hẳn những vòng quanh phố: quãng đường dài gấp số lỗi tiềm ẩn lên nhiều lần, còn trợ giúp thì thưa hơn gấp bội. Bài viết này đóng gói toàn bộ việc chuẩn bị đường dài thành một checkli"
+ },
+ {
+  "kind": "article",
+  "url": "docs/checklist/checklist-nhan-xe/",
+  "title": "Kinh nghiệm checklist nhận xe dành cho người mới",
+  "description": "Checklist nhận xe cho người mới: nhận xe mới ở đại lý, nhận xe đã sửa, nhận xe thuê — trình tự kiểm tra giấy tờ, đồng hồ, lốp, phanh và chạy thử trước khi ký nhận.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [
+   "checklist nhận xe",
+   "kiểm tra xe mới",
+   "số khung số máy",
+   "chạy thử",
+   "biên bản giao nhận"
+  ],
+  "keywords": [
+   "checklist nhan xe",
+   "kiem tra xe may moi khi nhan",
+   "nhan xe moi kiem tra gi",
+   "chay thu xe may",
+   "nhan xe sua kiem tra"
+  ],
+  "summary": "Kinh nghiệm checklist nhận xe dành cho người mới — nhận xe là khoảnh khắc vui nhất nhưng cũng là khoảnh khắc dễ sai nhất: tâm trạng háo hức khiến người ta ký nhanh, và mọi lỗi xuất xưởng, lỗi sửa dở hoặc lỗi giao nhầm sẽ thành của mình ngay sau khi chữ ký đã đ"
  },
  {
   "kind": "article",
@@ -9192,6 +9307,29 @@
    "bao duong cvt xe ga"
   ],
   "summary": "CVT (bộ biến tốc liên tục) là trái tim của mọi chiếc xe ga: cụm làm việc thay bạn toàn bộ việc sang số, để chiếc xe không có cần số – cần côn mà vẫn tăng giảm đều. Nhưng CVT cũng là cụm hỏng đắt nhất và hỏng âm thầm nhất trên xe ga — không hề ngẫu nhiên khi ph"
+ },
+ {
+  "kind": "article",
+  "url": "docs/checklist/danh-sach-kiem-tra-xe/",
+  "title": "Tổng hợp kiến thức: danh sách kiểm tra xe",
+  "description": "Danh sách kiểm tra xe máy đầy đủ theo nhóm: điện, đèn còi, phanh, lốp, máy, truyền động, khung — dùng khi nhận xe, hàng tuần hoặc trước chuyến đi xa.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [
+   "danh sách kiểm tra xe",
+   "kiểm tra định kỳ",
+   "phiếu kiểm tra xe máy",
+   "nhóm hệ thống xe",
+   "lịch sử bảo dưỡng"
+  ],
+  "keywords": [
+   "danh sach kiem tra xe may",
+   "kiem tra xe may day du",
+   "bang kiem tra xe may",
+   "nhom kiem tra xe may",
+   "phieu kiem tra xe"
+  ],
+  "summary": "Tổng hợp kiến thức: danh sách kiểm tra xe — mọi bài viết về chăm xe đều quy về một việc cuối cùng: có một danh sách và đi theo nó. Nhưng danh sách kiểu nào đủ rộng mà vẫn dùng nổi? Bài viết này xây danh sách kiểm tra xe máy dạng đầy đủ, chia theo bảy nhóm cấu "
  },
  {
   "kind": "article",
@@ -9965,6 +10103,29 @@
    "bao duong xe may dinh ky"
   ],
   "summary": "Kinh nghiệm hướng dẫn sử dụng xe máy dành cho người mới — chiếc xe máy đầu tiên là một công cụ gần gũi nhưng cũng đầy những thói quen sai lầm mà không ai chỉ rõ cho người mới: đề máy ngay khi mới nổ, vọt ga thật nhanh ngay sau khi xuất phát, phanh gấp chỉ bằng"
+ },
+ {
+  "kind": "article",
+  "url": "docs/huong-dan-su-dung/huong-dan-xe-dien/",
+  "title": "Hướng dẫn chi tiết về hướng dẫn xe điện",
+  "description": "Hướng dẫn sử dụng xe máy điện cho người mới: trình tự bật nguồn, đọc đèn báo pin, thói quen sạc đúng, chạy tiết kiệm pin và an toàn khi mưa ngập.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [
+   "xe máy điện",
+   "pin xe điện",
+   "trạm sạc",
+   "đèn báo lỗi",
+   "mô-tơ điện"
+  ],
+  "keywords": [
+   "huong dan su dung xe dien",
+   "cach dung xe may dien",
+   "sac pin xe dien dung cach",
+   "chay xe dien tiet kiem pin",
+   "xe dien di mua luu y"
+  ],
+  "summary": "Hướng dẫn chi tiết về hướng dẫn xe điện — xe máy điện trông giống xe máy xăng về cách ngồi và cách cầm ga, nhưng bên trong là một hệ thống hoàn toàn khác: pin thay cho két xăng, mô-tơ điện thay cho động cơ đốt, và các đèn báo nghĩa khác hẳn. Bài viết này là hư"
  },
  {
   "kind": "article",
@@ -11072,6 +11233,52 @@
  },
  {
   "kind": "article",
+  "url": "docs/quy-trinh-bao-duong/quy-trinh-bao-duong/",
+  "title": "Kinh nghiệm quy trình bảo dưỡng dành cho người mới",
+  "description": "Quy trình bảo dưỡng xe máy dành cho người mới: trình tự thay nhớt, lọc gió, bugi, kiểm tra phanh và ắc quy — biết mình làm gì ở mỗi kỳ và khi nào cần thợ.",
+  "category": "Tài liệu",
+  "hub": "Quy trình bảo dưỡng",
+  "entities": [
+   "quy trình bảo dưỡng",
+   "thay nhớt định kỳ",
+   "lọc gió",
+   "nghiệm thu bảo dưỡng",
+   "sổ bảo dưỡng"
+  ],
+  "keywords": [
+   "quy trinh bao duong xe may",
+   "bao duong xe may cho nguoi moi",
+   "trinh tu bao duong xe may",
+   "kiem tra sau bao duong",
+   "ky bao duong xe may"
+  ],
+  "summary": "Kinh nghiệm quy trình bảo dưỡng dành cho người mới — người mới thường nghĩ bảo dưỡng là việc của thợ: mang xe tới, nhận xe về, trả tiền. Suy nghĩ đó đúng một nửa — nửa sai là phần khiến nhiều người trả tiền cho những việc không cần làm và bỏ qua những việc cần"
+ },
+ {
+  "kind": "article",
+  "url": "docs/quy-trinh-bao-duong/quy-trinh-thay-dau/",
+  "title": "Hướng dẫn chi tiết về quy trình thay dầu",
+  "description": "Quy trình thay dầu xe máy từng bước: chọn đúng loại và độ nhớt, chuẩn bị dụng cụ, xả dầu cũ, thay lọc, đổ mới, lỗi hay gặp và kiểm tra sau thay.",
+  "category": "Tài liệu",
+  "hub": "Quy trình bảo dưỡng",
+  "entities": [
+   "quy trình thay dầu",
+   "độ nhớt dầu động cơ",
+   "lọc dầu",
+   "que đo dầu",
+   "nút xả dầu"
+  ],
+  "keywords": [
+   "quy trinh thay dau xe may",
+   "cac buoc thay dau xe may",
+   "chon dau nhot xe may",
+   "thay dau xe may tai nha",
+   "do nhot dau dong co"
+  ],
+  "summary": "Hướng dẫn chi tiết về quy trình thay dầu xe máy — thay dầu là việc bảo dưỡng đều đặn nhất của một chiếc xe, cũng là việc dễ làm đúng nhất nếu hiểu trình tự. Bài viết này trình bày quy trình thay dầu như một chuỗi có logic: chọn đúng dầu trước tiên — loại và độ"
+ },
+ {
+  "kind": "article",
   "url": "moto/xe-con-tay/raider-rck/",
   "title": "Raider rck — những điều cần biết",
   "description": "Những điều cần biết về Suzuki Raider RCK: đặc tính côn tay thể thao dài, so với đối thủ, kinh nghiệm lái, bảo dưỡng và mua cũ.",
@@ -11760,6 +11967,29 @@
    "xe so re bền"
   ],
   "summary": "Hỏi \"xe số có gì hay\" ở phố Việt và câu trả lời thường là \"rẻ, bền\" — đúng, nhưng dừng ở đó là bỏ sót phần đáng giá nhất của câu chuyện. Ưu điểm thật của xe số nằm ở một chuỗi hệ quả kinh tế và thực dụng nối dài: giá mua thấp, chi phí nhiên liệu thuộc hàng thấ"
+ },
+ {
+  "kind": "article",
+  "url": "docs/huong-dan-su-dung/van-hanh-xe-so/",
+  "title": "Tổng hợp kiến thức: vận hành xe số",
+  "description": "Tổng hợp kiến thức vận hành xe số: đề và ra đi, vào số đúng tốc độ, kỹ thuật côn ga, về số khi dốc và phanh phối hợp — nền tảng cho người mới và người muốn xe bền.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [
+   "vận hành xe số",
+   "bộ côn",
+   "hộp số xe máy",
+   "nhông sên dĩa",
+   "máy hãm khi xuống dốc"
+  ],
+  "keywords": [
+   "van hanh xe so",
+   "ky thuat lai xe so",
+   "vao so dung toc do",
+   "phe hop khi lai xe may",
+   "xuong doc ve so xe may"
+  ],
+  "summary": "Tổng hợp kiến thức: vận hành xe số — chiếc xe số là bản thiết kế cơ khí cuối cùng còn giữ được cảm giác \"nói chuyện trực tiếp\" giữa tay người lái và động cơ: côn, số, ga, phanh, bốn nút điều khiển mà người lái phối hợp bằng chân tay mỗi giây trên đường. Bài vi"
  },
  {
   "kind": "article",

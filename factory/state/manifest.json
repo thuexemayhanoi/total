@@ -1576,6 +1576,14 @@
   "kind": "article"
  },
  {
+  "rel": "docs/quy-trinh-bao-duong/bao-duong-1000km/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/quy-trinh-bao-duong/bao-duong-5000km/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/bao-duong-phanh/index.html",
   "kind": "article"
  },
@@ -1621,6 +1629,18 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/chay-xe-duong-truong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/checklist/checklist-bao-duong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/checklist/checklist-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/checklist/checklist-nhan-xe/index.html",
   "kind": "article"
  },
  {
@@ -1677,6 +1697,10 @@
  },
  {
   "rel": "moto/xe-ga/cvt-xe-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/checklist/danh-sach-kiem-tra-xe/index.html",
   "kind": "article"
  },
  {
@@ -1805,6 +1829,10 @@
  },
  {
   "rel": "docs/huong-dan-su-dung/huong-dan-su-dung-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/huong-dan-su-dung/huong-dan-xe-dien/index.html",
   "kind": "article"
  },
  {
@@ -1992,6 +2020,14 @@
   "kind": "article"
  },
  {
+  "rel": "docs/quy-trinh-bao-duong/quy-trinh-bao-duong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/quy-trinh-bao-duong/quy-trinh-thay-dau/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/xe-con-tay/raider-rck/index.html",
   "kind": "article"
  },
@@ -2105,6 +2141,10 @@
  },
  {
   "rel": "moto/xe-so/uu-diem-xe-so/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/huong-dan-su-dung/van-hanh-xe-so/index.html",
   "kind": "article"
  },
  {
