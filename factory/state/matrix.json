@@ -6138,11 +6138,13 @@
    "title": "Kinh nghiệm an toàn xe máy dành cho người mới",
    "primaryIntent": "informational/an-toan-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2307
   },
   {
    "id": "S00414",
@@ -6151,11 +6153,13 @@
    "title": "Mẹo lái xe — những điều cần biết",
    "primaryIntent": "informational/meo-lai-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2243
   },
   {
    "id": "S00415",
@@ -6164,11 +6168,13 @@
    "title": "Hướng dẫn chi tiết về lái xe êm",
    "primaryIntent": "informational/lai-xe-em",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2198
   },
   {
    "id": "S00416",
@@ -6177,11 +6183,13 @@
    "title": "Tổng hợp kiến thức: lái xe đỡ mệt",
    "primaryIntent": "informational/lai-xe-do-met",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2236
   },
   {
    "id": "S00417",
@@ -6190,11 +6198,13 @@
    "title": "Kinh nghiệm mẹo vào cua dành cho người mới",
    "primaryIntent": "informational/meo-vao-cua",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2389
   },
   {
    "id": "S00418",
@@ -6203,11 +6213,13 @@
    "title": "Lái xe an toàn — những điều cần biết",
    "primaryIntent": "informational/lai-xe-an-toan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2498
   },
   {
    "id": "S00419",
@@ -6231,11 +6243,13 @@
    "title": "Tổng hợp kiến thức: tốc độ tiết kiệm",
    "primaryIntent": "informational/toc-do-tiet-kiem",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.047Z",
-   "updatedAt": "2026-10-03T23:13:26.047Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2234
   },
   {
    "id": "S00421",
@@ -6244,11 +6258,13 @@
    "title": "Kinh nghiệm giảm hao xăng dành cho người mới",
    "primaryIntent": "informational/giam-hao-xang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2180
   },
   {
    "id": "S00422",
@@ -6257,11 +6273,13 @@
    "title": "Ép xe đúng cách — những điều cần biết",
    "primaryIntent": "informational/ep-xe-dung-cach",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T05:51:33.929Z",
+   "seoScore": 100,
+   "words": 2144
   },
   {
    "id": "S00423",

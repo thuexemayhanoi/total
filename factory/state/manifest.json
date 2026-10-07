@@ -1564,6 +1564,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/an-toan-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/ap-suat-lop/index.html",
   "kind": "article"
  },
@@ -1728,6 +1732,14 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-tiet-kiem-xang/ep-xe-dung-cach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-tiet-kiem-xang/giam-hao-xang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/giao-thong-ha-noi/index.html",
   "kind": "article"
  },
@@ -1796,6 +1808,14 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/lai-xe-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/lai-xe-do-met/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-trong-thanh-pho/lai-xe-do-thi/index.html",
   "kind": "article"
  },
@@ -1805,6 +1825,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/lai-xe-duong-mua/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/lai-xe-em/index.html",
   "kind": "article"
  },
  {
@@ -1837,6 +1861,14 @@
  },
  {
   "rel": "hub/van-de-thuong-gap/may-i/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/meo-lai-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/meo-vao-cua/index.html",
   "kind": "article"
  },
  {
@@ -1977,6 +2009,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/toc-do-duong-truong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-tiet-kiem-xang/toc-do-tiet-kiem/index.html",
   "kind": "article"
  },
  {

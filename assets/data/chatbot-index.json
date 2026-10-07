@@ -8012,6 +8012,34 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/an-toan-xe-may/",
+  "title": "Kinh nghiệm an toàn xe máy dành cho người mới",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Kinh nghiệm an toàn xe máy dành cho người mới không nằm ở tốc độ mà ở nền tảng: mũ bảo hiểm đạt chuẩn, xe được kiểm tra trước mỗi chuyến đi, tay lái nhẹ nhàng, khoảng cách đủ dài và thói quen quan sát liên tục. Bài viết tổng hợp các nguyên tắc cốt lõi giúp bạn hình thành kỹ năng an toàn ngay từ những cây số đầu tiên.",
+  "quickAnswer": "Kinh nghiệm an toàn xe máy dành cho người mới bắt đầu từ trang bị chuẩn bị: mũ đạt chuẩn, phanh lốp đèn gương hoạt động tốt, giấy tờ đầy đủ. Khi lưu thông, đi chậm hơn mức bạn thấy thoải mái, giữ khoảng cách hai giây, báo hiệu xi nhan sớm và luôn quan sát xa hơn tốc độ của mình.",
+  "keyPoints": [
+   "An toàn bắt đầu trước khi lên xe: mũ bảo hiểm đạt chuẩn, phanh chắc, lốp non đúng mức, đèn gương sạch và giấy tờ đầy đủ.",
+   "Người mới nên đi chậm hơn tốc độ cảm thấy thoải mái; mọi phản ứng của bạn đều cần thêm thời gian so với người có kinh nghiệm.",
+   "Giữ khoảng cách tối thiểu hai giây với xe phía trước; nhân đôi khi đường ướt, tầm nhìn kém hoặc theo sau xe tải.",
+   "Đổi làn hoặc rẽ phải có xi nhan sớm; người mới hay quên báo hiệu và đột ngột vạt vào làn trong."
+  ],
+  "entities": [
+   "mũ bảo hiểm đạt chuẩn",
+   "quy tắc hai giây",
+   "vùng mù",
+   "xi nhan",
+   "khoảng cách an toàn"
+  ],
+  "keywords": [
+   "an-toan-xe-may",
+   "kinh-nghiem-lai-xe",
+   "nguoi-moi-lai-xe",
+   "ky-nhang-lai-xe",
+   "an-toan-giao-thong"
+  ]
+ },
+ {
   "url": "wiki/lop-banh-xe/ap-suat-lop/",
   "title": "Hướng dẫn chi tiết về áp suất lốp",
   "category": "Bách khoa xe",
@@ -9232,6 +9260,62 @@
   ]
  },
  {
+  "url": "tips/meo-tiet-kiem-xang/ep-xe-dung-cach/",
+  "title": "Ép xe đúng cách — những điều cần biết",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "summary": "Ép xe đúng cách — những điều cần biết cho ai hay nghe dân đi đường nói xe yếu thì đem ra chạy ép. Chạy ép nghĩa là đưa máy lên vùng tua cao trong thời gian ngắn trên đường thoáng, để nhiệt độ và dòng khí mạnh đánh bật phần muội than bám nhẹ trong buồng đốt, trả lại cho bugi và xupap độ sạch cần thiết. Bài viết giải thích muội từ đâu tới, dấu hiệu nào báo có muội, các bước ép an toàn từng bước, và quan trọng nhất là những thứ chạy ép không làm được để không ai nhầm nó với phép chữa bách bệnh.",
+  "quickAnswer": "Ép xe đúng cách — những điều cần biết tóm gọn: chạy ép chỉ đánh bay được muội than nhẹ, không thay bảo dưỡng và không chữa hỏng. Ép khi máy đã nóng hẳn, trên đường trường thoáng: tăng ga dần lên vùng cao giữ vài giây rồi nhả, lặp năm tới tám cú, xen kẽ ga thường, tổng dưới mười lăm phút. Xe vẫn yếu sau khi ép thì đem kiểm tra thật: bugi, lọc gió, chế hòa khí hay khe xupap.",
+  "keyPoints": [
+   "Chạy ép là đưa máy lên vùng tua cao ngắn hạn để đốt và thổi bay muội than bám nhẹ trong buồng đốt.",
+   "Muội sinh ra chủ yếu do chạy ga thấp liên tục, dầu nhớt lọt qua piston và xăng kém chất lượng.",
+   "Điều kiện ép: máy đã nóng hẳn, đường trường thoáng vắng, xe vừa bảo dưỡng, người đi đội mũ chuẩn và tỉnh táo.",
+   "Liều lượng: vài cú ngắn giữ ga cao vài giây rồi nhả, lặp năm tới tám lần, tổng dưới mười lăm phút."
+  ],
+  "entities": [
+   "muội than",
+   "buồng đốt",
+   "bugi",
+   "vùng tua cao",
+   "chạy ép"
+  ],
+  "keywords": [
+   "ep xe",
+   "chay ep xe may",
+   "ep xe dung cach",
+   "mui than buong dot",
+   "xe may chay ep"
+  ]
+ },
+ {
+  "url": "tips/meo-tiet-kiem-xang/giam-hao-xang/",
+  "title": "Kinh nghiệm giảm hao xăng dành cho người mới",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "summary": "Kinh nghiệm giảm hao xăng dành cho người mới bắt đầu từ một sự thật: phần lớn xăng dôi ra không nằm ở xe mà ở thói quen còn non của người cầm lái. Vặn ga theo cảm xúc, phanh gấp sau mỗi cú vọt, đi từng chuyến ngắn, chạy đúng giờ đông, tất cả cộng lại thành mức tiêu thụ cao hơn mọi con số nhà sản xuất ghi. Bài viết hướng dẫn từng bước làm quen nấc ga, vài việc bảo trì tự làm được, cách gộp tuyến đi và phương pháp đo để người mới giảm hao xăng ngay trong tháng đầu.",
+  "quickAnswer": "Kinh nghiệm giảm hao xăng dành cho người mới tóm lại: giữ ga đều thay vì tăng giảm theo cảm xúc, tìm đúng nấc ga tiết kiệm của xe mình, tự kiểm tra áp suất lốp và độ căng xích hàng tuần, gộp nhiều việc thành một chuyến đi, tránh giờ cao điểm khi có thể chọn, và đo mức tiêu thụ mỗi tuần để thấy thói quen nào đang ăn xăng.",
+  "keyPoints": [
+   "Xe của người mới hao xăng chủ yếu vì thói quen tăng giảm liên tục và phanh gấp, không phải vì xe cũ.",
+   "Mỗi xe có một nấc ga tiết kiệm riêng; tìm được nó là khoản tiết kiệm lớn nhất của tháng đầu.",
+   "Áp suất lốp và độ căng xích là hai việc người mới tự kiểm tra được trong vài phút mỗi tuần.",
+   "Chạy nhiều chuyến ngắn dưới vài cây số rất tốn: máy chưa nóng đã tắt, mỗi lần nổ lại là một lần trả phí."
+  ],
+  "entities": [
+   "nấc ga tiết kiệm",
+   "áp suất lốp",
+   "xích truyền lực",
+   "máy nguội",
+   "mức tiêu thụ"
+  ],
+  "keywords": [
+   "giam hao xang",
+   "xe hao xang",
+   "nguoi moi di xe may",
+   "giam tieu thu xang",
+   "meo giam hao xang"
+  ]
+ },
+ {
   "url": "hub/dia-phuong/giao-thong-ha-noi/",
   "title": "Hướng dẫn chi tiết về giao thông hà nội",
   "category": "Trung tâm chủ đề",
@@ -9730,6 +9814,62 @@
   ]
  },
  {
+  "url": "tips/meo-lai-xe/lai-xe-an-toan/",
+  "title": "Lái xe an toàn — những điều cần biết",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Lái xe an toàn — những điều cần biết không phải kỹ năng phức tạp mà là chuỗi thói quen nhỏ làm đúng mỗi ngày: kiểm tra xe trước khi lăn bánh, đội mũ bảo hiểm đúng chuẩn, mắt quét xa hơn tốc độ, giữ khoảng cách với xe trước, phanh sớm phối hợp cả hai bánh và giữ đầu lạnh khi dòng xe ép sát. Bài viết xếp các thói quen đó thành nguyên tắc dễ nhớ để người đi xe máy giữa đô thị tự bảo vệ chính mình.",
+  "quickAnswer": "Lái xe an toàn — những điều cần biết gói trong một câu: đi chậm hơn tầm nhìn của mình. Kiểm tra phanh, đèn, lốp trước mỗi chuyến; đội mũ cài quai; quét gương theo chu kỳ và liếc vai trước khi đổi làn; giữ khoảng cách theo tốc độ; phanh sớm, phối hợp hai bánh; và luôn nhường trước khi chắc chắn.",
+  "keyPoints": [
+   "An toàn bắt đầu khi chưa lăn bánh: kiểm tra phanh, đèn, còi, áp suất lốp và đội mũ bảo hiểm cài quai đúng chuẩn.",
+   "Quan sát liên tục: mắt quét xa hơn tốc độ, nhìn qua xe trước, quét gương theo chu kỳ và liếc vai trước khi đổi hướng.",
+   "Giữ khoảng cách theo tốc độ với xe phía trước; khoảng đệm là thứ duy nhất mua được thời gian phản ứng.",
+   "Phanh sớm và nhẹ, phối hợp cả hai bánh với lực dần; phanh gấp là kế cuối cùng chứ không phải thói quen."
+  ],
+  "entities": [
+   "mũ bảo hiểm",
+   "phanh trước",
+   "phanh sau",
+   "gương chiếu hậu",
+   "khoảng cách an toàn"
+  ],
+  "keywords": [
+   "lai xe an toan",
+   "di xe may an toan",
+   "ky thuat lai xe an toan",
+   "quan sat khi lai xe",
+   "giu khoang cach an toan"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/lai-xe-do-met/",
+  "title": "Tổng hợp kiến thức: lái xe đỡ mệt",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Tổng hợp kiến thức: lái xe đỡ mệt bắt đầu từ tư thế và điểm tựa đúng, tiếp tới nhịp thở đều và lịch nghỉ chu kỳ hai giờ, rồi tới trang bị che chắn nắng gió và khả năng nghe cơ thể báo mệt. Mệt mỏi khi lái không phải chuyện nhỏ: nó giảm phản xạ như một cốc bia và là nguyên nhân của rất nhiều tai nạn trên đường trường.",
+  "quickAnswer": "Tổng hợp kiến thức: lái xe đỡ mệt nằm ở bốn việc: ngồi đúng tư thế để lưng và vai không gánh trọng lượng; nghỉ mỗi hai giờ, vươn vai và uống nước; trang bị mũ có kính, quần áo thoáng và khẩu trang che nắng gió; và dừng ngay khi mắt nặng, ngáp liên tục hoặc mất tập trung.",
+  "keyPoints": [
+   "Mệt mỏi giảm phản xạ giống như uống rượu nhẹ; nhận diện sớm dấu hiệu là kỹ năng an toàn thật sự.",
+   "Tư thế đúng chia trọng lượng cho chân, hông và lưng thay vì dồn hết lên hai cổ tay.",
+   "Nghỉ theo chu kỳ hai giờ: vươn vai, xoay cổ, uống nước, nhắm mắt vài phút cho mắt thư giãn.",
+   "Nắng, gió và ồn là ba nguồn hút sức vô hình: mũ kính che kín, quần áo thoáng, né khung nắng gắt ban trưa."
+  ],
+  "entities": [
+   "tư thế lái",
+   "chu kỳ nghỉ hai giờ",
+   "mắt đỏ ngứa",
+   "chân tê bì",
+   "buồn ngủ"
+  ],
+  "keywords": [
+   "lai-xe-do-met",
+   "lai-xe-duong-dai",
+   "chong-met-moi",
+   "nghi-khi-lai-xe",
+   "an-toan-lai-xe"
+  ]
+ },
+ {
   "url": "ride/lai-xe-trong-thanh-pho/lai-xe-do-thi/",
   "title": "Tổng hợp kiến thức: lái xe đô thị",
   "category": "Hành trình",
@@ -9813,6 +9953,34 @@
    "duong tron di xe may",
    "ky thuat phanh duong uot",
    "aquaplaning xe may"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/lai-xe-em/",
+  "title": "Hướng dẫn chi tiết về lái xe êm",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Hướng dẫn chi tiết về lái xe êm đi từ tư thế ngồi, tốc độ ga, phối hợp côn và phanh cho tới cách đọc đường né ổ gà và chăm chút cảm giác của người ngồi sau. Xe đi êm không phải xe đắt mà là người điều khiển biết cho xe và người cùng xe được nghỉ ngơi trong từng thao tác.",
+  "quickAnswer": "Hướng dẫn chi tiết về lái xe êm gồm ba trụ cột: ngồi đúng tư thế với lưng thẳng khuỷu tay thả lỏng; thao tác ga, côn, phanh theo nấc mượt không giật; và đọc đường sớm để né ổ gà, chọn vạch phẳng. Thêm vào đó, luôn báo trước mỗi lần giảm tốc để người ngồi sau không bị ngả bất ngờ.",
+  "keyPoints": [
+   "Tư thế ngồi quyết định phần lớn độ êm: lưng thẳng, khuỷu tay hơi cong, hai gối kẹp nhẹ bình xăng.",
+   "Ga và phanh luôn theo nấc nhỏ; mọi thao tác giật một nhát đều truyền thẳng lên yên xe.",
+   "Với xe số, phối hợp côn và ga tại điểm ăn khớp để vào số không giật nảy.",
+   "Đọc đường sớm, chọn vạch phẳng, né ổ gà bằng cách giảm tốc từ xa thay vì đổi hướng đột ngột."
+  ],
+  "entities": [
+   "tư thế ngồi",
+   "điểm ăn khớp côn",
+   "giảm xóc",
+   "ổ gà",
+   "người ngồi sau"
+  ],
+  "keywords": [
+   "lai-xe-em",
+   "huong-dan-lai-xe",
+   "tu-the-lai-xe",
+   "dieu-khien-xe",
+   "xe-di-em"
   ]
  },
  {
@@ -10051,6 +10219,62 @@
    "xe yếu ga",
    "xe tay ga ì máy",
    "côn trượt xe máy"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/meo-lai-xe/",
+  "title": "Mẹo lái xe — những điều cần biết",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Mẹo lái xe — những điều cần biết không nằm ở thao tác phức tạp mà ở việc làm đúng những điều cơ bản mỗi ngày: vặn ga mượt, phanh sớm, vào cua chậm vào nhanh ra, mắt luôn quét xa hơn tốc độ và đầu óc giữ bình tĩnh. Bài viết gói các mẹo này thành nguyên tắc dễ nhớ, dễ luyện thành thói quen.",
+  "quickAnswer": "Mẹo lái xe — những điều cần biết tóm gọn trong một câu: ga đều, phanh sớm, mắt nhìn xa, tay thả lỏng và đầu lạnh. Vặn ga như vặn vòi nước mượt mà, phối hợp cả hai phanh với lực dần về bánh trước, vào cua chậm vào nhanh ra, quan sát trước khi di chuyển và luôn nhường trước khi chắc chắn.",
+  "keyPoints": [
+   "Mọi mẹo lái xe đều xuất phát từ một nền tảng: thao tác mượt mà; ga giật và phanh dồn đều làm xe mất cân bằng.",
+   "Phanh sớm và nhẹ an toàn hơn phanh muộn và mạnh; đèn phanh còn là tín hiệu báo cho người phía sau.",
+   "Vào cua chuẩn: giảm hết tốc trước khi nghiêng vào cua, tăng ga dần khi tầm nhìn thoát cua mở ra; không phanh giữa cua.",
+   "Quan sát là kỹ năng chủ đạo: nhìn qua xe phía trước, quét gương theo chu kỳ, kiểm tra vai trước khi đổi hướng."
+  ],
+  "entities": [
+   "vặn ga đều",
+   "phối hợp phanh",
+   "vào cua",
+   "quét gương",
+   "tư thế lái"
+  ],
+  "keywords": [
+   "meo-lai-xe",
+   "ky-thuat-lai-xe",
+   "lai-xe-may",
+   "vao-cua",
+   "phanh-xe"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/meo-vao-cua/",
+  "title": "Kinh nghiệm mẹo vào cua dành cho người mới",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Kinh nghiệm mẹo vào cua dành cho người mới không nằm ở độ nghiêng sâu hay tốc độ cao mà ở ba nhịp được làm đúng thứ tự: đọc cua từ xa, giảm hết tốc trước khi nghiêng và giữ ga đều cho tới khi tầm nhìn thoát cua mở ra. Bài viết đi từng bước từ cách chọn quỹ đạo rộng vào hẹp ra, cách nghiêng người cùng xe, đến cách xử lý cua ướt, cua dốc, cua chữ tóc để người mới tự tin luyện thành phản xạ.",
+  "quickAnswer": "Kinh nghiệm mẹo vào cua dành cho người mới tóm lại một công thức: vào cua chậm, ra cua nhanh. Giảm hết tốc và về số thấp trước khi nghiêng, nhìn xa về điểm thoát cua, mở quỹ đạo rộng vào và hẹp ra, giữ ga đều xuyên cua, tuyệt đối không mớm phanh giữa cua và chỉ tăng ga khi xe đã thẳng trở lại.",
+  "keyPoints": [
+   "Giảm hết tốc và về số thấp trước cua; mọi thao tác phanh phải kết thúc trước khi xe bắt đầu nghiêng.",
+   "Quỹ đạo chuẩn là rộng vào hẹp ra: mở mép ngoài, chạm sát đỉnh cua rồi mở ra khi tầm nhìn thoát cua hiện ra.",
+   "Giữ ga đều xuyên suốt đoạn cua; mớm phanh giữa cua làm bánh trước mất bám và xe trượt dài.",
+   "Nghiêng người cùng xe theo hướng cua, mắt luôn nhìn về điểm thoát cua thay vì nhìn ngay đầu xe."
+  ],
+  "entities": [
+   "bánh trước",
+   "bánh sau",
+   "điểm thoát cua",
+   "tầm nhìn",
+   "quỹ đạo cua"
+  ],
+  "keywords": [
+   "meo vao cua",
+   "ky thuat vao cua",
+   "vao cua an toan",
+   "giam toc truoc cua",
+   "xe may vao cua"
   ]
  },
  {
@@ -11064,6 +11288,34 @@
    "chay xe duong truong",
    "van toc an toan",
    "giu ga deu"
+  ]
+ },
+ {
+  "url": "tips/meo-tiet-kiem-xang/toc-do-tiet-kiem/",
+  "title": "Tổng hợp kiến thức: tốc độ tiết kiệm",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "summary": "Tổng hợp kiến thức: tốc độ tiết kiệm trên xe máy quy về một phát hiện đơn giản: xăng hao chủ yếu ở hai lúc tăng tốc và phanh gấp, còn dải tốc tiết kiệm nhất luôn nằm ở mức vừa với tay ga giữ đều. Bài viết tổng hợp vì sao sức cản gió đòi giá ngày càng đắt theo từng cây số, dải tốc nào là tối ưu, giữ đều ra sao, và cách phối hợp tốc độ với đèn đỏ, cua và gió để mức tiêu thụ giảm thấy được sau mỗi lần đổ đầy.",
+  "quickAnswer": "Tổng hợp kiến thức: tốc độ tiết kiệm cho xe máy nằm ở khoảng bốn mươi tới sáu mươi cây số một giờ tùy dòng xe, giữ đều tay ga, không kéo gắt, nhả ga sớm trước đèn đỏ và tăng tốc dần thay vì vọt lên rồi phanh; dải đều ở giữa luôn tốn xăng ít nhất so với chạy nhanh hoặc bò chậm.",
+  "keyPoints": [
+   "Sức cản gió tăng theo bình phương tốc độ: chạy nhanh hơn một chút là tốn xăng hơn nhiều.",
+   "Dải tốc tiết kiệm nhất của xe máy nằm ở mức vừa, quanh một nửa hành trình ga, không phải càng chậm càng rẻ.",
+   "Tăng tốc là lúc tốn xăng nhất, phanh gấp là lúc vứt xăng đã đốt; giữ đều là kỹ thuật trung tâm.",
+   "Ở đô thị, quen nhịp đèn đỏ giúp giữ được dòng chảy, ít dừng hẳn, ít nổ lại từ đầu."
+  ],
+  "entities": [
+   "sức cản gió",
+   "dải tốc tiết kiệm",
+   "tay ga",
+   "đèn đỏ",
+   "mức tiêu thụ"
+  ],
+  "keywords": [
+   "toc do tiet kiem",
+   "toc do toi uu xe may",
+   "xe may tiet kiem xang",
+   "giu toc do deu",
+   "toc do nao tiet kiem xang"
   ]
  },
  {

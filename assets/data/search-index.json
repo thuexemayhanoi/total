@@ -8480,6 +8480,29 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/an-toan-xe-may/",
+  "title": "Kinh nghiệm an toàn xe máy dành cho người mới",
+  "description": "Kinh nghiệm an toàn xe máy dành cho người mới: chuẩn bị trang bị, kỹ năng điều khiển cơ bản, giữ khoảng cách, tuân thủ quy tắc và xử lý tình huống thường gặp.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "mũ bảo hiểm đạt chuẩn",
+   "quy tắc hai giây",
+   "vùng mù",
+   "xi nhan",
+   "khoảng cách an toàn"
+  ],
+  "keywords": [
+   "an-toan-xe-may",
+   "kinh-nghiem-lai-xe",
+   "nguoi-moi-lai-xe",
+   "ky-nhang-lai-xe",
+   "an-toan-giao-thong"
+  ],
+  "summary": "Kinh nghiệm an toàn xe máy dành cho người mới không nằm ở tốc độ mà ở nền tảng: mũ bảo hiểm đạt chuẩn, xe được kiểm tra trước mỗi chuyến đi, tay lái nhẹ nhàng, khoảng cách đủ dài và thói quen quan sát liên tục. Bài viết tổng hợp các nguyên tắc cốt lõi giúp bạn"
+ },
+ {
+  "kind": "article",
   "url": "wiki/lop-banh-xe/ap-suat-lop/",
   "title": "Hướng dẫn chi tiết về áp suất lốp",
   "description": "Áp suất lốp xe máy chuẩn là bao nhiêu, kiểm khi nào, vì sao non hơi mòn mép lốp nhanh, vì sao căng quá mất bám, và cách xử lý rò khí kéo dài.",
@@ -9495,6 +9518,52 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-tiet-kiem-xang/ep-xe-dung-cach/",
+  "title": "Ép xe đúng cách — những điều cần biết",
+  "description": "Ép xe đúng cách — những điều cần biết: chạy ép để làm gì, khi nào cần, các bước ép an toàn trên đường thoáng và những lầm tưởng khiến xe hại thay vì sạch muội.",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "entities": [
+   "muội than",
+   "buồng đốt",
+   "bugi",
+   "vùng tua cao",
+   "chạy ép"
+  ],
+  "keywords": [
+   "ep xe",
+   "chay ep xe may",
+   "ep xe dung cach",
+   "mui than buong dot",
+   "xe may chay ep"
+  ],
+  "summary": "Ép xe đúng cách — những điều cần biết cho ai hay nghe dân đi đường nói xe yếu thì đem ra chạy ép. Chạy ép nghĩa là đưa máy lên vùng tua cao trong thời gian ngắn trên đường thoáng, để nhiệt độ và dòng khí mạnh đánh bật phần muội than bám nhẹ trong buồng đốt, tr"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-tiet-kiem-xang/giam-hao-xang/",
+  "title": "Kinh nghiệm giảm hao xăng dành cho người mới",
+  "description": "Kinh nghiệm giảm hao xăng dành cho người mới: làm quen nấc ga và số phù hợp, tự bảo trì áp suất lốp và xích, gộp chuyến đi và đo mức tiêu thụ mỗi tuần.",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "entities": [
+   "nấc ga tiết kiệm",
+   "áp suất lốp",
+   "xích truyền lực",
+   "máy nguội",
+   "mức tiêu thụ"
+  ],
+  "keywords": [
+   "giam hao xang",
+   "xe hao xang",
+   "nguoi moi di xe may",
+   "giam tieu thu xang",
+   "meo giam hao xang"
+  ],
+  "summary": "Kinh nghiệm giảm hao xăng dành cho người mới bắt đầu từ một sự thật: phần lớn xăng dôi ra không nằm ở xe mà ở thói quen còn non của người cầm lái. Vặn ga theo cảm xúc, phanh gấp sau mỗi cú vọt, đi từng chuyến ngắn, chạy đúng giờ đông, tất cả cộng lại thành mức"
+ },
+ {
+  "kind": "article",
   "url": "hub/dia-phuong/giao-thong-ha-noi/",
   "title": "Hướng dẫn chi tiết về giao thông hà nội",
   "description": "Kiến thức giao thông Hà Nội: cấu trúc phố cổ và vành đai, quy luật giờ cao điểm, cầu vượt sông Hồng, thời tiết theo mùa và lưu ý khi đi xe máy nội thành.",
@@ -9908,6 +9977,52 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/lai-xe-an-toan/",
+  "title": "Lái xe an toàn — những điều cần biết",
+  "description": "Lái xe an toàn — những điều cần biết cho người đi xe máy: kiểm tra xe trước khi đi, quan sát liên tục, giữ khoảng cách, phanh sớm và bình tĩnh giữa dòng xe.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "mũ bảo hiểm",
+   "phanh trước",
+   "phanh sau",
+   "gương chiếu hậu",
+   "khoảng cách an toàn"
+  ],
+  "keywords": [
+   "lai xe an toan",
+   "di xe may an toan",
+   "ky thuat lai xe an toan",
+   "quan sat khi lai xe",
+   "giu khoang cach an toan"
+  ],
+  "summary": "Lái xe an toàn — những điều cần biết không phải kỹ năng phức tạp mà là chuỗi thói quen nhỏ làm đúng mỗi ngày: kiểm tra xe trước khi lăn bánh, đội mũ bảo hiểm đúng chuẩn, mắt quét xa hơn tốc độ, giữ khoảng cách với xe trước, phanh sớm phối hợp cả hai bánh và gi"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/lai-xe-do-met/",
+  "title": "Tổng hợp kiến thức: lái xe đỡ mệt",
+  "description": "Tổng hợp kiến thức về lái xe đỡ mệt: tư thế và điểm tựa, nhịp thở và nghỉ chu kỳ hai giờ, trang bị chắn nắng gió và nhận dấu hiệu cơ thể cần dừng nghỉ an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "tư thế lái",
+   "chu kỳ nghỉ hai giờ",
+   "mắt đỏ ngứa",
+   "chân tê bì",
+   "buồn ngủ"
+  ],
+  "keywords": [
+   "lai-xe-do-met",
+   "lai-xe-duong-dai",
+   "chong-met-moi",
+   "nghi-khi-lai-xe",
+   "an-toan-lai-xe"
+  ],
+  "summary": "Tổng hợp kiến thức: lái xe đỡ mệt bắt đầu từ tư thế và điểm tựa đúng, tiếp tới nhịp thở đều và lịch nghỉ chu kỳ hai giờ, rồi tới trang bị che chắn nắng gió và khả năng nghe cơ thể báo mệt. Mệt mỏi khi lái không phải chuyện nhỏ: nó giảm phản xạ như một cốc bia "
+ },
+ {
+  "kind": "article",
   "url": "ride/lai-xe-trong-thanh-pho/lai-xe-do-thi/",
   "title": "Tổng hợp kiến thức: lái xe đô thị",
   "description": "Lái xe đô thị với xe máy: đọc mặt đường, đọc từng loại xe quanh mình, giữ vị trí ngoài vùng mù và tư duy ghép kỹ năng thành chuyến đi an toàn.",
@@ -9976,6 +10091,29 @@
    "aquaplaning xe may"
   ],
   "summary": "Mưa thay đổi mọi quy tắc lái xe thông thường: đường trơn, phanh kém nhạy, người khác cũng thấy kém. Bài viết này tổng hợp cách chuẩn bị trước khi ra đường mưa, các kỹ thuật giữ xe ổn định, những điểm nguy hiểm cần né, cùng quy tắc bảo vệ bản thân khi bị kẹt gi"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/lai-xe-em/",
+  "title": "Hướng dẫn chi tiết về lái xe êm",
+  "description": "Hướng dẫn chi tiết về lái xe êm: tư thế ngồi chuẩn, điều khiển ga phanh côn mượt, vào số không giật, đọc đường né ổ gà và giữ cảm giác thoải mái cho người ngồi sau.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "tư thế ngồi",
+   "điểm ăn khớp côn",
+   "giảm xóc",
+   "ổ gà",
+   "người ngồi sau"
+  ],
+  "keywords": [
+   "lai-xe-em",
+   "huong-dan-lai-xe",
+   "tu-the-lai-xe",
+   "dieu-khien-xe",
+   "xe-di-em"
+  ],
+  "summary": "Hướng dẫn chi tiết về lái xe êm đi từ tư thế ngồi, tốc độ ga, phối hợp côn và phanh cho tới cách đọc đường né ổ gà và chăm chút cảm giác của người ngồi sau. Xe đi êm không phải xe đắt mà là người điều khiển biết cho xe và người cùng xe được nghỉ ngơi trong từn"
  },
  {
   "kind": "article",
@@ -10174,6 +10312,52 @@
    "côn trượt xe máy"
   ],
   "summary": "Máy ì là trạng thái xe nổ máy bình thường nhưng khi vặn ga lại ì ạch, tăng tốc yếu, có khi kèm hao xăng hoặc máy rung bất thường. Hiện tượng này đến từ nhiều nguyên nhân khác nhau: từ chuyện nhỏ như lọc gió bẩn, bugi cũ, xăng kém, đến chuyện lớn như côn trượt,"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/meo-lai-xe/",
+  "title": "Mẹo lái xe — những điều cần biết",
+  "description": "Mẹo lái xe — những điều cần biết cho người đi xe máy: vặn ga đều, phanh sớm phối hợp, vào cua đúng kỹ thuật, quan sát liên tục và giữ bình tĩnh giữa dòng giao thông.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "vặn ga đều",
+   "phối hợp phanh",
+   "vào cua",
+   "quét gương",
+   "tư thế lái"
+  ],
+  "keywords": [
+   "meo-lai-xe",
+   "ky-thuat-lai-xe",
+   "lai-xe-may",
+   "vao-cua",
+   "phanh-xe"
+  ],
+  "summary": "Mẹo lái xe — những điều cần biết không nằm ở thao tác phức tạp mà ở việc làm đúng những điều cơ bản mỗi ngày: vặn ga mượt, phanh sớm, vào cua chậm vào nhanh ra, mắt luôn quét xa hơn tốc độ và đầu óc giữ bình tĩnh. Bài viết gói các mẹo này thành nguyên tắc dễ n"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/meo-vao-cua/",
+  "title": "Kinh nghiệm mẹo vào cua dành cho người mới",
+  "description": "Kinh nghiệm mẹo vào cua dành cho người mới: đọc cua từ xa, giảm hết tốc trước cua, quỹ đạo rộng vào hẹp ra, giữ ga đều và cách xử lý cua ướt, cua dốc, cua chữ tóc.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "bánh trước",
+   "bánh sau",
+   "điểm thoát cua",
+   "tầm nhìn",
+   "quỹ đạo cua"
+  ],
+  "keywords": [
+   "meo vao cua",
+   "ky thuat vao cua",
+   "vao cua an toan",
+   "giam toc truoc cua",
+   "xe may vao cua"
+  ],
+  "summary": "Kinh nghiệm mẹo vào cua dành cho người mới không nằm ở độ nghiêng sâu hay tốc độ cao mà ở ba nhịp được làm đúng thứ tự: đọc cua từ xa, giảm hết tốc trước khi nghiêng và giữ ga đều cho tới khi tầm nhìn thoát cua mở ra. Bài viết đi từng bước từ cách chọn quỹ đạo"
  },
  {
   "kind": "article",
@@ -11012,6 +11196,29 @@
    "giu ga deu"
   ],
   "summary": "Tổng hợp kiến thức về tốc độ đường trường cho người mới: tốc độ an toàn không phải một con số, mà là mức bạn chọn được theo bốn thứ — mặt đường, tầm nhìn, mật độ xe và thể trạng chính mình — rồi giữ được đều suốt chặng. Bài viết đi qua cách đọc con số hợp lý c"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-tiet-kiem-xang/toc-do-tiet-kiem/",
+  "title": "Tổng hợp kiến thức: tốc độ tiết kiệm",
+  "description": "Tổng hợp kiến thức: tốc độ tiết kiệm trên xe máy nằm ở dải vừa, giữ tay ga đều, hạn chế tăng giảm liên tục và nhả ga sớm khi tới đèn đỏ.",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "entities": [
+   "sức cản gió",
+   "dải tốc tiết kiệm",
+   "tay ga",
+   "đèn đỏ",
+   "mức tiêu thụ"
+  ],
+  "keywords": [
+   "toc do tiet kiem",
+   "toc do toi uu xe may",
+   "xe may tiet kiem xang",
+   "giu toc do deu",
+   "toc do nao tiet kiem xang"
+  ],
+  "summary": "Tổng hợp kiến thức: tốc độ tiết kiệm trên xe máy quy về một phát hiện đơn giản: xăng hao chủ yếu ở hai lúc tăng tốc và phanh gấp, còn dải tốc tiết kiệm nhất luôn nằm ở mức vừa với tay ga giữ đều. Bài viết tổng hợp vì sao sức cản gió đòi giá ngày càng đắt theo "
  },
  {
   "kind": "article",
