@@ -27,8 +27,7 @@ module.exports = {
   keywords: [
     'an-toan-xe-may',
     'kinh-nghiem-lai-xe',
-    '
-nguoi-moi-lai-xe',
+    'nguoi-moi-lai-xe',
     'ky-nhang-lai-xe',
     'an-toan-giao-thong'
   ],
@@ -41,24 +40,21 @@ nguoi-moi-lai-xe',
     },
     {
       h2: 'Kỹ năng điều khiển cơ bản: ga, phanh và tay lái nhẹ nhàng',
-      html: `<p>Người mới hay phạm hai lỗi ngược chiều: vặn ga giật cục hoặc bóp phanh dồn dập. Cả hai đều làm xe giật nảy, mất cân bằng và mòn máy. Nguyên tắc là mượt mà: vặn ga như vặn vòi nước, tăng dần đều đặn; nhả ga từ từ thay vì buông tuột; phanh sớm, phanh nhẹ rồi tăng lự
-c theo cảm giác xe. Hãy tưởng tượng chén nước đầy đặt trên yên xe: đi cả buổi mà không sánh nước đổ là bạn đã điều khiển mượt. Tay lái cũng vậy, giữ khuỷu tay thả lỏng, hai tay nắm hai bên tay lái thay vì dồn về một phía, không chống tay cứng để tránh bị gạt mạnh khi bánh xe gặp ổ gà.</p>
+      html: `<p>Người mới hay phạm hai lỗi ngược chiều: vặn ga giật cục hoặc bóp phanh dồn dập. Cả hai đều làm xe giật nảy, mất cân bằng và mòn máy. Nguyên tắc là mượt mà: vặn ga như vặn vòi nước, tăng dần đều đặn; nhả ga từ từ thay vì buông tuột; phanh sớm, phanh nhẹ rồi tăng lực theo cảm giác xe. Hãy tưởng tượng chén nước đầy đặt trên yên xe: đi cả buổi mà không sánh nước đổ là bạn đã điều khiển mượt. Tay lái cũng vậy, giữ khuỷu tay thả lỏng, hai tay nắm hai bên tay lái thay vì dồn về một phía, không chống tay cứng để tránh bị gạt mạnh khi bánh xe gặp ổ gà.</p>
 <p>Phanh xe máy chia hai hệ thống: phanh trước mạnh nhưng dễ khóa bánh và gây văng nếu bóp gấp trên đường trơn, phanh sau an toàn hơn nhưng cùn mồi hơn. Kỹ thuật chuẩn là phối hợp cả hai, dồn lực dần về phanh trước, mắt nhìn thẳng phía trước để giữ xe thăng bằng. Khi đường ướt hoặc rải sỏi, giảm lực phanh trước đi một nửa và bắt đầu phanh sớm hơn bình thường. Tập thói quen phanh sớm còn giúp người đi sau biết ý định của bạn qua đèn phanh, một kênh liên lạc thầm lặng nhưng cực kỳ hiệu quả giữa dòng xe.</p>
 <p>Với xe số, việc về số đúng vòng tua quan trọng không kém phanh: xuống dốc không rẽ số không, vì phanh giữ liên tục sẽ nóng và mất tác dụng. Với xe tay ga, nhả ga sớm khi thấy đèn đỏ phía trước thay vì bóp phanh ở vạch cuối, xe ga có phanh động cơ nhẹ nên cần dự trù quãng phanh dài hơn. Người mới nên tập các thao tác này ở bãi rộng: quãng phanh từ tốc độ ba mươi cây số, lúc khô và lúc sau khi tưới ướt, để cơ thể nhớ cảm giác thực thay vì chỉ nhớ lý thuyết.</p>`,
     },
     {
       h2: 'Tốc độ và khoảng cách: hai con số quyết định phần lớn an toàn',
       html: `<p>Tốc độ an toàn không phải là tốc độ cho phép trên biển mà là tốc độ mà bạn kịp dừng trong quãng đường nhìn thấy. Công thức đơn giản: đi nhanh đến mức nào, phải dừng được trước chướng ngại xuất hiện ở điểm xa nhất bạn nhìn rõ. Trong hẻm che, ngã tư có nhà che, đoạn quanh co, hãy giảm sẵn tốc độ để dừng được ngay tại mép tầm nhìn. Người mới có phản xạ chậm hơn nên cần tự đặt trần tốc độ thấp hơn người có kinh nghiệm; đi chậm hơn dòng xe một chút an toàn hơn nhiều so với cố bám kịp.</p>
-<p>Khoảng cách với xe phía trước theo quy tắc hai giây: chọn một mốc cố định bên đường, đếm hai giây sau khi xe trước đi qua; nếu bạn tới
- mốc trước khi đếm xong là đang quá gần. Con số này phải nhân đôi khi trời mưa, tầm nhìn kém, đi sau xe tải che hết tầm nhìn hoặc lúc ban đêm. Quãng cách này cho bạn thời gian quan sát, suy xét và phản ứng thay vì chỉ đủ thời gian bóp phanh theo bản năng. Người mới hay thích bám sát vì cảm giác an toàn ảo, nhưng mọi va chạm đuôi đều xuất phát từ khoảng cách quá ngắn.</p>
+<p>Khoảng cách với xe phía trước theo quy tắc hai giây: chọn một mốc cố định bên đường, đếm hai giây sau khi xe trước đi qua; nếu bạn tới mốc trước khi đếm xong là đang quá gần. Con số này phải nhân đôi khi trời mưa, tầm nhìn kém, đi sau xe tải che hết tầm nhìn hoặc lúc ban đêm. Quãng cách này cho bạn thời gian quan sát, suy xét và phản ứng thay vì chỉ đủ thời gian bóp phanh theo bản năng. Người mới hay thích bám sát vì cảm giác an toàn ảo, nhưng mọi va chạm đuôi đều xuất phát từ khoảng cách quá ngắn.</p>
 <p>Tốc độ còn quyết định độ nghiêm trọng: cùng một lỗi né ổ gà, ở ba mươi cây số là một cú giật tay lái, ở sáu mươi là một cú ngã nặng. Nghiên cứu tai nạn giao thông đều cho thấy chênh lệch nhỏ về tốc độ tạo ra chênh lệch lớn về hậu quả vì năng lượng tăng theo bình phương. Với người mới, hãy xem kim đồng hồ là đồng hồ rủi ro: mỗi vạch tăng thêm đều đòi hỏi kỹ năng, tầm nhìn và khoảng cách cao hơn. Không cần ai chứng minh bạn đi nhanh; chỉ cần cả chuyến đi về tới nơi nguyên vẹn.</p>`,
     },
     {
       h2: 'Quy tắc giao thông cho người mới: làn đường, xi nhan và ngã tư',
       html: `<p>Xe máy phải đi đúng làn dành cho xe hai bánh, không luồn lách lên vỉa hè hay chen vào làn ô tô. Người mới hay rẽ tắt sang làn trong đột ngột khi sắp qua ngã, đây là lỗi gây va chạm nhiều nhất vì xe phía sau không kịp phản ứng. Quy trình chuẩn: nhìn gương trước, bật xi nhan sớm ít nhất ba giây, quan sát lại gương và vai, rồi mới vạt dần qua. Xi nhan không phải thủ tục, nó là lời thông báo để người khác nhường không gian cho bạn; tắt xi nhan sau khi hoàn tất thao tác.</p>
 <p>Ở ngã tư có đèn tín hiệu, không vọt đầu khi đèn vừa xanh; đợi các xe còn đang vọt qua hết rồi mới nhích. Ngã tư không đèn thì tuân theo quy tắc nhường: xe ở bên phải bạn không có xe nào che được đi trước, rồi mới tới lượt; chậm một nhịp mắt nhìn hai hướng trước khi lao ra. Quay đầu xe máy chỉ được ở nơi cho phép; muốn quay ngược thì vòng qua ngã hoặc đoạn có biển cho phép, đừng đứng chéo giữa dòng xe chờ kẽ hở.</p>
-<p>Với người mới, điều đáng sợ nhất ở khu vực ngã tư không phải luật mà là xe buýt, xe tải chuyển hướng với bán kính quét rộng. Đừng dừ
-ng vào góc quay của xe lớn: nếu bạn không nhìn được mắt tài xế trong gương của họ, họ cũng không thấy bạn. Giữ khoảng nghỉ hở ở mép vạch dừng, để dư một thân xe phía trước có thể lùi. Tuân thủ luật ở người mới không phải để tránh bị phạt, mà vì mỗi quy tắc đều chắp thêm một lớp đoán được cho người xung quanh đọc bạn.</p>`,
+<p>Với người mới, điều đáng sợ nhất ở khu vực ngã tư không phải luật mà là xe buýt, xe tải chuyển hướng với bán kính quét rộng. Đừng dừng vào góc quay của xe lớn: nếu bạn không nhìn được mắt tài xế trong gương của họ, họ cũng không thấy bạn. Giữ khoảng nghỉ hở ở mép vạch dừng, để dư một thân xe phía trước có thể lùi. Tuân thủ luật ở người mới không phải để tránh bị phạt, mà vì mỗi quy tắc đều chắp thêm một lớp đoán được cho người xung quanh đọc bạn.</p>`,
     },
     {
       h2: 'Tình huống thường gặp: giờ cao điểm, mưa, ban đêm và vùng mù',
@@ -68,8 +64,7 @@ ng vào góc quay của xe lớn: nếu bạn không nhìn được mắt tài x
     }
   ],
   checklist: [
-    'Trước mỗi chuyến: cài 
-quai mũ chặt, kiểm tra phanh trước sau, áp suất lốp, đèn và gương sạch.',
+    'Trước mỗi chuyến: cài quai mũ chặt, kiểm tra phanh trước sau, áp suất lốp, đèn và gương sạch.',
     'Giấy phép lái xe, đăng ký, bảo hiểm trách nhiệm dân sự mang theo đầy đủ còn hiệu lực.',
     'Giữ khoảng cách hai giây với xe trước; nhân đôi khi mưa, ban đêm hoặc theo sau xe tải.',
     'Bật xi nhan sớm ít nhất ba giây trước khi đổi làn hoặc rẽ; tắt sau khi hoàn tất.',
@@ -95,8 +90,7 @@ quai mũ chặt, kiểm tra phanh trước sau, áp suất lốp, đèn và gư�
   ],
   related: [
     'an-toan-giao-thong',
-    
-'quy-tac-giao-thong',
+    'quy-tac-giao-thong',
     'tam-nhin-khi-lai',
     'mu-bao-hiem-dat-chuan',
     'giu-khoang-cach-an-toan-khi-di-xe-may',

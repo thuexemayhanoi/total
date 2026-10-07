@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-07T05:45:43.079Z",
+ "at": "2026-10-07T05:50:20.654Z",
  "phase": "writing",
  "pair": "S00423,S00424",
- "note": "resume sau lite migration: repair batch queue-10 (S00413-S00418,S00420-S00422: fix G7 related links S00420-22, them cluster links; verify-batch OK) — push de Factory Publish Lite flush 9 bài backlog; tiep tuc viet queue 11 S00423-S00432"
+ "note": "repair batch queue-10 (S00413-S00418,S00420-S00422): fix G7 related links S00420-22 + cluster links, verify-batch OK 9/9; push lai lan 2 sau khi phat hien ban push truoc bi mo newline (open_url) gay loi syntax — dung noi dung goc af88efbb"
 }
