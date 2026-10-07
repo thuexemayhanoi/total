@@ -39,6 +39,7 @@ const { execFileSync } = require('child_process');
 const lock = require('./lib/lock');
 const runtime = require('./lib/factory-runtime');
 const contentIndex = require('./lib/content-index');
+const topicFactory = require('./lib/topic-factory');
 const linkIntegrity = require('./link-integrity');
 
 const STATE_DIR = path.join(__dirname, 'state');
@@ -292,6 +293,48 @@ function linkableSlugsFor(m, ids) {
   const out = new Set();
   for (const s of m.slots || []) {
     if (s.state === 'PUBLISHED' || scope.has(s.id)) out.add(s.slug);
+  }
+  return out;
+}
+
+// HOT PATH 20k: writer/status chỉ cần biết bài của slot CHƯA terminal.
+// Bài mới bắt buộc theo convention <slug>.js nên kiểm tra O(open-slots),
+// không require 20.000 module đã PUBLISHED. Legacy non-PLANNED filename lệch
+// slug mới fallback full index để recovery vẫn tương thích.
+function openArticleSlugs(m) {
+  const out = new Set();
+  const legacyNeed = [];
+  for (const s of (m.slots || [])) {
+    if (s.state === 'PUBLISHED' || s.state === 'BLOCKED') continue;
+    const direct = path.join(__dirname, 'data', 'articles', String(s.slug || '') + '.js');
+    if (fs.existsSync(direct)) out.add(s.slug);
+    else if (s.state !== 'PLANNED') legacyNeed.push(s.slug);
+  }
+  if (legacyNeed.length) {
+    const all = loadAllArticlesBySlug();
+    for (const slug of legacyNeed) if (all.has(slug)) out.add(slug);
+  }
+  return out;
+}
+
+function publishedRelatedFor(m, slot, limit) {
+  const max = Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : 8;
+  const parent = String(slot.hub || '').split('/')[0];
+  const sameHub = [];
+  const sameParent = [];
+  for (let i = m.slots.length - 1; i >= 0; i--) {
+    const s = m.slots[i];
+    if (s.state !== 'PUBLISHED' || s.slug === slot.slug) continue;
+    const item = { slug: s.slug, title: s.title, hub: s.hub, id: s.id };
+    if (s.hub === slot.hub) sameHub.push(item);
+    else if (String(s.hub || '').split('/')[0] === parent) sameParent.push(item);
+  }
+  const out = [];
+  const seen = new Set();
+  for (const x of sameHub.concat(sameParent)) {
+    if (seen.has(x.slug)) continue;
+    seen.add(x.slug); out.push(x);
+    if (out.length >= max) break;
   }
   return out;
 }
@@ -1017,9 +1060,14 @@ Lệnh:
                                   queue, PASS tiếp tục publish
   cycle-publish <ID,ID,...>      Coordinator duy nhất: publish slot PASS của
                                   cycle, defer REPAIR, build/deploy ĐÚNG 1 lần
-  queue-refill [--role R]        Planned < 100 -> refill queue lên ~300 topic
-                                  hợp lệ từ topic-pool (chỉ role=coordinator)
-  writer-next [--count N]        WRITER 1: pair kế tiếp (resume slot dở có bài
+  queue-refill [--role R]        Planned < 100 -> refill queue lên ~300 topic;
+                                  static pool trước, Topic Factory taxonomy sau
+                                  (chỉ role=coordinator)
+  writer-pack [--count N] [--json]
+                                  WRITER/MISTRAL: nhận một pack 1-10 bài gồm
+                                  ID, file <slug>.js, title/intent và related
+                                  PUBLISHED an toàn để viết ngay
+  writer-next [--count N]        WRITER 1: batch kế tiếp (resume slot dở có bài
                                   TRƯỚC, sau đó slot PLANNED theo ID tăng dần)
   writer-heartbeat --phase P     WRITER 1: báo heartbeat (P = writing |
                                   [--note T] [--pair I,I]       waiting-publish | waiting-writer | idle | error)
@@ -1063,7 +1111,7 @@ function main() {
     console.log('Writer lock:', lo
       ? `đang giữ bởi "${lo.owner}" (từ ${lo.at}, pid ${lo.pid})${st.expired ? ' — QUÁ HẠN TTL, reclaim được ở lần acquire kế (không tự xóa)' : ''}`
       : 'trống');
-    const back = runtime.findClaimableBacklog(m, new Set(loadAllArticlesBySlug().keys()));
+    const back = runtime.findClaimableBacklog(m, openArticleSlugs(m));
     console.log('Backlog claimable (article-backed):', back.claimable.length,
       '| WAITING_FOR_WRITER:', back.waitingForWriter.length);
     console.log('Sức chứa ma trận:', m.capacity, '| đã dùng:', m.slots.length, '| dự phòng:', m.capacity - m.slots.length);
@@ -1219,7 +1267,7 @@ function main() {
     const failIfClaimable = process.argv.includes('--fail-if-claimable');
     const headSha = opt('--head-sha') || '(không rõ)';
     const m = loadMatrix();
-    const slugs = new Set(loadAllArticlesBySlug().keys()); // fail loud khi module lỗi
+    const slugs = openArticleSlugs(m);
     const { claimable, waitingForWriter } = runtime.findClaimableBacklog(m, slugs);
     console.log('CLAIMABLE_BACKLOG=' + claimable.length);
     console.log('WAITING_FOR_WRITER=' + waitingForWriter.length);
@@ -1249,7 +1297,7 @@ function main() {
   }
   if (cmd === 'plan-chunk') {
     const m = loadMatrix();
-    const slugs = new Set(loadAllArticlesBySlug().keys()); // fail loud khi module lỗi
+    const slugs = openArticleSlugs(m);
     const limit = parsePositiveInt(opt('--limit'));
     const { chunk, limit: usedLimit, resume, claimed } = runtime.selectChunk(m, slugs, limit || undefined);
     console.log('PLAN ids=' + chunk.map(s => s.id + ':' + s.state).join(' '));
@@ -1603,8 +1651,9 @@ function main() {
     return;
   }
   if (cmd === 'queue-refill') {
-    // Allocator: planned < QUEUE_REFILL_FLOOR -> refill lên ~QUEUE_REFILL_TARGET
-    // topic hợp lệ từ topic-pool. CHỈ coordinator được chạy.
+    // Allocator nhẹ: giữ khoảng 300 PLANNED. Dùng curated topic-pool trước;
+    // khi pool cũ hết thì Topic Factory sinh deterministic từ 15 category/97 hub.
+    // General factory chỉ dùng tới plannedTarget; reserved capacity còn nguyên.
     contentIndex.assertCoordinator(opt('--role') || 'coordinator');
     const m = loadMatrix();
     validateMatrix(m);
@@ -1613,51 +1662,126 @@ function main() {
       console.log('QUEUE_REFILL none planned=' + planned + ' (>= floor ' + runtime.QUEUE_REFILL_FLOOR + ') — đủ queue, không refill.');
       return;
     }
+    const generalCeiling = Math.min(m.plannedTarget, m.capacity - ((m.reserved && m.reserved.total) || 0));
+    const room = Math.max(0, generalCeiling - m.slots.length);
+    if (room === 0) {
+      console.log('QUEUE_REFILL ceiling slots=' + m.slots.length + ' generalCeiling=' + generalCeiling +
+        ' reserved=' + ((m.reserved && m.reserved.total) || 0) + ' — giữ chỗ cho reserved pools.');
+      return;
+    }
+
+    const need = Math.max(0, runtime.QUEUE_REFILL_TARGET - planned);
+    const existing = m.slots.map(s => s.slug);
     const { TOPICS } = require('./data/topic-pool');
-    const topics = runtime.selectRefillTopics(TOPICS, m.slots.map(s => s.slug), planned, runtime.QUEUE_REFILL_TARGET);
-    const room = m.capacity - m.slots.length;
-    const picked = topics.slice(0, Math.max(0, Math.min(topics.length, room)));
-    let added = 0;
+    const staticTopics = runtime.selectRefillTopics(TOPICS, existing, planned, runtime.QUEUE_REFILL_TARGET);
+    const used = new Set(existing.concat(staticTopics.map(t => t.slug)));
+    const generatedNeed = Math.max(0, need - staticTopics.length);
+    const generated = topicFactory.buildTopicCandidates({ existingSlugs: used, limit: generatedNeed });
+    const topics = staticTopics.concat(generated);
+    const picked = topics.slice(0, Math.max(0, Math.min(topics.length, room, need)));
+
+    let added = 0, generatedAdded = 0;
     for (const t of picked) {
       try {
-        planSlot(m, { hub: t.hub, slug: t.slug, title: t.title, intent: 'informational/' + t.slug });
+        planSlot(m, {
+          hub: t.hub, slug: t.slug, title: t.title,
+          intent: t.intent || ('informational/' + t.slug),
+          notes: t.source ? ('source=' + t.source) : ''
+        });
         added++;
+        if (t.source === 'topic-factory-v1') generatedAdded++;
       } catch (e) {
         console.error('BỎ topic ' + t.slug + ': ' + e.message);
       }
     }
     if (added === 0) {
       console.log('QUEUE_REFILL added=0 planned=' + planned +
-        ' (floor ' + runtime.QUEUE_REFILL_FLOOR + ', target ' + runtime.QUEUE_REFILL_TARGET +
-        ') — không còn topic tự do, KHÔNG ghi state.');
+        ' — Topic Factory không còn candidate hợp lệ hoặc đã chạm general ceiling; KHÔNG ghi state.');
       return;
     }
     validateMatrix(m);
     saveMatrix(m);
     saveState(loadState(), 'queue-refill:+' + added);
-    console.log('QUEUE_REFILL added=' + added + ' planned=' + (planned + added) +
-      ' (floor ' + runtime.QUEUE_REFILL_FLOOR + ', target ' + runtime.QUEUE_REFILL_TARGET + ') — intent mặc định informational/<slug>');
+    console.log('QUEUE_REFILL added=' + added + ' generated=' + generatedAdded +
+      ' planned=' + (planned + added) + ' slots=' + m.slots.length +
+      ' generalCeiling=' + generalCeiling + ' targetQueue=' + runtime.QUEUE_REFILL_TARGET);
     return;
   }
   // ---------- 3-ROLE PRODUCTION: WRITER 1 + ĐỐC CÔNG 2/3 ----------
-  if (cmd === 'writer-next') {
-    // WRITER 1 (writer duy nhất): pair kế tiếp, deterministic — resume slot
-    // dở CÓ bài trước, sau đó slot PLANNED chưa có bài theo ID tăng dần.
-    // KHÔNG bao giờ trả slot đã có bài cho reason "new" (chống viết trùng).
+  if (cmd === 'writer-pack' || cmd === 'writer-next') {
+    // Writer hot path 20k: chỉ nhìn slot chưa terminal; bài mới theo <slug>.js.
     const m = loadMatrix();
     validateMatrix(m);
-    const count = parsePositiveInt(opt('--count')) || runtime.PAIR_SIZE;
-    const plan = runtime.selectWriterPair(m, new Set(loadAllArticlesBySlug().keys()), count);
-    if (!plan.ids.length) {
-      console.log('WRITER_NEXT ids= (không còn gì để viết — queue rỗng và không có bài dở)');
+    const count = parsePositiveInt(opt('--count')) || (cmd === 'writer-pack' ? runtime.PUBLISH_CHUNK_LIMIT : runtime.PAIR_SIZE);
+    const openSlugs = openArticleSlugs(m);
+    const plan = runtime.selectWriterPair(m, openSlugs, count);
+
+    if (cmd === 'writer-next') {
+      if (!plan.ids.length) {
+        console.log('WRITER_NEXT ids= (không còn slot chưa viết ở snapshot hiện tại)');
+        return;
+      }
+      console.log('WRITER_NEXT ids=' + plan.ids.join(',') +
+        ' reason=resume:' + plan.resume.length + ',new:' + plan.fresh.length);
+      for (const d of plan.details) {
+        console.log('NEXT ' + d.id + ' state=' + d.state + ' hub=' + d.hub + ' slug=' + d.slug +
+          ' intent=' + d.intent + ' title=' + d.title);
+      }
       return;
     }
-    console.log('WRITER_NEXT ids=' + plan.ids.join(',') +
-      ' reason=resume:' + plan.resume.length + ',new:' + plan.fresh.length);
-    for (const d of plan.details) {
-      console.log('NEXT ' + d.id + ' state=' + d.state + ' hub=' + d.hub + ' slug=' + d.slug +
-        ' intent=' + d.intent + ' title=' + d.title);
+
+    const writtenWaiting = m.slots.filter(s =>
+      s.state !== 'PUBLISHED' && s.state !== 'BLOCKED' && openSlugs.has(s.slug) && !plan.ids.includes(s.id)
+    ).length;
+    let status = 'ready';
+    if (!plan.ids.length) {
+      if (writtenWaiting > 0) status = 'wait-publish';
+      else if (m.slots.length < m.plannedTarget) status = 'refill';
+      else status = 'done-general-target';
     }
+    const items = plan.details.map(d => {
+      const s = m.slots.find(x => x.id === d.id);
+      const parts = String(s.hub || '').split('/');
+      return {
+        id: s.id, state: s.state, hub: s.hub,
+        category: parts[0] || '', hubSlug: parts[1] || '',
+        slug: s.slug, title: s.title, intent: s.primaryIntent,
+        file: 'factory/data/articles/' + s.slug + '.js',
+        canonicalPath: '/' + s.hub + '/' + s.slug + '/',
+        relatedPublished: publishedRelatedFor(m, s, 8),
+      };
+    });
+    const pack = {
+      schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id),
+      rules: {
+        minWords: 1600, maxWords: 3000, qaPassMin: runtime.QA_PASS_MIN,
+        fileConvention: 'factory/data/articles/<slug>.js',
+        relatedMin: 2, relatedPolicy: 'PUBLISHED-only from relatedPublished; do not invent slugs',
+        noFakeFacts: true, verifyCommand: items.length ? ('node factory/factory.js verify-batch "' + items.map(x => x.id).join(',') + '"') : null
+      },
+      items,
+      nextAction: status === 'ready' ? 'WRITE_VERIFY_PUSH' :
+        (status === 'wait-publish' ? 'FETCH_FRESH_MAIN_AND_RECHECK' :
+          (status === 'refill' ? 'QUEUE_REFILL_THEN_RECHECK' : 'GENERAL_TARGET_DONE'))
+    };
+    if (process.argv.includes('--json')) {
+      console.log(JSON.stringify(pack, null, 2));
+      return;
+    }
+    console.log('WRITER_PACK status=' + status + ' count=' + items.length +
+      ' written_waiting=' + writtenWaiting + ' slots=' + m.slots.length + '/' + m.plannedTarget);
+    if (items.length) console.log('BATCH_IDS=' + items.map(x => x.id).join(','));
+    console.log('RULES min_words=1600 max_words=3000 qa>=' + runtime.QA_PASS_MIN +
+      ' related>=2 related_policy=PUBLISHED_ONLY filename=<slug>.js');
+    for (const item of items) {
+      console.log('ITEM ' + item.id + ' hub=' + item.hub + ' slug=' + item.slug);
+      console.log('  TITLE ' + item.title);
+      console.log('  INTENT ' + item.intent);
+      console.log('  FILE ' + item.file);
+      console.log('  RELATED_PUBLISHED ' + item.relatedPublished.map(x => x.slug).join(','));
+    }
+    if (pack.rules.verifyCommand) console.log('VERIFY ' + pack.rules.verifyCommand);
+    console.log('NEXT_ACTION=' + pack.nextAction);
     return;
   }
   if (cmd === 'writer-heartbeat') {
@@ -1684,7 +1808,7 @@ function main() {
     // classifyProductionState — một chân lý, không phân vẹn status.
     const m = loadMatrix();
     validateMatrix(m);
-    const slugs = new Set(loadAllArticlesBySlug().keys());
+    const slugs = openArticleSlugs(m);
     const { claimable, waitingForWriter } = runtime.findClaimableBacklog(m, slugs);
     const hb = readJson(HEARTBEAT_FILE, null);
     const errors = (readJson(ERROR_FILE, { errors: [] }) || { errors: [] }).errors || [];
@@ -1793,7 +1917,7 @@ module.exports = {
   TRANSITIONS, planSlot, transition,
   validateMatrix, parseSlotId, formatSlotId, maxSlotNumber, nextSlotId,
   parsePositiveInt, expansionError, applyExpansion, plannedTargetError,
-  loadArticleBySlug, PUBLISH_CHUNK_LIMIT, parsePublishRequest,
+  loadArticleBySlug, openArticleSlugs, publishedRelatedFor, PUBLISH_CHUNK_LIMIT, parsePublishRequest,
   // hardening 4-tầng: lock ownership-safe + runtime thuần cho CI/test
   lock: { status: lockStatus, active: activeLock },
   runtime,
