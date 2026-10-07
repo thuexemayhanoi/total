@@ -21,7 +21,8 @@ module.exports = {
     'nấc ga tiết kiệm',
     'áp suất lốp',
     'xích truyền lực',
-    'máy nguội',
+  
+  'máy nguội',
     'mức tiêu thụ'
   ],
   keywords:   [
@@ -38,11 +39,13 @@ module.exports = {
     },
     {
       h2: 'Làm quen bản đồ ga và số của xe mình',
-      html: '<p>Mỗi chiếc xe có một bản đồ riêng: nấc ga nào xe kéo khỏe nhất mà ít tốn nhất, số nào khớp tốc độ nào. Người mới chưa có bản đồ đó nên tay phải làm theo cảm xúc; người đi lâu thì chân tay tự nhắm đúng. Cách vẽ bản đồ cho mình: ra đường thoáng vắng, giữ thử ga ở vài nấc khác nhau, mỗi nấc vài cây số, và nghe máy. Nấc mà xe giữ tốc thoải mái, tiếng máy đều không gào, tay ga đang mở chừng một phần ba tới một nửa hành trình, đó gần như chắc chắn là vùng tiết kiệm của xe mình.</p>\\n<p>Về số đúng là nửa còn lại của bản đồ. Kéo máy gắt lên tận cùng rồi mới lên số là đốt xăng vào vùng đắt đỏ nhất; ngược lại bám số cao để máy đuối cũng hại, vì mỗi vòng tua nạp xăng mà lực sinh ra ít. Nguyên tắc cho người mới: lên số sớm ngay khi ga đã đủ kéo xe tới tốc mong muốn, xuống số ngay khi cảm thấy xe bắt đầu rung giật hay ga đã hết sức mà không tăng. Sau một tuần chú ý, chân số và tay phải tự hợp nhịp mà không cần nghĩ.</p>\\n<p>Hãy dành hai ba buổi chạy thử trên cùng một tuyến quen, mỗi buổi chỉ thay một thứ: hôm nay thử nấc ga thấp hơn, mai thử lên số sớm hơn, mốt thử nhả ga trước mỗi đèn đỏ. Không thay nhiều thứ cùng lúc vì sẽ không biết thứ nào có tác dụng. Ghi lại cảm nhận và mức đổ của mỗi tuần vào giấy hay điện thoại; ba tuần là đủ thấy rõ kiểu đi nào là của mình, và đó là thứ không sách vở nào ghi sẵn được.</p>'
+      html: '<p>Mỗi chiếc xe có một bản đồ riêng: nấc ga nào xe kéo khỏe nhất mà ít tốn nhất, số nào khớp tốc độ nào. Người mới chưa có bản đồ đó nên tay phải làm theo cảm xúc; người đi lâu thì chân tay tự nhắm đúng. Cách vẽ bản đồ cho mình: ra đường thoáng vắng, giữ thử ga ở vài nấc khác nhau, mỗi nấc vài cây số, và nghe máy. Nấc mà xe giữ tốc thoải mái, tiếng máy đ
+ều không gào, tay ga đang mở chừng một phần ba tới một nửa hành trình, đó gần như chắc chắn là vùng tiết kiệm của xe mình.</p>\\n<p>Về số đúng là nửa còn lại của bản đồ. Kéo máy gắt lên tận cùng rồi mới lên số là đốt xăng vào vùng đắt đỏ nhất; ngược lại bám số cao để máy đuối cũng hại, vì mỗi vòng tua nạp xăng mà lực sinh ra ít. Nguyên tắc cho người mới: lên số sớm ngay khi ga đã đủ kéo xe tới tốc mong muốn, xuống số ngay khi cảm thấy xe bắt đầu rung giật hay ga đã hết sức mà không tăng. Sau một tuần chú ý, chân số và tay phải tự hợp nhịp mà không cần nghĩ.</p>\\n<p>Hãy dành hai ba buổi chạy thử trên cùng một tuyến quen, mỗi buổi chỉ thay một thứ: hôm nay thử nấc ga thấp hơn, mai thử lên số sớm hơn, mốt thử nhả ga trước mỗi đèn đỏ. Không thay nhiều thứ cùng lúc vì sẽ không biết thứ nào có tác dụng. Ghi lại cảm nhận và mức đổ của mỗi tuần vào giấy hay điện thoại; ba tuần là đủ thấy rõ kiểu đi nào là của mình, và đó là thứ không sách vở nào ghi sẵn được.</p>'
     },
     {
       h2: 'Mấy việc bảo trì người mới tự làm được ngay',
-      html: '<p>Không cần là thợ để làm được hai việc ăn vào mức xăng nhiều nhất. Một là áp suất lốp: mua một chiếc đồng hồ nhỏ hoặc dùng trạm bơm có vạch, kiểm tra khi lốp nguội mỗi tuần một lần theo mức ghi trên khung xe. Lốp non chỉ vài pound cũng làm xe nặng tay, và đi suốt tuần với lốp non là trả xăng cho lực lăn thừa. Hai là xích truyền lực: bấm xích giữa hai đĩa, độ chùng chỉ nên trong khoảng gần hai centimet; căng quá hoặc chùng quá đều làm mất lực, và một lớp nhớt mỏng đều mỗi tuần giúp xích không rít.</p>\\n<p>Việc nên làm định kỳ ở tiệm là lọc gió, bugi và dầu nhớt. Lọc gió bẩn làm máy hút khó và hòa khí giàu xăng; bugi mòn đánh lửa yếu, cháy không hết; dầu nhớt bẩn tăng ma sát trong máy. Với người mới, cách đơn giản là bám đúng lịch số cây số nhà sản xuất ghi trong sách, ghi ngày thay vào điện thoại, và nhờ tiệm kiểm tra luôn hai chi tiết trên mỗi lần thay nhớt. Hai chi tiết nhỏ đó là gốc của phần lớn các ca hao xăng đột ngột mà chủ xe cứ tưởng do xăng hoặc do máy.</p>\\n<p>Việc cuối là dọn đồ trên xe. Khóa sau đầy đồ cũ, túi treo hai bên, hộp đựng trống đeo quanh năm: cộng lại vài ký chở không. Mỗi ký thừa là xăng thừa cho mọi cú tăng tốc, và xe không có gì cho không cả. Một buổi chiều dọn lại yên, cốp, móc treo, chỉ giữ lại đồ thật dùng trong tuần, là khoản tiết kiệm không mất một phút chạy thử nào. Xe gọn còn giúp tay lái nhẹ, và tay lái nhẹ cũng là một phần của tiết kiệm.</p>'
+      html: '<p>Không cần là thợ để làm được hai việc ăn vào mức xăng nhiều nhất. Một là áp suất lốp: mua một chiếc đồng hồ nhỏ hoặc dùng trạm bơm có vạch, kiểm tra khi lốp nguội mỗi tuần một lần theo mức ghi trên khung xe. Lốp non chỉ vài pound cũng làm xe nặng tay, và đi suốt tuần với lốp non là trả xăng cho lực lăn thừa. Hai là xích truyền lực: bấm xích giữa hai đĩa, độ chùng chỉ nên trong khoảng gần hai centimet; căng quá hoặc chùng quá đều làm mất lực, và một lớp nhớt mỏng đều mỗi tuần giúp xích không rít.</p>\\n<p>Việc nên làm định kỳ ở tiệm là lọc gió, bugi và dầu nhớt. Lọc gió bẩn làm máy hút khó và hòa khí giàu xăng; bugi mòn đánh lửa yếu, cháy không hết; dầu nhớt bẩn tăng ma sát trong máy. Với người mới, cách đơn giản là bám đúng lịch số cây số nhà sản xuất ghi trong sách, ghi ngày thay vào điện thoại, và nhờ tiệm kiểm tra luôn hai chi tiết trên mỗi lần thay nhớt. Hai chi tiết nhỏ đó là gốc của phần lớn các ca hao xăng đột ngột mà chủ
+ xe cứ tưởng do xăng hoặc do máy.</p>\\n<p>Việc cuối là dọn đồ trên xe. Khóa sau đầy đồ cũ, túi treo hai bên, hộp đựng trống đeo quanh năm: cộng lại vài ký chở không. Mỗi ký thừa là xăng thừa cho mọi cú tăng tốc, và xe không có gì cho không cả. Một buổi chiều dọn lại yên, cốp, móc treo, chỉ giữ lại đồ thật dùng trong tuần, là khoản tiết kiệm không mất một phút chạy thử nào. Xe gọn còn giúp tay lái nhẹ, và tay lái nhẹ cũng là một phần của tiết kiệm.</p>'
     },
     {
       h2: 'Kế hoạch tuyến đi và giờ xuất phát',
@@ -50,7 +53,8 @@ module.exports = {
     },
     {
       h2: 'Đo đếm và mục tiêu thực tế cho người mới',
-      html: '<p>Không đo thì không biết, và người mới thường đo sai cách: nhìn kim đồng hồ nhấp nhô rồi kết luận. Cách chuẩn chỉ có một: đổ đầy bình, ghi số đồng hồ; đi hết tuần như thường lệ; đổ đầy lại và ghi số mới. Quãng đường cả tuần chia số lít vừa đổ chính là mức tiêu thụ. Làm liên tiếp ba bốn tuần để có mức nền vững, vì mưa, chở đồ, đổi tuyến đều làm số nhấp nhô; một số đo đơn lẻ chưa kết luận được điều gì.</p>\\n<p>Sau khi có mức nền, đặt mục tiêu khiêm tốn: giảm năm tới mười phần trăm, và mỗi tuần chỉ đổi đúng một thói quen. Tuần này tập nhả ga sớm trước đèn đỏ, tuần sau mới tập giữ đều, tuần kế mới chỉnh áp suất lốp. Đổi nhiều thứ một lúc thì không biết thứ nào có tác dụng và dễ nản khi số không giảm. Cứ mỗi tuần một việc, mỗi việc giữ lại rồi cộng thêm việc mới; sau một hai tháng, mức tiết kiệm là tổng của nhiều thay đổi nhỏ chứ không phải một phép màu nào.</p>\\n<p>Cuối cùng, hãy tự so với chính mình thay vì so với xe khác. Mỗi xe có tuổi máy, dòng máy và kiểu đi riêng; xe số cũ tiết kiệm hơn xe tay ga là chuyện bình thường, và xe chở hai người tốn hơn xe đi một cũng vậy. Người mới giữ được mức của mình giảm dần qua các tuần là đang đi đúng đường, và mức đó sẽ tự ổn định thành thói quen. Khoản để lại mỗi tháng không lớn ngay, nhưng nó đều đặn, và đó chính là cách tiết kiệm thật sự khác hẳn với những mẹo vặt đổi lấy một lần duy nhất.</p>'
+      html: '<p>Không đo thì không biết, và người mớ
+i thường đo sai cách: nhìn kim đồng hồ nhấp nhô rồi kết luận. Cách chuẩn chỉ có một: đổ đầy bình, ghi số đồng hồ; đi hết tuần như thường lệ; đổ đầy lại và ghi số mới. Quãng đường cả tuần chia số lít vừa đổ chính là mức tiêu thụ. Làm liên tiếp ba bốn tuần để có mức nền vững, vì mưa, chở đồ, đổi tuyến đều làm số nhấp nhô; một số đo đơn lẻ chưa kết luận được điều gì.</p>\\n<p>Sau khi có mức nền, đặt mục tiêu khiêm tốn: giảm năm tới mười phần trăm, và mỗi tuần chỉ đổi đúng một thói quen. Tuần này tập nhả ga sớm trước đèn đỏ, tuần sau mới tập giữ đều, tuần kế mới chỉnh áp suất lốp. Đổi nhiều thứ một lúc thì không biết thứ nào có tác dụng và dễ nản khi số không giảm. Cứ mỗi tuần một việc, mỗi việc giữ lại rồi cộng thêm việc mới; sau một hai tháng, mức tiết kiệm là tổng của nhiều thay đổi nhỏ chứ không phải một phép màu nào.</p>\\n<p>Cuối cùng, hãy tự so với chính mình thay vì so với xe khác. Mỗi xe có tuổi máy, dòng máy và kiểu đi riêng; xe số cũ tiết kiệm hơn xe tay ga là chuyện bình thường, và xe chở hai người tốn hơn xe đi một cũng vậy. Người mới giữ được mức của mình giảm dần qua các tuần là đang đi đúng đường, và mức đó sẽ tự ổn định thành thói quen. Khoản để lại mỗi tháng không lớn ngay, nhưng nó đều đặn, và đó chính là cách tiết kiệm thật sự khác hẳn với những mẹo vặt đổi lấy một lần duy nhất.</p>'
     }
   ],
   checklist:   [
@@ -62,6 +66,7 @@ module.exports = {
     'Dọn đồ thừa khỏi yên, cốp và móc treo; mỗi ký bớt là xăng bớt.',
     'Gộp nhiều việc thành một vòng đi thay vì từng chuyến rời.',
     'Đổ đầy, ghi số đồng hồ, đổ lại đầy sau một tuần và chia để ra mức tiêu thụ của mình.'
+
   ],
   warnings:   [
     'Không chạy xe quá chậm trên làn nhanh để tiết kiệm; vừa cản trở dòng xe vừa nguy hiểm cho chính mình.',
@@ -80,9 +85,9 @@ module.exports = {
   ],
   related:   [
     'tiet-kiem-xang',
-    'ky-thuat-tiet-kiem-xang',
+    'toc-do-tiet-kiem',
     'xe-hao-xang',
-    'meo-bao-duong',
+    'cham-soc-xe-may',
     'meo-lai-xe'
   ]
 };

@@ -33,28 +33,32 @@ module.exports = {
   ],
   sections: [
     {
-      h2: 'Vặn ga đều: nền của mọi mẹo lái xe',
+      h2: 'Vặn ga đều: nền của mọi m
+ẹo lái xe',
       html: `<p>Đi xe êm hay giật phụ thuộc lớn nhất vào bàn tay phải. Vặn ga giật cục làm xe lao tới đột ngột, xích tải giật, người ngồi sau ngả theo và tay lái bị kéo lệch. Mẹo đầu tiên: vặn ga như vặn vòi nước, tăng ga bằng quãng cổ tay ngắn, nhiều nấc nhỏ thay vì một nấc lớn. Khi cần tăng tốc để vượt, bắt đầu nhả ga trước một nhịp, về số nếu cần, rồi tăng ga đều trong hai ba giây. Xe tăng tốc mượt giữ được lực bám bánh sau, giữ tư thế người trên xe và đặc biệt an toàn trên đường ướt.</p>
 <p>Nhả ga cũng là kỹ thuật: buông tuột bàn ga khiến xe hãm bằng động cơ đột ngột, xe sau không lường được tốc độ của bạn giảm nhanh. Thay vào đó nhả ga theo nấc, kết hợp quan sát gương, để đèn phanh không bật nhưng tốc độ giảm dần đẹp. Thói quen ga đều giúp xe tiết kiệm xăng đáng kể vì động cơ tránh vùng tua giật, và giúp bộ ly hợp hay bộ truyền xe tay ga bền hơn hẳn. Nếu phải tóm lại chỉ một mẹo cho người mới, thì đó là: mọi chuyển động của cổ tay phải đều diễn biến từ tốn.</p>
 <p>Một chi tiết ít ai để ý: vị trí cổ tay khi vặn ga. Cổ tay gập quá khiến quãng vặn ngắn, thao tác trở nên giật vì mỗi milimet cổ tay ứng với nhiều ga. Đặt cổ tay thoải mái, quãng vặn dài, bạn điều khiển được độ tăng tốc mịn hơn. Khi đi đường dài, thỉnh thoảng bóp nhẹ nắm tay trái để máu lưu thông, đổi tư thế hai bàn chân để tránh tê. Ga đều không chỉ là mẹo an toàn, nó là dấu hiệu của người cầm lái trưởng thành: xe của họ trôi nhẹ như quả bóng được dẫn chứ không bị ném.</p>`,
     },
     {
       h2: 'Phanh sớm và phối hợp: kỹ thuật giữ xe vững',
-      html: `<p>Mẹo phanh số một là phanh sớm. Cùng một tốc độ, phanh từ xa với lực nhẹ cho bạn thời gian quan sát, điều chỉnh và giữ hướng; phanh sát vạch với lực mạnh chỉ cho bạn một lựa chọn: cầu may. Hãy đọc đèn đỏ từ xa và bắt đầu nhả ga, để xe trôi dần bằng ma sát và phanh động cơ, chỉ chạm phanh thật ở đoạn cuối. Kỹ thuật này còn bảo vệ má phanh, đĩa phanh và lốp, vì bộ phanh làm việc ở nhiệt độ thấp sẽ bền gấp đôi so với bộ phanh bị hâm nóng mỗi ngày.</p>
+      html: `<p>Mẹo phanh số một là phanh sớm. Cùng một tốc độ, phanh từ xa với lực nhẹ cho bạn thời gian quan sát, điều chỉnh và giữ hướng; phanh sát vạch với lực mạnh chỉ cho bạn một lựa chọn: cầu may. Hãy đọc đèn đỏ từ xa và bắt đầu nhả ga, để xe trôi dần bằng ma sát và phanh động cơ, chỉ chạm phanh thật ở đoạn cuối. Kỹ thuật này còn bảo vệ má phanh, đĩa phanh và lốp, vì bộ phanh làm việc ở nhiệt độ thấp sẽ bền gấp đôi so với bộ phanh bị hâm nóng 
+mỗi ngày.</p>
 <p>Phối hợp hai phanh theo tỷ lệ thay đổi theo tình huống: trên đường khô, dồn lực phanh về bánh trước nhiều hơn vì trọng lượng dồn về trước khi giảm tốc; trên đường ướt, rải sỏi hoặc vào cua, ưu tiên phanh sau và giảm lực phanh trước để tránh trượt ngã. Bóp phanh như bóp cọng mì: đầu ngón tăng lực dần dần để bánh xe kịp nhún và bám, không tóm chết cầm phanh một nhát. Mắt giữ nhìn thẳng điểm cần dừng, không nhìn xuống bánh xe, vì xe đi theo hướng mắt nhìn.</p>
 <p>Phanh cũng là ngôn ngữ: đèn phanh bật sớm báo cho người sau biết bạn đang giảm tốc, giúp họ giữ khoảng cách. Vì thế, trong lúc sắp qua ổ gà hay gờ giảm tốc, một cú chạm phanh nhẹ trước rồi nhả, rồi mới vượt chướng ngại, vừa giảm tốc vừa phát tín hiệu cho xe phía sau. Người đi chung xe nên thống nhất trước một tín hiệu nhẹ khi ngả người, để người sau không bị bất ngờ. Người mới nên tập cảm giác này tại chỗ: dựng một cột mốc, tập phanh từ tốc độ ba mươi cây số sao cho dừng vừa khít trước mốc, lặp lại cho tới khi cơ thịt nhớ quãng phanh của chính mình.</p>`,
     },
     {
       h2: 'Vào cua đúng cách: chậm vào, nhanh ra',
       html: `<p>Công thức vào cua của mọi tay đua và người đi đường đều giống nhau: chậm vào, nhanh ra. Tất cả việc giảm tốc phải hoàn tất trước khi xe nghiêng vào cua; phanh giữa cua làm lốp mất lực bám ngang và xe dễ trượt dài. Đọc cua từ xa: nhìn điểm vào cua, rồi hướng mắt tới điểm thoát để vẽ quỹ đạo trong đầu; tay lái theo mắt, thân người nghiêng cùng xe thay vì giữ thân thẳng cứng. Với cua trái có nhà che, vào sát mép phải làn để mở tầm nhìn sớm nhất; với cua phải, vào hơi rộng để tránh vệt sơn giữa đường thường phủ rêu trơn.</p>
-<p>Trong cua giữ ga đều nhẹ, cảm giác như đang xoa ga chứ không kéo ga; nếu cần giảm thêm thì nhả ga từ tốn, tuyệt đối không bóp phanh trước. Khi tầm nhìn mở ra ở đoạn thoát cua, mới tăng ga dần để xe ưỡn ra thẳng. Xe máy nhỏ gọn nên góc nghiêng an toàn khá lớn, nhưng người mới nên giới hạn nghiêng nhẹ: nếu cảm thấy cần nghiêng sâu mới qua kịp, vấn đề không nằm ở góc nghiêng mà ở tốc độ vào cua quá nhanh. Luôn giảm trước, không bao giờ mớm phanh giữa cua.</p>
+<p>Trong cua giữ ga đều nhẹ, cảm giác như đang xoa ga chứ không kéo ga; nếu cần giảm thêm thì nhả ga từ tốn, tuyệt đối không bóp phanh trước. Khi tầm nhìn mở ra ở đoạn thoát cua, mới tăng ga dần để xe ưỡn ra thẳng. Xe máy nhỏ gọn nên góc nghiêng an toàn khá lớn, nhưng người mới nên giới hạn nghiêng nhẹ: nếu cảm thấy cần nghiêng sâu mới qua kịp, vấ
+n đề không nằm ở góc nghiêng mà ở tốc độ vào cua quá nhanh. Luôn giảm trước, không bao giờ mớm phanh giữa cua.</p>
 <p>Mẹo nhỏ cho cua trên đường núi: cua chữ tóc thường hai tầng, nhìn qua mép ngoài để đo bán kính thật trước khi cam kết. Cua xuống dốc còn nặn thêm lực quán tính, nên giảm số và dùng phanh động cơ trước, phanh nhẹ nhàng suốt cua thay vì dồn lực một điểm để bộ phanh không bị nóng mòn giữa dốc dài. Khi bị xe lớn che tầm nhìn trong cua, chậm lại để xe đó thoát cua trước rồi hãy đọc tiếp quãng đường còn lại. Mỗi cua qua êm là một lần luyện tập: sau chuyến đi, thử nhớ lại cua nào mình vào nhanh quá, và điều đó dạy nhiều hơn bất kỳ bài lý thuyết nào về lực hướng tâm.</p>`,
     },
     {
       h2: 'Quan sát liên tục: mắt đi trước xe một nhịp',
       html: `<p>Người lái giỏi khác người lái thường ở chỗ mắt của họ. Mẹo quan sát đầu tiên: đừng nhìn vào đuôi xe ngay trước, hãy nhìn qua, quanh và qua lại vai tài xế đó để thấy đèn đỏ, người băng đường hay ổ gà sớm hơn hai ba giây. Hai ba giây đó chính là khoảng thời gian phản ứng mà bạn vừa tự tặng cho mình. Vòng quan sát chuẩn là: xa phía trước, xe ngay trước, gương trái, đồng hồ, gương phải, rồi lại xa phía trước, lặp theo chu kỳ mười lăm giây hoặc ngắn hơn trong đô thị đông.</p>
 <p>Gương chỉ hữu dụng khi được chỉnh đúng: hai góc xiên sau, mép ngoài xe chiếm khoảng một phần tư mặt gương; gương chỉnh tới mức chỉ thấy trời là chỉnh sai. Nhưng gương không thay được việc liếc vai: trước khi đổi làn, liếc vai để phủ khoảng gương không soi tới. Mẹo cho ngã tư: nhìn hai hướng hai lần, vì xe từ xa trong lần nhìn thứ hai có thể tới bất ngờ. Với người đi bộ, nhìn mắt họ thay vì nhìn thân người; người sắp băng đường thường nhìn xe trước một nhịp, và bạn sẽ đọc được ý định đó.</p>
-<p>Quan sát còn bao gồm nghe: tiếng động cơ xe gần, tiếng còi, tiếng xe tải phanh đều là tín hiệu cảnh báo sớm, tai nghe sẽ cắt đứt kênh này. Giữ kính mũ sạch và lau nhẹ mỗi lần dừng đèn đỏ nếu trời mưa. Cuối cùng, quan sát không chỉ ra xung quanh mà còn xuống mặt đường: vệt dầu, vạch sơn, nắp cống, cát đá vụn góc cua đều là bẫy trượt kinh điển. Mắt chăm chỉ hơn tay lái chính là mẹo lớn nhất mà các bác tài lâu năm luôn nhắc học trò.</p>`,
+<p>Quan sát còn bao gồm nghe: tiếng động cơ xe gần, tiếng còi, tiếng xe tải phanh đều là tín hiệu cảnh báo sớm, tai nghe sẽ cắt đứt kênh này. Giữ kính mũ sạch và lau nhẹ mỗi lần dừng đèn đỏ nếu trời mưa. Cuối cùng, quan sát không chỉ ra xung quanh m
+à còn xuống mặt đường: vệt dầu, vạch sơn, nắp cống, cát đá vụn góc cua đều là bẫy trượt kinh điển. Mắt chăm chỉ hơn tay lái chính là mẹo lớn nhất mà các bác tài lâu năm luôn nhắc học trò.</p>`,
     },
     {
       h2: 'Giữ bình tĩnh: mẹo tâm lý ít ai nhắc',
@@ -66,7 +70,8 @@ module.exports = {
   checklist: [
     'Vặn ga theo nấc nhỏ, nhiều bước; không vặn giật một nhát khi khởi hành hay vượt xe.',
     'Phanh sớm từ khi thấy đèn đỏ, đèn vàng hay chướng ngại ở xa; phanh nhẹ tăng dần, không tóm chết.',
-    'Phối hợp hai phanh: dồn lực về trước trên đường khô, ưu tiên phanh sau khi ướt hoặc vào cua.',
+    'Phối hợp hai phanh: dồn lực về
+ trước trên đường khô, ưu tiên phanh sau khi ướt hoặc vào cua.',
     'Giảm hết tốc trước cua, giữ ga đều giữa cua, chỉ tăng ga khi tầm nhìn thoát cua mở ra.',
     'Chỉnh gương thấy hai góc xiên sau; quét gương theo chu kỳ và liếc vai trước khi đổi làn.',
     'Nhìn qua vai xe phía trước thay vì nhìn đuôi xe; quan sát mặt đường tìm vệt dầu, sơn, cát đá.',
@@ -93,6 +98,7 @@ module.exports = {
     'vao-cua-an-toan',
     'phanh-khan-cap',
     'met-moi-khi-lai',
-    'ky-thuat-di-xe-may-trong-gio-lon'
+    'ky-thuat-di-xe-may-trong-gio-lon',
+    'an-toan-xe-may'
   ],
 };

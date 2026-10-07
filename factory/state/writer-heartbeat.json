@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-06T19:18:16.500Z",
- "phase": "waiting-publish",
- "pair": "S00413-S00422",
- "note": "queue S00413-S00422 written 10/10 pairs pushed: S00413-S00414 (an-toan-xe-may, meo-lai-xe), S00415-S00416 (lai-xe-em, lai-xe-do-met), S00417-S00418 (meo-vao-cua, lai-xe-an-toan), S00419-S00420 (tiet-kiem-xang, toc-do-tiet-kiem), S00421-S00422 (giam-hao-xang, ep-xe-dung-cach); verify-sources OK per pair; awaiting factory publish write-ahead queue"
+ "at": "2026-10-07T05:45:43.079Z",
+ "phase": "writing",
+ "pair": "S00423,S00424",
+ "note": "resume sau lite migration: repair batch queue-10 (S00413-S00418,S00420-S00422: fix G7 related links S00420-22, them cluster links; verify-batch OK) — push de Factory Publish Lite flush 9 bài backlog; tiep tuc viet queue 11 S00423-S00432"
 }
