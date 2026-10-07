@@ -1626,6 +1626,12 @@ function main() {
         console.error('BỎ topic ' + t.slug + ': ' + e.message);
       }
     }
+    if (added === 0) {
+      console.log('QUEUE_REFILL added=0 planned=' + planned +
+        ' (floor ' + runtime.QUEUE_REFILL_FLOOR + ', target ' + runtime.QUEUE_REFILL_TARGET +
+        ') — không còn topic tự do, KHÔNG ghi state.');
+      return;
+    }
     validateMatrix(m);
     saveMatrix(m);
     saveState(loadState(), 'queue-refill:+' + added);
