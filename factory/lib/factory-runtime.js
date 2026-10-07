@@ -89,6 +89,15 @@ function classifyProductionState(ctx) {
   };
   if (escalated.length) out.reasons.push('error-escalated: Đốc công 2 đã thử ' + DOCONG2_MAX_ATTEMPTS + '+ lần — cần Đốc công 3');
   if (open.length) out.reasons.push('error-open: ' + open.length + ' lỗi chưa giải quyết');
+  // Khi caller đã cung cấp snapshot queue và cả hai đều rỗng, production đã
+  // hoàn tất. Heartbeat cũ của một phiên writer trước đó không được biến IDLE
+  // thành STALLED. Lỗi escalated vẫn được giữ trong out.escalated để liveness fail.
+  const hasQueueSnapshot = Number.isFinite(o.waitingForWriter) || Number.isFinite(o.claimableBacklog);
+  const queueEmpty = hasQueueSnapshot && Number(o.waitingForWriter || 0) === 0 && Number(o.claimableBacklog || 0) === 0;
+  if (queueEmpty && phase !== 'error') {
+    out.phase = 'idle';
+    return out;
+  }
   if (!hb) {
     // Writer chưa từng báo heartbeat: nếu còn slot chờ writer thì là
     // WAITING_WRITER (không phải đứng); hết queue thì IDLE.
