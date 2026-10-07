@@ -54,3 +54,14 @@ Nguồn topic vẫn là giới hạn độc lập: capacity 20.000 không tự s
 Mất session: fetch fresh main → recover-txn → writer-next. Không force push, không reset matrix, không tái sử dụng ID/slug, không bypass QA.
 
 GitHub Actions không tự viết prose và không thể đánh thức một Mistral session đã chết; writer vẫn là phiên AI ngoài.
+
+
+## Mistral one-command writer
+
+Mistral nên bắt đầu mỗi vòng bằng:
+
+`node factory/factory.js writer-pack --count 10`
+
+Runbook đầy đủ: `docs/MISTRAL-WRITER.md`.
+
+Không tự chọn ID, không tự bịa internal-link slug. `writer-pack` trả file path, intent và related PUBLISHED; `verify-batch` + Factory Publish Lite chịu trách nhiệm QA/publish/404 gate.
