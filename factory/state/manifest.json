@@ -1656,6 +1656,14 @@
   "kind": "article"
  },
  {
+  "rel": "news/chinh-sach-phap-ly/chinh-sach-dang-ky-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/xe-dien/chinh-sach-xe-dien/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/index.html",
   "kind": "article"
  },
@@ -1789,6 +1797,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/ep-xe-dung-cach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/gia-xe/gia-xe-hom-nay/index.html",
   "kind": "article"
  },
  {
@@ -1960,6 +1972,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/xe-moi/mau-xe-moi-viet-nam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/van-de-thuong-gap/may-i/index.html",
   "kind": "article"
  },
@@ -2001,6 +2017,10 @@
  },
  {
   "rel": "tips/meo-mua-xe/mua-xe-tra-gop/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/chinh-sach-phap-ly/nghi-dinh-giao-thong/index.html",
   "kind": "article"
  },
  {
@@ -2052,6 +2072,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/chinh-sach-phap-ly/quy-dinh-xe-may-moi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/quy-tac-giao-thong/index.html",
   "kind": "article"
  },
@@ -2065,6 +2089,10 @@
  },
  {
   "rel": "docs/quy-trinh-bao-duong/quy-trinh-thay-dau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/xe-moi/ra-mat-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -2140,6 +2168,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/chinh-sach-phap-ly/thay-doi-luat-giao-thong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/thay-lop-khi-nao/index.html",
   "kind": "article"
  },
@@ -2180,6 +2212,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/xe-dien/tin-xe-dien/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-duong-dai/toc-do-duong-truong/index.html",
   "kind": "article"
  },
@@ -2189,6 +2225,10 @@
  },
  {
   "rel": "docs/thong-so-ky-thuat/tra-cuu-thong-so/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/xe-dien/tram-sac-xe-dien/index.html",
   "kind": "article"
  },
  {

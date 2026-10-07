@@ -7038,11 +7038,13 @@
    "title": "Kinh nghiệm mẫu xe mới việt nam dành cho người mới",
    "primaryIntent": "informational/mau-xe-moi-viet-nam",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 91,
+   "words": 1843
   },
   {
    "id": "S00474",
@@ -7051,11 +7053,13 @@
    "title": "Ra mắt xe máy — những điều cần biết",
    "primaryIntent": "informational/ra-mat-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 91,
+   "words": 1852
   },
   {
    "id": "S00475",
@@ -7064,11 +7068,13 @@
    "title": "Hướng dẫn chi tiết về tin xe điện",
    "primaryIntent": "informational/tin-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 91,
+   "words": 1866
   },
   {
    "id": "S00476",
@@ -7077,11 +7083,13 @@
    "title": "Tổng hợp kiến thức: trạm sạc xe điện",
    "primaryIntent": "informational/tram-sac-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 100,
+   "words": 1836
   },
   {
    "id": "S00477",
@@ -7090,11 +7098,13 @@
    "title": "Kinh nghiệm chính sách xe điện dành cho người mới",
    "primaryIntent": "informational/chinh-sach-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 100,
+   "words": 1994
   },
   {
    "id": "S00478",
@@ -7103,11 +7113,13 @@
    "title": "Quy định xe máy mới — những điều cần biết",
    "primaryIntent": "informational/quy-dinh-xe-may-moi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 100,
+   "words": 1923
   },
   {
    "id": "S00479",
@@ -7116,11 +7128,13 @@
    "title": "Hướng dẫn chi tiết về nghị định giao thông",
    "primaryIntent": "informational/nghi-dinh-giao-thong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 100,
+   "words": 1993
   },
   {
    "id": "S00480",
@@ -7129,11 +7143,13 @@
    "title": "Tổng hợp kiến thức: chính sách đăng ký xe",
    "primaryIntent": "informational/chinh-sach-dang-ky-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 100,
+   "words": 2016
   },
   {
    "id": "S00481",
@@ -7142,11 +7158,13 @@
    "title": "Kinh nghiệm thay đổi luật giao thông dành cho người mới",
    "primaryIntent": "informational/thay-doi-luat-giao-thong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 100,
+   "words": 1900
   },
   {
    "id": "S00482",
@@ -7155,11 +7173,13 @@
    "title": "Giá xe hôm nay — những điều cần biết",
    "primaryIntent": "informational/gia-xe-hom-nay",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T08:00:24.204Z",
+   "seoScore": 91,
+   "words": 1859
   },
   {
    "id": "S00483",

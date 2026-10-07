@@ -9037,6 +9037,52 @@
  },
  {
   "kind": "article",
+  "url": "news/chinh-sach-phap-ly/chinh-sach-dang-ky-xe/",
+  "title": "Tổng hợp kiến thức: chính sách đăng ký xe",
+  "description": "Tổng hợp chính sách đăng ký xe máy: đăng ký xe mới, sang tên, cấp lại giấy tờ, lệ phí và các thay đổi về thủ tục trực tuyến người dùng cần nắm rõ.",
+  "category": "Tin tức",
+  "hub": "Chính sách pháp lý",
+  "entities": [
+   "đăng ký xe",
+   "sang tên xe",
+   "biển số định danh",
+   "chứng từ nguồn gốc xe",
+   "dịch vụ công trực tuyến"
+  ],
+  "keywords": [
+   "chinh sach dang ky xe",
+   "dang ky xe may",
+   "sang ten xe may",
+   "bien so dinh danh",
+   "thu tuc dang ky xe"
+  ],
+  "summary": "Đăng ký xe là bước pháp lý biến một chiếc xe thành tài sản hợp pháp của bạn, nhưng chính sách quanh nó gồm nhiều mảnh ghép: đăng ký lần đầu cho xe mới, sang tên khi mua bán xe cũ, cấp lại giấy tờ khi hư hỏng hoặc thất lạc, thu hồi khi thanh lý, và từng nhóm xe"
+ },
+ {
+  "kind": "article",
+  "url": "news/xe-dien/chinh-sach-xe-dien/",
+  "title": "Kinh nghiệm chính sách xe điện dành cho người mới",
+  "description": "Chính sách xe điện tại Việt Nam gồm ưu đãi đăng ký, quy chuẩn kỹ thuật và hỗ trợ hạ tầng: người mới cần biết gì để tận dụng đúng và không hiểu sai hiệu lực.",
+  "category": "Tin tức",
+  "hub": "Xe điện",
+  "entities": [
+   "chính sách xe điện",
+   "lệ phí trước bạ",
+   "quy chuẩn kỹ thuật",
+   "hạ tầng trạm sạc",
+   "đăng ký xe điện"
+  ],
+  "keywords": [
+   "chinh sach xe dien",
+   "uu dai xe dien",
+   "le phi truoc ba xe dien",
+   "dang ky xe dien",
+   "quy chuan xe dien"
+  ],
+  "summary": "Chính sách xe điện là nhóm quy định và ưu đãi của nhà nước nhằm thúc đẩy chuyển đổi từ xe xăng sang xe điện: ưu đãi lệ phí trước bạ khi đăng ký, quy chuẩn kỹ thuật về pin và an toàn, quy định về trạm sạc và điện sử dụng, cùng các lộ trình hạn chế dần phương ti"
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/",
   "title": "Chở người ngồi sau an toàn: từ cách lên xe đến xuống xe",
   "description": "Chở người ngồi sau làm thay đổi trọng tâm, quãng phanh và độ ổn định của xe máy. Hướng dẫn này dạy cách lên – xuống xe, tư thế ngồi đúng, liên lạc giữa hai người và xử lý các tình huống thường gặp.",
@@ -9860,6 +9906,29 @@
    "xe may chay ep"
   ],
   "summary": "Ép xe đúng cách — những điều cần biết cho ai hay nghe dân đi đường nói xe yếu thì đem ra chạy ép. Chạy ép nghĩa là đưa máy lên vùng tua cao trong thời gian ngắn trên đường thoáng, để nhiệt độ và dòng khí mạnh đánh bật phần muội than bám nhẹ trong buồng đốt, tr"
+ },
+ {
+  "kind": "article",
+  "url": "news/gia-xe/gia-xe-hom-nay/",
+  "title": "Giá xe hôm nay — những điều cần biết",
+  "description": "Giá xe máy hôm nay thay đổi theo đại lý, thời điểm và khuyến mãi. Hướng dẫn đọc bảng giá, so sánh báo giá thật và chọn thời điểm mua hợp lý.",
+  "category": "Tin tức",
+  "hub": "Giá xe",
+  "entities": [
+   "giá xe máy",
+   "giá đề xuất",
+   "lệ phí trước bạ",
+   "khuyến mãi",
+   "báo giá đại lý"
+  ],
+  "keywords": [
+   "gia xe hom nay",
+   "gia xe may moi",
+   "phi la banh xe may",
+   "khuyen mai xe may",
+   "thoi diem mua xe"
+  ],
+  "summary": "Tra \"giá xe hôm nay\" và bạn sẽ nhận ra một sự thật: không có một con số duy nhất. Cùng một mẫu xe, mỗi đại lý báo một giá, mỗi tỉnh một mức lăn bánh, mỗi tháng một đợt khuyến mãi — và bảng giá niêm yết trên website hãng chỉ là khởi điểm của thương lượng, không"
  },
  {
   "kind": "article",
@@ -10864,6 +10933,29 @@
  },
  {
   "kind": "article",
+  "url": "news/xe-moi/mau-xe-moi-viet-nam/",
+  "title": "Kinh nghiệm mẫu xe mới việt nam dành cho người mới",
+  "description": "Mẫu xe mới ra mắt tại Việt Nam nên nhìn thế nào: xe Việt Nam và xe quốc tế, cách chọn mẫu mới phù hợp người mới, và những điều nên kiểm tra trước khi mua.",
+  "category": "Tin tức",
+  "hub": "Xe mới",
+  "entities": [
+   "mẫu xe mới",
+   "thị trường xe Việt Nam",
+   "hãng xe trong nước",
+   "giá lăn bánh",
+   "chính sách bảo hành"
+  ],
+  "keywords": [
+   "mau xe moi viet nam",
+   "xe may moi viet nam",
+   "chon xe moi",
+   "hang xe viet nam",
+   "mua xe may moi"
+  ],
+  "summary": "Thị trường Việt Nam mỗi năm đón hàng loạt mẫu xe mới: từ các phiên bản làm mới của dòng xe số và xe ga quen thuộc tới những mẫu xe điện lần đầu xuất hiện, và ngày càng nhiều sản phẩm do các hãng trong nước phát triển, sản xuất hoặc lắp ráp. Với người mới lần đ"
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/may-i/",
   "title": "Hướng dẫn chi tiết về máy ì",
   "description": "Vì sao xe máy bị ì máy, kém ga, hao xăng: nguyên nhân từ lọc gió, bugi, xăng, chuột cống và cách kiểm tra xử lý từng bước cho người mới.",
@@ -11120,6 +11212,29 @@
    "hop dong tra gop xe may"
   ],
   "summary": "Hướng dẫn chi tiết về mua xe trả góp — trả góp biến một khoản chi lớn thành nhiều khoản nhỏ, và đổi lại người mua trả một khoản phụ gọi là lãi cùng một loạt khoản phí; hiểu rõ toàn bộ cấu trúc đó trước khi ký là ranh giới giữa một khoản vay hợp lý và một gói h"
+ },
+ {
+  "kind": "article",
+  "url": "news/chinh-sach-phap-ly/nghi-dinh-giao-thong/",
+  "title": "Hướng dẫn chi tiết về nghị định giao thông",
+  "description": "Nghị định giao thông là văn bản quyết định mức phạt, giấy tờ và quy tắc chạy xe hằng ngày. Hướng dẫn đọc đúng điều khoản, tra hiệu lực và cập nhật thay đổi an toàn.",
+  "category": "Tin tức",
+  "hub": "Chính sách pháp lý",
+  "entities": [
+   "nghị định giao thông",
+   "luật giao thông đường bộ",
+   "văn bản hợp nhất",
+   "mức xử phạt",
+   "hiệu lực văn bản"
+  ],
+  "keywords": [
+   "nghi dinh giao thong",
+   "xu phat giao thong",
+   "van ban hieu luc",
+   "quy tac chay xe",
+   "luat giao thong duong bo"
+  ],
+  "summary": "Khi ngồi lên yên xe, hầu hết quy tắc bạn phải tuân theo không nằm trong luật mà nằm trong các nghị định giao thông: tốc độ tối đa theo loại đường, mũ bảo hiểm đạt chuẩn, giấy tờ mang theo, nồng độ cồn, và cả mức xử phạt khi vi phạm. Nghị định là văn bản chính "
  },
  {
   "kind": "article",
@@ -11417,6 +11532,29 @@
  },
  {
   "kind": "article",
+  "url": "news/chinh-sach-phap-ly/quy-dinh-xe-may-moi/",
+  "title": "Quy định xe máy mới — những điều cần biết",
+  "description": "Quy định liên quan tới xe máy mới tại Việt Nam: thủ tục đăng ký, đăng kiểm, quy chuẩn khí thải và những thay đổi người mua xe mới cần nắm để không bị bất ngờ.",
+  "category": "Tin tức",
+  "hub": "Chính sách pháp lý",
+  "entities": [
+   "đăng ký xe",
+   "biển số xe",
+   "bảo hiểm bắt buộc",
+   "quy chuẩn khí thải",
+   "mũ bảo hiểm đạt chuẩn"
+  ],
+  "keywords": [
+   "quy dinh xe may moi",
+   "dang ky xe may moi",
+   "dang kiem xe may",
+   "bao hiem xe may",
+   "quy chuan khi thai"
+  ],
+  "summary": "Mua một chiếc xe máy mới ngày này kéo theo một chuỗi quy định mà người mua cần nắm: quy định về đăng ký xe và cấp biển số, quy chuẩn kỹ thuật về khí thải mà xe mới phải đạt để được sản xuất và lưu hành, quy định về bảo hiểm bắt buộc khi xe lưu thông, cùng các "
+ },
+ {
+  "kind": "article",
   "url": "ride/an-toan-giao-thong/quy-tac-giao-thong/",
   "title": "Hướng dẫn chi tiết về quy tắc giao thông",
   "description": "Quy tắc giao thông cho người đi xe máy: nhường đường và quyền ưu tiên, làn đường, người yếu thế và cách xử lý khi các quy tắc mâu thuẫn thực tế.",
@@ -11506,6 +11644,29 @@
    "do nhot dau dong co"
   ],
   "summary": "Hướng dẫn chi tiết về quy trình thay dầu xe máy — thay dầu là việc bảo dưỡng đều đặn nhất của một chiếc xe, cũng là việc dễ làm đúng nhất nếu hiểu trình tự. Bài viết này trình bày quy trình thay dầu như một chuỗi có logic: chọn đúng dầu trước tiên — loại và độ"
+ },
+ {
+  "kind": "article",
+  "url": "news/xe-moi/ra-mat-xe-may/",
+  "title": "Ra mắt xe máy — những điều cần biết",
+  "description": "Một buổi ra mắt xe máy diễn ra thế nào, thông tin nào đáng tin, giá mở bán hình thành ra sao và người mua nên chờ hay xuống tiền ngay sau lễ ra mắt.",
+  "category": "Tin tức",
+  "hub": "Xe mới",
+  "entities": [
+   "lễ ra mắt",
+   "giá mở bán",
+   "đặt cọc",
+   "phiên bản xe",
+   "thế hệ mới"
+  ],
+  "keywords": [
+   "ra mat xe may",
+   "le ra mat xe",
+   "gioi thieu xe moi",
+   "gia mo ban xe",
+   "dat coc xe may moi"
+  ],
+  "summary": "Lễ ra mắt xe máy là sự kiện quan trọng nhất trong vòng đời một sản phẩm: khoảnh khắc hãng công bố chính thức hình dáng, cấu hình, phiên bản và giá dự kiến của mẫu xe mới trước công chúng. Với giới truyền thông đó là tin; với người đang cần mua xe đó là dữ liệu"
  },
  {
   "kind": "article",
@@ -11929,6 +12090,29 @@
  },
  {
   "kind": "article",
+  "url": "news/chinh-sach-phap-ly/thay-doi-luat-giao-thong/",
+  "title": "Kinh nghiệm thay đổi luật giao thông dành cho người mới",
+  "description": "Luật giao thông thay đổi liên tục: mức phạt, mũ bảo hiểm, nồng độ cồn, giấy tờ. Kinh nghiệm cập nhật đúng, tránh tin đồn và áp sai bản quy định.",
+  "category": "Tin tức",
+  "hub": "Chính sách pháp lý",
+  "entities": [
+   "luật giao thông",
+   "mức phạt mới",
+   "mũ bảo hiểm đạt chuẩn",
+   "ngưỡng nồng độ cồn",
+   "ngày hiệu lực"
+  ],
+  "keywords": [
+   "thay doi luat giao thong",
+   "luat giao thong moi",
+   "muc phat giao thong",
+   "cap nhat luat xe may",
+   "quy dinh moi"
+  ],
+  "summary": "Đi xe trong vài năm gần đây, chắc hẳn bạn đã ít nhất một lần nghe \"luật mới\" mà không rõ mới từ đâu: mức phạt tăng, mũ bảo hiểm siết chuẩn, quy định cồn thêm ngưỡng mới, hoặc loại xe điện được điều chỉnh thêm. Luật giao thông thay đổi là chuyện bình thường — p"
+ },
+ {
+  "kind": "article",
   "url": "wiki/lop-banh-xe/thay-lop-khi-nao/",
   "title": "Tổng hợp kiến thức: thay lốp khi nào",
   "description": "Khi nào phải thay lốp xe máy: chỉ báo mòn TWI, tuổi lốp, nứt thành, phồng, mòn lệch, đâm hông — tổng hợp các dấu hiệu và ngưỡng để quyết định thay đúng lúc.",
@@ -12165,6 +12349,29 @@
  },
  {
   "kind": "article",
+  "url": "news/xe-dien/tin-xe-dien/",
+  "title": "Hướng dẫn chi tiết về tin xe điện",
+  "description": "Tin xe điện ngày càng nhiều: cách chọn lọc nguồn đáng tin, phân biệt công bố chính thức với tin đồn, và biến tin tức thành dữ liệu hữu ích khi mua xe điện.",
+  "category": "Tin tức",
+  "hub": "Xe điện",
+  "entities": [
+   "tin xe điện",
+   "nguồn tin đáng tin",
+   "dữ liệu bán hàng",
+   "trạm sạc",
+   "chính sách ưu đãi"
+  ],
+  "keywords": [
+   "tin xe dien",
+   "tin tuc xe dien",
+   "xe dien viet nam tin",
+   "nguon tin xe dien",
+   "xu huong xe dien"
+  ],
+  "summary": "Sóng tin xe điện hiện dày hơn bao giờ hết: hàng tuần có tin mẫu mới, dữ liệu bán hàng, thông báo hạ tầng trạm sạc, chính sách ưu đãi, và không ít mâu thuẫn giữa các bài viết — một nơi khẳng định xe điện đã bùng nổ, nơi khác lên tiếng về trụ sạc chưa phủ đều. V"
+ },
+ {
+  "kind": "article",
   "url": "ride/lai-xe-duong-dai/toc-do-duong-truong/",
   "title": "Tổng hợp kiến thức: tốc độ đường trường",
   "description": "Tổng hợp kiến thức về tốc độ đường trường: chọn vận tốc theo mặt đường, tầm nhìn, mật độ xe và thể trạng; giữ ga đều, chậm đúng lúc và vượt an toàn.",
@@ -12231,6 +12438,29 @@
    "ma bugi xe may"
   ],
   "summary": "Tra cứu thông số — những điều cần biết khi bạn cần con số đúng của chiếc xe mình. Người cưỡi tra cứu thông số trong ba tình huống lớn: khi mua phụ tùng — cỡ lốp, loại bugi, độ nhớt nhớt đúng; khi bảo dưỡng — kỳ thay, loại phụ tùng khuyến nghị, áp suất chuẩn; v"
+ },
+ {
+  "kind": "article",
+  "url": "news/xe-dien/tram-sac-xe-dien/",
+  "title": "Tổng hợp kiến thức: trạm sạc xe điện",
+  "description": "Trạm sạc xe điện gồm những loại nào, sạc nhanh khác sạc thường ra sao, hạ tầng trạm sạc tại Việt Nam đang rộng tới đâu và dùng trạm sạc thế nào cho hiệu quả.",
+  "category": "Tin tức",
+  "hub": "Xe điện",
+  "entities": [
+   "trạm sạc xe điện",
+   "sạc nhanh",
+   "sạc qua đêm",
+   "hạ tầng sạc",
+   "tuổi thọ pin"
+  ],
+  "keywords": [
+   "tram sac xe dien",
+   "sac nhanh xe dien",
+   "ha tang tram sac",
+   "sac o nha xe dien",
+   "chi phi sac xe"
+  ],
+  "summary": "Trạm sạc là mạch máu của trải nghiệm xe điện: mua xe điện mà không có điểm sạc thuận tiện thì mọi ưu điểm chi phí đều trở nên vô nghĩa khi pin báo vẹt giữa đường. Trạm sạc xe điện hai bánh hiện có ba hình thái chính: ổ cắm tại nhà — nơi phần lớn thời gian sạc "
  },
  {
   "kind": "article",
