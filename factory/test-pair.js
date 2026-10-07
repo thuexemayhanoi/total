@@ -470,10 +470,10 @@ console.log('16+17. Change-mode và heavy gate…');
   ok(/test-hardening\.js/.test(deep) && /test-reliability\.js/.test(deep) && /test-pair\.js/.test(deep) && /verify-invariant/.test(deep),
     'factory-deep-audit.yml chạy full heavy gate (hardening/reliability/pair/invariant)');
   const pub = wf('factory-publish.yml');
-  ok(/publish-pair/.test(pub) && /push-scope/.test(pub), 'factory-publish.yml dùng exact push scope (publish-pair + push-scope)');
+  ok(/publish-batch/.test(pub) && /push-scope/.test(pub) && /link-integrity\.js --ids/.test(pub), 'factory-publish.yml dùng exact push scope + batch 1-10 + 404 gate');
   ok(!/drain-iteration/.test(pub) || /workflow_dispatch/.test(pub), 'Publish workflow không còn drain liên tục làm hot path');
   const aq = wf('article-quality.yml');
-  ok(/change-mode/.test(aq) && /verify-sources/.test(aq), 'article-quality.yml phân mode + verify-sources scoped');
+  ok(/Factory Engine Quality/.test(aq) && /test-reliability\.js/.test(aq) && /verify-invariant/.test(aq) && !/factory\/data\/articles\/\*\*/.test(aq), 'article-quality.yml chỉ heavy gate engine; article content không chạy duplicate CI');
 }
 
 // ---------- 18. State thật byte-safe + idempotent ----------
