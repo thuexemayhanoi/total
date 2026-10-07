@@ -270,10 +270,12 @@ function loadAllArticlesBySlug() {
   return _articlesBySlugCache;
 }
 function loadArticleBySlug(slug) {
-  // HOT PATH 20k: đọc đúng module theo slug, không require toàn bộ thư mục.
-  // Full-site/deep-audit vẫn dùng loadAllArticlesBySlug() để fail-loud toàn repo.
+  // HOT PATH 20k: convention bài mới = <slug>.js -> đọc đúng 1 module.
+  // Legacy /total có một số filename lịch sử lệch slug; chỉ khi direct path
+  // không tồn tại mới fallback cache full-scan. Production batch mới không trả
+  // chi phí O(N); deep audit/manual recovery vẫn tương thích toàn bộ bài cũ.
   const file = path.join(__dirname, 'data', 'articles', String(slug || '') + '.js');
-  if (!fs.existsSync(file)) return null;
+  if (!fs.existsSync(file)) return loadAllArticlesBySlug().get(slug) || null;
   let a;
   try {
     a = require(file);
