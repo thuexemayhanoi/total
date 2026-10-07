@@ -6888,11 +6888,13 @@
    "title": "Hướng dẫn chi tiết về tài liệu kỹ thuật xe",
    "primaryIntent": "informational/tai-lieu-ky-thuat-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 100,
+   "words": 2119
   },
   {
    "id": "S00464",
@@ -6901,11 +6903,13 @@
    "title": "Tổng hợp kiến thức: tài liệu tham khảo",
    "primaryIntent": "informational/tai-lieu-tham-khao",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 100,
+   "words": 2092
   },
   {
    "id": "S00465",
@@ -6914,11 +6918,13 @@
    "title": "Kinh nghiệm hướng dẫn chính hãng dành cho người mới",
    "primaryIntent": "informational/huong-dan-chinh-hang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 100,
+   "words": 1918
   },
   {
    "id": "S00466",
@@ -6927,11 +6933,13 @@
    "title": "Sách kỹ thuật xe máy — những điều cần biết",
    "primaryIntent": "informational/sach-ky-thuat-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 100,
+   "words": 2032
   },
   {
    "id": "S00467",
@@ -6940,11 +6948,13 @@
    "title": "Hướng dẫn chi tiết về thị trường xe máy",
    "primaryIntent": "informational/thi-truong-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 91,
+   "words": 2026
   },
   {
    "id": "S00468",
@@ -6953,11 +6963,13 @@
    "title": "Tổng hợp kiến thức: doanh số xe",
    "primaryIntent": "informational/doanh-so-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 91,
+   "words": 1862
   },
   {
    "id": "S00469",
@@ -6966,11 +6978,13 @@
    "title": "Kinh nghiệm thị trường xe điện dành cho người mới",
    "primaryIntent": "informational/thi-truong-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 100,
+   "words": 2011
   },
   {
    "id": "S00470",
@@ -6979,11 +6993,13 @@
    "title": "Cạnh tranh hãng xe — những điều cần biết",
    "primaryIntent": "informational/canh-tranh-hang-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 100,
+   "words": 1941
   },
   {
    "id": "S00471",
@@ -6992,11 +7008,13 @@
    "title": "Hướng dẫn chi tiết về xe mới ra mắt",
    "primaryIntent": "informational/xe-moi-ra-mat",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 91,
+   "words": 1930
   },
   {
    "id": "S00472",
@@ -7005,11 +7023,13 @@
    "title": "Tổng hợp kiến thức: xe mới 2026",
    "primaryIntent": "informational/xe-moi-2026",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.049Z",
-   "updatedAt": "2026-10-03T23:13:26.049Z"
+   "updatedAt": "2026-10-07T07:44:28.958Z",
+   "seoScore": 100,
+   "words": 1964
   },
   {
    "id": "S00473",

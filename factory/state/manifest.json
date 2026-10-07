@@ -1620,6 +1620,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/thi-truong-xe/canh-tranh-hang-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/cau-tao-phanh/index.html",
   "kind": "article"
  },
@@ -1748,6 +1752,10 @@
   "kind": "article"
  },
  {
+  "rel": "news/thi-truong-xe/doanh-so-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/doc-thong-so/doc-thong-so-xe/index.html",
   "kind": "article"
  },
@@ -1845,6 +1853,10 @@
  },
  {
   "rel": "docs/bieu-mau-thu-tuc/hop-dong-thue-xe-mau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/tai-lieu-tham-khao/huong-dan-chinh-hang/index.html",
   "kind": "article"
  },
  {
@@ -2072,6 +2084,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/tai-lieu-tham-khao/sach-ky-thuat-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/piaggio/scooter-y/index.html",
   "kind": "article"
  },
@@ -2112,11 +2128,27 @@
   "kind": "article"
  },
  {
+  "rel": "docs/tai-lieu-tham-khao/tai-lieu-ky-thuat-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/tai-lieu-tham-khao/tai-lieu-tham-khao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/tam-nhin-khi-lai/index.html",
   "kind": "article"
  },
  {
   "rel": "wiki/lop-banh-xe/thay-lop-khi-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/thi-truong-xe/thi-truong-xe-dien/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/thi-truong-xe/thi-truong-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -2269,6 +2301,14 @@
  },
  {
   "rel": "hub/van-de-thuong-gap/xe-may-keu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/xe-moi/xe-moi-2026/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "news/xe-moi/xe-moi-ra-mat/index.html",
   "kind": "article"
  },
  {
