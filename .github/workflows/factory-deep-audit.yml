@@ -1,9 +1,8 @@
 name: Factory Deep Audit (manual only)
 
 # FULL-SITE AUDIT — KHÔNG thuộc production loop. Chỉ chạy khi owner bấm
-# "Run workflow" (workflow_dispatch). Production loop chỉ dùng scoped QA
-# (12-18 bài/cycle, factory.js cycle-qa) — không bao giờ quét lại toàn site
-# trong vòng publish.
+# "Run workflow" (workflow_dispatch). Production loop dùng Factory Lite
+# batch 1-10 + scoped QA/404 gate — không quét lại toàn site trong publish.
 # Bao gồm: sync manifest + rebuild/check SQLite derived cache (coordinator
 # role trên CI), audit >= 70 toàn bộ bài PUBLISHED, full test suites,
 # verify-invariant, generate --check.
@@ -49,7 +48,6 @@ jobs:
           node factory/test-hardening.js
           node factory/test-reliability.js
           node factory/test-pair.js
-          node factory/test-cycle.js
           node factory/test-coordinator.js
 
       - name: Production invariant + sinh cay
