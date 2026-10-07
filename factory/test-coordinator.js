@@ -301,18 +301,32 @@ let T3;
   const tmp = copyRepoToTmp('t3');
   const p = P(tmp);
   const before = { matrix: readB(p.matrix), state: readB(path.join(p.stateDir, 'factory-state.json')), cp: readB(path.join(p.stateDir, 'checkpoint.json')) };
+  const beforeMatrix = JSON.parse(before.matrix.toString('utf8'));
+  const beforePlanned = beforeMatrix.slots.filter(s => s.state === 'PLANNED').length;
   const steps = tick(p);
   ok(steps.recover.status === 0 && /TXN_RECOVER none/.test(steps.recover.stdout), 'Tick bắt đầu: recover-txn sạch');
   ok(allOk(steps), 'Tick nhẹ: mọi bước exit 0', JSON.stringify(Object.fromEntries(Object.entries(steps).map(([k, v]) => [k, v.status]))));
-  ok(/QUEUE_REFILL (none|added=0)/.test(steps.refill.stdout), 'queue-refill không topic tự do -> added=0/none, KHÔNG thêm slot', steps.refill.stdout);
-  ok(readB(p.matrix).equals(before.matrix) &&
-     readB(path.join(p.stateDir, 'factory-state.json')).equals(before.state) &&
-     readB(path.join(p.stateDir, 'checkpoint.json')).equals(before.cp),
-    'Tick rỗng: matrix/factory-state/checkpoint BYTE-IDENTICAL — không commit chỉ vì timestamp');
+  const afterFirstMatrix = JSON.parse(readS(p.matrix));
+  const afterFirstPlanned = afterFirstMatrix.slots.filter(s => s.state === 'PLANNED').length;
+  if (beforePlanned < runtime.QUEUE_REFILL_FLOOR && beforeMatrix.slots.length < beforeMatrix.plannedTarget) {
+    ok(/QUEUE_REFILL added=\d+/.test(steps.refill.stdout) && afterFirstPlanned > beforePlanned,
+      'Topic Factory refill queue khi PLANNED dưới floor', steps.refill.stdout);
+    ok(afterFirstPlanned <= runtime.QUEUE_REFILL_TARGET,
+      'Refill bounded: PLANNED không vượt target queue', String(afterFirstPlanned));
+  } else {
+    ok(/QUEUE_REFILL none/.test(steps.refill.stdout) && afterFirstPlanned === beforePlanned,
+      'Queue đủ -> coordinator không refill', steps.refill.stdout);
+  }
   ok(/PRODUCTION_STATUS phase=/.test(steps.status.stdout), 'Tick báo production-status rõ ràng', steps.status.stdout.split('\n')[0]);
-  // Tick lặp ngay sau: vẫn sạch, vẫn không churn.
+
+  // Snapshot SAU refill hợp lệ. Tick lặp phải idempotent, không phình thêm.
+  const stable = { matrix: readB(p.matrix), state: readB(path.join(p.stateDir, 'factory-state.json')), cp: readB(path.join(p.stateDir, 'checkpoint.json')) };
   const steps2 = tick(p);
-  ok(allOk(steps2) && readB(p.matrix).equals(before.matrix), 'Tick lặp: idempotent, không phình ma trận');
+  ok(allOk(steps2) &&
+     readB(p.matrix).equals(stable.matrix) &&
+     readB(path.join(p.stateDir, 'factory-state.json')).equals(stable.state) &&
+     readB(path.join(p.stateDir, 'checkpoint.json')).equals(stable.cp),
+    'Tick lặp sau refill: idempotent, không phình ma trận / churn state');
   T3 = { tmp, p, before };
 }
 
