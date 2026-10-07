@@ -45,6 +45,7 @@ jobs:
           node factory/test-reliability.js
           node factory/test-pair.js
           node factory/test-coordinator.js
+          node factory/test-topic-factory.js
           node factory/factory.js verify-invariant
           node factory/generate.js --check
           echo 'ENGINE_GATE_OK'
