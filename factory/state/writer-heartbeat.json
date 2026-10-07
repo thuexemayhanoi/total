@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-07T06:04:37.035Z",
+ "at": "2026-10-07T06:20:01.841Z",
  "phase": "waiting-publish",
- "pair": "S00423,S00432",
- "note": "queue 11 S00423-S00432 written 10/10, QA pass, verify-batch OK 10/10 (tips/meo-bao-duong + tips/meo-mua-xe + tips/meo-thue-xe)"
+ "pair": "S00433,S00442",
+ "note": "queue 12 written 10/10, verify-batch OK"
 }
