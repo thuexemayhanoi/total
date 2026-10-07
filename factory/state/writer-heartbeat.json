@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-07T06:54:02.822Z",
+ "at": "2026-10-07T07:43:03.247Z",
  "phase": "waiting-publish",
- "pair": "S00453,S00462",
- "note": "queue 14 written 10/10, verify-batch OK"
+ "pair": "S00463,S00472",
+ "note": "queue 15 written 10/10, verify-batch OK"
 }
