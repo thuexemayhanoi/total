@@ -8252,6 +8252,34 @@
   ]
  },
  {
+  "url": "docs/huong-dan-su-dung/cach-de-xe-ga/",
+  "title": "Cách đề xe ga — những điều cần biết",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "summary": "Cách đề xe ga — những điều cần biết — xe ga khác xe số ở một điểm cốt lõi: không có cần số, không có côn, và bộ khởi động điện là con đường duy nhất để máy nổ. Chính vì thế, cách đề xe ga đúng và cách xử lý khi đề không nổ là kiến thức mà mọi chủ xe ga đều cần, không chỉ thợ. Bài viết đi theo trình tự một lần đề chuẩn: từ vị trí chìa, phanh, cảm biến cho tới nhịp đề đúng; tiếp theo là chẩn đoán theo dấu hiệu khi đề không nổ — nghe tiếng gì, đèn báo thế nào, mỗi dấu hiệu trỏ về một nhóm lỗi riêng của ắc quy, cảm biến đứng máy, cầu chì hoặc khóa từ; sau đó là các tình huống đặc thù như đề lúc trời lạnh, đề sau khi xe nằm lâu, đề khi ắc quy yếu; và cuối cùng là thói quen bảo vệ hệ thống khởi động để chiếc xe ga luôn nổ ngay lần đề đầu tiên. Hiểu đúng trình tự, một lần đề sẽ chỉ là một cử chỉ tay quen thuộc thay vì một chuỗi may rủi.",
+  "quickAnswer": "Đề xe ga đúng cách theo bốn bước. Một: chìa khóa bật đến vị trí bật, nếu xe có khóa từ thì bấm nút mở trước, và đợi đèn đồng hồ sáng đều. Hai: bóp giữ phanh — đa số xe ga không đề được nếu chưa bóp phanh; phanh trước hoặc phanh sau tùy xe, nhiều xe nhận cả hai. Ba: bóp phanh xong mới bấm nút đề, đề ngắn ba đến năm giây; nếu không nổ, nhả vài giây rồi đề lại, tối đa ba lần. Bốn: máy nổ thì nhả nút đề ngay và để máy không tải khoảng nửa phút trước khi lăn bánh. Khi đề không nổ: đèn đồng hồ sáng yếu là ắc quy cạn; đèn không sáng gì là cầu chì hoặc tiếp xúc; đề có tiếng mà máy không nổ kèm mùi xăng là bugi hoặc ngập xăng; đề không có tiếng gì dù đèn sáng là cảm biến đứng máy, khóa từ chưa mở hoặc công tắc phanh hỏng. Xe ga không đẩy nổ được như xe số — khi ắc quy chết hẳn, hãy dùng bình đề mini hoặc gọi hỗ trợ.",
+  "keyPoints": [
+   "Đa số xe ga chỉ đề được khi đang bóp phanh — bóp phanh trước khi bấm đề là trình tự số một.",
+   "Đề ngắn ba đến năm giây, nghỉ giữa các lần; tối đa ba lần rồi chuyển sang kiểm tra nguyên nhân.",
+   "Đèn đồng hồ sáng yếu hoặc chớp khi đề là tín hiệu ắc quy cạn — dừng đề để giữ lại phần điện còn lại.",
+   "Đề không có tiếng gì dù đèn sáng: kiểm tra khóa từ, cảm biến nghiêng, công tắc phanh và cầu chì."
+  ],
+  "entities": [
+   "đề xe ga",
+   "ắc quy xe ga",
+   "khóa từ",
+   "cảm biến đứng máy",
+   "mô-tơ khởi động"
+  ],
+  "keywords": [
+   "cach de xe ga",
+   "xe ga khong de duoc",
+   "de xe may dung cach",
+   "xac quy xe ga yeu",
+   "khoa tu xe ga"
+  ]
+ },
+ {
   "url": "moto/xe-con-tay/cach-lai-xe-con/",
   "title": "Hướng dẫn chi tiết về cách lái xe côn",
   "category": "Xe máy",
@@ -8606,6 +8634,34 @@
    "checklist xe duong dai",
    "chuan bi xe may duong dai",
    "do du phong di xa"
+  ]
+ },
+ {
+  "url": "tips/meo-thue-xe/chup-anh-xe-thue/",
+  "title": "Hướng dẫn chi tiết về chụp ảnh xe thuê",
+  "category": "Mẹo",
+  "hub": "Mẹo thuê xe",
+  "summary": "Hướng dẫn chi tiết về chụp ảnh xe thuê — bộ ảnh chụp đúng lúc nhận xe là thứ rẻ nhất nhưng quý nhất của cả một chuyến thuê: nó trả lời được câu hỏi gây tranh chấp nhiều nhất (\"vết này có sẵn hay phát sinh trong thời gian thuê\") chỉ bằng một lần bấm máy. Bài viết đi theo trình tự của một buổi chụp: chuẩn bị trước khi tới nhận xe (dọn bộ nhớ điện thoại, bật ghi giờ, mang khăn lau ống kính), danh sách góc chụp chuẩn theo từng nhóm chi tiết, kỹ thuật chụp vết xước và hư hỏng cho rõ ràng, cách ghi nhận công-tơ-mét và tình trạng nhiên liệu, và cuối cùng là cách dùng bộ ảnh khi trả xe — đối chiếu nhanh, trích ảnh gửi trong tin nhắn, giữ bản lưu tới khi cọc đã về tài khoản. Chụp đúng mười lăm phút lúc nhận là cách đỡ mất hàng giờ cãi lúc trả.",
+  "quickAnswer": "Chụp ảnh xe thuê rút lại năm điểm. Một: chụp ngay lúc nhận, trước khi xe rời vị trí giao — bộ ảnh sau đó không có giá trị đối chứng. Hai: theo danh sách cố định — bốn góc toàn thân, hai bên, đầu và đuôi, mỗi vết xước có sẵn một cận cảnh, công-tơ-mét, két nhiên liệu, gương và khóa. Ba: chụp kèm bối cảnh nhận biết (biển số, biển hiệu nơi giao) và giữ giờ chụp tự động của máy. Bốn: gửi bộ ảnh cho bên cho thuê ngay qua tin nhắn — gửi ngay biến bộ ảnh thành tài liệu hai bên cùng biết. Năm: giữ trọn bộ tới khi đã trả xe và nhận lại cọc — đối chiếu lúc nghiệm thu chỉ cần vài phút nếu hai bên cùng có sẵn ảnh.",
+  "keyPoints": [
+   "Chụp ngay tại buổi giao nhận — bộ ảnh chụp sau khi xe đã đi đường không có giá trị đối chứng.",
+   "Theo danh sách góc cố định: bốn góc toàn thân, hai bên, đầu, đuôi, gương, khóa, chân chống.",
+   "Mọi vết xước, nứt, vá có sẵn chụp cận cảnh kèm bối cảnh nhận biết vị trí trên xe.",
+   "Chụp công-tơ-mét và két nhiên liệu — hai con số gây tranh chấp nhiều nhất lúc trả."
+  ],
+  "entities": [
+   "chụp ảnh xe thuê",
+   "giao nhận xe",
+   "bằng chứng thuê xe",
+   "công-tơ-mét",
+   "nghiệm thu xe"
+  ],
+  "keywords": [
+   "chup anh xe thue",
+   "chup anh xe khi thue",
+   "bang chung nhan xe thue",
+   "kiem tra xe thue khi nhan",
+   "chup anh cong to met xe"
   ]
  },
  {
@@ -9721,6 +9777,34 @@
   ]
  },
  {
+  "url": "docs/huong-dan-su-dung/huong-dan-su-dung-xe-may/",
+  "title": "Kinh nghiệm hướng dẫn sử dụng xe máy dành cho người mới",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "summary": "Kinh nghiệm hướng dẫn sử dụng xe máy dành cho người mới — chiếc xe máy đầu tiên là một công cụ gần gũi nhưng cũng đầy những thói quen sai lầm mà không ai chỉ rõ cho người mới: đề máy ngay khi mới nổ, vọt ga thật nhanh ngay sau khi xuất phát, phanh gấp chỉ bằng phanh trước, để két cạn mới đổ xăng. Bài viết này đi theo đúng trình tự một người mới cần: làm quen bảng đồng hồ và các đèn báo trước khi vặn ga; trình tự khởi động và làm nóng máy đúng cách cho cả xe số lẫn xe ga; những thói quen lái hàng ngày bảo vệ động cơ và hệ thống phanh; lịch bảo dưỡng và đổ xăng định kỳ; và cuối cùng là cách phản ứng đúng khi xe có dấu hiệu bất thường giữa chuyến đi. Mục tiêu là để người mới không chỉ biết đi xe, mà biết dùng xe đúng cách — chiếc xe được dùng đúng sẽ phục vụ bền và ít đứng đường hơn hẳn một chiếc xe cùng loại bị dùng sai.",
+  "quickAnswer": "Hướng dẫn sử dụng xe máy cho người mới gồm năm trình tự. Một: làm quen đồng hồ — hiểu đèn báo dầu, ắc quy, nhiệt độ, vạch xăng, và vị trí gương chuẩn trước khi ra đường. Hai: khởi động đúng — khóa chìa bật, để máy chế độ đúng, bóp phanh (xe ga) hoặc để số không (xe số), đề ngắn ba đến năm giây, để máy chạy không tải ba mươi giây đến một phút trước khi vặn ga. Ba: mười phút đầu đi nhẹ nhàng — không vọt tốc độ cao, không kéo ga đỏ, vì dầu nhớt chưa kịp lan đều là lúc máy mòn nhanh nhất. Bốn: thói quen hàng ngày — đổ xăng khi két còn một phần tư, tắt máy khi dừng chờ lâu, phanh sớm và giảm ga thay vì phanh gấp. Năm: theo dõi đèn báo và âm thanh lạ — đèn dầu sáng khi máy đang chạy là dừng ngay; tiếng kêu lạ lặp lại là ghi lại và mang xe đi kiểm tra sớm, đừng đợi thành hỏng lớn.",
+  "keyPoints": [
+   "Hiểu bảng đồng hồ và đèn báo trước khi ra đường — đèn dầu, ắc quy, nhiệt độ là ba đèn quan trọng nhất.",
+   "Khởi động đúng: đề ngắn, để máy chạy không tải một phút, không vặn ga mạnh ngay khi nổ.",
+   "Mười phút đầu mỗi chuyến đi là giai đoạn làm nóng — đi nhẹ, không vọt tốc, không kéo ga cao.",
+   "Đổ xăng khi két còn khoảng một phần tư, đừng để cạn hết — bùn đáy két theo xăng vào hệ thống nhiên liệu."
+  ],
+  "entities": [
+   "sử dụng xe máy",
+   "khởi động đúng cách",
+   "đèn báo đồng hồ",
+   "bảo dưỡng định kỳ",
+   "người mới lái xe máy"
+  ],
+  "keywords": [
+   "huong dan su dung xe may",
+   "cach su dung xe may cho nguoi moi",
+   "khoi dong xe may dung cach",
+   "thoi quen lam may xe moi",
+   "bao duong xe may dinh ky"
+  ]
+ },
+ {
   "url": "moto/yamaha/janus/",
   "title": "Kinh nghiệm janus dành cho người mới",
   "category": "Xe máy",
@@ -10183,6 +10267,34 @@
   ]
  },
  {
+  "url": "tips/meo-xu-ly-su-co/lop-non-nhanh/",
+  "title": "Kinh nghiệm lốp non nhanh dành cho người mới",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Kinh nghiệm lốp non nhanh dành cho người mới — lốp bị non là sự cố phổ biến nhất của xe máy, phổ biến tới mức phần lớn các lần đứng giữa đường đều bắt đầu từ một cái lốp mềm dần không ai để ý. Bài viết gộp kiến thức thành năm nhóm: nhận biết sớm dấu hiệu lốp non qua cảm giác lái và kiểm tra bằng mắt trước khi lên đường; xử lý đúng khi phát hiện giữa chừng — dừng an toàn, bơm nóng, tìm dị vật — trước khi quyết định vá hay thay; cách vá lốp không săng tại chỗ hoặc tại tiệm cho người chưa từng làm; các nguyên nhân khiến lốp hay non lại (dằm đinh, van hở, vành vênh, lốp già nứt); và cuối cùng là thói quen phòng ngừa — bơm định kỳ, thay lốp đúng tuổi, và lựa chọn lốp không săng khi phù hợp. Người mới nắm được trình tự này biến một sự cố phổ thông từ một cú sợ hãi thành một thủ tục vài phút.",
+  "quickAnswer": "Lốp non nhanh xử lý theo bốn bước. Một: nhận sớm — xe nặng tay, rung nhẹ bất thường, nhìn lốp thấy thấp hơn ngày thường: dừng kiểm tra ngay. Hai: bơm nóng trước, hỏi sau — bơm lại áp suất thường, nghe và thoa xà phòng quanh van và mặt lốp tìm chỗ phì không khí; bơm được và giữ được thì đi chậm tới tiệm gần nhất. Ba: tìm dị vật trước khi rút — đầu đinh, ốc vít cắm trong lốp không nên rút ra giữa đường nếu không có đồ vá, vì rút là không khí thoát nhanh. Bốn: vá sớm không chờ — lốp non chạy tiếp làm lốp bẹp nát, vành vênh và chi phí nhảy từ vài chục nghìn vá sang cả triệu thay vành. Phòng ngừa tốt nhất: bơm định kỳ mỗi tuần và cân nhắc lốp không săng cho xe đi phố.",
+  "keyPoints": [
+   "Dấu hiệu lốp non sớm: xe nặng tay, đuôi lắc nhẹ, lốp trông thấp hơn — kiểm tra trước khi tiếp tục đi.",
+   "Bơm nóng trước khi phán đoán: nhiều lốp chỉ thiếu hơi do chưa bơm lâu, không phải thủng.",
+   "Không rút dị vật cắm trong lốp giữa đường nếu không có sẵn đồ vá — rút là hơi thoát nhanh.",
+   "Lốp non mà vẫn chạy làm hỏng thêm: lốp bẹp, vành vênh, chi phí vá thành chi phí thay."
+  ],
+  "entities": [
+   "lốp non",
+   "bơm lốp",
+   "vá lốp",
+   "lốp không săng",
+   "van bơm"
+  ],
+  "keywords": [
+   "lop non nhanh",
+   "xe bi non lop xu ly",
+   "cach va lop xe may",
+   "dau hieu lop non",
+   "lop khong sang tubeless"
+  ]
+ },
+ {
   "url": "wiki/lop-banh-xe/lop-xe-may/",
   "title": "Tổng hợp kiến thức: lốp xe máy",
   "category": "Bách khoa xe",
@@ -10387,6 +10499,34 @@
    "tu kiem tra xe may hang tuan",
    "bao duong xe may dung cach",
    "xe may ben lau nam"
+  ]
+ },
+ {
+  "url": "tips/meo-xu-ly-su-co/meo-cuu-xe/",
+  "title": "Hướng dẫn chi tiết về mẹo cứu xe",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Hướng dẫn chi tiết về mẹo cứu xe — giữa một chuyến đi dài, chiếc xe máy gục xuống giữa đường là tình huống không ai muốn nhưng ai cũng nên chuẩn bị. Bài viết này gom những mẹo cứu xe thực dụng thành một trình tự rõ ràng: trước hết là bước chẩn đoán nhanh bằng dấu hiệu — còi, đèn, mùi xăng, tiếng máy — để biết mình đang gặp loại trục trặc nào; kế đến là các kỹ thuật tự cứu cho từng tình huống hay gặp nhất như hết xăng, ắc quy yếu, lốp mất hơi hoặc dìm nước; sau đó là nghệ thuật đẩy xe và để xe an toàn ven đường mà không gây thêm tai nạn; và cuối cùng là cách gọi hỗ trợ đường bộ hiệu quả — nói đúng địa điểm, mô tả đúng triệu chứng — để cuộc cứu kéo dài vài phút thay vì vài giờ. Mục đích của những mẹo này không phải biến người lái thành thợ sửa xe, mà để mỗi lần xe chết giữa đường chỉ còn là một khoảnh khắc xử lý có trình tự, không phải một trận đánh hoảng loạn.",
+  "quickAnswer": "Mẹo cứu xe máy giữa đường theo bốn bước. Một: dừng hẳn xe vào lề an toàn, tắt máy, kéo gương, mở ca pô kiểm tra bằng mắt thường trước khi tháo bất kỳ thứ gì. Hai: chẩn đoán nhanh theo dấu hiệu — còi yếu là ắc quy, máy đề không nổ kèm mùi xăng là bugi hoặc ngập xăng, lốp mềm dần là thủng chậm, không có điện gì là cầu chì hoặc tiếp xúc. Ba: tự xử lý trong phạm vi an toàn — kit sửa lốp hoặc bơm mini cho lốp, bình đề mini hoặc đẩy nổ cho xe số khi ắc quy yếu, mượn xăng nếu két cạn; không tháo những bộ phận mình không rành. Bốn: nếu không xử lý được, đẩy xe tới vị trí an toàn, gọi hỗ trợ và mô tả chính xác vị trí (cột mốc, giao lộ) cùng triệu chứng của xe để thợ mang đúng đồ nghề — một cuộc gọi chuẩn rút ngắn thời gian chờ đáng kể.",
+  "keyPoints": [
+   "Dừng xe vào lề an toàn và tắt máy trước mọi thao tác — xử lý giữa làn đường là nguyên nhân của nhiều tai nạn phụ.",
+   "Chẩn đoán nhanh bằng còi, đèn, mùi và tiếng máy giúp khoanh vùng lỗi trong chưa đầy một phút.",
+   "Bộ đồ cứu xe cơ bản: bơm mini, kit sửa lốp, bình đề mini, đèn pin — trọng lượng nhỏ nhưng giải quyết phần lớn sự cố.",
+   "Xe số hết điện thì đẩy nổ được; xe ga hết điện thì phải mượn Bình hoặc gọi hỗ trợ — biết giới hạn này tránh mất công."
+  ],
+  "entities": [
+   "cứu xe giữa đường",
+   "bơm lốp mini",
+   "bình đề mini",
+   "đẩy nổ xe số",
+   "hỗ trợ đường bộ"
+  ],
+  "keywords": [
+   "meo cuu xe may",
+   "cuu xe giua duong",
+   "xe chet may giua duong xu ly",
+   "bo do cuu xe may",
+   "day xe may an toan"
   ]
  },
  {
@@ -11145,6 +11285,34 @@
   ]
  },
  {
+  "url": "tips/meo-xu-ly-su-co/su-co-giua-duong/",
+  "title": "Tổng hợp kiến thức: sự cố giữa đường",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Tổng hợp kiến thức: sự cố giữa đường — trên một chặng đường dài, sự cố không phải câu hỏi \"có hay không\" mà chỉ là \"khi nào và ở đâu\". Bài viết này hệ thống hóa toàn bộ kiến thức về các tình huống xe máy gặp trục trặc giữa đường thành một khung xử lý hoàn chỉnh: phân loại sự cố theo mức độ nguy hiểm và khả năng tự xử; ba nguyên tắc an toàn tại hiện trường mà bất kỳ tình huống nào cũng phải qua trước khi động vào xe; khung quyết định ba nhánh — sửa tại chỗ, di chuyển tới nơi an toàn, hoặc gọi hỗ trợ — cùng tiêu chí chọn từng nhánh; bản đồ những sự cố điển hình từ lốp, điện, xăng đến máy nóng, kẹt côn; và cuối cùng là tầng phòng ngừa: những kiểm tra trước chuyến đi và thói quen lái giúp giảm hẳn xác suất đứng đường. Hiểi đủ rộng, bạn sẽ không còn phân biệt giữa \"sự cố lớn\" và \"sự cố nhỏ\" mà chỉ còn thấy một vấn đề duy nhất: tình huống này thuộc nhánh nào của khung xử lý.",
+  "quickAnswer": "Sự cố giữa đường xử lý theo một khung ba tầng. Tầng an toàn: dừng xe ra khỏi làn chạy, bật đèn hoặc xi nhan cảnh báo, đứng phía sau xe và quan sát xe phía sau trước khi hạ thủ — nguyên tắc này đứng trước mọi sửa chữa. Tầng chẩn đoán: xác định sự cố thuộc nhóm nào — lốp, điện, nhiên liệu, nhiệt máy, cơ khí — và mức độ có tự xử được không theo ba tiêu chí: có đủ dụng cụ không, có đủ ánh sáng và không gian an toàn không, thao tác có vượt kỹ năng của mình không. Tầng quyết định: đủ cả ba tiêu chí thì sửa tại chỗ trong dưới mười lăm phút; thiếu một tiêu chí thì đẩy xe tới chỗ an toàn gần nhất rồi đánh giá lại; sự cố thuộc nhóm cơ khí sâu hoặc không xác định được nguyên nhân thì gọi hỗ trợ và mô tả rõ vị trí, triệu chứng. Không bao giờ xử lý giữa làn đường, không tháo những gì mình không rành, và không để một sự cố nhỏ biến thành tai nạn lớn vì đứng sai chỗ.",
+  "keyPoints": [
+   "An toàn hiện trường đứng trước sửa chữa: ra khỏi làn chạy, cảnh báo xe sau, đứng phía sau xe.",
+   "Phân loại sự cố theo năm nhóm: lốp, điện, nhiên liệu, nhiệt máy, cơ khí — mỗi nhóm có trình tự xử riêng.",
+   "Ba tiêu chí tự sửa: có dụng cụ, có không gian an toàn, trong tầm kỹ năng; thiếu một tiêu chí thì di chuyển trước.",
+   "Sửa tại chỗ chỉ nên kéo dài dưới mười lăm phút — quá hạn đó nghĩa là đã chọn sai nhánh."
+  ],
+  "entities": [
+   "sự cố giữa đường",
+   "hiện trường an toàn",
+   "chẩn đoán tại chỗ",
+   "hỗ trợ đường bộ",
+   "phòng ngừa sự cố"
+  ],
+  "keywords": [
+   "su co giua duong",
+   "xe may hong giua duong",
+   "xu ly su co xe may",
+   "an toan khi xe hong",
+   "phong ngua su co xe"
+  ]
+ },
+ {
   "url": "moto/suzuki/suzuki-address/",
   "title": "Hướng dẫn chi tiết về suzuki address",
   "category": "Xe máy",
@@ -11487,6 +11655,34 @@
   ]
  },
  {
+  "url": "tips/meo-thue-xe/thue-xe-can-hoi-gi/",
+  "title": "Kinh nghiệm thuê xe cần hỏi gì dành cho người mới",
+  "category": "Mẹo",
+  "hub": "Mẹo thuê xe",
+  "summary": "Kinh nghiệm thuê xe cần hỏi gì dành cho người mới — người mới thuê xe thường chỉ hỏi đúng một câu về giá, trong khi rủi ro của một chuyến thuê nằm rải trong hàng chục chi tiết nhỏ: khoản phí phụ nào sẽ xuất hiện, cọc hoàn khi nào, xe hỏng giữa đường thì ai lo, trả trễ tính thế nào, và xe mình nhận thuộc đời nào tình trạng nào. Bài viết gộp các câu hỏi cần đặt thành năm nhóm theo trình tự của một giao dịch thuê: hỏi trước khi chốt nơi thuê, hỏi về giá và các khoản phí cho tới khi thấy trọn tổng chi, hỏi về cọc và giấy tờ phải để, hỏi về quy trình sự cố trong suốt thời gian thuê, và hỏi những điều kiện khi trả xe. Người mới hỏi đủ các câu này không phải để nghi ngờ, mà để cả hai bên cùng biết rõ luật chơi trước khi bắt đầu.",
+  "quickAnswer": "Thuê xe cần hỏi gì — rút lại năm nhóm câu hỏi. Một: hỏi về tổng chi — giá thuê kèm những phí nào, phí vượt giờ, phí giao nhận, và không có khoản nào phát sinh ngoài hợp đồng. Hai: hỏi về cọc — bao nhiêu, để giấy tờ gì thay cọc được không, hoàn trong bao lâu, trừ khi nào. Ba: hỏi về xe được nhận — đời nào, tình trạng nào, có được chọn xe hay thử máy không. Bốn: hỏi về sự cố: xe hỏng giữa đường gọi ai, ai chi phí kéo xe, có xe thay thế không, trễ giờ báo trước lúc nào. Năm: hỏi về hợp đồng — những gì vừa hỏi có nằm hết trên giấy không, vì chỉ điều khoản ghi trong hợp đồng mới có giá trị khi tranh chấp xảy ra.",
+  "keyPoints": [
+   "Hỏi giá kèm danh sách phí phụ: vượt giờ, giao nhận, vệ sinh, khoản nào cũng phải hiện trên hợp đồng.",
+   "Hỏi cọc rõ ràng: số tiền, hình thức, điều kiện trừ, thời hạn hoàn trả sau khi trả xe.",
+   "Hỏi về xe sẽ nhận: đời xe, tình trạng, được thử máy trước khi ký xác nhận giao xe hay không.",
+   "Hỏi quy trình sự cố: số điện thoại hỗ trợ, ai chi kéo xe, có xe thay thế không trong bao lâu."
+  ],
+  "entities": [
+   "thuê xe máy",
+   "tiền cọc",
+   "hợp đồng thuê xe",
+   "phí thuê",
+   "hỗ trợ sự cố"
+  ],
+  "keywords": [
+   "thue xe can hoi gi",
+   "cho thue xe may nhung dieu can biet",
+   "cau hoi khi thue xe may",
+   "thue xe may lan dau luu y",
+   "kinh nghiem thue xe may"
+  ]
+ },
+ {
   "url": "ride/du-lich-xe-may/thue-xe-du-lich/",
   "title": "Hướng dẫn chi tiết về thuê xe du lịch",
   "category": "Hành trình",
@@ -11596,6 +11792,34 @@
    "xe may tiet kiem xang",
    "giu toc do deu",
    "toc do nao tiet kiem xang"
+  ]
+ },
+ {
+  "url": "tips/meo-thue-xe/tranh-tranh-chap-khi-thue-xe/",
+  "title": "Tránh tranh chấp khi thuê xe — những điều cần biết",
+  "category": "Mẹo",
+  "hub": "Mẹo thuê xe",
+  "summary": "Tránh tranh chấp khi thuê xe — những điều cần biết — tranh chấp giữa bên thuê và bên cho thuê gần như không nổ ra từ xe, mà nổ ra từ những chỗ trống: điều khoản không ghi, tình trạng xe không chụp lại, cuộc trao đổi không lưu vết. Bài viết đi theo trình tự phòng ngừa của một chuyến thuê: chọn nơi cho thuê có quy trình trước khi chọn nơi có giá rẻ, biến mọi thỏa thuận thành văn bản trước khi nhận xe, ghi nhận tình trạng xe bằng bộ ảnh tại buổi giao nhận, giữ kỷ luật sử dụng trong suốt thời gian thuê, và khi bất đồng vẫn xuất hiện thì xử lý theo trình tự — quy về hợp đồng, quy về bằng chứng, và biết tới đâu thì nhờ bên thứ ba. Người thuê hiểu năm lớp phòng ngừa này hầu như không bao giờ phải dùng tới lớp cuối.",
+  "quickAnswer": "Tránh tranh chấp khi thuê xe rút lại năm lớp phòng. Một: chọn nơi có quy trình — hợp đồng mẫu, chứng từ nhận trả — vì tranh chấp lớn nhất bắt đầu từ nơi làm việc bằng miệng. Hai: mọi thỏa thuận thành văn bản: cọc, lộ trình, phạt, hỗ trợ sự cố, tất cả nằm trong hợp đồng trước khi ký. Ba: chụp ảnh xe đầy đủ ngay khi nhận — bốn góc toàn thân, vết xước có sẵn, công-tơ-mét — ảnh là trọng tài của mọi câu \"vết này có sẵn hay không\". Bốn: giữ kỷ luật khi dùng: đúng nhiên liệu, không cho người khác lái, hỏng thì báo ngay. Năm: khi bất đồng phát sinh, bình tĩnh quy về điều khoản và bằng chứng — không cãi cảm tính, và nâng dần cấp xử lý thay vì đối đầu ngay từ đầu.",
+  "keyPoints": [
+   "Tranh chấp sinh ra từ chỗ trống: điều khoản không ghi, tình trạng xe không ghi nhận, trao đổi không lưu vết.",
+   "Chọn nơi cho thuê có hợp đồng mẫu và quy trình nhận trả rõ — nền của mọi lớp phòng sau.",
+   "Bộ ảnh khi nhận xe là bằng chứng trung lập nhất: toàn thân, vết xước, công-tơ-mét, kèm giờ chụp.",
+   "Mọi thỏa thuận ngoài hợp đồng phải thành phụ lục ký hai bên trước khi xe rời cửa hàng."
+  ],
+  "entities": [
+   "tranh chấp thuê xe",
+   "hợp đồng thuê xe",
+   "bằng chứng giao nhận",
+   "nghiệm thu xe",
+   "phụ lục hợp đồng"
+  ],
+  "keywords": [
+   "tranh chap khi thue xe",
+   "tranh tranh chap thue xe may",
+   "cach tranh chap khi thue xe",
+   "chup anh xe thue luu bang chung",
+   "tranh chap tien coc thue xe"
   ]
  },
  {
@@ -11926,6 +12150,34 @@
   ]
  },
  {
+  "url": "tips/meo-xu-ly-su-co/xe-chet-may/",
+  "title": "Xe chết máy — những điều cần biết",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Xe chết máy — những điều cần biết — chết máy khác không nổ máy ở một điểm: chiếc xe đang chạy rồi tắt, thường kèm một khoảnh khắc tay lái trống trải và một câu hỏi lơ lửng giữa đường. Bài viết gộp kiến thức thành năm nhóm: đọc kiểu chết máy để khoanh nguyên nhân (chết đột ngột khi đang ga đều, chết khi rà ga chậm, chết khi nóng máy, chết khi qua ổ gà), các nguyên nhân phổ biến xếp theo ba hệ thống quen thuộc — nhiên liệu, điện, nhiệt; trình tự xử lý an toàn giữa đường theo từng tình huống; các kiểu chết máy đặc thù của xe ga và xe số; và khi nào một cái chết máy lặp lại là tín hiệu cần mang xe đi kiểm tra thay vì vá lỗ. Chết máy một lần là sự cố; chết máy theo quy luật là bản cáo trạng của một bộ phận đang hỏng dần.",
+  "quickAnswer": "Xe chết máy đọc theo kiểu chết. Một: chết đột ngột khi đang ga đều, như ai tắt khóa — thường là lỗi điện: tiếp xúc khóa, cầu chì, mạch đánh lửa lỏng. Hai: chết khi rà ga chậm hoặc ngừng chờ đèn đỏ — thường là chế hòa khí nghẹt hoặc vít gió sai, máy thiếu tổng hợp nhiên liệu ở vòng tua thấp. Ba: chết khi máy đã nóng chạy lâu — nghi hệ thống nhiệt: nhớt kém, tản nhiệt bẩn, hoặc bộ chế hòa khí quá nhiệt. Bốn: chết khi qua ổ gà hoặc chạy xóc mạnh — tiếp xúc ắc quy, giắc cắm lỏng, cảm biến rung rơi. Giữa đường: bám chắc tay lái, tách côn, ghì phanh đưa xe sát lề rồi mới chẩn đoán. Chết máy lặp lại theo cùng một kiểu là dấu cần soi kỹ một bộ phận duy nhất — ghi lại hoàn cảnh mỗi lần để kể lại cho thợ.",
+  "keyPoints": [
+   "Kiểu chết máy chỉ đường: đột ngột là điện, rà ga chậm là nhiên liệu vòng thấp, nóng máy là nhiệt, xóc mạnh là tiếp xúc.",
+   "Chết giữa dòng xe: bám tay lái, tách côn, ghì phanh nhẹ, đưa xe sát lề trước mọi chẩn đoán.",
+   "Xăng bẩn và lọc nghẹt là nguyên nhân chết máy khi rà ga chậm phổ biến nhất với xe cũ.",
+   "Tiếp xúc ắc quy và giắc cắm lỏng là nguyên nhân chết đột ngột và chết khi xóc nhiều nhất."
+  ],
+  "entities": [
+   "xe chết máy",
+   "chết giữa đường",
+   "chế hòa khí",
+   "hệ thống điện",
+   "chẩn đoán"
+  ],
+  "keywords": [
+   "xe chet may",
+   "xe may chet may giua duong",
+   "nguyen nhan xe chet may",
+   "xe chet may khi nong",
+   "xe ga chet may"
+  ]
+ },
+ {
   "url": "learn/chuan-doan-loi/xe-co-mui-khet/",
   "title": "Xe có mùi khét: đánh giá theo vị trí và hoàn cảnh xuất hiện",
   "category": "Kiến thức chuyên sâu",
@@ -12240,6 +12492,34 @@
    "xich lac cach",
    "bi banh xe may mon",
    "oc long xe may"
+  ]
+ },
+ {
+  "url": "tips/meo-xu-ly-su-co/xe-khong-no-xu-ly/",
+  "title": "Tổng hợp kiến thức: xe không nổ xử lý",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Tổng hợp kiến thức: xe không nổ xử lý — chiếc xe không nổ máy lúc cần đi không bao giờ hỏng một cách bí ẩn: trong đa số trường hợp, nguyên nhân nằm trong một vài mắt xích quen thuộc của chuỗi khởi động, và người lái biết duyệt chuỗi đó theo trình tự sẽ tránh được cả việc mổ máy oan lẫn việc đứng đường lúng túng. Bài viết gộp kiến thức thành năm nhóm: duyệt nhanh từ các dấu hiệu dễ thấy (còi, đèn, chìa) để khoanh vùng lỗi ở nguồn điện hay ở phần máy, kiểm tra chuỗi nhiên liệu từ két tới buồng đốt, kiểm tra hệ thống đánh lửa của bugi, xử lý các lỗi đặc thù của xe ga hiện đại (khóa từ, cảm biến đứng máy, phanh trước chưa bóp), và quy tắc chung khi xử lý giữa đường — dừng đúng chỗ, gọi đúng người, và không tự sửa quá mức kỹ năng của mình. Mục tiêu không phải biến người lái thành thợ, mà để mỗi lần xe không nổ chỉ còn là một trục trặc có trình tự, không phải một buổi sáng hoảng loạn.",
+  "quickAnswer": "Xe không nổ máy xử lý theo trình tự. Một: nghe và nhìn các dấu hiệu khi bật chìa — còi, đèn sáng bình thường nghĩa là ắc quy còn; còi yếu, không đề được thì nghi ắc quy hoặc hệ thống khởi động. Hai: xem két xăng có nhiên liệu không, vặn khóa xăng đúng vị trí, lắc nhẹ nghe tiếng xăng trong két. Ba: rút bugi ra kê sát mối bugi kiểm tra tia lửa — có tia lửa xanh thì lỗi phía nhiên liệu, không có tia lửa thì lỗi đánh lửa. Bốn: xe ga kiểm tra khóa từ đã mở, cảm biến đứng máy, để máy ở chế độ đúng và bóp phanh khi đề. Năm: giữa đường thì ưu tiên đẩy xe tới vị trí an toàn và gọi hỗ trợ — sửa đúng thứ mình chắc chắn, không tháo dỡ những gì không rành, vì mỗi bộ phận tháo sai thêm một lỗi mới cho xe.",
+  "keyPoints": [
+   "Duyệt dấu hiệu trước tiên: còi đèn, tiếng đề, đèn báo chìa — khoanh nhanh lỗi phía điện hay phía máy.",
+   "Két hết xăng và khóa xăng ở sai vị trí là hai nguyên nhân phổ biến nhất của xe không nổ.",
+   "Kiểm tra bugi bằng cách kê sát mối bugi xem có tia lửa — bugi bẩn, ướt là lỗi hay gặp.",
+   "Xe ga: kiểm tra khóa từ, để máy đúng chế độ, bóp phanh trước khi đề, cảm biến chống nghiêng."
+  ],
+  "entities": [
+   "xe không nổ máy",
+   "ắc quy",
+   "bugi",
+   "hệ thống đánh lửa",
+   "khởi động"
+  ],
+  "keywords": [
+   "xe khong no xu ly",
+   "xe may khong no may",
+   "nguyen nhan xe khong de duoc",
+   "kiem tra bugi xe may",
+   "xe ga khong no"
   ]
  },
  {

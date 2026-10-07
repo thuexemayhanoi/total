@@ -1596,6 +1596,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/huong-dan-su-dung/cach-de-xe-ga/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/xe-con-tay/cach-lai-xe-con/index.html",
   "kind": "article"
  },
@@ -1641,6 +1645,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/chuan-bi-xe-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-thue-xe/chup-anh-xe-thue/index.html",
   "kind": "article"
  },
  {
@@ -1796,6 +1804,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/huong-dan-su-dung/huong-dan-su-dung-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/yamaha/janus/index.html",
   "kind": "article"
  },
@@ -1860,6 +1872,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-xu-ly-su-co/lop-non-nhanh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/lop-xe-may/index.html",
   "kind": "article"
  },
@@ -1885,6 +1901,10 @@
  },
  {
   "rel": "tips/meo-bao-duong/meo-bao-duong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-xu-ly-su-co/meo-cuu-xe/index.html",
   "kind": "article"
  },
  {
@@ -1992,6 +2012,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-xu-ly-su-co/su-co-giua-duong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/suzuki/suzuki-address/index.html",
   "kind": "article"
  },
@@ -2040,6 +2064,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-thue-xe/thue-xe-can-hoi-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/du-lich-xe-may/thue-xe-du-lich/index.html",
   "kind": "article"
  },
@@ -2053,6 +2081,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/toc-do-tiet-kiem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-thue-xe/tranh-tranh-chap-khi-thue-xe/index.html",
   "kind": "article"
  },
  {
@@ -2100,6 +2132,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-xu-ly-su-co/xe-chet-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/chuan-doan-loi/xe-co-mui-khet/index.html",
   "kind": "article"
  },
@@ -2141,6 +2177,10 @@
  },
  {
   "rel": "learn/chuan-doan-loi/xe-keu-lach-cach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-xu-ly-su-co/xe-khong-no-xu-ly/index.html",
   "kind": "article"
  },
  {

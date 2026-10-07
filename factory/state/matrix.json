@@ -6438,11 +6438,13 @@
    "title": "Kinh nghiệm thuê xe cần hỏi gì dành cho người mới",
    "primaryIntent": "informational/thue-xe-can-hoi-gi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2179
   },
   {
    "id": "S00434",
@@ -6451,11 +6453,13 @@
    "title": "Tránh tranh chấp khi thuê xe — những điều cần biết",
    "primaryIntent": "informational/tranh-tranh-chap-khi-thue-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2174
   },
   {
    "id": "S00435",
@@ -6464,11 +6468,13 @@
    "title": "Hướng dẫn chi tiết về chụp ảnh xe thuê",
    "primaryIntent": "informational/chup-anh-xe-thue",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2067
   },
   {
    "id": "S00436",
@@ -6477,11 +6483,13 @@
    "title": "Tổng hợp kiến thức: xe không nổ xử lý",
    "primaryIntent": "informational/xe-khong-no-xu-ly",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2320
   },
   {
    "id": "S00437",
@@ -6490,11 +6498,13 @@
    "title": "Kinh nghiệm lốp non nhanh dành cho người mới",
    "primaryIntent": "informational/lop-non-nhanh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2157
   },
   {
    "id": "S00438",
@@ -6503,11 +6513,13 @@
    "title": "Xe chết máy — những điều cần biết",
    "primaryIntent": "informational/xe-chet-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2142
   },
   {
    "id": "S00439",
@@ -6516,11 +6528,13 @@
    "title": "Hướng dẫn chi tiết về mẹo cứu xe",
    "primaryIntent": "informational/meo-cuu-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 91,
+   "words": 2436
   },
   {
    "id": "S00440",
@@ -6529,11 +6543,13 @@
    "title": "Tổng hợp kiến thức: sự cố giữa đường",
    "primaryIntent": "informational/su-co-giua-duong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2358
   },
   {
    "id": "S00441",
@@ -6542,11 +6558,13 @@
    "title": "Kinh nghiệm hướng dẫn sử dụng xe máy dành cho người mới",
    "primaryIntent": "informational/huong-dan-su-dung-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2460
   },
   {
    "id": "S00442",
@@ -6555,11 +6573,13 @@
    "title": "Cách đề xe ga — những điều cần biết",
    "primaryIntent": "informational/cach-de-xe-ga",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-03T23:13:26.048Z",
-   "updatedAt": "2026-10-03T23:13:26.048Z"
+   "updatedAt": "2026-10-07T06:21:40.894Z",
+   "seoScore": 100,
+   "words": 2542
   },
   {
    "id": "S00443",
