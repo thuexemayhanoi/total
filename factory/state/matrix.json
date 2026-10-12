@@ -15903,11 +15903,13 @@
    "title": "Xe tay ga rồ ga nhưng không lên tốc độ: phân biệt bố nồi, dây curoa và bi nồi",
    "primaryIntent": "troubleshooting/xe-tay-ga-ro-ga-khong-len-toc-do",
    "notes": "source=topic-v2 topicId=T001084",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.539Z",
-   "updatedAt": "2026-10-12T12:48:23.539Z"
+   "updatedAt": "2026-10-12T13:09:38.209Z",
+   "seoScore": 100,
+   "words": 2970
   },
   {
    "id": "S01105",
@@ -15916,11 +15918,13 @@
    "title": "Xe bị ngập xăng sau nhiều lần đề: nhận biết và cách xử lý đúng",
    "primaryIntent": "troubleshooting/xe-may-bi-ngap-xang",
    "notes": "source=topic-v2 topicId=T001086",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.553Z",
-   "updatedAt": "2026-10-12T12:48:23.553Z"
+   "updatedAt": "2026-10-12T13:09:38.209Z",
+   "seoScore": 100,
+   "words": 2716
   },
   {
    "id": "S01106",
@@ -15929,11 +15933,13 @@
    "title": "Quạt két nước xe tay ga không quay: kiểm tra theo thứ tự cảm biến, cầu chì và mô tơ",
    "primaryIntent": "troubleshooting/quat-ket-nuoc-xe-tay-ga-khong-quay",
    "notes": "source=topic-v2 topicId=T001087",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.565Z",
-   "updatedAt": "2026-10-12T12:48:23.565Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2879
   },
   {
    "id": "S01107",
@@ -15942,11 +15948,13 @@
    "title": "Phanh đĩa kêu rít khi bóp nhẹ: bụi bẩn, má phanh chai hay đĩa phanh cong",
    "primaryIntent": "troubleshooting/phanh-dia-xe-may-keu-rit",
    "notes": "source=topic-v2 topicId=T001089",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.577Z",
-   "updatedAt": "2026-10-12T12:48:23.577Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2788
   },
   {
    "id": "S01108",
@@ -15955,11 +15963,13 @@
    "title": "Tay phanh mềm hoặc ăn sâu dù đã thay má phanh: xả e gió và kiểm tra dầu phanh",
    "primaryIntent": "troubleshooting/tay-phanh-mem-an-sau-xe-may",
    "notes": "source=topic-v2 topicId=T001090",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.592Z",
-   "updatedAt": "2026-10-12T12:48:23.592Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2903
   },
   {
    "id": "S01109",
@@ -15968,11 +15978,13 @@
    "title": "Lốp mòn lệch một bên: nguyên nhân từ áp suất, cân bánh và giảm xóc",
    "primaryIntent": "troubleshooting/lop-xe-may-mon-lech-mot-ben",
    "notes": "source=topic-v2 topicId=T001095",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.603Z",
-   "updatedAt": "2026-10-12T12:48:23.603Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2902
   },
   {
    "id": "S01110",
@@ -15981,11 +15993,13 @@
    "title": "Chủ xe nên quan sát gì khi thợ thay lốp: lắp đúng chiều, cân bánh và kiểm tra vành",
    "primaryIntent": "troubleshooting/thay-lop-xe-may-can-kiem-tra-gi",
    "notes": "source=topic-v2 topicId=T001098",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.614Z",
-   "updatedAt": "2026-10-12T12:48:23.614Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2893
   },
   {
    "id": "S01111",
@@ -15994,11 +16008,13 @@
    "title": "Dây curoa xe ga: dấu hiệu nứt, bóng mòn và cách theo dõi theo sổ bảo hành",
    "primaryIntent": "troubleshooting/day-curoa-xe-ga-khi-nao-thay",
    "notes": "source=topic-v2 topicId=T001105",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.628Z",
-   "updatedAt": "2026-10-12T12:48:23.628Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2983
   },
   {
    "id": "S01112",
@@ -16007,11 +16023,13 @@
    "title": "Đối chiếu số khung và số máy với giấy đăng ký khi mua xe cũ: cách làm và dấu hiệu bất thường",
    "primaryIntent": "informational/kiem-tra-so-khung-so-may-xe-cu",
    "notes": "source=topic-v2 topicId=T001120",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.640Z",
-   "updatedAt": "2026-10-12T12:48:23.640Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2804
   },
   {
    "id": "S01113",
@@ -16020,11 +16038,13 @@
    "title": "Nhận biết xe từng ngập nước hoặc va chạm mạnh: nhìn khung, ốc vít và dây điện khi xem xe cũ",
    "primaryIntent": "informational/dau-hieu-xe-may-tung-ngap-nuoc",
    "notes": "source=topic-v2 topicId=T001121",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:48:23.652Z",
-   "updatedAt": "2026-10-12T12:48:23.652Z"
+   "updatedAt": "2026-10-12T13:09:38.208Z",
+   "seoScore": 100,
+   "words": 2793
   },
   {
    "id": "S01114",

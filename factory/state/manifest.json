@@ -1784,11 +1784,19 @@
   "kind": "article"
  },
  {
+  "rel": "market/mua-ban-xe-cu/dau-hieu-xe-may-tung-ngap-nuoc/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dau-nhot/dau-hop-so/index.html",
   "kind": "article"
  },
  {
   "rel": "wiki/dau-nhot/dau-nhot-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/truyen-dong/day-curoa-xe-ga-khi-nao-thay/index.html",
   "kind": "article"
  },
  {
@@ -2212,6 +2220,10 @@
   "kind": "article"
  },
  {
+  "rel": "market/mua-ban-xe-cu/kiem-tra-so-khung-so-may-xe-cu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-mua-xe/kiem-tra-xe-cu/index.html",
   "kind": "article"
  },
@@ -2269,6 +2281,10 @@
  },
  {
   "rel": "tips/meo-xu-ly-su-co/lop-non-nhanh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/lop/lop-xe-may-mon-lech-mot-ben/index.html",
   "kind": "article"
  },
  {
@@ -2364,6 +2380,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/phanh-dia-xe-may-keu-rit/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/phanh-dia/index.html",
   "kind": "article"
  },
@@ -2405,6 +2425,10 @@
  },
  {
   "rel": "wiki/dong-co/piston-xy-lanh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dong-co/quat-ket-nuoc-xe-tay-ga-khong-quay/index.html",
   "kind": "article"
  },
  {
@@ -2524,11 +2548,19 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/tay-phanh-mem-an-sau-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/chinh-sach-phap-ly/thay-doi-luat-giao-thong/index.html",
   "kind": "article"
  },
  {
   "rel": "wiki/lop-banh-xe/thay-lop-khi-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/lop/thay-lop-xe-may-can-kiem-tra-gi/index.html",
   "kind": "article"
  },
  {
@@ -3604,6 +3636,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dong-co/xe-may-bi-ngap-xang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/xe-may-dia-phuong/index.html",
   "kind": "article"
  },
@@ -3661,6 +3697,10 @@
  },
  {
   "rel": "moto/sym/xe-sym/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dong-co/xe-tay-ga-ro-ga-khong-len-toc-do/index.html",
   "kind": "article"
  },
  {
