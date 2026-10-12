@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-do-thi',
-  title: 'Thuê xe máy hà nội: cách kiểm tra trước khi quyết định trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: cách kiểm tra trước khi quyết định trong điều kiện đô thị',
   seoTitle: 'Thuê xe máy Hà Nội trong đô thị: kiểm tra xe trước khi chốt',
   metaDescription: 'Cách kiểm tra xe máy thuê cho việc đi lại trong nội thành Hà Nội: phanh, độ thăng bằng khi đi chậm, khóa chống trộm, đèn xi nhan, gương và chạy thử giữa phố.',
   summary: 'Bài viết hướng dẫn kiểm tra xe máy thuê cho điều kiện đô thị ở Hà Nội: độ nhạy phanh và ga khi đi chậm, kích thước xe so với ngõ hẹp, khóa và chống trộm, đèn báo hiệu trong giờ cao điểm và cách chạy thử trước khi quyết định.',

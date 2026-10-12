@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-thuc-te',
-  title: 'Thuê xe máy hà nội: chi phí và cách tính theo tình huống thực tế',
+  title: 'Thuê xe máy Hà Nội: chi phí và cách tính theo tình huống thực tế',
   seoTitle: 'Thuê xe máy Hà Nội: chi phí phát sinh theo tình huống',
   metaDescription: 'Chi phí khi thuê xe máy ở Hà Nội gặp tình huống thực tế: trả muộn, thủng lốp, xước xe, mất chìa khóa, đổi hoặc hủy lịch thuê và cách yêu cầu bảng kê rõ ràng.',
   summary: 'Bài viết đi qua những tình huống thực tế khiến chi phí thuê xe máy ở Hà Nội phát sinh ngoài dự kiến: trả muộn, thủng lốp hoặc hỏng nhỏ, xước xe, mất chìa khóa, đổi hoặc hủy lịch thuê, và hướng dẫn cách yêu cầu bảng kê, đối chiếu để chỉ trả khoản có căn cứ.',

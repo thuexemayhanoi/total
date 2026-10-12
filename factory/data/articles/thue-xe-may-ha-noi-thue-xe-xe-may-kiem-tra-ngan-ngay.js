@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-ngan-ngay',
-  title: 'Thuê xe máy hà nội: cách kiểm tra trước khi quyết định khi dùng ngắn ngày',
+  title: 'Thuê xe máy Hà Nội: cách kiểm tra trước khi quyết định khi dùng ngắn ngày',
   seoTitle: 'Thuê xe máy Hà Nội ngắn ngày: kiểm tra nhanh trước khi nhận',
   metaDescription: 'Cách kiểm tra nhanh xe máy khi thuê vài ngày ở Hà Nội: ưu tiên phanh, lốp, đèn, hỏi rõ giờ nhận trả, mức xăng và ghi lại hiện trạng để trả xe gọn.',
   summary: 'Bài viết hướng dẫn người thuê xe máy từ một đến ba ngày ở Hà Nội cách kiểm tra gọn mà vẫn đủ an toàn: bộ kiểm tra nhanh, cách hỏi giờ nhận trả và mức xăng, lập kế hoạch lộ trình ngắn và ghi nhận hiện trạng để trả xe không phát sinh.',

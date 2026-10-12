@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-do-thi',
-  title: 'Thuê xe máy hà nội: chi phí và cách tính trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: chi phí và cách tính trong điều kiện đô thị',
   seoTitle: 'Thuê xe máy Hà Nội trong phố: chi phí và cách tính',
   metaDescription: 'Các khoản chi khi thuê xe máy đi lại trong nội thành Hà Nội: nhiên liệu khi dừng đỗ nhiều, gửi xe, khóa chống trộm, hư hỏng nhỏ và cách ước tính mỗi ngày.',
   summary: 'Bài viết nêu các khoản chi tiêu đặc thù khi thuê xe máy để di chuyển trong nội thành Hà Nội: nhiên liệu khi dừng đèn đỏ nhiều, phí gửi xe, thiết bị chống trộm, hư hỏng nhỏ do giao thông đông, cùng cách ước tính chi phí mỗi ngày mà không nêu mức giá cụ thể.',

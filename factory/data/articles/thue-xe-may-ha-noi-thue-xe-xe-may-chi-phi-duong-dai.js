@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-duong-dai',
-  title: 'Thuê xe máy hà nội: chi phí và cách tính khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: chi phí và cách tính khi đi đường dài',
   seoTitle: 'Thuê xe máy Hà Nội đi đường dài: chi phí và cách tính',
   metaDescription: 'Chi phí thuê xe máy ở Hà Nội để đi liên tỉnh: nhiên liệu, giới hạn quãng đường, phụ phí đi xa, sửa chữa giữa đường, trả xe sai nơi và cách lập ngân sách.',
   summary: 'Bài viết phân tích các nhóm chi phí khi thuê xe máy ở Hà Nội để đi đường dài: nhiên liệu theo chặng, giới hạn quãng đường và phụ phí đi xa, chi phí sửa chữa hoặc hỗ trợ giữa đường, trả xe sai điểm hoặc sai giờ, cùng cách lập ngân sách có dự phòng cho chuyến đi.',

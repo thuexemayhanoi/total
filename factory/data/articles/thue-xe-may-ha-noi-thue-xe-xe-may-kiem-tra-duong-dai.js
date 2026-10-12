@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-duong-dai',
-  title: 'Thuê xe máy hà nội: cách kiểm tra trước khi quyết định khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: cách kiểm tra trước khi quyết định khi đi đường dài',
   seoTitle: 'Thuê xe máy Hà Nội đi đường dài: kiểm tra trước khi quyết định',
   metaDescription: 'Cách kiểm tra xe máy thuê ở Hà Nội trước chuyến đi liên tỉnh: lốp, phanh, xích, phạm vi được phép đi, phương án khi xe hỏng xa nhà, nhiên liệu và trả xe.',
   summary: 'Bài viết hướng dẫn người thuê xe máy ở Hà Nội cho chuyến đi đường dài: kiểm tra phần cơ khí chịu tải, hỏi về phạm vi được phép đi, chuẩn bị phương án khi xe hỏng ngoài tỉnh, tính nhiên liệu, hành lý và kế hoạch trả xe sau hành trình.',

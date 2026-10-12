@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-ngan-ngay',
-  title: 'Thuê xe máy hà nội: chi phí và cách tính khi dùng ngắn ngày',
+  title: 'Thuê xe máy Hà Nội: chi phí và cách tính khi dùng ngắn ngày',
   seoTitle: 'Thuê xe máy Hà Nội ngắn ngày: chi phí và cách tính đúng',
   metaDescription: 'Cách tính chi phí khi thuê xe máy ở Hà Nội trong một đến ba ngày: tính theo ngày hay giờ, mốc giờ nhận trả, tiền cọc, nhiên liệu và phí trả muộn cần hỏi trước.',
   summary: 'Bài viết phân tích cách tính chi phí khi thuê xe máy ở Hà Nội trong khoảng một đến ba ngày: đơn vị tính theo ngày, theo giờ hay theo ca, ảnh hưởng của giờ nhận và giờ trả, tiền cọc, nhiên liệu và cách ước tính tổng chi tiêu cho chuyến ngắn mà không cần dựa vào mức giá cụ thể.',
