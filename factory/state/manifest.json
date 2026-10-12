@@ -1552,6 +1552,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/ac-quy-xe-may-phong-ri-nuoc-mui-la/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/ac-quy-xe-may/index.html",
   "kind": "article"
  },
@@ -1717,6 +1721,10 @@
  },
  {
   "rel": "wiki/dau-nhot/chon-dau-nhot/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/mua-xe/chon-xe-may-cho-nguoi-cao-tuoi/index.html",
   "kind": "article"
  },
  {
@@ -2152,6 +2160,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/he-thong-danh-lua-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/he-thong-dien-xe/index.html",
   "kind": "article"
  },
@@ -2220,6 +2232,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/ky-thuat-lai-xe/kiem-soat-xe-may-o-toc-do-cham/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "market/mua-ban-xe-cu/kiem-tra-so-khung-so-may-xe-cu/index.html",
   "kind": "article"
  },
@@ -2272,7 +2288,15 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/lam-mat-bang-gio-va-bang-dung-dich/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/du-lich-xe-may/lich-trinh-du-lich/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/loc-dien-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -2380,6 +2404,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/he-thong-phanh/phanh-cbs-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/phanh/phanh-dia-xe-may-keu-rit/index.html",
   "kind": "article"
  },
@@ -2421,6 +2449,10 @@
  },
  {
   "rel": "learn/kien-thuc-xe-dien/pin-lithium/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/pin-xe-may-dien-bao-day-nhung-nhanh-het/index.html",
   "kind": "article"
  },
  {
@@ -3641,6 +3673,14 @@
  },
  {
   "rel": "hub/dia-phuong/xe-may-dia-phuong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-dien-di-mua-co-sao-khong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/loi-thuong-gap/xe-may-keo-lech-khi-buong-tay-lai/index.html",
   "kind": "article"
  },
  {

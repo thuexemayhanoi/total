@@ -16053,11 +16053,13 @@
    "title": "Làm mát bằng gió và bằng dung dịch: khác biệt cơ bản và hệ quả khi sử dụng, bảo dưỡng",
    "primaryIntent": "informational/lam-mat-bang-gio-va-bang-dung-dich",
    "notes": "source=topic-v2 topicId=T001131",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.068Z",
-   "updatedAt": "2026-10-12T12:52:48.069Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 3149
   },
   {
    "id": "S01115",
@@ -16066,11 +16068,13 @@
    "title": "Hệ thống đánh lửa trên xe máy: từ bô bin đến bugi, mỗi bộ phận làm gì",
    "primaryIntent": "informational/he-thong-danh-lua-xe-may",
    "notes": "source=topic-v2 topicId=T001132",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.085Z",
-   "updatedAt": "2026-10-12T12:52:48.085Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 2957
   },
   {
    "id": "S01116",
@@ -16079,11 +16083,13 @@
    "title": "Lốc điện và bộ nạp điện trên xe máy: vai trò của stator, regulator và dấu hiệu hỏng",
    "primaryIntent": "informational/loc-dien-xe-may",
    "notes": "source=topic-v2 topicId=T001135",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.097Z",
-   "updatedAt": "2026-10-12T12:52:48.097Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 3036
   },
   {
    "id": "S01117",
@@ -16092,11 +16098,13 @@
    "title": "Phanh kết hợp CBS trên xe máy: cơ chế, khác biệt với ABS và cảm giác khi bóp phanh",
    "primaryIntent": "informational/phanh-cbs-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001136",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.109Z",
-   "updatedAt": "2026-10-12T12:52:48.109Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 2929
   },
   {
    "id": "S01118",
@@ -16105,11 +16113,13 @@
    "title": "Kiểm soát xe ở tốc độ rất chậm: bóp côn nhẹ, phanh sau và nhìn xa để không loạng choạng",
    "primaryIntent": "informational/kiem-soat-xe-may-o-toc-do-cham",
    "notes": "source=topic-v2 topicId=T001148",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.122Z",
-   "updatedAt": "2026-10-12T12:52:48.122Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 2966
   },
   {
    "id": "S01119",
@@ -16118,11 +16128,13 @@
    "title": "Pin xe máy điện báo đầy nhưng chạy nhanh hết: phân biệt sụt áp, mất cân bằng cell và chai pin",
    "primaryIntent": "troubleshooting/pin-xe-may-dien-bao-day-nhung-nhanh-het",
    "notes": "source=topic-v2 topicId=T001156",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.145Z",
-   "updatedAt": "2026-10-12T12:52:48.145Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 3016
   },
   {
    "id": "S01120",
@@ -16131,11 +16143,13 @@
    "title": "Xe máy điện đi mưa và rửa xe: điểm kín nước, điểm tuyệt đối không xịt nước",
    "primaryIntent": "informational/xe-may-dien-di-mua-co-sao-khong",
    "notes": "source=topic-v2 topicId=T001157",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.157Z",
-   "updatedAt": "2026-10-12T12:52:48.157Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 3020
   },
   {
    "id": "S01121",
@@ -16144,11 +16158,13 @@
    "title": "Chọn xe máy cho người cao tuổi: tiêu chí về chiều cao yên, trọng lượng và độ ổn định khi dừng",
    "primaryIntent": "informational/chon-xe-may-cho-nguoi-cao-tuoi",
    "notes": "source=topic-v2 topicId=T001167",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:52:48.170Z",
-   "updatedAt": "2026-10-12T12:52:48.170Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 3048
   },
   {
    "id": "S01122",
@@ -16157,11 +16173,13 @@
    "title": "Ắc quy xe máy phồng, rỉ nước hoặc có mùi lạ: dấu hiệu nguy hiểm và cách xử lý an toàn",
    "primaryIntent": "troubleshooting/ac-quy-xe-may-phong-ri-nuoc-mui-la",
    "notes": "source=topic-v2 topicId=T001184",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:53:52.420Z",
-   "updatedAt": "2026-10-12T12:53:52.420Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 2984
   },
   {
    "id": "S01123",
@@ -16170,11 +16188,13 @@
    "title": "Xe kéo lệch về một bên khi buông nhẹ tay lái: kiểm tra từ áp suất lốp đến khung và phuộc",
    "primaryIntent": "troubleshooting/xe-may-keo-lech-khi-buong-tay-lai",
    "notes": "source=topic-v2 topicId=T001185",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:53:52.435Z",
-   "updatedAt": "2026-10-12T12:53:52.435Z"
+   "updatedAt": "2026-10-12T13:18:10.076Z",
+   "seoScore": 100,
+   "words": 3019
   },
   {
    "id": "S01124",
