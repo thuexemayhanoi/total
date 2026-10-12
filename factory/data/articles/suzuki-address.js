@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'suzuki-address',
-  title: 'Hướng dẫn chi tiết về suzuki address',
+  title: 'Hướng dẫn chi tiết về Suzuki Address',
   seoTitle: 'Suzuki Address: xe ga kinh tế nhẹ và kinh nghiệm sử dụng',
   metaDescription: 'Suzuki Address là xe ga phổ thông nhẹ, tiết kiệm của Suzuki Việt Nam. Tìm hiểu đặc tính vận hành, tiện nghi, bảo dưỡng và cân nhắc khi chọn Address.',
   summary: 'Address là mẫu xe Suzuki cạnh tranh ở mặt trận đông khách nhất — xe ga phổ thông kinh tế — và cách cạnh tranh của nó khác biệt: nhẹ hơn, gọn hơn, giá mềm hơn, thay vì bằng trang bị. Kết quả là một chiếc xe có tính cách rõ: nhanh nhẹn trong phố, dễ lùi dễ đỗ, tiêu hao nhiên liệu thấp, và cốp đủ cho người đi một mình — trao đổi lại là ít "đồ chơi" và khoang chở khiêm tốn. Bài viết này viết cho người đang cân Address với các xe ga phổ thông của hai hãng lớn: Address là ai và chọn nó vì đúng tính cách nhẹ – tiết kiệm; trải nghiệm hằng ngày — cốp, tư thế, chở đồ, phố và hẻm; lịch bảo dưỡng và nhóm lỗi hay gặp; và phần so sánh trung thực — đâu là những gì Address không làm tốt bằng đối thủ, để quyết định mua là quyết định biết cả hai mặt. Một bài viết cho người ưu tiên chi phí và sự nhẹ nhàng hơn mọi thứ khác.',

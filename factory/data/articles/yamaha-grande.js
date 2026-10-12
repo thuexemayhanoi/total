@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'yamaha-grande',
-  title: 'Kinh nghiệm yamaha grande dành cho người mới',
+  title: 'Kinh nghiệm Yamaha Grande dành cho người mới',
   seoTitle: 'Yamaha Grande: trải nghiệm thực và kinh nghiệm dùng hằng ngày',
   metaDescription: 'Yamaha Grande là xe ga phong cách với công nghệ đề êm Smart Motor Generator. Tìm hiểu trải nghiệm thực, bảo dưỡng và lỗi hay gặp khi dùng Grande.',
   summary: 'Grande là câu trả lời của Yamaha cho nhóm khách muốn chiếc xe ga vừa là phương tiện vừa là phụ kiện phong cách: đường nét thon, bảng màu theo mùa thời trang, cốp rộng bất ngờ so với vóc dáng, và một công nghệ đặc trưng — hệ thống đề êm cho máy khởi động nhẹ gần như không tiếng động. Nhưng đi kèm câu chuyện phong cách là những câu hỏi thực tế ít được viết: đề êm hoạt động ra sao và có dễ hỏng không; cốp rộng tới mức nào so với đối thủ; trải nghiệm chở đôi và đường trường thế nào với một chiếc xe thiên về nhẹ nhàng; kỳ bảo dưỡng và phụ tùng khác Honda ra sao; và nhóm lỗi hay gặp theo tuổi xe. Bài viết này trả lời từng câu theo trải nghiệm người dùng hằng ngày, kèm phần cuối cho người cân nhắc giữa Grande và các xe ga cùng tầm — không ca ngợi cũng không chê bai, chỉ nêu mặt mạnh và mặt giá phải trả.',

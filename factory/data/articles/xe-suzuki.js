@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'xe-suzuki',
-  title: 'Tổng hợp kiến thức: xe suzuki',
+  title: 'Tổng hợp kiến thức: xe Suzuki',
   seoTitle: 'Xe Suzuki Việt Nam: các dòng xe, ưu thế giá và cách chọn',
   metaDescription: 'Xe Suzuki tại Việt Nam: Raider côn tay, Address ga kinh tế, GD xe số. Tìm hiểu đặc trưng từng dòng, ưu thế giá, mạng dịch vụ và cách chọn đúng.',
   summary: 'Suzuki là hãng lớn "bé" nhất trong nhóm bốn thương hiệu xe máy Nhật tại Việt Nam: sản lượng và độ phủ kém hơn ba ông lớn, nhưng chính vị trí đó tạo nên tính cách riêng — Suzuki cạnh tranh bằng giá và bằng hai mặt trận chọn lọc: côn tay thể thao và xe ga kinh tế, thay vì đánh mọi phân khúc. Kết quả là một thương hiệu có bản đồ dễ đọc: muốn côn tay phổ thông đáng giá — Raider; muốn xe ga Nhật giá mềm — Address; muốn xe số phong cách — GD. Bài viết này vẽ bản đồ đầy đủ cho người cân xe Suzuki: đặc trưng thương hiệu và cách định vị "nicho" của hãng; từng dòng trong dải hiện bán — ai hợp cái gì; mạng lưới dịch vụ và chi phí sở hữu thật, kể cả phần cần cân nhắc về độ phủ tỉnh lẻ; và khung chọn nhanh theo nhu cầu. Kết luận thẳng: Suzuki mạnh ở đâu, người nào mua Suzuki là chọn đúng, và người nào nên nhìn sang — quyết định sáng nhất là quyết định biết rõ mình mua phần gì và đánh đổi phần gì.',

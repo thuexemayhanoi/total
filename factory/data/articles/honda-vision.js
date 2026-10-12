@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'honda-vision',
-  title: 'Tổng hợp kiến thức: honda vision',
+  title: 'Tổng hợp kiến thức: Honda Vision',
   seoTitle: 'Honda Vision: hướng dẫn sử dụng và kinh nghiệm hằng ngày',
   metaDescription: 'Honda Vision là xe ga phổ biến nhất Việt Nam. Hướng dẫn làm quen xe mới, tiện nghi, thói quen vận hành, phụ tùng và giữ xe bền qua từng năm máy.',
   summary: 'Honda Vision là dòng xe ga bán chạy bậc nhất Việt Nam — và cũng là dòng mà người mua dễ ra quyết định nhanh nhất, vì "ai cũng mua" đã thay cho việc tự trả lời xe có hợp mình không. Bài viết này không lặp lại bảng thông số đã có ở bài riêng, mà tập trung vào phần ít được nói: hành trình làm chủ chiếc Vision từ ngày nhận xe — khởi động, cốp, khóa và tiện nghi thực tế; thói quen hằng ngày khiến xe bền (chạy rà, đỗ, đổ xăng, rửa xe); hiểu hệ thống cảnh báo trên bảng đồng hồ và cách phản ứng; chọn phụ tùng thay thế giữa hàng chính hãng và hàng thị trường; và cuối cùng là nhóm lỗi nhỏ hay gặp theo tuổi xe kèm cách tự kiểm tra trước khi mang ra HEAD. Hiểu đúng những việc nhỏ này là khác biệt giữa một chiếc Vision chạy mượt năm năm và một chiếc Vision "già trước tuổi".',

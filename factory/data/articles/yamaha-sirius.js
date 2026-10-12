@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'yamaha-sirius',
-  title: 'Hướng dẫn chi tiết về yamaha sirius',
+  title: 'Hướng dẫn chi tiết về Yamaha Sirius',
   seoTitle: 'Yamaha Sirius: xe số bền bỉ — phiên bản, dùng và bảo dưỡng',
   metaDescription: 'Yamaha Sirius là xe số phổ thông bền của Yamaha Việt Nam. Tìm hiểu các phiên bản, thói quen vận hành tiết kiệm, bảo dưỡng và kinh nghiệm mua cũ.',
   summary: 'Sirius là lời trả lời của Yamaha cho phân khúc xe số phổ thông — nơi khách hàng chỉ hỏi ba câu: xăng tiết kiệm không, sửa có rẻ không, chạy có bền không. Trong nhiều năm, Sirius giữ vị trí đối thủ trực tiếp và bền bỉ nhất của dòng xe số "quốc dân": kết cấu đơn giản dễ sửa, phụ tùng sẵn, động cơ nhỏ tiết kiệm, và một cộng đồng người dùng chạy nghề lớn đưa kinh nghiệm bảo dưỡng cho dòng xe này phong phú hiếm có. Bài viết này viết cho người coi Sirius là công cụ: khác biệt giữa các phiên bản để chọn đúng bản giá trị; thói quen vận hành cho động cơ nhỏ — ga đều, về số đúng, chăm bộ xích; lịch bảo dưỡng với các hạng mục quyết định tuổi thọ; nhóm lỗi hay gặp theo tuổi xe và cách tự nhận biết sớm; và phần mua cũ — nơi Sirius thị trường rộng nhưng lẫn nhiều xe chạy nghề mòn sâu, kèm cách ước tuổi thật qua cụm hao mòn thay vì đồng hồ.',

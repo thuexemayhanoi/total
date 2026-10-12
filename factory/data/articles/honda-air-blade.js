@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'honda-air-blade',
-  title: 'Kinh nghiệm honda air blade dành cho người mới',
+  title: 'Kinh nghiệm Honda Air Blade dành cho người mới',
   seoTitle: 'Honda Air Blade: các thế hệ, vận hành và kinh nghiệm chọn',
   metaDescription: 'Honda Air Blade là xe ga thể thao phổ biến tại Việt Nam. Tìm hiểu khác biệt các thế hệ, đặc tính vận hành, bảo dưỡng và kinh nghiệm khi mua cũ.',
   summary: 'Air Blade chiếm vị trí "xe ga thể thao đa dụng" trong dải sản phẩm Honda Việt Nam: mạnh mẽ hơn nhóm xe ga phổ thông, gọn gàng hơn nhóm xe ga lớn, và đủ lịch sự để đi làm lẫn đủ nhanh để đi xa cuối tuần. Nhưng giữa các thế hệ, Air Blade thay đổi đủ nhiều để việc chọn "đời nào" là câu hỏi đáng tiền. Bài viết này đi theo trình tự người mua thực tế: điểm đặc trưng làm nên tính cách Air Blade so với Vision và nhóm xe ga cao cấp hơn; khác biệt giữa các thế hệ động cơ và trang bị để tự trả lời "mua đời nào hợp nhu cầu"; đặc tính vận hành cần làm quen — đường đòn gánh nặng, độ nhạy ga, phanh trước sau; lịch bảo dưỡng chủ lực với các hạng mục đặc thù của xe thể thao ga; và phần mua cũ: kiểm tra gì trên thân vỏ, động cơ và giấy tờ để tránh chiếc xe từng bị "đua".',

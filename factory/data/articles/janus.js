@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'janus',
-  title: 'Kinh nghiệm janus dành cho người mới',
+  title: 'Kinh nghiệm Janus dành cho người mới',
   seoTitle: 'Yamaha Janus: xe ga trẻ trung và kinh nghiệm sử dụng',
   metaDescription: 'Yamaha Janus là xe ga 125cc phong cách trẻ của Yamaha. Tìm hiểu đặc tính vận hành, tiện nghi, bảo dưỡng và kinh nghiệm chọn Janus cho người mới.',
   summary: 'Janus là mẫu xe ga Yamaha hướng thẳng tới nhóm khách trẻ: vóc dáng gọn nhẹ hợp người mới lái và vóc dáng nhỏ, bảng màu trẻ trung, và khối động cơ 125cc đủ đầm cho phố lẫn những chuyến về quê cuối tuần. Nhưng "xe cho người mới" cũng là dòng dễ bị hỏi nhất về độ bền, chi phí và giữ giá. Bài viết này trả lời theo trình tự người mua: Janus là ai trong dải Yamaha — đứng đâu so với Grande và FreeGo; trải nghiệm người mới lái cần làm quen (đề êm, ga nhạy, cốp và tư thế ngồi); thói quen hằng ngày giữ xe trẻ bền — vì xe phong cách xuống cấp nhanh nhất theo nắng và vết xước; lịch bảo dưỡng và nhóm lỗi hay gặp theo tuổi xe; và phần cuối cho người cân Janus với các xe ga cùng tầm bằng ba tiêu chí thực dụng. Một bài thẳng cho người đang chuẩn bị mua chiếc xe ga đầu tiên của mình.',

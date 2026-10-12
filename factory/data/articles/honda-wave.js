@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'honda-wave',
-  title: 'Hướng dẫn chi tiết về honda wave',
+  title: 'Hướng dẫn chi tiết về Honda Wave',
   seoTitle: 'Honda Wave: xe số quốc dân — sử dụng, bảo dưỡng và giữ bền',
   metaDescription: 'Honda Wave là dòng xe số bền bỉ nhất phân khúc phổ thông Việt Nam. Hướng dẫn phiên bản, thói quen vận hành, bảo dưỡng siêu rẻ và kinh nghiệm mua cũ.',
   summary: 'Nếu thị trường xe máy Việt Nam có một chiếc xe "quốc dân" đúng nghĩa số lượng, đó là Honda Wave: xe số nhỏ gọn, tiêu hao nhiên liệu thuộc hàng thấp nhất, giá phụ tùng rẻ như bút bi, và tuổi thọ khiến nhiều chiếc xe chạy hai mươi năm vẫn còn nguyên vẹn cho công việc đưa đón mỗi ngày. Nhưng chính vì phổ biến, Wave cũng là dòng bị hiểu sai nhiều nhất — bị coi là "xe gì mà chẳng thế" nên ít ai đọc kỹ cách dùng nó bền. Bài viết này viết cho người coi Wave là công cụ kiếm cơm hoặc phương tiện chính của gia đình: khác biệt giữa các phiên bản để chọn đúng; thói quen vận hành tiết kiệm xăng nhất cho động cơ nhỏ; lịch bảo dưỡng với các hạng mục rẻ mà không được bỏ; cách xử lý nhóm lỗi hay gặp theo tuổi xe; và kinh nghiệm mua Wave cũ — thị trường rộng nhất nhưng cũng lẫn nhiều xe "đồng hồ quay lại".',

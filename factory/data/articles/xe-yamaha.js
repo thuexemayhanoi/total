@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'xe-yamaha',
-  title: 'Tổng hợp kiến thức: xe yamaha',
+  title: 'Tổng hợp kiến thức: xe Yamaha',
   seoTitle: 'Xe Yamaha: công nghệ, các dòng xe và cách chọn đúng',
   metaDescription: 'Xe Yamaha tại Việt Nam: công nghệ Blue Core, đề êm SMG, dải xe số tới xe ga. Tìm hiểu đặc trưng từng dòng, mạng dịch vụ và cách chọn theo nhu cầu.',
   summary: 'Yamaha là nhà sản xuất đứng thứ hai thị trường xe máy Việt Nam — nhưng vị trí đó chỉ nói nửa câu chuyện; nửa còn lại là cách Yamaha khác Honda: dải sản phẩm thiên về cảm giác (xe thể thao, xe côn tay được đầu tư hơn hẳn), công nghệ động cơ đặt mục tiêu tiết kiệm đi kèm trải nghiệm (công nghệ động cơ thế hệ mới của hãng), và văn hóa xe Yamaha gắn với người chơi xe — từ Exciter côn tay tới các dòng ga phong cách. Bài viết này hệ thống kiến thức cho người đang cân xe Yamaha: đặc trưng công nghệ đáng hiểu (động cơ tiết kiệm thế hệ mới, đề êm, các tiện nghi đặc thù); bản đồ dải sản phẩm từ xe số phổ thông tới côn tay thể thao và ba nhóm xe ga; mạng lưới dịch vụ và chi phí sở hữu thực; và một khung chọn nhanh — trả lời ba câu để biết mình hợp dòng Yamaha nào. Kết luận thẳng: Yamaha mạnh ở đâu, yếu ở đâu, và ai nên chọn nó thay vì chọn Honda.',

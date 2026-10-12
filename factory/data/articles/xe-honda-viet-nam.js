@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'xe-honda-viet-nam',
-  title: 'Tổng hợp kiến thức: xe honda việt nam',
+  title: 'Tổng hợp kiến thức: xe Honda Việt Nam',
   seoTitle: 'Xe Honda Việt Nam: bản đồ các dòng xe và cách chọn',
   metaDescription: 'Xe Honda tại Việt Nam trải từ xe số Wave tới ga cao cấp SH. Tìm hiểu bản đồ các dòng, công nghệ động cơ, hệ thống HEAD và cách chọn theo nhu cầu.',
   summary: 'Honda là nhà sản xuất xe máy lớn nhất Việt Nam cả về doanh số lẫn độ phủ dải sản phẩm — từ chiếc xe số phổ thông chạy việc tới những chiếc xe ga cao cấp nhất phân khúc. Nhưng chính độ rộng đó khiến người mua dễ lạc: cùng là Honda, chiếc này phụ tùng rẻ như rau, chiếc kia mỗi kỳ bảo dưỡng bằng cả tháng xăng. Bài viết này vẽ lại bản đồ xe Honda tại Việt Nam theo ba tầng sản phẩm — xe số phổ thông, xe ga phổ thông, xe ga cao cấp — kèm giải thích công nghệ động cơ thông dụng, cách vận hành hệ thống HEAD và đại lý ủy quyền, và một khung tính tổng chi sở hữu theo từng tầng để trả lời câu hỏi khó nhất: "Honda nào hợp với túi tiền và nhu cầu của tôi". Không ca ngợi thương hiệu chung chung — mỗi tầng đều nêu rõ mặt mạnh và cái giá phải trả.',
