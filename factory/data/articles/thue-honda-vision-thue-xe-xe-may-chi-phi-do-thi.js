@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-chi-phi-do-thi',
-  title: 'Thuê honda vision: chi phí và cách tính trong điều kiện đô thị',
+  title: 'Thuê Honda Vision: chi phí và cách tính trong điều kiện đô thị',
   seoTitle: 'Chi phí thuê Honda Vision đi phố: các khoản và cách so sánh',
   metaDescription: 'Hướng dẫn tách các khoản chi phí khi thuê Honda Vision để đi trong đô thị: tiền thuê, đặt cọc, xăng, gửi xe, cách xin bảng kê và so sánh báo giá công bằng.',
   summary: 'Bài hướng dẫn cách tách và gọi tên từng khoản chi phí khi thuê Honda Vision để đi lại trong đô thị: tiền thuê, đặt cọc, xăng, gửi xe và các khoản phát sinh nhỏ, kèm cách xin bảng kê bằng văn bản và so sánh hai báo giá trên cùng điều kiện.',

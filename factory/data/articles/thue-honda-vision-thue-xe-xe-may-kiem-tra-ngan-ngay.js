@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-kiem-tra-ngan-ngay',
-  title: 'Thuê honda vision: cách kiểm tra trước khi quyết định khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: cách kiểm tra trước khi quyết định khi dùng ngắn ngày',
   seoTitle: 'Thuê Honda Vision ngắn ngày: kiểm tra nhanh mà đủ ý',
   metaDescription: 'Cách kiểm tra Honda Vision gọn mà đủ khi chỉ thuê một đến ba ngày: mức xăng, phụ kiện đi kèm, giờ nhận trả khớp lịch trình và chụp ảnh tại chỗ trong vài phút.',
   summary: 'Bài hướng dẫn kiểm tra Honda Vision khi chỉ thuê một đến ba ngày: làm gọn mà không bỏ bước quan trọng như mức xăng, mũ bảo hiểm, khóa, giờ nhận trả khớp lịch trình và chụp ảnh tình trạng xe ngay tại chỗ trong vài phút.',

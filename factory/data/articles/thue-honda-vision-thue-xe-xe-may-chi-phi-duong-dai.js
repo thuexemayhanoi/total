@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-chi-phi-duong-dai',
-  title: 'Thuê honda vision: chi phí và cách tính khi đi đường dài',
+  title: 'Thuê Honda Vision: chi phí và cách tính khi đi đường dài',
   seoTitle: 'Chi phí thuê Honda Vision đi đường dài: các khoản cần tính',
   metaDescription: 'Chi phí khi thuê Honda Vision đi đường dài: nhiên liệu, giới hạn km, trả xe nơi khác, dự phòng sự cố và cách hỏi bảng kê rõ ràng, không đưa ra số tiền cụ thể.',
   summary: 'Bài viết giúp người đi đường dài bằng Honda Vision thuê nhìn đủ các nhóm chi phí: tiền thuê và điều kiện, nhiên liệu và khoản dọc đường, giới hạn quãng đường, trả xe nơi khác và khoản dự phòng cho sự cố hoặc chậm lịch trình.',

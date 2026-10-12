@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-kiem-tra-thuc-te',
-  title: 'Thuê honda vision: cách kiểm tra trước khi quyết định theo tình huống thực tế',
+  title: 'Thuê Honda Vision: cách kiểm tra trước khi quyết định theo tình huống thực tế',
   seoTitle: 'Kiểm tra Honda Vision thuê khi gặp tình huống không như ý',
   metaDescription: 'Cách kiểm tra Honda Vision khi tình huống không như kịch bản: nhận xe buổi tối hay trời mưa, phát hiện lỗi sau khi nhận, xe có dấu vết va chạm, bị giục ký nhanh.',
   summary: 'Bài hướng dẫn cách kiểm tra Honda Vision khi tình huống không diễn ra như kế hoạch: nhận xe buổi tối hoặc trời mưa, phát hiện lỗi sau khi đã rời điểm nhận, xe có dấu vết từng va chạm hoặc sửa chữa, và khi người cho thuê giục bạn ký nhanh để đi.',

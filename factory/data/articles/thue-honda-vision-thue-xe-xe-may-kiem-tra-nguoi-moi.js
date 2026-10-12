@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-kiem-tra-nguoi-moi',
-  title: 'Thuê honda vision: cách kiểm tra trước khi quyết định cho người mới',
+  title: 'Thuê Honda Vision: cách kiểm tra trước khi quyết định cho người mới',
   seoTitle: 'Người mới thuê Honda Vision: cách kiểm tra xe từng bước',
   metaDescription: 'Hướng dẫn người lần đầu thuê Honda Vision kiểm tra xe trước khi quyết định: nhìn ngoại hình, thử ga phanh đèn, xem giấy tờ xe và biết khi nào nên chọn xe khác.',
   summary: 'Bài dành cho người lần đầu thuê Honda Vision, hướng dẫn kiểm tra xe theo thứ tự dễ làm: quan sát ngoại hình, lốp, thử ga phanh đèn, xem giấy tờ xe, đặt đúng câu hỏi với người cho thuê và biết khi nào nên từ chối để chọn chiếc xe khác.',

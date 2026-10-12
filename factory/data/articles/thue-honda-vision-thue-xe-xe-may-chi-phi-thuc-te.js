@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-chi-phi-thuc-te',
-  title: 'Thuê honda vision: chi phí và cách tính theo tình huống thực tế',
+  title: 'Thuê Honda Vision: chi phí và cách tính theo tình huống thực tế',
   seoTitle: 'Thuê Honda Vision: chi phí phát sinh theo tình huống thực tế',
   metaDescription: 'Các tình huống làm chi phí thuê Honda Vision thay đổi như trả xe muộn, thủng lốp, trầy xước, mưa ngập, cùng cách hỏi trước và ghi chép để kết toán rõ ràng.',
   summary: 'Bài phân tích những tình huống thực tế khiến chi phí thuê Honda Vision khác với dự tính ban đầu, như trả xe muộn, hỏng vặt, thủng lốp, trầy xước hay mưa lớn, và hướng dẫn cách hỏi trước, ghi chép lại để kết toán minh bạch khi trả xe.',

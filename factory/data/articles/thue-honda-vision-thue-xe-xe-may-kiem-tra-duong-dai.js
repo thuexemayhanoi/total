@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-kiem-tra-duong-dai',
-  title: 'Thuê honda vision: cách kiểm tra trước khi quyết định khi đi đường dài',
+  title: 'Thuê Honda Vision: cách kiểm tra trước khi quyết định khi đi đường dài',
   seoTitle: 'Thuê Honda Vision đi đường dài: kiểm tra xe trước hành trình',
   metaDescription: 'Cách kiểm tra Honda Vision trước chuyến đi liên tỉnh: lốp, phanh, bộ truyền động, quãng đường giữa các trạm xăng, hành lý và thỏa thuận khi xe gặp sự cố dọc đường.',
   summary: 'Bài hướng dẫn kiểm tra Honda Vision trước chuyến đi xa liên tỉnh: tình trạng lốp, phanh, bộ truyền động, cách ước lượng quãng đường giữa các lần đổ xăng, tải trọng hành lý và những điều cần thống nhất về sự cố dọc đường hay trả xe ở nơi khác.',
