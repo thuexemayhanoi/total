@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-// AI WIKI TOTAL — kiểm thử PRODUCTION CYCLE (12-18 bài / 3 writer / scoped QA)
+// AI WIKI TOTAL — hồi quy LEGACY CYCLE (12–18 bài, scoped QA, KHÔNG phải hot path)
 // Regression: buildCyclePlan (12-18, refill hint), parseCycleIds (giới hạn),
 // selectRefillTopics (dedupe/target), topic-pool hợp lệ, và e2e trên bản sao
-// tmp: queue-refill 0 -> 300, cycle-plan 18, cycle-qa scoped (PASS/REPAIR,
+// tmp: queue-refill curated pool + deterministic Topic Factory -> 300, cycle-plan 18,
 // KHÔNG quét toàn site), cycle-publish defer REPAIR + build/deploy 1 lần,
 // manifest-sync 203 rows, sqlite corrupt -> rebuild phục hồi.
 // State thật PHẢI byte-identical sau toàn suite (mọi e2e chạy trong tmp).
@@ -218,13 +218,28 @@ let T5;
   writeJson(path.join(tmp, 'factory', 'state', 'checkpoint.json'), cpF);
   const origSlots = mFix.slots.length;
   const { TOPICS } = require('./data/topic-pool');
-  // Refill bị chặn bởi pool: chỉ topic KHÔNG trùng slug đã có được nhận. Số
-  // kỳ vọng TÍNH ĐỘNG (pool gần cạn khi ma trận lớn — không hardcode).
-  const expected = runtime.selectRefillTopics(TOPICS, mFix.slots.map(s => s.slug), 0, runtime.QUEUE_REFILL_TARGET).length;
+  // Dự đoán riêng từ hai nguồn: curated pool trước, deterministic Topic Factory
+  // sau khi curated pool cạn. Vẫn kiểm số ID/slug chính xác, không dựa output CLI.
+  // Fixture lấy toàn bộ production slots nên có thể đã dùng hết 327 static topics.
+  const existingSlugs = mFix.slots.map(s => s.slug);
+  const curated = runtime.selectRefillTopics(TOPICS, existingSlugs, 0, runtime.QUEUE_REFILL_TARGET);
+  const { buildTopicCandidates } = require('./lib/topic-factory');
+  const seen = new Set(existingSlugs.concat(curated.map(t => t.slug)));
+  const generated = buildTopicCandidates({
+    existingSlugs: seen,
+    limit: Math.max(0, runtime.QUEUE_REFILL_TARGET - curated.length),
+  });
+  const generalCeiling = Math.min(mFix.plannedTarget,
+    mFix.capacity - ((mFix.reserved && mFix.reserved.total) || 0));
+  const room = Math.max(0, generalCeiling - mFix.slots.length);
+  const expectedTopics = curated.concat(generated)
+    .slice(0, Math.min(runtime.QUEUE_REFILL_TARGET, room));
+  const expected = expectedTopics.length;
+  const expectedGenerated = expectedTopics.filter(t => t.source === 'topic-factory-v1').length;
   const m0 = JSON.parse(readS(p.matrix));
   ok(m0.slots.every(s => s.state === 'PUBLISHED') && m0.slots.filter(s => s.state === 'PLANNED').length === 0,
     'Fixture bắt đầu: mọi slot PUBLISHED, 0 PLANNED (refill từ đầu, không stale)');
-  ok(expected >= 18, 'Pool còn đủ topic tự do cho cycle 18 bài (>= 18)', String(expected));
+  ok(expected >= 18, 'Curated + Topic Factory còn đủ chủ đề cho cycle 18 bài (>= 18)', String(expected));
   // Writer KHÔNG được refill (role guard).
   const rw = runNode([p.factory, 'queue-refill', '--role', 'writer'], { cwd: tmp });
   ok(rw.status !== 0, 'queue-refill từ chối role=writer (chỉ coordinator)', rw.stdout + rw.stderr);
@@ -232,19 +247,22 @@ let T5;
   const before = readS(p.matrix);
   const r = runNode([p.factory, 'queue-refill', '--role', 'coordinator'], { cwd: tmp });
   ok(r.status === 0, 'queue-refill (coordinator) exit 0', r.stdout + r.stderr);
-  const addRe = new RegExp('QUEUE_REFILL added=' + expected + ' planned=' + expected);
-  ok(addRe.test(r.stdout), 'Refill thêm đúng ' + expected + ' slot (mọi topic còn tự do, dedupe)', r.stdout);
+  const addRe = new RegExp('QUEUE_REFILL added=' + expected +
+    ' generated=' + expectedGenerated + ' planned=' + expected);
+  ok(addRe.test(r.stdout), 'Refill đúng số slot curated + generated và đếm nguồn rõ ràng', r.stdout);
   const m1 = JSON.parse(readS(p.matrix));
   const planned = m1.slots.filter(s => s.state === 'PLANNED');
   ok(planned.length === expected, 'Ma trận có đúng ' + expected + ' slot PLANNED mới', String(planned.length));
+  ok(JSON.stringify(planned.map(s => s.slug)) === JSON.stringify(expectedTopics.map(t => t.slug)),
+    'Topic Factory đúng thứ tự, dedupe và slug dự đoán — không sinh bài trùng');
   ok(m1.slots.length === origSlots + expected, 'Tổng slot ' + origSlots + ' + ' + expected + ' (capacity đủ)', String(m1.slots.length));
   ok(planned.every(s => s.primaryIntent === 'informational/' + s.slug), 'Mọi slot mới: intent mặc định informational/<slug>');
   ok(new Set(m1.slots.map(s => s.slug)).size === m1.slots.length, 'Không slug trùng sau refill');
   const cs = runNode([p.factory, 'check-state'], { cwd: tmp });
   ok(cs.status === 0 && /STATE_OK/.test(cs.stdout), 'check-state OK sau refill (checkpoint tự khớp)', cs.stdout + cs.stderr);
   const r2 = runNode([p.factory, 'queue-refill', '--role', 'coordinator'], { cwd: tmp });
-  // Pool đủ (>= floor) -> "none planned=<expected>"; pool cạn (< floor) ->
-  // thử refill thêm nhưng added=0 planned=<expected>. Cả hai đều idempotent.
+  // Queue đủ floor -> "none planned=<expected>"; thiếu -> thử refill thêm
+  // từ cả static pool và Topic Factory nhưng không được nhân đôi slug/ID.
   const idleMsg = expected >= runtime.QUEUE_REFILL_FLOOR
     ? new RegExp('QUEUE_REFILL none planned=' + expected)
     : new RegExp('QUEUE_REFILL added=0 planned=' + expected);
@@ -266,7 +284,7 @@ let T6;
   if (expected >= runtime.QUEUE_REFILL_FLOOR) {
     ok(!/refill:/.test(r.stdout), 'planned >= floor -> KHÔNG hint refill');
   } else {
-    ok(/refill:/.test(r.stdout), 'planned < floor (pool cạn) -> cycle-plan hint refill đúng');
+    ok(/refill:/.test(r.stdout), 'planned < floor -> cycle-plan hint refill đúng');
   }
   ok(arr.every(id => /^S\d{5,}$/.test(id)), 'ID đúng format S');
   ok(!/incomplete/.test(r.stdout), 'Cycle đủ 18 bài -> complete (không incomplete)');
