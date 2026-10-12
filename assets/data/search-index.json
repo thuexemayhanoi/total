@@ -14552,6 +14552,96 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-checklist-dai-ngay/",
+  "title": "Giấy tờ thuê xe: checklist từng bước khi dùng dài ngày",
+  "description": "Checklist giấy tờ khi thuê xe máy theo tuần hoặc tháng: bàn giao đầu kỳ, theo dõi hạn giữa kỳ, ghi nhận gia hạn hay đổi xe và chốt hồ sơ khi kết thúc thuê.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "thuê xe máy dài ngày",
+   "biên bản bàn giao",
+   "phụ lục hợp đồng"
+  ],
+  "keywords": [
+   "checklist giấy tờ thuê xe dài ngày",
+   "thuê xe máy theo tháng",
+   "biên bản bàn giao xe",
+   "gia hạn hợp đồng thuê xe"
+  ],
+  "seoTitle": "Checklist giấy tờ khi thuê xe máy dài ngày theo tuần, tháng",
+  "primaryKeyword": "checklist giấy tờ thuê xe dài ngày",
+  "headings": [
+   "Vì sao thuê tuần hoặc tháng cần cách quản lý giấy tờ riêng",
+   "Checklist ngày bàn giao đầu kỳ",
+   "Checklist giữa kỳ: theo dõi hạn và chứng từ",
+   "Checklist khi gia hạn, đổi xe hoặc đổi người lái",
+   "Checklist chốt kỳ thuê và lưu hồ sơ"
+  ],
+  "summary": "Bài đưa ra checklist giấy tờ cho người thuê xe máy dài ngày theo tuần hoặc tháng, chia theo ba mốc đầu kỳ, giữa kỳ và cuối kỳ: bàn giao có biên bản, theo dõi hạn giấy tờ và chứng từ bảo dưỡng, ghi nhận mọi thay đổi bằng văn bản và lưu hồ sơ gọn gàng khi trả xe"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-checklist-ngan-ngay/",
+  "title": "Giấy tờ thuê xe: checklist từng bước khi dùng ngắn ngày",
+  "description": "Checklist giấy tờ khi thuê xe máy một đến ba ngày: rà nhanh trước ngày nhận, đối chiếu gọn khi nhận xe, giấy tờ mang theo người, gia hạn thêm ngày và nhận lại khi trả.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "thuê xe máy ngắn ngày",
+   "gia hạn thuê xe",
+   "biên nhận"
+  ],
+  "keywords": [
+   "checklist giấy tờ thuê xe",
+   "thuê xe máy ngắn ngày",
+   "thuê xe máy 1 đến 3 ngày",
+   "gia hạn thuê xe"
+  ],
+  "seoTitle": "Checklist giấy tờ khi thuê xe máy ngắn ngày 1–3 ngày",
+  "primaryKeyword": "checklist giấy tờ thuê xe",
+  "headings": [
+   "Mười phút rà giấy tờ trong 24 giờ trước ngày nhận xe",
+   "Nhận xe nhanh nhưng không bỏ bước đối chiếu",
+   "Giấy tờ nào mang theo người, giấy tờ nào để lại chỗ ở",
+   "Nếu muốn kéo thêm một ngày: xác nhận gia hạn thế nào",
+   "Trả xe đúng giờ và nhận lại giấy tờ gọn gàng"
+  ],
+  "summary": "Bài đưa ra checklist giấy tờ gọn nhẹ cho người thuê xe máy một đến ba ngày: rà soát nhanh trong vòng 24 giờ trước ngày nhận, đối chiếu giấy tờ xe trong vài phút, chia giấy tờ mang theo và để lại, xác nhận khi kéo thêm một ngày và nhận lại giấy tờ đúng giờ lúc "
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-checklist-nguoi-moi/",
+  "title": "Giấy tờ thuê xe: checklist từng bước cho người mới",
+  "description": "Checklist từng bước về giấy tờ cho người lần đầu thuê xe máy: tự rà giấy tờ, hỏi trước điều kiện, đối chiếu khi nhận xe, ký giữ chứng từ và nhận lại giấy tờ khi trả.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "thuê xe máy",
+   "người mới thuê xe",
+   "biên nhận"
+  ],
+  "keywords": [
+   "checklist giấy tờ thuê xe máy",
+   "thuê xe máy lần đầu",
+   "giấy tờ cần khi thuê xe",
+   "người mới thuê xe"
+  ],
+  "seoTitle": "Checklist giấy tờ thuê xe máy từng bước cho người mới",
+  "primaryKeyword": "checklist giấy tờ thuê xe máy",
+  "headings": [
+   "Bước 1: tự rà giấy tờ của chính bạn trước khi tìm xe",
+   "Bước 2: hỏi bên cho thuê cần những giấy tờ gì",
+   "Bước 3: đối chiếu giấy tờ khi nhận xe",
+   "Bước 4: đọc, ký và giữ bản chứng từ",
+   "Bước 5: trả xe và nhận lại giấy tờ đúng cách"
+  ],
+  "summary": "Bài cung cấp checklist năm bước về giấy tờ dành cho người lần đầu thuê xe máy: tự rà giấy tờ cá nhân, hỏi bên cho thuê cần gì, đối chiếu giấy tờ xe khi nhận, đọc và giữ bản chứng từ đã ký, rồi nhận lại giấy tờ đúng cách lúc trả xe."
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-huong-dan-dai-ngay/",
   "title": "Giấy tờ thuê xe: hướng dẫn thực tế khi dùng dài ngày",
   "description": "Giấy tờ khi thuê xe máy theo tuần hoặc tháng: hợp đồng dài hạn, phụ lục gia hạn, theo dõi hạn giấy tờ, hồ sơ bảo dưỡng và cách lưu trữ gọn để đóng hồ sơ cuối kỳ.",
@@ -14669,6 +14759,66 @@
    "Quy trình từng bước từ lúc hỏi đến lúc nhận xe"
   ],
   "summary": "Bài viết hướng dẫn người thuê xe máy lần đầu hiểu ba nhóm giấy tờ trong một lần thuê: giấy tờ của người thuê, giấy tờ của xe và giấy tờ do hai bên cùng lập, kèm quy trình từng bước từ lúc hỏi thông tin đến khi nhận xe."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-do-thi/",
+  "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh trong điều kiện đô thị",
+  "description": "Rủi ro giấy tờ khi thuê xe máy đi trong thành phố: bị giữ giấy tờ gốc, thất lạc khi gửi xe, bị kiểm tra giữa đường và cách phòng tránh từng tình huống.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "thuê xe máy",
+   "giấy phép lái xe",
+   "an toàn giao thông đô thị"
+  ],
+  "keywords": [
+   "giấy tờ thuê xe máy",
+   "rủi ro giấy tờ khi thuê xe",
+   "thuê xe máy trong thành phố",
+   "giữ giấy tờ gốc khi thuê xe"
+  ],
+  "seoTitle": "Rủi ro giấy tờ khi thuê xe máy đi trong phố và cách tránh",
+  "primaryKeyword": "giấy tờ thuê xe máy",
+  "headings": [
+   "Vì sao giấy tờ dễ thành điểm yếu khi thuê xe giữa phố",
+   "Rủi ro khi giấy tờ gốc nằm lại với bên cho thuê",
+   "Giấy tờ của chiếc xe khi bạn gửi và dừng đỗ giữa phố",
+   "Khi bị yêu cầu xuất trình giấy tờ giữa đường đông",
+   "Trả xe giữa phố và lấy lại giấy tờ an toàn"
+  ],
+  "summary": "Bài hướng dẫn người thuê xe máy nhận diện những rủi ro về giấy tờ khi đi lại trong đô thị đông đúc: giấy tờ gốc nằm lại với bên cho thuê, giấy tờ xe để trong cốp lúc gửi xe, bị yêu cầu xuất trình giữa đường và lúc trả xe vội vàng, kèm cách phòng tránh thực tế."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-thuc-te/",
+  "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh theo tình huống thực tế",
+  "description": "Những tình huống thực tế về giấy tờ khi thuê xe máy: thất lạc giấy tờ, giấy tờ xe không khớp, va chạm, trả xe muộn và cách xử lý bình tĩnh từng trường hợp.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "thuê xe máy",
+   "biên nhận",
+   "tình huống thực tế"
+  ],
+  "keywords": [
+   "giấy tờ thuê xe máy",
+   "mất giấy tờ khi thuê xe",
+   "giấy tờ xe không khớp",
+   "trả xe muộn"
+  ],
+  "seoTitle": "Giấy tờ thuê xe máy: rủi ro theo tình huống thực tế",
+  "primaryKeyword": "giấy tờ thuê xe máy",
+  "headings": [
+   "Ba nhóm tình huống giấy tờ hay gây rắc rối",
+   "Khi giấy tờ cá nhân bị thất lạc giữa hành trình",
+   "Khi giấy tờ xe không khớp với chiếc xe bạn đang cầm",
+   "Khi va chạm hoặc hỏng xe và cần dùng đến giấy tờ",
+   "Khi trả xe muộn hoặc bất đồng về giấy tờ còn giữ lại"
+  ],
+  "summary": "Bài đi theo từng tình huống thực tế về giấy tờ khi thuê xe máy: giấy tờ cá nhân thất lạc giữa chuyến, giấy tờ xe không khớp với xe nhận, va chạm hay hỏng xe cần dùng giấy tờ và trả xe muộn khi giấy tờ còn ở bên cho thuê, cùng cách phản ứng bình tĩnh và có bằng"
  },
  {
   "kind": "article",
