@@ -18076,6 +18076,45 @@
    "attempts": 0,
    "createdAt": "2026-10-12T19:40:20.567Z",
    "updatedAt": "2026-10-12T19:40:20.567Z"
+  },
+  {
+   "id": "S01251",
+   "hub": "garage/dong-co",
+   "slug": "xe-may-tu-chet-may-khi-nha-ga-hoac-dung-den-do",
+   "title": "Xe máy tự chết máy khi nhả ga hoặc dừng đèn đỏ: phân nhóm nguyên nhân từ gió, xăng, lửa đến ga cầm chừng",
+   "primaryIntent": "troubleshooting/xe-may-tu-chet-may-khi-nha-ga-hoac-dung-den-do",
+   "notes": "source=topic-v2 topicId=T001327",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:42:58.718Z",
+   "updatedAt": "2026-10-12T19:42:58.719Z"
+  },
+  {
+   "id": "S01252",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "xe-so-chet-may-khi-nha-con-hoac-xuat-phat",
+   "title": "Xe số chết máy khi nhả côn hoặc lúc xuất phát: lỗi kỹ thuật người lái và lỗi ở xe cần phân biệt",
+   "primaryIntent": "troubleshooting/xe-so-chet-may-khi-nha-con-hoac-xuat-phat",
+   "notes": "source=topic-v2 topicId=T001328",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:42:58.746Z",
+   "updatedAt": "2026-10-12T19:42:58.746Z"
+  },
+  {
+   "id": "S01253",
+   "hub": "garage/dong-co",
+   "slug": "xe-may-yeu-may-khong-boc-khi-leo-doc-hoac-cho-nang",
+   "title": "Xe máy yếu, không bốc khi leo dốc hoặc chở nặng: phân biệt nguyên nhân do tải, truyền động và động cơ",
+   "primaryIntent": "troubleshooting/xe-may-yeu-may-khong-boc-khi-leo-doc-hoac-cho-nang",
+   "notes": "source=topic-v2 topicId=T001329",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:42:58.765Z",
+   "updatedAt": "2026-10-12T19:42:58.765Z"
   }
  ]
 }
