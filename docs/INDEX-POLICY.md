@@ -1,5 +1,8 @@
 # Chính sách lập chỉ mục theo bài (`factory/data/index-policy.json`)
 
+> **TRẠNG THÁI HIỆN TẠI (2026-10-12, quyết định của chủ repo): `entries` RỖNG — toàn bộ trang và bài đều phải được lập chỉ mục, không để noindex.** 144 mục noindex của quyết định đầu tiên đã được gỡ (rollback: xóa mục + `node factory/generate.js`; 0 trang còn meta robots, `sitemap-articles.xml` đủ mọi bài PUBLISHED). Cơ chế (loader, validator, kiểm tra bất biến) được giữ nguyên và có test, nhưng agent KHÔNG được thêm mục khi chủ repo chưa ra lệnh mới. Phần dưới là hồ sơ lịch sử của quyết định đã gỡ.
+
+
 > Công cụ để **hợp nhất ý định mà không xóa bài, không đổi URL, không redirect, không đổi canonical**.
 > Chỉ chủ repo hoặc coordinator được thêm mục. Quyết định đầu tiên (2026-10-12) chạm **144 bài** trong `thue-xe/xe-may` — xem “Quyết định đầu tiên”.
 
