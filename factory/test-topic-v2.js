@@ -701,6 +701,16 @@ console.log('2b. TIÊU ĐỀ CÔNG KHAI — module.title thay cho nhãn slot cũ
   const pack = JSON.parse(cli(T, ['writer-pack', '--count', '10', '--json']).stdout);
   const relNhot = (pack.items[0] && pack.items[0].relatedPublished || []).find(x => x.slug === 'thay-nhot-xe-may');
   ok(relNhot && relNhot.title === MOD_NHOT, 'writer-pack: gợi ý related hiển thị tiêu đề công khai (module.title), không phải nhãn slot cũ', JSON.stringify(relNhot));
+
+  // topic-coverage dùng lifecycle HIỆU LỰC: topic đã xuất bản không còn tính là "đã duyệt, chờ writer"
+  const covHub = () => JSON.parse(cli(T, ['topic-coverage', '--json']).stdout).hubs.find(h => h.hub === 'garage/dong-co');
+  const cv1 = covHub();
+  ok(cv1.approved === 1, 'topic-coverage: topic APPROVED chờ writer được đếm ở cột duyệt', JSON.stringify(cv1));
+  const mx2 = matrixOf(T);
+  mx2.slots.find(x => x.id === 'S00009').state = 'PUBLISHED';
+  fs.writeFileSync(T.p('state/matrix.json'), JSON.stringify(mx2, null, 1));
+  const cv2 = covHub();
+  ok(cv2.approved === 0 && cv2.published === cv1.published + 1, 'topic-coverage: topic đã xuất bản không còn tính là đã-duyệt-chờ-writer (lifecycle hiệu lực)', JSON.stringify(cv2));
   fs.rmSync(T.root, { recursive: true, force: true });
 }
 

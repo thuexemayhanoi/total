@@ -397,7 +397,9 @@ function renderMarkdown(rep) {
     for (const x of pub.headlineCrossIntentTop) L.push(`- ${x.score} — ${x.a} ⇄ ${x.b}`);
     L.push('');
   }
-  L.push(`Lỗi tiêu đề phát hiện được (${pub.titleDefects.length}; **chưa sửa — đổi tiêu đề bài đang chạy cần duyệt**):`);
+  L.push(pub.titleDefects.length
+    ? `Lỗi tiêu đề phát hiện được trên tiêu đề CÔNG KHAI (${pub.titleDefects.length}; liệt kê tối đa 25):`
+    : 'Lỗi tiêu đề (địa danh viết thường, lặp từ) trên tiêu đề công khai: **0**.');
   L.push('');
   for (const d of pub.titleDefects.slice(0, 25)) L.push(`- ${d.id} “${d.title}” — ${d.defects.join(', ')}`);
   L.push('');
@@ -823,12 +825,15 @@ function coverageReport(ctx, titleOf) {
     const a = I.analyzeTopic(tt(s));
     e.published++; e.clusters.add(a.intentKey); if (a.templated) e.templated++;
   }
+  const slotsById = new Map(ctx.matrix.slots.map(s => [s.id, s]));
   for (const r of rows) {
     if (!/^v2-|^gsc-/.test(String(r.source))) continue;
     const e = slot(r.hub);
-    if (r.lifecycle === 'PLANNED') e.queued++;
-    else if (r.lifecycle === 'RESEARCH') e.research++;
-    else if (M.APPROVED_SET.has(r.lifecycle) && r.lifecycle !== 'PUBLISHED') e.approved++;
+    // trạng thái HIỆU LỰC (suy ra từ slot): topic đã xuất bản không còn tính là "đã duyệt, chờ writer"
+    const eff = M.effectiveLifecycle(r, r.slotId ? slotsById.get(r.slotId) : null);
+    if (eff === 'PLANNED') e.queued++;
+    else if (eff === 'RESEARCH') e.research++;
+    else if (M.APPROVED_SET.has(eff) && eff !== 'PUBLISHED') e.approved++;
   }
   const list = [...per.values()].map(e => ({
     hub: e.hub, inTaxonomy: hubs.has(e.hub), published: e.published, distinctIntents: e.clusters.size,

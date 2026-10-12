@@ -12,7 +12,7 @@
 | V2 làm gì khác? | Topic phải **đi qua gate** (trùng lặp, bằng chứng, nhu cầu) rồi **người duyệt đọc 5 bài gần nhất** mới thành slot. Writer chỉ nhận slot đã APPROVED. |
 | 40.000 bài? | Là **trần năng lực**, không phải chỉ tiêu. Số bài tăng chỉ khi có nhu cầu/thông tin độc lập thật (GSC, site-search, nguồn xác minh). |
 | Tắt V2 thế nào? | Sửa `factory/topic-governance.json` thành `{"mode":"off","v1Generation":"allowed"}` (hoặc xóa file). Không mất dữ liệu. |
-| Kiểm chứng? | `node factory/test-topic-v2.js` (286 assert, 4 tầng) + `node factory/factory.js topic-check --recheck`. |
+| Kiểm chứng? | `node factory/test-topic-v2.js` (288 assert, 4 tầng) + `node factory/factory.js topic-check --recheck`. |
 
 ## 1. Nguyên tắc (không thương lượng)
 
@@ -60,18 +60,18 @@ của Master Topic Matrix thay vì sinh trước hàng chục nghìn tiêu đề
 | Bài độc lập | `informationGain` + `outline` (≥ 4 H2) + `contentType` + `schemaOrg` | |
 
 Công cụ nhìn bản đồ: `topic-coverage` (read-only) cho **số bài, số intent riêng biệt, tỷ lệ trùng, tỷ lệ tiêu đề template, hàng đợi** theo hub, liệt kê hub
-**chưa có bài** và hub **đông + trùng intent**. Trạng thái 2026-10-12: 782 bài / 545 intent riêng biệt trong từng hub; 19/97 hub trống; `thue-xe/xe-may`
-có 266 bài nhưng chỉ 36 intent (tỷ lệ trùng 7,39; 98% tiêu đề template).
+**chưa có bài** và hub **đông + trùng intent**. Trạng thái 2026-10-12 (sau lát cắt đầu, đo bằng tiêu đề công khai): 793 bài / 561 intent riêng biệt trong từng hub; 14/97 hub trống (19 lúc audit đầu); `thue-xe/xe-may`
+có 266 bài nhưng chỉ 38 intent (tỷ lệ trùng 7,0; 98% tiêu đề template).
 
 ### Nguồn hợp lệ để mở rộng (không phải hoán vị)
 
 1. **Truy vấn Search Console** thật (`topic-import` → lead GAP/NEARBY/COVERED) — nguồn nhu cầu duy nhất được ghi vào `demand`.
 2. **Tìm kiếm nội bộ** (site-search) có số liệu và kỳ báo cáo.
-3. **Khoảng trống hub** (19 hub chưa có bài) — topic do biên tập đề xuất, vẫn qua gate + đọc láng giềng.
+3. **Khoảng trống hub** (14 hub chưa có bài) — topic do biên tập đề xuất, vẫn qua gate + đọc láng giềng.
 4. **Nguồn đã xác minh**: văn bản pháp luật hiện hành, tài liệu chính hãng, dữ liệu mẫu xe (mỗi mẫu xe có thông số thật là thông tin độc lập) — cần `evidence.status=verified`.
 5. **Dữ liệu địa phương đã xác minh** (`evidence.type=local-source`) — địa danh đơn thuần không tạo thông tin mới.
 
-Kỳ vọng thực tế (đo được): trong pilot, **43/100** ý tưởng tự biên tập là độc lập sau hai lượt đọc láng giềng. Với lĩnh vực đã có 782 bài, đạt 40.000 URL
+Kỳ vọng thực tế (đo được): trong pilot, **43/100** ý tưởng tự biên tập là độc lập sau hai lượt đọc láng giềng. Với lĩnh vực đã có 793 bài, đạt 40.000 URL
 **độc lập** chỉ khả thi nếu có nguồn dữ liệu lớn đã xác minh (mẫu xe, địa phương, văn bản); không khả thi bằng cách nghĩ thêm tiêu đề.
 
 ## 4. Master SEO Topic Matrix — `factory/state/topic-matrix.jsonl`
@@ -218,12 +218,12 @@ Lệnh ghi **từ chối khi `topic-matrix.jsonl` có dòng hỏng** (không ghi
 Kết luận: V2 vận hành tốt tới vài nghìn bài. Trước ~15–20k bài cần: chia shard `topic-matrix` (active/archive), cắt tỉa postings từ phổ biến hoặc truy vấn láng giềng từ SQLite/FTS,
 và chuyển sang build tăng dần. Chi tiết và phần hạ tầng sitemap/hosting nằm ở kế hoạch migration (cần duyệt).
 
-## 12. Kiểm thử — `factory/test-topic-v2.js` (286 assert)
+## 12. Kiểm thử — `factory/test-topic-v2.js` (288 assert)
 
 | Tầng | Nội dung |
 |---|---|
 | 1. Unit | intent key & hoán vị, phủ định, risk trigger (không dương tính giả), shape, gate trên corpus tổng hợp (từng mã), precedence/`addReason` chỉ làm chặt hơn, governance (absent/hỏng/off/rollback), matrix (validate, invariant, effective lifecycle, JSONL I/O), CSV |
-| 2. Integration | micro-repo trong tmp (engine thật + corpus giả lập): backfill → audit read-only → propose (dry-run, role, file lỗi, `--review` fail-closed, idempotent) → neighbours → approve (mọi đường từ chối, atomic, `--file`, trần queue) → writer-pack (chỉ APPROVED, brief, `--shard`) → verify-batch từ chối slot chưa duyệt → queue-refill frozen → reject/merge/reopen → topic-import → **rollback**; tiêu đề công khai (audit/backfill/coverage/writer-pack dùng `module.title`, `--refresh-published`) |
+| 2. Integration | micro-repo trong tmp (engine thật + corpus giả lập): backfill → audit read-only → propose (dry-run, role, file lỗi, `--review` fail-closed, idempotent) → neighbours → approve (mọi đường từ chối, atomic, `--file`, trần queue) → writer-pack (chỉ APPROVED, brief, `--shard`) → verify-batch từ chối slot chưa duyệt → queue-refill frozen → reject/merge/reopen → topic-import → **rollback**; tiêu đề công khai (audit/backfill/coverage/writer-pack dùng `module.title`, `--refresh-published`); `topic-coverage` đếm theo lifecycle hiệu lực |
 | 3. Production invariant | repo thật, READ-ONLY: `topic-check [--recheck]`, mọi PUBLISHED có dòng, không bịa nhu cầu/bằng chứng, topic rủi ro chỉ duyệt khi đã xác minh, ack đủ, hồ sơ pilot, không ký tự CJK/Cyrillic/Hangul, recall hoán vị trên corpus thật, hiệu chuẩn độ phủ |
 | 4. Long-run / failure recovery | dòng JSONL cắt cụt/hỏng ⇒ lệnh ghi từ chối, không mất dữ liệu; file `.tmp` mồ côi; cache SQLite stale/thiếu/hỏng ⇒ rebuild an toàn, kết quả không đổi; crash giữa slot↔row ⇒ nhận lại slot mồ côi; slot lậu bị bắt; flood hoán vị; 3.000 ứng viên; chỉ mục 10.000 mục |
 

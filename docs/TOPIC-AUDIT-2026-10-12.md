@@ -1,18 +1,23 @@
 # Topic Factory — báo cáo audit 2026-10-12
 
-> Phạm vi: **chỉ đo, không sửa** bài đã xuất bản. Số liệu sinh bằng `node factory/factory.js topic-audit --md` và `topic-coverage` (deterministic, đọc `matrix.json` + `factory/data/articles/`);
+> Phạm vi: **đo** bài đã xuất bản (nội dung không bị sửa trong lúc đo). Số liệu sinh bằng `node factory/factory.js topic-audit --md` và `topic-coverage` (deterministic, đọc `matrix.json` + `factory/data/articles/`);
 > không dùng keyword/volume/ranking giả định — **không có dữ liệu Search Console nào trong phiên làm việc này**, nên mọi “rủi ro cannibalization” dưới đây suy ra từ cấu trúc, chưa phải từ hiệu suất tìm kiếm.
+
+> **Đính chính (2026-10-12, cùng ngày).** Bản audit đầu đo bài đã xuất bản bằng `slot.title` (nhãn lúc lập kế hoạch) thay vì tiêu đề công khai `module.title` — thứ generator thật sự render ra H1/breadcrumb/thẻ bài.
+> 63 slot đã lệch vì writer sửa tiêu đề trong module. Công cụ đã sửa (audit, backfill, coverage và gợi ý related của writer-pack dùng `module.title`; có test hồi quy) và đo lại. Thay đổi trên cùng 782 bài:
+> tiêu đề template **592 → 559**; lỗi tiêu đề **92 → 89** (ba lỗi “lặp từ” chỉ nằm ở nhãn slot, module đã sửa từ trước; cả 89 còn lại là địa danh viết thường); cụm intent ≥ 2 bài **51 → 46** (310 → 296 bài);
+> intent riêng biệt trong từng hub **545 → 550**; `thue-xe/xe-may` **36 → 38 intent** (trùng 7,39 → 7,0). **Phán quyết gate của 300 slot chờ không đổi** (đã kiểm từng slot: 0 khác biệt). Các số dưới đây là số đã đính chính, đo trên 793 bài (782 + 11 bài lát cắt V2).
 
 ## Kết luận chính
 
 1. **Nguyên nhân gốc là cơ chế sinh topic**, không phải chất lượng từng bài: V1 nhân *hạt giống × 12 góc × 6 bối cảnh* (443 hạt giống / 97 hub ⇒ 31.896 topic). `plannedTarget` 16.000 là phần cắt từ kho hoán vị đó chứ không xuất phát từ nhu cầu.
 2. **300 slot đang chờ** (slot S00783–S01082, do `queue-refill` sinh) chỉ chứa **35 intent thật**; phân loại: **KEEP 0 · REWRITE 9 · MERGE-CANDIDATE 78 · REJECT 199 · NEEDS-RESEARCH 14**.
    Tức 92% (277/300) là hoán vị của một slot khác hoặc của bài đã xuất bản.
-3. **Bài đã xuất bản (782)**: 592 (76%) mang tiêu đề do template sinh; có **51 cụm intent ≥ 2 bài** (chứa 310 bài). Độ giống nội dung giữa hai bài cùng intent trung vị 0,13 (khác intent: 0,05) và
+3. **Bài đã xuất bản (793)**: 562 (71%) mang tiêu đề do template sinh; có **46 cụm intent ≥ 2 bài** (chứa 296 bài). Độ giống nội dung giữa hai bài cùng intent trung vị 0,13 (khác intent: 0,05) và
    trùng cụm 5 từ gần như bằng 0 ⇒ **không có sao chép văn bản; vấn đề là trùng ý định tìm kiếm** (nhiều bài trả lời cùng một câu hỏi bằng chữ khác nhau).
-4. **Mất cân bằng theo hub** (`topic-coverage`): 782 bài chỉ có 545 intent riêng biệt trong từng hub; `thue-xe/xe-may` có **266 bài nhưng 36 intent** (trùng 7,39 lần, 98% tiêu đề template) trong khi **19/97 hub chưa có bài nào**
-   (6/8 hub `garage/*`, 5/7 hub `market/*`, 7/7 hub `review/*`, và `map/diem-thi-bang-lai`).
-5. **Lỗi tiêu đề**: 92 tiêu đề đã xuất bản có lỗi (địa danh viết thường, lặp từ “Kinh nghiệm kinh nghiệm…”) — **chưa sửa** (đổi tiêu đề bài đang chạy cần duyệt).
+4. **Mất cân bằng theo hub** (`topic-coverage`): 793 bài chỉ có 561 intent riêng biệt trong từng hub; `thue-xe/xe-may` có **266 bài nhưng 38 intent** (trùng 7,0 lần, 98% tiêu đề template) trong khi **14/97 hub chưa có bài nào**
+   (19 lúc audit đầu; 5 hub được lát cắt V2 lấp): 4/8 hub `garage/*`, 4/7 hub `market/*`, 5/7 hub `review/*` và `map/diem-thi-bang-lai`.
+5. **Lỗi tiêu đề**: 89 tiêu đề công khai viết thường địa danh (Hà Nội, Sài Gòn, Đà Nẵng, Hải Phòng, Cần Thơ) — **đã sửa** ngày 2026-10-12 (9 lô qua CI; chỉ đổi `title`: H1/breadcrumb/thẻ bài; slug/URL/`seoTitle`/nội dung giữ nguyên). Detector hiện báo 0.
 6. **Rủi ro dữ kiện**: nhiều slot chờ chứa chủ đề giá/pin/thông số/luật (`needs-verified-data` xuất hiện ở 135/300 slot) mà không có nguồn xác minh — viết ra sẽ buộc phải bịa hoặc nêu số chung chung.
 7. **Bài học thiết kế**: bộ lọc từ vựng/thống kê **bắt được hoán vị template và bản sao gần nguyên văn** nhưng **bỏ sót câu hỏi giống nhau khác từ ngữ** — điều đó chỉ lộ ra khi đọc láng giềng (xem [báo cáo pilot](TOPIC-PILOT-V2-REPORT.md)).
 
@@ -20,17 +25,17 @@
 
 ```
 hub                               bài  intent  trùng  mẫu%  chờ  nghiên-cứu  duyệt
-thue-xe/xe-may                    266      36   7.39    98    0          0      0
+thue-xe/xe-may                    266      38      7    98    0          0      0
 ride/an-toan-giao-thong            41      41      1    20    0          0      0
 tips/meo-lai-xe                    32      32      1    19    0          0      0
-learn/ky-thuat-lai-xe              20      20      1    25    1          0      0
+learn/ky-thuat-lai-xe              20      20      1    10    1          0      0
 guide/xu-ly-su-co                  16      16      1    38    0          0      0
-learn/cham-soc-xe                  13      12   1.08    46    0          0      0
-thue-xe/xe-dien                     9       9      1    89    0          0      0
-thue-xe/xe-oto                      9       7   1.29    89    0          1      0
+learn/cham-soc-xe                  13      13      1    15    0          0      0
+wiki/dien-xe                       12      12      1    50    1          0      0
+wiki/thuat-ngu-xe                  12      12      1    42    0          0      0
 ```
 
-Danh sách 19 hub trống và công cụ đầy đủ: `node factory/factory.js topic-coverage`.
+Danh sách 14 hub trống và công cụ đầy đủ: `node factory/factory.js topic-coverage`.
 
 ### Việc đã làm / chưa làm với kết quả audit
 
@@ -39,7 +44,8 @@ Danh sách 19 hub trống và công cụ đầy đủ: `node factory/factory.js 
 | Đóng băng sinh topic V1 (`v1Generation: frozen`) | **Đã làm** (có rollback) |
 | 300 slot legacy: ghi quyết định vào `topic-matrix.jsonl` (277 REJECTED, 9 PLANNED/REWRITE, 14 RESEARCH); slot trong `matrix.json` **giữ nguyên PLANNED** (writer không nhận vì chưa APPROVED) | **Đã làm**; xử lý slot trong matrix.json — *chờ duyệt* |
 | Gộp/chuyển hướng/làm mới các cụm bài đã xuất bản trùng intent | **Không làm** — *chờ duyệt + dữ liệu GSC* (kế hoạch migration) |
-| Sửa 92 tiêu đề lỗi | **Không làm** — *chờ duyệt* |
+| Sửa 89 tiêu đề công khai lỗi (địa danh viết thường) | **Đã làm** (2026-10-12, theo yêu cầu khắc phục của chủ repo; 9 lô qua CI, URL không đổi) |
+| Đo lại audit bằng tiêu đề công khai + sửa công cụ | **Đã làm** (đính chính ở đầu báo cáo) |
 
 ---
 
@@ -50,18 +56,18 @@ Danh sách 19 hub trống và công cụ đầy đủ: `node factory/factory.js 
 - `topic-factory.js` (V1) sinh topic bằng hoán vị **seed × 12 góc nhìn × 6 bối cảnh**: 443 seed trong 97 hub → **31,896 topic tiềm năng**. Mốc `plannedTarget` 16,000 là phần cắt từ kho hoán vị này, không phải từ nhu cầu tìm kiếm.
 - Pool tĩnh `topic-pool.js` dùng 4 khung tiêu đề cố định (“Kinh nghiệm X dành cho người mới”, “Tổng hợp kiến thức: X”, “Hướng dẫn chi tiết về X”, “X — những điều cần biết”).
 
-**592/782 bài đã xuất bản (76%) mang tiêu đề do template sinh**; 100% trong 300 slot đang chờ.
+**562/793 bài đã xuất bản (71%) mang tiêu đề do template sinh**; 100% trong 300 slot đang chờ.
 
 Họ tiêu đề trong ma trận hiện tại:
 
 | Họ | Đã xuất bản | Đang chờ |
 |---|---:|---:|
-| F: tiêu đề viết tay / khác | 190 | 7 |
-| E: V1 hoán vị "Seed: góc × bối cảnh" | 269 | 303 |
-| A: "Kinh nghiệm X dành cho người mới" | 82 | 0 |
-| D: "X — những điều cần biết" | 82 | 0 |
-| C: "Hướng dẫn chi tiết về X" | 82 | 0 |
-| B: "Tổng hợp kiến thức: X" | 77 | 0 |
+| F: tiêu đề viết tay / khác | 231 | 0 |
+| E: V1 hoán vị "Seed: góc × bối cảnh" | 282 | 300 |
+| A: "Kinh nghiệm X dành cho người mới" | 69 | 0 |
+| D: "X — những điều cần biết" | 76 | 0 |
+| C: "Hướng dẫn chi tiết về X" | 70 | 0 |
+| B: "Tổng hợp kiến thức: X" | 65 | 0 |
 
 ## 2. 300 slot PLANNED
 
@@ -81,10 +87,11 @@ Mã lý do (một slot có thể có nhiều lý do):
 |---|---:|
 | REJECT · intent-cluster-queued | 112 |
 | REJECT · context-only-variant | 87 |
-| MERGE-CANDIDATE · intent-cluster-published | 78 |
 | REJECT · needs-verified-data | 78 |
 | REJECT · composite-aspects | 51 |
+| MERGE-CANDIDATE · lead-subject-published | 42 |
 | MERGE-CANDIDATE · needs-verified-data | 42 |
+| MERGE-CANDIDATE · intent-cluster-published | 36 |
 | NEEDS-RESEARCH · needs-verified-data | 14 |
 | REWRITE · composite-aspects | 9 |
 | REWRITE · needs-verified-data | 1 |
@@ -101,25 +108,25 @@ Theo họ hạt giống:
 
 ## 3. Bài đã xuất bản (giữ nguyên, chỉ đo)
 
-- 782 bài; **51 cụm intent có ≥2 bài**, chứa 310 bài.
-- Độ giống nội dung (TF-IDF unigram+bigram) giữa hai bài **cùng intent**: {"n":1683,"p10":0.094,"p50":0.132,"p90":0.185,"p99":0.254,"max":0.327}; giữa hai bài **khác intent**: {"n":19889,"p10":0.04,"p50":0.053,"p90":0.094,"p99":0.152,"max":0.351}.
-- Trùng cụm 5 từ giữa các bài cùng intent: {"n":3366,"p10":0,"p50":0.002,"p90":0.01,"p99":0.031,"max":0.088} ⇒ **không có dấu hiệu sao chép văn bản**; vấn đề là *trùng ý định tìm kiếm*, không phải trùng chữ.
+- 793 bài; **46 cụm intent có ≥2 bài**, chứa 296 bài.
+- Độ giống nội dung (TF-IDF unigram+bigram) giữa hai bài **cùng intent**: {"n":1621,"p10":0.098,"p50":0.133,"p90":0.186,"p99":0.255,"max":0.327}; giữa hai bài **khác intent**: {"n":19869,"p10":0.04,"p50":0.053,"p90":0.092,"p99":0.148,"max":0.269}.
+- Trùng cụm 5 từ giữa các bài cùng intent: {"n":3242,"p10":0,"p50":0.002,"p90":0.01,"p99":0.031,"max":0.088} ⇒ **không có dấu hiệu sao chép văn bản**; vấn đề là *trùng ý định tìm kiếm*, không phải trùng chữ.
 - 8 cặp bài khác intent-key nhưng headline giống ≥0.40 (ví dụ bên dưới) — intent-key không bắt được, cần lớp similarity.
 
 | Cụm intent | Bài | Cosine nội dung TB | Rủi ro cannibalization (theo kích thước cụm, chưa có GSC) |
 |---|---:|---:|---|
-| `thue¦` | 28 | 0.114 | high |
+| `thue¦` | 26 | 0.116 | high |
 | `thue¦@ha noi` | 26 | 0.127 | high |
 | `honda+thue+vision¦` | 25 | 0.136 | high |
 | `thue¦paperwork` | 22 | 0.161 | high |
-| `thue¦inspection` | 8 | 0.112 | high |
+| `thue¦inspection` | 8 | 0.114 | high |
 | `thue¦cost` | 6 | 0.129 | high |
 | `thue¦contract` | 6 | 0.136 | high |
 | `thue¦risk` | 6 | 0.135 | high |
 | `thue¦compare` | 6 | 0.143 | high |
-| `thue¦return` | 6 | 0.148 | high |
+| `thue¦return` | 6 | 0.149 | high |
 | `thue¦deposit` | 6 | 0.165 | high |
-| `thue¦paperwork@ha noi` | 6 | 0.188 | high |
+| `thue¦paperwork@ha noi` | 6 | 0.189 | high |
 | `thue¦cost@ha noi` | 6 | 0.149 | high |
 | `thue¦inspection@ha noi` | 6 | 0.129 | high |
 | `thue¦contract@ha noi` | 6 | 0.166 | high |
@@ -128,40 +135,15 @@ Cặp khác intent-key nhưng headline giống cao:
 
 - 0.51 — S00361 Kinh nghiệm xe sym dành cho người mới ⇄ S00363 Hướng dẫn chi tiết về sym việt nam
 - 0.45 — S00369 Kinh nghiệm xe dưới 50cc cần bằng lái dành cho người mới ⇄ S00370 Quy định xe 50cc — những điều cần biết
-- 0.45 — S00612 Thuê xe máy hà nội: chi phí và cách tính cho người mới ⇄ S00684 Thuê honda vision: chi phí và cách tính cho người mới
+- 0.45 — S00612 Thuê xe máy Hà Nội: chi phí và cách tính cho người mới ⇄ S00684 Thuê honda vision: chi phí và cách tính cho người mới
 - 0.44 — S00701 Thuê honda vision: hợp đồng và điều khoản cần đọc theo tình huống thực tế ⇄ S00773 Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc theo tình huống thực tế
-- 0.42 — S00554 Thuê xe máy: hợp đồng và điều khoản cần đọc khi dùng dài ngày ⇄ S00626 Thuê xe máy hà nội: hợp đồng và điều khoản cần đọc khi dùng dài ngày
-- 0.41 — S00324 Tổng hợp kiến thức: đọc thông số xe ⇄ S00454 Thông số xe máy — những điều cần biết
-- 0.41 — S00563 Thuê xe máy: rủi ro thường gặp và cách tránh theo tình huống thực tế ⇄ S00641 Thuê xe máy hà nội: checklist từng bước theo tình huống thực tế
+- 0.42 — S00554 Thuê xe máy: hợp đồng và điều khoản cần đọc khi dùng dài ngày ⇄ S00626 Thuê xe máy Hà Nội: hợp đồng và điều khoản cần đọc khi dùng dài ngày
+- 0.41 — S00324 Đọc thông số xe máy: hiểu con số nhà sản xuất công bố ⇄ S00454 Thông số xe máy — những điều cần biết
+- 0.41 — S00563 Thuê xe máy: rủi ro thường gặp và cách tránh theo tình huống thực tế ⇄ S00641 Thuê xe máy Hà Nội: checklist từng bước theo tình huống thực tế
 - 0.4 — S00540 Thuê xe máy: chi phí và cách tính cho người mới ⇄ S00684 Thuê honda vision: chi phí và cách tính cho người mới
 
-Lỗi tiêu đề phát hiện được (92; **chưa sửa — đổi tiêu đề bài đang chạy cần duyệt**):
+Lỗi tiêu đề (địa danh viết thường, lặp từ) trên tiêu đề công khai: **0**.
 
-- S00202 “Thuê xe máy hà nội — những điều cần biết” — địa danh viết thường
-- S00205 “Kinh nghiệm kinh nghiệm thuê xe máy dành cho người mới” — lặp từ/cụm từ liền kề
-- S00217 “Kinh nghiệm nghiệm thu xe dành cho người mới” — lặp từ/cụm từ liền kề
-- S00267 “Hướng dẫn chi tiết về giao thông hà nội” — địa danh viết thường
-- S00490 “Đường cấm xe máy hà nội — những điều cần biết” — địa danh viết thường
-- S00491 “Hướng dẫn chi tiết về thuê xe hà nội” — địa danh viết thường
-- S00492 “Tổng hợp kiến thức: đi xe ở hà nội” — địa danh viết thường
-- S00493 “Kinh nghiệm giờ cao điểm hà nội dành cho người mới” — địa danh viết thường
-- S00495 “Hướng dẫn chi tiết về ngập đường sài gòn” — địa danh viết thường
-- S00496 “Tổng hợp kiến thức: đi xe ở sài gòn” — địa danh viết thường
-- S00497 “Kinh nghiệm thuê xe đà nẵng dành cho người mới” — địa danh viết thường
-- S00498 “Giao thông đà nẵng — những điều cần biết” — địa danh viết thường
-- S00499 “Hướng dẫn chi tiết về du lịch đà nẵng” — địa danh viết thường
-- S00500 “Tổng hợp kiến thức: đi xe ở đà nẵng” — địa danh viết thường
-- S00501 “Kinh nghiệm giao thông hải phòng dành cho người mới” — địa danh viết thường
-- S00502 “Thuê xe hải phòng — những điều cần biết” — địa danh viết thường
-- S00503 “Hướng dẫn chi tiết về đi xe ở hải phòng” — địa danh viết thường
-- S00504 “Tổng hợp kiến thức: giao thông cần thơ” — địa danh viết thường
-- S00505 “Kinh nghiệm thuê xe cần thơ dành cho người mới” — địa danh viết thường
-- S00506 “Đi xe ở cần thơ — những điều cần biết” — địa danh viết thường
-- S00600 “Thuê xe máy hà nội: hướng dẫn thực tế cho người mới” — địa danh viết thường
-- S00601 “Thuê xe máy hà nội: hướng dẫn thực tế khi dùng ngắn ngày” — địa danh viết thường
-- S00602 “Thuê xe máy hà nội: hướng dẫn thực tế khi dùng dài ngày” — địa danh viết thường
-- S00603 “Thuê xe máy hà nội: hướng dẫn thực tế khi đi đường dài” — địa danh viết thường
-- S00604 “Thuê xe máy hà nội: hướng dẫn thực tế trong điều kiện đô thị” — địa danh viết thường
 
 ## 4. Ngưỡng đang dùng
 
