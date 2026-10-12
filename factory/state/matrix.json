@@ -15710,6 +15710,19 @@
    "attempts": 0,
    "createdAt": "2026-10-12T10:16:36.351Z",
    "updatedAt": "2026-10-12T10:16:36.351Z"
+  },
+  {
+   "id": "S01093",
+   "hub": "review/so-sanh-xe",
+   "slug": "lai-thu-xe-may-de-so-sanh",
+   "title": "Lái thử hai mẫu xe trước khi quyết định: bảng chấm điểm tự làm theo nhu cầu của bạn",
+   "primaryIntent": "commercial/lai-thu-xe-may-de-so-sanh",
+   "notes": "source=topic-v2 topicId=T001129",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T10:47:21.109Z",
+   "updatedAt": "2026-10-12T10:47:21.109Z"
   }
  ]
 }
