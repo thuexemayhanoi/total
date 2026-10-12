@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-ngan-ngay',
-  title: 'Thuê xe máy hà nội: hợp đồng và điều khoản cần đọc khi dùng ngắn ngày',
+  title: 'Thuê xe máy Hà Nội: hợp đồng và điều khoản cần đọc khi dùng ngắn ngày',
   seoTitle: 'Thuê xe máy Hà Nội ngắn ngày: điều khoản hợp đồng cần đọc',
   metaDescription: 'Những điều khoản cần đọc khi thuê xe máy vài ngày ở Hà Nội: cách tính giờ nhận trả, đặt cọc và hoàn trả, hủy đổi lịch, nhiên liệu, phụ kiện và quy định sử dụng.',
   summary: 'Bài viết nêu những điều khoản nên đọc trong hợp đồng thuê xe máy từ một đến ba ngày ở Hà Nội, theo thứ tự ưu tiên khi ít thời gian: cách tính giờ nhận trả, đặt cọc và hoàn trả, hủy hoặc đổi lịch, nhiên liệu, phụ kiện và quy định sử dụng xe.',

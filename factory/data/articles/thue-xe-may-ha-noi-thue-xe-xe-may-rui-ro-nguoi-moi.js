@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-nguoi-moi',
-  title: 'Thuê xe máy hà nội: rủi ro thường gặp và cách tránh cho người mới',
+  title: 'Thuê xe máy Hà Nội: rủi ro thường gặp và cách tránh cho người mới',
   seoTitle: 'Rủi ro khi thuê xe máy Hà Nội lần đầu và cách tránh',
   metaDescription: 'Người mới thuê xe máy ở Hà Nội thường gặp rủi ro gì: chưa quen đường, chọn xe không hợp, hiểu sai thỏa thuận, giấy tờ và an toàn, cùng cách tránh dễ làm theo.',
   summary: 'Bài dành cho người thuê xe máy lần đầu tại Hà Nội, điểm qua những rủi ro hay gặp như chưa quen luồng giao thông, chọn xe quá tầm tay lái, bỏ qua bước kiểm tra, hiểu sai thỏa thuận và thiếu chuẩn bị về giấy tờ, kèm cách phòng tránh từng việc.',

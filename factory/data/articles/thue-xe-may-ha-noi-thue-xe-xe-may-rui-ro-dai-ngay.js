@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-dai-ngay',
-  title: 'Thuê xe máy hà nội: rủi ro thường gặp và cách tránh khi dùng dài ngày',
+  title: 'Thuê xe máy Hà Nội: rủi ro thường gặp và cách tránh khi dùng dài ngày',
   seoTitle: 'Thuê xe máy Hà Nội dài ngày: rủi ro và cách phòng tránh',
   metaDescription: 'Thuê xe máy ở Hà Nội theo tuần hoặc theo tháng có rủi ro gì: xe xuống cấp, bảo dưỡng không rõ trách nhiệm, chủ quan khi quen xe, mất xe, gia hạn. Cách tránh.',
   summary: 'Bài phân tích rủi ro riêng của việc thuê xe máy ở Hà Nội theo tuần hoặc theo tháng: xe xuống cấp dần, ai chịu trách nhiệm bảo dưỡng, thói quen chủ quan, nguy cơ mất xe lâu ngày và những vướng mắc khi gia hạn hay đổi xe giữa kỳ.',

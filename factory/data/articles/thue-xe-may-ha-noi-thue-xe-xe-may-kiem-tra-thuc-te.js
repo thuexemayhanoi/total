@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-thuc-te',
-  title: 'Thuê xe máy hà nội: cách kiểm tra trước khi quyết định theo tình huống thực tế',
+  title: 'Thuê xe máy Hà Nội: cách kiểm tra trước khi quyết định theo tình huống thực tế',
   seoTitle: 'Thuê xe máy Hà Nội: kiểm tra xe theo tình huống thực tế',
   metaDescription: 'Cách kiểm tra xe máy thuê ở Hà Nội theo các tình huống hay gặp: chết máy, thủng lốp, mưa bất chợt, va quệt nhẹ và trả xe muộn, kèm câu hỏi nên đặt trước khi nhận.',
   summary: 'Bài viết đặt việc kiểm tra xe thuê ở Hà Nội vào các tình huống thực tế: xe chết máy hoặc thủng lốp, mưa bất chợt, va quệt nhẹ, trả xe muộn. Mỗi tình huống đi kèm điểm cần xem trên xe và câu hỏi nên đặt cho bên cho thuê trước khi quyết định.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-duong-dai',
-  title: 'Thuê xe máy hà nội: hợp đồng và điều khoản cần đọc khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: hợp đồng và điều khoản cần đọc khi đi đường dài',
   seoTitle: 'Thuê xe máy Hà Nội đi đường dài: điều khoản hợp đồng cần đọc',
   metaDescription: 'Điều khoản hợp đồng cần đọc khi thuê xe máy ở Hà Nội để đi liên tỉnh: phạm vi được phép đi, giới hạn quãng đường, sự cố ngoài tỉnh, trách nhiệm và nơi trả xe.',
   summary: 'Bài viết hướng dẫn đọc hợp đồng thuê xe máy ở Hà Nội cho chuyến đi liên tỉnh: phạm vi địa lý và giới hạn quãng đường, điều khoản về sự cố và sửa chữa ngoài tỉnh, trách nhiệm khi vi phạm hoặc tai nạn, cùng thời hạn, nơi trả xe và cách thay đổi kế hoạch giữa đường.',

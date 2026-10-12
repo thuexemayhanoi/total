@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-do-thi',
-  title: 'Thuê xe máy hà nội: hợp đồng và điều khoản cần đọc trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: hợp đồng và điều khoản cần đọc trong điều kiện đô thị',
   seoTitle: 'Hợp đồng thuê xe máy Hà Nội: điều khoản cần đọc khi đi phố',
   metaDescription: 'Cách đọc hợp đồng thuê xe máy ở Hà Nội khi chạy trong phố: trách nhiệm khi trầy xước, mất cắp, vi phạm giao thông, giờ trả xe và nhiên liệu.',
   summary: 'Bài hướng dẫn người thuê xe máy đi lại trong nội đô Hà Nội biết cần đọc những điều khoản nào của hợp đồng: trách nhiệm khi xe va quệt trong ngõ hẹp, mất cắp lúc gửi xe, xử lý thông báo vi phạm giao thông, giờ trả xe và mức nhiên liệu khi nhận.',
