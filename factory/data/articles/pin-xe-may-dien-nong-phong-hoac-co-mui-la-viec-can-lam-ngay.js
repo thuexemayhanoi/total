@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — S01235; nhận biết bằng quan sát, không nêu số liệu, thông số hay tên hãng/mẫu xe.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'pin-xe-may-dien-nong-phong-hoac-co-mui-la-viec-can-lam-ngay',
+  title: 'Pin xe máy điện nóng bất thường, phồng hoặc có mùi lạ: dấu hiệu nguy hiểm và việc cần làm ngay',
+  seoTitle: 'Pin xe máy điện nóng, phồng, có mùi lạ: dấu hiệu và cách xử lý',
+  metaDescription: 'Pin xe máy điện nóng bất thường, phồng vỏ hay có mùi lạ là dấu hiệu cảnh báo. Cách phân biệt với ấm bình thường, việc cần làm ngay và vì sao không nên sạc tiếp.',
+  summary: 'Bài giải thích cách phân biệt pin xe máy điện ấm lên bình thường khi làm việc với nóng bất thường, rồi liệt kê những dấu hiệu cảnh báo như phồng vỏ, biến dạng, mùi hăng, khói, chảy dịch và đèn báo bảo vệ. Nội dung nêu thứ tự việc cần làm ngay một cách an toàn gồm ngừng sạc, ngừng dùng, ngắt nguồn nếu an toàn, đưa ra nơi thoáng, không tự mở pin và gọi hỗ trợ, đồng thời giải thích vì sao không nên sạc hay chạy thử tiếp, cùng thói quen phòng tránh.',
+  quickAnswer: 'Pin xe máy điện ấm đều và dịu dần sau khi nghỉ là bình thường. Nóng cục bộ, nóng không giảm sau khi ngừng sạc, vỏ phồng hoặc biến dạng, mùi hăng, khói hay chảy dịch là cảnh báo nguy hiểm. Hãy ngừng sạc, ngừng dùng, ngắt nguồn nếu an toàn, đưa ra nơi thoáng cách xa vật dễ cháy, không tự mở pin và gọi hỗ trợ; có khói hoặc lửa thì lùi xa và gọi cứu hỏa.',
+  keyPoints: [
+    'Pin ấm lên khi chạy hoặc sạc là bình thường nếu ấm đều, tăng từ từ và dịu dần sau khi nghỉ; nóng cục bộ hoặc nóng không giảm là tín hiệu cần để ý.',
+    'Phồng vỏ, biến dạng, nứt, đổi màu, mùi hăng, khói, chảy dịch hay đèn báo bảo vệ là nhóm dấu hiệu cảnh báo; chỉ cần một dấu hiệu rõ ràng là đủ để dừng.',
+    'Việc cần làm ngay là ngừng sạc, ngừng dùng, ngắt nguồn nếu an toàn, đưa xe hoặc pin ra nơi thoáng cách xa vật dễ cháy và gọi hỗ trợ.',
+    'Không tự mở, chọc, ép pin, không dội nước bừa, không sạc hay chạy thử tiếp; có khói hoặc lửa thì lùi xa và gọi lực lượng cứu hỏa.',
+    'Phòng tránh bằng bộ sạc đúng loại, nơi sạc thoáng và khô, không sạc gần vật dễ cháy, và đưa thợ có chuyên môn kiểm tra khi có dấu hiệu lặp lại.'
+  ],
+  category: 'learn',
+  hub: 'kien-thuc-xe-dien',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['pin xe máy điện', 'khoang pin', 'mạch quản lý pin', 'bộ sạc', 'phồng vỏ pin', 'nguy cơ cháy'],
+  keywords: ['pin xe máy điện bị nóng', 'pin xe máy điện bị phồng', 'pin xe máy điện có mùi lạ', 'pin xe điện nóng khi sạc'],
+  sections: [
+    P('Ấm lên bình thường và nóng bất thường khác nhau thế nào', [
+      'Pin xe máy điện luôn ấm lên khi làm việc, và đó là chuyện bình thường. Dòng điện chạy qua cell, dây dẫn và đầu nối nào cũng sinh nhiệt, nên vỏ pin hay khoang pin có thể hơi ấm sau một quãng đường dài, lúc leo dốc, lúc chở nặng, lúc tăng tốc nhiều hoặc trong lúc đang sạc. Trời nắng gắt và chỗ để xe bí gió cũng làm mọi thứ ấm hơn mà pin chẳng có lỗi gì. Điểm cần nhìn không phải là có ấm hay không, mà là ấm theo kiểu nào: ấm đều trên cả khối, tăng từ từ theo mức làm việc, dịu xuống sau khi nghỉ và không kèm mùi, tiếng hay biến dạng gì là dáng vẻ của một cục pin khỏe mạnh. Đó là mốc so sánh quan trọng nhất để nhận ra lúc nào có chuyện bất thường.',
+      'Nóng bất thường thường có vài đặc điểm để nhận ra. Thứ nhất là nóng cục bộ: một góc, một mặt hoặc quanh đầu nối nóng hơn hẳn phần còn lại thay vì cả khối ấm đều. Thứ hai là nóng không giảm: xe đã nghỉ, sạc đã ngừng mà vỏ vẫn nóng, có khi nóng thêm. Thứ ba là nóng không tương xứng với việc làm: xe đứng yên cắm sạc lúc trời mát, hoặc chạy đoạn đường bằng, nhẹ tải mà pin đã nóng hơn mọi hôm. Thứ tư là nóng đi kèm biểu hiện khác như mùi lạ, vỏ biến dạng, đèn báo bảo vệ hay tiếng lách tách. Mức nóng cụ thể tùy loại pin và tùy xe, nên bài này không đưa con số; hãy lấy chính chiếc xe của bạn làm chuẩn, nóng hơn hẳn thói quen cũ là tín hiệu cần dừng lại xem xét.',
+      'Về nguyên tắc, nhiệt dư thường đến từ chỗ điện trở tăng lên ở đâu đó trong hệ thống. Đầu nối lỏng hoặc oxy hóa, dây dẫn tiếp xúc kém, cell bên trong đã lão hóa hay hư hại, hoặc một điểm chạm nhẹ bên trong đều có thể làm pin nóng hơn bình thường. Bộ sạc sai loại hay trục trặc cũng có thể đẩy vào pin dòng điện không phù hợp, còn nước lọt vào khoang pin hoặc cú va đập mạnh trước đó có thể làm tổn hại lớp cách điện mà bên ngoài chưa thấy gì. Những nguyên nhân này không phân biệt được bằng mắt hay bằng tay, và người dùng không nên thử phân biệt bằng cách mở pin. Mạch quản lý pin có thể ngắt khi phát hiện bất thường, nhưng nó cũng là linh kiện có thể hỏng, nên đừng xem nó là lớp bảo hiểm tuyệt đối.'
+    ]),
+    P('Phồng, biến dạng, mùi lạ: dấu hiệu cảnh báo', [
+      'Phồng vỏ là dấu hiệu dễ thấy nhất và cũng đáng ngại nhất. Khi cell bên trong bị hư, pin thường sinh khí mà khí không có đường thoát, nên đẩy vỏ căng lên. Bạn có thể thấy mặt vỏ vồng lên, nắp khoang pin kênh hoặc đóng không còn khít, khe ghép hở ra, hay pin không còn nằm vừa khay như trước. Hãy quan sát bằng mắt ở khoảng cách an toàn, có thể nhìn ngang qua mặt phẳng hoặc nhìn dọc khe lắp để thấy độ vồng; tuyệt đối không bóp, ấn hay gõ thử vào chỗ phồng. Mức độ và cơ chế cụ thể tùy loại pin, nhưng nguyên tắc chung giống nhau: vỏ đã phồng nghĩa là bên trong đã tổn hại, và chỗ phồng không tự xẹp lại thành an toàn. Phồng dù nhẹ cũng là lý do để ngừng dùng.',
+      'Biến dạng và chảy dịch là nhóm dấu hiệu thứ hai. Biến dạng gồm méo góc, nứt vỏ, đổi màu, vệt xám hoặc cháy xém, đầu nối bị chảy nhựa; những vết ấy thường là dấu tích của nhiệt hoặc của một cú va đập. Chảy dịch là vết ẩm, vệt nhờn hoặc lớp cặn lạ quanh khe vỏ và đầu nối. Dịch rò ra từ pin có thể gây kích ứng, có thể ăn mòn và có thể dẫn điện, nên đừng chạm bằng tay trần, đừng dùng khăn lau rồi vứt ở chỗ trẻ nhỏ hay thú nuôi với tới. Nước mưa hay nước rửa xe đọng ở khoang thường khô đi nhanh và không để lại vệt nhờn, nhưng nếu chưa chắc thì cứ coi như dịch lạ và giữ khoảng cách. Việc xác định đó là gì thuộc về thợ có chuyên môn.',
+      'Mùi lạ là tín hiệu có thể đến sớm hơn cả khói hay biến dạng. Mùi hăng xốc mũi, mùi nhựa cháy, mùi hóa chất ngọt gắt hoặc mùi khét quanh khoang pin, khu vực sạc đều đáng nghiêm túc, và cảm nhận cụ thể có thể khác nhau tùy loại pin. Cần phân biệt với mùi vật liệu mới ở xe mới, thường nhạt dần và không đi cùng nóng. Mùi do pin gây ra thì ngược lại, thường rõ hơn khi sạc hoặc sau khi chạy, và không dịu đi theo ngày. Mức nặng hơn là hơi trắng, khói, tiếng xì hoặc tiếng nổ nhỏ. Đèn báo bảo vệ hay báo lỗi pin trên đồng hồ, xe tự ngắt, sạc không vào cũng là tín hiệu, còn ý nghĩa từng đèn tùy xe nên cần đối chiếu sách hướng dẫn. Chỉ một dấu hiệu rõ ràng là đủ để dừng, không cần chờ gom đủ.'
+    ]),
+    P('Việc cần làm ngay khi nghi có sự cố pin', [
+      'Ưu tiên đầu tiên là an toàn của con người, xe và pin xếp sau. Việc đầu tiên luôn là ngừng sạc và ngừng dùng. Nếu xe đang cắm sạc mà chưa thấy khói hay lửa, bạn có thể ngắt nguồn từ phía ổ cắm hoặc cầu dao nếu đứng ở chỗ an toàn và không phải sát lại gần pin; thấy khói đang bốc hoặc có lửa thì đừng lại gần để rút gì cả, hãy lùi ra. Còn đang chạy trên đường mà ngửi thấy mùi lạ hay thấy xe báo lỗi pin, hãy bóp phanh, giảm tốc và dừng xe an toàn vào lề, rồi dùng công tắc tắt máy hoặc xoay khóa điện về vị trí tắt, không xoay sang vị trí khóa cổ. Sau đó xuống xe, đứng tránh ra xa và quan sát từ khoảng cách an toàn, không cúi sát vào pin.',
+      'Tiếp theo là đưa xe hoặc pin ra nơi thoáng, và chỉ làm việc này khi còn an toàn. Nghĩa là không có khói hay lửa, không thấy chảy dịch, vỏ pin không nóng đến mức không dám chạm; nếu có bất kỳ điều nào trong số đó thì để nguyên tại chỗ, tránh xa và không cho ai lại gần. Nơi thoáng nên là khoảng ngoài trời, nền không cháy được như nền xi măng hay sân gạch, cách xa xăng, bình gas, giấy, quần áo, rèm, rơm rạ và các xe khác. Không đưa vào trong nhà, phòng ngủ, gầm cầu thang, thang máy hay lối thoát hiểm, cũng không cất vào cốp xe, thùng hay túi kín. Cử một người đứng canh từ xa để nhắc mọi người đừng đến gần cho đến khi có người hỗ trợ.',
+      'Có một nhóm việc tuyệt đối không làm. Không tự mở vỏ pin, không chọc, ép, cắt dây hay xả điện, không dùng búa hay dụng cụ nạy vào chỗ phồng, và không tự thử sửa. Cũng không dội nước bừa vào pin đang có sự cố: làm vậy có thể gây chập thêm, và hiệu quả còn tùy loại pin; cách dập lửa là việc của lực lượng chuyên nghiệp nên bài này không hướng dẫn. Có khói hoặc lửa thì lùi xa, gọi lực lượng cứu hỏa theo số khẩn cấp của địa phương, báo rõ đó là pin xe điện, nói vị trí và có ai hay vật gì gần đó, rồi đừng quay lại lấy đồ. Nếu chỉ thấy nóng, phồng hoặc có mùi mà chưa có khói lửa, hãy gọi nơi hỗ trợ kỹ thuật hoặc thợ chuyên về pin xe điện và hỏi cách đưa pin đi an toàn.'
+    ]),
+    P('Vì sao không nên sạc hay chạy thử tiếp', [
+      'Nhiều người nghĩ rằng cứ cắm thử xem pin còn nhận điện không, hay chạy thử một đoạn ngắn xem xe còn đi được không. Cách nghĩ này nghe hợp lý nhưng lại sai chỗ. Một cục pin đã bị hư hại bên trong vẫn có thể cho điện và nhận điện, nên việc xe còn chạy được hoàn toàn không chứng minh pin an toàn. Cả sạc lẫn chạy đều bắt dòng điện đi qua pin, mà dòng điện luôn sinh nhiệt; nghĩa là mỗi lần thử là thêm nhiệt vào đúng chỗ đang yếu nhất. Hư hại bên trong có thể lan rộng nhanh hơn khi pin bị bắt làm việc, còn người dùng thì không có cách nào nhìn xuyên vỏ để biết hư hại đang ở mức nào. Chính sự không biết ấy là lý do để dừng hẳn thay vì thử.',
+      'Sạc là khoảnh khắc rủi ro đặc biệt. Dòng điện đi vào đều đặn trong một thời gian dài, thường vào lúc không có ai ngồi canh, nhiều khi là ban đêm hoặc lúc cả nhà đã ngủ. Một cục pin đã phồng hay có mùi mà vẫn cắm sạc sẽ chịu nhiệt từ chính nó cộng thêm nhiệt sinh ra trong quá trình nạp, trong khi mạch bảo vệ chưa chắc còn làm việc đúng. Chạy thử thì có rủi ro khác: vặn ga là kéo dòng lớn nhất ra khỏi pin, và nếu sự cố bùng lên lúc bạn đang ngồi trên xe giữa đường đông thì nguy hiểm trực tiếp ngay dưới chân. Mạch bảo vệ cũng có thể ngắt bất ngờ, khiến xe mất lực giữa đường. Cả hai kiểu thử đều đặt người và xung quanh vào rủi ro không đáng.',
+      'Cũng đừng tin các mẹo thử cho chắc. Để nguội rồi sạc lại, rút ra cắm lại, xả cạn rồi sạc đầy để pin hồi sức, mượn bộ sạc khác để thử, quấn băng keo quanh chỗ phồng hay ép vỏ cho phẳng đều không sửa được nguyên nhân bên trong, và có thể che mất dấu hiệu mà thợ cần thấy. Pin nóng lên một lần rồi trở lại bình thường không có nghĩa là hết chuyện; lần sau lặp lại mới là tín hiệu rõ nhất. Việc kiểm tra cần dụng cụ đo chuyên dụng và kinh nghiệm, và kết luận có thể là sửa hay thay pin tùy loại pin và tùy xe. Phần của bạn là giữ pin ở trạng thái đứng yên, tránh xa vật dễ cháy, rồi chờ thợ có chuyên môn xử lý.'
+    ]),
+    P('Phòng tránh: sạc đúng loại, nơi thoáng và lúc giao thợ', [
+      'Phòng tránh bắt đầu từ bộ sạc đúng loại. Hãy dùng bộ sạc đi kèm xe hoặc loại nhà sản xuất xe cho phép, theo sách hướng dẫn, thay vì mua bừa bộ sạc có đầu cắm vừa khít. Đầu cắm vừa không có nghĩa là thông số phù hợp với pin của bạn; một bộ sạc sai có thể đẩy dòng điện không đúng vào pin và làm nóng nó. Dây sạc, phích và ổ cắm cũng cần được để mắt: tránh ổ cắm lỏng, ổ cắm đang nóng, dây nối dài mỏng hoặc đã chằng chịt, tránh cắm chung nhiều thiết bị công suất lớn vào một ổ. Một bộ sạc có dấu hiệu hỏng cũng cần được xử lý song song, vì nó có thể là nguồn gây nóng cho cả pin lẫn dây điện trong nhà.',
+      'Nơi sạc cũng quan trọng không kém loại sạc. Hãy chọn chỗ khô ráo, thoáng khí, có nền không cháy được, cách xa xăng, bình gas, giấy, vải, đồ nhựa dễ bắt lửa. Không sạc ở phòng ngủ, gầm cầu thang, lối thoát hiểm hay chỗ chen chúc đồ đạc, và không phủ bạt, quần áo hoặc đệm lên pin hay bộ sạc. Tránh sạc ngoài mưa, nơi ẩm ướt hoặc dưới nắng gắt trực tiếp. Hạn chế để xe cắm sạc lúc không có ai ở nhà, và rút sạc khi pin đã đầy theo hướng dẫn của xe. Tùy xe, có thể nên để pin nguội bớt sau chặng đường dài rồi mới sạc, và sách hướng dẫn sẽ nói rõ hơn về điều này. Những thói quen nhỏ ấy giảm đáng kể rủi ro mà không tốn công gì.',
+      'Cuối cùng là biết lúc nào giao thợ. Định kỳ, hãy nhìn khe vỏ, đầu nối, nắp khoang pin và ngửi thử khu vực pin khi xe đã nghỉ, thấy lạ thì dừng lại. Đưa xe đến thợ có chuyên môn khi pin tụt nhanh bất thường, sạc lâu hơn thường lệ, xe tự ngắt, đèn báo bảo vệ sáng, hoặc pin đã từng bị va đập mạnh hay ngập nước. Nóng lặp lại dù nhẹ cũng đáng đi kiểm tra sớm, đừng chờ đến lúc phồng hay có mùi. Hãy ghi lại hoàn cảnh: nóng lúc sạc hay lúc chạy, nóng ở chỗ nào, mùi ra sao, đèn nào sáng, sạc bằng bộ nào, vì ghi chú rõ giúp thợ khoanh vùng nhanh. Nếu phải mang pin nghi hỏng đi, hãy hỏi thợ cách vận chuyển an toàn trước, đừng tự cho lên xe rồi chở đi.'
+    ])
+  ],
+  checklist: [
+    'Sờ nhẹ vỏ ngoài khi pin đã nghỉ và so với thói quen cũ của chiếc xe: ấm đều là bình thường, nóng cục bộ hoặc nóng không giảm là cần để ý.',
+    'Nhìn khe vỏ, nắp khoang pin và đầu nối xem có phồng, kênh, nứt, đổi màu, vệt cháy hay vết ẩm nhờn không; chỉ nhìn, không bóp hay ấn.',
+    'Để ý mùi hăng, mùi nhựa cháy hoặc mùi hóa chất quanh khoang pin và nơi sạc, nhất là sau khi sạc hoặc sau chặng đường dài.',
+    'Kiểm tra đèn báo bảo vệ hay báo lỗi pin trên đồng hồ và xem xe có tự ngắt bất thường không, rồi đối chiếu ý nghĩa với sách hướng dẫn của xe.',
+    'Chọn nơi sạc khô, thoáng, xa vật dễ cháy, dùng đúng bộ sạc của xe và rút sạc khi đã đầy.'
+  ],
+  steps: [
+    { title: 'Ngừng sạc và ngừng dùng', detail: 'Ngắt nguồn từ ổ cắm hoặc cầu dao nếu đứng ở chỗ an toàn; đang chạy thì bóp phanh, dừng xe an toàn rồi tắt bằng công tắc tắt máy hoặc khóa điện về vị trí tắt.' },
+    { title: 'Giữ khoảng cách và đưa ra nơi thoáng', detail: 'Chỉ di dời khi không có khói, lửa hay dịch chảy; đặt ngoài trời, nền không cháy được, xa vật dễ cháy, còn nếu không an toàn thì để nguyên, tránh xa và không cho ai lại gần.' },
+    { title: 'Không can thiệp vào pin', detail: 'Không mở vỏ, không chọc hay ép, không dội nước bừa, không sạc hay chạy thử; có khói hoặc lửa thì lùi xa và gọi lực lượng cứu hỏa ngay.' },
+    { title: 'Gọi hỗ trợ và ghi lại hoàn cảnh', detail: 'Liên hệ thợ có chuyên môn về pin xe điện, mô tả lúc nào nóng, mùi gì, đèn báo nào sáng, bộ sạc nào đã dùng, và hỏi cách vận chuyển pin an toàn.' }
+  ],
+  warnings: [
+    'Có khói, hơi trắng, tiếng xì hoặc lửa là tình huống khẩn cấp: lùi xa ngay, không lại gần để rút điện hay cứu xe, gọi lực lượng cứu hỏa theo số khẩn cấp của địa phương.',
+    'Không tự mở, chọc, ép hay cắt pin, không dội nước bừa, không sạc hay chạy thử khi pin đã phồng, nóng bất thường hoặc có mùi lạ.',
+    'Không chạm tay trần vào dịch chảy từ pin và không để pin nghi hỏng trong nhà, phòng ngủ, cốp xe hay nơi kín, gần vật dễ cháy.'
+  ],
+  notes: [
+    'Bài chỉ nêu nguyên tắc nhận biết và xử lý an toàn; nguyên nhân thật sự của sự cố chỉ thợ có chuyên môn và thiết bị phù hợp mới xác định được, và cách xử lý cụ thể tùy loại pin và tùy xe.',
+    'Cách hoạt động của mạch bảo vệ, ý nghĩa các đèn báo và cách tháo lắp pin khác nhau tùy từng xe; hãy đối chiếu với sách hướng dẫn của đúng chiếc xe bạn đang dùng.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần pin, bộ sạc và các đèn báo trên bảng đồng hồ',
+    'Tài liệu an toàn về pin và sạc xe điện do nhà sản xuất hoặc cơ quan phòng cháy chữa cháy tại địa phương công bố'
+  ],
+  related: ['pin-va-sac-xe-may-dien-nhung-dieu-can-biet', 'bo-sac-xe-may-dien-bi-hong-dau-hieu-nhan-biet', 'bms-pin-xe-may-dien-la-gi', 'phong-chay-xe-may-nguyen-nhan-va-dau-hieu', 'xe-may-dien-het-pin-giua-duong-dat-xe-an-toan']
+};
