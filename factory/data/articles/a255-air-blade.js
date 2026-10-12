@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   slug: 'air-blade',
-  title: 'Hướng dẫn chi tiết về air blade',
+  title: 'Hướng dẫn chi tiết về Air Blade',
   seoTitle: 'Hướng dẫn chi tiết về air blade',
   metaDescription: 'Hướng dẫn chi tiết về Air Blade: vị thế dòng 125 của Honda, chọn phiên bản, chạy rà, bảo dưỡng định kỳ, chi phí dùng thật và kinh nghiệm khi sang tay.',
   summary: 'Air Blade là dòng xe ga 125 của Honda đặt ở vị trí cao hơn các mẫu phổ thông: máy khoẻ hơn, thân xe dài và vững hơn, trang bị đầy đủ hơn, nên hợp người cần chạy nhanh xa hơn quãng đường phố phường hằng ngày. Hướng dẫn chi tiết về Air Blade trong bài viết này đi trọn vòng sở hữu: hiểu vị thế của dòng trong dải sản phẩm của hãng để chọn phiên bản đúng nhu cầu, chạy rà đúng cách cho động cơ bền từ cây số đầu tiên, giữ lịch bảo dưỡng định kỳ với các hạng mục đặc thù, nắm các khoản chi phí dùng thật qua từng năm, và những lưu ý khi cần sang tay để chiếc xe giữ được giá tốt nhất. Nếu bạn đang phân vân giữa mẫu 110 nhẹ nhàng và một chiếc 125 khoẻ mạnh hơn cho tuyến đường dài hơn, bài này cho bạn câu trả lời có cơ sở.',

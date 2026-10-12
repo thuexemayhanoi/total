@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   slug: 'honda-viet-nam',
-  title: 'Kinh nghiệm honda việt nam dành cho người mới',
+  title: 'Kinh nghiệm Honda Việt Nam dành cho người mới',
   seoTitle: 'Kinh nghiệm honda việt nam dành cho người mới',
   metaDescription: 'Kinh nghiệm chọn và dùng xe Honda tại Việt Nam dành cho người mới: đặc trưng các dòng số và ga, vì sao giữ giá, phụ tùng dễ kiếm và kinh nghiệm bảo dưỡng.',
   summary: 'Honda là thương hiệu xe máy quen thuộc bậc nhất trên đường Việt Nam: từ những chiếc xe số giản dị chạy hàng chục năm tới các dòng xe ga phổ thông trong ngõ nhỏ, đâu cũng thấy. Kinh nghiệm Honda Việt Nam dành cho người mới trong bài này gom lại điều cần nắm trước khi chọn và sở hữu chiếc xe mang thương hiệu này: đặc trưng chung về độ bền và cách vận hành, sự khác nhau giữa nhóm xe số và xe ga của hãng, vì sao các dòng phổ thông giữ giá khi bán lại, độ sẵn có của phụ tùng và mạng lưới bảo hành, cùng kinh nghiệm bảo dưỡng để chiếc xe bền qua năm. Nắm được những điều nền tảng, người mới sẽ chọn đúng dòng cho nhu cầu và dùng chiếc xe đúng cách, thay vì chỉ mua vì hàng xóm cũng mua.',

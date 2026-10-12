@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   slug: 'grande',
-  title: 'Tổng hợp kiến thức: grande',
+  title: 'Tổng hợp kiến thức: Grande',
   seoTitle: 'Tổng hợp kiến thức: grande',
   metaDescription: 'Tổng hợp kiến thức về Yamaha Grande: phong cách thiết kế, các phiên bản, vận hành, chi phí sở hữu, khả năng giữ giá và nhóm người dùng phù hợp nhất.',
   summary: 'Yamaha Grande là dòng xe ga 125 mang phong cách riêng của hãng: thiết kế trang nhã, đường nét thanh thoát và nhiều tiện nghi hướng tới trải nghiệm mỗi ngày, nên từ khi ra mắt dòng này đã có chỗ đứng vững trong nhóm xe ga cỡ vừa tại Việt Nam. Tổng hợp kiến thức về Grande trong bài viết gom trọn những gì người mua nên biết: phong cách và trang bị đặc trưng của dòng, khác biệt giữa các phiên bản qua từng thời điểm bán, cảm giác vận hành trên phố và đường trường, các khoản chi phí sở hữu qua từng năm, cùng khả năng giữ giá khi sang tay. Bài viết cũng chỉ rõ nhóm người dùng hợp nhất với dòng xe này để bạn quyết định dựa trên nhu cầu thật thay vì theo phong trào của hội nhóm.',

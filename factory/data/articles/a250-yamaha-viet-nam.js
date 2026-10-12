@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   slug: 'yamaha-viet-nam',
-  title: 'Yamaha việt nam — những điều cần biết',
+  title: 'Yamaha Việt Nam — những điều cần biết',
   seoTitle: 'Yamaha việt nam — những điều cần biết',
   metaDescription: 'Yamaha tại Việt Nam — những điều cần biết: thế mạnh thiết kế và xe ga, các dòng quen thuộc, phụ tùng và bảo hành, cùng kinh nghiệm chọn dòng theo nhu cầu đi lại.',
   summary: 'Yamaha là thương hiệu tạo dấu ấn riêng trên thị trường xe máy Việt Nam bằng phong cách thiết kế trẻ và cách vận hành có cá tính: từ các dòng xe ga hợp phố tới những chiếc xe số thể thao ăn khách nhiều năm. Những điều cần biết về Yamaha Việt Nam trong bài này giúp người mới nắm được bản chất của thương hiệu: thế mạnh về thiết kế và tiện nghi xe ga, đặc trưng vận hành khác biệt, các dòng quen thuộc theo từng phân khúc, độ sẵn có của phụ tùng và mạng lưới dịch vụ, cùng kinh nghiệm chọn đúng dòng theo nhu cầu đi lại hằng ngày. Phần cuối là lời khuyên bảo dưỡng và giữ giá, để chiếc xe Yamaha bạn rước về vừa hợp cá tính, vừa bền theo năm như kỳ vọng ban đầu.',

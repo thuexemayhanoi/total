@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'abs-xe-may',
-  title: 'Kinh nghiệm abs xe máy dành cho người mới',
+  title: 'Kinh nghiệm ABS xe máy dành cho người mới',
   seoTitle: 'ABS xe máy là gì: kinh nghiệm dùng ABS đúng cách cho người mới',
   metaDescription: 'ABS xe máy hoạt động thế nào, khi nào phát huy tác dụng, khi nào vô dụng, cách tập làm quen với cảm giác rung cần phanh và các kinh nghiệm thực tế cho người mới.',
   summary: 'ABS (hệ thống chống bó cứng phanh) là trang bị an toàn quan trọng nhất trên xe máy hiện đại sau mũ bảo hiểm. Với người mới, ABS thay đổi hoàn toàn cách xử lý tình huống phanh gấp: thay vì lo bánh trước bó cứng ngã ngay tại chỗ, người lái có thể bóp phanh hết lực mà hệ thống tự nhả-kẹp hàng chục lần mỗi giây để giữ bánh đang quay. Nhưng ABS không phải đũa thần: nó vô dụng khi bánh đã trượt ngang, không rút ngắn quãng đường trên cát sỏi lỏng lẻo, và đòi hỏi người lái làm quen với cảm giác rung nhịp nhàng ở cần phanh để không hốt hoảng buông phanh giữa lúc gấp. Bài viết giải thích nguyên lý, các tình huống ABS phát huy và không phát huy, cách tập quen cảm giác ABS, cùng những thói quen phanh đúng để hệ thống này làm đúng việc của nó.',

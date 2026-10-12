@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'xe-dien-viet-nam',
-  title: 'Hướng dẫn chi tiết về xe điện việt nam',
+  title: 'Hướng dẫn chi tiết về xe điện Việt Nam',
   seoTitle: 'Xe điện Việt Nam: thương hiệu, hạ tầng và xu hướng',
   metaDescription: 'Thị trường xe điện Việt Nam: các thương hiệu nội địa và quốc tế, hạ tầng trạm sạc, quy định biển số và dự báo xu hướng cho người đang cân nhắc.',
   summary: 'Thị trường xe điện hai bánh Việt Nam trong vài năm trở lại đây không còn là "thứ để thử": xe đạp điện phủ kín trường học, xe máy điện điện phân khúc từ vài chục triệu tới dòng hiệu năng cao, và dải thương hiệu vừa có tên nội địa vừa có hãng xe tư nhân mới nổi. Nhưng bức tranh đó lại rối ở đúng chỗ người mua cần rõ nhất: thương hiệu nào đáng tin, hạ tầng sạc đang tới đâu, quy định biển số và giấy tờ xử lý thế nào, và xu hướng vài năm tới nên chờ hay nên mua. Bài viết này xếp thị trường thành bốn lớp — thương hiệu nội địa truyền thống, thương hiệu mới nổi tập trung vào xe máy điện hiệu năng cao, các hãng quốc tế, và nhóm lắp ráp phân khúc thấp — kèm một mục về hạ tầng sạc và một mục về quy định hiện hành. Mục đích: người đọc tự trả lời được câu hỏi thực dụng nhất — "mua xe điện ở Việt Nam lúc này, cần trông chờ gì và cần thận trọng gì".',

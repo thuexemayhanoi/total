@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   slug: 'vinfast',
-  title: 'Hướng dẫn chi tiết về vinfast',
+  title: 'Hướng dẫn chi tiết về VinFast',
   seoTitle: 'Hướng dẫn chi tiết về vinfast',
   metaDescription: 'Hướng dẫn chi tiết về VinFast: dòng xe máy điện, pin và trạm sạc, chi phí chạy, kinh nghiệm chọn dòng theo nhu cầu, bảo dưỡng và lưu ý khi dùng xe điện.',
   summary: 'VinFast là thương hiệu Việt gây chú ý lớn trên thị trường xe máy điện: từ những dòng xe ga điện phổ thông tới hệ thống pin và các gói dịch vụ đi kèm, thương hiệu này đã tạo một cách sở hữu xe hơi khác biệt so với xe xăng truyền thống. Hướng dẫn chi tiết về VinFast trong bài này giúp người mới nắm trọn vòng sở hữu: hiểu đặc trưng của xe máy điện và hệ thống pin, cách sạc tại nhà và sử dụng trạm pin công cộng, chi phí chạy mỗi cây số, kinh nghiệm chọn dòng theo nhu cầu đi lại, các khoản bảo dưỡng khác biệt của xe điện, và những lưu ý khi dùng hằng ngày để pin bền theo năm. Nắm được những điều nền tảng, bạn sẽ biết chiếc xe điện hợp mình tới đâu và dùng nó đúng cách ngay từ ngày đầu.',

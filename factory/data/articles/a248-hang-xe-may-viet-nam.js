@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   slug: 'hang-xe-may-viet-nam',
-  title: 'Tổng hợp kiến thức: hãng xe máy việt nam',
+  title: 'Tổng hợp kiến thức: hãng xe máy Việt Nam',
   seoTitle: 'Tổng hợp kiến thức: hãng xe máy việt nam',
   metaDescription: 'Tổng hợp kiến thức về các hãng xe máy tại Việt Nam: đặc trưng từng hãng, thế mạnh xe số và xe ga, phụ tùng và bảo hành, cùng cách chọn hãng theo nhu cầu.',
   summary: 'Thị trường xe máy Việt Nam thuộc nhóm sôi động bậc nhất khu vực: hàng chục dòng xe từ hàng phổ thông tới phân khối lớn, từ xe số truyền thống tới xe ga và cả xe máy điện, đều có chỗ đứng riêng. Tổng hợp kiến thức về các hãng xe máy trong bài này giúp bạn nắm bức tranh chung trước khi đi xem xe: đặc trưng của từng nhóm hãng từ Nhật, Âu tới các thương hiệu Việt, thế mạnh của xe số và xe ga ở từng phân khúc, mức độ sẵn có của phụ tùng và mạng lưới bảo hành, và cách soi một chiếc xe theo hãng. Phần cuối gom các tiêu chí chọn hãng theo nhu cầu thực tế, để chiếc xe bạn rước về vừa hợp túi tiền, vừa hợp đường đi mỗi ngày.',

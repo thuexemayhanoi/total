@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   slug: 'xe-vision',
-  title: 'Xe vision — những điều cần biết',
+  title: 'Xe Vision — những điều cần biết',
   seoTitle: 'Xe vision — những điều cần biết',
   metaDescription: 'Xe Vision — những điều cần biết: vì sao dòng xe này phổ biến, khác biệt giữa các năm máy, khả năng giữ giá, chi phí dùng thật và khi nào Vision hợp với bạn.',
   summary: 'Honda Vision là dòng xe ga bán chạy bậc nhất Việt Nam nhiều năm liền, và bất kỳ ai đang tìm một phương tiện đi lại hằng ngày cũng đều cân nhắc tới nó ít nhất một lần. Nhưng xe Vision — những điều cần biết không dừng ở bảng thông số: người mua nên hiểu vì sao dòng xe này giữ được sức hút, điểm khác biệt thực tế giữa các năm máy và các phiên bản, mức độ giữ giá giúp việc sang tay nhẹ nhàng, cùng các khoản chi phí dùng thật qua từng năm. Bài viết cũng nói thẳng những mặt chưa hoàn hảo của Vision để bạn quyết định dựa trên nhu cầu thật: chiếc xe hợp người đi lại đô thị chặng ngắn tới trung bình, còn người cần máy khoẻ cho tuyến dài chở nặng thì có những lựa chọn phù hợp hơn.',

@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'giao-thong-tp-hcm',
-  title: 'Tổng hợp kiến thức: giao thông tp hcm',
+  title: 'Tổng hợp kiến thức: giao thông TP HCM',
   seoTitle: 'Giao thông TP.HCM: quy luật, cao điểm và lưu ý di chuyển',
   metaDescription: 'Kiến thức giao thông TP.HCM: trục chính và cao tốc, giờ cao điểm theo ca kíp, mưa và triều cường, kỹ năng đi xe máy và xu hướng hạ tầng của đô thị phương Nam.',
   summary: 'Thành phố Hồ Chí Minh là siêu đô thị của phương Nam, nơi giao thông vận hành theo những quy luật riêng hình thành từ quy mô dân số, mô hình các khu công nghiệp ven đô và hệ thống sông ngòi kênh rạch chằng chịt. Bài viết tổng hợp kiến thức về giao thông TP.HCM dưới góc độ thông tin tham khảo: cấu trúc các trục chính và các tuyến cao tốc hướng vùng, sự khác biệt của giờ cao điểm theo ca kíp, ảnh hưởng của mưa và triều cường, kỹ năng phù hợp khi đi xe máy trong đô thị lớn, cùng xu hướng hạ tầng giao thông đang thay đổi diện mạo đi lại của thành phố. Nội dung mang tính kiến thức chung, không thay thế quy định pháp luật hiện hành.',
