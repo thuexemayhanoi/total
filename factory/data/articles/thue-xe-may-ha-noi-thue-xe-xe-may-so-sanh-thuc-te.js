@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-thuc-te',
-  title: 'Thuê xe máy hà nội: cách so sánh lựa chọn theo tình huống thực tế',
+  title: 'Thuê xe máy Hà Nội: cách so sánh lựa chọn theo tình huống thực tế',
   seoTitle: 'So sánh thuê xe máy Hà Nội qua các tình huống thực tế',
   metaDescription: 'Cách so sánh lựa chọn thuê xe máy ở Hà Nội bằng các tình huống thực tế: xe hỏng giữa đường, trầy xước nhẹ, trả xe trễ và cách ghi lại câu trả lời để chấm điểm.',
   summary: 'Bài hướng dẫn dùng tình huống giả định để so sánh các bên cho thuê xe máy ở Hà Nội: hỏi cùng một bộ câu hỏi về xe hỏng giữa đường, va quệt nhẹ, trả xe trễ, rồi ghi lại và chấm điểm câu trả lời để chọn phương án đáng tin hơn.',

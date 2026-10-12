@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-nguoi-moi',
-  title: 'Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả cho người mới',
+  title: 'Thuê xe máy Hà Nội: những điều cần nhớ khi hoàn trả cho người mới',
   seoTitle: 'Người mới thuê xe máy Hà Nội: cần nhớ gì khi trả xe',
   metaDescription: 'Hướng dẫn người mới thuê xe máy ở Hà Nội cách chuẩn bị và hoàn trả xe: dọn xe, kiểm tra cùng bên cho thuê, thanh toán, nhận lại giấy tờ và lưu bằng chứng.',
   summary: 'Bài dành cho người lần đầu thuê xe máy ở Hà Nội, giải thích những bước nên làm khi hoàn trả xe: chuẩn bị tâm thế, gom đồ cá nhân, cùng kiểm tra tình trạng xe, đối chiếu thanh toán, nhận lại giấy tờ và lưu bằng chứng sau khi trả.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-duong-dai',
-  title: 'Thuê xe máy hà nội: kinh nghiệm sử dụng thực tế khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: kinh nghiệm sử dụng thực tế khi đi đường dài',
   seoTitle: 'Kinh nghiệm đi đường dài bằng xe máy thuê từ Hà Nội',
   metaDescription: 'Kinh nghiệm đi đường dài bằng xe máy thuê xuất phát từ Hà Nội: chia chặng nghỉ, tải trọng và áp suất lốp, nhiên liệu và mệt mỏi, xử lý trục trặc ở xa và trả xe khi về.',
   summary: 'Bài chia sẻ kinh nghiệm đi đường dài bằng xe máy thuê xuất phát từ Hà Nội: lập kế hoạch chặng nghỉ thay vì chạy một mạch, điều chỉnh tải trọng và áp suất lốp, quản lý nhiên liệu cùng sự mệt mỏi, xử lý trục trặc ở nơi xa và chuẩn bị cho việc trả xe khi trở về.',

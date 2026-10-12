@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-thuc-te',
-  title: 'Thuê xe máy hà nội: kinh nghiệm sử dụng thực tế theo tình huống thực tế',
+  title: 'Thuê xe máy Hà Nội: kinh nghiệm sử dụng thực tế theo tình huống thực tế',
   seoTitle: 'Thuê xe máy Hà Nội: xử lý tình huống thực tế khi đi',
   metaDescription: 'Cách xử lý các tình huống hay gặp khi dùng xe máy thuê ở Hà Nội: xe chết máy, thủng lốp, mưa bất chợt, va quệt nhẹ, mất chìa khóa và khi bị yêu cầu dừng xe.',
   summary: 'Bài hướng dẫn cách ứng xử theo từng tình huống thực tế khi dùng xe máy thuê ở Hà Nội: xe chết máy hoặc thủng lốp giữa đường, mưa bất chợt, va quệt nhẹ, mất chìa khóa và khi được yêu cầu dừng xe kiểm tra giấy tờ.',
