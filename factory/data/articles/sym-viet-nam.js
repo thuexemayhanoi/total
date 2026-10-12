@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'sym-viet-nam',
-  title: 'Hướng dẫn chi tiết về sym việt nam',
+  title: 'Hướng dẫn chi tiết về SYM Việt Nam',
   seoTitle: 'SYM Việt Nam: hướng dẫn về thương hiệu, dàn xe và bảo dưỡng',
   metaDescription: 'SYM Việt Nam là thương hiệu xe Đài Loan lâu đời với dàn xe số và xe ga phổ thông. Hướng dẫn chi tiết về đặc điểm, cách chọn và dùng xe SYM tại Việt Nam.',
   summary: 'SYM Việt Nam là câu chuyện của một thương hiệu "trầm": hãng xe Đài Loan Sanyang Motor hiện diện tại thị trường Việt Nam từ những năm đầu mở cửa, không bao giờ dẫn đầu về doanh số hay hình ảnh, nhưng trụ vững qua nhiều thập kỷ bằng đúng một thứ — danh tiếng máy bền và chi phí thấp được truyền miệng giữa những người dùng xe để làm việc. Hiểu SYM Việt Nam đúng nghĩa là hiểu vị trí của nó: hãng của dòng phổ thông (xe số Excel, xe ga Elegant – Angela), cạnh tranh bằng giá và độ dễ sửa chứ không bằng trang bị. Bài viết này hướng dẫn chi tiết cho người đang cân mua xe SYM: SYM tại Việt Nam mạnh thật ở đâu và yếu ở đâu; cách đọc dàn xe và chọn dòng đúng vai; nhóm kinh nghiệm dùng giữ tuổi thọ máy (hai việc nhỏ quyết định: nhớt và lọc gió); cách bảo dưỡng theo sổ tay và theo dấu hiệu sớm; và phần mua cũ — kỹ năng lọc trong thị trường SYM cũ dày đặc xe chạy dịch vụ, kèm quy trình kiểm vận hành chuẩn.',

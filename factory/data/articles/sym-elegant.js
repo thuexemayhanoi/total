@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'sym-elegant',
-  title: 'Tổng hợp kiến thức: sym elegant',
+  title: 'Tổng hợp kiến thức: SYM Elegant',
   seoTitle: 'SYM Elegant: tổng hợp kiến thức dùng và bảo dưỡng xe ga',
   metaDescription: 'SYM Elegant là dòng xe ga phổ thông của SYM tại Việt Nam. Tổng hợp đặc tính vận hành, kỹ năng lái, bảo dưỡng đúng kỳ và kinh nghiệm mua cũ.',
   summary: 'SYM Elegant thuộc nhóm xe ga phổ thông cân bằng trong dàn xe SYM tại Việt Nam — nhóm xe đặt mục tiêu "đủ dùng tốt" thay vì "thừa tiện nghi": động cơ đủ khỏe cho phố và quãng tỉnh ngắn, yên rộng chở người thoải mái, và chiều cao – trọng lượng đứng giữa nhóm gọn nhẹ và nhóm to béo. Với người mua lần đầu, đây là lớp xe dễ "mua nhầm vai" nhất: người mua hình ảnh dễ thấy nó đẹp mà quên rằng mình cần nhỏ gọn, người cần nhỏ gọn lại thấy yên rộng mà ham. Bài viết này tổng hợp kiến thức quanh việc dùng Elegant đúng cách: đọc đúng vị trí của nó giữa bản đồ xe ga; nhóm kỹ năng lái xe ga phổ thông (tay ga mẫn, phanh chia lực, đi trời mưa) theo trình tự người mới; đặc tính vận hành của lớp xe cân bằng — tải, gió, quãng đường hợp lý; nhóm bảo dưỡng đặc thù xe ga cần đều tay; và phần mua cũ tổng hợp các dấu hiệu lọc xe ga phổ thông đã qua tay dịch vụ hoặc sửa kin.',

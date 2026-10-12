@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'piaggio-liberty',
-  title: 'Tổng hợp kiến thức: piaggio liberty',
+  title: 'Tổng hợp kiến thức: Piaggio Liberty',
   seoTitle: 'Piaggio Liberty: tổng hợp kiến thức xe ga châu Âu tại Việt Nam',
   metaDescription: 'Piaggio Liberty là xe ga châu Âu phổ thông của Piaggio tại Việt Nam. Tổng hợp đặc tính, cách dùng, bảo dưỡng và kinh nghiệm mua cũ dòng Liberty.',
   summary: 'Piaggio Liberty là dòng xe ga đại diện cho lối tiếp cận châu Âu trong phân khúc phổ thông tại Việt Nam: bánh xe lớn hơn chuẩn xe ga Á, phần treo và khung hướng ổn định, và ngôn ngữ thiết kế scooter Ý — trong khi vẫn giữ kích cỡ và giá ở vùng hợp lý cho người đi lại hằng ngày. Với người mua lần đầu cân dòng xe ga "khác biệt một chút", Liberty là điểm khởi đầu phổ biến nhất của nhóm scooter Ý: dễ nhận, dễ mua, và đậm chất thương hiệu hơn hẳn các dòng cùng tầm. Nhưng chất châu Âu cũng đi kèm đặc thù riêng: giá phụ tùng và dịch vụ cao hơn nhóm xe Nhật – Việt phổ thông, và cách dùng cần tôn trọng thiết kế. Bài viết này tổng hợp kiến thức dùng Liberty từ đầu: vị trí của nó trong bản đồ xe ga Việt Nam; trải nghiệm lái khác biệt (bánh lớn, treo, tư thế); nhóm kỹ năng và thói quen hằng ngày; lịch bảo dưỡng và chi phí dài hạn của dòng xe châu Âu; và phần mua cũ — những điểm kiểm riêng của scooter Ý đã qua sử dụng.',

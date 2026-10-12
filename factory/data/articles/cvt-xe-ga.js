@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'cvt-xe-ga',
-  title: 'Tổng hợp kiến thức: cvt xe ga',
+  title: 'Tổng hợp kiến thức: CVT xe ga',
   seoTitle: 'CVT xe ga: cấu tạo, cách hoạt động, dấu hỏng và bảo dưỡng',
   metaDescription: 'Tổng hợp kiến thức về CVT trên xe ga: cấu tạo bộ truyền tải, cách hoạt động, dấu hỏng sớm, thói quen gây hại và lịch chăm đúng.',
   summary: 'CVT (bộ biến tốc liên tục) là trái tim của mọi chiếc xe ga: cụm làm việc thay bạn toàn bộ việc sang số, để chiếc xe không có cần số – cần côn mà vẫn tăng giảm đều. Nhưng CVT cũng là cụm hỏng đắt nhất và hỏng âm thầm nhất trên xe ga — không hề ngẫu nhiên khi phần lớn tiền sửa "đột xuất" của xe ga cũ đều quy về ba cụm truyền lực: bố ba, dây côn và bộ bi. Bài này tổng hợp kiến thức CVT cho người dùng xe ga thường: CVT làm gì và gồm những gì; máy hiểu lệnh ga của bạn ra sao; các dấu hỏng sớm bạn nghe – cảm được mỗi tuần; bốn thói quen lái rút ngắn tuổi CVT nhanh nhất; và lịch bảo dưỡng — thời điểm thay từng món đúng cách, kèm phần mua cũ: nghe CVT thế nào để không mua nhầm chiếc xe đã "hết đời cụm truyền lực".',

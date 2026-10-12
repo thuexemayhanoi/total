@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'vespa',
-  title: 'Kinh nghiệm vespa dành cho người mới',
+  title: 'Kinh nghiệm Vespa dành cho người mới',
   seoTitle: 'Vespa: kinh nghiệm chọn, dùng và bảo dưỡng cho người mới',
   metaDescription: 'Vespa là biểu tượng scooter Ý của Piaggio tại Việt Nam. Kinh nghiệm chọn dòng, dùng đúng cách, bảo dưỡng và mua cũ Vespa cho người mới.',
   summary: 'Vespa là trường hợp hiếm trong thế giới xe hai bánh: một scooter trở thành biểu tượng văn hóa tồn tại gần một thế kỷ — sinh ra ở Ý những năm sau chiến tranh, vượt ra khỏi vai trò phương tiện để trở thành một "tuyên ng phong cách" được nhận diện ở mọi continent. Tại Việt Nam, Vespa là dòng xe ga cao cấp nhất trong dàn Piaggio: thân vỏ thép đặc trưng, giá owning cao hơn hẳn nhóm xe ga phổ thông, và một cộng đồng người chơi – người sưu tầm hoạt động riêng. Với người mới cân Vespa lần đầu, cần hiểu rõ mình mua gì: đây không phải bài toán đi lại tối ưu — mọi so sánh "đồng tiền mua được gì" Vespa đều thua về thực dụng; đây là bài toán sở hữu một biểu tượng, với các khoản "chi phí của chất riêng": vỏ thép, chi phí phụ tùng, lịch chăm và quy tắc giữ hình thức. Bài viết này cho người mới: Vespa là gì và các dòng trong dàn hiện hành khác nhau ra sao; trải nghiệm và kỹ năng của xe thân thép; chi phí sở hữu thật và cách kiểm soát; nhóm bảo dưỡng đặc thù; và phần mua cũ — quy trình kiểm riêng cho xe biểu tượng.',

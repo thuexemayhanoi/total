@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'sym-angela',
-  title: 'Hướng dẫn chi tiết về sym angela',
+  title: 'Hướng dẫn chi tiết về SYM Angela',
   seoTitle: 'SYM Angela: hướng dẫn dùng xe ga nhỏ gọn cho người mới',
   metaDescription: 'SYM Angela là dòng xe ga nhỏ gọn của SYM tại Việt Nam. Hướng dẫn đặc tính vận hành, kỹ năng lái xe ga, bảo dưỡng đúng kỳ và kinh nghiệm mua cũ.',
   summary: 'SYM Angela thuộc nhóm xe ga nhỏ gọn trong dàn xe SYM tại Việt Nam — nhóm xe được thiết kế quanh một lời hứa: gọn, nhẹ, dễ dùng cho người đi lại đô thị mỗi ngày. Với người mới — học sinh – sinh viên, người lớn tuổi, hoặc người vừa chuyển từ xe đạp điện – xe máy điện sang xe động cơ — xe ga nhỏ gọn là nhóm dễ tiếp cận nhất: không cần số, không cần côn, thao tác thu gọn về tay ga và hai phanh. Nhưng dễ dùng không có nghĩa không cần học: xe ga có nhóm kỹ năng riêng (khoảng cách an toàn khi xe nhẹ, phanh chia lực trước – sau, đi trời mưa), và xe nhỏ gọn có đặc thù riêng — nhạy gió, tải giới hạn, và vai trò đúng của nó trong đô thị. Bài viết này hướng dẫn chi tiết từ con số không: Angela là ai trong nhóm xe ga nhỏ; những kỹ năng buổi đầu cần tập; đặc tính vận hành và giới hạn tải của dòng nhỏ gọn; nhóm bảo dưỡng đặc thù xe ga (bố ba tròng côn, dây côn, lọc gió); và phần mua cũ — cách lọc xe ga nhỏ đã chạy "nát dịch vụ" trong phố.',

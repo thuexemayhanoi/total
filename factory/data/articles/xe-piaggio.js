@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'xe-piaggio',
-  title: 'Hướng dẫn chi tiết về xe piaggio',
+  title: 'Hướng dẫn chi tiết về xe Piaggio',
   seoTitle: 'Xe Piaggio tại Việt Nam: hướng dẫn về thương hiệu và dàn xe ga Ý',
   metaDescription: 'Piaggio là tập đoàn xe Ý với dàn Vespa, Liberty, Medley tại Việt Nam. Hướng dẫn chi tiết về đặc điểm, cách chọn, bảo dưỡng và mua cũ.',
   summary: 'Piaggio là tập đoàn xe của Ý — cái tên đứng sau cả một trường phái scooter châu Âu và là chủ sở hữu của những thương hiệu hai bánh danh tiếng, trong đó Vespa là nổi tiếng nhất. Tại Việt Nam, Piaggio hiện diện với nhà máy sản xuất riêng và một dàn xe ga trải từ phổ thông (Liberty) tới cao cấp biểu tượng (Vespa) và dòng vận hành đầm (Medley) — tất cả cùng mang đặc tánh chung dễ nhận: bánh xe lớn, phần treo dài, tư thế ngồi thẳng, và ngôn ngữ thiết kế Ý khác hẳn xe ga Á đại trà. Bài viết này hướng dẫn chi tiết cho người đang cân nhóm xe Piaggio lần đầu: hãng là ai và triết lý sản phẩm khác gì các thương hiệu Nhật – Á; cách đọc dàn xe và chọn dòng đúng nhu cầu; đặc điểm trải nghiệm cần làm quen; chi phí sở hữu thật và cách kiểm soát; nhóm bảo dưỡng đặc thù của xe ga Ý; và phần mua cũ — quy trình kiểm và nguyên tắc giá trị riêng của dòng xe châu Âu tại Việt Nam.',

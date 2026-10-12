@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'suzuki-gd',
-  title: 'Kinh nghiệm suzuki gd dành cho người mới',
+  title: 'Kinh nghiệm Suzuki GD dành cho người mới',
   seoTitle: 'Suzuki GD 110: kinh nghiệm dùng xe số bền cho người mới',
   metaDescription: 'Suzuki GD là dòng xe số 110cc bền bỉ của Suzuki Việt Nam. Tìm hiểu đặc tính vận hành, kỹ năng lái xe số, bảo dưỡng đúng kỳ và kinh nghiệm mua cũ cho người mới.',
   summary: 'Suzuki GD là mẫu xe số phổ thông gắn với hình ảnh "chiếc xe bền chạy đều" trong dàn xe Suzuki Việt Nam: động cơ 110cc gió mát, cấu tạo cơ khí đơn giản, và một triết lý thiết kế ưu tiên độ bền trước sự hào nhoáng. Với người mới — người vừa chuyển từ xe đạp – xe điện hoặc mua chiếc moto đầu tiên — GD thuộc nhóm dễ học nhất: cần số tuân thủ, ga nhẹ, và gần như mọi thao tác đều khoan dung với lỗi tay. Nhưng "dễ lái" không đồng nghĩa "không cần học": xe số có trình tự vận hành riêng — đề, vào số, phối hợp ga – côn (GD dùng côn tay kiểu xe số truyền thống) — và có lịch bảo dưỡng đặc thù của dòng máy gió mát chạy bền. Bài viết này viết cho người mới bắt đầu từ con số không: GD là ai trong dàn xe số phổ thông; những buổi đầu nên tập gì và theo trình tự nào; đặc tính vận hành cần tôn trọng của dòng 110 gió mát; nhóm bảo dưỡng rẻ nhưng phải đều tay; và phần mua cũ — thị trường xe số cũ dồi dào GD là nơi vừa nhiều món ngon vừa nhiều cạm bẫy về số ki-lô-mét đã "tắm".',

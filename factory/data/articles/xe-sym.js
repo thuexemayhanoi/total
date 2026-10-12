@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'xe-sym',
-  title: 'Kinh nghiệm xe sym dành cho người mới',
+  title: 'Kinh nghiệm xe SYM dành cho người mới',
   seoTitle: 'XE SYM: kinh nghiệm chọn, dùng và bảo dưỡng cho người mới',
   metaDescription: 'SYM là thương hiệu xe Đài Loan lâu năm tại Việt Nam. Kinh nghiệm chọn dòng xe số – ga SYM, cách dùng, bảo dưỡng và mua cũ cho người mới.',
   summary: 'SYM (Sanyang Motor) là thương hiệu xe Đài Loan có mặt lâu đời tại thị trường Việt Nam — một trong số ít hãng "cũ" giữ được vị trí trong dàn xe phổ thông qua nhiều thập kỷ, với hình ảnh gắn liền hai chữ: bền và rẻ chi phí. Với người mới mua moto lần đầu, SYM thường xuất hiện trong danh sách rút gọn cuối cùng vì một lý do thực tế: giá cạnh tranh trong khi chất lượng máy thuộc nhóm ổn định — phương án "trả ít hơn cho một chiếc xe ổn" mà không xuống tới hàng trôi nổi. Nhưng người mới cần biết rõ mình mua gì: dàn xe SYM trải từ dòng số bền (Excel) tới xe ga phổ thông (Elegant, Angela), mỗi dòng đúng một vai. Bài viết này viết cho người mới từ đầu: SYM là ai và mạnh thật ở đâu; cách chọn dòng đúng nhu cầu trong dàn xe SYM; nhóm kinh nghiệm dùng và bảo dưỡng chung của xe SYM (đơn giản, khoan dung, nhưng cần đều tay ở nhớt và lọc gió); và phần mua cũ — đặc thù thị trường SYM cũ nhiều xe chạy dịch vụ.',

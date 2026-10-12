@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'suzuki-viet-nam',
-  title: 'Suzuki việt nam — những điều cần biết',
+  title: 'Suzuki Việt Nam — những điều cần biết',
   seoTitle: 'Suzuki Việt Nam: thương hiệu, dàn xe và kinh nghiệm chọn mua',
   metaDescription: 'Suzuki Việt Nam là thương hiệu moto Nhật với nhà máy ở Đồng Nai. Tìm hiểu dàn xe số, xe ga, xe côn tay của Suzuki tại Việt Nam và cách chọn đúng dòng.',
   summary: 'Suzuki Việt Nam là một trong những cái tên Nhật bản trụ vững lâu nhất ở thị trường moto phổ thông Việt Nam: vào thị trường từ giữa thập niên 1990 với nhà máy lắp ráp tại Đồng Nai, Suzuki xây dựng tiếng nói không bằng số lượng bán chạy nhất mà bằng ba thứ: độ bền máy, danh tiếng dòng xe số – côn tay, và mạng lưới phụ tùng – dịch vụ ổn định qua nhiều thập kỷ. Trong dàn xe hiện diện tại Việt Nam, Suzuki giữ vai đặc biệt ở vài vai mà đối thủ Nhật khác hoặc rút khỏi hoặc mỏng dần: dòng xe côn tay phổ thông (Raider), dòng xe số bền giá rẻ (GD, Viva), và phân khúc xe ga nhỏ gọn đô thị (Address). Bài viết này tổng hợp điều người mua cần biết: Suzuki Việt Nam là ai và mạnh ở đâu; bản đồ dàn xe số – ga – côn tay theo nhu cầu; đặc điểm chung "chất Suzuki" cần nắm trước khi mua (khắc – khoan dung – ít hỏng vặt nhưng cũng không nhiều trang trí); cách dùng và bảo dưỡng đúng tinh thần của hãng; và lưu ý mua cũ dòng xe Suzuki nói chung.',
