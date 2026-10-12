@@ -17807,6 +17807,71 @@
    "attempts": 0,
    "createdAt": "2026-10-12T19:26:05.620Z",
    "updatedAt": "2026-10-12T19:26:05.620Z"
+  },
+  {
+   "id": "S01232",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "xe-may-dien-bi-giat-hoac-yeu-di-khi-van-ga",
+   "title": "Xe máy điện bị giật cục hoặc yếu đi khi vặn ga: tay ga, giắc nối, nhiệt độ, pin và bộ điều khiển",
+   "primaryIntent": "troubleshooting/xe-may-dien-bi-giat-hoac-yeu-di-khi-van-ga",
+   "notes": "source=topic-v2 topicId=T001304",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:29:36.476Z",
+   "updatedAt": "2026-10-12T19:29:36.476Z"
+  },
+  {
+   "id": "S01233",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "tay-ga-xe-may-dien-va-cam-bien-hall-lam-viec-ra-sao",
+   "title": "Tay ga xe máy điện và cảm biến Hall: vặn ga thành tín hiệu ra sao và dấu hiệu tay ga hỏng",
+   "primaryIntent": "informational/tay-ga-xe-may-dien-va-cam-bien-hall-lam-viec-ra-sao",
+   "notes": "source=topic-v2 topicId=T001305",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:29:36.500Z",
+   "updatedAt": "2026-10-12T19:29:36.500Z"
+  },
+  {
+   "id": "S01234",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "che-do-lai-xe-may-dien-tiet-kiem-tieu-chuan-the-thao",
+   "title": "Chế độ lái trên xe máy điện: tiết kiệm, tiêu chuẩn và thể thao khác nhau ở đâu và nên dùng khi nào",
+   "primaryIntent": "informational/che-do-lai-xe-may-dien-tiet-kiem-tieu-chuan-the-thao",
+   "notes": "source=topic-v2 topicId=T001306",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:29:36.518Z",
+   "updatedAt": "2026-10-12T19:29:36.518Z"
+  },
+  {
+   "id": "S01235",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "pin-xe-may-dien-nong-phong-hoac-co-mui-la-viec-can-lam-ngay",
+   "title": "Pin xe máy điện nóng bất thường, phồng hoặc có mùi lạ: dấu hiệu nguy hiểm và việc cần làm ngay",
+   "primaryIntent": "troubleshooting/pin-xe-may-dien-nong-phong-hoac-co-mui-la-viec-can-lam-ngay",
+   "notes": "source=topic-v2 topicId=T001307",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:29:36.537Z",
+   "updatedAt": "2026-10-12T19:29:36.537Z"
+  },
+  {
+   "id": "S01236",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "xe-may-dien-het-pin-giua-duong-dat-xe-an-toan",
+   "title": "Xe máy điện hết pin giữa đường: dừng xe an toàn, dắt hoặc nhờ kéo xe và những điều cần tránh",
+   "primaryIntent": "troubleshooting/xe-may-dien-het-pin-giua-duong-dat-xe-an-toan",
+   "notes": "source=topic-v2 topicId=T001308",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:29:36.554Z",
+   "updatedAt": "2026-10-12T19:29:36.554Z"
   }
  ]
 }
