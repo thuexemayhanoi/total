@@ -1824,13 +1824,14 @@ function main() {
     });
     // Explicit owner-pause is honored ONLY by opt-in monitoring commands.
     // Normal liveness stays strict for diagnostics and regression fixtures.
-    // Pause never clears/escalates errors or changes Factory state/heartbeat.
+    // Pause never clears/escalates errors, hides article-backed publish backlog,
+    // or changes Factory state/heartbeat.
     if (process.argv.includes('--honor-owner-control')) {
       const control = JSON.parse(fs.readFileSync(path.join(__dirname, 'writer-control.json'), 'utf8'));
       if (!control || !['paused', 'running'].includes(control.mode)) {
         throw Error('WRITER_CONTROL_INVALID: mode must be paused or running');
       }
-      if (control.mode === 'paused' && st.phase !== 'error') {
+      if (control.mode === 'paused' && claimable.length === 0 && st.phase !== 'error') {
         st.phase = 'paused-by-owner';
         st.stalled = false;
         st.reasons.push('OWNER_PAUSED: Writer 1 tạm dừng theo chủ repo; lỗi escalated vẫn được kiểm tra');

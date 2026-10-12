@@ -54,7 +54,7 @@ Nguồn topic vẫn là giới hạn độc lập: capacity 20.000 không tự s
 Mặc định giám sát đọc file versioned `factory/writer-control.json` qua cờ
 `--honor-owner-control`. Khi `mode: paused` (chủ repo chủ động dừng Mistral),
 Watchdog báo `phase=paused-by-owner` và không báo sai `stalled` do heartbeat cũ;
-**lỗi escalated vẫn khiến Watchdog FAIL**. Coordinator cũng hiển thị paused.
+**lỗi escalated hoặc backlog đã có bài nguồn chờ publish vẫn khiến Watchdog FAIL**. Coordinator cũng hiển thị paused khi an toàn.
 
 Để mở lại giám sát nghiêm ngặt: sau khi chủ repo cho phép Writer hoạt động,
 đổi `mode` thành `running`, rồi resume Writer Mistral riêng. Chuyển

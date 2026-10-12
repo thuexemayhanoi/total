@@ -11,6 +11,11 @@ name: Factory Liveness Watchdog
 # và KHÔNG thể đánh thức phiên Mistral ngoài (không có kết nối thật — xem
 # docs/PRODUCTION-ROLES.md "Giới hạn môi trường").
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/writer-control.json'
+      - '.github/workflows/factory-liveness.yml'
   workflow_dispatch:
   schedule:
     - cron: '23 * * * *'
