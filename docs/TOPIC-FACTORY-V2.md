@@ -239,6 +239,7 @@ Các suite cũ (`test`, `test-hardening`, `test-reliability`, `test-pair`, `test
 5. Chưa có dữ liệu nhu cầu thật; ưu tiên P0 không thể dùng. Quyết định “độc lập” trong pilot là phán đoán của một người rà soát (agent), có thể đảo bằng `topic-reopen`.
 6. Chỉ mục gate nằm trong bộ nhớ; xem mục 11 cho giới hạn quy mô.
 7. Không có khóa liên tiến trình cho `topic-matrix.jsonl`: dựa vào “một coordinator” + concurrency group + hợp nhất git.
+8. **Danh mục chỉ có đúng 1 bài PUBLISHED làm đỏ `test.js`.** `test.js` đòi mọi bài live có điều hướng bài trước/sau (`art-pn`), còn hợp đồng silo trong `test-features.js` chỉ cho hàng xóm CÙNG danh mục ⇒ bài đầu tiên của một danh mục trống không có hàng xóm. `publish-batch` và workflow `factory-publish.yml` **không chạy `test.js`**, nên lỗi này không bị chặn lúc xuất bản mà sẽ làm đỏ heavy gate ở lần đổi engine kế tiếp. Phát hiện bằng diễn tập (xem mục 14). Xử lý hiện tại: xuất bản ≥ 2 bài cùng danh mục trong cùng lô (danh mục `review`: S01091 + S01093); chỉ `review` từng ở trạng thái 0 bài, 14/15 danh mục đã có bài. Quyết định cho chủ repo nếu muốn xử lý tận gốc: (a) giữ quy tắc vận hành này, hoặc (b) cho `test.js` bỏ qua `art-pn` khi danh mục có đúng 1 bài — thay đổi assert nên cần chủ repo duyệt, agent không tự làm.
 
 ## 14. Vận hành hằng ngày
 
@@ -247,3 +248,4 @@ Các suite cũ (`test`, `test-hardening`, `test-reliability`, `test-pair`, `test
 3. `topic-neighbours` → **đọc** bài gần nhất → nếu cùng câu hỏi: `topic-reject --merge-into` (cải thiện bài cũ), nếu không: `topic-approve --file`.
 4. Writer: `writer-pack` → viết đúng TOPIC_BRIEF (không số liệu ngoài `evidenceVerified`) → `verify-batch` → push.
 5. Sau 28 ngày: đối chiếu GSC (impressions/clicks theo URL) để giữ/cải thiện/gộp — xem kế hoạch migration.
+6. **Diễn tập trước khi push lô đầu cho danh mục/hub trống**: sao chép repo (bỏ `.git`) vào thư mục tạm, chạy `verify-batch` → `publish-batch` → `check-state` → `verify-invariant` → `topic-check --recheck` → `generate --check` → `node factory/test.js` → `audit --min-score 70`. Chỉ push khi tất cả xanh (đã làm cho lát cắt 1: lô 1 = 9 bài, lô 2 = cặp `review`).

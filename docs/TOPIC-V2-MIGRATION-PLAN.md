@@ -16,7 +16,7 @@
 | M6 | Chuẩn hóa vòng dữ liệu GSC | Xuất CSV “Queries” hằng tháng → `topic-import`; lưu kết quả vào `demand` kèm kỳ báo cáo | thấp | — | có (cấp quyền truy cập GSC) |
 | M7 | Rà soát độ tươi của nội dung luật/giá/thông số đã xuất bản | Thêm `verifiedAt` + lịch xác minh lại; dùng `NEEDS-RESEARCH` cho cập nhật | thấp | — | có |
 | M8 | Trần năng lực (`capacity` 20.000, `plannedTarget` 16.000, 7 kho dự phòng 4.000) | Coi là **trần**, không phải chỉ tiêu; không `expand-capacity`; cân nhắc hạ `plannedTarget` bằng `set-planned-target` | thấp | `set-planned-target` | có |
-| M9 | Mở hàng đợi writer ngoài lát cắt 10 topic đầu | Duyệt từng nhóm ≤ 10 sau khi lát cắt đầu publish + QA + đo | thấp | `topic-governance.json` | có |
+| M9 | Mở hàng đợi writer ngoài lát cắt 11 topic đầu | Duyệt từng nhóm ≤ 10 sau khi lát cắt đầu publish + QA + đo | thấp | `topic-governance.json` | có |
 
 ## Quy mô 40.000 URL — những gì **chắc chắn** phải đổi (đo thật)
 
@@ -57,7 +57,7 @@ Chỉ khi dữ liệu thật cho thấy một nhóm chủ đề có nhu cầu v�
 
 ## Thứ tự thực hiện đề xuất
 
-1. (Làm xong) governance + lát cắt 10 topic → kiểm chứng toàn bộ vòng đời trên production.
+1. (Làm xong) governance + lát cắt 11 topic → kiểm chứng toàn bộ vòng đời trên production.
 2. Cấp quyền GSC → xuất CSV đầu tiên → `topic-import` → xác định cụm bài trùng thật sự cạnh tranh (M2).
 3. Thực hiện M3 theo lô nhỏ và M4 (sửa tiêu đề ở generator) sau khi chủ repo xem diff.
 4. Chỉ khi vượt ~5.000 bài: M5 (sitemap index, phân trang hub, chỉ mục tìm kiếm phân mảnh, build tăng dần, nén dòng topic-matrix).

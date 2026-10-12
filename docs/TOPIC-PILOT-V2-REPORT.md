@@ -11,8 +11,8 @@
 | Qua gate từ vựng/hình dạng | 87 ACCEPT · 13 NEEDS-RESEARCH · **0 bị chặn trùng lặp** |
 | Sau lượt đọc láng giềng #1 (H2 của 5 bài gần nhất) | 70 ACCEPT · 19 MERGE · 11 NEEDS-RESEARCH |
 | Sau lượt đọc #2 (đọc nội dung bài đích) | **43 ACCEPT · 46 MERGE-CANDIDATE · 11 NEEDS-RESEARCH** |
-| → **APPROVED** (lát cắt đầu tiên, có ack + xác nhận đã đọc láng giềng) | **10** |
-| → ACCEPT đang chờ duyệt (writer **không** thấy) | 33 |
+| → **APPROVED** (lát cắt đầu tiên: 10 + 1 bài cặp bắt buộc, xem mục 4; có ack + xác nhận đã đọc láng giềng) | **11** |
+| → ACCEPT đang chờ duyệt (writer **không** thấy) | 32 |
 | → **REJECTED** (gộp vào bài đã có, không tạo URL) | **46** |
 | → **NEEDS-RESEARCH** (thiếu nguồn xác minh) | **11** |
 
@@ -35,7 +35,7 @@ sai để đạt hàng chục nghìn URL.
 3. **Hai lượt đọc cần thiết**: lượt #1 (H2 của 5 bài gần nhất) bắt 19; lượt #2 (đọc nội dung bài đích, dò từ khóa đặc trưng trong thân bài) bắt thêm **27** (ví dụ: “đọc màu bugi” đã được trả lời ở ba bài; “rung tay lái khi bóp phanh” là một H2 của bài rung tay lái;
    “thử mũ tại cửa hàng” đã nằm trong hai bài chọn mũ). Dò từ khóa thân bài *không* tăng recall so với danh sách láng giềng (đo: 17 → 17) nên **không đưa vào engine**; nó chỉ là công cụ đọc.
 
-## 4. Lát cắt đầu tiên — 10 topic APPROVED
+## 4. Lát cắt đầu tiên — 11 topic APPROVED (10 + 1 bài cặp)
 
 Tiêu chí chọn: gate ACCEPT; **cả hai lượt đọc** không thấy bài nào trả lời cùng câu hỏi; không dữ kiện rủi ro (hoặc đã xác minh); trải đều hub (nhiều hub đang trống); hàng đợi nhỏ (trần 50) để kiểm chứng toàn bộ vòng
 đời trước khi mở rộng.
@@ -52,9 +52,13 @@ Tiêu chí chọn: gate ACCEPT; **cả hai lượt đọc** không thấy bài n
 | S01090 | T001166 | `kiem-tra-xe-moi-khi-nhan-tu-dai-ly` | guide/mua-xe | informational | checklist | P1 | không số liệu (no-figures) |
 | S01091 | T001128 | `cach-doc-review-xe-may` | review/review-xe | informational | guide | P2 | không số liệu (no-figures) |
 | S01092 | T001159 | `giay-phep-lai-xe-a1-khong-thoi-han` | learn/kien-thuc-phap-ly | informational | explainer | P1 | đã xác minh |
+| S01093 | T001129 | `lai-thu-xe-may-de-so-sanh` | review/so-sanh-xe | commercial | comparison | P2 | không số liệu (no-figures) |
 
-Mỗi topic có `editorial.acknowledged` (đúng các cảnh báo gate đưa ra), `editorial.neighboursReviewed` (5 bài đã xuất bản gần nhất) và `editorial.approvedBy`. `writer-pack` chỉ trả đúng 10 slot này kèm TOPIC_BRIEF/GAIN/OUTLINE/SCOPE.
-33 topic ACCEPT còn lại **không** được cấp cho writer — chờ chủ repo/biên tập duyệt thêm (mỗi topic vẫn phải ack + đọc láng giềng).
+Mỗi topic có `editorial.acknowledged` (đúng các cảnh báo gate đưa ra), `editorial.neighboursReviewed` (5 bài đã xuất bản gần nhất) và `editorial.approvedBy`. `writer-pack` chỉ trả đúng 11 slot này kèm TOPIC_BRIEF/GAIN/OUTLINE/SCOPE.
+
+**Vì sao 11 chứ không phải 10.** S01093 là bài cặp bắt buộc cho S01091: danh mục `review` chưa có bài nào, nên một bài `review` đơn lẻ không có bài trước/sau cùng danh mục và làm đỏ assert `art-pn` của `test.js` (phát hiện khi diễn tập `publish-batch` trong bản sao repo — xem [giới hạn #8](TOPIC-FACTORY-V2.md#13-giới-hạn-đã-biết)). Topic T001129 là một trong 43 ACCEPT, đã qua cùng hai lượt đọc láng giềng; S01091 và S01093 được xuất bản trong cùng một lô, 9 bài còn lại ở lô trước.
+
+32 topic ACCEPT còn lại **không** được cấp cho writer — chờ chủ repo/biên tập duyệt thêm (mỗi topic vẫn phải ack + đọc láng giềng).
 
 ### Bảng B — 46 topic bị gộp (MERGE-CANDIDATE): đề xuất bổ sung vào bài đã có, KHÔNG tạo URL mới
 
@@ -187,6 +191,6 @@ Kết quả gate (trước lượt đọc #2) là tất định. Lượt đọc 
 
 ## 6. Việc tiếp theo (cần quyết định)
 
-1. Duyệt thêm từ 33 topic ACCEPT còn lại **chỉ sau khi** lát cắt đầu được viết, QA, publish và đo trên Search Console (28 ngày) — xem [kế hoạch migration](TOPIC-V2-MIGRATION-PLAN.md).
+1. Duyệt thêm từ 32 topic ACCEPT còn lại **chỉ sau khi** lát cắt đầu được viết, QA, publish và đo trên Search Console (28 ngày) — xem [kế hoạch migration](TOPIC-V2-MIGRATION-PLAN.md).
 2. Thực hiện 46 đề xuất gộp = **chỉnh sửa bài đã xuất bản** (thêm mục vào bài đích) ⇒ cần chủ repo duyệt; không có xóa/chuyển hướng/đổi URL.
 3. Mở khóa 11 topic NEEDS-RESEARCH bằng nguồn chính thức có ngày truy xuất.
