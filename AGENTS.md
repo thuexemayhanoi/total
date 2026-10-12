@@ -19,6 +19,7 @@ Mọi agent phải đọc file này trước khi sửa repo.
 6. **Không deploy draft**; không chặn nội dung công khai trong robots.txt.
 7. Custom Domain `wiki.thuexemaynguyentu.com` phục vụ site từ `/` (không dùng `/total/`). Search index, chatbot index, canonical và sitemap không được chứa tiền tố project cũ; file HTML được generator sinh ở thư mục root của repo.
 8. Không để ký tự rác CJK/Cyrillic/Hangul trong bất kỳ nguồn nào.
+9. **Chính sách lập chỉ mục** (`factory/data/index-policy.json`, xem `docs/INDEX-POLICY.md`): chỉ chủ repo/coordinator thêm mục `noindex,follow`; mục phải có lý do, người quyết định, ngày; trần 30% số bài PUBLISHED; không dùng robots.txt; không xóa bài/đổi URL/redirect. Bài noindex vắng `sitemap-articles.xml` và có meta robots — sửa policy phải kèm HTML sinh lại (generator-first). Rollback = xóa mục rồi `node factory/generate.js`. Agent không tự thêm mục.
 
 ## Vòng đời nội dung
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).

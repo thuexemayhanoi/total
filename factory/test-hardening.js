@@ -27,6 +27,7 @@ const ROOT = path.resolve(__dirname, '..');
 const { SITE } = require('./site.config');
 const factoryMod = require('./factory');
 const genMod = require('./generate');
+const IDX = require('./lib/indexing');
 
 let pass = 0, fail = 0;
 function ok(cond, name, detail) {
@@ -448,21 +449,93 @@ console.log('8. Sitemap/utility khớp nguồn…');
   const slotBySlug = new Map(matrix.slots.map(s => [s.slug, s]));
   let bad = 0;
   const pubUrls = new Set();
+  const policy = IDX.load(); // bài noindex (index-policy) giữ trang nhưng VẮNG sitemap; mọi bài còn lại phải CÓ
+  let noindexN = 0;
   for (const s of matrix.slots.filter(x => x.state === 'PUBLISHED')) {
     const url = SITE.baseUrl + s.hub + '/' + s.slug + '/';
     pubUrls.add(url);
-    if (!locs.includes(url)) bad++;
+    const noindex = IDX.isNoindex(policy, s.slug);
+    if (noindex) noindexN++;
+    if (locs.includes(url) === noindex) bad++;
     if (!fs.existsSync(path.join(ROOT, s.hub, s.slug, 'index.html'))) bad++;
   }
-  ok(bad === 0, 'Mọi slot PUBLISHED có URL trong sitemap-articles + trang sinh tồn tại', String(bad));
+  ok(bad === 0, 'Mọi slot PUBLISHED có trang sinh; sitemap-articles có URL ⇔ bài không noindex theo index-policy', String(bad));
   ok(locs.every(l => pubUrls.has(l)), 'Mọi URL trong sitemap-articles thuộc slot PUBLISHED (không rác)');
-  ok(locs.length === matrix.slots.filter(x => x.state === 'PUBLISHED').length, 'Số URL sitemap-articles = số slot PUBLISHED', locs.length + ' vs ' + matrix.slots.filter(x => x.state === 'PUBLISHED').length);
+  ok(locs.length === matrix.slots.filter(x => x.state === 'PUBLISHED').length - noindexN, 'Số URL sitemap-articles = số slot PUBLISHED trừ bài noindex', locs.length + ' vs ' + matrix.slots.filter(x => x.state === 'PUBLISHED').length + ' - ' + noindexN);
   // Utility routes
   const sp = readS(path.join(ROOT, 'sitemap-pages.xml'));
   for (const u of ['', 'gioi-thieu/', 'lien-he/', 'chinh-sach-bao-mat/', 'dieu-khoan-su-dung/']) {
     ok(sp.includes(SITE.baseUrl + u), 'sitemap-pages có utility route: ' + (u || '(trang chủ)'));
   }
   ok(!sp.includes('tim-kiem/'), 'sitemap-pages KHÔNG chứa trang tìm kiếm (noindex)');
+}
+
+// ---------- 8b. index-policy: lệch policy ↔ trang sinh ↔ sitemap bị bắt; vòng sửa policy → generate → hoàn tác (bản sao tmp) ----------
+console.log('8b. index-policy drift + hoàn tác…');
+{
+  const tmp = copyRepoToTmp('idxpol');
+  const P = tmpPaths(tmp);
+  const pf = path.join(tmp, 'factory', 'data', 'index-policy.json');
+  const mx = JSON.parse(readS(P.matrix));
+  const pol0 = IDX.load(pf);
+  const cand = mx.slots.filter(s => s.state === 'PUBLISHED' && !IDX.isNoindex(pol0, s.slug));
+  const Y = cand[0], X = cand[cand.length - 1]; // X sẽ bị noindex hợp nhất vào Y (cả hai đang lập chỉ mục)
+  const inv = () => runNode([P.factory, 'verify-invariant'], { cwd: tmp });
+  const smFile = path.join(tmp, 'sitemap-articles.xml');
+  const pageOf = s => path.join(tmp, s.hub, s.slug, 'index.html');
+  const loc = s => '<loc>' + SITE.baseUrl + s.hub + '/' + s.slug + '/</loc>';
+  const META = '<meta name="robots" content="noindex,follow">';
+  const origPage = readB(pageOf(X)), origSm = readB(smFile), origPol = readB(pf);
+  ok(inv().status === 0, 'index-policy: verify-invariant xanh trên bản sao nhất quán');
+  ok(readS(smFile).includes(loc(X)) && !readS(pageOf(X)).includes(META), 'index-policy: bài thường có trong sitemap và không có meta noindex');
+
+  const polNew = JSON.parse(readS(pf));
+  polNew.entries[X.slug] = { robots: 'noindex,follow', reason: 'kiểm thử', consolidatedInto: Y.slug, decidedBy: 'kiểm thử', decidedAt: '2026-10-12' };
+  writeJson(pf, polNew);
+  let r = inv();
+  ok(r.status === 1 && r.stderr.includes(X.id) && /noindex/.test(r.stderr), 'drift: thêm mục policy mà CHƯA generate ⇒ verify-invariant ĐỎ và nêu slot', r.stderr.slice(0, 300));
+  const g = runNode([P.generate], { cwd: tmp });
+  ok(g.status === 0, 'generate chạy được sau khi sửa policy', g.stderr);
+  r = inv();
+  ok(r.status === 0, 'generate xong ⇒ verify-invariant xanh', r.stderr.slice(0, 300));
+  ok(readS(pageOf(X)).includes(META) && !readS(smFile).includes(loc(X)) && readS(smFile).includes(loc(Y)), 'generate: trang X có meta noindex, X vắng sitemap, đích Y vẫn có');
+  ok(runNode([P.generate, '--check'], { cwd: tmp }).status === 0, 'generate --check xanh với policy mới');
+
+  // verify-pair (hot path publish) phải hiểu policy: bài noindex KHÔNG bị đòi có trong sitemap
+  r = runNode([P.factory, 'verify-pair', X.id], { cwd: tmp });
+  ok(r.status === 0, 'verify-pair: bài noindex không bị đòi có trong sitemap (chỉ đòi meta + vắng sitemap)', (r.stdout + r.stderr).slice(0, 300));
+  const sm1 = readB(smFile);
+  fs.writeFileSync(smFile, readS(smFile).replace('</urlset>', '  <url>' + loc(X) + '</url>\n</urlset>'));
+  r = runNode([P.factory, 'verify-pair', X.id], { cwd: tmp });
+  ok(r.status === 1 && /noindex theo index-policy nhưng vẫn nằm trong sitemap/.test(r.stdout + r.stderr), 'verify-pair: bài noindex lọt vào sitemap ⇒ ĐỎ', (r.stdout + r.stderr).slice(0, 300));
+  r = inv();
+  ok(r.status === 1 && /noindex theo index-policy nhưng vẫn nằm trong sitemap/.test(r.stderr), 'verify-invariant: bài noindex lọt vào sitemap ⇒ ĐỎ', r.stderr.slice(0, 300));
+  fs.writeFileSync(smFile, sm1);
+
+  // mục sai (slug không PUBLISHED) bị từ chối ở verify-invariant
+  const bad = JSON.parse(readS(pf));
+  bad.entries['bai-khong-ton-tai'] = polNew.entries[X.slug];
+  writeJson(pf, bad);
+  r = inv();
+  ok(r.status === 1 && /không phải bài PUBLISHED/.test(r.stderr), 'index-policy: mục cho slug không PUBLISHED ⇒ verify-invariant ĐỎ', r.stderr.slice(0, 300));
+
+  // hoàn tác: bỏ mục -> generate -> trang X và sitemap về BYTE như ban đầu
+  fs.writeFileSync(pf, origPol);
+  r = inv();
+  ok(r.status === 1 && r.stderr.includes(X.id), 'drift: bỏ mục policy mà CHƯA generate ⇒ verify-invariant ĐỎ (trang còn meta noindex)', r.stderr.slice(0, 300));
+  ok(runNode([P.generate], { cwd: tmp }).status === 0 && inv().status === 0, 'hoàn tác: generate sau khi bỏ mục ⇒ verify-invariant xanh');
+  ok(readB(pageOf(X)).equals(origPage) && readB(smFile).equals(origSm), 'hoàn tác: trang X và sitemap-articles.xml trùng BYTE với trạng thái trước khi thêm mục');
+
+  // lệch tay: meta noindex gắn vào trang ngoài policy
+  fs.writeFileSync(pageOf(X), readS(pageOf(X)).replace('<script type="application/ld+json">', META + '\n<script type="application/ld+json">'));
+  r = inv();
+  ok(r.status === 1 && /không có trong index-policy nhưng trang sinh vẫn có meta robots noindex/.test(r.stderr), 'drift: trang ngoài policy bị gắn tay meta noindex ⇒ verify-invariant ĐỎ', r.stderr.slice(0, 300));
+
+  // file policy hỏng: generate fail loud (không âm thầm bỏ qua)
+  fs.writeFileSync(pf, '{ "entries": ');
+  r = runNode([P.generate], { cwd: tmp });
+  ok(r.status !== 0 && /index-policy\.json không đọc được/.test(r.stdout + r.stderr), 'index-policy hỏng ⇒ generate fail loud', (r.stdout + r.stderr).slice(0, 300));
+  fs.rmSync(tmp, { recursive: true, force: true });
 }
 
 // ---------- 9. Invariant capacity/ma trận ----------

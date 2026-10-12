@@ -312,7 +312,7 @@ ${S.breadcrumbHtml(trail)}
   return S.page({
     path: up(a.path), activeCat: cat.slug, title: a.seoTitle || a.title,
     description: a.metaDescription, ogType: 'article', content,
-    headExtra: K.jsonld(K.articleSchema(a, up(a.path))) + '\n' + K.jsonld(K.breadcrumbSchema(trail)),
+    headExtra: (a.robots ? '<meta name="robots" content="' + S.esc(a.robots) + '">\n' : '') + K.jsonld(K.articleSchema(a, up(a.path))) + '\n' + K.jsonld(K.breadcrumbSchema(trail)),
   });
 }
 

@@ -7,6 +7,9 @@
 - Hub con: `xe-may`, `xe-dien`, `xe-oto`.
 - Mở rộng sau này: trang theo thành phố (`/thue-xe/xe-may/ha-noi/`...) — KHÔNG tạo hàng loạt location page trong giai đoạn nền.
 
+## Lập chỉ mục
+- Các biến thể hoán vị tên riêng (“Thuê xe máy Hà Nội: …”, “Thuê Honda Vision: …”) cùng góc × bối cảnh với bài chung được `noindex,follow` qua `factory/data/index-policy.json` (không xóa, không đổi URL) — xem [INDEX-POLICY.md](INDEX-POLICY.md). Ý định Hà Nội / Honda Vision do bài trụ cột giữ; muốn mở rộng cần dữ kiện kinh doanh đã xác minh của chủ repo.
+
 ## Nội dung
 - Không bịa bảng giá, không bịa danh sách xe đang có, không giả vờ chi nhánh toàn quốc.
 - Phân biệt rõ trong chatbot: thông tin editorial vs thông tin business verified.

@@ -6,6 +6,7 @@ const path = require('node:path');
 const { SITE, FEATURES, PUBLISHER_PROFILE } = require('./site.config');
 const { chooseNeighbors } = require('./lib/related');
 const { extractArticleHeadings, loadArticles } = require('./generate');
+const IDX = require('./lib/indexing');
 const S = require('./lib/shell');
 const root = path.resolve(__dirname, '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
@@ -20,7 +21,9 @@ const searchJs = read('assets/js/search.js');
 assert.deepEqual(FEATURES, { smartSearch: true, previousNext: true, authorBox: true });
 assert.equal(articles.length, published.size, 'PUBLISHED modules count');
 assert.equal(search.filter(x => x.kind === 'article').length, articles.length);
-assert.equal((sitemap.match(/<url>/g) || []).length, articles.length);
+const policy = IDX.load();
+const noindexCount = articles.filter(a => IDX.isNoindex(policy, a.slug)).length;
+assert.equal((sitemap.match(/<url>/g) || []).length, articles.length - noindexCount, 'sitemap-articles = bài PUBLISHED trừ bài noindex theo index-policy');
 assert(!sitemap.includes('github.io/total'));
 assert(searchJs.includes('loadIndex(function () {});'), 'index must be loaded when modal opens');
 assert(searchJs.includes('LOAD_PROMISE'), 'multiple searches share one fetch');
@@ -45,6 +48,9 @@ for (const a of articles) {
   assert(html.includes('href="/lien-he/"'), 'publisher contact: ' + a.slug);
   assert(html.includes('href="/assets/css/atlas.css"'), 'CSS: ' + a.slug);
   assert(html.includes('rel="canonical" href="' + SITE.baseUrl + url + '"'), 'canonical: ' + a.slug);
+  const noindexed = IDX.isNoindex(policy, a.slug);
+  assert.equal(/<meta name="robots" content="noindex,follow">/.test(html), noindexed, 'meta robots ⇔ index-policy: ' + a.slug);
+  assert.equal(sitemap.includes('<loc>' + SITE.baseUrl + url + '</loc>'), !noindexed, 'sitemap ⇔ không noindex: ' + a.slug);
   assert(html.includes('type="application/ld+json"'), 'schema retained: ' + a.slug);
 
   const nav = html.match(/<nav class="art-pn"[^>]*>([\s\S]*?)<\/nav>/);

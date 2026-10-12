@@ -43,6 +43,7 @@ const topicFactory = require('./lib/topic-factory');
 const topicGov = require('./lib/topic-governance');
 const topicMatrix = require('./lib/topic-matrix');
 const titleCase = require('./lib/title-case');
+const indexing = require('./lib/indexing');
 const topicCli = require('./topic');
 const linkIntegrity = require('./link-integrity');
 
@@ -547,6 +548,8 @@ function verifyPair(m, ids, opts) {
   let sm = '';
   try { sm = fs.readFileSync(path.join(root, 'sitemap-articles.xml'), 'utf8'); }
   catch (e) { errors.push('không đọc được sitemap-articles.xml — ' + e.message); }
+  let idxPolicy = { schemaVersion: 1, entries: {} };
+  try { idxPolicy = indexing.load(); } catch (e) { errors.push(e.message); }
   const GARBAGE = /[\u4e00-\u9fff\u0400-\u04ff\u3040-\u30ff\uac00-\ud7ff]/;
   for (const id of ids) {
     const s = m.slots.find((x) => x.id === id);
@@ -567,7 +570,16 @@ function verifyPair(m, ids, opts) {
     if (!html.includes('datePublished')) errors.push('Slot ' + id + ' thiếu datePublished trong schema');
     const h1n = (html.match(/<h1[\s>]/g) || []).length;
     if (h1n !== 1) errors.push('Slot ' + id + ' phải có đúng 1 thẻ H1 (có ' + h1n + ')');
-    if (!sm.includes(url)) errors.push('Slot ' + id + ' KHÔNG nằm trong sitemap-articles');
+    // Sitemap = URL muốn được lập chỉ mục. Bài trong index-policy (noindex) phải VẮNG sitemap và có meta robots; bài khác phải CÓ sitemap và không noindex.
+    const noindex = indexing.isNoindex(idxPolicy, s.slug);
+    const hasNoindexMeta = /<meta\s+name=["']robots["']\s+content=["'][^"']*noindex/i.test(html);
+    if (noindex) {
+      if (sm.includes('<loc>' + url + '</loc>')) errors.push('Slot ' + id + ' noindex theo index-policy nhưng vẫn nằm trong sitemap-articles');
+      if (!hasNoindexMeta) errors.push('Slot ' + id + ' trong index-policy nhưng trang sinh thiếu meta robots noindex');
+    } else {
+      if (!sm.includes('<loc>' + url + '</loc>')) errors.push('Slot ' + id + ' KHÔNG nằm trong sitemap-articles');
+      if (hasNoindexMeta) errors.push('Slot ' + id + ' không có trong index-policy nhưng trang sinh có meta robots noindex');
+    }
     if (GARBAGE.test(html)) errors.push('Slot ' + id + ' trang sinh chứa ký tự rác');
   }
   return { ok: errors.length === 0, errors };
@@ -1377,6 +1389,17 @@ function main() {
     catch (e) { console.error('Không đọc được sitemap-articles.xml — ' + e.message); process.exit(1); }
     const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(x => x[1]);
     const url = s => SITE.baseUrl + s.hub + '/' + s.slug + '/';
+    let policy;
+    try { policy = indexing.load(); } catch (e) { console.error('INVARIANT_FAIL: ' + e.message); process.exit(1); }
+    const policyErrors = indexing.validate(policy, new Set(m.slots.filter(x => x.state === 'PUBLISHED').map(x => x.slug)));
+    if (policyErrors.length) { for (const e of policyErrors) console.error('INVARIANT_FAIL: ' + e); process.exit(1); }
+    const noindexSlugs = new Set(Object.keys(policy.entries));
+    const robotsMeta = s => {
+      let html = '';
+      try { html = fs.readFileSync(path.join(root, s.hub, s.slug, 'index.html'), 'utf8'); } catch (_) { return null; }
+      const mm = html.match(/<meta\s+name=["']robots["']\s+content=["']([^"']*)["']/i);
+      return mm ? mm[1] : null;
+    };
     const result = runtime.checkProductionInvariant(m, {
       hasLock: fs.existsSync(LOCK_FILE),
       checkpointSlotCount: (readJson(CHECKPOINT_FILE, {}) || {}).slotCount,
@@ -1386,6 +1409,8 @@ function main() {
       sitemapHas: u => locs.includes(u),
       url,
       sitemapUrls: locs,
+      noindexSlugs,
+      pageRobots: robotsMeta,
     });
     if (!result.ok) {
       for (const e of result.errors) console.error('INVARIANT_FAIL: ' + e);

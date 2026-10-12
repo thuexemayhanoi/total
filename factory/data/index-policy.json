@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "about": "Chính sách lập chỉ mục theo bài (docs/TOPIC-V2-MIGRATION-PLAN.md, hạng mục M2). Bài trong entries: giữ nguyên trang + URL + liên kết nội bộ, thêm meta robots noindex,follow và KHÔNG nằm trong sitemap-articles.xml. Chỉ chủ repo/coordinator được thêm mục; trần 30% số bài PUBLISHED. ROLLBACK: xóa mục (hoặc cả file) rồi chạy node factory/generate.js.",
+  "entries": {
+    "thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kiem-tra-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-hop-dong-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-checklist-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-checklist-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-checklist-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-checklist-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-checklist-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-checklist-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-faq-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-faq-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-faq-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-faq-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-faq-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-faq-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-do-thi": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "ha-noi",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên riêng \"Hà Nội\" vào cùng ý định và hầu như không có thông tin riêng của Hà Nội. Ý định thuê xe máy ở Hà Nội do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-huong-dan-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-huong-dan-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-huong-dan-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-huong-dan-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-huong-dan-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-huong-dan-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-huong-dan-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-thu-tuc-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-thu-tuc-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-thu-tuc-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-thu-tuc-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-thu-tuc-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-thu-tuc-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-thu-tuc-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-chi-phi-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-chi-phi-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-chi-phi-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-chi-phi-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-chi-phi-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-chi-phi-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-chi-phi-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kiem-tra-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kiem-tra-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kiem-tra-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kiem-tra-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kiem-tra-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kiem-tra-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kiem-tra-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-hop-dong-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-hop-dong-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-hop-dong-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-hop-dong-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-hop-dong-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-hop-dong-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-hop-dong-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-rui-ro-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-rui-ro-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-rui-ro-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-rui-ro-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-rui-ro-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-rui-ro-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-rui-ro-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-checklist-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-checklist-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-checklist-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-checklist-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-checklist-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-checklist-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-checklist-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-faq-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-faq-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-faq-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-faq-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-faq-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-faq-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-faq-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-so-sanh-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-so-sanh-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-so-sanh-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-so-sanh-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-so-sanh-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-so-sanh-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-so-sanh-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kinh-nghiem-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kinh-nghiem-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kinh-nghiem-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kinh-nghiem-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kinh-nghiem-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-kinh-nghiem-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-kinh-nghiem-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-tra-xe-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-tra-xe-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-tra-xe-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-tra-xe-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-tra-xe-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-tra-xe-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-tra-xe-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-dat-coc-nguoi-moi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-nguoi-moi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-dat-coc-ngan-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-ngan-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-dat-coc-dai-ngay": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-dai-ngay",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-dat-coc-duong-dai": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-duong-dai",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-dat-coc-do-thi": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-do-thi",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    },
+    "thue-honda-vision-thue-xe-xe-may-dat-coc-thuc-te": {
+      "robots": "noindex,follow",
+      "family": "honda-vision",
+      "consolidatedInto": "thue-xe-may-thue-xe-xe-may-dat-coc-thuc-te",
+      "reason": "Cùng góc × bối cảnh với bài chung (consolidatedInto); bản này chỉ thêm tên mẫu xe \"Honda Vision\" vào cùng ý định và hầu như không có thông tin riêng của mẫu xe. Ý định thuê Honda Vision do bài trụ cột đảm nhiệm. Hợp nhất ý định, không xóa bài, không đổi URL.",
+      "decidedBy": "chủ repo (DUYỆT 2026-10-12), thực thi bởi claude-coordinator",
+      "decidedAt": "2026-10-12"
+    }
+  }
+}

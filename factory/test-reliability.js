@@ -260,6 +260,19 @@ function raceAcquire(dir, n, tag) {
   ok(runtime.checkProductionInvariant(lowQa, ctxGood).ok === false, 'invariant FAIL khi PUBLISHED qaScore < 70');
   const dup = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'dup', 95), slot('S00002', 'PUBLISHED', 'dup', 95)] };
   ok(runtime.checkProductionInvariant(dup, { ...ctxGood, checkpointSlotCount: 2 }).ok === false, 'invariant FAIL khi trùng slug');
+  // index-policy: bài noindex phải VẮNG sitemap và có meta robots; bài khác phải CÓ sitemap và không noindex.
+  const ni = { capacity: 100, plannedTarget: 50, reserved: { total: 10, a: 10 }, slots: [slot('S00001', 'PUBLISHED', 'ok-1', 95), slot('S00002', 'PUBLISHED', 'ni-2', 95)] };
+  const ctxNi = {
+    ...ctxGood, checkpointSlotCount: 2, noindexSlugs: new Set(['ni-2']),
+    sitemapHas: u => u === 'https://example.test/ok-1/', sitemapUrls: ['https://example.test/ok-1/'],
+    pageRobots: s2 => (s2.slug === 'ni-2' ? 'noindex,follow' : null),
+  };
+  ok(runtime.checkProductionInvariant(ni, ctxNi).ok === true, 'invariant PASS: bài noindex vắng sitemap + có meta robots, bài thường có sitemap');
+  ok(runtime.checkProductionInvariant(ni, { ...ctxNi, sitemapHas: () => true, sitemapUrls: ['https://example.test/ok-1/', 'https://example.test/ni-2/'] }).ok === false, 'invariant FAIL khi bài noindex vẫn nằm trong sitemap');
+  ok(runtime.checkProductionInvariant(ni, { ...ctxNi, pageRobots: () => null }).ok === false, 'invariant FAIL khi bài trong index-policy thiếu meta robots noindex trên trang sinh');
+  ok(runtime.checkProductionInvariant(ni, { ...ctxNi, pageRobots: () => 'noindex,follow' }).ok === false, 'invariant FAIL khi bài ngoài index-policy lại có meta noindex');
+  ok(runtime.checkProductionInvariant(ni, { ...ctxNi, sitemapHas: () => false, sitemapUrls: [] }).ok === false, 'invariant FAIL khi bài thường (ngoài policy) thiếu trong sitemap');
+  ok(runtime.checkProductionInvariant(good, { ...ctxGood, noindexSlugs: new Set() }).ok === true, 'invariant PASS với policy rỗng (rollback = hành vi cũ)');
 }
 
 // =====================================================================

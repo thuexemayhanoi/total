@@ -22,6 +22,8 @@ const G = require('./lib/topic-gate');
 const M = require('./lib/topic-matrix');
 const Gov = require('./lib/topic-governance');
 const T = require('./topic');
+const IDX = require('./lib/indexing');
+const GEN = require('./generate');
 
 let pass = 0, fail = 0;
 function ok(cond, name, detail) {
@@ -738,6 +740,103 @@ console.log('2b. TIÊU ĐỀ CÔNG KHAI — module.title thay cho nhãn slot cũ
   r = cli(T, ['verify-batch', 'S00002']);
   ok(!/TITLE_ADVISORY/.test(r.out), 'verify-batch: tiêu đề ổn thì không có TITLE_ADVISORY', r.out.slice(0, 200));
   fs.rmSync(T.root, { recursive: true, force: true });
+}
+
+// ===========================================================================
+// 2c — CHÍNH SÁCH LẬP CHỈ MỤC (noindex,follow có thể hoàn tác; hợp nhất ý định mà KHÔNG xóa bài/đổi URL)
+// ===========================================================================
+console.log('2c. CHÍNH SÁCH LẬP CHỈ MỤC — validate, render, sitemap, hoàn tác bằng policy rỗng, bất biến repo thật…');
+{
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'idxpol-'));
+  const pub = new Set(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']);
+  const entry = over => Object.assign({ robots: 'noindex,follow', reason: 'Cùng ý định với bài giữ lại', consolidatedInto: 'b', decidedBy: 'chủ repo', decidedAt: '2026-10-12' }, over || {});
+  const pol = entries => ({ schemaVersion: 1, entries });
+  const errs = (entries, published) => IDX.validate(pol(entries), published || pub);
+
+  // load: thiếu file = không noindex; hỏng = lỗi rõ ràng (không âm thầm bỏ qua)
+  const f1 = path.join(tmpDir, 'absent.json');
+  same(IDX.load(f1), { schemaVersion: 1, entries: {} }, 'index-policy: thiếu file ⇒ policy rỗng (không bài nào noindex)');
+  fs.writeFileSync(path.join(tmpDir, 'corrupt.json'), '{ "entries": ');
+  let thrown = '';
+  try { IDX.load(path.join(tmpDir, 'corrupt.json')); } catch (e) { thrown = e.message; }
+  ok(/không đọc được/.test(thrown), 'index-policy: file hỏng ⇒ lỗi rõ ràng, KHÔNG âm thầm coi là rỗng', thrown);
+  fs.writeFileSync(path.join(tmpDir, 'shape.json'), JSON.stringify({ schemaVersion: 1, entries: [] }));
+  thrown = '';
+  try { IDX.load(path.join(tmpDir, 'shape.json')); } catch (e) { thrown = e.message; }
+  ok(/sai định dạng/.test(thrown), 'index-policy: entries sai kiểu (mảng) ⇒ lỗi', thrown);
+
+  // validate: từng luật có một ca đỏ + ca xanh
+  same(errs({ a: entry() }), [], 'index-policy: mục hợp lệ ⇒ không lỗi');
+  ok(errs({ zzz: entry() }).some(e => /không phải bài PUBLISHED/.test(e)), 'index-policy: slug không PUBLISHED bị từ chối');
+  ok(errs({ a: entry({ robots: 'noindex,nofollow' }) }).some(e => /robots phải là/.test(e)), 'index-policy: robots khác noindex,follow bị từ chối (không nofollow lặng lẽ)');
+  ok(errs({ a: entry({ reason: '  ' }) }).some(e => /thiếu reason/.test(e)), 'index-policy: thiếu lý do bị từ chối');
+  ok(errs({ a: entry({ decidedBy: '' }) }).some(e => /decidedBy/.test(e)) && errs({ a: entry({ decidedAt: '12/10/2026' }) }).some(e => /decidedAt/.test(e)), 'index-policy: thiếu người quyết định/ngày YYYY-MM-DD bị từ chối');
+  ok(errs({ a: entry({ consolidatedInto: 'a' }) }).some(e => /chính nó/.test(e)), 'index-policy: hợp nhất vào chính nó bị từ chối');
+  ok(errs({ a: entry({ consolidatedInto: 'zzz' }) }).some(e => /không PUBLISHED/.test(e)), 'index-policy: đích hợp nhất chưa PUBLISHED bị từ chối');
+  ok(errs({ a: entry({ consolidatedInto: 'b' }), b: entry({ consolidatedInto: 'c' }) }).some(e => /chuỗi\/vòng/.test(e)), 'index-policy: đích hợp nhất cũng bị noindex (chuỗi/vòng) bị từ chối');
+  same(errs({ a: entry({ consolidatedInto: null }) }), [], 'index-policy: consolidatedInto là tùy chọn');
+  ok(IDX.validate({ schemaVersion: 2, entries: {} }, pub).some(e => /schemaVersion/.test(e)), 'index-policy: schemaVersion lạ bị từ chối');
+  const over = {}; for (const k of ['a', 'b', 'c', 'd']) over[k] = entry({ consolidatedInto: 'j' });
+  ok(errs(over).some(e => /vượt trần/.test(e)), 'index-policy: noindex vượt trần ' + Math.round(IDX.MAX_SHARE * 100) + '% số bài PUBLISHED bị từ chối (chống nhầm lẫn hàng loạt)');
+  const okShare = {}; for (const k of ['a', 'b', 'c']) okShare[k] = entry({ consolidatedInto: 'j' });
+  same(errs(okShare), [], 'index-policy: đúng bằng trần vẫn hợp lệ');
+  ok(IDX.isNoindex(pol({ a: entry() }), 'a') && !IDX.isNoindex(pol({ a: entry() }), 'b') && IDX.robotsFor(pol({ a: entry() }), 'a') === 'noindex,follow' && IDX.robotsFor(pol({ a: entry() }), 'b') === null, 'index-policy: isNoindex/robotsFor đúng, kể cả slug kiểu "constructor"');
+  ok(!IDX.isNoindex(pol({}), 'constructor') && !IDX.isNoindex(pol({}), '__proto__'), 'index-policy: không nhầm slug trùng thuộc tính Object.prototype');
+
+  // render/sinh: policy thật vs policy rỗng trên cùng corpus thật (bản nhớ, KHÔNG ghi đĩa)
+  const realPolicy = IDX.load();
+  const noindexSlugs = Object.keys(realPolicy.entries);
+  const matrix = readJ(path.join(ROOT, 'factory/state/matrix.json'));
+  const slotBySlug = new Map(matrix.slots.map(x => [x.slug, x]));
+  const withPolicy = GEN.buildAll();
+  const noPolicy = GEN.buildAll({ policy: { schemaVersion: 1, entries: {} } });
+  const META = '<meta name="robots" content="noindex,follow">\n';
+  const diff = Object.keys(noPolicy.files).filter(rel => withPolicy.files[rel] !== noPolicy.files[rel]).sort();
+  const expectDiff = noindexSlugs.map(sl => slotBySlug.get(sl).hub + '/' + sl + '/index.html').concat(noindexSlugs.length ? ['sitemap-articles.xml'] : []).sort();
+  same(diff, expectDiff, 'hoàn tác: policy rỗng chỉ đổi đúng các trang bị noindex + sitemap-articles.xml (không đụng trang/chỉ mục khác)');
+  ok(Object.keys(withPolicy.files).length === Object.keys(noPolicy.files).length, 'hoàn tác: số file sinh không đổi (không xóa/thêm trang)');
+  let removedOk = true, exactlyOneMeta = true;
+  for (const sl of noindexSlugs) {
+    const rel = slotBySlug.get(sl).hub + '/' + sl + '/index.html';
+    const html = withPolicy.files[rel];
+    if ((html.split(META).length - 1) !== 1) exactlyOneMeta = false;
+    if (html.replace(META, '') !== noPolicy.files[rel]) removedOk = false;
+  }
+  ok(exactlyOneMeta, 'render: mỗi trang noindex có ĐÚNG một meta robots noindex,follow');
+  ok(removedOk, 'hoàn tác: bỏ đúng một dòng meta robots ⇒ trang trùng BYTE với bản sinh khi không có policy (không đổi nội dung/URL/canonical)');
+  ok(Object.keys(noPolicy.files).every(rel => !/name="robots"/.test(noPolicy.files[rel]) || rel.endsWith('.xml')), 'render: không có policy ⇒ không trang nào có meta robots (hành vi cũ)');
+  const locsOf = x => [...x.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+  const smWith = locsOf(withPolicy.files['sitemap-articles.xml']), smNo = locsOf(noPolicy.files['sitemap-articles.xml']);
+  const noindexUrls = new Set(noindexSlugs.map(sl => require('./site.config').SITE.baseUrl + slotBySlug.get(sl).hub + '/' + sl + '/'));
+  same(smNo.filter(u => !noindexUrls.has(u)), smWith, 'sitemap: bài noindex vắng, mọi URL khác giữ nguyên thứ tự');
+  ok(smNo.length - smWith.length === noindexSlugs.length, 'sitemap: bớt đúng số bài noindex', smNo.length + ' vs ' + smWith.length);
+  same(withPolicy.files['assets/data/search-index.json'], noPolicy.files['assets/data/search-index.json'], 'tìm kiếm trong site: bài noindex vẫn nằm trong chỉ mục tìm kiếm (người đọc vẫn tìm thấy)');
+  same(withPolicy.files['assets/data/chatbot-index.json'], noPolicy.files['assets/data/chatbot-index.json'], 'chatbot: chỉ mục không đổi vì noindex');
+
+  // bất biến trên repo thật (đĩa)
+  const pubSlugs = new Set(matrix.slots.filter(x => x.state === 'PUBLISHED').map(x => x.slug));
+  same(IDX.validate(realPolicy, pubSlugs), [], 'repo thật: index-policy.json hợp lệ (bài PUBLISHED, đích hợp nhất PUBLISHED & còn lập chỉ mục, trong trần)');
+  const smDisk = locsOf(readS(path.join(ROOT, 'sitemap-articles.xml')));
+  const idxDisk = readJ(path.join(ROOT, 'assets/data/search-index.json'));
+  let bad = [];
+  for (const sl of noindexSlugs) {
+    const e = realPolicy.entries[sl], s1 = slotBySlug.get(sl), tgt = e.consolidatedInto && slotBySlug.get(e.consolidatedInto);
+    const url = require('./site.config').SITE.baseUrl + s1.hub + '/' + sl + '/';
+    const page = path.join(ROOT, s1.hub, sl, 'index.html');
+    if (!fs.existsSync(page)) bad.push(sl + ': mất trang');
+    else if (!readS(page).includes(META.trim())) bad.push(sl + ': thiếu meta');
+    if (smDisk.includes(url)) bad.push(sl + ': còn trong sitemap');
+    if (!idxDisk.some(d => d.url === s1.hub + '/' + sl + '/')) bad.push(sl + ': mất khỏi tìm kiếm');
+    if (e.consolidatedInto) {
+      if (!tgt || tgt.hub !== s1.hub) bad.push(sl + ': đích hợp nhất khác hub');
+      else if (!smDisk.includes(require('./site.config').SITE.baseUrl + tgt.hub + '/' + tgt.slug + '/')) bad.push(sl + ': đích hợp nhất không có trong sitemap');
+    }
+  }
+  same(bad, [], 'repo thật: mọi bài noindex còn trang + meta, vắng sitemap, còn trong tìm kiếm; đích hợp nhất cùng hub và nằm trong sitemap');
+  ok(smDisk.length === pubSlugs.size - noindexSlugs.length, 'repo thật: số URL sitemap-articles = số bài PUBLISHED trừ bài noindex', smDisk.length + ' vs ' + pubSlugs.size + ' - ' + noindexSlugs.length);
+  ok(noindexSlugs.every(sl => slotBySlug.get(sl).hub === 'thue-xe/xe-may') || noindexSlugs.length === 0, 'phạm vi: chính sách hiện chỉ chạm hub thue-xe/xe-may (mở rộng sang hub khác là quyết định của chủ repo)');
+  ok(['S00002', 'S00003', 'S00201', 'S00202', 'S00203', 'S00204', 'S00205', 'S00206'].every(id => { const s2 = matrix.slots.find(x => x.id === id); return s2 && !IDX.isNoindex(realPolicy, s2.slug); }), 'phạm vi: các bài trụ cột thuê xe vẫn lập chỉ mục (đại diện cho ý định Hà Nội/Honda Vision)');
+  fs.rmSync(tmpDir, { recursive: true, force: true });
 }
 
 // ===========================================================================

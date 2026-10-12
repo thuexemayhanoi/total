@@ -322,6 +322,8 @@ function buildPublishPlan(m, articleSlugs, scopeIds, opts) {
 //   sitemapHas?: fn(url) -> bool,
 //   url: fn(slot) -> string,
 //   sitemapUrls?: [string],
+//   noindexSlugs?: Set<slug>  (factory/data/index-policy.json: bài noindex KHÔNG được nằm trong sitemap-articles),
+//   pageRobots?: fn(slot) -> string|null  (nội dung <meta name="robots"> của trang sinh; null = không có),
 //   minQaScore?: number (mặc định 75),
 // }
 function checkProductionInvariant(m, ctx) {
@@ -354,8 +356,19 @@ function checkProductionInvariant(m, ctx) {
     if (ctx && ctx.pageExists && !ctx.pageExists(s)) {
       errors.push('slot ' + s.id + ' PUBLISHED nhưng KHÔNG có trang sinh (' + s.slug + ')');
     }
-    if (ctx && ctx.sitemapHas && ctx.url && !ctx.sitemapHas(ctx.url(s))) {
-      errors.push('slot ' + s.id + ' PUBLISHED nhưng KHÔNG nằm trong sitemap-articles');
+    // Sitemap = URL muốn được lập chỉ mục: bài trong index-policy (noindex) phải VẮNG, mọi bài còn lại phải CÓ.
+    const noindex = !!(ctx && ctx.noindexSlugs && ctx.noindexSlugs.has(s.slug));
+    if (ctx && ctx.sitemapHas && ctx.url) {
+      const inMap = ctx.sitemapHas(ctx.url(s));
+      if (noindex && inMap) errors.push('slot ' + s.id + ' noindex theo index-policy nhưng vẫn nằm trong sitemap-articles');
+      if (!noindex && !inMap) errors.push('slot ' + s.id + ' PUBLISHED nhưng KHÔNG nằm trong sitemap-articles');
+    }
+    // Trang sinh phải khớp chính sách: noindex ⇔ có <meta robots noindex,follow> (chống lệch policy ↔ HTML sau khi sửa tay một phía).
+    if (ctx && ctx.pageRobots && ctx.noindexSlugs) {
+      const r = ctx.pageRobots(s);
+      const has = typeof r === 'string' && /noindex/i.test(r);
+      if (noindex && !has) errors.push('slot ' + s.id + ' trong index-policy nhưng trang sinh THIẾU meta robots noindex — chạy generate');
+      if (!noindex && has) errors.push('slot ' + s.id + ' không có trong index-policy nhưng trang sinh vẫn có meta robots noindex — chạy generate');
     }
   }
   if (ctx && ctx.sitemapUrls && ctx.url) {

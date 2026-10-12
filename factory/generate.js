@@ -16,6 +16,7 @@ const path = require('path');
 const { SITE, HOME_CATEGORY_ORDER } = require('./site.config');
 const { CATEGORIES } = require('./data/categories');
 const R = require('./lib/render');
+const IDX = require('./lib/indexing');
 
 // ---------- Nạp dữ liệu ----------
 // FAIL LOUD: module bài lỗi làm toàn bộ xưởng dừng, không âm thầm bỏ qua.
@@ -125,7 +126,9 @@ function filterLiveArticles(articlesAll) {
 
 // ---------- Sinh THUẦN trong BẢN NHỚ ----------
 // Trả về { manifest, files, manifestContent, stats } — KHÔNG ghi đĩa.
-function buildAll() {
+function buildAll(opts) {
+  // chính sách lập chỉ mục theo bài (factory/data/index-policy.json); thiếu file = không noindex. opts.policy: điểm tiêm cho test (rollback = policy rỗng).
+  const POLICY = (opts && opts.policy) || IDX.load();
   const articlesAll = loadArticles().map(a => {
     const cat = CATEGORIES.find(c => c.slug === a.category);
     if (!cat) throw new Error('Bài "' + a.slug + '" tham chiếu danh mục không tồn tại: ' + a.category);
@@ -136,7 +139,7 @@ function buildAll() {
        a.sections.map(s => s.h2 + ' ' + s.html).join(' '),
        (a.checklist || []).join(' '), (a.steps || []).map(s => s.title + ' ' + s.detail).join(' '),
        (a.warnings || []).join(' '), (a.notes || []).join(' ')].join(' '));
-    return { ...a, catName: cat.name, hubName: hub ? hub.name : null, path: articlePath(a), wordCount };
+    return { ...a, catName: cat.name, hubName: hub ? hub.name : null, path: articlePath(a), wordCount, robots: IDX.robotsFor(POLICY, a.slug) };
   });
   // Live filter: draft (REPAIR/WAITING/PLANNED) không lên site; publish flow
   // yêu cầu thêm slug đang publish qua FACTORY_GEN_INCLUDE.
@@ -194,7 +197,7 @@ function buildAll() {
       { kind: 'article', title: a.title, description: a.metaDescription, category: cat.name, hub: hub ? hub.name : '', summary: a.summary, entities: a.entities, keywords: a.keywords,
         seoTitle: a.seoTitle || '', primaryKeyword: a.primaryKeyword || a.primaryIntent || (a.keywords || [])[0] || '',
         headings: extractArticleHeadings(a) });
-    artUrls.push(a.path);
+    if (!a.robots) artUrls.push(a.path); // sitemap chỉ chứa URL muốn được lập chỉ mục (bài noindex vẫn có trang)
   }
 
   // Chỉ mục tìm kiếm + chatbot
