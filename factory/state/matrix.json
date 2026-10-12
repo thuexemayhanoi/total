@@ -16638,11 +16638,13 @@
    "title": "Ốp nhựa xe máy nứt, lỏng hoặc kêu lạch cạch: ngàm kẹp, ốc và nguyên nhân do rung",
    "primaryIntent": "troubleshooting/op-nhua-xe-may-nut-lap-hoac-keu",
    "notes": "source=topic-v2 topicId=T001216",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.900Z",
-   "updatedAt": "2026-10-12T17:22:39.900Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 2916
   },
   {
    "id": "S01154",
@@ -16651,11 +16653,13 @@
    "title": "Chọn tiệm sửa xe máy đáng tin: dấu hiệu nên yên tâm và những dấu hiệu nên dừng lại",
    "primaryIntent": "informational/chon-tiem-sua-xe-may-dang-tin",
    "notes": "source=topic-v2 topicId=T001217",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.914Z",
-   "updatedAt": "2026-10-12T17:22:39.914Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 3067
   },
   {
    "id": "S01155",
@@ -16664,11 +16668,13 @@
    "title": "Đọc báo giá sửa xe trước khi đồng ý: hỏi gì để biết việc nào cần làm ngay, việc nào có thể chờ",
    "primaryIntent": "informational/doc-bao-gia-sua-xe-truoc-khi-dong-y",
    "notes": "source=topic-v2 topicId=T001218",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.931Z",
-   "updatedAt": "2026-10-12T17:22:39.931Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 2991
   },
   {
    "id": "S01156",
@@ -16677,11 +16683,13 @@
    "title": "Nhận xe sau khi bảo dưỡng: các việc kiểm tra tại tiệm trước khi lăn bánh",
    "primaryIntent": "informational/nhan-xe-sau-bao-duong-kiem-tra-gi",
    "notes": "source=topic-v2 topicId=T001219",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.945Z",
-   "updatedAt": "2026-10-12T17:22:39.945Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 2863
   },
   {
    "id": "S01157",
@@ -16690,11 +16698,13 @@
    "title": "Phụ kiện gắn thêm cho xe máy: điều cần kiểm tra về điện, tải trọng và độ ổn định trước khi lắp",
    "primaryIntent": "informational/phu-kien-gan-them-xe-may-luu-y",
    "notes": "source=topic-v2 topicId=T001220",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.958Z",
-   "updatedAt": "2026-10-12T17:22:39.958Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 3022
   },
   {
    "id": "S01158",
@@ -16703,11 +16713,13 @@
    "title": "Cho người khác mượn xe máy: điều nên thống nhất và kiểm tra trước khi giao chìa",
    "primaryIntent": "informational/cho-nguoi-khac-muon-xe-may-luu-y",
    "notes": "source=topic-v2 topicId=T001221",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.976Z",
-   "updatedAt": "2026-10-12T17:22:39.976Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 2990
   },
   {
    "id": "S01159",
@@ -16716,11 +16728,13 @@
    "title": "Đọc điều khoản bảo hành xe máy mới: những câu hỏi về phạm vi, điều kiện và những gì thường bị loại trừ",
    "primaryIntent": "informational/doc-dieu-khoan-bao-hanh-xe-may-moi",
    "notes": "source=topic-v2 topicId=T001222",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.991Z",
-   "updatedAt": "2026-10-12T17:22:39.991Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 2975
   },
   {
    "id": "S01160",
@@ -16729,11 +16743,13 @@
    "title": "Ly hợp ly tâm là gì: vì sao xe ga tự nhích khi ga lên và tự ngắt khi nhả ga",
    "primaryIntent": "informational/ly-hop-ly-tam-xe-ga-la-gi",
    "notes": "source=topic-v2 topicId=T001223",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.006Z",
-   "updatedAt": "2026-10-12T17:22:40.006Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 2841
   },
   {
    "id": "S01161",
@@ -16742,11 +16758,13 @@
    "title": "Moay-ơ là gì: phần lõi của bánh xe máy nơi gặp trục, vòng bi, phanh và nan hoa",
    "primaryIntent": "informational/moay-o-la-gi-tren-banh-xe-may",
    "notes": "source=topic-v2 topicId=T001224",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.022Z",
-   "updatedAt": "2026-10-12T17:22:40.022Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 100,
+   "words": 2892
   },
   {
    "id": "S01162",
@@ -16755,11 +16773,13 @@
    "title": "Tay ga điện tử là gì: khác dây ga cơ khí ở chỗ nào và người dùng nên biết gì",
    "primaryIntent": "informational/tay-ga-dien-tu-ride-by-wire-la-gi",
    "notes": "source=topic-v2 topicId=T001225",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.035Z",
-   "updatedAt": "2026-10-12T17:22:40.035Z"
+   "updatedAt": "2026-10-12T17:39:14.097Z",
+   "seoScore": 91,
+   "words": 3086
   },
   {
    "id": "S01163",

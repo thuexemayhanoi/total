@@ -9292,6 +9292,34 @@
   ]
  },
  {
+  "url": "guide/su-dung-xe/cho-nguoi-khac-muon-xe-may-luu-y/",
+  "title": "Cho người khác mượn xe máy: điều nên thống nhất và kiểm tra trước khi giao chìa",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "summary": "Bài viết nhìn việc cho mượn xe máy từ góc của chủ xe: khi nào nên cho và khi nào nên từ chối, cách xác nhận người mượn có giấy phép phù hợp cùng khả năng và trạng thái lái, cách ghi nhận tình trạng xe bằng ảnh trước khi giao, những điều cần thống nhất về mục đích, thời gian và ai chịu khi hư hỏng, rồi cách nhận lại xe và xử lý sự cố. Nội dung chỉ nêu nguyên tắc chung, không dẫn điều luật hay mức phạt; quy định hiện hành cần được tự kiểm tra từ nguồn chính thống.",
+  "quickAnswer": "Trước khi giao chìa, hãy xem giấy phép phù hợp của người mượn, chụp ảnh tình trạng xe, rồi thống nhất mục đích, giờ trả, người được lái và ai chịu khi hư hỏng. Đừng giao xe đang có lỗi phanh, lốp, đèn hay lái, và có thể từ chối bằng nguyên tắc chung của chính bạn. Trách nhiệm cụ thể phụ thuộc quy định hiện hành nên cần tự kiểm tra.",
+  "keyPoints": [
+   "Chiếc xe đứng tên bạn nên hậu quả của sự cố thường quay về chủ xe; mức trách nhiệm cụ thể tùy quy định hiện hành và hoàn cảnh, cần tự tra cứu nguồn chính thống.",
+   "Nhìn tận mắt giấy phép lái xe còn hiệu lực và đúng loại xe, đồng thời hỏi về kinh nghiệm và quan sát trạng thái tỉnh táo của người mượn lúc nhận chìa.",
+   "Chụp ảnh quanh xe, đồng hồ và mức nhiên liệu trước khi giao, rồi cùng người mượn nhìn qua phanh, lốp, đèn, còi và tay lái bằng mắt.",
+   "Không giao xe đang có lỗi an toàn vì chủ xe biết lỗi còn người mượn thì không; sửa trước hoặc từ chối cho mượn."
+  ],
+  "entities": [
+   "chủ xe và người mượn",
+   "giấy phép lái xe",
+   "tình trạng xe trước khi giao",
+   "thỏa thuận mượn xe",
+   "phanh và lốp",
+   "mũ bảo hiểm"
+  ],
+  "keywords": [
+   "cho mượn xe máy",
+   "cho người khác mượn xe",
+   "mượn xe máy cần lưu ý gì cho chủ xe",
+   "chủ xe cho bạn bè mượn xe cần thỏa thuận gì"
+  ]
+ },
+ {
   "url": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/",
   "title": "Chở người ngồi sau an toàn: từ cách lên xe đến xuống xe",
   "category": "Kiến thức chuyên sâu",
@@ -9350,6 +9378,34 @@
    "JASO MA MA2 MB",
    "nhớt tổng hợp đáng không",
    "phân biệt nhớt thật giả"
+  ]
+ },
+ {
+  "url": "tips/meo-bao-duong/chon-tiem-sua-xe-may-dang-tin/",
+  "title": "Chọn tiệm sửa xe máy đáng tin: dấu hiệu nên yên tâm và những dấu hiệu nên dừng lại",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "summary": "Bài đưa ra bộ tiêu chí quan sát được để chọn tiệm sửa xe máy mà không phải dựa hoàn toàn vào lời giới thiệu: cách thợ hỏi triệu chứng, giải thích nguyên nhân, cho xem chi tiết cũ, báo trước việc phát sinh và ghi phiếu tiếp nhận. Bài cũng chỉ ra những dấu hiệu nên dừng lại như danh sách việc dài không phân loại, lời dọa mơ hồ hay làm thêm khi chưa được đồng ý, cùng các câu hỏi giúp tách việc cần làm ngay khỏi việc có thể theo dõi, và cách giữ hồ sơ, bảo hành bằng văn bản sau khi nhận xe.",
+  "quickAnswer": "Tiệm sửa xe máy đáng tin thường hỏi kỹ triệu chứng, giải thích nguyên nhân bằng điều bạn nhìn thấy được, cho xem chi tiết cũ, báo trước việc phát sinh và ghi phiếu tiếp nhận rõ ràng. Nên dừng lại khi thợ dọa mơ hồ, báo danh sách dài không phân loại hoặc làm thêm khi chưa được đồng ý. Việc liên quan phanh, lốp, lái và rò rỉ cần xử lý ngay, phần còn lại có thể hỏi thêm trước khi quyết.",
+  "keyPoints": [
+   "Đánh giá tiệm bằng hành vi nhìn thấy được lúc tiếp nhận, giải thích, thay thế và bàn giao, thay vì chỉ dựa vào lời giới thiệu hay vẻ ngoài của tiệm.",
+   "Thợ đáng tin hỏi triệu chứng cụ thể, kiểm tra xe trước khi báo, nói rõ điều chưa biết và chỉ chốt báo giá sau khi đã kiểm tra đủ.",
+   "Nên dừng lại khi gặp danh sách việc dài không phân loại, lời dọa mơ hồ, không cho xem chi tiết cũ hoặc làm thêm khi bạn chưa đồng ý.",
+   "Hỏi nếu hôm nay chưa làm thì điều gì xảy ra để chia việc thành cần làm ngay, nên làm sớm và có thể theo dõi; phanh, lốp, lái và rò rỉ luôn thuộc nhóm đầu."
+  ],
+  "entities": [
+   "tiệm sửa xe máy",
+   "phiếu tiếp nhận xe",
+   "báo giá trước khi sửa",
+   "chi tiết thay thế",
+   "bảo hành bằng văn bản",
+   "hạng mục an toàn"
+  ],
+  "keywords": [
+   "chọn tiệm sửa xe máy",
+   "tiệm sửa xe uy tín",
+   "dấu hiệu tiệm sửa xe không tốt",
+   "cách nhận biết tiệm sửa xe đáng tin"
   ]
  },
  {
@@ -10628,6 +10684,62 @@
    "doanh so xe so xe ga",
    "xe ban chay",
    "thi truong xe hai banh"
+  ]
+ },
+ {
+  "url": "guide/bao-duong/doc-bao-gia-sua-xe-truoc-khi-dong-y/",
+  "title": "Đọc báo giá sửa xe trước khi đồng ý: hỏi gì để biết việc nào cần làm ngay, việc nào có thể chờ",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "summary": "Bài hướng dẫn cách đọc một bản báo giá sửa xe máy trước khi đồng ý, dành cho người nhận danh sách việc kèm tổng tiền mà không biết việc nào gấp, việc nào hoãn được. Nội dung gồm những thông tin một bản báo giá tốt cần ghi rõ, cách chia hạng mục thành ba nhóm là an toàn, vận hành và bảo dưỡng định kỳ, các câu hỏi về nguyên nhân và hậu quả nếu hoãn, cách thỏa thuận khoản phát sinh, và cách lưu báo giá để đối chiếu khi nhận xe. Bài không nêu mức giá nào và luôn khuyến khích xin ghi bằng văn bản.",
+  "quickAnswer": "Hãy xin báo giá viết ra, tách tiền công với phụ tùng, rồi chia từng dòng vào ba nhóm: an toàn như phanh, lốp, lái cần xử lý trước; ảnh hưởng vận hành cần theo dõi sát; bảo dưỡng định kỳ có thể xếp lịch. Với mỗi dòng, hỏi thợ nguyên nhân và hậu quả nếu hoãn, đồng thời xin ghi bằng văn bản mọi khoản phát sinh. Cách chia này chỉ giúp bạn hỏi đúng, còn chẩn đoán thuộc về thợ.",
+  "keyPoints": [
+   "Báo giá tốt liệt kê từng hạng mục, tách tiền công với phụ tùng, ghi rõ động từ thay, vệ sinh, kiểm tra hay điều chỉnh; một dòng gộp kèm tổng tiền thì chưa đủ để bạn quyết định.",
+   "Chia mỗi dòng vào một trong ba nhóm: an toàn gồm phanh, lốp, lái và đèn; ảnh hưởng vận hành; bảo dưỡng định kỳ. Nhóm an toàn không nên xếp vào việc để sau khi chưa nghe thợ giải thích.",
+   "Với từng hạng mục hãy hỏi thợ thấy gì trên xe, có cho xem chi tiết hỏng được không, và hậu quả cụ thể nếu hoãn thêm một thời gian là gì.",
+   "Phát sinh trong lúc sửa cần được báo trước, xác nhận từng khoản và có dấu vết bằng chữ; câu cứ làm đi cho xong biến mọi đề xuất thành việc đã được duyệt."
+  ],
+  "entities": [
+   "báo giá sửa xe",
+   "tiền công",
+   "phụ tùng thay thế",
+   "hạng mục sửa chữa",
+   "khoản phát sinh",
+   "điều kiện bảo hành"
+  ],
+  "keywords": [
+   "báo giá sửa xe máy",
+   "hỏi giá sửa xe trước khi làm",
+   "việc nào cần sửa ngay",
+   "cách đọc báo giá sửa xe"
+  ]
+ },
+ {
+  "url": "guide/mua-xe/doc-dieu-khoan-bao-hanh-xe-may-moi/",
+  "title": "Đọc điều khoản bảo hành xe máy mới: những câu hỏi về phạm vi, điều kiện và những gì thường bị loại trừ",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "summary": "Bài hướng dẫn cách đọc sổ bảo hành xe máy mới theo năm câu hỏi: sổ nói gì và bỏ ngỏ điều gì, phạm vi chi tiết được bảo hành, điều kiện bảo dưỡng để giữ quyền lợi, những trường hợp thường bị loại trừ như hao mòn tự nhiên, độ chế, va chạm và ngập nước, cùng cách lưu chứng từ để yêu cầu bảo hành. Nội dung không nêu thời hạn hay quyền lợi cụ thể của hãng nào; mọi chi tiết phải đối chiếu với sổ bảo hành thật của xe bạn.",
+  "quickAnswer": "Hãy đọc sổ bảo hành theo bốn câu hỏi: chi tiết nào được bảo hành và ai quyết định sửa hay thay, phải bảo dưỡng định kỳ ở đâu và bằng phụ tùng nào, trường hợp nào bị loại trừ như độ chế, va chạm, ngập nước hay hao mòn tự nhiên, và cần giữ chứng từ gì. Điều khoản cụ thể tùy từng xe, nên luôn đối chiếu với cuốn sổ thật và nhờ người bán ghi các điểm chưa rõ thành văn bản.",
+  "keyPoints": [
+   "Sổ bảo hành là thỏa thuận có điều kiện, không chỉ là chỗ để đóng dấu; điều khoản cụ thể tùy từng xe nên phải đọc cuốn sổ thật.",
+   "Phạm vi bảo hành thường nhắm vào lỗi chế tạo; hãy xem sổ liệt kê chi tiết được bảo hành hay bảo hành toàn xe rồi nêu phần loại trừ.",
+   "Bảo dưỡng đúng mốc, đúng nơi, đúng loại phụ tùng và có dấu xác nhận trong sổ thường là điều kiện để giữ quyền lợi.",
+   "Hao mòn tự nhiên, độ chế, va chạm, ngập nước và sử dụng sai mục đích thường nằm trong nhóm loại trừ; cụm từ mơ hồ nên hỏi và nhờ ghi lại."
+  ],
+  "entities": [
+   "sổ bảo hành xe máy",
+   "điều khoản loại trừ",
+   "bảo dưỡng định kỳ",
+   "phụ tùng đúng quy cách",
+   "phiếu tiếp nhận sửa chữa",
+   "chứng từ bảo dưỡng"
+  ],
+  "keywords": [
+   "bảo hành xe máy mới",
+   "điều kiện bảo hành xe máy",
+   "bảo hành không bao gồm gì",
+   "cách đọc sổ bảo hành xe máy"
   ]
  },
  {
@@ -13940,6 +14052,34 @@
   ]
  },
  {
+  "url": "wiki/thuat-ngu-xe/ly-hop-ly-tam-xe-ga-la-gi/",
+  "title": "Ly hợp ly tâm là gì: vì sao xe ga tự nhích khi ga lên và tự ngắt khi nhả ga",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Bài giải thích ly hợp ly tâm trên xe tay ga: vì sao không có tay côn mà xe vẫn đứng yên khi máy nổ, tự nhích khi tăng ga và tự ngắt khi nhả ga. Nội dung mô tả các má ly hợp văng ra theo vòng quay để ăn vào chuông, lò xo kéo má co lại khi vòng quay giảm, so sánh ngắn với ly hợp tay trên xe số, rồi nêu những dấu hiệu mòn ở mức khái quát cùng ranh giới giữa việc người dùng quan sát được và việc phải giao cho thợ.",
+  "quickAnswer": "Ly hợp ly tâm là bộ ngắt nối lực làm việc bằng vòng quay của máy. Vòng quay thấp thì lò xo giữ các má co lại, máy quay mà bánh sau đứng yên. Vặn ga thì lực ly tâm đẩy má ăn vào chuông và xe nhích đi. Nhả ga thì lò xo kéo má về và lực truyền bị ngắt. Điểm ăn nồi tùy từng xe, còn việc tháo kiểm tra thuộc về thợ.",
+  "keyPoints": [
+   "Xe tay ga không cần tay côn vì có ly hợp ly tâm: vòng quay máy thấp thì ngắt, vòng quay đủ cao thì tự nối, thay cho bàn tay người lái.",
+   "Các má ly hợp, hay bố nồi, gắn trên mâm quay theo máy; lực ly tâm đẩy má ra ăn vào chuông nối về phía bánh sau, thoạt đầu trượt nhẹ rồi bám chặt dần.",
+   "Lò xo giữ má luôn kéo má về tâm; nhả ga thì lực ly tâm yếu đi, lò xo thắng, má rời chuông và đường truyền lực bị ngắt.",
+   "Côn tay trên xe số mặc định nối nhờ lò xo ép đĩa và do người lái bóp để ngắt, còn ly hợp ly tâm mặc định ngắt và tự nối theo vòng quay."
+  ],
+  "entities": [
+   "ly hợp ly tâm",
+   "má ly hợp",
+   "chuông ly hợp",
+   "lò xo giữ má",
+   "bố nồi xe tay ga",
+   "bộ truyền động đai biến thiên"
+  ],
+  "keywords": [
+   "ly hợp ly tâm là gì",
+   "ly hợp xe ga",
+   "nồi xe ga hoạt động thế nào",
+   "bố nồi xe tay ga là gì"
+  ]
+ },
+ {
   "url": "tips/meo-mua-xe/mac-gia-xe/",
   "title": "Kinh nghiệm mặc giá xe dành cho người mới",
   "category": "Mẹo",
@@ -14285,6 +14425,33 @@
   ]
  },
  {
+  "url": "wiki/thuat-ngu-xe/moay-o-la-gi-tren-banh-xe-may/",
+  "title": "Moay-ơ là gì: phần lõi của bánh xe máy nơi gặp trục, vòng bi, phanh và nan hoa",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Bài giải thích moay-ơ là phần lõi nằm giữa mỗi bánh xe máy, nơi nan hoa hoặc mâm đúc bám vào, nơi vòng bi ôm lấy trục và nơi đĩa phanh hoặc tang trống được gắn. Nội dung chỉ ra vị trí của moay-ơ ở bánh trước và bánh sau, mối liên hệ với trục, vòng bi, phanh và đĩa xích, sự khác nhau giữa bánh nan hoa và mâm đúc, rồi dịch cách thợ dùng từ này sang những triệu chứng rơ, ù, nóng mà người đi xe có thể quan sát, kèm ranh giới khi nào phải dừng xe.",
+  "quickAnswer": "Moay-ơ là khối lõi ở tâm bánh xe máy, nối vành với trục. Nó giữ nan hoa hoặc là phần trung tâm của mâm đúc, chứa vòng bi để bánh quay trơn quanh trục, và là chỗ gắn đĩa phanh hoặc tang trống, bánh sau còn mang thêm đĩa xích tùy xe. Khi thợ báo moay-ơ rơ, ù hay nóng, thường là vòng bi, phanh hoặc độ siết trục có vấn đề, và cần kiểm tra trước khi chạy tiếp.",
+  "keyPoints": [
+   "Moay-ơ là phần lõi giữa bánh, quay quanh trục nhờ vòng bi; vành, lốp và nan hoa hoặc mâm bám ra phía ngoài từ khối này.",
+   "Vòng bi nằm trong moay-ơ chịu toàn bộ tải của xe; trục thì đứng yên, còn moay-ơ quay xung quanh nó.",
+   "Đĩa phanh hoặc tang trống được gắn vào hay liền với moay-ơ, nên phanh kẹt và vòng bi hỏng đều có thể làm moay-ơ nóng bất thường.",
+   "Bánh nan hoa có moay-ơ riêng cùng các nan rời, còn mâm đúc thường liền một khối; cách bất thường biểu hiện vì thế cũng khác nhau."
+  ],
+  "entities": [
+   "moay-ơ",
+   "vòng bi bánh xe",
+   "trục bánh xe",
+   "đĩa phanh và tang trống",
+   "bánh nan hoa và mâm đúc"
+  ],
+  "keywords": [
+   "moay ơ là gì",
+   "moay ơ xe máy",
+   "lõi bánh xe máy",
+   "moay ơ bánh xe máy nằm ở đâu"
+  ]
+ },
+ {
   "url": "ride/an-toan-giao-thong/mu-bao-hiem-dat-chuan/",
   "title": "Mũ bảo hiểm đạt chuẩn — những điều cần biết",
   "category": "Hành trình",
@@ -14485,6 +14652,34 @@
   ]
  },
  {
+  "url": "guide/bao-duong/nhan-xe-sau-bao-duong-kiem-tra-gi/",
+  "title": "Nhận xe sau khi bảo dưỡng: các việc kiểm tra tại tiệm trước khi lăn bánh",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "summary": "Bài hướng dẫn cách nhận lại xe sau khi bảo dưỡng mà không bị vội vàng bỏ sót. Nội dung đi theo thứ tự cố định ngay tại tiệm: nổ máy, nghe tiếng máy và nhìn đèn báo, thử đèn pha, đèn hậu, còi, xi nhan và phanh, vặn thử tay ga, nhìn lốp và nắp van, soi nắp nhớt cùng các điểm có thể rò rỉ, xem lại những chi tiết vừa được tháo ra. Cuối bài là cách chạy thử thật chậm, những câu nên hỏi thợ trước khi rời tiệm và cách đối chiếu với phiếu việc đã làm.",
+  "quickAnswer": "Nhận xe sau khi bảo dưỡng, hãy kiểm tra ngay tại tiệm theo thứ tự: nổ máy và nghe tiếng máy, đèn báo, đèn còi xi nhan, phanh, tay ga, lốp và nắp van, nắp nhớt cùng vết rò rỉ, các chi tiết vừa tháo. Sau đó chạy thử thật chậm trong khu vực tiệm, hỏi thợ điều còn thắc mắc và đối chiếu phiếu việc đã làm. Có điều lạ ở phanh hay xe rung giật thì chưa nên lên đường.",
+  "keyPoints": [
+   "Kiểm tra ngay tại tiệm là lúc rẻ công nhất để sửa sai sót: thợ, dụng cụ và phụ tùng còn ở đó, và người làm còn nhớ rõ mình vừa động tới chi tiết nào.",
+   "Thứ tự gọn là nổ máy và nghe tiếng máy, xem đèn báo, thử đèn pha, đèn hậu, còi, xi nhan, bóp phanh, vặn thử tay ga rồi mới nhìn lốp, nắp van, nắp nhớt và vết ướt.",
+   "Phanh có cảm giác mềm, hẫng, phải bóp rất sâu mới ăn hoặc có tiếng cọ lạ là lý do để thợ kiểm tra lại, không phải thứ để lên đường rồi tính.",
+   "Chạy thử thật chậm ở nơi vắng, thẳng và thoáng gần tiệm, có đội mũ bảo hiểm; thấy rung, lệch lái hoặc tiếng lạ thì dừng an toàn và quay lại báo ngay."
+  ],
+  "entities": [
+   "phiếu việc đã làm",
+   "đèn báo trên bảng đồng hồ",
+   "nắp nhớt",
+   "nắp van lốp",
+   "tay ga",
+   "vết rò rỉ"
+  ],
+  "keywords": [
+   "nhận xe sau khi bảo dưỡng",
+   "kiểm tra xe sau khi sửa",
+   "xe vừa bảo dưỡng xong cần xem gì",
+   "kiểm tra xe máy trước khi rời tiệm"
+  ]
+ },
+ {
   "url": "garage/bao-duong-dinh-ky/nhat-ky-bao-duong-xe-may/",
   "title": "Nhật ký bảo dưỡng xe máy: nên ghi những gì và mẫu bảng ghi đơn giản",
   "category": "Sửa chữa",
@@ -14538,6 +14733,34 @@
    "chìa khóa xe máy khó xoay",
    "khóa cổ xe máy bị kẹt",
    "ổ khóa xe máy bị cứng không xoay được"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/op-nhua-xe-may-nut-lap-hoac-keu/",
+  "title": "Ốp nhựa xe máy nứt, lỏng hoặc kêu lạch cạch: ngàm kẹp, ốc và nguyên nhân do rung",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Bài giải thích vì sao ốp nhựa xe máy có thể lỏng, nứt hoặc kêu lạch cạch khi chạy. Nội dung bắt đầu từ cách ốp được giữ vào khung bằng ngàm cài, kẹp nhựa và ốc vít, rồi chỉ ra các nguyên nhân thường gặp như rung kéo dài, va chạm, nhựa giòn theo nắng nóng và lỗi tháo lắp. Bài cũng nêu khi nào ốp lỏng trở thành vấn đề an toàn vì chạm lốp hoặc cọ vào dây, cách xử lý tạm, lý do không nên dùng keo bừa và lúc nào nên thay ốp hoặc nhờ thợ.",
+  "quickAnswer": "Ốp nhựa xe máy lỏng hoặc kêu lạch cạch thường do chân ngàm nứt, kẹp hoặc ốc thiếu, đệm xẹp, phần lớn bắt nguồn từ rung lâu ngày hoặc va chạm. Ốp lỏng nhẹ ở xa bánh và dây chủ yếu gây ồn, nhưng ốp chạm lốp hay cọ vào dây là vấn đề an toàn: hãy dừng xe an toàn và đưa đi kiểm tra thay vì tự dán keo hay chạy tiếp.",
+  "keyPoints": [
+   "Ốp nhựa được giữ bằng ngàm cài, kẹp nhựa và ốc vít; chân ngàm mỏng và chịu lực tập trung nên thường là chỗ nứt đầu tiên.",
+   "Rung lặp lại làm nhựa mỏi, va chạm hoặc ngã xe nhẹ làm nứt chân ngàm ngầm, còn nắng nóng và hóa chất mạnh làm nhựa giòn dần.",
+   "Ốp lỏng ở gần bánh hoặc tay lái có thể chạm lốp hay cọ vào dây ga, dây phanh, dây điện, nên tiếng kêu kèm cảm giác lạ không nên bị bỏ qua.",
+   "Xử lý tạm chỉ là bấm lại ngàm, vặn ốc vừa tay rồi đưa xe đi kiểm tra; không dùng keo bừa, không nguồn nhiệt, không nhét vật chặn vào khe gần bánh hoặc dây."
+  ],
+  "entities": [
+   "ốp nhựa xe máy",
+   "ngàm cài",
+   "kẹp nhựa",
+   "tai bắt ốc",
+   "đệm cao su",
+   "dây dẫn và ống dẫn"
+  ],
+  "keywords": [
+   "ốp nhựa xe máy bị lỏng",
+   "ốp nhựa xe máy nứt",
+   "ốp nhựa kêu lạch cạch",
+   "ốp xe máy kêu khi chạy"
   ]
  },
  {
@@ -14685,6 +14908,34 @@
    "má phanh trống",
    "phanh sau yếu",
    "cấu tạo phanh trống"
+  ]
+ },
+ {
+  "url": "review/review-phu-tung/phu-kien-gan-them-xe-may-luu-y/",
+  "title": "Phụ kiện gắn thêm cho xe máy: điều cần kiểm tra về điện, tải trọng và độ ổn định trước khi lắp",
+  "category": "Đánh giá",
+  "hub": "Đánh giá phụ tùng",
+  "summary": "Bài hướng dẫn cách đánh giá phụ kiện trước khi gắn thêm cho xe máy, từ giá đỡ, đèn phụ, cổng sạc đến thiết bị định vị hay khóa báo động. Nội dung nêu nguyên tắc đấu nguồn đúng chỗ kèm cầu chì riêng, ảnh hưởng của tải trên tay lái, giá sau và cốp tới độ ổn định, cách đi dây, chọn giắc và chống nước, những loại không nên gắn, cùng cách ghi chép để tháo khi bán xe và lúc cần nhờ thợ. Chi tiết cụ thể tùy từng xe nên cần đối chiếu với sách hướng dẫn.",
+  "quickAnswer": "Trước khi gắn phụ kiện cho xe máy, hãy kiểm tra bốn điều: nó lấy điện từ đâu và có cầu chì riêng không; tải thêm đặt ở đâu trên tay lái, giá hoặc cốp; dây có tránh chỗ nóng, chỗ chuyển động và có chống nước không; nó có che đèn, gương hay biển số không. Hãy ghi lại cách lắp để tháo được khi bán xe. Việc đụng đến bó dây chính hoặc khung nên nhờ thợ có chuyên môn.",
+  "keyPoints": [
+   "Phụ kiện chia thành ba nhóm theo tác động: cơ khí làm đổi tải và trọng tâm, điện làm tăng tải điện, còn nhóm che đèn, gương, biển số làm giảm tầm nhìn và tín hiệu.",
+   "Thiết bị chỉ dùng lúc chạy nên lấy điện sau khóa điện; thiết bị nối nguồn thường trực có thể làm hao điện lúc xe đứng và khiến ắc quy cạn dần.",
+   "Mỗi thiết bị nên có cầu chì riêng đặt gần điểm lấy điện, vì cầu chì bảo vệ dây; không thay cầu chì lớn hơn hay bắc bằng dây kim loại cho hết đứt.",
+   "Tải ở tay lái, giá sau và cốp làm đổi độ nhẹ của lái và độ ổn định: gắn xong cần kiểm tra vướng, rồi chạy thử chậm ở chỗ vắng trước khi đi xa."
+  ],
+  "entities": [
+   "phụ kiện điện gắn thêm",
+   "cầu chì riêng",
+   "nguồn sau khóa điện",
+   "tải trên tay lái",
+   "giá đèo hàng",
+   "giắc chống nước"
+  ],
+  "keywords": [
+   "phụ kiện gắn thêm xe máy",
+   "gắn phụ kiện xe máy cần lưu ý",
+   "phụ kiện làm hao điện",
+   "lắp thiết bị điện cho xe máy"
   ]
  },
  {
@@ -15814,6 +16065,34 @@
    "ky nang quan sat khi lai xe",
    "toc do an toan theo tam nhin",
    "giao thong diem mu"
+  ]
+ },
+ {
+  "url": "wiki/thuat-ngu-xe/tay-ga-dien-tu-ride-by-wire-la-gi/",
+  "title": "Tay ga điện tử là gì: khác dây ga cơ khí ở chỗ nào và người dùng nên biết gì",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Bài giải thích tay ga điện tử, còn gọi là ride-by-wire, khác dây ga cơ khí ở chỗ nào. Nội dung mô tả đường truyền của dây ga kéo trực tiếp cánh bướm, các bộ phận của tay ga điện tử gồm cảm biến ở tay vặn, ECU, mô-tơ họng ga và cảm biến phản hồi, rồi so sánh cảm giác vặn ga, độ ổn định lúc cầm chừng và chế độ lái. Bài cũng nêu rõ chỉ một số xe có hệ thống này, lưu ý khi vệ sinh họng ga hoặc rút ắc quy, dấu hiệu lỗi và ranh giới giao thợ.",
+  "quickAnswer": "Tay ga điện tử, hay ride-by-wire, thay sợi dây kéo cánh bướm ga bằng cảm biến ở tay vặn, ECU và mô-tơ nhỏ ở họng ga, nên ECU quyết định độ mở thay vì bàn tay. Chỉ một số xe có; xe có cảm biến vị trí bướm ga nhưng vẫn kéo bằng dây thì chưa phải loại này. Tránh ép cánh bướm bằng tay hay rút ắc quy để xóa lỗi; ga phản ứng lạ kèm đèn báo thì ra thợ.",
+  "keyPoints": [
+   "Dây ga cơ khí nối thẳng tay vặn với cánh bướm ga hoặc van trượt qua sợi dây thép, nên cảm giác trực tiếp và lỗi thường lộ ra bằng độ rơ, tiếng rít hay tay ga nặng.",
+   "Tay ga điện tử dùng cảm biến ở tay vặn báo cho ECU, rồi ECU điều khiển mô-tơ nhỏ mở cánh bướm ga; cảm biến thứ hai ở họng ga báo ngược vị trí thực tế.",
+   "Chỉ một số xe có tay ga điện tử; xe có cảm biến vị trí bướm ga nhưng vẫn kéo bằng dây thì chưa phải ride-by-wire, nên hãy tra sách hướng dẫn của xe.",
+   "Lợi ích tùy xe gồm cầm chừng ổn định hơn, phản hồi ga mượt hơn và chế độ lái; đổi lại cảm giác ít thẳng thật hơn và hệ thống cần nguồn điện ổn định."
+  ],
+  "entities": [
+   "tay ga điện tử",
+   "dây ga cơ khí",
+   "cảm biến vị trí tay ga",
+   "cánh bướm ga",
+   "ECU",
+   "chế độ lái"
+  ],
+  "keywords": [
+   "tay ga điện tử xe máy",
+   "ride by wire là gì",
+   "dây ga xe máy",
+   "tay ga điện tử khác dây ga cơ khí"
   ]
  },
  {

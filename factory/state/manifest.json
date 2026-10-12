@@ -1744,11 +1744,19 @@
   "kind": "article"
  },
  {
+  "rel": "guide/su-dung-xe/cho-nguoi-khac-muon-xe-may-luu-y/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/index.html",
   "kind": "article"
  },
  {
   "rel": "wiki/dau-nhot/chon-dau-nhot/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-bao-duong/chon-tiem-sua-xe-may-dang-tin/index.html",
   "kind": "article"
  },
  {
@@ -1929,6 +1937,14 @@
  },
  {
   "rel": "news/thi-truong-xe/doanh-so-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/bao-duong/doc-bao-gia-sua-xe-truoc-khi-dong-y/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/mua-xe/doc-dieu-khoan-bao-hanh-xe-may-moi/index.html",
   "kind": "article"
  },
  {
@@ -2412,6 +2428,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/thuat-ngu-xe/ly-hop-ly-tam-xe-ga-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-mua-xe/mac-gia-xe/index.html",
   "kind": "article"
  },
@@ -2460,6 +2480,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/thuat-ngu-xe/moay-o-la-gi-tren-banh-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/mu-bao-hiem-dat-chuan/index.html",
   "kind": "article"
  },
@@ -2488,11 +2512,19 @@
   "kind": "article"
  },
  {
+  "rel": "guide/bao-duong/nhan-xe-sau-bao-duong-kiem-tra-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/bao-duong-dinh-ky/nhat-ky-bao-duong-xe-may/index.html",
   "kind": "article"
  },
  {
   "rel": "wiki/dien-xe/o-khoa-dien-xe-may-khoa-xoay-ket/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/op-nhua-xe-may-nut-lap-hoac-keu/index.html",
   "kind": "article"
  },
  {
@@ -2513,6 +2545,10 @@
  },
  {
   "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-phu-tung/phu-kien-gan-them-xe-may-luu-y/index.html",
   "kind": "article"
  },
  {
@@ -2673,6 +2709,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/tam-nhin-khi-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/thuat-ngu-xe/tay-ga-dien-tu-ride-by-wire-la-gi/index.html",
   "kind": "article"
  },
  {
