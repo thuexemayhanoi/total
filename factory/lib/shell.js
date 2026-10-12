@@ -239,6 +239,7 @@ function metaTags(o) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="${esc(o.description)}">
+<meta name="google-site-verification" content="V7GztRa9fpvjtJRAfsu4tQXPrV3VzlMdDJuSsILbkx0">
 <link rel="canonical" href="${canonical}">
 <meta property="og:site_name" content="${esc(SITE.name)}">
 <meta property="og:type" content="${o.ogType || 'website'}">
