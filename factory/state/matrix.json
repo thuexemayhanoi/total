@@ -18108,11 +18108,13 @@
    "title": "Xe máy tự chết máy khi nhả ga hoặc dừng đèn đỏ: phân nhóm nguyên nhân từ gió, xăng, lửa đến ga cầm chừng",
    "primaryIntent": "troubleshooting/xe-may-tu-chet-may-khi-nha-ga-hoac-dung-den-do",
    "notes": "source=topic-v2 topicId=T001327",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:42:58.718Z",
-   "updatedAt": "2026-10-12T19:42:58.719Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 3123
   },
   {
    "id": "S01252",
@@ -18121,11 +18123,13 @@
    "title": "Xe số chết máy khi nhả côn hoặc lúc xuất phát: lỗi kỹ thuật người lái và lỗi ở xe cần phân biệt",
    "primaryIntent": "troubleshooting/xe-so-chet-may-khi-nha-con-hoac-xuat-phat",
    "notes": "source=topic-v2 topicId=T001328",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:42:58.746Z",
-   "updatedAt": "2026-10-12T19:42:58.746Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 3117
   },
   {
    "id": "S01253",
@@ -18134,11 +18138,13 @@
    "title": "Xe máy yếu, không bốc khi leo dốc hoặc chở nặng: phân biệt nguyên nhân do tải, truyền động và động cơ",
    "primaryIntent": "troubleshooting/xe-may-yeu-may-khong-boc-khi-leo-doc-hoac-cho-nang",
    "notes": "source=topic-v2 topicId=T001329",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:42:58.765Z",
-   "updatedAt": "2026-10-12T19:42:58.765Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 3118
   },
   {
    "id": "S01254",
@@ -18147,11 +18153,13 @@
    "title": "Bơm khí nitơ cho lốp xe máy có tốt hơn không: khác không khí ở đâu, lợi ích thực tế và điều vẫn phải làm",
    "primaryIntent": "informational/bom-khi-nito-cho-lop-xe-may-co-tot-hon-khong",
    "notes": "source=topic-v2 topicId=T001330",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:48:08.812Z",
-   "updatedAt": "2026-10-12T19:48:08.813Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 2958
   },
   {
    "id": "S01255",
@@ -18160,11 +18168,13 @@
    "title": "Cọc ắc quy xe máy bị sùi trắng hoặc xanh: vì sao xảy ra, ảnh hưởng tới đề máy và cách vệ sinh an toàn",
    "primaryIntent": "troubleshooting/coc-ac-quy-xe-may-bi-sui-trang-va-cach-ve-sinh-an-toan",
    "notes": "source=topic-v2 topicId=T001332",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:48:08.840Z",
-   "updatedAt": "2026-10-12T19:48:08.840Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 3110
   },
   {
    "id": "S01256",
@@ -18173,11 +18183,13 @@
    "title": "Ống nước làm mát xe máy rạn, phồng hoặc rò: dấu hiệu quan sát được, vì sao nguy hiểm và việc nên làm",
    "primaryIntent": "troubleshooting/ong-nuoc-lam-mat-xe-may-ran-phong-hoac-ro",
    "notes": "source=topic-v2 topicId=T001333",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:49:37.591Z",
-   "updatedAt": "2026-10-12T19:49:37.591Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 2969
   },
   {
    "id": "S01257",
@@ -18186,11 +18198,13 @@
    "title": "Công tắc ở tay lái xe máy bị kẹt hoặc không ăn: xi nhan, còi, đèn pha cốt và vì sao thường hỏng vì ẩm bẩn",
    "primaryIntent": "troubleshooting/cong-tac-to-hop-o-tay-lai-xe-may-ket-hoac-khong-an",
    "notes": "source=topic-v2 topicId=T001334",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:49:37.616Z",
-   "updatedAt": "2026-10-12T19:49:37.616Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 3012
   },
   {
    "id": "S01258",
@@ -18199,11 +18213,13 @@
    "title": "Ghi-đông xe máy bị lệch hoặc cong sau khi ngã: nhận biết, nguy cơ và vì sao không nên tự nắn lại",
    "primaryIntent": "troubleshooting/ghi-dong-xe-may-bi-lech-hoac-cong-sau-nga",
    "notes": "source=topic-v2 topicId=T001335",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:49:37.634Z",
-   "updatedAt": "2026-10-12T19:49:37.634Z"
+   "updatedAt": "2026-10-12T19:54:22.370Z",
+   "seoScore": 100,
+   "words": 2884
   }
  ]
 }

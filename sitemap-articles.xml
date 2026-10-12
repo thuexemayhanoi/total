@@ -298,6 +298,7 @@
   <url><loc>https://wiki.thuexemaynguyentu.com/learn/kien-thuc-xe-dien/bo-sac-xe-may-dien-bi-hong-dau-hieu-nhan-biet/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/he-thong-phanh/bo-thang-phanh-tang-trong-mon/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dong-co/bo-xuc-tac-bau-loc-khi-thai-xe-may-la-gi/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/wiki/lop-banh-xe/bom-khi-nito-cho-lop-xe-may-co-tot-hon-khong/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dong-co/bom-nhot-xe-may-la-gi-va-dau-hieu-bom-yeu/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dong-co/bom-nuoc-xe-may-lam-mat-bang-dung-dich-la-gi/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dong-co/bom-xang-dien-xe-phun-xang-yeu/</loc></url>
@@ -350,12 +351,14 @@
   <url><loc>https://wiki.thuexemaynguyentu.com/tips/meo-tiet-kiem-xang/co-nen-tat-may-xe-may-khi-dung-den-do-hoac-cho-lau/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/dong-co/co-po-xe-may-bi-ho-ri-hoac-thung/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/map/diem-dang-ky-xe/co-quan-dang-ky-xe/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/garage/dien-ac-quy/coc-ac-quy-xe-may-bi-sui-trang-va-cach-ve-sinh-an-toan/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dien-xe/coi-xe-may-yeu-hoac-im-lang/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dien-xe/coi-xe/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/thuat-ngu-xe/con-la-gi/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/news/cong-nghe-xe/cong-nghe-xe-may/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/learn/doc-thong-so/cong-suat-mo-men-xoan/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dien-xe/cong-tac-an-toan-chan-chong-va-phanh/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dien-xe/cong-tac-to-hop-o-tay-lai-xe-may-ket-hoac-khong-an/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dien-xe/cong-to-met-xe-may-khong-chay/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/tips/meo-xu-ly-su-co/cop-xe-may-nong-va-vat-dung-khong-nen-de-trong-cop/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/dien-ac-quy/cu-de-xe-may-yeu-hoac-keu-tach/</loc></url>
@@ -418,6 +421,7 @@
   <url><loc>https://wiki.thuexemaynguyentu.com/ride/cung-duong/duong-ven-bien/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/tips/meo-tiet-kiem-xang/ep-xe-dung-cach/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/loi-thuong-gap/gac-chan-xe-may-bi-cong-long-hoac-gay/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/garage/loi-thuong-gap/ghi-dong-xe-may-bi-lech-hoac-cong-sau-nga/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/news/gia-xe/gia-dai-ly/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/news/gia-xe/gia-niem-yet/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/news/gia-xe/gia-xe-hom-nay/</loc></url>
@@ -564,6 +568,7 @@
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dong-co/nuoc-chay-ra-tu-ong-xa-xe-may-co-binh-thuong-khong/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dien-xe/o-khoa-dien-xe-may-khoa-xoay-ket/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/phanh/ong-dan-dau-phanh-xe-may-ran-phong-hoac-ro/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/wiki/dong-co/ong-nuoc-lam-mat-xe-may-ran-phong-hoac-ro/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/tips/meo-xu-ly-su-co/ong-xa-xe-may-nong-va-cach-tranh-bong-khi-dat-xe-len-xuong/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/cau-tao-xe/op-nhua-xe-may-nut-lap-hoac-keu/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/wiki/he-thong-phanh/phanh-cbs-xe-may-la-gi/</loc></url>
@@ -924,7 +929,9 @@
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/dong-co/xe-may-no-khong-deu-luc-cam-chung/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/loi-thuong-gap/xe-may-no-lop-bop-o-ong-xa/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/local/tinh-thanh/xe-may-nong-thon/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/garage/dong-co/xe-may-tu-chet-may-khi-nha-ga-hoac-dung-den-do/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/phun-xang-che-hoa-khi/xe-may-tu-ro-ga-hoac-ga-cam-chung-cao/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/garage/dong-co/xe-may-yeu-may-khong-boc-khi-leo-doc-hoac-cho-nang/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/news/xe-moi/xe-moi-2026/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/news/xe-moi/xe-moi-ra-mat/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/phun-xang-che-hoa-khi/xe-phun-xang-kho-no-khi-may-nong/</loc></url>
@@ -932,6 +939,7 @@
   <url><loc>https://wiki.thuexemaynguyentu.com/learn/chuan-doan-loi/xe-ra-khoi/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/learn/chuan-doan-loi/xe-rung-bat-thuong/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/moto/xe-so/xe-so-110/</loc></url>
+  <url><loc>https://wiki.thuexemaynguyentu.com/learn/ky-thuat-lai-xe/xe-so-chet-may-khi-nha-con-hoac-xuat-phat/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/tips/meo-lai-xe/xe-so-dang-chay-ve-so-n-co-hai-khong/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/garage/dong-co/xe-so-kho-vao-so-1/</loc></url>
   <url><loc>https://wiki.thuexemaynguyentu.com/moto/xe-so/xe-so/</loc></url>

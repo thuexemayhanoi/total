@@ -1668,6 +1668,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/lop-banh-xe/bom-khi-nito-cho-lop-xe-may-co-tot-hon-khong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/bom-nhot-xe-may-la-gi-va-dau-hieu-bom-yeu/index.html",
   "kind": "article"
  },
@@ -1876,6 +1880,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/coc-ac-quy-xe-may-bi-sui-trang-va-cach-ve-sinh-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/coi-xe-may-yeu-hoac-im-lang/index.html",
   "kind": "article"
  },
@@ -1897,6 +1905,10 @@
  },
  {
   "rel": "wiki/dien-xe/cong-tac-an-toan-chan-chong-va-phanh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/cong-tac-to-hop-o-tay-lai-xe-may-ket-hoac-khong-an/index.html",
   "kind": "article"
  },
  {
@@ -2145,6 +2157,10 @@
  },
  {
   "rel": "garage/loi-thuong-gap/gac-chan-xe-may-bi-cong-long-hoac-gay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/loi-thuong-gap/ghi-dong-xe-may-bi-lech-hoac-cong-sau-nga/index.html",
   "kind": "article"
  },
  {
@@ -2729,6 +2745,10 @@
  },
  {
   "rel": "garage/phanh/ong-dan-dau-phanh-xe-may-ran-phong-hoac-ro/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/ong-nuoc-lam-mat-xe-may-ran-phong-hoac-ro/index.html",
   "kind": "article"
  },
  {
@@ -4172,7 +4192,15 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dong-co/xe-may-tu-chet-may-khi-nha-ga-hoac-dung-den-do/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/phun-xang-che-hoa-khi/xe-may-tu-ro-ga-hoac-ga-cam-chung-cao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dong-co/xe-may-yeu-may-khong-boc-khi-leo-doc-hoac-cho-nang/index.html",
   "kind": "article"
  },
  {
@@ -4201,6 +4229,10 @@
  },
  {
   "rel": "moto/xe-so/xe-so-110/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/xe-so-chet-may-khi-nha-con-hoac-xuat-phat/index.html",
   "kind": "article"
  },
  {
