@@ -8573,11 +8573,13 @@
    "title": "Thuê xe máy: cách so sánh lựa chọn khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-so-sanh-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.718Z",
-   "updatedAt": "2026-10-07T11:49:02.718Z"
+   "updatedAt": "2026-10-12T08:10:16.192Z",
+   "seoScore": 100,
+   "words": 1634
   },
   {
    "id": "S00579",
@@ -8586,11 +8588,13 @@
    "title": "Thuê xe máy: cách so sánh lựa chọn khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-so-sanh-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.718Z",
-   "updatedAt": "2026-10-07T11:49:02.718Z"
+   "updatedAt": "2026-10-12T08:10:16.192Z",
+   "seoScore": 100,
+   "words": 1650
   },
   {
    "id": "S00580",
@@ -8599,11 +8603,13 @@
    "title": "Thuê xe máy: cách so sánh lựa chọn trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-so-sanh-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.718Z",
-   "updatedAt": "2026-10-07T11:49:02.718Z"
+   "updatedAt": "2026-10-12T08:10:16.192Z",
+   "seoScore": 100,
+   "words": 1596
   },
   {
    "id": "S00581",
@@ -8612,11 +8618,13 @@
    "title": "Thuê xe máy: cách so sánh lựa chọn theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-so-sanh-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.719Z",
-   "updatedAt": "2026-10-07T11:49:02.719Z"
+   "updatedAt": "2026-10-12T08:10:16.192Z",
+   "seoScore": 100,
+   "words": 1580
   },
   {
    "id": "S00582",
@@ -8625,11 +8633,13 @@
    "title": "Thuê xe máy: kinh nghiệm sử dụng thực tế cho người mới",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kinh-nghiem-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.719Z",
-   "updatedAt": "2026-10-07T11:49:02.719Z"
+   "updatedAt": "2026-10-12T08:10:16.192Z",
+   "seoScore": 100,
+   "words": 1517
   },
   {
    "id": "S00583",
@@ -8638,11 +8648,13 @@
    "title": "Thuê xe máy: kinh nghiệm sử dụng thực tế khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kinh-nghiem-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.719Z",
-   "updatedAt": "2026-10-07T11:49:02.719Z"
+   "updatedAt": "2026-10-12T08:10:16.191Z",
+   "seoScore": 100,
+   "words": 1555
   },
   {
    "id": "S00584",
@@ -8651,11 +8663,13 @@
    "title": "Thuê xe máy: kinh nghiệm sử dụng thực tế khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kinh-nghiem-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.719Z",
-   "updatedAt": "2026-10-07T11:49:02.719Z"
+   "updatedAt": "2026-10-12T08:10:16.191Z",
+   "seoScore": 100,
+   "words": 1585
   },
   {
    "id": "S00585",
@@ -8664,11 +8678,13 @@
    "title": "Thuê xe máy: kinh nghiệm sử dụng thực tế khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kinh-nghiem-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.719Z",
-   "updatedAt": "2026-10-07T11:49:02.719Z"
+   "updatedAt": "2026-10-12T08:10:16.191Z",
+   "seoScore": 100,
+   "words": 1588
   },
   {
    "id": "S00586",
@@ -8677,11 +8693,13 @@
    "title": "Thuê xe máy: kinh nghiệm sử dụng thực tế trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kinh-nghiem-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.719Z",
-   "updatedAt": "2026-10-07T11:49:02.719Z"
+   "updatedAt": "2026-10-12T08:10:16.191Z",
+   "seoScore": 100,
+   "words": 1612
   },
   {
    "id": "S00587",
@@ -8690,11 +8708,13 @@
    "title": "Thuê xe máy: kinh nghiệm sử dụng thực tế theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kinh-nghiem-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.719Z",
-   "updatedAt": "2026-10-07T11:49:02.719Z"
+   "updatedAt": "2026-10-12T08:10:16.192Z",
+   "seoScore": 100,
+   "words": 1643
   },
   {
    "id": "S00588",
