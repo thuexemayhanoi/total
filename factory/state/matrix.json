@@ -9793,11 +9793,13 @@
    "title": "Thuê xe máy hà nội: kinh nghiệm sử dụng thực tế trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 100,
+   "words": 1745
   },
   {
    "id": "S00659",
@@ -9806,11 +9808,13 @@
    "title": "Thuê xe máy hà nội: kinh nghiệm sử dụng thực tế theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-kinh-nghiem-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 91,
+   "words": 1672
   },
   {
    "id": "S00660",
@@ -9819,11 +9823,13 @@
    "title": "Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả cho người mới",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 100,
+   "words": 1658
   },
   {
    "id": "S00661",
@@ -9832,11 +9838,13 @@
    "title": "Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 100,
+   "words": 1657
   },
   {
    "id": "S00662",
@@ -9845,11 +9853,13 @@
    "title": "Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 91,
+   "words": 1749
   },
   {
    "id": "S00663",
@@ -9858,11 +9868,13 @@
    "title": "Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 91,
+   "words": 1726
   },
   {
    "id": "S00664",
@@ -9871,11 +9883,13 @@
    "title": "Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 91,
+   "words": 1759
   },
   {
    "id": "S00665",
@@ -9884,11 +9898,13 @@
    "title": "Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 100,
+   "words": 1741
   },
   {
    "id": "S00666",
@@ -9897,11 +9913,13 @@
    "title": "Thuê xe máy hà nội: đặt cọc và nghiệm thu an toàn cho người mới",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 91,
+   "words": 1721
   },
   {
    "id": "S00667",
@@ -9910,11 +9928,13 @@
    "title": "Thuê xe máy hà nội: đặt cọc và nghiệm thu an toàn khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.725Z",
-   "updatedAt": "2026-10-07T11:49:02.725Z"
+   "updatedAt": "2026-10-12T08:26:26.767Z",
+   "seoScore": 91,
+   "words": 1759
   },
   {
    "id": "S00668",
