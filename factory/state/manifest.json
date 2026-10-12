@@ -2404,6 +2404,30 @@
   "kind": "article"
  },
  {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-dai-ngay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-do-thi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-ngan-ngay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-nguoi-moi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-thuc-te/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-dai-ngay/index.html",
   "kind": "article"
  },
@@ -2437,6 +2461,14 @@
  },
  {
   "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-ngan-ngay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-nguoi-moi/index.html",
   "kind": "article"
  },
  {
@@ -2496,6 +2528,10 @@
   "kind": "article"
  },
  {
+  "rel": "thue-xe/xe-may/thue-xe-may-thue-xe-xe-may-dat-coc-do-thi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "thue-xe/xe-may/thue-xe-may-thue-xe-xe-may-dat-coc-duong-dai/index.html",
   "kind": "article"
  },
@@ -2505,6 +2541,10 @@
  },
  {
   "rel": "thue-xe/xe-may/thue-xe-may-thue-xe-xe-may-dat-coc-nguoi-moi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "thue-xe/xe-may/thue-xe-may-thue-xe-xe-may-dat-coc-thuc-te/index.html",
   "kind": "article"
  },
  {
