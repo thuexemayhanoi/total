@@ -11021,6 +11021,33 @@
   ]
  },
  {
+  "url": "docs/huong-dan-su-dung/doc-tem-thong-tin-dan-tren-xe-may/",
+  "title": "Đọc tem thông tin dán trên xe máy: chỗ dán thường gặp, các mục chính và cách đối chiếu với sách hướng dẫn",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "summary": "Bài giải thích những miếng tem nhỏ dán trên khung, dưới yên hay quanh bình xăng của xe máy cho biết điều gì và vì sao nên giữ lại. Nội dung nêu các vị trí tem thường gặp, năm nhóm thông tin hay có gồm áp suất lốp khuyến nghị, tải, cảnh báo an toàn, nhiên liệu và nhận diện xe, rồi hướng dẫn đối chiếu với sách hướng dẫn của đúng xe. Bài cũng bàn cách xử lý khi tem mờ hoặc mất, kèm ranh giới khi nào nên nhờ thợ có chuyên môn xác nhận.",
+  "quickAnswer": "Tem trên xe máy thường là nhãn của nhà sản xuất, hay gặp ở cạnh chân chống, dưới yên, quanh bình xăng và trên khung. Chúng thường cho biết áp suất lốp khuyến nghị, mức tải, cảnh báo an toàn, loại nhiên liệu và thông tin nhận diện xe. Nên giữ lại, chụp ảnh và đối chiếu với sách hướng dẫn của đúng xe; con số cụ thể tùy từng xe nên bài này không nêu.",
+  "keyPoints": [
+   "Tem kỹ thuật thường nằm ở những chỗ người dùng hay nhìn tới: cạnh chân chống, dưới yên, quanh bình xăng, trên khung; vị trí cụ thể tùy từng xe.",
+   "Các nhóm thông tin hay gặp gồm áp suất lốp khuyến nghị, mức tải, cảnh báo an toàn, loại nhiên liệu và dữ liệu nhận diện xe.",
+   "Tem chỉ đáng tin khi khớp với sách hướng dẫn của đúng đời xe; nếu lệch nhau thì ghi lại và nhờ thợ có chuyên môn đối chiếu theo xe.",
+   "Không bóc, che hay dán đè lên tem kỹ thuật vì tem khó dán lại nguyên vẹn và mất rồi thì mất luôn nguồn nhắc việc ngay trên xe."
+  ],
+  "entities": [
+   "tem thông tin trên xe máy",
+   "tem áp suất lốp",
+   "sách hướng dẫn sử dụng",
+   "nhãn cảnh báo an toàn",
+   "thông tin nhận diện xe"
+  ],
+  "keywords": [
+   "tem thông tin trên xe máy",
+   "tem áp suất lốp trên xe máy",
+   "nhãn cảnh báo dán trên xe",
+   "ý nghĩa các tem dán trên xe máy"
+  ]
+ },
+ {
   "url": "learn/doc-thong-so/doc-thong-so-xe/",
   "title": "Đọc thông số xe máy: hiểu con số nhà sản xuất công bố",
   "category": "Kiến thức chuyên sâu",
@@ -11075,6 +11102,34 @@
    "kinh nghiệm đổi pin",
    "xe máy điện cho người mới",
    "pin xe điện"
+  ]
+ },
+ {
+  "url": "learn/kien-thuc-xe-dien/dong-co-trong-banh-xe-may-dien-hub-motor-la-gi/",
+  "title": "Động cơ đặt trong bánh xe máy điện (hub motor) là gì: ưu điểm, hạn chế và khác biệt với động cơ đặt giữa",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bài giải thích động cơ đặt trong bánh xe máy điện, thường gọi là hub motor: mô-tơ gắn ngay trong cụm bánh, thường là bánh sau, và truyền lực trực tiếp tới bánh mà không qua xích hay đai. Nội dung mô tả nguyên lý chung, những ưu điểm như gọn và ít chi tiết cơ khí, các hạn chế như khối lượng dồn ở bánh, yêu cầu kín nước và vấn đề nhiệt, rồi đặt cạnh kiểu mô-tơ đặt giữa thân xe có bộ truyền động. Bài cũng nêu những điều nên quan sát khi dùng và bảo dưỡng; cách bố trí cụ thể luôn tùy xe.",
+  "quickAnswer": "Động cơ đặt trong bánh xe máy điện, hay hub motor, là mô-tơ gắn ngay trong cụm bánh, thường là bánh sau, truyền lực thẳng tới bánh mà không qua xích hay đai. Mô-tơ đặt giữa thì nằm trong thân xe và đưa lực ra bánh qua bộ truyền động. Hub motor gọn và ít chi tiết nhưng dồn khối lượng vào bánh và đòi hỏi độ kín tốt; chi tiết cụ thể tùy xe.",
+  "keyPoints": [
+   "Hub motor là mô-tơ điện đặt ngay trong cụm bánh, thường là bánh sau tùy xe, nên thân xe không có một khối động cơ riêng ở giữa.",
+   "Phần cố định mang cuộn dây, phần quay mang nam châm; bộ điều khiển cấp dòng theo thứ tự để vỏ bánh quay trực tiếp, không qua xích hay đai.",
+   "Ưu điểm chính là gọn và ít chi tiết truyền động; hạn chế gồm khối lượng dồn ở bánh, yêu cầu kín nước tốt và vấn đề tản nhiệt.",
+   "Mô-tơ đặt giữa nằm trong thân xe và truyền lực ra bánh qua đai, xích, bánh răng hoặc hộp giảm tốc, nên có thêm bộ truyền động cần chăm sóc."
+  ],
+  "entities": [
+   "hub motor",
+   "mô-tơ điện",
+   "cụm bánh sau",
+   "bộ điều khiển",
+   "mô-tơ đặt giữa",
+   "bộ truyền động"
+  ],
+  "keywords": [
+   "động cơ trong bánh xe máy điện",
+   "hub motor là gì",
+   "động cơ bánh xe máy điện",
+   "mô-tơ đặt trong bánh xe máy điện"
   ]
  },
  {
@@ -11163,6 +11218,34 @@
    "phao xăng xe máy",
    "vạch xăng nhảy",
    "vạch xăng xe máy nhảy lên xuống"
+  ]
+ },
+ {
+  "url": "wiki/dien-xe/dong-ho-xe-may-bi-mo-dong-hoi-nuoc-hoac-xuoc-mat-kinh/",
+  "title": "Đồng hồ xe máy bị mờ, đọng hơi nước hoặc xước mặt kính: vì sao xảy ra và khi nào cần lo",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Bài giải thích vì sao mặt đồng hồ xe máy bị mờ, có sương bên trong hoặc xước nhiều làm khó đọc khi ngược nắng. Nội dung tách ba nguồn gốc gồm hơi nước ngưng sau mưa hoặc rửa xe, khe hở làm nước lọt vào và mặt kính nhựa xuống cấp vì nắng hay cách lau. Bài cũng chỉ ra khi nào hơi nước tự tan là bình thường, khi nào cần kiểm tra, ảnh hưởng tới việc đọc tốc độ và đèn cảnh báo, cùng những việc không nên làm như khoan lỗ, trét keo hay xịt nước mạnh.",
+  "quickAnswer": "Đồng hồ xe máy bị mờ thường do hơi nước ngưng bên trong, nước lọt qua khe hở hoặc mặt kính nhựa bị xước và lão hóa. Sương mỏng tự tan khi trời ráo và xe để nơi thoáng thường là bình thường. Hơi nước kéo dài nhiều ngày, giọt nước đọng, đèn báo chập chờn hoặc khó đọc tốc độ là lúc nên đưa ra thợ, và không nên khoan lỗ, trét keo hay xịt nước mạnh.",
+  "keyPoints": [
+   "Lau nhẹ mặt ngoài bằng khăn mềm sạch để phân biệt: hết mờ là bụi bẩn bên ngoài, còn mờ là sương bên trong hoặc nhựa đã xước, đục.",
+   "Hơi nước ngưng sau mưa hoặc rửa xe vì mặt kính nguội nhanh hơn không khí bên trong; sương mỏng tự tan khi trời ráo thường là bình thường.",
+   "Giọt nước đọng, vệt loang, mốc hoặc sương kéo dài nhiều ngày gợi ý nước đang lọt qua khe hở, cần thợ kiểm tra chứ không tự xử lý.",
+   "Mặt kính nhựa xước vì lau khô khi còn bụi và đục dần vì nắng, hóa chất; lau một chiều bằng khăn ẩm mềm giúp giữ kính trong lâu hơn."
+  ],
+  "entities": [
+   "đồng hồ xe máy",
+   "mặt kính đồng hồ",
+   "hơi nước ngưng",
+   "gioăng cụm đồng hồ",
+   "đèn cảnh báo",
+   "đồng hồ điện tử"
+  ],
+  "keywords": [
+   "đồng hồ xe máy bị mờ",
+   "đồng hồ xe máy bị hơi nước",
+   "mặt kính đồng hồ xe máy bị xước",
+   "đồng hồ xe máy mờ khó đọc khi ngược nắng"
   ]
  },
  {
@@ -12964,6 +13047,34 @@
    "khóa xe máy chống trộm",
    "gửi xe máy qua đêm",
    "bảo vệ xe máy"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/guong-chieu-hau-xe-may-bi-long-tron-ren-hoac-rung/",
+  "title": "Gương chiếu hậu xe máy bị lỏng, trờn ren hoặc rung: nguyên nhân và hướng xử lý an toàn",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Bài giải thích cấu tạo chân gương xe máy gồm ren, ốc hãm, cần gương và khớp xoay, rồi chỉ ra vì sao ren mòn hoặc trờn làm gương lỏng, tự xoay hay tuột. Nội dung cũng lý giải vì sao rung từ tay lái truyền lên gương làm hình nhòe, cách phân biệt rung bình thường với rung do hỏng, và các hướng xử lý ở mức nguyên tắc như siết vừa đủ, thay ốc hãm, thay chân gương. Phần cuối nêu nguy cơ khi chạy với gương lỏng và những lúc nên nhờ thợ.",
+  "quickAnswer": "Gương xe máy bị lỏng thường do ren ở chân gương mòn hoặc trờn, ốc hãm không còn ép chặt, hoặc khớp xoay ở đầu gương hết ma sát. Rung nhòe hình thường do rung từ tay lái truyền lên cần gương. Có thể siết vừa đủ hoặc thay ốc hãm, nhưng ren đã hỏng thì cần thay chân gương hoặc nhờ thợ. Gương không giữ được góc nhìn thì không nên chạy tiếp ở đường đông.",
+  "keyPoints": [
+   "Chân gương gồm ren vặn vào giá đỡ, ốc hãm khóa chân, cần gương và khớp xoay ở đầu gương; mỗi phần hỏng cho một kiểu lỏng khác nhau.",
+   "Ren mòn dần vì rung, bụi và siết quá tay nhiều lần; ren trờn thể hiện qua việc vặn quay trơn, không chặt thêm dù đã xoay nhiều vòng.",
+   "Gương rung nhòe hình vì rung từ động cơ và mặt đường truyền qua tay lái lên cần gương; đầu gương nặng ở đầu cần làm biên độ rung lớn hơn.",
+   "Xử lý ở mức nguyên tắc là siết vừa đủ chặt, thay ốc hãm hoặc chụp cao su đã mòn, thay chân gương khi ren hỏng; không dùng lực quá mạnh hay cạy."
+  ],
+  "entities": [
+   "chân gương",
+   "ốc hãm",
+   "khớp xoay",
+   "cần gương",
+   "ren trờn",
+   "giá đỡ gương"
+  ],
+  "keywords": [
+   "gương xe máy bị lỏng",
+   "gương xe máy bị trờn ren",
+   "gương xe máy bị rung",
+   "gương chiếu hậu xe máy tự xoay"
   ]
  },
  {
@@ -15208,6 +15319,33 @@
    "chìa khóa xe máy khó xoay",
    "khóa cổ xe máy bị kẹt",
    "ổ khóa xe máy bị cứng không xoay được"
+  ]
+ },
+ {
+  "url": "tips/meo-xu-ly-su-co/ong-xa-xe-may-nong-va-cach-tranh-bong-khi-dat-xe-len-xuong/",
+  "title": "Ống xả xe máy rất nóng: vùng nóng cần tránh và cách lên xuống, dắt xe để không bị bỏng",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Ống xả xe máy dẫn khí thải nên rất nóng khi chạy và giữ nóng lâu sau khi xe dừng. Vùng ống và ốp che nhiệt cần tránh, cách lên xuống và dắt xe để chân không quệt vào, những chú ý với trẻ em và người ngồi sau, trang phục phù hợp, cùng lúc nào nên để cơ sở y tế đánh giá vết bỏng đều được trình bày theo hướng phòng tránh, không hướng dẫn điều trị.",
+  "quickAnswer": "Ống xả xe máy nóng vì khí thải mang nhiều nhiệt và kim loại giữ nhiệt khá lâu, kể cả sau khi tắt máy. Để không bị bỏng, hãy coi mọi đoạn ống và ốp che nhiệt là vùng nóng, lên xuống ở phía không có ống, dắt xe chậm và giữ chân cách thân xe, mặc quần dài và giày bít, đồng thời luôn chú ý chân của trẻ em và người ngồi sau.",
+  "keyPoints": [
+   "Ống xả và cả ốp che nhiệt đều có thể gây bỏng, kể cả khi xe đã dừng một lúc.",
+   "Ống giữ nóng lâu vì là khối kim loại nằm sát thân xe, nơi không khí ít lưu thông khi xe đứng yên.",
+   "Lên xuống và dắt xe ở phía không có ống, nhấc chân gọn và đi chậm để kịp nhìn.",
+   "Trẻ em và người ngồi sau cần được báo trước và chỉ xuống sau khi xe đã dừng vững."
+  ],
+  "entities": [
+   "ống xả xe máy",
+   "ốp che nhiệt",
+   "bầu giảm thanh",
+   "chỗ để chân của người ngồi sau",
+   "vết bỏng do chạm ống xả"
+  ],
+  "keywords": [
+   "tránh bỏng ống xả xe máy",
+   "ống xả xe máy nóng",
+   "bị bỏng ống xả",
+   "cách dắt xe máy không chạm ống xả"
   ]
  },
  {
