@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-checklist-thuc-te',
-  title: 'Thuê honda vision: checklist từng bước theo tình huống thực tế',
+  title: 'Thuê Honda Vision: checklist từng bước theo tình huống thực tế',
   seoTitle: 'Checklist thuê Honda Vision theo tình huống thực tế',
   metaDescription: 'Checklist xử lý tình huống khi thuê Honda Vision: xe chết máy, thủng lốp, mưa ngập, va chạm, trả xe muộn hoặc mất chìa khóa, kèm các bước cần làm theo thứ tự.',
   summary: 'Bài checklist theo tình huống dành cho người thuê xe tay ga như Honda Vision: các bước nên làm khi xe chết máy, thủng lốp hoặc có tiếng lạ, gặp mưa lớn và ngập nước, xảy ra va chạm, trả xe muộn, mất chìa khóa hay giấy tờ, giúp bạn bình tĩnh xử lý theo trình tự.',

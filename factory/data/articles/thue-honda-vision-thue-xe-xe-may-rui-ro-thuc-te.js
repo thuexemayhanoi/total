@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-rui-ro-thuc-te',
-  title: 'Thuê honda vision: rủi ro thường gặp và cách tránh theo tình huống thực tế',
+  title: 'Thuê Honda Vision: rủi ro thường gặp và cách tránh theo tình huống thực tế',
   seoTitle: 'Thuê Honda Vision: rủi ro theo tình huống thực tế và cách tránh',
   metaDescription: 'Rủi ro khi thuê Honda Vision qua tình huống thật: mưa bất chợt, lốp xẹp, va chạm nhẹ bị đòi bồi thường tại chỗ, bạn bè nhờ lái hộ và khoản phát sinh lúc trả xe.',
   summary: 'Bài đặt người thuê xe tay ga phổ biến như Honda Vision vào những tình huống có thật: mưa bất chợt, lốp xẹp hoặc xe yếu dần, va chạm nhẹ bị yêu cầu bồi thường tại chỗ, bạn bè nhờ lái hộ và khoản phát sinh bất ngờ lúc trả xe, rồi chỉ ra rủi ro cùng cách phản ứng đúng.',

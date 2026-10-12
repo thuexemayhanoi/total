@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-checklist-ngan-ngay',
-  title: 'Thuê honda vision: checklist từng bước khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: checklist từng bước khi dùng ngắn ngày',
   seoTitle: 'Checklist thuê Honda Vision khi dùng ngắn ngày',
   metaDescription: 'Checklist thuê Honda Vision trong một đến ba ngày: chốt giờ nhận trả, kiểm tra nhanh, hỏi về nhiên liệu và phạm vi dùng xe, giữ xe an toàn và trả xe gọn gàng.',
   summary: 'Bài checklist dành cho người chỉ cần dùng xe tay ga như Honda Vision trong một đến ba ngày: cách chốt khung giờ nhận và trả, kiểm tra nhanh nhưng đủ, hỏi rõ nhiên liệu và phạm vi sử dụng, giữ xe an toàn khi đi chơi và trả xe để không phát sinh rắc rối.',

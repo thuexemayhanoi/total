@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-faq-nguoi-moi',
-  title: 'Thuê honda vision: câu hỏi thường gặp cho người mới',
+  title: 'Thuê Honda Vision: câu hỏi thường gặp cho người mới',
   seoTitle: 'Thuê Honda Vision: câu hỏi thường gặp cho người mới',
   metaDescription: 'Giải đáp câu hỏi thường gặp của người thuê Honda Vision lần đầu: có phù hợp không, cần giấy tờ gì, kiểm tra xe ra sao, hỏi về tiền cọc thế nào và xử lý sự cố ngày đầu.',
   summary: 'Bài hỏi đáp dành cho người thuê xe tay ga như Honda Vision lần đầu: xe có phù hợp với người mới không, cần chuẩn bị giấy tờ và câu hỏi gì, cách biết xe đang ổn, cách hỏi về tiền cọc và các khoản phí, và việc nên làm khi gặp sự cố ngay trong ngày đầu.',

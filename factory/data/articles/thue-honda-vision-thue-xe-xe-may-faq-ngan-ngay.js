@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-faq-ngan-ngay',
-  title: 'Thuê honda vision: câu hỏi thường gặp khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: câu hỏi thường gặp khi dùng ngắn ngày',
   seoTitle: 'Thuê Honda Vision ngắn ngày: câu hỏi thường gặp',
   metaDescription: 'Giải đáp thắc mắc khi thuê Honda Vision trong một đến ba ngày: đặt xe thế nào, tính ngày và trả muộn ra sao, có cần kiểm tra kỹ không, đổ xăng và hủy lịch thế nào.',
   summary: 'Bài hỏi đáp dành cho người thuê xe tay ga như Honda Vision trong một đến ba ngày: cách đặt xe cho phù hợp, cách tính ngày và xử lý khi trả muộn, vì sao vẫn cần kiểm tra kỹ dù thuê ngắn, quy tắc nhiên liệu khi trả xe và khả năng hủy hoặc đổi lịch thuê.',

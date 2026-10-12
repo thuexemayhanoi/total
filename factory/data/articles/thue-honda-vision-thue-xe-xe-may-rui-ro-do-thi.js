@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-rui-ro-do-thi',
-  title: 'Thuê honda vision: rủi ro thường gặp và cách tránh trong điều kiện đô thị',
+  title: 'Thuê Honda Vision: rủi ro thường gặp và cách tránh trong điều kiện đô thị',
   seoTitle: 'Thuê Honda Vision trong phố: rủi ro thường gặp, cách tránh',
   metaDescription: 'Rủi ro khi thuê Honda Vision đi trong đô thị: giao thông dày, mất cắp và giật đồ, ngõ hẹp dễ trầy xước, mưa ngập, trơn trượt và sự cố nhỏ, cùng cách tránh.',
   summary: 'Bài điểm những rủi ro phổ biến khi dùng xe tay ga phổ biến như Honda Vision trong thành phố: giao thông dày đặc và điểm mù, mất cắp hoặc giật đồ, ngõ hẹp dễ trầy xước, mưa ngập và trơn trượt, cùng các sự cố nhỏ như thủng lốp, với cách phòng tránh phù hợp.',

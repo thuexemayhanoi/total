@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-checklist-duong-dai',
-  title: 'Thuê honda vision: checklist từng bước khi đi đường dài',
+  title: 'Thuê Honda Vision: checklist từng bước khi đi đường dài',
   seoTitle: 'Checklist thuê Honda Vision khi đi đường dài',
   metaDescription: 'Checklist thuê Honda Vision cho chuyến đi xa: xác nhận được phép đi liên tỉnh, kiểm tra xe kỹ, lập kế hoạch nhiên liệu và điểm nghỉ, hành lý và hậu cần khi trả xe.',
   summary: 'Bài checklist cho người dự định đi đường dài bằng xe tay ga như Honda Vision: xác nhận xe được phép đi liên tỉnh, kiểm tra xe cho quãng đường xa, lập kế hoạch lộ trình, nhiên liệu và điểm nghỉ, sắp xếp hành lý, chuẩn bị phương án khi xe hỏng và hậu cần khi trả xe.',
