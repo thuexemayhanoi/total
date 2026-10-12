@@ -70,7 +70,7 @@ jobs:
       # regression belongs to Factory Engine Quality and is deliberately not
       # rerun here: fixture ownership/backlog assumptions may fail on a live
       # matrix growing during a long-running external Writer session.
-      - name: Site QA: generated HTML, SEO head, links and invariants
+      - name: "Site QA: generated HTML, SEO head, links and invariants"
         run: |
           set -euo pipefail
           node factory/test.js
