@@ -120,6 +120,9 @@ console.log('1. Workflow + CLI contract…');
   const lv = readS(path.join(ROOT, '.github', 'workflows', 'factory-liveness.yml'));
   ok(/cron:\s*'23 \* \* \* \*'/.test(lv), 'factory-liveness.yml: schedule mỗi giờ');
   ok(/node factory\/factory\.js liveness/.test(lv), 'factory-liveness.yml: chạy liveness (read-only stall detection)');
+  const control = JSON.parse(readS(path.join(ROOT, 'factory', 'writer-control.json')));
+  ok(['paused', 'running'].includes(control.mode), 'writer-control: mode hợp lệ (paused/running)');
+  ok(lv.includes('--honor-owner-control'), 'Liveness job honors owner pause explicitly, not by clearing heartbeat');
   ok(/contents:\s*read/.test(lv) && !/git push/.test(lv), 'factory-liveness.yml: read-only — KHÔNG push, KHÔNG recover, KHÔNG đánh thức writer');
 
   // YAML an toàn: MỌI workflow không có inline `run: <lệnh>` chứa ": ".
@@ -423,6 +426,12 @@ let T6;
   ok(/status=escalated/.test(e3.stdout) && /ĐỐC CÔNG 3/.test(e3.stdout), 'Lần thử thứ 3 -> escalated cho Đốc công 3', e3.stdout);
   const lv1 = runNode([p.factory, 'liveness'], { cwd: tmp });
   ok(lv1.status !== 0 && /escalated/.test(lv1.stderr + lv1.stdout), 'Watchdog liveness: ĐỎ khi có lỗi escalated (phát hiện chuyển lỗi)', (lv1.stderr || lv1.stdout).slice(0, 150));
+  // Owner pause MUST NOT hide a real escalation, even if heartbeat is stale.
+  const controlPath = path.join(tmp, 'factory', 'writer-control.json');
+  writeJson(controlPath, { schemaVersion: 1, mode: 'paused', reason: 'test fixture' });
+  const lvPausedEsc = runNode([p.factory, 'liveness', '--honor-owner-control'], { cwd: tmp });
+  ok(lvPausedEsc.status !== 0 && /escalated/.test(lvPausedEsc.stderr + lvPausedEsc.stdout),
+    'Owner pause không che lỗi escalated (đỏ vẫn đỏ)');
   // ĐỐC CÔNG 3: audit đúng lỗi escalated, sửa đúng nguyên nhân (bài thật sự
   // đạt QA), bàn giao lại Đốc công 2 — Writer 1 chạy tiếp.
   fs.writeFileSync(path.join(p.artDir, 'zz-roles-' + bad.slug + '.js'), 'module.exports = ' + JSON.stringify(fixtureArticle(byId.get(badId))) + ';\n');
@@ -484,6 +493,16 @@ console.log('8. Stall detection an toàn…');
   ok(/REASON heartbeat cũ/.test(st2.stdout), 'Lý do đứng được ghi rõ kèm số phút', st2.stdout);
   const lv = runNode([p.factory, 'liveness'], { cwd: tmp });
   ok(lv.status !== 0 && /ĐỨNG/.test(lv.stderr), 'Watchdog liveness: ĐỎ khi writer đứng — Actions thấy đỏ, không ẩn sau tick xanh', (lv.stderr || '').slice(0, 120));
+  const lvPaused = runNode([p.factory, 'liveness', '--honor-owner-control'], { cwd: tmp });
+  ok(lvPaused.status === 0 && /phase=paused-by-owner stalled=false/.test(lvPaused.stdout),
+    'Pause do chủ repo: heartbeat cũ không tạo cảnh báo giả', lvPaused.stdout.split('\n')[0]);
+  const pausedStatus = runNode([p.factory, 'production-status', '--honor-owner-control'], { cwd: tmp });
+  ok(/phase=paused-by-owner/.test(pausedStatus.stdout), 'Coordinator cũng báo rõ paused-by-owner');
+  writeJson(path.join(tmp, 'factory', 'writer-control.json'), { schemaVersion: 1, mode: 'running', reason: 'resume fixture' });
+  const resumedStrict = runNode([p.factory, 'liveness', '--honor-owner-control'], { cwd: tmp });
+  ok(resumedStrict.status !== 0 && /ĐỨNG/.test(resumedStrict.stderr),
+    'Chuyển sang running: watchdog chặn heartbeat cũ trở lại');
+  writeJson(path.join(tmp, 'factory', 'writer-control.json'), { schemaVersion: 1, mode: 'paused', reason: 'test fixture' });
   // Writer resume (phiên mới) -> heartbeat tươi -> XANH lại.
   runNode([p.factory, 'writer-heartbeat', '--phase', 'waiting-writer'], { cwd: tmp });
   ok(runNode([p.factory, 'liveness'], { cwd: tmp }).status === 0, 'Phiên writer mới resume: liveness XANH lại');

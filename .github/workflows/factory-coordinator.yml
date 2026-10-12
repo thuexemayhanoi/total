@@ -42,7 +42,7 @@ jobs:
         run: node factory/factory.js queue-refill --role coordinator
 
       - name: Production status
-        run: node factory/factory.js production-status
+        run: node factory/factory.js production-status --honor-owner-control
 
       - name: Commit only real maintenance changes
         run: |

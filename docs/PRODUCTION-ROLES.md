@@ -49,6 +49,20 @@ Matrix hiện có logical capacity 20.000; không reset ID, slug hay bài đã P
 
 Nguồn topic vẫn là giới hạn độc lập: capacity 20.000 không tự sinh 20.000 chủ đề. Queue-refill chỉ dùng topic hợp lệ sẵn có; không bịa topic để lấp số lượng.
 
+## Owner pause / resume (Writer ngoài)
+
+Mặc định giám sát đọc file versioned `factory/writer-control.json` qua cờ
+`--honor-owner-control`. Khi `mode: paused` (chủ repo chủ động dừng Mistral),
+Watchdog báo `phase=paused-by-owner` và không báo sai `stalled` do heartbeat cũ;
+**lỗi escalated vẫn khiến Watchdog FAIL**. Coordinator cũng hiển thị paused.
+
+Để mở lại giám sát nghiêm ngặt: sau khi chủ repo cho phép Writer hoạt động,
+đổi `mode` thành `running`, rồi resume Writer Mistral riêng. Chuyển
+mode không tự tạo bài, không tự mở session AI, không reset checkpoint hoặc ma trận.
+
+`node factory/factory.js liveness` KHÔNG có cờ luôn kiểm tra heartbeat nghiêm
+ngặt; test fixture dùng cách này để phát hiện stall thật.
+
 ## Recovery
 
 Mất session: fetch fresh main → recover-txn → writer-next. Không force push, không reset matrix, không tái sử dụng ID/slug, không bypass QA.

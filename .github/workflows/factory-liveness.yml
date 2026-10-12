@@ -31,4 +31,4 @@ jobs:
         with:
           node-version: '22'
       - name: Read-only liveness check
-        run: node factory/factory.js liveness
+        run: node factory/factory.js liveness --honor-owner-control
