@@ -74,5 +74,26 @@ assert.equal(chooseNeighbors(demo[0], demo).next.slug, 'b');
 assert.equal(chooseNeighbors(demo[1], demo).next, null);
 assert.equal(chooseNeighbors(demo[2], demo).prev.slug, 'b');
 assert.equal(chooseNeighbors(demo[3], demo).next, null);
+
+// Render-level regression (test.js phần 15 khớp hợp đồng này): bài đầu tiên của một danh mục mới KHÔNG có khối art-pn (không có hàng
+// xóm cùng danh mục); từ bài thứ hai trở đi mọi bài trong danh mục đều có. Dữ liệu tổng hợp, không đụng site thật.
+{
+  const R = require('./lib/render');
+  const { CATEGORIES } = require('./data/categories');
+  const cat = CATEGORIES.find(c => c.slug === 'review');
+  const hub = cat.children.find(h => h.slug === 'review-xe');
+  const mk = (slug, date) => ({
+    slug, title: 'Bài thử ' + slug, seoTitle: 'Bài thử ' + slug, metaDescription: 'Mô tả thử nghiệm cho bài ' + slug + ' dùng trong kiểm thử.',
+    summary: 'Tóm tắt', quickAnswer: 'Trả lời nhanh', keyPoints: ['Ý một', 'Ý hai'], category: cat.slug, hub: hub.slug, date, updated: date,
+    entities: ['a'], keywords: ['b'], sections: [{ h2: 'Mục một', html: '<p>Nội dung.</p>' }], checklist: [], steps: [], warnings: [], notes: [],
+    references: [], related: [], path: cat.slug + '/' + hub.slug + '/' + slug + '/', catName: cat.name, hubName: hub.name, wordCount: 1200
+  });
+  const render = (list, i) => R.renderArticle(cat, hub, list[i], list, Object.fromEntries(list.map(x => [x.slug, x])));
+  const lone = [mk('mot', '2026-10-01')];
+  assert(!render(lone, 0).includes('art-pn'), 'danh mục 1 bài: không có khối bài trước/sau');
+  const pair = [mk('mot', '2026-10-01'), mk('hai', '2026-10-02')];
+  assert(render(pair, 0).includes('pn-card pn-next') && !render(pair, 0).includes('pn-card pn-prev'), 'danh mục 2 bài: bài đầu chỉ có thẻ "Bài sau"');
+  assert(render(pair, 1).includes('pn-card pn-prev') && !render(pair, 1).includes('pn-card pn-next'), 'danh mục 2 bài: bài cuối chỉ có thẻ "Bài trước"');
+}
 console.log('FEATURE_QA_OK articles=' + articles.length +
   ' searchHeadings=' + articles.length + ' authorBoxes=' + articles.length);

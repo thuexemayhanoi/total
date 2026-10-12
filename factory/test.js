@@ -368,13 +368,21 @@ for (const f of allFiles.filter(x => x.endsWith('.html'))) {
 // ---------- 15. Article UI ----------
 // Chỉ bài LIVE có trang sinh; draft (chưa PUBLISHED) KHÔNG render nên
 // KHÔNG assert UI ở đây.
+// Hợp đồng silo (khớp test-features.js): bài trước/sau chỉ lấy trong CÙNG danh mục. Danh mục có ≥2 bài live ⇒ mọi bài phải có điều
+// hướng; danh mục chỉ có đúng 1 bài live (bài đầu tiên của một danh mục mới) không có hàng xóm ⇒ KHÔNG có khối art-pn.
+const liveByCategory = new Map();
+for (const x of liveArtModules) liveByCategory.set(x.category, (liveByCategory.get(x.category) || 0) + 1);
 for (const a of liveArtModules) {
   const rel = a.hub ? `${a.category}/${a.hub}/${a.slug}/index.html` : `${a.category}/${a.slug}/index.html`;
   const html = read(rel);
   ok(html.includes('class="toc"') && html.includes('Mục lục'), `Article ${a.slug}: có mục lục`);
   ok(html.includes('Câu trả lời nhanh') && html.includes('Điểm chính'), `Article ${a.slug}: có quick answer + key points`);
   ok(html.includes('phút đọc'), `Article ${a.slug}: có thời gian đọc`);
-  ok(html.includes('art-pn') && (html.includes('Bài trước') || html.includes('Bài sau')), `Article ${a.slug}: có điều hướng bài trước/sau`);
+  if (liveByCategory.get(a.category) >= 2) {
+    ok(html.includes('art-pn') && (html.includes('Bài trước') || html.includes('Bài sau')), `Article ${a.slug}: có điều hướng bài trước/sau`);
+  } else {
+    ok(!html.includes('art-pn'), `Article ${a.slug}: danh mục chỉ có 1 bài live — không có điều hướng bài trước/sau (silo)`);
+  }
   // Mọi link mục lục trỏ tới section tồn tại
   const tocHrefs = [...html.matchAll(/href="#(muc-\d+)"/g)].map(m => m[1]);
   const secIds = [...html.matchAll(/id="(muc-\d+)"/g)].map(m => m[1]);
