@@ -1628,6 +1628,14 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/ac-quy-pin/bms-pin-xe-may-dien-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/bo-dieu-khien-xe-may-dien-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/bo-phan-xe-may/index.html",
   "kind": "article"
  },
@@ -2440,6 +2448,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/mat-phanh-giua-duong-xu-ly-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/xe-moi/mau-xe-moi-viet-nam/index.html",
   "kind": "article"
  },
@@ -2544,7 +2556,15 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/phanh-tai-tao-xe-may-dien-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-xu-ly-su-co/phong-chay-xe-may-nguyen-nhan-va-dau-hieu/index.html",
   "kind": "article"
  },
  {
@@ -3820,6 +3840,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/xe-may-bi-ro-xang-xu-ly-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/xe-may-dia-phuong/index.html",
   "kind": "article"
  },
@@ -3901,6 +3925,10 @@
  },
  {
   "rel": "moto/yamaha/xe-yamaha/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/xich-xe-may-dut-hoac-tuot-khi-dang-chay/index.html",
   "kind": "article"
  },
  {

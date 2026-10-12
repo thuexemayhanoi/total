@@ -16788,11 +16788,13 @@
    "title": "Phanh tái tạo trên xe máy điện là gì: vì sao nhả ga xe chậm lại và nó thay đổi thói quen phanh ra sao",
    "primaryIntent": "informational/phanh-tai-tao-xe-may-dien-la-gi",
    "notes": "source=topic-v2 topicId=T001226",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.049Z",
-   "updatedAt": "2026-10-12T17:22:40.049Z"
+   "updatedAt": "2026-10-12T17:44:42.849Z",
+   "seoScore": 100,
+   "words": 3041
   },
   {
    "id": "S01164",
@@ -16801,11 +16803,13 @@
    "title": "BMS trên pin xe máy điện là gì: mạch quản lý bảo vệ pin làm những việc gì",
    "primaryIntent": "informational/bms-pin-xe-may-dien-la-gi",
    "notes": "source=topic-v2 topicId=T001227",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.060Z",
-   "updatedAt": "2026-10-12T17:22:40.060Z"
+   "updatedAt": "2026-10-12T17:44:42.849Z",
+   "seoScore": 100,
+   "words": 2981
   },
   {
    "id": "S01165",
@@ -16814,11 +16818,13 @@
    "title": "Bộ điều khiển xe máy điện là gì: bộ não giữa pin, tay ga và mô-tơ",
    "primaryIntent": "informational/bo-dieu-khien-xe-may-dien-la-gi",
    "notes": "source=topic-v2 topicId=T001228",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.079Z",
-   "updatedAt": "2026-10-12T17:22:40.079Z"
+   "updatedAt": "2026-10-12T17:44:42.849Z",
+   "seoScore": 100,
+   "words": 2920
   },
   {
    "id": "S01166",
@@ -16827,11 +16833,13 @@
    "title": "Xe máy bị rò xăng: nhận biết điểm rò, nguy cơ cháy và cách xử lý an toàn trước khi đưa tới thợ",
    "primaryIntent": "troubleshooting/xe-may-bi-ro-xang-xu-ly-an-toan",
    "notes": "source=topic-v2 topicId=T001229",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.099Z",
-   "updatedAt": "2026-10-12T17:22:40.099Z"
+   "updatedAt": "2026-10-12T17:44:42.849Z",
+   "seoScore": 100,
+   "words": 2994
   },
   {
    "id": "S01167",
@@ -16840,11 +16848,13 @@
    "title": "Phòng cháy xe máy: nguyên nhân thường gặp, dấu hiệu cảnh báo và việc nên làm khi thấy khói",
    "primaryIntent": "informational/phong-chay-xe-may-nguyen-nhan-va-dau-hieu",
    "notes": "source=topic-v2 topicId=T001230",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.112Z",
-   "updatedAt": "2026-10-12T17:22:40.112Z"
+   "updatedAt": "2026-10-12T17:44:42.849Z",
+   "seoScore": 100,
+   "words": 3125
   },
   {
    "id": "S01168",
@@ -16853,11 +16863,13 @@
    "title": "Mất phanh hoặc phanh rất yếu khi đang chạy: các cách giảm tốc an toàn và việc cần làm sau đó",
    "primaryIntent": "troubleshooting/mat-phanh-giua-duong-xu-ly-an-toan",
    "notes": "source=topic-v2 topicId=T001231",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.124Z",
-   "updatedAt": "2026-10-12T17:22:40.124Z"
+   "updatedAt": "2026-10-12T17:44:42.849Z",
+   "seoScore": 91,
+   "words": 2908
   },
   {
    "id": "S01169",
@@ -16866,11 +16878,13 @@
    "title": "Xích xe máy đứt hoặc tuột khi đang chạy: nhận biết, cách dừng an toàn và nguyên nhân thường gặp",
    "primaryIntent": "troubleshooting/xich-xe-may-dut-hoac-tuot-khi-dang-chay",
    "notes": "source=topic-v2 topicId=T001232",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:40.139Z",
-   "updatedAt": "2026-10-12T17:22:40.139Z"
+   "updatedAt": "2026-10-12T17:44:42.849Z",
+   "seoScore": 100,
+   "words": 3071
   },
   {
    "id": "S01170",

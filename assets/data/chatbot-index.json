@@ -8468,6 +8468,62 @@
   ]
  },
  {
+  "url": "wiki/ac-quy-pin/bms-pin-xe-may-dien-la-gi/",
+  "title": "BMS trên pin xe máy điện là gì: mạch quản lý bảo vệ pin làm những việc gì",
+  "category": "Bách khoa xe",
+  "hub": "Ắc quy và pin",
+  "summary": "Bài giải thích BMS là gì và vì sao bộ pin xe máy điện cần nó: pin gồm nhiều cell có giới hạn làm việc hẹp, không cell nào giống hệt cell nào. Nội dung đi qua các lớp bảo vệ chống quá sạc, xả sâu, quá nhiệt, quá dòng, cách cân bằng cell ở những xe có chức năng này, ý nghĩa của việc ngắt điện như một hành vi bảo vệ, cùng ranh giới rõ ràng về lúc nào phải dừng dùng pin và vì sao người dùng không nên tự mở pin hay can thiệp vào mạch.",
+  "quickAnswer": "BMS là mạch quản lý pin nằm trong vỏ pin, theo dõi từng cell hoặc nhóm cell và nhiệt độ rồi mở công tắc điện tử khi pin chạm giới hạn: quá sạc, xả quá cạn, quá nóng hay quá dòng. Xe tắt hoặc ngừng nhận sạc thường là BMS đang bảo vệ pin, không tự nó là lỗi. Pin phồng, nóng bất thường hoặc có mùi khét là lúc dừng dùng, không tự mở hay sửa mạch.",
+  "keyPoints": [
+   "Pin xe máy điện gồm rất nhiều cell ghép nối tiếp và song song; mỗi cell chỉ an toàn trong khoảng làm việc hẹp nên cần mạch theo dõi liên tục.",
+   "BMS bảo vệ pin khỏi quá sạc, xả sâu, quá nhiệt và quá dòng bằng cách mở công tắc điện tử trên đường sạc hoặc đường xả khi pin chạm giới hạn.",
+   "Cân bằng cell, ở xe có chức năng này, giúp thu hẹp độ lệch mức nạp giữa các cell; không phải BMS nào cũng có, và nó không cứu được pin đã chai.",
+   "Xe ngắt điện hoặc ngừng nhận sạc thường là hành vi bảo vệ của BMS; hoàn cảnh lúc ngắt là manh mối để ghi lại cho thợ chứ chưa phải kết luận."
+  ],
+  "entities": [
+   "mạch quản lý pin",
+   "cell pin lithium",
+   "cân bằng cell",
+   "bảo vệ quá sạc và xả sâu",
+   "cảm biến nhiệt trong pin",
+   "công tắc điện tử ngắt dòng"
+  ],
+  "keywords": [
+   "bms pin xe điện là gì",
+   "mạch quản lý pin",
+   "bảo vệ pin xe điện",
+   "bms xe máy điện ngắt điện"
+  ]
+ },
+ {
+  "url": "learn/kien-thuc-xe-dien/bo-dieu-khien-xe-may-dien-la-gi/",
+  "title": "Bộ điều khiển xe máy điện là gì: bộ não giữa pin, tay ga và mô-tơ",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bài giải thích bộ điều khiển xe máy điện là hộp mạch điện tử đặt giữa pin, tay ga và mô-tơ, nhận tín hiệu từ người lái rồi quyết định cấp bao nhiêu điện cho mô-tơ. Nội dung nêu cách nó điều tiết dòng điện, cơ chế bảo vệ khi quá nhiệt hay quá dòng, những dấu hiệu lỗi quan sát được như mất lực, giật, nóng và tự ngắt, cùng lý do nước và nhiệt làm hại bộ phận này. Bài cũng giải thích vì sao không nên tự mở hay thay và lúc nào cần giao cho thợ chuyên về xe điện.",
+  "quickAnswer": "Bộ điều khiển là hộp mạch điện tử đứng giữa pin, tay ga và mô-tơ: nó đọc tín hiệu từ tay ga và phanh rồi điều tiết dòng điện cấp cho mô-tơ, đồng thời tự giảm hoặc ngắt điện khi quá nóng hay quá dòng. Hỏng thường lộ ra bằng mất lực, giật cục, nóng bất thường hoặc tự ngắt; các dấu hiệu này cũng có thể đến từ pin hay tay ga, nên chỉ thợ chuyên về xe điện mới kết luận được.",
+  "keyPoints": [
+   "Bộ điều khiển là hộp mạch điện tử đứng giữa pin, tay ga và mô-tơ, quyết định cấp bao nhiêu điện cho mô-tơ ở từng khoảnh khắc.",
+   "Nó đọc tín hiệu từ tay ga và thường cả công tắc phanh, rồi đóng ngắt dòng điện rất nhanh để mô-tơ nhận nhiều hay ít điện.",
+   "Bảo vệ quá nhiệt và quá dòng có thể làm xe yếu lực hoặc ngắt; sau đoạn nặng thì đó có thể là bảo vệ làm đúng việc, còn trong điều kiện nhẹ mới đáng ngờ.",
+   "Mất lực, giật cục, nóng, mùi khét hay tự ngắt gợi ý lỗi nhưng cũng có thể đến từ pin, tay ga, công tắc phanh hoặc mô-tơ, nên chỉ là gợi ý cho thợ."
+  ],
+  "entities": [
+   "bộ điều khiển xe điện",
+   "tay ga điện",
+   "mô-tơ xe điện",
+   "pin xe điện",
+   "bảo vệ quá nhiệt",
+   "quá dòng"
+  ],
+  "keywords": [
+   "bộ điều khiển xe máy điện",
+   "controller xe điện",
+   "xe điện mất lực do bộ điều khiển",
+   "dấu hiệu hỏng bộ điều khiển xe điện"
+  ]
+ },
+ {
   "url": "wiki/cau-tao-xe/bo-phan-xe-may/",
   "title": "Tổng hợp kiến thức: bộ phận xe máy",
   "category": "Bách khoa xe",
@@ -14139,6 +14195,34 @@
   ]
  },
  {
+  "url": "guide/xu-ly-su-co/mat-phanh-giua-duong-xu-ly-an-toan/",
+  "title": "Mất phanh hoặc phanh rất yếu khi đang chạy: các cách giảm tốc an toàn và việc cần làm sau đó",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Bài trình bày thứ tự hành động khi phát hiện phanh mềm hoặc không ăn lúc đang chạy: giữ bình tĩnh, nhả ga, thử cả hai phanh, dùng phanh động cơ và giảm số nếu xe có, tận dụng đường dốc lên hoặc vật cản mềm, báo hiệu cho xe phía sau. Sau khi dừng, bạn kiểm tra bằng mắt, không chạy tiếp mà dắt xe đến thợ. Bài cũng nêu các nguyên nhân thường gặp, thói quen phòng ngừa, và nhắc rằng đây là hướng dẫn chung, thực tế còn tùy tình huống.",
+  "quickAnswer": "Khi phanh mất hoặc yếu, hãy giữ bình tĩnh, nhả ga hoàn toàn, thử cả hai phanh bằng lực dần và đều, giảm số từng cấp nếu xe có số, rồi chọn đường dốc lên hoặc vùng mềm, trống để chậm lại, đồng thời báo hiệu cho xe sau. Khi đã dừng, không chạy tiếp mà dắt xe đến thợ. Đây là hướng dẫn chung, tình huống thực tế có thể khác.",
+  "keyPoints": [
+   "Thứ tự đầu tiên là giữ bình tĩnh rồi nhả ga hoàn toàn; bóp mạnh dồn dập hay bẻ lái gấp thường làm tình hình tệ hơn.",
+   "Phanh trước và phanh sau thường độc lập nhau, nên hãy thử cả hai, bóp dần và đều; một bên có thể còn tác dụng khi bên kia đã yếu.",
+   "Phanh động cơ và giảm số từng cấp chỉ là trợ lực, mạnh hay yếu tùy xe; xe tay ga thường có phanh động cơ yếu hơn xe số.",
+   "Đường dốc lên và vùng mềm, trống giúp xe chậm lại, kèm còi và đèn báo cho xe sau; tránh vật cứng, người đi bộ và đoạn dốc xuống."
+  ],
+  "entities": [
+   "phanh trước và phanh sau",
+   "phanh động cơ",
+   "dầu phanh",
+   "má phanh",
+   "đèn báo nguy hiểm",
+   "kẹt ga"
+  ],
+  "keywords": [
+   "mất phanh khi đang chạy",
+   "phanh yếu giữa đường",
+   "xe mất phanh phải làm gì",
+   "xe máy mất phanh giảm tốc an toàn"
+  ]
+ },
+ {
   "url": "news/xe-moi/mau-xe-moi-viet-nam/",
   "title": "Kinh nghiệm mẫu xe mới Việt Nam dành cho người mới",
   "category": "Tin tức",
@@ -14881,6 +14965,34 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/phanh-tai-tao-xe-may-dien-la-gi/",
+  "title": "Phanh tái tạo trên xe máy điện là gì: vì sao nhả ga xe chậm lại và nó thay đổi thói quen phanh ra sao",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bài giải thích phanh tái tạo trên xe máy điện là gì và vì sao xe chậm lại khi nhả ga mà không cần bóp phanh. Nội dung mô tả cách mô-tơ đảo vai trò thành máy phát khi bánh xe kéo trục quay, thu hồi một phần năng lượng về pin, rồi chỉ ra mức hãm khác nhau tùy xe và chế độ lái. Bài cũng bàn cảm giác lái ở phố và khi xuống dốc, các giới hạn như pin đầy, mặt đường trơn hay xe nặng, cùng cách điều chỉnh thói quen phanh và kiểm tra phanh cơ khí để giữ an toàn.",
+  "quickAnswer": "Xe máy điện chậm lại khi nhả ga thường là do phanh tái tạo: bộ điều khiển cho mô-tơ đảo vai trò thành máy phát, tạo lực cản và đưa một phần năng lượng trở lại pin. Đó là thiết kế chứ không phải lỗi, nhưng mức hãm tùy xe và chế độ lái, có thể yếu hoặc mất khi pin đầy. Nó không thay thế phanh cơ khí, nên vẫn cần bóp phanh và kiểm tra phanh định kỳ.",
+  "keyPoints": [
+   "Xe điện chậm lại khi nhả ga thường là phanh tái tạo đang hoạt động theo thiết kế: mô-tơ tạo lực cản và đưa một phần điện năng sinh ra trở lại pin.",
+   "Mô-tơ và máy phát là cùng một kiểu thiết bị chạy ngược chiều; bộ điều khiển quyết định lúc nào đẩy xe, lúc nào hãm xe và hãm mạnh đến đâu.",
+   "Mức hãm, chế độ lái và việc có hay không có phanh tái tạo đều tùy xe; xe nhả ga mà trôi dài hơn xe khác chưa chắc đã bị lỗi.",
+   "Phanh tái tạo yếu hoặc biến mất khi pin đầy, khi pin quá lạnh hay quá nóng, ở tốc độ rất chậm hoặc khi hệ thống có lỗi, nên không bao giờ được trông cậy vào nó để dừng xe."
+  ],
+  "entities": [
+   "phanh tái tạo",
+   "mô-tơ điện",
+   "bộ điều khiển",
+   "hệ thống quản lý pin",
+   "phanh cơ khí",
+   "chế độ lái"
+  ],
+  "keywords": [
+   "phanh tái tạo xe điện",
+   "phanh tái tạo là gì",
+   "nhả ga xe điện bị chậm lại",
+   "phanh tái tạo xe máy điện hoạt động thế nào"
+  ]
+ },
+ {
   "url": "wiki/he-thong-phanh/phanh-tang-trong/",
   "title": "Tổng hợp kiến thức: phanh tang trống",
   "category": "Bách khoa xe",
@@ -14908,6 +15020,34 @@
    "má phanh trống",
    "phanh sau yếu",
    "cấu tạo phanh trống"
+  ]
+ },
+ {
+  "url": "tips/meo-xu-ly-su-co/phong-chay-xe-may-nguyen-nhan-va-dau-hieu/",
+  "title": "Phòng cháy xe máy: nguyên nhân thường gặp, dấu hiệu cảnh báo và việc nên làm khi thấy khói",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "summary": "Bài tổng hợp những nguyên nhân thường gặp gây cháy xe máy ở mức nguyên lý, gồm chập điện và quá tải, rò xăng gặp nguồn nhiệt, giắc cắm và ắc quy lỏng, phụ kiện đấu sai, nơi để xe và việc sạc thiếu an toàn. Nội dung chỉ ra dấu hiệu cảnh báo qua mùi khét, nhiệt bất thường, cầu chì nổ liên tục, rồi gợi ý thói quen phòng ngừa hằng ngày và cách bố trí chỗ để xe, sạc, cất xăng. Phần cuối nêu việc cần làm khi thấy khói hoặc lửa: dừng xe, rời xa, gọi trợ giúp, không dùng nước dập lửa xăng.",
+  "quickAnswer": "Cháy xe máy thường bắt nguồn từ chập điện hoặc quá tải, rò xăng gặp nguồn nhiệt, phụ kiện đấu sai, cùng việc để hay sạc xe ở nơi kín, nhiều đồ dễ cháy. Cảnh báo sớm gồm mùi khét hoặc mùi xăng, dây và giắc nóng bất thường, cầu chì nổ liên tục. Thấy khói thì bóp phanh, dừng xe an toàn, tắt máy, rời xa xe rồi gọi số khẩn cấp; không dội nước vào lửa xăng.",
+  "keyPoints": [
+   "Đám cháy cần nhiệt hoặc tia lửa, chất dễ cháy và thời gian; xe máy gom sẵn xăng, nhựa, dây điện và nguồn nhiệt trong một khoảng không rất nhỏ nên một lỗi nhỏ bị bỏ qua cũng có thể thành chuyện lớn.",
+   "Nguyên nhân thường gặp ở mức nguyên lý gồm chập điện hoặc quá tải, giắc cắm và cực ắc quy lỏng, rò xăng gần chỗ nóng, phụ kiện đấu chui và vật dễ cháy bám quanh ống xả.",
+   "Dấu hiệu cảnh báo cần coi trọng là mùi khét, mùi xăng nồng, dây hoặc giắc nóng bất thường kèm vết xém, đèn chập chờn và cầu chì nổ lặp lại sau mỗi lần thay.",
+   "Thói quen phòng ngừa gồm liếc nhìn xe trước khi đi, giao việc đấu phụ kiện cho thợ có chuyên môn, không thay cầu chì bằng loại lớn hơn, để xe thoáng và không chắn lối thoát, sạc đúng bộ sạc, không cất xăng trong nhà."
+  ],
+  "entities": [
+   "chập điện",
+   "rò rỉ xăng",
+   "cầu chì",
+   "ắc quy",
+   "phụ kiện đấu thêm",
+   "ống xả"
+  ],
+  "keywords": [
+   "phòng cháy xe máy",
+   "nguyên nhân cháy xe máy",
+   "xe máy bốc khói phải làm gì",
+   "dấu hiệu xe máy sắp cháy"
   ]
  },
  {
@@ -23425,6 +23565,34 @@
   ]
  },
  {
+  "url": "guide/xu-ly-su-co/xe-may-bi-ro-xang-xu-ly-an-toan/",
+  "title": "Xe máy bị rò xăng: nhận biết điểm rò, nguy cơ cháy và cách xử lý an toàn trước khi đưa tới thợ",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Bài giải thích vì sao xăng rò trên xe máy là tình huống có nguy cơ cháy, dù chỉ là vài giọt dưới gầm hay một mùi xăng nồng. Nội dung điểm qua các vị trí rò thường gặp trên đường xăng như ống dẫn, mối nối, khóa xăng, bình xăng con và nắp bình, hướng dẫn cách quan sát khi không có lửa và ghi lại cho thợ, nêu những việc nên làm ngay như dừng xe, tắt máy, tránh lửa và dắt xe tới nơi thoáng, cùng những điều tuyệt đối không làm và lúc nào cần gọi trợ giúp.",
+  "quickAnswer": "Xăng rò là tình huống có nguy cơ cháy vì hơi xăng bắt lửa dễ và thường nằm gần ống xả nóng hoặc tia lửa điện. Hãy bóp phanh, dừng xe ở chỗ thoáng, tắt máy bằng công tắc tắt máy hoặc khóa điện, tránh mọi nguồn lửa, không đề lại và không chạy tiếp. Quan sát chỗ rò bằng mắt từ xa, ghi lại rồi nhờ cứu hộ hoặc dắt xe tới thợ.",
+  "keyPoints": [
+   "Hơi xăng mới là thứ bắt lửa: nó nặng hơn không khí, chìm xuống gầm xe và dễ gặp ống xả nóng, tia lửa điện hoặc lửa từ bên ngoài.",
+   "Điểm rò thường nằm ở nơi có cao su và mối nối: ống dẫn, kẹp, đầu nối, khóa xăng, bình xăng con ở xe chế hòa khí, gioăng nắp bình và thân bình.",
+   "Quan sát ngoài trời, xe đã tắt máy và nguội bớt, không dùng lửa để soi; lót tấm bìa sạch dưới gầm để thấy vị trí giọt rồi ghi lại bằng lời và ảnh.",
+   "Việc nên làm ngay là dừng xe an toàn, tắt máy, tránh lửa, không đề lại, đưa người ra xa và dắt xe tới nơi thoáng thay vì chạy tiếp."
+  ],
+  "entities": [
+   "hơi xăng",
+   "ống dẫn xăng",
+   "khóa xăng",
+   "bình xăng con",
+   "nắp bình xăng",
+   "nguy cơ cháy nổ"
+  ],
+  "keywords": [
+   "xe máy bị rò xăng",
+   "rỉ xăng xe máy",
+   "xe máy chảy xăng dưới gầm",
+   "xe máy rò xăng nên làm gì"
+  ]
+ },
+ {
   "url": "hub/dia-phuong/xe-may-dia-phuong/",
   "title": "Kinh nghiệm xe máy địa phương dành cho người mới",
   "category": "Trung tâm chủ đề",
@@ -24018,6 +24186,34 @@
    "yamaha viet nam",
    "cong nghe yamaha",
    "chon xe yamaha"
+  ]
+ },
+ {
+  "url": "guide/xu-ly-su-co/xich-xe-may-dut-hoac-tuot-khi-dang-chay/",
+  "title": "Xích xe máy đứt hoặc tuột khi đang chạy: nhận biết, cách dừng an toàn và nguyên nhân thường gặp",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "summary": "Bài hướng dẫn xử lý khi xích xe số bị đứt hoặc tuột lúc đang chạy. Nội dung mô tả dấu hiệu nhận biết như máy gầm to mà xe trôi dần, tiếng quật phía bánh sau, cách nhả ga, bóp phanh đều tay và tắt máy để dừng an toàn tránh bị xích quật, rồi giải thích vì sao không nên chạy tiếp hay tự lắp lại xích. Bài cũng điểm các nguyên nhân thường gặp gồm xích quá chùng hoặc quá căng, nhông sên dĩa mòn, thiếu bôi trơn, cùng thói quen quan sát và bảo dưỡng để phòng ngừa.",
+  "quickAnswer": "Máy gầm to nhưng xe trôi dần, kèm tiếng loạt xoạt hoặc tiếng quật ở bánh sau, là dấu hiệu xích tuột hoặc đứt. Hãy nhả ga, bóp đều cả hai phanh, tấp vào chỗ an toàn rồi tắt máy bằng công tắc tắt máy hoặc xoay khóa điện về vị trí tắt. Sau đó đừng chạy tiếp và đừng tự lắp lại nếu chưa có kinh nghiệm, mà nhờ thợ kiểm tra xích, nhông sên dĩa và độ thẳng hàng bánh sau.",
+  "keyPoints": [
+   "Dấu hiệu cốt lõi là máy vẫn gầm theo tay ga nhưng xe không tăng tốc mà trôi dần theo đà, thường kèm tiếng loạt xoạt hoặc tiếng kim loại quật ở phía bánh sau.",
+   "Phản xạ đúng là nhả hẳn tay ga, giữ tay lái thẳng, bóp đều cả hai phanh và tấp vào chỗ an toàn; không vặn thêm ga và không thả chân xuống đất khi xe còn lăn.",
+   "Đã dừng thì tắt máy, quan sát bằng mắt từ bên ngoài, không chạy tiếp và không tự lắp lại xích nếu chưa có kinh nghiệm, vì xích có thể tuột lại hoặc kẹt bánh sau.",
+   "Nguyên nhân thường gặp gồm xích quá chùng hoặc quá căng, nhông sên dĩa đã mòn, thiếu bôi trơn, bánh sau lệch hàng; thường là nhiều nguyên nhân cộng lại."
+  ],
+  "entities": [
+   "dây xích xe số",
+   "nhông sên dĩa",
+   "độ căng xích",
+   "khóa nối xích",
+   "ốp che xích",
+   "bôi trơn xích"
+  ],
+  "keywords": [
+   "xích xe máy bị đứt",
+   "xích xe máy tuột",
+   "xích kêu rồi tuột",
+   "xích xe máy đứt khi đang chạy"
   ]
  },
  {
