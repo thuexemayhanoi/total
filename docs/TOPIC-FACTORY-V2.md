@@ -12,7 +12,7 @@
 | V2 làm gì khác? | Topic phải **đi qua gate** (trùng lặp, bằng chứng, nhu cầu) rồi **người duyệt đọc 5 bài gần nhất** mới thành slot. Writer chỉ nhận slot đã APPROVED. |
 | 40.000 bài? | Là **trần năng lực**, không phải chỉ tiêu. Số bài tăng chỉ khi có nhu cầu/thông tin độc lập thật (GSC, site-search, nguồn xác minh). |
 | Tắt V2 thế nào? | Sửa `factory/topic-governance.json` thành `{"mode":"off","v1Generation":"allowed"}` (hoặc xóa file). Không mất dữ liệu. |
-| Kiểm chứng? | `node factory/test-topic-v2.js` (275 assert, 4 tầng) + `node factory/factory.js topic-check --recheck`. |
+| Kiểm chứng? | `node factory/test-topic-v2.js` (286 assert, 4 tầng) + `node factory/factory.js topic-check --recheck`. |
 
 ## 1. Nguyên tắc (không thương lượng)
 
@@ -188,7 +188,7 @@ Hạn chế trung thực: `--reviewed` là **kiểm soát quy trình** (không c
 | `topic-neighbours <T…> [--top N] [--json]` | read-only | láng giềng + H2 để người duyệt đọc |
 | `topic-brief <T…\|S…>` | read-only | brief cho writer |
 | `topic-import --file gsc.csv --period a..b` | read-only | lead từ Search Console |
-| `topic-backfill` | coordinator | tạo dòng topic cho slot cũ (idempotent, không đụng matrix.json) |
+| `topic-backfill` | coordinator | tạo dòng topic cho slot cũ (idempotent, không đụng matrix.json); `--refresh-published` đồng bộ dòng published legacy về tiêu đề công khai |
 | `topic-propose --file c.jsonl [--review r.json] [--source …] [--dry-run] [--update]` | coordinator | đánh giá ứng viên, ghi dòng (idempotent, kể cả topic đã REJECTED) |
 | `topic-approve <T…>` / `--file approvals.json` | coordinator | topic → slot PLANNED + APPROVED (atomic) |
 | `topic-reject <T…> --reason … [--merge-into slug --by NAME]` | coordinator | từ chối / gộp vào bài đã có |
@@ -218,12 +218,12 @@ Lệnh ghi **từ chối khi `topic-matrix.jsonl` có dòng hỏng** (không ghi
 Kết luận: V2 vận hành tốt tới vài nghìn bài. Trước ~15–20k bài cần: chia shard `topic-matrix` (active/archive), cắt tỉa postings từ phổ biến hoặc truy vấn láng giềng từ SQLite/FTS,
 và chuyển sang build tăng dần. Chi tiết và phần hạ tầng sitemap/hosting nằm ở kế hoạch migration (cần duyệt).
 
-## 12. Kiểm thử — `factory/test-topic-v2.js` (275 assert)
+## 12. Kiểm thử — `factory/test-topic-v2.js` (286 assert)
 
 | Tầng | Nội dung |
 |---|---|
 | 1. Unit | intent key & hoán vị, phủ định, risk trigger (không dương tính giả), shape, gate trên corpus tổng hợp (từng mã), precedence/`addReason` chỉ làm chặt hơn, governance (absent/hỏng/off/rollback), matrix (validate, invariant, effective lifecycle, JSONL I/O), CSV |
-| 2. Integration | micro-repo trong tmp (engine thật + corpus giả lập): backfill → audit read-only → propose (dry-run, role, file lỗi, `--review` fail-closed, idempotent) → neighbours → approve (mọi đường từ chối, atomic, `--file`, trần queue) → writer-pack (chỉ APPROVED, brief, `--shard`) → verify-batch từ chối slot chưa duyệt → queue-refill frozen → reject/merge/reopen → topic-import → **rollback** |
+| 2. Integration | micro-repo trong tmp (engine thật + corpus giả lập): backfill → audit read-only → propose (dry-run, role, file lỗi, `--review` fail-closed, idempotent) → neighbours → approve (mọi đường từ chối, atomic, `--file`, trần queue) → writer-pack (chỉ APPROVED, brief, `--shard`) → verify-batch từ chối slot chưa duyệt → queue-refill frozen → reject/merge/reopen → topic-import → **rollback**; tiêu đề công khai (audit/backfill/coverage/writer-pack dùng `module.title`, `--refresh-published`) |
 | 3. Production invariant | repo thật, READ-ONLY: `topic-check [--recheck]`, mọi PUBLISHED có dòng, không bịa nhu cầu/bằng chứng, topic rủi ro chỉ duyệt khi đã xác minh, ack đủ, hồ sơ pilot, không ký tự CJK/Cyrillic/Hangul, recall hoán vị trên corpus thật, hiệu chuẩn độ phủ |
 | 4. Long-run / failure recovery | dòng JSONL cắt cụt/hỏng ⇒ lệnh ghi từ chối, không mất dữ liệu; file `.tmp` mồ côi; cache SQLite stale/thiếu/hỏng ⇒ rebuild an toàn, kết quả không đổi; crash giữa slot↔row ⇒ nhận lại slot mồ côi; slot lậu bị bắt; flood hoán vị; 3.000 ứng viên; chỉ mục 10.000 mục |
 
@@ -236,6 +236,7 @@ Các suite cũ (`test`, `test-hardening`, `test-reliability`, `test-pair`, `test
 2. `--reviewed` là kiểm soát quy trình, không phải bằng chứng đã đọc.
 3. Chuẩn hóa bỏ dấu gây va chạm (má/mà, cảm/cấm): `fold` dùng cho intent key; tín hiệu quét thân bài dùng chữ có dấu thì tốt hơn nhưng chưa nằm trong engine (đo: không tăng recall hợp nhất).
 4. `cluster` lưu trong dòng là kết quả của `rulesVersion=1`; đổi từ vựng sau này cần `topic-backfill` lại cụm.
+   **Tiêu đề công khai = `module.title`**, không phải `slot.title` (nhãn lúc lập kế hoạch, đã lệch ở 63 bài do writer sửa tiêu đề trong module). Gate/`topic-propose` luôn dùng module; audit, backfill, coverage và gợi ý related của `writer-pack` được sửa 2026-10-12 để dùng cùng nguồn (audit đầu từng đo nhầm trên nhãn slot — xem đính chính ở báo cáo audit).
 5. Chưa có dữ liệu nhu cầu thật; ưu tiên P0 không thể dùng. Quyết định “độc lập” trong pilot là phán đoán của một người rà soát (agent), có thể đảo bằng `topic-reopen`.
 6. Chỉ mục gate nằm trong bộ nhớ; xem mục 11 cho giới hạn quy mô.
 7. Không có khóa liên tiến trình cho `topic-matrix.jsonl`: dựa vào “một coordinator” + concurrency group + hợp nhất git.

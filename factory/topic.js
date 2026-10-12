@@ -4,7 +4,7 @@
 //
 // Lệnh (qua `node factory/factory.js <lệnh>`):
 //   topic-audit      [--out f.json] [--md f.md]       READ-ONLY: đo trùng lặp thật, phân loại 300 slot
-//   topic-backfill   --role coordinator               ghi topic-matrix cho slot cũ (idempotent, không đổi matrix.json)
+//   topic-backfill   --role coordinator [--refresh-published]   ghi topic-matrix cho slot cũ (idempotent, không đổi matrix.json); --refresh-published đồng bộ dòng published legacy về tiêu đề công khai (module.title)
 //   topic-propose    --file c.jsonl [--update] [--dry-run] --role coordinator
 //   topic-coverage   [--json]                  READ-ONLY: độ phủ/đa dạng intent theo hub (hub trống, hub đông và trùng)
 //   topic-neighbours <T…> [--top N] [--json]   READ-ONLY: bài gần nhất + H2 để người duyệt đọc
@@ -102,6 +102,13 @@ function parseAllDirect(dir) {
   return out;
 }
 
+// Tiêu đề CÔNG KHAI của bài đã xuất bản là module.title (generator render H1/breadcrumb/thẻ bài từ module). slot.title chỉ là nhãn lúc lập
+// kế hoạch và đã lệch ở một số bài do writer sửa tiêu đề trong module — mọi phép đo trên bài đã xuất bản dùng tiêu đề công khai.
+function publicTitleOf(docs) {
+  const by = new Map((docs || []).map(d => [d.slug, d.title]));
+  return s => by.get(s.slug) || s.title;
+}
+
 function loadArticleDocs(deps, args) {
   const dir = deps.articlesDir || Idx.ARTICLES_DIR;
   const dbFile = deps.indexFile || Idx.DB_FILE;
@@ -179,9 +186,10 @@ function auditPlanned(ctx, direct) {
   const planned = ctx.matrix.slots.filter(s => s.state === 'PLANNED' && !/source=topic-v2/.test(s.notes || '') && !direct.some(d => d.slug === s.slug));
   const published = ctx.matrix.slots.filter(s => s.state === 'PUBLISHED');
   const bySlug = new Map(direct.map(d => [d.slug, d]));
+  const titleOf = publicTitleOf(direct);
   const corpus = G.TopicCorpus.fromDocs(published.map(s => {
     const d = bySlug.get(s.slug);
-    return { slotId: s.id, slug: s.slug, title: s.title, hub: s.hub, status: 'PUBLISHED', source: 'article',
+    return { slotId: s.id, slug: s.slug, title: titleOf(s), hub: s.hub, status: 'PUBLISHED', source: 'article',
       headline: d ? d.headline : { title: s.title, outline: [], keywords: [], text: [] } };
   }));
   return { planned, published, bySlug, audited: G.auditLegacySlots(planned, corpus, { thresholds: ctx.gov.thresholds }) };
@@ -191,6 +199,7 @@ function auditReport(deps, args) {
   const ctx = context(deps);
   const dir = deps.articlesDir || Idx.ARTICLES_DIR;
   const direct = parseAllDirect(dir);
+  const titleOf = publicTitleOf(direct);
   const { published, bySlug, audited } = auditPlanned(ctx, direct);
 
   const verdicts = {};
@@ -209,7 +218,7 @@ function auditReport(deps, args) {
   }
 
   // --- cụm intent của bài đã xuất bản ---
-  const pubArts = published.map(s => ({ slot: s, d: bySlug.get(s.slug), a: I.analyzeTopic(s.title) })).filter(x => x.d);
+  const pubArts = published.map(s => ({ slot: s, d: bySlug.get(s.slug), a: I.analyzeTopic(titleOf(s)) })).filter(x => x.d);
   const body = I.buildTfidf(pubArts.map(x => I.termFreq(I.articleFields(x.d.article))));
   const headTf = pubArts.map(x => G.headlineTf(x.d.headline));
   const headIdx = I.buildTfidf(headTf);
@@ -251,7 +260,7 @@ function auditReport(deps, args) {
   for (let i = 0; i < pubArts.length; i++) for (let j = i + 1; j < pubArts.length; j++) {
     if (pubArts[i].a.intentKey === pubArts[j].a.intentKey) continue;
     const c = I.cosine(headIdx.vectors[i], headIdx.vectors[j]);
-    if (c >= 0.4) crossHigh.push({ score: Number(c.toFixed(2)), a: pubArts[i].slot.id + ' ' + pubArts[i].slot.title, b: pubArts[j].slot.id + ' ' + pubArts[j].slot.title });
+    if (c >= 0.4) crossHigh.push({ score: Number(c.toFixed(2)), a: pubArts[i].slot.id + ' ' + titleOf(pubArts[i].slot), b: pubArts[j].slot.id + ' ' + titleOf(pubArts[j].slot) });
   }
   crossHigh.sort((a, b) => b.score - a.score);
   const bodyHigh = [];
@@ -262,14 +271,14 @@ function auditReport(deps, args) {
 
   const families = {};
   for (const s of ctx.matrix.slots) {
-    const f = titleFamily(s.title);
+    const f = titleFamily(titleOf(s));
     families[f] = families[f] || { published: 0, planned: 0 };
     families[f][s.state === 'PUBLISHED' ? 'published' : 'planned']++;
   }
-  const defects = published.map(s => ({ id: s.id, title: s.title, defects: titleDefects(s.title) })).filter(x => x.defects.length);
+  const defects = published.map(s => ({ id: s.id, title: titleOf(s), defects: titleDefects(titleOf(s)) })).filter(x => x.defects.length);
   const multi = clusters.reduce((n, c) => n + c.published, 0);
   const allKeys = new Map();
-  for (const s of ctx.matrix.slots) { const k = I.analyzeTopic(s.title).intentKey; allKeys.set(k, (allKeys.get(k) || 0) + 1); }
+  for (const s of ctx.matrix.slots) { const k = I.analyzeTopic(titleOf(s)).intentKey; allKeys.set(k, (allKeys.get(k) || 0) + 1); }
   const slotsInMulti = [...allKeys.values()].filter(n => n > 1).reduce((a, b) => a + b, 0);
 
   let seeds = 0; let hubs = 0;
@@ -408,7 +417,9 @@ function cmdBackfill(args, deps) {
   const ctx = context(deps);
   if (!args.flags.has('dry-run')) assertWritable(ctx);
   const log = deps.log || console.log;
-  const verdictBySlot = new Map(auditPlanned(ctx, parseAllDirect(deps.articlesDir || Idx.ARTICLES_DIR)).audited.map(r => [r.slot.id, r.result]));
+  const direct = parseAllDirect(deps.articlesDir || Idx.ARTICLES_DIR);
+  const titleOf = publicTitleOf(direct);
+  const verdictBySlot = new Map(auditPlanned(ctx, direct).audited.map(r => [r.slot.id, r.result]));
   const existing = new Set(ctx.rows.map(r => r.slotId).filter(Boolean));
   const rows = ctx.rows.slice();
   const now = new Date().toISOString();
@@ -416,24 +427,28 @@ function cmdBackfill(args, deps) {
   // cụm published để gắn overlap
   const byKey = new Map();
   for (const s of slots) if (s.state === 'PUBLISHED') {
-    const k = I.analyzeTopic(s.title).intentKey;
+    const k = I.analyzeTopic(titleOf(s)).intentKey;
     if (!byKey.has(k)) byKey.set(k, []);
     byKey.get(k).push(s.slug);
   }
+  const publishedOverlap = (s, a) => {
+    const mates = (byKey.get(a.intentKey) || []).filter(x => x !== s.slug);
+    return { risk: mates.length >= 5 ? 'high' : mates.length >= 2 ? 'medium' : 'low', clusterSize: mates.length + 1, basis: 'intent-cluster-size', urls: mates.slice(0, 3) };
+  };
   let added = 0;
   for (const s of slots) {
     if (existing.has(s.id)) continue;
     if (s.state !== 'PUBLISHED' && s.state !== 'PLANNED') continue; // slot đang xử lý: để nguyên, topic-check sẽ báo
-    const a = I.analyzeTopic(s.title);
+    const t = s.state === 'PUBLISHED' ? titleOf(s) : s.title; // bài đã xuất bản: tiêu đề công khai (module); slot chưa có bài: nhãn slot
+    const a = I.analyzeTopic(t);
     const row = {
       schema: M.ROW_SCHEMA, topicId: M.nextTopicId(rows), slotId: s.id, slug: s.slug, url: M.urlOf(s.hub, s.slug),
-      title: s.title, hub: s.hub, cluster: a.intentKey, source: M.legacySource(s), createdAt: s.createdAt || now, updatedAt: now,
+      title: t, hub: s.hub, cluster: a.intentKey, source: M.legacySource(s), createdAt: s.createdAt || now, updatedAt: now,
     };
     if (s.state === 'PUBLISHED') {
-      const mates = (byKey.get(a.intentKey) || []).filter(x => x !== s.slug);
       row.lifecycle = 'PUBLISHED';
       row.gate = { verdict: 'LEGACY', rulesVersion: G.GATE_RULES_VERSION };
-      row.overlap = { risk: mates.length >= 5 ? 'high' : mates.length >= 2 ? 'medium' : 'low', clusterSize: mates.length + 1, basis: 'intent-cluster-size', urls: mates.slice(0, 3) };
+      row.overlap = publishedOverlap(s, a);
     } else {
       const res = verdictBySlot.get(s.id);
       const d = M.legacyDisposition(res ? res.verdict : 'REWRITE');
@@ -448,9 +463,25 @@ function cmdBackfill(args, deps) {
     rows.push(row);
     added++;
   }
-  if (args.flags.has('dry-run')) { log('TOPIC_BACKFILL dry-run would_add=' + added + ' total=' + rows.length); return 0; }
-  if (added) M.writeRowsAtomic(rows, deps.topicMatrixFile);
-  log('TOPIC_BACKFILL added=' + added + ' total=' + rows.length + ' file=factory/state/topic-matrix.jsonl');
+  // --refresh-published: đồng bộ dòng published CŨ (nguồn legacy-*) về tiêu đề công khai + cụm intent + overlap. Chỉ sửa khi có khác biệt (idempotent).
+  let refreshed = 0;
+  if (args.flags.has('refresh-published')) {
+    const slotById = new Map(slots.map(s => [s.id, s]));
+    for (const r of rows) {
+      if (r.lifecycle !== 'PUBLISHED' || !r.slotId || !/^legacy-/.test(String(r.source))) continue;
+      const s = slotById.get(r.slotId);
+      if (!s || s.state !== 'PUBLISHED') continue;
+      const t = titleOf(s);
+      const a = I.analyzeTopic(t);
+      const overlap = publishedOverlap(s, a);
+      if (r.title !== t || r.cluster !== a.intentKey || JSON.stringify(r.overlap) !== JSON.stringify(overlap)) {
+        r.title = t; r.cluster = a.intentKey; r.overlap = overlap; r.updatedAt = now; refreshed++;
+      }
+    }
+  }
+  if (args.flags.has('dry-run')) { log('TOPIC_BACKFILL dry-run would_add=' + added + ' total=' + rows.length + ' would_refresh=' + refreshed); return 0; }
+  if (added || refreshed) M.writeRowsAtomic(rows, deps.topicMatrixFile);
+  log('TOPIC_BACKFILL added=' + added + ' total=' + rows.length + ' file=factory/state/topic-matrix.jsonl refreshed=' + refreshed);
   return 0;
 }
 
@@ -779,7 +810,8 @@ function cmdReopen(args, deps) {
 // ---------------------------------------------------------------------------
 // topic-coverage: bản đồ độ phủ theo hub — nơi nào ĐÃ đa dạng, nơi nào trùng intent, nơi nào còn trống (read-only)
 // ---------------------------------------------------------------------------
-function coverageReport(ctx) {
+function coverageReport(ctx, titleOf) {
+  const tt = titleOf || (s => s.title);
   const hubs = hubSet();
   const rows = ctx.rows;
   const per = new Map();
@@ -788,7 +820,7 @@ function coverageReport(ctx) {
   for (const s of ctx.matrix.slots) {
     if (s.state !== 'PUBLISHED') continue;
     const e = slot(s.hub);
-    const a = I.analyzeTopic(s.title);
+    const a = I.analyzeTopic(tt(s));
     e.published++; e.clusters.add(a.intentKey); if (a.templated) e.templated++;
   }
   for (const r of rows) {
@@ -814,7 +846,7 @@ function coverageReport(ctx) {
 
 function cmdCoverage(args, deps) {
   const log = deps.log || console.log;
-  const rep = coverageReport(context(deps));
+  const rep = coverageReport(context(deps), publicTitleOf(loadArticleDocs(deps, args).docs));
   if (args.flags.has('json')) { log(JSON.stringify(rep, null, 1)); return 0; }
   log('=== TOPIC COVERAGE (theo hub) ===');
   log('hub'.padEnd(34) + 'bài  intent  trùng  mẫu%  chờ  nghiên-cứu  duyệt');
@@ -1011,5 +1043,5 @@ function run(cmd, argv, deps) {
 
 module.exports = {
   COMMANDS, run, parseArgs, hubSet, parseCsv, context, loadArticleDocs, buildCorpus, auditReport, renderMarkdown,
-  rowFromCandidate, normalizeCandidate, briefFor, titleFamily, titleDefects, auditPlanned, coverageFor, coverageReport,
+  rowFromCandidate, normalizeCandidate, briefFor, titleFamily, titleDefects, auditPlanned, coverageFor, coverageReport, publicTitleOf,
 };

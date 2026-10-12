@@ -652,6 +652,58 @@ console.log('2. INTEGRATION — backfill → propose → review → approve → 
   fs.rmSync(E.root, { recursive: true, force: true });
 }
 
+// Tiêu đề CÔNG KHAI = module.title. slot.title chỉ là nhãn lúc lập kế hoạch và có thể lệch (writer sửa tiêu đề trong module): audit, backfill,
+// coverage và gợi ý related của writer-pack phải dùng tiêu đề công khai, không dùng nhãn cũ (audit đầu tiên từng đo nhầm trên nhãn slot).
+console.log('2b. TIÊU ĐỀ CÔNG KHAI — module.title thay cho nhãn slot cũ…');
+{
+  const T = microRepo('pubtitle', { gov: Object.assign({}, GOV_ENFORCE, { maxApprovedQueue: 3 }) });
+  const MOD_NHOT = 'Thay nhớt xe máy: chu kỳ và cách thực hiện';
+  const MOD_HN = 'Thuê xe máy Hà Nội: thủ tục';
+  const mx = matrixOf(T);
+  mx.slots.find(x => x.id === 'S00004').title = 'Thuê xe máy hà nội: thủ tục'; // nhãn cũ: địa danh viết thường; module (công khai) đã đúng
+  mx.slots.find(x => x.id === 'S00001').title = 'Hướng dẫn chi tiết về thay nhớt xe máy'; // nhãn cũ: khung template; module không còn khung
+  fs.writeFileSync(T.p('state/matrix.json'), JSON.stringify(mx, null, 1));
+
+  const auditFile = path.join(T.root, 'audit.json');
+  let r = cli(T, ['topic-audit', '--out', auditFile]);
+  const au = readJ(auditFile);
+  ok(r.status === 0 && au.published.titleDefects.length === 0, 'tiêu đề công khai: audit đo trên module.title — nhãn slot cũ viết thường KHÔNG bị tính là lỗi đang hiển thị', JSON.stringify(au.published.titleDefects));
+  ok(!au.titleFamilies['C: "Hướng dẫn chi tiết về X"'], 'tiêu đề công khai: audit không đếm khung template của nhãn slot cũ', JSON.stringify(au.titleFamilies));
+
+  r = cli(T, ['topic-coverage', '--json']);
+  const cov = JSON.parse(r.stdout).hubs.find(h => h.hub === 'guide/bao-duong');
+  ok(cov && cov.published === 1 && cov.templatedShare === 0, 'tiêu đề công khai: topic-coverage tính tỷ lệ template theo module.title', JSON.stringify(cov));
+
+  r = cli(T, ['topic-backfill', ...COORD]);
+  ok(r.status === 0 && rowsOf(T).find(x => x.slotId === 'S00004').title === MOD_HN && rowsOf(T).find(x => x.slotId === 'S00001').title === MOD_NHOT,
+    'tiêu đề công khai: topic-backfill ghi dòng published bằng module.title', r.out);
+
+  // dòng cũ đã ghi bằng nhãn slot: lệnh thường không tự sửa; --refresh-published sửa đúng, idempotent, không đụng matrix.json
+  M.writeRowsAtomic(rowsOf(T).map(x => (x.slotId === 'S00004' ? Object.assign({}, x, { title: 'Thuê xe máy hà nội: thủ tục' }) : x)), T.p('state/topic-matrix.jsonl'));
+  r = cli(T, ['topic-backfill', ...COORD]);
+  ok(/added=0 .*refreshed=0/.test(r.out) && rowsOf(T).find(x => x.slotId === 'S00004').title === 'Thuê xe máy hà nội: thủ tục', 'topic-backfill thường chỉ thêm dòng thiếu, không tự sửa dòng cũ', r.out);
+  r = cli(T, ['topic-backfill', '--refresh-published', '--dry-run', ...COORD]);
+  ok(/would_refresh=1/.test(r.out) && rowsOf(T).find(x => x.slotId === 'S00004').title === 'Thuê xe máy hà nội: thủ tục', '--refresh-published --dry-run chỉ báo, không ghi', r.out);
+  const mBytes = readB(T.p('state/matrix.json'));
+  r = cli(T, ['topic-backfill', '--refresh-published', ...COORD]);
+  ok(r.status === 0 && /refreshed=1/.test(r.out) && rowsOf(T).find(x => x.slotId === 'S00004').title === MOD_HN, '--refresh-published đồng bộ dòng published legacy về module.title', r.out);
+  ok(readB(T.p('state/matrix.json')).equals(mBytes), '--refresh-published KHÔNG đụng matrix.json');
+  r = cli(T, ['topic-backfill', '--refresh-published', ...COORD]);
+  ok(/refreshed=0/.test(r.out), '--refresh-published idempotent', r.out);
+
+  // gợi ý related của writer-pack hiển thị tiêu đề công khai
+  const tf = writeCands(T, 'cands.jsonl', [FIX.bugi]);
+  r = cli(T, ['topic-propose', '--file', tf, '--source', 'v2-manual', ...COORD]);
+  const tid = (parseIds(r.out).get('bugi-xe-may-bi-dong-muoi') || {}).id;
+  const need = tid ? JSON.parse(cli(T, ['topic-neighbours', tid, '--json']).stdout)[0].requiredReview : [];
+  r = cli(T, ['topic-approve', tid, '--by', 'qa-test', '--ack', 'demand-unverified,evidence-unverified', '--reviewed', need.join(','), ...COORD]);
+  ok(r.status === 0, 'tiêu đề công khai: chuẩn bị topic APPROVED để thử writer-pack', r.out.slice(0, 200));
+  const pack = JSON.parse(cli(T, ['writer-pack', '--count', '10', '--json']).stdout);
+  const relNhot = (pack.items[0] && pack.items[0].relatedPublished || []).find(x => x.slug === 'thay-nhot-xe-may');
+  ok(relNhot && relNhot.title === MOD_NHOT, 'writer-pack: gợi ý related hiển thị tiêu đề công khai (module.title), không phải nhãn slot cũ', JSON.stringify(relNhot));
+  fs.rmSync(T.root, { recursive: true, force: true });
+}
+
 // ===========================================================================
 // TẦNG 3 — PRODUCTION INVARIANT (repo thật, READ-ONLY)
 // ===========================================================================

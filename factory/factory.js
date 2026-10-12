@@ -360,6 +360,10 @@ function publishedRelatedFor(m, slot, limit, prefer) {
     seen.add(x.slug); out.push(x);
     if (out.length >= max) break;
   }
+  // Tiêu đề công khai = module.title (slot.title chỉ là nhãn lúc lập kế hoạch, có thể đã lệch): chỉ nạp module của <= max bài được chọn.
+  for (const x of out) {
+    try { const a = loadArticleBySlug(x.slug); if (a && a.title) x.title = a.title; } catch (_) { /* giữ nhãn slot */ }
+  }
   return out;
 }
 
