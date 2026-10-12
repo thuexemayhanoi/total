@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-thu-tuc-do-thi',
-  title: 'Thuê honda vision: thủ tục và giấy tờ trong điều kiện đô thị',
+  title: 'Thuê Honda Vision: thủ tục và giấy tờ trong điều kiện đô thị',
   seoTitle: 'Thuê Honda Vision trong phố: giấy tờ, gửi xe, kiểm tra',
   metaDescription: 'Thuê Honda Vision đi trong phố cần giấy tờ nào: bộ giấy tờ trong tầm tay, ứng xử khi bị dừng kiểm tra, thông báo vi phạm gửi sau và quản lý chìa khóa khi gửi xe.',
   summary: 'Bài viết tập trung vào thủ tục và giấy tờ khi dùng Honda Vision thuê để đi lại trong phố: sắp xếp giấy tờ dễ lấy, ứng xử khi bị dừng kiểm tra, xử lý thông báo vi phạm gửi sau, quản lý chìa khóa khi gửi xe và chuẩn bị cho tình huống mất xe.',

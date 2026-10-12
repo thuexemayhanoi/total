@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-chi-phi-nguoi-moi',
-  title: 'Thuê honda vision: chi phí và cách tính cho người mới',
+  title: 'Thuê Honda Vision: chi phí và cách tính cho người mới',
   seoTitle: 'Chi phí thuê Honda Vision cho người mới: cách tính rõ',
   metaDescription: 'Chi phí thuê Honda Vision cho người mới gồm những khoản nào: tiền thuê, cọc, nhiên liệu, phụ kiện, phụ phí; cách xin bảng kê và so sánh báo giá công bằng.',
   summary: 'Bài viết giúp người thuê Honda Vision lần đầu hiểu chi phí là tập hợp nhiều thành phần chứ không chỉ một con số, cách đặt câu hỏi để có bảng kê rõ ràng bằng văn bản, cách so sánh báo giá công bằng và những khoản có thể phát sinh sau khi nhận xe.',

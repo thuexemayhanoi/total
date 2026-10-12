@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-chi-phi-ngan-ngay',
-  title: 'Thuê honda vision: chi phí và cách tính khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: chi phí và cách tính khi dùng ngắn ngày',
   seoTitle: 'Chi phí thuê Honda Vision ngắn ngày: tính sao cho đúng',
   metaDescription: 'Cách tính chi phí thuê Honda Vision từ một đến ba ngày: đơn vị tính thời gian, cọc, xăng, phụ kiện, khi trả sớm hoặc gia hạn và cách so sánh báo giá cùng điều kiện.',
   summary: 'Bài viết phân tích chi phí khi thuê Honda Vision trong vài ngày: vì sao chi tiết nhỏ có sức nặng lớn, cách tính thời gian theo ngày hay theo chu kỳ, cọc, nhiên liệu, phụ kiện, so sánh báo giá cùng khung giờ và ảnh hưởng của việc trả sớm hoặc gia hạn.',

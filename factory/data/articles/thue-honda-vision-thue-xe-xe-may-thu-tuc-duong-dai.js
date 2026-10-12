@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-thu-tuc-duong-dai',
-  title: 'Thuê honda vision: thủ tục và giấy tờ khi đi đường dài',
+  title: 'Thuê Honda Vision: thủ tục và giấy tờ khi đi đường dài',
   seoTitle: 'Thuê Honda Vision đi đường dài: giấy tờ cần mang theo',
   metaDescription: 'Đi đường dài bằng Honda Vision thuê cần giấy tờ gì: xác nhận phạm vi đi liên tỉnh, bộ giấy tờ mang theo, thỏa thuận trả xe nơi khác và cam kết hỗ trợ khi xe hỏng.',
   summary: 'Bài viết hướng dẫn phần giấy tờ khi đưa Honda Vision thuê đi liên tỉnh: xin phép phạm vi sử dụng, bộ giấy tờ mang theo trên xe, thủ tục khi trả xe ở nơi khác, thỏa thuận hỗ trợ sự cố và cách lưu bản sao khi mất sóng hoặc mất giấy.',

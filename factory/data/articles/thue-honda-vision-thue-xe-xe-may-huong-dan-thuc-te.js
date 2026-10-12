@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-huong-dan-thuc-te',
-  title: 'Thuê honda vision: hướng dẫn thực tế theo tình huống thực tế',
+  title: 'Thuê Honda Vision: hướng dẫn thực tế theo tình huống thực tế',
   seoTitle: 'Thuê Honda Vision: xử lý tình huống thực tế thường gặp',
   metaDescription: 'Cách xử lý các tình huống thực tế khi thuê Honda Vision: xe không nổ máy, xẹp lốp, mưa lớn, hết xăng hoặc báo xăng sai, đổ xe nhẹ, kèm việc cần làm và nên báo ai.',
   summary: 'Bài viết đi qua năm tình huống người thuê Honda Vision hay gặp: xe không nổ máy, xẹp lốp giữa đường, gặp mưa lớn, hết xăng hoặc kim xăng báo sai và đổ xe nhẹ, kèm các bước nên làm, điều không nên làm và cách báo bên cho thuê đúng lúc.',

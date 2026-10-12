@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-thu-tuc-nguoi-moi',
-  title: 'Thuê honda vision: thủ tục và giấy tờ cho người mới',
+  title: 'Thuê Honda Vision: thủ tục và giấy tờ cho người mới',
   seoTitle: 'Thuê Honda Vision lần đầu: giấy tờ và thủ tục cần biết',
   metaDescription: 'Hướng dẫn người mới thuê Honda Vision: giấy tờ cá nhân, giấy tờ xe, biên bản bàn giao, đặt cọc và những điều cần hỏi rõ trước khi ký nhận xe tay ga.',
   summary: 'Bài viết giúp người thuê Honda Vision lần đầu hiểu cần chuẩn bị giấy tờ cá nhân nào, nên xem giấy tờ xe ra sao, đọc biên bản bàn giao và hợp đồng thế nào, cũng như cách đặt cọc và giữ giấy tờ để hạn chế tranh chấp về sau.',

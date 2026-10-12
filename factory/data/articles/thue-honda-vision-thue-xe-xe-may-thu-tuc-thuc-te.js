@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-thu-tuc-thuc-te',
-  title: 'Thuê honda vision: thủ tục và giấy tờ theo tình huống thực tế',
+  title: 'Thuê Honda Vision: thủ tục và giấy tờ theo tình huống thực tế',
   seoTitle: 'Thuê Honda Vision: xử lý giấy tờ theo tình huống thực tế',
   metaDescription: 'Cần làm gì về giấy tờ khi thuê Honda Vision gặp xe hỏng, va chạm, trả xe muộn, mất chìa khóa hay bất đồng tiền cọc: từng tình huống và bằng chứng nên giữ.',
   summary: 'Bài viết đi qua năm tình huống thường gặp khi thuê Honda Vision: xe hỏng giữa chừng, va chạm nhẹ, trả xe muộn, mất giấy tờ hoặc chìa khóa và bất đồng khi trả cọc, nêu rõ cần ghi nhận, báo cáo và lưu giấy tờ gì ở mỗi tình huống.',

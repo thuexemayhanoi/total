@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-thu-tuc-dai-ngay',
-  title: 'Thuê honda vision: thủ tục và giấy tờ khi dùng dài ngày',
+  title: 'Thuê Honda Vision: thủ tục và giấy tờ khi dùng dài ngày',
   seoTitle: 'Thuê Honda Vision dài ngày: hợp đồng, gia hạn, giấy tờ',
   metaDescription: 'Thuê Honda Vision theo tuần hoặc tháng cần lưu ý gì về giấy tờ: hợp đồng dài hạn, phụ lục gia hạn, sổ theo dõi bảo dưỡng, hiệu lực giấy tờ xe và biên nhận từng kỳ.',
   summary: 'Bài viết hướng dẫn người thuê Honda Vision theo tuần hoặc theo tháng về phần giấy tờ: nội dung hợp đồng dài hạn, cách gia hạn bằng văn bản, ghi chép bảo dưỡng và số km, kiểm tra hiệu lực giấy tờ xe và lưu biên nhận từng kỳ thanh toán.',

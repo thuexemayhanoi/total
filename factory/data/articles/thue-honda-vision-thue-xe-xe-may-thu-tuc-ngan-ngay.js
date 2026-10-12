@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-thu-tuc-ngan-ngay',
-  title: 'Thuê honda vision: thủ tục và giấy tờ khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: thủ tục và giấy tờ khi dùng ngắn ngày',
   seoTitle: 'Thuê Honda Vision 1–3 ngày: giấy tờ và thủ tục gọn',
   metaDescription: 'Thuê Honda Vision ngắn ngày cần giấy tờ gì: chốt giờ nhận trả trên phiếu thuê, chụp ảnh bàn giao, giữ biên nhận cọc và trả xe nhanh gọn, không phát sinh tranh cãi.',
   summary: 'Bài viết dành cho người thuê Honda Vision từ một đến ba ngày, tập trung vào thủ tục gọn nhưng đủ: chốt thời điểm nhận và trả trên giấy, chụp ảnh lúc bàn giao, mang giấy tờ nào theo người và cách xử lý biên nhận đặt cọc.',
