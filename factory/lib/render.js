@@ -1,7 +1,9 @@
 // AI WIKI TOTAL — trình kết xuất trang (Editorial Magazine v3):
 // chủ / danh mục cha / hub con / bài viết / giới thiệu / tìm kiếm / 404
 'use strict';
-const { SITE, HOME_CATEGORY_ORDER } = require('../site.config');
+const { SITE, HOME_CATEGORY_ORDER, EDITORIAL } = require('../site.config');
+const { chooseRelated } = require('./related');
+const { renderSlot } = require('./slots');
 const { CATEGORIES } = require('../data/categories');
 const S = require('./shell');
 const K = require('./schema');
@@ -40,7 +42,7 @@ function postCard(a) {
   <span class="post-title">${S.esc(a.title)}</span>
   <span class="post-dek">${S.esc(a.summary.slice(0, 160))}…</span>
   <span class="post-meta">${formatDate(a.date)} · ${readMin(a.wordCount)} phút đọc</span>
-  <span class="post-cta">Đọc tiếp <span aria-hidden="true">→</span></span>
+  <span class="post-cta">${S.esc(EDITORIAL.readMore)} <span aria-hidden="true">→</span></span>
 </a>`;
 }
 
@@ -58,7 +60,7 @@ function featuredCard(a, opts) {
     <h2 class="feat-title">${S.esc(a.title)}</h2>
     <p class="feat-dek">${S.esc(a.summary.slice(0, 260))}…</p>
     <p class="feat-meta">${formatDate(a.date)}${a.updated && a.updated !== a.date ? ' · cập nhật ' + formatDate(a.updated) : ''} · ${readMin(a.wordCount)} phút đọc</p>
-    <span class="feat-cta">Đọc bài <span aria-hidden="true">→</span></span>
+    <span class="feat-cta">${S.esc(EDITORIAL.readFeatured)} <span aria-hidden="true">→</span></span>
   </div>
 </a>
 </section>`;
@@ -237,10 +239,8 @@ function renderArticle(cat, hub, a, articles, bySlug) {
   if (a.warnings && a.warnings.length) blocks.push(`<section class="aside-block aside-warn" aria-labelledby="wr-h"><h2 id="wr-h">Cảnh báo</h2><ul>${a.warnings.map(w => `<li>${S.safe(w)}</li>`).join('')}</ul></section>`);
   if (a.notes && a.notes.length) blocks.push(`<section class="aside-block aside-note" aria-labelledby="nt-h"><h2 id="nt-h">Lưu ý</h2><ul>${a.notes.map(n => `<li>${S.safe(n)}</li>`).join('')}</ul></section>`);
   const refs = (a.references || []).map(r => `<li>${S.esc(r)}</li>`).join('');
-  const rel = (a.related || []).filter(s => bySlug[s]).map(s => {
-    const r = bySlug[s];
-    return postCard(r);
-  }).join('');
+  // Ưu tiên liên kết biên tập, tự bù từ bài PUBLISHED cùng hub/danh mục.
+  const rel = chooseRelated(a, articles, bySlug, EDITORIAL.related).map(postCard).join('');
   // Điều hướng bài trước/bài sau: theo thứ tự ngày xuất bản toàn site
   const ordered = articles.slice().sort(byOrder);
   const pos = ordered.findIndex(x => x.slug === a.slug);
@@ -294,6 +294,7 @@ ${S.breadcrumbHtml(trail)}
         <h2 id="kp-h" class="h-small">Điểm chính</h2>
         <ul>${keyPoints}</ul>
       </section>
+      ${renderSlot('article.after-key-points', { article: a })}
       <div class="prose">
         ${secs}
         ${blocks.join('\n')}
@@ -301,7 +302,8 @@ ${S.breadcrumbHtml(trail)}
       </div>
     </div>
   </div>
-  ${rel ? `<section class="latest article-related" aria-labelledby="rel-h"><h2 id="rel-h" class="section-h">Bài liên quan</h2><div class="latest-grid">${rel}</div></section>` : ''}
+  ${renderSlot('article.after-prose', { article: a })}
+  ${rel ? `<section class="latest article-related" aria-labelledby="rel-h"><h2 id="rel-h" class="section-h">${S.esc(EDITORIAL.relatedHeading)}</h2><div class="latest-grid">${rel}</div></section>` : ''}
   ${(prevA || nextA) ? `<nav class="art-pn" aria-label="Bài trước và bài sau">
     ${pnCard(prevA, 'pn-prev', 'Bài trước')}
     ${pnCard(nextA, 'pn-next', 'Bài sau')}

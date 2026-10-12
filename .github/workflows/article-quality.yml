@@ -44,6 +44,7 @@ jobs:
         run: |
           set -euo pipefail
           node factory/test.js
+          node factory/test-shared-site.js
           node factory/test-hardening.js
           node factory/test-reliability.js
           node factory/test-pair.js

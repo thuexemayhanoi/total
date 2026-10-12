@@ -1,6 +1,7 @@
 // AI WIKI TOTAL — vỏ trang dùng chung: header, footer, nav, mega menu, breadcrumb, page()
 'use strict';
 const { SITE, PRIMARY_NAV, HOME_CATEGORY_ORDER } = require('../site.config');
+const { renderSlot } = require('./slots');
 const { CATEGORIES } = require('../data/categories');
 
 // Màu nhấn theo danh mục (spec mục 32)
@@ -252,6 +253,7 @@ ${headerHtml(o.activeCat)}
 <main id="noidung" class="site-main">
 ${o.content}
 </main>
+${renderSlot('site.before-footer', { page: o })}
 ${footerHtml()}
 ${searchModal()}
 ${chatbotMarkup()}

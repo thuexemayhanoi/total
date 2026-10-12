@@ -36,4 +36,27 @@ const PRIMARY_NAV = [
   { label: 'Liên hệ', href: 'lien-he/', cat: null },
 ];
 
-module.exports = { SITE, HOME_CATEGORY_ORDER, PRIMARY_NAV };
+// Cấu hình trình bày dùng chung. Giữ nguyên nhãn để không đổi UI hiện tại.
+const EDITORIAL = Object.freeze({
+  readMore: 'Đọc tiếp', readFeatured: 'Đọc bài', relatedHeading: 'Bài liên quan',
+  related: Object.freeze({ autoFill: true, minItems: 3, maxItems: 5 }),
+});
+// Slot là điểm mở rộng khi cần; tắt mặc định để giữ bố cục live.
+const CONTENT_SLOTS = Object.freeze({
+  'article.after-key-points': Object.freeze({
+    enabled: false, type: 'editorial-link', title: 'Khám phá thêm',
+    text: 'Tra cứu thêm các chủ đề cùng lĩnh vực.',
+    label: 'Tìm kiếm kiến thức', href: 'tim-kiem/',
+  }),
+  'article.after-prose': Object.freeze({
+    enabled: false, type: 'editorial-link', title: 'Đọc thêm trên AI WIKI TOTAL',
+    text: 'Tìm nội dung đã được xuất bản trong thư viện kiến thức.',
+    label: 'Khám phá chủ đề', href: 'tim-kiem/',
+  }),
+  'site.before-footer': Object.freeze({
+    enabled: false, type: 'editorial-link', title: 'Tiếp tục khám phá',
+    text: 'Tìm bài viết và chủ đề phù hợp với nhu cầu của bạn.',
+    label: 'Tìm kiếm', href: 'tim-kiem/',
+  }),
+});
+module.exports = { SITE, HOME_CATEGORY_ORDER, PRIMARY_NAV, EDITORIAL, CONTENT_SLOTS };
