@@ -1700,6 +1700,10 @@
   "kind": "article"
  },
  {
+  "rel": "review/review-phu-tung/camera-hanh-trinh-xe-may-chon-cach-gan-nguon-dien-va-chong-nuoc/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/loi-thuong-gap/can-dap-no-xe-may-bi-cung-truot-hoac-khong-hoi/index.html",
   "kind": "article"
  },
@@ -1757,6 +1761,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/chay-xe-duong-truong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/che-do-lai-xe-may-dien-tiet-kiem-tieu-chuan-the-thao/index.html",
   "kind": "article"
  },
  {
@@ -2768,6 +2776,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/pin-xe-may-dien-nong-phong-hoac-co-mui-la-viec-can-lam-ngay/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/piston-xy-lanh/index.html",
   "kind": "article"
  },
@@ -2909,6 +2921,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/tay-ga-dien-tu-ride-by-wire-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/tay-ga-xe-may-dien-va-cam-bien-hall-lam-viec-ra-sao/index.html",
   "kind": "article"
  },
  {
@@ -4048,7 +4064,15 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-dien-bi-giat-hoac-yeu-di-khi-van-ga/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/xe-may-dien-di-mua-co-sao-khong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-dien-het-pin-giua-duong-dat-xe-an-toan/index.html",
   "kind": "article"
  },
  {
@@ -4057,6 +4081,10 @@
  },
  {
   "rel": "garage/dien-ac-quy/xe-may-hao-binh-qua-dem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dong-co/xe-may-hao-nhot-du-khong-thay-ro-ri/index.html",
   "kind": "article"
  },
  {

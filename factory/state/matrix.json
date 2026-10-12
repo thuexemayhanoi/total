@@ -17823,11 +17823,13 @@
    "title": "Xe máy điện bị giật cục hoặc yếu đi khi vặn ga: tay ga, giắc nối, nhiệt độ, pin và bộ điều khiển",
    "primaryIntent": "troubleshooting/xe-may-dien-bi-giat-hoac-yeu-di-khi-van-ga",
    "notes": "source=topic-v2 topicId=T001304",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:29:36.476Z",
-   "updatedAt": "2026-10-12T19:29:36.476Z"
+   "updatedAt": "2026-10-12T19:38:47.490Z",
+   "seoScore": 100,
+   "words": 2952
   },
   {
    "id": "S01233",
@@ -17836,11 +17838,13 @@
    "title": "Tay ga xe máy điện và cảm biến Hall: vặn ga thành tín hiệu ra sao và dấu hiệu tay ga hỏng",
    "primaryIntent": "informational/tay-ga-xe-may-dien-va-cam-bien-hall-lam-viec-ra-sao",
    "notes": "source=topic-v2 topicId=T001305",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:29:36.500Z",
-   "updatedAt": "2026-10-12T19:29:36.500Z"
+   "updatedAt": "2026-10-12T19:38:47.490Z",
+   "seoScore": 100,
+   "words": 3103
   },
   {
    "id": "S01234",
@@ -17849,11 +17853,13 @@
    "title": "Chế độ lái trên xe máy điện: tiết kiệm, tiêu chuẩn và thể thao khác nhau ở đâu và nên dùng khi nào",
    "primaryIntent": "informational/che-do-lai-xe-may-dien-tiet-kiem-tieu-chuan-the-thao",
    "notes": "source=topic-v2 topicId=T001306",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:29:36.518Z",
-   "updatedAt": "2026-10-12T19:29:36.518Z"
+   "updatedAt": "2026-10-12T19:38:47.490Z",
+   "seoScore": 100,
+   "words": 3086
   },
   {
    "id": "S01235",
@@ -17862,11 +17868,13 @@
    "title": "Pin xe máy điện nóng bất thường, phồng hoặc có mùi lạ: dấu hiệu nguy hiểm và việc cần làm ngay",
    "primaryIntent": "troubleshooting/pin-xe-may-dien-nong-phong-hoac-co-mui-la-viec-can-lam-ngay",
    "notes": "source=topic-v2 topicId=T001307",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:29:36.537Z",
-   "updatedAt": "2026-10-12T19:29:36.537Z"
+   "updatedAt": "2026-10-12T19:38:47.490Z",
+   "seoScore": 100,
+   "words": 3104
   },
   {
    "id": "S01236",
@@ -17875,11 +17883,13 @@
    "title": "Xe máy điện hết pin giữa đường: dừng xe an toàn, dắt hoặc nhờ kéo xe và những điều cần tránh",
    "primaryIntent": "troubleshooting/xe-may-dien-het-pin-giua-duong-dat-xe-an-toan",
    "notes": "source=topic-v2 topicId=T001308",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:29:36.554Z",
-   "updatedAt": "2026-10-12T19:29:36.554Z"
+   "updatedAt": "2026-10-12T19:38:47.490Z",
+   "seoScore": 91,
+   "words": 2779
   },
   {
    "id": "S01237",
@@ -17888,11 +17898,13 @@
    "title": "Xe máy hao nhớt dù không thấy rò: nhớt bị đốt, bay hơi hay thấm ở chỗ khó thấy và cách theo dõi",
    "primaryIntent": "troubleshooting/xe-may-hao-nhot-du-khong-thay-ro-ri",
    "notes": "source=topic-v2 topicId=T001310",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:32:39.257Z",
-   "updatedAt": "2026-10-12T19:32:39.257Z"
+   "updatedAt": "2026-10-12T19:38:47.490Z",
+   "seoScore": 100,
+   "words": 3123
   },
   {
    "id": "S01238",
@@ -17901,11 +17913,13 @@
    "title": "Camera hành trình xe máy: cân nhắc gì trước khi gắn, vị trí đặt, nguồn điện và chống nước bền lâu",
    "primaryIntent": "informational/camera-hanh-trinh-xe-may-chon-cach-gan-nguon-dien-va-chong-nuoc",
    "notes": "source=topic-v2 topicId=T001312",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:32:39.293Z",
-   "updatedAt": "2026-10-12T19:32:39.293Z"
+   "updatedAt": "2026-10-12T19:38:47.490Z",
+   "seoScore": 100,
+   "words": 3007
   },
   {
    "id": "S01239",
