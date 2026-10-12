@@ -14642,6 +14642,66 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-chi-phi-ngan-ngay/",
+  "title": "Giấy tờ thuê xe: chi phí và cách tính khi dùng ngắn ngày",
+  "description": "Thuê xe máy một đến ba ngày: các thành phần chi phí, cách tính theo ngày hay theo giờ, phụ phí trả muộn, hoàn trả đặt cọc và cách cộng tổng khi so sánh báo giá.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "chi phí thuê xe ngắn ngày",
+   "giấy tờ thuê xe",
+   "phụ phí trả muộn",
+   "xe máy"
+  ],
+  "keywords": [
+   "chi phí thuê xe máy ngắn ngày",
+   "cách tính thuê xe theo ngày",
+   "phụ phí trả muộn",
+   "hoàn trả đặt cọc thuê xe"
+  ],
+  "seoTitle": "Chi phí thuê xe máy ngắn ngày và cách tính",
+  "primaryKeyword": "chi phí thuê xe máy ngắn ngày",
+  "headings": [
+   "Chi phí thuê ngắn ngày gồm những thành phần nào",
+   "Tính theo ngày, theo ca hay theo giờ: hỏi đúng đơn vị",
+   "Phụ phí trả muộn, trả sớm và nhiên liệu",
+   "Đặt cọc, giữ giấy tờ và hoàn trả khi trả xe",
+   "Tự cộng tổng để so sánh báo giá cho chuyến ngắn"
+  ],
+  "summary": "Bài giải thích cách hình dung và tính chi phí khi thuê xe máy trong một đến ba ngày: các thành phần của một báo giá, hỏi đúng đơn vị tính theo ngày hay theo giờ, phụ phí trả muộn và nhiên liệu, hoàn trả đặt cọc và cách tự cộng tổng để so sánh công bằng."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-chi-phi-nguoi-moi/",
+  "title": "Giấy tờ thuê xe: chi phí và cách tính cho người mới",
+  "description": "Người mới thuê xe máy cần hiểu các loại khoản liên quan đến giấy tờ: giữ giấy tờ hay đặt cọc, khoản có thể phát sinh, cách xin bảng kê và so sánh báo giá công bằng.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "chi phí thuê xe",
+   "giấy tờ thuê xe",
+   "đặt cọc",
+   "xe máy"
+  ],
+  "keywords": [
+   "chi phí thuê xe máy",
+   "đặt cọc hay giữ giấy tờ",
+   "bảng kê chi phí thuê xe",
+   "so sánh báo giá thuê xe"
+  ],
+  "seoTitle": "Chi phí liên quan giấy tờ khi thuê xe máy lần đầu",
+  "primaryKeyword": "chi phí thuê xe máy",
+  "headings": [
+   "Người mới thường nhầm lẫn khoản chi nào",
+   "Đặt cọc và giữ giấy tờ gốc: hai cách bảo đảm khác nhau",
+   "Những khoản có thể phát sinh liên quan đến giấy tờ",
+   "Cách yêu cầu bảng kê chi phí bằng văn bản",
+   "So sánh báo giá giữa nhiều nơi một cách công bằng"
+  ],
+  "summary": "Bài giúp người thuê xe máy lần đầu hiểu các loại khoản chi liên quan đến thủ tục và giấy tờ: khác biệt giữa giữ giấy tờ gốc và đặt cọc, những khoản có thể phát sinh, cách yêu cầu bảng kê bằng văn bản và cách so sánh báo giá giữa nhiều nơi một cách công bằng."
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-huong-dan-dai-ngay/",
   "title": "Giấy tờ thuê xe: hướng dẫn thực tế khi dùng dài ngày",
   "description": "Giấy tờ khi thuê xe máy theo tuần hoặc tháng: hợp đồng dài hạn, phụ lục gia hạn, theo dõi hạn giấy tờ, hồ sơ bảo dưỡng và cách lưu trữ gọn để đóng hồ sơ cuối kỳ.",
@@ -14669,6 +14729,36 @@
    "Lưu trữ, bảo mật và đóng hồ sơ cuối kỳ"
   ],
   "summary": "Bài viết hướng dẫn thực tế về giấy tờ khi thuê xe máy theo tuần hoặc theo tháng: vì sao hồ sơ dài hạn nhiều mốc hơn, các mục nên đọc kỹ trong hợp đồng, theo dõi hạn giấy tờ, phụ lục gia hạn, hồ sơ bảo dưỡng và cách lưu trữ để đóng hồ sơ cuối kỳ."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-huong-dan-do-thi/",
+  "title": "Giấy tờ thuê xe: hướng dẫn thực tế trong điều kiện đô thị",
+  "description": "Hướng dẫn thực tế về giấy tờ khi thuê xe máy đi trong thành phố: nên mang gì, cất ở đâu, xử lý khi bị dừng kiểm tra, gửi xe và lưu bản chụp an toàn.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "xe máy",
+   "giấy phép lái xe",
+   "phiếu giao xe"
+  ],
+  "keywords": [
+   "giấy tờ thuê xe",
+   "thuê xe máy đi phố",
+   "giấy tờ khi thuê xe máy",
+   "hướng dẫn thuê xe đô thị"
+  ],
+  "seoTitle": "Giấy tờ thuê xe máy đi phố: hướng dẫn thực tế",
+  "primaryKeyword": "giấy tờ thuê xe",
+  "headings": [
+   "Bộ giấy tờ nên có trong túi khi chạy trong phố",
+   "Cất giấy tờ ở đâu để lấy nhanh mà vẫn an toàn",
+   "Khi bị dừng kiểm tra giữa dòng xe",
+   "Gửi xe, vào tòa nhà và những lúc phải đưa giấy tờ",
+   "Bản chụp và bản lưu số cho lúc thất lạc"
+  ],
+  "summary": "Bài hướng dẫn thực tế dành cho người thuê xe máy chạy chủ yếu trong thành phố: nhóm giấy tờ cần có bên mình, cách cất giữ để lấy ra nhanh, cách ứng xử khi bị dừng kiểm tra, khi gửi xe hoặc vào tòa nhà, và cách lưu bản chụp để phòng thất lạc."
  },
  {
   "kind": "article",
@@ -14762,6 +14852,36 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-huong-dan-thuc-te/",
+  "title": "Giấy tờ thuê xe: hướng dẫn thực tế theo tình huống thực tế",
+  "description": "Cách dùng và xử lý giấy tờ khi thuê xe máy trong các tình huống hay gặp: xe chết máy, va quệt nhẹ, giấy tờ bị ướt, đổi người lái hoặc quên giấy tờ.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "xe máy",
+   "phiếu giao xe",
+   "tình huống thực tế"
+  ],
+  "keywords": [
+   "giấy tờ thuê xe",
+   "xử lý tình huống thuê xe máy",
+   "xe chết máy giấy tờ",
+   "đổi người lái xe thuê"
+  ],
+  "seoTitle": "Giấy tờ thuê xe máy: xử lý theo từng tình huống",
+  "primaryKeyword": "giấy tờ thuê xe",
+  "headings": [
+   "Xe chết máy giữa đường: thứ cần có trong tay",
+   "Va quệt nhẹ: giấy tờ và thông tin cần thu thập",
+   "Trời mưa, giấy tờ ướt hoặc rách",
+   "Đổi người lái hoặc cho bạn đi cùng lái thử",
+   "Gia hạn, đổi xe hoặc trả sớm: ghi lại bằng văn bản"
+  ],
+  "summary": "Hướng dẫn thực tế theo tình huống cho người thuê xe máy: cần làm gì với giấy tờ khi xe chết máy giữa đường, va quệt nhẹ, giấy tờ bị ướt hoặc thất lạc, khi muốn đổi người lái, và khi cần xin gia hạn thêm thời gian sử dụng xe."
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-do-thi/",
   "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh trong điều kiện đô thị",
   "description": "Rủi ro giấy tờ khi thuê xe máy đi trong thành phố: bị giữ giấy tờ gốc, thất lạc khi gửi xe, bị kiểm tra giữa đường và cách phòng tránh từng tình huống.",
@@ -14819,6 +14939,186 @@
    "Khi trả xe muộn hoặc bất đồng về giấy tờ còn giữ lại"
   ],
   "summary": "Bài đi theo từng tình huống thực tế về giấy tờ khi thuê xe máy: giấy tờ cá nhân thất lạc giữa chuyến, giấy tờ xe không khớp với xe nhận, va chạm hay hỏng xe cần dùng giấy tờ và trả xe muộn khi giấy tờ còn ở bên cho thuê, cùng cách phản ứng bình tĩnh và có bằng"
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-dai-ngay/",
+  "title": "Giấy tờ thuê xe: thủ tục và giấy tờ khi dùng dài ngày",
+  "description": "Thuê xe máy theo tuần hoặc theo tháng cần hồ sơ ra sao: hợp đồng, phụ lục, giấy tờ hết hạn giữa kỳ, sổ ghi bảo dưỡng và cách khép hồ sơ khi trả xe.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thuê xe dài ngày",
+   "giấy tờ thuê xe",
+   "hợp đồng thuê xe",
+   "xe máy"
+  ],
+  "keywords": [
+   "thủ tục thuê xe máy dài ngày",
+   "giấy tờ thuê xe theo tháng",
+   "phụ lục hợp đồng thuê xe",
+   "hồ sơ bảo dưỡng xe thuê"
+  ],
+  "seoTitle": "Thủ tục và giấy tờ khi thuê xe máy dài ngày",
+  "primaryKeyword": "thủ tục thuê xe máy dài ngày",
+  "headings": [
+   "Vì sao thuê dài ngày cần bộ hồ sơ chặt chẽ hơn",
+   "Hợp đồng, phụ lục và các giấy tờ đi kèm",
+   "Theo dõi hạn của các giấy tờ trong suốt kỳ thuê",
+   "Ghi chép bảo dưỡng và kiểm tra định kỳ",
+   "Gia hạn, đổi xe và khép hồ sơ cuối kỳ"
+  ],
+  "summary": "Bài dành cho người thuê xe máy theo tuần hoặc theo tháng: vì sao cần bộ hồ sơ đầy đủ hơn, cách đọc hợp đồng và phụ lục, theo dõi hạn của các giấy tờ, ghi chép bảo dưỡng định kỳ và cách xử lý hồ sơ khi gia hạn, đổi xe hoặc trả xe cuối kỳ."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-do-thi/",
+  "title": "Giấy tờ thuê xe: thủ tục và giấy tờ trong điều kiện đô thị",
+  "description": "Làm thủ tục thuê xe máy ở thành phố đông đúc: đặt trước trực tuyến, gửi giấy tờ an toàn, bảo vệ thông tin cá nhân khi đông khách và lưu biên nhận cẩn thận.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thủ tục thuê xe",
+   "giấy tờ thuê xe",
+   "xe máy",
+   "đô thị"
+  ],
+  "keywords": [
+   "thủ tục thuê xe máy trong thành phố",
+   "gửi giấy tờ thuê xe qua mạng",
+   "bảo mật giấy tờ cá nhân",
+   "biên nhận thuê xe"
+  ],
+  "seoTitle": "Thủ tục và giấy tờ thuê xe máy trong đô thị",
+  "primaryKeyword": "thủ tục thuê xe máy trong thành phố",
+  "headings": [
+   "Thủ tục thuê xe ở đô thị có gì khác",
+   "Đặt trước trực tuyến và gửi giấy tờ an toàn",
+   "Giữ riêng tư khi làm thủ tục ở nơi đông người",
+   "Giao nhận xe ở chỗ chật hẹp vẫn phải đủ bước",
+   "Biên nhận, hóa đơn và lưu trữ để đối chiếu"
+  ],
+  "summary": "Bài nói về quy trình thủ tục khi thuê xe máy ở môi trường đô thị đông đúc: đặt trước và gửi giấy tờ qua mạng an toàn, giữ riêng tư khi làm thủ tục nơi đông người, giao nhận xe ở chỗ chật hẹp, và cách lưu biên nhận, hóa đơn để đối chiếu về sau."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-duong-dai/",
+  "title": "Giấy tờ thuê xe: thủ tục và giấy tờ khi đi đường dài",
+  "description": "Đi xe máy thuê liên tỉnh cần chuẩn bị giấy tờ gì, mang bản sao ra sao, giữ giấy tờ nào khi xe hỏng xa nơi nhận và cách xử lý khi trả xe ở nơi khác.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thuê xe đường dài",
+   "giấy tờ thuê xe",
+   "xe máy",
+   "hành trình liên tỉnh"
+  ],
+  "keywords": [
+   "giấy tờ thuê xe đi đường dài",
+   "thuê xe máy đi liên tỉnh",
+   "trả xe ở nơi khác",
+   "xe hỏng xa nơi nhận"
+  ],
+  "seoTitle": "Thủ tục và giấy tờ khi thuê xe máy đi đường dài",
+  "primaryKeyword": "giấy tờ thuê xe đi đường dài",
+  "headings": [
+   "Chuyến liên tỉnh thay đổi bài toán giấy tờ thế nào",
+   "Bộ giấy tờ và bản sao nên mang theo trên đường",
+   "Khi xe hỏng xa nơi nhận: giấy tờ để nhờ hỗ trợ",
+   "Trả xe ở nơi khác hoặc trả muộn vì hành trình",
+   "Giấy tờ phụ dọc đường: lưu trú, bảo hiểm và lịch trình"
+  ],
+  "summary": "Bài dành cho người thuê xe máy đi liên tỉnh hoặc hành trình dài: bộ giấy tờ nên mang, cách chia bản gốc và bản sao, giấy tờ cần có khi xe hỏng xa nơi nhận, thủ tục khi muốn trả xe ở nơi khác hoặc trả muộn, và các giấy tờ phụ dọc đường."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-ngan-ngay/",
+  "title": "Giấy tờ thuê xe: thủ tục và giấy tờ khi dùng ngắn ngày",
+  "description": "Thuê xe máy một đến ba ngày cần giấy tờ gì, làm thủ tục nhanh nhưng vẫn đủ bước ra sao, cách ghi giờ nhận trả và lấy lại giấy tờ đúng hẹn khi kết thúc.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thuê xe ngắn ngày",
+   "giấy tờ thuê xe",
+   "phiếu giao xe",
+   "xe máy"
+  ],
+  "keywords": [
+   "thủ tục thuê xe máy ngắn ngày",
+   "giấy tờ thuê xe một ngày",
+   "thuê xe máy vài ngày",
+   "phiếu giao xe"
+  ],
+  "seoTitle": "Thủ tục và giấy tờ khi thuê xe máy ngắn ngày",
+  "primaryKeyword": "thủ tục thuê xe máy ngắn ngày",
+  "headings": [
+   "Thuê vài ngày: thủ tục gọn nhưng không được bỏ bước",
+   "Chuẩn bị giấy tờ trước khi đến nhận xe",
+   "Phiếu giao xe và ảnh chụp: bằng chứng cho vài ngày ngắn ngủi",
+   "Giờ nhận, giờ trả và giấy tờ trong thời gian ngắn",
+   "Trả xe và lấy lại giấy tờ đúng hẹn"
+  ],
+  "summary": "Bài dành cho người thuê xe máy trong một đến ba ngày: cách làm thủ tục gọn mà không bỏ bước quan trọng, giấy tờ nên chuẩn bị trước, cách ghi nhận giờ nhận và giờ trả trên phiếu giao xe, và cách lấy lại giấy tờ đúng hẹn khi trả xe."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-nguoi-moi/",
+  "title": "Giấy tờ thuê xe: thủ tục và giấy tờ cho người mới",
+  "description": "Người mới thuê xe máy lần đầu cần chuẩn bị những giấy tờ nào, thủ tục nhận xe diễn ra ra sao và nên hỏi gì để tránh hiểu lầm về giấy tờ ngay từ đầu.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "giấy tờ thuê xe",
+   "người thuê lần đầu",
+   "giấy phép lái xe",
+   "phiếu giao xe"
+  ],
+  "keywords": [
+   "thủ tục thuê xe máy",
+   "giấy tờ thuê xe cho người mới",
+   "thuê xe máy lần đầu",
+   "phiếu giao xe"
+  ],
+  "seoTitle": "Thủ tục và giấy tờ thuê xe máy cho người mới",
+  "primaryKeyword": "thủ tục thuê xe máy",
+  "headings": [
+   "Người mới thường bối rối vì điều gì",
+   "Các nhóm giấy tờ thường được hỏi khi nhận xe",
+   "Thủ tục nhận xe diễn ra theo trình tự nào",
+   "Đọc phiếu giao xe và hỏi về việc giữ giấy tờ gốc",
+   "Dấu hiệu thủ tục chưa rõ ràng và cách ứng xử"
+  ],
+  "summary": "Bài dành cho người thuê xe máy lần đầu: giải thích các nhóm giấy tờ thường được hỏi, thủ tục nhận xe diễn ra theo trình tự nào, cách đọc phiếu giao xe, những câu cần hỏi về việc giữ giấy tờ và dấu hiệu cho thấy thủ tục chưa rõ ràng."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-thuc-te/",
+  "title": "Giấy tờ thuê xe: thủ tục và giấy tờ theo tình huống thực tế",
+  "description": "Mỗi tình huống khi thuê xe máy cần thủ tục và giấy tờ riêng: đổi hoặc hủy lịch, xe có lỗi trước khi nhận, mất chìa khóa, tranh chấp hư hỏng, thuê thay người.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "thủ tục thuê xe",
+   "giấy tờ thuê xe",
+   "biên bản bàn giao",
+   "xe máy"
+  ],
+  "keywords": [
+   "thủ tục thuê xe máy theo tình huống",
+   "đổi lịch thuê xe",
+   "mất chìa khóa xe thuê",
+   "ủy quyền thuê xe"
+  ],
+  "seoTitle": "Thủ tục giấy tờ thuê xe máy theo tình huống",
+  "primaryKeyword": "thủ tục thuê xe máy theo tình huống",
+  "headings": [
+   "Đổi hoặc hủy lịch trước giờ nhận xe",
+   "Xe có lỗi hoặc dấu hiệu bất thường ngay khi nhận",
+   "Mất chìa khóa hoặc mất xe: những giấy tờ cần chuẩn bị",
+   "Tranh chấp hư hỏng khi trả xe: hồ sơ chứng minh",
+   "Thuê thay cho người khác: ủy quyền và giấy tờ"
+  ],
+  "summary": "Bài sắp xếp thủ tục và giấy tờ theo từng tình huống thường gặp khi thuê xe máy: đổi hoặc hủy lịch trước giờ nhận, xe có lỗi ngay từ đầu, mất chìa khóa hay mất xe, tranh chấp hư hỏng lúc trả xe và trường hợp thuê thay cho người khác."
  },
  {
   "kind": "article",

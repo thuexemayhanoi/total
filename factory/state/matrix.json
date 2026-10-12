@@ -11163,11 +11163,13 @@
    "title": "Giấy tờ thuê xe: hướng dẫn thực tế trong điều kiện đô thị",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-huong-dan-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 91,
+   "words": 1610
   },
   {
    "id": "S00749",
@@ -11176,11 +11178,13 @@
    "title": "Giấy tờ thuê xe: hướng dẫn thực tế theo tình huống thực tế",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-huong-dan-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 100,
+   "words": 1519
   },
   {
    "id": "S00750",
@@ -11189,11 +11193,13 @@
    "title": "Giấy tờ thuê xe: thủ tục và giấy tờ cho người mới",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.102Z",
+   "seoScore": 100,
+   "words": 1529
   },
   {
    "id": "S00751",
@@ -11202,11 +11208,13 @@
    "title": "Giấy tờ thuê xe: thủ tục và giấy tờ khi dùng ngắn ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 100,
+   "words": 1522
   },
   {
    "id": "S00752",
@@ -11215,11 +11223,13 @@
    "title": "Giấy tờ thuê xe: thủ tục và giấy tờ khi dùng dài ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 100,
+   "words": 1589
   },
   {
    "id": "S00753",
@@ -11228,11 +11238,13 @@
    "title": "Giấy tờ thuê xe: thủ tục và giấy tờ khi đi đường dài",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 100,
+   "words": 1629
   },
   {
    "id": "S00754",
@@ -11241,11 +11253,13 @@
    "title": "Giấy tờ thuê xe: thủ tục và giấy tờ trong điều kiện đô thị",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 100,
+   "words": 1578
   },
   {
    "id": "S00755",
@@ -11254,11 +11268,13 @@
    "title": "Giấy tờ thuê xe: thủ tục và giấy tờ theo tình huống thực tế",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-thu-tuc-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.102Z",
+   "seoScore": 100,
+   "words": 1594
   },
   {
    "id": "S00756",
@@ -11267,11 +11283,13 @@
    "title": "Giấy tờ thuê xe: chi phí và cách tính cho người mới",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-chi-phi-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 100,
+   "words": 1599
   },
   {
    "id": "S00757",
@@ -11280,11 +11298,13 @@
    "title": "Giấy tờ thuê xe: chi phí và cách tính khi dùng ngắn ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-chi-phi-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:41:50.101Z",
+   "seoScore": 100,
+   "words": 1587
   },
   {
    "id": "S00758",
