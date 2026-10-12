@@ -1632,6 +1632,10 @@
   "kind": "article"
  },
  {
+  "rel": "market/gia-xe-cu/cach-dinh-gia-xe-may-cu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "review/review-xe/cach-doc-review-xe-may/index.html",
   "kind": "article"
  },
@@ -1689,6 +1693,14 @@
  },
  {
   "rel": "docs/checklist/checklist-nhan-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "market/chi-phi-su-dung/chi-phi-phat-sinh-sau-khi-mua-xe-cu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "market/chi-phi-su-dung/chi-phi-so-huu-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -1841,6 +1853,10 @@
  },
  {
   "rel": "news/thi-truong-xe/doanh-so-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/bao-duong-dinh-ky/doc-hoa-don-bao-duong-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -2324,6 +2340,10 @@
   "kind": "article"
  },
  {
+  "rel": "market/gia-phu-tung/mua-phu-tung-xe-may-online/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-mua-xe/mua-xe-tra-gop/index.html",
   "kind": "article"
  },
@@ -2340,6 +2360,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/bao-duong-dinh-ky/nhat-ky-bao-duong-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/phanh-dia/index.html",
   "kind": "article"
  },
@@ -2349,6 +2373,10 @@
  },
  {
   "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "market/gia-phu-tung/phu-tung-thay-the-xe-may-co-nen-dung/index.html",
   "kind": "article"
  },
  {
@@ -3492,6 +3520,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phun-xang-che-hoa-khi/ve-sinh-hong-ga-xe-phun-xang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/piaggio/vespa/index.html",
   "kind": "article"
  },
@@ -3580,6 +3612,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dong-co/xe-may-no-khong-deu-luc-cam-chung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/tinh-thanh/xe-may-nong-thon/index.html",
   "kind": "article"
  },
@@ -3589,6 +3625,10 @@
  },
  {
   "rel": "news/xe-moi/xe-moi-ra-mat/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phun-xang-che-hoa-khi/xe-phun-xang-kho-no-khi-may-nong/index.html",
   "kind": "article"
  },
  {

@@ -12096,6 +12096,38 @@
  },
  {
   "kind": "article",
+  "url": "market/gia-xe-cu/cach-dinh-gia-xe-may-cu/",
+  "title": "Định giá xe cũ bằng phương pháp so sánh: chọn mẫu đối chiếu và điều chỉnh theo tình trạng",
+  "description": "Từng bước định giá xe máy cũ: chọn ít nhất ba xe đối chiếu cùng đời và khu vực, điều chỉnh theo tình trạng, hồ sơ, phụ kiện rồi ghi lại để thương lượng minh bạch.",
+  "category": "Thị trường",
+  "hub": "Giá xe cũ",
+  "entities": [
+   "định giá xe máy cũ",
+   "xe đối chiếu",
+   "bảng điều chỉnh giá",
+   "tình trạng xe",
+   "hồ sơ và phụ kiện",
+   "thương lượng giá xe cũ"
+  ],
+  "keywords": [
+   "cách định giá xe máy cũ",
+   "so sánh giá xe cũ",
+   "điều chỉnh giá theo tình trạng xe",
+   "bảng điều chỉnh giá xe cũ"
+  ],
+  "seoTitle": "Cách định giá xe máy cũ bằng phương pháp so sánh xe tương đương",
+  "primaryKeyword": "cách định giá xe máy cũ",
+  "headings": [
+   "Vì sao định giá xe cũ cần phương pháp thay vì cảm tính",
+   "Chọn xe đối chiếu tương đương về đời, phiên bản và khu vực",
+   "Bảng điều chỉnh theo tình trạng, hồ sơ và phụ kiện",
+   "Điều chỉnh theo thời điểm và khu vực",
+   "Ghi lại phép so sánh để thương lượng minh bạch"
+  ],
+  "summary": "Bài hướng dẫn người mua và người bán xe máy cũ cùng định giá bằng phương pháp so sánh thay vì cảm tính: chọn ít nhất ba xe đối chiếu cùng đời, cùng phiên bản và cùng khu vực, lập bảng điều chỉnh theo tình trạng, hồ sơ và phụ kiện, bù thêm chênh lệch về thời đi"
+ },
+ {
+  "kind": "article",
   "url": "review/review-xe/cach-doc-review-xe-may/",
   "title": "Cách đọc đánh giá xe máy trên mạng: phân biệt trải nghiệm thật và nội dung quảng cáo trá hình",
   "description": "Cách đọc đánh giá xe máy trên mạng: dấu hiệu bài quảng cáo trá hình, dấu hiệu trải nghiệm thật, cách đối chiếu nhiều nguồn và đổi thông tin thành câu hỏi cho đại lý.",
@@ -12578,6 +12610,70 @@
    "Biên bản và ba tình huống đặc thù: sửa, mua cũ, thuê"
   ],
   "summary": "Kinh nghiệm checklist nhận xe dành cho người mới — nhận xe là khoảnh khắc vui nhất nhưng cũng là khoảnh khắc dễ sai nhất: tâm trạng háo hức khiến người ta ký nhanh, và mọi lỗi xuất xưởng, lỗi sửa dở hoặc lỗi giao nhầm sẽ thành của mình ngay sau khi chữ ký đã đ"
+ },
+ {
+  "kind": "article",
+  "url": "market/chi-phi-su-dung/chi-phi-phat-sinh-sau-khi-mua-xe-cu/",
+  "title": "Các khoản chi bị bỏ sót khi nuôi xe cũ: lập quỹ dự phòng sau ngày mua",
+  "description": "Xe cũ gần như luôn có khoản phải làm lại sau ngày mua: lốp, ắc quy, nhớt, phanh, xích. Cách lập quỹ dự phòng từ kết quả kiểm tra thay vì một con số cố định.",
+  "category": "Thị trường",
+  "hub": "Chi phí sử dụng",
+  "entities": [
+   "quỹ dự phòng",
+   "xe máy cũ",
+   "kết quả kiểm tra",
+   "hạng mục thay thế",
+   "báo giá",
+   "thứ tự ưu tiên an toàn"
+  ],
+  "keywords": [
+   "chi phí phát sinh sau khi mua xe cũ",
+   "quỹ dự phòng cho xe cũ",
+   "khoản phải làm lại sau mua xe cũ",
+   "ngân sách dự phòng khi mua xe máy cũ"
+  ],
+  "seoTitle": "Chi phí phát sinh sau khi mua xe cũ: cách lập quỹ dự phòng",
+  "primaryKeyword": "chi phí phát sinh sau khi mua xe cũ",
+  "headings": [
+   "Vì sao xe cũ luôn kéo theo chi phí sau ngày mua",
+   "Những nhóm hạng mục nên kiểm tra và chuẩn bị sẵn tiền",
+   "Ước lượng quỹ dự phòng từ kết quả kiểm tra, không theo con số chung",
+   "Xếp thứ tự ưu tiên theo mức độ an toàn",
+   "Dùng danh sách hạng mục thực tế để thương lượng"
+  ],
+  "summary": "Bài hướng dẫn người mua xe máy cũ nhận ra những khoản dễ bị bỏ sót sau ngày nhận xe và chuẩn bị quỹ dự phòng để không vượt ngân sách. Nội dung gồm lý do xe cũ luôn có việc phải làm lại, các nhóm hạng mục như lốp, phanh, nhớt và lọc, ắc quy, xích hoặc dây curoa"
+ },
+ {
+  "kind": "article",
+  "url": "market/chi-phi-su-dung/chi-phi-so-huu-xe-may/",
+  "title": "Cách tự lập bảng chi phí sở hữu xe máy trong ba năm: các khoản mục và công thức tính",
+  "description": "Hướng dẫn tự lập bảng chi phí sở hữu xe máy trong ba năm: nhóm khoản mục, công thức viết bằng lời, cách lấy số liệu thật từ hóa đơn, đồng hồ km và so sánh hai xe.",
+  "category": "Thị trường",
+  "hub": "Chi phí sử dụng",
+  "entities": [
+   "chi phí sở hữu xe máy",
+   "bảng chi phí",
+   "nhóm khoản mục",
+   "phụ tùng hao mòn",
+   "giá trị bán lại",
+   "đồng hồ km"
+  ],
+  "keywords": [
+   "chi phí sở hữu xe máy",
+   "tính tổng chi phí nuôi xe máy",
+   "bảng chi phí xe máy theo năm",
+   "tự lập bảng chi phí xe máy"
+  ],
+  "seoTitle": "Chi phí sở hữu xe máy ba năm: tự lập bảng và công thức tính",
+  "primaryKeyword": "chi phí sở hữu xe máy",
+  "headings": [
+   "Vì sao giá mua chỉ là một phần của chi phí sở hữu xe máy",
+   "Các nhóm khoản mục nên có trong bảng chi phí",
+   "Công thức tính từng nhóm bằng dữ liệu của chính bạn",
+   "Thu thập số liệu thật từ hóa đơn và đồng hồ km",
+   "Dùng cùng một bảng để so sánh hai phương án xe"
+  ],
+  "summary": "Bài hướng dẫn người đang cân nhắc giữa hai chiếc xe máy cách tự lập bảng chi phí sở hữu trong ba năm để biết xe nào thực sự rẻ khi dùng lâu dài: vì sao giá mua chỉ là một dòng trong bảng, các nhóm khoản mục từ nhiên liệu, bảo dưỡng, phụ tùng hao mòn, bảo hiểm,"
  },
  {
   "kind": "article",
@@ -13823,6 +13919,37 @@
    "Tận dụng chu kỳ doanh số khi mua xe"
   ],
   "summary": "Doanh số xe là con số các hãng và hiệp hội công bố định kỳ về số xe bán ra trong tháng, quý hoặc năm, thường phân theo phân khúc xe số, xe ga và gần đây là cả xe điện. Với giới kinh doanh, đó là chỉ số sức khỏe của thị trường; với người mua, doanh số là tín hi"
+ },
+ {
+  "kind": "article",
+  "url": "garage/bao-duong-dinh-ky/doc-hoa-don-bao-duong-xe-may/",
+  "title": "Cách đọc hóa đơn bảo dưỡng: phân biệt thay, vệ sinh và kiểm tra để không trả tiền hạng mục chưa làm",
+  "description": "Cách đọc hóa đơn bảo dưỡng xe máy: phân biệt thay, vệ sinh, kiểm tra, điều chỉnh, câu hỏi nên đặt với thợ và cách đối chiếu phụ tùng đã thay.",
+  "category": "Sửa chữa",
+  "hub": "Bảo dưỡng định kỳ",
+  "entities": [
+   "hóa đơn bảo dưỡng",
+   "hạng mục bảo dưỡng",
+   "tiền công và phụ tùng",
+   "chi tiết cũ đã tháo",
+   "phiếu tiếp nhận xe"
+  ],
+  "keywords": [
+   "đọc hóa đơn bảo dưỡng xe máy",
+   "hóa đơn bảo dưỡng xe",
+   "hạng mục bảo dưỡng",
+   "cách xem hóa đơn bảo dưỡng xe máy"
+  ],
+  "seoTitle": "Đọc hóa đơn bảo dưỡng xe máy: phân biệt thay, vệ sinh, kiểm tra",
+  "primaryKeyword": "đọc hóa đơn bảo dưỡng xe máy",
+  "headings": [
+   "Một hóa đơn bảo dưỡng gồm những phần nào",
+   "Thay, vệ sinh, kiểm tra và điều chỉnh khác nhau ở đâu",
+   "Câu hỏi nên đặt trước khi đồng ý từng hạng mục",
+   "Đối chiếu từng dòng với phụ tùng đã thay",
+   "Lưu hóa đơn và theo dõi lịch sau bảo dưỡng"
+  ],
+  "summary": "Bài hướng dẫn người vừa nhận hóa đơn bảo dưỡng nhiều dòng cách đọc từng hạng mục: hóa đơn gồm những phần nào, thay, vệ sinh, kiểm tra và điều chỉnh khác nhau ra sao, nên hỏi thợ những gì trước khi đồng ý, đối chiếu dòng phụ tùng với chi tiết đã thay và tình tr"
  },
  {
   "kind": "article",
@@ -17631,6 +17758,38 @@
  },
  {
   "kind": "article",
+  "url": "market/gia-phu-tung/mua-phu-tung-xe-may-online/",
+  "title": "Mua phụ tùng xe máy trực tuyến: đối chiếu mã phụ tùng với xe và điều kiện đổi trả",
+  "description": "Mua phụ tùng xe máy online không nhầm mã: đối chiếu theo số khung hoặc tem thông tin, câu cần hỏi người bán, kiểm hàng khi nhận và xử lý khi hàng không khớp.",
+  "category": "Thị trường",
+  "hub": "Giá phụ tùng",
+  "entities": [
+   "phụ tùng xe máy",
+   "mã phụ tùng",
+   "số khung",
+   "tem thông tin xe",
+   "chính sách đổi trả",
+   "bằng chứng nhận hàng"
+  ],
+  "keywords": [
+   "mua phụ tùng xe máy online",
+   "mua nhầm phụ tùng online",
+   "đổi trả phụ tùng xe máy",
+   "đặt phụ tùng xe máy qua mạng"
+  ],
+  "seoTitle": "Mua phụ tùng xe máy online: đối chiếu mã với xe, hỏi rõ đổi trả",
+  "primaryKeyword": "mua phụ tùng xe máy online",
+  "headings": [
+   "Những rủi ro hay gặp khi mua phụ tùng qua mạng",
+   "Đối chiếu mã phụ tùng với đúng chiếc xe của bạn",
+   "Những câu hỏi nên hỏi người bán trước khi đặt hàng",
+   "Kiểm tra hàng ngay khi nhận và lưu bằng chứng",
+   "Xử lý khi phụ tùng nhận về không khớp với xe"
+  ],
+  "summary": "Bài hướng dẫn người mua phụ tùng xe máy trực tuyến tránh nhầm mã và nhầm đời xe. Nội dung gồm những rủi ro thường gặp, quy trình đối chiếu mã phụ tùng với số khung hoặc tem thông tin của đúng chiếc xe, các câu hỏi nên hỏi người bán trước khi đặt hàng, cách kiể"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-mua-xe/mua-xe-tra-gop/",
   "title": "Hướng dẫn chi tiết về mua xe trả góp",
   "description": "Hướng dẫn chi tiết mua xe máy trả góp: tính tổng chi thực, so sánh lãi flat và dư nợ giảm dần, đọc hợp đồng tài chính, các khoản phí ẩn và cách tất toán sớm an toàn.",
@@ -17764,6 +17923,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/bao-duong-dinh-ky/nhat-ky-bao-duong-xe-may/",
+  "title": "Nhật ký bảo dưỡng xe máy: nên ghi những gì và mẫu bảng ghi đơn giản",
+  "description": "Nhật ký bảo dưỡng xe máy nên ghi gì: cột ngày, số km, hạng mục, người làm, ghi chú; mẫu bảng gọn, cách lưu ảnh hóa đơn bằng điện thoại và chốt lần bảo dưỡng sau.",
+  "category": "Sửa chữa",
+  "hub": "Bảo dưỡng định kỳ",
+  "entities": [
+   "nhật ký bảo dưỡng",
+   "sổ bảo hành",
+   "số km trên đồng hồ",
+   "ảnh hóa đơn",
+   "phụ tùng đã thay",
+   "mốc bảo dưỡng tiếp theo"
+  ],
+  "keywords": [
+   "nhật ký bảo dưỡng xe máy",
+   "sổ ghi bảo dưỡng xe",
+   "mẫu theo dõi bảo dưỡng",
+   "cách ghi nhật ký bảo dưỡng bằng điện thoại"
+  ],
+  "seoTitle": "Nhật ký bảo dưỡng xe máy: ghi gì, mẫu bảng và cách lưu ảnh hóa đơn",
+  "primaryKeyword": "nhật ký bảo dưỡng xe máy",
+  "headings": [
+   "Vì sao nên giữ nhật ký bảo dưỡng cho chiếc xe của mình",
+   "Các cột thông tin cần ghi trong mỗi lần bảo dưỡng",
+   "Mẫu bảng ghi đơn giản và cách điền từng ô",
+   "Lưu ảnh hóa đơn và phụ tùng đã thay bằng điện thoại",
+   "Dùng nhật ký để quyết định lần bảo dưỡng tiếp theo"
+  ],
+  "summary": "Bài hướng dẫn người hay bảo dưỡng xe ở nhiều nơi cách giữ một nhật ký bảo dưỡng xe máy để không bỏ sót và không làm lại không cần thiết: vì sao nên ghi, những cột thông tin cần có như ngày, số trên đồng hồ, hạng mục, người làm, ghi chú và nhắc lần sau, một mẫu"
+ },
+ {
+  "kind": "article",
   "url": "wiki/he-thong-phanh/phanh-dia/",
   "title": "Hướng dẫn chi tiết về phanh đĩa",
   "description": "Phanh đĩa xe máy gồm những gì, vì sao lực phanh mạnh hơn phanh tang trống, các dấu hiệu hao mòn và cách bảo dưỡng đĩa, má phanh, dầu phanh.",
@@ -17864,6 +18055,38 @@
    "Kỹ thuật dùng phanh trống đúng cách"
   ],
   "summary": "Phanh tang trống là loại phanh \"veteran\" trên xe máy: cấu tạo đơn giản, bền, kín bụi và rẻ bảo dưỡng, nên vẫn giữ chỗ đứng vững chắc ở phanh sau của hầu hết xe phổ thông, ngay cả khi phanh trước đã chuyển sang đĩa. Bài viết tổng hợp kiến thức về phanh tang trố"
+ },
+ {
+  "kind": "article",
+  "url": "market/gia-phu-tung/phu-tung-thay-the-xe-may-co-nen-dung/",
+  "title": "Phụ tùng thay thế cùng chức năng có dùng được không: đánh giá rủi ro theo từng bộ phận",
+  "description": "Phụ tùng thay thế cùng chức năng dùng được đến đâu: phanh, lốp, truyền động cần chặt chẽ, phụ kiện và nhựa linh hoạt hơn, kèm dấu hiệu chất lượng kém khi lắp.",
+  "category": "Thị trường",
+  "hub": "Giá phụ tùng",
+  "entities": [
+   "phụ tùng thay thế",
+   "phụ tùng chính hãng",
+   "hàng giả và hàng kém chất lượng",
+   "má phanh và lốp",
+   "bộ truyền động",
+   "chi tiết nhựa thân xe"
+  ],
+  "keywords": [
+   "phụ tùng thay thế xe máy có nên dùng",
+   "phụ tùng thải hay chính hãng",
+   "chọn phụ tùng thay thế an toàn",
+   "phụ tùng cùng chức năng có dùng được không"
+  ],
+  "seoTitle": "Phụ tùng thay thế xe máy có nên dùng: rủi ro theo từng bộ phận",
+  "primaryKeyword": "phụ tùng thay thế xe máy có nên dùng",
+  "headings": [
+   "Cách chia nhóm phụ tùng theo mức độ ảnh hưởng đến an toàn",
+   "Nhóm không nên thỏa hiệp: phanh, lốp và truyền động",
+   "Nhóm có thể cân nhắc: phụ kiện và chi tiết nhựa",
+   "Những dấu hiệu chất lượng kém lộ ra khi lắp",
+   "Ghi chép và theo dõi chi tiết sau khi thay"
+  ],
+  "summary": "Bài trả lời câu hỏi phụ tùng thay thế cùng chức năng có dùng được không bằng cách đổi góc nhìn: thay vì chọn giữa chính hãng và không chính hãng, bạn đánh giá từng bộ phận theo hậu quả khi hỏng, khả năng tự kiểm chứng chất lượng và việc hỏng có báo trước hay k"
  },
  {
   "kind": "article",
@@ -26574,6 +26797,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/phun-xang-che-hoa-khi/ve-sinh-hong-ga-xe-phun-xang/",
+  "title": "Vệ sinh họng ga xe phun xăng: khi nào cần làm và những điều tuyệt đối tránh",
+  "description": "Họng ga xe phun xăng làm gì, dấu hiệu bị bẩn, cảm biến và mô tơ nào không được đụng vào, khi nào tự làm được hay nên giao thợ, và cách theo dõi xe sau vệ sinh.",
+  "category": "Sửa chữa",
+  "hub": "Phun xăng chế hòa khí",
+  "entities": [
+   "họng ga",
+   "cánh bướm ga",
+   "cảm biến vị trí bướm ga",
+   "van cầm chừng",
+   "ECU",
+   "vòi phun xăng"
+  ],
+  "keywords": [
+   "vệ sinh họng ga xe phun xăng",
+   "họng ga bị bẩn",
+   "xe phun xăng giật ga",
+   "dấu hiệu họng ga bẩn"
+  ],
+  "seoTitle": "Vệ sinh họng ga xe phun xăng: dấu hiệu và điều cần tránh",
+  "primaryKeyword": "vệ sinh họng ga xe phun xăng",
+  "headings": [
+   "Họng ga làm gì trong xe phun xăng",
+   "Dấu hiệu họng ga bị bẩn và những nguyên nhân dễ nhầm",
+   "Những bộ phận nhạy cảm tuyệt đối không được tác động",
+   "Khi nào nên tự làm, khi nào nên giao thợ",
+   "Theo dõi xe sau khi vệ sinh"
+  ],
+  "summary": "Bài viết dành cho người lái xe phun xăng nghe nói cần vệ sinh họng ga nhưng ngại làm hỏng cảm biến. Nội dung giải thích họng ga điều tiết không khí cho động cơ ra sao, cặn bám làm cầm chừng và ga nhỏ rối loạn thế nào, những triệu chứng dễ nhầm với lỗi bugi, lọ"
+ },
+ {
+  "kind": "article",
   "url": "moto/piaggio/vespa/",
   "title": "Kinh nghiệm Vespa dành cho người mới",
   "description": "Vespa là biểu tượng scooter Ý của Piaggio tại Việt Nam. Kinh nghiệm chọn dòng, dùng đúng cách, bảo dưỡng và mua cũ Vespa cho người mới.",
@@ -27296,6 +27551,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/dong-co/xe-may-no-khong-deu-luc-cam-chung/",
+  "title": "Xe máy nổ không đều lúc cầm chừng: phân biệt lỗi bugi, đường nạp và hở gioăng",
+  "description": "Xe máy nổ rộp rộp, rung hoặc ì ạch khi đứng đèn đỏ: cách loại trừ lần lượt bugi, lọc gió, nắp bình xăng, hở gioăng cổ hút và lúc nào cần ra thợ.",
+  "category": "Sửa chữa",
+  "hub": "Động cơ",
+  "entities": [
+   "cầm chừng",
+   "bugi",
+   "lọc gió",
+   "đường nạp",
+   "gioăng cổ hút",
+   "nắp bình xăng"
+  ],
+  "keywords": [
+   "xe máy nổ không đều lúc cầm chừng",
+   "xe máy rộp rộp khi đứng đèn đỏ",
+   "xe ì ạch lúc cầm chừng",
+   "xe máy chạy cầm chừng không ổn định"
+  ],
+  "seoTitle": "Xe máy nổ không đều lúc cầm chừng: bugi, đường nạp hay hở gioăng?",
+  "primaryKeyword": "xe máy nổ không đều lúc cầm chừng",
+  "headings": [
+   "Nổ không đều ở cầm chừng nghĩa là gì",
+   "Kiểm tra nhanh tại nhà: bugi, lọc gió và nắp bình xăng",
+   "Dấu hiệu hở đường nạp và gioăng cổ hút",
+   "Khi nào nghi ngờ hệ thống nhiên liệu hoặc đánh lửa",
+   "Những việc không nên tự làm và lúc cần ra thợ"
+  ],
+  "summary": "Bài giải thích vì sao xe máy rộp rộp khi đứng đèn đỏ, rung giật hoặc ì ạch sắp tắt, tức nổ không đều lúc cầm chừng. Nội dung phân biệt ba nhóm nguyên nhân là bugi, đường nạp cùng gioăng cổ hút bị hở, và nhiên liệu hoặc đánh lửa; đưa ra thứ tự loại trừ từ việc "
+ },
+ {
+  "kind": "article",
   "url": "local/tinh-thanh/xe-may-nong-thon/",
   "title": "Kinh nghiệm xe máy nông thôn dành cho người mới",
   "description": "Kinh nghiệm đi xe máy ở nông thôn cho người mới: đường làng, đường đất, gia súc, đê và cầu nhỏ, cách giữ thăng bằng, chọn tốc độ và chuẩn bị khi xe gặp sự cố.",
@@ -27387,6 +27674,38 @@
    "Sau khi mua: những việc nên làm với xe thế hệ mới"
   ],
   "summary": "Mỗi lần một mẫu xe mới ra mắt, thị trường xe máy lại có một chuỗi sự kiện quen thuộc: tin rò rỉ, hình ảnh xã trên mạng, buổi giới thiệu chính thức của hãng, giai đoạn nhận đặt cọc, rồi mở bán chính thức với giá lăn bánh thực tế. Với người đang cần mua xe, chuỗ"
+ },
+ {
+  "kind": "article",
+  "url": "garage/phun-xang-che-hoa-khi/xe-phun-xang-kho-no-khi-may-nong/",
+  "title": "Xe phun xăng khó nổ khi máy đã nóng: cảm biến nhiệt, bơm xăng hay kim phun",
+  "description": "Xe phun xăng khó nổ khi máy nóng do cảm biến nhiệt báo sai, bơm xăng yếu hay kim phun rò? Cách phân biệt bằng mùi, tiếng bơm, đèn báo và ghi chú cho thợ.",
+  "category": "Sửa chữa",
+  "hub": "Phun xăng chế hòa khí",
+  "entities": [
+   "phun xăng điện tử",
+   "cảm biến nhiệt độ động cơ",
+   "bơm xăng điện",
+   "kim phun",
+   "ngập xăng",
+   "đèn báo lỗi động cơ"
+  ],
+  "keywords": [
+   "xe phun xăng khó nổ khi máy nóng",
+   "xe khó nổ sau khi nghỉ giữa đường",
+   "khó đề khi nóng máy",
+   "nguyên nhân xe phun xăng khó nổ khi nóng"
+  ],
+  "seoTitle": "Xe phun xăng khó nổ khi máy nóng: phân biệt cảm biến, bơm và kim phun",
+  "primaryKeyword": "xe phun xăng khó nổ khi máy nóng",
+  "headings": [
+   "Khó nổ lúc máy nóng khác gì khó nổ lúc máy lạnh",
+   "Cảm biến nhiệt báo sai: máy đang nóng mà tưởng đang nguội",
+   "Bơm xăng yếu khi nóng: đủ sức lúc nguội, hụt hơi lúc nóng",
+   "Kim phun rò rỉ gây ngập xăng khi máy nóng",
+   "Quan sát và ghi lại những gì cần nói với thợ"
+  ],
+  "summary": "Bài giải thích vì sao xe phun xăng có thể nổ dễ lúc nguội nhưng khó nổ lại khi máy còn nóng, nhất là sau khi nghỉ giữa đường. Nội dung tách ba nhóm nguyên nhân liên quan nhiệt độ gồm cảm biến nhiệt báo sai, bơm xăng yếu đi khi nóng và kim phun rò gây ngập xăng"
  },
  {
   "kind": "article",
