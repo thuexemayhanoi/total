@@ -5,7 +5,7 @@
 
 > **Đính chính (2026-10-12, cùng ngày).** Bản audit đầu đo bài đã xuất bản bằng `slot.title` (nhãn lúc lập kế hoạch) thay vì tiêu đề công khai `module.title` — thứ generator thật sự render ra H1/breadcrumb/thẻ bài.
 > 63 slot đã lệch vì writer sửa tiêu đề trong module. Công cụ đã sửa (audit, backfill, coverage và gợi ý related của writer-pack dùng `module.title`; có test hồi quy) và đo lại. Thay đổi trên cùng 782 bài:
-> tiêu đề template **592 → 559**; lỗi tiêu đề **92 → 89** (ba lỗi “lặp từ” chỉ nằm ở nhãn slot, module đã sửa từ trước; cả 89 còn lại là địa danh viết thường); cụm intent ≥ 2 bài **51 → 46** (310 → 296 bài);
+> tiêu đề template **592 → 559**; lỗi tiêu đề **92 → 89** với detector cũ (ba lỗi “lặp từ” chỉ nằm ở nhãn slot, module đã sửa từ trước; cả 89 còn lại là địa danh viết thường) — rồi mở rộng detector bằng bảng tên riêng dùng chung (`factory/lib/title-case.js`) thì thấy thêm **108** tiêu đề công khai viết thường tên riêng/viết tắt (hãng/mẫu xe, Việt Nam, TP HCM, ABS/CVT…): tổng **197**, tất cả đã sửa; cụm intent ≥ 2 bài **51 → 46** (310 → 296 bài);
 > intent riêng biệt trong từng hub **545 → 550**; `thue-xe/xe-may` **36 → 38 intent** (trùng 7,39 → 7,0). **Phán quyết gate của 300 slot chờ không đổi** (đã kiểm từng slot: 0 khác biệt). Các số dưới đây là số đã đính chính, đo trên 793 bài (782 + 11 bài lát cắt V2).
 
 ## Kết luận chính
@@ -17,7 +17,7 @@
    trùng cụm 5 từ gần như bằng 0 ⇒ **không có sao chép văn bản; vấn đề là trùng ý định tìm kiếm** (nhiều bài trả lời cùng một câu hỏi bằng chữ khác nhau).
 4. **Mất cân bằng theo hub** (`topic-coverage`): 793 bài chỉ có 561 intent riêng biệt trong từng hub; `thue-xe/xe-may` có **266 bài nhưng 38 intent** (trùng 7,0 lần, 98% tiêu đề template) trong khi **14/97 hub chưa có bài nào**
    (19 lúc audit đầu; 5 hub được lát cắt V2 lấp): 4/8 hub `garage/*`, 4/7 hub `market/*`, 5/7 hub `review/*` và `map/diem-thi-bang-lai`.
-5. **Lỗi tiêu đề**: 89 tiêu đề công khai viết thường địa danh (Hà Nội, Sài Gòn, Đà Nẵng, Hải Phòng, Cần Thơ) — **đã sửa** ngày 2026-10-12 (9 lô qua CI; chỉ đổi `title`: H1/breadcrumb/thẻ bài; slug/URL/`seoTitle`/nội dung giữ nguyên). Detector hiện báo 0.
+5. **Lỗi tiêu đề**: 197 tiêu đề công khai viết thường tên riêng — 89 địa danh (Hà Nội, Sài Gòn, Đà Nẵng, Hải Phòng, Cần Thơ) và 108 hãng/mẫu xe/Việt Nam/TP HCM/miền Bắc/viết tắt (vd. “Thuê honda vision” ×72, “abs”, “cvt”) — **đã sửa** ngày 2026-10-12 (20 lô ≤ 10 bài qua CI; chỉ đổi chữ hoa/thường của trường `title`: H1/breadcrumb/thẻ bài; slug/URL/`seoTitle`/nội dung giữ nguyên). Detector hiện báo 0; `verify-batch` nhắc (không chặn) khi tiêu đề mới còn tên riêng viết thường.
 6. **Rủi ro dữ kiện**: nhiều slot chờ chứa chủ đề giá/pin/thông số/luật (`needs-verified-data` xuất hiện ở 135/300 slot) mà không có nguồn xác minh — viết ra sẽ buộc phải bịa hoặc nêu số chung chung.
 7. **Bài học thiết kế**: bộ lọc từ vựng/thống kê **bắt được hoán vị template và bản sao gần nguyên văn** nhưng **bỏ sót câu hỏi giống nhau khác từ ngữ** — điều đó chỉ lộ ra khi đọc láng giềng (xem [báo cáo pilot](TOPIC-PILOT-V2-REPORT.md)).
 
@@ -44,7 +44,7 @@ Danh sách 14 hub trống và công cụ đầy đủ: `node factory/factory.js 
 | Đóng băng sinh topic V1 (`v1Generation: frozen`) | **Đã làm** (có rollback) |
 | 300 slot legacy: ghi quyết định vào `topic-matrix.jsonl` (277 REJECTED, 9 PLANNED/REWRITE, 14 RESEARCH); slot trong `matrix.json` **giữ nguyên PLANNED** (writer không nhận vì chưa APPROVED) | **Đã làm**; xử lý slot trong matrix.json — *chờ duyệt* |
 | Gộp/chuyển hướng/làm mới các cụm bài đã xuất bản trùng intent | **Không làm** — *chờ duyệt + dữ liệu GSC* (kế hoạch migration) |
-| Sửa 89 tiêu đề công khai lỗi (địa danh viết thường) | **Đã làm** (2026-10-12, theo yêu cầu khắc phục của chủ repo; 9 lô qua CI, URL không đổi) |
+| Sửa 197 tiêu đề công khai viết thường tên riêng (89 địa danh + 108 hãng/mẫu xe/viết tắt) | **Đã làm** (2026-10-12, theo yêu cầu khắc phục của chủ repo; 20 lô qua CI, URL không đổi) |
 | Đo lại audit bằng tiêu đề công khai + sửa công cụ | **Đã làm** (đính chính ở đầu báo cáo) |
 
 ---
@@ -133,16 +133,16 @@ Theo họ hạt giống:
 
 Cặp khác intent-key nhưng headline giống cao:
 
-- 0.51 — S00361 Kinh nghiệm xe sym dành cho người mới ⇄ S00363 Hướng dẫn chi tiết về sym việt nam
+- 0.51 — S00361 Kinh nghiệm xe SYM dành cho người mới ⇄ S00363 Hướng dẫn chi tiết về SYM Việt Nam
 - 0.45 — S00369 Kinh nghiệm xe dưới 50cc cần bằng lái dành cho người mới ⇄ S00370 Quy định xe 50cc — những điều cần biết
-- 0.45 — S00612 Thuê xe máy Hà Nội: chi phí và cách tính cho người mới ⇄ S00684 Thuê honda vision: chi phí và cách tính cho người mới
-- 0.44 — S00701 Thuê honda vision: hợp đồng và điều khoản cần đọc theo tình huống thực tế ⇄ S00773 Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc theo tình huống thực tế
+- 0.45 — S00612 Thuê xe máy Hà Nội: chi phí và cách tính cho người mới ⇄ S00684 Thuê Honda Vision: chi phí và cách tính cho người mới
+- 0.44 — S00701 Thuê Honda Vision: hợp đồng và điều khoản cần đọc theo tình huống thực tế ⇄ S00773 Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc theo tình huống thực tế
 - 0.42 — S00554 Thuê xe máy: hợp đồng và điều khoản cần đọc khi dùng dài ngày ⇄ S00626 Thuê xe máy Hà Nội: hợp đồng và điều khoản cần đọc khi dùng dài ngày
 - 0.41 — S00324 Đọc thông số xe máy: hiểu con số nhà sản xuất công bố ⇄ S00454 Thông số xe máy — những điều cần biết
 - 0.41 — S00563 Thuê xe máy: rủi ro thường gặp và cách tránh theo tình huống thực tế ⇄ S00641 Thuê xe máy Hà Nội: checklist từng bước theo tình huống thực tế
-- 0.4 — S00540 Thuê xe máy: chi phí và cách tính cho người mới ⇄ S00684 Thuê honda vision: chi phí và cách tính cho người mới
+- 0.4 — S00540 Thuê xe máy: chi phí và cách tính cho người mới ⇄ S00684 Thuê Honda Vision: chi phí và cách tính cho người mới
 
-Lỗi tiêu đề (địa danh viết thường, lặp từ) trên tiêu đề công khai: **0**.
+Lỗi tiêu đề (tên riêng/viết tắt viết thường, lặp từ) trên tiêu đề công khai: **0**.
 
 
 ## 4. Ngưỡng đang dùng

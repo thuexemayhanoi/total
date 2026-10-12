@@ -401,7 +401,7 @@ function renderMarkdown(rep) {
   }
   L.push(pub.titleDefects.length
     ? `Lỗi tiêu đề phát hiện được trên tiêu đề CÔNG KHAI (${pub.titleDefects.length}; liệt kê tối đa 25):`
-    : 'Lỗi tiêu đề (địa danh viết thường, lặp từ) trên tiêu đề công khai: **0**.');
+    : 'Lỗi tiêu đề (tên riêng/viết tắt viết thường, lặp từ) trên tiêu đề công khai: **0**.');
   L.push('');
   for (const d of pub.titleDefects.slice(0, 25)) L.push(`- ${d.id} “${d.title}” — ${d.defects.join(', ')}`);
   L.push('');
