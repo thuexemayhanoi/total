@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-faq-do-thi',
-  title: 'Thuê xe máy hà nội: câu hỏi thường gặp trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: câu hỏi thường gặp trong điều kiện đô thị',
   seoTitle: 'Thuê xe máy Hà Nội trong phố: câu hỏi thường gặp',
   metaDescription: 'Giải đáp câu hỏi thường gặp khi thuê xe máy ở Hà Nội để đi lại trong phố: chạy trong ngõ hẹp, gửi xe an toàn, khóa chống trộm, giờ cao điểm và thời tiết nóng ẩm hay mưa bất chợt.',
   summary: 'Bài giải đáp những câu hỏi hay gặp của người thuê xe máy để đi lại trong nội thành Hà Nội: chạy trong ngõ hẹp và đường đông có khó không, gửi xe sao cho an toàn, có cần khóa phụ, ứng xử giờ cao điểm và thích nghi với nắng nóng hoặc mưa bất chợt.',

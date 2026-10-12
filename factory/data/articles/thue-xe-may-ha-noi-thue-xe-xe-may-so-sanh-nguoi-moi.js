@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-nguoi-moi',
-  title: 'Thuê xe máy hà nội: cách so sánh lựa chọn cho người mới',
+  title: 'Thuê xe máy Hà Nội: cách so sánh lựa chọn cho người mới',
   seoTitle: 'So sánh lựa chọn thuê xe máy Hà Nội cho người mới',
   metaDescription: 'Cách so sánh các lựa chọn thuê xe máy ở Hà Nội dành cho người mới: xác định nhu cầu, chọn xe vừa tay, đặt báo giá lên cùng mặt bằng và nhận ra dấu hiệu nên dừng lại.',
   summary: 'Bài hướng dẫn người thuê xe máy lần đầu ở Hà Nội cách so sánh các lựa chọn một cách có hệ thống: xác định nhu cầu, chọn loại xe vừa tay lái, đánh giá tình trạng xe và sự minh bạch của bên cho thuê, đặt báo giá lên cùng mặt bằng và nhận ra dấu hiệu nên loại phương án.',

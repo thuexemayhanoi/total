@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-faq-duong-dai',
-  title: 'Thuê xe máy hà nội: câu hỏi thường gặp khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: câu hỏi thường gặp khi đi đường dài',
   seoTitle: 'Thuê xe máy Hà Nội đi đường dài: câu hỏi thường gặp',
   metaDescription: 'Giải đáp câu hỏi thường gặp khi thuê xe máy ở Hà Nội để đi đường dài: xe có được ra tỉnh không, độ bền của xe, hành lý, xe hỏng ở xa và cách xử lý trả xe sau chuyến đi.',
   summary: 'Bài giải đáp những thắc mắc phổ biến khi thuê xe máy ở Hà Nội để đi liên tỉnh hoặc chặng dài: xe có được chạy ra ngoài khu vực không, xe có đủ sức đi xa không, mang bao nhiêu hành lý, xe hỏng ở nơi xa thì xử lý ra sao và trả xe thế nào sau chuyến đi.',

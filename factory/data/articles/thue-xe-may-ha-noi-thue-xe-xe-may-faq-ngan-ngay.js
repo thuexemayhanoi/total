@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-faq-ngan-ngay',
-  title: 'Thuê xe máy hà nội: câu hỏi thường gặp khi dùng ngắn ngày',
+  title: 'Thuê xe máy Hà Nội: câu hỏi thường gặp khi dùng ngắn ngày',
   seoTitle: 'Thuê xe máy Hà Nội ngắn ngày: câu hỏi thường gặp',
   metaDescription: 'Giải đáp câu hỏi thường gặp khi thuê xe máy ở Hà Nội trong một đến ba ngày: chọn loại xe, đặt trước hay nhận ngay, mốc giờ nhận trả, mức xăng và trả xe muộn vài giờ.',
   summary: 'Bài giải đáp những thắc mắc phổ biến của người thuê xe máy ngắn ngày ở Hà Nội, thường từ một đến ba ngày: chọn xe theo lịch trình, đặt trước hay nhận tại chỗ, cách hiểu mốc giờ nhận và trả, quy ước về xăng, trễ giờ và việc cần kiểm tra khi thời gian ít.',

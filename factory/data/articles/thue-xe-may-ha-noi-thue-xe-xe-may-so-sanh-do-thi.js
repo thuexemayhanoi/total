@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-do-thi',
-  title: 'Thuê xe máy hà nội: cách so sánh lựa chọn trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: cách so sánh lựa chọn trong điều kiện đô thị',
   seoTitle: 'So sánh thuê xe máy Hà Nội để đi lại trong phố',
   metaDescription: 'Cách so sánh lựa chọn thuê xe máy ở Hà Nội để đi trong nội đô: kích thước xe, tay ga hay xe số, lớp chống trộm, đèn còi phanh và phụ kiện cho nắng nóng, mưa phùn.',
   summary: 'Bài hướng dẫn so sánh các lựa chọn thuê xe máy để di chuyển trong nội đô Hà Nội: ưu tiên kích thước và độ nhẹ cho phố đông, cân nhắc tay ga hay xe số khi dừng đỗ liên tục, đánh giá lớp chống trộm, những chi tiết an toàn nhỏ và phụ kiện cho thời tiết nóng ẩm, mưa phùn.',

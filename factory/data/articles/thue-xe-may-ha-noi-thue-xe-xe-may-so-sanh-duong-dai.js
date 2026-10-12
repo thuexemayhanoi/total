@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-duong-dai',
-  title: 'Thuê xe máy hà nội: cách so sánh lựa chọn khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: cách so sánh lựa chọn khi đi đường dài',
   seoTitle: 'So sánh thuê xe máy từ Hà Nội để đi đường dài',
   metaDescription: 'Cách so sánh lựa chọn thuê xe máy ở Hà Nội cho chuyến đường dài: phạm vi được phép đi, độ phù hợp của xe, hỗ trợ sự cố ở xa, giới hạn quãng đường và cách trả xe.',
   summary: 'Bài hướng dẫn so sánh các lựa chọn thuê xe máy ở Hà Nội để đi liên tỉnh hoặc đi xa: hỏi rõ phạm vi được phép đi, chọn xe hợp quãng đường dài, đánh giá hỗ trợ sự cố ở xa, hiểu giới hạn quãng đường và chi phí phát sinh, cùng phương án trả xe khi lịch trình kéo dài.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-faq-thuc-te',
-  title: 'Thuê xe máy hà nội: câu hỏi thường gặp theo tình huống thực tế',
+  title: 'Thuê xe máy Hà Nội: câu hỏi thường gặp theo tình huống thực tế',
   seoTitle: 'Thuê xe máy Hà Nội: hỏi đáp theo tình huống thực tế',
   metaDescription: 'Hỏi đáp theo tình huống thực tế khi thuê xe máy ở Hà Nội: tự xử lý được đến đâu khi xe chết máy, thông báo vi phạm sau khi trả xe, vết xước bị quy trách nhiệm, đổi xe và để quên đồ.',
   summary: 'Bài hỏi đáp theo tình huống thực tế dành cho người thuê xe máy ở Hà Nội: tự xử lý được đến đâu khi xe gặp lỗi nhỏ, nhận thông báo vi phạm giao thông sau khi đã trả xe, tranh luận về vết xước, muốn đổi xe giữa chừng và để quên đồ hoặc hết pin điện thoại giữa đường.',

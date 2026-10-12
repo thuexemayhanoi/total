@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-so-sanh-dai-ngay',
-  title: 'Thuê xe máy hà nội: cách so sánh lựa chọn khi dùng dài ngày',
+  title: 'Thuê xe máy Hà Nội: cách so sánh lựa chọn khi dùng dài ngày',
   seoTitle: 'So sánh thuê xe máy Hà Nội dài ngày theo tuần, theo tháng',
   metaDescription: 'Cách so sánh các lựa chọn thuê xe máy dài ngày ở Hà Nội: kỳ thanh toán và gia hạn, trách nhiệm bảo dưỡng, xe thay thế, hao mòn tích lũy và kiểm tra giữa kỳ.',
   summary: 'Bài hướng dẫn người cần dùng xe máy ở Hà Nội theo tuần hoặc theo tháng so sánh các lựa chọn: cách chia kỳ thuê và gia hạn, ai chịu trách nhiệm bảo dưỡng, xe thay thế khi hỏng, điều khoản hao mòn tích lũy và cách kiểm tra giữa kỳ để tránh tranh luận cuối kỳ.',

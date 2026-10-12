@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-faq-dai-ngay',
-  title: 'Thuê xe máy hà nội: câu hỏi thường gặp khi dùng dài ngày',
+  title: 'Thuê xe máy Hà Nội: câu hỏi thường gặp khi dùng dài ngày',
   seoTitle: 'Thuê xe máy Hà Nội dài ngày: câu hỏi thường gặp',
   metaDescription: 'Giải đáp câu hỏi thường gặp khi thuê xe máy ở Hà Nội theo tuần hoặc theo tháng: khác biệt so với thuê ngắn, bảo dưỡng, đổi xe giữa kỳ, cách thanh toán và xử lý xe nghỉ lâu.',
   summary: 'Bài giải đáp những câu hỏi hay gặp của người thuê xe máy ở Hà Nội theo tuần hoặc theo tháng: khác biệt so với thuê ngắn, ai lo bảo dưỡng, có đổi được xe giữa kỳ không, cách thanh toán theo kỳ và việc cần làm khi xe phải ngưng sử dụng.',
