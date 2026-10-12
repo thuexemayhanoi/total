@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'xe-the-thao-viet-nam',
-  title: 'Tổng hợp kiến thức: xe thể thao việt nam',
+  title: 'Tổng hợp kiến thức: xe thể thao Việt Nam',
   seoTitle: 'Xe thể thao tại Việt Nam: tổng hợp kiến thức cho người mới',
   metaDescription: 'Tổng hợp kiến thức về xe thể thao tại Việt Nam: các dòng côn tay phổ biến, mô tô lớn, văn hóa chơi xe và lời khuyên cho người mới.',
   summary: '"Xe thể thao" ở Việt Nam là một cụm từ rộng hơn vẻ ngoài: từ dòng côn tay thể thao 150cc bán chạy dành cho giới trẻ, đến lớp mô tô lớn nhập khẩu với cộng đồng chơi xe riêng, đến cả những chiếc xe số – xe ga được độ theo phong cách thể thao. Mỗi lớp có chi phí sở hữu, kỹ năng yêu cầu và "văn hóa" khác nhau — và người mới hay nhầm lẫn giữa thích cảm giác xe và hợp với lớp xe. Bài viết tổng hợp bức tranh toàn cảnh: ba lớp xe thể thao trên thị trường Việt và đặc tính từng lớp; chi phí thật của việc sở hữu từng lớp (mua chỉ là phần nổi); kỹ năng và giấy tờ cần cân nhắc trước khi lên lớp; văn hóa chơi xe ở Việt Nam — cái gì đáng tham gia, cái gì nên bỏ; và lời khuyên chọn đúng cho người mới: bắt đầu từ đâu để cảm giác thể thao đến từ tay lái chứ không từ nhóm bạn.',

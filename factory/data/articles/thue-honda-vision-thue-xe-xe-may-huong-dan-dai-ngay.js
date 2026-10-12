@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-huong-dan-dai-ngay',
-  title: 'Thuê honda vision: hướng dẫn thực tế khi dùng dài ngày',
+  title: 'Thuê Honda Vision: hướng dẫn thực tế khi dùng dài ngày',
   seoTitle: 'Thuê Honda Vision dài ngày: kiểm tra, bảo dưỡng, trả xe',
   metaDescription: 'Hướng dẫn thực tế khi thuê Honda Vision theo tuần hoặc tháng: lịch kiểm tra hằng tuần, bảo dưỡng định kỳ, giữ xe sạch và khỏe, gia hạn rồi trả xe sau thời gian dài.',
   summary: 'Bài viết dành cho người thuê Honda Vision theo tuần hoặc theo tháng: điều gì thay đổi khi dùng xe lâu, thói quen kiểm tra hằng tuần, cách hỏi rõ trách nhiệm bảo dưỡng bộ truyền động và nhớt, giữ xe sạch, ắc quy khỏe và đối chiếu khi gia hạn hoặc trả xe.',

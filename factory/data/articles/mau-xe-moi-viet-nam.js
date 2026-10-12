@@ -2,7 +2,7 @@
 
 module.exports = {
   slug: 'mau-xe-moi-viet-nam',
-  title: 'Kinh nghiệm mẫu xe mới việt nam dành cho người mới',
+  title: 'Kinh nghiệm mẫu xe mới Việt Nam dành cho người mới',
   seoTitle: 'Mẫu xe mới tại Việt Nam: kinh nghiệm chọn cho người mới',
   metaDescription: 'Mẫu xe mới ra mắt tại Việt Nam nên nhìn thế nào: xe Việt Nam và xe quốc tế, cách chọn mẫu mới phù hợp người mới, và những điều nên kiểm tra trước khi mua.',
   summary: 'Thị trường Việt Nam mỗi năm đón hàng loạt mẫu xe mới: từ các phiên bản làm mới của dòng xe số và xe ga quen thuộc tới những mẫu xe điện lần đầu xuất hiện, và ngày càng nhiều sản phẩm do các hãng trong nước phát triển, sản xuất hoặc lắp ráp. Với người mới lần đầu mua xe, đa dạng ấy vừa là lợi thế — lựa chọn chưa bao giờ nhiều đến thế — vừa là gánh nặng thông tin: mỗi mẫu mới lại có bài ra mắt, video đánh giá, tranh luận trên nhóm người dùng, và không ít quảng cáo được trình bày như bài viết khách quan. Bài viết này giúp người mới có hệ thống nhìn thị trường mẫu xe mới tại Việt Nam: những nhóm sản phẩm chính, đặc trưng của xe do hãng trong nước phát triển so với xe nhập hoặc lắp ráp, các câu hỏi nên đặt ra trước khi một mẫu mới làm bạn rung động, và bộ kiểm tra thực tế cần làm trước khi xuống tiền. Mục tiêu không phải giới thiệu một mẫu cụ thể, mà trang bị cách nhìn để bạn tự chọn được mẫu xe mới phù hợp túi tiền và nhu cầu thật của mình.',

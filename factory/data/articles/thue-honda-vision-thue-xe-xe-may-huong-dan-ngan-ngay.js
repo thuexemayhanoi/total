@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-huong-dan-ngan-ngay',
-  title: 'Thuê honda vision: hướng dẫn thực tế khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: hướng dẫn thực tế khi dùng ngắn ngày',
   seoTitle: 'Thuê Honda Vision 1–3 ngày: hướng dẫn thực tế gọn nhẹ',
   metaDescription: 'Hướng dẫn thực tế khi thuê Honda Vision trong một đến ba ngày: lập lịch trình gọn, nhận xe nhanh mà vẫn kiểm tra kỹ, lo xăng và bãi gửi, rồi trả xe đúng hẹn.',
   summary: 'Bài viết dành cho người thuê Honda Vision trong một đến ba ngày: cách lên kế hoạch gọn, nhận xe nhanh nhưng vẫn kiểm tra đủ, tính xăng và bãi gửi theo từng ngày, chở đồ trong cốp và trả xe đúng hẹn để mọi việc diễn ra trơn tru.',

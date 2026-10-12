@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'abs-la-gi',
-  title: 'Hướng dẫn chi tiết về abs là gì',
+  title: 'Hướng dẫn chi tiết về ABS là gì',
   seoTitle: 'ABS là gì: nguyên lý, lịch sử và sự khác biệt trên từng loại xe',
   metaDescription: 'ABS là hệ thống chống bó cứng phanh, giữ bánh xe quay ngưỡng khi phanh gấp. Giải thích nguyên lý, lịch sử, khác biệt giữa xe máy và ô tô và các hiểu lầm phổ biến.',
   summary: 'ABS là chữ viết tắt của anti-lock braking system — hệ thống phanh chống bó cứng: bộ phanh được điều khiển tự động nhả và kẹp theo nhịp rất nhanh để bánh xe không bao giờ bị khóa đứng khi người lái bóp phanh hết lực. Công nghệ này ra đời từ hàng không, lan sang ô tô rồi mới xuống xe máy, và mỗi chặng chuyển dịch đều vì một lý do giống nhau: khi bánh bị khóa, xe mất điều khiển và quãng đường dừng dài ra — con người không đủ nhanh để canh ngưỡng ấy trong tình huống bất ngờ, nên máy làm thay. Nhưng "ABS là gì" không dừng ở một câu định nghĩa: cùng là ABS, cách làm việc trên ô tô và trên xe máy khác nhau đáng kể vì hai loại xe có số bánh, tư thế và đặc tính mất lái khác nhau; và xung quanh công nghệ này có vô số hiểu lầm — từ "ABS rút ngắn cự ly phanh mọi lúc" tới "có ABS thì khỏi cần giữ khoảng cách". Bài viết giải nghĩa ABS từ gốc: nguyên lý vật lý của hiện tượng bó cứng, hệ thống làm gì từng nhịp, lịch sử phát triển, điểm khác nhau giữa các loại phương tiện, các hiểu lầm hay gặp và cách dùng ABS đúng vai trong bài học phanh của người lái.',

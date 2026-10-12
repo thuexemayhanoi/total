@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'phuot-mien-bac',
-  title: 'Phượt miền bắc — những điều cần biết',
+  title: 'Phượt miền Bắc — những điều cần biết',
   seoTitle: 'Phượt miền Bắc: những điều cần biết trước mỗi chuyến đi',
   metaDescription: 'Những điều cần biết khi phượt miền Bắc: thời tiết bốn mùa, đường núi vùng cao, mùa mưa sương mù và quy tắc an toàn cho người mới.',
   summary: 'Miền Bắc là vùng phượt xe máy đa dạng nhất Việt Nam — và cũng là vùng "đầy cá tính" nhất về thời tiết: bốn mùa rõ, mùa đông rét buốt, mùa hè mưa dông chớp mặt, mùa xuân – thu đẹp nhưng sương mù vùng cao mỗi sớm. Cùng với địa hình: đồng bằng châu thổ dày phố xá, ven biển phía đông, và vùng núi phía bắc – đông bắc – tây bắc với đèo – dốc – cua là "thánh địa" của dân phượt. Bài viết tổng hợp những điều cần biết trước khi lên đường: cách miền Bắc thay đổi theo mùa và mùa nào hợp chuyến nào; đặc thù đường núi vùng cao cần tôn trọng; nhóm quy tắc an toàn theo mùa (mưa, rét, sương); chuẩn bị xe – đồ theo chuyến; và thói quen văn hóa – ứng xử với địa phương khiến mỗi chuyến đi miền Bắc không chỉ an toàn mà còn được đón nhận tử tế. Đây không phải cẩm nang địa điểm — là cẩm nang điều kiện: nắm được điều kiện, mọi cung miền Bắc đều mở ra đúng cách.',

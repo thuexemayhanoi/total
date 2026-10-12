@@ -1,6 +1,6 @@
 module.exports = {
   slug: 'winner-x',
-  title: 'Kinh nghiệm winner x dành cho người mới',
+  title: 'Kinh nghiệm Winner X dành cho người mới',
   seoTitle: 'Honda Winner X: kinh nghiệm chọn xe, lái và bảo dưỡng',
   metaDescription: 'Kinh nghiệm Winner X cho người mới: đặc tính xe côn tay thể thao, tập côn – ga – phanh, thói quen bảo dưỡng và lưu ý khi mua cũ.',
   summary: 'Honda Winner X thuộc nhóm mô tô côn tay thể thao phổ biến nhất Việt Nam — dòng xe làm thay đổi khái niệm "xe côn tay" ở phân khúc nhỏ: dáng cúi đặc trưng, khung chắc, phanh tốt và sức mạnh nằm chờ ở vòng tua cao. Với người mới — đặc biệt người chuyển từ xe số thường — Winner X mang lại cảm giác lái hẳn khác lớp xe phổ thông, nhưng cũng đòi hỏi một bộ kỹ năng riêng: tay côn – tay ga – tay phanh phối ba thay vì hai, lối lái thể thao có kỷ luật riêng, và lịch bảo dưỡng nghiêm hơn xe số phổ thông vì máy quay cao và chạy nóng. Bài viết gói kinh nghiệm từ đầu: hiểu đặc tính chiếc xe này trước khi mua; trình tự tập côn – ga – phanh cho người mới; lối lái phố an toàn cho xe thể thao; lịch chăm với các điểm phải làm đúng; và phần mua cũ — vì dòng thể thao là dòng hay bị "chạy bão" nhất, cách tách xe được chăm với xe bị phá.',

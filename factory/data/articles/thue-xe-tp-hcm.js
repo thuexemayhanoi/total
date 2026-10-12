@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'thue-xe-tp-hcm',
-  title: 'Thuê xe tp hcm — những điều cần biết',
+  title: 'Thuê xe TP HCM — những điều cần biết',
   seoTitle: 'Thuê xe ở TP. Hồ Chí Minh: loại xe, hợp đồng và lưu ý riêng',
   metaDescription: 'Thành phố rộng, khoảng cách dài và trời mưa nhanh: thuê xe máy ở TP. Hồ Chí Minh có những điều khoản và lưu ý riêng cần biết trước khi đặt cọc.',
   summary: 'Thuê xe máy ở TP. Hồ Chí Minh là giải pháp di chuyển phổ biến cho cả khách du lịch lẫn người mới đến làm việc — thành phố rộng, khoảng cách giữa các quận tính bằng chục kilômét, và phương tiện công cộng không phủ hết mọi điểm đến. Nhưng thuê xe ở một đô thị có mật độ xe thuộc hàng cao nhất cả nước cũng có những điều riêng cần biết: dòng xe hợp với đường sá Sài Gòn, giấy tờ cần chuẩn bị theo đúng quy định, hợp đồng thuê và khoản trách nhiệm phải thấy rõ bằng chữ, cùng những đặc thù địa phương — mưa rào đến nhanh làm xe ướt giữa chừng, nước triều dâng gây ngập cục bộ ở các quận trũng, bãi gửi xe là một phần không thể tách của mọi điểm đến, và an ninh xe cần thói quen khóa kỹ hơn ở nhiều nơi khác. Bài viết tổng hợp những điều cần biết khi thuê xe ở TP. Hồ Chí Minh: chọn loại xe và gói thuê theo thời gian lưu lại, chuẩn bị giấy tờ, đọc hợp đồng đúng trọng tâm, nhận và trả xe sạch sẽ, cùng những lưu ý an toàn và an ninh đặc thù của thành phố này.',
