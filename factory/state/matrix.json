@@ -15708,11 +15708,13 @@
    "title": "Cách đọc đánh giá xe máy trên mạng: phân biệt trải nghiệm thật và nội dung quảng cáo trá hình",
    "primaryIntent": "informational/cach-doc-review-xe-may",
    "notes": "source=topic-v2 topicId=T001128",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.340Z",
-   "updatedAt": "2026-10-12T10:16:36.340Z"
+   "updatedAt": "2026-10-12T10:52:45.821Z",
+   "seoScore": 100,
+   "words": 1841
   },
   {
    "id": "S01092",
@@ -15736,11 +15738,13 @@
    "title": "Lái thử hai mẫu xe trước khi quyết định: bảng chấm điểm tự làm theo nhu cầu của bạn",
    "primaryIntent": "commercial/lai-thu-xe-may-de-so-sanh",
    "notes": "source=topic-v2 topicId=T001129",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:47:21.109Z",
-   "updatedAt": "2026-10-12T10:47:21.109Z"
+   "updatedAt": "2026-10-12T10:52:45.821Z",
+   "seoScore": 100,
+   "words": 2494
   }
  ]
 }

@@ -1632,6 +1632,10 @@
   "kind": "article"
  },
  {
+  "rel": "review/review-xe/cach-doc-review-xe-may/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/huong-dan-su-dung/cach-dung-smart-key-xe-tay-ga/index.html",
   "kind": "article"
  },
@@ -2205,6 +2209,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/ky-thuat-lai-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/so-sanh-xe/lai-thu-xe-may-de-so-sanh/index.html",
   "kind": "article"
  },
  {

@@ -8503,6 +8503,33 @@
   ]
  },
  {
+  "url": "review/review-xe/cach-doc-review-xe-may/",
+  "title": "Cách đọc đánh giá xe máy trên mạng: phân biệt trải nghiệm thật và nội dung quảng cáo trá hình",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe",
+  "summary": "Bài hướng dẫn người định mua xe máy đọc đánh giá trên mạng một cách tỉnh táo: vì sao review dễ gây hiểu nhầm, những dấu hiệu thường gặp của nội dung quảng cáo trá hình, những dấu hiệu của trải nghiệm thật, cách tổng hợp nhiều nguồn và cách biến thông tin thành câu hỏi để hỏi đại lý và lái thử.",
+  "quickAnswer": "Đọc review xe máy tỉnh táo là tìm bằng chứng của việc sử dụng thật: thời gian dùng, hoàn cảnh, cả ưu lẫn nhược điểm. Nội dung chỉ khen, dùng lời giống nhau và thúc giục mua dễ là quảng cáo; hãy đối chiếu nhiều nguồn rồi kiểm tra lại bằng lái thử.",
+  "keyPoints": [
+   "Đánh giá trên mạng có thể do người dùng, nhà báo, nhà sáng tạo nội dung hoặc bên có lợi ích thương mại viết.",
+   "Bài chỉ nêu ưu điểm, không có hoàn cảnh sử dụng cụ thể và dùng ngôn từ quảng bá là dấu hiệu cần dè chừng.",
+   "Trải nghiệm thật thường có chi tiết vụn vặt, thời gian dùng và cả điều bất tiện.",
+   "Không nên dựa vào một nguồn; hãy đối chiếu nhiều nguồn độc lập và tài liệu chính hãng."
+  ],
+  "entities": [
+   "đánh giá xe máy",
+   "review",
+   "quảng cáo trá hình",
+   "trải nghiệm thật",
+   "lái thử"
+  ],
+  "keywords": [
+   "cách đọc review xe máy",
+   "review xe máy có đáng tin không",
+   "nhận biết bài quảng cáo trá hình",
+   "đánh giá xe máy trên mạng"
+  ]
+ },
+ {
   "url": "docs/huong-dan-su-dung/cach-dung-smart-key-xe-tay-ga/",
   "title": "Chìa khóa thông minh smart key trên xe tay ga: cách dùng, thay pin và xử lý khi không mở được xe",
   "category": "Tài liệu",
@@ -12503,6 +12530,33 @@
    "khoảng cách an toàn",
    "nhìn xa khi lái",
    "lái xe cho người mới"
+  ]
+ },
+ {
+  "url": "review/so-sanh-xe/lai-thu-xe-may-de-so-sanh/",
+  "title": "Lái thử hai mẫu xe trước khi quyết định: bảng chấm điểm tự làm theo nhu cầu của bạn",
+  "category": "Đánh giá",
+  "hub": "So sánh xe",
+  "summary": "Bài hướng dẫn người đang phân vân giữa hai mẫu xe máy cách lái thử có hệ thống: chọn năm sáu tiêu chí gắn với nhu cầu và tự đặt trọng số, lái cả hai xe theo cùng một quy trình, ghi điểm ngay sau mỗi lần thử, rồi đọc kết quả cùng các điều kiện loại trừ và biến điểm thấp thành câu hỏi cho đại lý.",
+  "quickAnswer": "Để so sánh công bằng hai mẫu xe, hãy thử cả hai theo cùng một quy trình: cùng tuyến, cùng người lái, cùng điều kiện. Chọn vài tiêu chí gắn với nhu cầu, gán trọng số trước khi thử, chấm điểm ngay sau mỗi lần thử rồi dùng kết quả để đặt thêm câu hỏi thay vì để con số quyết định thay bạn.",
+  "keyPoints": [
+   "Thử hai xe trong cùng điều kiện, cùng tuyến, cùng người lái, cùng trang phục và đồ mang theo, để khác biệt đến từ chiếc xe chứ không phải từ hoàn cảnh.",
+   "Chọn khoảng năm sáu tiêu chí gắn với nhu cầu và gán trọng số trước khi thử, để không chỉnh trọng số theo chiếc xe mình thích.",
+   "Đặt riêng các điều kiện loại trừ liên quan đến an toàn và khả năng kiểm soát xe; xe vi phạm thì bị loại dù tổng điểm cao.",
+   "Ghi điểm và lý do ngay sau mỗi lần thử, trước khi trò chuyện với nhân viên hoặc nhìn sang chiếc xe còn lại."
+  ],
+  "entities": [
+   "lái thử xe máy",
+   "bảng chấm điểm",
+   "trọng số",
+   "so sánh hai mẫu xe",
+   "điều kiện loại trừ"
+  ],
+  "keywords": [
+   "lái thử xe máy để so sánh",
+   "bảng chấm điểm so sánh xe",
+   "lái thử trước khi mua xe",
+   "cách lái thử xe máy"
   ]
  },
  {
