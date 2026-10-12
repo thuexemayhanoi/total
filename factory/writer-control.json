@@ -1,5 +1,5 @@
 {
   "schemaVersion": 1,
-  "mode": "paused",
-  "reason": "Writer 1 paused intentionally by repository owner during wiki-domain migration and workflow QA."
+  "mode": "running",
+  "reason": "Owner authorized running mode. External Mistral writer must be started separately; do not fabricate heartbeat."
 }
