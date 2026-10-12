@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-duong-dai',
-  title: 'Thuê xe máy hà nội: đặt cọc và nghiệm thu an toàn khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: đặt cọc và nghiệm thu an toàn khi đi đường dài',
   seoTitle: 'Đặt cọc và nghiệm thu xe máy Hà Nội khi đi đường dài',
   metaDescription: 'Cách đặt cọc và nghiệm thu xe máy thuê tại Hà Nội trước chuyến đi xa: hỏi rõ phạm vi di chuyển, kiểm tra lốp phanh, thỏa thuận xử lý sự cố và đối chiếu khi trả xe.',
   summary: 'Bài viết dành cho người thuê xe máy ở Hà Nội rồi đi liên tỉnh hoặc đi phượt: những điều cần hỏi về phạm vi sử dụng, cách đặt cọc khi xe rời thành phố, kiểm tra xe kỹ trước khi khởi hành, thỏa thuận xử lý sự cố giữa đường và cách giữ bằng chứng suốt hành trình để nhận lại cọc thuận lợi.',

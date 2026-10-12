@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-dat-coc-do-thi',
-  title: 'Thuê xe máy hà nội: đặt cọc và nghiệm thu an toàn trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: đặt cọc và nghiệm thu an toàn trong điều kiện đô thị',
   seoTitle: 'Đặt cọc, nghiệm thu xe máy thuê trong nội đô Hà Nội',
   metaDescription: 'Đặt cọc và nghiệm thu xe máy thuê khi chạy trong nội đô Hà Nội: biên nhận rõ ràng, kiểm tra từng bộ phận, phòng mất trộm, hư hại nhỏ và đối chiếu lúc trả xe.',
   summary: 'Bài viết dành cho người thuê xe máy để đi lại trong nội đô Hà Nội: cách đặt cọc có biên nhận rõ ràng, nghiệm thu từng bộ phận trước khi hòa vào dòng xe đông, phòng tránh hư hại nhỏ khi đỗ xe, chống mất trộm và trả xe đúng cách trong giờ đông người để nhận lại cọc.',

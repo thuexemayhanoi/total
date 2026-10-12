@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-thuc-te',
-  title: 'Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả theo tình huống thực tế',
+  title: 'Thuê xe máy Hà Nội: những điều cần nhớ khi hoàn trả theo tình huống thực tế',
   seoTitle: 'Trả xe máy thuê ở Hà Nội: xử lý các tình huống thực tế',
   metaDescription: 'Cách xử lý các tình huống thực tế khi trả xe máy thuê ở Hà Nội: trả muộn, trả sớm, đến nơi chưa có người tiếp nhận, phát hiện vết xước mới hoặc thiếu phụ kiện.',
   summary: 'Bài giải thích cách ứng xử trong những tình huống thực tế hay gặp khi trả xe máy thuê ở Hà Nội: phải trả muộn, cần trả sớm, đến nơi mà chưa có ai tiếp nhận, phát hiện vết xước mới hoặc thiếu chìa phụ, mũ và phụ kiện đi kèm.',

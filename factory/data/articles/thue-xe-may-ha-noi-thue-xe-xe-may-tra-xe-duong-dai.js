@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-duong-dai',
-  title: 'Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: những điều cần nhớ khi hoàn trả khi đi đường dài',
   seoTitle: 'Trả xe máy thuê sau chuyến đi đường dài từ Hà Nội',
   metaDescription: 'Điều cần nhớ khi trả xe máy thuê sau chuyến đi đường dài từ Hà Nội: lên kế hoạch đường về, dự phòng thời gian, kiểm tra xe sau hành trình và báo sự cố cho bên cho thuê.',
   summary: 'Bài hướng dẫn cách hoàn trả xe máy thuê sau chuyến đi đường dài xuất phát từ Hà Nội: lên kế hoạch đường về, chừa thời gian dự phòng, xử lý tình trạng xe sau hành trình, báo sự cố và đối chiếu quãng đường, nhiên liệu theo thỏa thuận.',

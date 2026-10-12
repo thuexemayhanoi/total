@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-tra-xe-do-thi',
-  title: 'Thuê xe máy hà nội: những điều cần nhớ khi hoàn trả trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: những điều cần nhớ khi hoàn trả trong điều kiện đô thị',
   seoTitle: 'Trả xe máy thuê trong nội đô Hà Nội: điều cần nhớ',
   metaDescription: 'Điều cần nhớ khi trả xe máy thuê giữa nội đô Hà Nội: chọn lộ trình tránh giờ cao điểm, dừng xe bàn giao gọn, gom đồ, kiểm tra vết xước do đỗ phố và xác nhận khóa, chìa.',
   summary: 'Bài hướng dẫn cách trả xe máy thuê trong điều kiện đô thị ở Hà Nội: chọn lộ trình về điểm trả tránh giờ đông xe, dừng xe bàn giao không cản lối, gom đồ cá nhân, soát lại vết xước do đỗ xe trong phố và xác nhận chìa khóa cùng phụ kiện.',
