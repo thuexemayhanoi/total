@@ -11463,11 +11463,13 @@
    "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc cho người mới",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-hop-dong-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1600
   },
   {
    "id": "S00769",
@@ -11476,11 +11478,13 @@
    "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc khi dùng ngắn ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-hop-dong-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1507
   },
   {
    "id": "S00770",
@@ -11489,11 +11493,13 @@
    "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc khi dùng dài ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-hop-dong-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1540
   },
   {
    "id": "S00771",
@@ -11502,11 +11508,13 @@
    "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc khi đi đường dài",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-hop-dong-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1540
   },
   {
    "id": "S00772",
@@ -11515,11 +11523,13 @@
    "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc trong điều kiện đô thị",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-hop-dong-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1584
   },
   {
    "id": "S00773",
@@ -11528,11 +11538,13 @@
    "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc theo tình huống thực tế",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-hop-dong-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1595
   },
   {
    "id": "S00774",
@@ -11541,11 +11553,13 @@
    "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh cho người mới",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-rui-ro-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1517
   },
   {
    "id": "S00775",
@@ -11554,11 +11568,13 @@
    "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh khi dùng ngắn ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-rui-ro-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1519
   },
   {
    "id": "S00776",
@@ -11567,11 +11583,13 @@
    "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh khi dùng dài ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-rui-ro-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1548
   },
   {
    "id": "S00777",
@@ -11580,11 +11598,13 @@
    "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh khi đi đường dài",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-rui-ro-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.736Z",
-   "updatedAt": "2026-10-07T11:49:02.736Z"
+   "updatedAt": "2026-10-12T08:42:46.204Z",
+   "seoScore": 100,
+   "words": 1604
   },
   {
    "id": "S00778",

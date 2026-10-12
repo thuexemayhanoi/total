@@ -14822,6 +14822,186 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-hop-dong-dai-ngay/",
+  "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc khi dùng dài ngày",
+  "description": "Thuê xe máy theo tuần hoặc theo tháng cần hợp đồng rõ ràng về thời hạn, gia hạn, bảo dưỡng định kỳ, lịch thanh toán, phụ lục và biên bản kiểm tra giữa kỳ.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "hợp đồng thuê xe dài ngày",
+   "xe máy",
+   "bảo dưỡng định kỳ",
+   "phụ lục hợp đồng"
+  ],
+  "keywords": [
+   "hợp đồng thuê xe máy dài ngày",
+   "thuê xe máy theo tháng điều khoản",
+   "bảo dưỡng xe thuê",
+   "phụ lục hợp đồng thuê xe"
+  ],
+  "seoTitle": "Hợp đồng thuê xe máy dài ngày: điều khoản cần đọc kỹ",
+  "primaryKeyword": "hợp đồng thuê xe máy dài ngày",
+  "headings": [
+   "Hợp đồng dài ngày khác gì thỏa thuận thuê vài hôm",
+   "Thời hạn, gia hạn và việc chấm dứt trước hạn",
+   "Bảo dưỡng định kỳ, hao mòn và ai chịu trách nhiệm",
+   "Lịch thanh toán và cách lưu chứng từ qua từng kỳ",
+   "Phụ lục, biên bản giữa kỳ và lúc kết thúc"
+  ],
+  "summary": "Bài viết giúp người thuê xe máy dài ngày đọc hợp đồng đúng trọng tâm: khác biệt so với thuê vài hôm, điều khoản thời hạn và gia hạn, trách nhiệm bảo dưỡng định kỳ, cách lưu chứng từ thanh toán nhiều kỳ và vai trò của phụ lục hay biên bản kiểm tra giữa kỳ."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-hop-dong-do-thi/",
+  "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc trong điều kiện đô thị",
+  "description": "Thuê xe máy đi lại trong phố cần xem kỹ điều khoản về gửi xe, mất cắp, vết xước cũ, va quệt nhỏ, vi phạm giao thông và biên bản bàn giao chìa khóa, đồ đi kèm.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "hợp đồng thuê xe",
+   "xe máy",
+   "giao thông đô thị",
+   "biên bản bàn giao"
+  ],
+  "keywords": [
+   "hợp đồng thuê xe máy trong thành phố",
+   "điều khoản gửi xe mất cắp",
+   "vết xước xe thuê",
+   "vi phạm giao thông xe thuê"
+  ],
+  "seoTitle": "Thuê xe máy trong đô thị: hợp đồng và điều khoản cần đọc",
+  "primaryKeyword": "hợp đồng thuê xe máy trong thành phố",
+  "headings": [
+   "Thuê xe trong phố: điều khoản về gửi xe và mất cắp",
+   "Vết xước cũ và va quệt nhỏ: ghi rõ trước khi chạy",
+   "Vi phạm giao thông trong thời gian thuê: văn bản nói gì",
+   "Chìa khóa, khóa phụ và đồ đi kèm trong biên bản bàn giao",
+   "Giấy tờ khi dùng xe trong phố: mang gì, cất ở đâu"
+  ],
+  "summary": "Bài viết giúp người thuê xe máy dùng trong thành phố đọc hợp đồng đúng trọng tâm: trách nhiệm khi gửi xe và mất cắp, cách ghi vết xước cũ, ứng xử với va quệt nhỏ, ai xử lý thông báo vi phạm giao thông, và biên bản bàn giao chìa khóa cùng đồ đi kèm."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-hop-dong-duong-dai/",
+  "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc khi đi đường dài",
+  "description": "Đi xe máy thuê liên tỉnh cần xem hợp đồng về phạm vi di chuyển, hỗ trợ khi xe hỏng giữa đường, giấy tờ mang theo suốt hành trình và cách trả xe khác điểm.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "hợp đồng thuê xe",
+   "xe máy",
+   "đi đường dài",
+   "hỗ trợ sự cố"
+  ],
+  "keywords": [
+   "thuê xe máy đi đường dài",
+   "hợp đồng thuê xe máy liên tỉnh",
+   "xe thuê hỏng giữa đường",
+   "điều khoản phạm vi di chuyển"
+  ],
+  "seoTitle": "Thuê xe máy đi đường dài: hợp đồng và điều khoản cần đọc",
+  "primaryKeyword": "thuê xe máy đi đường dài",
+  "headings": [
+   "Đi liên tỉnh: những điều khoản dễ bị bỏ sót",
+   "Phạm vi di chuyển và giới hạn trong hợp đồng",
+   "Xe hỏng giữa đường: ai hỗ trợ, ai chịu chi phí",
+   "Giấy tờ cần mang theo suốt hành trình",
+   "Trả xe khác điểm hoặc trễ chuyến: thỏa thuận bằng văn bản"
+  ],
+  "summary": "Bài viết dành cho người thuê xe máy đi đường dài hoặc liên tỉnh: cách đọc điều khoản về phạm vi được phép di chuyển, trách nhiệm khi xe hỏng ở nơi xa, giấy tờ cần mang theo suốt hành trình, và thỏa thuận bằng văn bản khi trả xe khác điểm hoặc trễ chuyến."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-hop-dong-ngan-ngay/",
+  "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc khi dùng ngắn ngày",
+  "description": "Thuê xe máy một đến ba ngày vẫn cần đọc hợp đồng: giờ nhận, giờ trả, cách tính ngày, nhiên liệu, phạm vi sử dụng và quy định khi trả sớm hoặc muộn.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "hợp đồng thuê xe",
+   "thuê xe ngắn ngày",
+   "xe máy",
+   "giờ trả xe"
+  ],
+  "keywords": [
+   "hợp đồng thuê xe máy ngắn ngày",
+   "điều khoản thuê xe vài ngày",
+   "giờ trả xe máy",
+   "giấy tờ thuê xe ngắn ngày"
+  ],
+  "seoTitle": "Thuê xe máy ngắn ngày: hợp đồng và điều khoản cần đọc",
+  "primaryKeyword": "hợp đồng thuê xe máy ngắn ngày",
+  "headings": [
+   "Thuê vài ngày: thời gian là điểm dễ sai nhất",
+   "Giờ nhận, giờ trả và cách tính một ngày thuê",
+   "Giấy tờ mang theo để bàn giao xe gọn gàng",
+   "Nhiên liệu, phạm vi sử dụng và đồ đi kèm",
+   "Trả xe sớm hoặc muộn: hỏi trước để khỏi bất ngờ"
+  ],
+  "summary": "Bài viết dành cho người chỉ thuê xe máy trong vài ngày: tập trung vào các điều khoản liên quan đến thời gian, cách tính một ngày thuê, giấy tờ mang theo để nhận xe nhanh, nhiên liệu, phạm vi sử dụng và cách thỏa thuận khi phải trả xe sớm hoặc muộn."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-hop-dong-nguoi-moi/",
+  "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc cho người mới",
+  "description": "Người thuê xe máy lần đầu nên đọc gì trong hợp đồng: thông tin các bên, tình trạng xe, trách nhiệm khi hư hỏng, đặt cọc, trả xe và những câu cần hỏi trước khi ký.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "hợp đồng thuê xe",
+   "xe máy",
+   "giấy tờ thuê xe",
+   "người thuê lần đầu"
+  ],
+  "keywords": [
+   "hợp đồng thuê xe máy",
+   "điều khoản thuê xe người mới",
+   "giấy tờ thuê xe",
+   "đọc hợp đồng trước khi ký"
+  ],
+  "seoTitle": "Hợp đồng thuê xe máy cho người mới: điều khoản cần đọc",
+  "primaryKeyword": "hợp đồng thuê xe máy",
+  "headings": [
+   "Vì sao người thuê lần đầu không nên ký vội",
+   "Hai nhóm giấy tờ cần đối chiếu: của bạn và của chiếc xe",
+   "Năm nhóm điều khoản cốt lõi nên tìm trong văn bản",
+   "Đọc điều khoản về hư hỏng và trách nhiệm cho đúng",
+   "Câu hỏi nên đặt trước khi ký và cách lưu bằng chứng"
+  ],
+  "summary": "Bài hướng dẫn người thuê xe máy lần đầu cách đọc hợp đồng một cách bình tĩnh: nhận diện các mục cốt lõi, đối chiếu giấy tờ của hai bên, hiểu điều khoản về hư hỏng và đặt cọc, rồi chuẩn bị danh sách câu hỏi cùng bằng chứng cần lưu trước khi đặt bút ký."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-hop-dong-thuc-te/",
+  "title": "Giấy tờ thuê xe: hợp đồng và điều khoản cần đọc theo tình huống thực tế",
+  "description": "Cách đọc hợp đồng thuê xe máy bằng việc hình dung tình huống: xe chết máy, thủng lốp, va chạm, mưa lớn, trả muộn, mất chìa khóa hoặc mất xe và điều khoản liên quan.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "hợp đồng thuê xe",
+   "xe máy",
+   "tình huống sự cố",
+   "trách nhiệm người thuê"
+  ],
+  "keywords": [
+   "hợp đồng thuê xe máy tình huống",
+   "xe thuê chết máy phải làm gì",
+   "xe thuê bị tai nạn",
+   "mất chìa khóa xe thuê"
+  ],
+  "seoTitle": "Đọc hợp đồng thuê xe máy qua các tình huống thực tế",
+  "primaryKeyword": "hợp đồng thuê xe máy tình huống",
+  "headings": [
+   "Đọc hợp đồng bằng cách hình dung điều không mong muốn",
+   "Tình huống xe chết máy hoặc thủng lốp giữa đường",
+   "Tình huống va chạm hoặc tai nạn",
+   "Tình huống mưa lớn, kẹt xe và trả xe muộn",
+   "Tình huống mất chìa khóa, mất giấy tờ xe hoặc mất xe"
+  ],
+  "summary": "Thay vì đọc hợp đồng từ trên xuống dưới, bài viết gợi ý cách đọc theo các tình huống người thuê xe máy hay gặp: xe hỏng giữa đường, va chạm, mưa lớn và kẹt xe, trả muộn, mất chìa khóa hoặc mất xe, rồi đối chiếu từng tình huống với điều khoản cần có."
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-huong-dan-dai-ngay/",
   "title": "Giấy tờ thuê xe: hướng dẫn thực tế khi dùng dài ngày",
   "description": "Giấy tờ khi thuê xe máy theo tuần hoặc tháng: hợp đồng dài hạn, phụ lục gia hạn, theo dõi hạn giấy tờ, hồ sơ bảo dưỡng và cách lưu trữ gọn để đóng hồ sơ cuối kỳ.",
@@ -15182,6 +15362,36 @@
  },
  {
   "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-dai-ngay/",
+  "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh khi dùng dài ngày",
+  "description": "Thuê xe máy dài ngày dễ gặp rủi ro âm thầm: bảo dưỡng không ai nhận, thanh toán thiếu biên nhận, giấy tờ hết hạn giữa chừng, gia hạn bằng lời nói.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "rủi ro thuê xe",
+   "thuê xe dài ngày",
+   "xe máy",
+   "bảo dưỡng xe thuê"
+  ],
+  "keywords": [
+   "rủi ro thuê xe máy dài ngày",
+   "thuê xe máy theo tháng cần lưu ý",
+   "bảo dưỡng xe thuê ai chịu",
+   "gia hạn thuê xe bằng văn bản"
+  ],
+  "seoTitle": "Rủi ro giấy tờ khi thuê xe máy dài ngày và cách tránh",
+  "primaryKeyword": "rủi ro thuê xe máy dài ngày",
+  "headings": [
+   "Thuê càng lâu, rủi ro càng tích lũy âm thầm",
+   "Rủi ro bảo dưỡng: khi không ai nhận trách nhiệm",
+   "Rủi ro thanh toán nhiều kỳ không có biên nhận",
+   "Rủi ro giấy tờ hết hạn giữa chừng",
+   "Rủi ro khi gia hạn miệng hoặc đổi người sử dụng"
+  ],
+  "summary": "Bài viết điểm các rủi ro tích lũy khi thuê xe máy dài ngày: không ai nhận trách nhiệm bảo dưỡng, thanh toán nhiều kỳ không có biên nhận, giấy tờ liên quan đến xe hết hạn giữa chừng, gia hạn hoặc đổi người sử dụng chỉ bằng lời nói, cùng cách phòng tránh từng rủ"
+ },
+ {
+  "kind": "article",
   "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-do-thi/",
   "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh trong điều kiện đô thị",
   "description": "Rủi ro giấy tờ khi thuê xe máy đi trong thành phố: bị giữ giấy tờ gốc, thất lạc khi gửi xe, bị kiểm tra giữa đường và cách phòng tránh từng tình huống.",
@@ -15209,6 +15419,96 @@
    "Trả xe giữa phố và lấy lại giấy tờ an toàn"
   ],
   "summary": "Bài hướng dẫn người thuê xe máy nhận diện những rủi ro về giấy tờ khi đi lại trong đô thị đông đúc: giấy tờ gốc nằm lại với bên cho thuê, giấy tờ xe để trong cốp lúc gửi xe, bị yêu cầu xuất trình giữa đường và lúc trả xe vội vàng, kèm cách phòng tránh thực tế."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-duong-dai/",
+  "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh khi đi đường dài",
+  "description": "Đi đường dài bằng xe máy thuê dễ gặp rủi ro: vượt phạm vi cho phép, sự cố ở nơi xa, chậm hỗ trợ, gửi xe qua đêm và trả xe trễ vì thời tiết hoặc tắc đường.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "rủi ro thuê xe",
+   "đi đường dài",
+   "xe máy",
+   "phạm vi sử dụng"
+  ],
+  "keywords": [
+   "rủi ro thuê xe máy đường dài",
+   "thuê xe máy đi liên tỉnh cần lưu ý",
+   "xe thuê hỏng ở nơi xa",
+   "gửi xe qua đêm khi đi phượt"
+  ],
+  "seoTitle": "Rủi ro giấy tờ khi thuê xe máy đi đường dài và cách tránh",
+  "primaryKeyword": "rủi ro thuê xe máy đường dài",
+  "headings": [
+   "Đường dài làm mọi rủi ro nhỏ phình to",
+   "Rủi ro vượt phạm vi cho phép mà không hay biết",
+   "Rủi ro sự cố ở nơi xa và chậm hỗ trợ",
+   "Rủi ro qua đêm: gửi xe, mất cắp và hư hại",
+   "Rủi ro trả xe trễ vì thời tiết hoặc tắc đường"
+  ],
+  "summary": "Bài viết điểm các rủi ro thường gặp khi thuê xe máy đi đường dài liên quan đến giấy tờ và thỏa thuận: vượt phạm vi cho phép mà không hay biết, sự cố ở nơi xa và hỗ trợ chậm, hư hại hoặc mất cắp khi gửi xe qua đêm, và trả xe trễ do thời tiết hoặc tắc đường."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-ngan-ngay/",
+  "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh khi dùng ngắn ngày",
+  "description": "Thuê xe máy một đến ba ngày dễ gặp rủi ro do vội: nhận xe không kiểm tra, hiểu sai giờ trả, tranh cãi nhiên liệu và đặt chỗ trực tuyến lệch với văn bản ký.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "rủi ro thuê xe",
+   "thuê xe ngắn ngày",
+   "xe máy",
+   "giờ trả xe"
+  ],
+  "keywords": [
+   "rủi ro thuê xe máy ngắn ngày",
+   "thuê xe máy vài ngày cần lưu ý",
+   "tranh cãi giờ trả xe",
+   "đặt xe trực tuyến lệch hợp đồng"
+  ],
+  "seoTitle": "Rủi ro giấy tờ khi thuê xe máy ngắn ngày và cách tránh",
+  "primaryKeyword": "rủi ro thuê xe máy ngắn ngày",
+  "headings": [
+   "Thời gian gấp khiến rủi ro tăng lên",
+   "Rủi ro khi nhận xe vội hoặc vào lúc trời tối",
+   "Rủi ro về giờ trả xe và nơi trả xe",
+   "Rủi ro tranh chấp nhiên liệu và phụ kiện",
+   "Rủi ro khi nội dung đặt chỗ không khớp văn bản ký"
+  ],
+  "summary": "Bài viết điểm các rủi ro giấy tờ và thỏa thuận thường gặp khi thuê xe máy ngắn ngày: vội vàng nhận xe, nhận xe vào buổi tối, hiểu sai giờ và nơi trả xe, tranh chấp nhiên liệu cùng phụ kiện, và nội dung đặt chỗ trực tuyến không khớp với văn bản ký."
+ },
+ {
+  "kind": "article",
+  "url": "thue-xe/xe-may/giay-to-thue-xe-thue-xe-xe-may-rui-ro-nguoi-moi/",
+  "title": "Giấy tờ thuê xe: rủi ro thường gặp và cách tránh cho người mới",
+  "description": "Rủi ro giấy tờ người thuê xe máy lần đầu hay gặp: ký khi chưa hiểu, bị giữ giấy tờ gốc, xe thiếu giấy tờ, bị tính phí hư hỏng vô căn cứ và cách tự bảo vệ.",
+  "category": "Thuê xe",
+  "hub": "Xe máy",
+  "entities": [
+   "rủi ro thuê xe",
+   "giấy tờ thuê xe",
+   "xe máy",
+   "người thuê lần đầu"
+  ],
+  "keywords": [
+   "rủi ro khi thuê xe máy",
+   "giấy tờ thuê xe người mới",
+   "thuê xe bị giữ giấy tờ",
+   "tránh bị tính phí hư hỏng"
+  ],
+  "seoTitle": "Rủi ro giấy tờ khi thuê xe máy lần đầu và cách tránh",
+  "primaryKeyword": "rủi ro khi thuê xe máy",
+  "headings": [
+   "Rủi ro đầu tiên: ký khi chưa hiểu",
+   "Rủi ro khi giao giấy tờ gốc cho người khác giữ",
+   "Rủi ro từ xe có giấy tờ không rõ ràng",
+   "Rủi ro bị tính khoản hư hỏng thiếu căn cứ",
+   "Cách tự bảo vệ: bộ bằng chứng tối thiểu"
+  ],
+  "summary": "Bài viết điểm lại các rủi ro thường gặp liên quan đến giấy tờ khi thuê xe máy lần đầu: ký vì bị thúc giục, giao giấy tờ gốc không biên nhận, nhận xe thiếu giấy tờ hợp lệ, bị tính khoản hư hỏng không có cơ sở, và bộ bằng chứng tối thiểu để tự bảo vệ."
  },
  {
   "kind": "article",
