@@ -7863,11 +7863,13 @@
    "title": "Thuê xe máy: hướng dẫn thực tế cho người mới",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-huong-dan-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.710Z",
-   "updatedAt": "2026-10-07T11:49:02.710Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1551
   },
   {
    "id": "S00529",
@@ -7876,11 +7878,13 @@
    "title": "Thuê xe máy: hướng dẫn thực tế khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-huong-dan-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.711Z",
-   "updatedAt": "2026-10-07T11:49:02.711Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1530
   },
   {
    "id": "S00530",
@@ -7889,11 +7893,13 @@
    "title": "Thuê xe máy: hướng dẫn thực tế khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-huong-dan-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.711Z",
-   "updatedAt": "2026-10-07T11:49:02.711Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1577
   },
   {
    "id": "S00531",
@@ -7902,11 +7908,13 @@
    "title": "Thuê xe máy: hướng dẫn thực tế khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-huong-dan-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.711Z",
-   "updatedAt": "2026-10-07T11:49:02.711Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1586
   },
   {
    "id": "S00532",
@@ -7915,11 +7923,13 @@
    "title": "Thuê xe máy: hướng dẫn thực tế trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-huong-dan-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.711Z",
-   "updatedAt": "2026-10-07T11:49:02.711Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1605
   },
   {
    "id": "S00533",
@@ -7928,11 +7938,13 @@
    "title": "Thuê xe máy: hướng dẫn thực tế theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-huong-dan-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.712Z",
-   "updatedAt": "2026-10-07T11:49:02.712Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1583
   },
   {
    "id": "S00534",
@@ -7941,11 +7953,13 @@
    "title": "Thuê xe máy: thủ tục và giấy tờ cho người mới",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-thu-tuc-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.712Z",
-   "updatedAt": "2026-10-07T11:49:02.712Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1592
   },
   {
    "id": "S00535",
@@ -7954,11 +7968,13 @@
    "title": "Thuê xe máy: thủ tục và giấy tờ khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-thu-tuc-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.712Z",
-   "updatedAt": "2026-10-07T11:49:02.712Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1574
   },
   {
    "id": "S00536",
@@ -7967,11 +7983,13 @@
    "title": "Thuê xe máy: thủ tục và giấy tờ khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-thu-tuc-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.712Z",
-   "updatedAt": "2026-10-07T11:49:02.712Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1565
   },
   {
    "id": "S00537",
@@ -7980,11 +7998,13 @@
    "title": "Thuê xe máy: thủ tục và giấy tờ khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-thu-tuc-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.713Z",
-   "updatedAt": "2026-10-07T11:49:02.713Z"
+   "updatedAt": "2026-10-12T08:02:22.621Z",
+   "seoScore": 100,
+   "words": 1624
   },
   {
    "id": "S00538",
