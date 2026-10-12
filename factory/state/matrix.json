@@ -17165,6 +17165,84 @@
    "attempts": 0,
    "createdAt": "2026-10-12T17:56:32.829Z",
    "updatedAt": "2026-10-12T17:56:32.829Z"
+  },
+  {
+   "id": "S01190",
+   "hub": "garage/truyen-dong",
+   "slug": "xe-tay-ga-bi-giat-khi-di-cham",
+   "title": "Xe tay ga giật khi đi chậm hoặc rung ở ga đầu: bộ truyền động, bố nồi và những điều cần ghi lại",
+   "primaryIntent": "troubleshooting/xe-tay-ga-bi-giat-khi-di-cham",
+   "notes": "source=topic-v2 topicId=T001255",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T17:59:40.989Z",
+   "updatedAt": "2026-10-12T17:59:40.989Z"
+  },
+  {
+   "id": "S01191",
+   "hub": "garage/truyen-dong",
+   "slug": "tieng-keu-tu-bo-noi-xe-tay-ga",
+   "title": "Tiếng kêu từ bộ nồi xe tay ga: cạch cạch, dọng, hú hoặc rít và cách mô tả để thợ chẩn đoán",
+   "primaryIntent": "troubleshooting/tieng-keu-tu-bo-noi-xe-tay-ga",
+   "notes": "source=topic-v2 topicId=T001256",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T17:59:41.009Z",
+   "updatedAt": "2026-10-12T17:59:41.009Z"
+  },
+  {
+   "id": "S01192",
+   "hub": "garage/phun-xang-che-hoa-khi",
+   "slug": "xe-may-tu-ro-ga-hoac-ga-cam-chung-cao",
+   "title": "Xe máy tự rồ ga hoặc ga cầm chừng cao bất thường: rò khí nạp, họng ga, cảm biến và điều nên làm",
+   "primaryIntent": "troubleshooting/xe-may-tu-ro-ga-hoac-ga-cam-chung-cao",
+   "notes": "source=topic-v2 topicId=T001257",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T17:59:41.024Z",
+   "updatedAt": "2026-10-12T17:59:41.024Z"
+  },
+  {
+   "id": "S01193",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "xe-may-dien-khong-len-nguon-kiem-tra-gi",
+   "title": "Xe máy điện bật khóa không lên nguồn hoặc không lên màn hình: những điểm quan sát an toàn trước khi gọi thợ",
+   "primaryIntent": "troubleshooting/xe-may-dien-khong-len-nguon-kiem-tra-gi",
+   "notes": "source=topic-v2 topicId=T001258",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T17:59:41.039Z",
+   "updatedAt": "2026-10-12T17:59:41.039Z"
+  },
+  {
+   "id": "S01194",
+   "hub": "wiki/cau-tao-xe",
+   "slug": "yen-xe-may-bi-rach-lun-hoac-tham-nuoc",
+   "title": "Yên xe máy bị rách, lún hoặc thấm nước: vì sao hỏng, tác động tới ngồi lái và hướng xử lý",
+   "primaryIntent": "troubleshooting/yen-xe-may-bi-rach-lun-hoac-tham-nuoc",
+   "notes": "source=topic-v2 topicId=T001259",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T17:59:41.053Z",
+   "updatedAt": "2026-10-12T17:59:41.053Z"
+  },
+  {
+   "id": "S01195",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "bo-sac-xe-may-dien-bi-hong-dau-hieu-nhan-biet",
+   "title": "Bộ sạc xe máy điện có dấu hiệu hỏng: đèn báo, nóng bất thường và những điều không nên tự làm",
+   "primaryIntent": "troubleshooting/bo-sac-xe-may-dien-bi-hong-dau-hieu-nhan-biet",
+   "notes": "source=topic-v2 topicId=T001260",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T17:59:41.068Z",
+   "updatedAt": "2026-10-12T17:59:41.068Z"
   }
  ]
 }
