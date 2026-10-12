@@ -1808,6 +1808,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-tiet-kiem-xang/co-nen-tat-may-xe-may-khi-dung-den-do-hoac-cho-lau/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "map/diem-dang-ky-xe/co-quan-dang-ky-xe/index.html",
   "kind": "article"
  },
@@ -1900,6 +1904,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/den-bao-so-xe-so-khong-sang-hoac-bao-sai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dien-ac-quy/den-pha-xe-may-dong-hoi-nuoc-ben-trong/index.html",
   "kind": "article"
  },
@@ -1964,7 +1972,15 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dau-nhot/do-du-nhot-xe-may-co-sao-khong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/do-nen-dong-co-xe-may-yeu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-xu-ly-su-co/do-nham-nhien-lieu-xe-may-xang-pha-nhot-dau-diesel/index.html",
   "kind": "article"
  },
  {
@@ -2444,11 +2460,19 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/lap-nguoc-cuc-ac-quy-xe-may-co-sao-khong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/du-lich-xe-may/lich-trinh-du-lich/index.html",
   "kind": "article"
  },
  {
   "rel": "wiki/dien-xe/loc-dien-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/loc-may-xe-may-la-gi/index.html",
   "kind": "article"
  },
  {
@@ -3977,6 +4001,10 @@
  },
  {
   "rel": "garage/loi-thuong-gap/xe-may-keo-lech-khi-buong-tay-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/chuan-doan-loi/xe-may-keu-tach-tach-sau-khi-tat-may/index.html",
   "kind": "article"
  },
  {

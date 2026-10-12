@@ -13518,6 +13518,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-tiet-kiem-xang/co-nen-tat-may-xe-may-khi-dung-den-do-hoac-cho-lau/",
+  "title": "Có nên tắt máy xe máy khi dừng đèn đỏ hoặc chờ lâu: hao xăng, mài mòn và những điều cần cân nhắc",
+  "description": "Có nên tắt máy xe máy khi dừng đèn đỏ hoặc chờ lâu? Phân tích hao xăng, điện đề, mài mòn, loại xe và các tình huống nên tắt hay nên để, an toàn là trên hết.",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "entities": [
+   "chạy không tải",
+   "mô-tơ đề",
+   "ắc quy xe máy",
+   "hệ ngừng-chạy tự động",
+   "xe phun xăng điện tử",
+   "bộ chế hòa khí"
+  ],
+  "keywords": [
+   "có nên tắt máy xe máy khi dừng đèn đỏ",
+   "tắt máy khi dừng lâu",
+   "xe máy đứng chờ có hao xăng không",
+   "tắt máy xe máy khi chờ đèn đỏ có hại xe không"
+  ],
+  "seoTitle": "Có nên tắt máy xe máy khi dừng đèn đỏ? Hao xăng và mài mòn",
+  "primaryKeyword": "có nên tắt máy xe máy khi dừng đèn đỏ",
+  "headings": [
+   "Để máy nổ khi đứng yên: bạn mất gì",
+   "Tắt máy rồi đề lại: được gì và mất gì",
+   "Loại xe quyết định lựa chọn của bạn",
+   "Tình huống nên tắt máy và tình huống nên để máy nổ",
+   "An toàn giao thông đứng trước tiết kiệm"
+  ],
+  "summary": "Bài phân tích hai phía của việc tắt máy xe máy khi dừng đèn đỏ hoặc chờ lâu: để máy nổ lúc đứng yên vẫn hao xăng, sinh nhiệt và thải khói, còn tắt rồi đề lại thì tốn điện đề và gây mài mòn nhỏ cho bộ phận khởi động. Nội dung chỉ ra vì sao ngưỡng hợp lý tùy loạ"
+ },
+ {
+  "kind": "article",
   "url": "map/diem-dang-ky-xe/co-quan-dang-ky-xe/",
   "title": "Hướng dẫn chi tiết về cơ quan đăng ký xe",
   "description": "Hướng dẫn về cơ quan đăng ký xe: vai trò trong quản lý phương tiện, cách tìm kênh liên hệ chính thức, chuẩn bị khi đến làm việc, hỏi đáp, khiếu nại và bảo vệ thông tin cá nhân.",
@@ -14270,6 +14302,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/den-bao-so-xe-so-khong-sang-hoac-bao-sai/",
+  "title": "Đèn báo số trên xe số không sáng hoặc báo sai: bóng, công tắc số và dây tín hiệu",
+  "description": "Đèn báo số xe máy không sáng hoặc sáng sai vị trí? Phân biệt bóng cháy, giắc dây lỏng và công tắc vị trí số trong hộp số, kèm cách quan sát an toàn và lúc giao thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "đèn báo số N",
+   "công tắc vị trí số",
+   "hộp số xe số",
+   "giắc nối và dây tín hiệu",
+   "cụm đồng hồ",
+   "cảm biến vị trí số"
+  ],
+  "keywords": [
+   "đèn báo số xe máy không sáng",
+   "mất đèn báo số xe máy",
+   "đèn báo số N không sáng",
+   "đèn báo số xe số báo sai"
+  ],
+  "seoTitle": "Đèn báo số xe máy không sáng hoặc báo sai: bóng, dây, công tắc số",
+  "primaryKeyword": "đèn báo số xe máy không sáng",
+  "headings": [
+   "Đèn báo số lấy tín hiệu từ đâu",
+   "Không sáng và báo sai: các hướng nghi ngờ",
+   "Bóng, giắc và dây tín hiệu",
+   "Công tắc vị trí số trong hộp số",
+   "Ảnh hưởng thực tế và lúc giao thợ"
+  ],
+  "summary": "Bài giải thích đèn báo số, thường là đèn N, nhận tín hiệu từ công tắc vị trí số ở hộp số và vì sao đèn có thể không sáng hoặc báo sai. Nội dung tách ba hướng nghi ngờ gồm bóng hoặc đèn LED trong đồng hồ, giắc và dây tín hiệu, rồi công tắc số mòn hoặc bẩn trong"
+ },
+ {
+  "kind": "article",
   "url": "garage/dien-ac-quy/den-pha-xe-may-dong-hoi-nuoc-ben-trong/",
   "title": "Đèn pha xe máy đọng hơi nước bên trong chụp đèn: vì sao xảy ra và khi nào cần lo",
   "description": "Đèn pha xe máy bị đọng hơi nước bên trong chụp đèn: vì sao ngưng tụ, khi nào tự tan là bình thường, dấu hiệu gioăng hở hay nứt chụp và lúc nên giao thợ.",
@@ -14787,6 +14851,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dau-nhot/do-du-nhot-xe-may-co-sao-khong/",
+  "title": "Đổ dư nhớt xe máy có sao không: nhớt quá vạch gây hại thế nào và cách xử lý an toàn",
+  "description": "Đổ dư nhớt xe máy có sao không? Nhớt quá vạch bị khuấy thành bọt, tăng áp trong lốc máy, đẩy nhớt vào đường nạp và làm bẩn bugi; cách đọc que thăm và xử lý an toàn.",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "entities": [
+   "nhớt quá vạch",
+   "que thăm nhớt",
+   "lốc máy",
+   "đường thông hơi lốc máy",
+   "bugi ướt nhớt",
+   "gioăng và phớt"
+  ],
+  "keywords": [
+   "đổ dư nhớt xe máy",
+   "đổ nhiều nhớt xe máy có sao không",
+   "nhớt quá vạch trên que thăm",
+   "nhớt dư có hại cho máy không"
+  ],
+  "seoTitle": "Đổ dư nhớt xe máy có sao không: tác hại và cách xử lý an toàn",
+  "primaryKeyword": "đổ dư nhớt xe máy",
+  "headings": [
+   "Mức nhớt đúng được xem thế nào trên que thăm",
+   "Nhớt dư gây hại ra sao bên trong động cơ",
+   "Dấu hiệu nhớt quá nhiều khi xe đang chạy",
+   "Xử lý an toàn khi lỡ đổ dư nhớt",
+   "Phòng tránh đổ dư khi thay và châm nhớt"
+  ],
+  "summary": "Bài giải thích điều gì xảy ra khi nhớt xe máy vượt quá vạch trên que thăm. Nhớt dư bị trục khuỷu khuấy thành bọt, làm bôi trơn kém và đẩy áp trong lốc máy lên, từ đó nhớt có thể theo đường thông hơi vào đường nạp, làm bẩn bugi, sinh khói xanh và gây rò ở gioăn"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/do-nen-dong-co-xe-may-yeu/",
   "title": "Độ nén động cơ xe máy: vì sao nén yếu làm xe yếu, khó nổ và những dấu hiệu quan sát được",
   "description": "Giải thích độ nén động cơ xe máy, các chỗ làm rò nén như séc-măng, xupap, gioăng, dấu hiệu nén yếu quan sát được và vì sao cần thợ đo bằng dụng cụ.",
@@ -14816,6 +14912,38 @@
    "Thợ kiểm tra nén ra sao và bạn nên hỏi gì"
   ],
   "summary": "Độ nén là khả năng buồng đốt giữ kín và ép hỗn hợp xăng với không khí trước khi bugi đánh lửa. Khi séc-măng, xupap hoặc gioăng bị rò, hỗn hợp cháy yếu nên xe khó nổ, yếu hơi và có thể hao nhiên liệu hơn. Bài này giải thích khái niệm, các chỗ có thể rò nén, dấu"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-xu-ly-su-co/do-nham-nhien-lieu-xe-may-xang-pha-nhot-dau-diesel/",
+  "title": "Đổ nhầm nhiên liệu cho xe máy: xăng pha nhớt, dầu diesel hoặc xăng khác loại và việc cần làm ngay",
+  "description": "Lỡ đổ nhầm nhiên liệu xe máy như xăng pha nhớt hay dầu diesel? Không nổ máy, tắt khóa, gọi cứu hộ, nhờ thợ xả sạch và vì sao không nên tự xả hay thổi.",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "entities": [
+   "nhiên liệu nhầm",
+   "xăng pha nhớt",
+   "dầu diesel",
+   "bơm xăng và vòi phun",
+   "bugi và buồng đốt",
+   "cứu hộ xe máy"
+  ],
+  "keywords": [
+   "đổ nhầm nhiên liệu xe máy",
+   "đổ nhầm xăng pha nhớt vào xe máy",
+   "đổ nhầm dầu vào xe xăng",
+   "xe máy đổ nhầm dầu diesel phải làm sao"
+  ],
+  "seoTitle": "Đổ nhầm nhiên liệu xe máy: xăng pha nhớt, dầu diesel và cách xử lý",
+  "primaryKeyword": "đổ nhầm nhiên liệu xe máy",
+  "headings": [
+   "Điều đầu tiên cần làm khi đổ nhầm: không nổ máy",
+   "Nhiên liệu nhầm khác nhau, hậu quả khác nhau",
+   "Nếu đã nổ máy hoặc chạy một đoạn",
+   "Việc nên làm: cứu hộ và thợ xả nhiên liệu",
+   "Phòng tránh khi đổ xăng và chứa nhiên liệu"
+  ],
+  "summary": "Bài trả lời câu hỏi của người lỡ đổ nhầm nhiên liệu cho xe máy ở trạm hoặc từ can: điều quan trọng nhất là không nổ máy nếu phát hiện kịp. Nội dung giải thích vì sao nhiên liệu sai có thể làm hỏng bơm, vòi phun, bugi hay làm bẩn buồng đốt, mức nặng nhẹ khác nh"
  },
  {
   "kind": "article",
@@ -18572,6 +18700,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/dien-ac-quy/lap-nguoc-cuc-ac-quy-xe-may-co-sao-khong/",
+  "title": "Lắp ngược cực ắc quy xe máy có sao không: cầu chì, bộ chỉnh lưu và những việc nên làm ngay",
+  "description": "Lắp ngược cực ắc quy xe máy có thể làm đứt cầu chì, hỏng bộ chỉnh lưu hay bộ điều khiển. Dấu hiệu nhận biết, việc nên làm ngay và thứ tự tháo lắp cực an toàn.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "cực dương và cực âm",
+   "cầu chì chính",
+   "bộ chỉnh lưu",
+   "bộ điều khiển",
+   "ắc quy xe máy",
+   "nối mát"
+  ],
+  "keywords": [
+   "lắp ngược cực ắc quy xe máy",
+   "đấu nhầm cực ắc quy",
+   "nối ngược cực ắc quy có sao không",
+   "nối ngược ắc quy xe máy bị đứt cầu chì"
+  ],
+  "seoTitle": "Lắp ngược cực ắc quy xe máy: hậu quả, dấu hiệu và cách xử lý ngay",
+  "primaryKeyword": "lắp ngược cực ắc quy xe máy",
+  "headings": [
+   "Cực dương và cực âm nối vào đâu trên xe máy",
+   "Nối ngược cực ắc quy gây hại như thế nào",
+   "Dấu hiệu nhận biết sau khi nối ngược",
+   "Việc nên làm ngay và lúc nào cần gặp thợ",
+   "Thứ tự tháo lắp cực ắc quy an toàn để không tái diễn"
+  ],
+  "summary": "Bài giải thích điều gì có thể xảy ra khi lắp ngược cực ắc quy xe máy hoặc đấu nhầm cực lúc tự thay ắc quy. Nội dung nêu cách xác định cực dương và cực âm, vì sao dòng điện ngược có thể làm đứt cầu chì và gây hại cho bộ chỉnh lưu, bộ điều khiển hay chính ắc quy"
+ },
+ {
+  "kind": "article",
   "url": "ride/du-lich-xe-may/lich-trinh-du-lich/",
   "title": "Kinh nghiệm lịch trình du lịch dành cho người mới",
   "description": "Kinh nghiệm lên lịch trình du lịch cho người mới: chọn điểm, chia ngày, dự phòng thời tiết và tránh lịch trình nhồi quá dày.",
@@ -18633,6 +18793,38 @@
    "Những phép đo thợ thường làm để tìm bộ phận hỏng"
   ],
   "summary": "Ắc quy mới thay vẫn nhanh hết điện, còn thợ nhắc tới lốc điện và bộ nạp mà người dùng chưa rõ chúng làm gì. Bài lần theo đường đi của điện trên xe máy: lốc điện (cuộn phát điện, hay stator) tạo dòng xoay chiều khi động cơ quay, bộ chỉnh lưu điều áp (regulator)"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/loc-may-xe-may-la-gi/",
+  "title": "Lốc máy xe máy là gì: vỏ động cơ, vai trò, dấu hiệu nứt hoặc rò dầu và vì sao không nên hàn tùy tiện",
+  "description": "Lốc máy xe máy là vỏ động cơ giữ trục quay và nhớt. Cách phân biệt với lốc điện, nhận biết nứt rò qua vết ướt, nhớt hao, tiếng lạ và vì sao không nên hàn tùy tiện.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "lốc máy xe máy",
+   "vỏ máy và cạc te",
+   "mặt ghép và gioăng",
+   "nắp bên động cơ",
+   "lốc điện (stator)",
+   "nhớt bôi trơn"
+  ],
+  "keywords": [
+   "lốc máy xe máy là gì",
+   "vỏ máy xe máy",
+   "lốc máy bị nứt",
+   "dấu hiệu lốc máy xe máy rò nhớt"
+  ],
+  "seoTitle": "Lốc máy xe máy là gì: vỏ động cơ, dấu hiệu nứt rò và lưu ý khi sửa",
+  "primaryKeyword": "lốc máy xe máy là gì",
+  "headings": [
+   "Lốc máy là gì và gồm những phần nào",
+   "Phân biệt lốc máy và lốc điện",
+   "Nứt và rò: dấu hiệu quan sát được",
+   "Nguyên nhân hỏng",
+   "Vì sao nên giao thợ có kinh nghiệm"
+  ],
+  "summary": "Lốc máy xe máy là phần vỏ kim loại chứa trục khuỷu, bộ truyền động và nhớt, thường gồm hai nửa ghép cùng nhiều nắp bên. Bài phân biệt rõ lốc máy với lốc điện, vốn là cụm phát điện, chỉ ra những dấu hiệu nứt hoặc rò quan sát được như vết ướt nhớt, nhớt hao và t"
  },
  {
   "kind": "article",
@@ -30484,6 +30676,38 @@
    "Cách thử an toàn ở đường vắng và khi nào nên dừng đi xe"
   ],
   "summary": "Bài giúp bạn truy tìm vì sao xe máy trôi về một bên khi buông nhẹ tay lái, hoặc phải giữ tay lái chéo mới đi thẳng. Nội dung phân biệt hiện tượng này với tay lái nặng, rung lắc và kéo lệch lúc phanh, rồi xếp nguyên nhân theo thứ tự loại trừ từ dễ đến khó: mặt "
+ },
+ {
+  "kind": "article",
+  "url": "learn/chuan-doan-loi/xe-may-keu-tach-tach-sau-khi-tat-may/",
+  "title": "Xe máy kêu tách tách hoặc nổ nhẹ sau khi tắt máy: tiếng kim loại co lại, rơ-le, bơm xăng và khi nào cần lo",
+  "description": "Xe máy kêu tách tách sau khi tắt máy thường do kim loại co lại, rơ-le hay quạt chạy tiếp. Cách phân biệt tiếng bình thường với khói, mùi và ánh lửa.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "entities": [
+   "giãn nở nhiệt của kim loại",
+   "ống xả và bầu giảm thanh",
+   "rơ-le",
+   "bơm xăng điện",
+   "quạt làm mát",
+   "máy chạy tiếp sau khi tắt khóa"
+  ],
+  "keywords": [
+   "xe máy kêu tách tách sau khi tắt máy",
+   "xe máy kêu khi tắt máy",
+   "tiếng tạch tạch sau khi tắt máy",
+   "xe máy nổ nhẹ sau khi tắt máy là lỗi gì"
+  ],
+  "seoTitle": "Xe máy kêu tách tách sau khi tắt máy: bình thường hay bất thường",
+  "primaryKeyword": "xe máy kêu tách tách sau khi tắt máy",
+  "headings": [
+   "Tiếng kim loại co lại khi nguội",
+   "Rơ-le, bơm xăng và quạt chạy tiếp sau khi tắt khóa",
+   "Máy giật nhẹ hoặc chạy tiếp sau khi tắt khóa",
+   "Dấu hiệu bất thường: khói, mùi, tiếng to",
+   "Việc nên làm và lúc giao thợ"
+  ],
+  "summary": "Bài giải thích vì sao xe máy chạy xăng có thể kêu tách tách, tạch tạch hoặc giật nhẹ sau khi tắt máy. Nội dung phân loại các tiếng thường gặp gồm kim loại co lại khi nguội, rơ-le nhả, bơm xăng chạy ngắn ở một số xe, quạt làm mát chạy tiếp ở xe làm mát bằng dun"
  },
  {
   "kind": "article",

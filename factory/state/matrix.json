@@ -17463,11 +17463,13 @@
    "title": "Có nên tắt máy xe máy khi dừng đèn đỏ hoặc chờ lâu: hao xăng, mài mòn và những điều cần cân nhắc",
    "primaryIntent": "informational/co-nen-tat-may-xe-may-khi-dung-den-do-hoac-cho-lau",
    "notes": "source=topic-v2 topicId=T001274",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:36:52.237Z",
-   "updatedAt": "2026-10-12T18:36:52.238Z"
+   "updatedAt": "2026-10-12T18:50:19.429Z",
+   "seoScore": 91,
+   "words": 2976
   },
   {
    "id": "S01209",
@@ -17476,11 +17478,13 @@
    "title": "Xe máy kêu tách tách hoặc nổ nhẹ sau khi tắt máy: tiếng kim loại co lại, rơ-le, bơm xăng và khi nào cần lo",
    "primaryIntent": "troubleshooting/xe-may-keu-tach-tach-sau-khi-tat-may",
    "notes": "source=topic-v2 topicId=T001275",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:36:52.257Z",
-   "updatedAt": "2026-10-12T18:36:52.257Z"
+   "updatedAt": "2026-10-12T18:50:19.430Z",
+   "seoScore": 100,
+   "words": 2892
   },
   {
    "id": "S01210",
@@ -17489,11 +17493,13 @@
    "title": "Đèn báo số trên xe số không sáng hoặc báo sai: bóng, công tắc số và dây tín hiệu",
    "primaryIntent": "troubleshooting/den-bao-so-xe-so-khong-sang-hoac-bao-sai",
    "notes": "source=topic-v2 topicId=T001278",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:38:04.134Z",
-   "updatedAt": "2026-10-12T18:38:04.135Z"
+   "updatedAt": "2026-10-12T18:50:19.429Z",
+   "seoScore": 100,
+   "words": 2990
   },
   {
    "id": "S01211",
@@ -17502,11 +17508,13 @@
    "title": "Lốc máy xe máy là gì: vỏ động cơ, vai trò, dấu hiệu nứt hoặc rò dầu và vì sao không nên hàn tùy tiện",
    "primaryIntent": "informational/loc-may-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001279",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:38:04.159Z",
-   "updatedAt": "2026-10-12T18:38:04.159Z"
+   "updatedAt": "2026-10-12T18:50:19.430Z",
+   "seoScore": 100,
+   "words": 2991
   },
   {
    "id": "S01212",
@@ -17515,11 +17523,13 @@
    "title": "Đổ dư nhớt xe máy có sao không: nhớt quá vạch gây hại thế nào và cách xử lý an toàn",
    "primaryIntent": "troubleshooting/do-du-nhot-xe-may-co-sao-khong",
    "notes": "source=topic-v2 topicId=T001280",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:39:43.690Z",
-   "updatedAt": "2026-10-12T18:39:43.691Z"
+   "updatedAt": "2026-10-12T18:50:19.430Z",
+   "seoScore": 91,
+   "words": 2973
   },
   {
    "id": "S01213",
@@ -17528,11 +17538,13 @@
    "title": "Đổ nhầm nhiên liệu cho xe máy: xăng pha nhớt, dầu diesel hoặc xăng khác loại và việc cần làm ngay",
    "primaryIntent": "troubleshooting/do-nham-nhien-lieu-xe-may-xang-pha-nhot-dau-diesel",
    "notes": "source=topic-v2 topicId=T001281",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:39:43.713Z",
-   "updatedAt": "2026-10-12T18:39:43.713Z"
+   "updatedAt": "2026-10-12T18:50:19.430Z",
+   "seoScore": 100,
+   "words": 3031
   },
   {
    "id": "S01214",
@@ -17541,11 +17553,13 @@
    "title": "Lắp ngược cực ắc quy xe máy có sao không: cầu chì, bộ chỉnh lưu và những việc nên làm ngay",
    "primaryIntent": "troubleshooting/lap-nguoc-cuc-ac-quy-xe-may-co-sao-khong",
    "notes": "source=topic-v2 topicId=T001282",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:39:43.730Z",
-   "updatedAt": "2026-10-12T18:39:43.730Z"
+   "updatedAt": "2026-10-12T18:50:19.430Z",
+   "seoScore": 100,
+   "words": 3113
   }
  ]
 }
