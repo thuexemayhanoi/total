@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-so-sanh-dai-ngay',
-  title: 'Thuê honda vision: cách so sánh lựa chọn khi dùng dài ngày',
+  title: 'Thuê Honda Vision: cách so sánh lựa chọn khi dùng dài ngày',
   seoTitle: 'So sánh lựa chọn thuê Honda Vision khi dùng dài ngày',
   metaDescription: 'Cách so sánh các lựa chọn thuê Honda Vision dài ngày: trách nhiệm bảo dưỡng, kiểm tra giữa kỳ, xe thay thế, lịch thanh toán và điều khoản gia hạn hoặc trả sớm.',
   summary: 'Bài hướng dẫn so sánh các lựa chọn thuê xe tay ga Honda Vision theo tuần hoặc theo tháng: điểm khác với thuê ngắn ngày, ai chịu trách nhiệm bảo dưỡng và hao mòn, cách kiểm tra giữa kỳ, xe thay thế khi hỏng, lịch thanh toán và điều khoản gia hạn hay trả sớm.',

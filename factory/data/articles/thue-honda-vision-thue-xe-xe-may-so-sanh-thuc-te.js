@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-so-sanh-thuc-te',
-  title: 'Thuê honda vision: cách so sánh lựa chọn theo tình huống thực tế',
+  title: 'Thuê Honda Vision: cách so sánh lựa chọn theo tình huống thực tế',
   seoTitle: 'So sánh lựa chọn thuê Honda Vision theo tình huống thực tế',
   metaDescription: 'So sánh các lựa chọn thuê Honda Vision bằng tình huống giả định: xe hỏng, thời tiết xấu, đổi lịch, trầy xước khi trả xe, đối chiếu câu trả lời của từng bên.',
   summary: 'Bài đề xuất cách so sánh các nơi cho thuê xe tay ga Honda Vision bằng chính những tình huống có thể xảy ra: xe hỏng giữa chừng, thời tiết xấu làm đổi lịch, trầy xước hoặc tranh luận khi trả xe, sau đó đối chiếu câu trả lời của từng bên để ra quyết định.',

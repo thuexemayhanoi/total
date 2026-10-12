@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-faq-duong-dai',
-  title: 'Thuê honda vision: câu hỏi thường gặp khi đi đường dài',
+  title: 'Thuê Honda Vision: câu hỏi thường gặp khi đi đường dài',
   seoTitle: 'Thuê Honda Vision đi đường dài: câu hỏi thường gặp',
   metaDescription: 'Giải đáp câu hỏi khi thuê Honda Vision đi đường dài: xe có phù hợp không, có cần báo lộ trình, xe hỏng ở tỉnh khác ai hỗ trợ, chuẩn bị gì và trả xe ở nơi khác được không.',
   summary: 'Bài hỏi đáp cho người dự định đi xa bằng xe tay ga như Honda Vision: xe có phù hợp cho quãng đường dài hay không, có cần báo lộ trình cho bên cho thuê, xe hỏng ở tỉnh khác thì xử lý thế nào, nên chuẩn bị những gì và khả năng trả xe ở nơi khác.',

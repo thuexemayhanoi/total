@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-faq-do-thi',
-  title: 'Thuê honda vision: câu hỏi thường gặp trong điều kiện đô thị',
+  title: 'Thuê Honda Vision: câu hỏi thường gặp trong điều kiện đô thị',
   seoTitle: 'Thuê Honda Vision đi phố: giải đáp câu hỏi thường gặp',
   metaDescription: 'Giải đáp các câu hỏi thường gặp khi thuê Honda Vision để đi trong phố: kẹt xe, ngõ hẹp, gửi xe, mất cắp, ngập nước và những điều nên hỏi trước khi nhận xe.',
   summary: 'Bài trả lời những câu hỏi người thuê hay đặt ra khi dùng xe tay ga Honda Vision trong thành phố: xe có hợp đi phố đông không, đi ngõ hẹp thế nào, gửi xe và chống mất cắp ra sao, xử lý kẹt xe, mưa, ngập và những điểm cần chốt khi trả xe.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-so-sanh-ngan-ngay',
-  title: 'Thuê honda vision: cách so sánh lựa chọn khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: cách so sánh lựa chọn khi dùng ngắn ngày',
   seoTitle: 'So sánh lựa chọn thuê Honda Vision cho chuyến ngắn ngày',
   metaDescription: 'Cách so sánh các lựa chọn thuê Honda Vision khi dùng ngắn ngày: giờ nhận trả, cách tính theo ngày, nhiên liệu, phụ phí nhỏ và tốc độ bàn giao.',
   summary: 'Bài giúp người thuê xe tay ga Honda Vision từ một đến ba ngày so sánh các lựa chọn theo đúng đặc thù ngắn hạn: khung giờ nhận và trả, cách tính theo ngày hay theo giờ, quy tắc nhiên liệu, các khoản nhỏ dễ phát sinh và tốc độ bàn giao xe.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-faq-thuc-te',
-  title: 'Thuê honda vision: câu hỏi thường gặp theo tình huống thực tế',
+  title: 'Thuê Honda Vision: câu hỏi thường gặp theo tình huống thực tế',
   seoTitle: 'Thuê Honda Vision: hỏi đáp theo tình huống thực tế',
   metaDescription: 'Hỏi đáp các tình huống thực tế khi thuê Honda Vision: xe chết máy, xẹp lốp, mưa lớn, va quệt, mất chìa, trả xe trễ và cách xử lý từng bước một cách bình tĩnh.',
   summary: 'Bài hỏi đáp theo tình huống dành cho người thuê xe tay ga Honda Vision: xe chết máy giữa đường, xẹp lốp, mưa lớn bất chợt, va quệt nhẹ, mất chìa khóa, trả xe trễ hoặc muốn gia hạn, kèm thứ tự xử lý và những điều nên hỏi trước khi nhận xe.',
