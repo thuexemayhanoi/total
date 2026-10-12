@@ -40,16 +40,21 @@ const WRITER_PHASES = ['writing', 'waiting-publish', 'waiting-writer', 'idle', '
 //   - RESUME TRƯỚC: slot dở CÓ module bài (RESEARCH/WRITING/QA/REPAIR/PASS) —
 //     tiếp tục bài chưa hoàn thành, KHÔNG viết trùng slot đã có bài.
 //   - FRESH SAU: slot PLANNED CHƯA có bài (WAITING_FOR_WRITER), theo ID tăng dần.
-function selectWriterPair(m, articleSlugs, countArg) {
+// opts (tùy chọn, tương thích ngược): { isWritable(slot) } — Topic Governance V2: chỉ slot có topic
+// APPROVED mới được giao cho writer; { shard: {k, n} } — chia queue cho nhiều writer song song (id % n).
+function selectWriterPair(m, articleSlugs, countArg, opts) {
   const size = (Number.isFinite(countArg) && countArg > 0) ? Math.min(countArg, PUBLISH_CHUNK_LIMIT) : PAIR_SIZE;
   const slugs = toSlugSet(articleSlugs);
   const num = (id) => Number(String(id || '').replace(/^S0*/, '')) || 0;
   const byId = (a, b) => num(a.id) - num(b.id);
+  const writable = opts && typeof opts.isWritable === 'function' ? opts.isWritable : null;
+  const shard = opts && opts.shard && opts.shard.n > 1 ? opts.shard : null;
   const resume = (m && Array.isArray(m.slots) ? m.slots : [])
     .filter(s => CLAIMABLE_STATES.includes(s.state) && s.state !== 'PLANNED' && slugs.has(s.slug))
     .sort(byId);
   const fresh = (m && Array.isArray(m.slots) ? m.slots : [])
-    .filter(s => s.state === 'PLANNED' && !slugs.has(s.slug))
+    .filter(s => s.state === 'PLANNED' && !slugs.has(s.slug) && (!writable || writable(s)) &&
+      (!shard || (num(s.id) % shard.n) === (shard.k - 1)))
     .sort(byId);
   const chosen = resume.slice(0, size).concat(fresh.slice(0, Math.max(0, size - Math.min(resume.length, size))));
   return {
@@ -173,16 +178,20 @@ function maxIterations(initialClaimable, limitArg) {
 
 // Backlog claimable = slot chưa terminal CÓ module bài (article-backed).
 // Trả về cả danh sách WAITING_FOR_WRITER để chẩn đoán (không phải lỗi CI).
-function findClaimableBacklog(m, articleSlugs) {
+// opts.isWritable (Topic Governance V2): slot PLANNED chưa có bài mà topic CHƯA APPROVED không phải
+// “đang chờ writer” — nó chờ duyệt (awaitingApproval), nên không làm watchdog báo writer đứng.
+function findClaimableBacklog(m, articleSlugs, opts) {
   const slugs = toSlugSet(articleSlugs);
+  const writable = opts && typeof opts.isWritable === 'function' ? opts.isWritable : null;
   const claimable = [];
   const waitingForWriter = [];
+  const awaitingApproval = [];
   for (const s of m.slots) {
     if (TERMINAL_STATES.includes(s.state)) continue;
     if (slugs.has(s.slug)) claimable.push(s);
-    else if (s.state === 'PLANNED') waitingForWriter.push(s);
+    else if (s.state === 'PLANNED') (writable && !writable(s) ? awaitingApproval : waitingForWriter).push(s);
   }
-  return { claimable, waitingForWriter };
+  return { claimable, waitingForWriter, awaitingApproval };
 }
 
 // Chọn chunk deterministic: slot DỞ (non-PLANNED, có bài) được resume TRƯỚC,
@@ -205,9 +214,9 @@ function selectChunk(m, articleSlugs, limitArg) {
 }
 
 // Snapshot bất biến để đo progress trước/sau iteration.
-function snapshotState(m, articleSlugs) {
+function snapshotState(m, articleSlugs, opts) {
   const slugs = toSlugSet(articleSlugs);
-  const { claimable, waitingForWriter } = findClaimableBacklog(m, slugs);
+  const { claimable, waitingForWriter } = findClaimableBacklog(m, slugs, opts);
   return {
     published: m.slots.filter(s => s.state === 'PUBLISHED').length,
     claimableBacklog: claimable.length,

@@ -52,6 +52,9 @@ function copyRepoToTmp(tag) {
       else fs.copyFileSync(src, dst);
     }
   })(ROOT, '');
+  // Fixture isolation (Topic Governance V2): suite này kiểm cơ chế legacy (pair/cycle/reliability...)
+  // trên slot dựng tay chưa qua duyệt topic. Hành vi enforce được test riêng trong test-topic-v2.js.
+  fs.writeFileSync(path.join(tmp, 'factory', 'topic-governance.json'), JSON.stringify({ schemaVersion: 1, mode: 'off', v1Generation: 'allowed' }));
   return tmp;
 }
 function tmpPaths(tmp) {

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "mode": "enforce",
+  "v1Generation": "frozen",
+  "requireApproved": true,
+  "maxApprovedQueue": 50,
+  "thresholds": {},
+  "reason": "Topic Factory V2: topic chỉ thành slot sau khi qua gate chống hoán vị và được coordinator duyệt (topic-approve). Rollback: mode=off và v1Generation=allowed."
+}

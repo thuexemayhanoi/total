@@ -40,6 +40,9 @@ const lock = require('./lib/lock');
 const runtime = require('./lib/factory-runtime');
 const contentIndex = require('./lib/content-index');
 const topicFactory = require('./lib/topic-factory');
+const topicGov = require('./lib/topic-governance');
+const topicMatrix = require('./lib/topic-matrix');
+const topicCli = require('./topic');
 const linkIntegrity = require('./link-integrity');
 
 const STATE_DIR = path.join(__dirname, 'state');
@@ -317,6 +320,19 @@ function openArticleSlugs(m) {
   return out;
 }
 
+// ---------- TOPIC GOVERNANCE V2 (factory/topic-governance.json) ----------
+// enforce => writer-pack/verify/publish chỉ nhận slot có topic APPROVED (topic-matrix.jsonl).
+// off/không có file => hành vi legacy 100%. Xem docs/TOPIC-FACTORY-V2.md.
+function writableOpts() {
+  const gov = topicGov.load();
+  if (!gov.requireApproved) return { gov, opts: {}, approved: null };
+  const approved = topicMatrix.approvedBySlot(topicMatrix.readRows().rows);
+  return { gov, opts: { isWritable: topicGov.writableFilter(gov, approved) }, approved };
+}
+function topicDeps() {
+  return { loadMatrix, saveMatrix, planSlot, loadState, saveState, log: console.log };
+}
+
 function publishedRelatedFor(m, slot, limit) {
   const max = Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : 8;
   const parent = String(slot.hub || '').split('/')[0];
@@ -548,9 +564,14 @@ function verifyPair(m, ids, opts) {
 function verifySources(m, ids) {
   const errors = [];
   const linkable = linkableSlugsFor(m, ids);
+  const wo = writableOpts();
   for (const id of ids) {
     const s = m.slots.find((x) => x.id === id);
     if (!s) { errors.push('không tìm thấy slot ' + id); continue; }
+    if (wo.approved && s.state !== 'PUBLISHED' && !wo.approved.has(id)) {
+      errors.push('Slot ' + id + ': topic chưa APPROVED (topic-governance enforce) — chỉ coordinator duyệt topic (topic-approve), writer không tự nhận slot');
+      continue;
+    }
     let res;
     try { res = qaSeoArticle(s, { matrix: m, linkableSlugs: linkable }); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
     if (!res.qa.pass) errors.push('Slot ' + id + ' (QA ' + res.qa.score + '/100): ' + res.qa.checks.filter((x) => !x.pass).map((x) => x.name).join('; '));
@@ -1063,7 +1084,11 @@ Lệnh:
   queue-refill [--role R]        Planned < 100 -> refill queue lên ~300 topic;
                                   static pool trước, Topic Factory taxonomy sau
                                   (chỉ role=coordinator)
-  writer-pack [--count N] [--json]
+  topic-audit|topic-backfill|topic-propose|topic-approve|topic-reject|topic-status|topic-check|
+  topic-index-rebuild|topic-index-check|topic-import|topic-brief
+                                  TOPIC FACTORY V2 (docs/TOPIC-FACTORY-V2.md): kiểm toán trùng lặp,
+                                  gate chống hoán vị, duyệt topic -> slot; writer chỉ nhận topic APPROVED
+  writer-pack [--count N] [--shard k/n] [--json]
                                   WRITER/MISTRAL: nhận một pack 1-10 bài gồm
                                   ID, file <slug>.js, title/intent và related
                                   PUBLISHED an toàn để viết ngay
@@ -1111,9 +1136,14 @@ function main() {
     console.log('Writer lock:', lo
       ? `đang giữ bởi "${lo.owner}" (từ ${lo.at}, pid ${lo.pid})${st.expired ? ' — QUÁ HẠN TTL, reclaim được ở lần acquire kế (không tự xóa)' : ''}`
       : 'trống');
-    const back = runtime.findClaimableBacklog(m, openArticleSlugs(m));
+    const woStatus = writableOpts();
+    const back = runtime.findClaimableBacklog(m, openArticleSlugs(m), woStatus.opts);
     console.log('Backlog claimable (article-backed):', back.claimable.length,
       '| WAITING_FOR_WRITER:', back.waitingForWriter.length);
+    if (woStatus.gov.present) {
+      console.log('Topic governance: mode=' + woStatus.gov.mode + ' v1Generation=' + woStatus.gov.v1Generation +
+        ' | AWAITING_APPROVAL: ' + back.awaitingApproval.length);
+    }
     console.log('Sức chứa ma trận:', m.capacity, '| đã dùng:', m.slots.length, '| dự phòng:', m.capacity - m.slots.length);
     const dist = {};
     for (const s of m.slots) dist[s.state] = (dist[s.state] || 0) + 1;
@@ -1270,9 +1300,10 @@ function main() {
     // Diagnostic/deep contract: hỗ trợ cả legacy filename != slug.
     // Hot writer/status vẫn dùng openArticleSlugs() O(open queue).
     const slugs = new Set(loadAllArticlesBySlug().keys());
-    const { claimable, waitingForWriter } = runtime.findClaimableBacklog(m, slugs);
+    const { claimable, waitingForWriter, awaitingApproval } = runtime.findClaimableBacklog(m, slugs, writableOpts().opts);
     console.log('CLAIMABLE_BACKLOG=' + claimable.length);
     console.log('WAITING_FOR_WRITER=' + waitingForWriter.length);
+    if (awaitingApproval.length) console.log('AWAITING_APPROVAL=' + awaitingApproval.length);
     for (const s of claimable) console.log(`PENDING ${s.id} state=${s.state} article=yes`);
     for (const s of waitingForWriter) console.log(`PENDING ${s.id} state=${s.state} article=no`);
     if (failIfClaimable && claimable.length > 0) {
@@ -1658,6 +1689,13 @@ function main() {
     // khi pool cũ hết thì Topic Factory sinh deterministic từ 15 category/97 hub.
     // General factory chỉ dùng tới plannedTarget; reserved capacity còn nguyên.
     contentIndex.assertCoordinator(opt('--role') || 'coordinator');
+    const govRefill = topicGov.load();
+    if (govRefill.present && govRefill.v1Generation === 'frozen') {
+      // Topic Factory V1/pool tĩnh sinh topic bằng hoán vị template -> ĐÓNG BĂNG. Topic mới chỉ vào qua
+      // topic-propose (gate chống trùng) + topic-approve. Mở lại: đặt v1Generation="allowed" (rollback).
+      console.log('QUEUE_REFILL frozen (topic-governance v1Generation=frozen) — không sinh topic hoán vị; dùng topic-propose/topic-approve. Không ghi state.');
+      return;
+    }
     const m = loadMatrix();
     validateMatrix(m);
     const planned = m.slots.filter(s => s.state === 'PLANNED').length;
@@ -1717,7 +1755,18 @@ function main() {
     validateMatrix(m);
     const count = parsePositiveInt(opt('--count')) || (cmd === 'writer-pack' ? runtime.PUBLISH_CHUNK_LIMIT : runtime.PAIR_SIZE);
     const openSlugs = openArticleSlugs(m);
-    const plan = runtime.selectWriterPair(m, openSlugs, count);
+    const woPack = writableOpts();
+    const shardRaw = opt('--shard');
+    let shard = null;
+    if (shardRaw) {
+      const sm = /^(\d+)\/(\d+)$/.exec(shardRaw);
+      if (!sm || Number(sm[1]) < 1 || Number(sm[1]) > Number(sm[2])) {
+        console.error('TỪ CHỐI writer-pack: --shard phải dạng k/n với 1<=k<=n (ví dụ 2/3)');
+        process.exit(1);
+      }
+      shard = { k: Number(sm[1]), n: Number(sm[2]) };
+    }
+    const plan = runtime.selectWriterPair(m, openSlugs, count, Object.assign({}, woPack.opts, shard ? { shard } : {}));
 
     if (cmd === 'writer-next') {
       if (!plan.ids.length) {
@@ -1739,6 +1788,7 @@ function main() {
     let status = 'ready';
     if (!plan.ids.length) {
       if (writtenWaiting > 0) status = 'wait-publish';
+      else if (woPack.gov.requireApproved) status = 'awaiting-approval';
       else if (m.slots.length < m.plannedTarget) status = 'refill';
       else status = 'done-general-target';
     }
@@ -1752,6 +1802,7 @@ function main() {
         file: 'factory/data/articles/' + s.slug + '.js',
         canonicalPath: '/' + s.hub + '/' + s.slug + '/',
         relatedPublished: publishedRelatedFor(m, s, 8),
+        brief: woPack.approved && woPack.approved.get(s.id) ? topicCli.briefFor(woPack.approved.get(s.id)) : null,
       };
     });
     const pack = {
@@ -1765,7 +1816,8 @@ function main() {
       items,
       nextAction: status === 'ready' ? 'WRITE_VERIFY_PUSH' :
         (status === 'wait-publish' ? 'FETCH_FRESH_MAIN_AND_RECHECK' :
-          (status === 'refill' ? 'QUEUE_REFILL_THEN_RECHECK' : 'GENERAL_TARGET_DONE'))
+          (status === 'awaiting-approval' ? 'WAIT_FOR_COORDINATOR_TOPIC_APPROVAL' :
+            (status === 'refill' ? 'QUEUE_REFILL_THEN_RECHECK' : 'GENERAL_TARGET_DONE')))
     };
     if (process.argv.includes('--json')) {
       console.log(JSON.stringify(pack, null, 2));
@@ -1782,6 +1834,12 @@ function main() {
       console.log('  INTENT ' + item.intent);
       console.log('  FILE ' + item.file);
       console.log('  RELATED_PUBLISHED ' + item.relatedPublished.map(x => x.slug).join(','));
+      if (item.brief) {
+        console.log('  TOPIC_BRIEF keyword=' + item.brief.primaryKeyword + ' | problem=' + item.brief.userProblem);
+        console.log('  TOPIC_GAIN ' + item.brief.informationGain);
+        console.log('  TOPIC_OUTLINE ' + (item.brief.outline || []).join(' | '));
+        if (item.brief.factualScope) console.log('  TOPIC_SCOPE ' + item.brief.factualScope);
+      }
     }
     if (pack.rules.verifyCommand) console.log('VERIFY ' + pack.rules.verifyCommand);
     console.log('NEXT_ACTION=' + pack.nextAction);
@@ -1812,7 +1870,7 @@ function main() {
     const m = loadMatrix();
     validateMatrix(m);
     const slugs = openArticleSlugs(m);
-    const { claimable, waitingForWriter } = runtime.findClaimableBacklog(m, slugs);
+    const { claimable, waitingForWriter, awaitingApproval } = runtime.findClaimableBacklog(m, slugs, writableOpts().opts);
     const hb = readJson(HEARTBEAT_FILE, null);
     const errors = (readJson(ERROR_FILE, { errors: [] }) || { errors: [] }).errors || [];
     const st = runtime.classifyProductionState({
@@ -1843,7 +1901,8 @@ function main() {
     console.log('PRODUCTION_STATUS phase=' + st.phase + ' stalled=' + st.stalled +
       ' heartbeat_age_min=' + st.heartbeatAgeMinutes + ' (ngưỡng ' + (stallMin || runtime.WRITER_STALL_MINUTES) + ' phút)');
     console.log('PUBLISHED=' + (dist.PUBLISHED || 0) + ' WAITING_FOR_WRITER=' + waitingForWriter.length +
-      ' CLAIMABLE_BACKLOG=' + claimable.length + ' REPAIR=' + (dist.REPAIR || 0) + ' BLOCKED=' + (dist.BLOCKED || 0));
+      ' CLAIMABLE_BACKLOG=' + claimable.length + ' REPAIR=' + (dist.REPAIR || 0) + ' BLOCKED=' + (dist.BLOCKED || 0) +
+      (awaitingApproval.length ? ' AWAITING_APPROVAL=' + awaitingApproval.length : ''));
     console.log('ERRORS open=' + st.openErrors + ' escalated=' + st.escalatedErrors);
     const stt = loadState();
     console.log('LAST_ACTION ' + (stt.lastAction ? stt.lastAction.action + ' @ ' + stt.lastAction.at : 'chưa có'));
@@ -1924,6 +1983,12 @@ function main() {
     }
     console.log('CHANGE_MODE=' + mode);
     return;
+  }
+  if (/^topic-/.test(cmd)) {
+    // Topic Factory V2 — topic.js giữ toàn bộ logic; factory.js chỉ cấp phụ thuộc (ma trận, state).
+    let code = 1;
+    try { code = topicCli.run(cmd, rest, topicDeps()); } catch (e) { console.error('TOPIC_FAIL: ' + (e && e.message ? e.message : e)); code = 1; }
+    process.exit(code);
   }
   console.error('Lệnh không tồn tại: "' + cmd + '" (exit 1) — chạy không đối số xem usage.');
   usage();
