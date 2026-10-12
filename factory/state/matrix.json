@@ -11013,11 +11013,13 @@
    "title": "Thuê honda vision: đặt cọc và nghiệm thu an toàn cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-dat-coc-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.174Z",
+   "seoScore": 100,
+   "words": 1666
   },
   {
    "id": "S00739",
@@ -11026,11 +11028,13 @@
    "title": "Thuê honda vision: đặt cọc và nghiệm thu an toàn khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-dat-coc-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.174Z",
+   "seoScore": 100,
+   "words": 1636
   },
   {
    "id": "S00740",
@@ -11039,11 +11043,13 @@
    "title": "Thuê honda vision: đặt cọc và nghiệm thu an toàn khi dùng dài ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-dat-coc-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.174Z",
+   "seoScore": 100,
+   "words": 1641
   },
   {
    "id": "S00741",
@@ -11052,11 +11058,13 @@
    "title": "Thuê honda vision: đặt cọc và nghiệm thu an toàn khi đi đường dài",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-dat-coc-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.174Z",
+   "seoScore": 100,
+   "words": 1685
   },
   {
    "id": "S00742",
@@ -11065,11 +11073,13 @@
    "title": "Thuê honda vision: đặt cọc và nghiệm thu an toàn trong điều kiện đô thị",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-dat-coc-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.174Z",
+   "seoScore": 100,
+   "words": 1652
   },
   {
    "id": "S00743",
@@ -11078,11 +11088,13 @@
    "title": "Thuê honda vision: đặt cọc và nghiệm thu an toàn theo tình huống thực tế",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-dat-coc-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.174Z",
+   "seoScore": 100,
+   "words": 1687
   },
   {
    "id": "S00744",
@@ -11091,11 +11103,13 @@
    "title": "Giấy tờ thuê xe: hướng dẫn thực tế cho người mới",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-huong-dan-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.174Z",
+   "seoScore": 91,
+   "words": 1688
   },
   {
    "id": "S00745",
@@ -11104,11 +11118,13 @@
    "title": "Giấy tờ thuê xe: hướng dẫn thực tế khi dùng ngắn ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-huong-dan-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.732Z",
-   "updatedAt": "2026-10-07T11:49:02.732Z"
+   "updatedAt": "2026-10-12T08:41:06.173Z",
+   "seoScore": 91,
+   "words": 1683
   },
   {
    "id": "S00746",
@@ -11117,11 +11133,13 @@
    "title": "Giấy tờ thuê xe: hướng dẫn thực tế khi dùng dài ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-huong-dan-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:06.173Z",
+   "seoScore": 100,
+   "words": 1679
   },
   {
    "id": "S00747",
@@ -11130,11 +11148,13 @@
    "title": "Giấy tờ thuê xe: hướng dẫn thực tế khi đi đường dài",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-huong-dan-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.733Z",
-   "updatedAt": "2026-10-07T11:49:02.733Z"
+   "updatedAt": "2026-10-12T08:41:06.173Z",
+   "seoScore": 100,
+   "words": 1692
   },
   {
    "id": "S00748",
