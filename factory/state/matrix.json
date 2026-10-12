@@ -18318,11 +18318,13 @@
    "title": "Bugi nóng và bugi lạnh trên xe máy là gì: chỉ số nhiệt của bugi, vì sao không nên đổi bừa và cách chọn đúng loại",
    "primaryIntent": "informational/bugi-nong-va-bugi-lanh-xe-may-la-gi-chi-so-nhiet-cua-bugi",
    "notes": "source=topic-v2 topicId=T001347",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T20:09:18.479Z",
-   "updatedAt": "2026-10-12T20:09:18.480Z"
+   "updatedAt": "2026-10-12T20:13:06.755Z",
+   "seoScore": 91,
+   "words": 2928
   }
  ]
 }
