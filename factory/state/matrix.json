@@ -8013,11 +8013,13 @@
    "title": "Thuê xe máy: thủ tục và giấy tờ trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-thu-tuc-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.713Z",
-   "updatedAt": "2026-10-07T11:49:02.713Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 91,
+   "words": 1676
   },
   {
    "id": "S00539",
@@ -8026,11 +8028,13 @@
    "title": "Thuê xe máy: thủ tục và giấy tờ theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-thu-tuc-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1610
   },
   {
    "id": "S00540",
@@ -8039,11 +8043,13 @@
    "title": "Thuê xe máy: chi phí và cách tính cho người mới",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-chi-phi-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1602
   },
   {
    "id": "S00541",
@@ -8052,11 +8058,13 @@
    "title": "Thuê xe máy: chi phí và cách tính khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-chi-phi-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1549
   },
   {
    "id": "S00542",
@@ -8065,11 +8073,13 @@
    "title": "Thuê xe máy: chi phí và cách tính khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-chi-phi-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1578
   },
   {
    "id": "S00543",
@@ -8078,11 +8088,13 @@
    "title": "Thuê xe máy: chi phí và cách tính khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-chi-phi-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1615
   },
   {
    "id": "S00544",
@@ -8091,11 +8103,13 @@
    "title": "Thuê xe máy: chi phí và cách tính trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-chi-phi-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1548
   },
   {
    "id": "S00545",
@@ -8104,11 +8118,13 @@
    "title": "Thuê xe máy: chi phí và cách tính theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-chi-phi-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1541
   },
   {
    "id": "S00546",
@@ -8117,11 +8133,13 @@
    "title": "Thuê xe máy: cách kiểm tra trước khi quyết định cho người mới",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kiem-tra-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.714Z",
-   "updatedAt": "2026-10-07T11:49:02.714Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1518
   },
   {
    "id": "S00547",
@@ -8130,11 +8148,13 @@
    "title": "Thuê xe máy: cách kiểm tra trước khi quyết định khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-thue-xe-xe-may-kiem-tra-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.715Z",
-   "updatedAt": "2026-10-07T11:49:02.715Z"
+   "updatedAt": "2026-10-12T08:02:47.647Z",
+   "seoScore": 100,
+   "words": 1522
   },
   {
    "id": "S00548",
