@@ -17568,11 +17568,13 @@
    "title": "Lọc nhớt và lưới lọc nhớt trên xe máy: nằm ở đâu, giữ lại gì và vì sao thay nhớt không phải lúc nào cũng kèm thay lọc",
    "primaryIntent": "informational/loc-nhot-xe-may-la-gi-va-luoi-loc-nhot",
    "notes": "source=topic-v2 topicId=T001284",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:04:37.408Z",
-   "updatedAt": "2026-10-12T19:04:37.408Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 91,
+   "words": 2927
   },
   {
    "id": "S01216",
@@ -17581,11 +17583,13 @@
    "title": "Bơm nhớt xe máy là gì: vai trò, kiểu bơm thường gặp và dấu hiệu bơm nhớt yếu hoặc nhớt không lên",
    "primaryIntent": "informational/bom-nhot-xe-may-la-gi-va-dau-hieu-bom-yeu",
    "notes": "source=topic-v2 topicId=T001285",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:04:37.430Z",
-   "updatedAt": "2026-10-12T19:04:37.430Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 91,
+   "words": 3078
   },
   {
    "id": "S01217",
@@ -17594,11 +17598,13 @@
    "title": "Cò mổ và trục cam xe máy là gì: cách xupap được đẩy mở đúng nhịp và dấu hiệu mòn qua tiếng gõ",
    "primaryIntent": "informational/co-mo-va-truc-cam-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001286",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:04:37.449Z",
-   "updatedAt": "2026-10-12T19:04:37.449Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 100,
+   "words": 2919
   },
   {
    "id": "S01218",
@@ -17607,11 +17613,13 @@
    "title": "Đầu bò (nắp máy) xe máy là gì: nằm ở đâu, gồm những gì và vì sao rỉ nhớt ở đầu bò thường gặp",
    "primaryIntent": "informational/dau-bo-nap-may-xe-may-la-gi-va-ri-nhot",
    "notes": "source=topic-v2 topicId=T001287",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:04:37.464Z",
-   "updatedAt": "2026-10-12T19:04:37.464Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 100,
+   "words": 3200
   },
   {
    "id": "S01219",
@@ -17620,11 +17628,13 @@
    "title": "Khóa xăng xe máy là gì: nằm ở đâu, các vị trí mở đóng và vì sao khóa xăng bẩn hoặc rò làm xe hụt ga",
    "primaryIntent": "informational/khoa-xang-xe-may-la-gi-nam-o-dau-va-cach-dung",
    "notes": "source=topic-v2 topicId=T001289",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:06:10.332Z",
-   "updatedAt": "2026-10-12T19:06:10.332Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 100,
+   "words": 2971
   },
   {
    "id": "S01220",
@@ -17633,11 +17643,13 @@
    "title": "Rơ-le trên xe máy là gì: rơ-le đề, rơ-le còi, rơ-le xi nhan làm việc ra sao và dấu hiệu rơ-le hỏng",
    "primaryIntent": "informational/ro-le-tren-xe-may-la-gi-ro-le-de-coi-xi-nhan",
    "notes": "source=topic-v2 topicId=T001290",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:06:10.354Z",
-   "updatedAt": "2026-10-12T19:06:10.354Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 100,
+   "words": 3097
   },
   {
    "id": "S01221",
@@ -17646,11 +17658,13 @@
    "title": "Gác chân xe máy bị cong, lỏng hoặc gãy: nguyên nhân sau ngã, nguy cơ và việc nên làm",
    "primaryIntent": "troubleshooting/gac-chan-xe-may-bi-cong-long-hoac-gay",
    "notes": "source=topic-v2 topicId=T001293",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:07:21.052Z",
-   "updatedAt": "2026-10-12T19:07:21.052Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 100,
+   "words": 2900
   },
   {
    "id": "S01222",
@@ -17659,11 +17673,13 @@
    "title": "Chắn bùn xe máy nứt, lỏng hoặc chạm bánh: vì sao kêu, văng nước và khi nào gây nguy hiểm",
    "primaryIntent": "troubleshooting/chan-bun-xe-may-nut-long-hoac-cham-banh",
    "notes": "source=topic-v2 topicId=T001294",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:07:21.073Z",
-   "updatedAt": "2026-10-12T19:07:21.073Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 100,
+   "words": 2907
   },
   {
    "id": "S01223",
@@ -17672,11 +17688,13 @@
    "title": "Bảo dưỡng xe máy điện: những hạng mục khác xe xăng, những hạng mục vẫn phải làm và việc nên hỏi nơi bảo hành",
    "primaryIntent": "informational/bao-duong-xe-may-dien-nhung-hang-muc-van-phai-lam",
    "notes": "source=topic-v2 topicId=T001295",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:08:18.203Z",
-   "updatedAt": "2026-10-12T19:08:18.203Z"
+   "updatedAt": "2026-10-12T19:21:36.251Z",
+   "seoScore": 100,
+   "words": 3076
   },
   {
    "id": "S01224",
@@ -17685,11 +17703,13 @@
    "title": "Cổ pô xe máy bị hở, rỉ hoặc thủng: tiếng phì, muội đen, mùi khói và vì sao không nên chạy lâu",
    "primaryIntent": "troubleshooting/co-po-xe-may-bi-ho-ri-hoac-thung",
    "notes": "source=topic-v2 topicId=T001296",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:09:38.324Z",
-   "updatedAt": "2026-10-12T19:09:38.324Z"
+   "updatedAt": "2026-10-12T19:21:36.252Z",
+   "seoScore": 100,
+   "words": 2918
   },
   {
    "id": "S01225",

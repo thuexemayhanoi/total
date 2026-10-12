@@ -1616,6 +1616,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/bao-duong-xe-may-dien-nhung-hang-muc-van-phai-lam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/index.html",
   "kind": "article"
  },
@@ -1653,6 +1657,10 @@
  },
  {
   "rel": "wiki/he-thong-phanh/bo-thang-phanh-tang-trong-mon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/bom-nhot-xe-may-la-gi-va-dau-hieu-bom-yeu/index.html",
   "kind": "article"
  },
  {
@@ -1717,6 +1725,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/cham-soc-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/chan-bun-xe-may-nut-long-hoac-cham-banh/index.html",
   "kind": "article"
  },
  {
@@ -1808,7 +1820,15 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/co-mo-va-truc-cam-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-tiet-kiem-xang/co-nen-tat-may-xe-may-khi-dung-den-do-hoac-cho-lau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dong-co/co-po-xe-may-bi-ho-ri-hoac-thung/index.html",
   "kind": "article"
  },
  {
@@ -1873,6 +1893,10 @@
  },
  {
   "rel": "docs/checklist/danh-sach-kiem-tra-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/dau-bo-nap-may-xe-may-la-gi-va-ri-nhot/index.html",
   "kind": "article"
  },
  {
@@ -2065,6 +2089,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/ep-xe-dung-cach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/loi-thuong-gap/gac-chan-xe-may-bi-cong-long-hoac-gay/index.html",
   "kind": "article"
  },
  {
@@ -2368,6 +2396,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/khoa-xang-xe-may-la-gi-nam-o-dau-va-cach-dung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/quan-huyen/khu-vuc-dong-xe/index.html",
   "kind": "article"
  },
@@ -2473,6 +2505,10 @@
  },
  {
   "rel": "wiki/cau-tao-xe/loc-may-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dau-nhot/loc-nhot-xe-may-la-gi-va-luoi-loc-nhot/index.html",
   "kind": "article"
  },
  {
@@ -2761,6 +2797,10 @@
  },
  {
   "rel": "wiki/dong-co/remap-ecu-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/ro-le-tren-xe-may-la-gi-ro-le-de-coi-xi-nhan/index.html",
   "kind": "article"
  },
  {
