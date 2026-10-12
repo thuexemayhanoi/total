@@ -18228,11 +18228,13 @@
    "title": "Cốp xe máy bị đọng nước, ẩm mốc hoặc có mùi hôi: nước vào từ đâu và cách giữ cốp khô an toàn",
    "primaryIntent": "troubleshooting/cop-xe-may-bi-dong-nuoc-am-moc-hoac-co-mui-hoi",
    "notes": "source=topic-v2 topicId=T001340",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:56:04.152Z",
-   "updatedAt": "2026-10-12T19:56:04.152Z"
+   "updatedAt": "2026-10-12T20:03:50.855Z",
+   "seoScore": 100,
+   "words": 3041
   },
   {
    "id": "S01260",
@@ -18241,11 +18243,13 @@
    "title": "Ốc xả nhớt xe máy bị chảy nhớt hoặc toét ren: vì sao xảy ra sau khi thay nhớt và việc nên làm",
    "primaryIntent": "troubleshooting/oc-xa-nhot-xe-may-bi-chay-nhot-hoac-toet-ren",
    "notes": "source=topic-v2 topicId=T001342",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:56:04.176Z",
-   "updatedAt": "2026-10-12T19:56:04.176Z"
+   "updatedAt": "2026-10-12T20:03:50.855Z",
+   "seoScore": 100,
+   "words": 2978
   },
   {
    "id": "S01261",
@@ -18254,11 +18258,13 @@
    "title": "Đèn xe máy mờ đi khi bấm còi hoặc bấm đề: sụt áp do ắc quy, đầu cốt hay dây mát và cách phân biệt",
    "primaryIntent": "troubleshooting/den-xe-may-mo-di-khi-bam-coi-hoac-bam-de",
    "notes": "source=topic-v2 topicId=T001343",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:56:04.194Z",
-   "updatedAt": "2026-10-12T19:56:04.194Z"
+   "updatedAt": "2026-10-12T20:03:50.855Z",
+   "seoScore": 91,
+   "words": 3046
   }
  ]
 }
