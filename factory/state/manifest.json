@@ -1760,11 +1760,19 @@
   "kind": "article"
  },
  {
+  "rel": "local/can-tho/di-xe-o-can-tho/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/da-nang/di-xe-o-da-nang/index.html",
   "kind": "article"
  },
  {
   "rel": "local/ha-noi/di-xe-o-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/hai-phong/di-xe-o-hai-phong/index.html",
   "kind": "article"
  },
  {
@@ -1845,6 +1853,14 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/giam-hao-xang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/tinh-thanh/giao-thong-cac-tinh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/can-tho/giao-thong-can-tho/index.html",
   "kind": "article"
  },
  {
@@ -2261,6 +2277,10 @@
  },
  {
   "rel": "tips/meo-thue-xe/thue-xe-can-hoi-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/can-tho/thue-xe-can-tho/index.html",
   "kind": "article"
  },
  {

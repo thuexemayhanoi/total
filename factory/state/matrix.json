@@ -7488,11 +7488,13 @@
    "title": "Hướng dẫn chi tiết về đi xe ở hải phòng",
    "primaryIntent": "informational/di-xe-o-hai-phong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.504Z",
-   "updatedAt": "2026-10-06T20:23:12.504Z"
+   "updatedAt": "2026-10-12T07:04:41.013Z",
+   "seoScore": 100,
+   "words": 1924
   },
   {
    "id": "S00504",
@@ -7501,11 +7503,13 @@
    "title": "Tổng hợp kiến thức: giao thông cần thơ",
    "primaryIntent": "informational/giao-thong-can-tho",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.504Z",
-   "updatedAt": "2026-10-06T20:23:12.504Z"
+   "updatedAt": "2026-10-12T07:04:41.013Z",
+   "seoScore": 91,
+   "words": 1884
   },
   {
    "id": "S00505",
@@ -7514,11 +7518,13 @@
    "title": "Kinh nghiệm thuê xe cần thơ dành cho người mới",
    "primaryIntent": "informational/thue-xe-can-tho",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.504Z",
-   "updatedAt": "2026-10-06T20:23:12.504Z"
+   "updatedAt": "2026-10-12T07:04:41.013Z",
+   "seoScore": 91,
+   "words": 1949
   },
   {
    "id": "S00506",
@@ -7527,11 +7533,13 @@
    "title": "Đi xe ở cần thơ — những điều cần biết",
    "primaryIntent": "informational/di-xe-o-can-tho",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.505Z",
-   "updatedAt": "2026-10-06T20:23:12.505Z"
+   "updatedAt": "2026-10-12T07:04:41.013Z",
+   "seoScore": 100,
+   "words": 1872
   },
   {
    "id": "S00507",
@@ -7540,11 +7548,13 @@
    "title": "Hướng dẫn chi tiết về giao thông các tỉnh",
    "primaryIntent": "informational/giao-thong-cac-tinh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.505Z",
-   "updatedAt": "2026-10-06T20:23:12.505Z"
+   "updatedAt": "2026-10-12T07:04:41.013Z",
+   "seoScore": 100,
+   "words": 1906
   },
   {
    "id": "S00508",

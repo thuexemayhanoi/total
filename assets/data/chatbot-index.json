@@ -9445,6 +9445,32 @@
   ]
  },
  {
+  "url": "local/can-tho/di-xe-o-can-tho/",
+  "title": "Đi xe ở cần thơ — những điều cần biết",
+  "category": "Địa phương",
+  "hub": "Cần Thơ",
+  "summary": "Một hướng dẫn thực hành tập trung vào trải nghiệm đi xe máy ở Cần Thơ: chọn phương tiện dễ điều khiển, học tuyến đi lần đầu, phân biệt nhịp giao thông trung tâm và vùng ven, giữ an toàn khi qua cầu, đi mùa mưa và chuẩn bị khi xe gặp sự cố.",
+  "quickAnswer": "Người lần đầu đi xe ở Cần Thơ nên chọn chặng đơn giản để làm quen xe, đọc biển báo trước điểm rẽ, quan sát người và xe gần chợ hoặc ngõ, đi chậm khi qua cầu lạ, tránh nước ngập không rõ độ sâu và biết nơi dừng an toàn.",
+  "keyPoints": [
+   "Tập làm quen xe và tuyến ngắn trước khi di chuyển nhiều điểm trong ngày.",
+   "Không nhìn bản đồ liên tục khi điều khiển; dừng an toàn để chỉnh lộ trình.",
+   "Quan sát các đường nhánh, xe ra từ ngõ và người đi bộ gần khu dân cư.",
+   "Tránh đường ngập không rõ độ sâu; tìm phương án khác khi tầm nhìn kém."
+  ],
+  "entities": [
+   "giao thông địa phương",
+   "Cần Thơ",
+   "xe máy",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "di xe o can tho",
+   "Cần Thơ",
+   "kinh nghiệm đi xe",
+   "an toàn xe máy"
+  ]
+ },
+ {
   "url": "local/da-nang/di-xe-o-da-nang/",
   "title": "Tổng hợp kiến thức: đi xe ở đà nẵng",
   "category": "Địa phương",
@@ -9499,6 +9525,32 @@
    "gui xe ha noi",
    "len tuyen ha noi",
    "giao thong ha noi"
+  ]
+ },
+ {
+  "url": "local/hai-phong/di-xe-o-hai-phong/",
+  "title": "Hướng dẫn chi tiết về đi xe ở hải phòng",
+  "category": "Địa phương",
+  "hub": "Hải Phòng",
+  "summary": "Hướng dẫn thực tế dành cho người mới đi xe ở Hải Phòng, từ việc hình dung mạng đường của một đô thị cảng đến giữ khoảng cách với xe lớn, lựa chọn tuyến qua cầu, quan sát mặt đường khi mưa và chuẩn bị hành trình linh hoạt.",
+  "quickAnswer": "Khi đi xe ở Hải Phòng, nên nghiên cứu đường trước khi xuất phát, chú ý biển báo và dòng xe tải ở các tuyến công nghiệp, tránh điểm mù, giảm tốc trước nút giao và cầu, kiểm tra thời tiết rồi luôn có tuyến dự phòng.",
+  "keyPoints": [
+   "Nhìn tuyến đường theo khu vực và các điểm băng qua sông thay vì chỉ theo thời gian ứng dụng dự báo.",
+   "Giữ khoảng cách lớn với xe tải, không vượt khi chưa quan sát đủ điểm mù và hướng rẽ.",
+   "Kiểm tra biển báo từng đoạn; không mặc định mọi đường đều được đi xe máy hai chiều.",
+   "Khi trời mưa, ưu tiên phanh từ sớm, giảm tốc trước khúc cua và tránh vạch sơn trơn."
+  ],
+  "entities": [
+   "giao thông địa phương",
+   "Hải Phòng",
+   "xe máy",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "di xe o hai phong",
+   "Hải Phòng",
+   "kinh nghiệm đi xe",
+   "an toàn xe máy"
   ]
  },
  {
@@ -10076,6 +10128,58 @@
    "nguoi moi di xe may",
    "giam tieu thu xang",
    "meo giam hao xang"
+  ]
+ },
+ {
+  "url": "local/tinh-thanh/giao-thong-cac-tinh/",
+  "title": "Hướng dẫn chi tiết về giao thông các tỉnh",
+  "category": "Địa phương",
+  "hub": "Tỉnh thành",
+  "summary": "Một bộ nguyên tắc giúp người điều khiển xe máy thích ứng với giao thông ở các địa phương khác nhau, từ đường đô thị, khu công nghiệp, đồng bằng tới tuyến đồi núi, bao gồm cách đọc biển báo, lựa chọn lộ trình, chuẩn bị thời tiết và xử lý khi đi sai đường.",
+  "quickAnswer": "Khi đi xe qua các tỉnh, đừng giả định mọi tuyến có cùng điều kiện. Hãy kiểm tra loại đường xe mình được phép đi, nghiên cứu địa hình và thời tiết, quan sát biển báo, giữ khoảng cách với xe lớn và lên kế hoạch dừng nghỉ trước chặng dài.",
+  "keyPoints": [
+   "Xem kỹ tuyến dự kiến có phù hợp phương tiện và kỹ năng hay không.",
+   "Không suy ra điều kiện giao thông tỉnh khác từ kinh nghiệm ở nơi mình sống.",
+   "Giữ an toàn gần xe tải, khu công nghiệp, chợ và các tuyến đường hẹp.",
+   "Kiểm tra thời tiết, nhiên liệu và điểm nghỉ theo từng chặng."
+  ],
+  "entities": [
+   "giao thông địa phương",
+   "Việt Nam",
+   "xe máy",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "giao thong cac tinh",
+   "giao thông các tỉnh",
+   "kinh nghiệm đi xe",
+   "an toàn xe máy"
+  ]
+ },
+ {
+  "url": "local/can-tho/giao-thong-can-tho/",
+  "title": "Tổng hợp kiến thức: giao thông cần thơ",
+  "category": "Địa phương",
+  "hub": "Cần Thơ",
+  "summary": "Khái quát giao thông Cần Thơ dưới góc nhìn người điều khiển xe máy, với các tình huống khác nhau ở trung tâm đô thị, đường gần sông rạch, trục ra ngoại ô, nút giao và cầu; kèm cách lên kế hoạch hành trình và ứng phó mưa.",
+  "quickAnswer": "Để đi lại ở Cần Thơ thuận lợi, hãy xác định trước tuyến và điểm qua cầu, không đi theo đường tắt chưa rõ chất lượng mặt đường, quan sát xe ra từ hẻm hoặc khu chợ, giảm tốc khi mưa và ưu tiên biển báo thực tế.",
+  "keyPoints": [
+   "Cần Thơ có các tuyến đô thị và đường nối khu dân cư ven kênh rạch với điều kiện sử dụng khác nhau.",
+   "Người mới nên xác định đúng hướng qua cầu và điểm quay đầu trước khi đến nút giao.",
+   "Mưa và mặt đường ẩm làm tăng quãng phanh, nhất là gần vạch sơn hoặc cầu.",
+   "Khu chợ, trường học và bến đỗ đòi hỏi tốc độ quan sát cao hơn tốc độ di chuyển."
+  ],
+  "entities": [
+   "giao thông địa phương",
+   "Cần Thơ",
+   "xe máy",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "giao thong can tho",
+   "Cần Thơ",
+   "kinh nghiệm đi xe",
+   "an toàn xe máy"
   ]
  },
  {
@@ -13062,6 +13166,32 @@
    "cau hoi khi thue xe may",
    "thue xe may lan dau luu y",
    "kinh nghiem thue xe may"
+  ]
+ },
+ {
+  "url": "local/can-tho/thue-xe-can-tho/",
+  "title": "Kinh nghiệm thuê xe cần thơ dành cho người mới",
+  "category": "Địa phương",
+  "hub": "Cần Thơ",
+  "summary": "Hướng dẫn các bước thuê xe ở Cần Thơ cho người mới từ khi xác định hành trình, chọn phương tiện, đọc điều khoản thuê và kiểm tra xe, tới sử dụng an toàn và hoàn trả với bằng chứng rõ ràng; không đưa ra mức giá chưa xác minh.",
+  "quickAnswer": "Trước khi thuê xe tại Cần Thơ, hãy chọn loại xe phù hợp tuyến đi, hỏi rõ chi phí và thời hạn, đọc điều khoản đặt cọc bằng văn bản, kiểm tra phanh lốp đèn giấy tờ, chụp hiện trạng rồi thống nhất cách xử lý sự cố và trả xe.",
+  "keyPoints": [
+   "Chọn xe dựa theo quãng đường thực tế, kinh nghiệm điều khiển và người đi cùng.",
+   "Xác minh giấy tờ theo yêu cầu và điều khoản hợp đồng trước khi nhận xe.",
+   "Kiểm tra phanh, đèn, lốp, gương và chụp lại hiện trạng lúc bàn giao.",
+   "Không nhận các thông tin về giá, cọc hoặc quyền lợi chỉ qua lời nói mà thiếu xác nhận rõ ràng."
+  ],
+  "entities": [
+   "giao thông địa phương",
+   "Cần Thơ",
+   "xe máy",
+   "an toàn giao thông"
+  ],
+  "keywords": [
+   "thue xe can tho",
+   "Cần Thơ",
+   "kinh nghiệm đi xe",
+   "an toàn xe máy"
   ]
  },
  {
