@@ -18304,6 +18304,19 @@
    "attempts": 0,
    "createdAt": "2026-10-12T20:04:17.027Z",
    "updatedAt": "2026-10-12T20:04:17.027Z"
+  },
+  {
+   "id": "S01265",
+   "hub": "wiki/dong-co",
+   "slug": "bugi-nong-va-bugi-lanh-xe-may-la-gi-chi-so-nhiet-cua-bugi",
+   "title": "Bugi nóng và bugi lạnh trên xe máy là gì: chỉ số nhiệt của bugi, vì sao không nên đổi bừa và cách chọn đúng loại",
+   "primaryIntent": "informational/bugi-nong-va-bugi-lanh-xe-may-la-gi-chi-so-nhiet-cua-bugi",
+   "notes": "source=topic-v2 topicId=T001347",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T20:09:18.479Z",
+   "updatedAt": "2026-10-12T20:09:18.480Z"
   }
  ]
 }
