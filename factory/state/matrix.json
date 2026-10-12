@@ -10563,11 +10563,13 @@
    "title": "Thuê honda vision: checklist từng bước cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-checklist-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.729Z",
-   "updatedAt": "2026-10-07T11:49:02.729Z"
+   "updatedAt": "2026-10-12T08:35:11.330Z",
+   "seoScore": 100,
+   "words": 1682
   },
   {
    "id": "S00709",
@@ -10576,11 +10578,13 @@
    "title": "Thuê honda vision: checklist từng bước khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-checklist-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.729Z",
-   "updatedAt": "2026-10-07T11:49:02.729Z"
+   "updatedAt": "2026-10-12T08:35:11.330Z",
+   "seoScore": 100,
+   "words": 1610
   },
   {
    "id": "S00710",
@@ -10589,11 +10593,13 @@
    "title": "Thuê honda vision: checklist từng bước khi dùng dài ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-checklist-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.729Z",
-   "updatedAt": "2026-10-07T11:49:02.729Z"
+   "updatedAt": "2026-10-12T08:35:11.329Z",
+   "seoScore": 100,
+   "words": 1680
   },
   {
    "id": "S00711",
@@ -10602,11 +10608,13 @@
    "title": "Thuê honda vision: checklist từng bước khi đi đường dài",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-checklist-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.729Z",
-   "updatedAt": "2026-10-07T11:49:02.729Z"
+   "updatedAt": "2026-10-12T08:35:11.329Z",
+   "seoScore": 100,
+   "words": 1724
   },
   {
    "id": "S00712",
@@ -10615,11 +10623,13 @@
    "title": "Thuê honda vision: checklist từng bước trong điều kiện đô thị",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-checklist-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.729Z",
-   "updatedAt": "2026-10-07T11:49:02.729Z"
+   "updatedAt": "2026-10-12T08:35:11.329Z",
+   "seoScore": 100,
+   "words": 1694
   },
   {
    "id": "S00713",
@@ -10628,11 +10638,13 @@
    "title": "Thuê honda vision: checklist từng bước theo tình huống thực tế",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-checklist-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.729Z",
-   "updatedAt": "2026-10-07T11:49:02.729Z"
+   "updatedAt": "2026-10-12T08:35:11.330Z",
+   "seoScore": 100,
+   "words": 1703
   },
   {
    "id": "S00714",
@@ -10641,11 +10653,13 @@
    "title": "Thuê honda vision: câu hỏi thường gặp cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-faq-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:35:11.330Z",
+   "seoScore": 91,
+   "words": 1703
   },
   {
    "id": "S00715",
@@ -10654,11 +10668,13 @@
    "title": "Thuê honda vision: câu hỏi thường gặp khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-faq-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:35:11.330Z",
+   "seoScore": 100,
+   "words": 1628
   },
   {
    "id": "S00716",
@@ -10667,11 +10683,13 @@
    "title": "Thuê honda vision: câu hỏi thường gặp khi dùng dài ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-faq-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:35:11.330Z",
+   "seoScore": 100,
+   "words": 1656
   },
   {
    "id": "S00717",
@@ -10680,11 +10698,13 @@
    "title": "Thuê honda vision: câu hỏi thường gặp khi đi đường dài",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-faq-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:35:11.330Z",
+   "seoScore": 91,
+   "words": 1721
   },
   {
    "id": "S00718",
