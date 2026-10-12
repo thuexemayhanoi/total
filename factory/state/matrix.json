@@ -16488,11 +16488,13 @@
    "title": "Đồng hồ tốc độ và công tơ mét xe máy không chạy hoặc báo sai: dây, cảm biến và đồng hồ điện tử",
    "primaryIntent": "troubleshooting/cong-to-met-xe-may-khong-chay",
    "notes": "source=topic-v2 topicId=T001206",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.760Z",
-   "updatedAt": "2026-10-12T17:22:39.760Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 100,
+   "words": 3011
   },
   {
    "id": "S01144",
@@ -16501,11 +16503,13 @@
    "title": "Còi xe máy kêu yếu hoặc im lặng: nguyên nhân từ nguồn điện, nút bấm, dây và bản thân còi",
    "primaryIntent": "troubleshooting/coi-xe-may-yeu-hoac-im-lang",
    "notes": "source=topic-v2 topicId=T001207",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.773Z",
-   "updatedAt": "2026-10-12T17:22:39.773Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 91,
+   "words": 3006
   },
   {
    "id": "S01145",
@@ -16514,11 +16518,13 @@
    "title": "Đèn phanh xe máy không sáng: công tắc phanh, bóng đèn và vì sao phải sửa ngay",
    "primaryIntent": "troubleshooting/den-phanh-xe-may-khong-sang",
    "notes": "source=topic-v2 topicId=T001208",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.786Z",
-   "updatedAt": "2026-10-12T17:22:39.786Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 100,
+   "words": 2802
   },
   {
    "id": "S01146",
@@ -16527,11 +16533,13 @@
    "title": "Xe máy hao bình qua đêm: tìm nguyên nhân rò điện và phụ kiện hút điện khi đã tắt khóa",
    "primaryIntent": "troubleshooting/xe-may-hao-binh-qua-dem",
    "notes": "source=topic-v2 topicId=T001209",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.797Z",
-   "updatedAt": "2026-10-12T17:22:39.797Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 91,
+   "words": 3146
   },
   {
    "id": "S01147",
@@ -16540,11 +16548,13 @@
    "title": "Dây mát xe máy lỏng hoặc gỉ: cội nguồn của nhiều lỗi điện chập chờn mà ít người nghĩ tới",
    "primaryIntent": "informational/day-mat-xe-may-long-gay-loi-dien",
    "notes": "source=topic-v2 topicId=T001210",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.811Z",
-   "updatedAt": "2026-10-12T17:22:39.811Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 100,
+   "words": 3050
   },
   {
    "id": "S01148",
@@ -16553,11 +16563,13 @@
    "title": "Chân chống xe máy lỏng, cong hoặc lò xo yếu: vì sao xe đổ và cách kiểm tra khi dựng xe",
    "primaryIntent": "troubleshooting/chan-chong-xe-may-long-hoac-yeu",
    "notes": "source=topic-v2 topicId=T001211",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.826Z",
-   "updatedAt": "2026-10-12T17:22:39.826Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 91,
+   "words": 3102
   },
   {
    "id": "S01149",
@@ -16566,11 +16578,13 @@
    "title": "Yên và cốp xe máy không mở được hoặc bản lề lỏng: khóa, dây giật và cách xử lý tạm",
    "primaryIntent": "troubleshooting/yen-va-cop-xe-may-khong-mo",
    "notes": "source=topic-v2 topicId=T001212",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.840Z",
-   "updatedAt": "2026-10-12T17:22:39.840Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 100,
+   "words": 2938
   },
   {
    "id": "S01150",
@@ -16579,11 +16593,13 @@
    "title": "Van lốp xe máy rò hơi: nắp van, lõi van và cách phát hiện bằng nước xà phòng",
    "primaryIntent": "troubleshooting/van-lop-xe-may-ro-hoi",
    "notes": "source=topic-v2 topicId=T001213",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.855Z",
-   "updatedAt": "2026-10-12T17:22:39.855Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 91,
+   "words": 2772
   },
   {
    "id": "S01151",
@@ -16592,11 +16608,13 @@
    "title": "Săm xe máy thủng lặp lại ở một chỗ: vật nhọn còn trong lốp, lớp lót vành và miếng vá",
    "primaryIntent": "troubleshooting/sam-xe-may-thung-lap-lai-mot-cho",
    "notes": "source=topic-v2 topicId=T001214",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.868Z",
-   "updatedAt": "2026-10-12T17:22:39.868Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 100,
+   "words": 2745
   },
   {
    "id": "S01152",
@@ -16605,11 +16623,13 @@
    "title": "Bố thắng phanh tang trống mòn: tay phanh sâu dần, tiếng kêu và cách nhận biết khi bảo dưỡng",
    "primaryIntent": "informational/bo-thang-phanh-tang-trong-mon",
    "notes": "source=topic-v2 topicId=T001215",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.884Z",
-   "updatedAt": "2026-10-12T17:22:39.884Z"
+   "updatedAt": "2026-10-12T17:37:45.091Z",
+   "seoScore": 91,
+   "words": 2905
   },
   {
    "id": "S01153",

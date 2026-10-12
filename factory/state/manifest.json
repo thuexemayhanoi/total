@@ -1632,6 +1632,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/he-thong-phanh/bo-thang-phanh-tang-trong-mon/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/bom-xang-dien-xe-phun-xang-yeu/index.html",
   "kind": "article"
  },
@@ -1693,6 +1697,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/cham-soc-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/loi-thuong-gap/chan-chong-xe-may-long-hoac-yeu/index.html",
   "kind": "article"
  },
  {
@@ -1776,6 +1784,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/coi-xe-may-yeu-hoac-im-lang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/coi-xe/index.html",
   "kind": "article"
  },
@@ -1793,6 +1805,10 @@
  },
  {
   "rel": "wiki/dien-xe/cong-tac-an-toan-chan-chong-va-phanh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/cong-to-met-xe-may-khong-chay/index.html",
   "kind": "article"
  },
  {
@@ -1840,7 +1856,15 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/day-mat-xe-may-long-gay-loi-dien/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/de-xe-noi-am/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dien-ac-quy/den-phanh-xe-may-khong-sang/index.html",
   "kind": "article"
  },
  {
@@ -2589,6 +2613,10 @@
  },
  {
   "rel": "docs/tai-lieu-tham-khao/sach-ky-thuat-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/lop/sam-xe-may-thung-lap-lai-mot-cho/index.html",
   "kind": "article"
  },
  {
@@ -3648,6 +3676,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/lop-banh-xe/van-lop-xe-may-ro-hoi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/vanh-xe-may-mam-duc-va-nan-hoa/index.html",
   "kind": "article"
  },
@@ -3756,6 +3788,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/xe-may-hao-binh-qua-dem/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/loi-thuong-gap/xe-may-keo-lech-khi-buong-tay-lai/index.html",
   "kind": "article"
  },
@@ -3841,6 +3877,10 @@
  },
  {
   "rel": "moto/yamaha/yamaha-sirius/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/yen-va-cop-xe-may-khong-mo/index.html",
   "kind": "article"
  },
  {
