@@ -10713,11 +10713,13 @@
    "title": "Thuê honda vision: câu hỏi thường gặp trong điều kiện đô thị",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-faq-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1744
   },
   {
    "id": "S00719",
@@ -10726,11 +10728,13 @@
    "title": "Thuê honda vision: câu hỏi thường gặp theo tình huống thực tế",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-faq-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1688
   },
   {
    "id": "S00720",
@@ -10739,11 +10743,13 @@
    "title": "Thuê honda vision: cách so sánh lựa chọn cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-so-sanh-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1717
   },
   {
    "id": "S00721",
@@ -10752,11 +10758,13 @@
    "title": "Thuê honda vision: cách so sánh lựa chọn khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-so-sanh-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1700
   },
   {
    "id": "S00722",
@@ -10765,11 +10773,13 @@
    "title": "Thuê honda vision: cách so sánh lựa chọn khi dùng dài ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-so-sanh-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1729
   },
   {
    "id": "S00723",
@@ -10778,11 +10788,13 @@
    "title": "Thuê honda vision: cách so sánh lựa chọn khi đi đường dài",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-so-sanh-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.730Z",
-   "updatedAt": "2026-10-07T11:49:02.730Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1743
   },
   {
    "id": "S00724",
@@ -10791,11 +10803,13 @@
    "title": "Thuê honda vision: cách so sánh lựa chọn trong điều kiện đô thị",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-so-sanh-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.731Z",
-   "updatedAt": "2026-10-07T11:49:02.731Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1735
   },
   {
    "id": "S00725",
@@ -10804,11 +10818,13 @@
    "title": "Thuê honda vision: cách so sánh lựa chọn theo tình huống thực tế",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-so-sanh-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.731Z",
-   "updatedAt": "2026-10-07T11:49:02.731Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1739
   },
   {
    "id": "S00726",
@@ -10817,11 +10833,13 @@
    "title": "Thuê honda vision: kinh nghiệm sử dụng thực tế cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kinh-nghiem-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.731Z",
-   "updatedAt": "2026-10-07T11:49:02.731Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1707
   },
   {
    "id": "S00727",
@@ -10830,11 +10848,13 @@
    "title": "Thuê honda vision: kinh nghiệm sử dụng thực tế khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kinh-nghiem-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.731Z",
-   "updatedAt": "2026-10-07T11:49:02.731Z"
+   "updatedAt": "2026-10-12T08:40:38.191Z",
+   "seoScore": 100,
+   "words": 1718
   },
   {
    "id": "S00728",
