@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-dat-coc-dai-ngay',
-  title: 'Thuê honda vision: đặt cọc và nghiệm thu an toàn khi dùng dài ngày',
+  title: 'Thuê Honda Vision: đặt cọc và nghiệm thu an toàn khi dùng dài ngày',
   seoTitle: 'Thuê Honda Vision dài ngày: đặt cọc và nghiệm thu',
   metaDescription: 'Thuê Honda Vision theo tuần hoặc tháng: lưu ý về cọc giữ lâu, nghiệm thu đầu kỳ chi tiết, kiểm tra giữa kỳ, ghi nhận gia hạn và đối chiếu khi trả xe cuối kỳ.',
   summary: 'Bài viết dành cho người thuê Honda Vision theo tuần hoặc theo tháng: vì sao cọc giữ lâu cần thỏa thuận kỹ hơn, cách nghiệm thu đầu kỳ chi tiết, kiểm tra giữa kỳ, ghi lại gia hạn hoặc thay đổi và đối chiếu cuối kỳ để nhận lại cọc.',

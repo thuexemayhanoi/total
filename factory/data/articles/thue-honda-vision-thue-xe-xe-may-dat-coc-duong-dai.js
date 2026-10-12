@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-dat-coc-duong-dai',
-  title: 'Thuê honda vision: đặt cọc và nghiệm thu an toàn khi đi đường dài',
+  title: 'Thuê Honda Vision: đặt cọc và nghiệm thu an toàn khi đi đường dài',
   seoTitle: 'Thuê Honda Vision đi đường dài: cọc và nghiệm thu',
   metaDescription: 'Thuê Honda Vision cho chuyến liên tỉnh: thỏa thuận phạm vi di chuyển và cọc, nghiệm thu kỹ lốp phanh, chuẩn bị khi xe hỏng giữa đường và đối chiếu lúc trả xe.',
   summary: 'Bài viết dành cho người dự định đi xa bằng Honda Vision thuê: cần nói rõ lộ trình với bên cho thuê, thỏa thuận cọc phù hợp chuyến liên tỉnh, nghiệm thu kỹ hơn, chuẩn bị cho sự cố giữa đường và đối chiếu khi trả xe sau hành trình.',

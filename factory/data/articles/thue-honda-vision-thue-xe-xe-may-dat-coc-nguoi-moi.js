@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-dat-coc-nguoi-moi',
-  title: 'Thuê honda vision: đặt cọc và nghiệm thu an toàn cho người mới',
+  title: 'Thuê Honda Vision: đặt cọc và nghiệm thu an toàn cho người mới',
   seoTitle: 'Thuê Honda Vision: đặt cọc và nghiệm thu cho người mới',
   metaDescription: 'Hướng dẫn người mới thuê Honda Vision: hiểu các hình thức đặt cọc, yêu cầu biên nhận rõ ràng và nghiệm thu xe tay ga từng bước khi nhận cũng như khi trả xe.',
   summary: 'Hướng dẫn người thuê lần đầu hiểu đặt cọc, đọc biên nhận, ghi nhận tình trạng xe và nghiệm thu một chiếc xe tay ga như Honda Vision trước khi nhận, rồi đối chiếu khi trả để nhận lại cọc đúng thỏa thuận.',

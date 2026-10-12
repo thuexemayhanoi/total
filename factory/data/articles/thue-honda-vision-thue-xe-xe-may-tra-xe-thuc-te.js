@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-tra-xe-thuc-te',
-  title: 'Thuê honda vision: những điều cần nhớ khi hoàn trả theo tình huống thực tế',
+  title: 'Thuê Honda Vision: những điều cần nhớ khi hoàn trả theo tình huống thực tế',
   seoTitle: 'Trả Honda Vision thuê: xử lý các tình huống thực tế',
   metaDescription: 'Cách xử lý tình huống thường gặp khi trả Honda Vision: về muộn, bất đồng vết xước, mất đồ, không gặp người nhận và tranh cãi khoản đặt cọc.',
   summary: 'Bài đi qua những tình huống người thuê hay gặp lúc hoàn trả một chiếc xe tay ga phổ biến như Honda Vision: về muộn, bất đồng về vết xước, thiếu phụ kiện, không gặp được người nhận và vướng mắc khi nhận lại khoản đã đặt, kèm cách ứng xử bình tĩnh và có chứng cứ.',

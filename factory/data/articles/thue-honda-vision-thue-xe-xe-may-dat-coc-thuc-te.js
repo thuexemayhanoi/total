@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-dat-coc-thuc-te',
-  title: 'Thuê honda vision: đặt cọc và nghiệm thu an toàn theo tình huống thực tế',
+  title: 'Thuê Honda Vision: đặt cọc và nghiệm thu an toàn theo tình huống thực tế',
   seoTitle: 'Thuê Honda Vision: cọc và nghiệm thu theo tình huống',
   metaDescription: 'Năm tình huống thực tế khi thuê Honda Vision: vết lạ lúc nhận, xe chết máy giữa đường, mưa ngập, trả muộn và bất đồng khi hoàn cọc, cùng cách xử lý.',
   summary: 'Bài viết đi qua năm tình huống thực tế người thuê Honda Vision có thể gặp liên quan đến cọc và nghiệm thu: vết lạ lúc nhận xe, xe trục trặc giữa đường, mưa lớn hoặc ngập, trả muộn và bất đồng khi hoàn cọc, kèm cách phản ứng bình tĩnh và có bằng chứng.',

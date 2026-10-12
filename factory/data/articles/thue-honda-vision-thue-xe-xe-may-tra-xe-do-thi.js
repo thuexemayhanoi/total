@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-tra-xe-do-thi',
-  title: 'Thuê honda vision: những điều cần nhớ khi hoàn trả trong điều kiện đô thị',
+  title: 'Thuê Honda Vision: những điều cần nhớ khi hoàn trả trong điều kiện đô thị',
   seoTitle: 'Trả Honda Vision thuê trong phố: những điều cần nhớ',
   metaDescription: 'Lưu ý khi trả Honda Vision giữa thành phố đông đúc: tính giờ cao điểm, chọn điểm dừng an toàn, chụp ảnh khi thiếu sáng, xử lý chỗ đỗ chật và bàn giao nhanh gọn.',
   summary: 'Bài giải thích cách hoàn trả một chiếc xe tay ga phổ biến như Honda Vision trong điều kiện đô thị: tính giờ cao điểm và tắc đường, chọn điểm dừng thuận tiện, chụp ảnh khi thiếu sáng hoặc chật chội, xử lý chỗ đỗ và hoàn tất bàn giao nhanh mà vẫn đầy đủ.',

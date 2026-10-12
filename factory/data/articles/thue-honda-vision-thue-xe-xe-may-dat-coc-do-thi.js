@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-dat-coc-do-thi',
-  title: 'Thuê honda vision: đặt cọc và nghiệm thu an toàn trong điều kiện đô thị',
+  title: 'Thuê Honda Vision: đặt cọc và nghiệm thu an toàn trong điều kiện đô thị',
   seoTitle: 'Thuê Honda Vision trong phố: đặt cọc và nghiệm thu',
   metaDescription: 'Thuê Honda Vision đi trong phố: điều kiện cọc, trách nhiệm bảo quản chống mất cắp, nghiệm thu phanh đèn khóa, ghi nhận trầy xước khi len hẻm và trả xe.',
   summary: 'Bài viết dành cho người dùng Honda Vision thuê để đi lại trong thành phố: những hao mòn đặc trưng của xe đi phố, cách hỏi về trách nhiệm bảo quản và mất cắp trong điều kiện cọc, nghiệm thu theo góc nhìn đô thị, ghi nhận vết xước nhỏ và trả xe giữa đông đúc.',
