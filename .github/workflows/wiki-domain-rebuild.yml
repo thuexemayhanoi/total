@@ -10,6 +10,7 @@ on:
       - 'factory/site.config.js'
       - 'factory/lib/**'
       - 'factory/generate.js'
+      - 'factory/data/index-policy.json'
       - 'factory/test-features.js'
       - 'assets/js/search.js'
       - 'assets/css/atlas.css'

@@ -19,6 +19,7 @@ on:
       - 'factory/lib/**'
       - 'factory/data/categories.js'
       - 'factory/data/topic-*.js'
+      - 'factory/data/index-policy.json'
       - 'factory/topic.js'
       - 'factory/topic-governance.json'
       - 'factory/test*.js'
