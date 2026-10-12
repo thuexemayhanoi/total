@@ -17314,6 +17314,58 @@
    "attempts": 0,
    "createdAt": "2026-10-12T18:10:32.922Z",
    "updatedAt": "2026-10-12T18:10:32.922Z"
+  },
+  {
+   "id": "S01199",
+   "hub": "learn/chuan-doan-loi",
+   "slug": "xe-may-keu-tit-tit-hoac-bip-cac-nguon-am-canh-bao",
+   "title": "Xe máy kêu tít tít hoặc bíp: các nguồn âm thanh cảnh báo thường gặp và cách đối chiếu",
+   "primaryIntent": "troubleshooting/xe-may-keu-tit-tit-hoac-bip-cac-nguon-am-canh-bao",
+   "notes": "source=topic-v2 topicId=T001264",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T18:13:10.569Z",
+   "updatedAt": "2026-10-12T18:13:10.569Z"
+  },
+  {
+   "id": "S01200",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "xe-may-het-xang-giua-duong-do-lai-va-de-lai",
+   "title": "Xe máy hết xăng giữa đường: dắt xe, đổ lại xăng và vì sao xe phun xăng đôi khi khó nổ lại ngay",
+   "primaryIntent": "troubleshooting/xe-may-het-xang-giua-duong-do-lai-va-de-lai",
+   "notes": "source=topic-v2 topicId=T001265",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T18:13:10.589Z",
+   "updatedAt": "2026-10-12T18:13:10.589Z"
+  },
+  {
+   "id": "S01201",
+   "hub": "guide/mua-xe",
+   "slug": "xe-may-cu-da-bo-may-hay-con-zin-dau-hieu-nhan-biet",
+   "title": "Xe máy cũ đã bổ máy hay còn nguyên bản: những dấu hiệu quan sát được khi xem xe",
+   "primaryIntent": "informational/xe-may-cu-da-bo-may-hay-con-zin-dau-hieu-nhan-biet",
+   "notes": "source=topic-v2 topicId=T001266",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T18:13:10.604Z",
+   "updatedAt": "2026-10-12T18:13:10.604Z"
+  },
+  {
+   "id": "S01202",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "ngoi-sau-xe-may-khi-mac-vay-hoac-trang-phuc-rong",
+   "title": "Ngồi sau xe máy khi mặc váy hoặc trang phục rộng: cách ngồi và những điểm dễ vướng cần chú ý",
+   "primaryIntent": "informational/ngoi-sau-xe-may-khi-mac-vay-hoac-trang-phuc-rong",
+   "notes": "source=topic-v2 topicId=T001267",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T18:13:10.619Z",
+   "updatedAt": "2026-10-12T18:13:10.620Z"
   }
  ]
 }
