@@ -8100,6 +8100,32 @@
   ]
  },
  {
+  "url": "map/bai-do-xe/bai-do-xe/",
+  "title": "Bãi đỗ xe — những điều cần biết",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "summary": "Bài viết giải thích cách chọn và sử dụng bãi đỗ xe an toàn: phân biệt các loại bãi, quan sát biển báo, vé và quy trình gửi, cách khóa xe và giữ đồ có giá trị, kiểm tra khi nhận lại xe và việc cần làm nếu xe bị hư hại hoặc thất lạc.",
+  "quickAnswer": "Hãy chọn bãi đỗ xe có biển hiệu, người trông coi và quy trình vé rõ ràng, khóa xe cẩn thận, không để đồ giá trị trên xe và chụp ảnh xe khi gửi. Khi nhận xe, kiểm tra xe và vé trước khi rời đi; nếu có hư hại hoặc thất lạc, báo ngay cho người quản lý.",
+  "keyPoints": [
+   "Ưu tiên bãi có biển hiệu, người trông coi và hệ thống vé rõ ràng.",
+   "Đọc thông tin về giờ mở cửa, cách tính phí và trách nhiệm của bãi trước khi gửi.",
+   "Khóa xe, rút chìa và không để đồ giá trị hoặc giấy tờ trên xe.",
+   "Giữ vé cẩn thận và chụp ảnh tình trạng xe khi gửi."
+  ],
+  "entities": [
+   "bãi đỗ xe",
+   "gửi xe",
+   "vé xe",
+   "an toàn tài sản"
+  ],
+  "keywords": [
+   "bãi đỗ xe",
+   "gửi xe máy an toàn",
+   "chọn nơi gửi xe",
+   "vé gửi xe"
+  ]
+ },
+ {
   "url": "learn/doc-thong-so/bang-thong-so-xe/",
   "title": "Bảng thông số xe máy: cách đọc, so sánh và tránh bẫy con số",
   "category": "Kiến thức chuyên sâu",
@@ -9055,6 +9081,32 @@
   ]
  },
  {
+  "url": "map/diem-dang-ky-xe/co-quan-dang-ky-xe/",
+  "title": "Hướng dẫn chi tiết về cơ quan đăng ký xe",
+  "category": "Bản đồ",
+  "hub": "Điểm đăng ký xe",
+  "summary": "Bài viết giải thích vai trò của cơ quan đăng ký xe trong hệ thống quản lý phương tiện, cách tìm kênh liên hệ chính thức, chuẩn bị trước khi đến làm việc, cách trao đổi và đặt câu hỏi, ứng xử khi có thắc mắc hoặc khiếu nại và những lưu ý về bảo vệ thông tin cá nhân.",
+  "quickAnswer": "Cơ quan đăng ký xe là đơn vị nhà nước có thẩm quyền tiếp nhận hồ sơ, cấp giấy đăng ký và biển số. Hãy tìm kênh liên hệ chính thức, chuẩn bị giấy tờ, trao đổi rõ ràng, giữ biên nhận và dùng quy trình khiếu nại chính thức khi có thắc mắc. Không chia sẻ thông tin cá nhân với bên không rõ nguồn gốc.",
+  "keyPoints": [
+   "Cơ quan đăng ký xe thực hiện chức năng quản lý nhà nước về phương tiện theo quy định.",
+   "Thông tin liên hệ chính thức nằm trên cổng thông tin cơ quan hoặc cổng dịch vụ công.",
+   "Chuẩn bị câu hỏi và giấy tờ trước khi đến giúp buổi làm việc hiệu quả hơn.",
+   "Giữ biên nhận và số hồ sơ để theo dõi và tra cứu."
+  ],
+  "entities": [
+   "cơ quan đăng ký xe",
+   "quản lý phương tiện",
+   "biển số xe",
+   "bảo vệ thông tin cá nhân"
+  ],
+  "keywords": [
+   "cơ quan đăng ký xe",
+   "liên hệ cơ quan đăng ký xe",
+   "hồ sơ đăng ký xe",
+   "khiếu nại thủ tục xe"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/coi-xe/",
   "title": "Kinh nghiệm còi xe dành cho người mới",
   "category": "Bách khoa xe",
@@ -9288,6 +9340,32 @@
    "bo ba xe ga",
    "day con xe ga",
    "bao duong cvt xe ga"
+  ]
+ },
+ {
+  "url": "map/diem-dang-ky-xe/dang-ky-xe-o-dau/",
+  "title": "Đăng ký xe ở đâu — những điều cần biết",
+  "category": "Bản đồ",
+  "hub": "Điểm đăng ký xe",
+  "summary": "Bài viết hướng dẫn người mua hoặc sang tên xe tìm nơi đăng ký xe: xác định cơ quan có thẩm quyền theo hướng dẫn hiện hành, tra cứu qua cổng thông tin chính thức, chuẩn bị giấy tờ và đặt lịch, tránh dịch vụ môi giới không rõ ràng, kiểm tra thông tin sau khi nhận kết quả.",
+  "quickAnswer": "Nơi đăng ký xe do cơ quan nhà nước có thẩm quyền theo quy định hiện hành quyết định. Hãy tra cứu qua cổng thông tin chính thức hoặc hỏi cơ quan công an địa phương, chuẩn bị giấy tờ theo hướng dẫn, đặt lịch nếu có và tránh nhờ người không rõ nguồn gốc làm thay.",
+  "keyPoints": [
+   "Cơ quan đăng ký xe và quy trình do pháp luật quy định và có thể thay đổi theo thời điểm.",
+   "Thông tin chính thức nằm trên cổng thông tin của cơ quan quản lý và cổng dịch vụ công.",
+   "Chuẩn bị giấy tờ đầy đủ và đúng yêu cầu giúp tiết kiệm thời gian.",
+   "Cẩn trọng với môi giới hoặc dịch vụ làm thay không rõ nguồn gốc."
+  ],
+  "entities": [
+   "đăng ký xe",
+   "cơ quan có thẩm quyền",
+   "cổng dịch vụ công",
+   "giấy tờ xe"
+  ],
+  "keywords": [
+   "đăng ký xe ở đâu",
+   "nơi đăng ký xe máy",
+   "thủ tục đăng ký xe",
+   "cổng dịch vụ công"
   ]
  },
  {
@@ -9772,6 +9850,32 @@
    "chọn độ đặc nhớt xe máy",
    "W trong 10W nghĩa là gì",
    "đổ nhớt đặc hơn được không"
+  ]
+ },
+ {
+  "url": "map/bai-do-xe/do-xe-o-dau/",
+  "title": "Tổng hợp kiến thức: đỗ xe ở đâu",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "summary": "Bài viết giúp người đi xe máy xác định nên đỗ xe ở đâu: nhận biết nơi được phép và không được phép đỗ, đọc biển báo, vạch kẻ và lề đường, cân nhắc bãi chính thức, đỗ xe ở phố đông, khu du lịch và khu dân cư, cùng cách xử lý khi không tìm được chỗ.",
+  "quickAnswer": "Hãy đỗ xe ở nơi có biển cho phép hoặc bãi trông giữ chính thức, tránh vỉa hè dành cho người đi bộ, trước cổng nhà, gần ngã tư, trạm xe buýt và nơi có vạch cấm. Khi không chắc, chọn bãi chính thức rồi đi bộ thêm một đoạn.",
+  "keyPoints": [
+   "Biển báo, vạch kẻ và biển phụ quyết định nơi được đỗ và thời gian đỗ.",
+   "Bãi trông giữ chính thức an toàn và rõ ràng hơn so với đỗ tạm ở nơi không có thông tin.",
+   "Không đỗ ở nơi cản trở người đi bộ, lối ra vào, xe cứu thương và phương tiện công cộng.",
+   "Ở phố đông, khu du lịch và khu dân cư có cách chọn chỗ đỗ khác nhau."
+  ],
+  "entities": [
+   "đỗ xe",
+   "biển báo cấm đỗ",
+   "bãi trông giữ xe",
+   "vỉa hè"
+  ],
+  "keywords": [
+   "đỗ xe ở đâu",
+   "nơi được phép đỗ xe",
+   "biển cấm đỗ",
+   "đỗ xe máy hợp lệ"
   ]
  },
  {
@@ -10651,6 +10755,32 @@
    "khoi dong xe may dung cach",
    "tuoi tho xe may",
    "bao quan xe may lau dai"
+  ]
+ },
+ {
+  "url": "map/bai-do-xe/giu-xe-may/",
+  "title": "Hướng dẫn chi tiết về giữ xe máy",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "summary": "Bài viết hướng dẫn cách giữ xe máy an toàn khi để xe ở nơi công cộng hoặc qua đêm: chọn nơi gửi, khóa nhiều lớp, vị trí đặt xe, giữ vé và chìa, ghi nhận tình trạng xe, phòng tránh trộm cắp, và cách xử lý khi xe bị mất hoặc hư hại.",
+  "quickAnswer": "Để giữ xe máy an toàn, hãy gửi ở nơi có người trông và vé rõ ràng, khóa xe nhiều lớp, đặt xe ở nơi sáng và đông người, không để đồ giá trị trên xe, giữ vé và chìa cẩn thận. Nếu xe bị mất hoặc hư hại, báo ngay người quản lý và cơ quan chức năng.",
+  "keyPoints": [
+   "Khóa nhiều lớp (khóa cổ, khóa đĩa hoặc khóa chống trộm) làm tăng độ khó cho kẻ gian.",
+   "Chọn nơi gửi có người trông, ánh sáng tốt và camera nếu có.",
+   "Không để giấy tờ, ví hoặc đồ có giá trị trong cốp xe.",
+   "Giữ vé và chìa khóa ở nơi an toàn, chụp ảnh xe khi gửi."
+  ],
+  "entities": [
+   "giữ xe máy",
+   "khóa xe",
+   "chống trộm xe",
+   "gửi xe qua đêm"
+  ],
+  "keywords": [
+   "giữ xe máy",
+   "khóa xe máy chống trộm",
+   "gửi xe máy qua đêm",
+   "bảo vệ xe máy"
   ]
  },
  {
@@ -12355,6 +12485,32 @@
   ]
  },
  {
+  "url": "map/bai-do-xe/quy-dinh-do-xe/",
+  "title": "Kinh nghiệm quy định đỗ xe dành cho người mới",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "summary": "Bài viết giúp người mới hiểu những khái niệm cơ bản về quy định đỗ xe: phân biệt dừng xe và đỗ xe, vai trò của biển báo, biển phụ và vạch kẻ, cách tìm nguồn quy định chính thống, ứng xử khi bị nhắc nhở hoặc xử lý, và những lỗi đỗ xe thường gặp cần tránh.",
+  "quickAnswer": "Dừng xe là tạm dừng ngắn vì lý do cụ thể, còn đỗ xe là để xe đứng yên lâu hơn. Mỗi hành vi có quy tắc riêng, thể hiện qua biển báo và vạch kẻ. Người mới nên đọc biển chính lẫn biển phụ, tra quy định chính thức của địa phương và chọn bãi trông giữ hợp lệ khi chưa chắc.",
+  "keyPoints": [
+   "Dừng xe và đỗ xe là hai hành vi khác nhau với quy tắc riêng.",
+   "Biển chính, biển phụ và vạch kẻ cùng quyết định quy định tại một vị trí.",
+   "Quy định chi tiết có thể khác nhau theo địa phương và thay đổi theo thời gian.",
+   "Nguồn đáng tin cậy là văn bản pháp luật hiện hành và thông báo của cơ quan quản lý."
+  ],
+  "entities": [
+   "quy định đỗ xe",
+   "dừng đỗ xe",
+   "biển báo",
+   "người mới đi xe"
+  ],
+  "keywords": [
+   "quy định đỗ xe",
+   "dừng xe và đỗ xe khác nhau",
+   "biển cấm đỗ",
+   "đỗ xe đúng luật"
+  ]
+ },
+ {
   "url": "hub/dia-phuong/quy-dinh-giao-thong-dia-phuong/",
   "title": "Quy định giao thông địa phương — những điều cần biết",
   "category": "Trung tâm chủ đề",
@@ -12811,6 +12967,32 @@
   ]
  },
  {
+  "url": "map/diem-sua-xe/sua-xe-duong-bo/",
+  "title": "Tổng hợp kiến thức: sửa xe đường bộ",
+  "category": "Bản đồ",
+  "hub": "Điểm sửa xe",
+  "summary": "Bài viết tổng hợp cách xử lý các sự cố xe máy thường gặp khi đi đường bộ: thủng lốp, chết máy, mất điện, quá nhiệt, hỏng phanh hoặc đứt dây. Nội dung nêu dụng cụ cơ bản nên mang theo, thao tác an toàn có thể tự làm và dấu hiệu cho thấy cần dừng hẳn và gọi cứu hộ.",
+  "quickAnswer": "Khi xe gặp sự cố trên đường, ưu tiên đưa xe vào nơi an toàn, xác định triệu chứng và chỉ tự xử lý những việc đơn giản như vá lốp tạm hoặc kiểm tra xăng, bugi. Lỗi liên quan phanh, lái hoặc động cơ nặng cần dừng hẳn và gọi cứu hộ hoặc thợ chuyên nghiệp.",
+  "keyPoints": [
+   "An toàn bản thân và người xung quanh quan trọng hơn việc sửa nhanh.",
+   "Một số sự cố đơn giản có thể tự xử lý tạm nếu có dụng cụ và kinh nghiệm.",
+   "Lỗi phanh, hệ thống lái hoặc động cơ nghiêm trọng cần nhờ thợ chuyên nghiệp.",
+   "Bộ dụng cụ gọn gàng giúp xử lý nhanh những sự cố thường gặp."
+  ],
+  "entities": [
+   "sự cố xe máy",
+   "sửa xe trên đường",
+   "cứu hộ",
+   "bảo dưỡng xe"
+  ],
+  "keywords": [
+   "sửa xe đường bộ",
+   "xe máy hỏng giữa đường",
+   "vá lốp tạm",
+   "bộ dụng cụ xe máy"
+  ]
+ },
+ {
   "url": "moto/suzuki/suzuki-address/",
   "title": "Hướng dẫn chi tiết về suzuki address",
   "category": "Xe máy",
@@ -13234,6 +13416,32 @@
   ]
  },
  {
+  "url": "map/diem-sua-xe/tho-sua-xe-tin-cay/",
+  "title": "Kinh nghiệm thợ sửa xe tin cậy dành cho người mới",
+  "category": "Bản đồ",
+  "hub": "Điểm sửa xe",
+  "summary": "Bài viết giúp người mới đi xe máy nhận biết một thợ sửa xe đáng tin: các dấu hiệu về cách làm việc và giao tiếp, cách mô tả lỗi rõ ràng, hỏi báo giá và hạng mục, yêu cầu xem phụ tùng cũ, tránh các tình huống thổi phồng lỗi và xây dựng quan hệ lâu dài với một thợ quen.",
+  "quickAnswer": "Thợ sửa xe tin cậy thường giải thích rõ nguyên nhân, báo giá và hạng mục trước khi làm, cho xem phụ tùng cũ và không ép thay nhiều thứ không cần thiết. Hãy mô tả lỗi cụ thể, hỏi lại khi chưa hiểu và giữ hóa đơn. Khi nghi ngờ, bạn có thể hỏi thêm một nơi khác.",
+  "keyPoints": [
+   "Thợ tốt giải thích nguyên nhân bằng ngôn ngữ dễ hiểu và đưa ra phương án rõ ràng.",
+   "Báo giá và hạng mục cần được thống nhất trước khi bắt đầu sửa.",
+   "Yêu cầu xem phụ tùng cũ giúp xác nhận bộ phận đã thay.",
+   "Cẩn trọng với lý do mơ hồ hoặc thúc ép thay nhiều bộ phận cùng lúc."
+  ],
+  "entities": [
+   "thợ sửa xe",
+   "báo giá sửa xe",
+   "phụ tùng",
+   "người mới đi xe máy"
+  ],
+  "keywords": [
+   "thợ sửa xe tin cậy",
+   "chọn thợ sửa xe máy",
+   "kinh nghiệm sửa xe",
+   "phụ tùng xe máy"
+  ]
+ },
+ {
   "url": "tips/meo-mua-xe/thoi-diem-mua-xe/",
   "title": "Thời điểm mua xe — những điều cần biết",
   "category": "Mẹo",
@@ -13545,6 +13753,32 @@
   ]
  },
  {
+  "url": "map/diem-sua-xe/tiem-sua-xe-gan-day/",
+  "title": "Hướng dẫn chi tiết về tiệm sửa xe gần đây",
+  "category": "Bản đồ",
+  "hub": "Điểm sửa xe",
+  "summary": "Bài viết hướng dẫn người đi xe máy tìm tiệm sửa xe gần nhất khi gặp sự cố: dùng bản đồ số, hỏi người dân, nhận biết dấu hiệu của tiệm đáng tin, trao đổi triệu chứng rõ ràng, xin báo giá trước khi sửa, giữ lại hóa đơn và đảm bảo an toàn trong lúc chờ.",
+  "quickAnswer": "Khi xe hỏng, hãy đưa xe vào nơi an toàn, tìm tiệm sửa xe gần bằng bản đồ hoặc hỏi người địa phương, mô tả rõ triệu chứng, hỏi báo giá và thời gian dự kiến trước khi đồng ý sửa, rồi giữ lại hóa đơn. Tránh sửa vội ở nơi không rõ ràng.",
+  "keyPoints": [
+   "Dùng bản đồ số, biển hiệu và người địa phương để tìm tiệm sửa xe gần.",
+   "Mô tả triệu chứng xe rõ ràng để thợ chẩn đoán đúng.",
+   "Hỏi báo giá và hạng mục sửa trước khi đồng ý, yêu cầu báo lại nếu phát sinh.",
+   "Giữ lại hóa đơn và hỏi về bảo hành phần đã sửa nếu có."
+  ],
+  "entities": [
+   "tiệm sửa xe",
+   "xe hỏng giữa đường",
+   "bản đồ số",
+   "sửa chữa xe máy"
+  ],
+  "keywords": [
+   "tiệm sửa xe gần đây",
+   "xe hỏng giữa đường",
+   "tìm tiệm sửa xe",
+   "sửa xe máy"
+  ]
+ },
+ {
   "url": "tips/meo-tiet-kiem-xang/tiet-kiem-xang/",
   "title": "Hướng dẫn chi tiết về tiết kiệm xăng",
   "category": "Mẹo",
@@ -13708,6 +13942,32 @@
    "bang thong so xe may tra cuu",
    "co lop xe may",
    "ma bugi xe may"
+  ]
+ },
+ {
+  "url": "map/tram-sac/tra-tram-sac/",
+  "title": "Tra trạm sạc — những điều cần biết",
+  "category": "Bản đồ",
+  "hub": "Trạm sạc",
+  "summary": "Bài viết giải thích cách tra cứu trạm sạc cho xe điện: dùng bản đồ và ứng dụng chuyên dụng, đọc thông tin về loại cổng sạc, công suất, tình trạng hoạt động và hình thức thanh toán, đối chiếu dữ liệu, lập kế hoạch sạc theo chặng và chuẩn bị phương án dự phòng khi đi xa.",
+  "quickAnswer": "Để tra trạm sạc, hãy dùng bản đồ hoặc ứng dụng của nhà cung cấp, xem loại cổng sạc có khớp với xe không, công suất, giờ hoạt động và tình trạng trụ. Đối chiếu nhiều nguồn, lên kế hoạch sạc khi pin còn khoảng một phần ba và luôn có điểm sạc dự phòng.",
+  "keyPoints": [
+   "Cần kiểm tra cổng sạc và chuẩn kết nối có tương thích với xe hay không.",
+   "Công suất sạc ảnh hưởng thời gian chờ; xe cũng có giới hạn công suất nhận riêng.",
+   "Tình trạng trụ, giờ hoạt động và hình thức thanh toán có thể thay đổi theo thời điểm.",
+   "Nên sạc khi pin còn khoảng một phần ba thay vì chờ gần cạn."
+  ],
+  "entities": [
+   "trạm sạc",
+   "xe điện",
+   "cổng sạc",
+   "lập kế hoạch sạc"
+  ],
+  "keywords": [
+   "tra trạm sạc",
+   "tìm trạm sạc xe điện",
+   "cổng sạc xe máy điện",
+   "lập kế hoạch sạc"
   ]
  },
  {

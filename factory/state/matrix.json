@@ -7713,11 +7713,13 @@
    "title": "Tra trạm sạc — những điều cần biết",
    "primaryIntent": "informational/tra-tram-sac",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.513Z",
-   "updatedAt": "2026-10-06T20:23:12.513Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 83,
+   "words": 1464
   },
   {
    "id": "S00519",
@@ -7726,11 +7728,13 @@
    "title": "Hướng dẫn chi tiết về tiệm sửa xe gần đây",
    "primaryIntent": "informational/tiem-sua-xe-gan-day",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 91,
+   "words": 1461
   },
   {
    "id": "S00520",
@@ -7739,11 +7743,13 @@
    "title": "Tổng hợp kiến thức: sửa xe đường bộ",
    "primaryIntent": "informational/sua-xe-duong-bo",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 100,
+   "words": 1442
   },
   {
    "id": "S00521",
@@ -7752,11 +7758,13 @@
    "title": "Kinh nghiệm thợ sửa xe tin cậy dành cho người mới",
    "primaryIntent": "informational/tho-sua-xe-tin-cay",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 83,
+   "words": 1498
   },
   {
    "id": "S00522",
@@ -7765,11 +7773,13 @@
    "title": "Bãi đỗ xe — những điều cần biết",
    "primaryIntent": "informational/bai-do-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 83,
+   "words": 1514
   },
   {
    "id": "S00523",
@@ -7778,11 +7788,13 @@
    "title": "Hướng dẫn chi tiết về giữ xe máy",
    "primaryIntent": "informational/giu-xe-may",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 91,
+   "words": 1470
   },
   {
    "id": "S00524",
@@ -7791,11 +7803,13 @@
    "title": "Tổng hợp kiến thức: đỗ xe ở đâu",
    "primaryIntent": "informational/do-xe-o-dau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 74,
+   "words": 1481
   },
   {
    "id": "S00525",
@@ -7804,11 +7818,13 @@
    "title": "Kinh nghiệm quy định đỗ xe dành cho người mới",
    "primaryIntent": "informational/quy-dinh-do-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 83,
+   "words": 1458
   },
   {
    "id": "S00526",
@@ -7817,11 +7833,13 @@
    "title": "Đăng ký xe ở đâu — những điều cần biết",
    "primaryIntent": "informational/dang-ky-xe-o-dau",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.514Z",
-   "updatedAt": "2026-10-06T20:23:12.514Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 83,
+   "words": 1522
   },
   {
    "id": "S00527",
@@ -7830,11 +7848,13 @@
    "title": "Hướng dẫn chi tiết về cơ quan đăng ký xe",
    "primaryIntent": "informational/co-quan-dang-ky-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.515Z",
-   "updatedAt": "2026-10-06T20:23:12.515Z"
+   "updatedAt": "2026-10-12T07:53:33.665Z",
+   "seoScore": 91,
+   "words": 1527
   },
   {
    "id": "S00528",

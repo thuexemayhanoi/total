@@ -1576,6 +1576,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/bai-do-xe/bai-do-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/doc-thong-so/bang-thong-so-xe/index.html",
   "kind": "article"
  },
@@ -1708,6 +1712,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/diem-dang-ky-xe/co-quan-dang-ky-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/coi-xe/index.html",
   "kind": "article"
  },
@@ -1737,6 +1745,10 @@
  },
  {
   "rel": "moto/xe-ga/cvt-xe-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/diem-dang-ky-xe/dang-ky-xe-o-dau/index.html",
   "kind": "article"
  },
  {
@@ -1805,6 +1817,10 @@
  },
  {
   "rel": "wiki/dau-nhot/do-dac-dau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/bai-do-xe/do-xe-o-dau/index.html",
   "kind": "article"
  },
  {
@@ -1929,6 +1945,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/giu-xe-ben/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/bai-do-xe/giu-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -2168,6 +2188,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/bai-do-xe/quy-dinh-do-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/quy-dinh-giao-thong-dia-phuong/index.html",
   "kind": "article"
  },
@@ -2232,6 +2256,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/diem-sua-xe/sua-xe-duong-bo/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/suzuki/suzuki-address/index.html",
   "kind": "article"
  },
@@ -2292,6 +2320,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/diem-sua-xe/tho-sua-xe-tin-cay/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-mua-xe/thoi-diem-mua-xe/index.html",
   "kind": "article"
  },
@@ -2336,6 +2368,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/diem-sua-xe/tiem-sua-xe-gan-day/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-tiet-kiem-xang/tiet-kiem-xang/index.html",
   "kind": "article"
  },
@@ -2357,6 +2393,10 @@
  },
  {
   "rel": "docs/thong-so-ky-thuat/tra-cuu-thong-so/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/tram-sac/tra-tram-sac/index.html",
   "kind": "article"
  },
  {
