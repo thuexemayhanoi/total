@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-nguoi-moi',
-  title: 'Thuê xe máy hà nội: thủ tục và giấy tờ cho người mới',
+  title: 'Thuê xe máy Hà Nội: thủ tục và giấy tờ cho người mới',
   seoTitle: 'Thủ tục và giấy tờ thuê xe máy ở Hà Nội cho người mới',
   metaDescription: 'Giải thích thủ tục và giấy tờ khi thuê xe máy ở Hà Nội lần đầu: giấy tờ người thuê, giấy tờ của xe, biên bản bàn giao, bản gốc hay bản sao và cách nhận lại giấy tờ.',
   summary: 'Bài viết giải thích cho người thuê xe máy ở Hà Nội lần đầu về các nhóm giấy tờ và thủ tục thường gặp: giấy tờ của người thuê, giấy tờ liên quan đến xe, biên bản bàn giao, sự khác biệt giữa giữ bản gốc và bản sao, cách bảo vệ thông tin cá nhân và cách nhận lại giấy tờ khi trả xe.',

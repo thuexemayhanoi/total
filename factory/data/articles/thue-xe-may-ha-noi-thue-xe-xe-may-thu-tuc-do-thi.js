@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-do-thi',
-  title: 'Thuê xe máy hà nội: thủ tục và giấy tờ trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: thủ tục và giấy tờ trong điều kiện đô thị',
   seoTitle: 'Thuê xe máy Hà Nội trong phố: giấy tờ và thủ tục cần có',
   metaDescription: 'Giấy tờ và thủ tục cần lưu ý khi thuê xe máy đi lại trong nội thành Hà Nội: giấy tờ mang theo, cất giữ trên xe, gửi xe, mất chìa khóa và ghi nhận va quệt nhỏ.',
   summary: 'Bài viết tập trung vào thủ tục và giấy tờ khi thuê xe máy để chạy trong nội thành Hà Nội, nơi mật độ giao thông cao, xe thường xuyên dừng đỗ: giấy tờ nên mang theo, cách cất giấy tờ xe, thủ tục khi gửi xe, xử lý mất chìa khóa và ghi nhận những va quệt nhỏ trong phố.',

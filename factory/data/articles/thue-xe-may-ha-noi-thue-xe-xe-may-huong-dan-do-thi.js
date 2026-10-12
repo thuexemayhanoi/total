@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-do-thi',
-  title: 'Thuê xe máy hà nội: hướng dẫn thực tế trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: hướng dẫn thực tế trong điều kiện đô thị',
   seoTitle: 'Thuê xe máy đi trong nội thành Hà Nội: giao thông, đỗ xe',
   metaDescription: 'Hướng dẫn thuê xe máy để đi trong nội thành Hà Nội: chọn xe gọn cho ngõ hẹp, hiểu nhịp giao thông đông, đỗ và khóa xe, tránh trộm cắp, đi mưa nắng, dùng bản đồ.',
   summary: 'Bài viết tập trung vào việc dùng xe máy thuê để di chuyển trong nội thành Hà Nội: chọn xe gọn phù hợp với ngõ hẹp và dòng xe đông, hiểu nhịp giao thông thành phố, cách đỗ và khóa xe để hạn chế mất cắp, ứng xử khi trời nắng nóng hoặc mưa rào và cách dùng bản đồ điện thoại một cách an toàn.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-nguoi-moi',
-  title: 'Thuê xe máy hà nội: chi phí và cách tính cho người mới',
+  title: 'Thuê xe máy Hà Nội: chi phí và cách tính cho người mới',
   seoTitle: 'Thuê xe máy Hà Nội cho người mới: các khoản chi và cách tính',
   metaDescription: 'Người thuê xe máy lần đầu ở Hà Nội nên biết các nhóm chi phí nào, cách đọc báo giá, hỏi về tiền đặt cọc và so sánh hai lời chào giá cho công bằng.',
   summary: 'Bài viết giúp người thuê xe máy lần đầu ở Hà Nội hiểu các nhóm chi phí thường có trong một lần thuê, cách đọc một bản báo giá, những câu hỏi về tiền đặt cọc, các khoản phát sinh sau khi nhận xe và cách đặt hai báo giá cạnh nhau để so sánh công bằng. Bài không nêu mức giá cụ thể.',

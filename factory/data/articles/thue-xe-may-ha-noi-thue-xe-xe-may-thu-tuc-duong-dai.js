@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-duong-dai',
-  title: 'Thuê xe máy hà nội: thủ tục và giấy tờ khi đi đường dài',
+  title: 'Thuê xe máy Hà Nội: thủ tục và giấy tờ khi đi đường dài',
   seoTitle: 'Thuê xe máy Hà Nội đi đường dài: giấy tờ và thủ tục',
   metaDescription: 'Thuê xe máy ở Hà Nội đi liên tỉnh cần chuẩn bị gì: xác nhận được phép đi xa, giấy tờ mang theo, bản sao lưu, xử lý sự cố giữa đường và thủ tục khi đổi giờ trả xe.',
   summary: 'Bài viết hướng dẫn phần thủ tục và giấy tờ dành cho người thuê xe máy ở Hà Nội để đi đường dài: những giấy tờ cần mang theo, cách xác nhận với bên cho thuê rằng xe được phép chạy xa, lưu bản sao, xử lý sự cố giữa đường và hoàn tất thủ tục trả xe khi lịch trình thay đổi.',

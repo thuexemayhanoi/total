@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-thuc-te',
-  title: 'Thuê xe máy hà nội: thủ tục và giấy tờ theo tình huống thực tế',
+  title: 'Thuê xe máy Hà Nội: thủ tục và giấy tờ theo tình huống thực tế',
   seoTitle: 'Thuê xe máy Hà Nội: thủ tục giấy tờ theo từng tình huống',
   metaDescription: 'Thủ tục và giấy tờ khi thuê xe máy ở Hà Nội gặp tình huống thực tế: trả xe muộn, xe hỏng, va chạm, mất giấy tờ hoặc bất đồng khi trả xe, kèm cách ghi nhận.',
   summary: 'Bài viết đi qua những tình huống thực tế người thuê xe máy ở Hà Nội hay gặp và nêu thủ tục, giấy tờ cần làm trong từng trường hợp: trả xe muộn, xe hỏng hoặc thủng lốp, va chạm, mất hoặc hỏng giấy tờ, và bất đồng về tình trạng xe lúc trả.',

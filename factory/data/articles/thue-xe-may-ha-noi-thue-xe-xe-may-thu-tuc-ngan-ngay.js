@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-ngan-ngay',
-  title: 'Thuê xe máy hà nội: thủ tục và giấy tờ khi dùng ngắn ngày',
+  title: 'Thuê xe máy Hà Nội: thủ tục và giấy tờ khi dùng ngắn ngày',
   seoTitle: 'Thủ tục thuê xe máy Hà Nội ngắn ngày: giấy tờ gọn, đủ, rõ',
   metaDescription: 'Thủ tục và giấy tờ khi thuê xe máy ở Hà Nội một đến ba ngày: chuẩn bị trước để nhận xe nhanh, xác nhận đặt xe, biên bản gọn, giấy tờ khi trả sớm hoặc muộn.',
   summary: 'Bài viết tập trung vào phần giấy tờ và thủ tục cho người thuê xe máy ở Hà Nội trong một đến ba ngày: chuẩn bị sẵn để nhận xe nhanh gọn, giữ lại xác nhận đặt xe, lập biên bản bàn giao ngắn nhưng đủ ý, cách xử lý giấy tờ khi đổi giờ, trả sớm hoặc trả muộn và cách lưu hồ sơ gọn cho đợt thuê ngắn.',
