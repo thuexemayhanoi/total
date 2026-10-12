@@ -37,6 +37,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Regenerate deterministic site for engine preflight
+        run: node factory/generate.js
+
       - name: Heavy engine gate
         run: |
           set -euo pipefail

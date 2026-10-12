@@ -5,9 +5,9 @@ const SITE = {
   name: 'AI WIKI TOTAL',
   shortName: 'AI WIKI',
   locale: 'vi-VN',
-  // GitHub Pages project site: repo thuexemayhanoi/total phục vụ dưới /total/
-  baseUrl: 'https://thuexemayhanoi.github.io/total/',
-  basePath: '/total/',
+  // GitHub Pages custom domain serves the published site at its own root.
+  baseUrl: 'https://wiki.thuexemaynguyentu.com/',
+  basePath: '/',
   homeTitle: 'AI WIKI TOTAL — Cẩm nang xe, thuê xe và kiến thức giao thông Việt Nam',
   homeDescription: 'Cẩm nang tiếng Việt về thuê xe, xe máy, xe điện, ô tô, sửa chữa, giá xe, địa phương và hành trình — kiến thức tổng hợp cho người Việt.',
   tagline: 'Kiến thức xe, thuê xe và hành trình cho người Việt.',

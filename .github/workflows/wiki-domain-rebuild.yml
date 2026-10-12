@@ -1,0 +1,90 @@
+name: Wiki Domain Rebuild
+
+# Rebuild generated pages after switching from GitHub Pages project path
+# /total/ to custom-domain root /. No content or factory-state reset.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/site.config.js'
+      - 'factory/test.js'
+      - '.github/workflows/wiki-domain-rebuild.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: total-production
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Refresh main without touching article ownership
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout -B main origin/main
+
+      - name: Preflight domain and published count
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const { SITE } = require('./factory/site.config');
+          const matrix = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
+          const published = matrix.slots.filter(s => s.state === 'PUBLISHED').length;
+          if (SITE.baseUrl !== 'https://wiki.thuexemaynguyentu.com/' || SITE.basePath !== '/') {
+            throw Error('CUSTOM_DOMAIN_CONFIG_INVALID');
+          }
+          if (published < 502) throw Error('PUBLISHED_COUNT_REGRESSION: ' + published);
+          console.log('PREPUBLISH_OK domain=' + SITE.baseUrl + ' published=' + published);
+          NODE
+
+      - name: Regenerate ALL public HTML SEO indexes and sitemaps
+        run: |
+          set -euo pipefail
+          node factory/generate.js
+          node factory/generate.js --check
+
+      - name: Full local QA and internal link integrity
+        run: |
+          set -euo pipefail
+          node factory/test.js
+          node factory/link-integrity.js --all
+          node factory/test-hardening.js
+          node factory/test-reliability.js
+          node factory/test-pair.js
+          node factory/test-cycle.js
+          node factory/test-coordinator.js
+          node factory/test-topic-factory.js
+          node factory/test-writer-pack.js
+          node factory/factory.js verify-invariant
+          node factory/generate.js --check
+
+      - name: Commit only generated static outputs
+        run: |
+          set -euo pipefail
+          git add -A
+          if git diff --cached --name-only | grep -E '^(CNAME$|factory/data/articles/|factory/state/(matrix\.json|factory-state\.json|checkpoint\.json|writer-heartbeat\.json)|\.github/)' ; then
+            echo 'REBUILD_REFUSE: attempted non-generated source/state changes'
+            exit 1
+          fi
+          if git diff --cached --quiet; then
+            echo 'REBUILD_UP_TO_DATE'
+            exit 0
+          fi
+          git config user.name 'total-factory-bot'
+          git config user.email 'nguyentuantu2482@users.noreply.github.com'
+          git commit -m 'site: regenerate root URLs and assets for wiki custom domain [automated]'
+          git push origin HEAD:main
+          echo 'WIKI_REBUILD_PUBLISHED'

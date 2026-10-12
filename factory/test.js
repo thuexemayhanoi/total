@@ -54,6 +54,9 @@ for (const c of CATEGORIES) {
 
 // ---------- 3. UI tiếng Việt ----------
 const home = read('index.html');
+ok(home.includes(`href="${SITE.basePath}assets/css/atlas.css"`), 'CSS uses configured site basePath');
+ok(home.includes(`data-base-path="${SITE.basePath}"`), 'JS uses configured site basePath');
+ok(home.includes(`rel="canonical" href="${SITE.baseUrl}"`), 'Homepage canonical matches site baseUrl');
 const uiStrings = ['Trang chủ', 'Thuê xe', 'Tìm kiếm', 'Giới thiệu', 'Bài mới', 'Danh mục'];
 for (const s of uiStrings) ok(home.includes(s), `Trang chủ có UI tiếng Việt: "${s}"`);
 const badUI = [/>Home</, />About</, />Read more</, />Latest articles</, />Category</, />Search</];
@@ -88,7 +91,7 @@ for (const c of CATEGORIES) {
 const manifest = readJson('factory/state/manifest.json').map(m => m.rel);
 const allFiles = manifest.slice();
 function urlToFile(uHref) {
-  // URL '/total/X' → repo path 'X' (repo được GitHub Pages phục vụ dưới tiền tố /total/)
+  // Root-absolute URL with SITE.basePath prefix maps to a file in repo root.
   const rel = uHref.startsWith(SITE.basePath) ? uHref.slice(SITE.basePath.length) : uHref.replace(/^\//, '');
   if (!rel) return 'index.html';
   const ROOT_LEVEL = /^(assets\/|sitemap|robots\.txt|gioi-thieu\/|tim-kiem\/|404\.html)/;
@@ -100,7 +103,7 @@ let broken = 0;
 const referenced = new Set();
 for (const f of allFiles.filter(x => x.endsWith('.html'))) {
   const html = read(f);
-  const hrefs = [...html.matchAll(/href="(\/total\/[^"#?]*|\/total\/)"/g)].map(m => m[1]);
+  const hrefs = [...html.matchAll(/href="(\/[^"#?]*)"/g)].map(m => m[1]).filter(h => h.startsWith(SITE.basePath));
   for (const h of hrefs) {
     const target = urlToFile(h);
     referenced.add(target);
@@ -127,7 +130,7 @@ for (const f of allFiles.filter(x => x.endsWith('.html'))) {
 let missingAssets = 0;
 for (const f of allFiles.filter(x => x.endsWith('.html'))) {
   const html = read(f);
-  const srcs = [...html.matchAll(/(?:src|href)="(\/total\/assets\/[^"?]+)"/g)].map(m => m[1]);
+  const srcs = [...html.matchAll(/(?:src|href)="(\/[^"?]+)"/g)].map(m => m[1]).filter(s => s.startsWith(SITE.basePath + 'assets/'));
   for (const s of srcs) {
     const rel = s.slice(SITE.basePath.length);
     if (!exists(rel)) { missingAssets++; if (missingAssets <= 5) console.log(`    asset vỡ: ${f} → ${s}`); }
@@ -660,7 +663,7 @@ for (const c of CATEGORIES) {
 ok(mnavTaxOk, 'Menu mobile: đủ 15 cha + 97 hub con theo categories.js', mnavTaxMissing.slice(0, 60));
 const knownHubPaths = new Set();
 for (const c of CATEGORIES) for (const h of c.children) knownHubPaths.add(c.slug + '/' + h.slug + '/');
-const mnavHubHrefs = [...mnavSlice.matchAll(/href="\/total\/([a-z0-9-]+\/[a-z0-9-]+\/)"/g)].map(m => m[1]);
+const mnavHubHrefs = [...mnavSlice.matchAll(/href="(\/[^"#?]+)"/g)].map(m => m[1]).filter(h => h.startsWith(SITE.basePath)).map(h => h.slice(SITE.basePath.length)).filter(h => /^[a-z0-9-]+\/[a-z0-9-]+\/$/.test(h));
 ok(mnavHubHrefs.every(h => knownHubPaths.has(h)), 'Menu mobile: không có hub nào ngoài source of truth');
 // 18.5 Footer có đủ nhóm Thông tin
 for (const pair of [['Giới thiệu', 'gioi-thieu/'], ['Liên hệ', 'lien-he/'], ['Chính sách bảo mật', 'chinh-sach-bao-mat/'], ['Điều khoản sử dụng', 'dieu-khoan-su-dung/'], ['Tìm kiếm', 'tim-kiem/']]) {
