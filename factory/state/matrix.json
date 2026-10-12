@@ -10093,11 +10093,13 @@
    "title": "Thuê honda vision: thủ tục và giấy tờ cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-thu-tuc-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.726Z",
-   "updatedAt": "2026-10-07T11:49:02.726Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1642
   },
   {
    "id": "S00679",
@@ -10106,11 +10108,13 @@
    "title": "Thuê honda vision: thủ tục và giấy tờ khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-thu-tuc-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.726Z",
-   "updatedAt": "2026-10-07T11:49:02.726Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1530
   },
   {
    "id": "S00680",
@@ -10119,11 +10123,13 @@
    "title": "Thuê honda vision: thủ tục và giấy tờ khi dùng dài ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-thu-tuc-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1556
   },
   {
    "id": "S00681",
@@ -10132,11 +10138,13 @@
    "title": "Thuê honda vision: thủ tục và giấy tờ khi đi đường dài",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-thu-tuc-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1628
   },
   {
    "id": "S00682",
@@ -10145,11 +10153,13 @@
    "title": "Thuê honda vision: thủ tục và giấy tờ trong điều kiện đô thị",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-thu-tuc-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1570
   },
   {
    "id": "S00683",
@@ -10158,11 +10168,13 @@
    "title": "Thuê honda vision: thủ tục và giấy tờ theo tình huống thực tế",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-thu-tuc-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1576
   },
   {
    "id": "S00684",
@@ -10171,11 +10183,13 @@
    "title": "Thuê honda vision: chi phí và cách tính cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-chi-phi-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1573
   },
   {
    "id": "S00685",
@@ -10184,11 +10198,13 @@
    "title": "Thuê honda vision: chi phí và cách tính khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-chi-phi-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1502
   },
   {
    "id": "S00686",
@@ -10197,11 +10213,13 @@
    "title": "Thuê honda vision: chi phí và cách tính khi dùng dài ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-chi-phi-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1548
   },
   {
    "id": "S00687",
@@ -10210,11 +10228,13 @@
    "title": "Thuê honda vision: chi phí và cách tính khi đi đường dài",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-chi-phi-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:28:25.013Z",
+   "seoScore": 100,
+   "words": 1516
   },
   {
    "id": "S00688",
