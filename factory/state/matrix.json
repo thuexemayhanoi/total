@@ -11313,11 +11313,13 @@
    "title": "Giấy tờ thuê xe: chi phí và cách tính khi dùng dài ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-chi-phi-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1612
   },
   {
    "id": "S00759",
@@ -11326,11 +11328,13 @@
    "title": "Giấy tờ thuê xe: chi phí và cách tính khi đi đường dài",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-chi-phi-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1580
   },
   {
    "id": "S00760",
@@ -11339,11 +11343,13 @@
    "title": "Giấy tờ thuê xe: chi phí và cách tính trong điều kiện đô thị",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-chi-phi-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1560
   },
   {
    "id": "S00761",
@@ -11352,11 +11358,13 @@
    "title": "Giấy tờ thuê xe: chi phí và cách tính theo tình huống thực tế",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-chi-phi-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1545
   },
   {
    "id": "S00762",
@@ -11365,11 +11373,13 @@
    "title": "Giấy tờ thuê xe: cách kiểm tra trước khi quyết định cho người mới",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-kiem-tra-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1518
   },
   {
    "id": "S00763",
@@ -11378,11 +11388,13 @@
    "title": "Giấy tờ thuê xe: cách kiểm tra trước khi quyết định khi dùng ngắn ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-kiem-tra-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1495
   },
   {
    "id": "S00764",
@@ -11391,11 +11403,13 @@
    "title": "Giấy tờ thuê xe: cách kiểm tra trước khi quyết định khi dùng dài ngày",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-kiem-tra-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1575
   },
   {
    "id": "S00765",
@@ -11404,11 +11418,13 @@
    "title": "Giấy tờ thuê xe: cách kiểm tra trước khi quyết định khi đi đường dài",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-kiem-tra-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1570
   },
   {
    "id": "S00766",
@@ -11417,11 +11433,13 @@
    "title": "Giấy tờ thuê xe: cách kiểm tra trước khi quyết định trong điều kiện đô thị",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-kiem-tra-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.734Z",
-   "updatedAt": "2026-10-07T11:49:02.734Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1594
   },
   {
    "id": "S00767",
@@ -11430,11 +11448,13 @@
    "title": "Giấy tờ thuê xe: cách kiểm tra trước khi quyết định theo tình huống thực tế",
    "primaryIntent": "informational/giay-to-thue-xe-thue-xe-xe-may-kiem-tra-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.735Z",
-   "updatedAt": "2026-10-07T11:49:02.735Z"
+   "updatedAt": "2026-10-12T08:42:12.407Z",
+   "seoScore": 100,
+   "words": 1580
   },
   {
    "id": "S00768",
