@@ -7563,11 +7563,13 @@
    "title": "Tổng hợp kiến thức: đi xe miền núi",
    "primaryIntent": "informational/di-xe-mien-nui",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.505Z",
-   "updatedAt": "2026-10-06T20:23:12.505Z"
+   "updatedAt": "2026-10-12T07:47:52.769Z",
+   "seoScore": 100,
+   "words": 1644
   },
   {
    "id": "S00509",
@@ -7576,11 +7578,13 @@
    "title": "Kinh nghiệm xe máy nông thôn dành cho người mới",
    "primaryIntent": "informational/xe-may-nong-thon",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.506Z",
-   "updatedAt": "2026-10-06T20:23:12.506Z"
+   "updatedAt": "2026-10-12T07:47:52.770Z",
+   "seoScore": 100,
+   "words": 1503
   },
   {
    "id": "S00510",
@@ -7589,11 +7593,13 @@
    "title": "Quy định tỉnh thành — những điều cần biết",
    "primaryIntent": "informational/quy-dinh-tinh-thanh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.506Z",
-   "updatedAt": "2026-10-06T20:23:12.506Z"
+   "updatedAt": "2026-10-12T07:47:52.770Z",
+   "seoScore": 100,
+   "words": 1588
   },
   {
    "id": "S00511",
@@ -7602,11 +7608,13 @@
    "title": "Hướng dẫn chi tiết về giao thông quận huyện",
    "primaryIntent": "informational/giao-thong-quan-huyen",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.506Z",
-   "updatedAt": "2026-10-06T20:23:12.506Z"
+   "updatedAt": "2026-10-12T07:47:52.770Z",
+   "seoScore": 100,
+   "words": 1520
   },
   {
    "id": "S00512",
@@ -7615,11 +7623,13 @@
    "title": "Tổng hợp kiến thức: đi xe theo quận",
    "primaryIntent": "informational/di-xe-theo-quan",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.506Z",
-   "updatedAt": "2026-10-06T20:23:12.506Z"
+   "updatedAt": "2026-10-12T07:47:52.769Z",
+   "seoScore": 91,
+   "words": 1438
   },
   {
    "id": "S00513",
@@ -7628,11 +7638,13 @@
    "title": "Kinh nghiệm khu vực đông xe dành cho người mới",
    "primaryIntent": "informational/khu-vuc-dong-xe",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.506Z",
-   "updatedAt": "2026-10-06T20:23:12.506Z"
+   "updatedAt": "2026-10-12T07:47:52.770Z",
+   "seoScore": 100,
+   "words": 1473
   },
   {
    "id": "S00514",
@@ -7641,11 +7653,13 @@
    "title": "Cây xăng gần đây — những điều cần biết",
    "primaryIntent": "informational/cay-xang-gan-day",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.507Z",
-   "updatedAt": "2026-10-06T20:23:12.507Z"
+   "updatedAt": "2026-10-12T07:47:52.769Z",
+   "seoScore": 100,
+   "words": 1459
   },
   {
    "id": "S00515",
@@ -7654,11 +7668,13 @@
    "title": "Hướng dẫn chi tiết về tra cây xăng",
    "primaryIntent": "informational/tra-cay-xang",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.507Z",
-   "updatedAt": "2026-10-06T20:23:12.507Z"
+   "updatedAt": "2026-10-12T07:47:52.770Z",
+   "seoScore": 100,
+   "words": 1442
   },
   {
    "id": "S00516",
@@ -7667,11 +7683,13 @@
    "title": "Tổng hợp kiến thức: cây xăng đường trường",
    "primaryIntent": "informational/cay-xang-duong-truong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.513Z",
-   "updatedAt": "2026-10-06T20:23:12.513Z"
+   "updatedAt": "2026-10-12T07:47:52.769Z",
+   "seoScore": 91,
+   "words": 1476
   },
   {
    "id": "S00517",
@@ -7680,11 +7698,13 @@
    "title": "Kinh nghiệm đổi pin xe điện dành cho người mới",
    "primaryIntent": "informational/doi-pin-xe-dien",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-06T20:23:12.513Z",
-   "updatedAt": "2026-10-06T20:23:12.513Z"
+   "updatedAt": "2026-10-12T07:47:52.769Z",
+   "seoScore": 74,
+   "words": 1525
   },
   {
    "id": "S00518",

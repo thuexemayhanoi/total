@@ -1640,6 +1640,14 @@
   "kind": "article"
  },
  {
+  "rel": "map/cay-xang/cay-xang-duong-truong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/cay-xang/cay-xang-gan-day/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/cham-soc-xe-may/index.html",
   "kind": "article"
  },
@@ -1760,6 +1768,10 @@
   "kind": "article"
  },
  {
+  "rel": "local/tinh-thanh/di-xe-mien-nui/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/can-tho/di-xe-o-can-tho/index.html",
   "kind": "article"
  },
@@ -1780,6 +1792,10 @@
   "kind": "article"
  },
  {
+  "rel": "local/quan-huyen/di-xe-theo-quan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/index.html",
   "kind": "article"
  },
@@ -1797,6 +1813,10 @@
  },
  {
   "rel": "learn/doc-thong-so/doc-thong-so-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/tram-sac/doi-pin-xe-dien/index.html",
   "kind": "article"
  },
  {
@@ -1876,6 +1896,10 @@
   "kind": "article"
  },
  {
+  "rel": "local/quan-huyen/giao-thong-quan-huyen/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/giao-thong-tp-hcm/index.html",
   "kind": "article"
  },
@@ -1949,6 +1973,10 @@
  },
  {
   "rel": "moto/yamaha/janus/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/quan-huyen/khu-vuc-dong-xe/index.html",
   "kind": "article"
  },
  {
@@ -2144,6 +2172,10 @@
   "kind": "article"
  },
  {
+  "rel": "local/tinh-thanh/quy-dinh-tinh-thanh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/xe-50cc/quy-dinh-xe-50cc/index.html",
   "kind": "article"
  },
@@ -2320,6 +2352,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/cay-xang/tra-cay-xang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/thong-so-ky-thuat/tra-cuu-thong-so/index.html",
   "kind": "article"
  },
@@ -2441,6 +2477,10 @@
  },
  {
   "rel": "hub/van-de-thuong-gap/xe-may-keu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "local/tinh-thanh/xe-may-nong-thon/index.html",
   "kind": "article"
  },
  {
