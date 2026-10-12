@@ -13,6 +13,8 @@ on:
       - 'factory/qa.js'
       - 'factory/seo.js'
       - 'factory/site.config.js'
+      - 'assets/js/search.js'
+      - 'assets/css/atlas.css'
       - 'factory/link-integrity.js'
       - 'factory/lib/**'
       - 'factory/data/categories.js'
@@ -45,6 +47,7 @@ jobs:
           set -euo pipefail
           node factory/test.js
           node factory/test-shared-site.js
+          node factory/test-features.js
           node factory/test-hardening.js
           node factory/test-reliability.js
           node factory/test-pair.js

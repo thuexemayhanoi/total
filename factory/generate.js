@@ -48,12 +48,28 @@ function normalizeRel(rel) {
   return rel.endsWith('/') ? rel + 'index.html' : rel;
 }
 
+function extractArticleHeadings(a) {
+  const names = [];
+  for (const s of Array.isArray(a.sections) ? a.sections : []) {
+    if (s && s.h2) names.push(String(s.h2));
+    const html = String((s && s.html) || '');
+    for (const m of html.matchAll(/<h3\b[^>]*>([\s\S]*?)<\/h3>/gi)) {
+      const heading = m[1].replace(/<[^>]*>/g, ' ').replace(/&nbsp;/gi, ' ')
+        .replace(/&amp;/gi, '&').replace(/\s+/g, ' ').trim();
+      if (heading) names.push(heading);
+    }
+  }
+  return [...new Set(names)];
+}
+
 function buildSearchIndex(pages) {
   // Nguồn duy nhất: mọi trang + bài viết đã ghi vào pagesForIndex — không tạo mục trùng
   return pages.map(p => ({
     kind: p.kind, url: p.urlPath, title: p.title, description: p.description || '',
     category: p.category || '', hub: p.hub || '', entities: p.entities || [],
-    keywords: p.keywords || [], summary: (p.summary || '').slice(0, 260),
+    keywords: p.keywords || [], seoTitle: p.seoTitle || '',
+    primaryKeyword: p.primaryKeyword || '', headings: p.headings || [],
+    summary: (p.summary || '').slice(0, 260),
   }));
 }
 
@@ -175,7 +191,9 @@ function buildAll() {
     const cat = CATEGORIES.find(c => c.slug === a.category);
     const hub = a.hub ? cat.children.find(h => h.slug === a.hub) : null;
     put(a.path, R.renderArticle(cat, hub, a, articlesRaw, bySlug),
-      { kind: 'article', title: a.title, description: a.metaDescription, category: cat.name, hub: hub ? hub.name : '', summary: a.summary, entities: a.entities, keywords: a.keywords });
+      { kind: 'article', title: a.title, description: a.metaDescription, category: cat.name, hub: hub ? hub.name : '', summary: a.summary, entities: a.entities, keywords: a.keywords,
+        seoTitle: a.seoTitle || '', primaryKeyword: a.primaryKeyword || a.primaryIntent || (a.keywords || [])[0] || '',
+        headings: extractArticleHeadings(a) });
     artUrls.push(a.path);
   }
 
@@ -308,4 +326,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { articlePath, stripTotal, buildSearchIndex, buildChatbotIndex, normalizeRel, loadArticles, buildAll, writeOutputs, walkGeneratedNamespace, runCheck };
+module.exports = { articlePath, stripTotal, buildSearchIndex, buildChatbotIndex, extractArticleHeadings, normalizeRel, loadArticles, buildAll, writeOutputs, walkGeneratedNamespace, runCheck };

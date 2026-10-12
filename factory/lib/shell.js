@@ -1,6 +1,6 @@
 // AI WIKI TOTAL — vỏ trang dùng chung: header, footer, nav, mega menu, breadcrumb, page()
 'use strict';
-const { SITE, PRIMARY_NAV, HOME_CATEGORY_ORDER } = require('../site.config');
+const { SITE, PRIMARY_NAV, HOME_CATEGORY_ORDER, FEATURES, PUBLISHER_PROFILE } = require('../site.config');
 const { renderSlot } = require('./slots');
 const { CATEGORIES } = require('../data/categories');
 
@@ -73,6 +73,14 @@ function navItems(activeCat) {
   }).join('');
 }
 
+function searchButtonHtml() {
+  if (!FEATURES.smartSearch) return '';
+  return `<button type="button" class="search-open" id="search-open" aria-label="Mở tìm kiếm">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.8"/><path d="m11 11 3.4 3.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span>Tìm kiếm</span>
+    </button>`;
+}
+
 function headerHtml(activeCat) {
   return `<a class="skip-link" href="#noidung">Đi tới nội dung chính</a>
 <header class="site-header">
@@ -81,10 +89,7 @@ function headerHtml(activeCat) {
     <nav class="main-nav" aria-label="Điều hướng chính">
       ${navItems(activeCat)}
     </nav>
-    <button type="button" class="search-open" id="search-open" aria-label="Mở tìm kiếm">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.8"/><path d="m11 11 3.4 3.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-      <span>Tìm kiếm</span>
-    </button>
+    ${searchButtonHtml()}
     <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Mở menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
   </div>
   ${megaMenu()}
@@ -212,6 +217,19 @@ function breadcrumbHtml(trail) {
   return `<nav class="breadcrumb" aria-label="Breadcrumb">${items}</nav>`;
 }
 
+function authorBoxHtml() {
+  if (!FEATURES.authorBox) return '';
+  const p = PUBLISHER_PROFILE;
+  return `<aside class="author-box" aria-label="Đơn vị xuất bản">
+  <div class="author-box-brand">${logoMark()}</div>
+  <div class="author-box-details">
+    <p class="author-box-name">${esc(p.name)}</p>
+    <p class="author-box-desc">${esc(p.description)}</p>
+    <a class="author-box-contact" href="${u(p.contactPath)}">${esc(p.contactLabel)} →</a>
+  </div>
+</aside>`;
+}
+
 // metaTags: thẻ SEO dùng chung (canonical + og:url tuyệt đối theo spec)
 function metaTags(o) {
   const rel = String(o.path || '').replace(/index\.html$/, '');
@@ -240,6 +258,10 @@ function metaTags(o) {
 }
 
 // Khung trang đầy đủ
+function searchScriptTag() {
+  return FEATURES.smartSearch ? '<script src="' + u('assets/js/search.js') + '"></script>' : '';
+}
+
 function page(o) {
   return `<!DOCTYPE html>
 <html lang="vi">
@@ -255,14 +277,14 @@ ${o.content}
 </main>
 ${renderSlot('site.before-footer', { page: o })}
 ${footerHtml()}
-${searchModal()}
+${FEATURES.smartSearch ? searchModal() : ''}
 ${chatbotMarkup()}
 <script src="${u('assets/js/overlay.js')}"></script>
 <script src="${u('assets/js/nav.js')}"></script>
-<script src="${u('assets/js/search.js')}"></script>
+${searchScriptTag()}
 <script src="${u('assets/js/chatbot.js')}"></script>
 </body>
 </html>`;
 }
 
-module.exports = { ACCENTS, u, esc, safe, logoMark, thueXeDropdown, megaMenu, navItems, searchModal, chatbotMarkup, footerHtml, headerHtml, breadcrumbHtml, metaTags, page };
+module.exports = { ACCENTS, u, esc, safe, logoMark, thueXeDropdown, megaMenu, navItems, searchModal, chatbotMarkup, footerHtml, headerHtml, breadcrumbHtml, metaTags, page, authorBoxHtml };

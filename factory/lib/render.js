@@ -1,8 +1,8 @@
 // AI WIKI TOTAL — trình kết xuất trang (Editorial Magazine v3):
 // chủ / danh mục cha / hub con / bài viết / giới thiệu / tìm kiếm / 404
 'use strict';
-const { SITE, HOME_CATEGORY_ORDER, EDITORIAL } = require('../site.config');
-const { chooseRelated } = require('./related');
+const { SITE, HOME_CATEGORY_ORDER, EDITORIAL, FEATURES } = require('../site.config');
+const { chooseRelated, chooseNeighbors } = require('./related');
 const { renderSlot } = require('./slots');
 const { CATEGORIES } = require('../data/categories');
 const S = require('./shell');
@@ -241,11 +241,10 @@ function renderArticle(cat, hub, a, articles, bySlug) {
   const refs = (a.references || []).map(r => `<li>${S.esc(r)}</li>`).join('');
   // Ưu tiên liên kết biên tập, tự bù từ bài PUBLISHED cùng hub/danh mục.
   const rel = chooseRelated(a, articles, bySlug, EDITORIAL.related).map(postCard).join('');
-  // Điều hướng bài trước/bài sau: theo thứ tự ngày xuất bản toàn site
-  const ordered = articles.slice().sort(byOrder);
-  const pos = ordered.findIndex(x => x.slug === a.slug);
-  const prevA = pos > 0 ? ordered[pos - 1] : null;
-  const nextA = pos >= 0 && pos < ordered.length - 1 ? ordered[pos + 1] : null;
+  // Only public neighboring articles in the same Hub/category.
+  const neighbors = FEATURES.previousNext ? chooseNeighbors(a, articles) : { prev: null, next: null };
+  const prevA = neighbors.prev;
+  const nextA = neighbors.next;
   const pnCard = (x, cls, label) => x
     ? `<a class="pn-card ${cls}" href="${S.u(up(x.path))}"><span class="pn-label">${label}</span><span class="pn-title">${S.esc(x.title)}</span><span class="pn-meta">${S.esc(x.catName)} · ${formatDate(x.date)}</span></a>`
     : '';
@@ -303,6 +302,7 @@ ${S.breadcrumbHtml(trail)}
     </div>
   </div>
   ${renderSlot('article.after-prose', { article: a })}
+  ${S.authorBoxHtml()}
   ${rel ? `<section class="latest article-related" aria-labelledby="rel-h"><h2 id="rel-h" class="section-h">${S.esc(EDITORIAL.relatedHeading)}</h2><div class="latest-grid">${rel}</div></section>` : ''}
   ${(prevA || nextA) ? `<nav class="art-pn" aria-label="Bài trước và bài sau">
     ${pnCard(prevA, 'pn-prev', 'Bài trước')}

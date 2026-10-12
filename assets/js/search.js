@@ -6,6 +6,7 @@
   var BASE = document.body.getAttribute('data-base-path') || '/';
   var INDEX = null;
   var LOAD_ERR = false;
+  var LOAD_PROMISE = null;
 
   // Chuẩn hoá: bỏ dấu tiếng Việt để tìm không phụ thuộc dấu
   function normalize(s) {
@@ -21,19 +22,29 @@
   function loadIndex(cb) {
     if (INDEX) return cb(INDEX, false);
     if (LOAD_ERR) return cb(null, true);
-    fetch(BASE + 'assets/data/search-index.json')
-      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (d) { INDEX = d; cb(d, false); })
-      .catch(function () { LOAD_ERR = true; cb(null, true); });
+    if (!LOAD_PROMISE) {
+      LOAD_PROMISE = fetch(BASE + 'assets/data/search-index.json')
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (d) { if (!Array.isArray(d)) throw new Error('BAD_INDEX'); INDEX = d; return d; })
+        .catch(function (e) { LOAD_ERR = true; throw e; })
+        .finally(function () { LOAD_PROMISE = null; });
+    }
+    LOAD_PROMISE.then(function (d) { cb(d, false); })
+      .catch(function () { cb(null, true); });
   }
 
   function score(entry, terms) {
-    var t = normalize(entry.title), d = normalize(entry.description + ' ' + (entry.summary || ''));
+    var t = normalize(entry.title + ' ' + (entry.seoTitle || ''));
+    var d = normalize(entry.description + ' ' + (entry.summary || ''));
+    var headings = normalize((entry.headings || []).join(' '));
+    var primary = normalize(entry.primaryKeyword || '');
     var k = normalize((entry.keywords || []).join(' ') + ' ' + (entry.entities || []).join(' '));
     var s = 0;
     for (var i = 0; i < terms.length; i++) {
       var term = terms[i];
       if (t.indexOf(term) >= 0) s += 10;
+      if (primary.indexOf(term) >= 0) s += 9;
+      if (headings.indexOf(term) >= 0) s += 7;
       if (k.indexOf(term) >= 0) s += 6;
       if (d.indexOf(term) >= 0) s += 3;
     }
@@ -101,6 +112,8 @@
       open: function () {
         modal.hidden = false;
         input.select();
+        LOAD_ERR = false;
+        loadIndex(function () {}); // starts downloading only after opening
       },
       close: function () { modal.hidden = true; },
       isOpen: function () { return !modal.hidden; }

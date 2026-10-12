@@ -59,4 +59,20 @@ const CONTENT_SLOTS = Object.freeze({
     label: 'Tìm kiếm', href: 'tim-kiem/',
   }),
 });
-module.exports = { SITE, HOME_CATEGORY_ORDER, PRIMARY_NAV, EDITORIAL, CONTENT_SLOTS };
+
+const FEATURES = Object.freeze({
+  smartSearch: true,
+  previousNext: true,
+  authorBox: true,
+});
+
+// Publisher already identified as AI WIKI TOTAL throughout the site.
+// Contact is the existing contact page; no fabricated personal details.
+const PUBLISHER_PROFILE = Object.freeze({
+  name: SITE.publisher,
+  description: 'Ban biên tập cổng kiến thức AI WIKI TOTAL về xe và thuê xe tại Việt Nam. Nội dung mang tính tham khảo.',
+  contactLabel: 'Liên hệ ban biên tập',
+  contactPath: 'lien-he/',
+});
+
+module.exports = { SITE, HOME_CATEGORY_ORDER, PRIMARY_NAV, EDITORIAL, CONTENT_SLOTS, FEATURES, PUBLISHER_PROFILE };

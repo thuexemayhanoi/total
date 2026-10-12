@@ -38,4 +38,18 @@ function chooseRelated(article, published, bySlug, options) {
   const amount = Math.min(Math.max(0, minimum - curated.length), Math.max(0, maximum - curated.length));
   return curated.concat(scored.slice(0, amount).map(x => x.a));
 }
-module.exports = { chooseRelated };
+
+function chooseNeighbors(article, published) {
+  const a = article || {}, all = Array.isArray(published) ? published : [];
+  const inCategory = all.filter(x => x && x.slug && x.category === a.category);
+  const inHub = a.hub ? inCategory.filter(x => x.hub === a.hub) : [];
+  const group = inHub.length > 1 ? inHub : inCategory;
+  const sorted = group.slice().sort((x, y) =>
+    String(x.date || '').localeCompare(String(y.date || '')) ||
+    String(x.slug).localeCompare(String(y.slug)));
+  const i = sorted.findIndex(x => x.slug === a.slug);
+  if (i < 0 || sorted.length < 2) return { prev: null, next: null };
+  return { prev: i > 0 ? sorted[i - 1] : null, next: i + 1 < sorted.length ? sorted[i + 1] : null };
+}
+
+module.exports = { chooseRelated, chooseNeighbors };

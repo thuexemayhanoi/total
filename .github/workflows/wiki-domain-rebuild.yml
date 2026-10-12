@@ -9,6 +9,10 @@ on:
     paths:
       - 'factory/site.config.js'
       - 'factory/lib/**'
+      - 'factory/generate.js'
+      - 'factory/test-features.js'
+      - 'assets/js/search.js'
+      - 'assets/css/atlas.css'
       - 'factory/test-shared-site.js'
       - 'factory/test.js'
       - '.github/workflows/wiki-domain-rebuild.yml'
@@ -56,6 +60,10 @@ jobs:
         run: |
           set -euo pipefail
           node factory/generate.js
+          before="$(sha256sum index.html sitemap-articles.xml assets/data/search-index.json factory/state/manifest.json)"
+          node factory/generate.js
+          after="$(sha256sum index.html sitemap-articles.xml assets/data/search-index.json factory/state/manifest.json)"
+          test "$before" = "$after" || { echo NON_IDEMPOTENT_BUILD; exit 1; }
           node factory/generate.js --check
 
       - name: Full local QA and internal link integrity
@@ -63,6 +71,7 @@ jobs:
           set -euo pipefail
           node factory/test.js
           node factory/test-shared-site.js
+          node factory/test-features.js
           node factory/link-integrity.js --all
           node factory/test-hardening.js
           node factory/test-reliability.js
