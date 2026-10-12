@@ -11668,6 +11668,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/lop-banh-xe/bac-dan-banh-xe-may-vai-tro-va-dau-hieu-mon/",
+  "title": "Bạc đạn bánh xe máy: vai trò, dấu hiệu mòn và vì sao không nên chạy tiếp khi bánh rơ",
+  "description": "Bạc đạn bánh xe máy mòn gây tiếng ù theo tốc độ, bánh rơ, moay-ơ nóng. Cách nhận biết an toàn, nguyên nhân mòn sớm và lúc nào phải dừng đi xe để giao thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "entities": [
+   "bạc đạn bánh xe",
+   "vòng bi",
+   "moay-ơ",
+   "phớt chắn bụi",
+   "độ rơ bánh xe",
+   "trục bánh xe"
+  ],
+  "keywords": [
+   "bạc đạn bánh xe máy",
+   "vòng bi bánh xe",
+   "bánh xe bị rơ",
+   "dấu hiệu bạc đạn bánh xe mòn"
+  ],
+  "seoTitle": "Bạc đạn bánh xe máy: dấu hiệu mòn, bánh rơ và khi nào nên dừng xe",
+  "primaryKeyword": "bạc đạn bánh xe máy",
+  "headings": [
+   "Bạc đạn bánh xe làm gì và vì sao bánh quay trơn được",
+   "Dấu hiệu mòn qua tiếng ù và cảm giác khi chạy",
+   "Độ rơ bánh xe: nhận biết thế nào cho an toàn",
+   "Những nguyên nhân khiến bạc đạn mòn sớm",
+   "Khi nào nên dừng đi xe và giao cho thợ"
+  ],
+  "summary": "Bài giải thích bạc đạn bánh xe máy làm gì, vì sao bánh quay trơn nhờ các viên bi lăn trong lớp mỡ bôi trơn, và bạc đạn mòn lộ ra qua những dấu hiệu nào: tiếng ù tăng theo tốc độ, rung nhẹ hoặc xe ì, độ rơ khi thợ lắc bánh đã nâng khỏi mặt đường và moay-ơ nóng "
+ },
+ {
+  "kind": "article",
   "url": "map/bai-do-xe/bai-do-xe/",
   "title": "Bãi đỗ xe — những điều cần biết",
   "description": "Những điều cần biết về bãi đỗ xe: các loại bãi, cách chọn nơi gửi, quan sát biển báo và vé, giữ đồ có giá trị, khóa xe, kiểm tra khi nhận lại và xử lý khi xe bị mất hoặc hư hại.",
@@ -12285,6 +12317,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/cam-bien-tren-xe-phun-xang/",
+  "title": "Các cảm biến trên xe phun xăng: mỗi cảm biến báo gì cho ECU và hỏng thì xe biểu hiện ra sao",
+  "description": "Xe phun xăng có những cảm biến nào? Cảm biến nhiệt độ, áp suất khí nạp, bướm ga, trục khuỷu, oxy báo gì cho ECU, hỏng thì biểu hiện ra sao và nên hỏi thợ gì.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "ECU",
+   "cảm biến nhiệt độ động cơ",
+   "cảm biến áp suất khí nạp",
+   "cảm biến vị trí bướm ga",
+   "cảm biến vị trí trục khuỷu",
+   "cảm biến oxy"
+  ],
+  "keywords": [
+   "cảm biến xe phun xăng",
+   "cảm biến nhiệt độ xe máy",
+   "cảm biến oxy xe máy",
+   "triệu chứng hỏng cảm biến xe phun xăng"
+  ],
+  "seoTitle": "Cảm biến xe phun xăng: mỗi loại báo gì cho ECU và hỏng ra sao",
+  "primaryKeyword": "cảm biến xe phun xăng",
+  "headings": [
+   "Để phun đúng lượng xăng, ECU phải biết những gì",
+   "Cảm biến nhiệt độ và áp suất khí nạp: máy nóng hay nguội, hút được bao nhiêu gió",
+   "Cảm biến vị trí bướm ga và vị trí trục khuỷu: ý muốn của người lái và nhịp quay của máy",
+   "Cảm biến oxy nếu xe có và vòng điều chỉnh lượng xăng",
+   "Hỏng cảm biến: triệu chứng thường thấy và vì sao không nên thay theo đoán mò"
+  ],
+  "summary": "Bài giải thích các cảm biến trên xe phun xăng theo vai trò: nhiệt độ động cơ, áp suất và nhiệt độ khí nạp, vị trí bướm ga, vị trí trục khuỷu và cảm biến oxy nếu xe có. Mỗi loại được mô tả qua điều nó báo cho ECU, kèm biểu hiện quan sát được khi tín hiệu lệch, "
+ },
+ {
+  "kind": "article",
   "url": "news/thi-truong-xe/canh-tranh-hang-xe/",
   "title": "Cạnh tranh hãng xe — những điều cần biết",
   "description": "Các hãng xe máy cạnh tranh nhau thế nào bằng giá, trang bị, mạng lưới và uy tín, và cuộc cạnh tranh đó ảnh hưởng ra sao đến lựa chọn của người mua.",
@@ -12546,6 +12610,38 @@
    "Thời tiết xấu giữa chặng: mưa, gió, và mặt đường sau mưa"
   ],
   "summary": "Đường trường khác đường phố không chỉ ở độ dài — nó là một môi trường có luật riêng: xe tải, đường hẹp qua thị trấn, ánh sáng thiếu và thời tiết đổi giữa chặng. Người mới lên đường trường thường mang theo phản xạ phố (chạy sát, vượt nhanh, coi đèn xe trước là "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dong-co/che-hoa-khi-xe-may-cau-tao-va-nguyen-ly/",
+  "title": "Chế hòa khí xe máy: cấu tạo, nguyên lý và vì sao xe đời cũ cần chỉnh",
+  "description": "Chế hòa khí xe máy làm việc ra sao: bình xăng con và phao, họng gió, đường cầm chừng, đường chính, cần gió, vì sao xe đời cũ cần chỉnh và khi nào nên giao thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "chế hòa khí",
+   "bình xăng con",
+   "kim phao",
+   "họng gió",
+   "gíclơ",
+   "cần gió"
+  ],
+  "keywords": [
+   "chế hòa khí xe máy là gì",
+   "cấu tạo chế hòa khí",
+   "bình xăng con xe máy",
+   "nguyên lý hoạt động của chế hòa khí"
+  ],
+  "seoTitle": "Chế hòa khí xe máy là gì: cấu tạo, nguyên lý và lý do cần chỉnh",
+  "primaryKeyword": "chế hòa khí xe máy là gì",
+  "headings": [
+   "Chế hòa khí làm nhiệm vụ gì trong chuỗi nhiên liệu của xe máy",
+   "Bình xăng con và phao xăng giữ mực xăng ổn định",
+   "Đường gió cầm chừng và đường chính: xăng vào dòng gió bằng lối nào",
+   "Cần gió và lúc máy nguội: vì sao cần hỗn hợp đậm hơn",
+   "Vì sao xe đời cũ cần chỉnh và khi nào nên giao thợ"
+  ],
+  "summary": "Bài giải thích cấu tạo và nguyên lý của chế hòa khí xe máy cho người dùng xe đời cũ hay nghe thợ nói chỉnh gió, chỉnh cầm chừng, bình xăng con. Nội dung đi theo chuỗi nhiên liệu: bình xăng con với phao và kim phao, họng gió và gíclơ, đường cầm chừng và đường c"
  },
  {
   "kind": "article",
@@ -12939,6 +13035,38 @@
    "Lập lịch: một trang sổ quyết định mọi kỳ sau"
   ],
   "summary": "Chu kỳ thay dầu là con số bị hỏi nhiều nhất và trả lời sai nhiều nhất trong việc giữ xe: có người thay mỗi 1.000 km, có người để 5.000 km, cả hai đều có thể đúng — vì chu kỳ không phải một con số cố định mà là kết quả của ba yếu tố: loại dầu đổ vào, điều kiện "
+ },
+ {
+  "kind": "article",
+  "url": "market/mua-ban-xe-cu/chuan-bi-ban-xe-may-cu/",
+  "title": "Bán xe máy cũ: chuẩn bị xe và hồ sơ để người mua tin tưởng và bán nhanh hơn",
+  "description": "Bán xe máy cũ cần chuẩn bị gì: dọn xe và sửa lỗi nhỏ trung thực, gom giấy tờ cùng hóa đơn bảo dưỡng, cho xem xe an toàn, bàn giao có biên nhận.",
+  "category": "Thị trường",
+  "hub": "Mua bán xe cũ",
+  "entities": [
+   "bán xe máy cũ",
+   "hồ sơ xe máy",
+   "hóa đơn bảo dưỡng",
+   "biên nhận bàn giao",
+   "chạy thử xe",
+   "kiểm tra xe tại thợ"
+  ],
+  "keywords": [
+   "bán xe máy cũ cần chuẩn bị gì",
+   "chuẩn bị bán xe máy cũ",
+   "hồ sơ bán xe máy cũ",
+   "cách bán xe máy cũ nhanh và an toàn"
+  ],
+  "seoTitle": "Bán xe máy cũ cần chuẩn bị gì: dọn xe, gom hồ sơ, bàn giao an toàn",
+  "primaryKeyword": "bán xe máy cũ cần chuẩn bị gì",
+  "headings": [
+   "Người mua cần thấy gì để tin chiếc xe của bạn",
+   "Chuẩn bị chiếc xe: nên sửa những gì và không nên làm những gì",
+   "Gom giấy tờ xe và hóa đơn bảo dưỡng thành một bộ hồ sơ",
+   "Trả lời người mua và cho xem xe sao cho an toàn",
+   "Chốt giao dịch và bàn giao có biên nhận"
+  ],
+  "summary": "Bài hướng dẫn người định bán xe máy cũ cách chuẩn bị để người mua tin tưởng và quyết định nhanh hơn, bớt phải hạ giá không cần thiết: điều người mua cần thấy để yên tâm, việc nên sửa và không nên làm với xe, cách gom giấy đăng ký, hóa đơn và nhật ký bảo dưỡng "
  },
  {
   "kind": "article",
@@ -16294,6 +16422,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/he-thong-boi-tron-dong-co-xe-may/",
+  "title": "Hệ thống bôi trơn động cơ xe máy: nhớt đi qua những đâu và vì sao thiếu nhớt hỏng máy rất nhanh",
+  "description": "Nhớt đi từ đáy máy qua bơm và lọc tới trục khuỷu, trục cam, xi-lanh ra sao? Vì sao thiếu nhớt hại máy nhanh, khi nào phải dừng xe và cách kiểm tra mức nhớt.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "hệ thống bôi trơn động cơ",
+   "cacte",
+   "bơm nhớt",
+   "lọc nhớt",
+   "trục khuỷu",
+   "que thăm nhớt"
+  ],
+  "keywords": [
+   "hệ thống bôi trơn xe máy",
+   "bơm nhớt xe máy",
+   "lọc nhớt xe máy",
+   "đường đi của nhớt trong động cơ xe máy"
+  ],
+  "seoTitle": "Hệ thống bôi trơn xe máy: đường đi của nhớt và dấu hiệu thiếu nhớt",
+  "primaryKeyword": "hệ thống bôi trơn xe máy",
+  "headings": [
+   "Nhớt làm ba việc cùng lúc trong động cơ: bôi trơn, mang nhiệt và giữ sạch",
+   "Đường đi của nhớt từ đáy máy lên các điểm bôi trơn rồi chảy về",
+   "Bơm nhớt và lọc nhớt: một bên đẩy nhớt đi, một bên giữ cặn lại",
+   "Dấu hiệu thiếu nhớt hoặc nhớt bẩn mà bạn quan sát được",
+   "Kiểm tra mức nhớt đúng cách và khi nào phải dừng máy"
+  ],
+  "summary": "Bài giải thích hệ thống bôi trơn xe máy cho người chỉ quen thay nhớt theo lịch. Nội dung đi qua ba việc của nhớt là bôi trơn, mang nhiệt và giữ sạch, rồi theo dõi đường đi của nhớt từ đáy máy qua bơm, bộ lọc tới trục khuỷu, trục cam, xi-lanh và chảy về. Bài cũ"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/he-thong-danh-lua-xe-may/",
   "title": "Hệ thống đánh lửa trên xe máy: từ bô bin đến bugi, mỗi bộ phận làm gì",
   "description": "Hệ thống đánh lửa xe máy gồm nguồn điện, tín hiệu trục khuỷu, IC hoặc ECU, bô bin, dây cao áp và bugi. Mỗi mắt xích làm gì, hỏng thì xe biểu hiện ra sao.",
@@ -16389,6 +16549,38 @@
    "Dấu hiệu hệ thống gặp lỗi"
   ],
   "summary": "Bài giải thích hệ thống tạm ngắt máy (idling stop) trên xe tay ga: mục đích, các điều kiện thường cần để hệ thống hoạt động, cách xe nổ lại, vì sao nó liên quan tới ắc quy và bộ đề, và phân biệt hành vi bình thường với những dấu hiệu cho thấy hệ thống hoặc ắc "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/he-thong-lai-va-co-phuoc-xe-may/",
+  "title": "Hệ thống lái và cổ phuộc xe máy: bạc đạn cổ lái, phuộc trước và cảm giác tay lái",
+  "description": "Cổ phuộc xe máy nối khung với phuộc trước ra sao, bạc đạn cổ lái giữ tay lái trơn thế nào, dấu hiệu lỏng hoặc mòn và vì sao nên giao thợ thay vì tự siết.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "cổ lái",
+   "bạc đạn cổ",
+   "trục cổ",
+   "phuộc trước",
+   "ống cổ khung",
+   "cảm giác tay lái"
+  ],
+  "keywords": [
+   "cổ phuộc xe máy",
+   "bạc đạn cổ lái",
+   "hệ thống lái xe máy",
+   "cổ phuộc xe máy bị rơ"
+  ],
+  "seoTitle": "Cổ phuộc xe máy: bạc đạn cổ lái làm gì và dấu hiệu lỏng, mòn",
+  "primaryKeyword": "cổ phuộc xe máy",
+  "headings": [
+   "Cổ lái là bộ phận nối khung xe với phuộc trước",
+   "Bạc đạn cổ lái giữ cho tay lái trơn và chính xác",
+   "Phuộc trước liên hệ với cổ lái như thế nào",
+   "Dấu hiệu bạc đạn cổ lỏng hoặc mòn khi lái và khi phanh",
+   "Vì sao không nên tự siết cổ lái và khi nào giao cho thợ"
+  ],
+  "summary": "Bài giải thích vai trò của cổ lái, hay cổ phuộc, trong hệ thống lái của xe máy: bộ phận nối khung với phuộc trước và cho tay lái xoay. Bài nói về bạc đạn cổ giữ cảm giác lái trơn và chính xác, mối liên hệ giữa phuộc trước và cổ lái, các dấu hiệu lỏng hoặc mòn "
  },
  {
   "kind": "article",
@@ -17097,6 +17289,38 @@
    "Đọc kết quả và các điểm cần hỏi thêm"
   ],
   "summary": "Bài hướng dẫn người đang phân vân giữa hai mẫu xe máy cách lái thử có hệ thống: chọn năm sáu tiêu chí gắn với nhu cầu và tự đặt trọng số, lái cả hai xe theo cùng một quy trình, ghi điểm ngay sau mỗi lần thử, rồi đọc kết quả cùng các điều kiện loại trừ và biến "
+ },
+ {
+  "kind": "article",
+  "url": "review/review-xe-dien/lai-thu-xe-may-dien/",
+  "title": "Lái thử xe máy điện: những điều cần cảm nhận ngoài tốc độ",
+  "description": "Lái thử xe máy điện nên cảm nhận gì ngoài tốc độ: độ mượt khi nhả ga, phanh, chỉ báo pin, cổng sạc, tiếng lạ và câu hỏi cho người bán về pin, bảo hành.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe điện",
+  "entities": [
+   "lái thử xe máy điện",
+   "tay ga",
+   "phanh",
+   "chỉ báo pin",
+   "cổng sạc",
+   "bảo hành pin"
+  ],
+  "keywords": [
+   "lái thử xe máy điện",
+   "kiểm tra xe điện khi mua",
+   "cảm giác lái xe máy điện",
+   "cần để ý gì khi lái thử xe điện"
+  ],
+  "seoTitle": "Lái thử xe máy điện: cần để ý gì ngoài tốc độ trước khi mua",
+  "primaryKeyword": "lái thử xe máy điện",
+  "headings": [
+   "Cảm giác lái xe máy điện khác xe xăng ở những điểm nào",
+   "Khởi động, tăng tốc và nhả ga có thật sự mượt không",
+   "Phanh, độ vững khi dừng và cảm giác khi dắt xe",
+   "Màn hình pin, cổng sạc và những tiếng lạ cần để ý",
+   "Câu hỏi nên hỏi người bán về pin và bảo hành trước khi quyết định"
+  ],
+  "summary": "Bài hướng dẫn người mua xe máy điện lần đầu cảm nhận những điều ngoài tốc độ khi lái thử. Nội dung giải thích vì sao cảm giác lái khác xe xăng, cách quan sát độ mượt lúc khởi động, tăng tốc và nhả ga, phanh và độ vững khi dừng hay dắt xe, hành vi của chỉ báo p"
  },
  {
   "kind": "article",
@@ -27275,6 +27499,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/lop-banh-xe/vanh-xe-may-mam-duc-va-nan-hoa/",
+  "title": "Vành xe máy: mâm đúc và vành nan hoa khác nhau thế nào khi sử dụng và sửa chữa",
+  "description": "Mâm đúc và vành nan hoa xe máy khác nhau thế nào? So sánh cấu tạo, loại lốp đi kèm, cách nhận biết móp nứt cong, khả năng sửa và lúc cần dừng xe nhờ thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "entities": [
+   "mâm đúc",
+   "vành nan hoa",
+   "lốp không săm",
+   "săm xe máy",
+   "lót vành",
+   "độ căng nan hoa"
+  ],
+  "keywords": [
+   "mâm đúc và nan hoa xe máy",
+   "vành nan hoa là gì",
+   "vành xe máy móp",
+   "nên chọn mâm đúc hay vành nan hoa"
+  ],
+  "seoTitle": "Mâm đúc và vành nan hoa xe máy: khác nhau ở lốp, độ bền, cách sửa",
+  "primaryKeyword": "mâm đúc và nan hoa xe máy",
+  "headings": [
+   "Vành xe làm nhiệm vụ gì và hai kiểu vành khác nhau ở đâu",
+   "Mâm đúc: cấu tạo liền khối và những điểm cần lưu ý",
+   "Vành nan hoa: cấu tạo và phần bảo trì dành cho thợ",
+   "Dấu hiệu vành bị móp, nứt hoặc cong và lúc nên dừng đi xe",
+   "Chọn và dùng loại vành theo điều kiện đường"
+  ],
+  "summary": "Bài giải thích mâm đúc và vành nan hoa khác nhau thế nào khi sử dụng và sửa chữa: mâm đúc làm liền một khối, kín khí nên nhiều xe đi kèm lốp không săm, còn bánh nan hoa ghép từ tâm bánh, nan và vòng kim loại, thường dùng săm trừ loại làm sẵn cho lốp không săm."
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/vao-cua-an-toan/",
   "title": "Vào cua an toàn: kỹ thuật nhìn – giảm tốc – ghi-đổ",
   "description": "Hướng dẫn vào cua an toàn trên xe máy: quy tắc nhìn xa, giảm tốc trước cua, ghi-đổ đúng kỹ thuật và các lỗi khiến người mới trượt ngang khi vào cua.",
@@ -27369,6 +27625,38 @@
    "Mua cũ Vespa: quy trình kiểm riêng cho xe biểu tượng"
   ],
   "summary": "Vespa là trường hợp hiếm trong thế giới xe hai bánh: một scooter trở thành biểu tượng văn hóa tồn tại gần một thế kỷ — sinh ra ở Ý những năm sau chiến tranh, vượt ra khỏi vai trò phương tiện để trở thành một \"tuyên ng phong cách\" được nhận diện ở mọi continent"
+ },
+ {
+  "kind": "article",
+  "url": "market/mua-ban-xe-cu/viet-tin-dang-ban-xe-may-cu/",
+  "title": "Viết tin đăng bán xe máy cũ trung thực: chụp ảnh nào, mô tả gì và tránh những gì",
+  "description": "Cách viết tin đăng bán xe máy cũ trung thực: ảnh cần chụp, thông tin phải có, cách nêu lỗi đã biết và những câu dễ gây nghi ngờ hoặc tranh cãi về sau.",
+  "category": "Thị trường",
+  "hub": "Mua bán xe cũ",
+  "entities": [
+   "tin đăng bán xe máy cũ",
+   "ảnh chụp xe",
+   "số ki-lô-mét hiển thị",
+   "lỗi đã biết",
+   "giấy tờ xe",
+   "xem xe trực tiếp"
+  ],
+  "keywords": [
+   "viết tin đăng bán xe máy cũ",
+   "chụp ảnh xe máy để bán",
+   "mô tả xe máy cũ khi đăng bán",
+   "cách viết tin bán xe máy cũ trung thực"
+  ],
+  "seoTitle": "Tin đăng bán xe máy cũ trung thực: chụp ảnh, mô tả và điều cần tránh",
+  "primaryKeyword": "viết tin đăng bán xe máy cũ",
+  "headings": [
+   "Người mua đọc tin đăng xe máy cũ để tìm gì",
+   "Ảnh cần chụp và cách chụp để người mua nhìn đúng chỗ họ cần xem",
+   "Thông tin bắt buộc phải có trong phần mô tả",
+   "Nêu lỗi đã biết một cách trung thực",
+   "Những cách viết gây nghi ngờ hoặc phiền toái về sau"
+  ],
+  "summary": "Bài hướng dẫn người bán xe máy cũ viết tin đăng trung thực mà vẫn thu hút người mua: người mua đọc tin để tìm gì, những ảnh cần chụp theo thứ tự người mua nhìn xe, thông tin phải có trong phần mô tả như loại xe, số ki-lô-mét hiển thị, giấy tờ, lịch sử bảo dưỡn"
  },
  {
   "kind": "article",

@@ -16203,11 +16203,13 @@
    "title": "Bán xe máy cũ: chuẩn bị xe và hồ sơ để người mua tin tưởng và bán nhanh hơn",
    "primaryIntent": "informational/chuan-bi-ban-xe-may-cu",
    "notes": "source=topic-v2 topicId=T001186",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:53:52.447Z",
-   "updatedAt": "2026-10-12T12:53:52.447Z"
+   "updatedAt": "2026-10-12T13:34:13.346Z",
+   "seoScore": 100,
+   "words": 3079
   },
   {
    "id": "S01125",
@@ -16216,11 +16218,13 @@
    "title": "Viết tin đăng bán xe máy cũ trung thực: chụp ảnh nào, mô tả gì và tránh những gì",
    "primaryIntent": "informational/viet-tin-dang-ban-xe-may-cu",
    "notes": "source=topic-v2 topicId=T001187",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:53:52.458Z",
-   "updatedAt": "2026-10-12T12:53:52.458Z"
+   "updatedAt": "2026-10-12T13:34:13.347Z",
+   "seoScore": 100,
+   "words": 2993
   },
   {
    "id": "S01126",
@@ -16229,11 +16233,13 @@
    "title": "Lái thử xe máy điện: những điều cần cảm nhận ngoài tốc độ",
    "primaryIntent": "informational/lai-thu-xe-may-dien",
    "notes": "source=topic-v2 topicId=T001188",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:53:52.470Z",
-   "updatedAt": "2026-10-12T12:53:52.470Z"
+   "updatedAt": "2026-10-12T13:34:13.347Z",
+   "seoScore": 100,
+   "words": 3039
   },
   {
    "id": "S01127",
@@ -16242,11 +16248,13 @@
    "title": "Chế hòa khí xe máy: cấu tạo, nguyên lý và vì sao xe đời cũ cần chỉnh",
    "primaryIntent": "informational/che-hoa-khi-xe-may-cau-tao-va-nguyen-ly",
    "notes": "source=topic-v2 topicId=T001189",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:57:14.295Z",
-   "updatedAt": "2026-10-12T12:57:14.295Z"
+   "updatedAt": "2026-10-12T13:34:13.346Z",
+   "seoScore": 100,
+   "words": 3063
   },
   {
    "id": "S01128",
@@ -16255,11 +16263,13 @@
    "title": "Hệ thống bôi trơn động cơ xe máy: nhớt đi qua những đâu và vì sao thiếu nhớt hỏng máy rất nhanh",
    "primaryIntent": "informational/he-thong-boi-tron-dong-co-xe-may",
    "notes": "source=topic-v2 topicId=T001190",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:57:14.314Z",
-   "updatedAt": "2026-10-12T12:57:14.314Z"
+   "updatedAt": "2026-10-12T13:34:13.346Z",
+   "seoScore": 100,
+   "words": 3072
   },
   {
    "id": "S01129",
@@ -16268,11 +16278,13 @@
    "title": "Vành xe máy: mâm đúc và vành nan hoa khác nhau thế nào khi sử dụng và sửa chữa",
    "primaryIntent": "informational/vanh-xe-may-mam-duc-va-nan-hoa",
    "notes": "source=topic-v2 topicId=T001192",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:57:14.326Z",
-   "updatedAt": "2026-10-12T12:57:14.326Z"
+   "updatedAt": "2026-10-12T13:34:13.347Z",
+   "seoScore": 100,
+   "words": 3000
   },
   {
    "id": "S01130",
@@ -16281,11 +16293,13 @@
    "title": "Bạc đạn bánh xe máy: vai trò, dấu hiệu mòn và vì sao không nên chạy tiếp khi bánh rơ",
    "primaryIntent": "informational/bac-dan-banh-xe-may-vai-tro-va-dau-hieu-mon",
    "notes": "source=topic-v2 topicId=T001193",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:57:14.339Z",
-   "updatedAt": "2026-10-12T12:57:14.339Z"
+   "updatedAt": "2026-10-12T13:34:13.346Z",
+   "seoScore": 100,
+   "words": 2801
   },
   {
    "id": "S01131",
@@ -16294,11 +16308,13 @@
    "title": "Hệ thống lái và cổ phuộc xe máy: bạc đạn cổ lái, phuộc trước và cảm giác tay lái",
    "primaryIntent": "informational/he-thong-lai-va-co-phuoc-xe-may",
    "notes": "source=topic-v2 topicId=T001194",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:57:14.352Z",
-   "updatedAt": "2026-10-12T12:57:14.352Z"
+   "updatedAt": "2026-10-12T13:34:13.347Z",
+   "seoScore": 100,
+   "words": 2912
   },
   {
    "id": "S01132",
@@ -16307,11 +16323,13 @@
    "title": "Các cảm biến trên xe phun xăng: mỗi cảm biến báo gì cho ECU và hỏng thì xe biểu hiện ra sao",
    "primaryIntent": "informational/cam-bien-tren-xe-phun-xang",
    "notes": "source=topic-v2 topicId=T001195",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T12:57:14.363Z",
-   "updatedAt": "2026-10-12T12:57:14.363Z"
+   "updatedAt": "2026-10-12T13:34:13.346Z",
+   "seoScore": 100,
+   "words": 3170
   }
  ]
 }
