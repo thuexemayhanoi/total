@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-hop-dong-ngan-ngay',
-  title: 'Thuê honda vision: hợp đồng và điều khoản cần đọc khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: hợp đồng và điều khoản cần đọc khi dùng ngắn ngày',
   seoTitle: 'Thuê Honda Vision ngắn ngày: điều khoản cần đọc trước khi ký',
   metaDescription: 'Điều khoản đáng chú ý khi thuê Honda Vision một đến ba ngày: cách tính thời gian, giờ nhận trả và trễ hẹn, giới hạn sử dụng, hủy hoặc đổi lịch khi kế hoạch đổi.',
   summary: 'Bài hướng dẫn đọc các điều khoản đáng chú ý nhất khi thuê Honda Vision trong một đến ba ngày: cách tính thời gian theo 24 giờ hay theo ngày, giờ nhận và trả cùng quy định trễ hẹn, giới hạn sử dụng, và cách hủy hoặc đổi lịch khi kế hoạch thay đổi.',

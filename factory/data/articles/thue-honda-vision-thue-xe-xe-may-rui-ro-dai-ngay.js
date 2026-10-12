@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-rui-ro-dai-ngay',
-  title: 'Thuê honda vision: rủi ro thường gặp và cách tránh khi dùng dài ngày',
+  title: 'Thuê Honda Vision: rủi ro thường gặp và cách tránh khi dùng dài ngày',
   seoTitle: 'Thuê Honda Vision dài ngày: rủi ro thường gặp và cách tránh',
   metaDescription: 'Rủi ro khi thuê Honda Vision theo tuần hoặc theo tháng: hao mòn tích lũy, bỏ bê bảo dưỡng, giấy tờ giữa kỳ, đỗ qua đêm, thời tiết và gia hạn, cùng cách phòng tránh.',
   summary: 'Bài phân tích những rủi ro dễ xuất hiện khi thuê xe tay ga phổ biến như Honda Vision theo tuần hoặc theo tháng: hao mòn tích lũy, bảo dưỡng bị bỏ quên, giấy tờ và bảo hiểm giữa kỳ, trộm cắp khi đỗ qua đêm, thời tiết theo mùa và tranh chấp lúc gia hạn hay kết thúc.',

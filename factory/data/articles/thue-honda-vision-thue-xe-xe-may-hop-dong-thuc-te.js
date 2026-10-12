@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-hop-dong-thuc-te',
-  title: 'Thuê honda vision: hợp đồng và điều khoản cần đọc theo tình huống thực tế',
+  title: 'Thuê Honda Vision: hợp đồng và điều khoản cần đọc theo tình huống thực tế',
   seoTitle: 'Thuê Honda Vision: đọc hợp đồng theo tình huống thực tế',
   metaDescription: 'Đọc hợp đồng thuê Honda Vision qua các tình huống thật: xe chết máy, mưa lớn, va chạm, trả xe muộn, mất chìa khóa hoặc giấy tờ và cách đối chiếu điều khoản.',
   summary: 'Bài đi qua những tình huống thường gặp khi thuê xe tay ga phổ biến như Honda Vision, gồm xe chết máy, mưa lớn, va chạm, trả xe muộn và mất chìa khóa hoặc giấy tờ, để người thuê biết cần tìm điều khoản nào trong hợp đồng và hỏi gì trước khi ký.',

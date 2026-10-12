@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-rui-ro-duong-dai',
-  title: 'Thuê honda vision: rủi ro thường gặp và cách tránh khi đi đường dài',
+  title: 'Thuê Honda Vision: rủi ro thường gặp và cách tránh khi đi đường dài',
   seoTitle: 'Thuê Honda Vision đi đường dài: rủi ro thường gặp, cách tránh',
   metaDescription: 'Rủi ro khi thuê Honda Vision đi liên tỉnh: kế hoạch chặng, nhiên liệu, xe hỏng nơi vắng, thời tiết, hành lý và khâu trả xe sau chuyến đi dài, cùng cách tránh.',
   summary: 'Bài điểm các rủi ro hay gặp khi dùng xe tay ga phổ biến như Honda Vision cho chuyến đi liên tỉnh: kế hoạch chặng và sức bền người lái, nhiên liệu, xe hỏng ở nơi vắng, thời tiết và hành lý, cùng việc hậu cần khi trả xe sau hành trình dài, với cách tránh thực tế.',
