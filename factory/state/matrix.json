@@ -16338,11 +16338,13 @@
    "title": "Kim phun xăng xe máy: vai trò, vì sao bị bẩn tắc hoặc rò và triệu chứng quan sát được",
    "primaryIntent": "informational/kim-phun-xang-xe-may-bi-tac-hoac-ro",
    "notes": "source=topic-v2 topicId=T001196",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.608Z",
-   "updatedAt": "2026-10-12T17:22:39.608Z"
+   "updatedAt": "2026-10-12T17:30:53.965Z",
+   "seoScore": 100,
+   "words": 2882
   },
   {
    "id": "S01134",
@@ -16351,11 +16353,13 @@
    "title": "Bơm xăng điện trên xe phun xăng: tiếng kêu lúc bật khóa, dấu hiệu bơm yếu và cách hỏi thợ",
    "primaryIntent": "informational/bom-xang-dien-xe-phun-xang-yeu",
    "notes": "source=topic-v2 topicId=T001197",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.632Z",
-   "updatedAt": "2026-10-12T17:22:39.632Z"
+   "updatedAt": "2026-10-12T17:30:53.964Z",
+   "seoScore": 100,
+   "words": 3021
   },
   {
    "id": "S01135",
@@ -16364,11 +16368,13 @@
    "title": "Lọc xăng xe máy nghẹt: vì sao xe hụt ga ở ga lớn và cách nhận biết qua triệu chứng",
    "primaryIntent": "troubleshooting/loc-xang-xe-may-nghet-gay-hut-ga",
    "notes": "source=topic-v2 topicId=T001198",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.651Z",
-   "updatedAt": "2026-10-12T17:22:39.651Z"
+   "updatedAt": "2026-10-12T17:30:53.965Z",
+   "seoScore": 100,
+   "words": 2968
   },
   {
    "id": "S01136",
@@ -16377,11 +16383,13 @@
    "title": "Đồng hồ xăng xe máy báo sai: phao xăng, vạch nhảy lên xuống và cách tránh hết xăng giữa đường",
    "primaryIntent": "troubleshooting/dong-ho-xang-xe-may-bao-sai",
    "notes": "source=topic-v2 topicId=T001199",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.665Z",
-   "updatedAt": "2026-10-12T17:22:39.665Z"
+   "updatedAt": "2026-10-12T17:30:53.965Z",
+   "seoScore": 100,
+   "words": 2914
   },
   {
    "id": "S01137",
@@ -16390,11 +16398,13 @@
    "title": "Nắp bình xăng và lỗ thông hơi: vì sao nắp nghẹt làm xe hụt hơi hoặc nghe tiếng xì khi mở",
    "primaryIntent": "informational/nap-binh-xang-va-lo-thong-hoi",
    "notes": "source=topic-v2 topicId=T001200",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.679Z",
-   "updatedAt": "2026-10-12T17:22:39.679Z"
+   "updatedAt": "2026-10-12T17:30:53.965Z",
+   "seoScore": 100,
+   "words": 3010
   },
   {
    "id": "S01138",
@@ -16403,11 +16413,13 @@
    "title": "Cao su chân máy xe máy: vì sao mòn gây rung khi cầm chừng và cách phân biệt với lỗi động cơ",
    "primaryIntent": "informational/cao-su-chan-may-xe-may-mon",
    "notes": "source=topic-v2 topicId=T001201",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.692Z",
-   "updatedAt": "2026-10-12T17:22:39.692Z"
+   "updatedAt": "2026-10-12T17:30:53.964Z",
+   "seoScore": 100,
+   "words": 3088
   },
   {
    "id": "S01139",
@@ -16416,11 +16428,13 @@
    "title": "Độ nén động cơ xe máy: vì sao nén yếu làm xe yếu, khó nổ và những dấu hiệu quan sát được",
    "primaryIntent": "informational/do-nen-dong-co-xe-may-yeu",
    "notes": "source=topic-v2 topicId=T001202",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.708Z",
-   "updatedAt": "2026-10-12T17:22:39.708Z"
+   "updatedAt": "2026-10-12T17:30:53.965Z",
+   "seoScore": 100,
+   "words": 2772
   },
   {
    "id": "S01140",
@@ -16429,11 +16443,13 @@
    "title": "Ổ khóa điện xe máy khó xoay hoặc kẹt: nguyên nhân từ chìa, ruột khóa và khóa cổ",
    "primaryIntent": "troubleshooting/o-khoa-dien-xe-may-khoa-xoay-ket",
    "notes": "source=topic-v2 topicId=T001203",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.720Z",
-   "updatedAt": "2026-10-12T17:22:39.720Z"
+   "updatedAt": "2026-10-12T17:30:53.965Z",
+   "seoScore": 91,
+   "words": 2980
   },
   {
    "id": "S01141",
@@ -16442,11 +16458,13 @@
    "title": "Củ đề xe máy: tiếng đề yếu, kêu tạch một tiếng hay quay mà không nổ nói lên điều gì",
    "primaryIntent": "troubleshooting/cu-de-xe-may-yeu-hoac-keu-tach",
    "notes": "source=topic-v2 topicId=T001204",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.733Z",
-   "updatedAt": "2026-10-12T17:22:39.733Z"
+   "updatedAt": "2026-10-12T17:30:53.965Z",
+   "seoScore": 91,
+   "words": 2747
   },
   {
    "id": "S01142",
@@ -16455,11 +16473,13 @@
    "title": "Công tắc chân chống và công tắc phanh: vì sao xe không đề được dù ắc quy còn khỏe",
    "primaryIntent": "informational/cong-tac-an-toan-chan-chong-va-phanh",
    "notes": "source=topic-v2 topicId=T001205",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:22:39.748Z",
-   "updatedAt": "2026-10-12T17:22:39.748Z"
+   "updatedAt": "2026-10-12T17:30:53.964Z",
+   "seoScore": 100,
+   "words": 3060
   },
   {
    "id": "S01143",

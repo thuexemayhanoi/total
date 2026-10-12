@@ -12093,6 +12093,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/bom-xang-dien-xe-phun-xang-yeu/",
+  "title": "Bơm xăng điện trên xe phun xăng: tiếng kêu lúc bật khóa, dấu hiệu bơm yếu và cách hỏi thợ",
+  "description": "Bơm xăng điện trên xe phun xăng làm gì, tiếng vo vo lúc bật khóa có bình thường không, bơm yếu biểu hiện ra sao khi chạy và nên hỏi thợ những gì.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "bơm xăng điện",
+   "xe phun xăng",
+   "lưới lọc xăng",
+   "kim phun",
+   "áp suất xăng",
+   "bình xăng"
+  ],
+  "keywords": [
+   "bơm xăng điện xe máy",
+   "bơm xăng xe phun xăng yếu",
+   "tiếng bơm xăng lúc bật khóa",
+   "dấu hiệu bơm xăng yếu trên xe máy"
+  ],
+  "seoTitle": "Bơm xăng điện xe máy: tiếng bơm lúc bật khóa và dấu hiệu bơm yếu",
+  "primaryKeyword": "bơm xăng điện xe máy",
+  "headings": [
+   "Bơm xăng điện nằm ở đâu và làm nhiệm vụ gì",
+   "Tiếng chạy lúc bật khóa: bình thường hay đáng ngờ",
+   "Bơm yếu thể hiện thế nào khi chạy",
+   "Điều gì làm bơm mòn sớm",
+   "Hỏi thợ gì và không nên tự làm gì"
+  ],
+  "summary": "Bài giải thích bơm xăng điện trên xe phun xăng nằm ở đâu, làm nhiệm vụ gì và vì sao tiếng vo vo ngắn lúc bật khóa thường là dấu hiệu bình thường. Nội dung chỉ ra cách tạo mốc nghe tiếng bơm của chính xe mình, những thay đổi âm thanh đáng ghi lại, biểu hiện của"
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/cac-cum-xe-may/",
   "title": "Hướng dẫn chi tiết về các cụm xe máy",
   "description": "Chia cấu tạo xe máy thành từng cụm nhỏ — nắp máy, đầu máy, lốc, truyền động, điện, treo, phanh — mỗi cụm vai trò gì và triệu chứng khi hỏng ra sao.",
@@ -12378,6 +12410,38 @@
    "Nhìn cuộc cạnh tranh dài hạn để chọn đúng"
   ],
   "summary": "Cạnh tranh giữa các hãng xe máy tại Việt Nam là một trong những cuộc đua dài hơi và sôi động nhất của thị trường tiêu dùng: các thương hiệu Nhật giữ vững thế mạnh bằng uy tín độ bền và mạng lưới phân phối, các thương hiệu khác tấn công bằng giá, trang bị và ki"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/cau-tao-xe/cao-su-chan-may-xe-may-mon/",
+  "title": "Cao su chân máy xe máy: vì sao mòn gây rung khi cầm chừng và cách phân biệt với lỗi động cơ",
+  "description": "Cao su chân máy xe máy mòn khiến xe rung khi cầm chừng và cộc khi vào ga. Cách nhận biết qua rung, tiếng động, phân biệt với bugi, hỗn hợp và việc cần giao thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "chân máy động cơ",
+   "cao su giảm rung",
+   "ống lót cao su",
+   "rung khi cầm chừng",
+   "tiếng cộc khi vào ga",
+   "hỗn hợp nhiên liệu"
+  ],
+  "keywords": [
+   "cao su chân máy xe máy",
+   "chân máy xe máy bị mòn",
+   "xe rung khi cầm chừng",
+   "dấu hiệu hỏng cao su chân máy"
+  ],
+  "seoTitle": "Cao su chân máy xe máy mòn: rung cầm chừng và tiếng cộc khi vào ga",
+  "primaryKeyword": "cao su chân máy xe máy",
+  "headings": [
+   "Động cơ được treo vào khung xe máy bằng chân máy ra sao",
+   "Cao su giảm rung hỏng theo cách nào",
+   "Dấu hiệu qua rung và tiếng cộc",
+   "Phân biệt với lỗi bugi, hỗn hợp và cầm chừng",
+   "Việc của thợ và việc bạn quan sát được"
+  ],
+  "summary": "Bài giải thích vai trò của chân máy và cao su giảm rung trong việc treo động cơ vào khung xe máy, các cách cao su xuống cấp như chai cứng, nứt, trương nhão hay lún, và những dấu hiệu bạn tự cảm nhận được như rung truyền lên tay lái, tiếng cộc khi vào ga hoặc n"
  },
  {
   "kind": "article",
@@ -13334,6 +13398,70 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/cong-tac-an-toan-chan-chong-va-phanh/",
+  "title": "Công tắc chân chống và công tắc phanh: vì sao xe không đề được dù ắc quy còn khỏe",
+  "description": "Xe không đề dù đèn còi bình thường có thể do công tắc chân chống hoặc công tắc phanh. Cách nhận biết bằng quan sát, dấu hiệu kẹt, hở mạch và vì sao không đấu tắt.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "công tắc chân chống",
+   "công tắc tay phanh",
+   "mạch đề",
+   "công tắc tắt máy",
+   "tiếp điểm điện",
+   "đèn phanh"
+  ],
+  "keywords": [
+   "công tắc chân chống xe máy",
+   "xe không đề được",
+   "công tắc phanh khi đề xe",
+   "xe không đề dù đèn còi bình thường"
+  ],
+  "seoTitle": "Công tắc chân chống và công tắc phanh: xe không đề dù ắc quy tốt",
+  "primaryKeyword": "công tắc chân chống xe máy",
+  "headings": [
+   "Những công tắc an toàn can thiệp vào việc đề máy",
+   "Công tắc chân chống và cảm giác khi xe không chịu đề",
+   "Công tắc ở tay phanh: vì sao phải bóp phanh mới đề được",
+   "Dấu hiệu công tắc bẩn, kẹt hoặc hở mạch",
+   "Vì sao không được đấu tắt công tắc và khi nào nên giao thợ"
+  ],
+  "summary": "Bài giải thích vì sao nhiều xe máy im lặng khi bấm nút đề dù đèn và còi vẫn hoạt động: một số công tắc an toàn chỉ cho đề hoặc cho máy chạy khi chân chống đã lên hết cỡ hoặc cần phanh được bóp đủ. Nội dung phân biệt kiểu chặn đề với kiểu ngắt máy, mô tả cách q"
+ },
+ {
+  "kind": "article",
+  "url": "garage/dien-ac-quy/cu-de-xe-may-yeu-hoac-keu-tach/",
+  "title": "Củ đề xe máy: tiếng đề yếu, kêu tạch một tiếng hay quay mà không nổ nói lên điều gì",
+  "description": "Tiếng đề xe máy kêu tạch một tiếng, quay chậm hay quay khỏe mà không nổ giúp khoanh vùng ắc quy, rơ-le đề, dây mát, củ đề hoặc phía động cơ.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "củ đề xe máy",
+   "rơ-le đề",
+   "ắc quy",
+   "dây mát",
+   "nút đề",
+   "bánh răng khởi động"
+  ],
+  "keywords": [
+   "củ đề xe máy",
+   "đề xe máy kêu tạch",
+   "đề yếu xe máy",
+   "tiếng đề xe máy không nổ"
+  ],
+  "seoTitle": "Củ đề xe máy kêu tạch, đề yếu hay quay mà không nổ: lỗi ở đâu",
+  "primaryKeyword": "củ đề xe máy",
+  "headings": [
+   "Đường đi của dòng điện từ nút đề tới củ đề",
+   "Kêu tạch một tiếng: nên nghi ngờ điều gì",
+   "Quay chậm hoặc yếu: nên nghi ngờ điều gì",
+   "Quay khỏe mà không nổ: chuyển sang nhiên liệu và đánh lửa",
+   "Thói quen cần tránh và khi nào giao thợ"
+  ],
+  "summary": "Âm thanh khi bấm đề là manh mối đầu tiên để khoanh vùng lỗi khởi động xe máy. Một tiếng tạch rồi im thường chỉ về ắc quy sụt tải, dây dẫn, rơ-le đề hoặc củ đề; quay chậm gợi ý ắc quy yếu hoặc tiếp xúc kém; quay khỏe mà không nổ chuyển sự chú ý sang nhiên liệu,"
+ },
+ {
+  "kind": "article",
   "url": "ride/cung-duong/cung-duong-nui/",
   "title": "Tổng hợp kiến thức: cung đường núi",
   "description": "Tổng hợp kiến thức về cung đường núi: kỹ năng đèo dốc cua gắt, sương mù, mưa trơn, chuẩn bị xe và quy tắc an toàn vùng cao.",
@@ -14116,6 +14244,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/do-nen-dong-co-xe-may-yeu/",
+  "title": "Độ nén động cơ xe máy: vì sao nén yếu làm xe yếu, khó nổ và những dấu hiệu quan sát được",
+  "description": "Giải thích độ nén động cơ xe máy, các chỗ làm rò nén như séc-măng, xupap, gioăng, dấu hiệu nén yếu quan sát được và vì sao cần thợ đo bằng dụng cụ.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "buồng đốt",
+   "séc-măng",
+   "xupap",
+   "gioăng nắp máy",
+   "đồng hồ đo nén",
+   "kỳ nén"
+  ],
+  "keywords": [
+   "độ nén động cơ xe máy",
+   "nén yếu xe máy",
+   "xe yếu hơi",
+   "máy yếu nén"
+  ],
+  "seoTitle": "Độ nén động cơ xe máy: vì sao nén yếu làm xe yếu và khó nổ",
+  "primaryKeyword": "độ nén động cơ xe máy",
+  "headings": [
+   "Nén trong xi-lanh là gì và để làm gì",
+   "Chỗ nào làm rò nén: séc-măng, xupap và gioăng",
+   "Dấu hiệu máy yếu nén khi nổ và khi chạy",
+   "Phân biệt với bugi, xăng và đánh lửa yếu",
+   "Thợ kiểm tra nén ra sao và bạn nên hỏi gì"
+  ],
+  "summary": "Độ nén là khả năng buồng đốt giữ kín và ép hỗn hợp xăng với không khí trước khi bugi đánh lửa. Khi séc-măng, xupap hoặc gioăng bị rò, hỗn hợp cháy yếu nên xe khó nổ, yếu hơi và có thể hao nhiên liệu hơn. Bài này giải thích khái niệm, các chỗ có thể rò nén, dấu"
+ },
+ {
+  "kind": "article",
   "url": "map/bai-do-xe/do-xe-o-dau/",
   "title": "Tổng hợp kiến thức: đỗ xe ở đâu",
   "description": "Tổng hợp kiến thức giúp bạn quyết định đỗ xe ở đâu: nhận biết nơi được và không được đỗ, đọc biển báo và vạch kẻ, chọn bãi chính thức, đỗ xe an toàn ở phố đông và điểm du lịch.",
@@ -14338,6 +14498,38 @@
    "Thói quen lái giữ động cơ bền"
   ],
   "summary": "Động cơ là cụm đắt nhất trên chiếc xe máy, cũng là cụm phụ thuộc nhiều nhất vào thói quen sử dụng. Cùng một mẫu xe, có chiếc chạy một trăm nghìn cây số vẫn êm, có chiếc ba vạn cây số đã vào đại tu — khác biệt nằm ở nhớt, xăng, cách ga và cách chăm sóc. Bài viế"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dien-xe/dong-ho-xang-xe-may-bao-sai/",
+  "title": "Đồng hồ xăng xe máy báo sai: phao xăng, vạch nhảy lên xuống và cách tránh hết xăng giữa đường",
+  "description": "Vì sao đồng hồ xăng xe máy báo sai, vạch xăng nhảy lên xuống: cách phao và đồng hồ hoạt động, lỗi giắc, dây mát và cách theo dõi xăng bằng quãng đường.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "phao xăng",
+   "cảm biến mức xăng",
+   "đồng hồ xăng",
+   "giắc nối",
+   "dây mát",
+   "bình xăng"
+  ],
+  "keywords": [
+   "đồng hồ xăng xe máy báo sai",
+   "phao xăng xe máy",
+   "vạch xăng nhảy",
+   "vạch xăng xe máy nhảy lên xuống"
+  ],
+  "seoTitle": "Đồng hồ xăng xe máy báo sai: nhận biết lỗi phao và vạch nhảy",
+  "primaryKeyword": "đồng hồ xăng xe máy báo sai",
+  "headings": [
+   "Mức xăng được đo và hiển thị như thế nào",
+   "Vì sao vạch xăng nhảy theo độ nghiêng",
+   "Phao, giắc và dây mát: những chỗ hay gây báo sai",
+   "Cách đánh giá mức xăng không chỉ dựa vào vạch",
+   "Khi nào cần thợ kiểm tra bình xăng"
+  ],
+  "summary": "Đồng hồ xăng xe máy hoạt động nhờ một chiếc phao trong bình, truyền tín hiệu điện qua dây và giắc tới cụm đồng hồ. Vì xăng sóng sánh khi xe nghiêng hay xóc nên vạch có thể nhảy, còn phao kẹt, giắc lỏng hoặc dây mát kém có thể khiến vạch báo sai kéo dài. Bài gi"
  },
  {
   "kind": "article",
@@ -17195,6 +17387,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/kim-phun-xang-xe-may-bi-tac-hoac-ro/",
+  "title": "Kim phun xăng xe máy: vai trò, vì sao bị bẩn tắc hoặc rò và triệu chứng quan sát được",
+  "description": "Kim phun xăng xe máy mở ngắn theo lệnh ECU để phun tơi xăng. Vì sao kim bám cặn, tắc hoặc rò, triệu chứng nhận biết được và ranh giới khi nào phải giao thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "kim phun xăng",
+   "bộ điều khiển ECU",
+   "van điện từ",
+   "cặn bám đầu kim",
+   "hỗn hợp xăng và không khí",
+   "bugi và lọc gió"
+  ],
+  "keywords": [
+   "kim phun xăng xe máy",
+   "kim phun bị tắc",
+   "vòi phun xăng xe máy",
+   "dấu hiệu kim phun xe máy bị bẩn"
+  ],
+  "seoTitle": "Kim phun xăng xe máy: vai trò, nguyên nhân tắc rò và dấu hiệu",
+  "primaryKeyword": "kim phun xăng xe máy",
+  "headings": [
+   "Kim phun làm gì trong hệ thống phun xăng điện tử",
+   "Xăng được phun tơi và định lượng ra sao",
+   "Vì sao kim phun bám cặn, tắc hoặc rò",
+   "Triệu chứng và cách phân biệt với bugi, lọc gió",
+   "Việc nên làm, việc nên tránh và lúc giao thợ"
+  ],
+  "summary": "Bài giải thích kim phun xăng xe máy là một van điện từ nhỏ, mở rất ngắn theo lệnh của bộ điều khiển ECU để phun xăng thành sương mịn vào dòng khí nạp. Bài chỉ ra vì sao cặn từ xăng và nhiệt sau khi tắt máy làm kim phun lệch, tắc hoặc đóng không kín, rồi mô tả "
+ },
+ {
+  "kind": "article",
   "url": "ride/di-phuot/ky-nang-phuot/",
   "title": "Hướng dẫn chi tiết về kỹ năng phượt",
   "description": "Hướng dẫn kỹ năng phượt xe máy cho người mới: kỹ thuật cua, phanh đồng bộ, chạy đường đèo, đường sỏi và tập luyện đúng cách trước chuyến đầu.",
@@ -17643,6 +17867,38 @@
    "Những phép đo thợ thường làm để tìm bộ phận hỏng"
   ],
   "summary": "Ắc quy mới thay vẫn nhanh hết điện, còn thợ nhắc tới lốc điện và bộ nạp mà người dùng chưa rõ chúng làm gì. Bài lần theo đường đi của điện trên xe máy: lốc điện (cuộn phát điện, hay stator) tạo dòng xoay chiều khi động cơ quay, bộ chỉnh lưu điều áp (regulator)"
+ },
+ {
+  "kind": "article",
+  "url": "garage/phun-xang-che-hoa-khi/loc-xang-xe-may-nghet-gay-hut-ga/",
+  "title": "Lọc xăng xe máy nghẹt: vì sao xe hụt ga ở ga lớn và cách nhận biết qua triệu chứng",
+  "description": "Lọc xăng xe máy nghẹt khiến xe êm ở ga nhỏ nhưng hụt hơi khi vặn ga lớn. Cách phân biệt với bugi yếu, lọc gió bẩn và ranh giới an toàn khi giao thợ.",
+  "category": "Sửa chữa",
+  "hub": "Phun xăng chế hòa khí",
+  "entities": [
+   "lọc xăng",
+   "lưới lọc đầu hút bơm",
+   "bơm xăng",
+   "bình xăng",
+   "cặn và nước trong xăng",
+   "hỗn hợp nghèo xăng"
+  ],
+  "keywords": [
+   "lọc xăng xe máy",
+   "lọc xăng bị nghẹt",
+   "xe hụt ga do lọc xăng",
+   "dấu hiệu lọc xăng xe máy bị nghẹt"
+  ],
+  "seoTitle": "Lọc xăng xe máy nghẹt: vì sao hụt ga lớn và cách nhận biết",
+  "primaryKeyword": "lọc xăng xe máy",
+  "headings": [
+   "Lọc xăng giữ lại những gì trước khi xăng vào máy",
+   "Vì sao lọc nghẹt làm xe hụt ga khi vặn ga lớn",
+   "Phân biệt lọc xăng nghẹt với bugi yếu và lọc gió bẩn",
+   "Cặn và nước trong xăng đến từ đâu",
+   "An toàn khi nghi lọc xăng nghẹt và lúc nên giao thợ"
+  ],
+  "summary": "Bài giải thích lọc xăng xe máy giữ lại những gì trước khi xăng vào máy và vì sao khi lọc bị nghẹt, xe vẫn chạy êm ở ga nhỏ nhưng hụt hơi khi vặn ga lớn. Nội dung chỉ ra cách phân biệt bằng triệu chứng với bugi yếu và lọc gió bẩn, nguồn cặn và nước trong xăng đ"
  },
  {
   "kind": "article",
@@ -18366,6 +18622,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/nap-binh-xang-va-lo-thong-hoi/",
+  "title": "Nắp bình xăng và lỗ thông hơi: vì sao nắp nghẹt làm xe hụt hơi hoặc nghe tiếng xì khi mở",
+  "description": "Nắp bình xăng xe máy nghẹt lỗ thông hơi làm xăng chảy chậm, xe hụt hơi, mở nắp nghe tiếng xì. Cách nhận biết, phân biệt với lọc xăng nghẹt và mở nắp an toàn.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "lỗ thông hơi bình xăng",
+   "nắp bình xăng",
+   "ống thông hơi",
+   "khóa xăng",
+   "lọc xăng",
+   "bơm xăng điện"
+  ],
+  "keywords": [
+   "nắp bình xăng xe máy",
+   "lỗ thông hơi bình xăng",
+   "bình xăng xe máy bị chân không",
+   "nắp bình xăng bị nghẹt thông hơi"
+  ],
+  "seoTitle": "Nắp bình xăng xe máy nghẹt thông hơi: xe hụt hơi, nghe tiếng xì",
+  "primaryKeyword": "nắp bình xăng xe máy",
+  "headings": [
+   "Vì sao bình xăng cần có lỗ thông hơi",
+   "Nắp bình xăng và ống thông hơi làm việc ra sao",
+   "Dấu hiệu thông hơi nghẹt khi chạy",
+   "Phân biệt với lọc xăng nghẹt và bơm yếu",
+   "Mở nắp an toàn và lúc nhờ thợ"
+  ],
+  "summary": "Bài giải thích vì sao bình xăng cần một đường cho không khí ra vào, và chuyện gì xảy ra khi nắp hoặc ống thông hơi bị nghẹt: áp suất trong bình thấp hơn bên ngoài, xăng đến máy chậm hơn nhu cầu nên xe hụt hơi sau một đoạn đường, rồi mở nắp nghe tiếng xì và chạ"
+ },
+ {
+  "kind": "article",
   "url": "local/tp-hcm/ngap-duong-sai-gon/",
   "title": "Hướng dẫn chi tiết về ngập đường Sài Gòn",
   "description": "Ngập đường ở TP. Hồ Chí Minh đến từ mưa lớn cộng nước triều dâng vượt tải hệ thống thoát nước. Hướng dẫn hiểu nguyên nhân, dự đoán và đi xe an toàn qua nước.",
@@ -18496,6 +18784,38 @@
    "Dùng nhật ký để quyết định lần bảo dưỡng tiếp theo"
   ],
   "summary": "Bài hướng dẫn người hay bảo dưỡng xe ở nhiều nơi cách giữ một nhật ký bảo dưỡng xe máy để không bỏ sót và không làm lại không cần thiết: vì sao nên ghi, những cột thông tin cần có như ngày, số trên đồng hồ, hạng mục, người làm, ghi chú và nhắc lần sau, một mẫu"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dien-xe/o-khoa-dien-xe-may-khoa-xoay-ket/",
+  "title": "Ổ khóa điện xe máy khó xoay hoặc kẹt: nguyên nhân từ chìa, ruột khóa và khóa cổ",
+  "description": "Chìa xoay nặng hoặc kẹt trong ổ khóa điện xe máy: cách phân biệt chìa mòn, ruột khóa bẩn hay khóa cổ bị ép, việc nên tránh và lúc nào cần thợ khóa.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "ổ khóa điện xe máy",
+   "ruột khóa",
+   "chìa khóa xe máy",
+   "khóa cổ",
+   "cổ phuộc",
+   "chìa dự phòng"
+  ],
+  "keywords": [
+   "ổ khóa điện xe máy bị kẹt",
+   "chìa khóa xe máy khó xoay",
+   "khóa cổ xe máy bị kẹt",
+   "ổ khóa xe máy bị cứng không xoay được"
+  ],
+  "seoTitle": "Ổ khóa điện xe máy bị kẹt: phân biệt chìa mòn, ruột khóa và khóa cổ",
+  "primaryKeyword": "ổ khóa điện xe máy bị kẹt",
+  "headings": [
+   "Ổ khóa điện của xe máy gồm những phần nào",
+   "Chìa mòn hay ruột khóa bẩn: cách phân biệt",
+   "Khóa cổ ép vì tay lái bị kẹt",
+   "Những việc nên tránh khi ổ khóa bị kẹt",
+   "Khi nào cần thợ và cách giữ chìa dự phòng"
+  ],
+  "summary": "Bài giải thích vì sao chìa khóa xe máy có thể xoay nặng, kẹt hoặc không nhận, và cách tách ba nhóm nguyên nhân thường gặp: chiếc chìa đã mòn hoặc cong, ruột khóa bám bụi hay gỉ, và khóa cổ đang bị ép vì tay lái chịu lực. Nội dung mô tả ổ khóa gồm những phần nà"
  },
  {
   "kind": "article",

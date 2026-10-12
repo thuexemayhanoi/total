@@ -1632,6 +1632,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/bom-xang-dien-xe-phun-xang-yeu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/cac-cum-xe-may/index.html",
   "kind": "article"
  },
@@ -1665,6 +1669,10 @@
  },
  {
   "rel": "news/thi-truong-xe/canh-tranh-hang-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/cao-su-chan-may-xe-may-mon/index.html",
   "kind": "article"
  },
  {
@@ -1784,6 +1792,14 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/cong-tac-an-toan-chan-chong-va-phanh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dien-ac-quy/cu-de-xe-may-yeu-hoac-keu-tach/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/cung-duong/cung-duong-nui/index.html",
   "kind": "article"
  },
@@ -1880,6 +1896,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/do-nen-dong-co-xe-may-yeu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "map/bai-do-xe/do-xe-o-dau/index.html",
   "kind": "article"
  },
@@ -1905,6 +1925,10 @@
  },
  {
   "rel": "wiki/dong-co/dong-co-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/dong-ho-xang-xe-may-bao-sai/index.html",
   "kind": "article"
  },
  {
@@ -2272,6 +2296,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/kim-phun-xang-xe-may-bi-tac-hoac-ro/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/di-phuot/ky-nang-phuot/index.html",
   "kind": "article"
  },
@@ -2325,6 +2353,10 @@
  },
  {
   "rel": "wiki/dien-xe/loc-dien-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phun-xang-che-hoa-khi/loc-xang-xe-may-nghet-gay-hut-ga/index.html",
   "kind": "article"
  },
  {
@@ -2416,6 +2448,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/nap-binh-xang-va-lo-thong-hoi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/tp-hcm/ngap-duong-sai-gon/index.html",
   "kind": "article"
  },
@@ -2429,6 +2465,10 @@
  },
  {
   "rel": "garage/bao-duong-dinh-ky/nhat-ky-bao-duong-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/o-khoa-dien-xe-may-khoa-xoay-ket/index.html",
   "kind": "article"
  },
  {
