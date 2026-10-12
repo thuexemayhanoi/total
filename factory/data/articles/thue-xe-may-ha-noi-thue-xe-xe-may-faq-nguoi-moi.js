@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-faq-nguoi-moi',
-  title: 'Thuê xe máy hà nội: câu hỏi thường gặp cho người mới',
+  title: 'Thuê xe máy Hà Nội: câu hỏi thường gặp cho người mới',
   seoTitle: 'Thuê xe máy Hà Nội: câu hỏi thường gặp cho người mới',
   metaDescription: 'Giải đáp câu hỏi thường gặp của người lần đầu thuê xe máy ở Hà Nội: cần chuẩn bị gì, chọn loại xe nào, hỏi gì lúc nhận xe, đọc thỏa thuận ra sao và xử lý khi có sự cố.',
   summary: 'Bài giải đáp những câu hỏi người lần đầu thuê xe máy ở Hà Nội hay thắc mắc: chuẩn bị giấy tờ và kỹ năng, chọn loại xe, những điều cần hỏi trước khi đặt, cách kiểm tra lúc nhận xe và việc cần làm khi gặp sự cố đầu tiên.',

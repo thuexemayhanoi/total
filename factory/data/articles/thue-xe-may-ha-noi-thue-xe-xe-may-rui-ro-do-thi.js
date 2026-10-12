@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-rui-ro-do-thi',
-  title: 'Thuê xe máy hà nội: rủi ro thường gặp và cách tránh trong điều kiện đô thị',
+  title: 'Thuê xe máy Hà Nội: rủi ro thường gặp và cách tránh trong điều kiện đô thị',
   seoTitle: 'Thuê xe máy Hà Nội đi trong phố: rủi ro và cách tránh',
   metaDescription: 'Rủi ro khi thuê xe máy chạy trong nội đô Hà Nội: mật độ xe đông, ngõ hẹp, trộm cắp khi gửi xe, ngập nước, vi phạm vô ý và cách tránh bằng thói quen đơn giản.',
   summary: 'Bài tập trung vào những rủi ro khi người thuê xe máy di chuyển trong nội đô Hà Nội: mật độ xe đông và cách luồn lách, ngõ hẹp dễ va quệt, nguy cơ mất xe lúc gửi, mặt đường trơn khi mưa, vi phạm do chưa quen biển báo và các cách phòng tránh.',
