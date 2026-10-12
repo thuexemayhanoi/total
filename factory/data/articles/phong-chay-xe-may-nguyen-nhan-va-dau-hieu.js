@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — phòng cháy xe máy; nguyên lý và quan sát được, không nêu số liệu, thông số hay tên hãng/mẫu xe.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'phong-chay-xe-may-nguyen-nhan-va-dau-hieu',
+  title: 'Phòng cháy xe máy: nguyên nhân thường gặp, dấu hiệu cảnh báo và việc nên làm khi thấy khói',
+  seoTitle: 'Phòng cháy xe máy: nguyên nhân, dấu hiệu và việc làm khi có khói',
+  metaDescription: 'Phòng cháy xe máy bắt đầu từ hiểu nguyên nhân: chập điện, rò xăng, phụ kiện đấu sai, nơi để xe. Nhận biết dấu hiệu cảnh báo và biết cần làm gì khi xe bốc khói.',
+  summary: 'Bài tổng hợp những nguyên nhân thường gặp gây cháy xe máy ở mức nguyên lý, gồm chập điện và quá tải, rò xăng gặp nguồn nhiệt, giắc cắm và ắc quy lỏng, phụ kiện đấu sai, nơi để xe và việc sạc thiếu an toàn. Nội dung chỉ ra dấu hiệu cảnh báo qua mùi khét, nhiệt bất thường, cầu chì nổ liên tục, rồi gợi ý thói quen phòng ngừa hằng ngày và cách bố trí chỗ để xe, sạc, cất xăng. Phần cuối nêu việc cần làm khi thấy khói hoặc lửa: dừng xe, rời xa, gọi trợ giúp, không dùng nước dập lửa xăng.',
+  quickAnswer: 'Cháy xe máy thường bắt nguồn từ chập điện hoặc quá tải, rò xăng gặp nguồn nhiệt, phụ kiện đấu sai, cùng việc để hay sạc xe ở nơi kín, nhiều đồ dễ cháy. Cảnh báo sớm gồm mùi khét hoặc mùi xăng, dây và giắc nóng bất thường, cầu chì nổ liên tục. Thấy khói thì bóp phanh, dừng xe an toàn, tắt máy, rời xa xe rồi gọi số khẩn cấp; không dội nước vào lửa xăng.',
+  keyPoints: [
+    'Đám cháy cần nhiệt hoặc tia lửa, chất dễ cháy và thời gian; xe máy gom sẵn xăng, nhựa, dây điện và nguồn nhiệt trong một khoảng không rất nhỏ nên một lỗi nhỏ bị bỏ qua cũng có thể thành chuyện lớn.',
+    'Nguyên nhân thường gặp ở mức nguyên lý gồm chập điện hoặc quá tải, giắc cắm và cực ắc quy lỏng, rò xăng gần chỗ nóng, phụ kiện đấu chui và vật dễ cháy bám quanh ống xả.',
+    'Dấu hiệu cảnh báo cần coi trọng là mùi khét, mùi xăng nồng, dây hoặc giắc nóng bất thường kèm vết xém, đèn chập chờn và cầu chì nổ lặp lại sau mỗi lần thay.',
+    'Thói quen phòng ngừa gồm liếc nhìn xe trước khi đi, giao việc đấu phụ kiện cho thợ có chuyên môn, không thay cầu chì bằng loại lớn hơn, để xe thoáng và không chắn lối thoát, sạc đúng bộ sạc, không cất xăng trong nhà.',
+    'Thấy khói hoặc lửa: bóp phanh, dừng an toàn, tắt máy, rời xa theo hướng không có xăng chảy, gọi số khẩn cấp theo quy định hiện hành; tuyệt đối không dội nước vào lửa xăng và không quay lại lấy đồ.'
+  ],
+  category: 'tips',
+  hub: 'meo-xu-ly-su-co',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['chập điện', 'rò rỉ xăng', 'cầu chì', 'ắc quy', 'phụ kiện đấu thêm', 'ống xả'],
+  keywords: ['phòng cháy xe máy', 'nguyên nhân cháy xe máy', 'xe máy bốc khói phải làm gì', 'dấu hiệu xe máy sắp cháy'],
+  sections: [
+    P('Cháy xe máy thường bắt đầu từ đâu', [
+      'Muốn có đám cháy cần ba thứ gặp nhau: nguồn nhiệt hoặc tia lửa, chất dễ cháy và đủ thời gian để lửa lớn dần. Chiếc xe máy gom sẵn cả ba trong một khoảng không rất nhỏ. Xăng nằm trong bình và đường dẫn, nhựa ốp, mút yên, cao su và vỏ dây điện đều cháy được, còn nguồn nhiệt đến từ động cơ, ống xả nóng và dòng điện của ắc quy. Vì thế nguyên nhân cháy xe máy hiếm khi là một sự cố đơn lẻ; thường là một chuỗi, trong đó lỗi nhỏ bị bỏ qua lâu ngày rồi gặp đúng lúc xe đang nóng, đang sạc hoặc đang nằm trong chỗ kín. Bài này chỉ bàn ở mức nguyên lý để bạn biết nhìn vào đâu, không thay cho việc thợ kiểm tra thực tế từng chiếc xe.',
+      'Nhóm nguyên nhân quen thuộc nhất là chập điện và quá tải. Dây điện trên xe chịu rung liên tục, vỏ nhựa lão hóa theo năm tháng, đoạn đi sát khung hoặc kẹp ở bản lề yên dễ bị mài thủng lớp bọc. Lõi đồng trần mà chạm nhau hoặc chạm vào khung sẽ làm dòng điện tăng vọt, dây nóng lên, vỏ bọc chảy mềm rồi có thể bắt lửa. Cầu chì sinh ra để ngắt mạch trước khi dây nóng tới mức ấy, nên thay cầu chì bằng loại lớn hơn hoặc nối tắt bằng một sợi dây là tự gỡ bỏ lớp bảo vệ. Giắc cắm lỏng hay oxy hóa cũng sinh nhiệt ngay tại chỗ tiếp xúc dù mạch không hề chập, và ắc quy có cực lỏng, vỏ phồng hoặc ẩm ướt cũng thuộc nhóm đáng nghi.',
+      'Nhóm thứ hai là xăng gặp nhiệt. Xăng bay hơi rất dễ, hơi xăng nặng hơn không khí nên có xu hướng tụ ở chỗ thấp và kín, chỉ cần một tia lửa nhỏ hay một bề mặt đủ nóng là có thể bốc cháy. Ống dẫn xăng lão hóa, gioăng chai cứng, nắp bình đóng không kín hoặc chỗ nối bị lỏng sau một lần ngã đều có thể làm xăng rỉ ra gần nơi nóng. Xăng không nhất thiết phải chảy thành vũng mới nguy hiểm, vì lớp ẩm mỏng bám bụi quanh khoang máy vẫn giữ mùi và làm bẩn thêm. Dầu nhớt rò, bụi nhờn và lá khô bám quanh ống xả cũng trở thành nhiên liệu cho lửa. Còn một nguồn nữa là phụ kiện đấu thêm, sẽ được nói kỹ ở các phần sau vì đó là chỗ người dùng can thiệp nhiều nhất.'
+    ]),
+    P('Dấu hiệu cảnh báo bằng mùi, nhiệt và điện', [
+      'Mũi là cảm biến sớm nhất mà bạn có. Mùi khét kiểu nhựa hoặc cao su cháy, nhất là lúc xe vừa dừng đèn đỏ hay vừa tắt máy, cho thấy có chi tiết đang nóng quá mức; đó có thể là dây điện, giắc cắm hoặc một vật lạ chạm vào ống xả. Mùi xăng nồng quanh xe thì khác hẳn: nó nói rằng nhiên liệu đang thoát ra ngoài đường dẫn và hơi xăng đang tích lại. Không nên gán cả hai mùi này cho những lý do vô hại như xe mới đi nắng hay vừa rửa. Có thể mùi khét chỉ do bụi bám ống xả cháy bay hơi, nhưng bạn không phân biệt được bằng mũi, nên hãy xem đó là cảnh báo cho tới khi thợ chứng minh điều ngược lại. Mùi càng nồng và càng kéo dài thì càng cần dừng xe sớm.',
+      'Nhiệt bất thường là dấu hiệu thứ hai. Giắc cắm, cọc ắc quy hay đoạn dây gần công tắc thường chỉ ấm nhẹ khi xe hoạt động, còn nóng đến mức khó chạm tay, vỏ dây mềm nhão, đổi màu hoặc có vết xém đen quanh đầu nối thì phải nghi chỗ tiếp xúc kém hay dây quá tải. Hãy quan sát bằng mắt trước, nếu cần thì chỉ chạm thoáng bằng mu bàn tay chứ đừng nắm giữ, và không đụng vào ống xả hay động cơ vừa chạy xong. Ốp nhựa gần ống xả bị cong vênh, chảy hoặc ngả màu cho thấy nhiệt đã lan ra ngoài vùng thiết kế. Yên xe nóng lên bất thường từ phía bên dưới cũng đáng chú ý. Việc mở ốp để nhìn sâu hơn thuộc về thợ; phần của bạn là ghi lại điều quan sát được.',
+      'Hệ điện thường lên tiếng trước khi có chuyện lớn. Cầu chì nổ đi nổ lại sau mỗi lần thay là dấu hiệu rõ rằng đâu đó có chập hoặc tải quá mức; thay thêm loại to hơn không giải quyết được gì, chỉ che triệu chứng và bắt dây phải gánh thêm. Đèn chớp chập chờn, còi yếu, đèn báo rẽ nháy lạ, tiếng đề yếu đi dù ắc quy còn tốt, hoặc xe tự mất điện rồi có lại khi qua đoạn đường xóc đều gợi ý đường dây có chỗ lỏng hoặc hở. Phụ kiện vừa lắp xong mà xe bắt đầu có những biểu hiện này là thứ đáng nghi trước tiên. Gặp các dấu hiệu trên, hãy ngưng dùng xe và nhờ thợ điện xe kiểm tra; thấy khói hay lửa dù nhỏ thì chuyển ngay sang phần xử lý ở cuối bài.'
+    ]),
+    P('Thói quen phòng ngừa hằng ngày', [
+      'Phòng ngừa bắt đầu từ vài giây nhìn xe trước khi lên. Hãy liếc xuống khu vực dưới bình xăng và quanh ống dẫn xem có vệt ướt, giọt nhỏ trên nền hay mùi xăng không, nhìn quanh ống xả xem có lá khô, giấy, túi nilon hoặc vải kẹt vào không, và để ý dây điện thò ra khỏi ốp hay vỏ bọc bị xước, nứt. Việc này chỉ cần đôi mắt, không cần dụng cụ. Thói quen ấy đáng giá vì phần lớn sự cố cháy có tiền triệu nhìn thấy được trong nhiều ngày trước đó. Sau chuyến đi, đợi động cơ nguội bớt rồi hãy phủ bạt hay đưa xe vào chỗ cất, không phủ vải lên ống xả còn nóng, và đừng để áo mưa, túi đồ hay vật dễ cháy sát ống xả.',
+      'Phần còn lại là bảo dưỡng đều đặn và giao việc đúng chỗ. Mỗi lần đưa xe đi bảo dưỡng, hãy nhờ thợ nhìn thêm hệ điện, giắc cắm, cọc ắc quy, đường dẫn xăng và gioăng nắp bình, đồng thời nói rõ bạn lo về nguy cơ cháy. Khoang máy bám nhiều dầu mỡ và bụi nên được làm sạch vì lớp bẩn ấy giữ nhiệt và có thể bén lửa, nhưng đừng tự xịt nước mạnh vào hệ điện vì nước lọt vào giắc cắm dễ gây chập; hãy để thợ làm theo cách phù hợp. Xe từng bị ngã, va chạm hoặc ngập nước cần được soát kỹ đường dây và đường xăng dù bên ngoài trông vẫn bình thường. Chu kỳ kiểm tra cụ thể tùy xe và điều kiện sử dụng, hãy đối chiếu sách hướng dẫn của nhà sản xuất.',
+      'Phụ kiện là chỗ người dùng dễ vô tình tạo nguy cơ nhất. Đèn phụ, còi to, camera hành trình, bộ báo động hay cổng sạc điện thoại đều cần nguồn điện, và nếu được đấu chui bằng cách bóc dây gốc, nối bằng băng keo hoặc dùng dây quá nhỏ cho thiết bị tiêu thụ nhiều điện, mối nối ấy sẽ nóng dần theo thời gian. Phụ kiện lắp đúng cách thường có đường dây phù hợp với tải, đầu nối chắc chắn, cầu chì bảo vệ riêng và được cố định gọn, tránh cạnh sắc cùng nguồn nhiệt. Việc này nên giao thợ có chuyên môn, và chỉ chọn thiết bị phù hợp với hệ điện của xe. Phụ kiện đã lắp từ trước mà bạn không rõ được đấu thế nào thì cho thợ xem lại. Giá cao hay thấp không bảo đảm gì; điều quyết định là cách đấu và độ hợp với xe.'
+    ]),
+    P('Nơi để xe và việc sạc, xăng trong nhà', [
+      'Chỗ để xe quyết định lửa nhỏ sẽ dừng lại hay lan rộng. Xe nên đặt ở nơi thoáng, tránh xa bếp, bình gas và nguồn lửa trần, đồng thời không chắn lối thoát hiểm như cửa chính, cầu thang hay hành lang. Để xe ngay dưới cầu thang hoặc sát phòng ngủ khiến khói và lửa chặn đường thoát đúng lúc cả nhà đang ngủ say, nên nếu buộc phải cất trong nhà thì hãy chừa khoảng cách và lối đi rộng. Nơi có nhiều xe đỗ sát nhau, như hầm xe hoặc dãy giữ xe, dễ khiến một đám cháy lan sang xe bên cạnh rất nhanh, vì vậy khoảng cách giữa các xe, thông gió và lối thoát đều cần được quan tâm. Hãy tìm hiểu thêm quy định phòng cháy của nơi bạn ở và nơi bạn gửi xe.',
+      'Việc sạc là tình huống có điện, có nhiệt và thường không có ai để mắt tới. Với xe máy điện, hãy dùng bộ sạc đúng loại do nhà sản xuất xe quy định, cắm vào ổ cắm chắc chắn, không nối qua ổ cắm đã nóng, đã lỏng hoặc dây nối dài kém chất lượng, và không sạc ở chỗ chất đầy đồ dễ cháy như giấy, quần áo, nệm ghế. Pin nóng lạ, phồng, nứt vỏ, có mùi hắc hoặc phát tiếng kêu bất thường thì dừng sạc nếu có thể làm một cách an toàn, tránh xa xe và nhờ đơn vị có chuyên môn kiểm tra, không tiếp tục dùng. Với xe xăng, cổng sạc điện thoại gắn thêm hay ắc quy sạc rời cũng cần cùng tinh thần: đúng bộ sạc, chỗ thoáng, có người ở gần. Chi tiết sạc an toàn tùy từng xe, hãy theo sách hướng dẫn.',
+      'Xăng là thứ không nên xuất hiện trong nhà. Hơi xăng bay lan, tụ ở chỗ thấp và có thể bốc cháy bởi tia lửa nhỏ từ công tắc, ổ cắm, tủ lạnh hoặc bật lửa. Vì thế không nên để can chứa xăng trong nhà, không rút xăng ở chỗ kín, và không sửa xe hay rửa chi tiết bằng xăng ở nơi có lửa, có người hút thuốc hoặc thiết bị điện đang chạy. Cần lấy xăng ra khỏi xe để sửa chữa thì giao thợ làm ở nơi phù hợp. Ngửi thấy mùi xăng trong nhà, hãy mở cửa cho thoáng, tránh bật hay tắt công tắc điện, tránh mọi thứ có thể tạo tia lửa, và đưa xe ra chỗ thoáng nếu có thể làm an toàn. Trong nhà nên có chuông báo khói, bình chữa cháy phù hợp đặt ở chỗ dễ lấy, và mọi người đều biết đường thoát.'
+    ]),
+    P('Khi thấy khói hoặc lửa: việc nên làm và không nên làm', [
+      'Đang chạy mà thấy khói hay ngửi mùi khét nồng, việc đầu tiên là bình tĩnh giảm ga, bóp phanh và đưa xe vào lề đường an toàn, xa người và xa vật dễ cháy, tránh phanh gấp giữa dòng xe. Dừng xong, tắt máy bằng công tắc tắt máy hoặc xoay khóa điện về vị trí tắt, không xoay sang vị trí khóa cổ, rồi xuống xe ngay. Không cần đứng lại kiểm tra nguyên nhân. Lúc này mục tiêu duy nhất là đưa người ra khỏi vùng nguy hiểm: cầm theo điện thoại nếu đang có sẵn trong tay, còn mũ, túi và giấy tờ cứ để lại. Một số phụ kiện đấu trực tiếp từ ắc quy có thể vẫn còn điện dù khóa đã tắt, nên đừng nghĩ rằng tắt khóa là hết nguy cơ.',
+      'Xuống xe rồi, hãy đi ra xa theo hướng không có xăng chảy, ưu tiên phía ngược gió và xa bình xăng, kéo theo người đi cùng, đồng thời nhắc người xung quanh, nhất là trẻ em, tránh ra. Khói từ nhựa, cao su và dây điện cháy chứa nhiều chất độc, vì vậy đừng cúi sát hít khói. Hãy gọi ngay số điện thoại khẩn cấp phù hợp theo quy định hiện hành tại nơi bạn đang ở, nói rõ vị trí, xe đang bốc khói hay đã cháy, có xăng rò không, có ai bị thương không, có nhà hoặc xe khác ở gần không. Xe đang ở trong nhà hoặc hầm xe thì ưu tiên báo mọi người thoát ra, đóng cửa lại phía sau nếu kịp, và đừng quay vào vì bất kỳ tài sản nào.',
+      'Có những việc cần tránh dù rất muốn cứu chiếc xe. Không dội nước vào đám cháy xăng: xăng nhẹ hơn nước nên nổi lên và có thể bị đẩy loang ra, khiến lửa lan rộng hơn. Không mở yên hay cốp để nhìn vào khi đã thấy khói, vì luồng không khí mới có thể làm lửa bùng mạnh. Không đề lại máy, không thử xem xe còn chạy được không, và không cố dắt chiếc xe đang cháy sang chỗ khác. Chỉ người đã được hướng dẫn dùng bình chữa cháy phù hợp mới nên cân nhắc việc ấy, và chỉ khi lửa còn rất nhỏ, đường thoát phía sau thông thoáng; chưa chắc thì cứ đứng xa chờ lực lượng chuyên trách. Sau khi lửa tắt, xe cần được kiểm tra kỹ và chở đi bằng phương tiện phù hợp, đừng tự đề rồi chạy tiếp.'
+    ])
+  ],
+  checklist: [
+    'Liếc nhìn dưới bình xăng, quanh ống dẫn và ống xả trước khi đi: có vệt ướt, mùi xăng, lá khô hay vật lạ kẹt vào không.',
+    'Để ý mùi khét, mùi xăng nồng, giắc hoặc dây nóng bất thường, đèn chập chờn và cầu chì nổ lặp lại; ghi lại rồi đưa thợ xem.',
+    'Hỏi lại thợ về mọi phụ kiện đã đấu thêm: dây có phù hợp, đầu nối có chắc, có cầu chì bảo vệ riêng hay không.',
+    'Để xe nơi thoáng, xa bếp và nguồn lửa, không chắn lối thoát hiểm; không cất can xăng trong nhà.',
+    'Sạc bằng đúng bộ sạc, ở chỗ thoáng, không chất đồ dễ cháy quanh; cả nhà biết đường thoát và có báo khói, bình chữa cháy phù hợp.'
+  ],
+  steps: [
+    { title: 'Giảm ga, dừng xe an toàn', detail: 'Thấy khói hoặc mùi khét nồng, bình tĩnh giảm ga, bóp phanh và đưa xe vào lề đường an toàn, xa người và vật dễ cháy.' },
+    { title: 'Tắt máy và xuống xe', detail: 'Dùng công tắc tắt máy hoặc xoay khóa điện về vị trí tắt, không xoay sang vị trí khóa cổ, rồi rời xe ngay mà không kiểm tra nguyên nhân.' },
+    { title: 'Rời xa và gọi trợ giúp', detail: 'Đi ra xa theo hướng không có xăng chảy, ưu tiên ngược gió, nhắc người xung quanh tránh ra và gọi số khẩn cấp theo quy định hiện hành, nói rõ vị trí và tình trạng.' },
+    { title: 'Chờ lực lượng chuyên trách', detail: 'Không dội nước vào lửa xăng, không mở yên hay cốp, không quay lại lấy đồ; sau khi lửa tắt, chỉ chở xe đi kiểm tra bằng phương tiện phù hợp.' }
+  ],
+  warnings: [
+    'Không dội nước vào đám cháy xăng, không đề lại máy, không mở yên hay cốp khi đã thấy khói và không quay lại lấy đồ; ưu tiên rời xa và gọi số khẩn cấp theo quy định hiện hành.',
+    'Không thay cầu chì bằng loại lớn hơn, không nối tắt bằng dây và không tự đấu chui phụ kiện; cầu chì nổ lặp lại là lý do ngưng dùng xe và đưa thợ kiểm tra.',
+    'Không cất xăng, không sửa xe hoặc rửa chi tiết bằng xăng trong nhà; ngửi thấy mùi xăng nồng thì mở thoáng, tránh tạo tia lửa và tránh xa chờ xử lý.'
+  ],
+  notes: [
+    'Bài chỉ nêu nguyên lý và dấu hiệu quan sát được; cách xe cụ thể hoạt động, vị trí cầu chì và giắc cắm, cách xử lý khi pin có vấn đề đều tùy từng xe và cần đối chiếu sách hướng dẫn hoặc hỏi thợ có chuyên môn.',
+    'Số điện thoại khẩn cấp và quy định phòng cháy chữa cháy có thể thay đổi theo thời điểm và địa phương; hãy cập nhật thông tin từ cơ quan có thẩm quyền nơi bạn sinh sống.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần hệ thống điện, cầu chì, nhiên liệu và sạc',
+    'Hướng dẫn phòng cháy chữa cháy của cơ quan có thẩm quyền tại địa phương'
+  ],
+  related: ['xe-may-co-mui-khet-nguyen-nhan-va-cach-xu-ly', 'den-canh-bao-tren-xe-may-hieu-va-xu-ly', 'xe-may-nong-may-nguyen-nhan-va-cach-xu-ly', 'sac-xe-dien', 'xe-may-bi-ro-xang-xu-ly-an-toan']
+};
