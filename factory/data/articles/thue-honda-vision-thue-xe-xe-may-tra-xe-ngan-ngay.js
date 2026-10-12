@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-tra-xe-ngan-ngay',
-  title: 'Thuê honda vision: những điều cần nhớ khi hoàn trả khi dùng ngắn ngày',
+  title: 'Thuê Honda Vision: những điều cần nhớ khi hoàn trả khi dùng ngắn ngày',
   seoTitle: 'Trả Honda Vision thuê ngắn ngày: lưu ý giờ giấc',
   metaDescription: 'Lưu ý khi hoàn trả Honda Vision sau một đến ba ngày: tính giờ trả từ cuối lịch trình, đổ xăng đúng lúc, kiểm tra nhanh, trả sớm hoặc muộn và chốt xác nhận gọn.',
   summary: 'Bài dành cho người thuê một chiếc xe tay ga phổ biến như Honda Vision trong một đến ba ngày: cách tính giờ trả xe từ lịch trình cuối cùng, chuẩn bị nhiên liệu và đồ đạc đúng lúc, kiểm tra nhanh tại điểm trả, và xử lý trả sớm, trả muộn hoặc ngoài giờ.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-tra-xe-nguoi-moi',
-  title: 'Thuê honda vision: những điều cần nhớ khi hoàn trả cho người mới',
+  title: 'Thuê Honda Vision: những điều cần nhớ khi hoàn trả cho người mới',
   seoTitle: 'Trả Honda Vision thuê lần đầu: những điều cần nhớ',
   metaDescription: 'Hướng dẫn cho người thuê lần đầu khi hoàn trả Honda Vision: chuẩn bị trước giờ hẹn, bàn giao cùng bên cho thuê, kiểm tra nhiên liệu, phụ kiện và giữ lại chứng từ.',
   summary: 'Bài dành cho người lần đầu thuê một chiếc xe tay ga phổ biến như Honda Vision, giải thích từng bước hoàn trả: chuẩn bị trước giờ hẹn, cùng kiểm tra xe với bên cho thuê, đối chiếu phụ kiện và giấy tờ, rồi hoàn tất các khoản đã thỏa thuận.',

@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-kinh-nghiem-do-thi',
-  title: 'Thuê honda vision: kinh nghiệm sử dụng thực tế trong điều kiện đô thị',
+  title: 'Thuê Honda Vision: kinh nghiệm sử dụng thực tế trong điều kiện đô thị',
   seoTitle: 'Thuê Honda Vision đi trong phố: kinh nghiệm thực tế',
   metaDescription: 'Kinh nghiệm dùng Honda Vision thuê trong thành phố: xử lý giao thông đông, ngõ nhỏ, chỗ đỗ, phòng trộm, đi mưa nắng và các thói quen giúp xe an toàn mỗi ngày.',
   summary: 'Bài tổng hợp kinh nghiệm đi lại trong đô thị bằng một chiếc xe tay ga phổ biến như Honda Vision đã thuê: cách xử lý dòng xe đông, ngõ nhỏ và vỉa hè, chọn chỗ đỗ, phòng mất cắp, ứng phó nắng mưa và giữ xe gọn gàng cho đến ngày trả.',

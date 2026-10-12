@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-tra-xe-duong-dai',
-  title: 'Thuê honda vision: những điều cần nhớ khi hoàn trả khi đi đường dài',
+  title: 'Thuê Honda Vision: những điều cần nhớ khi hoàn trả khi đi đường dài',
   seoTitle: 'Trả Honda Vision sau chuyến đi xa: điều cần nhớ',
   metaDescription: 'Những điều cần nhớ khi trả Honda Vision sau chuyến đi đường dài: tính dư thời gian về, kiểm tra xe sau hành trình, xử lý bùn bụi, nhiên liệu và trả khác điểm nhận.',
   summary: 'Bài dành cho người vừa đi xa bằng một chiếc xe tay ga phổ biến như Honda Vision và chuẩn bị hoàn trả: lên lịch về có dư thời gian, rà soát xe sau hành trình, khai báo trung thực những sự cố đã gặp, và xử lý nhiên liệu cùng việc trả ở điểm khác điểm nhận.',

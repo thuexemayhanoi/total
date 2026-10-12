@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-kinh-nghiem-dai-ngay',
-  title: 'Thuê honda vision: kinh nghiệm sử dụng thực tế khi dùng dài ngày',
+  title: 'Thuê Honda Vision: kinh nghiệm sử dụng thực tế khi dùng dài ngày',
   seoTitle: 'Thuê Honda Vision dài ngày: kinh nghiệm dùng thực tế',
   metaDescription: 'Kinh nghiệm dùng Honda Vision thuê dài ngày: nhịp kiểm tra hằng tuần, bảo dưỡng giữa kỳ, cách giữ xe và những điều nên thỏa thuận bằng văn bản với bên cho thuê.',
   summary: 'Bài chia sẻ cách dùng một chiếc xe tay ga phổ biến như Honda Vision khi thuê theo tuần hoặc theo tháng: theo dõi tình trạng xe đều đặn, thống nhất ai lo bảo dưỡng giữa kỳ, giữ xe đúng cách mỗi ngày và chuẩn bị hồ sơ gọn gàng trước khi trả.',

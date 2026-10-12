@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-honda-vision-thue-xe-xe-may-tra-xe-dai-ngay',
-  title: 'Thuê honda vision: những điều cần nhớ khi hoàn trả khi dùng dài ngày',
+  title: 'Thuê Honda Vision: những điều cần nhớ khi hoàn trả khi dùng dài ngày',
   seoTitle: 'Trả Honda Vision thuê dài ngày: những điều cần nhớ',
   metaDescription: 'Cách hoàn trả Honda Vision sau thời gian thuê dài: tổng kết tình trạng xe, phân biệt hao mòn và hư hỏng, đối chiếu hồ sơ bảo dưỡng, quyết toán rõ ràng từng khoản.',
   summary: 'Bài hướng dẫn hoàn trả một chiếc xe tay ga phổ biến như Honda Vision sau nhiều tuần hoặc nhiều tháng sử dụng: tổng hợp hồ sơ theo dõi, phân biệt hao mòn tự nhiên và hư hỏng, kiểm tra cuối kỳ cùng bên cho thuê và quyết toán minh bạch từng khoản đã thỏa thuận.',
