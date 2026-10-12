@@ -9043,11 +9043,13 @@
    "title": "Thuê xe máy hà nội: thủ tục và giấy tờ khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1624
   },
   {
    "id": "S00609",
@@ -9056,11 +9058,13 @@
    "title": "Thuê xe máy hà nội: thủ tục và giấy tờ khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1486
   },
   {
    "id": "S00610",
@@ -9069,11 +9073,13 @@
    "title": "Thuê xe máy hà nội: thủ tục và giấy tờ trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1486
   },
   {
    "id": "S00611",
@@ -9082,11 +9088,13 @@
    "title": "Thuê xe máy hà nội: thủ tục và giấy tờ theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-thu-tuc-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1441
   },
   {
    "id": "S00612",
@@ -9095,11 +9103,13 @@
    "title": "Thuê xe máy hà nội: chi phí và cách tính cho người mới",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1455
   },
   {
    "id": "S00613",
@@ -9108,11 +9118,13 @@
    "title": "Thuê xe máy hà nội: chi phí và cách tính khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1423
   },
   {
    "id": "S00614",
@@ -9121,11 +9133,13 @@
    "title": "Thuê xe máy hà nội: chi phí và cách tính khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1460
   },
   {
    "id": "S00615",
@@ -9134,11 +9148,13 @@
    "title": "Thuê xe máy hà nội: chi phí và cách tính khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1446
   },
   {
    "id": "S00616",
@@ -9147,11 +9163,13 @@
    "title": "Thuê xe máy hà nội: chi phí và cách tính trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1475
   },
   {
    "id": "S00617",
@@ -9160,11 +9178,13 @@
    "title": "Thuê xe máy hà nội: chi phí và cách tính theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-chi-phi-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.721Z",
-   "updatedAt": "2026-10-07T11:49:02.721Z"
+   "updatedAt": "2026-10-12T08:17:48.058Z",
+   "seoScore": 100,
+   "words": 1456
   },
   {
    "id": "S00618",
