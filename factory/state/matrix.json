@@ -9493,11 +9493,13 @@
    "title": "Thuê xe máy hà nội: checklist từng bước khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-checklist-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.723Z",
-   "updatedAt": "2026-10-07T11:49:02.723Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 100,
+   "words": 1918
   },
   {
    "id": "S00639",
@@ -9506,11 +9508,13 @@
    "title": "Thuê xe máy hà nội: checklist từng bước khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-checklist-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.723Z",
-   "updatedAt": "2026-10-07T11:49:02.723Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 91,
+   "words": 1769
   },
   {
    "id": "S00640",
@@ -9519,11 +9523,13 @@
    "title": "Thuê xe máy hà nội: checklist từng bước trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-checklist-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.723Z",
-   "updatedAt": "2026-10-07T11:49:02.723Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 100,
+   "words": 1748
   },
   {
    "id": "S00641",
@@ -9532,11 +9538,13 @@
    "title": "Thuê xe máy hà nội: checklist từng bước theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-checklist-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.723Z",
-   "updatedAt": "2026-10-07T11:49:02.723Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 100,
+   "words": 1738
   },
   {
    "id": "S00642",
@@ -9545,11 +9553,13 @@
    "title": "Thuê xe máy hà nội: câu hỏi thường gặp cho người mới",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-faq-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.723Z",
-   "updatedAt": "2026-10-07T11:49:02.723Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 91,
+   "words": 1698
   },
   {
    "id": "S00643",
@@ -9558,11 +9568,13 @@
    "title": "Thuê xe máy hà nội: câu hỏi thường gặp khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-faq-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.723Z",
-   "updatedAt": "2026-10-07T11:49:02.723Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 100,
+   "words": 1690
   },
   {
    "id": "S00644",
@@ -9571,11 +9583,13 @@
    "title": "Thuê xe máy hà nội: câu hỏi thường gặp khi dùng dài ngày",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-faq-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.724Z",
-   "updatedAt": "2026-10-07T11:49:02.724Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 91,
+   "words": 1697
   },
   {
    "id": "S00645",
@@ -9584,11 +9598,13 @@
    "title": "Thuê xe máy hà nội: câu hỏi thường gặp khi đi đường dài",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-faq-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.724Z",
-   "updatedAt": "2026-10-07T11:49:02.724Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 83,
+   "words": 1733
   },
   {
    "id": "S00646",
@@ -9597,11 +9613,13 @@
    "title": "Thuê xe máy hà nội: câu hỏi thường gặp trong điều kiện đô thị",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-faq-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.724Z",
-   "updatedAt": "2026-10-07T11:49:02.724Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 91,
+   "words": 1668
   },
   {
    "id": "S00647",
@@ -9610,11 +9628,13 @@
    "title": "Thuê xe máy hà nội: câu hỏi thường gặp theo tình huống thực tế",
    "primaryIntent": "informational/thue-xe-may-ha-noi-thue-xe-xe-may-faq-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.724Z",
-   "updatedAt": "2026-10-07T11:49:02.724Z"
+   "updatedAt": "2026-10-12T08:18:35.986Z",
+   "seoScore": 91,
+   "words": 1805
   },
   {
    "id": "S00648",
