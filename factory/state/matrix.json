@@ -17928,11 +17928,13 @@
    "title": "Bơm nước xe máy làm mát bằng dung dịch là gì: bơm làm gì, lỗ thoát nước báo hiệu gì và dấu hiệu bơm yếu",
    "primaryIntent": "informational/bom-nuoc-xe-may-lam-mat-bang-dung-dich-la-gi",
    "notes": "source=topic-v2 topicId=T001313",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:35:49.654Z",
-   "updatedAt": "2026-10-12T19:35:49.654Z"
+   "updatedAt": "2026-10-12T19:43:33.150Z",
+   "seoScore": 100,
+   "words": 2901
   },
   {
    "id": "S01240",
@@ -17941,11 +17943,13 @@
    "title": "Tiếng pô xe máy to lên hoặc đổi giọng: bầu giảm thanh, mối nối và những nguyên nhân thường gặp",
    "primaryIntent": "troubleshooting/bau-giam-thanh-xe-may-keu-to-hoac-doi-tieng-nguyen-nhan",
    "notes": "source=topic-v2 topicId=T001314",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:35:49.677Z",
-   "updatedAt": "2026-10-12T19:35:49.677Z"
+   "updatedAt": "2026-10-12T19:43:33.150Z",
+   "seoScore": 100,
+   "words": 2930
   },
   {
    "id": "S01241",
@@ -17954,11 +17958,13 @@
    "title": "Bộ xúc tác (bầu lọc khí thải) trên xe máy là gì: làm việc ra sao, vì sao bị tắc và vì sao không nên tự tháo",
    "primaryIntent": "informational/bo-xuc-tac-bau-loc-khi-thai-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001315",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:35:49.698Z",
-   "updatedAt": "2026-10-12T19:35:49.698Z"
+   "updatedAt": "2026-10-12T19:43:33.150Z",
+   "seoScore": 100,
+   "words": 3072
   },
   {
    "id": "S01242",
@@ -17967,11 +17973,13 @@
    "title": "Đèn pha halogen và LED trên xe máy khác nhau thế nào: ánh sáng, nhiệt, điện và điều cần kiểm tra khi thay bóng",
    "primaryIntent": "informational/den-pha-halogen-va-led-tren-xe-may-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001316",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:35:49.716Z",
-   "updatedAt": "2026-10-12T19:35:49.716Z"
+   "updatedAt": "2026-10-12T19:43:33.150Z",
+   "seoScore": 100,
+   "words": 2923
   },
   {
    "id": "S01243",
@@ -17980,11 +17988,13 @@
    "title": "Kiểm tra mức nhớt xe máy đúng cách: tư thế xe, máy nóng hay nguội, que thăm hay cửa sổ mức và cách đọc màu nhớt",
    "primaryIntent": "informational/kiem-tra-muc-nhot-xe-may-dung-cach",
    "notes": "source=topic-v2 topicId=T001318",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:38:05.471Z",
-   "updatedAt": "2026-10-12T19:38:05.472Z"
+   "updatedAt": "2026-10-12T19:43:33.150Z",
+   "seoScore": 100,
+   "words": 3007
   },
   {
    "id": "S01244",
@@ -17993,11 +18003,13 @@
    "title": "Đèn pha xe máy chiếu lệch, chiếu quá cao hoặc quá thấp: cách nhận biết và khi nào nên nhờ thợ chỉnh chùm sáng",
    "primaryIntent": "troubleshooting/den-pha-xe-may-chieu-lech-chieu-cao-hoac-chieu-thap",
    "notes": "source=topic-v2 topicId=T001319",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:38:05.496Z",
-   "updatedAt": "2026-10-12T19:38:05.496Z"
+   "updatedAt": "2026-10-12T19:43:33.150Z",
+   "seoScore": 100,
+   "words": 3114
   },
   {
    "id": "S01245",
@@ -18006,11 +18018,13 @@
    "title": "Độ rơ tay ga xe máy là gì: vì sao phải có một chút rơ, quá ít hay quá nhiều gây hại gì và cách kiểm tra",
    "primaryIntent": "informational/do-ro-tay-ga-xe-may-la-gi-va-cach-kiem-tra",
    "notes": "source=topic-v2 topicId=T001320",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:38:05.513Z",
-   "updatedAt": "2026-10-12T19:38:05.513Z"
+   "updatedAt": "2026-10-12T19:43:33.150Z",
+   "seoScore": 91,
+   "words": 2937
   },
   {
    "id": "S01246",

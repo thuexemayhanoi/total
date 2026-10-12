@@ -1624,6 +1624,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/bau-giam-thanh-xe-may-keu-to-hoac-doi-tieng-nguyen-nhan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/gia-xe/bien-dong-gia-xe/index.html",
   "kind": "article"
  },
@@ -1660,7 +1664,15 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/bo-xuc-tac-bau-loc-khi-thai-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/bom-nhot-xe-may-la-gi-va-dau-hieu-bom-yeu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/bom-nuoc-xe-may-lam-mat-bang-dung-dich-la-gi/index.html",
   "kind": "article"
  },
  {
@@ -1956,6 +1968,14 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/den-pha-halogen-va-led-tren-xe-may-khac-nhau-the-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/den-pha-xe-may-chieu-lech-chieu-cao-hoac-chieu-thap/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dien-ac-quy/den-pha-xe-may-dong-hoi-nuoc-ben-trong/index.html",
   "kind": "article"
  },
@@ -2029,6 +2049,10 @@
  },
  {
   "rel": "tips/meo-xu-ly-su-co/do-nham-nhien-lieu-xe-may-xang-pha-nhot-dau-diesel/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-bao-duong/do-ro-tay-ga-xe-may-la-gi-va-cach-kiem-tra/index.html",
   "kind": "article"
  },
  {
@@ -2445,6 +2469,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/kiem-soat-xe-may-o-toc-do-cham/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-bao-duong/kiem-tra-muc-nhot-xe-may-dung-cach/index.html",
   "kind": "article"
  },
  {
