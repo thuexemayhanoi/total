@@ -58,8 +58,8 @@ Chỉ khi dữ liệu thật cho thấy một nhóm chủ đề có nhu cầu v�
 ## Thứ tự thực hiện đề xuất
 
 1. (Làm xong) governance + lát cắt 11 topic → kiểm chứng toàn bộ vòng đời trên production.
-2. Cấp quyền GSC → xuất CSV đầu tiên → `topic-import` → xác định cụm bài trùng thật sự cạnh tranh (M2).
-3. Thực hiện M3 theo lô nhỏ và M4 (sửa tiêu đề ở generator) sau khi chủ repo xem diff.
+2. Xuất từ Search Console (Hiệu suất → Kết quả tìm kiếm → 3 tháng) bảng **Truy vấn** sang CSV (cột query/clicks/impressions) → `topic-import --file … --period a..b`; xuất thêm bảng **Trang** để đối chiếu từng URL trong cụm trùng ý định — công cụ gom theo URL sẽ làm khi có dữ liệu thật. Sau đó xác định cụm bài *thật sự* cạnh tranh (M2). Lưu ý: cụm intent là tín hiệu thô — 28/46 cụm (203 bài) nằm trọn trong `thue-xe/xe-may` (26 cụm có đúng 6 biến thể đối tượng/hoàn cảnh); các cụm lớn nhất dùng khóa thô nên có thể gom cả bài khác chủ đề.
+3. (**M4 đã làm 2026-10-12**: 89 tiêu đề công khai.) M3 chỉ làm nếu muốn: 13/46 ca có phần thiếu nhỏ, còn lại bài đích đã trả lời; theo lô ≤ 5 bài.
 4. Chỉ khi vượt ~5.000 bài: M5 (sitemap index, phân trang hub, chỉ mục tìm kiếm phân mảnh, build tăng dần, nén dòng topic-matrix).
 5. Đánh giá lại trần năng lực và `plannedTarget` (M8) theo dữ liệu nhu cầu.
 
