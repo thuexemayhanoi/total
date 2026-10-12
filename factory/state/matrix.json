@@ -17755,6 +17755,58 @@
    "updatedAt": "2026-10-12T19:23:50.837Z",
    "seoScore": 100,
    "words": 2914
+  },
+  {
+   "id": "S01228",
+   "hub": "wiki/dong-co",
+   "slug": "can-dap-no-xe-may-la-gi-va-cach-dap-dung",
+   "title": "Cần đạp nổ (đề chân) trên xe máy là gì: khi nào dùng, cách đạp đúng và vì sao đạp mãi không nổ",
+   "primaryIntent": "informational/can-dap-no-xe-may-la-gi-va-cach-dap-dung",
+   "notes": "source=topic-v2 topicId=T001300",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:26:05.561Z",
+   "updatedAt": "2026-10-12T19:26:05.561Z"
+  },
+  {
+   "id": "S01229",
+   "hub": "garage/loi-thuong-gap",
+   "slug": "can-dap-no-xe-may-bi-cung-truot-hoac-khong-hoi",
+   "title": "Cần đạp nổ xe máy bị cứng, trượt hoặc không hồi về: vì sao xảy ra và dấu hiệu cần đưa xe đi kiểm tra",
+   "primaryIntent": "troubleshooting/can-dap-no-xe-may-bi-cung-truot-hoac-khong-hoi",
+   "notes": "source=topic-v2 topicId=T001301",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:26:05.585Z",
+   "updatedAt": "2026-10-12T19:26:05.585Z"
+  },
+  {
+   "id": "S01230",
+   "hub": "garage/phanh",
+   "slug": "ong-dan-dau-phanh-xe-may-ran-phong-hoac-ro",
+   "title": "Ống dẫn dầu phanh xe máy rạn, phồng hoặc rò: dấu hiệu quan sát được, vì sao nguy hiểm và việc nên làm",
+   "primaryIntent": "troubleshooting/ong-dan-dau-phanh-xe-may-ran-phong-hoac-ro",
+   "notes": "source=topic-v2 topicId=T001302",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:26:05.601Z",
+   "updatedAt": "2026-10-12T19:26:05.601Z"
+  },
+  {
+   "id": "S01231",
+   "hub": "garage/loi-thuong-gap",
+   "slug": "can-so-xe-may-bi-long-ro-cong-hoac-ket",
+   "title": "Cần số xe máy bị lỏng, rơ, cong hoặc kẹt: các lỗi bên ngoài hộp số và dấu hiệu lỗi nằm bên trong",
+   "primaryIntent": "troubleshooting/can-so-xe-may-bi-long-ro-cong-hoac-ket",
+   "notes": "source=topic-v2 topicId=T001303",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-12T19:26:05.620Z",
+   "updatedAt": "2026-10-12T19:26:05.620Z"
   }
  ]
 }
