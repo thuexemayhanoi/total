@@ -1552,6 +1552,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/ac-quy-xe-may-bi-sunfat-hoa/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dien-ac-quy/ac-quy-xe-may-phong-ri-nuoc-mui-la/index.html",
   "kind": "article"
  },
@@ -2416,11 +2420,19 @@
   "kind": "article"
  },
  {
+  "rel": "garage/lop/lop-xe-may-de-lau-khong-chay-bi-bep/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/lop/lop-xe-may-mon-lech-mot-ben/index.html",
   "kind": "article"
  },
  {
   "rel": "garage/lop/lop-xe-may-nut-chan-gai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/lop/lop-xe-may-phong-u-hong/index.html",
   "kind": "article"
  },
  {
@@ -2437,6 +2449,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/ly-hop-ly-tam-xe-ga-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/truyen-dong/ly-hop-xe-so-bi-truot/index.html",
   "kind": "article"
  },
  {
@@ -2729,6 +2745,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/tam-nhin-khi-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/truyen-dong/tay-con-xe-may-nang-hoac-ro-day-con/index.html",
   "kind": "article"
  },
  {
@@ -3676,6 +3696,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/truyen-dong/tieng-keu-tu-hop-so-xe-so/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-tiet-kiem-xang/tiet-kiem-xang/index.html",
   "kind": "article"
  },
@@ -3757,6 +3781,10 @@
  },
  {
   "rel": "market/mua-ban-xe-cu/viet-tin-dang-ban-xe-may-cu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phun-xang-che-hoa-khi/vit-chinh-ga-cam-chung-xe-may-la-gi/index.html",
   "kind": "article"
  },
  {
@@ -3868,6 +3896,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/loi-thuong-gap/xe-may-no-lop-bop-o-ong-xa/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/tinh-thanh/xe-may-nong-thon/index.html",
   "kind": "article"
  },
@@ -3928,11 +3960,19 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/xich-cam-xe-may-keu-va-tang-xich-cam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/xu-ly-su-co/xich-xe-may-dut-hoac-tuot-khi-dang-chay/index.html",
   "kind": "article"
  },
  {
   "rel": "learn/kien-thuc-phap-ly/xu-phat-vi-pham/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-trong-thanh-pho/xuat-phat-tren-doc-xe-so-va-xe-ga/index.html",
   "kind": "article"
  },
  {
