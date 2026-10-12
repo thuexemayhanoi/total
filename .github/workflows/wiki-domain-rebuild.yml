@@ -66,22 +66,36 @@ jobs:
           test "$before" = "$after" || { echo NON_IDEMPOTENT_BUILD; exit 1; }
           node factory/generate.js --check
 
-      - name: Full local QA and internal link integrity
+      # Site rebuild verifies rendered output, links, and SEO head. Writer lifecycle
+      # regression belongs to Factory Engine Quality and is deliberately not
+      # rerun here: fixture ownership/backlog assumptions may fail on a live
+      # matrix growing during a long-running external Writer session.
+      - name: Site QA: generated HTML, SEO head, links and invariants
         run: |
           set -euo pipefail
           node factory/test.js
           node factory/test-shared-site.js
           node factory/test-features.js
           node factory/link-integrity.js --all
-          node factory/test-hardening.js
-          node factory/test-reliability.js
-          node factory/test-pair.js
-          node factory/test-cycle.js
-          node factory/test-coordinator.js
-          node factory/test-topic-factory.js
-          node factory/test-writer-pack.js
           node factory/factory.js verify-invariant
           node factory/generate.js --check
+          node - <<'NODE'
+          const fs = require('fs');
+          const token = 'V7GztRa9fpvjtJRAfsu4tQXPrV3VzlMdDJuSsILbkx0';
+          const expected = '<meta name="google-site-verification" content="' + token + '">';
+          const matrix = JSON.parse(fs.readFileSync('factory/state/matrix.json', 'utf8'));
+          const first = matrix.slots.find(x => x.state === 'PUBLISHED');
+          const pages = ['index.html', first.hub + '/' + first.slug + '/index.html'];
+          for (const path of pages) {
+            const html = fs.readFileSync(path, 'utf8');
+            if (!html.includes(expected) ||
+                html.split('name="google-site-verification"').length !== 2 ||
+                html.indexOf(expected) > html.indexOf('</head>')) {
+              throw Error('GOOGLE_VERIFICATION_META_MISSING_OR_DUPLICATE: ' + path);
+            }
+          }
+          console.log('GOOGLE_VERIFICATION_META_OK pages=' + pages.join(','));
+          NODE
 
       - name: Commit only generated static outputs
         run: |
@@ -98,5 +112,31 @@ jobs:
           git config user.name 'total-factory-bot'
           git config user.email 'nguyentuantu2482@users.noreply.github.com'
           git commit -m 'site: regenerate root URLs and assets for wiki custom domain [automated]'
-          git push origin HEAD:main
-          echo 'WIKI_REBUILD_PUBLISHED'
+          # Writers may push source files while the renderer works. Never rebase
+          # stale generated HTML over their new article/state; refresh and
+          # regenerate against the new HEAD instead.
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo 'WIKI_REBUILD_PUBLISHED'
+              exit 0
+            fi
+            echo "REBUILD_RETRY_FROM_FRESH_MAIN attempt=$i"
+            git fetch origin main
+            git reset --hard origin/main
+            node factory/generate.js
+            node factory/generate.js --check
+            node factory/test-shared-site.js
+            node factory/test-features.js
+            git add -A
+            if git diff --cached --name-only | grep -E '^(CNAME$|factory/data/articles/|factory/state/(matrix\\.json|factory-state\\.json|checkpoint\\.json|writer-heartbeat\\.json)|\\.github/)' ; then
+              echo 'REBUILD_REFUSE: attempted non-generated source/state changes on retry'
+              exit 1
+            fi
+            if git diff --cached --quiet; then
+              echo 'REBUILD_UP_TO_DATE'
+              exit 0
+            fi
+            git commit -m 'site: refresh generated wiki pages against newest main [automated]'
+          done
+          echo 'WIKI_REBUILD_PUSH_CONFLICT'
+          exit 1
