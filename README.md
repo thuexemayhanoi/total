@@ -5,7 +5,7 @@ Cẩm nang xe, thuê xe và hành trình cho người Việt.
 Cổng kiến thức tổng hợp tiếng Việt về thuê xe, xe máy, xe điện, xe ô tô, sửa chữa, phụ tùng, giá xe, thị trường, đánh giá, pháp lý, hành trình, địa phương, bản đồ và kiến thức kỹ thuật. Đây là nền móng của một hệ thống có thể mở rộng theo capacity cấu hình trong `factory/state/matrix.json` (canonical source-of-truth — không phải giới hạn trọn đời của AI WIKI TOTAL): mở rộng bất cứ lúc nào bằng `node factory/factory.js expand-capacity <NEW_CAPACITY>` (migration an toàn, không đổi ID/URL/state hiện có).
 
 ## Trang web
-- Địa chỉ: https://thuexemayhanoi.github.io/total/
+- Địa chỉ: https://wiki.thuexemaynguyentu.com/
 
 ## Kiến trúc
 - **15 danh mục cha**, trong đó cụm **Thuê xe** (xe máy, xe điện, xe ô tô) là cụm thương mại quan trọng.
@@ -18,10 +18,16 @@ Cổng kiến thức tổng hợp tiếng Việt về thuê xe, xe máy, xe đi�
 | `factory/` | Bộ sinh trang tĩnh, QA, content factory và test |
 | `factory/data/` | Dữ liệu danh mục, hub và bài viết (nguồn sự thật duy nhất) |
 | `factory/state/` | Ma trận chủ đề, trạng thái factory, checkpoint |
-| `total/` | Trang HTML đã sinh (phục vụ dưới `/total/`) |
+| Thư mục root | HTML sinh tự động cho tên miền riêng (phục vụ dưới `/`) |
 | `assets/` | CSS, JS, chỉ mục tìm kiếm và chatbot |
 | `docs/` | 16 tài liệu vận hành bằng tiếng Việt |
 | `AGENTS.md` | Quy tắc cho mọi agent trước khi sửa repo |
+
+## Quy định bài viết và QA
+- Bài Writer: **1.000–5.000 từ**, không bắt buộc tất cả bài đạt một độ dài cố định.
+- **QA ≥ 70/100**, giữ nguyên 7 critical gates, ít nhất 4 H2 và 2 liên kết nội bộ thực sự tồn tại; SEO nhẹ chỉ cảnh báo.
+- Single source of truth: `factory/lib/factory-runtime.js` (`ARTICLE_MIN_WORDS`, `ARTICLE_MAX_WORDS`).
+- Hướng dẫn Writer: `docs/MISTRAL-WRITER.md`; kiểm tra QA: `docs/QA.md`; quy tắc: `AGENTS.md`.
 
 ## Lệnh chính
 ```bash

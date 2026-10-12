@@ -23,7 +23,7 @@ Không còn chia queue 10 bài thành 5 pair trong hot path. `publish-pair` vẫ
 
 Mỗi bài vẫn giữ minimal gate hiện có:
 
-- cấu trúc + tối thiểu 1.600 từ;
+- cấu trúc + **1.000–5.000 từ** (đồng bộ Writer Pack và QA);
 - không trùng ID/slug;
 - canonical đúng slot;
 - render sạch;

@@ -1757,7 +1757,7 @@ function main() {
     const pack = {
       schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id),
       rules: {
-        minWords: 1600, maxWords: 3000, qaPassMin: runtime.QA_PASS_MIN,
+        minWords: runtime.ARTICLE_MIN_WORDS, maxWords: runtime.ARTICLE_MAX_WORDS, qaPassMin: runtime.QA_PASS_MIN,
         fileConvention: 'factory/data/articles/<slug>.js',
         relatedMin: 2, relatedPolicy: 'PUBLISHED-only from relatedPublished; do not invent slugs',
         noFakeFacts: true, verifyCommand: items.length ? ('node factory/factory.js verify-batch "' + items.map(x => x.id).join(',') + '"') : null
@@ -1774,7 +1774,7 @@ function main() {
     console.log('WRITER_PACK status=' + status + ' count=' + items.length +
       ' written_waiting=' + writtenWaiting + ' slots=' + m.slots.length + '/' + m.plannedTarget);
     if (items.length) console.log('BATCH_IDS=' + items.map(x => x.id).join(','));
-    console.log('RULES min_words=1600 max_words=3000 qa>=' + runtime.QA_PASS_MIN +
+    console.log('RULES min_words=' + runtime.ARTICLE_MIN_WORDS + ' max_words=' + runtime.ARTICLE_MAX_WORDS + ' qa>=' + runtime.QA_PASS_MIN +
       ' related>=2 related_policy=PUBLISHED_ONLY filename=<slug>.js');
     for (const item of items) {
       console.log('ITEM ' + item.id + ' hub=' + item.hub + ' slug=' + item.slug);

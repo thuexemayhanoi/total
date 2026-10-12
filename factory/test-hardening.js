@@ -225,7 +225,7 @@ console.log('4. parsePublishRequest…');
 }
 
 // ---------- Hạ tầng fixture publish ----------
-// Bài viết fixture đạt QA (>= 1600 từ, đủ seoTitle/meta/summary/quickAnswer/
+// Bài viết fixture đạt QA (1.000–5.000 từ, đủ seoTitle/meta/summary/quickAnswer/
 // keyPoints/sections/checklist/warnings/notes/references/related).
 function fixtureArticleObject(slug, title) {
   const p = (i) => `<p>Đoạn kiểm thử ${i}: quy trình thuê xe máy tại Hà Nội gồm chuẩn bị giấy tờ, kiểm tra tình trạng xe, ký hợp đồng, đặt cọc và nghiệm thu khi hoàn trả. Người thuê nên đối chiếu kỹ từng điều khoản, chụp lại hình ảnh hiện trạng xe trước khi nhận và giữ trọn bộ giấy tờ trong suốt thời gian sử dụng. Nắm lịch bảo dưỡng giúp nhận diện sớm tiếng động bất thường ở máy, mức mòn của lốp và độ nhạy của phanh trước khi vấn đề lớn dần.</p>`;
@@ -268,7 +268,7 @@ function fixtureArticleObject(slug, title) {
 {
   const { qaArticle } = require('./qa');
   const r = qaArticle(fixtureArticleObject('hardening-fixture-article', 'Quy trình thuê xe máy kiểm thử hardening của xưởng nội dung'));
-  ok(r.pass && r.score >= 70 && r.words >= 1600, 'Fixture article đạt QA >= 70 (không có check critical hỏng)',
+  ok(r.pass && r.score >= 70 && r.words >= 1000 && r.words <= 5000, 'Fixture article đạt QA >= 70 và 1.000–5.000 từ (không có critical hỏng)',
     `score=${r.score} words=${r.words} fails=${r.checks.filter(c => !c.pass).map(c => c.name).join(';')}`);
 }
 // Chuẩn bị repo tmp cho kịch bản publish: 12 slot thật + S10001/S10002 PASS,

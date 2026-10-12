@@ -12,7 +12,7 @@ Writer viết nhanh → scoped QA bài mới → PASS → coordinator publish.
 - Chạy: `node factory/factory.js qa <slot-id>`; audit toàn bộ (manual-only): `node factory/factory.js audit --min-score 70`.
 
 ## 7 CRITICAL GATE (rơi là FAIL)
-1. **not-empty** — bài rỗng/cụt nghiêm trọng: mất cấu trúc hoặc < 1.600 từ.
+1. **not-empty** — bài thiếu cấu trúc hoặc ngoài dải **1.000–5.000 từ** (đếm theo `factory/qa.js`).
 2. **dup-id** — duplicate article ID (trùng ID slot/manifest đã có).
 3. **dup-slug** — duplicate slug (trùng slug slot/manifest đã có).
 4. **canonical** — duplicate/sai canonical: slug bẩn hoặc lệch hub/slug với slot.

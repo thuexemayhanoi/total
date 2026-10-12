@@ -28,7 +28,51 @@ ok(pack.items.every(x=>x.file==='factory/data/articles/'+x.slug+'.js'),'file pat
 ok(pack.items.every(x=>Array.isArray(x.relatedPublished) && x.relatedPublished.length>=2),'mỗi item phải có >=2 related gợi ý');
 ok(pack.items.every(x=>x.relatedPublished.every(r=>published.has(r.slug))),'mọi related gợi ý phải là PUBLISHED');
 ok(pack.items.every(x=>x.intent && x.title && x.hub && x.slug),'item phải đủ intent/title/hub/slug');
-ok(pack.rules && pack.rules.minWords===1600 && pack.rules.relatedPolicy.includes('PUBLISHED-only'),'rules phải giữ minWords + PUBLISHED-only');
+ok(pack.rules && pack.rules.minWords===1000 && pack.rules.maxWords===5000 && pack.rules.qaPassMin===70 && pack.rules.relatedPolicy.includes('PUBLISHED-only'),'Writer Pack phải đồng bộ 1000–5000 từ, QA 70 + PUBLISHED-only');
+
+
+// Boundary regression: same canonical limits in Writer Pack and minimal QA.
+const { qaArticle } = require('./qa');
+const { ARTICLE_MIN_WORDS, ARTICLE_MAX_WORDS, QA_PASS_MIN } = require('./lib/factory-runtime');
+ok(ARTICLE_MIN_WORDS===pack.rules.minWords && ARTICLE_MAX_WORDS===pack.rules.maxWords &&
+   QA_PASS_MIN===pack.rules.qaPassMin,'Word-limit single source of truth + unchanged QA threshold');
+const fixture={
+  slug:'writer-word-range-fixture',
+  title:'Quy trình kiểm tra xe máy và chuẩn bị giấy tờ nhận xe',
+  seoTitle:'Hướng dẫn quy trình kiểm tra xe máy và nhận xe an toàn',
+  metaDescription:'Tổng hợp các bước chuẩn bị giấy tờ và kiểm tra xe máy trước khi sử dụng, giúp người đọc tự đối chiếu tình trạng xe và giấy tờ liên quan.',
+  summary:'Quy trình kiểm tra xe máy gồm chuẩn bị giấy tờ, quan sát ngoại hình và kiểm tra các bộ phận quan trọng trước khi bàn giao.',
+  quickAnswer:'Người sử dụng nên kiểm tra giấy tờ, phanh, đèn và tình trạng thực tế của xe trước khi ký biên bản nhận xe và giữ lại bằng chứng.',
+  keyPoints:['Kiểm tra hồ sơ','Quan sát tình trạng xe','Đối chiếu an toàn','Lưu biên bản'],
+  category:'thue-xe',hub:'xe-may',date:'2026-10-12',updated:'2026-10-12',
+  entities:['xe máy','kiểm tra xe'],keywords:['kiểm tra xe máy','nhận xe','an toàn'],
+  sections:['Giấy tờ','Phanh','Đèn','Bàn giao'].map(h2=>({
+    h2,html:'<p>'+('huongdan '.repeat(30))+'</p>'
+  })),
+  checklist:['Giấy tờ','Kiểm tra phanh','Lưu lại hình ảnh'],
+  steps:[{title:'Kiểm tra',detail:'Đối chiếu từng hạng mục'}],
+  warnings:['Dừng nếu mất an toàn','Không bỏ qua lỗi kỹ thuật'],
+  notes:['Chỉ dùng để tham khảo'],
+  references:['Hướng dẫn sử dụng xe','Tài liệu vận hành cơ bản'],
+  related:['kinh-nghiem-thue-xe-may-ha-noi','thu-honda-vision-ha-noi']
+};
+function atWordCount(n){
+  const a=JSON.parse(JSON.stringify(fixture));
+  const count=qaArticle(a).words;
+  if(count>n) throw Error('Word fixture baseline exceeds boundary: '+count);
+  a.sections[0].html+='<p>'+('huongdan '.repeat(n-count))+'</p>';
+  return qaArticle(a);
+}
+for(const [n,passExpected] of [
+  [ARTICLE_MIN_WORDS-1,false],[ARTICLE_MIN_WORDS,true],
+  [ARTICLE_MAX_WORDS,true],[ARTICLE_MAX_WORDS+1,false]
+]){
+  const verdict=atWordCount(n);
+  const lengthGate=verdict.checks.find(x=>x.name.startsWith('G1 '));
+  ok(verdict.words===n,'Exact word count at '+n);
+  ok(lengthGate && lengthGate.pass===passExpected,'G1 range boundary '+n);
+  ok(verdict.pass===passExpected,'Article publish verdict at '+n+' with QA 70 unchanged');
+}
 
 console.log('WRITER_PACK_TEST status='+pack.status+' count='+pack.count);
 console.log('KẾT QUẢ: '+pass+' pass, '+fail+' fail.');

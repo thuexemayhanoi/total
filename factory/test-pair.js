@@ -116,7 +116,7 @@ function lowQaArticle(slug, title) {
 }
 // Biến thể SEO <70 (QA VẪN PASS >= 70 — SEO giờ chỉ advisory): seoTitle/meta
 // ngắn, keywords < 3, summary/quickAnswer ngắn + lệch chủ đề — KHÔNG đụng
-// critical gate (đủ cấu trúc, đủ 1600 từ).
+// critical gate (đủ cấu trúc, trong dải 1.000–5.000 từ).
 function seoFailArticle(slug, title) {
   const a = fixtureArticleObject(slug, title);
   a.seoTitle = 'Ngắn.';

@@ -23,6 +23,12 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 | `test-cycle.js` | Regression production cycle (12–18 bài, scoped QA, refill, defer REPAIR, 1 build/deploy) |
 | `state/` | matrix.json, factory-state.json, checkpoint.json, manifest.json, article-manifest.jsonl (sqlite sinh tại chỗ, KHÔNG commit) |
 
+## Độ dài bài viết (chung cho Writer và QA)
+- **1.000–5.000 từ/bài**; chỉ nới độ dài, **không hạ QA 70/100** hoặc bỏ critical gate.
+- Mốc chính thức: `lib/factory-runtime.js` (`ARTICLE_MIN_WORDS`, `ARTICLE_MAX_WORDS`).
+- `writer-pack` cung cấp min/max cho AI; `qa.js` dùng đúng cùng mốc để quyết định PASS/REPAIR.
+- Vẫn ít nhất 4 H2, 2 related PUBLISHED, không trùng slug, sai canonical hoặc bịa dữ kiện.
+
 ## Vòng đời slot
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → REPAIR → QA → BLOCKED.
 Trong cycle: một bài FAIL → repair queue, KHÔNG giữ cycle (bài PASS vẫn publish).

@@ -1,7 +1,7 @@
 # Quy tắc viết bài
 
 ## Ngôn ngữ
-- Toàn bộ bài viết bằng **tiếng Việt**: 1.600–3.000 từ (simple 1.600–2.000, deep 2.000–3.000).
+- Toàn bộ bài viết bằng **tiếng Việt**, **1.000–5.000 từ/bài**. Bài đơn giản có thể ngắn, bài chuyên sâu có thể dài; tránh viết lan man hoặc nhồi từ khóa. Giới hạn chung nằm tại `factory/lib/factory-runtime.js`.
 - Không heading tiếng Anh, không câu tiếng Anh chen ngang, không dịch máy cứng.
 
 ## Cấu trúc bài (module JS trong `factory/data/articles/`)

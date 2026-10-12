@@ -30,6 +30,8 @@ Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/p
 
 **Content index (scale 10k–100k bài):** `factory/state/article-manifest.jsonl` + content files là SOURCE OF TRUTH (được commit); `factory/state/content-index.sqlite` là DERIVED CACHE (KHÔNG commit, đã .gitignore) — chỉ coordinator được ghi/rebuild (manifest-sync/index-rebuild/index-check); QA/query đọc SQLite thay vì rescan; missing/corrupt/stale → index-rebuild an toàn.
 
+**CHÍNH SÁCH ĐỘ DÀI BÀI:** 1.000–5.000 từ/bài, áp dụng thống nhất cho Writer Pack và QA bằng `ARTICLE_MIN_WORDS` / `ARTICLE_MAX_WORDS` tại `factory/lib/factory-runtime.js`. Giữ QA **70/100**, ≥4 H2, ≥2 related đã PUBLISHED, 7 critical gate và mọi yêu cầu an toàn khác; không nới các ràng buộc ngoài số từ. Không chỉnh tay 502 bài đã xuất bản chỉ để đổi chính sách.
+
 Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state/matrix/txn/sqlite khi pipeline đang chạy. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose).
 
 ## Writer lock — ownership-safe

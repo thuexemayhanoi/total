@@ -7,7 +7,7 @@
 //
 // 7 CRITICAL GATE (bất kỳ gate nào fail => FAIL bất kể điểm — critical
 // override điểm cao):
-//   1. not-empty  — bài rỗng/cụt nghiêm trọng (mất cấu trúc hoặc < 1600 từ).
+//   1. not-empty  — bài rỗng/cụt hoặc quá dài (mất cấu trúc hoặc ngoài 1.000–5.000 từ).
 //   2. dup-id     — duplicate article ID (trùng ID slot/manifest đã có).
 //   3. dup-slug   — duplicate slug (trùng slug slot/manifest đã có).
 //   4. canonical  — sai/duplicate canonical (slug bẩn, lệch hub/slug với slot).
@@ -64,11 +64,12 @@ function qaArticle(a, ctx) {
   });
 
   // ---------- 7 CRITICAL GATES ----------
-  // G1 not-empty: mất cấu trúc hoặc cụt nghiêm trọng (< 1600 từ).
+  // G1 not-empty: đủ cấu trúc và nằm trong dải 1.000–5.000 từ.
   const structureOk = !!(a && a.title && a.summary && a.quickAnswer &&
     Array.isArray(a.sections) && a.sections.length >= 4 &&
     a.sections.every(s => (s.h2 || '').trim() && ((s.html || '').trim().length >= 200)));
-  add('G1 Bài không rỗng/cụt (đủ cấu trúc + >= 1600 từ)', structureOk && words >= 1600,
+  add('G1 Độ dài & cấu trúc bài hợp lệ (' + runtime.ARTICLE_MIN_WORDS + '–' + runtime.ARTICLE_MAX_WORDS + ' từ)',
+    structureOk && words >= runtime.ARTICLE_MIN_WORDS && words <= runtime.ARTICLE_MAX_WORDS,
     `${words} từ, ${Array.isArray(a.sections) ? a.sections.length : 0} mục`, true);
 
   // G2 dup-id: ID slot đã được slug KHÁC đăng ký (knownIds đã lọc entry self).

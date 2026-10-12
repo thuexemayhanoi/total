@@ -30,7 +30,7 @@ node factory/factory.js writer-pack --count 10 --json
 
 - Chỉ tạo đúng file `factory/data/articles/<slug>.js`.
 - Không đổi ID, slug, hub, title hoặc intent của slot.
-- 1.600–3.000 từ.
+- **1.000–5.000 từ/bài** (phạm vi linh hoạt; viết đủ giá trị, không kéo dài để lấp số từ). Writer Pack và QA cùng lấy ngưỡng từ `factory/lib/factory-runtime.js`.
 - Ít nhất 4 section có nội dung thật.
 - Dùng ít nhất 2 internal link từ `RELATED_PUBLISHED`.
 - Không tự bịa slug liên kết.

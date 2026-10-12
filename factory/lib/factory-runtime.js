@@ -19,6 +19,8 @@ const FIRST_CHUNK_LIMIT = 5;    // chunk đầu khi xưởng chưa có bài PUBL
 const PAIR_SIZE = 2;             // SIMPLE PRODUCTION MODE: đúng 2 bài mỗi pair transaction
 const SEO_PASS_MIN = 70;        // ngưỡng SEO advisory (factory/seo.js chấm — KHÔNG chặn publish)
 const QA_PASS_MIN = 70;         // MINIMAL PRODUCTION QA GATE: 70-100 PASS, <70 FAIL/REPAIR
+const ARTICLE_MIN_WORDS = 1000;  // Canonical length policy, same for Writer Pack and QA.
+const ARTICLE_MAX_WORDS = 5000;  // Allow long-form AI articles without bypassing QA.
 // PRODUCTION CYCLE (legacy recovery path, KHÔNG còn hot path): scoped QA chỉ
 // bài mới của cycle (KHÔNG bao giờ quét lại toàn site trong production loop).
 // Mô hình 3 writer song song ĐÃ BỎ — thay bằng 3 VAI TRÒ (xem
@@ -406,7 +408,7 @@ function selectRefillTopics(pool, existingSlugs, plannedCount, targetArg) {
 
 module.exports = {
   TERMINAL_STATES, CLAIMABLE_STATES, PUBLISH_CHUNK_LIMIT, FIRST_CHUNK_LIMIT,
-  PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, CYCLE_MIN, CYCLE_MAX,
+  PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, ARTICLE_MIN_WORDS, ARTICLE_MAX_WORDS, CYCLE_MIN, CYCLE_MAX,
   QUEUE_REFILL_FLOOR, QUEUE_REFILL_TARGET,
   WRITER_STALL_MINUTES, DOCONG2_MAX_ATTEMPTS, WRITER_PHASES,
   selectWriterPair, heartbeatAgeMinutes, classifyProductionState, upsertError,
