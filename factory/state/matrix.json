@@ -17718,11 +17718,13 @@
    "title": "Trục khuỷu xe máy là gì: biến chuyển động lên xuống của piston thành chuyển động quay như thế nào",
    "primaryIntent": "informational/truc-khuyu-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001297",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:09:38.350Z",
-   "updatedAt": "2026-10-12T19:09:38.350Z"
+   "updatedAt": "2026-10-12T19:23:50.837Z",
+   "seoScore": 100,
+   "words": 2854
   },
   {
    "id": "S01226",
@@ -17731,11 +17733,13 @@
    "title": "Phớt xupap xe máy là gì: vì sao phớt chai làm nhớt lọt xuống buồng đốt, ra khói xanh khi nổ nguội",
    "primaryIntent": "informational/phot-xupap-xe-may-va-khoi-xanh-khi-no-nguoi",
    "notes": "source=topic-v2 topicId=T001298",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:09:38.367Z",
-   "updatedAt": "2026-10-12T19:09:38.367Z"
+   "updatedAt": "2026-10-12T19:23:50.837Z",
+   "seoScore": 100,
+   "words": 2930
   },
   {
    "id": "S01227",
@@ -17744,11 +17748,13 @@
    "title": "Càng sau xe máy là gì: vai trò, bạc càng mòn và dấu hiệu càng lệch hoặc rơ khi chạy",
    "primaryIntent": "informational/cang-sau-xe-may-la-gi-bac-cang-mon-va-lech",
    "notes": "source=topic-v2 topicId=T001299",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:10:35.134Z",
-   "updatedAt": "2026-10-12T19:10:35.134Z"
+   "updatedAt": "2026-10-12T19:23:50.837Z",
+   "seoScore": 100,
+   "words": 2914
   }
  ]
 }
