@@ -12,7 +12,7 @@
 | V2 làm gì khác? | Topic phải **đi qua gate** (trùng lặp, bằng chứng, nhu cầu) rồi **người duyệt đọc 5 bài gần nhất** mới thành slot. Writer chỉ nhận slot đã APPROVED. |
 | 40.000 bài? | Là **trần năng lực**, không phải chỉ tiêu. Số bài tăng chỉ khi có nhu cầu/thông tin độc lập thật (GSC, site-search, nguồn xác minh). |
 | Tắt V2 thế nào? | Sửa `factory/topic-governance.json` thành `{"mode":"off","v1Generation":"allowed"}` (hoặc xóa file). Không mất dữ liệu. |
-| Kiểm chứng? | `node factory/test-topic-v2.js` (288 assert, 4 tầng) + `node factory/factory.js topic-check --recheck`. |
+| Kiểm chứng? | `node factory/test-topic-v2.js` (327 assert, 4 tầng) + `node factory/factory.js topic-check --recheck`. |
 
 ## 1. Nguyên tắc (không thương lượng)
 
@@ -218,7 +218,7 @@ Lệnh ghi **từ chối khi `topic-matrix.jsonl` có dòng hỏng** (không ghi
 Kết luận: V2 vận hành tốt tới vài nghìn bài. Trước ~15–20k bài cần: chia shard `topic-matrix` (active/archive), cắt tỉa postings từ phổ biến hoặc truy vấn láng giềng từ SQLite/FTS,
 và chuyển sang build tăng dần. Chi tiết và phần hạ tầng sitemap/hosting nằm ở kế hoạch migration (cần duyệt).
 
-## 12. Kiểm thử — `factory/test-topic-v2.js` (288 assert)
+## 12. Kiểm thử — `factory/test-topic-v2.js` (327 assert)
 
 | Tầng | Nội dung |
 |---|---|
@@ -250,3 +250,28 @@ Các suite cũ (`test`, `test-hardening`, `test-reliability`, `test-pair`, `test
 4. Writer: `writer-pack` → viết đúng TOPIC_BRIEF (không số liệu ngoài `evidenceVerified`) → `verify-batch` → push.
 5. Sau 28 ngày: đối chiếu GSC (impressions/clicks theo URL) để giữ/cải thiện/gộp — xem kế hoạch migration.
 6. **Diễn tập trước khi push lô đầu cho danh mục/hub trống**: sao chép repo (bỏ `.git`) vào thư mục tạm, chạy `verify-batch` → `publish-batch` → `check-state` → `verify-invariant` → `topic-check --recheck` → `generate --check` → `node factory/test.js` → `audit --min-score 70`. Chỉ push khi tất cả xanh (đã làm cho lát cắt 1: lô 1 = 9 bài, lô 2 = cặp `review`).
+
+## 15. Nhật ký triển khai theo lát cắt (số đo thật, 2026-10-12)
+
+Từ khi V2 bật (`mode: enforce`), **50 bài V2** đã đi hết vòng đời qua đúng một cổng: `topic-propose` → rà láng giềng → `topic-approve` → writer → `verify-batch` → diễn tập → `publish-batch` (CI) → bot commit. Không bài nào được thêm bằng đường tắt (không `plan`, không sửa tay `matrix.json`).
+
+| Lát cắt | Slot | Số bài | Nội dung chính |
+|---|---|---|---|
+| 1 | S01083–S01093 | 11 | pilot đầu tiên; diễn tập `publish-batch` phát hiện lỗi `art-pn` của danh mục chỉ có 1 bài (mục 13.8, đã khắc phục) |
+| 2 | S01094–S01103 | 10 | lấp hub trống `garage/*`, `market/*`: họng ga phun xăng, khó nổ khi nóng, hóa đơn/nhật ký bảo dưỡng, chi phí sở hữu, phụ tùng, định giá xe cũ |
+| 3 | S01104–S01113 | 10 | chẩn đoán xe tay ga (rồ ga không lên tốc độ, quạt két nước, dây curoa), phanh (kêu rít, tay phanh mềm), lốp, kiểm tra xe cũ (số khung, từng ngập nước) |
+| 4–5 | S01114–S01123 | 10 | hệ làm mát, đánh lửa, sạc điện (lốc điện), CBS, kiểm soát xe tốc độ chậm, xe điện (pin báo đầy, đi mưa), chọn xe cho người cao tuổi, ắc quy phồng, xe kéo lệch |
+| 6 | S01124–S01132 | 9 | bán xe cũ (chuẩn bị, tin đăng), lái thử xe điện, chế hòa khí, hệ thống bôi trơn, mâm đúc/nan hoa, bạc đạn bánh, cổ lái, cảm biến xe phun xăng |
+
+Kết quả đo được sau lát cắt 6: `matrix.json` 1.132 slot, **832 PUBLISHED** (782 legacy + 50 V2), 0 topic APPROVED chờ viết. Mọi lát cắt: `verify-batch` OK, diễn tập trên bản sao (`publish-batch` → `check-state` → `verify-invariant` → `topic-check --recheck` → `generate --check` → `test.js` → `audit --min-score 70` → `test-features.js` → `link-integrity --all`) xanh, `factory-publish.yml` tạo bot commit thành công cho mọi lô.
+
+**Chất lượng đo được của 29 bài lát cắt 3–6** (đo bằng chính bộ QA của repo, không phải ước lượng): QA 100/100 và 7 critical gate đạt ở cả 29 bài; SEO advisory 100/100 ở cả 29 bài sau khi xuất bản (đo lại bằng `seoArticle` trên corpus đã PUBLISHED; chạy riêng lẻ trước khi publish thì bài có liên kết tới bài anh em cùng lô chỉ được 91 vì sibling chưa PUBLISHED); thân bài 1.900–2.170 từ (tổng gồm tiêu đề, tóm tắt, checklist ≈ 2.700–3.200); độ trùng 5-gram cao nhất với bài đã xuất bản: **không có** (công cụ `scan-draft`); không ký tự CJK/Cyrillic/Hangul; không số liệu, giá, tên hãng/mẫu xe; `related` đều trỏ tới bài đã PUBLISHED.
+
+**Điều đã học (ghi lại để lô sau không lặp):**
+1. *Cổng từ vựng là điều kiện cần, không đủ.* Ở nhiều ý tưởng ACCEPT, bài đã xuất bản vẫn trả lời cùng câu hỏi bằng từ khác (ví dụ ý tưởng về lốp xì hơi chậm đã nằm trọn trong bài áp suất lốp). Chỉ **đọc thân bài láng giềng + `text-grep` nhiều biến thể từ ngữ** mới lộ ra; những ý tưởng đó bị gộp (`topic-reject --merge-into`) hoặc bỏ, không viết bài mới. Các quyết định gộp được ghi trong commit `topic-approve` và trong `topic-matrix.jsonl` (`mergeInto`).
+2. *Luôn đặt `slug` ngắn tường minh trong tệp ứng viên.* 5 topic đợt B bị gate tự sinh slug theo tiêu đề dài; đã rút gọn bằng thay chuỗi trong `matrix.json`/`topic-matrix.jsonl` TRƯỚC khi có module/URL (topic-check, check-state, verify-invariant xanh). Từ đó tệp ứng viên nào cũng có `slug`.
+3. *Writer (agent) sẽ gỡ liên kết chéo giữa các bài anh em cùng lô nếu thấy tệp bị sửa từ bên ngoài.* Vì vậy liên kết chéo được gắn bởi coordinator trên bản sao trong repo, sau khi mọi writer của lô đã xong (`related` ≤ 5, bài sát chủ đề nhất đứng đầu, chỉ trỏ tới bài PUBLISHED hoặc bài cùng lô publish một lần).
+4. *Khẳng định kỹ thuật không kiểm chứng được phải bị loại hoặc nới bằng “thường/có thể/tùy xe”.* Ví dụ đã gỡ: quạt két nước chạy khi đã tắt khóa; đã thêm vào bài ắc quy: xả nước sạch liên tục khi axit bắn vào mắt (sơ cứu tối thiểu, không số liệu); đã thêm vào bài kiểm soát xe chậm: không giữ phanh sau lâu khi ga còn mở. Mỗi bài được coordinator đọc toàn văn, và mỗi lần chỉnh đều chạy lại `scan-draft`.
+5. *Diễn tập trước khi push vẫn bắt buộc:* với push chỉ chứa module bài, `publish-batch` và `factory-publish.yml` chỉ chạy `verify-batch` + `link-integrity` và không chạy `test.js`; bản sao tạm là nơi `test.js`, `test-features.js` và kiểm tra bất biến chạy trước khi bài lên `main`.
+
+**Giới hạn của cách làm hiện tại.** Nguồn topic độc lập là nút cổ chai: các ý tưởng tự nghĩ ra có tỷ lệ chấp nhận chỉ khoảng 40% sau khi đọc láng giềng (pilot: 39 ACCEPT, 50 MERGE-CANDIDATE, 11 NEEDS-RESEARCH trên 100 ý tưởng), và kho nội dung kiến thức chung đã khá dày (566 bài ngoài hub `thue-xe/xe-may`). Tăng tiếp phải đến từ (a) dữ liệu nhu cầu thật (GSC, mục 7), (b) dữ kiện đã xác minh cho chủ đề địa phương/giá/luật, hoặc (c) đợt “scout” có đối chiếu SERP (evidence `serp-review`, trạng thái `unverified`, chỉ chứng minh câu hỏi có thật, **không** chứng minh lượng tìm kiếm). Không có đường nào trong ba đường này được phép bịa số.

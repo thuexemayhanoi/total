@@ -16,7 +16,8 @@
 | M6 | Chuẩn hóa vòng dữ liệu GSC | Xuất CSV “Queries” hằng tháng → `topic-import`; lưu kết quả vào `demand` kèm kỳ báo cáo | thấp | — | có (cấp quyền truy cập GSC) |
 | M7 | Rà soát độ tươi của nội dung luật/giá/thông số đã xuất bản | Thêm `verifiedAt` + lịch xác minh lại; dùng `NEEDS-RESEARCH` cho cập nhật | thấp | — | có |
 | M8 | Trần năng lực (`capacity` 20.000, `plannedTarget` 16.000, 7 kho dự phòng 4.000) | Coi là **trần**, không phải chỉ tiêu; không `expand-capacity`; cân nhắc hạ `plannedTarget` bằng `set-planned-target` | thấp | `set-planned-target` | có |
-| M9 | Mở hàng đợi writer ngoài lát cắt 11 topic đầu | Duyệt từng nhóm ≤ 10 sau khi lát cắt đầu publish + QA + đo | thấp | `topic-governance.json` | có |
+| M9 | Mở hàng đợi writer ngoài lát cắt 11 topic đầu | **ĐÃ LÀM 2026-10-12 theo “Duyệt” của chủ repo (site mới, chưa có dữ liệu Search Console):** lát cắt 2–6 = 39 bài (S01094–S01132), mỗi lát ≤ 10 bài, mỗi bài qua rà láng giềng + đọc toàn văn + diễn tập; kết quả và bài học ở [TOPIC-FACTORY-V2.md](TOPIC-FACTORY-V2.md) mục 15. Hàng đợi hiện **không còn** topic APPROVED chờ viết; mở thêm chỉ theo cùng cách (≤ 10/lát) | thấp | `topic-governance.json` | đã duyệt cho các lát cắt trên |
+| M10 | **Đề xuất mới, CHƯA làm:** 559 bài legacy mang tiêu đề do template sinh (“Tổng hợp kiến thức: …”, “Hướng dẫn chi tiết về …”, “Kinh nghiệm … dành cho người mới”; số đo của audit, [TOPIC-AUDIT-2026-10-12.md](TOPIC-AUDIT-2026-10-12.md)) | Viết lại **tại chỗ**, giữ slug/URL, theo lô ≤ 5 bài: thân bài mới trả lời đúng một câu hỏi, qua cùng QA 70 + 7 gate. Ưu tiên bài thuộc cụm trùng intent hoặc hub đang mỏng; mỗi lô một commit. **Đổi tiêu đề bài đã xuất bản cần duyệt riêng** (có thể giữ tiêu đề cũ ở lô đầu để tách rủi ro) | trung bình (đổi nội dung/tiêu đề có thể làm dao động thứ hạng; chưa có GSC để đo trước–sau) | `git revert` từng lô | **có** |
 
 ## Quy mô 40.000 URL — những gì **chắc chắn** phải đổi (đo thật)
 
