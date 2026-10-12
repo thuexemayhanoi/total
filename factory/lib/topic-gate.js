@@ -21,6 +21,7 @@ const L = require('../data/topic-lexicon');
 const { slugifyVi } = require('./topic-factory');
 
 const GATE_RULES_VERSION = 1;
+const NEAREST_PUBLISHED_K = 5;
 const INTENTS = ['informational', 'commercial', 'transactional', 'navigational', 'troubleshooting'];
 const CONTENT_TYPES = ['guide', 'explainer', 'troubleshooting', 'comparison', 'checklist', 'reference', 'faq'];
 const PRIORITIES = ['P0', 'P1', 'P2'];
@@ -48,7 +49,7 @@ const DEFAULT_THRESHOLDS = {
   maxOutlineSelfSimilarity: 0.8,
 };
 
-const BOILERPLATE_GAIN = /thông tin hữu ích|những điều cần biết|hướng dẫn chi tiết|kiến thức cần thiết|cung cấp đầy đủ|giúp người đọc hiểu rõ/iu;
+const BOILERPLATE_GAIN = /thông tin hữu ích|những điều cần biết|hướng dẫn chi tiết|kiến thức cần thiết|cung cấp đầy đủ|giúp người đọc hiểu rõ/giu;
 
 // ---------------------------------------------------------------------------
 // Headline document: title + outline + keywords + câu hỏi/tóm tắt (cùng thang đo cho bài và topic)
@@ -90,6 +91,9 @@ class TopicCorpus {
     this.byCore = new Map();
     this.byHead = new Map();
     this.byHeadToken = new Map();
+    this.byFocusToken = new Map();
+    this.byLead = new Map(); // intentKey của CHỦ THỂ CHÍNH (trước dấu :) -> entries có đuôi mô tả
+    this.byLeadCore = new Map();
     this.index = new I.NearestIndex();
     this.idf = idf || new Map();
     this.defaultIdf = defaultIdf || 1;
@@ -136,6 +140,21 @@ class TopicCorpus {
         this.byHeadToken.get(t).push(entry);
       }
     }
+    entry.lead = I.analyzeLead(d.title);
+    if (entry.lead) {
+      if (!this.byLead.has(entry.lead.intentKey)) this.byLead.set(entry.lead.intentKey, []);
+      this.byLead.get(entry.lead.intentKey).push(entry);
+      const lcore = entry.lead.head.join('+') + '|' + entry.lead.topical.join('+');
+      if (!this.byLeadCore.has(lcore)) this.byLeadCore.set(lcore, []);
+      this.byLeadCore.get(lcore).push(entry);
+    }
+    // tập từ “trọng tâm” (title + H2 + keywords) — để đo độ phủ truy vấn mà không bị nhiễu bởi văn bản dài
+    const hd = d.headline || {};
+    entry.focus = new Set(I.contentTokens([d.title].concat(hd.outline || [], hd.keywords || []).join(' . ')));
+    for (const t of entry.focus) {
+      if (!this.byFocusToken.has(t)) this.byFocusToken.set(t, []);
+      this.byFocusToken.get(t).push(entry);
+    }
     this.index.add(entry, vec);
     return entry;
   }
@@ -160,6 +179,29 @@ class TopicCorpus {
   }
 
   vectorFor(headlineDoc) { return I.vectorize(headlineTf(headlineDoc), this.idf, this.defaultIdf); }
+
+  // Độ phủ của một truy vấn NGẮN bởi từng mục: tỷ lệ (trọng số idf) các từ của truy vấn có trong title/H2/keywords của mục.
+  // Từ chưa từng thấy trong corpus nhận idf cao nhất nên truy vấn có từ lạ không bao giờ được coi là đã phủ.
+  // Chiều “truy vấn nằm trong tài liệu” chỉ hợp với truy vấn ngắn; KHÔNG dùng để so hai bài dài (bão hòa ~1).
+  queryCoverage(text, k) {
+    const toks = [...new Set(I.contentTokens(text))];
+    if (!toks.length) return [];
+    let total = 0;
+    const acc = new Map();
+    const hit = new Map();
+    for (const t of toks) {
+      const w = this.idf.has(t) ? this.idf.get(t) : this.defaultIdf;
+      total += w;
+      for (const e of (this.byFocusToken.get(t) || [])) {
+        acc.set(e, (acc.get(e) || 0) + w);
+        hit.set(e, (hit.get(e) || 0) + 1);
+      }
+    }
+    const out = [];
+    for (const [e, sum] of acc) out.push({ meta: e, coverage: sum / total, matched: hit.get(e), tokens: toks.length });
+    out.sort((x, y) => y.coverage - x.coverage || y.matched - x.matched);
+    return out.slice(0, k || 3);
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -185,7 +227,9 @@ function shapeProblems(c, T, hubs) {
   const gain = String(c.informationGain || '').trim();
   if (gain.length < T.minGainChars) p.push(['info-gain-missing', 'informationGain phải nêu thông tin độc lập mà bài hiện có chưa cung cấp (>= ' + T.minGainChars + ' ký tự)']);
   else {
-    if (BOILERPLATE_GAIN.test(gain)) p.push(['info-gain-boilerplate', 'informationGain là câu sáo rỗng, chưa nêu thông tin cụ thể']);
+    // sáo rỗng = >=2 cụm khuôn mẫu, hoặc 1 cụm trong một câu ngắn (một cụm đơn lẻ trong câu cụ thể là bình thường)
+    const boiler = (gain.match(BOILERPLATE_GAIN) || []).length;
+    if (boiler >= 2 || (boiler === 1 && gain.length < 110)) p.push(['info-gain-boilerplate', 'informationGain là câu sáo rỗng, chưa nêu thông tin cụ thể']);
     const titleSet = new Set(I.contentTokens(title));
     const distinct = new Set(I.contentTokens(gain).filter(t => !titleSet.has(t)));
     if (distinct.size < T.minDistinctGainTokens) p.push(['info-gain-thin', 'informationGain chỉ lặp lại title, thiếu nội dung riêng']);
@@ -262,12 +306,20 @@ function evaluate(cand, corpus, opts) {
     const members = others(corpus.byIntent.get(a.intentKey));
     const published = members.filter(e => e.status === 'PUBLISHED');
     const queued = members.filter(e => e.status !== 'PUBLISHED');
+    // title ứng viên chỉ gồm CHỦ THỂ (không đuôi mô tả) trùng chủ thể chính của bài có đuôi: vẫn là hoán vị
+    const lead = others(corpus.byLead.get(a.intentKey)).filter(e => !members.includes(e));
+    const leadPub = lead.filter(e => e.status === 'PUBLISHED');
+    const leadQueued = lead.filter(e => e.status !== 'PUBLISHED');
     if (published.length) {
       const sameSig = published.find(e => e.analysis.sigKey === a.sigKey);
       if (sameSig) add('context-only-variant', 'REJECT', 'trùng intent + hình thức với bài đã xuất bản, chỉ khác bối cảnh/khung: ' + sameSig.slug, { target: sameSig.slug });
       else add('intent-cluster-published', 'MERGE-CANDIDATE', 'intent đã được ' + published.length + ' bài phục vụ (' + published[0].slug + '); nên bổ sung vào bài sẵn có', { target: published[0].slug });
+    } else if (leadPub.length) {
+      add('lead-subject-published', 'MERGE-CANDIDATE', 'trùng chủ thể chính của bài đã xuất bản (' + leadPub[0].slug + ', phần trước dấu “:”) — ứng viên không có phần riêng; nên bổ sung vào bài sẵn có', { target: leadPub[0].slug });
     } else if (queued.length >= T.maxPerIntentCluster) {
       add('intent-cluster-queued', 'REJECT', 'hoán vị của topic đã xếp hàng cùng intent: ' + queued[0].slug, { target: queued[0].slug });
+    } else if (leadQueued.length >= T.maxPerIntentCluster) {
+      add('lead-subject-queued', 'REJECT', 'hoán vị của chủ thể chính của topic đã xếp hàng: ' + leadQueued[0].slug, { target: leadQueued[0].slug });
     }
   }
 
@@ -275,7 +327,9 @@ function evaluate(cand, corpus, opts) {
   const local = cand.evidence && cand.evidence.type === 'local-source';
   if (a.locations.length) {
     const core = a.head.join('+') + '|' + a.topical.join('+');
-    const sibs = others(corpus.byCore.get(core)).filter(e => e.analysis.intentKey !== a.intentKey || e.analysis.locations.join() !== a.locations.join());
+    const sibsFull = others(corpus.byCore.get(core)).filter(e => e.analysis.intentKey !== a.intentKey || e.analysis.locations.join() !== a.locations.join());
+    const sibsLead = others(corpus.byLeadCore.get(core)).filter(e => e.lead.locations.join() !== a.locations.join() && !sibsFull.includes(e));
+    const sibs = sibsFull.concat(sibsLead);
     if (!local && !legacy) add('location-only-variant', sibs.length ? 'REJECT' : 'NEEDS-RESEARCH',
       sibs.length ? 'chỉ khác địa danh so với bài cùng chủ đề: ' + sibs[0].slug : 'topic địa phương cần nguồn địa phương đã xác minh',
       sibs.length ? { target: sibs[0].slug } : {});
@@ -286,6 +340,10 @@ function evaluate(cand, corpus, opts) {
   const vec = corpus.vectorFor(legacy ? { title: cand.title, outline: [], keywords: [], text: [] } : topicHeadlineDoc(cand));
   const top = corpus.index.query(vec, 5, meta => !isSelf(meta));
   for (const t of top.slice(0, 3)) nearest.push({ slug: t.meta.slug, id: t.meta.slotId || t.meta.topicId, status: t.meta.status, score: Number(t.score.toFixed(3)), signal: 'headline-cosine' });
+  // 5 bài ĐÃ XUẤT BẢN gần nhất (kể cả khi top chung bị topic xếp hàng chiếm chỗ) — người duyệt bắt buộc đọc (topic-approve).
+  // Đo trên pilot: bài đích thật của 20 ca trùng ý nằm trong top-3 ở 85%, top-5 ở 95%, top-8 ở 100%.
+  const nearestPublished = corpus.index.query(vec, NEAREST_PUBLISHED_K, meta => !isSelf(meta) && meta.status === 'PUBLISHED')
+    .map(t => ({ slug: t.meta.slug, id: t.meta.slotId || t.meta.topicId, status: 'PUBLISHED', score: Number(t.score.toFixed(3)), signal: 'headline-cosine' }));
   if (!legacy && top.length) {
     const best = top[0];
     const outSim = I.outlineSimilarity(cand.outline || [], best.meta.outline || []);
@@ -304,6 +362,13 @@ function evaluate(cand, corpus, opts) {
     const sameHead = corpus.similarHeads(a.head, 0.5).map(x => x.entry)
       .filter(e => !isSelf(e) && e.status === 'PUBLISHED' && e.analysis.intentKey !== a.intentKey &&
         e.analysis.locations.join() === a.locations.join());
+    // cùng CHỦ THỂ CHÍNH (trước dấu “:”) nhưng đuôi mô tả khác nhau: hai bài cùng chủ thể dễ tự cạnh tranh
+    const myLead = I.analyzeLead(cand.title);
+    if (myLead) {
+      for (const e of others(corpus.byLead.get(myLead.intentKey))) {
+        if (e.status === 'PUBLISHED' && !sameHead.includes(e) && e.analysis.intentKey !== a.intentKey) sameHead.push(e);
+      }
+    }
     if (sameHead.length && !reasons.some(r => r.code === 'semantic-overlap-mid' || r.verdict === 'MERGE-CANDIDATE' || r.verdict === 'REJECT')) {
       add('same-subject-published', 'WARN', 'cùng chủ thể với ' + sameHead.length + ' bài đã xuất bản (' + sameHead[0].slug + ') nhưng khác góc — informationGain phải chứng minh câu hỏi khác', { target: sameHead[0].slug });
     }
@@ -311,8 +376,10 @@ function evaluate(cand, corpus, opts) {
 
   // 5) sở hữu intent: intent thương mại thuộc cụm /thue-xe/
   const parent = String(cand.hub || '').split('/')[0];
-  if (!legacy && (cand.intent === 'commercial' || cand.intent === 'transactional') && parent !== 'thue-xe') {
-    add('intent-ownership', 'REWRITE', 'intent thuê/thương mại chỉ thuộc cụm /thue-xe/ (SEO-INTENT-OWNERSHIP)');
+  // (mua/so sánh/giá thuộc /market/, /review/, /guide/mua-xe — chỉ intent THUÊ XE bị giữ riêng cho /thue-xe/)
+  const rentalSubject = /(?<![\p{L}])thuê(?![\p{L}])|cho thuê/iu.test([cand.title, cand.primaryKeyword].join(' '));
+  if (!legacy && rentalSubject && (cand.intent === 'commercial' || cand.intent === 'transactional') && parent !== 'thue-xe') {
+    add('intent-ownership', 'REWRITE', 'intent thuê xe chỉ thuộc cụm /thue-xe/ (SEO-INTENT-OWNERSHIP)');
   }
 
   // 6) ghép góc topical từ template (hạt giống × góc nhìn) không phải vấn đề thật
@@ -340,11 +407,30 @@ function evaluate(cand, corpus, opts) {
   return {
     verdict, rulesVersion: GATE_RULES_VERSION,
     reasons: reasons.map(r => ({ code: r.code, verdict: r.verdict, msg: r.msg, target: r.target })),
-    nearest,
+    nearest, nearestPublished,
     analysis: { intentKey: a.intentKey, sigKey: a.sigKey, head: a.head, topical: a.topical, format: a.format, modifiers: a.modifiers, locations: a.locations, wrapper: a.wrapper },
     overlap: { risk: strong ? 'high' : (warn || nearest.length && nearest[0].score >= T.headlineMid ? 'medium' : 'low') },
     suggestedInternalLinks: nearest.filter(n => n.status === 'PUBLISHED' && n.score >= 0.08 && n.score < T.headlineMid).map(n => n.slug),
   };
+}
+
+// Thêm một lý do vào kết quả gate và tính lại verdict theo PRECEDENCE. Chỉ có thể làm verdict NGHIÊM NGẶT HƠN:
+// một lý do WARN không đổi verdict, một lý do nhẹ hơn verdict hiện có không nới được REJECT/MERGE-CANDIDATE.
+function addReason(res, reason) {
+  const reasons = res.reasons.concat([reason]);
+  let verdict = res.verdict;
+  if (reason.verdict !== 'WARN' && PRECEDENCE[reason.verdict] > PRECEDENCE[verdict]) verdict = reason.verdict;
+  const strong = reasons.some(r => r.verdict === 'REJECT' || r.verdict === 'MERGE-CANDIDATE');
+  return Object.assign({}, res, { verdict, reasons, overlap: { risk: strong ? 'high' : res.overlap.risk } });
+}
+
+// Rà soát biên tập: người duyệt đọc hàng xóm gần nhất và ghi nhận trùng ý mà gate từ vựng không bắt được
+// (cùng câu hỏi, khác cách diễn đạt) => MERGE-CANDIDATE, bổ sung vào bài đích thay vì tạo URL mới.
+function applyEditorialReview(res, ov) {
+  if (!ov || !ov.mergeInto) return res;
+  return addReason(res, {
+    code: 'editorial-overlap', verdict: 'MERGE-CANDIDATE', msg: String(ov.why || 'trùng ý với bài đã có (rà soát biên tập)'), target: ov.mergeInto,
+  });
 }
 
 // Chế độ legacy: chỉ có title -> suy trigger từ tiêu đề + chủ thể (pin/điện/sạc).
@@ -377,7 +463,7 @@ function auditLegacySlots(slots, corpus, opts) {
 function ensureSlug(title) { return slugifyVi(title); }
 
 module.exports = {
-  GATE_RULES_VERSION, INTENTS, CONTENT_TYPES, PRIORITIES, EVIDENCE_TYPES, EVIDENCE_STATUS, VERDICTS, PRECEDENCE,
+  GATE_RULES_VERSION, NEAREST_PUBLISHED_K, INTENTS, CONTENT_TYPES, PRIORITIES, EVIDENCE_TYPES, EVIDENCE_STATUS, VERDICTS, PRECEDENCE,
   DEFAULT_THRESHOLDS, TopicCorpus, articleHeadlineDoc, topicHeadlineDoc, headlineTf,
-  evaluate, auditLegacySlots, shapeProblems, riskTriggers, evidenceVerified, ensureSlug,
+  evaluate, addReason, applyEditorialReview, auditLegacySlots, shapeProblems, riskTriggers, evidenceVerified, ensureSlug,
 };

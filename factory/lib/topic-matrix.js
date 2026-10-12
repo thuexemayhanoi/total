@@ -111,6 +111,9 @@ function validateRow(r) {
     if (!r.slotId) e.push('topic ' + r.lifecycle + ' phải có slotId');
     if (!(r.editorial && r.editorial.approvedBy && r.editorial.approvedAt)) e.push('thiếu editorial.approvedBy/approvedAt');
     if (!(r.gate && r.gate.verdict === 'ACCEPT')) e.push('topic được duyệt phải có gate.verdict=ACCEPT');
+    if (/^v2-|^gsc-/.test(String(r.source)) && !(r.editorial && Array.isArray(r.editorial.neighboursReviewed))) {
+      e.push('topic V2 được duyệt phải có editorial.neighboursReviewed (xác nhận đã đọc bài đã xuất bản gần nhất)');
+    }
   }
   if (r.gate && r.gate.verdict && !['ACCEPT', 'REWRITE', 'MERGE-CANDIDATE', 'REJECT', 'NEEDS-RESEARCH', 'LEGACY'].includes(r.gate.verdict)) e.push('gate.verdict không hợp lệ');
   return e;

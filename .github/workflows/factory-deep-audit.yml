@@ -36,6 +36,13 @@ jobs:
           node factory/factory.js index-rebuild --role coordinator
           node factory/factory.js index-check
 
+      - name: Topic Factory V2 - invariant + danh gia lai topic da duyet + cache chu ky
+        run: |
+          set -euo pipefail
+          node factory/factory.js topic-check --recheck
+          node factory/factory.js topic-index-rebuild --role coordinator
+          node factory/factory.js topic-index-check
+
       - name: Audit toan bo bai PUBLISHED (QA minimal gate >= 70)
         run: |
           set -euo pipefail
@@ -49,6 +56,7 @@ jobs:
           node factory/test-reliability.js
           node factory/test-pair.js
           node factory/test-coordinator.js
+          node factory/test-topic-v2.js
 
       - name: Production invariant + sinh cay
         run: |

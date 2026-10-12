@@ -3,6 +3,10 @@ factory/state/content-index.sqlite
 factory/state/content-index.sqlite-journal
 factory/state/content-index.sqlite-wal
 factory/state/content-index.sqlite-shm
+factory/state/topic-index.sqlite
+factory/state/topic-index.sqlite-journal
+factory/state/topic-index.sqlite-wal
+factory/state/topic-index.sqlite-shm
 
 # ---- Runtime ephemeral (không bao giờ commit) ----
 factory/state/*.tmp

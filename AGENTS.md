@@ -34,6 +34,13 @@ Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/p
 
 Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state/matrix/txn/sqlite khi pipeline đang chạy. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose).
 
+## TOPIC FACTORY V2 — giá trị trước số lượng (docs/TOPIC-FACTORY-V2.md)
+- Topic mới chỉ vào hàng đợi qua `topic-propose` (gate chống trùng/bịa) và chỉ `topic-approve` (coordinator, kèm `--ack` từng cảnh báo + `--reviewed` 5 bài đã xuất bản gần nhất) mới tạo slot. KHÔNG tự `plan` slot, KHÔNG thêm slot vào `matrix.json` bằng tay, KHÔNG sinh topic hoán vị (hạt giống × góc × bối cảnh).
+- `factory/topic-governance.json` (`mode: enforce`, `v1Generation: frozen`): `writer-pack` / `verify-batch` / publish chỉ nhận slot có topic APPROVED; `queue-refill` bị đóng băng. Rollback = `{"mode":"off","v1Generation":"allowed"}` — **chỉ chủ repo quyết định**.
+- Writer viết đúng TOPIC_BRIEF/GAIN/OUTLINE/SCOPE của `writer-pack`. Topic `factualScope: no-figures` cấm số liệu/giá/thông số. Không bịa nhu cầu tìm kiếm: `demand` chỉ nhận số đo thật (GSC/site-search, `topic-import`); thiếu thì ưu tiên tối đa P1.
+- Quyết định MERGE-CANDIDATE chỉ là đề xuất bổ sung vào bài đã có: KHÔNG xóa bài, đổi URL, redirect, đổi tiêu đề bài đã xuất bản nếu chủ repo chưa duyệt (docs/TOPIC-V2-MIGRATION-PLAN.md).
+- Một coordinator duy nhất ghi `factory/state/topic-matrix.jsonl`; writer không tạo/nới duyệt. Dòng JSONL hỏng ⇒ lệnh ghi từ chối (khôi phục từ git).
+
 ## Writer lock — ownership-safe
 - Acquire dùng primitive exclusive thật (link/open 'wx') + token unique mỗi acquisition; xem `factory/lib/lock.js`.
 - Unlock chỉ xóa lock CỦA MÌNH: `node factory/factory.js unlock --owner <O> --token <T>`. Sai owner/token → REFUSE exit 1. `unlock --force` là lệnh recovery thủ công RIÊNG — workflow không bao giờ gọi.
@@ -61,6 +68,8 @@ node factory/test-reliability.js
 node factory/test-pair.js
 node factory/test-cycle.js
 node factory/test-coordinator.js
+node factory/test-topic-v2.js
+node factory/factory.js topic-check --recheck
 ```
 Tất cả lệnh kiểm thử phải xanh (bao gồm test-cycle.js là gate bắt buộc, không advisory); không sửa assert/threshold chỉ để tạo màu xanh.
 

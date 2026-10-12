@@ -333,21 +333,29 @@ function topicDeps() {
   return { loadMatrix, saveMatrix, planSlot, loadState, saveState, log: console.log };
 }
 
-function publishedRelatedFor(m, slot, limit) {
+// Gợi ý bài liên quan ĐÃ XUẤT BẢN cho writer. Thứ tự ưu tiên: (1) bài gần nghĩa nhất do gate ghi lại cho topic V2 (prefer),
+// (2) cùng hub, (3) cùng danh mục cha, (4) bài xuất bản gần đây ở nơi khác — bảo đảm luôn đủ cho hub còn trống
+// (hub chưa có bài nào không còn để writer không có gì để liên kết; G7 vẫn đòi >= 2 related PUBLISHED).
+function publishedRelatedFor(m, slot, limit, prefer) {
   const max = Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : 8;
   const parent = String(slot.hub || '').split('/')[0];
   const sameHub = [];
   const sameParent = [];
+  const elsewhere = [];
+  const bySlug = new Map();
   for (let i = m.slots.length - 1; i >= 0; i--) {
     const s = m.slots[i];
     if (s.state !== 'PUBLISHED' || s.slug === slot.slug) continue;
     const item = { slug: s.slug, title: s.title, hub: s.hub, id: s.id };
+    bySlug.set(s.slug, item);
     if (s.hub === slot.hub) sameHub.push(item);
     else if (String(s.hub || '').split('/')[0] === parent) sameParent.push(item);
+    else elsewhere.push(item);
   }
+  const preferred = (Array.isArray(prefer) ? prefer : []).map(x => bySlug.get(x)).filter(Boolean);
   const out = [];
   const seen = new Set();
-  for (const x of sameHub.concat(sameParent)) {
+  for (const x of preferred.concat(sameHub, sameParent, elsewhere)) {
     if (seen.has(x.slug)) continue;
     seen.add(x.slug); out.push(x);
     if (out.length >= max) break;
@@ -1084,8 +1092,8 @@ Lệnh:
   queue-refill [--role R]        Planned < 100 -> refill queue lên ~300 topic;
                                   static pool trước, Topic Factory taxonomy sau
                                   (chỉ role=coordinator)
-  topic-audit|topic-backfill|topic-propose|topic-approve|topic-reject|topic-status|topic-check|
-  topic-index-rebuild|topic-index-check|topic-import|topic-brief
+  topic-audit|topic-backfill|topic-propose|topic-approve|topic-reject|topic-reopen|topic-status|topic-check|
+  topic-index-rebuild|topic-index-check|topic-import|topic-brief|topic-neighbours|topic-coverage
                                   TOPIC FACTORY V2 (docs/TOPIC-FACTORY-V2.md): kiểm toán trùng lặp,
                                   gate chống hoán vị, duyệt topic -> slot; writer chỉ nhận topic APPROVED
   writer-pack [--count N] [--shard k/n] [--json]
@@ -1300,11 +1308,14 @@ function main() {
     // Diagnostic/deep contract: hỗ trợ cả legacy filename != slug.
     // Hot writer/status vẫn dùng openArticleSlugs() O(open queue).
     const slugs = new Set(loadAllArticlesBySlug().keys());
-    const { claimable, waitingForWriter, awaitingApproval } = runtime.findClaimableBacklog(m, slugs, writableOpts().opts);
+    const bo = writableOpts().opts;
+    const { claimable, waitingForWriter, awaitingApproval } = runtime.findClaimableBacklog(m, slugs, bo);
     console.log('CLAIMABLE_BACKLOG=' + claimable.length);
     console.log('WAITING_FOR_WRITER=' + waitingForWriter.length);
     if (awaitingApproval.length) console.log('AWAITING_APPROVAL=' + awaitingApproval.length);
-    for (const s of claimable) console.log(`PENDING ${s.id} state=${s.state} article=yes`);
+    // Bài đã có module nhưng topic CHƯA APPROVED vẫn hiện là backlog (không che) — kèm chẩn đoán vì sao verify sẽ từ chối.
+    for (const s of claimable) console.log(`PENDING ${s.id} state=${s.state} article=yes` +
+      (bo.isWritable && !bo.isWritable(s) ? ' APPROVAL=MISSING (topic chưa APPROVED: coordinator duyệt topic hoặc gỡ module bài)' : ''));
     for (const s of waitingForWriter) console.log(`PENDING ${s.id} state=${s.state} article=no`);
     if (failIfClaimable && claimable.length > 0) {
       console.error(`FAIL: còn ${claimable.length} slot claimable (article-backed) sau run publish — "SUCCESS + backlog > 0" là regression của continuous drain.`);
@@ -1782,8 +1793,13 @@ function main() {
       return;
     }
 
+    // Bài đã có module nhưng topic CHƯA APPROVED (enforce) sẽ không bao giờ được publish: không tính là “đang chờ publish”,
+    // báo riêng để coordinator duyệt topic hoặc gỡ module (tránh writer chờ vô hạn).
+    const isWr = woPack.opts.isWritable;
+    const unapprovedArticles = isWr
+      ? m.slots.filter(s => s.state !== 'PUBLISHED' && s.state !== 'BLOCKED' && openSlugs.has(s.slug) && !isWr(s)).map(s => s.id) : [];
     const writtenWaiting = m.slots.filter(s =>
-      s.state !== 'PUBLISHED' && s.state !== 'BLOCKED' && openSlugs.has(s.slug) && !plan.ids.includes(s.id)
+      s.state !== 'PUBLISHED' && s.state !== 'BLOCKED' && openSlugs.has(s.slug) && !plan.ids.includes(s.id) && !unapprovedArticles.includes(s.id)
     ).length;
     let status = 'ready';
     if (!plan.ids.length) {
@@ -1801,12 +1817,12 @@ function main() {
         slug: s.slug, title: s.title, intent: s.primaryIntent,
         file: 'factory/data/articles/' + s.slug + '.js',
         canonicalPath: '/' + s.hub + '/' + s.slug + '/',
-        relatedPublished: publishedRelatedFor(m, s, 8),
+        relatedPublished: publishedRelatedFor(m, s, 8, woPack.approved && woPack.approved.get(s.id) && woPack.approved.get(s.id).gate ? (woPack.approved.get(s.id).gate.nearestPublished || []).map(x => x.slug) : null),
         brief: woPack.approved && woPack.approved.get(s.id) ? topicCli.briefFor(woPack.approved.get(s.id)) : null,
       };
     });
     const pack = {
-      schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id),
+      schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id), unapprovedArticles,
       rules: {
         minWords: runtime.ARTICLE_MIN_WORDS, maxWords: runtime.ARTICLE_MAX_WORDS, qaPassMin: runtime.QA_PASS_MIN,
         fileConvention: 'factory/data/articles/<slug>.js',
@@ -1826,6 +1842,7 @@ function main() {
     console.log('WRITER_PACK status=' + status + ' count=' + items.length +
       ' written_waiting=' + writtenWaiting + ' slots=' + m.slots.length + '/' + m.plannedTarget);
     if (items.length) console.log('BATCH_IDS=' + items.map(x => x.id).join(','));
+    if (unapprovedArticles.length) console.log('WARN_UNAPPROVED_ARTICLE ids=' + unapprovedArticles.join(',') + ' (có module bài nhưng topic chưa APPROVED — verify-batch sẽ từ chối; coordinator duyệt topic hoặc gỡ module)');
     console.log('RULES min_words=' + runtime.ARTICLE_MIN_WORDS + ' max_words=' + runtime.ARTICLE_MAX_WORDS + ' qa>=' + runtime.QA_PASS_MIN +
       ' related>=2 related_policy=PUBLISHED_ONLY filename=<slug>.js');
     for (const item of items) {

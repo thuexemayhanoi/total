@@ -1,12 +1,15 @@
 // AI WIKI TOTAL — Topic Governance: công tắc điều khiển (versioned) cho Topic Factory V2.
 //
 // File điều khiển: factory/topic-governance.json (cùng kiểu factory/writer-control.json).
-//   mode              : "enforce" | "off"      — off = hành vi legacy 100% (CÔNG TẮC ROLLBACK)
-//   v1Generation      : "frozen" | "allowed"   — frozen: queue-refill không sinh topic từ pool cũ/Topic Factory V1
+//   mode              : "enforce" | "off"      — off tắt kiểm soát writer (requireApproved luôn false)
+//   v1Generation      : "frozen" | "allowed"   — frozen: queue-refill không sinh topic từ pool cũ/Topic Factory V1.
+//                                                Khi file TỒN TẠI mà thiếu khóa này => "frozen" (fail-closed).
 //   requireApproved   : writer-pack/verify/publish chỉ nhận slot có topic APPROVED (khi mode=enforce)
 //   thresholds        : ghi đè ngưỡng gate (mặc định trong topic-gate.js)
 //   maxApprovedQueue  : số topic APPROVED chưa xuất bản tối đa — chống đổ queue
-// Không có file => off/allowed (tương thích mọi checkout cũ). Thuần: không tự ghi file.
+// Không có file => off/allowed (hành vi legacy 100%, tương thích mọi checkout cũ).
+// CÔNG TẮC ROLLBACK về legacy hoàn toàn: {"mode":"off","v1Generation":"allowed"} (hoặc xóa file).
+// File hỏng/không parse được => enforce + frozen (fail-closed). Thuần: không tự ghi file.
 'use strict';
 
 const fs = require('fs');

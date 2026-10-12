@@ -1,0 +1,26 @@
+{
+  "_doc": "Rà soát biên tập (người duyệt) sau gate cho batch pilot V2. Gate từ vựng không bắt được mọi trùng ý — mỗi dòng ghi bài đã xuất bản (hoặc topic anh em) đã trả lời cùng câu hỏi cốt lõi. Hiệu lực: topic bị đánh dấu MERGE-CANDIDATE, KHÔNG tạo URL mới; đề xuất bổ sung vào bài đích.",
+  "reviewedBy": "claude-coordinator (owner-delegated)",
+  "reviewedAt": "2026-10-12",
+  "overrides": {
+    "den-xi-nhan-nhay-nhanh": { "mergeInto": "den-xi-nhan-hong-giua-duong-cach-xu-ly", "why": "Bài đích đã nêu xi-nhan nháy nhanh = một bóng cháy, nguyên nhân từ bóng đến công tắc, cầu chì; phần mới chỉ là rơ le/giắc cắm — bổ sung thành một mục." },
+    "mo-ta-trieu-chung-xe-cho-tho": { "mergeInto": "chan-doan-loi-xe", "why": "Bài đích có riêng bước 'Mô tả chuẩn cho thợ' (bốn bước chẩn đoán); phần mới (quay video, mẫu ghi) nên thành mục bổ sung." },
+    "chay-xe-may-khi-co-gio-ngang": { "mergeInto": "ky-thuat-di-xe-may-trong-gio-lon", "why": "Bài đích đã có tư thế/tay lái, ga đều, vị trí tránh gió tích tụ và khi nào dừng — cùng câu hỏi." },
+    "rua-xe-may-bang-voi-ap-luc": { "mergeInto": "rua-xe-may-dung-cach", "why": "Bài đích có mục 'Những vị trí tuyệt đối không xịt nước trực tiếp' — chính là cốt lõi của topic." },
+    "quyen-khi-bi-lap-bien-ban-vi-pham-giao-thong": { "mergeInto": "xu-phat-vi-pham", "why": "Bài đích có 'Trình tự một ca xử phạt: từ biên bản đến quyết định' và 'Quyền của người bị xử phạt: giải trình và khiếu nại'." },
+    "chi-so-tai-trong-va-toc-do-lop-xe-may": { "mergeInto": "kich-thuoc-lop", "why": "Bài đích giải mã dãy số trên thành lốp; chỉ số tải/tốc độ là phần mở rộng của cùng mục — cần xác minh nguồn rồi bổ sung." },
+    "bao-quan-pin-xe-may-dien-khi-khong-dung": { "mergeInto": "pin-va-sac-xe-may-dien-nhung-dieu-can-biet", "why": "Bài đích có mục 'Cất xe lâu ngày và bảo quản theo mùa' — người đọc cần một bài tổng hợp." },
+    "khoi-dong-xe-so-khi-troi-lanh": { "mergeInto": "xe-may-kho-no-buoi-sang-nguyen-nhan-va-xu-ly", "why": "Bài đích xử lý đúng tình huống khó nổ lúc lạnh/buổi sáng; thao tác khởi động đúng là phần bổ sung." },
+    "do-xe-may-tren-doc": { "mergeInto": "do-xe-may-tren-le-doc-an-toan", "why": "Cùng câu hỏi: đỗ xe trên dốc, chống trôi, chân chống." },
+    "thoi-quen-do-xang-xe-may": { "mergeInto": "do-xang-xe-may-luu-y-va-sai-lam", "why": "Cùng câu hỏi: thói quen/sai lầm khi đổ xăng." },
+    "phuoc-truoc-xe-may-chay-dau": { "mergeInto": "giam-xoc-xe-may-cham-soc-va-dau-hieu-yeu", "why": "Bài đích đã nói dấu hiệu giảm xóc yếu và chăm sóc phuộc; chảy dầu phốt là một mục." },
+    "kiem-tra-do-chung-xich-xe-so": { "mergeInto": "cham-soc-day-xich-xe-may-dung-ky", "why": "Kiểm tra độ chùng/căng xích là lõi của bài chăm sóc xích đúng kỹ thuật." },
+    "y-nghia-den-bao-tren-dong-ho-xe-tay-ga": { "mergeInto": "den-canh-bao-tren-xe-may-hieu-va-xu-ly", "why": "Cùng câu hỏi: nhóm đèn cảnh báo trên đồng hồ và việc cần làm." },
+    "tieng-cach-cach-khi-may-nguoi": { "mergeInto": "xe-keu-lach-cach", "why": "Bài đích truy tìm tiếng gõ rời rạc; điều kiện 'chỉ khi nguội' là một mục." },
+    "tieng-keu-tu-nhong-sen-dia": { "mergeInto": "nhoong-sen-dia-xe-may-cau-tao-va-thoi-diem-thay", "why": "Bài đích có dấu hiệu hao mòn nhông sên dĩa; tiếng rít là một dấu hiệu trong đó." },
+    "bao-quan-xe-may-mua-nom": { "mergeInto": "de-xe-noi-am", "why": "Bài đích là bài thin cùng chủ đề (để xe nơi ẩm): nên nâng cấp/viết lại bài hiện có thay vì tạo URL thứ hai." },
+    "so-khung-so-may-xe-may-la-gi": { "mergeInto": "kiem-tra-so-khung-so-may-xe-cu", "why": "Trùng với topic anh em cùng batch (vị trí + cách đọc số khung/số máy); gộp phần định nghĩa vào bài kiểm tra xe cũ." },
+    "bo-noi-xe-ga-bi-mon": { "mergeInto": "xe-tay-ga-ro-ga-khong-len-toc-do", "why": "Trùng với topic anh em (cùng cụm truyền động CVT, gate cảnh báo 0.30); gộp thành một bài theo triệu chứng." },
+    "bien-ban-ban-giao-o-to-thue": { "mergeInto": "nghiem-thu-xe", "why": "Bài nghiệm thu xe (thuê ô tô) đã hướng dẫn chụp ảnh/ghi biên bản khi nhận và trả xe." }
+  }
+}

@@ -77,9 +77,9 @@ const LOCATIONS = [
 // Tín hiệu cần DỮ LIỆU ĐÃ XÁC MINH (luật, giá, thông số, tin mới): chạy trên text chữ thường
 // còn dấu (tránh nhầm “thuê”/“thuế” sau khi fold). Có tín hiệu mà thiếu bằng chứng -> NEEDS-RESEARCH.
 const RISK_TRIGGERS = {
-  legal: /thuế|lệ phí|phí trước bạ|nghị định|thông tư|quy định|luật |mức phạt|xử phạt|giấy phép lái xe|bằng lái|đăng kiểm|biển số|bảo hiểm bắt buộc|điều kiện được phép|cần bằng/iu,
+  legal: /thuế|lệ phí|phí trước bạ|nghị định|thông tư|quy định|luật |mức phạt|xử phạt|giấy phép lái xe|bằng lái|đăng kiểm|biển số|bảo hiểm bắt buộc|điều kiện được phép/iu,
   price: /bảng giá|giá bao nhiêu|(?<!đánh\s)(?<![\p{L}])giá(?![\p{L}])|chi phí|\d+\s?(k|triệu|nghìn|đồng|vnđ)(?![\p{L}])/iu,
-  spec: /dung tích|công suất|mô-men|mô men|tiêu hao|thông số|kích thước|trọng lượng|quãng đường|phạm vi hoạt động|dung lượng pin|(?<![\p{L}])cc(?![\p{L}])|km\/h|kwh|thời gian sạc/iu,
+  spec: /dung tích|công suất|mô-men|mô men|tiêu hao|thông số|phạm vi hoạt động|dung lượng pin|(?<![\p{L}])cc(?![\p{L}])|km\/h|kwh|thời gian sạc/iu,
   news: /mới nhất|hôm nay|năm 20\d\d|vừa ra mắt|cập nhật mới|tin tức/iu,
 };
 

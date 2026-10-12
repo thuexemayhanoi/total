@@ -26,6 +26,12 @@ Trong production cycle: một bài FAIL → REPAIR queue, KHÔNG giữ cycle —
 - Missing/corrupt/stale → `index-rebuild` dựng lại an toàn từ full manifest + content; `index-check` phát hiện và exit 1 yêu cầu rebuild.
 - Xem thêm trong `factory/lib/content-index.js` (node:sqlite — cần Node 22).
 
+## Topic Factory V2 — topic phải qua gate và được duyệt
+
+Slot mới **không** còn sinh từ hoán vị taxonomy. `queue-refill` bị đóng băng khi `factory/topic-governance.json` có `v1Generation: frozen`; topic đi qua `topic-propose` → gate → `topic-neighbours` (đọc 5 bài gần nhất) → `topic-approve`
+→ slot PLANNED/APPROVED trong `matrix.json`. Writer (`writer-pack`) chỉ nhận slot APPROVED. Chi tiết, lệnh, ngưỡng, giới hạn và rollback: [TOPIC-FACTORY-V2.md](TOPIC-FACTORY-V2.md);
+bằng chứng: [TOPIC-AUDIT-2026-10-12.md](TOPIC-AUDIT-2026-10-12.md), [TOPIC-PILOT-V2-REPORT.md](TOPIC-PILOT-V2-REPORT.md); phần chờ duyệt: [TOPIC-V2-MIGRATION-PLAN.md](TOPIC-V2-MIGRATION-PLAN.md).
+
 ## Pipeline publish tự động (GitHub Actions)
 - **factory-coordinator.yml (maintenance tick)** — schedule `7,17,27,37,47,57 * * * *` (mỗi 10 phút) + `workflow_dispatch`; mỗi run BOUNDED một tick: recover-txn → check-state → queue-refill (idempotent) → manifest-sync → verify-invariant → backlog + production-status → commit state CHỈ KHI có diff thật (tick rỗng không commit). KHÔNG while-true; push bằng GITHUB_TOKEN không tự kích workflow kế tiếp. Concurrency `total-production` dùng CHUNG với factory-publish.yml → hai actor không bao giờ chạy đè nhau. Writer là EXTERNAL (session Mistral ngoài đọc `writer-next`); Actions không tự viết prose, không fake article. Watchdog **factory-liveness.yml** chạy mỗi giờ read-only (`liveness`): stall > 120' hoặc lỗi escalated → Actions đỏ — KHÔNG thể tự resume phiên Mistral.
 - **factory-publish.yml (pair)** — writer push article files → pipeline: recover txn → `push-scope` (EXACT IDs) → guard `check-state` → `publish-pair` (scoped QA minimal ≥ 70 → FAIL vào repair queue, PASS publish → generate → verify-pair → atomic COMMIT) → commit derived state. Cổng cuối: check-state + backlog 0 + generate --check. Node 22.

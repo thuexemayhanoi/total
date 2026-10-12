@@ -89,6 +89,10 @@ Nếu batch fail QA hoặc 404:
 
 ## Nguồn topic
 
+> **Topic Factory V2 (đang áp dụng, `factory/topic-governance.json` = enforce):** `queue-refill` bị đóng băng; Writer **chỉ nhận slot có topic APPROVED** trong `writer-pack` và phải viết đúng
+> `TOPIC_BRIEF` / `TOPIC_GAIN` / `TOPIC_OUTLINE` / `TOPIC_SCOPE` (`no-figures` = không số liệu/giá/thông số). Không tự tạo slot hay topic. Xem [TOPIC-FACTORY-V2.md](TOPIC-FACTORY-V2.md).
+> Phần mô tả `queue-refill` bên dưới là hành vi **legacy** (chỉ còn khi chủ repo đặt `v1Generation: allowed`).
+
 Coordinator giữ khoảng 300 PLANNED.
 
 Khi queue xuống dưới ngưỡng, `queue-refill` dùng:

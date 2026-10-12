@@ -18,6 +18,9 @@ on:
       - 'factory/link-integrity.js'
       - 'factory/lib/**'
       - 'factory/data/categories.js'
+      - 'factory/data/topic-*.js'
+      - 'factory/topic.js'
+      - 'factory/topic-governance.json'
       - 'factory/test*.js'
       - '.github/workflows/**'
 
@@ -54,7 +57,9 @@ jobs:
           node factory/test-cycle.js
           node factory/test-coordinator.js
           node factory/test-topic-factory.js
+          node factory/test-topic-v2.js
           node factory/test-writer-pack.js
+          node factory/factory.js topic-check --recheck
           node factory/factory.js verify-invariant
           node factory/generate.js --check
           echo 'ENGINE_GATE_OK'

@@ -85,6 +85,20 @@ function analyzeTopic(title) {
   };
 }
 
+// Chủ thể chính của title dạng “chủ thể: phần mô tả đuôi” (hoặc — / – / | / ' - '): phần đứng trước dấu tách.
+// null nếu không có đuôi, hoặc chủ thể quá chung (< 2 từ nội dung). Dùng để bắt hoán vị của bài đã có khi bài đó
+// có đuôi mô tả mà hoán vị thì không (“Thay nhớt xe máy: chu kỳ và cách thực hiện” ⊃ “Kinh nghiệm thay nhớt xe máy”).
+function leadPhrase(title) {
+  const m = /^(.+?)\s*(?::|—|–|\||\s-\s)\s*(.+)$/.exec(String(title || ''));
+  return m && m[1].trim().length >= 6 ? m[1].trim() : null;
+}
+function analyzeLead(title) {
+  const lead = leadPhrase(title);
+  if (!lead) return null;
+  const a = analyzeTopic(lead);
+  return a.head.length >= 2 ? a : null;
+}
+
 // Hai topic là HOÁN VỊ nếu cùng intentKey (cùng chủ thể + góc topical + địa danh) —
 // khác nhau chỉ ở khung, bối cảnh, hình thức, thứ tự từ.
 function isTemplatePermutation(a, b) {
@@ -239,7 +253,7 @@ function unionFind(n) {
 }
 
 module.exports = {
-  fold, tokens, contentTokens, stripHtml, analyzeTopic, isTemplatePermutation,
+  fold, tokens, contentTokens, stripHtml, analyzeTopic, leadPhrase, analyzeLead, isTemplatePermutation,
   tokenSet, jaccard, shingles, containment, termFreq, buildTfidf, vectorize, cosine,
   NearestIndex, outlineSimilarity, articleText, articleFields, unionFind,
 };
