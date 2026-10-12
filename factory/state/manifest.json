@@ -1840,6 +1840,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-xu-ly-su-co/cop-xe-may-nong-va-vat-dung-khong-nen-de-trong-cop/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dien-ac-quy/cu-de-xe-may-yeu-hoac-keu-tach/index.html",
   "kind": "article"
  },
@@ -1877,6 +1881,10 @@
  },
  {
   "rel": "wiki/dau-nhot/dau-nhot-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/day-curoa-xe-ga-dut-giua-duong-xu-ly-an-toan/index.html",
   "kind": "article"
  },
  {
@@ -2556,6 +2564,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/ngoi-sau-xe-may-khi-mac-vay-hoac-trang-phuc-rong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/nguyen-ly-4-thi/index.html",
   "kind": "article"
  },
@@ -2569,6 +2581,10 @@
  },
  {
   "rel": "garage/bao-duong-dinh-ky/nhua-xe-may-bac-mau-va-cach-giu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/nuoc-chay-ra-tu-ong-xa-xe-may-co-binh-thuong-khong/index.html",
   "kind": "article"
  },
  {
@@ -3912,6 +3928,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/mua-xe/xe-may-cu-da-bo-may-hay-con-zin-dau-hieu-nhan-biet/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/xe-may-dia-phuong/index.html",
   "kind": "article"
  },
@@ -3928,11 +3948,19 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/xe-may-het-xang-giua-duong-do-lai-va-de-lai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/xe-may-hybrid-la-gi/index.html",
   "kind": "article"
  },
  {
   "rel": "garage/loi-thuong-gap/xe-may-keo-lech-khi-buong-tay-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/chuan-doan-loi/xe-may-keu-tit-tit-hoac-bip-cac-nguon-am-canh-bao/index.html",
   "kind": "article"
  },
  {

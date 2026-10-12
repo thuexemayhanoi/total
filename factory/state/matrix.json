@@ -17283,11 +17283,13 @@
    "title": "Cốp xe máy bị nóng: vì sao xảy ra và những vật dụng không nên để trong cốp dưới nắng",
    "primaryIntent": "informational/cop-xe-may-nong-va-vat-dung-khong-nen-de-trong-cop",
    "notes": "source=topic-v2 topicId=T001261",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:10:32.883Z",
-   "updatedAt": "2026-10-12T18:10:32.883Z"
+   "updatedAt": "2026-10-12T18:24:45.813Z",
+   "seoScore": 100,
+   "words": 3021
   },
   {
    "id": "S01197",
@@ -17296,11 +17298,13 @@
    "title": "Nước nhỏ giọt từ ống xả xe máy: khi nào là hơi nước ngưng bình thường và khi nào cần kiểm tra",
    "primaryIntent": "informational/nuoc-chay-ra-tu-ong-xa-xe-may-co-binh-thuong-khong",
    "notes": "source=topic-v2 topicId=T001262",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:10:32.906Z",
-   "updatedAt": "2026-10-12T18:10:32.906Z"
+   "updatedAt": "2026-10-12T18:24:45.813Z",
+   "seoScore": 91,
+   "words": 3010
   },
   {
    "id": "S01198",
@@ -17309,11 +17313,13 @@
    "title": "Dây curoa xe tay ga đứt giữa đường: dấu hiệu, cách dừng an toàn và những điều cần nói với thợ",
    "primaryIntent": "troubleshooting/day-curoa-xe-ga-dut-giua-duong-xu-ly-an-toan",
    "notes": "source=topic-v2 topicId=T001263",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:10:32.922Z",
-   "updatedAt": "2026-10-12T18:10:32.922Z"
+   "updatedAt": "2026-10-12T18:24:45.813Z",
+   "seoScore": 100,
+   "words": 2940
   },
   {
    "id": "S01199",
@@ -17322,11 +17328,13 @@
    "title": "Xe máy kêu tít tít hoặc bíp: các nguồn âm thanh cảnh báo thường gặp và cách đối chiếu",
    "primaryIntent": "troubleshooting/xe-may-keu-tit-tit-hoac-bip-cac-nguon-am-canh-bao",
    "notes": "source=topic-v2 topicId=T001264",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:13:10.569Z",
-   "updatedAt": "2026-10-12T18:13:10.569Z"
+   "updatedAt": "2026-10-12T18:24:45.813Z",
+   "seoScore": 100,
+   "words": 3198
   },
   {
    "id": "S01200",
@@ -17335,11 +17343,13 @@
    "title": "Xe máy hết xăng giữa đường: dắt xe, đổ lại xăng và vì sao xe phun xăng đôi khi khó nổ lại ngay",
    "primaryIntent": "troubleshooting/xe-may-het-xang-giua-duong-do-lai-va-de-lai",
    "notes": "source=topic-v2 topicId=T001265",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:13:10.589Z",
-   "updatedAt": "2026-10-12T18:13:10.589Z"
+   "updatedAt": "2026-10-12T18:24:45.813Z",
+   "seoScore": 100,
+   "words": 2951
   },
   {
    "id": "S01201",
@@ -17348,11 +17358,13 @@
    "title": "Xe máy cũ đã bổ máy hay còn nguyên bản: những dấu hiệu quan sát được khi xem xe",
    "primaryIntent": "informational/xe-may-cu-da-bo-may-hay-con-zin-dau-hieu-nhan-biet",
    "notes": "source=topic-v2 topicId=T001266",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:13:10.604Z",
-   "updatedAt": "2026-10-12T18:13:10.604Z"
+   "updatedAt": "2026-10-12T18:24:45.813Z",
+   "seoScore": 100,
+   "words": 2859
   },
   {
    "id": "S01202",
@@ -17361,11 +17373,13 @@
    "title": "Ngồi sau xe máy khi mặc váy hoặc trang phục rộng: cách ngồi và những điểm dễ vướng cần chú ý",
    "primaryIntent": "informational/ngoi-sau-xe-may-khi-mac-vay-hoac-trang-phuc-rong",
    "notes": "source=topic-v2 topicId=T001267",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T18:13:10.619Z",
-   "updatedAt": "2026-10-12T18:13:10.620Z"
+   "updatedAt": "2026-10-12T18:24:45.813Z",
+   "seoScore": 100,
+   "words": 3127
   }
  ]
 }
