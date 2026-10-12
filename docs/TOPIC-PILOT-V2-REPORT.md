@@ -60,6 +60,16 @@ Mỗi topic có `editorial.acknowledged` (đúng các cảnh báo gate đưa ra)
 
 32 topic ACCEPT còn lại **không** được cấp cho writer — chờ chủ repo/biên tập duyệt thêm (mỗi topic vẫn phải ack + đọc láng giềng).
 
+### Kết quả vận hành thật của lát cắt (2026-10-12)
+
+| Chỉ số | Kết quả |
+|---|---|
+| QA nội bộ (`qaArticle`, ngưỡng 70) | 11/11 đạt **100/100**; SEO (advisory) 91–100; 1.687–2.494 từ theo cách đếm của QA |
+| Diễn tập `publish-batch` trong bản sao repo | lần 1 (cả 10 bài đầu) phát hiện giới hạn #8 (S01091 đơn lẻ trong danh mục `review` ⇒ `test.js` đỏ); sau khi tách thành lô 1 (9 bài) + lô 2 (cặp `review`) cả hai lô xanh: `test.js` 0 lỗi, `generate --check` byte-exact, `audit --min-score 70`, `verify-invariant`, `topic-check --recheck` |
+| CI thật | `Factory Publish Lite` #218 (9 bài) và #219 (2 bài): success, khoảng 20 giây mỗi lô; `Factory Engine Quality` (heavy gate) chạy trên branch trước khi hợp nhất: success |
+| Trạng thái sau xuất bản | 793 PUBLISHED; 41 topic PLANNED (9 legacy REWRITE + 32 ACCEPT chờ duyệt); 0 slot writer có thể nhận; 300 slot legacy PLANNED vẫn bị đóng băng chờ duyệt |
+| Không đụng | không xóa/đổi URL/chuyển hướng/đổi tiêu đề bài đã xuất bản; không đổi kiến trúc danh mục/hub |
+
 ### Bảng B — 46 topic bị gộp (MERGE-CANDIDATE): đề xuất bổ sung vào bài đã có, KHÔNG tạo URL mới
 
 | Topic | Slug đề xuất | Gộp vào | Lần rà soát | Bằng chứng (đã đọc trong bài đích) |
