@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'ngap-duong-sai-gon',
-  title: 'Hướng dẫn chi tiết về ngập đường sài gòn',
+  title: 'Hướng dẫn chi tiết về ngập đường Sài Gòn',
   seoTitle: 'Ngập đường Sài Gòn: vì sao, khi nào và đi xe máy qua nước thế nào',
   metaDescription: 'Ngập đường ở TP. Hồ Chí Minh đến từ mưa lớn cộng nước triều dâng vượt tải hệ thống thoát nước. Hướng dẫn hiểu nguyên nhân, dự đoán và đi xe an toàn qua nước.',
   summary: 'Ngập đường là một phần đặc trưng của mùa mưa TP. Hồ Chí Minh: một cơn mưa lớn trùng ngày nước triều cao có thể biến nhiều đoạn đường quen thành sông nhỏ trong chưa đầy một giờ, rồi rút đi để lại vệt bùn và những chiếc xe chết máy dọc lề. Để đi xe máy trong điều kiện này, trước hết cần hiểu vì sao Sài Gòn ngập: thành phố thấp, nằm trên hệ thống sông kênh chịu cả nước mưa lẫn ảnh hưởng triều, và hệ thống thoát nước dù liên tục được đầu tư vẫn có ngưỡng tải — khi mưa xả vượt ngưỡng, cộng thêm triều cản kênh thoát, nước dồn trên mặt đường là kết quả tất yếu chứ không phải bất ngờ. Từ đó bài viết đi tiếp vào phần thực dụng: dự đoán ngày và đoạn dễ ngập trước khi xuất phát, ba quy tắc quyết định qua hay không qua, kỹ thuật đi xe máy trong nước an toàn (chọn làn, giữ vòng tua, không phanh gấp), xử lý khi xe chết máy giữa nước — sai lầm cố đề lại có thể biến thành hỏng máy lớn, và các bước chăm xe sau khi qua ngập. Cuối cùng là góc nhìn dài hạn: sống cùng mùa ngập như một thói quen thành phố thay vì mỗi lần như bất ngờ.',

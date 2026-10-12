@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'giao-thong-ha-noi',
-  title: 'Hướng dẫn chi tiết về giao thông hà nội',
+  title: 'Hướng dẫn chi tiết về giao thông Hà Nội',
   seoTitle: 'Giao thông Hà Nội: đặc điểm, giờ cao điểm và lưu ý di chuyển',
   metaDescription: 'Kiến thức giao thông Hà Nội: cấu trúc phố cổ và vành đai, quy luật giờ cao điểm, cầu vượt sông Hồng, thời tiết theo mùa và lưu ý khi đi xe máy nội thành.',
   summary: 'Hà Nội là một trong hai đô thị có mật độ giao thông lớn nhất Việt Nam, nơi mô hình "phố cổ bên trong — vành đai bao ngoài" tạo nên những quy luật di chuyển rất riêng. Bài viết tổng hợp kiến thức về giao thông Hà Nội dưới góc độ thông tin tham khảo: đặc điểm cấu trúc đường phố, quy luật giờ cao điểm, vai trò của các cây cầu vượt sông Hồng, ảnh hưởng của thời tiết theo mùa, và những kỹ năng phù hợp khi đi lại bằng xe máy trong nội thành. Nội dung mang tính kiến thức chung, không thay thế quy định pháp luật hiện hành.',

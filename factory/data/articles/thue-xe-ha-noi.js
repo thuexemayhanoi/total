@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'thue-xe-ha-noi',
-  title: 'Hướng dẫn chi tiết về thuê xe hà nội',
+  title: 'Hướng dẫn chi tiết về thuê xe Hà Nội',
   seoTitle: 'Thuê xe ở Hà Nội: loại xe, giấy tờ, hợp đồng và trách nhiệm',
   metaDescription: 'Thuê xe máy ở Hà Nội cần biết loại xe nào hợp nhu cầu, giấy tờ cần mang, điều khoản hợp đồng, trách nhiệm hư hỏng mất xe và cách chọn nơi thuê đáng tin.',
   summary: 'Thuê xe là cách nhiều người chọn để tự do di chuyển ở Hà Nội: khách du lịch cần chiếc xe máy dạo phố cổ và các vùng ven, người mới đến cần phương tiện tạm trước khi mua xe, người bản xứ thỉnh thoảng cần xe dự phòng khi xe chính nằm sửa. Nhưng thuê xe ở một đô thị đông đúc có luật chơi riêng mà người lơ đãng dễ trả giá bằng cọc bị trừ oan, bằng chiếc xe kém an toàn giữa giờ cao điểm, hoặc bằng những tranh chấp không ai ghi rõ từ đầu. Hướng dẫn này đi qua toàn bộ hành trình thuê xe ở Hà Nội theo hướng kiến thức: chọn loại xe và loại dịch vụ khớp mục đích chuyến đi, chuẩn bị giấy tờ theo đúng quy định, đọc và đàm phán hợp đồng thuê như người hiểu mình đang ký gì, nắm rõ trách nhiệm khi xe hư hỏng hoặc mất cắp, nhận diện các tín hiệu của nơi thuê đáng tin và không đáng tin, cùng những quy tắc an toàn đặc thù khi lái xe thuê giữa dòng giao thông Hà Nội. Mục tiêu không phải thuê được xe rẻ nhất — mà là thuê đúng xe, từ đúng nơi, với điều khoản rõ ràng để chuyến đi chỉ còn một việc để bận tâm: tận hưởng thành phố.',

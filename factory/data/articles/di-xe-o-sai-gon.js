@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'di-xe-o-sai-gon',
-  title: 'Tổng hợp kiến thức: đi xe ở sài gòn',
+  title: 'Tổng hợp kiến thức: đi xe ở Sài Gòn',
   seoTitle: 'Đi xe ở Sài Gòn: tổng hợp kiến thức cho người mới',
   metaDescription: 'Tổng hợp kiến thức khi đi xe ở Sài Gòn: địa hình các quận, cầu và sông, nhịp giờ cao điểm, mùa mưa, bãi gửi xe và cách định hướng trong đô thị lớn nhất nước.',
   summary: 'Đi xe ở Sài Gòn không khó vì luật lệ — luật giao thông ở đâu cũng như nhau — mà khó vì đô thị này có một nền địa lý và một nhịp sống riêng cần thời gian làm quen. Người mới đến thường mất vài tuần để hiểu vì sao cùng một con đường, sáng đi mười lăm phút mà chiều mất bốn mươi; vì sao có những đoạn chỉ ngập sau một cơn mưa lớn dù xung quanh vẫn khô; vì sao tìm chỗ gửi xe ở khu trung tâm đôi khi khó hơn cả tìm địa điểm đến. Bài viết này tổng hợp những kiến thức nền tảng để đi xe ở Sài Gòn: cách thành phố trải ra theo các quận và hướng di chuyển, vai trò của sông và cầu trong bố cục giao thông, nhịp giờ cao điểm thật sự diễn ra khi nào, đặc điểm thời tiết quanh năm ảnh hưởng thế nào đến cách đi, hệ thống bãi gửi xe hoạt động ra sao, và cách định hướng bằng cột mốc quen thuộc thay vì chỉ dựa vào ứng dụng bản đồ. Hiểu những điều này, mỗi chuyến đi trong thành phố sẽ bớt bất ngờ và chủ động hơn.',

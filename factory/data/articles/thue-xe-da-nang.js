@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'thue-xe-da-nang',
-  title: 'Kinh nghiệm thuê xe đà nẵng dành cho người mới',
+  title: 'Kinh nghiệm thuê xe Đà Nẵng dành cho người mới',
   seoTitle: 'Thuê xe Đà Nẵng cho người mới: kinh nghiệm cần biết',
   metaDescription: 'Kinh nghiệm thuê xe máy ở Đà Nẵng cho người mới: chọn xe theo lộ trình, giấy tờ, hợp đồng và cọc, nhận xe đúng cách, lưu ý đường biển, Sơn Trà và Hải Vân.',
   summary: 'Đà Nẵng là một trong những điểm đến được người mới đến Việt Nam chọn nhiều nhất — thành phố biển, đường sá rộng rãi, khoảng cách giữa các điểm tham quan vừa phải, và nổi tiếng là một trong những đô thị hợp đi xe máy bậc nhất cả nước. Nhưng chính vì địa hình trải dài theo bờ biển và núi, việc thuê xe ở Đà Nẵng có những điều riêng mà người mới cần biết: chọn xe theo lộ trình thật sự định đi — vòng quanh phố, leo Sơn Trà hay vượt Hải Vân là ba bài toán khác nhau; chuẩn bị giấy tờ đúng quy định, trong đó khách quốc tế cần đặc biệt lưu ý yêu cầu về giấy phép lái; đọc hợp đồng và hiểu khoản cọc, trách nhiệm hư hỏng — mất xe; kiểm tra xe kỹ càng lúc nhận vì đường biển và núi làm hao mòn nhanh. Bài viết này tổng hợp kinh nghiệm thuê xe ở Đà Nẵng dành cho người mới bắt đầu, từ khâu chuẩn bị đến lúc trả xe, kèm những lưu ý đặc thù của thành phố biển mà không nơi nào lặp lại y hệt.',

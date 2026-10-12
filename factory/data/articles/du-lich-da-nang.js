@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'du-lich-da-nang',
-  title: 'Hướng dẫn chi tiết về du lịch đà nẵng',
+  title: 'Hướng dẫn chi tiết về du lịch Đà Nẵng',
   seoTitle: 'Du lịch Đà Nẵng: hướng dẫn chi tiết cho chuyến đi',
   metaDescription: 'Hướng dẫn du lịch Đà Nẵng theo hướng đi xe máy: chọn thời điểm, xếp lịch theo ngày, ven biển, Sơn Trà, Hải Vân và kinh nghiệm thực tế cho chuyến đi trọn vẹn.',
   summary: 'Du lịch Đà Nẵng gần như là một bài toán đã có lời giải sẵn: thành phố biển có đường sá rộng rãi, các điểm đến trải dọc bờ biển và chân núi, khí hậu chia mùa rõ rệt, và dịch vụ du lịch phát triển lâu năm. Nhưng chính vì quá nhiều thứ để trải nghiệm trong một chuyến đi, cách xếp lịch quyết định chất lượng chuyến đi nhiều hơn số ngày lưu lại. Bài viết này là hướng dẫn chi tiết theo hướng của người đi xe máy — cách di chuyển hợp nhất để khám phá thành phố này: chọn thời điểm trong năm theo mùa khí hậu và mùa du lịch, xác định số ngày hợp lý và phân bổ các khu vực chơi theo ngày, hiểu bản đồ các nhóm điểm đến từ phố — biển — núi, cách lên kế hoạch cho tuyến đèo nếu có ý định đi xa hơn, những thứ nên chuẩn bị cho chuyến đi xe máy đa ngày, và những kinh nghiệm thực tế về ăn nghỉ, gửi xe và an toàn mà hướng dẫn du lịch nói chung thường bỏ qua. Mục tiêu: sau khi đọc hết, bạn có thể tự dựng được một lịch trình phù hợp với thời gian và sở thích của riêng mình.',

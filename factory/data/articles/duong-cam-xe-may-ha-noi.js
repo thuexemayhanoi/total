@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'duong-cam-xe-may-ha-noi',
-  title: 'Đường cấm xe máy hà nội — những điều cần biết',
+  title: 'Đường cấm xe máy Hà Nội — những điều cần biết',
   seoTitle: 'Đường cấm xe máy ở Hà Nội: đọc biển, tránh sai và xử khi đi nhầm',
   metaDescription: 'Hà Nội có nhiều tuyến cấm xe máy theo giờ và khu vực. Hướng dẫn đọc biển cấm, nhận diện khu một chiều, xử khi đi nhầm và cách tra thông tin đang hiệu lực.',
   summary: 'Đi xe máy ở Hà Nội, sớm muộn bạn cũng gặp một tấm biển cấm đúng lúc cần rẽ — và câu hỏi "lui lại hay chạy tiếp" là câu hỏi sai lầm nhiều người trả bằng cảm tính, với cái giá là cả một vụ va chạm lùi trên phố đông hoặc một phiên xử phạt. Thực tế là mạng lưới cấm của Hà Nội không cố định: có tuyến cấm toàn thời gian, có tuyến cấm theo khung giờ cao điểm, có khu phố đi bộ cuối tuần, và có cả những đoạn một chiều mà người đi nhầm lẫn với "cấm". Bài viết này không liệt kê danh sách đường cấm — danh sách thay đổi theo từng đợt điều chỉnh của thành phố và đọc trên mạng rất dễ gặp bản cũ — mà dạy cách tự bảo vệ mình bằng đúng nguồn: đọc biển cấm và biển phụ chuẩn, phân biệt các dạng hạn chế lưu thông thường gặp ở Hà Nội, xử lý an toàn khi lỡ đi vào đường cấm, hiểu khung xử phạt theo quy định hiện hành mà không cần nhớ con số, và cách tra thông tin điều chỉnh giao thông đang hiệu lực trước mỗi chuyến đi xa khu quen thuộc.',

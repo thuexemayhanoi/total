@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'gio-cao-diem-ha-noi',
-  title: 'Kinh nghiệm giờ cao điểm hà nội dành cho người mới',
+  title: 'Kinh nghiệm giờ cao điểm Hà Nội dành cho người mới',
   seoTitle: 'Giờ cao điểm Hà Nội: né tắc, đi an toàn và lên lịch đi lại',
   metaDescription: 'Giờ cao điểm Hà Nội tập trung sáng và chiều ở các trục lớn, đầu cầu, cổng trường. Kinh nghiệm nhận diện, né tránh và đi an toàn trong dòng xe đông cho người mới.',
   summary: 'Giờ cao điểm ở Hà Nội không phải một khung giờ chung cho cả thành phố — đó là tập hợp của hàng trăm cục đông nhỏ xuất hiện và tan ra quanh các cổng trường, cổng cơ quan, đầu cầu và ngã tư lớn, đan xen theo lịch sinh hoạt của từng khu dân cư. Người mới đến thường bị bất ngờ không phải vì xe đông, mà vì sự bất ngờ: cùng một con đường, hôm nay thông thoáng và ngày mai cứng, chỉ vì lịch tan làm khác nhau một ngày. Kinh nghiệm đi trong giờ cao điểm vì vậy là kỹ năng đọc nhịp thành phố: biết khung giờ nào các cụm đông xuất hiện, biết hình dạng của dòng xe lúc dày đặc, biết các chiến lược né tránh theo giờ — dời lịch, đổi trục, hoặc chấp nhận đi trong dòng với kỹ năng đúng kiểu. Bài viết này tổng hợp kinh nghiệm cho người mới: bản đồ nhịp cao điểm của Hà Nội theo khung giờ, cách nhận diện sớm sắp tắc khi đang đi, ba chiến lược né và một chiến lược đi trong dòng an toàn, các lỗi đuôi thường gặp của người mới trong giờ đông, và cách xây dựng lịch đi lại hằng ngày không lao đầu vào giờ cao điểm mỗi sáng.',

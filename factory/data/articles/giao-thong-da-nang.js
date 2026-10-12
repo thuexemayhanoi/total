@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'giao-thong-da-nang',
-  title: 'Giao thông đà nẵng — những điều cần biết',
+  title: 'Giao thông Đà Nẵng — những điều cần biết',
   seoTitle: 'Giao thông Đà Nẵng: những điều cần biết khi đi lại',
   metaDescription: 'Giao thông Đà Nẵng có gì riêng? Bố cục dọc sông Hàn, hệ thống đường một chiều, giờ cao điểm, vòng xoay và tuyến ven biển — tổng hợp cho người mới đến.',
   summary: 'Đà Nẵng thường được nhắc tên trong nhóm những thành phố có giao thông dễ chịu bậc nhất Việt Nam: đường sá rộng, quy hoạch rõ, mật độ xe chưa dày đặc như hai đô thị lớn nhất nước. Nhưng dễ chịu không nghĩa là không có gì cần biết — giao thông Đà Nẵng có một bố cục riêng trải dọc theo sông Hàn, với hệ thống cầu nối hai bờ giữ vai trò xương sống, các tuyến đường một chiều định hình cách di chuyển trong trung tâm, và một dòng chảy có nhịp riêng: cao điểm nhẹ hơn nơi khác nhưng vẫn có, mùa du lịch tạo áp lực lên tuyến ven biển, và các sự kiện lớn của thành phố có thể tổ chức lại giao thông trong cả một khu vực. Bài viết này tổng hợp những điều cần biết về giao thông Đà Nẵng: đọc bố cục thành phố theo sông và cầu, cách hoạt động của đường một chiều và vòng xoay, nhịp giờ cao điểm thật sự, đặc điểm của tuyến ven biển, và những nguyên tắc an toàn đáng hình thành khi đi lại thường xuyên trong thành phố.',

@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'di-xe-o-ha-noi',
-  title: 'Tổng hợp kiến thức: đi xe ở hà nội',
+  title: 'Tổng hợp kiến thức: đi xe ở Hà Nội',
   seoTitle: 'Đi xe ở Hà Nội: địa lý, giờ cao điểm, mùa và cách lên tuyến',
   metaDescription: 'Đi xe ở Hà Nội dễ hơn khi hiểu bố cục thành phố, nhịp giờ cao điểm, mùa mưa và cách chọn tuyến. Tổng hợp kiến thức di chuyển quanh Hà Nội cho người mới.',
   summary: 'Đi xe ở Hà Nội không khó vì đường xấu hay xe đông — mọi thành phố đều có những thứ đó. Đi xe ở Hà Nội khó vì thành phố có nhịp riêng: một quãng đường thông thoáng lúc chín giờ sáng có thể tắc cứng lúc sáu giờ chiều; một tuyến quen thuộc mùa hanh có thể ngập sau một cơn mưa chiều mùa hạ; và một khu vực dễ gửi xe giữa tuần lại thành nỗi ám ảnh vào tối cuối tuần quanh không gian đi bộ. Người mới đến — và cả người sống lâu năm mà vẫn đi theo thói quen — sẽ nhanh hơn hẳn nếu nắm được những kiến thức nền: bố cục địa lý của thành phố với các khu chính và vai trò của sông Hồng cùng các cây cầu, cách lên tuyến đường theo giờ trong ngày, nhận biết nhịp cao điểm thật của từng khu, chuẩn bị theo mùa mưa — nóng — rét của miền Bắc, và quy luật của hệ thống gửi xe vốn là "trạm dừng" của mọi hành trình trong phố. Bài viết tổng hợp các kiến thức này thành một bức tranh liền mạch, giúp bạn không chỉ lái được ở Hà Nội mà đọc được thành phố — biết vì sao đường này giờ này đông, và dự đoán được điều gì sắp xảy ra ở ngã tư kế tiếp.',
