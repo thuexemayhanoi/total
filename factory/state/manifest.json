@@ -1648,6 +1648,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/bo-sac-xe-may-dien-bi-hong-dau-hieu-nhan-biet/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/bo-thang-phanh-tang-trong-mon/index.html",
   "kind": "article"
  },
@@ -3724,6 +3728,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/truyen-dong/tieng-keu-tu-bo-noi-xe-tay-ga/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/truyen-dong/tieng-keu-tu-hop-so-xe-so/index.html",
   "kind": "article"
  },
@@ -3912,6 +3920,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-dien-khong-len-nguon-kiem-tra-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dien-ac-quy/xe-may-hao-binh-qua-dem/index.html",
   "kind": "article"
  },
@@ -3937,6 +3949,10 @@
  },
  {
   "rel": "local/tinh-thanh/xe-may-nong-thon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phun-xang-che-hoa-khi/xe-may-tu-ro-ga-hoac-ga-cam-chung-cao/index.html",
   "kind": "article"
  },
  {
@@ -3988,6 +4004,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/truyen-dong/xe-tay-ga-bi-giat-khi-di-cham/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dong-co/xe-tay-ga-ro-ga-khong-len-toc-do/index.html",
   "kind": "article"
  },
@@ -4029,6 +4049,10 @@
  },
  {
   "rel": "wiki/cau-tao-xe/yen-va-cop-xe-may-khong-mo/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/yen-xe-may-bi-rach-lun-hoac-tham-nuoc/index.html",
   "kind": "article"
  },
  {

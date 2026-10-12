@@ -8612,6 +8612,34 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/bo-sac-xe-may-dien-bi-hong-dau-hieu-nhan-biet/",
+  "title": "Bộ sạc xe máy điện có dấu hiệu hỏng: đèn báo, nóng bất thường và những điều không nên tự làm",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bài giải thích bộ sạc xe máy điện làm gì giữa ổ cắm và pin, vì sao ý nghĩa đèn báo phải đối chiếu với tài liệu đi kèm đúng bộ sạc, và những dấu hiệu bất thường cần dừng dùng như nóng quá mức, mùi khét, tiếng lạ, vỏ biến dạng hay dây nứt. Nội dung cũng hướng dẫn phân biệt lỗi bộ sạc, ổ cắm và pin bằng quan sát, nêu rõ những việc không nên tự làm như mở vỏ bộ sạc hay dùng sạc không đúng loại, và lúc nào nên nhờ nơi có chuyên môn.",
+  "quickAnswer": "Bộ sạc xe máy điện có thể hỏng khi đèn báo lạ so với tài liệu đi kèm, vỏ nóng hơn hẳn thường lệ, có mùi khét, tiếng lạ, vỏ phồng hoặc dây nứt. Trước khi kết luận, hãy loại trừ ổ cắm, dây nối, cổng sạc và việc pin tạm ngắt nạp. Không mở bộ sạc, không dùng sạc sai loại; có dấu hiệu nguy hiểm thì ngừng dùng và nhờ nơi có chuyên môn.",
+  "keyPoints": [
+   "Bộ sạc chuyển điện xoay chiều ở ổ cắm thành điện một chiều có kiểm soát cho pin, nên khi hỏng có thể biểu hiện bằng đèn lạ, sạc không lên, nóng hoặc nạp không đầy.",
+   "Ý nghĩa của đèn báo khác nhau giữa các bộ sạc, vì vậy phải đối chiếu với tài liệu đi kèm đúng bộ sạc, không suy từ bộ sạc khác hay lời truyền miệng.",
+   "Nóng hơn hẳn lúc trước, mùi khét, tiếng rít hay lách tách, vỏ phồng nứt, dây lộ lõi hoặc phích đổi màu là các dấu hiệu cần dừng dùng ngay.",
+   "Ổ cắm, dây nối, cổng sạc và mạch bảo vệ của pin đều có thể gây triệu chứng giống bộ sạc hỏng, nên cần loại trừ từng khâu bằng quan sát trước khi kết luận."
+  ],
+  "entities": [
+   "bộ sạc xe máy điện",
+   "đèn báo trạng thái sạc",
+   "ổ cắm và dây nguồn",
+   "cổng sạc và đầu nối",
+   "mạch quản lý pin",
+   "khối pin xe điện"
+  ],
+  "keywords": [
+   "bộ sạc xe điện bị hỏng",
+   "sạc xe điện bị nhấp nháy",
+   "củ sạc xe máy điện nóng",
+   "bộ sạc xe máy điện có dấu hiệu hỏng"
+  ]
+ },
+ {
   "url": "wiki/he-thong-phanh/bo-thang-phanh-tang-trong-mon/",
   "title": "Bố thắng phanh tang trống mòn: tay phanh sâu dần, tiếng kêu và cách nhận biết khi bảo dưỡng",
   "category": "Bách khoa xe",
@@ -22728,6 +22756,34 @@
   ]
  },
  {
+  "url": "garage/truyen-dong/tieng-keu-tu-bo-noi-xe-tay-ga/",
+  "title": "Tiếng kêu từ bộ nồi xe tay ga: cạch cạch, dọng, hú hoặc rít và cách mô tả để thợ chẩn đoán",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "summary": "Bài giúp người dùng xe tay ga phân loại tiếng kêu từ vùng bánh sau theo điều kiện xuất hiện: lúc nhả ga, lúc ga nhỏ khi nhích chậm, lúc chạy đều và lúc lên dốc hoặc chở nặng. Nội dung liên hệ từng âm cạch cạch, dọng, hú và rít với bố nồi mòn, lò xo yếu, chuông nồi mòn hoặc lệch, rồi chỉ ra cách phân biệt với tiếng đai, bạc đạn và dầu hộp số. Bài cũng hướng dẫn ghi chú để thợ nghe đúng điều kiện và giải thích vì sao không nên tự tháo nồi.",
+  "quickAnswer": "Tiếng kêu từ bộ nồi nên được phân theo điều kiện: cạch cạch lúc cầm chừng hoặc nhả ga gợi ý má lỏng hay lò xo yếu, dọng lúc xe vừa ăn nồi gợi ý bố nồi hoặc chuông mòn lệch, rít lúc xuất phát gợi ý trượt ma sát, còn hú đều theo tốc độ xe thường nghiêng về bạc đạn hoặc hộp số. Đây chỉ là gợi ý; hãy ghi lại hoàn cảnh xảy ra rồi giao thợ, không tự tháo nồi.",
+  "keyPoints": [
+   "Bộ nồi có ba trạng thái là ngắt, trượt và bám chặt, nên cùng một chi tiết hỏng có thể im ở trạng thái này nhưng kêu ở trạng thái khác; điều kiện xuất hiện của tiếng là manh mối đầu tiên.",
+   "Cạch cạch khô và gọn thường nghe lúc cầm chừng hoặc nhả ga, gợi ý độ rơ của má hay lò xo yếu; dọng trầm theo nhịp lúc xe vừa ăn nồi gợi ý bố nồi hoặc chuông mòn không đều.",
+   "Rít sắc lúc xuất phát, nhất là kèm mùi khét, gợi ý trượt ma sát do bố nồi chai bóng, dính dầu hoặc đai trượt; hú đều theo tốc độ xe thường nghiêng về bạc đạn hay bánh răng hộp số.",
+   "Tiếng gắn với vòng quay máy thường thuộc cụm truyền động phía máy, còn tiếng gắn với tốc độ bánh xe thường thuộc bạc đạn hoặc hộp số; nhả ga mà tiếng vẫn còn là chi tiết đáng ghi lại."
+  ],
+  "entities": [
+   "bộ nồi xe tay ga",
+   "bố nồi",
+   "chuông nồi",
+   "lò xo giữ má",
+   "bạc đạn bánh sau",
+   "dầu hộp số"
+  ],
+  "keywords": [
+   "bộ nồi xe tay ga kêu",
+   "nồi xe máy kêu cạch cạch",
+   "nồi xe ga bị hú",
+   "nồi xe ga bị dọng"
+  ]
+ },
+ {
   "url": "garage/truyen-dong/tieng-keu-tu-hop-so-xe-so/",
   "title": "Tiếng kêu từ hộp số xe số: rít, gầm, lạch cạch ở từng số và cách mô tả để thợ chẩn đoán",
   "category": "Sửa chữa",
@@ -24072,6 +24128,34 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/xe-may-dien-khong-len-nguon-kiem-tra-gi/",
+  "title": "Xe máy điện bật khóa không lên nguồn hoặc không lên màn hình: những điểm quan sát an toàn trước khi gọi thợ",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bài giải thích vì sao xe máy điện có thể bật khóa mà không lên nguồn hoặc không lên màn hình, theo nguyên lý chuỗi cấp nguồn từ pin, mạch bảo vệ, khóa điện, công tắc an toàn tới bộ điều khiển. Nội dung chỉ ra những điểm người dùng có thể quan sát an toàn như xe đã đủ điện chưa, chân chống, tay phanh, nút nguồn phụ và đầu nối nhìn thấy được, đồng thời nêu rõ dấu hiệu phải dừng ngay như mùi khét, nóng bất thường, nước vào, cùng ranh giới tuyệt đối không mở pin hay đấu dây.",
+  "quickAnswer": "Xe máy điện không lên nguồn thường do một chặng trong chuỗi từ pin tới bộ điều khiển bị đứt hoặc bị chặn có chủ đích. Bạn chỉ nên kiểm tra những điều an toàn: xe còn đủ điện không, nút nguồn phụ đã bật chưa, chân chống đã gạt lên chưa. Có mùi khét, nóng bất thường hay nước vào thì dừng ngay. Không mở pin, không đấu dây, hãy ghi lại triệu chứng rồi đưa xe cho nơi có chuyên môn.",
+  "keyPoints": [
+   "Điện đi qua nhiều chặng gồm pin, mạch bảo vệ, đầu nối, khóa điện, công tắc an toàn rồi tới bộ điều khiển; một chặng đứt hoặc chặn lại là xe bật không lên.",
+   "Điểm quan sát an toàn gồm xe đã đủ điện chưa, nút nguồn phụ, chân chống, tay phanh, ổ sạc và các đầu nối chỉ nhìn bằng mắt, không rút cắm hay mở vỏ.",
+   "Công tắc an toàn lệch hoặc bẩn và chế độ bảo vệ của pin đều có thể chặn nguồn, với bề ngoài rất giống pin hỏng; cách bố trí cụ thể tùy xe.",
+   "Mùi khét, nóng bất thường, vỏ pin phồng hoặc rỉ dịch, nước vào là lý do dừng ngay, không bật lại, không sạc, không thử thêm."
+  ],
+  "entities": [
+   "chuỗi cấp nguồn",
+   "pin xe máy điện",
+   "mạch bảo vệ pin",
+   "công tắc chân chống",
+   "công tắc phanh",
+   "bộ điều khiển"
+  ],
+  "keywords": [
+   "xe máy điện không lên nguồn",
+   "xe điện không lên màn hình",
+   "xe điện bật không lên",
+   "xe máy điện bật khóa không có điện"
+  ]
+ },
+ {
   "url": "garage/dien-ac-quy/xe-may-hao-binh-qua-dem/",
   "title": "Xe máy hao bình qua đêm: tìm nguyên nhân rò điện và phụ kiện hút điện khi đã tắt khóa",
   "category": "Sửa chữa",
@@ -24266,6 +24350,34 @@
    "đi xe đường làng",
    "người mới đi xe máy",
    "kinh nghiệm đi đường đất"
+  ]
+ },
+ {
+  "url": "garage/phun-xang-che-hoa-khi/xe-may-tu-ro-ga-hoac-ga-cam-chung-cao/",
+  "title": "Xe máy tự rồ ga hoặc ga cầm chừng cao bất thường: rò khí nạp, họng ga, cảm biến và điều nên làm",
+  "category": "Sửa chữa",
+  "hub": "Phun xăng chế hòa khí",
+  "summary": "Bài giúp bạn hiểu vì sao xe máy có thể tự rồ ga hoặc giữ vòng tua cầm chừng cao dù đã nhả tay ga. Nội dung phân biệt cầm chừng bình thường với rồ ga bất thường, rồi tách các nhóm nguyên nhân gồm hút gió phụ ở cổ hút và các mối nối, họng ga bẩn hoặc lệch, cảm biến báo sai ở xe phun xăng, chỉnh cầm chừng sai ở xe chế hòa khí, và tay ga hoặc dây ga bị kẹt. Bài cũng nêu dấu hiệu đi kèm, cách dừng xe an toàn khi vòng tua không hạ và lúc cần giao thợ.",
+  "quickAnswer": "Xe máy tự rồ ga thường do không khí vào máy nhiều hơn mức cầm chừng cần: hở cổ hút hoặc mối nối, họng ga bẩn hay lệch, cảm biến báo sai ở xe phun xăng, chỉnh cầm chừng sai ở xe chế hòa khí, hoặc dây ga trả về không hết. Tay ga lì và vòng tua đổi theo bẻ lái gợi ý dây ga. Nếu vòng tua không hạ, bóp phanh, dừng xe an toàn rồi tắt máy bằng công tắc tắt máy.",
+  "keyPoints": [
+   "Cầm chừng cao hơn một chút lúc mới nổ rồi hạ dần khi máy ấm là bình thường ở nhiều xe; bất thường là máy đã ấm mà vòng tua vẫn cao, lên xuống như sóng hoặc hạ rất chậm sau khi nhả ga.",
+   "Hút gió phụ qua cổ hút nứt, mối nối lỏng hay gioăng hở làm máy nhận thêm không khí ngoài tính toán, thường kèm tiếng xì nhỏ, nổ lụp bụp hoặc vòng tua dao động.",
+   "Họng ga bẩn hoặc lệch và cảm biến báo sai khiến xe phun xăng giữ vòng tua cao; xe chế hòa khí thì hay gặp chỉnh cầm chừng sai hoặc bộ làm đậm không nhả hết.",
+   "Tay ga lì, trả chậm, vòng tua đổi theo bẻ lái là gợi ý dây ga hoặc tay ga kẹt, khác với kiểu rồ ga kèm tiếng xì hay đèn báo lỗi động cơ."
+  ],
+  "entities": [
+   "vòng tua cầm chừng",
+   "cổ hút",
+   "hút gió phụ",
+   "họng ga",
+   "cảm biến vị trí bướm ga",
+   "dây ga"
+  ],
+  "keywords": [
+   "xe máy tự rồ ga",
+   "ga cầm chừng cao",
+   "xe máy rồ ga khi vừa nổ",
+   "vòng tua cầm chừng không hạ"
   ]
  },
  {
@@ -24608,6 +24720,34 @@
   ]
  },
  {
+  "url": "garage/truyen-dong/xe-tay-ga-bi-giat-khi-di-cham/",
+  "title": "Xe tay ga giật khi đi chậm hoặc rung ở ga đầu: bộ truyền động, bố nồi và những điều cần ghi lại",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "summary": "Bài giải thích vì sao xe tay ga hay giật hoặc gợn từng nhịp khi xuất phát và giữ ga nhỏ, nhưng chạy nhanh lại êm: đó là vùng bố nồi còn đang trượt, đai và con lăn mới bắt đầu dịch chuyển nên sai lệch nhỏ cũng lộ ra. Nội dung điểm qua các nguyên nhân thường gặp theo từng bộ phận gồm bố nồi mòn hoặc dính dầu, lò xo yếu, chuông nồi mòn, đai mòn và con lăn mòn, cách phân biệt với hụt ga do nhiên liệu hay đánh lửa, rồi hướng dẫn ghi lại điều kiện xuất hiện và ranh giới giao thợ.",
+  "quickAnswer": "Xe tay ga giật khi đi chậm nhưng chạy nhanh lại êm thường gợi ý bộ truyền động: bố nồi mòn hoặc dính dầu, lò xo yếu, đai mòn hay con lăn mòn, vì vùng ga nhỏ là lúc các chi tiết này phối hợp nhạy nhất. Tiếng máy đều mà thân xe nhấp nhả nghiêng về truyền động; máy khựng, nổ lụp bụp nghiêng về nhiên liệu hoặc đánh lửa. Hãy ghi lại điều kiện xuất hiện, nhờ thợ kiểm tra.",
+  "keyPoints": [
+   "Giật nhiều nhất lúc xuất phát và ga nhỏ vì bố nồi còn đang trượt trên chuông nồi; lên tốc độ bố nồi bám chặt nên xe êm trở lại.",
+   "Bố nồi mòn không đều, chai bóng hoặc dính dầu mỡ, lò xo yếu và chuông nồi mòn đều có thể làm lực kéo đến từng nhịp thay vì mượt.",
+   "Đai mòn hoặc con lăn mòn làm tỷ số truyền thay đổi không đều, thường lộ ra thành gợn hoặc rung ở ga đầu; chi tiết cụ thể tùy xe.",
+   "Tiếng máy đều mà thân xe nhấp nhả gợi ý truyền động; máy khựng, nổ lụp bụp hoặc cầm chừng không đều gợi ý nhiên liệu hay đánh lửa."
+  ],
+  "entities": [
+   "bộ truyền động xe tay ga",
+   "bố nồi",
+   "chuông nồi",
+   "đai truyền động",
+   "con lăn trong puly",
+   "lò xo bố nồi"
+  ],
+  "keywords": [
+   "xe tay ga bị giật khi đi chậm",
+   "xe tay ga rung ga đầu",
+   "xe ga gợn từng cơn khi đi chậm",
+   "xe ga giật lúc mới xuất phát"
+  ]
+ },
+ {
   "url": "garage/dong-co/xe-tay-ga-ro-ga-khong-len-toc-do/",
   "title": "Xe tay ga rồ ga nhưng không lên tốc độ: phân biệt bố nồi, dây curoa và bi nồi",
   "category": "Sửa chữa",
@@ -24915,6 +25055,34 @@
    "yên xe máy không mở",
    "bản lề yên xe máy lỏng",
    "yên xe máy rung lách cách khi chạy"
+  ]
+ },
+ {
+  "url": "wiki/cau-tao-xe/yen-xe-may-bi-rach-lun-hoac-tham-nuoc/",
+  "title": "Yên xe máy bị rách, lún hoặc thấm nước: vì sao hỏng, tác động tới ngồi lái và hướng xử lý",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "summary": "Bài giải thích cấu tạo yên gồm lớp bọc, mút xốp và đế cứng, rồi lần theo chuỗi hư hỏng từ vết rách nhỏ, nước thấm vào mút, mút mềm rã và lún. Nội dung chỉ ra yên xuống cấp làm thay đổi tư thế ngồi lái, độ vững khi dừng và khi chở người ngồi sau, đồng thời so sánh ba hướng xử lý là vá tạm, bọc lại và thay yên ở mức nguyên tắc, kèm những điều nên kiểm tra khi thay và thói quen giữ yên bền.",
+  "quickAnswer": "Yên rách, lún hoặc thấm nước thường bắt đầu từ lớp bọc nứt hay đường may hở, rồi nước vào làm mút xốp mềm rã và lún. Mút còn khô, đàn hồi và đế nguyên thì vá tạm hoặc bọc lại thường đủ; mút ẩm mốc, lún sâu hoặc đế, bản lề, khóa hỏng thì nên thay yên. Yên lún lệch làm xấu tư thế ngồi lái, còn yên khóa không chắc thì không nên chạy.",
+  "keyPoints": [
+   "Yên gồm ba tầng là lớp bọc, mút xốp và đế cứng; mỗi tầng hỏng theo một kiểu riêng nên phải xác định hỏng ở tầng nào trước khi chọn cách xử lý.",
+   "Vết rách và đường may hở cho nước vào, mút xốp hút nước như bọt biển và giữ lâu, rồi mềm rã và lún: một vòng luẩn quẩn càng để lâu càng nặng.",
+   "Yên lún lệch làm người lái ngồi thấp, dồn trọng lượng lên tay và lưng, còn mặt yên ướt hoặc trơn dễ làm trượt người khi phanh và dừng.",
+   "Vá tạm chỉ chặn nước ngắn ngày, bọc lại hợp khi mút còn tốt, thay yên khi mút, đế, bản lề hoặc khóa đã hỏng; điều quyết định là tình trạng mút chứ không chỉ lớp bọc."
+  ],
+  "entities": [
+   "yên xe máy",
+   "lớp bọc yên",
+   "mút xốp",
+   "đế yên",
+   "đường may",
+   "tư thế ngồi lái"
+  ],
+  "keywords": [
+   "yên xe máy bị rách",
+   "yên xe máy bị lún",
+   "yên xe máy thấm nước",
+   "bọc yên xe máy"
   ]
  }
 ]
