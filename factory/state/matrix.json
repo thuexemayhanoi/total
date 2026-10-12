@@ -15588,11 +15588,13 @@
    "title": "Blow-by và hơi lọt qua séc-măng: thuật ngữ này nghĩa là gì và biểu hiện ra sao",
    "primaryIntent": "informational/blow-by-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001143",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.242Z",
-   "updatedAt": "2026-10-12T10:16:36.242Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 91,
+   "words": 1865
   },
   {
    "id": "S01084",
@@ -15601,11 +15603,13 @@
    "title": "Hệ thống tạm ngắt máy khi dừng đèn đỏ trên xe tay ga: hoạt động và ảnh hưởng tới ắc quy",
    "primaryIntent": "informational/he-thong-idling-stop-xe-tay-ga",
    "notes": "source=topic-v2 topicId=T001134",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.257Z",
-   "updatedAt": "2026-10-12T10:16:36.257Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 100,
+   "words": 1839
   },
   {
    "id": "S01085",
@@ -15614,11 +15618,13 @@
    "title": "Cảm biến nghiêng ngắt máy khi xe đổ: vì sao xe tắt và cách khởi động lại",
    "primaryIntent": "informational/cam-bien-nghieng-xe-may",
    "notes": "source=topic-v2 topicId=T001133",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.268Z",
-   "updatedAt": "2026-10-12T10:16:36.268Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 91,
+   "words": 1796
   },
   {
    "id": "S01086",
@@ -15627,11 +15633,13 @@
    "title": "Công tơ mét xe cũ có bị chỉnh không: đối chiếu số km hiển thị với độ mòn thực tế của xe",
    "primaryIntent": "informational/xe-cu-bi-chinh-cong-to-met",
    "notes": "source=topic-v2 topicId=T001122",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.279Z",
-   "updatedAt": "2026-10-12T10:16:36.279Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 100,
+   "words": 1848
   },
   {
    "id": "S01087",
@@ -15640,11 +15648,13 @@
    "title": "Lốp nứt chân gai và già hóa dù chưa mòn: khi nào bắt buộc phải thay",
    "primaryIntent": "troubleshooting/lop-xe-may-nut-chan-gai",
    "notes": "source=topic-v2 topicId=T001096",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.292Z",
-   "updatedAt": "2026-10-12T10:16:36.292Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 91,
+   "words": 1687
   },
   {
    "id": "S01088",
@@ -15653,11 +15663,13 @@
    "title": "Xe số khó vào số 1 hoặc hay nhảy số: phân biệt lỗi côn, nhớt hộp số và càng số",
    "primaryIntent": "troubleshooting/xe-so-kho-vao-so-1",
    "notes": "source=topic-v2 topicId=T001085",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.302Z",
-   "updatedAt": "2026-10-12T10:16:36.302Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 100,
+   "words": 1830
   },
   {
    "id": "S01089",
@@ -15666,11 +15678,13 @@
    "title": "Chìa khóa thông minh smart key trên xe tay ga: cách dùng, thay pin và xử lý khi không mở được xe",
    "primaryIntent": "informational/cach-dung-smart-key-xe-tay-ga",
    "notes": "source=topic-v2 topicId=T001164",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.313Z",
-   "updatedAt": "2026-10-12T10:16:36.313Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 91,
+   "words": 1747
   },
   {
    "id": "S01090",
@@ -15679,11 +15693,13 @@
    "title": "Kiểm tra xe mới nhận từ đại lý trước khi ký biên bản giao xe: các điểm cần xem tận nơi",
    "primaryIntent": "informational/kiem-tra-xe-moi-khi-nhan-tu-dai-ly",
    "notes": "source=topic-v2 topicId=T001166",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.328Z",
-   "updatedAt": "2026-10-12T10:16:36.328Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 100,
+   "words": 1794
   },
   {
    "id": "S01091",
@@ -15705,11 +15721,13 @@
    "title": "Giấy phép lái xe hạng A1, A và B1 không thời hạn: hiểu đúng khái niệm và những việc vẫn phải làm",
    "primaryIntent": "informational/giay-phep-lai-xe-a1-khong-thoi-han",
    "notes": "source=topic-v2 topicId=T001159",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T10:16:36.351Z",
-   "updatedAt": "2026-10-12T10:16:36.351Z"
+   "updatedAt": "2026-10-12T10:51:22.515Z",
+   "seoScore": 100,
+   "words": 1871
   },
   {
    "id": "S01093",

@@ -11962,6 +11962,37 @@
  },
  {
   "kind": "article",
+  "url": "wiki/thuat-ngu-xe/blow-by-xe-may-la-gi/",
+  "title": "Blow-by và hơi lọt qua séc-măng: thuật ngữ này nghĩa là gì và biểu hiện ra sao",
+  "description": "Blow-by là phần khí cháy lọt qua séc-măng xuống các-te. Bài giải thích thuật ngữ bằng hình dung đơn giản, các biểu hiện thường gặp và mức độ cần đưa xe đi kiểm tra.",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "entities": [
+   "blow-by",
+   "séc-măng",
+   "xi lanh",
+   "các-te",
+   "thông hơi các-te"
+  ],
+  "keywords": [
+   "blow-by xe máy là gì",
+   "hơi lọt séc măng",
+   "khói từ lỗ thông hơi các-te",
+   "xe máy hao nhớt"
+  ],
+  "seoTitle": "Blow-by xe máy là gì: hơi lọt séc-măng và dấu hiệu nhận biết",
+  "primaryKeyword": "blow-by xe máy là gì",
+  "headings": [
+   "Blow-by nghĩa là gì",
+   "Hơi lọt qua séc-măng xảy ra thế nào",
+   "Biểu hiện người dùng có thể nhận thấy",
+   "Mức độ nghiêm trọng và cách theo dõi",
+   "Vì sao cần thợ chẩn đoán"
+  ],
+  "summary": "Bài giải thích blow-by (hơi lọt qua séc-măng) là gì, vì sao một lượng nhỏ là bình thường còn lượng tăng dần là dấu hiệu xuống cấp, người dùng có thể nhận thấy gì qua mức nhớt, khói thông hơi và sức máy, và vì sao cần thợ đo kiểm trước khi kết luận."
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/bo-phan-xe-may/",
   "title": "Tổng hợp kiến thức: bộ phận xe máy",
   "description": "Danh mục các bộ phận xe máy theo nhóm: bộ phận vận hành, an toàn, điện, tiện nghi — mỗi bộ phận làm gì và chăm sóc thế nào cho đúng.",
@@ -12065,6 +12096,37 @@
  },
  {
   "kind": "article",
+  "url": "docs/huong-dan-su-dung/cach-dung-smart-key-xe-tay-ga/",
+  "title": "Chìa khóa thông minh smart key trên xe tay ga: cách dùng, thay pin và xử lý khi không mở được xe",
+  "description": "Hướng dẫn dùng smart key xe tay ga: cách hoạt động, dấu hiệu pin chìa yếu, thay pin đúng cách, các bước thử khi xe không nhận chìa và lưu ý bảo quản chống trộm.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [
+   "smart key",
+   "chìa khóa thông minh",
+   "xe tay ga",
+   "pin chìa",
+   "ắc quy"
+  ],
+  "keywords": [
+   "cách dùng smart key xe tay ga",
+   "thay pin chìa khóa thông minh",
+   "smart key không mở được xe",
+   "xe không nhận chìa khóa"
+  ],
+  "seoTitle": "Smart key xe tay ga: cách dùng, thay pin và khi xe không nhận chìa",
+  "primaryKeyword": "cách dùng smart key xe tay ga",
+  "headings": [
+   "Smart key hoạt động thế nào",
+   "Dấu hiệu pin chìa yếu",
+   "Thay pin chìa đúng cách",
+   "Khi xe không nhận chìa: các bước thử",
+   "Lưu ý bảo quản chìa và chống trộm"
+  ],
+  "summary": "Bài hướng dẫn người dùng xe tay ga có smart key: chìa nhận diện thế nào, dấu hiệu pin chìa yếu, cách thay pin an toàn, những bước thử khi xe không nhận chìa hoặc không mở được khóa, và các lưu ý về cách giữ chìa để vừa tiện vừa hạn chế rủi ro mất trộm."
+ },
+ {
+  "kind": "article",
   "url": "moto/xe-con-tay/cach-lai-xe-con/",
   "title": "Hướng dẫn chi tiết về cách lái xe côn",
   "description": "Hướng dẫn chi tiết cách lái xe côn tay: bố trí tay lái, điểm ăn côn, khởi động, sang số, dừng dốc và các lỗi thường gặp.",
@@ -12094,6 +12156,37 @@
    "Kế hoạch hai tuần và nhóm lỗi cần sửa"
   ],
   "summary": "Lái xe côn tay là kỹ năng mở cánh cửa sang cả một lớp xe rộng hơn — từ dòng thể thao phổ thông đến mô tô lớn — nhưng với người mới, nó trông đáng ngại hơn bản chất của nó. Sự thật là: côn chỉ có bốn thao tác lặp lại (vào số, nhả côn, ga, và về số), và mọi tay "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dien-xe/cam-bien-nghieng-xe-may/",
+  "title": "Cảm biến nghiêng ngắt máy khi xe đổ: vì sao xe tắt và cách khởi động lại",
+  "description": "Cảm biến nghiêng tự ngắt máy khi xe ngã để giảm nguy cơ cháy. Bài giải thích mục đích, cách nhận biết trạng thái ngắt, cách đặt lại và khi nào cần kiểm tra thêm.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "cảm biến nghiêng",
+   "xe máy",
+   "khóa điện",
+   "ngắt đánh lửa",
+   "an toàn"
+  ],
+  "keywords": [
+   "cảm biến nghiêng xe máy",
+   "xe đổ tự tắt máy",
+   "cảm biến ngã xe máy",
+   "xe không nổ sau khi ngã"
+  ],
+  "seoTitle": "Cảm biến nghiêng xe máy: vì sao xe đổ tắt máy và cách nổ lại",
+  "primaryKeyword": "cảm biến nghiêng xe máy",
+  "headings": [
+   "Cảm biến nghiêng làm gì",
+   "Vì sao xe đổ thì máy tắt",
+   "Nhận biết xe đang ở trạng thái ngắt an toàn",
+   "Cách đặt lại và khởi động",
+   "Khi nào cần kiểm tra thêm"
+  ],
+  "summary": "Bài giải thích cảm biến nghiêng (còn gọi cảm biến ngã) trên xe máy: nó làm gì, vì sao xe đổ thì máy tắt, cách nhận biết xe đang ở trạng thái ngắt an toàn, thao tác đặt lại theo hướng dẫn của hãng và những tình huống cần kiểm tra kỹ hơn sau cú đổ hoặc khi xe tắ"
  },
  {
   "kind": "article",
@@ -14456,6 +14549,37 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/giay-phep-lai-xe-a1-khong-thoi-han/",
+  "title": "Giấy phép lái xe hạng A1, A và B1 không thời hạn: hiểu đúng khái niệm và những việc vẫn phải làm",
+  "description": "Theo văn bản hợp nhất 55/VBHN-VPQH, giấy phép lái xe hạng A1, A, B1 không thời hạn. Bài nêu nội dung đã kiểm chứng và cách tra cứu nghĩa vụ khác ở nguồn chính thức.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "giấy phép lái xe",
+   "hạng A1",
+   "văn bản hợp nhất",
+   "Luật Trật tự, an toàn giao thông đường bộ",
+   "không thời hạn"
+  ],
+  "keywords": [
+   "giấy phép lái xe A1 không thời hạn",
+   "bằng lái xe máy có hết hạn không",
+   "GPLX A1 A B1 không thời hạn",
+   "Điều 57 Luật Trật tự an toàn giao thông đường bộ"
+  ],
+  "seoTitle": "Giấy phép lái xe hạng A1, A, B1 không thời hạn: hiểu đúng quy định",
+  "primaryKeyword": "giấy phép lái xe A1 không thời hạn",
+  "headings": [
+   "Quy định đã được kiểm chứng ở văn bản hợp nhất",
+   "Không thời hạn nghĩa là gì",
+   "Phạm vi áp dụng theo từng hạng",
+   "Những nội dung cần tra cứu thêm ở nguồn chính thức",
+   "Cách theo dõi thay đổi của văn bản luật"
+  ],
+  "summary": "Bài nêu nội dung đã kiểm chứng trong văn bản hợp nhất 55/VBHN-VPQH của Luật Trật tự, an toàn giao thông đường bộ về thời hạn giấy phép lái xe hạng A1, A, B1, giải thích khái niệm không thời hạn một cách thận trọng, nói rõ điều chưa thể kết luận từ quy định này"
+ },
+ {
+  "kind": "article",
   "url": "docs/bieu-mau-thu-tuc/giay-to-dang-ky-xe/",
   "title": "Tổng hợp kiến thức: giấy tờ đăng ký xe",
   "description": "Tổng hợp giấy tờ đăng ký xe máy: giấy chứng nhận đăng ký, hóa đơn nguồn gốc, xuất xưởng — cách giỮf an toàn và làm lại khi mất.",
@@ -15919,6 +16043,37 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/he-thong-idling-stop-xe-tay-ga/",
+  "title": "Hệ thống tạm ngắt máy khi dừng đèn đỏ trên xe tay ga: hoạt động và ảnh hưởng tới ắc quy",
+  "description": "Idling stop là hệ thống tự tắt máy khi xe dừng rồi nổ lại khi vặn ga. Bài giải thích điều kiện hoạt động, ảnh hưởng tới ắc quy và dấu hiệu hệ thống gặp lỗi.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "idling stop",
+   "xe tay ga",
+   "ắc quy",
+   "bộ đề",
+   "tạm ngắt máy"
+  ],
+  "keywords": [
+   "hệ thống idling stop xe tay ga",
+   "xe ga tự tắt máy khi dừng",
+   "tắt máy tạm thời khi đèn đỏ",
+   "idling stop ảnh hưởng ắc quy"
+  ],
+  "seoTitle": "Idling stop xe tay ga: xe tự tắt máy khi dừng đèn đỏ hoạt động ra sao",
+  "primaryKeyword": "hệ thống idling stop xe tay ga",
+  "headings": [
+   "Hệ thống tạm ngắt máy dùng để làm gì",
+   "Điều kiện để hệ thống hoạt động",
+   "Xe nổ lại như thế nào",
+   "Ảnh hưởng tới ắc quy và bộ đề",
+   "Dấu hiệu hệ thống gặp lỗi"
+  ],
+  "summary": "Bài giải thích hệ thống tạm ngắt máy (idling stop) trên xe tay ga: mục đích, các điều kiện thường cần để hệ thống hoạt động, cách xe nổ lại, vì sao nó liên quan tới ắc quy và bộ đề, và phân biệt hành vi bình thường với những dấu hiệu cho thấy hệ thống hoặc ắc "
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/he-thong-treo/",
   "title": "Hệ thống treo — những điều cần biết",
   "description": "Hệ thống treo xe máy gồm những gì, vì sao xe nảy lún, đu đưa, và cách bảo dưỡng giảm xóc, phuộc, vòng bi cổ đúng chu kỳ.",
@@ -16435,6 +16590,37 @@
  },
  {
   "kind": "article",
+  "url": "guide/mua-xe/kiem-tra-xe-moi-khi-nhan-tu-dai-ly/",
+  "title": "Kiểm tra xe mới nhận từ đại lý trước khi ký biên bản giao xe: các điểm cần xem tận nơi",
+  "description": "Quy trình kiểm tra xe máy mới tại đại lý trước khi ký biên bản giao xe: ngoại quan, số khung, điện đèn, phanh lốp, rò rỉ, phụ kiện giấy tờ và ghi chú vào biên bản.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "xe máy mới",
+   "đại lý",
+   "biên bản giao xe",
+   "số khung",
+   "kiểm tra xe"
+  ],
+  "keywords": [
+   "kiểm tra xe mới khi nhận từ đại lý",
+   "biên bản giao xe mới",
+   "xe mới có lỗi khi nhận",
+   "checklist nhận xe máy mới"
+  ],
+  "seoTitle": "Kiểm tra xe máy mới khi nhận từ đại lý trước khi ký biên bản giao xe",
+  "primaryKeyword": "kiểm tra xe mới khi nhận từ đại lý",
+  "headings": [
+   "Vì sao nên kiểm tra kỹ tại đại lý",
+   "Ngoại quan và số khung",
+   "Điện, đèn và đồng hồ",
+   "Phanh, lốp và rò rỉ",
+   "Phụ kiện, giấy tờ và ghi chú trong biên bản"
+  ],
+  "summary": "Bài lập quy trình kiểm tra xe máy mới ngay tại đại lý theo thứ tự ngoại quan và số khung, điện đèn và đồng hồ, phanh lốp và rò rỉ, phụ kiện đi kèm và giấy tờ, kèm cách ghi chú những điểm chưa đạt vào biên bản giao xe trước khi ký, để vấn đề được xử lý ngay từ "
+ },
+ {
+  "kind": "article",
   "url": "ride/di-phuot/ky-nang-phuot/",
   "title": "Hướng dẫn chi tiết về kỹ năng phượt",
   "description": "Hướng dẫn kỹ năng phượt xe máy cho người mới: kỹ thuật cua, phanh đồng bộ, chạy đường đèo, đường sỏi và tập luyện đúng cách trước chuyến đầu.",
@@ -16823,6 +17009,37 @@
    "Phòng ngừa: bơm định kỳ, thay đúng tuổi, cân nhắc lốp không săng"
   ],
   "summary": "Kinh nghiệm lốp non nhanh dành cho người mới — lốp bị non là sự cố phổ biến nhất của xe máy, phổ biến tới mức phần lớn các lần đứng giữa đường đều bắt đầu từ một cái lốp mềm dần không ai để ý. Bài viết gộp kiến thức thành năm nhóm: nhận biết sớm dấu hiệu lốp n"
+ },
+ {
+  "kind": "article",
+  "url": "garage/lop/lop-xe-may-nut-chan-gai/",
+  "title": "Lốp nứt chân gai và già hóa dù chưa mòn: khi nào bắt buộc phải thay",
+  "description": "Phân biệt vết nứt bề mặt vô hại với nứt sâu chân gai, phồng và rách hông lốp xe máy; nêu dấu hiệu bắt buộc thay ngay và thói quen bảo quản làm lốp chậm lão hóa.",
+  "category": "Sửa chữa",
+  "hub": "Lốp",
+  "entities": [
+   "lốp xe máy",
+   "chân gai",
+   "cao su lão hóa",
+   "hông lốp",
+   "thay lốp"
+  ],
+  "keywords": [
+   "lốp xe máy nứt chân gai",
+   "lốp già hóa cao su",
+   "lốp để lâu nên thay",
+   "dấu hiệu bắt buộc thay lốp"
+  ],
+  "seoTitle": "Lốp xe máy nứt chân gai, già hóa dù chưa mòn: khi nào phải thay",
+  "primaryKeyword": "lốp xe máy nứt chân gai",
+  "headings": [
+   "Cao su lốp lão hóa theo thời gian",
+   "Nứt bề mặt hay nứt sâu chân gai",
+   "Phồng, bướu và rách hông lốp",
+   "Bảo quản xe ít chạy để lốp bền hơn",
+   "Dấu hiệu bắt buộc thay ngay"
+  ],
+  "summary": "Bài giải thích vì sao cao su lốp xe máy già hóa theo thời gian dù gai chưa mòn, cách phân biệt vết nứt bề mặt với nứt sâu ở chân gai, phồng, bướu và rách ở hông lốp, những dấu hiệu bắt buộc thay lốp ngay, và thói quen bảo quản giúp làm chậm quá trình lão hóa."
  },
  {
   "kind": "article",
@@ -26524,6 +26741,37 @@
  },
  {
   "kind": "article",
+  "url": "market/mua-ban-xe-cu/xe-cu-bi-chinh-cong-to-met/",
+  "title": "Công tơ mét xe cũ có bị chỉnh không: đối chiếu số km hiển thị với độ mòn thực tế của xe",
+  "description": "Cách phát hiện công tơ mét xe máy cũ có dấu hiệu bị chỉnh: đối chiếu số km với độ mòn yên, bàn đạp, phanh, nhông sên dĩa và hồ sơ bảo dưỡng trước khi thương lượng.",
+  "category": "Thị trường",
+  "hub": "Mua bán xe cũ",
+  "entities": [
+   "công tơ mét",
+   "xe máy cũ",
+   "số km",
+   "độ mòn",
+   "sổ bảo dưỡng"
+  ],
+  "keywords": [
+   "xe cũ bị chỉnh công tơ mét",
+   "đồng hồ km xe máy bị lùi",
+   "đối chiếu số km với độ mòn",
+   "kiểm tra xe máy cũ"
+  ],
+  "seoTitle": "Xe cũ bị chỉnh công tơ mét: đối chiếu số km với độ mòn thực tế",
+  "primaryKeyword": "xe cũ bị chỉnh công tơ mét",
+  "headings": [
+   "Vì sao số km là thông tin quan trọng khi mua xe cũ",
+   "Độ mòn của các chi tiết người dùng chạm vào",
+   "Độ mòn của hệ truyền động và phanh",
+   "Hồ sơ bảo dưỡng và dấu vết trên cụm đồng hồ",
+   "Ghi nhận mâu thuẫn và thương lượng"
+  ],
+  "summary": "Bài hướng dẫn người mua xe máy cũ đối chiếu số ki-lô-mét hiển thị với độ mòn thực tế của xe: những chi tiết tiếp xúc với người dùng, hệ truyền động và phanh, hồ sơ bảo dưỡng, dấu vết can thiệp vào cụm đồng hồ, cách ghi nhận mâu thuẫn và dùng chúng khi thương l"
+ },
+ {
+  "kind": "article",
   "url": "moto/xe-50cc/xe-dien-duoi-50cc/",
   "title": "Hướng dẫn chi tiết về xe điện dưới 50cc",
   "description": "Xe điện dưới 50cc là nhóm mô tô điện và xe đạp điện theo phân loại pháp lý. Hướng dẫn chi tiết chọn xe đúng phân loại, đăng ký, đội mũ và dùng an toàn.",
@@ -27207,6 +27455,37 @@
    "Mua cũ 110: quy trình kiểm cho phân khúc bị \"tắm\" nhiều nhất"
   ],
   "summary": "Xe số 110cc — gọi gọn \"xe 110\" — là phân khúc bán chạy nhất và cũng là \"chuẩn quốc dân\" của thị trường xe máy Việt Nam: dung tích đủ sức cho phố và tỉnh ngắn, nặng lượng nhỏ cho tiết kiệm và dễ lái, giá trong tầm của phần đông gia đình, và là sân chơi của nhữn"
+ },
+ {
+  "kind": "article",
+  "url": "garage/dong-co/xe-so-kho-vao-so-1/",
+  "title": "Xe số khó vào số 1 hoặc hay nhảy số: phân biệt lỗi côn, nhớt hộp số và càng số",
+  "description": "Xe số vào số nặng và nhảy số là hai triệu chứng khác nhau. Bài chia nguyên nhân thành ba nhóm: côn không cắt hết, nhớt hộp số xuống cấp, cơ cấu sang số mòn.",
+  "category": "Sửa chữa",
+  "hub": "Động cơ",
+  "entities": [
+   "xe số",
+   "côn",
+   "nhớt hộp số",
+   "càng số",
+   "nhảy số"
+  ],
+  "keywords": [
+   "xe số khó vào số 1",
+   "xe số bị nhảy số",
+   "xe số vào số nặng",
+   "lỗi côn xe số"
+  ],
+  "seoTitle": "Xe số khó vào số 1 hoặc hay nhảy số: lỗi côn, nhớt hay càng số",
+  "primaryKeyword": "xe số khó vào số 1",
+  "headings": [
+   "Vào số nặng và nhảy số là hai triệu chứng khác nhau",
+   "Côn không cắt hết: cách nhận biết",
+   "Nhớt hộp số và ảnh hưởng đến việc vào số",
+   "Cơ cấu sang số mòn: dấu hiệu và hậu quả",
+   "Thứ tự kiểm tra trước khi đưa xe đi sửa"
+  ],
+  "summary": "Bài giúp người dùng xe số phân biệt vào số nặng với nhảy số, chia nguyên nhân thành ba nhóm là côn không cắt hết, nhớt hộp số xuống cấp và cơ cấu sang số mòn, nêu dấu hiệu riêng của từng nhóm, những việc kiểm tra an toàn có thể làm tại nhà và lúc nào nên đưa x"
  },
  {
   "kind": "article",
