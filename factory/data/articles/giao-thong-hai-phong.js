@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'giao-thong-hai-phong',
-  title: 'Kinh nghiệm giao thông hải phòng dành cho người mới',
+  title: 'Kinh nghiệm giao thông Hải Phòng dành cho người mới',
   seoTitle: 'Giao thông Hải Phòng: kinh nghiệm cho người mới',
   metaDescription: 'Kinh nghiệm giao thông Hải Phòng cho người mới: đô thị cảng với nhiều xe tải, cầu và sông, phố cổ một chiều, giờ cao điểm và những nguyên tắc an toàn đặc thù.',
   summary: 'Hải Phòng là thành phố có bản sắc giao thông riêng: đô thị cảng lớn nhất miền Bắc, nơi dòng xe máy dân sinh trộn với dòng xe tải phục vụ cảng và khu công nghiệp, hệ thống sông ngòi chia thành phố thành các khu nối bằng cầu, và khu phố cổ trung tâm có mạng đường nhỏ một chiều dày đặc. Với người mới, việc làm quen giao thông Hải Phòng vì vậy không chỉ là học đường — mà là học cách cùng tồn tại với các dòng xe rất khác nhau về kích cỡ và nhịp điệu. Bài viết này tổng hợp kinh nghiệm giao thông Hải Phòng dành cho người mới: đọc bố cục thành phố theo sông và cầu, hiểu đặc thù của đô thị cảng — xe tải lớn, khu công nghiệp với nhịp ca kíp, hàng hóa dồn về các trục ven; cách đi trong phố cổ với các tuyến một chiều và hẻm; nhịp giờ cao điểm và các điểm hay chậm; cách xử lý thời tiết miền Bắc bốn mùa; cùng những nguyên tắc an toàn nền tảng cho người đi xe máy thường xuyên trong môi trường đô thị công nghiệp.',

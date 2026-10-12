@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   "slug": "giao-thong-can-tho",
-  "title": "Tổng hợp kiến thức: giao thông cần thơ",
+  "title": "Tổng hợp kiến thức: giao thông Cần Thơ",
   "seoTitle": "Giao thông Cần Thơ: định hướng đường, cầu và an toàn",
   "metaDescription": "Tìm hiểu giao thông Cần Thơ: cách quan sát đường đô thị và ven sông, giữ an toàn trên cầu, đi xe mùa mưa và chuẩn bị tuyến phù hợp cho người mới.",
   "summary": "Khái quát giao thông Cần Thơ dưới góc nhìn người điều khiển xe máy, với các tình huống khác nhau ở trung tâm đô thị, đường gần sông rạch, trục ra ngoại ô, nút giao và cầu; kèm cách lên kế hoạch hành trình và ứng phó mưa.",

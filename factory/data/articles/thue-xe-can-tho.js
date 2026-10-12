@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   "slug": "thue-xe-can-tho",
-  "title": "Kinh nghiệm thuê xe cần thơ dành cho người mới",
+  "title": "Kinh nghiệm thuê xe Cần Thơ dành cho người mới",
   "seoTitle": "Thuê xe Cần Thơ: cách chọn xe, kiểm tra và trả xe",
   "metaDescription": "Kinh nghiệm thuê xe tại Cần Thơ: xác định nhu cầu, xem giấy tờ và hợp đồng, kiểm tra xe, ghi nhận hiện trạng, đi an toàn và xử lý khi cần hỗ trợ.",
   "summary": "Hướng dẫn các bước thuê xe ở Cần Thơ cho người mới từ khi xác định hành trình, chọn phương tiện, đọc điều khoản thuê và kiểm tra xe, tới sử dụng an toàn và hoàn trả với bằng chứng rõ ràng; không đưa ra mức giá chưa xác minh.",

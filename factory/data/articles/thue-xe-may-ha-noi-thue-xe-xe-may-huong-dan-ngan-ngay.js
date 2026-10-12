@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-ngan-ngay',
-  title: 'Thuê xe máy hà nội: hướng dẫn thực tế khi dùng ngắn ngày',
+  title: 'Thuê xe máy Hà Nội: hướng dẫn thực tế khi dùng ngắn ngày',
   seoTitle: 'Thuê xe máy Hà Nội ngắn ngày: kế hoạch, nhận xe và trả xe',
   metaDescription: 'Hướng dẫn thuê xe máy ở Hà Nội cho nhu cầu một đến ba ngày: lên lịch trình, thống nhất giờ nhận trả, kiểm tra nhanh nhưng đủ, đổ xăng, gửi xe và trả xe gọn.',
   summary: 'Bài viết dành cho người chỉ thuê xe máy ở Hà Nội trong một đến ba ngày: cách lên lịch trình gọn gàng, thống nhất giờ nhận và trả xe, kiểm tra nhanh nhưng đủ những hạng mục quan trọng, quản lý nhiên liệu, gửi xe trong ngày và trả xe đúng hẹn để không phát sinh rắc rối đáng tiếc.',

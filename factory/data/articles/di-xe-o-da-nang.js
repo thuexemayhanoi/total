@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'di-xe-o-da-nang',
-  title: 'Tổng hợp kiến thức: đi xe ở đà nẵng',
+  title: 'Tổng hợp kiến thức: đi xe ở Đà Nẵng',
   seoTitle: 'Đi xe ở Đà Nẵng: tổng hợp kiến thức cho người mới',
   metaDescription: 'Tổng hợp kiến thức khi đi xe ở Đà Nẵng: bố cục hai mạn sông, khí hậu qua các mùa, văn hóa đi xe, trạm xăng — sửa xe, gửi xe và những tuyến hành lang kết nối vùng.',
   summary: 'Đi xe ở Đà Nẵng được nhiều người mô tả là một trong những trải nghiệm dễ chịu nhất của đô thị Việt Nam — nhưng dễ chịu vì thành phố được thiết kế thuận cho xe máy, không phải vì không có gì cần học. Bài viết này tổng hợp những kiến thức nền tảng cho người mới bắt đầu đi lại ở Đà Nẵng dưới góc nhìn của cư dân: cách hình dung bố cục thành phố quanh dòng sông để tự định hướng, khí hậu miền Trung thay đổi thế nào qua các mùa và ảnh hưởng đến việc đi xe, văn hóa đi xe của thành phố — những thói quen tử tế đáng học theo, hệ sinh thái phục vụ xe từ trạm xăng đến tiệm sửa, bãi gửi xe trong đời sống hằng ngày, và các hành lang đường nối Đà Nẵng với các vùng lân cận khi cần đi ra ngoài thành phố. Đây là phần nền cho mọi hoạt động đi lại: hiểu được các khối kiến thức này, người mới đến sẽ nhanh chóng đi lại tự tin như người đã sống ở đây lâu năm.',

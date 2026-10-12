@@ -3,7 +3,7 @@
 const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
 module.exports = {
   slug: 'thue-xe-may-ha-noi-thue-xe-xe-may-huong-dan-nguoi-moi',
-  title: 'Thuê xe máy hà nội: hướng dẫn thực tế cho người mới',
+  title: 'Thuê xe máy Hà Nội: hướng dẫn thực tế cho người mới',
   seoTitle: 'Thuê xe máy Hà Nội lần đầu: hướng dẫn từng bước cho người mới',
   metaDescription: 'Hướng dẫn từng bước cho người thuê xe máy ở Hà Nội lần đầu: xác định nhu cầu, chuẩn bị giấy tờ, chọn xe vừa tay lái, nhận xe an toàn và làm quen giao thông.',
   summary: 'Bài viết là bản hướng dẫn thực tế dành cho người thuê xe máy ở Hà Nội lần đầu, đi từ việc xác định nhu cầu, chuẩn bị giấy tờ, chọn loại xe phù hợp với kinh nghiệm lái, cách nhận xe cẩn thận cho đến những lưu ý khi làm quen với nhịp giao thông đông đúc của thành phố và khi trả xe.',

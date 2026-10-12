@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   "slug": "di-xe-o-can-tho",
-  "title": "Đi xe ở cần thơ — những điều cần biết",
+  "title": "Đi xe ở Cần Thơ — những điều cần biết",
   "seoTitle": "Đi xe ở Cần Thơ: mẹo đi phố, qua cầu và mùa mưa",
   "metaDescription": "Đi xe ở Cần Thơ cần lưu ý gì? Hướng dẫn định hướng đường, nhận biết điểm khó gần cầu và khu dân cư, kiểm tra xe và xử lý đường ướt an toàn.",
   "summary": "Một hướng dẫn thực hành tập trung vào trải nghiệm đi xe máy ở Cần Thơ: chọn phương tiện dễ điều khiển, học tuyến đi lần đầu, phân biệt nhịp giao thông trung tâm và vùng ven, giữ an toàn khi qua cầu, đi mùa mưa và chuẩn bị khi xe gặp sự cố.",

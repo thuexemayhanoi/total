@@ -2,7 +2,7 @@
 'use strict';
 module.exports = {
   "slug": "di-xe-o-hai-phong",
-  "title": "Hướng dẫn chi tiết về đi xe ở hải phòng",
+  "title": "Hướng dẫn chi tiết về đi xe ở Hải Phòng",
   "seoTitle": "Đi xe ở Hải Phòng: cách chọn đường và xử lý tình huống",
   "metaDescription": "Đi xe ở Hải Phòng an toàn hơn khi biết cách quan sát xe lớn, chọn tuyến qua cầu, xử lý mưa gió và chuẩn bị phương án di chuyển trước mỗi chặng.",
   "summary": "Hướng dẫn thực tế dành cho người mới đi xe ở Hải Phòng, từ việc hình dung mạng đường của một đô thị cảng đến giữ khoảng cách với xe lớn, lựa chọn tuyến qua cầu, quan sát mặt đường khi mưa và chuẩn bị hành trình linh hoạt.",

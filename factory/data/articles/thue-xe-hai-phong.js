@@ -3,7 +3,7 @@
 
 module.exports = {
   slug: 'thue-xe-hai-phong',
-  title: 'Thuê xe hải phòng — những điều cần biết',
+  title: 'Thuê xe Hải Phòng — những điều cần biết',
   seoTitle: 'Thuê xe Hải Phòng: những điều cần biết trước khi đặt cọc',
   metaDescription: 'Thuê xe máy ở Hải Phòng cần biết gì: chọn xe theo nhu cầu, gói thuê ngày — tháng, giấy tờ theo quy định, hợp đồng và cọc, nhận xe kỹ càng trong đô thị cảng.',
   summary: 'Thuê xe máy ở Hải Phòng phục vụ hai nhóm nhu cầu rất khác nhau: khách ngắn hạn — người đến công tác, du lịch cuối tuần, thăm người thân — và người dài hạn — công nhân khu công nghiệp, sinh viên, người mới đến làm việc chờ mua xe riêng. Chính vì đô thị cảng có lượng người lao động làm việc theo ca lớn, thị trường thuê xe Hải Phòng phát triển mạnh mảng thuê theo tháng với những đặc thù riêng, song song với mảng thuê theo ngày quen thuộc của du khách. Bài viết này tổng hợp những điều cần biết khi thuê xe ở Hải Phòng: chọn loại xe và gói thuê đúng với thời gian lưu lại, chuẩn bị giấy tờ theo quy định, đọc hợp đồng đúng trọng tâm — giá thuê, cọc, trách nhiệm hư hỏng và mất xe, kỹ năng kiểm tra xe khi nhận và trả trong môi trường có nhiều xe tải và mặt đường công nghiệp, cùng những lưu ý đặc thù của thành phố cảng mà người mới nên biết trước khi đặt cọc.',
