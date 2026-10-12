@@ -1628,6 +1628,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phun-xang-che-hoa-khi/binh-xang-xe-may-bi-gi-hoac-co-can/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/thuat-ngu-xe/blow-by-xe-may-la-gi/index.html",
   "kind": "article"
  },
@@ -1881,6 +1885,14 @@
  },
  {
   "rel": "learn/cham-soc-xe/de-xe-noi-am/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dien-ac-quy/den-pha-xe-may-dong-hoi-nuoc-ben-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/den-pha-xe-may-luon-sang-khong-tat-duoc/index.html",
   "kind": "article"
  },
  {
@@ -2352,6 +2364,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/kinh-mu-bao-hiem-tray-xuoc-hoac-mo/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/di-phuot/ky-nang-phuot/index.html",
   "kind": "article"
  },
@@ -2548,6 +2564,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/bao-duong-dinh-ky/nhua-xe-may-bac-mau-va-cach-giu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/o-khoa-dien-xe-may-khoa-xoay-ket/index.html",
   "kind": "article"
  },
@@ -2581,6 +2601,10 @@
  },
  {
   "rel": "tips/meo-xu-ly-su-co/phong-chay-xe-may-nguyen-nhan-va-dau-hieu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/loi-thuong-gap/phot-phuot-xe-may-ro-dau/index.html",
   "kind": "article"
  },
  {
@@ -2669,6 +2693,10 @@
  },
  {
   "rel": "moto/xe-con-tay/raider-rck/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dong-co/remap-ecu-xe-may-la-gi/index.html",
   "kind": "article"
  },
  {
@@ -3740,6 +3768,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/tu-the-lai-xe-may-va-tai-sao-te-tay-dau-lung-khi-di-xa/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/ac-quy-pin/tuoi-tho-pin/index.html",
   "kind": "article"
  },
@@ -3884,6 +3916,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-hybrid-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/loi-thuong-gap/xe-may-keo-lech-khi-buong-tay-lai/index.html",
   "kind": "article"
  },
@@ -3929,6 +3965,10 @@
  },
  {
   "rel": "moto/xe-so/xe-so-110/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/xe-so-dang-chay-ve-so-n-co-hai-khong/index.html",
   "kind": "article"
  },
  {

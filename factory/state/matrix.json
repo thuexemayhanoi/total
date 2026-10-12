@@ -17043,11 +17043,13 @@
    "title": "Đèn pha xe máy đọng hơi nước bên trong chụp đèn: vì sao xảy ra và khi nào cần lo",
    "primaryIntent": "troubleshooting/den-pha-xe-may-dong-hoi-nuoc-ben-trong",
    "notes": "source=topic-v2 topicId=T001243",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:41:19.433Z",
-   "updatedAt": "2026-10-12T17:41:19.433Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 100,
+   "words": 2916
   },
   {
    "id": "S01181",
@@ -17056,11 +17058,13 @@
    "title": "Phuộc xe máy rò dầu: nhận biết vết dầu, nguy cơ cho phanh và việc nên làm",
    "primaryIntent": "troubleshooting/phot-phuot-xe-may-ro-dau",
    "notes": "source=topic-v2 topicId=T001244",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:41:19.454Z",
-   "updatedAt": "2026-10-12T17:41:19.454Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 100,
+   "words": 2842
   },
   {
    "id": "S01182",
@@ -17069,11 +17073,13 @@
    "title": "Bình xăng xe máy bị gỉ hoặc có cặn: dấu hiệu, vì sao xảy ra và hướng xử lý an toàn",
    "primaryIntent": "troubleshooting/binh-xang-xe-may-bi-gi-hoac-co-can",
    "notes": "source=topic-v2 topicId=T001245",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:41:19.469Z",
-   "updatedAt": "2026-10-12T17:41:19.469Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 100,
+   "words": 2860
   },
   {
    "id": "S01183",
@@ -17082,11 +17088,13 @@
    "title": "Kính mũ bảo hiểm trầy xước, mờ hoặc nhòe: khi nào nên thay và cách giữ kính trong",
    "primaryIntent": "informational/kinh-mu-bao-hiem-tray-xuoc-hoac-mo",
    "notes": "source=topic-v2 topicId=T001246",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:41:19.484Z",
-   "updatedAt": "2026-10-12T17:41:19.484Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 91,
+   "words": 2774
   },
   {
    "id": "S01184",
@@ -17095,11 +17103,13 @@
    "title": "Xe số đang chạy gạt về số N (số rỗng): có hại không và vì sao không nên trôi xuống dốc bằng số rỗng",
    "primaryIntent": "informational/xe-so-dang-chay-ve-so-n-co-hai-khong",
    "notes": "source=topic-v2 topicId=T001247",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:56:32.743Z",
-   "updatedAt": "2026-10-12T17:56:32.743Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 91,
+   "words": 2964
   },
   {
    "id": "S01185",
@@ -17108,11 +17118,13 @@
    "title": "Nhựa xe máy bạc màu, xỉn hoặc ngả trắng: vì sao xảy ra và cách giữ nhựa lâu bền",
    "primaryIntent": "informational/nhua-xe-may-bac-mau-va-cach-giu",
    "notes": "source=topic-v2 topicId=T001249",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:56:32.765Z",
-   "updatedAt": "2026-10-12T17:56:32.765Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 100,
+   "words": 2911
   },
   {
    "id": "S01186",
@@ -17121,11 +17133,13 @@
    "title": "Xe máy hybrid là gì: động cơ xăng kết hợp mô-tơ điện và những gì người dùng cần hiểu",
    "primaryIntent": "informational/xe-may-hybrid-la-gi",
    "notes": "source=topic-v2 topicId=T001250",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:56:32.780Z",
-   "updatedAt": "2026-10-12T17:56:32.780Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 91,
+   "words": 3034
   },
   {
    "id": "S01187",
@@ -17134,11 +17148,13 @@
    "title": "Vì sao xe máy đời mới đèn pha luôn sáng và không tắt được: hệ đèn tự bật và những điều cần biết",
    "primaryIntent": "informational/den-pha-xe-may-luon-sang-khong-tat-duoc",
    "notes": "source=topic-v2 topicId=T001251",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:56:32.798Z",
-   "updatedAt": "2026-10-12T17:56:32.798Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 91,
+   "words": 2969
   },
   {
    "id": "S01188",
@@ -17147,11 +17163,13 @@
    "title": "Remap ECU xe máy phun xăng là gì: thay đổi bản đồ nhiên liệu làm gì và rủi ro cần hiểu",
    "primaryIntent": "informational/remap-ecu-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001252",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:56:32.813Z",
-   "updatedAt": "2026-10-12T17:56:32.813Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 100,
+   "words": 3080
   },
   {
    "id": "S01189",
@@ -17160,11 +17178,13 @@
    "title": "Đi xe máy lâu bị tê tay, mỏi cổ tay và đau lưng: nguyên nhân từ tư thế và cách giảm mỏi",
    "primaryIntent": "informational/tu-the-lai-xe-may-va-tai-sao-te-tay-dau-lung-khi-di-xa",
    "notes": "source=topic-v2 topicId=T001253",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T17:56:32.829Z",
-   "updatedAt": "2026-10-12T17:56:32.829Z"
+   "updatedAt": "2026-10-12T18:09:44.521Z",
+   "seoScore": 100,
+   "words": 2935
   },
   {
    "id": "S01190",
