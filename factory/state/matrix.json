@@ -18033,11 +18033,13 @@
    "title": "SOHC và DOHC trên xe máy là gì: một trục cam hay hai trục cam khác nhau ở đâu và ảnh hưởng gì khi dùng",
    "primaryIntent": "informational/sohc-va-dohc-tren-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001322",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:40:20.492Z",
-   "updatedAt": "2026-10-12T19:40:20.493Z"
+   "updatedAt": "2026-10-12T19:46:58.534Z",
+   "seoScore": 100,
+   "words": 2690
   },
   {
    "id": "S01247",
@@ -18046,11 +18048,13 @@
    "title": "Chiều dài cơ sở xe máy là gì: khoảng cách hai trục bánh ảnh hưởng thế nào tới độ ổn định, quay đầu và cảm giác lái",
    "primaryIntent": "informational/chieu-dai-co-so-xe-may-la-gi-anh-huong-on-dinh-va-quay-dau",
    "notes": "source=topic-v2 topicId=T001323",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:40:20.513Z",
-   "updatedAt": "2026-10-12T19:40:20.513Z"
+   "updatedAt": "2026-10-12T19:46:58.534Z",
+   "seoScore": 100,
+   "words": 2854
   },
   {
    "id": "S01248",
@@ -18059,11 +18063,13 @@
    "title": "Kiểm soát lực kéo (TCS) trên xe máy là gì: hệ thống chống trượt bánh sau hoạt động ra sao và đèn báo nói lên điều gì",
    "primaryIntent": "informational/kiem-soat-luc-keo-tcs-tren-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001324",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:40:20.531Z",
-   "updatedAt": "2026-10-12T19:40:20.531Z"
+   "updatedAt": "2026-10-12T19:46:58.534Z",
+   "seoScore": 100,
+   "words": 3149
   },
   {
    "id": "S01249",
@@ -18072,11 +18078,13 @@
    "title": "Van biến thiên trên xe máy là gì: vì sao xe vừa chạy êm ở vòng tua thấp vừa khỏe ở vòng tua cao",
    "primaryIntent": "informational/van-bien-thien-tren-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001325",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:40:20.550Z",
-   "updatedAt": "2026-10-12T19:40:20.550Z"
+   "updatedAt": "2026-10-12T19:46:58.534Z",
+   "seoScore": 100,
+   "words": 3067
   },
   {
    "id": "S01250",
@@ -18085,11 +18093,13 @@
    "title": "Vòng tua máy xe máy là gì: đọc đồng hồ vòng tua, vạch đỏ và vì sao không nên ép máy ở vòng tua cao liên tục",
    "primaryIntent": "informational/vong-tua-may-xe-may-la-gi-va-vach-do-tren-dong-ho",
    "notes": "source=topic-v2 topicId=T001326",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-12T19:40:20.567Z",
-   "updatedAt": "2026-10-12T19:40:20.567Z"
+   "updatedAt": "2026-10-12T19:46:58.534Z",
+   "seoScore": 100,
+   "words": 3136
   },
   {
    "id": "S01251",
