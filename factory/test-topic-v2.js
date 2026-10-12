@@ -388,6 +388,24 @@ console.log('1. UNIT — intent key, hoán vị, risk trigger, shape, gate, gove
   ok(nc.slug === 'bugi-xe-may-bi-dong-muoi' && nc.priority === 'P2' && nc.demand.source === 'none' && nc.evidence.status === 'unverified', 'normalizeCandidate: slug từ title, mặc định P2/demand none/evidence unverified');
 }
 
+// Tên riêng/viết tắt trong tiêu đề công khai (lib/title-case.js dùng chung cho detector topic-audit và công cụ sửa)
+{
+  const TC = require('./lib/title-case');
+  const lc = x => x.normalize('NFC').toLowerCase();
+  ok(TC.TABLE.every(([k, v]) => k === lc(k) && lc(v) === k && v !== k), 'title-case: mỗi dòng bảng là (từ thường → dạng viết đúng), chỉ khác chữ hoa/thường');
+  ok(new Set(TC.TABLE.map(x => x[0])).size === TC.TABLE.length, 'title-case: không trùng khóa');
+  const bad = ['Thuê honda vision: checklist từng bước', 'Kinh nghiệm abs xe máy dành cho người mới', 'Yamaha việt nam — những điều cần biết', 'Phượt miền bắc — những điều cần biết',
+    'Tổng hợp kiến thức: giao thông tp hcm', 'Kinh nghiệm winner x dành cho người mới', 'Thuê xe máy hà nội: thủ tục', 'Hướng dẫn chi tiết về air blade', 'Xe gd110 và gd'];
+  const good = ['Thuê Honda Vision: checklist từng bước', 'Hệ thống ABS trên xe máy', 'Bảo dưỡng xe máy sau 1000 km đầu tiên', 'Giữ đà khi xuống dốc', 'Công tơ mét xe cũ có bị chỉnh không',
+    'Thuê xe máy Hà Nội: thủ tục', 'Lịch bảo dưỡng xe máy định kỳ theo số km', 'Kinh nghiệm pin lithium dành cho người mới', 'Xe gd110 chạy êm'];
+  ok(bad.every(t => T.titleDefects(t).length === 1) && good.every(t => T.titleDefects(t).length === 0), 'titleDefects: bắt tên riêng viết thường, không dương tính giả (đà, km, pin lithium, gd110)',
+    JSON.stringify([bad.filter(t => T.titleDefects(t).length !== 1), good.filter(t => T.titleDefects(t).length !== 0)]));
+  ok(bad.every(t => { const x = TC.fixTitle(t); return lc(x) === lc(t) && x !== t && T.titleDefects(x).length === 0 && TC.fixTitle(x) === x; }), 'fixTitle: chỉ đổi chữ hoa/thường, hết lỗi, idempotent');
+  ok(TC.fixTitle('Thuê honda vision: câu hỏi thường gặp') === 'Thuê Honda Vision: câu hỏi thường gặp' && TC.fixTitle('Kinh nghiệm suzuki gd dành cho người mới') === 'Kinh nghiệm Suzuki GD dành cho người mới' &&
+    TC.fixTitle('Thuê xe tp hcm — những điều cần biết') === 'Thuê xe TP HCM — những điều cần biết', 'fixTitle: kết quả cụ thể (cụm nhiều từ, viết tắt, hãng + mẫu)');
+  ok(TC.advisory('Thuê Honda Vision: checklist') === '' && /honda, vision/.test(TC.advisory('Thuê honda vision: checklist')) && /Honda, Vision/.test(TC.advisory('Thuê honda vision: checklist')), 'advisory: rỗng khi ổn, nêu token và dạng đúng khi lỗi');
+}
+
 // ===========================================================================
 // TẦNG 2 — INTEGRATION (CLI trong micro-repo, governance enforce)
 // ===========================================================================
@@ -711,6 +729,14 @@ console.log('2b. TIÊU ĐỀ CÔNG KHAI — module.title thay cho nhãn slot cũ
   fs.writeFileSync(T.p('state/matrix.json'), JSON.stringify(mx2, null, 1));
   const cv2 = covHub();
   ok(cv2.approved === 0 && cv2.published === cv1.published + 1, 'topic-coverage: topic đã xuất bản không còn tính là đã-duyệt-chờ-writer (lifecycle hiệu lực)', JSON.stringify(cv2));
+
+  // verify-batch nhắc (ADVISORY) khi module có tên riêng viết thường trong title
+  fs.writeFileSync(T.p('data/articles/thue-xe-may-ha-noi-thu-tuc.js'), 'module.exports = ' + JSON.stringify(Object.assign(art('thue-xe-may-ha-noi-thu-tuc', 'Thuê xe máy hà nội: thủ tục', 'thue-xe/xe-may', ['Thủ tục nhận xe', 'Điều khoản hợp đồng'], ['thuê xe máy hà nội']),
+    { keyPoints: ['Ý chính'], checklist: [], steps: [], warnings: [], notes: [], references: [], date: '2026-10-01', updated: '2026-10-01', seoTitle: 'Thuê xe máy Hà Nội: thủ tục', metaDescription: 'Mô tả kiểm thử.' })) + ';\n');
+  r = cli(T, ['verify-batch', 'S00004']);
+  ok(/TITLE_ADVISORY S00004 — .*hà nội.*Hà Nội.*KHÔNG chặn publish/.test(r.out), 'verify-batch: TITLE_ADVISORY nêu tên riêng viết thường và dạng đúng (không chặn)', r.out.slice(0, 300));
+  r = cli(T, ['verify-batch', 'S00002']);
+  ok(!/TITLE_ADVISORY/.test(r.out), 'verify-batch: tiêu đề ổn thì không có TITLE_ADVISORY', r.out.slice(0, 200));
   fs.rmSync(T.root, { recursive: true, force: true });
 }
 

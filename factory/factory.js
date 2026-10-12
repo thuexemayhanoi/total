@@ -42,6 +42,7 @@ const contentIndex = require('./lib/content-index');
 const topicFactory = require('./lib/topic-factory');
 const topicGov = require('./lib/topic-governance');
 const topicMatrix = require('./lib/topic-matrix');
+const titleCase = require('./lib/title-case');
 const topicCli = require('./topic');
 const linkIntegrity = require('./link-integrity');
 
@@ -555,6 +556,7 @@ function verifyPair(m, ids, opts) {
     try { res = qaSeoArticle(s); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
     if (!res.qa.pass) errors.push('Slot ' + id + ' QA ' + res.qa.score + '/100 — FAIL minimal gate (<70 hoặc critical)');
     if (!res.seo.pass) console.log('SEO_ADVISORY ' + id + ' — SEO ' + res.seo.score + '/100 (KHÔNG chặn publish)');
+    titleAdvisory(s, id);
     for (const e of intentConflicts(m, [id])) console.log('INTENT_WARNING ' + id + ' — ' + e + ' (KHÔNG chặn publish)');
     const url = SITE.baseUrl + s.hub + '/' + s.slug + '/';
     let html = '';
@@ -573,6 +575,15 @@ function verifyPair(m, ids, opts) {
 
 // VERIFY-SOURCES (read-only, chạy được TRƯỚC publish — writer commit): scoped
 // QA + SEO + intent cho đúng IDs, không đòi trang sinh.
+// ADVISORY (không chặn): tiêu đề công khai có tên riêng/viết tắt viết thường (bảng lib/title-case.js).
+function titleAdvisory(slot, id) {
+  try {
+    const art = loadArticleBySlug(slot.slug);
+    const adv = art ? titleCase.advisory(art.title) : '';
+    if (adv) console.log('TITLE_ADVISORY ' + id + ' — ' + adv + ' (KHÔNG chặn publish)');
+  } catch (_) { /* module lỗi đã được QA báo */ }
+}
+
 function verifySources(m, ids) {
   const errors = [];
   const linkable = linkableSlugsFor(m, ids);
@@ -588,6 +599,7 @@ function verifySources(m, ids) {
     try { res = qaSeoArticle(s, { matrix: m, linkableSlugs: linkable }); } catch (e) { errors.push('Slot ' + id + ': ' + e.message); continue; }
     if (!res.qa.pass) errors.push('Slot ' + id + ' (QA ' + res.qa.score + '/100): ' + res.qa.checks.filter((x) => !x.pass).map((x) => x.name).join('; '));
     if (!res.seo.pass) console.log('SEO_ADVISORY ' + id + ' — SEO ' + res.seo.score + '/100 (KHÔNG chặn publish)');
+    titleAdvisory(s, id);
     for (const e of intentConflicts(m, [id])) console.log('INTENT_WARNING ' + id + ' — ' + e + ' (KHÔNG chặn publish)');
   }
   return { ok: errors.length === 0, errors };

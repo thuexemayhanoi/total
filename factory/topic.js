@@ -27,6 +27,7 @@ const I = require('./lib/topic-intel');
 const G = require('./lib/topic-gate');
 const M = require('./lib/topic-matrix');
 const Gov = require('./lib/topic-governance');
+const TC = require('./lib/title-case');
 const Idx = require('./lib/topic-index');
 const TF = require('./lib/topic-factory');
 const { CATEGORIES } = require('./data/categories');
@@ -175,8 +176,9 @@ function titleFamily(t) {
 function titleDefects(title) {
   const d = [];
   if (/(^|\s)(\p{L}+(?:\s+\p{L}+){0,2})\s+\2(?=\s|$)/iu.test(title)) d.push('lặp từ/cụm từ liền kề');
-  // địa danh viết thường (so khớp phân biệt hoa/thường)
-  if (/(^|[\s:—,-])(hà nội|sài gòn|đà nẵng|hải phòng|cần thơ|nha trang|đà lạt)(?=[\s:—,.-]|$)/u.test(title)) d.push('địa danh viết thường');
+  // tên riêng/viết tắt viết thường (địa danh, hãng/mẫu xe, viết tắt kỹ thuật) — bảng dùng chung với công cụ sửa: lib/title-case.js
+  const low = TC.lowercaseProperNouns(title);
+  if (low.length) d.push('tên riêng/viết tắt viết thường: ' + [...new Set(low)].join(', '));
   return d;
 }
 
