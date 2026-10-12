@@ -10183,11 +10183,13 @@
    "title": "Thuê honda vision: chi phí và cách tính trong điều kiện đô thị",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-chi-phi-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1651
   },
   {
    "id": "S00689",
@@ -10196,11 +10198,13 @@
    "title": "Thuê honda vision: chi phí và cách tính theo tình huống thực tế",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-chi-phi-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.727Z",
-   "updatedAt": "2026-10-07T11:49:02.727Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1585
   },
   {
    "id": "S00690",
@@ -10209,11 +10213,13 @@
    "title": "Thuê honda vision: cách kiểm tra trước khi quyết định cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kiem-tra-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1536
   },
   {
    "id": "S00691",
@@ -10222,11 +10228,13 @@
    "title": "Thuê honda vision: cách kiểm tra trước khi quyết định khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kiem-tra-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1495
   },
   {
    "id": "S00692",
@@ -10235,11 +10243,13 @@
    "title": "Thuê honda vision: cách kiểm tra trước khi quyết định khi dùng dài ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kiem-tra-dai-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1529
   },
   {
    "id": "S00693",
@@ -10248,11 +10258,13 @@
    "title": "Thuê honda vision: cách kiểm tra trước khi quyết định khi đi đường dài",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kiem-tra-duong-dai",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1576
   },
   {
    "id": "S00694",
@@ -10261,11 +10273,13 @@
    "title": "Thuê honda vision: cách kiểm tra trước khi quyết định trong điều kiện đô thị",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kiem-tra-do-thi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 91,
+   "words": 1560
   },
   {
    "id": "S00695",
@@ -10274,11 +10288,13 @@
    "title": "Thuê honda vision: cách kiểm tra trước khi quyết định theo tình huống thực tế",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-kiem-tra-thuc-te",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.686Z",
+   "seoScore": 100,
+   "words": 1596
   },
   {
    "id": "S00696",
@@ -10287,11 +10303,13 @@
    "title": "Thuê honda vision: hợp đồng và điều khoản cần đọc cho người mới",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-hop-dong-nguoi-moi",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1583
   },
   {
    "id": "S00697",
@@ -10300,11 +10318,13 @@
    "title": "Thuê honda vision: hợp đồng và điều khoản cần đọc khi dùng ngắn ngày",
    "primaryIntent": "informational/thue-honda-vision-thue-xe-xe-may-hop-dong-ngan-ngay",
    "notes": "source=topic-factory-v1",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-07T11:49:02.728Z",
-   "updatedAt": "2026-10-07T11:49:02.728Z"
+   "updatedAt": "2026-10-12T08:26:02.685Z",
+   "seoScore": 100,
+   "words": 1592
   },
   {
    "id": "S00698",
