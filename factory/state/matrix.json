@@ -20898,11 +20898,13 @@
    "title": "Đi gần xe chở sắt thép, ống hay cây dài nhô ra phía sau: giữ khoảng cách và tránh phần hàng nhô",
    "primaryIntent": "informational/di-gan-xe-cho-sat-thep-ong-hay-cay-dai-nho-ra-giu-khoang-cach-va-tranh-phan-nho",
    "notes": "source=topic-v2 topicId=T001555",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:17:38.953Z",
-   "updatedAt": "2026-10-13T14:17:38.953Z"
+   "updatedAt": "2026-10-13T14:28:24.473Z",
+   "seoScore": 91,
+   "words": 2987
   },
   {
    "id": "S01438",
@@ -20911,11 +20913,13 @@
    "title": "Trẻ nhỏ leo trèo, nghịch xe máy đang dựng: nguy cơ đổ xe, bỏng ống xả, kẹp tay và cách phòng",
    "primaryIntent": "informational/tre-nho-leo-treo-nghich-xe-may-dang-dung-nguy-co-do-xe-bong-ong-xa-va-kep-tay",
    "notes": "source=topic-v2 topicId=T001558",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:21:17.067Z",
-   "updatedAt": "2026-10-13T14:21:17.067Z"
+   "updatedAt": "2026-10-13T14:28:24.474Z",
+   "seoScore": 91,
+   "words": 3020
   },
   {
    "id": "S01439",
@@ -20924,11 +20928,13 @@
    "title": "Dừng giúp người hỏng xe máy giữa đường: giúp thế nào cho an toàn và không thành nạn nhân thứ hai",
    "primaryIntent": "informational/dung-giup-nguoi-hong-xe-may-giua-duong-giup-the-nao-cho-an-toan-va-khong-thanh-nan-nhan-thu-hai",
    "notes": "source=topic-v2 topicId=T001560",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:23:42.501Z",
-   "updatedAt": "2026-10-13T14:23:42.501Z"
+   "updatedAt": "2026-10-13T14:28:24.474Z",
+   "seoScore": 100,
+   "words": 3093
   },
   {
    "id": "S01440",
@@ -20937,11 +20943,13 @@
    "title": "Gặp người đi xe máy có dấu hiệu say xỉn hay chạy loạng choạng phía trước: giữ khoảng cách, không vượt sát và báo cho ai",
    "primaryIntent": "informational/gap-nguoi-di-xe-may-say-xin-hoac-lang-lach-phia-truoc-giu-khoang-cach-khong-vuot-sat-va-bao-cho-ai",
    "notes": "source=topic-v2 topicId=T001561",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:23:42.539Z",
-   "updatedAt": "2026-10-13T14:23:42.539Z"
+   "updatedAt": "2026-10-13T14:28:24.474Z",
+   "seoScore": 100,
+   "words": 2924
   }
  ]
 }
