@@ -20625,6 +20625,45 @@
    "attempts": 0,
    "createdAt": "2026-10-13T13:50:42.453Z",
    "updatedAt": "2026-10-13T13:50:42.453Z"
+  },
+  {
+   "id": "S01420",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "gap-nhom-dua-xe-hoac-lang-lach-tren-duong-tranh-xa-khong-doi-dau-va-bao-cho-ai",
+   "title": "Gặp nhóm đua xe hoặc lạng lách trên đường: tránh xa, không đối đầu và báo cho ai",
+   "primaryIntent": "informational/gap-nhom-dua-xe-hoac-lang-lach-tren-duong-tranh-xa-khong-doi-dau-va-bao-cho-ai",
+   "notes": "source=topic-v2 topicId=T001533",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:56:29.783Z",
+   "updatedAt": "2026-10-13T13:56:29.783Z"
+  },
+  {
+   "id": "S01421",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "gap-nguoi-an-va-hoac-dan-canh-va-quet-de-doi-tien-nhan-biet-giu-bang-chung-va-nho-ho-tro",
+   "title": "Gặp người ăn vạ hoặc dàn cảnh va quẹt để đòi tiền: nhận biết, giữ bằng chứng và nhờ hỗ trợ",
+   "primaryIntent": "informational/gap-nguoi-an-va-hoac-dan-canh-va-quet-de-doi-tien-nhan-biet-giu-bang-chung-va-nho-ho-tro",
+   "notes": "source=topic-v2 topicId=T001534",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:56:29.817Z",
+   "updatedAt": "2026-10-13T13:56:29.817Z"
+  },
+  {
+   "id": "S01422",
+   "hub": "guide/su-dung-xe",
+   "slug": "do-trong-cop-xe-may-bi-lay-khi-gui-xe-hoac-do-ngoai-duong-vi-sao-va-cach-giu-do",
+   "title": "Đồ trong cốp xe máy bị lấy khi gửi xe hay đỗ ngoài đường: vì sao cốp không an toàn như ta nghĩ và cách giữ đồ",
+   "primaryIntent": "informational/do-trong-cop-xe-may-bi-lay-khi-gui-xe-hoac-do-ngoai-duong-vi-sao-va-cach-giu-do",
+   "notes": "source=topic-v2 topicId=T001535",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:56:29.859Z",
+   "updatedAt": "2026-10-13T13:56:29.859Z"
   }
  ]
 }
