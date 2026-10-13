@@ -22495,6 +22495,71 @@
    "updatedAt": "2026-10-13T21:35:32.121Z",
    "seoScore": 100,
    "words": 3174
+  },
+  {
+   "id": "S01544",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "chua-biet-di-xe-dap-co-tap-duoc-xe-may-khong-tap-giu-thang-bang-truoc-va-luc-nao-moi-van-ga",
+   "title": "Chưa biết đi xe đạp có tập được xe máy không: tập giữ thăng bằng trước và lúc nào mới vặn ga",
+   "primaryIntent": "informational/chua-biet-di-xe-dap-co-tap-duoc-xe-may-khong-tap-giu-thang-bang-truoc-va-luc-nao-moi-van-ga",
+   "notes": "source=topic-v2 topicId=T001680",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T21:52:52.141Z",
+   "updatedAt": "2026-10-13T21:52:52.141Z"
+  },
+  {
+   "id": "S01545",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "hoang-la-siet-ga-vi-sao-nguoi-moi-di-xe-tay-ga-de-lao-xe-toi-va-cach-tap-phan-xa-nha-ga-bop-phanh",
+   "title": "Hoảng là siết ga: vì sao người mới đi xe tay ga dễ lao xe tới và cách tập phản xạ nhả ga, bóp phanh",
+   "primaryIntent": "informational/hoang-la-siet-ga-vi-sao-nguoi-moi-di-xe-tay-ga-de-lao-xe-toi-va-cach-tap-phan-xa-nha-ga-bop-phanh",
+   "notes": "source=topic-v2 topicId=T001681",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T21:52:52.199Z",
+   "updatedAt": "2026-10-13T21:52:52.199Z"
+  },
+  {
+   "id": "S01546",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "ve-nuoc-sau-thoi-gian-song-o-noi-xe-di-ben-trai-chinh-lai-thoi-quen-nhin-re-va-chon-lan-khi-lai-xe-may",
+   "title": "Về nước sau thời gian sống ở nơi xe đi bên trái: chỉnh lại thói quen nhìn, rẽ và chọn làn khi lái xe máy",
+   "primaryIntent": "informational/ve-nuoc-sau-thoi-gian-song-o-noi-xe-di-ben-trai-chinh-lai-thoi-quen-nhin-re-va-chon-lan-khi-lai-xe-may",
+   "notes": "source=topic-v2 topicId=T001682",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T21:52:52.234Z",
+   "updatedAt": "2026-10-13T21:52:52.234Z"
+  },
+  {
+   "id": "S01547",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "lai-xe-may-duoc-it-lau-da-thay-quen-tay-vi-sao-de-chu-quan-va-cach-giu-thoi-quen-tot-cua-nguoi-moi-hoc",
+   "title": "Lái xe máy được ít lâu đã thấy quen tay: vì sao dễ chủ quan và cách giữ thói quen tốt của người mới học",
+   "primaryIntent": "informational/lai-xe-may-duoc-it-lau-da-thay-quen-tay-vi-sao-de-chu-quan-va-cach-giu-thoi-quen-tot-cua-nguoi-moi-hoc",
+   "notes": "source=topic-v2 topicId=T001683",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T21:52:52.270Z",
+   "updatedAt": "2026-10-13T21:52:52.270Z"
+  },
+  {
+   "id": "S01548",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "xe-dap-tro-luc-dien-khac-xe-dap-dien-van-ga-the-nao-cam-bien-ban-dap-cam-giac-xe-tu-day-va-thoi-quen-an-toan",
+   "title": "Xe đạp trợ lực điện khác xe đạp điện vặn ga thế nào: cảm biến bàn đạp, cảm giác xe tự đẩy và thói quen an toàn",
+   "primaryIntent": "informational/xe-dap-tro-luc-dien-khac-xe-dap-dien-van-ga-the-nao-cam-bien-ban-dap-cam-giac-xe-tu-day-va-thoi-quen-an-toan",
+   "notes": "source=topic-v2 topicId=T001684",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T21:52:52.307Z",
+   "updatedAt": "2026-10-13T21:52:52.307Z"
   }
  ]
 }
