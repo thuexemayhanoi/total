@@ -1,5 +1,12 @@
 // AI WIKI TOTAL — vỏ trang dùng chung: header, footer, nav, mega menu, breadcrumb, page()
 'use strict';
+const { createHash } = require('node:crypto');
+const { readFileSync } = require('node:fs');
+const { join } = require('node:path');
+// Fingerprint the shared stylesheet so deployments never serve a stale menu style.
+const STYLESHEET_VERSION = createHash('sha256')
+  .update(readFileSync(join(__dirname, '../../assets/css/atlas.css')))
+  .digest('hex').slice(0, 12);
 const { SITE, PRIMARY_NAV, HOME_CATEGORY_ORDER, FEATURES, PUBLISHER_PROFILE } = require('../site.config');
 const { renderSlot } = require('./slots');
 const { CATEGORIES } = require('../data/categories');
@@ -268,7 +275,7 @@ function page(o) {
 <html lang="vi">
 <head>
 ${metaTags(o)}
-<link rel="stylesheet" href="${u('assets/css/atlas.css')}">
+<link rel="stylesheet" href="${u('assets/css/atlas.css')}?v=${STYLESHEET_VERSION}">
 ${o.headExtra || ''}
 </head>
 <body data-base-path="${SITE.basePath}">
