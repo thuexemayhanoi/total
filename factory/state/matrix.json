@@ -22863,11 +22863,13 @@
    "title": "Đi tắt cho kịp giờ bằng xe máy: ngược chiều một đoạn, leo vỉa hè hay cắt qua cây xăng và vì sao dễ va chạm",
    "primaryIntent": "informational/di-tat-cho-kip-gio-bang-xe-may-nguoc-chieu-mot-doan-leo-via-he-hay-cat-qua-cay-xang-va-vi-sao-de-va-cham",
    "notes": "source=topic-v2 topicId=T001704",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T23:27:42.711Z",
-   "updatedAt": "2026-10-13T23:27:42.711Z"
+   "updatedAt": "2026-10-13T23:32:40.371Z",
+   "seoScore": 100,
+   "words": 2949
   },
   {
    "id": "S01569",
@@ -22876,11 +22878,13 @@
    "title": "Người ngồi sau báo rẽ, báo dừng vào phút chót: không bẻ lái theo tiếng gọi, hẹn trước cách chỉ đường",
    "primaryIntent": "informational/nguoi-ngoi-sau-bao-re-bao-dung-vao-phut-chot-khong-be-lai-theo-tieng-goi-hen-truoc-cach-chi-duong",
    "notes": "source=topic-v2 topicId=T001705",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T23:27:42.755Z",
-   "updatedAt": "2026-10-13T23:27:42.755Z"
+   "updatedAt": "2026-10-13T23:32:40.371Z",
+   "seoScore": 100,
+   "words": 2833
   },
   {
    "id": "S01570",
@@ -22889,11 +22893,13 @@
    "title": "Chất hàng nặng lên xe máy rồi mới lên xe: dựng chân chống nào khi chất, hạ chân chống khi đuôi nặng và bước lên yên",
    "primaryIntent": "informational/chat-hang-nang-len-xe-may-roi-moi-len-xe-dung-chan-chong-nao-khi-chat-ha-chan-chong-khi-duoi-nang-va-buoc-len-yen",
    "notes": "source=topic-v2 topicId=T001706",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T23:27:42.784Z",
-   "updatedAt": "2026-10-13T23:27:42.784Z"
+   "updatedAt": "2026-10-13T23:32:40.371Z",
+   "seoScore": 91,
+   "words": 2924
   }
  ]
 }
