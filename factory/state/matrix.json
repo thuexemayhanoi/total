@@ -19428,6 +19428,19 @@
    "attempts": 0,
    "createdAt": "2026-10-13T07:14:42.287Z",
    "updatedAt": "2026-10-13T07:14:42.287Z"
+  },
+  {
+   "id": "S01341",
+   "hub": "hub/nhu-cau-su-dung",
+   "slug": "phu-nu-mang-thai-di-xe-may-hoi-bac-si-va-cach-giam-rui-ro",
+   "title": "Phụ nữ mang thai đi xe máy hoặc ngồi sau xe máy: hỏi bác sĩ trước, những điều làm tăng rủi ro và cách giảm rủi ro",
+   "primaryIntent": "informational/phu-nu-mang-thai-di-xe-may-hoi-bac-si-va-cach-giam-rui-ro",
+   "notes": "source=topic-v2 topicId=T001435",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:18:58.178Z",
+   "updatedAt": "2026-10-13T07:18:58.178Z"
   }
  ]
 }
