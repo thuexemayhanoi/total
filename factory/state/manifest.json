@@ -1584,6 +1584,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/an-uong-khi-di-xe-may-duong-dai-an-gi-uong-nuoc-the-nao-de-tinh-tao-va-tranh-met/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-bao-duong/ao-trum-xe-may-khi-nao-nen-dung-va-cach-tranh-am-gi-tray-son/index.html",
   "kind": "article"
  },
@@ -1653,6 +1657,10 @@
  },
  {
   "rel": "docs/bieu-mau-thu-tuc/bieu-mau-thu-tuc-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-phu-tung/binh-chua-chay-mini-tren-xe-may-co-nen-mang-dat-o-dau-va-luc-nao-nen-dung-hay-tranh-xa/index.html",
   "kind": "article"
  },
  {
@@ -1892,6 +1900,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/cho-nguoi-dang-say-ruou-bia-ve-nha-bang-xe-may-khi-nao-khong-nen-cho-va-dau-hieu-can-goi-cap-cuu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/su-dung-xe/cho-nguoi-khac-muon-xe-may-luu-y/index.html",
   "kind": "article"
  },
@@ -2104,6 +2116,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/den-bao-abs-tren-xe-may-sang-hoac-nhap-nhay-luc-nao-binh-thuong-va-khi-nao-can-kiem-tra/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/den-bao-so-xe-so-khong-sang-hoac-bao-sai/index.html",
   "kind": "article"
  },
@@ -2176,6 +2192,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-gan-xe-ba-gac-xe-day-hang-rong-va-xe-tho-so-giu-khoang-cach-va-vuot-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/di-xe-may-mot-minh-ban-dem-chon-duong-bao-nguoi-than-va-xu-ly-khi-bat-an/index.html",
   "kind": "article"
  },
@@ -2189,6 +2209,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/di-xe-may-tren-duong-lat-da-va-lat-gach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/di-phuot/di-xe-may-vung-nui-mua-mua-dau-hieu-sat-lo-lu-quet-va-khi-nao-phai-quay-dau/index.html",
   "kind": "article"
  },
  {
@@ -4585,6 +4609,10 @@
  },
  {
   "rel": "guide/xu-ly-su-co/xe-may-bi-ro-xang-xu-ly-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/bao-duong-dinh-ky/xe-may-chi-chay-quang-ngan-moi-ngay-may-it-khi-du-nong-va-nhung-hang-muc-can-de-y/index.html",
   "kind": "article"
  },
  {
