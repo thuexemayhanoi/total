@@ -18453,11 +18453,13 @@
    "title": "Đĩa phanh nổi và đĩa phanh liền trên xe máy khác nhau thế nào: chốt nổi, giãn nở khi nóng và tiếng lách cách",
    "primaryIntent": "informational/dia-phanh-noi-va-dia-phanh-lien-tren-xe-may-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001357",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.448Z",
-   "updatedAt": "2026-10-13T01:59:37.449Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 91,
+   "words": 2885
   },
   {
    "id": "S01275",
@@ -18466,11 +18468,13 @@
    "title": "Xích, dây đai và trục các-đăng: các cách đưa lực ra bánh sau xe máy, ưu nhược và việc chăm sóc từng loại",
    "primaryIntent": "informational/xich-day-dai-va-truc-cac-dang-truyen-luc-ra-banh-sau-xe-may",
    "notes": "source=topic-v2 topicId=T001358",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.472Z",
-   "updatedAt": "2026-10-13T01:59:37.472Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 100,
+   "words": 2977
   },
   {
    "id": "S01276",
@@ -18479,11 +18483,13 @@
    "title": "Động cơ một xy-lanh và nhiều xy-lanh trên xe máy khác nhau thế nào: độ êm, tiếng máy, độ rung và việc bảo dưỡng",
    "primaryIntent": "informational/dong-co-mot-xy-lanh-va-nhieu-xy-lanh-tren-xe-may-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001360",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.491Z",
-   "updatedAt": "2026-10-13T01:59:37.491Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 100,
+   "words": 2838
   },
   {
    "id": "S01277",
@@ -18492,11 +18498,13 @@
    "title": "Chi tiết mạ crom trên xe máy bị ố, rỗ và lấm tấm gỉ: làm sạch đúng cách, giữ sáng và khi nào phải mạ lại",
    "primaryIntent": "troubleshooting/chi-tiet-ma-crom-tren-xe-may-bi-o-ro-va-dom-gi",
    "notes": "source=topic-v2 topicId=T001361",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.509Z",
-   "updatedAt": "2026-10-13T01:59:37.509Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 100,
+   "words": 2866
   },
   {
    "id": "S01278",
@@ -18505,11 +18513,13 @@
    "title": "Nhựa đường, nhựa cây và phân chim bám trên xe máy: làm sạch sớm và đúng cách để không hại lớp sơn",
    "primaryIntent": "troubleshooting/nhua-duong-nhua-cay-va-phan-chim-bam-tren-xe-may-lam-sach-the-nao",
    "notes": "source=topic-v2 topicId=T001362",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.525Z",
-   "updatedAt": "2026-10-13T01:59:37.525Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 100,
+   "words": 2912
   },
   {
    "id": "S01279",
@@ -18518,11 +18528,13 @@
    "title": "Tay nắm cao su và gù tay lái xe máy: dấu hiệu mòn, trơn, xoay lỏng và điều phải kiểm khi thay bên tay ga",
    "primaryIntent": "troubleshooting/tay-nam-va-gu-tay-lai-xe-may-mon-tron-long-va-cach-thay",
    "notes": "source=topic-v2 topicId=T001364",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.543Z",
-   "updatedAt": "2026-10-13T01:59:37.543Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 91,
+   "words": 2942
   },
   {
    "id": "S01280",
@@ -18531,11 +18543,13 @@
    "title": "Xe tay ga bánh lớn và bánh nhỏ khác nhau thế nào khi qua ổ gà, ôm cua và xoay trở trong phố đông",
    "primaryIntent": "informational/xe-tay-ga-banh-lon-va-banh-nho-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001365",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.560Z",
-   "updatedAt": "2026-10-13T01:59:37.560Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 100,
+   "words": 2892
   },
   {
    "id": "S01281",
@@ -18544,11 +18558,13 @@
    "title": "Sáp, phủ nano và phủ ceramic cho sơn xe máy khác nhau thế nào: bảo vệ được gì và không bảo vệ được gì",
    "primaryIntent": "informational/sap-phu-nano-va-phu-ceramic-cho-son-xe-may-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001366",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.577Z",
-   "updatedAt": "2026-10-13T01:59:37.577Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 100,
+   "words": 2926
   },
   {
    "id": "S01282",
@@ -18557,11 +18573,13 @@
    "title": "Kẹp điện thoại trên xe máy: chọn kiểu kẹp, vị trí gắn và bảo vệ máy khỏi rung, nắng, mưa",
    "primaryIntent": "informational/kep-dien-thoai-tren-xe-may-chon-kieu-va-gan-an-toan",
    "notes": "source=topic-v2 topicId=T001367",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.592Z",
-   "updatedAt": "2026-10-13T01:59:37.592Z"
+   "updatedAt": "2026-10-13T02:18:29.500Z",
+   "seoScore": 100,
+   "words": 2909
   },
   {
    "id": "S01283",
