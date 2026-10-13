@@ -21498,11 +21498,13 @@
    "title": "Xe máy bị bó máy khi đang chạy: dấu hiệu sớm, phản xạ an toàn và vì sao không cố đề lại",
    "primaryIntent": "troubleshooting/xe-may-bi-bo-may-khi-dang-chay-dau-hieu-som-phan-xa-an-toan-va-vi-sao-khong-de-lai",
    "notes": "source=topic-v2 topicId=T001609",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:37:16.530Z",
-   "updatedAt": "2026-10-13T15:37:16.530Z"
+   "updatedAt": "2026-10-13T15:42:49.697Z",
+   "seoScore": 100,
+   "words": 3170
   },
   {
    "id": "S01478",
@@ -21511,11 +21513,13 @@
    "title": "Đi xe máy bị ù tai: tiếng gió, tiếng máy và cách giảm ồn mà vẫn nghe được còi",
    "primaryIntent": "informational/di-xe-may-bi-u-tai-tieng-gio-tieng-may-va-cach-giam-on-ma-van-nghe-duoc-coi",
    "notes": "source=topic-v2 topicId=T001610",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:37:16.576Z",
-   "updatedAt": "2026-10-13T15:37:16.576Z"
+   "updatedAt": "2026-10-13T15:42:49.697Z",
+   "seoScore": 100,
+   "words": 2900
   }
  ]
 }
