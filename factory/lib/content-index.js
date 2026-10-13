@@ -315,10 +315,71 @@ function status(dbFile, manifestFile, matrixFile) {
   return out;
 }
 
+
+/**
+ * Coordinator-owned publish refresh. Normal batches read their 1–10 changed
+ * article files plus compact manifest/matrix metadata. Older partial manifests
+ * trigger ONE safe full rebuild; never silently accept an incomplete corpus.
+ */
+function syncPublishedBatch(root, ids, manifestFile, dbFile) {
+  if (!Array.isArray(ids) || ids.length < 1 || ids.length > 10 ||
+      ids.length !== new Set(ids).size) throw Error('MANIFEST_SCOPE_INVALID');
+  const matrixFile = path.join(root, 'factory/state/matrix.json');
+  const mf = manifestFile || path.join(root, 'factory/state/article-manifest.jsonl');
+  const db = dbFile || path.join(root, 'factory/state/content-index.sqlite');
+  const matrix = JSON.parse(fs.readFileSync(matrixFile, 'utf8'));
+  const byId = new Map(matrix.slots.map(s => [s.id, s]));
+  for (const id of ids) {
+    if (!byId.has(id) || byId.get(id).state !== 'PUBLISHED') {
+      throw Error('MANIFEST_SCOPE_NOT_PUBLISHED ' + id);
+    }
+  }
+  const before = fs.existsSync(mf) ? fs.readFileSync(mf, 'utf8') : null;
+  let rows = before === null ? [] : readManifest(mf);
+  const prior = publishedCoverage(rows, matrix);
+  let mode = 'incremental';
+  if (before === null || prior.duplicates.length || prior.mismatched.length ||
+      prior.missing.some(id => !ids.includes(id))) {
+    mode = 'bootstrap';
+    rows = buildManifestFromRepo(root);
+  } else {
+    const byManifestId = new Map(rows.map(r => [r.id, r]));
+    for (const id of ids) {
+      const slot = byId.get(id);
+      const file = path.join(root, 'factory/data/articles', slot.slug + '.js');
+      if (!fs.existsSync(file)) { mode = 'bootstrap'; break; }
+      delete require.cache[require.resolve(file)];
+      byManifestId.set(id, manifestRowForArticle(require(file), slot, file));
+    }
+    if (mode === 'bootstrap') rows = buildManifestFromRepo(root);
+    else rows = [...byManifestId.values()].sort((a, b) =>
+      Number(String(a.id).slice(1)) - Number(String(b.id).slice(1)));
+  }
+  const coverage = requireCoverage(rows, matrix);
+  // Publish workflow commits only after this method returns successfully.
+  // If the derived SQLite rebuild fails, restore the exact prior JSONL bytes.
+  writeManifestAtomic(mf, rows);
+  try {
+    rebuild(db, rows, mf);
+    const check = status(db, mf, matrixFile);
+    if (!check.ok) throw Error('INDEX_REFRESH_VERIFY_FAIL ' + check.why);
+  } catch (e) {
+    if (before === null) {
+      try { fs.unlinkSync(mf); } catch (_) { /* absent */ }
+    } else {
+      const backup = mf + '.tmp';
+      fs.writeFileSync(backup, before);
+      fs.renameSync(backup, mf);
+    }
+    throw e;
+  }
+  return { mode, total: rows.length, published: coverage.published, ids };
+}
+
 module.exports = {
   MANIFEST_FILE, DB_FILE,
   assertCoordinator, normalizeTopic, qaStatusFromSlot,
-  publishedCoverage, requireCoverage, manifestRowForArticle,
+  publishedCoverage, requireCoverage, manifestRowForArticle, syncPublishedBatch,
   buildManifestFromRepo, writeManifestAtomic, readManifest, manifestLine,
   rebuild, openReadOnly, quickCheck, knownSet, count, bySlug, byIntent, status,
 };
