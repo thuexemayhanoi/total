@@ -21108,11 +21108,13 @@
    "title": "Hút thuốc khi đang lái xe máy: tàn thuốc bay, một tay lái và những chỗ tuyệt đối không châm lửa",
    "primaryIntent": "informational/hut-thuoc-khi-dang-lai-xe-may-tan-thuoc-bay-mot-tay-lai-va-nhung-cho-tuyet-doi-khong-hut",
    "notes": "source=topic-v2 topicId=T001573",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:58:10.436Z",
-   "updatedAt": "2026-10-13T14:58:10.436Z"
+   "updatedAt": "2026-10-13T15:07:04.922Z",
+   "seoScore": 100,
+   "words": 3256
   },
   {
    "id": "S01452",
@@ -21121,11 +21123,13 @@
    "title": "Xao nhãng khi lái xe máy: ăn uống, quay đầu nói chuyện, nhìn lâu một chỗ và cách giữ tập trung",
    "primaryIntent": "informational/xao-nhang-khi-lai-xe-may-an-uong-quay-dau-noi-chuyen-nhin-lau-mot-cho-va-cach-giu-tap-trung",
    "notes": "source=topic-v2 topicId=T001574",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:58:10.486Z",
-   "updatedAt": "2026-10-13T14:58:10.486Z"
+   "updatedAt": "2026-10-13T15:07:04.923Z",
+   "seoScore": 100,
+   "words": 3101
   },
   {
    "id": "S01453",
@@ -21134,11 +21138,13 @@
    "title": "Xe máy bị phá khi đỗ: cào xước sơn, rạch yên, xì lốp hay bẻ gương — xử lý và phòng tránh",
    "primaryIntent": "troubleshooting/xe-may-bi-pha-khi-do-cao-xuoc-son-rach-yen-xi-lop-hay-be-guong-xu-ly-va-phong-tranh",
    "notes": "source=topic-v2 topicId=T001575",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:58:10.540Z",
-   "updatedAt": "2026-10-13T14:58:10.540Z"
+   "updatedAt": "2026-10-13T15:07:04.923Z",
+   "seoScore": 100,
+   "words": 3027
   },
   {
    "id": "S01454",
@@ -21147,11 +21153,13 @@
    "title": "Đi xe máy qua cổng bệnh viện: xe cứu thương ra vào, người nhà vội vã và chỗ gửi xe chật",
    "primaryIntent": "informational/di-xe-may-qua-cong-benh-vien-xe-cuu-thuong-ra-vao-nguoi-nha-voi-va-va-cho-gui-xe-chat",
    "notes": "source=topic-v2 topicId=T001576",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:58:10.578Z",
-   "updatedAt": "2026-10-13T14:58:10.578Z"
+   "updatedAt": "2026-10-13T15:07:04.922Z",
+   "seoScore": 91,
+   "words": 3168
   },
   {
    "id": "S01455",
@@ -21160,11 +21168,13 @@
    "title": "Đi xe máy trong khu đô thị mới: đường rộng vắng, giao lộ chưa có đèn và xe công trình",
    "primaryIntent": "informational/di-xe-may-trong-khu-do-thi-moi-duong-rong-vang-giao-lo-chua-co-den-va-xe-cong-trinh",
    "notes": "source=topic-v2 topicId=T001577",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:58:10.609Z",
-   "updatedAt": "2026-10-13T14:58:10.609Z"
+   "updatedAt": "2026-10-13T15:07:04.922Z",
+   "seoScore": 100,
+   "words": 2863
   },
   {
    "id": "S01456",
@@ -21173,11 +21183,13 @@
    "title": "Đi xe máy viếng mộ, tảo mộ: đường vào nghĩa trang, lửa hương và chỗ để xe",
    "primaryIntent": "informational/di-xe-may-vieng-mo-tao-mo-duong-vao-nghia-trang-lua-huong-va-cho-de-xe",
    "notes": "source=topic-v2 topicId=T001578",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:01:03.354Z",
-   "updatedAt": "2026-10-13T15:01:03.354Z"
+   "updatedAt": "2026-10-13T15:07:04.922Z",
+   "seoScore": 100,
+   "words": 3136
   },
   {
    "id": "S01457",
@@ -21186,11 +21198,13 @@
    "title": "Gặp người chạy bộ và nhóm tập thể dục trên đường sáng sớm hay buổi tối khi đi xe máy",
    "primaryIntent": "informational/gap-nguoi-chay-bo-va-nhom-tap-the-duc-tren-duong-sang-som-va-toi-khi-di-xe-may",
    "notes": "source=topic-v2 topicId=T001579",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:01:03.433Z",
-   "updatedAt": "2026-10-13T15:01:03.434Z"
+   "updatedAt": "2026-10-13T15:07:04.922Z",
+   "seoScore": 91,
+   "words": 3164
   },
   {
    "id": "S01458",
@@ -21199,11 +21213,13 @@
    "title": "Hắt hơi, ngứa mũi hay ho khi đang lái xe máy: giữ xe thẳng, giảm tốc và phòng trước",
    "primaryIntent": "informational/hat-hoi-ngua-mui-hay-ho-khi-dang-lai-xe-may-giu-xe-thang-giam-toc-va-phong-truoc",
    "notes": "source=topic-v2 topicId=T001580",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:01:03.492Z",
-   "updatedAt": "2026-10-13T15:01:03.492Z"
+   "updatedAt": "2026-10-13T15:07:04.922Z",
+   "seoScore": 100,
+   "words": 2960
   },
   {
    "id": "S01459",
@@ -21212,11 +21228,13 @@
    "title": "Thảm lót sàn xe tay ga: có cần không, chọn loại không trơn chân và không giữ nước",
    "primaryIntent": "informational/tham-lot-san-xe-tay-ga-co-can-khong-chon-loai-khong-tron-chan-va-khong-giu-nuoc",
    "notes": "source=topic-v2 topicId=T001581",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:01:03.541Z",
-   "updatedAt": "2026-10-13T15:01:03.541Z"
+   "updatedAt": "2026-10-13T15:07:04.923Z",
+   "seoScore": 91,
+   "words": 2902
   },
   {
    "id": "S01460",
@@ -21225,11 +21243,13 @@
    "title": "Vệt nắng loang lổ dưới hàng cây khi đi xe máy: mắt chưa kịp quen và ổ gà bị che",
    "primaryIntent": "informational/vet-nang-loang-lo-duoi-hang-cay-khi-di-xe-may-mat-chua-kip-quen-va-o-ga-bi-che",
    "notes": "source=topic-v2 topicId=T001582",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:01:03.614Z",
-   "updatedAt": "2026-10-13T15:01:03.614Z"
+   "updatedAt": "2026-10-13T15:07:04.923Z",
+   "seoScore": 100,
+   "words": 2904
   }
  ]
 }
