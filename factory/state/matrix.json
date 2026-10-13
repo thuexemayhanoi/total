@@ -20163,11 +20163,13 @@
    "title": "Hơi nóng phả vào chân và đùi khi đi xe máy: lúc nào là bình thường, lúc nào báo máy quá nóng và cách giảm khó chịu",
    "primaryIntent": "informational/hoi-nong-pha-vao-chan-va-dui-khi-di-xe-may-luc-nao-binh-thuong-va-khi-nao-bao-may-qua-nong",
    "notes": "source=topic-v2 topicId=T001491",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:44:04.699Z",
-   "updatedAt": "2026-10-13T12:44:04.699Z"
+   "updatedAt": "2026-10-13T12:52:19.864Z",
+   "seoScore": 91,
+   "words": 3117
   },
   {
    "id": "S01389",
@@ -20176,11 +20178,13 @@
    "title": "Nghi xe máy bị gắn thiết bị định vị lén: dấu hiệu, chỗ hay bị giấu và việc nên làm cho an toàn",
    "primaryIntent": "informational/nghi-xe-may-bi-gan-thiet-bi-dinh-vi-len-dau-hieu-cho-hay-bi-giau-va-viec-nen-lam",
    "notes": "source=topic-v2 topicId=T001492",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:44:04.740Z",
-   "updatedAt": "2026-10-13T12:44:04.740Z"
+   "updatedAt": "2026-10-13T12:52:19.864Z",
+   "seoScore": 100,
+   "words": 3039
   },
   {
    "id": "S01390",
@@ -20189,11 +20193,13 @@
    "title": "Mẹ sau sinh và trẻ sơ sinh với xe máy: khi nào mẹ ngồi sau, khi nào tự lái lại và vì sao không nên bế bé đi xe máy",
    "primaryIntent": "informational/me-sau-sinh-va-tre-so-sinh-di-xe-may-khi-nao-ngoi-sau-khi-nao-tu-lai-va-vi-sao-khong-be-be-tren-xe",
    "notes": "source=topic-v2 topicId=T001493",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:44:04.765Z",
-   "updatedAt": "2026-10-13T12:44:04.765Z"
+   "updatedAt": "2026-10-13T12:52:19.864Z",
+   "seoScore": 100,
+   "words": 3099
   },
   {
    "id": "S01391",
@@ -20202,11 +20208,13 @@
    "title": "Sinh viên mới lên thành phố đi xe máy: chọn xe, chỗ gửi xe, chống mất xe và làm quen với đường đông",
    "primaryIntent": "informational/sinh-vien-moi-len-thanh-pho-di-xe-may-chon-xe-cho-gui-xe-chong-mat-xe-va-lam-quen-duong-dong",
    "notes": "source=topic-v2 topicId=T001494",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:44:04.786Z",
-   "updatedAt": "2026-10-13T12:44:04.786Z"
+   "updatedAt": "2026-10-13T12:52:19.865Z",
+   "seoScore": 100,
+   "words": 3069
   },
   {
    "id": "S01392",
@@ -20215,11 +20223,13 @@
    "title": "Cầm ô che mưa nắng khi ngồi sau hoặc đang lái xe máy: vì sao nguy hiểm và cách che chắn thay thế",
    "primaryIntent": "informational/cam-o-che-mua-nang-khi-ngoi-sau-hoac-dang-lai-xe-may-vi-sao-nguy-hiem-va-cach-che-thay-the",
    "notes": "source=topic-v2 topicId=T001495",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:44:04.810Z",
-   "updatedAt": "2026-10-13T12:44:04.810Z"
+   "updatedAt": "2026-10-13T12:52:19.864Z",
+   "seoScore": 100,
+   "words": 3015
   },
   {
    "id": "S01393",
@@ -20228,11 +20238,13 @@
    "title": "Đeo khẩu trang khi đi xe máy: chọn loại nào cho thoáng, tránh mờ kính mũ và lúc nên thay hoặc giặt",
    "primaryIntent": "informational/deo-khau-trang-khi-di-xe-may-chon-loai-thoang-tranh-mo-kinh-va-luc-nen-thay",
    "notes": "source=topic-v2 topicId=T001496",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:44:04.832Z",
-   "updatedAt": "2026-10-13T12:44:04.832Z"
+   "updatedAt": "2026-10-13T12:52:19.864Z",
+   "seoScore": 100,
+   "words": 3031
   },
   {
    "id": "S01394",
@@ -20241,11 +20253,13 @@
    "title": "Áo và váy chống nắng khi đi xe máy: chọn chất liệu, che kín mà không vướng bánh xe và không che tầm nhìn",
    "primaryIntent": "informational/ao-va-vay-chong-nang-khi-di-xe-may-chon-chat-lieu-che-kin-ma-khong-vuong-banh-va-khong-che-tam-nhin",
    "notes": "source=topic-v2 topicId=T001497",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:44:04.859Z",
-   "updatedAt": "2026-10-13T12:44:04.859Z"
+   "updatedAt": "2026-10-13T12:52:19.864Z",
+   "seoScore": 100,
+   "words": 2917
   },
   {
    "id": "S01395",
