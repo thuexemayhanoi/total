@@ -20523,11 +20523,13 @@
    "title": "Người nghe kém đi xe máy: bù bằng mắt và gương, máy trợ thính dưới mũ, và cách giao tiếp khi có sự cố",
    "primaryIntent": "informational/nguoi-nghe-kem-di-xe-may-bu-bang-mat-guong-va-cach-giao-tiep-khi-co-su-co",
    "notes": "source=topic-v2 topicId=T001524",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:46:34.828Z",
-   "updatedAt": "2026-10-13T13:46:34.828Z"
+   "updatedAt": "2026-10-13T13:53:12.322Z",
+   "seoScore": 100,
+   "words": 2999
   },
   {
    "id": "S01413",
@@ -20536,11 +20538,13 @@
    "title": "Người mù màu đi xe máy: nhận đèn giao thông theo vị trí, để ý đèn phanh xe trước và đèn báo trên đồng hồ",
    "primaryIntent": "informational/nguoi-mu-mau-di-xe-may-nhan-den-giao-thong-theo-vi-tri-den-phanh-va-den-bao",
    "notes": "source=topic-v2 topicId=T001525",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:46:34.873Z",
-   "updatedAt": "2026-10-13T13:46:34.873Z"
+   "updatedAt": "2026-10-13T13:53:12.322Z",
+   "seoScore": 100,
+   "words": 3287
   },
   {
    "id": "S01414",
@@ -20549,11 +20553,13 @@
    "title": "Đèn tín hiệu ở ngã tư bị hỏng, tắt hoặc chỉ nháy vàng: đi xe máy qua thế nào cho an toàn",
    "primaryIntent": "informational/den-tin-hieu-o-nga-tu-bi-hong-tat-hoac-chi-nhay-vang-di-xe-may-qua-the-nao",
    "notes": "source=topic-v2 topicId=T001527",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:46:34.901Z",
-   "updatedAt": "2026-10-13T13:46:34.901Z"
+   "updatedAt": "2026-10-13T13:53:12.322Z",
+   "seoScore": 100,
+   "words": 2977
   },
   {
    "id": "S01415",
