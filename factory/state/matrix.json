@@ -21708,11 +21708,13 @@
    "title": "Tra mỡ cho xe máy: chỗ nào cần mỡ, chỗ nào tuyệt đối không và việc nên để thợ làm",
    "primaryIntent": "informational/tra-mo-cho-xe-may-cho-nao-can-mo-cho-nao-tuyet-doi-khong-va-viec-nen-de-tho-lam",
    "notes": "source=topic-v2 topicId=T001625",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:36:57.311Z",
-   "updatedAt": "2026-10-13T16:36:57.312Z"
+   "updatedAt": "2026-10-13T16:41:30.699Z",
+   "seoScore": 91,
+   "words": 3117
   }
  ]
 }
