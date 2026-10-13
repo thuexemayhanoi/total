@@ -35,6 +35,12 @@ const stylesheetHash = require('node:crypto').createHash('sha256')
   .update(require('node:fs').readFileSync(require('node:path').join(__dirname, '../assets/css/atlas.css')))
   .digest('hex').slice(0, 12);
 assert(page.includes('href="/assets/css/atlas.css?v=' + stylesheetHash + '"'));
+const navScriptHash = require('node:crypto').createHash('sha256')
+  .update(require('node:fs').readFileSync(require('node:path').join(__dirname, '../assets/js/nav.js')))
+  .digest('hex').slice(0, 12);
+assert(page.includes('src="/assets/js/nav.js?v=' + navScriptHash + '"'));
+assert(page.includes('class="menu-close dd-close"') && page.includes('aria-label="Đóng menu Thuê xe"'));
+assert(page.includes('class="menu-close mega-close"') && page.includes('aria-label="Đóng menu Danh mục"'));
 assert(page.includes('https://wiki.thuexemaynguyentu.com/lien-he/'));
 assert(!page.includes('editorial-slot'));
 console.log('SHARED_SITE_QA_OK');

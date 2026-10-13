@@ -7,6 +7,9 @@ const { join } = require('node:path');
 const STYLESHEET_VERSION = createHash('sha256')
   .update(readFileSync(join(__dirname, '../../assets/css/atlas.css')))
   .digest('hex').slice(0, 12);
+const NAV_SCRIPT_VERSION = createHash('sha256')
+  .update(readFileSync(join(__dirname, '../../assets/js/nav.js')))
+  .digest('hex').slice(0, 12);
 const { SITE, PRIMARY_NAV, HOME_CATEGORY_ORDER, FEATURES, PUBLISHER_PROFILE } = require('../site.config');
 const { renderSlot } = require('./slots');
 const { CATEGORIES } = require('../data/categories');
@@ -49,7 +52,8 @@ function thueXeDropdown() {
       </a>`).join('');
   return `<div class="dropdown" id="dd-thue-xe">
     <button type="button" class="nav-dd-trigger" aria-expanded="false" aria-controls="dd-thue-xe-panel">Thuê xe <span class="caret" aria-hidden="true">▾</span></button>
-    <div class="dd-panel" id="dd-thue-xe-panel">${items}
+    <div class="dd-panel" id="dd-thue-xe-panel">
+      <div class="menu-panel-head"><span class="menu-panel-label">Thuê xe</span><button type="button" class="menu-close dd-close" aria-label="Đóng menu Thuê xe" title="Đóng menu">×</button></div>${items}
       <a class="dd-all" href="${u('thue-xe/')}">Xem tất cả chủ đề thuê xe →</a>
     </div>
   </div>`;
@@ -67,6 +71,7 @@ function megaMenu() {
     </div>`;
   }).join('');
   return `<div class="mega" id="mega-all" hidden>
+    <div class="menu-panel-head"><span class="menu-panel-label">Danh mục</span><button type="button" class="menu-close mega-close" aria-label="Đóng menu Danh mục" title="Đóng menu">×</button></div>
     <div class="mega-grid">${cells}</div>
   </div>`;
 }
@@ -288,7 +293,7 @@ ${footerHtml()}
 ${FEATURES.smartSearch ? searchModal() : ''}
 ${chatbotMarkup()}
 <script src="${u('assets/js/overlay.js')}"></script>
-<script src="${u('assets/js/nav.js')}"></script>
+<script src="${u('assets/js/nav.js')}?v=${NAV_SCRIPT_VERSION}"></script>
 ${searchScriptTag()}
 <script src="${u('assets/js/chatbot.js')}"></script>
 </body>

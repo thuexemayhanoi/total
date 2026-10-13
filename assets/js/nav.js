@@ -16,6 +16,11 @@
       isOpen: function () { return dd.classList.contains('open'); }
     });
     ddTrigger.addEventListener('click', function () { AWT.toggle('dropdown'); });
+    var ddClose = dd.querySelector('.dd-close');
+    if (ddClose) ddClose.addEventListener('click', function (e) {
+      e.stopPropagation();
+      AWT.close('dropdown');
+    });
     // Click ngoài → đóng (mega/dropdown không khoá trang nên vẫn cần)
     document.addEventListener('click', function (e) {
       if (AWT.isOpen('dropdown') && !dd.contains(e.target)) AWT.close('dropdown');
@@ -34,6 +39,11 @@
     megaTrigger.addEventListener('click', function (e) {
       e.stopPropagation();
       AWT.toggle('mega');
+    });
+    var megaClose = mega.querySelector('.mega-close');
+    if (megaClose) megaClose.addEventListener('click', function (e) {
+      e.stopPropagation();
+      AWT.close('mega');
     });
     document.addEventListener('click', function (e) {
       if (AWT.isOpen('mega') && !mega.contains(e.target) && e.target !== megaTrigger) AWT.close('mega');

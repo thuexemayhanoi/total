@@ -152,7 +152,14 @@ h1, h2, h3, h4 { line-height: 1.25; letter-spacing: -0.01em; overflow-wrap: brea
   min-width: 44px; min-height: 44px; border-radius: var(--radius-sm);
 }
 .nav-toggle:hover { background: var(--bg-soft); }
-.nav-toggle .bar { display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px auto; }
+.nav-toggle .bar {
+  display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px auto;
+  transition: transform 0.18s ease, opacity 0.15s ease;
+}
+/* Mobile menu: three lines change into an X when expanded. */
+.nav-toggle[aria-expanded="true"] .bar:first-child { transform: translateY(12px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] .bar:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] .bar:last-child { transform: translateY(-12px) rotate(-45deg); }
 
 /* Drawer mobile */
 .mobile-nav {
@@ -191,6 +198,21 @@ h1, h2, h3, h4 { line-height: 1.25; letter-spacing: -0.01em; overflow-wrap: brea
 .mnav-child { padding-left: 30px; }
 .mnav-cat { font-weight: 600; color: var(--ink); }
 .mnav-cat:hover, .mnav-child:hover { background: var(--bg-soft); text-decoration: none; color: var(--ink); }
+
+/* Visible, keyboard-accessible close buttons for desktop navigation panels. */
+.menu-panel-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.menu-panel-label { font-size: 14px; font-weight: 700; color: var(--ink); }
+.menu-close {
+  display: inline-flex; align-items: center; justify-content: center; flex: none;
+  width: 44px; height: 44px; padding: 0;
+  border: 0; border-radius: var(--radius-sm); background: transparent;
+  color: var(--ink); font-family: inherit; font-size: 27px; line-height: 1; cursor: pointer;
+}
+.menu-close:hover { background: var(--bg-soft); color: var(--cobalt); }
+.dd-panel .menu-panel-head { padding-left: 12px; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
+.mega > .menu-panel-head { max-width: var(--content-max); padding: 8px 20px 0; margin: 0 auto; }
 
 /* Dropdown "Thuê xe" */
 .dropdown { position: relative; }

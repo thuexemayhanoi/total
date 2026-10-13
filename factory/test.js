@@ -335,6 +335,14 @@ ok(/\.dd-panel\s*\{\s*display:\s*none\s*;/.test(atlasCss),
   'Desktop rental dropdown is hidden before interaction');
 ok(/\.nav-link,\s*\.nav-dd-trigger\s*\{/.test(atlasCss),
   'Desktop rental trigger uses shared navigation button styling');
+ok(home.includes('class="menu-close dd-close"') && home.includes('class="menu-close mega-close"'),
+  'Desktop dropdown and mega menu have visible close buttons');
+ok(navJs.includes("AWT.close('dropdown')") && navJs.includes("AWT.close('mega')") &&
+   navJs.includes("querySelector('.dd-close')") && navJs.includes("querySelector('.mega-close')"),
+  'Desktop X buttons close their respective AWT panels');
+ok(atlasCss.includes('.nav-toggle[aria-expanded="true"] .bar:first-child') &&
+   atlasCss.includes('.nav-toggle[aria-expanded="true"] .bar:last-child'),
+  'Mobile hamburger changes into X when menu opens');
 ok(exists('assets/js/overlay.js'), 'Có trình quản lý overlay dùng chung');
 ok(overlayJs.includes('closeAll'), 'Overlay: cơ chế đóng-mọi-overlay-khi-mở (mutual exclusion)');
 ok(overlayJs.includes('Escape'), 'Overlay: Escape đóng đúng UI active');
