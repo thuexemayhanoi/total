@@ -2216,6 +2216,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/di-giay-cao-got-dep-le-hay-guoc-khi-lai-xe-may-vi-sao-tron-chan-kho-phanh-va-nen-di-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/di-phuot/di-phuot-mot-minh-bang-xe-may-chuan-bi-gioi-han-ban-than-va-xu-ly-su-co/index.html",
   "kind": "article"
  },
@@ -2265,6 +2269,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/di-xe-may-tren-duong-lat-da-va-lat-gach/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/di-xe-may-trong-mua-phun-va-mua-bui-kinh-mo-duong-tron-am-va-de-bi-khuat-tam-nhin/index.html",
   "kind": "article"
  },
  {
@@ -3053,6 +3061,10 @@
  },
  {
   "rel": "garage/truyen-dong/ly-hop-xe-so-bi-truot/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/mac-do-cong-so-di-xe-may-giu-ao-khong-nhau-khong-ban-khong-uot-mo-hoi/index.html",
   "kind": "article"
  },
  {
@@ -4513,6 +4525,10 @@
  },
  {
   "rel": "news/xe-dien/tin-xe-dien/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/toc-dai-duoi-mu-bao-hiem-buoc-toc-the-nao-cho-mu-vua-va-giam-bet-rot-toc/index.html",
   "kind": "article"
  },
  {

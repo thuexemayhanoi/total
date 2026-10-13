@@ -20688,11 +20688,13 @@
    "title": "Mặc đồ công sở đi xe máy: giữ áo không nhàu, không bẩn, không ướt mồ hôi mà vẫn an toàn",
    "primaryIntent": "informational/mac-do-cong-so-di-xe-may-giu-ao-khong-nhau-khong-ban-khong-uot-mo-hoi",
    "notes": "source=topic-v2 topicId=T001536",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:00:32.164Z",
-   "updatedAt": "2026-10-13T14:00:32.164Z"
+   "updatedAt": "2026-10-13T14:07:49.880Z",
+   "seoScore": 100,
+   "words": 2960
   },
   {
    "id": "S01424",
@@ -20701,11 +20703,13 @@
    "title": "Tóc dài dưới mũ bảo hiểm: buộc tóc thế nào cho mũ vừa, đỡ bết và đỡ rối tóc khi đi xe máy",
    "primaryIntent": "informational/toc-dai-duoi-mu-bao-hiem-buoc-toc-the-nao-cho-mu-vua-va-giam-bet-rot-toc",
    "notes": "source=topic-v2 topicId=T001537",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:00:32.219Z",
-   "updatedAt": "2026-10-13T14:00:32.219Z"
+   "updatedAt": "2026-10-13T14:07:49.880Z",
+   "seoScore": 91,
+   "words": 2986
   },
   {
    "id": "S01425",
@@ -20714,11 +20718,13 @@
    "title": "Đi giày cao gót, dép lê hay guốc khi lái xe máy: vì sao dễ trượt chân, khó phanh và nên đi giày gì",
    "primaryIntent": "informational/di-giay-cao-got-dep-le-hay-guoc-khi-lai-xe-may-vi-sao-tron-chan-kho-phanh-va-nen-di-gi",
    "notes": "source=topic-v2 topicId=T001538",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:00:32.248Z",
-   "updatedAt": "2026-10-13T14:00:32.248Z"
+   "updatedAt": "2026-10-13T14:07:49.880Z",
+   "seoScore": 100,
+   "words": 2933
   },
   {
    "id": "S01426",
@@ -20727,11 +20733,13 @@
    "title": "Đi xe máy trong mưa phùn và mưa bụi: kính mờ, mặt đường trơn âm ỉ và dễ bị khuất tầm nhìn",
    "primaryIntent": "informational/di-xe-may-trong-mua-phun-va-mua-bui-kinh-mo-duong-tron-am-va-de-bi-khuat-tam-nhin",
    "notes": "source=topic-v2 topicId=T001539",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:00:32.283Z",
-   "updatedAt": "2026-10-13T14:00:32.283Z"
+   "updatedAt": "2026-10-13T14:07:49.880Z",
+   "seoScore": 100,
+   "words": 3261
   },
   {
    "id": "S01427",
