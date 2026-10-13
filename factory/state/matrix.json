@@ -18783,11 +18783,13 @@
    "title": "Lốp đặc cho xe máy có nên dùng không: không lo thủng nhưng đổi lại độ êm, độ bám và tải lên vành",
    "primaryIntent": "informational/lop-dac-cho-xe-may-co-nen-dung",
    "notes": "source=topic-v2 topicId=T001385",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:09:12.248Z",
-   "updatedAt": "2026-10-13T02:09:12.248Z"
+   "updatedAt": "2026-10-13T02:28:41.213Z",
+   "seoScore": 91,
+   "words": 2890
   },
   {
    "id": "S01297",
@@ -18796,11 +18798,13 @@
    "title": "Tự tháo lắp lốp có săm xe máy bằng cây nạy: khi nào nên tự làm, dụng cụ cần có và lỗi làm thủng săm, xước vành",
    "primaryIntent": "informational/tu-thao-lap-lop-co-sam-bang-cay-nay",
    "notes": "source=topic-v2 topicId=T001386",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:09:12.277Z",
-   "updatedAt": "2026-10-13T02:09:12.278Z"
+   "updatedAt": "2026-10-13T02:28:41.213Z",
+   "seoScore": 100,
+   "words": 2939
   },
   {
    "id": "S01298",
@@ -18809,11 +18813,13 @@
    "title": "Bơm lốp mini mang theo xe máy: bơm tay, bơm điện cắm xe và bơm có pin, chọn loại nào và dùng sao cho đúng",
    "primaryIntent": "informational/bom-lop-mini-mang-theo-xe-may",
    "notes": "source=topic-v2 topicId=T001387",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:09:12.301Z",
-   "updatedAt": "2026-10-13T02:09:12.301Z"
+   "updatedAt": "2026-10-13T02:28:41.213Z",
+   "seoScore": 91,
+   "words": 2832
   },
   {
    "id": "S01299",
@@ -18822,11 +18828,13 @@
    "title": "Chai xịt bôi trơn chống gỉ và chai xịt làm bóng trên xe máy: chỗ nên xịt và những chỗ tuyệt đối không xịt",
    "primaryIntent": "informational/chai-xit-boi-tron-chong-gi-va-xit-lam-bong-tren-xe-may",
    "notes": "source=topic-v2 topicId=T001388",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:09:12.324Z",
-   "updatedAt": "2026-10-13T02:09:12.324Z"
+   "updatedAt": "2026-10-13T02:28:41.213Z",
+   "seoScore": 100,
+   "words": 2908
   },
   {
    "id": "S01300",
@@ -18835,11 +18843,13 @@
    "title": "Chân dựng phụ và kệ đỡ xe máy khi bảo dưỡng tại nhà: các loại thường gặp, dựng xe chắc chắn và những lỗi làm xe đổ",
    "primaryIntent": "informational/chan-dung-phu-va-ke-do-xe-may-khi-bao-duong-tai-nha",
    "notes": "source=topic-v2 topicId=T001389",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:09:12.346Z",
-   "updatedAt": "2026-10-13T02:09:12.346Z"
+   "updatedAt": "2026-10-13T02:28:41.213Z",
+   "seoScore": 100,
+   "words": 2947
   },
   {
    "id": "S01301",
@@ -18848,11 +18858,13 @@
    "title": "Phụ gia pha vào nhớt máy xe máy: những lời hứa thường gặp và vì sao nên thận trọng trước khi đổ thêm",
    "primaryIntent": "informational/phu-gia-pha-vao-nhot-xe-may-co-can-khong",
    "notes": "source=topic-v2 topicId=T001390",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:09:12.369Z",
-   "updatedAt": "2026-10-13T02:09:12.369Z"
+   "updatedAt": "2026-10-13T02:28:41.213Z",
+   "seoScore": 100,
+   "words": 2966
   },
   {
    "id": "S01302",
