@@ -13023,6 +13023,39 @@
  },
  {
   "kind": "article",
+  "url": "guide/su-dung-xe/ca-nha-dung-chung-mot-xe-may-chinh-guong-bao-xang-pin-ghi-loi-va-thoi-quen-giao-xe-cho-nhau/",
+  "title": "Cả nhà dùng chung một xe máy: chỉnh gương, báo xăng pin, ghi lỗi và thói quen giao xe cho nhau",
+  "description": "Cả nhà dùng chung một xe máy thì xe bền và ai cũng an toàn nhờ thói quen: chỉnh gương lúc nhận xe, báo xăng pin, ghi lỗi, cất chìa và phân việc trong nhà.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "xe máy dùng chung trong gia đình",
+   "gương chiếu hậu",
+   "mức xăng hoặc pin còn lại",
+   "sổ ghi chú bảo dưỡng chung",
+   "chìa khóa dự phòng",
+   "mũ bảo hiểm vừa đầu"
+  ],
+  "keywords": [
+   "cả nhà dùng chung một xe máy",
+   "nhiều người dùng chung xe máy",
+   "vợ chồng dùng chung xe máy",
+   "giao xe cho người nhà dùng",
+   "quy tắc dùng chung xe máy trong gia đình"
+  ],
+  "seoTitle": "Cả nhà dùng chung một xe máy: nhận xe, giao xe và ghi chú chung",
+  "primaryKeyword": "cả nhà dùng chung một xe máy",
+  "headings": [
+   "Vì sao dùng chung một xe dễ sinh chuyện",
+   "Mỗi lần nhận xe: chỉnh gương, xem xăng hay pin, lốp và phanh",
+   "Mỗi lần giao xe: đổ xăng hay sạc, báo lỗi, dọn cốp và cất chìa",
+   "Ghi chú chung và phân việc trong nhà",
+   "Người lái mới hay lâu không lái và lưu ý an toàn chung"
+  ],
+  "summary": "Bài dành cho gia đình chỉ có một chiếc xe máy mà nhiều người luân phiên dùng. Nội dung giải thích vì sao xe chung dễ sinh chuyện: mỗi người một vóc dáng và thói quen, không ai thấy mình phải lo xăng, pin hay bảo dưỡng, còn lỗi nhỏ thì không được báo. Tiếp đó l"
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/cac-cum-xe-may/",
   "title": "Hướng dẫn chi tiết về các cụm xe máy",
   "description": "Chia cấu tạo xe máy thành từng cụm nhỏ — nắp máy, đầu máy, lốc, truyền động, điện, treo, phanh — mỗi cụm vai trò gì và triệu chứng khi hỏng ra sao.",
@@ -16288,6 +16321,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/dan-decal-son-lai-hay-gan-do-trang-tri-camera-len-mu-bao-hiem-thay-doi-nao-lam-mu-kem-an-toan/",
+  "title": "Dán decal, sơn lại hay gắn đồ trang trí, camera lên mũ bảo hiểm: thay đổi nào làm mũ kém an toàn",
+  "description": "Decal mỏng dán phẳng thường ít ảnh hưởng, còn sơn dung môi, khoan lỗ hay vật nhô cứng có thể làm mũ kém an toàn. Cách trang trí mà vẫn giữ khả năng bảo vệ.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "mũ bảo hiểm",
+   "vỏ mũ",
+   "lớp xốp hấp thụ lực",
+   "quai mũ",
+   "decal dán mũ",
+   "camera gắn mũ"
+  ],
+  "keywords": [
+   "trang trí mũ bảo hiểm có ảnh hưởng an toàn không",
+   "dán decal lên mũ bảo hiểm",
+   "sơn lại mũ bảo hiểm",
+   "gắn camera lên mũ bảo hiểm"
+  ],
+  "seoTitle": "Trang trí mũ bảo hiểm: decal, sơn, camera và độ an toàn",
+  "primaryKeyword": "trang trí mũ bảo hiểm có ảnh hưởng an toàn không",
+  "headings": [
+   "Mũ bảo hiểm bảo vệ đầu bằng những gì",
+   "Những thay đổi thường ít ảnh hưởng tới mũ",
+   "Những thay đổi có thể làm mũ kém an toàn",
+   "Gắn camera, tai nghe hay đồ trang trí ít rủi ro hơn",
+   "Khi nào nên thay mũ thay vì sửa hay trang trí"
+  ],
+  "summary": "Nhiều người muốn làm mới mũ bảo hiểm bằng decal, sơn, đồ trang trí hay gắn thêm camera. Bài này giải thích mũ bảo vệ đầu bằng vỏ cứng, lớp xốp hấp thụ lực và quai giữ mũ, từ đó phân biệt thay đổi thường ít ảnh hưởng với thay đổi có thể làm mũ yếu đi, gợi ý các"
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/dan-keo-trong-ppf-chong-xuoc-cho-xe-may/",
   "title": "Dán keo trong chống xước (PPF) cho xe máy: bảo vệ được gì, rủi ro khi dán và khi gỡ",
   "description": "Phim PPF dán keo trong cho xe máy đỡ được vết cào nhẹ, đá văng nhưng không chống va đập mạnh. Rủi ro khi dán, câu nên hỏi trước, cách chăm sóc và lưu ý khi gỡ.",
@@ -18157,6 +18222,38 @@
    "Đi qua đoạn mất sóng và gặp sự cố khi không có sóng"
   ],
   "summary": "Bài giải thích vì sao vùng núi, thung lũng sâu, đèo dài, đường rừng và ven biển vắng hay mất sóng điện thoại, rồi hướng dẫn cách đi xe máy qua những đoạn đó mà không bị lạc hay bị động. Nội dung gồm tải và thử bản đồ ngoại tuyến, ghi mốc và chụp ảnh lộ trình, "
+ },
+ {
+  "kind": "article",
+  "url": "ride/lai-xe-trong-thanh-pho/di-xe-may-qua-vung-nuoc-canh-nguoi-di-bo-va-xe-dap-giam-toc-chon-vet-de-khong-hat-nuoc-vao-nguoi-khac/",
+  "title": "Đi xe máy qua vũng nước cạnh người đi bộ, xe đạp: giảm tốc, chọn vệt để không hắt nước vào người khác",
+  "description": "Vì sao bánh xe hắt nước mạnh, những chỗ dễ té nước vào người đi bộ, xe đạp và cách giảm tốc, chọn vệt để vừa lịch sự vừa an toàn khi chạy qua vũng.",
+  "category": "Hành trình",
+  "hub": "Lái xe trong thành phố",
+  "entities": [
+   "vũng nước bên lề đường",
+   "người đi bộ",
+   "người đi xe đạp",
+   "mép đường sát vỉa hè",
+   "tốc độ khi qua vũng",
+   "ổ gà và nắp hố ga"
+  ],
+  "keywords": [
+   "đi xe máy hắt nước vào người đi bộ",
+   "tránh bắn nước vào người khác khi đi mưa",
+   "vũng nước bên lề đường",
+   "xe máy té nước vào người đi bộ"
+  ],
+  "seoTitle": "Đi xe máy qua vũng nước: cách không hắt nước vào người đi bộ",
+  "primaryKeyword": "đi xe máy hắt nước vào người đi bộ",
+  "headings": [
+   "Vì sao bánh xe làm nước bắn mạnh",
+   "Những chỗ dễ hắt nước vào người đi bên đường",
+   "Cách đi qua vũng để nước không bắn vào người khác",
+   "Lịch sự với người khác mà vẫn giữ an toàn cho mình",
+   "Khi mình là người đi bộ và khi lỡ làm ướt người khác"
+  ],
+  "summary": "Bài giải thích vì sao bánh xe máy làm nước bắn mạnh, những chỗ dễ hắt nước vào người khác, rồi hướng dẫn cách đi qua vũng nước bên lề đường sao cho vừa lịch sự vừa an toàn: nhìn xa, giảm tốc từ trước, chọn vệt xa người khi đường thoáng, giữ ga đều và không pha"
  },
  {
   "kind": "article",
