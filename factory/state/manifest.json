@@ -1628,6 +1628,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/bao-tay-gan-tay-lai-xe-may-giu-am-che-nang-va-khong-can-phanh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/bau-giam-thanh-xe-may-keu-to-hoac-doi-tieng-nguyen-nhan/index.html",
   "kind": "article"
  },
@@ -2048,6 +2052,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/huong-dan-su-dung/den-khan-cap-tren-xe-may-bat-khi-nao-va-khi-nao-khong-nen/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/den-pha-halogen-va-led-tren-xe-may-khac-nhau-the-nao/index.html",
   "kind": "article"
  },
@@ -2276,6 +2284,14 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-xu-ly-su-co/gap-doan-duong-bi-rai-dinh-khi-di-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/ghe-ngoi-gan-xe-may-va-dai-deo-cho-tre-nho-kiem-tra-gi-truoc-khi-dung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/loi-thuong-gap/ghi-dong-xe-may-bi-lech-hoac-cong-sau-nga/index.html",
   "kind": "article"
  },
@@ -2293,6 +2309,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/giam-hao-xang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/giam-xoc-sau-mot-ben-hai-ben-va-giam-xoc-trung-tam-tren-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -2904,6 +2924,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/nhay-den-va-nut-passing-khi-di-xe-may-dung-luc-nao-va-tranh-hieu-nham/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/nhua-duong-nhua-cay-va-phan-chim-bam-tren-xe-may-lam-sach-the-nao/index.html",
   "kind": "article"
  },
@@ -2965,6 +2989,10 @@
  },
  {
   "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/van-de-thuong-gap/phong-bi-giat-dien-thoai-tui-xach-khi-di-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -4140,6 +4168,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/thung-sau-gan-xe-may-chon-co-de-gan-va-lai-khi-co-thung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "map/diem-sua-xe/tiem-sua-xe-gan-day/index.html",
   "kind": "article"
  },
@@ -4221,6 +4253,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/van-bien-thien-tren-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/van-chuyen-xe-may-di-xa-bang-tau-xe-khach-hoac-xe-tai/index.html",
   "kind": "article"
  },
  {
