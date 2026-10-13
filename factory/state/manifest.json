@@ -1716,6 +1716,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/boc-dau-xe-may-co-hai-xe-khong-va-vi-sao-nguy-hiem-tren-duong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/bom-khi-nito-cho-lop-xe-may-co-tot-hon-khong/index.html",
   "kind": "article"
  },
@@ -3133,6 +3137,10 @@
  },
  {
   "rel": "garage/dien-ac-quy/lap-nguoc-cuc-ac-quy-xe-may-co-sao-khong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dien-ac-quy/lap-them-khoa-thong-minh-cho-xe-may-doi-cu-duoc-gi-rui-ro-dien-va-bao-hanh/index.html",
   "kind": "article"
  },
  {
@@ -5085,6 +5093,10 @@
  },
  {
   "rel": "local/tinh-thanh/xe-may-nong-thon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/xe-may-roi-xuong-ao-muong-hay-song-cuu-nguoi-truoc-vot-xe-an-toan-va-viec-khong-duoc-lam/index.html",
   "kind": "article"
  },
  {

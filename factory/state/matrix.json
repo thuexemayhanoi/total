@@ -21648,11 +21648,13 @@
    "title": "Xe máy rơi xuống ao, mương hay sông: cứu người trước, vớt xe an toàn và việc không được làm",
    "primaryIntent": "troubleshooting/xe-may-roi-xuong-ao-muong-hay-song-cuu-nguoi-truoc-vot-xe-an-toan-va-viec-khong-duoc-lam",
    "notes": "source=topic-v2 topicId=T001621",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:24:08.374Z",
-   "updatedAt": "2026-10-13T16:24:08.374Z"
+   "updatedAt": "2026-10-13T16:28:51.784Z",
+   "seoScore": 91,
+   "words": 2904
   },
   {
    "id": "S01488",
@@ -21661,11 +21663,13 @@
    "title": "Lắp thêm khóa thông minh cho xe máy đời cũ: được gì, rủi ro về điện và bảo hành",
    "primaryIntent": "informational/lap-them-khoa-thong-minh-cho-xe-may-doi-cu-duoc-gi-rui-ro-dien-va-bao-hanh",
    "notes": "source=topic-v2 topicId=T001622",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:24:08.413Z",
-   "updatedAt": "2026-10-13T16:24:08.413Z"
+   "updatedAt": "2026-10-13T16:28:51.784Z",
+   "seoScore": 100,
+   "words": 3112
   },
   {
    "id": "S01489",
@@ -21674,11 +21678,13 @@
    "title": "Bốc đầu xe máy có hại xe không và vì sao nguy hiểm trên đường",
    "primaryIntent": "informational/boc-dau-xe-may-co-hai-xe-khong-va-vi-sao-nguy-hiem-tren-duong",
    "notes": "source=topic-v2 topicId=T001623",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:24:08.444Z",
-   "updatedAt": "2026-10-13T16:24:08.444Z"
+   "updatedAt": "2026-10-13T16:28:51.784Z",
+   "seoScore": 91,
+   "words": 3146
   }
  ]
 }
