@@ -47,6 +47,16 @@ const footer = S.footerHtml();
 const mega = S.megaMenu();
 const mobile = S.headerHtml();
 assert(footer.includes('<a href="/">Trang chủ</a>'), 'Footer has a labeled homepage link');
+assert(footer.includes('class="footer-intro"') && footer.includes('class="footer-intro-title"'),
+  'Premium footer introduction uses shared template');
+assert(footer.includes('class="footer-action-primary" href="/tim-kiem/"') &&
+       footer.includes('class="footer-action-secondary" href="/thue-xe/"'),
+  'Footer discovery actions point to existing search/rental URLs');
+assert(footer.includes('class="footer-bottom"') && footer.includes('class="footer-top-link" href="#"'),
+  'Footer has a back-to-top link and a closing information strip');
+assert(footer.includes('class="footer-directory-meta">') &&
+       footer.includes(HOME_CATEGORY_ORDER.length + ' danh mục'),
+  'Footer directory shows live category counts');
 assert(footer.includes('<summary class="footer-directory-toggle">Danh mục'), 'Footer has category menu label');
 assert(footer.includes('aria-label="Tất cả danh mục và chủ đề"'), 'Footer has accessible directory nav');
 let expectedHubLinks = 0;
@@ -76,5 +86,9 @@ for (const item of PRIMARY_NAV.filter(n => !n.mega && !n.dropdown)) {
     'Footer includes top-level menu label: ' + item.label);
 }
 assert(page.includes('class="footer-directory"'), 'Directory is rendered on every generated page');
+const footerCss = require('node:fs').readFileSync(require('node:path').join(__dirname, '../assets/css/atlas.css'), 'utf8');
+assert(footerCss.includes('.footer-intro') && footerCss.includes('.footer-directory-grid') &&
+       footerCss.includes('@media (max-width: 479px)'),
+  'Footer styles and mobile presentation are retained');
 assert(!page.includes('editorial-slot'));
 console.log('SHARED_SITE_QA_OK');

@@ -205,7 +205,22 @@ function footerHtml() {
       ${hubs}
     </div>`;
   }).join('');
+  const topicCount = HOME_CATEGORY_ORDER.reduce((n, slug) => {
+    const c = CATEGORIES.find(x => x.slug === slug);
+    return n + (c ? c.children.length : 0);
+  }, 0);
   return `<footer class="site-footer">
+  <div class="footer-intro">
+    <div class="footer-intro-copy">
+      <p class="footer-kicker"><span class="footer-kicker-dot" aria-hidden="true"></span> THƯ VIỆN KIẾN THỨC XE</p>
+      <p class="footer-intro-title">Hiểu chiếc xe. Vững mỗi hành trình.</p>
+      <p class="footer-intro-text">Khám phá kiến thức về xe, thuê xe, bảo dưỡng và những chuyến đi — tất cả trong một nơi.</p>
+    </div>
+    <div class="footer-intro-actions">
+      <a class="footer-action-primary" href="${u('tim-kiem/')}">Tìm kiếm kiến thức <span aria-hidden="true">↗</span></a>
+      <a class="footer-action-secondary" href="${u('thue-xe/')}">Khám phá Thuê xe <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
   <div class="footer-inner">
     <div class="footer-brand">
       ${logoMark()}
@@ -230,11 +245,15 @@ function footerHtml() {
       <a href="${u('tim-kiem/')}">Tìm kiếm</a>
     </nav>
     <details class="footer-directory">
-      <summary class="footer-directory-toggle">Danh mục <span aria-hidden="true">▾</span></summary>
+      <summary class="footer-directory-toggle">Danh mục <span class="footer-directory-meta">${HOME_CATEGORY_ORDER.length} danh mục · ${topicCount} chủ đề</span><span class="footer-directory-toggle-icon" aria-hidden="true">⌄</span></summary>
       <nav class="footer-directory-grid" aria-label="Tất cả danh mục và chủ đề">
         ${directoryGroups}
       </nav>
     </details>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-bottom-brand">AI WIKI TOTAL <span aria-hidden="true">·</span> Kiến thức xe cho người Việt</span>
+    <a class="footer-top-link" href="#">Về đầu trang <span aria-hidden="true">↑</span></a>
   </div>
 </footer>`;
 }
