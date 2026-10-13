@@ -81,6 +81,17 @@ jobs:
           node factory/link-integrity.js --ids "${{ steps.scope.outputs.ids }}"
           node factory/factory.js check-state
 
+      # Coordinator-owned and fail-closed: the current batch is already
+      # PUBLISHED in the working tree, but NOTHING is pushed until this passes.
+      # Normal path updates only 1-10 article modules; incomplete old manifest
+      # gets one guarded bootstrap. SQLite is gitignored (derived cache).
+      - name: Refresh complete article manifest and SQLite
+        if: steps.scope.outputs.proceed == 'true'
+        run: |
+          set -euo pipefail
+          node factory/factory.js index-refresh "${{ steps.scope.outputs.ids }}" --role coordinator
+          node factory/factory.js index-check
+
       - name: Commit batch outputs + state once
         if: steps.scope.outputs.proceed == 'true'
         run: |
