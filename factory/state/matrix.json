@@ -21693,11 +21693,13 @@
    "title": "Hút nhớt qua lỗ que thăm hay tháo ốc xả khi thay nhớt xe máy: khác nhau thế nào và khi nào không nên hút",
    "primaryIntent": "informational/hut-nhot-qua-lo-que-tham-hay-thao-oc-xa-khi-thay-nhot-xe-may-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001624",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:30:20.548Z",
-   "updatedAt": "2026-10-13T16:30:20.548Z"
+   "updatedAt": "2026-10-13T16:35:01.489Z",
+   "seoScore": 100,
+   "words": 3056
   }
  ]
 }
