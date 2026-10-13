@@ -11665,6 +11665,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-bao-duong/ao-trum-xe-may-khi-nao-nen-dung-va-cach-tranh-am-gi-tray-son/",
+  "title": "Áo trùm xe máy: khi nào nên dùng, chọn loại thoáng hơi và những lỗi làm xe ẩm, gỉ hoặc trầy sơn",
+  "description": "Áo trùm xe máy che nắng, bụi, mưa nhưng dùng sai dễ làm xe ẩm, gỉ, trầy sơn. Cách chọn loại thoáng hơi, trùm và tháo đúng, giặt phơi và lúc không nên trùm.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "áo trùm xe máy",
+   "bạt phủ xe",
+   "hơi ẩm ngưng tụ",
+   "lớp sơn bóng",
+   "yên xe",
+   "ống xả"
+  ],
+  "keywords": [
+   "áo trùm xe máy",
+   "bạt phủ xe máy có tốt không",
+   "trùm xe máy khi để ngoài trời",
+   "áo trùm xe máy che nắng mưa"
+  ],
+  "seoTitle": "Áo trùm xe máy: khi nào nên dùng và cách tránh ẩm, gỉ, trầy sơn",
+  "primaryKeyword": "áo trùm xe máy",
+  "headings": [
+   "Áo trùm làm được gì và không làm được gì",
+   "Chọn áo trùm thoáng hơi, mặt trong mềm và vừa cỡ xe",
+   "Những lỗi làm xe ẩm, gỉ hoặc trầy sơn",
+   "Trùm và tháo áo đúng cách mỗi ngày",
+   "Giặt áo trùm và những lúc không nên trùm"
+  ],
+  "summary": "Bài giải thích áo trùm xe máy làm được gì và không làm được gì: che nắng, bụi, mưa, phân chim, lá và nhựa cây rơi, nhưng không chống ẩm khi hơi nước bị nhốt bên trong và không thay cho chỗ để xe có mái. Nội dung hướng dẫn chọn loại thoáng hơi, mặt trong mềm, v"
+ },
+ {
+  "kind": "article",
   "url": "wiki/lop-banh-xe/ap-suat-lop/",
   "title": "Hướng dẫn chi tiết về áp suất lốp",
   "description": "Áp suất lốp xe máy chuẩn là bao nhiêu, kiểm khi nào, vì sao non hơi mòn mép lốp nhanh, vì sao căng quá mất bám, và cách xử lý rò khí kéo dài.",
@@ -15328,6 +15360,38 @@
  },
  {
   "kind": "article",
+  "url": "guide/su-dung-xe/de-do-o-san-de-chan-va-moc-treo-xe-tay-ga-sao-cho-an-toan/",
+  "title": "Để đồ ở sàn để chân và móc treo xe tay ga: món gì để được, vì sao túi nặng làm vướng chân và lệch tay lái",
+  "description": "Móc treo đồ xe tay ga và sàn để chân chỉ hợp với đồ nhẹ, gọn. Cách đặt đồ, treo túi quai ngắn, tránh vướng chân, lệch tay lái và lúc nào nên dùng cốp.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "xe tay ga",
+   "sàn để chân",
+   "móc treo đồ",
+   "quai túi",
+   "cốp xe",
+   "thùng sau xe máy"
+  ],
+  "keywords": [
+   "móc treo đồ xe tay ga",
+   "để đồ ở sàn xe tay ga",
+   "treo đồ trên xe tay ga an toàn",
+   "chở đồ ở sàn để chân xe ga"
+  ],
+  "seoTitle": "Móc treo đồ xe tay ga: để gì ở sàn chân, treo sao cho an toàn",
+  "primaryKeyword": "móc treo đồ xe tay ga",
+  "headings": [
+   "Sàn để chân và móc treo đồ xe tay ga được thiết kế cho việc gì",
+   "Những rủi ro khi để đồ sai cách ở sàn chân và móc treo",
+   "Đặt đồ ở sàn để chân đúng cách",
+   "Treo đồ ở móc: gọn, nhẹ và quai ngắn",
+   "Khi nào nên chuyển sang cốp, giỏ hoặc thùng sau"
+  ],
+  "summary": "Bài giải thích vì sao sàn để chân và móc treo đồ xe tay ga chỉ hợp với đồ nhẹ, gọn, và vì sao túi nặng đung đưa làm vướng chân, chạm tay lái hay kéo lệch đầu xe. Nội dung gồm tải cho phép của móc thường ghi ở đâu, các rủi ro như quai dài, đồ lăn ra phía trước,"
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/de-xe-noi-am/",
   "title": "Để xe nơi ẩm: tác hại âm thầm và cách bảo vệ xe máy",
   "description": "Để xe máy ở nơi ẩm ướt lâu dài khiến rỉ sét ăn mòn, hỏng bộ điện, mờ men xích và lão hóa cao su. Bài viết giải thích cơ chế và cách hạn chế từng nhóm thiệt hại.",
@@ -15650,6 +15714,39 @@
    "Lỗi đèn và chẩn đoán nhanh"
   ],
   "summary": "Hệ thống đèn là ngôn ngữ giao tiếp của xe máy với thế giới xung quanh: đèn pha nói \"xe tôi ở đây\", xi nhan nói \"tôi sắp rẽ\", đèn phanh nói \"tôi đang giảm tốc\". Nhưng trên thực tế, đèn là cụm bị thờ ơ nhất cho tới khi bóng cháy đúng lúc chạy đêm hoặc mưa. Bài v"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/deo-kinh-khi-di-xe-may-kinh-can-kinh-ram-va-di-dem/",
+  "title": "Đeo kính khi đi xe máy: kính cận với mũ bảo hiểm, kính râm ban ngày, kính đổi màu và chuyện đi đêm",
+  "description": "Đeo kính khi đi xe máy an toàn: kính thuốc đúng độ, đội mũ với gọng kính, chống đọng hơi, kính râm, kính đổi màu, đi đêm và khi nên khám mắt.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "kính thuốc",
+   "gọng kính",
+   "lớp lót mũ bảo hiểm",
+   "tròng phân cực",
+   "kính đổi màu",
+   "lớp chống phản chiếu"
+  ],
+  "keywords": [
+   "đeo kính khi đi xe máy",
+   "đeo kính cận đội mũ bảo hiểm",
+   "kính râm đi xe máy",
+   "kính đổi màu đi xe máy ban đêm",
+   "đeo kính thuốc khi lái xe máy"
+  ],
+  "seoTitle": "Đeo kính khi đi xe máy: đội mũ bảo hiểm, đọng hơi, kính râm, đi đêm",
+  "primaryKeyword": "đeo kính khi đi xe máy",
+  "headings": [
+   "Đeo kính thuốc đúng độ khi lái xe máy",
+   "Đội mũ bảo hiểm khi đeo kính thuốc",
+   "Kính đọng hơi khi trời lạnh, trời mưa và lúc dừng đèn đỏ",
+   "Kính râm, tròng phân cực và kính đổi màu",
+   "Đi đêm, chăm sóc tròng kính và lúc nên đi khám mắt"
+  ],
+  "summary": "Bài giải thích vì sao người cần kính thuốc phải đeo đúng độ khi lái để nhìn xa và ước lượng khoảng cách kịp phản ứng, cách đội mũ bảo hiểm sao cho gọng kính không cấn thái dương, và cách giảm đọng hơi lúc trời lạnh, trời mưa hoặc dừng đèn đỏ. Nội dung cũng nêu"
  },
  {
   "kind": "article",
@@ -16937,6 +17034,38 @@
    "Chi phí thực dụng: tính một chuyến không bị \"đốt túi\""
   ],
   "summary": "Du lịch bằng xe máy đang là cách người Việt trẻ (và không còn trẻ) khám phá đất nước nhiều nhất — tự do dừng ở mọi khúc sông, đổi tuyến theo một quán nước ven đường nhìn ra, và về nhà với chuyện kể chứ không chỉ ảnh. Nhưng \"du lịch xe máy\" là cụm từ ôm nhiều h"
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/dua-xe-may-vao-nha-qua-bac-cua-va-doc-dat-tranh-xe-chom-va-do-xe/",
+  "title": "Đưa xe máy vào nhà qua bậc cửa và dốc dắt: nên dắt hay chạy lên, cách tránh xe chồm lên và đổ xe",
+  "description": "Đưa xe máy vào nhà qua bậc cửa hay dốc dắt: vì sao xe chồm, cách dắt khi tắt máy, lúc nào mới ngồi chạy lên, đưa xe ra an toàn, chọn tấm dốc và giữ lưng.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "bậc cửa",
+   "dốc dắt xe",
+   "tấm dốc",
+   "ly hợp tự động của xe tay ga",
+   "tay phanh trước",
+   "ga xe điện"
+  ],
+  "keywords": [
+   "đưa xe máy vào nhà",
+   "cách dắt xe máy lên bậc cửa",
+   "chạy xe lên dốc vào nhà",
+   "tránh xe tay ga chồm lên khi vào nhà"
+  ],
+  "seoTitle": "Đưa xe máy vào nhà qua bậc cửa: dắt hay chạy lên, tránh xe chồm và đổ",
+  "primaryKeyword": "đưa xe máy vào nhà",
+  "headings": [
+   "Vì sao bậc cửa và dốc ngắn dễ làm xe chồm lên hoặc đổ",
+   "Dắt xe lên bậc và dốc: tư thế đứng và tay phanh",
+   "Ngồi trên xe chạy lên: chỉ ở tốc độ đi bộ",
+   "Đưa xe xuống và ra khỏi nhà: luôn giữ phanh",
+   "Dốc dắt, khoảng trống trong nhà và giữ lưng khi dắt xe"
+  ],
+  "summary": "Bài giải thích vì sao bậc cửa và dốc dắt ngắn dễ làm xe máy chồm lên hoặc đổ: bánh trước vấp mép bậc, cú mở ga đột ngột và độ trễ của xe tay ga biến thành cú vọt khi bánh sau qua mép. Nội dung so sánh dắt xe khi đã tắt máy với ngồi chạy lên ở tốc độ đi bộ, nêu"
  },
  {
   "kind": "article",
@@ -18956,6 +19085,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/giu-binh-tinh-khi-di-xe-may-bi-chen-ep-bam-coi-hoac-va-quet-nhe/",
+  "title": "Giữ bình tĩnh khi đi xe máy: bị chèn ép, bị bấm còi dồn hay va quẹt nhẹ mà không để xung đột leo thang",
+  "description": "Nóng giận khi đi xe máy làm hẹp tầm chú ý và dễ dẫn tới chạy ẩu. Cách đáp lại khi bị tạt đầu, bấm còi dồn, va quẹt nhẹ hoặc gặp người hung hăng cho an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "nóng giận khi lái xe",
+   "tầm chú ý của người lái",
+   "bấm còi dồn",
+   "va quẹt nhẹ",
+   "khoảng cách an toàn",
+   "lực lượng chức năng"
+  ],
+  "keywords": [
+   "nóng giận khi đi xe máy",
+   "kiềm chế khi bị chèn xe",
+   "va quẹt xe máy xử lý bình tĩnh",
+   "tránh cãi nhau khi va chạm giao thông"
+  ],
+  "seoTitle": "Nóng giận khi đi xe máy: cách giữ bình tĩnh khi bị chèn hay va quẹt",
+  "primaryKeyword": "nóng giận khi đi xe máy",
+  "headings": [
+   "Cơn giận làm thay đổi cách bạn lái xe như thế nào",
+   "Bị tạt đầu, bị bấm còi dồn hay bị chèn ép: đáp lại sao cho an toàn",
+   "Va quẹt nhẹ: dừng lại, kiểm tra người trước rồi nói chuyện ôn tồn",
+   "Gặp người hung hăng trên đường: giữ khoảng cách và tìm nơi an toàn",
+   "Những thói quen giúp bạn giữ bình tĩnh mỗi ngày"
+  ],
+  "summary": "Bài giải thích vì sao cơn giận làm tầm chú ý hẹp lại và đẩy người lái xe máy tới chạy nhanh, bám sát, vượt ẩu hay rượt đuổi. Nội dung nêu những tình huống hay gây bực như bị tạt đầu, bị bấm còi dồn, kẹt xe lâu, bị chèn lúc nhập làn, cách đáp lại an toàn, cách "
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/giu-xe-ben/",
   "title": "Giữ xe bền: thói quen nhỏ giúp xe chạy trơn tru nhiều năm",
   "description": "Xe bền không phải do may mắn: khởi động đúng, làm máy nóng đều, tránh chở quá tải, bảo quản nơi khô thoáng và chăm sóc định kỳ là năm nhóm thói quen quyết định tuổi thọ xe.",
@@ -20626,6 +20787,38 @@
    "Thứ tự tháo lắp cực ắc quy an toàn để không tái diễn"
   ],
   "summary": "Bài giải thích điều gì có thể xảy ra khi lắp ngược cực ắc quy xe máy hoặc đấu nhầm cực lúc tự thay ắc quy. Nội dung nêu cách xác định cực dương và cực âm, vì sao dòng điện ngược có thể làm đứt cầu chì và gây hại cho bộ chỉnh lưu, bộ điều khiển hay chính ắc quy"
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/le-duong-bi-hang-khi-di-xe-may-banh-truot-mep-be-tong-va-cach-leo-lai/",
+  "title": "Lề đường bị hẫng khi đi xe máy: vì sao bánh dễ trượt khi leo lại mép bê tông hoặc mép nhựa và cách xử lý",
+  "description": "Lề đường bị hẫng làm bánh xe máy trượt dọc mép bê tông hoặc mép nhựa rồi bật lên bất ngờ. Cơ chế, cách phòng tránh và các bước xử lý khi bánh rơi xuống lề.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "lề hẫng",
+   "mép mặt đường",
+   "lề đất bị xói",
+   "bánh trước",
+   "chỗ tránh xe",
+   "đường bê tông nông thôn"
+  ],
+  "keywords": [
+   "lề đường bị hẫng xe máy",
+   "mép đường bê tông cao xe máy",
+   "bánh xe trượt mép đường",
+   "leo lại mép đường nhựa"
+  ],
+  "seoTitle": "Lề đường bị hẫng khi đi xe máy: vì sao bánh trượt mép và cách xử lý",
+  "primaryKeyword": "lề đường bị hẫng xe máy",
+  "headings": [
+   "Lề hẫng là gì và hay gặp ở những đoạn đường nào",
+   "Vì sao bánh trượt dọc mép khi leo lại mặt đường",
+   "Phòng tránh: giữ khoảng cách với mép và chọn chỗ tránh xe",
+   "Khi bánh đã rơi xuống lề: các bước xử lý theo thứ tự",
+   "Những đoạn mép đường đặc biệt nguy hiểm"
+  ],
+  "summary": "Lề hẫng là chênh lệch độ cao giữa mặt đường bê tông hoặc nhựa với lề đất, cát hay cỏ bên cạnh, và là lý do bánh xe máy hay trượt dọc mép rồi bật lên bất ngờ khi cố lái lên lại. Nội dung nêu nơi thường gặp, cơ chế mép giữ bánh, cách phòng tránh bằng khoảng cách"
  },
  {
   "kind": "article",
@@ -22378,6 +22571,39 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/phan-quang-khi-di-xe-may-tam-phan-quang-dai-dan-va-ao-phan-quang/",
+  "title": "Phản quang khi đi xe máy: tấm phản quang trên xe, dải dán và áo phản quang giúp xe khác nhìn thấy bạn trong đêm",
+  "description": "Phản quang chỉ phát huy khi có đèn xe khác chiếu vào. Cách giữ tấm phản quang gốc, dán dải phản quang cho xe và mũ bảo hiểm, chọn áo phản quang thật để đi đêm.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "vật liệu phản quang",
+   "tấm phản quang gốc",
+   "dải dán phản quang",
+   "áo phản quang",
+   "đèn hậu và đèn phanh",
+   "mũ bảo hiểm"
+  ],
+  "keywords": [
+   "áo phản quang đi xe máy",
+   "dán phản quang xe máy",
+   "mắt mèo xe máy",
+   "dán phản quang mũ bảo hiểm",
+   "phản quang xe máy ban đêm"
+  ],
+  "seoTitle": "Phản quang xe máy: tấm gốc, dải dán và áo giúp bạn dễ thấy ban đêm",
+  "primaryKeyword": "áo phản quang đi xe máy",
+  "headings": [
+   "Phản quang hoạt động thế nào và khác đèn tự phát sáng ở chỗ nào",
+   "Tấm phản quang có sẵn trên xe: giữ sạch, thay khi vỡ hoặc mờ",
+   "Dải dán phản quang: dán ở đâu cho người khác nhận ra bạn",
+   "Áo và dải đeo phản quang cho người lái và người ngồi sau",
+   "Phản quang không thay được đèn"
+  ],
+  "summary": "Bài giải thích vật liệu phản quang hắt ánh đèn của xe khác về phía người lái xe ấy nên chỉ có tác dụng khi có đèn chiếu vào, khác với đèn tự phát sáng. Nội dung đi qua tấm phản quang có sẵn trên xe, dải dán trên xe, mũ bảo hiểm và túi, áo hoặc dải đeo cho ngườ"
+ },
+ {
+  "kind": "article",
   "url": "wiki/he-thong-phanh/phanh-cbs-xe-may-la-gi/",
   "title": "Phanh kết hợp CBS trên xe máy: cơ chế, khác biệt với ABS và cảm giác khi bóp phanh",
   "description": "Phanh CBS xe máy là gì? Giải thích vì sao bóp một cần mà cả hai bánh cùng ăn, CBS khác ABS thế nào, cảm giác khi bóp phanh và những điều CBS không làm được.",
@@ -23054,6 +23280,38 @@
    "Thói quen bền pin và dấu hiệu pin đang yếu"
   ],
   "summary": "Pin lithium là bộ phận đắt nhất và cũng bị hiểu sai nhiều nhất trên xe điện hai bánh. Người mới thường hỏi đúng một câu — \"pin này bền không\" — nhưng để trả lời được, cần tách bốn lớp kiến thức: cấu tạo (cell, module, BMS và vì sao BMS quan trọng ngang chất ce"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/ac-quy-pin/pin-thao-roi-tren-xe-may-dien-thao-lap-mang-vac-va-sac-trong-nha/",
+  "title": "Pin tháo rời trên xe máy điện: tháo lắp, mang vác và sạc trong nhà sao cho an toàn",
+  "description": "Pin tháo rời xe máy điện cần tháo lắp, mang vác, sạc và cất đúng cách: giữ cực khô, tránh rơi, sạc trên nền cứng xa đồ dễ cháy, biết lúc nào phải dừng dùng.",
+  "category": "Bách khoa xe",
+  "hub": "Ắc quy và pin",
+  "entities": [
+   "pin tháo rời",
+   "bộ pin xe máy điện",
+   "mạch quản lý pin BMS",
+   "cực tiếp xúc",
+   "bộ sạc xe máy điện",
+   "chốt khóa pin"
+  ],
+  "keywords": [
+   "pin tháo rời xe máy điện",
+   "tháo pin xe máy điện mang lên nhà sạc",
+   "mang pin xe điện lên chung cư",
+   "sạc pin xe máy điện trong nhà"
+  ],
+  "seoTitle": "Pin tháo rời xe máy điện: tháo lắp, mang lên nhà và sạc an toàn",
+  "primaryKeyword": "pin tháo rời xe máy điện",
+  "headings": [
+   "Vì sao có xe máy điện dùng pin tháo rời",
+   "Tháo và lắp pin đúng cách, không ép khi lắp lệch",
+   "Mang vác pin lên nhà: tránh rơi và va đập",
+   "Sạc pin trong nhà sao cho an toàn",
+   "Dấu hiệu phải dừng dùng pin và cách cất giữ"
+  ],
+  "summary": "Bài giải thích vì sao có xe máy điện dùng pin tháo rời và cách xử lý bộ pin an toàn khi mang lên nhà sạc. Nội dung đi qua cấu tạo cơ bản của bộ pin, cách tháo lắp đúng trình tự và giữ cực tiếp xúc sạch, khô, cách mang vác để tránh rơi và va đập, lý do pin từng"
  },
  {
   "kind": "article",
@@ -32341,6 +32599,39 @@
  },
  {
   "kind": "article",
+  "url": "learn/cham-soc-xe/ve-sinh-xe-may-khong-can-xit-nuoc-khi-o-chung-cu/",
+  "title": "Vệ sinh xe máy không cần xịt nước khi ở chung cư: lau ẩm, dung dịch rửa khô và cách tránh làm xước sơn",
+  "description": "Rửa xe máy không cần nước ở chung cư: vì sao lau khô làm xước sơn, dung dịch rửa khô và khăn ẩm làm việc ra sao, các bước làm và những chỗ không nên xịt.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "bụi đường",
+   "khăn sợi nhỏ",
+   "dung dịch rửa xe không cần nước",
+   "lau ẩm bằng bình xịt",
+   "vết xước trên sơn bóng",
+   "đĩa phanh và má phanh"
+  ],
+  "keywords": [
+   "rửa xe máy không cần nước",
+   "dung dịch rửa xe khô",
+   "lau xe máy ở chung cư",
+   "lau xe máy bằng khăn ẩm",
+   "cách lau xe máy không bị xước sơn"
+  ],
+  "seoTitle": "Rửa xe máy không cần nước ở chung cư: lau ẩm mà không xước sơn",
+  "primaryKeyword": "rửa xe máy không cần nước",
+  "headings": [
+   "Vì sao lau khô bằng giẻ hay chổi lông dễ làm xước sơn",
+   "Dung dịch rửa khô và cách lau ẩm hoạt động thế nào",
+   "Các bước làm sạch xe máy không cần xịt nước",
+   "Những chỗ không nên xịt hay lau bóng trên xe",
+   "Khi nào vẫn cần rửa nước đúng cách hoặc đưa xe ra tiệm"
+  ],
+  "summary": "Bài giải thích vì sao lau khô bằng giẻ hay chổi lông là cách nhanh nhất làm xước sơn bóng, nhựa bóng và mặt kính đồng hồ, do bụi đường lẫn hạt cứng như cát mịn. Nội dung nêu cách dung dịch rửa khô và khăn ẩm làm ướt, bôi trơn lớp bụi để khăn nhấc bụi lên thay "
+ },
+ {
+  "kind": "article",
   "url": "moto/piaggio/vespa/",
   "title": "Kinh nghiệm Vespa dành cho người mới",
   "description": "Vespa là biểu tượng scooter Ý của Piaggio tại Việt Nam. Kinh nghiệm chọn dòng, dùng đúng cách, bảo dưỡng và mua cũ Vespa cho người mới.",
@@ -33248,6 +33539,38 @@
    "Chuẩn bị trước khi bắt đầu tập đi trong đô thị"
   ],
   "summary": "Xe máy là phương tiện phổ biến nhất tại các thành phố Việt Nam, nhưng với người mới đến, việc hòa vào dòng chảy giao thông địa phương không đơn giản là thuộc luật: đó là cả một tập quy tắc bất thành văn về nhường đường, chuyển hướng, gửi xe và xử lý các tình h"
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/xe-may-dien-bat-nguon-la-chay-duoc-che-do-do-va-tranh-van-ga-nham/",
+  "title": "Xe máy điện bật nguồn là chạy được: chế độ đỗ, trạng thái sẵn sàng và cách tránh vặn ga nhầm",
+  "description": "Xe máy điện bật nguồn vẫn im lặng nhưng vặn ga là chạy. Cách dùng chế độ đỗ, đọc đèn báo, tránh vặn ga nhầm và phản xạ đúng khi xe lao đi bất ngờ.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "xe máy điện",
+   "tay ga",
+   "chế độ đỗ",
+   "khóa ga",
+   "đèn báo trạng thái sẵn sàng",
+   "công tắc chân chống"
+  ],
+  "keywords": [
+   "xe máy điện vặn ga nhầm",
+   "chế độ P xe máy điện",
+   "xe điện tự lao đi khi vặn ga",
+   "vặn ga nhầm khi dắt xe điện"
+  ],
+  "seoTitle": "Xe máy điện bật nguồn là chạy: chế độ đỗ và cách tránh vặn ga nhầm",
+  "primaryKeyword": "xe máy điện vặn ga nhầm",
+  "headings": [
+   "Vì sao xe điện im lặng mà vẫn sẵn sàng chạy",
+   "Chế độ đỗ, khóa ga và đèn báo trạng thái sẵn sàng trên đồng hồ",
+   "Những thói quen giúp tránh vặn ga nhầm",
+   "Chế độ hỗ trợ đi lùi hoặc dắt chậm ở một số xe",
+   "Xe lao đi bất ngờ: phản xạ đúng và việc làm sau đó"
+  ],
+  "summary": "Bài giải thích vì sao xe máy điện đã bật nguồn vẫn im lặng nhưng sẵn sàng chạy ngay khi có cú vặn ga. Nội dung nêu các tình huống vặn nhầm dễ xảy ra lúc dắt xe, lên xe hay khi trẻ nhỏ nghịch tay lái, vai trò của chế độ đỗ, khóa ga và đèn báo trạng thái trên đồ"
  },
  {
   "kind": "article",

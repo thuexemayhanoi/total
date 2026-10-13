@@ -19008,11 +19008,13 @@
    "title": "Pin tháo rời trên xe máy điện: tháo lắp, mang vác và sạc trong nhà sao cho an toàn",
    "primaryIntent": "informational/pin-thao-roi-tren-xe-may-dien-thao-lap-mang-vac-va-sac-trong-nha",
    "notes": "source=topic-v2 topicId=T001402",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.686Z",
-   "updatedAt": "2026-10-13T02:43:57.686Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 91,
+   "words": 2880
   },
   {
    "id": "S01312",
@@ -19021,11 +19023,13 @@
    "title": "Vệ sinh xe máy không cần xịt nước khi ở chung cư: lau ẩm, dung dịch rửa khô và cách tránh làm xước sơn",
    "primaryIntent": "informational/ve-sinh-xe-may-khong-can-xit-nuoc-khi-o-chung-cu",
    "notes": "source=topic-v2 topicId=T001403",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.714Z",
-   "updatedAt": "2026-10-13T02:43:57.714Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 100,
+   "words": 2998
   },
   {
    "id": "S01313",
@@ -19034,11 +19038,13 @@
    "title": "Xe máy điện bật nguồn là chạy được: chế độ đỗ, trạng thái sẵn sàng và cách tránh vặn ga nhầm",
    "primaryIntent": "informational/xe-may-dien-bat-nguon-la-chay-duoc-che-do-do-va-tranh-van-ga-nham",
    "notes": "source=topic-v2 topicId=T001404",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.742Z",
-   "updatedAt": "2026-10-13T02:43:57.742Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 91,
+   "words": 2888
   },
   {
    "id": "S01314",
@@ -19047,11 +19053,13 @@
    "title": "Đeo kính khi đi xe máy: kính cận với mũ bảo hiểm, kính râm ban ngày, kính đổi màu và chuyện đi đêm",
    "primaryIntent": "informational/deo-kinh-khi-di-xe-may-kinh-can-kinh-ram-va-di-dem",
    "notes": "source=topic-v2 topicId=T001405",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.763Z",
-   "updatedAt": "2026-10-13T02:43:57.763Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 91,
+   "words": 2956
   },
   {
    "id": "S01315",
@@ -19060,11 +19068,13 @@
    "title": "Giữ bình tĩnh khi đi xe máy: bị chèn ép, bị bấm còi dồn hay va quẹt nhẹ mà không để xung đột leo thang",
    "primaryIntent": "informational/giu-binh-tinh-khi-di-xe-may-bi-chen-ep-bam-coi-hoac-va-quet-nhe",
    "notes": "source=topic-v2 topicId=T001407",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.783Z",
-   "updatedAt": "2026-10-13T02:43:57.783Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 100,
+   "words": 2942
   },
   {
    "id": "S01316",
@@ -19073,11 +19083,13 @@
    "title": "Để đồ ở sàn để chân và móc treo xe tay ga: món gì để được, vì sao túi nặng làm vướng chân và lệch tay lái",
    "primaryIntent": "informational/de-do-o-san-de-chan-va-moc-treo-xe-tay-ga-sao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T001408",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.803Z",
-   "updatedAt": "2026-10-13T02:43:57.803Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 100,
+   "words": 2924
   },
   {
    "id": "S01317",
@@ -19086,11 +19098,13 @@
    "title": "Phản quang khi đi xe máy: tấm phản quang trên xe, dải dán và áo phản quang giúp xe khác nhìn thấy bạn trong đêm",
    "primaryIntent": "informational/phan-quang-khi-di-xe-may-tam-phan-quang-dai-dan-va-ao-phan-quang",
    "notes": "source=topic-v2 topicId=T001409",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.823Z",
-   "updatedAt": "2026-10-13T02:43:57.823Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 100,
+   "words": 2914
   },
   {
    "id": "S01318",
@@ -19099,11 +19113,13 @@
    "title": "Áo trùm xe máy: khi nào nên dùng, chọn loại thoáng hơi và những lỗi làm xe ẩm, gỉ hoặc trầy sơn",
    "primaryIntent": "informational/ao-trum-xe-may-khi-nao-nen-dung-va-cach-tranh-am-gi-tray-son",
    "notes": "source=topic-v2 topicId=T001410",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.843Z",
-   "updatedAt": "2026-10-13T02:43:57.843Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 100,
+   "words": 2862
   },
   {
    "id": "S01319",
@@ -19112,11 +19128,13 @@
    "title": "Lề đường bị hẫng khi đi xe máy: vì sao bánh dễ trượt khi leo lại mép bê tông hoặc mép nhựa và cách xử lý",
    "primaryIntent": "informational/le-duong-bi-hang-khi-di-xe-may-banh-truot-mep-be-tong-va-cach-leo-lai",
    "notes": "source=topic-v2 topicId=T001411",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.862Z",
-   "updatedAt": "2026-10-13T02:43:57.862Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 100,
+   "words": 2985
   },
   {
    "id": "S01320",
@@ -19125,11 +19143,13 @@
    "title": "Đưa xe máy vào nhà qua bậc cửa và dốc dắt: nên dắt hay chạy lên, cách tránh xe chồm lên và đổ xe",
    "primaryIntent": "informational/dua-xe-may-vao-nha-qua-bac-cua-va-doc-dat-tranh-xe-chom-va-do-xe",
    "notes": "source=topic-v2 topicId=T001412",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:43:57.881Z",
-   "updatedAt": "2026-10-13T02:43:57.881Z"
+   "updatedAt": "2026-10-13T06:49:59.110Z",
+   "seoScore": 100,
+   "words": 2955
   }
  ]
 }
