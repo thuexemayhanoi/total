@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — S01519; xử lý tình huống tối đột ngột khi đang chạy đêm, không nêu số liệu, thông số hay tên hãng/mẫu xe.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'den-pha-xe-may-tat-dot-ngot-khi-dang-chay-dem-giu-lai-trong-bong-toi-thu-chuyen-pha-cot-va-ve-nha-an-toan',
+  title: 'Đèn pha tắt đột ngột khi đang chạy đêm: giữ lái trong bóng tối, thử chuyển pha cốt và về nhà an toàn',
+  seoTitle: 'Đèn pha xe máy tắt đột ngột khi chạy đêm: xử lý và về nhà an toàn',
+  metaDescription: 'Đèn pha xe máy tắt đột ngột khi đang chạy đêm: giữ chắc tay lái, giảm tốc từ từ, dừng ở chỗ an toàn, thử chuyển pha cốt và quyết định có nên chạy tiếp hay không.',
+  summary: 'Bài hướng dẫn xử lý tình huống đèn pha xe máy tắt đột ngột khi đang chạy đêm, từ vài giây đầu tiên đến lúc về tới nhà. Nội dung nêu cách giữ chắc tay lái, giảm tốc dần thay vì phanh gấp, chọn chỗ dừng có ánh sáng và xa làn xe chạy, thử chuyển pha cốt rồi xem các đèn khác để biết hỏng riêng đèn pha hay mất điện cả xe. Bài cũng phân tích lúc nào có thể chạy tiếp rất chậm, lúc nào không nên chạy, giới hạn của đèn điện thoại và cách phòng trước cho các chuyến đi đêm.',
+  quickAnswer: 'Đèn pha xe máy tắt đột ngột khi đang đi thì giữ chắc tay lái, nhả ga, giảm tốc dần chứ không phanh gấp, bật xi nhan rồi tấp vào chỗ có ánh sáng, xa làn xe chạy. Khi đã dừng, thử chuyển pha cốt và xem xi nhan, đèn hậu, đồng hồ. Còn một chế độ đèn thì chạy rất chậm về thẳng nhà hoặc chỗ sửa; mất hết đèn thì không chạy tiếp trên đường tối.',
+  keyPoints: [
+    'Vài giây đầu quyết định mọi thứ: giữ chắc tay lái, nhả ga, giảm tốc dần và không phanh gấp hay lạng lách để tìm ánh sáng.',
+    'Chỗ dừng tốt là nơi có đèn đường, có người qua lại, xa làn xe chạy; tránh khúc cua, chân dốc, đầu cầu và gầm cầu tối.',
+    'Khi đã dừng, thử công tắc chuyển pha cốt vì đôi khi chỉ hỏng một chế độ, rồi xem xi nhan, đèn hậu, đồng hồ để phân biệt hỏng riêng đèn pha với mất điện cả xe.',
+    'Còn một chế độ đèn thì chạy rất chậm về thẳng nhà hoặc chỗ sửa; mất hết đèn thì không chạy tiếp trên đường tối, hãy chờ người đón hoặc dắt xe tới chỗ sáng.',
+    'Đèn điện thoại hay đèn pin chỉ để người khác nhìn thấy bạn, không thay đèn pha để chạy; chạy kèm sau một xe khác lấy ánh sáng cũng không phải cách an toàn.'
+  ],
+  category: 'guide',
+  hub: 'xu-ly-su-co',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['đèn pha xe máy', 'công tắc chuyển pha cốt', 'đèn xi nhan', 'đèn hậu', 'đèn khẩn cấp', 'hệ thống điện xe máy'],
+  keywords: ['đèn pha xe máy tắt đột ngột khi đang đi', 'xe máy mất đèn pha ban đêm', 'đèn xe máy đang đi bỗng tắt', 'đi xe máy ban đêm không có đèn'],
+  sections: [
+    P('Việc làm ngay trong vài giây đầu khi đèn pha tắt', [
+      'Tình huống đèn pha xe máy tắt đột ngột khi đang đi thường làm người lái hoảng vì mặt đường phía trước biến mất chỉ trong chớp mắt. Phản xạ tự nhiên là bóp phanh thật mạnh hoặc xoay người tìm ánh sáng, và chính phản xạ ấy mới là rủi ro lớn nhất trong những giây đầu, bởi xe vẫn chạy thẳng, bánh vẫn bám đường, chỉ có tầm nhìn là mất. Việc đầu tiên là giữ chắc tay lái bằng cả hai tay, thả lỏng vai và cánh tay, giữ thân xe thẳng, mắt nhìn xa về phía trước chứ không dán xuống vùng tối sát bánh xe. Hãy nhắc mình rằng bạn chỉ đang thiếu ánh sáng, và thiếu ánh sáng thì xử lý bằng tốc độ thấp cùng động tác nhẹ, không phải bằng động tác gấp.',
+      'Bước kế tiếp là giảm tốc từ từ. Nhả ga trước để lực cản của động cơ và ma sát mặt đường làm xe chậm dần, rồi bóp phanh nhẹ và đều tay nếu cần, theo đúng thói quen phanh thường ngày của bạn. Phanh gấp trong bóng tối nguy hiểm vì bạn không nhìn thấy mặt đường: có thể bánh đang lăn qua cát, lá khô, vệt dầu hay vũng nước, và bánh xe dễ trượt. Người chạy phía sau cũng khó lường được việc xe phía trước chậm đột ngột, nhất là khi họ không rõ đèn hậu của bạn còn sáng hay không. Đừng lạng sang trái sang phải để tìm chỗ sáng hơn, vì mỗi lần đổi hướng là một lần lao vào vùng bạn không nhìn thấy gì. Giữ xe đi thẳng, chậm dần, rồi mới tính chuyện tấp vào đâu.',
+      'Trong lúc xe chậm lại, hãy dùng mọi nguồn sáng còn lại thay cho chùm đèn pha đã mất. Ánh đèn đường ở xa, ánh sáng từ nhà ven đường, biển hiệu hay đèn của xe ngược chiều thường đủ để bạn nhận ra mép đường, vạch sơn hoặc dải sáng nhạt của bầu trời ở cuối đường. Giữ hướng đi theo những dấu hiệu ấy, đồng thời bật xi nhan về phía định tấp vào để người xung quanh biết xe đang chậm lại và sắp đổi vị trí. Liếc gương một nhịp ngắn nếu gương đủ rõ, nhưng đừng quay đầu nhìn lâu. Tuyệt đối không bám sát đuôi một xe khác để mượn ánh sáng, vì xe đó có thể phanh hoặc rẽ bất ngờ trong khi bạn không còn khoảng cách đủ để xử lý, và ánh sáng của nó cũng không chiếu đúng vào đường của bạn.'
+    ]),
+    P('Dừng xe ở đâu cho an toàn khi không còn đèn', [
+      'Chỗ dừng tốt nhất là nơi người khác dễ nhìn thấy bạn và bạn cũng dễ nhìn thấy xung quanh: dưới một cột đèn đường, trước mặt tiền cửa hàng còn sáng, gần ngã tư có đèn tín hiệu, hoặc ở nơi có người qua lại. Ánh sáng ấy làm hai việc cùng lúc, vừa giúp bạn quan sát xe hỏng ra sao, vừa khiến xe và người đứng cạnh hiện rõ trước mắt những người lái khác. Có người xung quanh còn là lợi thế thực tế, vì bạn có thể nhờ trông xe, xin chỗ đứng chờ hoặc nhờ gọi người đến đón. Chưa thấy chỗ sáng nào thì cứ chạy chậm, bám mép đường, tới chỗ thoáng và đủ rộng gần nhất; đừng cố đi thêm một chặng dài chỉ để tìm ánh sáng, vì mỗi đoạn đi trong bóng tối là thêm một đoạn rủi ro.',
+      'Có những chỗ nên tránh dù bạn đang rất muốn dừng ngay. Khúc cua là nơi tệ nhất, vì xe đến sau chỉ nhìn thấy bạn khi đã quá gần, trong khi đường cong khiến họ khó đánh lái né. Chân dốc và đỉnh dốc cũng vậy: người lái ở phía trên không thấy chiếc xe đang đứng bên dưới, còn xe ở chân dốc đang tăng ga để lên nên tốc độ thường cao. Đừng dừng ngay đầu cầu, trong hầm hoặc gầm cầu tối, sát mép đường không có lề, hay ở chỗ bụi cây che mất hình dáng xe. Cũng không nên đứng giữa làn xe chạy hoặc sát bên một chỗ thường có xe lớn ra vào. Nguyên tắc chung là chọn đoạn đường thẳng, thoáng tầm nhìn cả hai hướng, để người đến sau có đủ thời gian và khoảng cách thấy bạn từ xa.',
+      'Lúc tấp vào, hãy vào chậm, đi thẳng rồi dừng hẳn ngoài làn xe chạy, chống xe ở nơi nền đất vững và phẳng. Bật đèn khẩn cấp nếu xe có, tùy xe, vì nhiều xe máy không trang bị chức năng này; nếu không có, xi nhan nháy thêm một lúc cũng giúp người khác nhận ra xe đang đứng, miễn là nguồn điện còn. Bản thân bạn nên đứng phía lề, tránh đứng giữa xe và dòng xe đang chạy, càng không đứng ra lòng đường vẫy tay. Ở nơi tối, mặc hoặc cầm thứ gì sáng màu sẽ giúp bạn hiện rõ hơn. Chưa vội kết luận hay sửa chữa gì ngay lúc xe còn ở ven đường; việc đầu tiên là biến mình và chiếc xe thành vật dễ thấy, an toàn, rồi mới tới bước kiểm tra tiếp theo.'
+    ]),
+    P('Thử chuyển pha cốt và xem các đèn khác', [
+      'Xe đã đứng vững ở chỗ an toàn là lúc thử công tắc chuyển pha cốt, vì đôi khi chỉ hỏng một chế độ chứ không phải cả cụm đèn. Nhiều xe dùng bóng có hai chế độ pha và cốt chạy trên hai sợi đốt riêng, nên một sợi hỏng thì sợi còn lại vẫn sáng; cách bố trí này tùy xe, có xe làm khác. Gạt công tắc dứt khoát qua lại vài lần, quan sát chùm sáng đổ lên mặt đường hoặc lên bức tường gần đó. Cũng có trường hợp đèn không hỏng mà công tắc ở tay lái bị kẹt hay tiếp xúc kém, khiến chế độ nào đó không được chọn. Hãy để xe ở trạng thái đang dùng bình thường khi thử, vì với một số xe, đèn chỉ sáng đủ khi máy đang nổ, tùy xe, nên đèn tối lúc máy tắt chưa chắc là hỏng.',
+      'Bước thứ hai là xem các đèn khác để biết bạn đang gặp hỏng riêng đèn pha hay mất điện trên cả xe. Bật xi nhan và nhìn nhịp nháy cả phía trước lẫn phía sau, nhìn đèn hậu, nhìn các đèn báo và đồng hồ có sáng không, thử còi nếu xe có. Muốn xem đèn hậu và đèn phanh mà không có người giúp, bạn có thể bóp phanh rồi nhìn ánh phản chiếu trên tường, kính cửa hàng hay biển hiệu phía sau, hoặc nhờ một người đứng gần nhìn hộ. Các đèn khác vẫn sáng bình thường, chỉ đèn pha tắt, thì nghiêng về hỏng riêng đèn pha. Mọi thứ cùng tối, đồng hồ cũng tắt, còi cũng câm, thì nghiêng về mất điện chung của xe; đó mới là gợi ý, chưa phải chẩn đoán chắc chắn.',
+      'Ngoài phần quan sát ấy, đừng làm gì thêm ở bên đường. Không tháo mặt đèn hay bóng, không rút giắc, không đụng vào dây điện hoặc cố nối dây, vì thao tác thiếu hiểu biết dễ gây chập, bỏng hoặc hỏng thêm, lại trong bóng tối bạn không nhìn rõ mình đang chạm vào đâu. Về nguyên nhân, đèn tắt đột ngột thường nằm trong vài nhóm: bóng đèn cháy, cầu chì bảo vệ mạch đèn bị đứt, công tắc ở tay lái hoặc khóa điện tiếp xúc kém, hay giắc nối lỏng, ẩm, oxy hóa sau mưa hoặc rửa xe. Những bài chuyên đề về đèn pha mờ, công tắc ở tay lái, hộp cầu chì và xe mất điện sẽ đi sâu hơn phần này. Điều bạn nên mang về cho thợ là ghi nhớ: đèn tắt hẳn một lần hay mờ dần, chập chờn từ trước, và xe vừa gặp mưa, rung mạnh hay vừa rửa.'
+    ]),
+    P('Có nên chạy tiếp về nhà hay không', [
+      'Câu trả lời phụ thuộc vào việc bạn còn lại bao nhiêu ánh sáng. Còn được một chế độ, chẳng hạn cốt vẫn sáng dù pha tắt, thì bạn có thể chạy tiếp rất chậm, bám làn bên phải của mình, đi thẳng về chỗ sửa xe hoặc về nhà theo đường quen, ít ngã tư và có đèn đường. Chùm cốt chiếu gần, nên tốc độ phải đủ thấp để bạn dừng được trong khoảng bạn nhìn thấy, thấp hơn thường lệ; đừng cố rút ngắn đường bằng lối tắt vắng và tối. Nếu chỉ còn chế độ pha thì chùm sáng chiếu xa, dễ làm chói người đi ngược chiều, nên càng cần chậm hơn và chỉ đi đoạn ngắn nhất cần thiết. Đến nơi, đừng nghĩ còn một chế độ là xong: lỗi đã xuất hiện và cần sửa trước chuyến đi đêm kế tiếp.',
+      'Mất hết đèn thì câu trả lời là không chạy tiếp trên đường tối. Không chỉ vì bạn không thấy đường, mà còn vì người khác không thấy bạn: xe không có đèn hậu gần như vô hình với người đang chạy phía sau, và đó là kiểu tình huống dễ dẫn tới va chạm nhất. Ngay cả khi đoạn đường phía trước có đèn đường, bạn cũng không thể chắc chỗ nào cũng đủ sáng để chạy. Có ba hướng xử lý: chờ người nhà hoặc bạn bè tới đón, gọi dịch vụ chở xe nếu có, hoặc dắt xe sát lề tới chỗ sáng gần nhất. Lúc dắt xe thì đi chậm, để mắt tới xe đang tới và bỏ ý định thử chạy một đoạn cho nhanh. Chờ lâu và bất tiện vẫn nhẹ hơn nhiều so với một cú ngã trong bóng tối.',
+      'Đèn điện thoại hay đèn pin nhỏ chỉ dùng để người khác nhìn thấy bạn, không thay được đèn pha để chạy. Ánh sáng ấy yếu, hẹp, rung lắc theo tay và không soi nổi mặt đường ở tốc độ đi xe. Cầm điện thoại bằng một tay khi đang lái còn làm bạn mất kiểm soát tay lái, nên hãy dùng nó lúc đứng hoặc dắt xe, chiếu xuống thân xe hay mặt đất cạnh mình để người đến gần nhận ra, tránh chiếu thẳng vào mắt người lái. Một cách thường được nghĩ tới là nhờ người đi cùng chạy kèm phía trước làm đèn dẫn đường, nhưng đó không phải cách an toàn: ánh sáng của họ bị chính thân xe che và lệch hướng, khoảng cách hai xe phải rất ngắn mới thấy được, và chỉ cần người đi trước phanh hay rẽ bất ngờ là bạn không kịp phản ứng.'
+    ]),
+    P('Phòng trước cho những chuyến đi đêm sau', [
+      'Phòng trước bắt đầu bằng một thói quen đơn giản: thử đèn trước khi đi đêm, tốt nhất lúc trời còn sáng để kịp xử lý nếu có vấn đề. Dựng xe cách một bức tường vài bước, bật đèn, chuyển qua lại giữa pha và cốt, rồi nhìn xem cả hai chế độ đều có chùm sáng rõ, không chập chờn. Bật xi nhan bên trái, bên phải, nhìn nhịp nháy trước sau, bóp phanh để xem đèn phanh, và nhìn đồng hồ có sáng đủ không. Đừng quên mặt đèn: mặt kính bẩn hay ố đục làm ánh sáng yếu đi dù bóng còn tốt. Việc kiểm tra chỉ mất ít phút nhưng cho bạn biết xe đã sẵn sàng cho cả quãng đêm hay chưa, và biến một bất ngờ giữa đường thành một việc đã được sửa ở nhà.',
+      'Mang theo vài thứ nhỏ cũng giảm bớt hậu quả nếu sự cố vẫn xảy ra. Một chiếc đèn pin nhỏ gọn, pin còn tốt, để trong ngăn chứa đồ hoặc túi áo, giúp bạn nhìn quanh xe và để người khác thấy mình khi phải dừng. Điện thoại nên đủ pin trước chuyến đi, vì đó là cách gọi người đến đón. Áo sáng màu hay có phản quang giúp bạn hiện ra rõ hơn khi phải đứng ven đường. Về tuyến đường, hãy ưu tiên đường có đèn, đông người qua lại và nhiều chỗ để tấp vào, thay vì lối tắt vắng; nói trước với người nhà lộ trình và giờ dự kiến về. Những thứ đó không thay được đèn pha, nhưng chúng quyết định việc bạn gặp sự cố ở một chỗ còn xoay xở được hay ở một chỗ vắng, tối.',
+      'Cuối cùng, đừng bỏ qua những lời cảnh báo nhỏ. Đèn mờ dần, chập chờn lúc qua ổ gà, tắt thoáng rồi sáng lại, công tắc lúc ăn lúc không, đều là dấu hiệu hệ thống đèn đang yếu đi và nên đưa thợ kiểm tra sớm, chứ đừng đợi đến lúc tắt hẳn giữa đường tối. Những bài chuyên đề về đèn pha mờ, công tắc ở tay lái, hộp cầu chì và xe mất điện sẽ đi sâu hơn phần tìm nguyên nhân, còn cách giữ an toàn nói chung khi đi đêm nằm trong bài về kỹ thuật đi xe máy ban đêm. Nên để thợ có chuyên môn kiểm tra định kỳ giắc nối, công tắc và nguồn điện, tránh xịt nước mạnh vào cụm đèn và giắc điện, và đừng tự đấu thêm phụ kiện điện mà không hiểu tải của xe, vì đó cũng là một nguồn gây mất đèn đột ngột.'
+    ])
+  ],
+  checklist: [
+    'Giữ chắc tay lái, nhả ga, giảm tốc dần; không phanh gấp, không lạng lách để tìm ánh sáng.',
+    'Bật xi nhan và tấp vào chỗ có đèn đường hoặc có người qua lại, xa làn xe chạy, không dừng ở khúc cua hay chân dốc.',
+    'Đã dừng vững thì thử công tắc chuyển pha cốt, rồi xem xi nhan, đèn hậu, đèn phanh, đồng hồ và còi có hoạt động không.',
+    'Còn một chế độ đèn thì chạy rất chậm về thẳng nhà hoặc chỗ sửa; mất hết đèn thì chờ người đón hoặc dắt xe tới chỗ sáng.',
+    'Trước mỗi chuyến đi đêm, thử đèn lúc trời còn sáng, mang đèn pin nhỏ, giữ điện thoại đủ pin và chọn đường có đèn.'
+  ],
+  steps: [
+    { title: 'Giữ lái và giảm tốc dần', detail: 'Hai tay chắc trên tay lái, nhả ga, bóp phanh nhẹ và đều; nhìn xa theo mép đường và ánh sáng còn lại, bật xi nhan về phía định tấp vào.' },
+    { title: 'Tấp vào chỗ an toàn', detail: 'Chọn chỗ có ánh sáng, có người, thoáng tầm nhìn, ngoài làn xe chạy; tránh khúc cua, chân dốc, đầu cầu, gầm cầu; bật đèn khẩn cấp nếu xe có, tùy xe.' },
+    { title: 'Thử chuyển pha cốt và xem đèn khác', detail: 'Gạt công tắc pha cốt vài lần, xem xi nhan, đèn hậu, đèn phanh, đồng hồ, còi để biết hỏng riêng đèn pha hay mất điện cả xe; không tháo đèn, không chạm dây điện.' },
+    { title: 'Quyết định đi tiếp hay chờ', detail: 'Còn một chế độ thì chạy rất chậm, bám làn bên phải, về thẳng chỗ sửa hoặc nhà; mất hết đèn thì không chạy, chờ người đón hoặc dắt xe tới chỗ sáng.' }
+  ],
+  warnings: [
+    'Mất hết đèn, nhất là đèn hậu, thì không chạy tiếp trên đường tối: người khác không thấy bạn và bạn không thấy đường.',
+    'Không tháo đèn, không rút giắc, không nối dây hay chạm vào dây điện bên đường; các việc này cần dụng cụ, chỗ sáng và thợ có chuyên môn.',
+    'Đèn điện thoại hay đèn pin chỉ để người khác nhìn thấy bạn; không cầm khi đang lái, không thay đèn pha, không bám đuôi hay nhờ ai chạy kèm phía trước để lấy ánh sáng.'
+  ],
+  notes: [
+    'Cách bố trí pha cốt, đèn khẩn cấp và việc đèn có cần máy nổ mới sáng đủ khác nhau tùy dòng xe; hãy đối chiếu với sách hướng dẫn của xe bạn.',
+    'Các dấu hiệu trong bài chỉ là gợi ý để phân biệt hỏng riêng đèn pha với mất điện cả xe; nguyên nhân cụ thể cần thợ kiểm tra bằng dụng cụ phù hợp.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần hệ thống đèn, công tắc điều khiển và các đèn báo trên bảng đồng hồ',
+    'Tài liệu kỹ thuật của nhà sản xuất về hệ thống điện của đúng dòng xe'
+  ],
+  related: ['ky-thuat-di-xe-may-ban-dem', 'den-pha-xe-may-mo-nguyen-nhan-va-xu-ly', 'cong-tac-to-hop-o-tay-lai-xe-may-ket-hoac-khong-an', 'xe-mat-dien', 'den-xe-may']
+};

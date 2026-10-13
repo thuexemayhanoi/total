@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — S01520; hành vi của người đi xe máy quanh đám cháy, không nêu số liệu, thông số hay tên hãng.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'di-xe-may-ngang-qua-dam-chay-hoac-xe-dang-chay-ven-duong-giu-khoang-cach-tranh-voi-chua-chay-va-khong-dung-xem',
+  title: 'Đi xe máy ngang qua đám cháy hoặc xe đang cháy ven đường: giữ khoảng cách, tránh vòi chữa cháy và không dừng xem',
+  seoTitle: 'Đi xe máy qua đám cháy: giữ xa, tránh vòi chữa cháy, không dừng xem',
+  metaDescription: 'Đi xe máy qua chỗ đang có đám cháy hoặc xe cháy ven đường: giảm tốc từ xa, giữ khoảng cách, tránh vòi chữa cháy, không dừng xem và việc cần làm sau khi qua.',
+  summary: 'Bài hướng dẫn người đi xe máy cách cư xử khi gặp một đám cháy hoặc một chiếc xe đang cháy ven đường. Nội dung giải thích vì sao khói, vật nổ hay văng, mặt đường ướt và vòi nước nằm ngang đều nguy hiểm, cách giảm tốc sớm và đọc hướng gió khi mới thấy khói, cách đi qua chậm và đều khi buộc phải ngang qua, lý do không dừng xem hay quay phim, cách báo tin từ chỗ an toàn và những việc cần kiểm tra ngay sau khi đã đi qua.',
+  quickAnswer: 'Thấy khói hoặc lửa từ xa thì giảm tốc sớm, xem hướng gió và chọn đường vòng nếu có. Buộc phải qua thì giữ xa đám cháy nhất có thể, đi chậm và đều, nhường lối cho xe chữa cháy, cứu thương, làm theo người điều tiết và không chạy đè lên vòi nước. Không dừng xem hay quay phim; cần báo tin thì dừng ở chỗ an toàn rồi gọi số khẩn cấp ở địa phương.',
+  keyPoints: [
+    'Khói làm cay mắt, khó thở và che tầm nhìn; vật cháy có thể đổ, nổ hoặc văng mảnh, nên càng xa đám cháy càng an toàn.',
+    'Thấy cột khói hay đèn nháy của xe chữa cháy từ xa thì giảm tốc sớm, xem hướng gió và chọn đường vòng thuận tiện thay vì cố chạy xuyên qua khói dày.',
+    'Buộc phải ngang qua thì đi chậm và đều, không dừng đỗ sát đám cháy hay ở phía cuối gió, nhường lối cho xe chữa cháy, cứu thương và làm theo người điều tiết.',
+    'Tránh chạy đè lên vòi chữa cháy, vũng nước, bùn và mảnh vỡ; bánh xe máy rất dễ mất bám hoặc lệch hướng ở những chỗ này.',
+    'Không dừng xem, không quay phim; cần báo tin thì dừng ở chỗ an toàn, xa đám cháy, gọi số khẩn cấp ở địa phương, sau khi qua thì kiểm tra mắt, kính mũ và thử phanh nhẹ.'
+  ],
+  category: 'ride',
+  hub: 'an-toan-giao-thong',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['đám cháy ven đường', 'xe đang cháy bên đường', 'khói che tầm nhìn', 'vòi chữa cháy', 'xe chữa cháy', 'người điều tiết giao thông'],
+  keywords: ['đi xe máy qua chỗ đang có đám cháy', 'xe đang cháy bên đường', 'gặp xe cứu hỏa đang chữa cháy trên đường', 'khói đám cháy che đường'],
+  sections: [
+    P('Vì sao đi ngang đám cháy nguy hiểm cho người đi xe máy', [
+      'Điều đầu tiên cần hiểu là người đi xe máy không có lớp vỏ nào che chắn. Khói từ đám cháy bay thẳng vào mặt, làm cay mắt, rát mũi họng và khiến việc thở trở nên nặng nhọc, nhất là khi bạn đang gắng sức hoặc vừa chạy qua một đoạn kẹt xe. Khói còn che tầm nhìn: chỉ cần một lớp mờ cuộn ngang đường là bạn không còn thấy rõ vạch kẻ, người đi bộ, xe đang dừng hay ổ gà phía trước. Gió có thể ép khói xuống thấp phủ kín mặt đường rồi bất ngờ làm nó tan đi, khiến mắt chưa kịp quen với sáng tối thì đã phải xử lý một tình huống mới. Bài này không bàn chuyện chẩn đoán sức khỏe; điều cần nhớ là càng ít hít và ít để khói vào mắt thì càng an toàn.',
+      'Thứ hai là bản thân vật đang cháy. Một ngôi nhà hay cửa hàng đang cháy có thể có mái, biển hiệu, kính hoặc vật treo trên cao rơi xuống, và bên trong thường chứa những thứ dễ nổ hay văng mảnh mà người bên ngoài không thể biết trước. Xe đang cháy ven đường cũng vậy: lốp, chi tiết bị nung nóng hay bình chứa chất lỏng có thể nổ hoặc bắn mảnh, còn lửa có thể lan sang những xe đậu sát bên cạnh. Vì không ai đoán được lúc nào chuyện đó xảy ra, đứng hay chạy sát đám cháy là tự đặt mình vào vùng có thể bị văng trúng. Hơi nóng tỏa ra cũng đủ làm da mặt rát dù ngọn lửa còn cách một đoạn. Khoảng trống rộng quanh đám cháy là chỗ làm việc của người chữa cháy, không phải chỗ để người đi đường tò mò bước vào.',
+      'Thứ ba là cách mặt đường và dòng người thay đổi quanh đám cháy. Người hiếu kỳ dừng xe đứng xem làm lòng đường hẹp lại, xe nọ chen xe kia, và lối đi dành cho xe chữa cháy, xe cứu thương rất dễ bị chặn. Xe chữa cháy dàn quân, vòi nước trải ngang mặt đường, nước chảy thành vũng, bùn và tro lẫn mảnh vỡ khiến lốp mất bám nhanh hơn thường lệ. Xe máy chỉ có hai bánh nhỏ nên trượt hoặc lệch hướng khi cán lên vòi hay vũng trơn là chuyện rất dễ xảy ra. Thêm vào đó, nếu người đi trước phanh gấp vì thấy lửa thì xe phía sau thường không kịp phản ứng. Gom lại, đây là khúc đường có nhiều rủi ro chồng lên nhau, và mỗi rủi ro đều tăng lên khi bạn đến quá nhanh, quá gần hoặc quá tò mò.'
+    ]),
+    P('Thấy khói hoặc lửa từ xa: giảm tốc, xem gió và chọn đường', [
+      'Dấu hiệu đầu tiên thường đến trước khi bạn thấy lửa: một cột khói dựng lên phía trước, vùng trời ngả màu cam, mùi khét lan theo gió, đèn nháy của xe chữa cháy hay dòng xe chậm lại bất thường. Người đứng dồn ở lề đường và những chiếc xe dừng lệch cũng là lời báo trước. Hãy giảm tốc ngay từ lúc nhận ra chứ đừng đợi tới sát hiện trường. Nhả ga từ từ, liếc gương để biết xe phía sau đang ở đâu rồi chạm nhẹ phanh cho đèn phanh sáng lên, như vậy người đi sau hiểu rằng phía trước có chuyện. Giảm tốc sớm cho bạn thêm thời gian nhìn, nghe và quyết định, còn những quyết định vội vàng ở sát hiện trường mới là thứ gây ra va chạm.',
+      'Sau khi giảm tốc, hãy đọc hướng gió và hướng khói. Nhìn tán cây, biển quảng cáo, vạt áo của người bên đường hay chính cột khói để biết khói đang bay lên cao, nghiêng về phía nào, hoặc bị ép thấp xuống phủ lên mặt đường. Nếu khói thổi về phía đoạn bạn sắp đi tới thì đoạn đó sẽ tối và cay hơn đoạn bạn đang đứng. Khi có lối vòng thuận tiện, rộng hơn và nằm ngược chiều khói, đó thường là lựa chọn tốt. Hãy rẽ có báo hiệu, sau khi đã nhìn gương, và đừng quay đầu gấp giữa dòng xe vì cả đoạn đường lúc này đang chật. Đường vòng nhỏ hẹp cũng có thể nhanh chóng bị chật theo nếu nhiều người cùng nghĩ như bạn, nên hãy tiếp tục quan sát thay vì tin chắc rằng nó sẽ thông.',
+      'Điều không nên làm là cố chạy xuyên qua khói dày bằng cách tăng ga cho nhanh. Khi khói đủ dày để che mất đường phía trước, bạn không còn biết có người, xe đang dừng, vòi nước hay hố sâu hay không, trong khi tốc độ cao làm mọi sai sót nghiêm trọng hơn. Nếu đã lỡ lọt vào đoạn mờ, hãy hạ kính mũ để bảo vệ mắt, nhả ga, giữ làn và đi theo nhịp của dòng xe, rồi tìm cách thoát ra khỏi vùng khói thay vì dừng ngay giữa đường. Khẩu trang thông thường không thể biến khói dày thành an toàn, nó chỉ là biện pháp phụ. Cách giảm hít khói bụi nói chung, từ chọn đường đến dùng kính mũ và khẩu trang, được bàn trong bài về những ngày ô nhiễm không khí nặng.'
+    ]),
+    P('Khi buộc phải đi ngang chỗ đang cháy', [
+      'Có những đoạn đường không có lối vòng, và bạn buộc phải đi ngang. Nguyên tắc đầu tiên là chọn phần đường xa đám cháy nhất mà vẫn còn mở cho xe qua, tức là xa nhất có thể chứ không phải sát nhất cho nhanh. Với xe đang cháy ven đường, hãy coi cả vùng quanh chiếc xe đó là chỗ cần tránh, đừng len qua khe giữa nó và những xe đậu cạnh. Tốc độ nên chậm và đều: không rồ ga để thoát cho nhanh, không phanh gấp mỗi khi thấy tia lửa bật lên. Hai tay nắm chắc ghi đông, mắt nhìn xa thay vì nhìn chằm chằm vào ngọn lửa, vì ánh mắt đi đâu thì xe thường có xu hướng lệch về đó. Một dòng xe đi đều nhau cũng giúp mọi người tránh được va chạm dây chuyền.',
+      'Tuyệt đối không dừng hay đỗ sát đám cháy, dù chỉ để chỉnh kính mũ hay nghe điện thoại. Cũng tránh dừng ở phía cuối gió, vì khói, tro và hơi nóng bị thổi về đúng hướng đó. Xe chữa cháy, xe cứu thương và những người đang làm nhiệm vụ cần lối đi trước mọi người: hãy nhường, nép sang bên theo hướng mà người điều tiết chỉ, và làm theo cử chỉ của họ chứ không theo thói quen của mình. Xe cần đi qua có thể đến từ phía sau hoặc bất ngờ rẽ vào, nên hãy liếc gương thường xuyên và đừng đổi hướng đột ngột. Cách nhường đường cho xe ưu tiên đã có bài riêng với những nguyên tắc chi tiết hơn, rất đáng đọc trước khi gặp tình huống thật.',
+      'Mặt đường quanh đám cháy có thể trông bình thường mà vẫn rất xấu. Vòi chữa cháy trải ngang đường là vật cản dễ bị bỏ sót nhất, nhất là khi trời tối hoặc khói che. Đừng chạy đè lên vòi: bánh xe máy dễ bị nảy hoặc trượt ngang, và việc xe cộ chạy qua lại trên vòi có thể làm vướng công việc của người đang chữa cháy. Nếu người điều tiết chỉ một lối qua thì làm theo, còn chưa có chỉ dẫn thì dừng chờ ở khoảng cách an toàn phía xa thay vì tự thử. Với vũng nước, bùn, tro và mảnh vỡ, hãy đi thẳng, tránh nghiêng xe, tránh phanh gấp và chừa khoảng trống rộng với xe phía trước để còn kịp xử lý khi bánh xe bất ngờ mất bám hay cán phải vật lạ.'
+    ]),
+    P('Không dừng xem, không quay phim sát đám cháy', [
+      'Đứng lại xem một đám cháy là phản xạ rất tự nhiên, nhưng với người đi xe máy nó kéo theo cả một chuỗi hậu quả. Một xe dừng lại khiến xe sau phải chậm hoặc né, vài xe dừng theo thì lòng đường hẹp dần rồi tắc cứng. Chỗ tắc ấy lại chính là nơi xe chữa cháy hay xe cứu thương cần đi qua, nên sự tò mò của đám đông có thể làm lực lượng cứu hộ đến chậm hơn. Người dừng đột ngột giữa dòng còn dễ bị xe phía sau đâm vào, và đứng gần đám cháy đồng nghĩa với hít khói, hứng tro và nằm trong tầm văng của mảnh vỡ. Nếu bạn không có nhiệm vụ gì ở đó, cách giúp tốt nhất là đi qua gọn gàng và nhường chỗ cho người thật sự cần chỗ.',
+      'Quay phim hay chụp ảnh sát hiện trường là thói quen gây hại nhiều hơn người ta nghĩ. Vừa chạy xe vừa cầm điện thoại bằng một tay làm bạn mất khả năng giữ lái và phanh kịp lúc, trong khi đoạn đường quanh đám cháy là nơi cần đủ cả hai tay và toàn bộ sự chú ý. Dừng lại để quay thì bạn chiếm chỗ của người khác, hít khói lâu hơn và có thể che mất lối đi của người làm nhiệm vụ. Hình ảnh của người đang mất nhà, mất xe hay đang hoảng loạn cũng không phải thứ để lấy làm chuyện kể cho vui. Nếu thật sự muốn lưu lại điều gì, hãy để sau, khi đã đi xa và đang ở nơi an toàn, chứ đừng làm bằng cách dừng giữa đường hay chen vào đám đông.',
+      'Trường hợp bạn nghĩ rằng chưa ai biết về đám cháy, hãy báo tin cho đúng cách. Chạy tiếp tới chỗ xa đám cháy và ngoài tầm khói, dừng sát lề ở nơi không cản lối của xe nào, rồi gọi số khẩn cấp ở địa phương. Nói rõ vị trí bằng những mốc dễ nhận như ngã tư, cổng hay biển hiệu, cho biết đó là nhà, cửa hàng hay xe đang cháy và có thấy người bị kẹt hay không, rồi làm theo hướng dẫn của người nhận cuộc gọi. Việc dập lửa đám cháy của người khác nên để cho lực lượng chuyên trách, bạn không nên xông vào hay xịt thử. Còn khi chính xe của mình có dấu hiệu bốc cháy, hãy xem bài về bình chữa cháy mini trên xe máy để hiểu giới hạn của nó; gặp người bị nạn ven đường, bài về chứng kiến tai nạn xe máy sẽ giúp bạn hành động đúng thứ tự.'
+    ]),
+    P('Sau khi đã đi qua khu vực cháy', [
+      'Khi đã qua khỏi, đừng vội tăng ga để bù thời gian đã mất. Hãy đi tiếp thêm một đoạn cho tới khi không còn khói rồi dừng ở chỗ an toàn, tránh dừng ngay sau khúc cua hay sát dòng xe chạy nhanh. Việc đầu tiên là kiểm tra chính mình, đặc biệt là đôi mắt. Mắt cay, rát hay chảy nước là phản ứng thường gặp sau khi đi qua khói. Đừng dụi bằng tay bẩn vì tro và bụi có thể làm mắt khó chịu hơn; hãy chớp mắt vài lần và dùng nước sạch rửa nhẹ nếu thấy cộm. Thở chậm vài nhịp ở nơi thoáng khí. Nếu cay mắt, khó thở hoặc ho kéo dài, hay có bất kỳ triệu chứng nào làm bạn lo lắng, hãy đi khám để được người có chuyên môn tư vấn, đừng tự đoán nguyên nhân hay chờ cho qua.',
+      'Tiếp theo là chiếc mũ và quần áo. Kính mũ thường dính một lớp muội, tro và hơi nước đọng, làm tầm nhìn mờ hơn mức bạn tưởng. Hãy lau bằng khăn mềm sạch cùng chút nước, đừng chà khô vì hạt tro và bụi nhỏ có thể làm xước mặt kính. Lớp lót mũ, khẩu trang hay khăn che mặt bám mùi khói nên được giặt hoặc thay khi có thể. Lúc dừng lại, hãy nhìn qua áo, găng và giày xem có tro hay mảnh vỡ nhỏ bám vào không rồi phủi nhẹ cho sạch. Gương chiếu hậu cũng nên lau lại để bạn nhìn rõ phía sau trước khi đi tiếp, vì từ đây trở đi bạn lại cần quan sát tốt như bình thường, nhất là khi dòng xe vừa thoát khỏi đoạn nghẽn đang tăng tốc đồng loạt.',
+      'Cuối cùng, hãy để ý chiếc xe. Sau khi lội qua nước, bùn hay tro, phanh có thể kém ăn trong chốc lát, nhất là khi má phanh hay đĩa còn ướt. Hãy tìm một đoạn vắng, phía trước không có xe, rồi bóp phanh nhẹ vài lần ở tốc độ thấp để xem xe có dừng đều và êm không. Nhìn qua lốp xem có vật nhọn hay mảnh vỡ cắm vào không, nghe xem bánh quay có tiếng lạ không, thử tay lái xem có lệch hoặc rung bất thường không. Những chuyện này tùy xe, nên nếu phanh vẫn yếu, tay lái lạ hoặc lốp có vật cắm vào, hãy đưa xe ra thợ có chuyên môn thay vì tự xử lý. Đoạn đường qua đám cháy kết thúc cũng là lúc rút kinh nghiệm: lần sau nhận ra khói sớm hơn, giảm tốc sớm hơn và chọn đường xa hơn.'
+    ])
+  ],
+  checklist: [
+    'Giảm tốc ngay khi thấy cột khói, ánh lửa, đèn nháy của xe chữa cháy hoặc dòng xe chậm bất thường phía trước.',
+    'Xem hướng gió và hướng khói, chọn đường vòng thuận tiện nếu có, không cố chạy xuyên qua khói dày.',
+    'Giữ khoảng cách xa nhất có thể với đám cháy và xe đang cháy, đi chậm và đều, không dừng đỗ sát hiện trường hay ở phía cuối gió.',
+    'Nhường lối cho xe chữa cháy, xe cứu thương, làm theo người điều tiết và tránh chạy đè lên vòi chữa cháy, vũng nước, mảnh vỡ.',
+    'Sau khi qua, dừng ở chỗ an toàn để kiểm tra mắt, lau kính mũ, thử phanh nhẹ và xem lốp, tay lái trước khi đi tiếp.'
+  ],
+  steps: [
+    { title: 'Nhận ra sớm và giảm tốc', detail: 'Để ý cột khói, mùi khét, đèn nháy hay dòng xe chậm lại; nhả ga từ từ, nhìn gương và chạm nhẹ phanh cho đèn phanh sáng để báo xe phía sau.' },
+    { title: 'Đọc gió và chọn đường', detail: 'Xem khói bay về phía nào, nhìn thấy lối vòng thuận tiện và ngược chiều khói thì rẽ có báo hiệu; không quay đầu gấp giữa dòng xe, không xuyên qua khói dày.' },
+    { title: 'Đi qua chậm, đều, giữ xa', detail: 'Chọn phần đường xa đám cháy nhất, nhường lối cho xe chữa cháy và cứu thương, làm theo người điều tiết, tránh vòi chữa cháy, vũng nước, bùn và mảnh vỡ, không dừng xem hay quay phim.' },
+    { title: 'Kiểm tra sau khi qua', detail: 'Dừng ở chỗ an toàn, xem mắt và hơi thở, lau kính mũ, thử phanh nhẹ ở đoạn vắng; thấy triệu chứng kéo dài thì đi khám, phanh hay tay lái bất thường thì ra thợ.' }
+  ],
+  warnings: [
+    'Không dừng xem, không quay phim, không cầm điện thoại khi đang chạy gần đám cháy; việc đó chặn lối xe chữa cháy và dễ gây va chạm.',
+    'Không chạy đè lên vòi chữa cháy hay cố vượt qua vùng khói dày che kín đường; nếu chưa có lối qua an toàn thì dừng chờ xa hiện trường.',
+    'Không tự xông vào dập đám cháy của người khác; cần báo tin thì dừng ở chỗ an toàn xa đám cháy rồi gọi số khẩn cấp ở địa phương.'
+  ],
+  notes: [
+    'Nội dung chỉ nói về cách người đi xe máy cư xử khi đi ngang đám cháy, không thay thế hướng dẫn của lực lượng chữa cháy và người điều tiết tại hiện trường.',
+    'Tình trạng của phanh và lốp sau khi đi qua nước, bùn còn tùy từng xe; có nghi ngờ thì nên nhờ thợ có chuyên môn kiểm tra thay vì tự xử lý.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe',
+    'Hướng dẫn của lực lượng chữa cháy và cơ quan phụ trách an toàn giao thông ở địa phương'
+  ],
+  related: ['nhuong-duong-cho-xe-uu-tien-luu-y', 'di-xe-may-trong-bui-to-va-khoi-luu-y', 'chung-kien-tai-nan-xe-may-tren-duong-nen-lam-gi', 'binh-chua-chay-mini-tren-xe-may-co-nen-mang-dat-o-dau-va-luc-nao-nen-dung-hay-tranh-xa', 'di-xe-may-nhung-ngay-o-nhiem-khong-khi-nang-khau-trang-gio-di-va-cach-giam-hit-khoi-bui']
+};
