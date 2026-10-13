@@ -1,14 +1,170 @@
 {
-  "date": "2026-10-13",
+  "checkpoint_version": 2,
+  "audit_date": "2026-10-13",
   "source_commit": "8954a79f96b947c3ed1f3a14f95128b2c0d1fcef",
-  "scope": "P0 READ ONLY",
-  "published": 1010,
-  "site_article_sitemap": 1010,
-  "generated_manifest_articles": 1010,
-  "article_manifest_rows": 322,
-  "missing_manifest_records": 688,
-  "status": "METADATA_DRIFT_CONFIRMED",
-  "sqlite_runtime_state": "UNVERIFIED",
-  "full_live_http_crawl": "IN_PROGRESS_UNVERIFIED",
-  "approved_write_operations": 0
+  "scope": "P0 READ-ONLY",
+  "website": "https://wiki.thuexemaynguyentu.com/",
+  "sitemap": "https://wiki.thuexemaynguyentu.com/sitemap-articles.xml",
+  "repository": {
+    "published": 1010,
+    "site_article_sitemap": 1010,
+    "generated_manifest_articles": 1010,
+    "article_manifest_rows": 322,
+    "missing_article_manifest_records": 688
+  },
+  "crawl": {
+    "status": "COMPLETED_WITH_TRANSIENT_RETRIED",
+    "unique_sitemap_urls": 1010,
+    "attempted_urls": 1010,
+    "initial_status_counts": {
+      "200": 1009,
+      "404": 0,
+      "429": 0,
+      "503": 1
+    },
+    "initial_normal_200_canonical_exact": 1009,
+    "initial_normal_200_meta": 1009,
+    "initial_normal_200_h1": 1009,
+    "jsonld_parse_errors": 0,
+    "noindex_detected": 0,
+    "per_page_unique_internal_href_occurrences": 125428,
+    "distinct_internal_urls": 1128,
+    "recheck_url": "https://wiki.thuexemaynguyentu.com/local/tp-hcm/di-xe-may-o-tp-hcm-luu-y/",
+    "recheck_http_statuses": [
+      200,
+      200
+    ],
+    "source": "read-only same-origin browser GETs, concurrency <=10"
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "range_start": 1,
+      "range_end": 100,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 2,
+      "range_start": 101,
+      "range_end": 200,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 3,
+      "range_start": 201,
+      "range_end": 300,
+      "attempted": 100,
+      "first_pass_http_200": 99,
+      "http_503": 1,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 4,
+      "range_start": 301,
+      "range_end": 400,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 5,
+      "range_start": 401,
+      "range_end": 500,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 6,
+      "range_start": 501,
+      "range_end": 600,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 7,
+      "range_start": 601,
+      "range_end": 700,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 8,
+      "range_start": 701,
+      "range_end": 800,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 9,
+      "range_start": 801,
+      "range_end": 900,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 10,
+      "range_start": 901,
+      "range_end": 1000,
+      "attempted": 100,
+      "first_pass_http_200": 100,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    },
+    {
+      "batch": 11,
+      "range_start": 1001,
+      "range_end": 1010,
+      "attempted": 10,
+      "first_pass_http_200": 10,
+      "http_503": 0,
+      "http_404": 0,
+      "http_429": 0,
+      "complete": true
+    }
+  ],
+  "unverified": [
+    "Derived SQLite actual row count",
+    "Full target HTTP validation for distinct internal hrefs",
+    "Full body semantic intent and factual checks",
+    "GSC clicks/impressions/CTR/positions",
+    "Persisted per-URL browser JSON within GitHub branch"
+  ],
+  "writes_to_production": 0
 }
