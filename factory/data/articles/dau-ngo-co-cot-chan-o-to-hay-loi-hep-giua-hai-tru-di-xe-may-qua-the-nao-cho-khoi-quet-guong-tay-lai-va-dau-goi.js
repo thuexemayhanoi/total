@@ -1,0 +1,77 @@
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'dau-ngo-co-cot-chan-o-to-hay-loi-hep-giua-hai-tru-di-xe-may-qua-the-nao-cho-khoi-quet-guong-tay-lai-va-dau-goi',
+  title: 'Đầu ngõ có cột chắn ô tô hay lối hẹp giữa hai trụ: đi xe máy qua thế nào cho khỏi quệt gương, tay lái và đầu gối',
+  seoTitle: 'Đi xe máy qua cột chắn đầu ngõ: tránh quệt gương, tay lái',
+  metaDescription: 'Cách đi xe máy qua cột chắn đầu ngõ và lối hẹp giữa hai trụ: giảm tốc từ xa, căn xe thẳng, nhìn qua khe, lo người ngồi sau, đồ chở, gương và lúc nên dắt.',
+  summary: 'Bài giải thích vì sao lối hẹp giữa hai cột chắn ở đầu ngõ khó đi bằng xe máy: phải đi rất chậm nhưng đi chậm lại khó giữ xe thẳng, trong khi gương, đầu gối người ngồi sau và đồ treo thường nhô rộng hơn tay lái. Nội dung hướng dẫn giảm tốc từ xa, căn đầu xe thẳng, nhìn qua khe thay vì nhìn cột, giữ ga đều và che phanh, xử lý người ngồi sau, đồ chở và gương, nhường nhau theo phép lịch sự, biết lúc nên xuống dắt, cùng cách đi qua lúc trời tối hoặc mưa.',
+  quickAnswer: 'Giảm tốc thật sớm từ xa, căn đầu xe thẳng giữa khe trước khi tới, rồi nhìn xuyên qua khe về phía trước chứ đừng nhìn vào cột vì xe hay đi theo hướng mắt. Giữ ga đều thật nhẹ, che phanh, không phanh gấp trong khe. Người ngồi sau khép chân, giữ túi trước bụng; gương gập nếu xe cho phép. Khe quá hẹp, hàng cồng kềnh, đường trơn hoặc bạn không chắc thì xuống dắt.',
+  keyPoints: [
+    'Lối giữa hai cột khó vì xe phải đi gần như nhích mà ở tốc độ ấy xe hai bánh rất khó giữ thẳng; chỉ một cú giật ga hay lệch tay lái cũng đủ làm gương hoặc đầu tay lái chạm cột.',
+    'Gương, đầu gối người ngồi sau, túi treo hai bên và hàng buộc ngang thường nhô rộng hơn tay lái, nên cú va thường đến từ phần người lái không nhìn thấy.',
+    'Giảm tốc từ xa, căn đầu xe thẳng giữa khe trước khi tới, nhìn qua khe về phía trước thay vì nhìn cột, giữ ga đều thật nhẹ, che phanh và không phanh gấp ngay trong khe.',
+    'Người ngồi sau khép chân sát thân xe và giữ túi trước bụng; đồ treo hai bên thì tháo hoặc dồn vào giữa; hàng cồng kềnh thì xuống dắt; gương chỉ gập khi xe cho phép và phải chỉnh lại ngay sau khi qua.',
+    'Nhường nhau theo phép lịch sự, không chen vào khe khi có người đi bộ; khe quá hẹp, xe chở nặng, mặt đường dốc hoặc trơn, người mới lái hay lúc tối và mưa thì xuống dắt và tắt máy khi dắt.'
+  ],
+  category: 'ride',
+  hub: 'lai-xe-trong-thanh-pho',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['cột chắn đầu ngõ', 'lối hẹp giữa hai trụ', 'căn xe thẳng', 'người ngồi sau', 'gương chiếu hậu', 'xuống dắt xe'],
+  keywords: ['đi xe máy qua cột chắn đầu ngõ', 'lối hẹp giữa hai cột ở đầu ngõ', 'xe máy quệt gương vào cột', 'người ngồi sau va đầu gối vào cột'],
+  sections: [
+    P('Vì sao lối hẹp giữa cột chắn ở đầu ngõ khó đi', [
+      'Lối hẹp giữa hai cột chắn khó đi vì nó buộc hai điều trái ngược xảy ra cùng lúc: xe phải đi thật chậm để không quệt, nhưng xe hai bánh đi càng chậm thì càng khó giữ thẳng. Ở tốc độ cao, đà lăn của bánh giúp xe tự đứng vững; ở tốc độ nhích, đà ấy gần như mất, nên mỗi cú giật tay lái hay nhịp ga không đều đều làm đầu xe lắc sang một bên. Trong một khe vừa đủ cho tay lái, chỉ cần đầu xe lệch một chút là gương hoặc đầu tay lái đã chạm cột. Cái khó vì thế không nằm ở độ rộng của khe mà ở việc phải giữ xe thẳng gần như tuyệt đối trong lúc gần như đứng yên, và đó là lý do người đi quen vẫn đôi khi loạng choạng ngay giữa khe.',
+      'Thứ chạm cột trước tiên thường không phải tay lái mà là những thứ nhô ra ngoài tầm nhìn của người lái. Gương chiếu hậu thường rộng hơn tay nắm, đầu gối và bàn chân người ngồi sau xòe ra hai bên thân xe, túi treo ở móc hay tay nắm sau đung đưa theo nhịp xe, còn hàng buộc ngang yên thì rộng hơn nữa. Người lái chỉ cảm nhận được bề rộng của phần trước xe, còn phần phía sau lưng thì không thấy, nên cú va đầu gối hay túi đồ vào cột thường đến bất ngờ khi xe đã qua nửa khe. Cột sắt hay trụ đá không nhún nhường như thân người, nên một cú quệt nhẹ cũng đủ làm xe lệch hướng, kéo theo thêm một cú loạng choạng ngay trong chỗ không còn chỗ để sửa.',
+      'Bối cảnh xung quanh khe cũng góp phần làm lối đi khó hơn. Nhiều cột chắn khá thấp, sơn đã bạc hoặc cùng màu với nền tường, nên mắt dễ bỏ sót cho tới khi xe tới sát, nhất là lúc trời tối, mưa hay nắng chói. Lối này lại thường nằm ngay sau một chỗ rẽ từ đường lớn, nghĩa là người lái vừa hạ tốc độ, vừa bẻ lái, vừa để ý dòng xe phía sau, rồi mới thấy khe ngay trước mặt. Thêm vào đó, đầu ngõ là nơi người đi bộ, trẻ nhỏ và xe đi ngược chiều dồn về cùng một chỗ chật. Khi mọi yếu tố ấy chồng lên nhau, người lái dễ phanh vội, bẻ lái muộn hoặc dừng khựng giữa khe, và đó chính là những tình huống sinh ra quệt gương, đập đầu tay lái và ngã chân tại chỗ.'
+    ]),
+    P('Căn xe thẳng và nhìn qua khe chứ không nhìn cột', [
+      'Việc quan trọng nhất diễn ra trước khi bánh trước tới khe: giảm tốc từ xa và đưa đầu xe về đúng giữa lối. Vừa rẽ vào đã thấy cột thì hãy chấp nhận chậm lại thật sớm, thậm chí gần như dừng, rồi mới điều chỉnh vị trí, thay vì lao tới khe với tốc độ còn dư và hy vọng chỉnh kịp. Mục tiêu là đầu xe nằm thẳng, bánh trước hướng về tâm khe, thân xe song song với hai cột, trước khi chạm điểm hẹp nhất. Một chiếc xe đã thẳng thì chỉ cần giữ nguyên, còn xe còn đang chéo thì mọi cú bẻ lái sửa sai trong khe đều làm tay lái hoặc gương cọ vào cột. Thấy mình vào chưa thẳng thì tốt hơn cả là dừng lại ở chỗ thoáng, nếu cần thì lùi nhẹ bằng chân một đoạn ngắn mà không cản ai, căn lại rồi mới đi.',
+      'Ánh mắt quyết định xe đi đâu. Người lái mới thường nhìn chằm chằm vào cái cột mình sợ quệt, và xe có xu hướng đi theo hướng mắt, nên chính cái nhìn ấy kéo đầu xe về phía cột. Cách đúng là nhìn thẳng qua khe tới khoảng đường rộng hơn phía sau, như thể khe chỉ là một khung cửa mà bạn đang nhìn xuyên qua. Giữ đầu và vai hướng về phía trước, để phần nhìn ngoại vi lo việc cảm nhận hai bên. Cần biết gương còn cách cột bao xa thì chỉ liếc nhanh rồi quay lại nhìn xa, đừng cúi đầu soi tay lái hay nghiêng cổ về một bên. Mắt nhìn xa thì tay lái cũng êm hơn, xe dễ giữ thẳng hơn nhiều so với lúc mắt dán vào chướng ngại ngay sát bên.',
+      'Qua khe, tay ga nên giữ đều ở mức thật nhẹ để xe có lực kéo ổn định, đồng thời tay hoặc chân đặt sẵn trên cần hay bàn đạp phanh sau, tùy xe, để che phanh và sẵn sàng chạm nhẹ khi cần bớt tốc độ. Đừng đóng ga rồi mở ga theo từng nhịp, vì mỗi nhịp như thế làm đầu xe nhún và lắc. Tuyệt đối tránh phanh gấp ngay trong khe: phanh trước ăn mạnh làm xe chúi, tay lái dễ nghiêng và gương hoặc đầu gối lập tức chạm cột. Xe có tay côn thì côn trượt nhẹ giúp giữ tốc độ chậm mà vẫn có lực kéo; xe tay ga thì dựa vào ga đều và phanh sau. Cách giữ thăng bằng ở tốc độ rất chậm đã có bài riêng về kiểm soát xe ở tốc độ chậm, nên hãy luyện ở bãi vắng trước khi áp dụng ở đầu ngõ đông người.'
+    ]),
+    P('Người ngồi sau, đồ chở hai bên và gương chiếu hậu', [
+      'Người ngồi sau là phần dễ bị quên nhất khi qua khe, vì họ không thấy cột đang tới và cũng không chủ động điều khiển được gì. Trước khi tới lối hẹp, bạn nên nhắc ngắn gọn để họ khép chân và đầu gối sát thân xe, giữ thẳng lưng, bám chắc vào tay nắm hoặc vào bạn, không nghiêng người ra ngoài để nhìn. Một người ngồi sau nghiêng lệch sang một bên sẽ kéo cả xe nghiêng theo, mà ở tốc độ nhích thì chỉ một chút lệch tâm cũng đủ làm xe chao. Nếu người ngồi sau còn nhỏ hoặc không giữ được thế ngồi vững, đừng cố chở qua lối rất hẹp trên xe; hãy cho họ xuống đi bộ qua khe rồi lên lại ở phía bên kia. Việc ấy tốn thêm một lúc nhưng an toàn hơn nhiều.',
+      'Đồ chở thường rộng hơn người ta nghĩ. Túi treo ở móc hai bên, túi vải đặt trước chân, bao hàng nhô khỏi yên, cần dài hay ống dài buộc ngang đều có thể móc vào cột khi bạn không ngờ tới. Người ngồi sau nên ôm túi ở phía trước bụng, sát người, thay vì để lủng lẳng sang hai bên. Đồ treo lệch có thể tháo xuống rồi gom vào giữa, sát thân xe và buộc chắc, để không còn gì đung đưa ra ngoài. Hàng cồng kềnh, buộc ngang hay cao quá tầm nhìn thì không nên cố lách: xuống dắt xe, hoặc dắt hàng riêng, sẽ đỡ rủi ro hơn nhiều. Một cú móc túi vào cột vừa kéo xe lệch hướng, vừa làm người ngồi sau mất đà, và cả hai cùng xảy ra trong khe là tình huống rất dễ ngã.',
+      'Gương chiếu hậu là chi tiết nhô rộng nhất ở phía trước, và nhiều vụ quệt xảy ra chỉ vì gương. Nếu xe cho phép gập hoặc xoay gương vào sát thân, bạn có thể làm vậy ngay trước khi vào khe, rồi chỉnh lại đúng vị trí ngay sau khi qua, dừng ở chỗ an toàn nếu cần. Việc này tùy từng xe: có xe gập được, có xe chỉ xoay được một chút, có xe gương cứng; đừng bẻ mạnh vì có thể làm gãy chân gương hoặc lỏng khớp, hãy xem sách hướng dẫn sử dụng. Điều quan trọng là không đi đường lớn với gương đang gập, vì khi ấy bạn mất tầm nhìn về phía sau đúng lúc cần nhất. Không chắc xe có gập được hay không thì cứ để nguyên gương, giảm tốc và căn đầu xe thẳng cho chắc.'
+    ]),
+    P('Nhường nhau ở lối chỉ vừa một xe và lúc nên xuống dắt', [
+      'Ở lối chỉ vừa một xe, thói quen nhường nhau quyết định chỗ ấy thông suốt hay kẹt cứng. Theo phép lịch sự thông thường, xe nào tới gần khe trước hoặc đã ở trong khe thì đi trước, xe còn lại dừng chờ ở chỗ thoáng, cách khe đủ xa để người kia ra hết mà không bị chắn đầu. Đây là cách cư xử giúp mọi người đỡ va chạm chứ không phải điều để đem ra đòi hỏi hay tranh cãi với nhau. Nếu bên kia chưa kịp nhận ra mình, một cái gật đầu, một nhịp nháy đèn nhẹ hoặc một lần dừng thật rõ thường đủ để hai bên hiểu ý. Đừng bóp còi liên tục, vì tiếng còi dồn dập làm người đang ở trong khe giật mình và loạng choạng, tức là làm đúng điều bạn muốn tránh.',
+      'Chính lối này cũng là đường của người đi bộ, và họ thường là bên dễ bị bỏ qua. Trẻ nhỏ chạy ra, người lớn tuổi bước chậm, người dắt xe đạp hay người đẩy xe nôi đều có thể xuất hiện ngay trong khe mà bạn không thấy từ xa vì bị cột và tường che. Đừng chen vào khe khi đang có người đi bộ ở đó hay đang tiến tới; hãy dừng lại, để họ qua hẳn rồi mới nhích. Nếu cả người đi bộ lẫn xe đi ngược chiều cùng xuất hiện, thứ tự hợp lý là người đi bộ trước, rồi xe đang ở trong khe, rồi mới tới bạn. Chờ vài nhịp có thể làm bạn sốt ruột, nhưng cố lách qua người đang đi bộ ở chỗ hẹp là nguyên nhân quen thuộc của va chạm nhẹ, mà ở khe này va chạm nhẹ cũng dễ thành ngã.',
+      'Có những lúc xuống dắt xe là lựa chọn khôn ngoan hơn đi qua. Khe quá hẹp so với xe và đồ đang chở, xe chở nặng, mặt đường dốc, ướt hay trơn, bạn mới lái hoặc đang mệt, hay chỉ đơn giản là thấy mình không chắc, tất cả đều là lý do để dừng và dắt. Để dắt an toàn, hãy bóp phanh, dừng xe ở chỗ thoáng, tắt máy bằng công tắc tắt máy hoặc xoay khóa điện về vị trí tắt rồi mới xuống, không xoay sang vị trí khóa cổ. Máy nổ trong lúc dắt dễ khiến bàn tay vô tình vặn ga, nên tắt máy là bước nên làm. Lúc dắt, đứng bên cạnh xe, giữ chắc hai tay lái, đi chậm và nhìn đường phía trước thay vì nhìn cột; qua khe xong mới bật máy, chỉnh lại gương rồi lên xe.'
+    ]),
+    P('Đi qua cột chắn lúc trời tối và khi mưa', [
+      'Trời tối biến cột chắn thành chướng ngại khó thấy nhất. Cột thấp, sơn tối màu hoặc bám bụi thường không phản chiếu ánh đèn, nên mắt chỉ nhận ra khi đã gần. Bạn nên bật đèn chiếu gần, không dùng đèn chiếu xa vì ánh sáng chói làm lóa người đi ngược chiều và người đi bộ, đồng thời đi chậm hơn lúc ban ngày và quan sát kỹ hai bên đầu ngõ từ xa. Hãy nhìn theo vệt sáng của đèn xe và đèn đường để tìm vị trí cột, và nhớ rằng không phải cột nào cũng có vạch sơn hay phản quang. Nếu đèn đầu xe quá mờ hoặc chiếu lệch khiến bạn không đoán nổi vị trí hai cột, đừng cố đi qua bằng trí nhớ; hãy dừng lại, nhìn kỹ hoặc xuống dắt.',
+      'Mưa kéo theo nhiều rủi ro cùng lúc. Mặt đường quanh chân cột thường là nơi người qua lại nhiều nên bám bụi, rêu và dầu mỡ, trơn hơn các chỗ khác; nước đọng thành vũng che mất ổ gà, nắp cống hay mép bậc. Bạn nên đi chậm hơn nữa, tay ga đều, và tránh phanh hoặc bẻ lái đột ngột, vì bánh dễ trượt trên mặt ướt. Áo mưa, kính mũ ướt hay hơi nước làm tầm nhìn hẹp lại, khiến việc căn khe càng khó. Kính mũ mờ thì hãy dừng ở chỗ an toàn để lau, đừng cúi đầu soi cột để thay cho tầm nhìn. Gặp mặt đường trông rõ là trơn, vũng nước sâu không biết đáy ở đâu hoặc xe đang chở nặng, xuống dắt vẫn là cách chắc chắn nhất.',
+      'Đầu ngõ chỉ là một mắt xích trong chuỗi những chỗ chật mà xe máy phải đi qua mỗi ngày. Nếu bạn thường xuyên đi trong hẻm phố hẹp, qua cổng có thanh chắn tự động ở bãi xe và chung cư, hay ra từ ngõ vào đường lớn, hãy đọc thêm các hướng dẫn riêng về từng tình huống, vì mỗi nơi có thêm rủi ro riêng như xe ngược chiều, thanh chắn hạ xuống hay dòng xe chạy nhanh bên ngoài. Điểm chung của mọi chỗ chật là đi chậm sớm, giữ xe thẳng, nhìn xa, ga đều, che phanh và không phanh gấp. Với lối giữa hai cột thì thêm một thói quen nữa: gặp lúc chưa chắc, cứ hạ chân xuống dắt xe qua, dù mất thêm một lúc cũng không đáng so với một lần ngã hay một cú va.'
+    ]),
+  ],
+  checklist: [
+    'Giảm tốc từ xa, căn đầu xe thẳng giữa khe trước khi tới điểm hẹp nhất.',
+    'Nhìn xuyên qua khe về phía trước, không nhìn chằm chằm vào cột.',
+    'Giữ ga đều thật nhẹ, che phanh sau, không phanh gấp ngay trong khe.',
+    'Người ngồi sau khép chân, túi để trước bụng; đồ treo hai bên tháo hoặc gom vào giữa; gương gập nếu xe cho phép và chỉnh lại ngay sau khi qua.',
+    'Chọn xuống dắt và tắt máy khi khe quá hẹp, hàng cồng kềnh, đường trơn hoặc dốc, trời tối mưa hay bạn không chắc.'
+  ],
+  steps: [
+    { title: 'Giảm tốc từ xa và quan sát đầu ngõ', detail: 'Chậm lại thật sớm khi thấy cột, nhìn xem có người đi bộ, xe đi ngược chiều hay vũng nước quanh chân cột, rồi quyết định đi qua, chờ hoặc xuống dắt.' },
+    { title: 'Căn đầu xe thẳng giữa khe', detail: 'Đưa bánh trước hướng về tâm khe và giữ thân xe song song hai cột trước khi tới chỗ hẹp nhất; vào chưa thẳng thì dừng ở chỗ thoáng và căn lại.' },
+    { title: 'Chuẩn bị người ngồi sau, đồ chở và gương', detail: 'Nhắc người ngồi sau khép chân và ôm túi trước bụng, gom đồ treo hai bên, xuống dắt nếu hàng cồng kềnh, và gập gương chỉ khi xe cho phép.' },
+    { title: 'Qua khe bằng ga đều rồi chỉnh lại gương', detail: 'Nhìn qua khe về phía trước, giữ ga đều thật nhẹ và che phanh, không phanh gấp; qua xong thì dừng ở chỗ an toàn nếu cần để chỉnh lại gương trước khi ra đường lớn.' }
+  ],
+  warnings: [
+    'Không phanh gấp ngay trong khe và không đi đường lớn với gương đang gập: một bên làm xe chúi va vào cột, bên kia làm bạn mất tầm nhìn phía sau.',
+    'Không chen vào khe khi có người đi bộ hoặc xe đang ở trong khe; nhường nhau theo phép lịch sự và chờ ở chỗ thoáng.',
+    'Khe quá hẹp, xe chở nặng, mặt đường dốc hoặc trơn, người mới lái, trời tối mưa hay bạn mệt thì bóp phanh, dừng xe an toàn, tắt máy rồi xuống dắt.'
+  ],
+  notes: [
+    'Cách gập hoặc xoay gương, vị trí phanh sau và cách tắt máy tùy từng xe; hãy xem sách hướng dẫn sử dụng hoặc hỏi thợ có chuyên môn nếu chưa rõ.',
+    'Bài chỉ nói về kỹ thuật và thói quen đi qua lối hẹp; mỗi tình huống ở hẻm hẹp, cổng có thanh chắn hay chỗ ra vào đường lớn còn có rủi ro riêng cần đọc hướng dẫn riêng.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe',
+    'Tài liệu kỹ thuật lái xe máy an toàn ở tốc độ thấp của cơ sở đào tạo lái xe'
+  ],
+  related: ['kiem-soat-xe-may-o-toc-do-cham', 'di-xe-may-trong-hem-pho-hep-luu-y', 'qua-cong-co-thanh-chan-tu-dong-o-bai-xe-va-chung-cu-bang-xe-may-khong-bam-duoi-va-dung-dung-vach', 'ra-tu-ngo-nho-vao-duong-lon-luu-y', 'guong-chieu-hau-xe-may-cach-chinh-dung']
+};
