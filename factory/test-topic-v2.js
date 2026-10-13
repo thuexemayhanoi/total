@@ -90,6 +90,13 @@ function microRepo(tag, opts) {
   const o = opts || {};
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'topicv2-' + tag + '-'));
   copyTree(path.join(ROOT, 'factory'), path.join(tmp, 'factory'), r => r === 'data/articles' || SKIP_STATE.test(r), '');
+  // Shared shell fingerprints these assets at load time. Copy actual source assets into
+  // the micro-repo instead of bypassing cache-fingerprint checks in production code.
+  for (const rel of ['assets/css/atlas.css', 'assets/js/nav.js']) {
+    const target = path.join(tmp, rel);
+    fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.copyFileSync(path.join(ROOT, rel), target);
+  }
   const E = { root: tmp, p: rel => path.join(tmp, 'factory', ...rel.split('/')) };
   fs.mkdirSync(E.p('data/articles'), { recursive: true });
   const slots = [];
