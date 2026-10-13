@@ -2288,6 +2288,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/den-pha-xe-may-tat-dot-ngot-khi-dang-chay-dem-giu-lai-trong-bong-toi-thu-chuyen-pha-cot-va-ve-nha-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dien-ac-quy/den-phanh-xe-may-khong-sang/index.html",
   "kind": "article"
  },
@@ -2377,6 +2381,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/di-xe-may-mot-minh-ban-dem-chon-duong-bao-nguoi-than-va-xu-ly-khi-bat-an/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/di-xe-may-ngang-qua-dam-chay-hoac-xe-dang-chay-ven-duong-giu-khoang-cach-tranh-voi-chua-chay-va-khong-dung-xem/index.html",
   "kind": "article"
  },
  {
@@ -3756,6 +3764,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/sang-ra-thay-xang-xe-may-voi-bat-thuong-sau-mot-dem-do-xe-bi-hut-trom-ro-ri-hay-dong-ho-bao-sai-va-cach-phong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/sap-phu-nano-va-phu-ceramic-cho-son-xe-may-khac-nhau-the-nao/index.html",
   "kind": "article"
  },
@@ -3861,6 +3873,10 @@
  },
  {
   "rel": "guide/su-dung-xe/tay-phanh-xa-ban-tay-nho-bop-khong-toi-chinh-tam-tay-phanh-tay-con-va-khi-nao-nho-tho/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/tha-ca-chep-ngay-ong-cong-ong-tao-bang-xe-may-cho-ca-khong-do-nuoc-dung-xe-ven-ho-tren-cau-sao-cho-an-toan/index.html",
   "kind": "article"
  },
  {
@@ -4872,6 +4888,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/tre-khong-chiu-doi-mu-bao-hiem-khi-ngoi-xe-may-vi-sao-tre-kho-chiu-va-cach-giup-tre-quen-doi-mu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/tre-ngoi-sau-bi-ket-chan-vao-banh-xe-may-vi-sao-hay-xay-ra-cach-phong-va-viec-lam-ngay/index.html",
   "kind": "article"
  },
@@ -4929,6 +4949,10 @@
  },
  {
   "rel": "moto/xe-so/uu-diem-xe-so/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/va-vao-dau-dai-phan-cach-dao-giao-thong-giua-duong-vi-sao-hay-xay-ra-luc-toi-luc-mua-va-cach-nhan-ra-som/index.html",
   "kind": "article"
  },
  {

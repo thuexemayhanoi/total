@@ -17384,6 +17384,38 @@
  },
  {
   "kind": "article",
+  "url": "guide/xu-ly-su-co/den-pha-xe-may-tat-dot-ngot-khi-dang-chay-dem-giu-lai-trong-bong-toi-thu-chuyen-pha-cot-va-ve-nha-an-toan/",
+  "title": "Đèn pha tắt đột ngột khi đang chạy đêm: giữ lái trong bóng tối, thử chuyển pha cốt và về nhà an toàn",
+  "description": "Đèn pha xe máy tắt đột ngột khi đang chạy đêm: giữ chắc tay lái, giảm tốc từ từ, dừng ở chỗ an toàn, thử chuyển pha cốt và quyết định có nên chạy tiếp hay không.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "đèn pha xe máy",
+   "công tắc chuyển pha cốt",
+   "đèn xi nhan",
+   "đèn hậu",
+   "đèn khẩn cấp",
+   "hệ thống điện xe máy"
+  ],
+  "keywords": [
+   "đèn pha xe máy tắt đột ngột khi đang đi",
+   "xe máy mất đèn pha ban đêm",
+   "đèn xe máy đang đi bỗng tắt",
+   "đi xe máy ban đêm không có đèn"
+  ],
+  "seoTitle": "Đèn pha xe máy tắt đột ngột khi chạy đêm: xử lý và về nhà an toàn",
+  "primaryKeyword": "đèn pha xe máy tắt đột ngột khi đang đi",
+  "headings": [
+   "Việc làm ngay trong vài giây đầu khi đèn pha tắt",
+   "Dừng xe ở đâu cho an toàn khi không còn đèn",
+   "Thử chuyển pha cốt và xem các đèn khác",
+   "Có nên chạy tiếp về nhà hay không",
+   "Phòng trước cho những chuyến đi đêm sau"
+  ],
+  "summary": "Bài hướng dẫn xử lý tình huống đèn pha xe máy tắt đột ngột khi đang chạy đêm, từ vài giây đầu tiên đến lúc về tới nhà. Nội dung nêu cách giữ chắc tay lái, giảm tốc dần thay vì phanh gấp, chọn chỗ dừng có ánh sáng và xa làn xe chạy, thử chuyển pha cốt rồi xem c"
+ },
+ {
+  "kind": "article",
   "url": "garage/dien-ac-quy/den-phanh-xe-may-khong-sang/",
   "title": "Đèn phanh xe máy không sáng: công tắc phanh, bóng đèn và vì sao phải sửa ngay",
   "description": "Đèn phanh xe máy không sáng có thể do bóng, công tắc phanh hoặc dây giắc ẩm. Cách tự kiểm tra, rủi ro khi đi tiếp và lúc nào cần giao thợ.",
@@ -18125,6 +18157,38 @@
    "Xe hỏng giữa đoạn vắng và thói quen khi về tới nơi"
   ],
   "summary": "Bài giải thích vì sao đi xe máy một mình ban đêm khác ban ngày, rồi nêu những thói quen thực tế để bớt lo. Nội dung gồm chuẩn bị xe đủ xăng hoặc đủ pin, đèn và phanh tốt, điện thoại đủ pin, báo người thân lộ trình và giờ dự kiến về; chọn đường chính sáng đèn t"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-ngang-qua-dam-chay-hoac-xe-dang-chay-ven-duong-giu-khoang-cach-tranh-voi-chua-chay-va-khong-dung-xem/",
+  "title": "Đi xe máy ngang qua đám cháy hoặc xe đang cháy ven đường: giữ khoảng cách, tránh vòi chữa cháy và không dừng xem",
+  "description": "Đi xe máy qua chỗ đang có đám cháy hoặc xe cháy ven đường: giảm tốc từ xa, giữ khoảng cách, tránh vòi chữa cháy, không dừng xem và việc cần làm sau khi qua.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "đám cháy ven đường",
+   "xe đang cháy bên đường",
+   "khói che tầm nhìn",
+   "vòi chữa cháy",
+   "xe chữa cháy",
+   "người điều tiết giao thông"
+  ],
+  "keywords": [
+   "đi xe máy qua chỗ đang có đám cháy",
+   "xe đang cháy bên đường",
+   "gặp xe cứu hỏa đang chữa cháy trên đường",
+   "khói đám cháy che đường"
+  ],
+  "seoTitle": "Đi xe máy qua đám cháy: giữ xa, tránh vòi chữa cháy, không dừng xem",
+  "primaryKeyword": "đi xe máy qua chỗ đang có đám cháy",
+  "headings": [
+   "Vì sao đi ngang đám cháy nguy hiểm cho người đi xe máy",
+   "Thấy khói hoặc lửa từ xa: giảm tốc, xem gió và chọn đường",
+   "Khi buộc phải đi ngang chỗ đang cháy",
+   "Không dừng xem, không quay phim sát đám cháy",
+   "Sau khi đã đi qua khu vực cháy"
+  ],
+  "summary": "Bài hướng dẫn người đi xe máy cách cư xử khi gặp một đám cháy hoặc một chiếc xe đang cháy ven đường. Nội dung giải thích vì sao khói, vật nổ hay văng, mặt đường ướt và vòi nước nằm ngang đều nguy hiểm, cách giảm tốc sớm và đọc hướng gió khi mới thấy khói, cách"
  },
  {
   "kind": "article",
@@ -29130,6 +29194,39 @@
  },
  {
   "kind": "article",
+  "url": "guide/xu-ly-su-co/sang-ra-thay-xang-xe-may-voi-bat-thuong-sau-mot-dem-do-xe-bi-hut-trom-ro-ri-hay-dong-ho-bao-sai-va-cach-phong/",
+  "title": "Sáng ra thấy xăng xe máy vơi bất thường sau một đêm đỗ xe: bị hút trộm, rò rỉ hay đồng hồ báo sai và cách phòng",
+  "description": "Sáng ra xăng xe máy vơi bất thường? Cách phân biệt hút trộm, rò rỉ và đồng hồ báo sai bằng dấu hiệu quan sát an toàn, việc nên làm ngay và cách đỗ xe để phòng.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "bình xăng",
+   "nắp bình xăng",
+   "ống dẫn xăng",
+   "phao xăng",
+   "đồng hồ xăng",
+   "bãi giữ xe"
+  ],
+  "keywords": [
+   "xe máy bị hút trộm xăng",
+   "xăng xe máy tự vơi qua đêm",
+   "sáng dậy thấy hết xăng",
+   "xe máy bị mất xăng khi để ngoài",
+   "cách phân biệt hút trộm xăng với rò xăng"
+  ],
+  "seoTitle": "Xăng xe máy vơi sau một đêm: hút trộm, rò rỉ hay đồng hồ sai?",
+  "primaryKeyword": "xe máy bị hút trộm xăng",
+  "headings": [
+   "Ba khả năng khi xăng vơi bất thường sau một đêm đỗ xe",
+   "Việc làm ngay khi nghi xe bị rò xăng",
+   "Khi nghi xăng bị hút trộm",
+   "Khi nghi đồng hồ xăng báo sai",
+   "Đỗ xe qua đêm thế nào để đỡ mất xăng"
+  ],
+  "summary": "Bài giúp bạn phân biệt ba khả năng khi tối dựng xe còn nhiều xăng mà sáng ra kim tụt hẳn hoặc xe cạn không nổ được: bị hút trộm, xăng rò ra ngoài hoặc đồng hồ xăng báo sai. Mỗi khả năng để lại dấu vết khác nhau ở nắp bình, ống dẫn, mùi xăng, vệt ướt dưới gầm v"
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/sap-phu-nano-va-phu-ceramic-cho-son-xe-may-khac-nhau-the-nao/",
   "title": "Sáp, phủ nano và phủ ceramic cho sơn xe máy khác nhau thế nào: bảo vệ được gì và không bảo vệ được gì",
   "description": "Phủ ceramic xe máy, phủ nano và đánh sáp khác nhau ở độ bám và độ bền. Lớp phủ làm được gì, không làm được gì, chuẩn bị và chăm sóc sau phủ ra sao.",
@@ -29981,6 +30078,38 @@
    "Khi nào nhờ thợ và các cách hỗ trợ khác"
   ],
   "summary": "Bài giải thích vì sao tay phanh hoặc tay côn đặt quá xa so với bàn tay là nguy cơ thật, nhất là với người cao tuổi, người có ngón tay ngắn và trẻ mới tập đi xe. Nội dung hướng dẫn tự kiểm tra tầm tay khi xe đứng yên, phân biệt xe có núm hay vít chỉnh tầm tay v"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/tha-ca-chep-ngay-ong-cong-ong-tao-bang-xe-may-cho-ca-khong-do-nuoc-dung-xe-ven-ho-tren-cau-sao-cho-an-toan/",
+  "title": "Thả cá chép ngày ông Công ông Táo bằng xe máy: chở cá không đổ nước, dừng xe ven hồ, trên cầu sao cho an toàn",
+  "description": "Chở cá chép bằng xe máy không đổ nước, chọn chỗ dừng ven hồ thay vì trên cầu, thả cá không nhoài người, giữ trẻ xa mép nước và đi vào ngày đông người.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "túi nước đựng cá",
+   "thùng có nắp",
+   "sàn để chân xe tay ga",
+   "lan can cầu",
+   "bậc xuống bờ hồ",
+   "chỗ đỗ xe"
+  ],
+  "keywords": [
+   "đi xe máy thả cá chép ông Công ông Táo",
+   "chở cá chép bằng xe máy",
+   "dừng xe trên cầu thả cá chép",
+   "thả cá chép ven hồ an toàn"
+  ],
+  "seoTitle": "Đi xe máy thả cá chép ông Công ông Táo: chở cá, dừng xe an toàn",
+  "primaryKeyword": "đi xe máy thả cá chép ông Công ông Táo",
+  "headings": [
+   "Vì sao ngày thả cá chép dễ xảy ra va chạm và ngã",
+   "Chở cá chép và nước bằng xe máy không đổ",
+   "Chọn chỗ dừng xe khi ra sông, hồ thả cá",
+   "Thả cá an toàn cho mình và người xung quanh",
+   "Đi vào ngày đông người và khi mang theo trẻ nhỏ"
+  ],
+  "summary": "Bài hướng dẫn cách đi xe máy thả cá chép ngày ông Công ông Táo sao cho ít rủi ro nhất cho mình và người xung quanh. Nội dung giải thích vì sao ngày này dễ va chạm và ngã, cách chở cá và nước không đổ bằng thùng có nắp đặt thấp và chắc, cách chọn chỗ dừng ven h"
  },
  {
   "kind": "article",
@@ -37625,6 +37754,38 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/tre-khong-chiu-doi-mu-bao-hiem-khi-ngoi-xe-may-vi-sao-tre-kho-chiu-va-cach-giup-tre-quen-doi-mu/",
+  "title": "Trẻ không chịu đội mũ bảo hiểm khi ngồi xe máy: vì sao trẻ khó chịu và cách giúp trẻ quen đội mũ mỗi chuyến",
+  "description": "Con khóc, đòi tháo mũ khi ngồi xe máy? Tìm hiểu vì sao trẻ khó chịu, cách chọn và chỉnh mũ cho vừa, cách tập quen và xử lý khi trẻ đòi tháo giữa đường.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "mũ bảo hiểm cho trẻ",
+   "quai mũ",
+   "lớp lót mũ",
+   "chở trẻ trên xe máy",
+   "thói quen đội mũ",
+   "điểm dừng an toàn"
+  ],
+  "keywords": [
+   "trẻ không chịu đội mũ bảo hiểm",
+   "tập cho trẻ đội mũ bảo hiểm",
+   "bé khóc không chịu đội mũ khi đi xe máy",
+   "trẻ đòi tháo mũ bảo hiểm khi đang đi"
+  ],
+  "seoTitle": "Trẻ không chịu đội mũ bảo hiểm: nguyên nhân và cách tập quen",
+  "primaryKeyword": "trẻ không chịu đội mũ bảo hiểm",
+  "headings": [
+   "Vì sao trẻ khó chịu và không chịu đội mũ bảo hiểm",
+   "Vì sao không nên bỏ mũ cho trẻ dù chỉ đi gần",
+   "Chọn và chỉnh mũ để trẻ dễ chịu hơn",
+   "Tập cho trẻ quen đội mũ trước mỗi chuyến",
+   "Khi trẻ khóc hay đòi tháo mũ giữa đường"
+  ],
+  "summary": "Trẻ khóc, kêu nóng, kêu nặng hay giật quai khi đội mũ bảo hiểm thường có lý do cụ thể: mũ không vừa đầu, quai cọ cằm, lớp lót bí, mũ nặng so với cổ hoặc trẻ thấy bị bó buộc. Bài này giải thích từng nguyên nhân, lý do không nên bỏ mũ dù chỉ đi gần, cách chọn và"
+ },
+ {
+  "kind": "article",
   "url": "ride/an-toan-giao-thong/tre-ngoi-sau-bi-ket-chan-vao-banh-xe-may-vi-sao-hay-xay-ra-cach-phong-va-viec-lam-ngay/",
   "title": "Trẻ ngồi sau bị kẹt chân vào bánh xe máy: vì sao hay xảy ra, cách phòng và việc làm ngay khi kẹt",
   "description": "Vì sao trẻ ngồi sau xe máy hay bị kẹt chân vào nan, bánh hay xích? Cách phòng từ chỗ đặt chân, giày dép, quần áo và việc cần làm ngay khi trẻ kêu đau.",
@@ -38114,6 +38275,38 @@
    "Biến ưu điểm thành thật: dùng đúng và chăm đều"
   ],
   "summary": "Hỏi \"xe số có gì hay\" ở phố Việt và câu trả lời thường là \"rẻ, bền\" — đúng, nhưng dừng ở đó là bỏ sót phần đáng giá nhất của câu chuyện. Ưu điểm thật của xe số nằm ở một chuỗi hệ quả kinh tế và thực dụng nối dài: giá mua thấp, chi phí nhiên liệu thuộc hàng thấ"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/va-vao-dau-dai-phan-cach-dao-giao-thong-giua-duong-vi-sao-hay-xay-ra-luc-toi-luc-mua-va-cach-nhan-ra-som/",
+  "title": "Va vào đầu dải phân cách, đảo giao thông giữa đường: vì sao hay xảy ra lúc tối, lúc mưa và cách nhận ra sớm",
+  "description": "Vì sao xe máy hay va vào đầu dải phân cách, đảo giao thông giữa đường lúc tối và lúc mưa; cách nhận ra từ xa, đi qua an toàn và xử lý khi suýt va hay đã ngã.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "dải phân cách cứng",
+   "đảo giao thông giữa đường",
+   "khối phân làn tạm",
+   "vạch kẻ báo trước",
+   "cột tiêu phản quang",
+   "lóa đèn ngược chiều"
+  ],
+  "keywords": [
+   "xe máy đâm vào dải phân cách",
+   "va vào đầu dải phân cách khi đi đêm",
+   "đảo giao thông giữa đường khó nhìn",
+   "dải phân cách tạm bằng bê tông"
+  ],
+  "seoTitle": "Va vào đầu dải phân cách, đảo giữa đường: nguyên nhân và cách tránh",
+  "primaryKeyword": "xe máy đâm vào dải phân cách",
+  "headings": [
+   "Vì sao đầu dải phân cách và đảo giao thông hay bị va",
+   "Những lúc dễ va nhất: tối, mưa, lóa đèn và đường lạ",
+   "Nhận ra dải phân cách, đảo giao thông từ xa",
+   "Cách đi qua những đoạn có dải phân cách và đảo giữa đường",
+   "Khi suýt va hoặc đã va vào dải phân cách"
+  ],
+  "summary": "Bài giải thích vì sao đầu dải phân cách cứng, đảo giao thông và khối phân làn tạm giữa đường hay bị xe máy va phải: vật thấp, cùng màu mặt đường, sơn phản quang mờ, lại hay xuất hiện sau chỗ rẽ hoặc khuất sau xe phía trước. Nội dung chỉ ra những lúc dễ xảy ra "
  },
  {
   "kind": "article",

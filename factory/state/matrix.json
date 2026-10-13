@@ -22098,11 +22098,13 @@
    "title": "Trẻ không chịu đội mũ bảo hiểm khi ngồi xe máy: vì sao trẻ khó chịu và cách giúp trẻ quen đội mũ mỗi chuyến",
    "primaryIntent": "informational/tre-khong-chiu-doi-mu-bao-hiem-khi-ngoi-xe-may-vi-sao-tre-kho-chiu-va-cach-giup-tre-quen-doi-mu",
    "notes": "source=topic-v2 topicId=T001653",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T19:34:40.626Z",
-   "updatedAt": "2026-10-13T19:34:40.627Z"
+   "updatedAt": "2026-10-13T19:40:15.367Z",
+   "seoScore": 91,
+   "words": 2791
   },
   {
    "id": "S01518",
@@ -22111,11 +22113,13 @@
    "title": "Va vào đầu dải phân cách, đảo giao thông giữa đường: vì sao hay xảy ra lúc tối, lúc mưa và cách nhận ra sớm",
    "primaryIntent": "informational/va-vao-dau-dai-phan-cach-dao-giao-thong-giua-duong-vi-sao-hay-xay-ra-luc-toi-luc-mua-va-cach-nhan-ra-som",
    "notes": "source=topic-v2 topicId=T001654",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T19:34:40.674Z",
-   "updatedAt": "2026-10-13T19:34:40.674Z"
+   "updatedAt": "2026-10-13T19:40:15.367Z",
+   "seoScore": 100,
+   "words": 3037
   },
   {
    "id": "S01519",
@@ -22124,11 +22128,13 @@
    "title": "Đèn pha tắt đột ngột khi đang chạy đêm: giữ lái trong bóng tối, thử chuyển pha cốt và về nhà an toàn",
    "primaryIntent": "troubleshooting/den-pha-xe-may-tat-dot-ngot-khi-dang-chay-dem-giu-lai-trong-bong-toi-thu-chuyen-pha-cot-va-ve-nha-an-toan",
    "notes": "source=topic-v2 topicId=T001655",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T19:34:40.706Z",
-   "updatedAt": "2026-10-13T19:34:40.706Z"
+   "updatedAt": "2026-10-13T19:40:15.367Z",
+   "seoScore": 100,
+   "words": 3087
   },
   {
    "id": "S01520",
@@ -22137,11 +22143,13 @@
    "title": "Đi xe máy ngang qua đám cháy hoặc xe đang cháy ven đường: giữ khoảng cách, tránh vòi chữa cháy và không dừng xem",
    "primaryIntent": "informational/di-xe-may-ngang-qua-dam-chay-hoac-xe-dang-chay-ven-duong-giu-khoang-cach-tranh-voi-chua-chay-va-khong-dung-xem",
    "notes": "source=topic-v2 topicId=T001656",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T19:34:40.736Z",
-   "updatedAt": "2026-10-13T19:34:40.736Z"
+   "updatedAt": "2026-10-13T19:40:15.367Z",
+   "seoScore": 100,
+   "words": 3052
   },
   {
    "id": "S01521",
@@ -22150,11 +22158,13 @@
    "title": "Sáng ra thấy xăng xe máy vơi bất thường sau một đêm đỗ xe: bị hút trộm, rò rỉ hay đồng hồ báo sai và cách phòng",
    "primaryIntent": "troubleshooting/sang-ra-thay-xang-xe-may-voi-bat-thuong-sau-mot-dem-do-xe-bi-hut-trom-ro-ri-hay-dong-ho-bao-sai-va-cach-phong",
    "notes": "source=topic-v2 topicId=T001657",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T19:34:40.763Z",
-   "updatedAt": "2026-10-13T19:34:40.763Z"
+   "updatedAt": "2026-10-13T19:40:15.367Z",
+   "seoScore": 100,
+   "words": 2925
   },
   {
    "id": "S01522",
@@ -22163,11 +22173,13 @@
    "title": "Thả cá chép ngày ông Công ông Táo bằng xe máy: chở cá không đổ nước, dừng xe ven hồ, trên cầu sao cho an toàn",
    "primaryIntent": "informational/tha-ca-chep-ngay-ong-cong-ong-tao-bang-xe-may-cho-ca-khong-do-nuoc-dung-xe-ven-ho-tren-cau-sao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T001658",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T19:34:40.791Z",
-   "updatedAt": "2026-10-13T19:34:40.791Z"
+   "updatedAt": "2026-10-13T19:40:15.367Z",
+   "seoScore": 100,
+   "words": 2963
   }
  ]
 }
