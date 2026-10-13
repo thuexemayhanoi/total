@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — S01295; giải thích các nhóm phụ gia pha vào xăng xe máy ở mức nguyên lý, không nêu số liệu, tên hãng hay tên sản phẩm.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'phu-gia-pha-vao-xang-xe-may-co-can-khong',
+  title: 'Phụ gia pha vào xăng xe máy: các loại thường gặp, tác dụng có thể có và khi nào không cần dùng',
+  seoTitle: 'Phụ gia xăng xe máy: các loại, tác dụng và khi nào không cần dùng',
+  metaDescription: 'Phụ gia pha vào xăng xe máy gồm chất làm sạch, chất ổn định và chất chống ẩm. Tác dụng có thể có, lời quảng cáo cần dè chừng, cách đọc nhãn và dùng đúng liều.',
+  summary: 'Bài giải thích các nhóm phụ gia thường bán để pha vào xăng xe máy: chất làm sạch đường xăng và kim phun, chất ổn định cho xe sắp cất lâu, chất chống ẩm. Mỗi nhóm được nói ở mức nguyên lý, kèm lý do lợi ích dễ thấy nhất ở xe đã bám cặn hoặc sắp nằm lâu chứ không phải xe đang chạy tốt. Bài cũng nêu những lời quảng cáo cần dè chừng, rủi ro khi pha quá liều hay trộn nhiều loại, cách đọc nhãn và vì sao bảo dưỡng đúng kỳ, đổ đúng loại xăng quan trọng hơn chai.',
+  quickAnswer: 'Với xe đang chạy êm, bảo dưỡng đúng kỳ và đổ đúng loại xăng thì thường không cần phụ gia xăng xe máy. Chai có thể có ích khi xe nghi bám cặn trong đường xăng hoặc sắp nằm yên lâu, nếu chọn đúng nhóm, đong đúng liều theo nhãn và không trái sách hướng dẫn của xe. Lời hứa tăng sức kéo rõ rệt, tiết kiệm nhiều xăng hay thay được bảo dưỡng là điều nên dè chừng.',
+  keyPoints: [
+    'Phụ gia xăng thường quy về ba nhóm: chất làm sạch đường xăng và kim phun, chất ổn định cho xe sắp nằm lâu và chất chống ẩm; mỗi nhóm có việc riêng, không chai nào làm được tất cả.',
+    'Chất làm sạch dùng dung môi và chất tẩy để làm mềm, tách và cuốn cặn nhựa theo xăng đi đốt; chất ổn định làm chậm quá trình xăng biến chất; chất chống ẩm giúp lượng nước rất nhỏ đi qua máy cùng xăng.',
+    'Lợi ích dễ thấy nhất ở xe đã bám cặn hoặc sắp nằm yên lâu; xe đang chạy tốt, bảo dưỡng đúng kỳ thường chưa có gì đáng kể để chai xử lý.',
+    'Nên dè chừng lời hứa tăng sức kéo rõ rệt, tiết kiệm nhiều xăng hay thay được bảo dưỡng; rủi ro nằm ở pha quá liều, trộn nhiều loại, chai không rõ nguồn gốc và dùng trái sách hướng dẫn của xe.',
+    'Đọc nhãn, đong đúng liều, pha ở nơi thoáng xa lửa; bảo dưỡng đúng kỳ và đổ đúng loại xăng quan trọng hơn mọi chai, còn triệu chứng kéo dài thì đưa thợ.'
+  ],
+  category: 'tips',
+  hub: 'meo-tiet-kiem-xang',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['phụ gia xăng', 'chất làm sạch kim phun', 'chất ổn định xăng', 'chất chống ẩm trong xăng', 'cặn nhựa trong hệ nhiên liệu', 'liều dùng trên nhãn'],
+  keywords: ['phụ gia xăng xe máy', 'có nên dùng phụ gia xăng xe máy', 'dung dịch vệ sinh kim phun pha xăng', 'chất làm sạch pha vào bình xăng'],
+  sections: [
+    P('Phụ gia pha vào xăng gồm những loại nào', [
+      'Phụ gia xăng xe máy là các chất lỏng cô đặc, bán trong chai nhỏ, dùng để pha một lượng ít vào bình với mục đích làm sạch đường dẫn nhiên liệu hoặc giữ cho xăng không xấu đi. Có nên dùng hay không phụ thuộc vào tình trạng xe: chiếc xe đang chạy êm, bảo dưỡng đúng kỳ và đổ xăng đều đặn thường không cần đến chai nào, còn xe đã bám cặn hoặc sắp nằm yên lâu ngày thì một số loại có thể giúp ích. Trên kệ cửa hàng, chai được xếp theo lời hứa in trên nhãn, nhưng nhìn theo công dụng thật thì chúng quy về vài nhóm chính. Biết mình đang cầm nhóm nào là bước đầu tiên để không dùng nhầm thứ, nhầm lúc và nhầm liều.',
+      'Nhóm thứ nhất là chất làm sạch pha vào bình xăng, thường ghi trên nhãn là dung dịch vệ sinh kim phun, làm sạch đường xăng hoặc làm sạch buồng đốt. Thành phần chủ yếu là các chất tẩy và dung môi tan được trong xăng, nhằm xử lý lớp cặn nhựa, muội và vết bẩn bám ở van, kim phun, họng nạp. Đây là loại người dùng dễ tự thao tác nhất; còn làm sạch bằng thiết bị chuyên dụng nối vào đường xăng thuộc về thợ chứ không phải việc tự làm tại nhà. Xe phun xăng điện tử và xe chế hòa khí có kiểu bẩn khác nhau nên nhãn thường ghi rõ chai dành cho hệ nhiên liệu nào; chai không ghi rõ thì nên cân nhắc kỹ trước khi dùng.',
+      'Nhóm thứ hai là chất ổn định xăng, dành cho xe sắp nằm yên một thời gian dài. Nhóm thứ ba là chất chống ẩm, còn gọi là chất xử lý nước trong xăng, nhắm vào lượng hơi ẩm nhỏ lẫn trong bình. Ngoài ba nhóm này còn nhiều chai gộp công dụng, hứa cùng lúc làm sạch, chống ẩm, bôi trơn, giảm khói hay tăng khả năng chống kích nổ của xăng. Chai càng ôm nhiều lời hứa thì người dùng càng khó tự kiểm chứng điều nào là thật, và càng cần đọc nhãn kỹ hơn. Riêng chai tăng khả năng chống kích nổ, xe cần loại xăng nào thì sách hướng dẫn đã ghi, và đổ đúng loại xăng ấy thường hợp lý hơn là pha thêm chai.'
+    ]),
+    P('Các nhóm phụ gia làm việc thế nào ở mức nguyên lý', [
+      'Cặn trong đường xăng có nhiều nguồn: xăng biến chất để lại lớp nhựa mỏng, nhiên liệu cháy dở để lại muội, bụi mịn lọt qua bộ lọc, và nhiệt sau khi tắt máy có thể làm xăng đọng ở đầu kim khô dần thành màng bám. Chất làm sạch tác động theo hai hướng: dung môi làm mềm và hòa tan một phần lớp nhựa, còn chất tẩy thường có phân tử một đầu bám vào cặn, đầu kia hòa với xăng, nên kéo mảng cặn rời khỏi bề mặt để xăng cuốn đi rồi cháy cùng nhiên liệu trong buồng đốt. Cơ chế này chậm và cần chất tẩy tiếp xúc với chỗ bẩn đủ lâu và đủ đậm. Vì thế chai thường chỉ xử lý được cặn mỏng, còn cặn dày và cứng thì khó.',
+      'Xăng để lâu thay đổi vì hai lý do. Thành phần nhẹ bay hơi dần nên xăng khó bắt lửa hơn, còn phần ở lại tiếp xúc với không khí và bị oxy hóa, sinh ra chất đặc như nhựa bám lên thành bình, lưới lọc, kim phun. Chất ổn định thường chứa các chất chống oxy hóa, làm chậm quá trình ấy chứ không chặn đứng được, và không đưa xăng đã hỏng trở lại như xăng mới. Chai chống ẩm đi theo hướng khác: thường dựa trên dung môi giúp những giọt nước cực nhỏ phân tán vào xăng để đi qua động cơ cùng nhiên liệu, thay vì chìm đọng dưới đáy bình. Cách này chỉ hợp với lượng nước rất ít; nước nhiều thành lớp riêng dưới đáy thì chai không xử lý nổi.',
+      'Điều đáng nhớ về cả ba nhóm là chúng chỉ tác động lên thứ chúng chạm tới. Chất làm sạch chỉ xử lý được cặn nằm trên lối mà dòng xăng đi qua, nên cặn ở nơi xăng ít chạm tới hoặc đã đóng cứng vẫn có thể còn nguyên. Chất ổn định phát huy khi pha vào xăng còn tươi, trước lúc xe nằm lâu, chứ không cứu được xăng đã hỏng. Chất chống ẩm chỉ giúp với nước đang lẫn trong xăng. Không nhóm nào sửa được chi tiết đã mòn hay hỏng, như gioăng lão hóa gây rò hoặc bơm yếu, và cũng không đổi được thiết kế động cơ, thứ quyết định sức kéo cùng mức tiêu hao nhiên liệu. Hiểu giới hạn này giúp bạn đặt kỳ vọng đúng với một chai nhỏ.'
+    ]),
+    P('Khi nào phụ gia có thể có ích', [
+      'Trường hợp thứ nhất là xe có dấu hiệu bám cặn trong hệ nhiên liệu. Dấu hiệu hay được nhắc tới là khó nổ hơn trước, hụt ga khi vặn nhanh, cầm chừng rung; nhưng bugi mòn, lọc gió bẩn, bơm yếu hay hút gió lọt cũng cho cảm giác tương tự, nên chúng chưa phải bằng chứng của cặn. Thứ tự hợp lý là kiểm tra bảo dưỡng cơ bản trước, rồi hỏi thợ có nghi cặn ở đường xăng hay kim phun không; bài riêng về kim phun xăng xe máy đã nói kỹ phần triệu chứng. Nếu thợ cũng nghi cặn, một chai làm sạch dùng đúng nhãn là bước ít can thiệp hơn làm sạch bằng thiết bị. Dùng xong mà triệu chứng không đổi thì đừng pha thêm chai, hãy đưa xe cho thợ.',
+      'Trường hợp thứ hai là xe sắp nằm yên lâu hơn thường lệ, chẳng hạn chủ xe đi xa dài ngày hoặc xe chỉ dùng theo mùa. Xăng đứng im trong bình và đường dẫn là điều kiện để xăng biến chất và để hơi ẩm ngưng tụ, nên chất ổn định có lý do tồn tại ở đây. Nhãn thường dặn pha vào bình theo liều đã tính, rồi chạy máy một lúc cho xăng đã pha lan tới đường dẫn; hãy chạy ở nơi thoáng gió, đừng nổ máy trong phòng kín vì khí thải rất độc. Cách để xăng trong bình khi cất xe, đầy hay vơi hay xả bớt, tùy xe và tùy thời gian cất, nên theo sách hướng dẫn. Chai ổn định không thay cho các việc cất xe khác trong sách.',
+      'Với xe đang chạy tốt, lý do để dùng chai yếu hơn nhiều. Xe dùng hằng ngày liên tục thay xăng cũ bằng xăng tươi, nên ít cơ hội cho nhựa và hơi ẩm tích tụ, còn xe bảo dưỡng đúng kỳ thường chưa có lớp cặn đáng kể để chất tẩy xử lý. Không có gì để làm sạch thì chai không thể đưa xe vượt mức thiết kế; thứ bạn nhận được chủ yếu là một khoản chi thêm. Chất chống ẩm chỉ đáng cân nhắc khi có lý do nghi hơi ẩm, như xe đỗ lâu nơi ẩm. Máy hụt hơi hoặc tắt liên tục sau khi đổ xăng là lý do dừng xe an toàn và đưa thợ, không phải lý do thử thêm chai. Nước và cặn đọng trong bình xăng đã có bài riêng.'
+    ]),
+    P('Lời quảng cáo cần dè chừng và rủi ro khi dùng sai', [
+      'Ba kiểu lời hứa nên dè chừng nhất là tăng sức kéo rõ rệt, tiết kiệm nhiều xăng và thay được bảo dưỡng. Sức kéo do thiết kế động cơ quyết định, gồm dung tích, đường nạp, bộ điều khiển phun và đánh lửa; một chai pha vào bình không đổi được những thứ ấy. Cùng lắm, khi cặn nặng được làm sạch, xe chỉ trở về trạng thái đáng ra phải có. Hao xăng phụ thuộc nhiều vào cách ga, lốp, tải trọng, lọc gió, bugi và đường sá; chi phí mua chai đều đặn còn có thể vượt phần xăng tiết kiệm được, nếu có. Lời hứa thay được bảo dưỡng thì sai về nguyên tắc: chai không thay được lọc, bugi, nhớt, càng không thay việc kiểm tra phanh, lốp, truyền động.',
+      'Rủi ro đầu tiên là pha quá liều với suy nghĩ nhiều hơn thì sạch hơn. Dung môi quá đậm có thể làm đổi tính chất của xăng, thậm chí ảnh hưởng gioăng cao su hay chi tiết nhựa trong hệ nhiên liệu, tùy chất liệu và công thức. Rủi ro thứ hai là trộn nhiều loại cùng lúc, chẳng hạn một chai làm sạch, một chai chống ẩm và một chai tăng khả năng chống kích nổ. Công thức của các sản phẩm khác nhau có thể không được tính để dùng chung, lượng dung môi cộng dồn, và nếu xe trục trặc sau đó thì thợ cũng khó biết nguyên nhân nằm ở đâu. Quy tắc an toàn là mỗi lần một sản phẩm, đúng liều, rồi quan sát xe trước khi nghĩ tới việc thêm.',
+      'Rủi ro thứ ba là sản phẩm không rõ nguồn gốc: chai không nhãn, nhãn mờ, thiếu thành phần hoặc hướng dẫn, hay hứa hẹn chữa mọi bệnh. Bạn không thể biết bên trong là gì, trong khi kim phun, bơm và cảm biến của xe phun xăng khá nhạy với tạp chất. Mẹo tự pha dung môi, dầu hay chất không dành cho nhiên liệu vào bình còn nên tránh hẳn. Rủi ro thứ tư là dùng trái khuyến cáo trong sách hướng dẫn: nếu nhà sản xuất xe dặn không nên pha phụ gia hoặc chỉ nêu một loại riêng thì hãy theo sách. Máy giật mạnh, khói lạ, mùi khét hay đèn báo lỗi sáng sau khi pha là lý do bóp phanh, dừng xe an toàn, ngừng dùng chai và nhờ thợ kiểm tra.'
+    ]),
+    P('Đọc nhãn, dùng đúng liều và điều quan trọng hơn chai phụ gia', [
+      'Đọc nhãn là cách dễ nhất để lọc bớt rủi ro. Trước hết xem công dụng chính là làm sạch, ổn định hay chống ẩm, và chai có nói rõ dành cho hệ nhiên liệu nào, phun xăng hay chế hòa khí, dành cho xe máy hay xe lớn hơn. Tiếp theo xem liều: liều thường tính theo lượng xăng trong bình, mà bình xe máy nhỏ hơn bình ô tô rất nhiều, nên nhãn viết cho xe lớn không thể áp thẳng. Nhãn còn nên cho biết thứ tự pha, tức pha trước hay sau khi đổ xăng, nên dùng một lần hay dùng đều đặn, hạn dùng, cách bảo quản, cảnh báo cháy và cách xử trí khi dính da, mắt. Nhãn thiếu những thông tin này là lý do để đặt chai xuống.',
+      'Dùng đúng liều nghĩa là đong chứ không ước chừng. Việc này làm bằng nắp đong hoặc vạch chia trên chai, tính theo lượng xăng bạn thực sự đổ, và đừng pha thêm cho chắc. Pha ở nơi thoáng, tắt máy, để xe nguội, xa lửa và tia lửa, đổ cẩn thận để không tràn lên thân xe, rồi dùng xe như nhãn dặn. Nên ghi lại ngày pha, loại chai, lượng pha và điều quan sát được: xe nổ dễ hơn không, cầm chừng đều hơn không, cùng cung đường thì lượng xăng tiêu hao ra sao. Cảm giác dễ bị đánh lừa bởi lần đổ xăng mới hay thời tiết hôm ấy, nên mỗi lần chỉ thay đổi một thứ. Không thấy khác biệt rõ thì coi chai là không cần thiết, đừng tăng liều.',
+      'Điều quan trọng hơn mọi chai nằm ở những việc nền. Bảo dưỡng đúng kỳ theo sách hướng dẫn, gồm lọc gió, bugi, nhớt và các hạng mục lọc, giúp động cơ cháy tốt và hệ nhiên liệu ít bẩn. Đổ đúng loại xăng mà sách yêu cầu, ở nơi bạn tin cậy, không để bình cạn kéo dài và đóng kín nắp bình giúp hạn chế cặn, nước từ nguồn; bài riêng về đổ xăng xe máy nói kỹ việc chọn loại xăng và nơi đổ. Xe hao xăng thường do lốp non, lọc gió bẩn, cách vặn ga và bảo dưỡng trễ hơn là do thiếu phụ gia, và bài riêng về xe hao xăng đã xếp các nguyên nhân theo thứ tự kiểm tra. Chai phụ gia, nếu dùng, chỉ là bước phụ sau cùng.'
+    ])
+  ],
+  checklist: [
+    'Xác định rõ mục đích trước khi dùng: làm sạch cho xe nghi bám cặn, ổn định cho xe sắp nằm lâu hay chống ẩm khi có lý do nghi hơi ẩm.',
+    'Mở sách hướng dẫn của xe xem có khuyến cáo gì về phụ gia, loại xăng yêu cầu và cách cất giữ xe lâu ngày.',
+    'Đọc nhãn: công dụng, hệ nhiên liệu phù hợp, cách tính liều theo lượng xăng, thứ tự pha, hạn dùng, cách bảo quản và cảnh báo cháy.',
+    'Đong đúng liều bằng nắp hoặc vạch chia, pha ở nơi thoáng, tắt máy, tránh lửa và chỉ dùng một sản phẩm mỗi lần.',
+    'Ghi ngày pha, loại chai và thay đổi quan sát được; không thấy khác biệt rõ thì không tăng liều hay pha thêm chai, triệu chứng kéo dài thì đưa thợ.'
+  ],
+  steps: [
+    { title: 'Xác định xe có thật sự cần chai', detail: 'Xem xe đã bảo dưỡng đúng kỳ chưa, có dấu hiệu bám cặn hoặc sắp nằm yên lâu không; xe chạy êm và bảo dưỡng đều thường chưa cần chai nào.' },
+    { title: 'Đối chiếu sách hướng dẫn và đọc nhãn', detail: 'Xem sách hướng dẫn của xe nói gì về phụ gia và cất giữ lâu ngày; trên nhãn chai, xác nhận công dụng, hệ nhiên liệu phù hợp, cách tính liều, thứ tự pha và cảnh báo cháy.' },
+    { title: 'Pha đúng liều, đúng cách', detail: 'Tắt máy, để xe nguội, đứng nơi thoáng xa lửa; đong theo vạch chia, tính theo lượng xăng thực đổ, chỉ dùng một sản phẩm mỗi lần và lau sạch chỗ tràn.' },
+    { title: 'Quan sát, ghi lại và biết lúc dừng', detail: 'Ghi ngày pha, loại chai và thay đổi quan sát được; không thấy khác biệt thì đừng tăng liều, còn máy giật, khói lạ, mùi khét hay đèn báo lỗi thì ngừng dùng và đưa thợ.' }
+  ],
+  warnings: [
+    'Không pha quá liều, không trộn nhiều loại phụ gia cùng lúc, không dùng chai không rõ nguồn gốc hoặc trái khuyến cáo trong sách hướng dẫn của xe; không tự pha dung môi, dầu hay chất không dành cho nhiên liệu vào bình theo mẹo.',
+    'Phụ gia và xăng đều dễ cháy: pha ở nơi thoáng, tắt máy, để xe nguội, tránh lửa và tia lửa, không hút thuốc, đậy kín chai, để xa tầm tay trẻ em; chạy máy cho xăng đã pha lan chỉ làm ở nơi thoáng, không nổ máy trong phòng kín vì khí thải rất độc.',
+    'Máy giật mạnh, tắt liên tục, khói lạ, mùi khét, mùi xăng nồng hoặc đèn báo lỗi sáng sau khi pha: bóp phanh, dừng xe an toàn, rồi tắt máy bằng công tắc tắt máy hoặc xoay khóa điện về vị trí tắt, không xoay sang vị trí khóa cổ, và đưa xe đi kiểm tra; không chữa bằng cách pha thêm chai.'
+  ],
+  notes: [
+    'Nội dung chỉ nêu nguyên lý chung của các nhóm phụ gia; thành phần, liều và cách dùng khác nhau tùy sản phẩm và tùy xe, nên nhãn của chính chai đó và sách hướng dẫn của xe là căn cứ cuối cùng.',
+    'Khó nổ, hụt ga hay hao xăng có nhiều nguyên nhân ngoài cặn như bugi, lọc gió, bơm xăng, cảm biến hoặc thói quen lái; chỉ thợ chẩn đoán bằng thiết bị mới kết luận được, nên chai phụ gia không phải bước chẩn đoán.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần nhiên liệu, bảo dưỡng định kỳ và cất giữ xe lâu ngày',
+    'Thông tin trên nhãn và hướng dẫn sử dụng đi kèm sản phẩm phụ gia, gồm công dụng, liều dùng và cảnh báo an toàn'
+  ],
+  related: ['kim-phun-xang-xe-may-bi-tac-hoac-ro', 'xe-hao-xang-nguyen-nhan-va-cach-xu-ly', 'do-xang-xe-may-luu-y-va-sai-lam', 'binh-xang-xe-may-bi-gi-hoac-co-can']
+};
