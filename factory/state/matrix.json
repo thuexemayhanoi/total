@@ -22698,11 +22698,13 @@
    "title": "Đường vồng giữa và cua nghiêng ngược: độ dốc ngang mặt đường thay đổi độ bám và đường vào cua của xe máy ra sao",
    "primaryIntent": "informational/duong-vong-giua-va-cua-nghieng-nguoc-do-doc-ngang-mat-duong-thay-doi-do-bam-va-duong-vao-cua-cua-xe-may-ra-sao",
    "notes": "source=topic-v2 topicId=T001693",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:23:21.268Z",
-   "updatedAt": "2026-10-13T22:23:21.269Z"
+   "updatedAt": "2026-10-13T22:29:00.387Z",
+   "seoScore": 100,
+   "words": 2960
   },
   {
    "id": "S01558",
@@ -22711,11 +22713,13 @@
    "title": "Đi xe máy qua ngã năm, ngã sáu và ngã ba chữ Y: nhiều nhánh đổ vào, góc giao chéo và những hướng xe dễ bị bỏ sót",
    "primaryIntent": "informational/di-xe-may-qua-nga-nam-nga-sau-va-nga-ba-chu-y-nhieu-nhanh-do-vao-goc-giao-cheo-va-nhung-huong-xe-de-bi-bo-sot",
    "notes": "source=topic-v2 topicId=T001694",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:23:21.332Z",
-   "updatedAt": "2026-10-13T22:23:21.332Z"
+   "updatedAt": "2026-10-13T22:29:00.387Z",
+   "seoScore": 100,
+   "words": 2996
   },
   {
    "id": "S01559",
@@ -22724,11 +22728,13 @@
    "title": "Đi xe máy trên đường bê tông xi măng: khe nối giữa các tấm, mép tấm lệch nhau và mặt bê tông trơn khi ướt",
    "primaryIntent": "informational/di-xe-may-tren-duong-be-tong-xi-mang-khe-noi-giua-cac-tam-mep-tam-lech-nhau-va-mat-be-tong-tron-khi-uot",
    "notes": "source=topic-v2 topicId=T001695",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:23:21.371Z",
-   "updatedAt": "2026-10-13T22:23:21.371Z"
+   "updatedAt": "2026-10-13T22:29:00.387Z",
+   "seoScore": 100,
+   "words": 2962
   },
   {
    "id": "S01560",
@@ -22737,11 +22743,13 @@
    "title": "Gương cầu lồi ở khúc cua, đầu ngõ và lối ra hầm xe: đọc gương thế nào và vì sao không được tin hẳn vào gương",
    "primaryIntent": "informational/guong-cau-loi-o-khuc-cua-dau-ngo-va-loi-ra-ham-xe-doc-guong-the-nao-va-vi-sao-khong-duoc-tin-han-vao-guong",
    "notes": "source=topic-v2 topicId=T001696",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:23:21.406Z",
-   "updatedAt": "2026-10-13T22:23:21.407Z"
+   "updatedAt": "2026-10-13T22:29:00.388Z",
+   "seoScore": 91,
+   "words": 2961
   },
   {
    "id": "S01561",
@@ -22750,11 +22758,13 @@
    "title": "Đoạn đường thắt cổ chai khi đi xe máy: hai làn dồn thành một, mép đường hẹp dần và chọn chỗ trước điểm thu hẹp",
    "primaryIntent": "informational/doan-duong-that-co-chai-khi-di-xe-may-hai-lan-don-thanh-mot-mep-duong-hep-dan-va-chon-cho-truoc-diem-thu-hep",
    "notes": "source=topic-v2 topicId=T001697",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:23:21.453Z",
-   "updatedAt": "2026-10-13T22:23:21.453Z"
+   "updatedAt": "2026-10-13T22:29:00.387Z",
+   "seoScore": 100,
+   "words": 3053
   }
  ]
 }
