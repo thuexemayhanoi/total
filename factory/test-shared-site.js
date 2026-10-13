@@ -31,7 +31,10 @@ assert.deepEqual(r.map(a => a.slug), ['b', 'c', 'd']);
 assert.deepEqual(chooseRelated(all[0], all, lookup, { autoFill: false }).map(a => a.slug), ['b', 'c']);
 assert(!r.some(a => a.slug === 'a' || a.slug === 'e'));
 const page = S.page({ path: 'lien-he/', title: 'Liên hệ', description: 'Kiểm thử', content: '<p>QA</p>' });
-assert(page.includes('href="/assets/css/atlas.css"'));
+const stylesheetHash = require('node:crypto').createHash('sha256')
+  .update(require('node:fs').readFileSync(require('node:path').join(__dirname, '../assets/css/atlas.css')))
+  .digest('hex').slice(0, 12);
+assert(page.includes('href="/assets/css/atlas.css?v=' + stylesheetHash + '"'));
 assert(page.includes('https://wiki.thuexemaynguyentu.com/lien-he/'));
 assert(!page.includes('editorial-slot'));
 console.log('SHARED_SITE_QA_OK');

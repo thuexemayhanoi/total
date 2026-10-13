@@ -17,6 +17,8 @@ const bySlug = Object.fromEntries(articles.map(a => [a.slug, a]));
 const search = JSON.parse(read('assets/data/search-index.json'));
 const sitemap = read('sitemap-articles.xml');
 const searchJs = read('assets/js/search.js');
+const stylesheetHash = require('node:crypto').createHash('sha256')
+  .update(read('assets/css/atlas.css')).digest('hex').slice(0, 12);
 
 assert.deepEqual(FEATURES, { smartSearch: true, previousNext: true, authorBox: true });
 assert.equal(articles.length, published.size, 'PUBLISHED modules count');
@@ -46,7 +48,7 @@ for (const a of articles) {
   assert(item.primaryKeyword.length > 0, 'primary keyword: ' + a.slug);
   assert(html.includes('class="author-box"'), 'publisher box: ' + a.slug);
   assert(html.includes('href="/lien-he/"'), 'publisher contact: ' + a.slug);
-  assert(html.includes('href="/assets/css/atlas.css"'), 'CSS: ' + a.slug);
+  assert(html.includes('href="/assets/css/atlas.css?v=' + stylesheetHash + '"'), 'CSS fingerprint: ' + a.slug);
   assert(html.includes('rel="canonical" href="' + SITE.baseUrl + url + '"'), 'canonical: ' + a.slug);
   const noindexed = IDX.isNoindex(policy, a.slug);
   assert.equal(/<meta name="robots" content="noindex,follow">/.test(html), noindexed, 'meta robots ⇔ index-policy: ' + a.slug);
