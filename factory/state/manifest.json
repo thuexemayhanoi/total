@@ -1940,6 +1940,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/su-dung-xe/cho-ga-vit-va-long-gia-cam-bang-xe-may-buoc-long-giu-thang-bang-va-giu-ve-sinh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/cho-nguoi-dang-say-ruou-bia-ve-nha-bang-xe-may-khi-nao-khong-nen-cho-va-dau-hieu-can-goi-cap-cuu/index.html",
   "kind": "article"
  },
@@ -2996,6 +3000,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/lay-nham-xe-may-giong-het-o-bai-gui-hoac-truoc-cua-hang-cach-nhan-ra-va-xu-ly/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/le-duong-bi-hang-khi-di-xe-may-banh-truot-mep-be-tong-va-cach-leo-lai/index.html",
   "kind": "article"
  },
@@ -3573,6 +3581,10 @@
  },
  {
   "rel": "tips/meo-bao-duong/tay-nam-va-gu-tay-lai-xe-may-mon-tron-long-va-cach-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phanh/tay-phanh-hoac-tay-con-xe-may-bi-gay-cong-sau-khi-nga-dung-tam-duoc-khong-va-thay-the-nao/index.html",
   "kind": "article"
  },
  {
