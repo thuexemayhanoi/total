@@ -59,6 +59,43 @@ function qaStatusFromSlot(state) {
   return 'pending';
 }
 
+
+function publishedCoverage(rows, matrix) {
+  // O(slots + manifest): no JS module rescan in the routine index-check.
+  const seen = new Map(), duplicates = [], missing = [], mismatched = [];
+  for (const r of rows) {
+    if (!r || !r.id || seen.has(r.id)) { duplicates.push(r && r.id || '?'); continue; }
+    seen.set(r.id, r);
+  }
+  const published = matrix.slots.filter(s => s.state === 'PUBLISHED');
+  for (const slot of published) {
+    const row = seen.get(slot.id);
+    if (!row) { missing.push(slot.id); continue; }
+    if (row.slug !== slot.slug || row.cluster !== slot.hub || row.qa_status !== 'pass') mismatched.push(slot.id);
+  }
+  return { ok: !missing.length && !mismatched.length && !duplicates.length,
+    published: published.length, manifestRows: rows.length, missing, mismatched, duplicates };
+}
+function requireCoverage(rows, matrix) {
+  const c = publishedCoverage(rows, matrix);
+  if (!c.ok) throw Error('MANIFEST_INCOMPLETE published=' + c.published + ' rows=' + c.manifestRows +
+    ' missing=' + c.missing.length + ' mismatched=' + c.mismatched.length +
+    ' duplicates=' + c.duplicates.length + ' sample=' + c.missing.concat(c.mismatched, c.duplicates).slice(0, 8));
+  return c;
+}
+function manifestRowForArticle(a, slot, file) {
+  if (!slot || a.slug !== slot.slug) throw Error('MANIFEST_SLUG_MISMATCH ' + (slot ? slot.id : a.slug));
+  const cluster = a.hub ? a.category + '/' + a.hub : String(a.category || '');
+  if (cluster !== slot.hub) throw Error('MANIFEST_CLUSTER_MISMATCH ' + slot.id);
+  return {
+    id: slot.id, slug: a.slug, title: String(a.title || ''),
+    topic: normalizeTopic(a.title), intent: String(slot.primaryIntent || ''),
+    entities: Array.isArray(a.entities) ? a.entities : [], cluster,
+    content_hash: hashContent(fs.readFileSync(file)), qa_status: qaStatusFromSlot(slot.state),
+    published_at: slot.updatedAt || '',
+  };
+}
+
 // Dựng manifest TỪ REPO THẬT: articles + matrix (thuần đọc, không mutate).
 // Mỗi dòng: { id, slug, title, topic, intent, entities, cluster, content_hash,
 //             qa_status, published_at } — thứ tự theo id, deterministic.
@@ -78,20 +115,10 @@ function buildManifestFromRepo(root) {
     }
     const slot = bySlug.get(a.slug) || null;
     if (!slot) throw new Error('Bài "' + a.slug + '" KHÔNG có slot trong ma trận — manifest yêu cầu mọi bài có slot');
-    rows.push({
-      id: slot.id,
-      slug: a.slug,
-      title: String(a.title || ''),
-      topic: normalizeTopic(a.title),
-      intent: String(slot.primaryIntent || ''),
-      entities: Array.isArray(a.entities) ? a.entities : [],
-      cluster: a.hub ? (a.category + '/' + a.hub) : String(a.category || ''),
-      content_hash: hashContent(fs.readFileSync(file)),
-      qa_status: qaStatusFromSlot(slot.state),
-      published_at: slot.updatedAt || '',
-    });
+    rows.push(manifestRowForArticle(a, slot, file));
   }
   rows.sort((x, y) => (Number(String(x.id).slice(1)) - Number(String(y.id).slice(1))));
+  requireCoverage(rows, matrix);
   return rows;
 }
 
@@ -157,12 +184,12 @@ CREATE TABLE IF NOT EXISTS meta (
 function rebuild(dbFile, rows, manifestFile) {
   const mf = manifestFile || MANIFEST_FILE;
   fs.mkdirSync(path.dirname(dbFile), { recursive: true });
-  try { fs.unlinkSync(dbFile); } catch (_) { /* chưa có */ }
-  for (const ext of ['-journal', '-wal', '-shm']) {
-    try { fs.unlinkSync(dbFile + ext); } catch (_) { /* chưa có */ }
-  }
+  // Derived SQLite is built on an ignored .tmp file. Only swap when complete;
+  // failed rebuilds leave the previous usable cache untouched.
+  const staged = dbFile + '.tmp';
+  try { fs.unlinkSync(staged); } catch (_) { /* missing */ }
   const { DatabaseSync } = sqlite();
-  const db = new DatabaseSync(dbFile);
+  const db = new DatabaseSync(staged);
   let committed = false;
   try {
     db.exec(SCHEMA);
@@ -187,6 +214,7 @@ function rebuild(dbFile, rows, manifestFile) {
   } finally {
     db.close();
   }
+  fs.renameSync(staged, dbFile);
   return rows.length;
 }
 
@@ -242,12 +270,22 @@ function byIntent(dbFile, intent) {
 
 // Trạng thái index so với manifest — read-only, không tự sửa.
 // { ok, exists, quickCheckOk, dbRows, manifestRows, stale, why }
-function status(dbFile, manifestFile) {
+function status(dbFile, manifestFile, matrixFile) {
   const mf = manifestFile || MANIFEST_FILE;
   const out = { ok: false, exists: false, quickCheckOk: false, dbRows: 0, manifestRows: 0, stale: true, why: '' };
   if (!fs.existsSync(mf)) { out.why = 'manifest chưa có — chạy manifest-sync trước'; return out; }
   const rows = readManifest(mf);
   out.manifestRows = rows.length;
+  const mfMatrix = matrixFile || path.join(STATE_DIR, 'matrix.json');
+  const coverage = publishedCoverage(rows, JSON.parse(fs.readFileSync(mfMatrix, 'utf8')));
+  out.publishedRows = coverage.published;
+  out.missingPublished = coverage.missing.length;
+  if (!coverage.ok) {
+    out.why = 'MANIFEST_INCOMPLETE: published=' + coverage.published + ' rows=' + coverage.manifestRows +
+      ' missing=' + coverage.missing.length + ' mismatched=' + coverage.mismatched.length +
+      ' duplicates=' + coverage.duplicates.length;
+    return out;
+  }
   if (!fs.existsSync(dbFile)) { out.why = 'content-index.sqlite thiếu — chạy index-rebuild (an toàn, derived)'; return out; }
   out.exists = true;
   let qc = false;
@@ -280,6 +318,7 @@ function status(dbFile, manifestFile) {
 module.exports = {
   MANIFEST_FILE, DB_FILE,
   assertCoordinator, normalizeTopic, qaStatusFromSlot,
+  publishedCoverage, requireCoverage, manifestRowForArticle,
   buildManifestFromRepo, writeManifestAtomic, readManifest, manifestLine,
   rebuild, openReadOnly, quickCheck, knownSet, count, bySlug, byIntent, status,
 };
