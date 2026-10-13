@@ -1856,6 +1856,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/cham-vao-xe-may-bi-giat-te-tay-tinh-dien-hay-ro-dien-phan-biet-va-khi-nao-nguy-hiem/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/chan-bun-xe-may-nut-long-hoac-cham-banh/index.html",
   "kind": "article"
  },
@@ -1973,6 +1977,10 @@
  },
  {
   "rel": "hub/nhu-cau-su-dung/cho-nguoi-om-hoac-bi-thuong-di-kham-bang-xe-may-khi-nao-phai-goi-cap-cuu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/cho-tre-ngoi-truoc-cam-tay-lai-hay-van-ga-cho-vui-vi-sao-nguy-hiem-va-cach-giu-tay-tre-an-toan/index.html",
   "kind": "article"
  },
  {
@@ -2197,6 +2205,10 @@
  },
  {
   "rel": "garage/truyen-dong/day-curoa-xe-ga-khi-nao-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/day-dieu-day-phoi-giang-ngang-duong-moi-nguy-ngang-co-nguoi-di-xe-may-va-cach-nhan-ra-som/index.html",
   "kind": "article"
  },
  {
@@ -3244,6 +3256,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/mac-ao-mua-cho-tre-ngoi-truoc-hoac-ngoi-sau-xe-may-khong-trum-kin-mat-khong-de-vat-cuon-banh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/su-dung-xe/mac-do-cong-so-di-xe-may-giu-ao-khong-nhau-khong-ban-khong-uot-mo-hoi/index.html",
   "kind": "article"
  },
@@ -3269,6 +3285,10 @@
  },
  {
   "rel": "tips/meo-bao-duong/mat-den-pha-xe-may-bi-o-vang-mo-duc-lam-sach-the-nao-va-khi-nao-nen-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/mat-dien-co-sac-xe-may-dien-bang-may-phat-bo-kich-dien-hay-pin-mat-troi-duoc-khong/index.html",
   "kind": "article"
  },
  {
@@ -3689,6 +3709,10 @@
  },
  {
   "rel": "hub/nhu-cau-su-dung/sinh-vien-moi-len-thanh-pho-di-xe-may-chon-xe-cho-gui-xe-chong-mat-xe-va-lam-quen-duong-dong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/so-do-cao-khi-di-xe-may-qua-cau-cao-vi-sao-tay-chan-cung-lai-va-cach-qua-cau-binh-tinh/index.html",
   "kind": "article"
  },
  {

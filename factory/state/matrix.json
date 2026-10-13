@@ -21738,11 +21738,13 @@
    "title": "Mất điện có sạc xe máy điện bằng máy phát, bộ kích điện hay pin mặt trời được không",
    "primaryIntent": "informational/mat-dien-co-sac-xe-may-dien-bang-may-phat-bo-kich-dien-hay-pin-mat-troi-duoc-khong",
    "notes": "source=topic-v2 topicId=T001629",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T18:03:42.404Z",
-   "updatedAt": "2026-10-13T18:03:42.404Z"
+   "updatedAt": "2026-10-13T18:10:55.266Z",
+   "seoScore": 91,
+   "words": 3204
   },
   {
    "id": "S01494",
@@ -21751,11 +21753,13 @@
    "title": "Sợ độ cao khi đi xe máy qua cầu cao: vì sao tay chân cứng lại và cách qua cầu bình tĩnh",
    "primaryIntent": "informational/so-do-cao-khi-di-xe-may-qua-cau-cao-vi-sao-tay-chan-cung-lai-va-cach-qua-cau-binh-tinh",
    "notes": "source=topic-v2 topicId=T001630",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T18:03:42.442Z",
-   "updatedAt": "2026-10-13T18:03:42.442Z"
+   "updatedAt": "2026-10-13T18:10:55.266Z",
+   "seoScore": 100,
+   "words": 2876
   },
   {
    "id": "S01495",
@@ -21764,11 +21768,13 @@
    "title": "Dây diều, dây phơi giăng ngang đường: mối nguy ngang cổ người đi xe máy và cách nhận ra sớm",
    "primaryIntent": "informational/day-dieu-day-phoi-giang-ngang-duong-moi-nguy-ngang-co-nguoi-di-xe-may-va-cach-nhan-ra-som",
    "notes": "source=topic-v2 topicId=T001631",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T18:03:42.479Z",
-   "updatedAt": "2026-10-13T18:03:42.479Z"
+   "updatedAt": "2026-10-13T18:10:55.266Z",
+   "seoScore": 91,
+   "words": 2905
   },
   {
    "id": "S01496",
@@ -21777,11 +21783,13 @@
    "title": "Chạm vào xe máy bị giật tê tay: tĩnh điện hay rò điện, phân biệt và khi nào nguy hiểm",
    "primaryIntent": "troubleshooting/cham-vao-xe-may-bi-giat-te-tay-tinh-dien-hay-ro-dien-phan-biet-va-khi-nao-nguy-hiem",
    "notes": "source=topic-v2 topicId=T001632",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T18:03:42.511Z",
-   "updatedAt": "2026-10-13T18:03:42.511Z"
+   "updatedAt": "2026-10-13T18:10:55.266Z",
+   "seoScore": 100,
+   "words": 3128
   },
   {
    "id": "S01497",
@@ -21790,11 +21798,13 @@
    "title": "Mặc áo mưa cho trẻ ngồi trước hoặc ngồi sau xe máy: không trùm kín mặt, không để vạt cuốn bánh",
    "primaryIntent": "informational/mac-ao-mua-cho-tre-ngoi-truoc-hoac-ngoi-sau-xe-may-khong-trum-kin-mat-khong-de-vat-cuon-banh",
    "notes": "source=topic-v2 topicId=T001633",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T18:03:42.541Z",
-   "updatedAt": "2026-10-13T18:03:42.541Z"
+   "updatedAt": "2026-10-13T18:10:55.266Z",
+   "seoScore": 100,
+   "words": 3132
   },
   {
    "id": "S01498",
@@ -21803,11 +21813,13 @@
    "title": "Cho trẻ ngồi trước cầm tay lái hay vặn ga “cho vui”: vì sao nguy hiểm và cách giữ tay trẻ an toàn",
    "primaryIntent": "informational/cho-tre-ngoi-truoc-cam-tay-lai-hay-van-ga-cho-vui-vi-sao-nguy-hiem-va-cach-giu-tay-tre-an-toan",
    "notes": "source=topic-v2 topicId=T001634",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T18:03:42.572Z",
-   "updatedAt": "2026-10-13T18:03:42.572Z"
+   "updatedAt": "2026-10-13T18:10:55.266Z",
+   "seoScore": 91,
+   "words": 3093
   },
   {
    "id": "S01499",
