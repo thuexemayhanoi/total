@@ -54,7 +54,10 @@ for (const c of CATEGORIES) {
 
 // ---------- 3. UI tiếng Việt ----------
 const home = read('index.html');
-ok(home.includes(`href="${SITE.basePath}assets/css/atlas.css"`), 'CSS uses configured site basePath');
+const cssFingerprint = require('node:crypto').createHash('sha256')
+  .update(read('assets/css/atlas.css')).digest('hex').slice(0, 12);
+ok(home.includes(`href="${SITE.basePath}assets/css/atlas.css?v=${cssFingerprint}"`),
+  'CSS uses configured site basePath and current fingerprint');
 ok(home.includes(`data-base-path="${SITE.basePath}"`), 'JS uses configured site basePath');
 ok(home.includes(`rel="canonical" href="${SITE.baseUrl}"`), 'Homepage canonical matches site baseUrl');
 const uiStrings = ['Trang chủ', 'Thuê xe', 'Tìm kiếm', 'Giới thiệu', 'Bài mới', 'Danh mục'];
@@ -328,6 +331,10 @@ const searchJs = read('assets/js/search.js');
 const chatbotJs = read('assets/js/chatbot.js');
 const atlasCss = read('assets/css/atlas.css');
 const renderJs = read('factory/lib/render.js');
+ok(/\.dd-panel\s*\{\s*display:\s*none\s*;/.test(atlasCss),
+  'Desktop rental dropdown is hidden before interaction');
+ok(/\.nav-link,\s*\.nav-dd-trigger\s*\{/.test(atlasCss),
+  'Desktop rental trigger uses shared navigation button styling');
 ok(exists('assets/js/overlay.js'), 'Có trình quản lý overlay dùng chung');
 ok(overlayJs.includes('closeAll'), 'Overlay: cơ chế đóng-mọi-overlay-khi-mở (mutual exclusion)');
 ok(overlayJs.includes('Escape'), 'Overlay: Escape đóng đúng UI active');
