@@ -14122,6 +14122,38 @@
  },
  {
   "kind": "article",
+  "url": "guide/xu-ly-su-co/chay-mau-cam-khi-dang-lai-xe-may-dung-xe-the-nao-so-cuu-dung-tu-the-va-khi-nao-phai-di-kham/",
+  "title": "Chảy máu cam khi đang lái xe máy: dừng xe thế nào, sơ cứu đúng tư thế và khi nào phải đi khám",
+  "description": "Chảy máu cam khi đang đi xe máy: cách dừng xe an toàn, tư thế sơ cứu đúng, vì sao không ngửa đầu và những dấu hiệu cần đi khám hoặc gọi cấp cứu.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "chảy máu cam",
+   "sơ cứu chảy máu mũi",
+   "dừng xe an toàn",
+   "khẩu trang và mũ bảo hiểm",
+   "tư thế cúi người về trước",
+   "dấu hiệu cần đi khám"
+  ],
+  "keywords": [
+   "chảy máu cam khi đang đi xe máy",
+   "chảy máu mũi khi lái xe",
+   "sơ cứu chảy máu cam",
+   "chảy máu cam có nên ngửa đầu"
+  ],
+  "seoTitle": "Chảy máu cam khi lái xe máy: dừng xe, sơ cứu đúng, khi nào đi khám",
+  "primaryKeyword": "chảy máu cam khi đang đi xe máy",
+  "headings": [
+   "Vì sao chảy máu cam khi đang lái cần dừng xe ngay",
+   "Dừng xe an toàn khi máu bắt đầu chảy",
+   "Sơ cứu chảy máu cam đúng tư thế",
+   "Sau khi máu ngừng: nghỉ, thay khẩu trang và đi tiếp",
+   "Khi nào phải đi khám hoặc gọi cấp cứu"
+  ],
+  "summary": "Bài hướng dẫn người đi xe máy xử lý chảy máu cam xảy ra giữa đường, từ lúc nhận ra dấu hiệu đến khi quyết định đi tiếp hay đi khám. Nội dung giải thích vì sao phải dừng xe ngay, cách bật xi nhan, giảm tốc, tấp vào chỗ an toàn và tháo mũ, khẩu trang, rồi tư thế"
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/chay-nuoc-mat-khi-di-xe-may-vi-sao-gio-lam-mat-chay-nuoc-va-cach-giam/",
   "title": "Chảy nước mắt khi đi xe máy: vì sao gió làm mắt chảy nước và cách giảm cho tầm nhìn rõ hơn",
   "description": "Chảy nước mắt khi đi xe máy thường do gió làm mắt khô rồi tiết nước bù. Vì sao nguy hiểm khi lái, cách che chắn mắt, xử lý khi nhòe và khi nào nên đi khám.",
@@ -14636,6 +14668,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/cho-binh-phun-thuoc-tru-sau-phan-bon-va-hoa-chat-nong-nghiep-bang-xe-may-chong-ro-giu-da-va-rua-xe-sau-chuyen/",
+  "title": "Chở bình phun thuốc trừ sâu, phân bón và hóa chất nông nghiệp bằng xe máy: chống rò, giữ da và rửa xe sau chuyến",
+  "description": "Chở thuốc trừ sâu, bình phun và phân bón bằng xe máy sao cho không rò, không dính da, không đeo bình trên lưng khi lái, và cách rửa xe sạch sau chuyến.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "hóa chất nông nghiệp",
+   "bình phun đeo lưng",
+   "bao bì gốc có nhãn",
+   "chỗ chở đồ",
+   "sàn để chân",
+   "nước rửa xe"
+  ],
+  "keywords": [
+   "chở thuốc trừ sâu bằng xe máy",
+   "chở bình phun thuốc bằng xe máy",
+   "chở phân bón bằng xe máy",
+   "rửa xe sau khi chở thuốc trừ sâu"
+  ],
+  "seoTitle": "Chở thuốc trừ sâu, phân bón bằng xe máy: chống rò, giữ da, rửa xe",
+  "primaryKeyword": "chở thuốc trừ sâu bằng xe máy",
+  "headings": [
+   "Vì sao chở hóa chất nông nghiệp bằng xe máy cần cẩn thận",
+   "Chuẩn bị chai lọ, bình phun và bao phân trước khi chở",
+   "Xếp và buộc đồ: chỗ nào được, chỗ nào không",
+   "Trên đường đi và lúc thuốc bị đổ, rò ra xe hoặc dính người",
+   "Rửa xe và đồ dùng sau chuyến chở"
+  ],
+  "summary": "Bài giải thích vì sao chở thuốc trừ sâu, bình phun và phân bón bằng xe máy cần cẩn thận hơn một món hàng thông thường: thuốc rò có thể dính da, ngấm quần áo, bám lại ở yên, cốp và sàn để chân rồi lây sang người nhà. Nội dung đi theo thứ tự chuẩn bị chai lọ tro"
+ },
+ {
+  "kind": "article",
   "url": "guide/su-dung-xe/cho-cay-canh-cay-dao-cay-quat-bang-xe-may-buoc-goc-giu-canh-va-khong-che-tam-nhin/",
   "title": "Chở cây cảnh, cây đào hay cây quất bằng xe máy: buộc gốc, giữ cành và không che tầm nhìn",
   "description": "Cách chở cây cảnh, cây đào, cây quất bằng xe máy: đặt chậu ở đâu, buộc gốc và thân thế nào, giữ cành, không che tầm nhìn và khi nào nên gọi xe chở.",
@@ -14860,6 +14924,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/cho-nguoi-khiem-thi-ngoi-sau-xe-may-dan-len-xe-bao-truoc-o-ga-va-cach-mang-gay-do-duong/",
+  "title": "Chở người khiếm thị ngồi sau xe máy: dẫn lên xe, báo trước ổ gà và cách mang gậy dò đường",
+  "description": "Cách chở người khiếm thị bằng xe máy an toàn: hỏi họ cần gì, dẫn lên xe bằng khuỷu tay, giữ gậy dò đường gọn, báo trước phanh, ổ gà, cua và dẫn xuống xe.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "người khiếm thị",
+   "gậy dò đường",
+   "gác chân",
+   "tay nắm phía sau",
+   "lời báo trước",
+   "chân chống"
+  ],
+  "keywords": [
+   "chở người khiếm thị bằng xe máy",
+   "người mù ngồi sau xe máy",
+   "dẫn người khiếm thị lên xe máy",
+   "mang gậy dò đường khi ngồi xe máy"
+  ],
+  "seoTitle": "Chở người khiếm thị ngồi sau xe máy: dẫn lên xe, báo trước, mang gậy",
+  "primaryKeyword": "chở người khiếm thị bằng xe máy",
+  "headings": [
+   "Người ngồi sau không nhìn thấy gặp những khó khăn gì trên xe máy",
+   "Dẫn người khiếm thị tới xe và ngồi lên",
+   "Gậy dò đường nên cầm hay cất thế nào",
+   "Báo trước phanh, ổ gà và khúc cua trên đường",
+   "Tới nơi: dừng xe, xuống xe và dẫn tới chỗ an toàn"
+  ],
+  "summary": "Bài hướng dẫn người lái xe máy chở người khiếm thị ngồi sau một cách tôn trọng và an toàn. Nội dung giải thích vì sao người không nhìn thấy khó lường phanh, ổ gà, khúc cua, rồi đi lần lượt qua bốn việc: hỏi trước họ muốn được hỗ trợ thế nào và dẫn họ tới xe, x"
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/cho-nguoi-ngoi-sau/",
   "title": "Chở người ngồi sau an toàn: từ cách lên xe đến xuống xe",
   "description": "Chở người ngồi sau làm thay đổi trọng tâm, quãng phanh và độ ổn định của xe máy. Hướng dẫn này dạy cách lên – xuống xe, tư thế ngồi đúng, liên lạc giữa hai người và xử lý các tình huống thường gặp.",
@@ -14894,6 +14990,38 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/cho-nguoi-ngoi-xe-lan-bang-xe-may-chuyen-len-yen-mang-xe-lan-gap-va-khi-nao-nen-goi-xe-khac/",
+  "title": "Chở người ngồi xe lăn bằng xe máy: chuyển lên yên, mang xe lăn gấp và khi nào nên gọi xe khác",
+  "description": "Chở người ngồi xe lăn bằng xe máy có an toàn không? Điều kiện ngồi vững, cách chuyển lên yên, mang xe lăn gấp thế nào và khi nào nên gọi xe khác.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "người dùng xe lăn",
+   "xe lăn gấp",
+   "khóa bánh xe lăn",
+   "gác chân xe lăn",
+   "chân chống xe máy",
+   "người hỗ trợ"
+  ],
+  "keywords": [
+   "chở người ngồi xe lăn bằng xe máy",
+   "người dùng xe lăn ngồi sau xe máy",
+   "mang xe lăn gấp trên xe máy",
+   "đưa người khuyết tật đi bằng xe máy"
+  ],
+  "seoTitle": "Chở người ngồi xe lăn bằng xe máy: khi nào được và cách làm",
+  "primaryKeyword": "chở người ngồi xe lăn bằng xe máy",
+  "headings": [
+   "Có nên chở người dùng xe lăn bằng xe máy không",
+   "Chuẩn bị xe, xe lăn và người hỗ trợ trước khi chuyển",
+   "Chuyển từ xe lăn lên yên và xuống xe",
+   "Chiếc xe lăn gấp nên mang thế nào",
+   "Trong khi đi và khi nào nên gọi xe khác"
+  ],
+  "summary": "Bài hướng dẫn nguyên tắc cho gia đình cần đưa người dùng xe lăn đi gần bằng xe máy. Nội dung nêu điều kiện tiên quyết là người đó tự ngồi vững, cách hỏi chính họ và người chăm sóc, việc chuẩn bị nền phẳng, xe dựng chắc, xe lăn khóa bánh và người hỗ trợ, cách đ"
+ },
+ {
+  "kind": "article",
   "url": "hub/nhu-cau-su-dung/cho-nguoi-om-hoac-bi-thuong-di-kham-bang-xe-may-khi-nao-phai-goi-cap-cuu/",
   "title": "Chở người ốm hoặc bị thương đi khám bằng xe máy: khi nào được, khi nào phải gọi cấp cứu và cách chở cho an toàn",
   "description": "Chở người ốm hoặc bị thương đi khám bằng xe máy được không? Dấu hiệu phải gọi cấp cứu, cách chuẩn bị, chở êm và xử lý khi người bệnh trở nặng giữa đường.",
@@ -14923,6 +15051,38 @@
    "Khi người bệnh trở nặng giữa đường: dừng, đỡ xuống và gọi cấp cứu"
   ],
   "summary": "Bài giải thích khi nào có thể chở người ốm hoặc bị thương đi khám bằng xe máy và khi nào nên gọi cấp cứu hay dùng ô tô. Điểm xuất phát là người ngồi sau phải tỉnh táo, tự ngồi vững và bám chắc suốt quãng đường. Nội dung nêu những dấu hiệu không nên tự chở, việ"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/cho-nguoi-than-sa-sut-tri-tue-hoac-hay-lu-lan-ngoi-sau-xe-may-tu-y-xuong-xe-thao-mu-va-cach-giu-an-toan/",
+  "title": "Chở người thân sa sút trí tuệ hoặc hay lú lẫn ngồi sau xe máy: tự ý xuống xe, tháo mũ và cách giữ an toàn",
+  "description": "Chở người già lú lẫn bằng xe máy cần cân nhắc kỹ: khi nào nên đổi sang ô tô, cách chuẩn bị mũ và lời dặn, đi chậm và xử lý lúc người ngồi sau tự ý xuống xe.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "người ngồi sau xe máy",
+   "người cao tuổi hay quên",
+   "người nhà chờ ở nơi đến",
+   "mũ bảo hiểm và quai mũ",
+   "dừng xe an toàn",
+   "dịch vụ đưa đón"
+  ],
+  "keywords": [
+   "chở người già lú lẫn bằng xe máy",
+   "người sa sút trí tuệ ngồi sau xe máy",
+   "chở ông bà lẫn trí đi khám",
+   "người lú lẫn tự xuống xe khi đang đi"
+  ],
+  "seoTitle": "Chở người già lú lẫn bằng xe máy: cân nhắc, chuẩn bị, xử lý",
+  "primaryKeyword": "chở người già lú lẫn bằng xe máy",
+  "headings": [
+   "Vì sao người hay lú lẫn ngồi sau xe máy có rủi ro riêng",
+   "Cân nhắc trước chuyến đi: lần này có nên chở bằng xe máy",
+   "Chuẩn bị người ngồi sau trước khi lên xe",
+   "Cách chở và trò chuyện trên đường cho an toàn",
+   "Khi người ngồi sau tự đứng dậy, tháo mũ hay đòi xuống"
+  ],
+  "summary": "Bài hướng dẫn gia đình cách cân nhắc và chuẩn bị khi phải chở ông bà hay cha mẹ hay quên, lú lẫn ngồi sau xe máy. Nội dung giải thích vì sao người ngồi sau có rủi ro riêng như khó nhớ lời dặn, hoảng khi ồn ào, tự đứng dậy hay tháo mũ, rồi đi qua việc xem xét t"
  },
  {
   "kind": "article",
@@ -18125,6 +18285,38 @@
    "Chở người ngồi sau, trẻ nhỏ và những ngày trời gió"
   ],
   "summary": "Bài hướng dẫn người đi xe máy qua đoạn đường có đội cắt tỉa cây, xe thang hoặc xe cẩu đang làm việc trên cao. Nội dung giải thích vì sao vùng rơi của cành và dụng cụ có thể rộng hơn vùng rào, nhắc các nguy cơ như dây căng ngang, mùn cưa trơn, chân chống xe nằm"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/di-xe-may-qua-mat-duong-dang-cao-boc-cho-tham-nhua-ranh-cao-lam-xe-lac-go-chenh-giua-lan-va-cach-doi-lan/",
+  "title": "Đi xe máy qua mặt đường đang cào bóc chờ thảm nhựa: rãnh cào làm xe lắc, gờ chênh giữa làn và cách đổi làn",
+  "description": "Đường cào bóc chờ thảm nhựa có rãnh dọc làm xe máy lắc lái và gờ chênh giữa hai làn. Cách thả lỏng tay lái, giữ ga đều và đổi làn qua gờ ở góc lớn cho an toàn.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "cào bóc mặt đường",
+   "rãnh cào dọc",
+   "gờ chênh giữa làn",
+   "thảm nhựa",
+   "vụn nhựa và đá dăm",
+   "đổi làn"
+  ],
+  "keywords": [
+   "đi xe máy qua đường đang cào bóc",
+   "mặt đường cào bóc chờ thảm nhựa",
+   "rãnh cào làm xe máy bị lắc lái",
+   "gờ chênh giữa hai làn đường đang sửa"
+  ],
+  "seoTitle": "Đi xe máy qua đường cào bóc: rãnh làm xe lắc, gờ chênh và đổi làn",
+  "primaryKeyword": "đi xe máy qua đường đang cào bóc",
+  "headings": [
+   "Mặt đường cào bóc trông thế nào và vì sao xe bị lắc",
+   "Gờ chênh giữa phần đã cào và phần chưa cào",
+   "Cách đi trên phần mặt đường đã cào",
+   "Đổi làn qua gờ chênh cho an toàn",
+   "Khi trời mưa, ban đêm và gần máy thi công"
+  ],
+  "summary": "Bài giải thích mặt đường đã cào bóc để chờ thảm nhựa trông ra sao và vì sao bánh trước lắc, tay lái như bị kéo qua lại. Nội dung nói về gờ chênh chạy dọc giữa phần đã cào và phần chưa cào, nơi bánh xe dễ bị trượt theo gờ, rồi hướng dẫn cách đi trên phần đã cào"
  },
  {
   "kind": "article",
@@ -37205,6 +37397,71 @@
    "Khi bất đồng vẫn xảy ra: xử lý theo trình tự, không đối đầu"
   ],
   "summary": "Tránh tranh chấp khi thuê xe — những điều cần biết — tranh chấp giữa bên thuê và bên cho thuê gần như không nổ ra từ xe, mà nổ ra từ những chỗ trống: điều khoản không ghi, tình trạng xe không chụp lại, cuộc trao đổi không lưu vết. Bài viết đi theo trình tự phò"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/tre-cam-bong-bay-den-long-hay-do-choi-khi-ngoi-xe-may-day-cuon-banh-che-tam-nhin-va-cach-mang-an-toan/",
+  "title": "Trẻ cầm bóng bay, đèn lồng hay đồ chơi khi ngồi xe máy: dây cuốn bánh, che tầm nhìn và cách mang an toàn",
+  "description": "Trẻ cầm bóng bay, đèn lồng hay đồ chơi khi ngồi xe máy có thể bị dây cuốn vào bánh, che tầm nhìn người lái. Cách cất đồ, dặn trẻ và xử lý khi dây đã vướng vào xe.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "bóng bay có dây",
+   "đèn lồng trung thu",
+   "chong chóng và đồ chơi dài",
+   "nan hoa và xích xe",
+   "chỗ bám của trẻ",
+   "gương chiếu hậu"
+  ],
+  "keywords": [
+   "trẻ cầm bóng bay ngồi xe máy",
+   "mang đèn lồng trung thu bằng xe máy",
+   "trẻ cầm đồ chơi khi ngồi sau xe máy",
+   "dây bóng bay cuốn vào bánh xe",
+   "đồ chơi của trẻ trên xe máy"
+  ],
+  "seoTitle": "Trẻ cầm bóng bay, đèn lồng khi ngồi xe máy: rủi ro và cách mang",
+  "primaryKeyword": "trẻ cầm bóng bay ngồi xe máy",
+  "headings": [
+   "Vì sao đồ trẻ cầm trên xe có thể gây nguy hiểm",
+   "Bóng bay, đèn lồng, chong chóng và đồ chơi dài: mỗi món một rủi ro",
+   "Cách mang đồ chơi của trẻ cho an toàn hơn",
+   "Dặn trẻ trước khi lên xe",
+   "Khi dây hay đồ chơi đã vướng vào xe"
+  ],
+  "summary": "Bài giải thích vì sao bóng bay, đèn lồng, chong chóng và các món đồ chơi dài mà trẻ cầm khi ngồi xe máy có thể gây nguy hiểm: dây dễ cuốn vào bánh hay xích, vật to bị gió kéo làm trẻ mất thế bám và che tầm nhìn của người lái, còn đồ rơi khiến trẻ với theo hay "
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/tre-ngoi-sau-bi-ket-chan-vao-banh-xe-may-vi-sao-hay-xay-ra-cach-phong-va-viec-lam-ngay/",
+  "title": "Trẻ ngồi sau bị kẹt chân vào bánh xe máy: vì sao hay xảy ra, cách phòng và việc làm ngay khi kẹt",
+  "description": "Vì sao trẻ ngồi sau xe máy hay bị kẹt chân vào nan, bánh hay xích? Cách phòng từ chỗ đặt chân, giày dép, quần áo và việc cần làm ngay khi trẻ kêu đau.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "gác chân sau xe máy",
+   "bánh xe vành nan",
+   "tấm che bánh sau",
+   "xích truyền động",
+   "giày dép có quai hậu",
+   "sơ cứu chấn thương chân"
+  ],
+  "keywords": [
+   "trẻ bị kẹt chân vào bánh xe máy",
+   "kẹt chân vào nan xe máy",
+   "trẻ ngồi sau xe máy bị kẹp chân",
+   "phòng tránh trẻ kẹt chân vào bánh xe"
+  ],
+  "seoTitle": "Trẻ ngồi sau kẹt chân vào bánh xe máy: nguyên nhân, cách phòng, xử lý",
+  "primaryKeyword": "trẻ bị kẹt chân vào bánh xe máy",
+  "headings": [
+   "Vì sao trẻ ngồi sau hay bị kẹt chân vào bánh xe",
+   "Những chiếc xe và tư thế dễ dẫn tới kẹt chân",
+   "Cách phòng kẹt chân trước và trong mỗi chuyến",
+   "Việc làm ngay khi chân trẻ bị kẹt",
+   "Sau khi gỡ chân ra và khi nên đổi cách chở trẻ"
+  ],
+  "summary": "Bài giải thích vì sao trẻ ngồi sau xe máy dễ bị kẹt chân vào nan, xích hay khe giữa bánh và khung: chân ngắn không tới gác chân, trẻ ngủ gật, đung đưa chân, dép tuột và quần rộng. Nội dung chỉ ra những kiểu xe và tư thế nguy cơ cao, cách phòng trước và trong c"
  },
  {
   "kind": "article",
