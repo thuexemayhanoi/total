@@ -1,0 +1,39 @@
+{
+  "sourceCommit": "8954a79f96b947c3ed1f3a14f95128b2c0d1fcef",
+  "date": "2026-10-13",
+  "branch": "audit/topical-authority-20261013-snapshot-8954a79",
+  "mode": "READ_ONLY_PRODUCTION",
+  "counts": {
+    "slots": 1320,
+    "published": 1010,
+    "planned": 310,
+    "legacyFrozen": 300,
+    "v2Planned": 10,
+    "capacity": 20000,
+    "categories": 15,
+    "hubs": 97,
+    "emptyHubs": 5,
+    "sitemapArticle": 1010,
+    "sitemapCategory": 15,
+    "sitemapHub": 97,
+    "sitemapPage": 5,
+    "articleManifest": 322,
+    "manifestMissing": 688,
+    "exactIntentCollisionGroups": 3
+  },
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/thuexemayhanoi/total/8954a79f96b947c3ed1f3a14f95128b2c0d1fcef/factory/state/matrix.json",
+    "https://raw.githubusercontent.com/thuexemayhanoi/total/8954a79f96b947c3ed1f3a14f95128b2c0d1fcef/factory/state/article-manifest.jsonl",
+    "https://raw.githubusercontent.com/thuexemayhanoi/total/8954a79f96b947c3ed1f3a14f95128b2c0d1fcef/factory/data/categories.js",
+    "https://raw.githubusercontent.com/thuexemayhanoi/total/8954a79f96b947c3ed1f3a14f95128b2c0d1fcef/sitemap-articles.xml",
+    "https://raw.githubusercontent.com/thuexemayhanoi/total/8954a79f96b947c3ed1f3a14f95128b2c0d1fcef/factory/topic-governance.json"
+  ],
+  "gsc": "NOT_CONNECTED_AT_VIBESEO_PROJECT_APEX;WIKI_METRICS_UNVERIFIED",
+  "agentmarkup": "READ_SKILL_ONLY_NO_INSTALL",
+  "unknowns": [
+    "all 1010 HTML technical checks",
+    "actual internal links",
+    "live Core Web Vitals",
+    "full semantic content analysis"
+  ]
+}
