@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "source_commit": "8954a79f96b947c3ed1f3a14f95128b2c0d1fcef",
+  "scope": "P0 READ ONLY",
+  "published": 1010,
+  "site_article_sitemap": 1010,
+  "generated_manifest_articles": 1010,
+  "article_manifest_rows": 322,
+  "missing_manifest_records": 688,
+  "status": "METADATA_DRIFT_CONFIRMED",
+  "sqlite_runtime_state": "UNVERIFIED",
+  "full_live_http_crawl": "IN_PROGRESS_UNVERIFIED",
+  "approved_write_operations": 0
+}
