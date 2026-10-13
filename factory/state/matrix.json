@@ -19466,6 +19466,97 @@
    "attempts": 0,
    "createdAt": "2026-10-13T07:22:36.957Z",
    "updatedAt": "2026-10-13T07:22:36.957Z"
+  },
+  {
+   "id": "S01343",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "bui-cat-hoac-con-trung-bay-vao-mat-khi-dang-di-xe-may",
+   "title": "Bụi, cát hoặc côn trùng bay vào mắt khi đang đi xe máy: dừng xe an toàn, không dụi mắt và khi nào cần đi khám",
+   "primaryIntent": "informational/bui-cat-hoac-con-trung-bay-vao-mat-khi-dang-di-xe-may",
+   "notes": "source=topic-v2 topicId=T001441",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:38:10.619Z",
+   "updatedAt": "2026-10-13T07:38:10.619Z"
+  },
+  {
+   "id": "S01344",
+   "hub": "ride/lai-xe-duong-dai",
+   "slug": "bi-chuot-rut-khi-dang-di-xe-may-dung-xe-va-gian-co",
+   "title": "Bị chuột rút khi đang đi xe máy: dừng xe an toàn, giãn cơ đúng cách và cách phòng trên chuyến đi dài",
+   "primaryIntent": "informational/bi-chuot-rut-khi-dang-di-xe-may-dung-xe-va-gian-co",
+   "notes": "source=topic-v2 topicId=T001442",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:38:10.658Z",
+   "updatedAt": "2026-10-13T07:38:10.658Z"
+  },
+  {
+   "id": "S01345",
+   "hub": "hub/nhu-cau-su-dung",
+   "slug": "cho-nguoi-om-hoac-bi-thuong-di-kham-bang-xe-may-khi-nao-phai-goi-cap-cuu",
+   "title": "Chở người ốm hoặc bị thương đi khám bằng xe máy: khi nào được, khi nào phải gọi cấp cứu và cách chở cho an toàn",
+   "primaryIntent": "informational/cho-nguoi-om-hoac-bi-thuong-di-kham-bang-xe-may-khi-nao-phai-goi-cap-cuu",
+   "notes": "source=topic-v2 topicId=T001443",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:38:10.680Z",
+   "updatedAt": "2026-10-13T07:38:10.681Z"
+  },
+  {
+   "id": "S01346",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "lau-khong-lai-xe-may-nay-lai-lai-ky-nang-de-mai-mot-va-cach-lam-quen-lai",
+   "title": "Lâu không lái xe máy, nay lái lại: kỹ năng nào dễ mai một và cách làm quen lại từng bước",
+   "primaryIntent": "informational/lau-khong-lai-xe-may-nay-lai-lai-ky-nang-de-mai-mot-va-cach-lam-quen-lai",
+   "notes": "source=topic-v2 topicId=T001444",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:38:10.703Z",
+   "updatedAt": "2026-10-13T07:38:10.703Z"
+  },
+  {
+   "id": "S01347",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "di-xe-may-mot-minh-ban-dem-chon-duong-bao-nguoi-than-va-xu-ly-khi-bat-an",
+   "title": "Đi xe máy một mình ban đêm: chọn đường, báo người thân và xử lý khi thấy bất an trên đường",
+   "primaryIntent": "informational/di-xe-may-mot-minh-ban-dem-chon-duong-bao-nguoi-than-va-xu-ly-khi-bat-an",
+   "notes": "source=topic-v2 topicId=T001445",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:38:10.727Z",
+   "updatedAt": "2026-10-13T07:38:10.727Z"
+  },
+  {
+   "id": "S01348",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "nguoi-thap-di-xe-may-chong-chan-khi-dung-va-dat-xe-khi-chan-khong-cham-dat-han",
+   "title": "Người thấp đi xe máy: chống chân khi dừng, chọn chỗ dừng và dắt xe khi chân không chạm đất hẳn",
+   "primaryIntent": "informational/nguoi-thap-di-xe-may-chong-chan-khi-dung-va-dat-xe-khi-chan-khong-cham-dat-han",
+   "notes": "source=topic-v2 topicId=T001446",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:38:10.753Z",
+   "updatedAt": "2026-10-13T07:38:10.753Z"
+  },
+  {
+   "id": "S01349",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "chong-trom-pin-va-bo-sac-xe-may-dien-khoa-khoang-pin-va-cat-bo-sac",
+   "title": "Chống trộm pin và bộ sạc xe máy điện: khóa khoang pin, cất bộ sạc và chọn chỗ đỗ xe",
+   "primaryIntent": "informational/chong-trom-pin-va-bo-sac-xe-may-dien-khoa-khoang-pin-va-cat-bo-sac",
+   "notes": "source=topic-v2 topicId=T001447",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T07:38:10.808Z",
+   "updatedAt": "2026-10-13T07:38:10.808Z"
   }
  ]
 }
