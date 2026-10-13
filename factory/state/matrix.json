@@ -21393,11 +21393,13 @@
    "title": "Chọn xe máy cho người sống ở khu hay ngập nước: những điểm nên xem trước khi mua",
    "primaryIntent": "informational/chon-xe-may-cho-nguoi-song-o-khu-hay-ngap-nuoc-nhung-diem-nen-xem-truoc-khi-mua",
    "notes": "source=topic-v2 topicId=T001597",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:18:08.339Z",
-   "updatedAt": "2026-10-13T15:18:08.340Z"
+   "updatedAt": "2026-10-13T15:31:07.136Z",
+   "seoScore": 91,
+   "words": 3035
   },
   {
    "id": "S01471",
@@ -21406,11 +21408,13 @@
    "title": "Chọn xe máy cho vùng đồi núi nhiều dốc: phanh, động cơ, lốp và tư thế ngồi",
    "primaryIntent": "informational/chon-xe-may-cho-vung-doi-nui-nhieu-doc-phanh-dong-co-lop-va-tu-the-ngoi",
    "notes": "source=topic-v2 topicId=T001598",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:18:08.377Z",
-   "updatedAt": "2026-10-13T15:18:08.377Z"
+   "updatedAt": "2026-10-13T15:31:07.136Z",
+   "seoScore": 91,
+   "words": 3189
   },
   {
    "id": "S01472",
@@ -21434,11 +21438,13 @@
    "title": "Tự lái xe máy về sau khi hiến máu: nghỉ đủ, ăn uống và dấu hiệu nên nhờ người chở",
    "primaryIntent": "informational/tu-lai-xe-may-ve-sau-khi-hien-mau-nghi-du-an-uong-va-dau-hieu-nen-nho-nguoi-cho",
    "notes": "source=topic-v2 topicId=T001600",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:23:36.848Z",
-   "updatedAt": "2026-10-13T15:23:36.848Z"
+   "updatedAt": "2026-10-13T15:31:07.136Z",
+   "seoScore": 100,
+   "words": 3059
   },
   {
    "id": "S01474",
@@ -21447,11 +21453,13 @@
    "title": "Lái xe máy ngay sau khi tập thể thao nặng: tay run, chân mỏi, mất nước và hồi lại trước khi đi",
    "primaryIntent": "informational/lai-xe-may-ngay-sau-khi-tap-the-thao-nang-tay-run-chan-moi-mat-nuoc-va-hoi-lai-truoc-khi-di",
    "notes": "source=topic-v2 topicId=T001601",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:23:36.888Z",
-   "updatedAt": "2026-10-13T15:23:36.888Z"
+   "updatedAt": "2026-10-13T15:31:07.136Z",
+   "seoScore": 100,
+   "words": 3076
   },
   {
    "id": "S01475",
@@ -21460,11 +21468,13 @@
    "title": "Đi gần xe đang kéo hay chở xe hỏng: dây kéo, xe bị kéo lắc và chỗ không nên vượt",
    "primaryIntent": "informational/di-gan-xe-dang-keo-hay-cho-xe-hong-day-keo-xe-bi-keo-lac-va-cho-khong-nen-vuot",
    "notes": "source=topic-v2 topicId=T001602",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:23:36.932Z",
-   "updatedAt": "2026-10-13T15:23:36.932Z"
+   "updatedAt": "2026-10-13T15:31:07.136Z",
+   "seoScore": 91,
+   "words": 3141
   },
   {
    "id": "S01476",
@@ -21473,11 +21483,13 @@
    "title": "Chuyển từ xe đạp điện lên xe máy: tốc độ, phanh, trọng lượng và những thói quen cần đổi",
    "primaryIntent": "informational/chuyen-tu-xe-dap-dien-len-xe-may-toc-do-phanh-trong-luong-va-nhung-thoi-quen-can-doi",
    "notes": "source=topic-v2 topicId=T001604",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:25:49.487Z",
-   "updatedAt": "2026-10-13T15:25:49.487Z"
+   "updatedAt": "2026-10-13T15:31:07.136Z",
+   "seoScore": 100,
+   "words": 2931
   }
  ]
 }
