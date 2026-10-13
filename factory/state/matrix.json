@@ -20038,6 +20038,97 @@
    "attempts": 0,
    "createdAt": "2026-10-13T08:14:36.148Z",
    "updatedAt": "2026-10-13T08:14:36.148Z"
+  },
+  {
+   "id": "S01381",
+   "hub": "garage/phanh",
+   "slug": "den-bao-abs-tren-xe-may-sang-hoac-nhap-nhay-luc-nao-binh-thuong-va-khi-nao-can-kiem-tra",
+   "title": "Đèn báo ABS trên xe máy sáng hoặc nhấp nháy: lúc nào là bình thường và khi nào cần đưa xe đi kiểm tra",
+   "primaryIntent": "troubleshooting/den-bao-abs-tren-xe-may-sang-hoac-nhap-nhay-luc-nao-binh-thuong-va-khi-nao-can-kiem-tra",
+   "notes": "source=topic-v2 topicId=T001482",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:33:14.585Z",
+   "updatedAt": "2026-10-13T12:33:14.585Z"
+  },
+  {
+   "id": "S01382",
+   "hub": "garage/bao-duong-dinh-ky",
+   "slug": "xe-may-chi-chay-quang-ngan-moi-ngay-may-it-khi-du-nong-va-nhung-hang-muc-can-de-y",
+   "title": "Xe máy chỉ chạy quãng ngắn mỗi ngày: vì sao máy ít khi đủ nóng và những hạng mục cần để ý khi bảo dưỡng",
+   "primaryIntent": "informational/xe-may-chi-chay-quang-ngan-moi-ngay-may-it-khi-du-nong-va-nhung-hang-muc-can-de-y",
+   "notes": "source=topic-v2 topicId=T001483",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:33:14.627Z",
+   "updatedAt": "2026-10-13T12:33:14.627Z"
+  },
+  {
+   "id": "S01383",
+   "hub": "ride/di-phuot",
+   "slug": "di-xe-may-vung-nui-mua-mua-dau-hieu-sat-lo-lu-quet-va-khi-nao-phai-quay-dau",
+   "title": "Đi xe máy vùng núi mùa mưa: dấu hiệu sạt lở, lũ quét và khi nào phải dừng lại hoặc quay đầu",
+   "primaryIntent": "informational/di-xe-may-vung-nui-mua-mua-dau-hieu-sat-lo-lu-quet-va-khi-nao-phai-quay-dau",
+   "notes": "source=topic-v2 topicId=T001484",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:33:14.654Z",
+   "updatedAt": "2026-10-13T12:33:14.654Z"
+  },
+  {
+   "id": "S01384",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "cho-nguoi-dang-say-ruou-bia-ve-nha-bang-xe-may-khi-nao-khong-nen-cho-va-dau-hieu-can-goi-cap-cuu",
+   "title": "Chở người đang say rượu bia về nhà bằng xe máy: khi nào không nên chở, cách chở và dấu hiệu cần gọi cấp cứu",
+   "primaryIntent": "informational/cho-nguoi-dang-say-ruou-bia-ve-nha-bang-xe-may-khi-nao-khong-nen-cho-va-dau-hieu-can-goi-cap-cuu",
+   "notes": "source=topic-v2 topicId=T001487",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:33:14.677Z",
+   "updatedAt": "2026-10-13T12:33:14.677Z"
+  },
+  {
+   "id": "S01385",
+   "hub": "ride/lai-xe-trong-thanh-pho",
+   "slug": "di-xe-may-gan-xe-ba-gac-xe-day-hang-rong-va-xe-tho-so-giu-khoang-cach-va-vuot-an-toan",
+   "title": "Đi xe máy gần xe ba gác, xe đẩy hàng rong và xe thô sơ: vì sao khó đoán và cách vượt an toàn",
+   "primaryIntent": "informational/di-xe-may-gan-xe-ba-gac-xe-day-hang-rong-va-xe-tho-so-giu-khoang-cach-va-vuot-an-toan",
+   "notes": "source=topic-v2 topicId=T001488",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:33:14.701Z",
+   "updatedAt": "2026-10-13T12:33:14.701Z"
+  },
+  {
+   "id": "S01386",
+   "hub": "ride/lai-xe-duong-dai",
+   "slug": "an-uong-khi-di-xe-may-duong-dai-an-gi-uong-nuoc-the-nao-de-tinh-tao-va-tranh-met",
+   "title": "Ăn uống khi đi xe máy đường dài: ăn gì, uống nước thế nào để tỉnh táo và tránh mệt giữa chặng",
+   "primaryIntent": "informational/an-uong-khi-di-xe-may-duong-dai-an-gi-uong-nuoc-the-nao-de-tinh-tao-va-tranh-met",
+   "notes": "source=topic-v2 topicId=T001489",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:33:14.732Z",
+   "updatedAt": "2026-10-13T12:33:14.732Z"
+  },
+  {
+   "id": "S01387",
+   "hub": "review/review-phu-tung",
+   "slug": "binh-chua-chay-mini-tren-xe-may-co-nen-mang-dat-o-dau-va-luc-nao-nen-dung-hay-tranh-xa",
+   "title": "Bình chữa cháy mini trên xe máy: có nên mang theo, đặt ở đâu và lúc nào nên dùng hay phải tránh xa",
+   "primaryIntent": "informational/binh-chua-chay-mini-tren-xe-may-co-nen-mang-dat-o-dau-va-luc-nao-nen-dung-hay-tranh-xa",
+   "notes": "source=topic-v2 topicId=T001490",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:33:14.758Z",
+   "updatedAt": "2026-10-13T12:33:14.758Z"
   }
  ]
 }
