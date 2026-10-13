@@ -22188,11 +22188,13 @@
    "title": "Xe máy mới còn lớp ni lông bọc yên, ốp nhựa và mặt đồng hồ: bóc lúc nào, vì sao để lâu gây trơn yên, đọng ẩm và lưu keo",
    "primaryIntent": "informational/xe-may-moi-con-lop-ni-long-boc-yen-op-nhua-va-mat-dong-ho-boc-luc-nao-vi-sao-de-lau-gay-tron-yen-dong-am-va-luu-keo",
    "notes": "source=topic-v2 topicId=T001659",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:03:42.322Z",
-   "updatedAt": "2026-10-13T20:03:42.322Z"
+   "updatedAt": "2026-10-13T20:09:06.955Z",
+   "seoScore": 100,
+   "words": 2987
   },
   {
    "id": "S01524",
@@ -22201,11 +22203,13 @@
    "title": "Xe ngược chiều rẽ trái cắt ngang đầu xe máy đang đi thẳng: vì sao người rẽ không thấy bạn và cách phòng ở giao lộ",
    "primaryIntent": "informational/xe-nguoc-chieu-re-trai-cat-ngang-dau-xe-may-dang-di-thang-vi-sao-nguoi-re-khong-thay-ban-va-cach-phong-o-giao-lo",
    "notes": "source=topic-v2 topicId=T001660",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:03:42.374Z",
-   "updatedAt": "2026-10-13T20:03:42.374Z"
+   "updatedAt": "2026-10-13T20:09:06.955Z",
+   "seoScore": 91,
+   "words": 3063
   },
   {
    "id": "S01525",
@@ -22214,11 +22218,13 @@
    "title": "Quên đóng nắp bình xăng sau khi đổ: xăng sóng ra ngoài, hơi xăng trong cốp và thói quen kiểm tra trước khi đi",
    "primaryIntent": "informational/quen-dong-nap-binh-xang-sau-khi-do-xang-song-ra-ngoai-hoi-xang-trong-cop-va-thoi-quen-kiem-tra-truoc-khi-di",
    "notes": "source=topic-v2 topicId=T001661",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:03:42.416Z",
-   "updatedAt": "2026-10-13T20:03:42.416Z"
+   "updatedAt": "2026-10-13T20:09:06.955Z",
+   "seoScore": 100,
+   "words": 2864
   },
   {
    "id": "S01526",
@@ -22227,11 +22233,13 @@
    "title": "Xe máy đang đỗ ven đường hay trên vỉa hè bất ngờ nhập dòng: nhận ra người sắp rời lề và giữ khoảng khi đi ngang",
    "primaryIntent": "informational/xe-may-dang-do-ven-duong-hay-tren-via-he-bat-ngo-nhap-dong-nhan-ra-nguoi-sap-roi-le-va-giu-khoang-khi-di-ngang",
    "notes": "source=topic-v2 topicId=T001662",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:03:42.452Z",
-   "updatedAt": "2026-10-13T20:03:42.452Z"
+   "updatedAt": "2026-10-13T20:09:06.955Z",
+   "seoScore": 91,
+   "words": 3064
   },
   {
    "id": "S01527",
@@ -22240,11 +22248,13 @@
    "title": "Xe máy phía trước bất ngờ cắt từ mép phải sang trái để rẽ hay quay đầu: dấu hiệu sớm và lúc không nên vượt",
    "primaryIntent": "informational/xe-may-phia-truoc-bat-ngo-cat-tu-mep-phai-sang-trai-de-re-hay-quay-dau-dau-hieu-som-va-luc-khong-nen-vuot",
    "notes": "source=topic-v2 topicId=T001663",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:03:42.489Z",
-   "updatedAt": "2026-10-13T20:03:42.489Z"
+   "updatedAt": "2026-10-13T20:09:06.955Z",
+   "seoScore": 100,
+   "words": 2968
   },
   {
    "id": "S01528",
@@ -22253,11 +22263,13 @@
    "title": "Gặp vật cản nằm giữa làn như gạch đá, khúc gỗ hay xác động vật: né hay đè qua và cách báo cho người phía sau",
    "primaryIntent": "informational/gap-vat-can-nam-giua-lan-nhu-gach-da-khuc-go-hay-xac-dong-vat-ne-hay-de-qua-va-cach-bao-cho-nguoi-phia-sau",
    "notes": "source=topic-v2 topicId=T001664",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:03:42.527Z",
-   "updatedAt": "2026-10-13T20:03:42.527Z"
+   "updatedAt": "2026-10-13T20:09:06.955Z",
+   "seoScore": 100,
+   "words": 2992
   },
   {
    "id": "S01529",
@@ -22266,11 +22278,13 @@
    "title": "Quen lái ô tô nay đi xe máy: những thói quen từ ghế lái ô tô dễ gây nguy hiểm khi lên xe hai bánh",
    "primaryIntent": "informational/quen-lai-o-to-nay-di-xe-may-nhung-thoi-quen-tu-ghe-lai-o-to-de-gay-nguy-hiem-khi-len-xe-hai-banh",
    "notes": "source=topic-v2 topicId=T001665",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:03:42.557Z",
-   "updatedAt": "2026-10-13T20:03:42.557Z"
+   "updatedAt": "2026-10-13T20:09:06.955Z",
+   "seoScore": 100,
+   "words": 2990
   }
  ]
 }

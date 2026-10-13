@@ -2700,6 +2700,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/gap-vat-can-nam-giua-lan-nhu-gach-da-khuc-go-hay-xac-dong-vat-ne-hay-de-qua-va-cach-bao-cho-nguoi-phia-sau/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/ghe-ngoi-gan-xe-may-va-dai-deo-cho-tre-nho-kiem-tra-gi-truoc-khi-dung/index.html",
   "kind": "article"
  },
@@ -3677,6 +3681,14 @@
  },
  {
   "rel": "garage/dong-co/quat-ket-nuoc-xe-tay-ga-khong-quay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-tiet-kiem-xang/quen-dong-nap-binh-xang-sau-khi-do-xang-song-ra-ngoai-hoi-xang-trong-cop-va-thoi-quen-kiem-tra-truoc-khi-di/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/quen-lai-o-to-nay-di-xe-may-nhung-thoi-quen-tu-ghe-lai-o-to-de-gay-nguy-hiem-khi-len-xe-hai-banh/index.html",
   "kind": "article"
  },
  {
@@ -5144,6 +5156,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-trong-thanh-pho/xe-may-dang-do-ven-duong-hay-tren-via-he-bat-ngo-nhap-dong-nhan-ra-nguoi-sap-roi-le-va-giu-khoang-khi-di-ngang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/dia-phuong/xe-may-dia-phuong/index.html",
   "kind": "article"
  },
@@ -5216,6 +5232,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/mua-xe/xe-may-moi-con-lop-ni-long-boc-yen-op-nhua-va-mat-dong-ho-boc-luc-nao-vi-sao-de-lau-gay-tron-yen-dong-am-va-luu-keo/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/dong-co/xe-may-no-khong-deu-luc-cam-chung/index.html",
   "kind": "article"
  },
@@ -5225,6 +5245,10 @@
  },
  {
   "rel": "local/tinh-thanh/xe-may-nong-thon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/xe-may-phia-truoc-bat-ngo-cat-tu-mep-phai-sang-trai-de-re-hay-quay-dau-dau-hieu-som-va-luc-khong-nen-vuot/index.html",
   "kind": "article"
  },
  {
@@ -5253,6 +5277,10 @@
  },
  {
   "rel": "news/xe-moi/xe-moi-ra-mat/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/xe-nguoc-chieu-re-trai-cat-ngang-dau-xe-may-dang-di-thang-vi-sao-nguoi-re-khong-thay-ban-va-cach-phong-o-giao-lo/index.html",
   "kind": "article"
  },
  {
