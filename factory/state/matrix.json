@@ -21258,11 +21258,13 @@
    "title": "Đi xe máy lúc chạng vạng: vì sao trời nhá nhem khó nhìn nhất và lúc nào nên bật đèn",
    "primaryIntent": "informational/di-xe-may-luc-chang-vang-troi-nha-nhem-vi-sao-kho-nhin-nhat-va-luc-nao-nen-bat-den",
    "notes": "source=topic-v2 topicId=T001583",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:08:18.097Z",
-   "updatedAt": "2026-10-13T15:08:18.097Z"
+   "updatedAt": "2026-10-13T15:22:56.229Z",
+   "seoScore": 100,
+   "words": 2910
   },
   {
    "id": "S01462",
@@ -21271,11 +21273,13 @@
    "title": "Đánh rơi đồ khi đang chạy xe máy: điện thoại, ví, mũ hay túi — dừng thế nào và nhặt lại an toàn",
    "primaryIntent": "informational/danh-roi-do-khi-dang-chay-xe-may-dien-thoai-vi-mu-hay-tui-dung-the-nao-va-nhat-lai-an-toan",
    "notes": "source=topic-v2 topicId=T001584",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:08:18.128Z",
-   "updatedAt": "2026-10-13T15:08:18.128Z"
+   "updatedAt": "2026-10-13T15:22:56.229Z",
+   "seoScore": 100,
+   "words": 3049
   },
   {
    "id": "S01463",
@@ -21284,11 +21288,13 @@
    "title": "Lỡ lối rẽ hay đi nhầm đường khi đi xe máy: không phanh gấp, không quay đầu bừa và quay lại an toàn",
    "primaryIntent": "informational/lo-loi-re-hay-di-nham-duong-khi-di-xe-may-khong-phanh-gap-khong-quay-dau-bua-va-quay-lai-an-toan",
    "notes": "source=topic-v2 topicId=T001585",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:08:18.163Z",
-   "updatedAt": "2026-10-13T15:08:18.164Z"
+   "updatedAt": "2026-10-13T15:22:56.229Z",
+   "seoScore": 100,
+   "words": 3019
   },
   {
    "id": "S01464",
@@ -21297,11 +21303,13 @@
    "title": "Công tắc tắt máy trên tay lái xe máy: dùng khi nào và xử lý khi lỡ gạt nhầm lúc đang chạy",
    "primaryIntent": "informational/cong-tac-tat-may-tren-tay-lai-xe-may-dung-khi-nao-va-xu-ly-khi-lo-gat-nham-luc-dang-chay",
    "notes": "source=topic-v2 topicId=T001587",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:08:18.194Z",
-   "updatedAt": "2026-10-13T15:08:18.194Z"
+   "updatedAt": "2026-10-13T15:22:56.229Z",
+   "seoScore": 91,
+   "words": 2977
   },
   {
    "id": "S01465",
@@ -21310,11 +21318,13 @@
    "title": "Qua cổng có thanh chắn tự động ở bãi xe và chung cư bằng xe máy: không bám đuôi và dừng đúng vạch",
    "primaryIntent": "informational/qua-cong-co-thanh-chan-tu-dong-o-bai-xe-va-chung-cu-bang-xe-may-khong-bam-duoi-va-dung-dung-vach",
    "notes": "source=topic-v2 topicId=T001588",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:11:55.583Z",
-   "updatedAt": "2026-10-13T15:11:55.583Z"
+   "updatedAt": "2026-10-13T15:22:56.230Z",
+   "seoScore": 100,
+   "words": 2999
   },
   {
    "id": "S01466",
@@ -21323,11 +21333,13 @@
    "title": "Chở người bó bột chân, chống nạng hay vừa xuất viện ngồi sau xe máy: lên xuống, giữ chân và khi nào không nên chở",
    "primaryIntent": "informational/cho-nguoi-bo-bot-chan-chong-nang-hay-vua-xuat-vien-ngoi-sau-xe-may-len-xuong-va-giu-chan",
    "notes": "source=topic-v2 topicId=T001589",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:11:55.630Z",
-   "updatedAt": "2026-10-13T15:11:55.630Z"
+   "updatedAt": "2026-10-13T15:22:56.229Z",
+   "seoScore": 91,
+   "words": 3190
   },
   {
    "id": "S01467",
@@ -21336,11 +21348,13 @@
    "title": "Chuyển trọ, chuyển nhà bằng xe máy: chia chuyến, đồ nào chở được và lúc nên gọi xe chở đồ",
    "primaryIntent": "informational/chuyen-tro-chuyen-nha-bang-xe-may-chia-chuyen-do-nao-cho-duoc-va-luc-nen-goi-xe-cho-do",
    "notes": "source=topic-v2 topicId=T001592",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:15:09.702Z",
-   "updatedAt": "2026-10-13T15:15:09.703Z"
+   "updatedAt": "2026-10-13T15:22:56.229Z",
+   "seoScore": 100,
+   "words": 3043
   },
   {
    "id": "S01468",
@@ -21349,11 +21363,13 @@
    "title": "Mang laptop và máy tính bảng trên xe máy: chống sốc, chống nước và giữ đồ an toàn",
    "primaryIntent": "informational/mang-laptop-va-may-tinh-bang-tren-xe-may-chong-soc-chong-nuoc-va-giu-do-an-toan",
    "notes": "source=topic-v2 topicId=T001593",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:15:09.743Z",
-   "updatedAt": "2026-10-13T15:15:09.743Z"
+   "updatedAt": "2026-10-13T15:22:56.230Z",
+   "seoScore": 100,
+   "words": 3049
   },
   {
    "id": "S01469",
@@ -21362,11 +21378,13 @@
    "title": "Người lạ xin đi nhờ xe máy: có nên cho, giữ an toàn thế nào và cách từ chối khéo",
    "primaryIntent": "informational/nguoi-la-xin-di-nho-xe-may-co-nen-cho-giu-an-toan-va-cach-tu-choi-kheo",
    "notes": "source=topic-v2 topicId=T001595",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:15:09.785Z",
-   "updatedAt": "2026-10-13T15:15:09.785Z"
+   "updatedAt": "2026-10-13T15:22:56.230Z",
+   "seoScore": 91,
+   "words": 3147
   },
   {
    "id": "S01470",
@@ -21401,11 +21419,13 @@
    "title": "Tay phanh xa, bàn tay nhỏ bóp không tới: chỉnh tầm tay phanh, tay côn và khi nào nhờ thợ",
    "primaryIntent": "informational/tay-phanh-xa-ban-tay-nho-bop-khong-toi-chinh-tam-tay-phanh-tay-con-va-khi-nao-nho-tho",
    "notes": "source=topic-v2 topicId=T001599",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:18:08.409Z",
-   "updatedAt": "2026-10-13T15:18:08.409Z"
+   "updatedAt": "2026-10-13T15:22:56.230Z",
+   "seoScore": 91,
+   "words": 2823
   }
  ]
 }
