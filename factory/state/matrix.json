@@ -20493,11 +20493,13 @@
    "title": "Chạy giao hàng cả ngày bằng xe máy điện: tính pin theo ca, sạc giữa ca, chở hàng nặng và chăm xe",
    "primaryIntent": "informational/chay-giao-hang-ca-ngay-bang-xe-may-dien-tinh-pin-theo-ca-sac-giua-ca-cho-hang-va-cham-xe",
    "notes": "source=topic-v2 topicId=T001519",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:40:52.749Z",
-   "updatedAt": "2026-10-13T13:40:52.750Z"
+   "updatedAt": "2026-10-13T13:45:21.156Z",
+   "seoScore": 100,
+   "words": 3036
   },
   {
    "id": "S01411",
@@ -20506,11 +20508,13 @@
    "title": "Đi xe máy qua cầu phao: mặt cầu bập bênh, khe nối ván, lúc nước lên và khi nào nên xuống dắt xe",
    "primaryIntent": "informational/di-xe-may-qua-cau-phao-mat-cau-bap-benh-khe-noi-van-va-luc-nen-xuong-dat-xe",
    "notes": "source=topic-v2 topicId=T001522",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:40:52.787Z",
-   "updatedAt": "2026-10-13T13:40:52.787Z"
+   "updatedAt": "2026-10-13T13:45:21.156Z",
+   "seoScore": 91,
+   "words": 2983
   }
  ]
 }

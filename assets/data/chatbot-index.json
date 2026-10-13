@@ -10080,6 +10080,34 @@
   ]
  },
  {
+  "url": "hub/nhu-cau-su-dung/chay-giao-hang-ca-ngay-bang-xe-may-dien-tinh-pin-theo-ca-sac-giua-ca-cho-hang-va-cham-xe/",
+  "title": "Chạy giao hàng cả ngày bằng xe máy điện: tính pin theo ca, sạc giữa ca, chở hàng nặng và chăm xe",
+  "category": "Trung tâm chủ đề",
+  "hub": "Nhu cầu sử dụng",
+  "summary": "Bài dành cho người chạy giao hàng hoặc chở hàng cả ngày bằng xe máy điện. Nội dung giải thích vì sao xe chạy dịch vụ khác xe đi làm, cách tính pin theo ca bằng sổ ghi mức pin đầu ca và cuối ca của chính xe mình, cách tính dư cho đoạn về và không chạy đến cạn. Bài cũng nêu cách sạc xen giữa ca ở chỗ an toàn, cách xếp và chở hàng nặng, việc chăm phanh, lốp, giảm xóc, đầu nối sạc, cùng các dấu hiệu phải dừng sạc hoặc đưa xe đi kiểm tra và cách giữ sức cho người chạy.",
+  "quickAnswer": "Để khỏi hết pin giữa đơn, hãy ghi mức pin đầu ca và cuối ca của chính xe bạn qua nhiều ngày, lập kế hoạch theo ngày nặng nhất, luôn chừa dư cho đoạn về và không chạy đến cạn. Sạc xen vào giờ nghỉ ở chỗ khô ráo, thoáng, có người trông, bằng đúng bộ sạc của xe. Chở hàng trong tải khuyến nghị, phanh sớm hơn, và dừng ngay khi pin nóng bất thường, có mùi lạ hoặc vỏ phồng.",
+  "keyPoints": [
+   "Xe chạy dịch vụ cả ngày khác xe đi làm ở bốn điểm: chạy liên tục, dừng đỗ nhiều, chở nặng và ít thời gian nghỉ, nên pin, phanh và lốp đều phải làm việc nhiều hơn.",
+   "Con số đáng tin để tính pin theo ca là số liệu của chính xe bạn: ghi mức pin đầu ca, cuối ca và loại ngày như dốc, chở nặng, mưa, rồi lập kế hoạch theo ngày nặng nhất.",
+   "Luôn tính dư cho đoạn về và không chạy đến cạn, vì xả quá sâu hại pin và xe hết điện giữa đường biến thành khối nặng phải dắt bộ.",
+   "Sạc xen giữa ca ở chỗ khô ráo, thoáng, có người trông, dùng đúng bộ sạc của xe, để pin còn nóng nguội bớt theo hướng dẫn của xe; xe đổi pin thì làm theo cách của dịch vụ đổi pin."
+  ],
+  "entities": [
+   "xe máy điện chạy giao hàng",
+   "pin xe máy điện",
+   "bộ sạc đi kèm xe",
+   "baga chở hàng",
+   "phanh và lốp",
+   "đầu nối sạc"
+  ],
+  "keywords": [
+   "chạy giao hàng bằng xe máy điện",
+   "shipper dùng xe máy điện",
+   "xe máy điện chạy cả ngày",
+   "sạc xe máy điện giữa ca"
+  ]
+ },
+ {
   "url": "hub/van-de-thuong-gap/chay-nuoc-mat-khi-di-xe-may-vi-sao-gio-lam-mat-chay-nuoc-va-cach-giam/",
   "title": "Chảy nước mắt khi đi xe máy: vì sao gió làm mắt chảy nước và cách giảm cho tầm nhìn rõ hơn",
   "category": "Trung tâm chủ đề",
@@ -12744,6 +12772,34 @@
    "đi xe máy đêm một mình an toàn",
    "đi làm ca đêm bằng xe máy",
    "bị người lạ đi theo khi đi xe máy ban đêm"
+  ]
+ },
+ {
+  "url": "tips/meo-lai-xe/di-xe-may-qua-cau-phao-mat-cau-bap-benh-khe-noi-van-va-luc-nen-xuong-dat-xe/",
+  "title": "Đi xe máy qua cầu phao: mặt cầu bập bênh, khe nối ván, lúc nước lên và khi nào nên xuống dắt xe",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "summary": "Bài dành cho người đi xe máy lần đầu gặp cầu phao và thấy mặt cầu nhún lên xuống, ván lát có khe hở, đầu cầu dốc và trơn. Nội dung giải thích cầu phao khác cầu cố định ở chỗ nào, những điều nên quan sát trước khi lên cầu, cách giữ ga đều và tầm nhìn khi chạy trên mặt cầu nhún, cách xử lý đầu cầu và khe nối, các tình huống nên xuống dắt xe, lúc nên quay lại tìm đường khác, cùng lưu ý khi chở người ngồi sau và trẻ em.",
+  "quickAnswer": "Cầu phao nổi trên nước nên nhún, lắc và có đầu cầu đổi độ dốc theo mực nước, còn mặt ván hay tấm thép có khe và dễ trơn khi ướt. Hãy quan sát người đi trước, chờ lượt, chạy chậm với ga nhỏ đều, giữ xe thẳng, nhìn xa và cắt qua khe theo góc gần vuông. Mặt cầu trơn, nhún mạnh, trời tối hay mưa to thì xuống dắt; nước lũ, gió lớn hoặc cầu tạm đóng thì quay lại.",
+  "keyPoints": [
+   "Cầu phao nổi trên nước nên nhún và lắc khi có xe qua; đó là đặc tính của loại cầu này, nhưng mức nhún thay đổi theo tải trọng và điều kiện sông nước lúc đó.",
+   "Đầu cầu nối với bờ có độ dốc và khe nối đổi theo mực nước, nên cùng một chiếc cầu mà mỗi lần qua có thể cho cảm giác khác nhau.",
+   "Trước khi lên cầu, nhìn người đi trước, biển báo, người điều tiết, mặt cầu ướt hay khô, nước đang lên hay xuống và gió; cầu hẹp chỉ đi một chiều thì chờ lượt.",
+   "Chạy chậm, ga nhỏ đều hoặc số thấp, giữ thẳng, nhìn xa, tay lái không gồng cứng; không phanh gấp, không vượt, không dừng giữa cầu nếu không bắt buộc."
+  ],
+  "entities": [
+   "cầu phao",
+   "mặt cầu nhún",
+   "khe nối ván",
+   "đầu cầu dốc",
+   "mực nước lên xuống",
+   "người điều tiết"
+  ],
+  "keywords": [
+   "đi xe máy qua cầu phao",
+   "cầu phao đi xe máy",
+   "cầu phao trơn khi mưa",
+   "xuống dắt xe khi qua cầu phao"
   ]
  },
  {
