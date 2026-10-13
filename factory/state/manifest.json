@@ -2484,6 +2484,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-50cc/di-xe-may-yeu-xe-nho-tren-duong-lon-va-quang-duong-dai-giu-vi-tri-de-xe-nhanh-vuot-va-biet-luc-nen-doi-tuyen/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/tinh-thanh/di-xe-mien-nui/index.html",
   "kind": "article"
  },
@@ -2505,6 +2509,10 @@
  },
  {
   "rel": "local/tp-hcm/di-xe-o-sai-gon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-so/di-xe-so-trong-pho-ket-xe-chon-so-nhich-ga-deu-va-do-moi-chan-trai/index.html",
   "kind": "article"
  },
  {
@@ -3037,6 +3045,10 @@
  },
  {
   "rel": "moto/xe-ga/hoi-nong-pha-vao-chan-va-dui-khi-di-xe-may-luc-nao-binh-thuong-va-khi-nao-bao-may-qua-nong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/tai-lieu-tham-khao/hoi-tro-ly-ai-ve-sua-xe-may-dung-cau-tra-loi-lam-goi-y-kiem-chung-voi-sach-huong-dan-va-tho/index.html",
   "kind": "article"
  },
  {
@@ -3957,6 +3969,10 @@
  },
  {
   "rel": "garage/dong-co/thoi-gioang-mat-may-xe-may-dau-hieu-va-co-nen-di-tiep/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-so/thoi-quen-chan-trai-voi-can-so-xe-so-khong-dam-so-khong-gac-chan-len-can-va-dung-mui-got-cho-dung/index.html",
   "kind": "article"
  },
  {
@@ -5381,6 +5397,10 @@
  },
  {
   "rel": "moto/yamaha/xe-yamaha/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/tai-lieu-tham-khao/xem-video-tu-sua-xe-may-tren-mang-loc-video-dang-tin-va-viec-khong-nen-lam-theo/index.html",
   "kind": "article"
  },
  {

@@ -22428,11 +22428,13 @@
    "title": "Đi xe máy yếu, xe nhỏ trên đường lớn và quãng đường dài: giữ vị trí, để xe nhanh vượt và biết lúc nên đổi tuyến",
    "primaryIntent": "informational/di-xe-may-yeu-xe-nho-tren-duong-lon-va-quang-duong-dai-giu-vi-tri-de-xe-nhanh-vuot-va-biet-luc-nen-doi-tuyen",
    "notes": "source=topic-v2 topicId=T001675",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T21:29:11.334Z",
-   "updatedAt": "2026-10-13T21:29:11.334Z"
+   "updatedAt": "2026-10-13T21:35:32.121Z",
+   "seoScore": 91,
+   "words": 2975
   },
   {
    "id": "S01540",
@@ -22441,11 +22443,13 @@
    "title": "Đi xe số trong phố kẹt xe: chọn số, nhích ga đều và đỡ mỏi chân trái",
    "primaryIntent": "informational/di-xe-so-trong-pho-ket-xe-chon-so-nhich-ga-deu-va-do-moi-chan-trai",
    "notes": "source=topic-v2 topicId=T001676",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T21:29:11.381Z",
-   "updatedAt": "2026-10-13T21:29:11.381Z"
+   "updatedAt": "2026-10-13T21:35:32.121Z",
+   "seoScore": 91,
+   "words": 2874
   },
   {
    "id": "S01541",
@@ -22454,11 +22458,13 @@
    "title": "Thói quen chân trái với cần số xe số: không dậm số, không gác chân lên cần và dùng mũi, gót cho đúng",
    "primaryIntent": "informational/thoi-quen-chan-trai-voi-can-so-xe-so-khong-dam-so-khong-gac-chan-len-can-va-dung-mui-got-cho-dung",
    "notes": "source=topic-v2 topicId=T001677",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T21:29:11.414Z",
-   "updatedAt": "2026-10-13T21:29:11.414Z"
+   "updatedAt": "2026-10-13T21:35:32.121Z",
+   "seoScore": 100,
+   "words": 2936
   },
   {
    "id": "S01542",
@@ -22467,11 +22473,13 @@
    "title": "Hỏi trợ lý AI về sửa xe máy: dùng câu trả lời làm gợi ý, kiểm chứng với sách hướng dẫn và thợ",
    "primaryIntent": "informational/hoi-tro-ly-ai-ve-sua-xe-may-dung-cau-tra-loi-lam-goi-y-kiem-chung-voi-sach-huong-dan-va-tho",
    "notes": "source=topic-v2 topicId=T001678",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T21:29:11.446Z",
-   "updatedAt": "2026-10-13T21:29:11.446Z"
+   "updatedAt": "2026-10-13T21:35:32.121Z",
+   "seoScore": 100,
+   "words": 3144
   },
   {
    "id": "S01543",
@@ -22480,11 +22488,13 @@
    "title": "Xem video tự sửa xe máy trên mạng: lọc video đáng tin và những việc không nên làm theo",
    "primaryIntent": "informational/xem-video-tu-sua-xe-may-tren-mang-loc-video-dang-tin-va-viec-khong-nen-lam-theo",
    "notes": "source=topic-v2 topicId=T001679",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T21:29:11.475Z",
-   "updatedAt": "2026-10-13T21:29:11.475Z"
+   "updatedAt": "2026-10-13T21:35:32.121Z",
+   "seoScore": 100,
+   "words": 3174
   }
  ]
 }
