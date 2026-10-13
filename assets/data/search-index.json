@@ -18384,6 +18384,38 @@
  },
  {
   "kind": "article",
+  "url": "ride/lai-xe-trong-thanh-pho/di-xe-may-qua-cho-dang-phat-co-ven-duong-va-dai-phan-cach-soi-da-van-nguoi-lam-sat-lan-va-co-vun-tron/",
+  "title": "Đi xe máy qua chỗ đang phát cỏ ven đường và dải phân cách: sỏi đá văng, người làm sát làn và cỏ vụn trơn",
+  "description": "Cách đi xe máy qua chỗ đang cắt cỏ ven đường và dải phân cách: nhận ra từ xa, giảm tốc, tránh vùng đá văng, xử lý khi bị trúng và chạy chậm trên cỏ vụn trơn.",
+  "category": "Hành trình",
+  "hub": "Lái xe trong thành phố",
+  "entities": [
+   "máy cắt cỏ cầm tay",
+   "dải phân cách",
+   "đá văng",
+   "kính mũ bảo hiểm",
+   "cỏ vụn trên mặt đường",
+   "người làm ven đường"
+  ],
+  "keywords": [
+   "đi xe máy qua chỗ đang cắt cỏ ven đường",
+   "máy cắt cỏ làm văng đá vào người đi xe máy",
+   "công nhân phát cỏ dải phân cách",
+   "cỏ vụn trên đường làm trơn xe máy"
+  ],
+  "seoTitle": "Đi xe máy qua chỗ phát cỏ: đá văng, người làm sát làn, cỏ vụn trơn",
+  "primaryKeyword": "đi xe máy qua chỗ đang cắt cỏ ven đường",
+  "headings": [
+   "Vì sao đoạn đang phát cỏ nguy hiểm với người đi xe máy",
+   "Nhận ra đoạn đang phát cỏ từ xa",
+   "Cách đi qua chỗ đang phát cỏ",
+   "Khi bị đá hay mảnh vụn văng trúng",
+   "Cỏ vụn, đất và bùn trên mặt đường sau khi phát"
+  ],
+  "summary": "Bài giải thích vì sao đoạn đang phát cỏ ven đường hay trên dải phân cách khiến người đi xe máy gặp nguy cơ: đầu cắt quay nhanh hất sỏi đá và mảnh vụn theo hướng khó đoán, người làm quay lưng và đeo đồ chống ồn nên khó nghe thấy xe, xe hỗ trợ dừng sát lề, còn c"
+ },
+ {
+  "kind": "article",
   "url": "ride/lai-xe-trong-thanh-pho/di-xe-may-qua-cong-benh-vien-xe-cuu-thuong-ra-vao-nguoi-nha-voi-va-va-cho-gui-xe-chat/",
   "title": "Đi xe máy qua cổng bệnh viện: xe cứu thương ra vào, người nhà vội vã và chỗ gửi xe chật",
   "description": "Cách đi xe máy qua cổng bệnh viện an toàn: giảm tốc, nhường người đi bộ và xe cứu thương, thả người nhà đúng chỗ, gửi xe gọn khi bãi đang đông.",
@@ -20828,6 +20860,38 @@
    "Báo cho ai, báo gì và chọn tuyến để tránh"
   ],
   "summary": "Bài hướng dẫn người đi xe máy cách xử lý khi gặp nhóm xe chạy tốc độ cao, rú ga, lạng lách hoặc tụ tập chiếm lòng đường. Nội dung giải thích vì sao tình huống này nguy hiểm, cách nhận ra từ xa bằng tiếng động, ánh đèn và người đứng tụ, việc nên làm khi nhóm ở "
+ },
+ {
+  "kind": "article",
+  "url": "ride/lai-xe-trong-thanh-pho/gap-tre-di-xe-truot-xe-can-bang-hay-o-to-dien-do-choi-khi-di-xe-may-trong-khu-dan-cu-cham-va-doan-truoc/",
+  "title": "Gặp trẻ đi xe trượt, xe cân bằng hay ô tô điện đồ chơi khi đi xe máy trong khu dân cư: chậm lại và đoán trước",
+  "description": "Xe trượt, xe cân bằng, ô tô điện đồ chơi thấp, êm, trẻ hay lao ra đường. Cách đọc dấu hiệu từ xa, đi chậm qua khu dân cư và chọn chỗ chơi an toàn cho con.",
+  "category": "Hành trình",
+  "hub": "Lái xe trong thành phố",
+  "entities": [
+   "xe trượt",
+   "xe cân bằng",
+   "ô tô điện đồ chơi",
+   "đường nội khu",
+   "người đi xe máy",
+   "vùng khuất tầm nhìn"
+  ],
+  "keywords": [
+   "trẻ đi xe điện đồ chơi ra đường",
+   "gặp trẻ đi xe trượt scooter trong khu dân cư",
+   "xe cân bằng của trẻ lao ra đường",
+   "ô tô điện trẻ em chạy trên đường nội khu"
+  ],
+  "seoTitle": "Gặp trẻ chơi xe trượt, xe cân bằng, ô tô điện: đi chậm, đoán trước",
+  "primaryKeyword": "trẻ đi xe điện đồ chơi ra đường",
+  "headings": [
+   "Vì sao xe đồ chơi và xe nhỏ của trẻ khó đoán trước",
+   "Những chỗ và lúc hay gặp trẻ chơi xe trên đường",
+   "Đọc dấu hiệu có trẻ chơi xe từ xa",
+   "Cách đi xe máy qua khu có trẻ chơi",
+   "Khi chính con mình chơi các loại xe này"
+  ],
+  "summary": "Bài giải thích vì sao xe trượt, xe chòi chân, xe cân bằng, xe điện cỡ nhỏ và ô tô điện đồ chơi của trẻ khó thấy và khó đoán đối với người đi xe máy: thấp nên bị xe đỗ che, chạy êm nên không nghe tiếng, có loại tăng tốc nhanh còn trẻ chưa biết phanh. Nội dung c"
  },
  {
   "kind": "article",
@@ -38103,6 +38167,39 @@
    "Khi trẻ bị bỏng, kẹp tay hay xe đổ đè"
   ],
   "summary": "Bài giải thích vì sao chiếc xe máy đang dựng trong nhà là nơi nhiều rủi ro với trẻ nhỏ: xe nặng hơn trẻ rất nhiều nên dễ đổ khi bé leo hay đu, ống xả còn nóng sau khi tắt máy dù trông không nóng, tay chân có thể kẹp vào nan hoa, xích, đĩa phanh hay khe chân ch"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/tre-va-nguoi-ngoi-sau-an-uong-khi-xe-may-dang-chay-sac-que-xien-dam-khi-phanh-va-tay-roi-cho-bam/",
+  "title": "Trẻ và người ngồi sau ăn uống khi xe máy đang chạy: sặc, que xiên đâm khi phanh và tay rời chỗ bám",
+  "description": "Cho trẻ ăn sáng trên xe máy dễ gây sặc, que xiên đâm khi phanh, tay rời chỗ bám. Món nên tránh, cách ăn trước khi đi và việc cần làm khi trẻ bị sặc.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "sặc khi ăn trên xe",
+   "que xiên và ống hút cứng",
+   "người ngồi sau xe máy",
+   "tay bám khi phanh",
+   "điểm dừng an toàn",
+   "đồ uống có nắp"
+  ],
+  "keywords": [
+   "cho trẻ ăn sáng trên xe máy",
+   "trẻ vừa ngồi xe máy vừa ăn",
+   "ngồi sau xe máy uống sữa",
+   "ăn xiên que khi ngồi sau xe máy",
+   "trẻ bị sặc khi ăn trên xe máy"
+  ],
+  "seoTitle": "Cho trẻ ăn sáng trên xe máy: nguy cơ sặc, que xiên và cách thay thế",
+  "primaryKeyword": "cho trẻ ăn sáng trên xe máy",
+  "headings": [
+   "Vì sao ăn uống trên xe đang chạy nguy hiểm cho người ngồi sau",
+   "Những món nên tránh khi đang ngồi trên xe",
+   "Sắp xếp để trẻ ăn trước hoặc ăn khi đã dừng",
+   "Nếu buộc phải ăn nhẹ thì dừng xe trước",
+   "Khi trẻ bị sặc hay đau miệng lúc đang đi"
+  ],
+  "summary": "Bài giải thích vì sao trẻ và người lớn ngồi sau không nên vừa đi vừa ăn uống trên xe máy: xe xóc và phanh đẩy thức ăn vào họng gây sặc, que xiên hay ống hút có thể đâm vào miệng, hai tay bận nên không bám được, đồ đổ làm người lái giật mình. Nội dung nêu những"
  },
  {
   "kind": "article",

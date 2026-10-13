@@ -22383,11 +22383,13 @@
    "title": "Trẻ và người ngồi sau ăn uống khi xe máy đang chạy: sặc, que xiên đâm khi phanh và tay rời chỗ bám",
    "primaryIntent": "informational/tre-va-nguoi-ngoi-sau-an-uong-khi-xe-may-dang-chay-sac-que-xien-dam-khi-phanh-va-tay-roi-cho-bam",
    "notes": "source=topic-v2 topicId=T001672",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:55:55.068Z",
-   "updatedAt": "2026-10-13T20:55:55.068Z"
+   "updatedAt": "2026-10-13T21:00:13.564Z",
+   "seoScore": 100,
+   "words": 2900
   },
   {
    "id": "S01537",
@@ -22396,11 +22398,13 @@
    "title": "Gặp trẻ đi xe trượt, xe cân bằng hay ô tô điện đồ chơi khi đi xe máy trong khu dân cư: chậm lại và đoán trước",
    "primaryIntent": "informational/gap-tre-di-xe-truot-xe-can-bang-hay-o-to-dien-do-choi-khi-di-xe-may-trong-khu-dan-cu-cham-va-doan-truoc",
    "notes": "source=topic-v2 topicId=T001673",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:55:55.115Z",
-   "updatedAt": "2026-10-13T20:55:55.115Z"
+   "updatedAt": "2026-10-13T21:00:13.564Z",
+   "seoScore": 91,
+   "words": 3103
   },
   {
    "id": "S01538",
@@ -22409,11 +22413,13 @@
    "title": "Đi xe máy qua chỗ đang phát cỏ ven đường và dải phân cách: sỏi đá văng, người làm sát làn và cỏ vụn trơn",
    "primaryIntent": "informational/di-xe-may-qua-cho-dang-phat-co-ven-duong-va-dai-phan-cach-soi-da-van-nguoi-lam-sat-lan-va-co-vun-tron",
    "notes": "source=topic-v2 topicId=T001674",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:55:55.157Z",
-   "updatedAt": "2026-10-13T20:55:55.157Z"
+   "updatedAt": "2026-10-13T21:00:13.564Z",
+   "seoScore": 100,
+   "words": 3008
   }
  ]
 }
