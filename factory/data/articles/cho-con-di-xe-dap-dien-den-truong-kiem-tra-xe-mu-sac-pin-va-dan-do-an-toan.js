@@ -1,0 +1,77 @@
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'cho-con-di-xe-dap-dien-den-truong-kiem-tra-xe-mu-sac-pin-va-dan-do-an-toan',
+  title: 'Cho con đi xe đạp điện đến trường: kiểm tra xe, đội mũ, sạc pin an toàn và những điều cần dặn con',
+  seoTitle: 'Cho con đi xe đạp điện: kiểm tra xe, đội mũ, sạc pin và dặn dò',
+  metaDescription: 'Cho con đi xe đạp điện đến trường: đánh giá con đã sẵn sàng chưa, kiểm tra phanh, đèn, lốp, đội mũ đúng cách, sạc pin an toàn ở nhà và những điều cần dặn.',
+  summary: 'Bài hướng dẫn phụ huynh chuẩn bị cho con tự đi xe đạp điện đến trường theo từng lớp an toàn: đánh giá con đã đủ vững về thăng bằng, quan sát và phản xạ phanh chưa, rồi đi thử cùng người lớn trên đúng tuyến. Nội dung tiếp tục với cách chọn xe và kiểm tra phanh, đèn, chuông, gương, lốp, chân chống, yên; mũ bảo hiểm, trang phục và các lời dặn khi đi đường; cách sạc pin tại nhà cùng những dấu hiệu phải ngừng dùng; và thói quen kiểm tra xe định kỳ cùng con, để con báo bố mẹ khi có điều bất thường.',
+  quickAnswer: 'Trước khi cho con đi xe đạp điện đến trường, hãy chắc con giữ thăng bằng tốt, biết quan sát, nhường đường, phanh đúng phản xạ, rồi đi thử cùng người lớn trên tuyến thật. Xe cần nguồn gốc rõ, phanh trước sau ăn đều, đèn, chuông, gương, lốp, chân chống ổn; không độ tăng tốc, không đổi pin hay bộ sạc khác loại. Con đội mũ vừa đầu, cài quai mỗi lần đi; pin sạc đúng loại, nơi thoáng, có người trông.',
+  keyPoints: [
+    'Sự sẵn sàng của con thể hiện ở thăng bằng, thói quen quan sát và nhường đường, phản xạ phanh, hiểu đèn và vạch đường, chứ không chỉ ở việc con muốn tự đi.',
+    'Đi thử cùng người lớn trên đúng tuyến tới trường, lần đầu vào giờ vắng rồi mới thử lại vào giờ đông, giúp bạn thấy con xử lý tình huống thật ra sao.',
+    'Xe cần nguồn gốc rõ, phanh trước sau ăn đều, đèn, chuông hoặc còi, gương, lốp, chân chống chắc, yên và tay phanh vừa tầm con; không độ tăng tốc, không thay pin hay bộ sạc khác loại.',
+    'Mũ vừa đầu cài quai mỗi lần đi, áo sáng màu, giày kín, không tai nghe, không dùng điện thoại, không đi hàng hai hàng ba, chậm lại ở cổng trường, ngã tư và đầu ngõ.',
+    'Sạc pin bằng bộ sạc đúng loại, nơi thoáng, xa vật dễ cháy và lối thoát, có người lớn trông; ngừng dùng ngay khi pin phồng, nóng bất thường hoặc có mùi lạ.'
+  ],
+  category: 'hub',
+  hub: 'nhu-cau-su-dung',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['xe đạp điện của học sinh', 'mũ bảo hiểm', 'phanh trước và phanh sau', 'bộ sạc pin', 'pin xe điện', 'kiểm tra xe định kỳ'],
+  keywords: ['cho con đi xe đạp điện', 'học sinh đi xe đạp điện an toàn', 'kiểm tra xe đạp điện cho con', 'sạc xe đạp điện an toàn'],
+  sections: [
+    P('Con đã sẵn sàng tự đi xe đạp điện đến trường chưa', [
+      'Câu hỏi đầu tiên không phải là chọn chiếc xe nào, mà là con đã sẵn sàng chưa, và câu trả lời nằm ở những kỹ năng bạn nhìn thấy được chứ không nằm ở lời hứa hay sự háo hức. Về điều kiện pháp lý khi cho con tham gia giao thông, bạn nên tìm hiểu từ nguồn chính thức của cơ quan quản lý; trong cùng chuyên mục đã có bài tổng hợp riêng về xe dành cho học sinh để đọc thêm, còn bài này chỉ bàn phần chuẩn bị thực tế ở nhà và trên đường. Một đứa trẻ đủ vững sẽ giữ được thăng bằng lúc xuất phát, lúc dừng, lúc đi thật chậm và lúc vòng tránh vật cản mà tay lái không chao. Nếu con còn loạng choạng, hãy cho thêm thời gian tập ở sân rộng và vắng người trước khi nghĩ tới đường phố.',
+      'Giữ được thăng bằng mới là điều kiện cần; điều kiện đủ là cách con nhìn và suy nghĩ trên đường. Hãy để ý con có biết đảo mắt liên tục thay vì dán vào bánh trước, có nhận ra chiếc xe đang lùi ra khỏi cổng nhà, cánh cửa ô tô sắp mở hay người đi bộ bước xuống lòng đường hay không. Một tín hiệu tốt là con biết nhường khi chưa chắc ai được đi trước, thay vì cố giành đường cho bằng được. Phản xạ phanh cũng nên thử ở nơi an toàn: bạn bất ngờ hô dừng và xem con có bóp phanh đều cả hai tay, dừng thẳng, đặt chân xuống đất kịp lúc hay bị lạng người. Cuối cùng, con cần hiểu đèn tín hiệu, vạch kẻ đường, vạch dành cho người đi bộ và những biển báo gặp hằng ngày trên tuyến của mình.',
+      'Bước cuối cùng là đi thử cùng người lớn trên đúng tuyến tới trường, không phải một tuyến thay thế dễ đi hơn. Lần đầu nên chọn giờ vắng để cả hai nhìn rõ những chỗ đáng lo như đoạn đường hẹp, mặt đường xấu, ngã tư không có đèn, góc khuất tầm nhìn hay nơi xe tải thường đỗ sát lề. Bạn đi phía sau hoặc bên cạnh ở khoảng cách vừa phải, quan sát và trao đổi sau chuyến đi thay vì la lên giữa đường. Sau đó mới thử lại vào giờ đông, lúc cổng trường chật kín xe và người, vì cách con xử lý đám đông cho bạn biết con đã sẵn sàng thật hay chưa. Con còn lúng túng thì đó là lý do để tập thêm, không phải điều đáng trách; sự tự lập luôn có nhịp độ riêng của từng đứa trẻ.'
+    ]),
+    P('Chọn và kiểm tra xe trước khi giao cho con', [
+      'Chiếc xe đầu tiên của con nên có nguồn gốc rõ ràng: thông tin nhà sản xuất minh bạch, có sách hướng dẫn sử dụng, có nơi chịu trách nhiệm bảo hành và sửa chữa. Xe trôi nổi thường lẫn linh kiện không đồng bộ, khó tìm phụ tùng thay thế, và bạn khó biết pin với bộ sạc có thật sự hợp với nhau hay không. Hãy chọn xe vừa tầm vóc của con thay vì mua lớn cho đỡ phải mua lại. Yên cần chỉnh để lúc dừng, chân con chạm đất vững chứ không phải nhón mũi chân, và tay phanh phải vừa bàn tay con, bóp tới nơi mà không phải gồng cả ngón. Trẻ lớn nhanh, nên việc chỉnh lại yên và tay phanh đáng được lặp lại theo thời gian.',
+      'Phần quan trọng nhất là hệ thống phanh. Bạn hãy dắt xe trên mặt phẳng, bóp từng tay phanh và xem phanh trước lẫn phanh sau có ăn đều, bánh có bị hãm lại rõ ràng không; tay phanh bóp sát tay lái, kêu rít, nhả chậm hay có cảm giác trơn là lý do để mang ra thợ trước khi giao xe. Đèn trước và đèn sau phải sáng, chuông hoặc còi kêu to rõ, gương nhìn được phía sau mà không phải ngoái cổ. Lốp cần còn gai, không nứt hông, không xẹp; độ căng đúng mức lấy theo sách hướng dẫn của xe. Chân chống phải chắc, không tự sập khi dựng xe và được gạt lên gọn trước khi đi. Những chi tiết này chỉ cần quan sát và thử bằng tay, còn điều chỉnh sâu hơn thuộc về thợ.',
+      'Có hai điều bạn nên nói rõ ngay từ đầu với con: không độ tăng tốc, không tự thay pin hay bộ sạc khác loại. Khung, phanh và lốp của xe được thiết kế cho một mức vận hành nhất định; xe bị can thiệp để chạy mạnh hơn sẽ khó điều khiển, quãng dừng dài ra, và hệ thống điện chịu tải vượt dự tính nên dễ nóng. Pin hay bộ sạc không cùng loại có thể sạc sai cách, quá nhiệt hoặc không báo lỗi khi cần. Nếu xe cần thay pin, thay sạc hay sửa phần điện, hãy làm theo hướng dẫn của nhà sản xuất hoặc nhờ thợ có chuyên môn. Giải thích lý do cho con nghe sẽ hiệu quả hơn một lệnh cấm trống không, vì con thấy mình được tôn trọng và dễ hợp tác hơn.'
+    ]),
+    P('Mũ, quần áo và những điều cần dặn khi đi đường', [
+      'Mũ bảo hiểm là món đồ không được thương lượng. Hãy chọn mũ vừa đầu con: đội lên rồi lắc nhẹ đầu, mũ không xoay lệch hay trượt xuống che mắt, phần đệm ôm đều quanh đầu mà không gây đau. Quai mũ phải cài chắc dưới cằm mỗi lần đi, kể cả quãng ngắn tới đầu ngõ, vì sự cố có thể xảy ra bất cứ lúc nào, ngay trên đoạn đường quen thuộc. Mũ từng bị va mạnh, nứt vỏ hoặc lớp xốp bên trong biến dạng thường nên thay chứ không dùng tiếp, và mũ truyền lại từ người khác chưa chắc đã vừa đầu con. Trang phục cũng góp phần: áo sáng màu để người khác dễ thấy, giày kín mũi có đế bám, ống quần gọn không vướng bánh hay bàn đạp, và không đeo tai nghe vì con cần nghe còi xe cùng tiếng động xung quanh.',
+      'Những lời dặn khi đi nên ngắn, cụ thể và dễ nhớ. Đi sát bên phải phần đường của mình, không đi hàng hai hàng ba để trò chuyện vì như thế vừa chiếm đường vừa mất tập trung; hai tay luôn giữ tay lái, không buông tay để khoe hay để lấy đồ; không cầm điện thoại, không nhìn màn hình khi đang lăn bánh. Chở bạn cũng cần bàn kỹ: xe được thiết kế cho một mức tải nhất định, chở thêm người khiến phanh kém hơn và tay lái nặng, khó giữ thăng bằng, nên con cần biết từ chối khi bạn rủ chở thêm. Hãy giải thích lý do thay vì chỉ cấm, và hỏi con thấy điều gì khó giữ nhất, vì chính con sẽ là người đứng trước lời rủ rê của bạn bè.',
+      'Có những chỗ con cần chậm lại hẳn: cổng trường, ngã tư và đầu ngõ, nơi người và xe từ nhiều phía có thể xuất hiện đột ngột. Trời mưa thì mặt đường trơn và tầm nhìn kém, nên con đi chậm hơn, giữ khoảng cách rộng hơn và phanh sớm, nhẹ, đều thay vì bóp gấp. Đến nơi, con gửi xe đúng chỗ nhà trường bố trí và khóa xe cẩn thận, tránh dựng chắn lối đi hay cạnh nơi dễ bị va đổ. Một điều nữa quan trọng không kém: con cần báo bố mẹ ngay khi xe có gì lạ, như phanh mềm, tiếng kêu bất thường, mùi khét, hay khi bị va quệt dù chỉ nhẹ. Hãy cho con biết rằng báo sớm không bị mắng, vì đứa trẻ sợ bị trách sẽ chọn im lặng.'
+    ]),
+    P('Sạc pin ở nhà sao cho an toàn', [
+      'Pin là phần cần cẩn trọng nhất của xe điện trong nhà, nên cả nhà cần thống nhất vài quy tắc rõ ràng. Quy tắc đầu tiên là chỉ dùng bộ sạc đúng loại đi kèm xe hoặc loại do nhà sản xuất chỉ định; bộ sạc mua lẻ cho rẻ hay mượn của xe khác có thể không khớp với pin, dẫn tới sạc sai cách và nóng bất thường. Hãy kiểm tra dây sạc còn nguyên, không đứt vỏ, không bẹp hay cháy xém ở đầu cắm, và ổ cắm phải chắc, không lỏng, không bị dùng chung với quá nhiều thiết bị tiêu thụ điện lớn. Tùy xe, pin có thể sạc ngay trên xe hoặc tháo ra sạc; dù cách nào cũng nên đọc kỹ sách hướng dẫn, và không tự tháo vỏ pin hay sửa mạch bên trong.',
+      'Chỗ sạc quan trọng không kém bộ sạc. Hãy chọn nơi thoáng khí, khô ráo, xa vật dễ cháy như giấy, vải, rèm cửa, đồ nhựa chất đống, can xăng hay bình gas, và xa lối thoát để nếu có sự cố thì cả nhà vẫn ra được. Không sạc cạnh chỗ ngủ, không sạc trong căn phòng kín nơi mọi người đang nằm nghỉ, và không đặt pin hay bộ sạc lên nệm, ghế đệm, thảm. Trong lúc sạc, nên có người lớn ở nhà để mắt tới thay vì để con tự sạc một mình. Tránh sạc qua đêm khi không ai theo dõi; hãy sắp xếp sạc vào lúc cả nhà còn thức, và rút điện khi pin đã đầy hoặc khi chuẩn bị đi ngủ hay ra khỏi nhà, tùy theo hướng dẫn của từng xe.',
+      'Có những dấu hiệu nghĩa là phải ngừng dùng ngay: pin phồng lên hoặc vỏ pin biến dạng, nóng bất thường khi chạm vào, có mùi lạ như mùi khét, bộ sạc nóng quá mức hay kêu rít. Lúc đó, hãy ngừng sạc và ngừng đi xe, rút điện nếu làm được một cách an toàn, để pin ở nơi thoáng, cách xa vật dễ cháy và không dùng thử thêm. Đừng cố chọc, bóp, tháo hay làm xẹp pin phồng; hãy nhờ thợ hoặc nơi có chuyên môn về pin xử lý. Thấy khói hoặc lửa thì ưu tiên đưa mọi người ra ngoài rồi gọi lực lượng cứu hỏa, không cố dập khi lửa đã bốc lên. Dặn con rằng gặp bất kỳ dấu hiệu nào ở pin hay bộ sạc, con chỉ cần báo người lớn ngay, không tự xử lý.'
+    ]),
+    P('Kiểm tra xe định kỳ cùng con như một thói quen', [
+      'Việc kiểm tra xe chỉ bền khi nó trở thành thói quen chung chứ không phải màn thanh tra của bố mẹ. Hãy đặt một buổi cố định mỗi tuần, ngắn gọn và đều đặn, để cùng con xem xe trước khi bước sang tuần đi học mới. Hãy để con tự làm trước từng bước, bạn đứng cạnh xem lại và bổ sung; cách này giúp con hiểu xe hoạt động ra sao, nhìn ra lỗi sớm và thấy mình được tin tưởng. Có thể dùng một thứ tự dễ nhớ: nhìn xe tổng thể, bóp phanh, thử đèn và chuông, sờ lốp, lắc nhẹ tay lái, nhìn dây sạc và đầu cắm. Dán danh sách ngắn ở chỗ để xe sẽ giúp con không quên, và việc tự đánh dấu từng mục tạo cảm giác làm chủ chiếc xe của mình.',
+      'Mỗi lần kiểm tra, hãy tìm những thay đổi nhỏ trước khi chúng thành hỏng lớn. Phanh có bóp sâu hơn hay phải bóp mạnh hơn trước không, lốp có mòn lệch một bên hay có vật nhọn cắm vào không, đèn có chập chờn không, ốc bắt gương, yên, giỏ và tay lái có lỏng không, chân chống còn chắc không. Với phần điện, hãy nhìn vỏ pin xem có nứt, phồng, vết ố hay dấu cháy xém, sờ đầu cắm xem có nóng bất thường sau khi sạc, và để ý tiếng lạ khi xe chạy. Chu kỳ đưa xe đi bảo dưỡng tùy từng loại xe và mức độ sử dụng, nên hãy theo sách hướng dẫn của nhà sản xuất hoặc lời khuyên của thợ có chuyên môn thay vì tự đoán. Thấy phanh yếu, lốp hỏng hay pin lạ thì chưa giao xe cho con cho tới khi đã được xử lý.',
+      'Cuối cùng, hãy gắn thói quen báo bố mẹ vào chính buổi kiểm tra này. Con cần biết rằng xe có gì lạ như tiếng kêu mới, phanh mềm, mùi khét, pin nóng hay đèn chập chờn thì cứ ngừng đi và nói, kể cả khi không chắc đó có phải hỏng thật hay không. Sau mỗi lần va quệt, dù xe chỉ trầy nhẹ, hãy cùng con xem lại xe và hỏi han cả cảm giác của con, vì cú va có thể làm lệch tay lái, yếu phanh hay lỏng chi tiết mà mắt thường chưa thấy. Bạn phản hồi bình tĩnh, hỏi chuyện gì đã xảy ra thay vì quy trách nhiệm, rồi cùng con rút ra điều cần đổi. Theo thời gian, khi con tỏ ra cẩn trọng và trung thực, bạn có thể trao thêm trách nhiệm một cách từ từ.'
+    ])
+  ],
+  checklist: [
+    'Con giữ thăng bằng vững lúc xuất phát, lúc dừng và lúc đi chậm; biết quan sát, nhường đường và phanh đúng phản xạ.',
+    'Đã đi thử cùng người lớn trên đúng tuyến tới trường, cả giờ vắng lẫn giờ đông.',
+    'Phanh trước và phanh sau ăn đều, tay phanh vừa tay con; đèn, chuông hoặc còi, gương, lốp, chân chống đều ổn; yên chỉnh để chân chạm đất khi dừng.',
+    'Mũ vừa đầu, cài quai mỗi lần đi; áo sáng màu, giày kín, không tai nghe, không dùng điện thoại khi đi.',
+    'Bộ sạc đúng loại, chỗ sạc thoáng và xa vật dễ cháy, có người lớn ở nhà; cuối tuần cùng con xem lại xe một lượt.'
+  ],
+  steps: [
+    { title: 'Đánh giá con trước khi giao xe', detail: 'Xem thăng bằng, thói quen quan sát, nhường đường, phản xạ phanh và việc hiểu đèn, vạch đường; chỗ nào còn yếu thì tập thêm ở nơi vắng.' },
+    { title: 'Kiểm tra xe cùng con', detail: 'Dắt xe thử phanh trước và sau, bật đèn, thử chuông hoặc còi, nhìn gương, lốp, chân chống, chỉnh yên và tay phanh cho vừa tầm; điểm nào bất thường thì ra thợ.' },
+    { title: 'Đi thử trên tuyến tới trường', detail: 'Đi cùng con vào giờ vắng rồi giờ đông, chú ý cổng trường, ngã tư, đầu ngõ, rồi trao đổi sau chuyến đi thay vì nhắc giữa đường.' },
+    { title: 'Thống nhất quy tắc sạc và kiểm tra', detail: 'Đặt chỗ sạc, người trông và thời điểm sạc cố định trong nhà, kèm một buổi xem xe mỗi tuần để con quen với việc kiểm tra và báo bố mẹ.' }
+  ],
+  warnings: [
+    'Pin phồng, nóng bất thường, có mùi lạ hoặc bộ sạc nóng quá mức là lý do ngừng sạc và ngừng đi xe ngay; không tự tháo, bóp hay chọc pin, hãy nhờ thợ có chuyên môn xử lý.',
+    'Không sạc qua đêm khi không ai theo dõi, không sạc cạnh chỗ ngủ hay lối thoát, không để pin và bộ sạc gần vật dễ cháy.',
+    'Phanh yếu, tay phanh bất thường, lốp hỏng hoặc đèn không sáng thì chưa giao xe cho con; không độ tăng tốc, không dùng pin hay bộ sạc khác loại.'
+  ],
+  notes: [
+    'Điều kiện pháp lý khi cho con tham gia giao thông cần được tìm hiểu từ nguồn chính thức của cơ quan quản lý; bài này chỉ bàn về chuẩn bị thực tế và thói quen an toàn.',
+    'Cách tháo, sạc pin, độ căng lốp và chu kỳ bảo dưỡng khác nhau tùy từng xe; hãy đối chiếu với sách hướng dẫn của nhà sản xuất hoặc hỏi thợ có chuyên môn.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần phanh, lốp, pin và bộ sạc',
+    'Hướng dẫn của nhà sản xuất mũ bảo hiểm về cách đội, cài quai và khi nào nên thay mũ'
+  ],
+  related: ['xe-50cc-cho-hoc-sinh', 'di-xe-may-qua-khu-vuc-truong-hoc-luu-y', 'pin-thao-roi-tren-xe-may-dien-thao-lap-mang-vac-va-sac-trong-nha', 'bo-sac-xe-may-dien-bi-hong-dau-hieu-nhan-biet', 'xe-dien-duoi-50cc']
+};
