@@ -20313,11 +20313,13 @@
    "title": "Đi xe máy trên đường đê và đường ven kênh: mép không lan can, dốc lên xuống đê và những lúc nước lên",
    "primaryIntent": "informational/di-xe-may-tren-duong-de-va-duong-ven-kenh-mep-khong-lan-can-doc-len-xuong-de-va-luc-nuoc-len",
    "notes": "source=topic-v2 topicId=T001504",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:57:45.799Z",
-   "updatedAt": "2026-10-13T12:57:45.799Z"
+   "updatedAt": "2026-10-13T13:26:21.623Z",
+   "seoScore": 100,
+   "words": 3022
   },
   {
    "id": "S01399",
@@ -20326,11 +20328,13 @@
    "title": "Khóa phanh đỗ trên xe tay ga là gì: dùng khi nào, cách cài và nhả, lưu ý khi đỗ xe trên dốc",
    "primaryIntent": "informational/khoa-phanh-do-tren-xe-tay-ga-la-gi-dung-khi-nao-cach-cai-nha-va-luu-y-khi-do-doc",
    "notes": "source=topic-v2 topicId=T001506",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:57:45.849Z",
-   "updatedAt": "2026-10-13T12:57:45.849Z"
+   "updatedAt": "2026-10-13T13:26:21.623Z",
+   "seoScore": 100,
+   "words": 3076
   },
   {
    "id": "S01400",
@@ -20339,11 +20343,13 @@
    "title": "Cao su giảm chấn ở đùm bánh sau xe số: vai trò, dấu hiệu mòn khi xe giật lúc lên ga và khi nào thay",
    "primaryIntent": "troubleshooting/cao-su-giam-chan-o-dum-banh-sau-xe-so-vai-tro-dau-hieu-mon-va-khi-nao-thay",
    "notes": "source=topic-v2 topicId=T001507",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:57:45.877Z",
-   "updatedAt": "2026-10-13T12:57:45.877Z"
+   "updatedAt": "2026-10-13T13:26:21.623Z",
+   "seoScore": 100,
+   "words": 3013
   },
   {
    "id": "S01401",
@@ -20352,11 +20358,13 @@
    "title": "Đi xe côn tay trong phố kẹt xe: rà côn, chọn số, đỡ mỏi tay trái và tránh chết máy khi nhích từng đoạn",
    "primaryIntent": "informational/di-xe-con-tay-trong-pho-ket-xe-ra-con-chon-so-do-moi-tay-va-tranh-chet-may",
    "notes": "source=topic-v2 topicId=T001508",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T12:57:45.902Z",
-   "updatedAt": "2026-10-13T12:57:45.902Z"
+   "updatedAt": "2026-10-13T13:26:21.623Z",
+   "seoScore": 91,
+   "words": 2860
   }
  ]
 }
