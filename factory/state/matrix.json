@@ -21465,6 +21465,19 @@
    "attempts": 0,
    "createdAt": "2026-10-13T15:23:36.932Z",
    "updatedAt": "2026-10-13T15:23:36.932Z"
+  },
+  {
+   "id": "S01476",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "chuyen-tu-xe-dap-dien-len-xe-may-toc-do-phanh-trong-luong-va-nhung-thoi-quen-can-doi",
+   "title": "Chuyển từ xe đạp điện lên xe máy: tốc độ, phanh, trọng lượng và những thói quen cần đổi",
+   "primaryIntent": "informational/chuyen-tu-xe-dap-dien-len-xe-may-toc-do-phanh-trong-luong-va-nhung-thoi-quen-can-doi",
+   "notes": "source=topic-v2 topicId=T001604",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:25:49.487Z",
+   "updatedAt": "2026-10-13T15:25:49.487Z"
   }
  ]
 }
