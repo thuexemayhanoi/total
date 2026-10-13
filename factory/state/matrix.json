@@ -21528,11 +21528,13 @@
    "title": "Độ nồi, độ pô hay độ máy xe máy: được gì, mất gì và những điều nên cân nhắc trước khi làm",
    "primaryIntent": "informational/do-noi-do-po-hay-do-may-xe-may-duoc-gi-mat-gi-va-nhung-dieu-nen-can-nhac-truoc-khi-lam",
    "notes": "source=topic-v2 topicId=T001612",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:44:31.534Z",
-   "updatedAt": "2026-10-13T15:44:31.535Z"
+   "updatedAt": "2026-10-13T15:49:29.558Z",
+   "seoScore": 100,
+   "words": 3100
   },
   {
    "id": "S01480",
@@ -21541,11 +21543,13 @@
    "title": "Đi đường dài bằng xe tay ga: kiểm tra dây curoa và bộ nồi, đổ đèo, chở đồ và nhịp nghỉ",
    "primaryIntent": "informational/di-duong-dai-bang-xe-tay-ga-kiem-tra-day-curoa-va-bo-noi-do-deo-cho-do-va-nhip-nghi",
    "notes": "source=topic-v2 topicId=T001613",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:44:31.586Z",
-   "updatedAt": "2026-10-13T15:44:31.586Z"
+   "updatedAt": "2026-10-13T15:49:29.558Z",
+   "seoScore": 100,
+   "words": 2999
   },
   {
    "id": "S01481",
@@ -21554,11 +21558,13 @@
    "title": "Gắn dù hay mái che lên xe máy: vì sao xe dễ lật trong gió, che tầm nhìn và cách che thay thế",
    "primaryIntent": "informational/gan-du-hay-mai-che-len-xe-may-vi-sao-xe-de-lat-trong-gio-che-tam-nhin-va-cach-che-thay-the",
    "notes": "source=topic-v2 topicId=T001614",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T15:44:31.622Z",
-   "updatedAt": "2026-10-13T15:44:31.622Z"
+   "updatedAt": "2026-10-13T15:49:29.558Z",
+   "seoScore": 100,
+   "words": 3116
   }
  ]
 }
