@@ -1980,6 +1980,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/cong-sac-tren-xe-may-dien-bi-uot-ban-long-hoac-chay-xem-dau-hieu-va-viec-nen-lam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/doc-thong-so/cong-suat-mo-men-xoan/index.html",
   "kind": "article"
  },
@@ -2133,6 +2137,10 @@
  },
  {
   "rel": "tips/meo-lai-xe/deo-kinh-khi-di-xe-may-kinh-can-kinh-ram-va-di-dem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/di-du-lich-bang-xe-may-cung-tre-nho-chia-chang-nghi-thuong-xuyen-va-do-can-mang/index.html",
   "kind": "article"
  },
  {
@@ -2321,6 +2329,10 @@
  },
  {
   "rel": "wiki/dong-co/dung-tich-xi-lanh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/dung-xe-chup-anh-ngam-canh-tren-deo-va-ven-duong-chon-cho-dung-an-toan/index.html",
   "kind": "article"
  },
  {
@@ -2804,6 +2816,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/lai-xe-may-khi-dang-cang-thang-buon-buc-hoac-vua-nhan-tin-xau/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/nhu-cau-su-dung/lai-xe-may-lai-sau-chan-thuong-tay-chan-hoac-phau-thuat-hoi-bac-si-va-tu-kiem-tra/index.html",
   "kind": "article"
  },
@@ -2916,6 +2932,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/su-dung-xe/mang-ba-lo-tui-deo-va-do-cam-tay-khi-di-xe-may-deo-the-nao-cho-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/xu-ly-su-co/mat-phanh-giua-duong-xu-ly-an-toan/index.html",
   "kind": "article"
  },
@@ -2969,6 +2989,10 @@
  },
  {
   "rel": "market/gia-phu-tung/mua-phu-tung-xe-may-online/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "market/mua-ban-xe-cu/mua-xe-may-dien-cu-kiem-tra-pin-bo-sac-dong-co-va-nhung-diem-khac-xe-xang-cu/index.html",
   "kind": "article"
  },
  {
@@ -4389,6 +4413,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/vao-cua-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-duong-dai/ve-que-dip-tet-bang-xe-may-chuan-bi-xe-cho-do-chia-chang-va-an-toan/index.html",
   "kind": "article"
  },
  {

@@ -19743,11 +19743,13 @@
    "title": "Mang ba lô, túi đeo và đồ cầm tay khi đi xe máy: đeo thế nào cho an toàn và vì sao không nên lái một tay",
    "primaryIntent": "informational/mang-ba-lo-tui-deo-va-do-cam-tay-khi-di-xe-may-deo-the-nao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T001459",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:57:06.217Z",
-   "updatedAt": "2026-10-13T07:57:06.217Z"
+   "updatedAt": "2026-10-13T08:21:40.967Z",
+   "seoScore": 100,
+   "words": 3082
   },
   {
    "id": "S01361",
@@ -19756,11 +19758,13 @@
    "title": "Lái xe máy khi đang căng thẳng, buồn bực hay vừa nhận tin xấu: vì sao dễ gặp nạn và nên làm gì",
    "primaryIntent": "informational/lai-xe-may-khi-dang-cang-thang-buon-buc-hoac-vua-nhan-tin-xau",
    "notes": "source=topic-v2 topicId=T001461",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:57:06.252Z",
-   "updatedAt": "2026-10-13T07:57:06.252Z"
+   "updatedAt": "2026-10-13T08:21:40.967Z",
+   "seoScore": 100,
+   "words": 2966
   },
   {
    "id": "S01362",
@@ -19769,11 +19773,13 @@
    "title": "Dừng xe chụp ảnh, ngắm cảnh trên đèo và ven đường: chọn chỗ dừng, đỗ xe và những chỗ không được dừng",
    "primaryIntent": "informational/dung-xe-chup-anh-ngam-canh-tren-deo-va-ven-duong-chon-cho-dung-an-toan",
    "notes": "source=topic-v2 topicId=T001462",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:57:06.282Z",
-   "updatedAt": "2026-10-13T07:57:06.282Z"
+   "updatedAt": "2026-10-13T08:21:40.967Z",
+   "seoScore": 100,
+   "words": 2885
   },
   {
    "id": "S01363",
@@ -19782,11 +19788,13 @@
    "title": "Đi du lịch bằng xe máy cùng trẻ nhỏ: có nên không, chia chặng ngắn, nghỉ thường xuyên và đồ cần mang",
    "primaryIntent": "informational/di-du-lich-bang-xe-may-cung-tre-nho-chia-chang-nghi-thuong-xuyen-va-do-can-mang",
    "notes": "source=topic-v2 topicId=T001463",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:57:06.306Z",
-   "updatedAt": "2026-10-13T07:57:06.306Z"
+   "updatedAt": "2026-10-13T08:21:40.967Z",
+   "seoScore": 100,
+   "words": 3055
   },
   {
    "id": "S01364",
@@ -19795,11 +19803,13 @@
    "title": "Về quê dịp Tết bằng xe máy: chuẩn bị xe, chở đồ, chia chặng và an toàn trên quốc lộ đông xe",
    "primaryIntent": "informational/ve-que-dip-tet-bang-xe-may-chuan-bi-xe-cho-do-chia-chang-va-an-toan",
    "notes": "source=topic-v2 topicId=T001464",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:57:06.336Z",
-   "updatedAt": "2026-10-13T07:57:06.336Z"
+   "updatedAt": "2026-10-13T08:21:40.967Z",
+   "seoScore": 100,
+   "words": 3067
   },
   {
    "id": "S01365",
@@ -19808,11 +19818,13 @@
    "title": "Mua xe máy điện cũ: kiểm tra pin, bộ sạc, động cơ và những điểm khác với mua xe xăng cũ",
    "primaryIntent": "informational/mua-xe-may-dien-cu-kiem-tra-pin-bo-sac-dong-co-va-nhung-diem-khac-xe-xang-cu",
    "notes": "source=topic-v2 topicId=T001465",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:57:06.366Z",
-   "updatedAt": "2026-10-13T07:57:06.366Z"
+   "updatedAt": "2026-10-13T08:21:40.967Z",
+   "seoScore": 91,
+   "words": 2986
   },
   {
    "id": "S01366",
@@ -19821,11 +19833,13 @@
    "title": "Cổng sạc trên xe máy điện bị ướt, bẩn, lỏng hoặc cháy xém: dấu hiệu và việc nên làm",
    "primaryIntent": "troubleshooting/cong-sac-tren-xe-may-dien-bi-uot-ban-long-hoac-chay-xem-dau-hieu-va-viec-nen-lam",
    "notes": "source=topic-v2 topicId=T001466",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:57:06.397Z",
-   "updatedAt": "2026-10-13T07:57:06.397Z"
+   "updatedAt": "2026-10-13T08:21:40.967Z",
+   "seoScore": 100,
+   "words": 3005
   },
   {
    "id": "S01367",
