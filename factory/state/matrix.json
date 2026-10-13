@@ -20884,6 +20884,19 @@
    "attempts": 0,
    "createdAt": "2026-10-13T14:13:31.741Z",
    "updatedAt": "2026-10-13T14:13:31.741Z"
+  },
+  {
+   "id": "S01437",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "di-gan-xe-cho-sat-thep-ong-hay-cay-dai-nho-ra-giu-khoang-cach-va-tranh-phan-nho",
+   "title": "Đi gần xe chở sắt thép, ống hay cây dài nhô ra phía sau: giữ khoảng cách và tránh phần hàng nhô",
+   "primaryIntent": "informational/di-gan-xe-cho-sat-thep-ong-hay-cay-dai-nho-ra-giu-khoang-cach-va-tranh-phan-nho",
+   "notes": "source=topic-v2 topicId=T001555",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:17:38.953Z",
+   "updatedAt": "2026-10-13T14:17:38.953Z"
   }
  ]
 }
