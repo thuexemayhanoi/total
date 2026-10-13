@@ -21490,6 +21490,32 @@
    "updatedAt": "2026-10-13T15:31:07.136Z",
    "seoScore": 100,
    "words": 2931
+  },
+  {
+   "id": "S01477",
+   "hub": "garage/loi-thuong-gap",
+   "slug": "xe-may-bi-bo-may-khi-dang-chay-dau-hieu-som-phan-xa-an-toan-va-vi-sao-khong-de-lai",
+   "title": "Xe máy bị bó máy khi đang chạy: dấu hiệu sớm, phản xạ an toàn và vì sao không cố đề lại",
+   "primaryIntent": "troubleshooting/xe-may-bi-bo-may-khi-dang-chay-dau-hieu-som-phan-xa-an-toan-va-vi-sao-khong-de-lai",
+   "notes": "source=topic-v2 topicId=T001609",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:37:16.530Z",
+   "updatedAt": "2026-10-13T15:37:16.530Z"
+  },
+  {
+   "id": "S01478",
+   "hub": "tips/meo-lai-xe",
+   "slug": "di-xe-may-bi-u-tai-tieng-gio-tieng-may-va-cach-giam-on-ma-van-nghe-duoc-coi",
+   "title": "Đi xe máy bị ù tai: tiếng gió, tiếng máy và cách giảm ồn mà vẫn nghe được còi",
+   "primaryIntent": "informational/di-xe-may-bi-u-tai-tieng-gio-tieng-may-va-cach-giam-on-ma-van-nghe-duoc-coi",
+   "notes": "source=topic-v2 topicId=T001610",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:37:16.576Z",
+   "updatedAt": "2026-10-13T15:37:16.576Z"
   }
  ]
 }
