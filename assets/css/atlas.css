@@ -753,6 +753,31 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
 }
 .footer-cats a:hover, .footer-meta a:hover { color: #fff; text-decoration: none; }
 
+/* Footer menu parity: 15 parent categories and all 97 hub links, collapsed by default. */
+.footer-directory { grid-column: 1 / -1; border-top: 1px solid rgba(201, 210, 227, 0.22); padding-top: 16px; }
+.footer-directory-toggle {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  min-height: 44px; padding: 8px 4px; cursor: pointer; list-style: none;
+  color: #E5EAF5; font-weight: 700; font-size: 15px;
+}
+.footer-directory-toggle::-webkit-details-marker { display: none; }
+.footer-directory-toggle span { transition: transform 0.18s ease; }
+.footer-directory[open] .footer-directory-toggle span { transform: rotate(180deg); }
+.footer-directory-grid {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px 30px; padding: 14px 4px 24px;
+}
+.footer-directory-group { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.footer-directory-grid a { color: #C9D2E3; font-size: 13.5px; line-height: 1.5; padding: 5px 0; overflow-wrap: anywhere; }
+.footer-directory-grid a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.footer-directory-grid .footer-directory-cat { font-weight: 700; color: #fff; font-size: 14px; margin-bottom: 4px; }
+@media (max-width: 1023px) { .footer-directory-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 767px) {
+  .footer-directory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+  .footer-directory-grid a { display: flex; align-items: center; min-height: 44px; padding: 8px 0; }
+}
+@media (max-width: 479px) { .footer-directory-grid { grid-template-columns: minmax(0, 1fr); } }
+
 /* ---------- 15. Responsive ————
    Mobile 320/360/375/390/430 · Tablet 768/820/1024 · Desktop 1280/1440/1920
    Mỗi dải có bố cục riêng, không chỉ scale. */

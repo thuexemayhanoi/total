@@ -192,6 +192,19 @@ function footerHtml() {
     const c = CATEGORIES.find(x => x.slug === slug);
     return `<a href="${u(c.slug + '/')}">${esc(c.name)}</a>`;
   }).join('');
+  // Footer directory mirrors the mega/mobile menu from the same canonical category data.
+  // Keep the 97 hub links collapsed for readability, without omitting them from the HTML.
+  const directoryGroups = HOME_CATEGORY_ORDER.map(slug => {
+    const c = CATEGORIES.find(x => x.slug === slug);
+    if (!c) return '';
+    const hubs = c.children.map(h =>
+      `<a class="footer-hub" href="${u(c.slug + '/' + h.slug + '/')}">${esc(h.name)}</a>`
+    ).join('');
+    return `<div class="footer-directory-group">
+      <a class="footer-directory-cat" href="${u(c.slug + '/')}">${esc(c.name)}</a>
+      ${hubs}
+    </div>`;
+  }).join('');
   return `<footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
@@ -209,12 +222,19 @@ function footerHtml() {
     </nav>
     <nav class="footer-col footer-meta" aria-label="Thông tin">
       <p class="footer-col-title">Thông tin</p>
+      <a href="${u('')}">Trang chủ</a>
       <a href="${u('gioi-thieu/')}">Giới thiệu</a>
       <a href="${u('lien-he/')}">Liên hệ</a>
       <a href="${u('chinh-sach-bao-mat/')}">Chính sách bảo mật</a>
       <a href="${u('dieu-khoan-su-dung/')}">Điều khoản sử dụng</a>
       <a href="${u('tim-kiem/')}">Tìm kiếm</a>
     </nav>
+    <details class="footer-directory">
+      <summary class="footer-directory-toggle">Danh mục <span aria-hidden="true">▾</span></summary>
+      <nav class="footer-directory-grid" aria-label="Tất cả danh mục và chủ đề">
+        ${directoryGroups}
+      </nav>
+    </details>
   </div>
 </footer>`;
 }

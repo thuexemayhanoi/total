@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 const assert = require('node:assert/strict');
-const { SITE, EDITORIAL, CONTENT_SLOTS } = require('./site.config');
+const { SITE, EDITORIAL, CONTENT_SLOTS, HOME_CATEGORY_ORDER, PRIMARY_NAV } = require('./site.config');
+const { CATEGORIES } = require('./data/categories');
 const { renderSlot, internalHref } = require('./lib/slots');
 const { chooseRelated } = require('./lib/related');
 const S = require('./lib/shell');
@@ -42,5 +43,38 @@ assert(page.includes('src="/assets/js/nav.js?v=' + navScriptHash + '"'));
 assert(page.includes('class="menu-close dd-close"') && page.includes('aria-label="Đóng menu Thuê xe"'));
 assert(page.includes('class="menu-close mega-close"') && page.includes('aria-label="Đóng menu Danh mục"'));
 assert(page.includes('https://wiki.thuexemaynguyentu.com/lien-he/'));
+const footer = S.footerHtml();
+const mega = S.megaMenu();
+const mobile = S.headerHtml();
+assert(footer.includes('<a href="/">Trang chủ</a>'), 'Footer has a labeled homepage link');
+assert(footer.includes('<summary class="footer-directory-toggle">Danh mục'), 'Footer has category menu label');
+assert(footer.includes('aria-label="Tất cả danh mục và chủ đề"'), 'Footer has accessible directory nav');
+let expectedHubLinks = 0;
+for (const slug of HOME_CATEGORY_ORDER) {
+  const cat = CATEGORIES.find(c => c.slug === slug);
+  assert(cat, 'Configured category exists: ' + slug);
+  const catHref = '/' + slug + '/';
+  assert(footer.includes('class="footer-directory-cat" href="' + catHref + '">' + S.esc(cat.name) + '</a>'),
+    'Footer category label/link matches menu: ' + slug);
+  for (const hub of cat.children) {
+    const href = '/' + slug + '/' + hub.slug + '/';
+    const label = S.esc(hub.name);
+    assert(mega.includes('class="mega-sub" href="' + href + '">' + label + '</a>'),
+      'Mega menu contains child hub: ' + href);
+    assert(mobile.includes('class="mnav-child" href="' + href + '">' + label + '</a>'),
+      'Mobile menu contains child hub: ' + href);
+    assert(footer.includes('class="footer-hub" href="' + href + '">' + label + '</a>'),
+      'Footer mirrors child hub label/link: ' + href);
+    expectedHubLinks++;
+  }
+}
+assert.equal((footer.match(/class="footer-hub" href=/g) || []).length, expectedHubLinks,
+  'Footer has exactly all menu child hub links');
+for (const item of PRIMARY_NAV.filter(n => !n.mega && !n.dropdown)) {
+  const href = '/' + (item.href || '');
+  assert(footer.includes('href="' + href + '">' + S.esc(item.label) + '</a>'),
+    'Footer includes top-level menu label: ' + item.label);
+}
+assert(page.includes('class="footer-directory"'), 'Directory is rendered on every generated page');
 assert(!page.includes('editorial-slot'));
 console.log('SHARED_SITE_QA_OK');
