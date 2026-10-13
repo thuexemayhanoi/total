@@ -20418,11 +20418,13 @@
    "title": "Sợ lái xe máy sau một lần ngã hoặc tai nạn: lấy lại tự tin từng bước và khi nào nên tìm người hỗ trợ",
    "primaryIntent": "informational/so-lai-xe-may-sau-mot-lan-nga-hoac-tai-nan-lay-lai-tu-tin-tung-buoc-va-khi-nao-can-ho-tro",
    "notes": "source=topic-v2 topicId=T001514",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:35:24.810Z",
-   "updatedAt": "2026-10-13T13:35:24.811Z"
+   "updatedAt": "2026-10-13T13:43:00.452Z",
+   "seoScore": 100,
+   "words": 3298
   },
   {
    "id": "S01406",
@@ -20431,11 +20433,13 @@
    "title": "Xe máy chết máy hoặc giật khi đi mưa và sau khi rửa xe: nước ở chụp bugi, giắc điện, lọc gió và việc nên làm",
    "primaryIntent": "troubleshooting/xe-may-chet-may-hoac-giat-khi-di-mua-va-sau-khi-rua-xe-nuoc-o-chup-bugi-giac-dien-va-loc-gio",
    "notes": "source=topic-v2 topicId=T001515",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:35:24.847Z",
-   "updatedAt": "2026-10-13T13:35:24.847Z"
+   "updatedAt": "2026-10-13T13:43:00.453Z",
+   "seoScore": 91,
+   "words": 3143
   },
   {
    "id": "S01407",
@@ -20444,11 +20448,13 @@
    "title": "Túi ni lông, dây hoặc vải cuốn vào bánh xe hay xích khi đang chạy: dấu hiệu, dừng xe và gỡ ra cho an toàn",
    "primaryIntent": "troubleshooting/tui-ni-long-day-hoac-vai-cuon-vao-banh-xe-hay-xich-khi-dang-chay-dau-hieu-dung-xe-va-go-ra",
    "notes": "source=topic-v2 topicId=T001516",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:35:24.886Z",
-   "updatedAt": "2026-10-13T13:35:24.886Z"
+   "updatedAt": "2026-10-13T13:43:00.453Z",
+   "seoScore": 100,
+   "words": 2807
   },
   {
    "id": "S01408",
@@ -20457,11 +20463,13 @@
    "title": "Chìa khóa xe máy bị gãy trong ổ khóa: lấy phần gãy ra thế nào và khi nào nên gọi thợ khóa",
    "primaryIntent": "troubleshooting/chia-khoa-xe-may-bi-gay-trong-o-khoa-lay-phan-gay-ra-the-nao-va-khi-nao-goi-tho-khoa",
    "notes": "source=topic-v2 topicId=T001517",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:35:24.924Z",
-   "updatedAt": "2026-10-13T13:35:24.924Z"
+   "updatedAt": "2026-10-13T13:43:00.452Z",
+   "seoScore": 91,
+   "words": 2917
   },
   {
    "id": "S01409",
@@ -20470,11 +20478,13 @@
    "title": "Quên tháo khóa đĩa rồi dắt hoặc chạy xe máy: chuyện gì xảy ra với đĩa phanh, càng phanh và cách để không quên",
    "primaryIntent": "troubleshooting/quen-thao-khoa-dia-roi-dat-hay-chay-xe-may-chuyen-gi-xay-ra-va-cach-phong",
    "notes": "source=topic-v2 topicId=T001518",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:35:24.957Z",
-   "updatedAt": "2026-10-13T13:35:24.957Z"
+   "updatedAt": "2026-10-13T13:43:00.452Z",
+   "seoScore": 100,
+   "words": 2997
   },
   {
    "id": "S01410",
