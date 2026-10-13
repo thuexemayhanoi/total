@@ -1107,8 +1107,11 @@ Lệnh:
   index-rebuild [--role R]       Dựng lại content-index.sqlite (derived cache,
                                   KHÔNG commit) từ manifest + content — an toàn
                                   khi missing/corrupt/stale; chỉ role=coordinator
-  index-check                    Read-only: kiểm SQLite vs manifest (quick_check,
-                                  số dòng, manifest_sha256) — exit 1 khi cần rebuild
+  index-check                    Read-only: SQLite vs manifest + đủ PUBLISHED IDs
+                                  trong Matrix (quick_check/hash/completeness)
+  index-refresh <ID,...> --role coordinator
+                                  Sau publish: refresh 1–10 bài + SQLite, bootstrap
+                                  1 lần nếu manifest thiếu; fail-closed
   cycle-plan                     (Legacy recovery) Kế hoạch cycle: 12-18 slot
                                   PASS/PLANNED, không còn phân công writer
                                   (hot path nay la Writer 1 pair — writer-next)
@@ -1638,10 +1641,20 @@ function main() {
     return;
   }
   if (cmd === 'index-check') {
-    // Read-only: missing/corrupt/stale -> exit 1 (gợi ý index-rebuild).
+    // Strict read-only: manifest must cover ALL PUBLISHED Matrix IDs.
     const st = contentIndex.status(contentIndex.DB_FILE, MANIFEST_FILE);
     if (!st.ok) { console.error('INDEX_CHECK_FAIL: ' + st.why); process.exit(1); }
-    console.log('INDEX_OK rows=' + st.dbRows + '/' + st.manifestRows + ' quick_check=ok manifest_sha256=match');
+    console.log('INDEX_OK published=' + st.publishedRows + ' rows=' + st.dbRows +
+      '/' + st.manifestRows + ' quick_check=ok manifest_sha256=match');
+    return;
+  }
+  if (cmd === 'index-refresh') {
+    // New hot path is coordinator-only. Requires EXPLICIT role and exact scope.
+    contentIndex.assertCoordinator(opt('--role'));
+    const ids = parseBatchIds(positional(rest).join(' '));
+    const out = contentIndex.syncPublishedBatch(path.join(__dirname, '..'), ids);
+    console.log('INDEX_REFRESH_OK mode=' + out.mode + ' published=' + out.published +
+      ' rows=' + out.total + ' ids=' + out.ids.join(','));
     return;
   }
   if (cmd === 'push-scope') {
