@@ -1664,6 +1664,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/bi-o-to-xe-tai-chay-qua-vung-tat-nuoc-trum-nguoi-khi-di-xe-may-giu-thang-lai-khong-phanh-gap-va-phong-tu-truoc/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/gia-xe/bien-dong-gia-xe/index.html",
   "kind": "article"
  },
@@ -2156,6 +2160,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/su-dung-xe/cua-cuon-cua-xep-va-cong-truot-khi-dua-xe-may-ra-vao-nha-khong-luon-duoi-cua-dang-ha-giu-tay-khoi-khe-va-ray/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/cung-duong/cung-duong-nui/index.html",
   "kind": "article"
  },
@@ -2324,6 +2332,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/di-choi-cung-nhom-ban-hay-phong-nhanh-giu-toc-do-cua-minh-tu-choi-kheo-va-hen-diem-gap-thay-vi-duoi-theo/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/du-lich-xe-may/di-du-lich-bang-xe-may-cung-tre-nho-chia-chang-nghi-thuong-xuyen-va-do-can-mang/index.html",
   "kind": "article"
  },
@@ -2357,6 +2369,10 @@
  },
  {
   "rel": "ride/lai-xe-trong-thanh-pho/di-sau-hoac-vuot-xe-may-cho-hang-cong-kenh-giu-khoang-cach-va-de-phong-hang-roi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-trong-lan-xe-may-co-dai-phan-cach-cung-it-loi-thoat-cho-o-to-cat-ngang-va-cach-giu-khoang-trong-lan-chat/index.html",
   "kind": "article"
  },
  {
@@ -3788,6 +3804,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/sau-rom-long-sau-roi-xuong-nguoi-khi-di-xe-may-duoi-hang-cay-dung-xe-khong-gai-dui-va-go-long-sau-dung-cach/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/piaggio/scooter-y/index.html",
   "kind": "article"
  },
@@ -5061,6 +5081,10 @@
  },
  {
   "rel": "market/mua-ban-xe-cu/xe-cu-bi-chinh-cong-to-met/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/xe-dap-dien-het-dien-giua-duong-dap-ve-the-nao-cho-do-nang-khi-nao-nen-dat-bo-va-kiem-tra-xich-ban-dap/index.html",
   "kind": "article"
  },
  {

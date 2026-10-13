@@ -22293,11 +22293,13 @@
    "title": "Cửa cuốn, cửa xếp và cổng trượt khi đưa xe máy ra vào nhà: không luồn dưới cửa đang hạ, giữ tay khỏi khe và ray",
    "primaryIntent": "informational/cua-cuon-cua-xep-va-cong-truot-khi-dua-xe-may-ra-vao-nha-khong-luon-duoi-cua-dang-ha-giu-tay-khoi-khe-va-ray",
    "notes": "source=topic-v2 topicId=T001666",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:32:42.276Z",
-   "updatedAt": "2026-10-13T20:32:42.277Z"
+   "updatedAt": "2026-10-13T20:38:05.554Z",
+   "seoScore": 100,
+   "words": 2985
   },
   {
    "id": "S01531",
@@ -22306,11 +22308,13 @@
    "title": "Xe đạp điện hết điện giữa đường: đạp về thế nào cho đỡ nặng, khi nào nên dắt bộ và kiểm tra xích, bàn đạp",
    "primaryIntent": "troubleshooting/xe-dap-dien-het-dien-giua-duong-dap-ve-the-nao-cho-do-nang-khi-nao-nen-dat-bo-va-kiem-tra-xich-ban-dap",
    "notes": "source=topic-v2 topicId=T001667",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:32:42.320Z",
-   "updatedAt": "2026-10-13T20:32:42.320Z"
+   "updatedAt": "2026-10-13T20:38:05.554Z",
+   "seoScore": 91,
+   "words": 2919
   },
   {
    "id": "S01532",
@@ -22319,11 +22323,13 @@
    "title": "Bị ô tô, xe tải chạy qua vũng tạt nước trùm người khi đi xe máy: giữ thẳng lái, không phanh gấp và phòng từ trước",
    "primaryIntent": "informational/bi-o-to-xe-tai-chay-qua-vung-tat-nuoc-trum-nguoi-khi-di-xe-may-giu-thang-lai-khong-phanh-gap-va-phong-tu-truoc",
    "notes": "source=topic-v2 topicId=T001668",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:32:42.352Z",
-   "updatedAt": "2026-10-13T20:32:42.352Z"
+   "updatedAt": "2026-10-13T20:38:05.554Z",
+   "seoScore": 100,
+   "words": 2976
   },
   {
    "id": "S01533",
@@ -22332,11 +22338,13 @@
    "title": "Sâu róm, lông sâu rơi xuống người khi đi xe máy dưới hàng cây: dừng xe, không gãi dụi và gỡ lông sâu đúng cách",
    "primaryIntent": "troubleshooting/sau-rom-long-sau-roi-xuong-nguoi-khi-di-xe-may-duoi-hang-cay-dung-xe-khong-gai-dui-va-go-long-sau-dung-cach",
    "notes": "source=topic-v2 topicId=T001669",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:32:42.386Z",
-   "updatedAt": "2026-10-13T20:32:42.386Z"
+   "updatedAt": "2026-10-13T20:38:05.554Z",
+   "seoScore": 100,
+   "words": 2851
   },
   {
    "id": "S01534",
@@ -22345,11 +22353,13 @@
    "title": "Đi chơi cùng nhóm bạn hay phóng nhanh: giữ tốc độ của mình, từ chối khéo và hẹn điểm gặp thay vì đuổi theo",
    "primaryIntent": "informational/di-choi-cung-nhom-ban-hay-phong-nhanh-giu-toc-do-cua-minh-tu-choi-kheo-va-hen-diem-gap-thay-vi-duoi-theo",
    "notes": "source=topic-v2 topicId=T001670",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:32:42.417Z",
-   "updatedAt": "2026-10-13T20:32:42.417Z"
+   "updatedAt": "2026-10-13T20:38:05.554Z",
+   "seoScore": 100,
+   "words": 3069
   },
   {
    "id": "S01535",
@@ -22358,11 +22368,13 @@
    "title": "Đi trong làn xe máy có dải phân cách cứng: ít lối thoát, chỗ ô tô cắt ngang và cách giữ khoảng trong làn chật",
    "primaryIntent": "informational/di-trong-lan-xe-may-co-dai-phan-cach-cung-it-loi-thoat-cho-o-to-cat-ngang-va-cach-giu-khoang-trong-lan-chat",
    "notes": "source=topic-v2 topicId=T001671",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T20:32:42.450Z",
-   "updatedAt": "2026-10-13T20:32:42.450Z"
+   "updatedAt": "2026-10-13T20:38:05.554Z",
+   "seoScore": 100,
+   "words": 3158
   }
  ]
 }
