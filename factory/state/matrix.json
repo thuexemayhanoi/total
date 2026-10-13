@@ -21573,11 +21573,13 @@
    "title": "Kèm người thân tập đi xe máy: vai trò người dạy, chỗ đứng và cách giữ bình tĩnh",
    "primaryIntent": "informational/kem-nguoi-than-tap-di-xe-may-vai-tro-nguoi-day-cho-dung-va-cach-giu-binh-tinh",
    "notes": "source=topic-v2 topicId=T001615",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:02:14.026Z",
-   "updatedAt": "2026-10-13T16:02:14.026Z"
+   "updatedAt": "2026-10-13T16:08:15.397Z",
+   "seoScore": 100,
+   "words": 2945
   },
   {
    "id": "S01483",
@@ -21586,11 +21588,13 @@
    "title": "Nắp chống trộm ổ khóa xe máy (khóa từ): cách mở, khi bị kẹt và khi mất đầu chìa từ",
    "primaryIntent": "troubleshooting/nap-chong-trom-o-khoa-xe-may-khoa-tu-cach-mo-khi-bi-ket-va-khi-mat-dau-chia-tu",
    "notes": "source=topic-v2 topicId=T001616",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:04:10.659Z",
-   "updatedAt": "2026-10-13T16:04:10.659Z"
+   "updatedAt": "2026-10-13T16:08:15.397Z",
+   "seoScore": 100,
+   "words": 2957
   }
  ]
 }
