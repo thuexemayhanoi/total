@@ -18873,11 +18873,13 @@
    "title": "Đánh lái ngược trên xe máy là gì: đẩy nhẹ tay lái phía muốn rẽ để xe nghiêng, dùng khi vào cua và khi né vật cản",
    "primaryIntent": "informational/danh-lai-nguoc-tren-xe-may-vao-cua-va-ne-vat-can",
    "notes": "source=topic-v2 topicId=T001392",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:15:29.595Z",
-   "updatedAt": "2026-10-13T02:15:29.595Z"
+   "updatedAt": "2026-10-13T02:32:40.907Z",
+   "seoScore": 100,
+   "words": 2903
   },
   {
    "id": "S01303",
@@ -18886,11 +18888,13 @@
    "title": "Đầu xe lắc mạnh khi đang chạy: phân biệt với rung tay lái, nguyên nhân thường gặp và phản xạ đúng lúc xảy ra",
    "primaryIntent": "troubleshooting/dau-xe-lac-manh-khi-dang-chay-nguyen-nhan-va-phan-xa",
    "notes": "source=topic-v2 topicId=T001393",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:15:29.620Z",
-   "updatedAt": "2026-10-13T02:15:29.620Z"
+   "updatedAt": "2026-10-13T02:32:40.907Z",
+   "seoScore": 100,
+   "words": 2972
   },
   {
    "id": "S01304",
@@ -18899,11 +18903,13 @@
    "title": "Ly hợp chống trượt và côn trợ lực trên xe côn tay: vì sao về số gấp ít làm nảy bánh sau và bóp côn nhẹ hơn",
    "primaryIntent": "informational/ly-hop-chong-truot-va-con-tro-luc-tren-xe-con-tay",
    "notes": "source=topic-v2 topicId=T001394",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:15:29.641Z",
-   "updatedAt": "2026-10-13T02:15:29.641Z"
+   "updatedAt": "2026-10-13T02:32:40.907Z",
+   "seoScore": 100,
+   "words": 2927
   },
   {
    "id": "S01305",
@@ -18912,11 +18918,13 @@
    "title": "Bộ sang số nhanh trên xe côn tay là gì: lên số không cần bóp côn hoạt động thế nào và điều cần biết trước khi dùng",
    "primaryIntent": "informational/bo-sang-so-nhanh-tren-xe-con-tay-la-gi",
    "notes": "source=topic-v2 topicId=T001395",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:15:29.659Z",
-   "updatedAt": "2026-10-13T02:15:29.660Z"
+   "updatedAt": "2026-10-13T02:32:40.907Z",
+   "seoScore": 100,
+   "words": 2997
   },
   {
    "id": "S01306",
@@ -18925,11 +18933,13 @@
    "title": "Củ đề kiêm máy phát trên xe tay ga: vì sao xe nổ êm không tiếng đề, khác củ đề thường ở đâu và khi nào cần kiểm tra",
    "primaryIntent": "informational/cu-de-kiem-may-phat-tren-xe-tay-ga",
    "notes": "source=topic-v2 topicId=T001396",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T02:15:29.680Z",
-   "updatedAt": "2026-10-13T02:15:29.680Z"
+   "updatedAt": "2026-10-13T02:32:40.907Z",
+   "seoScore": 100,
+   "words": 2897
   },
   {
    "id": "S01307",

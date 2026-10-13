@@ -8724,6 +8724,35 @@
   ]
  },
  {
+  "url": "wiki/thuat-ngu-xe/bo-sang-so-nhanh-tren-xe-con-tay-la-gi/",
+  "title": "Bộ sang số nhanh trên xe côn tay là gì: lên số không cần bóp côn hoạt động thế nào và điều cần biết trước khi dùng",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Bài giải thích vì sao sang số cần giảm tải cho hộp số, và bộ sang số nhanh trên xe côn tay hoạt động ra sao để thay người lái làm việc đó: cảm biến ở cần số báo cho bộ điều khiển ngắt đánh lửa hoặc nhiên liệu trong tích tắc, nhờ vậy số vào mượt mà không cần bóp côn. Bài cũng phân biệt loại một chiều với loại hai chiều, nêu lợi ích và giới hạn khi đi đường, rồi chỉ ra rủi ro cùng điều cần biết, cần hỏi trước khi lắp thêm.",
+  "quickAnswer": "Bộ sang số nhanh dùng cảm biến ở cần số: khi bạn gạt cần, bộ điều khiển ngắt đánh lửa hoặc nhiên liệu trong tích tắc để bánh răng nhả tải, nên số vào mượt không cần bóp côn. Loại hai chiều còn tự nhấp ga khi về số. Hệ chỉ mượt ở một dải ga và tốc độ nhất định, vẫn cần côn lúc xuất phát và dừng, lắp sai dễ giật hoặc lỗi điện; xe phổ thông thường không cần.",
+  "keyPoints": [
+   "Muốn sang số thì bánh răng phải được giảm tải trong khoảnh khắc: người lái thường làm việc đó bằng côn và nhả ga, còn bộ sang số nhanh giao cho cảm biến và bộ điều khiển.",
+   "Cảm biến ở cần số báo cho bộ điều khiển ngắt đánh lửa hoặc nhiên liệu trong tích tắc, nên vấu gài nhả tải và số mới vào mượt dù người lái không bóp côn.",
+   "Loại một chiều chỉ hỗ trợ lên số; loại hai chiều còn tự nhấp ga khi về số để vòng tua khớp với số thấp hơn, nhưng đòi hỏi tương thích sâu hơn với xe.",
+   "Lợi ích là sang số nhanh, êm và đỡ mỏi tay khi đi xa; giới hạn là thường chỉ mượt ở một dải ga và tốc độ nhất định, vẫn cần côn khi xuất phát và khi dừng."
+  ],
+  "entities": [
+   "bộ sang số nhanh",
+   "cảm biến cần số",
+   "ngắt đánh lửa",
+   "hộp số xe côn tay",
+   "nhấp ga khi về số",
+   "ly hợp"
+  ],
+  "keywords": [
+   "bộ sang số nhanh xe máy",
+   "quickshifter là gì",
+   "lên số không bóp côn",
+   "sang số nhanh có hại hộp số không",
+   "bộ sang số nhanh xe côn tay"
+  ]
+ },
+ {
   "url": "wiki/he-thong-phanh/bo-thang-phanh-tang-trong-mon/",
   "title": "Bố thắng phanh tang trống mòn: tay phanh sâu dần, tiếng kêu và cách nhận biết khi bảo dưỡng",
   "category": "Bách khoa xe",
@@ -10767,6 +10796,34 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/cu-de-kiem-may-phat-tren-xe-tay-ga/",
+  "title": "Củ đề kiêm máy phát trên xe tay ga: vì sao xe nổ êm không tiếng đề, khác củ đề thường ở đâu và khi nào cần kiểm tra",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Bài giải thích vì sao nhiều xe tay ga đời mới nổ êm, gần như không có tiếng đề rè rè: thay vì mô-tơ đề riêng quay máy qua bánh răng và ly hợp một chiều, xe dùng củ đề kiêm máy phát gắn thẳng ở đầu trục khuỷu, vừa quay máy lúc đề vừa sạc ắc quy khi máy chạy. Bài nêu điểm khác với củ đề thường, mối liên hệ với hệ thống tạm ngắt máy, các triệu chứng cần chú ý, lý do ắc quy khỏe quan trọng và vì sao cụm này cần thợ có thiết bị kiểm tra.",
+  "quickAnswer": "Xe nổ êm vì nhiều xe tay ga đời mới dùng củ đề kiêm máy phát: cuộn dây gắn thẳng đầu trục khuỷu vừa quay máy lúc đề, vừa phát điện sạc ắc quy khi máy chạy, nên thường không cần mô-tơ đề riêng, bánh răng và ly hợp một chiều như củ đề thường. Kiểu này đòi hỏi ắc quy khỏe; đề yếu, không quay, đèn báo sạc hoặc ắc quy hao nhanh là lúc nhờ thợ có thiết bị kiểm tra.",
+  "keyPoints": [
+   "Củ đề thường dùng một mô-tơ riêng quay máy qua bánh răng và ly hợp một chiều, nên mỗi lần đề có tiếng rè đặc trưng.",
+   "Củ đề kiêm máy phát đặt ở đầu trục khuỷu: lúc đề nó là mô-tơ quay máy, khi máy chạy nó là máy phát sạc ắc quy.",
+   "Đề êm vì thường không còn bánh răng ăn khớp và chổi than; kiểu này hay đi cùng hệ thống tạm ngắt máy khi dừng, nhưng tùy xe.",
+   "Đề yếu chậm, không quay, đèn báo liên quan tới sạc hoặc ắc quy hao nhanh là những triệu chứng nên chú ý; nhiều khi nghi vấn đầu tiên là ắc quy yếu."
+  ],
+  "entities": [
+   "củ đề kiêm máy phát",
+   "củ đề thường",
+   "ly hợp một chiều",
+   "trục khuỷu",
+   "ắc quy",
+   "hệ thống tạm ngắt máy"
+  ],
+  "keywords": [
+   "củ đề kiêm máy phát xe tay ga",
+   "xe tay ga đề êm không tiếng",
+   "máy phát khởi động tích hợp",
+   "củ đề kiêm máy phát khác củ đề thường"
+  ]
+ },
+ {
   "url": "garage/dien-ac-quy/cu-de-xe-may-yeu-hoac-keu-tach/",
   "title": "Củ đề xe máy: tiếng đề yếu, kêu tạch một tiếng hay quay mà không nổ nói lên điều gì",
   "category": "Sửa chữa",
@@ -10964,6 +11021,35 @@
   ]
  },
  {
+  "url": "learn/ky-thuat-lai-xe/danh-lai-nguoc-tren-xe-may-vao-cua-va-ne-vat-can/",
+  "title": "Đánh lái ngược trên xe máy là gì: đẩy nhẹ tay lái phía muốn rẽ để xe nghiêng, dùng khi vào cua và khi né vật cản",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "summary": "Bài giải thích vì sao xe máy chạy rất chậm đổi hướng bằng bẻ lái, còn khi đã chạy đều thì rẽ bằng cách nghiêng, và vì sao cách nhanh nhất để xe nghiêng là đẩy nhẹ tay lái về phía muốn rẽ. Nội dung nêu cách dùng kỹ thuật này khi vào cua và khi né vật cản bất ngờ, nhắc các giới hạn như mặt đường trơn, tốc độ quá thấp, xe chở nặng, rồi hướng dẫn tập ở nơi vắng với tốc độ vừa phải.",
+  "quickAnswer": "Xe đang chạy đều đổi hướng chủ yếu bằng cách nghiêng, còn bẻ lái là cách chính ở tốc độ rất chậm. Cách nhanh nhất để xe nghiêng là đánh lái ngược: đẩy nhẹ tay cầm phía muốn rẽ, bánh trước thoáng lệch sang phía kia, xe đổ về phía muốn rẽ rồi bánh trước tự theo vào cua. Dùng được khi vào cua và né vật cản, nhưng không phanh mạnh lúc đang đánh lái.",
+  "keyPoints": [
+   "Ở tốc độ đi bộ xe đổi hướng chủ yếu nhờ bẻ lái; khi đã chạy đều, xe rẽ bằng cách nghiêng và tay lái chỉ cần một tác động rất nhỏ.",
+   "Đánh lái ngược là cú đẩy nhẹ, ngắn lên tay cầm phía muốn rẽ: bánh trước thoáng lệch sang phía ngược lại, xe đổ về phía muốn rẽ rồi bánh trước tự theo vào cua.",
+   "Vào cua: chỉnh tốc độ lúc xe còn thẳng, nhìn về lối ra, đẩy nhẹ tay cầm phía trong cua, giữ ga đều rồi ép nhẹ phía ngoài để dựng xe ở cuối cua.",
+   "Né vật cản bất ngờ: nhìn vào lối thoát chứ không nhìn vật cản, đẩy dứt khoát rồi đẩy phía bên kia để dựng xe, và không phanh mạnh lúc đang đánh lái."
+  ],
+  "entities": [
+   "đánh lái ngược",
+   "bánh trước",
+   "tay lái xe máy",
+   "độ nghiêng của xe",
+   "vào cua",
+   "né vật cản"
+  ],
+  "keywords": [
+   "đánh lái ngược xe máy",
+   "countersteering là gì",
+   "kỹ thuật né vật cản xe máy",
+   "vì sao xe máy nghiêng khi vào cua",
+   "cách đánh lái ngược khi vào cua"
+  ]
+ },
+ {
   "url": "docs/checklist/danh-sach-kiem-tra-xe/",
   "title": "Tổng hợp kiến thức: danh sách kiểm tra xe",
   "category": "Tài liệu",
@@ -11105,6 +11191,34 @@
    "10W-30 là gì",
    "thay nhớt bao lâu một lần",
    "nhớt tổng hợp xe máy"
+  ]
+ },
+ {
+  "url": "learn/chuan-doan-loi/dau-xe-lac-manh-khi-dang-chay-nguyen-nhan-va-phan-xa/",
+  "title": "Đầu xe lắc mạnh khi đang chạy: phân biệt với rung tay lái, nguyên nhân thường gặp và phản xạ đúng lúc xảy ra",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Bài giải thích vì sao đầu xe máy có thể tự lắc qua lại ngày càng mạnh khi chạy nhanh hoặc buông lỏng tay, và vì sao hiện tượng này khác rung tay lái nhỏ và đều do máy hay bánh. Nội dung nêu những lúc dễ xảy ra như qua rãnh hoặc gờ, gặp gió tạt, chở nặng phía sau hay treo đồ trên tay lái, rồi các nguyên nhân thường gặp ở xe: lốp, bánh, bạc đạn cổ lái, giảm xóc và thùng hàng. Phần cuối nêu phản xạ đúng và việc kiểm tra xe trước khi chạy tiếp.",
+  "quickAnswer": "Đầu xe lắc mạnh là khi tay lái và bánh trước tự xoay qua lại, biên độ ngày càng lớn, khác rung nhỏ và đều. Lúc xảy ra, hãy giữ tay lái chắc vừa phải, không ghì giật, nhả ga từ từ, không phanh gấp nhất là phanh trước, để xe tự giảm tốc rồi dừng ở chỗ an toàn. Sau đó kiểm tra lốp, tải, cổ lái, bánh, giảm xóc và nhờ thợ xem lại trước khi chạy tiếp.",
+  "keyPoints": [
+   "Đầu xe lắc là tay lái và bánh trước tự xoay qua lại với biên độ ngày càng lớn, khác hẳn rung nhỏ và đều theo vòng tua máy hay tốc độ bánh, loại rung không làm tay lái xoay thấy được.",
+   "Hiện tượng dễ xảy ra khi chạy nhanh, buông lỏng tay, qua rãnh hoặc gờ, gặp gió tạt, chở nặng phía sau hay treo đồ trên tay lái; đó thường là cú kích, còn gốc nằm ở xe.",
+   "Nguyên nhân thường gặp ở xe gồm lốp non hoặc mòn không đều, bánh mất cân bằng hay vành cong, bạc đạn cổ lái lỏng, giảm xóc yếu và thùng hàng sau quá nặng hoặc quá cao, hay cộng dồn với nhau.",
+   "Phản xạ đúng: giữ tay lái chắc vừa phải không ghì giật, nhả ga từ từ, không phanh gấp nhất là phanh trước, để xe tự giảm tốc rồi dừng ở chỗ an toàn."
+  ],
+  "entities": [
+   "đầu xe lắc",
+   "rung tay lái",
+   "bạc đạn cổ lái",
+   "áp suất lốp",
+   "giảm xóc",
+   "thùng hàng phía sau"
+  ],
+  "keywords": [
+   "đầu xe máy lắc mạnh khi chạy",
+   "xe máy lắc đầu khi chạy nhanh",
+   "tay lái lắc qua lại",
+   "nguyên nhân xe máy bị lắc lư đầu xe"
   ]
  },
  {
@@ -16210,6 +16324,34 @@
    "di xe may giua dong xe",
    "luon xe an toan",
    "doc khe dong xe"
+  ]
+ },
+ {
+  "url": "wiki/thuat-ngu-xe/ly-hop-chong-truot-va-con-tro-luc-tren-xe-con-tay/",
+  "title": "Ly hợp chống trượt và côn trợ lực trên xe côn tay: vì sao về số gấp ít làm nảy bánh sau và bóp côn nhẹ hơn",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "summary": "Bài giải thích ly hợp nhiều lá được lò xo ép chặt ra sao, vì sao về số thấp lúc xe còn nhanh rồi nhả côn gấp có thể làm bánh sau nảy hoặc trượt, và cơ cấu chống trượt dùng các mặt dốc để nới bớt lực ép cho ly hợp trượt một phần thay vì để bánh sau bị hãm cứng. Bài cũng nói côn trợ lực ép thêm lá côn lúc máy kéo xe nên dùng được lò xo nhẹ hơn, cùng những điều không đổi khi lái, cách chọn nhớt, chỉnh dây côn và dấu hiệu cần giao thợ.",
+  "quickAnswer": "Ly hợp chống trượt nới bớt lực ép lá côn khi bánh sau kéo ngược máy quá mạnh, nên ly hợp trượt một phần thay vì để bánh sau bị hãm cứng hay nảy sau cú về số gấp. Côn trợ lực làm ngược lại: máy kéo xe thì các mặt dốc ép thêm lá côn, nên dùng lò xo nhẹ hơn và tay côn nhẹ hơn. Cả hai tùy xe, không thay việc về số đúng tốc độ và kỹ năng phanh.",
+  "keyPoints": [
+   "Ly hợp nhiều lá được lò xo ép chặt và truyền lực theo cả hai chiều, nên lực hãm của máy có thể dội ngược xuống bánh sau sau một cú về số gấp.",
+   "Về số thấp ở tốc độ cao rồi nhả côn nhanh làm máy hãm mạnh bánh sau, nhất là khi lốp sau nhẹ tải, và có thể khiến bánh sau nảy hoặc trượt.",
+   "Cơ cấu chống trượt dùng các mặt dốc trong cụm ly hợp để nới bớt lực ép khi lực đẩy ngược từ bánh sau quá lớn, cho ly hợp trượt một phần thay vì để bánh sau bị hãm cứng.",
+   "Côn trợ lực dùng chính các mặt dốc để ép thêm lá côn lúc máy kéo xe, nên dùng được lò xo nhẹ hơn và tay côn nhẹ hơn; không phải xe nào cũng có."
+  ],
+  "entities": [
+   "ly hợp nhiều lá",
+   "ly hợp chống trượt",
+   "côn trợ lực",
+   "phanh động cơ",
+   "đĩa ép",
+   "nhớt cho ly hợp ướt"
+  ],
+  "keywords": [
+   "ly hợp chống trượt xe máy",
+   "côn trợ lực là gì",
+   "slipper clutch là gì",
+   "côn tay nhẹ hơn nhờ đâu"
   ]
  },
  {
