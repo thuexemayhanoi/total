@@ -212,9 +212,14 @@ let T5;
   const tmp = copyRepoToTmp('t5');
   const p = P(tmp);
   // Fixture TẠO RÕ (không phụ thuộc số bài thật trên main — chống stale test):
-  // ép mọi slot về PUBLISHED, checkpoint khớp, rồi refill từ 0 PLANNED.
+  // Keep real PUBLISHED slots intact; set nonpublished slots to BLOCKED
+  // rather than claiming unpublished draft IDs have real article modules.
+  // This fixture must respect the full Matrix↔manifest completeness invariant.
   const mFix = JSON.parse(readS(p.matrix));
-  for (const s of mFix.slots) { s.state = 'PUBLISHED'; if (s.qaScore == null) s.qaScore = 75; }
+  for (const s of mFix.slots) {
+    if (s.state !== 'PUBLISHED') s.state = 'BLOCKED';
+    if (s.qaScore == null) s.qaScore = 75;
+  }
   writeJson(p.matrix, mFix);
   const cpF = JSON.parse(readS(path.join(tmp, 'factory', 'state', 'checkpoint.json')));
   cpF.slotCount = mFix.slots.length;
@@ -240,8 +245,9 @@ let T5;
   const expected = expectedTopics.length;
   const expectedGenerated = expectedTopics.filter(t => t.source === 'topic-factory-v1').length;
   const m0 = JSON.parse(readS(p.matrix));
-  ok(m0.slots.every(s => s.state === 'PUBLISHED') && m0.slots.filter(s => s.state === 'PLANNED').length === 0,
-    'Fixture bắt đầu: mọi slot PUBLISHED, 0 PLANNED (refill từ đầu, không stale)');
+  ok(m0.slots.every(s => s.state === 'PUBLISHED' || s.state === 'BLOCKED') &&
+     m0.slots.filter(s => s.state === 'PLANNED').length === 0,
+    'Fixture: giữ PUBLISHED có module, block slot chưa viết; 0 PLANNED để refill');
   ok(expected >= 18, 'Curated + Topic Factory còn đủ chủ đề cho cycle 18 bài (>= 18)', String(expected));
   // Writer KHÔNG được refill (role guard).
   const rw = runNode([p.factory, 'queue-refill', '--role', 'writer'], { cwd: tmp });
@@ -310,7 +316,7 @@ let T7;
   const rbBase = runNode([p.factory, 'index-rebuild', '--role', 'coordinator'], { cwd: tmp });
   ok(rbBase.status === 0, 'index-rebuild dựng baseline SQLite từ manifest cũ', rbBase.stdout + rbBase.stderr);
   const icBase = runNode([p.factory, 'index-check'], { cwd: tmp });
-  ok(icBase.status === 0 && new RegExp('INDEX_OK rows=' + rowsBase + '/' + rowsBase).test(icBase.stdout), 'Baseline SQLite khớp manifest cũ (' + rowsBase + '/' + rowsBase + ')', icBase.stdout + icBase.stderr);
+  ok(icBase.status === 0 && new RegExp('INDEX_OK .*rows=' + rowsBase + '/' + rowsBase).test(icBase.stdout), 'Baseline SQLite khớp manifest cũ (' + rowsBase + '/' + rowsBase + ')', icBase.stdout + icBase.stderr);
   // Writer "nộp bài" cho 4 slot đầu cycle: 3 tốt + 1 low-QA.
   const qaIds = ids.slice(0, 4);
   const lowId = qaIds[3];
@@ -376,7 +382,7 @@ console.log('9. manifest-sync + index (tmp)…');
   const rb0 = runNode([p.factory, 'index-rebuild', '--role', 'coordinator'], { cwd: tmp });
   ok(rb0.status === 0, 'index-rebuild cập nhật SQLite derived cache từ manifest mới', rb0.stdout + rb0.stderr);
   const ic0 = runNode([p.factory, 'index-check'], { cwd: tmp });
-  ok(ic0.status === 0 && new RegExp('INDEX_OK rows=' + rowsAfter + '/' + rowsAfter).test(ic0.stdout), 'Sau rebuild: SQLite khớp manifest (' + rowsAfter + '/' + rowsAfter + ')', ic0.stdout + ic0.stderr);
+  ok(ic0.status === 0 && new RegExp('INDEX_OK .*rows=' + rowsAfter + '/' + rowsAfter).test(ic0.stdout), 'Sau rebuild: SQLite khớp manifest (' + rowsAfter + '/' + rowsAfter + ')', ic0.stdout + ic0.stderr);
   // Corrupt sqlite -> index-check fail -> index-rebuild phục hồi.
   fs.writeFileSync(p.sqlite, Buffer.from('day-khong-phai-sqlite'));
   const icBad = runNode([p.factory, 'index-check'], { cwd: tmp });
@@ -384,7 +390,7 @@ console.log('9. manifest-sync + index (tmp)…');
   const rb = runNode([p.factory, 'index-rebuild', '--role', 'coordinator'], { cwd: tmp });
   ok(rb.status === 0, 'index-rebuild phục hồi an toàn từ manifest + content (coordinator)', rb.stdout + rb.stderr);
   const ic2 = runNode([p.factory, 'index-check'], { cwd: tmp });
-  ok(ic2.status === 0 && new RegExp('INDEX_OK rows=' + rowsAfter + '/' + rowsAfter).test(ic2.stdout), 'Sau rebuild: INDEX_OK trở lại', ic2.stdout + ic2.stderr);
+  ok(ic2.status === 0 && new RegExp('INDEX_OK .*rows=' + rowsAfter + '/' + rowsAfter).test(ic2.stdout), 'Sau rebuild: INDEX_OK trở lại', ic2.stdout + ic2.stderr);
   const rw = runNode([p.factory, 'index-rebuild', '--role', 'writer'], { cwd: tmp });
   ok(rw.status !== 0, 'Writer KHÔNG được rebuild SQLite (role guard)', (rw.stderr || rw.stdout).slice(0, 120));
 }

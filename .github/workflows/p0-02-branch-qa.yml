@@ -7,6 +7,7 @@ on:
       - 'factory/factory.js'
       - 'factory/test-content-index-completeness.js'
       - 'factory/test-reliability.js'
+      - 'factory/test-cycle.js'
       - '.github/workflows/factory-publish.yml'
       - '.github/workflows/p0-02-branch-qa.yml'
 permissions:
@@ -37,7 +38,11 @@ jobs:
           grep -q MANIFEST_INCOMPLETE /tmp/p002-before.log
           echo EXPECTED_INCOMPLETE_MANIFEST_BLOCKED
       - name: Four-layer focused completeness tests
-        run: node factory/test-content-index-completeness.js
+        shell: bash
+        run: |
+          set -euo pipefail
+          node factory/test-content-index-completeness.js
+          node factory/test-cycle.js
       - name: Repair candidate JSONL and derived index locally
         shell: bash
         run: |
