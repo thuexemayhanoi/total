@@ -1,0 +1,78 @@
+// AI WIKI TOTAL: nhận biết kiểu ăn vạ, dàn cảnh va quẹt bằng quan sát; không nêu số liệu, văn bản pháp luật hay tên riêng.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'gap-nguoi-an-va-hoac-dan-canh-va-quet-de-doi-tien-nhan-biet-giu-bang-chung-va-nho-ho-tro',
+  title: 'Gặp người ăn vạ hoặc dàn cảnh va quẹt để đòi tiền: nhận biết, giữ bằng chứng và nhờ hỗ trợ',
+  seoTitle: 'Bị ăn vạ khi đi xe máy: nhận biết, giữ bằng chứng, nhờ hỗ trợ',
+  metaDescription: 'Gặp người ăn vạ hoặc dàn cảnh va quẹt đòi tiền khi đi xe máy? Cách nhận biết, giữ bình tĩnh, ghi lại bằng chứng và nhờ người có trách nhiệm đến giải quyết.',
+  summary: 'Bài hướng dẫn cách xử lý khi đang đi xe máy thì bị người lạ chặn lại, nói rằng bạn vừa quẹt vào xe hay người họ rồi đòi tiền ngay. Nội dung giải thích các kiểu ăn vạ và dàn cảnh thường được kể lại, cách phân biệt với va chạm thật, việc ưu tiên cứu người khi có người bị thương, cách giữ bình tĩnh và an toàn, giữ bằng chứng, không trả tiền dưới sức ép, ứng xử khi bị đe dọa, việc nên làm sau sự việc và thói quen phòng tránh.',
+  quickAnswer: 'Bị chặn lại và đòi tiền vì một va quẹt bạn không chắc có xảy ra, chưa vội trả. Dừng ở chỗ an toàn đông người, giữ bình tĩnh, chụp hai xe, vết xước, biển hiệu xung quanh, xin thông tin người làm chứng và hỏi camera gần đó. Đề nghị ôn tồn nhờ công an hoặc người có trách nhiệm đến giải quyết. Có người bị thương thì cứu người trước; bị đe dọa thì đi về nơi đông người và gọi công an.',
+  keyPoints: [
+    'Ăn vạ và dàn cảnh thường dựa vào lời nói cùng một dấu vết khó xác định thời điểm, như xe nằm sẵn, vết xước cũ hoặc đồ đã vỡ từ trước, kèm áp lực trả tiền ngay cho xong.',
+    'Hãy tự hỏi bạn có cảm nhận va chạm không và vết trên hai xe có khớp vị trí, độ cao, màu sơn không; nếu đúng là xe bạn gây ra thì nhận trách nhiệm đúng mực.',
+    'Có người bị thương thì ưu tiên cứu người và gọi cấp cứu trước mọi tranh cãi về tiền; sự nghi ngờ không phải lý do để bỏ qua người đang đau.',
+    'Dừng ở chỗ an toàn đông người, tắt máy rút chìa, giữ điện thoại và giấy tờ, chụp hai xe, vết xước, biển hiệu quanh đó, xin thông tin người làm chứng và hỏi camera gần đó.',
+    'Không trả tiền dưới sức ép: ôn tồn đề nghị công an hoặc người có trách nhiệm đến, gọi người thân; bị đe dọa thì đi về phía đông người và gọi công an.'
+  ],
+  category: 'ride',
+  hub: 'an-toan-giao-thong',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['ăn vạ', 'dàn cảnh va quẹt', 'vết xước cũ', 'người làm chứng', 'camera hành trình', 'giữ bằng chứng'],
+  keywords: ['người ăn vạ', 'dàn cảnh va quẹt đòi tiền', 'bị ăn vạ khi đi xe máy', 'giả va chạm xe máy'],
+  sections: [
+    P('Những kiểu ăn vạ và dàn cảnh thường gặp', [
+      'Bạn đang chạy xe thì bị một người lạ chặn lại, nói rằng vừa bị quẹt vào xe hoặc vào người, rồi đòi tiền ngay tại chỗ, đôi khi kèm vài người đứng vây quanh. Câu trả lời ngắn gọn cho tình huống này là chưa vội trả tiền: hãy dừng ở chỗ an toàn, giữ bình tĩnh, ghi lại bằng chứng và nhờ người có trách nhiệm hỗ trợ. Cụm từ ăn vạ thường chỉ việc cố tình tạo ra hoặc thổi phồng một vụ va chạm để lấy tiền, còn dàn cảnh nhấn mạnh việc sắp đặt từ trước. Hai kiểu này có xuất hiện trong lời kể của nhiều người đi xe máy, nhưng không phải ai đòi bồi thường cũng là kẻ lừa, vì va chạm thật vẫn xảy ra mỗi ngày. Bài này giúp bạn tách hai trường hợp bằng quan sát, thay vì bằng cảm giác hoảng sợ.',
+      'Những kiểu thường được kể lại có vài mô-típ khá giống nhau. Kiểu thứ nhất là tự ngã, hoặc đặt sẵn chiếc xe nằm nghiêng bên đường, rồi nói rằng xe của bạn quẹt trúng làm đổ. Kiểu thứ hai là chỉ vào một vết xước trên thân xe, trên yếm hay trên đuôi xe và quả quyết vết ấy do bạn gây ra, dù vết đã có từ lâu và có thể còn bám bụi bám đất. Kiểu thứ ba liên quan đến đồ vật: một món đồ trên xe hoặc trong túi được cho là vừa vỡ do va chạm, trong khi thực tế nó đã vỡ từ trước. Điểm chung của cả ba kiểu là câu chuyện chỉ dựa vào lời nói và một dấu vết khó xác định thời điểm, nên người kể cần bạn tin ngay và trả ngay, trước khi bạn kịp kiểm tra.',
+      'Ngoài nội dung câu chuyện, cách sự việc diễn ra cũng để lại vài dấu hiệu đáng chú ý. Một nhóm người xuất hiện rất nhanh, như thể đã đứng quanh đó từ trước, và ai cũng đồng thanh xác nhận điều người đòi tiền nói. Giọng điệu ồn ào, dồn dập, liên tục nhắc rằng hãy trả luôn cho xong, đừng để mất thời gian, đừng để rắc rối. Người đòi tiền ngăn bạn gọi điện, né tránh khi bạn đề nghị chờ người có trách nhiệm đến, hoặc muốn chuyển sang một chỗ vắng hơn để nói chuyện. Những dấu hiệu này chỉ là manh mối, không phải kết luận, vì người bị va chạm thật cũng có thể bực bội và nói to. Điều đáng lo nhất là sự thúc ép về thời gian cùng việc né những người đứng ngoài, trung lập.'
+    ]),
+    P('Phân biệt với va chạm thật và khi có người bị thương', [
+      'Điều đầu tiên cần tự hỏi là bạn có cảm nhận được va chạm hay không. Một cú quẹt thật thường để lại dấu vết ngay trong tay và chân người lái: tay lái hơi rung hoặc bị kéo lệch, có tiếng chạm của nhựa hay kim loại, có cảm giác xe bị cản lại trong thoáng chốc. Hãy nhớ lại xem trước đó bạn có thấy người hay chiếc xe kia ở gần mình không, nó ở bên nào, cách bạn xa hay gần, và nó đứng yên hay đang chạy. Nếu bạn chạy đều, không thấy gì bất thường, rồi bỗng bị chặn lại với lời cáo buộc, đó là chi tiết cần ghi lại. Tuy vậy, giữa dòng xe đông và ồn, một cú chạm nhẹ đôi khi không cảm nhận được, nên không cảm thấy gì cũng chưa chắc chắn là không có va chạm.',
+      'Bước tiếp theo là xem vết trên hai xe có khớp với nhau hay không. Hãy nhìn vị trí vết trên mỗi xe, độ cao so với mặt đường, hướng của vết xước và màu sơn hoặc màu nhựa còn dính lại. Với một va chạm thật, vết trên xe này thường ứng với phần nhô ra của xe kia ở độ cao tương đương, và có thể còn vệt màu của xe bên kia. Vết cũ thường có mép xỉn, bám bụi, bám đất hoặc hơi gỉ, còn vết mới thường sạch hơn, nhưng đây chỉ là gợi ý để bạn quan sát, không phải quy tắc tuyệt đối. Nếu quan sát cho thấy đúng là xe bạn đã chạm vào xe kia, hãy nhận trách nhiệm một cách đúng mực và thương lượng ôn tồn, vì bồi thường cho thiệt hại có thật là điều chính đáng.',
+      'Có một việc đứng trên mọi tranh cãi về tiền: nếu có người bị thương, hãy ưu tiên cứu người. Người ngã ra đường mà kêu đau, bất tỉnh, chảy máu hoặc không thể tự đứng dậy cần được gọi cấp cứu ngay, dù bạn đang nghi ngờ điều gì về sự việc. Gọi trợ giúp không làm bạn mất gì, còn bỏ qua một người thực sự bị thương thì có thể gây hậu quả nặng nề. Đừng kéo hay xốc người bị nạn dậy nếu họ kêu đau ở đầu, cổ hoặc lưng, hãy để người có chuyên môn xử lý. Cách cảnh báo xe phía sau và gọi trợ giúp đúng cách đã được bàn trong bài về chứng kiến tai nạn xe máy trên đường. Chuyện tiền bạc và trách nhiệm hãy để sau, khi người bị nạn đã được chăm sóc.'
+    ]),
+    P('Giữ bình tĩnh, an toàn và giữ bằng chứng', [
+      'Ưu tiên đầu tiên là an toàn của bản thân, rồi mới đến xe và tiền. Hãy giảm tốc từ từ, bóp phanh và dừng ở một chỗ an toàn, tốt nhất là nơi sáng, có người qua lại và không nằm giữa dòng xe. Khi đã dừng hẳn, bạn tắt máy và rút chìa mang theo người, việc này ngăn ai đó lấy xe đi hoặc cản bạn rời đi. Hãy cầm chắc điện thoại, giữ giấy tờ trong túi kín, không đưa bản gốc cho bất kỳ ai cầm giữ. Giữ giọng thấp và chậm, không cãi vã, không chỉ tay vào mặt, không đáp trả lời lẽ xúc phạm. Nếu bị mời sang ngõ vắng hay góc khuất để nói chuyện riêng, hãy từ chối và đề nghị nói ngay tại chỗ đông người. Cách giữ bình tĩnh trước người nóng giận đã được bàn trong bài về bị chèn ép và va quẹt nhẹ.',
+      'Song song với việc giữ bình tĩnh, hãy bắt đầu ghi lại sự việc, vì bằng chứng ở hiện trường mất đi rất nhanh. Dùng điện thoại chụp toàn cảnh vị trí hai xe trên mặt đường, sau đó chụp gần từng vết xước trên cả hai xe, mỗi vết một tấm từ xa và một tấm cận cảnh. Chụp cả biển hiệu, cột điện, mặt tiền cửa hàng quanh đó để xác định chính xác chỗ xảy ra. Xin thông tin của người làm chứng thật sự đứng ngoài, như người bán hàng hay người đi đường, không thuộc nhóm đang vây quanh. Hãy hỏi chủ cửa hàng gần đó xem camera của họ có quay được khu vực này không và nhờ họ giữ lại đoạn ghi. Nếu xe bạn có camera hành trình, hãy lưu ngay đoạn ghi để nó không bị ghi đè.',
+      'Cách ghi lại cũng quan trọng không kém việc có ghi hay không. Hãy chụp trước khi ai đó dịch chuyển xe, và nếu buộc phải dịch xe để khỏi cản đường thì chụp cả trước lẫn sau khi dịch. Quay một đoạn video ngắn, đi chậm quanh hai xe, nói rõ giờ giấc và địa điểm bằng lời. Bạn có thể nói ôn tồn rằng mình đang ghi lại để làm rõ sự việc cho cả hai bên, cách nói này ít gây phản ứng hơn việc quay lén. Nếu ai đó giật điện thoại hoặc che ống kính, đừng giằng co, hãy lùi ra chỗ đông người và tiếp tục ghi bằng cách khác nếu có thể. Ghi nhanh vào ứng dụng ghi chú những điều vừa xảy ra, như lời nói của từng người và thứ tự sự việc, trong lúc ký ức còn mới.'
+    ]),
+    P('Không trả tiền dưới sức ép: nhờ ai đến giải quyết', [
+      'Trả tiền ngay lúc bị vây quanh là lựa chọn nhiều người nghĩ tới vì muốn mọi chuyện kết thúc nhanh. Vấn đề là khi đã trả, bạn khó chứng minh về sau rằng sự việc có đúng như lời kể hay không, và rất khó đòi lại. Với người dàn cảnh, một lần thành công còn mở đường cho lần sau. Mặt khác, nếu đúng là xe bạn gây thiệt hại, từ chối mọi trách nhiệm cũng không đúng mực. Lập trường hợp lý nằm ở giữa: chưa trả dưới sức ép, nhưng sẵn sàng giải quyết công bằng khi sự việc đã được làm rõ trước người có trách nhiệm hoặc người chứng kiến. Lúc thương lượng tốt nhất là khi mọi người đã bình tĩnh, có người trung lập chứng kiến và bằng chứng đã được ghi lại, chứ không phải khi đám đông đang tạo áp lực.',
+      'Cách nói quan trọng không kém nội dung. Hãy nói ôn tồn và rõ ràng rằng bạn không từ chối giải quyết, chỉ muốn có người có trách nhiệm hoặc người chứng kiến cùng làm rõ. Đề nghị gọi công an hoặc người có trách nhiệm ở khu vực đến, và nói bạn sẽ chờ tại chỗ. Gọi cho người thân để họ biết bạn đang ở đâu, có thể nhờ họ đến cùng hoặc ở lại trên điện thoại với bạn. Phản ứng của đối phương trước đề nghị này cũng là một thông tin: người thực sự bị thiệt hại thường chấp nhận chờ, còn người chỉ muốn lấy tiền nhanh có thể sốt ruột, bắt bạn đổi chỗ hoặc đòi trả luôn. Tuy vậy đó chỉ là manh mối, đừng dùng nó để buộc tội ai. Đừng ký giấy hay viết cam kết dưới sức ép khi chưa đọc và chưa hiểu.',
+      'Khi sức ép chuyển thành đe dọa, quy tắc thay đổi: an toàn của bạn quan trọng hơn xe và tiền bạc. Dấu hiệu cần chuyển sang chế độ thoát thân gồm lời dọa đánh, người cầm vật nguy hiểm, nhóm người áp sát và chắn đường rời đi. Hãy lùi về phía nơi đông người và sáng đèn, như mặt tiền cửa hàng đang mở hoặc chỗ có nhiều người qua lại, rồi gọi công an và nói rõ vị trí. Không động tay chân, không cầm vật gì để phòng vệ, không đuổi theo ai. Nếu thật sự bị chặn lối và không còn cách nào khác, giữ gìn thân thể là điều đầu tiên; một khoản tiền có thể xử lý sau, còn chấn thương thì không. Khi đã an toàn, hãy ghi lại ngay những gì xảy ra và báo cơ quan chức năng.'
+    ]),
+    P('Sau sự việc và cách phòng tránh', [
+      'Khi mọi việc đã tạm yên, hãy dành thời gian ghi lại chi tiết trước khi trí nhớ phai. Viết ra giờ giấc, nơi xảy ra, hướng bạn đang đi, mô tả xe và người liên quan, những điều từng người đã nói, tên người làm chứng nếu có. Xem lại ảnh và video, sao lưu sang chỗ khác như bộ nhớ trực tuyến hoặc gửi cho người thân, và không xóa tệp nào dù trông chưa rõ nét. Kiểm tra lại xe của bạn xem có thêm vết mới nào không, rồi kiểm tra cả bản thân xem có chỗ nào đau hay choáng mà lúc căng thẳng bạn không để ý, vì cảm giác đau thường lộ ra muộn hơn. Nếu thấy bất thường về sức khỏe, hãy đi khám thay vì chờ tự đỡ.',
+      'Sự việc có dấu hiệu bị ép đưa tiền hoặc bị đe dọa thì nên báo cho cơ quan chức năng, kèm ảnh, video và ghi chú đã lưu; việc báo cũng giúp người khác tránh rơi vào cùng một cái bẫy. Bạn có loại bảo hiểm liên quan đến xe hoặc trách nhiệm với người khác thì hãy hỏi đơn vị bảo hiểm về việc báo sự việc và hồ sơ cần chuẩn bị, vì điều khoản mỗi loại mỗi khác. Giữ thái độ bình tĩnh khi kể lại để người tiếp nhận nắm đúng diễn biến. Hãy cân nhắc trước khi đăng lên mạng xã hội: một đoạn clip cắt ngắn lúc đang căng thẳng có thể làm sai lệch sự việc và gây rắc rối cho chính bạn hoặc người vô can. Hãy để người có thẩm quyền xem xét bằng chứng gốc.',
+      'Phòng tránh không loại bỏ được hết rủi ro, nhưng giúp bạn ở thế chủ động hơn. Giữ khoảng cách đủ rộng với xe phía trước và với người đi bộ sát lề, để khi ai đó đột ngột lao ra hoặc ngã ra, bạn còn thời gian phanh và tránh. Ưu tiên đi những tuyến đường quen, sáng, nhiều người qua lại, và hạn chế dừng ở chỗ vắng với người lạ. Camera hành trình gắn chắc trên xe, cấp điện ổn định, che nước tốt và còn chỗ trống để ghi sẽ cho bạn một nguồn bằng chứng độc lập; nên xem lại đoạn ghi định kỳ để chắc nó đang hoạt động. Một thói quen nhỏ nữa là thỉnh thoảng chụp ảnh các góc xe, để khi có tranh cãi về vết xước cũ, bạn có ảnh làm mốc.'
+    ])
+  ],
+  checklist: [
+    'Dừng ở chỗ sáng, đông người, tắt máy và rút chìa mang theo người trước khi nói chuyện.',
+    'Nhớ lại xem bạn có cảm nhận va chạm không, rồi so vị trí, độ cao và màu sơn của vết trên hai xe.',
+    'Chụp toàn cảnh hai xe, từng vết xước, biển hiệu xung quanh; xin thông tin người làm chứng đứng ngoài.',
+    'Hỏi chủ cửa hàng gần đó về camera và lưu đoạn ghi của camera hành trình nếu xe có.',
+    'Đề nghị ôn tồn công an hoặc người có trách nhiệm đến giải quyết, và báo cho người thân biết bạn đang ở đâu.'
+  ],
+  steps: [
+    { title: 'Dừng xe an toàn và kiểm tra có ai bị thương không', detail: 'Bóp phanh, dừng ở chỗ sáng và đông người, tắt máy, rút chìa. Có người kêu đau, bất tỉnh hoặc chảy máu thì gọi cấp cứu trước mọi tranh cãi.' },
+    { title: 'Giữ bình tĩnh và đối chiếu sự việc', detail: 'Nói chậm, giọng thấp, không cãi vã, không vào chỗ vắng. Nhớ lại có cảm nhận va chạm không và xem vết trên hai xe có khớp vị trí, độ cao, màu sơn không.' },
+    { title: 'Ghi lại bằng chứng', detail: 'Chụp và quay hai xe, vết xước, vị trí, biển hiệu quanh đó; xin thông tin người làm chứng; hỏi cửa hàng gần đó về camera; lưu đoạn ghi của camera hành trình nếu có.' },
+    { title: 'Nhờ người có trách nhiệm hỗ trợ', detail: 'Ôn tồn đề nghị công an hoặc người có trách nhiệm đến, gọi người thân. Không trả tiền hay ký giấy dưới sức ép; bị đe dọa thì đi về phía đông người và gọi công an.' }
+  ],
+  warnings: [
+    'Có người bị thương thì cứu người trước; đừng bỏ qua người đang đau chỉ vì nghi ngờ sự việc bị dàn dựng.',
+    'Bị đe dọa hoặc bị vây chặn thì an toàn thân thể quan trọng hơn xe và tiền; lùi về nơi đông người, không động tay chân, gọi công an.',
+    'Không đưa giấy tờ gốc cho người lạ cầm giữ, không đi theo vào ngõ vắng, không ký giấy hay viết cam kết khi chưa đọc và chưa hiểu.'
+  ],
+  notes: [
+    'Các kiểu ăn vạ nêu trong bài là những mô-típ thường được kể lại, không phải thống kê; không phải ai đòi bồi thường cũng là dàn cảnh, và va chạm thật cần được giải quyết đúng mực.',
+    'Bài chỉ nêu nguyên tắc ứng xử chung; việc xác định trách nhiệm, bồi thường và điều khoản bảo hiểm thuộc về cơ quan chức năng và đơn vị bảo hiểm tùy từng trường hợp.'
+  ],
+  references: [
+    'Hướng dẫn ứng xử khi xảy ra va chạm giao thông của cơ quan quản lý giao thông địa phương',
+    'Điều khoản bảo hiểm của đơn vị bảo hiểm mà bạn tham gia'
+  ],
+  related: ['giu-binh-tinh-khi-di-xe-may-bi-chen-ep-bam-coi-hoac-va-quet-nhe', 'chung-kien-tai-nan-xe-may-tren-duong-nen-lam-gi', 'camera-hanh-trinh-xe-may-chon-cach-gan-nguon-dien-va-chong-nuoc', 'bao-hiem-trach-nhiem-dan-su-xe-may', 'phong-bi-giat-dien-thoai-tui-xach-khi-di-xe-may']
+};
