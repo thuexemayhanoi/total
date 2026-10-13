@@ -20732,6 +20732,58 @@
    "attempts": 0,
    "createdAt": "2026-10-13T14:00:32.283Z",
    "updatedAt": "2026-10-13T14:00:32.283Z"
+  },
+  {
+   "id": "S01427",
+   "hub": "guide/su-dung-xe",
+   "slug": "cho-xe-dap-bang-xe-may-hoac-vua-lai-vua-dat-xe-dap-vi-sao-nguy-hiem-va-cach-lam-an-toan-hon",
+   "title": "Chở xe đạp bằng xe máy hoặc vừa lái vừa dắt xe đạp: vì sao nguy hiểm và cách làm an toàn hơn",
+   "primaryIntent": "informational/cho-xe-dap-bang-xe-may-hoac-vua-lai-vua-dat-xe-dap-vi-sao-nguy-hiem-va-cach-lam-an-toan-hon",
+   "notes": "source=topic-v2 topicId=T001540",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:05:28.350Z",
+   "updatedAt": "2026-10-13T14:05:28.350Z"
+  },
+  {
+   "id": "S01428",
+   "hub": "wiki/lop-banh-xe",
+   "slug": "cam-bien-ap-suat-lop-gan-them-cho-xe-may-do-gi-lap-o-dau-va-co-can-khong",
+   "title": "Cảm biến áp suất lốp gắn thêm cho xe máy: đo gì, lắp ở đâu, pin và có thật sự cần không",
+   "primaryIntent": "informational/cam-bien-ap-suat-lop-gan-them-cho-xe-may-do-gi-lap-o-dau-va-co-can-khong",
+   "notes": "source=topic-v2 topicId=T001541",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:05:28.382Z",
+   "updatedAt": "2026-10-13T14:05:28.382Z"
+  },
+  {
+   "id": "S01429",
+   "hub": "garage/loi-thuong-gap",
+   "slug": "baga-xe-may-chon-loai-gan-them-tai-trong-theo-xe-dau-hieu-nut-long-va-cach-chat-do",
+   "title": "Baga xe máy: chọn loại gắn thêm, tải trọng theo xe, dấu hiệu nứt lỏng và cách chất đồ",
+   "primaryIntent": "informational/baga-xe-may-chon-loai-gan-them-tai-trong-theo-xe-dau-hieu-nut-long-va-cach-chat-do",
+   "notes": "source=topic-v2 topicId=T001543",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:05:28.413Z",
+   "updatedAt": "2026-10-13T14:05:28.413Z"
+  },
+  {
+   "id": "S01430",
+   "hub": "wiki/dien-xe",
+   "slug": "den-tro-sang-gan-them-cho-xe-may-chieu-dung-huong-de-khong-loa-nguoi-doi-dien-va-nguon-dien",
+   "title": "Đèn trợ sáng gắn thêm cho xe máy: chiếu đúng hướng để không lóa người đối diện, nguồn điện và cầu chì",
+   "primaryIntent": "informational/den-tro-sang-gan-them-cho-xe-may-chieu-dung-huong-de-khong-loa-nguoi-doi-dien-va-nguon-dien",
+   "notes": "source=topic-v2 topicId=T001544",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:05:28.449Z",
+   "updatedAt": "2026-10-13T14:05:28.449Z"
   }
  ]
 }
