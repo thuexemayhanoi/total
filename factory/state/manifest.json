@@ -1924,6 +1924,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/su-dung-xe/cho-cay-canh-cay-dao-cay-quat-bang-xe-may-buoc-goc-giu-canh-va-khong-che-tam-nhin/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/nhu-cau-su-dung/cho-con-di-xe-dap-dien-den-truong-kiem-tra-xe-mu-sac-pin-va-dan-do-an-toan/index.html",
   "kind": "article"
  },
@@ -2137,6 +2141,10 @@
  },
  {
   "rel": "guide/su-dung-xe/de-do-o-san-de-chan-va-moc-treo-xe-tay-ga-sao-cho-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/de-mu-bao-hiem-tren-xe-may-khi-do-moc-mu-cop-xe-va-tranh-mat-mu-hong-mu/index.html",
   "kind": "article"
  },
  {
@@ -3224,6 +3232,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/ong-kien-hoac-gian-lam-to-trong-xe-may-de-lau-kiem-tra-cho-nao-va-xu-ly-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/ong-nuoc-lam-mat-xe-may-ran-phong-hoac-ro/index.html",
   "kind": "article"
  },
@@ -3397,6 +3409,10 @@
  },
  {
   "rel": "moto/xe-con-tay/raider-rck/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/ran-chui-vao-xe-may-dau-hieu-xu-ly-an-toan-va-cach-phong-khi-do-xe-o-que/index.html",
   "kind": "article"
  },
  {
@@ -4753,6 +4769,10 @@
  },
  {
   "rel": "learn/kien-thuc-xe-dien/xe-may-dien-khong-len-nguon-kiem-tra-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/cham-soc-xe/xe-may-dinh-xi-mang-vua-hoac-son-tuong-khi-di-qua-cong-trinh-lam-sach-the-nao/index.html",
   "kind": "article"
  },
  {
