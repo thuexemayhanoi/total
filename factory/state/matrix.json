@@ -20903,6 +20903,19 @@
    "attempts": 0,
    "createdAt": "2026-10-13T14:17:38.953Z",
    "updatedAt": "2026-10-13T14:17:38.953Z"
+  },
+  {
+   "id": "S01438",
+   "hub": "guide/su-dung-xe",
+   "slug": "tre-nho-leo-treo-nghich-xe-may-dang-dung-nguy-co-do-xe-bong-ong-xa-va-kep-tay",
+   "title": "Trẻ nhỏ leo trèo, nghịch xe máy đang dựng: nguy cơ đổ xe, bỏng ống xả, kẹp tay và cách phòng",
+   "primaryIntent": "informational/tre-nho-leo-treo-nghich-xe-may-dang-dung-nguy-co-do-xe-bong-ong-xa-va-kep-tay",
+   "notes": "source=topic-v2 topicId=T001558",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:21:17.067Z",
+   "updatedAt": "2026-10-13T14:21:17.067Z"
   }
  ]
 }
