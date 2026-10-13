@@ -13962,6 +13962,38 @@
  },
  {
   "kind": "article",
+  "url": "hub/nhu-cau-su-dung/chay-xe-om-cong-nghe-bang-xe-may-cham-xe-chay-nhieu-mu-cho-khach-an-toan-va-giu-suc-khoe/",
+  "title": "Chạy xe ôm công nghệ bằng xe máy: chăm xe chạy nhiều, mũ cho khách, an toàn khi chở người lạ và giữ sức khỏe",
+  "description": "Hướng dẫn chạy xe ôm công nghệ bằng xe máy: kiểm xe hằng ngày, mũ sạch và đạt chuẩn cho khách, chở người lạ an toàn, giữ sức khỏe và chạy đêm.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Nhu cầu sử dụng",
+  "entities": [
+   "bảo dưỡng xe chạy nhiều",
+   "kiểm tra xe trước ca",
+   "mũ bảo hiểm cho khách",
+   "chở người lạ",
+   "giữ sức khỏe người lái",
+   "chạy xe ban đêm"
+  ],
+  "keywords": [
+   "chạy xe ôm công nghệ",
+   "bảo dưỡng xe chạy xe ôm",
+   "mũ bảo hiểm cho khách đi xe ôm",
+   "kinh nghiệm chạy xe ôm công nghệ an toàn"
+  ],
+  "seoTitle": "Chạy xe ôm công nghệ bằng xe máy: chăm xe, mũ khách, giữ sức",
+  "primaryKeyword": "chạy xe ôm công nghệ",
+  "headings": [
+   "Xe chạy cả ngày cần chăm khác xe gia đình",
+   "Mũ bảo hiểm cho khách: chuẩn bị và giữ sạch",
+   "An toàn khi chở người lạ",
+   "Giữ sức khỏe khi chạy nhiều giờ",
+   "Chạy đêm và giữ an toàn cho chính mình"
+  ],
+  "summary": "Bài dành cho người cầm lái xe ôm công nghệ bằng xe máy, chạy nhiều giờ mỗi ngày. Nội dung giải thích vì sao xe chạy liên tục đến hạn bảo dưỡng sớm hơn xe gia đình và cách kiểm tra nhanh trước mỗi ca, rồi hướng dẫn chuẩn bị mũ bảo hiểm cho khách, giữ lót sạch, "
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-xe-dien/che-do-lai-xe-may-dien-tiet-kiem-tieu-chuan-the-thao/",
   "title": "Chế độ lái trên xe máy điện: tiết kiệm, tiêu chuẩn và thể thao khác nhau ở đâu và nên dùng khi nào",
   "description": "Chế độ lái xe máy điện đổi phản ứng tay ga và giới hạn sức kéo ra sao, ảnh hưởng quãng đường và độ nóng pin thế nào, nên chọn Eco hay Sport trong tình huống nào.",
@@ -27070,6 +27102,38 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/thay-pin-xe-may-dien-pin-chinh-hang-pin-tuong-thich-va-rui-ro-cua-do-pin/",
+  "title": "Thay pin xe máy điện: pin chính hãng, pin tương thích và rủi ro của việc độ pin hay mua pin trôi nổi",
+  "description": "So sánh pin chính hãng, pin tương thích và độ pin khi thay pin xe máy điện: độ khớp với bộ sạc, mạch bảo vệ, bảo hành, rủi ro và câu cần hỏi trước khi thay.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "bộ pin xe máy điện",
+   "mạch quản lý pin",
+   "cell lithium",
+   "bộ sạc xe điện",
+   "bộ điều khiển xe điện",
+   "pin tương thích"
+  ],
+  "keywords": [
+   "thay pin xe máy điện",
+   "pin xe điện chính hãng hay pin ngoài",
+   "độ pin xe máy điện có nên không",
+   "thay pin lithium cho xe điện"
+  ],
+  "seoTitle": "Thay pin xe máy điện: chính hãng, tương thích hay độ pin?",
+  "primaryKeyword": "thay pin xe máy điện",
+  "headings": [
+   "Pin xe điện là một hệ, không chỉ là khối cell",
+   "Các lựa chọn khi thay pin: chính hãng, tương thích hay độ pin",
+   "So sánh theo độ khớp, mạch bảo vệ, nguồn gốc và bảo hành",
+   "Rủi ro của pin trôi nổi và độ pin",
+   "Những câu nên hỏi và dấu hiệu cần dừng dùng pin mới"
+  ],
+  "summary": "Bài giúp người có pin xe máy điện đã chai chọn đúng hướng khi thay. Nội dung giải thích bộ pin là một hệ gồm cell, mạch quản lý pin, vỏ và đầu nối khớp với bộ sạc và bộ điều khiển của xe, rồi so sánh ba nhóm lựa chọn là pin chính hãng, pin tương thích có nguồn"
+ },
+ {
+  "kind": "article",
   "url": "news/thi-truong-xe/thi-truong-xe-dien/",
   "title": "Kinh nghiệm thị trường xe điện dành cho người mới",
   "description": "Thị trường xe điện Việt Nam đang chuyển động ra sao, các nhóm xe điện nào đáng mua, chi phí và hạ tầng sạc ảnh hưởng thế nào đến quyết định của người mới.",
@@ -35914,6 +35978,38 @@
    "Tập lái, đánh giá định kỳ và tôn trọng quyền tự chủ của người dùng"
   ],
   "summary": "Bài giải thích xe máy ba bánh giúp được gì và không giúp được gì cho người lớn tuổi hay người khuyết tật vận động muốn tự đi lại. Xe đứng vững khi dừng và khi đỗ nhưng không thay được thị lực, phản xạ hay sức tay. Bài nêu điểm khác khi lái, nhất là ở cua, bề n"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-xu-ly-su-co/xe-may-bi-cay-khoa-nhung-chua-mat-kiem-tra-o-khoa-day-dien-va-viec-nen-lam/",
+  "title": "Xe máy bị cạy khóa nhưng chưa mất: kiểm tra ổ khóa, dây điện và những việc nên làm ngay",
+  "description": "Xe máy bị cạy khóa nhưng chưa mất: giữ an toàn trước, chụp ảnh ghi nhận, nhìn ổ khóa và dây điện trước khi nổ máy, vì sao không nên cố đề và cách đưa xe đi sửa.",
+  "category": "Mẹo",
+  "hub": "Mẹo xử lý sự cố",
+  "entities": [
+   "ổ khóa điện xe máy",
+   "nắp chắn ổ khóa",
+   "dây điện dưới yếm",
+   "khóa cổ",
+   "khóa đĩa",
+   "cứu hộ xe máy"
+  ],
+  "keywords": [
+   "xe máy bị cạy khóa",
+   "ổ khóa xe máy bị phá",
+   "xe bị trộm hụt phải làm gì",
+   "ổ khóa xe bị bẻ có đi được không"
+  ],
+  "seoTitle": "Xe máy bị cạy khóa chưa mất: kiểm tra ổ khóa, dây điện và cách xử lý",
+  "primaryKeyword": "xe máy bị cạy khóa",
+  "headings": [
+   "Việc đầu tiên khi thấy xe bị cạy khóa",
+   "Ghi nhận và báo cho ai",
+   "Kiểm tra ổ khóa, dây điện trước khi nổ máy",
+   "Vì sao không cố nổ máy khi dây đã bị can thiệp",
+   "Đưa xe đi sửa và tăng cường chống trộm"
+  ],
+  "summary": "Bài hướng dẫn thứ tự việc nên làm khi quay lại chỗ đỗ và thấy ổ khóa điện bị cạy méo, nắp chắn bị bẻ, dây điện bị lôi ra hay khóa đĩa bị cắt dở mà xe vẫn còn. Nội dung đi từ giữ an toàn cho bản thân, chụp ảnh và báo người trông xe, tới những điều chỉ nhìn bằng"
  },
  {
   "kind": "article",
