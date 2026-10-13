@@ -127,12 +127,12 @@ h1, h2, h3, h4 { line-height: 1.25; letter-spacing: -0.01em; overflow-wrap: brea
 .logo-text { font-size: 17px; letter-spacing: 0.2px; white-space: nowrap; font-family: var(--font-head); }
 .logo-text strong { color: var(--cobalt); }
 .main-nav { display: flex; align-items: center; gap: 2px; flex: 1; flex-wrap: wrap; }
-.nav-link {
+.nav-link, .nav-dd-trigger {
   color: var(--ink); padding: 8px 11px; border-radius: var(--radius-sm); font-size: 14.5px;
   min-height: 44px; display: inline-flex; align-items: center; background: none; border: 0;
   font-family: inherit; cursor: pointer; position: relative; white-space: nowrap;
 }
-.nav-link:hover { background: var(--bg-soft); text-decoration: none; }
+.nav-link:hover, .nav-dd-trigger:hover { background: var(--bg-soft); text-decoration: none; }
 .nav-link.active { color: var(--acc, var(--cobalt)); font-weight: 600; }
 .nav-link.active::after {
   content: ""; position: absolute; left: 11px; right: 11px; bottom: 4px;
@@ -196,6 +196,7 @@ h1, h2, h3, h4 { line-height: 1.25; letter-spacing: -0.01em; overflow-wrap: brea
 .dropdown { position: relative; }
 .nav-dd-trigger { white-space: nowrap; }
 .dd-panel {
+  display: none; /* The rental dropdown stays hidden until AWT adds .open. */
   position: absolute; top: calc(100% + 6px); left: 0; min-width: min(340px, calc(100vw - 32px));
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow-lg); padding: 8px; z-index: 120;
