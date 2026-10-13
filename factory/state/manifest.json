@@ -1636,6 +1636,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phun-xang-che-hoa-khi/binh-hap-thu-hoi-xang-tren-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/phun-xang-che-hoa-khi/binh-xang-xe-may-bi-gi-hoac-co-can/index.html",
   "kind": "article"
  },
@@ -1689,6 +1693,10 @@
  },
  {
   "rel": "wiki/cau-tao-xe/cac-cum-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/cac-kieu-khung-xe-may-khac-nhau-the-nao/index.html",
   "kind": "article"
  },
  {
@@ -2033,6 +2041,14 @@
  },
  {
   "rel": "ride/di-phuot/di-phuot/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-cung-duong-voi-xe-dap-luu-y/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-xuong-ham-gui-xe-luu-y/index.html",
   "kind": "article"
  },
  {
@@ -2436,6 +2452,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/cau-tao-xe/goc-nghieng-co-lai-va-do-lech-phuong-tren-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/guong-chieu-hau-xe-may-bi-long-tron-ren-hoac-rung/index.html",
   "kind": "article"
  },
@@ -2449,6 +2469,10 @@
  },
  {
   "rel": "wiki/dien-xe/he-thong-dien-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phun-xang-che-hoa-khi/he-thong-hut-khi-phu-tren-xe-may-la-gi/index.html",
   "kind": "article"
  },
  {
@@ -2873,6 +2897,10 @@
  },
  {
   "rel": "wiki/cau-tao-xe/phuoc-nguoc-va-phuoc-thuong-tren-xe-may-khac-nhau-the-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/phuoc-sau-binh-dau-phu-va-phuoc-sau-thuong-khac-nhau-the-nao/index.html",
   "kind": "article"
  },
  {

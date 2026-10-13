@@ -18588,11 +18588,13 @@
    "title": "Phuộc sau có bình dầu phụ và phuộc sau thường khác nhau thế nào: dầu, khí nén và chuyện thay phuộc",
    "primaryIntent": "informational/phuoc-sau-binh-dau-phu-va-phuoc-sau-thuong-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001368",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.609Z",
-   "updatedAt": "2026-10-13T01:59:37.609Z"
+   "updatedAt": "2026-10-13T02:19:36.732Z",
+   "seoScore": 91,
+   "words": 2941
   },
   {
    "id": "S01284",
@@ -18601,11 +18603,13 @@
    "title": "Góc nghiêng cổ lái và độ lệch phương trên xe máy là gì: vì sao xe tự đi thẳng, lái nặng hay lái nhẹ",
    "primaryIntent": "informational/goc-nghieng-co-lai-va-do-lech-phuong-tren-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001369",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.627Z",
-   "updatedAt": "2026-10-13T01:59:37.627Z"
+   "updatedAt": "2026-10-13T02:19:36.732Z",
+   "seoScore": 100,
+   "words": 3002
   },
   {
    "id": "S01285",
@@ -18614,11 +18618,13 @@
    "title": "Các kiểu khung xe máy: khung xương sống của xe số và xe tay ga, khung ống, khung dầm và điều nên biết khi dùng",
    "primaryIntent": "informational/cac-kieu-khung-xe-may-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T001370",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.644Z",
-   "updatedAt": "2026-10-13T01:59:37.644Z"
+   "updatedAt": "2026-10-13T02:19:36.731Z",
+   "seoScore": 100,
+   "words": 2943
   },
   {
    "id": "S01286",
@@ -18627,11 +18633,13 @@
    "title": "Đi xe máy xuống hầm gửi xe: dốc hầm, sàn trơn, khúc cua khuất và chỗ dựng xe an toàn",
    "primaryIntent": "informational/di-xe-may-xuong-ham-gui-xe-luu-y",
    "notes": "source=topic-v2 topicId=T001372",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.660Z",
-   "updatedAt": "2026-10-13T01:59:37.660Z"
+   "updatedAt": "2026-10-13T02:19:36.732Z",
+   "seoScore": 100,
+   "words": 2966
   },
   {
    "id": "S01287",
@@ -18640,11 +18648,13 @@
    "title": "Đi xe máy cùng đường với xe đạp: khoảng cách khi vượt, những pha rẽ bất ngờ và cách nhường nhau an toàn",
    "primaryIntent": "informational/di-xe-may-cung-duong-voi-xe-dap-luu-y",
    "notes": "source=topic-v2 topicId=T001374",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.681Z",
-   "updatedAt": "2026-10-13T01:59:37.681Z"
+   "updatedAt": "2026-10-13T02:19:36.732Z",
+   "seoScore": 100,
+   "words": 2919
   },
   {
    "id": "S01288",
@@ -18653,11 +18663,13 @@
    "title": "Hệ thống hút khí phụ trên xe máy là gì: đưa không khí vào cổ xả, tiếng nổ khi nhả ga và vì sao không nên bịt",
    "primaryIntent": "informational/he-thong-hut-khi-phu-tren-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001375",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.700Z",
-   "updatedAt": "2026-10-13T01:59:37.700Z"
+   "updatedAt": "2026-10-13T02:19:36.732Z",
+   "seoScore": 100,
+   "words": 2954
   },
   {
    "id": "S01289",
@@ -18666,11 +18678,13 @@
    "title": "Bình hấp thụ hơi xăng trên xe máy là gì: hộp than hoạt tính, ống thông hơi và vì sao có mùi xăng quanh xe",
    "primaryIntent": "informational/binh-hap-thu-hoi-xang-tren-xe-may-la-gi",
    "notes": "source=topic-v2 topicId=T001376",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.719Z",
-   "updatedAt": "2026-10-13T01:59:37.719Z"
+   "updatedAt": "2026-10-13T02:19:36.731Z",
+   "seoScore": 100,
+   "words": 2959
   },
   {
    "id": "S01290",
