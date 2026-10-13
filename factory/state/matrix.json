@@ -20950,6 +20950,71 @@
    "updatedAt": "2026-10-13T14:28:24.474Z",
    "seoScore": 100,
    "words": 2924
+  },
+  {
+   "id": "S01441",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "dat-cho-di-dao-bang-xe-may-cho-cho-chay-theo-xe-vi-sao-nguy-hiem-va-cach-thay-the",
+   "title": "Dắt chó đi dạo bằng xe máy, để chó chạy theo xe: vì sao nguy hiểm và nên làm gì thay thế",
+   "primaryIntent": "informational/dat-cho-di-dao-bang-xe-may-cho-cho-chay-theo-xe-vi-sao-nguy-hiem-va-cach-thay-the",
+   "notes": "source=topic-v2 topicId=T001563",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:44:50.908Z",
+   "updatedAt": "2026-10-13T14:44:50.909Z"
+  },
+  {
+   "id": "S01442",
+   "hub": "ride/lai-xe-trong-thanh-pho",
+   "slug": "gap-doan-nguoi-di-bao-mung-chien-thang-bong-da-tranh-xa-khong-nhap-doan-va-ve-nha-an-toan",
+   "title": "Gặp đoàn người đi bão mừng chiến thắng bóng đá: tránh xa, không nhập đoàn và về nhà an toàn",
+   "primaryIntent": "informational/gap-doan-nguoi-di-bao-mung-chien-thang-bong-da-tranh-xa-khong-nhap-doan-va-ve-nha-an-toan",
+   "notes": "source=topic-v2 topicId=T001564",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:44:50.939Z",
+   "updatedAt": "2026-10-13T14:44:50.939Z"
+  },
+  {
+   "id": "S01443",
+   "hub": "ride/lai-xe-trong-thanh-pho",
+   "slug": "di-xe-may-qua-tam-thep-lot-duong-nap-ho-ga-va-khe-co-gian-mat-kim-loai-tron-go-va-khe-ho",
+   "title": "Đi xe máy qua tấm thép lót đường, nắp hố ga và khe co giãn: mặt kim loại trơn, gồ và khe hở",
+   "primaryIntent": "informational/di-xe-may-qua-tam-thep-lot-duong-nap-ho-ga-va-khe-co-gian-mat-kim-loai-tron-go-va-khe-ho",
+   "notes": "source=topic-v2 topicId=T001565",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:44:50.975Z",
+   "updatedAt": "2026-10-13T14:44:50.975Z"
+  },
+  {
+   "id": "S01444",
+   "hub": "ride/lai-xe-trong-thanh-pho",
+   "slug": "di-xe-may-nhung-ngay-o-nhiem-khong-khi-nang-khau-trang-gio-di-va-cach-giam-hit-khoi-bui",
+   "title": "Đi xe máy những ngày ô nhiễm không khí nặng: khẩu trang, giờ đi và cách giảm hít khói bụi",
+   "primaryIntent": "informational/di-xe-may-nhung-ngay-o-nhiem-khong-khi-nang-khau-trang-gio-di-va-cach-giam-hit-khoi-bui",
+   "notes": "source=topic-v2 topicId=T001566",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:44:51.001Z",
+   "updatedAt": "2026-10-13T14:44:51.001Z"
+  },
+  {
+   "id": "S01445",
+   "hub": "guide/mua-xe",
+   "slug": "xe-may-cu-hay-hong-vat-nen-sua-tiep-hay-doi-xe-can-nhac-the-nao",
+   "title": "Xe máy cũ hay hỏng vặt: nên sửa tiếp hay đổi xe, cân nhắc thế nào",
+   "primaryIntent": "informational/xe-may-cu-hay-hong-vat-nen-sua-tiep-hay-doi-xe-can-nhac-the-nao",
+   "notes": "source=topic-v2 topicId=T001567",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:44:51.025Z",
+   "updatedAt": "2026-10-13T14:44:51.025Z"
   }
  ]
 }
