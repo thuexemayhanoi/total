@@ -20839,6 +20839,45 @@
    "attempts": 0,
    "createdAt": "2026-10-13T14:09:41.589Z",
    "updatedAt": "2026-10-13T14:09:41.589Z"
+  },
+  {
+   "id": "S01434",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "xe-may-dien-len-doc-va-xuong-doc-dai-vi-sao-yeu-pin-tut-nhanh-va-cach-di-an-toan",
+   "title": "Xe máy điện lên dốc và xuống dốc dài: vì sao xe yếu đi, pin tụt nhanh và cách đi an toàn",
+   "primaryIntent": "informational/xe-may-dien-len-doc-va-xuong-doc-dai-vi-sao-yeu-pin-tut-nhanh-va-cach-di-an-toan",
+   "notes": "source=topic-v2 topicId=T001550",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:13:31.665Z",
+   "updatedAt": "2026-10-13T14:13:31.665Z"
+  },
+  {
+   "id": "S01435",
+   "hub": "tips/meo-mua-xe",
+   "slug": "mua-xe-may-cu-qua-mang-nhan-dien-tin-dang-dang-ngo-khong-chuyen-coc-truoc-va-hen-xem-xe-an-toan",
+   "title": "Mua xe máy cũ qua mạng: nhận diện tin đăng đáng ngờ, không chuyển cọc trước khi xem xe và hẹn xem xe an toàn",
+   "primaryIntent": "informational/mua-xe-may-cu-qua-mang-nhan-dien-tin-dang-dang-ngo-khong-chuyen-coc-truoc-va-hen-xem-xe-an-toan",
+   "notes": "source=topic-v2 topicId=T001551",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:13:31.709Z",
+   "updatedAt": "2026-10-13T14:13:31.709Z"
+  },
+  {
+   "id": "S01436",
+   "hub": "garage/dien-ac-quy",
+   "slug": "bao-dong-chong-trom-xe-may-tu-keu-hoac-keu-lien-tuc-nguyen-nhan-va-cach-xu-ly",
+   "title": "Báo động chống trộm xe máy tự kêu hoặc kêu liên tục: nguyên nhân thường gặp và cách xử lý",
+   "primaryIntent": "troubleshooting/bao-dong-chong-trom-xe-may-tu-keu-hoac-keu-lien-tuc-nguyen-nhan-va-cach-xu-ly",
+   "notes": "source=topic-v2 topicId=T001552",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:13:31.741Z",
+   "updatedAt": "2026-10-13T14:13:31.741Z"
   }
  ]
 }
