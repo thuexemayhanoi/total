@@ -20792,6 +20792,45 @@
    "attempts": 0,
    "createdAt": "2026-10-13T14:05:28.449Z",
    "updatedAt": "2026-10-13T14:05:28.449Z"
+  },
+  {
+   "id": "S01431",
+   "hub": "guide/su-dung-xe",
+   "slug": "cho-ga-vit-va-long-gia-cam-bang-xe-may-buoc-long-giu-thang-bang-va-giu-ve-sinh",
+   "title": "Chở gà vịt và lồng gia cầm bằng xe máy: buộc lồng, giữ thăng bằng khi con vật giãy và giữ vệ sinh",
+   "primaryIntent": "informational/cho-ga-vit-va-long-gia-cam-bang-xe-may-buoc-long-giu-thang-bang-va-giu-ve-sinh",
+   "notes": "source=topic-v2 topicId=T001546",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:09:41.513Z",
+   "updatedAt": "2026-10-13T14:09:41.513Z"
+  },
+  {
+   "id": "S01432",
+   "hub": "garage/phanh",
+   "slug": "tay-phanh-hoac-tay-con-xe-may-bi-gay-cong-sau-khi-nga-dung-tam-duoc-khong-va-thay-the-nao",
+   "title": "Tay phanh hoặc tay côn xe máy bị gãy, cong sau khi ngã: dùng tạm được không và thay thế nào",
+   "primaryIntent": "troubleshooting/tay-phanh-hoac-tay-con-xe-may-bi-gay-cong-sau-khi-nga-dung-tam-duoc-khong-va-thay-the-nao",
+   "notes": "source=topic-v2 topicId=T001547",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:09:41.558Z",
+   "updatedAt": "2026-10-13T14:09:41.558Z"
+  },
+  {
+   "id": "S01433",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "lay-nham-xe-may-giong-het-o-bai-gui-hoac-truoc-cua-hang-cach-nhan-ra-va-xu-ly",
+   "title": "Lấy nhầm xe máy giống hệt ở bãi gửi hay trước cửa hàng: cách nhận ra, xử lý và phòng tránh",
+   "primaryIntent": "troubleshooting/lay-nham-xe-may-giong-het-o-bai-gui-hoac-truoc-cua-hang-cach-nhan-ra-va-xu-ly",
+   "notes": "source=topic-v2 topicId=T001548",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T14:09:41.589Z",
+   "updatedAt": "2026-10-13T14:09:41.589Z"
   }
  ]
 }
