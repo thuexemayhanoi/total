@@ -21302,6 +21302,32 @@
    "attempts": 0,
    "createdAt": "2026-10-13T15:08:18.194Z",
    "updatedAt": "2026-10-13T15:08:18.194Z"
+  },
+  {
+   "id": "S01465",
+   "hub": "map/bai-do-xe",
+   "slug": "qua-cong-co-thanh-chan-tu-dong-o-bai-xe-va-chung-cu-bang-xe-may-khong-bam-duoi-va-dung-dung-vach",
+   "title": "Qua cổng có thanh chắn tự động ở bãi xe và chung cư bằng xe máy: không bám đuôi và dừng đúng vạch",
+   "primaryIntent": "informational/qua-cong-co-thanh-chan-tu-dong-o-bai-xe-va-chung-cu-bang-xe-may-khong-bam-duoi-va-dung-dung-vach",
+   "notes": "source=topic-v2 topicId=T001588",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:11:55.583Z",
+   "updatedAt": "2026-10-13T15:11:55.583Z"
+  },
+  {
+   "id": "S01466",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "cho-nguoi-bo-bot-chan-chong-nang-hay-vua-xuat-vien-ngoi-sau-xe-may-len-xuong-va-giu-chan",
+   "title": "Chở người bó bột chân, chống nạng hay vừa xuất viện ngồi sau xe máy: lên xuống, giữ chân và khi nào không nên chở",
+   "primaryIntent": "informational/cho-nguoi-bo-bot-chan-chong-nang-hay-vua-xuat-vien-ngoi-sau-xe-may-len-xuong-va-giu-chan",
+   "notes": "source=topic-v2 topicId=T001589",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:11:55.630Z",
+   "updatedAt": "2026-10-13T15:11:55.630Z"
   }
  ]
 }
