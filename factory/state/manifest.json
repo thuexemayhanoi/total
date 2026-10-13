@@ -1604,6 +1604,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/loi-thuong-gap/baga-xe-may-chon-loai-gan-them-tai-trong-theo-xe-dau-hieu-nut-long-va-cach-chat-do/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "map/bai-do-xe/bai-do-xe/index.html",
   "kind": "article"
  },
@@ -1761,6 +1765,10 @@
  },
  {
   "rel": "moto/xe-con-tay/cach-lai-xe-con/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/lop-banh-xe/cam-bien-ap-suat-lop-gan-them-cho-xe-may-do-gi-lap-o-dau-va-co-can-khong/index.html",
   "kind": "article"
  },
  {
@@ -1949,6 +1957,10 @@
  },
  {
   "rel": "guide/su-dung-xe/cho-vali-bang-xe-may-dat-o-dau-buoc-the-nao-va-khi-nao-nen-goi-xe-khac/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/cho-xe-dap-bang-xe-may-hoac-vua-lai-vua-dat-xe-dap-vi-sao-nguy-hiem-va-cach-lam-an-toan-hon/index.html",
   "kind": "article"
  },
  {
@@ -2189,6 +2201,10 @@
  },
  {
   "rel": "ride/lai-xe-trong-thanh-pho/den-tin-hieu-o-nga-tu-bi-hong-tat-hoac-chi-nhay-vang-di-xe-may-qua-the-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/dien-xe/den-tro-sang-gan-them-cho-xe-may-chieu-dung-huong-de-khong-loa-nguoi-doi-dien-va-nguon-dien/index.html",
   "kind": "article"
  },
  {

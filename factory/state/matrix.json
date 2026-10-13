@@ -20748,11 +20748,13 @@
    "title": "Chở xe đạp bằng xe máy hoặc vừa lái vừa dắt xe đạp: vì sao nguy hiểm và cách làm an toàn hơn",
    "primaryIntent": "informational/cho-xe-dap-bang-xe-may-hoac-vua-lai-vua-dat-xe-dap-vi-sao-nguy-hiem-va-cach-lam-an-toan-hon",
    "notes": "source=topic-v2 topicId=T001540",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:05:28.350Z",
-   "updatedAt": "2026-10-13T14:05:28.350Z"
+   "updatedAt": "2026-10-13T14:11:54.920Z",
+   "seoScore": 100,
+   "words": 3086
   },
   {
    "id": "S01428",
@@ -20761,11 +20763,13 @@
    "title": "Cảm biến áp suất lốp gắn thêm cho xe máy: đo gì, lắp ở đâu, pin và có thật sự cần không",
    "primaryIntent": "informational/cam-bien-ap-suat-lop-gan-them-cho-xe-may-do-gi-lap-o-dau-va-co-can-khong",
    "notes": "source=topic-v2 topicId=T001541",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:05:28.382Z",
-   "updatedAt": "2026-10-13T14:05:28.382Z"
+   "updatedAt": "2026-10-13T14:11:54.920Z",
+   "seoScore": 100,
+   "words": 2898
   },
   {
    "id": "S01429",
@@ -20774,11 +20778,13 @@
    "title": "Baga xe máy: chọn loại gắn thêm, tải trọng theo xe, dấu hiệu nứt lỏng và cách chất đồ",
    "primaryIntent": "informational/baga-xe-may-chon-loai-gan-them-tai-trong-theo-xe-dau-hieu-nut-long-va-cach-chat-do",
    "notes": "source=topic-v2 topicId=T001543",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:05:28.413Z",
-   "updatedAt": "2026-10-13T14:05:28.413Z"
+   "updatedAt": "2026-10-13T14:11:54.920Z",
+   "seoScore": 100,
+   "words": 2964
   },
   {
    "id": "S01430",
@@ -20787,11 +20793,13 @@
    "title": "Đèn trợ sáng gắn thêm cho xe máy: chiếu đúng hướng để không lóa người đối diện, nguồn điện và cầu chì",
    "primaryIntent": "informational/den-tro-sang-gan-them-cho-xe-may-chieu-dung-huong-de-khong-loa-nguoi-doi-dien-va-nguon-dien",
    "notes": "source=topic-v2 topicId=T001544",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T14:05:28.449Z",
-   "updatedAt": "2026-10-13T14:05:28.449Z"
+   "updatedAt": "2026-10-13T14:11:54.920Z",
+   "seoScore": 91,
+   "words": 3001
   },
   {
    "id": "S01431",
