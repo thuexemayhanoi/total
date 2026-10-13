@@ -19968,11 +19968,13 @@
    "title": "Mặt đèn pha xe máy bị ố vàng, mờ đục: ảnh hưởng ánh sáng ra sao, làm sạch thế nào và khi nào nên thay",
    "primaryIntent": "informational/mat-den-pha-xe-may-bi-o-vang-mo-duc-lam-sach-the-nao-va-khi-nao-nen-thay",
    "notes": "source=topic-v2 topicId=T001476",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:14:35.971Z",
-   "updatedAt": "2026-10-13T08:14:35.971Z"
+   "updatedAt": "2026-10-13T12:34:51.051Z",
+   "seoScore": 100,
+   "words": 3083
   },
   {
    "id": "S01376",
@@ -19981,11 +19983,13 @@
    "title": "Tựa lưng cho người lái xe máy: có giúp đỡ mỏi lưng không, chọn và gắn thế nào cho an toàn",
    "primaryIntent": "informational/tua-lung-cho-nguoi-lai-xe-may-co-giup-do-moi-lung-khong-va-cach-chon-gan",
    "notes": "source=topic-v2 topicId=T001477",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:14:36.017Z",
-   "updatedAt": "2026-10-13T08:14:36.017Z"
+   "updatedAt": "2026-10-13T12:34:51.052Z",
+   "seoScore": 100,
+   "words": 2909
   },
   {
    "id": "S01377",
@@ -19994,11 +19998,13 @@
    "title": "Xe máy ba bánh cho người lớn tuổi và người khuyết tật: khi nào phù hợp và lái khác xe hai bánh ra sao",
    "primaryIntent": "informational/xe-may-ba-banh-cho-nguoi-lon-tuoi-va-nguoi-khuyet-tat-khi-nao-phu-hop-va-cach-lai",
    "notes": "source=topic-v2 topicId=T001478",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:14:36.046Z",
-   "updatedAt": "2026-10-13T08:14:36.046Z"
+   "updatedAt": "2026-10-13T12:34:51.052Z",
+   "seoScore": 91,
+   "words": 3058
   },
   {
    "id": "S01378",
@@ -20007,11 +20013,13 @@
    "title": "Ắc quy và pin xe máy cũ: vì sao không vứt chung rác, cất giữ tạm thế nào và nên mang đi đâu",
    "primaryIntent": "informational/ac-quy-va-pin-xe-may-cu-vi-sao-khong-vut-chung-rac-va-nen-mang-di-dau",
    "notes": "source=topic-v2 topicId=T001479",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:14:36.072Z",
-   "updatedAt": "2026-10-13T08:14:36.072Z"
+   "updatedAt": "2026-10-13T12:34:51.051Z",
+   "seoScore": 100,
+   "words": 2835
   },
   {
    "id": "S01379",
@@ -20020,11 +20028,13 @@
    "title": "Người cao to đi xe máy: chọn xe đủ chỗ để chân, tư thế ngồi không gò bó và lưu ý khi chở người",
    "primaryIntent": "informational/nguoi-cao-to-di-xe-may-chon-xe-du-cho-de-chan-tu-the-ngoi-va-luu-y-khi-cho-nguoi",
    "notes": "source=topic-v2 topicId=T001480",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:14:36.112Z",
-   "updatedAt": "2026-10-13T08:14:36.112Z"
+   "updatedAt": "2026-10-13T12:34:51.052Z",
+   "seoScore": 100,
+   "words": 3034
   },
   {
    "id": "S01380",
@@ -20033,11 +20043,13 @@
    "title": "Mũ bảo hiểm hỏng vặt: kính lỏng hay kẹt, bản lề gãy, khóa quai khó cài — sửa được gì và khi nào phải thay mũ",
    "primaryIntent": "troubleshooting/mu-bao-hiem-hong-vat-kinh-long-ban-le-gay-khoa-quai-kho-cai-sua-gi-va-khi-nao-thay",
    "notes": "source=topic-v2 topicId=T001481",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:14:36.148Z",
-   "updatedAt": "2026-10-13T08:14:36.148Z"
+   "updatedAt": "2026-10-13T12:34:51.051Z",
+   "seoScore": 100,
+   "words": 2995
   },
   {
    "id": "S01381",
