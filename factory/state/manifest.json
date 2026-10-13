@@ -1640,6 +1640,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/bi-chuot-rut-khi-dang-di-xe-may-dung-xe-va-gian-co/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/gia-xe/bien-dong-gia-xe/index.html",
   "kind": "article"
  },
@@ -1709,6 +1713,10 @@
  },
  {
   "rel": "wiki/dong-co/bugi-nong-va-bugi-lanh-xe-may-la-gi-chi-so-nhiet-cua-bugi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/bui-cat-hoac-con-trung-bay-vao-mat-khi-dang-di-xe-may/index.html",
   "kind": "article"
  },
  {
@@ -1880,6 +1888,10 @@
   "kind": "article"
  },
  {
+  "rel": "hub/nhu-cau-su-dung/cho-nguoi-om-hoac-bi-thuong-di-kham-bang-xe-may-khi-nao-phai-goi-cap-cuu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dau-nhot/chon-dau-nhot/index.html",
   "kind": "article"
  },
@@ -1893,6 +1905,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/chong-ri-set-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/chong-trom-pin-va-bo-sac-xe-may-dien-khoa-khoang-pin-va-cat-bo-sac/index.html",
   "kind": "article"
  },
  {
@@ -2117,6 +2133,10 @@
  },
  {
   "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-cung-duong-voi-xe-dap-luu-y/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/di-xe-may-mot-minh-ban-dem-chon-duong-bao-nguoi-than-va-xu-ly-khi-bat-an/index.html",
   "kind": "article"
  },
  {
@@ -2772,6 +2792,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/ky-thuat-lai-xe/lau-khong-lai-xe-may-nay-lai-lai-ky-nang-de-mai-mot-va-cach-lam-quen-lai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/le-duong-bi-hang-khi-di-xe-may-banh-truot-mep-be-tong-va-cach-leo-lai/index.html",
   "kind": "article"
  },
@@ -2949,6 +2973,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/nguoi-di-bo-sang-duong-truoc-mui-xe-may-nhuong-va-doc-y-dinh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/nguoi-thap-di-xe-may-chong-chan-khi-dung-va-dat-xe-khi-chan-khong-cham-dat-han/index.html",
   "kind": "article"
  },
  {
