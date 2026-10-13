@@ -21640,6 +21640,45 @@
    "updatedAt": "2026-10-13T16:21:47.230Z",
    "seoScore": 100,
    "words": 3093
+  },
+  {
+   "id": "S01487",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "xe-may-roi-xuong-ao-muong-hay-song-cuu-nguoi-truoc-vot-xe-an-toan-va-viec-khong-duoc-lam",
+   "title": "Xe máy rơi xuống ao, mương hay sông: cứu người trước, vớt xe an toàn và việc không được làm",
+   "primaryIntent": "troubleshooting/xe-may-roi-xuong-ao-muong-hay-song-cuu-nguoi-truoc-vot-xe-an-toan-va-viec-khong-duoc-lam",
+   "notes": "source=topic-v2 topicId=T001621",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T16:24:08.374Z",
+   "updatedAt": "2026-10-13T16:24:08.374Z"
+  },
+  {
+   "id": "S01488",
+   "hub": "garage/dien-ac-quy",
+   "slug": "lap-them-khoa-thong-minh-cho-xe-may-doi-cu-duoc-gi-rui-ro-dien-va-bao-hanh",
+   "title": "Lắp thêm khóa thông minh cho xe máy đời cũ: được gì, rủi ro về điện và bảo hành",
+   "primaryIntent": "informational/lap-them-khoa-thong-minh-cho-xe-may-doi-cu-duoc-gi-rui-ro-dien-va-bao-hanh",
+   "notes": "source=topic-v2 topicId=T001622",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T16:24:08.413Z",
+   "updatedAt": "2026-10-13T16:24:08.413Z"
+  },
+  {
+   "id": "S01489",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "boc-dau-xe-may-co-hai-xe-khong-va-vi-sao-nguy-hiem-tren-duong",
+   "title": "Bốc đầu xe máy có hại xe không và vì sao nguy hiểm trên đường",
+   "primaryIntent": "informational/boc-dau-xe-may-co-hai-xe-khong-va-vi-sao-nguy-hiem-tren-duong",
+   "notes": "source=topic-v2 topicId=T001623",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T16:24:08.444Z",
+   "updatedAt": "2026-10-13T16:24:08.444Z"
   }
  ]
 }
