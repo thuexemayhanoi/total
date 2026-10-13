@@ -20643,11 +20643,13 @@
    "title": "Gặp nhóm đua xe hoặc lạng lách trên đường: tránh xa, không đối đầu và báo cho ai",
    "primaryIntent": "informational/gap-nhom-dua-xe-hoac-lang-lach-tren-duong-tranh-xa-khong-doi-dau-va-bao-cho-ai",
    "notes": "source=topic-v2 topicId=T001533",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:56:29.783Z",
-   "updatedAt": "2026-10-13T13:56:29.783Z"
+   "updatedAt": "2026-10-13T14:02:52.398Z",
+   "seoScore": 100,
+   "words": 3134
   },
   {
    "id": "S01421",
@@ -20656,11 +20658,13 @@
    "title": "Gặp người ăn vạ hoặc dàn cảnh va quẹt để đòi tiền: nhận biết, giữ bằng chứng và nhờ hỗ trợ",
    "primaryIntent": "informational/gap-nguoi-an-va-hoac-dan-canh-va-quet-de-doi-tien-nhan-biet-giu-bang-chung-va-nho-ho-tro",
    "notes": "source=topic-v2 topicId=T001534",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:56:29.817Z",
-   "updatedAt": "2026-10-13T13:56:29.817Z"
+   "updatedAt": "2026-10-13T14:02:52.398Z",
+   "seoScore": 100,
+   "words": 3082
   },
   {
    "id": "S01422",
@@ -20669,11 +20673,13 @@
    "title": "Đồ trong cốp xe máy bị lấy khi gửi xe hay đỗ ngoài đường: vì sao cốp không an toàn như ta nghĩ và cách giữ đồ",
    "primaryIntent": "informational/do-trong-cop-xe-may-bi-lay-khi-gui-xe-hoac-do-ngoai-duong-vi-sao-va-cach-giu-do",
    "notes": "source=topic-v2 topicId=T001535",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T13:56:29.859Z",
-   "updatedAt": "2026-10-13T13:56:29.859Z"
+   "updatedAt": "2026-10-13T14:02:52.398Z",
+   "seoScore": 91,
+   "words": 3129
   },
   {
    "id": "S01423",

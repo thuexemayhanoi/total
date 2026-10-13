@@ -17843,6 +17843,38 @@
  },
  {
   "kind": "article",
+  "url": "guide/su-dung-xe/do-trong-cop-xe-may-bi-lay-khi-gui-xe-hoac-do-ngoai-duong-vi-sao-va-cach-giu-do/",
+  "title": "Đồ trong cốp xe máy bị lấy khi gửi xe hay đỗ ngoài đường: vì sao cốp không an toàn như ta nghĩ và cách giữ đồ",
+  "description": "Mất đồ trong cốp xe máy khi gửi xe hay đỗ ngoài đường: vì sao cốp không an toàn, tình huống hay gặp, việc cần làm ngay và cách giữ đồ quý.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "cốp xe máy",
+   "khóa yên",
+   "ổ khóa điện",
+   "bãi gửi xe",
+   "vé gửi xe",
+   "camera giám sát"
+  ],
+  "keywords": [
+   "mất đồ trong cốp xe máy",
+   "bị trộm đồ trong cốp xe",
+   "cạy cốp xe máy",
+   "để đồ trong cốp có an toàn không"
+  ],
+  "seoTitle": "Mất đồ trong cốp xe máy: vì sao xảy ra và cách giữ đồ an toàn",
+  "primaryKeyword": "mất đồ trong cốp xe máy",
+  "headings": [
+   "Vì sao cốp xe không an toàn như ta nghĩ",
+   "Những tình huống mất đồ trong cốp hay gặp",
+   "Việc nên làm ngay khi phát hiện mất đồ",
+   "Những thứ không nên để trong cốp khi rời xe",
+   "Kiểm tra khóa yên và thói quen giữ đồ"
+  ],
+  "summary": "Cốp xe máy giúp giấu đồ khỏi tầm mắt nhưng không phải két sắt: thân cốp bằng nhựa, ở nhiều xe khóa yên dùng chung ổ khóa điện, chìa để quên trên xe thì ai cũng mở được và xe gửi có thể bị dắt đổi chỗ. Nội dung nêu những tình huống mất đồ hay gặp, việc nên làm "
+ },
+ {
+  "kind": "article",
   "url": "map/bai-do-xe/do-xe-o-dau/",
   "title": "Tổng hợp kiến thức: đỗ xe ở đâu",
   "description": "Tổng hợp kiến thức giúp bạn quyết định đỗ xe ở đâu: nhận biết nơi được và không được đỗ, đọc biển báo và vạch kẻ, chọn bãi chính thức, đỗ xe an toàn ở phố đông và điểm du lịch.",
@@ -18871,6 +18903,70 @@
    "Báo cho chính quyền địa phương và chuẩn bị sẵn từ trước"
   ],
   "summary": "Bài giúp người đi xe máy nhận ra dấu hiệu một đoạn đường có thể bị rải đinh, như nhiều xe cùng dắt bộ, đinh nhỏ hay mảnh sắt sát mép đường. Nội dung nêu cách giảm tốc và theo vệt bánh xe sạch khi đi qua, cách giữ tay lái lúc lốp thủng, lý do không nên chạy tiế"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/gap-nguoi-an-va-hoac-dan-canh-va-quet-de-doi-tien-nhan-biet-giu-bang-chung-va-nho-ho-tro/",
+  "title": "Gặp người ăn vạ hoặc dàn cảnh va quẹt để đòi tiền: nhận biết, giữ bằng chứng và nhờ hỗ trợ",
+  "description": "Gặp người ăn vạ hoặc dàn cảnh va quẹt đòi tiền khi đi xe máy? Cách nhận biết, giữ bình tĩnh, ghi lại bằng chứng và nhờ người có trách nhiệm đến giải quyết.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "ăn vạ",
+   "dàn cảnh va quẹt",
+   "vết xước cũ",
+   "người làm chứng",
+   "camera hành trình",
+   "giữ bằng chứng"
+  ],
+  "keywords": [
+   "người ăn vạ",
+   "dàn cảnh va quẹt đòi tiền",
+   "bị ăn vạ khi đi xe máy",
+   "giả va chạm xe máy"
+  ],
+  "seoTitle": "Bị ăn vạ khi đi xe máy: nhận biết, giữ bằng chứng, nhờ hỗ trợ",
+  "primaryKeyword": "người ăn vạ",
+  "headings": [
+   "Những kiểu ăn vạ và dàn cảnh thường gặp",
+   "Phân biệt với va chạm thật và khi có người bị thương",
+   "Giữ bình tĩnh, an toàn và giữ bằng chứng",
+   "Không trả tiền dưới sức ép: nhờ ai đến giải quyết",
+   "Sau sự việc và cách phòng tránh"
+  ],
+  "summary": "Bài hướng dẫn cách xử lý khi đang đi xe máy thì bị người lạ chặn lại, nói rằng bạn vừa quẹt vào xe hay người họ rồi đòi tiền ngay. Nội dung giải thích các kiểu ăn vạ và dàn cảnh thường được kể lại, cách phân biệt với va chạm thật, việc ưu tiên cứu người khi có"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/gap-nhom-dua-xe-hoac-lang-lach-tren-duong-tranh-xa-khong-doi-dau-va-bao-cho-ai/",
+  "title": "Gặp nhóm đua xe hoặc lạng lách trên đường: tránh xa, không đối đầu và báo cho ai",
+  "description": "Gặp nhóm đua xe hoặc lạng lách trên đường nên làm gì? Cách nhận ra từ xa, giữ làn khi nhóm ở sau, không đối đầu, vào nơi đông người và báo cho ai, báo gì.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "nhóm đua xe trái phép",
+   "lạng lách đánh võng",
+   "giữ làn bên phải",
+   "nơi đông người sáng đèn",
+   "báo công an",
+   "chọn tuyến an toàn"
+  ],
+  "keywords": [
+   "gặp nhóm đua xe trên đường",
+   "gặp đua xe trái phép",
+   "bị nhóm xe máy bám đuổi",
+   "xử lý khi gặp nhóm thanh niên lạng lách"
+  ],
+  "seoTitle": "Gặp nhóm đua xe trên đường: cách tránh, không đối đầu, báo cho ai",
+  "primaryKeyword": "gặp nhóm đua xe trên đường",
+  "headings": [
+   "Vì sao gặp nhóm đua xe trên đường lại nguy hiểm",
+   "Nhận ra từ xa để có thời gian xử lý",
+   "Nhóm ở phía sau hay phía trước: mỗi tình huống một cách xử lý",
+   "Không đối đầu và cách xử lý khi bị bám đuổi",
+   "Báo cho ai, báo gì và chọn tuyến để tránh"
+  ],
+  "summary": "Bài hướng dẫn người đi xe máy cách xử lý khi gặp nhóm xe chạy tốc độ cao, rú ga, lạng lách hoặc tụ tập chiếm lòng đường. Nội dung giải thích vì sao tình huống này nguy hiểm, cách nhận ra từ xa bằng tiếng động, ánh đèn và người đứng tụ, việc nên làm khi nhóm ở "
  },
  {
   "kind": "article",
