@@ -20246,6 +20246,45 @@
    "attempts": 0,
    "createdAt": "2026-10-13T12:44:04.859Z",
    "updatedAt": "2026-10-13T12:44:04.859Z"
+  },
+  {
+   "id": "S01395",
+   "hub": "garage/phanh",
+   "slug": "khi-nao-phai-thay-dia-phanh-xe-may-mon-mong-ranh-sau-cong-venh-va-nut",
+   "title": "Khi nào phải thay đĩa phanh xe máy: đĩa mòn mỏng, có rãnh sâu, cong vênh hoặc nứt",
+   "primaryIntent": "troubleshooting/khi-nao-phai-thay-dia-phanh-xe-may-mon-mong-ranh-sau-cong-venh-va-nut",
+   "notes": "source=topic-v2 topicId=T001498",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:49:48.222Z",
+   "updatedAt": "2026-10-13T12:49:48.222Z"
+  },
+  {
+   "id": "S01396",
+   "hub": "hub/nhu-cau-su-dung",
+   "slug": "cho-con-di-xe-dap-dien-den-truong-kiem-tra-xe-mu-sac-pin-va-dan-do-an-toan",
+   "title": "Cho con đi xe đạp điện đến trường: kiểm tra xe, đội mũ, sạc pin an toàn và những điều cần dặn con",
+   "primaryIntent": "informational/cho-con-di-xe-dap-dien-den-truong-kiem-tra-xe-mu-sac-pin-va-dan-do-an-toan",
+   "notes": "source=topic-v2 topicId=T001499",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:49:48.251Z",
+   "updatedAt": "2026-10-13T12:49:48.251Z"
+  },
+  {
+   "id": "S01397",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "xe-may-dien-co-tieng-keu-la-tu-banh-co-dong-co-hu-re-lach-cach-va-khi-nao-can-tho",
+   "title": "Xe máy điện có tiếng kêu lạ từ bánh có động cơ: tiếng hú, rè, lạch cạch và khi nào cần đưa đi thợ",
+   "primaryIntent": "troubleshooting/xe-may-dien-co-tieng-keu-la-tu-banh-co-dong-co-hu-re-lach-cach-va-khi-nao-can-tho",
+   "notes": "source=topic-v2 topicId=T001501",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T12:49:48.276Z",
+   "updatedAt": "2026-10-13T12:49:48.276Z"
   }
  ]
 }
