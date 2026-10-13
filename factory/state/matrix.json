@@ -20365,6 +20365,45 @@
    "updatedAt": "2026-10-13T13:26:21.623Z",
    "seoScore": 91,
    "words": 2860
+  },
+  {
+   "id": "S01402",
+   "hub": "hub/nhu-cau-su-dung",
+   "slug": "chay-xe-om-cong-nghe-bang-xe-may-cham-xe-chay-nhieu-mu-cho-khach-an-toan-va-giu-suc-khoe",
+   "title": "Chạy xe ôm công nghệ bằng xe máy: chăm xe chạy nhiều, mũ cho khách, an toàn khi chở người lạ và giữ sức khỏe",
+   "primaryIntent": "informational/chay-xe-om-cong-nghe-bang-xe-may-cham-xe-chay-nhieu-mu-cho-khach-an-toan-va-giu-suc-khoe",
+   "notes": "source=topic-v2 topicId=T001510",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:28:48.145Z",
+   "updatedAt": "2026-10-13T13:28:48.146Z"
+  },
+  {
+   "id": "S01403",
+   "hub": "tips/meo-xu-ly-su-co",
+   "slug": "xe-may-bi-cay-khoa-nhung-chua-mat-kiem-tra-o-khoa-day-dien-va-viec-nen-lam",
+   "title": "Xe máy bị cạy khóa nhưng chưa mất: kiểm tra ổ khóa, dây điện và những việc nên làm ngay",
+   "primaryIntent": "troubleshooting/xe-may-bi-cay-khoa-nhung-chua-mat-kiem-tra-o-khoa-day-dien-va-viec-nen-lam",
+   "notes": "source=topic-v2 topicId=T001511",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:28:48.176Z",
+   "updatedAt": "2026-10-13T13:28:48.176Z"
+  },
+  {
+   "id": "S01404",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "thay-pin-xe-may-dien-pin-chinh-hang-pin-tuong-thich-va-rui-ro-cua-do-pin",
+   "title": "Thay pin xe máy điện: pin chính hãng, pin tương thích và rủi ro của việc độ pin hay mua pin trôi nổi",
+   "primaryIntent": "informational/thay-pin-xe-may-dien-pin-chinh-hang-pin-tuong-thich-va-rui-ro-cua-do-pin",
+   "notes": "source=topic-v2 topicId=T001512",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:28:48.203Z",
+   "updatedAt": "2026-10-13T13:28:48.203Z"
   }
  ]
 }
