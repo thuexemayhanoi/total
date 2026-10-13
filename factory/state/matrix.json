@@ -20554,6 +20554,71 @@
    "attempts": 0,
    "createdAt": "2026-10-13T13:46:34.901Z",
    "updatedAt": "2026-10-13T13:46:34.901Z"
+  },
+  {
+   "id": "S01415",
+   "hub": "guide/su-dung-xe",
+   "slug": "cho-cay-canh-cay-dao-cay-quat-bang-xe-may-buoc-goc-giu-canh-va-khong-che-tam-nhin",
+   "title": "Chở cây cảnh, cây đào hay cây quất bằng xe máy: buộc gốc, giữ cành và không che tầm nhìn",
+   "primaryIntent": "informational/cho-cay-canh-cay-dao-cay-quat-bang-xe-may-buoc-goc-giu-canh-va-khong-che-tam-nhin",
+   "notes": "source=topic-v2 topicId=T001528",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:50:42.332Z",
+   "updatedAt": "2026-10-13T13:50:42.332Z"
+  },
+  {
+   "id": "S01416",
+   "hub": "guide/su-dung-xe",
+   "slug": "de-mu-bao-hiem-tren-xe-may-khi-do-moc-mu-cop-xe-va-tranh-mat-mu-hong-mu",
+   "title": "Để mũ bảo hiểm trên xe máy khi đỗ: móc mũ, cốp xe và cách tránh mất mũ hay làm hỏng mũ",
+   "primaryIntent": "informational/de-mu-bao-hiem-tren-xe-may-khi-do-moc-mu-cop-xe-va-tranh-mat-mu-hong-mu",
+   "notes": "source=topic-v2 topicId=T001529",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:50:42.372Z",
+   "updatedAt": "2026-10-13T13:50:42.372Z"
+  },
+  {
+   "id": "S01417",
+   "hub": "learn/cham-soc-xe",
+   "slug": "xe-may-dinh-xi-mang-vua-hoac-son-tuong-khi-di-qua-cong-trinh-lam-sach-the-nao",
+   "title": "Xe máy dính xi măng, vữa hoặc sơn tường khi đi qua công trình: làm sạch thế nào để không hại sơn xe",
+   "primaryIntent": "informational/xe-may-dinh-xi-mang-vua-hoac-son-tuong-khi-di-qua-cong-trinh-lam-sach-the-nao",
+   "notes": "source=topic-v2 topicId=T001530",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:50:42.399Z",
+   "updatedAt": "2026-10-13T13:50:42.399Z"
+  },
+  {
+   "id": "S01418",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "ong-kien-hoac-gian-lam-to-trong-xe-may-de-lau-kiem-tra-cho-nao-va-xu-ly-an-toan",
+   "title": "Ong, kiến hoặc gián làm tổ trong xe máy để lâu: kiểm tra chỗ nào và xử lý thế nào cho an toàn",
+   "primaryIntent": "troubleshooting/ong-kien-hoac-gian-lam-to-trong-xe-may-de-lau-kiem-tra-cho-nao-va-xu-ly-an-toan",
+   "notes": "source=topic-v2 topicId=T001531",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:50:42.427Z",
+   "updatedAt": "2026-10-13T13:50:42.427Z"
+  },
+  {
+   "id": "S01419",
+   "hub": "guide/xu-ly-su-co",
+   "slug": "ran-chui-vao-xe-may-dau-hieu-xu-ly-an-toan-va-cach-phong-khi-do-xe-o-que",
+   "title": "Rắn chui vào xe máy: dấu hiệu, xử lý an toàn và cách phòng khi đỗ xe ở vườn, ruộng hay vùng quê",
+   "primaryIntent": "troubleshooting/ran-chui-vao-xe-may-dau-hieu-xu-ly-an-toan-va-cach-phong-khi-do-xe-o-que",
+   "notes": "source=topic-v2 topicId=T001532",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T13:50:42.453Z",
+   "updatedAt": "2026-10-13T13:50:42.453Z"
   }
  ]
 }
