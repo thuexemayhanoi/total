@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — S01524; xe ngược chiều rẽ trái cắt ngang xe máy đi thẳng, chỉ nêu cách phòng của người đi xe máy, không số liệu, không viện dẫn luật.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'xe-nguoc-chieu-re-trai-cat-ngang-dau-xe-may-dang-di-thang-vi-sao-nguoi-re-khong-thay-ban-va-cach-phong-o-giao-lo',
+  title: 'Xe ngược chiều rẽ trái cắt ngang đầu xe máy đang đi thẳng: vì sao người rẽ không thấy bạn và cách phòng ở giao lộ',
+  seoTitle: 'Xe ngược chiều rẽ trái cắt đầu xe máy: vì sao không thấy và cách phòng',
+  metaDescription: 'Vì sao xe ngược chiều rẽ trái cắt đầu xe máy đang đi thẳng: những chỗ khuất tầm nhìn, tình huống hay gặp, dấu hiệu xe sắp rẽ và cách phòng ở giao lộ.',
+  summary: 'Bài giải thích vì sao ô tô hay xe máy từ hướng đối diện rẽ trái thường cắt ngang đầu xe máy đang đi thẳng, kể cả khi người rẽ nói rằng không thấy hoặc tưởng còn kịp. Nội dung gồm những chỗ che tầm nhìn, khó khăn khi ước lượng tốc độ vật nhỏ, các tình huống dễ xảy ra ở giao lộ, dấu hiệu nhận ra xe sắp rẽ, cách giảm tốc, chọn vị trí trong làn và phản ứng khi xe rẽ đã cắt ngang trước mũi xe.',
+  quickAnswer: 'Người rẽ trái thường không thấy xe máy vì xe nhỏ, hẹp, hay bị cột kính ô tô, xe lớn hoặc dòng người che, và vì họ đang dồn mắt vào khoảng trống giữa các xe đối diện. Cách phòng là giảm tốc từ xa, che phanh, đi ở vị trí dễ được nhìn thấy, không nấp sau xe lớn và sẵn sàng dừng thay vì tin rằng người rẽ sẽ nhường.',
+  keyPoints: [
+    'Xe máy nhỏ và hẹp nên dễ lọt sau cột kính ô tô, sau xe lớn hoặc lẫn trong dòng người; đèn xe máy cũng dễ lẫn vào đèn đường và biển hiệu.',
+    'Vật nhỏ đi thẳng tới khó ước lượng tốc độ, nên người rẽ có thể tưởng còn kịp; việc mình thấy người rẽ chưa phải bằng chứng người rẽ thấy mình.',
+    'Chỗ dễ bị cắt ngang gồm ngã tư rộng, chỗ mở dải phân cách, lối vào cây xăng hay ngõ, lúc đi cạnh xe lớn, lúc đèn vàng, chạng vạng và trời mưa.',
+    'Xe đối diện chậm lại ở giữa giao lộ, đầu xe chếch, bật xi nhan, người lái nhìn sang hướng rẽ hoặc có khoảng trống trong dòng xe đối diện là các dấu hiệu sắp rẽ.',
+    'Giảm tốc và che phanh sớm, không nấp sau xe lớn, không đua đèn vàng; nếu xe đã cắt ngang thì phanh dứt khoát cả hai phanh, giữ thẳng xe và không bẻ lái gấp.'
+  ],
+  category: 'ride',
+  hub: 'an-toan-giao-thong',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['xe rẽ trái ở giao lộ', 'chỗ mở dải phân cách', 'cột kính ô tô che tầm nhìn', 'khoảng trống trong dòng xe', 'che phanh', 'phanh dứt khoát'],
+  keywords: ['xe ngược chiều rẽ trái cắt đầu xe máy', 'ô tô đối diện rẽ trái cắt ngang', 'xe máy đi thẳng bị xe rẽ trái tông', 'phòng va chạm với xe rẽ trái ở ngã tư'],
+  sections: [
+    P('Vì sao người rẽ trái không thấy hoặc ước lượng sai xe máy', [
+      'Người cầm lái chuẩn bị rẽ trái giữa giao lộ đang làm nhiều việc cùng lúc: tìm khoảng trống trong dòng xe đối diện, liếc sang làn định rẽ vào, để ý người đi bộ và đèn tín hiệu, đồng thời giữ cho xe không trôi. Trong khung cảnh dày đặc ấy, xe máy là vật nhỏ và hẹp, đầu xe chỉ chiếm một mảng rất bé trong tầm mắt. Ô tô lại có sẵn những chỗ che như cột kính hai bên, gương chiếu hậu và nắp capo; một xe máy đi thẳng tới có thể lọt đúng sau một trong các mảng che đó trong lúc người lái xoay đầu. Xe khác cùng hướng, xe tải, dòng người hay hàng cây ven đường cũng tạo thêm lớp che, nên có lúc xe máy thật sự không nằm trong tầm mắt người rẽ, dù bạn thấy mình rất rõ.',
+      'Điều thứ hai là việc ước lượng tốc độ. Vật lớn tiến lại gần thì hình của nó nở ra thấy rõ, còn vật nhỏ đi thẳng về phía mắt người nhìn thì hình thay đổi rất chậm cho tới khi đã khá gần. Vì thế một chiếc xe máy đang chạy khá nhanh vẫn có thể trông như đang trôi lững lờ ở đằng xa, và người rẽ dễ cho rằng còn đủ chỗ để lách qua trước mũi xe. Hiện tượng này thường gặp ở rất nhiều người cầm lái chứ không riêng ai. Khúc đường hơi cong, bóng cây hay ánh nắng loang còn làm hình ảnh xe máy lúc hiện lúc mất, khiến việc đoán khoảng cách càng khó. Hiểu điều này giúp bạn bỏ một niềm tin nguy hiểm, rằng cứ đi đúng làn với tốc độ vừa phải thì người đối diện chắc chắn tính được mình.',
+      'Điều thứ ba là nơi mắt người rẽ đang đặt vào. Người tìm lối rẽ thường dồn sự chú ý vào khoảng hở giữa các xe đối diện, vì đó là thứ quyết định họ đi được hay chưa. Một vật nhỏ không nằm trong thứ đang tìm có thể lướt qua tầm mắt mà không được ghi nhận, kiểu nhìn mà không thấy vẫn hay được nhắc tới khi bàn về những vụ cắt ngang ở giao lộ. Đó chỉ là cách giải thích ở mức thường gặp, không ai kết luận được một người cụ thể đã trải qua điều gì. Thêm nữa, đèn xe máy vốn nhỏ nên dễ lẫn vào đèn đường, biển hiệu và đèn của các xe phía sau, nhất là lúc trời tối hay mưa. Kết luận thực tế cho bạn: thấy người rẽ chưa có nghĩa là người rẽ đã thấy bạn.'
+    ]),
+    P('Những tình huống dễ bị xe rẽ trái cắt ngang nhất', [
+      'Ngã tư rộng và chỗ mở dải phân cách giữa đường thường đứng đầu danh sách. Ở những nơi này quãng rẽ dài, người rẽ phải băng qua nhiều làn của hướng bạn, trong lúc xe đi thẳng còn ở xa nên càng khó ước lượng. Chỗ mở dải phân cách hay không có đèn điều khiển riêng, nhịp rẽ phụ thuộc vào mắt và sự kiên nhẫn của từng người, nên có xe nhích dần, chờ thêm rồi bất ngờ tranh một khoảng hở vừa mở ra. Đường rộng còn khiến người đi thẳng có xu hướng thả ga vì thấy đường thoáng, trong khi đây lại là nơi nên chậm lại. Nếu hằng ngày bạn đi qua một giao lộ như thế, hãy coi nó là điểm xe cắt ngang hay xuất hiện và bước vào bằng tốc độ mà bạn còn dừng được.',
+      'Lối rẽ vào cây xăng, quán ăn, ngõ nhỏ hay cổng khu dân cư là nhóm tình huống thứ hai. Chỗ vào hẹp, thường không có vạch kẻ hay đèn riêng, người rẽ vừa đi chậm vừa nhìn vào cái cổng đang nhắm tới nên ít nhìn ngược lại dòng xe phía trước. Dòng xe của bạn cũng hay bị che bởi chính chiếc xe lớn đi cạnh hoặc đi trước mình: ô tô, xe tải hay xe buýt đi thẳng ngay bên cạnh có thể che bạn khỏi tầm mắt người rẽ. Nguy hiểm hơn cả là lúc xe lớn ấy chậm lại để chừa chỗ cho xe đối diện rẽ, còn bạn ở bên cạnh lại chạy vọt qua đúng khoảng vừa mở ra; người rẽ khi đó thấy khoảng trống chứ chưa chắc đã thấy bạn. Đi sát sau xe lớn rồi lách ra ngay trước giao lộ cũng thuộc nhóm này.',
+      'Đèn vàng, chạng vạng và mưa là ba hoàn cảnh làm những khó khăn trên nặng thêm. Đèn vàng khiến cả hai phía cùng muốn tranh nốt một nhịp: người đi thẳng nhấn ga để kịp qua, người rẽ cũng tranh lúc dòng đối diện vừa thưa đi, và hai ý định gặp nhau đúng một điểm giữa giao lộ. Lúc chạng vạng, xe máy khó tách khỏi nền đường; còn mưa làm kính ô tô nhòe nước, đèn vỡ thành vệt sáng, áo mưa che gần hết dáng người nên mọi tín hiệu đều khó đọc. Lóa đèn và đi xe lúc chạng vạng là những chủ đề riêng, bạn nên tìm đọc ở các bài chuyên về ánh sáng khi lái xe. Ở đây chỉ cần nhớ rằng ba hoàn cảnh này khiến bạn phải chừa nhiều khoảng đệm hơn bình thường.'
+    ]),
+    P('Đọc dấu hiệu xe ngược chiều sắp rẽ', [
+      'Dấu hiệu dễ thấy nhất nằm ở cách xe chuyển động. Một chiếc xe đối diện chậm lại hoặc gần như đứng yên ở giữa giao lộ trong khi dòng xe quanh nó vẫn đi, thường là xe đang chờ một khoảng trống để rẽ. Ô tô có thể nhích lên từng chút một, đầu xe hơi chếch về phía định rẽ, bánh trước đã đánh sang một bên. Với xe máy đối diện, bạn có thể thấy tay lái hơi chếch, thân người nghiêng về hướng rẽ hoặc chân đã hạ xuống chờ. Những biểu hiện này không nhất thiết dẫn tới việc rẽ ngay, nhưng chúng cho bạn biết xe ấy không còn đi thẳng theo dòng nữa. Hãy tập quét mắt từ xa về phía trước giao lộ để nhận ra chúng sớm, vì càng gần thì thời gian để bạn phản ứng càng ít.',
+      'Xi nhan là tín hiệu thứ hai, nhưng chỉ nên coi là gợi ý. Có xe bật xi nhan rất sớm, có xe quên tắt từ lần rẽ trước, có xe không bật, và cũng có xe bật rồi đổi ý. Vì vậy hãy đọc xi nhan cùng với các dấu hiệu khác thay vì tin riêng nó. Hướng nhìn của người lái cũng đáng chú ý khi bạn còn thấy được: đầu quay sang phía rẽ, mắt đang dò khoảng hở trong dòng xe thường cho thấy họ đang tìm cơ hội, và lúc đó mắt họ có thể không hướng vào bạn. Dù đã nhìn thấy người lái nhìn về phía mình, bạn cũng chưa nên coi đó là sự đồng ý chừa đường, vì một cái nhìn lướt chưa chắc đã đi cùng sự nhận biết. Ban đêm khó thấy mặt người lái, nên chùm đèn pha chếch sang một bên là manh mối đáng dựa vào hơn.',
+      'Dấu hiệu thứ ba nằm ở chính dòng xe đối diện. Một khe hở trong hàng xe đối diện, hay một xe cố ý dừng lại chừa chỗ, thường là cơ hội mà xe chờ rẽ đang đợi. Hàng xe phía bên kia chậm hoặc dừng trong lúc làn của bạn vẫn trôi là hoàn cảnh hay sinh ra những cú rẽ lách qua rất nhanh. Cũng nên để ý chiếc xe đứng đầu hàng đối diện khi đèn sắp đổi: người đứng đầu hàng thường là người rẽ sớm nhất. Những dấu hiệu này chỉ giúp bạn có thêm vài nhịp để chuẩn bị chứ không cho phép bạn đoán chắc ý định của người khác. Khi thấy hai dấu hiệu trở lên cùng xuất hiện ở một chiếc xe, hãy xem như nó có thể rẽ bất cứ lúc nào và hành xử như thể nó sẽ rẽ.'
+    ]),
+    P('Cách phòng khi đi thẳng qua giao lộ', [
+      'Việc đầu tiên là giảm tốc từ xa và che phanh. Che phanh nghĩa là đặt ngón tay lên cần phanh mà chưa bóp, để khi cần thì rút ngắn khoảng thời gian từ lúc nhận ra nguy hiểm tới lúc xe bắt đầu chậm lại. Hãy giảm tốc đủ để dừng được trong đoạn đường bạn nhìn rõ, đặc biệt khi thấy một xe đang chờ rẽ ở phía đối diện. Đèn vàng không phải lệnh để tăng ga: đó là lúc người rẽ cũng đang tranh nhịp, nên thường an toàn hơn khi bạn chuẩn bị dừng chứ không đua cho kịp. Giảm tốc sớm tốn của bạn vài giây, còn đua qua một giao lộ có xe chờ rẽ có thể khiến cả hành trình dừng lại. Các cách qua ngã tư nói chung đã có bài riêng về kỹ thuật qua ngã tư, bạn nên đọc để có bức tranh đầy đủ.',
+      'Việc thứ hai là chọn vị trí để được nhìn thấy. Đừng nấp sau xe lớn và đừng chạy sát một bên thân xe lớn khi tới gần giao lộ, vì đó là chỗ người rẽ khó nhìn thấy nhất. Hãy giữ vị trí trong làn sao cho mình không bị cột kính hay thân xe phía trước che khuất, và có thể nhích nhẹ sang một bên để lộ ra khỏi vùng che. Không vọt qua khoảng trống mới mở ra bên cạnh một xe lớn đang chậm lại. Bật đèn theo thói quen, tùy xe và tùy điều kiện, mặc áo sáng màu hoặc có phản quang để dễ nổi bật trên nền đường. Những việc này không bảo đảm mọi người sẽ thấy bạn, nhưng chúng làm tăng cơ hội, và cơ hội nhỏ cũng đáng giữ.',
+      'Việc thứ ba là giữ khoảng và luôn có đường thoát. Đừng bám sát xe phía trước khi vào giao lộ, vì khoảng đệm đó là chỗ để bạn phanh hoặc nhích sang. Trước khi vào, hãy nhìn nhanh xem còn khoảng trống bên cạnh không, có xe nào sát bên không, mặt đường có trơn không. Quan trọng nhất là thái độ sẵn sàng dừng thay vì tin rằng người rẽ sẽ chậm lại. Một cái vẫy tay, một lần chạm mắt hay một chiếc xe đang nhích chưa phải bảo đảm. Nếu hoàn cảnh còn mơ hồ, nhường vài giây cho xe chờ rẽ đi trước thường là lựa chọn tiết kiệm nhất. Ô tô rẽ phải cắt ngang trước mặt là tình huống khác, đã có bài riêng, bạn nên đọc bài ấy để hiểu thêm.'
+    ]),
+    P('Khi xe rẽ đã cắt ngang trước mũi xe', [
+      'Điều cần làm ngay là phanh dứt khoát, dùng cả hai phanh, bóp đều và dồn lực nhanh tay rồi tăng dần cho đến khi xe chậm lại, đừng giật hay bóp cứng tức thời. Giữ thẳng xe và thẳng người, hai tay giữ chắc tay lái, trọng tâm ổn định. Mắt nên nhìn về khoảng trống mà bạn muốn đi tới chứ đừng dán vào chiếc xe đang cắt ngang; con người có xu hướng đi về phía thứ mình nhìn chằm chằm, và nhìn vào xe rẽ dễ khiến tay lái đưa bạn về phía nó. Khoảng trống thường mở ra ở phía sau chiếc xe đang di chuyển, nhưng điều đó còn tùy tình huống và chỉ nên theo khi bạn thật sự thấy rõ. Kỹ thuật phanh khẩn cấp có cách luyện riêng, nên luyện ở nơi rộng và vắng, không luyện ngoài giao lộ.',
+      'Không bẻ lái gấp khi đang phanh mạnh. Lúc phanh gấp, phần lớn tải dồn lên bánh trước, nên bẻ lái đột ngột cùng lúc có thể làm xe mất bám, nhất là trên mặt đường ướt, đường có cát hoặc vạch sơn trơn. Hãy giảm được phần lớn tốc độ trước, rồi mới chuyển hướng nhẹ nhàng nếu thấy khoảng trống đủ rộng và an toàn. Đừng bóp cứng tức thời một phanh, và cũng đừng vì sợ ngã mà chỉ dùng một phanh. Mỗi xe có hệ thống phanh khác nhau nên độ nhạy của tay chân cũng khác, hãy làm quen với xe của mình ở nơi an toàn, đọc sách hướng dẫn nếu có điều chưa rõ. Mục tiêu trong khoảnh khắc đó là giảm tốc độ va chạm hoặc tránh được cú va, không phải tìm cách thắng thế trước chiếc xe kia.',
+      'Sau một cú suýt va chạm, hoặc sau một va chạm nhẹ, hãy đưa xe vào chỗ an toàn ven đường rồi mới làm bất cứ việc gì khác. Tay run, tim đập nhanh là phản ứng thường gặp, nên cho mình nghỉ một lúc trước khi đi tiếp. Nếu thấy đau, choáng hay tê ở đâu đó, hãy ngồi yên, nhờ người xung quanh gọi hỗ trợ thay vì cố đứng dậy. Đừng tranh cãi ngay giữa làn đang chạy xe, vì làn đường đông đúc vẫn có thể gây thêm nguy hiểm. Trước khi chạy tiếp, nhìn xe một lượt: tay lái có lệch không, cần phanh có chạm hết hành trình không, vành và lốp có biến dạng không, đèn chiếu sáng còn hoạt động không. Thấy tay lái lệch, phanh bất thường hay vành cong, hãy dừng đi xe và đưa xe cho thợ có chuyên môn kiểm tra.'
+    ])
+  ],
+  checklist: [
+    'Giảm tốc từ xa khi tới giao lộ có xe đang chờ rẽ ở phía đối diện, đủ để dừng trong đoạn đường nhìn rõ.',
+    'Đặt ngón tay lên cần phanh sẵn nhưng chưa bóp, để rút ngắn thời gian phản ứng.',
+    'Không đi nấp sau xe lớn hay chạy sát bên thân xe lớn; giữ vị trí trong làn để không bị cột kính che mất.',
+    'Quét mắt tìm dấu hiệu xe sắp rẽ: chậm lại giữa giao lộ, đầu xe chếch, xi nhan, khoảng trống trong dòng xe đối diện.',
+    'Chừa khoảng cách với xe phía trước và luôn nhìn trước đường thoát trước khi vào giao lộ.'
+  ],
+  steps: [
+    { title: 'Nhìn xa và chậm lại sớm', detail: 'Từ trước giao lộ, quét mắt về phía xe đối diện, tìm xe đang chờ rẽ rồi giảm tốc đủ để dừng được trong đoạn đường bạn nhìn thấy rõ.' },
+    { title: 'Che phanh và chọn vị trí dễ thấy', detail: 'Đặt ngón tay lên cần phanh, tránh nấp sau xe lớn, nhích nhẹ trong làn để ra khỏi vùng bị cột kính hoặc thân xe che, bật đèn theo thói quen tùy xe.' },
+    { title: 'Đọc dấu hiệu rồi sẵn sàng dừng', detail: 'Thấy xe đối diện chậm lại, đầu xe chếch hoặc có khoảng trống trong dòng xe, hãy coi như xe ấy có thể rẽ và chuẩn bị dừng thay vì đợi người rẽ nhường.' },
+    { title: 'Nếu xe đã cắt ngang thì phanh và giữ thẳng', detail: 'Bóp đều và dứt khoát cả hai phanh, giữ thẳng xe, nhìn về khoảng trống muốn đi tới, không bẻ lái gấp khi còn đang phanh mạnh.' }
+  ],
+  warnings: [
+    'Không vọt qua khoảng trống vừa mở ra bên cạnh một xe lớn đang chậm lại, vì người rẽ có thể thấy khoảng trống mà không thấy bạn.',
+    'Không đua đèn vàng khi phía đối diện có xe đang chờ rẽ; chuẩn bị dừng thường an toàn hơn.',
+    'Sau va chạm hoặc suýt va chạm, nếu thấy đau, choáng hoặc xe có dấu hiệu lệch tay lái, phanh bất thường, hãy dừng đi xe và nhờ hỗ trợ hoặc đưa xe tới thợ có chuyên môn.'
+  ],
+  notes: [
+    'Bài chỉ nói cách người đi xe máy tự phòng ngừa, không bàn chuyện đúng sai hay trách nhiệm của bên nào; các giải thích về việc nhìn mà không thấy chỉ ở mức thường gặp.',
+    'Độ nhạy của phanh và khả năng bám đường phụ thuộc xe, lốp và mặt đường, nên hãy làm quen với xe của mình ở nơi rộng và vắng.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần phanh và đèn chiếu sáng',
+    'Tài liệu hướng dẫn lái xe an toàn do đơn vị đào tạo lái xe có uy tín biên soạn'
+  ],
+  related: ['ky-thuat-qua-nga-tu-va-quy-tac-uu-tien', 'o-to-re-phai-xe-may-di-thang-xu-ly', 'phanh-khan-cap', 'di-xe-may-gap-xe-chay-nguoc-chieu-xu-ly', 'va-vao-dau-dai-phan-cach-dao-giao-thong-giua-duong-vi-sao-hay-xay-ra-luc-toi-luc-mua-va-cach-nhan-ra-som']
+};
