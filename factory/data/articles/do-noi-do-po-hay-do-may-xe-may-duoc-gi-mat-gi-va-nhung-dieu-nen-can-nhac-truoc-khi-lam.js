@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — S01479 (topic V2); cân nhắc độ xe bằng lời giải thích trung lập, không nêu số liệu, tên hãng hay tên đồ độ.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'do-noi-do-po-hay-do-may-xe-may-duoc-gi-mat-gi-va-nhung-dieu-nen-can-nhac-truoc-khi-lam',
+  title: 'Độ nồi, độ pô hay độ máy xe máy: được gì, mất gì và những điều nên cân nhắc trước khi làm',
+  seoTitle: 'Độ xe máy có nên không: độ nồi, độ pô, độ máy được gì, mất gì',
+  metaDescription: 'Độ xe máy có nên không? Xem độ nồi, độ pô, độ máy thường đổi lấy gì, ảnh hưởng bảo hành, phanh, lốp và cách làm xe khỏe hơn mà không cần độ.',
+  summary: 'Nhiều người muốn xe bốc hơn hoặc tiếng pô đã tai hơn nên tính chuyện độ nồi, độ pô hay độ máy. Nội dung giải thích vì sao xe yếu đi theo thời gian và bảo dưỡng đúng thường trả lại phần lớn sức, độ xe là gì và khác thay phụ tùng đúng loại ra sao, rồi nêu mỗi kiểu độ thường đổi lấy gì. Các đánh đổi ít người nói như bảo hành, khó sửa, khó bán lại, phanh và lốp không theo kịp cũng được bàn tới, cùng những câu hỏi nên đặt với tiệm và lựa chọn khác để xe đi khỏe hơn.',
+  quickAnswer: 'Độ xe máy không đương nhiên xấu, nhưng thường được ở chỗ này thì mất ở chỗ khác: độ nồi đổi cách tăng tốc, độ pô to hơn chưa chắc mạnh hơn, độ máy kéo theo nóng, hao xăng và mòn nhanh. Việc này còn có thể ảnh hưởng bảo hành và làm phanh, lốp nguyên bản không theo kịp. Trước khi độ, hãy bảo dưỡng đúng và đi đúng tải, vì thường lấy lại phần lớn sức cho xe.',
+  keyPoints: [
+    'Xe yếu đi theo thời gian phần lớn vì mòn và bẩn: lọc gió, bugi, nhớt, bộ nồi, dây curoa, xích và lốp non; bảo dưỡng đúng thường trả lại phần lớn cảm giác khỏe.',
+    'Độ là đổi chi tiết theo hướng khác thiết kế gốc, khác với thay phụ tùng đúng loại nhằm đưa xe về trạng thái ban đầu.',
+    'Độ nồi đổi cách tăng tốc nhưng có thể đổi lại độ êm, tốc độ tối đa và độ bền bộ truyền động; độ pô to hơn chưa chắc mạnh hơn; độ máy thường kéo theo nóng, hao xăng và mòn nhanh.',
+    'Đánh đổi ít người nói gồm ảnh hưởng bảo hành, khó sửa ở tiệm khác, khó bán lại, và phanh, lốp nguyên bản không theo kịp sức kéo mới.',
+    'Hỏi tiệm thay chi tiết nào, có giữ đồ zin không, chạy thử ra sao, bảo hành thế nào; nếu chỉ muốn xe khỏe hơn, hãy bảo dưỡng tổng thể, đi đúng tải và chọn xe đúng nhu cầu.'
+  ],
+  category: 'garage',
+  hub: 'dong-co',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['độ xe máy', 'bộ nồi xe tay ga', 'ống xả xe máy', 'động cơ xe máy', 'điều khoản bảo hành', 'phanh và lốp xe máy'],
+  keywords: ['độ xe máy có nên không', 'có nên độ nồi xe tay ga', 'độ pô xe máy', 'làm sao để xe máy mạnh hơn'],
+  sections: [
+    P('Vì sao xe yếu đi theo thời gian và bảo dưỡng đúng trả lại được bao nhiêu sức', [
+      'Câu hỏi độ xe máy có nên không thường xuất phát từ một cảm giác rất cụ thể: xe không còn bốc như lúc mới mua. Phần lớn cảm giác ấy không đến từ việc xe vốn yếu, mà từ mòn và bẩn tích lại qua nhiều tháng chạy. Lọc gió bí khiến máy thở khó hơn, bugi mòn làm tia lửa yếu đi, nhớt cũ bôi trơn kém, bộ nồi và dây curoa mòn làm sức máy hao hụt trên đường truyền xuống bánh, xích chùng và khô lấy thêm một phần nữa, còn lốp non khiến xe nặng nề như đang kéo theo thứ gì đó. Từng thứ riêng lẻ khó nhận ra, nhưng cộng dồn lại thành cảm giác ì ạch. Vì vậy câu trả lời trung thực cho người đang phân vân là xem lại việc chăm xe trước đã.',
+      'Làm sao biết xe đang yếu vì mòn chứ không phải vì thiếu độ? Thường có vài dấu hiệu đi kèm: tăng tốc chậm hơn trước, máy rung hoặc ngập ngừng lúc nhấn ga, hao xăng hơn dạo gần đây, tiếng lạ từ khu vực bộ truyền động. Mọi thứ thay đổi từ từ nên người đi hằng ngày dễ quen dần, cho đến khi ngồi thử một chiếc cùng loại còn mới thì mới thấy khác. Bảo dưỡng đúng theo sổ của nhà sản xuất thường trả lại phần lớn cảm giác khỏe ban đầu, còn mức trả lại bao nhiêu thì tùy xe và tùy độ mòn thực tế. Chi tiết đã mòn quá mức thì làm sạch chưa đủ, cần thay đúng loại, và việc ấy thuộc về thợ có chuyên môn.',
+      'Nếu đã chăm đủ mà xe vẫn đuối khi leo dốc hoặc chở nặng, bước tiếp theo là tách nguyên nhân do tải, truyền động hay động cơ; phần này được bàn kỹ trong bài về xe máy yếu, không bốc khi leo dốc hoặc chở nặng. Cũng đừng quên một nguyên nhân rất đời thường là tải: chở nặng hơn thiết kế hoặc mang thêm đồ cồng kềnh làm xe nặng nề và chịu gió cản lớn, khiến chiếc xe khỏe vẫn tỏ ra yếu. Chỉ khi xe đã khỏe ở trạng thái đúng chuẩn mà vẫn muốn hơn nữa thì chuyện độ mới nên được đặt lên bàn. Còn xe yếu đột ngột kèm khói bất thường, mùi khét, tiếng kêu lớn hoặc nóng máy thì hãy dừng xe ở chỗ an toàn và đưa ra thợ, đừng cố chạy tiếp.'
+    ]),
+    P('Độ xe là gì và khác thay phụ tùng đúng loại thế nào', [
+      'Độ xe, hiểu theo nghĩa chung, là thay chi tiết hoặc đổi cách lắp theo hướng khác thiết kế gốc, thường để tăng cảm giác mạnh, đổi tiếng máy hay đổi dáng xe. Thiết kế nguyên bản là một sự cân bằng giữa nhiều thứ: sức kéo, độ êm, độ bền, mức hao xăng, tiếng ồn và độ an toàn khi vận hành mỗi ngày. Nhà sản xuất chọn điểm cân bằng ấy cho số đông người dùng, trong nhiều điều kiện đường sá và khí hậu. Độ về bản chất là dịch điểm cân bằng sang một phía: được thêm ở chỗ này thì thường phải bớt ở chỗ khác. Hiểu như vậy giúp bạn nghe lời giới thiệu của tiệm tỉnh táo hơn, vì mọi thứ được thêm vào đều có một khoản phải trả ở đâu đó, dù khoản ấy có được nói ra hay không.',
+      'Thay phụ tùng đúng loại là chuyện khác hẳn. Chi tiết mòn được thay bằng chi tiết cùng chức năng, đúng kiểu và đúng kích cỡ với xe, nhằm đưa xe về trạng thái thiết kế ban đầu. Mục đích là khôi phục chứ không phải thay đổi. Một cách phân biệt đơn giản là tự hỏi: sau khi thay, xe có hoạt động giống như lúc xuất xưởng không, hay cố ý hoạt động khác đi? Ranh giới đôi khi mờ, vì có chi tiết cùng chỗ lắp nhưng thông số khác bản gốc, và người dùng khó biết mình đang khôi phục hay đang đổi. Vì thế trước khi đồng ý thay bất cứ thứ gì, hãy hỏi tiệm chi tiết ấy có đúng loại theo sách hướng dẫn của nhà sản xuất hay không, và vì sao họ khuyên chọn như vậy.',
+      'Một điểm cần nói thẳng là độ hiếm khi dừng ở một chi tiết. Đổi một thứ thường kéo theo thay đổi ở cả chuỗi: lượng gió và xăng vào máy, nhiệt sinh ra, rung truyền xuống khung, tải đặt lên phanh và lốp. Ở đây không hướng dẫn cách độ, và cũng không cho rằng độ đương nhiên là xấu hay tốt; đó là một lựa chọn có đánh đổi, mỗi người cân nhắc theo nhu cầu của mình. Ai định thay đổi kết cấu xe nên tự tìm hiểu với cơ quan có thẩm quyền. Các phần sau đi vào những điều bạn có thể tự cân nhắc: mỗi kiểu độ thường đổi lấy gì, những đánh đổi ít được nhắc tới, và cách trao đổi với tiệm để quyết định có cơ sở hơn.'
+    ]),
+    P('Độ nồi, độ pô, độ máy: mỗi kiểu thường đổi lấy gì', [
+      'Độ nồi nhắm vào bộ phận truyền sức máy xuống bánh. Thay đổi cách bộ nồi bắt vào và nhả ra thường làm xe ra tốc nhanh hơn ở những giây đầu, tạo cảm giác bốc rõ khi vừa vặn ga. Cái được thấy ngay, còn cái mất thì đến chậm hơn. Với câu hỏi có nên độ nồi xe tay ga, câu trả lời thận trọng là cần tính cả phần đổi lại: bộ truyền động có thể kém êm, thể hiện bằng rung hoặc giật lúc nhấp ga ở tốc độ thấp; tốc độ tối đa có thể không tăng, thậm chí giảm, tùy cách thay đổi. Má nồi, lò xo và dây curoa phải chịu tải khác trước nên có thể mòn nhanh hơn. Tùy từng xe và từng cấu hình mà mức đổi khác nhau, nhưng tăng tốc nhanh lúc đầu không đồng nghĩa với xe khỏe hơn ở mọi dải tốc độ.',
+      'Độ pô xe máy là kiểu độ dễ gây hiểu lầm nhất, vì tiếng to rất dễ bị nhầm với sức mạnh. Ống xả là phần cuối của chuỗi hút, nén, nổ, xả, nên cách khí thải thoát ra ảnh hưởng đến cách máy thở. Đổi ống xả theo hướng thoát nhanh hơn có thể làm hỗn hợp xăng gió lệch so với mức máy đã được chỉnh sẵn; nếu không chỉnh đồng bộ phần còn lại, máy có thể chạy không đều, giật ở dải ga nhỏ, nóng hơn hoặc hao xăng hơn. Nói cách khác, to hơn chưa chắc mạnh hơn. Tiếng lớn còn gây ồn cho người đi đường, hàng xóm và những ai cần yên tĩnh lúc sáng sớm hay ban đêm. Cũng nên phân biệt tiếng độ với tiếng hỏng, vì pô đổi giọng do mối nối hở hay bầu giảm thanh hư là chuyện bảo dưỡng, được bàn riêng trong bài về tiếng pô to lên hoặc đổi giọng.',
+      'Độ máy, tức can thiệp vào chính động cơ để tăng sức, là bước đi xa nhất và kéo theo nhiều hệ quả nhất. Sức kéo thêm thường đến cùng nhiệt sinh ra nhiều hơn, nên máy dễ nóng hơn, nhất là khi kẹt xe hoặc chạy chậm dưới nắng. Máy thường ăn xăng nhiều hơn, chi tiết bên trong chịu tải lớn hơn nên có thể mòn nhanh hơn, và việc theo dõi bảo dưỡng cần sát hơn. Quan trọng nhất, xe mạnh hơn đòi hỏi phanh, lốp, giảm xóc và khung tương xứng, vì những bộ phận ấy được thiết kế cho sức máy nguyên bản. Tăng sức mà bỏ qua phần giữ xe lại là cách đẩy rủi ro sang phía an toàn. Nếu thấy máy nóng bất thường, có tiếng gõ lạ hoặc mùi khét, hãy dừng xe ở chỗ an toàn và nhờ thợ có chuyên môn kiểm tra.'
+    ]),
+    P('Những đánh đổi ít người nói: bảo hành, độ bền, phanh và lốp', [
+      'Đánh đổi đầu tiên ít người nhắc là bảo hành của nhà sản xuất. Điều khoản thường gắn với việc xe còn nguyên kết cấu và được bảo dưỡng đúng cách, nên khi chi tiết bị thay đổi, các hạng mục liên quan có thể bị ảnh hưởng hoặc không còn được bảo hành, mức độ khác nhau tùy từng nhà sản xuất. Đừng nghe một lời trấn an rằng không sao rồi coi như xong chuyện. Điều đáng làm là đọc điều khoản của chính xe mình, đặc biệt các mục về phạm vi, điều kiện và những gì bị loại trừ, như bài về đọc điều khoản bảo hành xe máy mới gợi ý, rồi hỏi thẳng nơi bảo hành xem việc định làm có ảnh hưởng gì không. Nên nhờ họ trả lời rõ ràng, ưu tiên bằng văn bản, trước khi quyết định chứ không phải sau khi máy đã hỏng.',
+      'Đánh đổi thứ hai là chuyện sửa chữa và bán lại. Một chiếc xe đã can thiệp có cấu hình riêng mà thợ ở tiệm khác chưa chắc quen: họ khó chẩn đoán lỗi, khó tìm chi tiết thay thế đúng loại, và có thể ngại nhận vì sợ phải chịu trách nhiệm cho thứ mình không làm. Khi cần sửa gấp ở nơi xa, sự bất tiện này bộc lộ rất rõ. Với việc bán lại, người mua xe cũ thường e dè một chiếc xe đã độ, vì họ không biết xe từng chịu những gì và đã bị mòn ở đâu. Đồ nguyên bản đã tháo ra, nếu còn giữ, là một lợi thế, vì cho phép đưa xe trở về trạng thái ban đầu. Vì vậy hãy hỏi tiệm có giữ lại đồ zin cho mình hay không, và nên cất giữ ở đâu cho khỏi hư hỏng.',
+      'Đánh đổi nghiêm trọng nhất nằm ở phanh và lốp. Phanh, lốp và giảm xóc nguyên bản được tính cho sức máy và tốc độ nguyên bản. Khi xe tăng tốc mạnh hơn hoặc chạy nhanh hơn, quãng dừng dài ra, lốp phải chịu lực kéo và lực phanh lớn hơn, phần treo dao động nhiều hơn lúc vào cua hay qua đường xấu. Người lái đã quen với cảm giác bốc mới thường đánh giá thấp điều này, vì xe vẫn đi ngon cho đến lúc cần dừng gấp. Dấu hiệu nên dừng xe và ra thợ gồm phanh mềm hoặc cần quãng dừng xa hơn thường lệ, tay lái rung khi tăng tốc hay bóp phanh, xe lắc ở tốc độ cao, lốp mòn lệch hoặc nứt. Đừng chạy tiếp cho tới khi những điểm này được kiểm tra.'
+    ]),
+    P('Câu hỏi nên đặt với tiệm và lựa chọn khác nếu chỉ muốn xe khỏe hơn', [
+      'Nếu vẫn muốn tìm hiểu tiếp, hãy đặt bốn câu hỏi với tiệm. Một: thay chi tiết nào, cụ thể ra sao và vì sao hợp với xe của mình. Hai: có giữ lại đồ zin cho mình không, và nếu muốn thì có trả xe về nguyên bản được không. Ba: chạy thử thế nào, trong điều kiện nào, có thử cả lúc máy nóng, lúc phanh gấp và lúc chở người đúng như thói quen hằng ngày không. Bốn: bảo hành ra sao, phạm vi nào, ai chịu trách nhiệm khi có trục trặc, và có ghi rõ ra giấy không. Câu trả lời cụ thể, dễ kiểm chứng là dấu hiệu tốt; câu trả lời vòng vo hay hứa hẹn chung chung là lý do để dừng lại và hỏi thêm trước khi gật đầu.',
+      'Cách tiệm trả lời cũng nói lên nhiều điều. Người tư vấn đáng tin thường nói cả cái được lẫn cái mất, sẵn sàng giải thích đánh đổi, không né câu hỏi về bảo hành và không giục người hỏi quyết định ngay. Ngược lại, nên chậm lại nếu nghe lời hứa quá đà kiểu xe sẽ mạnh vượt trội mà không nói gì về nhiệt, độ bền hay phanh. Một mẹo hữu ích là hỏi những chiếc xe giống xe của bạn đã làm cách đây khá lâu hiện chạy ra sao, vì mức bền chỉ lộ ra theo thời gian. Nếu chưa chắc, cứ hoãn lại và hỏi ý kiến thợ ở nơi khác, hoặc đối chiếu với sách hướng dẫn của nhà sản xuất. Quyết định gấp thường để lại nhiều hối tiếc hơn quyết định muộn.',
+      'Còn nếu mục tiêu chỉ là làm sao để xe máy mạnh hơn trong cảm giác hằng ngày, có ba hướng đáng thử trước. Hướng thứ nhất là bảo dưỡng tổng thể gồm lọc gió, bugi, nhớt, bộ nồi, dây curoa, xích, lốp và phanh theo sổ của nhà sản xuất, vì mòn và bẩn mới là thủ phạm quen thuộc. Hướng thứ hai là đi đúng tải, tránh chở quá sức và đừng để xe mang thêm đồ không cần thiết. Hướng thứ ba là chọn xe đúng nhu cầu ngay từ đầu, và bài so sánh xe số với xe tay ga theo nhu cầu có thể giúp người đang cân nhắc đổi xe. Độ vẫn là quyền chọn của mỗi người, chỉ nên là quyết định sau cùng, sau khi các hướng trên đã được thử.'
+    ])
+  ],
+  checklist: [
+    'Xem lại lọc gió, bugi, nhớt, bộ nồi, dây curoa, xích và áp suất lốp theo sổ bảo dưỡng trước khi nghĩ tới chuyện độ.',
+    'Tự hỏi mục đích thật sự là bốc hơn, đổi tiếng hay chỉ muốn xe hết ì, vì mỗi mục đích có cách xử lý và cái giá khác nhau.',
+    'Đọc điều khoản bảo hành của xe và hỏi nơi bảo hành xem việc định làm có ảnh hưởng gì không, ưu tiên nhận câu trả lời bằng văn bản.',
+    'Chuẩn bị bốn câu hỏi cho tiệm: thay chi tiết nào, giữ lại đồ zin không, chạy thử ra sao, bảo hành thế nào.',
+    'Đánh giá xem phanh, lốp và giảm xóc hiện có đã tương xứng với cảm giác xe mạnh hơn mà bạn muốn hay chưa.'
+  ],
+  steps: [
+    { title: 'Đưa xe về trạng thái khỏe trước', detail: 'Bảo dưỡng tổng thể theo sổ của nhà sản xuất: lọc gió, bugi, nhớt, bộ nồi, dây curoa, xích và lốp; thay đúng loại những chi tiết đã mòn quá mức.' },
+    { title: 'Xác định rõ mục đích', detail: 'Phân biệt muốn xe bốc hơn, muốn đổi tiếng hay chỉ muốn xe hết ì ạch, rồi cân nhắc xem cách nào ít đánh đổi nhất cho nhu cầu đó.' },
+    { title: 'Tìm hiểu kỹ về bảo hành', detail: 'Đọc điều khoản bảo hành và hỏi nơi bảo hành về ảnh hưởng của việc thay đổi; ai định thay đổi kết cấu xe nên tự tìm hiểu với cơ quan có thẩm quyền.' },
+    { title: 'Hỏi kỹ tiệm rồi mới quyết định', detail: 'Hỏi thay chi tiết nào, có giữ lại đồ zin không, chạy thử ra sao, bảo hành thế nào; chưa chắc thì hoãn lại và hỏi thêm ý kiến thợ khác.' }
+  ],
+  warnings: [
+    'Phanh mềm, quãng dừng xa hơn thường lệ, tay lái rung khi tăng tốc hoặc bóp phanh, xe lắc ở tốc độ cao là lý do dừng xe ở chỗ an toàn và đưa ra thợ, không chạy tiếp.',
+    'Máy nóng bất thường, mùi khét, tiếng gõ lạ hoặc khói bất thường sau khi can thiệp là dấu hiệu cần dừng xe và nhờ thợ có chuyên môn kiểm tra.',
+    'Không tự tháo lắp bộ nồi, ống xả hay động cơ nếu không có chuyên môn và dụng cụ; sai một bước có thể làm hỏng chi tiết hoặc gây mất an toàn khi chạy.'
+  ],
+  notes: [
+    'Mức ảnh hưởng của từng kiểu độ tùy dòng xe, cấu hình và cách thực hiện; các nhận định trong bài chỉ là nguyên tắc chung để cân nhắc, không thay lời khuyên của thợ có chuyên môn.',
+    'Điều khoản bảo hành khác nhau giữa các nhà sản xuất; hãy đối chiếu với tài liệu của đúng dòng xe và hỏi trực tiếp nơi bảo hành.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần bảo dưỡng định kỳ và thông tin bảo hành',
+    'Tài liệu kỹ thuật của nhà sản xuất về bộ truyền động, hệ thống xả, phanh và lốp của đúng dòng xe'
+  ],
+  related: ['xe-may-yeu-may-khong-boc-khi-leo-doc-hoac-cho-nang', 'phu-tung-thay-the-xe-may-co-nen-dung', 'doc-dieu-khoan-bao-hanh-xe-may-moi', 'bau-giam-thanh-xe-may-keu-to-hoac-doi-tieng-nguyen-nhan', 'xe-so-hay-xe-tay-ga-chon-theo-nhu-cau']
+};
