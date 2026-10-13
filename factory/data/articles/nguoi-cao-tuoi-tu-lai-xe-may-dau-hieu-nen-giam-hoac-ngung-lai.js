@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — người cao tuổi tự lái xe máy; nhận biết dấu hiệu, điều chỉnh và cách cả nhà bàn chuyện, không nêu số liệu hay tên hãng/mẫu xe.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'nguoi-cao-tuoi-tu-lai-xe-may-dau-hieu-nen-giam-hoac-ngung-lai',
+  title: 'Người cao tuổi tự lái xe máy: dấu hiệu nên giảm hoặc ngừng lái và cách cả nhà cùng bàn chuyện này',
+  seoTitle: 'Người cao tuổi đi xe máy: dấu hiệu nên giảm lái và cách nói chuyện',
+  metaDescription: 'Người cao tuổi đi xe máy khi nào nên giảm hoặc ngừng lái? Dấu hiệu cần để ý, cách điều chỉnh trước khi dừng hẳn và cách cả nhà bàn chuyện mà không làm họ tự ái.',
+  summary: 'Bài dành cho người nhà đang lo cho bố mẹ hay ông bà vẫn tự đi xe máy hằng ngày. Nội dung giải thích tuổi tác không tự quyết định ai lái an toàn mà là những thay đổi của từng người, từ thị lực ban đêm, thính lực, sức giữ xe đến phản xạ và thuốc đang dùng; liệt kê dấu hiệu nên để ý; gợi ý cách giảm lái dần trước khi phải ngừng; hướng dẫn cách cả nhà trò chuyện không phán xét; và nêu các tình huống cần dừng lái ngay cùng cách đi lại thay thế.',
+  quickAnswer: 'Không có mốc tuổi chung để quyết định. Nên bàn chuyện giảm lái khi các dấu hiệu lặp lại, như suýt va chạm nhiều hơn, lạc đường quen, lúng túng ở ngã tư hay đổ xe khi dừng. Hãy giảm dần: đi ban ngày, đường quen và ngắn; nói bằng sự quan tâm kèm ví dụ cụ thể; cùng tìm cách đi lại thay thế. Choáng, ngất, trí nhớ giảm rõ rệt, vừa ốm nặng hoặc vừa đổi thuốc thì dừng lái ngay.',
+  keyPoints: [
+    'Tuổi tác không tự quyết định ai lái an toàn: điều quan trọng là những thay đổi của từng người về thị lực, nhất là ban đêm và khi bị chói, thính lực, sức giữ và dựng xe, phản xạ, khả năng chú ý nhiều thứ cùng lúc và tác dụng của thuốc đang dùng.',
+    'Dấu hiệu đáng để ý là một nhóm lặp lại theo thời gian: suýt va chạm nhiều hơn, xe trầy xước không rõ lý do, lạc trên đường quen, lúng túng ở ngã tư, đổ xe khi dừng, bị người khác bấm còi, ngại đi nhưng vẫn cố đi.',
+    'Có thể giảm dần trước khi phải ngừng: chỉ đi ban ngày, đường quen và ngắn, tránh giờ cao điểm và trời mưa, chọn xe nhẹ và thấp vừa tầm, khám mắt, hỏi bác sĩ về thuốc đang dùng và không chở thêm người.',
+    'Cả nhà nên nói bằng sự quan tâm thay vì phán xét, nêu ví dụ cụ thể, đi cùng một chuyến để quan sát và để người lớn tuổi cùng quyết định, kèm phương án đi lại thay thế để họ không mất tự do và kết nối.',
+    'Choáng, ngất, giảm trí nhớ rõ rệt, vừa ốm nặng hoặc vừa đổi thuốc theo lời bác sĩ là lúc dừng lái ngay và gặp bác sĩ; đang chạy mà thấy choáng thì giảm ga, bóp phanh dần và dừng xe ở chỗ an toàn.'
+  ],
+  category: 'hub',
+  hub: 'nhu-cau-su-dung',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['người cao tuổi', 'thị lực ban đêm', 'phản xạ khi lái xe', 'giữ xe và dựng chân chống', 'thuốc đang dùng', 'cách đi lại thay thế'],
+  keywords: ['người cao tuổi đi xe máy', 'khi nào nên ngừng lái xe máy', 'bố mẹ lớn tuổi có nên đi xe máy', 'người cao tuổi tự lái xe máy an toàn'],
+  sections: [
+    P('Tuổi tác thay đổi việc lái xe thế nào: nhìn từng người thay vì nhìn tuổi', [
+      'Không có mốc tuổi chung nào cho biết lúc nào một người nên thôi lái xe máy. Hai người cùng lớn tuổi có thể khác nhau rất xa: người này vẫn đi vững, quan sát kỹ và biết tự giới hạn, người kia sớm gặp khó vì mắt, vì sức hay vì thuốc đang dùng. Điều đáng hỏi không phải là bao nhiêu tuổi mà là từng khả năng cần cho việc lái xe đang ra sao, và thời điểm hợp lý để bàn chuyện giảm lái là lúc các dấu hiệu cụ thể bắt đầu lặp lại, không phải sau một tai nạn. Xe máy không có khung vỏ che chắn, người lái phải tự giữ thăng bằng, còn cơ thể lớn tuổi thường chịu va đập kém và hồi phục chậm hơn.',
+      'Thị lực là thay đổi dễ bị bỏ sót nhất vì nó đến rất chậm. Ở nhiều người, mắt cần lâu hơn để quen khi từ chỗ sáng vào chỗ tối, chịu lóa kém hơn trước đèn pha ngược chiều, và nhìn lúc chạng vạng hay ban đêm khó hơn ban ngày; có người còn bị hẹp tầm nhìn hai bên mà không hay, nên không thấy xe tạt vào từ cạnh sườn. Thính lực cũng góp phần: nghe kém đi thì khó nhận ra tiếng còi hay tiếng xe đang áp sát phía sau, trong khi mũ bảo hiểm và tiếng gió vốn đã che bớt âm thanh. Người trong cuộc hay tự bù bằng thói quen cũ nên khó nhận ra, vì vậy một lần khám mắt và kiểm tra thính lực đáng tin hơn mọi phỏng đoán.',
+      'Sức tay chân lộ ra rõ nhất ở những lúc xe không chạy: dắt xe ra khỏi chỗ đỗ, nhấc chân qua yên, dựng chân chống, giữ xe đứng thẳng khi dừng trên mặt đường nghiêng. Ở nhiều người, phản xạ chậm đi một nhịp, khiến cú phanh đến muộn hơn lúc cần. Khả năng chia sự chú ý cho nhiều thứ cùng lúc, như đèn tín hiệu, xe từ nhiều hướng và người băng qua đường, cũng giảm, nên ngã tư thường là nơi khó khăn lộ ra trước. Thuốc đang dùng là một yếu tố riêng vì có loại gây buồn ngủ hoặc chóng mặt; đã có bài riêng về lái xe sau khi dùng thuốc. Kinh nghiệm nhiều năm bù được một phần, nhưng không thay được thị lực hay sức tay.'
+    ]),
+    P('Những dấu hiệu gia đình nên để ý: suýt va chạm, xe trầy xước, lạc đường quen', [
+      'Dấu hiệu đầu tiên bạn có thể nghe ngay từ lời kể của người lái: dạo này hay suýt va chạm, hay giật mình vì xe bất ngờ xuất hiện, phanh gấp nhiều hơn trước. Một lần suýt va chạm chưa nói lên điều gì vì ai cũng có ngày kém may, nhưng nhiều lần trong thời gian ngắn, nhất là trên đoạn đường thuộc lòng, là tín hiệu đáng ghi nhận. Đừng bỏ qua dấu vết trên chính chiếc xe: vết trầy mới, gương gãy, tay lái hay chắn bùn móp mà người lái không giải thích được. Trước khi nghi người, hãy kiểm tra xe, vì phanh yếu, đèn mờ hay gương lệch cũng có thể gây ra những chuyện tương tự; xe ổn mà dấu vết vẫn xuất hiện thì mới cần hỏi thêm, nhẹ nhàng.',
+      'Nhóm dấu hiệu thứ hai liên quan đến cách xử lý đường đi. Lạc trên tuyến quen, rẽ nhầm lối, về trễ hơn hẳn thường lệ hoặc phải gọi điện hỏi đường khác với chuyện quên một con hẻm lâu không ghé. Ở ngã tư, hãy chú ý sự lúng túng: dừng quá lâu mà không rõ chờ gì, do dự giữa chừng, quên bật xi-nhan hoặc quên tắt, đi sai làn, chỉ nhìn một hướng. Người khác hay bấm còi, hay vượt sát cũng là dấu hiệu gián tiếp, vì đó có thể là cách dòng xe phản ứng với người đi quá chậm, loạng choạng hay đổi ý đột ngột. Những điều này mà đi kèm chuyện hay quên thì nên nhờ bác sĩ xem xét, thay vì tranh luận về cách lái.',
+      'Nhóm thứ ba nằm ở cơ thể và tâm trạng. Đổ xe khi đang dừng, loạng choạng lúc dắt xe hay dựng chân chống, phải vịn vào tường hay người khác mới lên được yên, nhón mũi chân mỗi lần dừng đèn đỏ cho thấy sức và thăng bằng đang không theo kịp chiếc xe. Tinh tế hơn là thái độ: người lớn tuổi bắt đầu ngại đi, tìm cớ hoãn, né vài đoạn đường, về nhà thì mệt rã, nhưng vẫn cố tự đi vì không muốn phụ thuộc. Đó thường là lúc họ đã tự thấy vấn đề. Cách đọc đúng là nhìn theo nhóm và theo thời gian, so với chính người ấy ngày trước chứ không so với ai khác, rồi ghi lại sự việc cụ thể để dùng cho cuộc trò chuyện sau.'
+    ]),
+    P('Điều chỉnh trước khi phải ngừng lái: đi ít hơn, đi dễ hơn, đi chắc hơn', [
+      'Giữa việc cứ lái như cũ và ngừng hẳn còn một khoảng rộng, nơi phần lớn lợi ích an toàn nằm. Hãy hình dung các điều chỉnh như nấc thang, nấc nhẹ nhất đi trước. Nấc đầu tiên thường là chỉ đi ban ngày: ban đêm và lúc chạng vạng là lúc mắt khó nhìn và đèn pha ngược chiều dễ gây chói nhất, nên nhường các chuyến tối cho người nhà đưa đón là điều chỉnh rẻ mà hiệu quả. Nấc kế tiếp là tránh trời mưa, vì mặt đường trơn, tầm nhìn lại bị hạt mưa và mũ che bớt; tránh cả lúc nắng gắt chiếu thẳng vào mắt hay khi người lái mệt, thiếu ngủ, mới ốm dậy. Mỗi nấc bớt đi vài tình huống khó mà vẫn giữ được thói quen đi lại.',
+      'Về quãng đường, hãy ưu tiên đường quen và ngắn: chợ gần nhà, nhà bạn trong khu, thay cho tuyến dài qua nhiều ngã tư lạ. Có thể cùng nhau chọn lối ít ngã tư lớn và ít chỗ phải cắt ngang dòng xe ngược chiều, nơi đòi hỏi nhiều chú ý nhất, dù đường vòng dài hơn chút. Giờ cao điểm nên tránh hẳn vì dòng xe dày, nhịp nhanh và nhiều việc xảy ra cùng lúc. Phương tiện cũng quan trọng: xe nhẹ, yên thấp, vừa tầm tay chân dễ dắt và dễ giữ khi dừng hơn; đã có bài riêng về chọn xe máy cho người cao tuổi nên ở đây chỉ nhắc ngắn. Người lớn tuổi tự lái cũng nên tránh chở thêm người, vì xe nặng hơn và trọng tâm đổi khác.',
+      'Điều chỉnh thứ ba nằm ở sức khỏe và trang bị. Hãy hẹn một buổi khám mắt, nói rõ người ấy vẫn đi xe máy, và đeo kính đúng độ theo kết quả; kiểm tra thêm thính lực nếu họ hay nghe không rõ. Mang toàn bộ thuốc đang dùng đến hỏi bác sĩ hoặc dược sĩ xem loại nào có thể ảnh hưởng tới việc lái xe và nên uống vào lúc nào; bài về lái xe sau khi dùng thuốc nói kỹ hơn phần này. Mũ bảo hiểm đúng cỡ cài quai chắc, áo sáng màu hoặc có phản quang giúp người khác nhìn thấy sớm hơn. Phanh, đèn, gương và lốp cũng phải tốt; phanh bóp sâu bất thường, lốp mòn nhẵn hay đèn không sáng là lý do ra thợ trước khi đi tiếp.'
+    ]),
+    P('Cả nhà cùng bàn chuyện này ra sao: quan tâm thay vì phán xét', [
+      'Với nhiều người lớn tuổi, chiếc xe máy không chỉ là phương tiện. Đó là cách tự đi chợ, đi lễ, thăm bạn, thăm họ hàng, và là bằng chứng mình vẫn tự chủ. Vì thế một đề nghị giảm lái rất dễ bị nghe thành lời tuyên bố rằng mình đã già và hết vai trò, và phản ứng thường là chống đỡ hoặc giận. Đó không phải cứng đầu mà là giữ phẩm giá, nên người nhà cần chuẩn bị trước khi mở lời. Cả nhà nên thống nhất ai nói, nói gì và có những phương án đi lại nào, rồi chỉ một hai người được tin cậy nhất trò chuyện, không xúm lại. Chọn lúc bình tĩnh và riêng tư, tránh ngay sau sự cố, lúc ai đó đang bực hay trước mặt đông người.',
+      'Câu mở đầu nên xuất phát từ nỗi lo của bạn chứ không từ lỗi của họ: "con thấy lo mỗi lần bố đi xe buổi tối" dễ nghe hơn nhiều so với "bố lái yếu rồi". Hãy nêu một hai ví dụ cụ thể, chẳng hạn xe dừng lâu giữa ngã tư và xe phía sau bấm còi, đồng thời tránh những chữ như luôn, lúc nào cũng, ẩu, già rồi. Sau đó hỏi mở và lắng nghe: bố thấy đường tối có khó nhìn không, mẹ có mỏi tay khi dắt xe không. Có người đã tự nhận ra vấn đề từ lâu mà chưa ai hỏi, và câu trả lời của họ là điểm bắt đầu của giải pháp. Đừng dọa, đừng so sánh với người khác, đừng đòi lời hứa ngay buổi đầu.',
+      'Để câu chuyện dựa trên điều có thật, bạn có thể đi cùng một chuyến quan sát. Hãy chọn tuyến quen, đi xe riêng theo sau với khoảng cách vừa phải, không bám đuôi, không bấm còi, không gọi điện lúc họ chạy, rồi để ý cách họ khởi động, nhìn gương, báo rẽ, qua ngã tư và dừng. Nên làm vài lần vào giờ khác nhau vì một chuyến êm chưa nói lên tất cả. Nhận xét chỉ nói sau khi cả hai về đến nhà, bằng điều bạn thấy chứ không bằng kết luận. Sau cùng, hãy để người lớn tuổi cùng quyết định: họ tự đặt giới hạn, chẳng hạn chỉ đi ban ngày quanh khu phố, rồi cả nhà hẹn xem lại. Điều người ta tự chọn thường được giữ lâu hơn điều bị áp đặt.'
+    ]),
+    P('Khi nào nên dừng lái ngay và cách đi lại thay thế', [
+      'Có những tình huống không thể chờ bàn bạc dần dần. Choáng váng rõ rệt, ngất hoặc suýt ngất là lý do dừng lái ngay, vì có thể quay lại mà không báo trước, và xe hai bánh không tự đứng vững khi người lái mất tỉnh táo dù chỉ chốc lát. Trí nhớ giảm rõ rệt, như quên đường về nhà, quên mình đang đi đâu hay lúng túng với thao tác đã thuộc, cũng thuộc nhóm này. Nên tạm nghỉ lái cả khi người ấy vừa ốm nặng hoặc vừa được bác sĩ đổi thuốc, vì cơ thể chưa ổn định và thuốc mới chưa rõ tác dụng. Đang chạy mà thấy choáng thì giảm ga, bóp phanh dần, tấp vào chỗ an toàn ven đường, dừng xe và gọi người nhà đến đón, không cố chạy tiếp.',
+      'Sau khi dừng, bước kế tiếp là gặp bác sĩ và hỏi hai điều: nguyên nhân có thể là gì, và khi nào, với điều kiện nào được lái lại. Dừng lái vì một đợt ốm hay đổi thuốc khác với dừng hẳn: nhiều trường hợp chỉ tạm thời, sau đó có thể quay lại từng bước, bắt đầu bằng quãng ngắn ban ngày trên đường quen, nếu bác sĩ đồng ý. Gia đình cần kiên định mà vẫn ôn hòa. Người trong cuộc có thể phủ nhận hoặc buồn, điều dễ hiểu, nên đừng tranh cãi từng câu mà hãy nhắc lại mối quan tâm, đưa ngay phương án đi lại cụ thể và nhờ bác sĩ hoặc người họ tin cậy nói cùng. Quyết định nên xem lại định kỳ vì sức khỏe có thể thay đổi.',
+      'Ngừng tự lái không có nghĩa là ngừng đi lại, vì vậy lối đi khác nên có sẵn trước khi đề nghị dừng. Người nhà có thể nhận đưa đón theo lịch cố định cho việc đều đặn như đi chợ, đi lễ, đi khám; nếu đi bằng xe máy, đã có bài riêng về chở người cao tuổi. Hàng xóm hay bạn bè cùng tuyến có thể đi chung; nơi có xe công cộng thì cùng đi thử vài chuyến cho quen; với xe gọi qua điện thoại, hãy cài sẵn, lưu địa chỉ quen và hướng dẫn họ tự đặt. Đừng quên phần kết nối: mất xe thường kéo theo mất các buổi gặp bạn bè, nên hãy đưa cả những chuyến đi chơi vào lịch, để người lớn tuổi vẫn tự chọn đi đâu, gặp ai.'
+    ])
+  ],
+  checklist: [
+    'Ghi lại những sự việc cụ thể đã thấy, gồm ngày, chỗ và chuyện gì xảy ra, thay vì chỉ nhớ cảm giác dạo này lái kém đi.',
+    'Kiểm tra phanh, đèn, gương và lốp của xe trước khi nghi ngờ người lái; xe trục trặc cũng gây suýt va chạm và trầy xước.',
+    'Hẹn khám mắt và hỏi bác sĩ hoặc dược sĩ về những thuốc đang dùng có ảnh hưởng tới việc lái xe hay không.',
+    'Thống nhất trong nhà ai nói, nói lúc nào, bằng lời nào; chọn lúc bình tĩnh, riêng tư và chuẩn bị vài ví dụ cụ thể.',
+    'Lập sẵn phương án đi lại thay thế cho những chuyến quen như đi chợ, thăm bạn, khám bệnh trước khi đề nghị giảm lái.'
+  ],
+  steps: [
+    { title: 'Quan sát và ghi lại', detail: 'Chú ý các dấu hiệu lặp lại về suýt va chạm, xe trầy xước, lạc đường quen, lúng túng ở ngã tư, đổ xe khi dừng; ghi bằng sự việc cụ thể kèm hoàn cảnh.' },
+    { title: 'Loại trừ xe và sức khỏe', detail: 'Kiểm tra xe, hẹn khám mắt, nhờ bác sĩ hoặc dược sĩ xem lại các thuốc đang dùng; mọi nhận định về sức khỏe để người có chuyên môn đưa ra.' },
+    { title: 'Trò chuyện và đi cùng một chuyến', detail: 'Nói từ nỗi lo của mình, nêu ví dụ cụ thể, lắng nghe; đi xe riêng theo sau một chuyến quen ở khoảng cách an toàn để quan sát, rồi nhận xét sau khi đã về đến nhà.' },
+    { title: 'Cùng đặt giới hạn và lối đi lại khác', detail: 'Để người lớn tuổi tự chọn mức giảm như chỉ đi ban ngày, đường quen và ngắn; sắp sẵn người đưa đón hoặc phương tiện thay thế và hẹn xem lại sau một thời gian.' }
+  ],
+  warnings: [
+    'Choáng váng, ngất, giảm trí nhớ rõ rệt, vừa ốm nặng hoặc vừa đổi thuốc theo lời bác sĩ là lý do dừng lái ngay và gặp bác sĩ; đang chạy mà thấy choáng thì giảm ga, bóp phanh dần, tấp vào chỗ an toàn, dừng xe rồi gọi người nhà.',
+    'Khi đi theo để quan sát, không bám sát đuôi xe, không bấm còi, không gọi điện hay góp ý lúc họ đang chạy; chỉ trao đổi sau khi cả hai đã dừng xe ở nơi yên tĩnh.',
+    'Không chê trách, dọa nạt hay bàn chuyện trước mặt đông người, và không tự kết luận nguyên nhân bệnh lý từ những điều quan sát được; việc ấy thuộc về bác sĩ.'
+  ],
+  notes: [
+    'Các dấu hiệu trong bài chỉ là gợi ý để người nhà quan tâm, không phải chẩn đoán: nguyên nhân có thể nằm ở xe, mắt, tai, thuốc, giấc ngủ hay sức khỏe nói chung, nhiều khi là nhiều thứ cùng lúc. Nội dung mang tính tham khảo, không thay ý kiến của bác sĩ.',
+    'Mức điều chỉnh phù hợp khác nhau theo từng người, từng khu phố và từng gia đình; phương tiện thay thế như xe công cộng hay xe gọi qua điện thoại cũng tùy nơi ở có sẵn hay không.'
+  ],
+  references: [
+    'Tư vấn của bác sĩ điều trị và bác sĩ chuyên khoa mắt về thị lực, thính lực và các thuốc đang dùng của từng người',
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần về phanh, chân chống và bảo dưỡng định kỳ'
+  ],
+  related: ['chon-xe-may-cho-nguoi-cao-tuoi', 'lai-xe-sau-khi-dung-thuoc-luu-y', 'cho-nguoi-cao-tuoi-tren-xe-may-luu-y', 'deo-kinh-khi-di-xe-may-kinh-can-kinh-ram-va-di-dem']
+};
