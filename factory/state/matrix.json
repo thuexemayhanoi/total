@@ -19383,11 +19383,13 @@
    "title": "Người cao tuổi tự lái xe máy: dấu hiệu nên giảm hoặc ngừng lái và cách cả nhà cùng bàn chuyện này",
    "primaryIntent": "informational/nguoi-cao-tuoi-tu-lai-xe-may-dau-hieu-nen-giam-hoac-ngung-lai",
    "notes": "source=topic-v2 topicId=T001430",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:14:42.184Z",
-   "updatedAt": "2026-10-13T07:14:42.184Z"
+   "updatedAt": "2026-10-13T07:41:31.160Z",
+   "seoScore": 100,
+   "words": 3099
   },
   {
    "id": "S01337",
@@ -19396,11 +19398,13 @@
    "title": "Bị bỏng ống xả xe máy: sơ cứu đúng cách, những thứ không được bôi lên vết bỏng và khi nào cần đi khám",
    "primaryIntent": "informational/bi-bong-ong-xa-xe-may-so-cuu-dung-cach",
    "notes": "source=topic-v2 topicId=T001431",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:14:42.215Z",
-   "updatedAt": "2026-10-13T07:14:42.215Z"
+   "updatedAt": "2026-10-13T07:41:31.160Z",
+   "seoScore": 100,
+   "words": 2923
   },
   {
    "id": "S01338",
@@ -19409,11 +19413,13 @@
    "title": "Ê mông và tê mông khi đi xe máy đường dài: yên xe, tư thế ngồi, quần áo và nhịp nghỉ giúp đỡ mỏi",
    "primaryIntent": "informational/e-mong-va-te-mong-khi-di-xe-may-duong-dai",
    "notes": "source=topic-v2 topicId=T001432",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:14:42.241Z",
-   "updatedAt": "2026-10-13T07:14:42.241Z"
+   "updatedAt": "2026-10-13T07:41:31.160Z",
+   "seoScore": 100,
+   "words": 3009
   },
   {
    "id": "S01339",
@@ -19422,11 +19428,13 @@
    "title": "Cầu dao trên xe máy điện bị nhảy: vì sao xe tự ngắt nguồn, việc nên làm và điều không được tự ý làm",
    "primaryIntent": "troubleshooting/cau-dao-tren-xe-may-dien-bi-nhay-nguyen-nhan-va-viec-nen-lam",
    "notes": "source=topic-v2 topicId=T001433",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:14:42.262Z",
-   "updatedAt": "2026-10-13T07:14:42.262Z"
+   "updatedAt": "2026-10-13T07:41:31.160Z",
+   "seoScore": 100,
+   "words": 3083
   },
   {
    "id": "S01340",
@@ -19435,11 +19443,13 @@
    "title": "Người đi bộ sang đường trước mũi xe máy: nhường ở vạch kẻ, đọc ý định và những chỗ người đi bộ hay xuất hiện bất ngờ",
    "primaryIntent": "informational/nguoi-di-bo-sang-duong-truoc-mui-xe-may-nhuong-va-doc-y-dinh",
    "notes": "source=topic-v2 topicId=T001434",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:14:42.287Z",
-   "updatedAt": "2026-10-13T07:14:42.287Z"
+   "updatedAt": "2026-10-13T07:41:31.160Z",
+   "seoScore": 100,
+   "words": 2946
   },
   {
    "id": "S01341",
@@ -19448,11 +19458,13 @@
    "title": "Phụ nữ mang thai đi xe máy hoặc ngồi sau xe máy: hỏi bác sĩ trước, những điều làm tăng rủi ro và cách giảm rủi ro",
    "primaryIntent": "informational/phu-nu-mang-thai-di-xe-may-hoi-bac-si-va-cach-giam-rui-ro",
    "notes": "source=topic-v2 topicId=T001435",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:18:58.178Z",
-   "updatedAt": "2026-10-13T07:18:58.178Z"
+   "updatedAt": "2026-10-13T07:41:31.161Z",
+   "seoScore": 100,
+   "words": 3017
   },
   {
    "id": "S01342",
@@ -19461,11 +19473,13 @@
    "title": "Giữ xe máy an toàn khi có bão: chọn chỗ để xe, chống đổ, chống ngập và kiểm tra xe sau bão",
    "primaryIntent": "informational/giu-xe-may-an-toan-khi-co-bao-cho-de-xe-chong-do-va-chong-ngap",
    "notes": "source=topic-v2 topicId=T001440",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T07:22:36.957Z",
-   "updatedAt": "2026-10-13T07:22:36.957Z"
+   "updatedAt": "2026-10-13T07:41:31.160Z",
+   "seoScore": 100,
+   "words": 2883
   },
   {
    "id": "S01343",

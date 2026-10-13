@@ -1636,6 +1636,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/bi-bong-ong-xa-xe-may-so-cuu-dung-cach/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/gia-xe/bien-dong-gia-xe/index.html",
   "kind": "article"
  },
@@ -1769,6 +1773,10 @@
  },
  {
   "rel": "wiki/cau-tao-xe/cao-su-chan-may-xe-may-mon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/cau-dao-tren-xe-may-dien-bi-nhay-nguyen-nhan-va-viec-nen-lam/index.html",
   "kind": "article"
  },
  {
@@ -2284,6 +2292,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/e-mong-va-te-mong-khi-di-xe-may-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-tiet-kiem-xang/ep-xe-dung-cach/index.html",
   "kind": "article"
  },
@@ -2545,6 +2557,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/giu-xe-ben/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-bao-duong/giu-xe-may-an-toan-khi-co-bao-cho-de-xe-chong-do-va-chong-ngap/index.html",
   "kind": "article"
  },
  {
@@ -2928,6 +2944,14 @@
   "kind": "article"
  },
  {
+  "rel": "hub/nhu-cau-su-dung/nguoi-cao-tuoi-tu-lai-xe-may-dau-hieu-nen-giam-hoac-ngung-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/nguoi-di-bo-sang-duong-truoc-mui-xe-may-nhuong-va-doc-y-dinh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/nguyen-ly-4-thi/index.html",
   "kind": "article"
  },
@@ -3037,6 +3061,10 @@
  },
  {
   "rel": "review/review-phu-tung/phu-kien-gan-them-xe-may-luu-y/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/nhu-cau-su-dung/phu-nu-mang-thai-di-xe-may-hoi-bac-si-va-cach-giam-rui-ro/index.html",
   "kind": "article"
  },
  {
