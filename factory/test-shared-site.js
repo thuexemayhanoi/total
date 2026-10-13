@@ -90,5 +90,10 @@ const footerCss = require('node:fs').readFileSync(require('node:path').join(__di
 assert(footerCss.includes('.footer-intro') && footerCss.includes('.footer-directory-grid') &&
        footerCss.includes('@media (max-width: 479px)'),
   'Footer styles and mobile presentation are retained');
+assert(footerCss.includes('justify-content: flex-start; gap: 10px 24px;') &&
+       footerCss.includes('scroll-margin-top: calc(var(--header-h) + var(--sat) + 16px);'),
+  'Footer back-to-top link avoids fixed chat launcher and sticky header');
+assert(footerCss.includes('.footer-action-primary, .footer-action-secondary { flex: 0 0 auto; width: 100%; min-height: 46px; }'),
+  'Phone CTA buttons cannot stretch to 190px height in column layout');
 assert(!page.includes('editorial-slot'));
 console.log('SHARED_SITE_QA_OK');

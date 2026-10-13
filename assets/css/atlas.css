@@ -734,6 +734,7 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   position: relative; isolation: isolate; overflow: clip;
   background: #0D1930; color: #CED8EA; margin-top: 48px;
   border-top: 3px solid #507BEB;
+  scroll-margin-top: calc(var(--header-h) + var(--sat) + 16px);
 }
 .site-footer::before {
   content: ""; position: absolute; z-index: -1; inset: 0; pointer-events: none;
@@ -847,7 +848,7 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   max-width: var(--content-max); margin: 0 auto;
   padding: 16px max(20px, var(--sal)) calc(23px + var(--sab));
   border-top: 1px solid rgba(199, 217, 250, 0.14);
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 22px;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 10px 24px;
 }
 .footer-bottom-brand { color: #9FADCB; font-size: 12px; }
 .footer-bottom-brand span { padding: 0 7px; color: #F4AE43; }
@@ -860,7 +861,8 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
   .footer-directory-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 767px) {
-  .footer-intro { padding-top: 35px; padding-bottom: 30px; }
+  /* Keep the kicker visible when a sticky mobile header covers the viewport top. */
+  .footer-intro { padding-top: calc(var(--header-h) + var(--sat) + 18px); padding-bottom: 30px; }
   .footer-intro-actions { align-items: stretch; }
   .footer-action-primary, .footer-action-secondary { flex: 1 1 190px; }
   .footer-directory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
@@ -869,6 +871,8 @@ h1 { font-family: var(--font-head); font-size: clamp(30px, 4.6vw, 42px); line-he
 }
 @media (max-width: 479px) {
   .footer-intro-actions { flex-direction: column; }
+  /* A row-oriented flex-basis becomes a 190px height in column mode; reset it. */
+  .footer-action-primary, .footer-action-secondary { flex: 0 0 auto; width: 100%; min-height: 46px; }
   .footer-directory-grid { grid-template-columns: minmax(0, 1fr); }
   .footer-directory-toggle { padding: 12px 14px; gap: 8px; }
   .footer-directory-meta { font-size: 10.5px; }
