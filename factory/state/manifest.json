@@ -1784,6 +1784,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/ac-quy-pin/cau-binh-ac-quy-xe-may-tu-xe-khac-khi-nao-lam-duoc-va-thu-tu-noi-day/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/cau-dao-tren-xe-may-dien-bi-nhay-nguyen-nhan-va-viec-nen-lam/index.html",
   "kind": "article"
  },
@@ -1901,6 +1905,10 @@
  },
  {
   "rel": "guide/mua-xe/chon-xe-may-cho-nguoi-cao-tuoi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/chong-mat-hoac-choang-vang-khi-dang-lai-xe-may-dung-xe-va-khi-nao-di-kham/index.html",
   "kind": "article"
  },
  {
@@ -2120,7 +2128,15 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/deo-kinh-ap-trong-khi-di-xe-may-gio-bui-kho-mat-va-luc-nen-doi-sang-kinh-gong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/deo-kinh-khi-di-xe-may-kinh-can-kinh-ram-va-di-dem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/di-phuot/di-phuot-mot-minh-bang-xe-may-chuan-bi-gioi-han-ban-than-va-xu-ly-su-co/index.html",
   "kind": "article"
  },
  {
@@ -2129,6 +2145,10 @@
  },
  {
   "rel": "ride/di-phuot/di-phuot/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-sau-hoac-vuot-xe-may-cho-hang-cong-kenh-giu-khoang-cach-va-de-phong-hang-roi/index.html",
   "kind": "article"
  },
  {
@@ -2201,6 +2221,10 @@
  },
  {
   "rel": "wiki/dau-nhot/do-du-nhot-xe-may-co-sao-khong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/checklist/do-nen-de-san-trong-cop-xe-may-di-hang-ngay/index.html",
   "kind": "article"
  },
  {
@@ -2780,6 +2804,10 @@
   "kind": "article"
  },
  {
+  "rel": "hub/nhu-cau-su-dung/lai-xe-may-lai-sau-chan-thuong-tay-chan-hoac-phau-thuat-hoi-bac-si-va-tu-kiem-tra/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-trong-thanh-pho/lai-xe-trong-thanh-pho/index.html",
   "kind": "article"
  },
@@ -2957,6 +2985,10 @@
  },
  {
   "rel": "local/tp-hcm/ngap-duong-sai-gon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/nghi-dem-doc-duong-khi-di-xe-may-duong-dai-chon-cho-ngu-giu-xe-va-cat-do/index.html",
   "kind": "article"
  },
  {
@@ -3225,6 +3257,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/sap-phu-nano-va-phu-ceramic-cho-son-xe-may-khac-nhau-the-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/nhu-cau-su-dung/sau-kham-co-gay-me-an-than-hoac-nho-thuoc-gian-dong-tu-khong-tu-lai-xe-may-ve/index.html",
   "kind": "article"
  },
  {
@@ -4481,6 +4517,10 @@
  },
  {
   "rel": "learn/kien-thuc-xe-dien/xe-may-dien-bi-giat-hoac-yeu-di-khi-van-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/lop/xe-may-dien-bi-thung-lop-xu-ly-va-thao-banh-co-dong-co/index.html",
   "kind": "article"
  },
  {
