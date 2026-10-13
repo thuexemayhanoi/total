@@ -21367,6 +21367,45 @@
    "attempts": 0,
    "createdAt": "2026-10-13T15:15:09.785Z",
    "updatedAt": "2026-10-13T15:15:09.785Z"
+  },
+  {
+   "id": "S01470",
+   "hub": "hub/nhu-cau-su-dung",
+   "slug": "chon-xe-may-cho-nguoi-song-o-khu-hay-ngap-nuoc-nhung-diem-nen-xem-truoc-khi-mua",
+   "title": "Chọn xe máy cho người sống ở khu hay ngập nước: những điểm nên xem trước khi mua",
+   "primaryIntent": "informational/chon-xe-may-cho-nguoi-song-o-khu-hay-ngap-nuoc-nhung-diem-nen-xem-truoc-khi-mua",
+   "notes": "source=topic-v2 topicId=T001597",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:18:08.339Z",
+   "updatedAt": "2026-10-13T15:18:08.340Z"
+  },
+  {
+   "id": "S01471",
+   "hub": "hub/nhu-cau-su-dung",
+   "slug": "chon-xe-may-cho-vung-doi-nui-nhieu-doc-phanh-dong-co-lop-va-tu-the-ngoi",
+   "title": "Chọn xe máy cho vùng đồi núi nhiều dốc: phanh, động cơ, lốp và tư thế ngồi",
+   "primaryIntent": "informational/chon-xe-may-cho-vung-doi-nui-nhieu-doc-phanh-dong-co-lop-va-tu-the-ngoi",
+   "notes": "source=topic-v2 topicId=T001598",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:18:08.377Z",
+   "updatedAt": "2026-10-13T15:18:08.377Z"
+  },
+  {
+   "id": "S01472",
+   "hub": "guide/su-dung-xe",
+   "slug": "tay-phanh-xa-ban-tay-nho-bop-khong-toi-chinh-tam-tay-phanh-tay-con-va-khi-nao-nho-tho",
+   "title": "Tay phanh xa, bàn tay nhỏ bóp không tới: chỉnh tầm tay phanh, tay côn và khi nào nhờ thợ",
+   "primaryIntent": "informational/tay-phanh-xa-ban-tay-nho-bop-khong-toi-chinh-tam-tay-phanh-tay-con-va-khi-nao-nho-tho",
+   "notes": "source=topic-v2 topicId=T001599",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-13T15:18:08.409Z",
+   "updatedAt": "2026-10-13T15:18:08.409Z"
   }
  ]
 }
