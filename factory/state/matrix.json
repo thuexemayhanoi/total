@@ -19848,11 +19848,13 @@
    "title": "Đi xe máy xem pháo hoa và lễ hội đông người: gửi xe, kẹt xe, giữ đồ và về nhà an toàn",
    "primaryIntent": "informational/di-xe-may-xem-phao-hoa-va-le-hoi-dong-nguoi-gui-xe-ket-xe-va-ve-nha-an-toan",
    "notes": "source=topic-v2 topicId=T001467",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.187Z",
-   "updatedAt": "2026-10-13T08:05:58.187Z"
+   "updatedAt": "2026-10-13T12:29:46.678Z",
+   "seoScore": 100,
+   "words": 3029
   },
   {
    "id": "S01368",
@@ -19861,11 +19863,13 @@
    "title": "Đưa con đi thi bằng xe máy: chuẩn bị xe từ hôm trước, chọn giờ đi, chỗ gửi xe và phương án dự phòng",
    "primaryIntent": "informational/dua-con-di-thi-bang-xe-may-chuan-bi-xe-tu-hom-truoc-va-phuong-an-du-phong",
    "notes": "source=topic-v2 topicId=T001468",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.234Z",
-   "updatedAt": "2026-10-13T08:05:58.234Z"
+   "updatedAt": "2026-10-13T12:29:46.678Z",
+   "seoScore": 100,
+   "words": 2854
   },
   {
    "id": "S01369",
@@ -19874,11 +19878,13 @@
    "title": "Ngồi sau xe ôm hoặc xe máy gọi qua ứng dụng: đội mũ, cài quai, ngồi đúng và nhắc người lái khi thấy không an toàn",
    "primaryIntent": "informational/ngoi-sau-xe-om-hoac-xe-may-goi-qua-ung-dung-doi-mu-cai-quai-va-nhac-nguoi-lai",
    "notes": "source=topic-v2 topicId=T001469",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.260Z",
-   "updatedAt": "2026-10-13T08:05:58.260Z"
+   "updatedAt": "2026-10-13T12:29:46.678Z",
+   "seoScore": 100,
+   "words": 3000
   },
   {
    "id": "S01370",
@@ -19887,11 +19893,13 @@
    "title": "Chở vali bằng xe máy: đặt ở đâu, buộc thế nào và khi nào nên gọi xe khác",
    "primaryIntent": "informational/cho-vali-bang-xe-may-dat-o-dau-buoc-the-nao-va-khi-nao-nen-goi-xe-khac",
    "notes": "source=topic-v2 topicId=T001470",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.285Z",
-   "updatedAt": "2026-10-13T08:05:58.285Z"
+   "updatedAt": "2026-10-13T12:29:46.678Z",
+   "seoScore": 100,
+   "words": 3028
   },
   {
    "id": "S01371",
@@ -19900,11 +19908,13 @@
    "title": "Chảy nước mắt khi đi xe máy: vì sao gió làm mắt chảy nước và cách giảm cho tầm nhìn rõ hơn",
    "primaryIntent": "informational/chay-nuoc-mat-khi-di-xe-may-vi-sao-gio-lam-mat-chay-nuoc-va-cach-giam",
    "notes": "source=topic-v2 topicId=T001471",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.316Z",
-   "updatedAt": "2026-10-13T08:05:58.316Z"
+   "updatedAt": "2026-10-13T12:29:46.677Z",
+   "seoScore": 91,
+   "words": 2963
   },
   {
    "id": "S01372",
@@ -19913,11 +19923,13 @@
    "title": "Tự lái xe máy khi mặc áo dài hoặc váy dài: gom tà áo, tránh vạt vải cuốn vào bánh và giữ an toàn khi dừng xe",
    "primaryIntent": "informational/tu-lai-xe-may-khi-mac-ao-dai-hoac-vay-dai-gom-ta-ao-va-tranh-cuon-vao-banh",
    "notes": "source=topic-v2 topicId=T001472",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.341Z",
-   "updatedAt": "2026-10-13T08:05:58.341Z"
+   "updatedAt": "2026-10-13T12:29:46.678Z",
+   "seoScore": 100,
+   "words": 2993
   },
   {
    "id": "S01373",
@@ -19926,11 +19938,13 @@
    "title": "Gửi xe máy nhiều ngày ở bãi sân bay, bến xe hay nhà ga: chuẩn bị xe, giữ vé và kiểm tra khi lấy xe",
    "primaryIntent": "informational/gui-xe-may-nhieu-ngay-o-bai-san-bay-ben-xe-hay-nha-ga-chuan-bi-va-kiem-tra-khi-lay",
    "notes": "source=topic-v2 topicId=T001473",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.364Z",
-   "updatedAt": "2026-10-13T08:05:58.364Z"
+   "updatedAt": "2026-10-13T12:29:46.678Z",
+   "seoScore": 100,
+   "words": 3058
   },
   {
    "id": "S01374",
@@ -19939,11 +19953,13 @@
    "title": "Đồng hồ ODO và TRIP trên xe máy: đọc số km, đặt lại TRIP và dùng để theo dõi xăng, lịch bảo dưỡng",
    "primaryIntent": "informational/dong-ho-odo-va-trip-tren-xe-may-doc-so-km-dat-lai-trip-va-dung-de-theo-doi-xe",
    "notes": "source=topic-v2 topicId=T001474",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T08:05:58.399Z",
-   "updatedAt": "2026-10-13T08:05:58.399Z"
+   "updatedAt": "2026-10-13T12:29:46.678Z",
+   "seoScore": 100,
+   "words": 2911
   },
   {
    "id": "S01375",

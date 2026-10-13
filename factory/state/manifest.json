@@ -1832,6 +1832,10 @@
   "kind": "article"
  },
  {
+  "rel": "hub/van-de-thuong-gap/chay-nuoc-mat-khi-di-xe-may-vi-sao-gio-lam-mat-chay-nuoc-va-cach-giam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-duong-dai/chay-xe-duong-truong/index.html",
   "kind": "article"
  },
@@ -1893,6 +1897,10 @@
  },
  {
   "rel": "hub/nhu-cau-su-dung/cho-nguoi-om-hoac-bi-thuong-di-kham-bang-xe-may-khi-nao-phai-goi-cap-cuu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/cho-vali-bang-xe-may-dat-o-dau-buoc-the-nao-va-khi-nao-nen-goi-xe-khac/index.html",
   "kind": "article"
  },
  {
@@ -2180,6 +2188,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-xem-phao-hoa-va-le-hoi-dong-nguoi-gui-xe-ket-xe-va-ve-nha-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-xuong-ham-gui-xe-luu-y/index.html",
   "kind": "article"
  },
@@ -2300,6 +2312,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/thuat-ngu-xe/dong-ho-odo-va-trip-tren-xe-may-doc-so-km-dat-lai-trip-va-dung-de-theo-doi-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/dong-ho-xang-xe-may-bao-sai/index.html",
   "kind": "article"
  },
@@ -2321,6 +2337,10 @@
  },
  {
   "rel": "ride/du-lich-xe-may/du-lich-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/nhu-cau-su-dung/dua-con-di-thi-bang-xe-may-chuan-bi-xe-tu-hom-truoc-va-phuong-an-du-phong/index.html",
   "kind": "article"
  },
  {
@@ -2629,6 +2649,10 @@
  },
  {
   "rel": "wiki/cau-tao-xe/goc-nghieng-co-lai-va-do-lech-phuong-tren-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/bai-do-xe/gui-xe-may-nhieu-ngay-o-bai-san-bay-ben-xe-hay-nha-ga-chuan-bi-va-kiem-tra-khi-lay/index.html",
   "kind": "article"
  },
  {
@@ -3021,6 +3045,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/ngoi-sau-xe-may-khi-mac-vay-hoac-trang-phuc-rong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/ngoi-sau-xe-om-hoac-xe-may-goi-qua-ung-dung-doi-mu-cai-quai-va-nhac-nguoi-lai/index.html",
   "kind": "article"
  },
  {
@@ -4361,6 +4389,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/tu-dien-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/tu-lai-xe-may-khi-mac-ao-dai-hoac-vay-dai-gom-ta-ao-va-tranh-cuon-vao-banh/index.html",
   "kind": "article"
  },
  {
