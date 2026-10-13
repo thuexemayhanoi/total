@@ -22773,11 +22773,13 @@
    "title": "Xe tải, ô tô đỗ lấn làn ven quốc lộ: vì sao người đi xe máy hay lao vào đuôi xe đứng yên và cách nhận ra sớm",
    "primaryIntent": "informational/xe-tai-o-to-do-lan-lan-ven-quoc-lo-vi-sao-nguoi-di-xe-may-hay-lao-vao-duoi-xe-dung-yen-va-cach-nhan-ra-som",
    "notes": "source=topic-v2 topicId=T001698",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:43:14.100Z",
-   "updatedAt": "2026-10-13T22:43:14.100Z"
+   "updatedAt": "2026-10-13T22:48:20.489Z",
+   "seoScore": 91,
+   "words": 3171
   },
   {
    "id": "S01563",
@@ -22786,11 +22788,13 @@
    "title": "Gặp người say đi bộ loạng choạng dưới lòng đường khi đi xe máy: giảm tốc, tránh xa và xử lý khi có người nằm giữa đường",
    "primaryIntent": "informational/gap-nguoi-say-di-bo-loang-choang-duoi-long-duong-khi-di-xe-may-giam-toc-tranh-xa-va-xu-ly-khi-co-nguoi-nam-giua-duong",
    "notes": "source=topic-v2 topicId=T001699",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:43:14.143Z",
-   "updatedAt": "2026-10-13T22:43:14.143Z"
+   "updatedAt": "2026-10-13T22:48:20.489Z",
+   "seoScore": 91,
+   "words": 2994
   },
   {
    "id": "S01564",
@@ -22799,11 +22803,13 @@
    "title": "Đi xe máy ở phố du lịch có xe điện chở khách, xích lô và du khách đạp xe: dừng bất chợt, khách bước xuống và cách vượt",
    "primaryIntent": "informational/di-xe-may-o-pho-du-lich-co-xe-dien-cho-khach-xich-lo-va-du-khach-dap-xe-dung-bat-chot-khach-buoc-xuong-va-cach-vuot",
    "notes": "source=topic-v2 topicId=T001700",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:43:14.176Z",
-   "updatedAt": "2026-10-13T22:43:14.176Z"
+   "updatedAt": "2026-10-13T22:48:20.489Z",
+   "seoScore": 91,
+   "words": 3155
   }
  ]
 }

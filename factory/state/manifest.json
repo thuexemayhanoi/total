@@ -2424,6 +2424,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-o-pho-du-lich-co-xe-dien-cho-khach-xich-lo-va-du-khach-dap-xe-dung-bat-chot-khach-buoc-xuong-va-cach-vuot/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/di-xe-may-qua-cau-phao-mat-cau-bap-benh-khe-noi-van-va-luc-nen-xuong-dat-xe/index.html",
   "kind": "article"
  },
@@ -2753,6 +2757,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/gap-nguoi-di-xe-may-say-xin-hoac-lang-lach-phia-truoc-giu-khoang-cach-khong-vuot-sat-va-bao-cho-ai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/gap-nguoi-say-di-bo-loang-choang-duoi-long-duong-khi-di-xe-may-giam-toc-tranh-xa-va-xu-ly-khi-co-nguoi-nam-giua-duong/index.html",
   "kind": "article"
  },
  {
@@ -5449,6 +5457,10 @@
  },
  {
   "rel": "moto/sym/xe-sym/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/xe-tai-o-to-do-lan-lan-ven-quoc-lo-vi-sao-nguoi-di-xe-may-hay-lao-vao-duoi-xe-dung-yen-va-cach-nhan-ra-som/index.html",
   "kind": "article"
  },
  {
