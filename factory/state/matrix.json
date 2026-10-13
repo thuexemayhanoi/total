@@ -21603,11 +21603,13 @@
    "title": "Giỏ trước xe máy: để đồ thế nào cho khỏi rơi, khỏi bị giật và không vướng tay lái",
    "primaryIntent": "informational/gio-truoc-xe-may-de-do-the-nao-cho-khoi-roi-khoi-bi-giat-va-khong-vuong-tay-lai",
    "notes": "source=topic-v2 topicId=T001617",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:10:11.721Z",
-   "updatedAt": "2026-10-13T16:10:11.721Z"
+   "updatedAt": "2026-10-13T16:14:36.687Z",
+   "seoScore": 91,
+   "words": 2887
   },
   {
    "id": "S01485",
@@ -21616,11 +21618,13 @@
    "title": "Mang đàn guitar hay nhạc cụ trên xe máy: đeo lưng, ôm ngồi sau và chỗ không nên để",
    "primaryIntent": "informational/mang-dan-guitar-hay-nhac-cu-tren-xe-may-deo-lung-om-ngoi-sau-va-cho-khong-nen-de",
    "notes": "source=topic-v2 topicId=T001618",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T16:10:11.798Z",
-   "updatedAt": "2026-10-13T16:10:11.798Z"
+   "updatedAt": "2026-10-13T16:14:36.687Z",
+   "seoScore": 100,
+   "words": 3037
   }
  ]
 }
