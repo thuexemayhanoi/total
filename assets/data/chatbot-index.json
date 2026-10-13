@@ -8408,6 +8408,34 @@
   ]
  },
  {
+  "url": "garage/dien-ac-quy/bao-dong-chong-trom-xe-may-tu-keu-hoac-keu-lien-tuc-nguyen-nhan-va-cach-xu-ly/",
+  "title": "Báo động chống trộm xe máy tự kêu hoặc kêu liên tục: nguyên nhân thường gặp và cách xử lý",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "summary": "Bài giải thích báo động chống trộm xe máy hoạt động ra sao, gồm cảm biến rung hoặc nghiêng, mạch điều khiển, còi và điều khiển từ xa hay chìa thông minh, rồi tách các nguyên nhân khiến còi tự kêu thành ba nhóm: môi trường như nền rung, người hoặc mèo chạm vào, gió lay áo trùm; điện như ắc quy yếu, pin điều khiển yếu, dây đấu lỏng; và nước vào hộp hay giắc. Bài cũng nêu cách tắt còi, tự kiểm tra tại chỗ, lúc nên nhờ thợ, lý do không tự cắt dây và cách dùng báo động không làm phiền hàng xóm.",
+  "quickAnswer": "Báo động xe máy tự kêu thường do cảm biến rung bắt phải rung động từ nền, gió, người hoặc mèo chạm vào, độ nhạy đặt cao, ắc quy hay pin điều khiển yếu, dây đấu lỏng hoặc nước vào hộp. Hãy tắt bằng điều khiển hay chìa theo hướng dẫn, đổi chỗ đỗ, trùm áo khít, thay pin. Không giật hay cắt dây; kêu không rõ lý do hoặc không tắt thì nhờ thợ.",
+  "keyPoints": [
+   "Cảm biến chỉ đo rung hoặc nghiêng nên không phân biệt được xe tải chạy ngang với người đẩy xe; vì vậy nền rung, gió lay áo trùm, mèo nhảy lên yên đều có thể làm còi kêu.",
+   "Ngoài môi trường còn có nhóm nguyên nhân về điện: ắc quy yếu, pin điều khiển yếu, dây đấu lỏng hay đấu tạm, và nước vào hộp báo động hoặc giắc sau mưa hay rửa xe.",
+   "Tắt còi bằng điều khiển hoặc chìa theo đúng hướng dẫn của bộ báo động; tuyệt đối không giật dây, kéo giắc hay đập hộp vì dễ gây chập hoặc làm xe mất điện.",
+   "Tự kiểm tra bằng cách đổi chỗ đỗ, trùm áo vừa khít, thay pin điều khiển và chỉnh độ nhạy từng chút nếu bộ báo động cho phép theo hướng dẫn."
+  ],
+  "entities": [
+   "báo động chống trộm xe máy",
+   "cảm biến rung",
+   "còi báo động",
+   "điều khiển từ xa",
+   "ắc quy xe máy",
+   "giắc nối điện"
+  ],
+  "keywords": [
+   "báo động xe máy tự kêu",
+   "báo động chống trộm kêu liên tục",
+   "còi báo động xe máy kêu không tắt",
+   "báo động xe máy kêu giữa đêm"
+  ]
+ },
+ {
   "url": "docs/quy-trinh-bao-duong/bao-duong-1000km/",
   "title": "Bảo dưỡng 1000km — những điều cần biết",
   "category": "Tài liệu",
@@ -19284,6 +19312,34 @@
    "mua nhầm phụ tùng online",
    "đổi trả phụ tùng xe máy",
    "đặt phụ tùng xe máy qua mạng"
+  ]
+ },
+ {
+  "url": "tips/meo-mua-xe/mua-xe-may-cu-qua-mang-nhan-dien-tin-dang-dang-ngo-khong-chuyen-coc-truoc-va-hen-xem-xe-an-toan/",
+  "title": "Mua xe máy cũ qua mạng: nhận diện tin đăng đáng ngờ, không chuyển cọc trước khi xem xe và hẹn xem xe an toàn",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "summary": "Mua xe máy cũ qua mạng rất tiện nhưng đi kèm rủi ro bị lừa đặt cọc. Bài viết chỉ ra những dấu hiệu tin đăng đáng ngờ như giá thấp bất thường, ảnh không có bối cảnh thật, giấy tờ mập mờ và người bán né gặp mặt, những yêu cầu nên từ chối như chuyển cọc trước khi xem xe hay cung cấp mã xác thực, cách kiểm tra từ xa, cách hẹn xem xe và lái thử an toàn, cùng việc thanh toán, lập giấy mua bán và xử lý khi đã bị lừa.",
+  "quickAnswer": "Không phải người bán online nào cũng lừa, nhưng đừng chuyển cọc khi chưa xem xe tận mắt. Hãy cảnh giác với giá rẻ bất thường, ảnh không có bối cảnh thật, giấy tờ mập mờ và lời giục chốt gấp. Trước khi gặp, hãy gọi video xem xe và nổ máy; khi gặp, chọn nơi công cộng ban ngày, đi cùng người quen hoặc thợ, đối chiếu giấy tờ rồi mới thanh toán và lập giấy mua bán rõ ràng.",
+  "keyPoints": [
+   "Giá rẻ bất thường, ảnh không có bối cảnh thật, giấy tờ mập mờ và người bán né gọi điện hay gặp mặt là những dấu hiệu cần cộng dồn để cân nhắc, không nên đánh giá riêng lẻ.",
+   "Không chuyển cọc, không gửi ảnh giấy tờ tùy thân, không bấm đường dẫn lạ và không đọc mã xác thực cho bất kỳ ai trước khi đã xem xe tận mắt.",
+   "Gọi video xem xe thật, yêu cầu ảnh xe kèm tờ giấy ghi tên bạn và ngày chụp, tìm xem ảnh có bị đăng ở nơi khác để loại bớt tin xấu trước khi đi gặp.",
+   "Hẹn ở nơi công cộng vào ban ngày, đi cùng người quen hoặc thợ, không mang nhiều tiền mặt, xem giấy tờ và đối chiếu số khung số máy tận mắt, lái thử theo thỏa thuận."
+  ],
+  "entities": [
+   "tin đăng xe máy cũ",
+   "đặt cọc chuyển khoản",
+   "giấy mua bán xe",
+   "số khung số máy",
+   "lái thử xe",
+   "bằng chứng giao dịch"
+  ],
+  "keywords": [
+   "mua xe máy cũ qua mạng",
+   "lừa đặt cọc mua xe máy online",
+   "hẹn xem xe máy cũ",
+   "nhận diện tin đăng xe máy cũ đáng ngờ"
   ]
  },
  {
@@ -30506,6 +30562,34 @@
    "xe điện không lên màn hình",
    "xe điện bật không lên",
    "xe máy điện bật khóa không có điện"
+  ]
+ },
+ {
+  "url": "learn/kien-thuc-xe-dien/xe-may-dien-len-doc-va-xuong-doc-dai-vi-sao-yeu-pin-tut-nhanh-va-cach-di-an-toan/",
+  "title": "Xe máy điện lên dốc và xuống dốc dài: vì sao xe yếu đi, pin tụt nhanh và cách đi an toàn",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bài giải thích vì sao xe máy điện lên dốc dài thì đuối dần, pin tụt nhanh và có lúc tự giảm sức kéo, rồi chỉ ra những yếu tố làm dốc khó hơn như chở nặng, pin thấp, trời nóng, lốp non và dừng giữa dốc. Nội dung hướng dẫn cách lấy đà vừa phải, giữ ga đều, xuống dốc dài với phanh nhịp nhàng và hãm tái sinh tùy xe, cách tính pin dư cho tuyến nhiều dốc cùng những dấu hiệu nên dừng nghỉ.",
+  "quickAnswer": "Lên dốc, mô-tơ phải kéo cả người, hàng và xe chống lại trọng lực nên dòng điện lớn, pin tụt nhanh, pin và bộ điều khiển nóng lên, và nhiều xe tự giảm sức kéo để bảo vệ mình, tùy xe. Hãy giữ ga đều, tránh dừng giữa dốc, giảm tải khi dốc quá gắt. Xuống dốc dài, đừng ỷ vào hãm tái sinh: giảm tốc từ đầu dốc, phanh nhịp nhàng bằng cả hai phanh và dừng nghỉ khi phanh nóng hay mềm.",
+  "keyPoints": [
+   "Lên dốc, mô-tơ phải nâng cả người, hàng và xe chống lại trọng lực nên rút dòng điện lớn, pin tụt nhanh và pin cùng bộ điều khiển nóng lên rõ hơn so với đường bằng.",
+   "Nhiều xe tự giảm sức kéo khi pin thấp hoặc quá nóng, tùy xe; xe yếu dần dù ga vẫn mở là tín hiệu giảm tải và tìm chỗ dừng an toàn, không phải lúc vặn ga thêm.",
+   "Chở nặng, người ngồi sau, pin thấp, trời nóng, lốp non và dừng giữa dốc rồi khởi hành lại đều làm lên dốc khó hơn; hãy giữ xe trên dốc bằng phanh, không giữ bằng ga.",
+   "Xe điện không có phanh động cơ kiểu về số; hãm tái sinh nếu có là tùy xe và có thể yếu hoặc mất khi pin đầy hay quá nóng, nên phanh cơ khí vẫn là công cụ chính."
+  ],
+  "entities": [
+   "mô-tơ điện",
+   "bộ điều khiển",
+   "bộ pin",
+   "hãm tái sinh",
+   "chế độ lái",
+   "bảo vệ nhiệt"
+  ],
+  "keywords": [
+   "xe máy điện leo dốc",
+   "xe máy điện lên dốc yếu",
+   "xe điện đi đèo được không",
+   "xuống dốc bằng xe máy điện"
   ]
  },
  {

@@ -1620,6 +1620,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/bao-dong-chong-trom-xe-may-tu-keu-hoac-keu-lien-tuc-nguyen-nhan-va-cach-xu-ly/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/quy-trinh-bao-duong/bao-duong-1000km/index.html",
   "kind": "article"
  },
@@ -3169,6 +3173,10 @@
  },
  {
   "rel": "market/gia-phu-tung/mua-phu-tung-xe-may-online/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-mua-xe/mua-xe-may-cu-qua-mang-nhan-dien-tin-dang-dang-ngo-khong-chuyen-coc-truoc-va-hen-xem-xe-an-toan/index.html",
   "kind": "article"
  },
  {
@@ -4825,6 +4833,10 @@
  },
  {
   "rel": "learn/kien-thuc-xe-dien/xe-may-dien-khong-len-nguon-kiem-tra-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-dien-len-doc-va-xuong-doc-dai-vi-sao-yeu-pin-tut-nhanh-va-cach-di-an-toan/index.html",
   "kind": "article"
  },
  {
