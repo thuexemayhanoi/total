@@ -1908,6 +1908,10 @@
   "kind": "article"
  },
  {
+  "rel": "hub/nhu-cau-su-dung/cho-con-di-xe-dap-dien-den-truong-kiem-tra-xe-mu-sac-pin-va-dan-do-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/cho-nguoi-dang-say-ruou-bia-ve-nha-bang-xe-may-khi-nao-khong-nen-cho-va-dau-hieu-can-goi-cap-cuu/index.html",
   "kind": "article"
  },
@@ -2777,6 +2781,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/kep-goi-vao-binh-xang-khi-lai-xe-con-tay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phanh/khi-nao-phai-thay-dia-phanh-xe-may-mon-mong-ranh-sau-cong-venh-va-nut/index.html",
   "kind": "article"
  },
  {
@@ -4661,6 +4669,10 @@
  },
  {
   "rel": "garage/lop/xe-may-dien-bi-thung-lop-xu-ly-va-thao-banh-co-dong-co/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-dien-co-tieng-keu-la-tu-banh-co-dong-co-hu-re-lach-cach-va-khi-nao-can-tho/index.html",
   "kind": "article"
  },
  {
