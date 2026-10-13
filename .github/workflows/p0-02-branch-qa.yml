@@ -1,0 +1,89 @@
+name: P0-02 Manifest Branch QA (no production deploy)
+on:
+  push:
+    branches: [fix/p0-02-manifest-completeness-20261013]
+    paths:
+      - 'factory/lib/content-index.js'
+      - 'factory/factory.js'
+      - 'factory/test-content-index-completeness.js'
+      - 'factory/test-reliability.js'
+      - '.github/workflows/factory-publish.yml'
+      - '.github/workflows/p0-02-branch-qa.yml'
+permissions:
+  contents: write
+concurrency:
+  group: p0-02-branch-only
+  cancel-in-progress: false
+jobs:
+  isolated-qa:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Strict pre-repair regression test
+        shell: bash
+        run: |
+          set -euo pipefail
+          if node factory/factory.js index-check > /tmp/p002-before.log 2>&1; then
+            echo 'REGRESSION: partial manifest incorrectly passed'
+            exit 1
+          fi
+          grep -q MANIFEST_INCOMPLETE /tmp/p002-before.log
+          echo EXPECTED_INCOMPLETE_MANIFEST_BLOCKED
+      - name: Four-layer focused completeness tests
+        run: node factory/test-content-index-completeness.js
+      - name: Repair candidate JSONL and derived index locally
+        shell: bash
+        run: |
+          set -euo pipefail
+          node factory/factory.js index-rebuild --role coordinator
+          node factory/factory.js index-check
+          node - <<'NODE'
+          const fs = require('fs');
+          const slots = JSON.parse(fs.readFileSync('factory/state/matrix.json','utf8')).slots;
+          const n = slots.filter(x => x.state === 'PUBLISHED').length;
+          const rows = fs.readFileSync('factory/state/article-manifest.jsonl','utf8').trim().split('\n');
+          if (rows.length < n) throw Error('P0_02_INCOMPLETE ' + rows.length + ' of ' + n);
+          console.log('CANDIDATE_COMPLETE published=' + n + ' rows=' + rows.length);
+          NODE
+          id=$(node -e "const m=require('./factory/state/matrix.json');console.log(m.slots.filter(s=>s.state==='PUBLISHED').slice(-1)[0].id)")
+          node factory/factory.js index-refresh "$id" --role coordinator
+          node factory/factory.js index-check
+      - name: Full engine and production invariants QA
+        shell: bash
+        run: |
+          set -euo pipefail
+          node factory/generate.js --check
+          node factory/test.js
+          node factory/factory.js audit --min-score 70
+          node factory/test-hardening.js
+          node factory/test-reliability.js
+          node factory/test-pair.js
+          node factory/test-cycle.js
+          node factory/test-coordinator.js
+          node factory/test-topic-v2.js
+          node factory/factory.js topic-check --recheck
+          node factory/factory.js verify-invariant
+          node factory/link-integrity.js --all
+      - name: Commit candidate JSONL only to isolated QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = "refs/heads/fix/p0-02-manifest-completeness-20261013"
+          git diff --name-only | grep -v '^factory/state/article-manifest.jsonl$' > /tmp/p002-other || true
+          if test -s /tmp/p002-other; then cat /tmp/p002-other; echo P0_02_UNRELATED_CHANGE; exit 1; fi
+          git add -- factory/state/article-manifest.jsonl
+          git diff --cached --name-only | grep -v '^factory/state/article-manifest.jsonl$' > /tmp/p002-other2 || true
+          if test -s /tmp/p002-other2; then exit 1; fi
+          if git diff --cached --quiet; then echo P0_02_MANIFEST_UP_TO_DATE; exit 0; fi
+          git config user.name total-p0-02-audit-bot
+          git config user.email nguyentuantu2482@users.noreply.github.com
+          git commit -m 'test(p0-02): stage full manifest candidate on isolated branch [no deploy]'
+          git push origin HEAD:refs/heads/fix/p0-02-manifest-completeness-20261013
+          echo P0_02_CANDIDATE_BRANCH_ONLY

@@ -694,6 +694,9 @@ console.log('LAYER 4 — LONG-RUN / FAILURE RECOVERY…');
   ok(pub.includes('Refresh fresh main'), 'factory-publish.yml: refresh fresh origin/main trước mutation');
   ok(pub.includes('recover-txn'), 'factory-publish.yml: recover txn marker sau crash');
   ok(pub.includes('check-state'), 'factory-publish.yml: guard state sạch');
+  ok(pub.includes('index-refresh') && pub.includes('index-check') &&
+    pub.indexOf('index-refresh') < pub.indexOf('Commit batch outputs + state once'),
+    'factory-publish.yml: manifest+index guard runs before final atomic commit');
   ok(!pub.includes('publish-plan --scope') && !pub.includes('publish-pair'), 'factory-publish.yml: KHÔNG pair-split trong hot path');
   ok(!pub.includes('node factory/generate.js --check'), 'factory-publish.yml: KHÔNG full-site byte check trong hot path');
   ok(pub.includes('tối đa 10') || pub.includes('-gt 10'), 'factory-publish.yml: batch cap tối đa 10');
