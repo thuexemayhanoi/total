@@ -18693,11 +18693,13 @@
    "title": "Dán keo trong chống xước (PPF) cho xe máy: bảo vệ được gì, rủi ro khi dán và khi gỡ",
    "primaryIntent": "informational/dan-keo-trong-ppf-chong-xuoc-cho-xe-may",
    "notes": "source=topic-v2 topicId=T001377",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.737Z",
-   "updatedAt": "2026-10-13T01:59:37.737Z"
+   "updatedAt": "2026-10-13T02:26:50.257Z",
+   "seoScore": 100,
+   "words": 3011
   },
   {
    "id": "S01291",
@@ -18706,11 +18708,13 @@
    "title": "Khung bảo vệ, ốp inox và nấm chống đổ cho xe máy: đỡ được gì khi xe đổ và lưu ý khi lắp thêm",
    "primaryIntent": "informational/khung-bao-ve-op-inox-va-nam-chong-do-cho-xe-may",
    "notes": "source=topic-v2 topicId=T001378",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.756Z",
-   "updatedAt": "2026-10-13T01:59:37.756Z"
+   "updatedAt": "2026-10-13T02:26:50.257Z",
+   "seoScore": 100,
+   "words": 3005
   },
   {
    "id": "S01292",
@@ -18719,11 +18723,13 @@
    "title": "Keo tự vá đổ sẵn trong lốp xe máy: hoạt động thế nào, hợp với vết thủng nào và điều nên biết trước khi dùng",
    "primaryIntent": "informational/keo-tu-va-do-san-trong-lop-xe-may",
    "notes": "source=topic-v2 topicId=T001379",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.773Z",
-   "updatedAt": "2026-10-13T01:59:37.773Z"
+   "updatedAt": "2026-10-13T02:26:50.257Z",
+   "seoScore": 100,
+   "words": 3001
   },
   {
    "id": "S01293",
@@ -18732,11 +18738,13 @@
    "title": "Thổi gioăng mặt máy xe máy: dấu hiệu nhận biết, vì sao xảy ra và có nên đi tiếp không",
    "primaryIntent": "troubleshooting/thoi-gioang-mat-may-xe-may-dau-hieu-va-co-nen-di-tiep",
    "notes": "source=topic-v2 topicId=T001380",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.790Z",
-   "updatedAt": "2026-10-13T01:59:37.790Z"
+   "updatedAt": "2026-10-13T02:26:50.257Z",
+   "seoScore": 100,
+   "words": 2888
   },
   {
    "id": "S01294",
@@ -18745,11 +18753,13 @@
    "title": "Đồng hồ điện tử xe máy tắt, chập chờn, mất cài đặt hoặc đen màn hình dưới nắng: nguyên nhân thường gặp",
    "primaryIntent": "troubleshooting/dong-ho-dien-tu-xe-may-tat-chap-chon-hoac-den-man-hinh",
    "notes": "source=topic-v2 topicId=T001381",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.807Z",
-   "updatedAt": "2026-10-13T01:59:37.807Z"
+   "updatedAt": "2026-10-13T02:26:50.257Z",
+   "seoScore": 100,
+   "words": 2900
   },
   {
    "id": "S01295",
@@ -18758,11 +18768,13 @@
    "title": "Phụ gia pha vào xăng xe máy: các loại thường gặp, tác dụng có thể có và khi nào không cần dùng",
    "primaryIntent": "informational/phu-gia-pha-vao-xang-xe-may-co-can-khong",
    "notes": "source=topic-v2 topicId=T001384",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T01:59:37.826Z",
-   "updatedAt": "2026-10-13T01:59:37.826Z"
+   "updatedAt": "2026-10-13T02:26:50.257Z",
+   "seoScore": 100,
+   "words": 3062
   },
   {
    "id": "S01296",

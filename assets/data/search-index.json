@@ -14748,6 +14748,38 @@
  },
  {
   "kind": "article",
+  "url": "learn/cham-soc-xe/dan-keo-trong-ppf-chong-xuoc-cho-xe-may/",
+  "title": "Dán keo trong chống xước (PPF) cho xe máy: bảo vệ được gì, rủi ro khi dán và khi gỡ",
+  "description": "Phim PPF dán keo trong cho xe máy đỡ được vết cào nhẹ, đá văng nhưng không chống va đập mạnh. Rủi ro khi dán, câu nên hỏi trước, cách chăm sóc và lưu ý khi gỡ.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chăm sóc xe",
+  "entities": [
+   "phim bảo vệ sơn",
+   "lớp keo dán",
+   "lớp phủ bề mặt của phim",
+   "lớp sơn bóng",
+   "mép phim và bọt khí",
+   "sơn dặm và sơn lại"
+  ],
+  "keywords": [
+   "dán ppf xe máy",
+   "có nên dán keo xe máy",
+   "dán chống xước xe máy",
+   "dán keo trong bảo vệ sơn xe máy"
+  ],
+  "seoTitle": "Có nên dán PPF xe máy? Bảo vệ được gì, rủi ro khi dán và khi gỡ",
+  "primaryKeyword": "dán ppf xe máy",
+  "headings": [
+   "Phim bảo vệ sơn là gì: lớp nhựa dẻo trong suốt có keo nằm trên lớp sơn",
+   "Phim bảo vệ được gì và không bảo vệ được gì",
+   "Rủi ro đến từ vật liệu và tay nghề",
+   "Chọn nơi dán và những câu nên hỏi trước khi dán",
+   "Chăm sóc sau khi dán và khi cần gỡ phim"
+  ],
+  "summary": "Bài giải thích phim bảo vệ sơn, thường gọi là dán keo trong hay dán chống xước, từ cấu tạo đến giới hạn thật của nó. Nội dung nêu phim đỡ được vết cào nhẹ, đá văng và va quẹt nhẹ, những việc phim không làm được, các rủi ro do vật liệu và tay nghề như bọt khí, "
+ },
+ {
+  "kind": "article",
   "url": "map/diem-dang-ky-xe/dang-ky-xe-o-dau/",
   "title": "Đăng ký xe ở đâu — những điều cần biết",
   "description": "Những điều cần biết khi tìm nơi đăng ký xe: xác định cơ quan có thẩm quyền, tra cứu qua cổng chính thức, chuẩn bị giấy tờ, đặt lịch, tránh môi giới không rõ ràng và kiểm tra kết quả sau khi làm.",
@@ -16356,6 +16388,39 @@
    "Thói quen lái giữ động cơ bền"
   ],
   "summary": "Động cơ là cụm đắt nhất trên chiếc xe máy, cũng là cụm phụ thuộc nhiều nhất vào thói quen sử dụng. Cùng một mẫu xe, có chiếc chạy một trăm nghìn cây số vẫn êm, có chiếc ba vạn cây số đã vào đại tu — khác biệt nằm ở nhớt, xăng, cách ga và cách chăm sóc. Bài viế"
+ },
+ {
+  "kind": "article",
+  "url": "garage/dien-ac-quy/dong-ho-dien-tu-xe-may-tat-chap-chon-hoac-den-man-hinh/",
+  "title": "Đồng hồ điện tử xe máy tắt, chập chờn, mất cài đặt hoặc đen màn hình dưới nắng: nguyên nhân thường gặp",
+  "description": "Đồng hồ điện tử xe máy tắt, chập chờn, mất giờ hay đen màn hình dưới nắng? Phân biệt lỗi nguồn điện với hỏng màn hình, cách tự kiểm tra an toàn và lúc nhờ thợ.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "đồng hồ điện tử",
+   "ắc quy xe máy",
+   "cầu chì",
+   "giắc cắm",
+   "màn hình tinh thể lỏng",
+   "khóa điện"
+  ],
+  "keywords": [
+   "đồng hồ điện tử xe máy bị tắt",
+   "đồng hồ xe máy bị chập chờn",
+   "màn hình đồng hồ xe máy bị đen",
+   "đồng hồ xe máy mất giờ",
+   "đồng hồ xe máy tắt khi đề máy"
+  ],
+  "seoTitle": "Đồng hồ điện tử xe máy bị tắt, chập chờn: lỗi do nguồn hay màn hình?",
+  "primaryKeyword": "đồng hồ điện tử xe máy bị tắt",
+  "headings": [
+   "Đồng hồ điện tử lấy điện từ đâu và đi qua những chặng nào",
+   "Tắt, chập chờn và mất cài đặt: vì sao thường do nguồn điện",
+   "Màn hình sẫm đen khi nóng và dấu hiệu hỏng thật của màn hình",
+   "Những điều bạn tự kiểm tra được một cách an toàn",
+   "Điều không nên làm và lúc cần nhờ thợ"
+  ],
+  "summary": "Bài giải thích vì sao đồng hồ điện tử xe máy có thể tắt, chập chờn, mất giờ hoặc đen màn hình dưới nắng, và vì sao nhiều lỗi hiển thị thường đến từ nguồn điện chứ chưa chắc từ màn hình. Nội dung đi theo đường điện từ ắc quy qua khóa điện, cầu chì và giắc cắm, "
  },
  {
   "kind": "article",
@@ -19209,6 +19274,39 @@
  },
  {
   "kind": "article",
+  "url": "garage/lop/keo-tu-va-do-san-trong-lop-xe-may/",
+  "title": "Keo tự vá đổ sẵn trong lốp xe máy: hoạt động thế nào, hợp với vết thủng nào và điều nên biết trước khi dùng",
+  "description": "Keo tự vá lốp xe máy bịt vết đâm nhỏ ở mặt gai bằng sợi và hạt lơ lửng. Cơ chế, giới hạn, lốp có săm hay không săm và điều cần biết trước khi đổ keo.",
+  "category": "Sửa chữa",
+  "hub": "Lốp",
+  "entities": [
+   "keo tự vá lốp",
+   "lốp không săm",
+   "lốp có săm",
+   "van lốp",
+   "cân bằng bánh xe",
+   "bộ vá nấm"
+  ],
+  "keywords": [
+   "keo tự vá lốp xe máy",
+   "có nên đổ keo tự vá cho xe máy",
+   "keo chống thủng lốp xe máy",
+   "đổ keo vào lốp không săm",
+   "dung dịch tự vá lốp"
+  ],
+  "seoTitle": "Keo tự vá lốp xe máy: cách hoạt động, giới hạn và điều cần biết",
+  "primaryKeyword": "keo tự vá lốp xe máy",
+  "headings": [
+   "Keo tự vá làm việc thế nào bên trong lốp",
+   "Hợp với vết thủng nào và không cứu được vết nào",
+   "Lốp có săm và lốp không săm: dùng keo khác nhau ra sao",
+   "Những điều cần biết trước khi đổ keo vào lốp",
+   "Sau khi keo bịt được lỗ vẫn phải kiểm tra và vá đúng cách"
+  ],
+  "summary": "Keo tự vá đổ sẵn trong lốp xe máy là dung dịch chứa sợi và hạt lơ lửng, được hơi trong lốp đẩy ra lỗ để bịt vết đâm nhỏ ở mặt gai. Bài phân biệt vết thủng keo xử lý được với vết rách hông và lỗ lớn, so sánh lốp có săm với lốp không săm, rồi nêu những điều cần "
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/kep-dien-thoai-tren-xe-may-chon-kieu-va-gan-an-toan/",
   "title": "Kẹp điện thoại trên xe máy: chọn kiểu kẹp, vị trí gắn và bảo vệ máy khỏi rung, nắng, mưa",
   "description": "Kẹp điện thoại xe máy nên chọn kiểu nào? So sánh kẹp ống tay lái, chân gương, cổ lái; cách gắn không vướng lái, giảm rung cho camera, tránh nắng mưa.",
@@ -19300,6 +19398,38 @@
    "Chuẩn bị xe và bản thân trước khi vào khu đông xe"
   ],
   "summary": "Bài viết dành cho người mới đi xe máy trong khu vực đông phương tiện: hiểu cách dòng xe vận hành, giữ khoảng cách và làn đi ổn định, xử lý nút giao đông, tắc đường và giờ cao điểm, cũng như quản lý căng thẳng để đưa ra quyết định chậm rãi, an toàn."
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-mua-xe/khung-bao-ve-op-inox-va-nam-chong-do-cho-xe-may/",
+  "title": "Khung bảo vệ, ốp inox và nấm chống đổ cho xe máy: đỡ được gì khi xe đổ và lưu ý khi lắp thêm",
+  "description": "Khung bảo vệ, nấm chống đổ và ốp inox giúp dàn áo ít trầy khi xe đổ nhẹ, nhưng lắp sai có thể làm cong khung hay nứt vỏ máy. Cách chọn, kiểm tra và dùng đúng.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "khung bảo vệ",
+   "nấm chống đổ",
+   "ốp đầu tay lái",
+   "điểm bắt chịu lực",
+   "vỏ máy",
+   "dàn áo"
+  ],
+  "keywords": [
+   "khung bảo vệ xe máy",
+   "nấm chống đổ xe máy",
+   "ốp inox xe máy có nên lắp",
+   "khung chống đổ xe máy"
+  ],
+  "seoTitle": "Khung bảo vệ xe máy, nấm chống đổ, ốp inox: đỡ được gì, lắp thế nào",
+  "primaryKeyword": "khung bảo vệ xe máy",
+  "headings": [
+   "Các nhóm phụ kiện bảo vệ thường gặp trên xe máy",
+   "Phụ kiện đỡ được gì và đỡ thế nào khi xe đổ",
+   "Giới hạn của phụ kiện và rủi ro khi lắp sai",
+   "Những điều cần kiểm khi lắp phụ kiện bảo vệ",
+   "Chọn đúng dòng xe và kiểm tra lại sau mỗi lần xe đổ"
+  ],
+  "summary": "Bài giải thích các nhóm phụ kiện bảo vệ gắn thêm cho xe máy gồm khung ôm thân hoặc quanh máy, ốp che từng chi tiết như ốp inox, nấm chống đổ và ốp đầu tay lái. Nội dung nêu cách chúng làm điểm chạm đất trước dàn áo khi xe đổ lúc đứng yên hoặc trượt chậm, giới "
  },
  {
   "kind": "article",
@@ -22124,6 +22254,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-tiet-kiem-xang/phu-gia-pha-vao-xang-xe-may-co-can-khong/",
+  "title": "Phụ gia pha vào xăng xe máy: các loại thường gặp, tác dụng có thể có và khi nào không cần dùng",
+  "description": "Phụ gia pha vào xăng xe máy gồm chất làm sạch, chất ổn định và chất chống ẩm. Tác dụng có thể có, lời quảng cáo cần dè chừng, cách đọc nhãn và dùng đúng liều.",
+  "category": "Mẹo",
+  "hub": "Mẹo tiết kiệm xăng",
+  "entities": [
+   "phụ gia xăng",
+   "chất làm sạch kim phun",
+   "chất ổn định xăng",
+   "chất chống ẩm trong xăng",
+   "cặn nhựa trong hệ nhiên liệu",
+   "liều dùng trên nhãn"
+  ],
+  "keywords": [
+   "phụ gia xăng xe máy",
+   "có nên dùng phụ gia xăng xe máy",
+   "dung dịch vệ sinh kim phun pha xăng",
+   "chất làm sạch pha vào bình xăng"
+  ],
+  "seoTitle": "Phụ gia xăng xe máy: các loại, tác dụng và khi nào không cần dùng",
+  "primaryKeyword": "phụ gia xăng xe máy",
+  "headings": [
+   "Phụ gia pha vào xăng gồm những loại nào",
+   "Các nhóm phụ gia làm việc thế nào ở mức nguyên lý",
+   "Khi nào phụ gia có thể có ích",
+   "Lời quảng cáo cần dè chừng và rủi ro khi dùng sai",
+   "Đọc nhãn, dùng đúng liều và điều quan trọng hơn chai phụ gia"
+  ],
+  "summary": "Bài giải thích các nhóm phụ gia thường bán để pha vào xăng xe máy: chất làm sạch đường xăng và kim phun, chất ổn định cho xe sắp cất lâu, chất chống ẩm. Mỗi nhóm được nói ở mức nguyên lý, kèm lý do lợi ích dễ thấy nhất ở xe đã bám cặn hoặc sắp nằm lâu chứ khôn"
+ },
+ {
+  "kind": "article",
   "url": "review/review-phu-tung/phu-kien-gan-them-xe-may-luu-y/",
   "title": "Phụ kiện gắn thêm cho xe máy: điều cần kiểm tra về điện, tải trọng và độ ổn định trước khi lắp",
   "description": "Gắn thêm giá đỡ, đèn, khóa hay thiết bị điện cho xe máy cần xem nguồn điện, cầu chì riêng, tải trên tay lái và giá, đường dây chống nước, ghi chép để tháo khi bán.",
@@ -24039,6 +24201,38 @@
    "Thời điểm của chính bạn: quy luật cuối cùng quyết định mọi quy luật trên"
   ],
   "summary": "Thời điểm mua xe — những điều cần biết — giá của một chiếc xe máy không chỉ nằm trong bảng niêm yết mà còn nằm trong ngày tháng người mua chọn mở ví: cùng một chiếc xe, cùng một cửa hàng, giá chốt có thể khác nhau đáng kể giữa tuần trước Tết và những tuần vắng"
+ },
+ {
+  "kind": "article",
+  "url": "garage/dong-co/thoi-gioang-mat-may-xe-may-dau-hieu-va-co-nen-di-tiep/",
+  "title": "Thổi gioăng mặt máy xe máy: dấu hiệu nhận biết, vì sao xảy ra và có nên đi tiếp không",
+  "description": "Thổi gioăng mặt máy xe máy là gì, có dấu hiệu nào, vì sao xảy ra, có nên đi tiếp không và thợ thường kiểm tra những gì: đo nén, độ phẳng mặt máy, thử rò.",
+  "category": "Sửa chữa",
+  "hub": "Động cơ",
+  "entities": [
+   "gioăng mặt máy",
+   "đầu máy",
+   "thân xy-lanh",
+   "buồng đốt",
+   "nước làm mát",
+   "độ nén động cơ"
+  ],
+  "keywords": [
+   "thổi gioăng mặt máy xe máy",
+   "dấu hiệu thổi gioăng mặt máy",
+   "xe bị thổi gioăng có đi được không",
+   "gioăng mặt máy xe máy là gì"
+  ],
+  "seoTitle": "Thổi gioăng mặt máy xe máy: dấu hiệu và có nên đi tiếp không",
+  "primaryKeyword": "thổi gioăng mặt máy xe máy",
+  "headings": [
+   "Gioăng mặt máy xe máy là gì, nằm ở đâu và làm nhiệm vụ gì",
+   "Thổi gioăng mặt máy thực chất là chuyện gì",
+   "Dấu hiệu thổi gioăng mặt máy theo từng hướng bị hở",
+   "Vì sao gioăng mặt máy bị thổi",
+   "Xe bị thổi gioăng có đi được không và thợ sẽ kiểm tra gì"
+  ],
+  "summary": "Bài giải thích gioăng mặt máy là tấm đệm kẹp giữa đầu máy và thân xy-lanh, giữ kín buồng đốt và, ở xe làm mát bằng dung dịch, ngăn nước với nhớt lẫn vào nhau. Nội dung nêu thổi gioăng là gì, các dấu hiệu theo từng hướng hở như máy yếu, tiếng xì, nước hao không"
  },
  {
   "kind": "article",
