@@ -22578,11 +22578,13 @@
    "title": "Xe máy cạ gầm, quẹt chân chống hay gác chân xuống đường khi vào cua, qua gờ: vì sao xảy ra và cách tránh",
    "primaryIntent": "troubleshooting/xe-may-ca-gam-quet-chan-chong-hay-gac-chan-xuong-duong-khi-vao-cua-qua-go-vi-sao-xay-ra-va-cach-tranh",
    "notes": "source=topic-v2 topicId=T001685",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:01:34.011Z",
-   "updatedAt": "2026-10-13T22:01:34.011Z"
+   "updatedAt": "2026-10-13T22:07:42.408Z",
+   "seoScore": 91,
+   "words": 2885
   },
   {
    "id": "S01550",
@@ -22591,11 +22593,13 @@
    "title": "Cho trẻ đứng ở sàn để chân xe tay ga khi chở: vì sao nguy hiểm hơn ngồi và cách chở bé an toàn hơn",
    "primaryIntent": "informational/cho-tre-dung-o-san-de-chan-xe-tay-ga-khi-cho-vi-sao-nguy-hiem-hon-ngoi-va-cach-cho-be-an-toan-hon",
    "notes": "source=topic-v2 topicId=T001686",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:01:34.063Z",
-   "updatedAt": "2026-10-13T22:01:34.063Z"
+   "updatedAt": "2026-10-13T22:07:42.408Z",
+   "seoScore": 100,
+   "words": 2997
   },
   {
    "id": "S01551",
@@ -22604,11 +22608,13 @@
    "title": "Xe máy bốc mùi hôi thối hay mùi khai khi đỗ: chuột chết trong hốc xe, chó mèo tè vào bánh và cách tìm nguồn mùi",
    "primaryIntent": "troubleshooting/xe-may-boc-mui-hoi-thoi-hay-mui-khai-khi-do-chuot-chet-trong-hoc-xe-cho-meo-te-vao-banh-va-cach-tim-nguon-mui",
    "notes": "source=topic-v2 topicId=T001687",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:01:34.098Z",
-   "updatedAt": "2026-10-13T22:01:34.098Z"
+   "updatedAt": "2026-10-13T22:07:42.408Z",
+   "seoScore": 100,
+   "words": 3112
   },
   {
    "id": "S01552",
@@ -22617,11 +22623,13 @@
    "title": "Chìa khóa thông minh nằm trong túi người ngồi sau hoặc rơi khi đang chạy: xe còn chạy được không và cách phòng",
    "primaryIntent": "troubleshooting/chia-khoa-thong-minh-nam-trong-tui-nguoi-ngoi-sau-hoac-roi-khi-dang-chay-xe-con-chay-duoc-khong-va-cach-phong",
    "notes": "source=topic-v2 topicId=T001688",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:01:34.131Z",
-   "updatedAt": "2026-10-13T22:01:34.131Z"
+   "updatedAt": "2026-10-13T22:07:42.408Z",
+   "seoScore": 91,
+   "words": 2934
   },
   {
    "id": "S01553",
@@ -22630,11 +22638,13 @@
    "title": "Đầu ngõ có cột chắn ô tô hay lối hẹp giữa hai trụ: đi xe máy qua thế nào cho khỏi quệt gương, tay lái và đầu gối",
    "primaryIntent": "informational/dau-ngo-co-cot-chan-o-to-hay-loi-hep-giua-hai-tru-di-xe-may-qua-the-nao-cho-khoi-quet-guong-tay-lai-va-dau-goi",
    "notes": "source=topic-v2 topicId=T001689",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T22:01:34.164Z",
-   "updatedAt": "2026-10-13T22:01:34.164Z"
+   "updatedAt": "2026-10-13T22:07:42.408Z",
+   "seoScore": 100,
+   "words": 3092
   }
  ]
 }
