@@ -23298,11 +23298,13 @@
    "title": "Xe máy sắp đổ khi đang dừng hoặc dắt: nên đỡ hay buông, đứng phía nào và làm sao để chân không bị kẹt dưới xe",
    "primaryIntent": "informational/xe-may-sap-do-khi-dang-dung-hoac-dat-nen-do-hay-buong-dung-phia-nao-va-lam-sao-de-chan-khong-bi-ket-duoi-xe",
    "notes": "source=topic-v2 topicId=T001733",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:34:07.806Z",
-   "updatedAt": "2026-10-14T01:34:07.806Z"
+   "updatedAt": "2026-10-14T01:39:16.683Z",
+   "seoScore": 91,
+   "words": 2968
   },
   {
    "id": "S01598",
@@ -23311,11 +23313,13 @@
    "title": "Đổi sang xe máy nặng hơn, cao hơn hoặc mạnh hơn xe cũ: những thói quen cần chỉnh lại khi dắt, dừng, quay đầu và vặn ga",
    "primaryIntent": "informational/doi-sang-xe-may-nang-hon-cao-hon-hoac-manh-hon-xe-cu-nhung-thoi-quen-can-chinh-lai-khi-dat-dung-quay-dau-va-van-ga",
    "notes": "source=topic-v2 topicId=T001734",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:34:07.845Z",
-   "updatedAt": "2026-10-14T01:34:07.845Z"
+   "updatedAt": "2026-10-14T01:39:16.683Z",
+   "seoScore": 91,
+   "words": 3001
   },
   {
    "id": "S01599",
@@ -23324,11 +23328,13 @@
    "title": "Bị đèn pha xe ngược chiều làm lóa khi đi xe máy ban đêm: nhìn đâu, giảm tốc thế nào và vì sao vẫn nhìn mờ sau đó",
    "primaryIntent": "informational/bi-den-pha-xe-nguoc-chieu-lam-loa-khi-di-xe-may-ban-dem-nhin-dau-giam-toc-the-nao-va-vi-sao-van-nhin-mo-sau-do",
    "notes": "source=topic-v2 topicId=T001735",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:34:07.879Z",
-   "updatedAt": "2026-10-14T01:34:07.879Z"
+   "updatedAt": "2026-10-14T01:39:16.683Z",
+   "seoScore": 100,
+   "words": 3062
   }
  ]
 }
