@@ -23613,11 +23613,13 @@
    "title": "Dắt xe máy khi lốp đã xẹp: bánh trước hay bánh sau xẹp, giữ vành và lốp thế nào và nên dắt đến đâu",
    "primaryIntent": "troubleshooting/dat-xe-may-khi-lop-da-xep-banh-truoc-hay-banh-sau-xep-giu-vanh-va-lop-the-nao-va-nen-dat-den-dau",
    "notes": "source=topic-v2 topicId=T001754",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:27.858Z",
-   "updatedAt": "2026-10-14T03:33:27.859Z"
+   "updatedAt": "2026-10-14T03:48:50.066Z",
+   "seoScore": 91,
+   "words": 3073
   },
   {
    "id": "S01619",
@@ -23626,11 +23628,13 @@
    "title": "Xoay đầu xe máy tại chỗ bằng tay trong ngõ cụt, hành lang hẹp hay giữa hai xe đỗ: xoay thế nào cho khỏi đổ và quệt",
    "primaryIntent": "informational/xoay-dau-xe-may-tai-cho-bang-tay-trong-ngo-cut-hanh-lang-hep-hay-giua-hai-xe-do-xoay-the-nao-cho-khoi-do-va-quet",
    "notes": "source=topic-v2 topicId=T001755",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:27.908Z",
-   "updatedAt": "2026-10-14T03:33:27.908Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 100,
+   "words": 2760
   },
   {
    "id": "S01620",
@@ -23639,11 +23643,13 @@
    "title": "Lên và xuống xe máy cho đúng: bước chân qua yên thế nào, giữ phanh ra sao để xe không đổ lúc bước lên bước xuống",
    "primaryIntent": "informational/len-va-xuong-xe-may-cho-dung-buoc-chan-qua-yen-the-nao-giu-phanh-ra-sao-de-xe-khong-do-luc-buoc-len-buoc-xuong",
    "notes": "source=topic-v2 topicId=T001756",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:27.957Z",
-   "updatedAt": "2026-10-14T03:33:27.957Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 100,
+   "words": 2985
   },
   {
    "id": "S01621",
@@ -23652,11 +23658,13 @@
    "title": "Lỡ làm rơi chìa khóa thông minh xuống nước hoặc để quên trong quần áo đem giặt: nên làm gì ngay và khi nào gọi thợ",
    "primaryIntent": "troubleshooting/lo-lam-roi-chia-khoa-thong-minh-xuong-nuoc-hoac-de-quen-trong-quan-ao-dem-giat-nen-lam-gi-ngay-va-khi-nao-goi-tho",
    "notes": "source=topic-v2 topicId=T001757",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:28.001Z",
-   "updatedAt": "2026-10-14T03:33:28.001Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 91,
+   "words": 2979
   },
   {
    "id": "S01622",
@@ -23665,11 +23673,13 @@
    "title": "Lỡ bấm nút đề hoặc đạp cần khởi động khi máy đang nổ: tiếng kêu gì, có hỏng bộ đề không và lúc nào nên nhờ thợ",
    "primaryIntent": "troubleshooting/lo-bam-nut-de-hoac-dap-can-khoi-dong-khi-may-dang-no-tieng-keu-gi-co-hong-bo-de-khong-va-luc-nao-nen-nho-tho",
    "notes": "source=topic-v2 topicId=T001758",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:28.049Z",
-   "updatedAt": "2026-10-14T03:33:28.049Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 100,
+   "words": 3044
   },
   {
    "id": "S01623",
@@ -23678,11 +23688,13 @@
    "title": "Lỡ làm đổ cà phê, nước ngọt hay trà sữa lên yên, công tắc và ổ khóa xe máy: lau thế nào và khi nào phải nhờ thợ",
    "primaryIntent": "troubleshooting/lo-lam-do-ca-phe-nuoc-ngot-hay-tra-sua-len-yen-cong-tac-va-o-khoa-xe-may-lau-the-nao-va-khi-nao-phai-nho-tho",
    "notes": "source=topic-v2 topicId=T001759",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:28.099Z",
-   "updatedAt": "2026-10-14T03:33:28.100Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 100,
+   "words": 2878
   },
   {
    "id": "S01624",
@@ -23691,11 +23703,13 @@
    "title": "Lỡ chạy xe máy khi quên lắp lọc gió hoặc tháo bỏ cho máy bốc hơn: bụi vào máy ra sao và nên làm gì",
    "primaryIntent": "troubleshooting/lo-chay-xe-may-khi-quen-lap-loc-gio-hoac-thao-bo-cho-may-boc-hon-bui-vao-may-ra-sao-va-nen-lam-gi",
    "notes": "source=topic-v2 topicId=T001760",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:28.158Z",
-   "updatedAt": "2026-10-14T03:33:28.158Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 100,
+   "words": 3039
   },
   {
    "id": "S01625",
@@ -23704,11 +23718,13 @@
    "title": "Lỡ đề máy khi xe số còn gài số hoặc quên bóp côn: xe nhích hay lao tới, có hại gì và cách khởi động đúng",
    "primaryIntent": "troubleshooting/lo-de-may-khi-xe-so-con-gai-so-hoac-quen-bop-con-xe-nhich-hay-lao-toi-co-hai-gi-va-cach-khoi-dong-dung",
    "notes": "source=topic-v2 topicId=T001761",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:28.207Z",
-   "updatedAt": "2026-10-14T03:33:28.207Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 83,
+   "words": 2951
   },
   {
    "id": "S01626",
@@ -23717,11 +23733,13 @@
    "title": "Lỡ dùng nhầm bộ sạc của xe điện khác hoặc bộ sạc không đi kèm xe: đã sạc một lần thì kiểm tra gì và nên làm gì",
    "primaryIntent": "troubleshooting/lo-dung-nham-bo-sac-cua-xe-dien-khac-hoac-bo-sac-khong-di-kem-xe-da-sac-mot-lan-thi-kiem-tra-gi-va-nen-lam-gi",
    "notes": "source=topic-v2 topicId=T001762",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:33:28.244Z",
-   "updatedAt": "2026-10-14T03:33:28.244Z"
+   "updatedAt": "2026-10-14T03:48:50.067Z",
+   "seoScore": 91,
+   "words": 3012
   }
  ]
 }
