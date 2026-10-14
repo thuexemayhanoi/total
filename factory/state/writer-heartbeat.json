@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-14T04:30:58.645Z",
+ "at": "2026-10-14T04:34:55.058Z",
  "phase": "waiting-publish",
- "pair": "S01637,S01638,S01639,S01640,S01641,S01642,S01643,S01644,S01645",
- "note": null
+ "pair": "S01646,S01647,S01648,S01649,S01650,S01651,S01652,S01653,S01654,S01655",
+ "note": "Batch v119 (đăng ký lại T001796-T001817 do trùng ID với Claude round song song): chờ git-side ghép shard v120 rồi push articles"
 }
