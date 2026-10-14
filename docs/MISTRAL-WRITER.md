@@ -1,5 +1,8 @@
 # Mistral Writer Runbook — Factory Lite 20k
 
+> **Chế độ 3 Writer mới:** tài liệu này mô tả luồng Writer Mistral cũ. Hướng dẫn canonical cho W1/W2/W3 xem [THREE-EXTERNAL-WRITERS.md](THREE-EXTERNAL-WRITERS.md). Bắt buộc chọn `--writer W1|W2|W3` và `writer-verify --writer Wn`; không dùng lệnh không chọn Writer để chia toàn queue.
+
+
 Mục tiêu: Mistral không tự đọc toàn matrix, không tự đoán internal link, không tự nghĩ workflow.
 
 ## Một vòng production

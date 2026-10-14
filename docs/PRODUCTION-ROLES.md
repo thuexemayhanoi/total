@@ -1,81 +1,21 @@
-# Production roles — FACTORY LITE BATCH
+# AI WIKI TOTAL — 3 external AI Writers + 1 GitHub publisher
 
-`/total` dùng mô hình Writer ngoài + GitHub publisher, tối ưu cho quy mô lớn (capacity hiện tại 20.000).
+**Source of truth:** `AGENTS.md`, Topic Factory V2, `factory/state/matrix.json` và `docs/THREE-EXTERNAL-WRITERS.md`.
 
-## Hot loop
+| Thành phần | Trách nhiệm |
+|---|---|
+| Writer W1 | Nhận ID chia dư 0, viết bài qua AI bên ngoài |
+| Writer W2 (Đốc công 2 cũ) | Nhận ID chia dư 1, viết độc lập |
+| Writer W3 (Đốc công 3 cũ) | Nhận ID chia dư 2, viết độc lập |
+| GitHub Factory Publish Lite | Publisher duy nhất: kiểm tra QA ≥70, SEO, link, cập nhật manifest và sinh HTML |
+| GitHub Coordinator | Chỉ maintenance / check-state, không gọi AI |
 
-Writer:
+Mỗi phiên dùng worktree riêng và `node factory/factory.js writer-pack --writer Wn --count 10`, sau đó `writer-verify --writer Wn`. Mọi file bài được ghi vào đường dẫn đúng theo slot, có `writerOwner: 'Wn'`.
 
-1. fetch fresh `main`;
-2. `node factory/factory.js writer-next --count 10`;
-3. viết 1–10 article modules thật trong `factory/data/articles/`;
-4. `node factory/factory.js verify-batch ID1,ID2,...`;
-5. push batch;
-6. **không cần chờ để viết tiếp trong tư duy/session**; sau khi batch trước được publisher xử lý, fetch fresh main và lấy batch kế.
+Publisher nhận event push article, cập nhật `main`, chọn bài đã nộp và qua QA, publish serial tối đa 3×10 trong một run. `total-production` giữ lock độc quyền giữa Publisher và Coordinator. Fail-closed khi có lỗi nguồn/hub/QA; bài Writer khác hợp lệ không bị mất. Chỉ Publisher được chỉnh matrix/state/sitemap; Writer không đụng shared state hoặc URL/SEO.
 
-Publisher `.github/workflows/factory-publish.yml`:
+Không API AI, không mã nguồn mở LLM, không tự sinh bài bằng workflow. Giữ Topic V2 approval, nguyên tắc noindex, canonical, QA hiện có. Watchdog hiển thị heartbeat từng Writer. Nếu Writer mất kết nối: không chiếm shard tự động.
 
-exact push scope → fresh main → recover/check-state → verify-batch → **publish-batch 1–10 một lần** → scoped 404 link gate → commit/push một lần.
+**Khả năng mở rộng:** Ba Writer xử lý độc lập nhưng tốc độ website vẫn do một publisher kiểm soát. Chưa bao giờ cam kết không có lỗi hạ tầng; lệnh có fail-closed, retry và rollback.
 
-Không còn chia queue 10 bài thành 5 pair trong hot path. `publish-pair` vẫn giữ lại làm recovery/repair compatibility.
-
-## QA hot path
-
-Mỗi bài vẫn giữ minimal gate hiện có:
-
-- cấu trúc + **1.000–5.000 từ** (đồng bộ Writer Pack và QA);
-- không trùng ID/slug;
-- canonical đúng slot;
-- render sạch;
-- không bịa business facts;
-- related links hợp lệ;
-- QA >= 70; SEO advisory.
-
-Thêm **internal link integrity fail-closed** sau render. Mọi href nội bộ trên trang vừa sinh phải resolve tới file thật dưới project path `/total/`. Link nội bộ dẫn tới 404 hoặc thoát sai project base làm batch fail trước khi ghi PUBLISHED.
-
-Checker hot path chỉ quét 1–10 trang mới, nên không biến mỗi batch thành full-site scan. Deep audit có `link-integrity --all` để rà toàn site khi chủ động chạy.
-
-## Heavy work tách khỏi hot loop
-
-`article-quality.yml` chỉ chạy khi engine/template/workflow/test thay đổi. Article content push không chạy thêm một pipeline QA trùng lặp.
-
-`factory-coordinator.yml` chỉ làm maintenance nhẹ: recover/state guard → queue refill → production status. Không manifest rebuild / invariant full-site mỗi 10 phút.
-
-`factory-deep-audit.yml` là manual-only và chịu trách nhiệm full suites, manifest/index rebuild, invariant, byte-exact generate check và full-site link integrity.
-
-## 20k scale
-
-Matrix hiện có logical capacity 20.000; không reset ID, slug hay bài đã PUBLISHED. Hot path luôn bounded 10 bài/batch và scoped QA/link check. Full-site O(N) work không nằm trong mỗi article push.
-
-Nguồn topic vẫn là giới hạn độc lập: capacity 20.000 không tự sinh 20.000 chủ đề. Queue-refill chỉ dùng topic hợp lệ sẵn có; không bịa topic để lấp số lượng.
-
-## Owner pause / resume (Writer ngoài)
-
-Mặc định giám sát đọc file versioned `factory/writer-control.json` qua cờ
-`--honor-owner-control`. Khi `mode: paused` (chủ repo chủ động dừng Mistral),
-Watchdog báo `phase=paused-by-owner` và không báo sai `stalled` do heartbeat cũ;
-**lỗi escalated hoặc backlog đã có bài nguồn chờ publish vẫn khiến Watchdog FAIL**. Coordinator cũng hiển thị paused khi an toàn.
-
-Để mở lại giám sát nghiêm ngặt: sau khi chủ repo cho phép Writer hoạt động,
-đổi `mode` thành `running`, rồi resume Writer Mistral riêng. Chuyển
-mode không tự tạo bài, không tự mở session AI, không reset checkpoint hoặc ma trận.
-
-`node factory/factory.js liveness` KHÔNG có cờ luôn kiểm tra heartbeat nghiêm
-ngặt; test fixture dùng cách này để phát hiện stall thật.
-
-## Recovery
-
-Mất session: fetch fresh main → recover-txn → writer-next. Không force push, không reset matrix, không tái sử dụng ID/slug, không bypass QA.
-
-GitHub Actions không tự viết prose và không thể đánh thức một Mistral session đã chết; writer vẫn là phiên AI ngoài.
-
-
-## Mistral one-command writer
-
-Mistral nên bắt đầu mỗi vòng bằng:
-
-`node factory/factory.js writer-pack --count 10`
-
-Runbook đầy đủ: `docs/MISTRAL-WRITER.md`.
-
-Không tự chọn ID, không tự bịa internal-link slug. `writer-pack` trả file path, intent và related PUBLISHED; `verify-batch` + Factory Publish Lite chịu trách nhiệm QA/publish/404 gate.
+Chi tiết: [THREE-EXTERNAL-WRITERS.md](THREE-EXTERNAL-WRITERS.md).
