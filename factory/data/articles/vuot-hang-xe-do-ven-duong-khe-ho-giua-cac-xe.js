@@ -1,0 +1,84 @@
+// AI WIKI TOTAL — S01677 (topic V2 T001842); vượt hàng xe đỗ ven đường và khe hở giữa các xe, không nêu số liệu hay tên hãng.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'vuot-hang-xe-do-ven-duong-khe-ho-giua-cac-xe',
+  title: 'Vượt hàng xe đỗ ven đường: khe hở giữa các xe là điểm mù cần đọc',
+  seoTitle: 'Vượt hàng xe đỗ ven đường: đọc khe hở giữa các xe',
+  metaDescription: 'Hàng xe hơi đỗ kín ven đường, khe hở giữa các xe chỉ rộng hơn một thân người. Tìm hiểu điểm mù hai chiều ở khe hở và kỹ thuật vượt hàng xe an toàn.',
+  summary: 'Hàng xe hơi đỗ kín ven đường khiến khe hở giữa các xe trông như lối đi, nhưng thực ra là điểm mù hai chiều: người đi bộ chui qua đúng khe ấy, đèn xi nhan của xe dưới không thấy được, và xe máy từ lối nhà nối ra cũng lách qua khe. Nội dung giải thích vì sao hàng xe đỗ là đoạn đọc khó nhất trên đường đô thị, những thứ hay chui qua khe hở giữa hai xe đỗ, kỹ thuật vượt hàng xe đúng gồm tốc độ đọc, hướng mắt nhìn chân dưới gầm xe phía trước và giữ ga đều không bám sát, ba dấu nhỏ nhận ra người sắp chui ra từ khe, cùng cách chờ nhịp trống khi không thấy hết chiều dài hàng xe thay vì rảo đều trong làn mù.',
+  quickAnswer: 'Khe hở giữa hai xe đỗ ven đường trông như lối đi nhưng là điểm mù hai chiều: người đi bộ, xe đạp và xe máy hay chui qua đúng chỗ ấy. Khi vượt hàng xe đỗ, hãy giảm tốc xuống mức đọc được, nhìn chân người đi bộ dưới gầm xe phía trước thay vì nhìn thân xe, giữ ga đều không bám sát; thấy bóng chân, tiếng cửa hoặc xe dưới nghiêng người trong gương là chuẩn bị phanh nhường người chui ra.',
+  keyPoints: [
+    'Khe hở giữa hai xe đỗ là điểm mù hai chiều: người chui từ vỉa hè và xe máy nối từ lối nhà đều chọn khe ấy để ra vào, và không ai thấy ai tới lúc gần.',
+    'Đèn xi nhan và đèn phanh của xe trong hàng bị che khuất: không thể dựa vào tín hiệu của xe dưới để biết nó sắp nhích ra.',
+    'Khi vượt hàng xe, tốc độ phải ở mức đọc được và mắt quét xuống gầm xe phía trước: đôi chân người đi bộ dưới gầm hiện ra trước thân người.',
+    'Ba dấu nhỏ báo người sắp chui ra từ khe: bóng chân dưới xe, tiếng đóng mở cửa, và hình người chéo phía sau kính xe đỗ.',
+    'Không thấy hết chiều dài hàng xe thì chờ nhịp trống phía trước mở ra rồi mới đi, thay vì rảo đều suốt trong làn bị bịt kín hai bên.'
+  ],
+  category: 'ride',
+  hub: 'an-toan-giao-thong',
+  date: '2026-10-14',
+  updated: '2026-10-14',
+  entities: ['hàng xe đỗ ven đường', 'khe hở giữa hai xe', 'điểm mù hai chiều', 'gầm xe hơi', 'xi nhan xe dưới', 'lối nhà ven đường'],
+  keywords: ['vượt hàng xe đỗ ven đường', 'khe hở giữa các xe đỗ', 'người chui ra giữa hai xe đỗ', 'điểm mù khi vượt xe ven đường', 'đi xe máy qua hàng xe đỗ'],
+  sections: [
+    P('Vì sao hàng xe đỗ ven đường là đoạn đọc khó nhất', [
+      'Một hàng xe hơi đỗ kín ven đường biến phần đường còn lại thành một hành lang bị bịt kín một bên. Tầm nhìn của người đi xe máy bị cắt theo hai cách: nhìn ngang thì hông xe hơi che hết vỉa hè, không thấy ai đang đứng hay đi trên đó; nhìn dọc thì mỗi khe hở giữa hai xe chỉ hé ra một mảnh nhỏ, không thấy được phía sau khe có gì. Hàng xe càng dài thì càng nhiều khe, mỗi khe là một màn che, và người lái đi giữa hàng thực chất đang đi qua một chuỗi điểm mù nối tiếp. Đó là lý do đoạn hàng xe đỗ khó hơn hẳn một xe đỗ đơn lẻ, dù xe đơn lẻ cũng có bài riêng về việc người sắp rời lề.',
+      'Điểm làm cho hàng xe đỗ đặc biệt nguy hiểm là hành vi của người khác quanh nó. Người đi bộ muốn băng qua đường không đi ra khỏi đầu hàng, họ chọn khe gần nơi mình đứng nhất để chui qua, vì khe ấy đúng vị trí ngắn nhất cho họ. Xe máy, xe đạp từ lối nhà, ngõ nhỏ phía sau hàng xe cũng chui ra qua khe, vì khe là chỗ duy nhất trống. Kết quả là khe hở, thoạt nhìn như khoảng trống vô hại, lại chính là chỗ lưu thông sôi động nhất trong toàn bộ khu vực, mà không bên nào thấy bên kia cho tới khi cách nhau vài bước.',
+      'Tín hiệu của xe hơi trong hàng cũng mất tác dụng. Xe dưới bật xi nhan nhưng xi nhan bị xe phía trước và phía sau che khuất gần hết; đèn phanh xe nhích ra cũng không thấy được tới khi nửa thân xe đã lọt ra khỏi khe. Người lái xe máy đi ven hàng không có cách nào dựa vào tín hiệu xe hơi như khi đi giữa dòng xe đang lưu thông. Thêm vào đó, người vừa lên xe máy phía vỉa hè thường đẩy xe ra khỏi lề mà không ngoái, và chiếc xe đẩy ra khỏi khe che luôn tầm nhìn của chính họ về phía đường.',
+      'Cuối cùng, hàng xe đỗ tạo cảm giác an toàn giả. Đường vắng xe chạy, hàng xe đứng im, người lái có xu hướng tăng tốc rảo đều vì thấy phía trước trống trải giữa hai mép hàng. Chính lúc ấy người đi bộ chui ra giữa hai xe và hai bên cùng không thấy nhau. Nhiều cú va ở khu vực xe đỗ ven đường xảy ra ở tốc độ xe máy không cao, nhưng đủ để hạ gục người đi bộ, và trách nhiệm về phần đường không thay thế được cú ngã trên mặt nhựa. Cách duy nhất chống lại cảm giác giả ấy là kỷ luật tốc độ và hướng mắt được kể dưới đây.'
+    ]),
+    P('Khe hở giữa hai xe đỗ: thứ gì hay chui qua', [
+      'Danh sách những thứ hay chui qua khe giữa hai xe đỗ dài hơn người ta tưởng. Người đi bộ là nhóm rõ nhất: người băng qua đường ở điểm gần nhất, người từ xe buýt xuống hoặc định bắt xe buýt, người rẽ từ vỉa hè sang lối nhà đối diện. Trẻ em tệ hơn người lớn: đứa trẻ thấp hơn chiều cao khe, chạy nhanh và không ngoái, nên một đứa trẻ lao từ khe giữa hai xe gần như không thể thấy trước bằng thân xe. Người đẩy xe hàng, người chống nạng, người dắt thú cưng cũng đi qua khe vì đó là chỗ duy họ có thể lách.',
+      'Nhóm thứ hai là các phương tiện hai bánh. Xe đạp và xe máy đỗ trên vỉa hè khi rời đi thường phải chui ra qua khe hoặc xuống lòng đường ở đầu hàng. Xe điện mini, xe ba gác từ lối nhà phía sau hàng cũng chọn khe để ra vào. Đặc điểm chung của nhóm này là im tiếng hơn xe hơi và tới nhanh hơn người đi bộ, nên người lái hay bị bất ngờ hơn. Nhóm thứ ba là chính các xe hơi trong hàng: xe dưới nhích ra khỏi chỗ đỗ, xe đỗ đầu hàng lùi ra, và chính cú lùi ấy quét qua phần đường mà xe máy đang đi ven hàng.',
+      'Vì sao mọi người cùng chọn khe là có lý của nó. Với người đi bộ, khe là điểm băng ngắn nhất và tiện nhất, và đa số không thấy hết hậu quả vì họ chỉ nhìn đường phía hai bên khe một cách rất ngắn. Với người lái xe máy từ lối nhà, khe là lối ra duy nhất không phải dò ra tận đầu hàng. Hành vi này không phải cố tình nguy hiểm, nó chỉ là cách con người tiết kiệm công. Và vì hành vi đó có hệ thống, người đi ven hàng xe có thể dự đoán được: cứ khe hở đủ một người lách là coi như một giao lộ ẩn, không phải một khoảng trống vô nghĩa.',
+      'Một cách tiếp cận thực dụng là phân loại khe. Khe hai xe đỗ sát nhau còn hẹp hơn thân người thì ít người chui, nhưng vẫn đủ một cánh cửa xe hơi mở ra. Khe rộng vừa một thân người đến một chiếc xe đạp là khe được dùng nhiều nhất. Khe trước cửa ngõ, trước lối đi bộ, gần trạm chờ, gần chợ là khe gần như chắc chắn có người. Đo gần đúng mục đích của từng khe qua bối cảnh quanh nó, người lái biết khe nào cần thả ga và khe nào chỉ cần mắt quét. Kỹ năng này không tốn gì ngoài vài giây quan sát, và là phần đáng giá nhất của việc đi qua khu vực xe đỗ kín.'
+    ]),
+    P('Tốc độ và hướng mắt khi vượt: chân dưới gầm xe trước', [
+      'Tốc độ vượt hàng xe đỗ nên là tốc độ đọc, nghĩa là mức mà mắt kịp quét từng khe và tay kịp phanh lại nếu thấy dấu bất thường. Nói cách khác, hãy tự hỏi: nếu một người bước ra khỏi khe phía trước ngay lúc này, mình có dừng được không; nếu câu trả lời là không thì đang đi nhanh quá cho đoạn này. Đây không phải đòi hỏi đi như rùa: mức đọc thường vẫn là mức đi chậm trong phố, chỉ khác là giữ đều chứ không dồn dập tăng giảm. Ga đều giúp mọi thứ khác hoạt động: gương có thời gian dùng, mắt có thời gian quét, và người khác có thời gian thấy mình.',
+      'Hướng mắt là phần kỹ thuật đáng rèn nhất. Thói quen phổ biến là nhìn vào thân xe hơi, vì đó là vật lớn gần mình nhất; nhưng thân xe không bao giờ báo gì trước, người ta không chui qua thân xe. Thứ báo trước là phần thấp: đôi chân người đi bộ hiện ra dưới gầm xe phía trước, bóng chân loang trên mặt đường, vành bánh xe máy nối ra, càng xe đạp nghiêng. Quét mắt xuống vùng thấp giữa hai xe, chéo từ khe bên vỉa hè xuống mặt đường trước mũi xe gần nhất, là cách thấy người trước khi thấy người. Đôi chân luôn đi trước thân người, nên tín hiệu chân sớm hơn tín hiệu thân.',
+      'Không bám sát xe phía trước là điều kiện để hướng mắt phát huy. Đi sát đuôi xe máy hay xe hơi phía trước thì tầm nhìn xuống gầm xe ven hàng bị xe đó che mất, và mọi tín hiệu từ khe hiện ra sau khi xe trước đã phản ứng. Giữ một khoảng đủ nhìn được mặt đường và chân gầm xe phía trước, và nếu xe trước đi chậm hơn mình nhịp, đừng ép sát: đó thường là xe đã thấy thứ mình chưa thấy. Trong hàng xe đỗ ven đường, xe đi chậm phía trước nhiều khi là mỏ cảnh báo sớm nhất, vượt nó trong lúc chưa thấy vì sao nó chậm là sai lầm kinh điển.',
+      'Bố cục vượt còn tùy hình dạng hàng. Hàng xe đỗ một bên thì mình còn một mép thông thoáng để nhìn vỉa hè từ góc khác, đừng bám sát mép xe đỗ. Hàng xe đỗ cả hai bên, một đoạn hẹp kiểu phố cổ, thì tầm nhìn tắt hẳn hai phía, chỉ còn cách đọc khe trước mũi và nghe tiếng động: tiếng cửa xe đóng, tiếng bước chân, tiếng máy xe máy ở phía vỉa hè. Ở đoạn hai hàng, giảm tốc thêm nữa và chấp nhận đi chậm dài hơn, vì mọi kỹ thuật đọc đều chỉ đủ dùng ở tốc độ thấp. Nếu có đoạn trống ven hàng, tạm nhích ra xa mép xe đỗ một chút để mở góc nhìn vỉa hè rồi lại vào gần, cũng là cách lấy thông tin giữa hàng dài.'
+    ]),
+    P('Người chui ra từ khe: nhận theo ba dấu nhỏ', [
+      'Dấu thứ nhất là chân và bóng dưới gầm. Người sắp chui ra khỏi khe giữa hai xe đỗ trước hết hiện phần thấp: mũi giày, ống quần, bóng loang trên mặt đường dưới khung xe. Đôi khi chỉ là một cái bóng nhỏ di chuyển sau bánh xe, hoặc mặt đường sáng lên một dải vì bóng người giấu sau thân xe. Vùng dưới gầm xe hơi là vùng thoáng về mặt cơ học: gầm cao hơn mặt đường đủ để thấy chân người từ xa, nên tín hiệu chân thường sớm hơn mọi tín hiệu khác. Đây là lý do rèn thói quen quét mắt xuống thấp, đã nói ở phần trước.',
+      'Dấu thứ hai là âm thanh quanh hàng xe. Tiếng cửa xe hơi đóng mở, tiếng khóa xe bíp, tiếng người nói chuyện phía vỉa hè, tiếng bước chân gấp, tiếng động cơ xe máy khởi động, tất cả vang ra từ phía hàng xe trước khi người hiện ra. Đi ven hàng xe mà bịt tai bởi tai nghe là tự tắt một kênh thông tin rẻ nhất. Không cần nghe gì rõ ràng: chỉ cần nhận ra có hoạt động phía vỉa hè là đủ để tay chân về thế chuẩn bị, giảm ga, ngón tay đặt nhẹ lên phanh. Người đi đường lâu năm thường có phản xạ này mà không nói ra được, vì đơn giản là tai đã báo trước mắt.',
+      'Dấu thứ ba là hình dáng chéo sau kính xe hơi. Kính xe đỗ là mặt gương lệch: người đứng phía vỉa hè sau xe hiện trên kính dưới dạng bóng chéo, một mảnh hình người lướt qua mặt kính. Tương tự, người phía sau xe hơi nhìn qua khe hở giữa xe và mặt đường, hoặc qua khoảng trống giữa các xe, thường lộ một phần vai, đầu hay cặp túi hàng. Nhìn các mặt kính xe khi đi ven hàng nghe có vẻ kỳ, nhưng đó là cách duy nhất thấy được một phần phía vỉa hè mà thân xe che. Ghép ba dấu: chân dưới gầm, âm thanh, hình bóng trên kính, người lái có được một hệ thống cảnh báo sớm dù hàng xe bịt kín.',
+      'Khi một dấu xuất hiện, trình tự phản ứng là thả ga, đặt ngón phanh nhẹ để đèn phanh báo cho xe sau, kéo nhẹ về mép còn trống của phần đường mình, và chuẩn bị dừng hẳn. Nếu người đã bước ra, dừng hẳn và nhường chứ không cố lách qua phía trước họ: phán đoán hướng người đi bộ sẽ rẽ là trò may rủi, và một người đang cuống trên đường thì khó đoán hơn người bình thường. Cũng đừng bấm còi gấp vào mặt người đang băng: còi đúng lúc người đã thấy mình chỉ làm họ hoảng loạn đổi hướng giữa đường. Còi ngắn sớm từ khi còn cách xa để báo có xe, rồi im lặng và nhường, là cách kết thúc êm nhất cho cả hai bên.'
+    ]),
+    P('Không thấy hết hàng xe: chờ nhịp trống thay vì rảo đều', [
+      'Có những hàng xe đỗ dài tới mức mắt không thấy hết chiều dài, hoặc hàng xen lẫn xe buýt, xe tải nhỏ không đọc được khe phía sau. Trong trường hợp đó, câu trả lời không phải là tăng tốc rảo cho nhanh qua đoạn mù, mà là chờ nhịp trống. Nhịp trống là quãng trống giữa các cụm xe trong dòng phía trên hoặc phía trước mở ra, cho phép mình đi ven hàng trong tầm có xe khác thấy mình và mình thấy trước đủ xa. Trên đường một chiều có hàng xe đỗ, nhịp trống đến từ độ thưa của dòng xe; chờ một nhịp rồi đi theo nó là cách đi có bảo hiểm, thay vì tự rảo giữa làn bị bịt kín hai bên trong suốt chiều dài hàng.',
+      'Cách thực hiện cụ thể: khi tới đầu hàng xe đỗ và thấy hàng dài không hết, nếu dòng xe phía trên đang đông thì giữ vị trí ở đầu hàng hoặc bám theo cụm xe phía trước đi chậm, chờ cụm đó kéo đi và mình đi theo trong khoảng trống nó để lại. Đi ven hàng xe với một cụm xe phía trước đồng nghĩa mỗi khe hở mình tới đã được cụm xe đó quét trước, và người chui ra thường đã thấy cụm xe rồi. Đây không phải trốn tránh trách nhiệm quan sát, vì mắt vẫn phải quét khe; nó là cách dùng dòng xe như hàng rào mềm mở đường, giảm số tình huống phải tự xử một mình.',
+      'Nếu không có dòng xe để bám và hàng xe dài tắt tầm nhìn hoàn toàn, chấp nhận đi chậm dài suốt hàng và coi mỗi khe là giao lộ. Đi chậm dài nghe mất công, nhưng hãy so hai viễn cảnh: đi ven hàng xe có thể người chui ra ở bất kỳ khe nào, và đi giữa đường trống xe. Khoảng cách tới điểm ra luôn ngắn hơn cảm giác, vì cuối hàng xe thường là ngã tư, lối đi bộ hoặc trạm dừng, tức những chỗ tập trung người băng qua. Nới tốc độ từ trước đầu hàng, giữ đều suốt chiều dài, và chỉ tăng lại sau khi thấy trọn phần vỉa hè phía sau mút hàng, là trình tự chuẩn.',
+      'Kết lại, vượt hàng xe đỗ ven đường là bài đọc điểm mù điển hình: khó khăn nằm không phải ở tay lái mà ở việc thấy trước. Khe hở là giao lộ ẩn hai chiều, xe dưới không báo được bằng tín hiệu, và mọi bảo đảm thật sự nằm ở tốc độ đọc, mắt quét vùng thấp, tai nghe hoạt động vỉa hè và nhường chủ động khi dấu xuất hiện. Ai từng đi qua một khu chợ buổi sớm hay một phố cổ chiều tối đều đã luyện bài này mà không biết tên; đặt tên cho nó chỉ để mỗi khi tới một hàng xe đỗ, các thao tác tự động chạy đúng thứ tự: thả ga, mắt xuống thấp, chờ khe, nhường người.'
+    ])
+  ],
+  checklist: [
+    'Giảm về tốc độ đọc trước khi vào hàng xe đỗ và giữ ga đều suốt hàng, không tăng tốc vì thấy đường trống.',
+    'Quét mắt xuống vùng thấp giữa các xe: chân người và bóng dưới gầm xe hiện ra trước thân người.',
+    'Coi mỗi khe hở đủ một người lách là một giao lộ ẩn, nhất là khe trước cửa ngõ, lối đi bộ, trạm chờ và gần chợ.',
+    'Nghe hoạt động phía vỉa hè: tiếng cửa, tiếng bước chân, tiếng máy hai bánh; thấy dấu bất thường thì thả ga và đặt ngón lên phanh.',
+    'Không thấy hết chiều dài hàng xe thì chờ nhịp trống và bám cụm xe phía trước, hoặc đi chậm dài và nhường chủ động khi người chui ra.'
+  ],
+  steps: [
+    { title: 'Đầu hàng xe đỗ', detail: 'Nới tốc về mức đọc trước khi vào hàng, quan sát bối cảnh khe: cửa ngõ, lối đi, trạm dừng, chợ, để biết khe nào gần như chắc chắn có người.' },
+    { title: 'Đi ven hàng', detail: 'Giữ ga đều, không bám sát xe trước, quét mắt xuống gầm xe ven hàng và mặt đường, nghe hoạt động vỉa hè qua tiếng cửa và bước chân.' },
+    { title: 'Khi thấy dấu người', detail: 'Thả ga, đặt ngón lên phanh, kéo nhẹ về mép trống, bấm còi ngắn từ xa nếu người chưa thấy mình; người đã bước ra thì dừng hẳn nhường.' },
+    { title: 'Hàng xe dài tắt tầm nhìn', detail: 'Chờ nhịp trống hoặc bám cụm xe phía trước đi chậm; đi chậm dài suốt hàng và chỉ tăng tốc lại sau khi thấy trọn vỉa hè phía sau mút hàng.' }
+  ],
+  warnings: [
+    'Không tăng tốc rảo qua hàng xe đỗ vì thấy đường trống: khe hở là điểm mù hai chiều và người chui ra không thấy xe máy cho tới khi sát mép.',
+    'Không dựa vào xi nhan hay đèn phanh của xe trong hàng: tín hiệu bị che khuất gần hết, chỉ thấy được khi nửa thân xe đã lọt ra khỏi khe.',
+    'Không bấm còi gấp vào mặt người đang băng: còi sát khiến họ hoảng đổi hướng giữa đường; còi ngắn sớm và nhường là cách an toàn.',
+    'Không đeo tai nghe khi đi qua khu vực xe đỗ kín ven đường: âm thanh vỉa hè là kênh cảnh báo sớm nhất và hoàn toàn miễn phí.'
+  ],
+  notes: [
+    'Mật độ và hành vi người đi bộ khác nhau theo khu vực và giờ; hãy phán đoán theo bối cảnh thực tế tại chỗ và luôn ưu tiên nhường người đi bộ.',
+    'Việc vượt và nhường trong khu vực xe đỗ ven đường phải tuân theo luật giao thông của nơi đang đi, nội dung trình bày kỹ năng quan sát và phòng tránh.'
+  ],
+  references: [
+    'Tài liệu hướng dẫn lái xe an toàn của các cơ quan quản lý giao thông',
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe'
+  ],
+  related: ['xe-may-dang-do-ven-duong-hay-tren-via-he-bat-ngo-nhap-dong-nhan-ra-nguoi-sap-roi-le-va-giu-khoang-khi-di-ngang', 'tien-toi-cuoi-hang-xe-dang-dung-hoac-nhich-khi-di-xe-may-giam-som-chua-loi-thoat-va-de-y-xe-phia-sau', 'di-xe-may-duong-mot-chieu-dung-lan']
+};
