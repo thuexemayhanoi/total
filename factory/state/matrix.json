@@ -23238,11 +23238,13 @@
    "title": "Nhôm trên xe máy bị trắng xỉn, sùi bột hay bong lớp bóng: khác gỉ sắt ở đâu, lau thế nào và khi nào đáng lo",
    "primaryIntent": "troubleshooting/nhom-tren-xe-may-bi-trang-xin-sui-bot-hay-bong-lop-bong-khac-gi-sat-o-dau-lau-the-nao-va-khi-nao-dang-lo",
    "notes": "source=topic-v2 topicId=T001729",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:29:48.866Z",
-   "updatedAt": "2026-10-14T01:29:48.867Z"
+   "updatedAt": "2026-10-14T01:36:34.638Z",
+   "seoScore": 100,
+   "words": 2821
   },
   {
    "id": "S01594",
@@ -23251,11 +23253,13 @@
    "title": "Sơn xe máy mờ dần, phấn hóa, rạn hoặc bong lớp bóng sau nhiều năm: khác vết xước ở đâu và còn cứu được đến mức nào",
    "primaryIntent": "informational/son-xe-may-mo-dan-phan-hoa-ran-hoac-bong-lop-bong-sau-nhieu-nam-khac-vet-xuoc-o-dau-va-con-cuu-duoc-den-muc-nao",
    "notes": "source=topic-v2 topicId=T001730",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:29:48.918Z",
-   "updatedAt": "2026-10-14T01:29:48.918Z"
+   "updatedAt": "2026-10-14T01:36:34.638Z",
+   "seoScore": 100,
+   "words": 3118
   },
   {
    "id": "S01595",
@@ -23264,11 +23268,13 @@
    "title": "Vệ sinh bên ngoài lốc máy xe máy: khi nào nên lau, lau thế nào và cách đọc cặn dầu bụi để biết có rò không",
    "primaryIntent": "informational/ve-sinh-ben-ngoai-loc-may-xe-may-khi-nao-nen-lau-lau-the-nao-va-cach-doc-can-dau-bui-de-biet-co-ro-khong",
    "notes": "source=topic-v2 topicId=T001731",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:29:48.961Z",
-   "updatedAt": "2026-10-14T01:29:48.961Z"
+   "updatedAt": "2026-10-14T01:36:34.638Z",
+   "seoScore": 91,
+   "words": 2981
   },
   {
    "id": "S01596",
@@ -23277,11 +23283,13 @@
    "title": "Chọn màu xe máy theo cách bạn giữ xe: màu sáng, đậm, mờ hay nhũ lộ bụi, xước và vệt nước ra sao",
    "primaryIntent": "informational/chon-mau-xe-may-theo-cach-ban-giu-xe-mau-sang-dam-mo-hay-nhu-lo-bui-xuot-va-vet-nuoc-ra-sao",
    "notes": "source=topic-v2 topicId=T001732",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:29:49.000Z",
-   "updatedAt": "2026-10-14T01:29:49.000Z"
+   "updatedAt": "2026-10-14T01:36:34.638Z",
+   "seoScore": 100,
+   "words": 3035
   },
   {
    "id": "S01597",
