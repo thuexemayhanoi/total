@@ -23,25 +23,36 @@ const ARTICLE_MIN_WORDS = 1000;  // Canonical length policy, same for Writer Pac
 const ARTICLE_MAX_WORDS = 5000;  // Allow long-form AI articles without bypassing QA.
 // PRODUCTION CYCLE (legacy recovery path, KHÔNG còn hot path): scoped QA chỉ
 // bài mới của cycle (KHÔNG bao giờ quét lại toàn site trong production loop).
-// Mô hình 3 writer song song ĐÃ BỎ — thay bằng 3 VAI TRÒ (xem
-// docs/PRODUCTION-ROLES.md): WRITER 1 duy nhất viết bài theo pair; ĐỐC CÔNG 2
-// theo dõi heartbeat/checkpoint + sửa lỗi; ĐỐC CÔNG 3 nhận lỗi escalated.
+// Production external AI: W1/W2/W3 write disjoint ID shards concurrently.
+// GitHub Actions remains a single publisher, never a content-generating AI.
+const WRITER_COUNT = 3;
+function writerShard(writer) {
+  const m = /^W([1-3])$/.exec(String(writer || ''));
+  if (!m) throw Error('WRITER_INVALID: chỉ W1, W2, W3; không tự ý dùng shard khác');
+  return { k: Number(m[1]), n: WRITER_COUNT };
+}
+function shardOwns(id, shard) {
+  const m = /^S\d{5,}$/.exec(String(id || ''));
+  if (!m || !shard || shard.n !== WRITER_COUNT ||
+      !Number.isInteger(shard.k) || shard.k < 1 || shard.k > WRITER_COUNT) return false;
+  return (Number(BigInt(String(id).slice(1)) % BigInt(WRITER_COUNT)) === shard.k - 1);
+}
 const CYCLE_MIN = 12;           // cycle thiếu < 12 bài PLANNED -> cần refill queue
 const CYCLE_MAX = 18;           // tối đa bài mỗi cycle (parseCycleIds từ chối quá 18)
 const QUEUE_REFILL_FLOOR = 100; // planned < 100 -> allocator tự refill queue
 const QUEUE_REFILL_TARGET = 300; // refill lên ~300 topic hợp lệ (từ topic-pool)
 
-// ---------- 3-ROLE PRODUCTION (WRITER 1 + ĐỐC CÔNG 2/3) ----------
+// ---------- 3 external WRITERS + one production publisher ----------
 const WRITER_STALL_MINUTES = 120; // heartbeat cũ hơn ngưỡng này (đang writing/waiting-publish) = writer ĐỨNG
 const DOCONG2_MAX_ATTEMPTS = 3;   // Đốc công 2 sửa tối đa; quá -> escalated cho Đốc công 3
 const WRITER_PHASES = ['writing', 'waiting-publish', 'waiting-writer', 'idle', 'error'];
 
-// Chọn pair kế tiếp cho WRITER 1 (thuần, deterministic):
+// Chọn batch tiếp theo cho 1 trong 3 writer; resume và fresh phải cùng shard:
 //   - RESUME TRƯỚC: slot dở CÓ module bài (RESEARCH/WRITING/QA/REPAIR/PASS) —
 //     tiếp tục bài chưa hoàn thành, KHÔNG viết trùng slot đã có bài.
 //   - FRESH SAU: slot PLANNED CHƯA có bài (WAITING_FOR_WRITER), theo ID tăng dần.
 // opts (tùy chọn, tương thích ngược): { isWritable(slot) } — Topic Governance V2: chỉ slot có topic
-// APPROVED mới được giao cho writer; { shard: {k, n} } — chia queue cho nhiều writer song song (id % n).
+// APPROVED mới được giao cho writer; {shard: writerShard('W1'|'W2'|'W3')}.
 function selectWriterPair(m, articleSlugs, countArg, opts) {
   const size = (Number.isFinite(countArg) && countArg > 0) ? Math.min(countArg, PUBLISH_CHUNK_LIMIT) : PAIR_SIZE;
   const slugs = toSlugSet(articleSlugs);
@@ -49,12 +60,14 @@ function selectWriterPair(m, articleSlugs, countArg, opts) {
   const byId = (a, b) => num(a.id) - num(b.id);
   const writable = opts && typeof opts.isWritable === 'function' ? opts.isWritable : null;
   const shard = opts && opts.shard && opts.shard.n > 1 ? opts.shard : null;
+  const owns = s => !shard || shardOwns(s.id, shard);
   const resume = (m && Array.isArray(m.slots) ? m.slots : [])
-    .filter(s => CLAIMABLE_STATES.includes(s.state) && s.state !== 'PLANNED' && slugs.has(s.slug))
+    .filter(s => CLAIMABLE_STATES.includes(s.state) && s.state !== 'PLANNED' &&
+      slugs.has(s.slug) && owns(s) && (!writable || writable(s)))
     .sort(byId);
   const fresh = (m && Array.isArray(m.slots) ? m.slots : [])
-    .filter(s => s.state === 'PLANNED' && !slugs.has(s.slug) && (!writable || writable(s)) &&
-      (!shard || (num(s.id) % shard.n) === (shard.k - 1)))
+    .filter(s => s.state === 'PLANNED' && !slugs.has(s.slug) &&
+      (!writable || writable(s)) && owns(s))
     .sort(byId);
   const chosen = resume.slice(0, size).concat(fresh.slice(0, Math.max(0, size - Math.min(resume.length, size))));
   return {
@@ -432,6 +445,7 @@ module.exports = {
   TERMINAL_STATES, CLAIMABLE_STATES, PUBLISH_CHUNK_LIMIT, FIRST_CHUNK_LIMIT,
   PAIR_SIZE, SEO_PASS_MIN, QA_PASS_MIN, ARTICLE_MIN_WORDS, ARTICLE_MAX_WORDS, CYCLE_MIN, CYCLE_MAX,
   QUEUE_REFILL_FLOOR, QUEUE_REFILL_TARGET,
+  WRITER_COUNT, writerShard, shardOwns,
   WRITER_STALL_MINUTES, DOCONG2_MAX_ATTEMPTS, WRITER_PHASES,
   selectWriterPair, heartbeatAgeMinutes, classifyProductionState, upsertError,
   classifyChangeMode, scopeFromSlugEntries, buildPublishPlan,
