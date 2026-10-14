@@ -23898,11 +23898,13 @@
    "title": "Đường phía trước bị chặn hoặc đóng mà chưa biết đường vòng: dừng, hỏi, chọn tuyến khác hay quay lại",
    "primaryIntent": "informational/duong-phia-truoc-bi-chan-hoac-dong-ma-chua-biet-duong-vong-dung-hoi-chon-tuyen-khac-hay-quay-lai",
    "notes": "source=topic-v2 topicId=T001787",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:15.947Z",
-   "updatedAt": "2026-10-14T04:24:15.947Z"
+   "updatedAt": "2026-10-14T04:31:20.069Z",
+   "seoScore": 100,
+   "words": 2970
   },
   {
    "id": "S01638",
@@ -23911,11 +23913,13 @@
    "title": "Mới đi được một đoạn thì nhớ ra quên ví, giấy tờ, áo mưa hay sạc: quay lại hay đi tiếp và thứ nào không thể thiếu",
    "primaryIntent": "informational/moi-di-duoc-mot-doan-thi-nho-ra-quen-vi-giay-to-ao-mua-hay-sac-quay-lai-hay-di-tiep-va-thu-nao-khong-the-thieu",
    "notes": "source=topic-v2 topicId=T001788",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.006Z",
-   "updatedAt": "2026-10-14T04:24:16.006Z"
+   "updatedAt": "2026-10-14T04:31:20.070Z",
+   "seoScore": 100,
+   "words": 2835
   },
   {
    "id": "S01639",
@@ -23924,11 +23928,13 @@
    "title": "Dây ga hoặc dây côn đứt khi đang chạy: xe phản ứng ra sao, dừng thế nào và vì sao không nên cố chạy tiếp",
    "primaryIntent": "troubleshooting/day-ga-hoac-day-con-dut-khi-dang-chay-xe-phan-ung-ra-sao-dung-the-nao-va-vi-sao-khong-nen-co-chay-tiep",
    "notes": "source=topic-v2 topicId=T001789",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.047Z",
-   "updatedAt": "2026-10-14T04:24:16.047Z"
+   "updatedAt": "2026-10-14T04:31:20.069Z",
+   "seoScore": 91,
+   "words": 2988
   },
   {
    "id": "S01640",
@@ -23937,11 +23943,13 @@
    "title": "Ứng dụng bản đồ dẫn vào đường nhỏ, đường cụt hoặc đường hết nhựa: khi nào tin ứng dụng, khi nào dừng và quay đầu",
    "primaryIntent": "informational/ung-dung-ban-do-dan-vao-duong-nho-duong-cut-hoac-duong-het-nhua-khi-nao-tin-ung-dung-khi-nao-dung-va-quay-dau",
    "notes": "source=topic-v2 topicId=T001790",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.088Z",
-   "updatedAt": "2026-10-14T04:24:16.088Z"
+   "updatedAt": "2026-10-14T04:31:20.070Z",
+   "seoScore": 100,
+   "words": 3104
   },
   {
    "id": "S01641",
@@ -23950,11 +23958,13 @@
    "title": "Lỡ để pin xe máy điện cạn sạch rồi bỏ đó nhiều ngày: pin có hỏng không, sạc lại thế nào và khi nào gọi thợ",
    "primaryIntent": "troubleshooting/lo-de-pin-xe-may-dien-can-sach-roi-bo-do-nhieu-ngay-pin-co-hong-khong-sac-lai-the-nao-va-khi-nao-goi-tho",
    "notes": "source=topic-v2 topicId=T001791",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.121Z",
-   "updatedAt": "2026-10-14T04:24:16.121Z"
+   "updatedAt": "2026-10-14T04:31:20.069Z",
+   "seoScore": 91,
+   "words": 3028
   },
   {
    "id": "S01642",
@@ -23963,11 +23973,13 @@
    "title": "Lỡ dắt hoặc cho xe máy điện đi khi dây sạc còn cắm: cổng sạc, dây và ổ cắm bị giật, kiểm tra gì trước khi sạc lại",
    "primaryIntent": "troubleshooting/lo-dat-hoac-cho-xe-may-dien-di-khi-day-sac-con-cam-cong-sac-day-va-o-cam-bi-giat-kiem-tra-gi-truoc-khi-sac-lai",
    "notes": "source=topic-v2 topicId=T001792",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.253Z",
-   "updatedAt": "2026-10-14T04:24:16.253Z"
+   "updatedAt": "2026-10-14T04:31:20.069Z",
+   "seoScore": 100,
+   "words": 2921
   },
   {
    "id": "S01643",
@@ -23976,11 +23988,13 @@
    "title": "Lỡ bóp tay phanh khi đã tháo bánh hoặc má phanh xe máy: pít-tông bật ra, phanh còn an toàn không và khi nào gọi thợ",
    "primaryIntent": "troubleshooting/lo-bop-tay-phanh-khi-da-thao-banh-hoac-ma-phanh-xe-may-pit-tong-bat-ra-phanh-con-an-toan-khong-va-khi-nao-goi-tho",
    "notes": "source=topic-v2 topicId=T001793",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.292Z",
-   "updatedAt": "2026-10-14T04:24:16.292Z"
+   "updatedAt": "2026-10-14T04:31:20.069Z",
+   "seoScore": 100,
+   "words": 2794
   },
   {
    "id": "S01644",
@@ -23989,11 +24003,13 @@
    "title": "Lỡ rút cọc ắc quy hay giắc điện khi xe còn bật khóa hoặc máy đang nổ: vì sao có thể hại mạch điện và nên kiểm tra gì",
    "primaryIntent": "troubleshooting/lo-rut-coc-ac-quy-hay-giac-dien-khi-xe-con-bat-khoa-hoac-may-dang-no-vi-sao-co-the-hai-mach-dien-va-nen-kiem-tra-gi",
    "notes": "source=topic-v2 topicId=T001794",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.340Z",
-   "updatedAt": "2026-10-14T04:24:16.340Z"
+   "updatedAt": "2026-10-14T04:31:20.070Z",
+   "seoScore": 100,
+   "words": 3081
   },
   {
    "id": "S01645",
@@ -24002,11 +24018,13 @@
    "title": "Lỡ quá hạn thay nhớt xe máy từ lâu: nhớt xuống cấp thế nào, nên thay ngay hay làm gì trước",
    "primaryIntent": "troubleshooting/lo-qua-han-thay-nhot-xe-may-tu-lau-nhot-xuong-cap-the-nao-nen-thay-ngay-hay-lam-gi-truoc",
    "notes": "source=topic-v2 topicId=T001795",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T04:24:16.374Z",
-   "updatedAt": "2026-10-14T04:24:16.374Z"
+   "updatedAt": "2026-10-14T04:31:20.069Z",
+   "seoScore": 100,
+   "words": 3120
   }
  ]
 }

@@ -2316,6 +2316,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/xu-ly-su-co/day-ga-hoac-day-con-dut-khi-dang-chay-xe-phan-ung-ra-sao-dung-the-nao-va-vi-sao-khong-nen-co-chay-tiep/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dien-xe/day-mat-xe-may-long-gay-loi-dien/index.html",
   "kind": "article"
  },
@@ -2813,6 +2817,10 @@
  },
  {
   "rel": "local/ha-noi/duong-cam-xe-may-ha-noi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-duong-dai/duong-phia-truoc-bi-chan-hoac-dong-ma-chua-biet-duong-vong-dung-hoi-chon-tuyen-khac-hay-quay-lai/index.html",
   "kind": "article"
  },
  {
@@ -3456,11 +3464,23 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/lo-bop-tay-phanh-khi-da-thao-banh-hoac-ma-phanh-xe-may-pit-tong-bat-ra-phanh-con-an-toan-khong-va-khi-nao-goi-tho/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-bao-duong/lo-chay-xe-may-khi-quen-lap-loc-gio-hoac-thao-bo-cho-may-boc-hon-bui-vao-may-ra-sao-va-nen-lam-gi/index.html",
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/lo-dat-hoac-cho-xe-may-dien-di-khi-day-sac-con-cam-cong-sac-day-va-o-cam-bi-giat-kiem-tra-gi-truoc-khi-sac-lai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/su-dung-xe/lo-de-may-khi-xe-so-con-gai-so-hoac-quen-bop-con-xe-nhich-hay-lao-toi-co-hai-gi-va-cach-khoi-dong-dung/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/lo-de-pin-xe-may-dien-can-sach-roi-bo-do-nhieu-ngay-pin-co-hong-khong-sac-lai-the-nao-va-khi-nao-goi-tho/index.html",
   "kind": "article"
  },
  {
@@ -3481,6 +3501,14 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/lo-loi-re-hay-di-nham-duong-khi-di-xe-may-khong-phanh-gap-khong-quay-dau-bua-va-quay-lai-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-bao-duong/lo-qua-han-thay-nhot-xe-may-tu-lau-nhot-xuong-cap-the-nao-nen-thay-ngay-hay-lam-gi-truoc/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dien-ac-quy/lo-rut-coc-ac-quy-hay-giac-dien-khi-xe-con-bat-khoa-hoac-may-dang-no-vi-sao-co-the-hai-mach-dien-va-nen-kiem-tra-gi/index.html",
   "kind": "article"
  },
  {
@@ -3657,6 +3685,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/moay-o-la-gi-tren-banh-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-xu-ly-su-co/moi-di-duoc-mot-doan-thi-nho-ra-quen-vi-giay-to-ao-mua-hay-sac-quay-lai-hay-di-tiep-va-thu-nao-khong-the-thieu/index.html",
   "kind": "article"
  },
  {
@@ -5309,6 +5341,10 @@
  },
  {
   "rel": "learn/doc-thong-so/ty-so-truyen/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/di-phuot/ung-dung-ban-do-dan-vao-duong-nho-duong-cut-hoac-duong-het-nhua-khi-nao-tin-ung-dung-khi-nao-dung-va-quay-dau/index.html",
   "kind": "article"
  },
  {
