@@ -224,7 +224,7 @@ function P(tmp) {
     matrix: path.join(tmp, 'factory', 'state', 'matrix.json'),
     txn: path.join(tmp, 'factory', 'state', 'txn.json'),
     lock: path.join(tmp, 'factory', 'state', 'writer.lock'),
-    heartbeat: path.join(tmp, 'factory', 'state', 'writer-heartbeat.json'),
+    heartbeat: path.join(tmp, 'factory', 'state', 'writer-heartbeats', 'W1.json'),
     errors: path.join(tmp, 'factory', 'state', 'error-queue.json'),
     artDir: path.join(tmp, 'factory', 'data', 'articles'),
     stateDir: path.join(tmp, 'factory', 'state'),
