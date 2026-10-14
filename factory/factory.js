@@ -1669,6 +1669,7 @@ function main() {
     const allowed = writableOpts().opts.isWritable;
     const dir = path.join(__dirname, 'data/articles');
     const filenames = fs.readdirSync(dir).filter(x => x.endsWith('.js'));
+    const parsedFiles = multiWriter.fileCandidates(filenames);
     const excluded = (opt('--exclude') || '').split(',').filter(Boolean);
     const raw = multiWriter.selectReady(m.slots, filenames, excluded, 100, allowed);
     const accepted = [], rejected = [];
@@ -1677,7 +1678,10 @@ function main() {
       if (accepted.length >= max) break;
       let art;
       try {
-        art = require(path.join(dir, slot.slug + '.js'));
+        const fname = multiWriter.candidateFile(slot, parsedFiles);
+        if (!fname) throw Error('WRITER_SOURCE_NOT_FOUND ' + slot.id);
+        art = require(path.join(dir, fname));
+        if (art.slug !== slot.slug) throw Error('WRITER_SOURCE_SLUG_MISMATCH ' + slot.id);
         const w = multiWriter.writerOf(slot.id);
         if (art.writerOwner && art.writerOwner !== w) {
           throw Error('WRITER_OWNER_MISMATCH expected=' + w + ' got=' + art.writerOwner);
