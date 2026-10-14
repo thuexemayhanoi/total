@@ -1960,7 +1960,16 @@ function main() {
     const ids = parseBatchIds(positional(rest).join(' '));
     const other = ids.filter(x => !runtime.shardOwns(x, shard));
     if (other.length) throw Error('WRITER_OWNERSHIP_REFUSED: ' + writer + ' cannot write ' + other.join(','));
-    const v = verifySources(loadMatrix(), ids);
+    const matrix = loadMatrix();
+    for (const id of ids) {
+      const slot = matrix.slots.find(x => x.id === id);
+      const article = slot && loadArticleBySlug(slot.slug);
+      if (article && article.writerOwner && article.writerOwner !== writer) {
+        throw Error('WRITER_OWNER_MISMATCH: ' + id + ' belongs to ' + writer +
+          ', module claims ' + article.writerOwner);
+      }
+    }
+    const v = verifySources(matrix, ids);
     if (!v.ok) { for (const e of v.errors) console.error('WRITER_VERIFY_FAIL: ' + e); process.exit(1); }
     console.log('WRITER_VERIFY_OK writer=' + writer + ' ids=' + ids.join(','));
     return;
