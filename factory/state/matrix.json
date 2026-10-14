@@ -22953,11 +22953,13 @@
    "title": "Đi xe máy qua chỗ cúng, đốt vàng mã trước cửa nhà ngày rằm, mùng một: tàn lửa, khói và người đứng lấn ra lòng đường",
    "primaryIntent": "informational/di-xe-may-qua-cho-cung-dot-vang-ma-truoc-cua-nha-ngay-ram-mung-mot-tan-lua-khoi-va-nguoi-dung-lan-ra-long-duong",
    "notes": "source=topic-v2 topicId=T001710",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T00:19:26.320Z",
-   "updatedAt": "2026-10-14T00:19:26.320Z"
+   "updatedAt": "2026-10-14T00:25:42.397Z",
+   "seoScore": 100,
+   "words": 2993
   },
   {
    "id": "S01575",
@@ -22966,11 +22968,13 @@
    "title": "Gặp đoàn múa lân và trẻ rước đèn trong ngõ xóm dịp Trung thu: đi chậm, chừa lối và không bấm còi vào giữa cuộc vui",
    "primaryIntent": "informational/gap-doan-mua-lan-va-tre-ruoc-den-trong-ngo-xom-dip-trung-thu-di-cham-chua-loi-va-khong-bam-coi-vao-giua-cuoc-vui",
    "notes": "source=topic-v2 topicId=T001711",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T00:19:26.377Z",
-   "updatedAt": "2026-10-14T00:19:26.377Z"
+   "updatedAt": "2026-10-14T00:25:42.397Z",
+   "seoScore": 100,
+   "words": 2855
   },
   {
    "id": "S01576",
@@ -22979,11 +22983,13 @@
    "title": "Gặp máy gặt, xe công nông, máy cày kéo rơ-moóc trên đường quê: đọc hướng rẽ khi không có xi nhan và lúc nào mới vượt",
    "primaryIntent": "informational/gap-may-gat-xe-cong-nong-va-may-cay-keo-ro-mooc-tren-duong-que-mua-vu-doc-huong-re-khi-khong-co-xi-nhan-va-luc-nao-moi-vuot",
    "notes": "source=topic-v2 topicId=T001712",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T00:19:26.413Z",
-   "updatedAt": "2026-10-14T00:19:26.413Z"
+   "updatedAt": "2026-10-14T00:25:42.397Z",
+   "seoScore": 91,
+   "words": 3152
   }
  ]
 }
