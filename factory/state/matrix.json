@@ -23763,11 +23763,13 @@
    "title": "Chạy áp sát sau xe container để 'hút gió' đỡ mệt và tiết kiệm xăng: lời đồn này đúng hay nguy hiểm",
    "primaryIntent": "informational/chay-ap-sat-sau-xe-container-de-hut-gio-do-met-va-tiet-kiem-xang-loi-don-nay-dung-hay-nguy-hiem",
    "notes": "source=topic-v2 topicId=T001779",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:37.606Z",
-   "updatedAt": "2026-10-14T03:40:37.611Z"
+   "updatedAt": "2026-10-14T04:22:48.183Z",
+   "seoScore": 100,
+   "words": 3077
   },
   {
    "id": "S01629",
@@ -23791,11 +23793,13 @@
    "title": "Mặt đường nhựa mềm ra giữa trưa nắng gắt: vệt lún bóng loáng, chỗ dính và ảnh hưởng khi đi xe máy",
    "primaryIntent": "informational/mat-duong-nhua-mem-ra-giua-trua-nang-gat-vet-lun-bong-loang-cho-dinh-va-anh-huong-khi-di-xe-may",
    "notes": "source=topic-v2 topicId=T001781",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:40.641Z",
-   "updatedAt": "2026-10-14T03:40:40.693Z"
+   "updatedAt": "2026-10-14T04:22:48.183Z",
+   "seoScore": 100,
+   "words": 2880
   },
   {
    "id": "S01631",
@@ -23849,11 +23853,13 @@
    "title": "Vạch kẻ sơn trắng trên mặt đường khi mưa trơn hơn cả mặt nhựa: vì sao và đi xe máy qua thế nào",
    "primaryIntent": "informational/vach-ke-son-trang-tren-mat-duong-khi-mua-tron-hon-ca-mat-nhua-vi-sao-va-di-xe-may-qua-the-nao",
    "notes": "source=topic-v2 topicId=T001764",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:59.674Z",
-   "updatedAt": "2026-10-14T03:40:59.684Z"
+   "updatedAt": "2026-10-14T04:22:48.183Z",
+   "seoScore": 91,
+   "words": 2695
   },
   {
    "id": "S01635",
@@ -23862,11 +23868,13 @@
    "title": "Đi xe máy nhanh qua vệt nước loáng mỏng trên mặt đường cũng nguy hiểm: trượt nổi là gì và vì sao phải chậm",
    "primaryIntent": "informational/di-xe-may-nhanh-qua-vet-nuoc-loang-mong-tren-mat-duong-cung-nguy-hiem-truot-noi-la-gi-va-vi-sao-phai-cham",
    "notes": "source=topic-v2 topicId=T001765",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:41:02.311Z",
-   "updatedAt": "2026-10-14T03:41:02.319Z"
+   "updatedAt": "2026-10-14T04:22:48.183Z",
+   "seoScore": 100,
+   "words": 2932
   },
   {
    "id": "S01636",
