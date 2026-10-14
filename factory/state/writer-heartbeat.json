@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-14T04:08:23.516Z",
- "phase": "error",
- "pair": null,
- "note": "Publish S01627-36 fail: cần git-side ghép topic-matrix-pending-v118.jsonl vào ledger rồi publish-batch — chi tiết trong error-queue"
+ "at": "2026-10-14T04:30:58.645Z",
+ "phase": "waiting-publish",
+ "pair": "S01637,S01638,S01639,S01640,S01641,S01642,S01643,S01644,S01645",
+ "note": null
 }
