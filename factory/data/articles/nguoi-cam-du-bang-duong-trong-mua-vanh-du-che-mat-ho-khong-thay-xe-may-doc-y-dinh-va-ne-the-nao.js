@@ -72,7 +72,7 @@ module.exports = {
     'Đường mưa trơn: phanh gấp vì người băng đường dễ làm bánh trượt; giảm sớm bằng ga và giữ khoảng dừng rộng hơn ngày thường.'
   ],
   notes: [
-    'Bài bàn nguyên tắc nhường và đọc ý định trong mưa; quy tắc ưu tiên và vạch băng qua đường theo luật được áp dụng như đã hướng dẫn trong bài kỹ thuật qua ngã tư và quy tắc ưu tiên.',
+    'Bài bàn nguyên tắc nhường và đọc ý định trong mưa; quy tắc ưu tiên và vạch băng qua đường đã có trong bài kỹ thuật qua ngã tư và quy tắc ưu tiên.',
     'Trang bị của người đi bộ (dù, áo mưa, mũ non) rất khác nhau; hãy luôn để phần sai số lớn nhất cho người có che mù tầm nhìn nhiều nhất.'
   ],
   references: [
