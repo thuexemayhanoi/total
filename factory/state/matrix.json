@@ -23748,11 +23748,13 @@
    "title": "Túi nilon, lá khô hoặc rác bay dính vào người và kính mũ lúc đi nhanh: xử lý thế nào cho an toàn",
    "primaryIntent": "informational/tui-nilon-la-kho-hoac-rac-bay-dinh-vao-nguoi-va-kinh-mu-luc-di-nhanh-xu-ly-the-nao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T001778",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:36.144Z",
-   "updatedAt": "2026-10-14T03:40:36.151Z"
+   "updatedAt": "2026-10-14T04:22:09.230Z",
+   "seoScore": 100,
+   "words": 3092
   },
   {
    "id": "S01628",
@@ -23774,11 +23776,13 @@
    "title": "Đèn vàng ở ngã tư: dừng an toàn hay cố vút qua, tính khoảng cách dừng và vì sao đèn vàng không phải đèn tăng tốc",
    "primaryIntent": "informational/den-vang-o-nga-tu-dung-an-toan-hay-co-vut-qua-tinh-khoang-cach-dung-va-vi-sao-den-vang-khong-phai-den-tang-toc",
    "notes": "source=topic-v2 topicId=T001780",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:39.093Z",
-   "updatedAt": "2026-10-14T03:40:39.102Z"
+   "updatedAt": "2026-10-14T04:22:09.229Z",
+   "seoScore": 100,
+   "words": 2960
   },
   {
    "id": "S01630",
@@ -23800,11 +23804,13 @@
    "title": "Người cầm dù băng đường trong mưa: vành dù che mắt họ không thấy xe máy, đọc ý định và né thế nào",
    "primaryIntent": "informational/nguoi-cam-du-bang-duong-trong-mua-vanh-du-che-mat-ho-khong-thay-xe-may-doc-y-dinh-va-ne-the-nao",
    "notes": "source=topic-v2 topicId=T001783",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:42.448Z",
-   "updatedAt": "2026-10-14T03:40:42.454Z"
+   "updatedAt": "2026-10-14T04:22:09.229Z",
+   "seoScore": 91,
+   "words": 3016
   },
   {
    "id": "S01632",
@@ -23813,11 +23819,13 @@
    "title": "Hai người chung một áo mưa khi đi xe máy trong mưa: vì sao nguy hiểm hơn tưởng, tay bị trói và nên thay thế thế nào",
    "primaryIntent": "informational/hai-nguoi-chung-mot-ao-mua-khi-di-xe-may-trong-mua-vi-sao-nguy-hiem-hon-tuong-tay-bi-troi-va-nen-thay-the-the-nao",
    "notes": "source=topic-v2 topicId=T001784",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:54.326Z",
-   "updatedAt": "2026-10-14T03:40:54.333Z"
+   "updatedAt": "2026-10-14T04:22:09.229Z",
+   "seoScore": 100,
+   "words": 3077
   },
   {
    "id": "S01633",
@@ -23826,11 +23834,13 @@
    "title": "Xe máy vừa đâm ổ gà mạnh: dừng kiểm tra những gì trước khi dám đi tiếp, và khi nào phải dắt bộ",
    "primaryIntent": "troubleshooting/xe-may-vua-dam-o-ga-manh-dung-kiem-tra-nhung-gi-truoc-khi-dam-di-tiep-va-khi-nao-phai-dat-bo",
    "notes": "source=topic-v2 topicId=T001786",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:40:56.960Z",
-   "updatedAt": "2026-10-14T03:40:56.969Z"
+   "updatedAt": "2026-10-14T04:22:09.230Z",
+   "seoScore": 100,
+   "words": 3066
   },
   {
    "id": "S01634",
@@ -23865,11 +23875,13 @@
    "title": "Lá cây rụng phủ mặt đường ẩm trơn hơn tưởng tượng: vì sao đi xe máy trên thảm lá dễ ngã và cách qua",
    "primaryIntent": "informational/la-cay-rung-phu-mat-duong-am-tron-hon-tuong-tuong-vi-sao-di-xe-may-tren-tham-la-de-nga-va-cach-qua",
    "notes": "source=topic-v2 topicId=T001770",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T03:41:04.989Z",
-   "updatedAt": "2026-10-14T03:41:04.994Z"
+   "updatedAt": "2026-10-14T04:22:09.229Z",
+   "seoScore": 91,
+   "words": 2842
   }
  ]
 }
