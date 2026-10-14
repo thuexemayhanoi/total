@@ -74,7 +74,7 @@ try {
     assert.equal(x.status,0,(x.stdout||'')+(x.stderr||''));
   }
   const w1=fs.readFileSync(file('W1'));
-  assert.equal(run(['writer-heartbeat','--writer','W2','--phase','waiting-publish','--pair','S00002']).status,0);
+  assert.equal(run(['writer-heartbeat','--writer','W2','--phase','waiting-publish','--pair','S00001']).status,0);
   assert.deepEqual(fs.readFileSync(file('W1')),w1,'W2 cannot overwrite W1 heartbeat');
   const badBefore=fs.readFileSync(file('W1'));
   assert(run(['writer-heartbeat','--writer','W1','--phase','waiting-publish','--pair','S00002']).status!==0);
