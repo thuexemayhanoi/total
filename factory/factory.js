@@ -2065,8 +2065,9 @@ function main() {
     for (const r of st.reasons) console.log('REASON ' + r);
     if (cmd === 'liveness') {
       if (st.stalled) {
-        console.error('LIVENESS_FAIL: Writer stale=' + stalledWriters.join(',') +
-          ' phase=' + st.phase + ' — chỉ người dùng resume phiên AI ngoài, không có AI API tự gọi.');
+        console.error('LIVENESS_FAIL: Writer ĐỨNG (stale=' +
+          (stalledWriters.length ? stalledWriters.join(',') : 'legacy-W1') +
+          ') phase=' + st.phase + ' — chủ phiên phải resume AI ngoài, không có AI API tự gọi.');
         process.exit(1);
       }
       if (st.escalated) {
