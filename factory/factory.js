@@ -38,6 +38,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const lock = require('./lib/lock');
 const runtime = require('./lib/factory-runtime');
+const multiWriter = require('./lib/multi-writer');
 const contentIndex = require('./lib/content-index');
 const topicFactory = require('./lib/topic-factory');
 const topicGov = require('./lib/topic-governance');
@@ -1096,6 +1097,8 @@ Lệnh:
                                   khi writer push (QA minimal chặn; SEO/
                                   intent advisory)
   recover-txn                    Recover txn marker sót sau crash (in TXN_RECOVER)
+  writer-queue-ready [--count N] [--exclude IDs]
+                                  Read-only: quét backlog Writer đã nộp, trả batch QA hợp lệ
   push-scope [--base B]          Xác định EXACT article IDs được ADD/MODIFY bởi
                                   commit vừa push (in SCOPE_MODE/SCOPE_IDS/…)
   publish-plan [--scope ID,ID]   Kế hoạch txn pair từ exact push scope (resume
@@ -1156,7 +1159,7 @@ function opt(flag) {
 }
 // Tham số vị trí của lệnh: bỏ flag + giá trị flag (--owner O, --scope ID, ...).
 function positional(rest) {
-  const WITH_VALUE = new Set(['--owner', '--token-file', '--base', '--scope', '--head-sha', '--limit', '--intent', '--min-score', '--fail-if-claimable', '--role', '--writer', '--shard', '--count']);
+  const WITH_VALUE = new Set(['--owner', '--token-file', '--base', '--scope', '--head-sha', '--limit', '--intent', '--min-score', '--fail-if-claimable', '--role', '--writer', '--shard', '--count', '--exclude']);
   const out = [];
   for (let i = 0; i < rest.length; i++) {
     if (String(rest[i]).startsWith('--')) { if (WITH_VALUE.has(rest[i])) i++; continue; }
@@ -1657,6 +1660,39 @@ function main() {
     const out = contentIndex.syncPublishedBatch(path.join(__dirname, '..'), ids);
     console.log('INDEX_REFRESH_OK mode=' + out.mode + ' published=' + out.published +
       ' rows=' + out.total + ' ids=' + out.ids.join(','));
+    return;
+  }
+  if (cmd === 'writer-queue-ready') {
+    // One canonical publisher may have several Writer pushes waiting. Always
+    // select from the newest repository state, not only the triggering event.
+    const m = loadMatrix(); validateMatrix(m);
+    const allowed = writableOpts().opts.isWritable;
+    const dir = path.join(__dirname, 'data/articles');
+    const filenames = fs.readdirSync(dir).filter(x => x.endsWith('.js'));
+    const excluded = (opt('--exclude') || '').split(',').filter(Boolean);
+    const raw = multiWriter.selectReady(m.slots, filenames, excluded, 100, allowed);
+    const accepted = [], rejected = [];
+    const max = Math.min(runtime.PUBLISH_CHUNK_LIMIT, parsePositiveInt(opt('--count')) || runtime.PUBLISH_CHUNK_LIMIT);
+    for (const slot of raw) {
+      if (accepted.length >= max) break;
+      let art;
+      try {
+        art = require(path.join(dir, slot.slug + '.js'));
+        const w = multiWriter.writerOf(slot.id);
+        if (art.writerOwner && art.writerOwner !== w) {
+          throw Error('WRITER_OWNER_MISMATCH expected=' + w + ' got=' + art.writerOwner);
+        }
+        const q = verifySources(m, [slot.id]);
+        if (!q.ok) throw Error(q.errors.join('; '));
+        accepted.push(slot.id);
+      } catch (err) { rejected.push({ id: slot.id, reason: String(err.message || err).slice(0, 230) }); }
+    }
+    for (const x of rejected) console.error('WRITER_QUEUE_REJECT id=' + x.id + ' why=' + x.reason);
+    console.log('READY_IDS=' + accepted.join(','));
+    console.log('READY_REJECTED=' + rejected.length);
+    // Emit explicit diagnostic rather than falsely green on a queue of only bad
+    // drafts. Good drafts from other writers can still progress independently.
+    if (!accepted.length && rejected.length) process.exitCode = 4;
     return;
   }
   if (cmd === 'push-scope') {
