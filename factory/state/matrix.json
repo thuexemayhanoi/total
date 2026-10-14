@@ -23403,11 +23403,13 @@
    "title": "Cùng một chiếc xe máy, hôm chạy khỏe hôm thấy đuối: không khí nóng ẩm, vùng cao, gió ngược và tải làm máy yếu đi ra sao",
    "primaryIntent": "informational/cung-mot-chiec-xe-may-hom-chay-khoe-hom-thay-duoi-khong-khi-nong-am-vung-cao-gio-nguoc-va-tai-lam-may-yeu-di-ra-sao",
    "notes": "source=topic-v2 topicId=T001740",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:59:38.524Z",
-   "updatedAt": "2026-10-14T01:59:38.524Z"
+   "updatedAt": "2026-10-14T02:14:29.693Z",
+   "seoScore": 91,
+   "words": 3079
   },
   {
    "id": "S01605",
@@ -23416,11 +23418,13 @@
    "title": "Đội mũ bảo hiểm ngày nóng bị ngộp, mồ hôi chảy vào mắt: nhiệt và hơi ẩm kẹt trong mũ từ đâu ra và cách giảm",
    "primaryIntent": "informational/doi-mu-bao-hiem-ngay-nong-bi-ngop-mo-hoi-chay-vao-mat-nhiet-va-hoi-am-ket-trong-mu-tu-dau-ra-va-cach-giam",
    "notes": "source=topic-v2 topicId=T001741",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:59:38.571Z",
-   "updatedAt": "2026-10-14T01:59:38.571Z"
+   "updatedAt": "2026-10-14T02:14:29.693Z",
+   "seoScore": 100,
+   "words": 2768
   },
   {
    "id": "S01606",
@@ -23429,11 +23433,13 @@
    "title": "Tai bị ù, nặng hoặc bụp khi xuống đèo dài bằng xe máy: vì sao xảy ra và nên làm gì",
    "primaryIntent": "informational/tai-bi-u-nang-hoac-bup-khi-xuong-deo-dai-bang-xe-may-vi-sao-xay-ra-va-nen-lam-gi",
    "notes": "source=topic-v2 topicId=T001742",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:59:38.606Z",
-   "updatedAt": "2026-10-14T01:59:38.606Z"
+   "updatedAt": "2026-10-14T02:14:29.694Z",
+   "seoScore": 100,
+   "words": 2822
   }
  ]
 }

@@ -16767,6 +16767,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dong-co/cung-mot-chiec-xe-may-hom-chay-khoe-hom-thay-duoi-khong-khi-nong-am-vung-cao-gio-nguoc-va-tai-lam-may-yeu-di-ra-sao/",
+  "title": "Cùng một chiếc xe máy, hôm chạy khỏe hôm thấy đuối: không khí nóng ẩm, vùng cao, gió ngược và tải làm máy yếu đi ra sao",
+  "description": "Vì sao cùng một xe máy hôm bốc hôm ì? Giải thích không khí nóng ẩm, vùng cao, gió ngược, tải, cảm nhận của người lái và cách phân biệt thay đổi bình thường với lỗi.",
+  "category": "Bách khoa xe",
+  "hub": "Động cơ",
+  "entities": [
+   "hỗn hợp xăng và không khí",
+   "không khí nạp",
+   "cản gió",
+   "phun xăng điện tử",
+   "chế hòa khí",
+   "nhiệt của pin xe điện"
+  ],
+  "keywords": [
+   "xe máy hôm khỏe hôm yếu vì sao",
+   "xe máy chạy yếu khi trời nóng",
+   "xe máy lên vùng cao bị đuối",
+   "gió ngược làm xe máy chạy ì"
+  ],
+  "seoTitle": "Xe máy hôm khỏe hôm yếu: nóng ẩm, vùng cao, gió ngược và tải",
+  "primaryKeyword": "xe máy hôm khỏe hôm yếu vì sao",
+  "headings": [
+   "Vì sao sức kéo của máy thay đổi theo không khí",
+   "Những thứ bên ngoài máy làm xe ì đi",
+   "Cảm nhận của người lái cũng thay đổi theo ngày",
+   "Thay đổi bình thường và dấu hiệu xe có lỗi",
+   "Lái thế nào cho hợp khi máy đuối"
+  ],
+  "summary": "Bài giải thích ở mức nguyên lý vì sao cùng một chiếc xe máy lúc bốc lúc ì. Máy đốt hỗn hợp xăng và không khí nên không khí nóng, ẩm hoặc ở vùng cao làm máy yếu đi một chút; xe phun xăng bù được một phần, xe chế hòa khí dễ lộ rõ hơn, xe điện chịu ảnh hưởng của "
+ },
+ {
+  "kind": "article",
   "url": "wiki/thuat-ngu-xe/cvt-la-gi/",
   "title": "Kinh nghiệm CVT là gì dành cho người mới",
   "description": "CVT là gì trên xe tay ga: pulley, bi set, dây curoa hoạt động thế nào, vì sao ga là đủ, các dấu hiệu hư CVT và chu kỳ bảo dưỡng cụm truyền lực.",
@@ -20467,6 +20499,38 @@
    "Nhận ra lúc mình đang sốt ruột"
   ],
   "summary": "Bài giải thích vì sao trong dòng xe đông ta hay có cảm giác làn bên cạnh nhích nhanh hơn: dòng xe chạy theo từng đợt, trí nhớ chỉ giữ lại những lần bị vượt và khoảng trống mở ra rồi khép lại rất nhanh. Từ đó bài chỉ ra vì sao đổi làn liên tục ít khi đáng, nhữn"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/doi-mu-bao-hiem-ngay-nong-bi-ngop-mo-hoi-chay-vao-mat-nhiet-va-hoi-am-ket-trong-mu-tu-dau-ra-va-cach-giam/",
+  "title": "Đội mũ bảo hiểm ngày nóng bị ngộp, mồ hôi chảy vào mắt: nhiệt và hơi ẩm kẹt trong mũ từ đâu ra và cách giảm",
+  "description": "Đội mũ bảo hiểm bị nóng ngộp, mồ hôi chảy vào mắt? Hiểu nhiệt và hơi ẩm kẹt trong mũ từ đâu, vì sao không nên nới quai hay đội hờ, và cách giảm nóng mà vẫn đội chắc.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "mũ bảo hiểm",
+   "lỗ thông gió",
+   "lớp lót mũ",
+   "mồ hôi",
+   "quai cài mũ",
+   "đi xe máy ngày nóng"
+  ],
+  "keywords": [
+   "đội mũ bảo hiểm bị nóng ngộp",
+   "mũ bảo hiểm bí nóng mùa hè",
+   "mồ hôi chảy vào mắt khi đội mũ bảo hiểm",
+   "cách đội mũ bảo hiểm đỡ nóng"
+  ],
+  "seoTitle": "Đội mũ bảo hiểm bị nóng ngộp: nhiệt từ đâu và cách giảm an toàn",
+  "primaryKeyword": "đội mũ bảo hiểm bị nóng ngộp",
+  "headings": [
+   "Nhiệt và hơi ẩm trong mũ bảo hiểm đến từ đâu",
+   "Vì sao mồ hôi chảy vào mắt lại nguy hiểm",
+   "Những cách làm cho mát nhưng mất an toàn",
+   "Giảm nóng mà vẫn đội mũ đúng cách",
+   "Khi mồ hôi đã chảy vào mắt lúc đang chạy"
+  ],
+  "summary": "Bài giải thích vì sao đầu hầm hập khi đội mũ bảo hiểm trong ngày nóng: đầu tỏa nhiệt và ra mồ hôi, lớp xốp cùng lớp lót giữ nhiệt, vỏ mũ phơi nắng nóng lên, lúc dừng xe không có gió, lót bẩn giữ mồ hôi cũ. Bài cũng nói vì sao mồ hôi chảy vào mắt nguy hiểm, nhữ"
  },
  {
   "kind": "article",
@@ -31521,6 +31585,38 @@
    "Mua cũ SYM: quy trình kiểm chuẩn"
   ],
   "summary": "SYM Việt Nam là câu chuyện của một thương hiệu \"trầm\": hãng xe Đài Loan Sanyang Motor hiện diện tại thị trường Việt Nam từ những năm đầu mở cửa, không bao giờ dẫn đầu về doanh số hay hình ảnh, nhưng trụ vững qua nhiều thập kỷ bằng đúng một thứ — danh tiếng máy"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/tai-bi-u-nang-hoac-bup-khi-xuong-deo-dai-bang-xe-may-vi-sao-xay-ra-va-nen-lam-gi/",
+  "title": "Tai bị ù, nặng hoặc bụp khi xuống đèo dài bằng xe máy: vì sao xảy ra và nên làm gì",
+  "description": "Xuống đèo bị ù tai khi đi xe máy là do áp suất đổi nhanh, tai chưa kịp cân bằng. Hiểu cơ chế, cách làm đỡ khi dừng nghỉ, giữ an toàn và lúc nào nên đi khám.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "áp suất không khí",
+   "vòi nhĩ",
+   "màng nhĩ",
+   "tai giữa",
+   "nghẹt mũi",
+   "đường đèo"
+  ],
+  "keywords": [
+   "xuống đèo bị ù tai khi đi xe máy",
+   "tai bị bụp khi xuống dốc dài",
+   "cách đỡ ù tai khi đi đường đèo",
+   "ù tai khi đổ đèo bằng xe máy"
+  ],
+  "seoTitle": "Xuống đèo bị ù tai khi đi xe máy: vì sao xảy ra và cách xử lý",
+  "primaryKeyword": "xuống đèo bị ù tai khi đi xe máy",
+  "headings": [
+   "Vì sao tai thấy ù, nặng khi xuống đèo",
+   "Phân biệt với ù tai vì tiếng gió và tiếng máy",
+   "Làm gì cho đỡ khi đã dừng hay lúc an toàn",
+   "Giữ an toàn khi tai khó chịu giữa đèo",
+   "Khi nào cần đi khám và khi nào nên hoãn chuyến"
+  ],
+  "summary": "Bài giải thích ở mức chung vì sao tai thấy ù, nặng rồi bụp khi xuống đèo dài bằng xe máy: áp suất không khí đổi theo đường đi, còn tai giữa cần một đường thông nhỏ nối với họng để cân bằng lại. Nội dung phân biệt kiểu ù này với ù do tiếng gió và tiếng máy, nêu"
  },
  {
   "kind": "article",
