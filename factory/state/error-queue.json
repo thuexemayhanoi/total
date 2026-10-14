@@ -8,9 +8,11 @@
    "message": "Publish workflow fail cho batch S01627-S01636: preflight QA từ chối vì topic chưa APPROVED — 24 row ledger vòng 118 nằm trong factory/state/topic-matrix-pending-v118.jsonl chưa được ghép vào topic-matrix.jsonl (phiên writer không có git, không đẩy được file 4.3MB). CẦN phía có git: (1) cat factory/state/topic-matrix-pending-v118.jsonl >> factory/state/topic-matrix.jsonl; (2) rm factory/state/topic-matrix-pending-v118.jsonl; (3) node factory/factory.js publish-batch 'S01627,S01628,S01629,S01630,S01631,S01632,S01633,S01634,S01635,S01636' --owner ci-publisher rồi push. verify-batch đã PASS cục bộ sau khi ghép ledger.",
    "context": "Run 38508911730 fail step 'Scoped preflight QA'; blob sha topic-matrix.jsonl=ea791188ea704f61c558c13b6790405c598ca08f (1762 rows); shard chứa 10 APPROVED (slot S01627-36) + 14 REJECTED mergeInto, total 24 rows schema 2.",
    "attempts": 1,
-   "status": "open",
+   "status": "resolved",
    "at": "2026-10-14T04:08:23.393Z",
-   "updatedAt": "2026-10-14T04:08:23.393Z"
+   "updatedAt": "2026-10-14T04:08:23.393Z",
+   "resolvedAt": "2026-10-14T04:23:10.326Z",
+   "resolveNote": "Đã ghép 24 dòng ledger vòng 118 vào topic-matrix.jsonl (commit 302a6c0a), sửa thuật ngữ và số đo ở 6 bài trước khi publish; CI publish S01627,S01629,S01631,S01632,S01633,S01636 (8ac09d3f), chạy lại run 38508911730 publish nốt S01628,S01630,S01634,S01635 (ab65f065). verify-invariant OK 1336 PUBLISHED."
   }
  ]
 }
