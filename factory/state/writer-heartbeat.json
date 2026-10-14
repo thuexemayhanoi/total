@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-14T05:48:49.126Z",
- "phase": "waiting-publish",
- "pair": "S01657,S01658,S01659,S01660,S01661,S01662,S01663",
- "note": null
+ "at": "2026-10-14T06:17:03.788Z",
+ "phase": "writing",
+ "pair": "S01672,S01673,S01674,S01675,S01676,S01677",
+ "note": "vòng 120: 6 bài Mistral sau topic-propose T001834-T001842 (6 approve, 3 merge-candidate)"
 }
