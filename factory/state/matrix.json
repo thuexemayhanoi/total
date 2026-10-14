@@ -24178,11 +24178,13 @@
    "title": "Bôi kem chống nắng, xịt chống muỗi hay vuốt gel tóc trước khi đội mũ bảo hiểm: tay trơn, kính mũ mờ và lót mũ dính",
    "primaryIntent": "informational/boi-kem-chong-nang-xit-chong-muoi-hay-vuot-gel-toc-truoc-khi-doi-mu-bao-hiem-tay-tron-kinh-mu-mo-va-lot-mu-dinh",
    "notes": "source=topic-v2 topicId=T001819",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:44:35.013Z",
-   "updatedAt": "2026-10-14T05:44:35.013Z"
+   "updatedAt": "2026-10-14T05:49:11.010Z",
+   "seoScore": 100,
+   "words": 2980
   },
   {
    "id": "S01658",
@@ -24191,11 +24193,13 @@
    "title": "Yên xe, tay lái và khóa quai mũ nóng bỏng sau khi phơi nắng: tránh bỏng da, nhất là khi cho trẻ ngồi",
    "primaryIntent": "informational/yen-xe-tay-lai-va-khoa-quai-mu-nong-bong-sau-khi-phoi-nang-tranh-bong-da-nhat-la-khi-cho-tre-ngoi",
    "notes": "source=topic-v2 topicId=T001820",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:44:35.126Z",
-   "updatedAt": "2026-10-14T05:44:35.126Z"
+   "updatedAt": "2026-10-14T05:49:11.010Z",
+   "seoScore": 100,
+   "words": 2931
   },
   {
    "id": "S01659",
@@ -24204,11 +24208,13 @@
    "title": "Giày, tất ướt sũng giữa đường mưa: đi tiếp hay thay, chân trơn khi phanh và cách hong giày sau chuyến",
    "primaryIntent": "informational/giay-tat-uot-sung-giua-duong-mua-di-tiep-hay-thay-chan-tron-khi-phanh-va-cach-hong-giay-sau-chuyen",
    "notes": "source=topic-v2 topicId=T001821",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:44:35.171Z",
-   "updatedAt": "2026-10-14T05:44:35.171Z"
+   "updatedAt": "2026-10-14T05:49:11.010Z",
+   "seoScore": 100,
+   "words": 2907
   },
   {
    "id": "S01660",
@@ -24217,11 +24223,13 @@
    "title": "Đội mũ lưỡi trai, khăn trùm đầu hay đeo kẹp tóc, khuyên tai dưới mũ bảo hiểm: có sao không",
    "primaryIntent": "informational/doi-mu-luoi-trai-khan-trum-dau-hay-deo-kep-toc-khuyen-tai-duoi-mu-bao-hiem-co-sao-khong",
    "notes": "source=topic-v2 topicId=T001822",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:44:35.214Z",
-   "updatedAt": "2026-10-14T05:44:35.214Z"
+   "updatedAt": "2026-10-14T05:49:11.010Z",
+   "seoScore": 100,
+   "words": 2980
   },
   {
    "id": "S01661",
@@ -24230,11 +24238,13 @@
    "title": "Ống xả xe máy bị tuột, xệ hoặc kéo lê trên đường khi đang chạy: dừng thế nào, tránh bỏng và việc cần làm sau đó",
    "primaryIntent": "troubleshooting/ong-xa-xe-may-bi-tuot-xe-hoac-keo-le-tren-duong-khi-dang-chay-dung-the-nao-tranh-bong-va-viec-can-lam-sau-do",
    "notes": "source=topic-v2 topicId=T001823",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:44:35.259Z",
-   "updatedAt": "2026-10-14T05:44:35.259Z"
+   "updatedAt": "2026-10-14T05:49:11.010Z",
+   "seoScore": 100,
+   "words": 3018
   },
   {
    "id": "S01662",
@@ -24243,11 +24253,13 @@
    "title": "Người ngồi sau đột ngột hoảng sợ, siết chặt hay giật người khi xe đang chạy: giữ lái, giảm tốc và dừng đúng lúc",
    "primaryIntent": "informational/nguoi-ngoi-sau-dot-ngot-hoang-so-siet-chat-hay-giat-nguoi-khi-xe-dang-chay-giu-lai-giam-toc-va-dung-dung-luc",
    "notes": "source=topic-v2 topicId=T001824",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:44:35.299Z",
-   "updatedAt": "2026-10-14T05:44:35.299Z"
+   "updatedAt": "2026-10-14T05:49:11.010Z",
+   "seoScore": 100,
+   "words": 2914
   },
   {
    "id": "S01663",
@@ -24256,11 +24268,13 @@
    "title": "Đèn pha xe phía sau chiếu chói vào gương khi đi xe máy ban đêm: không quay đầu nhìn, giữ làn và để xe sau vượt",
    "primaryIntent": "informational/den-pha-xe-phia-sau-chieu-choi-vao-guong-khi-di-xe-may-ban-dem-khong-quay-dau-nhin-giu-lan-va-de-xe-sau-vuot",
    "notes": "source=topic-v2 topicId=T001825",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:44:35.336Z",
-   "updatedAt": "2026-10-14T05:44:35.336Z"
+   "updatedAt": "2026-10-14T05:49:11.010Z",
+   "seoScore": 91,
+   "words": 3205
   }
  ]
 }
