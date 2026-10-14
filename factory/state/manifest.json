@@ -1892,6 +1892,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/truyen-dong/chan-xich-xe-so-bi-nut-co-vao-xich-hoac-keu-che-chan-gi-va-vi-sao-khong-nen-thao-bo/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/chat-hang-nang-len-xe-may-roi-moi-len-xe-dung-chan-chong-nao-khi-chat-ha-chan-chong-khi-duoi-nang-va-buoc-len-yen/index.html",
   "kind": "article"
  },
@@ -3728,6 +3732,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/phanh-xe-may-an-kem-sau-mua-rua-xe-hoac-loi-nuoc-vi-sao-phanh-uot-lam-kho-an-toan-va-khi-nao-can-tho/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/van-de-thuong-gap/phong-bi-giat-dien-thoai-tui-xach-khi-di-xe-may/index.html",
   "kind": "article"
  },
@@ -4004,11 +4012,19 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dong-co/tam-chan-nhiet-ong-xa-xe-may-keu-rung-mop-hoac-roi-mat-bao-ve-gi-va-vi-sao-khong-nen-thao-bo/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/tam-nhin-khi-lai/index.html",
   "kind": "article"
  },
  {
   "rel": "garage/truyen-dong/tay-con-xe-may-nang-hoac-ro-day-con/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/loi-thuong-gap/tay-dat-sau-xe-may-bi-long-ro-hoac-nut-dung-de-lam-gi-kiem-tra-the-nao-va-khi-nao-khong-nen-bam/index.html",
   "kind": "article"
  },
  {

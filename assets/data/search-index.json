@@ -14186,6 +14186,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/truyen-dong/chan-xich-xe-so-bi-nut-co-vao-xich-hoac-keu-che-chan-gi-va-vi-sao-khong-nen-thao-bo/",
+  "title": "Chắn xích xe số bị nứt, cọ vào xích hoặc kêu: che chắn những gì và vì sao không nên tháo bỏ",
+  "description": "Chắn xích xe số nứt, lỏng hay cọ vào xích gây tiếng kêu rè rè? Tìm hiểu chắn xích che chắn những gì, cách nhận ra tiếng cọ và vì sao không nên tháo bỏ.",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "entities": [
+   "chắn xích",
+   "hộp xích",
+   "xích truyền động",
+   "nhông xích",
+   "chân bắt chắn xích",
+   "xe số và xe côn tay"
+  ],
+  "keywords": [
+   "chắn xích xe số bị cọ kêu",
+   "che xích xe máy bị nứt",
+   "có nên tháo chắn xích xe máy",
+   "hộp xích xe số kêu"
+  ],
+  "seoTitle": "Chắn xích xe số nứt, cọ hoặc kêu: che chắn gì, vì sao nên giữ",
+  "primaryKeyword": "chắn xích xe số bị cọ kêu",
+  "headings": [
+   "Chắn xích che chắn những gì",
+   "Vì sao chắn xích nứt, lỏng hay cọ vào xích",
+   "Nhận ra tiếng cọ của chắn xích và phân biệt với tiếng xích",
+   "Vì sao không nên tháo bỏ chắn xích",
+   "Xử lý tạm, những điều nên tránh và lúc giao thợ"
+  ],
+  "summary": "Bài giải thích chắn xích hay hộp xích trên xe số và xe côn tay đang che chắn những gì: vạt áo, dây buộc đồ, chân người ngồi sau và tay trẻ nhỏ khỏi bị cuốn vào xích, đồng thời hạn chế mỡ, bùn văng và bụi cát bám xích. Nội dung chỉ ra vì sao chắn nứt, lỏng hoặc"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/chat-hang-nang-len-xe-may-roi-moi-len-xe-dung-chan-chong-nao-khi-chat-ha-chan-chong-khi-duoi-nang-va-buoc-len-yen/",
   "title": "Chất hàng nặng lên xe máy rồi mới lên xe: dựng chân chống nào khi chất, hạ chân chống khi đuôi nặng và bước lên yên",
   "description": "Chất hàng nặng lên xe máy dễ đổ vì chân chống trượt, đuôi nặng khó hạ xe và hàng cao vướng chân. Cách chọn nền, chân chống, hạ xe và lên yên an toàn.",
@@ -28900,6 +28932,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/phanh/phanh-xe-may-an-kem-sau-mua-rua-xe-hoac-loi-nuoc-vi-sao-phanh-uot-lam-kho-an-toan-va-khi-nao-can-tho/",
+  "title": "Phanh xe máy ăn kém sau mưa, rửa xe hoặc lội nước: vì sao phanh ướt, làm khô an toàn và lúc nào nên nhờ thợ",
+  "description": "Phanh xe máy ăn kém sau mưa, rửa xe hay lội nước: vì sao phanh ướt bám kém, đĩa và tang trống khác nhau ra sao, cách làm khô an toàn và dấu hiệu nên tới thợ.",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "entities": [
+   "phanh đĩa",
+   "phanh tang trống",
+   "má phanh",
+   "lớp nước mỏng giữa hai bề mặt ma sát",
+   "nước rửa xe và chất xịt",
+   "vết dầu quanh cụm phanh"
+  ],
+  "keywords": [
+   "phanh xe máy ăn kém sau khi rửa xe",
+   "phanh bị ướt sau khi đi mưa",
+   "phanh không ăn sau khi lội nước",
+   "phanh tang trống bị nước vào"
+  ],
+  "seoTitle": "Phanh xe máy ăn kém sau mưa, rửa xe, lội nước: vì sao và cách làm khô",
+  "primaryKeyword": "phanh xe máy ăn kém sau khi rửa xe",
+  "headings": [
+   "Vì sao phanh ướt ăn kém hơn lúc khô",
+   "Phanh đĩa và phanh tang trống khác nhau thế nào khi bị ướt",
+   "Làm khô phanh an toàn trước khi vào đường đông",
+   "Khi không chỉ là nước: xà phòng, dầu mỡ và chất xịt dính lên phanh",
+   "Dấu hiệu nên đưa xe tới thợ"
+  ],
+  "summary": "Phanh xe máy thường ăn kém trong vài lần bóp đầu tiên sau mưa, sau khi rửa xe hoặc lội qua đoạn ngập, dù tay phanh vẫn cứng như cũ. Phần giải thích cho thấy lớp nước mỏng giữa má phanh và đĩa hay tang trống làm giảm ma sát ra sao, vì sao phanh đĩa khô nhanh hơ"
+ },
+ {
+  "kind": "article",
   "url": "hub/van-de-thuong-gap/phong-bi-giat-dien-thoai-tui-xach-khi-di-xe-may/",
   "title": "Phòng bị giật điện thoại, túi xách khi đi xe máy: để đồ ở đâu, lúc dừng đèn đỏ và phản ứng an toàn khi bị giật",
   "description": "Cách phòng bị giật điện thoại, túi xách khi đi xe máy: những lúc dễ bị giật, để đồ ở đâu, dừng đèn đỏ ra sao, buông đồ khi bị giật và việc cần làm sau đó.",
@@ -31107,6 +31171,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/dong-co/tam-chan-nhiet-ong-xa-xe-may-keu-rung-mop-hoac-roi-mat-bao-ve-gi-va-vi-sao-khong-nen-thao-bo/",
+  "title": "Tấm chắn nhiệt ống xả xe máy kêu rung, móp hoặc rơi mất: bảo vệ gì và vì sao không nên tháo bỏ",
+  "description": "Tấm chắn nhiệt ống xả xe máy kêu rung, móp hay rơi mất bảo vệ chân và đồ đạc ra sao? Cách phân biệt tiếng rè, kiểm tra khi xe nguội và lúc nên giao thợ.",
+  "category": "Sửa chữa",
+  "hub": "Động cơ",
+  "entities": [
+   "tấm chắn nhiệt ống xả",
+   "ống xả xe máy",
+   "chân bắt và đai kẹp",
+   "bỏng do ống xả",
+   "ốp nhựa và dây điện gần ống xả",
+   "tiếng rè kim loại"
+  ],
+  "keywords": [
+   "tấm chắn nhiệt ống xả xe máy kêu rung",
+   "ốp chắn nhiệt pô xe máy bị móp",
+   "tấm che pô xe máy rơi mất",
+   "có nên tháo tấm chắn nhiệt ống xả"
+  ],
+  "seoTitle": "Tấm chắn nhiệt ống xả xe máy kêu rung, móp: vì sao không nên tháo bỏ",
+  "primaryKeyword": "tấm chắn nhiệt ống xả xe máy kêu rung",
+  "headings": [
+   "Tấm chắn nhiệt bảo vệ những gì",
+   "Vì sao tấm chắn nhiệt kêu rung, móp hay lỏng",
+   "Phân biệt tiếng tấm chắn với tiếng ống xả và tiếng kim loại nguội",
+   "Vì sao không nên tháo bỏ hay quấn tạm",
+   "Kiểm tra khi xe nguội và lúc giao thợ"
+  ],
+  "summary": "Bài giải thích tấm chắn nhiệt bên ngoài ống xả bảo vệ những gì: bắp chân, ống quần, trẻ nhỏ, người đi đường, cùng quần áo, túi đồ, dây điện, ốp nhựa và cốp ở gần. Nội dung nêu các nguyên nhân khiến tấm chắn kêu rung, móp hoặc lỏng, cách phân biệt tiếng rè của "
+ },
+ {
+  "kind": "article",
   "url": "ride/an-toan-giao-thong/tam-nhin-khi-lai/",
   "title": "Tổng hợp kiến thức: tầm nhìn khi lái",
   "description": "Tầm nhìn khi lái xe máy: tốc độ theo những gì thấy được, ba vùng nhìn, vùng mù của bạn và xe khác, cách mở tầm nhìn và đi trong điều kiện xấu.",
@@ -31168,6 +31264,38 @@
    "Việc nên làm và lúc giao thợ"
   ],
   "summary": "Tay côn nặng, cứng hay rơ là triệu chứng chung của nhiều nguyên nhân nằm dọc đường truyền lực từ tay lái xuống động cơ. Bài này mô tả đường đi của dây côn, các hướng nghi ngờ khi tay côn nặng, cách nhận ra dây giãn hoặc chỉnh lệch, cách phân biệt lỗi ở dây với"
+ },
+ {
+  "kind": "article",
+  "url": "garage/loi-thuong-gap/tay-dat-sau-xe-may-bi-long-ro-hoac-nut-dung-de-lam-gi-kiem-tra-the-nao-va-khi-nao-khong-nen-bam/",
+  "title": "Tay dắt sau xe máy bị lỏng, rơ hoặc nứt: dùng để làm gì, kiểm tra thế nào và khi nào không nên bám",
+  "description": "Tay dắt sau xe máy bị lỏng, rơ hay nứt có thể gây nguy hiểm cho người ngồi sau. Công dụng, nguyên nhân, cách kiểm tra khi xe nguội và lúc nào cần giao thợ.",
+  "category": "Sửa chữa",
+  "hub": "Lỗi thường gặp",
+  "entities": [
+   "tay dắt sau xe máy",
+   "tay nắm sau",
+   "chân bắt tay dắt",
+   "khung sau xe máy",
+   "nứt mỏi kim loại",
+   "chân chống đứng"
+  ],
+  "keywords": [
+   "tay dắt sau xe máy bị lỏng",
+   "tay nắm sau xe máy bị nứt",
+   "tay vịn cho người ngồi sau xe máy",
+   "kiểm tra tay dắt sau xe máy"
+  ],
+  "seoTitle": "Tay dắt sau xe máy lỏng, rơ hoặc nứt: cách kiểm tra, lúc nên ngừng bám",
+  "primaryKeyword": "tay dắt sau xe máy bị lỏng",
+  "headings": [
+   "Tay dắt sau dùng để làm gì và gắn vào đâu",
+   "Vì sao tay dắt bị lỏng, rơ hay nứt",
+   "Kiểm tra tay dắt khi xe nguội và đứng vững",
+   "Những thói quen làm hỏng tay dắt",
+   "Khi nào không nên bám và lúc giao thợ"
+  ],
+  "summary": "Bài giải thích tay dắt sau xe máy dùng để làm gì: chỗ bám cho người ngồi sau, điểm cầm khi kéo xe lên chân chống đứng và khi dắt lùi, xoay xe. Nội dung nói về cách tay dắt gắn vào khung, vì sao nó lỏng ốc, rơ chân bắt hay nứt mỏi, cách lắc nhẹ, nhìn và nghe kh"
  },
  {
   "kind": "article",

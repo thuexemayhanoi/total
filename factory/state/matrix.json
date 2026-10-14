@@ -22998,11 +22998,13 @@
    "title": "Tay dắt sau xe máy bị lỏng, rơ hoặc nứt: dùng để làm gì, kiểm tra thế nào và khi nào không nên bám",
    "primaryIntent": "troubleshooting/tay-dat-sau-xe-may-bi-long-ro-hoac-nut-dung-de-lam-gi-kiem-tra-the-nao-va-khi-nao-khong-nen-bam",
    "notes": "source=topic-v2 topicId=T001713",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T00:43:56.366Z",
-   "updatedAt": "2026-10-14T00:43:56.367Z"
+   "updatedAt": "2026-10-14T00:49:22.752Z",
+   "seoScore": 100,
+   "words": 2945
   },
   {
    "id": "S01578",
@@ -23011,11 +23013,13 @@
    "title": "Phanh xe máy ăn kém sau mưa, rửa xe hoặc lội nước: vì sao phanh ướt, làm khô an toàn và lúc nào nên nhờ thợ",
    "primaryIntent": "troubleshooting/phanh-xe-may-an-kem-sau-mua-rua-xe-hoac-loi-nuoc-vi-sao-phanh-uot-lam-kho-an-toan-va-khi-nao-can-tho",
    "notes": "source=topic-v2 topicId=T001714",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T00:43:56.413Z",
-   "updatedAt": "2026-10-14T00:43:56.413Z"
+   "updatedAt": "2026-10-14T00:49:22.752Z",
+   "seoScore": 91,
+   "words": 3095
   },
   {
    "id": "S01579",
@@ -23024,11 +23028,13 @@
    "title": "Chắn xích xe số bị nứt, cọ vào xích hoặc kêu: che chắn những gì và vì sao không nên tháo bỏ",
    "primaryIntent": "troubleshooting/chan-xich-xe-so-bi-nut-co-vao-xich-hoac-keu-che-chan-gi-va-vi-sao-khong-nen-thao-bo",
    "notes": "source=topic-v2 topicId=T001715",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T00:43:56.454Z",
-   "updatedAt": "2026-10-14T00:43:56.454Z"
+   "updatedAt": "2026-10-14T00:49:22.752Z",
+   "seoScore": 100,
+   "words": 2781
   },
   {
    "id": "S01580",
@@ -23037,11 +23043,13 @@
    "title": "Tấm chắn nhiệt ống xả xe máy kêu rung, móp hoặc rơi mất: bảo vệ gì và vì sao không nên tháo bỏ",
    "primaryIntent": "troubleshooting/tam-chan-nhiet-ong-xa-xe-may-keu-rung-mop-hoac-roi-mat-bao-ve-gi-va-vi-sao-khong-nen-thao-bo",
    "notes": "source=topic-v2 topicId=T001716",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T00:43:56.489Z",
-   "updatedAt": "2026-10-14T00:43:56.489Z"
+   "updatedAt": "2026-10-14T00:49:22.752Z",
+   "seoScore": 100,
+   "words": 3090
   },
   {
    "id": "S01581",
