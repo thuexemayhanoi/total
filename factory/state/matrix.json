@@ -24033,11 +24033,13 @@
    "title": "Nắp cống gang cong vênh nhô lên mặt đường sau mưa: vì sao dễ làm xe máy ngã và né như thế nào",
    "primaryIntent": "informational/nap-cong-gang-cong-venh-nho-len-mat-duong-sau-mua-vi-sao-de-lam-xe-may-nga-va-ne-nhu-the-nao",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:01.989Z",
-   "updatedAt": "2026-10-14T05:43:01.993Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 91,
+   "words": 2714
   },
   {
    "id": "S01647",
@@ -24046,11 +24048,13 @@
    "title": "Vệt mastic vá đường chưa khô bóng loáng giữa nắng: nhận ra vết trơn như băng và qua thế nào",
    "primaryIntent": "informational/vet-mastic-va-duong-chua-kho-bong-loang-giua-nang-nhan-ra-vet-tron-nhu-bang-va-qua-the-nao",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:02.163Z",
-   "updatedAt": "2026-10-14T05:43:02.165Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 91,
+   "words": 2706
   },
   {
    "id": "S01648",
@@ -24059,11 +24063,13 @@
    "title": "Vũng nước loang che ổ gà bên dưới: đọc mặt nước để quyết định qua hay vòng",
    "primaryIntent": "informational/vung-nuoc-loang-che-o-ga-ben-duoi-doc-mat-nuoc-de-quyet-dinh-qua-hay-vong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:02.317Z",
-   "updatedAt": "2026-10-14T05:43:02.319Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 100,
+   "words": 2732
   },
   {
    "id": "S01649",
@@ -24072,11 +24078,13 @@
    "title": "Gờ giảm tốc cao không sơn vạch giữa đêm: phát hiện sớm và qua sao cho khỏi bay người",
    "primaryIntent": "informational/go-giam-toc-cao-khong-son-vach-giua-dem-phat-hien-som-va-qua-sao-cho-khoi-bay-nguoi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:02.468Z",
-   "updatedAt": "2026-10-14T05:43:02.470Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 100,
+   "words": 2874
   },
   {
    "id": "S01650",
@@ -24085,11 +24093,13 @@
    "title": "Đường bê tông cũ nứt từng mảng lồi lõm: giữ xe thế nào cho êm và không xộc kính",
    "primaryIntent": "informational/duong-be-tong-cu-nut-tung-mang-loi-lom-giu-xe-the-nao-cho-em-va-khong-xoc-kinh",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:02.596Z",
-   "updatedAt": "2026-10-14T05:43:02.598Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 100,
+   "words": 2897
   },
   {
    "id": "S01651",
@@ -24098,11 +24108,13 @@
    "title": "Lớp cát khô phủ mặt đường cong sau công trình: vì sao phanh và nghiêng đều mất tác dụng",
    "primaryIntent": "informational/lop-cat-kho-phu-mat-duong-cong-sau-cong-trinh-vi-sao-phanh-va-nghieng-deu-mat-tac-dung",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:02.725Z",
-   "updatedAt": "2026-10-14T05:43:02.727Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 91,
+   "words": 2941
   },
   {
    "id": "S01652",
@@ -24111,11 +24123,13 @@
    "title": "Tai nạn lại xảy ra ngay gần nhà: vì sao tuyến quen làm người lơ là và thói quen cần đổi",
    "primaryIntent": "informational/tai-nan-lai-xay-ra-ngay-gan-nha-vi-sao-tuyen-quen-lam-nguoi-lo-la-va-thoi-quen-can-doi",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:10.442Z",
-   "updatedAt": "2026-10-14T05:43:10.444Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 100,
+   "words": 3087
   },
   {
    "id": "S01653",
@@ -24124,11 +24138,13 @@
    "title": "Vết nứt nhỏ trên hông lốp xe máy cũ: vết nào chỉ là da già, vết nào phải thay không chần chừ",
    "primaryIntent": "informational/vet-nut-nho-tren-hong-lop-xe-may-cu-vet-nao-chi-la-da-gia-vet-nao-phai-thay-khong-chan-chu",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:10.565Z",
-   "updatedAt": "2026-10-14T05:43:10.567Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 91,
+   "words": 3040
   },
   {
    "id": "S01654",
@@ -24137,11 +24153,13 @@
    "title": "Xe để vài ngày không đi rồi đi lại: những gì đổi trên xe và nên kiểm gì trước khi ra đường",
    "primaryIntent": "informational/xe-de-vai-ngay-khong-di-roi-di-lai-nhung-gi-doi-tren-xe-va-nen-kiem-gi-truoc-khi-ra-duong",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:10.683Z",
-   "updatedAt": "2026-10-14T05:43:10.684Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 91,
+   "words": 2922
   },
   {
    "id": "S01655",
@@ -24150,11 +24168,13 @@
    "title": "Nửa bánh xe trước lạc vào rãnh mép đường ven lòng đường: lấy xe ra mà không ngã",
    "primaryIntent": "informational/nua-banh-xe-truoc-lac-vao-ranh-mep-duong-ven-long-duong-lay-xe-ra-ma-khong-nga",
    "notes": "",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T05:43:10.795Z",
-   "updatedAt": "2026-10-14T05:43:10.797Z"
+   "updatedAt": "2026-10-14T06:04:05.969Z",
+   "seoScore": 91,
+   "words": 2968
   },
   {
    "id": "S01656",

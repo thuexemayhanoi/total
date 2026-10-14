@@ -2832,6 +2832,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/duong-be-tong-cu-nut-tung-mang-loi-lom-giu-xe-the-nao-cho-em-va-khong-xoc-kinh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/ha-noi/duong-cam-xe-may-ha-noi/index.html",
   "kind": "article"
  },
@@ -3181,6 +3185,10 @@
  },
  {
   "rel": "map/bai-do-xe/giu-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/go-giam-toc-cao-khong-son-vach-giua-dem-phat-hien-som-va-qua-sao-cho-khoi-bay-nguoi/index.html",
   "kind": "article"
  },
  {
@@ -3552,6 +3560,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/lop-cat-kho-phu-mat-duong-cong-sau-cong-trinh-vi-sao-phanh-va-nghieng-deu-mat-tac-dung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/lop-dac-cho-xe-may-co-nen-dung/index.html",
   "kind": "article"
  },
@@ -3756,6 +3768,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/nap-cong-gang-cong-venh-nho-len-mat-duong-sau-mua-vi-sao-de-lam-xe-may-nga-va-ne-nhu-the-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "local/tp-hcm/ngap-duong-sai-gon/index.html",
   "kind": "article"
  },
@@ -3861,6 +3877,10 @@
  },
  {
   "rel": "guide/su-dung-xe/no-may-xe-may-trong-nha-gara-hay-phong-kin-vi-sao-khi-thai-nguy-hiem-va-thoi-quen-dat-xe-ra-roi-moi-no/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/nua-banh-xe-truoc-lac-vao-ranh-mep-duong-ven-long-duong-lay-xe-ra-ma-khong-nga/index.html",
   "kind": "article"
  },
  {
@@ -4229,6 +4249,10 @@
  },
  {
   "rel": "docs/tai-lieu-tham-khao/tai-lieu-tham-khao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/tai-nan-lai-xay-ra-ngay-gan-nha-vi-sao-tuyen-quen-lam-nguoi-lo-la-va-thoi-quen-can-doi/index.html",
   "kind": "article"
  },
  {
@@ -5436,7 +5460,15 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/vet-mastic-va-duong-chua-kho-bong-loang-giua-nang-nhan-ra-vet-tron-nhu-bang-va-qua-the-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/vet-nang-loang-lo-duoi-hang-cay-khi-di-xe-may-mat-chua-kip-quen-va-o-ga-bi-che/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/chuan-doan-loi/vet-nut-nho-tren-hong-lop-xe-may-cu-vet-nao-chi-la-da-gia-vet-nao-phai-thay-khong-chan-chu/index.html",
   "kind": "article"
  },
  {
@@ -5457,6 +5489,10 @@
  },
  {
   "rel": "wiki/thuat-ngu-xe/vong-tua-may-xe-may-la-gi-va-vach-do-tren-dong-ho/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/vung-nuoc-loang-che-o-ga-ben-duoi-doc-mat-nuoc-de-quyet-dinh-qua-hay-vong/index.html",
   "kind": "article"
  },
  {
@@ -5501,6 +5537,10 @@
  },
  {
   "rel": "learn/kien-thuc-xe-dien/xe-dap-tro-luc-dien-khac-xe-dap-dien-van-ga-the-nao-cam-bien-ban-dap-cam-giac-xe-tu-day-va-thoi-quen-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/bao-duong/xe-de-vai-ngay-khong-di-roi-di-lai-nhung-gi-doi-tren-xe-va-nen-kiem-gi-truoc-khi-ra-duong/index.html",
   "kind": "article"
  },
  {
