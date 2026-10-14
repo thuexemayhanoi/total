@@ -1,0 +1,34 @@
+name: Three Writers Fast QA (branch-only)
+on:
+  push:
+    branches: [feat/three-external-writers-20261014]
+    paths:
+      - 'factory/lib/multi-writer.js'
+      - 'factory/lib/factory-runtime.js'
+      - 'factory/factory.js'
+      - 'factory/test-three-writers.js'
+      - 'factory/test-topic-v2.js'
+      - 'factory/test-coordinator.js'
+      - '.github/workflows/three-writer-fast-qa.yml'
+permissions:
+  contents: read
+concurrency:
+  group: three-writer-fast-only
+  cancel-in-progress: true
+jobs:
+  unit-and-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Multi-writer ownership and 30-draft queue
+        run: node factory/test-three-writers.js
+      - name: Topic Factory V2 semantic approval regression
+        run: node factory/test-topic-v2.js
+      - name: Legacy coordinator fixture and watchdog regression
+        run: node factory/test-coordinator.js
+      - name: Byte-for-byte production source protection
+        run: git diff --exit-code
