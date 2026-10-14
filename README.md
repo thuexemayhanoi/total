@@ -52,5 +52,10 @@ Expand chỉ tăng logical capacity — không preallocate slot, giữ nguyên m
 - Không bịa dữ kiện kinh doanh — chỉ dùng dữ liệu đã xác minh.
 - Chi tiết đầy đủ trong `AGENTS.md` và `docs/`.
 
-## Vận hành tự động
-Luồng publish chính: **pair mode** (WRITER 1 viết đúng 2 bài/lần, PAIR_SIZE = 2, push main → `factory-publish` xử lý EXACT push scope: `publish-pair` scoped QA minimal ≥ 70 → sinh site → verify-pair → atomic COMMIT txn; checkpoint + heartbeat sau mỗi pair, mô hình 3 vai trò WRITER 1 / ĐỐC CÔNG 2 / ĐỐC CÔNG 3 xem docs/PRODUCTION-ROLES.md). Các lệnh `cycle-plan/cycle-qa/cycle-publish` chỉ còn là legacy recovery thủ công — KHÔNG còn phân công 3 writer. CI `article-quality` phân mode bằng `change-mode` (CONTENT_ONLY → verify-sources scoped; ENGINE_CHANGE → heavy gate full suites); full-site audit chỉ ở `factory-deep-audit` MANUAL-ONLY (workflow_dispatch) — KHÔNG thuộc production loop. Content index: article-manifest.jsonl là source of truth, content-index.sqlite là derived cache (không commit, chỉ coordinator ghi/rebuild). Không cron AI writing, không AI/API trong Actions, không force push.
+## Vận hành tự động — 3 Writer AI ngoài, 1 Publisher
+
+**W1, W2, W3** là ba phiên AI bên ngoài hoạt động đồng thời (Mistral/Claude/ChatGPT hoặc AI người dùng chọn). Mỗi phiên lấy đúng phần ID của mình qua `node factory/factory.js writer-pack --writer Wn --count 10`, viết module trong `factory/data/articles/` và kiểm tra `writer-verify` trước khi push. Không AI API, không mô hình AI nguồn mở, không gọi AI từ GitHub Actions.
+
+`Factory Publish Lite` là **publisher duy nhất**, khóa nhóm `total-production` cùng Coordinator: luôn fetch `main` mới và drain tối đa 3 batch × 10 bài đã push với QA ≥70, link-integrity, manifest/index check, commit an toàn, không force push. Topic Factory V2 vẫn yêu cầu duyệt chủ đề; các lệnh pair/cycle chỉ dùng recovery. Heartbeat ba Writer tách riêng và Watchdog chỉ theo dõi; không tự mở phiên AI.
+
+Xem [Runbook W1/W2/W3](docs/THREE-EXTERNAL-WRITERS.md), [Production Roles](docs/PRODUCTION-ROLES.md). Bản này là tính năng đang QA trên branch, chỉ hoạt động production sau merge được chủ repo duyệt.

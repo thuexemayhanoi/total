@@ -33,17 +33,20 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → REPAIR → QA → BLOCKED.
 Trong cycle: một bài FAIL → repair queue, KHÔNG giữ cycle (bài PASS vẫn publish).
 
-## Production 3 vai trò (docs/PRODUCTION-ROLES.md)
+## 3 Writer AI ngoài — 1 Publisher duy nhất
+
 ```
-WRITER 1 (writer duy nhất, mỗi pair 2 bài):
-  writer-next → viết 2 bài → verify-sources → push bài + heartbeat
-  → factory-publish.yml publish (scoped QA ≥ 70, atomic txn)
-  → checkpoint khớp state → pair kế
-ĐỐC CÔNG 2: production-status/liveness → sửa lỗi → error-log (escalated tại 3 lần thử)
-ĐỐC CÔNG 3: xử lý entry escalated trong error-queue.json → error-resolve → bàn giao lại
+W1: writer-pack --writer W1 --count 10 → viết module riêng → writer-verify → push
+W2: writer-pack --writer W2 --count 10 → viết module riêng → writer-verify → push
+W3: writer-pack --writer W3 --count 10 → viết module riêng → writer-verify → push
+              ↓ shared article backlog trên main
+     Factory Publish Lite (serial, QA ≥70, tối đa 30/run)
+              ↓ scoped link QA → Content Index → 1 commit
 ```
-Legacy recovery (chỉ chạy thủ công, KHÔNG còn 3 writer): `cycle-plan` → `cycle-qa` → `cycle-publish` (coordinator duy nhất, build/deploy ĐÚNG 1 lần).
-Coordinator tự động: `factory-coordinator.yml` tick mỗi 10 phút (cron lệch phút, concurrency `total-production` dùng chung với factory-publish.yml) — maintenance only: recover-txn → check-state → queue-refill → manifest-sync → verify-invariant → production-status → commit state CHỈ KHI có diff thật. Mỗi run bounded một tick, KHÔNG while-true. Writer là external (session Mistral ngoài) đọc `writer-next` — Actions không tự viết bài; `factory-liveness.yml` mỗi giờ chỉ phát hiện đứng/lỗi (Actions đỏ), không tự resume.
+
+Ba Writer dùng working copy riêng và ID shard cố định; bài có lỗi vẫn giữ quyền của Writer đó. Coordinator thực hiện maintenance, không viết prose; Watchdog chỉ đọc heartbeat riêng của W1/W2/W3. Không AI API hoặc tự đánh thức AI khi mất quota. Giữ Topic V2 approval; một publisher xử lý state chung theo `total-production` nên không có hai tác vụ ghi Matrix đồng thời. Các lệnh pair/cycle là đường recovery cũ.
+
+Chi tiết: [THREE-EXTERNAL-WRITERS.md](../docs/THREE-EXTERNAL-WRITERS.md) và [PRODUCTION-ROLES.md](../docs/PRODUCTION-ROLES.md).
 
 ## Content index (scale 10k–100k bài)
 - `state/article-manifest.jsonl` (commit) + content files = SOURCE OF TRUTH.
