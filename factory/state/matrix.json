@@ -23178,11 +23178,13 @@
    "title": "Xăng dính vào da, quần áo hoặc bắn vào mắt khi đổ và chiết xăng: xử lý ngay, tránh lửa và khi nào cần đi khám",
    "primaryIntent": "informational/xang-dinh-vao-da-quan-ao-hoac-ban-vao-mat-khi-do-va-chiet-xang-xu-ly-ngay-tranh-lua-va-khi-nao-can-di-kham",
    "notes": "source=topic-v2 topicId=T001725",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:11:59.190Z",
-   "updatedAt": "2026-10-14T01:11:59.190Z"
+   "updatedAt": "2026-10-14T01:17:35.035Z",
+   "seoScore": 91,
+   "words": 3009
   },
   {
    "id": "S01590",
@@ -23191,11 +23193,13 @@
    "title": "Tự bảo dưỡng xe máy xong, trước khi nổ máy: vòng kiểm tra cuối cho nắp nhớt, ốc xả, giắc điện và dụng cụ bỏ quên",
    "primaryIntent": "informational/tu-bao-duong-xe-may-xong-truoc-khi-no-may-vong-kiem-tra-cuoi-cho-nap-nhot-oc-xa-giac-dien-va-dung-cu-bo-quen",
    "notes": "source=topic-v2 topicId=T001726",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:11:59.236Z",
-   "updatedAt": "2026-10-14T01:11:59.236Z"
+   "updatedAt": "2026-10-14T01:17:35.035Z",
+   "seoScore": 100,
+   "words": 2965
   },
   {
    "id": "S01591",
@@ -23204,11 +23208,13 @@
    "title": "Xe máy điện sau cú ngã hoặc va mạnh vào gầm: kiểm tra pin, giắc nối và cổng sạc trước khi sạc lại",
    "primaryIntent": "troubleshooting/xe-may-dien-sau-cu-nga-hoac-va-manh-vao-gam-kiem-tra-pin-giac-noi-va-cong-sac-truoc-khi-sac-lai",
    "notes": "source=topic-v2 topicId=T001727",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:11:59.269Z",
-   "updatedAt": "2026-10-14T01:11:59.269Z"
+   "updatedAt": "2026-10-14T01:17:35.035Z",
+   "seoScore": 100,
+   "words": 3080
   },
   {
    "id": "S01592",
@@ -23217,11 +23223,13 @@
    "title": "Sửa xe máy xong mà lỗi cũ vẫn còn hoặc quay lại: kiểm tra theo thứ tự, nói với thợ thế nào và khi nào ngừng đi xe",
    "primaryIntent": "troubleshooting/sua-xe-may-xong-ma-loi-cu-van-con-hoac-quay-lai-kiem-tra-theo-thu-tu-noi-voi-tho-the-nao-va-khi-nao-ngung-di-xe",
    "notes": "source=topic-v2 topicId=T001728",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T01:11:59.298Z",
-   "updatedAt": "2026-10-14T01:11:59.298Z"
+   "updatedAt": "2026-10-14T01:17:35.035Z",
+   "seoScore": 100,
+   "words": 3016
   }
  ]
 }
