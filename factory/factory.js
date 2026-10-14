@@ -1927,7 +1927,7 @@ function main() {
       console.log(JSON.stringify(pack, null, 2));
       return;
     }
-    console.log('WRITER_PACK writer=' + writer + ' shard=' + shard.k + '/' + shard.n + ' status=' + status + ' count=' + items.length +
+    console.log('WRITER_PACK status=' + status + ' count=' + items.length + ' writer=' + writer + ' shard=' + shard.k + '/' + shard.n +
       ' written_waiting=' + writtenWaiting + ' slots=' + m.slots.length + '/' + m.plannedTarget);
     if (items.length) console.log('BATCH_IDS=' + items.map(x => x.id).join(','));
     if (unapprovedArticles.length) console.log('WARN_UNAPPROVED_ARTICLE ids=' + unapprovedArticles.join(',') + ' (có module bài nhưng topic chưa APPROVED — verify-batch sẽ từ chối; coordinator duyệt topic hoặc gỡ module)');
