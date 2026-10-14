@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-14T06:43:15.664Z",
- "phase": "writing",
+ "at": "2026-10-14T07:16:37.449Z",
+ "phase": "waiting-publish",
  "pair": "S01694,S01695,S01696,S01697,S01698,S01699,S01700",
- "note": "vòng 121 batch 7 bài Mistral"
+ "note": null
 }
