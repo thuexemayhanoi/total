@@ -13957,6 +13957,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-bao-duong/cham-ao-mua-di-xe-may-phoi-kho-gap-cat-xu-ly-cho-tham-lop-chong-tham-bong-dinh-va-luc-nen-thay-ao-moi/",
+  "title": "Chăm áo mưa đi xe máy: phơi khô, gấp cất, xử lý chỗ thấm, lớp chống thấm bong dính và lúc nên thay áo mới",
+  "description": "Cách bảo quản áo mưa xe máy để không hôi, không dính bết: phơi khô, gấp cất, làm sạch, xử lý chỗ thấm, vạt rách và dấu hiệu nên thay áo mới.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "áo mưa xe máy",
+   "lớp chống thấm",
+   "đường may",
+   "mũ trùm và dây rút",
+   "cốp xe",
+   "miếng vá"
+  ],
+  "keywords": [
+   "cách bảo quản áo mưa xe máy",
+   "áo mưa bị dính vào nhau",
+   "áo mưa có mùi hôi",
+   "khi nào nên thay áo mưa mới"
+  ],
+  "seoTitle": "Cách bảo quản áo mưa xe máy: phơi, cất, vá và lúc nên thay",
+  "primaryKeyword": "cách bảo quản áo mưa xe máy",
+  "headings": [
+   "Vì sao áo mưa nhanh xuống cấp",
+   "Phơi khô và gấp cất áo mưa đúng cách",
+   "Làm sạch áo mưa và xử lý mùi hôi",
+   "Xử lý chỗ thấm, chỗ rách và lớp chống thấm bong dính",
+   "Lúc nên thay áo mưa mới"
+  ],
+  "summary": "Bài giải thích vì sao áo mưa dùng chưa lâu đã có mùi hôi, dính bết vào nhau, bong lớp chống thấm hoặc thấm ở đường may, rồi hướng dẫn cách giữ áo bền hơn. Nội dung đi qua việc rũ nước, phơi khô cả mặt trong, gấp lỏng và cất riêng, cách làm sạch nhẹ nhàng bằng "
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/cham-soc-xe-may/",
   "title": "Chăm sóc xe máy định kỳ: lịch bảo dưỡng cơ bản cho người mới",
   "description": "Hướng dẫn chăm sóc xe máy định kỳ theo mốc km: kiểm tra dầu máy, lốp, phanh, ắc quy, xích sên và các hạng mục tự kiểm tại nhà giúp xe bền và an toàn hơn.",
@@ -27060,6 +27092,39 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-lai-xe/mieng-dan-giu-nhiet-gang-tay-va-ao-suoi-khi-di-xe-may-mua-ret-dung-sao-cho-am-ma-khong-bong-khong-vuong-tay-lai/",
+  "title": "Miếng dán giữ nhiệt, găng tay và áo sưởi khi đi xe máy mùa rét: dùng sao cho ấm mà không bỏng, không vướng tay lái",
+  "description": "Cách dùng miếng dán giữ nhiệt, găng tay sưởi và áo sưởi pin khi đi xe máy mùa rét: tránh bỏng do áp lâu, giữ tay phanh tay ga nhạy, xử lý dây và pin an toàn.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "miếng dán giữ nhiệt",
+   "túi sưởi tự sinh nhiệt",
+   "găng tay sưởi",
+   "áo sưởi dùng pin",
+   "bỏng do nhiệt kéo dài",
+   "tay phanh và tay ga"
+  ],
+  "keywords": [
+   "miếng dán giữ nhiệt khi đi xe máy",
+   "găng tay sưởi đi xe máy",
+   "áo sưởi pin khi lái xe máy",
+   "dán giữ nhiệt có bị bỏng không",
+   "dùng đồ sưởi khi đi xe máy mùa lạnh"
+  ],
+  "seoTitle": "Miếng dán giữ nhiệt, găng và áo sưởi đi xe máy: ấm mà không bỏng",
+  "primaryKeyword": "miếng dán giữ nhiệt khi đi xe máy",
+  "headings": [
+   "Các loại đồ sưởi người đi xe máy hay dùng",
+   "Nguy cơ bỏng khi đồ sưởi áp lâu một chỗ",
+   "Giữ độ nhạy của tay lái và tay phanh khi đeo găng dày",
+   "Dây, pin và cách sạc đồ sưởi cho an toàn",
+   "Giữ ấm mà không phụ thuộc vào đồ sưởi"
+  ],
+  "summary": "Bài giới thiệu các loại đồ sưởi người đi xe máy hay dùng trong mùa rét, gồm miếng dán và túi tự sinh nhiệt, găng, áo, khăn có pin hoặc dây sưởi, và tay nắm sưởi gắn vào xe. Nội dung giải thích vì sao nhiệt không cao vẫn có thể gây bỏng khi áp lâu một chỗ hoặc "
+ },
+ {
+  "kind": "article",
   "url": "wiki/thuat-ngu-xe/mo-men-xoan/",
   "title": "Hướng dẫn chi tiết về mô men xoắn",
   "description": "Mô men xoắn là gì, đơn vị Nm nghĩa sao, mô men khác công suất ở đâu, vì sao mô men quyết định cảm giác kéo của xe, và cách đọc thông số xe.",
@@ -27186,6 +27251,38 @@
    "Những dấu hiệu cho thấy phải thay mũ"
   ],
   "summary": "Bài chia các hỏng vặt của mũ bảo hiểm thành hai nhóm: bộ phận bảo vệ chính gồm vỏ, lớp xốp, quai và khóa quai, cùng bộ phận phụ như kính che, bản lề, lót và đệm má. Nội dung hướng dẫn xử lý kính lỏng, tự rơi hoặc kẹt bằng cách làm sạch rãnh, siết vít bản lề nế"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/mu-bao-hiem-xe-dap-mu-truot-patin-co-dung-di-xe-may-hay-xe-may-dien-duoc-khong-khac-nhau-o-cach-bao-ve-dau/",
+  "title": "Mũ bảo hiểm xe đạp, mũ trượt patin có dùng đi xe máy hay xe máy điện được không: khác nhau ở cách bảo vệ đầu",
+  "description": "Mũ xe đạp hay mũ trượt patin có đội đi xe máy, xe máy điện được không? Giải thích khác biệt ở cách bảo vệ đầu và cách chọn mũ cho trẻ, người mới chuyển xe.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "mũ bảo hiểm xe máy",
+   "mũ xe đạp",
+   "mũ trượt patin",
+   "lớp xốp đệm",
+   "quai cài mũ",
+   "kính che mắt"
+  ],
+  "keywords": [
+   "mũ xe đạp đội đi xe máy được không",
+   "mũ trượt patin đi xe máy điện",
+   "khác nhau giữa mũ xe đạp và mũ bảo hiểm xe máy",
+   "trẻ đội mũ xe đạp ngồi xe máy"
+  ],
+  "seoTitle": "Mũ xe đạp, mũ patin đội đi xe máy được không: khác ở cách bảo vệ đầu",
+  "primaryKeyword": "mũ xe đạp đội đi xe máy được không",
+  "headings": [
+   "Mũ xe đạp, mũ patin và mũ xe máy được làm cho kiểu va chạm khác nhau",
+   "Vì sao không nên đội mũ xe đạp hay mũ patin khi đi xe máy",
+   "Chọn mũ cho trẻ và người mới khi chuyển sang xe máy, xe máy điện",
+   "Những trường hợp hay nhầm mũ",
+   "Khi nào mũ xe đạp và mũ patin vẫn đúng chỗ"
+  ],
+  "summary": "Bài giải thích vì sao mũ xe đạp và mũ trượt patin không nên đội thay cho mũ bảo hiểm dành cho xe máy khi ngồi hay lái xe máy, xe máy điện, dù chúng nhẹ, thoáng và vừa đầu. Nội dung nói ở mức nguyên lý: mỗi loại mũ được làm cho một kiểu ngã riêng, khác nhau ở v"
  },
  {
   "kind": "article",

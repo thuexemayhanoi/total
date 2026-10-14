@@ -22908,11 +22908,13 @@
    "title": "Chăm áo mưa đi xe máy: phơi khô, gấp cất, xử lý chỗ thấm, lớp chống thấm bong dính và lúc nên thay áo mới",
    "primaryIntent": "informational/cham-ao-mua-di-xe-may-phoi-kho-gap-cat-xu-ly-cho-tham-lop-chong-tham-bong-dinh-va-luc-nen-thay-ao-moi",
    "notes": "source=topic-v2 topicId=T001707",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T23:58:42.494Z",
-   "updatedAt": "2026-10-13T23:58:42.494Z"
+   "updatedAt": "2026-10-14T00:03:53.504Z",
+   "seoScore": 91,
+   "words": 2995
   },
   {
    "id": "S01572",
@@ -22921,11 +22923,13 @@
    "title": "Mũ bảo hiểm xe đạp, mũ trượt patin có dùng đi xe máy hay xe máy điện được không: khác nhau ở cách bảo vệ đầu",
    "primaryIntent": "informational/mu-bao-hiem-xe-dap-mu-truot-patin-co-dung-di-xe-may-hay-xe-may-dien-duoc-khong-khac-nhau-o-cach-bao-ve-dau",
    "notes": "source=topic-v2 topicId=T001708",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T23:58:42.539Z",
-   "updatedAt": "2026-10-13T23:58:42.539Z"
+   "updatedAt": "2026-10-14T00:03:53.504Z",
+   "seoScore": 91,
+   "words": 3172
   },
   {
    "id": "S01573",
@@ -22934,11 +22938,13 @@
    "title": "Miếng dán giữ nhiệt, găng tay và áo sưởi khi đi xe máy mùa rét: dùng sao cho ấm mà không bỏng, không vướng tay lái",
    "primaryIntent": "informational/mieng-dan-giu-nhiet-gang-tay-va-ao-suoi-khi-di-xe-may-mua-ret-dung-sao-cho-am-ma-khong-bong-khong-vuong-tay-lai",
    "notes": "source=topic-v2 topicId=T001709",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-13T23:58:42.570Z",
-   "updatedAt": "2026-10-13T23:58:42.570Z"
+   "updatedAt": "2026-10-14T00:03:53.504Z",
+   "seoScore": 100,
+   "words": 2880
   }
  ]
 }
