@@ -215,6 +215,9 @@ function copyRepoToTmp(tag) {
   // Fixture isolation (Topic Governance V2): suite này kiểm cơ chế legacy (pair/cycle/reliability...)
   // trên slot dựng tay chưa qua duyệt topic. Hành vi enforce được test riêng trong test-topic-v2.js.
   fs.writeFileSync(path.join(tmp, 'factory', 'topic-governance.json'), JSON.stringify({ schemaVersion: 1, mode: 'off', v1Generation: 'allowed' }));
+  // Fixture isolation (error-queue): phiếu lỗi thật của repo (kể cả đã resolved) không được lẫn vào
+  // kịch bản Đốc công 2/3 — kịch bản tự tạo phiếu #1 và đếm resolved trên hàng đợi trống.
+  fs.rmSync(path.join(tmp, 'factory', 'state', 'error-queue.json'), { force: true });
   return tmp;
 }
 function P(tmp) {
@@ -422,7 +425,9 @@ let T6;
   ok(!new RegExp('/' + bad.slug + '/</loc>').test(readS(path.join(tmp, 'sitemap-articles.xml'))),
     'Bài FAIL KHÔNG nằm trong sitemap-articles (URL chính xác, không substring)');
   // ĐỐC CÔNG 2: theo dõi, thử sửa, ghi từng lần thử; quá ngưỡng -> escalated.
-  const e1 = runNode([p.factory, 'error-log', '--source', 'publisher', '--pair', badId, '--message', 'QA fail ' + badId + ' — thử 1: sửa meta'], { cwd: tmp });
+  const eq0 = runNode([p.factory, 'error-queue'], { cwd: tmp });
+  ok(/ERROR_QUEUE empty/.test(eq0.stdout), 'Fixture error-queue bắt đầu trống (không mang phiếu thật của repo)', eq0.stdout.split('\n').pop());
+  const e1 =runNode([p.factory, 'error-log', '--source', 'publisher', '--pair', badId, '--message', 'QA fail ' + badId + ' — thử 1: sửa meta'], { cwd: tmp });
   ok(e1.status === 0 && /attempts=1 status=open/.test(e1.stdout), 'error-log lần 1: open', e1.stdout);
   runNode([p.factory, 'error-log', '--source', 'publisher', '--pair', badId, '--message', 'thử 2: sửa checklist'], { cwd: tmp });
   const e3 = runNode([p.factory, 'error-log', '--source', 'publisher', '--pair', badId, '--message', 'thử 3: vẫn fail'], { cwd: tmp });

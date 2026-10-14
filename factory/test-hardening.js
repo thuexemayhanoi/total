@@ -36,6 +36,10 @@ function ok(cond, name, detail) {
 }
 function readB(file) { return fs.readFileSync(file); }
 function readS(file) { return fs.readFileSync(file, 'utf8'); }
+// Nghịch đảo của esc() trong lib/shell.js (&amp; giải mã sau cùng).
+function decodeHtml(s) {
+  return String(s).replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+}
 
 console.log('=== KIỂM THỬ HARDENING AI WIKI TOTAL ===');
 
@@ -398,6 +402,13 @@ console.log('6. Module bài viết lỗi fail loud…');
 // ---------- 7. Breadcrumb hiển thị KHỚP JSON-LD BreadcrumbList trên MỌI trang ----------
 console.log('7. Visual breadcrumb = JSON-LD BreadcrumbList…');
 {
+  // Tiêu đề có dấu nháy, ngoặc kép hay & được esc() mã hóa trong breadcrumb hiển thị nhưng giữ nguyên trong JSON-LD.
+  const { esc } = require('./lib/shell');
+  const sample = `Để 'hút gió' & "tiết kiệm" <thử>`;
+  ok(decodeHtml(esc(sample)) === sample, 'decodeHtml là nghịch đảo của esc() (nháy đơn, ngoặc kép, &, <, >)', decodeHtml(esc(sample)));
+  ok(esc(sample) !== sample, 'esc() thật sự mã hóa ký tự đặc biệt trong mẫu thử');
+}
+{
   const manifest = JSON.parse(readS(path.join(ROOT, 'factory', 'state', 'manifest.json')));
   const pages = manifest
     .filter(e => ['category', 'hub', 'article'].includes(e.kind))
@@ -410,9 +421,10 @@ console.log('7. Visual breadcrumb = JSON-LD BreadcrumbList…');
     const bcEnd = html.indexOf('</nav>', bcStart);
     ok(bcStart >= 0 && bcEnd > bcStart, `Có breadcrumb hiển thị: ${rel}`);
     const bcHtml = html.slice(bcStart, bcEnd);
-    const visualNames = [...bcHtml.matchAll(/<a class="crumb" href="[^"]*">([^<]*)<\/a>/g)].map(mm => mm[1]);
+    // So khớp chữ người đọc thấy: giải mã entity HTML (esc() trong shell.js) trước khi so với JSON-LD.
+    const visualNames = [...bcHtml.matchAll(/<a class="crumb" href="[^"]*">([^<]*)<\/a>/g)].map(mm => decodeHtml(mm[1]));
     const current = bcHtml.match(/<span class="crumb" aria-current="page">([^<]*)<\/span>/);
-    if (current) visualNames.push(current[1]);
+    if (current) visualNames.push(decodeHtml(current[1]));
     let bcLd = null;
     for (const sm of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
       try {
