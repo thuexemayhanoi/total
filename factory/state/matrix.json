@@ -23095,6 +23095,71 @@
    "updatedAt": "2026-10-14T00:51:51.845Z",
    "seoScore": 91,
    "words": 3033
+  },
+  {
+   "id": "S01584",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "gan-them-den-coi-o-sac-usb-hay-camera-cho-xe-may-dien-lay-nguon-o-dau-va-vi-sao-khong-dau-thang-vao-pin-chinh",
+   "title": "Gắn thêm đèn, còi, ổ sạc USB hay camera cho xe máy điện: lấy nguồn ở đâu và vì sao không đấu thẳng vào pin chính",
+   "primaryIntent": "informational/gan-them-den-coi-o-sac-usb-hay-camera-cho-xe-may-dien-lay-nguon-o-dau-va-vi-sao-khong-dau-thang-vao-pin-chinh",
+   "notes": "source=topic-v2 topicId=T001720",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T01:08:34.286Z",
+   "updatedAt": "2026-10-14T01:08:34.286Z"
+  },
+  {
+   "id": "S01585",
+   "hub": "review/review-phu-tung",
+   "slug": "thay-ghi-dong-cao-hon-thap-hon-hay-rong-hon-cho-xe-may-day-ga-day-phanh-day-dien-va-cam-giac-lai-doi-the-nao",
+   "title": "Thay ghi-đông cao hơn, thấp hơn hay rộng hơn cho xe máy: dây ga, dây phanh, dây điện và cảm giác lái đổi thế nào",
+   "primaryIntent": "informational/thay-ghi-dong-cao-hon-thap-hon-hay-rong-hon-cho-xe-may-day-ga-day-phanh-day-dien-va-cam-giac-lai-doi-the-nao",
+   "notes": "source=topic-v2 topicId=T001721",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T01:08:34.331Z",
+   "updatedAt": "2026-10-14T01:08:34.331Z"
+  },
+  {
+   "id": "S01586",
+   "hub": "tips/meo-tiet-kiem-xang",
+   "slug": "thiet-bi-tiet-kiem-xang-nam-cham-hay-phu-kien-duong-nap-gan-them-cho-xe-may-loi-hua-thuong-gap-va-rui-ro-khi-lap",
+   "title": "Thiết bị tiết kiệm xăng, nam châm hay phụ kiện đường nạp gắn thêm cho xe máy: lời hứa thường gặp và rủi ro khi lắp",
+   "primaryIntent": "informational/thiet-bi-tiet-kiem-xang-nam-cham-hay-phu-kien-duong-nap-gan-them-cho-xe-may-loi-hua-thuong-gap-va-rui-ro-khi-lap",
+   "notes": "source=topic-v2 topicId=T001722",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T01:08:34.368Z",
+   "updatedAt": "2026-10-14T01:08:34.368Z"
+  },
+  {
+   "id": "S01587",
+   "hub": "tips/meo-xu-ly-su-co",
+   "slug": "cho-sua-tam-bang-day-rut-bang-keo-hay-day-kem-tren-xe-may-vi-sao-tam-bo-hong-dan-va-cach-ra-lai",
+   "title": "Chỗ sửa tạm bằng dây rút, băng keo hay dây kẽm trên xe máy: vì sao tạm bợ hỏng dần và cách rà lại",
+   "primaryIntent": "informational/cho-sua-tam-bang-day-rut-bang-keo-hay-day-kem-tren-xe-may-vi-sao-tam-bo-hong-dan-va-cach-ra-lai",
+   "notes": "source=topic-v2 topicId=T001723",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T01:08:34.405Z",
+   "updatedAt": "2026-10-14T01:08:34.405Z"
+  },
+  {
+   "id": "S01588",
+   "hub": "wiki/dien-xe",
+   "slug": "dan-film-tem-hay-son-len-den-hau-xi-nhan-va-chup-den-xe-may-anh-sang-yeu-di-nong-len-va-tin-hieu-bi-lech-the-nao",
+   "title": "Dán film, tem hay sơn lên đèn hậu, xi-nhan và chụp đèn xe máy: ánh sáng yếu đi, nóng lên và tín hiệu bị lệch thế nào",
+   "primaryIntent": "informational/dan-film-tem-hay-son-len-den-hau-xi-nhan-va-chup-den-xe-may-anh-sang-yeu-di-nong-len-va-tin-hieu-bi-lech-the-nao",
+   "notes": "source=topic-v2 topicId=T001724",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T01:08:34.443Z",
+   "updatedAt": "2026-10-14T01:08:34.443Z"
   }
  ]
 }
