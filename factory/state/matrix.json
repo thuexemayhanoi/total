@@ -23515,6 +23515,84 @@
    "updatedAt": "2026-10-14T02:47:07.539Z",
    "seoScore": 100,
    "words": 3129
+  },
+  {
+   "id": "S01612",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "co-abs-do-bao-ho-tot-roi-lai-chay-manh-tay-hon-vi-sao-trang-bi-an-toan-de-khien-minh-lieu-hon-va-cach-giu-lai",
+   "title": "Có ABS, đồ bảo hộ tốt rồi lại chạy mạnh tay hơn: vì sao trang bị an toàn dễ khiến mình liều hơn và cách giữ lại",
+   "primaryIntent": "informational/co-abs-do-bao-ho-tot-roi-lai-chay-manh-tay-hon-vi-sao-trang-bi-an-toan-de-khien-minh-lieu-hon-va-cach-giu-lai",
+   "notes": "source=topic-v2 topicId=T001748",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T03:07:22.375Z",
+   "updatedAt": "2026-10-14T03:07:22.375Z"
+  },
+  {
+   "id": "S01613",
+   "hub": "tips/meo-lai-xe",
+   "slug": "xem-lai-doan-quay-camera-hanh-trinh-cua-chinh-minh-de-hoc-lai-xe-may-nen-nhin-gi-bo-qua-gi-va-ghi-lai-dieu-gi",
+   "title": "Xem lại đoạn quay camera hành trình của chính mình để học lái xe máy: nên nhìn gì, bỏ qua gì và ghi lại điều gì",
+   "primaryIntent": "informational/xem-lai-doan-quay-camera-hanh-trinh-cua-chinh-minh-de-hoc-lai-xe-may-nen-nhin-gi-bo-qua-gi-va-ghi-lai-dieu-gi",
+   "notes": "source=topic-v2 topicId=T001749",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T03:07:22.417Z",
+   "updatedAt": "2026-10-14T03:07:22.417Z"
+  },
+  {
+   "id": "S01614",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "xe-may-dien-chay-em-khong-tieng-may-nguoi-di-duong-khong-nghe-thay-ban-va-ban-mat-tieng-may-de-uoc-toc-do",
+   "title": "Xe máy điện chạy êm không tiếng máy: người đi đường không nghe thấy bạn, bạn mất tiếng máy để ước tốc độ",
+   "primaryIntent": "informational/xe-may-dien-chay-em-khong-tieng-may-nguoi-di-duong-khong-nghe-thay-ban-va-ban-mat-tieng-may-de-uoc-toc-do",
+   "notes": "source=topic-v2 topicId=T001750",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T03:07:22.454Z",
+   "updatedAt": "2026-10-14T03:07:22.454Z"
+  },
+  {
+   "id": "S01615",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "di-gan-nen-bo-mu-khong-cai-quai-vi-sao-quang-ngan-quanh-nha-van-nguy-hiem-va-cach-giu-thoi-quen-nhu-khi-di-xa",
+   "title": "Đi gần nên bỏ mũ, không cài quai: vì sao quãng ngắn quanh nhà vẫn nguy hiểm và cách giữ thói quen như khi đi xa",
+   "primaryIntent": "informational/di-gan-nen-bo-mu-khong-cai-quai-vi-sao-quang-ngan-quanh-nha-van-nguy-hiem-va-cach-giu-thoi-quen-nhu-khi-di-xa",
+   "notes": "source=topic-v2 topicId=T001751",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T03:07:22.492Z",
+   "updatedAt": "2026-10-14T03:07:22.492Z"
+  },
+  {
+   "id": "S01616",
+   "hub": "learn/chuan-doan-loi",
+   "slug": "biet-trang-thai-binh-thuong-cua-chiec-xe-may-minh-tieng-may-mui-va-cam-giac-khi-chay-lam-moc-de-som-nhan-ra-xe-doi-khac",
+   "title": "Biết trạng thái bình thường của xe máy mình: tiếng máy, mùi và cảm giác khi chạy làm mốc để sớm nhận ra xe đổi khác",
+   "primaryIntent": "informational/biet-trang-thai-binh-thuong-cua-chiec-xe-may-minh-tieng-may-mui-va-cam-giac-khi-chay-lam-moc-de-som-nhan-ra-xe-doi-khac",
+   "notes": "source=topic-v2 topicId=T001752",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T03:07:22.527Z",
+   "updatedAt": "2026-10-14T03:07:22.527Z"
+  },
+  {
+   "id": "S01617",
+   "hub": "guide/bao-duong",
+   "slug": "nho-nguoi-nha-mang-xe-may-di-sua-hoac-bao-duong-thay-minh-dan-gi-ai-duoc-dong-y-hang-muc-va-nhan-xe-ra-sao",
+   "title": "Nhờ người nhà mang xe máy đi sửa hoặc bảo dưỡng thay mình: dặn gì, ai được đồng ý hạng mục và nhận xe ra sao",
+   "primaryIntent": "informational/nho-nguoi-nha-mang-xe-may-di-sua-hoac-bao-duong-thay-minh-dan-gi-ai-duoc-dong-y-hang-muc-va-nhan-xe-ra-sao",
+   "notes": "source=topic-v2 topicId=T001753",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T03:07:22.560Z",
+   "updatedAt": "2026-10-14T03:07:22.560Z"
   }
  ]
 }
