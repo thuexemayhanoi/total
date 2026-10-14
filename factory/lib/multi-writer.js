@@ -18,6 +18,6 @@ function selectReady(slots, filenames, excluded, count, isApproved) {
     result.push(s);
   }
   result.sort((a,b)=>slotNumber(a.id) < slotNumber(b.id) ? -1 : slotNumber(a.id) > slotNumber(b.id) ? 1 : 0);
-  return result.slice(0, Math.max(1, Math.min(10, Number(count) || 10)));
+  return result.slice(0, Math.max(1, Math.min(100, Number(count) || 10)));
 }
 module.exports = { WRITERS, writerOf, selectReady };
