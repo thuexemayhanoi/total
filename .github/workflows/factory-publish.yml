@@ -62,23 +62,34 @@ jobs:
           node factory/factory.js recover-txn
           node factory/factory.js check-state
 
+      # Producer pushes can race and GitHub may coalesce pending Action runs.
+      # Always QA the shared, committed backlog on fresh main; never assume the
+      # triggering push is the only Writer work currently waiting.
       - name: Scoped preflight QA (1-10)
+        id: selected
         if: steps.scope.outputs.proceed == 'true'
+        shell: bash
         run: |
           set -euo pipefail
-          node factory/factory.js verify-batch "${{ steps.scope.outputs.ids }}"
+          if ! queue=$(node factory/factory.js writer-queue-ready --count 10 2>&1); then
+            echo "$queue"; exit 1
+          fi
+          echo "$queue"
+          ids=$(printf '%s\n' "$queue" | sed -n 's/^READY_IDS=//p' | tail -1)
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+          if [ -n "$ids" ]; then node factory/factory.js verify-batch "$ids"; fi
 
       - name: Publish whole batch once
-        if: steps.scope.outputs.proceed == 'true'
+        if: steps.selected.outputs.ids != ''
         run: |
           set -euo pipefail
-          node factory/factory.js publish-batch "${{ steps.scope.outputs.ids }}" --owner ci-publisher
+          node factory/factory.js publish-batch "${{ steps.selected.outputs.ids }}" --owner ci-publisher
 
       - name: 404 gate defense-in-depth
-        if: steps.scope.outputs.proceed == 'true'
+        if: steps.selected.outputs.ids != ''
         run: |
           set -euo pipefail
-          node factory/link-integrity.js --ids "${{ steps.scope.outputs.ids }}"
+          node factory/link-integrity.js --ids "${{ steps.selected.outputs.ids }}"
           node factory/factory.js check-state
 
       # Coordinator-owned and fail-closed: the current batch is already
@@ -86,11 +97,38 @@ jobs:
       # Normal path updates only 1-10 article modules; incomplete old manifest
       # gets one guarded bootstrap. SQLite is gitignored (derived cache).
       - name: Refresh complete article manifest and SQLite
-        if: steps.scope.outputs.proceed == 'true'
+        if: steps.selected.outputs.ids != ''
         run: |
           set -euo pipefail
-          node factory/factory.js index-refresh "${{ steps.scope.outputs.ids }}" --role coordinator
+          node factory/factory.js index-refresh "${{ steps.selected.outputs.ids }}" --role coordinator
           node factory/factory.js index-check
+
+      # Up to W1+W2+W3 x 10 articles per production run, while retaining
+      # one publisher, one shared lock and one final commit. Never start AI.
+      - name: Drain other Writer backlog safely (max 20 more)
+        if: steps.scope.outputs.proceed == 'true'
+        shell: bash
+        env:
+          FIRST_IDS: ${{ steps.selected.outputs.ids }}
+        run: |
+          set -euo pipefail
+          seen="$FIRST_IDS"
+          for round in 2 3; do
+            if ! queue=$(node factory/factory.js writer-queue-ready --count 10 --exclude "$seen" 2>&1); then
+              echo "$queue"; exit 1
+            fi
+            echo "$queue"
+            ids=$(printf '%s\n' "$queue" | sed -n 's/^READY_IDS=//p' | tail -1)
+            if [ -z "$ids" ]; then echo "DRAIN_DONE round=$round"; break; fi
+            if [ -n "$seen" ]; then seen="$seen,$ids"; else seen="$ids"; fi
+            node factory/factory.js verify-batch "$ids"
+            node factory/factory.js publish-batch "$ids" --owner ci-publisher
+            node factory/link-integrity.js --ids "$ids"
+            node factory/factory.js check-state
+            node factory/factory.js index-refresh "$ids" --role coordinator
+            node factory/factory.js index-check
+            echo "DRAIN_BATCH_OK round=$round ids=$ids"
+          done
 
       - name: Commit batch outputs + state once
         if: steps.scope.outputs.proceed == 'true'
@@ -108,6 +146,10 @@ jobs:
           for i in 1 2 3; do
             if git push; then ok=1; break; fi
             git fetch origin main
+            # Reject overlap, especially generated HTML/sitemap/manifest: never
+            # silently rebase unrelated writer edits into already-QAed output.
+            overlap=$(comm -12 <(git diff --name-only HEAD^ HEAD | sort) <(git diff --name-only HEAD^ origin/main | sort))
+            if [ -n "$overlap" ]; then echo "PUBLISH_REBASE_OVERLAP_REFUSED $overlap"; break; fi
             if ! git rebase origin/main; then git rebase --abort 2>/dev/null || true; break; fi
           done
           if [ "$ok" != "1" ]; then echo "BATCH_PUSH_FAIL"; exit 1; fi
