@@ -1676,6 +1676,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/chuan-doan-loi/biet-trang-thai-binh-thuong-cua-chiec-xe-may-minh-tieng-may-mui-va-cam-giac-khi-chay-lam-moc-de-som-nhan-ra-xe-doi-khac/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/bieu-mau-thu-tuc/bieu-mau-thu-tuc-xe/index.html",
   "kind": "article"
  },
@@ -2124,6 +2128,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/ky-thuat-lai-xe/co-abs-do-bao-ho-tot-roi-lai-chay-manh-tay-hon-vi-sao-trang-bi-an-toan-de-khien-minh-lieu-hon-va-cach-giu-lai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/co-mo-va-truc-cam-xe-may-la-gi/index.html",
   "kind": "article"
  },
@@ -2397,6 +2405,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/di-duong-dai-bang-xe-tay-ga-kiem-tra-day-curoa-va-bo-noi-do-deo-cho-do-va-nhip-nghi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/di-gan-nen-bo-mu-khong-cai-quai-vi-sao-quang-ngan-quanh-nha-van-nguy-hiem-va-cach-giu-thoi-quen-nhu-khi-di-xa/index.html",
   "kind": "article"
  },
  {
@@ -3713,6 +3725,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/nhin-dau-xe-di-do-vi-sao-luc-hoang-mat-dan-vao-chuong-ngai-va-cach-tap-nhin-ve-loi-thoat-khi-di-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/bao-duong/nho-nguoi-nha-mang-xe-may-di-sua-hoac-bao-duong-thay-minh-dan-gi-ai-duoc-dong-y-hang-muc-va-nhan-xe-ra-sao/index.html",
   "kind": "article"
  },
  {
@@ -5484,6 +5500,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/xe-may-dien-chay-em-khong-tieng-may-nguoi-di-duong-khong-nghe-thay-ban-va-ban-mat-tieng-may-de-uoc-toc-do/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/xe-may-dien-co-tieng-keu-la-tu-banh-co-dong-co-hu-re-lach-cach-va-khi-nao-can-tho/index.html",
   "kind": "article"
  },
@@ -5669,6 +5689,10 @@
  },
  {
   "rel": "moto/yamaha/xe-yamaha/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/xem-lai-doan-quay-camera-hanh-trinh-cua-chinh-minh-de-hoc-lai-xe-may-nen-nhin-gi-bo-qua-gi-va-ghi-lai-dieu-gi/index.html",
   "kind": "article"
  },
  {
