@@ -12729,6 +12729,38 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/bo-ha-ap-tren-xe-may-dien-la-gi-vi-sao-den-coi-dong-ho-co-nguon-rieng-va-dau-hieu-bo-ha-ap-yeu/",
+  "title": "Bộ hạ áp trên xe máy điện là gì: vì sao đèn, còi, đồng hồ có nguồn riêng và dấu hiệu bộ hạ áp yếu",
+  "description": "Bộ hạ áp trên xe máy điện là gì, vì sao đèn, còi, đồng hồ có nguồn riêng, dấu hiệu nguồn phụ yếu dù pin còn nhiều và việc chủ xe nên, không nên làm.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "bộ hạ áp",
+   "khối pin chính",
+   "nguồn phụ",
+   "bộ chuyển đổi điện",
+   "bình phụ",
+   "phụ kiện gắn thêm"
+  ],
+  "keywords": [
+   "bộ hạ áp trên xe máy điện là gì",
+   "xe máy điện đèn mờ còi yếu dù pin còn",
+   "bộ chuyển đổi điện trên xe máy điện",
+   "đồng hồ xe máy điện chập chờn"
+  ],
+  "seoTitle": "Bộ hạ áp trên xe máy điện là gì: pin còn mà đèn mờ, còi yếu vì đâu",
+  "primaryKeyword": "bộ hạ áp trên xe máy điện là gì",
+  "headings": [
+   "Bộ hạ áp trên xe máy điện là gì và vì sao xe cần nó",
+   "Những thiết bị nào thường lấy điện qua bộ hạ áp",
+   "Dấu hiệu bộ hạ áp hay mạch nguồn phụ đang yếu",
+   "Vì sao gắn thêm phụ kiện điện có thể làm quá tải mạch phụ",
+   "Việc chủ xe nên làm và không nên làm khi nghi nguồn phụ yếu"
+  ],
+  "summary": "Bài giải thích bộ hạ áp trên xe máy điện là gì, vì sao đèn, còi, đồng hồ, xi nhan dùng nguồn phụ riêng chứ không lấy thẳng từ khối pin chính và vì sao pin còn nhiều vẫn có thể đèn mờ, còi yếu. Bài nêu các thiết bị thường lấy điện qua bộ hạ áp, cách phân biệt s"
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/bo-phan-xe-may/",
   "title": "Tổng hợp kiến thức: bộ phận xe máy",
   "description": "Danh mục các bộ phận xe máy theo nhóm: bộ phận vận hành, an toàn, điện, tiện nghi — mỗi bộ phận làm gì và chăm sóc thế nào cho đúng.",
@@ -16861,6 +16893,38 @@
    "Người ngồi sau, trẻ nhỏ và thói quen an toàn cho cả nhà"
   ],
   "summary": "Bài giải thích vì sao lúc đưa xe máy qua cửa lại dễ bị thương: tay bận giữ xe, mắt nhìn bậc cửa, cửa đang chuyển động và xe nặng khó dừng gấp. Nội dung đi qua từng loại cửa ở nhà ống, nhà phố. Cửa cuốn phải mở hết rồi mới đưa xe qua. Cửa xếp và cửa sắt kéo cần"
+ },
+ {
+  "kind": "article",
+  "url": "garage/truyen-dong/cua-hut-gio-lam-mat-hop-truyen-dong-xe-tay-ga-vi-sao-bui-bun-hay-nuoc-lot-vao-cum-cvt-va-chu-xe-nen-nhin-gi/",
+  "title": "Cửa hút gió làm mát hộp truyền động xe tay ga: vì sao bụi, bùn hay nước lọt vào cụm CVT và chủ xe nên nhìn gì",
+  "description": "Cửa hút gió làm mát hộp truyền động xe tay ga để làm gì, bụi, bùn và nước lọt vào cụm CVT bằng đường nào, dấu hiệu nên để ý và việc không nên tự làm.",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "entities": [
+   "cửa hút gió hộp truyền động",
+   "quạt gió trên puly",
+   "ống hút gió",
+   "tấm lọc gió hộp truyền động",
+   "khe thoát gió",
+   "cụm CVT"
+  ],
+  "keywords": [
+   "cửa hút gió làm mát hộp truyền động xe tay ga",
+   "ống hút gió nồi xe tay ga",
+   "nước vào nồi xe ga khi lội nước",
+   "bụi bẩn trong hộp truyền động xe tay ga"
+  ],
+  "seoTitle": "Cửa hút gió làm mát hộp truyền động xe tay ga: bụi, nước vào từ đâu",
+  "primaryKeyword": "cửa hút gió làm mát hộp truyền động xe tay ga",
+  "headings": [
+   "Vì sao hộp truyền động xe tay ga cần gió làm mát",
+   "Bụi, bùn và nước lọt vào cụm CVT bằng đường nào",
+   "Dấu hiệu chủ xe có thể để ý mà không cần mở máy",
+   "Những việc nên và không nên tự làm",
+   "Khi nào nên mang xe đi kiểm tra"
+  ],
+  "summary": "Bài giải thích vì sao hộp truyền động của nhiều xe tay ga có đường gió làm mát riêng, gồm cửa hoặc ống hút gió và khe thoát, và vì sao chính lối đó là nơi bụi, bùn hay nước dễ lọt vào cụm CVT. Nội dung nêu các đường vào thường gặp như cửa hút đặt thấp, ống nứt"
  },
  {
   "kind": "article",
@@ -22148,6 +22212,38 @@
  },
  {
   "kind": "article",
+  "url": "ride/lai-xe-duong-dai/gap-doan-mo-to-co-lon-di-doi-hinh-tren-duong-de-ca-doan-qua-nhu-mot-khoi-khong-dua-theo-va-khong-chen-vao-giua/",
+  "title": "Gặp đoàn mô tô cỡ lớn đi đội hình trên đường: để cả đoàn qua như một khối, không đua theo và không chen vào giữa",
+  "description": "Đoàn mô tô cỡ lớn đi so le từ phía sau: vì sao cả đoàn hành xử như một khối, cách giữ làn và nhường đường, vì sao không nên đua theo hay chen vào giữa.",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "entities": [
+   "đoàn mô tô cỡ lớn",
+   "đội hình so le",
+   "người dẫn đầu đoàn",
+   "khoảng hở giữa các xe",
+   "xe cuối đoàn",
+   "tiếng máy lớn"
+  ],
+  "keywords": [
+   "gặp đoàn mô tô cỡ lớn trên đường",
+   "đoàn xe mô tô đi đội hình so le",
+   "nhường đường cho đoàn mô tô khi đi xe máy",
+   "tiếng máy lớn phía sau làm giật mình"
+  ],
+  "seoTitle": "Gặp đoàn mô tô cỡ lớn đi đội hình: giữ làn, để cả đoàn qua, đừng chen",
+  "primaryKeyword": "gặp đoàn mô tô cỡ lớn trên đường",
+  "headings": [
+   "Vì sao đoàn mô tô đi đội hình lại hành xử như một khối",
+   "Khi đoàn tới từ phía sau: giữ làn, giữ nhịp và để cả đoàn qua",
+   "Không đua theo và không chen vào giữa đoàn",
+   "Gặp đoàn ở ngã tư, chỗ dừng và cây xăng",
+   "Giữ nhịp của mình khi đường đông xe lớn"
+  ],
+  "summary": "Bài giải thích vì sao đoàn mô tô cỡ lớn đi đội hình so le hành xử như một khối: người dẫn đầu chọn làn và nhịp, các xe sau giữ khoảng với nhau, tăng giảm tốc gần như cùng lúc, còn khoảng hở giữa các xe là vùng an toàn của họ chứ không phải chỗ trống. Người đi "
+ },
+ {
+  "kind": "article",
   "url": "ride/lai-xe-trong-thanh-pho/gap-doan-mua-lan-va-tre-ruoc-den-trong-ngo-xom-dip-trung-thu-di-cham-chua-loi-va-khong-bam-coi-vao-giua-cuoc-vui/",
   "title": "Gặp đoàn múa lân và trẻ rước đèn trong ngõ xóm dịp Trung thu: đi chậm, chừa lối và không bấm còi vào giữa cuộc vui",
   "description": "Đoàn múa lân và trẻ rước đèn Trung thu trong ngõ rất khó đoán: nhận ra từ xa, chọn đi vòng hay chờ, đi chậm, chừa lối và không bóp còi giữa cuộc vui.",
@@ -22310,6 +22406,38 @@
  },
  {
   "kind": "article",
+  "url": "ride/lai-xe-duong-dai/gap-nguoi-dap-xe-duong-dai-tren-deo-leo-cham-loang-choang-xuong-doc-nhanh-hon-tuong-va-chiem-lan-o-khuc-cua/",
+  "title": "Gặp người đạp xe đường dài trên đèo: leo chậm loạng choạng, xuống dốc nhanh hơn tưởng và chiếm làn ở khúc cua",
+  "description": "Đi xe máy gặp người đạp xe đường dài trên đèo: vì sao họ lúc rất chậm, lúc rất nhanh, vượt ở đâu, giữ khoảng cách ra sao và khi nào nên chờ phía sau.",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "entities": [
+   "người đạp xe đường dài",
+   "túi hành lý hai bên",
+   "khúc cua đèo",
+   "khoảng ngang khi vượt",
+   "nhóm đạp xe",
+   "lề đèo ven đường"
+  ],
+  "keywords": [
+   "gặp người đạp xe trên đèo khi đi xe máy",
+   "vượt xe đạp leo dốc trên đèo",
+   "xe đạp đổ đèo nhanh khúc cua",
+   "người đạp xe đường dài chở hành lý"
+  ],
+  "seoTitle": "Gặp người đạp xe trên đèo: vượt lúc leo dốc, nhường lúc đổ dốc",
+  "primaryKeyword": "gặp người đạp xe trên đèo khi đi xe máy",
+  "headings": [
+   "Vì sao trên đèo người đạp xe lúc rất chậm, lúc lại rất nhanh",
+   "Vượt người đang đạp xe leo dốc",
+   "Khi người đạp xe đổ dốc phía trước hoặc phía sau bạn",
+   "Đi qua nhóm đạp xe và người dừng nghỉ ven đèo",
+   "Sương, mưa và đường ướt: người đạp khó thấy hơn"
+  ],
+  "summary": "Bài giải thích vì sao trên đèo và những đoạn đường dài vắng, người đạp xe chở hành lý lúc leo thì chậm loạng choạng, lúc xuống dốc lại nhanh hơn tưởng và hay chiếm làn ở khúc cua. Nội dung chỉ ra chỗ nên vượt người đang leo, vì sao không nên bám sát hay vượt ở"
+ },
+ {
+  "kind": "article",
   "url": "ride/an-toan-giao-thong/gap-nguoi-di-xe-may-say-xin-hoac-lang-lach-phia-truoc-giu-khoang-cach-khong-vuot-sat-va-bao-cho-ai/",
   "title": "Gặp người đi xe máy có dấu hiệu say xỉn hay chạy loạng choạng phía trước: giữ khoảng cách, không vượt sát và báo cho ai",
   "description": "Gặp xe máy phía trước đánh võng, lúc nhanh lúc chậm, nghi người lái say hay quá mệt? Cách nhận biết, giữ khoảng cách, cân nhắc vượt, xử lý khi họ ngã và báo cho ai.",
@@ -22339,6 +22467,102 @@
    "Báo cho ai và báo những gì"
   ],
   "summary": "Bài hướng dẫn người đi xe máy cách ứng xử khi gặp một chiếc xe phía trước chạy đánh võng, tốc độ thất thường hoặc người lái gục đầu, nghi say hay quá mệt. Nội dung nêu các dấu hiệu quan sát được từ xa, giải thích vì sao xe như vậy khó đoán và nguy hiểm cho ngư"
+ },
+ {
+  "kind": "article",
+  "url": "ride/lai-xe-trong-thanh-pho/gap-nguoi-di-xe-truot-dien-dung-lai-van-truot-hay-xe-thang-bang-tren-duong-banh-nho-kho-dung-de-lang-khi-gap-o-ga/",
+  "title": "Gặp người đi xe trượt điện đứng lái, ván trượt hay xe thăng bằng trên đường: bánh nhỏ, khó dừng, dễ lạng khi gặp ổ gà",
+  "description": "Xe trượt điện, ván trượt, xe thăng bằng có bánh nhỏ, khó dừng, dễ lạng khi gặp ổ gà. Cách đọc hướng đi từ mặt đường, chừa khoảng, chọn lúc vượt hoặc chờ.",
+  "category": "Hành trình",
+  "hub": "Lái xe trong thành phố",
+  "entities": [
+   "xe trượt điện",
+   "ván trượt",
+   "xe thăng bằng",
+   "bánh xe nhỏ",
+   "ổ gà và nắp cống",
+   "khoảng cách khi vượt"
+  ],
+  "keywords": [
+   "gặp xe trượt điện trên đường khi đi xe máy",
+   "người đi xe scooter điện trên đường",
+   "người trượt ván trên đường xe máy",
+   "xe thăng bằng điện gặp trên đường khi đi xe máy"
+  ],
+  "seoTitle": "Gặp xe trượt điện, ván trượt, xe thăng bằng: đọc hướng, chừa khoảng",
+  "primaryKeyword": "gặp xe trượt điện trên đường khi đi xe máy",
+  "headings": [
+   "Vì sao xe trượt điện, ván trượt và xe thăng bằng khó đoán trước",
+   "Đọc hướng đi của họ từ mặt đường phía trước thiết bị",
+   "Giữ khoảng cách và chọn lúc vượt",
+   "Những lúc nên chờ thay vì vượt",
+   "Ban đêm và trời mưa: khó thấy hơn và khó dừng hơn"
+  ],
+  "summary": "Bài giải thích vì sao người đứng trên xe trượt điện, ván trượt hay xe thăng bằng khó đoán đối với người đi xe máy: bánh nhỏ dễ chao khi gặp ổ gà, nắp cống hay vệt nước, tư thế đứng khiến họ phải dồn người để giữ thăng bằng, khó dừng gấp, khó ra hiệu, ít đèn và"
+ },
+ {
+  "kind": "article",
+  "url": "ride/lai-xe-trong-thanh-pho/gap-nguoi-ganh-hang-hoac-vac-do-cong-kenh-di-bo-sat-mep-duong-hang-lac-hai-dau-buoc-cham-va-kho-tranh/",
+  "title": "Gặp người gánh hàng hoặc vác đồ cồng kềnh đi bộ sát mép đường: hàng lắc hai đầu, bước chậm và khó tránh",
+  "description": "Gặp người gánh hàng đi bộ sát mép đường: tải lắc hai đầu, bước chậm, khó né. Cách đọc nhịp gánh, vượt rộng và chậm, lúc nên chờ, ban đêm và trời mưa.",
+  "category": "Hành trình",
+  "hub": "Lái xe trong thành phố",
+  "entities": [
+   "người gánh hàng",
+   "đòn gánh và quang gánh",
+   "đồ vác cồng kềnh",
+   "mép đường",
+   "nhịp bước của người mang tải",
+   "khoảng chừa khi vượt"
+  ],
+  "keywords": [
+   "gặp người gánh hàng đi bộ sát mép đường",
+   "người vác đồ cồng kềnh đi dưới lòng đường",
+   "đi xe máy gần người gánh hàng rong",
+   "quang gánh lắc ra lòng đường"
+  ],
+  "seoTitle": "Gặp người gánh hàng đi bộ sát mép đường: đọc nhịp gánh, vượt rộng",
+  "primaryKeyword": "gặp người gánh hàng đi bộ sát mép đường",
+  "headings": [
+   "Vì sao người gánh hay vác đồ cồng kềnh khác người đi bộ thông thường",
+   "Đọc nhịp gánh và hướng đi của người mang tải",
+   "Vượt rộng, vượt chậm và tránh lúc tải đang lắc ra",
+   "Những lúc nên dừng chờ thay vì cố vượt",
+   "Ban đêm, sáng sớm và những hôm trời mưa"
+  ],
+  "summary": "Bài giải thích vì sao người gánh hàng, vác bao, khiêng ván hay đội mẹt đi bộ sát mép đường khó đoán hơn người đi bộ thông thường: tải đung đưa theo nhịp bước nên phần nhô ra luôn đổi, họ khó quay đầu, khó dừng và khó đổi hướng, tầm nhìn lại bị đồ che. Nội dung"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/gap-nguoi-ngoi-xe-lan-di-xe-dien-cho-nguoi-khuyet-tat-hay-chong-nang-duoi-long-duong-thap-cham-va-kho-ne/",
+  "title": "Gặp người ngồi xe lăn, đi xe điện cho người khuyết tật hay chống nạng dưới lòng đường: thấp, chậm và khó né",
+  "description": "Gặp người ngồi xe lăn, chống nạng hay xe điện cho người khuyết tật dưới lòng đường: vì sao khó thấy, khó né và cách giảm tốc, vượt rộng, không bóp còi sát.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "người ngồi xe lăn",
+   "người chống nạng",
+   "xe điện cho người khuyết tật",
+   "vỉa hè bị chiếm",
+   "lối lên xuống vỉa hè",
+   "còi xe máy"
+  ],
+  "keywords": [
+   "gặp người ngồi xe lăn dưới lòng đường",
+   "người chống nạng đi dưới lòng đường",
+   "đi xe máy gần người dùng xe lăn",
+   "vượt chậm khi gặp xe lăn dưới lòng đường"
+  ],
+  "seoTitle": "Gặp người ngồi xe lăn, chống nạng dưới lòng đường: vượt chậm và rộng",
+  "primaryKeyword": "gặp người ngồi xe lăn dưới lòng đường",
+  "headings": [
+   "Vì sao người ngồi xe lăn và người chống nạng khó thấy, khó né",
+   "Quan sát sớm ở những chỗ họ hay phải xuống lòng đường",
+   "Vượt chậm, vượt rộng và không bóp còi sát bên",
+   "Lúc họ băng qua đường hoặc lên xuống vỉa hè",
+   "Ban đêm, trời mưa và đường dốc"
+  ],
+  "summary": "Bài giải thích vì sao người ngồi xe lăn, người chống nạng hay người dùng xe điện dành cho người khuyết tật nhiều lúc buộc phải đi dưới lòng đường vì vỉa hè bị chiếm hoặc có bậc, và vì sao họ thấp, chậm, khó né khi có xe áp sát. Nội dung chỉ ra những chỗ cần qu"
  },
  {
   "kind": "article",
@@ -22499,6 +22723,38 @@
    "Sau khi đã cán qua vật cản"
   ],
   "summary": "Bài giải thích vì sao vật nằm giữa làn nguy hiểm với xe máy, rồi đi qua từng bước xử lý: nhìn xa để phát hiện sớm, quyết định né sớm hay đè qua vật thấp bằng cách giữ thẳng xe, báo cho người phía sau bằng đèn phanh và hiệu tay, và cân nhắc có nên dừng dọn hay "
+ },
+ {
+  "kind": "article",
+  "url": "ride/lai-xe-duong-dai/gap-xe-cho-hang-to-rong-chiem-ca-lan-co-xe-dan-duong-va-den-vang-quay-nhuong-giu-xa-va-cho-cho-rong-moi-vuot/",
+  "title": "Gặp xe chở hàng to rộng chiếm cả làn có xe dẫn đường và đèn vàng quay: nhường, giữ xa và chờ chỗ rộng mới vượt",
+  "description": "Gặp xe chở hàng to rộng có xe dẫn đường và đèn vàng quay: cách đọc tín hiệu, nhường đường, giữ xa, không chen giữa đoàn và chỉ vượt khi đủ chỗ rộng.",
+  "category": "Hành trình",
+  "hub": "Lái xe đường dài",
+  "entities": [
+   "xe chở hàng to rộng",
+   "xe dẫn đường",
+   "đèn vàng quay",
+   "người ra hiệu tại chỗ",
+   "tầm nhìn của người lái",
+   "khoảng cách an toàn"
+  ],
+  "keywords": [
+   "gặp xe chở hàng to rộng có xe dẫn đường",
+   "xe chở máy móc lớn chiếm cả làn",
+   "đèn vàng quay trên xe dẫn đường",
+   "vượt xe chở hàng rất rộng khi đi xe máy"
+  ],
+  "seoTitle": "Gặp xe chở hàng to rộng có xe dẫn đường: nhường, giữ xa, khi nào vượt",
+  "primaryKeyword": "gặp xe chở hàng to rộng có xe dẫn đường",
+  "headings": [
+   "Vì sao đoàn xe chở hàng to rộng khác hẳn xe tải thông thường",
+   "Đọc tín hiệu của xe dẫn đường và xe đi sau",
+   "Không chen vào giữa đoàn, và đi sau thì giữ khoảng xa",
+   "Chờ chỗ rộng mới vượt, hoặc không vượt",
+   "Gặp đoàn khi đi ngược chiều, ở ngã tư và vào ban đêm"
+  ],
+  "summary": "Bài giải thích vì sao đoàn xe chở hàng to rộng có xe dẫn đường khác hẳn xe tải thông thường: thân xe và hàng có thể rộng hơn làn, tầm nhìn người lái hẹp, quay vòng rộng, tăng tốc và dừng đều chậm. Nội dung hướng dẫn đọc đèn vàng quay và hiệu lệnh của người ra "
  },
  {
   "kind": "article",

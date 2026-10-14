@@ -1712,6 +1712,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/bo-ha-ap-tren-xe-may-dien-la-gi-vi-sao-den-coi-dong-ho-co-nguon-rieng-va-dau-hieu-bo-ha-ap-yeu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/bo-phan-xe-may/index.html",
   "kind": "article"
  },
@@ -2221,6 +2225,10 @@
  },
  {
   "rel": "guide/su-dung-xe/cua-cuon-cua-xep-va-cong-truot-khi-dua-xe-may-ra-vao-nha-khong-luon-duoi-cua-dang-ha-giu-tay-khoi-khe-va-ray/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/truyen-dong/cua-hut-gio-lam-mat-hop-truyen-dong-xe-tay-ga-vi-sao-bui-bun-hay-nuoc-lot-vao-cum-cvt-va-chu-xe-nen-nhin-gi/index.html",
   "kind": "article"
  },
  {
@@ -2880,6 +2888,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/gap-doan-mo-to-co-lon-di-doi-hinh-tren-duong-de-ca-doan-qua-nhu-mot-khoi-khong-dua-theo-va-khong-chen-vao-giua/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-trong-thanh-pho/gap-doan-mua-lan-va-tre-ruoc-den-trong-ngo-xom-dip-trung-thu-di-cham-chua-loi-va-khong-bam-coi-vao-giua-cuoc-vui/index.html",
   "kind": "article"
  },
@@ -2900,7 +2912,23 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/gap-nguoi-dap-xe-duong-dai-tren-deo-leo-cham-loang-choang-xuong-doc-nhanh-hon-tuong-va-chiem-lan-o-khuc-cua/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/gap-nguoi-di-xe-may-say-xin-hoac-lang-lach-phia-truoc-giu-khoang-cach-khong-vuot-sat-va-bao-cho-ai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-trong-thanh-pho/gap-nguoi-di-xe-truot-dien-dung-lai-van-truot-hay-xe-thang-bang-tren-duong-banh-nho-kho-dung-de-lang-khi-gap-o-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-trong-thanh-pho/gap-nguoi-ganh-hang-hoac-vac-do-cong-kenh-di-bo-sat-mep-duong-hang-lac-hai-dau-buoc-cham-va-kho-tranh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/gap-nguoi-ngoi-xe-lan-di-xe-dien-cho-nguoi-khuyet-tat-hay-chong-nang-duoi-long-duong-thap-cham-va-kho-ne/index.html",
   "kind": "article"
  },
  {
@@ -2921,6 +2949,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/gap-vat-can-nam-giua-lan-nhu-gach-da-khuc-go-hay-xac-dong-vat-ne-hay-de-qua-va-cach-bao-cho-nguoi-phia-sau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/lai-xe-duong-dai/gap-xe-cho-hang-to-rong-chiem-ca-lan-co-xe-dan-duong-va-den-vang-quay-nhuong-giu-xa-va-cho-cho-rong-moi-vuot/index.html",
   "kind": "article"
  },
  {

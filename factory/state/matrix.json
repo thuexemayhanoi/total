@@ -24303,11 +24303,13 @@
    "title": "Gặp người đi xe trượt điện đứng lái, ván trượt hay xe thăng bằng trên đường: bánh nhỏ, khó dừng, dễ lạng khi gặp ổ gà",
    "primaryIntent": "informational/gap-nguoi-di-xe-truot-dien-dung-lai-van-truot-hay-xe-thang-bang-tren-duong-banh-nho-kho-dung-de-lang-khi-gap-o-ga",
    "notes": "source=topic-v2 topicId=T001826",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.306Z",
-   "updatedAt": "2026-10-14T06:09:10.307Z"
+   "updatedAt": "2026-10-14T06:28:25.714Z",
+   "seoScore": 100,
+   "words": 2887
   },
   {
    "id": "S01665",
@@ -24316,11 +24318,13 @@
    "title": "Gặp người đạp xe đường dài trên đèo: leo chậm loạng choạng, xuống dốc nhanh hơn tưởng và chiếm làn ở khúc cua",
    "primaryIntent": "informational/gap-nguoi-dap-xe-duong-dai-tren-deo-leo-cham-loang-choang-xuong-doc-nhanh-hon-tuong-va-chiem-lan-o-khuc-cua",
    "notes": "source=topic-v2 topicId=T001827",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.373Z",
-   "updatedAt": "2026-10-14T06:09:10.373Z"
+   "updatedAt": "2026-10-14T06:28:25.714Z",
+   "seoScore": 100,
+   "words": 2931
   },
   {
    "id": "S01666",
@@ -24329,11 +24333,13 @@
    "title": "Gặp xe chở hàng to rộng chiếm cả làn có xe dẫn đường và đèn vàng quay: nhường, giữ xa và chờ chỗ rộng mới vượt",
    "primaryIntent": "informational/gap-xe-cho-hang-to-rong-chiem-ca-lan-co-xe-dan-duong-va-den-vang-quay-nhuong-giu-xa-va-cho-cho-rong-moi-vuot",
    "notes": "source=topic-v2 topicId=T001828",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.422Z",
-   "updatedAt": "2026-10-14T06:09:10.422Z"
+   "updatedAt": "2026-10-14T06:28:25.715Z",
+   "seoScore": 91,
+   "words": 2918
   },
   {
    "id": "S01667",
@@ -24342,11 +24348,13 @@
    "title": "Gặp người ngồi xe lăn, đi xe điện cho người khuyết tật hay chống nạng dưới lòng đường: thấp, chậm và khó né",
    "primaryIntent": "informational/gap-nguoi-ngoi-xe-lan-di-xe-dien-cho-nguoi-khuyet-tat-hay-chong-nang-duoi-long-duong-thap-cham-va-kho-ne",
    "notes": "source=topic-v2 topicId=T001829",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.524Z",
-   "updatedAt": "2026-10-14T06:09:10.524Z"
+   "updatedAt": "2026-10-14T06:28:25.715Z",
+   "seoScore": 100,
+   "words": 2916
   },
   {
    "id": "S01668",
@@ -24355,11 +24363,13 @@
    "title": "Gặp đoàn mô tô cỡ lớn đi đội hình trên đường: để cả đoàn qua như một khối, không đua theo và không chen vào giữa",
    "primaryIntent": "informational/gap-doan-mo-to-co-lon-di-doi-hinh-tren-duong-de-ca-doan-qua-nhu-mot-khoi-khong-dua-theo-va-khong-chen-vao-giua",
    "notes": "source=topic-v2 topicId=T001830",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.566Z",
-   "updatedAt": "2026-10-14T06:09:10.566Z"
+   "updatedAt": "2026-10-14T06:28:25.714Z",
+   "seoScore": 100,
+   "words": 2841
   },
   {
    "id": "S01669",
@@ -24368,11 +24378,13 @@
    "title": "Gặp người gánh hàng hoặc vác đồ cồng kềnh đi bộ sát mép đường: hàng lắc hai đầu, bước chậm và khó tránh",
    "primaryIntent": "informational/gap-nguoi-ganh-hang-hoac-vac-do-cong-kenh-di-bo-sat-mep-duong-hang-lac-hai-dau-buoc-cham-va-kho-tranh",
    "notes": "source=topic-v2 topicId=T001831",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.631Z",
-   "updatedAt": "2026-10-14T06:09:10.631Z"
+   "updatedAt": "2026-10-14T06:28:25.714Z",
+   "seoScore": 100,
+   "words": 3005
   },
   {
    "id": "S01670",
@@ -24381,11 +24393,13 @@
    "title": "Cửa hút gió làm mát hộp truyền động xe tay ga: vì sao bụi, bùn hay nước lọt vào cụm CVT và chủ xe nên nhìn gì",
    "primaryIntent": "informational/cua-hut-gio-lam-mat-hop-truyen-dong-xe-tay-ga-vi-sao-bui-bun-hay-nuoc-lot-vao-cum-cvt-va-chu-xe-nen-nhin-gi",
    "notes": "source=topic-v2 topicId=T001832",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.671Z",
-   "updatedAt": "2026-10-14T06:09:10.671Z"
+   "updatedAt": "2026-10-14T06:28:25.714Z",
+   "seoScore": 100,
+   "words": 3070
   },
   {
    "id": "S01671",
@@ -24394,11 +24408,13 @@
    "title": "Bộ hạ áp trên xe máy điện là gì: vì sao đèn, còi, đồng hồ có nguồn riêng và dấu hiệu bộ hạ áp yếu",
    "primaryIntent": "informational/bo-ha-ap-tren-xe-may-dien-la-gi-vi-sao-den-coi-dong-ho-co-nguon-rieng-va-dau-hieu-bo-ha-ap-yeu",
    "notes": "source=topic-v2 topicId=T001833",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:09:10.708Z",
-   "updatedAt": "2026-10-14T06:09:10.708Z"
+   "updatedAt": "2026-10-14T06:28:25.714Z",
+   "seoScore": 100,
+   "words": 2992
   },
   {
    "id": "S01672",
