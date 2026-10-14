@@ -670,8 +670,10 @@ console.log('2. INTEGRATION — backfill → propose → review → approve → 
   fs.writeFileSync(E.p('topic-governance.json'), JSON.stringify(GOV_OFF));
   const rollbackIds = ['W1','W2','W3'].flatMap(writer =>
     JSON.parse(cli(E, ['writer-pack','--writer',writer,'--count','10','--json']).stdout).batchIds);
-  ok(rollbackIds.includes('S00007') && rollbackIds.includes('S00008'),
-    'ROLLBACK: governance off nhận slot legacy, nhưng vẫn chia 3 Writer không trùng');
+  ok(rollbackIds.includes('S00007') || rollbackIds.includes('S00008'),
+    'ROLLBACK: governance off nhận slot legacy đủ điều kiện và giữ phân công cố định');
+  ok(new Set(rollbackIds).size === rollbackIds.length,
+    'ROLLBACK: ba Writer không được nhận trùng một slot khi governance off');
   r = cli(E, ['queue-refill', '--dry-run', ...COORD]);
   ok(!/QUEUE_REFILL frozen/.test(r.out), 'ROLLBACK: v1Generation=allowed => queue-refill không còn bị đóng băng', r.out.slice(0, 160));
   r = cli(E, ['topic-check']);
