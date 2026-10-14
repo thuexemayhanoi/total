@@ -55,7 +55,8 @@ const TXN_FILE = path.join(STATE_DIR, 'txn.json');
 const CHECKPOINT_FILE = path.join(STATE_DIR, 'checkpoint.json');
 // 3-ROLE PRODUCTION (docs/PRODUCTION-ROLES.md): Writer 1 báo heartbeat sau
 // mỗi pair; Đốc công 2/3 dùng hàng đợi lỗi escalade theo attempts.
-const HEARTBEAT_FILE = path.join(STATE_DIR, 'writer-heartbeat.json');
+const HEARTBEAT_FILE = path.join(STATE_DIR, 'writer-heartbeat.json'); // legacy fallback only
+const WRITER_HEARTBEATS_DIR = path.join(STATE_DIR, 'writer-heartbeats');
 const ERROR_FILE = path.join(STATE_DIR, 'error-queue.json');
 const MANIFEST_FILE = contentIndex.MANIFEST_FILE; // JSONL — source of truth (commit)
 
@@ -1127,13 +1128,14 @@ Lệnh:
   topic-index-rebuild|topic-index-check|topic-import|topic-brief|topic-neighbours|topic-coverage
                                   TOPIC FACTORY V2 (docs/TOPIC-FACTORY-V2.md): kiểm toán trùng lặp,
                                   gate chống hoán vị, duyệt topic -> slot; writer chỉ nhận topic APPROVED
-  writer-pack [--count N] [--shard k/n] [--json]
+  writer-pack --writer W1|W2|W3 [--count N] [--json]
                                   WRITER/MISTRAL: nhận một pack 1-10 bài gồm
                                   ID, file <slug>.js, title/intent và related
                                   PUBLISHED an toàn để viết ngay
-  writer-next [--count N]        WRITER 1: batch kế tiếp (resume slot dở có bài
+  writer-next --writer Wn [--count N]   Batch kế tiếp (chỉ resume đúng shard
                                   TRƯỚC, sau đó slot PLANNED theo ID tăng dần)
-  writer-heartbeat --phase P     WRITER 1: báo heartbeat (P = writing |
+  writer-verify <ID,...> --writer Wn  Kiểm ownership + QA của Writer
+  writer-heartbeat --writer Wn --phase P   Heartbeat riêng (P = writing |
                                   [--note T] [--pair I,I]       waiting-publish | waiting-writer | idle | error)
   production-status              ĐỐC CÔNG 2: một trạng thái rõ ràng — đang
                                   viết / chờ publish / chờ writer / đứng /
@@ -1154,7 +1156,7 @@ function opt(flag) {
 }
 // Tham số vị trí của lệnh: bỏ flag + giá trị flag (--owner O, --scope ID, ...).
 function positional(rest) {
-  const WITH_VALUE = new Set(['--owner', '--token-file', '--base', '--scope', '--head-sha', '--limit', '--intent', '--min-score', '--fail-if-claimable', '--role']);
+  const WITH_VALUE = new Set(['--owner', '--token-file', '--base', '--scope', '--head-sha', '--limit', '--intent', '--min-score', '--fail-if-claimable', '--role', '--writer', '--shard', '--count']);
   const out = [];
   for (let i = 0; i < rest.length; i++) {
     if (String(rest[i]).startsWith('--')) { if (WITH_VALUE.has(rest[i])) i++; continue; }
@@ -1821,15 +1823,11 @@ function main() {
     const count = parsePositiveInt(opt('--count')) || (cmd === 'writer-pack' ? runtime.PUBLISH_CHUNK_LIMIT : runtime.PAIR_SIZE);
     const openSlugs = openArticleSlugs(m);
     const woPack = writableOpts();
-    const shardRaw = opt('--shard');
-    let shard = null;
-    if (shardRaw) {
-      const sm = /^(\d+)\/(\d+)$/.exec(shardRaw);
-      if (!sm || Number(sm[1]) < 1 || Number(sm[1]) > Number(sm[2])) {
-        console.error('TỪ CHỐI writer-pack: --shard phải dạng k/n với 1<=k<=n (ví dụ 2/3)');
-        process.exit(1);
-      }
-      shard = { k: Number(sm[1]), n: Number(sm[2]) };
+    const writer = opt('--writer') || 'W1'; // old commands safely default to W1, never all shards
+    const shard = runtime.writerShard(writer);
+    const requestedShard = opt('--shard');
+    if (requestedShard && requestedShard !== shard.k + '/' + shard.n) {
+      throw Error('WRITER_SHARD_MISMATCH: ' + writer + ' owns only ' + shard.k + '/' + shard.n);
     }
     const plan = runtime.selectWriterPair(m, openSlugs, count, Object.assign({}, woPack.opts, shard ? { shard } : {}));
 
@@ -1876,12 +1874,12 @@ function main() {
       };
     });
     const pack = {
-      schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id), unapprovedArticles,
+      schemaVersion: 2, writer, shard: shard.k + '/' + shard.n, status, count: items.length, batchIds: items.map(x => x.id), unapprovedArticles,
       rules: {
         minWords: runtime.ARTICLE_MIN_WORDS, maxWords: runtime.ARTICLE_MAX_WORDS, qaPassMin: runtime.QA_PASS_MIN,
         fileConvention: 'factory/data/articles/<slug>.js',
         relatedMin: 2, relatedPolicy: 'PUBLISHED-only from relatedPublished; do not invent slugs',
-        noFakeFacts: true, verifyCommand: items.length ? ('node factory/factory.js verify-batch "' + items.map(x => x.id).join(',') + '"') : null
+        noFakeFacts: true, verifyCommand: items.length ? ('node factory/factory.js writer-verify "' + items.map(x => x.id).join(',') + '" --writer ' + writer) : null
       },
       items,
       nextAction: status === 'ready' ? 'WRITE_VERIFY_PUSH' :
@@ -1893,7 +1891,7 @@ function main() {
       console.log(JSON.stringify(pack, null, 2));
       return;
     }
-    console.log('WRITER_PACK status=' + status + ' count=' + items.length +
+    console.log('WRITER_PACK writer=' + writer + ' shard=' + shard.k + '/' + shard.n + ' status=' + status + ' count=' + items.length +
       ' written_waiting=' + writtenWaiting + ' slots=' + m.slots.length + '/' + m.plannedTarget);
     if (items.length) console.log('BATCH_IDS=' + items.map(x => x.id).join(','));
     if (unapprovedArticles.length) console.log('WARN_UNAPPROVED_ARTICLE ids=' + unapprovedArticles.join(',') + ' (có module bài nhưng topic chưa APPROVED — verify-batch sẽ từ chối; coordinator duyệt topic hoặc gỡ module)');
@@ -1916,23 +1914,39 @@ function main() {
     console.log('NEXT_ACTION=' + pack.nextAction);
     return;
   }
+  if (cmd === 'writer-verify') {
+    const writer = opt('--writer');
+    const shard = runtime.writerShard(writer);
+    const ids = parseBatchIds(positional(rest).join(' '));
+    const other = ids.filter(x => !runtime.shardOwns(x, shard));
+    if (other.length) throw Error('WRITER_OWNERSHIP_REFUSED: ' + writer + ' cannot write ' + other.join(','));
+    const v = verifySources(loadMatrix(), ids);
+    if (!v.ok) { for (const e of v.errors) console.error('WRITER_VERIFY_FAIL: ' + e); process.exit(1); }
+    console.log('WRITER_VERIFY_OK writer=' + writer + ' ids=' + ids.join(','));
+    return;
+  }
   if (cmd === 'writer-heartbeat') {
-    // WRITER 1 báo heartbeat sau mỗi pair (push cùng commit bài). File là
-    // operational state thật — Đốc công 2/watchdog đo tuổi từ đây.
+    const writer = opt('--writer') || 'W1';
+    const shard = runtime.writerShard(writer);
     const phase = opt('--phase');
     if (!runtime.WRITER_PHASES.includes(phase)) {
       console.error('TỪ CHỐI writer-heartbeat: --phase phải là một trong ' + runtime.WRITER_PHASES.join('|'));
       process.exit(1);
     }
     const hb = {
-      schemaVersion: 1,
+      schemaVersion: 2, writer,
       at: new Date().toISOString(),
       phase,
       pair: (opt('--pair') || '').trim() || null,
       note: (opt('--note') || '').trim() || null,
     };
-    atomicWrite(HEARTBEAT_FILE, JSON.stringify(hb, null, 1));
-    console.log('WRITER_HEARTBEAT at=' + hb.at + ' phase=' + hb.phase + (hb.pair ? ' pair=' + hb.pair : ''));
+    const ids = hb.pair ? parseBatchIds(hb.pair) : [];
+    if (ids.some(x => !runtime.shardOwns(x, shard))) {
+      throw Error('WRITER_HEARTBEAT_SCOPE_REFUSED: ' + writer + ' cannot heartbeat other ID');
+    }
+    atomicWrite(path.join(WRITER_HEARTBEATS_DIR, writer + '.json'), JSON.stringify(hb, null, 1));
+    console.log('WRITER_HEARTBEAT writer=' + writer + ' at=' + hb.at +
+      ' phase=' + hb.phase + (hb.pair ? ' pair=' + hb.pair : ''));
     return;
   }
   if (cmd === 'production-status' || cmd === 'liveness') {
