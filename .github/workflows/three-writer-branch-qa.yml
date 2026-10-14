@@ -1,0 +1,52 @@
+name: Three External Writers Branch QA (no deployment)
+on:
+  push:
+    branches: [feat/three-external-writers-20261014]
+    paths:
+      - 'factory/factory.js'
+      - 'factory/lib/factory-runtime.js'
+      - 'factory/lib/multi-writer.js'
+      - 'factory/test-three-writers.js'
+      - 'factory/test-topic-v2.js'
+      - '.github/workflows/factory-publish.yml'
+      - '.github/workflows/three-writer-branch-qa.yml'
+permissions:
+  contents: read
+concurrency:
+  group: three-writer-feature-qa
+  cancel-in-progress: false
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Three-writer invariant, concurrency, heartbeat and 20k tests
+        run: node factory/test-three-writers.js
+      - name: Full factory engine and content protection QA
+        shell: bash
+        run: |
+          set -euo pipefail
+          node factory/generate.js --check
+          node factory/test.js
+          node factory/factory.js audit --min-score 70
+          node factory/test-hardening.js
+          node factory/test-reliability.js
+          node factory/test-pair.js
+          node factory/test-cycle.js
+          node factory/test-coordinator.js
+          node factory/test-topic-v2.js
+          node factory/factory.js topic-check --recheck
+          node factory/factory.js verify-invariant
+          node factory/link-integrity.js --all
+      - name: Ensure no tracked state or content was changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --exit-code
+          test ! -f factory/state/writer.lock
+          test ! -f factory/state/txn.json
+          echo BRANCH_QA_NO_CONTENT_MUTATION
