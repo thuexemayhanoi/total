@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-14T05:43:20.771Z",
- "phase": "writing",
- "pair": "S01646,S01647,S01648,S01649,S01650,S01651,S01652,S01653,S01654,S01655",
- "note": "Mistral viết lại batch S01646-S01655 (bị mất file local do lỗi hạ tầng); slot đã tạo từ topic APPROVED T001796-T001817"
+ "at": "2026-10-14T05:48:08.891Z",
+ "phase": "waiting-publish",
+ "pair": "S01656",
+ "note": null
 }
