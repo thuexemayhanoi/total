@@ -65,7 +65,12 @@ try {
   assert.deepEqual(claimed.map(x=>x.id),['S00001','S00002','S00003','S00012']);
   assert.deepEqual(queue.selectReady(m.slots,filename,['S00002','S00003'],10,()=>true).map(x=>x.id),['S00001','S00012']);
   assert(queue.selectReady(m.slots,filename,[],10,slot=>slot.id!=='S00012').every(x=>x.id!=='S00012'));
-  console.log('LAYER_1_2_PASS: three disjoint packs, ownership, backlog, resume, approval');
+  const legacyFiles = queue.fileCandidates(['a12-legacy-article.js']);
+  assert.equal(queue.candidateFile(m.slots.find(x=>x.id==='S00012'),legacyFiles),'a12-legacy-article.js');
+  assert.deepEqual(queue.selectReady(m.slots,['a12-legacy-article.js'],[],10,()=>true).map(x=>x.id),['S00012']);
+  assert.equal(queue.candidateFile(m.slots.find(x=>x.id==='S00012'),
+    queue.fileCandidates(['a12-a.js','a12-b.js'])),null,'duplicate source aliases fail closed');
+  console.log('LAYER_1_2_PASS: three disjoint packs, ownership, legacy backlog, resume, approval');
 
   // Three independently written heartbeat files; legacy/shared heartbeat must
   // remain unchanged. Restore all state files afterward, even after failure.
