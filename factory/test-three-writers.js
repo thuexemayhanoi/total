@@ -65,6 +65,22 @@ try {
   assert.deepEqual(claimed.map(x=>x.id),['S00001','S00002','S00003','S00012']);
   assert.deepEqual(queue.selectReady(m.slots,filename,['S00002','S00003'],10,()=>true).map(x=>x.id),['S00001','S00012']);
   assert(queue.selectReady(m.slots,filename,[],10,slot=>slot.id!=='S00012').every(x=>x.id!=='S00012'));
+  // One final GitHub Action must recover all three Writer pushes, even if
+  // intermediate push-triggered Action runs were coalesced by GitHub.
+  const all30=ids(1,30);
+  const all30Files=all30.map(x=>x.slug+'.js');
+  const accepted=new Set();
+  for(let pass=1;pass<=3;pass++) {
+    const batch=queue.selectReady(all30,all30Files,accepted,10,()=>true);
+    assert.equal(batch.length,10,'exactly ten ready per publisher batch');
+    for(const item of batch) {
+      assert(!accepted.has(item.id),'never publish the same ID twice');
+      accepted.add(item.id);
+    }
+  }
+  assert.equal(accepted.size,30,'three coalesced writer pushes still drain all 30 IDs');
+  assert.equal(queue.selectReady(all30,all30Files,accepted,10,()=>true).length,0);
+
   const legacyFiles = queue.fileCandidates(['a12-legacy-article.js']);
   assert.equal(queue.candidateFile(m.slots.find(x=>x.id==='S00012'),legacyFiles),'a12-legacy-article.js');
   assert.deepEqual(queue.selectReady(m.slots,['a12-legacy-article.js'],[],10,()=>true).map(x=>x.id),['S00012']);
