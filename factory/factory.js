@@ -1956,7 +1956,13 @@ function main() {
     validateMatrix(m);
     const slugs = openArticleSlugs(m);
     const { claimable, waitingForWriter, awaitingApproval } = runtime.findClaimableBacklog(m, slugs, writableOpts().opts);
-    const hb = readJson(HEARTBEAT_FILE, null);
+    const perWriter = ['W1', 'W2', 'W3'].map(writer => ({
+      writer, heartbeat: readJson(path.join(WRITER_HEARTBEATS_DIR, writer + '.json'), null)
+    }));
+    const activeHeartbeats = perWriter.filter(x => x.heartbeat);
+    const hb = activeHeartbeats.length ?
+      activeHeartbeats.map(x => x.heartbeat).sort((a,b) => String(b.at).localeCompare(String(a.at)))[0] :
+      readJson(HEARTBEAT_FILE, null); // old W1 heartbeat only until new files exist
     const errors = (readJson(ERROR_FILE, { errors: [] }) || { errors: [] }).errors || [];
     const st = runtime.classifyProductionState({
       heartbeat: hb, errors,
@@ -1965,6 +1971,16 @@ function main() {
       nowMs: Date.now(),
       stallMinutes: runtime.WRITER_STALL_MINUTES,
     });
+    // A fresh W2 heartbeat cannot conceal a stalled W1 (and vice versa).
+    // Waiting-for-writer or idle slots are not falsely counted as stalled.
+    const stalledWriters = activeHeartbeats.filter(x =>
+      ['writing', 'waiting-publish'].includes(x.heartbeat.phase) &&
+      runtime.heartbeatAgeMinutes(x.heartbeat, Date.now()) > runtime.WRITER_STALL_MINUTES
+    ).map(x => x.writer);
+    if (stalledWriters.length && st.phase !== 'idle' && st.phase !== 'error') {
+      st.phase = 'stalled'; st.stalled = true;
+      st.reasons.push('WRITER_STALLED ' + stalledWriters.join(','));
+    }
     // Explicit owner-pause is honored ONLY by opt-in monitoring commands.
     // Normal liveness stays strict for diagnostics and regression fixtures.
     // Pause never clears/escalates errors, hides article-backed publish backlog,
@@ -1977,12 +1993,18 @@ function main() {
       if (control.mode === 'paused' && claimable.length === 0 && st.phase !== 'error') {
         st.phase = 'paused-by-owner';
         st.stalled = false;
-        st.reasons.push('OWNER_PAUSED: Writer 1 tạm dừng theo chủ repo; lỗi escalated vẫn được kiểm tra');
+        st.reasons.push('OWNER_PAUSED: W1/W2/W3 tạm dừng theo chủ repo; lỗi escalated vẫn được kiểm tra');
       }
     }
     const dist = {};
     for (const s of m.slots) dist[s.state] = (dist[s.state] || 0) + 1;
     const stallMin = opt('--stall-minutes');
+    for (const w of perWriter) {
+      console.log('WRITER_STATUS writer=' + w.writer +
+        ' phase=' + (w.heartbeat ? w.heartbeat.phase : 'not-started') +
+        ' age_min=' + (w.heartbeat ?
+          Math.round(runtime.heartbeatAgeMinutes(w.heartbeat, Date.now())) : 'none'));
+    }
     console.log('PRODUCTION_STATUS phase=' + st.phase + ' stalled=' + st.stalled +
       ' heartbeat_age_min=' + st.heartbeatAgeMinutes + ' (ngưỡng ' + (stallMin || runtime.WRITER_STALL_MINUTES) + ' phút)');
     console.log('PUBLISHED=' + (dist.PUBLISHED || 0) + ' WAITING_FOR_WRITER=' + waitingForWriter.length +
@@ -1994,8 +2016,8 @@ function main() {
     for (const r of st.reasons) console.log('REASON ' + r);
     if (cmd === 'liveness') {
       if (st.stalled) {
-        console.error('LIVENESS_FAIL: Writer 1 ĐỨNG — heartbeat cũ ' + st.heartbeatAgeMinutes +
-          ' phút (phase ' + st.phase + '). Đốc công 2 kiểm tra: đang viết / chờ publish / hết phiên / lỗi; không có kết nối đánh thức phiên Mistral từ Actions — cần session writer mới resume từ checkpoint.');
+        console.error('LIVENESS_FAIL: Writer stale=' + stalledWriters.join(',') +
+          ' phase=' + st.phase + ' — chỉ người dùng resume phiên AI ngoài, không có AI API tự gọi.');
         process.exit(1);
       }
       if (st.escalated) {
