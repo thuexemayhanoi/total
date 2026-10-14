@@ -1,0 +1,77 @@
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'di-xe-may-qua-day-quan-via-he-buoi-toi-khach-ngoi-sat-mep-duong-nguoi-bung-do-bang-qua-lan-va-xe-do-kin-le',
+  title: 'Đi xe máy qua dãy quán vỉa hè buổi tối: khách ngồi sát mép đường, người bưng đồ băng qua làn và xe đỗ kín lề',
+  seoTitle: 'Đi xe máy qua dãy quán vỉa hè buổi tối: đi chậm, nhìn thấp, nhường',
+  metaDescription: 'Cách đi xe máy qua dãy quán vỉa hè buổi tối: nhận ra từ xa, tránh người ngồi khuất sau xe đỗ, nhường người bưng đồ nóng, và dừng ăn rồi ra về an toàn.',
+  summary: 'Bài hướng dẫn cách đi xe máy qua dãy quán vỉa hè vào buổi tối, nơi ghế thấp, xe đỗ kín lề, khói bếp và người bưng đồ nóng băng qua làn cùng xuất hiện trong một làn đường hẹp. Nội dung giải thích vì sao đoạn đường này cần đi chậm, cách nhận ra dãy quán từ xa, cách chọn vị trí trong làn và nơi đặt ánh mắt, rồi tới việc chính bạn dừng ăn và dắt xe ra về. Phần cuối bàn về giờ muộn, khi khách ra về cùng lúc và có người đã uống rượu bia.',
+  quickAnswer: 'Qua dãy quán vỉa hè buổi tối, hãy giảm tốc từ đầu dãy, đi xa mép có quán chừng nào làn còn cho phép, nhìn xuống chân bàn ghế và khe giữa các xe đỗ, rồi nhường người bưng đồ nóng băng qua làn. Không lách sát ghế khách, không còi dồn dập, không rồ ga hay nẹt pô. Tự dừng ăn thì đỗ theo chỉ dẫn, dắt xe ra từ từ, nhìn hai phía rồi mới nhập dòng; uống rượu bia thì không lái.',
+  keyPoints: [
+    'Ghế thấp và xe đỗ chồng ra lòng đường tạo vùng khuất: người ngồi phía sau xe đỗ gần như không lộ ra cho tới khi bạn đã rất gần.',
+    'Khách đứng dậy thường đẩy ghế lùi ra phía làn mà không ngoái lại, còn người bán bưng đồ nóng băng qua làn với hai tay đầy và mắt nhìn vào đồ trên tay.',
+    'Dãy đèn quán, khói bếp, mùi đồ nướng, hàng xe đỗ dồn ra lòng đường và người trông xe vẫy tay là các tín hiệu để giảm tốc từ đầu dãy.',
+    'Nhìn thấp vào chân bàn ghế và khe giữa các xe đỗ, đi lệch xa mép có quán khi làn cho phép, giữ tốc độ đều, không còi dồn dập, không rồ ga, và cẩn thận vệt nước, dầu mỡ.',
+    'Tự mình dừng ăn thì đỗ theo chỉ dẫn, dắt xe ra từ từ, nhìn hai phía rồi mới nhập dòng; không lái xe khi đã uống rượu bia và không chở người say.'
+  ],
+  category: 'ride',
+  hub: 'lai-xe-trong-thanh-pho',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['dãy quán vỉa hè', 'ghế thấp sát mép đường', 'xe đỗ kín lề', 'người trông xe', 'người bưng đồ nóng', 'vệt nước và dầu mỡ trên mặt đường'],
+  keywords: ['đi xe máy qua dãy quán vỉa hè buổi tối', 'quán vỉa hè ghế thấp sát mép đường', 'người bưng đồ ăn băng qua đường', 'xe khách đỗ kín lề trước quán'],
+  sections: [
+    P('Vì sao dãy quán vỉa hè buổi tối cần đi chậm', [
+      'Dãy quán vỉa hè buổi tối là một đoạn đường có luật chơi riêng: làn xe hẹp lại, con người ở rất gần mép làn, và không ai trong số họ đang để ý tới dòng xe. Câu trả lời ngắn gọn cho người đi xe máy là giảm tốc ngay từ đầu dãy, đi ở phần làn xa phía có quán nhất mà vẫn an toàn, nhìn xuống chân bàn ghế và khe giữa các xe đỗ, rồi qua thật đều. Lý do không nằm ở chỗ khách hay người bán làm sai điều gì, mà ở cách nơi này vận hành: một chỗ vốn dành cho ăn uống, trò chuyện và nấu nướng bỗng nằm sát nơi xe chạy, nên mọi cử động bình thường của con người đều có thể thành vật cản bất ngờ trước mũi xe bạn.',
+      'Bàn ghế ở các quán kiểu này thường thấp, và điều đó tạo ra một vùng khuất mà người lái dễ bỏ sót. Mắt bạn nhìn ngang tầm yên xe và thùng xe đỗ, còn đầu người ngồi trên ghế thấp nằm dưới đường nhìn ấy. Một chiếc xe đỗ chồng ra lòng đường là đủ để che trọn một người đang ngồi phía sau, thậm chí che cả một chiếc bàn nhỏ. Bạn chỉ thấy lờ mờ phần vai hoặc cánh tay khi đã đến rất gần. Vì thế, đừng coi khoảng trống giữa hai chiếc xe đỗ là khoảng trống thật sự: đó có thể là chỗ một người đang cúi xuống nhặt đồ, buộc dây giày hay chờ người quen. Quy tắc dễ nhớ là xem phía sau mỗi chiếc xe đỗ như có người, cho tới khi nhìn rõ là không.',
+      'Ngoài vùng khuất còn có những chuyển động mà người ngồi không hề báo trước. Ghế nhựa nhẹ trượt trên mặt đường rất nhanh, nên khách đứng dậy thường đẩy ghế lùi ra sau, tức là về phía làn xe, mà không ngoái lại. Người đi ra lấy xe, người vừa nghe điện thoại vừa bước tới bước lui, người quay sang gọi bạn đồng hành đều có thể rời mép bàn bất ngờ. Trẻ con của khách hay của chủ quán lại càng khó đoán, chạy theo bóng, theo nhau hoặc theo tiếng gọi mà không nhìn đường. Thêm vào đó, người bán bưng khay hay nồi nóng băng qua làn từ phía bên kia, hai tay đầy, mắt nhìn đồ đang bưng chứ không nhìn xe. Một cú phanh gấp ở đây dễ biến thành chuyện lớn cho cả người bưng đồ nóng.'
+    ]),
+    P('Nhận ra dãy quán từ xa và những điểm dễ có người bước ra', [
+      'Dãy quán thường báo hiệu từ khá xa nếu bạn biết nhìn. Trước hết là ánh đèn: một chuỗi bóng đèn, biển hiệu và đèn bàn sáng liên tiếp dọc một bên đường, khác hẳn đoạn tối hơn ở trước và sau. Tiếp theo là khói bếp bay ngang, thường lộ rõ trong ánh đèn từ xa, kèm mùi đồ nướng, đồ chiên hay nước dùng nóng ập vào mũi trước khi bạn kịp nhìn rõ bàn ghế. Âm thanh cũng là manh mối: tiếng nói cười, tiếng nhạc, tiếng gọi món chồng lên nhau. Chỉ cần nhận ra một trong các tín hiệu ấy, hãy coi như đã vào vùng cần chậm, nhả ga và hờ tay trên cần phanh, thay vì chờ tới lúc nhìn thấy người rồi mới phản ứng.',
+      'Một dấu hiệu rõ nữa là hàng xe đỗ. Xe máy của khách nối đuôi nhau, chồng cả ra lòng đường, tức là làn đi của bạn đã bị thu hẹp trước khi bạn kịp thấy quán. Người trông xe thường đứng ở đầu dãy hoặc giữa lối, vẫy tay ra hiệu cho xe vào đỗ và xe ra khỏi chỗ. Cử chỉ vẫy tay ấy báo rằng gần đó sắp có xe lùi, xe đảo đầu hoặc người dắt xe ra. Cũng nên để ý những chiếc xe đã sáng đèn, người ngồi trên yên đã đội mũ và cài quai, bởi đó là dấu hiệu xe sắp rời chỗ. Việc nhận ra người sắp rời lề đã được phân tích riêng trong bài về xe máy đang đỗ ven đường bất ngờ nhập dòng, rất hợp để đọc cùng đoạn này.',
+      'Trong dãy quán, một số điểm đáng để mắt nhiều hơn cả. Đó là khe hở giữa hai chiếc xe đỗ, nơi người từ bàn ghế bước ra làn để lấy xe hay băng sang bên kia. Đó là chỗ nhóm bàn ghế bên này đối diện với bếp hoặc quầy bên kia, vì người bán thường đi qua lại giữa hai nơi bằng đường ngắn nhất, tức là băng thẳng qua làn. Đó là lối vào quán, chỗ rửa bát và chỗ đổ nước, nơi mặt đường dễ ướt. Và đó là mép làn gần những nhóm khách đứng nói chuyện hoặc chờ người. Ở các điểm này, thói quen tốt là nhìn xuyên qua khe giữa các xe, tìm chân người và bánh ghế, vì chân và ghế thường lộ ra trước khi thân người xuất hiện.'
+    ]),
+    P('Cách đi qua giữa bàn ghế, xe đỗ và người bưng đồ', [
+      'Giảm tốc phải bắt đầu từ đầu dãy chứ không phải lúc đã sát bàn ghế. Hãy nhả ga sớm, để xe trôi chậm tới mức bạn có thể dừng gọn trong đoạn nhìn thấy trước mặt, vốn đã bị xe đỗ và khói che bớt. Nếu làn đường cho phép và phía bên kia an toàn, hãy đi lệch ra xa mép có quán, chừa khoảng cách ngang rộng nhất có thể với ghế khách và xe đỗ. Tuy nhiên, đừng đẩy mình sang giữa đường theo kiểu tạt sang làn ngược chiều hay áp sát xe đang chạy bên cạnh, vì khi ấy bạn chỉ đổi nguy cơ từ người ngồi sang xe khác. Tốc độ đều, tay lái ổn định, mắt quét từ gần ra xa rồi quay lại là cách đi qua dễ đoán nhất đối với những người xung quanh.',
+      'Ánh mắt nên đặt thấp hơn bình thường. Thay vì nhìn vào đầu người, hãy nhìn vào chân bàn ghế, bánh ghế nhựa, dép thò ra và khe giữa các xe đỗ, vì chuyển động thường bắt đầu từ đó. Đồng thời liếc sang phía bên kia đường, nơi bếp hoặc quầy của quán hay đặt: người sắp băng qua với khay, nồi hay bát nóng thường nghiêng người, bước ngắn và dán mắt vào đồ trên tay. Gặp cảnh đó, hãy giảm thêm và nhường để họ qua trọn vẹn, đừng cố chen qua trước. Tuyệt đối không lách sát ghế khách đang ngồi chỉ vì thấy còn vừa bề ngang xe: ghế có thể bị đẩy ra đúng lúc bạn đi ngang, và tay lái hay chân bạn sẽ là thứ chạm vào trước.',
+      'Âm thanh và cách điều khiển ga cũng quan trọng không kém. Còi dồn dập không mở được đường ở một nơi như vậy; nó chỉ làm người đang bưng đồ nóng giật mình, làm khách quay phắt lại hoặc làm trẻ con chạy loạn. Nẹt pô hay rồ ga cũng thế: chúng báo rằng bạn đang tới, nhưng bằng sự hoảng hốt chứ không bằng sự chú ý. Nếu thật cần báo hiệu, một tiếng còi ngắn và nhẹ từ lúc còn cách xa, cùng tốc độ thấp, là đủ. Hãy tính tới cả mặt đường: gần chỗ rửa bát, chỗ đổ nước hay chỗ nướng, nước, dầu mỡ và vỏ đồ ăn có thể làm bánh xe trượt, nhất là lúc phanh hay đánh lái gấp. Phanh nhẹ, giữ thẳng xe và tránh bẻ lái đột ngột khi đi qua vệt bóng loáng. Khói bay ngang còn làm cay mắt, nên giảm thêm khi xuyên qua làn khói.'
+    ]),
+    P('Khi chính mình dừng ăn uống ở quán vỉa hè', [
+      'Có lúc chính bạn là người muốn dừng lại ăn một bữa tối bên đường, và lúc ấy bạn trở thành một phần của khung cảnh đã nói ở trên. Từ đầu dãy, hãy đi chậm và quan sát chỗ còn trống trước khi quyết định rẽ vào, thay vì phanh đột ngột giữa làn khiến xe phía sau không kịp phản ứng. Đỗ theo chỉ dẫn của người trông xe nếu có, vì họ biết xe nào sắp ra, xe nào cần chừa lối. Đừng tự đỗ chồng ra lòng đường, đừng chắn lối đi của người bưng đồ và đừng đỗ sát mép ghế của khách khác. Một chỗ đỗ gọn, thẳng hàng với những xe đã đỗ, theo hướng dễ dắt ra tùy chỗ, sẽ giúp lúc ra về bạn không phải vừa lùi vừa xoay xe giữa đám đông.',
+      'Sau khi đỗ, hãy dành một lúc cho vài việc nhỏ. Khóa xe, kiểm tra chân chống đã vững, và đừng để mũ bảo hiểm, túi hay điện thoại trên yên hoặc trong giỏ xe nếu bạn không muốn mất đồ. Nếu còn lựa chọn chỗ ngồi, hãy ưu tiên ghế từ đó nhìn được ra làn xe và ở xa mép làn nhất có thể, vì người ngồi quay lưng về phía xe chạy là người khó nhận ra nguy hiểm nhất. Muốn đứng dậy, hãy ngoái lại nhìn trước khi đẩy ghế. Dặn trẻ nhỏ đi cùng ngồi phía trong, không chạy ra gần làn xe, và giữ tay người lớn khi ra lấy xe. Làm vậy không chỉ bảo vệ gia đình bạn mà còn bớt đi một bất ngờ cho những người chạy xe qua dãy quán.',
+      'Lúc ra về là thời điểm nhiều rủi ro nhất đối với người dừng ăn. Hãy đội mũ bảo hiểm, cài quai và nhìn quanh xe trước khi nhấc chân chống, vì bên cạnh có thể là ghế, trẻ nhỏ hoặc người đang bưng khay. Dắt xe ra từ từ bằng tay, đừng vừa dắt vừa vặn ga, và nhờ người trông xe hỗ trợ nếu lối chật. Tới mép làn, hãy dừng hẳn, nhìn cả hai phía, cả phía có xe đang tới lẫn phía có xe cũng đang rời lề, rồi mới nhập dòng. Đừng tăng ga gấp để chen vào khoảng trống vừa thấy: người đi qua dãy quán tuy chạy chậm nhưng không phải lúc nào cũng nhìn thấy bạn từ phía sau xe đỗ. Hòa vào dòng bằng tốc độ thấp, bật xi-nhan rõ ràng và chỉ tăng dần sau khi đã qua khỏi dãy.'
+    ]),
+    P('Giờ muộn: khách ra về và người đã uống rượu bia', [
+      'Càng về khuya, đặc điểm của dãy quán càng đổi khác. Khách ngồi lâu hơn, nói to hơn, nhiều người đã uống rượu bia và phản xạ của họ chậm lại: họ đứng dậy loạng choạng, bước ra làn mà không biết mình đang ở đâu so với dòng xe, hoặc đứng giữa lối vừa nói chuyện vừa chờ người quen. Với người đi xe máy, điều đó có nghĩa là mức cảnh giác nên cao hơn lúc đầu tối, dù dãy quán trông có vẻ bớt người qua lại. Giảm tốc sớm hơn, chừa khoảng cách ngang rộng hơn và sẵn sàng dừng hẳn nếu có ai bước ra là cách hợp lý nhất. Cách xử lý chi tiết khi gặp người say đi bộ dưới lòng đường, kể cả trường hợp có người ngồi hay nằm giữa đường ban đêm, đã được bàn riêng trong bài về người say đi bộ loạng choạng.',
+      'Một hiện tượng khác của giờ muộn là nhiều xe rời chỗ gần như cùng lúc. Một nhóm khách ăn xong thường lấy xe, đội mũ, nổ máy rồi nhập dòng liên tiếp, đôi khi mỗi người chỉ nhìn một phía rồi đi, hoặc cả nhóm đi sát nhau theo người dẫn đầu. Bạn sẽ gặp những chiếc xe vừa lăn bánh khỏi hàng xe đỗ ngay trước mũi mình, với tốc độ thấp và hướng đi chưa ổn định. Hãy theo dõi người đang đội mũ, đang cài quai, xe vừa sáng đèn, và chừa khoảng cho họ nhập dòng thay vì cố vượt lên cho nhanh. Chuyện này giống tình huống xe đỗ ven đường bất ngờ rời lề, vốn đã được phân tích kỹ trong bài về xe máy đang đỗ nhập dòng, nên bài ấy có thể xem như phần bổ sung cho đoạn đường này.',
+      'Cuối cùng là phần dành cho chính bạn. Đã uống rượu bia thì không lái xe, dù chỉ một đoạn ngắn để về nhà; và đừng chở người đang say, vì họ khó giữ thăng bằng, dễ ngả người hoặc buông tay giữa chừng. Hãy tính trước ngay từ lúc vào quán: nhờ một người tỉnh táo đưa về, đi bằng phương tiện khác hoặc chờ tới khi thật sự tỉnh. Nếu bạn chỉ đi ngang, hãy chấp nhận rằng người đi bộ ở đây có thể sang đường mà không nhìn, và nhóm khách có thể dừng giữa lòng đường để chào nhau. Cách nhường người đi bộ sang đường trước mũi xe cũng đã có bài riêng với những chỗ họ hay xuất hiện bất ngờ. Đi qua khu chợ ban ngày có vài nét tương tự nhưng dòng người và hàng hóa khác hẳn, nên không bàn lại ở đây.'
+    ])
+  ],
+  checklist: [
+    'Nhả ga và hờ tay trên cần phanh ngay khi thấy dãy đèn quán, khói bếp hoặc ngửi mùi đồ nướng ở phía trước.',
+    'Nhìn thấp vào chân bàn ghế, bánh ghế và khe giữa các xe đỗ, coi phía sau mỗi xe đỗ như có người.',
+    'Liếc sang phía bên kia đường để tìm người bưng khay, nồi hay bát nóng sắp băng qua làn.',
+    'Đi lệch xa mép có quán khi làn cho phép và an toàn, giữ tốc độ đều, không còi dồn dập, không rồ ga hay nẹt pô.',
+    'Tự dừng ăn thì đỗ theo chỉ dẫn, dắt xe ra từ từ, nhìn hai phía rồi mới nhập dòng và không lái xe khi đã uống rượu bia.'
+  ],
+  steps: [
+    { title: 'Giảm tốc từ đầu dãy', detail: 'Nhận ra đèn, khói bếp, mùi đồ nướng và hàng xe đỗ ra lòng đường để nhả ga sớm, đủ chậm để dừng gọn trong đoạn nhìn thấy được.' },
+    { title: 'Nhìn thấp và nhìn hai phía', detail: 'Quan sát chân bàn ghế, bánh ghế và khe giữa các xe đỗ, đồng thời để ý người bưng đồ nóng từ phía bên kia đường.' },
+    { title: 'Giữ khoảng và giữ tốc độ đều', detail: 'Đi xa mép có quán chừng nào làn còn cho phép, không lách sát ghế khách, không bóp còi dồn dập, phanh nhẹ và tránh bẻ lái đột ngột trên vệt nước hay dầu mỡ.' },
+    { title: 'Dừng ăn và ra về cẩn thận', detail: 'Đỗ theo chỉ dẫn người trông xe, không đỗ chồng ra lòng đường, dắt xe ra từ từ, nhìn cả hai phía rồi mới nhập dòng.' }
+  ],
+  warnings: [
+    'Không lái xe khi đã uống rượu bia và không chở người say; hãy nhờ người tỉnh táo đưa về hoặc dùng phương tiện khác.',
+    'Không lách sát ghế khách, không cố chen qua trước người đang bưng đồ nóng; gặp họ thì giảm thêm hoặc dừng hẳn để họ qua.',
+    'Gần chỗ rửa bát, chỗ đổ nước hay chỗ nướng, mặt đường có thể trơn vì nước và dầu mỡ: phanh nhẹ, giữ thẳng xe, không đánh lái gấp.'
+  ],
+  notes: [
+    'Bài chỉ nêu nguyên tắc đi chậm và quan sát chung, không bàn về cách bố trí của từng quán; tình huống thực tế mỗi nơi mỗi khác nên luôn ưu tiên những gì bạn nhìn thấy trước mặt.',
+    'Tốc độ vừa đủ chậm phụ thuộc đoạn đường, tầm nhìn, tình trạng phanh và lốp của xe bạn; hãy tự điều chỉnh sao cho dừng được gọn trong đoạn mình nhìn thấy.'
+  ],
+  references: [
+    'Tài liệu huấn luyện kỹ năng lái xe máy an toàn trong đô thị của các cơ sở đào tạo lái xe',
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần phanh, lốp và đèn chiếu sáng'
+  ],
+  related: ['xe-may-dang-do-ven-duong-hay-tren-via-he-bat-ngo-nhap-dong-nhan-ra-nguoi-sap-roi-le-va-giu-khoang-khi-di-ngang', 'gap-nguoi-say-di-bo-loang-choang-duoi-long-duong-khi-di-xe-may-giam-toc-tranh-xa-va-xu-ly-khi-co-nguoi-nam-giua-duong', 'nguoi-di-bo-sang-duong-truoc-mui-xe-may-nhuong-va-doc-y-dinh', 'di-xe-may-qua-khu-cho-luu-y', 'cho-nguoi-dang-say-ruou-bia-ve-nha-bang-xe-may-khi-nao-khong-nen-cho-va-dau-hieu-can-goi-cap-cuu']
+};
