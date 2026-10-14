@@ -23042,6 +23042,45 @@
    "attempts": 0,
    "createdAt": "2026-10-14T00:43:56.489Z",
    "updatedAt": "2026-10-14T00:43:56.489Z"
+  },
+  {
+   "id": "S01581",
+   "hub": "ride/du-lich-xe-may",
+   "slug": "dung-xe-may-o-diem-co-khi-ven-deo-hay-khu-di-tich-khong-cho-an-giu-tui-va-mu-cat-do-truoc-khi-roi-xe",
+   "title": "Dừng xe máy ở điểm có khỉ ven đèo hay khu di tích: không cho ăn, giữ túi và mũ, cất đồ trước khi rời xe",
+   "primaryIntent": "informational/dung-xe-may-o-diem-co-khi-ven-deo-hay-khu-di-tich-khong-cho-an-giu-tui-va-mu-cat-do-truoc-khi-roi-xe",
+   "notes": "source=topic-v2 topicId=T001717",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T00:46:36.693Z",
+   "updatedAt": "2026-10-14T00:46:36.693Z"
+  },
+  {
+   "id": "S01582",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "gap-nhom-chup-anh-cuoi-quay-video-hay-check-in-giua-long-duong-nguoi-lui-ra-lan-xe-va-cach-di-qua",
+   "title": "Gặp nhóm chụp ảnh cưới, quay video hay check-in giữa lòng đường: người lùi ra làn xe và cách đi qua",
+   "primaryIntent": "informational/gap-nhom-chup-anh-cuoi-quay-video-hay-check-in-giua-long-duong-nguoi-lui-ra-lan-xe-va-cach-di-qua",
+   "notes": "source=topic-v2 topicId=T001718",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T00:46:36.734Z",
+   "updatedAt": "2026-10-14T00:46:36.734Z"
+  },
+  {
+   "id": "S01583",
+   "hub": "ride/lai-xe-trong-thanh-pho",
+   "slug": "di-xe-may-qua-day-quan-via-he-buoi-toi-khach-ngoi-sat-mep-duong-nguoi-bung-do-bang-qua-lan-va-xe-do-kin-le",
+   "title": "Đi xe máy qua dãy quán vỉa hè buổi tối: khách ngồi sát mép đường, người bưng đồ băng qua làn và xe đỗ kín lề",
+   "primaryIntent": "informational/di-xe-may-qua-day-quan-via-he-buoi-toi-khach-ngoi-sat-mep-duong-nguoi-bung-do-bang-qua-lan-va-xe-do-kin-le",
+   "notes": "source=topic-v2 topicId=T001719",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-14T00:46:36.773Z",
+   "updatedAt": "2026-10-14T00:46:36.773Z"
   }
  ]
 }
