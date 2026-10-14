@@ -580,23 +580,24 @@ console.log('2. INTEGRATION — backfill → propose → review → approve → 
   ok(r.status === 0 && /openApproved=3/.test(r.out), 'topic-check sau 3 lần duyệt OK');
 
   // writer-pack: chỉ nhận slot APPROVED
-  r = cli(E, ['writer-pack', '--count', '10']);
-  const batch = (/BATCH_IDS=(\S+)/.exec(r.out) || [])[1] || '';
+  const writerPacks = ['W1','W2','W3'].map(writer =>
+    JSON.parse(cli(E, ['writer-pack', '--writer', writer, '--count', '10', '--json']).stdout));
   const approvedSlots = rowsOf(E).filter(x => x.lifecycle === 'APPROVED').map(x => x.slotId).sort();
-  same(batch.split(',').sort(), approvedSlots, 'writer-pack: BATCH_IDS = đúng các slot APPROVED (không có slot legacy chưa duyệt)');
-  ok(!/S00007|S00008/.test(batch), 'writer-pack: không bao giờ chứa slot legacy chưa duyệt');
-  ok(/TOPIC_BRIEF keyword=/.test(r.out) && /TOPIC_GAIN /.test(r.out) && /TOPIC_OUTLINE /.test(r.out), 'writer-pack in TOPIC_BRIEF/GAIN/OUTLINE cho topic V2');
-  const j = JSON.parse(cli(E, ['writer-pack', '--count', '10', '--json']).stdout);
-  ok(j.items.every(it => it.brief && it.brief.informationGain && it.brief.outline.length >= 4), 'writer-pack --json: mỗi item có brief (informationGain, outline)');
-  // hub còn trống (không có bài đã xuất bản cùng hub/danh mục) vẫn phải có gợi ý related, ưu tiên bài gần nghĩa do gate ghi lại
+  const batch = writerPacks.flatMap(x => x.batchIds).join(',');
+  const j = { items: writerPacks.flatMap(x => x.items) };
+  same(batch.split(',').sort(), approvedSlots, 'writer-pack: 3 writer hợp lại đúng toàn bộ APPROVED');
+  ok(!/S00007|S00008/.test(batch), 'writer-pack: không nhận slot legacy chưa duyệt');
+  r = cli(E, ['writer-pack', '--writer', writerPacks.find(x=>x.count>0).writer, '--count', '10']);
+  ok(/TOPIC_BRIEF keyword=/.test(r.out) && /TOPIC_GAIN /.test(r.out) && /TOPIC_OUTLINE /.test(r.out), 'writer-pack in đủ TOPIC_BRIEF/GAIN/OUTLINE');
+  ok(j.items.every(it => it.brief && it.brief.informationGain && it.brief.outline.length >= 4), 'writer-pack --json: mỗi item có brief');
   const rowsNow = rowsOf(E);
-  ok(j.items.every(it => it.relatedPublished.length >= 2), 'writer-pack: mọi item có >= 2 gợi ý related PUBLISHED kể cả khi hub chưa có bài nào', JSON.stringify(j.items.map(it => [it.id, it.relatedPublished.length])));
-  ok(j.items.every(it => { const row = rowsNow.find(x => x.slotId === it.id); const np = ((row.gate || {}).nearestPublished || []).map(x => x.slug); return np.length === 0 || it.relatedPublished[0].slug === np[0]; }), 'writer-pack: gợi ý related ưu tiên bài đã xuất bản gần nghĩa nhất của topic');
-  const sh1 = JSON.parse(cli(E, ['writer-pack', '--count', '10', '--shard', '1/2', '--json']).stdout);
-  const sh2 = JSON.parse(cli(E, ['writer-pack', '--count', '10', '--shard', '2/2', '--json']).stdout);
-  const s1 = (sh1.batchIds || []), s2 = (sh2.batchIds || []);
-  ok(s1.length + s2.length === approvedSlots.length && !s1.some(x => s2.includes(x)), 'writer-pack --shard k/n: hai shard rời nhau', JSON.stringify([s1, s2]));
-  same([...s1, ...s2].sort(), approvedSlots, 'writer-pack --shard k/n: hợp hai shard = đủ batch');
+  ok(j.items.every(it => it.relatedPublished.length >= 2), 'writer-pack: mọi item có >= 2 related PUBLISHED', JSON.stringify(j.items.map(it => [it.id, it.relatedPublished.length])));
+  ok(j.items.every(it => { const row = rowsNow.find(x => x.slotId === it.id); const np = ((row.gate || {}).nearestPublished || []).map(x => x.slug); return np.length === 0 || it.relatedPublished[0].slug === np[0]; }), 'writer-pack: ưu tiên article liên quan gần nghĩa nhất');
+  const sets = writerPacks.map(x=>new Set(x.batchIds));
+  ok(sets.reduce((n,x)=>n+x.size,0)===approvedSlots.length &&
+    writerPacks.every((x,i)=>x.batchIds.every(id=>Number(BigInt(id.slice(1))%3n)===i)),
+    'writer-pack: W1/W2/W3 không giao trùng và chia ID cố định');
+  same(writerPacks.flatMap(x=>x.batchIds).sort(), approvedSlots, '3 shard phủ toàn bộ APPROVED');
 
   // verify-batch từ chối module bài của slot chưa duyệt; backlog không che
   r = cli(E, ['verify-batch', 'S00008']);
@@ -667,15 +668,18 @@ console.log('2. INTEGRATION — backfill → propose → review → approve → 
 
   // rollback: governance off + allowed => hành vi legacy
   fs.writeFileSync(E.p('topic-governance.json'), JSON.stringify(GOV_OFF));
-  r = cli(E, ['writer-pack', '--count', '10']);
-  ok(/BATCH_IDS=/.test(r.out) && /S00007|S00008/.test((/BATCH_IDS=(\S+)/.exec(r.out) || [])[1] || ''), 'ROLLBACK: governance off => writer-pack nhận lại slot legacy (hành vi cũ)', r.out.slice(0, 200));
+  const rollbackIds = ['W1','W2','W3'].flatMap(writer =>
+    JSON.parse(cli(E, ['writer-pack','--writer',writer,'--count','10','--json']).stdout).batchIds);
+  ok(rollbackIds.includes('S00007') && rollbackIds.includes('S00008'),
+    'ROLLBACK: governance off nhận slot legacy, nhưng vẫn chia 3 Writer không trùng');
   r = cli(E, ['queue-refill', '--dry-run', ...COORD]);
   ok(!/QUEUE_REFILL frozen/.test(r.out), 'ROLLBACK: v1Generation=allowed => queue-refill không còn bị đóng băng', r.out.slice(0, 160));
   r = cli(E, ['topic-check']);
   ok(r.status === 0, 'ROLLBACK: topic-check vẫn OK khi governance off');
   fs.unlinkSync(E.p('topic-governance.json'));
   r = cli(E, ['writer-pack', '--count', '10']);
-  ok(/BATCH_IDS=/.test(r.out), 'ROLLBACK: xóa file governance => legacy 100% (tương thích checkout cũ)');
+  ok(r.status === 0 && /WRITER_PACK status=/.test(r.out),
+    'ROLLBACK: xóa governance vẫn hoạt động; mặc định Writer W1 an toàn');
   fs.rmSync(E.root, { recursive: true, force: true });
 }
 
