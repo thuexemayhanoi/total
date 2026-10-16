@@ -25150,11 +25150,13 @@
    "title": "Trước khi nổ máy, có nên cầm lái lúc này không: vài câu tự hỏi và cách đổi kế hoạch mà không áy náy",
    "primaryIntent": "informational/truoc-khi-no-may-co-nen-cam-lai-luc-nay-khong-vai-cau-tu-hoi-va-cach-doi-ke-hoach-ma-khong-ay-nay",
    "notes": "source=topic-v2 topicId=T001887",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:10.480Z",
-   "updatedAt": "2026-10-16T12:17:10.480Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 3009
   },
   {
    "id": "S01722",
@@ -25163,11 +25165,13 @@
    "title": "Chạy xe kiếm sống khi khách giục và đơn sắp trễ: giữ nhịp an toàn, nhắn báo trước và biết lúc nên từ chối",
    "primaryIntent": "informational/chay-xe-kiem-song-khi-khach-giuc-va-don-sap-tre-giu-nhip-an-toan-nhan-bao-truoc-va-biet-luc-nen-tu-choi",
    "notes": "source=topic-v2 topicId=T001888",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:10.573Z",
-   "updatedAt": "2026-10-16T12:17:10.573Z"
+   "updatedAt": "2026-10-16T12:52:31.408Z",
+   "seoScore": 100,
+   "words": 2833
   },
   {
    "id": "S01723",
@@ -25176,11 +25180,13 @@
    "title": "Đèn đỏ ở ngã tư vắng, xe sau bấm còi hối và người khác vượt: vì sao mình vẫn dừng và cách chịu áp lực",
    "primaryIntent": "informational/den-do-o-nga-tu-vang-xe-sau-bam-coi-hoi-va-nguoi-khac-vuot-vi-sao-minh-van-dung-va-cach-chiu-ap-luc",
    "notes": "source=topic-v2 topicId=T001889",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:10.749Z",
-   "updatedAt": "2026-10-16T12:17:10.749Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 2752
   },
   {
    "id": "S01724",
@@ -25189,11 +25195,13 @@
    "title": "Những câu tự nhủ trước khi liều trên xe máy, như chỉ một đoạn thôi hay ai cũng làm thế: cách nhận ra và dừng lại",
    "primaryIntent": "informational/nhung-cau-tu-nhu-truoc-khi-lieu-tren-xe-may-nhu-chi-mot-doan-thoi-hay-ai-cung-lam-the-cach-nhan-ra-va-dung-lai",
    "notes": "source=topic-v2 topicId=T001890",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:10.805Z",
-   "updatedAt": "2026-10-16T12:17:10.805Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 2875
   },
   {
    "id": "S01725",
@@ -25202,11 +25210,13 @@
    "title": "Sợ đi xe máy giữa dòng xe đông dù chưa từng ngã: vì sao cứng người, cách tập từng bước và chọn giờ, chọn tuyến",
    "primaryIntent": "informational/so-di-xe-may-giua-dong-xe-dong-du-chua-tung-nga-vi-sao-cung-nguoi-cach-tap-tung-buoc-va-chon-gio-chon-tuyen",
    "notes": "source=topic-v2 topicId=T001891",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:10.876Z",
-   "updatedAt": "2026-10-16T12:17:10.876Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 2890
   },
   {
    "id": "S01726",
@@ -25215,11 +25225,13 @@
    "title": "Gặp đoàn đi bộ hành hương hoặc đi bộ từ thiện dọc đường lớn: giảm tốc sớm, không bấm còi và vượt qua thế nào cho an toàn",
    "primaryIntent": "informational/gap-doan-di-bo-hanh-huong-hoac-di-bo-tu-thien-doc-duong-lon-giam-toc-som-khong-bam-coi-va-vuot-qua-the-nao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T001892",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:10.927Z",
-   "updatedAt": "2026-10-16T12:17:10.927Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 2943
   },
   {
    "id": "S01727",
@@ -25228,11 +25240,13 @@
    "title": "Gặp nhóm chơi bóng, đá cầu hay cầu lông sát mép đường: bóng lăn ra, người chạy theo và cách đi chậm đúng lúc",
    "primaryIntent": "informational/gap-nhom-choi-bong-da-cau-hay-cau-long-sat-mep-duong-bong-lan-ra-nguoi-chay-theo-va-cach-di-cham-dung-luc",
    "notes": "source=topic-v2 topicId=T001893",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:10.991Z",
-   "updatedAt": "2026-10-16T12:17:10.991Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 2968
   },
   {
    "id": "S01728",
@@ -25241,11 +25255,13 @@
    "title": "Đi xe máy qua cổng nhà thờ, chùa hay đền lúc tan lễ: người đổ ra cùng lúc, xe đỗ hai bên và cách đi chậm cho đủ",
    "primaryIntent": "informational/di-xe-may-qua-cong-nha-tho-chua-hay-den-luc-tan-le-nguoi-do-ra-cung-luc-xe-do-hai-ben-va-cach-di-cham-cho-du",
    "notes": "source=topic-v2 topicId=T001894",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:11.044Z",
-   "updatedAt": "2026-10-16T12:17:11.044Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 3099
   },
   {
    "id": "S01729",
@@ -25254,11 +25270,13 @@
    "title": "Dùng ắc quy xe máy làm nguồn điện tạm khi mất điện: nguy cơ chập cháy, hết bình không nổ máy và cách làm thận trọng",
    "primaryIntent": "informational/dung-ac-quy-xe-may-lam-nguon-dien-tam-khi-mat-dien-nguy-co-chap-chay-het-binh-va-cach-lam-than-trong",
    "notes": "source=topic-v2 topicId=T001895",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T12:17:11.096Z",
-   "updatedAt": "2026-10-16T12:17:11.096Z"
+   "updatedAt": "2026-10-16T12:52:31.409Z",
+   "seoScore": 100,
+   "words": 2901
   }
  ]
 }
