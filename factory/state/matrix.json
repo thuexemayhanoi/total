@@ -24850,11 +24850,13 @@
    "title": "Cột bụi xoáy chạy ngang đường ngày nắng khi đi xe máy: vì sao dễ lệch lái, giảm tốc thế nào và dừng ở đâu",
    "primaryIntent": "informational/cot-bui-xoay-chay-ngang-duong-ngay-nang-khi-di-xe-may-vi-sao-de-lech-lai-giam-toc-the-nao-va-dung-o-dau",
    "notes": "source=topic-v2 topicId=T001867",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.592Z",
-   "updatedAt": "2026-10-16T04:34:04.593Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 100,
+   "words": 3086
   },
   {
    "id": "S01702",
@@ -24863,11 +24865,13 @@
    "title": "Tấm tôn, bạt hay thùng xốp bị gió cuốn bay ngang đường khi đi xe máy: giảm tốc, né thế nào và dừng ở đâu",
    "primaryIntent": "troubleshooting/tam-ton-bat-hay-thung-xop-bi-gio-cuon-bay-ngang-duong-khi-di-xe-may-giam-toc-ne-the-nao-va-dung-o-dau",
    "notes": "source=topic-v2 topicId=T001868",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.664Z",
-   "updatedAt": "2026-10-16T04:34:04.664Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 100,
+   "words": 3075
   },
   {
    "id": "S01703",
@@ -24876,11 +24880,13 @@
    "title": "Nước ngập quanh cột đèn, tủ điện và trụ điện khi đi xe máy: vì sao không nên lội sát và lùi ra thế nào cho an toàn",
    "primaryIntent": "informational/nuoc-ngap-quanh-cot-den-tu-dien-va-tru-dien-khi-di-xe-may-vi-sao-khong-nen-loi-sat-va-lui-ra-the-nao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T001869",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.759Z",
-   "updatedAt": "2026-10-16T04:34:04.759Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 100,
+   "words": 3003
   },
   {
    "id": "S01704",
@@ -24889,11 +24895,13 @@
    "title": "Xe máy điện đang sạc lúc trời nổi giông hoặc nước bắt đầu dâng: rút sạc thế nào, để pin ở đâu và kiểm tra gì sau",
    "primaryIntent": "informational/xe-may-dien-dang-sac-luc-troi-noi-giong-hoac-nuoc-bat-dau-dang-rut-sac-the-nao-de-pin-o-dau-va-kiem-tra-gi-sau",
    "notes": "source=topic-v2 topicId=T001870",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.806Z",
-   "updatedAt": "2026-10-16T04:34:04.806Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 91,
+   "words": 3052
   },
   {
    "id": "S01705",
@@ -24902,11 +24910,13 @@
    "title": "Mặt đường loáng như có nước giữa trưa nóng, xe phía xa méo hình: đừng phanh theo ảo ảnh và đọc đường thế nào",
    "primaryIntent": "informational/mat-duong-loang-nhu-co-nuoc-giua-trua-nong-xe-phia-xa-meo-hinh-khi-di-xe-may-dung-phanh-theo-ao-anh-va-doc-duong-the-nao",
    "notes": "source=topic-v2 topicId=T001871",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.850Z",
-   "updatedAt": "2026-10-16T04:34:04.850Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 100,
+   "words": 2987
   },
   {
    "id": "S01706",
@@ -24915,11 +24925,13 @@
    "title": "Hộ lan và rào tôn lượn sóng ven đường đèo: trụ đỡ, đầu rào và vì sao đi xe máy sát rào không an toàn như tưởng",
    "primaryIntent": "informational/ho-lan-va-rao-ton-luon-song-ven-duong-deo-tru-do-dau-rao-va-vi-sao-di-xe-may-sat-rao-khong-an-toan-nhu-tuong",
    "notes": "source=topic-v2 topicId=T001872",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.896Z",
-   "updatedAt": "2026-10-16T04:34:04.896Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 91,
+   "words": 2962
   },
   {
    "id": "S01707",
@@ -24928,11 +24940,13 @@
    "title": "Làn rẽ phải riêng có đảo dẫn hướng ở ngã tư: vào làn, nhường người đi bộ và nhập dòng xe ngang khi đi xe máy",
    "primaryIntent": "informational/lan-re-phai-rieng-co-dao-dan-huong-o-nga-tu-khi-di-xe-may-vao-lan-nhuong-nguoi-di-bo-va-nhap-dong-xe-ngang",
    "notes": "source=topic-v2 topicId=T001873",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.942Z",
-   "updatedAt": "2026-10-16T04:34:04.942Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 100,
+   "words": 3013
   },
   {
    "id": "S01708",
@@ -24941,11 +24955,13 @@
    "title": "Cua tay áo trên đường đèo: vì sao khác cua thường, xe lớn quét rộng ở đỉnh cua và cách đi xe máy khi lên lẫn khi xuống",
    "primaryIntent": "informational/cua-tay-ao-tren-duong-deo-vi-sao-khac-cua-thuong-xe-lon-quet-rong-o-dinh-cua-va-cach-di-xe-may-khi-len-lan-khi-xuong",
    "notes": "source=topic-v2 topicId=T001874",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:04.987Z",
-   "updatedAt": "2026-10-16T04:34:04.987Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 91,
+   "words": 3029
   },
   {
    "id": "S01709",
@@ -24954,11 +24970,13 @@
    "title": "Hầm chui dân sinh và cống hộp dưới đường lớn: lối hẹp thấp tối, xe gặp nhau trong hầm và cách đi qua bằng xe máy",
    "primaryIntent": "informational/ham-chui-dan-sinh-va-cong-hop-duoi-duong-lon-loi-hep-thap-toi-xe-gap-nhau-trong-ham-va-cach-di-qua-bang-xe-may",
    "notes": "source=topic-v2 topicId=T001875",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:05.033Z",
-   "updatedAt": "2026-10-16T04:34:05.033Z"
+   "updatedAt": "2026-10-16T04:41:50.437Z",
+   "seoScore": 100,
+   "words": 2851
   },
   {
    "id": "S01710",
@@ -24967,11 +24985,13 @@
    "title": "Cầu treo qua suối vùng núi khi đi xe máy: mặt cầu đung đưa, ván lát và cách lên cầu, giữ nhịp, xuống dắt khi cần",
    "primaryIntent": "informational/cau-treo-qua-suoi-vung-nui-khi-di-xe-may-mat-cau-dung-dua-van-lat-va-cach-len-cau-giu-nhip-xuong-dat-khi-can",
    "notes": "source=topic-v2 topicId=T001876",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-16T04:34:05.081Z",
-   "updatedAt": "2026-10-16T04:34:05.081Z"
+   "updatedAt": "2026-10-16T04:41:50.436Z",
+   "seoScore": 91,
+   "words": 3006
   }
  ]
 }
