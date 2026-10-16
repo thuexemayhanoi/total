@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-14T08:31:12.911Z",
- "phase": "error",
- "pair": "S01701,S01702,S01703,S01704,S01705,S01706,S01707,S01708",
- "note": "Hạ tầng filesystem Mistral lỗi proxy 401 từ ~08:05Z: không đọc/ghi được repo local, không chạy node verify được. Batch v122 (S01701-S01708, topic T001867-T001879) đã duyệt cục bộ, 3 bài đã viết cục bộ; chờ hạ tầng hồi để QA + verify + push. Xem issue #9 comment mới nhất."
+ "at": "2026-10-16T04:16:58.711Z",
+ "phase": "waiting-publish",
+ "pair": "S01678,S01679,S01680,S01681,S01682,S01683,S01684,S01685,S01686,S01687",
+ "note": null
 }
