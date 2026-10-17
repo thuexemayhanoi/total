@@ -1,0 +1,78 @@
+// AI WIKI TOTAL — S01778; hướng dẫn thực tế, không nêu số liệu, phí, hoa hồng hay tên hãng/mẫu xe.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'nho-tiem-ban-ho-xe-may-ai-giu-chia-ai-cho-khach-chay-thu-va-cach-theo-doi-de-hai-ben-cung-yen-tam',
+  title: 'Nhờ tiệm bán hộ xe máy: ai giữ chìa, ai cho khách chạy thử và cách theo dõi để hai bên cùng yên tâm',
+  seoTitle: 'Nhờ tiệm bán hộ xe máy: giữ chìa, chạy thử và theo dõi xe gửi',
+  metaDescription: 'Nhờ tiệm bán hộ xe máy thì ai giữ chìa, ai cho khách chạy thử, xe trầy xước tính sao? Những điều cần thống nhất, cách ghi lại tình trạng xe và theo dõi lúc gửi.',
+  summary: 'Bài giải thích khác biệt giữa nhờ tiệm bán hộ xe máy và bán đứt cho tiệm: khi ký gửi, xe vẫn là của chủ xe nên mọi việc trong thời gian nằm ở tiệm cần nói rõ từ trước. Nội dung gồm những điều nên thống nhất như ai giữ chìa, giấy tờ để ở đâu, ai cho khách chạy thử, xe trầy xước thì xử lý ra sao, bao lâu được báo tin; cách ghi lại tình trạng xe bằng ảnh, clip và đồ đi kèm; cách theo dõi, lấy xe về hoặc chốt bán; cùng những câu nên hỏi nếu bạn là người mua xe gửi bán.',
+  quickAnswer: 'Nhờ tiệm bán hộ xe máy thì xe vẫn là của bạn, nên trước khi để lại hãy thống nhất ai giữ chìa, giấy tờ để ở đâu, ai được cho khách chạy thử và có người đi kèm không, xe trầy xước thì nói chuyện thế nào, bao lâu tiệm báo tin. Chụp ảnh, quay clip, ghi số trên đồng hồ quãng đường và đồ đi kèm rồi gửi cho tiệm qua tin nhắn. Lúc gửi, hỏi thăm đều và ghé xem xe.',
+  keyPoints: [
+    'Bán hộ khác bán đứt ở chỗ xe vẫn là của chủ xe trong lúc nằm ở tiệm, nên chuyện giữ chìa, cho chạy thử và báo tin phải được nói rõ từ trước.',
+    'Nên thống nhất ai giữ chìa, giấy tờ để ở đâu, ai cho khách chạy thử và đi kèm thế nào, xe trầy xước thì xử lý ra sao, bao lâu tiệm báo tin.',
+    'Ảnh, clip, số trên đồng hồ quãng đường và danh sách đồ đi kèm, gửi cho tiệm bằng tin nhắn, là mốc để đối chiếu khi lấy xe về hoặc chốt bán.',
+    'Trong thời gian gửi, hỏi thăm đều đặn, thỉnh thoảng ghé xem xe và để ý xe có bị đem đi dùng vào việc khác hay không.',
+    'Người mua xe gửi bán nên hỏi rõ xe của tiệm hay xe gửi, có gặp được chủ xe không, giấy tờ đứng tên ai; việc giấy tờ hỏi nơi có thẩm quyền.'
+  ],
+  category: 'market',
+  hub: 'mua-ban-xe-cu',
+  date: '2026-10-12',
+  updated: '2026-10-12',
+  entities: ['bán hộ xe máy', 'ký gửi xe máy cũ', 'chìa khóa xe', 'giấy tờ xe', 'chạy thử xe', 'đồng hồ quãng đường'],
+  keywords: ['nhờ tiệm bán hộ xe máy', 'ký gửi xe máy cũ', 'gửi xe máy cho tiệm bán', 'mua xe ký gửi ở tiệm'],
+  sections: [
+    P('Bán hộ khác bán đứt cho tiệm ở chỗ nào', [
+      'Điểm khác nhau cốt lõi nằm ở chuyện chiếc xe thuộc về ai trong lúc nó nằm ở tiệm. Bán đứt nghĩa là tiệm mua lại xe: thỏa thuận xong thì xe là của tiệm và họ tự lo mọi việc về sau. Nhờ tiệm bán hộ xe máy, hay còn gọi là ký gửi xe máy cũ, thì chủ xe vẫn là bạn, còn tiệm chỉ đóng vai trung gian, giới thiệu xe và dẫn khách xem. Vì xe vẫn của bạn nên những câu hỏi như ai giữ chìa, ai cho khách chạy thử, trầy xước thì nói chuyện thế nào, bao lâu được báo tin đều chưa có đáp án sẵn. Nếu không nói rõ từ đầu, mỗi bên sẽ tự hiểu theo hướng có lợi cho mình. Cách gọi tên cũng không thống nhất giữa các tiệm, nên hãy hỏi thẳng xe của bạn đang ở trạng thái nào thay vì chỉ dựa vào một chữ.',
+      'Có một cách tự kiểm tra khá đơn giản: hãy hỏi xem lúc có khách đồng ý mua thì ai là người nhận tiền, và chiếc xe đã nằm trong tay ai trước đó. Với bán đứt, câu trả lời thường rõ ngay tại lúc hai bên chốt. Với bán hộ, quá trình thường kéo dài hơn, và suốt thời gian ấy chiếc xe vẫn là tài sản của bạn dù không còn nằm ở nhà bạn. Hệ quả thực tế là bạn vẫn có lý do quan tâm tới nó như một món đồ của mình: nó đang đứng ở đâu, ai ngồi lên, ai khởi động, có bị đem đi làm việc khác hay không. Ngược lại, tiệm cũng đang giữ tài sản của người khác nên họ có lý do muốn mọi thứ được thống nhất bằng lời rõ ràng. Hiểu như vậy giúp cuộc nói chuyện bớt nặng nề, vì cả hai bên đều có thứ cần bảo vệ.',
+      'Gửi xe cho tiệm bán hợp với người không có thời gian đăng tin, tiếp khách và đưa người lạ đi xem xe, hoặc muốn xe nằm ở nơi khách hay ghé qua. Đổi lại, bạn mất bớt quyền chủ động hằng ngày, vì xe ở chỗ khác và người dẫn khách không phải là bạn. Bán đứt hợp với người cần chốt gọn, chấp nhận chuyện giá cả bàn riêng với tiệm và để xe rời tay ngay. Mỗi cách có ưu nhược riêng, không cách nào đúng cho mọi người; điều quan trọng là bạn chọn có chủ đích, chứ không rơi vào một kiểu chỉ vì nghĩ tiệm nào cũng làm kiểu đó. Có tiệm làm cả hai kiểu, cũng có tiệm chỉ làm một, nên đừng mặc định. Chuyện chuẩn bị xe để bán và viết tin đăng là chủ đề riêng, bài này chỉ bàn phần xe nằm ở tiệm lúc chờ khách.'
+    ]),
+    P('Thống nhất những gì trước khi để xe lại', [
+      'Chìa khóa là thứ cần nói rõ đầu tiên, vì ai cầm chìa thì người đó quyết định được xe có nổ máy hay không. Có tiệm giữ chìa để tiện dẫn khách xem, có chủ xe giữ một chiếc rồi đưa tiệm chiếc còn lại; tùy xe, có loại chìa làm thêm khá phiền nên chỉ có một chiếc duy nhất. Hãy hỏi chìa nằm ở đâu khi tiệm đóng cửa, ai được lấy ra, và có ghi lại mỗi lần lấy hay không. Đến giấy tờ, hướng thường an toàn hơn cho chủ xe là giữ bản gốc tới lúc chốt bán nếu được, còn tiệm dùng bản chụp để giới thiệu với khách. Đừng mặc định giao bản gốc; hãy hỏi tiệm cần giữ gì, giữ để làm gì, rồi cân nhắc. Việc sang tên cần thủ tục ra sao, đứng tên ai, bạn nên hỏi nơi có thẩm quyền thay vì nghe truyền miệng.',
+      'Chạy thử là phần dễ phát sinh tranh cãi nhất, vì đó là lúc xe chịu rủi ro thật. Nên thống nhất ngay từ đầu ai được cho khách chạy thử: chỉ chủ tiệm, hay nhân viên được giao, hay phải hỏi bạn từng lần. Khách nên đi kèm một người của tiệm, hoặc ít nhất có người nhìn thấy xe rời đi và quay về, thay vì đưa chìa rồi để khách tự đi một mình. Hãy hỏi khách thử ở đoạn đường nào, quanh khu vực gần hay đi xa, và người ngồi lên xe có đội mũ bảo hiểm hay không, vì đó là điều kiện cơ bản chứ không phải chuyện bỏ qua cho nhanh. Xe có cách vận hành riêng hoặc phanh nhạy thì người lạ dễ bỡ ngỡ, nên bạn có thể nhờ tiệm dặn khách những điểm riêng của xe. Một lời nhờ rõ ràng như vậy không làm tiệm phật lòng, mà còn cho thấy bạn nghiêm túc.',
+      'Hai chuyện còn lại là sự cố và thời hạn. Về sự cố, hãy hỏi trước: nếu xe bị trầy, đổ, mất đồ phụ kiện hoặc hỏng thứ gì trong lúc ở tiệm hay lúc khách chạy thử thì hai bên nói chuyện với nhau thế nào, ai báo cho ai và báo bằng cách nào. Không cần soạn văn bản dài; chỉ cần câu trả lời đủ rõ để về sau không ai phải nhớ mơ hồ. Về thời hạn, hãy hỏi bao lâu tiệm sẽ báo tin cho bạn dù chưa có khách, tin báo gồm những gì như có người xem, người hỏi, người trả lời ra sao, và khi nào bạn có thể lấy xe về nếu đổi ý. Hãy ghi các câu trả lời vào tin nhắn rồi gửi cho tiệm để hai bên cùng giữ một bản; chuyện tiền nong bàn riêng, không thuộc nội dung bài này.'
+    ]),
+    P('Ghi lại tình trạng xe lúc gửi', [
+      'Thỏa thuận bằng lời rất dễ nhòe đi sau vài tuần, còn hình ảnh thì không. Vì thế, trước khi trao chìa, hãy ghi lại tình trạng chiếc xe ngay lúc gửi, đứng ở chỗ đủ sáng và chụp rõ từng mặt: đầu xe, đuôi xe, hai bên thân, yên, tay lái, bánh và các chi tiết nhựa dễ trầy. Ngoài ảnh, một đoạn clip quay chầm chậm vòng quanh xe và cho thấy xe nổ máy bình thường cũng hữu ích, vì nó ghi được cả tiếng máy, đèn và còi. Đừng bỏ qua những vết xước, vết móp đã có từ trước: hãy chụp cận cảnh chúng, vì lúc về nhận xe, thứ hay gây tranh luận nhất lại chính là vết nào cũ, vết nào mới. Cùng một chiếc xe, hai bên nhìn lại thường nhớ khác nhau, nên ảnh là mốc công bằng cho cả hai.',
+      'Hãy chụp rõ con số đang hiện trên đồng hồ quãng đường, vì đó là mốc để về sau biết xe có bị chạy thêm nhiều hay không. Chụp luôn bảng đồng hồ lúc bật khóa để thấy các đèn báo, kể cả khi không có đèn nào sáng bất thường, cùng mức xăng nếu xe có kim hoặc vạch hiển thị. Phần đồ đi kèm cần được liệt kê rõ: chìa phụ nếu có, mũ bảo hiểm, áo mưa, đồ trong cốp, gương, sổ bảo dưỡng và các phụ kiện gắn thêm như giá đỡ điện thoại hay cặp đồ. Cái gì để lại trên xe thì chụp, cái gì lấy ra thì nói rõ là bạn đã lấy. Nên dọn bớt những món có giá trị riêng tư khỏi cốp, vì xe sẽ được nhiều người ngồi thử. Món nào quên ghi thì về sau rất khó chứng minh nó từng có mặt.',
+      'Ảnh nằm trong điện thoại của riêng bạn thì chưa đủ; hãy gửi toàn bộ cho tiệm qua tin nhắn, kèm vài dòng liệt kê đồ đi kèm và số trên đồng hồ quãng đường, rồi nhờ tiệm trả lời xác nhận đã nhận. Tin nhắn tự lưu thời điểm gửi nên hai bên đều có bản giống nhau, không ai phải nhớ hộ ai. Những điều đã thống nhất ở phần trên, như ai giữ chìa, giấy tờ bản gốc để ở đâu, ai cho khách chạy thử, bao lâu báo tin, cũng nên nhắc lại một lần ngắn gọn trong cùng cuộc trò chuyện. Không cần soạn văn bản dài hay cầu kỳ, chỉ cần đủ rõ để đọc lại không bị hiểu khác đi. Nhiều ý trong bài này cũng áp dụng khi để xe lại tiệm sửa qua đêm, chỉ khác là thời gian ngắn hơn và đồ trong cốp cần được nhắc kỹ hơn.'
+    ]),
+    P('Theo dõi trong thời gian xe nằm ở tiệm, rồi lấy xe về hay chốt bán', [
+      'Gửi xong không có nghĩa là hết việc của chủ xe. Hãy hỏi thăm đều đặn theo nhịp hai bên đã thống nhất, bằng một tin nhắn ngắn hỏi về tình hình chứ không phải thúc giục: đã có ai đến xem chưa, người xem hỏi những gì, họ nhận xét ra sao về xe. Những câu trả lời ấy cho bạn biết xe đang được giới thiệu đúng như bạn nghĩ hay chưa, và là cơ sở để cùng tiệm điều chỉnh cách bán. Nếu tiệm im lặng quá lâu so với điều đã hẹn, hãy nhắc nhẹ trước, vì phần lớn trường hợp chỉ là bận. Nhắn dồn dập mỗi ngày thì ngược lại, dễ làm người nhận mệt và né. Chuyện đổi kênh liên lạc hay đổi người phụ trách cũng nên hỏi cho rõ, để tin quan trọng không rơi vào khoảng trống.',
+      'Thỉnh thoảng hãy ghé xem tận mắt, tốt nhất là báo trước cho tiệm biết. Nhìn xem xe đang để ở đâu, có được che mưa nắng không, có bị để chắn lối ra vào đến mức dễ va quệt hay không. So với ảnh lúc gửi, bạn có thấy vết xước mới, món đồ nào mất, hay số trên đồng hồ quãng đường nhảy lên nhiều hơn mức vài lần chạy thử hợp lý hay không. Số tăng nhiều không tự nó là bằng chứng của điều xấu, nên chỉ cần hỏi lại cho rõ xe đã đi đâu, vì có thể có lý do. Xe nằm lâu thường dễ yếu ắc quy, lốp xẹp bớt hơi, nên bạn có thể hỏi tiệm có nổ máy xe thỉnh thoảng không; cách chăm xe nằm lâu tùy xe, hãy xem sách hướng dẫn hoặc hỏi thợ có chuyên môn. Chỗ nào chưa ổn thì nói sớm, đừng để dồn đến lúc lấy xe.',
+      'Đến lúc lấy xe về hay chốt bán, hãy cùng tiệm xem xe với ảnh lúc gửi trong tay: vết xước cũ còn nguyên không, có vết mới nào không, đồ đi kèm đã đủ chưa, chìa còn đủ không, số trên đồng hồ quãng đường thế nào, xe nổ máy và bóp phanh có bình thường không. Thấy điều lạ thì chụp lại ngay tại chỗ và nói rõ, đừng chờ về nhà mới nhắn. Nếu chốt bán, hãy hỏi trước tiền của bạn đến tay bạn bằng cách nào và vào lúc nào, việc giao xe và giao giấy tờ cho người mua diễn ra ra sao, và bạn có cần có mặt không. Thủ tục sang tên là việc hỏi nơi có thẩm quyền. Nếu quyết định lấy xe về, cũng nên chụp ảnh lúc nhận và giữ nguyên các tin nhắn cũ.'
+    ]),
+    P('Nếu bạn là người mua chiếc xe gửi bán', [
+      'Người đi mua nhiều khi không biết chiếc xe trước mặt thuộc về ai. Có tiệm bày lẫn xe của mình với xe nhận gửi, và từ bên ngoài nhìn vào thì khó phân biệt. Câu hỏi đầu tiên nên đặt thẳng: đây là xe của tiệm hay xe gửi bán? Câu trả lời quyết định bạn sẽ nói chuyện với ai về tình trạng xe, ai là người quyết định chốt, và tiền sẽ đến tay ai. Mua xe ký gửi ở tiệm không có gì đáng ngại tự thân, nhưng bạn nên biết mình đang mua từ đâu thay vì đoán. Đừng ngại hỏi: người bán tử tế thường sẵn lòng nói rõ, còn việc né tránh một câu hỏi cơ bản là lý do để bạn chậm lại và hỏi kỹ hơn trước khi đi tiếp.',
+      'Với xe gửi bán, người hiểu xe nhất thường là chủ xe chứ không phải người đứng bán. Hãy hỏi có gặp hoặc nói chuyện được với chủ xe không, xe đã dùng ra sao, từng sửa chữa hay va quệt chưa, bảo dưỡng ở đâu. Nếu tiệm chỉ biết lại qua lời chủ thì hãy phân biệt đâu là điều tiệm tự thấy, đâu là điều nghe kể. Về giấy tờ, hãy hỏi giấy tờ xe đang đứng tên ai, tên đó có trùng với người đang gửi bán hay không, và bản gốc hiện nằm ở đâu. Đừng đưa tiền cho ai khi chưa rõ họ nhận thay mặt ai. Việc kiểm tra giấy tờ đã đủ chưa, sang tên thế nào là chuyện hỏi nơi có thẩm quyền, không nên dựa vào lời hứa miệng của bất kỳ bên nào.',
+      'Phần chạy thử của người mua cũng cần cẩn trọng không kém. Hãy đội mũ bảo hiểm, đi cùng một người của tiệm hoặc để họ biết rõ bạn đi đâu, và chỉ thử ở đoạn đường vắng, quen thuộc. Để ý tiếng máy, tay phanh bóp có chắc hay không, xe có kéo lệch, rung hay phát tiếng lạ khi chạy. Thấy phanh mềm, lái bất thường hoặc máy có tiếng lạ, hãy dừng thử và đừng chốt. Nếu có người quen am hiểu xe hoặc thợ có chuyên môn, hãy nhờ họ xem hộ trước khi quyết định. Lúc nhận xe, hãy tự chụp lại tình trạng xe và đồ đi kèm, rồi giữ tin nhắn thỏa thuận với người bán. Giá cả là chuyện bàn riêng, nhưng mọi điều bạn được hứa về tình trạng xe nên được ghi lại bằng tin nhắn.'
+    ])
+  ],
+  checklist: [
+    'Hỏi rõ xe đang được bán hộ hay bán đứt, và trong thời gian gửi xe vẫn là của ai.',
+    'Thống nhất ai giữ chìa, giấy tờ để ở đâu, ai được cho khách chạy thử và có người đi kèm, đội mũ bảo hiểm hay không.',
+    'Chụp ảnh các mặt xe, quay clip, ghi số trên đồng hồ quãng đường và liệt kê đồ đi kèm, rồi gửi cho tiệm bằng tin nhắn.',
+    'Hỏi thăm đều đặn, thỉnh thoảng ghé xem xe và so với ảnh lúc gửi để thấy vết mới hoặc đồ thiếu.',
+    'Khi lấy xe về hoặc chốt bán, đối chiếu xe với ảnh lúc gửi và hỏi nơi có thẩm quyền về việc giấy tờ, sang tên.'
+  ],
+  steps: [
+    { title: 'Hỏi rõ hình thức gửi', detail: 'Xác định xe được bán hộ hay bán đứt, ai nhận tiền khi có khách đồng ý, và trong thời gian gửi xe vẫn thuộc về ai.' },
+    { title: 'Thống nhất các điểm chính', detail: 'Nói rõ ai giữ chìa, giấy tờ để ở đâu, ai cho khách chạy thử và đi kèm thế nào, xe trầy xước thì xử lý ra sao, bao lâu báo tin, khi nào có thể lấy xe về.' },
+    { title: 'Ghi lại tình trạng xe', detail: 'Chụp ảnh từng mặt xe và vết xước sẵn có, quay clip, ghi số trên đồng hồ quãng đường, liệt kê đồ đi kèm rồi gửi cho tiệm qua tin nhắn để hai bên cùng giữ một bản.' },
+    { title: 'Theo dõi và đối chiếu', detail: 'Hỏi thăm đều đặn, ghé xem xe, và khi lấy xe về hoặc chốt bán thì kiểm tra lại xe theo ảnh lúc gửi, chụp lại nếu thấy điều lạ.' }
+  ],
+  warnings: [
+    'Khách chạy thử nên có người đi kèm và đội mũ bảo hiểm; không đưa chìa cho người lạ rồi để họ tự đi một mình.',
+    'Đừng mặc định giao giấy tờ gốc cho tiệm: hãy hỏi rõ lý do, giữ bản gốc tới lúc chốt nếu được, và hỏi nơi có thẩm quyền về việc sang tên.',
+    'Người mua thấy phanh mềm, lái bất thường hoặc máy có tiếng lạ khi chạy thử thì dừng lại, đừng chốt và nhờ thợ có chuyên môn kiểm tra xe.'
+  ],
+  notes: [
+    'Cách mỗi tiệm gọi tên và làm việc ký gửi có thể khác nhau; bài chỉ nêu những điều nên hỏi, không khẳng định tiệm nào làm gì.',
+    'Chuyện giá cả và thỏa thuận tiền nong giữa chủ xe với tiệm bàn riêng, ngoài nội dung bài; mọi thủ tục giấy tờ cần hỏi nơi có thẩm quyền.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần chăm sóc xe khi để lâu không sử dụng',
+    'Hướng dẫn của cơ quan có thẩm quyền về thủ tục giấy tờ và sang tên xe máy'
+  ],
+  related: ['de-xe-lai-tiem-sua-qua-dem-hoac-vai-ngay-hoi-xe-nam-dau-ai-giu-chia-do-trong-cop-va-viec-tho-duoc-lam', 'gui-xe-may-nhieu-ngay-o-bai-san-bay-ben-xe-hay-nha-ga-chuan-bi-va-kiem-tra-khi-lay', 'giu-xe-may', 'chuan-bi-ban-xe-may-cu', 'viet-tin-dang-ban-xe-may-cu']
+};
