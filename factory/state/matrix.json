@@ -26260,11 +26260,13 @@
    "title": "Đi xem chiếc xe máy cũ đã nằm lâu không chạy: hỏi gì, nhìn lúc nổ máy ra sao và khi nào nên hẹn lại",
    "primaryIntent": "informational/di-xem-xe-may-cu-da-nam-lau-khong-chay-hoi-gi-nhin-luc-no-may-ra-sao-va-khi-nao-nen-hen-lai",
    "notes": "source=topic-v2 topicId=T001961",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:23.776Z",
-   "updatedAt": "2026-10-17T17:34:23.776Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 91,
+   "words": 3125
   },
   {
    "id": "S01796",
@@ -26273,11 +26275,13 @@
    "title": "Tiệm xe cũ nói đã kiểm tra kỹ và có bảo hành: hỏi lại bằng lời thường, xem tận nơi và ghi lại điều được hứa",
    "primaryIntent": "informational/tiem-xe-cu-noi-da-kiem-tra-ky-va-co-bao-hanh-hoi-lai-bang-loi-thuong-xem-tan-noi-va-ghi-lai-dieu-duoc-hua",
    "notes": "source=topic-v2 topicId=T001962",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:23.856Z",
-   "updatedAt": "2026-10-17T17:34:23.856Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 100,
+   "words": 3142
   },
   {
    "id": "S01797",
@@ -26286,11 +26290,13 @@
    "title": "Mua xe máy đời cũ hoặc dòng xe ít còn bán: hỏi thợ gì về phụ tùng trước khi chốt",
    "primaryIntent": "informational/mua-xe-may-doi-cu-hoac-dong-it-con-ban-hoi-tho-gi-ve-phu-tung-truoc-khi-chot",
    "notes": "source=topic-v2 topicId=T001963",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.068Z",
-   "updatedAt": "2026-10-17T17:34:24.068Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 100,
+   "words": 3099
   },
   {
    "id": "S01798",
@@ -26299,11 +26305,13 @@
    "title": "Góp ý hàng xóm về chuyện xe cộ mà không mích lòng: chọn lúc, chọn lời và cách đón nhận khi chính mình bị góp ý",
    "primaryIntent": "informational/gop-y-hang-xom-ve-chuyen-xe-co-ma-khong-mich-long-chon-luc-chon-loi-va-cach-don-nhan-khi-minh-bi-gop-y",
    "notes": "source=topic-v2 topicId=T001964",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.118Z",
-   "updatedAt": "2026-10-17T17:34:24.118Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 100,
+   "words": 3016
   },
   {
    "id": "S01799",
@@ -26312,11 +26320,13 @@
    "title": "Xe nhỏ dầu nhớt trên nền sân chung hay chỗ để xe chung: lót hứng, lau sạch và nói với hàng xóm thế nào",
    "primaryIntent": "informational/xe-nho-dau-nhot-tren-nen-san-chung-hay-cho-de-xe-chung-lot-hung-lau-sach-va-noi-voi-hang-xom-the-nao",
    "notes": "source=topic-v2 topicId=T001965",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.186Z",
-   "updatedAt": "2026-10-17T17:34:24.186Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 100,
+   "words": 2990
   },
   {
    "id": "S01800",
@@ -26325,11 +26335,13 @@
    "title": "Thấy người lạ loay hoay với xe của hàng xóm: nên hỏi, nên báo ai và vì sao không nên một mình đối đầu",
    "primaryIntent": "informational/thay-nguoi-la-loay-hoay-voi-xe-cua-hang-xom-nen-hoi-nen-bao-ai-va-vi-sao-khong-nen-mot-minh-doi-dau",
    "notes": "source=topic-v2 topicId=T001966",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.244Z",
-   "updatedAt": "2026-10-17T17:34:24.244Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 100,
+   "words": 2935
   },
   {
    "id": "S01801",
@@ -26338,11 +26350,13 @@
    "title": "Thẻ nạp trước ở tiệm rửa xe hay thay nhớt: nạp thế nào cho gọn, giữ gì và làm gì khi tiệm đóng cửa hoặc đổi chủ",
    "primaryIntent": "informational/the-nap-truoc-o-tiem-rua-xe-hay-thay-nhot-nap-the-nao-cho-gon-giu-gi-va-lam-gi-khi-tiem-dong-cua-hoac-doi-chu",
    "notes": "source=topic-v2 topicId=T001967",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.300Z",
-   "updatedAt": "2026-10-17T17:34:24.300Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 100,
+   "words": 3017
   },
   {
    "id": "S01802",
@@ -26351,11 +26365,13 @@
    "title": "Cho người lái rất khác mình mượn xe máy: nói trước về cách đi, ga, phanh và những lúc không nên chạy",
    "primaryIntent": "informational/cho-nguoi-lai-rat-khac-minh-muon-xe-may-noi-truoc-ve-cach-di-ga-phanh-va-nhung-luc-khong-nen-chay",
    "notes": "source=topic-v2 topicId=T001968",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.388Z",
-   "updatedAt": "2026-10-17T17:34:24.388Z"
+   "updatedAt": "2026-10-17T17:43:13.388Z",
+   "seoScore": 100,
+   "words": 2947
   },
   {
    "id": "S01803",
@@ -26364,11 +26380,13 @@
    "title": "Mặt trong chắn bùn, hốc bánh và gầm sàn xe máy: bùn khô đóng cứng ở chỗ ít ai nhìn, gỡ thế nào cho khỏi xước và gỉ",
    "primaryIntent": "informational/mat-trong-chan-bun-hoc-banh-va-gam-san-xe-may-bun-kho-dong-cung-o-cho-it-ai-nhin-go-the-nao-cho-khoi-xuoc-va-gi",
    "notes": "source=topic-v2 topicId=T001969",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.457Z",
-   "updatedAt": "2026-10-17T17:34:24.457Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 91,
+   "words": 2944
   },
   {
    "id": "S01804",
@@ -26377,11 +26395,13 @@
    "title": "Đăng ảnh, clip xe hỏng lên nhóm mạng nhờ đoán bệnh: ghi gì cho rõ, che gì trước khi đăng và đọc ý kiến thế nào",
    "primaryIntent": "informational/dang-anh-clip-xe-hong-len-nhom-mang-nho-doan-benh-ghi-gi-cho-ro-che-gi-truoc-khi-dang-va-doc-y-kien-the-nao",
    "notes": "source=topic-v2 topicId=T001970",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:34:24.514Z",
-   "updatedAt": "2026-10-17T17:34:24.514Z"
+   "updatedAt": "2026-10-17T17:43:13.389Z",
+   "seoScore": 100,
+   "words": 2979
   }
  ]
 }
