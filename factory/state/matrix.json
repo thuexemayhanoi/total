@@ -26110,11 +26110,13 @@
    "title": "Gọi điện hay nhắn tin cho người đang chạy xe máy: vì sao nên đợi, nhắn gì để họ đọc sau và khi nào mới nên gọi",
    "primaryIntent": "informational/goi-dien-hay-nhan-tin-cho-nguoi-dang-chay-xe-may-vi-sao-nen-doi-nhan-gi-de-ho-doc-sau-va-khi-nao-moi-nen-goi",
    "notes": "source=topic-v2 topicId=T001951",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:53.844Z",
-   "updatedAt": "2026-10-17T14:06:53.844Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 2851
   },
   {
    "id": "S01786",
@@ -26123,11 +26125,13 @@
    "title": "Người thân cứ chạy xe máy có lỗi rõ mà chưa chịu sửa: nhắc sao cho khỏi mất lòng và đề nghị giúp đưa xe đi xem",
    "primaryIntent": "informational/nguoi-than-cu-chay-xe-may-co-loi-ro-ma-chua-chiu-sua-nhac-sao-cho-khoi-mat-long-va-de-nghi-giup-dua-xe-di-xem",
    "notes": "source=topic-v2 topicId=T001952",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:53.921Z",
-   "updatedAt": "2026-10-17T14:06:53.921Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 2965
   },
   {
    "id": "S01787",
@@ -26136,11 +26140,13 @@
    "title": "Người thân vừa ngã xe máy nhẹ rồi nói không sao hoặc muốn giấu: nói gì để họ chịu dừng lại, kiểm tra và đi khám",
    "primaryIntent": "informational/nguoi-than-vua-nga-xe-may-nhe-roi-noi-khong-sao-hoac-muon-giau-noi-gi-de-ho-chiu-dung-lai-kiem-tra-va-di-kham",
    "notes": "source=topic-v2 topicId=T001953",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.047Z",
-   "updatedAt": "2026-10-17T14:06:54.047Z"
+   "updatedAt": "2026-10-17T17:30:33.768Z",
+   "seoScore": 100,
+   "words": 2963
   },
   {
    "id": "S01788",
@@ -26149,11 +26155,13 @@
    "title": "Người nhà lo mỗi lần mình đi xe máy tối hoặc đi xa: nghe nỗi lo, đưa kế hoạch cụ thể và thống nhất cách báo tin",
    "primaryIntent": "informational/nguoi-nha-lo-moi-lan-minh-di-xe-may-toi-hoac-di-xa-nghe-noi-lo-dua-ke-hoach-cu-the-va-thong-nhat-cach-bao-tin",
    "notes": "source=topic-v2 topicId=T001954",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.106Z",
-   "updatedAt": "2026-10-17T14:06:54.106Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 2840
   },
   {
    "id": "S01789",
@@ -26162,11 +26170,13 @@
    "title": "Cao su ở sàn để chân, gác chân và bàn đạp xe máy mòn nhẵn, quăn mép hoặc mất: chân trơn khi ướt và khi nào nên thay",
    "primaryIntent": "informational/cao-su-san-de-chan-gac-chan-va-ban-dap-xe-may-mon-nhan-quan-mep-hoac-mat-chan-tron-khi-uot-va-khi-nao-nen-thay",
    "notes": "source=topic-v2 topicId=T001955",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.198Z",
-   "updatedAt": "2026-10-17T14:06:54.198Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 2940
   },
   {
    "id": "S01790",
@@ -26175,11 +26185,13 @@
    "title": "Bình xăng xe máy móp hoặc trầy lộ kim loại sau va quẹt: khi nào chỉ là vẻ ngoài, khi nào có thể rò và đừng tự nắn",
    "primaryIntent": "troubleshooting/binh-xang-xe-may-mop-hoac-tray-lo-kim-loai-sau-va-quet-khi-nao-chi-la-ve-ngoai-khi-nao-co-the-ro-va-dung-tu-nan",
    "notes": "source=topic-v2 topicId=T001956",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.257Z",
-   "updatedAt": "2026-10-17T14:06:54.257Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 3105
   },
   {
    "id": "S01791",
@@ -26188,11 +26200,13 @@
    "title": "Chụp đèn hậu và xi nhan xe máy bị nứt, sứt mảnh hoặc phai màu: dán băng keo trong có ổn không và khi nào phải thay",
    "primaryIntent": "troubleshooting/chup-den-hau-va-xi-nhan-xe-may-bi-nut-sut-manh-hoac-phai-mau-dan-bang-keo-trong-co-on-khong-va-khi-nao-phai-thay",
    "notes": "source=topic-v2 topicId=T001957",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.325Z",
-   "updatedAt": "2026-10-17T14:06:54.325Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 2949
   },
   {
    "id": "S01792",
@@ -26201,11 +26215,13 @@
    "title": "Mượn hay cho mượn mũ bảo hiểm: thử vừa đầu, lớp lót có sạch không, mũ đã từng va đập chưa và trả lại thế nào",
    "primaryIntent": "informational/muon-hay-cho-muon-mu-bao-hiem-thu-vua-dau-lop-lot-co-sach-khong-mu-da-tung-va-dap-chua-va-tra-lai-the-nao",
    "notes": "source=topic-v2 topicId=T001958",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.388Z",
-   "updatedAt": "2026-10-17T14:06:54.388Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 91,
+   "words": 2784
   },
   {
    "id": "S01793",
@@ -26214,11 +26230,13 @@
    "title": "Bạn bè cứ hỏi mượn xe máy mà không đổ xăng, không để ý bảo dưỡng: nói chuyện thế nào để giữ cả xe lẫn tình bạn",
    "primaryIntent": "informational/ban-be-cu-hoi-muon-xe-may-ma-khong-do-xang-khong-de-y-bao-duong-noi-chuyen-the-nao-de-giu-ca-xe-lan-tinh-ban",
    "notes": "source=topic-v2 topicId=T001959",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.451Z",
-   "updatedAt": "2026-10-17T14:06:54.451Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 2949
   },
   {
    "id": "S01794",
@@ -26227,11 +26245,13 @@
    "title": "Mượn xe máy của người quen vài ngày liền: để xe qua đêm ở đâu, kiểm tra mỗi sáng và ai lo phần hao mòn nhỏ",
    "primaryIntent": "informational/muon-xe-may-cua-nguoi-quen-vai-ngay-lien-de-xe-qua-dem-o-dau-kiem-tra-moi-sang-va-ai-lo-phan-hao-mon-nho",
    "notes": "source=topic-v2 topicId=T001960",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T14:06:54.516Z",
-   "updatedAt": "2026-10-17T14:06:54.516Z"
+   "updatedAt": "2026-10-17T17:30:33.767Z",
+   "seoScore": 100,
+   "words": 2941
   }
  ]
 }

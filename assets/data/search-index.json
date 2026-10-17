@@ -11954,6 +11954,38 @@
  },
  {
   "kind": "article",
+  "url": "guide/su-dung-xe/ban-be-cu-hoi-muon-xe-may-ma-khong-do-xang-khong-de-y-bao-duong-noi-chuyen-the-nao-de-giu-ca-xe-lan-tinh-ban/",
+  "title": "Bạn bè cứ hỏi mượn xe máy mà không đổ xăng, không để ý bảo dưỡng: nói chuyện thế nào để giữ cả xe lẫn tình bạn",
+  "description": "Bạn bè hay mượn xe máy nhưng trả xe cạn xăng, bẩn, có tiếng lạ? Cách nhận ra lúc cần nói chuyện, mở lời không kể tội và thỏa thuận để giữ cả xe lẫn tình bạn.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "mượn xe nhiều lần",
+   "hao mòn dồn lại",
+   "mức xăng khi trả xe",
+   "kỳ bảo dưỡng",
+   "thỏa thuận giữa bạn bè",
+   "từ chối khéo léo"
+  ],
+  "keywords": [
+   "bạn bè hay mượn xe máy",
+   "cho bạn mượn xe nhiều lần",
+   "người mượn xe không đổ xăng",
+   "từ chối cho mượn xe khéo léo"
+  ],
+  "seoTitle": "Bạn bè hay mượn xe máy mà không đổ xăng: nói sao để giữ xe và tình bạn",
+  "primaryKeyword": "bạn bè hay mượn xe máy",
+  "headings": [
+   "Mượn nhiều lần khác một lần mượn ở chỗ nào",
+   "Dấu hiệu đã đến lúc cần nói chuyện",
+   "Chọn lúc và cách nói để không thành kể tội",
+   "Những thỏa thuận cụ thể nên có",
+   "Khi nào nên thưa dần hoặc thôi cho mượn, và nếu bạn là người hay đi mượn"
+  ],
+  "summary": "Bài giải thích vì sao bạn bè mượn xe nhiều lần khác hẳn một lần mượn: hao mòn dồn lại, thói quen hình thành và cả hai coi cách làm hiện tại là mặc định. Nội dung chỉ ra dấu hiệu cho thấy đã đến lúc cần nói chuyện, cách chọn lúc và mở lời để không thành kể tội,"
+ },
+ {
+  "kind": "article",
   "url": "ride/an-toan-giao-thong/ban-be-hay-nguoi-nha-nai-cho-them-mot-nguoi-nua-tren-xe-may-vi-sao-kho-phanh-kho-lai-va-cach-tu-choi-kheo/",
   "title": "Bạn bè hay người nhà nài chở thêm một người nữa trên xe máy: vì sao khó phanh, khó lái và cách từ chối khéo",
   "description": "Bị nài chở thêm một người trên xe máy? Xe nặng đuôi, khó phanh, khó lái ra sao, vì sao đoạn ngắn vẫn rủi ro, cách từ chối khéo và phương án khi thiếu xe.",
@@ -12759,6 +12791,38 @@
    "Thói quen hạn chế và lúc giao thợ"
   ],
   "summary": "Bài giải thích vì sao bình xăng xe máy bằng kim loại có thể bị gỉ và đọng cặn, chủ yếu do nước ngưng tụ hoặc lọt vào bình cùng xăng để lâu bị biến chất. Nội dung chỉ ra những dấu hiệu quan sát được khi cặn lên đường xăng như hụt ga, nghẹt lọc, bơm làm việc nặn"
+ },
+ {
+  "kind": "article",
+  "url": "garage/loi-thuong-gap/binh-xang-xe-may-mop-hoac-tray-lo-kim-loai-sau-va-quet-khi-nao-chi-la-ve-ngoai-khi-nao-co-the-ro-va-dung-tu-nan/",
+  "title": "Bình xăng xe máy móp hoặc trầy lộ kim loại sau va quẹt: khi nào chỉ là vẻ ngoài, khi nào có thể rò và đừng tự nắn",
+  "description": "Bình xăng xe máy bị móp hoặc trầy lộ kim loại sau va quẹt: nhìn và ngửi gì, khi nào chỉ là vết xấu, khi nào phải ngừng đi xe và vì sao không tự gõ nắn.",
+  "category": "Sửa chữa",
+  "hub": "Lỗi thường gặp",
+  "entities": [
+   "bình xăng xe máy",
+   "ốp phủ ngoài bình",
+   "mối nối bình xăng",
+   "ống xăng",
+   "hơi xăng",
+   "vết trầy lộ kim loại"
+  ],
+  "keywords": [
+   "bình xăng xe máy bị móp",
+   "bình xăng xe máy trầy lộ kim loại",
+   "bình xăng móp sau khi ngã xe",
+   "có nên tự nắn bình xăng"
+  ],
+  "seoTitle": "Bình xăng xe máy móp, trầy lộ kim loại: vẻ ngoài hay có thể rò",
+  "primaryKeyword": "bình xăng xe máy bị móp",
+  "headings": [
+   "Bình xăng nằm ở đâu và vì sao điều đó quan trọng",
+   "Sau va quẹt: nhìn và ngửi những gì",
+   "Khi nào chỉ là vết xấu bề ngoài, khi nào cần ngừng đi xe và đưa thợ",
+   "Vì sao không tự gõ nắn, hàn hay trét keo",
+   "Chỗ trầy lộ kim loại và những ngày sau đó"
+  ],
+  "summary": "Bài giải thích cách nhìn vết móp hoặc trầy lộ kim loại trên bình xăng xe máy sau một lần va quẹt hay ngã xe. Nội dung bắt đầu từ chuyện bình xăng nằm ở đâu và vì sao vị trí quyết định cách quan sát, rồi chỉ ra những gì cần nhìn và ngửi, phân biệt vết xấu bề ng"
  },
  {
   "kind": "article",
@@ -14078,6 +14142,38 @@
    "Khi nào thay và những việc không nên tự chế"
   ],
   "summary": "Bài giải thích vì sao trên nhiều xe số dùng xích, đĩa xích sau truyền lực vào bánh qua các khối cao su giảm chấn đặt trong đùm, và cụm này làm dịu cú giật khi lên ga, nhả ga, chuyển số ra sao. Nội dung nêu lý do cao su mòn hay chai theo thời gian, nhiệt, dầu m"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-bao-duong/cao-su-san-de-chan-gac-chan-va-ban-dap-xe-may-mon-nhan-quan-mep-hoac-mat-chan-tron-khi-uot-va-khi-nao-nen-thay/",
+  "title": "Cao su ở sàn để chân, gác chân và bàn đạp xe máy mòn nhẵn, quăn mép hoặc mất: chân trơn khi ướt và khi nào nên thay",
+  "description": "Cao su gác chân, sàn để chân và bàn đạp xe máy mòn nhẵn, quăn mép hay mất làm chân trơn khi ướt. Dấu hiệu nhận biết, cách chăm sóc nhẹ và lúc nên nhờ thợ thay.",
+  "category": "Mẹo",
+  "hub": "Mẹo bảo dưỡng",
+  "entities": [
+   "cao su sàn để chân",
+   "gác chân người lái",
+   "gác chân người ngồi sau",
+   "bàn đạp phanh",
+   "cần số",
+   "đế giày"
+  ],
+  "keywords": [
+   "cao su gác chân xe máy mòn",
+   "cao su sàn để chân xe tay ga mòn",
+   "cao su bàn đạp phanh mòn trơn",
+   "gác chân sau mất cao su"
+  ],
+  "seoTitle": "Cao su gác chân xe máy mòn: dấu hiệu, chân trơn khi ướt, khi nào thay",
+  "primaryKeyword": "cao su gác chân xe máy mòn",
+  "headings": [
+   "Cao su ở chỗ đặt chân làm nhiệm vụ gì",
+   "Dấu hiệu mòn và hỏng nhìn thấy được",
+   "Vì sao chân trơn lại nguy hiểm hơn bạn nghĩ",
+   "Chăm sóc nhẹ tại nhà và những điều không nên làm",
+   "Khi nào nên thay, nhờ ai và đừng quên gác chân của người ngồi sau"
+  ],
+  "summary": "Bài giải thích cao su ở sàn để chân, gác chân và bàn đạp xe máy làm nhiệm vụ gì: giữ bám cho đế giày, đỡ rung và che phần kim loại, với cách bố trí khác nhau tùy xe. Nội dung nêu những dấu hiệu mòn và hỏng nhìn thấy được như gân phẳng, mặt bóng, mép quăn, rách"
  },
  {
   "kind": "article",
@@ -16661,6 +16757,38 @@
    "Dùng bộ ảnh: từ lúc gửi tới khi cọc về tài khoản"
   ],
   "summary": "Hướng dẫn chi tiết về chụp ảnh xe thuê — bộ ảnh chụp đúng lúc nhận xe là thứ rẻ nhất nhưng quý nhất của cả một chuyến thuê: nó trả lời được câu hỏi gây tranh chấp nhiều nhất (\"vết này có sẵn hay phát sinh trong thời gian thuê\") chỉ bằng một lần bấm máy. Bài vi"
+ },
+ {
+  "kind": "article",
+  "url": "garage/dien-ac-quy/chup-den-hau-va-xi-nhan-xe-may-bi-nut-sut-manh-hoac-phai-mau-dan-bang-keo-trong-co-on-khong-va-khi-nao-phai-thay/",
+  "title": "Chụp đèn hậu và xi nhan xe máy bị nứt, sứt mảnh hoặc phai màu: dán băng keo trong có ổn không và khi nào phải thay",
+  "description": "Chụp đèn hậu xe máy bị nứt hoặc xi nhan vỡ chụp: vì sao ánh sáng trắng lọt ra, dán băng keo trong tạm ổn tới đâu, cách tự xem nhanh và khi nào phải thay.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "chụp đèn hậu",
+   "chụp xi nhan",
+   "ánh sáng trắng lọt ra",
+   "băng keo trong",
+   "đèn phanh",
+   "gioăng chụp đèn"
+  ],
+  "keywords": [
+   "chụp đèn hậu xe máy bị nứt",
+   "xi nhan xe máy bị vỡ chụp",
+   "dán băng keo đèn hậu bị vỡ",
+   "đèn hậu lọt ánh sáng trắng"
+  ],
+  "seoTitle": "Chụp đèn hậu, xi nhan xe máy nứt: băng keo trong có ổn không?",
+  "primaryKeyword": "chụp đèn hậu xe máy bị nứt",
+  "headings": [
+   "Chụp đèn ở đuôi và hai bên xe làm nhiệm vụ gì",
+   "Vì sao một vết nứt nhỏ cũng đáng xem",
+   "Cách tự xem nhanh cả ban ngày lẫn buổi tối",
+   "Dán băng keo tạm ổn tới đâu",
+   "Chụp đèn phai màu, ố mờ và lúc nào phải thay ở thợ"
+  ],
+  "summary": "Bài giải thích chụp đèn hậu và chụp xi nhan ở đuôi và hai bên xe máy làm nhiệm vụ gì để giữ đúng màu tín hiệu và che bóng đèn, mạch điện khỏi nước, bụi. Nội dung nêu vì sao một vết nứt nhỏ cũng đáng xem, từ ánh sáng trắng lọt ra, nước vào, mép sắc đến mảnh lỏn"
  },
  {
   "kind": "article",
@@ -26189,6 +26317,38 @@
  },
  {
   "kind": "article",
+  "url": "ride/an-toan-giao-thong/goi-dien-hay-nhan-tin-cho-nguoi-dang-chay-xe-may-vi-sao-nen-doi-nhan-gi-de-ho-doc-sau-va-khi-nao-moi-nen-goi/",
+  "title": "Gọi điện hay nhắn tin cho người đang chạy xe máy: vì sao nên đợi, nhắn gì để họ đọc sau và khi nào mới nên gọi",
+  "description": "Gọi điện cho người đang chạy xe máy dễ khiến họ phân tâm hoặc vội vàng. Cách hẹn báo tin trước, nhắn gì để họ đọc sau, khi nào mới gọi và gọi một lần ra sao.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "cuộc gọi nhỡ",
+   "tin nhắn ngắn",
+   "hẹn báo tin",
+   "người đang chạy xe",
+   "người chờ",
+   "điểm dừng an toàn"
+  ],
+  "keywords": [
+   "gọi điện cho người đang chạy xe máy",
+   "nhắn tin cho người đang lái xe",
+   "giục người nhà đang đi xe về",
+   "hẹn báo tin khi tới nơi"
+  ],
+  "seoTitle": "Gọi điện hay nhắn tin cho người đang chạy xe máy: nên đợi và nhắn gì",
+  "primaryKeyword": "gọi điện cho người đang chạy xe máy",
+  "headings": [
+   "Vì sao một cuộc gọi kéo người đang chạy xe khỏi con đường",
+   "Hẹn cách báo tin trước khi họ lên đường",
+   "Nhắn gì để họ đọc sau khi dừng xe",
+   "Khi nào mới nên gọi và gọi thế nào",
+   "Khi người kia trễ hẹn mà chưa liên lạc được, và khi công việc buộc phải liên lạc với người đang chạy"
+  ],
+  "summary": "Bài giải thích vì sao tiếng chuông và lời giục từ người đang chờ có thể kéo người đang chạy xe khỏi con đường, rồi chỉ cách làm từ phía người gọi. Nội dung gồm hẹn cách báo tin trước chuyến đi, viết tin nhắn ngắn để họ đọc sau khi dừng xe, chỉ gọi khi việc thậ"
+ },
+ {
+  "kind": "article",
   "url": "map/bai-do-xe/gui-xe-may-nhieu-ngay-o-bai-san-bay-ben-xe-hay-nha-ga-chuan-bi-va-kiem-tra-khi-lay/",
   "title": "Gửi xe máy nhiều ngày ở bãi sân bay, bến xe hay nhà ga: chuẩn bị xe, giữ vé và kiểm tra khi lấy xe",
   "description": "Gửi xe máy nhiều ngày ở sân bay, bến xe hay nhà ga cần hỏi bãi những gì, chuẩn bị xe ra sao, giữ vé thế nào và kiểm tra gì trước khi rời bãi lúc lấy xe.",
@@ -31343,6 +31503,70 @@
  },
  {
   "kind": "article",
+  "url": "guide/su-dung-xe/muon-hay-cho-muon-mu-bao-hiem-thu-vua-dau-lop-lot-co-sach-khong-mu-da-tung-va-dap-chua-va-tra-lai-the-nao/",
+  "title": "Mượn hay cho mượn mũ bảo hiểm: thử vừa đầu, lớp lót có sạch không, mũ đã từng va đập chưa và trả lại thế nào",
+  "description": "Mượn mũ bảo hiểm của người khác cần thử vừa đầu, xem lớp lót, hỏi mũ từng va đập chưa. Người cho mượn dặn gì và cách trả mũ đàng hoàng, gọn trong một bài.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "mũ bảo hiểm mượn",
+   "lớp xốp hấp thụ lực",
+   "lớp lót trong mũ",
+   "quai và khóa cài",
+   "kính che mặt",
+   "mũ vải lót"
+  ],
+  "keywords": [
+   "mượn mũ bảo hiểm của người khác",
+   "cho mượn mũ bảo hiểm",
+   "đội mũ bảo hiểm của người khác",
+   "mũ bảo hiểm dùng chung có sao không"
+  ],
+  "seoTitle": "Mượn mũ bảo hiểm của người khác: thử vừa, xem lớp lót, hỏi va đập",
+  "primaryKeyword": "mượn mũ bảo hiểm của người khác",
+  "headings": [
+   "Vì sao mũ mượn khác mũ của chính mình",
+   "Thử vừa đầu nhanh trước khi đi",
+   "Nhìn mũ và hỏi lịch sử va đập trước khi đội",
+   "Lớp lót và chuyện sạch sẽ",
+   "Nếu bạn cho mượn mũ, và cách trả lại mũ cho đàng hoàng"
+  ],
+  "summary": "Bài này dành cho lúc bạn quên mũ ở nhà và phải đội tạm mũ của người khác, hoặc chính bạn cho người quen mượn mũ. Nội dung giải thích vì sao mũ mượn khác mũ của mình, cách thử vừa đầu nhanh bằng ba động tác đội, cài quai và lắc nhẹ, cách nhìn vỏ, lớp xốp, quai "
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/muon-xe-may-cua-nguoi-quen-vai-ngay-lien-de-xe-qua-dem-o-dau-kiem-tra-moi-sang-va-ai-lo-phan-hao-mon-nho/",
+  "title": "Mượn xe máy của người quen vài ngày liền: để xe qua đêm ở đâu, kiểm tra mỗi sáng và ai lo phần hao mòn nhỏ",
+  "description": "Mượn xe máy của người quen vài ngày liền cần thống nhất gì, để xe qua đêm ở đâu, kiểm tra gì mỗi sáng, ai lo xăng, lốp và cách trả xe cho trọn tình.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "mượn xe máy dài ngày",
+   "chỗ để xe qua đêm",
+   "khóa cổ xe và khóa phụ",
+   "kiểm tra xe buổi sáng",
+   "hao mòn nhỏ",
+   "trả xe mượn"
+  ],
+  "keywords": [
+   "mượn xe máy vài ngày",
+   "mượn xe máy trong lúc xe mình đi sửa",
+   "mượn xe qua đêm",
+   "trả xe mượn sau nhiều ngày"
+  ],
+  "seoTitle": "Mượn xe máy vài ngày: để xe qua đêm, kiểm tra mỗi sáng, ai lo việc nhỏ",
+  "primaryKeyword": "mượn xe máy vài ngày",
+  "headings": [
+   "Mượn vài ngày khác mượn một buổi ở chỗ nào",
+   "Thống nhất những gì trước khi nhận xe",
+   "Để xe qua đêm cho yên tâm",
+   "Kiểm tra nhanh mỗi sáng trước khi đi",
+   "Hao mòn nhỏ, việc sửa và lúc trả xe sau nhiều ngày"
+  ],
+  "summary": "Bài giải thích vì sao mượn xe máy vài ngày liền khác hẳn mượn một buổi: xe ở với bạn qua đêm, qua mưa nắng và nhiều chặng đường, nên trách nhiệm giữ xe dài hơn. Nội dung đi theo thứ tự thực tế gồm những điều nên thống nhất với chủ xe trước khi nhận, cách chọn "
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/nam-chop-mat-tren-yen-xe-may-giua-ca-hay-giua-chuyen-chon-cho-dung-chan-chong-va-giu-chia-khoa-do-dac/",
   "title": "Nằm chợp mắt trên yên xe máy giữa ca hay giữa chuyến: chọn chỗ, dựng chân chống và giữ chìa khóa, đồ đạc",
   "description": "Chợp mắt trên yên xe máy giữa ca sao cho đỡ rủi ro: chọn chỗ bóng râm nền phẳng, dựng chân chống giữa, khóa cổ, giữ chìa khóa, điện thoại, hàng và tư thế nằm.",
@@ -32146,6 +32370,103 @@
    "Hẹn trước giữa người lái và người ngồi sau"
   ],
   "summary": "Bài giải thích vì sao lúc xe dừng đèn đỏ rồi chạy lại là lúc người ngồi sau dễ làm xe chao nhất: phanh dồn người về trước, tăng ga kéo người ngả ra sau, còn người lái đang giữ thăng bằng ở tốc độ thấp. Nội dung nêu cách giữ người khi xe phanh và dừng, chân để "
+ },
+ {
+  "kind": "article",
+  "url": "hub/nhu-cau-su-dung/nguoi-nha-lo-moi-lan-minh-di-xe-may-toi-hoac-di-xa-nghe-noi-lo-dua-ke-hoach-cu-the-va-thong-nhat-cach-bao-tin/",
+  "title": "Người nhà lo mỗi lần mình đi xe máy tối hoặc đi xa: nghe nỗi lo, đưa kế hoạch cụ thể và thống nhất cách báo tin",
+  "description": "Người nhà lo khi mình đi xe máy xa hay về tối? Cách nghe nỗi lo, đưa kế hoạch cụ thể, hẹn cách báo tin vừa đủ và giữ lời để cả nhà yên tâm mà không cãi nhau.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Nhu cầu sử dụng",
+  "entities": [
+   "nỗi lo của người nhà",
+   "kế hoạch chuyến đi",
+   "báo tin khi xuất phát và khi tới nơi",
+   "điểm dừng nghỉ",
+   "đi xe máy buổi tối",
+   "thỏa thuận trong gia đình"
+  ],
+  "keywords": [
+   "người nhà lo khi mình đi xe máy xa",
+   "bố mẹ không muốn cho đi xe máy xa",
+   "báo tin cho người nhà khi đi xe đường dài",
+   "cách nói để người nhà yên tâm khi đi xe máy buổi tối"
+  ],
+  "seoTitle": "Người nhà lo khi bạn đi xe máy tối hoặc đi xa: cách để họ yên tâm",
+  "primaryKeyword": "người nhà lo khi mình đi xe máy xa",
+  "headings": [
+   "Nỗi lo của người nhà thường đến từ đâu",
+   "Nghe trước khi giải thích",
+   "Đưa kế hoạch cụ thể thay vì câu cứ yên tâm",
+   "Thống nhất cách báo tin vừa đủ và giữ lời đã hẹn",
+   "Khi người nhà vẫn chưa đồng ý"
+  ],
+  "summary": "Bài dành cho người hay đi xe máy buổi tối hoặc đi xa mà bố mẹ, vợ chồng hay người thân lo lắng, can ngăn, gọi liên tục. Nội dung giải thích nỗi lo thường đến từ thiếu thông tin, chuyện nghe kể, kỷ niệm không vui và nỗi bất lực khi không liên lạc được; cách ngh"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/nguoi-than-cu-chay-xe-may-co-loi-ro-ma-chua-chiu-sua-nhac-sao-cho-khoi-mat-long-va-de-nghi-giup-dua-xe-di-xem/",
+  "title": "Người thân cứ chạy xe máy có lỗi rõ mà chưa chịu sửa: nhắc sao cho khỏi mất lòng và đề nghị giúp đưa xe đi xem",
+  "description": "Nhắc người thân sửa xe máy sao cho không mất lòng: lỗi nào cần nói ngay, chọn lúc và cách nói, đề nghị giúp cụ thể và cách xử lý khi họ vẫn chưa sửa.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "lần lữa sửa xe",
+   "đèn phanh không sáng",
+   "lốp mòn trơ",
+   "phanh bóp sát tay",
+   "tay lái",
+   "thợ có chuyên môn"
+  ],
+  "keywords": [
+   "nhắc người thân sửa xe máy",
+   "khuyên người thân đưa xe đi sửa",
+   "bạn bè chạy xe đèn phanh không sáng",
+   "nói với người nhà về lỗi xe máy"
+  ],
+  "seoTitle": "Nhắc người thân sửa xe máy khéo léo và đề nghị giúp đưa xe đi xem",
+  "primaryKeyword": "nhắc người thân sửa xe máy",
+  "headings": [
+   "Vì sao người ta hay lần lữa sửa xe",
+   "Lỗi nào đáng nhắc ngay, lỗi nào có thể đợi",
+   "Chọn lúc và cách nói để không thành phán xét",
+   "Đề nghị giúp cụ thể thay vì chỉ khuyên",
+   "Khi nhắc rồi mà họ vẫn chưa sửa, kể cả khi người đó là bố mẹ hay người lớn tuổi hơn"
+  ],
+  "summary": "Bài hướng dẫn cách nhắc bạn bè, đồng nghiệp hay người nhà đang chạy chiếc xe có lỗi nhìn thấy được mà chưa chịu sửa. Nội dung giải thích vì sao người ta hay lần lữa, phân biệt lỗi về phanh, lốp, đèn, tay lái, mùi xăng cần nhắc ngay với lỗi có thể đợi, gợi ý lú"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/nguoi-than-vua-nga-xe-may-nhe-roi-noi-khong-sao-hoac-muon-giau-noi-gi-de-ho-chiu-dung-lai-kiem-tra-va-di-kham/",
+  "title": "Người thân vừa ngã xe máy nhẹ rồi nói không sao hoặc muốn giấu: nói gì để họ chịu dừng lại, kiểm tra và đi khám",
+  "description": "Người thân ngã xe máy nhẹ nói không sao hoặc muốn giấu? Vì sao họ nói vậy, nói gì tại chỗ, mời đi khám không cãi nhau, và cách với con hay bố mẹ lớn tuổi.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "ngã xe máy nhẹ",
+   "đi khám sau khi ngã",
+   "trò chuyện trong gia đình",
+   "người cao tuổi đi xe máy",
+   "thanh thiếu niên đi xe máy",
+   "kiểm tra xe sau khi ngã"
+  ],
+  "keywords": [
+   "người thân ngã xe nói không sao",
+   "ngã xe nhẹ có nên đi khám",
+   "con ngã xe giấu bố mẹ",
+   "thuyết phục người nhà đi khám sau khi ngã xe",
+   "người nhà ngã xe không chịu đi khám"
+  ],
+  "seoTitle": "Người thân ngã xe nói không sao: nói gì để họ chịu đi khám",
+  "primaryKeyword": "người thân ngã xe nói không sao",
+  "headings": [
+   "Vì sao người vừa ngã hay nói không sao",
+   "Tại chỗ: nói gì để họ chịu dừng lại",
+   "Thuyết phục đi khám mà không thành cãi nhau",
+   "Khi người ngã là con và muốn giấu, hoặc là bố mẹ lớn tuổi",
+   "Những ngày sau đó"
+  ],
+  "summary": "Bài giải thích vì sao người vừa ngã xe máy thường nói không sao hoặc muốn giấu: ngại, sợ bị trách, sợ mất thời gian và chưa kịp cảm nhận hết tình trạng cơ thể. Nội dung gợi ý lời nói tại chỗ để họ chịu dừng lại, cách mời đi khám mà không thành cãi nhau, hướng "
  },
  {
   "kind": "article",
