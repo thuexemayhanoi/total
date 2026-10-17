@@ -1620,6 +1620,10 @@
   "kind": "article"
  },
  {
+  "rel": "market/mua-ban-xe-cu/ban-xe-may-cu-cho-tiem-thu-mua-hay-cho-nguoi-mua-le-moi-ben-nhin-xe-o-dau-va-nen-chuan-bi-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/doc-thong-so/bang-thong-so-xe/index.html",
   "kind": "article"
  },
@@ -2872,6 +2876,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/mua-xe/doi-xe-cu-lay-xe-moi-tai-cua-hang-tach-hai-viec-ghi-lai-tinh-trang-xe-cu-va-hoi-gi-truoc-khi-giao-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/dong-co-mot-xy-lanh-va-nhieu-xy-lanh-tren-xe-may-khac-nhau-the-nao/index.html",
   "kind": "article"
  },
@@ -3848,6 +3856,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/bai-do-xe/ma-qr-o-bai-xe-cay-xang-hay-tru-sac-bi-dan-de-nhin-ten-nguoi-nhan-truoc-khi-xac-nhan-va-xu-ly-khi-lo-chuyen-nham/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/mac-ao-mua-cho-tre-ngoi-truoc-hoac-ngoi-sau-xe-may-khong-trum-kin-mat-khong-de-vat-cuon-banh/index.html",
   "kind": "article"
  },
@@ -3988,11 +4000,19 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-mua-xe/mua-ban-xe-may-voi-ban-be-dong-nghiep-hay-ho-hang-ngai-hoi-ngai-noi-loi-va-cach-giu-ca-xe-lan-tinh-cam/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "review/review-phu-tung/mua-loai-dat-nhat-cho-yen-tam-nhot-lop-phu-tung-dat-tien-co-chac-hop-voi-xe-ban-hon-khong-va-tu-xet-the-nao/index.html",
   "kind": "article"
  },
  {
   "rel": "market/gia-phu-tung/mua-phu-tung-xe-may-online/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-mua-xe/mua-xe-cu-xong-moi-thay-loi-ghi-lai-nho-tho-xem-va-noi-chuyen-voi-nguoi-ban-the-nao-cho-em/index.html",
   "kind": "article"
  },
  {
@@ -4057,6 +4077,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/ngoi-sau-xe-om-hoac-xe-may-goi-qua-ung-dung-doi-mu-cai-quai-va-nhac-nguoi-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-mua-xe/nguoi-ban-noi-xe-chi-can-sua-nhe-hoi-gi-xem-loi-o-dau-va-khi-nao-nho-tho-nhin-truoc-khi-quyet/index.html",
   "kind": "article"
  },
  {
@@ -4165,6 +4189,10 @@
  },
  {
   "rel": "map/cay-xang/nho-nhan-vien-cay-xang-do-giup-nhin-tru-bom-noi-ro-loai-xang-va-muc-do-roi-kiem-tra-chia-nap-binh-truoc-khi-di/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "market/mua-ban-xe-cu/nho-tiem-ban-ho-xe-may-ai-giu-chia-ai-cho-khach-chay-thu-va-cach-theo-doi-de-hai-ben-cung-yen-tam/index.html",
   "kind": "article"
  },
  {
@@ -4385,6 +4413,10 @@
  },
  {
   "rel": "tips/meo-xu-ly-su-co/quen-thao-khoa-dia-roi-dat-hay-chay-xe-may-chuyen-gi-xay-ra-va-cach-phong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/cay-xang/quet-ma-tra-tien-o-cay-xang-bai-xe-hay-tiem-ma-chua-thay-bao-thanh-cong-cho-o-dau-va-giu-gi-lam-bang-chung/index.html",
   "kind": "article"
  },
  {
@@ -5764,6 +5796,10 @@
   "kind": "article"
  },
  {
+  "rel": "map/tram-sac/ung-dung-bao-tru-sac-trong-ma-toi-noi-hong-tra-tien-roi-khong-vao-dien-hoac-phien-sac-chua-dung-xu-ly-ra-sao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "moto/xe-so/uu-diem-xe-so/index.html",
   "kind": "article"
  },
@@ -5801,6 +5837,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/vao-cua-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-lai-xe/ve-khuya-hay-di-tu-tinh-mo-trong-khu-dan-cu-giu-giac-ngu-cua-xom-ma-van-de-nguoi-khac-nghe-thay-xe-minh/index.html",
   "kind": "article"
  },
  {

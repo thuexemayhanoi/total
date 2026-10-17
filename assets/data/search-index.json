@@ -11986,6 +11986,38 @@
  },
  {
   "kind": "article",
+  "url": "market/mua-ban-xe-cu/ban-xe-may-cu-cho-tiem-thu-mua-hay-cho-nguoi-mua-le-moi-ben-nhin-xe-o-dau-va-nen-chuan-bi-gi/",
+  "title": "Bán xe máy cũ cho tiệm thu mua hay cho người mua lẻ: mỗi bên nhìn xe ở đâu và bạn nên chuẩn bị gì",
+  "description": "So sánh cách tiệm thu mua và người mua lẻ nhìn xe máy cũ, kèm phần chuẩn bị chung, chuẩn bị riêng cho từng đường bán và cách chọn theo hoàn cảnh của bạn.",
+  "category": "Thị trường",
+  "hub": "Mua bán xe cũ",
+  "entities": [
+   "tiệm thu mua xe cũ",
+   "người mua lẻ",
+   "giấy tờ xe",
+   "sổ bảo dưỡng",
+   "chạy thử xe",
+   "tình trạng xe"
+  ],
+  "keywords": [
+   "bán xe máy cũ cho tiệm hay người mua lẻ",
+   "bán xe cho tiệm thu mua",
+   "bán xe máy cũ cho người mua lẻ",
+   "chuẩn bị xe trước khi bán cho tiệm"
+  ],
+  "seoTitle": "Bán xe máy cũ cho tiệm hay người mua lẻ: mỗi bên nhìn xe ở đâu",
+  "primaryKeyword": "bán xe máy cũ cho tiệm hay người mua lẻ",
+  "headings": [
+   "Tiệm thu mua và người mua lẻ thường nhìn xe khác nhau thế nào",
+   "Chuẩn bị chung cho cả hai đường bán",
+   "Khi mang xe ra tiệm thu mua",
+   "Khi bán cho người mua lẻ",
+   "Thợ quen ngỏ ý mua lại xe và cách chọn đường bán theo hoàn cảnh"
+  ],
+  "summary": "Bài giúp chủ xe đang phân vân giữa mang xe ra tiệm thu mua và tự bán cho người mua lẻ. Nội dung so sánh cách nhìn xe của hai phía: tiệm thường xem nhanh và chú ý chỗ tốn công làm lại, người mua lẻ thường soi cảm giác lái, ngoại hình và câu chuyện của xe. Bài n"
+ },
+ {
+  "kind": "article",
   "url": "learn/doc-thong-so/bang-thong-so-xe/",
   "title": "Bảng thông số xe máy: cách đọc, so sánh và tránh bẫy con số",
   "description": "Bảng thông số xe máy chứa hàng chục dòng số liệu. Bài viết hướng dẫn đọc bảng theo nhóm, so sánh hai xe đúng cách và nhận ra bẫy thông số thường gặp khi mua xe.",
@@ -22078,6 +22110,39 @@
  },
  {
   "kind": "article",
+  "url": "guide/mua-xe/doi-xe-cu-lay-xe-moi-tai-cua-hang-tach-hai-viec-ghi-lai-tinh-trang-xe-cu-va-hoi-gi-truoc-khi-giao-xe/",
+  "title": "Đổi xe cũ lấy xe mới tại cửa hàng: tách hai việc, ghi lại tình trạng xe cũ và hỏi gì trước khi giao xe",
+  "description": "Đổi xe cũ lấy xe mới tại cửa hàng nên tách hai việc: chụp ảnh và ghi lỗi xe cũ, hỏi điều kiện nhận xe, vẫn kiểm tra xe mới và ghi lại điều đã thống nhất.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "đổi xe cũ lấy xe mới",
+   "thu cũ đổi mới",
+   "ảnh và clip tình trạng xe",
+   "liên kết ứng dụng với xe",
+   "thứ tự giao nhận xe",
+   "tin nhắn ghi lại thỏa thuận"
+  ],
+  "keywords": [
+   "đổi xe cũ lấy xe mới tại cửa hàng",
+   "thu cũ đổi mới xe máy",
+   "đổi xe máy cũ lấy xe mới",
+   "giao xe cũ khi nhận xe mới",
+   "chuẩn bị xe cũ trước khi đổi xe"
+  ],
+  "seoTitle": "Đổi xe cũ lấy xe mới tại cửa hàng: chuẩn bị và hỏi gì trước khi giao",
+  "primaryKeyword": "đổi xe cũ lấy xe mới tại cửa hàng",
+  "headings": [
+   "Vì sao nên tách việc bán xe cũ và mua xe mới",
+   "Chuẩn bị xe cũ trước khi mang tới cửa hàng",
+   "Những điều nên hỏi về chiếc xe cũ",
+   "Vẫn kiểm tra xe mới như một lần mua bình thường",
+   "Đi lại hôm giao nhận và những điều nên ghi lại"
+  ],
+  "summary": "Bài giải thích vì sao khi đổi xe cũ lấy xe mới tại cửa hàng nên tách việc bán xe cũ khỏi việc mua xe mới để nhìn rõ từng phần. Nội dung nêu cách chuẩn bị xe cũ bằng ảnh, clip, ghi chú lỗi đã biết, dọn đồ cá nhân và gỡ liên kết với điện thoại, những câu nên hỏi"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/dong-co-mot-xy-lanh-va-nhieu-xy-lanh-tren-xe-may-khac-nhau-the-nao/",
   "title": "Động cơ một xy-lanh và nhiều xy-lanh trên xe máy khác nhau thế nào: độ êm, tiếng máy, độ rung và việc bảo dưỡng",
   "description": "Một xy-lanh hay nhiều xy-lanh khác nhau thế nào về độ êm, tiếng máy, độ rung và công bảo dưỡng? Giải thích dễ hiểu, kèm cách chọn theo nhu cầu đi phố hay đi xa.",
@@ -29860,6 +29925,39 @@
  },
  {
   "kind": "article",
+  "url": "map/bai-do-xe/ma-qr-o-bai-xe-cay-xang-hay-tru-sac-bi-dan-de-nhin-ten-nguoi-nhan-truoc-khi-xac-nhan-va-xu-ly-khi-lo-chuyen-nham/",
+  "title": "Mã QR ở bãi xe, cây xăng hay trụ sạc bị dán đè: nhìn tên người nhận trước khi xác nhận và xử lý khi lỡ chuyển nhầm",
+  "description": "Mã QR thu tiền ở bãi xe, cây xăng hay trụ sạc có thể bị dán đè. Cách đọc tên người nhận, nhận ra bảng mã lạ và việc cần làm ngay khi lỡ chuyển nhầm.",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "entities": [
+   "mã QR thu tiền",
+   "bảng mã dán đè",
+   "tên người nhận",
+   "bãi gửi xe",
+   "trụ sạc",
+   "kênh liên hệ chính thức"
+  ],
+  "keywords": [
+   "mã QR bị dán đè ở bãi xe",
+   "kiểm tra tên người nhận khi quét mã",
+   "mã QR giả ở cây xăng",
+   "lỡ chuyển nhầm tiền khi quét mã",
+   "bảng mã thu tiền bị thay"
+  ],
+  "seoTitle": "Mã QR bị dán đè ở bãi xe, cây xăng: đọc tên người nhận trước khi trả",
+  "primaryKeyword": "mã QR bị dán đè ở bãi xe",
+  "headings": [
+   "Mã QR dán đè là gì và vì sao dễ trúng ở điểm dịch vụ",
+   "Đọc tên người nhận trước khi bấm xác nhận",
+   "Dấu hiệu một bảng mã có vấn đề",
+   "Lỡ chuyển nhầm thì làm gì ngay, và thận trọng với lời mời hỗ trợ lấy lại tiền",
+   "Nếu bạn là người giữ bãi hay chủ tiệm"
+  ],
+  "summary": "Bài giải thích mã QR dán đè là gì và vì sao người đang ngồi trên xe dễ trúng ở bãi gửi xe, cây xăng hay trụ sạc. Nội dung hướng dẫn thói quen đọc và đối chiếu tên người nhận trước khi bấm xác nhận, những dấu hiệu bảng mã có vấn đề, việc nên làm ngay khi lỡ chu"
+ },
+ {
+  "kind": "article",
   "url": "ride/an-toan-giao-thong/mac-ao-mua-cho-tre-ngoi-truoc-hoac-ngoi-sau-xe-may-khong-trum-kin-mat-khong-de-vat-cuon-banh/",
   "title": "Mặc áo mưa cho trẻ ngồi trước hoặc ngồi sau xe máy: không trùm kín mặt, không để vạt cuốn bánh",
   "description": "Che mưa cho trẻ đi xe máy thế nào cho an toàn: chọn áo riêng vừa người, mặt luôn hở, vạt gọn không cuốn vào bánh hay xích, và việc cần làm khi mưa to.",
@@ -30990,6 +31088,38 @@
  },
  {
   "kind": "article",
+  "url": "tips/meo-mua-xe/mua-ban-xe-may-voi-ban-be-dong-nghiep-hay-ho-hang-ngai-hoi-ngai-noi-loi-va-cach-giu-ca-xe-lan-tinh-cam/",
+  "title": "Mua bán xe máy với bạn bè, đồng nghiệp hay họ hàng: ngại hỏi, ngại nói lỗi và cách giữ cả xe lẫn tình cảm",
+  "description": "Mua bán xe máy với người quen vẫn cần xem xe kỹ, kể hết lỗi, ghi lại điều đã nói và biết mở lời khi xe trục trặc để không mất lòng nhau.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "mua bán xe máy cũ",
+   "xem xe và chạy thử",
+   "sổ bảo dưỡng",
+   "lỗi đã biết khi bán xe",
+   "giấy tờ xe",
+   "tin nhắn xác nhận tình trạng xe"
+  ],
+  "keywords": [
+   "mua bán xe máy với người quen",
+   "mua xe cũ của bạn bè",
+   "bán xe máy cho người quen",
+   "mua xe của họ hàng"
+  ],
+  "seoTitle": "Mua bán xe máy với người quen: hỏi kỹ, nói lỗi mà không mất lòng",
+  "primaryKeyword": "mua bán xe máy với người quen",
+  "headings": [
+   "Vì sao mua bán với người quen dễ bỏ bước",
+   "Phía người mua: xem xe như với người lạ mà không mất lòng",
+   "Phía người bán: kể hết lỗi đã biết",
+   "Ghi lại điều đã nói dù là người quen",
+   "Khi xe trục trặc sau khi giao, và khi nào nên từ chối cho êm"
+  ],
+  "summary": "Bài giải thích vì sao mua bán xe máy với người quen dễ bỏ bước xem xe, hỏi lại và ghi chép, dù cả hai bên đều có thiện chí. Nội dung hướng dẫn người mua xem xe, chạy thử và nhờ thợ xem cùng mà không mất lòng, người bán kể hết lỗi đã biết, cách ghi lại điều đã "
+ },
+ {
+  "kind": "article",
   "url": "review/review-phu-tung/mua-loai-dat-nhat-cho-yen-tam-nhot-lop-phu-tung-dat-tien-co-chac-hop-voi-xe-ban-hon-khong-va-tu-xet-the-nao/",
   "title": "Mua loại đắt nhất cho yên tâm: nhớt, lốp, phụ tùng đắt tiền có chắc hợp với xe bạn hơn không và tự xét thế nào",
   "description": "Nhớt, lốp, phụ tùng đắt tiền chưa chắc hợp xe bạn hơn. Cách xét theo chuẩn của xe, cách đi, ghi chép sau khi dùng và khi nào đáng chọn loại tốt hơn.",
@@ -31051,6 +31181,37 @@
    "Xử lý khi phụ tùng nhận về không khớp với xe"
   ],
   "summary": "Bài hướng dẫn người mua phụ tùng xe máy trực tuyến tránh nhầm mã và nhầm đời xe. Nội dung gồm những rủi ro thường gặp, quy trình đối chiếu mã phụ tùng với số khung hoặc tem thông tin của đúng chiếc xe, các câu hỏi nên hỏi người bán trước khi đặt hàng, cách kiể"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-mua-xe/mua-xe-cu-xong-moi-thay-loi-ghi-lai-nho-tho-xem-va-noi-chuyen-voi-nguoi-ban-the-nao-cho-em/",
+  "title": "Mua xe cũ xong mới thấy lỗi: ghi lại, nhờ thợ xem và nói chuyện với người bán thế nào cho êm",
+  "description": "Mua xe cũ xong mới thấy lỗi thì nên làm gì trước? Cách ghi lại, nhờ thợ xem lỗi cũ hay mới, khi nào báo lại người bán và nói chuyện sao cho êm, tránh căng thẳng.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "xe máy cũ",
+   "lỗi có từ trước",
+   "nhận xét của thợ",
+   "hao mòn thông thường",
+   "trao đổi với người bán"
+  ],
+  "keywords": [
+   "mua xe cũ xong mới thấy lỗi",
+   "xe máy cũ mới mua bị lỗi",
+   "báo lại người bán xe cũ",
+   "nhờ thợ xem xe cũ vừa mua"
+  ],
+  "seoTitle": "Mua xe cũ xong mới thấy lỗi: ghi lại, nhờ thợ xem, nói với người bán",
+  "primaryKeyword": "mua xe cũ xong mới thấy lỗi",
+  "headings": [
+   "Thấy lỗi rồi: đừng vội sửa, hãy ghi lại",
+   "Nhờ thợ xem lỗi có từ trước hay mới phát sinh",
+   "Khi nào đáng gọi lại người bán",
+   "Nói chuyện với người bán thế nào cho êm",
+   "Khi hai bên chưa thống nhất, nếu bạn là người bán bị gọi lại và bài học cho lần sau"
+  ],
+  "summary": "Bài hướng dẫn người vừa mua xe máy cũ rồi mới thấy lỗi cách xử lý từng bước: giữ nguyên hiện trạng và ghi lại bằng ảnh, clip, ghi chú; nhờ thợ có tay nghề xem lỗi có dấu hiệu cũ hay mới và xin nhận xét bằng chữ; cân nhắc khi nào đáng báo lại người bán; nói chu"
  },
  {
   "kind": "article",
@@ -31566,6 +31727,38 @@
    "Lên xuống xe, trời mưa và đi đêm"
   ],
   "summary": "Bài dành cho người thường đi xe ôm hoặc xe máy gọi qua ứng dụng, giải thích vì sao ngồi sau người lạ cần chú ý hơn ngồi sau người quen, rồi đi qua từng khâu của một chuyến đi: kiểm tra mũ bảo hiểm và quai cài, cách đặt chân, ngồi, bám và mang túi, cách nhắc ng"
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-mua-xe/nguoi-ban-noi-xe-chi-can-sua-nhe-hoi-gi-xem-loi-o-dau-va-khi-nao-nho-tho-nhin-truoc-khi-quyet/",
+  "title": "Người bán nói xe chỉ cần sửa nhẹ: hỏi gì, xem lỗi ở đâu và khi nào nên nhờ thợ nhìn trước khi quyết",
+  "description": "Người bán bảo xe chỉ cần sửa nhẹ? Cách hỏi lại bằng lời thường, tự quan sát lúc xem xe, lúc nào nên nhờ thợ nhìn trước và cách quyết định không bị dẫn dắt.",
+  "category": "Mẹo",
+  "hub": "Mẹo mua xe",
+  "entities": [
+   "xe máy cũ",
+   "triệu chứng và nguyên nhân",
+   "câu hỏi dành cho người bán",
+   "chạy thử xe",
+   "thợ xem xe độc lập",
+   "lỗi chưa rõ mức độ"
+  ],
+  "keywords": [
+   "người bán nói xe chỉ cần sửa nhẹ",
+   "mua xe cũ có lỗi nhỏ",
+   "hỏi lại người bán xe cũ",
+   "nhờ thợ xem xe cũ trước khi mua"
+  ],
+  "seoTitle": "Người bán nói xe chỉ cần sửa nhẹ: hỏi gì, xem gì, khi nào nhờ thợ",
+  "primaryKeyword": "người bán nói xe chỉ cần sửa nhẹ",
+  "headings": [
+   "Vì sao câu chỉ cần sửa nhẹ cần được hỏi lại",
+   "Những câu hỏi lại bằng lời thường",
+   "Tự quan sát để đối chiếu lời người bán",
+   "Khi nào nên nhờ thợ nhìn trước khi quyết",
+   "Quyết định mua hay thôi mà không bị dẫn dắt"
+  ],
+  "summary": "Bài giải thích vì sao câu người bán nói xe chỉ cần sửa nhẹ nên được hỏi lại: đó thường là mô tả triệu chứng chứ chưa chắc là nguyên nhân, và một triệu chứng có thể đến từ nhiều chỗ, có chỗ nhẹ có chỗ không. Nội dung gợi ý những câu hỏi bằng lời thường về thời "
  },
  {
   "kind": "article",
@@ -32436,6 +32629,38 @@
    "Kiểm tra chìa, nắp bình và yên xe trước khi đi"
   ],
   "summary": "Bài hướng dẫn cách phối hợp với nhân viên cây xăng khi được đổ xăng giúp. Nội dung giải thích vì sao vẫn nên để ý dù đã có người làm, cách chuẩn bị và nói rõ loại xăng, mức đổ trước khi đổ, những điều nên nhìn ở vòi và màn hình trụ bơm, cách đối chiếu khi trả "
+ },
+ {
+  "kind": "article",
+  "url": "market/mua-ban-xe-cu/nho-tiem-ban-ho-xe-may-ai-giu-chia-ai-cho-khach-chay-thu-va-cach-theo-doi-de-hai-ben-cung-yen-tam/",
+  "title": "Nhờ tiệm bán hộ xe máy: ai giữ chìa, ai cho khách chạy thử và cách theo dõi để hai bên cùng yên tâm",
+  "description": "Nhờ tiệm bán hộ xe máy thì ai giữ chìa, ai cho khách chạy thử, xe trầy xước tính sao? Những điều cần thống nhất, cách ghi lại tình trạng xe và theo dõi lúc gửi.",
+  "category": "Thị trường",
+  "hub": "Mua bán xe cũ",
+  "entities": [
+   "bán hộ xe máy",
+   "ký gửi xe máy cũ",
+   "chìa khóa xe",
+   "giấy tờ xe",
+   "chạy thử xe",
+   "đồng hồ quãng đường"
+  ],
+  "keywords": [
+   "nhờ tiệm bán hộ xe máy",
+   "ký gửi xe máy cũ",
+   "gửi xe máy cho tiệm bán",
+   "mua xe ký gửi ở tiệm"
+  ],
+  "seoTitle": "Nhờ tiệm bán hộ xe máy: giữ chìa, chạy thử và theo dõi xe gửi",
+  "primaryKeyword": "nhờ tiệm bán hộ xe máy",
+  "headings": [
+   "Bán hộ khác bán đứt cho tiệm ở chỗ nào",
+   "Thống nhất những gì trước khi để xe lại",
+   "Ghi lại tình trạng xe lúc gửi",
+   "Theo dõi trong thời gian xe nằm ở tiệm, rồi lấy xe về hay chốt bán",
+   "Nếu bạn là người mua chiếc xe gửi bán"
+  ],
+  "summary": "Bài giải thích khác biệt giữa nhờ tiệm bán hộ xe máy và bán đứt cho tiệm: khi ký gửi, xe vẫn là của chủ xe nên mọi việc trong thời gian nằm ở tiệm cần nói rõ từ trước. Nội dung gồm những điều nên thống nhất như ai giữ chìa, giấy tờ để ở đâu, ai cho khách chạy "
  },
  {
   "kind": "article",
@@ -34211,6 +34436,38 @@
    "Cách để không quên tháo khóa đĩa"
   ],
   "summary": "Bài giải thích khóa đĩa chặn bánh bằng cách xuyên chốt qua lỗ đĩa phanh, nên khi bánh quay thân khóa va vào càng phanh, phuộc hay chắn bùn tùy vị trí lắp. Nội dung nêu những chuyện có thể xảy ra khi quên tháo, từ xe khựng, đổ lúc dắt hay vừa chạy đến đĩa cong,"
+ },
+ {
+  "kind": "article",
+  "url": "map/cay-xang/quet-ma-tra-tien-o-cay-xang-bai-xe-hay-tiem-ma-chua-thay-bao-thanh-cong-cho-o-dau-va-giu-gi-lam-bang-chung/",
+  "title": "Quét mã trả tiền ở cây xăng, bãi xe hay tiệm mà chưa thấy báo thành công: chờ ở đâu và giữ gì làm bằng chứng",
+  "description": "Quét mã trả tiền ở cây xăng, bãi xe hay tiệm mà chưa báo thành công: đưa xe ra chỗ không chắn lối, kiểm tra hai phía, chụp bằng chứng, chưa rõ thì chưa trả lần hai.",
+  "category": "Bản đồ",
+  "hub": "Cây xăng",
+  "entities": [
+   "thanh toán quét mã",
+   "lịch sử giao dịch",
+   "ảnh chụp màn hình giao dịch",
+   "tên người nhận hiển thị",
+   "tiền mặt dự phòng",
+   "thông báo giao dịch"
+  ],
+  "keywords": [
+   "quét mã trả tiền chưa báo thành công",
+   "thanh toán quét mã ở cây xăng bị treo",
+   "chuyển khoản chưa thấy tiền về",
+   "giữ bằng chứng thanh toán khi đi xe"
+  ],
+  "seoTitle": "Quét mã trả tiền chưa báo thành công: đứng chờ ở đâu, giữ gì",
+  "primaryKeyword": "quét mã trả tiền chưa báo thành công",
+  "headings": [
+   "Vì sao có lúc quét mã xong mà chưa thấy báo thành công",
+   "Đưa xe ra chỗ không chắn lối trước đã",
+   "Kiểm tra cả hai phía trước khi trả lần nữa",
+   "Giữ gì làm bằng chứng",
+   "Khi nào đổi sang cách trả khác, và nếu sau đó thấy bị trừ hai lần"
+  ],
+  "summary": "Bài giải thích vì sao có lúc quét mã trả tiền xong mà màn hình quay mãi hoặc người thu nói chưa thấy tiền về, và nên làm gì theo thứ tự khi đang ở cây xăng, bãi xe hay tiệm sửa xe. Nội dung nhấn mạnh việc dừng hẳn, đưa xe ra chỗ không chắn lối trước, rồi mới x"
  },
  {
   "kind": "article",
@@ -44813,6 +45070,38 @@
  },
  {
   "kind": "article",
+  "url": "map/tram-sac/ung-dung-bao-tru-sac-trong-ma-toi-noi-hong-tra-tien-roi-khong-vao-dien-hoac-phien-sac-chua-dung-xu-ly-ra-sao/",
+  "title": "Ứng dụng báo trụ sạc trống mà tới nơi hỏng, trả tiền rồi không vào điện hay phiên sạc chưa dừng: xử lý ra sao",
+  "description": "Ứng dụng báo trụ sạc trống mà tới nơi hỏng, đã trả tiền xe không nhận điện, rút dây phiên vẫn chạy? Việc nên kiểm tra, cách ghi lại và báo cho đầu mối hỗ trợ.",
+  "category": "Bản đồ",
+  "hub": "Trạm sạc",
+  "entities": [
+   "trụ sạc công cộng",
+   "ứng dụng tra điểm sạc",
+   "phiên sạc",
+   "đầu cắm sạc",
+   "đầu mối hỗ trợ",
+   "điểm sạc dự phòng"
+  ],
+  "keywords": [
+   "trụ sạc xe điện báo trống nhưng hỏng",
+   "trả tiền sạc xe điện mà không vào điện",
+   "phiên sạc chưa dừng sau khi rút dây",
+   "trụ sạc công cộng không hoạt động"
+  ],
+  "seoTitle": "Trụ sạc báo trống nhưng hỏng, trả tiền không vào điện: cách xử lý",
+  "primaryKeyword": "trụ sạc xe điện báo trống nhưng hỏng",
+  "headings": [
+   "Vì sao ứng dụng và trụ sạc thật có lúc nói khác nhau",
+   "Chuẩn bị trước khi tới điểm sạc",
+   "Tới nơi thấy trụ hỏng hoặc đã có xe",
+   "Đã trả tiền mà xe không vào điện",
+   "Rút dây mà phiên chưa dừng, đầu cắm bị kẹt và việc giữ bằng chứng báo cho đầu mối hỗ trợ"
+  ],
+  "summary": "Bài giải thích vì sao ứng dụng tra điểm sạc và trụ sạc thật có lúc nói khác nhau, do dữ liệu cập nhật chậm, trụ mất kết nối hoặc đang bảo trì. Nội dung đi theo từng tình huống: chuẩn bị trước khi tới điểm sạc, tới nơi thấy trụ hỏng hoặc đã có xe, đã trả tiền m"
+ },
+ {
+  "kind": "article",
   "url": "moto/xe-so/uu-diem-xe-so/",
   "title": "Hướng dẫn chi tiết về ưu điểm xe số",
   "description": "Ưu điểm xe số: rẻ, bền, tiết kiệm và dễ sửa — phân tích chi tiết lợi thế của xe số so với xe ga và xe côn tay, kèm giới hạn cần biết.",
@@ -45135,6 +45424,39 @@
    "Bài tập luyện tập và checklist tự kiểm trước mỗi chuyến đi"
   ],
   "summary": "Vào cua là khoảnh khắc xe máy dễ mất ổn định nhất: tốc độ, tư thế người và hướng nhìn quyết định xe ôm cua hay trượt ngang. Bài viết phân tích quy trình vào cua an toàn theo bốn bước chuẩn – nhìn – giảm – ghi – đổ – cùng các lỗi phổ biến của người mới lái."
+ },
+ {
+  "kind": "article",
+  "url": "tips/meo-lai-xe/ve-khuya-hay-di-tu-tinh-mo-trong-khu-dan-cu-giu-giac-ngu-cua-xom-ma-van-de-nguoi-khac-nghe-thay-xe-minh/",
+  "title": "Về khuya hay đi từ tinh mơ trong khu dân cư: giữ giấc ngủ của xóm mà vẫn để người khác nghe thấy xe mình",
+  "description": "Đi xe máy về khuya trong khu dân cư sao cho xóm ngủ yên mà người đi bộ vẫn biết xe tới: bớt tiếng thừa, hạ đèn, đi chậm đoạn cuối, gọi cổng không bấm còi.",
+  "category": "Mẹo",
+  "hub": "Mẹo lái xe",
+  "entities": [
+   "đi xe máy về khuya",
+   "nổ máy trong ngõ",
+   "đèn chiếu gần",
+   "dắt xe đoạn cuối",
+   "gọi mở cổng",
+   "tiếng ồn ban đêm"
+  ],
+  "keywords": [
+   "đi xe máy về khuya trong khu dân cư",
+   "nổ máy xe sáng sớm trong ngõ",
+   "gọi mở cổng không bấm còi",
+   "đi xe máy ban đêm không làm ồn hàng xóm",
+   "đi xe êm mà vẫn an toàn trong ngõ tối"
+  ],
+  "seoTitle": "Đi xe máy về khuya, đi sớm trong ngõ: êm cho xóm mà vẫn an toàn",
+  "primaryKeyword": "đi xe máy về khuya trong khu dân cư",
+  "headings": [
+   "Giữ yên cho xóm nhưng đừng thành chiếc xe không ai nghe thấy",
+   "Những tiếng ồn và ánh đèn hay bị bỏ qua lúc đêm",
+   "Về khuya: tắt máy, hạ đèn và đi chậm đoạn cuối",
+   "Đi từ tinh mơ: chuẩn bị từ tối và dắt xe ra đầu ngõ",
+   "Gọi mở cổng mà không bấm còi, nói trước với hàng xóm và xin lỗi khi lỡ làm ồn"
+  ],
+  "summary": "Bài hướng dẫn cách đi xe máy về khuya hoặc đi từ tinh mơ trong khu dân cư mà không làm cả xóm thức giấc, đồng thời không biến mình thành chiếc xe không ai nghe thấy. Nội dung chỉ ra những tiếng ồn và ánh đèn hay bị bỏ qua, cách tắt máy, hạ đèn và đi chậm đoạn "
  },
  {
   "kind": "article",
