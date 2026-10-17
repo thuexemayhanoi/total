@@ -25825,11 +25825,13 @@
    "title": "Chở cuốc, xẻng, liềm, dao hay máy cắt cỏ bằng xe máy: bọc lưỡi, buộc cho mũi nhọn không hướng vào người và đường",
    "primaryIntent": "informational/cho-cuoc-xeng-liem-dao-hay-may-cat-co-bang-xe-may-boc-luoi-buoc-cho-mui-nhon-khong-huong-vao-nguoi-va-duong",
    "notes": "source=topic-v2 topicId=T001932",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:06.900Z",
-   "updatedAt": "2026-10-17T05:41:06.900Z"
+   "updatedAt": "2026-10-17T07:07:59.227Z",
+   "seoScore": 100,
+   "words": 3104
   },
   {
    "id": "S01767",
@@ -25838,11 +25840,13 @@
    "title": "Chạy xe không sau khi dỡ hàng hoặc hàng vơi dần trong ngày: xe nhẹ đuôi, phanh sau dễ khóa, dây buộc chùng",
    "primaryIntent": "informational/chay-xe-khong-sau-khi-do-hang-hoac-hang-voi-dan-trong-ngay-xe-nhe-duoi-phanh-sau-de-khoa-day-buoc-chung",
    "notes": "source=topic-v2 topicId=T001933",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:06.960Z",
-   "updatedAt": "2026-10-17T05:41:06.960Z"
+   "updatedAt": "2026-10-17T07:07:59.227Z",
+   "seoScore": 91,
+   "words": 2999
   },
   {
    "id": "S01768",
@@ -25851,11 +25855,13 @@
    "title": "Bị xịt bọt, ném bóng nước hay tạt bột màu từ nhóm đang ăn mừng ven đường: giữ lái, bảo vệ mắt và né kịp thế nào",
    "primaryIntent": "informational/bi-xit-bot-nem-bong-nuoc-hay-tat-bot-mau-tu-nhom-dang-an-mung-ven-duong-giu-lai-bao-ve-mat-va-ne-kip-the-nao",
    "notes": "source=topic-v2 topicId=T001934",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:07.091Z",
-   "updatedAt": "2026-10-17T05:41:07.091Z"
+   "updatedAt": "2026-10-17T07:07:59.227Z",
+   "seoScore": 100,
+   "words": 2872
   },
   {
    "id": "S01769",
@@ -25864,11 +25870,13 @@
    "title": "Một ngày thăm họ hàng hoặc dự nhiều đám liên tiếp bằng xe máy: xếp thứ tự các nhà, chỗ dựng xe và lúc nên nghỉ",
    "primaryIntent": "informational/mot-ngay-tham-ho-hang-hoac-du-nhieu-dam-lien-tiep-bang-xe-may-xep-thu-tu-cac-nha-cho-dung-xe-va-luc-nen-nghi",
    "notes": "source=topic-v2 topicId=T001935",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:07.136Z",
-   "updatedAt": "2026-10-17T05:41:07.136Z"
+   "updatedAt": "2026-10-17T07:07:59.228Z",
+   "seoScore": 100,
+   "words": 2871
   },
   {
    "id": "S01770",
@@ -25877,11 +25885,13 @@
    "title": "Đứng lên yên hay baga xe máy để với lên cao khi làm việc: vì sao dễ đổ xe, hỏng baga và cách thay thế an toàn hơn",
    "primaryIntent": "informational/dung-len-yen-hay-baga-xe-may-de-voi-len-cao-khi-lam-viec-vi-sao-de-do-xe-hong-baga-va-cach-thay-the-an-toan-hon",
    "notes": "source=topic-v2 topicId=T001936",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:07.179Z",
-   "updatedAt": "2026-10-17T05:41:07.179Z"
+   "updatedAt": "2026-10-17T07:07:59.227Z",
+   "seoScore": 100,
+   "words": 2940
   },
   {
    "id": "S01771",
@@ -25890,11 +25900,13 @@
    "title": "Vừa chạy vừa dò số nhà, biển hiệu khi đi làm nhiều điểm lạ: đi chậm, liếc hai bên, dừng bất chợt và rẽ vào nhầm",
    "primaryIntent": "informational/vua-chay-vua-do-so-nha-bien-hieu-khi-di-lam-nhieu-diem-la-di-cham-liec-hai-ben-dung-bat-chot-va-re-vao-nham",
    "notes": "source=topic-v2 topicId=T001937",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:07.227Z",
-   "updatedAt": "2026-10-17T05:41:07.227Z"
+   "updatedAt": "2026-10-17T07:07:59.228Z",
+   "seoScore": 100,
+   "words": 2941
   },
   {
    "id": "S01772",
@@ -25903,11 +25915,13 @@
    "title": "Người giữ xe, bảo vệ hay bà con ra giữa đường vẫy xe khi có đám, có lễ: làm theo, hỏi lại hay đi tiếp",
    "primaryIntent": "informational/nguoi-giu-xe-bao-ve-hay-ba-con-ra-giua-duong-vay-xe-khi-co-dam-co-le-lam-theo-hoi-lai-hay-di-tiep",
    "notes": "source=topic-v2 topicId=T001938",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:07.274Z",
-   "updatedAt": "2026-10-17T05:41:07.274Z"
+   "updatedAt": "2026-10-17T07:07:59.228Z",
+   "seoScore": 100,
+   "words": 2913
   },
   {
    "id": "S01773",
@@ -25916,11 +25930,13 @@
    "title": "Mua loại đắt nhất cho yên tâm: nhớt, lốp, phụ tùng đắt tiền có chắc hợp với xe bạn hơn không và tự xét thế nào",
    "primaryIntent": "informational/mua-loai-dat-nhat-cho-yen-tam-nhot-lop-phu-tung-dat-tien-co-chac-hop-voi-xe-ban-hon-khong-va-tu-xet-the-nao",
    "notes": "source=topic-v2 topicId=T001939",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:07.319Z",
-   "updatedAt": "2026-10-17T05:41:07.319Z"
+   "updatedAt": "2026-10-17T07:07:59.228Z",
+   "seoScore": 100,
+   "words": 2968
   },
   {
    "id": "S01774",
@@ -25929,11 +25945,13 @@
    "title": "Lốp mới thay được ít tuần: tự đánh giá độ bám, độ êm và tiếng lốp mà không bị cảm giác đánh lừa",
    "primaryIntent": "informational/lop-moi-thay-duoc-it-tuan-tu-danh-gia-do-bam-do-em-va-tieng-lop-ma-khong-bi-cam-giac-danh-lua",
    "notes": "source=topic-v2 topicId=T001940",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T05:41:07.363Z",
-   "updatedAt": "2026-10-17T05:41:07.363Z"
+   "updatedAt": "2026-10-17T07:07:59.227Z",
+   "seoScore": 91,
+   "words": 3023
   }
  ]
 }
