@@ -26410,11 +26410,13 @@
    "title": "Có nên rửa xe máy trước khi đưa đi sửa: xe sạch giúp thợ thấy gì, rửa vội làm mất dấu vết nào và nên lau đến đâu",
    "primaryIntent": "informational/co-nen-rua-xe-may-truoc-khi-dua-di-sua-xe-sach-giup-tho-thay-gi-rua-voi-lam-mat-dau-vet-nao",
    "notes": "source=topic-v2 topicId=T001971",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.109Z",
-   "updatedAt": "2026-10-17T17:47:39.110Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 2916
   },
   {
    "id": "S01806",
@@ -26423,11 +26425,13 @@
    "title": "Gọi thợ sửa xe máy đến tận nhà: hỏi gì trước khi thợ tới, nhìn gì trong lúc làm và nghiệm thu trước khi thợ đi",
    "primaryIntent": "informational/goi-tho-sua-xe-may-den-tan-nha-hoi-gi-truoc-khi-tho-toi-nhin-gi-trong-luc-lam-va-nghiem-thu-truoc-khi-tho-di",
    "notes": "source=topic-v2 topicId=T001972",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.311Z",
-   "updatedAt": "2026-10-17T17:47:39.311Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 2905
   },
   {
    "id": "S01807",
@@ -26436,11 +26440,13 @@
    "title": "Đưa xe máy đi sơn lại hoặc dặm sơn: thỏa thuận chi tiết nào được sơn, che chắn gì và kiểm tra gì khi nhận xe",
    "primaryIntent": "informational/dua-xe-may-di-son-lai-hoac-dam-son-thoa-thuan-chi-tiet-nao-duoc-son-che-chan-gi-va-kiem-tra-gi-khi-nhan-xe",
    "notes": "source=topic-v2 topicId=T001973",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.381Z",
-   "updatedAt": "2026-10-17T17:47:39.381Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 3050
   },
   {
    "id": "S01808",
@@ -26449,11 +26455,13 @@
    "title": "Đưa xe máy đi hàn hay nắn chi tiết: hỏi gì trước, che chắn dây điện, bình xăng ra sao và nhận xe thế nào",
    "primaryIntent": "informational/dua-xe-may-di-han-hay-nan-chi-tiet-hoi-gi-truoc-che-chan-day-dien-binh-xang-ra-sao-va-nhan-xe-the-nao",
    "notes": "source=topic-v2 topicId=T001974",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.453Z",
-   "updatedAt": "2026-10-17T17:47:39.453Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 2989
   },
   {
    "id": "S01809",
@@ -26462,11 +26470,13 @@
    "title": "Kể thật với thợ những gì xe máy đã trải qua: từng ngã, từng ngập, từng tự sửa và vì sao điều đó đổi cách chẩn đoán",
    "primaryIntent": "informational/ke-that-voi-tho-nhung-gi-xe-may-da-trai-qua-tung-nga-tung-ngap-tung-tu-sua-va-vi-sao-dieu-do-doi-cach-chan-doan",
    "notes": "source=topic-v2 topicId=T001975",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.531Z",
-   "updatedAt": "2026-10-17T17:47:39.531Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 2969
   },
   {
    "id": "S01810",
@@ -26475,11 +26485,13 @@
    "title": "Đội mũ kín thấy hẹp tầm nhìn hai bên và nghe kém hơn: tự thử liếc vai, nhìn gương, nghe còi để biết mũ che mất gì",
    "primaryIntent": "informational/doi-mu-kin-thay-hep-tam-nhin-hai-ben-va-nghe-kem-hon-tu-thu-liec-vai-nhin-guong-nghe-coi-de-biet-mu-che-mat-gi",
    "notes": "source=topic-v2 topicId=T001976",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.595Z",
-   "updatedAt": "2026-10-17T17:47:39.595Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 2966
   },
   {
    "id": "S01811",
@@ -26488,11 +26500,13 @@
    "title": "Mũ đúng cỡ mà đi vài giờ vẫn cấn trán, tê má, nặng đầu: tìm điểm khó chịu để chọn chỉnh, thay lót hay đổi mũ",
    "primaryIntent": "informational/mu-dung-co-ma-di-vai-gio-van-can-tran-te-ma-nang-dau-tim-diem-kho-chiu-de-chon-chinh-thay-lot-hay-doi-mu",
    "notes": "source=topic-v2 topicId=T001977",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.655Z",
-   "updatedAt": "2026-10-17T17:47:39.655Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 91,
+   "words": 2984
   },
   {
    "id": "S01812",
@@ -26501,11 +26515,13 @@
    "title": "Tiệm hết đúng loại nhớt xe bạn vẫn dùng: chờ, bù tạm bằng loại gần giống hay sang tiệm khác và hỏi gì trước khi đổ",
    "primaryIntent": "informational/tiem-het-dung-loai-nhot-xe-ban-van-dung-cho-bu-tam-bang-loai-gan-giong-hay-sang-tiem-khac-va-hoi-gi-truoc-khi-do",
    "notes": "source=topic-v2 topicId=T001978",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.712Z",
-   "updatedAt": "2026-10-17T17:47:39.712Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 3046
   },
   {
    "id": "S01813",
@@ -26514,11 +26530,13 @@
    "title": "Thợ gợi ý một loại nhớt cho xe bạn: lời khuyên nên dựa vào đâu và hỏi gì để biết đó không chỉ là hàng đang sẵn có",
    "primaryIntent": "informational/tho-goi-y-mot-loai-nhot-cho-xe-ban-loi-khuyen-nen-dua-vao-dau-va-hoi-gi-de-biet-do-khong-chi-la-hang-dang-san-co",
    "notes": "source=topic-v2 topicId=T001979",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.775Z",
-   "updatedAt": "2026-10-17T17:47:39.775Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 3087
   },
   {
    "id": "S01814",
@@ -26527,11 +26545,13 @@
    "title": "Bạn bè hỏi mình nên mua xe nào: trả lời sao cho công bằng, nói rõ điều đã thử và điều mình không biết",
    "primaryIntent": "informational/ban-be-hoi-minh-nen-mua-xe-nao-tra-loi-sao-cho-cong-bang-noi-ro-dieu-da-thu-va-dieu-minh-khong-biet",
    "notes": "source=topic-v2 topicId=T001980",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T17:47:39.845Z",
-   "updatedAt": "2026-10-17T17:47:39.845Z"
+   "updatedAt": "2026-10-17T18:40:58.084Z",
+   "seoScore": 100,
+   "words": 2914
   }
  ]
 }

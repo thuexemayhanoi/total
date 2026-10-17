@@ -1624,6 +1624,10 @@
   "kind": "article"
  },
  {
+  "rel": "review/so-sanh-xe/ban-be-hoi-minh-nen-mua-xe-nao-tra-loi-sao-cho-cong-bang-noi-ro-dieu-da-thu-va-dieu-minh-khong-biet/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "market/mua-ban-xe-cu/ban-xe-may-cu-cho-tiem-thu-mua-hay-cho-nguoi-mua-le-moi-ben-nhin-xe-o-dau-va-nen-chuan-bi-gi/index.html",
   "kind": "article"
  },
@@ -2233,6 +2237,10 @@
  },
  {
   "rel": "wiki/dong-co/co-mo-va-truc-cam-xe-may-la-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/quy-trinh-bao-duong/co-nen-rua-xe-may-truoc-khi-dua-di-sua-xe-sach-giup-tho-thay-gi-rua-voi-lam-mat-dau-vet-nao/index.html",
   "kind": "article"
  },
  {
@@ -2888,6 +2896,10 @@
   "kind": "article"
  },
  {
+  "rel": "review/review-mu-bao-hiem/doi-mu-kin-thay-hep-tam-nhin-hai-ben-va-nghe-kem-hon-tu-thu-liec-vai-nhin-guong-nghe-coi-de-biet-mu-che-mat-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/doi-mu-luoi-trai-khan-trum-dau-hay-deo-kep-toc-khuyen-tai-duoi-mu-bao-hiem-co-sao-khong/index.html",
   "kind": "article"
  },
@@ -2957,6 +2969,14 @@
  },
  {
   "rel": "hub/nhu-cau-su-dung/dua-con-di-thi-bang-xe-may-chuan-bi-xe-tu-hom-truoc-va-phuong-an-du-phong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/quy-trinh-bao-duong/dua-xe-may-di-han-hay-nan-chi-tiet-hoi-gi-truoc-che-chan-day-dien-binh-xang-ra-sao-va-nhan-xe-the-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/quy-trinh-bao-duong/dua-xe-may-di-son-lai-hoac-dam-son-thoa-thuan-chi-tiet-nao-duoc-son-che-chan-gi-va-kiem-tra-gi-khi-nhan-xe/index.html",
   "kind": "article"
  },
  {
@@ -3424,6 +3444,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/quy-trinh-bao-duong/goi-tho-sua-xe-may-den-tan-nha-hoi-gi-truoc-khi-tho-toi-nhin-gi-trong-luc-lam-va-nghiem-thu-truoc-khi-tho-di/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/su-dung-xe/gop-y-hang-xom-ve-chuyen-xe-co-ma-khong-mich-long-chon-luc-chon-loi-va-cach-don-nhan-khi-minh-bi-gop-y/index.html",
   "kind": "article"
  },
@@ -3557,6 +3581,10 @@
  },
  {
   "rel": "moto/yamaha/janus/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/chuan-doan-loi/ke-that-voi-tho-nhung-gi-xe-may-da-trai-qua-tung-nga-tung-ngap-tung-tu-sua-va-vi-sao-dieu-do-doi-cach-chan-doan/index.html",
   "kind": "article"
  },
  {
@@ -4037,6 +4065,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/mu-bao-hiem-xe-dap-mu-truot-patin-co-dung-di-xe-may-hay-xe-may-dien-duoc-khong-khac-nhau-o-cach-bao-ve-dau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-mu-bao-hiem/mu-dung-co-ma-di-vai-gio-van-can-tran-te-ma-nang-dau-tim-diem-kho-chiu-de-chon-chinh-thay-lot-hay-doi-mu/index.html",
   "kind": "article"
  },
  {
@@ -4781,6 +4813,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/thiet-bi-tiet-kiem-xang-nam-cham-hay-phu-kien-duong-nap-gan-them-cho-xe-may-loi-hua-thuong-gap-va-rui-ro-khi-lap/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-dau-nhot/tho-goi-y-mot-loai-nhot-cho-xe-ban-loi-khuyen-nen-dua-vao-dau-va-hoi-gi-de-biet-do-khong-chi-la-hang-dang-san-co/index.html",
   "kind": "article"
  },
  {
@@ -5709,6 +5745,10 @@
  },
  {
   "rel": "tips/meo-lai-xe/thung-sau-gan-xe-may-chon-co-de-gan-va-lai-khi-co-thung/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-dau-nhot/tiem-het-dung-loai-nhot-xe-ban-van-dung-cho-bu-tam-bang-loai-gan-giong-hay-sang-tiem-khac-va-hoi-gi-truoc-khi-do/index.html",
   "kind": "article"
  },
  {
