@@ -25675,11 +25675,13 @@
    "title": "Thắng hay phanh, vỏ hay lốp, ruột hay săm, sên hay xích: cùng một bộ phận mà mỗi nơi, mỗi thợ gọi một kiểu",
    "primaryIntent": "informational/thang-hay-phanh-vo-hay-lop-ruot-hay-sam-sen-hay-xich-cung-mot-bo-phan-ma-moi-noi-moi-tho-goi-mot-kieu",
    "notes": "source=topic-v2 topicId=T001922",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:36.890Z",
-   "updatedAt": "2026-10-17T01:57:36.890Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 100,
+   "words": 3136
   },
   {
    "id": "S01757",
@@ -25688,11 +25690,13 @@
    "title": "Thợ hay bạn bè bảo “xe nào cũng vậy, chạy vài hôm sẽ hết”: khi nào đúng, khi nào che lỗi và nên hỏi lại gì",
    "primaryIntent": "informational/tho-hay-ban-be-bao-xe-nao-cung-vay-chay-vai-hom-se-het-khi-nao-dung-khi-nao-che-loi-va-nen-hoi-lai-gi",
    "notes": "source=topic-v2 topicId=T001923",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:36.957Z",
-   "updatedAt": "2026-10-17T01:57:36.957Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 100,
+   "words": 3125
   },
   {
    "id": "S01758",
@@ -25701,11 +25705,13 @@
    "title": "Tiếng lóng khi mua bán xe máy cũ: xe lướt, nát dịch vụ, tắm số, sửa kín, zin cân nghĩa là gì và nên hỏi lại ra sao",
    "primaryIntent": "informational/tieng-long-khi-mua-ban-xe-may-cu-xe-luot-nat-dich-vu-tam-so-sua-kin-zin-can-nghia-la-gi-va-nen-hoi-lai-ra-sao",
    "notes": "source=topic-v2 topicId=T001924",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.124Z",
-   "updatedAt": "2026-10-17T01:57:37.124Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 100,
+   "words": 3097
   },
   {
    "id": "S01759",
@@ -25714,11 +25720,13 @@
    "title": "Chữ “ăn” trong tiếng thợ: xe ăn xăng, ăn nhớt, phanh ăn, côn ăn, đề ăn — cùng một chữ nhưng nhiều nghĩa khác nhau",
    "primaryIntent": "informational/chu-an-trong-tieng-tho-xe-an-xang-an-nhot-phanh-an-con-an-de-an-cung-mot-chu-nhung-nhieu-nghia-khac-nhau",
    "notes": "source=topic-v2 topicId=T001925",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.169Z",
-   "updatedAt": "2026-10-17T01:57:37.169Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 100,
+   "words": 2874
   },
   {
    "id": "S01760",
@@ -25727,11 +25735,13 @@
    "title": "Xe “dở chứng” lúc bị lúc không, tới thợ lại hết bệnh: ghi lại gì để thợ bắt được lỗi chập chờn",
    "primaryIntent": "troubleshooting/xe-do-chung-luc-bi-luc-khong-toi-tho-lai-het-benh-ghi-lai-gi-de-tho-bat-duoc-loi-chap-chon",
    "notes": "source=topic-v2 topicId=T001926",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.234Z",
-   "updatedAt": "2026-10-17T01:57:37.234Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 91,
+   "words": 2975
   },
   {
    "id": "S01761",
@@ -25740,11 +25750,13 @@
    "title": "Xe “bị chập” là chập thật hay chỉ lỏng giắc, rò điện, sụt áp: các chữ thợ điện hay dùng và cách hỏi lại cho rõ",
    "primaryIntent": "informational/xe-bi-chap-la-chap-that-hay-chi-long-giac-ro-dien-sut-ap-cac-chu-tho-dien-hay-dung-va-cach-hoi-lai-cho-ro",
    "notes": "source=topic-v2 topicId=T001927",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.280Z",
-   "updatedAt": "2026-10-17T01:57:37.280Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 100,
+   "words": 3041
   },
   {
    "id": "S01762",
@@ -25753,11 +25765,13 @@
    "title": "Khen xe “bốc”, “đầm”, “nhạy”, “nhẹ lái”, “êm”: mỗi chữ nói về phần nào của xe và điều gì nó không nói",
    "primaryIntent": "informational/khen-xe-boc-dam-nhay-nhe-lai-em-moi-chu-noi-ve-phan-nao-cua-xe-va-dieu-gi-no-khong-noi",
    "notes": "source=topic-v2 topicId=T001928",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.327Z",
-   "updatedAt": "2026-10-17T01:57:37.327Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 91,
+   "words": 2913
   },
   {
    "id": "S01763",
@@ -25766,11 +25780,13 @@
    "title": "Xe máy đã hết đời: xăng, ắc quy hoặc pin, nhớt, chìa và đồ cá nhân cần xử lý trước khi giao cho thợ hay người thu mua",
    "primaryIntent": "informational/xe-may-da-het-doi-xang-ac-quy-hoac-pin-nhot-chia-va-do-ca-nhan-can-xu-ly-truoc-khi-giao-cho-tho-hay-nguoi-thu-mua",
    "notes": "source=topic-v2 topicId=T001929",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.373Z",
-   "updatedAt": "2026-10-17T01:57:37.373Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 100,
+   "words": 3178
   },
   {
    "id": "S01764",
@@ -25779,11 +25795,13 @@
    "title": "Nhận xe máy sau khi sửa vì ngã hoặc va chạm: tay lái, bánh, phanh và những chỗ nên thử trước khi trả tiền",
    "primaryIntent": "informational/nhan-xe-may-sau-khi-sua-vi-nga-hoac-va-cham-tay-lai-banh-phanh-va-nhung-cho-nen-thu-truoc-khi-tra-tien",
    "notes": "source=topic-v2 topicId=T001930",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.420Z",
-   "updatedAt": "2026-10-17T01:57:37.420Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 91,
+   "words": 2956
   },
   {
    "id": "S01765",
@@ -25792,11 +25810,13 @@
    "title": "Nhường hẳn xe máy cho người nhà dùng lâu dài: kiểm an toàn, dặn tính nết xe, trao chìa và hỏi thăm sau ít tuần",
    "primaryIntent": "informational/nhuong-han-xe-may-cho-nguoi-nha-dung-lau-dai-kiem-an-toan-dan-tinh-net-xe-trao-chia-va-hoi-tham-sau-it-tuan",
    "notes": "source=topic-v2 topicId=T001931",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-17T01:57:37.470Z",
-   "updatedAt": "2026-10-17T01:57:37.470Z"
+   "updatedAt": "2026-10-17T05:38:17.732Z",
+   "seoScore": 100,
+   "words": 2898
   }
  ]
 }
