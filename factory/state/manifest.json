@@ -1676,6 +1676,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/huong-dan-su-dung/bat-den-xe-may-ban-ngay-luc-nao-co-ich-dung-den-cot-hay-den-pha-va-xe-den-luon-sang-can-de-y-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/bau-giam-thanh-xe-may-keu-to-hoac-doi-tieng-nguyen-nhan/index.html",
   "kind": "article"
  },
@@ -1988,6 +1992,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dau-nhot/chat-bit-ro-va-phu-gia-pha-vao-nuoc-lam-mat-xe-may-vi-sao-de-che-dau-hieu-hong-va-lam-tac-duong-nuoc/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/chat-hang-nang-len-xe-may-roi-moi-len-xe-dung-chan-chong-nao-khi-chat-ha-chan-chong-khi-duoi-nang-va-buoc-len-yen/index.html",
   "kind": "article"
  },
@@ -2141,6 +2149,10 @@
  },
  {
   "rel": "tips/meo-lai-xe/cho-nguoi-lai-rat-khac-minh-muon-xe-may-noi-truoc-ve-cach-di-ga-phanh-va-nhung-luc-khong-nen-chay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-con-tay/cho-nguoi-ngoi-sau-tren-xe-con-tay-sang-so-va-nha-con-em-de-nguoi-sau-khong-bi-giat-cung-mu-hay-truot-nguoi/index.html",
   "kind": "article"
  },
  {
@@ -2665,6 +2677,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/di-sau-xe-cho-cat-dat-khong-che-kin-hat-roi-vang-va-bui-phu-kinh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-so/di-so-cao-khi-xe-con-cham-tren-xe-so-may-i-rung-giat-va-co-that-tiet-kiem-xang-khong/index.html",
   "kind": "article"
  },
  {
@@ -4092,6 +4108,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/cham-soc-xe/may-xe-may-da-nguoi-chua-nhan-biet-an-toan-truoc-khi-mo-nap-ket-kiem-tra-nhot-lau-rua-hay-phu-bat-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/nhu-cau-su-dung/me-sau-sinh-va-tre-so-sinh-di-xe-may-khi-nao-ngoi-sau-khi-nao-tu-lai-va-vi-sao-khong-be-be-tren-xe/index.html",
   "kind": "article"
  },
@@ -4225,6 +4245,10 @@
  },
  {
   "rel": "tips/meo-mua-xe/mua-xe-tra-gop/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "tips/meo-tiet-kiem-xang/muc-hao-xang-hien-tren-dong-ho-dien-tu-xe-may-con-so-den-tu-dau-vi-sao-nhay-lien-tuc-va-dung-the-nao-cho-dung/index.html",
   "kind": "article"
  },
  {
@@ -4541,6 +4565,10 @@
  },
  {
   "rel": "wiki/he-thong-phanh/phanh-dia/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-con-tay/phanh-gap-tren-xe-con-tay-bop-con-luc-nao-de-khong-chet-may-ma-van-giu-duoc-phanh-va-ve-so-khi-xe-da-dung/index.html",
   "kind": "article"
  },
  {
@@ -6176,6 +6204,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dong-co/van-hang-nhiet-xe-may-la-gi-may-lau-am-nong-nhanh-bat-thuong-hay-kim-nhiet-dung-yen-lien-quan-the-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/huong-dan-su-dung/van-hanh-xe-so/index.html",
   "kind": "article"
  },
@@ -6269,6 +6301,10 @@
  },
  {
   "rel": "guide/xu-ly-su-co/vua-nga-xe-may-mot-minh-ma-xe-va-manh-vo-nam-giua-lan-doi-xe-don-do-roi-va-bao-cho-xe-phia-sau-theo-thu-tu-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dong-co/vua-thay-nuoc-lam-mat-ma-muc-tut-dan-kim-nhiet-chap-chon-khi-ket-trong-he-lam-mat-xe-may-va-viec-can-hoi-tho/index.html",
   "kind": "article"
  },
  {

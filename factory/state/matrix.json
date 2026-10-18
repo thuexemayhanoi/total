@@ -27580,11 +27580,13 @@
    "title": "Van hằng nhiệt xe máy là gì: máy lâu ấm, nóng nhanh bất thường hay kim nhiệt đứng yên liên quan thế nào",
    "primaryIntent": "informational/van-hang-nhiet-xe-may-la-gi-may-lau-am-nong-nhanh-bat-thuong-hay-kim-nhiet-dung-yen-lien-quan-the-nao",
    "notes": "source=topic-v2 topicId=T002049",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.221Z",
-   "updatedAt": "2026-10-18T13:53:22.221Z"
+   "updatedAt": "2026-10-18T14:03:33.077Z",
+   "seoScore": 100,
+   "words": 2897
   },
   {
    "id": "S01884",
@@ -27593,11 +27595,13 @@
    "title": "Chất bịt rò và phụ gia pha vào nước làm mát xe máy: vì sao dễ che dấu hiệu hỏng và làm tắc đường nước",
    "primaryIntent": "informational/chat-bit-ro-va-phu-gia-pha-vao-nuoc-lam-mat-xe-may-vi-sao-de-che-dau-hieu-hong-va-lam-tac-duong-nuoc",
    "notes": "source=topic-v2 topicId=T002050",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.314Z",
-   "updatedAt": "2026-10-18T13:53:22.314Z"
+   "updatedAt": "2026-10-18T14:03:33.076Z",
+   "seoScore": 100,
+   "words": 3033
   },
   {
    "id": "S01885",
@@ -27606,11 +27610,13 @@
    "title": "Vừa thay nước làm mát mà mực tụt dần, kim nhiệt chập chờn: khí kẹt trong hệ làm mát xe máy và việc cần hỏi thợ",
    "primaryIntent": "troubleshooting/vua-thay-nuoc-lam-mat-ma-muc-tut-dan-kim-nhiet-chap-chon-khi-ket-trong-he-lam-mat-xe-may-va-viec-can-hoi-tho",
    "notes": "source=topic-v2 topicId=T002051",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.490Z",
-   "updatedAt": "2026-10-18T13:53:22.490Z"
+   "updatedAt": "2026-10-18T14:03:33.077Z",
+   "seoScore": 100,
+   "words": 2821
   },
   {
    "id": "S01886",
@@ -27619,11 +27625,13 @@
    "title": "Mức hao xăng hiện trên đồng hồ điện tử xe máy: con số đến từ đâu, vì sao nhảy liên tục và dùng thế nào cho đúng",
    "primaryIntent": "informational/muc-hao-xang-hien-tren-dong-ho-dien-tu-xe-may-con-so-den-tu-dau-vi-sao-nhay-lien-tuc-va-dung-the-nao-cho-dung",
    "notes": "source=topic-v2 topicId=T002052",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.545Z",
-   "updatedAt": "2026-10-18T13:53:22.545Z"
+   "updatedAt": "2026-10-18T14:03:33.077Z",
+   "seoScore": 100,
+   "words": 2924
   },
   {
    "id": "S01887",
@@ -27632,11 +27640,13 @@
    "title": "Máy xe máy đã nguội chưa: nhận biết an toàn trước khi mở nắp két, kiểm tra nhớt, lau rửa hay phủ bạt xe",
    "primaryIntent": "informational/may-xe-may-da-nguoi-chua-nhan-biet-an-toan-truoc-khi-mo-nap-ket-kiem-tra-nhot-lau-rua-hay-phu-bat-xe",
    "notes": "source=topic-v2 topicId=T002053",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.653Z",
-   "updatedAt": "2026-10-18T13:53:22.653Z"
+   "updatedAt": "2026-10-18T14:03:33.076Z",
+   "seoScore": 100,
+   "words": 3013
   },
   {
    "id": "S01888",
@@ -27645,11 +27655,13 @@
    "title": "Bật đèn xe máy ban ngày: lúc nào có ích, dùng đèn cốt hay đèn pha và xe đèn luôn sáng cần để ý gì",
    "primaryIntent": "informational/bat-den-xe-may-ban-ngay-luc-nao-co-ich-dung-den-cot-hay-den-pha-va-xe-den-luon-sang-can-de-y-gi",
    "notes": "source=topic-v2 topicId=T002054",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.725Z",
-   "updatedAt": "2026-10-18T13:53:22.725Z"
+   "updatedAt": "2026-10-18T14:03:33.076Z",
+   "seoScore": 91,
+   "words": 2909
   },
   {
    "id": "S01889",
@@ -27658,11 +27670,13 @@
    "title": "Phanh gấp trên xe côn tay: bóp côn lúc nào để không chết máy mà vẫn giữ được phanh, và về số khi xe đã đứng",
    "primaryIntent": "informational/phanh-gap-tren-xe-con-tay-bop-con-luc-nao-de-khong-chet-may-ma-van-giu-duoc-phanh-va-ve-so-khi-xe-da-dung",
    "notes": "source=topic-v2 topicId=T002055",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.788Z",
-   "updatedAt": "2026-10-18T13:53:22.788Z"
+   "updatedAt": "2026-10-18T14:03:33.077Z",
+   "seoScore": 91,
+   "words": 3090
   },
   {
    "id": "S01890",
@@ -27671,11 +27685,13 @@
    "title": "Đi số cao khi xe còn chậm trên xe số: máy ì, rung, giật và có thật tiết kiệm xăng không",
    "primaryIntent": "informational/di-so-cao-khi-xe-con-cham-tren-xe-so-may-i-rung-giat-va-co-that-tiet-kiem-xang-khong",
    "notes": "source=topic-v2 topicId=T002056",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.845Z",
-   "updatedAt": "2026-10-18T13:53:22.845Z"
+   "updatedAt": "2026-10-18T14:03:33.076Z",
+   "seoScore": 91,
+   "words": 2886
   },
   {
    "id": "S01891",
@@ -27684,11 +27700,13 @@
    "title": "Chở người ngồi sau trên xe côn tay: sang số và nhả côn êm để người sau không bị giật, cụng mũ hay trượt người",
    "primaryIntent": "informational/cho-nguoi-ngoi-sau-tren-xe-con-tay-sang-so-va-nha-con-em-de-nguoi-sau-khong-bi-giat-cung-mu-hay-truot-nguoi",
    "notes": "source=topic-v2 topicId=T002057",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T13:53:22.904Z",
-   "updatedAt": "2026-10-18T13:53:22.904Z"
+   "updatedAt": "2026-10-18T14:03:33.076Z",
+   "seoScore": 91,
+   "words": 2746
   }
  ]
 }
