@@ -1800,6 +1800,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/bop-phanh-ma-xe-may-keo-lech-ve-mot-ben-hoac-duoi-xe-lang-phanh-an-khong-deu-tu-dau-va-khi-nao-phai-dung-di-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/bugi-nong-va-bugi-lanh-xe-may-la-gi-chi-so-nhiet-cua-bugi/index.html",
   "kind": "article"
  },
@@ -1921,6 +1925,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/cau-treo-qua-suoi-vung-nui-khi-di-xe-may-mat-cau-dung-dua-van-lat-va-cach-len-cau-giu-nhip-xuong-dat-khi-can/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "map/cay-xang/cay-xang-dang-co-xe-bon-nhap-hang-ong-nam-ngang-san-dung-o-dau-do-ngay-hay-cho-va-dieu-tuyet-doi-khong-lam/index.html",
   "kind": "article"
  },
  {
@@ -2481,6 +2489,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/de-xe-noi-am/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/cau-tao-xe/de-yem-luon-mat-na-op-cop-ten-cac-tam-op-quanh-than-xe-may-va-vi-sao-sua-chi-tiet-nho-van-phai-thao-op/index.html",
   "kind": "article"
  },
  {
@@ -3065,6 +3077,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/e-mong-va-te-mong-khi-di-xe-may-duong-dai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/thuat-ngu-xe/ep-bac-doa-nong-tien-dia-mai-ra-nhung-viec-gia-cong-ghi-tren-phieu-sua-xe-nghia-la-gi-va-chu-xe-nen-hoi-gi/index.html",
   "kind": "article"
  },
  {
@@ -3976,6 +3992,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/dien-xe/man-hinh-xe-may-dien-bao-bieu-tuong-hoac-ma-loi-cai-nao-chi-la-thong-tin-cai-nao-la-canh-bao-va-ghi-lai-the-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/su-dung-xe/mang-ba-lo-tui-deo-va-do-cam-tay-khi-di-xe-may-deo-the-nao-cho-an-toan/index.html",
   "kind": "article"
  },
@@ -4181,6 +4201,10 @@
  },
  {
   "rel": "wiki/dong-co/nap-binh-xang-va-lo-thong-hoi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/loi-thuong-gap/nap-binh-xang-xe-may-kho-mo-ket-hoac-van-mai-khong-khit-ren-ban-khoa-nap-gioang-va-luc-nao-nen-nho-tho/index.html",
   "kind": "article"
  },
  {
@@ -4469,6 +4493,10 @@
  },
  {
   "rel": "wiki/he-thong-phanh/phanh-tang-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phanh/phanh-xe-may-an-gat-bop-nhe-da-khung-hoac-banh-de-khoa-cac-nhom-nguyen-nhan-va-luc-nao-can-ra-tho/index.html",
   "kind": "article"
  },
  {
@@ -4925,6 +4953,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/thiet-bi-tiet-kiem-xang-nam-cham-hay-phu-kien-duong-nap-gan-them-cho-xe-may-loi-hua-thuong-gap-va-rui-ro-khi-lap/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "wiki/thuat-ngu-xe/tho-bao-thay-nguyen-cum-hay-thay-chi-tiet-roi-cum-bo-va-roi-tren-bao-gia-nghia-la-gi-va-nen-hoi-gi/index.html",
   "kind": "article"
  },
  {
@@ -6493,6 +6525,10 @@
  },
  {
   "rel": "guide/xu-ly-su-co/xe-may-vua-dam-o-ga-manh-dung-kiem-tra-nhung-gi-truoc-khi-dam-di-tiep-va-khi-nao-phai-dat-bo/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dien-ac-quy/xe-may-yeu-han-hoac-tat-may-moi-khi-bat-xi-nhan-hay-bam-coi-luc-cam-chung-dien-sut-khi-co-tai-va-cach-ghi-cho-tho/index.html",
   "kind": "article"
  },
  {

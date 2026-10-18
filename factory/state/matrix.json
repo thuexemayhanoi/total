@@ -27160,11 +27160,13 @@
    "title": "Nắp bình xăng xe máy khó mở, kẹt hoặc vặn mãi không khít: ren bẩn, khóa nắp, gioăng và lúc nào nên nhờ thợ",
    "primaryIntent": "troubleshooting/nap-binh-xang-xe-may-kho-mo-ket-hoac-van-mai-khong-khit-ren-ban-khoa-nap-gioang-va-luc-nao-nen-nho-tho",
    "notes": "source=topic-v2 topicId=T002021",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:43.774Z",
-   "updatedAt": "2026-10-18T07:40:43.774Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 91,
+   "words": 2849
   },
   {
    "id": "S01856",
@@ -27173,11 +27175,13 @@
    "title": "Phanh xe máy ăn gắt, bóp nhẹ đã khựng hoặc bánh dễ khóa: các nhóm nguyên nhân và lúc nào cần ra thợ",
    "primaryIntent": "troubleshooting/phanh-xe-may-an-gat-bop-nhe-da-khung-hoac-banh-de-khoa-cac-nhom-nguyen-nhan-va-luc-nao-can-ra-tho",
    "notes": "source=topic-v2 topicId=T002022",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:43.847Z",
-   "updatedAt": "2026-10-18T07:40:43.847Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 91,
+   "words": 2796
   },
   {
    "id": "S01857",
@@ -27186,11 +27190,13 @@
    "title": "Bóp phanh mà xe máy kéo lệch về một bên hoặc đuôi xe lạng: phanh ăn không đều từ đâu và khi nào phải dừng đi xe",
    "primaryIntent": "troubleshooting/bop-phanh-ma-xe-may-keo-lech-ve-mot-ben-hoac-duoi-xe-lang-phanh-an-khong-deu-tu-dau-va-khi-nao-phai-dung-di-xe",
    "notes": "source=topic-v2 topicId=T002023",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:43.962Z",
-   "updatedAt": "2026-10-18T07:40:43.962Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 91,
+   "words": 2888
   },
   {
    "id": "S01858",
@@ -27199,11 +27205,13 @@
    "title": "Ép bạc, doa nòng, tiện đĩa, mài, rà: những việc gia công ghi trên phiếu sửa xe nghĩa là gì và chủ xe nên hỏi gì",
    "primaryIntent": "informational/ep-bac-doa-nong-tien-dia-mai-ra-nhung-viec-gia-cong-ghi-tren-phieu-sua-xe-nghia-la-gi-va-chu-xe-nen-hoi-gi",
    "notes": "source=topic-v2 topicId=T002024",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:44.012Z",
-   "updatedAt": "2026-10-18T07:40:44.012Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 100,
+   "words": 3034
   },
   {
    "id": "S01859",
@@ -27212,11 +27220,13 @@
    "title": "Dè, yếm, lườn, mặt nạ, ốp cốp: tên các tấm ốp quanh thân xe máy và vì sao sửa chi tiết nhỏ vẫn phải tháo ốp",
    "primaryIntent": "informational/de-yem-luon-mat-na-op-cop-ten-cac-tam-op-quanh-than-xe-may-va-vi-sao-sua-chi-tiet-nho-van-phai-thao-op",
    "notes": "source=topic-v2 topicId=T002025",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:44.070Z",
-   "updatedAt": "2026-10-18T07:40:44.070Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 100,
+   "words": 2863
   },
   {
    "id": "S01860",
@@ -27225,11 +27235,13 @@
    "title": "Màn hình xe máy điện báo biểu tượng hoặc mã lỗi: cái nào chỉ là thông tin, cái nào là cảnh báo và ghi lại thế nào",
    "primaryIntent": "troubleshooting/man-hinh-xe-may-dien-bao-bieu-tuong-hoac-ma-loi-cai-nao-chi-la-thong-tin-cai-nao-la-canh-bao-va-ghi-lai-the-nao",
    "notes": "source=topic-v2 topicId=T002026",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:44.125Z",
-   "updatedAt": "2026-10-18T07:40:44.125Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 100,
+   "words": 2908
   },
   {
    "id": "S01861",
@@ -27238,11 +27250,13 @@
    "title": "Thợ báo thay nguyên cụm hay thay chi tiết rời: cụm, bộ và rời trên báo giá nghĩa là gì và nên hỏi gì",
    "primaryIntent": "informational/tho-bao-thay-nguyen-cum-hay-thay-chi-tiet-roi-cum-bo-va-roi-tren-bao-gia-nghia-la-gi-va-nen-hoi-gi",
    "notes": "source=topic-v2 topicId=T002027",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:44.179Z",
-   "updatedAt": "2026-10-18T07:40:44.179Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 100,
+   "words": 3177
   },
   {
    "id": "S01862",
@@ -27251,11 +27265,13 @@
    "title": "Xe máy yếu hẳn hoặc tắt máy mỗi khi bật xi nhan hay bấm còi lúc cầm chừng: điện sụt khi có tải và cách ghi cho thợ",
    "primaryIntent": "troubleshooting/xe-may-yeu-han-hoac-tat-may-moi-khi-bat-xi-nhan-hay-bam-coi-luc-cam-chung-dien-sut-khi-co-tai-va-cach-ghi-cho-tho",
    "notes": "source=topic-v2 topicId=T002028",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:44.239Z",
-   "updatedAt": "2026-10-18T07:40:44.239Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 100,
+   "words": 2958
   },
   {
    "id": "S01863",
@@ -27264,11 +27280,13 @@
    "title": "Cây xăng đang có xe bồn nhập hàng, ống nằm ngang sân: đứng ở đâu, đổ ngay hay chờ và điều tuyệt đối không làm",
    "primaryIntent": "informational/cay-xang-dang-co-xe-bon-nhap-hang-ong-nam-ngang-san-dung-o-dau-do-ngay-hay-cho-va-dieu-tuyet-doi-khong-lam",
    "notes": "source=topic-v2 topicId=T002029",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T07:40:44.291Z",
-   "updatedAt": "2026-10-18T07:40:44.291Z"
+   "updatedAt": "2026-10-18T07:48:41.772Z",
+   "seoScore": 100,
+   "words": 2985
   }
  ]
 }
