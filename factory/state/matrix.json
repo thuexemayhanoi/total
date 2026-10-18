@@ -26860,11 +26860,13 @@
    "title": "Điểm ăn côn dịch dần theo tháng: dùng chỗ côn bắt đầu kéo xe làm thước đo lá côn và dây côn đang mòn hay giãn",
    "primaryIntent": "informational/diem-an-con-dich-dan-theo-thang-dung-cho-con-bat-dau-keo-xe-lam-thuoc-do-la-con-va-day-con-dang-mon-hay-gian",
    "notes": "source=topic-v2 topicId=T002001",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:10.897Z",
-   "updatedAt": "2026-10-18T03:33:10.897Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 83,
+   "words": 2908
   },
   {
    "id": "S01836",
@@ -26873,11 +26875,13 @@
    "title": "Vài ngày sau khi thợ làm xong: soi lại xe tại nhà những điều chỉ lộ ra khi xe đã qua đêm và chạy thật",
    "primaryIntent": "informational/vai-ngay-sau-khi-tho-lam-xong-soi-lai-xe-tai-nha-nhung-dieu-chi-lo-ra-khi-xe-da-qua-dem-va-chay-that",
    "notes": "source=topic-v2 topicId=T002002",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.045Z",
-   "updatedAt": "2026-10-18T03:33:11.045Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 3030
   },
   {
    "id": "S01837",
@@ -26886,11 +26890,13 @@
    "title": "Mua sẵn phụ tùng để dành thay sau: cất thế nào để cao su, ắc quy, dây và má phanh không hỏng ngay trên kệ",
    "primaryIntent": "informational/mua-san-phu-tung-de-danh-thay-sau-cat-the-nao-de-cao-su-ac-quy-day-va-ma-phanh-khong-hong-tren-ke",
    "notes": "source=topic-v2 topicId=T002003",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.098Z",
-   "updatedAt": "2026-10-18T03:33:11.098Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 2774
   },
   {
    "id": "S01838",
@@ -26899,11 +26905,13 @@
    "title": "Naked, hành trình, địa hình, cổ điển: các kiểu dáng mô tô khác nhau ở tư thế ngồi và công dụng ra sao",
    "primaryIntent": "informational/naked-hanh-trinh-dia-hinh-co-dien-cac-kieu-dang-mo-to-khac-nhau-o-tu-the-ngoi-va-cong-dung-ra-sao",
    "notes": "source=topic-v2 topicId=T002004",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.158Z",
-   "updatedAt": "2026-10-18T03:33:11.158Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 3176
   },
   {
    "id": "S01839",
@@ -26912,11 +26920,13 @@
    "title": "Tự soạn danh sách kiểm tra riêng cho chuyến đi quen thuộc: lấy từ lỗi từng gặp, cắt gọn và sửa sau mỗi chuyến",
    "primaryIntent": "informational/tu-soan-danh-sach-kiem-tra-rieng-cho-chuyen-di-quen-thuoc-lay-tu-loi-tung-gap-cat-gon-va-sua-sau-moi-chuyen",
    "notes": "source=topic-v2 topicId=T002005",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.214Z",
-   "updatedAt": "2026-10-18T03:33:11.214Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 2877
   },
   {
    "id": "S01840",
@@ -26925,11 +26935,13 @@
    "title": "Chọn loại điểm sửa theo việc: tiệm gần nhà, tiệm chuyên điện hay lốp, hay nơi bảo hành chính hãng",
    "primaryIntent": "informational/chon-loai-diem-sua-theo-viec-tiem-gan-nha-tiem-chuyen-dien-hay-lop-hay-noi-bao-hanh-chinh-hang",
    "notes": "source=topic-v2 topicId=T002006",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.271Z",
-   "updatedAt": "2026-10-18T03:33:11.271Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 3102
   },
   {
    "id": "S01841",
@@ -26938,11 +26950,13 @@
    "title": "Quay lại lấy xe thì bãi đã đóng cổng hoặc người trông xe đã về: làm gì ngay, hỏi ai và vì sao không tự vào lấy",
    "primaryIntent": "troubleshooting/quay-lai-lay-xe-thi-bai-da-dong-cong-hoac-nguoi-trong-xe-da-ve-lam-gi-ngay-hoi-ai-va-vi-sao-khong-tu-vao-lay",
    "notes": "source=topic-v2 topicId=T002007",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.339Z",
-   "updatedAt": "2026-10-18T03:33:11.339Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 2877
   },
   {
    "id": "S01842",
@@ -26951,11 +26965,13 @@
    "title": "Người trông xe xin chìa khóa hoặc bảo để chìa trên xe cho dễ xếp chỗ: có nên đồng ý, dặn gì và nhận lại xe thế nào",
    "primaryIntent": "informational/nguoi-trong-xe-xin-chia-khoa-hoac-bao-de-chia-tren-xe-cho-de-xep-cho-co-nen-dong-y-dan-gi-va-nhan-lai-xe-the-nao",
    "notes": "source=topic-v2 topicId=T002008",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.394Z",
-   "updatedAt": "2026-10-18T03:33:11.394Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 2999
   },
   {
    "id": "S01843",
@@ -26964,11 +26980,13 @@
    "title": "Ở lại tiệm chờ thợ làm xe: đứng đâu cho an toàn, nhìn gì, hỏi lúc nào và đừng làm gì cạnh xe đang sửa",
    "primaryIntent": "informational/o-lai-tiem-cho-tho-lam-xe-dung-dau-cho-an-toan-nhin-gi-hoi-luc-nao-va-dung-lam-gi-canh-xe-dang-sua",
    "notes": "source=topic-v2 topicId=T002009",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.447Z",
-   "updatedAt": "2026-10-18T03:33:11.447Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 2908
   },
   {
    "id": "S01844",
@@ -26977,11 +26995,13 @@
    "title": "Xe không nổ hoặc chết máy ngay tại trụ bơm xăng: đưa xe ra khỏi chỗ đổ, báo nhân viên và không đề liên tục",
    "primaryIntent": "troubleshooting/xe-khong-no-hoac-chet-may-ngay-tai-tru-bom-xang-dua-xe-ra-khoi-cho-do-bao-nhan-vien-va-khong-de-lien-tuc",
    "notes": "source=topic-v2 topicId=T002010",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:33:11.499Z",
-   "updatedAt": "2026-10-18T03:33:11.499Z"
+   "updatedAt": "2026-10-18T03:40:15.351Z",
+   "seoScore": 100,
+   "words": 2965
   }
  ]
 }

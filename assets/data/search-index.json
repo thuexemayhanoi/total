@@ -16340,6 +16340,39 @@
  },
  {
   "kind": "article",
+  "url": "map/diem-sua-xe/chon-loai-diem-sua-theo-viec-tiem-gan-nha-tiem-chuyen-dien-hay-lop-hay-noi-bao-hanh-chinh-hang/",
+  "title": "Chọn loại điểm sửa theo việc: tiệm gần nhà, tiệm chuyên điện hay lốp, hay nơi bảo hành chính hãng",
+  "description": "Nên sửa xe ở đâu theo từng việc: tiệm gần nhà, tiệm chuyên điện hay lốp, nơi bảo hành chính hãng. Hỏi gì khi gọi trước, khi được giới thiệu sang nơi khác.",
+  "category": "Bản đồ",
+  "hub": "Điểm sửa xe",
+  "entities": [
+   "tiệm sửa xe gần nhà",
+   "tiệm chuyên điện xe máy",
+   "điểm vá lốp ven đường",
+   "nơi bảo hành chính hãng",
+   "sổ bảo hành",
+   "sổ ghi các nơi đã dùng"
+  ],
+  "keywords": [
+   "nên sửa xe ở đâu",
+   "tiệm chuyên điện xe máy",
+   "sửa xe ở tiệm gần nhà hay chính hãng",
+   "chọn nơi sửa theo loại lỗi",
+   "nên mang xe đi sửa ở loại nơi nào"
+  ],
+  "seoTitle": "Nên sửa xe ở đâu: tiệm gần nhà, tiệm chuyên hay nơi chính hãng",
+  "primaryKeyword": "nên sửa xe ở đâu",
+  "headings": [
+   "Các loại điểm sửa thường gặp và thế mạnh chung của mỗi loại",
+   "Ghép việc cần làm với loại nơi phù hợp",
+   "Xe còn bảo hành thì hỏi gì trước khi sửa ở nơi khác",
+   "Gọi trước để hỏi những gì",
+   "Khi một nơi giới thiệu bạn sang nơi khác và cuốn sổ nhỏ ghi lại các nơi đã dùng"
+  ],
+  "summary": "Bài giúp người đi xe máy ghép đúng việc với đúng loại nơi sửa thay vì chạy lung tung. Nội dung mô tả thế mạnh chung của tiệm gần nhà, tiệm hay thợ chuyên một mảng, nơi bảo hành chính hãng và điểm vá lốp ven đường, rồi gắn từng loại với việc thường gặp như bảo "
+ },
+ {
+  "kind": "article",
   "url": "garage/bao-duong-dinh-ky/chon-luc-dua-xe-may-vao-tiem-va-luc-nhan-xe-ra-dua-som-tranh-sat-gio-dong-cua-de-con-quay-lai-neu-co-gi-la/",
   "title": "Chọn lúc đưa xe máy vào tiệm và lúc nhận xe ra: đưa sớm, tránh sát giờ đóng cửa để còn quay lại nếu có gì lạ",
   "description": "Nên đưa xe đi bảo dưỡng lúc nào và nhận xe lúc nào? Cách chọn thời điểm, tránh sát giờ đóng cửa hay sát kỳ nghỉ, và cách bù khi buộc phải nhận xe muộn.",
@@ -21593,6 +21626,38 @@
    "Chăm sóc đĩa phanh nói chung cho cả hai loại"
   ],
   "summary": "Bài giải thích đĩa phanh liền là một tấm thép bắt thẳng vào moay-ơ, còn đĩa phanh nổi tách vành ma sát khỏi phần lõi gắn moay-ơ và nối hai phần bằng các chốt nổi. Nội dung chỉ ra vì sao kết cấu này cho vành đĩa xê dịch nhẹ, giãn nở khi nóng mà ít cong vênh và "
+ },
+ {
+  "kind": "article",
+  "url": "garage/truyen-dong/diem-an-con-dich-dan-theo-thang-dung-cho-con-bat-dau-keo-xe-lam-thuoc-do-la-con-va-day-con-dang-mon-hay-gian/",
+  "title": "Điểm ăn côn dịch dần theo tháng: dùng chỗ côn bắt đầu kéo xe làm thước đo lá côn và dây côn đang mòn hay giãn",
+  "description": "Điểm ăn côn đổi chỗ có phải lá côn mòn hay dây côn giãn? Cách ghi mốc bằng lời, đọc dấu hiệu đi kèm, tránh nhầm và biết lúc nào nên đưa xe côn tay ra thợ.",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "entities": [
+   "điểm ăn côn",
+   "lá côn",
+   "dây côn",
+   "tay côn",
+   "ly hợp",
+   "cơ cấu chỉnh côn"
+  ],
+  "keywords": [
+   "điểm ăn côn thay đổi",
+   "côn ăn sớm hay ăn muộn",
+   "theo dõi độ mòn lá côn",
+   "dây côn giãn tay côn khác trước"
+  ],
+  "seoTitle": "Điểm ăn côn dịch dần: ghi mốc để biết lá côn mòn hay dây côn giãn",
+  "primaryKeyword": "điểm ăn côn thay đổi",
+  "headings": [
+   "Điểm ăn côn là gì và vì sao nó dịch dần theo thời gian",
+   "Tự ghi lại điểm ăn côn như một mốc",
+   "Những dấu hiệu đi kèm cho biết điều gì",
+   "Những điều dễ làm bạn nhầm",
+   "Khi nào đi thợ, kể những gì và thử ở đâu cho an toàn"
+  ],
+  "summary": "Bài dành riêng cho xe có tay côn, giải thích điểm ăn côn là chỗ trên hành trình tay côn mà ly hợp bắt đầu kéo xe, và vì sao chỗ ấy dịch dần do dây côn giãn, lá côn mòn, cơ cấu chỉnh hoặc nhớt. Nội dung hướng dẫn tự ghi lại điểm ăn như một mốc bằng lời, cách th"
  },
  {
   "kind": "article",
@@ -31988,6 +32053,38 @@
  },
  {
   "kind": "article",
+  "url": "review/review-phu-tung/mua-san-phu-tung-de-danh-thay-sau-cat-the-nao-de-cao-su-ac-quy-day-va-ma-phanh-khong-hong-tren-ke/",
+  "title": "Mua sẵn phụ tùng để dành thay sau: cất thế nào để cao su, ắc quy, dây và má phanh không hỏng ngay trên kệ",
+  "description": "Phụ tùng mua để dành vẫn già đi khi chưa dùng. Cách đọc ngày sản xuất, cất cao su, ắc quy, dây, má phanh cho đúng và món nào nên mua gần lúc thay.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá phụ tùng",
+  "entities": [
+   "phụ tùng dự phòng",
+   "ngày sản xuất",
+   "mã lô",
+   "ắc quy",
+   "má phanh",
+   "đồ cao su"
+  ],
+  "keywords": [
+   "cất giữ phụ tùng xe máy mua sẵn",
+   "bảo quản phụ tùng dự phòng",
+   "phụ tùng để lâu có hỏng không",
+   "có nên mua sẵn phụ tùng xe máy"
+  ],
+  "seoTitle": "Cất phụ tùng xe máy mua sẵn: món nào già đi ngay trên kệ",
+  "primaryKeyword": "cất giữ phụ tùng xe máy mua sẵn",
+  "headings": [
+   "Vì sao phụ tùng cũng già đi khi chưa dùng",
+   "Đọc ngày sản xuất trên chính món đồ",
+   "Cất theo nhóm cho đúng",
+   "Món nào nên mua gần lúc dùng",
+   "Kiểm tra gì trước khi lắp, và vì sao không nên tích quá nhiều"
+  ],
+  "summary": "Bài giải thích vì sao phụ tùng mua để dành vẫn xuống cấp khi chưa dùng: cao su chai và nứt, ắc quy tự hao điện, kim loại gỉ khi ẩm, má phanh hỏng nếu dính dầu mỡ. Nội dung hướng dẫn đọc ngày sản xuất in trên chính món đồ, cất theo nhóm ở nơi khô, mát, tối và x"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-mua-xe/mua-xe-cu-xong-moi-thay-loi-ghi-lai-nho-tho-xem-va-noi-chuyen-voi-nguoi-ban-the-nao-cho-em/",
   "title": "Mua xe cũ xong mới thấy lỗi: ghi lại, nhờ thợ xem và nói chuyện với người bán thế nào cho êm",
   "description": "Mua xe cũ xong mới thấy lỗi thì nên làm gì trước? Cách ghi lại, nhờ thợ xem lỗi cũ hay mới, khi nào báo lại người bán và nói chuyện sao cho êm, tránh căng thẳng.",
@@ -32272,6 +32369,39 @@
    "Hao mòn nhỏ, việc sửa và lúc trả xe sau nhiều ngày"
   ],
   "summary": "Bài giải thích vì sao mượn xe máy vài ngày liền khác hẳn mượn một buổi: xe ở với bạn qua đêm, qua mưa nắng và nhiều chặng đường, nên trách nhiệm giữ xe dài hơn. Nội dung đi theo thứ tự thực tế gồm những điều nên thống nhất với chủ xe trước khi nhận, cách chọn "
+ },
+ {
+  "kind": "article",
+  "url": "hub/loai-xe/naked-hanh-trinh-dia-hinh-co-dien-cac-kieu-dang-mo-to-khac-nhau-o-tu-the-ngoi-va-cong-dung-ra-sao/",
+  "title": "Naked, hành trình, địa hình, cổ điển: các kiểu dáng mô tô khác nhau ở tư thế ngồi và công dụng ra sao",
+  "description": "Các kiểu dáng mô tô khác nhau ở tư thế ngồi và công dụng: xe naked là gì, hành trình và địa hình khác nhau thế nào, cổ điển hợp ai, cách tự thử trước khi chọn.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Loại xe",
+  "entities": [
+   "kiểu dáng mô tô",
+   "tư thế ngồi",
+   "xe naked",
+   "xe hành trình",
+   "xe đa dụng",
+   "mô tô cổ điển"
+  ],
+  "keywords": [
+   "các kiểu dáng mô tô",
+   "xe naked là gì",
+   "xe hành trình và xe địa hình khác nhau thế nào",
+   "mô tô kiểu cổ điển",
+   "tư thế ngồi trên mô tô"
+  ],
+  "seoTitle": "Các kiểu dáng mô tô: naked, hành trình, địa hình, cổ điển khác gì nhau",
+  "primaryKeyword": "các kiểu dáng mô tô",
+  "headings": [
+   "Vì sao mô tô được chia theo kiểu dáng",
+   "Từng kiểu dáng khác nhau ở tư thế ngồi và trang bị",
+   "Tư thế ngồi ảnh hưởng gì tới chuyến đi",
+   "Vì sao kiểu dáng không nói hết về chiếc xe",
+   "Tự thử trước khi chọn và những điều cần tra cứu thêm"
+  ],
+  "summary": "Bài giải thích vì sao mô tô được chia thành các kiểu dáng như naked, thể thao, hành trình, địa hình và đa dụng, cổ điển, cùng dòng ngồi ngả chân duỗi ra trước. Mỗi kiểu được mô tả bằng lời qua tư thế ngồi, vị trí tay lái và gác chân, yếm, kính chắn gió và giảm"
  },
  {
   "kind": "article",
@@ -33306,6 +33436,38 @@
  },
  {
   "kind": "article",
+  "url": "map/bai-do-xe/nguoi-trong-xe-xin-chia-khoa-hoac-bao-de-chia-tren-xe-cho-de-xep-cho-co-nen-dong-y-dan-gi-va-nhan-lai-xe-the-nao/",
+  "title": "Người trông xe xin chìa khóa hoặc bảo để chìa trên xe cho dễ xếp chỗ: có nên đồng ý, dặn gì và nhận lại xe thế nào",
+  "description": "Người trông xe xin chìa hoặc bảo để chìa trên xe cho dễ xếp chỗ: vì sao có nơi làm vậy, nên đồng ý hay từ chối, chuẩn bị và dặn gì, nhận lại xe cần nhìn gì.",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "entities": [
+   "người trông xe",
+   "chìa khóa xe",
+   "khóa cổ xe máy",
+   "vé gửi xe",
+   "cốp xe máy",
+   "bãi gửi xe đông"
+  ],
+  "keywords": [
+   "gửi chìa khóa xe cho người trông xe",
+   "bãi xe giữ chìa khóa",
+   "để chìa trên xe khi gửi",
+   "không khóa cổ xe khi gửi"
+  ],
+  "seoTitle": "Người trông xe xin chìa khóa: có nên giao, dặn gì, nhận lại xe ra sao",
+  "primaryKeyword": "gửi chìa khóa xe cho người trông xe",
+  "headings": [
+   "Vì sao có nơi xin giữ chìa và rủi ro chung",
+   "Đồng ý hay từ chối: cân nhắc những gì",
+   "Chuẩn bị trước khi giao chìa và dặn người trông xe những gì",
+   "Nhận lại xe nhìn gì",
+   "Từ chối thế nào cho khỏi căng thẳng"
+  ],
+  "summary": "Bài giải thích vì sao ở chỗ gửi xe đông như quán ăn, tiệc cưới hay sự kiện, người trông xe có thể xin giữ chìa hoặc bảo để chìa trên xe và mở khóa cổ để dắt xe xếp chỗ. Nội dung nêu những rủi ro chung, các điểm nên cân nhắc trước khi đồng ý hay từ chối, việc c"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/nguyen-ly-4-thi/",
   "title": "Nguyên lý 4 thì — những điều cần biết",
   "description": "Giải thích nguyên lý 4 thì trên động cơ xe máy: bốn kỳ nạp nén cháy thải, vai trò xupap và trục cam, và vì sao 4 thì bền hơn 2 thì.",
@@ -34143,6 +34305,38 @@
    "Khi nào cần thợ và cách giữ chìa dự phòng"
   ],
   "summary": "Bài giải thích vì sao chìa khóa xe máy có thể xoay nặng, kẹt hoặc không nhận, và cách tách ba nhóm nguyên nhân thường gặp: chiếc chìa đã mòn hoặc cong, ruột khóa bám bụi hay gỉ, và khóa cổ đang bị ép vì tay lái chịu lực. Nội dung mô tả ổ khóa gồm những phần nà"
+ },
+ {
+  "kind": "article",
+  "url": "map/diem-sua-xe/o-lai-tiem-cho-tho-lam-xe-dung-dau-cho-an-toan-nhin-gi-hoi-luc-nao-va-dung-lam-gi-canh-xe-dang-sua/",
+  "title": "Ở lại tiệm chờ thợ làm xe: đứng đâu cho an toàn, nhìn gì, hỏi lúc nào và đừng làm gì cạnh xe đang sửa",
+  "description": "Chờ thợ sửa xe ở tiệm nên đứng đâu cho an toàn, nhìn gì có ích, hỏi thợ lúc nào, đừng làm gì cạnh xe đang sửa và khi nào nên ra ngoài chờ.",
+  "category": "Bản đồ",
+  "hub": "Điểm sửa xe",
+  "entities": [
+   "tiệm sửa xe",
+   "bánh sau quay",
+   "chân chống giữa",
+   "ống xả nóng",
+   "dung dịch tẩy rửa",
+   "chi tiết cũ"
+  ],
+  "keywords": [
+   "chờ thợ sửa xe ở tiệm",
+   "đứng xem thợ sửa xe",
+   "an toàn khi chờ sửa xe",
+   "hỏi thợ trong lúc sửa"
+  ],
+  "seoTitle": "Chờ thợ sửa xe ở tiệm: đứng đâu an toàn, nhìn gì, hỏi lúc nào",
+  "primaryKeyword": "chờ thợ sửa xe ở tiệm",
+  "headings": [
+   "Những mối nguy thường có trong tiệm sửa xe",
+   "Đứng đâu cho an toàn khi chờ thợ làm",
+   "Nhìn gì thì có ích và hỏi thợ vào lúc nào",
+   "Những việc đừng làm cạnh xe đang sửa",
+   "Khi nào nên ra ngoài chờ"
+  ],
+  "summary": "Bài dành cho chủ xe ngồi chờ ngay tại tiệm trong lúc thợ làm. Nội dung nêu những mối nguy thường gặp quanh xe đang sửa như bánh và xích quay, xe kê chân chống giữa, ống xả nóng, nền trơn, dụng cụ hơi, hóa chất và tia lửa, rồi chỉ ra chỗ đứng hợp lý theo chỉ dẫ"
  },
  {
   "kind": "article",
@@ -35529,6 +35723,38 @@
    "Lần sau cắm sạc thế nào để đỡ gặp lại"
   ],
   "summary": "Bài dành cho người cắm sạc ở chỗ dùng chung rồi đi làm việc khác, lúc quay lại thấy pin thấp hơn dự tính, đầu cắm nằm lệch hoặc bị rút, đèn trụ tắt. Nội dung hướng dẫn nhìn gì trước khi chạm vào dây, chia các lý do có thể thành bốn nhóm mà không quy kết ai, xử"
+ },
+ {
+  "kind": "article",
+  "url": "map/bai-do-xe/quay-lai-lay-xe-thi-bai-da-dong-cong-hoac-nguoi-trong-xe-da-ve-lam-gi-ngay-hoi-ai-va-vi-sao-khong-tu-vao-lay/",
+  "title": "Quay lại lấy xe thì bãi đã đóng cổng hoặc người trông xe đã về: làm gì ngay, hỏi ai và vì sao không tự vào lấy",
+  "description": "Lấy xe muộn mà bãi gửi xe đã đóng cổng hoặc người trông xe đã về? Việc cần làm ngay, vì sao không tự vào lấy, cách về an toàn và kiểm tra xe hôm sau.",
+  "category": "Bản đồ",
+  "hub": "Bãi đỗ xe",
+  "entities": [
+   "bãi gửi xe",
+   "người trông xe",
+   "vé hoặc thẻ gửi xe",
+   "cổng bãi đã khóa",
+   "số liên lạc của bãi",
+   "giờ đóng cổng"
+  ],
+  "keywords": [
+   "bãi gửi xe đóng cửa không lấy được xe",
+   "lấy xe muộn bãi đã đóng",
+   "người trông xe đã về",
+   "gửi xe về muộn"
+  ],
+  "seoTitle": "Bãi gửi xe đã đóng cổng, không lấy được xe: làm gì ngay và hỏi ai",
+  "primaryKeyword": "bãi gửi xe đóng cửa không lấy được xe",
+  "headings": [
+   "Làm gì ngay khi thấy cổng đã khóa",
+   "Vì sao không tự vào lấy xe",
+   "Các hướng xử lý tiếp theo",
+   "Nếu phải để xe lại qua đêm và kiểm tra gì khi lấy lại xe",
+   "Lần sau tránh lặp lại"
+  ],
+  "summary": "Bài hướng dẫn cách xử lý khi bạn về muộn hơn dự tính, tới bãi thì cổng đã khóa hoặc người trông xe đã về mà xe vẫn nằm bên trong. Nội dung gồm việc cần làm ngay như tìm biển liên lạc, giữ vé và hỏi người ở gần, lý do không nên tự vào lấy xe, các hướng xử lý ti"
  },
  {
   "kind": "article",
@@ -46282,6 +46508,37 @@
  },
  {
   "kind": "article",
+  "url": "docs/checklist/tu-soan-danh-sach-kiem-tra-rieng-cho-chuyen-di-quen-thuoc-lay-tu-loi-tung-gap-cat-gon-va-sua-sau-moi-chuyen/",
+  "title": "Tự soạn danh sách kiểm tra riêng cho chuyến đi quen thuộc: lấy từ lỗi từng gặp, cắt gọn và sửa sau mỗi chuyến",
+  "description": "Cách tự soạn danh sách kiểm tra xe máy cho tuyến đi quen: lấy mục từ lỗi từng gặp, cắt gọn, xếp theo vòng quanh xe và sửa sau mỗi chuyến đi.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [
+   "danh sách kiểm tra cá nhân",
+   "tuyến đi quen thuộc",
+   "vòng kiểm tra quanh xe",
+   "sách hướng dẫn sử dụng",
+   "ghi chú sau chuyến đi"
+  ],
+  "keywords": [
+   "tự soạn danh sách kiểm tra xe máy",
+   "danh sách kiểm tra cho chuyến về quê",
+   "soạn danh sách kiểm tra riêng cho xe của mình",
+   "danh sách kiểm tra cho tuyến đi quen"
+  ],
+  "seoTitle": "Tự soạn danh sách kiểm tra xe máy cho chuyến đi quen thuộc",
+  "primaryKeyword": "tự soạn danh sách kiểm tra xe máy",
+  "headings": [
+   "Vì sao danh sách mẫu hay bị bỏ",
+   "Lấy mục từ đâu cho danh sách của riêng bạn",
+   "Cắt cho đủ ngắn để dùng thật",
+   "Xếp theo vòng đi quanh xe, thứ tự chuẩn bị và hình thức dễ dùng",
+   "Thử thật, sửa sau mỗi chuyến và giới hạn của danh sách"
+  ],
+  "summary": "Bài hướng dẫn tự soạn một danh sách kiểm tra ngắn, riêng cho xe và tuyến đi quen của bạn, thay vì dùng bản mẫu quá dài và quá chung. Nội dung giải thích vì sao bản mẫu hay bị bỏ, cách lấy mục từ những lần từng quên, sự cố đã gặp, lời thợ dặn và sách hướng dẫn,"
+ },
+ {
+  "kind": "article",
   "url": "garage/lop/tu-thao-lap-lop-co-sam-bang-cay-nay/",
   "title": "Tự tháo lắp lốp có săm xe máy bằng cây nạy: khi nào nên tự làm, dụng cụ cần có và lỗi làm thủng săm, xước vành",
   "description": "Tự thay săm xe máy bằng cây nạy: khi nào nên tự làm, dụng cụ cần có, cách nạy từng đoạn, lỗi hay làm thủng săm, xước vành và cách kiểm tra trước khi chạy.",
@@ -46737,6 +46994,38 @@
    "Nhận mặt đường ướt nhiều chỗ trơn ngoài vạch"
   ],
   "summary": "Bài viết giải thích vì sao vạch kẻ sơn trắng lại trơn hơn mặt nhựa khi trời mưa: lớp sơn kín, nhẵn và ít kết cấu mài mòn hơn mặt nhựa xốp, cộng lớp nước mỏng tạo màng trượt giữa lốp và sơn. Bài chỉ ra các đoạn vạch hay gặp rủi ro đối với xe máy — vạch trước dò"
+ },
+ {
+  "kind": "article",
+  "url": "garage/bao-duong-dinh-ky/vai-ngay-sau-khi-tho-lam-xong-soi-lai-xe-tai-nha-nhung-dieu-chi-lo-ra-khi-xe-da-qua-dem-va-chay-that/",
+  "title": "Vài ngày sau khi thợ làm xong: soi lại xe tại nhà những điều chỉ lộ ra khi xe đã qua đêm và chạy thật",
+  "description": "Kiểm tra lại xe vài ngày sau bảo dưỡng: sáng hôm sau soi vết nhỏ giọt và mức nhớt, sau vài chuyến đi soi xích, phanh, tiếng lạ, rồi ghi lại để nói với thợ.",
+  "category": "Sửa chữa",
+  "hub": "Bảo dưỡng định kỳ",
+  "entities": [
+   "vết nhỏ giọt dưới gầm",
+   "mức nhớt khi máy nguội",
+   "gioăng và ron mới",
+   "độ chùng xích",
+   "má phanh mới",
+   "ốc mới siết"
+  ],
+  "keywords": [
+   "kiểm tra lại xe vài ngày sau bảo dưỡng",
+   "soi lại xe sau khi sửa",
+   "vết nhỏ giọt sau khi thay nhớt",
+   "ốc lỏng sau khi bảo dưỡng"
+  ],
+  "seoTitle": "Soi lại xe vài ngày sau bảo dưỡng: sáng hôm sau và sau vài chuyến đi",
+  "primaryKeyword": "kiểm tra lại xe vài ngày sau bảo dưỡng",
+  "headings": [
+   "Vì sao có những điều không thấy ngay ở tiệm",
+   "Sáng hôm sau: soi nền chỗ đỗ, quanh chỗ vừa làm và mức nhớt khi máy nguội",
+   "Sau vài chuyến đi soi gì",
+   "Ghi lại cho rõ, rồi phân biệt khi nào quay lại tiệm ngay và khi nào chỉ nhắc ở lần sau",
+   "Nói với thợ thế nào cho sòng phẳng"
+  ],
+  "summary": "Bài giải thích vì sao có những điều chỉ lộ ra sau khi xe đã qua đêm và chạy thật, dù bạn đã kiểm tra kỹ lúc nhận xe: xe vừa lau, nhớt còn nóng, dây và xích mới chỉnh, gioăng mới, ốc mới siết. Nội dung chỉ ra sáng hôm sau nên soi nền chỗ đỗ, quanh chỗ vừa làm v"
  },
  {
   "kind": "article",
@@ -48519,6 +48808,38 @@
    "Khi không thể nhường và khi bị chen thô"
   ],
   "summary": "Bài giải thích vì sao tình huống có xe khác xin vào làn trước mặt hay gây va chạm: người nhập làn chỉ thấy khoảng trống chứ không thấy nhịp xe của bạn, người đi thẳng phản ứng muộn rồi phanh gấp, còn xe phía sau không biết có xe đang nhập. Nội dung nêu cách đọ"
+ },
+ {
+  "kind": "article",
+  "url": "map/cay-xang/xe-khong-no-hoac-chet-may-ngay-tai-tru-bom-xang-dua-xe-ra-khoi-cho-do-bao-nhan-vien-va-khong-de-lien-tuc/",
+  "title": "Xe không nổ hoặc chết máy ngay tại trụ bơm xăng: đưa xe ra khỏi chỗ đổ, báo nhân viên và không đề liên tục",
+  "description": "Vừa đổ xăng xong xe không nổ hoặc chết máy ngay tại trụ bơm? Tắt máy, báo nhân viên, đưa xe ra chỗ trống rồi mới kiểm tra, tuyệt đối không đề liên tục.",
+  "category": "Bản đồ",
+  "hub": "Cây xăng",
+  "entities": [
+   "trụ bơm xăng",
+   "hơi xăng",
+   "nhân viên cây xăng",
+   "ắc quy",
+   "công tắc an toàn",
+   "nắp bình xăng"
+  ],
+  "keywords": [
+   "xe không nổ ở cây xăng",
+   "vừa đổ xăng xe không nổ",
+   "xe chết máy ở trụ bơm",
+   "đẩy xe ra khỏi trụ bơm"
+  ],
+  "seoTitle": "Xe không nổ ở cây xăng: việc cần làm trước và khi nào gọi trợ giúp",
+  "primaryKeyword": "xe không nổ ở cây xăng",
+  "headings": [
+   "Làm gì trước cho an toàn",
+   "Vì sao không đề liên tục ngay tại trụ",
+   "Ra chỗ an toàn rồi xem những gì",
+   "Khi nào phải dừng lại và gọi trợ giúp",
+   "Nhờ ai giúp và nói những gì"
+  ],
+  "summary": "Bài hướng dẫn thứ tự việc nên làm khi xe vừa đổ xăng xong thì không nổ hoặc chết máy ngay cạnh trụ bơm, với người chờ phía sau và mùi xăng quanh xe. Nội dung giải thích vì sao không nên đề liên tục tại chỗ do hơi xăng, ắc quy yếu dần và nguy cơ ngập xăng thêm,"
  },
  {
   "kind": "article",
