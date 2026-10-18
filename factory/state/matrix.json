@@ -27010,11 +27010,13 @@
    "title": "Thợ thay nhiều món trong một buổi rồi xe có cảm giác lạ: truy ngược xem món nào, ghi gì và nhờ thợ kiểm tra ra sao",
    "primaryIntent": "troubleshooting/tho-thay-nhieu-mon-trong-mot-buoi-roi-xe-co-cam-giac-la-truy-nguoc-xem-mon-nao-ghi-gi-va-nho-tho-kiem-tra-ra-sao",
    "notes": "source=topic-v2 topicId=T002011",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.087Z",
-   "updatedAt": "2026-10-18T03:43:57.087Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 2895
   },
   {
    "id": "S01846",
@@ -27023,11 +27025,13 @@
    "title": "Tiệm hẹn lấy xe rồi lùi mãi: hỏi tiến độ thế nào, ghi lại gì và lúc nào nên cân nhắc lấy xe về",
    "primaryIntent": "informational/tiem-hen-lay-xe-roi-lui-mai-hoi-tien-do-the-nao-ghi-lai-gi-va-luc-nao-nen-can-nhac-lay-xe-ve",
    "notes": "source=topic-v2 topicId=T002012",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.283Z",
-   "updatedAt": "2026-10-18T03:43:57.283Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 3112
   },
   {
    "id": "S01847",
@@ -27036,11 +27040,13 @@
    "title": "Xin gửi nhờ xe vài giờ ở quán, tiệm hay nhà quen khi chỗ đến không có bãi: nói thế nào, để ở đâu và ai giữ chìa",
    "primaryIntent": "informational/xin-gui-nho-xe-vai-gio-o-quan-tiem-hay-nha-quen-khi-cho-den-khong-co-bai-noi-the-nao-de-o-dau-va-ai-giu-chia",
    "notes": "source=topic-v2 topicId=T002013",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.344Z",
-   "updatedAt": "2026-10-18T03:43:57.344Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 2843
   },
   {
    "id": "S01848",
@@ -27049,11 +27055,13 @@
    "title": "Thợ quen vắng nên người khác làm xe bạn hoặc tiệm gửi chi tiết sang xưởng khác: hỏi ai làm và ai chịu trách nhiệm",
    "primaryIntent": "informational/tho-quen-vang-nen-nguoi-khac-lam-xe-ban-hoac-tiem-gui-chi-tiet-sang-xuong-khac-hoi-ai-lam-va-ai-chiu-trach-nhiem",
    "notes": "source=topic-v2 topicId=T002014",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.403Z",
-   "updatedAt": "2026-10-18T03:43:57.403Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 3024
   },
   {
    "id": "S01849",
@@ -27062,11 +27070,13 @@
    "title": "Phụ tùng thay rồi lại hỏng: ghi khoảng cách giữa các lần hỏng và tìm nguyên nhân phía trên thay vì thay tiếp",
    "primaryIntent": "troubleshooting/phu-tung-thay-roi-lai-hong-ghi-khoang-cach-giua-cac-lan-hong-va-tim-nguyen-nhan-phia-tren-thay-vi-thay-tiep",
    "notes": "source=topic-v2 topicId=T002015",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.465Z",
-   "updatedAt": "2026-10-18T03:43:57.465Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 2830
   },
   {
    "id": "S01850",
@@ -27075,11 +27085,13 @@
    "title": "Giữ ngõ nhỏ thông thoáng cho xe cấp cứu và cứu hỏa: xe máy, cọc, xích, chậu cây trước cửa có làm khó người cần giúp",
    "primaryIntent": "informational/giu-ngo-nho-thong-thoang-cho-xe-cap-cuu-va-cuu-hoa-xe-may-coc-xich-chau-cay-truoc-cua-co-lam-kho-nguoi-can-giup",
    "notes": "source=topic-v2 topicId=T002016",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.521Z",
-   "updatedAt": "2026-10-18T03:43:57.521Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 91,
+   "words": 3005
   },
   {
    "id": "S01851",
@@ -27088,11 +27100,13 @@
    "title": "Rửa xe máy trước nhà hay ở sân chung: nước bẩn và bọt chảy ra lối đi, làm sao cho gọn, không phiền người khác",
    "primaryIntent": "informational/rua-xe-may-truoc-nha-hay-o-san-chung-nuoc-ban-va-bot-chay-ra-loi-di-lam-sao-cho-gon-khong-phien-nguoi-khac",
    "notes": "source=topic-v2 topicId=T002017",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.574Z",
-   "updatedAt": "2026-10-18T03:43:57.575Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 2821
   },
   {
    "id": "S01852",
@@ -27101,11 +27115,13 @@
    "title": "Xe tay ga vừa thay dây curoa hoặc bố nồi: những ngày đầu dấu hiệu nào bình thường, dấu hiệu nào là lắp chưa đúng",
    "primaryIntent": "troubleshooting/xe-tay-ga-vua-thay-day-curoa-hoac-bo-noi-nhung-ngay-dau-dau-hieu-nao-binh-thuong-dau-hieu-nao-la-lap-chua-dung",
    "notes": "source=topic-v2 topicId=T002018",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.626Z",
-   "updatedAt": "2026-10-18T03:43:57.626Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 2924
   },
   {
    "id": "S01853",
@@ -27114,11 +27130,13 @@
    "title": "Bộ dụng cụ theo xe máy: mở ra xem còn đủ không, mỗi món dùng được việc gì và đâu là ranh giới giao cho thợ",
    "primaryIntent": "informational/bo-dung-cu-theo-xe-may-mo-ra-xem-con-du-khong-moi-mon-dung-duoc-viec-gi-va-dau-la-ranh-gioi-giao-cho-tho",
    "notes": "source=topic-v2 topicId=T002019",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.677Z",
-   "updatedAt": "2026-10-18T03:43:57.677Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 100,
+   "words": 2928
   },
   {
    "id": "S01854",
@@ -27127,11 +27145,13 @@
    "title": "Xe vẫn chạy tốt nên giữ tiếp hay đổi: đặt chi phí nuôi xe tăng dần cạnh phần mất giá đang chậm lại",
    "primaryIntent": "informational/xe-van-chay-tot-nen-giu-tiep-hay-doi-dat-chi-phi-nuoi-xe-tang-dan-canh-phan-mat-gia-dang-cham-lai",
    "notes": "source=topic-v2 topicId=T002020",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:43:57.733Z",
-   "updatedAt": "2026-10-18T03:43:57.733Z"
+   "updatedAt": "2026-10-18T07:35:52.726Z",
+   "seoScore": 91,
+   "words": 2868
   }
  ]
 }
