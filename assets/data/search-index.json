@@ -16241,6 +16241,38 @@
  },
  {
   "kind": "article",
+  "url": "map/tram-sac/cho-xe-dien-sac-doc-duong-nhin-vach-pin-nhich-len-theo-tung-lan-xem-de-uoc-luong-va-quyet-dinh-rut-hay-cho/",
+  "title": "Chờ xe điện sạc dọc đường: nhìn vạch pin nhích lên theo từng lần xem để ước lượng và quyết định rút hay chờ",
+  "description": "Chờ sạc xe điện dọc đường nên ngồi chờ đầy hay rút sớm? Cách ước lượng lúc nào sạc đủ bằng vạch pin, chọn mức đủ cho chặng tới và rút sạc gọn gàng.",
+  "category": "Bản đồ",
+  "hub": "Trạm sạc",
+  "entities": [
+   "trụ sạc",
+   "vạch pin",
+   "cổng sạc",
+   "đầu cắm sạc",
+   "hệ thống quản lý pin",
+   "mức pin"
+  ],
+  "keywords": [
+   "chờ sạc xe điện dọc đường",
+   "sạc dọc đường có nên chờ đầy không",
+   "ước lượng lúc nào sạc đủ",
+   "nên rút sạc hay chờ thêm khi đi đường"
+  ],
+  "seoTitle": "Chờ sạc xe điện dọc đường: ước lượng bằng vạch pin, rút hay chờ",
+  "primaryKeyword": "chờ sạc xe điện dọc đường",
+  "headings": [
+   "Vì sao khó đoán lúc nào sạc đủ",
+   "Tự ước lượng bằng cách nhìn vạch pin theo từng lần xem",
+   "Xác định mức đủ cho chặng tiếp theo",
+   "Quyết định rút hay chờ",
+   "Làm gì trong lúc chờ và rút sạc gọn gàng khi xong"
+  ],
+  "summary": "Bài giải thích vì sao khó đoán lúc nào xe điện sạc đủ khi ghé sạc dọc đường: mỗi trụ, mỗi bộ sạc và mỗi xe một khác, pin gần đầy thường nạp chậm lại và vạch pin chỉ là ước lượng có thể nhảy. Nội dung hướng dẫn tự ước lượng bằng cách ghi mức pin lúc cắm rồi xem"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/chon-ao-mua-di-xe-may-ao-choang-canh-doi-hay-bo-hai-manh-mu-trum-vat-ao-va-phan-che-chan/",
   "title": "Chọn áo mưa đi xe máy: áo choàng cánh dơi hay bộ hai mảnh, mũ trùm, vạt áo và phần che chân",
   "description": "Chọn áo mưa đi xe máy theo cách đi: áo choàng cánh dơi hợp lúc nào, bộ hai mảnh hợp lúc nào, cách xem mũ trùm, vạt áo, màu áo, che chân và giày.",
@@ -28116,6 +28148,38 @@
  },
  {
   "kind": "article",
+  "url": "map/tram-sac/khu-sac-chung-nhay-cau-dao-hoac-mat-dien-khi-nhieu-xe-cung-cam-nhin-gi-rut-bot-ra-sao-va-bao-cho-ai/",
+  "title": "Khu sạc chung nhảy cầu dao hoặc mất điện khi nhiều xe cùng cắm: nhìn gì, rút bớt ra sao và báo cho ai",
+  "description": "Khu sạc chung nhảy cầu dao hoặc mất điện lúc đông xe cắm: cách phân biệt với bảo vệ trên xe, dấu hiệu phải tránh xa, việc làm với xe mình và báo cho ai.",
+  "category": "Bản đồ",
+  "hub": "Trạm sạc",
+  "entities": [
+   "cầu dao của khu",
+   "khu sạc chung",
+   "bộ sạc xe điện",
+   "ổ cắm và phích sạc",
+   "ban quản lý tòa nhà",
+   "thợ điện có chuyên môn"
+  ],
+  "keywords": [
+   "khu sạc chung nhảy cầu dao",
+   "nhiều xe điện cùng sạc bị mất điện",
+   "cầu dao khu để xe nhảy khi sạc",
+   "sạc xe điện ở tòa nhà bị ngắt điện"
+  ],
+  "seoTitle": "Khu sạc chung nhảy cầu dao: nhìn gì, rút xe ra sao, báo cho ai",
+  "primaryKeyword": "khu sạc chung nhảy cầu dao",
+  "headings": [
+   "Cầu dao của khu khác cầu dao trên xe ra sao",
+   "Dấu hiệu nguy hiểm phải tránh xa",
+   "Vì sao không tự đóng cầu dao nhiều lần",
+   "Làm gì với xe của mình",
+   "Báo cho ai, kể những gì và cùng sắp xếp lâu dài"
+  ],
+  "summary": "Bài giải thích vì sao cầu dao của khu để xe nhảy hoặc cả khu mất điện lúc nhiều xe điện cùng sạc, và cách phân biệt với lớp bảo vệ nằm trên xe và bộ sạc. Nội dung nêu các dấu hiệu nguy hiểm cần tránh xa, lý do không tự đóng cầu dao nhiều lần hay dồn xe vào ổ n"
+ },
+ {
+  "kind": "article",
   "url": "local/quan-huyen/khu-vuc-dong-xe/",
   "title": "Kinh nghiệm khu vực đông xe dành cho người mới",
   "description": "Kinh nghiệm cho người mới khi đi xe máy ở khu vực đông xe: cách giữ khoảng cách, đọc dòng xe, qua nút giao, xử lý tắc đường và giữ bình tĩnh vào giờ cao điểm.",
@@ -34889,6 +34953,38 @@
  },
  {
   "kind": "article",
+  "url": "market/gia-phu-tung/phu-tung-xe-may-phai-dat-hang-cho-ve-hoi-gi-ve-thoi-gian-cho-tien-coc-viec-huy-va-di-lai-ra-sao-trong-luc-cho/",
+  "title": "Phụ tùng xe máy phải đặt hàng chờ về: hỏi gì về thời gian chờ, tiền cọc, việc hủy và đi lại ra sao trong lúc chờ",
+  "description": "Thợ báo phụ tùng xe máy phải đặt hàng chờ về? Nên hỏi gì về thời gian chờ, tiền cọc, việc hủy, xe có đi tạm được không và kiểm tra gì khi hàng về.",
+  "category": "Thị trường",
+  "hub": "Giá phụ tùng",
+  "entities": [
+   "phụ tùng đặt hàng",
+   "tiền cọc",
+   "tin nhắn xác nhận",
+   "chi tiết cũ",
+   "bảo hành phần thay",
+   "nơi cung cấp phụ tùng"
+  ],
+  "keywords": [
+   "phụ tùng xe máy phải đặt hàng",
+   "chờ phụ tùng về để sửa xe",
+   "đặt cọc phụ tùng xe máy",
+   "xe chờ phụ tùng có đi được không"
+  ],
+  "seoTitle": "Phụ tùng xe máy phải đặt hàng: hỏi gì về thời gian chờ và tiền cọc",
+  "primaryKeyword": "phụ tùng xe máy phải đặt hàng",
+  "headings": [
+   "Vì sao có phụ tùng phải đặt mới có",
+   "Hỏi gì khi thợ báo phải đặt hàng",
+   "Đặt ở tiệm hay tự tìm nơi khác",
+   "Trong lúc chờ, xe có đi tạm được không và đi lại ra sao",
+   "Khi hàng về: kiểm tra gì trước khi lắp"
+  ],
+  "summary": "Bài giải thích vì sao một số phụ tùng xe máy tiệm không trữ sẵn mà phải đặt rồi chờ hàng về, và người đi xe nên hỏi gì khi thợ báo như vậy: đặt chi tiết nào, loại nào, ước chừng bao lâu, ai báo khi hàng về, có cọc không, hủy được không, hàng sai thì sao. Bài c"
+ },
+ {
+  "kind": "article",
   "url": "news/cong-nghe-xe/phun-xang-dien-tu/",
   "title": "Tổng hợp kiến thức: phun xăng điện tử",
   "description": "Phun xăng điện tử EFI thay thế chế hòa khí trên xe máy hiện đại. Tổng hợp kiến thức về nguyên lý, ưu nhược điểm, bảo dưỡng vòi phun và hỏng hóc thường gặp.",
@@ -35177,6 +35273,38 @@
  },
  {
   "kind": "article",
+  "url": "review/review-xe-dien/pin-xe-dien-da-yeu-thay-pin-tiep-hay-doi-xe-nhin-phan-con-lai-cua-chiec-xe-va-nhu-cau-that-truoc-khi-quyet/",
+  "title": "Pin xe điện đã yếu: thay pin tiếp hay đổi xe, nhìn phần còn lại của chiếc xe và nhu cầu thật trước khi quyết",
+  "description": "Pin xe điện yếu nên thay pin hay đổi xe? Loại trừ nguyên nhân khác, xem phần còn lại của chiếc xe, đối chiếu nhu cầu đi lại và biết nên hỏi thợ những gì.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe điện",
+  "entities": [
+   "pin xe điện",
+   "bộ sạc và giắc nối",
+   "cổng sạc",
+   "bộ điều khiển và mô-tơ",
+   "thợ xe điện",
+   "thu gom pin cũ"
+  ],
+  "keywords": [
+   "pin xe điện yếu nên thay pin hay đổi xe",
+   "thay pin xe điện có đáng không",
+   "xe điện cũ pin chai",
+   "cân nhắc đổi xe điện"
+  ],
+  "seoTitle": "Pin xe điện yếu: nên thay pin hay đổi xe, xem gì trước khi quyết",
+  "primaryKeyword": "pin xe điện yếu nên thay pin hay đổi xe",
+  "headings": [
+   "Chắc chắn là pin yếu chứ không phải thứ khác",
+   "Nhìn phần còn lại của chiếc xe",
+   "Đặt quãng đi hiện tại cạnh nhu cầu hằng ngày",
+   "Hỏi nơi bán pin và thợ những gì",
+   "Khi nào nghiêng về thay pin, khi nào nghiêng về đổi xe, và xử lý pin cũ cho an toàn"
+  ],
+  "summary": "Bài hướng dẫn cách cân nhắc khi pin xe điện đi được ngắn dần: trước hết loại trừ những nguyên nhân khác như lốp non, phanh bó, bộ sạc hay giắc nối lỏng, trời lạnh và chở nặng, rồi nhìn phần còn lại của chiếc xe và đặt quãng đi hiện tại cạnh nhu cầu hằng ngày. "
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-xe-dien/pin-xe-may-dien-bao-day-nhung-nhanh-het/",
   "title": "Pin xe máy điện báo đầy nhưng chạy nhanh hết: phân biệt sụt áp, mất cân bằng cell và chai pin",
   "description": "Pin xe máy điện báo đầy nhưng nhanh hết? Cách phân biệt sụt áp, mất cân bằng cell và chai pin qua quan sát, kèm cách ghi lại để trình nơi bảo hành.",
@@ -35369,6 +35497,38 @@
    "Mô tơ quạt hỏng: dấu hiệu nhận biết và hướng xử lý"
   ],
   "summary": "Bài hướng dẫn người dùng xe tay ga làm mát bằng dung dịch cách tìm nguyên nhân khi nghi quạt két nước không quay lúc máy nóng, nhất là khi kẹt xe. Nội dung giải thích vai trò của quạt, cách nghe và nhìn quạt an toàn, rồi đi qua ba nhóm nguyên nhân từ dễ kiểm t"
+ },
+ {
+  "kind": "article",
+  "url": "map/tram-sac/quay-lai-diem-sac-thay-xe-dien-chua-day-day-bi-rut-hoac-tru-da-tat-doan-ly-do-va-xu-ly-ra-sao/",
+  "title": "Quay lại điểm sạc thấy xe điện chưa đầy, dây bị rút hoặc trụ đã tắt: đoán lý do và xử lý ra sao",
+  "description": "Quay lại điểm sạc thấy pin chưa đầy, dây bị rút hoặc trụ đã tắt: nhìn gì trước khi chạm, các nhóm lý do có thể, xử lý tại chỗ và báo cho chủ điểm sạc.",
+  "category": "Bản đồ",
+  "hub": "Trạm sạc",
+  "entities": [
+   "điểm sạc dùng chung",
+   "đầu cắm sạc",
+   "cổng sạc trên xe",
+   "trụ sạc",
+   "cầu dao",
+   "bộ sạc"
+  ],
+  "keywords": [
+   "quay lại điểm sạc xe chưa đầy",
+   "xe điện sạc bị ngắt giữa chừng",
+   "dây sạc bị rút khi đang sạc",
+   "trụ sạc tự tắt khi chưa đầy"
+  ],
+  "seoTitle": "Quay lại điểm sạc thấy xe chưa đầy, dây bị rút: đoán lý do, xử lý",
+  "primaryKeyword": "quay lại điểm sạc xe chưa đầy",
+  "headings": [
+   "Nhìn gì trước khi chạm vào dây",
+   "Những nhóm lý do có thể khiến phiên sạc dừng",
+   "Xử lý ngay tại chỗ, báo cho ai và kể những gì",
+   "Tính lại chặng đi với lượng pin đang có",
+   "Lần sau cắm sạc thế nào để đỡ gặp lại"
+  ],
+  "summary": "Bài dành cho người cắm sạc ở chỗ dùng chung rồi đi làm việc khác, lúc quay lại thấy pin thấp hơn dự tính, đầu cắm nằm lệch hoặc bị rút, đèn trụ tắt. Nội dung hướng dẫn nhìn gì trước khi chạm vào dây, chia các lý do có thể thành bốn nhóm mà không quy kết ai, xử"
  },
  {
   "kind": "article",
@@ -36306,6 +36466,38 @@
  },
  {
   "kind": "article",
+  "url": "market/khau-hao/sap-vang-nha-nhieu-thang-giu-xe-may-nho-nguoi-dung-ho-hay-ban-can-chi-phi-giu-mat-gia-va-rui-ro-hu-hao/",
+  "title": "Sắp vắng nhà nhiều tháng: giữ xe máy, nhờ người dùng hộ hay bán, cân chi phí giữ, mất giá và rủi ro hư hao",
+  "description": "Đi xa nhiều tháng nên giữ, nhờ người dùng hộ hay bán xe máy? Cân chi phí giữ, mất giá và hư hao, kèm câu hỏi giúp quyết định và điều cần thỏa thuận trước.",
+  "category": "Thị trường",
+  "hub": "Khấu hao",
+  "entities": [
+   "xe máy nằm yên",
+   "mất giá theo thời gian",
+   "hư hao khi để lâu",
+   "nhờ người dùng hộ xe",
+   "thỏa thuận dùng xe",
+   "ghi tình trạng xe"
+  ],
+  "keywords": [
+   "đi xa lâu nên giữ hay bán xe máy",
+   "đi công tác lâu để xe ở nhà",
+   "nhờ người dùng hộ xe máy",
+   "bán xe trước khi đi xa"
+  ],
+  "seoTitle": "Vắng nhà nhiều tháng: giữ xe máy, nhờ người dùng hộ hay bán?",
+  "primaryKeyword": "đi xa lâu nên giữ hay bán xe máy",
+  "headings": [
+   "Xe nằm yên vẫn tốn và vẫn mất giá theo thời gian",
+   "Ba hướng và điều mỗi hướng đổi lại",
+   "Những câu hỏi giúp quyết định",
+   "Nếu nhờ người dùng hộ thì thỏa thuận gì",
+   "Chuẩn bị trước khi đi cho hướng đã chọn"
+  ],
+  "summary": "Bài giúp chủ xe sắp đi học, đi làm xa hay vắng nhà nhiều tháng chọn giữa ba hướng: cất xe, nhờ người dùng hộ hoặc bán. Nội dung giải thích vì sao xe nằm yên vẫn tốn các khoản định kỳ, vẫn mất giá và vẫn hư hao, rồi chỉ ra điều mỗi hướng đổi lại. Bài đưa ra năm"
+ },
+ {
+  "kind": "article",
   "url": "hub/nhu-cau-su-dung/sau-kham-co-gay-me-an-than-hoac-nho-thuoc-gian-dong-tu-khong-tu-lai-xe-may-ve/",
   "title": "Đi khám có gây mê, an thần, gây tê hay nhỏ thuốc giãn đồng tử: vì sao không nên tự lái xe máy về và nên sắp xếp thế nào",
   "description": "Sau khi nhỏ thuốc giãn đồng tử, gây mê, an thần hay gây tê, vì sao không nên tự lái xe máy về? Cách hỏi trước khi đặt lịch, nhờ đưa đón và khi nào lái lại.",
@@ -36527,6 +36719,38 @@
    "Khi nào nên tìm người có chuyên môn hỗ trợ"
   ],
   "summary": "Bài giải thích vì sao sợ hãi sau một lần ngã hay va chạm là phản ứng thường gặp chứ không phải yếu đuối, kèm những biểu hiện hay gặp như gồng cứng tay, giật mình, né đường cũ và khó ngủ. Nội dung nêu điều kiện trước khi lái lại về cơ thể, chiếc xe và trang bị,"
+ },
+ {
+  "kind": "article",
+  "url": "review/so-sanh-xe/so-sanh-hai-chiec-xe-may-mai-khong-chot-duoc-khi-nao-thong-tin-da-du-dat-han-the-nao-va-chon-muc-du-tot/",
+  "title": "So sánh hai chiếc xe máy mãi không chốt được: khi nào thông tin đã đủ, đặt hạn thế nào và chọn mức đủ tốt",
+  "description": "Phân vân giữa hai xe máy mãi không chốt? Cách nhận biết lúc thông tin đã đủ, đặt hạn cho chính mình, chọn mức đủ tốt và xử lý khi vẫn còn kẹt.",
+  "category": "Đánh giá",
+  "hub": "So sánh xe",
+  "entities": [
+   "phân vân giữa hai xe máy",
+   "ghi chép so sánh",
+   "ngày quyết định",
+   "điều bắt buộc",
+   "mức đủ tốt",
+   "ý kiến trái chiều"
+  ],
+  "keywords": [
+   "phân vân giữa hai xe máy",
+   "không biết chọn xe nào",
+   "so sánh hai xe máy quá lâu",
+   "cách chốt khi phân vân mua xe"
+  ],
+  "seoTitle": "Phân vân giữa hai xe máy: khi nào đủ thông tin để chốt",
+  "primaryKeyword": "phân vân giữa hai xe máy",
+  "headings": [
+   "Vì sao so sánh mãi mà không chốt được",
+   "Dấu hiệu cho thấy thông tin đã đủ",
+   "Đặt hạn cho chính mình",
+   "Chọn mức đủ tốt thay vì chiếc tốt nhất",
+   "Nếu vẫn kẹt thì làm gì, và việc nên làm sau khi chốt"
+  ],
+  "summary": "Bài giải thích vì sao việc so sánh hai chiếc xe máy có thể kéo dài mãi dù bạn đã đọc, xem, hỏi và lái thử: hai xe vốn khá ngang nhau ở điều bạn cần, thêm nguồn chỉ thêm ý kiến, còn nỗi sợ chọn sai khiến bạn trì hoãn. Nội dung nêu các dấu hiệu cho thấy thông ti"
  },
  {
   "kind": "article",
@@ -37962,6 +38186,38 @@
    "Những việc thật sự giúp giảm hao xăng"
   ],
   "summary": "Bài giải thích bốn nhóm thiết bị gắn thêm thường được quảng cáo là tiết kiệm xăng hay tăng sức máy cho xe máy, gồm nam châm hoặc kẹp ngoài ống xăng, vật gắn trong đường nạp, hộp điện nối vào ắc quy hoặc giắc cảm biến và lọc gió kiểu khác, cùng chỗ mỗi nhóm can"
+ },
+ {
+  "kind": "article",
+  "url": "market/chi-phi-su-dung/tho-chi-xem-xe-ma-chua-sua-co-tinh-cong-kiem-tra-khong-va-hoi-truoc-the-nao-de-khoi-bat-ngo-khi-tra-tien/",
+  "title": "Thợ chỉ xem xe mà chưa sửa: có tính công kiểm tra không và hỏi trước thế nào để khỏi bất ngờ khi trả tiền",
+  "description": "Thợ chỉ xem xe mà chưa sửa có tính công kiểm tra không? Cách hỏi trước, hiểu lời thợ, trả công sòng phẳng và kiểm tra xe trước khi về để khỏi bất ngờ.",
+  "category": "Thị trường",
+  "hub": "Chi phí sử dụng",
+  "entities": [
+   "công kiểm tra xe",
+   "dò lỗi điện",
+   "chạy thử xe",
+   "báo trước khi tháo",
+   "nhận xe sau khi sửa",
+   "tiệm sửa xe máy"
+  ],
+  "keywords": [
+   "công kiểm tra xe máy khi chưa sửa",
+   "nhờ thợ xem xe có mất tiền không",
+   "công dò lỗi xe máy",
+   "hỏi trước khi thợ kiểm tra xe"
+  ],
+  "seoTitle": "Thợ xem xe mà chưa sửa: có tính công không, hỏi trước thế nào",
+  "primaryKeyword": "công kiểm tra xe máy khi chưa sửa",
+  "headings": [
+   "Vì sao việc xem xe có thể tốn công",
+   "Hỏi trước khi thợ bắt tay vào xem",
+   "Hiểu lời thợ nói sau khi xem",
+   "Khi nào nên trả công dù chưa sửa",
+   "Khi nào nên hỏi lại, kiểm tra xe trước khi về và giữ quan hệ tốt với tiệm"
+  ],
+  "summary": "Bài dành cho người mang xe đến chỉ để thợ xem nguyên nhân rồi chưa sửa, và băn khoăn có phải trả công kiểm tra không. Nội dung giải thích vì sao việc xem xe có thể tốn công qua tháo lắp, dò lỗi điện và chạy thử, các câu nên hỏi trước khi thợ bắt tay vào làm, c"
  },
  {
   "kind": "article",
@@ -45798,6 +46054,38 @@
  },
  {
   "kind": "article",
+  "url": "review/review-xe-dien/truoc-khi-mua-xe-dien-soi-lai-cho-sac-cua-chinh-ban-o-cam-cho-do-loi-di-va-nguoi-o-cung-nha/",
+  "title": "Trước khi mua xe điện, soi lại chỗ sạc của chính bạn: ổ cắm, chỗ đỗ, lối đi và người ở cùng nhà",
+  "description": "Kiểm tra chỗ sạc trước khi mua xe điện: ổ cắm có gần chỗ đỗ không, nền có khô ráo không, dây có vắt qua lối đi không, người ở cùng và chủ nhà nghĩ sao.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe điện",
+  "entities": [
+   "ổ cắm điện",
+   "chỗ đỗ xe điện",
+   "pin tháo rời",
+   "bộ sạc xe điện",
+   "trạm sạc công cộng",
+   "thợ điện"
+  ],
+  "keywords": [
+   "kiểm tra chỗ sạc trước khi mua xe điện",
+   "nhà có sạc xe điện được không",
+   "chuẩn bị chỗ sạc xe điện ở nhà",
+   "mua xe điện cần chỗ sạc thế nào"
+  ],
+  "seoTitle": "Mua xe điện cần chỗ sạc thế nào: ổ cắm, chỗ đỗ, lối đi, người ở cùng",
+  "primaryKeyword": "kiểm tra chỗ sạc trước khi mua xe điện",
+  "headings": [
+   "Vì sao chỗ sạc quyết định trải nghiệm xe điện",
+   "Đi một vòng quanh chỗ ở trước khi mua",
+   "Hỏi người ở cùng và chủ nhà hay ban quản lý",
+   "Các phương án khi chỗ ở không thuận",
+   "Biến kết quả thành yêu cầu khi chọn xe và lúc cần thợ điện xem trước"
+  ],
+  "summary": "Bài hướng dẫn cách soi lại chỗ sạc của chính bạn trước khi quyết định mua xe điện. Nội dung giải thích vì sao chỗ sạc ảnh hưởng đến trải nghiệm dùng xe nhiều hơn lời quảng cáo, rồi đi qua việc quan sát ổ cắm, chỗ đỗ, nền khô ráo, mái che và đường dây, việc hỏi"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/truoc-khi-no-may-co-nen-cam-lai-luc-nay-khong-vai-cau-tu-hoi-va-cach-doi-ke-hoach-ma-khong-ay-nay/",
   "title": "Trước khi nổ máy, có nên cầm lái lúc này không: vài câu tự hỏi và cách đổi kế hoạch mà không áy náy",
   "description": "Tự kiểm tra bản thân trước khi lái xe máy bằng vài câu hỏi về sức tỉnh, tâm trạng, sức khỏe, xe và đường; cách đọc kết quả và đổi kế hoạch mà không áy náy.",
@@ -49711,6 +49999,38 @@
    "Giữ chân an toàn và việc làm sau khi xe đã đổ"
   ],
   "summary": "Bài giải thích vì sao xe máy đang ngả càng lúc càng khó giữ: khi nghiêng qua một điểm nào đó, trọng lượng xe kéo xuống mạnh dần còn sức tay thì không tăng theo. Nội dung nêu những lúc xe hay ngả như chống chân hụt, dừng trên dốc, quay đầu chậm, dắt qua bậc hay"
+ },
+ {
+  "kind": "article",
+  "url": "market/chi-phi-su-dung/xe-may-sap-het-bao-hanh-gom-nhung-dieu-chua-on-de-kiem-tra-kip-ghi-bang-chu-va-chuan-bi-cho-giai-doan-sau/",
+  "title": "Xe máy sắp hết bảo hành: gom những điều chưa ổn để kiểm tra kịp, ghi bằng chữ và chuẩn bị cho giai đoạn sau",
+  "description": "Xe máy sắp hết bảo hành nên làm gì? Xem lại sổ, gom lỗi chập chờn trong một lượt rà xe, mang đến nơi bảo hành, ghi bằng chữ và lo trước giai đoạn sau.",
+  "category": "Thị trường",
+  "hub": "Chi phí sử dụng",
+  "entities": [
+   "sổ bảo hành",
+   "mốc hết hạn bảo hành",
+   "lỗi chập chờn",
+   "phiếu ghi tình trạng xe",
+   "nhật ký bảo dưỡng",
+   "hạng mục hao mòn"
+  ],
+  "keywords": [
+   "xe máy sắp hết bảo hành",
+   "làm gì trước khi hết bảo hành",
+   "kiểm tra xe trước khi hết hạn bảo hành",
+   "chi phí sau khi hết bảo hành"
+  ],
+  "seoTitle": "Xe máy sắp hết bảo hành: việc nên làm trước mốc cuối",
+  "primaryKeyword": "xe máy sắp hết bảo hành",
+  "headings": [
+   "Vì sao nên để ý mốc cuối của bảo hành",
+   "Xem lại sổ bảo hành để biết mình còn gì",
+   "Gom những điều chưa ổn trong một lượt rà xe",
+   "Mang xe đến nơi bảo hành và ghi bằng chữ",
+   "Chuẩn bị cho giai đoạn sau bảo hành"
+  ],
+  "summary": "Bài hướng dẫn chủ xe dùng khoảng thời gian cuối của bảo hành có chủ đích. Nội dung giải thích vì sao lỗi lúc có lúc không thường bị để quên, cách xem lại sổ bảo hành để biết mốc kết thúc tính theo thời gian hay quãng đường và những hạng mục được nêu, cách gom "
  },
  {
   "kind": "article",

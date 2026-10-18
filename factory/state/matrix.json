@@ -26710,11 +26710,13 @@
    "title": "Quay lại điểm sạc thấy xe điện chưa đầy, dây bị rút hoặc trụ đã tắt: đoán lý do và xử lý ra sao",
    "primaryIntent": "troubleshooting/quay-lai-diem-sac-thay-xe-dien-chua-day-day-bi-rut-hoac-tru-da-tat-doan-ly-do-va-xu-ly-ra-sao",
    "notes": "source=topic-v2 topicId=T001991",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.183Z",
-   "updatedAt": "2026-10-18T03:02:26.183Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 2980
   },
   {
    "id": "S01826",
@@ -26723,11 +26725,13 @@
    "title": "Pin xe điện đã yếu: thay pin tiếp hay đổi xe, nhìn phần còn lại của chiếc xe và nhu cầu thật trước khi quyết",
    "primaryIntent": "informational/pin-xe-dien-da-yeu-thay-pin-tiep-hay-doi-xe-nhin-phan-con-lai-cua-chiec-xe-va-nhu-cau-that-truoc-khi-quyet",
    "notes": "source=topic-v2 topicId=T001992",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.268Z",
-   "updatedAt": "2026-10-18T03:02:26.268Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 91,
+   "words": 3208
   },
   {
    "id": "S01827",
@@ -26736,11 +26740,13 @@
    "title": "Chờ xe điện sạc dọc đường: nhìn vạch pin nhích lên theo từng lần xem để ước lượng và quyết định rút hay chờ",
    "primaryIntent": "informational/cho-xe-dien-sac-doc-duong-nhin-vach-pin-nhich-len-theo-tung-lan-xem-de-uoc-luong-va-quyet-dinh-rut-hay-cho",
    "notes": "source=topic-v2 topicId=T001993",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.402Z",
-   "updatedAt": "2026-10-18T03:02:26.402Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 3116
   },
   {
    "id": "S01828",
@@ -26749,11 +26755,13 @@
    "title": "Khu sạc chung nhảy cầu dao hoặc mất điện khi nhiều xe cùng cắm: nhìn gì, rút bớt ra sao và báo cho ai",
    "primaryIntent": "troubleshooting/khu-sac-chung-nhay-cau-dao-hoac-mat-dien-khi-nhieu-xe-cung-cam-nhin-gi-rut-bot-ra-sao-va-bao-cho-ai",
    "notes": "source=topic-v2 topicId=T001994",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.452Z",
-   "updatedAt": "2026-10-18T03:02:26.452Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 2921
   },
   {
    "id": "S01829",
@@ -26762,11 +26770,13 @@
    "title": "Trước khi mua xe điện, soi lại chỗ sạc của chính bạn: ổ cắm, chỗ đỗ, lối đi và người ở cùng nhà",
    "primaryIntent": "informational/truoc-khi-mua-xe-dien-soi-lai-cho-sac-cua-chinh-ban-o-cam-cho-do-loi-di-va-nguoi-o-cung-nha",
    "notes": "source=topic-v2 topicId=T001995",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.528Z",
-   "updatedAt": "2026-10-18T03:02:26.528Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 3056
   },
   {
    "id": "S01830",
@@ -26775,11 +26785,13 @@
    "title": "Xe máy sắp hết bảo hành: gom những điều chưa ổn để kiểm tra kịp, ghi bằng chữ và chuẩn bị cho giai đoạn sau",
    "primaryIntent": "informational/xe-may-sap-het-bao-hanh-gom-nhung-dieu-chua-on-de-kiem-tra-kip-ghi-bang-chu-va-chuan-bi-cho-giai-doan-sau",
    "notes": "source=topic-v2 topicId=T001996",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.588Z",
-   "updatedAt": "2026-10-18T03:02:26.588Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 3154
   },
   {
    "id": "S01831",
@@ -26788,11 +26800,13 @@
    "title": "Sắp vắng nhà nhiều tháng: giữ xe máy, nhờ người dùng hộ hay bán, cân chi phí giữ, mất giá và rủi ro hư hao",
    "primaryIntent": "informational/sap-vang-nha-nhieu-thang-giu-xe-may-nho-nguoi-dung-ho-hay-ban-can-chi-phi-giu-mat-gia-va-rui-ro-hu-hao",
    "notes": "source=topic-v2 topicId=T001997",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.638Z",
-   "updatedAt": "2026-10-18T03:02:26.638Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 3029
   },
   {
    "id": "S01832",
@@ -26801,11 +26815,13 @@
    "title": "Thợ chỉ xem xe mà chưa sửa: có tính công kiểm tra không và hỏi trước thế nào để khỏi bất ngờ khi trả tiền",
    "primaryIntent": "informational/tho-chi-xem-xe-ma-chua-sua-co-tinh-cong-kiem-tra-khong-va-hoi-truoc-the-nao-de-khoi-bat-ngo-khi-tra-tien",
    "notes": "source=topic-v2 topicId=T001998",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.689Z",
-   "updatedAt": "2026-10-18T03:02:26.689Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 2945
   },
   {
    "id": "S01833",
@@ -26814,11 +26830,13 @@
    "title": "So sánh hai chiếc xe máy mãi không chốt được: khi nào thông tin đã đủ, đặt hạn thế nào và chọn mức đủ tốt",
    "primaryIntent": "informational/so-sanh-hai-chiec-xe-may-mai-khong-chot-duoc-khi-nao-thong-tin-da-du-dat-han-the-nao-va-chon-muc-du-tot",
    "notes": "source=topic-v2 topicId=T001999",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.740Z",
-   "updatedAt": "2026-10-18T03:02:26.740Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 3156
   },
   {
    "id": "S01834",
@@ -26827,11 +26845,13 @@
    "title": "Phụ tùng xe máy phải đặt hàng chờ về: hỏi gì về thời gian chờ, tiền cọc, việc hủy và đi lại ra sao trong lúc chờ",
    "primaryIntent": "informational/phu-tung-xe-may-phai-dat-hang-cho-ve-hoi-gi-ve-thoi-gian-cho-tien-coc-viec-huy-va-di-lai-ra-sao-trong-luc-cho",
    "notes": "source=topic-v2 topicId=T002000",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T03:02:26.800Z",
-   "updatedAt": "2026-10-18T03:02:26.800Z"
+   "updatedAt": "2026-10-18T03:09:28.816Z",
+   "seoScore": 100,
+   "words": 3058
   }
  ]
 }
