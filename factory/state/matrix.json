@@ -27295,11 +27295,13 @@
    "title": "Lốp, săm, má phanh và chai nhớt cũ sau khi thay: giữ lại bao lâu, cất ra sao và đem bỏ ở đâu cho đúng",
    "primaryIntent": "informational/lop-sam-ma-phanh-va-chai-nhot-cu-sau-khi-thay-giu-lai-bao-lau-cat-ra-sao-va-dem-bo-o-dau-cho-dung",
    "notes": "source=topic-v2 topicId=T002030",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.192Z",
-   "updatedAt": "2026-10-18T08:13:16.192Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 100,
+   "words": 2857
   },
   {
    "id": "S01865",
@@ -27308,11 +27310,13 @@
    "title": "Đĩa phanh có khoét lỗ hoặc xẻ rãnh: để làm gì, khác đĩa trơn ra sao và phân biệt với rãnh do mòn thế nào",
    "primaryIntent": "informational/dia-phanh-co-khoet-lo-hoac-xe-ranh-de-lam-gi-khac-dia-tron-ra-sao-va-phan-biet-voi-ranh-do-mon-the-nao",
    "notes": "source=topic-v2 topicId=T002031",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.266Z",
-   "updatedAt": "2026-10-18T08:13:16.266Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 91,
+   "words": 2930
   },
   {
    "id": "S01866",
@@ -27321,11 +27325,13 @@
    "title": "Chai nhớt, dầu phanh, nước làm mát và mỡ còn dư: cất thế nào, mở nắp rồi dùng lại được không và khi nào nên bỏ",
    "primaryIntent": "informational/chai-nhot-dau-phanh-nuoc-lam-mat-va-mo-con-du-cat-the-nao-mo-nap-roi-dung-lai-duoc-khong-va-khi-nao-nen-bo",
    "notes": "source=topic-v2 topicId=T002032",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.397Z",
-   "updatedAt": "2026-10-18T08:13:16.397Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 100,
+   "words": 3046
   },
   {
    "id": "S01867",
@@ -27334,11 +27340,13 @@
    "title": "Xe máy điện bóp phanh là ngắt ga: công tắc ở tay phanh làm gì và vì sao xe đôi khi không lên ga",
    "primaryIntent": "troubleshooting/xe-may-dien-bop-phanh-la-ngat-ga-cong-tac-o-tay-phanh-lam-gi-va-vi-sao-xe-doi-khi-khong-len-ga",
    "notes": "source=topic-v2 topicId=T002033",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.464Z",
-   "updatedAt": "2026-10-18T08:13:16.464Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 91,
+   "words": 3143
   },
   {
    "id": "S01868",
@@ -27347,11 +27355,13 @@
    "title": "Cắm trại qua đêm khi đi phượt bằng xe máy: chở lều và túi ngủ, chọn chỗ dựng trước khi tối, giữ xe và đồ qua đêm",
    "primaryIntent": "informational/cam-trai-qua-dem-khi-di-phuot-bang-xe-may-cho-leu-va-tui-ngu-chon-cho-dung-truoc-khi-toi-giu-xe-va-do-qua-dem",
    "notes": "source=topic-v2 topicId=T002034",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.554Z",
-   "updatedAt": "2026-10-18T08:13:16.554Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 100,
+   "words": 2993
   },
   {
    "id": "S01869",
@@ -27360,11 +27370,13 @@
    "title": "Nhóm bất đồng giữa chuyến đi xe máy: người muốn quay về, người muốn đi tiếp, ai quyết và tách nhóm thế nào",
    "primaryIntent": "informational/nhom-bat-dong-giua-chuyen-di-xe-may-nguoi-muon-quay-ve-nguoi-muon-di-tiep-ai-quyet-va-tach-nhom-the-nao",
    "notes": "source=topic-v2 topicId=T002035",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.619Z",
-   "updatedAt": "2026-10-18T08:13:16.620Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 100,
+   "words": 3157
   },
   {
    "id": "S01870",
@@ -27373,11 +27385,13 @@
    "title": "Tham gia chuyến đi xe máy của nhóm chưa quen: hỏi gì trước, thử nhịp ở đoạn đầu và quyền rút lui khi không hợp",
    "primaryIntent": "informational/tham-gia-chuyen-di-xe-may-cua-nhom-chua-quen-hoi-gi-truoc-thu-nhip-o-doan-dau-va-quyen-rut-lui-khi-khong-hop",
    "notes": "source=topic-v2 topicId=T002036",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.709Z",
-   "updatedAt": "2026-10-18T08:13:16.709Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 100,
+   "words": 2963
   },
   {
    "id": "S01871",
@@ -27386,11 +27400,13 @@
    "title": "Chèn một ngày nghỉ giữa chuyến đi xe máy nhiều ngày: khi nào cần, làm gì với xe và người, tránh thành ngày chạy phụ",
    "primaryIntent": "informational/chen-mot-ngay-nghi-giua-chuyen-di-xe-may-nhieu-ngay-khi-nao-can-lam-gi-voi-xe-va-nguoi-tranh-thanh-ngay-chay-phu",
    "notes": "source=topic-v2 topicId=T002037",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.767Z",
-   "updatedAt": "2026-10-18T08:13:16.767Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 100,
+   "words": 3014
   },
   {
    "id": "S01872",
@@ -27399,11 +27415,13 @@
    "title": "Đăng ảnh, story và check-in khi đang đi xa bằng xe máy: lộ chỗ nghỉ, nhà vắng, biển xe và nên đăng lúc nào",
    "primaryIntent": "informational/dang-anh-story-va-check-in-khi-dang-di-xa-bang-xe-may-lo-cho-nghi-nha-vang-bien-xe-va-nen-dang-luc-nao",
    "notes": "source=topic-v2 topicId=T002038",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:13:16.821Z",
-   "updatedAt": "2026-10-18T08:13:16.821Z"
+   "updatedAt": "2026-10-18T08:20:03.917Z",
+   "seoScore": 100,
+   "words": 2819
   }
  ]
 }

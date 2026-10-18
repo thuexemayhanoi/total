@@ -13986,6 +13986,38 @@
  },
  {
   "kind": "article",
+  "url": "ride/di-phuot/cam-trai-qua-dem-khi-di-phuot-bang-xe-may-cho-leu-va-tui-ngu-chon-cho-dung-truoc-khi-toi-giu-xe-va-do-qua-dem/",
+  "title": "Cắm trại qua đêm khi đi phượt bằng xe máy: chở lều và túi ngủ, chọn chỗ dựng trước khi tối, giữ xe và đồ qua đêm",
+  "description": "Cắm trại khi đi phượt xe máy: cách chở lều và túi ngủ cho vững, chọn chỗ dựng trước khi tối, giữ xe và đồ qua đêm, và lúc nào nên bỏ ý định để tìm chỗ có mái.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "lều và túi ngủ",
+   "túi chống nước",
+   "chân chống và miếng kê",
+   "khóa cổ và khóa phụ",
+   "nơi cắm trại có người quản lý",
+   "chỗ trú có mái"
+  ],
+  "keywords": [
+   "cắm trại khi đi phượt xe máy",
+   "chở lều trên xe máy",
+   "ngủ lều khi đi phượt",
+   "giữ xe khi cắm trại"
+  ],
+  "seoTitle": "Cắm trại khi đi phượt xe máy: chở lều, chọn chỗ, giữ xe qua đêm",
+  "primaryKeyword": "cắm trại khi đi phượt xe máy",
+  "headings": [
+   "Chở đồ cắm trại thế nào cho vững",
+   "Chọn chỗ dựng trước khi trời tối",
+   "Dựng xe và lều cho an toàn, giữ xe và đồ qua đêm",
+   "Lửa, nấu ăn và báo tin cho người nhà",
+   "Khi nào nên bỏ ý định cắm trại"
+  ],
+  "summary": "Bài hướng dẫn người đi phượt nhiều ngày lần đầu muốn ngủ lều thay vì nhà nghỉ. Nội dung đi từ cách chở lều và túi ngủ cho vững, không che đèn và không vướng bánh, đến việc chọn chỗ dựng khi trời còn sáng, hỏi chủ đất hoặc người địa phương và tránh những vị trí"
+ },
+ {
+  "kind": "article",
   "url": "review/review-phu-tung/camera-hanh-trinh-xe-may-chon-cach-gan-nguon-dien-va-chong-nuoc/",
   "title": "Camera hành trình xe máy: cân nhắc gì trước khi gắn, vị trí đặt, nguồn điện và chống nước bền lâu",
   "description": "Gắn camera hành trình xe máy ở mũ, đầu xe hay đuôi xe? Cách chọn vị trí không che tầm nhìn, nguồn điện không hao ắc quy, chống nước, chống rung và thẻ nhớ.",
@@ -14563,6 +14595,38 @@
    "Khi xe sắp hết xăng nhưng chưa tìm thấy cây xăng"
   ],
   "summary": "Bài viết hướng dẫn người đi xe máy cách tìm cây xăng gần nhất khi đang di chuyển: dùng bản đồ số, nhận biết biển hiệu, hỏi người dân, kiểm tra giờ hoạt động và hình thức thanh toán, cùng những lưu ý an toàn khi đổ xăng và cách xử lý khi xe sắp hết nhiên liệu."
+ },
+ {
+  "kind": "article",
+  "url": "wiki/dau-nhot/chai-nhot-dau-phanh-nuoc-lam-mat-va-mo-con-du-cat-the-nao-mo-nap-roi-dung-lai-duoc-khong-va-khi-nao-nen-bo/",
+  "title": "Chai nhớt, dầu phanh, nước làm mát và mỡ còn dư: cất thế nào, mở nắp rồi dùng lại được không và khi nào nên bỏ",
+  "description": "Chai nhớt, dầu phanh, nước làm mát hay hộp mỡ còn dư: đọc nhãn ra sao, cất thế nào, mở nắp rồi dùng lại được không, dấu hiệu nên bỏ và cách bỏ đúng chỗ.",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "entities": [
+   "chai nhớt còn dư",
+   "dầu phanh đã mở nắp",
+   "nước làm mát",
+   "mỡ bôi trơn",
+   "nhãn trên chai",
+   "thu gom chất thải nguy hại"
+  ],
+  "keywords": [
+   "chai nhớt còn dư cất thế nào",
+   "dầu phanh đã mở nắp dùng lại được không",
+   "cất nước làm mát còn dư",
+   "nhớt để lâu có hỏng không"
+  ],
+  "seoTitle": "Chai nhớt, dầu phanh, nước làm mát còn dư: cất, dùng lại hay bỏ",
+  "primaryKeyword": "chai nhớt còn dư cất thế nào",
+  "headings": [
+   "Vì sao chất lỏng đã mở nắp có thể xuống cấp",
+   "Đọc nhãn trên chai: cần nhìn những gì",
+   "Cất cho đúng: nắp, nhãn, nơi để và những thứ cần tránh",
+   "Loại nào nên thận trọng khi dùng lại",
+   "Dấu hiệu nên bỏ và bỏ ở đâu"
+  ],
+  "summary": "Bài giải thích vì sao chai nhớt, dầu phanh, nước làm mát hay hộp mỡ đã mở nắp có thể xuống cấp dù chưa dùng hết: dầu phanh hút ẩm từ không khí, nhớt và mỡ dễ nhiễm bụi bẩn, cốp xe nóng lạnh liên tục và nhãn mờ dễ gây nhầm chai. Nội dung hướng dẫn đọc nhãn trên"
  },
  {
   "kind": "article",
@@ -15370,6 +15434,38 @@
    "Biên bản và ba tình huống đặc thù: sửa, mua cũ, thuê"
   ],
   "summary": "Kinh nghiệm checklist nhận xe dành cho người mới — nhận xe là khoảnh khắc vui nhất nhưng cũng là khoảnh khắc dễ sai nhất: tâm trạng háo hức khiến người ta ký nhanh, và mọi lỗi xuất xưởng, lỗi sửa dở hoặc lỗi giao nhầm sẽ thành của mình ngay sau khi chữ ký đã đ"
+ },
+ {
+  "kind": "article",
+  "url": "ride/du-lich-xe-may/chen-mot-ngay-nghi-giua-chuyen-di-xe-may-nhieu-ngay-khi-nao-can-lam-gi-voi-xe-va-nguoi-tranh-thanh-ngay-chay-phu/",
+  "title": "Chèn một ngày nghỉ giữa chuyến đi xe máy nhiều ngày: khi nào cần, làm gì với xe và người, tránh thành ngày chạy phụ",
+  "description": "Khi nào nên nghỉ hẳn một ngày giữa chuyến đi xe máy nhiều ngày, dùng ngày đó cho người và xe ra sao, tránh thành ngày chạy phụ và sắp lại các chặng sau.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "ngày nghỉ giữa chuyến",
+   "nợ ngủ",
+   "phản xạ khi lái",
+   "chỗ để xe an toàn",
+   "soi xe bằng mắt",
+   "chặng còn lại"
+  ],
+  "keywords": [
+   "ngày nghỉ giữa chuyến đi xe máy",
+   "nghỉ một ngày khi đi xe máy đường dài",
+   "lịch trình đi xe máy nhiều ngày",
+   "hồi sức giữa chuyến đi xa"
+  ],
+  "seoTitle": "Ngày nghỉ giữa chuyến đi xe máy nhiều ngày: khi nào cần, làm gì",
+  "primaryKeyword": "ngày nghỉ giữa chuyến đi xe máy",
+  "headings": [
+   "Vì sao chuyến nhiều ngày cần một ngày nghỉ hẳn",
+   "Dấu hiệu cho thấy đã đến lúc nghỉ hẳn",
+   "Đưa ngày nghỉ vào lịch từ trước",
+   "Dùng ngày nghỉ cho người và cho xe",
+   "Tránh thành ngày chạy phụ rồi sắp xếp lại chặng còn lại"
+  ],
+  "summary": "Chuyến đi xe máy nhiều ngày làm mệt cộng dồn, phản xạ chậm dần, còn xe thì lỏng và mòn dần mà không ai có dịp nhìn kỹ. Nội dung giải thích vì sao cần một ngày nghỉ hẳn, những dấu hiệu cho thấy đã đến lúc nghỉ như sáng dậy vẫn mệt, cáu gắt, quên đồ hay lỡ rẽ, c"
  },
  {
   "kind": "article",
@@ -18277,6 +18373,38 @@
    "Mang câu trả lời tới thợ như một câu hỏi, còn lỗi dính tới an toàn thì không chờ mạng"
   ],
   "summary": "Bài hướng dẫn dùng nhóm hỏi lỗi trên mạng cho đúng mức: nhóm giúp gợi hướng và cho biết người khác từng gặp gì, nhưng không thay được thợ nhìn xe tận nơi. Nội dung nêu cần ghi gì và quay gì để người đọc hiểu đúng lỗi, che những gì trên giấy tờ, trên xe và quan"
+ },
+ {
+  "kind": "article",
+  "url": "ride/du-lich-xe-may/dang-anh-story-va-check-in-khi-dang-di-xa-bang-xe-may-lo-cho-nghi-nha-vang-bien-xe-va-nen-dang-luc-nao/",
+  "title": "Đăng ảnh, story và check-in khi đang đi xa bằng xe máy: lộ chỗ nghỉ, nhà vắng, biển xe và nên đăng lúc nào",
+  "description": "Đăng ảnh khi đi du lịch xe máy có thể lộ chỗ ngủ, tuyến ngày mai, nhà vắng và biển xe. Nên đăng sau khi rời chỗ, giới hạn người xem và che chi tiết trong ảnh.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "bài đăng thời gian thực",
+   "dữ liệu vị trí trong ảnh",
+   "biển xe",
+   "chia sẻ vị trí riêng",
+   "báo bình an",
+   "quyền riêng tư"
+  ],
+  "keywords": [
+   "đăng ảnh khi đi du lịch xe máy",
+   "check-in khi đi phượt có an toàn không",
+   "đăng story khi đi xa",
+   "lộ thông tin khi đăng ảnh du lịch"
+  ],
+  "seoTitle": "Đăng ảnh khi đi du lịch xe máy: tránh lộ chỗ nghỉ, nhà vắng, biển xe",
+  "primaryKeyword": "đăng ảnh khi đi du lịch xe máy",
+  "headings": [
+   "Một bài đăng có thể để lộ những gì",
+   "Vì sao đăng theo thời gian thực rủi ro hơn đăng sau",
+   "Cách đăng an toàn hơn: đăng sau, giới hạn người xem, che chi tiết",
+   "Chia sẻ vị trí riêng cho người cần biết",
+   "Không dùng điện thoại khi đang lái và tôn trọng người khác trong ảnh"
+  ],
+  "summary": "Bài giải thích vì sao một bài đăng ảnh giữa chuyến đi xe máy có thể để lộ nhiều hơn người đăng nghĩ: vị trí đang ở, chỗ ngủ đêm nay, tuyến ngày mai, tình trạng nhà vắng, biển xe và đồ đạc trên xe. Nội dung so sánh đăng ngay với đăng sau chuyến đi, rồi gợi ý cá"
  },
  {
   "kind": "article",
@@ -21723,6 +21851,38 @@
    "Khi nào nên hẹn lại hoặc nhờ thợ xem trước, và mua rồi thì làm gì trước khi đi hằng ngày"
   ],
   "summary": "Bài dành cho người đi xem xe máy cũ mà người bán nói là ít đi hoặc để trong nhà lâu không chạy. Nội dung giải thích vì sao ít đi chưa chắc đã tốt, những hư hỏng có thể gặp ở xe nằm lâu như lốp, ắc quy, xăng cũ, gioăng, ống cao su, gỉ và dấu vết chuột. Bài gợi "
+ },
+ {
+  "kind": "article",
+  "url": "wiki/he-thong-phanh/dia-phanh-co-khoet-lo-hoac-xe-ranh-de-lam-gi-khac-dia-tron-ra-sao-va-phan-biet-voi-ranh-do-mon-the-nao/",
+  "title": "Đĩa phanh có khoét lỗ hoặc xẻ rãnh: để làm gì, khác đĩa trơn ra sao và phân biệt với rãnh do mòn thế nào",
+  "description": "Đĩa phanh khoét lỗ hoặc xẻ rãnh để làm gì, khác đĩa trơn ra sao, cách phân biệt rãnh thiết kế với rãnh do mòn và những dấu hiệu cần ra thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "entities": [
+   "đĩa phanh khoét lỗ",
+   "đĩa phanh xẻ rãnh",
+   "đĩa phanh trơn",
+   "má phanh",
+   "heo phanh",
+   "rãnh mòn trên đĩa phanh"
+  ],
+  "keywords": [
+   "đĩa phanh khoét lỗ",
+   "đĩa phanh xẻ rãnh để làm gì",
+   "đĩa phanh có lỗ",
+   "rãnh trên đĩa phanh do mòn"
+  ],
+  "seoTitle": "Đĩa phanh khoét lỗ, xẻ rãnh: để làm gì và phân biệt với rãnh mòn",
+  "primaryKeyword": "đĩa phanh khoét lỗ",
+  "headings": [
+   "Lỗ khoét và rãnh xẻ trên đĩa phanh để làm gì",
+   "Khác đĩa trơn ra sao khi đi thường ngày",
+   "Phân biệt rãnh thiết kế với rãnh do mòn",
+   "Chủ xe tự nhìn được gì khi xe đứng yên và đĩa đã nguội",
+   "Có nên đổi sang đĩa kiểu khác không và khi nào cần ra thợ"
+  ],
+  "summary": "Bài giải thích vì sao nhiều đĩa phanh được khoét lỗ hoặc xẻ rãnh: giúp thoát nước, bụi và hơi nóng ở bề mặt, giảm bớt khối lượng và giữ mặt má phanh sạch, tùy thiết kế từng xe. Nội dung so sánh với đĩa trơn khi đi thường ngày, chỉ ra cách tách rãnh thiết kế kh"
  },
  {
   "kind": "article",
@@ -30470,6 +30630,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/lop-banh-xe/lop-sam-ma-phanh-va-chai-nhot-cu-sau-khi-thay-giu-lai-bao-lau-cat-ra-sao-va-dem-bo-o-dau-cho-dung/",
+  "title": "Lốp, săm, má phanh và chai nhớt cũ sau khi thay: giữ lại bao lâu, cất ra sao và đem bỏ ở đâu cho đúng",
+  "description": "Lốp, săm, má phanh, lọc và can nhớt cũ sau khi thay: vì sao nên xin lại, giữ bao lâu, cất tránh đọng nước và nguy hiểm, rồi hỏi bỏ ở đâu cho đúng.",
+  "category": "Bách khoa xe",
+  "hub": "Lốp và bánh xe",
+  "entities": [
+   "lốp xe máy cũ",
+   "săm xe máy cũ",
+   "má phanh đã mòn",
+   "nhớt thải",
+   "lọc nhớt cũ",
+   "giẻ dính dầu"
+  ],
+  "keywords": [
+   "lốp săm cũ sau khi thay",
+   "vứt lốp cũ ở đâu",
+   "xử lý phụ tùng cũ sau khi thay",
+   "lốp cũ đọng nước"
+  ],
+  "seoTitle": "Lốp săm cũ sau khi thay: giữ bao lâu, cất sao và bỏ ở đâu cho đúng",
+  "primaryKeyword": "lốp săm cũ sau khi thay",
+  "headings": [
+   "Vì sao nên xin lại và giữ phụ tùng cũ một thời gian",
+   "Cất tạm cho gọn và an toàn",
+   "Những việc không nên làm",
+   "Bỏ ở đâu cho đúng",
+   "Món nào còn dùng tiếp được"
+  ],
+  "summary": "Bài hướng dẫn cách xử lý lốp, săm, má phanh, lọc, giẻ dính nhớt và can nhớt cũ sau khi thợ thay xong. Nội dung giải thích vì sao nên xin lại và giữ chi tiết cũ đến khi xe chạy ổn, cách cất tạm cho khô ráo, tránh đọng nước và xa nguồn lửa, những việc tuyệt đối "
+ },
+ {
+  "kind": "article",
   "url": "garage/lop/lop-xe-may-de-lau-khong-chay-bi-bep/",
   "title": "Xe để lâu không chạy bị bẹp lốp hoặc rung: vì sao lốp biến dạng và cách giữ lốp khi cất xe",
   "description": "Xe để lâu lốp bị bẹp hoặc rung vì tải đè một điểm, hơi rò chậm và cao su khô cứng. Cách giữ lốp khi cất xe, kiểm tra trước khi chạy lại và lúc nên thay lốp.",
@@ -34237,6 +34429,38 @@
    "Nếu bạn là người mua chiếc xe gửi bán"
   ],
   "summary": "Bài giải thích khác biệt giữa nhờ tiệm bán hộ xe máy và bán đứt cho tiệm: khi ký gửi, xe vẫn là của chủ xe nên mọi việc trong thời gian nằm ở tiệm cần nói rõ từ trước. Nội dung gồm những điều nên thống nhất như ai giữ chìa, giấy tờ để ở đâu, ai cho khách chạy "
+ },
+ {
+  "kind": "article",
+  "url": "ride/di-phuot/nhom-bat-dong-giua-chuyen-di-xe-may-nguoi-muon-quay-ve-nguoi-muon-di-tiep-ai-quyet-va-tach-nhom-the-nao/",
+  "title": "Nhóm bất đồng giữa chuyến đi xe máy: người muốn quay về, người muốn đi tiếp, ai quyết và tách nhóm thế nào",
+  "description": "Nhóm bất đồng khi đi phượt, người muốn về, người muốn đi tiếp: cách thống nhất từ trước, bàn lúc căng thẳng, tách nhóm an toàn và giữ quan hệ sau chuyến.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "bất đồng trong nhóm phượt",
+   "quyền nói dừng vì an toàn",
+   "tách nhóm",
+   "người điều phối đoàn",
+   "phương án dự phòng",
+   "quỹ chung của nhóm"
+  ],
+  "keywords": [
+   "nhóm bất đồng khi đi phượt",
+   "muốn bỏ chuyến giữa đường",
+   "tách nhóm khi đi xe máy",
+   "ai quyết định khi đi phượt theo nhóm"
+  ],
+  "seoTitle": "Nhóm bất đồng khi đi phượt: ai quyết, quay về hay đi tiếp, tách nhóm",
+  "primaryKeyword": "nhóm bất đồng khi đi phượt",
+  "headings": [
+   "Vì sao bất đồng giữa chuyến hay xảy ra",
+   "Nguyên tắc nên thống nhất từ trước chuyến",
+   "Bàn thế nào khi đang bất đồng và các phương án có thể chọn",
+   "Nếu tách nhóm thì làm gì",
+   "Giữ quan hệ sau chuyến"
+  ],
+  "summary": "Bài hướng dẫn cách xử lý khi nhóm đi xe máy nhiều ngày bất đồng giữa chuyến: người mệt hoặc lo thời tiết muốn nghỉ thêm hay quay về, số còn lại muốn đi tiếp theo kế hoạch. Nội dung giải thích vì sao bất đồng hay xảy ra, những nguyên tắc nên thống nhất từ trước"
  },
  {
   "kind": "article",
@@ -38315,6 +38539,38 @@
    "Đi vào ngày đông người và khi mang theo trẻ nhỏ"
   ],
   "summary": "Bài hướng dẫn cách đi xe máy thả cá chép ngày ông Công ông Táo sao cho ít rủi ro nhất cho mình và người xung quanh. Nội dung giải thích vì sao ngày này dễ va chạm và ngã, cách chở cá và nước không đổ bằng thùng có nắp đặt thấp và chắc, cách chọn chỗ dừng ven h"
+ },
+ {
+  "kind": "article",
+  "url": "ride/di-phuot/tham-gia-chuyen-di-xe-may-cua-nhom-chua-quen-hoi-gi-truoc-thu-nhip-o-doan-dau-va-quyen-rut-lui-khi-khong-hop/",
+  "title": "Tham gia chuyến đi xe máy của nhóm chưa quen: hỏi gì trước, thử nhịp ở đoạn đầu và quyền rút lui khi không hợp",
+  "description": "Đi phượt với nhóm chưa quen cần hỏi gì trước: người dẫn, nhịp nghỉ, chỗ ngủ, sự cố, chia chi phí; cách thử nhịp ở đoạn đầu và rút lui lịch sự khi thấy không hợp.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "nhóm phượt trên mạng",
+   "người dẫn đoàn",
+   "người đi cuối đoàn",
+   "điểm hẹn khi lạc nhau",
+   "chia chi phí chuyến đi",
+   "quyền rút lui khỏi nhóm"
+  ],
+  "keywords": [
+   "đi phượt với nhóm chưa quen",
+   "tham gia nhóm phượt trên mạng",
+   "hỏi gì trước khi đi phượt theo nhóm",
+   "rút lui lịch sự khỏi chuyến đi nhóm"
+  ],
+  "seoTitle": "Đi phượt với nhóm chưa quen: hỏi gì trước, thử nhịp, rút lui",
+  "primaryKeyword": "đi phượt với nhóm chưa quen",
+  "headings": [
+   "Vì sao nên tìm hiểu kỹ trước khi đi cùng nhóm chưa quen",
+   "Những câu nên hỏi trước",
+   "Dấu hiệu nên cân nhắc lại",
+   "Thử nhịp ở đoạn đầu",
+   "Quyền rút lui lịch sự và chuẩn bị riêng cho mình"
+  ],
+  "summary": "Bài hướng dẫn người được rủ đi xe máy cùng nhóm chưa quen biết cách cân nhắc trước khi nhận lời. Nội dung giải thích vì sao mỗi nhóm một nếp về nhịp chạy, thói quen an toàn và cách chia việc, rồi liệt kê những câu nên hỏi trước về người dẫn, nhịp nghỉ, chỗ ngủ"
  },
  {
   "kind": "article",
@@ -49966,6 +50222,39 @@
    "Kiểm tra sau khi vá và cách phòng thủng lốp"
   ],
   "summary": "Bài giải thích điều người dùng xe máy điện cần biết khi lốp bị thủng giữa đường. Nội dung chỉ ra điểm giống xe xăng ở dấu hiệu nhận biết và cách dừng xe, rồi tập trung vào điểm riêng: bánh sau của nhiều xe chứa động cơ nên việc tháo bánh kéo theo dây điện và g"
+ },
+ {
+  "kind": "article",
+  "url": "wiki/he-thong-phanh/xe-may-dien-bop-phanh-la-ngat-ga-cong-tac-o-tay-phanh-lam-gi-va-vi-sao-xe-doi-khi-khong-len-ga/",
+  "title": "Xe máy điện bóp phanh là ngắt ga: công tắc ở tay phanh làm gì và vì sao xe đôi khi không lên ga",
+  "description": "Vì sao nhiều xe máy điện ngắt ga khi bóp phanh, công tắc ở tay phanh làm gì, xe không lên ga do đâu, quan sát gì khi đứng yên và khi nào cần ra thợ.",
+  "category": "Bách khoa xe",
+  "hub": "Hệ thống phanh",
+  "entities": [
+   "công tắc tay phanh",
+   "ngắt ga khi bóp phanh",
+   "bộ điều khiển động cơ điện",
+   "đèn phanh",
+   "giắc nối",
+   "tay ga xe máy điện"
+  ],
+  "keywords": [
+   "xe máy điện bóp phanh ngắt ga",
+   "công tắc tay phanh xe điện",
+   "xe điện không lên ga do phanh",
+   "cảm biến phanh xe máy điện",
+   "xe máy điện bóp phanh mất ga"
+  ],
+  "seoTitle": "Xe máy điện bóp phanh ngắt ga: công tắc tay phanh và lỗi không lên ga",
+  "primaryKeyword": "xe máy điện bóp phanh ngắt ga",
+  "headings": [
+   "Vì sao nhiều xe điện ngắt lực kéo khi bóp phanh",
+   "Công tắc ở tay phanh nằm đâu và làm việc thế nào",
+   "Vì sao xe đôi khi không lên ga",
+   "Quan sát gì khi xe đứng yên",
+   "Những việc tuyệt đối không làm và khi nào cần ra thợ"
+  ],
+  "summary": "Bài giải thích vì sao nhiều xe máy điện cắt lực kéo khi bóp phanh dù tay ga vẫn còn giữ, và vì sao đó thường là thiết kế an toàn chứ không phải lỗi. Nội dung nói về công tắc hoặc cảm biến ở tay phanh ở mức người dùng, các lý do xe đôi khi không lên ga như tay "
  },
  {
   "kind": "article",
