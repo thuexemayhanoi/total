@@ -1744,6 +1744,10 @@
   "kind": "article"
  },
  {
+  "rel": "review/review-lop/bo-lop-moi-di-duoc-lau-hon-bo-truoc-hay-chi-do-cach-di-thay-doi-so-sanh-do-ben-lop-sao-cho-cong-bang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/bo-phan-xe-may/index.html",
   "kind": "article"
  },
@@ -3536,6 +3540,10 @@
   "kind": "article"
  },
  {
+  "rel": "review/review-xe/hoi-tho-quen-ve-dong-xe-minh-dinh-mua-nen-hoi-gi-tho-thuc-su-biet-gi-va-dung-suy-ra-gi-tu-cau-tra-loi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/tai-lieu-tham-khao/hoi-tro-ly-ai-ve-sua-xe-may-dung-cau-tra-loi-lam-goi-y-kiem-chung-voi-sach-huong-dan-va-tho/index.html",
   "kind": "article"
  },
@@ -4052,6 +4060,14 @@
   "kind": "article"
  },
  {
+  "rel": "review/review-mu-bao-hiem/mu-bao-hiem-bi-gio-hat-len-keo-nguoc-hay-rung-khi-di-nhanh-thu-tung-thu-mot-de-tim-nguyen-nhan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-mu-bao-hiem/mu-bao-hiem-co-num-hoac-dai-chinh-vong-dau-chinh-the-nao-cho-vua-va-khi-nao-chinh-het-co-van-khong-vua/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/mu-bao-hiem-dat-chuan/index.html",
   "kind": "article"
  },
@@ -4061,6 +4077,10 @@
  },
  {
   "rel": "tips/meo-bao-duong/mu-bao-hiem-hong-vat-kinh-long-ban-le-gay-khoa-quai-kho-cai-sua-gi-va-khi-nao-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-mu-bao-hiem/mu-bao-hiem-moi-doi-nhung-tuan-dau-lot-con-cung-quai-con-thang-dieu-gi-quen-dan-va-dau-hieu-sai-co/index.html",
   "kind": "article"
  },
  {
@@ -4108,6 +4128,10 @@
   "kind": "article"
  },
  {
+  "rel": "review/so-sanh-xe/muon-dung-thu-cung-dong-xe-vai-ngay-truoc-khi-mua-di-the-nao-ghi-gi-va-so-voi-xe-dang-dung-ra-sao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/su-dung-xe/muon-hay-cho-muon-mu-bao-hiem-thu-vua-dau-lop-lot-co-sach-khong-mu-da-tung-va-dap-chua-va-tra-lai-the-nao/index.html",
   "kind": "article"
  },
@@ -4137,6 +4161,18 @@
  },
  {
   "rel": "local/tp-hcm/ngap-duong-sai-gon/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-dau-nhot/nghe-ban-be-video-hay-nhom-xe-khen-mot-loai-nhot-dieu-gi-kiem-chung-duoc-va-dieu-gi-chi-la-chuyen-ke/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-xe/nghe-khen-xe-nay-ben-ben-o-phan-nao-it-hong-vat-hay-de-sua-va-hoi-lai-the-nao-cho-ro/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/review-dau-nhot/nghe-noi-dung-nhot-o-to-cho-xe-may-cung-duoc-loi-don-tu-dau-va-doi-chieu-voi-sach-huong-dan-the-nao/index.html",
   "kind": "article"
  },
  {
@@ -4237,6 +4273,10 @@
  },
  {
   "rel": "guide/su-dung-xe/nha-co-dam-cuoi-dam-gio-hay-tiec-dong-khach-sap-cho-de-xe-may-cho-khach-cu-nguoi-trong-va-khong-chan-loi-hang-xom/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "review/so-sanh-xe/nha-co-hai-chiec-xe-may-ghi-lai-moi-chuyen-chon-xe-nao-va-vi-sao-de-biet-xe-nao-hop-voi-viec-gi/index.html",
   "kind": "article"
  },
  {

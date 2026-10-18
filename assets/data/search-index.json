@@ -12985,6 +12985,38 @@
  },
  {
   "kind": "article",
+  "url": "review/review-lop/bo-lop-moi-di-duoc-lau-hon-bo-truoc-hay-chi-do-cach-di-thay-doi-so-sanh-do-ben-lop-sao-cho-cong-bang/",
+  "title": "Bộ lốp mới đi được lâu hơn bộ trước hay chỉ do cách đi thay đổi: so sánh độ bền lốp sao cho công bằng",
+  "description": "Bộ lốp mới mòn chậm hơn bộ cũ chưa chắc là bền hơn. Cách so sánh độ bền lốp xe máy công bằng: yếu tố ngoài lốp, ghi chép, đọc độ mòn và khi nào hỏi thợ.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá lốp",
+  "entities": [
+   "độ bền lốp",
+   "vạch chỉ báo mòn",
+   "áp suất lốp",
+   "đồng hồ quãng đường",
+   "mòn lệch",
+   "ảnh chụp mặt lốp"
+  ],
+  "keywords": [
+   "so sánh độ bền lốp xe máy",
+   "bộ lốp này bền hơn bộ trước không",
+   "lốp mòn nhanh hay chậm do đâu",
+   "ghi chép để so sánh hai bộ lốp"
+  ],
+  "seoTitle": "So sánh độ bền lốp xe máy: bộ mới bền hơn hay do cách đi đổi",
+  "primaryKeyword": "so sánh độ bền lốp xe máy",
+  "headings": [
+   "Vì sao so độ bền hai bộ lốp dễ sai",
+   "Những thứ ngoài bản thân lốp làm lốp mòn nhanh hay chậm",
+   "Ghi lại gì để so sánh cho công bằng",
+   "Nhìn độ mòn thế nào cho đúng",
+   "Bền hơn chưa chắc đã tốt hơn, và kết luận được đến đâu"
+  ],
+  "summary": "Bài giải thích vì sao so độ bền hai bộ lốp xe máy chỉ bằng thời gian dùng dễ dẫn tới kết luận sai. Nội dung liệt kê những thứ ngoài lốp làm lốp mòn nhanh hay chậm như đường đi, tải chở, cách phanh và tăng tốc, áp suất, mùa và việc chỉnh bánh hay giảm xóc, rồi "
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/bo-phan-xe-may/",
   "title": "Tổng hợp kiến thức: bộ phận xe máy",
   "description": "Danh mục các bộ phận xe máy theo nhóm: bộ phận vận hành, an toàn, điện, tiện nghi — mỗi bộ phận làm gì và chăm sóc thế nào cho đúng.",
@@ -27350,6 +27382,39 @@
  },
  {
   "kind": "article",
+  "url": "review/review-xe/hoi-tho-quen-ve-dong-xe-minh-dinh-mua-nen-hoi-gi-tho-thuc-su-biet-gi-va-dung-suy-ra-gi-tu-cau-tra-loi/",
+  "title": "Hỏi thợ quen về dòng xe mình định mua: nên hỏi gì, thợ thực sự biết gì và đừng suy ra gì từ câu trả lời",
+  "description": "Hỏi thợ trước khi mua xe máy: thợ nhìn dòng xe từ những chiếc mang vào sửa nên câu trả lời có thể lệch. Câu nên hỏi, cách hỏi và điều đừng vội suy ra.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe",
+  "entities": [
+   "thợ sửa xe quen",
+   "dòng xe định mua",
+   "lỗi hay gặp",
+   "lái thử",
+   "sách hướng dẫn sử dụng",
+   "người dùng lâu năm"
+  ],
+  "keywords": [
+   "hỏi thợ trước khi mua xe máy",
+   "hỏi thợ về dòng xe định mua",
+   "thợ sửa xe nhận xét dòng xe",
+   "lỗi hay gặp theo lời thợ",
+   "nên hỏi thợ gì khi mua xe máy"
+  ],
+  "seoTitle": "Hỏi thợ quen trước khi mua xe máy: nên hỏi gì, đừng suy ra gì",
+  "primaryKeyword": "hỏi thợ trước khi mua xe máy",
+  "headings": [
+   "Thợ nhìn thấy dòng xe từ phía nào",
+   "Những câu nên hỏi",
+   "Hỏi thế nào để không nhận câu trả lời một chữ",
+   "Những điều không nên suy ra",
+   "Ghép lời thợ với các nguồn khác"
+  ],
+  "summary": "Bài giải thích vì sao lời nhận xét của thợ quen về một dòng xe định mua có thể lệch: thợ chủ yếu thấy những chiếc mang vào sửa, mỗi tiệm quen một loại xe và chủ xe chăm sóc mỗi người một kiểu. Bài nêu các nhóm câu nên hỏi về lỗi hay gặp, phụ tùng, bảo dưỡng và"
+ },
+ {
+  "kind": "article",
   "url": "docs/tai-lieu-tham-khao/hoi-tro-ly-ai-ve-sua-xe-may-dung-cau-tra-loi-lam-goi-y-kiem-chung-voi-sach-huong-dan-va-tho/",
   "title": "Hỏi trợ lý AI về sửa xe máy: dùng câu trả lời làm gợi ý, kiểm chứng với sách hướng dẫn và thợ",
   "description": "Hỏi AI cách sửa xe máy được gì và hay sai ở đâu? Cách đặt câu hỏi, đối chiếu sách hướng dẫn của đúng xe và những lúc phải dừng lại để đưa xe cho thợ.",
@@ -31507,6 +31572,70 @@
  },
  {
   "kind": "article",
+  "url": "review/review-mu-bao-hiem/mu-bao-hiem-bi-gio-hat-len-keo-nguoc-hay-rung-khi-di-nhanh-thu-tung-thu-mot-de-tim-nguyen-nhan/",
+  "title": "Mũ bảo hiểm bị gió hất lên, kéo ngược hay rung khi đi nhanh: thử từng thứ một để tìm nguyên nhân",
+  "description": "Mũ bảo hiểm bị gió hất lên, kéo ngược hay rung khi đi nhanh? Thử lần lượt lúc xe đứng yên và lúc đi chậm nơi an toàn để biết do mũ rộng, quai, lưỡi trai hay tư thế.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá mũ bảo hiểm",
+  "entities": [
+   "lưỡi trai mũ bảo hiểm",
+   "kính chắn của mũ",
+   "quai mũ bảo hiểm",
+   "lớp đệm lót mũ",
+   "luồng gió quanh xe lớn",
+   "tư thế ngồi khi lái xe"
+  ],
+  "keywords": [
+   "mũ bảo hiểm bị gió hất",
+   "mũ bảo hiểm bị rung khi đi nhanh",
+   "mũ bị gió kéo ngược ra sau",
+   "lưỡi trai mũ bảo hiểm cản gió"
+  ],
+  "seoTitle": "Mũ bảo hiểm bị gió hất, kéo ngược, rung: thử từng thứ tìm nguyên nhân",
+  "primaryKeyword": "mũ bảo hiểm bị gió hất",
+  "headings": [
+   "Gió tác động lên mũ như thế nào",
+   "Thử khi xe đứng yên",
+   "Thử khi đi chậm ở nơi an toàn",
+   "Những cách xử lý tạm không nên làm",
+   "Cách đi để giảm sức gió lên mũ và khi nào nên đổi mũ"
+  ],
+  "summary": "Bài giải thích vì sao mũ bảo hiểm có thể bị gió hất lên, kéo ngược ra sau hoặc rung khi đi nhanh, rồi hướng dẫn thử từng thứ một để tách nguyên nhân. Phần đầu nói về cách gió tác động lên vỏ mũ, lưỡi trai và mép kính. Tiếp theo là các phép thử khi xe đứng yên "
+ },
+ {
+  "kind": "article",
+  "url": "review/review-mu-bao-hiem/mu-bao-hiem-co-num-hoac-dai-chinh-vong-dau-chinh-the-nao-cho-vua-va-khi-nao-chinh-het-co-van-khong-vua/",
+  "title": "Mũ bảo hiểm có núm hoặc đai chỉnh vòng đầu: chỉnh thế nào cho vừa và khi nào chỉnh hết cỡ vẫn không vừa",
+  "description": "Mũ bảo hiểm có núm hoặc đai chỉnh sau gáy chỉ siết vòng bên trong. Cách chỉnh theo thứ tự đúng và dấu hiệu chỉnh hết cỡ mà mũ vẫn không vừa đầu bạn.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá mũ bảo hiểm",
+  "entities": [
+   "núm chỉnh vòng đầu",
+   "đai chỉnh sau gáy",
+   "lớp xốp hấp thụ va đập",
+   "quai mũ bảo hiểm",
+   "mũ nửa đầu và ba phần tư",
+   "độ vừa của mũ"
+  ],
+  "keywords": [
+   "mũ bảo hiểm có núm chỉnh vòng đầu",
+   "cách chỉnh núm mũ bảo hiểm",
+   "mũ chỉnh được có vừa mọi đầu không",
+   "đai chỉnh sau gáy mũ bảo hiểm"
+  ],
+  "seoTitle": "Mũ bảo hiểm có núm chỉnh vòng đầu: chỉnh cho vừa, khi nào không vừa",
+  "primaryKeyword": "mũ bảo hiểm có núm chỉnh vòng đầu",
+  "headings": [
+   "Núm và đai chỉnh làm được gì, không làm được gì",
+   "Chỉnh theo thứ tự cho đúng",
+   "Dấu hiệu chỉnh hết cỡ vẫn không vừa",
+   "Những người cần chú ý hơn",
+   "Giữ cho cơ cấu chỉnh còn tốt và vì sao một chiếc mũ không thể vừa mọi đầu"
+  ],
+  "summary": "Bài giải thích núm vặn hoặc đai chỉnh sau gáy của mũ bảo hiểm làm được gì: siết vòng đai bên trong cho mũ bám đầu, nhưng không đổi kích thước vỏ và lớp xốp hấp thụ va đập. Nội dung nêu thứ tự chỉnh đúng từ nới hết, đặt mép trước ngay trên lông mày, siết dần tớ"
+ },
+ {
+  "kind": "article",
   "url": "ride/an-toan-giao-thong/mu-bao-hiem-dat-chuan/",
   "title": "Mũ bảo hiểm đạt chuẩn — những điều cần biết",
   "description": "Mũ bảo hiểm đạt chuẩn: ba thành phần thật sự giảm chấn, tem chứng nhận thật và giả, cách đo đầu chọn mũ đúng, tuổi thọ và các lỗi dùng mũ phổ biến.",
@@ -31599,6 +31728,38 @@
    "Những dấu hiệu cho thấy phải thay mũ"
   ],
   "summary": "Bài chia các hỏng vặt của mũ bảo hiểm thành hai nhóm: bộ phận bảo vệ chính gồm vỏ, lớp xốp, quai và khóa quai, cùng bộ phận phụ như kính che, bản lề, lót và đệm má. Nội dung hướng dẫn xử lý kính lỏng, tự rơi hoặc kẹt bằng cách làm sạch rãnh, siết vít bản lề nế"
+ },
+ {
+  "kind": "article",
+  "url": "review/review-mu-bao-hiem/mu-bao-hiem-moi-doi-nhung-tuan-dau-lot-con-cung-quai-con-thang-dieu-gi-quen-dan-va-dau-hieu-sai-co/",
+  "title": "Mũ bảo hiểm mới đội những tuần đầu: lót còn cứng, quai còn thẳng — điều gì quen dần và dấu hiệu sai cỡ",
+  "description": "Mũ bảo hiểm mới đội bị chật có sai cỡ không? Phân biệt lót, má, quai còn cứng sẽ đỡ dần với dấu hiệu không đổi, cách tự thử trong nhà và lúc nên mang lại cửa hàng.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá mũ bảo hiểm",
+  "entities": [
+   "mũ bảo hiểm mới",
+   "lớp lót mũ",
+   "quai cài mũ",
+   "vết hằn trên trán",
+   "cỡ mũ",
+   "đổi cỡ hoặc thay lót"
+  ],
+  "keywords": [
+   "mũ bảo hiểm mới đội bị chật",
+   "mũ mới đội có cần làm quen không",
+   "lót mũ mới cứng và chật",
+   "dấu hiệu mũ bảo hiểm sai cỡ"
+  ],
+  "seoTitle": "Mũ bảo hiểm mới đội bị chật: cảm nhận nào đỡ dần, dấu hiệu nào sai cỡ",
+  "primaryKeyword": "mũ bảo hiểm mới đội bị chật",
+  "headings": [
+   "Cảm nhận nào thường đỡ dần khi mũ còn mới",
+   "Cảm nhận nào không đổi theo thời gian",
+   "Tự thử trong nhà và ghi lại cảm nhận sau mỗi lần đi",
+   "Những cách nới mũ không nên làm",
+   "Khi nào mang lại cửa hàng hỏi đổi cỡ hay thay lót"
+  ],
+  "summary": "Bài giải thích vì sao mũ bảo hiểm mới thường ôm chặt, ép má, quai cứng và có mùi vật liệu trong những tuần đầu, và đâu là cảm nhận sẽ đỡ dần khi lót lún theo dáng đầu. Nội dung chỉ ra những dấu hiệu không đổi theo thời gian như điểm đau một chỗ, mũ xoay hoặc l"
  },
  {
   "kind": "article",
@@ -31954,6 +32115,38 @@
  },
  {
   "kind": "article",
+  "url": "review/so-sanh-xe/muon-dung-thu-cung-dong-xe-vai-ngay-truoc-khi-mua-di-the-nao-ghi-gi-va-so-voi-xe-dang-dung-ra-sao/",
+  "title": "Mượn dùng thử cùng dòng xe vài ngày trước khi mua: đi thế nào, ghi gì và so với xe đang dùng ra sao",
+  "description": "Dùng thử xe máy vài ngày trước khi mua nhờ mượn xe cùng dòng của người quen: thỏa thuận gì, đi thế nào, ghi gì mỗi ngày và so lại với xe đang đi.",
+  "category": "Đánh giá",
+  "hub": "So sánh xe",
+  "entities": [
+   "mượn xe người quen",
+   "dùng thử trước khi mua",
+   "sinh hoạt hằng ngày",
+   "ghi chú mỗi ngày",
+   "dòng xe",
+   "tình trạng riêng của chiếc xe"
+  ],
+  "keywords": [
+   "dùng thử xe máy vài ngày trước khi mua",
+   "mượn xe người quen để thử trước khi mua",
+   "so sánh xe định mua với xe đang đi",
+   "thử xe trong sinh hoạt hằng ngày"
+  ],
+  "seoTitle": "Mượn xe người quen thử vài ngày trước khi mua: đi thế nào, ghi gì",
+  "primaryKeyword": "dùng thử xe máy vài ngày trước khi mua",
+  "headings": [
+   "Vài ngày dùng thật cho biết điều mà một vòng lái thử không cho biết",
+   "Thỏa thuận ngắn gọn với người cho mượn",
+   "Đi thế nào để phép thử có ý nghĩa",
+   "Ghi gì mỗi ngày",
+   "Tách dòng xe khỏi tình trạng riêng của chiếc đi mượn rồi so lại với xe đang dùng"
+  ],
+  "summary": "Bài giải thích vì sao vài ngày mượn một chiếc xe cùng dòng của người quen cho biết nhiều hơn một vòng lái thử: dắt xe vào nhà, chỗ đỗ ở nơi làm, giờ cao điểm, chở người nhà, đi mưa, đổ xăng hoặc sạc, ngồi lâu và cốp xe. Nội dung gồm thỏa thuận ngắn với người c"
+ },
+ {
+  "kind": "article",
   "url": "guide/su-dung-xe/muon-hay-cho-muon-mu-bao-hiem-thu-vua-dau-lop-lot-co-sach-khong-mu-da-tung-va-dap-chua-va-tra-lai-the-nao/",
   "title": "Mượn hay cho mượn mũ bảo hiểm: thử vừa đầu, lớp lót có sạch không, mũ đã từng va đập chưa và trả lại thế nào",
   "description": "Mượn mũ bảo hiểm của người khác cần thử vừa đầu, xem lớp lót, hỏi mũ từng va đập chưa. Người cho mượn dặn gì và cách trả mũ đàng hoàng, gọn trong một bài.",
@@ -32210,6 +32403,102 @@
    "Sống cùng mùa ngập: thói quen của người Sài Gòn"
   ],
   "summary": "Ngập đường là một phần đặc trưng của mùa mưa TP. Hồ Chí Minh: một cơn mưa lớn trùng ngày nước triều cao có thể biến nhiều đoạn đường quen thành sông nhỏ trong chưa đầy một giờ, rồi rút đi để lại vệt bùn và những chiếc xe chết máy dọc lề. Để đi xe máy trong điề"
+ },
+ {
+  "kind": "article",
+  "url": "review/review-dau-nhot/nghe-ban-be-video-hay-nhom-xe-khen-mot-loai-nhot-dieu-gi-kiem-chung-duoc-va-dieu-gi-chi-la-chuyen-ke/",
+  "title": "Nghe bạn bè, video hay nhóm xe khen một loại nhớt: điều gì kiểm chứng được và điều gì chỉ là chuyện kể",
+  "description": "Nghe bạn bè, video hay nhóm xe khen nhớt làm máy êm, bốc, mát hơn: vì sao cảm nhận dễ bị đánh lừa, điều tự kiểm chứng được, câu nên hỏi lại và cách quyết định.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá dầu nhớt",
+  "entities": [
+   "nhớt máy xe máy",
+   "sách hướng dẫn sử dụng",
+   "ly hợp ngâm trong nhớt",
+   "nhãn chai nhớt",
+   "hao nhớt",
+   "đánh giá nhớt trên mạng"
+  ],
+  "keywords": [
+   "nghe khen nhớt có nên đổi theo",
+   "đánh giá nhớt trên mạng",
+   "nhớt được khen máy êm hơn",
+   "có nên đổi nhớt theo lời khen"
+  ],
+  "seoTitle": "Nghe khen một loại nhớt: điều kiểm chứng được và chuyện kể",
+  "primaryKeyword": "nghe khen nhớt có nên đổi theo",
+  "headings": [
+   "Vì sao cảm nhận sau khi thay nhớt dễ bị đánh lừa",
+   "Điều người dùng tự kiểm chứng được",
+   "Điều chỉ là chuyện kể",
+   "Hỏi lại người khen những gì",
+   "Quyết định có đổi theo hay không"
+  ],
+  "summary": "Bài giúp bạn đọc lời khen về một loại nhớt trên video hay trong nhóm xe một cách tỉnh táo. Nội dung giải thích vì sao cảm nhận sau khi thay nhớt dễ bị đánh lừa, tách những điều bạn tự kiểm chứng được như đúng loại theo sách hướng dẫn, nhãn chai, nguồn mua và q"
+ },
+ {
+  "kind": "article",
+  "url": "review/review-xe/nghe-khen-xe-nay-ben-ben-o-phan-nao-it-hong-vat-hay-de-sua-va-hoi-lai-the-nao-cho-ro/",
+  "title": "Nghe khen xe này bền: bền ở phần nào, ít hỏng vặt hay dễ sửa, và hỏi lại thế nào cho rõ",
+  "description": "Nghe khen xe máy bền là bền thế nào? Tách các nghĩa của chữ bền gồm máy, ít hỏng vặt, vỏ và sơn, dễ sửa, cùng những câu hỏi lại chủ xe cho rõ trước khi mua.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá xe",
+  "entities": [
+   "độ bền của xe",
+   "hỏng vặt",
+   "bảo dưỡng định kỳ",
+   "phụ tùng thay thế",
+   "lái thử",
+   "sách hướng dẫn sử dụng"
+  ],
+  "keywords": [
+   "xe máy bền là bền thế nào",
+   "khen xe bền nghĩa là gì",
+   "ít hỏng vặt và dễ sửa khác nhau",
+   "hỏi lại khi nghe khen xe bền"
+  ],
+  "seoTitle": "Xe này bền nghĩa là gì: các nghĩa của chữ bền và cách hỏi lại",
+  "primaryKeyword": "xe máy bền là bền thế nào",
+  "headings": [
+   "Chữ bền có thể mang những nghĩa nào",
+   "Vì sao lời khen bền thường chung chung",
+   "Hỏi lại thế nào cho rõ",
+   "Độ bền còn nằm ở người dùng",
+   "Đặt lời khen vào quyết định mua"
+  ],
+  "summary": "Bài giải thích vì sao câu “xe này bền lắm” dễ khiến người mua quyết định theo một lời khen mơ hồ. Nội dung tách chữ bền thành nhiều nghĩa gồm máy và hộp số đi lâu không phải làm lớn, ít hỏng vặt ở hệ điện, khung vỏ sơn chịu nắng mưa, giữ được độ êm và chắc, và"
+ },
+ {
+  "kind": "article",
+  "url": "review/review-dau-nhot/nghe-noi-dung-nhot-o-to-cho-xe-may-cung-duoc-loi-don-tu-dau-va-doi-chieu-voi-sach-huong-dan-the-nao/",
+  "title": "Nghe nói dùng nhớt ô tô cho xe máy cũng được: lời đồn từ đâu và đối chiếu với sách hướng dẫn thế nào",
+  "description": "Dùng nhớt ô tô cho xe máy được không? Lời đồn đến từ đâu, vì sao ly hợp ngâm trong nhớt cần loại hợp, cách đối chiếu sách hướng dẫn, nhãn can và dấu hiệu cần ra thợ.",
+  "category": "Đánh giá",
+  "hub": "Đánh giá dầu nhớt",
+  "entities": [
+   "nhớt động cơ",
+   "ly hợp ngâm trong nhớt",
+   "phụ gia giảm ma sát",
+   "sách hướng dẫn sử dụng",
+   "nhãn can nhớt",
+   "dầu hộp số"
+  ],
+  "keywords": [
+   "dùng nhớt ô tô cho xe máy được không",
+   "nhớt ô tô đổ xe máy",
+   "nhớt cho xe có ly hợp ngâm trong nhớt",
+   "đổ nhớt ô tô vào xe số có sao không"
+  ],
+  "seoTitle": "Dùng nhớt ô tô cho xe máy được không? Lời đồn và cách đối chiếu",
+  "primaryKeyword": "dùng nhớt ô tô cho xe máy được không",
+  "headings": [
+   "Lời đồn bắt nguồn từ đâu",
+   "Nhớt cho xe máy khác nhớt cho ô tô ở nguyên lý nào",
+   "Đối chiếu với sách hướng dẫn và nhãn can",
+   "Lỡ đổ rồi thì để ý dấu hiệu gì",
+   "Vì sao xe vẫn chạy chưa phải là bằng chứng"
+  ],
+  "summary": "Bài tìm hiểu vì sao có người bảo nhớt ô tô đổ cho xe máy cũng được, rồi đối chiếu lời đồn ấy với nguyên lý cơ khí. Nội dung giải thích khác biệt giữa xe có ly hợp ngâm trong nhớt và máy ô tô, vai trò của phụ gia giảm ma sát ở một số loại nhớt, cùng việc xe ga "
  },
  {
   "kind": "article",
@@ -33017,6 +33306,38 @@
    "Sau buổi tiệc: dọn chỗ, cảm ơn xóm giềng và xe khách để quên"
   ],
   "summary": "Bài hướng dẫn gia chủ tính chỗ để xe máy của khách như một phần của buổi tiệc, vì khách đến dồn một lúc, về dồn một lúc trong ngõ chật và sân nhỏ. Nội dung đi qua việc chọn và sắp chỗ để xe không chắn lối hàng xóm, cử người tỉnh táo trông xe, cách giao nhận xe"
+ },
+ {
+  "kind": "article",
+  "url": "review/so-sanh-xe/nha-co-hai-chiec-xe-may-ghi-lai-moi-chuyen-chon-xe-nao-va-vi-sao-de-biet-xe-nao-hop-voi-viec-gi/",
+  "title": "Nhà có hai chiếc xe máy: ghi lại mỗi chuyến chọn xe nào và vì sao để biết xe nào hợp với việc gì",
+  "description": "Nhà có hai xe máy nên đi xe nào? Cách ghi lại từng chuyến, đọc ghi chép sau một thời gian, chia việc cho hai xe, chăm chiếc ít đi trước khi tính bán bớt hay đổi xe.",
+  "category": "Đánh giá",
+  "hub": "So sánh xe",
+  "entities": [
+   "sổ ghi chép chuyến đi",
+   "xe thứ hai trong gia đình",
+   "chia việc cho hai xe",
+   "xe ít được sử dụng",
+   "bảo dưỡng theo thời gian",
+   "lái thử để so sánh"
+  ],
+  "keywords": [
+   "nhà có hai xe máy nên đi xe nào",
+   "chia xe trong gia đình",
+   "so sánh hai xe đang dùng",
+   "ghi chép chuyến đi để chọn xe"
+  ],
+  "seoTitle": "Nhà có hai xe máy nên đi xe nào: ghi chép để chọn xe đúng việc",
+  "primaryKeyword": "nhà có hai xe máy nên đi xe nào",
+  "headings": [
+   "Vì sao hai xe trong nhà là cơ hội so sánh thật",
+   "Ghi gì sau mỗi chuyến cho gọn",
+   "Đọc ghi chép sau một thời gian",
+   "Chia việc cho hai xe hợp lý và đừng để chiếc ít đi bị bỏ quên",
+   "Dùng ghi chép khi bán bớt hay đổi xe"
+  ],
+  "summary": "Bài hướng dẫn gia đình có hai chiếc xe máy khác loại biến thói quen chọn xe hằng ngày thành một cuộc so sánh có căn cứ. Nội dung giải thích vì sao dùng song song hai xe là cơ hội so sánh thật, nên ghi gì sau mỗi chuyến cho gọn, cách đọc ghi chép để thấy xe nào"
  },
  {
   "kind": "article",

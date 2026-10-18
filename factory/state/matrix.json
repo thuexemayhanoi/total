@@ -26560,11 +26560,13 @@
    "title": "Bộ lốp mới đi được lâu hơn bộ trước hay chỉ do cách đi thay đổi: so sánh độ bền lốp sao cho công bằng",
    "primaryIntent": "informational/bo-lop-moi-di-duoc-lau-hon-bo-truoc-hay-chi-do-cach-di-thay-doi-so-sanh-do-ben-lop-sao-cho-cong-bang",
    "notes": "source=topic-v2 topicId=T001981",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:08.727Z",
-   "updatedAt": "2026-10-18T02:40:08.727Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 100,
+   "words": 2970
   },
   {
    "id": "S01816",
@@ -26573,11 +26575,13 @@
    "title": "Nhà có hai chiếc xe máy: ghi lại mỗi chuyến chọn xe nào và vì sao để biết xe nào hợp với việc gì",
    "primaryIntent": "informational/nha-co-hai-chiec-xe-may-ghi-lai-moi-chuyen-chon-xe-nao-va-vi-sao-de-biet-xe-nao-hop-voi-viec-gi",
    "notes": "source=topic-v2 topicId=T001982",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:08.892Z",
-   "updatedAt": "2026-10-18T02:40:08.892Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 100,
+   "words": 2947
   },
   {
    "id": "S01817",
@@ -26586,11 +26590,13 @@
    "title": "Mượn dùng thử cùng dòng xe vài ngày trước khi mua: đi thế nào, ghi gì và so với xe đang dùng ra sao",
    "primaryIntent": "informational/muon-dung-thu-cung-dong-xe-vai-ngay-truoc-khi-mua-di-the-nao-ghi-gi-va-so-voi-xe-dang-dung-ra-sao",
    "notes": "source=topic-v2 topicId=T001983",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:08.946Z",
-   "updatedAt": "2026-10-18T02:40:08.946Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 100,
+   "words": 2801
   },
   {
    "id": "S01818",
@@ -26599,11 +26605,13 @@
    "title": "Hỏi thợ quen về dòng xe mình định mua: nên hỏi gì, thợ thực sự biết gì và đừng suy ra gì từ câu trả lời",
    "primaryIntent": "informational/hoi-tho-quen-ve-dong-xe-minh-dinh-mua-nen-hoi-gi-tho-thuc-su-biet-gi-va-dung-suy-ra-gi-tu-cau-tra-loi",
    "notes": "source=topic-v2 topicId=T001984",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:08.997Z",
-   "updatedAt": "2026-10-18T02:40:08.997Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 83,
+   "words": 2850
   },
   {
    "id": "S01819",
@@ -26612,11 +26620,13 @@
    "title": "Nghe khen xe này bền: bền ở phần nào, ít hỏng vặt hay dễ sửa, và hỏi lại thế nào cho rõ",
    "primaryIntent": "informational/nghe-khen-xe-nay-ben-ben-o-phan-nao-it-hong-vat-hay-de-sua-va-hoi-lai-the-nao-cho-ro",
    "notes": "source=topic-v2 topicId=T001985",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:09.072Z",
-   "updatedAt": "2026-10-18T02:40:09.072Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 100,
+   "words": 3091
   },
   {
    "id": "S01820",
@@ -26625,11 +26635,13 @@
    "title": "Mũ bảo hiểm mới đội những tuần đầu: lót còn cứng, quai còn thẳng — điều gì quen dần và dấu hiệu sai cỡ",
    "primaryIntent": "informational/mu-bao-hiem-moi-doi-nhung-tuan-dau-lot-con-cung-quai-con-thang-dieu-gi-quen-dan-va-dau-hieu-sai-co",
    "notes": "source=topic-v2 topicId=T001986",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:09.167Z",
-   "updatedAt": "2026-10-18T02:40:09.167Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 91,
+   "words": 2911
   },
   {
    "id": "S01821",
@@ -26638,11 +26650,13 @@
    "title": "Mũ bảo hiểm có núm hoặc đai chỉnh vòng đầu: chỉnh thế nào cho vừa và khi nào chỉnh hết cỡ vẫn không vừa",
    "primaryIntent": "informational/mu-bao-hiem-co-num-hoac-dai-chinh-vong-dau-chinh-the-nao-cho-vua-va-khi-nao-chinh-het-co-van-khong-vua",
    "notes": "source=topic-v2 topicId=T001987",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:09.255Z",
-   "updatedAt": "2026-10-18T02:40:09.255Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 91,
+   "words": 2835
   },
   {
    "id": "S01822",
@@ -26651,11 +26665,13 @@
    "title": "Nghe bạn bè, video hay nhóm xe khen một loại nhớt: điều gì kiểm chứng được và điều gì chỉ là chuyện kể",
    "primaryIntent": "informational/nghe-ban-be-video-hay-nhom-xe-khen-mot-loai-nhot-dieu-gi-kiem-chung-duoc-va-dieu-gi-chi-la-chuyen-ke",
    "notes": "source=topic-v2 topicId=T001988",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:09.342Z",
-   "updatedAt": "2026-10-18T02:40:09.342Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 100,
+   "words": 3096
   },
   {
    "id": "S01823",
@@ -26664,11 +26680,13 @@
    "title": "Mũ bảo hiểm bị gió hất lên, kéo ngược hay rung khi đi nhanh: thử từng thứ một để tìm nguyên nhân",
    "primaryIntent": "troubleshooting/mu-bao-hiem-bi-gio-hat-len-keo-nguoc-hay-rung-khi-di-nhanh-thu-tung-thu-mot-de-tim-nguyen-nhan",
    "notes": "source=topic-v2 topicId=T001989",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:09.431Z",
-   "updatedAt": "2026-10-18T02:40:09.431Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 91,
+   "words": 2864
   },
   {
    "id": "S01824",
@@ -26677,11 +26695,13 @@
    "title": "Nghe nói dùng nhớt ô tô cho xe máy cũng được: lời đồn từ đâu và đối chiếu với sách hướng dẫn thế nào",
    "primaryIntent": "informational/nghe-noi-dung-nhot-o-to-cho-xe-may-cung-duoc-loi-don-tu-dau-va-doi-chieu-voi-sach-huong-dan-the-nao",
    "notes": "source=topic-v2 topicId=T001990",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T02:40:09.532Z",
-   "updatedAt": "2026-10-18T02:40:09.532Z"
+   "updatedAt": "2026-10-18T02:48:05.861Z",
+   "seoScore": 91,
+   "words": 2948
   }
  ]
 }
