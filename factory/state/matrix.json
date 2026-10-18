@@ -27430,11 +27430,13 @@
    "title": "Đồ bảo hộ khi tự bảo dưỡng xe máy tại nhà: găng, kính, khẩu trang, giày kín và cách rửa sạch dầu mỡ khỏi tay",
    "primaryIntent": "informational/do-bao-ho-khi-tu-bao-duong-xe-may-tai-nha-gang-kinh-khau-trang-giay-kin-va-cach-rua-sach-dau-mo-khoi-tay",
    "notes": "source=topic-v2 topicId=T002039",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:03.769Z",
-   "updatedAt": "2026-10-18T08:53:03.770Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 100,
+   "words": 2971
   },
   {
    "id": "S01874",
@@ -27443,11 +27445,13 @@
    "title": "Chở đồ tươi sống và đồ cần giữ lạnh bằng xe máy: không rỉ nước, không ám mùi, không để lâu trong cốp nóng",
    "primaryIntent": "informational/cho-do-tuoi-song-va-do-can-giu-lanh-bang-xe-may-khong-ri-nuoc-khong-am-mui-khong-de-lau-trong-cop-nong",
    "notes": "source=topic-v2 topicId=T002040",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:03.850Z",
-   "updatedAt": "2026-10-18T08:53:03.850Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 100,
+   "words": 2783
   },
   {
    "id": "S01875",
@@ -27456,11 +27460,13 @@
    "title": "Để xe máy nổ máy rồi bước ra mở cổng hay khóa cửa: xe không người trông, tay ga trong tầm trẻ nhỏ và khói vào nhà",
    "primaryIntent": "informational/de-xe-may-no-may-roi-buoc-ra-mo-cong-hay-khoa-cua-xe-khong-nguoi-trong-tay-ga-trong-tam-tre-nho-va-khoi-vao-nha",
    "notes": "source=topic-v2 topicId=T002041",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:03.974Z",
-   "updatedAt": "2026-10-18T08:53:03.974Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 100,
+   "words": 3014
   },
   {
    "id": "S01876",
@@ -27469,11 +27475,13 @@
    "title": "Rửa xe máy tại nhà mà không bị thương: dây điện gần nước, sàn trơn bọt xà phòng, tia nước mạnh và hóa chất vào mắt",
    "primaryIntent": "informational/rua-xe-may-tai-nha-ma-khong-bi-thuong-day-dien-gan-nuoc-san-tron-bot-xa-phong-tia-nuoc-manh-va-hoa-chat-vao-mat",
    "notes": "source=topic-v2 topicId=T002042",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:04.030Z",
-   "updatedAt": "2026-10-18T08:53:04.030Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 100,
+   "words": 2931
   },
   {
    "id": "S01877",
@@ -27482,11 +27490,13 @@
    "title": "Hãng hoặc đại lý xe máy điện của bạn ngừng hoạt động: pin, phụ tùng và bảo hành còn lại gì, nên chuẩn bị ra sao",
    "primaryIntent": "informational/hang-hoac-dai-ly-xe-may-dien-cua-ban-ngung-hoat-dong-pin-phu-tung-va-bao-hanh-con-lai-gi-nen-chuan-bi-ra-sao",
    "notes": "source=topic-v2 topicId=T002043",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:04.094Z",
-   "updatedAt": "2026-10-18T08:53:04.094Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 91,
+   "words": 3034
   },
   {
    "id": "S01878",
@@ -27495,11 +27505,13 @@
    "title": "Xe máy điện nhận bản cập nhật phần mềm: nên cập nhật lúc nào, chuẩn bị gì và vì sao cảm giác ga, phanh có thể đổi",
    "primaryIntent": "informational/xe-may-dien-nhan-ban-cap-nhat-phan-mem-nen-cap-nhat-luc-nao-chuan-bi-gi-va-vi-sao-cam-giac-ga-phanh-co-the-doi",
    "notes": "source=topic-v2 topicId=T002044",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:04.153Z",
-   "updatedAt": "2026-10-18T08:53:04.153Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 91,
+   "words": 2985
   },
   {
    "id": "S01879",
@@ -27508,11 +27520,13 @@
    "title": "Bán lại xe máy điện đã dùng: gom hồ sơ pin, bộ sạc, gỡ liên kết ứng dụng và mô tả tình trạng pin cho người mua tin",
    "primaryIntent": "informational/ban-lai-xe-may-dien-da-dung-gom-ho-so-pin-bo-sac-go-lien-ket-ung-dung-va-mo-ta-tinh-trang-pin-cho-nguoi-mua-tin",
    "notes": "source=topic-v2 topicId=T002045",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:04.212Z",
-   "updatedAt": "2026-10-18T08:53:04.212Z"
+   "updatedAt": "2026-10-18T09:00:32.715Z",
+   "seoScore": 100,
+   "words": 2925
   },
   {
    "id": "S01880",
@@ -27521,11 +27535,13 @@
    "title": "Gửi xe máy điện hoặc pin đi xa bằng xe khách, tàu hay xe tải: tắt nguồn, tháo pin và những điều phải hỏi nơi nhận",
    "primaryIntent": "informational/gui-xe-may-dien-hoac-pin-di-xa-bang-xe-khach-tau-hay-xe-tai-tat-nguon-thao-pin-va-nhung-dieu-phai-hoi-noi-nhan",
    "notes": "source=topic-v2 topicId=T002046",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:04.264Z",
-   "updatedAt": "2026-10-18T08:53:04.264Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 100,
+   "words": 2911
   },
   {
    "id": "S01881",
@@ -27534,11 +27550,13 @@
    "title": "Mua thêm bộ pin thứ hai cho xe máy điện pin rời: dùng luân phiên, đánh dấu từng bộ và cất bộ dự phòng thế nào",
    "primaryIntent": "informational/mua-them-bo-pin-thu-hai-cho-xe-may-dien-pin-roi-dung-luan-phien-danh-dau-tung-bo-va-cat-bo-du-phong-the-nao",
    "notes": "source=topic-v2 topicId=T002047",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:04.317Z",
-   "updatedAt": "2026-10-18T08:53:04.317Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 91,
+   "words": 3175
   },
   {
    "id": "S01882",
@@ -27547,11 +27565,13 @@
    "title": "Menu cài đặt trên màn hình xe máy điện: mục nào chủ xe chỉnh được, mục nào nên để thợ hoặc đại lý",
    "primaryIntent": "informational/menu-cai-dat-tren-man-hinh-xe-may-dien-muc-nao-chu-xe-chinh-duoc-muc-nao-nen-de-tho-hoac-dai-ly",
    "notes": "source=topic-v2 topicId=T002048",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-18T08:53:04.374Z",
-   "updatedAt": "2026-10-18T08:53:04.374Z"
+   "updatedAt": "2026-10-18T09:00:32.716Z",
+   "seoScore": 100,
+   "words": 2985
   }
  ]
 }
