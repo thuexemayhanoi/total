@@ -2820,6 +2820,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-trong-thanh-pho/di-xe-may-trong-khuon-vien-truong-co-quan-nha-may-duong-noi-bo-khong-vach-nguoi-di-bo-giua-loi-va-khuc-re-khuat/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/di-xe-may-trong-mua-phun-va-mua-bui-kinh-mo-duong-tron-am-va-de-bi-khuat-tam-nhin/index.html",
   "kind": "article"
  },
@@ -3265,6 +3269,10 @@
  },
  {
   "rel": "garage/loi-thuong-gap/ghi-dong-xe-may-bi-lech-hoac-cong-sau-nga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/du-lich-xe-may/ghi-nhat-ky-chuyen-di-xe-may-moi-toi-ghi-gi-ve-duong-xe-va-nguoi-de-chang-sau-va-chuyen-sau-di-nhe-hon/index.html",
   "kind": "article"
  },
  {
@@ -4096,6 +4104,10 @@
   "kind": "article"
  },
  {
+  "rel": "tips/meo-lai-xe/mang-ho-so-ban-in-hay-ban-ve-giay-di-lam-bang-xe-may-giu-phang-kho-khong-bay-va-cach-lay-ra-khi-dung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/mang-laptop-va-may-tinh-bang-tren-xe-may-chong-soc-chong-nuoc-va-giu-do-an-toan/index.html",
   "kind": "article"
  },
@@ -4808,7 +4820,15 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/ra-lay-xe-mot-minh-o-bai-hay-ham-vang-sau-gio-tan-muon-chuan-bi-chia-nhin-quanh-va-roi-di-gon/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/xe-moi/ra-mat-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/di-phuot/rac-phat-sinh-suot-chuyen-di-xe-may-nhieu-ngay-dung-o-dau-tren-xe-bo-o-dau-va-khong-de-lai-doc-duong/index.html",
   "kind": "article"
  },
  {
