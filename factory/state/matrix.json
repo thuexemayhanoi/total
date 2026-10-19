@@ -27835,11 +27835,13 @@
    "title": "Ở một chỗ vài đêm rồi chạy vòng ngắn trong ngày: để hành lý ở đâu, mang gì theo xe và về trước khi trời tối",
    "primaryIntent": "informational/o-mot-cho-vai-dem-roi-chay-vong-ngan-trong-ngay-de-hanh-ly-o-dau-mang-gi-theo-xe-va-ve-truoc-khi-troi-toi",
    "notes": "source=topic-v2 topicId=T002068",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:40.765Z",
-   "updatedAt": "2026-10-19T05:47:40.766Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 3021
   },
   {
    "id": "S01901",
@@ -27848,11 +27850,13 @@
    "title": "Hỏi chủ chỗ nghỉ và người địa phương về đường ngày mai: hỏi gì, tin đến đâu và đối chiếu với bản đồ thế nào",
    "primaryIntent": "informational/hoi-chu-cho-nghi-va-nguoi-dia-phuong-ve-duong-ngay-mai-hoi-gi-tin-den-dau-va-doi-chieu-voi-ban-do-the-nao",
    "notes": "source=topic-v2 topicId=T002069",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:40.852Z",
-   "updatedAt": "2026-10-19T05:47:40.852Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 2778
   },
   {
    "id": "S01902",
@@ -27861,11 +27865,13 @@
    "title": "Gửi bớt hành lý về nhà hoặc gửi đi trước giữa chuyến xe máy nhiều ngày: đồ nào nên gửi, hỏi gì và ghi nhãn ra sao",
    "primaryIntent": "informational/gui-bot-hanh-ly-ve-nha-hoac-gui-di-truoc-giua-chuyen-xe-may-nhieu-ngay-do-nao-nen-gui-hoi-gi-va-ghi-nhan-ra-sao",
    "notes": "source=topic-v2 topicId=T002070",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:41.040Z",
-   "updatedAt": "2026-10-19T05:47:41.040Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 2827
   },
   {
    "id": "S01903",
@@ -27874,11 +27880,13 @@
    "title": "Xe được thợ nơi lạ sửa giữa chuyến đi xa: chạy thử, giữ lại gì và theo dõi thế nào trước khi đi tiếp",
    "primaryIntent": "informational/xe-duoc-tho-noi-la-sua-giua-chuyen-di-xa-chay-thu-giu-lai-gi-va-theo-doi-the-nao-truoc-khi-di-tiep",
    "notes": "source=topic-v2 topicId=T002071",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:41.094Z",
-   "updatedAt": "2026-10-19T05:47:41.094Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 3097
   },
   {
    "id": "S01904",
@@ -27887,11 +27895,13 @@
    "title": "Giặt và hong quần áo giữa chuyến đi xe máy nhiều ngày: giặt lúc nào, treo ở đâu và đồ chưa khô sáng hôm sau",
    "primaryIntent": "informational/giat-va-hong-quan-ao-giua-chuyen-di-xe-may-nhieu-ngay-giat-luc-nao-treo-o-dau-va-do-chua-kho-sang-hom-sau",
    "notes": "source=topic-v2 topicId=T002072",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:41.171Z",
-   "updatedAt": "2026-10-19T05:47:41.171Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 3006
   },
   {
    "id": "S01905",
@@ -27900,11 +27910,13 @@
    "title": "Xe thuê do khách sạn, người quen hoặc ứng dụng sắp xếp: người giao xe không phải chủ xe thì cần hỏi và ghi lại gì",
    "primaryIntent": "informational/xe-thue-do-khach-san-nguoi-quen-hoac-ung-dung-sap-xep-nguoi-giao-xe-khong-phai-chu-xe-thi-can-hoi-va-ghi-lai-gi",
    "notes": "source=topic-v2 topicId=T002073",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:41.235Z",
-   "updatedAt": "2026-10-19T05:47:41.235Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 91,
+   "words": 2934
   },
   {
    "id": "S01906",
@@ -27913,11 +27925,13 @@
    "title": "Làm mất chìa khóa xe thuê giữa chuyến: báo chủ xe thế nào, giữ xe ra sao và vì sao không tự gọi thợ làm chìa",
    "primaryIntent": "informational/lam-mat-chia-khoa-xe-thue-giua-chuyen-bao-chu-xe-the-nao-giu-xe-ra-sao-va-vi-sao-khong-tu-goi-tho-lam-chia",
    "notes": "source=topic-v2 topicId=T002074",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:41.308Z",
-   "updatedAt": "2026-10-19T05:47:41.308Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 3060
   },
   {
    "id": "S01907",
@@ -27926,11 +27940,13 @@
    "title": "Phải nhờ người khác mang trả xe thuê thay mình: báo chủ xe thế nào, giao kèm gì và xác nhận ra sao",
    "primaryIntent": "informational/phai-nho-nguoi-khac-mang-tra-xe-thue-thay-minh-bao-chu-xe-the-nao-giao-kem-gi-va-xac-nhan-ra-sao",
    "notes": "source=topic-v2 topicId=T002075",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:41.372Z",
-   "updatedAt": "2026-10-19T05:47:41.372Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 2968
   },
   {
    "id": "S01908",
@@ -27939,11 +27955,13 @@
    "title": "Vào cua ban đêm đèn pha nghiêng theo xe: vì sao vùng sáng lệch khỏi lối ra của cua và cách giảm tốc, nhìn xa",
    "primaryIntent": "informational/vao-cua-ban-dem-den-pha-nghieng-theo-xe-vi-sao-vung-sang-lech-khoi-loi-ra-cua-cua-va-cach-giam-toc-nhin-xa",
    "notes": "source=topic-v2 topicId=T002076",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-19T05:47:41.446Z",
-   "updatedAt": "2026-10-19T05:47:41.446Z"
+   "updatedAt": "2026-10-19T05:55:40.430Z",
+   "seoScore": 100,
+   "words": 3044
   }
  ]
 }
