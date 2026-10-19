@@ -28037,6 +28037,84 @@
    "updatedAt": "2026-10-19T09:39:56.694Z",
    "seoScore": 91,
    "words": 2888
+  },
+  {
+   "id": "S01914",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "bang-qua-hoac-re-trai-ra-duong-lon-tu-loi-re-nho-cho-khe-tung-nua-duong-cho-dung-giua-hai-dong-va-luc-nen-di-vong",
+   "title": "Băng qua hoặc rẽ trái ra đường lớn từ lối rẽ nhỏ: chờ khe từng nửa đường, chỗ dừng giữa hai dòng và lúc nên đi vòng",
+   "primaryIntent": "informational/bang-qua-hoac-re-trai-ra-duong-lon-tu-loi-re-nho-cho-khe-tung-nua-duong-cho-dung-giua-hai-dong-va-luc-nen-di-vong",
+   "notes": "source=topic-v2 topicId=T002082",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-19T10:03:14.599Z",
+   "updatedAt": "2026-10-19T10:03:14.599Z"
+  },
+  {
+   "id": "S01915",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "dung-cho-re-trai-tren-duong-lon-de-vao-loi-nho-hay-cong-nha-giu-lai-thang-soi-xe-phia-sau-va-cach-re-hai-nhip",
+   "title": "Dừng chờ rẽ trái trên đường lớn để vào lối nhỏ hay cổng nhà: giữ lái thẳng, soi xe phía sau và cách rẽ hai nhịp",
+   "primaryIntent": "informational/dung-cho-re-trai-tren-duong-lon-de-vao-loi-nho-hay-cong-nha-giu-lai-thang-soi-xe-phia-sau-va-cach-re-hai-nhip",
+   "notes": "source=topic-v2 topicId=T002083",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-19T10:03:14.774Z",
+   "updatedAt": "2026-10-19T10:03:14.774Z"
+  },
+  {
+   "id": "S01916",
+   "hub": "hub/nhu-cau-su-dung",
+   "slug": "chon-xe-may-cho-nguoi-hay-di-duong-lang-duong-dat-va-cho-do-ra-cho-nhung-diem-nen-xem-truoc-khi-mua",
+   "title": "Chọn xe máy cho người hay đi đường làng, đường đất và chở đồ ra chợ: những điểm nên xem trước khi mua",
+   "primaryIntent": "informational/chon-xe-may-cho-nguoi-hay-di-duong-lang-duong-dat-va-cho-do-ra-cho-nhung-diem-nen-xem-truoc-khi-mua",
+   "notes": "source=topic-v2 topicId=T002084",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-19T10:03:14.848Z",
+   "updatedAt": "2026-10-19T10:03:14.848Z"
+  },
+  {
+   "id": "S01917",
+   "hub": "guide/su-dung-xe",
+   "slug": "cho-hang-chat-cao-hoac-vat-dung-dung-qua-duoi-canh-thap-day-dien-mai-hien-va-cong-nhin-len-truoc-khi-vao",
+   "title": "Chở hàng chất cao hoặc vật dựng đứng qua dưới cành thấp, dây điện, mái hiên và cổng: nhìn lên trước khi vào",
+   "primaryIntent": "informational/cho-hang-chat-cao-hoac-vat-dung-dung-qua-duoi-canh-thap-day-dien-mai-hien-va-cong-nhin-len-truoc-khi-vao",
+   "notes": "source=topic-v2 topicId=T002085",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-19T10:03:14.908Z",
+   "updatedAt": "2026-10-19T10:03:14.908Z"
+  },
+  {
+   "id": "S01918",
+   "hub": "garage/dien-ac-quy",
+   "slug": "cho-binh-ac-quy-moi-mua-hoac-ac-quy-cu-bang-xe-may-giu-thang-dung-tranh-cop-kin-va-khong-de-cham-cuc",
+   "title": "Chở bình ắc quy mới mua hoặc ắc quy cũ bằng xe máy: giữ thẳng đứng, tránh cốp kín và không để chạm cực",
+   "primaryIntent": "informational/cho-binh-ac-quy-moi-mua-hoac-ac-quy-cu-bang-xe-may-giu-thang-dung-tranh-cop-kin-va-khong-de-cham-cuc",
+   "notes": "source=topic-v2 topicId=T002086",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-19T10:03:14.974Z",
+   "updatedAt": "2026-10-19T10:03:14.974Z"
+  },
+  {
+   "id": "S01919",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "nhin-qua-vai-truoc-khi-chuyen-huong-vi-sao-guong-xe-may-chua-du-nhin-luc-nao-va-cach-khong-lech-tay-lai",
+   "title": "Nhìn qua vai trước khi chuyển hướng: vì sao gương xe máy chưa đủ, nhìn lúc nào và cách không lệch tay lái",
+   "primaryIntent": "informational/nhin-qua-vai-truoc-khi-chuyen-huong-vi-sao-guong-xe-may-chua-du-nhin-luc-nao-va-cach-khong-lech-tay-lai",
+   "notes": "source=topic-v2 topicId=T002087",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-19T10:03:15.040Z",
+   "updatedAt": "2026-10-19T10:03:15.040Z"
   }
  ]
 }
