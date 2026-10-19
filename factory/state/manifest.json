@@ -1680,6 +1680,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/bat-khoa-dien-luc-co-luc-khong-phai-nhich-hay-lac-chia-moi-co-dien-tiep-diem-o-khoa-giac-va-viec-nen-tranh/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/bau-giam-thanh-xe-may-keu-to-hoac-doi-tieng-nguyen-nhan/index.html",
   "kind": "article"
  },
@@ -2321,6 +2325,10 @@
  },
  {
   "rel": "wiki/dien-xe/coi-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "moto/xe-con-tay/con-dau-tren-xe-con-tay-khac-con-day-the-nao-tay-con-mem-hay-an-sau-bao-dieu-gi-va-viec-nao-nen-de-tho/index.html",
   "kind": "article"
  },
  {
@@ -3960,6 +3968,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/cau-tao-xe/long-den-chot-che-va-dai-oc-khoa-nhung-manh-nho-giu-cho-oc-xe-may-khong-tu-noi-va-vi-sao-tho-khong-bo-qua/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/lop-banh-xe/lop-bo-cheo-va-lop-bo-toa-tron-xe-may-khac-nhau-the-nao/index.html",
   "kind": "article"
  },
@@ -4556,6 +4568,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/phanh-an-yeu-dan-du-tay-phanh-van-chac-xe-dung-lau-hon-truoc-ma-phanh-chai-bong-dinh-dau-mo-hay-qua-nhiet/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/he-thong-phanh/phanh-cbs-xe-may-la-gi/index.html",
   "kind": "article"
  },
@@ -4872,6 +4888,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/lop/soi-da-nho-hay-manh-kinh-ket-trong-ranh-gai-lop-xe-may-co-nen-cay-ra-khi-nao-la-dau-hieu-lop-da-thung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/son-mo-son-nham-tren-xe-may-rua-lau-va-bao-ve-khac-son-bong-o-dau-nhung-viec-khong-nen-lam/index.html",
   "kind": "article"
  },
@@ -5065,6 +5085,10 @@
  },
  {
   "rel": "learn/chuan-doan-loi/tho-hay-ban-be-bao-xe-nao-cung-vay-chay-vai-hom-se-het-khi-nao-dung-khi-nao-che-loi-va-nen-hoi-lai-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/bao-duong-dinh-ky/tho-moi-bao-loi-do-tho-truoc-lam-au-hoac-do-cach-ban-di-xe-nghe-the-nao-hoi-bang-chung-gi-va-ghi-lai-ra-sao/index.html",
   "kind": "article"
  },
  {
@@ -6020,6 +6044,10 @@
   "kind": "article"
  },
  {
+  "rel": "moto/xe-con-tay/tieng-keu-tu-bo-con-xe-con-tay-lach-cach-khi-cam-chung-rit-luc-bop-con-re-luc-nha-con-va-cach-mo-ta-cho-tho/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/truyen-dong/tieng-keu-tu-bo-noi-xe-tay-ga/index.html",
   "kind": "article"
  },
@@ -6349,6 +6377,10 @@
  },
  {
   "rel": "learn/chuan-doan-loi/xe-co-mui-khet/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/truyen-dong/xe-con-tay-giat-hoac-rung-luc-nha-con-du-tay-da-nha-deu-phan-biet-thoi-quen-tay-voi-la-con-nhot-va-chan-may/index.html",
   "kind": "article"
  },
  {

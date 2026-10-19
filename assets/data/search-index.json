@@ -12472,6 +12472,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/dien-ac-quy/bat-khoa-dien-luc-co-luc-khong-phai-nhich-hay-lac-chia-moi-co-dien-tiep-diem-o-khoa-giac-va-viec-nen-tranh/",
+  "title": "Bật khóa điện lúc có lúc không, phải nhích hay lắc chìa mới có điện: tiếp điểm ổ khóa, giắc và việc nên tránh",
+  "description": "Bật khóa điện lúc có lúc không, phải lắc chìa mới có điện? Vì sao tiếp điểm ổ khóa, giắc lỏng gây lỗi chập chờn, vì sao nguy hiểm khi chạy và cách ghi cho thợ.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "ổ khóa điện xe máy",
+   "tiếp điểm nối mạch",
+   "ruột khóa và chìa khóa",
+   "giắc điện sau ổ khóa",
+   "chùm chìa nặng",
+   "lỗi điện chập chờn"
+  ],
+  "keywords": [
+   "bật khóa điện lúc có lúc không",
+   "phải lắc chìa mới có điện",
+   "chìa khóa xe máy tự tụt về vị trí tắt",
+   "xe mất điện khi qua ổ gà"
+  ],
+  "seoTitle": "Bật khóa điện lúc có lúc không: tiếp điểm ổ khóa, giắc, việc nên tránh",
+  "primaryKeyword": "bật khóa điện lúc có lúc không",
+  "headings": [
+   "Ổ khóa điện nối mạch thế nào khi xoay chìa",
+   "Vì sao điện chỉ có khi nhích hay lắc chìa",
+   "Những chỗ khác cũng cho cùng triệu chứng",
+   "Vì sao lỗi này nguy hiểm khi đang chạy",
+   "Ghi lại triệu chứng và những việc nên tránh"
+  ],
+  "summary": "Bài giải thích vì sao xe máy bật khóa điện lúc có lúc không, phải nhích hay lắc chìa mới sáng đèn đồng hồ. Nội dung tách phần cơ của ổ khóa khỏi phần tiếp điểm nối mạch, nêu vai trò của chìa mòn và chùm chìa nặng, rồi điểm qua những chỗ khác cho cùng triệu chứ"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/bau-giam-thanh-xe-may-keu-to-hoac-doi-tieng-nguyen-nhan/",
   "title": "Tiếng pô xe máy to lên hoặc đổi giọng: bầu giảm thanh, mối nối và những nguyên nhân thường gặp",
   "description": "Tiếng pô xe máy to lên hay đổi giọng có thể do bầu giảm thanh thủng, lõi hỏng, mối nối hở hoặc hỗn hợp cháy đổi. Cách quan sát an toàn khi máy nguội và lúc giao thợ.",
@@ -17656,6 +17688,38 @@
    "Văn hóa dùng còi: kỹ năng báo hiệu thật sự"
   ],
   "summary": "Còi là thiết bị nhỏ nhất trên xe máy nhưng là thiết bị báo hiệu âm thanh duy nhất: đúng lúc, một tiếng còi tránh được một va chạm. Thực tế, còi lại là cụm hay bị hỏng nhất trong nhóm an toàn — rè, yếu, hoặc im lặng hoàn toàn — và người dùng thường bỏ qua cho t"
+ },
+ {
+  "kind": "article",
+  "url": "moto/xe-con-tay/con-dau-tren-xe-con-tay-khac-con-day-the-nao-tay-con-mem-hay-an-sau-bao-dieu-gi-va-viec-nao-nen-de-tho/",
+  "title": "Côn dầu trên xe côn tay: khác côn dây thế nào, tay côn mềm hay ăn sâu báo điều gì và việc nào nên để thợ",
+  "description": "Côn dầu trên xe côn tay khác côn dây ở đâu, tay côn mềm hoặc ăn sâu báo điều gì, vì sao không nên tự mở bình, châm dầu hay xả khí và việc nào nên giao thợ.",
+  "category": "Xe máy",
+  "hub": "Xe côn tay",
+  "entities": [
+   "côn dầu",
+   "côn thủy lực",
+   "bình dầu ở tay côn",
+   "xi-lanh chính và xi-lanh phụ",
+   "ống dẫn dầu",
+   "đuổi khí trong hệ"
+  ],
+  "keywords": [
+   "côn dầu trên xe côn tay",
+   "côn thủy lực xe máy",
+   "tay côn dầu bị mềm",
+   "côn dây và côn dầu khác nhau"
+  ],
+  "seoTitle": "Côn dầu xe côn tay: khác côn dây ở đâu, tay côn mềm báo điều gì",
+  "primaryKeyword": "côn dầu trên xe côn tay",
+  "headings": [
+   "Nhận ra xe mình dùng côn dầu hay côn dây",
+   "Côn dầu truyền lực ra sao và được mất gì",
+   "Dấu hiệu côn dầu có vấn đề",
+   "Vì sao không tự mở bình, châm dầu hay xả khí",
+   "Chủ xe nhìn được gì và hỏi thợ những gì"
+  ],
+  "summary": "Bài giúp chủ xe côn tay nhận ra xe mình dùng côn dầu hay côn dây qua bình dầu nhỏ ở tay lái và ống dẫn thay cho dây. Nội dung giải thích côn dầu truyền lực thế nào, được gì và mất gì so với côn dây, những dấu hiệu bất thường như tay côn mềm, ăn sâu, côn không "
  },
  {
   "kind": "article",
@@ -30753,6 +30817,38 @@
  },
  {
   "kind": "article",
+  "url": "wiki/cau-tao-xe/long-den-chot-che-va-dai-oc-khoa-nhung-manh-nho-giu-cho-oc-xe-may-khong-tu-noi-va-vi-sao-tho-khong-bo-qua/",
+  "title": "Long đền, chốt chẻ và đai ốc khóa: những mảnh nhỏ giữ cho ốc xe máy không tự nới và vì sao thợ không bỏ qua",
+  "description": "Long đền, chốt chẻ, đai ốc khóa và keo khóa ren giữ ốc xe máy không tự nới ra sao? Nhìn được gì sau khi sửa, vì sao không dùng tạm và nên hỏi thợ câu nào.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "long đền phẳng",
+   "long đền vênh",
+   "chốt chẻ",
+   "đai ốc có rãnh",
+   "đai ốc khóa",
+   "keo khóa ren"
+  ],
+  "keywords": [
+   "long đền chốt chẻ đai ốc khóa",
+   "chốt chẻ trục bánh xe máy",
+   "ốc tự hãm xe máy",
+   "thiếu long đền có sao không"
+  ],
+  "seoTitle": "Long đền, chốt chẻ, đai ốc khóa: mảnh nhỏ giữ ốc xe máy không nới",
+  "primaryKeyword": "long đền chốt chẻ đai ốc khóa",
+  "headings": [
+   "Vì sao ốc trên xe máy có thể tự nới",
+   "Long đền, chốt chẻ, đai ốc khóa và keo khóa ren làm gì",
+   "Những chỗ trên xe hay có các chi tiết này",
+   "Chủ xe nhìn được gì sau khi sửa",
+   "Vì sao không bỏ qua hay dùng tạm"
+  ],
+  "summary": "Bài giải thích vì sao ốc trên xe máy có thể tự nới do rung, nóng nguội và va đập, rồi phân biệt các mảnh nhỏ giữ ốc gồm long đền phẳng, long đền vênh, chốt chẻ đi với đai ốc có rãnh, đai ốc khóa và keo khóa ren. Nội dung nêu những chỗ thường có chúng như trục "
+ },
+ {
+  "kind": "article",
   "url": "wiki/lop-banh-xe/lop-bo-cheo-va-lop-bo-toa-tron-xe-may-khac-nhau-the-nao/",
   "title": "Lốp bố chéo và lốp bố tỏa tròn trên xe máy: cấu trúc lớp bố, cảm giác lái và vì sao không lắp lẫn tùy tiện",
   "description": "Lốp bố chéo và lốp bố tỏa tròn khác nhau ở cách xếp lớp sợi trong thân lốp, kéo theo khác biệt về độ êm, độ bám, nhiệt và lý do không lắp lẫn tùy tiện.",
@@ -35558,6 +35654,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/phanh/phanh-an-yeu-dan-du-tay-phanh-van-chac-xe-dung-lau-hon-truoc-ma-phanh-chai-bong-dinh-dau-mo-hay-qua-nhiet/",
+  "title": "Phanh ăn yếu dần dù tay phanh vẫn chắc: xe dừng lâu hơn trước, má phanh chai bóng, dính dầu mỡ hay quá nhiệt",
+  "description": "Tay phanh vẫn chắc mà xe dừng lâu hơn trước? Cách phân biệt má phanh chai bóng, đĩa dính dầu mỡ, quá nhiệt, việc tự xem an toàn và lúc phải ngừng đi xe.",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "entities": [
+   "má phanh",
+   "đĩa phanh",
+   "tang trống",
+   "cùm phanh",
+   "bề mặt ma sát",
+   "phanh cơ"
+  ],
+  "keywords": [
+   "phanh ăn yếu dần",
+   "tay phanh vẫn cứng mà xe không dừng",
+   "má phanh chai bóng",
+   "đĩa phanh dính dầu mỡ"
+  ],
+  "seoTitle": "Phanh yếu dần dù tay phanh chắc: má chai bóng, dính dầu hay quá nhiệt",
+  "primaryKeyword": "phanh ăn yếu dần",
+  "headings": [
+   "Tay phanh chắc mà xe vẫn dừng lâu: khác gì tay phanh mềm",
+   "Những nhóm nguyên nhân hay gặp",
+   "Dấu hiệu đi kèm giúp phân biệt",
+   "Chủ xe tự xem được gì một cách an toàn",
+   "Khi nào ngừng đi xe và nói gì với thợ"
+  ],
+  "summary": "Bài giải thích vì sao tay phanh vẫn bóp chắc mà xe dừng lâu hơn, và vì sao tình trạng này khác với tay phanh mềm hay ăn sâu. Nội dung chia các nhóm nguyên nhân thường gặp quanh bề mặt ma sát gồm má mòn sát, má chai bóng, dầu mỡ hay chất xịt bám lên đĩa, má khô"
+ },
+ {
+  "kind": "article",
   "url": "wiki/he-thong-phanh/phanh-cbs-xe-may-la-gi/",
   "title": "Phanh kết hợp CBS trên xe máy: cơ chế, khác biệt với ABS và cảm giác khi bóp phanh",
   "description": "Phanh CBS xe máy là gì? Giải thích vì sao bóp một cần mà cả hai bánh cùng ăn, CBS khác ABS thế nào, cảm giác khi bóp phanh và những điều CBS không làm được.",
@@ -38103,6 +38231,38 @@
  },
  {
   "kind": "article",
+  "url": "garage/lop/soi-da-nho-hay-manh-kinh-ket-trong-ranh-gai-lop-xe-may-co-nen-cay-ra-khi-nao-la-dau-hieu-lop-da-thung/",
+  "title": "Sỏi, đá nhỏ hay mảnh kính kẹt trong rãnh gai lốp xe máy: có nên cạy ra, khi nào là dấu hiệu lốp đã thủng",
+  "description": "Sỏi kẹt trong rãnh gai lốp xe máy có nên cạy ra? Cách phân biệt vật kẹt hờ với vật đã cắm, cạy an toàn và dấu hiệu lốp đã thủng hay rò chậm cần ra tiệm.",
+  "category": "Sửa chữa",
+  "hub": "Lốp",
+  "entities": [
+   "rãnh gai lốp",
+   "sỏi đá kẹt trong gai",
+   "vật cắm vào cao su lốp",
+   "rò chậm",
+   "nước xà phòng thử rò",
+   "hông lốp và vai lốp"
+  ],
+  "keywords": [
+   "sỏi kẹt trong rãnh gai lốp",
+   "đá kẹt gai lốp xe máy",
+   "mảnh kính cắm vào lốp xe máy",
+   "kiểm tra lốp sau khi đi đường đá"
+  ],
+  "seoTitle": "Sỏi, đá, kính kẹt trong gai lốp xe máy: cạy ra hay ra tiệm",
+  "primaryKeyword": "sỏi kẹt trong rãnh gai lốp",
+  "headings": [
+   "Vì sao sỏi đá hay kẹt vào rãnh gai lốp",
+   "Kẹt hờ trong rãnh hay đã cắm vào cao su",
+   "Có nên cạy ra và cạy thế nào cho an toàn",
+   "Dấu hiệu lốp đã thủng hay rò chậm",
+   "Kiểm tra lốp sau khi đi đường đá hay qua công trình"
+  ],
+  "summary": "Bài giải thích vì sao sỏi, đá nhỏ và mảnh vụn hay kẹt vào rãnh gai lốp xe máy sau đoạn đường đá, công trình hay chỗ có kính vỡ. Nội dung giúp phân biệt vật chỉ kẹt hờ với vật đã cắm vào cao su, nêu cách cạy vật kẹt hờ an toàn bằng dụng cụ đầu tù khi xe dựng ch"
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/son-mo-son-nham-tren-xe-may-rua-lau-va-bao-ve-khac-son-bong-o-dau-nhung-viec-khong-nen-lam/",
   "title": "Sơn mờ (sơn nhám) trên xe máy: rửa, lau và bảo vệ khác sơn bóng ở đâu, những việc không nên làm",
   "description": "Sơn mờ (sơn nhám) xe máy khác sơn bóng ở đâu? Cách rửa, lau khô, bảo vệ, xử lý vết bẩn và vết xước, cùng những việc không nên làm để tránh bóng loang.",
@@ -39663,6 +39823,39 @@
    "Tự theo dõi thế nào sau khi nghe lời trấn an"
   ],
   "summary": "Câu trấn an kiểu xe nào cũng vậy, chạy vài hôm sẽ hết xuất phát từ kinh nghiệm thật và thiện ý của người nói, nên thường đúng với những khác biệt nhỏ, đều đặn, hợp với chi tiết vừa thay hay trạng thái xe nguội, miễn là phanh, lái, đèn vẫn bình thường. Nó có th"
+ },
+ {
+  "kind": "article",
+  "url": "garage/bao-duong-dinh-ky/tho-moi-bao-loi-do-tho-truoc-lam-au-hoac-do-cach-ban-di-xe-nghe-the-nao-hoi-bang-chung-gi-va-ghi-lai-ra-sao/",
+  "title": "Thợ mới bảo lỗi do thợ trước làm ẩu hoặc do cách bạn đi xe: nghe thế nào, hỏi bằng chứng gì và ghi lại ra sao",
+  "description": "Thợ mới bảo thợ trước làm ẩu hoặc do cách bạn đi xe? Cách nghe bình tĩnh, nhờ cho xem tận mắt chỗ hỏng, chụp ảnh, ghi lại và quyết định sửa hay chưa mà không đôi co.",
+  "category": "Sửa chữa",
+  "hub": "Bảo dưỡng định kỳ",
+  "entities": [
+   "thợ mới và thợ trước",
+   "chỗ hỏng cần xem tận mắt",
+   "chi tiết sai loại hoặc lắp ngược",
+   "ảnh chụp trước khi tháo tiếp",
+   "phiếu sửa và chi tiết cũ",
+   "thói quen đi xe"
+  ],
+  "keywords": [
+   "thợ mới bảo thợ trước làm ẩu",
+   "thợ chê thợ cũ sửa sai",
+   "thợ nói hỏng do cách đi xe",
+   "nhờ thợ cho xem chỗ hỏng",
+   "thợ mới nói lỗi do lần sửa trước"
+  ],
+  "seoTitle": "Thợ mới bảo thợ trước làm ẩu: nghe sao, hỏi gì, ghi lại ra sao",
+  "primaryKeyword": "thợ mới bảo thợ trước làm ẩu",
+  "headings": [
+   "Vì sao thợ mới hay nhận xét về lần sửa trước đó",
+   "Nghe câu đó thế nào cho bình tĩnh",
+   "Hỏi bằng chứng gì trước khi quyết định",
+   "Khi thợ nói lỗi do cách bạn đi xe",
+   "Ghi lại và có nên quay lại tiệm cũ"
+  ],
+  "summary": "Bài giúp chủ xe đứng vững khi vừa đổi sang tiệm khác đã nghe thợ mới nói chỗ này do thợ trước làm ẩu hoặc do cách bạn đi xe. Nội dung giải thích vì sao câu ấy hay gặp mà không quy chụp ai, cách tách nhận xét về người khỏi nhận xét về chi tiết, những bằng chứng"
  },
  {
   "kind": "article",
@@ -46861,6 +47054,38 @@
  },
  {
   "kind": "article",
+  "url": "moto/xe-con-tay/tieng-keu-tu-bo-con-xe-con-tay-lach-cach-khi-cam-chung-rit-luc-bop-con-re-luc-nha-con-va-cach-mo-ta-cho-tho/",
+  "title": "Tiếng kêu từ bộ côn xe côn tay: lạch cạch khi cầm chừng, rít lúc bóp côn, rè lúc nhả côn và cách mô tả cho thợ",
+  "description": "Xe côn tay lạch cạch khi đứng nổ máy, rít lúc bóp côn, rè lúc nhả côn: tiếng nào còn bình thường, tiếng nào đáng lo và cách ghi âm, mô tả cho thợ.",
+  "category": "Xe máy",
+  "hub": "Xe côn tay",
+  "entities": [
+   "bộ côn xe côn tay",
+   "lá côn",
+   "tay côn",
+   "dây côn",
+   "ổ đỡ đẩy côn",
+   "hộp số"
+  ],
+  "keywords": [
+   "tiếng kêu từ bộ côn xe côn tay",
+   "bóp côn thì hết kêu",
+   "xe côn tay kêu lạch cạch khi đứng nổ máy",
+   "tiếng rè khi nhả côn"
+  ],
+  "seoTitle": "Tiếng kêu bộ côn xe côn tay: lạch cạch, rít, rè và cách mô tả cho thợ",
+  "primaryKeyword": "tiếng kêu từ bộ côn xe côn tay",
+  "headings": [
+   "Bộ côn làm gì lúc bóp côn và lúc nhả côn",
+   "Những tiếng hay gặp và hướng nghi",
+   "Phân biệt với tiếng hộp số và xích",
+   "Dấu hiệu kèm theo đáng lo",
+   "Ghi lại tiếng kêu để mô tả cho thợ"
+  ],
+  "summary": "Bài giải thích bộ côn xe côn tay hoạt động ra sao lúc bóp và lúc nhả, rồi điểm qua ba tiếng hay gặp là lạch cạch khi đứng nổ máy, rít khi bóp côn và rè khi nhả côn, kèm hướng nghi cho từng tiếng. Nội dung chỉ cách phân biệt với tiếng hộp số và xích bằng việc t"
+ },
+ {
+  "kind": "article",
   "url": "garage/truyen-dong/tieng-keu-tu-bo-noi-xe-tay-ga/",
   "title": "Tiếng kêu từ bộ nồi xe tay ga: cạch cạch, dọng, hú hoặc rít và cách mô tả để thợ chẩn đoán",
   "description": "Bộ nồi xe tay ga kêu cạch cạch, dọng, hú hay rít? Phân loại âm theo lúc nhả ga, ga nhỏ, chạy đều, lên dốc và cách ghi chú để thợ chẩn đoán đúng hướng.",
@@ -49541,6 +49766,38 @@
    "Mùi \"giả bệnh\" và khi nào thực sự cần lo"
   ],
   "summary": "Khác với tiếng kêu và độ rung, mùi khét là dấu hiệu xe báo động bằng khứu giác — và cũng là dấu hiệu dễ bị bỏ qua nhất, vì nó thoáng qua trong gió rồi biến mất. Nhưng mùi khét luôn có một vật lý đằng sau: một thứ gì đó đang ma sát quá mức, quá nhiệt hoặc đang "
+ },
+ {
+  "kind": "article",
+  "url": "garage/truyen-dong/xe-con-tay-giat-hoac-rung-luc-nha-con-du-tay-da-nha-deu-phan-biet-thoi-quen-tay-voi-la-con-nhot-va-chan-may/",
+  "title": "Xe côn tay giật hoặc rung lúc nhả côn dù tay đã nhả đều: phân biệt thói quen tay với lá côn, nhớt và chân máy",
+  "description": "Xe côn tay giật hoặc rung lúc nhả côn dù tay đã đều? Cách tách thói quen tay với lá côn, nhớt, chân máy và xích, tự thử lại ở bãi vắng và biết khi nào cần thợ.",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "entities": [
+   "ly hợp xe côn tay",
+   "lá côn",
+   "lò xo côn",
+   "nhớt động cơ",
+   "cao su chân máy",
+   "xích truyền động"
+  ],
+  "keywords": [
+   "xe côn tay giật khi nhả côn",
+   "nhả côn bị rung",
+   "lá côn chai gây giật",
+   "xe giật cục khi xuất phát"
+  ],
+  "seoTitle": "Xe côn tay giật khi nhả côn: tay, lá côn, nhớt hay chân máy",
+  "primaryKeyword": "xe côn tay giật khi nhả côn",
+  "headings": [
+   "Giật hay rung lúc nhả côn thực chất là gì",
+   "Phần do tay người lái và cách tự thử lại",
+   "Phần do xe: côn, nhớt, chân máy và xích",
+   "Dấu hiệu đi kèm giúp phân biệt",
+   "Việc tự làm được và khi nào cần thợ"
+  ],
+  "summary": "Bài giải thích giật hoặc rung lúc nhả côn là hiện tượng côn ăn không đều, lúc bám lúc trượt, rồi tách hai nhóm nguyên nhân. Nhóm do người lái gồm nhả nhanh đúng chỗ côn bắt đầu ăn, ga không đều và xuất phát ở số cao, kèm cách tự thử lại chậm rãi ở chỗ vắng. Nh"
  },
  {
   "kind": "article",
