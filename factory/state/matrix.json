@@ -24753,11 +24753,13 @@
    "title": "Gặp chó lao ra từ lề hoặc nhà trên đường vắng: né kiểu gì cho khỏi ngã",
    "primaryIntent": "informational/gap-cho-lao-ra-tu-le-hoac-nha-tren-duong-vang",
    "notes": "source=topic-v2 topicId=T001859",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:42:40.530Z",
-   "updatedAt": "2026-10-14T06:42:40.535Z"
+   "updatedAt": "2026-10-22T15:36:57.496Z",
+   "seoScore": 91,
+   "words": 2879
   },
   {
    "id": "S01695",
@@ -24781,11 +24783,13 @@
    "title": "Xe máy bị xe ô tô bám sát phía sau ban đêm, đèn chiếu thẳng vào gương: nhường kiểu gì",
    "primaryIntent": "informational/xe-phong-xe-hoi-bam-sat-phia-sau-ban-dem-den-chieu-thang-vao-guong",
    "notes": "source=topic-v2 topicId=T001861",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:42:43.588Z",
-   "updatedAt": "2026-10-14T06:42:43.596Z"
+   "updatedAt": "2026-10-22T15:36:57.496Z",
+   "seoScore": 91,
+   "words": 2785
   },
   {
    "id": "S01697",
@@ -24824,11 +24828,13 @@
    "title": "Bảng hiển che vạch phân làn dừng trong đêm và mưa: đọc vì sai làn",
    "primaryIntent": "informational/bang-hien-che-vach-phan-lan-dung-trong-dem-va-mua-doc-vi-sai-phan-lan",
    "notes": "source=topic-v2 topicId=T001865",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:42:48.055Z",
-   "updatedAt": "2026-10-14T06:42:48.057Z"
+   "updatedAt": "2026-10-22T15:36:57.496Z",
+   "seoScore": 100,
+   "words": 2997
   },
   {
    "id": "S01700",
@@ -24837,11 +24843,13 @@
    "title": "Gã tán động bên lề hoặc nhà dân sát đường: không ràng chắn, phất quạt ra làn",
    "primaryIntent": "informational/ga-tan-dong-ben-le-hoac-nha-dan-sat-duong-khong-rang-bao-phat-quat",
    "notes": "source=topic-v2 topicId=T001866",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-14T06:42:49.488Z",
-   "updatedAt": "2026-10-14T06:42:49.490Z"
+   "updatedAt": "2026-10-22T15:36:57.496Z",
+   "seoScore": 100,
+   "words": 2711
   },
   {
    "id": "S01701",
