@@ -1640,6 +1640,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/ky-thuat-lai-xe/bang-qua-hoac-re-trai-ra-duong-lon-tu-loi-re-nho-cho-khe-tung-nua-duong-cho-dung-giua-hai-dong-va-luc-nen-di-vong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/doc-thong-so/bang-thong-so-xe/index.html",
   "kind": "article"
  },
@@ -2104,6 +2108,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dien-ac-quy/cho-binh-ac-quy-moi-mua-hoac-ac-quy-cu-bang-xe-may-giu-thang-dung-tranh-cop-kin-va-khong-de-cham-cuc/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/cho-binh-gas-bang-xe-may-giu-binh-dung-khoa-van-va-tranh-nguon-nong/index.html",
   "kind": "article"
  },
@@ -2137,6 +2145,10 @@
  },
  {
   "rel": "guide/su-dung-xe/cho-ga-vit-va-long-gia-cam-bang-xe-may-buoc-long-giu-thang-bang-va-giu-ve-sinh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/cho-hang-chat-cao-hoac-vat-dung-dung-qua-duoi-canh-thap-day-dien-mai-hien-va-cong-nhin-len-truoc-khi-vao/index.html",
   "kind": "article"
  },
  {
@@ -2229,6 +2241,10 @@
  },
  {
   "rel": "guide/mua-xe/chon-xe-may-cho-nguoi-cao-tuoi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/nhu-cau-su-dung/chon-xe-may-cho-nguoi-hay-di-duong-lang-duong-dat-va-cho-do-ra-cho-nhung-diem-nen-xem-truoc-khi-mua/index.html",
   "kind": "article"
  },
  {
@@ -3085,6 +3101,10 @@
  },
  {
   "rel": "tips/meo-bao-duong/dung-ac-quy-xe-may-lam-nguon-dien-tam-khi-mat-dien-nguy-co-chap-chay-het-binh-va-cach-lam-than-trong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/dung-cho-re-trai-tren-duong-lon-de-vao-loi-nho-hay-cong-nha-giu-lai-thang-soi-xe-phia-sau-va-cach-re-hai-nhip/index.html",
   "kind": "article"
  },
  {
@@ -4509,6 +4529,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/nhin-kem-khi-troi-toi-nen-ngai-di-xe-may-ban-dem-sap-lich-han-che-chay-toi-nho-nguoi-don-va-khi-nao-di-kham-mat/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/nhin-qua-vai-truoc-khi-chuyen-huong-vi-sao-guong-xe-may-chua-du-nhin-luc-nao-va-cach-khong-lech-tay-lai/index.html",
   "kind": "article"
  },
  {

@@ -12147,6 +12147,39 @@
  },
  {
   "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/bang-qua-hoac-re-trai-ra-duong-lon-tu-loi-re-nho-cho-khe-tung-nua-duong-cho-dung-giua-hai-dong-va-luc-nen-di-vong/",
+  "title": "Băng qua hoặc rẽ trái ra đường lớn từ lối rẽ nhỏ: chờ khe từng nửa đường, chỗ dừng giữa hai dòng và lúc nên đi vòng",
+  "description": "Từ lối rẽ nhỏ băng qua hay rẽ trái ra đường lớn không đèn: quan sát gì, chờ khe cho cả quãng hay từng nửa đường, ra đi thế nào và khi nào nên đi vòng, dắt bộ.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "lối rẽ nhỏ",
+   "đường lớn không đèn",
+   "khe trống trong dòng xe",
+   "chỗ trú giữa hai dòng",
+   "rẽ trái nhập dòng",
+   "đi vòng"
+  ],
+  "keywords": [
+   "băng qua đường lớn từ lối rẽ nhỏ",
+   "rẽ trái ra đường lớn bằng xe máy",
+   "cắt ngang đường lớn không đèn",
+   "chờ khe xe để qua đường",
+   "đi vòng thay vì cắt ngang"
+  ],
+  "seoTitle": "Băng qua đường lớn từ lối rẽ nhỏ: chờ khe và lúc nên đi vòng",
+  "primaryKeyword": "băng qua đường lớn từ lối rẽ nhỏ",
+  "headings": [
+   "Vì sao băng qua hai dòng xe khó hơn nhập một dòng",
+   "Quan sát gì trước khi ra khỏi lối rẽ",
+   "Chờ khe cho cả quãng hay đi từng nửa đường",
+   "Lúc ra đi và rẽ trái nhập vào dòng phía xa",
+   "Khi nào nên đi vòng hay xuống dắt bộ"
+  ],
+  "summary": "Nhà, ruộng hay chợ nằm bên kia một con đường lớn không đèn, người đi xe máy phải từ lối rẽ nhỏ cắt ngang hai dòng xe ngược chiều hoặc rẽ trái nhập vào dòng phía xa. Bài giải thích vì sao việc này khó hơn nhập vào một dòng, cần quan sát gì trước khi rời mép, kh"
+ },
+ {
+  "kind": "article",
   "url": "learn/doc-thong-so/bang-thong-so-xe/",
   "title": "Bảng thông số xe máy: cách đọc, so sánh và tránh bẫy con số",
   "description": "Bảng thông số xe máy chứa hàng chục dòng số liệu. Bài viết hướng dẫn đọc bảng theo nhóm, so sánh hai xe đúng cách và nhận ra bẫy thông số thường gặp khi mua xe.",
@@ -15887,6 +15920,40 @@
  },
  {
   "kind": "article",
+  "url": "garage/dien-ac-quy/cho-binh-ac-quy-moi-mua-hoac-ac-quy-cu-bang-xe-may-giu-thang-dung-tranh-cop-kin-va-khong-de-cham-cuc/",
+  "title": "Chở bình ắc quy mới mua hoặc ắc quy cũ bằng xe máy: giữ thẳng đứng, tránh cốp kín và không để chạm cực",
+  "description": "Chở bình ắc quy mới hay ắc quy cũ bằng xe máy: vì sao cần cẩn thận, đựng và bọc cực thế nào, đặt ở đâu trên xe, xử lý bình phồng, rỉ và khi lỡ rỉ dung dịch.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "bình ắc quy",
+   "cực ắc quy",
+   "dung dịch ắc quy",
+   "nắp chụp cực",
+   "băng keo cách điện",
+   "ắc quy phồng",
+   "cốp xe"
+  ],
+  "keywords": [
+   "chở ắc quy bằng xe máy",
+   "mang ắc quy cũ đi đổi",
+   "bọc cực ắc quy khi vận chuyển",
+   "ắc quy để trong cốp xe",
+   "ắc quy rỉ dung dịch khi chở"
+  ],
+  "seoTitle": "Chở ắc quy bằng xe máy: giữ thẳng đứng, bọc cực, tránh cốp kín",
+  "primaryKeyword": "chở ắc quy bằng xe máy",
+  "headings": [
+   "Vì sao chở ắc quy cần cẩn thận hơn đồ thường",
+   "Đựng bình và bọc cực thế nào",
+   "Đặt ở đâu trên xe cho chắc và mát",
+   "Ắc quy cũ phồng, rỉ hay có mùi",
+   "Lỡ rỉ dung dịch và khi nào nhờ tiệm lắp tận nơi"
+  ],
+  "summary": "Mua bình ắc quy mới mang về nhờ thợ lắp, hay mang ắc quy cũ đi đổi, đi bỏ, nhiều người để bình trong cốp, nhét túi ni lông hay treo ở móc xe. Bình nghiêng có thể rỉ dung dịch, hai cực chạm vật kim loại có thể gây chập. Bài giải thích vì sao chở ắc quy cần cẩn "
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/cho-binh-gas-bang-xe-may-giu-binh-dung-khoa-van-va-tranh-nguon-nong/",
   "title": "Chở bình gas bằng xe máy: giữ bình đứng thẳng, khóa van, tránh nguồn nóng và những điều không được làm",
   "description": "Chở bình gas bằng xe máy: giữ bình đứng, đóng van, buộc chắc, xa ống xả; cách đặt bình, lái khi chở và việc cần làm khi ngửi thấy mùi gas giữa đường.",
@@ -16173,6 +16240,40 @@
    "Giữ vệ sinh và khi nào nên dùng phương tiện khác"
   ],
   "summary": "Bài giải thích vì sao chở gà vịt sống khác hẳn chở hàng thường: con vật giãy và dồn về một bên làm trọng tâm xe đổi bất ngờ, tiếng kêu và lông bay làm người lái giật mình, còn phân và nước làm bẩn và trơn. Nội dung đi qua cách chọn lồng chắc có đáy kín và nắp "
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/cho-hang-chat-cao-hoac-vat-dung-dung-qua-duoi-canh-thap-day-dien-mai-hien-va-cong-nhin-len-truoc-khi-vao/",
+  "title": "Chở hàng chất cao hoặc vật dựng đứng qua dưới cành thấp, dây điện, mái hiên và cổng: nhìn lên trước khi vào",
+  "description": "Chở bó cỏ, rơm, sào hay thùng chồng cao bằng xe máy dễ vướng cành thấp, dây điện, mái hiên, cổng. Cách chất hàng thấp, nhìn lên trước và xử lý khi vướng.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "hàng chất cao",
+   "vật dựng đứng",
+   "cành cây thấp",
+   "dây điện võng",
+   "mái hiên",
+   "cổng làng",
+   "chia chuyến"
+  ],
+  "keywords": [
+   "chở hàng chất cao bằng xe máy",
+   "chở sào cây dựng đứng trên xe máy",
+   "hàng vướng dây điện khi chở",
+   "chở bó cỏ rơm bằng xe máy",
+   "đi xe máy qua cổng thấp khi chở hàng"
+  ],
+  "seoTitle": "Chở hàng chất cao bằng xe máy: nhìn lên trước khi qua cành, dây, cổng",
+  "primaryKeyword": "chở hàng chất cao bằng xe máy",
+  "headings": [
+   "Vì sao người lái hay quên chiều cao của hàng",
+   "Những chỗ hay làm hàng cao bị vướng",
+   "Chất hàng sao cho thấp và chắc",
+   "Nhìn lên trước khi vào và khi đã vướng thì làm gì",
+   "Khi nào nên chia chuyến hay gọi xe khác"
+  ],
+  "summary": "Khi chở bó cỏ, bó rơm, sào tre, cây cảnh hay thùng hàng chồng cao trên xe máy, người lái thường chỉ nhìn đường trước mặt và quên rằng hàng sau lưng cao hơn đầu mình. Hàng mắc vào cành thấp, dây điện võng, dây phơi, mái hiên hay cổng có thể làm xe giật ngược, h"
  },
  {
   "kind": "article",
@@ -16917,6 +17018,40 @@
    "Thử xe cùng người sử dụng trước khi mua: trình tự thử và dấu hiệu cần để ý"
   ],
   "summary": "Bài dành cho người nhà đang giúp cha mẹ lớn tuổi chọn xe máy. Bộ tiêu chí đi theo những việc người cầm lái phải tự làm: lên xuống và đặt chân với chiều cao yên vừa tầm, dắt và dựng chân chống với trọng lượng vừa sức, giữ vững khi dừng và rời chỗ, rồi khởi động"
+ },
+ {
+  "kind": "article",
+  "url": "hub/nhu-cau-su-dung/chon-xe-may-cho-nguoi-hay-di-duong-lang-duong-dat-va-cho-do-ra-cho-nhung-diem-nen-xem-truoc-khi-mua/",
+  "title": "Chọn xe máy cho người hay đi đường làng, đường đất và chở đồ ra chợ: những điểm nên xem trước khi mua",
+  "description": "Sống ở vùng quê, hay đi đường đất và chở bao ra chợ: đường quê đòi hỏi gì ở chiếc xe, nên xem gầm, lốp, baga, phanh, phụ tùng ra sao, xe số, xe ga hay xe điện.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Nhu cầu sử dụng",
+  "entities": [
+   "đường làng",
+   "đường đất",
+   "chở đồ ra chợ",
+   "khoảng sáng gầm",
+   "baga",
+   "phụ tùng dễ tìm",
+   "lái thử có tải"
+  ],
+  "keywords": [
+   "chọn xe máy đi đường làng",
+   "xe máy cho người ở nông thôn",
+   "xe máy đi đường đất chở hàng",
+   "chọn xe chở đồ ra chợ",
+   "mua xe máy cho vùng quê"
+  ],
+  "seoTitle": "Chọn xe máy đi đường làng, đường đất, chở đồ ra chợ",
+  "primaryKeyword": "chọn xe máy đi đường làng",
+  "headings": [
+   "Đường quê đòi hỏi gì ở chiếc xe",
+   "Những điểm nên xem trên xe",
+   "Xe số hay xe ga trên đường làng, đường đất",
+   "Xe điện ở vùng quê cần hỏi gì",
+   "Hỏi thợ trong vùng và lái thử với tải gần giống thật"
+  ],
+  "summary": "Người ở vùng quê thường cần một chiếc xe vừa đi đường đất, đường làng hẹp, vừa chở bao, chở thùng ra chợ, vừa lên thị trấn, trong khi tiệm sửa có thể ở khá xa. Bài giải thích đường quê đòi hỏi gì ở chiếc xe, những điểm nên xem khi chọn như khoảng sáng gầm, chắ"
  },
  {
   "kind": "article",
@@ -23815,6 +23950,39 @@
    "Chuẩn bị trước cho những đợt mất điện"
   ],
   "summary": "Bài giải thích vì sao ắc quy xe máy không phải nguồn điện cho đồ dùng trong nhà: bình nhỏ, sinh ra để đề máy và nuôi đèn, còi của chính chiếc xe, còn điện của bình khác hẳn điện lưới. Nội dung nêu các nguy cơ khi tự lấy điện như chập mạch, tia lửa, nóng dây, r"
+ },
+ {
+  "kind": "article",
+  "url": "ride/an-toan-giao-thong/dung-cho-re-trai-tren-duong-lon-de-vao-loi-nho-hay-cong-nha-giu-lai-thang-soi-xe-phia-sau-va-cach-re-hai-nhip/",
+  "title": "Dừng chờ rẽ trái trên đường lớn để vào lối nhỏ hay cổng nhà: giữ lái thẳng, soi xe phía sau và cách rẽ hai nhịp",
+  "description": "Đứng chờ rẽ trái vào ngõ hay cổng nhà trên đường lớn không đèn: vì sao dễ bị va từ phía sau, chuẩn bị từ xa, giữ bánh thẳng, liếc gương và cách rẽ hai nhịp an toàn.",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "entities": [
+   "rẽ trái trên đường lớn",
+   "đứng chờ giữa dòng",
+   "va chạm từ phía sau",
+   "đèn phanh",
+   "rẽ hai nhịp",
+   "đi quá rồi quay lại"
+  ],
+  "keywords": [
+   "dừng chờ rẽ trái trên đường lớn",
+   "rẽ trái vào ngõ trên đường lớn",
+   "bị xe sau tông khi đang chờ rẽ",
+   "rẽ hai nhịp bằng xe máy",
+   "giữ bánh thẳng khi chờ rẽ trái"
+  ],
+  "seoTitle": "Dừng chờ rẽ trái trên đường lớn: giữ lái thẳng và rẽ hai nhịp",
+  "primaryKeyword": "dừng chờ rẽ trái trên đường lớn",
+  "headings": [
+   "Vì sao lúc đứng chờ rẽ trái dễ bị va từ phía sau",
+   "Chuẩn bị từ xa trước khi dừng chờ",
+   "Đứng chờ thế nào: bánh thẳng, đèn phanh, liếc gương",
+   "Cách rẽ hai nhịp từ lề phải",
+   "Khi nào nên đi quá rồi quay lại và khi trời tối, mưa"
+  ],
+  "summary": "Cổng nhà, lối vào xóm hay cửa hàng nằm bên trái một con đường lớn không đèn, người đi xe máy phải giảm tốc rồi đứng chờ giữa dòng cho xe ngược chiều qua, trong khi xe nhanh đang tới từ phía sau. Bài giải thích vì sao tư thế chờ này dễ bị va từ phía sau, cần ch"
  },
  {
   "kind": "article",
@@ -35202,6 +35370,40 @@
    "Khi nào nên đi khám mắt"
   ],
   "summary": "Bài dành cho người thấy mắt kém hẳn khi trời tối, bị chói đèn xe ngược chiều lâu hơn người khác và vì thế ngại đi xe máy ban đêm. Nội dung giúp nhận ra những dấu hiệu cụ thể trên đường, giải thích vì sao không nên chỉ cố chịu, rồi tập trung vào cách sắp đời số"
+ },
+ {
+  "kind": "article",
+  "url": "learn/ky-thuat-lai-xe/nhin-qua-vai-truoc-khi-chuyen-huong-vi-sao-guong-xe-may-chua-du-nhin-luc-nao-va-cach-khong-lech-tay-lai/",
+  "title": "Nhìn qua vai trước khi chuyển hướng: vì sao gương xe máy chưa đủ, nhìn lúc nào và cách không lệch tay lái",
+  "description": "Vì sao chỉ nhìn gương xe máy là chưa đủ, những lúc cần liếc qua vai trước khi chuyển làn, rẽ, tách lề, và cách xoay đầu nhanh mà tay lái không lệch, xe không chao.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kỹ thuật lái xe",
+  "entities": [
+   "nhìn qua vai",
+   "gương chiếu hậu",
+   "điểm mù",
+   "chuyển làn",
+   "tách khỏi lề",
+   "tay lái lệch",
+   "xi nhan"
+  ],
+  "keywords": [
+   "nhìn qua vai khi đi xe máy",
+   "điểm mù xe máy",
+   "gương xe máy không thấy xe bên cạnh",
+   "ngoái đầu bị lệch tay lái",
+   "kiểm tra điểm mù trước khi chuyển làn"
+  ],
+  "seoTitle": "Nhìn qua vai khi đi xe máy: vì sao gương chưa đủ, cách không lệch lái",
+  "primaryKeyword": "nhìn qua vai khi đi xe máy",
+  "headings": [
+   "Vì sao gương xe máy chưa đủ",
+   "Những lúc cần nhìn qua vai",
+   "Nhìn nhanh mà không lệch tay lái",
+   "Phối hợp gương, xi nhan và cái liếc qua vai",
+   "Luyện ở bãi vắng và những lúc không nên ngoái lâu"
+  ],
+  "summary": "Nhiều người đi xe máy quen chỉ liếc gương rồi chuyển làn, rẽ hay tách khỏi lề, trong khi một xe máy khác đang nằm ở điểm mù sát sườn không hiện trong gương. Khi thử ngoái đầu thì tay lái lệch theo, xe chao, nên không ít người bỏ luôn thói quen nhìn qua vai. Bà"
  },
  {
   "kind": "article",
