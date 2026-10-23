@@ -172,6 +172,22 @@ for (const a of liveArtModules) {
   if (a.related && a.related.length >= 2) pass++; else ok(false, `"${a.slug}" có ≥2 bài liên quan`);
 }
 ok(lowQa === 0, 'Không có bài dưới 70 điểm');
+// Unit: G5 phải chặn steps dạng chuỗi trần (render.js đọc s.title/s.detail — chuỗi
+// render thành mục rỗng; lỗi thật ở S01959 ngày 2026-10-23). Bài có steps {title, detail} vẫn đạt.
+{
+  const base = liveArtModules.find(a => Array.isArray(a.steps) && a.steps.length && typeof a.steps[0] === 'object');
+  ok(!!base, 'Có bài live với steps dạng {title, detail} để làm mẫu unit test G5');
+  if (base) {
+    const good = qaArticle(base);
+    ok(good.pass && !good.criticals.some(c => /^G5/.test(c)), 'G5 chấp nhận steps {title, detail}', good.criticals.join('; '));
+    const badStr = Object.assign({}, base, { steps: base.steps.map(st => st.title + '. ' + st.detail) });
+    const r1 = qaArticle(badStr);
+    ok(!r1.pass && r1.criticals.some(c => /^G5/.test(c)), 'G5 chặn steps dạng chuỗi trần (FAIL bất kể điểm)', 'điểm ' + r1.score + '; ' + r1.criticals.join('; '));
+    const badEmpty = Object.assign({}, base, { steps: base.steps.map(st => ({ title: st.title, detail: '' })) });
+    const r2 = qaArticle(badEmpty);
+    ok(!r2.pass && r2.criticals.some(c => /^G5/.test(c)), 'G5 chặn steps thiếu detail', r2.criticals.join('; '));
+  }
+}
 // GARBAGE toàn repo nguồn
 const GARBAGE = /[\u4e00-\u9fff\u0400-\u04ff\u3040-\u30ff\uac00-\ud7ff]/;
 let garbageFiles = [];

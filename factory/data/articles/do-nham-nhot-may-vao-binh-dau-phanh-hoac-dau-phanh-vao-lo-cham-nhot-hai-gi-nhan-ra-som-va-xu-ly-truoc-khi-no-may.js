@@ -1,0 +1,95 @@
+// AI WIKI TOTAL — S01970 (topic V2); không nêu số liệu, giá hay tên hãng.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'do-nham-nhot-may-vao-binh-dau-phanh-hoac-dau-phanh-vao-lo-cham-nhot-hai-gi-nhan-ra-som-va-xu-ly-truoc-khi-no-may',
+  title: 'Đổ nhầm nhớt máy vào bình dầu phanh hoặc dầu phanh vào lỗ châm nhớt: hại gì, nhận ra sớm và xử lý trước khi nổ máy',
+  seoTitle: 'Đổ nhầm nhớt vào bình dầu phanh, dầu phanh vào máy: làm gì ngay',
+  metaDescription: 'Rót nhầm nhớt vào bình dầu phanh hay dầu phanh vào lỗ châm nhớt: hại ra sao, nhận ra sớm qua màu và mùi, việc tự làm và việc giao thợ trước khi nổ máy.',
+  summary: 'Tự châm dầu ở nhà, các chai để cạnh nhau, nhãn mờ, rót xong mới giật mình nhận ra chai vừa cầm là nhớt máy chứ không phải dầu phanh, hoặc ngược lại. Xe chưa nổ máy, tay phanh chưa bóp mấy, và câu hỏi đặt ra là hút phần đổ nhầm ra là xong hay phải tháo rửa cả hệ thống. Bài này tách riêng từng kiểu nhầm: vì sao nhớt máy lọt vào bình dầu phanh là nhầm lẫn nặng nhất vì cao su trong hệ phanh trương nở dần theo ngày, vì sao dầu phanh hay nước làm mát rót vào lỗ châm nhớt phải xả hết trước khi nổ máy, các kiểu nhầm nhẹ hơn giữa nhớt láp, nhớt xe số và nhớt tay ga, rồi cách nhận ra sớm qua màu, độ sánh, mùi, vạch mức và cách kể với thợ sao cho đúng.',
+  quickAnswer: 'Vừa phát hiện rót nhầm thì dừng tay ngay: không nổ máy, không bóp hay đạp phanh, giữ lại chai vừa rót. Nhớt máy vào bình dầu phanh là trường hợp nặng nhất vì dầu gốc khoáng thường làm cúp pen, phớt và lớp lót ống phanh trương nở dần, nên chỉ hút lớp nổi trên bình là chưa đủ; xe cần được dắt hoặc chở tới thợ để tháo rửa và thay phần cao su, không tự xả hay tháo hệ phanh ở nhà. Dầu phanh hay nước làm mát rót vào lỗ châm nhớt thì chưa nổ máy là may: xả hết nhớt khi máy nguội, thay lọc, châm nhớt mới rồi theo dõi màu nhớt vài ngày; nếu không quen tự thay nhớt thì gọi thợ. Nhầm giữa các loại nhớt bôi trơn với nhau nhẹ hơn nhiều, thường chỉ cần xả thay lại sớm.',
+  keyPoints: [
+    'Chai nhớt, dầu phanh, nhớt láp và nước làm mát hay có cỡ chai giống nhau, nhãn mờ vì dính dầu và được xếp cạnh nhau, nên nhầm lẫn thường xảy ra lúc làm nhiều việc một lượt ở nhà.',
+    'Nhớt máy lọt vào bình dầu phanh là nặng nhất: cao su trong xi lanh chính, heo dầu và ống phanh thường trương nở từ từ, dẫn tới bó phanh hoặc mất áp sau vài ngày, nên hút phần nổi không thay được việc tháo rửa và thay cao su.',
+    'Dầu phanh hay nước làm mát rót vào lỗ châm nhớt phá màng bôi trơn và có thể tạo bọt, cặn; việc đầu tiên là không nổ máy, xả hết nhớt, thay lọc rồi theo dõi màu nhớt sau khi thay.',
+    'Nhầm nhớt láp với nhớt máy hay nhớt tay ga với nhớt xe số thuộc nhóm nhẹ hơn vì cùng là dầu bôi trơn; thường chỉ cần xả thay lại sớm, nhưng không nên để tới kỳ thay sau.',
+    'Nhận ra sớm qua lớp chất lỏng tách màu trong bình phanh, nhớt loãng hay có vệt lạ trên que, mùi khác thường và vạch mức vọt quá cao; kể với thợ rõ chai gì, ước lượng bao nhiêu, đã bóp phanh hay nổ máy chưa.'
+  ],
+  category: 'wiki',
+  hub: 'dau-nhot',
+  date: '2026-10-23',
+  updated: '2026-10-23',
+  entities: ['đổ nhầm nhớt vào bình dầu phanh', 'dầu phanh lọt vào lỗ châm nhớt', 'cao su hệ phanh trương nở', 'cúp pen xi lanh chính', 'màng bôi trơn', 'nhớt láp', 'nhớt xe tay ga và nhớt xe số', 'nước làm mát lẫn vào nhớt', 'que thăm nhớt'],
+  keywords: ['đổ nhầm nhớt vào bình dầu phanh', 'đổ nhầm dầu phanh vào máy', 'cầm nhầm chai nhớt và dầu phanh', 'nhớt lọt vào hệ thống phanh', 'đổ nhầm nước làm mát vào nhớt'],
+  sections: [
+    P('Vì sao chai nhớt, dầu phanh và nước làm mát dễ cầm nhầm khi tự làm ở nhà', [
+      'Chuyện cầm nhầm chai gần như không xảy ra ở tiệm, nơi mỗi loại dầu có chỗ riêng và thợ làm từng việc một. Nó xảy ra ở nhà, trong góc sân hay hành lang chung cư, dưới ánh sáng vàng buổi tối, khi các chai dùng dở được xếp chung một thùng. Nhớt máy, nhớt láp và dầu phanh đều hay đựng trong chai nhựa cỡ nhỏ, nhãn in cùng tông màu, và sau vài lần cầm bằng tay dính dầu thì phần chữ trên nhãn mờ đi, chỉ còn nhận ra bằng thói quen. Nước làm mát pha sẵn nhiều khi đựng trong chai to hơn, nhưng phần chiết sang chai nhỏ để châm bù lại chẳng có nhãn nào.',
+      'Cách làm việc ở nhà cũng góp phần. Người tự bảo dưỡng thường gom nhiều việc vào một buổi: thay nhớt, châm thêm dầu phanh vì thấy ô kính xuống thấp, bù nước làm mát ở bình phụ, tra nhớt láp. Càng làm nhiều việc liền nhau, bàn tay càng hay với sang chai gần nhất mà không đọc lại nhãn. Thêm nữa, rót thẳng từ chai sang mà không qua phễu riêng cho từng loại khiến chỉ cần một cái với tay sai là chất lỏng đã nằm trong xe, không còn cơ hội nhìn màu để kịp dừng.',
+      'Điều quan trọng cần hiểu là hậu quả của mỗi kiểu nhầm rất khác nhau, vì mỗi chất lỏng được pha chế cho một môi trường riêng. Hệ phanh thủy lực là một hệ kín, kín được là nhờ các chi tiết cao su, và loại cao su ấy được chọn để sống chung với dầu phanh chứ không phải với dầu khoáng. Động cơ thì ngược lại: nó cần một màng dầu liền mạch giữa các mặt kim loại, và bất cứ thứ gì không tạo được màng ấy hay làm nó đứt quãng đều gây hại. Hộp láp hay hộp số chịu đựng tốt hơn một chút vì chỉ cần dầu bôi trơn bánh răng. Vì thế không thể trả lời chung cho mọi kiểu nhầm; phải xem thứ gì đã lọt vào đâu.',
+      'Dù là kiểu nào, phản ứng đầu tiên giống nhau: dừng tay, không nổ máy, không bóp hay đạp phanh, và giữ nguyên cái chai vừa rót cùng cái chai lẽ ra phải rót. Hai cái chai ấy cho bạn và cho thợ biết chính xác chất gì đã vào, còn mức vơi của chai cho biết đại khái bao nhiêu. Phần cất giữ chai dư sao cho nhãn không mờ và các chai không lẫn nhau đã có bài riêng trên trang về việc cất chai nhớt, dầu phanh, nước làm mát còn dư; bài này chỉ bàn về lúc đã lỡ tay.'
+    ]),
+    P('Đổ nhầm nhớt vào bình dầu phanh: cao su trong hệ phanh trương nở ra sao và vì sao hút ra là chưa đủ', [
+      'Dầu phanh dùng trên phần lớn xe máy thường thuộc nhóm gốc glycol, và toàn bộ phần cao su trong hệ phanh được chọn để hợp với nhóm dầu ấy: cúp pen trong xi lanh chính ở tay lái, phớt pít tông và chụp bụi ở heo dầu, màng cao su dưới nắp bình, lớp lót bên trong ống dầu. Nhớt máy là dầu gốc khoáng hoặc gốc hydrocarbon tổng hợp, và loại cao su kia gặp dầu khoáng thường hút dầu vào, mềm ra và phồng lên. Hiện tượng này không xảy ra tức thì mà diễn ra từ từ, nên ngay sau khi rót nhầm mọi thứ vẫn có vẻ bình thường.',
+      'Cái hại nằm ở chữ từ từ ấy. Cúp pen phồng lên có thể kẹt trong lòng xi lanh, không lùi về hết sau khi nhả tay, nên phanh bó dần, đĩa nóng, xe nặng và có thể khóa bánh. Phớt mềm và biến dạng lại có thể hở, tay phanh ôm dần vào tay lái, lực phanh giảm cho tới lúc gần như không còn. Cả hai hướng đều nguy hiểm vì chúng không báo trước rõ ràng: hôm nay phanh vẫn ăn, vài hôm sau mới sinh chuyện giữa đường. Chỉ cần một lượng nhỏ nhớt bám lại trong hệ thống cũng đủ nuôi quá trình trương nở ấy, vì cao su cứ tiếp xúc là cứ hút dần.',
+      'Chính vì vậy việc hút phần nổi trên bình thường không giải quyết được gốc vấn đề. Nhớt nhẹ hơn dầu phanh nên hay nổi thành lớp trên mặt, và hút lớp ấy ra là việc thợ vẫn làm trước tiên, nhưng nhớt đã bám lên thành bình, lên màng cao su dưới nắp, và một phần đã lẫn vào dầu phanh khi rót xuống. Lỗ thông từ bình xuống xi lanh chính nằm ở đáy, nên nếu tay phanh đã bị bóp dù chỉ vài lần, phần dầu lẫn nhớt có thể đã bị đẩy xuống xi lanh và ống. Thợ vì thế thường tháo xi lanh chính và heo dầu để rửa sạch, thay bộ cúp pen và phớt, cân nhắc thay ống dầu nếu nghi đã nhiễm, rồi châm dầu phanh mới và xả khí toàn bộ. Mức độ tháo tới đâu tùy xe và tùy lượng đã rót, thợ sẽ quyết định sau khi xem.',
+      'Việc của bạn trong lúc đó là không làm cho tình hình xấu đi. Không bóp tay phanh hay đạp phanh chân của cụm bị nhầm, không chạy xe tới tiệm vì trên đường kiểu gì cũng phải phanh và mỗi lần phanh là một lần đẩy nhớt sâu hơn vào hệ thống; hãy dắt bộ nếu gần, hoặc nhờ chở, gọi thợ tới nhà. Đóng nắp bình lại cho kín để bụi và hơi ẩm không vào thêm, lau phần tràn ngoài vỏ vì dầu phanh ăn sơn, và tuyệt đối không tự tháo xi lanh, heo dầu, ống dầu hay tự xả hệ phanh ở nhà; phanh là chuyện sinh mạng, phải giao thợ có dụng cụ. Với xe có phanh chống bó cứng hay phanh kết hợp, đường dầu phức tạp hơn và càng cần thợ quen việc. Khi gặp thợ, nói rõ ba điều: đã rót nhớt máy, ước lượng bao nhiêu, và tay phanh đã bị bóp mấy lần hay chưa hề.'
+    ]),
+    P('Dầu phanh hay nước làm mát lọt vào lỗ châm nhớt: màng bôi trơn hỏng thế nào và việc làm trước khi nổ máy', [
+      'Nhớt bảo vệ máy bằng một màng dầu rất mỏng nhưng liền mạch giữa các mặt kim loại chuyển động. Dầu phanh gốc glycol không hòa tan vào nhớt, lại hút ẩm mạnh, nên khi bị trục khuỷu và bánh răng khuấy lên, nó có thể tạo bọt và nhũ, làm màng dầu đứt quãng, chỗ có nhớt chỗ không. Vì hai chất lỏng không hòa hẳn vào nhau, chỉ cần máy chạy là phần đổ nhầm bị bơm nhớt khuấy lẫn và đưa đi khắp máy, nên việc không nổ máy là điều quan trọng nhất. Mức độ hại thực tế tùy xe và tùy lượng, nhưng đó là lý do không nên nổ máy để thử.',
+      'Nước làm mát rót vào lỗ châm nhớt đi theo hướng khác: nước và glycol pha trong đó gặp nhớt tạo thành nhũ tương màu nâu sữa, làm mất khả năng bôi trơn và gây gỉ bên trong máy. Toàn bộ chuyện nhớt nâu sữa, bọt kem dưới nắp châm, nước vào máy theo đường nào và nguy cơ ra sao đã có bài riêng trên trang; bài này chỉ bàn điểm khác biệt của tình huống rót nhầm. Điểm khác ấy là bạn biết chính xác thứ gì đã vào và vào bao nhiêu, và nếu chưa nổ máy thì hai chất lỏng còn nằm tách lớp, chưa bị khuấy trộn vào mọi ngóc ngách. Xử lý vì thế thường gọn hơn nhiều so với trường hợp nước lẫn vào máy mà không biết từ đâu.',
+      'Việc cần làm trước khi nổ máy khá rõ ràng. Không bấm đề, không đạp cần khởi động, kể cả để nghe thử. Xả toàn bộ nhớt khi máy nguội, chấp nhận chờ lâu hơn thường lệ vì nhớt nguội chảy chậm, và để chảy thật kiệt vì phần dầu phanh hay nước nằm ở đáy là phần cần ra hết nhất. Thay lọc nhớt hoặc tháo rửa lưới lọc tùy xe, siết lại ốc xả đúng cách, châm nhớt mới đúng loại đúng mức. Nếu lượng rót nhầm nhiều, thợ thường châm nhớt, cho máy nổ không tải một quãng ngắn rồi xả thêm lần nữa để kéo nốt phần còn bám, trước khi châm lần cuối. Sau đó theo dõi màu và độ sánh của nhớt trên que trong vài ngày đầu; nhớt vẫn trong, không bọt, không đục là tín hiệu tốt.',
+      'Ai làm việc này tùy vào bạn. Nếu bạn đã quen tự thay nhớt, có khay hứng, có dụng cụ mở ốc xả và biết mức châm của xe mình, việc xả thay lúc máy nguội nằm trong khả năng tự làm. Nếu chưa từng làm, đừng chọn hôm nay để tập; gọi thợ tới nhà hoặc dắt, chở xe đi, chứ không nổ máy chạy tới tiệm. Trường hợp đã lỡ nổ máy một lúc rồi mới nhận ra, hãy tắt máy ngay và vẫn làm theo trình tự trên, nhưng kể với thợ máy đã nổ khoảng bao lâu và có tiếng lạ hay khói không, để thợ cân nhắc xả thêm lần nữa và kiểm kỹ hơn sau khi thay.'
+    ]),
+    P('Nhầm nhớt láp với nhớt máy, nhớt xe số với nhớt xe tay ga: mức độ nhẹ hơn và cách xử lý', [
+      'Nhóm này nhẹ hơn hẳn hai nhóm trên vì tất cả đều là dầu bôi trơn cùng họ gốc khoáng hoặc tổng hợp: chúng vẫn tạo được màng dầu, không ăn cao su, không hút ẩm như dầu phanh. Khác biệt nằm ở độ sánh và gói phụ gia, nên hậu quả thường là máy làm việc không đúng ý chứ hiếm khi hỏng ngay. Nói vậy không có nghĩa là để yên cho tới kỳ thay sau; chạy lâu với loại dầu không dành cho chỗ đó vẫn gây mòn hoặc trục trặc âm thầm.',
+      'Nhớt láp rót vào lỗ châm nhớt máy là kiểu nhầm hay gặp ở xe tay ga, vì chai nhớt láp nhỏ và hay để cạnh chai nhớt máy. Nhớt láp thường sánh hơn và có phụ gia chịu áp cho bánh răng, vào máy có thể làm máy nặng, khó nổ khi trời lạnh và nóng hơn. Nếu chỉ châm bù một lượng nhỏ lẫn vào nhớt máy đang có thì đỡ hơn nhiều so với thay nguyên bình bằng nhớt láp. Cách xử lý vẫn là xả thay lại sớm, không cần vội vã giữa đêm nhưng không nên chạy nhiều ngày.',
+      'Chiều ngược lại, nhớt máy rót vào hộp láp, thường ít đáng ngại hơn: nhớt máy loãng hơn và thiếu phụ gia chịu áp cho bánh răng, nên hộp láp có thể ồn hơn hoặc mòn nhanh hơn nếu để lâu, nhưng chạy tạm một quãng ngắn thường không sao. Hộp láp xả và châm lại khá đơn giản, thợ làm nhanh, nên cứ đưa xe đi thay lại đúng loại trong dịp sớm nhất.',
+      'Nhầm giữa nhớt tay ga và nhớt xe số là chuyện của ly hợp. Ở nhiều xe số, ly hợp ngâm chung trong nhớt máy, nên nhớt dành cho xe số được pha chế để ly hợp bám tốt. Nhớt dành cho xe tay ga, nơi ly hợp nằm khô bên ngoài, có thể chứa phụ gia giảm ma sát; rót vào xe số, ly hợp có thể trượt, biểu hiện là lên ga vòng tua tăng mà xe không vọt tương ứng, có khi kèm mùi khét. Nếu thấy vậy, thay lại nhớt đúng loại sớm; trượt kéo dài làm mòn bố ly hợp. Chiều ngược lại, nhớt xe số rót vào tay ga, thường ít ảnh hưởng thấy được, chỉ nên thay lại ở lần tới. Tất cả các nhận định này tùy xe và tùy công thức nhớt, nên khi phân vân cứ xả thay lại cho yên tâm.'
+    ]),
+    P('Nhận ra sớm qua màu, độ sánh, mùi và vạch mức; việc tự làm được và việc phải giao thợ', [
+      'Nhiều người chỉ nhận ra khi cầm lại cái chai, nhưng bản thân chất lỏng trong xe cũng để lộ manh mối nếu để ý. Ở bình dầu phanh, dầu bình thường trong, màu từ gần không màu tới vàng nhạt, loãng gần như nước và chỉ hơi nhờn. Nếu qua ô kính hay khi mở nắp thấy một lớp sẫm màu hơn nổi bên trên, mặt dầu có váng, hai lớp tách nhau không hòa, hoặc mức vọt quá vạch trên dù bạn mới định châm bù một chút, thì rất có thể nhớt đã lọt vào. Mùi cũng khác: nhớt có mùi dầu máy quen thuộc, còn dầu phanh có mùi gắt hơi ngọt rất riêng.',
+      'Ở lỗ châm nhớt, nhớt mới thường có màu vàng hổ phách và sánh rõ khi chảy trên que. Nhớt bỗng loãng bất thường, có vệt trong tách riêng, có bọt li ti, hoặc ngả màu sữa đục là dấu hiệu có thứ lạ lẫn vào. Dầu phanh nặng hơn nhớt nên có thể chìm xuống đáy và que thăm chưa thấy ngay, vì thế đừng dựa vào que để kết luận là không sao; hãy dựa vào cái chai đã vơi. Mùi ngọt gắt hay mùi hơi hắc bốc lên từ lỗ châm khi chưa nổ máy cũng là manh mối đáng tin.',
+      'Vạch mức là người bạn ít được để ý nhất. Khi bạn định châm bù một lượng nhỏ mà mức lại vọt quá vạch trên rõ rệt, hay bình phanh đầy tràn ra ngoài, hãy dừng lại tự hỏi vừa rót từ chai nào và bao nhiêu. Thói quen nhìn mức trước và sau mỗi lần châm giúp phát hiện nhầm ngay tại chỗ, lúc chưa bóp phanh, chưa nổ máy, là lúc xử lý nhẹ nhàng nhất.',
+      'Việc tự làm được gói gọn trong mấy điều: dừng ngay, không nổ máy, không bóp hay đạp phanh, lau phần tràn ngoài vỏ, giữ lại cả hai chai, chụp ảnh bình hay que, ghi lại khoảng lượng đã rót và thời điểm. Nếu nhầm vào lỗ châm nhớt và bạn quen tự thay nhớt, có thể tự xả thay khi máy nguội như phần trên. Việc phải giao thợ là mọi thứ liên quan tới hệ phanh, từ hút, tháo, rửa, thay cao su tới xả khí; là trường hợp nước làm mát đã lẫn vào nhớt; và là kiểm tra sau khi đã lỡ nổ máy. Khi kể với thợ, nói theo thứ tự: chất gì đã vào đâu, ước lượng bao nhiêu, đã bóp phanh hay nổ máy chưa và bao lâu, phát hiện từ lúc nào. Sau khi sửa, theo dõi tay phanh vài ngày xem có bó, có mềm dần hay xe có kéo lệch không, và nhìn màu nhớt trên que; thấy khác thường thì quay lại thợ ngay. Phần thay dầu phanh định kỳ và đổ nhầm nhiên liệu vào bình xăng đã có bài riêng trên trang.'
+    ])
+  ],
+  checklist: [
+    'Vừa nhận ra rót nhầm: dừng tay, không nổ máy, không bóp hay đạp phanh, giữ lại cả chai đã rót lẫn chai lẽ ra phải rót.',
+    'Nhớt máy vào bình dầu phanh: đóng nắp bình, lau phần tràn, dắt bộ hoặc chở xe tới thợ; không tự hút, tháo hay xả hệ phanh ở nhà.',
+    'Dầu phanh hay nước làm mát vào lỗ châm nhớt: xả hết nhớt khi máy nguội, thay lọc, châm nhớt mới; không quen tự làm thì gọi thợ, không chạy xe tới tiệm.',
+    'Nhầm nhớt láp, nhớt tay ga, nhớt xe số với nhau: xả thay lại đúng loại trong dịp sớm nhất, để ý ly hợp có trượt không.',
+    'Nhìn kỹ bình phanh và que thăm: lớp tách màu, váng, bọt, nhớt loãng bất thường hay mức vọt quá vạch trên là dấu hiệu lẫn chất lạ.',
+    'Kể với thợ đủ bốn ý: chất gì vào đâu, ước lượng bao nhiêu, đã bóp phanh hay nổ máy chưa và bao lâu, phát hiện từ lúc nào.',
+    'Sau khi sửa: theo dõi tay phanh có bó hay mềm dần không và màu nhớt trên que trong vài ngày đầu.'
+  ],
+  steps: [
+    { title: 'Dừng ngay và giữ chứng cứ', detail: 'Không nổ máy, không bóp hay đạp phanh; đặt hai cái chai cạnh nhau, nhìn mức vơi để ước lượng lượng đã rót và chụp ảnh bình hay que.' },
+    { title: 'Xác định kiểu nhầm', detail: 'Nhớt vào bình phanh là nặng nhất; dầu phanh hay nước làm mát vào lỗ châm nhớt là nặng nhì; các loại nhớt bôi trơn lẫn nhau là nhẹ hơn.' },
+    { title: 'Hệ phanh: giao thợ nguyên trạng', detail: 'Đóng nắp bình, lau phần tràn, dắt bộ hoặc chở xe, gọi thợ tới nhà; để thợ hút, tháo rửa, thay cao su và xả khí, không tự làm.' },
+    { title: 'Lỗ châm nhớt: xả hết trước khi nổ máy', detail: 'Máy nguội, xả thật kiệt, thay lọc hoặc rửa lưới lọc, châm nhớt mới đúng loại; lượng nhầm nhiều thì nổ không tải một quãng ngắn rồi xả thêm lần nữa.' },
+    { title: 'Kể rõ với thợ', detail: 'Nói chất gì vào đâu, bao nhiêu, đã bóp phanh hay nổ máy chưa và bao lâu, phát hiện lúc nào; đưa thợ xem hai cái chai.' },
+    { title: 'Theo dõi sau sửa', detail: 'Vài ngày đầu để ý tay phanh có bó, mềm dần hay kéo lệch không, nhớt trên que có trong và không bọt không; khác thường thì quay lại thợ.' }
+  ],
+  warnings: [
+    'Không tự hút, tháo xi lanh chính, heo dầu, ống dầu hay tự xả hệ phanh ở nhà sau khi rót nhầm nhớt vào bình dầu phanh; phanh hỏng dần theo ngày và mọi việc trên hệ phanh phải giao thợ.',
+    'Không chạy xe tới tiệm khi bình dầu phanh đã nhiễm nhớt; mỗi lần phanh trên đường là một lần đẩy nhớt sâu hơn vào xi lanh và ống.',
+    'Không nổ máy hay đạp cần khởi động để thử khi dầu phanh hoặc nước làm mát đã rót vào lỗ châm nhớt; phần chất lạ có thể nằm ngay chỗ bơm nhớt hút lên.',
+    'Không đổ phần chất lỏng đã hút hay xả ra xuống cống hay đất; gom vào chai kín và gửi nơi thu gom dầu thải.',
+    'Không tự ý pha thêm dầu khác để trung hòa; chỉ xả bỏ và châm lại đúng loại theo sách hướng dẫn của xe.'
+  ],
+  notes: [
+    'Loại dầu phanh, vật liệu cao su trong hệ phanh, vị trí lỗ châm và mức châm khác nhau tùy xe; mức độ hại và phạm vi phải tháo rửa chỉ thợ xem trực tiếp mới kết luận được. Hãy đối chiếu sách hướng dẫn sử dụng của xe mình.',
+    'Bài tập trung vào tình huống rót nhầm chất lỏng bảo dưỡng; nhớt nâu sữa do nước vào máy, cất giữ chai dư, thay dầu phanh định kỳ và đổ nhầm nhiên liệu đã có các bài riêng trên trang.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng của nhà sản xuất xe, phần bảo dưỡng, dầu nhớt, dầu phanh và nước làm mát',
+    'Tài liệu kỹ thuật cơ bản về hệ thống phanh thủy lực, bôi trơn động cơ và tài liệu đào tạo lái xe an toàn'
+  ],
+  related: [
+    'chai-nhot-dau-phanh-nuoc-lam-mat-va-mo-con-du-cat-the-nao-mo-nap-roi-dung-lai-duoc-khong-va-khi-nao-nen-bo',
+    'nhot-xe-may-chuyen-mau-nau-sua-hoac-co-bot-kem-nuoc-lan-vao-tu-dau-nguy-co-cho-may-va-viec-can-lam-truoc-khi-no-may-tiep',
+    'do-nham-nhien-lieu-xe-may-xang-pha-nhot-dau-diesel',
+    'xe-may-bi-ro-nhot-nguyen-nhan-va-xu-ly',
+    'dau-phanh-xe-may-khi-nao-thay'
+  ]
+};

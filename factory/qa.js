@@ -96,6 +96,11 @@ function qaArticle(a, ctx) {
   // G5 render-ok: render thử trang + không ký tự rác (CJK/Cyrillic/Hangul).
   let renderOk = !GARBAGE_RE.test(JSON.stringify(a));
   let renderNote = '';
+  // steps phải là {title, detail} không rỗng: render.js đọc s.title/s.detail, chuỗi trần
+  // render thành mục rỗng "<li><strong>.</strong> </li>" (lỗi S01959, 2026-10-23) — chặn ở gate render.
+  const stepsBad = Array.isArray(a && a.steps) && a.steps.some(st => !st || typeof st !== 'object' ||
+    !String(st.title || '').trim() || !String(st.detail || '').trim());
+  if (renderOk && stepsBad) { renderOk = false; renderNote = 'steps phải là {title, detail} không rỗng (chuỗi trần render thành mục rỗng)'; }
   if (renderOk) {
     try {
       const { CATEGORIES } = require('./data/categories');
@@ -110,7 +115,7 @@ function qaArticle(a, ctx) {
     } catch (e) {
       renderOk = false; renderNote = 'render lỗi: ' + (e && e.message ? e.message : e);
     }
-  } else {
+  } else if (!renderNote) {
     renderNote = 'chứa ký tự rác (CJK/Cyrillic/Hangul)';
   }
   add('G5 Render được trang sạch (không rác, không lỗi render)', renderOk, renderNote, true);
