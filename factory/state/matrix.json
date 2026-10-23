@@ -28743,11 +28743,13 @@
    "title": "Đoạn đường đang sửa chỉ còn một làn đi luân phiên: người điều tiết, đèn tạm, chờ ở đâu và đi theo xe dẫn thế nào",
    "primaryIntent": "informational/doan-duong-dang-sua-chi-con-mot-lan-di-luan-phien-nguoi-dieu-tiet-den-tam-cho-o-dau-va-di-theo-xe-dan-the-nao",
    "notes": "source=topic-v2 topicId=T002141",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:11:29.108Z",
-   "updatedAt": "2026-10-23T16:11:29.108Z"
+   "updatedAt": "2026-10-23T16:23:15.254Z",
+   "seoScore": 100,
+   "words": 3222
   },
   {
    "id": "S01961",
@@ -28756,11 +28758,13 @@
    "title": "Xe máy cũ vừa dọn bóng, sơn dặm trước khi bán: vì sao sạch quá phải xem kỹ hơn và dấu vết dọn thường bỏ sót",
    "primaryIntent": "informational/xe-may-cu-vua-don-bong-son-dam-truoc-khi-ban-vi-sao-sach-qua-phai-xem-ky-hon-va-dau-vet-don-thuong-bo-sot",
    "notes": "source=topic-v2 topicId=T002143",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:11:29.303Z",
-   "updatedAt": "2026-10-23T16:11:29.303Z"
+   "updatedAt": "2026-10-23T16:23:15.254Z",
+   "seoScore": 100,
+   "words": 3195
   },
   {
    "id": "S01962",
