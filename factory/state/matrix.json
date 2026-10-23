@@ -28428,11 +28428,13 @@
    "title": "Tiếng gõ trong máy khi tăng ga nặng tải, leo dốc: kích nổ hay gõ cơ khí, cách phân biệt và khi nào nên dừng",
    "primaryIntent": "troubleshooting/tieng-go-trong-may-khi-tang-ga-nang-tai-leo-doc-kich-no-hay-go-co-khi-cach-phan-biet-va-khi-nao-nen-dung",
    "notes": "source=topic-v2 topicId=T002118",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:09.929Z",
-   "updatedAt": "2026-10-23T09:05:09.929Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3344
   },
   {
    "id": "S01940",
@@ -28441,11 +28443,13 @@
    "title": "Xe máy nổ bụp ngược lên họng gió hoặc hộp lọc gió khi đề hay tăng ga: khác nổ ở ống xả thế nào và do đâu",
    "primaryIntent": "troubleshooting/xe-may-no-bup-nguoc-len-hong-gio-hoac-hop-loc-gio-khi-de-hay-tang-ga-khac-no-o-ong-xa-the-nao-va-do-dau",
    "notes": "source=topic-v2 topicId=T002119",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:12.036Z",
-   "updatedAt": "2026-10-23T09:05:12.037Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3206
   },
   {
    "id": "S01941",
@@ -28454,11 +28458,13 @@
    "title": "Ống thở động cơ xe máy nhỏ nhớt hoặc nhớt đọng trong hộp lọc gió: vì sao có, khi nào bình thường và khi nào đáng lo",
    "primaryIntent": "informational/ong-tho-dong-co-xe-may-nho-nhot-hoac-nhot-dong-trong-hop-loc-gio-vi-sao-co-khi-nao-binh-thuong-va-khi-nao-dang-lo",
    "notes": "source=topic-v2 topicId=T002120",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:14.053Z",
-   "updatedAt": "2026-10-23T09:05:14.053Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3197
   },
   {
    "id": "S01942",
@@ -28467,11 +28473,13 @@
    "title": "Xe số khó về số mo khi dừng đèn đỏ, phải nhích xe hay nhả côn mới về được: vì sao, do côn, nhớt hay thói quen",
    "primaryIntent": "troubleshooting/xe-so-kho-ve-so-mo-khi-dung-den-do-phai-nhich-xe-hay-nha-con-moi-ve-duoc-vi-sao-do-con-nhot-hay-thoi-quen",
    "notes": "source=topic-v2 topicId=T002121",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:16.070Z",
-   "updatedAt": "2026-10-23T09:05:16.070Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3194
   },
   {
    "id": "S01943",
@@ -28480,11 +28488,13 @@
    "title": "Nhớt xe máy loãng và có mùi xăng, mức nhớt tăng thay vì giảm: xăng lọt xuống các-te vì sao và nguy cơ cho máy",
    "primaryIntent": "troubleshooting/nhot-xe-may-loang-va-co-mui-xang-muc-nhot-tang-thay-vi-giam-xang-lot-xuong-cac-te-vi-sao-va-nguy-co-cho-may",
    "notes": "source=topic-v2 topicId=T002122",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:18.217Z",
-   "updatedAt": "2026-10-23T09:05:18.217Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 91,
+   "words": 3183
   },
   {
    "id": "S01944",
@@ -28493,11 +28503,13 @@
    "title": "Đèn xe máy hay cháy bóng liên tục hoặc sáng rực khi ga mạnh rồi tối lúc cầm chừng: điện áp bộ nạp, bóng hay chân đèn",
    "primaryIntent": "troubleshooting/den-xe-may-hay-chay-bong-lien-tuc-hoac-sang-ruc-khi-ga-manh-roi-toi-luc-cam-chung-dien-ap-bo-nap-bong-hay-chan-den",
    "notes": "source=topic-v2 topicId=T002123",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:20.278Z",
-   "updatedAt": "2026-10-23T09:05:20.279Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3209
   },
   {
    "id": "S01945",
@@ -28506,11 +28518,13 @@
    "title": "Vết xước xoáy li ti trên sơn xe máy hiện dưới nắng: do khăn và cách lau, khác xước sâu ở đâu và hạn chế thế nào",
    "primaryIntent": "informational/vet-xuoc-xoay-li-ti-tren-son-xe-may-hien-duoi-nang-do-khan-va-cach-lau-khac-xuoc-sau-o-dau-va-han-che-the-nao",
    "notes": "source=topic-v2 topicId=T002125",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:22.505Z",
-   "updatedAt": "2026-10-23T09:05:22.505Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3198
   },
   {
    "id": "S01946",
@@ -28519,11 +28533,13 @@
    "title": "Cổ pô xe máy ngả màu vàng, xanh tím: vì sao đổi màu theo nhiệt, khi nào bình thường, khi nào đáng lo và lau được không",
    "primaryIntent": "informational/co-po-xe-may-nga-mau-vang-xanh-tim-vi-sao-doi-mau-theo-nhiet-khi-nao-binh-thuong-khi-nao-dang-lo-va-lau-duoc-khong",
    "notes": "source=topic-v2 topicId=T002126",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:24.745Z",
-   "updatedAt": "2026-10-23T09:05:24.745Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3189
   },
   {
    "id": "S01947",
@@ -28532,11 +28548,13 @@
    "title": "Thợ gợi ý thêm vệ sinh nồi, súc kim phun, súc máy khi bảo dưỡng: việc nào theo triệu chứng, việc nào theo lịch và hỏi gì",
    "primaryIntent": "informational/tho-goi-y-them-ve-sinh-noi-suc-kim-phun-suc-may-khi-bao-duong-viec-nao-theo-trieu-chung-viec-nao-theo-lich-va-hoi-gi",
    "notes": "source=topic-v2 topicId=T002127",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:26.702Z",
-   "updatedAt": "2026-10-23T09:05:26.702Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3195
   },
   {
    "id": "S01948",
@@ -28545,11 +28563,13 @@
    "title": "Tắt khóa mà máy xe vẫn nổ thêm vài nhịp hoặc giật rồi mới tắt: tự cháy do nóng, muội than hay khóa điện hỏng, nên làm gì",
    "primaryIntent": "troubleshooting/tat-khoa-ma-may-xe-van-no-them-vai-nhip-hoac-giat-roi-moi-tat-tu-chay-do-nong-muoi-than-hay-khoa-dien-hong-nen-lam-gi",
    "notes": "source=topic-v2 topicId=T002128",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T09:05:28.743Z",
-   "updatedAt": "2026-10-23T09:05:28.743Z"
+   "updatedAt": "2026-10-23T14:45:26.244Z",
+   "seoScore": 100,
+   "words": 3202
   },
   {
    "id": "S01949",
