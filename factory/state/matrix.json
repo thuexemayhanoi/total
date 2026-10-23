@@ -28735,6 +28735,84 @@
    "updatedAt": "2026-10-23T14:54:29.047Z",
    "seoScore": 83,
    "words": 2223
+  },
+  {
+   "id": "S01960",
+   "hub": "ride/cung-duong",
+   "slug": "doan-duong-dang-sua-chi-con-mot-lan-di-luan-phien-nguoi-dieu-tiet-den-tam-cho-o-dau-va-di-theo-xe-dan-the-nao",
+   "title": "Đoạn đường đang sửa chỉ còn một làn đi luân phiên: người điều tiết, đèn tạm, chờ ở đâu và đi theo xe dẫn thế nào",
+   "primaryIntent": "informational/doan-duong-dang-sua-chi-con-mot-lan-di-luan-phien-nguoi-dieu-tiet-den-tam-cho-o-dau-va-di-theo-xe-dan-the-nao",
+   "notes": "source=topic-v2 topicId=T002141",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T16:11:29.108Z",
+   "updatedAt": "2026-10-23T16:11:29.108Z"
+  },
+  {
+   "id": "S01961",
+   "hub": "tips/meo-mua-xe",
+   "slug": "xe-may-cu-vua-don-bong-son-dam-truoc-khi-ban-vi-sao-sach-qua-phai-xem-ky-hon-va-dau-vet-don-thuong-bo-sot",
+   "title": "Xe máy cũ vừa dọn bóng, sơn dặm trước khi bán: vì sao sạch quá phải xem kỹ hơn và dấu vết dọn thường bỏ sót",
+   "primaryIntent": "informational/xe-may-cu-vua-don-bong-son-dam-truoc-khi-ban-vi-sao-sach-qua-phai-xem-ky-hon-va-dau-vet-don-thuong-bo-sot",
+   "notes": "source=topic-v2 topicId=T002143",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T16:11:29.303Z",
+   "updatedAt": "2026-10-23T16:11:29.303Z"
+  },
+  {
+   "id": "S01962",
+   "hub": "guide/mua-xe",
+   "slug": "mua-mot-chiec-xe-may-cho-hai-nguoi-khac-voc-dang-cung-dung-chon-theo-ai-thu-xe-the-nao-va-cho-nao-chinh-duoc-sau",
+   "title": "Mua một chiếc xe máy cho hai người khác vóc dáng cùng dùng: chọn theo ai, thử xe thế nào và chỗ nào chỉnh được sau",
+   "primaryIntent": "informational/mua-mot-chiec-xe-may-cho-hai-nguoi-khac-voc-dang-cung-dung-chon-theo-ai-thu-xe-the-nao-va-cho-nao-chinh-duoc-sau",
+   "notes": "source=topic-v2 topicId=T002144",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T16:11:29.415Z",
+   "updatedAt": "2026-10-23T16:11:29.415Z"
+  },
+  {
+   "id": "S01963",
+   "hub": "guide/bao-duong",
+   "slug": "cham-xe-may-cua-bo-me-o-xa-hoi-gi-qua-dien-thoai-nhac-lich-the-nao-nho-ai-xem-ho-va-khi-nao-phai-ve-tan-noi",
+   "title": "Chăm xe máy của bố mẹ ở xa: hỏi gì qua điện thoại, nhắc lịch thế nào, nhờ ai xem hộ và khi nào phải về tận nơi",
+   "primaryIntent": "informational/cham-xe-may-cua-bo-me-o-xa-hoi-gi-qua-dien-thoai-nhac-lich-the-nao-nho-ai-xem-ho-va-khi-nao-phai-ve-tan-noi",
+   "notes": "source=topic-v2 topicId=T002145",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T16:11:29.537Z",
+   "updatedAt": "2026-10-23T16:11:29.537Z"
+  },
+  {
+   "id": "S01964",
+   "hub": "ride/di-phuot",
+   "slug": "ban-dong-hanh-om-giua-chuyen-xe-may-nhieu-ngay-nhan-ra-som-ai-cho-xe-ai-nghi-lai-hay-quay-ve-va-khi-nao-tim-noi-kham",
+   "title": "Bạn đồng hành ốm giữa chuyến xe máy nhiều ngày: nhận ra sớm, ai chở xe ai, nghỉ lại hay quay về và khi nào tìm nơi khám",
+   "primaryIntent": "troubleshooting/ban-dong-hanh-om-giua-chuyen-xe-may-nhieu-ngay-nhan-ra-som-ai-cho-xe-ai-nghi-lai-hay-quay-ve-va-khi-nao-tim-noi-kham",
+   "notes": "source=topic-v2 topicId=T002146",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T16:11:29.667Z",
+   "updatedAt": "2026-10-23T16:11:29.667Z"
+  },
+  {
+   "id": "S01965",
+   "hub": "hub/van-de-thuong-gap",
+   "slug": "guong-chieu-hau-bam-giot-mua-mo-hoi-nuoc-khi-dang-di-vi-sao-khong-thay-phia-sau-lau-luc-nao-va-cach-nhin-bu-an-toan",
+   "title": "Gương chiếu hậu bám giọt mưa, mờ hơi nước khi đang đi: vì sao không thấy phía sau, lau lúc nào và cách nhìn bù an toàn",
+   "primaryIntent": "troubleshooting/guong-chieu-hau-bam-giot-mua-mo-hoi-nuoc-khi-dang-di-vi-sao-khong-thay-phia-sau-lau-luc-nao-va-cach-nhin-bu-an-toan",
+   "notes": "source=topic-v2 topicId=T002147",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T16:11:29.776Z",
+   "updatedAt": "2026-10-23T16:11:29.776Z"
   }
  ]
 }
