@@ -28346,6 +28346,58 @@
    "attempts": 0,
    "createdAt": "2026-10-23T08:40:31.169Z",
    "updatedAt": "2026-10-23T08:40:31.169Z"
+  },
+  {
+   "id": "S01935",
+   "hub": "learn/kien-thuc-xe-dien",
+   "slug": "cat-xe-may-dien-lau-ngay-khong-dung-de-pin-o-muc-lung-chung-sac-nhac-lai-chon-cho-de-va-kiem-gi-truoc-khi-dung-lai",
+   "title": "Cất xe máy điện lâu ngày không dùng: để pin ở mức lưng chừng, sạc nhắc lại, chọn chỗ để và kiểm gì trước khi dùng lại",
+   "primaryIntent": "informational/cat-xe-may-dien-lau-ngay-khong-dung-de-pin-o-muc-lung-chung-sac-nhac-lai-chon-cho-de-va-kiem-gi-truoc-khi-dung-lai",
+   "notes": "source=topic-v2 topicId=T002109",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T08:48:49.463Z",
+   "updatedAt": "2026-10-23T08:48:49.464Z"
+  },
+  {
+   "id": "S01936",
+   "hub": "garage/loi-thuong-gap",
+   "slug": "xe-may-keu-cot-ket-khi-nhun-hoac-khi-len-xuong-xe-tim-tieng-tu-yen-giam-xoc-chan-chong-op-nhua-va-gac-chan",
+   "title": "Xe máy kêu cót két khi nhún hoặc khi lên xuống xe: tìm tiếng từ yên, giảm xóc, chân chống, ốp nhựa và gác chân",
+   "primaryIntent": "troubleshooting/xe-may-keu-cot-ket-khi-nhun-hoac-khi-len-xuong-xe-tim-tieng-tu-yen-giam-xoc-chan-chong-op-nhua-va-gac-chan",
+   "notes": "source=topic-v2 topicId=T002111",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T08:48:51.511Z",
+   "updatedAt": "2026-10-23T08:48:51.512Z"
+  },
+  {
+   "id": "S01937",
+   "hub": "wiki/dong-co",
+   "slug": "la-tan-nhiet-ket-nuoc-xe-tay-ga-bi-bep-bit-bun-hay-dan-tem-che-vi-sao-xe-nong-khi-ket-xe-tu-nhin-va-ve-sinh-nhe",
+   "title": "Lá tản nhiệt két nước xe tay ga bị bẹp, bịt bùn hay dán tem che: vì sao xe nóng khi kẹt xe, tự nhìn và vệ sinh nhẹ",
+   "primaryIntent": "troubleshooting/la-tan-nhiet-ket-nuoc-xe-tay-ga-bi-bep-bit-bun-hay-dan-tem-che-vi-sao-xe-nong-khi-ket-xe-tu-nhin-va-ve-sinh-nhe",
+   "notes": "source=topic-v2 topicId=T002113",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T08:48:53.649Z",
+   "updatedAt": "2026-10-23T08:48:53.649Z"
+  },
+  {
+   "id": "S01938",
+   "hub": "guide/su-dung-xe",
+   "slug": "khoa-co-xe-may-khoa-sang-ben-nao-vi-sao-co-luc-khong-xoay-duoc-va-quen-mo-khoa-co-ma-dat-hay-day-xe-hai-gi",
+   "title": "Khóa cổ xe máy: khóa sang bên nào, vì sao có lúc không xoay được và quên mở khóa cổ mà dắt hay đẩy xe hại gì",
+   "primaryIntent": "informational/khoa-co-xe-may-khoa-sang-ben-nao-vi-sao-co-luc-khong-xoay-duoc-va-quen-mo-khoa-co-ma-dat-hay-day-xe-hai-gi",
+   "notes": "source=topic-v2 topicId=T002116",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-23T08:48:55.643Z",
+   "updatedAt": "2026-10-23T08:48:55.643Z"
   }
  ]
 }
