@@ -28578,11 +28578,13 @@
    "title": "Người ngồi sau ngủ gật khi đi xe máy đường dài: nhận ra sớm, dừng xe thế nào và cách sắp chuyến để không lặp lại",
    "primaryIntent": "troubleshooting/nguoi-ngoi-sau-ngu-gat-khi-di-xe-may-duong-dai-nhan-ra-som-dung-xe-the-nao-va-cach-sap-chuyen-de-khong-lap-lai",
    "notes": "source=topic-v2 topicId=T002129",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:25.451Z",
-   "updatedAt": "2026-10-23T14:23:25.451Z"
+   "updatedAt": "2026-10-23T14:53:17.095Z",
+   "seoScore": 83,
+   "words": 3380
   },
   {
    "id": "S01950",
@@ -28591,11 +28593,13 @@
    "title": "Lỡ vào cua nhanh, phải phanh khi xe máy đang nghiêng: vì sao dễ trượt, bóp phanh nào, dựng xe hay giữ nghiêng",
    "primaryIntent": "troubleshooting/lo-vao-cua-nhanh-phai-phanh-khi-xe-may-dang-nghieng-vi-sao-de-truot-bop-phanh-nao-dung-xe-hay-giu-nghieng",
    "notes": "source=topic-v2 topicId=T002131",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 90,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:27.558Z",
-   "updatedAt": "2026-10-23T14:23:27.558Z"
+   "updatedAt": "2026-10-23T14:53:17.095Z",
+   "seoScore": 74,
+   "words": 3184
   },
   {
    "id": "S01951",
@@ -28604,11 +28608,13 @@
    "title": "Lần đầu đổi từ xe máy xăng sang xe máy điện: ga nhạy, không tiếng máy, phanh khác và thói quen sạc thay cho ghé cây xăng",
    "primaryIntent": "informational/lan-dau-doi-tu-xe-may-xang-sang-xe-may-dien-ga-nhay-khong-tieng-may-phanh-khac-va-thoi-quen-sac-thay-cho-ghe-cay-xang",
    "notes": "source=topic-v2 topicId=T002132",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:29.471Z",
-   "updatedAt": "2026-10-23T14:23:29.471Z"
+   "updatedAt": "2026-10-23T14:53:17.095Z",
+   "seoScore": 83,
+   "words": 3310
   },
   {
    "id": "S01952",
@@ -28617,11 +28623,13 @@
    "title": "Quãng đường còn đi được trên màn hình xe máy điện: ước tính từ đâu, vì sao tụt nhanh rồi hồi lại và nên tin đến đâu",
    "primaryIntent": "informational/quang-duong-con-di-duoc-tren-man-hinh-xe-may-dien-uoc-tinh-tu-dau-vi-sao-tut-nhanh-roi-hoi-lai-va-nen-tin-den-dau",
    "notes": "source=topic-v2 topicId=T002133",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:31.517Z",
-   "updatedAt": "2026-10-23T14:23:31.517Z"
+   "updatedAt": "2026-10-23T14:53:17.096Z",
+   "seoScore": 100,
+   "words": 3083
   },
   {
    "id": "S01953",
@@ -28630,11 +28638,13 @@
    "title": "Xe máy điện chở hai hay chở nặng: xuất phát ì, pin tụt nhanh, động cơ nóng — vì sao và cách đi cho đỡ hại xe",
    "primaryIntent": "troubleshooting/xe-may-dien-cho-hai-hay-cho-nang-xuat-phat-i-pin-tut-nhanh-dong-co-nong-vi-sao-va-cach-di-cho-do-hai-xe",
    "notes": "source=topic-v2 topicId=T002134",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:33.498Z",
-   "updatedAt": "2026-10-23T14:23:33.498Z"
+   "updatedAt": "2026-10-23T14:53:17.096Z",
+   "seoScore": 91,
+   "words": 3033
   },
   {
    "id": "S01954",
@@ -28643,11 +28653,13 @@
    "title": "Xin lại phụ tùng cũ sau khi thay ở tiệm: vì sao nên xin, nhìn đồ cũ biết gì về xe và lời thợ, rồi bỏ đi đâu",
    "primaryIntent": "informational/xin-lai-phu-tung-cu-sau-khi-thay-o-tiem-vi-sao-nen-xin-nhin-do-cu-biet-gi-ve-xe-va-loi-tho-roi-bo-di-dau",
    "notes": "source=topic-v2 topicId=T002135",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:35.504Z",
-   "updatedAt": "2026-10-23T14:23:35.504Z"
+   "updatedAt": "2026-10-23T14:53:17.096Z",
+   "seoScore": 91,
+   "words": 3109
   },
   {
    "id": "S01955",
@@ -28656,11 +28668,13 @@
    "title": "Xe máy mới nhưng đã nằm kho hay trưng bày lâu: lốp, ắc quy, xăng cũ và cao su đổi gì, nhìn gì và hỏi gì trước khi nhận",
    "primaryIntent": "informational/xe-may-moi-nhung-da-nam-kho-hay-trung-bay-lau-lop-ac-quy-xang-cu-va-cao-su-doi-gi-nhin-gi-va-hoi-gi-truoc-khi-nhan",
    "notes": "source=topic-v2 topicId=T002136",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:37.490Z",
-   "updatedAt": "2026-10-23T14:23:37.490Z"
+   "updatedAt": "2026-10-23T14:53:17.096Z",
+   "seoScore": 83,
+   "words": 3903
   },
   {
    "id": "S01956",
@@ -28669,11 +28683,13 @@
    "title": "Nhà hẹp để ba bốn xe máy nối nhau: xếp theo giờ ra, dắt xe trong cùng không đổ dây chuyền và không xước xe nhau",
    "primaryIntent": "informational/nha-hep-de-ba-bon-xe-may-noi-nhau-xep-theo-gio-ra-dat-xe-trong-cung-khong-do-day-chuyen-va-khong-xuoc-xe-nhau",
    "notes": "source=topic-v2 topicId=T002137",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:39.390Z",
-   "updatedAt": "2026-10-23T14:23:39.390Z"
+   "updatedAt": "2026-10-23T14:53:17.096Z",
+   "seoScore": 91,
+   "words": 3720
   },
   {
    "id": "S01957",
@@ -28682,11 +28698,13 @@
    "title": "Người thuận tay trái học và đi xe máy: ga phanh bên phải lạ tay, còi xi nhan bên trái và cách tập cho phản xạ đúng",
    "primaryIntent": "informational/nguoi-thuan-tay-trai-hoc-va-di-xe-may-ga-phanh-ben-phai-la-tay-coi-xi-nhan-ben-trai-va-cach-tap-cho-phan-xa-dung",
    "notes": "source=topic-v2 topicId=T002138",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:41.478Z",
-   "updatedAt": "2026-10-23T14:23:41.479Z"
+   "updatedAt": "2026-10-23T14:53:17.095Z",
+   "seoScore": 83,
+   "words": 3385
   },
   {
    "id": "S01958",
@@ -28695,11 +28713,13 @@
    "title": "Quai mũ bảo hiểm bung hoặc đứt khi đang chạy xe máy: giữ mũ thế nào, dừng ở đâu và có nên đi tiếp không",
    "primaryIntent": "troubleshooting/quai-mu-bao-hiem-bung-hoac-dut-khi-dang-chay-xe-may-giu-mu-the-nao-dung-o-dau-va-co-nen-di-tiep-khong",
    "notes": "source=topic-v2 topicId=T002139",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 95,
+   "attempts": 1,
    "createdAt": "2026-10-23T14:23:43.381Z",
-   "updatedAt": "2026-10-23T14:23:43.381Z"
+   "updatedAt": "2026-10-23T14:53:17.096Z",
+   "seoScore": 83,
+   "words": 3364
   },
   {
    "id": "S01959",
