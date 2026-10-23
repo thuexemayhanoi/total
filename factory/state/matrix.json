@@ -28833,11 +28833,13 @@
    "title": "Xe máy nóng lên thì yếu dần rồi chết máy, để nguội lại nổ: lửa yếu khi nóng, hơi xăng hay cảm biến và ghi gì cho thợ",
    "primaryIntent": "troubleshooting/xe-may-nong-len-thi-yeu-dan-roi-chet-may-de-nguoi-lai-no-lua-yeu-khi-nong-hoi-xang-hay-cam-bien-va-ghi-gi-cho-tho",
    "notes": "source=topic-v2 topicId=T002148",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:17:14.986Z",
-   "updatedAt": "2026-10-23T16:17:14.987Z"
+   "updatedAt": "2026-10-23T16:50:08.528Z",
+   "seoScore": 100,
+   "words": 3920
   },
   {
    "id": "S01967",
@@ -28846,11 +28848,13 @@
    "title": "Lốp không săm xẹp hẳn rồi bơm mãi không lên hơi: mép lốp rời vành vì sao, thợ ép lại thế nào và khi nào tanh đã hỏng",
    "primaryIntent": "troubleshooting/lop-khong-sam-xep-han-roi-bom-mai-khong-len-hoi-mep-lop-roi-vanh-vi-sao-tho-ep-lai-the-nao-va-khi-nao-tanh-da-hong",
    "notes": "source=topic-v2 topicId=T002149",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:17:15.232Z",
-   "updatedAt": "2026-10-23T16:17:15.232Z"
+   "updatedAt": "2026-10-23T16:50:08.528Z",
+   "seoScore": 91,
+   "words": 3373
   },
   {
    "id": "S01968",
@@ -28859,11 +28863,13 @@
    "title": "Thợ dùng súng hơi bắn ốc khi thay lốp, thay nhớt hay bugi: vì sao dễ siết quá tay hoặc hụt, hậu quả và nên nhắc thợ gì",
    "primaryIntent": "informational/tho-dung-sung-hoi-ban-oc-khi-thay-lop-thay-nhot-hay-bugi-vi-sao-de-siet-qua-tay-hoac-hut-hau-qua-va-nen-nhac-tho-gi",
    "notes": "source=topic-v2 topicId=T002150",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:17:15.341Z",
-   "updatedAt": "2026-10-23T16:17:15.341Z"
+   "updatedAt": "2026-10-23T16:50:08.528Z",
+   "seoScore": 100,
+   "words": 3607
   },
   {
    "id": "S01969",
@@ -28872,11 +28878,13 @@
    "title": "Tay phanh xe máy lỏng lắc, kêu cạch khi bóp nhả: chốt mòn, bạc lót hay công tắc đèn phanh và tự siết được không",
    "primaryIntent": "troubleshooting/tay-phanh-xe-may-long-lac-keu-cach-khi-bop-nha-chot-mon-bac-lot-hay-cong-tac-den-phanh-va-tu-siet-duoc-khong",
    "notes": "source=topic-v2 topicId=T002152",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:17:15.477Z",
-   "updatedAt": "2026-10-23T16:17:15.478Z"
+   "updatedAt": "2026-10-23T16:50:08.528Z",
+   "seoScore": 100,
+   "words": 3511
   },
   {
    "id": "S01970",
@@ -28885,11 +28893,13 @@
    "title": "Đổ nhầm nhớt máy vào bình dầu phanh hoặc dầu phanh vào lỗ châm nhớt: hại gì, nhận ra sớm và xử lý trước khi nổ máy",
    "primaryIntent": "troubleshooting/do-nham-nhot-may-vao-binh-dau-phanh-hoac-dau-phanh-vao-lo-cham-nhot-hai-gi-nhan-ra-som-va-xu-ly-truoc-khi-no-may",
    "notes": "source=topic-v2 topicId=T002153",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:17:15.582Z",
-   "updatedAt": "2026-10-23T16:17:15.582Z"
+   "updatedAt": "2026-10-23T16:50:08.528Z",
+   "seoScore": 100,
+   "words": 3763
   }
  ]
 }
