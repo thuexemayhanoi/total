@@ -3964,6 +3964,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-xe-dien/lan-dau-doi-tu-xe-may-xang-sang-xe-may-dien-ga-nhay-khong-tieng-may-phanh-khac-va-thoi-quen-sac-thay-cho-ghe-cay-xang/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-trong-thanh-pho/lan-re-phai-rieng-co-dao-dan-huong-o-nga-tu-khi-di-xe-may-vao-lan-nhuong-nguoi-di-bo-va-nhap-dong-xe-ngang/index.html",
   "kind": "article"
  },
@@ -4045,6 +4049,10 @@
  },
  {
   "rel": "garage/dien-ac-quy/lo-rut-coc-ac-quy-hay-giac-dien-khi-xe-con-bat-khoa-hoac-may-dang-no-vi-sao-co-the-hai-mach-dien-va-nen-kiem-tra-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/ky-thuat-lai-xe/lo-vao-cua-nhanh-phai-phanh-khi-xe-may-dang-nghieng-vi-sao-de-truot-bop-phanh-nao-dung-xe-hay-giu-nghieng/index.html",
   "kind": "article"
  },
  {
@@ -4508,6 +4516,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/lai-xe-duong-dai/nguoi-ngoi-sau-ngu-gat-khi-di-xe-may-duong-dai-nhan-ra-som-dung-xe-the-nao-va-cach-sap-chuyen-de-khong-lap-lai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "hub/nhu-cau-su-dung/nguoi-nha-lo-moi-lan-minh-di-xe-may-toi-hoac-di-xa-nghe-noi-lo-dua-ke-hoach-cu-the-va-thong-nhat-cach-bao-tin/index.html",
   "kind": "article"
  },
@@ -4524,6 +4536,10 @@
   "kind": "article"
  },
  {
+  "rel": "hub/nhu-cau-su-dung/nguoi-thuan-tay-trai-hoc-va-di-xe-may-ga-phanh-ben-phai-la-tay-coi-xi-nhan-ben-trai-va-cach-tap-cho-phan-xa-dung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "map/bai-do-xe/nguoi-trong-xe-xin-chia-khoa-hoac-bao-de-chia-tren-xe-cho-de-xep-cho-co-nen-dong-y-dan-gi-va-nhan-lai-xe-the-nao/index.html",
   "kind": "article"
  },
@@ -4537,6 +4553,10 @@
  },
  {
   "rel": "review/so-sanh-xe/nha-co-hai-chiec-xe-may-ghi-lai-moi-chuyen-chon-xe-nao-va-vi-sao-de-biet-xe-nao-hop-voi-viec-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/su-dung-xe/nha-hep-de-ba-bon-xe-may-noi-nhau-xep-theo-gio-ra-dat-xe-trong-cung-khong-do-day-chuyen-va-khong-xuoc-xe-nhau/index.html",
   "kind": "article"
  },
  {
@@ -4849,6 +4869,14 @@
  },
  {
   "rel": "guide/su-dung-xe/qua-song-bang-do-nho-cho-xe-may-dat-xe-qua-van-giu-xe-tren-do-va-khi-nao-nen-cho-chuyen-khac/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/quai-mu-bao-hiem-bung-hoac-dut-khi-dang-chay-xe-may-giu-mu-the-nao-dung-o-dau-va-co-nen-di-tiep-khong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-xe-dien/quang-duong-con-di-duoc-tren-man-hinh-xe-may-dien-uoc-tinh-tu-dau-vi-sao-tut-nhanh-roi-hoi-lai-va-nen-tin-den-dau/index.html",
   "kind": "article"
  },
  {
@@ -6728,6 +6756,10 @@
   "kind": "article"
  },
  {
+  "rel": "hub/van-de-thuong-gap/xe-may-dien-cho-hai-hay-cho-nang-xuat-phat-i-pin-tut-nhanh-dong-co-nong-vi-sao-va-cach-di-cho-do-hai-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/xe-may-dien-co-tieng-keu-la-tu-banh-co-dong-co-hu-re-lach-cach-va-khi-nao-can-tho/index.html",
   "kind": "article"
  },
@@ -6809,6 +6841,10 @@
  },
  {
   "rel": "guide/mua-xe/xe-may-moi-con-lop-ni-long-boc-yen-op-nhua-va-mat-dong-ho-boc-luc-nao-vi-sao-de-lau-gay-tron-yen-dong-am-va-luu-keo/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/mua-xe/xe-may-moi-nhung-da-nam-kho-hay-trung-bay-lau-lop-ac-quy-xang-cu-va-cao-su-doi-gi-nhin-gi-va-hoi-gi-truoc-khi-nhan/index.html",
   "kind": "article"
  },
  {
@@ -7025,6 +7061,10 @@
  },
  {
   "rel": "map/bai-do-xe/xin-gui-nho-xe-vai-gio-o-quan-tiem-hay-nha-quen-khi-cho-den-khong-co-bai-noi-the-nao-de-o-dau-va-ai-giu-chia/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/bao-duong/xin-lai-phu-tung-cu-sau-khi-thay-o-tiem-vi-sao-nen-xin-nhin-do-cu-biet-gi-ve-xe-va-loi-tho-roi-bo-di-dau/index.html",
   "kind": "article"
  },
  {
