@@ -28143,11 +28143,13 @@
    "title": "Vành xe máy bị cong hoặc méo sau khi sập ổ gà: nhận ra bánh đảo, có đi tiếp được không và khi nào nắn hay thay",
    "primaryIntent": "troubleshooting/vanh-xe-may-bi-cong-hoac-meo-sau-khi-sap-o-ga-nhan-ra-banh-dao-co-di-tiep-duoc-khong-va-khi-nao-nan-hay-thay",
    "notes": "source=topic-v2 topicId=T002088",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:22:26.063Z",
-   "updatedAt": "2026-10-23T08:22:26.064Z"
+   "updatedAt": "2026-10-23T08:42:58.911Z",
+   "seoScore": 100,
+   "words": 3205
   },
   {
    "id": "S01921",
@@ -28156,11 +28158,13 @@
    "title": "Nan hoa xe máy lỏng hoặc gãy một sợi: tiếng tách tách, tự kiểm bằng tay và vì sao không nên để lâu",
    "primaryIntent": "troubleshooting/nan-hoa-xe-may-long-hoac-gay-mot-soi-tieng-tach-tach-tu-kiem-bang-tay-va-vi-sao-khong-nen-de-lau",
    "notes": "source=topic-v2 topicId=T002089",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:22:28.278Z",
-   "updatedAt": "2026-10-23T08:22:28.278Z"
+   "updatedAt": "2026-10-23T08:42:58.911Z",
+   "seoScore": 91,
+   "words": 3129
   },
   {
    "id": "S01922",
@@ -28169,11 +28173,13 @@
    "title": "Xích xe máy giãn không đều: chỗ chùng chỗ căng, vì sao tăng xích mãi không hết và khi nào thay cả bộ nhông xích",
    "primaryIntent": "troubleshooting/xich-xe-may-gian-khong-deu-cho-chung-cho-cang-vi-sao-tang-xich-mai-khong-het-va-khi-nao-thay-ca-bo-nhong-xich",
    "notes": "source=topic-v2 topicId=T002092",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:28:57.954Z",
-   "updatedAt": "2026-10-23T08:28:57.954Z"
+   "updatedAt": "2026-10-23T08:42:58.911Z",
+   "seoScore": 91,
+   "words": 3238
   },
   {
    "id": "S01923",
@@ -28182,11 +28188,13 @@
    "title": "Đèn xi nhan xe máy nháy nhanh một bên hoặc nháy chậm, sáng mờ: đọc nhịp nháy để biết bóng cháy, tiếp mát kém hay rơ-le",
    "primaryIntent": "troubleshooting/den-xi-nhan-xe-may-nhay-nhanh-mot-ben-hoac-nhay-cham-sang-mo-doc-nhip-nhay-de-biet-bong-chay-tiep-mat-kem-hay-ro-le",
    "notes": "source=topic-v2 topicId=T002093",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:29:00.093Z",
-   "updatedAt": "2026-10-23T08:29:00.093Z"
+   "updatedAt": "2026-10-23T08:42:58.911Z",
+   "seoScore": 100,
+   "words": 3151
   },
   {
    "id": "S01924",
@@ -28195,11 +28203,13 @@
    "title": "Dây curoa xe tay ga kêu rít khi tăng ga lúc trời ẩm hoặc sau khi rửa xe: vì sao trượt, khi nào tự hết và khi nào là hỏng",
    "primaryIntent": "troubleshooting/day-curoa-xe-tay-ga-keu-rit-khi-tang-ga-luc-troi-am-hoac-sau-khi-rua-xe-vi-sao-truot-khi-nao-tu-het-va-khi-nao-la-hong",
    "notes": "source=topic-v2 topicId=T002095",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:29:02.121Z",
-   "updatedAt": "2026-10-23T08:29:02.121Z"
+   "updatedAt": "2026-10-23T08:42:58.910Z",
+   "seoScore": 100,
+   "words": 3226
   },
   {
    "id": "S01925",
@@ -28208,11 +28218,13 @@
    "title": "Xe số đang chạy bị tuột số về mo hoặc nhảy số: máy rú đột ngột, xử lý ngay, có đi tiếp không và vì sao không tự chỉnh",
    "primaryIntent": "troubleshooting/xe-so-dang-chay-bi-tuot-so-ve-mo-hoac-nhay-so-may-ru-dot-ngot-xu-ly-ngay-co-di-tiep-duoc-khong-va-vi-sao-khong-tu-chinh",
    "notes": "source=topic-v2 topicId=T002097",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:29:04.295Z",
-   "updatedAt": "2026-10-23T08:29:04.295Z"
+   "updatedAt": "2026-10-23T08:42:58.911Z",
+   "seoScore": 100,
+   "words": 2899
   },
   {
    "id": "S01926",
@@ -28221,11 +28233,13 @@
    "title": "Ốc xe máy bị toét đầu, gỉ chết hoặc tuôn ren: vì sao không cố vặn tiếp, nhận ra sớm khi tự bảo dưỡng và cách báo thợ",
    "primaryIntent": "troubleshooting/oc-xe-may-bi-toet-dau-gi-chet-hoac-tuon-ren-vi-sao-khong-co-van-tiep-nhan-ra-som-khi-tu-bao-duong-va-cach-bao-tho",
    "notes": "source=topic-v2 topicId=T002099",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:29:08.246Z",
-   "updatedAt": "2026-10-23T08:29:08.246Z"
+   "updatedAt": "2026-10-23T08:42:58.911Z",
+   "seoScore": 91,
+   "words": 3199
   },
   {
    "id": "S01927",
@@ -28234,11 +28248,13 @@
    "title": "Xăng lẫn nước trong bình xe máy: dấu hiệu sau mưa ngập hay để lâu, vì sao xe giật, chết máy và thợ xử lý ra sao",
    "primaryIntent": "troubleshooting/xang-lan-nuoc-trong-binh-xe-may-dau-hieu-sau-mua-ngap-hay-de-lau-vi-sao-xe-giat-chet-may-va-tho-xu-ly-ra-sao",
    "notes": "source=topic-v2 topicId=T002098",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:29:23.232Z",
-   "updatedAt": "2026-10-23T08:29:23.233Z"
+   "updatedAt": "2026-10-23T08:42:58.911Z",
+   "seoScore": 100,
+   "words": 3000
   },
   {
    "id": "S01928",
