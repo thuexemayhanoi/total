@@ -2356,6 +2356,10 @@
   "kind": "article"
  },
  {
+  "rel": "wiki/cau-tao-xe/con-tu-dong-tren-xe-so-khong-tay-con-hoat-dong-the-nao-vi-sao-vao-so-van-giat-nhe-va-dau-hieu-con-mon-khac-con-xe-tay-con/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/lai-xe-trong-thanh-pho/cong-bai-giu-xe-va-khu-chung-cu-buoi-sang-dong-nguoi-va-xe-ra-mot-cua/index.html",
   "kind": "article"
  },
@@ -2621,6 +2625,10 @@
  },
  {
   "rel": "garage/dien-ac-quy/den-phanh-xe-may-khong-sang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/dien-ac-quy/den-phanh-xe-may-sang-lien-tuc-khong-tat-du-khong-bop-phanh-cong-tac-phanh-ket-hay-chinh-sai-hao-ac-quy-ra-sao-va-tu-kiem-the-nao/index.html",
   "kind": "article"
  },
  {
@@ -3149,6 +3157,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/duoc-nguoi-la-bao-xe-co-van-de-hay-muon-nhac-nguoi-khac-khi-dang-chay-dung-an-toan-cach-bao-va-canh-giac-loi-bao-gia/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/chuan-doan-loi/duoi-xe-may-vay-hoac-banh-sau-lac-khi-chay-nhanh-lop-non-lop-mon-lech-bac-dan-bac-cang-giam-xoc-hay-cho-lech-tim-theo-thu-tu/index.html",
   "kind": "article"
  },
  {
@@ -4108,6 +4120,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/phanh/ma-phanh-dia-xe-may-mon-lech-mot-ma-mon-nhanh-hon-ma-kia-ac-cai-ket-pit-tong-bo-hay-dia-dao-nhan-ra-va-vi-sao-thay-ma-moi-van-lap-lai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "map/bai-do-xe/ma-qr-o-bai-xe-cay-xang-hay-tru-sac-bi-dan-de-nhin-ten-nguoi-nhan-truoc-khi-xac-nhan-va-xu-ly-khi-lo-chuyen-nham/index.html",
   "kind": "article"
  },
@@ -4568,6 +4584,10 @@
   "kind": "article"
  },
  {
+  "rel": "garage/dong-co/nhot-xe-may-chuyen-mau-nau-sua-hoac-co-bot-kem-nuoc-lan-vao-tu-dau-nguy-co-cho-may-va-viec-can-lam-truoc-khi-no-may-tiep/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/cham-soc-xe/nhua-duong-nhua-cay-va-phan-chim-bam-tren-xe-may-lam-sach-the-nao/index.html",
   "kind": "article"
  },
@@ -4677,6 +4697,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/phanh-khan-cap/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "garage/phanh/phanh-sau-xe-so-ban-dap-qua-cao-hoac-qua-thap-an-qua-som-hay-tra-cham-chinh-tam-ban-dap-do-ro-va-khi-nao-nen-giao-tho/index.html",
   "kind": "article"
  },
  {
@@ -6881,6 +6905,10 @@
  },
  {
   "rel": "garage/truyen-dong/xe-tay-ga-bi-giat-khi-di-cham/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/xu-ly-su-co/xe-tay-ga-khoa-thong-minh-het-ac-quy-xe-khong-mo-duoc-yen-khong-bat-duoc-dien-chia-co-du-phong-o-dau-cau-binh-va-vi-sao-khong-cay/index.html",
   "kind": "article"
  },
  {

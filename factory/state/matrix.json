@@ -28263,11 +28263,13 @@
    "title": "Nhớt xe máy chuyển màu nâu sữa hoặc có bọt kem: nước lẫn vào từ đâu, nguy cơ cho máy và việc cần làm trước khi nổ máy",
    "primaryIntent": "troubleshooting/nhot-xe-may-chuyen-mau-nau-sua-hoac-co-bot-kem-nuoc-lan-vao-tu-dau-nguy-co-cho-may-va-viec-can-lam-truoc-khi-no-may-tiep",
    "notes": "source=topic-v2 topicId=T002100",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:40:18.569Z",
-   "updatedAt": "2026-10-23T08:40:18.569Z"
+   "updatedAt": "2026-10-23T08:55:54.716Z",
+   "seoScore": 100,
+   "words": 3174
   },
   {
    "id": "S01929",
@@ -28276,11 +28278,13 @@
    "title": "Phanh sau xe số: bàn đạp quá cao hay quá thấp, ăn quá sớm hay trả chậm — chỉnh tầm bàn đạp, độ rơ và lúc nên giao thợ",
    "primaryIntent": "troubleshooting/phanh-sau-xe-so-ban-dap-qua-cao-hoac-qua-thap-an-qua-som-hay-tra-cham-chinh-tam-ban-dap-do-ro-va-khi-nao-nen-giao-tho",
    "notes": "source=topic-v2 topicId=T002101",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:40:20.590Z",
-   "updatedAt": "2026-10-23T08:40:20.591Z"
+   "updatedAt": "2026-10-23T08:55:54.716Z",
+   "seoScore": 100,
+   "words": 3539
   },
   {
    "id": "S01930",
@@ -28289,11 +28293,13 @@
    "title": "Đèn phanh xe máy sáng liên tục dù không bóp phanh: công tắc kẹt hay chỉnh sai, hao ắc quy ra sao và tự kiểm thế nào",
    "primaryIntent": "troubleshooting/den-phanh-xe-may-sang-lien-tuc-khong-tat-du-khong-bop-phanh-cong-tac-phanh-ket-hay-chinh-sai-hao-ac-quy-ra-sao-va-tu-kiem-the-nao",
    "notes": "source=topic-v2 topicId=T002104",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:40:22.746Z",
-   "updatedAt": "2026-10-23T08:40:22.746Z"
+   "updatedAt": "2026-10-23T08:55:54.716Z",
+   "seoScore": 100,
+   "words": 3209
   },
   {
    "id": "S01931",
@@ -28302,11 +28308,13 @@
    "title": "Xe tay ga khóa thông minh hết ắc quy xe: không mở được yên, không lên điện — chìa cơ dự phòng ở đâu và vì sao không cạy",
    "primaryIntent": "troubleshooting/xe-tay-ga-khoa-thong-minh-het-ac-quy-xe-khong-mo-duoc-yen-khong-bat-duoc-dien-chia-co-du-phong-o-dau-cau-binh-va-vi-sao-khong-cay",
    "notes": "source=topic-v2 topicId=T002105",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:40:24.868Z",
-   "updatedAt": "2026-10-23T08:40:24.868Z"
+   "updatedAt": "2026-10-23T08:55:54.716Z",
+   "seoScore": 91,
+   "words": 3244
   },
   {
    "id": "S01932",
@@ -28315,11 +28323,13 @@
    "title": "Đuôi xe máy vẫy hoặc bánh sau lắc khi chạy nhanh: lốp, bạc đạn, bạc càng, giảm xóc hay chở lệch — tìm theo thứ tự",
    "primaryIntent": "troubleshooting/duoi-xe-may-vay-hoac-banh-sau-lac-khi-chay-nhanh-lop-non-lop-mon-lech-bac-dan-bac-cang-giam-xoc-hay-cho-lech-tim-theo-thu-tu",
    "notes": "source=topic-v2 topicId=T002106",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:40:26.857Z",
-   "updatedAt": "2026-10-23T08:40:26.858Z"
+   "updatedAt": "2026-10-23T08:55:54.716Z",
+   "seoScore": 100,
+   "words": 3243
   },
   {
    "id": "S01933",
@@ -28328,11 +28338,13 @@
    "title": "Côn tự động trên xe số không tay côn hoạt động thế nào: vì sao vào số vẫn giật nhẹ và dấu hiệu côn mòn khác xe tay côn",
    "primaryIntent": "informational/con-tu-dong-tren-xe-so-khong-tay-con-hoat-dong-the-nao-vi-sao-vao-so-van-giat-nhe-va-dau-hieu-con-mon-khac-con-xe-tay-con",
    "notes": "source=topic-v2 topicId=T002107",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:40:28.955Z",
-   "updatedAt": "2026-10-23T08:40:28.955Z"
+   "updatedAt": "2026-10-23T08:55:54.716Z",
+   "seoScore": 91,
+   "words": 3250
   },
   {
    "id": "S01934",
@@ -28341,11 +28353,13 @@
    "title": "Má phanh đĩa xe máy mòn lệch, một má mòn nhanh hơn: ắc cài kẹt, pít-tông bó hay đĩa đảo — vì sao thay má mới vẫn lặp lại",
    "primaryIntent": "troubleshooting/ma-phanh-dia-xe-may-mon-lech-mot-ma-mon-nhanh-hon-ma-kia-ac-cai-ket-pit-tong-bo-hay-dia-dao-nhan-ra-va-vi-sao-thay-ma-moi-van-lap-lai",
    "notes": "source=topic-v2 topicId=T002108",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T08:40:31.169Z",
-   "updatedAt": "2026-10-23T08:40:31.169Z"
+   "updatedAt": "2026-10-23T08:55:54.716Z",
+   "seoScore": 91,
+   "words": 3178
   },
   {
    "id": "S01935",

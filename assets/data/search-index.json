@@ -17927,6 +17927,41 @@
  },
  {
   "kind": "article",
+  "url": "wiki/cau-tao-xe/con-tu-dong-tren-xe-so-khong-tay-con-hoat-dong-the-nao-vi-sao-vao-so-van-giat-nhe-va-dau-hieu-con-mon-khac-con-xe-tay-con/",
+  "title": "Côn tự động trên xe số không tay côn hoạt động thế nào: vì sao vào số vẫn giật nhẹ và dấu hiệu côn mòn khác xe tay côn",
+  "description": "Xe số không tay côn sang số bằng cách nào, vì sao đứng yên vào số thì êm mà đang chạy lại giật, cách đạp số cho êm và dấu hiệu côn mòn khác xe tay côn ra sao.",
+  "category": "Bách khoa xe",
+  "hub": "Cấu tạo xe",
+  "entities": [
+   "côn tự động",
+   "ly hợp ly tâm",
+   "cơ cấu cắt côn theo cần số",
+   "cần số",
+   "xe số không tay côn",
+   "vòng tua máy",
+   "côn mòn",
+   "hộp số xe máy"
+  ],
+  "keywords": [
+   "côn tự động xe số",
+   "xe số không tay côn sang số thế nào",
+   "vào số bị giật xe số",
+   "dấu hiệu côn mòn xe số tự động",
+   "ly hợp xe số phổ thông"
+  ],
+  "seoTitle": "Côn tự động xe số không tay côn: cách hoạt động và vì sao giật",
+  "primaryKeyword": "côn tự động xe số",
+  "headings": [
+   "Xe số không tay côn sang số bằng cách nào",
+   "Hai tầng ly hợp: nối theo vòng tua và cắt khi đạp cần số",
+   "Vì sao vào số vẫn giật và cách đạp số cho êm",
+   "Khác xe tay côn và xe tay ga ở đâu",
+   "Dấu hiệu côn mòn trên xe số và phần dành cho thợ"
+  ],
+  "summary": "Người đi xe số phổ thông không có tay côn thường thắc mắc xe sang số bằng cách nào, vì sao máy nổ cầm chừng mà xe vẫn đứng yên dù đang ở số, và vì sao đạp số lúc đứng yên thì êm còn đang chạy lại giật. Bài giải thích dễ hiểu kiểu ly hợp thường gặp trên loại xe"
+ },
+ {
+  "kind": "article",
   "url": "ride/lai-xe-trong-thanh-pho/cong-bai-giu-xe-va-khu-chung-cu-buoi-sang-dong-nguoi-va-xe-ra-mot-cua/",
   "title": "Cổng bãi giữ xe và khu chung cư buổi sáng: dòng người và xe cùng ra một cửa",
   "description": "Buổi sáng cổng bãi giữ xe, chung cư xả cùng lúc xe máy và người đi bộ qua một lối hẹp. Xem trình tự ra cổng an toàn, nhường người đi bộ và đọc dòng người.",
@@ -20089,6 +20124,41 @@
    "Rủi ro khi đi xe và lúc giao thợ"
   ],
   "summary": "Đèn phanh là tín hiệu an toàn duy nhất báo cho người phía sau biết bạn đang giảm tốc, nhưng người cầm lái lại không tự nhìn thấy nó. Bài này giải thích đèn phanh sáng nhờ công tắc ở tay phanh và bàn đạp, cách kiểm tra bằng người đứng sau hoặc bằng phản chiếu, "
+ },
+ {
+  "kind": "article",
+  "url": "garage/dien-ac-quy/den-phanh-xe-may-sang-lien-tuc-khong-tat-du-khong-bop-phanh-cong-tac-phanh-ket-hay-chinh-sai-hao-ac-quy-ra-sao-va-tu-kiem-the-nao/",
+  "title": "Đèn phanh xe máy sáng liên tục dù không bóp phanh: công tắc kẹt hay chỉnh sai, hao ắc quy ra sao và tự kiểm thế nào",
+  "description": "Đèn phanh xe máy sáng mãi dù buông phanh thường do công tắc tay phanh hay bàn đạp kẹt, chỉnh sai. Cách tự tìm bên lỗi, tác hại cho ắc quy, bóng và việc để thợ.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "đèn phanh",
+   "công tắc phanh",
+   "tay phanh trước",
+   "bàn đạp phanh sau",
+   "lò xo kéo công tắc",
+   "ắc quy xe máy",
+   "bóng đèn hậu",
+   "cụm đèn hậu"
+  ],
+  "keywords": [
+   "đèn phanh xe máy sáng liên tục",
+   "đèn phanh sáng mãi không tắt",
+   "công tắc phanh xe máy bị kẹt",
+   "chỉnh công tắc đèn phanh sau",
+   "đèn phanh sáng suốt có hao ắc quy không"
+  ],
+  "seoTitle": "Đèn phanh xe máy sáng mãi dù không bóp phanh: tìm lỗi và tự kiểm",
+  "primaryKeyword": "đèn phanh xe máy sáng liên tục",
+  "headings": [
+   "Đèn phanh bật bằng hai công tắc và vì sao chỉ một bên kẹt là đèn sáng mãi",
+   "Tự xác định bên nào gây sáng liên tục trong vài phút",
+   "Nguyên nhân thường gặp ở tay phanh trước và bàn đạp phanh sau",
+   "Để lâu có hại gì cho ắc quy, bóng đèn và người đi sau",
+   "Việc tự làm được, việc để thợ và cách tự kiểm đèn phanh một mình"
+  ],
+  "summary": "Người đi sau báo đèn phanh xe bạn lúc nào cũng sáng mạnh dù bạn không bóp phanh, còn bạn ngồi trên xe nên không tự thấy. Lỗi này ít khi nằm ở bóng hay dây mà thường ở một trong hai công tắc phanh: nút ở tay phanh không bật ra, cần phanh không trả hết, hay công"
  },
  {
   "kind": "article",
@@ -24344,6 +24414,41 @@
    "Cảnh giác lời báo giả để dụ dừng xe"
   ],
   "summary": "Bài giải thích vì sao một lời báo bất ngờ lúc đang chạy dễ làm xe chao đảo, rồi hướng dẫn cách phản ứng: giữ lái, không quay đầu hay cúi nhìn, giảm tốc, bật xi-nhan và tấp vào chỗ sáng có người qua lại trước khi kiểm tra. Nội dung nêu những điều hay được báo n"
+ },
+ {
+  "kind": "article",
+  "url": "learn/chuan-doan-loi/duoi-xe-may-vay-hoac-banh-sau-lac-khi-chay-nhanh-lop-non-lop-mon-lech-bac-dan-bac-cang-giam-xoc-hay-cho-lech-tim-theo-thu-tu/",
+  "title": "Đuôi xe máy vẫy hoặc bánh sau lắc khi chạy nhanh: lốp, bạc đạn, bạc càng, giảm xóc hay chở lệch — tìm theo thứ tự",
+  "description": "Đuôi xe máy vẫy hay bánh sau lắc khi tăng tốc, chậm lại thì hết: tự kiểm từ dễ tới khó, từ cách chở và lốp tới bạc đạn, càng sau, giảm xóc, khi nào phải dừng.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "entities": [
+   "đuôi xe lắc",
+   "bánh sau",
+   "lốp sau",
+   "bạc đạn bánh xe",
+   "bạc càng sau",
+   "giảm xóc sau",
+   "căn chỉnh bánh sau",
+   "chân chống giữa"
+  ],
+  "keywords": [
+   "xe máy bị lắc đuôi khi chạy nhanh",
+   "bánh sau xe máy lắc",
+   "đuôi xe máy vẫy khi tăng tốc",
+   "kiểm tra bánh sau xe máy tại nhà",
+   "nguyên nhân bánh sau lắc"
+  ],
+  "seoTitle": "Đuôi xe máy vẫy, bánh sau lắc khi chạy nhanh: tìm lỗi theo thứ tự",
+  "primaryKeyword": "xe máy bị lắc đuôi khi chạy nhanh",
+  "headings": [
+   "Lắc đuôi khác rung tay lái: nhận ra đúng triệu chứng",
+   "Kiểm trước những thứ rẻ và dễ: tải, cách chở và lốp",
+   "Bánh, bạc đạn và vành: lắc bánh ngang và quay bánh nhìn đảo",
+   "Càng sau, giảm xóc và căn chỉnh bánh sau",
+   "Khi nào đi chậm về được, khi nào dừng, và nói gì với thợ"
+  ],
+  "summary": "Khi tăng tốc trên đường thẳng, nhiều người thấy đuôi xe máy vẫy nhẹ hoặc bánh sau như đang lắc, chậm lại thì hết, nhưng không biết lỗi ở lốp, trục bánh, càng sau, giảm xóc hay chỉ do cách chở đồ. Bài sắp các nguyên nhân theo thứ tự nên kiểm: tải và cách chở, l"
  },
  {
   "kind": "article",
@@ -31965,6 +32070,41 @@
  },
  {
   "kind": "article",
+  "url": "garage/phanh/ma-phanh-dia-xe-may-mon-lech-mot-ma-mon-nhanh-hon-ma-kia-ac-cai-ket-pit-tong-bo-hay-dia-dao-nhan-ra-va-vi-sao-thay-ma-moi-van-lap-lai/",
+  "title": "Má phanh đĩa xe máy mòn lệch, một má mòn nhanh hơn: ắc cài kẹt, pít-tông bó hay đĩa đảo — vì sao thay má mới vẫn lặp lại",
+  "description": "Vì sao hai má phanh đĩa xe máy mòn dày mỏng khác nhau: ắc cài kẹt, pít-tông bó, lắp má lệch hay đĩa đảo; cách tự soi an toàn và phần việc nên để thợ làm.",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "entities": [
+   "má phanh đĩa",
+   "heo dầu phanh",
+   "ắc cài trượt",
+   "pít-tông phanh",
+   "đĩa phanh đảo",
+   "tấm chống ồn má phanh",
+   "mòn lệch má phanh",
+   "bulông heo dầu"
+  ],
+  "keywords": [
+   "má phanh đĩa xe máy mòn lệch",
+   "một má phanh mòn nhanh hơn má kia",
+   "ắc cài heo dầu bị kẹt",
+   "pít-tông phanh đĩa bị bó",
+   "thay má phanh mới vẫn mòn lệch"
+  ],
+  "seoTitle": "Má phanh đĩa xe máy mòn lệch: vì sao một má mòn nhanh hơn má kia",
+  "primaryKeyword": "má phanh đĩa xe máy mòn lệch",
+  "headings": [
+   "Heo dầu ép hai má lên đĩa thế nào và vì sao cần trượt tự do",
+   "Những lý do khiến một má mòn nhanh hơn má kia",
+   "Tự nhìn an toàn: so hai má, quay bánh, sờ đĩa",
+   "Vì sao thay má mới mà không sửa gốc thì lặp lại",
+   "Phần dành cho thợ và câu hỏi nên hỏi khi thay má"
+  ],
+  "summary": "Không ít chủ xe máy được thợ báo một má phanh đĩa đã mòn gần hết trong khi má kia còn dày, hoặc tự soi qua khe heo dầu thấy hai má dày mỏng khác nhau dù mới thay chưa lâu. Tình trạng này hiếm khi do má phanh kém, mà thường do cụm heo dầu không còn ép đều hai m"
+ },
+ {
+  "kind": "article",
   "url": "map/bai-do-xe/ma-qr-o-bai-xe-cay-xang-hay-tru-sac-bi-dan-de-nhin-ten-nguoi-nhan-truoc-khi-xac-nhan-va-xu-ly-khi-lo-chuyen-nham/",
   "title": "Mã QR ở bãi xe, cây xăng hay trụ sạc bị dán đè: nhìn tên người nhận trước khi xác nhận và xử lý khi lỡ chuyển nhầm",
   "description": "Mã QR thu tiền ở bãi xe, cây xăng hay trụ sạc có thể bị dán đè. Cách đọc tên người nhận, nhận ra bảng mã lạ và việc cần làm ngay khi lỡ chuyển nhầm.",
@@ -35672,6 +35812,41 @@
  },
  {
   "kind": "article",
+  "url": "garage/dong-co/nhot-xe-may-chuyen-mau-nau-sua-hoac-co-bot-kem-nuoc-lan-vao-tu-dau-nguy-co-cho-may-va-viec-can-lam-truoc-khi-no-may-tiep/",
+  "title": "Nhớt xe máy chuyển màu nâu sữa hoặc có bọt kem: nước lẫn vào từ đâu, nguy cơ cho máy và việc cần làm trước khi nổ máy",
+  "description": "Nhớt xe máy nâu sữa hay có bọt kem quanh nắp châm là dấu hiệu nước lẫn vào. Nước vào theo đường nào, nặng nhẹ ra sao, có nên nổ máy tiếp và thợ làm gì.",
+  "category": "Sửa chữa",
+  "hub": "Động cơ",
+  "entities": [
+   "nhớt nâu sữa",
+   "bọt kem dưới nắp châm nhớt",
+   "nhũ hóa nhớt",
+   "hơi ẩm ngưng tụ trong lốc máy",
+   "ống thở lốc máy",
+   "nước làm mát lẫn vào nhớt",
+   "que thăm nhớt",
+   "gioăng và phớt động cơ"
+  ],
+  "keywords": [
+   "nhớt xe máy màu nâu sữa",
+   "nhớt xe máy có bọt kem",
+   "nước lẫn vào nhớt xe máy",
+   "nhớt xe máy bị nhũ hóa",
+   "nhớt đục như cà phê sữa có chạy tiếp được không"
+  ],
+  "seoTitle": "Nhớt xe máy nâu sữa hoặc có bọt kem: nước vào từ đâu, làm gì ngay",
+  "primaryKeyword": "nhớt xe máy màu nâu sữa",
+  "headings": [
+   "Vì sao nhớt gặp nước lại thành màu nâu sữa và bôi trơn kém đi",
+   "Nước vào nhớt theo những đường nào: đường nhẹ và đường nặng",
+   "Phân biệt bọt mỏng dưới nắp châm với nhớt đã nhũ hóa thật sự",
+   "Có được nổ máy chạy tiếp không và việc cần làm ngay",
+   "Thợ xử lý thế nào và thói quen để không lặp lại"
+  ],
+  "summary": "Mở nắp châm nhớt hay rút que thăm mà thấy nhớt chuyển màu nâu sữa, hoặc có lớp bọt kem bám quanh nắp, nhiều người không biết nước từ đâu chui vào máy và có được chạy tiếp tới tiệm không. Bài này đi riêng vào tình huống đó: vì sao nhớt gặp nước lại thành nhũ nâ"
+ },
+ {
+  "kind": "article",
   "url": "learn/cham-soc-xe/nhua-duong-nhua-cay-va-phan-chim-bam-tren-xe-may-lam-sach-the-nao/",
   "title": "Nhựa đường, nhựa cây và phân chim bám trên xe máy: làm sạch sớm và đúng cách để không hại lớp sơn",
   "description": "Cách tẩy nhựa đường trên xe máy, gỡ nhựa cây và phân chim trên sơn: xử lý sớm, làm mềm rồi lau nhẹ, tránh xăng, dung môi mạnh và chú ý đĩa phanh.",
@@ -36579,6 +36754,41 @@
    "Luyện tập: biến kỹ thuật thành phản xạ"
   ],
   "summary": "Phanh khẩn cấp là kỹ thuật người lái hi vọng không bao giờ dùng — nhưng khi cần, nó là khoảng cách giữa \"may quá\" và tai nạn. Vấn đề của phanh khẩn cấp không phải bóp mạnh — mà là bóp mạnh đúng: lực lớn nhất mà bánh xe vẫn bám đường, phân công đúng giữa phanh "
+ },
+ {
+  "kind": "article",
+  "url": "garage/phanh/phanh-sau-xe-so-ban-dap-qua-cao-hoac-qua-thap-an-qua-som-hay-tra-cham-chinh-tam-ban-dap-do-ro-va-khi-nao-nen-giao-tho/",
+  "title": "Phanh sau xe số: bàn đạp quá cao hay quá thấp, ăn quá sớm hay trả chậm — chỉnh tầm bàn đạp, độ rơ và lúc nên giao thợ",
+  "description": "Bàn đạp phanh sau xe số quá cao, quá thấp, vừa chạm đã bó bánh hay không trả lên: phân biệt tầm bàn đạp với độ rơ, cách tự quan sát an toàn và lúc nên giao thợ.",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "entities": [
+   "bàn đạp phanh sau",
+   "tầm bàn đạp",
+   "độ rơ phanh",
+   "lò xo hồi",
+   "ốc tăng phanh",
+   "cần kéo phanh",
+   "trống phanh sau",
+   "xe số"
+  ],
+  "keywords": [
+   "bàn đạp phanh sau xe số",
+   "chỉnh bàn đạp phanh xe số",
+   "độ rơ phanh sau xe máy",
+   "bàn đạp phanh không trả về",
+   "phanh sau xe số ăn quá sớm"
+  ],
+  "seoTitle": "Bàn đạp phanh sau xe số cao, thấp, ăn sớm hay trả chậm: do đâu",
+  "primaryKeyword": "bàn đạp phanh sau xe số",
+  "headings": [
+   "Cụm phanh chân xe số gồm những gì và tầm bàn đạp khác độ rơ ra sao",
+   "Bàn đạp quá cao hoặc quá thấp: nhận ra so với bàn chân mình",
+   "Ăn quá sớm, bánh dễ bó hay đạp sâu mới ăn: độ rơ đang sai",
+   "Bàn đạp trả chậm hoặc không trả về: lò xo, trục và dây",
+   "Việc tự làm được, việc để thợ và thói quen dùng phanh sau"
+  ],
+  "summary": "Người đi xe số hay gặp bàn đạp phanh sau đặt quá cao phải nhấc chân mới với tới, hoặc quá thấp đạp gần sát mới ăn; có xe vừa chạm bàn đạp bánh sau đã khựng, có xe đạp xong bàn đạp nằm lì không trả lên. Nhiều người không biết đâu là chuyện chỉnh lại cho hợp châ"
  },
  {
   "kind": "article",
@@ -53853,6 +54063,41 @@
    "Cách ghi lại triệu chứng và lúc giao thợ"
   ],
   "summary": "Bài giải thích vì sao xe tay ga hay giật hoặc gợn từng nhịp khi xuất phát và giữ ga nhỏ, nhưng chạy nhanh lại êm: đó là vùng bố nồi còn đang trượt, đai và con lăn mới bắt đầu dịch chuyển nên sai lệch nhỏ cũng lộ ra. Nội dung điểm qua các nguyên nhân thường gặp"
+ },
+ {
+  "kind": "article",
+  "url": "guide/xu-ly-su-co/xe-tay-ga-khoa-thong-minh-het-ac-quy-xe-khong-mo-duoc-yen-khong-bat-duoc-dien-chia-co-du-phong-o-dau-cau-binh-va-vi-sao-khong-cay/",
+  "title": "Xe tay ga khóa thông minh hết ắc quy xe: không mở được yên, không lên điện — chìa cơ dự phòng ở đâu và vì sao không cạy",
+  "description": "Xe tay ga khóa thông minh hết ắc quy, núm khóa im lặng, không mở được yên: phân biệt với chìa hết pin, tìm chìa cơ dự phòng, thứ tự xử lý và vì sao không cạy.",
+  "category": "Hướng dẫn",
+  "hub": "Xử lý sự cố",
+  "entities": [
+   "khóa thông minh xe tay ga",
+   "ắc quy xe máy",
+   "chìa cơ dự phòng",
+   "ổ khóa cơ mở yên",
+   "câu bình ắc quy",
+   "cứu hộ xe máy",
+   "chứng minh chủ xe",
+   "pin chìa thông minh"
+  ],
+  "keywords": [
+   "xe smartkey hết ắc quy không mở được yên",
+   "khóa thông minh không lên điện",
+   "chìa cơ dự phòng xe tay ga",
+   "câu bình xe tay ga khóa thông minh",
+   "xe tay ga hết ắc quy không mở được cốp"
+  ],
+  "seoTitle": "Xe smartkey hết ắc quy không mở được yên: chìa cơ ở đâu, làm gì",
+  "primaryKeyword": "xe smartkey hết ắc quy không mở được yên",
+  "headings": [
+   "Khóa thông minh cần điện từ xe: khác gì với chìa hết pin",
+   "Nhận ra xe hết ắc quy chứ không phải lỗi chìa",
+   "Chìa cơ dự phòng và ổ khóa cơ mở yên nằm ở đâu",
+   "Thứ tự xử lý: mở yên, tiếp cận ắc quy, câu bình hay gọi hỗ trợ",
+   "Vì sao không cạy, cách chứng minh xe của mình và thói quen phòng"
+  ],
+  "summary": "Xe tay ga dùng khóa thông minh để vài ngày hoặc quên tắt điện, sáng ra núm khóa không phản hồi, không mở được yên để lấy đồ hay tiếp cận ắc quy. Nhiều người tưởng chìa hỏng, thay pin chìa mà vẫn không được, rồi loay hoay cạy yên giữa bãi xe. Bài giải thích vì "
  },
  {
   "kind": "article",
