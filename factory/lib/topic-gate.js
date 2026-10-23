@@ -209,6 +209,9 @@ class TopicCorpus {
 // ---------------------------------------------------------------------------
 function shapeProblems(c, T, hubs) {
   const p = [];
+  // Quy tắc 8 AGENTS.md: không ký tự CJK/Cyrillic/Hangul trong bất kỳ nguồn nào — chặn ngay ở cổng,
+  // không để lọt vào topic-matrix.jsonl (T001865 từng mang hai ký tự CJK trong informationGain, chỉ test-topic-v2 bắt được).
+  if (/[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\u0400-\u04ff]/.test(JSON.stringify(c))) p.push(['garbage-chars', 'ứng viên chứa ký tự CJK/Cyrillic/Hangul — viết lại bằng tiếng Việt']);
   const title = String(c.title || '').trim();
   if (title.length < T.minTitleChars || title.length > T.maxTitleChars) p.push(['title-length', 'title phải dài ' + T.minTitleChars + '–' + T.maxTitleChars + ' ký tự']);
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(String(c.slug || ''))) p.push(['slug-format', 'slug thiếu hoặc sai format']);

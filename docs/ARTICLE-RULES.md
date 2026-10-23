@@ -5,7 +5,7 @@
 - Không heading tiếng Anh, không câu tiếng Anh chen ngang, không dịch máy cứng.
 
 ## Cấu trúc bài (module JS trong `factory/data/articles/`)
-`slug, title, seoTitle (25–70 ký tự), metaDescription (100–165 ký tự), summary (≥100 ký tự), quickAnswer (≥80 ký tự), keyPoints (≥4), category, hub, date, updated, entities, keywords, sections (≥4 mục H2), checklist (≥3), steps, warnings (≥2), notes (≥1), references (≥2), related (≥2 slug tồn tại).`
+`slug, title, seoTitle (25–70 ký tự), metaDescription (100–165 ký tự), summary (≥100 ký tự), quickAnswer (≥80 ký tự), keyPoints (≥4), category, hub, date, updated, entities, keywords, sections (≥4 mục H2), checklist (≥3), steps (mảng `{ title, detail }` — KHÔNG chuỗi trần, G5 chặn), warnings (≥2), notes (≥1), references (≥2), related (≥2 slug tồn tại).`
 
 ## Cấm bịa dữ kiện kinh doanh
 Không bịa giá, địa chỉ, giờ mở cửa, danh sách xe đang có, phạm vi giao xe, điều khoản dịch vụ. Với nội dung ngoài khu vực đã xác minh: **informational only**. QA chặn các pattern: giá thuê chỉ từ, địa chỉ số nhà, liên hệ zalo, hotline.

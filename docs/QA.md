@@ -16,7 +16,7 @@ Writer viết nhanh → scoped QA bài mới → PASS → coordinator publish.
 2. **dup-id** — duplicate article ID (trùng ID slot/manifest đã có).
 3. **dup-slug** — duplicate slug (trùng slug slot/manifest đã có).
 4. **canonical** — duplicate/sai canonical: slug bẩn hoặc lệch hub/slug với slot.
-5. **render-ok** — HTML/frontmatter hỏng khiến trang không render + ký tự rác CJK/Cyrillic/Hangul.
+5. **render-ok** — HTML/frontmatter hỏng khiến trang không render + ký tự rác CJK/Cyrillic/Hangul; từ 2026-10-23 cũng FAIL khi `steps` không phải mảng `{ title, detail }` không rỗng (render đọc `s.title`/`s.detail`, chuỗi trần sinh mục rỗng — lỗi thật ở S01959).
 6. **business** — sai giá/policy kinh doanh đã xác minh: bịa giá thuê, bịa địa chỉ, nhồi Zalo/hotline.
 7. **links-ok** — broken link nghiêm trọng làm build/deploy fail (related trỏ slug không tồn tại, related < 2).
 

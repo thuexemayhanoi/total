@@ -309,6 +309,9 @@ console.log('1. UNIT — intent key, hoán vị, risk trigger, shape, gate, gove
   ok(codes(rO).includes('intent-ownership') && rO.verdict === 'REWRITE', 'gate: intent thuê xe thương mại phải thuộc /thue-xe/ (REWRITE)', rO.verdict + ' ' + codes(rO).join());
   const rS = ev(cand({ outline: ['Một', 'Hai'] }));
   ok(rS.verdict === 'REWRITE' && codes(rS).includes('outline-invalid'), 'gate: hình dạng yếu => REWRITE');
+  const rG = ev(cand({ informationGain: cand({}).informationGain + ' Vạch \u8def\u9762 chìm trong nước.' }));
+  ok(rG.verdict === 'REWRITE' && codes(rG).includes('garbage-chars'), 'gate: ký tự CJK/Cyrillic/Hangul trong ứng viên => REWRITE (garbage-chars)', rG.verdict + ' ' + codes(rG).join());
+  ok(!codes(ev(cand({}))).includes('garbage-chars'), 'gate: ứng viên tiếng Việt sạch không bị garbage-chars');
   // precedence + addReason chỉ làm chặt hơn
   const base = ev(FIX.bugi);
   const tighter = G.addReason(base, { code: 'x', verdict: 'REJECT', msg: 'm' });
