@@ -18093,6 +18093,38 @@
   ]
  },
  {
+  "url": "wiki/dau-nhot/do-nham-nhot-may-vao-binh-dau-phanh-hoac-dau-phanh-vao-lo-cham-nhot-hai-gi-nhan-ra-som-va-xu-ly-truoc-khi-no-may/",
+  "title": "Đổ nhầm nhớt máy vào bình dầu phanh hoặc dầu phanh vào lỗ châm nhớt: hại gì, nhận ra sớm và xử lý trước khi nổ máy",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Tự châm dầu ở nhà, các chai để cạnh nhau, nhãn mờ, rót xong mới giật mình nhận ra chai vừa cầm là nhớt máy chứ không phải dầu phanh, hoặc ngược lại. Xe chưa nổ máy, tay phanh chưa bóp mấy, và câu hỏi đặt ra là hút phần đổ nhầm ra là xong hay phải tháo rửa cả hệ thống. Bài này tách riêng từng kiểu nhầm: vì sao nhớt máy lọt vào bình dầu phanh là nhầm lẫn nặng nhất vì cao su trong hệ phanh trương nở dần theo ngày, vì sao dầu phanh hay nước làm mát rót vào lỗ châm nhớt phải xả hết trước khi nổ máy, các kiểu nhầm nhẹ hơn giữa nhớt láp, nhớt xe số và nhớt tay ga, rồi cách nhận ra sớm qua màu, độ sánh, mùi, vạch mức và cách kể với thợ sao cho đúng.",
+  "quickAnswer": "Vừa phát hiện rót nhầm thì dừng tay ngay: không nổ máy, không bóp hay đạp phanh, giữ lại chai vừa rót. Nhớt máy vào bình dầu phanh là trường hợp nặng nhất vì dầu gốc khoáng thường làm cúp pen, phớt và lớp lót ống phanh trương nở dần, nên chỉ hút lớp nổi trên bình là chưa đủ; xe cần được dắt hoặc chở tới thợ để tháo rửa và thay phần cao su, không tự xả hay tháo hệ phanh ở nhà. Dầu phanh hay nước làm mát rót vào lỗ châm nhớt thì chưa nổ máy là may: xả hết nhớt khi máy nguội, thay lọc, châm nhớt mới rồi theo dõi màu nhớt vài ngày; nếu không quen tự thay nhớt thì gọi thợ. Nhầm giữa các loại nhớt bôi trơn với nhau nhẹ hơn nhiều, thường chỉ cần xả thay lại sớm.",
+  "keyPoints": [
+   "Chai nhớt, dầu phanh, nhớt láp và nước làm mát hay có cỡ chai giống nhau, nhãn mờ vì dính dầu và được xếp cạnh nhau, nên nhầm lẫn thường xảy ra lúc làm nhiều việc một lượt ở nhà.",
+   "Nhớt máy lọt vào bình dầu phanh là nặng nhất: cao su trong xi lanh chính, heo dầu và ống phanh thường trương nở từ từ, dẫn tới bó phanh hoặc mất áp sau vài ngày, nên hút phần nổi không thay được việc tháo rửa và thay cao su.",
+   "Dầu phanh hay nước làm mát rót vào lỗ châm nhớt phá màng bôi trơn và có thể tạo bọt, cặn; việc đầu tiên là không nổ máy, xả hết nhớt, thay lọc rồi theo dõi màu nhớt sau khi thay.",
+   "Nhầm nhớt láp với nhớt máy hay nhớt tay ga với nhớt xe số thuộc nhóm nhẹ hơn vì cùng là dầu bôi trơn; thường chỉ cần xả thay lại sớm, nhưng không nên để tới kỳ thay sau."
+  ],
+  "entities": [
+   "đổ nhầm nhớt vào bình dầu phanh",
+   "dầu phanh lọt vào lỗ châm nhớt",
+   "cao su hệ phanh trương nở",
+   "cúp pen xi lanh chính",
+   "màng bôi trơn",
+   "nhớt láp",
+   "nhớt xe tay ga và nhớt xe số",
+   "nước làm mát lẫn vào nhớt",
+   "que thăm nhớt"
+  ],
+  "keywords": [
+   "đổ nhầm nhớt vào bình dầu phanh",
+   "đổ nhầm dầu phanh vào máy",
+   "cầm nhầm chai nhớt và dầu phanh",
+   "nhớt lọt vào hệ thống phanh",
+   "đổ nhầm nước làm mát vào nhớt"
+  ]
+ },
+ {
   "url": "garage/dong-co/do-noi-do-po-hay-do-may-xe-may-duoc-gi-mat-gi-va-nhung-dieu-nen-can-nhac-truoc-khi-lam/",
   "title": "Độ nồi, độ pô hay độ máy xe máy: được gì, mất gì và những điều nên cân nhắc trước khi làm",
   "category": "Sửa chữa",
@@ -25890,6 +25922,37 @@
    "lốp không hơi xe máy",
    "có nên thay lốp đặc cho xe máy",
    "lốp đặc có tốt không"
+  ]
+ },
+ {
+  "url": "garage/lop/lop-khong-sam-xep-han-roi-bom-mai-khong-len-hoi-mep-lop-roi-vanh-vi-sao-tho-ep-lai-the-nao-va-khi-nao-tanh-da-hong/",
+  "title": "Lốp không săm xẹp hẳn rồi bơm mãi không lên hơi: mép lốp rời vành vì sao, thợ ép lại thế nào và khi nào tanh đã hỏng",
+  "category": "Sửa chữa",
+  "hub": "Lốp",
+  "summary": "Sáng ra thấy lốp sau xẹp lép, mang bơm ra bơm thì hơi xì ngược ra ngay ở mép lốp, bơm mãi không lên, thợ bảo lốp bị tụt mép khỏi vành phải mang về tiệm ép lại mới vào hơi. Bài giải thích cơ chế giữ hơi của lốp không săm nằm ở mép lốp, tức tanh, ôm sát gờ vành chứ không nằm ở lớp cao su như lốp có săm; vì thế khi lốp xẹp hẳn mà xe vẫn lăn bánh, bị dựng nghiêng lâu hay vành dính bùn đất, mép lốp trượt vào lòng vành và hơi bơm vào bao nhiêu xì ra bấy nhiêu dù không có lỗ thủng nào. Bài phân biệt xì chậm qua van hay vết thủng nhỏ với xì ở mép và với tanh đã giãn hoặc đứt sợi, mô tả việc thợ làm để mép ôm lại vành và vì sao bơm tay ở nhà thường không đủ, rồi nêu dấu hiệu tanh đã hỏng phải thay lốp cùng thói quen để mép không tụt lại.",
+  "quickAnswer": "Lốp không săm giữ hơi nhờ mép lốp có lõi tanh ôm chặt gờ vành; khi lốp xẹp hẳn rồi xe vẫn lăn bánh, dựng nghiêng lâu hoặc vành dính bẩn, mép trượt vào lòng vành và hở ra, nên bơm bao nhiêu hơi xì ra bấy nhiêu dù lốp không thủng. Thợ lau sạch gờ vành, bôi trơn mép, tháo lõi van rồi dùng luồng hơi mạnh đột ngột hoặc dây siết quanh chu vi lốp để ép mép bật về gờ, điều mà bơm tay hay bơm mini ở nhà thường không làm được. Nếu mép lốp gợn sóng, lộ sợi, cao su mép mòn vẹt hoặc ép lên rồi vẫn xì ở một điểm dù vành đã sạch, tanh đã giãn hoặc đứt và phải thay lốp. Sau này không lăn bánh khi lốp xẹp, kiểm hơi đều và yêu cầu thợ lau vành khi vá để mép không tụt lại.",
+  "keyPoints": [
+   "Ở lốp không săm, hơi được giữ bởi lớp lót kín bên trong và mép lốp có lõi tanh ôm sát gờ vành; lốp có săm thì chính săm giữ hơi nên mép lốp không cần kín.",
+   "Mép lốp trượt vào lòng vành là lý do bơm mãi không lên dù không có lỗ thủng; khe hở ở mép cho hơi thoát ra nhanh hơn tốc độ bơm vào nên lốp không phình được để tự đẩy mép về chỗ.",
+   "Ba tình huống hay bị gộp chung: xì chậm qua van hay vết thủng nhỏ, xì ngay tại mép vì mép chưa về chỗ, và tanh đã giãn hoặc đứt sợi sau khi chạy xẹp một đoạn dài.",
+   "Lăn bánh khi xẹp, dựng nghiêng lâu, vành dính bùn đất hay keo cũ, vành méo và lốp cũ cứng mép là những nguyên nhân thường gặp làm mép tụt."
+  ],
+  "entities": [
+   "lốp không săm bơm không lên hơi",
+   "tanh lốp",
+   "gờ vành",
+   "mép lốp tụt khỏi vành",
+   "lớp lót kín",
+   "van lốp",
+   "bình tích hơi ép mép",
+   "dây siết chu vi lốp"
+  ],
+  "keywords": [
+   "lốp không săm bơm không lên hơi",
+   "lốp không săm bị tụt mép vành",
+   "mép lốp rời vành xì hơi",
+   "ép mép lốp không săm vào vành",
+   "tanh lốp bị hỏng dấu hiệu"
   ]
  },
  {
@@ -33720,6 +33783,37 @@
   ]
  },
  {
+  "url": "garage/phanh/tay-phanh-xe-may-long-lac-keu-cach-khi-bop-nha-chot-mon-bac-lot-hay-cong-tac-den-phanh-va-tu-siet-duoc-khong/",
+  "title": "Tay phanh xe máy lỏng lắc, kêu cạch khi bóp nhả: chốt mòn, bạc lót hay công tắc đèn phanh và tự siết được không",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "summary": "Bóp phanh nghe cạch một tiếng ở tay, cầm tay phanh lắc lên xuống thấy rơ rõ, qua đường xóc còn kêu lạch cạch, trong khi phanh vẫn ăn nhưng cảm giác bóp lỏng lẻo. Bài tách riêng độ lắc tại chốt tay phanh, thứ xuất hiện dần theo năm tháng dùng xe, khỏi hai chuyện hay bị gộp là hành trình tự do của tay phanh và tay phanh hỏng sau cú ngã. Bài giải thích cấu tạo cụm tay phanh ở phần ít ai để ý gồm chốt xoay, bạc lót, lò xo và cò công tắc đèn phanh, vì sao chốt khô mỡ và ốc khóa tự nới làm tay lắc ngang và kêu cạch lúc bóp lẫn lúc nhả, tiếng tách nào của công tắc đèn phanh là bình thường, ảnh hưởng thật của độ lắc tới lực phanh, cảm giác bóp và pít tông bơm dầu ở phanh đĩa, cùng ranh giới giữa việc tự siết, tự tra mỡ được và việc nên giao thợ thay chốt, bạc lót hay cả cùm.",
+  "quickAnswer": "Tay phanh lắc lên xuống hoặc lắc ngang kèm tiếng cạch khi bóp nhả thường là do chốt xoay khô mỡ và mòn, bạc lót mòn hoặc vỡ, hay ốc khóa dưới chốt tự nới theo rung; nó khác với hành trình tự do, là đoạn tay đi theo chiều bóp trước khi gặp sức cản và vốn cần có. Để phân biệt, dựng xe, nắm đầu tay phanh đẩy nhẹ lên xuống: có rơ và tiếng cạch là lắc ở chốt; chỉ chuyển động theo chiều bóp rồi gặp lực là hành trình tự do. Tiếng tách nhỏ, khô, phát đúng lúc nhả gần hết và đèn phanh vẫn sáng đúng là tiếng cò công tắc đèn phanh, bình thường. Bạn có thể tự siết lại ốc khóa sao cho tay vẫn tự về nhẹ, tra một lớp mỡ mỏng vào chốt và mặt tì; chốt mòn rãnh, bạc lót vỡ, lỗ tay phanh đã ô van, chốt tuôn ren hay cùm bơm dầu rơ pít tông thì nên giao thợ thay.",
+  "keyPoints": [
+   "Lắc ở chốt là chuyển động tay phanh theo chiều không nên có, lên xuống hoặc ngang; hành trình tự do là đoạn đi theo chiều bóp trước khi gặp lực và vốn bình thường.",
+   "Chốt xoay khô mỡ, bạc lót mòn và ốc khóa tự nới tạo khe hở ở chốt, mỗi lần bóp và nhả tay dịch sang một bên tới khi chạm nên nghe cạch.",
+   "Tiếng tách nhỏ, đều, phát đúng lúc nhả gần hết và đèn phanh sáng đúng là tiếng cò công tắc đèn phanh, không cần sửa.",
+   "Độ lắc làm điểm ăn phanh không ổn định, tay tì lệch vào pít tông bơm dầu nên pít tông và phớt mòn một bên, có thể về chậm và bó nhẹ."
+  ],
+  "entities": [
+   "tay phanh xe máy lỏng lắc",
+   "chốt xoay tay phanh",
+   "bạc lót tay phanh",
+   "ốc khóa chốt tay phanh",
+   "công tắc đèn phanh",
+   "hành trình tự do tay phanh",
+   "cùm bơm dầu phanh đĩa",
+   "pít tông bơm dầu"
+  ],
+  "keywords": [
+   "tay phanh xe máy lỏng lắc",
+   "tay phanh kêu cạch khi bóp",
+   "chốt tay phanh bị rơ",
+   "tay phanh xe máy bị lắc tự siết được không",
+   "công tắc đèn phanh kêu tách"
+  ]
+ },
+ {
   "url": "tips/meo-lai-xe/tha-ca-chep-ngay-ong-cong-ong-tao-bang-xe-may-cho-ca-khong-do-nuoc-dung-xe-ven-ho-tren-cau-sao-cho-an-toan/",
   "title": "Thả cá chép ngày ông Công ông Táo bằng xe máy: chở cá không đổ nước, dừng xe ven hồ, trên cầu sao cho an toàn",
   "category": "Mẹo",
@@ -34223,6 +34317,38 @@
    "nhờ thợ xem xe có mất tiền không",
    "công dò lỗi xe máy",
    "hỏi trước khi thợ kiểm tra xe"
+  ]
+ },
+ {
+  "url": "garage/bao-duong-dinh-ky/tho-dung-sung-hoi-ban-oc-khi-thay-lop-thay-nhot-hay-bugi-vi-sao-de-siet-qua-tay-hoac-hut-hau-qua-va-nen-nhac-tho-gi/",
+  "title": "Thợ dùng súng hơi bắn ốc khi thay lốp, thay nhớt hay bugi: vì sao dễ siết quá tay hoặc hụt, hậu quả và nên nhắc thợ gì",
+  "category": "Sửa chữa",
+  "hub": "Bảo dưỡng định kỳ",
+  "summary": "Đi thay nhớt hay thay lốp, hầu như tiệm nào cũng cầm súng hơi bắn ốc ra rồi bắn vào trong tích tắc, nhưng ít chủ xe hiểu công cụ này làm gì với ren của xe mình. Bài giải thích vì sao súng hơi tháo rất giỏi mà siết lại không cảm nhận được sức căng của ren như tay người, nên ốc nhỏ bắt vào nhôm như ốc xả nhớt, ốc nắp máy hay bugi dễ bị quá tay tới toét ren, nứt sứ, còn ốc lớn như ốc trục bánh có thể chặt bề ngoài mà chưa đủ sức giữ. Bài mô tả hậu quả theo từng mối ghép mà bạn tự nhìn thấy được sau vài ngày, nêu những mối ghép nên đề nghị thợ bắt mồi và siết bằng tay hoặc kiểm bằng cờ lê lực, cách nói với thợ ngắn gọn không mất lòng, và lúc nhận xe nên nhìn gì ở chân ốc, long đền và gioăng.",
+  "quickAnswer": "Tiệm dùng súng hơi để tháo ốc là bình thường và gần như không hại gì; vấn đề nằm ở chiều siết vào. Súng hơi đập từng nhịp với lực phụ thuộc áp hơi và thời gian giữ cò, thợ không cảm được lúc ren đã tới, nên ốc nhỏ bắt vào nhôm như ốc xả nhớt, ốc nắp máy, bugi dễ bị quá tay đến tuôn ren hay nứt sứ, còn ốc lớn như ốc trục bánh có thể dừng vì ren bẩn hoặc súng yếu hơi mà chưa đủ lực kẹp rồi lỏng dần. Bạn nên nhắc trước khi thợ bắt đầu: ốc xả nhớt, bugi, ốc nắp máy xin bắt mồi và siết bằng tay; ốc trục bánh, chân phuộc, ốc đĩa kiểm lại bằng cờ lê lực hoặc cờ lê tay rồi lắp đủ chốt khóa. Khi nhận xe, nhìn chân ốc xả có long đền mới và khô, bugi cắm chụp sát, ốc bánh có chốt chẻ và vạch căn xích khớp, mép nắp máy không đùn gioăng.",
+  "keyPoints": [
+   "Súng hơi tháo ốc kẹt rất nhanh và không hại ren; cái cần để ý là thợ dùng nó ở chiều siết vào và ở mối ghép nào.",
+   "Súng đập từng nhịp, không có phản hồi như tay người, nên ốc nhỏ bắt vào nhôm nhận quá nhiều lực chỉ sau vài nhịp dư.",
+   "Ốc lớn như ốc trục bánh lại có thể chỉ chặt bề ngoài khi súng yếu hơi hoặc ren bẩn, rồi nới dần theo rung khi xe chạy.",
+   "Hậu quả nhìn thấy được: vệt nhớt quanh ốc xả, bugi khó tháo hoặc máy giật, bánh rơ khi lắc, mép nắp máy đùn gioăng và rỉ dầu."
+  ],
+  "entities": [
+   "súng hơi bắn ốc",
+   "ốc xả nhớt",
+   "bugi",
+   "ốc trục bánh",
+   "nắp máy",
+   "ren nhôm",
+   "cờ lê lực",
+   "long đền",
+   "gioăng"
+  ],
+  "keywords": [
+   "thợ dùng súng hơi bắn ốc",
+   "súng hơi siết ốc xe máy có hại không",
+   "ốc xả nhớt bị siết quá tay",
+   "bugi siết bằng súng hơi",
+   "nhắc thợ siết ốc bằng tay"
   ]
  },
  {
@@ -45138,6 +45264,38 @@
    "xe máy nổ pạch pạch",
    "tiếng nổ khi nhả ga",
    "xe nổ ở pô khi xuống dốc"
+  ]
+ },
+ {
+  "url": "learn/chuan-doan-loi/xe-may-nong-len-thi-yeu-dan-roi-chet-may-de-nguoi-lai-no-lua-yeu-khi-nong-hoi-xang-hay-cam-bien-va-ghi-gi-cho-tho/",
+  "title": "Xe máy nóng lên thì yếu dần rồi chết máy, để nguội lại nổ: lửa yếu khi nóng, hơi xăng hay cảm biến và ghi gì cho thợ",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Chẩn đoán lỗi",
+  "summary": "Xe nổ và chạy bình thường một quãng đầu, càng chạy càng đuối, ga không còn ăn rồi tắt hẳn giữa đường, đề mãi không nổ, nhưng dắt vào lề chờ máy nguội thì lại nổ như chưa có chuyện gì; mang ra tiệm thì xe đã nguội, thợ thử thấy ổn, rồi vài hôm sau bệnh lại tái diễn. Bài tách riêng kiểu bệnh chỉ hỏng khi nóng, nguội thì khỏi này khỏi bệnh máy nóng nói chung và bệnh khó nổ khi máy nóng, giải thích vì sao một số chi tiết chỉ lỗi khi nhiệt độ lên cao, chia nguyên nhân thành ba nhóm là đánh lửa, nhiên liệu và cảm biến, rồi hướng dẫn tự khoanh vùng bằng ba câu hỏi và cách ghi mốc thời gian, thời tiết, tải để thợ tái hiện được bệnh thay vì thử xe lúc đã nguội.",
+  "quickAnswer": "Xe nóng lên thì yếu dần rồi chết máy, để nguội lại nổ thường do một chi tiết chỉ hỏng khi nhiệt độ cao: bô bin, bộ điều khiển đánh lửa hay cuộn lửa bị nứt ngầm giãn ra làm mất lửa; hơi xăng kẹt trong chế hòa khí hoặc ống xăng nằm sát máy ở xe đời cũ; bơm xăng đuối khi nóng ở xe phun xăng; hoặc cảm biến nhiệt báo sai khiến bộ điều khiển cắt hay pha xăng lệch. Manh mối quan trọng nhất là chính thời gian chờ nguội. Hãy để ý xe tắt kiểu lịm dần hay tắt phụt, có mùi xăng sống hay mùi khét không, chờ bao lâu thì nổ lại, rồi ghi kèm thời tiết, tải và quãng chạy để thợ tái hiện đúng lúc máy nóng; đừng dội nước lạnh lên máy và nên ngừng đi xe khi bệnh tái diễn ở đường đông hoặc có mùi xăng nồng.",
+  "keyPoints": [
+   "Kiểu bệnh đặc trưng là chạy ổn lúc đầu, nóng dần thì đuối và tắt, nguội thì nổ lại; thời gian chờ nguội là manh mối chính, và nhiều chi tiết chỉ hỏng khi nóng vì vết nứt ngầm hay lớp cách điện xuống cấp giãn ra theo nhiệt.",
+   "Nhóm đánh lửa yếu khi nóng gồm bô bin, bộ điều khiển đánh lửa và cuộn lửa trong mâm điện; dấu hiệu nghiêng về nhóm này là xe tắt phụt, không mùi xăng và nổ lại ngay khi vừa nguội.",
+   "Nhóm nhiên liệu gồm hơi xăng kẹt ở xe chế hòa khí và bơm xăng đuối ở xe phun xăng; dấu hiệu nghiêng về nhóm này là xe lịm dần, ga không ăn, có khi khựng từng nhịp trước khi tắt.",
+   "Cảm biến nhiệt báo sai làm bộ điều khiển cắt hoặc pha xăng lệch trong khi máy không nóng bất thường, khác với máy nóng thật do thiếu nước làm mát có mùi khét, quạt chạy liên tục hay đèn báo nhiệt."
+  ],
+  "entities": [
+   "xe máy nóng lên thì chết máy",
+   "bô bin",
+   "bộ điều khiển đánh lửa",
+   "cuộn lửa",
+   "hơi xăng kẹt",
+   "bơm xăng điện",
+   "cảm biến nhiệt độ máy",
+   "chế hòa khí",
+   "mô tả bệnh cho thợ"
+  ],
+  "keywords": [
+   "xe máy nóng lên thì chết máy",
+   "xe máy chạy nóng là tắt máy nguội lại nổ",
+   "xe máy đang chạy yếu dần rồi chết máy",
+   "bô bin yếu khi nóng",
+   "bơm xăng đuối khi máy nóng"
   ]
  },
  {
