@@ -63,11 +63,11 @@ module.exports = {
     'Hết mùa mà vẫn hao: kiểm lọc gió, bugi, phanh bó và mô tả triệu chứng cho thợ.'
   ],
   steps: [
-    'Chọn một tuyến quen và ghi lại mức xăng tiêu thụ vào ngày khô, trời ấm.',
-    'Đi lại đúng tuyến đó vào ngày mưa hoặc lạnh với cùng cách chạy và cùng mức tải, rồi ghi lại.',
-    'So hai kết quả: chênh lệch vừa phải và quay về khi trời tốt thì là do thời tiết.',
-    'Kiểm lốp lúc nguội và bơm đủ hơi; xem lại các thứ cản gió trên xe.',
-    'Nếu hết mùa mà vẫn hao hoặc kèm triệu chứng bất thường, mang ghi chép tới thợ để kiểm lọc gió, bugi và phanh.'
+    { title: "Ghi mốc ngày khô", detail: "Chọn một tuyến quen và ghi lại mức xăng tiêu thụ vào ngày khô, trời ấm, với cách chạy và mức tải thường ngày." },
+    { title: "Lặp lại vào ngày mưa lạnh", detail: "Đi lại đúng tuyến đó vào ngày mưa hoặc lạnh với cùng cách chạy và cùng mức tải, rồi ghi lại." },
+    { title: "So hai kết quả", detail: "Chênh lệch vừa phải và quay về như cũ khi trời tốt thì phần tăng là do thời tiết." },
+    { title: "Kiểm lốp và đồ cản gió", detail: "Kiểm áp suất lốp lúc lốp còn nguội, bơm đủ hơi; xem lại áo mưa, túi treo và các thứ cản gió trên xe." },
+    { title: "Hết mùa vẫn hao thì đi thợ", detail: "Nếu trời đã ấm mà vẫn hao hoặc kèm triệu chứng bất thường, mang ghi chép tới thợ để kiểm lọc gió, bugi và phanh bó." }
   ],
   warnings: [
     'Không dựa vào lời bình thường để bỏ qua triệu chứng đi kèm như khó nổ kéo dài, khói, mùi xăng sống hay ga giật cục.',
