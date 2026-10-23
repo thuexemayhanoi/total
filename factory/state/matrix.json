@@ -28773,11 +28773,13 @@
    "title": "Mua một chiếc xe máy cho hai người khác vóc dáng cùng dùng: chọn theo ai, thử xe thế nào và chỗ nào chỉnh được sau",
    "primaryIntent": "informational/mua-mot-chiec-xe-may-cho-hai-nguoi-khac-voc-dang-cung-dung-chon-theo-ai-thu-xe-the-nao-va-cho-nao-chinh-duoc-sau",
    "notes": "source=topic-v2 topicId=T002144",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:11:29.415Z",
-   "updatedAt": "2026-10-23T16:11:29.415Z"
+   "updatedAt": "2026-10-23T16:26:15.197Z",
+   "seoScore": 91,
+   "words": 3621
   },
   {
    "id": "S01963",
@@ -28786,11 +28788,13 @@
    "title": "Chăm xe máy của bố mẹ ở xa: hỏi gì qua điện thoại, nhắc lịch thế nào, nhờ ai xem hộ và khi nào phải về tận nơi",
    "primaryIntent": "informational/cham-xe-may-cua-bo-me-o-xa-hoi-gi-qua-dien-thoai-nhac-lich-the-nao-nho-ai-xem-ho-va-khi-nao-phai-ve-tan-noi",
    "notes": "source=topic-v2 topicId=T002145",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:11:29.537Z",
-   "updatedAt": "2026-10-23T16:11:29.537Z"
+   "updatedAt": "2026-10-23T16:26:15.197Z",
+   "seoScore": 100,
+   "words": 3715
   },
   {
    "id": "S01964",
@@ -28799,11 +28803,13 @@
    "title": "Bạn đồng hành ốm giữa chuyến xe máy nhiều ngày: nhận ra sớm, ai chở xe ai, nghỉ lại hay quay về và khi nào tìm nơi khám",
    "primaryIntent": "troubleshooting/ban-dong-hanh-om-giua-chuyen-xe-may-nhieu-ngay-nhan-ra-som-ai-cho-xe-ai-nghi-lai-hay-quay-ve-va-khi-nao-tim-noi-kham",
    "notes": "source=topic-v2 topicId=T002146",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:11:29.667Z",
-   "updatedAt": "2026-10-23T16:11:29.667Z"
+   "updatedAt": "2026-10-23T16:26:15.196Z",
+   "seoScore": 91,
+   "words": 3279
   },
   {
    "id": "S01965",
@@ -28812,11 +28818,13 @@
    "title": "Gương chiếu hậu bám giọt mưa, mờ hơi nước khi đang đi: vì sao không thấy phía sau, lau lúc nào và cách nhìn bù an toàn",
    "primaryIntent": "troubleshooting/guong-chieu-hau-bam-giot-mua-mo-hoi-nuoc-khi-dang-di-vi-sao-khong-thay-phia-sau-lau-luc-nao-va-cach-nhin-bu-an-toan",
    "notes": "source=topic-v2 topicId=T002147",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-23T16:11:29.776Z",
-   "updatedAt": "2026-10-23T16:11:29.776Z"
+   "updatedAt": "2026-10-23T16:26:15.197Z",
+   "seoScore": 100,
+   "words": 3193
   },
   {
    "id": "S01966",

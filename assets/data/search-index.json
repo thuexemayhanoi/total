@@ -12050,6 +12050,42 @@
  },
  {
   "kind": "article",
+  "url": "ride/di-phuot/ban-dong-hanh-om-giua-chuyen-xe-may-nhieu-ngay-nhan-ra-som-ai-cho-xe-ai-nghi-lai-hay-quay-ve-va-khi-nao-tim-noi-kham/",
+  "title": "Bạn đồng hành ốm giữa chuyến xe máy nhiều ngày: nhận ra sớm, ai chở xe ai, nghỉ lại hay quay về và khi nào tìm nơi khám",
+  "description": "Một người trong nhóm sốt, đau bụng hay mệt lả giữa chuyến phượt: nhận ra khi họ giấu bệnh, ai chở người, ai chạy xe của họ, nên nghỉ lại, quay về hay đi khám.",
+  "category": "Hành trình",
+  "hub": "Đi phượt",
+  "entities": [
+   "bạn đồng hành ốm giữa chuyến",
+   "mệt sau chặng dài",
+   "người ốm không cầm lái",
+   "chở người ốm bằng xe máy",
+   "gửi xe lại chỗ nghỉ",
+   "rút ngắn chặng",
+   "đưa về bằng xe khách",
+   "nơi khám gần nhất",
+   "dấu hiệu nguy hiểm"
+  ],
+  "keywords": [
+   "bạn đồng hành ốm giữa chuyến đi phượt",
+   "người trong nhóm ốm khi đi phượt xe máy",
+   "người ốm có nên tự lái xe máy",
+   "nên nghỉ lại hay quay về khi có người ốm",
+   "khi nào đưa bạn đi khám giữa chuyến"
+  ],
+  "seoTitle": "Bạn đi cùng ốm giữa chuyến xe máy dài ngày: xử lý thế nào",
+  "primaryKeyword": "bạn đồng hành ốm giữa chuyến đi phượt",
+  "headings": [
+   "Ốm giữa chuyến khác mệt sau chặng dài ở đâu và vì sao gió, nắng, đường xóc làm bệnh nặng thêm",
+   "Nhận ra sớm khi người đi cùng giấu bệnh: tụt lại, phanh muộn, im lặng và bỏ bữa",
+   "Người ốm không cầm lái: ai chở người, ai chạy xe của họ và khi nào gửi xe lại",
+   "Nghỉ hẳn tại chỗ, rút ngắn chặng, đưa về hay tìm nơi khám: bậc thang quyết định cho cả nhóm",
+   "Dấu hiệu phải tìm trợ giúp y tế ngay và cách nói để người ốm không thấy mình làm hỏng chuyến"
+  ],
+  "summary": "Giữa một chuyến xe máy nhiều ngày, có người trong nhóm bắt đầu sốt, đau bụng hay mệt lả nhưng vẫn nói mình ổn vì sợ làm hỏng chuyến của mọi người. Cả nhóm lúng túng: người đó còn tự lái được không, xe của họ ai cầm, nên nghỉ lại một chỗ, quay về hay đưa đi khá"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-xe-dien/ban-lai-xe-may-dien-da-dung-gom-ho-so-pin-bo-sac-go-lien-ket-ung-dung-va-mo-ta-tinh-trang-pin-cho-nguoi-mua-tin/",
   "title": "Bán lại xe máy điện đã dùng: gom hồ sơ pin, bộ sạc, gỡ liên kết ứng dụng và mô tả tình trạng pin cho người mua tin",
   "description": "Bán lại xe máy điện cũ cần gom hồ sơ pin, bộ sạc, mô tả pin trung thực, gỡ liên kết ứng dụng và chìa thông minh, cho thử xe an toàn rồi bàn giao rõ ràng.",
@@ -14954,6 +14990,41 @@
    "Xe máy xăng có thể làm giật tay không"
   ],
   "summary": "Bài giải thích vì sao chạm vào tay lái, yên hay thân xe máy đôi khi bị giật nhẹ hoặc tê tay, và tách rõ hai hiện tượng khác nhau là tĩnh điện vô hại với rò điện nguy hiểm. Nội dung chỉ ra những dấu hiệu quan sát được một cách an toàn như nhịp giật, hoàn cảnh x"
+ },
+ {
+  "kind": "article",
+  "url": "guide/bao-duong/cham-xe-may-cua-bo-me-o-xa-hoi-gi-qua-dien-thoai-nhac-lich-the-nao-nho-ai-xem-ho-va-khi-nao-phai-ve-tan-noi/",
+  "title": "Chăm xe máy của bố mẹ ở xa: hỏi gì qua điện thoại, nhắc lịch thế nào, nhờ ai xem hộ và khi nào phải về tận nơi",
+  "description": "Con ở xa, bố mẹ vẫn tự đi xe máy và luôn nói xe bình thường: hỏi gì qua điện thoại, nhờ chụp ảnh lốp và nhớt, nhắc lịch theo mốc dễ nhớ và khi nào phải về xem.",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "entities": [
+   "chăm xe máy của bố mẹ ở xa",
+   "tiếng kêu khi bóp phanh",
+   "đề máy buổi sáng",
+   "mặt lốp",
+   "mức nhớt",
+   "đèn báo khi bật khóa",
+   "tiệm sửa xe quen",
+   "mốc bảo dưỡng theo mùa"
+  ],
+  "keywords": [
+   "chăm xe máy của bố mẹ ở xa",
+   "nhắc bố mẹ bảo dưỡng xe máy",
+   "hỏi tình trạng xe máy qua điện thoại",
+   "nhờ tiệm quen xem xe cho người lớn tuổi",
+   "khi nào cần về kiểm tra xe của bố mẹ"
+  ],
+  "seoTitle": "Chăm xe máy của bố mẹ ở xa: hỏi gì, nhắc lịch và nhờ ai xem hộ",
+  "primaryKeyword": "chăm xe máy của bố mẹ ở xa",
+  "headings": [
+   "Vì sao câu xe vẫn bình thường của bố mẹ chưa đủ để yên tâm",
+   "Hỏi qua điện thoại theo tình huống: lúc đề máy buổi sáng, lúc bóp phanh, lúc dắt xe và khi bật khóa",
+   "Nhờ chụp ảnh và quay ngắn những chỗ dễ nhìn: mặt lốp, mức nhớt, đèn báo và cách đọc từ xa",
+   "Nhắc lịch theo mốc dễ nhớ và thỏa thuận trước với tiệm quen gần nhà bố mẹ",
+   "Dấu hiệu phải về tận nơi, ai có thể xem hộ trong lúc chờ và nói sao để bố mẹ không thấy bị cằn nhằn"
+  ],
+  "summary": "Người con đi làm xa thường chỉ nhận được câu xe vẫn bình thường từ bố mẹ, trong khi phanh, lốp và nhớt xuống cấp âm thầm mà người dùng xe mỗi ngày không nhận ra vì đã quen. Bài giải thích vì sao câu trả lời đó là tín hiệu yếu, đưa bộ câu hỏi theo tình huống để"
  },
  {
   "kind": "article",
@@ -28281,6 +28352,42 @@
  },
  {
   "kind": "article",
+  "url": "hub/van-de-thuong-gap/guong-chieu-hau-bam-giot-mua-mo-hoi-nuoc-khi-dang-di-vi-sao-khong-thay-phia-sau-lau-luc-nao-va-cach-nhin-bu-an-toan/",
+  "title": "Gương chiếu hậu bám giọt mưa, mờ hơi nước khi đang đi: vì sao không thấy phía sau, lau lúc nào và cách nhìn bù an toàn",
+  "description": "Trời mưa gương chiếu hậu phủ giọt nước và mờ hơi, không thấy xe sau: vì sao gương cầu lồi bám giọt, chỉ lau khi dừng hẳn, mẹo nào đáng thử và cách nhìn bù an toàn.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [
+   "gương chiếu hậu bám nước mưa",
+   "gương cầu lồi",
+   "mờ hơi nước",
+   "lớp bụi dầu trên kính",
+   "khăn sợi nhỏ",
+   "mẹo xà phòng chống bám nước",
+   "dung dịch chống mờ",
+   "liếc vai",
+   "lớp tráng gương"
+  ],
+  "keywords": [
+   "gương xe máy bám nước mưa không nhìn thấy",
+   "gương chiếu hậu mờ hơi nước khi trời mưa",
+   "lau gương xe máy khi đang đi mưa",
+   "mẹo chống bám nước gương xe máy",
+   "không thấy xe phía sau khi trời mưa"
+  ],
+  "seoTitle": "Gương xe máy bám giọt mưa, mờ hơi nước: lau lúc nào và nhìn bù",
+  "primaryKeyword": "gương xe máy bám nước mưa không nhìn thấy",
+  "headings": [
+   "Vì sao mặt gương cầu lồi bám giọt và mờ hơi nước đúng lúc trời mưa và càng mờ khi xe dừng",
+   "Lau gương lúc nào cho an toàn: chỉ khi dừng hẳn, lau bằng gì và vuốt theo hướng nào để không loang",
+   "Lớp chống bám nước và các mẹo truyền tai nhau: cái nào đáng thử, cái nào làm mờ thêm",
+   "Nhìn bù khi gương tạm vô dụng: liếc vai, hạn chế đổi làn, giữ khoảng cách rộng và bật đèn",
+   "Sau cơn mưa: lau sạch, kiểm tra lớp tráng và nhận ra lúc gương mờ hẳn phải thay kính"
+  ],
+  "summary": "Đang chạy trong mưa, mặt gương chiếu hậu phủ đầy giọt nước và mờ hơi, nhìn vào chỉ thấy vệt đèn nhòe, không biết xe sau cách bao xa để chuyển làn hay rẽ; lau bằng găng ướt thì càng loang. Bài giải thích vì sao gương cầu lồi bám giọt và mờ đúng lúc mưa và càng "
+ },
+ {
+  "kind": "article",
   "url": "wiki/cau-tao-xe/guong-chieu-hau-xe-may-bi-long-tron-ren-hoac-rung/",
   "title": "Gương chiếu hậu xe máy bị lỏng, trờn ren hoặc rung: nguyên nhân và hướng xử lý an toàn",
   "description": "Gương xe máy bị lỏng, tự xoay hay rung nhòe hình? Phân biệt chân gương, ốc hãm, khớp xoay, vì sao trờn ren và khi nào nên dừng xe để nhờ thợ xử lý.",
@@ -33898,6 +34005,42 @@
    "Khi nào thật sự đáng chọn loại tốt hơn"
   ],
   "summary": "Bài giải thích vì sao chọn loại đắt nhất chưa chắc là yên tâm nhất cho xe máy: món đắt có thể được làm cho kiểu xe hay kiểu chạy khác, một phần mức tiền nằm ở thương hiệu, và có tính năng bạn không dùng tới. Nội dung đưa ra hai tiêu chí xét theo thứ tự là đúng"
+ },
+ {
+  "kind": "article",
+  "url": "guide/mua-xe/mua-mot-chiec-xe-may-cho-hai-nguoi-khac-voc-dang-cung-dung-chon-theo-ai-thu-xe-the-nao-va-cho-nao-chinh-duoc-sau/",
+  "title": "Mua một chiếc xe máy cho hai người khác vóc dáng cùng dùng: chọn theo ai, thử xe thế nào và chỗ nào chỉnh được sau",
+  "description": "Mua chung một xe máy mà người thấp người cao: ai quyết phần chống chân, ai quyết chỗ để chân, thử xe cùng nhau ra sao và sau khi mua còn chỉnh được những gì.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "xe máy dùng chung cho hai người",
+   "chiều cao yên",
+   "chống chân khi dừng",
+   "sàn để chân",
+   "tầm tay phanh",
+   "gù tay lái",
+   "giảm xóc sau",
+   "dựng chân chống đứng",
+   "dắt xe lùi"
+  ],
+  "keywords": [
+   "mua xe máy cho hai người cùng dùng",
+   "chọn xe máy vợ chồng dùng chung",
+   "xe máy cho người thấp và người cao cùng đi",
+   "thử xe máy cho hai người trước khi mua",
+   "chỉnh xe máy cho vừa hai người"
+  ],
+  "seoTitle": "Mua xe máy cho hai người khác vóc dáng cùng dùng: chọn theo ai",
+  "primaryKeyword": "mua xe máy cho hai người cùng dùng",
+  "headings": [
+   "Vì sao một chiếc xe khó vừa hai người và điểm nào đáng ưu tiên cho ai",
+   "Người nhỏ hơn quyết chuyện chống chân và dắt xe, người lớn hơn quyết chỗ để chân và tay lái",
+   "Thử xe cùng nhau: cùng một tuyến, dừng trên dốc nhẹ, dựng chân chống đứng và dắt lùi",
+   "Những chỗ chỉnh được sau khi mua và những thứ không đổi được dù nhờ thợ độ lại",
+   "Ghi lại điều mỗi người phải chịu thiệt và dặn nhau trước khi giao xe cho nhau dùng"
+  ],
+  "summary": "Hai người chênh nhau nhiều về vóc dáng mà chỉ mua một chiếc xe máy thì gần như không có chiếc nào vừa cả hai, và câu hỏi đúng không phải là tìm xe hoàn hảo mà là ai được ưu tiên ở phần nào. Bài đưa nguyên tắc chia quyền quyết theo mức rủi ro: người nhỏ hơn quy"
  },
  {
   "kind": "article",

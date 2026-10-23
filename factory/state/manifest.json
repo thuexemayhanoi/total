@@ -1628,6 +1628,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/di-phuot/ban-dong-hanh-om-giua-chuyen-xe-may-nhieu-ngay-nhan-ra-som-ai-cho-xe-ai-nghi-lai-hay-quay-ve-va-khi-nao-tim-noi-kham/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/ban-lai-xe-may-dien-da-dung-gom-ho-so-pin-bo-sac-go-lien-ket-ung-dung-va-mo-ta-tinh-trang-pin-cho-nguoi-mua-tin/index.html",
   "kind": "article"
  },
@@ -1985,6 +1989,10 @@
  },
  {
   "rel": "wiki/dien-xe/cham-vao-xe-may-bi-giat-te-tay-tinh-dien-hay-ro-dien-phan-biet-va-khi-nao-nguy-hiem/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/bao-duong/cham-xe-may-cua-bo-me-o-xa-hoi-gi-qua-dien-thoai-nhac-lich-the-nao-nho-ai-xem-ho-va-khi-nao-phai-ve-tan-noi/index.html",
   "kind": "article"
  },
  {
@@ -3648,6 +3656,10 @@
   "kind": "article"
  },
  {
+  "rel": "hub/van-de-thuong-gap/guong-chieu-hau-bam-giot-mua-mo-hoi-nuoc-khi-dang-di-vi-sao-khong-thay-phia-sau-lau-luc-nao-va-cach-nhin-bu-an-toan/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/cau-tao-xe/guong-chieu-hau-xe-may-bi-long-tron-ren-hoac-rung/index.html",
   "kind": "article"
  },
@@ -4341,6 +4353,10 @@
  },
  {
   "rel": "review/review-phu-tung/mua-loai-dat-nhat-cho-yen-tam-nhot-lop-phu-tung-dat-tien-co-chac-hop-voi-xe-ban-hon-khong-va-tu-xet-the-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/mua-xe/mua-mot-chiec-xe-may-cho-hai-nguoi-khac-voc-dang-cung-dung-chon-theo-ai-thu-xe-the-nao-va-cho-nao-chinh-duoc-sau/index.html",
   "kind": "article"
  },
  {
