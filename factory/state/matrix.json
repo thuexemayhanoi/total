@@ -29806,11 +29806,13 @@
    "title": "Đổ xăng bị tràn ra ngoài miệng bình: xăng dính sơn, yên và sàn để chân lau thế nào, bao giờ mới nổ máy, vì sao hay tràn",
    "primaryIntent": "troubleshooting/do-xang-bi-tran-ra-ngoai-mieng-binh-xang-dinh-son-yen-va-san-de-chan-lau-the-nao-bao-gio-moi-no-may-vi-sao-hay-tran",
    "notes": "source=topic-v2 topicId=T002219",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:21.114Z",
-   "updatedAt": "2026-10-24T07:48:21.114Z"
+   "updatedAt": "2026-10-24T08:02:25.520Z",
+   "seoScore": 100,
+   "words": 3160
   },
   {
    "id": "S02032",
