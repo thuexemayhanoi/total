@@ -30033,11 +30033,13 @@
    "title": "Mẹo cứu ắc quy xe máy chai (thêm axit, muối, sạc xung, phụ gia): mẹo nào có cơ sở, mẹo nào chỉ truyền miệng và rủi ro",
    "primaryIntent": "informational/meo-cuu-ac-quy-xe-may-chai-them-axit-muoi-sac-xung-phu-gia-meo-nao-co-co-so-meo-nao-chi-truyen-mieng-va-rui-ro",
    "notes": "source=topic-v2 topicId=T002235",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:36:05.743Z",
-   "updatedAt": "2026-10-24T08:36:05.743Z"
+   "updatedAt": "2026-10-24T08:43:31.136Z",
+   "seoScore": 100,
+   "words": 3183
   },
   {
    "id": "S02047",
