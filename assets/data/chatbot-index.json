@@ -46763,6 +46763,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/xe-may-dien-keu-tach-khi-bat-khoa-hoac-luc-bat-dau-sac-tieng-dong-ngat-nao-binh-thuong-tieng-nao-nen-giao-tho/",
+  "title": "Xe máy điện kêu tạch khi bật khóa hoặc lúc bắt đầu sạc: tiếng đóng ngắt nào bình thường, tiếng nào nên giao thợ",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bật khóa hoặc cắm sạc xe máy điện mà nghe một tiếng tạch hay cạch khiến nhiều người lo xe hỏng. Thực tế một số xe và một số bộ sạc có rơ-le hoặc công tắc đóng ngắt, và việc đóng mở ấy thường phát ra một tiếng gọn. Bài giải thích vì sao có tiếng đó, những lúc nó thường bình thường, các hướng nghi ngờ khi tiếng lặp hoặc xe không lên nguồn, cách ghi lại cho nơi bảo hành và những điều không nên tự làm. Có mùi khét, nóng bất thường, khói hay đèn báo lỗi lặp lại thì tắt khóa, rút sạc nếu an toàn và nhờ thợ xe điện.",
+  "quickAnswer": "Một tiếng tạch hoặc cạch gọn, ngắn, đúng lúc bật khóa, tắt khóa, bắt đầu sạc hay sạc xong, và nghe giống nhau mỗi lần, thường là tiếng rơ-le hoặc công tắc đóng ngắt, tùy xe. Tạch lặp liên tục, tạch rồi xe tắt hoặc không lên nguồn, tạch sau khi vào nước hoặc sau cú ngã là lúc ngừng thử và ghi lại bằng video có âm thanh. Tạch kèm mùi khét, nóng bất thường, khói hay đèn báo lỗi lặp lại thì tắt khóa, rút sạc nếu an toàn, tránh xa và nhờ thợ xe điện.",
+  "keyPoints": [
+   "Một số xe và bộ sạc có rơ-le hoặc công tắc từ đóng ngắt; tiếp điểm chuyển động thường tạo tiếng tạch gọn, còn công tắc bán dẫn thì thường im lặng.",
+   "Tiếng bình thường thường gọn, ngắn, gắn với một thao tác như bật khóa, tắt khóa, bắt đầu hoặc kết thúc sạc và giống nhau mỗi lần; số tiếng tùy xe.",
+   "Tạch lặp liên tục hoặc tạch rồi xe tắt gợi ý nguồn yếu, giắc lỏng, tiếp điểm bẩn hay ẩm; chỉ nghe tiếng thì không kết luận được chi tiết nào hỏng.",
+   "Quay video ngắn có âm thanh, ghi thời điểm, mức pin và đèn báo giúp nơi bảo hành nghe đúng điều bạn nghe."
+  ],
+  "entities": [
+   "xe máy điện",
+   "tiếng tạch",
+   "rơ-le đóng ngắt",
+   "bộ sạc",
+   "bộ điều khiển",
+   "bật khóa",
+   "nơi bảo hành",
+   "giắc nối"
+  ],
+  "keywords": [
+   "kêu tạch khi bật khóa xe máy điện",
+   "tiếng tạch khi cắm sạc xe máy điện",
+   "tiếng rơ-le xe điện",
+   "cạch khi cắm sạc xe điện",
+   "tiếng đóng ngắt bình thường trên xe máy điện"
+  ]
+ },
+ {
   "url": "learn/kien-thuc-xe-dien/xe-may-dien-khong-len-nguon-kiem-tra-gi/",
   "title": "Xe máy điện bật khóa không lên nguồn hoặc không lên màn hình: những điểm quan sát an toàn trước khi gọi thợ",
   "category": "Kiến thức chuyên sâu",

@@ -29973,11 +29973,13 @@
    "title": "Xe máy điện kêu tạch khi bật khóa hoặc lúc bắt đầu sạc: tiếng đóng ngắt nào bình thường, tiếng nào nên giao thợ",
    "primaryIntent": "troubleshooting/xe-may-dien-keu-tach-khi-bat-khoa-hoac-luc-bat-dau-sac-tieng-dong-ngat-nao-binh-thuong-tieng-nao-nen-giao-tho",
    "notes": "source=topic-v2 topicId=T002231",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:35:57.523Z",
-   "updatedAt": "2026-10-24T08:35:57.524Z"
+   "updatedAt": "2026-10-24T08:43:05.212Z",
+   "seoScore": 100,
+   "words": 3179
   },
   {
    "id": "S02043",
