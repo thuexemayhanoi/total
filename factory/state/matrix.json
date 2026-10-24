@@ -31317,11 +31317,13 @@
    "title": "Đổi giấy phép lái xe nước ngoài sang bằng Việt Nam: ai được đổi, loại nào không được đổi và hồ sơ gồm gì?",
    "primaryIntent": "informational/doi-giay-phep-lai-xe-nuoc-ngoai-sang-bang-viet-nam-ai-duoc-doi-ho-so-va-thoi-han",
    "notes": "source=topic-v2 topicId=T002325",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:13:14.196Z",
-   "updatedAt": "2026-10-24T13:13:14.196Z"
+   "updatedAt": "2026-10-24T13:24:43.530Z",
+   "seoScore": 100,
+   "words": 3570
   },
   {
    "id": "S02133",
