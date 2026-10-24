@@ -30048,11 +30048,13 @@
    "title": "Bộ sạc xe máy điện phích ba chân mà ổ cắm chỉ hai lỗ: chân tiếp đất để làm gì và vì sao đừng bẻ chân hay cắm chuyển bừa",
    "primaryIntent": "informational/bo-sac-xe-may-dien-phich-ba-chan-ma-o-cam-chi-hai-lo-chan-tiep-dat-de-lam-gi-va-vi-sao-dung-be-chan-hay-cam-chuyen-bua",
    "notes": "source=topic-v2 topicId=T002236",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:36:07.869Z",
-   "updatedAt": "2026-10-24T08:36:07.870Z"
+   "updatedAt": "2026-10-24T08:43:58.001Z",
+   "seoScore": 100,
+   "words": 3160
   },
   {
    "id": "S02048",

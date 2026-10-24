@@ -9756,6 +9756,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/bo-sac-xe-may-dien-phich-ba-chan-ma-o-cam-chi-hai-lo-chan-tiep-dat-de-lam-gi-va-vi-sao-dung-be-chan-hay-cam-chuyen-bua/",
+  "title": "Bộ sạc xe máy điện phích ba chân mà ổ cắm chỉ hai lỗ: chân tiếp đất để làm gì và vì sao đừng bẻ chân hay cắm chuyển bừa",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Nhiều người thuê trọ hay ở nhà cũ gặp cảnh bộ sạc xe máy điện có phích ba chân nhưng ổ cắm trong phòng chỉ có hai lỗ. Cách làm nhanh nhất là bẻ chân thứ ba, quấn băng keo hoặc cắm qua đầu chuyển, và bộ sạc vẫn chạy bình thường nên ai cũng yên tâm. Bài giải thích chân thứ ba thực chất là đường tiếp đất dự phòng khi vỏ thiết bị bị rò điện, cách đọc nhãn bộ sạc và nhìn ổ cắm để biết nhà mình thuộc trường hợp nào. Bài cũng nói rõ vì sao bẻ chân, phích chuyển và ổ đa năng làm mất lớp bảo vệ, cách nhờ thợ điện và nói chuyện với chủ nhà, rồi cách sạc thận trọng và các dấu hiệu phải ngừng ngay trong lúc chờ sửa.",
+  "quickAnswer": "Chân thứ ba trên phích sạc thường là chân tiếp đất: nó nối vỏ thiết bị với đường đất của nhà để khi vỏ bị rò điện, dòng rò có lối đi riêng thay vì đi qua người chạm vào. Vì vậy đừng bẻ hay cắt chân, đừng bọc băng keo, đừng dùng đầu chuyển hay ổ đa năng không rõ nguồn để cắm cho vừa ổ hai lỗ. Hãy đọc nhãn hoặc sách hướng dẫn xem bộ sạc có cần nối đất không, rồi nhờ thợ điện có chuyên môn, hoặc chủ nhà nếu bạn đang thuê, đổi hay lắp ổ cắm phù hợp. Trong lúc chờ, hãy sạc ở nơi có ổ chuẩn, không sạc qua đêm và dừng ngay khi thấy nóng, khét hay bị giật.",
+  "keyPoints": [
+   "Chân thứ ba trên phích thường là chân tiếp đất, đường thoát dự phòng cho dòng rò khi vỏ thiết bị bị rò điện, ít khi làm việc nhưng rất quan trọng khi cần.",
+   "Không phải thiết bị nào cũng cần chân đất; hãy đọc nhãn và sách hướng dẫn thay vì đoán, và coi là cần cho tới khi có xác nhận.",
+   "Ổ cắm có lỗ thứ ba chưa chắc đã có dây đất thật; chỉ thợ điện có chuyên môn mới xác nhận được.",
+   "Bẻ chân, bọc băng keo, phích chuyển và ổ đa năng không rõ nguồn đều làm mất hoặc làm hỏng lớp bảo vệ, lại dễ lỏng và nóng khi sạc nhiều giờ."
+  ],
+  "entities": [
+   "phích ba chân",
+   "ổ cắm hai lỗ",
+   "chân tiếp đất",
+   "bộ sạc xe máy điện",
+   "cầu dao chống giật",
+   "phích chuyển",
+   "nhà trọ",
+   "thợ điện"
+  ],
+  "keywords": [
+   "bộ sạc xe điện phích ba chân ổ cắm hai lỗ",
+   "chân tiếp đất trên phích sạc",
+   "có nên bẻ chân đất bộ sạc",
+   "phích chuyển ba chân sang hai chân",
+   "ổ cắm không có tiếp đất nhà trọ"
+  ]
+ },
+ {
   "url": "wiki/thuat-ngu-xe/bo-sang-so-nhanh-tren-xe-con-tay-la-gi/",
   "title": "Bộ sang số nhanh trên xe côn tay là gì: lên số không cần bóp côn hoạt động thế nào và điều cần biết trước khi dùng",
   "category": "Bách khoa xe",
