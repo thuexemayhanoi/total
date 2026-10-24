@@ -29523,11 +29523,13 @@
    "title": "Thợ cầm xe của bạn đi chạy thử sau khi sửa: bình thường đến đâu, theo dõi số km thế nào và nên hỏi gì trước khi gửi xe",
    "primaryIntent": "informational/tho-cam-xe-cua-ban-di-chay-thu-sau-khi-sua-binh-thuong-den-dau-theo-doi-so-km-the-nao-va-nen-hoi-gi-truoc-khi-gui-xe",
    "notes": "source=topic-v2 topicId=T002199",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:17.378Z",
-   "updatedAt": "2026-10-24T06:55:17.379Z"
+   "updatedAt": "2026-10-24T07:09:16.002Z",
+   "seoScore": 100,
+   "words": 3193
   },
   {
    "id": "S02013",
