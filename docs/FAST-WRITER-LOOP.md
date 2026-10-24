@@ -18,14 +18,13 @@ node factory/factory.js writer-pack --count 10 --json
 # AI đọc pack, tự so intent với PUBLISHED, chỉ viết bài có giá trị độc lập
 # tạo tối đa 10 file factory/data/articles/<slug>.js tương ứng IDs đã chọn
 node factory/factory.js verify-batch "Sxxxxx,Syyyyy"
-# Chỉ khi có MỘT writer duy nhất: cập nhật heartbeat chia sẻ
-node factory/factory.js writer-heartbeat --phase waiting-publish --pair "Sxxxxx,Syyyyy"
-git add factory/data/articles factory/state/writer-heartbeat.json
-# Nếu có W1/W2/W3 song song: KHÔNG đẩy cùng writer-heartbeat.json; chỉ add file bài của shard mình
-# git add factory/data/articles/<slug-cua-minh>.js ...
+# Thêm CHỈ các module bài của phiên này (dù 1 hay 3 writers)
+git add factory/data/articles/<slug-mot>.js factory/data/articles/<slug-hai>.js
 git commit -m "writer: researched Vietnamese batch Sxxxxx-Syyyyy"
 git push
 ```
+
+**Heartbeat (tùy chọn, CHỈ khi chạy một writer):** trước `git commit` có thể chạy `node factory/factory.js writer-heartbeat --phase waiting-publish --pair "Sxxxxx,Syyyyy"` và `git add factory/state/writer-heartbeat.json`. Khi chạy W1/W2/W3 đồng thời, **bỏ bước này** vì heartbeat là một file chung, nhiều writer ghi cùng lúc dễ conflict.
 
 Sau push, AI còn quota có thể fetch/rebase và lấy batch tiếp. Bài đã có file sẽ bị `writer-pack` bỏ qua. Nếu thiếu nguồn hoặc trùng ý, không tạo file; chuyển slot khác đủ giá trị. Không push khi `verify-batch` fail. Không force push.
 
