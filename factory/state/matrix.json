@@ -30513,11 +30513,13 @@
    "title": "Đi xe máy vi phạm lỗi nào thì bị trừ điểm giấy phép lái xe và bị trừ mấy điểm?",
    "primaryIntent": "informational/tru-diem-giay-phep-lai-xe-di-xe-may-loi-nao-tru-may-diem",
    "notes": "source=topic-v2 topicId=T002268",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:03:53.265Z",
-   "updatedAt": "2026-10-24T11:03:53.265Z"
+   "updatedAt": "2026-10-24T11:18:03.253Z",
+   "seoScore": 100,
+   "words": 3386
   },
   {
    "id": "S02079",
