@@ -29508,11 +29508,13 @@
    "title": "Đổi xe cũ lấy xe cũ giữa hai người: so tình trạng hai chiếc cho công bằng, chạy thử chéo và ghi lại điều đã thỏa thuận",
    "primaryIntent": "informational/doi-xe-cu-lay-xe-cu-giua-hai-nguoi-so-tinh-trang-hai-chiec-cho-cong-bang-chay-thu-cheo-va-ghi-lai-dieu-da-thoa-thuan",
    "notes": "source=topic-v2 topicId=T002198",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:15.386Z",
-   "updatedAt": "2026-10-24T06:55:15.387Z"
+   "updatedAt": "2026-10-24T07:08:08.066Z",
+   "seoScore": 100,
+   "words": 3169
   },
   {
    "id": "S02012",
