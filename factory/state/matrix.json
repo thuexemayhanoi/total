@@ -29416,11 +29416,13 @@
    "title": "Đèn giao thông có đồng hồ đếm ngược: nhìn số giây để tăng ga hay giữ nhịp, vì sao dễ liều và cách dùng đúng",
    "primaryIntent": "informational/den-giao-thong-co-dong-ho-dem-nguoc-nhin-so-giay-de-tang-ga-hay-giu-nhip-vi-sao-de-lieu-va-cach-dung-dung",
    "notes": "source=topic-v2 topicId=T002192",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:02.896Z",
-   "updatedAt": "2026-10-24T06:55:02.897Z"
+   "updatedAt": "2026-10-24T07:00:30.734Z",
+   "seoScore": 100,
+   "words": 3162
   },
   {
    "id": "S02006",

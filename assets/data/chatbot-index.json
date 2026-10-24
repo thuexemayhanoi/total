@@ -15726,6 +15726,37 @@
   ]
  },
  {
+  "url": "ride/lai-xe-trong-thanh-pho/den-giao-thong-co-dong-ho-dem-nguoc-nhin-so-giay-de-tang-ga-hay-giu-nhip-vi-sao-de-lieu-va-cach-dung-dung/",
+  "title": "Đèn giao thông có đồng hồ đếm ngược: nhìn số giây để tăng ga hay giữ nhịp, vì sao dễ liều và cách dùng đúng",
+  "category": "Hành trình",
+  "hub": "Lái xe trong thành phố",
+  "summary": "Đồng hồ đếm ngược giúp người đi xe máy biết trước đèn sắp đổi, nhưng nhiều người coi con số như lời bảo đảm để tăng ga ăn nốt hoặc phanh gấp khi số đã nhỏ. Con số chỉ nói về thời gian của đèn, không nói bên kia ngã tư còn chỗ không, xe hai bên và người đi bộ ở đâu. Bài giải thích vì sao con số tạo ra sự chắc chắn giả và vì sao xe sau không đoán được ý mình. Bài cũng hướng dẫn nhả ga sớm, dùng đồng hồ đèn đỏ để chuẩn bị mà không vọt trước, và quay về đọc đèn quen thuộc khi đồng hồ lệch hoặc bị che.",
+  "quickAnswer": "Con số đếm ngược chỉ cho biết thời gian còn lại của pha đèn đang sáng, không bảo đảm xe phía trước còn kịp, bên kia ngã tư còn chỗ, hay xe hai bên và người đi bộ đã dừng. Hãy nhìn con số từ xa để quyết định sớm, nhả ga dần thay vì phanh gấp sát vạch, và khi còn ít giây mà chưa chắc thì chọn dừng. Ở đèn đỏ, dùng con số để chuẩn bị chứ không để vọt trước khi đèn đổi. Nếu đồng hồ lệch, tắt hay bị che, quay về đọc chính đèn và quan sát đường như bình thường.",
+  "keyPoints": [
+   "Con số đếm ngược chỉ nói về thời gian của pha đèn, không nói về khoảng trống bên kia ngã tư, xe hai bên hay người đi bộ.",
+   "Số giây tạo ra sự chắc chắn giả: người thì tăng ga ăn nốt, người thì chỉ phản ứng khi số nhỏ nên phanh quá muộn.",
+   "Dùng con số từ xa để nhả ga dần và quyết sớm; khi còn ít giây mà chưa chắc thì ưu tiên dừng.",
+   "Ở đèn đỏ, con số giúp chuẩn bị xuất phát nhưng không được vọt trước khi đèn thật sự đổi và đã nhìn hai bên."
+  ],
+  "entities": [
+   "đèn giao thông",
+   "đồng hồ đếm ngược",
+   "đèn xanh",
+   "đèn đỏ",
+   "đèn vàng",
+   "nhả ga",
+   "vạch dừng",
+   "ngã tư"
+  ],
+  "keywords": [
+   "đèn giao thông đếm ngược",
+   "đồng hồ đếm ngược ở ngã tư",
+   "nhìn số giây tăng ga hay giữ nhịp",
+   "đèn đỏ đếm ngược đi xe máy",
+   "đồng hồ đèn giao thông bị lệch hoặc bị che"
+  ]
+ },
+ {
   "url": "docs/huong-dan-su-dung/den-khan-cap-tren-xe-may-bat-khi-nao-va-khi-nao-khong-nen/",
   "title": "Đèn khẩn cấp trên xe máy: bật khi nào cho đúng, khi nào bật lại gây hiểu nhầm và xe không có nút thì làm gì",
   "category": "Tài liệu",
