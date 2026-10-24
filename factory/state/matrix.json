@@ -30078,11 +30078,13 @@
    "title": "Gắn bộ chuyển đổi biến xe đạp thường thành xe đạp điện: bộ gồm gì, khung và phanh chịu nổi không, khi nào nên mua xe mới",
    "primaryIntent": "informational/gan-bo-chuyen-doi-bien-xe-dap-thuong-thanh-xe-dap-dien-bo-gom-gi-khung-va-phanh-chiu-noi-khong-khi-nao-nen-mua-xe-moi",
    "notes": "source=topic-v2 topicId=T002238",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:36:11.954Z",
-   "updatedAt": "2026-10-24T08:36:11.955Z"
+   "updatedAt": "2026-10-24T08:46:45.234Z",
+   "seoScore": 100,
+   "words": 3200
   },
   {
    "id": "S02050",
