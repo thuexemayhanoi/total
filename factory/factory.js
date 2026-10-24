@@ -1144,7 +1144,7 @@ Lệnh:
                                   static pool trước, Topic Factory taxonomy sau
                                   (chỉ role=coordinator)
   topic-audit|topic-backfill|topic-propose|topic-approve|topic-reject|topic-reopen|topic-status|topic-check|
-  topic-index-rebuild|topic-index-check|topic-import|topic-brief|topic-neighbours|topic-coverage
+  topic-index-rebuild|topic-index-check|topic-import|topic-brief|topic-neighbours|topic-coverage|topic-grep
                                   TOPIC FACTORY V2 (docs/TOPIC-FACTORY-V2.md): kiểm toán trùng lặp,
                                   gate chống hoán vị, duyệt topic -> slot; writer chỉ nhận topic APPROVED
   writer-pack [--count N] [--shard k/n] [--json]

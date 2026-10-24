@@ -17,6 +17,7 @@
 //   topic-index-rebuild --role coordinator | topic-index-check
 //   topic-import     --file gsc.csv --period a..b [--out leads.jsonl]   (đọc số liệu GSC thật, không bịa)
 //   topic-brief      <S…|T…>                           brief cho writer
+//   topic-grep       "cụm" ["cụm"…] [--exact] [--top N] [--exclude slug,…] [--json]   READ-ONLY: tìm cụm từ trong THÂN BÀI toàn kho (không chấm điểm trùng ý)
 //
 // Không xóa bài, không đổi URL, không đụng matrix.json ngoài topic-approve (coordinator).
 'use strict';
@@ -25,6 +26,7 @@ const fs = require('fs');
 const path = require('path');
 const I = require('./lib/topic-intel');
 const G = require('./lib/topic-gate');
+const BS = require('./lib/topic-bodyscan');
 const M = require('./lib/topic-matrix');
 const Gov = require('./lib/topic-governance');
 const TC = require('./lib/title-case');
@@ -1035,11 +1037,33 @@ function cmdBrief(args, deps) {
   return 0;
 }
 
+// topic-grep: tìm cụm từ trong THÂN BÀI toàn kho (read-only, không chấm điểm trùng — xem lib/topic-bodyscan.js về lý do).
+// Dùng để người duyệt/scout kiểm tra "bài nào đã nhắc cụm này" nhanh và đúng chuẩn thay vì viết script riêng mỗi vòng.
+function cmdGrep(args, deps) {
+  const log = deps.log || console.log;
+  const dir = deps.articlesDir || Idx.ARTICLES_DIR;
+  const phrases = args.positional.map(String).filter(Boolean);
+  if (!phrases.length) throw new Error('thiếu cụm từ: topic-grep "cụm một" "cụm hai" [--exact] [--top N] [--exclude slug,slug] [--json]');
+  const arts = parseAllDirect(dir).map(d => ({ slug: d.slug, title: d.title, hub: d.hub, article: d.article }));
+  const idx = BS.buildBodyIndex(arts);
+  const top = Math.max(1, Math.min(50, Number(args.opts.top) || 10));
+  const hits = BS.grepBodies(idx, phrases, { exact: args.flags.has('exact'), top, exclude: csvList(args.opts.exclude) });
+  if (args.flags.has('json')) { log(JSON.stringify({ phrases, articles: arts.length, hits }, null, 1)); return 0; }
+  log('TOPIC_GREP phrases=' + phrases.length + ' articles=' + arts.length + ' matched=' + hits.length + (args.flags.has('exact') ? ' (khớp đúng dấu)' : ' (khớp không phân biệt dấu)'));
+  for (const h of hits) {
+    log(h.phrasesMatched + '/' + phrases.length + ' cụm, ' + h.paragraphs + ' đoạn  ' + h.slug + '  — ' + h.title);
+    for (const x of h.hits) log('    «' + x.phrase + '»  ' + x.snippet);
+  }
+  if (!hits.length) log('(không bài nào chứa các cụm này)');
+  return 0;
+}
+
 // ---------------------------------------------------------------------------
 const COMMANDS = {
   'topic-audit': cmdAudit, 'topic-backfill': cmdBackfill, 'topic-propose': cmdPropose, 'topic-approve': cmdApprove,
   'topic-reject': cmdReject, 'topic-reopen': cmdReopen, 'topic-status': cmdStatus, 'topic-check': cmdCheck, 'topic-index-rebuild': cmdIndexRebuild,
   'topic-index-check': cmdIndexCheck, 'topic-import': cmdImport, 'topic-brief': cmdBrief, 'topic-neighbours': cmdNeighbours, 'topic-coverage': cmdCoverage,
+  'topic-grep': cmdGrep,
 };
 
 function run(cmd, argv, deps) {

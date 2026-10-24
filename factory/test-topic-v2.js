@@ -312,6 +312,28 @@ console.log('1. UNIT — intent key, hoán vị, risk trigger, shape, gate, gove
   const rG = ev(cand({ informationGain: cand({}).informationGain + ' Vạch \u8def\u9762 chìm trong nước.' }));
   ok(rG.verdict === 'REWRITE' && codes(rG).includes('garbage-chars'), 'gate: ký tự CJK/Cyrillic/Hangul trong ứng viên => REWRITE (garbage-chars)', rG.verdict + ' ' + codes(rG).join());
   ok(!codes(ev(cand({}))).includes('garbage-chars'), 'gate: ứng viên tiếng Việt sạch không bị garbage-chars');
+
+  // topic-grep (tìm cụm trong THÂN BÀI): khớp không phân biệt dấu, xếp bài khớp nhiều cụm trước, loại trừ slug, không chấm điểm trùng ý.
+  {
+    const BS = require('./lib/topic-bodyscan');
+    const mkA = (slug, title, secs) => ({ slug, title, hub: 'garage/truyen-dong', article: { slug, title, quickAnswer: 'Câu trả lời ngắn của bài ' + title + ' để đủ độ dài đoạn.',
+      sections: secs.map(h => ({ h2: h[0], html: '<p>' + h[1] + '</p>' })) } });
+    const idx = BS.buildBodyIndex([
+      mkA('xich-gian', 'Xích xe máy giãn không đều', [['Vì sao chùng căng', 'Các mắt xích mòn khác nhau nên chỗ chùng chỗ căng xen kẽ, tăng xích theo chỗ chùng làm hại vòng bi.']]),
+      mkA('xich-cam', 'Xích cam xe máy', [['Tăng xích cam', 'Bộ tăng xích cam ép nhẹ lên xích để giữ độ căng trong động cơ.']]),
+      mkA('lop-non', 'Lốp xe máy non hơi', [['Dấu hiệu lốp non', 'Lốp non làm xe nặng tay lái, hao xăng và mòn lệch hai bên mép lốp.']]),
+    ]);
+    const g1 = BS.grepBodies(idx, ['tăng xích', 'chỗ chùng chỗ căng']);
+    ok(g1.length === 2 && g1[0].slug === 'xich-gian' && g1[0].phrasesMatched === 2 && g1[1].slug === 'xich-cam' && g1[1].phrasesMatched === 1,
+      'topic-grep: bài khớp nhiều cụm xếp trước, bài không khớp cụm nào bị loại', JSON.stringify(g1.map(x => x.slug + ':' + x.phrasesMatched)));
+    ok(BS.grepBodies(idx, ['tang xich']).some(x => x.slug === 'xich-gian'), 'topic-grep: mặc định khớp không phân biệt dấu (tang xich ≈ tăng xích)');
+    ok(BS.grepBodies(idx, ['tang xich'], { exact: true }).length === 0, 'topic-grep --exact: phân biệt dấu');
+    ok(BS.grepBodies(idx, ['tăng xích'], { exclude: ['xich-gian'] }).every(x => x.slug !== 'xich-gian'), 'topic-grep --exclude: bỏ slug chỉ định (so với bài của chính topic)');
+    ok(BS.grepBodies(idx, ['cách nấu phở bò']).length === 0, 'topic-grep: cụm ngoài chủ đề => không bài nào');
+    ok(JSON.stringify(BS.grepBodies(idx, ['tăng xích'])) === JSON.stringify(BS.grepBodies(idx, ['tăng xích'])), 'topic-grep: tất định');
+    // Không khớp ở giữa âm tiết: "xích" không được khớp trong "xích-lô" kiểu nối chữ? (ranh giới âm tiết) — "tăng xích" không khớp "tăng xíchcam".
+    ok(BS.grepBodies(idx, ['xi']).length === 0, 'topic-grep: khớp theo ranh giới âm tiết, không khớp chuỗi con');
+  }
   // precedence + addReason chỉ làm chặt hơn
   const base = ev(FIX.bugi);
   const tighter = G.addReason(base, { code: 'x', verdict: 'REJECT', msg: 'm' });
