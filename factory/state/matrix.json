@@ -29733,11 +29733,13 @@
    "title": "Yên xe máy bẩn, bóng nhờn, ố loang hoặc lên đốm mốc: lau yên giả da thế nào, chất nào làm nứt hay trơn, khi nào bọc lại",
    "primaryIntent": "informational/yen-xe-may-ban-bong-nhon-o-loang-hoac-len-dom-moc-lau-yen-gia-da-the-nao-chat-nao-lam-nut-hay-tron-khi-nao-boc-lai",
    "notes": "source=topic-v2 topicId=T002214",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:09.487Z",
-   "updatedAt": "2026-10-24T07:48:09.487Z"
+   "updatedAt": "2026-10-24T07:57:15.344Z",
+   "seoScore": 100,
+   "words": 3181
   },
   {
    "id": "S02027",
