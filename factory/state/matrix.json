@@ -29958,11 +29958,13 @@
    "title": "Xe tay ga hú hoặc gầm ở bánh sau khi chạy: láp cạn nhớt, bánh răng mòn hay bạc đạn, và cách phân biệt với tiếng bộ nồi",
    "primaryIntent": "troubleshooting/xe-tay-ga-hu-hoac-gam-o-banh-sau-khi-chay-lap-can-nhot-banh-rang-mon-hay-bac-dan-va-cach-phan-biet-voi-tieng-bo-noi",
    "notes": "source=topic-v2 topicId=T002230",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:54:24.690Z",
-   "updatedAt": "2026-10-24T07:54:24.690Z"
+   "updatedAt": "2026-10-24T08:10:58.432Z",
+   "seoScore": 100,
+   "words": 3186
   }
  ]
 }

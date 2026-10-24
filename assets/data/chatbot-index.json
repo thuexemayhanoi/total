@@ -48301,6 +48301,37 @@
   ]
  },
  {
+  "url": "garage/truyen-dong/xe-tay-ga-hu-hoac-gam-o-banh-sau-khi-chay-lap-can-nhot-banh-rang-mon-hay-bac-dan-va-cach-phan-biet-voi-tieng-bo-noi/",
+  "title": "Xe tay ga hú hoặc gầm ở bánh sau khi chạy: láp cạn nhớt, bánh răng mòn hay bạc đạn, và cách phân biệt với tiếng bộ nồi",
+  "category": "Sửa chữa",
+  "hub": "Truyền động",
+  "summary": "Nhiều người chạy xe tay ga nghe tiếng hú hoặc gầm kéo dài từ phía bánh sau, to dần theo tốc độ, nhưng không biết đó là tiếng của bộ nồi ở đầu truyền động hay của láp ở sát bánh sau. Láp là hộp bánh răng giảm tốc cuối cùng, có dầu riêng, nên khi dầu cạn hoặc già, bánh răng mòn, vòng bi khô hay phớt rò thì tiếng đổi hẳn. Bài giải thích vị trí và vai trò của láp, các nguyên nhân gây hú hoặc gầm, cách phân biệt với bộ nồi và dây curoa bằng cách nghe theo tốc độ và lúc nhả ga. Bài cũng nêu dấu hiệu cần dừng xe và cách ghi điều kiện để nói với thợ.",
+  "quickAnswer": "Láp là hộp bánh răng giảm tốc cuối cùng, nằm kín ở đầu sau vỏ truyền động cạnh bánh sau và có dầu riêng. Tiếng hú hoặc gầm của láp thường bám theo tốc độ xe và thường vẫn còn khi bạn nhả ga lúc xe đang lăn, còn tiếng bộ nồi và dây curoa thường đổi theo vòng ga và hay nhỏ đi hoặc mất khi nhả ga. Nếu thấy vệt dầu quanh vỏ láp, phanh sau trơn, bánh sau nặng hoặc khựng, tiếng to dần nhanh, nóng hay mùi khét thì dừng xe và nhờ chở đến thợ. Đừng tự xả, châm dầu hay mở nắp láp; hãy ghi lại điều kiện xuất hiện tiếng để thợ nghe đúng chỗ.",
+  "keyPoints": [
+   "Láp là hộp giảm tốc cuối cùng ở sát bánh sau, có dầu riêng, làm việc hạ vòng quay từ bộ truyền động xuống bánh.",
+   "Tiếng hú hoặc gầm của láp thường do dầu cạn hoặc già, bánh răng mòn, vòng bi khô hay rơ, hoặc phớt rò làm hao dầu.",
+   "Tiếng láp thường bám theo tốc độ xe và còn khi nhả ga lúc xe lăn; tiếng bộ nồi và dây curoa thường bám theo vòng ga.",
+   "Vệt dầu, phanh sau trơn, bánh sau nặng hoặc khựng, nóng, khói, mùi khét là lý do dừng xe, không chạy tiếp."
+  ],
+  "entities": [
+   "láp xe tay ga",
+   "nhớt láp",
+   "bánh răng giảm tốc",
+   "vòng bi",
+   "phớt láp",
+   "bộ nồi",
+   "dây curoa",
+   "phanh sau"
+  ],
+  "keywords": [
+   "xe tay ga bị hú láp",
+   "tiếng gầm bánh sau xe tay ga",
+   "láp xe tay ga kêu",
+   "phân biệt tiếng láp và bộ nồi",
+   "xe ga hú khi chạy nhanh"
+  ]
+ },
+ {
   "url": "guide/xu-ly-su-co/xe-tay-ga-khoa-thong-minh-het-ac-quy-xe-khong-mo-duoc-yen-khong-bat-duoc-dien-chia-co-du-phong-o-dau-cau-binh-va-vi-sao-khong-cay/",
   "title": "Xe tay ga khóa thông minh hết ắc quy xe: không mở được yên, không lên điện — chìa cơ dự phòng ở đâu và vì sao không cạy",
   "category": "Hướng dẫn",
