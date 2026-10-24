@@ -29924,11 +29924,13 @@
    "title": "Ắc quy xe máy nằm ở đâu: dưới yên, dưới cốp, sau ốp hông hay trong sàn để chân và cách tìm mà không tháo bừa ốp nhựa",
    "primaryIntent": "informational/ac-quy-xe-may-nam-o-dau-duoi-yen-duoi-cop-sau-op-hong-hay-trong-san-de-chan-va-cach-tim-ma-khong-thao-bua-op-nhua",
    "notes": "source=topic-v2 topicId=T002228",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:54:20.335Z",
-   "updatedAt": "2026-10-24T07:54:20.335Z"
+   "updatedAt": "2026-10-24T08:08:43.712Z",
+   "seoScore": 100,
+   "words": 3176
   },
   {
    "id": "S02040",
