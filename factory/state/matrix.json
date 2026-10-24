@@ -29583,11 +29583,13 @@
    "title": "Dây ga, dây côn hoặc dây phanh vừa thay mới: vì sao giãn vài ngày đầu, chỉnh lại độ rơ ra sao và dấu hiệu lắp sai",
    "primaryIntent": "troubleshooting/day-ga-day-con-hoac-day-phanh-vua-thay-moi-vi-sao-gian-vai-ngay-dau-chinh-lai-do-ro-ra-sao-va-dau-hieu-lap-sai",
    "notes": "source=topic-v2 topicId=T002203",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:02:01.943Z",
-   "updatedAt": "2026-10-24T07:02:01.943Z"
+   "updatedAt": "2026-10-24T07:12:40.916Z",
+   "seoScore": 100,
+   "words": 3184
   },
   {
    "id": "S02017",
