@@ -29373,11 +29373,13 @@
    "title": "Lỡ làm đổ hoặc xước xe người khác ở bãi, hẻm hay quán: dựng xe lên, xem hư gì, nhắn chủ xe và cùng bàn cách khắc phục",
    "primaryIntent": "troubleshooting/lo-lam-do-hoac-xuoc-xe-nguoi-khac-o-bai-hem-hay-quan-dung-xe-len-xem-hu-gi-nhan-chu-xe-va-cung-ban-cach-khac-phuc",
    "notes": "source=topic-v2 topicId=T002189",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:54:56.604Z",
-   "updatedAt": "2026-10-24T06:54:56.605Z"
+   "updatedAt": "2026-10-24T07:00:03.833Z",
+   "seoScore": 100,
+   "words": 3106
   },
   {
    "id": "S02003",
