@@ -31059,11 +31059,13 @@
    "title": "Rẽ trái, rẽ phải mà không bật xi nhan hoặc không nhường người đi bộ: Luật yêu cầu gì và bị phạt bao nhiêu?",
    "primaryIntent": "informational/re-trai-re-phai-khong-bat-xi-nhan-khong-nhuong-nguoi-di-bo-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002309",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:08:10.181Z",
-   "updatedAt": "2026-10-24T12:08:10.182Z"
+   "updatedAt": "2026-10-24T12:33:18.585Z",
+   "seoScore": 100,
+   "words": 3361
   },
   {
    "id": "S02117",
