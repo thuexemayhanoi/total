@@ -25,11 +25,11 @@ W1 seoTitle 25–70 ký tự · W2 meta 100–165 ký tự · W3 keyPoints ≥ 4
 
 Mọi lỗi SEO nhẹ khác **chỉ ghi warning — KHÔNG chặn publish**.
 
-## SCOPED QA — chỉ bài mới của cycle
-- QA **chỉ** các bài mới của pair/cycle hiện tại: `publish-pair <ID,ID>` (hot path, 2 bài) hoặc `cycle-qa <ID,ID,...>` (legacy, 12–18 bài) — `node factory/factory.js`.
-- **Tuyệt đối không quét lại toàn site trong production loop.**
-- **Không re-audit bài đã PUBLISHED** (cycle-qa tự skip).
-- **Một bài FAIL không giữ cycle**: bài FAIL → repair queue, các bài PASS tiếp tục publish (`cycle-publish` defer REPAIR, chỉ publish PASS).
+## SCOPED QA — hiện hành batch 1–10
+- Writer `verify-batch <ID,ID,...>` kiểm 1–10 module bài trước push; publisher `factory-publish.yml` kiểm lại QA ≥70 khi nhận exact push scope hoặc fallback backlog tối đa 10 ID, rồi `publish-batch` một transaction. 404 gate bảo vệ các link sau sinh HTML.
+- **Tuyệt đối không quét lại toàn site trong production loop**; deep audit là thủ công.
+- `publish-pair <ID,ID>` và `cycle-qa/cycle-publish` là lệnh legacy/manual recovery hoặc fixture test, không là đường nóng hiện hành.
+- Bài QA FAIL phải sửa theo lỗi thật (REPAIR), không giảm threshold/critical để đẩy nhanh. Batch lỗi có thể cần writer sửa rồi push lại; không mô tả đã publish nếu chưa có commit/HTML/sitemap.
 
 ## SEO giờ là ADVISORY (KHÔNG chặn publish)
 - `factory/seo.js` chấm SEO thang 100 để cảnh báo/huấn luyện writer (`qa-preview <id>` in cả QA + SEO).
