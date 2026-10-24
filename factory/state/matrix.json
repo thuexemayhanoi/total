@@ -29427,11 +29427,13 @@
    "title": "Đường quen bỗng đổi phân luồng, rào chắn hay cấm rẽ: vì sao phản xạ cũ gây nguy hiểm, cách đi thử và tập thói quen mới",
    "primaryIntent": "troubleshooting/duong-quen-bong-doi-phan-luong-rao-chan-hay-cam-re-vi-sao-phan-xa-cu-gay-nguy-hiem-cach-di-thu-va-tap-thoi-quen-moi",
    "notes": "source=topic-v2 topicId=T002193",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:04.880Z",
-   "updatedAt": "2026-10-24T06:55:04.880Z"
+   "updatedAt": "2026-10-24T06:59:41.576Z",
+   "seoScore": 100,
+   "words": 3173
   },
   {
    "id": "S02007",
