@@ -30513,11 +30513,13 @@
    "title": "Đi xe máy vi phạm lỗi nào thì bị trừ điểm giấy phép lái xe và bị trừ mấy điểm?",
    "primaryIntent": "informational/tru-diem-giay-phep-lai-xe-di-xe-may-loi-nao-tru-may-diem",
    "notes": "source=topic-v2 topicId=T002268",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:03:53.265Z",
-   "updatedAt": "2026-10-24T11:03:53.265Z"
+   "updatedAt": "2026-10-24T11:18:03.253Z",
+   "seoScore": 100,
+   "words": 3386
   },
   {
    "id": "S02079",
@@ -30539,11 +30541,13 @@
    "title": "Xe máy được chạy tối đa bao nhiêu km/h và chạy quá tốc độ bị phạt theo mấy bậc?",
    "primaryIntent": "informational/toc-do-toi-da-cua-xe-may-theo-thong-tu-38-va-ba-bac-phat-chay-qua-toc-do",
    "notes": "source=topic-v2 topicId=T002270",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:03:58.028Z",
-   "updatedAt": "2026-10-24T11:03:58.028Z"
+   "updatedAt": "2026-10-24T11:17:14.273Z",
+   "seoScore": 100,
+   "words": 3346
   },
   {
    "id": "S02081",
@@ -30565,11 +30569,13 @@
    "title": "Nồng độ cồn khi lái xe máy: ba mức phạt, mức nào bị trừ điểm và mức nào bị tước giấy phép lái xe?",
    "primaryIntent": "informational/nong-do-con-khi-lai-xe-may-ba-muc-phat-tru-diem-va-tuoc-giay-phep-lai-xe",
    "notes": "source=topic-v2 topicId=T002272",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:02.874Z",
-   "updatedAt": "2026-10-24T11:04:02.874Z"
+   "updatedAt": "2026-10-24T11:15:01.615Z",
+   "seoScore": 100,
+   "words": 3429
   },
   {
    "id": "S02083",
@@ -30591,11 +30597,13 @@
    "title": "Chở người ngồi sau xe máy: chở hai, ba người và trẻ em dưới 12 tuổi bị xử lý thế nào?",
    "primaryIntent": "informational/cho-nguoi-ngoi-sau-xe-may-cho-hai-ba-nguoi-va-tre-em-duoi-12-tuoi-bi-xu-ly-the-nao",
    "notes": "source=topic-v2 topicId=T002274",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:07.504Z",
-   "updatedAt": "2026-10-24T11:04:07.504Z"
+   "updatedAt": "2026-10-24T11:14:29.985Z",
+   "seoScore": 100,
+   "words": 3422
   },
   {
    "id": "S02085",
@@ -30643,11 +30651,13 @@
    "title": "Người từ đủ 16 đến dưới 18 tuổi lái xe máy bị xử phạt thế nào và điểm a khoản 4 Điều 18 được sửa ra sao từ 15/8/2026?",
    "primaryIntent": "informational/nguoi-tu-du-16-den-duoi-18-tuoi-lai-xe-may-bi-xu-phat-the-nao-va-diem-a-khoan-4-dieu-18-sua-doi-tu-15-8-2026",
    "notes": "source=topic-v2 topicId=T002278",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:16.457Z",
-   "updatedAt": "2026-10-24T11:04:16.457Z"
+   "updatedAt": "2026-10-24T11:15:29.679Z",
+   "seoScore": 100,
+   "words": 3374
   },
   {
    "id": "S02089",
