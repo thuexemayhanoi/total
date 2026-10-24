@@ -30408,11 +30408,13 @@
    "title": "Người nước ngoài lái xe máy ở Việt Nam: giấy phép lái xe quốc tế và giấy phép quốc gia cần có gì?",
    "primaryIntent": "informational/nguoi-nuoc-ngoai-lai-xe-may-o-viet-nam-giay-phep-quoc-te",
    "notes": "source=topic-v2 topicId=T002261",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:18.118Z",
-   "updatedAt": "2026-10-24T10:50:18.118Z"
+   "updatedAt": "2026-10-24T11:00:44.954Z",
+   "seoScore": 100,
+   "words": 3076
   },
   {
    "id": "S02072",
