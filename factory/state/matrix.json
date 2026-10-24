@@ -30303,11 +30303,13 @@
    "title": "Xếp hàng trên xe máy được rộng, dài và cao tối đa bao nhiêu theo luật?",
    "primaryIntent": "informational/gioi-han-xep-hang-tren-xe-may-theo-luat",
    "notes": "source=topic-v2 topicId=T002254",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:01.439Z",
-   "updatedAt": "2026-10-24T10:50:01.439Z"
+   "updatedAt": "2026-10-24T10:55:36.008Z",
+   "seoScore": 100,
+   "words": 2894
   },
   {
    "id": "S02065",
