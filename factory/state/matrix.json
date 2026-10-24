@@ -31166,11 +31166,13 @@
    "title": "Qua phà, qua cầu phao bằng xe máy: ai phải xuống xe, ai xuống phà trước và xe nào được qua trước?",
    "primaryIntent": "informational/qua-pha-qua-cau-phao-bang-xe-may-ai-phai-xuong-xe-ai-xuong-pha-truoc-va-xe-nao-duoc-qua-truoc",
    "notes": "source=topic-v2 topicId=T002316",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:06:14.169Z",
-   "updatedAt": "2026-10-24T13:06:14.169Z"
+   "updatedAt": "2026-10-24T13:16:05.696Z",
+   "seoScore": 100,
+   "words": 3470
   },
   {
    "id": "S02124",
