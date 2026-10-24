@@ -29716,11 +29716,13 @@
    "title": "Mâm và vành xe máy bám bụi phanh đen, bùn khô và nhớt sên bắn: lau theo thứ tự nào, chất tẩy nào hại và giữ sạch phanh",
    "primaryIntent": "informational/mam-va-vanh-xe-may-bam-bui-phanh-den-bun-kho-va-nhot-sen-ban-lau-theo-thu-tu-nao-chat-tay-nao-hai-va-giu-sach-phanh",
    "notes": "source=topic-v2 topicId=T002213",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:07.345Z",
-   "updatedAt": "2026-10-24T07:48:07.346Z"
+   "updatedAt": "2026-10-24T07:56:04.585Z",
+   "seoScore": 100,
+   "words": 3176
   },
   {
    "id": "S02026",
