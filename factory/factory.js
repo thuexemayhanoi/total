@@ -341,9 +341,14 @@ function writableOpts() {
   const gov = topicGov.load();
   const closedBySlot = editorialClosedBySlot();
   const isClosed = (slot) => closedBySlot.has(slot.id);
-  if (!gov.requireApproved) return { gov, opts: { isClosed }, approved: null, closedBySlot };
+  // briefs: topic APPROVED theo slot — luôn nạp để writer-pack đính kèm TOPIC_BRIEF/GAIN/OUTLINE/SCOPE và related theo cổng,
+  // kể cả fast-writer mode=off (trước đây brief = null nên writer ngoài chỉ có tiêu đề). `approved` (dùng để TỪ CHỐI slot chưa duyệt
+  // ở verify-batch) vẫn chỉ có khi requireApproved.
+  let briefs = null;
+  try { briefs = topicMatrix.approvedBySlot(topicMatrix.readRows().rows); } catch (_) { briefs = null; }
+  if (!gov.requireApproved) return { gov, opts: { isClosed }, approved: null, briefs, closedBySlot };
   const approved = topicMatrix.approvedBySlot(topicMatrix.readRows().rows);
-  return { gov, opts: { isWritable: topicGov.writableFilter(gov, approved), isClosed }, approved, closedBySlot };
+  return { gov, opts: { isWritable: topicGov.writableFilter(gov, approved), isClosed }, approved, briefs: approved, closedBySlot };
 }
 function topicDeps() {
   return { loadMatrix, saveMatrix, planSlot, loadState, saveState, log: console.log };
@@ -1903,8 +1908,8 @@ function main() {
         slug: s.slug, title: s.title, intent: s.primaryIntent,
         file: 'factory/data/articles/' + s.slug + '.js',
         canonicalPath: '/' + s.hub + '/' + s.slug + '/',
-        relatedPublished: publishedRelatedFor(m, s, 8, woPack.approved && woPack.approved.get(s.id) && woPack.approved.get(s.id).gate ? (woPack.approved.get(s.id).gate.nearestPublished || []).map(x => x.slug) : null),
-        brief: woPack.approved && woPack.approved.get(s.id) ? topicCli.briefFor(woPack.approved.get(s.id)) : null,
+        relatedPublished: publishedRelatedFor(m, s, 8, woPack.briefs && woPack.briefs.get(s.id) && woPack.briefs.get(s.id).gate ? (woPack.briefs.get(s.id).gate.nearestPublished || []).map(x => x.slug) : null),
+        brief: woPack.briefs && woPack.briefs.get(s.id) ? topicCli.briefFor(woPack.briefs.get(s.id)) : null,
         topicDecision: decisionFor(s.id),
       };
     });

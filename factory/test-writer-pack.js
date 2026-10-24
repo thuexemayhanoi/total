@@ -30,6 +30,13 @@ ok(pack.items.every(x=>x.relatedPublished.every(r=>published.has(r.slug))),'mọ
 ok(pack.items.every(x=>x.intent && x.title && x.hub && x.slug),'item phải đủ intent/title/hub/slug');
 // Slot đóng bởi quyết định biên tập (topic REJECTED/mergeInto) KHÔNG được vào pack và verify-batch phải từ chối.
 {
+  // Brief: slot có topic V2 APPROVED phải mang TOPIC_BRIEF/GAIN/OUTLINE/SCOPE trong pack ở mọi chế độ governance (kể cả mode=off).
+  {
+    const trows = fs.readFileSync(path.join(ROOT, 'factory', 'state', 'topic-matrix.jsonl'), 'utf8').trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
+    const approvedBySlot = new Map(trows.filter(r => r.slotId && r.lifecycle === 'APPROVED').map(r => [r.slotId, r]));
+    const withTopic = pack.items.filter(x => approvedBySlot.has(x.id));
+    ok(withTopic.every(x => x.brief && x.brief.informationGain && Array.isArray(x.brief.outline) && x.brief.outline.length >= 4 && x.brief.factualScope), 'pack: slot có topic V2 APPROVED mang brief đủ gain/outline/scope', withTopic.filter(x => !x.brief).map(x => x.id).join(','));
+  }
   const rows = fs.readFileSync(path.join(ROOT, 'factory', 'state', 'topic-matrix.jsonl'), 'utf8').trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
   const closedIds = new Set(rows.filter(r => r.slotId && (r.lifecycle === 'REJECTED' || r.mergeInto)).map(r => r.slotId));
   const slotState = new Map(matrix.slots.map(s => [s.id, s.state]));

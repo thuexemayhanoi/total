@@ -697,6 +697,13 @@ console.log('2. INTEGRATION — backfill → propose → review → approve → 
   // được trả lại cho writer; các slot còn mở vẫn được nhận như hành vi cũ.
   const rbIds = ((/BATCH_IDS=(\S+)/.exec(r.out) || [])[1] || '').split(',').filter(Boolean);
   ok(rbIds.length >= 1 && !rbIds.includes('S00007'), 'ROLLBACK: governance off => writer-pack nhận slot còn mở, KHÔNG trả lại slot đã REJECT/gộp (S00007)', r.out.slice(0, 200));
+  // Governance off vẫn phải đính kèm brief V2 cho slot có topic APPROVED (trước đây brief = null nên writer ngoài chỉ có tiêu đề).
+  {
+    const rj = JSON.parse(cli(E, ['writer-pack', '--count', '10', '--json']).out);
+    const apprIds = new Set(fs.readFileSync(E.p('state/topic-matrix.jsonl'), 'utf8').trim().split('\n').filter(Boolean).map(l => JSON.parse(l)).filter(x => x.slotId && x.lifecycle === 'APPROVED').map(x => x.slotId));
+    const withT = rj.items.filter(x => apprIds.has(x.id));
+    ok(withT.length >= 1 && withT.every(x => x.brief && Array.isArray(x.brief.outline) && x.brief.outline.length >= 4 && x.brief.informationGain), 'ROLLBACK: governance off vẫn đính kèm TOPIC_BRIEF cho slot có topic APPROVED', 'items=' + rj.items.map(x => x.id + (x.brief ? '+' : '-')).join(',') + ' approved=' + [...apprIds].join(','));
+  }
   r = cli(E, ['verify-batch', 'S00007']);
   ok(/VERIFY_BATCH_FAIL/.test(r.out + r.stderr) && /(GỘP|REJECT)/.test(r.out + r.stderr), 'ROLLBACK: verify-batch vẫn từ chối slot đã gộp (editorial-closed áp dụng cả khi governance off)', (r.out + r.stderr).slice(0, 200));
   r = cli(E, ['queue-refill', '--dry-run', ...COORD]);

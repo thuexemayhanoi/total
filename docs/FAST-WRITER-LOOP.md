@@ -22,6 +22,12 @@ Topic trong `factory/state/topic-matrix.jsonl` bị **REJECTED** hoặc có **`m
 - `status` / `backlog` / `production-status` đếm riêng `EDITORIAL_CLOSED=N`, **không** tính vào `WAITING_FOR_WRITER` nên production về `idle` thay vì báo "chờ writer" vĩnh viễn.
 - Ledger thiếu/hỏng: không slot nào bị đóng (fail-open cho writer; QA 7 gate vẫn chạy). Slot đã có module bài mà bị đóng vẫn hiện là backlog (không che) kèm lỗi verify rõ ràng.
 
+### Brief trong pack và hai coordinator cùng hoạt động — từ 24/10/2026
+
+- **Brief luôn có**: `writer-pack` đính kèm `TOPIC_BRIEF / GAIN / OUTLINE / SCOPE` (và `evidence` nếu topic thuộc làn dữ kiện có nguồn) cho slot có topic V2 APPROVED ở **mọi chế độ governance**, kể cả `mode=off` (trước đây `brief=null` nên writer ngoài chỉ có tiêu đề). `related` gợi ý ưu tiên bài gần nghĩa mà cổng đã ghi. Writer bám đúng brief; `factualScope: no-figures` cấm số liệu/giá/thông số; topic có `evidence` thì chỉ dùng dữ kiện đã ghi trong `verifiedFacts`/`sources`.
+- **Chỉ một coordinator ghi `topic-matrix.jsonl` và cấp slot tại một thời điểm.** Hai phiên cùng duyệt sẽ cấp trùng ID slot (đã gặp ở vòng 157/158: cả hai phiên cùng viết S01971–S01982, file `AA` xung đột khi merge). Nếu buộc phải có hai phiên: (1) `git pull --no-rebase` ngay trước `topic-propose`/`topic-approve`; (2) commit + push state **ngay sau** khi duyệt (trước khi viết); (3) mỗi phiên chỉ viết slot do chính mình vừa duyệt (liệt kê ID tường minh), không gọi `writer-pack` mặc định lấy ID thấp nhất; (4) `git status`/`git log origin/main` trước khi viết một slot để chắc phiên kia chưa viết; (5) nếu merge báo `AA` trên module bài, hủy merge (`git merge --abort`), giữ bản đã xuất bản trên remote, bỏ bản cục bộ — không force-push.
+- Làn khác nhau nên chia theo **nhóm hub** hoặc **làn nguồn** (biên tập / dữ kiện có nguồn) để hai coordinator không đề xuất cùng chủ đề; luôn `topic-grep` thân bài trước khi duyệt.
+
 ## Lệnh từ mỗi phiên Writer (chạy trong repo)
 
 ```bash
