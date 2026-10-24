@@ -12686,6 +12686,42 @@
  },
  {
   "kind": "article",
+  "url": "guide/bao-duong/bao-hanh-cua-tiem-sau-khi-sua-hoac-thay-phu-tung-bao-hanh-phu-tung-khac-bao-hanh-cong-lam-the-nao-hoi-gi-va-giu-gi/",
+  "title": "Bảo hành của tiệm sau khi sửa hoặc thay phụ tùng: bảo hành phụ tùng khác bảo hành công làm thế nào, hỏi gì và giữ gì",
+  "description": "Tiệm nói có bảo hành sau khi sửa xe máy: phụ tùng và công làm khác nhau ra sao, hỏi gì lúc nhận xe, giữ phiếu, ảnh gì và nói gì khi lỗi quay lại.",
+  "category": "Hướng dẫn",
+  "hub": "Bảo dưỡng",
+  "entities": [
+   "bảo hành sau khi sửa xe máy",
+   "bảo hành phụ tùng",
+   "bảo hành công làm",
+   "phiếu sửa chữa",
+   "tiệm sửa xe",
+   "phụ tùng thay mới",
+   "hao mòn tự nhiên",
+   "lỗi quay lại",
+   "tin nhắn xác nhận"
+  ],
+  "keywords": [
+   "bảo hành sau khi sửa xe máy",
+   "bảo hành phụ tùng xe máy",
+   "bảo hành công sửa xe",
+   "phiếu sửa xe máy",
+   "lỗi quay lại sau khi sửa xe"
+  ],
+  "seoTitle": "Bảo hành của tiệm sửa xe: phụ tùng khác công làm, hỏi gì, giữ gì",
+  "primaryKeyword": "bảo hành sau khi sửa xe máy",
+  "headings": [
+   "Bảo hành sau khi sửa xe máy: phụ tùng và công làm là hai chuyện khác nhau",
+   "Hỏi ngay lúc nhận xe: ai bảo hành phần nào, tính từ lúc nào và quay lại cần mang gì",
+   "Những tình huống làm lời bảo hành khó áp dụng: xe ngã sau đó, sửa nơi khác, dùng sai cách",
+   "Ghi lại bằng chữ: phiếu sửa, ảnh, tin nhắn và cách giữ cho dễ tìm",
+   "Khi lỗi quay lại trong thời gian tiệm đã hứa bảo hành: nói với tiệm thế nào và khi nào tìm nơi khác xem"
+  ],
+  "summary": "Vừa sửa hoặc thay phụ tùng xong, thợ nói có bảo hành, nhưng bảo hành món nào, tính từ lúc nào, quay lại cần mang gì và gặp ai thì ít khi được nói rõ. Đến khi lỗi tái diễn, hai bên mới thấy mình hiểu khác nhau. Bài này tách hai thứ hay bị gộp trong chữ có bảo h"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/bao-hiem-trach-nhiem/",
   "title": "Bảo hiểm trách nhiệm: nghĩa vụ bắt buộc của chủ xe máy",
   "description": "Bảo hiểm TNDS là nghĩa vụ bắt buộc với chủ xe máy tại Việt Nam. Bài viết giải thích bảo hiểm chi trả cho ai, mua ở đâu, hiệu lực và quy trình yêu cầu bồi thường.",
@@ -18660,6 +18696,41 @@
  },
  {
   "kind": "article",
+  "url": "guide/thu-tuc-xe/chuyen-noi-thuong-tru-tam-tru-sang-tinh-khac-xe-may-co-phai-doi-bien-so-va-giay-dang-ky-khong/",
+  "title": "Chuyển nơi thường trú, tạm trú sang tỉnh khác: xe máy có phải đổi biển số, giấy đăng ký và làm ở đâu?",
+  "description": "Theo văn bản hợp nhất 55/VBHN-VPQH và 41/VBHN-BCA, đổi nơi thường trú, tạm trú thì được giữ số biển định danh; đổi giấy đăng ký ghi kèm cụm có nhu cầu.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "biển số định danh",
+   "chứng nhận đăng ký xe",
+   "nơi thường trú, tạm trú",
+   "giấy xác nhận hồ sơ xe",
+   "mẫu ĐKX13",
+   "mẫu ĐKX14",
+   "Thông tư 79/2024/TT-BCA",
+   "Luật Trật tự, an toàn giao thông đường bộ"
+  ],
+  "keywords": [
+   "chuyển nơi thường trú xe máy có phải đổi biển số",
+   "chuyển tạm trú sang tỉnh khác xe máy có phải đổi giấy đăng ký không",
+   "biển số định danh khi đổi nơi cư trú",
+   "mẫu ĐKX13 ĐKX14 xác nhận hồ sơ xe",
+   "thay đổi địa chỉ chủ xe có nhu cầu đổi đăng ký"
+  ],
+  "seoTitle": "Chuyển thường trú, tạm trú sang tỉnh khác: xe máy đổi biển số?",
+  "primaryKeyword": "chuyển nơi thường trú xe máy có phải đổi biển số",
+  "headings": [
+   "Điều 36 khoản 3 điểm c: đổi nơi thường trú, tạm trú thì được giữ lại số biển số định danh",
+   "Chứng nhận đăng ký xe: cụm \"có nhu cầu\" ở Điều 39 khoản 3 điểm c và danh sách 30 ngày ở Điều 6 khoản 4",
+   "Địa chỉ mới ngoài phạm vi của cơ quan đăng ký cũ: đơn mẫu ĐKX13 và giấy xác nhận hồ sơ xe mẫu ĐKX14",
+   "Hồ sơ, nơi đăng ký xe theo nơi cư trú, thời hạn không quá 02 ngày làm việc và xe đang thế chấp",
+   "Điều bài chưa đối chiếu: lệ phí, cập nhật cư trú và cách tra cứu thủ tục hiện hành"
+  ],
+  "summary": "Chủ xe máy chuyển nơi thường trú hoặc tạm trú sang tỉnh khác hay nghe nhiều cách nói trái nhau về biển số, giấy đăng ký và hồ sơ gốc. Bài đọc chữ của Luật Trật tự, an toàn giao thông đường bộ trong văn bản hợp nhất 55/VBHN-VPQH và của Thông tư 79/2024/TT-BCA t"
+ },
+ {
+  "kind": "article",
   "url": "tips/meo-lai-xe/chuyen-tro-chuyen-nha-bang-xe-may-chia-chuyen-do-nao-cho-duoc-va-luc-nen-goi-xe-cho-do/",
   "title": "Chuyển trọ, chuyển nhà bằng xe máy: chia chuyến, đồ nào chở được và lúc nên gọi xe chở đồ",
   "description": "Chuyển trọ bằng xe máy thế nào cho an toàn: chia chuyến, đóng thùng, đồ nào chở được, đồ nào nên gọi xe chở đồ và giữ sức khi đi nhiều chuyến liền.",
@@ -20056,6 +20127,41 @@
    "Không dùng điện thoại khi đang lái và tôn trọng người khác trong ảnh"
   ],
   "summary": "Bài giải thích vì sao một bài đăng ảnh giữa chuyến đi xe máy có thể để lộ nhiều hơn người đăng nghĩ: vị trí đang ở, chỗ ngủ đêm nay, tuyến ngày mai, tình trạng nhà vắng, biển xe và đồ đạc trên xe. Nội dung so sánh đăng ngay với đăng sau chuyến đi, rồi gợi ý cá"
+ },
+ {
+  "kind": "article",
+  "url": "guide/thu-tuc-xe/dang-ky-xe-may-moi-truc-tuyen-toan-trinh-co-phai-mang-xe-den-kiem-tra-va-nhan-ket-qua-the-nao-sau-thong-tu-37-2026/",
+  "title": "Đăng ký xe máy mới trực tuyến toàn trình: cần tài khoản định danh nào, có phải mang xe đến kiểm tra không?",
+  "description": "Điều 6 khoản 3 Thông tư 79/2024/TT-BCA: đăng ký xe trực tuyến toàn trình, tài khoản mức độ 2, không phải đưa xe đến kiểm tra nhưng vẫn phải nộp giấy tờ.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "Thông tư 79/2024/TT-BCA",
+   "văn bản hợp nhất 41/VBHN-BCA",
+   "Thông tư 37/2026/TT-BCA",
+   "tài khoản định danh điện tử mức độ 2",
+   "dịch vụ công trực tuyến toàn trình",
+   "cơ quan đăng ký xe",
+   "bản chà số máy, số khung",
+   "chứng nhận đăng ký xe"
+  ],
+  "keywords": [
+   "mua xe máy mới có phải mang xe đến kiểm tra không",
+   "tài khoản định danh điện tử mức độ 2 khi đăng ký xe",
+   "phiếu kiểm tra có bản chà số máy số khung",
+   "dịch vụ công trực tuyến toàn trình đăng ký xe lần đầu",
+   "Thông tư 37/2026/TT-BCA sửa khoản 6 Điều 3"
+  ],
+  "seoTitle": "Đăng ký xe máy mới trực tuyến toàn trình: có phải mang xe đến?",
+  "primaryKeyword": "mua xe máy mới có phải mang xe đến kiểm tra không",
+  "headings": [
+   "Ba hình thức kê khai, nộp hồ sơ ở Điều 3 khoản 4 và các văn bản bài đã đối chiếu",
+   "Điều kiện ở Điều 6 khoản 3: công dân Việt Nam, xe sản xuất lắp ráp hoặc nhập khẩu và tài khoản mức độ 2",
+   "Không phải đưa xe đến kiểm tra, nhưng khi nhận kết quả phải nộp phiếu có bản chà số máy, số khung",
+   "Nộp lệ phí, nhận biển số và kết quả: khoản 5, khoản 6 Điều 3 và chỗ Thông tư 37/2026/TT-BCA sửa",
+   "Thời hạn, trường hợp phải mang xe đến cơ quan đăng ký xe và phần bài chưa đối chiếu"
+  ],
+  "summary": "Người mua xe máy mới nghe nói có thể đăng ký ngay trên điện thoại mà không phải mang xe đến cơ quan đăng ký, nhưng không rõ cần tài khoản định danh nào và vì sao vẫn phải nộp phiếu có bản chà số máy, số khung. Bài đọc các điều khoản của Thông tư 79/2024/TT-BCA"
  },
  {
   "kind": "article",
@@ -22127,6 +22233,42 @@
  },
  {
   "kind": "article",
+  "url": "moto/xe-so/di-duong-dai-bang-xe-so-xich-sen-va-nhot-con-tu-dong-khi-leo-doc-cho-nang-chan-trai-moi-va-nhip-nghi-cho-may/",
+  "title": "Đi đường dài bằng xe số: xích sên và nhớt, côn tự động khi leo dốc chở nặng, chân trái mỏi và nhịp nghỉ cho máy",
+  "description": "Xe số đi xa cần để ý gì riêng: bôi sên và soi xích lúc nghỉ, nhớt chung cho côn và hộp số, côn tự động khi leo dốc chở nặng, chân trái mỏi và nhịp nghỉ cho máy.",
+  "category": "Xe máy",
+  "hub": "Xe số",
+  "entities": [
+   "xe số",
+   "đi đường dài",
+   "xích sên và nhông",
+   "bôi sên",
+   "độ chùng xích",
+   "nhớt dùng chung máy và hộp số",
+   "côn tự động",
+   "chọn số khi leo dốc",
+   "làm mát bằng gió"
+  ],
+  "keywords": [
+   "đi đường dài bằng xe số",
+   "xích sên xe số đi xa",
+   "côn tự động xe số leo dốc",
+   "chân trái mỏi khi sang số",
+   "nghỉ máy xe số đường dài"
+  ],
+  "seoTitle": "Đi đường dài bằng xe số: xích sên, nhớt, côn tự động, chân mỏi",
+  "primaryKeyword": "đi đường dài bằng xe số",
+  "headings": [
+   "Xe số đi xa khác xe ga và xe côn tay ở đâu: xích, hộp số chung nhớt và côn tự động",
+   "Xích sên và nhông: bôi lúc nào, soi độ chùng ở điểm dừng nghỉ và vì sao mưa bụi làm xích kêu",
+   "Nhớt và côn tự động khi chở nặng leo dốc dài: chọn số cho máy khỏe thay vì để côn gánh",
+   "Chân trái, cổ chân và cách giữ nhịp sang số đều qua nhiều giờ",
+   "Nhịp nghỉ cho máy làm mát bằng gió và dấu hiệu nên dừng sớm"
+  ],
+  "summary": "Bạn định đi một chuyến xa bằng chiếc xe số quen thuộc. Bài về xe tay ga và danh sách chuẩn bị chung đều có sẵn, nhưng xe số có những chỗ riêng: xích sên làm việc liên tục suốt chặng, máy và hộp số dùng chung nhớt nên nhớt gánh cả côn lẫn bánh răng khi chở nặng"
+ },
+ {
+  "kind": "article",
   "url": "ride/lai-xe-duong-dai/di-duong-dai-bang-xe-tay-ga-kiem-tra-day-curoa-va-bo-noi-do-deo-cho-do-va-nhip-nghi/",
   "title": "Đi đường dài bằng xe tay ga: kiểm tra dây curoa và bộ nồi, đổ đèo, chở đồ và nhịp nghỉ",
   "description": "Xe tay ga đi đường dài được không? Điểm mạnh, điểm cần để ý ở dây curoa và bộ nồi, cách kiểm tra trước chuyến, đổ đèo, chở đồ cho cân và nhịp nghỉ hợp lý.",
@@ -24165,6 +24307,42 @@
    "Máy nóng, lúc nên tắt máy và khác biệt với xe côn tay"
   ],
   "summary": "Bài giải thích vì sao phố kẹt xe khó với xe số có cần số ở chân trái và ly hợp tự động, rồi hướng dẫn cách chọn số khi nhích từng đoạn: thường giữ số thấp khi còn nhích, về số không khi phải đứng lâu, tùy xe. Nội dung gồm cách nhả ga hẳn trước khi sang số, nhí"
+ },
+ {
+  "kind": "article",
+  "url": "moto/xe-ga/di-xe-tay-ga-trong-pho-ket-xe-nhich-ga-em-giu-phanh-sau-dat-chan-the-nao-va-luc-may-nong-len/",
+  "title": "Đi xe tay ga trong phố kẹt xe: nhích ga êm, giữ phanh sau, đặt chân thế nào và lúc máy nóng lên",
+  "description": "Xe tay ga trong phố kẹt xe hay giật và vọt: vì sao nhích ga khó, giữ ga quanh ngưỡng nồi ăn, dùng phanh sau hãm nhẹ, đặt chân, đỡ mỏi tay và lúc máy nóng.",
+  "category": "Xe máy",
+  "hub": "Xe ga",
+  "entities": [
+   "xe tay ga",
+   "kẹt xe",
+   "nhích ga",
+   "ngưỡng ga",
+   "bộ nồi ly tâm",
+   "phanh sau",
+   "tay phanh trái",
+   "đặt chân khi dừng",
+   "máy nóng khi đứng lâu"
+  ],
+  "keywords": [
+   "đi xe tay ga trong phố kẹt xe",
+   "xe tay ga kẹt xe nhích ga",
+   "giữ phanh sau xe tay ga khi kẹt xe",
+   "đặt chân khi kẹt xe xe tay ga",
+   "xe tay ga nóng máy khi kẹt xe"
+  ],
+  "seoTitle": "Đi xe tay ga khi kẹt xe: nhích ga êm, giữ phanh, đặt chân",
+  "primaryKeyword": "đi xe tay ga trong phố kẹt xe",
+  "headings": [
+   "Vì sao kẹt xe là lúc xe tay ga khó êm nhất: ngưỡng ga mà xe bắt đầu lăn",
+   "Nhích từng đoạn: giữ tay ga ổn định quanh ngưỡng thay vì nhấp nhả",
+   "Dùng phanh sau để hãm nhẹ và vì sao không rà phanh lẫn ga quá lâu",
+   "Chân đặt đâu và tay phải đỡ mỏi thế nào khi dừng nhích liên tục",
+   "Đứng lâu thì máy nóng lên: dấu hiệu bình thường, lúc nên tắt máy và tìm chỗ thoáng"
+  ],
+  "summary": "Phố giờ cao điểm, xe nhích từng đoạn ngắn: vặn nhẹ thì xe đứng yên, vặn thêm chút nữa thì vọt lên rồi lại phải bóp phanh, tay phải mỏi, chân không biết đặt đâu, đứng lâu lại thấy hơi nóng bốc lên. Bài này bàn riêng phần của xe tay ga khi kẹt xe, vốn khác xe số"
  },
  {
   "kind": "article",
@@ -36050,6 +36228,41 @@
  },
  {
   "kind": "article",
+  "url": "guide/thu-tuc-xe/mat-giay-chung-nhan-dang-ky-xe-hoac-bien-so-xe-may-cap-lai-the-nao-ho-so-xac-minh-30-ngay-va-khi-muon-ban-xe/",
+  "title": "Mất giấy đăng ký xe hoặc biển số xe máy: hồ sơ cấp lại, thời hạn xác minh 30 ngày và khi muốn bán xe",
+  "description": "Điều 39 khoản 4 xếp mất giấy đăng ký hoặc biển số xe vào trường hợp cấp lại. Hồ sơ, xác minh 30 ngày rồi 02 ngày làm việc, và điều cần biết khi muốn bán xe.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "chứng nhận đăng ký xe",
+   "biển số xe",
+   "cấp lại",
+   "xác minh 30 ngày",
+   "Thông tư 79/2024/TT-BCA",
+   "văn bản hợp nhất 41/VBHN-BCA",
+   "Luật Trật tự, an toàn giao thông đường bộ",
+   "thu hồi chứng nhận đăng ký xe"
+  ],
+  "keywords": [
+   "mất giấy đăng ký xe máy cấp lại",
+   "hồ sơ cấp lại giấy chứng nhận đăng ký xe",
+   "biển số xe máy bị mất",
+   "xác minh 30 ngày cấp lại đăng ký xe",
+   "bán xe máy mất giấy đăng ký"
+  ],
+  "seoTitle": "Mất giấy đăng ký xe máy: hồ sơ cấp lại, xác minh 30 ngày, bán xe",
+  "primaryKeyword": "mất giấy đăng ký xe máy cấp lại",
+  "headings": [
+   "Điều 39 khoản 4 Luật: mất giấy đăng ký hoặc biển số xe là trường hợp cấp lại",
+   "Hồ sơ cấp lại khi nộp trực tiếp hoặc dịch vụ công trực tuyến một phần: giấy khai và giấy tờ của chủ xe",
+   "Thời hạn ở Điều 7: xác minh trong 30 ngày rồi cấp lại trong 02 ngày làm việc, và mốc khi có lệ phí",
+   "Cấp lại toàn trình qua dịch vụ công: ngoại lệ biển 3 số, 4 số và việc giữ nguyên biển số định danh",
+   "Mất giấy hoặc biển khi muốn bán xe, xe đang thế chấp và những điều bài chưa đối chiếu"
+  ],
+  "summary": "Bài đọc Điều 39 khoản 4 của văn bản hợp nhất 55/VBHN-VPQH và các điều của Thông tư 79/2024/TT-BCA trong văn bản hợp nhất 41/VBHN-BCA về việc mất giấy chứng nhận đăng ký xe hoặc biển số xe máy. Bài nêu hồ sơ cấp lại khi nộp trực tiếp hoặc dịch vụ công trực tuyế"
+ },
+ {
+  "kind": "article",
   "url": "guide/thu-tuc-xe/mat-hong-hoac-sai-thong-tin-bang-lai-xe-may-cap-lai-hay-doi-ho-so-va-thoi-han/",
   "title": "Mất, hỏng hoặc sai thông tin bằng lái xe máy: cấp lại hay đổi, hồ sơ gồm gì và bao lâu có kết quả?",
   "description": "Thông tư 108/2026/TT-BCA: mất giấy phép còn hạn thì cấp lại, hỏng hoặc sai thông tin thì đổi. Hồ sơ, nơi nộp, thời hạn 01 ngày và 2,5 ngày làm việc.",
@@ -37451,6 +37664,41 @@
    "Thanh toán, giấy tờ và nếu đã bị lừa"
   ],
   "summary": "Mua xe máy cũ qua mạng rất tiện nhưng đi kèm rủi ro bị lừa đặt cọc. Bài viết chỉ ra những dấu hiệu tin đăng đáng ngờ như giá thấp bất thường, ảnh không có bối cảnh thật, giấy tờ mập mờ và người bán né gặp mặt, những yêu cầu nên từ chối như chuyển cọc trước khi"
+ },
+ {
+  "kind": "article",
+  "url": "guide/thu-tuc-xe/mua-xe-may-da-qua-nhieu-doi-chu-khong-co-giay-to-cua-chu-dung-ten-sang-ten-the-nao-theo-dieu-32-thong-tu-79/",
+  "title": "Xe máy mua lại qua nhiều người, không có giấy tờ của chủ đứng tên: sang tên thế nào, giấy hẹn 30 ngày ra sao?",
+  "description": "Điều 32 Thông tư 79/2024/TT-BCA: thu hồi rồi sang tên cho xe qua nhiều chủ; không có chứng từ thì có giấy hẹn sử dụng xe 30 ngày, niêm yết, xác minh.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "Điều 32 Thông tư 79/2024/TT-BCA",
+   "thu hồi chứng nhận đăng ký xe",
+   "đăng ký sang tên xe",
+   "giấy hẹn 30 ngày",
+   "chứng từ chuyển quyền sở hữu xe",
+   "xác minh tàng thư xe mất cắp",
+   "văn bản hợp nhất 41/VBHN-BCA",
+   "Thông tư 37/2026/TT-BCA"
+  ],
+  "keywords": [
+   "sang tên xe máy qua nhiều đời chủ",
+   "giấy hẹn 30 ngày sử dụng xe",
+   "mua xe máy không có giấy tờ của chủ đứng tên",
+   "thủ tục thu hồi chứng nhận đăng ký xe",
+   "Thông tư 79/2024/TT-BCA Điều 32"
+  ],
+  "seoTitle": "Xe máy qua nhiều đời chủ, không có giấy tờ: Điều 32 Thông tư 79",
+  "primaryKeyword": "sang tên xe máy qua nhiều đời chủ",
+  "headings": [
+   "Điều 32 áp dụng khi nào: xe đã chuyển quyền sở hữu qua nhiều tổ chức, cá nhân",
+   "Hai bước: thu hồi ở cơ quan quản lý hồ sơ xe, rồi sang tên ở nơi người đang sử dụng xe cư trú",
+   "Có chứng từ của chủ xe và của người bán cuối cùng: 02 ngày làm việc và biên bản đối với chủ xe",
+   "Không có các chứng từ đó: giấy hẹn sử dụng xe 30 ngày, niêm yết, xác minh tàng thư xe mất cắp",
+   "Các mốc dễ nhầm và những điều bài chưa đối chiếu"
+  ],
+  "summary": "Bài đọc Điều 32 Thông tư 79/2024/TT-BCA trong văn bản hợp nhất 41/VBHN-BCA, điều khoản dành cho xe đã chuyển quyền sở hữu qua nhiều tổ chức, cá nhân. Bài nêu hai bước ở khoản 1: người đang sử dụng xe đến cơ quan đăng ký xe quản lý hồ sơ xe để thu hồi, rồi đến "
  },
  {
   "kind": "article",
@@ -39055,6 +39303,41 @@
    "Những điểm cần tra thêm: Công ước Viên 1968 và quốc gia cấp giấy phép"
   ],
   "summary": "Bài đọc Điều 57 khoản 6 và khoản 8 của văn bản hợp nhất 55/VBHN-VPQH về Luật Trật tự, an toàn giao thông đường bộ, dành cho khách nước ngoài và người cho thuê xe. Bài nêu bốn nhóm giấy phép lái xe có giá trị sử dụng ở Việt Nam, đặc điểm của giấy phép lái xe qu"
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/nguoi-nuoc-ngoai-song-o-viet-nam-mua-xe-may-dang-ky-can-the-tam-tru-con-han-bao-lau-bien-so-nn-va-thoi-han-giay-dang-ky/",
+  "title": "Người nước ngoài sống ở Việt Nam mua xe máy: giấy tờ đăng ký, thẻ tạm trú còn hạn bao lâu và biển số NN?",
+  "description": "Thông tư 79/2024/TT-BCA: người nước ngoài sinh sống, làm việc ở Việt Nam xuất trình thẻ thường trú hoặc thẻ tạm trú còn thời hạn cư trú từ 06 tháng trở lên.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "người nước ngoài",
+   "thẻ tạm trú",
+   "thẻ thường trú",
+   "chứng nhận đăng ký xe",
+   "biển số NN",
+   "Thông tư 79/2024/TT-BCA",
+   "văn bản hợp nhất 41/VBHN-BCA",
+   "tài khoản định danh điện tử mức độ 2"
+  ],
+  "keywords": [
+   "thẻ tạm trú còn hạn bao lâu để đăng ký xe máy",
+   "biển số NN xe máy của người nước ngoài",
+   "thời hạn giấy đăng ký xe của người nước ngoài",
+   "Thông tư 79/2024/TT-BCA người nước ngoài",
+   "người nước ngoài đăng ký xe máy ở Việt Nam"
+  ],
+  "seoTitle": "Người nước ngoài mua xe máy: thẻ tạm trú còn hạn, biển NN",
+  "primaryKeyword": "thẻ tạm trú còn hạn bao lâu để đăng ký xe máy",
+  "headings": [
+   "Thẻ thường trú hoặc thẻ tạm trú còn thời hạn cư trú từ 06 tháng: Điều 10 khoản 2",
+   "Năm nhóm giấy tờ của đăng ký xe lần đầu (Điều 8) và biển số quản lý theo số định danh (Điều 3 khoản 3 điểm b)",
+   "Thời hạn ghi trên chứng nhận đăng ký xe theo thẻ thường trú, thẻ tạm trú (Điều 35 khoản 2)",
+   "Biển số ký hiệu NN và cách bố trí chữ, số trên biển xe mô tô của cá nhân nước ngoài",
+   "Đăng ký trực tuyến toàn trình, ủy quyền và những điều bài chưa đối chiếu"
+  ],
+  "summary": "Người nước ngoài sống ở Việt Nam muốn mua xe máy đứng tên mình thường không rõ phải xuất trình thẻ gì, thẻ tạm trú còn hạn bao lâu, giấy đăng ký có thời hạn không và biển số có gì khác. Bài đọc Thông tư 79/2024/TT-BCA trong văn bản hợp nhất 41/VBHN-BCA ngày 11"
  },
  {
   "kind": "article",
@@ -57864,6 +58147,41 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/xe-may-bien-3-so-4-so-hoac-bien-5-so-cu-con-duoc-chay-khong-va-khi-nao-doi-sang-bien-so-dinh-danh/",
+  "title": "Xe máy biển 3 số, 4 số hoặc biển 5 số cũ: còn được chạy không và khi nào đổi sang biển số định danh?",
+  "description": "Điều 39 Thông tư 79/2024/TT-BCA nêu xe biển 3 số, 4 số và biển 5 số có ký hiệu riêng tiếp tục được tham gia giao thông; bài đọc khi nào đổi biển định danh.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "biển số định danh",
+   "biển 3 số",
+   "biển 4 số",
+   "biển 5 số",
+   "chứng nhận đăng ký xe",
+   "kho biển số",
+   "Thông tư 79/2024/TT-BCA",
+   "văn bản hợp nhất 41/VBHN-BCA"
+  ],
+  "keywords": [
+   "chạy xe máy biển 3 số 4 số có phải đổi biển không",
+   "mốc 01/01/2025 biển 5 số chưa thu hồi",
+   "ký hiệu MK TĐ LD DA MĐ R CT LB CD trên biển 5 số",
+   "kho biển số xe thu hồi trước 15/8/2023",
+   "cấp sang biển số định danh khi sang tên xe máy"
+  ],
+  "seoTitle": "Biển 3 số, 4 số, 5 số cũ: còn được chạy không, khi nào đổi?",
+  "primaryKeyword": "chạy xe máy biển 3 số 4 số có phải đổi biển không",
+  "headings": [
+   "Biển số định danh là gì: quản lý theo số định danh cá nhân của chủ xe là công dân Việt Nam, và giữ lại số biển 05 năm trong các trường hợp ở điểm d (Điều 3 khoản 3)",
+   "Xe biển 5 số đăng ký trước 01/01/2025 và biển đã thu hồi trước ngày 15/8/2023 (Điều 39 khoản 1, 2)",
+   "Xe biển 3 số, biển 4 số và biển 5 số có ký hiệu riêng: tiếp tục được phép tham gia giao thông (Điều 39 khoản 3)",
+   "Khi nào đổi sang biển số theo Thông tư: chủ xe có nhu cầu, hoặc đổi, cấp lại, sang tên (Điều 39 khoản 3; Điều 17, 20, 21 nhắc lại việc đổi sang biển số định danh)",
+   "Điều các đoạn đã đối chiếu không giải thích và điều bài chưa đối chiếu"
+  ],
+  "summary": "Chủ xe máy còn mang biển số cũ hay nghe nói sẽ phải đổi sang biển số định danh nhưng không rõ xe có còn được chạy và khi nào mới phải đổi. Bài đọc chữ của Điều 39 khoản 1, 2, 3 trong Thông tư 79/2024/TT-BCA theo văn bản hợp nhất 41/VBHN-BCA ngày 11 tháng 9 năm"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/xe-may-bien-so-nuoc-ngoai-chay-o-viet-nam-luat-yeu-cau-giay-phep-gi-va-nghi-dinh-168-phat-nhung-loi-nao/",
   "title": "Xe máy biển số nước ngoài chạy ở Việt Nam: Luật yêu cầu giấy phép gì và Nghị định 168 phạt những lỗi nào?",
   "description": "Điều 35 khoản 4, Điều 55 của Luật và Điều 37 Nghị định 168/2024/NĐ-CP nói gì về xe máy gắn biển số nước ngoài: cấp phép, từng khung phạt, buộc tái xuất.",
@@ -59254,6 +59572,41 @@
    "Khi nào nên đưa xe cho thợ"
   ],
   "summary": "Bài hướng dẫn cách xử lý khi xe máy hết xăng giữa đường theo thứ tự thực tế: nhận ra dấu hiệu sắp cạn, tấp xe vào chỗ an toàn, quyết định dắt xe hay xin hỗ trợ, rồi chứa và đổ xăng dự phòng đúng cách. Nội dung cũng giải thích vì sao xe phun xăng thường khó nổ "
+ },
+ {
+  "kind": "article",
+  "url": "guide/thu-tuc-xe/xe-may-hu-hong-khong-dung-duoc-bi-thai-bo-hoac-mat-khong-tim-thay-co-phai-thu-hoi-dang-ky-va-bien-so-khong/",
+  "title": "Xe máy hỏng không dùng được, bị thải bỏ hoặc mất không tìm thấy: có phải thu hồi đăng ký, biển số không?",
+  "description": "Xe máy hư hỏng không dùng được, thải bỏ hoặc mất không tìm được: Điều 39 Luật và Thông tư 79/2024/TT-BCA nói gì về thu hồi đăng ký, biển số, hồ sơ và thời hạn.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "chứng nhận đăng ký xe",
+   "biển số xe",
+   "thu hồi đăng ký xe",
+   "xe hư hỏng không sử dụng được",
+   "xe bị thải bỏ",
+   "biển số định danh",
+   "Thông tư 79/2024/TT-BCA",
+   "văn bản hợp nhất 41/VBHN-BCA"
+  ],
+  "keywords": [
+   "hư hỏng xe máy có phải thu hồi biển số",
+   "thải bỏ xe máy thu hồi chứng nhận đăng ký",
+   "mất xe máy không tìm thấy có phải thu hồi đăng ký",
+   "Thông tư 79/2024/TT-BCA thu hồi chứng nhận đăng ký xe",
+   "biển số định danh giữ lại 05 năm"
+  ],
+  "seoTitle": "Xe máy hỏng, thải bỏ hoặc mất: có phải thu hồi đăng ký, biển số?",
+  "primaryKeyword": "hư hỏng xe máy có phải thu hồi biển số",
+  "headings": [
+   "Điều 39 khoản 6 điểm d và đ: xe hư hỏng không sử dụng được, bị thải bỏ hoặc bị mất không tìm được",
+   "Điều 40 khoản 3 điểm a: xe mô tô, xe gắn máy không áp dụng niên hạn sử dụng",
+   "Điều 6 khoản 6 và khoản 7 Thông tư 79/2024/TT-BCA: hạn 07 ngày làm việc và trách nhiệm của người đứng tên",
+   "Hồ sơ, cách làm thủ tục và thời hạn cấp chứng nhận thu hồi: Điều 25, 16, 26 và 7 Thông tư 79/2024/TT-BCA",
+   "Số biển được giữ 05 năm, xe tai nạn bị phá hủy và những điều bài chưa đối chiếu"
+  ],
+  "summary": "Nhiều chủ xe máy có chiếc xe hỏng nặng không dùng được, bị bỏ đi hoặc không tìm thấy nữa và không rõ có phải làm thủ tục thu hồi chứng nhận đăng ký xe, biển số xe hay không. Bài đọc Điều 39 khoản 6 điểm d, đ và Điều 40 khoản 3 điểm a của văn bản hợp nhất 55/VB"
  },
  {
   "kind": "article",

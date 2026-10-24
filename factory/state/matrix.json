@@ -30918,11 +30918,13 @@
    "title": "Bảo hành của tiệm sau khi sửa hoặc thay phụ tùng: bảo hành phụ tùng khác bảo hành công làm thế nào, hỏi gì và giữ gì",
    "primaryIntent": "informational/bao-hanh-cua-tiem-sau-khi-sua-hoac-thay-phu-tung-bao-hanh-phu-tung-khac-bao-hanh-cong-lam-the-nao-hoi-gi-va-giu-gi",
    "notes": "source=topic-v2 topicId=T002297",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.968Z",
-   "updatedAt": "2026-10-24T11:09:58.968Z"
+   "updatedAt": "2026-10-24T19:29:24.417Z",
+   "seoScore": 100,
+   "words": 3253
   },
   {
    "id": "S02106",
@@ -31501,11 +31503,13 @@
    "title": "Chuyển nơi thường trú, tạm trú sang tỉnh khác: xe máy có phải đổi biển số, giấy đăng ký và làm ở đâu?",
    "primaryIntent": "informational/chuyen-noi-thuong-tru-tam-tru-sang-tinh-khac-xe-may-co-phai-doi-bien-so-va-giay-dang-ky-khong",
    "notes": "source=topic-v2 topicId=T002337",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:52:34.409Z",
-   "updatedAt": "2026-10-24T13:52:34.409Z"
+   "updatedAt": "2026-10-24T19:29:24.417Z",
+   "seoScore": 100,
+   "words": 3812
   },
   {
    "id": "S02145",
@@ -31514,11 +31518,13 @@
    "title": "Mất giấy đăng ký xe hoặc biển số xe máy: hồ sơ cấp lại, thời hạn xác minh 30 ngày và khi muốn bán xe",
    "primaryIntent": "informational/mat-giay-chung-nhan-dang-ky-xe-hoac-bien-so-xe-may-cap-lai-the-nao-ho-so-xac-minh-30-ngay-va-khi-muon-ban-xe",
    "notes": "source=topic-v2 topicId=T002338",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:52:41.786Z",
-   "updatedAt": "2026-10-24T13:52:41.786Z"
+   "updatedAt": "2026-10-24T19:29:24.417Z",
+   "seoScore": 100,
+   "words": 3889
   },
   {
    "id": "S02146",
@@ -31527,11 +31533,13 @@
    "title": "Xe máy biển 3 số, 4 số hoặc biển 5 số cũ: còn được chạy không và khi nào đổi sang biển số định danh?",
    "primaryIntent": "informational/xe-may-bien-3-so-4-so-hoac-bien-5-so-cu-con-duoc-chay-khong-va-khi-nao-doi-sang-bien-so-dinh-danh",
    "notes": "source=topic-v2 topicId=T002339",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:52:46.723Z",
-   "updatedAt": "2026-10-24T13:52:46.723Z"
+   "updatedAt": "2026-10-24T19:29:24.417Z",
+   "seoScore": 100,
+   "words": 3533
   },
   {
    "id": "S02147",
@@ -31540,11 +31548,13 @@
    "title": "Xe máy mua lại qua nhiều người, không có giấy tờ của chủ đứng tên: sang tên thế nào, giấy hẹn 30 ngày ra sao?",
    "primaryIntent": "informational/mua-xe-may-da-qua-nhieu-doi-chu-khong-co-giay-to-cua-chu-dung-ten-sang-ten-the-nao-theo-dieu-32-thong-tu-79",
    "notes": "source=topic-v2 topicId=T002340",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:52:51.668Z",
-   "updatedAt": "2026-10-24T13:52:51.668Z"
+   "updatedAt": "2026-10-24T19:29:24.417Z",
+   "seoScore": 100,
+   "words": 3788
   },
   {
    "id": "S02148",
@@ -31553,11 +31563,13 @@
    "title": "Xe máy hỏng không dùng được, bị thải bỏ hoặc mất không tìm thấy: có phải thu hồi đăng ký, biển số không?",
    "primaryIntent": "informational/xe-may-hu-hong-khong-dung-duoc-bi-thai-bo-hoac-mat-khong-tim-thay-co-phai-thu-hoi-dang-ky-va-bien-so-khong",
    "notes": "source=topic-v2 topicId=T002341",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:52:58.837Z",
-   "updatedAt": "2026-10-24T13:52:58.837Z"
+   "updatedAt": "2026-10-24T19:29:24.417Z",
+   "seoScore": 100,
+   "words": 3590
   },
   {
    "id": "S02149",
@@ -31566,11 +31578,13 @@
    "title": "Đăng ký xe máy mới trực tuyến toàn trình: cần tài khoản định danh nào, có phải mang xe đến kiểm tra không?",
    "primaryIntent": "informational/dang-ky-xe-may-moi-truc-tuyen-toan-trinh-co-phai-mang-xe-den-kiem-tra-va-nhan-ket-qua-the-nao-sau-thong-tu-37-2026",
    "notes": "source=topic-v2 topicId=T002342",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:53:06.153Z",
-   "updatedAt": "2026-10-24T13:53:06.153Z"
+   "updatedAt": "2026-10-24T19:29:24.418Z",
+   "seoScore": 100,
+   "words": 3739
   },
   {
    "id": "S02150",
@@ -31579,11 +31593,13 @@
    "title": "Người nước ngoài sống ở Việt Nam mua xe máy: giấy tờ đăng ký, thẻ tạm trú còn hạn bao lâu và biển số NN?",
    "primaryIntent": "informational/nguoi-nuoc-ngoai-song-o-viet-nam-mua-xe-may-dang-ky-can-the-tam-tru-con-han-bao-lau-bien-so-nn-va-thoi-han-giay-dang-ky",
    "notes": "source=topic-v2 topicId=T002343",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:53:11.017Z",
-   "updatedAt": "2026-10-24T13:53:11.017Z"
+   "updatedAt": "2026-10-24T19:29:24.418Z",
+   "seoScore": 100,
+   "words": 3549
   },
   {
    "id": "S02151",
@@ -31592,11 +31608,13 @@
    "title": "Đi xe tay ga trong phố kẹt xe: nhích ga êm, giữ phanh sau, đặt chân thế nào và lúc máy nóng lên",
    "primaryIntent": "informational/di-xe-tay-ga-trong-pho-ket-xe-nhich-ga-em-giu-phanh-sau-dat-chan-the-nao-va-luc-may-nong-len",
    "notes": "source=topic-v2 topicId=T002345",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T16:07:16.946Z",
-   "updatedAt": "2026-10-24T16:07:16.946Z"
+   "updatedAt": "2026-10-24T19:29:24.418Z",
+   "seoScore": 91,
+   "words": 3717
   },
   {
    "id": "S02152",
@@ -31605,11 +31623,13 @@
    "title": "Đi đường dài bằng xe số: xích sên và nhớt, côn tự động khi leo dốc chở nặng, chân trái mỏi và nhịp nghỉ cho máy",
    "primaryIntent": "informational/di-duong-dai-bang-xe-so-xich-sen-va-nhot-con-tu-dong-khi-leo-doc-cho-nang-chan-trai-moi-va-nhip-nghi-cho-may",
    "notes": "source=topic-v2 topicId=T002346",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T16:07:17.082Z",
-   "updatedAt": "2026-10-24T16:07:17.082Z"
+   "updatedAt": "2026-10-24T19:29:24.418Z",
+   "seoScore": 100,
+   "words": 3810
   },
   {
    "id": "S02153",
