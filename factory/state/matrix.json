@@ -30346,11 +30346,13 @@
    "title": "Bằng lái xe máy hạng A1, A2, A3 cấp trước 2025: còn dùng được không, lái xe nào và đổi sang hạng nào?",
    "primaryIntent": "informational/bang-lai-xe-may-a1-a2-a3-cap-truoc-2025-dung-duoc-khong",
    "notes": "source=topic-v2 topicId=T002257",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:08.639Z",
-   "updatedAt": "2026-10-24T10:50:08.639Z"
+   "updatedAt": "2026-10-24T10:56:05.945Z",
+   "seoScore": 100,
+   "words": 3065
   },
   {
    "id": "S02068",
