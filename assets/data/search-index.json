@@ -42767,6 +42767,41 @@
  },
  {
   "kind": "article",
+  "url": "docs/checklist/thong-tin-khan-cap-cho-nguoi-hay-di-xe-may-mot-minh-ghi-gi-tren-dien-thoai-trong-vi-va-mu-de-nguoi-giup-biet-goi-ai/",
+  "title": "Thông tin khẩn cấp cho người hay đi xe máy một mình: ghi gì trên điện thoại, trong ví và mũ để người giúp biết gọi ai",
+  "description": "Người đi xe máy một mình nên ghi gì lên điện thoại, thẻ trong ví và mặt trong mũ để người giúp biết gọi ai, tránh dị ứng, mà không lộ thông tin cá nhân.",
+  "category": "Tài liệu",
+  "hub": "Checklist",
+  "entities": [
+   "thông tin khẩn cấp",
+   "người liên hệ khẩn cấp",
+   "màn hình khóa",
+   "thẻ trong ví",
+   "mũ bảo hiểm",
+   "dị ứng thuốc",
+   "bệnh nền",
+   "nhóm máu"
+  ],
+  "keywords": [
+   "thông tin khẩn cấp khi đi xe máy",
+   "ghi thông tin khẩn cấp trên điện thoại",
+   "thẻ thông tin y tế trong ví",
+   "nhãn thông tin trong mũ bảo hiểm",
+   "đi xe máy một mình cần chuẩn bị gì"
+  ],
+  "seoTitle": "Thông tin khẩn cấp khi đi xe máy một mình: ghi gì, để ở đâu",
+  "primaryKeyword": "thông tin khẩn cấp khi đi xe máy",
+  "headings": [
+   "Vì sao người giúp cần vài dòng thông tin ngay lúc bạn không tự nói được",
+   "Danh sách tối thiểu nên ghi: người cần báo, dị ứng, bệnh nền, thuốc đang dùng và nhóm máu nếu biết",
+   "Để ở đâu người lạ tìm thấy: màn hình khóa điện thoại, thẻ trong ví, mặt trong mũ bảo hiểm",
+   "Điều không nên ghi để khỏi lộ thông tin cá nhân và cách ghi gọn, dễ đọc",
+   "Soát lại định kỳ và báo cho người trong danh sách biết họ là người liên hệ"
+  ],
+  "summary": "Người đi xe máy một mình mà bị ngã hay choáng không nói được thì người đến giúp thường không biết gọi ai, cũng không biết bạn dị ứng hay có bệnh nền gì. Bài gợi ý một danh sách ngắn làm được trong một buổi: người cần báo kèm quan hệ, dị ứng, bệnh nền quan trọn"
+ },
+ {
+  "kind": "article",
   "url": "wiki/thuat-ngu-xe/thuat-ngu-xe-may/",
   "title": "Kinh nghiệm thuật ngữ xe máy dành cho người mới",
   "description": "Tổng hợp thuật ngữ xe máy cơ bản người mới cần hiểu: côn, ga, vòng tua, xi-lanh, đề điện, xe số, xe ga — giải thích dễ hiểu theo nhóm chức năng.",

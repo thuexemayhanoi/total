@@ -29266,11 +29266,13 @@
    "title": "Thông tin khẩn cấp cho người hay đi xe máy một mình: ghi gì trên điện thoại, trong ví và mũ để người giúp biết gọi ai",
    "primaryIntent": "informational/thong-tin-khan-cap-cho-nguoi-hay-di-xe-may-mot-minh-ghi-gi-tren-dien-thoai-trong-vi-va-mu-de-nguoi-giup-biet-goi-ai",
    "notes": "source=topic-v2 topicId=T002182",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:15.547Z",
-   "updatedAt": "2026-10-24T06:10:15.547Z"
+   "updatedAt": "2026-10-24T06:17:24.046Z",
+   "seoScore": 100,
+   "words": 3188
   },
   {
    "id": "S01996",
