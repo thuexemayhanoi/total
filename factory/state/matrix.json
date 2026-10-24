@@ -29238,11 +29238,13 @@
    "title": "Chữ “nổ” trong tiếng thợ và người đi xe: nổ máy, nổ pô, nổ lốp, nổ không đều và kích nổ chỉ những chuyện gì khác nhau",
    "primaryIntent": "informational/chu-no-trong-tieng-tho-va-nguoi-di-xe-no-may-no-po-no-lop-no-khong-deu-va-kich-no-chi-nhung-chuyen-gi-khac-nhau",
    "notes": "source=topic-v2 topicId=T002180",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:11.487Z",
-   "updatedAt": "2026-10-24T06:10:11.488Z"
+   "updatedAt": "2026-10-24T06:17:49.845Z",
+   "seoScore": 91,
+   "words": 3173
   },
   {
    "id": "S01994",
