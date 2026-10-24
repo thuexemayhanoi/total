@@ -31662,6 +31662,32 @@
    "attempts": 0,
    "createdAt": "2026-10-24T16:07:33.335Z",
    "updatedAt": "2026-10-24T16:07:33.335Z"
+  },
+  {
+   "id": "S02157",
+   "hub": "docs/tai-lieu-tham-khao",
+   "slug": "thong-bao-trieu-hoi-xe-may-xac-nhan-tin-that-kiem-tra-xe-minh-co-thuoc-dien-khong-va-viec-nen-lam-trong-luc-cho",
+   "title": "Thông báo triệu hồi xe máy: xác nhận tin thật, kiểm tra xe mình có thuộc diện không và việc nên làm trong lúc chờ",
+   "primaryIntent": "informational/thong-bao-trieu-hoi-xe-may-xac-nhan-tin-that-kiem-tra-xe-minh-co-thuoc-dien-khong-va-viec-nen-lam-trong-luc-cho",
+   "notes": "source=topic-v2 topicId=T002351",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T16:21:40.632Z",
+   "updatedAt": "2026-10-24T16:21:40.633Z"
+  },
+  {
+   "id": "S02158",
+   "hub": "hub/van-de-thuong-gap",
+   "slug": "xe-minh-co-loi-ma-nghe-nguoi-cung-dong-cung-gap-loi-chung-cua-dong-xe-hay-hong-rieng-hoi-ai-va-ghi-gi-cho-ro",
+   "title": "Xe mình có lỗi mà nghe người cùng dòng cũng gặp: lỗi chung của dòng xe hay hỏng riêng, hỏi ai và ghi gì cho rõ",
+   "primaryIntent": "informational/xe-minh-co-loi-ma-nghe-nguoi-cung-dong-cung-gap-loi-chung-cua-dong-xe-hay-hong-rieng-hoi-ai-va-ghi-gi-cho-ro",
+   "notes": "source=topic-v2 topicId=T002352",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T16:21:40.722Z",
+   "updatedAt": "2026-10-24T16:21:40.722Z"
   }
  ]
 }
