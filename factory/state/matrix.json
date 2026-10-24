@@ -28934,11 +28934,13 @@
    "title": "Chữ \"bạc\" trong tiếng thợ xe: bạc đạn, bạc lót, bạc biên, bạc cổ, bạc càng và \"lên bạc\" chỉ những chi tiết nào",
    "primaryIntent": "informational/chu-bac-trong-tieng-tho-xe-bac-dan-bac-lot-bac-bien-bac-co-bac-cang-va-len-bac-chi-nhung-chi-tiet-nao",
    "notes": "source=topic-v2 topicId=T002157",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:25:50.794Z",
-   "updatedAt": "2026-10-24T04:25:50.794Z"
+   "updatedAt": "2026-10-24T04:39:28.734Z",
+   "seoScore": 91,
+   "words": 3730
   },
   {
    "id": "S01974",
@@ -28947,11 +28949,13 @@
    "title": "Cổ pô xe máy đỏ rực khi nổ máy tại chỗ: khi nào bình thường, khi nào là lửa trễ, hòa khí nghèo hay xúc tác tắc",
    "primaryIntent": "troubleshooting/co-po-xe-may-do-ruc-khi-no-may-tai-cho-khi-nao-binh-thuong-khi-nao-la-lua-tre-hoa-khi-ngheo-hay-xuc-tac-tac",
    "notes": "source=topic-v2 topicId=T002158",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:25:50.862Z",
-   "updatedAt": "2026-10-24T04:25:50.862Z"
+   "updatedAt": "2026-10-24T04:39:28.734Z",
+   "seoScore": 100,
+   "words": 3994
   },
   {
    "id": "S01975",
