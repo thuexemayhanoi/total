@@ -29673,11 +29673,13 @@
    "title": "Xe máy dắt nặng bất thường hoặc không lùi được: khóa phanh đỗ, phanh bó, còn gài số hay bánh kẹt — thử theo thứ tự",
    "primaryIntent": "troubleshooting/xe-may-dat-nang-bat-thuong-hoac-khong-lui-duoc-khoa-phanh-do-phanh-bo-con-gai-so-hay-banh-ket-thu-theo-thu-tu",
    "notes": "source=topic-v2 topicId=T002209",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:01.013Z",
-   "updatedAt": "2026-10-24T07:48:01.013Z"
+   "updatedAt": "2026-10-24T07:56:28.202Z",
+   "seoScore": 100,
+   "words": 3175
   },
   {
    "id": "S02023",
