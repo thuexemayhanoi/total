@@ -30565,11 +30565,13 @@
    "title": "Nồng độ cồn khi lái xe máy: ba mức phạt, mức nào bị trừ điểm và mức nào bị tước giấy phép lái xe?",
    "primaryIntent": "informational/nong-do-con-khi-lai-xe-may-ba-muc-phat-tru-diem-va-tuoc-giay-phep-lai-xe",
    "notes": "source=topic-v2 topicId=T002272",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:02.874Z",
-   "updatedAt": "2026-10-24T11:04:02.874Z"
+   "updatedAt": "2026-10-24T11:15:01.615Z",
+   "seoScore": 100,
+   "words": 3429
   },
   {
    "id": "S02083",
