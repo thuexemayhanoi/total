@@ -31469,11 +31469,13 @@
    "title": "Xe máy biển số nước ngoài chạy ở Việt Nam: Luật yêu cầu giấy phép gì và Nghị định 168 phạt những lỗi nào?",
    "primaryIntent": "informational/xe-may-bien-so-nuoc-ngoai-chay-o-viet-nam-luat-yeu-cau-giay-phep-gi-va-nghi-dinh-168-phat-nhung-loi-nao",
    "notes": "source=topic-v2 topicId=T002335",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:52:22.109Z",
-   "updatedAt": "2026-10-24T13:52:22.110Z"
+   "updatedAt": "2026-10-24T15:49:06.120Z",
+   "seoScore": 100,
+   "words": 3294
   },
   {
    "id": "S02143",
