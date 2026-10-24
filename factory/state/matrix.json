@@ -31046,11 +31046,13 @@
    "title": "Dừng xe, đỗ xe máy sai chỗ bị phạt bao nhiêu: lòng đường, vỉa hè, vạch người đi bộ, trên cầu hay trong hầm?",
    "primaryIntent": "informational/dung-xe-do-xe-may-sai-cho-bi-phat-bao-nhieu-long-duong-via-he-vach-nguoi-di-bo-cau-ham",
    "notes": "source=topic-v2 topicId=T002308",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:08:02.943Z",
-   "updatedAt": "2026-10-24T12:08:02.944Z"
+   "updatedAt": "2026-10-24T12:33:44.981Z",
+   "seoScore": 100,
+   "words": 3463
   },
   {
    "id": "S02116",
