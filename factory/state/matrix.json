@@ -31091,11 +31091,13 @@
    "title": "Đi xe máy dàn hàng ngang, thành đoàn hoặc cả nhóm cùng chạy quá tốc độ: phạt bao nhiêu và có bị tước bằng?",
    "primaryIntent": "informational/di-xe-may-dan-hang-ngang-thanh-doan-hoac-ca-nhom-chay-qua-toc-do-bi-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002311",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:08:23.297Z",
-   "updatedAt": "2026-10-24T12:08:23.297Z"
+   "updatedAt": "2026-10-24T12:37:27.426Z",
+   "seoScore": 100,
+   "words": 3514
   },
   {
    "id": "S02119",
