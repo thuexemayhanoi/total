@@ -1,7 +1,7 @@
 name: Factory Publish Lite (batch 1-10)
 
 # HOT PATH giống Motoopen Article Factory Lite nhưng giữ chuẩn bài dài /total:
-# exact push scope -> fresh main -> scoped QA -> publish 1-10 bài MỘT transaction
+# exact push scope or 30-min backlog recovery -> fresh main -> scoped QA -> publish 1-10 bài MỘT transaction
 # -> scoped internal-link 404 gate -> commit một lần.
 # Full-site audit/generate byte-exact/invariant nặng được tách sang workflow manual.
 on:
@@ -10,6 +10,10 @@ on:
     paths:
       - 'factory/data/articles/**'
       - '.github/workflows/factory-publish.yml'
+  # /blog pattern: lost/cancelled push runs are recovered from latest article-backed backlog.
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,7 +24,7 @@ concurrency:
 
 jobs:
   publish:
-    if: github.actor != 'github-actions[bot]'
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -32,28 +36,51 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Capture exact push scope
-        id: scope
+      - name: Capture exact article scope from a writer push
+        id: pushscope
         shell: bash
         run: |
           set -euo pipefail
-          base="${{ github.event.before }}"
-          if [ -z "$base" ] || [[ "$base" =~ ^0+$ ]]; then base="HEAD~1"; fi
-          out=$(node factory/factory.js push-scope --base "$base")
-          echo "$out"
-          ids=$(printf '%s\n' "$out" | sed -n 's/^SCOPE_IDS=//p')
-          if [ -z "$ids" ]; then count=0; proceed=false; else count=$(awk -F',' '{print NF}' <<< "$ids"); proceed=true; fi
-          if [ "$count" -gt 10 ]; then echo "QUEUE_REFUSE: tối đa 10 article IDs mỗi batch"; exit 1; fi
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            base="${{ github.event.before }}"
+            if [ -z "$base" ] || [[ "$base" =~ ^0+$ ]]; then base="HEAD~1"; fi
+            out=$(node factory/factory.js push-scope --base "$base")
+            echo "$out"
+            ids=$(printf '%s\n' "$out" | sed -n 's/^SCOPE_IDS=//p')
+            if [ -n "$ids" ] && [ "$(awk -F',' '{print NF}' <<< "$ids")" -gt 10 ]; then
+              echo "QUEUE_REFUSE: max 10 article IDs in one writer push" >&2
+              exit 1
+            fi
+          else
+            ids=""
+          fi
           echo "ids=$ids" >> "$GITHUB_OUTPUT"
-          echo "count=$count" >> "$GITHUB_OUTPUT"
-          echo "proceed=$proceed" >> "$GITHUB_OUTPUT"
 
-      - name: Refresh fresh main
-        if: steps.scope.outputs.proceed == 'true'
+      - name: Refresh fresh main before selecting backlog
         run: |
           set -euo pipefail
           git fetch origin main
           git checkout -B main origin/main
+
+      - name: Choose push scope or recover article-backed backlog (max 10)
+        id: scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          ids="${{ steps.pushscope.outputs.ids }}"
+          if [ -z "$ids" ]; then
+            # Unlike push-scope, this finds drafts left by a cancelled/missed run.
+            # Only files that already exist are eligible. No AI prose is generated.
+            plan=$(node factory/factory.js plan-chunk --limit 10)
+            echo "$plan"
+            ids=$(printf '%s\n' "$plan" | sed -n 's/^PLAN ids=//p' | tr ' ' '\n' | sed -n 's/^\(S[0-9][0-9]*\):.*$/\1/p' | paste -sd, -)
+          fi
+          if [ -z "$ids" ]; then count=0; proceed=false; else count=$(awk -F',' '{print NF}' <<< "$ids"); proceed=true; fi
+          if [ "$count" -gt 10 ]; then echo "QUEUE_REFUSE: too many IDs" >&2; exit 1; fi
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "proceed=$proceed" >> "$GITHUB_OUTPUT"
+          echo "Recovery queue has $count article(s); proceed=$proceed"
 
       - name: Recover + state guard
         if: steps.scope.outputs.proceed == 'true'
