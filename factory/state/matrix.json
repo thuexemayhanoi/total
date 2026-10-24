@@ -29463,11 +29463,13 @@
    "title": "Đoàn xe máy lẫn xe số, xe ga, xe côn tay và xe điện: nhịp chạy, đổ xăng hay sạc và nghỉ khác nhau thì xếp đoàn ra sao",
    "primaryIntent": "informational/doan-xe-may-lan-xe-so-xe-ga-xe-con-tay-va-xe-dien-nhip-chay-do-xang-hay-sac-va-nghi-khac-nhau-thi-xep-doan-ra-sao",
    "notes": "source=topic-v2 topicId=T002195",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:09.605Z",
-   "updatedAt": "2026-10-24T06:55:09.606Z"
+   "updatedAt": "2026-10-24T07:05:16.380Z",
+   "seoScore": 100,
+   "words": 3135
   },
   {
    "id": "S02009",
