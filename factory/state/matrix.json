@@ -28991,6 +28991,71 @@
    "attempts": 0,
    "createdAt": "2026-10-24T04:25:51.043Z",
    "updatedAt": "2026-10-24T04:25:51.043Z"
+  },
+  {
+   "id": "S01978",
+   "hub": "guide/su-dung-xe",
+   "slug": "thang-nang-xe-may-o-nha-ong-va-thang-may-chung-cu-mini-dat-xe-vao-the-nao-tat-may-dung-chong-va-viec-khong-nen-lam",
+   "title": "Thang nâng xe máy ở nhà ống và thang máy chung cư mini: dắt xe vào thế nào, tắt máy, dựng chống và việc không nên làm",
+   "primaryIntent": "informational/thang-nang-xe-may-o-nha-ong-va-thang-may-chung-cu-mini-dat-xe-vao-the-nao-tat-may-dung-chong-va-viec-khong-nen-lam",
+   "notes": "source=topic-v2 topicId=T002162",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:30:34.418Z",
+   "updatedAt": "2026-10-24T04:30:34.418Z"
+  },
+  {
+   "id": "S01979",
+   "hub": "docs/huong-dan-su-dung",
+   "slug": "den-nhac-bao-duong-hay-bieu-tuong-co-le-tren-dong-ho-xe-may-vi-sao-sang-da-thay-nhot-ma-van-sang-va-ai-dat-lai",
+   "title": "Đèn nhắc bảo dưỡng hay biểu tượng cờ lê trên đồng hồ xe máy: vì sao sáng, đã thay nhớt mà vẫn sáng và ai đặt lại",
+   "primaryIntent": "troubleshooting/den-nhac-bao-duong-hay-bieu-tuong-co-le-tren-dong-ho-xe-may-vi-sao-sang-da-thay-nhot-ma-van-sang-va-ai-dat-lai",
+   "notes": "source=topic-v2 topicId=T002163",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:30:34.632Z",
+   "updatedAt": "2026-10-24T04:30:34.632Z"
+  },
+  {
+   "id": "S01980",
+   "hub": "ride/lai-xe-duong-dai",
+   "slug": "di-xe-may-tren-duong-gom-va-duong-song-hanh-canh-tuyen-cao-toc-loi-xe-lon-ra-vao-mat-duong-hep-va-cach-chon-cho-di",
+   "title": "Đi xe máy trên đường gom và đường song hành cạnh tuyến cao tốc: lối xe lớn ra vào, mặt đường hẹp và cách chọn chỗ đi",
+   "primaryIntent": "informational/di-xe-may-tren-duong-gom-va-duong-song-hanh-canh-tuyen-cao-toc-loi-xe-lon-ra-vao-mat-duong-hep-va-cach-chon-cho-di",
+   "notes": "source=topic-v2 topicId=T002164",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:30:34.713Z",
+   "updatedAt": "2026-10-24T04:30:34.713Z"
+  },
+  {
+   "id": "S01981",
+   "hub": "guide/su-dung-xe",
+   "slug": "nguoi-ngoi-sau-hoac-hang-cho-che-mat-guong-chieu-hau-xe-may-nhan-ra-som-chinh-lai-the-nao-va-nhin-bu-ra-sao",
+   "title": "Người ngồi sau hoặc hàng chở che mất gương chiếu hậu xe máy: nhận ra sớm, chỉnh lại thế nào và nhìn bù ra sao",
+   "primaryIntent": "troubleshooting/nguoi-ngoi-sau-hoac-hang-cho-che-mat-guong-chieu-hau-xe-may-nhan-ra-som-chinh-lai-the-nao-va-nhin-bu-ra-sao",
+   "notes": "source=topic-v2 topicId=T002165",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:30:34.785Z",
+   "updatedAt": "2026-10-24T04:30:34.785Z"
+  },
+  {
+   "id": "S01982",
+   "hub": "hub/loai-xe",
+   "slug": "xe-tay-ga-san-phang-va-xe-ga-co-go-giua-san-tu-the-chan-cho-de-do-buoc-len-xuong-va-luc-nao-moi-kieu-hop-hon",
+   "title": "Xe tay ga sàn phẳng và xe ga có gồ giữa sàn: tư thế chân, chỗ để đồ, bước lên xuống và lúc nào mỗi kiểu hợp hơn",
+   "primaryIntent": "informational/xe-tay-ga-san-phang-va-xe-ga-co-go-giua-san-tu-the-chan-cho-de-do-buoc-len-xuong-va-luc-nao-moi-kieu-hop-hon",
+   "notes": "source=topic-v2 topicId=T002167",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:30:58.359Z",
+   "updatedAt": "2026-10-24T04:30:58.359Z"
   }
  ]
 }
