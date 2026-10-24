@@ -31450,11 +31450,13 @@
    "title": "Qua đường ngang bằng xe máy: dừng ở đâu khi có chắn, chuông hoặc không có người gác, và xe hỏng thì làm gì?",
    "primaryIntent": "informational/qua-duong-ngang-bang-xe-may-dung-o-dau-khi-co-chan-hoac-chuong-khong-nguoi-gac-va-xe-hong-tren-duong-sat",
    "notes": "source=topic-v2 topicId=T002334",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:52:16.729Z",
-   "updatedAt": "2026-10-24T13:52:16.730Z"
+   "updatedAt": "2026-10-24T15:47:20.644Z",
+   "seoScore": 100,
+   "words": 3501
   },
   {
    "id": "S02142",
