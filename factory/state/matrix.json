@@ -29009,11 +29009,13 @@
    "title": "Thang nâng xe máy ở nhà ống và thang máy chung cư mini: dắt xe vào thế nào, tắt máy, dựng chống và việc không nên làm",
    "primaryIntent": "informational/thang-nang-xe-may-o-nha-ong-va-thang-may-chung-cu-mini-dat-xe-vao-the-nao-tat-may-dung-chong-va-viec-khong-nen-lam",
    "notes": "source=topic-v2 topicId=T002162",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:30:34.418Z",
-   "updatedAt": "2026-10-24T04:30:34.418Z"
+   "updatedAt": "2026-10-24T05:41:32.592Z",
+   "seoScore": 100,
+   "words": 3185
   },
   {
    "id": "S01979",
@@ -29022,11 +29024,13 @@
    "title": "Đèn nhắc bảo dưỡng hay biểu tượng cờ lê trên đồng hồ xe máy: vì sao sáng, đã thay nhớt mà vẫn sáng và ai đặt lại",
    "primaryIntent": "troubleshooting/den-nhac-bao-duong-hay-bieu-tuong-co-le-tren-dong-ho-xe-may-vi-sao-sang-da-thay-nhot-ma-van-sang-va-ai-dat-lai",
    "notes": "source=topic-v2 topicId=T002163",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:30:34.632Z",
-   "updatedAt": "2026-10-24T04:30:34.632Z"
+   "updatedAt": "2026-10-24T05:41:32.591Z",
+   "seoScore": 91,
+   "words": 3174
   },
   {
    "id": "S01980",
@@ -29048,11 +29052,13 @@
    "title": "Người ngồi sau hoặc hàng chở che mất gương chiếu hậu xe máy: nhận ra sớm, chỉnh lại thế nào và nhìn bù ra sao",
    "primaryIntent": "troubleshooting/nguoi-ngoi-sau-hoac-hang-cho-che-mat-guong-chieu-hau-xe-may-nhan-ra-som-chinh-lai-the-nao-va-nhin-bu-ra-sao",
    "notes": "source=topic-v2 topicId=T002165",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:30:34.785Z",
-   "updatedAt": "2026-10-24T04:30:34.785Z"
+   "updatedAt": "2026-10-24T05:41:32.592Z",
+   "seoScore": 100,
+   "words": 3181
   },
   {
    "id": "S01982",

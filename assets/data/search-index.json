@@ -20089,6 +20089,41 @@
  },
  {
   "kind": "article",
+  "url": "docs/huong-dan-su-dung/den-nhac-bao-duong-hay-bieu-tuong-co-le-tren-dong-ho-xe-may-vi-sao-sang-da-thay-nhot-ma-van-sang-va-ai-dat-lai/",
+  "title": "Đèn nhắc bảo dưỡng hay biểu tượng cờ lê trên đồng hồ xe máy: vì sao sáng, đã thay nhớt mà vẫn sáng và ai đặt lại",
+  "description": "Biểu tượng cờ lê trên đồng hồ xe máy là đèn nhắc theo lịch, không phải báo lỗi. Vì sao đèn sáng, đã thay nhớt vẫn sáng, phân biệt với đèn dầu và ai đặt lại.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [
+   "đèn nhắc bảo dưỡng",
+   "biểu tượng cờ lê",
+   "bộ đếm bảo dưỡng",
+   "đèn kiểm tra động cơ",
+   "đèn dầu",
+   "đặt lại đèn",
+   "sách hướng dẫn sử dụng",
+   "sổ bảo dưỡng"
+  ],
+  "keywords": [
+   "đèn nhắc bảo dưỡng xe máy",
+   "biểu tượng cờ lê trên đồng hồ xe máy",
+   "đã thay nhớt mà đèn vẫn sáng",
+   "cách đặt lại đèn bảo dưỡng xe máy",
+   "đèn nhắc bảo dưỡng khác đèn kiểm tra động cơ"
+  ],
+  "seoTitle": "Đèn nhắc bảo dưỡng xe máy: vì sao sáng, thay nhớt rồi vẫn sáng",
+  "primaryKeyword": "đèn nhắc bảo dưỡng xe máy",
+  "headings": [
+   "Đèn nhắc bảo dưỡng là tín hiệu lịch, không phải báo lỗi",
+   "Vì sao đèn nhắc bảo dưỡng sáng khi xe vẫn chạy bình thường",
+   "Đã thay nhớt ở tiệm mà đèn vẫn sáng: chuyện gì xảy ra",
+   "Phân biệt đèn nhắc bảo dưỡng với đèn kiểm tra động cơ và đèn dầu",
+   "Ai đặt lại đèn, hỏi thợ gì và thói quen ghi lịch bảo dưỡng"
+  ],
+  "summary": "Một sáng nào đó đồng hồ xe hiện biểu tượng cờ lê hay dòng chữ nhắc dịch vụ dù xe vẫn chạy êm, và nhiều người lo xe sắp hỏng. Thật ra đây là đèn nhắc bảo dưỡng, một tín hiệu theo lịch do xe tự đếm quãng đi hoặc thời gian, khác hẳn đèn dầu và đèn kiểm tra động c"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dien-xe/den-pha-halogen-va-led-tren-xe-may-khac-nhau-the-nao/",
   "title": "Đèn pha halogen và LED trên xe máy khác nhau thế nào: ánh sáng, nhiệt, điện và điều cần kiểm tra khi thay bóng",
   "description": "So sánh đèn pha halogen và LED xe máy: nguyên lý phát sáng, chùm sáng theo chóa đèn, nhiệt, điện tiêu thụ và những điều cần kiểm tra trước khi thay bóng.",
@@ -35607,6 +35642,41 @@
  },
  {
   "kind": "article",
+  "url": "guide/su-dung-xe/nguoi-ngoi-sau-hoac-hang-cho-che-mat-guong-chieu-hau-xe-may-nhan-ra-som-chinh-lai-the-nao-va-nhin-bu-ra-sao/",
+  "title": "Người ngồi sau hoặc hàng chở che mất gương chiếu hậu xe máy: nhận ra sớm, chỉnh lại thế nào và nhìn bù ra sao",
+  "description": "Chở người hay buộc hàng sau yên khiến hai gương xe máy chỉ còn thấy vai, áo mưa hoặc mép thùng. Cách nhận ra sớm, chỉnh gương, xếp hàng thấp, nhìn bù qua vai.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "người ngồi sau",
+   "gương chiếu hậu",
+   "hàng buộc sau yên",
+   "thùng sau",
+   "áo mưa",
+   "nhìn qua vai",
+   "điểm mù",
+   "chỉnh gương"
+  ],
+  "keywords": [
+   "người ngồi sau che gương",
+   "chỉnh gương xe máy khi chở người",
+   "hàng buộc sau yên che gương",
+   "thùng sau che gương xe máy",
+   "nhìn bù khi gương bị che"
+  ],
+  "seoTitle": "Người ngồi sau che gương xe máy: nhận ra, chỉnh lại, nhìn bù",
+  "primaryKeyword": "người ngồi sau che gương",
+  "headings": [
+   "Vì sao có người ngồi sau là gương chỉ còn thấy vai và áo",
+   "Nhận ra người ngồi sau che gương ngay trước khi lăn bánh",
+   "Chỉnh gương lại khi chở người: mở ra ngoài tới đâu là đủ",
+   "Hàng buộc sau yên và thùng sau che gương: xếp lại hay nhìn bù",
+   "Nhìn qua vai, dặn người ngồi sau và lúc nên dừng để chỉnh"
+  ],
+  "summary": "Đi một mình thì gương nhìn rất rõ, nhưng khi có người ngồi sau hoặc hàng buộc sau yên, hai gương nhiều khi chỉ còn thấy vai, áo mưa hay mép thùng mà người lái không hay biết. Bài giải thích vì sao gương chỉnh đúng cho một người lại thành vô dụng khi có người t"
+ },
+ {
+  "kind": "article",
   "url": "learn/ky-thuat-lai-xe/nguoi-ngoi-sau-luc-xe-dung-den-do-va-chay-lai-chan-de-dau-nguoi-nga-the-nao-dat-chan-xuong-dat-khi-nao/",
   "title": "Người ngồi sau lúc xe dừng đèn đỏ và chạy lại: chân để đâu, người ngả thế nào, đặt chân xuống đất khi nào",
   "description": "Người ngồi sau xe máy khi dừng đèn đỏ: để chân ở đâu, ngả người thế nào, khi nào đặt chân xuống đất, ngồi ra sao lúc xe chạy lại và hẹn trước với người lái.",
@@ -41299,6 +41369,40 @@
    "Mua phụ tùng hay đọc hóa đơn thì dựa vào gì ngoài cái tên"
   ],
   "summary": "Bài giải thích vì sao cùng một bộ phận xe máy có nhiều tên gọi, từ tên mượn của tiếng nước ngoài đến tên theo hình dáng hay công dụng, và vì sao các tên ấy cùng tồn tại trong lời nói hằng ngày. Nội dung nêu những cặp tên hay gặp như thắng và phanh, vỏ và lốp, "
+ },
+ {
+  "kind": "article",
+  "url": "guide/su-dung-xe/thang-nang-xe-may-o-nha-ong-va-thang-may-chung-cu-mini-dat-xe-vao-the-nao-tat-may-dung-chong-va-viec-khong-nen-lam/",
+  "title": "Thang nâng xe máy ở nhà ống và thang máy chung cư mini: dắt xe vào thế nào, tắt máy, dựng chống và việc không nên làm",
+  "description": "Cách đưa xe máy vào thang nâng hoặc thang máy chung cư mini: tắt máy, rút chìa, nhìn khe sàn, dựng chống, đứng đúng phía và việc không nên làm.",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "entities": [
+   "thang nâng xe máy",
+   "thang máy chung cư mini",
+   "nhà ống",
+   "khe sàn buồng thang",
+   "chân chống",
+   "tắt máy rút chìa",
+   "nội quy của tòa nhà"
+  ],
+  "keywords": [
+   "thang nâng xe máy",
+   "đưa xe máy lên thang máy chung cư mini",
+   "dắt xe máy vào thang nâng nhà ống",
+   "dựng chống xe máy trong thang",
+   "không nổ máy trong thang máy"
+  ],
+  "seoTitle": "Thang nâng xe máy nhà ống: tắt máy, dựng chống, đứng đâu an toàn",
+  "primaryKeyword": "thang nâng xe máy",
+  "headings": [
+   "Vì sao thang nâng xe máy khác hẳn một con dốc dắt xe",
+   "Trước khi vào thang: tắt máy, rút chìa và nhìn khe sàn buồng thang",
+   "Dắt xe vào, dựng chống và đứng ở đâu khi thang chạy",
+   "Ra khỏi thang ở tầng trên: lối hẹp, sàn trơn và chỗ để xe",
+   "Những việc không nên làm và lúc nên nhờ người hỗ trợ"
+  ],
+  "summary": "Nhà ống chật và chung cư mini ngày càng hay có thang nâng hoặc thang máy để đưa xe máy lên tầng trên. Buồng thang khác hẳn một con dốc dắt vì sàn hẹp, có khe giữa sàn buồng và sàn nhà, còn xe đứng trên mặt sàn đang chuyển động nên một cú rung nhỏ cũng đủ làm x"
  },
  {
   "kind": "article",
