@@ -28,6 +28,13 @@ ok(pack.items.every(x=>x.file==='factory/data/articles/'+x.slug+'.js'),'file pat
 ok(pack.items.every(x=>Array.isArray(x.relatedPublished) && x.relatedPublished.length>=2),'mỗi item phải có >=2 related gợi ý');
 ok(pack.items.every(x=>x.relatedPublished.every(r=>published.has(r.slug))),'mọi related gợi ý phải là PUBLISHED');
 ok(pack.items.every(x=>x.intent && x.title && x.hub && x.slug),'item phải đủ intent/title/hub/slug');
+// Quyết định biên tập từ topic-matrix phải lộ ra trong pack (fast-writer mode=off vẫn liệt kê slot legacy đã REJECT/MERGE):
+const allSlugs=new Set(matrix.slots.map(s=>s.slug));
+ok(Array.isArray(pack.mergedSlots),'pack.mergedSlots phải là mảng');
+ok(pack.mergedSlots.every(id=>{const it=pack.items.find(x=>x.id===id);return it && it.topicDecision && it.topicDecision.writeAdvice==='SKIP';}),'mergedSlots chỉ gồm item có topicDecision.writeAdvice=SKIP');
+ok(pack.items.every(x=>!x.topicDecision || x.topicDecision.writeAdvice!=='SKIP' || pack.mergedSlots.includes(x.id)),'mọi item SKIP đều nằm trong mergedSlots');
+ok(pack.items.every(x=>!x.topicDecision || !x.topicDecision.mergeInto || allSlugs.has(x.topicDecision.mergeInto)),'mergeInto phải trỏ tới slug có thật trong matrix');
+ok(pack.items.every(x=>!x.topicDecision || x.topicDecision.writeAdvice!=='SKIP' || x.topicDecision.lifecycle==='REJECTED' || x.topicDecision.mergeInto),'SKIP chỉ khi topic REJECTED hoặc có mergeInto');
 ok(pack.rules && pack.rules.minWords===1000 && pack.rules.maxWords===5000 && pack.rules.qaPassMin===70 && pack.rules.relatedPolicy.includes('PUBLISHED-only'),'Writer Pack phải đồng bộ 1000–5000 từ, QA 70 + PUBLISHED-only');
 
 

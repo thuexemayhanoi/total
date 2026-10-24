@@ -1862,6 +1862,16 @@ function main() {
       else if (m.slots.length < m.plannedTarget) status = 'refill';
       else status = 'done-general-target';
     }
+    // Quyết định biên tập đã ghi trong topic-matrix (REJECT/MERGE-CANDIDATE kèm mergeInto): slot vẫn PLANNED nên vẫn được
+    // liệt kê (fast-writer mode=off), nhưng writer phải thấy để KHÔNG viết bài hoán vị — AGENTS.md OWNER OVERRIDE 24/10/2026.
+    const decisionBySlot = new Map();
+    try { for (const r of topicMatrix.readRows().rows) if (r.slotId) decisionBySlot.set(r.slotId, r); } catch (_) { /* không có topic-matrix: bỏ qua */ }
+    const decisionFor = (id) => {
+      const r = decisionBySlot.get(id);
+      if (!r) return null;
+      return { topicId: r.topicId, lifecycle: r.lifecycle, disposition: r.disposition || null, mergeInto: r.mergeInto || null,
+        note: (r.editorial && r.editorial.note) || '', writeAdvice: (r.lifecycle === 'REJECTED' || r.mergeInto) ? 'SKIP' : 'WRITE' };
+    };
     const items = plan.details.map(d => {
       const s = m.slots.find(x => x.id === d.id);
       const parts = String(s.hub || '').split('/');
@@ -1873,10 +1883,12 @@ function main() {
         canonicalPath: '/' + s.hub + '/' + s.slug + '/',
         relatedPublished: publishedRelatedFor(m, s, 8, woPack.approved && woPack.approved.get(s.id) && woPack.approved.get(s.id).gate ? (woPack.approved.get(s.id).gate.nearestPublished || []).map(x => x.slug) : null),
         brief: woPack.approved && woPack.approved.get(s.id) ? topicCli.briefFor(woPack.approved.get(s.id)) : null,
+        topicDecision: decisionFor(s.id),
       };
     });
+    const mergedSlots = items.filter(x => x.topicDecision && x.topicDecision.writeAdvice === 'SKIP').map(x => x.id);
     const pack = {
-      schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id), unapprovedArticles,
+      schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id), unapprovedArticles, mergedSlots,
       rules: {
         minWords: runtime.ARTICLE_MIN_WORDS, maxWords: runtime.ARTICLE_MAX_WORDS, qaPassMin: runtime.QA_PASS_MIN,
         fileConvention: 'factory/data/articles/<slug>.js',
@@ -1896,12 +1908,14 @@ function main() {
     console.log('WRITER_PACK status=' + status + ' count=' + items.length +
       ' written_waiting=' + writtenWaiting + ' slots=' + m.slots.length + '/' + m.plannedTarget);
     if (items.length) console.log('BATCH_IDS=' + items.map(x => x.id).join(','));
+    if (mergedSlots.length) console.log('WARN_MERGED_SLOTS ids=' + mergedSlots.join(',') + ' (topic đã REJECT/MERGE-CANDIDATE trong topic-matrix — KHÔNG viết; xem TOPIC_DECISION từng ITEM)');
     if (unapprovedArticles.length) console.log('WARN_UNAPPROVED_ARTICLE ids=' + unapprovedArticles.join(',') + ' (có module bài nhưng topic chưa APPROVED — verify-batch sẽ từ chối; coordinator duyệt topic hoặc gỡ module)');
     console.log('RULES min_words=' + runtime.ARTICLE_MIN_WORDS + ' max_words=' + runtime.ARTICLE_MAX_WORDS + ' qa>=' + runtime.QA_PASS_MIN +
       ' related>=2 related_policy=PUBLISHED_ONLY filename=<slug>.js');
     for (const item of items) {
       console.log('ITEM ' + item.id + ' hub=' + item.hub + ' slug=' + item.slug);
       console.log('  TITLE ' + item.title);
+      if (item.topicDecision && item.topicDecision.writeAdvice === 'SKIP') console.log('  TOPIC_DECISION SKIP ' + item.topicDecision.lifecycle + (item.topicDecision.mergeInto ? ' → ' + item.topicDecision.mergeInto : '') + (item.topicDecision.note ? ' | ' + item.topicDecision.note.slice(0, 160) : ''));
       console.log('  INTENT ' + item.intent);
       console.log('  FILE ' + item.file);
       console.log('  RELATED_PUBLISHED ' + item.relatedPublished.map(x => x.slug).join(','));

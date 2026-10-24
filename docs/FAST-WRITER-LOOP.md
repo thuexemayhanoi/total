@@ -9,6 +9,10 @@
 - Batch tối đa 10 bài. QA `>=70`, kiểm tra critical, category, slug, canonical, >=2 liên kết tới bài PUBLISHED, 1.000–5.000 từ. Trước khi push luôn `verify-batch`. SEO điểm phụ trợ, không thay thế QA.
 - Một publisher duy nhất serializes transaction để không làm hỏng state; cron 17/47 phút hàng giờ xử lý lại backlog bài đã có file nếu push trigger bị lỡ. Không có bài -> no-op, không viết giả.
 
+## Đối soát 300 slot legacy (coordinator Claude, 24/10/2026)
+
+Đọc tiêu đề + H2 của bài đã xuất bản thay vì chỉ tin cổng từ vựng: **300/300 slot legacy đều trùng câu hỏi với bài đã có** (277 do gate: hoán vị khung/bối cảnh; 23 còn lại — 9 REWRITE ghép góc template + 14 NEEDS-RESEARCH về thuê xe điện/pin — coordinator ghi `topic-reject --merge-into` kèm bài đích: `kiem-tra-xe-thue`, `doc-hop-dong-thue-xe`, `thue-xe-may-…-tra-xe-nguoi-moi`, `…-dat-coc-nguoi-moi`, `thu-xe-dien-nhung-dieu-can-biet`, `thue-xe-dien`, `pham-vi-hoat-dong`, `pin-xe-dien`, `chi-phi-sac`). Slot vẫn PLANNED (không đổi state/URL — quyết định M1 của chủ repo), nên `writer-pack` vẫn liệt kê chúng; từ 24/10 pack kèm `topicDecision` cho từng item và `mergedSlots` ở cấp pack (text mode: `WARN_MERGED_SLOTS` + dòng `TOPIC_DECISION SKIP … → <bài đích>`). **Writer KHÔNG viết item có `topicDecision.writeAdvice = "SKIP"`**; muốn bổ sung ý thì sửa bài đích. Nguồn bài mới là topic nghiên cứu độc lập đi qua `topic-propose` → đọc láng giềng → `topic-approve` (AI coordinator tự làm theo gate, không chờ owner).
+
 ## Lệnh từ mỗi phiên Writer (chạy trong repo)
 
 ```bash

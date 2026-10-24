@@ -105,7 +105,11 @@ console.log('1. Workflow + CLI contract…');
     'factory-publish.yml: KHÔNG chia queue thành pair trong hot path');
   ok(!pub.includes('node factory/generate.js --check'),
     'factory-publish.yml: KHÔNG full byte-exact generate check trong hot path');
-  ok(pub.includes('Capture exact push scope') && pub.includes('Refresh fresh main') && pub.indexOf('Capture exact push scope') < pub.indexOf('Refresh fresh main'),
+  // Tên bước có thể đổi (24/10/2026: 'Capture exact article scope from a writer push' / 'Refresh fresh main before selecting backlog');
+  // bất biến là THỨ TỰ: lấy scope từ event push trước, rồi mới checkout fresh main.
+  const capAt = pub.search(/- name: Capture exact (push|article) scope/);
+  const refreshAt = pub.search(/- name: Refresh fresh main/);
+  ok(capAt >= 0 && refreshAt >= 0 && capAt < refreshAt,
     'factory-publish.yml: capture exact event scope trước, refresh fresh main sau');
   ok(!pub.includes('backlog --fail-if-claimable'),
     'factory-publish.yml: final gate không fail backlog mới do writer push song song');
