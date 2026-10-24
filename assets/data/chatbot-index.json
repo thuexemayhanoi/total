@@ -33387,6 +33387,37 @@
   ]
  },
  {
+  "url": "garage/dien-ac-quy/quen-tat-khoa-dien-hoac-bat-khoa-cho-lau-ma-khong-no-may-ac-quy-xe-may-hao-the-nao-no-lai-duoc-khong-va-cach-cuu/",
+  "title": "Quên tắt khóa điện hoặc bật khóa chờ lâu mà không nổ máy: ắc quy xe máy hao thế nào, nổ lại được không và cách cứu",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "summary": "Sáng ra thấy khóa điện vẫn bật, hoặc đã bật khóa đứng chờ rất lâu mà máy không nổ, nhiều người lo bình đã hết hẳn. Bài giải thích khi khóa bật mà máy không chạy thì ắc quy phải nuôi những gì, vì sao mức hao khác nhau giữa các xe và vì sao không thể đoán bình còn hay hết chỉ bằng thời gian. Bài cũng phân biệt hao nhẹ với cạn sâu qua dấu hiệu nhìn và nghe, nêu thứ tự thử nổ lại an toàn mà không đề dồn dập, và lúc nên nạp bằng bộ sạc phù hợp. Cuối bài là lý do để bình nằm cạn lâu làm ắc quy chai nhanh hơn và những thói quen tránh lặp lại, nhất là với xe nhiều người dùng chung.",
+  "quickAnswer": "Khi khóa điện bật mà máy không chạy, ắc quy phải nuôi đồng hồ, đèn báo, mạch điều khiển, bơm xăng chạy chốc lát ở xe phun xăng và cả phụ kiện cắm sau khóa, nên mức hao tùy xe, tùy tải và tùy bình cũ mới, không đoán được chỉ bằng thời gian. Hãy tắt khóa, rút phụ kiện, nghỉ một lúc, nhìn đèn đồng hồ và nghe còi; còn sáng thì thử đề ngắn một nhịp, không dồn dập. Không nổ thì đừng đạp hay đẩy lặp lại, đừng bắc dây tắt; hãy câu bình đúng cách nếu đủ điều kiện, hoặc nhờ thợ nạp bằng bộ sạc phù hợp. Nên nạp sớm, vì để bình nằm cạn lâu làm nó chai nhanh hơn.",
+  "keyPoints": [
+   "Khóa bật mà máy không chạy thì chỉ có ắc quy nuôi đồng hồ, đèn báo, mạch điều khiển, bơm xăng chốc lát và phụ kiện cắm sau khóa.",
+   "Mức hao tùy tải đèn và đồng hồ, số phụ kiện, bình cũ hay mới và thời tiết, nên không đoán được bình còn hay hết chỉ bằng thời gian.",
+   "Hao nhẹ thì đề chậm nhưng vẫn nổ; cạn sâu thì đề tạch hoặc im, đồng hồ tối, còi yếu; đồng hồ sáng chưa chắc bình đủ điện.",
+   "Thử nổ theo thứ tự: tắt khóa, nghỉ, nhìn đèn và nghe còi, đề ngắn không dồn dập; không đạp hay đẩy lặp lại, không bắc dây tắt."
+  ],
+  "entities": [
+   "khóa điện",
+   "ắc quy xe máy",
+   "củ đề",
+   "đồng hồ và đèn báo",
+   "bơm xăng xe phun xăng",
+   "khóa thông minh",
+   "phụ kiện cắm sau khóa",
+   "bộ sạc ắc quy"
+  ],
+  "keywords": [
+   "quên tắt khóa điện xe máy",
+   "bật khóa chờ lâu không nổ máy",
+   "ắc quy xe máy hao khi bật khóa",
+   "xe máy đề yếu sau khi quên tắt khóa",
+   "cách cứu ắc quy xe máy hết điện"
+  ]
+ },
+ {
   "url": "tips/meo-xu-ly-su-co/quen-thao-khoa-dia-roi-dat-hay-chay-xe-may-chuyen-gi-xay-ra-va-cach-phong/",
   "title": "Quên tháo khóa đĩa rồi dắt hoặc chạy xe máy: chuyện gì xảy ra với đĩa phanh, càng phanh và cách để không quên",
   "category": "Mẹo",

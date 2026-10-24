@@ -30001,11 +30001,13 @@
    "title": "Quên tắt khóa điện hoặc bật khóa chờ lâu mà không nổ máy: ắc quy xe máy hao thế nào, nổ lại được không và cách cứu",
    "primaryIntent": "troubleshooting/quen-tat-khoa-dien-hoac-bat-khoa-cho-lau-ma-khong-no-may-ac-quy-xe-may-hao-the-nao-no-lai-duoc-khong-va-cach-cuu",
    "notes": "source=topic-v2 topicId=T002233",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:36:01.763Z",
-   "updatedAt": "2026-10-24T08:36:01.763Z"
+   "updatedAt": "2026-10-24T08:41:38.853Z",
+   "seoScore": 100,
+   "words": 3107
   },
   {
    "id": "S02045",
