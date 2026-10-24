@@ -29613,11 +29613,13 @@
    "title": "Nhà có trẻ nhỏ và thú nuôi: để xe máy điện, pin và dây sạc ở đâu, khóa và tắt nguồn ra sao để không ai vặn ga hay nghịch",
    "primaryIntent": "informational/nha-co-tre-nho-va-thu-nuoi-de-xe-may-dien-pin-va-day-sac-o-dau-khoa-va-tat-nguon-ra-sao-de-khong-ai-van-ga-hay-nghich",
    "notes": "source=topic-v2 topicId=T002205",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:02:05.963Z",
-   "updatedAt": "2026-10-24T07:02:05.963Z"
+   "updatedAt": "2026-10-24T07:15:51.183Z",
+   "seoScore": 100,
+   "words": 3185
   },
   {
    "id": "S02019",
