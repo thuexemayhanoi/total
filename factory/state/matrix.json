@@ -30723,11 +30723,13 @@
    "title": "Vì sao xe máy không có số lùi: hộp số chỉ đi tiến, độ nặng của xe và cách lùi bằng chân thay cho số",
    "primaryIntent": "informational/vi-sao-xe-may-khong-co-so-lui-hop-so-chi-di-tien-do-nang-cua-xe-va-cach-lui-bang-chan-thay-cho-so",
    "notes": "source=topic-v2 topicId=T002282",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:57.718Z",
-   "updatedAt": "2026-10-24T11:09:57.718Z"
+   "updatedAt": "2026-10-24T13:19:16.524Z",
+   "seoScore": 100,
+   "words": 3627
   },
   {
    "id": "S02093",
@@ -30736,11 +30738,13 @@
    "title": "Tổng phanh xe máy là gì: bình dầu, pít-tông chính, phớt và vì sao tay phanh trôi dần hoặc rỉ dầu ở gốc cần",
    "primaryIntent": "informational/tong-phanh-xe-may-la-gi-binh-dau-pit-tong-chinh-phot-va-vi-sao-tay-phanh-troi-dan-hoac-ri-dau-o-goc-can",
    "notes": "source=topic-v2 topicId=T002283",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:57.913Z",
-   "updatedAt": "2026-10-24T11:09:57.913Z"
+   "updatedAt": "2026-10-24T13:19:16.524Z",
+   "seoScore": 100,
+   "words": 3588
   },
   {
    "id": "S02094",
@@ -30749,11 +30753,13 @@
    "title": "Phớt, gioăng, ron và đệm trên xe máy khác nhau thế nào: chỗ đứng yên, chỗ trục quay và vì sao rò đúng chỗ ấy",
    "primaryIntent": "informational/phot-gioang-ron-va-dem-tren-xe-may-khac-nhau-the-nao-cho-dung-yen-cho-truc-quay-va-vi-sao-ro-dung-cho-ay",
    "notes": "source=topic-v2 topicId=T002284",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:57.993Z",
-   "updatedAt": "2026-10-24T11:09:57.993Z"
+   "updatedAt": "2026-10-24T13:19:16.524Z",
+   "seoScore": 100,
+   "words": 3394
   },
   {
    "id": "S02095",
@@ -30762,11 +30768,13 @@
    "title": "Hòa khí đậm và hòa khí nghèo trên xe máy là gì: xăng nhiều hay gió nhiều, dấu hiệu nhận ra và điều gì làm lệch",
    "primaryIntent": "informational/hoa-khi-dam-va-hoa-khi-ngheo-tren-xe-may-la-gi-xang-nhieu-hay-gio-nhieu-dau-hieu-nhan-ra-va-dieu-gi-lam-lech",
    "notes": "source=topic-v2 topicId=T002285",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.083Z",
-   "updatedAt": "2026-10-24T11:09:58.083Z"
+   "updatedAt": "2026-10-24T13:19:16.524Z",
+   "seoScore": 100,
+   "words": 3691
   },
   {
    "id": "S02096",
@@ -30775,11 +30783,13 @@
    "title": "Nhức đầu khi đi xe máy: phân biệt do mũ, gió, nắng chói, thiếu nước hay gồng cổ và lúc nào phải dừng xe",
    "primaryIntent": "troubleshooting/nhuc-dau-khi-di-xe-may-phan-biet-do-mu-gio-nang-choi-thieu-nuoc-hay-gong-co-va-luc-nao-phai-dung-xe",
    "notes": "source=topic-v2 topicId=T002287",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.166Z",
-   "updatedAt": "2026-10-24T11:09:58.166Z"
+   "updatedAt": "2026-10-24T13:19:16.525Z",
+   "seoScore": 100,
+   "words": 3778
   },
   {
    "id": "S02097",
@@ -30788,11 +30798,13 @@
    "title": "Xe thuê có gắn thiết bị định vị: nhận ra ở đâu, hỏi nơi cho thuê điều gì và đi sao cho yên tâm",
    "primaryIntent": "informational/xe-thue-co-gan-thiet-bi-dinh-vi-nhan-ra-o-dau-hoi-noi-cho-thue-dieu-gi-va-di-sao-cho-yen-tam",
    "notes": "source=topic-v2 topicId=T002288",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.239Z",
-   "updatedAt": "2026-10-24T11:09:58.239Z"
+   "updatedAt": "2026-10-24T13:19:16.525Z",
+   "seoScore": 100,
+   "words": 3301
   },
   {
    "id": "S02098",
@@ -30801,11 +30813,13 @@
    "title": "Chặng cuối của chuyến xe máy nhiều ngày: vì sao cạn sức mà dễ chủ quan, cách xếp chặng nhẹ và lúc nên ở thêm một đêm",
    "primaryIntent": "informational/chang-cuoi-cua-chuyen-xe-may-nhieu-ngay-vi-sao-can-suc-ma-de-chu-quan-cach-xep-chang-nhe-va-luc-nen-o-them-mot-dem",
    "notes": "source=topic-v2 topicId=T002289",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.313Z",
-   "updatedAt": "2026-10-24T11:09:58.313Z"
+   "updatedAt": "2026-10-24T13:19:16.525Z",
+   "seoScore": 100,
+   "words": 3769
   },
   {
    "id": "S02099",
@@ -30814,11 +30828,13 @@
    "title": "Xem video và bài kể của người đi trước để chuẩn bị chuyến xe máy: vì sao đường trông dễ hơn thật và cách đọc cho đúng",
    "primaryIntent": "informational/xem-video-va-bai-ke-cua-nguoi-di-truoc-de-chuan-bi-chuyen-xe-may-vi-sao-duong-trong-de-hon-that-va-cach-doc-cho-dung",
    "notes": "source=topic-v2 topicId=T002290",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.518Z",
-   "updatedAt": "2026-10-24T11:09:58.518Z"
+   "updatedAt": "2026-10-24T13:19:16.525Z",
+   "seoScore": 100,
+   "words": 3619
   },
   {
    "id": "S02100",
@@ -30827,11 +30843,13 @@
    "title": "Soi cung đường trước chuyến xe máy bằng bản đồ vệ tinh và ảnh đường phố: nhìn gì, hạn chế ở đâu và ghi lại điều gì",
    "primaryIntent": "informational/soi-cung-duong-truoc-chuyen-xe-may-bang-ban-do-ve-tinh-va-anh-duong-pho-nhin-gi-han-che-o-dau-va-ghi-lai-dieu-gi",
    "notes": "source=topic-v2 topicId=T002291",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.588Z",
-   "updatedAt": "2026-10-24T11:09:58.588Z"
+   "updatedAt": "2026-10-24T13:19:16.525Z",
+   "seoScore": 100,
+   "words": 3563
   },
   {
    "id": "S02101",
@@ -30885,11 +30903,13 @@
    "title": "Xem xe côn tay cũ trước khi mua: tay côn và lá côn, hộp số, xích nhông và dấu hiệu xe từng bị chạy gắt",
    "primaryIntent": "informational/xem-xe-con-tay-cu-truoc-khi-mua-tay-con-va-la-con-hop-so-xich-nhong-va-dau-hieu-xe-tung-bi-chay-gat",
    "notes": "source=topic-v2 topicId=T002296",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.895Z",
-   "updatedAt": "2026-10-24T11:09:58.895Z"
+   "updatedAt": "2026-10-24T13:19:16.525Z",
+   "seoScore": 100,
+   "words": 3608
   },
   {
    "id": "S02105",
