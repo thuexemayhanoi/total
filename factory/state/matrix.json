@@ -30160,11 +30160,13 @@
    "title": "Áo khoác phồng gió, bay phần phật khi đi xe máy: vì sao kéo vai, che gương, quật vào tay và cách cài, gom áo cho gọn",
    "primaryIntent": "troubleshooting/ao-khoac-phong-gio-bay-phan-phat-khi-di-xe-may-vi-sao-keo-vai-che-guong-quat-vao-tay-va-cach-cai-gom-ao-cho-gon",
    "notes": "source=topic-v2 topicId=T002244",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:53:15.539Z",
-   "updatedAt": "2026-10-24T08:53:15.539Z"
+   "updatedAt": "2026-10-24T08:57:37.264Z",
+   "seoScore": 100,
+   "words": 3101
   },
   {
    "id": "S02056",
