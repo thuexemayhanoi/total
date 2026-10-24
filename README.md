@@ -20,14 +20,14 @@ Cổng kiến thức tổng hợp tiếng Việt về thuê xe, xe máy, xe đi�
 | `factory/state/` | Ma trận chủ đề, trạng thái factory, checkpoint |
 | Thư mục root | HTML sinh tự động cho tên miền riêng (phục vụ dưới `/`) |
 | `assets/` | CSS, JS, chỉ mục tìm kiếm và chatbot |
-| `docs/` | 16 tài liệu vận hành bằng tiếng Việt |
+| `docs/` | Tài liệu vận hành; đọc `docs/FAST-WRITER-LOOP.md` để xem quy trình hiện hành |
 | `AGENTS.md` | Quy tắc cho mọi agent trước khi sửa repo |
 
 ## Quy định bài viết và QA
 - Bài Writer: **1.000–5.000 từ**, không bắt buộc tất cả bài đạt một độ dài cố định.
 - **QA ≥ 70/100**, giữ nguyên 7 critical gates, ít nhất 4 H2 và 2 liên kết nội bộ thực sự tồn tại; SEO nhẹ chỉ cảnh báo.
 - Single source of truth: `factory/lib/factory-runtime.js` (`ARTICLE_MIN_WORDS`, `ARTICLE_MAX_WORDS`).
-- Hướng dẫn Writer: `docs/MISTRAL-WRITER.md`; kiểm tra QA: `docs/QA.md`; quy tắc: `AGENTS.md`.
+- Hướng dẫn Writer hiện hành: [`docs/FAST-WRITER-LOOP.md`](docs/FAST-WRITER-LOOP.md) (Claude/Mistral/ChatGPT); kiểm tra QA: `docs/QA.md`; quy tắc: `AGENTS.md`. Tên `MISTRAL-WRITER.md` là tài liệu tương thích.
 
 ## Lệnh chính
 ```bash
@@ -53,4 +53,4 @@ Expand chỉ tăng logical capacity — không preallocate slot, giữ nguyên m
 - Chi tiết đầy đủ trong `AGENTS.md` và `docs/`.
 
 ## Vận hành tự động
-Luồng publish chính: **pair mode** (WRITER 1 viết đúng 2 bài/lần, PAIR_SIZE = 2, push main → `factory-publish` xử lý EXACT push scope: `publish-pair` scoped QA minimal ≥ 70 → sinh site → verify-pair → atomic COMMIT txn; checkpoint + heartbeat sau mỗi pair, mô hình 3 vai trò WRITER 1 / ĐỐC CÔNG 2 / ĐỐC CÔNG 3 xem docs/PRODUCTION-ROLES.md). Các lệnh `cycle-plan/cycle-qa/cycle-publish` chỉ còn là legacy recovery thủ công — KHÔNG còn phân công 3 writer. CI `article-quality` phân mode bằng `change-mode` (CONTENT_ONLY → verify-sources scoped; ENGINE_CHANGE → heavy gate full suites); full-site audit chỉ ở `factory-deep-audit` MANUAL-ONLY (workflow_dispatch) — KHÔNG thuộc production loop. Content index: article-manifest.jsonl là source of truth, content-index.sqlite là derived cache (không commit, chỉ coordinator ghi/rebuild). Không cron AI writing, không AI/API trong Actions, không force push.
+**FAST WRITER (chủ repo duyệt ngày 24/10/2026):** Claude/Mistral/ChatGPT viết tiếng Việt → `writer-pack --count 10` (tùy chọn shard khác nhau cho 2–3 phiên) → nghiên cứu, tự bỏ ý tưởng trùng → `verify-batch` QA ≥70 → push tối đa 10 module bài/lần. `factory-publish.yml` tự xử lý push hoặc phục hồi backlog mỗi 30 phút, dùng `publish-batch` 1–10 ID, kiểm tra liên kết nội bộ 404 và lưu checkpoint; **không bắt buộc người dùng duyệt chủ đề từng bài** cho slot legacy hiện có. `topic-governance.json` hiện `mode=off`, `requireApproved=false`, nhưng `v1Generation=frozen` (không đẻ thêm tiêu đề hoán vị). Nguồn topic V2 mới vẫn dùng công cụ tạo slot chuẩn; chỉ bãi bỏ bước duyệt của 300 slot cũ, chưa có tính năng tự tạo/duyệt topic mới vô hạn. Coordinator mỗi 10 phút chỉ bảo trì, watchdog mỗi giờ chỉ theo dõi; cả hai KHÔNG tự viết. `article-quality.yml` giữ heavy engine gate cho thay đổi engine/workflow, không chạy test toàn site mỗi bài. Deep audit là manual. `publish-pair`/cycle chỉ là legacy recovery. GitHub Pages phục vụ tại `wiki.thuexemaynguyentu.com` (không WordPress). Không force push; không AI/API sinh nội dung trong Actions.
