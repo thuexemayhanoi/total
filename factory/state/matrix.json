@@ -30258,11 +30258,13 @@
    "title": "Tắt máy dắt xe vẫn nghe tiếng xè xè hay xào xào ở bánh: má phanh cà nhẹ, vòng bi hay láp và cách tự nghe",
    "primaryIntent": "troubleshooting/tat-may-dat-xe-van-nghe-tieng-xe-xe-hay-xao-xao-o-banh-ma-phanh-ca-nhe-vong-bi-hay-lap-va-cach-tu-nghe",
    "notes": "source=topic-v2 topicId=T002250",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T09:41:41.019Z",
-   "updatedAt": "2026-10-24T09:41:41.019Z"
+   "updatedAt": "2026-10-24T09:47:36.440Z",
+   "seoScore": 100,
+   "words": 3210
   },
   {
    "id": "S02062",
