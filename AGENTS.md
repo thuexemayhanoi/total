@@ -71,7 +71,11 @@ Writer chỉ đẩy module bài vào `factory/data/articles/` (có thể cập n
 ## Chuẩn bắt buộc khi sửa factory/workflow — 4 tầng kiểm thử
 Mọi thay đổi engine/workflow phải giữ và mở rộng bộ test theo chuẩn **Unit → Integration → Production invariant → Long-run / Failure recovery** (`docs/FACTORY-RELIABILITY.md`). Không xóa test cũ để lấy màu xanh. Thay đổi riêng docs phải nhất quán với workflow hiện hành; không cần chạy full-site gate mỗi lô bài.
 
-## Trước khi commit
+## Kiểm tra trước khi commit
+
+**Chỉ sửa nội dung:** dùng `node factory/factory.js writer-pack --count 10 --json`, `node factory/factory.js verify-batch "<ID1,ID2,...>"` cho tối đa 10 IDs; chỉ push khi PASS. Không chạy lại generate/full-site/audit và toàn bộ suite nặng cho từng lô bài. Publisher sẽ re-verify-scoped, generate, kiểm tra 404, cập nhật state/manifest. Nếu một bài fail QA, sửa nội dung; không giảm gate.
+
+**Sửa engine/workflow:** chạy full regression (lỗi đỏ phải sửa nguyên nhân), gồm:
 ```
 node factory/generate.js
 node factory/generate.js --check
@@ -85,6 +89,6 @@ node factory/test-coordinator.js
 node factory/test-topic-v2.js
 node factory/factory.js topic-check --recheck
 ```
-Tất cả lệnh kiểm thử phải xanh (bao gồm test-cycle.js là gate bắt buộc, không advisory); không sửa assert/threshold chỉ để tạo màu xanh.
+Đối với thay đổi engine/workflow, tất cả test bắt buộc phải xanh (bao gồm `test-cycle.js` và `test-topic-v2.js`); không sửa assert/threshold chỉ để tạo màu xanh. Nếu bộ test coverage Topic V2 còn trượt 4/6 (lỗi đã ghi nhận 23/10), sửa hàm phân loại hoặc bằng chứng chứ không xóa test; việc đồng bộ docs không tự xác nhận đã sửa lỗi engine.
 
 **PRODUCTION COORDINATOR TỰ ĐỘNG:** `factory-coordinator.yml` chạy maintenance mỗi khoảng 10 phút: recover-txn → check-state/topic-check → queue-refill (hiện frozen/no-op) → production-status → commit chỉ khi có diff. Publisher dùng cùng concurrency `total-production`, nhận push bài và có cron fallback mỗi 30 phút, chỉ publish những module bài thực sự tồn tại; full audit ở workflow manual. Writer có thể là Claude/Mistral/ChatGPT phiên ngoài (1 hoặc nhiều shard không trùng), Actions không tự viết bài hoặc đánh thức phiên AI; watchdog read-only không phải writer.
