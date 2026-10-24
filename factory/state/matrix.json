@@ -30911,11 +30911,13 @@
    "title": "Quên mang giấy tờ khi bị kiểm tra: lập biên bản, thời hạn hẹn và giấy tờ trong tài khoản định danh điện tử",
    "primaryIntent": "informational/quen-mang-giay-to-khi-bi-kiem-tra-lap-bien-ban-thoi-han-hen-va-giay-to-tren-tai-khoan-dinh-danh-dien-tu",
    "notes": "source=topic-v2 topicId=T002299",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:05:52.182Z",
-   "updatedAt": "2026-10-24T12:05:52.182Z"
+   "updatedAt": "2026-10-24T12:22:54.183Z",
+   "seoScore": 100,
+   "words": 3526
   },
   {
    "id": "S02107",
