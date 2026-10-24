@@ -31396,11 +31396,13 @@
    "title": "Từ chối kiểm tra hoặc chống đối người thi hành công vụ khi đi xe máy: phạt bao nhiêu và có bị tước bằng?",
    "primaryIntent": "informational/tu-choi-kiem-tra-hoac-chong-doi-nguoi-thi-hanh-cong-vu-khi-di-xe-may-phat-bao-nhieu-va-co-bi-tuoc-bang",
    "notes": "source=topic-v2 topicId=T002330",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:51:50.712Z",
-   "updatedAt": "2026-10-24T13:51:50.712Z"
+   "updatedAt": "2026-10-24T15:49:39.901Z",
+   "seoScore": 100,
+   "words": 3499
   },
   {
    "id": "S02138",
