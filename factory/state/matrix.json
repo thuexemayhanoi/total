@@ -31196,11 +31196,13 @@
    "title": "Xe máy đi làn nào theo Luật: xe chạy chậm đi bên nào, xe đạp điện đi làn nào, khi nào cấm vào làn riêng?",
    "primaryIntent": "informational/xe-may-di-lan-nao-theo-luat-xe-chay-cham-di-ben-nao-xe-dap-dien-di-lan-nao-va-khi-nao-khong-duoc-vao-lan-rieng",
    "notes": "source=topic-v2 topicId=T002318",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:06:22.390Z",
-   "updatedAt": "2026-10-24T13:06:22.390Z"
+   "updatedAt": "2026-10-24T13:16:43.082Z",
+   "seoScore": 100,
+   "words": 3376
   },
   {
    "id": "S02126",
