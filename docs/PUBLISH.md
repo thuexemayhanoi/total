@@ -1,76 +1,48 @@
-# Quy trình xuất bản — PRODUCTION COORDINATOR + CYCLE + PAIR
+# Quy trình xuất bản AI WIKI TOTAL — FAST WRITER (hiện hành từ 24/10/2026)
 
-## Production coordinator (factory-coordinator.yml — tự động)
-Workflow `factory-coordinator.yml` là **watchdog tick** chạy mỗi 10 phút
-(`cron: 7,17,27,37,47,57 * * * *` + `workflow_dispatch`; concurrency group
-`total-production`, `cancel-in-progress: false` — dùng CHUNG group với
-`factory-publish.yml` nên coordinator và publisher KHÔNG BAO GIỜ chạy đè nhau).
-Mỗi run BOUNDED — đúng một lượt tick rồi thoát, KHÔNG while-true:
+> **Nguồn chuẩn:** [AGENTS.md](../AGENTS.md), [FAST-WRITER-LOOP.md](FAST-WRITER-LOOP.md), `.github/workflows/factory-publish.yml` và `factory/factory.js`. Các mô hình pair-2/cycle 12–18 là **đường legacy/manual recovery**, không còn là publisher mặc định. Site đích là GitHub Pages `https://wiki.thuexemaynguyentu.com/`, không phải WordPress.
 
-```
-recover-txn → resume + check-state → queue-refill (idempotent) → cycle-plan
-→ không workload: exit 0 → cycle-qa scoped → cycle-publish chỉ slot PASS
-(FAIL đã ở repair queue, build/deploy đúng 1 lần) → manifest-sync →
-check-state + verify-invariant + backlog → commit derived state (retry ≤ 3)
-```
+## 1. Writer bên ngoài, không phải Actions sinh văn bản
 
-- Crash giữa tick: run sau `recover-txn` + resume (slot PASS có bài được
-  cycle-plan xếp RESUME ưu tiên) — không mất backlog, không publish trùng.
-- Push bằng GITHUB_TOKEN KHÔNG trigger workflow kế tiếp — schedule là cơ chế
-  đánh thức chính, KHÔNG đệ quy.
-- Writer là **external** (session Mistral ngoài): Actions KHÔNG tự viết prose,
-  KHÔNG tạo fake article. WRITER 1 chạy `writer-next` lấy pair 2 ID, viết
-  module bài vào `factory/data/articles/` rồi push main cùng
-  `writer-heartbeat` → `factory-publish.yml` publish exact push scope.
-  KHÔNG có kết nối Actions↔Mistral: watchdog `factory-liveness.yml` chỉ phát
-  hiện đứng (Actions đỏ), resume do phiên writer/đốc công kế tiếp đọc
-  checkpoint + heartbeat + matrix thật mà tiếp tục.
+Claude/Mistral/ChatGPT phiên đang chạy:
 
-## Production loop (pair 2 bài, 3 vai trò — docs/PRODUCTION-ROLES.md)
-```
-queue-refill tự động (planned < 100 → refill từ topic-pool, chỉ coordinator)
-→ WRITER 1: writer-next (pair 2 ID) → viết 2 bài → verify-sources → push
-→ factory-publish.yml: publish-pair atomic (scoped QA ≥ 70, ĐÚNG 1 LẦN)
-→ mark PUBLISHED + checkpoint + heartbeat → pair kế
-→ ĐỐC CÔNG 2: production-status/liveness → sửa lỗi → error-log (escalated tại 3)
-→ ĐỐC CÔNG 3: xử lý escalated → error-resolve → bàn giao lại
-```
-- **Coordinator là thành phần duy nhất** được claim ID, đổi state, merge, publish, deploy.
-- **Writer tuyệt đối không sửa** global state/matrix/txn/publish — chỉ nộp module bài vào `factory/data/articles/`.
-- Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` — không phải lỗi.
-- Lỗi nhỏ tự repair/retry; chỉ dừng khi lỗi lớn không recover, hết topic hợp lệ, hết quota/runtime, hoặc owner ra lệnh dừng.
+1. `git fetch origin main && git rebase origin/main`.
+2. `node factory/factory.js writer-pack --count 10 --json`. Có thể dùng `--shard 1/3`, `2/3`, `3/3` cho phiên độc lập, nhưng shard **không phải khóa** và slot đang dở có thể trùng giữa pack. Rà lại ID/slug trước khi viết.
+3. Với 300 slot `PLANNED` legacy hiện có: `mode=off`, `requireApproved=false`, nên **không cần topic-approve hoặc người duyệt từng bài**. Tuy nhiên nhiều chủ đề V1 là hoán vị/trùng intent; writer phải đọc bài PUBLISHED gần nhất và chỉ viết bài có thông tin mới thật.
+4. Viết tối đa 10 module mới trong `factory/data/articles/<slug>.js`, đúng slot/hub/canonical, 1.000–5.000 từ, ≥4 H2, ≥2 links PUBLISHED, không bịa dữ kiện. `verify-batch "Sxxxxx,Syyyyy"` phải PASS; QA >=70 và 7 critical gates được giữ.
+5. Chỉ `git add` file mình làm, commit và push. Nếu một writer, có thể dùng `writer-heartbeat`; nếu W1/W2/W3 đồng thời, **không cùng chỉnh/push heartbeat chung**. Không force push, không sửa ma trận/transaction/HTML sinh bằng tay.
+6. Còn phiên và quota thì fetch/rebase rồi lấy batch kế, không phải chờ full-site audit. GitHub Actions không gọi AI viết hay đánh thức phiên kết thúc.
 
-### Lệnh cycle (`node factory/factory.js`)
-- `queue-refill [--role coordinator]` — planned < 100 (QUEUE_REFILL_FLOOR) → refill lên ~300 (QUEUE_REFILL_TARGET) slot PLANNED từ `factory/data/topic-pool.js` (intent mặc định `informational/<slug>`; chỉ coordinator).
-- `cycle-plan` — kế hoạch cycle hiện tại (read-only): 12–18 slot PLANNED theo ID tăng dần, `writers=3`, hint refill khi planned < 100.
-- `cycle-qa <ID,ID,...>` (1–18 ID) — scoped minimal QA chỉ bài mới của cycle; PASS → state PASS, FAIL → REPAIR queue; skip bài đã PUBLISHED.
-- `cycle-publish <ID,ID,...> [--owner coordinator]` — chỉ publish slot PASS, defer slot REPAIR (không giữ cycle); txn atomic + `generate` **đúng 1 lần** cho cả cycle → verify → lật PUBLISHED → COMMIT.
+## 2. Publisher duy nhất — `.github/workflows/factory-publish.yml`
 
-## Xuất bản pair (hot path commit-based, SIMPLE PRODUCTION MODE)
-1. Writer viết ĐÚNG 2 bài (PAIR_SIZE = 2): module trong `factory/data/articles/` + slot trong ma trận, `verify-sources <ID,ID>` đạt (QA minimal ≥ 70 chặn; SEO/intent chỉ advisory) rồi push lên `main`.
-2. Workflow `factory-publish.yml` tự chạy: recover txn nếu sót → `push-scope` (EXACT IDs của commit) → `check-state` guard → `publish-pair <ids>`: lock → scoped QA minimal → FAIL vào repair queue (bài PASS của pair vẫn publish) → generate → verify-pair → lật đúng rows → COMMIT txn → commit derived state.
-3. Cổng cuối: `check-state` + `backlog --fail-if-claimable` + `generate --check`.
+Trigger:
+- **push vào `main`** có module bài `factory/data/articles/**` thay đổi: lấy **exact push scope** (tối đa 10 ID/push).
+- **schedule `17,47 * * * *`** hoặc `workflow_dispatch`: trên latest main, lấy tối đa 10 ID **đã có module bài nhưng chưa publish** qua `plan-chunk --limit 10`, phục hồi push bị bỏ lỡ. Không có module chờ → xanh/no-op; không tự viết.
+- `github-actions[bot]` push không được dùng để kích vòng lặp tự gọi Actions; lịch fallback giúp thu hồi backlog. Lịch cron có thể trễ theo GitHub.
 
-## CI theo change-mode (article-quality.yml)
-- `change-mode` → **CONTENT_ONLY**: chỉ `verify-sources` scoped các bài của commit (QA minimal chặn; SEO advisory).
-- **ENGINE_CHANGE** (engine/test/workflow đổi): heavy gate — full test suites (gồm `test-cycle.js` + `test-coordinator.js`) + `verify-invariant` + `generate --check`.
-- **Full-site audit KHÔNG thuộc production loop**: `factory-deep-audit.yml` chỉ chạy khi owner bấm Run workflow (workflow_dispatch) — manifest-sync + index-rebuild/index-check + `audit --min-score 70` + full suites.
-- Bài draft (REPAIR/WAITING_FOR_WRITER/PLANNED) KHÔNG render trang, KHÔNG vào sitemap/search/chatbot — `generate.js` chỉ render slot PUBLISHED (+ scope publish hiện tại).
+Một transaction: fresh main → `recover-txn` → `check-state` → `verify-batch` (scoped) → `publish-batch` (1–10 ID) → kiểm internal link 404 → `index-refresh` / `index-check` → commit/push một lần. Một article có QA không đạt thì repair; không báo xuất bản thành công khi chưa có commit + HTML + sitemap hợp lệ.
 
-## Trình tự thủ công (dự phòng)
-1. Viết bài (module trong `factory/data/articles/`).
-2. `node factory/factory.js qa-preview <slot-id>` — QA thử + SEO thử (advisory), read-only.
-3. `node factory/factory.js verify-sources <ID,ID>` — rà source đúng pair.
-4. `node factory/factory.js cycle-publish <IDs>` (cycle) hoặc `publish-pair <ID,ID>` (pair).
-5. `node factory/generate.js --check` — xác nhận không patch tay HTML.
-6. `node factory/factory.js verify-invariant` + `backlog --fail-if-claimable`.
-7. Full gate (`test.js` + `test-hardening.js` + `test-reliability.js` + `test-pair.js` + `test-cycle.js` + `test-coordinator.js`) chỉ bắt buộc khi đổi engine/workflow.
-8. Commit và push lên `main` — KHÔNG force push.
+**Chỉ một publisher** được ghi `matrix.json`, checkpoint, manifest, HTML/site; concurrency group `total-production` dùng chung coordinator, không cancel-in-progress. Không cần writer cầm lock thủ công nhưng **không được bỏ lock giao dịch nội bộ**.
 
-## Quy tắc
-- Draft không được deploy: chỉ publish bài PASS minimal gate (≥ 70, không critical).
-- Bài ≥ 70 không sửa chỉ để tăng điểm; SEO/intent chỉ advisory.
-- Một writer tại một thời điểm (writer lock ownership-safe).
-- Publish theo explicit IDs (pair ≤ 2, cycle ≤ 18 mỗi txn) — không bao giờ sweep mọi slot PASS.
-- WAITING_FOR_WRITER không bao giờ vào publish plan.
-- Sau push, xác minh các trang live trả HTTP 200.
+## 3. Coordinator và watchdog
+
+`factory-coordinator.yml` có lịch khoảng 10 phút: fetch main → recover/check-state/topic-check → `queue-refill` → production-status → commit nếu có diff. Hiện `v1Generation=frozen` nên **queue-refill là no-op**, không tự sinh topic và không publish bài.
+
+`factory-liveness.yml` chạy read-only theo giờ; có thể phát hiện writer đứng hoặc lỗi escalated nhưng không tự khởi chạy Claude/Mistral.
+
+`article-quality.yml` chạy heavy engine gate trên thay đổi engine/workflow/test, **không phải bước QA bắt buộc sau mỗi bài content**. `factory-deep-audit.yml` là manual-only cho kiểm tra toàn site; không cản batch hằng ngày.
+
+## 4. Nguồn topic và giới hạn FAST MODE
+
+- Tắt **duyệt bắt buộc** cho slot PLANNED legacy: `factory/topic-governance.json` hiện `mode=off`, `requireApproved=false`.
+- Giữ `v1Generation=frozen`: tránh auto refill những tiêu đề khác vỏ cùng intent; 300 slot cũ **không đồng nghĩa 300 bài nên publish**.
+- **Topic mới ngoài các slot hiện có:** engine vẫn yêu cầu coordinator đi qua `topic-propose` / `topic-approve` để tạo slot (có thể AI coordinator thực hiện thay người dùng, nhưng phải có bằng chứng và so trùng). Chưa có workflow "AI tự nghĩ topic mới vô hạn". Không đổi `matrix.json` bằng tay.
+
+## 5. Khi lỗi và manual recovery
+
+- QA/404 lỗi: xem job publisher, sửa đúng module ID lỗi, chạy lại `verify-batch`, push. Không giảm QA hoặc tắt link gate.
+- Publisher push bị lỡ: cron 30 phút hoặc workflow dispatch sẽ **thử lại các article-backed IDs**; có thể vẫn cần xử lý lỗi code/content.
+- Dữ liệu `PUBLISHED`/checkpoint/transaction lệch: dùng `recover-txn`, `check-state`, `resume`; không force push/reset ID hoặc unlock force khi chưa xác minh an toàn.
+- `publish-pair`, `verify-pair`, `cycle-plan/cycle-qa/cycle-publish` chỉ cho recovery/fixture compatibility, không phải quy trình batch 10.
+
+Sau commit phải xác minh `PUBLISHED`, HTML sinh, sitemap và GitHub Pages deploy. Workflow xanh/no-op không có nghĩa có bài mới nếu writer chưa nộp module.
