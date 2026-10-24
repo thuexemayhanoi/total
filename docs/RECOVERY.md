@@ -17,14 +17,14 @@ Mọi thứ sinh từ dữ liệu: HTML hỏng → chạy lại `node factory/ge
 Atomic write và checkpoint đảm bảo không có file dở; mọi thao tác state phải qua factory.js, không sửa JSON tay khi đang chạy.
 
 ## Session/mạng đứt — repository là checkpoint
-Toàn bộ state (matrix, factory-state, checkpoint) nằm trên nhánh `main`. Pipeline publish đứt giữa chừng thì KHÔNG mất gì: lần chạy kế tiếp (push bài sau, hoặc re-run workflow) tự chạy theo luồng **READ STATE → RECOVER/RESUME → ACQUIRE LOCK → VERIFY → drain tiếp** (slot dở được resume trước, chunk ≤ 10 ID). Không restart factory, không reset ma trận, không quay về bài đầu.
+State (matrix, factory-state, checkpoint) nằm trên `main`. Publisher hiện có **push trigger + schedule phục hồi 30 phút** (`17,47 * * * *`) + dispatch; trên schedule/no-scope, nó fetch main và tìm tối đa 10 ID có module bài nhưng chưa PUBLISHED qua `plan-chunk --limit 10`. Luồng: READ FRESH STATE → recover/check-state → scoped verify-batch → publish-batch → link 404 + index-refresh → commit/push. Mất push trigger không có nghĩa bài bị xóa; run sau thử lại nhưng lỗi content/transaction vẫn phải xử lý. Không reset matrix hoặc ID.
 
-## Continuous drain đứt giữa chừng (workflow chết sau chunk N)
-- Mỗi chunk là một transaction riêng đã commit; chunk N xong rồi run chết thì chunk 1..N vẫn nguyên vẹn trên main — KHÔNG rollback, KHÔNG làm lại.
-- Drain dùng explicit IDs + publish idempotent theo ID: rerun sẽ bỏ qua slot đã PUBLISHED, chỉ xử lý phần còn lại — không duplicate, không renumber, không mất slot.
-- Push/rebase thất bại sau khi commit chunk: repo trên GitHub là checkpoint của chunk trước — rerun drain sẽ resume đúng điểm (QA transitions đã lưu theo từng slot nên không phải chấm lại từ đầu).
-- NO_PROGRESS (backlog > 0 mà một vòng không tiến): workflow FAIL LOUD — xem dòng `DRAIN FAIL: NO_PROGRESS` + các dòng QA ngay trên đó; thường là bài REPAIR chưa sửa xong. Sửa bài rồi chạy lại — slot REPAIR sẽ được resume.
-- Sai owner lock / lock của writer khác: workflow REFUSE và KHÔNG đụng lock đó (cleanup chỉ thả lock khi token file của chính run tồn tại). Chờ writer kia xong, hoặc xử lý theo mục "Writer lock kẹt" ở trên.
+## Bounded recovery / transaction fail
+- Mỗi publisher run hiện xử lý tối đa 10 article-backed IDs, **không phải while-true drain toàn queue trong cùng run**. Nhiều batch có thể cần nhiều lượt cron; đừng suy SUCCESS + backlog còn lại là lỗi khi run đã xử lý xong scope của mình.
+- Chỉ nhận ID có module thật; batch QA/404 fail phải sửa đúng nội dung, không bypass QA để có màu xanh.
+- Khi push/rebase fail, kiểm tra latest main, transaction/lock trước khi retry; không force push, không ghi đè published commit.
+- Nếu publisher không có ID thì no-op là bình thường, không chứng minh AI writer đang hoạt động. Nếu writer bị hết phiên thì phải mở phiên AI mới; GitHub Actions không thể tự gọi Claude/Mistral.
+- Lock là khóa giao dịch của publisher, không đòi writer AI chạy `lock`. Sai owner/token phải REFUSE; dùng `unlock --force` chỉ khi xác minh lock stale theo hướng dẫn trên.
 
 ## Mở rộng capacity (expand-capacity) đứt giữa chừng
 `expand-capacity` là migration có giao dịch: lock → snapshot (hash ma trận ghi vào factory-state.lastAction) → migrate (chỉ đổi con số capacity) → verify (generate --check, test, audit) → commit → unlock.
