@@ -31409,11 +31409,13 @@
    "title": "Chở hàng bằng xe máy: buộc không chắc, che đèn biển số, quá khổ hoặc thiếu báo hiệu bị phạt bao nhiêu?",
    "primaryIntent": "informational/cho-hang-bang-xe-may-buoc-khong-chac-che-den-bien-so-qua-kho-hoac-thieu-bao-hieu-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002331",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:51:57.755Z",
-   "updatedAt": "2026-10-24T13:51:57.755Z"
+   "updatedAt": "2026-10-24T15:47:51.543Z",
+   "seoScore": 100,
+   "words": 3361
   },
   {
    "id": "S02139",
