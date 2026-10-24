@@ -30691,11 +30691,13 @@
    "title": "Mất, hỏng hoặc sai thông tin bằng lái xe máy: cấp lại hay đổi, hồ sơ gồm gì và bao lâu có kết quả?",
    "primaryIntent": "informational/mat-hong-hoac-sai-thong-tin-bang-lai-xe-may-cap-lai-hay-doi-ho-so-va-thoi-han",
    "notes": "source=topic-v2 topicId=T002280",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:21.206Z",
-   "updatedAt": "2026-10-24T11:04:21.206Z"
+   "updatedAt": "2026-10-24T11:35:32.254Z",
+   "seoScore": 100,
+   "words": 3512
   },
   {
    "id": "S02091",
