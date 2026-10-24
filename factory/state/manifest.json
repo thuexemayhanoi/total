@@ -1744,6 +1744,14 @@
   "kind": "article"
  },
  {
+  "rel": "guide/thu-tuc-xe/bi-giu-giay-phep-lai-xe-giay-to-xe-hoac-phuong-tien-cho-nop-phat-giu-toi-da-bao-lau-khi-nao-nhan-lai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/bi-lap-bien-ban-giao-thong-khi-nao-co-quyen-giai-trinh-gui-trong-may-ngay-va-giai-trinh-truc-tiep-ra-sao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/bi-nguoi-di-duong-vay-hoi-duong-khi-dang-di-xe-may-dung-o-dau-chi-duong-de-hieu-va-khi-nao-nen-kheo-tu-choi/index.html",
   "kind": "article"
  },
@@ -2409,6 +2417,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/chua-biet-di-xe-dap-co-tap-duoc-xe-may-khong-tap-giu-thang-bang-truoc-va-luc-nao-moi-van-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/chua-du-tien-nop-phat-giao-thong-hoan-nop-nhieu-lan-giam-hay-mien-tien-phat-can-dieu-kien-gi/index.html",
   "kind": "article"
  },
  {
@@ -3624,6 +3636,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/gay-tai-nan-giao-thong-khi-nao-bi-coi-la-toi-pham-nguong-hau-qua-va-khung-phat-tu-cua-dieu-260-bo-luat-hinh-su/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/ghe-ngoi-gan-xe-may-va-dai-deo-cho-tre-nho-kiem-tra-gi-truoc-khi-dung/index.html",
   "kind": "article"
  },
@@ -4313,6 +4329,10 @@
  },
  {
   "rel": "ride/lai-xe-trong-thanh-pho/lan-re-phai-rieng-co-dao-dan-huong-o-nga-tu-khi-di-xe-may-vao-lan-nhuong-nguoi-di-bo-va-nhap-dong-xe-ngang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/lap-bien-ban-giao-thong-xong-bao-lau-thi-co-quyet-dinh-xu-phat-va-thoi-hieu-xu-phat-la-bao-lau/index.html",
   "kind": "article"
  },
  {
@@ -5036,6 +5056,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/thu-tuc-xe/nhan-quyet-dinh-xu-phat-giao-thong-han-10-ngay-tinh-tu-khi-nao-nop-phat-o-dau-bang-cach-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-mua-xe/nhan-xe-cu-hoac-xe-nguoi-nha-da-gan-san-nhieu-phu-kien-soi-day-dien-la-mon-nao-giu-mon-nao-nen-thao/index.html",
   "kind": "article"
  },
@@ -5129,6 +5153,10 @@
  },
  {
   "rel": "learn/kien-thuc-phap-ly/nong-do-con-khi-lai-xe-may-ba-muc-phat-tru-diem-va-tuoc-giay-phep-lai-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/nop-phat-giao-thong-cham-bi-tinh-them-bao-nhieu-moi-ngay-va-khi-nao-bi-cuong-che-thi-hanh/index.html",
   "kind": "article"
  },
  {
@@ -5785,6 +5813,10 @@
  },
  {
   "rel": "garage/lop/thay-lop-xe-may-can-kiem-tra-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/thay-nguoi-bi-nan-tren-duong-ma-khong-cuu-giup-khi-nao-dieu-132-bo-luat-hinh-su-coi-la-pham-toi/index.html",
   "kind": "article"
  },
  {
@@ -6852,6 +6884,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/tinh-tiet-giam-nhe-tang-nang-va-tai-pham-anh-huong-the-nao-den-muc-phat-giao-thong-trong-khung-phat/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/su-dung-xe/toc-dai-duoi-mu-bao-hiem-buoc-toc-the-nao-cho-mu-vua-va-giam-bet-rot-toc/index.html",
   "kind": "article"
  },
@@ -6901,6 +6937,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/tre-cam-bong-bay-den-long-hay-do-choi-khi-ngoi-xe-may-day-cuon-banh-che-tam-nhin-va-cach-mang-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/tre-duoi-18-tuoi-bi-xu-phat-giao-thong-duoi-14-tu-14-den-duoi-16-va-tu-16-den-duoi-18-khac-nhau-the-nao/index.html",
   "kind": "article"
  },
  {
