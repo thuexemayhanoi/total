@@ -30405,11 +30405,13 @@
    "title": "Xe máy có phải đăng kiểm không? Luật nói gì về kiểm định khí thải và niên hạn của xe mô tô, xe gắn máy",
    "primaryIntent": "informational/xe-may-co-phai-dang-kiem-khong-kiem-dinh-khi-thai",
    "notes": "source=topic-v2 topicId=T002262",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:20.708Z",
-   "updatedAt": "2026-10-24T10:50:20.708Z"
+   "updatedAt": "2026-10-24T10:54:35.866Z",
+   "seoScore": 100,
+   "words": 2965
   },
   {
    "id": "S02073",
