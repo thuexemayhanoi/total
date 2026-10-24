@@ -13,6 +13,15 @@
 
 Đọc tiêu đề + H2 của bài đã xuất bản thay vì chỉ tin cổng từ vựng: **300/300 slot legacy đều trùng câu hỏi với bài đã có** (277 do gate: hoán vị khung/bối cảnh; 23 còn lại — 9 REWRITE ghép góc template + 14 NEEDS-RESEARCH về thuê xe điện/pin — coordinator ghi `topic-reject --merge-into` kèm bài đích: `kiem-tra-xe-thue`, `doc-hop-dong-thue-xe`, `thue-xe-may-…-tra-xe-nguoi-moi`, `…-dat-coc-nguoi-moi`, `thu-xe-dien-nhung-dieu-can-biet`, `thue-xe-dien`, `pham-vi-hoat-dong`, `pin-xe-dien`, `chi-phi-sac`). Slot vẫn PLANNED (không đổi state/URL — quyết định M1 của chủ repo), nên `writer-pack` vẫn liệt kê chúng; từ 24/10 pack kèm `topicDecision` cho từng item và `mergedSlots` ở cấp pack (text mode: `WARN_MERGED_SLOTS` + dòng `TOPIC_DECISION SKIP … → <bài đích>`). **Writer KHÔNG viết item có `topicDecision.writeAdvice = "SKIP"`**; muốn bổ sung ý thì sửa bài đích. Nguồn bài mới là topic nghiên cứu độc lập đi qua `topic-propose` → đọc láng giềng → `topic-approve` (AI coordinator tự làm theo gate, không chờ owner).
 
+### Slot đã đóng bởi quyết định biên tập (EDITORIAL_CLOSED) — từ 24/10/2026
+
+Topic trong `factory/state/topic-matrix.jsonl` bị **REJECTED** hoặc có **`mergeInto`** (gộp vào bài đã có) **đóng slot của nó ở mọi chế độ governance, kể cả `mode=off`**:
+
+- `writer-pack` KHÔNG đưa slot đó vào batch; pack có `editorialClosed` (số slot đóng) và, khi không còn slot mở nào, `status=need-topics` + `nextAction=COORDINATOR_TOPIC_PROPOSE_THEN_APPROVE` (ý nghĩa: hết slot, cần topic mới qua `topic-propose` → `topic-approve`; writer không tự viết đệm).
+- `verify-batch` (và vì thế publisher) từ chối slot đóng với lý do và bài đích — gỡ module bài trùng; muốn mở lại phải `topic-reopen` (gate vẫn phải ACCEPT).
+- `status` / `backlog` / `production-status` đếm riêng `EDITORIAL_CLOSED=N`, **không** tính vào `WAITING_FOR_WRITER` nên production về `idle` thay vì báo "chờ writer" vĩnh viễn.
+- Ledger thiếu/hỏng: không slot nào bị đóng (fail-open cho writer; QA 7 gate vẫn chạy). Slot đã có module bài mà bị đóng vẫn hiện là backlog (không che) kèm lỗi verify rõ ràng.
+
 ## Lệnh từ mỗi phiên Writer (chạy trong repo)
 
 ```bash

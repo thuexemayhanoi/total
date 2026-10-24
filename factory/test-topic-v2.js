@@ -671,7 +671,12 @@ console.log('2. INTEGRATION — backfill → propose → review → approve → 
   // rollback: governance off + allowed => hành vi legacy
   fs.writeFileSync(E.p('topic-governance.json'), JSON.stringify(GOV_OFF));
   r = cli(E, ['writer-pack', '--count', '10']);
-  ok(/BATCH_IDS=/.test(r.out) && /S00007|S00008/.test((/BATCH_IDS=(\S+)/.exec(r.out) || [])[1] || ''), 'ROLLBACK: governance off => writer-pack nhận lại slot legacy (hành vi cũ)', r.out.slice(0, 200));
+  // Governance off bỏ yêu cầu APPROVED, nhưng quyết định biên tập đã ghi (REJECT/gộp) vẫn đóng slot — S00007 là hoán vị đã MERGE-CANDIDATE nên không
+  // được trả lại cho writer; các slot còn mở vẫn được nhận như hành vi cũ.
+  const rbIds = ((/BATCH_IDS=(\S+)/.exec(r.out) || [])[1] || '').split(',').filter(Boolean);
+  ok(rbIds.length >= 1 && !rbIds.includes('S00007'), 'ROLLBACK: governance off => writer-pack nhận slot còn mở, KHÔNG trả lại slot đã REJECT/gộp (S00007)', r.out.slice(0, 200));
+  r = cli(E, ['verify-batch', 'S00007']);
+  ok(/VERIFY_BATCH_FAIL/.test(r.out + r.stderr) && /(GỘP|REJECT)/.test(r.out + r.stderr), 'ROLLBACK: verify-batch vẫn từ chối slot đã gộp (editorial-closed áp dụng cả khi governance off)', (r.out + r.stderr).slice(0, 200));
   r = cli(E, ['queue-refill', '--dry-run', ...COORD]);
   ok(!/QUEUE_REFILL frozen/.test(r.out), 'ROLLBACK: v1Generation=allowed => queue-refill không còn bị đóng băng', r.out.slice(0, 160));
   r = cli(E, ['topic-check']);

@@ -49,11 +49,12 @@ function selectWriterPair(m, articleSlugs, countArg, opts) {
   const byId = (a, b) => num(a.id) - num(b.id);
   const writable = opts && typeof opts.isWritable === 'function' ? opts.isWritable : null;
   const shard = opts && opts.shard && opts.shard.n > 1 ? opts.shard : null;
+  const closed = opts && typeof opts.isClosed === 'function' ? opts.isClosed : null;
   const resume = (m && Array.isArray(m.slots) ? m.slots : [])
     .filter(s => CLAIMABLE_STATES.includes(s.state) && s.state !== 'PLANNED' && slugs.has(s.slug))
     .sort(byId);
   const fresh = (m && Array.isArray(m.slots) ? m.slots : [])
-    .filter(s => s.state === 'PLANNED' && !slugs.has(s.slug) && (!writable || writable(s)) &&
+    .filter(s => s.state === 'PLANNED' && !slugs.has(s.slug) && (!writable || writable(s)) && (!closed || !closed(s)) &&
       (!shard || (num(s.id) % shard.n) === (shard.k - 1)))
     .sort(byId);
   const chosen = resume.slice(0, size).concat(fresh.slice(0, Math.max(0, size - Math.min(resume.length, size))));
@@ -186,12 +187,18 @@ function findClaimableBacklog(m, articleSlugs, opts) {
   const claimable = [];
   const waitingForWriter = [];
   const awaitingApproval = [];
+  // Slot PLANNED chưa có bài mà topic đã bị REJECT/gộp (isClosed): không còn là việc của writer, cũng không phải chờ duyệt.
+  const editorialClosed = [];
+  const closed = opts && typeof opts.isClosed === 'function' ? opts.isClosed : null;
   for (const s of m.slots) {
     if (TERMINAL_STATES.includes(s.state)) continue;
     if (slugs.has(s.slug)) claimable.push(s);
-    else if (s.state === 'PLANNED') (writable && !writable(s) ? awaitingApproval : waitingForWriter).push(s);
+    else if (s.state === 'PLANNED') {
+      if (closed && closed(s)) editorialClosed.push(s);
+      else (writable && !writable(s) ? awaitingApproval : waitingForWriter).push(s);
+    }
   }
-  return { claimable, waitingForWriter, awaitingApproval };
+  return { claimable, waitingForWriter, awaitingApproval, editorialClosed };
 }
 
 // Chọn chunk deterministic: slot DỞ (non-PLANNED, có bài) được resume TRƯỚC,

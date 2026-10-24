@@ -167,6 +167,19 @@ console.log('2. Unit 3 vai trò…');
   ok(!w.ids.includes('S00001'), 'selectWriterPair: KHÔNG bao giờ trả slot PUBLISHED');
   const w1 = runtime.selectWriterPair(m, ['p3'], 1);
   ok(w1.ids.length === 1 && w1.ids[0] === 'S00003', 'selectWriterPair --count 1: đúng 1 ID (resume ưu tiên)');
+  // Slot đóng bởi quyết định biên tập (isClosed): KHÔNG vào pair dù là PLANNED thấp ID; slot mở vẫn được chọn.
+  const wClosed = runtime.selectWriterPair(m, ['p3'], 10, { isClosed: (x) => x.id === 'S00002' });
+  ok(!wClosed.ids.includes('S00002') && wClosed.ids.includes('S00004') && wClosed.ids.includes('S00003'),
+    'selectWriterPair: slot isClosed bị loại, slot PLANNED khác và slot dở vẫn được chọn', JSON.stringify(wClosed.ids));
+  const wAllClosed = runtime.selectWriterPair({ slots: [mk('S00002', 'PLANNED', 'p2'), mk('S00004', 'PLANNED', 'p4')] }, [], 10, { isClosed: () => true });
+  ok(wAllClosed.ids.length === 0, 'selectWriterPair: mọi PLANNED đã đóng -> pair rỗng (writer không nhận bài trùng)');
+  const bkClosed = runtime.findClaimableBacklog(m, ['p3'], { isClosed: (x) => x.id === 'S00002' });
+  ok(bkClosed.editorialClosed.length === 1 && bkClosed.editorialClosed[0].id === 'S00002' &&
+     !bkClosed.waitingForWriter.some(x => x.id === 'S00002') && bkClosed.waitingForWriter.some(x => x.id === 'S00004'),
+    'findClaimableBacklog: PLANNED đã đóng vào editorialClosed, KHÔNG tính WAITING_FOR_WRITER');
+  const bkClosedWithArticle = runtime.findClaimableBacklog(m, ['p2'], { isClosed: (x) => x.id === 'S00002' });
+  ok(bkClosedWithArticle.claimable.some(x => x.id === 'S00002'),
+    'findClaimableBacklog: slot đã đóng NHƯNG đã có module vẫn hiện là backlog (không che; verify-batch sẽ từ chối, báo lỗi rõ)');
   const wIdle = runtime.selectWriterPair({ slots: [mk('S00001', 'PUBLISHED')] }, []);
   ok(wIdle.ids.length === 0, 'selectWriterPair: hết queue + không bài dở -> rỗng');
 
@@ -222,6 +235,10 @@ function copyRepoToTmp(tag) {
   // Fixture isolation (error-queue): phiếu lỗi thật của repo (kể cả đã resolved) không được lẫn vào
   // kịch bản Đốc công 2/3 — kịch bản tự tạo phiếu #1 và đếm resolved trên hàng đợi trống.
   fs.rmSync(path.join(tmp, 'factory', 'state', 'error-queue.json'), { force: true });
+  // Fixture isolation (editorial-closed): 300 slot legacy trong repo thật đã bị topic-matrix ghi REJECT/gộp (24/10/2026) nên writer-next
+  // không còn chọn chúng. Suite này kiểm cơ chế pair trên slot PLANNED dựng sẵn => ledger topic rỗng trong BẢN SAO (repo thật không đổi).
+  // Hành vi đóng slot được test riêng ở mục 2 (unit isClosed) và test-writer-pack.js (integration trên repo thật).
+  fs.writeFileSync(path.join(tmp, 'factory', 'state', 'topic-matrix.jsonl'), '');
   return tmp;
 }
 function P(tmp) {

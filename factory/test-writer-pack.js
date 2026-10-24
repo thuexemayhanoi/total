@@ -28,6 +28,21 @@ ok(pack.items.every(x=>x.file==='factory/data/articles/'+x.slug+'.js'),'file pat
 ok(pack.items.every(x=>Array.isArray(x.relatedPublished) && x.relatedPublished.length>=2),'mỗi item phải có >=2 related gợi ý');
 ok(pack.items.every(x=>x.relatedPublished.every(r=>published.has(r.slug))),'mọi related gợi ý phải là PUBLISHED');
 ok(pack.items.every(x=>x.intent && x.title && x.hub && x.slug),'item phải đủ intent/title/hub/slug');
+// Slot đóng bởi quyết định biên tập (topic REJECTED/mergeInto) KHÔNG được vào pack và verify-batch phải từ chối.
+{
+  const rows = fs.readFileSync(path.join(ROOT, 'factory', 'state', 'topic-matrix.jsonl'), 'utf8').trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
+  const closedIds = new Set(rows.filter(r => r.slotId && (r.lifecycle === 'REJECTED' || r.mergeInto)).map(r => r.slotId));
+  const slotState = new Map(matrix.slots.map(s => [s.id, s.state]));
+  ok(pack.items.every(x => !(closedIds.has(x.id) && x.state === 'PLANNED')), 'writer-pack không đưa slot PLANNED đã REJECT/gộp vào batch');
+  ok(typeof pack.editorialClosed === 'number', 'pack.editorialClosed là số');
+  const closedPlanned = [...closedIds].filter(id => slotState.get(id) === 'PLANNED' && !fs.existsSync(path.join(ROOT, 'factory', 'data', 'articles', (matrix.slots.find(s => s.id === id) || {}).slug + '.js')));
+  if (closedPlanned.length) {
+    let vOut = '';
+    try { execFileSync(process.execPath, [path.join(ROOT, 'factory', 'factory.js'), 'verify-batch', closedPlanned[0]], { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }); } catch (e) { vOut = String(e.stdout || '') + String(e.stderr || ''); }
+    ok(/VERIFY_BATCH_FAIL/.test(vOut) && /(GỘP|REJECT)/.test(vOut), 'verify-batch từ chối slot đã REJECT/gộp với lý do rõ', vOut.slice(0, 160));
+  }
+  if (pack.count === 0) ok(['need-topics', 'wait-publish', 'done-general-target', 'refill', 'awaiting-approval'].includes(pack.status), 'pack rỗng phải có status giải thích được', pack.status);
+}
 // Quyết định biên tập từ topic-matrix phải lộ ra trong pack (fast-writer mode=off vẫn liệt kê slot legacy đã REJECT/MERGE):
 const allSlugs=new Set(matrix.slots.map(s=>s.slug));
 ok(Array.isArray(pack.mergedSlots),'pack.mergedSlots phải là mảng');

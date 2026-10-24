@@ -325,11 +325,25 @@ function openArticleSlugs(m) {
 // ---------- TOPIC GOVERNANCE V2 (factory/topic-governance.json) ----------
 // enforce => writer-pack/verify/publish chỉ nhận slot có topic APPROVED (topic-matrix.jsonl).
 // off/không có file => hành vi legacy 100%. Xem docs/TOPIC-FACTORY-V2.md.
+// Quyết định biên tập đóng slot: topic trong topic-matrix.jsonl bị REJECTED hoặc có mergeInto (gộp vào bài đã có).
+// Áp dụng ở MỌI chế độ governance (kể cả mode=off của fast-writer): slot đó không còn là việc của writer, writer-pack không đưa vào,
+// verify-batch từ chối. Topic được topic-reopen (lifecycle PLANNED) thì mở lại.
+function editorialClosedBySlot() {
+  const closed = new Map();
+  try {
+    for (const r of topicMatrix.readRows().rows) {
+      if (r && r.slotId && (r.lifecycle === 'REJECTED' || r.mergeInto)) closed.set(r.slotId, r);
+    }
+  } catch (_) { /* không có/hỏng topic-matrix: không đóng slot nào (fail-open cho writer, verify vẫn chạy QA) */ }
+  return closed;
+}
 function writableOpts() {
   const gov = topicGov.load();
-  if (!gov.requireApproved) return { gov, opts: {}, approved: null };
+  const closedBySlot = editorialClosedBySlot();
+  const isClosed = (slot) => closedBySlot.has(slot.id);
+  if (!gov.requireApproved) return { gov, opts: { isClosed }, approved: null, closedBySlot };
   const approved = topicMatrix.approvedBySlot(topicMatrix.readRows().rows);
-  return { gov, opts: { isWritable: topicGov.writableFilter(gov, approved) }, approved };
+  return { gov, opts: { isWritable: topicGov.writableFilter(gov, approved), isClosed }, approved, closedBySlot };
 }
 function topicDeps() {
   return { loadMatrix, saveMatrix, planSlot, loadState, saveState, log: console.log };
@@ -603,6 +617,12 @@ function verifySources(m, ids) {
   for (const id of ids) {
     const s = m.slots.find((x) => x.id === id);
     if (!s) { errors.push('không tìm thấy slot ' + id); continue; }
+    if (s.state !== 'PUBLISHED' && wo.closedBySlot && wo.closedBySlot.has(id)) {
+      const r = wo.closedBySlot.get(id);
+      errors.push('Slot ' + id + ': topic ' + r.topicId + ' đã bị ' + (r.mergeInto ? 'GỘP vào "' + r.mergeInto + '"' : 'REJECT') +
+        ' trong topic-matrix — không viết/không publish (muốn mở lại: topic-reopen + gate ACCEPT). Gỡ module bài trùng.');
+      continue;
+    }
     if (wo.approved && s.state !== 'PUBLISHED' && !wo.approved.has(id)) {
       errors.push('Slot ' + id + ': topic chưa APPROVED (topic-governance enforce) — chỉ coordinator duyệt topic (topic-approve), writer không tự nhận slot');
       continue;
@@ -1178,7 +1198,7 @@ function main() {
     const woStatus = writableOpts();
     const back = runtime.findClaimableBacklog(m, openArticleSlugs(m), woStatus.opts);
     console.log('Backlog claimable (article-backed):', back.claimable.length,
-      '| WAITING_FOR_WRITER:', back.waitingForWriter.length);
+      '| WAITING_FOR_WRITER:', back.waitingForWriter.length, '| EDITORIAL_CLOSED:', back.editorialClosed.length);
     if (woStatus.gov.present) {
       console.log('Topic governance: mode=' + woStatus.gov.mode + ' v1Generation=' + woStatus.gov.v1Generation +
         ' | AWAITING_APPROVAL: ' + back.awaitingApproval.length);
@@ -1340,9 +1360,10 @@ function main() {
     // Hot writer/status vẫn dùng openArticleSlugs() O(open queue).
     const slugs = new Set(loadAllArticlesBySlug().keys());
     const bo = writableOpts().opts;
-    const { claimable, waitingForWriter, awaitingApproval } = runtime.findClaimableBacklog(m, slugs, bo);
+    const { claimable, waitingForWriter, awaitingApproval, editorialClosed } = runtime.findClaimableBacklog(m, slugs, bo);
     console.log('CLAIMABLE_BACKLOG=' + claimable.length);
     console.log('WAITING_FOR_WRITER=' + waitingForWriter.length);
+    if (editorialClosed.length) console.log('EDITORIAL_CLOSED=' + editorialClosed.length + ' (topic REJECT/gộp — không phải việc của writer)');
     if (awaitingApproval.length) console.log('AWAITING_APPROVAL=' + awaitingApproval.length);
     // Bài đã có module nhưng topic CHƯA APPROVED vẫn hiện là backlog (không che) — kèm chẩn đoán vì sao verify sẽ từ chối.
     for (const s of claimable) console.log(`PENDING ${s.id} state=${s.state} article=yes` +
@@ -1855,11 +1876,12 @@ function main() {
     const writtenWaiting = m.slots.filter(s =>
       s.state !== 'PUBLISHED' && s.state !== 'BLOCKED' && openSlugs.has(s.slug) && !plan.ids.includes(s.id) && !unapprovedArticles.includes(s.id)
     ).length;
+    const editorialClosedIds = m.slots.filter(x => x.state === 'PLANNED' && !openSlugs.has(x.slug) && woPack.closedBySlot && woPack.closedBySlot.has(x.id)).map(x => x.id);
     let status = 'ready';
     if (!plan.ids.length) {
       if (writtenWaiting > 0) status = 'wait-publish';
       else if (woPack.gov.requireApproved) status = 'awaiting-approval';
-      else if (m.slots.length < m.plannedTarget) status = 'refill';
+      else if (m.slots.length < m.plannedTarget) status = editorialClosedIds.length ? 'need-topics' : 'refill';
       else status = 'done-general-target';
     }
     // Quyết định biên tập đã ghi trong topic-matrix (REJECT/MERGE-CANDIDATE kèm mergeInto): slot vẫn PLANNED nên vẫn được
@@ -1889,6 +1911,7 @@ function main() {
     const mergedSlots = items.filter(x => x.topicDecision && x.topicDecision.writeAdvice === 'SKIP').map(x => x.id);
     const pack = {
       schemaVersion: 1, status, count: items.length, batchIds: items.map(x => x.id), unapprovedArticles, mergedSlots,
+      editorialClosed: editorialClosedIds.length,
       rules: {
         minWords: runtime.ARTICLE_MIN_WORDS, maxWords: runtime.ARTICLE_MAX_WORDS, qaPassMin: runtime.QA_PASS_MIN,
         fileConvention: 'factory/data/articles/<slug>.js',
@@ -1899,7 +1922,8 @@ function main() {
       nextAction: status === 'ready' ? 'WRITE_VERIFY_PUSH' :
         (status === 'wait-publish' ? 'FETCH_FRESH_MAIN_AND_RECHECK' :
           (status === 'awaiting-approval' ? 'WAIT_FOR_COORDINATOR_TOPIC_APPROVAL' :
-            (status === 'refill' ? 'QUEUE_REFILL_THEN_RECHECK' : 'GENERAL_TARGET_DONE')))
+            (status === 'need-topics' ? 'COORDINATOR_TOPIC_PROPOSE_THEN_APPROVE' :
+            (status === 'refill' ? 'QUEUE_REFILL_THEN_RECHECK' : 'GENERAL_TARGET_DONE'))))
     };
     if (process.argv.includes('--json')) {
       console.log(JSON.stringify(pack, null, 2));
@@ -1955,7 +1979,7 @@ function main() {
     const m = loadMatrix();
     validateMatrix(m);
     const slugs = openArticleSlugs(m);
-    const { claimable, waitingForWriter, awaitingApproval } = runtime.findClaimableBacklog(m, slugs, writableOpts().opts);
+    const { claimable, waitingForWriter, awaitingApproval, editorialClosed } = runtime.findClaimableBacklog(m, slugs, writableOpts().opts);
     const hb = readJson(HEARTBEAT_FILE, null);
     const errors = (readJson(ERROR_FILE, { errors: [] }) || { errors: [] }).errors || [];
     const st = runtime.classifyProductionState({
@@ -1987,7 +2011,8 @@ function main() {
       ' heartbeat_age_min=' + st.heartbeatAgeMinutes + ' (ngưỡng ' + (stallMin || runtime.WRITER_STALL_MINUTES) + ' phút)');
     console.log('PUBLISHED=' + (dist.PUBLISHED || 0) + ' WAITING_FOR_WRITER=' + waitingForWriter.length +
       ' CLAIMABLE_BACKLOG=' + claimable.length + ' REPAIR=' + (dist.REPAIR || 0) + ' BLOCKED=' + (dist.BLOCKED || 0) +
-      (awaitingApproval.length ? ' AWAITING_APPROVAL=' + awaitingApproval.length : ''));
+      (awaitingApproval.length ? ' AWAITING_APPROVAL=' + awaitingApproval.length : '') +
+      (editorialClosed.length ? ' EDITORIAL_CLOSED=' + editorialClosed.length : ''));
     console.log('ERRORS open=' + st.openErrors + ' escalated=' + st.escalatedErrors);
     const stt = loadState();
     console.log('LAST_ACTION ' + (stt.lastAction ? stt.lastAction.action + ' @ ' + stt.lastAction.at : 'chưa có'));
