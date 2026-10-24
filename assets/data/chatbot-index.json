@@ -29442,6 +29442,37 @@
   ]
  },
  {
+  "url": "guide/su-dung-xe/moi-lan-dung-nghi-giua-chuyen-di-xa-nhin-lai-xe-the-nao-trong-vai-phut-nhung-cho-nen-xem-va-dau-hieu-nen-doi-ke-hoach/",
+  "title": "Mỗi lần dừng nghỉ giữa chuyến đi xa: nhìn lại xe thế nào trong vài phút, những chỗ nên xem và dấu hiệu nên đổi kế hoạch",
+  "category": "Hướng dẫn",
+  "hub": "Sử dụng xe",
+  "summary": "Đi xa bằng xe máy, tới điểm dừng người ta thường chỉ lo uống nước, ăn nhẹ rồi lên xe đi tiếp, trong khi chiếc xe đã chạy nhiều giờ liền mà chưa ai nhìn lại. Bài này giải thích vì sao điểm dừng nghỉ là lúc thuận lợi nhất để xem xe: máy còn nóng nhưng đã đứng yên, nên nghe được tiếng nguội dần, ngửi được mùi lạ, thấy được vệt ướt trên nền và chạm được vào lốp, dây buộc. Bài đưa ra một vòng nhìn quanh xe theo thứ tự cố định, chỉ rõ chỗ nào chỉ cần liếc, chỗ nào đưa mu bàn tay lại gần, chỗ nào không tự tháo, rồi phân biệt dấu hiệu bình thường sau chặng dài với dấu hiệu nên rút ngắn chặng hoặc tìm thợ, cách chụp ảnh để kể lại, và cách chia việc khi cả nhóm dừng chung.",
+  "quickAnswer": "Mỗi lần dừng nghỉ, hãy dành vài phút đi một vòng quanh xe theo thứ tự cố định: bánh và lốp, dây buộc và đồ chở, gầm xe cùng nền đất bên dưới, đèn phanh, rồi đứng yên nghe tiếng và ngửi mùi khi máy nguội dần. Chỉ liếc, nghe, ngửi và đưa mu bàn tay lại gần, không tháo hay vặn gì. Thay đổi đều, êm, có lý do như lốp ấm đều hay ống xả kêu tích tắc thường là bình thường; thay đổi mới, một bên, lặp lại hoặc kèm mùi khét, vệt ướt, phanh mềm, lốp bị vật nhọn găm là lý do rút ngắn chặng, đổi kế hoạch hoặc tìm thợ. Chụp ảnh chỗ nghi ngờ để kể lại cho thợ.",
+  "keyPoints": [
+   "Điểm dừng nghỉ là lúc nhìn xe tốt nhất: máy còn nóng nhưng đứng yên nên nghe được tiếng nguội dần, ngửi được mùi lạ, thấy được vệt ướt trên nền và chạm được vào lốp, dây buộc mà lúc chạy không kiểm được.",
+   "Đi một vòng cố định mỗi lần: bánh và lốp, dây buộc và đồ chở, gầm xe cùng nền đất, đèn phanh, rồi tiếng và mùi khi máy nguội; chỉ liếc, nghe, ngửi và đưa mu bàn tay lại gần, không tháo hay vặn gì.",
+   "Phân biệt bình thường với đáng để ý: thay đổi đều, êm, có lý do sau chặng dài thường bình thường; thay đổi mới, chỉ một bên, lặp lại hoặc kèm mùi khét, vệt ướt, phanh mềm thì cần xử lý.",
+   "Thấy dấu hiệu liên quan phanh, lốp, điện hay rò chất lỏng thì rút ngắn chặng, đổi kế hoạch hoặc tìm thợ; việc kỹ thuật và việc nguy hiểm giao thợ, không tự tháo ở ven đường."
+  ],
+  "entities": [
+   "dừng nghỉ giữa chuyến đi xa",
+   "lốp và bánh xe",
+   "dây buộc và đồ chở",
+   "gầm xe và vệt ướt trên nền",
+   "đèn phanh",
+   "tiếng nguội dần của máy",
+   "mùi lạ sau chặng dài",
+   "ảnh ghi lại cho thợ"
+  ],
+  "keywords": [
+   "kiểm tra xe khi dừng nghỉ giữa chuyến",
+   "dừng nghỉ khi đi xa nhìn xe thế nào",
+   "xem xe lúc nghỉ giữa đường",
+   "dấu hiệu xe cần dừng khi đi xa",
+   "vòng kiểm tra xe máy nhanh"
+  ]
+ },
+ {
   "url": "tips/meo-lai-xe/mot-ngay-tham-ho-hang-hoac-du-nhieu-dam-lien-tiep-bang-xe-may-xep-thu-tu-cac-nha-cho-dung-xe-va-luc-nen-nghi/",
   "title": "Một ngày thăm họ hàng hoặc dự nhiều đám liên tiếp bằng xe máy: xếp thứ tự các nhà, chỗ dựng xe và lúc nên nghỉ",
   "category": "Mẹo",
@@ -48711,6 +48742,38 @@
   ]
  },
  {
+  "url": "guide/thue-xe/xe-may-thue-chet-may-hoac-thung-lop-giua-chuyen-bao-chu-xe-truoc-khi-nho-tho-la-ghi-lai-gi-va-vi-sao-khong-tu-sua/",
+  "title": "Xe máy thuê chết máy hoặc thủng lốp giữa chuyến: báo chủ xe trước khi nhờ thợ lạ, ghi lại gì và vì sao không tự sửa",
+  "category": "Hướng dẫn",
+  "hub": "Thuê xe",
+  "summary": "Đang dùng xe máy thuê thì xe chết máy, thủng lốp hoặc sáng đèn báo lỗi giữa đường vắng, người thuê vừa muốn nhanh chóng đi tiếp vừa lo tự ý nhờ thợ hay tự sửa sẽ làm rắc rối thêm với chủ xe. Bài đi theo thứ tự việc nên làm: dừng ở chỗ an toàn, tắt máy, chụp lại tình trạng xe và vị trí trước khi đụng vào bất cứ thứ gì, rồi gọi chủ xe sớm và nói đúng những điều họ cần. Bài giải thích vì sao nhờ thợ lạ vá lốp, thay phụ tùng hay tháo ốp ngay là việc nên tránh, chỉ ra việc làm tạm hợp lý, cách kể thật điều đã xảy ra để cùng tìm cách xử lý, và cách giữ ảnh, tin nhắn, phiếu trong lúc chờ xe thay thế hoặc xe sửa xong.",
+  "quickAnswer": "Xe thuê hỏng giữa chuyến thì việc đầu tiên là dừng ở chỗ an toàn và tắt máy, rồi chụp lại xe, đồng hồ, chỗ hỏng và vị trí trước khi đụng vào bất cứ thứ gì. Sau đó gọi chủ xe sớm, nhắn lại bằng chữ kèm ảnh, và chỉ nhờ thợ khi chủ xe đã đồng ý. Việc làm tạm hợp lý là dắt xe vào chỗ an toàn, khóa xe, mang theo đồ quý và giấy tờ và nhắn tin xác nhận. Đừng tự vá lốp, thay phụ tùng hay tháo ốp, vì làm vậy đổi tình trạng xe, khó biết lỗi do hao mòn hay do cách dùng và dễ phát sinh bất đồng khi trả xe. Hãy kể thật điều đã xảy ra, giữ ảnh, tin nhắn và phiếu nếu có, và đọc lại hợp đồng của bạn để biết hai bên đã thỏa thuận gì.",
+  "keyPoints": [
+   "Xe thuê hỏng giữa chuyến thì thứ tự là an toàn trước, giữ nguyên hiện trạng rồi mới báo: dừng ở chỗ an toàn, tắt máy, chụp ảnh xe, đồng hồ, chỗ hỏng và vị trí trước khi đụng vào bất cứ thứ gì.",
+   "Gọi chủ xe sớm, nhắn lại bằng chữ kèm ảnh; chủ xe hiểu chiếc xe, có thể có người quen gần đó hoặc cách xử lý riêng, nên biết sớm giúp họ có nhiều lựa chọn hơn.",
+   "Việc làm tạm hợp lý là dắt xe vào chỗ an toàn, khóa xe, mang theo đồ quý và giấy tờ và nhắn tin xác nhận; vá lốp, thay phụ tùng, tháo ốp hay tự sửa nên tránh vì làm đổi tình trạng xe và dễ gây bất đồng khi trả xe.",
+   "Kể thật điều đã xảy ra, kể cả phần không có lợi, và nói điều mình thấy thay vì đoán nguyên nhân; hao mòn hay do cách dùng để chủ xe và thợ xác định."
+  ],
+  "entities": [
+   "xe máy thuê",
+   "chủ xe cho thuê",
+   "chết máy giữa đường",
+   "thủng lốp",
+   "đèn báo lỗi trên đồng hồ",
+   "thợ sửa xe lạ",
+   "hợp đồng thuê xe",
+   "ảnh và tin nhắn làm bằng chứng",
+   "xe thay thế"
+  ],
+  "keywords": [
+   "thuê xe máy bị hỏng giữa chuyến",
+   "chết máy giữa đường khi thuê xe",
+   "thủng lốp xe thuê phải làm gì",
+   "báo chủ xe khi xe thuê hỏng",
+   "nhờ thợ sửa xe thuê có nên không"
+  ]
+ },
+ {
   "url": "learn/cham-soc-xe/xe-may-trong-mua-nom-am-dong-nuoc-gi-va-dien-chap-chon/",
   "title": "Xe máy trong mùa nồm ẩm: vì sao đọng nước, gỉ ốc, điện chập chờn và khó nổ, và cách cất giữ xe cho khô",
   "category": "Kiến thức chuyên sâu",
@@ -49971,6 +50034,38 @@
    "xe cũ che vết xước sơn dặm",
    "hẹn lại xem xe ban ngày",
    "soi xe cũ bằng đèn pin điện thoại"
+  ]
+ },
+ {
+  "url": "moto/xe-ga/xem-xe-tay-ga-cu-truoc-khi-mua-nghe-bo-truyen-dong-thu-do-i-luc-van-ga-va-nhung-cho-rieng-ma-xe-so-khong-co/",
+  "title": "Xem xe tay ga cũ trước khi mua: nghe bộ truyền động, thử độ ì lúc vặn ga và những chỗ riêng mà xe số không có",
+  "category": "Xe máy",
+  "hub": "Xe ga",
+  "summary": "Người đi xem xe tay ga cũ thường đã quen cách kiểm tra chung như xem khung, đèn, phanh, nhưng xe ga có những phần riêng mà xe số không có: không côn tay, không cần số, song lại có bộ truyền động tự động, khóa yên và cốp. Bài này tập trung vào đúng những phần ấy thay vì lặp lại danh mục xem xe cũ nói chung. Bài giải thích vì sao bộ truyền động là nơi mòn âm thầm, cách thử theo thứ tự từ nổ máy nguội, vặn ga từ từ, nhả ga rồi vặn lại tới chở người lên dốc nhẹ, các chỗ riêng của xe ga như cốp, khóa yên, sàn để chân, chân chống giữa và ốp nhựa, cùng những câu nên hỏi người bán về dây truyền động và bộ nồi và lúc nào nên nhờ thợ xem cùng.",
+  "quickAnswer": "Xe tay ga cũ cần xem thêm phần mà xe số không có: bộ truyền động tự động nằm cạnh máy, gồm dây curoa, bộ nồi và các bi nồi. Hãy hẹn xem lúc máy còn nguội, nổ máy nghe tiếng lạch cạch hay rít ở bên hông, vặn ga từ từ để cảm nhận xe bắt đầu lăn êm hay giật, hay ì như bị giữ, nhả ga rồi vặn lại, và nếu an toàn thì thử chở thêm người và lên dốc nhẹ để xem xe có ráng sức hay trượt. Sau đó kiểm cốp, khóa yên, sàn để chân, chân chống giữa, ốp nhựa và dấu nước hay bụi lọt vào. Hỏi người bán đã thay dây truyền động và bộ nồi chưa, thay khi nào, ở đâu, và nhờ thợ xem cùng nếu có giật, ì hay tiếng lạ.",
+  "keyPoints": [
+   "Xe tay ga không có côn tay và hộp số cần bóp, nhưng có bộ truyền động tự động; chỗ này mòn âm thầm vì người lái dần quen với cảm giác xe chậm đi, nên người đi xem phải chủ động nghe và thử.",
+   "Hẹn xem lúc máy còn nguội, nghe tiếng khi nổ máy, vặn ga từ từ, nhả ga rồi vặn lại để cảm nhận giật hay ì lúc xe bắt đầu lăn; lỗi lúc có lúc không cũng đáng ghi lại.",
+   "Nếu an toàn và người bán đồng ý, thử chở người và lên dốc nhẹ: vòng tua cao mà xe vọt chậm, tiếng rít, mùi khét hoặc hụt hơi là dấu hiệu bộ truyền động có thể đã mệt, nhưng chỉ thợ mở ra mới kết luận.",
+   "Chỗ riêng của xe ga cần xem là cốp, khóa yên, sàn để chân, chân chống giữa và ốp nhựa, cùng những khe nơi nước và bụi dễ lọt vào."
+  ],
+  "entities": [
+   "xe tay ga cũ",
+   "bộ truyền động tự động",
+   "dây curoa",
+   "bộ nồi",
+   "bi nồi",
+   "cốp và khóa yên",
+   "sàn để chân",
+   "chân chống giữa",
+   "ốp nhựa"
+  ],
+  "keywords": [
+   "xem xe tay ga cũ",
+   "kiểm tra xe tay ga cũ trước khi mua",
+   "dây curoa và bộ nồi xe tay ga cũ",
+   "giật hay ì khi vặn ga xe ga cũ",
+   "hỏi người bán xe tay ga cũ"
   ]
  },
  {

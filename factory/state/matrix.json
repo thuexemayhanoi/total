@@ -30822,11 +30822,13 @@
    "title": "Mỗi lần dừng nghỉ giữa chuyến đi xa: nhìn lại xe thế nào trong vài phút, những chỗ nên xem và dấu hiệu nên đổi kế hoạch",
    "primaryIntent": "informational/moi-lan-dung-nghi-giua-chuyen-di-xa-nhin-lai-xe-the-nao-trong-vai-phut-nhung-cho-nen-xem-va-dau-hieu-nen-doi-ke-hoach",
    "notes": "source=topic-v2 topicId=T002293",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.667Z",
-   "updatedAt": "2026-10-24T11:09:58.667Z"
+   "updatedAt": "2026-10-24T11:21:54.722Z",
+   "seoScore": 100,
+   "words": 3792
   },
   {
    "id": "S02102",
@@ -30835,11 +30837,13 @@
    "title": "Xe máy thuê chết máy hoặc thủng lốp giữa chuyến: báo chủ xe trước khi nhờ thợ lạ, ghi lại gì và vì sao không tự sửa",
    "primaryIntent": "troubleshooting/xe-may-thue-chet-may-hoac-thung-lop-giua-chuyen-bao-chu-xe-truoc-khi-nho-tho-la-ghi-lai-gi-va-vi-sao-khong-tu-sua",
    "notes": "source=topic-v2 topicId=T002294",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.737Z",
-   "updatedAt": "2026-10-24T11:09:58.737Z"
+   "updatedAt": "2026-10-24T11:21:54.723Z",
+   "seoScore": 100,
+   "words": 3909
   },
   {
    "id": "S02103",
@@ -30848,11 +30852,13 @@
    "title": "Xem xe tay ga cũ trước khi mua: nghe bộ truyền động, thử độ ì lúc vặn ga và những chỗ riêng mà xe số không có",
    "primaryIntent": "informational/xem-xe-tay-ga-cu-truoc-khi-mua-nghe-bo-truyen-dong-thu-do-i-luc-van-ga-va-nhung-cho-rieng-ma-xe-so-khong-co",
    "notes": "source=topic-v2 topicId=T002295",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:09:58.823Z",
-   "updatedAt": "2026-10-24T11:09:58.823Z"
+   "updatedAt": "2026-10-24T11:21:54.723Z",
+   "seoScore": 100,
+   "words": 3836
   },
   {
    "id": "S02104",
