@@ -29701,11 +29701,13 @@
    "title": "Chạy tới khi đèn báo xăng sáng mới đổ hay đổ sớm hơn: cạn bình hại gì cho bơm xăng và có thật sự đỡ hao xăng không",
    "primaryIntent": "informational/chay-toi-khi-den-bao-xang-sang-moi-do-hay-do-som-hon-can-binh-hai-gi-cho-bom-xang-va-co-that-su-do-hao-xang-khong",
    "notes": "source=topic-v2 topicId=T002211",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:05.157Z",
-   "updatedAt": "2026-10-24T07:48:05.157Z"
+   "updatedAt": "2026-10-24T07:55:39.507Z",
+   "seoScore": 100,
+   "words": 3190
   },
   {
    "id": "S02025",
