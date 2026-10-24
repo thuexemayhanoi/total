@@ -31291,11 +31291,13 @@
    "title": "Thi thực hành bằng lái xe máy A1 theo Thông tư 108/2026: bài số 1 và số 2 gồm gì, lỗi nào bị trừ điểm hoặc đình chỉ?",
    "primaryIntent": "informational/thi-thuc-hanh-bang-lai-xe-may-a1-bai-so-1-bai-so-2-loi-tru-diem-va-dinh-chi",
    "notes": "source=topic-v2 topicId=T002323",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:13:04.812Z",
-   "updatedAt": "2026-10-24T13:13:04.813Z"
+   "updatedAt": "2026-10-24T13:26:56.380Z",
+   "seoScore": 100,
+   "words": 3451
   },
   {
    "id": "S02131",
