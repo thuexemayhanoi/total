@@ -30318,11 +30318,13 @@
    "title": "Người lái xe máy và người ngồi sau không được làm những việc gì theo Điều 33 của Luật?",
    "primaryIntent": "informational/nguoi-lai-xe-may-va-nguoi-ngoi-sau-khong-duoc-lam-gi",
    "notes": "source=topic-v2 topicId=T002255",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:03.825Z",
-   "updatedAt": "2026-10-24T10:50:03.825Z"
+   "updatedAt": "2026-10-24T10:58:37.341Z",
+   "seoScore": 100,
+   "words": 2985
   },
   {
    "id": "S02066",
