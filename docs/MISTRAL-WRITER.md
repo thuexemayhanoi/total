@@ -1,5 +1,8 @@
 # Mistral Writer Runbook — Factory Lite 20k
 
+> **Cập nhật owner 24/10/2026 — FAST MODE:** Tên file chỉ là lịch sử; Claude, Mistral và ChatGPT đều dùng cùng quy trình. `factory/topic-governance.json` hiện `mode=off` và `requireApproved=false`: **300 slot PLANNED cũ không cần topic-approve**. Hãy bắt đầu `writer-pack --count 10 --json` rồi tự nghiên cứu, chọn những topic thật sự khác bài PUBLISHED, viết/verify/push batch. Không đòi người dùng duyệt hay mở khóa mỗi bài. **Không** coi 300 tiêu đề cũ là 300 intent mới: có rất nhiều biến thể V1 trùng SEO; nếu trùng thì bỏ, không viết đệm. `v1Generation=frozen` vẫn giữ để không tự sinh topic hoán vị. Bài mới sau này cần nghiên cứu chủ đề độc lập, tiếp tục quy trình qua Topic Factory có kiểm chứng. Khóa transaction nội bộ trong publisher và QA ≥70 vẫn giữ. Publisher quét phục hồi backlog 30 phút/lượt, nhưng không tự gọi AI viết.
+
+
 Mục tiêu: Mistral không tự đọc toàn matrix, không tự đoán internal link, không tự nghĩ workflow.
 
 ## Một vòng production
