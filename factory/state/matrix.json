@@ -31638,11 +31638,13 @@
    "title": "Đỉnh dốc che khuất phía bên kia khi đi xe máy: giảm tốc trước đỉnh, giữ làn phải và không vượt trên đỉnh",
    "primaryIntent": "informational/dinh-doc-che-khuat-phia-ben-kia-khi-di-xe-may-giam-toc-truoc-dinh-giu-lan-phai-va-khong-vuot-tren-dinh",
    "notes": "source=topic-v2 topicId=T002347",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T16:07:17.178Z",
-   "updatedAt": "2026-10-24T16:07:17.178Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3535
   },
   {
    "id": "S02154",
@@ -31651,11 +31653,13 @@
    "title": "Cua khép dần về cuối khi đi xe máy: cách đọc từ xa, vì sao xe bị đẩy ra rộng và cách giữ nhịp",
    "primaryIntent": "informational/cua-khep-dan-ve-cuoi-khi-di-xe-may-cach-doc-tu-xa-vi-sao-xe-bi-day-ra-rong-va-cach-giu-nhip",
    "notes": "source=topic-v2 topicId=T002348",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T16:07:17.289Z",
-   "updatedAt": "2026-10-24T16:07:17.289Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3444
   },
   {
    "id": "S02155",
@@ -31664,11 +31668,13 @@
    "title": "Gặp người đẩy xe nôi, xe đẩy em bé dưới lòng đường: bé ngồi thấp, xe đẩy đi trước người và cách đi chậm chừa chỗ",
    "primaryIntent": "informational/gap-nguoi-day-xe-noi-xe-day-em-be-duoi-long-duong-be-ngoi-thap-xe-day-di-truoc-nguoi-va-cach-di-cham-chua-cho",
    "notes": "source=topic-v2 topicId=T002350",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T16:07:17.398Z",
-   "updatedAt": "2026-10-24T16:07:17.398Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 91,
+   "words": 3407
   },
   {
    "id": "S02156",
@@ -31677,11 +31683,13 @@
    "title": "Xem xe số cũ trước khi mua: côn tự động, về số, cần đạp nổ, phanh sau và dấu hiệu xe từng chạy việc nặng",
    "primaryIntent": "informational/xem-xe-so-cu-truoc-khi-mua-con-tu-dong-ve-so-can-dap-no-phanh-sau-va-dau-hieu-xe-tung-chay-viec-nang",
    "notes": "source=topic-v2 topicId=T002344",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T16:07:33.335Z",
-   "updatedAt": "2026-10-24T16:07:33.335Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3604
   },
   {
    "id": "S02157",
@@ -31716,11 +31724,13 @@
    "title": "Tiền cọc thuê xe máy theo Bộ luật Dân sự: đặt cọc giữ xe khác ký cược nhận xe thế nào, khi nào mất cọc?",
    "primaryIntent": "informational/tien-coc-thue-xe-may-theo-bo-luat-dan-su-dat-coc-giu-xe-khac-ky-cuoc-nhan-xe-the-nao-khi-nao-mat-coc",
    "notes": "source=topic-v2 topicId=T002353",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:11.663Z",
-   "updatedAt": "2026-10-24T18:07:11.664Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3309
   },
   {
    "id": "S02160",
@@ -31729,11 +31739,13 @@
    "title": "Trả xe máy thuê muộn: Bộ luật Dân sự cho bên cho thuê đòi những khoản nào và rủi ro hỏng, mất thuộc về ai?",
    "primaryIntent": "informational/tra-xe-may-thue-muon-bo-luat-dan-su-cho-ben-cho-thue-doi-nhung-khoan-nao-va-rui-ro-hong-mat-thuoc-ve-ai",
    "notes": "source=topic-v2 topicId=T002354",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:16.361Z",
-   "updatedAt": "2026-10-24T18:07:16.361Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3109
   },
   {
    "id": "S02161",
@@ -31742,11 +31754,13 @@
    "title": "Xe máy thuê hỏng, xước hay hao mòn: Bộ luật Dân sự chia việc sửa chữa và bồi thường cho hai bên thế nào?",
    "primaryIntent": "informational/xe-may-thue-hong-xuoc-hay-hao-mon-bo-luat-dan-su-chia-viec-sua-chua-va-boi-thuong-cho-hai-ben-the-nao",
    "notes": "source=topic-v2 topicId=T002355",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:21.207Z",
-   "updatedAt": "2026-10-24T18:07:21.207Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3394
   },
   {
    "id": "S02162",
@@ -31755,11 +31769,13 @@
    "title": "Thuê xe máy chỉ nói miệng hoặc nhắn tin, không ký giấy: Bộ luật Dân sự có coi là hợp đồng không?",
    "primaryIntent": "informational/thue-xe-may-chi-noi-mieng-hoac-nhan-tin-khong-ky-giay-bo-luat-dan-su-co-coi-la-hop-dong-khong",
    "notes": "source=topic-v2 topicId=T002356",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:25.832Z",
-   "updatedAt": "2026-10-24T18:07:25.833Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3297
   },
   {
    "id": "S02163",
@@ -31768,11 +31784,13 @@
    "title": "Người thuê hoặc mượn xe máy gây tai nạn: chủ xe hay người đang dùng xe phải bồi thường theo Bộ luật Dân sự?",
    "primaryIntent": "informational/nguoi-thue-hoac-muon-xe-may-gay-tai-nan-chu-xe-hay-nguoi-dang-dung-xe-phai-boi-thuong-theo-bo-luat-dan-su",
    "notes": "source=topic-v2 topicId=T002357",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:32.575Z",
-   "updatedAt": "2026-10-24T18:07:32.576Z"
+   "updatedAt": "2026-10-24T21:53:05.174Z",
+   "seoScore": 100,
+   "words": 3486
   },
   {
    "id": "S02164",
@@ -31781,11 +31799,13 @@
    "title": "Va chạm xe máy làm người khác bị thương hoặc hỏng xe: Bộ luật Dân sự tính các khoản bồi thường thế nào?",
    "primaryIntent": "informational/va-cham-xe-may-lam-nguoi-khac-bi-thuong-hoac-hong-xe-bo-luat-dan-su-tinh-cac-khoan-boi-thuong-the-nao",
    "notes": "source=topic-v2 topicId=T002358",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:39.004Z",
-   "updatedAt": "2026-10-24T18:07:39.004Z"
+   "updatedAt": "2026-10-24T21:53:05.175Z",
+   "seoScore": 100,
+   "words": 3597
   },
   {
    "id": "S02165",
