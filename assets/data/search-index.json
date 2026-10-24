@@ -17391,6 +17391,42 @@
  },
  {
   "kind": "article",
+  "url": "wiki/thuat-ngu-xe/chu-bac-trong-tieng-tho-xe-bac-dan-bac-lot-bac-bien-bac-co-bac-cang-va-len-bac-chi-nhung-chi-tiet-nao/",
+  "title": "Chữ \"bạc\" trong tiếng thợ xe: bạc đạn, bạc lót, bạc biên, bạc cổ, bạc càng và \"lên bạc\" chỉ những chi tiết nào",
+  "description": "Bạc cổ rơ, ép bạc càng, bạc biên hỏng, phải lên bạc: cùng một chữ bạc nhưng là vòng bi, ống lót hay chi tiết trong lòng máy, việc nặng hay nhẹ và cách hỏi lại.",
+  "category": "Bách khoa xe",
+  "hub": "Thuật ngữ xe",
+  "entities": [
+   "chữ bạc trong tiếng thợ",
+   "bạc đạn",
+   "bạc lót",
+   "bạc càng",
+   "bạc cổ",
+   "bạc biên",
+   "lên bạc",
+   "vòng găng pít tông",
+   "ổ đỡ cổ lái"
+  ],
+  "keywords": [
+   "chữ bạc trong tiếng thợ xe",
+   "bạc đạn và bạc lót khác nhau thế nào",
+   "bạc biên là gì",
+   "lên bạc xe máy là gì",
+   "bạc cổ rơ"
+  ],
+  "seoTitle": "Chữ bạc trong tiếng thợ xe: bạc đạn, bạc lót, bạc biên, lên bạc",
+  "primaryKeyword": "chữ bạc trong tiếng thợ xe",
+  "headings": [
+   "Vì sao một chữ bạc lại chỉ nhiều chi tiết khác nhau trên xe máy",
+   "Bạc đạn: vòng bi có viên lăn ở bánh, cổ lái và trục máy",
+   "Bạc lót, bạc càng, bạc cổ: ống lót trượt và chỗ nào hay rơ",
+   "Bạc biên và lên bạc: những chữ chỉ chuyện trong lòng máy",
+   "Hỏi lại thợ thế nào để biết đang nói tới bạc nào và việc nặng hay nhẹ"
+  ],
+  "summary": "Thợ nói xe này bạc cổ rơ, phải ép lại bạc càng, bạc biên hỏng rồi, hay xe phải lên bạc, còn chủ xe nghe cùng một chữ bạc mà không hình dung được đó là vòng bi, ống lót hay một chi tiết nằm sâu trong lòng máy, việc nhẹ hay nặng. Bài này tách chữ bạc thành các n"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dau-nhot/chu-ky-thay-dau/",
   "title": "Hướng dẫn chi tiết về chu kỳ thay dầu",
   "description": "Chu kỳ thay dầu xe máy là bao lâu: theo km hay theo thời gian, xe chạy ít thì sao, các yếu tố rút ngắn chu kỳ và cách tự xác định cho xe mình.",
@@ -17870,6 +17906,42 @@
    "Việc nên làm và lúc giao thợ"
   ],
   "summary": "Bài giải thích cổ pô là đoạn ống đầu tiên nối cửa xả của máy với ống xả, chịu nhiệt rất cao nên mối nối dễ hở, thân ống dễ rỉ hoặc nứt thủng. Nội dung chỉ ra ba dấu hiệu quan sát được khi máy nguội gồm vệt muội đen quanh mối nối, tiếng phì theo nhịp máy và mùi"
+ },
+ {
+  "kind": "article",
+  "url": "garage/dong-co/co-po-xe-may-do-ruc-khi-no-may-tai-cho-khi-nao-binh-thuong-khi-nao-la-lua-tre-hoa-khi-ngheo-hay-xuc-tac-tac/",
+  "title": "Cổ pô xe máy đỏ rực khi nổ máy tại chỗ: khi nào bình thường, khi nào là lửa trễ, hòa khí nghèo hay xúc tác tắc",
+  "description": "Cổ pô ửng đỏ mờ sát máy khi nổ máy lâu tại chỗ có thể bình thường; đỏ rực lan xa, nổ lụp bụp, hụt ga, mùi khét là dấu hiệu lửa trễ, hòa khí nghèo, xúc tác tắc.",
+  "category": "Sửa chữa",
+  "hub": "Động cơ",
+  "entities": [
+   "cổ pô đỏ rực",
+   "cổ pô nóng đỏ khi nổ máy tại chỗ",
+   "đánh lửa trễ",
+   "hòa khí nghèo",
+   "hở đường nạp",
+   "bộ xúc tác bị tắc",
+   "bầu pô bị bít",
+   "nổ máy lâu tại chỗ",
+   "xe làm mát bằng gió"
+  ],
+  "keywords": [
+   "cổ pô xe máy đỏ rực",
+   "cổ pô nóng đỏ khi nổ máy",
+   "ống xả xe máy đỏ như than",
+   "cổ pô đỏ có bình thường không",
+   "pô xe máy nóng bất thường"
+  ],
+  "seoTitle": "Cổ pô xe máy đỏ rực khi nổ máy tại chỗ: bình thường hay có lỗi",
+  "primaryKeyword": "cổ pô xe máy đỏ rực",
+  "headings": [
+   "Vì sao cổ pô là chỗ nóng nhất và có thể ửng đỏ khi nổ máy tại chỗ",
+   "Ửng đỏ nhẹ sát máy và đỏ rực lan xa: ranh giới bình thường với bất thường",
+   "Lửa trễ, hòa khí nghèo và khí xả bị ứ: ba hướng làm pô nóng đỏ hơn mức cần",
+   "Những thói quen làm pô nóng thêm: nổ máy lâu tại chỗ, rồ ga thử pô, độ pô",
+   "Việc nên làm ngay, điều không được làm và lúc giao thợ kiểm tra"
+  ],
+  "summary": "Nổ máy tại chỗ buổi tối, hoặc ngay sau khi thợ vừa chỉnh xe, chủ xe cúi xuống thấy đoạn cổ pô sát máy ửng đỏ như than, có khi đỏ cả một khúc, và hoảng không biết máy sắp cháy hay đây là chuyện xe nào cũng có. Bài này giải thích vì sao cổ pô là chỗ nóng nhất củ"
  },
  {
   "kind": "article",
