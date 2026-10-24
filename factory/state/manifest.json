@@ -1652,6 +1652,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/thu-tuc-xe/ban-xe-may-chua-sang-ten-nguoi-dung-ten-con-trach-nhiem-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "market/mua-ban-xe-cu/ban-xe-may-cu-cho-tiem-thu-mua-hay-cho-nguoi-mua-le-moi-ben-nhin-xe-o-dau-va-nen-chuan-bi-gi/index.html",
   "kind": "article"
  },
@@ -1957,6 +1961,10 @@
  },
  {
   "rel": "wiki/cau-tao-xe/cang-sau-xe-may-la-gi-bac-cang-mon-va-lech/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/canh-sat-giao-thong-duoc-dung-xe-kiem-tra-trong-truong-hop-nao/index.html",
   "kind": "article"
  },
  {
@@ -2365,6 +2373,10 @@
  },
  {
   "rel": "learn/ky-thuat-lai-xe/chua-biet-di-xe-dap-co-tap-duoc-xe-may-khong-tap-giu-thang-bang-truoc-va-luc-nao-moi-van-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/chua-giai-quyet-xong-vi-pham-co-duoc-dang-ky-dang-kiem-doi-bang-khong/index.html",
   "kind": "article"
  },
  {
@@ -3137,6 +3149,10 @@
  },
  {
   "rel": "tips/meo-tiet-kiem-xang/do-xang-bi-tran-ra-ngoai-mieng-binh-xang-dinh-son-yen-va-san-de-chan-lau-the-nao-bao-gio-moi-no-may-vi-sao-hay-tran/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/do-xe-may-hoac-doi-mau-son-co-phai-doi-dang-ky-khong/index.html",
   "kind": "article"
  },
  {
@@ -4812,6 +4828,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/nguoi-nuoc-ngoai-lai-xe-may-o-viet-nam-giay-phep-quoc-te/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/nguoi-than-cu-chay-xe-may-co-loi-ro-ma-chua-chiu-sua-nhac-sao-cho-khoi-mat-long-va-de-nghi-giup-dua-xe-di-xem/index.html",
   "kind": "article"
  },
@@ -5457,6 +5477,10 @@
  },
  {
   "rel": "docs/tai-lieu-tham-khao/tai-lieu-tham-khao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/tai-nan-giao-thong-luat-yeu-cau-gi-voi-nguoi-gay-tai-nan-va-nguoi-di-qua/index.html",
   "kind": "article"
  },
  {
