@@ -30063,11 +30063,13 @@
    "title": "Gắn thêm tụ điện hay bộ ổn áp chống sụt áp cho xe máy: làm được gì, có chữa đèn mờ và đề yếu không, rủi ro khi đấu thêm",
    "primaryIntent": "informational/gan-them-tu-dien-hay-bo-on-ap-chong-sut-ap-cho-xe-may-lam-duoc-gi-co-chua-den-mo-va-de-yeu-khong-rui-ro-khi-dau-them",
    "notes": "source=topic-v2 topicId=T002237",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:36:09.869Z",
-   "updatedAt": "2026-10-24T08:36:09.870Z"
+   "updatedAt": "2026-10-24T08:44:27.300Z",
+   "seoScore": 100,
+   "words": 3195
   },
   {
    "id": "S02049",

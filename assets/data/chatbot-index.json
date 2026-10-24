@@ -20960,6 +20960,37 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/gan-them-tu-dien-hay-bo-on-ap-chong-sut-ap-cho-xe-may-lam-duoc-gi-co-chua-den-mo-va-de-yeu-khong-rui-ro-khi-dau-them/",
+  "title": "Gắn thêm tụ điện hay bộ ổn áp chống sụt áp cho xe máy: làm được gì, có chữa đèn mờ và đề yếu không, rủi ro khi đấu thêm",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Nhiều người thấy đèn xe máy mờ khi bấm còi hoặc bấm đề, rồi gặp quảng cáo tụ điện hay bộ ổn áp gắn thêm để chống sụt áp và băn khoăn có nên mua. Bài giải thích ở mức dễ hiểu tụ điện chỉ lưu một ít điện để làm mượt điện áp gợn ngắn, còn bộ ổn áp cố giữ mức điện đều cho thiết bị phía sau nó. Bài phân biệt làm mượt điện áp với chữa nguồn yếu, nêu khi nào gắn thêm có thể có ích và khi nào chỉ che nguyên nhân thật như ắc quy chai, đầu cốt lỏng, dây mát gỉ hay hệ sạc yếu. Bài cũng nói về rủi ro khi tự đấu và thứ tự kiểm ắc quy, đầu cốt, dây mát trước, kèm những câu nên hỏi thợ và nơi bán.",
+  "quickAnswer": "Tụ điện chỉ lưu được rất ít điện để làm mượt những chỗ điện áp gợn hoặc tụt chớp nhoáng, còn bộ ổn áp cố giữ mức điện đều cho thiết bị phía sau; cả hai thường không chữa được ắc quy yếu, đầu cốt lỏng, dây mát kém hay hệ sạc yếu. Vì vậy gắn thêm có thể làm triệu chứng nhẹ đi tùy xe, nhưng cũng có thể chỉ che nguyên nhân thật. Hãy kiểm ắc quy, đầu cốt, dây mát và hệ sạc trước, rồi mới cân nhắc thiết bị gắn thêm. Việc đấu nối nên nhờ thợ điện xe vì nhầm cực hay mối nối kém có thể gây nóng, chập hoặc cháy.",
+  "keyPoints": [
+   "Tụ điện chỉ lưu một ít điện để làm mượt chỗ điện áp gợn hoặc tụt chớp nhoáng; bộ ổn áp cố giữ mức điện đều cho thiết bị phía sau, và không món nào tự tạo thêm điện.",
+   "Làm mượt điện áp khác với chữa nguồn yếu: ắc quy chai, đầu cốt lỏng, dây mát gỉ hay hệ sạc yếu cần được xử lý ở gốc.",
+   "Gắn thêm có thể có ích cho một thiết bị nhạy khi các khâu chính đã ổn, nhưng tác dụng tùy xe và tùy cách đấu.",
+   "Rủi ro khi tự đấu gồm nhầm cực, thiếu cầu chì riêng, mối nối kém, nóng, chập, mất bảo hành và che giấu lỗi thật."
+  ],
+  "entities": [
+   "tụ điện",
+   "bộ ổn áp",
+   "sụt áp",
+   "ắc quy",
+   "đầu cốt",
+   "dây mát",
+   "hệ sạc",
+   "cầu chì riêng"
+  ],
+  "keywords": [
+   "tụ điện chống sụt áp xe máy",
+   "bộ ổn áp cho xe máy",
+   "gắn tụ điện cho xe máy có tác dụng gì",
+   "đèn mờ đề yếu có nên gắn tụ",
+   "rủi ro khi đấu thêm thiết bị điện xe máy"
+  ]
+ },
+ {
   "url": "guide/su-dung-xe/gang-tay-di-xe-may-uot-mo-hoi-hoac-uot-mua-tay-tron-mui-hoi-gang-cung-va-cach-giat-phoi-cho-dung/",
   "title": "Găng tay đi xe máy ướt mồ hôi hoặc ướt mưa: tay trơn, mùi hôi, găng cứng và cách giặt, phơi cho đúng",
   "category": "Hướng dẫn",
