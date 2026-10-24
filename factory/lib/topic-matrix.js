@@ -196,7 +196,9 @@ function checkInvariants(ctx) {
   if (gov && gov.requireApproved) {
     for (const id of inFlightUnapproved) errors.push('slot ' + id + ' đang xử lý nhưng topic chưa APPROVED (governance enforce)');
   }
-  if (awaiting) warnings.push(awaiting + ' slot PLANNED chưa có topic APPROVED — writer KHÔNG được nhận (chờ duyệt)');
+  // In fast writer mode (requireApproved=false) these legacy PLANNED slots are writable.
+  // Do not emit an obsolete "writer cannot claim" warning.
+  if (awaiting && gov && gov.requireApproved) warnings.push(awaiting + ' slot PLANNED chưa có topic APPROVED — writer KHÔNG được nhận (chờ duyệt)');
   if (publishedNoRow) warnings.push(publishedNoRow + ' slot PUBLISHED chưa có dòng trong topic-matrix (chạy topic-backfill)');
   const openApproved = rows.filter(r => r.lifecycle === 'APPROVED' && r.slotId && slots.get(r.slotId) && slots.get(r.slotId).state !== 'PUBLISHED').length;
   if (gov && Number.isFinite(gov.maxApprovedQueue) && openApproved > gov.maxApprovedQueue) {
