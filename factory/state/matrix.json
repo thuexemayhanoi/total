@@ -31143,6 +31143,97 @@
    "updatedAt": "2026-10-24T12:39:26.400Z",
    "seoScore": 100,
    "words": 3433
+  },
+  {
+   "id": "S02122",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "hai-xe-gap-nhau-tren-duong-hep-hoac-duong-deo-xe-xuong-doc-hay-xe-len-doc-phai-nhuong-theo-luat",
+   "title": "Hai xe gặp nhau trên đường hẹp hoặc đường đèo: xe xuống dốc hay xe lên dốc phải nhường theo Luật?",
+   "primaryIntent": "informational/hai-xe-gap-nhau-tren-duong-hep-hoac-duong-deo-xe-xuong-doc-hay-xe-len-doc-phai-nhuong-theo-luat",
+   "notes": "source=topic-v2 topicId=T002315",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T13:06:09.719Z",
+   "updatedAt": "2026-10-24T13:06:09.720Z"
+  },
+  {
+   "id": "S02123",
+   "hub": "learn/kien-thuc-phap-ly",
+   "slug": "qua-pha-qua-cau-phao-bang-xe-may-ai-phai-xuong-xe-ai-xuong-pha-truoc-va-xe-nao-duoc-qua-truoc",
+   "title": "Qua phà, qua cầu phao bằng xe máy: ai phải xuống xe, ai xuống phà trước và xe nào được qua trước?",
+   "primaryIntent": "informational/qua-pha-qua-cau-phao-bang-xe-may-ai-phai-xuong-xe-ai-xuong-pha-truoc-va-xe-nao-duoc-qua-truoc",
+   "notes": "source=topic-v2 topicId=T002316",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T13:06:14.169Z",
+   "updatedAt": "2026-10-24T13:06:14.169Z"
+  },
+  {
+   "id": "S02124",
+   "hub": "learn/kien-thuc-phap-ly",
+   "slug": "trau-bo-cho-va-vat-nuoi-tren-duong-bo-luat-cam-tha-rong-cam-dat-bang-xe-may-va-nguoi-di-xe-phai-lam-gi",
+   "title": "Trâu bò, chó và vật nuôi trên đường bộ: Luật cấm thả rông, cấm dắt bằng xe máy và người đi xe phải làm gì?",
+   "primaryIntent": "informational/trau-bo-cho-va-vat-nuoi-tren-duong-bo-luat-cam-tha-rong-cam-dat-bang-xe-may-va-nguoi-di-xe-phai-lam-gi",
+   "notes": "source=topic-v2 topicId=T002317",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T13:06:18.251Z",
+   "updatedAt": "2026-10-24T13:06:18.252Z"
+  },
+  {
+   "id": "S02125",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "xe-may-di-lan-nao-theo-luat-xe-chay-cham-di-ben-nao-xe-dap-dien-di-lan-nao-va-khi-nao-khong-duoc-vao-lan-rieng",
+   "title": "Xe máy đi làn nào theo Luật: xe chạy chậm đi bên nào, xe đạp điện đi làn nào, khi nào cấm vào làn riêng?",
+   "primaryIntent": "informational/xe-may-di-lan-nao-theo-luat-xe-chay-cham-di-ben-nao-xe-dap-dien-di-lan-nao-va-khi-nao-khong-duoc-vao-lan-rieng",
+   "notes": "source=topic-v2 topicId=T002318",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T13:06:22.390Z",
+   "updatedAt": "2026-10-24T13:06:22.390Z"
+  },
+  {
+   "id": "S02126",
+   "hub": "ride/an-toan-giao-thong",
+   "slug": "luat-bat-xe-may-giam-toc-do-hoac-dung-lai-o-nhung-tinh-huong-nao-tu-vach-nguoi-di-bo-den-troi-mua",
+   "title": "Luật bắt xe máy giảm tốc độ hoặc dừng lại ở những tình huống nào: từ vạch người đi bộ đến trời mưa?",
+   "primaryIntent": "informational/luat-bat-xe-may-giam-toc-do-hoac-dung-lai-o-nhung-tinh-huong-nao-tu-vach-nguoi-di-bo-den-troi-mua",
+   "notes": "source=topic-v2 topicId=T002319",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T13:06:26.772Z",
+   "updatedAt": "2026-10-24T13:06:26.773Z"
+  },
+  {
+   "id": "S02127",
+   "hub": "learn/kien-thuc-phap-ly",
+   "slug": "tu-tap-xem-va-co-vu-dua-xe-trai-phep-tren-duong-nguoi-dung-xem-bi-phat-bao-nhieu-khac-gi-nguoi-dua",
+   "title": "Tụ tập xem và cổ vũ đua xe trái phép trên đường: người đứng xem bị phạt bao nhiêu, khác gì người đua?",
+   "primaryIntent": "informational/tu-tap-xem-va-co-vu-dua-xe-trai-phep-tren-duong-nguoi-dung-xem-bi-phat-bao-nhieu-khac-gi-nguoi-dua",
+   "notes": "source=topic-v2 topicId=T002320",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T13:06:31.434Z",
+   "updatedAt": "2026-10-24T13:06:31.434Z"
+  },
+  {
+   "id": "S02128",
+   "hub": "learn/kien-thuc-phap-ly",
+   "slug": "bi-tuoc-giay-phep-lai-xe-thoi-han-tinh-tu-ngay-nao-chua-nop-bang-thi-sao-va-luc-do-lam-duoc-thu-tuc-gi",
+   "title": "Bị tước giấy phép lái xe: thời hạn tính từ ngày nào, chưa nộp bằng thì sao và lúc đó làm được thủ tục gì?",
+   "primaryIntent": "informational/bi-tuoc-giay-phep-lai-xe-thoi-han-tinh-tu-ngay-nao-chua-nop-bang-thi-sao-va-luc-do-lam-duoc-thu-tuc-gi",
+   "notes": "source=topic-v2 topicId=T002321",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T13:06:35.876Z",
+   "updatedAt": "2026-10-24T13:06:35.876Z"
   }
  ]
 }
