@@ -28908,11 +28908,13 @@
    "title": "Các ống nhỏ thòng xuống dưới gầm xe máy: ống nào xả nước, ống nào thở và vì sao không được bịt hay cắt",
    "primaryIntent": "informational/cac-ong-nho-thong-xuong-duoi-gam-xe-may-la-gi-ong-nao-xa-nuoc-ong-nao-tho-va-vi-sao-khong-duoc-bit-hay-cat",
    "notes": "source=topic-v2 topicId=T002155",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:25:50.593Z",
-   "updatedAt": "2026-10-24T04:25:50.594Z"
+   "updatedAt": "2026-10-24T05:42:31.503Z",
+   "seoScore": 91,
+   "words": 3133
   },
   {
    "id": "S01972",
