@@ -25333,6 +25333,37 @@
   ]
  },
  {
+  "url": "garage/phanh/kiem-tra-muc-dau-phanh-xe-may-o-binh-tren-tay-lai-nhin-kinh-vach-thap-cao-vi-sao-muc-ha-dan-va-khi-nao-la-ro/",
+  "title": "Kiểm tra mức dầu phanh xe máy ở bình trên tay lái: nhìn kính, vạch thấp cao, vì sao mức hạ dần và khi nào là rò",
+  "category": "Sửa chữa",
+  "hub": "Phanh",
+  "summary": "Nhiều người muốn biết dầu phanh còn đủ không nhưng không rõ bình dầu nằm đâu, nhìn vạch nào, và mức hạ dần là chuyện thường hay đang rò. Bài chỉ vị trí bình dầu trên ghi đông, cách đọc mức qua ô kính hoặc hai vạch thấp cao mà không cần mở nắp, và tư thế xe cùng ghi đông để không đọc sai. Bài giải thích vì sao má phanh mòn làm mức hạ chậm là bình thường, khác với mức tụt nhanh có thể là rò. Bài cũng nói rõ vì sao không tự mở nắp hay đổ thêm dầu, cách tránh dầu dính vào sơn và da, và lúc nào nên giao xe cho thợ.",
+  "quickAnswer": "Dựng xe thẳng trên nền phẳng, để ghi đông ở giữa, đứng chỗ đủ sáng rồi nhìn thẳng vào ô kính hoặc hai vạch trên thân bình ở tay phanh: mức tốt nằm giữa vạch thấp và vạch cao. Mức hạ chậm qua nhiều tháng, tay phanh vẫn chắc và quanh bình, ống, heo phanh khô ráo thường là do má phanh mòn dần nên bình thường. Mức tụt nhanh, nằm dưới vạch thấp, tay phanh mềm hoặc có vệt ướt là dấu hiệu nên dừng xe và nhờ thợ. Không mở nắp và không tự đổ thêm dầu.",
+  "keyPoints": [
+   "Bình dầu phanh trước thường gắn ngay trên cụm tay phanh ở ghi đông; phanh đĩa sau thường có bình riêng, vị trí tùy xe nên cần đối chiếu sách hướng dẫn.",
+   "Mức dầu đọc qua ô kính hoặc hai vạch thấp cao mà không cần mở nắp; muốn đọc đúng phải để xe thẳng, ghi đông ở giữa, đủ sáng và nhìn ngang tầm mắt.",
+   "Má phanh mòn làm pít-tông tiến ra và dầu từ bình dồn xuống heo, nên mức hạ chậm theo thời gian thường là bình thường.",
+   "Mức tụt nhanh, xuống dưới vạch thấp, kèm tay phanh mềm hoặc vệt ướt quanh ống, heo, cụm tay phanh là dấu hiệu có thể đang rò."
+  ],
+  "entities": [
+   "bình dầu phanh",
+   "kính quan sát mức dầu",
+   "vạch thấp và vạch cao",
+   "tay phanh",
+   "heo phanh",
+   "má phanh",
+   "pít-tông",
+   "xi-lanh chính"
+  ],
+  "keywords": [
+   "kiểm tra mức dầu phanh xe máy",
+   "bình dầu phanh xe máy nằm ở đâu",
+   "mức dầu phanh hạ dần",
+   "dầu phanh xe máy tụt nhanh",
+   "dầu phanh dưới vạch thấp"
+  ]
+ },
+ {
   "url": "tips/meo-bao-duong/kiem-tra-muc-nhot-xe-may-dung-cach/",
   "title": "Kiểm tra mức nhớt xe máy đúng cách: tư thế xe, máy nóng hay nguội, que thăm hay cửa sổ mức và cách đọc màu nhớt",
   "category": "Mẹo",
