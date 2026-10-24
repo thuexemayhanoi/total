@@ -29568,11 +29568,13 @@
    "title": "Xì, rỉ, rò, chảy và “đổ mồ hôi” trong tiếng thợ xe: ướt nhẹ khác chảy thành giọt ở chỗ nào và mức nào thì phải dừng xe",
    "primaryIntent": "informational/xi-ri-ro-chay-va-do-mo-hoi-trong-tieng-tho-xe-uot-nhe-khac-chay-thanh-giot-o-cho-nao-va-muc-nao-thi-phai-dung-xe",
    "notes": "source=topic-v2 topicId=T002202",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:02:00.020Z",
-   "updatedAt": "2026-10-24T07:02:00.020Z"
+   "updatedAt": "2026-10-24T07:10:30.645Z",
+   "seoScore": 100,
+   "words": 3170
   },
   {
    "id": "S02016",
