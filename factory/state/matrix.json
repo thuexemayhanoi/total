@@ -30149,11 +30149,13 @@
    "title": "Dừng tắm biển, tắm suối hoặc bơi hồ giữa chuyến xe máy: cất chìa khóa ở đâu, xử lý đồ ướt và nghỉ đủ trước khi lên xe",
    "primaryIntent": "informational/dung-tam-bien-tam-suoi-hoac-boi-ho-giua-chuyen-xe-may-cat-chia-khoa-o-dau-xu-ly-do-uot-va-nghi-du-truoc-khi-len-xe",
    "notes": "source=topic-v2 topicId=T002243",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:53:13.626Z",
-   "updatedAt": "2026-10-24T08:53:13.627Z"
+   "updatedAt": "2026-10-24T08:58:40.723Z",
+   "seoScore": 100,
+   "words": 3189
   },
   {
    "id": "S02055",
