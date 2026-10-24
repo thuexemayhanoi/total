@@ -28986,11 +28986,13 @@
    "title": "Bó dây điện xe máy cũ lão hóa: vỏ giòn nứt, giắc gỉ, vì sao xe cũ hay lỗi điện và vá tạm được không hay thay cả bộ",
    "primaryIntent": "informational/bo-day-dien-xe-may-cu-lao-hoa-vo-gion-nut-giac-gi-vi-sao-xe-cu-hay-loi-dien-va-va-tam-duoc-khong-hay-thay-ca-bo",
    "notes": "source=topic-v2 topicId=T002161",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:25:51.043Z",
-   "updatedAt": "2026-10-24T04:25:51.043Z"
+   "updatedAt": "2026-10-24T04:37:00.744Z",
+   "seoScore": 100,
+   "words": 4000
   },
   {
    "id": "S01978",
