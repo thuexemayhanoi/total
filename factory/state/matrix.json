@@ -29403,11 +29403,13 @@
    "title": "Bị xe khác quẹt trúng rồi bỏ đi: giữ thăng bằng, dừng ở chỗ an toàn, ghi lại điều nhớ được và báo cho đúng nơi",
    "primaryIntent": "troubleshooting/bi-xe-khac-quet-trung-roi-bo-di-giu-thang-bang-dung-o-cho-an-toan-ghi-lai-dieu-nho-duoc-va-bao-cho-dung-noi",
    "notes": "source=topic-v2 topicId=T002191",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:00.795Z",
-   "updatedAt": "2026-10-24T06:55:00.796Z"
+   "updatedAt": "2026-10-24T07:03:02.514Z",
+   "seoScore": 100,
+   "words": 3191
   },
   {
    "id": "S02005",
@@ -29446,11 +29448,13 @@
    "title": "Đèn xanh nhưng bên kia ngã tư đã kẹt cứng: vì sao đừng nhích vào giữa, chờ ở vạch ra sao và lách ra khi lỡ kẹt",
    "primaryIntent": "troubleshooting/den-xanh-nhung-ben-kia-nga-tu-da-ket-cung-vi-sao-dung-nhich-vao-giua-cho-o-vach-ra-sao-va-lach-ra-khi-lo-ket",
    "notes": "source=topic-v2 topicId=T002194",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:07.068Z",
-   "updatedAt": "2026-10-24T06:55:07.068Z"
+   "updatedAt": "2026-10-24T07:03:02.514Z",
+   "seoScore": 100,
+   "words": 3140
   },
   {
    "id": "S02008",
