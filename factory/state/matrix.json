@@ -29103,11 +29103,13 @@
    "title": "Má phanh xe máy làm từ vật liệu gì: hữu cơ, bán kim loại và thiêu kết khác nhau ở độ êm, tiếng kêu và độ mòn đĩa",
    "primaryIntent": "informational/ma-phanh-xe-may-lam-tu-vat-lieu-gi-huu-co-ban-kim-loai-va-thieu-ket-khac-nhau-o-do-em-tieng-keu-va-do-mon-dia",
    "notes": "source=topic-v2 topicId=T002170",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:25.610Z",
-   "updatedAt": "2026-10-24T06:02:25.610Z"
+   "updatedAt": "2026-10-24T06:08:39.501Z",
+   "seoScore": 100,
+   "words": 3030
   },
   {
    "id": "S01985",
