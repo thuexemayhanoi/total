@@ -15482,6 +15482,37 @@
   ]
  },
  {
+  "url": "thue-xe/xe-oto/den-canh-bao-tren-tap-lo-o-to-thue-sang-giua-chuyen-do-va-vang-khac-nhau-ra-sao-dung-hay-di-tiep-va-bao-chu-xe-the-nao/",
+  "title": "Đèn cảnh báo trên táp-lô ô tô thuê sáng giữa chuyến: đỏ và vàng khác nhau ra sao, dừng hay đi tiếp và báo chủ xe thế nào",
+  "category": "Thuê xe",
+  "hub": "Xe ô tô",
+  "summary": "Đang lái ô tô thuê thì một biểu tượng lạ sáng lên trên táp-lô, người thuê thường không biết đó là lời nhắc nhỏ hay lỗi nặng, có nên chạy tiếp không và nên nói gì với chủ xe. Bài giải thích nhóm màu cảnh báo thường gặp và vì sao phải đọc cả biểu tượng lẫn cách sáng. Bài đi qua cách phản ứng với đèn đỏ và đèn vàng, những gì nên chụp để gửi chủ xe và câu nên hỏi người giao xe lúc nhận. Bài cũng nói vì sao không nên tự xóa lỗi hay ngắt ắc quy để đèn tắt.",
+  "quickAnswer": "Màu đỏ thường là dấu hiệu nên giảm tốc, tìm chỗ dừng an toàn sớm rồi báo chủ xe; màu vàng hoặc cam thường là lời nhắc chú ý và kiểm sớm; màu xanh hoặc trắng thường chỉ báo chức năng đang bật. Đèn nhấp nháy thường đáng lo hơn đèn sáng liên tục, còn đèn sáng thoáng qua lúc khởi động thường là xe tự kiểm tra. Hãy đọc cả biểu tượng và cảm giác lái, chụp táp-lô, ghi giờ và địa điểm, báo chủ xe sớm, không tự tháo, đấu điện hay rút ắc quy để đèn tắt.",
+  "keyPoints": [
+   "Màu chỉ là mức độ chung: đỏ thường cần dừng sớm ở chỗ an toàn, vàng hoặc cam cần chú ý và kiểm sớm, xanh hoặc trắng thường là chức năng đang bật.",
+   "Đèn nhấp nháy khác đèn sáng liên tục; đèn sáng thoáng qua lúc khởi động thường là xe tự kiểm tra.",
+   "Khi cần dừng: giảm tốc đều, ra khỏi làn, bật đèn khẩn cấp, và cho mọi người rời xe ra chỗ an toàn nếu phải chờ lâu.",
+   "Chụp táp-lô, ghi giờ, địa điểm, quãng đường vừa đi, báo chủ xe sớm và hỏi có đi tiếp được không, tới đâu, ai hỗ trợ."
+  ],
+  "entities": [
+   "đèn cảnh báo",
+   "táp-lô",
+   "đèn đỏ",
+   "đèn vàng",
+   "đèn nhấp nháy",
+   "đèn khẩn cấp",
+   "chủ xe",
+   "ô tô thuê tự lái"
+  ],
+  "keywords": [
+   "đèn cảnh báo ô tô thuê sáng",
+   "đèn cảnh báo trên táp-lô",
+   "đèn đỏ và đèn vàng trên ô tô",
+   "đèn cảnh báo sáng giữa chuyến có đi tiếp được không",
+   "báo chủ xe khi xe thuê báo lỗi"
+  ]
+ },
+ {
   "url": "ride/an-toan-giao-thong/den-do-o-nga-tu-vang-xe-sau-bam-coi-hoi-va-nguoi-khac-vuot-vi-sao-minh-van-dung-va-cach-chiu-ap-luc/",
   "title": "Đèn đỏ ở ngã tư vắng, xe sau bấm còi hối và người khác vượt: vì sao mình vẫn dừng và cách chịu áp lực",
   "category": "Hành trình",

@@ -29208,11 +29208,13 @@
    "title": "Đèn cảnh báo trên táp-lô ô tô thuê sáng giữa chuyến: đỏ và vàng khác nhau ra sao, dừng hay đi tiếp và báo chủ xe thế nào",
    "primaryIntent": "informational/den-canh-bao-tren-tap-lo-o-to-thue-sang-giua-chuyen-do-va-vang-khac-nhau-ra-sao-dung-hay-di-tiep-va-bao-chu-xe-the-nao",
    "notes": "source=topic-v2 topicId=T002178",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:39.008Z",
-   "updatedAt": "2026-10-24T06:02:39.008Z"
+   "updatedAt": "2026-10-24T06:12:26.861Z",
+   "seoScore": 100,
+   "words": 3190
   },
   {
    "id": "S01992",
