@@ -1,0 +1,93 @@
+// AI WIKI TOTAL — S01973 (topic V2); không nêu số liệu, giá hay tên hãng.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'chu-bac-trong-tieng-tho-xe-bac-dan-bac-lot-bac-bien-bac-co-bac-cang-va-len-bac-chi-nhung-chi-tiet-nao',
+  title: 'Chữ "bạc" trong tiếng thợ xe: bạc đạn, bạc lót, bạc biên, bạc cổ, bạc càng và "lên bạc" chỉ những chi tiết nào',
+  seoTitle: 'Chữ bạc trong tiếng thợ xe: bạc đạn, bạc lót, bạc biên, lên bạc',
+  metaDescription: 'Bạc cổ rơ, ép bạc càng, bạc biên hỏng, phải lên bạc: cùng một chữ bạc nhưng là vòng bi, ống lót hay chi tiết trong lòng máy, việc nặng hay nhẹ và cách hỏi lại.',
+  summary: 'Thợ nói xe này bạc cổ rơ, phải ép lại bạc càng, bạc biên hỏng rồi, hay xe phải lên bạc, còn chủ xe nghe cùng một chữ bạc mà không hình dung được đó là vòng bi, ống lót hay một chi tiết nằm sâu trong lòng máy, việc nhẹ hay nặng. Bài này tách chữ bạc thành các nghĩa thật sự khác nhau trong tiếng thợ: bạc đạn là vòng bi có viên lăn ở bánh, cổ lái và trục máy; bạc lót, bạc càng là ống lót trượt không có viên lăn ở những khớp xoay chậm; bạc cổ là cụm ổ đỡ cổ lái hay bị rơ; bạc biên là chỗ tay biên ôm trục khuỷu; còn lên bạc ở nhiều tiệm lại chỉ việc thay vòng găng pít tông. Với mỗi nghĩa có chỗ nằm trên xe, biểu hiện khi hỏng, mức nặng nhẹ của việc sửa, và cuối cùng là cách hỏi lại thợ để biết chắc đang nói tới bạc nào trước khi gật đầu.',
+  quickAnswer: 'Trong tiếng thợ, bạc không phải một chi tiết mà là một họ chi tiết nằm giữa hai bộ phận chuyển động, và cùng một chữ có thể chỉ những thứ rất khác nhau. Bạc đạn là vòng bi có viên lăn, gặp ở bánh xe, cổ lái, trục khuỷu; hỏng thì ù, rít, rơ, việc thay ở bánh thuộc mức vừa còn ở cốt máy là mở máy. Bạc lót, bạc càng là ống lót trơn ở các khớp xoay chậm như trục càng sau, cần đạp, trục cò; hỏng thì rơ, lắc, kêu cọt kẹt, phải ép thay. Bạc cổ là ổ đỡ cổ lái, hỏng thì tay lái khựng, lục cục, thường chỉnh hoặc thay chén và bi. Bạc biên nằm ở tay biên ôm trục khuỷu, hỏng thì gõ trong máy, thuộc việc nặng nhất. Lên bạc ở nhiều tiệm nghĩa là thay vòng găng pít tông khi xe hao nhớt, ra khói. Cách chắc nhất là nhờ thợ chỉ tay vào chi tiết, hỏi nó có viên lăn hay là ống lót và có phải mở máy không.',
+  keyPoints: [
+    'Chữ bạc trong tiếng thợ chỉ chung những chi tiết đỡ, dẫn hướng giữa hai bộ phận chuyển động, được cho là bắt nguồn từ một từ gốc Pháp chỉ cái vòng, nên bất cứ thứ gì dạng vòng, ống ôm quanh trục đều có thể bị gọi là bạc.',
+    'Bạc đạn là vòng bi có viên lăn, nằm ở đùm bánh, cổ lái dạng bi, trục khuỷu, trục nồi; mòn thì ù, rít, rơ; thay ở bánh là việc ở ngoài máy còn thay bạc đạn cốt máy là phải tách lốc.',
+    'Bạc lót hay bạc trượt là ống lót không có viên lăn, dùng ở khớp xoay chậm như trục càng sau, cần đạp, cần số, trục cò; bạc càng rơ làm đuôi xe lắc, kêu cọt kẹt và thường phải ép thay.',
+    'Bạc biên là chi tiết ở đầu tay biên ôm chốt khuỷu, hỏng thì gõ đanh trong máy và kéo theo việc mở máy nặng; lên bạc hay làm bạc ở nhiều tiệm lại chỉ việc thay vòng găng pít tông khi xe hao nhớt, khói xanh.',
+    'Trước khi đồng ý sửa, nhờ thợ chỉ vào chi tiết, hỏi nó có viên lăn hay là ống lót, có phải mở máy không và dấu hiệu nào khiến thợ kết luận; ghi lại tên theo sách hướng dẫn để tra cứu và so sánh.'
+  ],
+  category: 'wiki',
+  hub: 'thuat-ngu-xe',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['chữ bạc trong tiếng thợ', 'bạc đạn', 'bạc lót', 'bạc càng', 'bạc cổ', 'bạc biên', 'lên bạc', 'vòng găng pít tông', 'ổ đỡ cổ lái'],
+  keywords: ['chữ bạc trong tiếng thợ xe', 'bạc đạn và bạc lót khác nhau thế nào', 'bạc biên là gì', 'lên bạc xe máy là gì', 'bạc cổ rơ'],
+  sections: [
+    P('Vì sao một chữ bạc lại chỉ nhiều chi tiết khác nhau trên xe máy', [
+      'Trong tiếng thợ xe, chữ bạc gần như không bao giờ đứng một mình mà luôn đi kèm một chữ khác: bạc đạn, bạc lót, bạc biên, bạc cổ, bạc càng, lên bạc. Điểm chung của tất cả là chúng đều chỉ một chi tiết nằm giữa hai bộ phận chuyển động tương đối với nhau, làm nhiệm vụ đỡ, dẫn hướng hoặc làm kín, và đều là thứ được thiết kế để mòn trước nhằm bảo vệ phần khó thay hơn. Nhiều người cho rằng chữ này bắt nguồn từ một từ gốc Pháp chỉ cái vòng, cái đai, được thợ thời trước đọc chệch rồi dùng quen; đây là cách giải thích truyền miệng chứ không phải điều chắc chắn, nhưng nó giúp hiểu vì sao cái gì có dạng vòng, ống hay vành ôm quanh một trục đều có thể bị gọi là bạc.',
+      'Vì sao thợ không gọi riêng từng thứ bằng tên trong sách? Vì tiếng thợ hình thành ở tiệm, qua việc chỉ tay và nói nhanh, chứ không qua tài liệu. Khi thợ nói với nhau, họ đứng cạnh chiếc xe, chữ bạc đi kèm một cái chỉ tay nên không ai hiểu nhầm. Chủ xe chỉ nghe qua điện thoại hay đọc dòng chữ trên phiếu sửa, thiếu cái chỉ tay ấy, nên một chữ bỗng thành nhiều chữ. Thêm nữa, mỗi vùng, mỗi tiệm, mỗi thế hệ thợ gọi hơi khác nhau: nơi gọi bạc đạn, nơi gọi vòng bi, nơi gọi ổ bi; nơi gọi bạc lót, nơi gọi ống lót, bạc trượt hay bạc thau. Cùng một thợ cũng có thể gọi hai kiểu trong cùng một câu.',
+      'Để tách rõ, có thể chia chữ bạc thành bốn nhóm nghĩa thật sự khác nhau về cấu tạo và về mức việc. Nhóm thứ nhất là bạc đạn, tức vòng bi có viên lăn bên trong. Nhóm thứ hai là bạc lót hay bạc trượt, tức ống lót trơn, không có viên lăn, hai mặt trượt lên nhau qua lớp mỡ hay nhớt. Nhóm thứ ba là những chữ chỉ chuyện trong lòng máy: bạc biên ở chỗ tay biên ôm trục khuỷu, và cụm lên bạc, làm bạc, thay bạc mà ở nhiều tiệm lại chỉ việc thay vòng găng pít tông. Nhóm cuối không liên quan gì tới cơ khí: bạc là màu, như sơn màu bạc, mâm bạc, hay chữ bạc màu nghĩa là phai màu; nghe thợ nói dàn áo bạc màu thì không có chi tiết nào cần thay cả.',
+      'Hiểu bốn nhóm này quan trọng vì mức việc đi kèm rất khác nhau. Thay một bạc đạn bánh xe là việc ở ngoài máy, thường xong trong buổi. Ép lại bạc càng cũng là việc ở gầm xe nhưng cần dụng cụ ép và kinh nghiệm canh lại. Còn bạc biên hay lên bạc là việc phải mở máy, có khi phải tách cả hai nửa lốc, kéo theo nhiều chi tiết khác phải thay cùng lúc. Nghe thợ nói chữ bạc mà hình dung đúng nhóm, chủ xe sẽ biết mình đang được báo một việc nhỏ hay một việc phải cân nhắc, và biết hỏi lại đúng câu. Các phần sau đi vào từng nhóm, từ nhẹ tới nặng.'
+    ]),
+    P('Bạc đạn: vòng bi có viên lăn ở bánh, cổ lái và trục máy', [
+      'Bạc đạn là tên thợ gọi vòng bi: hai vành thép lồng vào nhau, ở giữa là những viên bi tròn hoặc con lăn hình trụ, hình kim, được một cái lồng giữ cho cách đều nhau. Chữ đạn ở đây được hiểu là viên bi, nên bạc đạn là cái bạc có viên đạn lăn bên trong. Nhờ các viên lăn, hai vành quay tương đối với nhau mà gần như không cọ xát, chịu được tốc độ quay cao và tải nặng. Trong sách hướng dẫn, chi tiết này thường ghi là vòng bi hoặc ổ bi; có nơi thợ gọi tắt là bi, như thay bi bánh sau, cũng là nó.',
+      'Trên xe máy, bạc đạn có mặt ở nhiều chỗ. Dễ thấy nhất là bạc đạn bánh trước và bánh sau, nằm trong đùm, cho bánh quay quanh trục. Ở đùm sau xe số còn có bạc đạn của cụm nhông xích phía sau. Trong động cơ, hai đầu trục khuỷu quay trên những bạc đạn lớn gọi là bạc đạn cốt máy; trục bơm nước, trục bộ nồi ở xe tay ga cũng dùng bạc đạn. Ở cổ lái, nhiều xe dùng viên bi rời đặt trong chén cổ, cũng là dạng vòng bi nhưng tháo rời được; một số xe dùng bạc đạn côn nguyên khối. Phần bạc đạn bánh xe, vai trò và dấu hiệu mòn đã có bài riêng trên trang, ở đây chỉ nói ở mức nhận diện.',
+      'Khi bạc đạn hỏng, dấu hiệu đặc trưng là tiếng ù hoặc gầm tăng theo tốc độ, cảm giác rít hay lợn cợn khi quay bánh bằng tay, và độ rơ khi lắc bánh theo chiều ngang. Bạc đạn bị kẹt viên lăn thì bánh quay nặng và đùm nóng sau khi chạy. Bạc đạn cốt máy mòn thường nghe tiếng ù sâu từ trong máy, thay đổi theo vòng tua chứ không theo tốc độ xe, có khi kèm rung. Vì sao bạc đạn mòn? Thường do nước và bụi lọt qua phớt chắn, mỡ bên trong khô, xe chở nặng lâu ngày hay bị va mạnh làm viên lăn ép lõm vành.',
+      'Mức việc của nhóm này nhìn chung ở mức vừa. Thay bạc đạn bánh là việc phổ biến ở mọi tiệm: tháo bánh, đóng bạc cũ ra, ép hay đóng bạc mới vào, thay phớt, canh lại. Việc này không cần mở máy. Bạc đạn cốt máy thì khác hẳn: phải tách lốc máy, thuộc nhóm việc nặng ngang với làm máy. Nên khi nghe thợ nói bạc đạn, câu hỏi đầu tiên là bạc đạn ở đâu, vì cùng tên nhưng bạc đạn bánh và bạc đạn cốt máy cách nhau rất xa về công sức và về thứ phải tháo ra.'
+    ]),
+    P('Bạc lót, bạc càng, bạc cổ: ống lót trượt và chỗ nào hay rơ', [
+      'Bạc lót, còn gọi là bạc trượt, ống lót hay bạc thau tùy nơi, là một ống bằng kim loại hoặc nhựa chịu mài mòn, bên trong không có viên lăn. Trục xoay nằm trong lòng ống, hai mặt trượt trực tiếp lên nhau nhờ một lớp mỡ hay nhớt mỏng. Nó được chọn ở những chỗ chuyển động chậm, chỉ xoay qua lại một góc nhỏ chứ không quay tròn liên tục, nơi vòng bi là thừa và dễ hỏng vì rung. Ưu điểm là chịu va đập tốt, gọn, dễ thay; nhược điểm là mòn dần khi lớp mỡ khô đi hoặc bụi lọt vào, và sinh độ rơ mà người lái cảm nhận được.',
+      'Chỗ dùng bạc lót quen thuộc nhất là càng sau: ống lót ở trục xoay nối càng với khung, thợ gọi gọn là bạc càng, dù trên một số xe chỗ này lại là vòng kim. Ngoài ra còn bạc ở trục cần đạp khởi động, trục cần số, trục cò mổ trong đầu máy, trục xoay của chân chống, tay phanh, cần phanh chân, và ở các khớp của giảm xóc sau dạng liên kết. Hầu hết những chỗ này xoay qua lại trong một góc nhỏ, đúng với sở trường của bạc lót. Trong sách hướng dẫn, chúng thường được ghi là ống lót hoặc bạc, có nơi ghi là bạc dẫn hướng hay ống lót trục.',
+      'Bạc cổ là một trường hợp hơi đặc biệt. Thợ gọi bạc cổ để chỉ cả cụm ổ đỡ cổ lái: chén cổ trên và dưới, viên bi hoặc con lăn, cùng nắp cổ. Về cấu tạo nó gần với vòng bi hơn là ống lót, nhưng được xếp chung ở đây vì cách hỏng giống nhau: bị rơ. Bạc cổ rơ cho cảm giác tay lái khựng ở giữa, đầu xe lắc nhẹ khi phanh, nghe lục cục khi đi qua gờ; bạc cổ chặt quá thì tay lái nặng, không tự trả về. Khi thợ nói chỉnh bạc cổ, thường là siết lại độ rơ; nói thay bạc cổ là thay chén và bi. Bài về hệ thống lái và cổ phuộc trên trang đã nói kỹ cảm giác tay lái của phần này.',
+      'Dấu hiệu rơ ở bạc càng là đuôi xe lắc hoặc vẫy khi chạy nhanh, tiếng cọt kẹt khi nhún, và khi dựng xe lên chân chống giữa rồi lắc ngang bánh sau thấy cả càng dịch theo. Bạc cần đạp hay cần số rơ thì cần lỏng, hành trình dài hơn, có khi rỉ nhớt ở phớt. Việc thay bạc lót nhìn chung nhẹ hơn mở máy nhưng không hẳn là việc nhỏ: bạc càng phải tháo bánh sau, tháo càng, ép bạc cũ ra, ép bạc mới vào, lắp lại và canh. Cụm từ ép bạc trên phiếu sửa xe, cũng như chuyện bạc càng mòn, càng lệch và đuôi xe vẫy khi chạy nhanh, đã có các bài riêng trên trang.'
+    ]),
+    P('Bạc biên và lên bạc: những chữ chỉ chuyện trong lòng máy', [
+      'Bạc biên là chi tiết ở chỗ tay biên, tức thanh nối pít tông với trục khuỷu, ôm lấy chốt khuỷu. Đầu to của tay biên quay quanh chốt khuỷu liên tục với tốc độ cao, nên ở xe máy phổ thông chỗ này thường là một vòng con lăn hình kim nằm giữa chốt và tay biên, còn ở một số động cơ khác lại là hai nửa bạc trượt mỏng. Đầu nhỏ của tay biên, nơi ôm chốt pít tông, cũng thường có một bạc riêng, thợ gọi là bạc ắc hoặc bạc chốt. Dù là dạng nào, tiếng thợ vẫn gọi chung là bạc biên, và sách hướng dẫn thường gọi là ổ đầu to, ổ đầu nhỏ tay biên.',
+      'Bạc biên hỏng là một trong những lỗi nặng của động cơ. Dấu hiệu thường là tiếng gõ đanh từ trong máy, rõ hơn khi tăng ga đột ngột hoặc khi chịu tải, khác với tiếng lạch cạch nhẹ của xupap ở nắp máy. Nếu để lâu, độ rơ tăng dần, tiếng gõ to dần, và có thể dẫn tới hỏng chốt khuỷu, thậm chí gãy tay biên và phá nòng. Nguyên nhân hay gặp là thiếu nhớt, nhớt quá cũ, nhớt lẫn nước, hay xe chạy lâu với máy nóng quá mức. Vì nằm sâu trong lòng máy, bạc biên hỏng thường kéo theo việc thay hoặc ép lại cả cụm trục khuỷu đã ráp sẵn tay biên, tùy xe và tùy thợ.',
+      'Cụm từ lên bạc hoặc làm bạc lại là chuyện khác hẳn, dù cùng chữ. Ở rất nhiều tiệm, bạc ở đây là cách gọi tắt của xéc măng, tức các vòng găng mỏng ôm quanh pít tông, có nơi gọi hẳn là bạc pít tông hay bạc xéc măng. Lên bạc là thay bộ vòng găng này, thường đi kèm kiểm tra lại nòng xi lanh; có tiệm nói lên bạc là ngụ ý làm lại cả cụm đầu máy gồm pít tông, nòng và xupap. Xe phải lên bạc khi hao nhớt, khói xanh ở ống xả, máy yếu, khó nổ lúc nguội, hay thợ đo thấy áp suất nén thấp. Nghĩa này không có liên hệ nào với ổ đỡ hay vòng bi, chỉ là cùng chữ.',
+      'Cả hai việc trong nhóm này đều thuộc mức nặng vì phải mở máy, và hậu quả của việc làm cẩu thả cũng lớn. Trước khi gật đầu, chủ xe nên biết rõ thợ đang nói bạc biên hay bạc pít tông, vì một bên là mở tới trục khuỷu, bên kia chỉ mở phần đầu máy; nên hỏi sẽ thay thêm những gì cùng lúc, có doa nòng hay thay pít tông không, và mất bao lâu. Với máy đã mở, thợ thường đề nghị thay luôn phớt, gioăng và xích cam nếu đã mòn; đó là đề nghị hợp lý chứ không phải vẽ việc, nhưng vẫn nên được liệt kê trước để chủ xe không bất ngờ khi nhận xe.'
+    ]),
+    P('Hỏi lại thợ thế nào để biết đang nói tới bạc nào và việc nặng hay nhẹ', [
+      'Cách hỏi đơn giản và hiệu quả nhất là nhờ thợ chỉ tay vào chi tiết trên xe, hoặc đưa chi tiết cũ ra cho xem khi đã tháo. Tiếng thợ sinh ra cùng cái chỉ tay, nên lấy lại cái chỉ tay là mọi mơ hồ biến mất. Nếu đang nói qua điện thoại, hãy hỏi thẳng hai câu: bạc đó nằm ở đâu trên xe, và có phải mở máy không. Câu trả lời cho hai câu ấy đủ để xếp chi tiết vào một trong bốn nhóm ở trên, và từ đó hình dung ngay mức việc.',
+      'Câu hỏi tiếp theo nên là bạc đó có viên lăn hay là ống lót trơn. Câu hỏi này nghe có vẻ kỹ thuật, nhưng thợ hiểu ngay và thường trả lời được tức khắc. Vòng bi có viên lăn thì thường thay mới nguyên, không sửa được; ống lót thì có thể ép thay, đôi khi doa lại cho vừa trục. Biết điều này giúp chủ xe hiểu vì sao có bạc được ép, có bạc chỉ thay, và tránh hoang mang khi thấy phiếu sửa ghi ép bạc nhưng thợ lại nói thay bạc, vì ép ở đây là cách đưa bạc mới vào chỗ lắp chặt chứ không phải sửa bạc cũ.',
+      'Câu hỏi thứ ba là dấu hiệu nào khiến thợ kết luận. Bạc đạn mòn có tiếng ù và độ rơ lắc được bằng tay; bạc càng rơ thấy được khi lắc bánh sau trên chân chống giữa; bạc cổ rơ thử được bằng cách bóp phanh trước và đẩy xe tới lui; bạc biên gõ nghe được khi tăng ga; lên bạc thì dựa vào khói, hao nhớt và kết quả đo nén. Khi thợ chỉ cho bạn thấy hoặc nghe thấy dấu hiệu ấy, bạn đang đồng ý trên cơ sở quan sát chứ không phải trên một chữ. Nếu dấu hiệu không rõ, hỏi thêm ở một tiệm khác là chuyện bình thường, nhất là với việc phải mở máy.',
+      'Cuối cùng, ghi lại tên theo sách hướng dẫn: vòng bi bánh trước, ống lót càng sau, ổ bi cổ lái, ổ đầu to tay biên, vòng găng pít tông. Tên chuẩn giúp bạn tra cứu, so sánh phụ tùng, và kể lại với tiệm khác mà không bị lệch nghĩa. Việc tự làm của chủ xe dừng ở đó: quan sát, hỏi, ghi lại, chụp ảnh chi tiết cũ; còn tháo, ép, doa, mở máy luôn là việc của thợ có dụng cụ, và với bánh xe hay cổ lái đã rơ thì không nên chạy thêm cho tới lúc thợ xem. Những chữ nhiều nghĩa khác trong tiếng thợ, như chữ ăn, đã có bài riêng trên trang.'
+    ])
+  ],
+  checklist: [
+    'Nghe thợ nói chữ bạc: hỏi ngay bạc đó nằm ở đâu trên xe và có phải mở máy không, để xếp vào nhóm bạc đạn, bạc lót, bạc cổ hay chuyện trong lòng máy.',
+    'Hỏi bạc có viên lăn hay là ống lót trơn: vòng bi thường thay mới nguyên, ống lót thì ép thay hoặc doa lại.',
+    'Nhờ thợ chỉ tay vào chi tiết hoặc đưa chi tiết cũ ra xem sau khi tháo; chụp ảnh để đối chiếu và hỏi tiệm khác nếu cần.',
+    'Hỏi dấu hiệu nào khiến thợ kết luận: tiếng ù, độ rơ khi lắc, tiếng gõ khi tăng ga, khói và hao nhớt; xin được thấy hoặc nghe dấu hiệu ấy.',
+    'Với lên bạc hay bạc biên: hỏi rõ là thay vòng găng hay mở tới trục khuỷu, thay thêm gì cùng lúc, có doa nòng không, mất bao lâu.',
+    'Ghi lại tên theo sách hướng dẫn: vòng bi, ống lót, ổ bi cổ lái, ổ đầu to tay biên, vòng găng pít tông.',
+    'Bánh xe hay cổ lái đã rơ rõ thì không chạy tiếp; dắt hoặc nhờ chở xe tới thợ.'
+  ],
+  steps: [
+    { title: 'Xác định vị trí', detail: 'Hỏi thợ bạc đang nói nằm ở đâu: bánh, cổ lái, càng sau, cần đạp, hay trong lòng máy; nhờ chỉ tay vào chỗ đó.' },
+    { title: 'Xác định cấu tạo', detail: 'Hỏi bạc có viên lăn hay là ống lót trơn; nếu là chuyện trong máy, hỏi là bạc biên hay vòng găng pít tông.' },
+    { title: 'Xác định mức việc', detail: 'Hỏi có phải mở máy không, thay thêm gì cùng lúc, có ép hay doa không và bao lâu xong; so với bốn nhóm trong bài để biết nặng hay nhẹ.' },
+    { title: 'Xem dấu hiệu cùng thợ', detail: 'Nhờ thợ cho nghe tiếng ù, tiếng gõ hoặc cho thấy độ rơ khi lắc bánh, lắc càng; đồng ý dựa trên quan sát chứ không trên một chữ.' },
+    { title: 'Ghi lại tên chuẩn', detail: 'Chép tên chi tiết theo sách hướng dẫn và chụp ảnh chi tiết cũ, để tra cứu, so sánh và kể lại với tiệm khác không lệch nghĩa.' }
+  ],
+  warnings: [
+    'Không tự tháo bánh, tháo càng, mở cổ lái hay mở máy để xem bạc; các việc ép, đóng, doa cần dụng cụ và kinh nghiệm canh lại, làm sai có thể hỏng chỗ lắp và gây nguy hiểm khi chạy.',
+    'Bánh xe hoặc cổ lái đã rơ rõ, nghe ù to hay lục cục, thì không nên chạy tiếp; bạc đạn vỡ có thể làm bánh khựng, cổ lái rơ làm đầu xe lắc khi phanh.',
+    'Tiếng gõ đanh trong máy tăng theo ga là dấu hiệu cần dừng xe sớm; cố chạy thêm có thể biến việc thay bạc biên thành việc thay cả trục khuỷu và nòng.',
+    'Đừng gật đầu chỉ vì nghe chữ bạc quen tai; cùng chữ nhưng bạc đạn bánh, bạc càng và bạc biên là ba mức việc khác hẳn nhau.'
+  ],
+  notes: [
+    'Cách gọi các chi tiết thay đổi theo vùng, theo tiệm và theo thế hệ thợ; cấu tạo thật của từng chỗ như cổ lái dùng bi rời hay bạc đạn côn, trục càng dùng ống lót hay vòng kim, tùy từng xe. Hãy đối chiếu sách hướng dẫn sử dụng của xe mình và để thợ xem trực tiếp mới kết luận.',
+    'Bài tập trung vào nghĩa của chữ bạc trong tiếng thợ; chuyện ép bạc trên phiếu sửa xe, bạc đạn bánh xe, bạc càng sau và chữ ăn trong tiếng thợ đã có các bài riêng trên trang.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng và sổ tay bảo dưỡng của nhà sản xuất xe, phần tên gọi chi tiết, bánh xe, cổ lái, càng sau và động cơ',
+    'Tài liệu kỹ thuật cơ bản về ổ lăn, ổ trượt trong cơ khí và tài liệu đào tạo sửa chữa xe máy'
+  ],
+  related: [
+    'ep-bac-doa-nong-tien-dia-mai-ra-nhung-viec-gia-cong-ghi-tren-phieu-sua-xe-nghia-la-gi-va-chu-xe-nen-hoi-gi',
+    'cang-sau-xe-may-la-gi-bac-cang-mon-va-lech',
+    'duoi-xe-may-vay-hoac-banh-sau-lac-khi-chay-nhanh-lop-non-lop-mon-lech-bac-dan-bac-cang-giam-xoc-hay-cho-lech-tim-theo-thu-tu',
+    'chu-an-trong-tieng-tho-xe-an-xang-an-nhot-phanh-an-con-an-de-an-cung-mot-chu-nhung-nhieu-nghia-khac-nhau',
+    'bac-dan-banh-xe-may-vai-tro-va-dau-hieu-mon'
+  ]
+};
