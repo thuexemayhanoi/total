@@ -1,5 +1,18 @@
 # AGENTS.md — AI WIKI TOTAL
 
+## OWNER OVERRIDE — FAST WRITER, 24/10/2026 (hiện hành)
+
+Chủ repo yêu cầu áp dụng hot-loop đơn giản của `thuexemayhanoi/blog` cho riêng `/total`: **AI nghiên cứu chủ đề -> viết bài -> QA scoped -> push -> publisher -> tiếp bài**, không chờ owner duyệt từng topic hoặc khóa/claim bằng tay. `factory/topic-governance.json` hiện `mode=off`, `requireApproved=false`; 300 slot PLANNED cũ có thể được `writer-pack --count 10` nhận ngay. **Không đánh đồng 300 slot là 300 chủ đề chất lượng:** dữ liệu V1 từng có nhiều biến thể trùng intent. AI phải tự so câu hỏi, ý định tìm kiếm và các bài PUBLISHED trước khi viết; bỏ/đề xuất gộp slot trùng, không tạo bài nhồi từ khóa. Giữ `v1Generation=frozen` để KHÔNG tự đẻ thêm biến thể tiêu đề rác; nguồn chủ đề tiếp theo phải là ý tưởng nghiên cứu độc lập, đủ bằng chứng.
+
+**Đường nóng:** `git fetch/rebase origin main` -> `node factory/factory.js writer-pack --count 10 --json` -> viết chỉ đúng module `factory/data/articles/<slug>.js` cho topic đủ giá trị, tự kiểm tra SEO/dữ kiện -> `node factory/factory.js verify-batch "ID1,ID2,..."` -> push (1–10 bài/lần) -> `.github/workflows/factory-publish.yml` tự QA ≥70, chống lỗi critical, xuất bản. Publisher có cron phục hồi backlog 30 phút/lần nếu mất push event; không có AI nội bộ trong GitHub Actions. AI writer còn phiên thì tiếp batch mới. Không chờ QA nặng toàn site trong mỗi batch. Không dùng `topic-approve` như chốt đợi chủ repo cho 300 slot legacy.
+
+**Giữ khóa AN TOÀN duy nhất bên trong publisher** (`concurrency: total-production`, transaction lock, không force push) để hai workflow không ghi đè sitemap/matrix. Đây không phải khóa thủ công ngăn writer; không xóa primitive này. Tất cả bài vẫn cần QA ≥70, 1.000–5.000 từ, ≥4 H2, ≥2 related PUBLISHED, canonical, category, link 404 và dữ kiện thật; `intentConflicts` hiện chỉ cảnh báo, vì vậy AI có trách nhiệm tự loại chủ đề trùng trước khi push. Không tạo bài mới từ V1 hoán vị khi hết 300 slot; ưu tiên nguồn thật và ý định tìm kiếm độc lập. Bài đã PUBLISHED không được đổi URL.
+
+**Ưu tiên:** block này + các config/runtime hiện hành vượt các đoạn lịch sử trong tài liệu cũ nói phải `topic-approve` cho mọi slot hoặc chỉ writer 1 pair.
+
+---
+
+
 Mọi agent phải đọc file này trước khi sửa repo.
 
 ## Thông tin bắt buộc
