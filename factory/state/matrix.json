@@ -29294,11 +29294,13 @@
    "title": "Chở bánh kem hoặc hộp bánh mềm bằng xe máy: giữ hộp nằm phẳng, tránh nắng và rung, chạy êm và cách mang khi ngồi sau",
    "primaryIntent": "informational/cho-banh-kem-hoac-hop-banh-mem-bang-xe-may-giu-hop-nam-phang-tranh-nang-va-rung-chay-em-va-cach-mang-khi-ngoi-sau",
    "notes": "source=topic-v2 topicId=T002184",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:19.605Z",
-   "updatedAt": "2026-10-24T06:10:19.605Z"
+   "updatedAt": "2026-10-24T06:16:54.183Z",
+   "seoScore": 100,
+   "words": 3183
   },
   {
    "id": "S01998",
