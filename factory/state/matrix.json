@@ -30108,11 +30108,13 @@
    "title": "Mẹo dân gian lau xe máy: kem đánh răng, giấm, chanh, baking soda hay dầu ăn làm được gì và hại sơn, nhựa, crom ra sao",
    "primaryIntent": "informational/meo-dan-gian-lau-xe-may-kem-danh-rang-giam-chanh-baking-soda-hay-dau-an-lam-duoc-gi-va-hai-son-nhua-crom-ra-sao",
    "notes": "source=topic-v2 topicId=T002240",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:53:06.871Z",
-   "updatedAt": "2026-10-24T08:53:06.871Z"
+   "updatedAt": "2026-10-24T08:59:05.906Z",
+   "seoScore": 100,
+   "words": 3197
   },
   {
    "id": "S02052",
