@@ -30986,11 +30986,13 @@
    "title": "Gặp xe ưu tiên khi đi xe máy: xe nào được ưu tiên, phải nhường thế nào và không nhường bị phạt bao nhiêu?",
    "primaryIntent": "informational/gap-xe-uu-tien-khi-di-xe-may-xe-nao-duoc-uu-tien-phai-nhuong-the-nao-va-khong-nhuong-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002304",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:06:26.105Z",
-   "updatedAt": "2026-10-24T12:06:26.106Z"
+   "updatedAt": "2026-10-24T12:28:24.430Z",
+   "seoScore": 100,
+   "words": 3505
   },
   {
    "id": "S02112",
