@@ -1,5 +1,10 @@
 # Topic Factory V2 — quản trị topic theo giá trị, không theo số lượng
 
+> **TRẠNG THÁI HIỆN HÀNH 24/10/2026 (owner override):** Chế độ Topic Factory V2 `enforce` mô tả bên dưới là **tài liệu kiến trúc/lịch sử**, không phải công tắc hiện tại. `factory/topic-governance.json` đang là **`mode=off`, `requireApproved=false`, `v1Generation=frozen`**. Vì vậy 300 slot PLANNED legacy đã có **không cần `topic-approve`** để writer nhận; writer phải nghiên cứu và loại các biến thể trùng intent trước khi viết. `queue-refill` V1 vẫn **đóng băng**. **Riêng topic V2 mới ngoài các slot đã tồn tại**, công cụ hiện vẫn cần coordinator chạy `topic-propose` / `topic-approve` để tạo slot và giữ topic matrix nhất quán; chưa có tự động tạo slot không cần công cụ. Hướng dẫn thực thi: [FAST-WRITER-LOOP.md](FAST-WRITER-LOOP.md), [AGENTS.md](../AGENTS.md), [PUBLISH.md](PUBLISH.md). Không mở `v1Generation=allowed` để tự sinh topic hoán vị; không hạ QA/critical gates.
+
+> **Lưu ý khi đọc bảng/biểu đồ số liệu dưới đây:** các dòng ghi "hiện tại enforce/requireApproved=true", "writer chỉ nhận APPROVED" và "chờ owner duyệt" là **snapshot của giai đoạn V2 trước 24/10**, không phải runbook vận hành bây giờ. Các ví dụ lệnh `topic-approve` vẫn còn hợp lệ với topic mới trong chế độ coordinator, không có nghĩa writer legacy phải chờ duyệt.
+
+
 > Trạng thái: **đã triển khai lớp quản trị an toàn (governance), có công tắc rollback**. Phần cần chủ repo duyệt nằm ở
 > [TOPIC-V2-MIGRATION-PLAN.md](TOPIC-V2-MIGRATION-PLAN.md). Bằng chứng đo thật: [TOPIC-AUDIT-2026-10-12.md](TOPIC-AUDIT-2026-10-12.md)
 > và [TOPIC-PILOT-V2-REPORT.md](TOPIC-PILOT-V2-REPORT.md).
