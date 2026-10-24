@@ -29476,11 +29476,13 @@
    "title": "Đường thẳng đơn điệu làm đầu óc trôi đi dù mắt còn mở: dấu hiệu lái tự động, cách phá nhịp đơn điệu và lúc nên dừng nghỉ",
    "primaryIntent": "troubleshooting/duong-thang-don-dieu-lam-dau-oc-troi-di-du-mat-con-mo-dau-hieu-lai-tu-dong-cach-pha-nhip-don-dieu-va-luc-nen-dung-nghi",
    "notes": "source=topic-v2 topicId=T002196",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:11.558Z",
-   "updatedAt": "2026-10-24T06:55:11.559Z"
+   "updatedAt": "2026-10-24T07:04:35.938Z",
+   "seoScore": 100,
+   "words": 3077
   },
   {
    "id": "S02010",
@@ -29489,11 +29491,13 @@
    "title": "Xem xe cũ lúc trời mưa, chiều muộn hay dưới đèn vàng: ánh sáng và nước che những vết gì và cách hẹn lại để nhìn cho rõ",
    "primaryIntent": "informational/xem-xe-cu-luc-troi-mua-chieu-muon-hay-duoi-den-vang-anh-sang-va-nuoc-che-nhung-vet-gi-va-cach-hen-lai-de-nhin-cho-ro",
    "notes": "source=topic-v2 topicId=T002197",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:13.502Z",
-   "updatedAt": "2026-10-24T06:55:13.503Z"
+   "updatedAt": "2026-10-24T07:04:35.939Z",
+   "seoScore": 100,
+   "words": 3186
   },
   {
    "id": "S02011",
