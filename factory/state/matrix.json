@@ -31151,11 +31151,13 @@
    "title": "Hai xe gặp nhau trên đường hẹp hoặc đường đèo: xe xuống dốc hay xe lên dốc phải nhường theo Luật?",
    "primaryIntent": "informational/hai-xe-gap-nhau-tren-duong-hep-hoac-duong-deo-xe-xuong-doc-hay-xe-len-doc-phai-nhuong-theo-luat",
    "notes": "source=topic-v2 topicId=T002315",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:06:09.719Z",
-   "updatedAt": "2026-10-24T13:06:09.720Z"
+   "updatedAt": "2026-10-24T13:14:36.521Z",
+   "seoScore": 100,
+   "words": 3287
   },
   {
    "id": "S02123",
@@ -31177,11 +31179,13 @@
    "title": "Trâu bò, chó và vật nuôi trên đường bộ: Luật cấm thả rông, cấm dắt bằng xe máy và người đi xe phải làm gì?",
    "primaryIntent": "informational/trau-bo-cho-va-vat-nuoi-tren-duong-bo-luat-cam-tha-rong-cam-dat-bang-xe-may-va-nguoi-di-xe-phai-lam-gi",
    "notes": "source=topic-v2 topicId=T002317",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:06:18.251Z",
-   "updatedAt": "2026-10-24T13:06:18.252Z"
+   "updatedAt": "2026-10-24T13:14:36.521Z",
+   "seoScore": 100,
+   "words": 3277
   },
   {
    "id": "S02125",
@@ -31216,11 +31220,13 @@
    "title": "Tụ tập xem và cổ vũ đua xe trái phép trên đường: người đứng xem bị phạt bao nhiêu, khác gì người đua?",
    "primaryIntent": "informational/tu-tap-xem-va-co-vu-dua-xe-trai-phep-tren-duong-nguoi-dung-xem-bi-phat-bao-nhieu-khac-gi-nguoi-dua",
    "notes": "source=topic-v2 topicId=T002320",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:06:31.434Z",
-   "updatedAt": "2026-10-24T13:06:31.434Z"
+   "updatedAt": "2026-10-24T13:14:36.521Z",
+   "seoScore": 100,
+   "words": 3294
   },
   {
    "id": "S02128",
@@ -31229,11 +31235,13 @@
    "title": "Bị tước giấy phép lái xe: thời hạn tính từ ngày nào, chưa nộp bằng thì sao và lúc đó làm được thủ tục gì?",
    "primaryIntent": "informational/bi-tuoc-giay-phep-lai-xe-thoi-han-tinh-tu-ngay-nao-chua-nop-bang-thi-sao-va-luc-do-lam-duoc-thu-tuc-gi",
    "notes": "source=topic-v2 topicId=T002321",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:06:35.876Z",
-   "updatedAt": "2026-10-24T13:06:35.876Z"
+   "updatedAt": "2026-10-24T13:14:36.520Z",
+   "seoScore": 100,
+   "words": 3453
   },
   {
    "id": "S02129",

@@ -1752,6 +1752,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/bi-tuoc-giay-phep-lai-xe-thoi-han-tinh-tu-ngay-nao-chua-nop-bang-thi-sao-va-luc-do-lam-duoc-thu-tuc-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/bi-xe-khac-quet-trung-roi-bo-di-giu-thang-bang-dung-o-cho-an-toan-ghi-lai-dieu-nho-duoc-va-bao-cho-dung-noi/index.html",
   "kind": "article"
  },
@@ -3917,6 +3921,10 @@
  },
  {
   "rel": "ride/lai-xe-duong-dai/hai-nguoi-thay-phien-lai-mot-chiec-xe-may-trong-chuyen-di-xa-doi-lai-luc-nao-va-doi-the-nao-cho-an-toan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/hai-xe-gap-nhau-tren-duong-hep-hoac-duong-deo-xe-xuong-doc-hay-xe-len-doc-phai-nhuong-theo-luat/index.html",
   "kind": "article"
  },
  {
@@ -6776,6 +6784,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/trau-bo-cho-va-vat-nuoi-tren-duong-bo-luat-cam-tha-rong-cam-dat-bang-xe-may-va-nguoi-di-xe-phai-lam-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/tre-cam-bong-bay-den-long-hay-do-choi-khi-ngoi-xe-may-day-cuon-banh-che-tam-nhin-va-cach-mang-an-toan/index.html",
   "kind": "article"
  },
@@ -6837,6 +6849,10 @@
  },
  {
   "rel": "docs/checklist/tu-soan-danh-sach-kiem-tra-rieng-cho-chuyen-di-quen-thuoc-lay-tu-loi-tung-gap-cat-gon-va-sua-sau-moi-chuyen/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/tu-tap-xem-va-co-vu-dua-xe-trai-phep-tren-duong-nguoi-dung-xem-bi-phat-bao-nhieu-khac-gi-nguoi-dua/index.html",
   "kind": "article"
  },
  {
