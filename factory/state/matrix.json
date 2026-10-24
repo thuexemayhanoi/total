@@ -29223,11 +29223,13 @@
    "title": "Bên trái, bên phải, phía trước, phía sau của xe máy tính theo ai: cách thợ, sách xe và người bán mô tả để khỏi nhầm",
    "primaryIntent": "informational/ben-trai-ben-phai-phia-truoc-phia-sau-cua-xe-may-tinh-theo-ai-cach-tho-sach-xe-va-nguoi-ban-mo-ta-de-khoi-nham",
    "notes": "source=topic-v2 topicId=T002179",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:09.463Z",
-   "updatedAt": "2026-10-24T06:10:09.463Z"
+   "updatedAt": "2026-10-24T06:15:54.223Z",
+   "seoScore": 100,
+   "words": 3162
   },
   {
    "id": "S01993",
@@ -29275,11 +29277,13 @@
    "title": "Đồng hồ thông minh khi đi xe máy: thông báo rung, liếc cổ tay lúc chạy và tính năng phát hiện ngã dùng sao cho an toàn",
    "primaryIntent": "informational/dong-ho-thong-minh-khi-di-xe-may-thong-bao-rung-liec-co-tay-luc-chay-va-tinh-nang-phat-hien-nga-dung-sao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T002183",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:17.603Z",
-   "updatedAt": "2026-10-24T06:10:17.603Z"
+   "updatedAt": "2026-10-24T06:15:54.223Z",
+   "seoScore": 100,
+   "words": 3132
   },
   {
    "id": "S01997",
