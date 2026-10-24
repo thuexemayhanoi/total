@@ -8,7 +8,7 @@ Chủ repo yêu cầu áp dụng hot-loop đơn giản của `thuexemayhanoi/blo
 
 **Giữ khóa AN TOÀN duy nhất bên trong publisher** (`concurrency: total-production`, transaction lock, không force push) để hai workflow không ghi đè sitemap/matrix. Đây không phải khóa thủ công ngăn writer; không xóa primitive này. Tất cả bài vẫn cần QA ≥70, 1.000–5.000 từ, ≥4 H2, ≥2 related PUBLISHED, canonical, category, link 404 và dữ kiện thật; `intentConflicts` hiện chỉ cảnh báo, vì vậy AI có trách nhiệm tự loại chủ đề trùng trước khi push. Không tạo bài mới từ V1 hoán vị khi hết 300 slot; ưu tiên nguồn thật và ý định tìm kiếm độc lập. Bài đã PUBLISHED không được đổi URL.
 
-**Ưu tiên:** block này + các config/runtime hiện hành vượt các đoạn lịch sử trong tài liệu cũ nói phải `topic-approve` cho mọi slot hoặc chỉ writer 1 pair.
+**Nguồn hướng dẫn hiện hành:** `AGENTS.md` + [docs/FAST-WRITER-LOOP.md](docs/FAST-WRITER-LOOP.md) + file YAML/code thực tế; tài liệu lưu lịch sử V2 chỉ là bản tham chiếu. Không coi `QA PASS` là bảo đảm không trùng intent: trước khi viết cần tự rà bài gần nhất. Các lệnh topic tạo slot mới hiện vẫn phụ thuộc coordinator; FAST MODE chỉ bỏ yêu cầu APPROVED cho các slot đã có.
 
 ---
 
@@ -38,22 +38,22 @@ Mọi agent phải đọc file này trước khi sửa repo.
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).
 Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/publish/audit/resume/expand-capacity/set-planned-target/backlog/check-state/plan-chunk/verify-invariant/drain-bound/drain-iteration + hot path pair: publish-pair/verify-pair/verify-sources/push-scope/publish-plan/change-mode/recover-txn + production cycle: cycle-plan/cycle-qa/cycle-publish/queue-refill + content index: manifest-sync/index-rebuild/index-check) — không sửa JSON state tay khi factory đang chạy.
 
-**PRODUCTION 3 VAI TRÒ (docs/PRODUCTION-ROLES.md):** WRITER 1 là writer bên ngoài duy nhất, dùng `writer-pack --count 10` → tạo 1–10 module bài mới → `verify-batch` → push. GitHub Actions `factory-publish.yml` nhận đúng push scope → verify-batch → `publish-batch` một transaction → scoped 404 gate → commit state. Không tự khởi động Writer từ Actions, không chia batch thành 5 pair; các lệnh pair/cycle tồn tại để recovery/compatibility, không phải hot path.
+**WRITER FAST MODE (docs/FAST-WRITER-LOOP.md):** Có thể dùng 1 Writer hoặc tối đa 3 phiên ngoài độc lập (W1/W2/W3), mỗi phiên chọn một shard `--shard 1/3`, `2/3`, `3/3` của các slot PLANNED chưa có bài; không bắt buộc chạy 3 phiên. Dùng `writer-pack --count 10 [--shard k/3]` → tạo tối đa 10 module bài hợp lệ → `verify-batch` → push. GitHub Actions `factory-publish.yml` nhận exact push scope hoặc phục hồi backlog 30 phút/lượt → verify-batch → `publish-batch` (1–10 bài trong một transaction) → scoped 404 gate → commit state. Không có AI/API tạo prose trong GitHub Actions. `publish-pair`/cycle là legacy recovery, không phải đường nóng.
 
 **ĐỐC CÔNG 2/3:** theo dõi `production-status`, `liveness`, `error-log`, escalated sau 3 lần xử lý và `error-resolve` khi sửa xong. Khi chủ repo dừng Writer, `factory/writer-control.json` có `mode: paused`; scheduled watchdog dùng `--honor-owner-control` để không báo nhầm heartbeat cũ. Không che lỗi escalated hoặc backlog đã có bài nguồn chờ publish. Muốn chạy lại Writer phải có quyết định chủ repo và đổi mode sang `running`; không xóa checkpoint/Matrix.
 
 **Content index (scale 10k–100k bài):** `factory/state/article-manifest.jsonl` + content files là SOURCE OF TRUTH (được commit); `factory/state/content-index.sqlite` là DERIVED CACHE (KHÔNG commit, đã .gitignore) — chỉ coordinator được ghi/rebuild (manifest-sync/index-rebuild/index-check); QA/query đọc SQLite thay vì rescan; missing/corrupt/stale → index-rebuild an toàn.
 
-**CHÍNH SÁCH ĐỘ DÀI BÀI:** 1.000–5.000 từ/bài, áp dụng thống nhất cho Writer Pack và QA bằng `ARTICLE_MIN_WORDS` / `ARTICLE_MAX_WORDS` tại `factory/lib/factory-runtime.js`. Giữ QA **70/100**, ≥4 H2, ≥2 related đã PUBLISHED, 7 critical gate và mọi yêu cầu an toàn khác; không nới các ràng buộc ngoài số từ. Không chỉnh tay 502 bài đã xuất bản chỉ để đổi chính sách.
+**CHÍNH SÁCH ĐỘ DÀI BÀI:** 1.000–5.000 từ/bài, áp dụng thống nhất cho Writer Pack và QA bằng `ARTICLE_MIN_WORDS` / `ARTICLE_MAX_WORDS` tại `factory/lib/factory-runtime.js`. Giữ QA **70/100**, ≥4 H2, ≥2 related đã PUBLISHED, 7 critical gates và mọi yêu cầu an toàn khác; không nới các ràng buộc ngoài số từ. Không sửa hàng loạt bài PUBLISHED chỉ để tăng điểm.
 
-Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state/matrix/txn/sqlite khi pipeline đang chạy. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose).
+Writer chỉ đẩy module bài vào `factory/data/articles/` (có thể cập nhật `factory/state/writer-heartbeat.json` qua lệnh chuẩn), không sửa matrix/txn/manifest/sqlite/HTML. Slot PLANNED chưa có module bài = `WAITING_FOR_WRITER` (không phải lỗi CI; GitHub Actions không tự viết prose). Kiểm tra trùng **trước khi viết**: 300 slot legacy còn lại không bảo đảm topic độc lập; nếu không tìm được ý tưởng đủ giá trị thì không viết đệm để lấy số lượng.
 
 ## TOPIC FACTORY V2 — giá trị trước số lượng (docs/TOPIC-FACTORY-V2.md)
-- Topic mới chỉ vào hàng đợi qua `topic-propose` (gate chống trùng/bịa) và chỉ `topic-approve` (coordinator, kèm `--ack` từng cảnh báo + `--reviewed` 5 bài đã xuất bản gần nhất) mới tạo slot. KHÔNG tự `plan` slot, KHÔNG thêm slot vào `matrix.json` bằng tay, KHÔNG sinh topic hoán vị (hạt giống × góc × bối cảnh).
-- `factory/topic-governance.json` (`mode: enforce`, `v1Generation: frozen`): `writer-pack` / `verify-batch` / publish chỉ nhận slot có topic APPROVED; `queue-refill` bị đóng băng. Rollback = `{"mode":"off","v1Generation":"allowed"}` — **chỉ chủ repo quyết định**.
-- Writer viết đúng TOPIC_BRIEF/GAIN/OUTLINE/SCOPE của `writer-pack`. Topic `factualScope: no-figures` cấm số liệu/giá/thông số. Không bịa nhu cầu tìm kiếm: `demand` chỉ nhận số đo thật (GSC/site-search, `topic-import`); thiếu thì ưu tiên tối đa P1.
+- **Slot legacy PLANNED đã có**: writer được dùng ngay, **không cần `topic-approve` hoặc owner duyệt từng bài**. **Topic V2 mới ngoài các slot hiện có**: công cụ `topic-propose`/`topic-approve` vẫn là đường tạo slot trong code hiện tại; nếu muốn tự cấp slot không qua bước này cần một thay đổi engine riêng, không được giả vờ đã tự động hóa. Không tự sửa matrix hoặc tạo topic hoán vị.
+- **Cấu hình hiện hành** `factory/topic-governance.json`: `mode=off`, `requireApproved=false`, `v1Generation=frozen`; writer-pack/verify-batch không đòi APPROVED cho slot legacy; `queue-refill` vẫn bị đóng băng để tránh biến thể V1 trùng ý. Chỉ chủ repo được quyết định bật lại `enforce` hoặc mở `v1Generation`.
+- Topic V2 có brief thì bám TOPIC_BRIEF/GAIN/OUTLINE/SCOPE; legacy thiếu brief thì AI tự nghiên cứu nguồn, xác minh information gain và tránh trùng intent trước khi viết. `factualScope: no-figures` không được tự đưa số liệu/giá/thông số; `demand` chỉ nhận số đo GSC/site-search thật, không bịa.
 - Quyết định MERGE-CANDIDATE chỉ là đề xuất bổ sung vào bài đã có: KHÔNG xóa bài, đổi URL, redirect, đổi tiêu đề bài đã xuất bản nếu chủ repo chưa duyệt (docs/TOPIC-V2-MIGRATION-PLAN.md).
-- Một coordinator duy nhất ghi `factory/state/topic-matrix.jsonl`; writer không tạo/nới duyệt. Dòng JSONL hỏng ⇒ lệnh ghi từ chối (khôi phục từ git).
+- Topic mới nếu đăng ký qua `topic-propose`/`topic-approve` vẫn cần coordinator quản lý `factory/state/topic-matrix.jsonl`; writer không sửa ledger này hay `matrix.json` bằng tay. Dòng JSONL hỏng ⇒ lệnh ghi từ chối (khôi phục từ git).
 
 ## Writer lock — ownership-safe
 - Acquire dùng primitive exclusive thật (link/open 'wx') + token unique mỗi acquisition; xem `factory/lib/lock.js`.
@@ -69,7 +69,7 @@ Writer chỉ đẩy bài vào factory/data/articles/ — không tự sửa state
 - Chỉ chủ repo quyết định mở rộng — agent không tự expand capacity hay tự phân phối capacity mới vào các pool dự phòng.
 
 ## Chuẩn bắt buộc khi sửa factory/workflow — 4 tầng kiểm thử
-Mọi thay đổi factory/workflow/docs phải giữ và mở rộng bộ test theo chuẩn: **Unit → Integration → Production invariant → Long-run / Failure recovery** (chi tiết: `docs/FACTORY-RELIABILITY.md`, acceptance contract "green means progress"). KHÔNG xóa test cũ để lấy màu xanh.
+Mọi thay đổi engine/workflow phải giữ và mở rộng bộ test theo chuẩn **Unit → Integration → Production invariant → Long-run / Failure recovery** (`docs/FACTORY-RELIABILITY.md`). Không xóa test cũ để lấy màu xanh. Thay đổi riêng docs phải nhất quán với workflow hiện hành; không cần chạy full-site gate mỗi lô bài.
 
 ## Trước khi commit
 ```
@@ -87,4 +87,4 @@ node factory/factory.js topic-check --recheck
 ```
 Tất cả lệnh kiểm thử phải xanh (bao gồm test-cycle.js là gate bắt buộc, không advisory); không sửa assert/threshold chỉ để tạo màu xanh.
 
-**PRODUCTION COORDINATOR TỰ ĐỘNG (factory-coordinator.yml):** tick mỗi 10 phút (`cron 7,17,27,37,47,57 * * * *` + workflow_dispatch), mỗi run bounded một lượt maintenance: recover-txn → check-state → queue-refill (idempotent) → production-status → commit state CHỈ KHI có diff thật (tick rỗng không commit). Full manifest/index và invariant chạy ở deep audit manual. Concurrency `total-production` dùng chung với factory-publish.yml (không cancel). Writer là external (session Mistral ngoài) — Actions KHÔNG tự viết bài, KHÔNG fake article; Writer 1 dùng `writer-pack --count 10` rồi nộp module bài vào `factory/data/articles/`. Watchdog `factory-liveness.yml` (mỗi giờ, read-only) phát hiện writer đứng/lỗi escalated — chỉ Actions đỏ, KHÔNG thể tự đánh thức phiên Mistral.
+**PRODUCTION COORDINATOR TỰ ĐỘNG:** `factory-coordinator.yml` chạy maintenance mỗi khoảng 10 phút: recover-txn → check-state/topic-check → queue-refill (hiện frozen/no-op) → production-status → commit chỉ khi có diff. Publisher dùng cùng concurrency `total-production`, nhận push bài và có cron fallback mỗi 30 phút, chỉ publish những module bài thực sự tồn tại; full audit ở workflow manual. Writer có thể là Claude/Mistral/ChatGPT phiên ngoài (1 hoặc nhiều shard không trùng), Actions không tự viết bài hoặc đánh thức phiên AI; watchdog read-only không phải writer.
