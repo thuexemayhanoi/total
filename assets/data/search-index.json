@@ -54042,6 +54042,41 @@
  },
  {
   "kind": "article",
+  "url": "garage/bao-duong-dinh-ky/xe-khong-con-so-bao-duong-hoac-cong-to-met-hong-khong-biet-da-di-bao-xa-dung-lich-bao-duong-theo-thoi-gian-va-dau-hieu/",
+  "title": "Xe không còn sổ bảo dưỡng hoặc công tơ mét hỏng, không biết đã đi bao xa: dựng lịch bảo dưỡng theo thời gian và dấu hiệu",
+  "description": "Xe không còn sổ bảo dưỡng, công tơ mét hỏng hay đã thay? Dựng lại lịch bằng thời gian, mức sử dụng và dấu hiệu quan sát được, rồi đặt mốc mới và ghi sổ.",
+  "category": "Sửa chữa",
+  "hub": "Bảo dưỡng định kỳ",
+  "entities": [
+   "sổ bảo dưỡng",
+   "công tơ mét",
+   "số km",
+   "lịch bảo dưỡng",
+   "kiểm tra toàn diện",
+   "độ chùng xích",
+   "má phanh",
+   "ắc quy"
+  ],
+  "keywords": [
+   "công tơ mét hỏng lịch bảo dưỡng xe máy",
+   "xe không còn sổ bảo dưỡng",
+   "không biết xe đã đi bao xa",
+   "bảo dưỡng xe máy theo thời gian",
+   "ghi chú chuyển tiếp khi thay công tơ mét"
+  ],
+  "seoTitle": "Công tơ mét hỏng, mất sổ bảo dưỡng: dựng lại lịch cho xe máy",
+  "primaryKeyword": "công tơ mét hỏng lịch bảo dưỡng xe máy",
+  "headings": [
+   "Mất mốc số km: vì sao lịch bảo dưỡng vẫn dựng lại được",
+   "Hai nhóm hạng mục: nhóm đi theo thời gian và nhóm đi theo mức sử dụng",
+   "Đặt lại mốc: một lần kiểm tra toàn diện rồi ghi sổ mới có ngày và ảnh",
+   "Dùng dấu hiệu quan sát được thay cho con số: xích, má phanh, lốp, nhớt và ắc quy",
+   "Khi công tơ mét đã thay hoặc hỏng: ghi chú chuyển tiếp và thói quen theo dõi từ nay"
+  ],
+  "summary": "Xe mua lại hoặc được cho tặng thường không kèm sổ bảo dưỡng, và đôi khi công tơ mét đã hỏng hay từng thay nên không ai biết xe đã đi bao xa. Bài này cho thấy lịch bảo dưỡng vẫn dựng lại được bằng ba nguồn thay cho số km: thời gian kể từ lần thay chắc chắn, mức"
+ },
+ {
+  "kind": "article",
   "url": "map/cay-xang/xe-khong-no-hoac-chet-may-ngay-tai-tru-bom-xang-dua-xe-ra-khoi-cho-do-bao-nhan-vien-va-khong-de-lien-tuc/",
   "title": "Xe không nổ hoặc chết máy ngay tại trụ bơm xăng: đưa xe ra khỏi chỗ đổ, báo nhân viên và không đề liên tục",
   "description": "Vừa đổ xăng xong xe không nổ hoặc chết máy ngay tại trụ bơm? Tắt máy, báo nhân viên, đưa xe ra chỗ trống rồi mới kiểm tra, tuyệt đối không đề liên tục.",

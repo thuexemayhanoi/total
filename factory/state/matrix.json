@@ -29643,11 +29643,13 @@
    "title": "Xe không còn sổ bảo dưỡng hoặc công tơ mét hỏng, không biết đã đi bao xa: dựng lịch bảo dưỡng theo thời gian và dấu hiệu",
    "primaryIntent": "informational/xe-khong-con-so-bao-duong-hoac-cong-to-met-hong-khong-biet-da-di-bao-xa-dung-lich-bao-duong-theo-thoi-gian-va-dau-hieu",
    "notes": "source=topic-v2 topicId=T002207",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:02:10.009Z",
-   "updatedAt": "2026-10-24T07:02:10.009Z"
+   "updatedAt": "2026-10-24T07:17:14.406Z",
+   "seoScore": 100,
+   "words": 3194
   },
   {
    "id": "S02021",
