@@ -30288,11 +30288,13 @@
    "title": "Xe máy hai bánh được chở tối đa mấy người? Các trường hợp luật cho phép chở thêm",
    "primaryIntent": "informational/xe-may-hai-banh-cho-toi-da-may-nguoi",
    "notes": "source=topic-v2 topicId=T002253",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:49:59.103Z",
-   "updatedAt": "2026-10-24T10:49:59.104Z"
+   "updatedAt": "2026-10-24T10:55:08.205Z",
+   "seoScore": 100,
+   "words": 2935
   },
   {
    "id": "S02064",
@@ -30327,11 +30329,13 @@
    "title": "Xe đạp điện, xe gắn máy và xe mô tô khác nhau thế nào theo luật: mốc 25 km/h, 50 km/h, 04 kW và 50 cm³",
    "primaryIntent": "informational/xe-dap-dien-xe-gan-may-xe-mo-to-khac-nhau-the-nao",
    "notes": "source=topic-v2 topicId=T002256",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:06.262Z",
-   "updatedAt": "2026-10-24T10:50:06.262Z"
+   "updatedAt": "2026-10-24T10:55:08.205Z",
+   "seoScore": 91,
+   "words": 3008
   },
   {
    "id": "S02067",
