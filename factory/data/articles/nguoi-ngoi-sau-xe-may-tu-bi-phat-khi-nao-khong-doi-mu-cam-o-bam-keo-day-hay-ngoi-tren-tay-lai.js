@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02135 (topic V2 T002328); CHỈ nêu dữ kiện đã kiểm chứng từ Nghị định 168/2024/NĐ-CP và Nghị định 238/2026/NĐ-CP (truy xuất 2026-10-24).
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'nguoi-ngoi-sau-xe-may-tu-bi-phat-khi-nao-khong-doi-mu-cam-o-bam-keo-day-hay-ngoi-tren-tay-lai',
+  title: 'Người ngồi sau xe máy tự bị phạt khi nào: không đội mũ, cầm ô, bám kéo đẩy xe khác hay ngồi trên tay lái?',
+  seoTitle: 'Người ngồi sau xe máy tự bị phạt khi nào: Điều 12 Nghị định 168',
+  metaDescription: 'Điều 12 Nghị định 168/2024/NĐ-CP phạt riêng người được chở: dùng ô (dù), bám kéo đẩy, ngồi trên tay lái, mũ bảo hiểm; đối chiếu phía người lái ở Điều 7.',
+  summary: 'Bài đọc Điều 12 của Nghị định 168/2024/NĐ-CP để trả lời câu hỏi từ phía người ngồi sau: khi nào chính họ bị xử phạt chứ không chỉ người lái. Bài nêu khoản 2 điểm d về người được chở sử dụng ô (dù) và khoản 5 về bám, kéo, đẩy, mang vác, đứng trên yên, ngồi trên tay lái và mũ bảo hiểm, mỗi mức tiền gắn đúng điểm của nó. Bài đặt cạnh phía người lái ở Điều 7 khoản 1 điểm d và khoản 2 điểm i để thấy hai người trên cùng một xe thuộc hai điều khoản khác nhau. Nghị định 238/2026/NĐ-CP đã được đối chiếu và không sửa các điểm này. Bài nói rõ phần chưa đối chiếu và cách tra văn bản còn hiệu lực.',
+  quickAnswer: 'Điều 12 khoản 2 điểm d Nghị định 168/2024/NĐ-CP nêu phạt tiền từ 200.000 đồng đến 250.000 đồng đối với cá nhân là người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy sử dụng ô (dù). Khoản 5 nêu phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người được chở bám, kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe (điểm a), hoặc không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hay đội nhưng không cài quai đúng quy cách (điểm b). Phía người lái là điều khoản riêng ở Điều 7: khoản 1 điểm d về chở người ngồi sử dụng ô (dù) với khung từ 200.000 đồng đến 400.000 đồng, khoản 2 điểm i về chở người ngồi không đội mũ đúng quy cách với khung từ 400.000 đồng đến 600.000 đồng. Theo kết quả đối chiếu, Nghị định 238/2026/NĐ-CP không sửa Điều 12 và không sửa hai điểm nêu của Điều 7; mức cụ thể trong từng vụ việc do người có thẩm quyền xác định.',
+  keyPoints: [
+    'Điều 12 khoản 2 điểm d Nghị định 168/2024/NĐ-CP: người được chở trên xe mô tô, xe gắn máy sử dụng ô (dù) bị phạt tiền từ 200.000 đồng đến 250.000 đồng.',
+    'Điều 12 khoản 5 điểm a: người được chở bám, kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe; khung phạt tiền từ 400.000 đồng đến 600.000 đồng.',
+    'Điều 12 khoản 5 điểm b: người được chở không đội mũ bảo hiểm cho người đi mô tô, xe máy hoặc đội mà không cài quai đúng quy cách cũng nằm trong khung từ 400.000 đồng đến 600.000 đồng.',
+    'Phía người lái ở Điều 7: khoản 1 điểm d (chở người ngồi sử dụng ô (dù), từ 200.000 đồng đến 400.000 đồng) và khoản 2 điểm i (chở người ngồi không đội mũ đúng quy cách, từ 400.000 đồng đến 600.000 đồng, kèm cụm trừ trường hợp).',
+    'Theo đối chiếu, Nghị định 238/2026/NĐ-CP có hiệu lực từ ngày 15 tháng 8 năm 2026 không sửa Điều 12; bài chưa đối chiếu nhiều nội dung khác nên cần tra văn bản còn hiệu lực.'
+  ],
+  category: 'learn',
+  hub: 'kien-thuc-phap-ly',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['Nghị định 168/2024/NĐ-CP', 'Nghị định 238/2026/NĐ-CP', 'Điều 12', 'Điều 7', 'người được chở', 'người điều khiển xe', 'ô (dù)', 'mũ bảo hiểm cho người đi mô tô, xe máy'],
+  keywords: ['người ngồi sau xe máy bị phạt khi nào', 'người ngồi sau xe máy không đội mũ bảo hiểm bị phạt', 'người ngồi sau cầm ô bị phạt bao nhiêu', 'ngồi trên tay lái xe máy bị phạt', 'Điều 12 Nghị định 168/2024/NĐ-CP'],
+  sections: [
+    P('Người ngồi sau cũng là đối tượng xử phạt riêng: Điều 12 Nghị định 168/2024/NĐ-CP', [
+      'Khi nghe chuyện xe máy bị xử phạt, ta thường nghĩ đến người cầm lái. Câu hỏi ngược lại ít được hỏi hơn: ngồi phía sau thì có bị xử phạt riêng không. Bài này đọc phần trả lời ở Điều 12 Nghị định 168/2024/NĐ-CP, rồi đặt cạnh phần của người lái ở Điều 7. Nguồn thứ nhất là Nghị định 168/2024/NĐ-CP ngày 26/12/2024 của Chính phủ quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe (Công báo số 75 + 76 và 77 + 78 ngày 16-01-2025). Nguồn thứ hai là Nghị định 238/2026/NĐ-CP ngày 26/06/2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP (Công báo số 391 ngày 13-07-2026). Cả hai được truy xuất ngày 24 tháng 10 năm 2026.',
+      'Điều 53 khoản 1 của Nghị định 168/2024/NĐ-CP nêu hiệu lực từ ngày 01 tháng 01 năm 2025; Điều 20 khoản 1 của Nghị định 238/2026/NĐ-CP nêu hiệu lực từ ngày 15 tháng 8 năm 2026. Ở ngày truy xuất, cả hai mốc đều đã qua. Toàn văn 21 điều của Nghị định 238/2026/NĐ-CP đã được đối chiếu: không điều nào sửa Điều 12. Với Điều 7, nghị định này chỉ sửa điểm e khoản 1 và điểm b khoản 6, nên điểm d khoản 1 và điểm i khoản 2 mà bài trích ở phần sau không nằm trong các chỗ sửa. Vì vậy câu chữ và mức tiền dưới đây là của Nghị định 168/2024/NĐ-CP, chưa bị thay đổi ở những điểm này.',
+      'Về cách gọi: văn bản không dùng cụm người ngồi sau mà viết người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy. Bài dùng cách gọi quen thuộc cho dễ đọc, còn khi tra cứu nên bám theo câu chữ. Bài chưa đối chiếu định nghĩa cụm người được chở hay định nghĩa từng loại xe trong danh sách, nên không phân định một vị trí ngồi hay một loại xe cụ thể có thuộc cụm này hay không.',
+      'Trong Điều 12, bài chỉ đọc hai chỗ: khoản 2 điểm d và khoản 5 điểm a, b. Hai chỗ có hai khung tiền khác nhau, được đọc riêng ở hai phần sau, không gộp. Điều 12 còn các khoản và điểm khác mà bài không đọc, nên đây không phải danh sách đầy đủ mọi lỗi của người được chở. Nghĩa vụ chung của hai bên theo luật có bài về những việc người lái xe máy và người ngồi sau không được làm trên trang; bài này chỉ đọc phần xử phạt trong nghị định.'
+    ]),
+    P('Khoản 2 điểm d Điều 12: người được chở sử dụng ô (dù), khung phạt từ 200.000 đồng đến 250.000 đồng', [
+      'Điều 12 khoản 2 mở đầu bằng câu dẫn: phạt tiền từ 200.000 đồng đến 250.000 đồng đối với cá nhân thực hiện một trong các hành vi vi phạm sau đây. Điểm d ghi: người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy sử dụng ô (dù). Tiêu đề bài dùng cách nói đời thường là cầm ô, còn văn bản viết sử dụng ô (dù); bài giữ nguyên câu chữ của văn bản.',
+      'Cách đọc: điểm d tự nêu chủ thể là người được chở, nên theo câu chữ, khung từ 200.000 đồng đến 250.000 đồng đặt ra cho chính họ, không phải cho người lái. Câu dẫn của khoản dùng từ cá nhân, còn điểm d chỉ rõ cá nhân đó là người được chở. Điểm d chỉ có một hành vi là sử dụng ô (dù); đoạn đã đối chiếu không kèm điều kiện nào khác, và bài không tự bổ sung điều kiện.',
+      'Hiểu lầm hay gặp là cho rằng chuyện che ô chỉ liên quan đến người cầm lái, trong khi điểm d gọi tên riêng người được chở. Về an toàn, chiếc ô giương lên khi xe đang chạy hứng gió như một cánh buồm, kéo lệch người ngồi sau, làm xe chao và che mất tầm nhìn của cả hai. Áo mưa mặc trên người, không cần dùng tay giữ, ổn định hơn nhiều so với giương ô. Điều đó đúng bất kể mức phạt là bao nhiêu.',
+      'Điểm d không nói gì về việc người lái có bị xử phạt hay không khi chở người giương ô; phần đó thuộc Điều 7 và được đọc ở phần sau. Bài cũng không nêu hình thức xử phạt nào khác ngoài khung phạt tiền từ 200.000 đồng đến 250.000 đồng, vì dòng đã đối chiếu không nêu. Mức cụ thể trong một vụ việc do người có thẩm quyền xác định theo hành vi, tình tiết và văn bản hiện hành. Chuyện chính người lái cầm ô có bài về cầm ô, dùng điện thoại hoặc thiết bị âm thanh khi lái xe máy trên trang.'
+    ]),
+    P('Khoản 5 Điều 12: bám, kéo, đẩy, mang vác, đứng trên yên, ngồi trên tay lái và mũ bảo hiểm, khung phạt từ 400.000 đồng đến 600.000 đồng', [
+      'Khoản 5 Điều 12 có khung khác hẳn khoản 2. Câu dẫn ghi: phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy thực hiện một trong các hành vi vi phạm sau đây. Điểm a ghi: bám, kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang vác vật cồng kềnh, đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe. Chủ thể được nêu ngay ở câu dẫn, nên không cần suy luận để biết điều khoản nhắm tới ai.',
+      'Điểm a là một dòng dài gộp nhiều hành vi, nên bài tách thành ba vế theo dấu phẩy cho dễ đọc, không đổi chữ. Vế thứ nhất: bám, kéo, đẩy xe khác hoặc vật khác. Vế thứ hai: dẫn dắt vật nuôi và mang vác vật cồng kềnh. Vế thứ ba nói về vị trí: đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe. Văn bản không đánh số các vế; tất cả cùng nằm trong khung từ 400.000 đồng đến 600.000 đồng của khoản 5.',
+      'Điều khoản không định nghĩa vật cồng kềnh, và đoạn đã đối chiếu không kèm con số nào để đo, nên bài không tự đặt ngưỡng về kích thước hay khối lượng. Điều khoản cũng không liệt kê tư thế nào ngoài đứng trên yên, giá đèo hàng, ngồi trên tay lái; bài không kết luận về những tư thế không được nêu. Về an toàn, đứng trên yên hay ngồi trên tay lái làm xe mất thăng bằng và che tầm nhìn của người lái, còn bám, kéo hay đẩy một xe khác từ trên xe làm lực tác động lệch khó đoán. Những tư thế này đáng tránh dù xét theo điều khoản hay không.',
+      'Điểm b ghi: không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách khi tham gia giao thông trên đường bộ. Cùng một khung có hai tình huống: không đội, hoặc đội nhưng không cài quai đúng quy cách. Bài chưa đối chiếu quy chuẩn kỹ thuật nào quy định loại mũ này nên không nêu mũ nào đạt; cách chọn mũ có bài về mũ bảo hiểm đạt chuẩn trên trang. Ngoài khung phạt tiền, bài không nêu hình thức xử phạt nào khác cho điểm a và điểm b, vì dòng đã đối chiếu không nêu.'
+    ]),
+    P('Phía người lái ở Điều 7: chở người ngồi sử dụng ô (dù) và chở người ngồi không đội mũ bảo hiểm đúng quy cách', [
+      'Phía người lái nằm ở Điều 7, với hai điểm đã đối chiếu. Khoản 1 mở đầu: phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây. Điểm d ghi: chở người ngồi trên xe sử dụng ô (dù). Hành vi này cùng nhắc đến ô (dù) như điểm d khoản 2 Điều 12, nhưng chủ thể là người điều khiển xe và khung tiền là từ 200.000 đồng đến 400.000 đồng, khác khung từ 200.000 đồng đến 250.000 đồng của người được chở.',
+      'Điều 7 khoản 2 mở đầu: phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây. Điểm i ghi: chở người ngồi trên xe không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật. Hành vi giống điểm b khoản 5 Điều 12 ở chuyện mũ và quai, nhưng chủ thể là người điều khiển xe, và điểm i có cụm trừ trường hợp nêu ba nhóm.',
+      'Chỗ khác đáng chú ý nằm ở cụm trừ trường hợp, được viết trong điểm i, tức điều khoản về người lái. Đoạn đã đối chiếu của điểm b khoản 5 Điều 12 không có cụm nào như vậy. Bài không suy ra từ chỗ vắng đó rằng có hay không có trường hợp được loại trừ ở nơi khác, và không lấy ba nhóm của điểm i gán sang điều khoản của người được chở. Một tình huống cụ thể rơi vào điểm nào do người có thẩm quyền xác định theo hành vi, tình tiết và văn bản hiện hành.',
+      'Để dễ đối chiếu, bài ghép hai cặp hành vi bằng lời, không dựng bảng. Về ô (dù): người được chở thuộc Điều 12 khoản 2 điểm d, từ 200.000 đồng đến 250.000 đồng; người điều khiển xe thuộc Điều 7 khoản 1 điểm d, từ 200.000 đồng đến 400.000 đồng. Về mũ bảo hiểm: người được chở thuộc Điều 12 khoản 5 điểm b, từ 400.000 đồng đến 600.000 đồng; người điều khiển xe thuộc Điều 7 khoản 2 điểm i, từ 400.000 đồng đến 600.000 đồng, kèm cụm trừ trường hợp. Ở cặp mũ bảo hiểm, hai khung trùng nhau về con số nhưng thuộc hai điều khoản và hai chủ thể khác nhau. Mức phạt chở quá số người và cách chở an toàn không thuộc bài này; bài về chở người ngồi sau xe máy trên trang đọc phía người lái ở các điểm khác của Điều 7.'
+    ]),
+    P('Đọc hai điều khoản cạnh nhau và những điều bài chưa đối chiếu', [
+      'Một tình huống đời thường để tự đối chiếu: trời mưa, người ngồi sau giương ô còn người lái vẫn cầm lái. Đọc theo câu chữ, hành vi của người được chở sử dụng ô (dù) là điểm d khoản 2 Điều 12, còn hành vi chở người ngồi trên xe sử dụng ô (dù) là điểm d khoản 1 Điều 7. Hai điểm cùng nhắc đến ô nhưng hướng vào hai người, với hai khung tiền khác nhau. Bài chỉ nêu cách đọc, không kết luận ai bị xử phạt và bao nhiêu trong một chuyến đi cụ thể.',
+      'Phần bài chưa đối chiếu gồm: các khoản và điểm khác của Điều 12 và Điều 7; định nghĩa cụm người được chở, các loại xe trong danh sách và vật cồng kềnh; hình thức xử phạt bổ sung, trừ điểm giấy phép lái xe hay biện pháp khắc phục hậu quả cho các điểm đã đọc; cách xử lý khi một chuyến đi vi phạm nhiều điểm hoặc khi cả hai bên cùng thực hiện hành vi; tình tiết tăng nặng, giảm nhẹ; thẩm quyền và thủ tục xử phạt; các văn bản sửa đổi khác ngoài Nghị định 238/2026/NĐ-CP. Với những nội dung này, bài không kết luận gì.',
+      'Có hai hiểu lầm ngược nhau nên tránh. Một là nghĩ rằng người lái chịu mọi thứ còn người ngồi sau không dính gì: Điều 12 gọi tên người được chở ngay trong điểm d khoản 2 và trong câu dẫn của khoản 5. Hai là nghĩ rằng đã có điều khoản phạt người ngồi sau thì người lái không còn liên quan: Điều 7 vẫn có điểm d khoản 1 và điểm i khoản 2 riêng cho người điều khiển xe. Bài không nói hai điều khoản áp dụng cùng lúc hay thay thế nhau trong một tình huống, vì dòng đã đối chiếu không nêu.',
+      'Cách tra: mở trang Nghị định 168/2024/NĐ-CP trên Công báo điện tử của Chính phủ, tìm Điều 12 rồi Điều 7 và đọc từng khoản có liên quan; mở trang Nghị định 238/2026/NĐ-CP để xem các điều sửa đổi có chạm tới hai điều này hay không; ghi lại số hiệu, ngày ban hành, ngày hiệu lực và ngày bạn tra, rồi kiểm tra văn bản còn hiệu lực trước khi quyết định. Hai nghị định có thể tiếp tục được sửa đổi, bổ sung. Nếu cần xác nhận cho một tình huống cụ thể, hãy hỏi cơ quan có thẩm quyền. Bài là tổng hợp để tham khảo, không phải tư vấn pháp lý. Với cả hai bên trên xe, điều đáng nhớ nhất là an toàn của chính mình và của người xung quanh.'
+    ])
+  ],
+  checklist: [
+    'Mở Điều 12 Nghị định 168/2024/NĐ-CP trên Công báo điện tử Chính phủ và đọc khoản 2 điểm d, khoản 5 điểm a, b theo đúng chữ.',
+    'Đọc Điều 7 khoản 1 điểm d và khoản 2 điểm i để thấy phía người lái, khác chủ thể và khác khung tiền.',
+    'Không lấy khung tiền của khoản 2 gán cho khoản 5, hay khung của Điều 7 gán cho Điều 12.',
+    'Không lấy cụm trừ trường hợp của điểm i khoản 2 Điều 7 gán sang điều khoản của người được chở.',
+    'Mở Nghị định 238/2026/NĐ-CP để xem có điều nào chạm tới các điểm đã đọc sau ngày 15 tháng 8 năm 2026 hay không.',
+    'Ghi lại số hiệu, ngày hiệu lực, ngày tra cứu và hỏi cơ quan có thẩm quyền khi cần xác nhận một tình huống cụ thể.'
+  ],
+  steps: [
+    { title: 'Gọi tên hành vi theo câu chữ', detail: 'Xác định hành vi cần tra: sử dụng ô (dù), bám, kéo, đẩy, mang vác, đứng trên yên, ngồi trên tay lái hay mũ bảo hiểm của người được chở.' },
+    { title: 'Tìm đúng khoản và điểm của người được chở', detail: 'Mở Điều 12 Nghị định 168/2024/NĐ-CP: khoản 2 điểm d cho ô (dù); khoản 5 điểm a và điểm b cho các hành vi còn lại.' },
+    { title: 'Đối chiếu phía người lái', detail: 'Mở Điều 7: khoản 1 điểm d về chở người ngồi sử dụng ô (dù), khoản 2 điểm i về chở người ngồi không đội mũ đúng quy cách.' },
+    { title: 'Ghi từng khung tiền theo từng điểm', detail: 'Chép khung tiền kèm số khoản, điểm và chủ thể; không cộng gộp hay quy đổi giữa các điểm.' },
+    { title: 'Kiểm tra hiệu lực và hỏi cơ quan có thẩm quyền', detail: 'So với Nghị định 238/2026/NĐ-CP và văn bản còn hiệu lực; với điều bài chưa đối chiếu, hãy hỏi cơ quan có thẩm quyền.' }
+  ],
+  warnings: [
+    'Không kết luận bạn sẽ bị phạt hay không bị phạt, hoặc bị phạt bao nhiêu, cho một chuyến đi cụ thể; người có thẩm quyền xác định theo hành vi, tình tiết và văn bản hiện hành.',
+    'Không gán nhầm mức tiền: từ 200.000 đồng đến 250.000 đồng là của người được chở sử dụng ô (dù), từ 400.000 đồng đến 600.000 đồng là của khoản 5 Điều 12, còn Điều 7 có khung riêng cho người điều khiển xe.',
+    'Dù điều khoản nào áp dụng, giương ô, đứng trên yên, ngồi trên tay lái hay không đội mũ cài quai đúng cách đều làm giảm an toàn của người lái, người được chở và người xung quanh.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: Nghị định 168/2024/NĐ-CP ngày 26/12/2024 (Công báo số 75 + 76 và 77 + 78 ngày 16-01-2025) và Nghị định 238/2026/NĐ-CP ngày 26/06/2026 (Công báo số 391 ngày 13-07-2026), truy xuất ngày 24 tháng 10 năm 2026.',
+    'Bài tổng hợp để tham khảo, không phải tư vấn pháp lý; văn bản có thể được sửa đổi sau thời điểm kiểm chứng, nên cần tra văn bản còn hiệu lực.'
+  ],
+  references: [
+    'Nghị định 168/2024/NĐ-CP ngày 26/12/2024 của Chính phủ quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe, Điều 12 khoản 2 điểm d, khoản 5 điểm a, b; Điều 7 khoản 1 điểm d, khoản 2 điểm i; Nghị định 238/2026/NĐ-CP ngày 26/06/2026 sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP',
+    'Công báo điện tử Chính phủ (congbao.chinhphu.vn), cổng tra cứu văn bản quy phạm pháp luật chính thức'
+  ],
+  related: [
+    'cho-muon-xe-may-cho-nguoi-chua-du-tuoi-hoac-khong-co-bang-lai-chu-xe-bi-phat-the-nao',
+    'cho-nguoi-ngoi-sau-xe-may-cho-hai-ba-nguoi-va-tre-em-duoi-12-tuoi-bi-xu-ly-the-nao',
+    'di-xe-dap-dien-co-phai-doi-mu-bao-hiem-cho-duoc-may-nguoi-va-loi-nao-bi-phat-theo-nghi-dinh-168',
+    'cam-o-dien-thoai-thiet-bi-am-thanh-khi-lai-xe-may-bi-phat-the-nao',
+    'nguoi-tu-du-16-den-duoi-18-tuoi-lai-xe-may-bi-xu-phat-the-nao-va-diem-a-khoan-4-dieu-18-sua-doi-tu-15-8-2026'
+  ]
+};
