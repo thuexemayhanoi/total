@@ -28900,6 +28900,97 @@
    "updatedAt": "2026-10-23T16:50:08.528Z",
    "seoScore": 100,
    "words": 3763
+  },
+  {
+   "id": "S01971",
+   "hub": "wiki/cau-tao-xe",
+   "slug": "cac-ong-nho-thong-xuong-duoi-gam-xe-may-la-gi-ong-nao-xa-nuoc-ong-nao-tho-va-vi-sao-khong-duoc-bit-hay-cat",
+   "title": "Các ống nhỏ thòng xuống dưới gầm xe máy: ống nào xả nước, ống nào thở và vì sao không được bịt hay cắt",
+   "primaryIntent": "informational/cac-ong-nho-thong-xuong-duoi-gam-xe-may-la-gi-ong-nao-xa-nuoc-ong-nao-tho-va-vi-sao-khong-duoc-bit-hay-cat",
+   "notes": "source=topic-v2 topicId=T002155",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:25:50.593Z",
+   "updatedAt": "2026-10-24T04:25:50.594Z"
+  },
+  {
+   "id": "S01972",
+   "hub": "wiki/thuat-ngu-xe",
+   "slug": "ga-rang-ti-mo-bin-di-na-mo-bu-gi-xec-mang-phuoc-nhung-chu-goc-phap-trong-tieng-tho-xe-chi-bo-phan-nao",
+   "title": "Ga-răng-ti, mô-bin, đi-na-mô, bu-gi, xéc-măng, phuộc: những chữ gốc Pháp trong tiếng thợ xe chỉ bộ phận nào",
+   "primaryIntent": "informational/ga-rang-ti-mo-bin-di-na-mo-bu-gi-xec-mang-phuoc-nhung-chu-goc-phap-trong-tieng-tho-xe-chi-bo-phan-nao",
+   "notes": "source=topic-v2 topicId=T002156",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:25:50.727Z",
+   "updatedAt": "2026-10-24T04:25:50.727Z"
+  },
+  {
+   "id": "S01973",
+   "hub": "wiki/thuat-ngu-xe",
+   "slug": "chu-bac-trong-tieng-tho-xe-bac-dan-bac-lot-bac-bien-bac-co-bac-cang-va-len-bac-chi-nhung-chi-tiet-nao",
+   "title": "Chữ \"bạc\" trong tiếng thợ xe: bạc đạn, bạc lót, bạc biên, bạc cổ, bạc càng và \"lên bạc\" chỉ những chi tiết nào",
+   "primaryIntent": "informational/chu-bac-trong-tieng-tho-xe-bac-dan-bac-lot-bac-bien-bac-co-bac-cang-va-len-bac-chi-nhung-chi-tiet-nao",
+   "notes": "source=topic-v2 topicId=T002157",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:25:50.794Z",
+   "updatedAt": "2026-10-24T04:25:50.794Z"
+  },
+  {
+   "id": "S01974",
+   "hub": "garage/dong-co",
+   "slug": "co-po-xe-may-do-ruc-khi-no-may-tai-cho-khi-nao-binh-thuong-khi-nao-la-lua-tre-hoa-khi-ngheo-hay-xuc-tac-tac",
+   "title": "Cổ pô xe máy đỏ rực khi nổ máy tại chỗ: khi nào bình thường, khi nào là lửa trễ, hòa khí nghèo hay xúc tác tắc",
+   "primaryIntent": "troubleshooting/co-po-xe-may-do-ruc-khi-no-may-tai-cho-khi-nao-binh-thuong-khi-nao-la-lua-tre-hoa-khi-ngheo-hay-xuc-tac-tac",
+   "notes": "source=topic-v2 topicId=T002158",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:25:50.862Z",
+   "updatedAt": "2026-10-24T04:25:50.862Z"
+  },
+  {
+   "id": "S01975",
+   "hub": "garage/truyen-dong",
+   "slug": "tam-truot-xich-tren-cang-sau-xe-so-bi-mon-rach-hoac-roi-xich-co-vao-cang-tieng-keu-khi-di-cham-va-luc-nen-thay",
+   "title": "Tấm trượt xích trên càng sau xe số bị mòn, rách hoặc rơi: xích cọ vào càng, tiếng kêu khi đi chậm và lúc nên thay",
+   "primaryIntent": "troubleshooting/tam-truot-xich-tren-cang-sau-xe-so-bi-mon-rach-hoac-roi-xich-co-vao-cang-tieng-keu-khi-di-cham-va-luc-nen-thay",
+   "notes": "source=topic-v2 topicId=T002159",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:25:50.923Z",
+   "updatedAt": "2026-10-24T04:25:50.924Z"
+  },
+  {
+   "id": "S01976",
+   "hub": "learn/ky-thuat-lai-xe",
+   "slug": "quen-di-xe-may-dien-nay-lai-lai-xe-xang-quen-no-may-nha-ga-xe-khong-tu-ham-ga-tre-va-nhung-phan-xa-phai-doi-lai",
+   "title": "Quen đi xe máy điện, nay lái lại xe xăng: quên nổ máy, nhả ga xe không tự hãm, ga trễ và những phản xạ phải đổi lại",
+   "primaryIntent": "informational/quen-di-xe-may-dien-nay-lai-lai-xe-xang-quen-no-may-nha-ga-xe-khong-tu-ham-ga-tre-va-nhung-phan-xa-phai-doi-lai",
+   "notes": "source=topic-v2 topicId=T002160",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:25:50.983Z",
+   "updatedAt": "2026-10-24T04:25:50.983Z"
+  },
+  {
+   "id": "S01977",
+   "hub": "wiki/dien-xe",
+   "slug": "bo-day-dien-xe-may-cu-lao-hoa-vo-gion-nut-giac-gi-vi-sao-xe-cu-hay-loi-dien-va-va-tam-duoc-khong-hay-thay-ca-bo",
+   "title": "Bó dây điện xe máy cũ lão hóa: vỏ giòn nứt, giắc gỉ, vì sao xe cũ hay lỗi điện và vá tạm được không hay thay cả bộ",
+   "primaryIntent": "informational/bo-day-dien-xe-may-cu-lao-hoa-vo-gion-nut-giac-gi-vi-sao-xe-cu-hay-loi-dien-va-va-tam-duoc-khong-hay-thay-ca-bo",
+   "notes": "source=topic-v2 topicId=T002161",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-24T04:25:51.043Z",
+   "updatedAt": "2026-10-24T04:25:51.043Z"
   }
  ]
 }
