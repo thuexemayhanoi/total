@@ -3,7 +3,7 @@
 > **Cập nhật owner 24/10/2026 — FAST MODE:** Tên file chỉ là lịch sử; Claude, Mistral và ChatGPT đều dùng cùng quy trình. `factory/topic-governance.json` hiện `mode=off` và `requireApproved=false`: **300 slot PLANNED cũ không cần topic-approve**. Hãy bắt đầu `writer-pack --count 10 --json` rồi tự nghiên cứu, chọn những topic thật sự khác bài PUBLISHED, viết/verify/push batch. Không đòi người dùng duyệt hay mở khóa mỗi bài. **Không** coi 300 tiêu đề cũ là 300 intent mới: có rất nhiều biến thể V1 trùng SEO; nếu trùng thì bỏ, không viết đệm. `v1Generation=frozen` vẫn giữ để không tự sinh topic hoán vị. Bài mới sau này cần nghiên cứu chủ đề độc lập, tiếp tục quy trình qua Topic Factory có kiểm chứng. Khóa transaction nội bộ trong publisher và QA ≥70 vẫn giữ. Publisher quét phục hồi backlog 30 phút/lượt, nhưng không tự gọi AI viết.
 
 
-Mục tiêu: Mistral không tự đọc toàn matrix, không tự đoán internal link, không tự nghĩ workflow.
+Mục tiêu: Mistral/Claude không tự đọc toàn matrix, không tự đoán internal link, không tự nghĩ workflow. **Nguồn hướng dẫn chuẩn là [`FAST-WRITER-LOOP.md`](FAST-WRITER-LOOP.md) và `AGENTS.md`**; file này giữ cho phiên Mistral cũ tương thích.
 
 ## Một vòng production
 
@@ -90,28 +90,14 @@ Nếu batch fail QA hoặc 404:
 - không sửa bài PUBLISHED nếu không cần;
 - không hạ QA để cho qua.
 
-## Nguồn topic
+## Nguồn topic — FAST MODE hiện hành
 
-> **Topic Factory V2 (đang áp dụng, `factory/topic-governance.json` = enforce):** `queue-refill` bị đóng băng; Writer **chỉ nhận slot có topic APPROVED** trong `writer-pack` và phải viết đúng
-> `TOPIC_BRIEF` / `TOPIC_GAIN` / `TOPIC_OUTLINE` / `TOPIC_SCOPE` (`no-figures` = không số liệu/giá/thông số). Không tự tạo slot hay topic. Xem [TOPIC-FACTORY-V2.md](TOPIC-FACTORY-V2.md).
-> Phần mô tả `queue-refill` bên dưới là hành vi **legacy** (chỉ còn khi chủ repo đặt `v1Generation: allowed`).
-
-Coordinator giữ khoảng 300 PLANNED.
-
-Khi queue xuống dưới ngưỡng, `queue-refill` dùng:
-1. seed topic cũ nếu còn;
-2. Topic Factory deterministic theo taxonomy 97 hub.
-
-`plannedTarget=16000` là phần topic tự động. 4.000 slot còn lại được giữ cho:
-GSC query discovery, model xe mới, địa phương, luật mới, thị trường, technical gap và rental-intent gap.
-
-Topic Factory không preallocate 20.000 slot cùng lúc; chỉ refill theo queue để matrix và writer luôn nhẹ.
+- `factory/topic-governance.json` hiện là `mode=off`, `requireApproved=false`, `v1Generation=frozen`. Writer có thể nhận **300 slot PLANNED legacy hiện có** mà không cần chủ repo duyệt hay chạy `topic-approve` từng slot.
+- **Không coi 300 slot = 300 bài hợp lệ.** Nhiều tiêu đề được tạo từ hoán vị V1; Writer tự đối chiếu câu hỏi, search intent, bài PUBLISHED gần nhất và bằng chứng trước khi viết. Chủ đề không có information gain độc lập thì bỏ, không nhồi bài.
+- `queue-refill` vẫn frozen; không tự sinh thêm các topic V1 dạng seed × angle × context. Khi hết slot có giá trị, phải nghiên cứu đề xuất mới. **Giới hạn hiện có:** Topic V2 mới ngoài các slot legacy vẫn cần công cụ `topic-propose` / `topic-approve` do coordinator ghi slot; chưa có lệnh auto-create + auto-approve cho topic mới.
+- Topic V2 đã có TOPIC_BRIEF/GAIN/OUTLINE/SCOPE thì phải tuân thủ, kể cả `no-figures`; slot legacy thiếu brief phải tự nghiên cứu và ghi đúng dữ kiện.
+- Writer độc lập có thể dùng `writer-pack --count 10 --shard k/3 --json` theo hướng dẫn `FAST-WRITER-LOOP.md`; mỗi phiên một shard và working copy riêng. `writer-heartbeat.json` là **file chung**, không để nhiều writer cùng sửa và đẩy một lúc.
 
 ## Khi nào dừng
 
-Chỉ dừng khi `writer-pack` trả:
-- `status=wait-publish`: fetch/rebase fresh main rồi kiểm lại;
-- `status=refill`: chờ/cho coordinator refill rồi kiểm lại;
-- `status=done-general-target`: phần 16k auto target đã xong.
-
-Không dừng chỉ vì một batch đã GREEN.
+`writer-pack` trong FAST MODE có thể trả `wait-publish`, `refill`, `done-general-target` hoặc `ready`; mỗi status phải đọc trong output thật. Nếu `ready` nhưng 10 topic đầu trùng ý, đừng viết đệm: chọn shard khác nếu có, hoặc dừng báo rõ danh sách topic bị trùng/cần nghiên cứu bổ sung. `refill` không thể tự tạo topic nếu `v1Generation=frozen`. Nếu hết quota AI, lưu checkpoint rồi tiếp tục ở phiên mới; GitHub Actions không thể tự gọi AI. Không dừng chỉ vì một batch đã GREEN.
