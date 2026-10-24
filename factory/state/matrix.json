@@ -31031,11 +31031,13 @@
    "title": "Xe máy bị tịch thu khi nào: bốc đầu, buông hai tay, đua xe, lạng lách tái phạm hay xe lắp ráp trái quy định?",
    "primaryIntent": "informational/xe-may-bi-tich-thu-khi-nao-boc-dau-buong-hai-tay-dua-xe-xe-lap-rap-trai-quy-dinh",
    "notes": "source=topic-v2 topicId=T002307",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:07:55.603Z",
-   "updatedAt": "2026-10-24T12:07:55.604Z"
+   "updatedAt": "2026-10-24T12:30:18.243Z",
+   "seoScore": 100,
+   "words": 3632
   },
   {
    "id": "S02115",
