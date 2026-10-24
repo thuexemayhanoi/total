@@ -30963,11 +30963,13 @@
    "title": "Xin vượt xe bằng còi hay đèn, khi nào cấm vượt và xe phía trước phải nhường vượt thế nào theo luật?",
    "primaryIntent": "informational/xin-vuot-xe-bang-coi-hay-den-khi-nao-cam-vuot-va-xe-phia-truoc-phai-nhuong-vuot-the-nao-theo-luat",
    "notes": "source=topic-v2 topicId=T002303",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:06:19.200Z",
-   "updatedAt": "2026-10-24T12:06:19.201Z"
+   "updatedAt": "2026-10-24T12:17:12.230Z",
+   "seoScore": 100,
+   "words": 3443
   },
   {
    "id": "S02111",
