@@ -1,5 +1,8 @@
 # Kế hoạch migration Topic Factory V2 — **chờ chủ repo duyệt**
 
+> **Cập nhật 24/10/2026:** Đây là **hồ sơ quyết định/migration lịch sử**, không phải hướng dẫn hiện hành để dừng writer. Chủ repo đã cho phép FAST MODE: `topic-governance.json` = `mode=off`, `requireApproved=false`, `v1Generation=frozen`. Quyết định M1 ban đầu "300 slot không cho writer nhận" **không còn áp dụng**: slot PLANNED legacy có thể được writer nghiên cứu/viết ngay, nhưng **phải bỏ những topic trùng intent**, không tự mở refill V1. Các mục liên quan sửa/xóa bài đã xuất bản, URL, noindex và kiến trúc vẫn phải xin owner duyệt riêng. Xem [FAST-WRITER-LOOP.md](FAST-WRITER-LOOP.md) và [AGENTS.md](../AGENTS.md).
+
+
 > Phạm vi của tài liệu này: những việc **không** được tự làm vì chạm bài/URL đã xuất bản, kiến trúc sản xuất hoặc hạ tầng.
 > Đã triển khai (an toàn, có rollback): lớp governance, gate, ma trận topic, duyệt có đọc láng giềng, đóng băng sinh topic V1 — xem [TOPIC-FACTORY-V2.md](TOPIC-FACTORY-V2.md).
 > Không mục nào dưới đây xóa bài, đổi URL hay redirect trừ khi chủ repo ghi rõ “DUYỆT” cho đúng mục đó.
