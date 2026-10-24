@@ -4,14 +4,9 @@ Tài liệu chính thức cho chuẩn kiểm thử của content factory. Mọi 
 
 ## Nguyên tắc: "green means progress"
 
-Một CI run SUCCESS với backlog article-backed claimable > 0 là **defect**, không phải thành công. Workflow publish chỉ được SUCCESS khi cuối run:
+**Hợp đồng hiện hành (24/10/2026):** FAST writer → publisher xử lý batch 1–10. Một run SUCCESS khi **batch do run nhận** đã qua QA/404/state guard, transaction sạch, commit/push thành công (hoặc no-op vì không có article-backed backlog); **không có nghĩa tất cả các slot PLANNED đã có bài**, cũng không có nghĩa đã viết mới. Lịch fallback 30 phút sẽ tiếp tục nhận tối đa 10 article-backed IDs/run. Các lệnh kiểm toàn site (`verify-invariant`, `generate --check`, `audit --min-score 70`, regression suites) chạy trên engine gate hoặc manual deep audit, **không nằm trong đường nóng mỗi batch**.
 
-- writer lock sạch (run đã release đúng lock của chính mình),
-- article-backed claimable backlog == 0,
-- production invariant (`factory.js verify-invariant`) PASS,
-- `generate.js --check`, `audit --min-score 70`, `test.js`, `test-hardening.js`, `test-reliability.js`, `test-pair.js`, `test-cycle.js` đều xanh.
-
-SIMPLE PRODUCTION MODE (pair + cycle): hot path của writer/publisher là `publish-pair` (đúng PAIR_SIZE = 2 ID, exact push scope, scoped QA MINIMAL gate >= 70 — SEO/intent advisory, txn atomic resumable) và `cycle-qa`/`cycle-publish` (12–18 bài/cycle, scoped QA chỉ bài mới, FAIL → repair queue không giữ cycle). Heavy gate KHÔNG chạy mỗi pair/cycle — chỉ khi engine/workflow đổi (CI ENGINE_CHANGE) hoặc owner chủ động chạy `factory-deep-audit.yml` (workflow_dispatch, MANUAL-ONLY).
+**Legacy fixtures:** Các test cũ pair-2/cycle 12–18/continuous-drain vẫn tồn tại để phát hiện regression và lỗi transaction; chúng không định nghĩa batch size của workflow hiện tại. Đừng sửa assert để lấy màu xanh. **GitHub Actions không khởi tạo AI writer.**
 
 PLANNED chưa có article module KHÔNG phải backlog claimable — đó là `WAITING_FOR_WRITER`, không làm CI fail.
 
@@ -26,7 +21,7 @@ Hàm thuần, không đụng production state. Bao phủ trong `factory/test-rel
 - `maxIterations()` tính từ workload thực (`ceil(claimable / limit) + 2`), không hard-code,
 - `findClaimableBacklog()`, `computeProgress()` / `assertProgress()` (NO_PROGRESS fail loud),
 - `checkProductionInvariant()` helpers,
-- publish theo explicit IDs.
+- publish theo explicit IDs; hot path 1–10/batch, legacy pair/cycle vẫn có test.
 
 ### Layer 2 — Integration
 Fixture temp (copy repo ra tmp, KHÔNG production state). 25 article-backed slot hợp lệ → drain 3 chunk liên tiếp trong MỘT run, không cần push thứ hai, không sweep slot PASS ngoài chunk. Cùng với fault injection: QA fail, publish fail, generator fail, module syntax error, wrong lock owner, stale lock.
@@ -51,9 +46,9 @@ Soak fixture temp ≥ 35 article-backed slot (> 3 chunk). Fault injection: push 
 
 Logic production nằm trong `factory/lib/lock.js` và `factory/lib/factory-runtime.js` (hàm thuần, test được); workflow YAML chỉ orchestration.
 
-## Continuous backlog drain
+## Backlog recovery của publisher hiện hành
 
-`factory-publish.yml` (pair) xử lý EXACT push scope: `push-scope` → `publish-pair` đúng IDs của commit (txn atomic, commit derived state, retry ≤ 3), KHÔNG sweep slot khác. KHÔNG dựa vào bot-commit tự trigger workflow kế tiếp (GITHUB_TOKEN không đảm bảo self-trigger). Cổng cuối `backlog --fail-if-claimable` fail nếu publish vừa SUCCESS mà claimable backlog > 0. Full-site audit là `factory-deep-audit.yml` MANUAL-ONLY (workflow_dispatch) — KHÔNG thuộc production loop.
+`factory-publish.yml` chạy theo push article (lấy exact IDs) hoặc cron fallback `17,47 * * * *` / dispatch. Trên cron/no-scope, sau khi fetch fresh main, dùng `plan-chunk --limit 10` để chọn tối đa 10 ID có module bài và chưa PUBLISHED. Với nhiều hơn 10 ID, run kết thúc sau một transaction có thể còn backlog, các cron sau tiếp tục xử lý. Một run không có ID là no-op thành công; không hề chứng minh writer đã hoạt động. Publisher giữ mutex/concurrency và QA/404/commit safeguards; full-site audit là `factory-deep-audit.yml` MANUAL-ONLY.
 
 ## Chạy
 
@@ -65,4 +60,4 @@ node factory/test-pair.js     # pair mode (PAIR_SIZE/exact scope/txn recovery)
 node factory/test-cycle.js    # production cycle (12-18 bài, scoped QA, refill, defer REPAIR)
 ```
 
-Cả năm được CI chạy khi ENGINE_CHANGE (article-quality.yml) và trong deep audit manual. CONTENT_ONLY push chỉ chạy gate nhẹ (`verify-sources` đúng EXACT IDs). Không xóa test cũ để lấy màu xanh.
+Đây là bộ regression nặng khi engine/workflow/test thay đổi hoặc trong deep audit thủ công; content-only push dùng scoped `verify-batch` tại publisher. **Lưu ý:** lần kiểm gần đây `test-topic-v2.js` còn lỗi coverage 4/6 và chưa có xác nhận engine gate xanh; phải sửa nguyên nhân phân loại khi xử lý engine, không xóa test/giảm chuẩn để lấy màu xanh.
