@@ -29823,11 +29823,13 @@
    "title": "Lốp hoặc bánh xe máy nóng sau khi chạy: nóng thế nào là bình thường, khi nào là kẹt phanh, thiếu hơi hay bạc đạn khô",
    "primaryIntent": "troubleshooting/lop-hoac-banh-xe-may-nong-sau-khi-chay-nong-the-nao-la-binh-thuong-khi-nao-la-ket-phanh-thieu-hoi-hay-bac-dan-kho",
    "notes": "source=topic-v2 topicId=T002220",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:54:04.061Z",
-   "updatedAt": "2026-10-24T07:54:04.061Z"
+   "updatedAt": "2026-10-24T08:04:34.944Z",
+   "seoScore": 100,
+   "words": 3165
   },
   {
    "id": "S02033",
