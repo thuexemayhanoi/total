@@ -30123,11 +30123,13 @@
    "title": "Đường đèo chỉ vừa một xe, một bên vách một bên vực: gặp xe ngược chiều thì ai nhường, tránh ở đâu và vì sao đừng lùi",
    "primaryIntent": "troubleshooting/duong-deo-chi-vua-mot-xe-mot-ben-vach-mot-ben-vuc-gap-xe-nguoc-chieu-thi-ai-nhuong-tranh-o-dau-va-vi-sao-dung-lui",
    "notes": "source=topic-v2 topicId=T002241",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:53:09.216Z",
-   "updatedAt": "2026-10-24T08:53:09.216Z"
+   "updatedAt": "2026-10-24T08:59:51.642Z",
+   "seoScore": 100,
+   "words": 3173
   },
   {
    "id": "S02053",
