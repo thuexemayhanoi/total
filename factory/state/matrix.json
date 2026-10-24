@@ -30243,11 +30243,13 @@
    "title": "Nghi xe bị người lạ bỏ cát hoặc đường vào bình xăng, lỗ châm nhớt: dấu hiệu, đừng đề máy và cách ghi lại sự việc",
    "primaryIntent": "troubleshooting/nghi-xe-bi-nguoi-la-bo-cat-hoac-duong-vao-binh-xang-lo-cham-nhot-dau-hieu-dung-de-may-va-cach-ghi-lai-su-viec",
    "notes": "source=topic-v2 topicId=T002249",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T09:41:38.665Z",
-   "updatedAt": "2026-10-24T09:41:38.669Z"
+   "updatedAt": "2026-10-24T09:46:22.741Z",
+   "seoScore": 100,
+   "words": 3120
   },
   {
    "id": "S02061",
