@@ -29793,11 +29793,13 @@
    "title": "Xăng để lâu trong bình xe máy có hỏng không: mùi, màu và cặn báo gì, có bay hơi thật không, nên xả hay pha thêm",
    "primaryIntent": "informational/xang-de-lau-trong-binh-xe-may-co-hong-khong-mui-mau-va-can-bao-gi-co-bay-hoi-that-khong-nen-xa-hay-pha-them",
    "notes": "source=topic-v2 topicId=T002218",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:18.788Z",
-   "updatedAt": "2026-10-24T07:48:18.789Z"
+   "updatedAt": "2026-10-24T08:03:13.678Z",
+   "seoScore": 91,
+   "words": 3167
   },
   {
    "id": "S02031",
