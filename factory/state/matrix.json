@@ -30618,11 +30618,13 @@
    "title": "Biển số xe máy bị che, bẻ cong, dán hay phủ vật liệu: điều khoản nào áp dụng sau khi sửa đổi từ 15/8/2026?",
    "primaryIntent": "informational/bien-so-xe-may-bi-che-be-cong-dan-decal-hay-phu-vat-lieu-bi-xu-ly-the-nao-tu-15-8-2026",
    "notes": "source=topic-v2 topicId=T002275",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:09.854Z",
-   "updatedAt": "2026-10-24T11:04:09.854Z"
+   "updatedAt": "2026-10-24T11:26:26.284Z",
+   "seoScore": 100,
+   "words": 3389
   },
   {
    "id": "S02086",
