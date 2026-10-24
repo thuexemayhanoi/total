@@ -29386,11 +29386,13 @@
    "title": "Lỡ va vào người đi bộ hoặc người đạp xe: dừng lại, lo người trước xe sau, gọi trợ giúp và những điều đừng làm tại chỗ",
    "primaryIntent": "troubleshooting/lo-va-vao-nguoi-di-bo-hoac-nguoi-dap-xe-dung-lai-lo-nguoi-truoc-xe-sau-goi-tro-giup-va-nhung-dieu-dung-lam-tai-cho",
    "notes": "source=topic-v2 topicId=T002190",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:54:58.731Z",
-   "updatedAt": "2026-10-24T06:54:58.731Z"
+   "updatedAt": "2026-10-24T06:59:10.230Z",
+   "seoScore": 100,
+   "words": 2839
   },
   {
    "id": "S02004",
