@@ -9398,6 +9398,38 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/bo-day-dien-xe-may-cu-lao-hoa-vo-gion-nut-giac-gi-vi-sao-xe-cu-hay-loi-dien-va-va-tam-duoc-khong-hay-thay-ca-bo/",
+  "title": "Bó dây điện xe máy cũ lão hóa: vỏ giòn nứt, giắc gỉ, vì sao xe cũ hay lỗi điện và vá tạm được không hay thay cả bộ",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Xe đi đã nhiều năm, mở ốp ra thấy bó dây điện cứng đơ, vỏ nứt lộ lõi, băng keo bung, giắc cắm gỉ xanh, và xe thì hay chập chờn đèn còi, thỉnh thoảng đứt cầu chì. Thợ này bảo vá chỗ hỏng, thợ kia bảo thay nguyên bộ dây, chủ xe không biết nghe ai. Bài này giải thích vì sao một bó dây nằm im cũng già đi vì nhiệt, rung và hơi ẩm; chỉ ra những đoạn hay hỏng trước ở cổ lái, sát máy, dưới sàn và chỗ từng đấu thêm đồ; xếp loại dấu hiệu từ chập chờn theo cử động tới mùi nhựa nóng và cầu chì đứt lặp lại; phân biệt vá tạm bằng băng keo, nối xoắn với cách thay đúng cỡ dây, đúng giắc; rồi đưa cách cân nhắc vá từng đoạn hay thay cả bộ và những dấu hiệu phải ngừng đi xe ngay.",
+  "quickAnswer": "Bó dây điện xe máy già đi vì nhiệt từ máy và ống xả làm vỏ giòn, vì gập và rung ở cổ lái làm sợi lõi đứt ngầm, và vì hơi ẩm chui vào giắc gây gỉ xanh; xe cũ hay lỗi điện là do nhiều vết thương nhỏ như thế cộng lại. Vá tạm bằng băng keo cách điện đúng loại chỉ hợp để về nhà, và chỉ nên tự làm với dây tín hiệu nhỏ như dây đèn, xi nhan, còi khi đã tắt khóa; dây chính, dây đề, dây sạc và dây bugi không tự quấn, không tự nối. Vá từng đoạn là đủ khi hỏng khu trú và phần còn lại của bó dây vẫn mềm, giắc còn sáng; thay cả bộ hợp lý khi vỏ giòn ở nhiều nơi, mối nối cũ chồng chất và lỗi cứ chạy từ chỗ này sang chỗ khác. Có khói, mùi khét, cầu chì đứt ngay sau khi thay, giắc nóng hay dây lộ lõi cạnh bình xăng thì ngừng đi xe và giao thợ.",
+  "keyPoints": [
+   "Bó dây không chuyển động nhưng vẫn hao mòn: nhiệt làm vỏ nhựa mất chất hóa dẻo rồi giòn nứt, gập và rung làm sợi lõi đứt dần bên trong, hơi ẩm làm chân giắc gỉ xanh và cản dòng điện.",
+   "Bốn vị trí hay hỏng trước: đoạn qua cổ lái bị gập và cọ, đoạn sát máy và ống xả bị nhiệt, giắc dưới sàn xe tay ga bị nước và bùn, và những chỗ từng đấu thêm đồ bằng nối xoắn.",
+   "Lỗi đi theo cử động như xoay lái hay xóc thường là đứt ngầm hoặc giắc lỏng; mùi nhựa nóng, giắc đổi màu và cầu chì đứt lặp lại là nhóm nguy hiểm hơn vì có chỗ đang tự đốt nóng.",
+   "Băng keo cách điện đúng loại quấn lên dây tín hiệu nhỏ chỉ là cách che tạm để tới tiệm; nối xoắn còn tệ hơn; thay đúng là cắt bỏ đoạn hỏng, nối cùng cỡ dây bằng hàn hay cốt bấm, bọc ống co và thay giắc cùng kiểu."
+  ],
+  "entities": [
+   "bó dây điện xe máy",
+   "vỏ dây cách điện giòn nứt",
+   "giắc cắm gỉ xanh",
+   "đứt ngầm sợi lõi dây",
+   "cầu chì đứt lặp lại",
+   "băng keo cách điện",
+   "ống co nhiệt",
+   "đầu cốt bấm",
+   "bó dây qua cổ lái"
+  ],
+  "keywords": [
+   "bó dây điện xe máy cũ lão hóa",
+   "vỏ dây điện xe máy giòn nứt",
+   "giắc điện xe máy gỉ",
+   "dây điện xe máy cũ chập chờn",
+   "thay bộ dây điện xe máy cũ"
+  ]
+ },
+ {
   "url": "learn/kien-thuc-xe-dien/bo-dieu-khien-xe-may-dien-la-gi/",
   "title": "Bộ điều khiển xe máy điện là gì: bộ não giữa pin, tay ga và mô-tơ",
   "category": "Kiến thức chuyên sâu",
