@@ -29163,11 +29163,13 @@
    "title": "Sạc xe máy điện qua đêm: bộ sạc tự ngắt đến đâu, vì sao vẫn nên có thói quen rút sạc và đặt chỗ sạc ra sao cho an toàn",
    "primaryIntent": "informational/sac-xe-may-dien-qua-dem-bo-sac-tu-ngat-den-dau-vi-sao-van-nen-co-thoi-quen-rut-sac-va-dat-cho-sac-ra-sao-cho-an-toan",
    "notes": "source=topic-v2 topicId=T002175",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:33.407Z",
-   "updatedAt": "2026-10-24T06:02:33.407Z"
+   "updatedAt": "2026-10-24T06:11:20.205Z",
+   "seoScore": 91,
+   "words": 3182
   },
   {
    "id": "S01989",
@@ -29176,11 +29178,13 @@
    "title": "Xe máy điện chết máy giữa đoạn ngập sâu: không bật lại, dắt ra thế nào và kiểm tra gì trước khi cắm sạc lại",
    "primaryIntent": "troubleshooting/xe-may-dien-chet-may-giua-doan-ngap-sau-khong-bat-lai-dat-ra-the-nao-va-kiem-tra-gi-truoc-khi-cam-sac-lai",
    "notes": "source=topic-v2 topicId=T002176",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:35.469Z",
-   "updatedAt": "2026-10-24T06:02:35.469Z"
+   "updatedAt": "2026-10-24T06:11:20.205Z",
+   "seoScore": 91,
+   "words": 3171
   },
   {
    "id": "S01990",
@@ -29189,11 +29193,13 @@
    "title": "Đổ nhầm loại nhiên liệu khi thuê ô tô tự lái: vì sao chưa nên nổ máy, báo chủ xe thế nào và những điều nên ghi lại",
    "primaryIntent": "informational/do-nham-loai-nhien-lieu-khi-thue-o-to-tu-lai-vi-sao-chua-nen-no-may-bao-chu-xe-the-nao-va-nhung-dieu-nen-ghi-lai",
    "notes": "source=topic-v2 topicId=T002177",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:37.238Z",
-   "updatedAt": "2026-10-24T06:02:37.238Z"
+   "updatedAt": "2026-10-24T06:11:20.205Z",
+   "seoScore": 100,
+   "words": 3134
   },
   {
    "id": "S01991",
