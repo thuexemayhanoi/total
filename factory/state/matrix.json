@@ -31132,11 +31132,13 @@
    "title": "Xe máy thiếu gương chiếu hậu bên trái, đèn phanh, đèn xi nhan, còi hoặc phanh hỏng: bị phạt thế nào?",
    "primaryIntent": "informational/xe-may-thieu-guong-chieu-hau-ben-trai-den-phanh-den-xi-nhan-coi-hoac-phanh-hong-bi-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002314",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:08:44.304Z",
-   "updatedAt": "2026-10-24T12:08:44.305Z"
+   "updatedAt": "2026-10-24T12:39:26.400Z",
+   "seoScore": 100,
+   "words": 3433
   }
  ]
 }
