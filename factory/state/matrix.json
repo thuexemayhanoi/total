@@ -30558,11 +30558,13 @@
    "title": "Khoảng cách an toàn khi đi xe máy là bao nhiêu mét và khi nào bị phạt vì không giữ khoảng cách?",
    "primaryIntent": "informational/khoang-cach-an-toan-khi-di-xe-may-bao-nhieu-met-va-khi-nao-bi-phat",
    "notes": "source=topic-v2 topicId=T002271",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:00.514Z",
-   "updatedAt": "2026-10-24T11:04:00.514Z"
+   "updatedAt": "2026-10-24T11:24:54.047Z",
+   "seoScore": 100,
+   "words": 3504
   },
   {
    "id": "S02082",
