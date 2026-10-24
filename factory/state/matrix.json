@@ -30678,11 +30678,13 @@
    "title": "Kiểm định khí thải xe máy: lộ trình theo Quyết định 13/2026/QĐ-TTg và khi nào chủ xe bị phạt?",
    "primaryIntent": "informational/kiem-dinh-khi-thai-xe-may-lo-trinh-quyet-dinh-13-2026-va-khi-nao-chu-xe-bi-phat",
    "notes": "source=topic-v2 topicId=T002279",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:18.817Z",
-   "updatedAt": "2026-10-24T11:04:18.817Z"
+   "updatedAt": "2026-10-24T11:37:08.042Z",
+   "seoScore": 100,
+   "words": 3562
   },
   {
    "id": "S02090",
