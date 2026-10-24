@@ -31012,11 +31012,13 @@
    "title": "Xe máy đỗ sai bị cảnh sát giao thông di chuyển đi: khi nào, ai trả chi phí và xe có được bảo đảm an toàn?",
    "primaryIntent": "informational/xe-may-do-sai-bi-canh-sat-giao-thong-di-chuyen-di-khi-nao-ai-tra-chi-phi-va-xe-co-duoc-bao-dam-an-toan",
    "notes": "source=topic-v2 topicId=T002306",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:06:39.841Z",
-   "updatedAt": "2026-10-24T12:06:39.841Z"
+   "updatedAt": "2026-10-24T12:25:54.899Z",
+   "seoScore": 100,
+   "words": 3469
   },
   {
    "id": "S02114",
