@@ -31211,11 +31211,13 @@
    "title": "Luật bắt xe máy giảm tốc độ hoặc dừng lại ở những tình huống nào: từ vạch người đi bộ đến trời mưa?",
    "primaryIntent": "informational/luat-bat-xe-may-giam-toc-do-hoac-dung-lai-o-nhung-tinh-huong-nao-tu-vach-nguoi-di-bo-den-troi-mua",
    "notes": "source=topic-v2 topicId=T002319",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:06:26.772Z",
-   "updatedAt": "2026-10-24T13:06:26.773Z"
+   "updatedAt": "2026-10-24T13:17:10.589Z",
+   "seoScore": 100,
+   "words": 3352
   },
   {
    "id": "S02127",
