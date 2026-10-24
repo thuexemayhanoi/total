@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "mode": "enforce",
+  "mode": "off",
   "v1Generation": "frozen",
-  "requireApproved": true,
+  "requireApproved": false,
   "maxApprovedQueue": 50,
   "thresholds": {},
-  "reason": "Topic Factory V2: topic chỉ thành slot sau khi qua gate chống hoán vị và được coordinator duyệt (topic-approve). Rollback: mode=off và v1Generation=allowed."
+  "reason": "Owner-authorized 2026-10-24 fast writing: no per-topic manual approval; keep legacy permutation-based auto refill frozen to avoid duplicate SEO topics. Publisher QA, business facts and immutable PUBLISHED rules stay enforced."
 }
