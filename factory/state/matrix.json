@@ -30363,11 +30363,13 @@
    "title": "Điểm giấy phép lái xe: 12 điểm, khi nào được phục hồi và điều gì xảy ra khi bị trừ hết điểm?",
    "primaryIntent": "informational/diem-giay-phep-lai-xe-12-diem-phuc-hoi-va-tru-het-diem",
    "notes": "source=topic-v2 topicId=T002258",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:10.812Z",
-   "updatedAt": "2026-10-24T10:50:10.812Z"
+   "updatedAt": "2026-10-24T10:59:09.871Z",
+   "seoScore": 100,
+   "words": 3049
   },
   {
    "id": "S02069",
@@ -30376,11 +30378,13 @@
    "title": "Đèn đỏ nhưng công an giao thông ra hiệu cho đi: nghe theo đèn, biển báo hay hiệu lệnh?",
    "primaryIntent": "informational/den-do-nhung-cong-an-giao-thong-ra-hieu-di-nghe-theo-ai",
    "notes": "source=topic-v2 topicId=T002259",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:13.237Z",
-   "updatedAt": "2026-10-24T10:50:13.237Z"
+   "updatedAt": "2026-10-24T10:59:09.871Z",
+   "seoScore": 100,
+   "words": 2975
   },
   {
    "id": "S02070",
@@ -30389,11 +30393,13 @@
    "title": "Luật quy định xe máy phải bật đèn từ mấy giờ và khi nào phải chuyển từ đèn pha sang đèn cốt?",
    "primaryIntent": "informational/khi-nao-xe-may-phai-bat-den-chieu-sang-phia-truoc",
    "notes": "source=topic-v2 topicId=T002260",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:15.817Z",
-   "updatedAt": "2026-10-24T10:50:15.817Z"
+   "updatedAt": "2026-10-24T10:59:38.787Z",
+   "seoScore": 100,
+   "words": 3107
   },
   {
    "id": "S02071",
