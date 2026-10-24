@@ -30438,11 +30438,13 @@
    "title": "Bán xe máy chưa thu hồi đăng ký, chưa sang tên: người đứng tên còn trách nhiệm gì và có giữ được biển số không?",
    "primaryIntent": "informational/ban-xe-may-chua-sang-ten-nguoi-dung-ten-con-trach-nhiem-gi",
    "notes": "source=topic-v2 topicId=T002263",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:22.865Z",
-   "updatedAt": "2026-10-24T10:50:22.865Z"
+   "updatedAt": "2026-10-24T11:02:45.551Z",
+   "seoScore": 100,
+   "words": 3083
   },
   {
    "id": "S02074",
