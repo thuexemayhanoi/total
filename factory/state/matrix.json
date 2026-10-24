@@ -29778,11 +29778,13 @@
    "title": "Thiếu nắp châm nhớt, nắp van lốp hay vài con ốc nhỏ trên xe máy: món nào đi tiếp được, món nào phải dừng, che tạm gì",
    "primaryIntent": "troubleshooting/thieu-nap-cham-nhot-nap-van-lop-hay-vai-con-oc-nho-tren-xe-may-mon-nao-di-tiep-duoc-mon-nao-phai-dung-che-tam-gi",
    "notes": "source=topic-v2 topicId=T002217",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:16.375Z",
-   "updatedAt": "2026-10-24T07:48:16.376Z"
+   "updatedAt": "2026-10-24T08:01:42.733Z",
+   "seoScore": 100,
+   "words": 3177
   },
   {
    "id": "S02030",
