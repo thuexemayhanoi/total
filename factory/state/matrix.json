@@ -29313,11 +29313,13 @@
    "title": "Quốc lộ đông xe tải hay đường tỉnh, đường huyện vắng hơn: mỗi loại tuyến mệt kiểu nào, rủi ro gì và cách chọn cho xe máy",
    "primaryIntent": "informational/quoc-lo-dong-xe-tai-hay-duong-tinh-duong-huyen-vang-hon-moi-loai-tuyen-met-kieu-nao-rui-ro-gi-va-cach-chon-cho-xe-may",
    "notes": "source=topic-v2 topicId=T002185",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:21.647Z",
-   "updatedAt": "2026-10-24T06:10:21.647Z"
+   "updatedAt": "2026-10-24T06:19:40.880Z",
+   "seoScore": 100,
+   "words": 3184
   },
   {
    "id": "S01999",
@@ -29326,11 +29328,13 @@
    "title": "Chọn giờ xuất phát cho chặng xe máy dài: đoạn khó đi lúc mắt tỉnh, tránh nắng gắt và giờ đông, đến nơi trước khi tối",
    "primaryIntent": "informational/chon-gio-xuat-phat-cho-chang-xe-may-dai-doan-kho-di-luc-mat-tinh-tranh-nang-gat-va-gio-dong-den-noi-truoc-khi-toi",
    "notes": "source=topic-v2 topicId=T002186",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:23.534Z",
-   "updatedAt": "2026-10-24T06:10:23.534Z"
+   "updatedAt": "2026-10-24T06:19:40.880Z",
+   "seoScore": 100,
+   "words": 3116
   },
   {
    "id": "S02000",
@@ -29339,11 +29343,13 @@
    "title": "Bản đồ báo chạy mấy tiếng nhưng đi xe máy thực tế lâu hơn: vì sao trễ, cách ước lượng lại thời gian và xếp lịch chặng",
    "primaryIntent": "troubleshooting/ban-do-bao-chay-may-tieng-nhung-di-xe-may-thuc-te-lau-hon-vi-sao-tre-cach-uoc-luong-lai-thoi-gian-va-xep-lich-chang",
    "notes": "source=topic-v2 topicId=T002187",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:25.554Z",
-   "updatedAt": "2026-10-24T06:10:25.554Z"
+   "updatedAt": "2026-10-24T06:19:40.880Z",
+   "seoScore": 100,
+   "words": 3175
   },
   {
    "id": "S02001",

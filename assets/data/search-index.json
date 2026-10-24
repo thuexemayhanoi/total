@@ -12050,6 +12050,41 @@
  },
  {
   "kind": "article",
+  "url": "ride/du-lich-xe-may/ban-do-bao-chay-may-tieng-nhung-di-xe-may-thuc-te-lau-hon-vi-sao-tre-cach-uoc-luong-lai-thoi-gian-va-xep-lich-chang/",
+  "title": "Bản đồ báo chạy mấy tiếng nhưng đi xe máy thực tế lâu hơn: vì sao trễ, cách ước lượng lại thời gian và xếp lịch chặng",
+  "description": "Vì sao thời gian bản đồ báo thường ngắn hơn thực tế khi đi xe máy, những khoản dừng âm thầm làm trễ, cách hiệu chỉnh bằng chặng đầu và xếp lịch chừa khoảng đệm.",
+  "category": "Hành trình",
+  "hub": "Du lịch xe máy",
+  "entities": [
+   "thời gian bản đồ",
+   "thời gian lăn bánh",
+   "thời gian dừng",
+   "hiệu chỉnh ước tính",
+   "xếp lịch chặng",
+   "khoảng đệm",
+   "mốc quyết định",
+   "xe chở hành lý"
+  ],
+  "keywords": [
+   "thời gian đi xe máy trên bản đồ có đúng không",
+   "đi xe máy thực tế lâu hơn bản đồ",
+   "ước lượng thời gian đi xe máy đường dài",
+   "xếp lịch chặng đi xe máy",
+   "khoảng đệm khi đi xe máy nhiều ngày"
+  ],
+  "seoTitle": "Bản đồ báo mấy tiếng, đi xe máy lâu hơn: vì sao và cách xếp lịch",
+  "primaryKeyword": "thời gian đi xe máy trên bản đồ có đúng không",
+  "headings": [
+   "Thời gian bản đồ thực sự tính cái gì và bỏ sót những gì",
+   "Những khoản thời gian âm thầm: nghỉ, đổ xăng, ăn, hỏi đường, chụp ảnh và đường xấu",
+   "Xe chở hành lý, người ngồi sau hay đi đèo chậm hơn ước tính như thế nào",
+   "Tự hiệu chỉnh: ghi giờ thật của chặng đầu, nhân lên cho cả ngày, cộng thời gian dừng",
+   "Xếp lịch có mốc quyết định và chừa khoảng đệm để khỏi chạy vội lúc cuối"
+  ],
+  "summary": "Nhiều người lập lịch xe máy theo đúng thời gian bản đồ báo rồi đến nơi trễ, phải chạy vội lúc cuối ngày. Con số bản đồ chỉ tính thời gian lăn bánh liên tục, còn chuyến thật có nghỉ, đổ xăng, ăn uống, hỏi đường, áo mưa, đường xấu và đoạn qua thị trấn. Bài giải "
+ },
+ {
+  "kind": "article",
   "url": "ride/di-phuot/ban-dong-hanh-om-giua-chuyen-xe-may-nhieu-ngay-nhan-ra-som-ai-cho-xe-ai-nghi-lai-hay-quay-ve-va-khi-nao-tim-noi-kham/",
   "title": "Bạn đồng hành ốm giữa chuyến xe máy nhiều ngày: nhận ra sớm, ai chở xe ai, nghỉ lại hay quay về và khi nào tìm nơi khám",
   "description": "Một người trong nhóm sốt, đau bụng hay mệt lả giữa chuyến phượt: nhận ra khi họ giấu bệnh, ai chở người, ai chạy xe của họ, nên nghỉ lại, quay về hay đi khám.",
@@ -17136,6 +17171,41 @@
    "Tổng kết: thứ tự quyết định đúng"
   ],
   "summary": "Chọn dầu nhớt là việc ra quyết định với quá nhiều lựa chọn và quá ít thông tin đáng tin: kệ hàng có mấy chục chai với đủ màu vỏ và lời hứa, người bán khuyên theo doanh số, diễn đàn khuyên theo sở thích. Thực tế việc chọn đơn giản hơn nhiều khi gom về ba câu hỏ"
+ },
+ {
+  "kind": "article",
+  "url": "ride/cung-duong/chon-gio-xuat-phat-cho-chang-xe-may-dai-doan-kho-di-luc-mat-tinh-tranh-nang-gat-va-gio-dong-den-noi-truoc-khi-toi/",
+  "title": "Chọn giờ xuất phát cho chặng xe máy dài: đoạn khó đi lúc mắt tỉnh, tránh nắng gắt và giờ đông, đến nơi trước khi tối",
+  "description": "Cách chọn giờ xuất phát cho chặng xe máy dài: tính ngược từ giờ đến nơi, xếp đoạn khó lúc mắt tỉnh, tránh nắng gắt và giờ đông, đặt mốc dừng sớm khi trễ.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [
+   "giờ xuất phát",
+   "chặng xe máy dài",
+   "đoạn khó",
+   "nắng gắt",
+   "giờ cao điểm",
+   "khoảng đệm",
+   "mốc giờ quyết định",
+   "giấc ngủ đêm trước"
+  ],
+  "keywords": [
+   "giờ xuất phát đi xe máy đường dài",
+   "đi xe máy đường dài nên đi lúc nào",
+   "tránh nắng gắt khi đi xe máy",
+   "đến nơi trước khi trời tối",
+   "đoạn khó đi lúc tỉnh táo"
+  ],
+  "seoTitle": "Chọn giờ xuất phát đi xe máy đường dài: tỉnh táo, tránh nắng gắt",
+  "primaryKeyword": "giờ xuất phát đi xe máy đường dài",
+  "headings": [
+   "Tính ngược từ giờ đến nơi: đến trước khi trời tối và chừa khoảng đệm",
+   "Xếp đoạn khó, đoạn đèo và đoạn đô thị vào lúc mắt tỉnh và trời đủ sáng",
+   "Giờ nào nên tránh: nắng gắt giữa trưa, giờ cao điểm thị trấn, chiều muộn vùng núi hay mưa",
+   "Dậy sớm không bằng ngủ đủ: sắp giờ xuất phát theo giấc ngủ của đêm trước",
+   "Khi đã trễ giờ: đặt mốc quyết định, dừng sớm và đổi điểm nghỉ thay vì chạy bù"
+  ],
+  "summary": "Nhiều người chọn giờ xuất phát cho chặng xe máy dài theo thói quen, rồi mới phát hiện đoạn khó rơi vào lúc buồn ngủ, nắng gắt đổ xuống giữa ngày hoặc trời tối khi còn lạ đường. Bài này đảo thứ tự: chốt giờ muốn đến nơi trước, rồi tính ngược về giờ đi. Nội dung"
  },
  {
   "kind": "article",
@@ -39480,6 +39550,41 @@
    "Khi nào đổi sang cách trả khác, và nếu sau đó thấy bị trừ hai lần"
   ],
   "summary": "Bài giải thích vì sao có lúc quét mã trả tiền xong mà màn hình quay mãi hoặc người thu nói chưa thấy tiền về, và nên làm gì theo thứ tự khi đang ở cây xăng, bãi xe hay tiệm sửa xe. Nội dung nhấn mạnh việc dừng hẳn, đưa xe ra chỗ không chắn lối trước, rồi mới x"
+ },
+ {
+  "kind": "article",
+  "url": "ride/cung-duong/quoc-lo-dong-xe-tai-hay-duong-tinh-duong-huyen-vang-hon-moi-loai-tuyen-met-kieu-nao-rui-ro-gi-va-cach-chon-cho-xe-may/",
+  "title": "Quốc lộ đông xe tải hay đường tỉnh, đường huyện vắng hơn: mỗi loại tuyến mệt kiểu nào, rủi ro gì và cách chọn cho xe máy",
+  "description": "So sánh quốc lộ đông xe tải với đường tỉnh, đường huyện vắng hơn khi đi xe máy: mỗi loại mệt kiểu nào, rủi ro gì, cách chọn theo giờ, thời tiết và ghép tuyến.",
+  "category": "Hành trình",
+  "hub": "Cung đường",
+  "entities": [
+   "quốc lộ",
+   "đường tỉnh",
+   "đường huyện",
+   "xe tải",
+   "xe khách",
+   "chọn tuyến",
+   "phương án dự phòng",
+   "người địa phương"
+  ],
+  "keywords": [
+   "đi xe máy quốc lộ hay đường tỉnh",
+   "quốc lộ đông xe tải đi xe máy",
+   "đường huyện vắng đi xe máy có an toàn không",
+   "chọn tuyến đi xe máy đường dài",
+   "ghép quốc lộ và đường tỉnh khi đi xe máy"
+  ],
+  "seoTitle": "Quốc lộ hay đường tỉnh khi đi xe máy: mệt kiểu nào, rủi ro gì",
+  "primaryKeyword": "đi xe máy quốc lộ hay đường tỉnh",
+  "headings": [
+   "Quốc lộ mạnh ở đâu, và mệt kiểu nào khi chạy cạnh xe tải, xe khách",
+   "Đường tỉnh, đường huyện vắng hơn, nhưng đổi lại là mặt đường, biển báo và chỗ nghỉ",
+   "Vắng xe không đồng nghĩa an toàn: tốc độ ngầm tăng, gia súc, chó và đoạn thi công bất ngờ",
+   "Chọn theo xe, theo người lái, theo giờ và theo thời tiết, thay vì chỉ theo tuyến ngắn nhất",
+   "Ghép hai loại tuyến và giữ phương án dự phòng: chỗ đổ xăng, chỗ nghỉ, chỗ quay lại"
+  ],
+  "summary": "Khi lên kế hoạch đi xa bằng xe máy, bản đồ thường đưa ra hai lựa chọn: quốc lộ rộng, thẳng nhưng đông xe tải, hoặc đường tỉnh, đường huyện vắng hơn nhưng hẹp và xấu hơn. Bài so sánh hai loại tuyến theo cảm giác khi chạy chứ không theo địa danh: quốc lộ mệt vì "
  },
  {
   "kind": "article",
