@@ -30586,11 +30586,13 @@
    "title": "Cầm ô, dùng điện thoại hoặc thiết bị âm thanh khi lái xe máy: điều khoản nào áp dụng và phạt ra sao?",
    "primaryIntent": "informational/cam-o-dien-thoai-thiet-bi-am-thanh-khi-lai-xe-may-bi-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002273",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:04:05.132Z",
-   "updatedAt": "2026-10-24T11:04:05.133Z"
+   "updatedAt": "2026-10-24T11:24:29.848Z",
+   "seoScore": 100,
+   "words": 3345
   },
   {
    "id": "S02084",
