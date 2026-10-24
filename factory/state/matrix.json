@@ -29986,11 +29986,13 @@
    "title": "Màn hình xe máy điện đơ, nhấp nháy hoặc báo lỗi vặt: tắt khóa chờ rồi bật lại có hại không và lúc nào đừng thử thêm",
    "primaryIntent": "troubleshooting/man-hinh-xe-may-dien-do-nhap-nhay-hoac-bao-loi-vat-tat-khoa-cho-roi-bat-lai-co-hai-khong-va-luc-nao-dung-thu-them",
    "notes": "source=topic-v2 topicId=T002232",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:35:59.815Z",
-   "updatedAt": "2026-10-24T08:35:59.815Z"
+   "updatedAt": "2026-10-24T08:40:24.627Z",
+   "seoScore": 100,
+   "words": 3237
   },
   {
    "id": "S02044",
@@ -30012,11 +30014,13 @@
    "title": "Ắc quy lithium cho xe máy xăng: có đổi thẳng cho ắc quy chì được không, cần hỏi gì về bộ sạc, trời lạnh và bảo hành",
    "primaryIntent": "informational/ac-quy-lithium-cho-xe-may-xang-co-doi-thang-cho-ac-quy-chi-duoc-khong-can-hoi-gi-ve-bo-sac-troi-lanh-va-bao-hanh",
    "notes": "source=topic-v2 topicId=T002234",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T08:36:03.838Z",
-   "updatedAt": "2026-10-24T08:36:03.838Z"
+   "updatedAt": "2026-10-24T08:40:24.627Z",
+   "seoScore": 100,
+   "words": 2968
   },
   {
    "id": "S02046",

@@ -11466,6 +11466,41 @@
  },
  {
   "kind": "article",
+  "url": "wiki/ac-quy-pin/ac-quy-lithium-cho-xe-may-xang-co-doi-thang-cho-ac-quy-chi-duoc-khong-can-hoi-gi-ve-bo-sac-troi-lanh-va-bao-hanh/",
+  "title": "Ắc quy lithium cho xe máy xăng: có đổi thẳng cho ắc quy chì được không, cần hỏi gì về bộ sạc, trời lạnh và bảo hành",
+  "description": "Thấy ắc quy lithium nhỏ nhẹ cho xe máy xăng, có thay thẳng chỗ ắc quy chì được không? Những câu cần hỏi về hệ sạc, trời lạnh, xe để lâu, bảo hành trước khi mua.",
+  "category": "Bách khoa xe",
+  "hub": "Ắc quy và pin",
+  "entities": [
+   "ắc quy lithium",
+   "ắc quy chì",
+   "mạch bảo vệ",
+   "hệ sạc của xe",
+   "lốc điện",
+   "câu bình",
+   "bảo hành ắc quy",
+   "cọc ắc quy"
+  ],
+  "keywords": [
+   "ắc quy lithium cho xe máy",
+   "thay ắc quy lithium cho xe máy xăng",
+   "ắc quy lithium có thay thẳng ắc quy chì được không",
+   "ắc quy lithium trời lạnh xe máy",
+   "bảo hành ắc quy lithium xe máy"
+  ],
+  "seoTitle": "Ắc quy lithium cho xe máy xăng: có đổi thẳng được không, hỏi gì",
+  "primaryKeyword": "ắc quy lithium cho xe máy",
+  "headings": [
+   "Ắc quy lithium cho xe xăng khác ắc quy chì ở những điểm nào",
+   "Có đổi thẳng được không: xe quyết định chứ không phải kích thước",
+   "Bộ sạc của xe, trời lạnh và xe để lâu ảnh hưởng ra sao",
+   "Những câu nên hỏi nơi bán và cần đọc trong tài liệu trước khi mua",
+   "Sạc, câu bình và xử lý bình cũ khi đã đổi loại"
+  ],
+  "summary": "Ắc quy lithium nhỏ nhẹ cho xe máy xăng đang được quảng cáo nhiều, và người dùng hay phân vân có thay thẳng vào chỗ ắc quy chì cũ được không. Câu trả lời trung thực là tùy xe, tùy loại ắc quy, vì cùng kích thước chưa có nghĩa là hợp với hệ sạc và mạch điện của "
+ },
+ {
+  "kind": "article",
   "url": "wiki/ac-quy-pin/ac-quy-va-pin-xe-may-cu-vi-sao-khong-vut-chung-rac-va-nen-mang-di-dau/",
   "title": "Ắc quy và pin xe máy cũ: vì sao không vứt chung rác, cất giữ tạm thế nào và nên mang đi đâu",
   "description": "Ắc quy xe máy cũ bỏ đi đâu? Vì sao ắc quy, pin xe điện cũ không phải rác thường, cất tạm thế nào, nên giao cho nơi nào và việc cần làm khi bị dính axit.",
@@ -34220,6 +34255,40 @@
    "Khi nào phải mang xe đi kiểm tra ngay"
   ],
   "summary": "Màn hình xe máy điện hiện nhiều biểu tượng, phần lớn chỉ là thông tin về mức pin, chế độ lái, đèn, xi nhan, chân chống hay trạng thái sạc. Phần giải thích chia các cảnh báo cần chú ý thành những nhóm như pin hoặc nguồn, nhiệt độ, tay ga, tín hiệu ngắt điện khi"
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/man-hinh-xe-may-dien-do-nhap-nhay-hoac-bao-loi-vat-tat-khoa-cho-roi-bat-lai-co-hai-khong-va-luc-nao-dung-thu-them/",
+  "title": "Màn hình xe máy điện đơ, nhấp nháy hoặc báo lỗi vặt: tắt khóa chờ rồi bật lại có hại không và lúc nào đừng thử thêm",
+  "description": "Màn hình xe máy điện đơ, nhấp nháy hay báo lỗi vặt: vì sao tắt khóa chờ rồi bật lại một lần thường có ích, cách làm an toàn và lúc nào nên dừng thử để nhờ thợ.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "màn hình xe máy điện",
+   "tắt khóa bật lại",
+   "bộ điều khiển",
+   "lỗi tạm thời",
+   "giắc nối",
+   "pin xe điện",
+   "nơi bảo hành"
+  ],
+  "keywords": [
+   "xe máy điện đơ màn hình",
+   "màn hình xe máy điện nhấp nháy",
+   "xe máy điện báo lỗi vặt",
+   "tắt khóa bật lại xe máy điện",
+   "có nên rút pin xe máy điện để làm mới"
+  ],
+  "seoTitle": "Màn hình xe máy điện đơ hoặc nháy: tắt khóa bật lại có hại không",
+  "primaryKeyword": "xe máy điện đơ màn hình",
+  "headings": [
+   "Vì sao tắt khóa rồi bật lại đôi khi làm hết lỗi vặt",
+   "Cách tắt và bật lại an toàn, không vặn ga, không dắt xe lúc thử",
+   "Lỗi tạm thời khác lỗi lặp lại: nhìn thế nào để phân biệt",
+   "Vì sao không tự rút pin, tháo giắc hay đấu tắt để làm mới",
+   "Ghi gì trước khi đưa xe đi kiểm tra"
+  ],
+  "summary": "Màn hình xe máy điện đứng hình, nhấp nháy hoặc hiện một biểu tượng lỗi thoáng qua khiến nhiều người muốn tắt khóa rồi bật lại cho hết, thậm chí muốn rút pin để làm mới. Bài giải thích vì sao khởi động lại từ đầu đôi khi xóa được lỗi vặt tạm thời mà vẫn không p"
  },
  {
   "kind": "article",
