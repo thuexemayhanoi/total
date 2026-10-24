@@ -23453,6 +23453,41 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/dien-nha-yeu-hoac-chap-chon-luc-sac-xe-may-dien-bo-sac-ngat-lien-tuc-den-nhap-nhay-day-cham-vi-sao-va-xu-ly-ra-sao/",
+  "title": "Điện nhà yếu hoặc chập chờn lúc sạc xe máy điện: bộ sạc ngắt liên tục, đèn nhấp nháy, đầy chậm — vì sao và xử lý ra sao",
+  "description": "Sạc xe máy điện mà bộ sạc lúc chạy lúc ngắt, đèn nhấp nháy, đầy chậm: cách tách lỗi điện lưới, ổ cắm hay bộ sạc bằng phép thử tại nhà, và khi nào nhờ thợ.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "điện lưới yếu",
+   "bộ sạc xe máy điện",
+   "mạch quản lý pin",
+   "ổ cắm",
+   "dây nối dài",
+   "ổn áp",
+   "cầu dao",
+   "thợ điện"
+  ],
+  "keywords": [
+   "điện yếu sạc xe máy điện",
+   "bộ sạc xe máy điện ngắt liên tục",
+   "sạc xe máy điện đèn nhấp nháy",
+   "xe máy điện sạc chậm do điện yếu",
+   "có nên lắp ổn áp khi sạc xe máy điện"
+  ],
+  "seoTitle": "Điện yếu khi sạc xe máy điện: sạc ngắt, nhấp nháy, đầy chậm",
+  "primaryKeyword": "điện yếu sạc xe máy điện",
+  "headings": [
+   "Điện lưới yếu làm bộ sạc xe điện cư xử ra sao: ngắt, nhấp nháy và đầy chậm",
+   "Ba nơi cần nghi ngờ: điện lưới, ổ cắm và dây, hay chính bộ sạc",
+   "Phép thử tại nhà không cần thiết bị đo: đèn, quạt, ổ cắm khác và giờ khác",
+   "Nên và không nên làm: giờ sạc, tải chung trên cùng ổ và vì sao tránh ổn áp tự lắp",
+   "Khi nào nhờ thợ điện xem đường dây và khi nào mang bộ sạc đi kiểm tra"
+  ],
+  "summary": "Ở nhà trọ, khu đông dân hay cuối đường dây, cắm sạc xe máy điện buổi tối thì bộ sạc hay ngắt, đèn báo nhấp nháy hoặc pin đầy chậm hơn hẳn, và người dùng không biết lỗi nằm ở đâu. Bài này giải thích vì sao điện lưới yếu làm bộ sạc cư xử như vậy và vì sao việc t"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/",
   "title": "Điều kiện lái xe máy: tuổi, giấy phép và sức khỏe theo quy định",
   "description": "Lái xe máy hợp pháp tại Việt Nam cần đủ tuổi, giấy phép lái xe đúng hạng và sức khỏe phù hợp. Bài viết tóm tắt các điều kiện theo Luật giao thông đường bộ 2024.",

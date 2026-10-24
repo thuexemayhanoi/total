@@ -29598,11 +29598,13 @@
    "title": "Điện nhà yếu hoặc chập chờn lúc sạc xe máy điện: bộ sạc ngắt liên tục, đèn nhấp nháy, đầy chậm — vì sao và xử lý ra sao",
    "primaryIntent": "troubleshooting/dien-nha-yeu-hoac-chap-chon-luc-sac-xe-may-dien-bo-sac-ngat-lien-tuc-den-nhap-nhay-day-cham-vi-sao-va-xu-ly-ra-sao",
    "notes": "source=topic-v2 topicId=T002204",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:02:03.929Z",
-   "updatedAt": "2026-10-24T07:02:03.929Z"
+   "updatedAt": "2026-10-24T07:13:10.616Z",
+   "seoScore": 100,
+   "words": 3053
   },
   {
    "id": "S02018",

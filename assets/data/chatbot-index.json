@@ -18454,6 +18454,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/dien-nha-yeu-hoac-chap-chon-luc-sac-xe-may-dien-bo-sac-ngat-lien-tuc-den-nhap-nhay-day-cham-vi-sao-va-xu-ly-ra-sao/",
+  "title": "Điện nhà yếu hoặc chập chờn lúc sạc xe máy điện: bộ sạc ngắt liên tục, đèn nhấp nháy, đầy chậm — vì sao và xử lý ra sao",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Ở nhà trọ, khu đông dân hay cuối đường dây, cắm sạc xe máy điện buổi tối thì bộ sạc hay ngắt, đèn báo nhấp nháy hoặc pin đầy chậm hơn hẳn, và người dùng không biết lỗi nằm ở đâu. Bài này giải thích vì sao điện lưới yếu làm bộ sạc cư xử như vậy và vì sao việc tự ngắt thường là cách bảo vệ. Bài chia ba nơi cần nghi ngờ là điện lưới, ổ cắm cùng dây nối, và chính bộ sạc hoặc pin. Tiếp theo là các phép thử tại nhà không cần thiết bị đo, cách chọn giờ sạc, lý do tránh tự lắp ổn áp, và lúc nào nhờ thợ điện hay mang bộ sạc đi kiểm tra.",
+  "quickAnswer": "Điện lưới yếu thường làm bộ sạc ngắt rồi thử lại, đèn báo đổi trạng thái liên tục và pin đầy chậm hơn, nhất là vào giờ cao điểm buổi tối. Hãy tách ba nơi theo thứ tự từ ngoài vào trong: điện lưới (đèn và quạt trong nhà cũng yếu theo), ổ cắm cùng dây nối (lỗi đi theo cái ổ, phích nóng hoặc lỏng), rồi bộ sạc hoặc pin (lỗi đi theo xe sang nhà khác). Thử giờ khác, ổ khác và nhà người quen, mỗi lần chỉ đổi một thứ. Đừng tự lắp ổn áp hay dùng dây nối kém; có mùi khét, ổ nóng bất thường thì rút sạc ngay và nhờ thợ điện hoặc nơi có chuyên môn.",
+  "keyPoints": [
+   "Bộ sạc và mạch quản lý pin thường tự ngắt khi nguồn yếu để bảo vệ, nhưng ngắt đi ngắt lại hằng đêm không nên coi là bình thường kéo dài.",
+   "Ba nơi cần nghi ngờ: điện lưới yếu giờ cao điểm, ổ cắm và dây nối lỏng hoặc kém, rồi mới tới bộ sạc hoặc pin.",
+   "Phép thử tại nhà không cần thiết bị đo: nhìn đèn và quạt khi cắm sạc, đổi giờ, đổi ổ cắm, so sánh với nhà người quen.",
+   "Chọn giờ sạc ổn định, cắm thẳng vào ổ tường chắc, tránh chung ổ với thiết bị tỏa nhiệt và không tự lắp ổn áp."
+  ],
+  "entities": [
+   "điện lưới yếu",
+   "bộ sạc xe máy điện",
+   "mạch quản lý pin",
+   "ổ cắm",
+   "dây nối dài",
+   "ổn áp",
+   "cầu dao",
+   "thợ điện"
+  ],
+  "keywords": [
+   "điện yếu sạc xe máy điện",
+   "bộ sạc xe máy điện ngắt liên tục",
+   "sạc xe máy điện đèn nhấp nháy",
+   "xe máy điện sạc chậm do điện yếu",
+   "có nên lắp ổn áp khi sạc xe máy điện"
+  ]
+ },
+ {
   "url": "learn/kien-thuc-phap-ly/dieu-kien-lai-xe-may/",
   "title": "Điều kiện lái xe máy: tuổi, giấy phép và sức khỏe theo quy định",
   "category": "Kiến thức chuyên sâu",
