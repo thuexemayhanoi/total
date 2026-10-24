@@ -63,7 +63,9 @@ node factory/factory.js set-planned-target <N>                    # mục tiêu 
 - Không gọi AI API trong GitHub Actions.
 - CI: `article-quality.yml` heavy gate khi engine/workflow đổi; bài content push chỉ đi qua scoped QA tại `factory-publish.yml`. Full-site audit trong `factory-deep-audit.yml` MANUAL-ONLY (workflow_dispatch).
 
-## Trình tự chuẩn
+## Kiểm tra engine/deep audit (không chạy mỗi batch bài)
+
+Bài content theo `writer-pack` → `verify-batch` → push và publisher. Các lệnh sau dùng khi kiểm thử engine hoặc audit thủ công:
 ```bash
 node factory/generate.js
 node factory/generate.js --check
