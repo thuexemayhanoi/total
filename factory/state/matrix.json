@@ -28923,11 +28923,13 @@
    "title": "Ga-răng-ti, mô-bin, đi-na-mô, bu-gi, xéc-măng, phuộc: những chữ gốc Pháp trong tiếng thợ xe chỉ bộ phận nào",
    "primaryIntent": "informational/ga-rang-ti-mo-bin-di-na-mo-bu-gi-xec-mang-phuoc-nhung-chu-goc-phap-trong-tieng-tho-xe-chi-bo-phan-nao",
    "notes": "source=topic-v2 topicId=T002156",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T04:25:50.727Z",
-   "updatedAt": "2026-10-24T04:25:50.727Z"
+   "updatedAt": "2026-10-24T05:43:02.288Z",
+   "seoScore": 100,
+   "words": 3168
   },
   {
    "id": "S01973",
