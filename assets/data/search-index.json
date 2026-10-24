@@ -34541,6 +34541,41 @@
  },
  {
   "kind": "article",
+  "url": "wiki/dien-xe/mau-day-dien-xe-may-noi-len-dieu-gi-doc-mau-va-soc-day-vi-sao-moi-dong-xe-mot-kieu-va-cach-do-day-truoc-khi-dau-them/",
+  "title": "Màu dây điện xe máy nói lên điều gì: đọc màu và sọc dây, vì sao mỗi dòng xe một kiểu và cách dò dây trước khi đấu thêm",
+  "description": "Màu và sọc dây điện xe máy nói lên điều gì, vì sao không có bảng màu chung, cách dò dây theo sơ đồ đúng đời xe và vì sao không tự đấu thêm khi chưa chắc.",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "entities": [
+   "màu dây điện",
+   "sọc dây",
+   "sơ đồ dây điện",
+   "bó dây điện",
+   "giắc nối",
+   "nguồn sau khóa điện",
+   "cầu chì",
+   "tài liệu kỹ thuật"
+  ],
+  "keywords": [
+   "màu dây điện xe máy",
+   "đọc sọc dây điện xe máy",
+   "sơ đồ dây điện xe máy",
+   "dò dây điện xe máy",
+   "lấy nguồn sau khóa điện xe máy"
+  ],
+  "seoTitle": "Màu dây điện xe máy: đọc màu, sọc dây và vì sao mỗi xe một kiểu",
+  "primaryKeyword": "màu dây điện xe máy",
+  "headings": [
+   "Bó dây điện xe máy gồm những nhóm mạch nào",
+   "Dây một màu và dây có sọc: cách đọc và ký hiệu trong sơ đồ",
+   "Vì sao không có bảng màu chung và những quy ước hay gặp không đáng tin tuyệt đối",
+   "Dò dây đúng cách thay vì đoán màu trước khi đấu thêm phụ kiện",
+   "Màu dây phai, đổi hoặc từng sửa lại: điều thợ cần biết và rủi ro khi đoán sai"
+  ],
+  "summary": "Mở bó dây điện xe máy ra, ta thấy rất nhiều dây đủ màu và có sọc mà không biết dây nào làm việc gì. Lời mách như đỏ là dương, đen là âm chỉ có thể đúng ở vài chỗ chứ không đúng với mọi dòng xe, vì không có bảng màu chung. Bài giải thích bó dây gồm những nhóm m"
+ },
+ {
+  "kind": "article",
   "url": "news/xe-moi/mau-xe-moi-viet-nam/",
   "title": "Kinh nghiệm mẫu xe mới Việt Nam dành cho người mới",
   "description": "Mẫu xe mới ra mắt tại Việt Nam nên nhìn thế nào: xe Việt Nam và xe quốc tế, cách chọn mẫu mới phù hợp người mới, và những điều nên kiểm tra trước khi mua.",
@@ -37430,6 +37465,40 @@
    "Đệm chống xước, vạch đặt bánh và thói quen chung của cả nhà hay dãy trọ"
   ],
   "summary": "Trong nhà ống hay dãy trọ có lối đi hẹp, ba bốn chiếc xe máy phải nối đuôi nhau, sáng nào cũng phải dắt vài xe ra mới lấy được xe trong cùng, gương quệt nhau và thỉnh thoảng đổ cả hàng. Bài này hướng dẫn xếp xe theo thứ tự giờ ra của từng người và cách thỏa th"
+ },
+ {
+  "kind": "article",
+  "url": "garage/dien-ac-quy/nha-nut-de-roi-ma-cu-de-van-quay-hoac-keu-re-khi-may-da-no-ro-le-de-dinh-nut-de-ket-hay-khop-de-khong-nha/",
+  "title": "Nhả nút đề rồi mà củ đề vẫn quay hoặc kêu rè khi máy đã nổ: rơ-le đề dính, nút đề kẹt hay khớp đề không nhả",
+  "description": "Nhả nút đề rồi mà củ đề vẫn quay hoặc kêu rè khi máy đã nổ: nút đề kẹt, rơ-le đề dính hay khớp đề không nhả, vì sao phải tắt máy ngay và nói gì với thợ.",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "entities": [
+   "củ đề",
+   "rơ-le đề",
+   "nút đề",
+   "khớp một chiều",
+   "bánh răng đề",
+   "công tắc từ",
+   "ắc quy"
+  ],
+  "keywords": [
+   "củ đề vẫn quay sau khi nổ máy",
+   "củ đề kêu rè khi máy đã nổ",
+   "nhả nút đề vẫn quay",
+   "rơ-le đề dính",
+   "khớp đề không nhả"
+  ],
+  "seoTitle": "Củ đề vẫn quay hoặc kêu rè khi máy đã nổ: nguyên nhân, cách xử lý",
+  "primaryKeyword": "củ đề vẫn quay sau khi nổ máy",
+  "headings": [
+   "Sau khi máy nổ, củ đề phải tách và ngắt điện như thế nào",
+   "Ba nhóm nguyên nhân: nút hoặc rơ-le đề dính, khớp đề không nhả và nhầm với tiếng khác",
+   "Vì sao tình huống này nên dừng ngay chứ không chạy tiếp",
+   "Phản xạ an toàn và những quan sát nên ghi lại cho thợ",
+   "Thợ thường xử lý thế nào và thói quen giữ nút đề, rơ-le bền hơn"
+  ],
+  "summary": "Bình thường, củ đề chỉ làm việc trong lúc khởi động rồi dừng ngay khi máy tự chạy. Nếu máy đã nổ, tay đã buông nút mà vẫn nghe tiếng rè rè hay tiếng quay kéo dài, đôi khi ken két, thì đó là dấu hiệu bất thường chứ không phải đề khỏe. Bài chia nguyên nhân thành"
  },
  {
   "kind": "article",

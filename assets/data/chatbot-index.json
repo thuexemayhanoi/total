@@ -28160,6 +28160,37 @@
   ]
  },
  {
+  "url": "wiki/dien-xe/mau-day-dien-xe-may-noi-len-dieu-gi-doc-mau-va-soc-day-vi-sao-moi-dong-xe-mot-kieu-va-cach-do-day-truoc-khi-dau-them/",
+  "title": "Màu dây điện xe máy nói lên điều gì: đọc màu và sọc dây, vì sao mỗi dòng xe một kiểu và cách dò dây trước khi đấu thêm",
+  "category": "Bách khoa xe",
+  "hub": "Điện xe",
+  "summary": "Mở bó dây điện xe máy ra, ta thấy rất nhiều dây đủ màu và có sọc mà không biết dây nào làm việc gì. Lời mách như đỏ là dương, đen là âm chỉ có thể đúng ở vài chỗ chứ không đúng với mọi dòng xe, vì không có bảng màu chung. Bài giải thích bó dây gồm những nhóm mạch nào, cách đọc dây một màu và dây có sọc, ký hiệu màu viết tắt trong sơ đồ và vì sao cùng một màu có thể mang chức năng khác nhau giữa các xe. Bài cũng nói cách dò dây đúng hơn đoán màu, rủi ro khi đoán sai và lúc nào nên giao việc cho thợ điện xe.",
+  "quickAnswer": "Màu dây giúp phân biệt các mạch trong bó dây nhưng không có một bảng màu chung cho mọi xe máy, nên không thể đoán dây nào có điện hay làm việc gì chỉ qua màu. Hãy đối chiếu sơ đồ dây trong tài liệu kỹ thuật của đúng đời xe, chụp ảnh trước khi động vào, và lấy nguồn cho phụ kiện sau khóa điện qua cầu chì hoặc rơ-le thay vì chọc vào dây chính. Việc đo kiểm và đấu nối nên để thợ điện xe làm.",
+  "keyPoints": [
+   "Bó dây gồm nhiều nhóm mạch: nguồn trực tiếp từ ắc quy, nguồn sau khóa điện, đèn, xi nhan và còi, sạc, đề, tín hiệu cảm biến và đường về mát.",
+   "Dây có màu thân và có thể có thêm sọc; hai dây cùng màu thân nhưng khác sọc có thể thuộc hai mạch khác hẳn.",
+   "Không có bảng màu chung: nhà sản xuất, đời xe và phiên bản đều có thể đổi cách dùng màu, nên lời mách kiểu đỏ dương đen âm không đủ làm căn cứ.",
+   "Dò dây đúng là đối chiếu sơ đồ của chính đời xe, chụp ảnh trước khi động vào, nhờ thợ xác nhận dây có điện khi nào, rồi lấy nguồn sau khóa điện qua cầu chì hoặc rơ-le."
+  ],
+  "entities": [
+   "màu dây điện",
+   "sọc dây",
+   "sơ đồ dây điện",
+   "bó dây điện",
+   "giắc nối",
+   "nguồn sau khóa điện",
+   "cầu chì",
+   "tài liệu kỹ thuật"
+  ],
+  "keywords": [
+   "màu dây điện xe máy",
+   "đọc sọc dây điện xe máy",
+   "sơ đồ dây điện xe máy",
+   "dò dây điện xe máy",
+   "lấy nguồn sau khóa điện xe máy"
+  ]
+ },
+ {
   "url": "news/xe-moi/mau-xe-moi-viet-nam/",
   "title": "Kinh nghiệm mẫu xe mới Việt Nam dành cho người mới",
   "category": "Tin tức",
@@ -30692,6 +30723,36 @@
    "xe máy đổ dây chuyền",
    "dắt xe trong cùng ra sao",
    "chống xước xe máy trong nhà"
+  ]
+ },
+ {
+  "url": "garage/dien-ac-quy/nha-nut-de-roi-ma-cu-de-van-quay-hoac-keu-re-khi-may-da-no-ro-le-de-dinh-nut-de-ket-hay-khop-de-khong-nha/",
+  "title": "Nhả nút đề rồi mà củ đề vẫn quay hoặc kêu rè khi máy đã nổ: rơ-le đề dính, nút đề kẹt hay khớp đề không nhả",
+  "category": "Sửa chữa",
+  "hub": "Điện ắc quy",
+  "summary": "Bình thường, củ đề chỉ làm việc trong lúc khởi động rồi dừng ngay khi máy tự chạy. Nếu máy đã nổ, tay đã buông nút mà vẫn nghe tiếng rè rè hay tiếng quay kéo dài, đôi khi ken két, thì đó là dấu hiệu bất thường chứ không phải đề khỏe. Bài chia nguyên nhân thành ba nhóm dễ nhầm: mạch điện như nút đề kẹt hoặc rơ-le đề dính tiếp điểm, cơ khí như bánh răng đề hay khớp một chiều không nhả, và những tiếng khác bị nghe nhầm thành tiếng đề. Bài cũng nói rõ vì sao nên tắt khóa, tắt máy ngay, cách ghi lại tiếng có dừng khi tắt khóa hay không, những việc không tự làm với dây đề và rơ-le, cùng cách thợ xử lý và thói quen giữ nút đề, rơ-le bền hơn.",
+  "quickAnswer": "Máy đã nổ mà củ đề vẫn quay hoặc kêu rè là bất thường, vì khớp một chiều phải tách bánh răng đề khỏi động cơ và dòng điện đề phải ngắt. Nguyên nhân thường nằm ở một trong ba nhóm: nút đề kẹt hoặc rơ-le đề dính tiếp điểm, bánh răng hay khớp đề không nhả, hoặc bạn đang nghe nhầm một tiếng khác; việc xác định cụ thể tùy xe và thuộc về thợ. Hãy nhả nút, tắt khóa và tắt máy ngay, không bấm đề lại và không chạy tiếp vì củ đề nóng nhanh, dây có thể cháy. Ghi lại tiếng có dừng khi tắt khóa hay không rồi đưa xe cho thợ; nếu tiếng vẫn quay sau khi tắt khóa, đừng chạm vào dây đề, hãy tránh xa xe và gọi thợ.",
+  "keyPoints": [
+   "Bình thường củ đề chỉ làm việc lúc khởi động; tiếng rè hay tiếng quay kéo dài sau khi máy nổ là bất thường, không phải đề khỏe.",
+   "Ba nhóm nguyên nhân dễ nhầm: nút hoặc rơ-le đề dính, bánh răng hay khớp một chiều không nhả, và những tiếng khác như bơm xăng, quạt, còi.",
+   "Nên dừng ngay vì củ đề bị kéo quay nhanh có thể hỏng sớm, dây đề nóng lên và có nguy cơ cháy.",
+   "Phản xạ đúng: nhả nút, tắt khóa, tắt máy, không bấm đề lại và ghi lại tiếng có dừng khi tắt khóa hay không."
+  ],
+  "entities": [
+   "củ đề",
+   "rơ-le đề",
+   "nút đề",
+   "khớp một chiều",
+   "bánh răng đề",
+   "công tắc từ",
+   "ắc quy"
+  ],
+  "keywords": [
+   "củ đề vẫn quay sau khi nổ máy",
+   "củ đề kêu rè khi máy đã nổ",
+   "nhả nút đề vẫn quay",
+   "rơ-le đề dính",
+   "khớp đề không nhả"
   ]
  },
  {
