@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02084 (topic V2 T002274); CHỈ nêu dữ kiện đã kiểm chứng từ Nghị định 168/2024/NĐ-CP và Nghị định 238/2026/NĐ-CP (truy xuất 2026-10-24).
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'cho-nguoi-ngoi-sau-xe-may-cho-hai-ba-nguoi-va-tre-em-duoi-12-tuoi-bi-xu-ly-the-nao',
+  title: 'Chở người ngồi sau xe máy: chở hai, ba người và trẻ em dưới 12 tuổi bị xử lý thế nào?',
+  seoTitle: 'Chở người ngồi sau xe máy bị phạt thế nào: Điều 7 Nghị định 168',
+  metaDescription: 'Điều 7 Nghị định 168/2024/NĐ-CP: chở theo 02 người, từ 03 người trở lên, trẻ em dưới 12 tuổi, mũ của người ngồi sau, khung phạt và trừ điểm đã đối chiếu.',
+  summary: 'Bài đọc Điều 7 của Nghị định 168/2024/NĐ-CP, đối chiếu với Nghị định 238/2026/NĐ-CP, để trả lời chở thêm người trên xe máy bị xử lý thế nào. Bài nêu điểm g khoản 2 về chở theo 02 người cùng bốn nhóm ngoại lệ, điểm b khoản 3 về chở theo từ 03 người trở lên, và các tư thế chở bị nêu riêng ở điểm e khoản 3. Bài đọc tiếp quy định mũ bảo hiểm của người ngồi trên xe với ngoại lệ trẻ em dưới 06 tuổi, hành vi ngồi phía sau vòng tay qua người ngồi trước để điều khiển xe, cùng việc trừ điểm và tước quyền sử dụng giấy phép lái xe. Mỗi mức tiền được gắn đúng điểm và khoản của nó, và bài nói rõ những điều chưa đối chiếu cùng cách tra văn bản còn hiệu lực.',
+  quickAnswer: 'Điểm g khoản 2 Điều 7 Nghị định 168/2024/NĐ-CP nêu mức phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe chở theo 02 người trên xe, trừ người bệnh đi cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật, áp giải người có hành vi vi phạm pháp luật. Chở theo từ 03 người trở lên là điểm b khoản 3 với mức phạt tiền từ 600.000 đồng đến 800.000 đồng, và điểm a khoản 13 nêu trừ điểm giấy phép lái xe 02 điểm cho hành vi này. Chở người ngồi trên xe không đội mũ bảo hiểm đúng quy cách thuộc điểm i khoản 2, trừ người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật. Mức cụ thể trong từng vụ việc do người có thẩm quyền xác định; theo kết quả đối chiếu, Nghị định 238/2026/NĐ-CP không sửa các điểm này.',
+  keyPoints: [
+    'Điểm g khoản 2 Điều 7 Nghị định 168/2024/NĐ-CP: chở theo 02 người trên xe bị phạt tiền từ 400.000 đồng đến 600.000 đồng, trừ bốn nhóm ngoại lệ nêu ngay trong điểm, trong đó có trẻ em dưới 12 tuổi.',
+    'Điểm b khoản 3: chở theo từ 03 người trở lên có khung phạt tiền từ 600.000 đồng đến 800.000 đồng, và điểm a khoản 13 nêu trừ điểm giấy phép lái xe 02 điểm cho hành vi này.',
+    'Điểm e khoản 3 nêu riêng việc chở người đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe, cùng việc mang vác vật cồng kềnh, trong khung 600.000 đồng đến 800.000 đồng.',
+    'Điểm i khoản 2 nêu chở người ngồi trên xe không đội mũ bảo hiểm đúng quy cách, ngoại lệ trẻ em dưới 06 tuổi; điểm h khoản 9 nêu ngồi phía sau vòng tay qua người ngồi trước để điều khiển xe, phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng.',
+    'Nghị định 238/2026/NĐ-CP có hiệu lực từ ngày 15 tháng 8 năm 2026 nhưng theo đối chiếu không sửa các điểm này; bài chưa đối chiếu nhiều nội dung khác nên cần tra văn bản còn hiệu lực.'
+  ],
+  category: 'ride',
+  hub: 'an-toan-giao-thong',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['Nghị định 168/2024/NĐ-CP', 'Nghị định 238/2026/NĐ-CP', 'Điều 7', 'chở theo 02 người', 'chở theo từ 03 người trở lên', 'mũ bảo hiểm cho người đi mô tô, xe máy', 'trừ điểm giấy phép lái xe', 'tước quyền sử dụng giấy phép lái xe'],
+  keywords: ['mức phạt chở hai người trên xe máy', 'phạt chở ba người trên xe máy', 'trẻ em dưới 12 tuổi đi xe máy có bị phạt không', 'ngồi sau xe máy không đội mũ bảo hiểm bị phạt', 'Điều 7 Nghị định 168/2024/NĐ-CP'],
+  sections: [
+    P('Điểm g khoản 2 Điều 7: chở theo 02 người và bốn nhóm ngoại lệ trong điều khoản', [
+      'Người đi xe máy thường hỏi chở thêm một người hay một em nhỏ thì có bị phạt không. Bài này đọc phần xử phạt của câu hỏi đó. Nguồn thứ nhất là Nghị định 168/2024/NĐ-CP ngày 26/12/2024 của Chính phủ quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe (Công báo số 75 + 76 và 77 + 78 ngày 16-01-2025). Nguồn thứ hai là Nghị định 238/2026/NĐ-CP ngày 26/06/2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP (Công báo số 391 ngày 13-07-2026). Cả hai được truy xuất ngày 24 tháng 10 năm 2026.',
+      'Về hiệu lực, Điều 53 khoản 1 của Nghị định 168/2024/NĐ-CP nêu nghị định có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, còn Điều 20 khoản 1 của Nghị định 238/2026/NĐ-CP nêu nghị định sửa đổi có hiệu lực từ ngày 15 tháng 8 năm 2026. Ở ngày truy xuất, cả hai mốc này đều đã qua. Toàn văn 21 điều của Nghị định 238/2026/NĐ-CP đã được đối chiếu và không điều nào sửa khoản 2 điểm g, h, i; khoản 3 điểm b, e; khoản 9 điểm h; khoản 12; khoản 13 Điều 7 của Nghị định 168/2024/NĐ-CP. Vì vậy câu chữ và mức tiền dưới đây là của Nghị định 168/2024/NĐ-CP, chưa bị Nghị định 238/2026/NĐ-CP thay đổi ở các điểm này.',
+      'Khoản 2 Điều 7 mở đầu bằng câu: phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây. Điểm g của khoản này ghi: chở theo 02 người trên xe, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật, áp giải người có hành vi vi phạm pháp luật. Như vậy điều khoản nêu bốn nhóm ngoại lệ ngay trong điểm này: người bệnh đi cấp cứu; trẻ em dưới 12 tuổi; người già yếu hoặc người khuyết tật; áp giải người có hành vi vi phạm pháp luật. Khung từ 400.000 đồng đến 600.000 đồng là khung chung của khoản 2.',
+      'Có ba điều nên đọc kỹ. Thứ nhất, cụm trừ trường hợp nằm ngay trong điểm g, nên bốn nhóm này là phần được loại ra khỏi hành vi chở theo 02 người, không phải danh sách để tự mở rộng cho những chuyến đi tiện đường. Thứ hai, điều khoản gọi tên hành vi bằng cụm chở theo 02 người, còn tiêu đề bài dùng cách nói đời thường là chở hai, ba người; phần đã đối chiếu không kèm giải thích cách đếm, nên bài giữ nguyên câu chữ và không tự quy đổi. Thứ ba, điều khoản không định nghĩa người già yếu hay người khuyết tật. Gặp tình huống thực tế, hãy hỏi cơ quan có thẩm quyền; riêng người bệnh cần cấp cứu thì ưu tiên gọi cấp cứu.'
+    ]),
+    P('Điểm b khoản 3 Điều 7: chở theo từ 03 người trở lên khác chở 02 người ở đâu', [
+      'Khoản 3 Điều 7 mở đầu bằng câu: phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây. Điểm b của khoản này chỉ có một dòng: chở theo từ 03 người trở lên trên xe. Đặt cạnh điểm g khoản 2, hai điều khoản khác nhau ở bốn chỗ đọc được trực tiếp từ câu chữ: con số trong hành vi, khung tiền, cụm ngoại lệ và việc trừ điểm giấy phép lái xe.',
+      'Chỗ khác thứ nhất là con số: điểm g nói chở theo 02 người, điểm b nói chở theo từ 03 người trở lên, tức câu chữ không đặt mức trần phía trên. Chỗ khác thứ hai là khung tiền: khoản 2 là từ 400.000 đồng đến 600.000 đồng, khoản 3 là từ 600.000 đồng đến 800.000 đồng; bài giữ nguyên từng khung. Chỗ khác thứ ba là cụm ngoại lệ: điểm g có cụm trừ trường hợp, còn điểm b trong đoạn trích đã đối chiếu không kèm cụm nào như vậy. Chỗ khác thứ tư là trừ điểm, đọc ở phần cuối.',
+      'Hiểu lầm hay gặp là thấy điểm g nêu trẻ em dưới 12 tuổi rồi cho rằng chở nhiều trẻ em hơn cũng nằm ngoài điều khoản. Câu chữ không nói vậy: cụm trừ trường hợp được viết trong điểm g, không được sao sang điểm b. Bài không kết luận cho một chuyến đi cụ thể, vì việc chuyến đi đó rơi vào điểm nào do người có thẩm quyền xác định theo hành vi, tình tiết và văn bản hiện hành.',
+      'Một tình huống đời thường để tự đối chiếu: cả nhà chỉ có một chiếc xe máy mà có người lớn cùng nhiều em nhỏ cần đi chung. Thay vì tìm xem điểm nào có vẻ nhẹ hơn, hãy hỏi trước tiên xe có còn giữ thăng bằng và phanh an toàn khi chở nặng như vậy hay không. Chia thành nhiều chuyến hoặc dùng phương tiện khác thường an toàn hơn. Quy tắc chung về số người tối đa được bài về số người tối đa mà xe máy hai bánh được chở trên trang đọc riêng.'
+    ]),
+    P('Tư thế chở bị nêu riêng: đứng trên yên, giá đèo hàng, ngồi trên tay lái và mang vác vật cồng kềnh', [
+      'Cùng khoản 3, tức cùng khung phạt tiền từ 600.000 đồng đến 800.000 đồng, điểm e ghi: người đang điều khiển xe hoặc chở người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang vác vật cồng kềnh; chở người đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe. Đây là một điểm dài, gộp nhiều hành vi, giữa câu có một dấu chấm phẩy. Bài tách thành hai vế cho dễ đọc, không đổi câu chữ.',
+      'Vế thứ nhất nói về việc người đang điều khiển xe hoặc chở người ngồi trên xe bám, kéo, đẩy xe khác hoặc vật khác; dẫn dắt vật nuôi; mang vác vật cồng kềnh. Điều khoản không định nghĩa vật cồng kềnh, và phần đã đối chiếu không kèm con số nào để đo; bài không tự đặt ngưỡng. Cách viết của vế này nhắc cả người điều khiển xe lẫn việc chở người ngồi trên xe; ai bị xử phạt trong từng tình huống là việc của người có thẩm quyền xác định, bài không suy ra. Giới hạn xếp hàng trên xe máy được bài về giới hạn xếp hàng trên xe máy theo luật trên trang đọc từ một văn bản khác.',
+      'Vế thứ hai nói về vị trí của người được chở: chở người đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái của xe. Đó là những vị trí được gọi tên trong điều khoản. Điều khoản không liệt kê thêm tư thế nào khác, nên bài không kết luận về những tư thế không được nêu. Với trẻ nhỏ, đứng trên yên hay ngồi trên tay lái là những chỗ rất dễ té ngã, che tầm nhìn và cản tay lái, nên dù xét theo điều khoản hay không, đó cũng không phải vị trí nên cho trẻ ở khi xe đang chạy.',
+      'Một chuyến đi có thể chạm vào nhiều điểm cùng lúc, chẳng hạn vừa có người ngồi sai vị trí vừa có thêm người trên xe. Cách xử lý khi một chuyến đi dính nhiều hành vi không nằm trong phần điều khoản bài đã đối chiếu, nên bài không nói các mức tiền được tính riêng hay tính chung. Bài về những việc người lái xe máy và người ngồi sau không được làm trên trang đọc các điều cấm trong luật; bài này chỉ đọc phần xử phạt trong nghị định.'
+    ]),
+    P('Mũ bảo hiểm của người ngồi sau, ngoại lệ trẻ em dưới 06 tuổi và hành vi vòng tay qua người ngồi trước', [
+      'Cũng trong khoản 2 Điều 7, tức khung phạt tiền từ 400.000 đồng đến 600.000 đồng, có hai điểm về mũ bảo hiểm. Điểm h ghi: không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách khi điều khiển xe tham gia giao thông trên đường bộ. Điểm i ghi: chở người ngồi trên xe không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật.',
+      'Điểm h nói về chính người điều khiển xe, còn điểm i nói về hành vi chở người ngồi trên xe mà người đó không đội mũ đúng quy cách. Cả hai điểm nằm trong khoản 2, nơi chủ thể được nêu là người điều khiển xe. Vì vậy, với câu hỏi người ngồi sau không đội mũ thì ai bị xử lý, phần đã đối chiếu cho thấy điểm i viết hành vi của người chở. Việc có điều khoản nào xử phạt riêng người ngồi sau hay không thì bài chưa đối chiếu.',
+      'Hai mốc tuổi rất dễ nhầm. Ở điểm g khoản 2 là trẻ em dưới 12 tuổi, thuộc ngoại lệ của việc chở theo 02 người; ở điểm i khoản 2 là trẻ em dưới 06 tuổi, thuộc ngoại lệ của việc chở người không đội mũ đúng quy cách. Hai mốc nằm ở hai điểm khác nhau, nên không lấy mốc của điểm này gán cho điểm kia. Ngoại lệ trong điều khoản xử phạt cũng không có nghĩa trẻ nhỏ không cần được bảo vệ khi đi xe; cách chở người ngồi sau an toàn có trong bài chở người ngồi sau an toàn trên trang.',
+      'Khoản 9 Điều 7 có khung tiền khác hẳn: phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây. Điểm h của khoản này ghi: ngồi phía sau vòng tay qua người ngồi trước để điều khiển xe, trừ trường hợp chở trẻ em dưới 06 tuổi ngồi phía trước. Cụm để điều khiển xe là một phần của hành vi được mô tả; bài không suy rộng sang các tư thế ngồi sau khác vì câu chữ không nêu. Về an toàn, điều khiển xe từ phía sau qua người ngồi trước làm hạn chế tầm nhìn và khả năng phản ứng, nên cần tránh bất kể mức phạt.'
+    ]),
+    P('Trừ điểm, tước quyền sử dụng giấy phép lái xe, điều bài chưa đối chiếu và cách đối chiếu văn bản hiện hành', [
+      'Về trừ điểm, bài chỉ dùng điểm a khoản 13 Điều 7: thực hiện hành vi quy định tại điểm b khoản 3; khoản 5; điểm b, điểm c, điểm d khoản 6; điểm a khoản 7 Điều này bị trừ điểm giấy phép lái xe 02 điểm. Trong các điểm đã đọc ở bài này, chỉ điểm b khoản 3, tức chở theo từ 03 người trở lên trên xe, nằm trong danh sách đó; điểm g, h, i khoản 2, điểm e khoản 3 và điểm h khoản 9 không được nêu trong đoạn điểm a. Bài chưa đối chiếu các điểm còn lại của khoản 13, nên không kết luận có hay không có trừ điểm cho những hành vi này theo điểm khác của khoản đó. Các khoản 5, 6, 7 trong danh sách nói về hành vi gì nằm ngoài phạm vi bài.',
+      'Về tước quyền sử dụng giấy phép lái xe, khoản 12 điểm b ghi: thực hiện hành vi quy định tại điểm a, điểm b, điểm h, điểm i, điểm k khoản 9 Điều này bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng. Trong bài này, chỉ điểm h khoản 9, tức ngồi phía sau vòng tay qua người ngồi trước để điều khiển xe, nằm trong danh sách. Phần đã đối chiếu không nêu hình thức tước quyền cho các điểm g, h, i khoản 2 hay điểm b, e khoản 3, nên bài không nêu. Các điểm a, b, i, k của khoản 9 bài không đọc, và bài cũng chưa đối chiếu các điểm còn lại của khoản 12, nên không kết luận có hay không có tước quyền cho những hành vi khác theo điểm khác của khoản đó.',
+      'Phần bài chưa đối chiếu gồm: tiêu đề Điều 7 và định nghĩa của từ xe trong điều này, nên bài không khẳng định phạm vi từng loại xe; định nghĩa người già yếu, người khuyết tật, vật cồng kềnh; cách đếm người trên xe; điều khoản xử phạt riêng người ngồi sau, nếu có; cách tính khi một chuyến đi vi phạm nhiều điểm; tình tiết tăng nặng, giảm nhẹ; thẩm quyền, thủ tục xử phạt; các văn bản sửa đổi khác ngoài Nghị định 238/2026/NĐ-CP. Mức phạt cụ thể trong một vụ việc do người có thẩm quyền xác định theo hành vi, tình tiết và văn bản hiện hành; bài chỉ đọc các điều khoản đã đối chiếu và không kết luận bạn sẽ bị phạt bao nhiêu cho một tình huống cụ thể.',
+      'Cách đối chiếu: mở trang Nghị định 168/2024/NĐ-CP trên Công báo điện tử của Chính phủ, tìm Điều 7 và đọc từng khoản có liên quan; mở trang Nghị định 238/2026/NĐ-CP để xem các điều sửa đổi có chạm tới Điều 7 hay không; ghi lại số hiệu, ngày ban hành, ngày hiệu lực và ngày bạn tra, rồi kiểm tra văn bản còn hiệu lực trước khi quyết định. Hai nghị định này có thể tiếp tục được sửa đổi, bổ sung. Nếu cần xác nhận cho một tình huống cụ thể, hãy hỏi cơ quan có thẩm quyền. Bài là tổng hợp để tham khảo, không phải tư vấn pháp lý.'
+    ])
+  ],
+  checklist: [
+    'Mở Điều 7 Nghị định 168/2024/NĐ-CP trên Công báo điện tử Chính phủ và đọc đúng khoản, điểm liên quan.',
+    'Đọc Nghị định 238/2026/NĐ-CP để xem có điều nào sửa Điều 7 sau ngày 15 tháng 8 năm 2026 hay không.',
+    'Phân biệt từng hành vi: chở theo 02 người (điểm g khoản 2) khác chở theo từ 03 người trở lên (điểm b khoản 3).',
+    'Không lấy mốc dưới 12 tuổi của điểm g gán cho mốc dưới 06 tuổi của điểm i, và ngược lại.',
+    'Đọc thêm điểm a khoản 13 về trừ điểm và khoản 12 điểm b về tước quyền sử dụng giấy phép lái xe.',
+    'Ghi lại số hiệu, ngày hiệu lực, ngày tra cứu và hỏi cơ quan có thẩm quyền khi cần xác nhận một tình huống cụ thể.'
+  ],
+  steps: [
+    { title: 'Gọi tên hành vi theo câu chữ', detail: 'Xác định hành vi cần tra: chở theo 02 người, chở theo từ 03 người trở lên, tư thế chở, mũ bảo hiểm của người ngồi trên xe, hay ngồi phía sau vòng tay qua người ngồi trước.' },
+    { title: 'Tìm đúng khoản và điểm', detail: 'Mở Điều 7 Nghị định 168/2024/NĐ-CP: khoản 2 điểm g, h, i; khoản 3 điểm b, e; khoản 9 điểm h.' },
+    { title: 'Đọc ngoại lệ và mốc tuổi của từng điểm', detail: 'Điểm g khoản 2 nêu trẻ em dưới 12 tuổi, điểm i khoản 2 nêu trẻ em dưới 06 tuổi; đọc từng điểm theo đúng chữ của nó.' },
+    { title: 'Đọc hình thức xử phạt đi kèm', detail: 'Xem khoản 13 điểm a về trừ điểm giấy phép lái xe và khoản 12 điểm b về tước quyền sử dụng giấy phép lái xe.' },
+    { title: 'Kiểm tra hiệu lực và hỏi cơ quan có thẩm quyền', detail: 'So với Nghị định 238/2026/NĐ-CP và văn bản còn hiệu lực; với điều bài chưa đối chiếu, hãy hỏi cơ quan có thẩm quyền.' }
+  ],
+  warnings: [
+    'Không kết luận bạn sẽ bị phạt hay không bị phạt cho một chuyến đi cụ thể; người có thẩm quyền xác định theo hành vi, tình tiết và văn bản hiện hành.',
+    'Không lấy ngoại lệ của điểm g khoản 2 gán sang điểm b khoản 3, và không lấy mốc dưới 12 tuổi gán cho mốc dưới 06 tuổi.',
+    'Dù điều khoản có ngoại lệ, việc chở thêm người hay để trẻ ở vị trí nguy hiểm vẫn ảnh hưởng đến an toàn của người lái, người ngồi sau và người xung quanh.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: Nghị định 168/2024/NĐ-CP ngày 26/12/2024 (Công báo số 75 + 76 và 77 + 78 ngày 16-01-2025) và Nghị định 238/2026/NĐ-CP ngày 26/06/2026 (Công báo số 391 ngày 13-07-2026), truy xuất ngày 24 tháng 10 năm 2026.',
+    'Bài tổng hợp để tham khảo, không phải tư vấn pháp lý; văn bản có thể được sửa đổi sau thời điểm kiểm chứng, nên cần tra văn bản còn hiệu lực.'
+  ],
+  references: [
+    'Nghị định 168/2024/NĐ-CP ngày 26/12/2024 của Chính phủ về xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe, Điều 7 khoản 2 điểm g, h, i; khoản 3 điểm b, e; khoản 9 điểm h; khoản 12 điểm b; khoản 13 điểm a; Nghị định 238/2026/NĐ-CP ngày 26/06/2026 sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP',
+    'Công báo điện tử Chính phủ, cổng tra cứu văn bản quy phạm pháp luật chính thức'
+  ],
+  related: [
+    'xe-may-hai-banh-cho-toi-da-may-nguoi',
+    'nguoi-lai-xe-may-va-nguoi-ngoi-sau-khong-duoc-lam-gi',
+    'gioi-han-xep-hang-tren-xe-may-theo-luat',
+    'cho-nguoi-ngoi-sau-an-toan',
+    'nguoi-nuoc-ngoai-lai-xe-may-o-viet-nam-giay-phep-quoc-te'
+  ]
+};
