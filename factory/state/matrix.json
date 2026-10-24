@@ -29836,11 +29836,13 @@
    "title": "Lốp xe máy thủng có vá được không: vết ở giữa mặt gai, ở vai lốp hay ở hông khác nhau thế nào và khi nào phải thay lốp",
    "primaryIntent": "informational/lop-xe-may-thung-co-va-duoc-khong-vet-o-giua-mat-gai-o-vai-lop-hay-o-hong-khac-nhau-the-nao-va-khi-nao-phai-thay-lop",
    "notes": "source=topic-v2 topicId=T002221",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:54:06.231Z",
-   "updatedAt": "2026-10-24T07:54:06.231Z"
+   "updatedAt": "2026-10-24T08:03:43.224Z",
+   "seoScore": 100,
+   "words": 3146
   },
   {
    "id": "S02034",
