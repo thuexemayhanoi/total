@@ -29251,11 +29251,13 @@
    "title": "Xe của mình là phun xăng điện tử hay chế hòa khí: dấu hiệu nhìn được, nghe được và cách xác nhận trước khi nói với thợ",
    "primaryIntent": "informational/xe-cua-minh-la-phun-xang-dien-tu-hay-che-hoa-khi-dau-hieu-nhin-duoc-nghe-duoc-va-cach-xac-nhan-truoc-khi-noi-voi-tho",
    "notes": "source=topic-v2 topicId=T002181",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:13.703Z",
-   "updatedAt": "2026-10-24T06:10:13.703Z"
+   "updatedAt": "2026-10-24T06:16:23.565Z",
+   "seoScore": 91,
+   "words": 3172
   },
   {
    "id": "S01995",
