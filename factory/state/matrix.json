@@ -29536,11 +29536,13 @@
    "title": "Nắm tay lái quá chặt và gồng vai khi đi xe máy: vì sao xe khó điều khiển hơn, cách thả lỏng và bài tập ở bãi vắng",
    "primaryIntent": "troubleshooting/nam-tay-lai-qua-chat-va-gong-vai-khi-di-xe-may-vi-sao-xe-kho-dieu-khien-hon-cach-tha-long-va-bai-tap-o-bai-vang",
    "notes": "source=topic-v2 topicId=T002200",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:55:19.669Z",
-   "updatedAt": "2026-10-24T06:55:19.669Z"
+   "updatedAt": "2026-10-24T07:08:48.132Z",
+   "seoScore": 100,
+   "words": 3169
   },
   {
    "id": "S02014",
