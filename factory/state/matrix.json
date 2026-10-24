@@ -30937,11 +30937,13 @@
    "title": "Đi xe đạp điện phải đội mũ bảo hiểm không, chở được mấy người và lỗi nào bị phạt theo Nghị định 168?",
    "primaryIntent": "informational/di-xe-dap-dien-co-phai-doi-mu-bao-hiem-cho-duoc-may-nguoi-va-loi-nao-bi-phat-theo-nghi-dinh-168",
    "notes": "source=topic-v2 topicId=T002301",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:06:05.614Z",
-   "updatedAt": "2026-10-24T12:06:05.614Z"
+   "updatedAt": "2026-10-24T12:17:59.821Z",
+   "seoScore": 100,
+   "words": 3297
   },
   {
    "id": "S02109",
@@ -30950,11 +30952,13 @@
    "title": "Nẹt pô, rú ga hoặc bóp còi liên tục trong khu đông dân cư: luật cấm thế nào, phạt và tước bằng ra sao?",
    "primaryIntent": "informational/net-po-ru-ga-hoac-bop-coi-lien-tuc-trong-khu-dong-dan-cu-bi-phat-va-tuoc-giay-phep-lai-xe-the-nao",
    "notes": "source=topic-v2 topicId=T002302",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:06:12.517Z",
-   "updatedAt": "2026-10-24T12:06:12.517Z"
+   "updatedAt": "2026-10-24T12:17:59.821Z",
+   "seoScore": 100,
+   "words": 3559
   },
   {
    "id": "S02110",
