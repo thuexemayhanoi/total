@@ -29088,11 +29088,13 @@
    "title": "Đĩa phanh xe máy phủ lớp gỉ vàng sau mưa hoặc để lâu: gỉ mỏng tự mất khi phanh, khi nào là gỉ sâu và việc nên làm",
    "primaryIntent": "troubleshooting/dia-phanh-xe-may-phu-lop-gi-vang-sau-mua-hoac-de-lau-gi-mong-tu-mat-khi-phanh-khi-nao-la-gi-sau-va-viec-nen-lam",
    "notes": "source=topic-v2 topicId=T002169",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:23.441Z",
-   "updatedAt": "2026-10-24T06:02:23.441Z"
+   "updatedAt": "2026-10-24T06:08:10.812Z",
+   "seoScore": 91,
+   "words": 3173
   },
   {
    "id": "S01984",
@@ -29114,11 +29116,13 @@
    "title": "Nâng cấp phanh xe máy: đĩa lớn hơn, cùm nhiều pít-tông hay ống dầu bện đổi được gì, đổi lại phiền gì và khi nào chưa cần",
    "primaryIntent": "informational/nang-cap-phanh-xe-may-dia-lon-hon-cum-nhieu-pit-tong-hay-ong-dau-ben-doi-duoc-gi-doi-lai-phien-gi-va-khi-nao-chua-can",
    "notes": "source=topic-v2 topicId=T002171",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:27.660Z",
-   "updatedAt": "2026-10-24T06:02:27.660Z"
+   "updatedAt": "2026-10-24T06:08:10.812Z",
+   "seoScore": 100,
+   "words": 3198
   },
   {
    "id": "S01986",
@@ -29127,11 +29131,13 @@
    "title": "Chỉ thay một lốp khi lốp kia còn gai: thay bánh sau hay bánh trước, độ bám chênh lệch ra sao và cách tự cân nhắc",
    "primaryIntent": "informational/chi-thay-mot-lop-khi-lop-kia-con-gai-thay-banh-sau-hay-banh-truoc-do-bam-chenh-lech-ra-sao-va-cach-tu-can-nhac",
    "notes": "source=topic-v2 topicId=T002172",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:29.649Z",
-   "updatedAt": "2026-10-24T06:02:29.649Z"
+   "updatedAt": "2026-10-24T06:08:10.812Z",
+   "seoScore": 91,
+   "words": 3165
   },
   {
    "id": "S01987",
