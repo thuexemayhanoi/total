@@ -31276,11 +31276,13 @@
    "title": "Thi lý thuyết bằng lái xe máy A1 theo Thông tư 108/2026 từ 01/3/2027: đề gồm mấy câu, bao nhiêu điểm thì đạt?",
    "primaryIntent": "informational/thi-ly-thuyet-bang-lai-xe-may-a1-so-cau-diem-dat-bao-luu-ket-qua-va-thi-lai",
    "notes": "source=topic-v2 topicId=T002322",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:13:00.357Z",
-   "updatedAt": "2026-10-24T13:13:00.357Z"
+   "updatedAt": "2026-10-24T13:24:20.025Z",
+   "seoScore": 100,
+   "words": 3400
   },
   {
    "id": "S02130",
@@ -31343,11 +31345,13 @@
    "title": "Đi xe máy không có bằng lái hoặc dùng bằng không hợp lệ: mức phạt khác nhau thế nào theo dung tích xe?",
    "primaryIntent": "informational/di-xe-may-khong-co-bang-lai-hoac-dung-bang-khong-hop-le-muc-phat-theo-dung-tich-xe-va-bien-phap-di-kem",
    "notes": "source=topic-v2 topicId=T002327",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:13:23.473Z",
-   "updatedAt": "2026-10-24T13:13:23.473Z"
+   "updatedAt": "2026-10-24T13:24:20.025Z",
+   "seoScore": 100,
+   "words": 3458
   },
   {
    "id": "S02135",
