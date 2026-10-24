@@ -1,5 +1,7 @@
 # Content Factory
 
+> **Quy trình hiện hành từ 24/10/2026:** [FAST-WRITER-LOOP.md](FAST-WRITER-LOOP.md) và [PUBLISH.md](PUBLISH.md). AI writer 1–10 bài/lô, QA ≥70, GitHub publisher 1–10 bài/transaction, cron phục hồi 30 phút. Slot legacy không cần topic-approve; lịch sử pair/cycle giữ như lệnh recovery, không phải hot path.
+
 ## Vòng đời slot
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED.
 Khi QA thất bại: → REPAIR → QA → BLOCKED (sau nhiều lần sửa không đạt).
@@ -11,8 +13,8 @@ Trong production cycle: một bài FAIL → REPAIR queue, KHÔNG giữ cycle —
 - `list` — liệt kê slot theo trạng thái.
 - `research <id>` / `write <id>` — chuyển trạng thái.
 - `qa <id>` — QA minimal gate bài của slot; `qa-preview <id>` — QA thử read-only.
-- **Production 3 vai trò** (docs/PRODUCTION-ROLES.md): `writer-next` (WRITER 1 lấy pair 2 ID — resume trước, new sau, không trả PUBLISHED), `writer-heartbeat` (phase writing/waiting-publish/idle), `production-status` (phase tổng hợp), `liveness` (watchdog read-only, exit 1 khi stall > 120' hoặc lỗi escalated), `error-log`/`error-queue`/`error-resolve` (hàng đợi lỗi Đốc công 2→3, tự escalated tại 3 lần thử). `queue-refill [--role coordinator]` (planned < 100 → refill topic từ topic-pool, chỉ coordinator). Legacy recovery thủ công: `cycle-plan` (read-only, 12–18 slot PLANNED), `cycle-qa <ID,ID,...>`, `cycle-publish <ID,ID,...>` — KHÔNG còn phân công 3 writer.
-- `publish <ID> [<ID>...]` — legacy manual (≤ 10 ID); `publish-pair <ID,ID>` — hot path pair (≤ 2 ID, txn atomic).
+- **FAST WRITER hiện hành** ([PRODUCTION-ROLES.md](PRODUCTION-ROLES.md)): `writer-pack --count 10 [--shard k/3]` (1–10 slot, shard tùy chọn khi nhiều phiên), `verify-batch <IDs>`, `writer-heartbeat` (chỉ một writer nên cập nhật file chung), `production-status`, `liveness`, `error-log/error-queue/error-resolve`. `queue-refill` đang **frozen/no-op**; slot legacy đã có không đòi APPROVED. `writer-next`/pair/cycle là công cụ recovery hoặc tương thích cũ, không là hot path.
+- `publish-batch <IDs>` — **hot path tự động 1–10 ID một transaction**; `publish <ID>...` và `publish-pair <ID,ID>` là manual/recovery legacy.
 - `verify-pair <ID,ID>` / `verify-sources <ID,ID>` — light verify / rà source read-only (SEO/intent chỉ advisory).
 - `audit [--min-score 70]` — deep audit MANUAL-ONLY mọi bài PUBLISHED (KHÔNG chạy trong production loop).
 - `resume`, `backlog [--fail-if-claimable]`, `check-state`, `plan-chunk`, `verify-invariant`, `publish-plan`, `push-scope`, `change-mode`, `recover-txn`, `drain-bound`, `drain-iteration` (legacy/manual recovery), `lock`/`unlock`, `expand-capacity`, `set-planned-target`.
@@ -26,16 +28,16 @@ Trong production cycle: một bài FAIL → REPAIR queue, KHÔNG giữ cycle —
 - Missing/corrupt/stale → `index-rebuild` dựng lại an toàn từ full manifest + content; `index-check` phát hiện và exit 1 yêu cầu rebuild.
 - Xem thêm trong `factory/lib/content-index.js` (node:sqlite — cần Node 22).
 
-## Topic Factory V2 — topic phải qua gate và được duyệt
+## Topic Factory V2 — chống trùng vẫn giữ, duyệt legacy được bỏ
 
-Slot mới **không** còn sinh từ hoán vị taxonomy. `queue-refill` bị đóng băng khi `factory/topic-governance.json` có `v1Generation: frozen`; topic đi qua `topic-propose` → gate → `topic-neighbours` (đọc 5 bài gần nhất) → `topic-approve`
-→ slot PLANNED/APPROVED trong `matrix.json`. Writer (`writer-pack`) chỉ nhận slot APPROVED. Chi tiết, lệnh, ngưỡng, giới hạn và rollback: [TOPIC-FACTORY-V2.md](TOPIC-FACTORY-V2.md);
-bằng chứng: [TOPIC-AUDIT-2026-10-12.md](TOPIC-AUDIT-2026-10-12.md), [TOPIC-PILOT-V2-REPORT.md](TOPIC-PILOT-V2-REPORT.md); phần chờ duyệt: [TOPIC-V2-MIGRATION-PLAN.md](TOPIC-V2-MIGRATION-PLAN.md).
+**Hiện hành:** `factory/topic-governance.json` có `mode=off`, `requireApproved=false`, `v1Generation=frozen`: các slot PLANNED legacy đã có được `writer-pack` nhận mà **không cần `topic-approve`**. Nhưng phần lớn 300 slot cũ có nguy cơ trùng intent (hoán vị V1); writer tự so nội dung và bỏ đề tài không mới. `queue-refill` vẫn frozen để không tự tạo thêm template biến thể.
+
+**Topic V2 mới ngoài slot đã có:** code hiện chỉ tạo slot qua `topic-propose` → gate → `topic-neighbours` → `topic-approve` của coordinator; AI có thể đảm nhiệm thao tác thay người dùng theo kiểm soát nội dung, nhưng tính năng tự sinh/tự duyệt topic mới chưa được tích hợp sẵn. Tài liệu lịch sử [TOPIC-FACTORY-V2.md](TOPIC-FACTORY-V2.md) mô tả chế độ `enforce` trước ngày 24/10, **không phải cấu hình hiện tại**.
 
 ## Pipeline publish tự động (GitHub Actions)
-- **factory-coordinator.yml (maintenance tick)** — schedule `7,17,27,37,47,57 * * * *` (mỗi 10 phút) + `workflow_dispatch`; mỗi run BOUNDED một tick: recover-txn → check-state → queue-refill (idempotent) → manifest-sync → verify-invariant → backlog + production-status → commit state CHỈ KHI có diff thật (tick rỗng không commit). KHÔNG while-true; push bằng GITHUB_TOKEN không tự kích workflow kế tiếp. Concurrency `total-production` dùng CHUNG với factory-publish.yml → hai actor không bao giờ chạy đè nhau. Writer là EXTERNAL (session Mistral ngoài đọc `writer-next`); Actions không tự viết prose, không fake article. Watchdog **factory-liveness.yml** chạy mỗi giờ read-only (`liveness`): stall > 120' hoặc lỗi escalated → Actions đỏ — KHÔNG thể tự resume phiên Mistral.
-- **factory-publish.yml (pair)** — writer push article files → pipeline: recover txn → `push-scope` (EXACT IDs) → guard `check-state` → `publish-pair` (scoped QA minimal ≥ 70 → FAIL vào repair queue, PASS publish → generate → verify-pair → atomic COMMIT) → commit derived state. Cổng cuối: check-state + backlog 0 + generate --check. Node 22.
-- **article-quality.yml** — phân mode bằng `change-mode`: CONTENT_ONLY → gate nhẹ `verify-sources` scoped đúng EXACT IDs (QA minimal chặn; SEO/intent advisory); ENGINE_CHANGE → heavy gate (full test suites, gồm test-cycle.js + test-coordinator.js, + verify-invariant + generate --check). KHÔNG full-site audit trong production loop.
+- **factory-coordinator.yml (maintenance tick)** — schedule `7,17,27,37,47,57 * * * *` (~10 phút) + dispatch; mỗi run: fresh main → recover-txn → check-state/topic-check → queue-refill (**frozen/no-op**) → production-status → commit chỉ khi có diff. Không tạo bài, không chạy full manifest/invariant. Cùng concurrency `total-production` với publisher. Watchdog `factory-liveness.yml` read-only mỗi giờ, chỉ theo dõi lỗi/đứng; không thể tự mở phiên Claude/Mistral.
+- **factory-publish.yml (batch 1–10)** — writer push article files → exact IDs của push; hoặc cron `17,47 * * * *` / dispatch chọn tối đa 10 module bài đang tồn đọng từ fresh main → recover/check-state → `verify-batch` QA ≥70 → `publish-batch` (1 transaction, generate, commit state) → scoped internal-link 404 gate → `index-refresh/index-check` → commit/push derived state. Không có bài chờ thì run no-op; có backlog nhiều hơn 10 thì cron kế tiếp xử lý tiếp.
+- **article-quality.yml** — workflow tên `Factory Engine Quality`, chỉ trigger trên engine/template/test/workflow thay đổi; bài thuần nội dung không chạy heavy gate riêng (đã có scoped QA trong publisher). Full engine regression khi thay code, không coi workflow đỏ là publish QA đỏ.
 - **factory-deep-audit.yml** — full gate MANUAL-ONLY (`workflow_dispatch`): manifest-sync + index-rebuild + index-check + `audit --min-score 70` + full suites + verify-invariant + generate --check. Không chạy theo push.
 - **og-image.yml** — sinh ảnh OG.
 
@@ -52,10 +54,10 @@ node factory/factory.js set-planned-target <N>                    # mục tiêu 
 ```
 
 ## Bảo mật quy trình
-- **One writer (ownership-safe)**: lock primitive exclusive thật + token unique; unlock chỉ xóa lock của chính mình (xem `factory/lib/lock.js`).
+- **One publisher (ownership-safe)**: transaction lock primitive exclusive + token unique, chỉ publisher được ghi state; các AI writer không phải lấy lock bằng tay. Dùng nhiều writer phải shard/working copy độc lập, không đụng cùng file/heartbeat.
 - **Atomic write**: ghi tạm rồi đổi tên — không bao giờ file JSON dở.
 - **Checkpoint**: `factory/state/checkpoint.json` ghi slotCount khớp ma trận.
 - **Không AI API trong GitHub Actions.**
 
 ## Không phá kiến trúc
-Factory phục vụ các lệnh mở rộng tương lai mà không cần thiết kế lại (queue-refill từ topic-pool, cycle 12–18 bài, content-index SQLite scale 10k–100k bài).
+Factory vẫn có lệnh legacy pair/cycle cho recovery và mở rộng capacity bằng migration; không bật lại `queue-refill` V1 từ topic-pool để tăng số lượng khi `v1Generation=frozen`. Content-index SQLite vẫn là derived cache. Xem [FAST-WRITER-LOOP.md](FAST-WRITER-LOOP.md).

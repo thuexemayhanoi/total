@@ -33,17 +33,15 @@ Bộ máy sinh nội dung và trang tĩnh của AI WIKI TOTAL.
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED. QA lỗi: → REPAIR → QA → BLOCKED.
 Trong cycle: một bài FAIL → repair queue, KHÔNG giữ cycle (bài PASS vẫn publish).
 
-## Production 3 vai trò (docs/PRODUCTION-ROLES.md)
+## Production hiện hành — FAST WRITER, batch 1–10
 ```
-WRITER 1 (writer duy nhất, mỗi pair 2 bài):
-  writer-next → viết 2 bài → verify-sources → push bài + heartbeat
-  → factory-publish.yml publish (scoped QA ≥ 70, atomic txn)
-  → checkpoint khớp state → pair kế
-ĐỐC CÔNG 2: production-status/liveness → sửa lỗi → error-log (escalated tại 3 lần thử)
-ĐỐC CÔNG 3: xử lý entry escalated trong error-queue.json → error-resolve → bàn giao lại
+Claude / Mistral / ChatGPT phiên ngoài (1–3 shard PLANNED riêng):
+  writer-pack --count 10 [--shard k/3] → nghiên cứu + chống trùng ý
+  → viết 1–10 module bài thực → verify-batch → push main
+  → factory-publish.yml → scoped QA ≥ 70 + gate 404 → publish-batch
+  → commit checkpoint/state → batch kế
 ```
-Legacy recovery (chỉ chạy thủ công, KHÔNG còn 3 writer): `cycle-plan` → `cycle-qa` → `cycle-publish` (coordinator duy nhất, build/deploy ĐÚNG 1 lần).
-Coordinator tự động: `factory-coordinator.yml` tick mỗi 10 phút (cron lệch phút, concurrency `total-production` dùng chung với factory-publish.yml) — maintenance only: recover-txn → check-state → queue-refill → manifest-sync → verify-invariant → production-status → commit state CHỈ KHI có diff thật. Mỗi run bounded một tick, KHÔNG while-true. Writer là external (session Mistral ngoài) đọc `writer-next` — Actions không tự viết bài; `factory-liveness.yml` mỗi giờ chỉ phát hiện đứng/lỗi (Actions đỏ), không tự resume.
+Slot PLANNED legacy đã có không cần topic-approve: `topic-governance.json` = `mode=off`, `requireApproved=false`, `v1Generation=frozen`. **300 slot cũ có nhiều biến thể V1 trùng intent:** writer phải tự bỏ đề tài không có information gain. Khi hết topic giá trị, không mở refill V1 hoán vị để tăng số lượng. Tạo slot V2 mới vẫn cần quy trình coordinator trong code hiện tại. Publisher chạy theo push và fallback theo cron `17,47 * * * *` cho backlog đã có module. Coordinator mỗi ~10 phút chỉ recover/check-state/topic-check/queue-refill (frozen) và báo trạng thái; watchdog mỗi giờ chỉ phát hiện lỗi/đứng, không tự gọi AI. Tương thích legacy: `publish-pair`, `cycle-plan`, `cycle-qa`, `cycle-publish` dùng khi recovery thủ công, không là hot path. Xem [`docs/FAST-WRITER-LOOP.md`](../docs/FAST-WRITER-LOOP.md) và [`docs/PRODUCTION-ROLES.md`](../docs/PRODUCTION-ROLES.md).
 
 ## Content index (scale 10k–100k bài)
 - `state/article-manifest.jsonl` (commit) + content files = SOURCE OF TRUTH.
@@ -58,14 +56,16 @@ node factory/factory.js set-planned-target <N>                    # mục tiêu 
 ```
 
 ## Bảo vệ
-- One writer — lock **ownership-safe** (token unique; unlock cần `--owner` + `--token` đúng; TTL 30 phút reclaim theo contract).
-- Publish theo explicit IDs (pair ≤ 2, cycle ≤ 18 mỗi txn) — KHÔNG publish-all, KHÔNG sweep PASS.
+- Một publisher duy nhất dùng khóa giao dịch **ownership-safe**, không bắt writer lấy khóa bằng tay. 2–3 writer ngoài chỉ được dùng shard/working copy độc lập, không cùng sửa một file. TTL 30 phút, unlock đúng owner+token; không tự force-unlock.
+- Hot path publish theo exact batch 1–10 ID/push; cron recovery chọn tối đa 10 article-backed ID chưa publish từ `plan-chunk`, không sweep slot chưa có module và không publish-all. Pair ≤2, cycle ≤18 là lối recovery cũ.
 - Ghi file atomic (ghi tạm → đổi tên); checkpoint khớp ma trận.
 - Bộ test: `test.js` + `test-hardening.js` + `test-reliability.js` (4 tầng) + `test-pair.js` + `test-cycle.js` + `test-coordinator.js` — xem `docs/FACTORY-RELIABILITY.md`.
 - Không gọi AI API trong GitHub Actions.
-- CI: article-quality.yml theo change-mode (CONTENT_ONLY → verify-sources scoped; ENGINE_CHANGE → heavy gate); full-site audit chỉ trong factory-deep-audit.yml MANUAL-ONLY (workflow_dispatch).
+- CI: `article-quality.yml` heavy gate khi engine/workflow đổi; bài content push chỉ đi qua scoped QA tại `factory-publish.yml`. Full-site audit trong `factory-deep-audit.yml` MANUAL-ONLY (workflow_dispatch).
 
-## Trình tự chuẩn
+## Kiểm tra engine/deep audit (không chạy mỗi batch bài)
+
+Bài content theo `writer-pack` → `verify-batch` → push và publisher. Các lệnh sau dùng khi kiểm thử engine hoặc audit thủ công:
 ```bash
 node factory/generate.js
 node factory/generate.js --check

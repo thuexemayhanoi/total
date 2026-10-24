@@ -1,9 +1,10 @@
 # Nghiên cứu trước khi viết
 
-## Trình tự bắt buộc
-1. `plan` slot vào ma trận với intent rõ ràng.
-2. `research` — tổng hợp thông tin: chủ đề đã có bài nào, intent nào còn trống, dữ kiện cần là gì.
-3. `write` — chỉ viết khi đã trả lời được: bài này nhắm ai, khác bài hiện có ở điểm nào.
+## Trình tự bắt buộc — FAST MODE
+1. Fetch/rebase main rồi lấy slot đã có bằng `node factory/factory.js writer-pack --count 10 --json` (hoặc shard riêng cho nhiều writer). **Không chạy `plan` để tạo slot bằng tay; legacy PLANNED hiện có không cần topic-approve.**
+2. `research` theo nghĩa nghiên cứu nội dung (không nhất thiết gọi lệnh chuyển state): đọc bài cùng intent/hub đã PUBLISHED; 300 slot V1 có nhiều tiêu đề hoán vị, không viết nếu không có câu hỏi và information gain độc lập.
+3. `write` module JS đúng ID/hub/slug đã cấp, tham chiếu nguồn thật, QA ≥70 và `verify-batch` trước khi push; publisher GitHub tự xuất bản.
+4. Topic V2 mới ngoài slot đã có hiện vẫn cần coordinator tạo slot bằng công cụ `topic-propose`/`topic-approve` sau khi rà trùng; không tự chỉnh matrix. Hướng dẫn: [FAST-WRITER-LOOP.md](FAST-WRITER-LOOP.md).
 
 ## Nguyên tắc dữ kiện
 - Ưu tiên nguồn chính thống: văn bản pháp luật, tài liệu nhà sản xuất, quy định địa phương.
