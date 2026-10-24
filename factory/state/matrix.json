@@ -30924,11 +30924,13 @@
    "title": "Phạt nguội xe máy: thông báo bằng cách nào, chủ xe phải làm gì và kết quả camera dùng được trong bao lâu?",
    "primaryIntent": "informational/phat-nguoi-xe-may-thong-bao-bang-cach-nao-chu-xe-phai-lam-gi-va-ket-qua-camera-dung-duoc-bao-lau",
    "notes": "source=topic-v2 topicId=T002300",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:05:58.757Z",
-   "updatedAt": "2026-10-24T12:05:58.757Z"
+   "updatedAt": "2026-10-24T12:20:17.752Z",
+   "seoScore": 100,
+   "words": 3528
   },
   {
    "id": "S02108",
