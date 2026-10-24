@@ -30468,11 +30468,13 @@
    "title": "Độ xe máy hoặc đổi màu sơn: khi nào phải đổi chứng nhận đăng ký và việc nào luật nghiêm cấm?",
    "primaryIntent": "informational/do-xe-may-hoac-doi-mau-son-co-phai-doi-dang-ky-khong",
    "notes": "source=topic-v2 topicId=T002265",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:27.375Z",
-   "updatedAt": "2026-10-24T10:50:27.376Z"
+   "updatedAt": "2026-10-24T11:05:54.063Z",
+   "seoScore": 100,
+   "words": 3009
   },
   {
    "id": "S02076",
@@ -30481,11 +30483,13 @@
    "title": "Xảy ra tai nạn giao thông: người gây tai nạn, người liên quan và người đi ngang qua phải làm gì theo luật?",
    "primaryIntent": "informational/tai-nan-giao-thong-luat-yeu-cau-gi-voi-nguoi-gay-tai-nan-va-nguoi-di-qua",
    "notes": "source=topic-v2 topicId=T002266",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:29.751Z",
-   "updatedAt": "2026-10-24T10:50:29.752Z"
+   "updatedAt": "2026-10-24T11:05:54.063Z",
+   "seoScore": 100,
+   "words": 3263
   },
   {
    "id": "S02077",
@@ -30494,11 +30498,13 @@
    "title": "Cảnh sát giao thông được dừng xe kiểm tra trong những trường hợp nào và người đi xe có quyền gì?",
    "primaryIntent": "informational/canh-sat-giao-thong-duoc-dung-xe-kiem-tra-trong-truong-hop-nao",
    "notes": "source=topic-v2 topicId=T002267",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T10:50:32.064Z",
-   "updatedAt": "2026-10-24T10:50:32.065Z"
+   "updatedAt": "2026-10-24T11:05:54.063Z",
+   "seoScore": 100,
+   "words": 3017
   },
   {
    "id": "S02078",
