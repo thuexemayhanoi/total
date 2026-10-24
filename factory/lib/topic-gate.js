@@ -16,6 +16,9 @@
 // Thuần (pure): không đọc/ghi file.
 'use strict';
 
+// Âm tiết lowercase GIỮ dấu thanh, bỏ dấu câu (dùng cho khớp đúng dấu trong queryCoverage).
+const sylOf = (text) => String(text || '').toLowerCase().replace(/[^\p{L}\p{N}\s]+/gu, ' ').split(/\s+/).filter(Boolean);
+
 const I = require('./topic-intel');
 const L = require('../data/topic-lexicon');
 const { slugifyVi } = require('./topic-factory');
@@ -151,6 +154,8 @@ class TopicCorpus {
     // tập từ “trọng tâm” (title + H2 + keywords) — để đo độ phủ truy vấn mà không bị nhiễu bởi văn bản dài
     const hd = d.headline || {};
     entry.focus = new Set(I.contentTokens([d.title].concat(hd.outline || [], hd.keywords || []).join(' . ')));
+    // Âm tiết GIỮ DẤU của cùng văn bản: chuẩn hóa bỏ dấu gây va chạm (phở/phố, bò/bó, nấu/nâu) nên truy vấn có dấu phải khớp đúng dấu.
+    entry.focusSyl = new Set(sylOf([d.title].concat(hd.outline || [], hd.keywords || []).join(' . ')));
     for (const t of entry.focus) {
       if (!this.byFocusToken.has(t)) this.byFocusToken.set(t, []);
       this.byFocusToken.get(t).push(entry);
@@ -186,13 +191,21 @@ class TopicCorpus {
   queryCoverage(text, k) {
     const toks = [...new Set(I.contentTokens(text))];
     if (!toks.length) return [];
+    // Truy vấn CÓ DẤU: một âm tiết chỉ tính là có mặt khi dạng có dấu của nó nằm trong tập âm tiết có dấu của bài (tránh va chạm bỏ dấu).
+    // Truy vấn không dấu (GSC hay gặp) giữ khớp bỏ dấu như trước.
+    const orig = sylOf(text);
+    const hasDia = orig.some(o => I.fold(o) !== o);
+    const origOf = new Map();
+    if (hasDia) for (const o of orig) { const fo = I.fold(o); if (!origOf.has(fo)) origOf.set(fo, new Set()); origOf.get(fo).add(o); }
     let total = 0;
     const acc = new Map();
     const hit = new Map();
     for (const t of toks) {
       const w = this.idf.has(t) ? this.idf.get(t) : this.defaultIdf;
       total += w;
+      const forms = hasDia ? origOf.get(t) : null;
       for (const e of (this.byFocusToken.get(t) || [])) {
+        if (forms && e.focusSyl && ![...forms].some(o => e.focusSyl.has(o))) continue;
         acc.set(e, (acc.get(e) || 0) + w);
         hit.set(e, (hit.get(e) || 0) + 1);
       }

@@ -89,6 +89,6 @@ node factory/test-coordinator.js
 node factory/test-topic-v2.js
 node factory/factory.js topic-check --recheck
 ```
-Đối với thay đổi engine/workflow, tất cả test bắt buộc phải xanh (bao gồm `test-cycle.js` và `test-topic-v2.js`); không sửa assert/threshold chỉ để tạo màu xanh. Nếu bộ test coverage Topic V2 còn trượt 4/6 (lỗi đã ghi nhận 23/10), sửa hàm phân loại hoặc bằng chứng chứ không xóa test; việc đồng bộ docs không tự xác nhận đã sửa lỗi engine.
+Đối với thay đổi engine/workflow, tất cả test bắt buộc phải xanh (bao gồm `test-cycle.js` và `test-topic-v2.js`); không sửa assert/threshold chỉ để tạo màu xanh. Lỗi coverage Topic V2 4/6 (ghi nhận 23/10) đã sửa ngày 24/10 bằng khớp đúng dấu trong `queryCoverage` (docs/TOPIC-FACTORY-V2.md mục 13.9); `test-topic-v2.js` phải xanh hoàn toàn — nếu đỏ lại, sửa hàm phân loại hoặc bằng chứng, không xóa test hay nới ngưỡng.
 
 **PRODUCTION COORDINATOR TỰ ĐỘNG:** `factory-coordinator.yml` chạy maintenance mỗi khoảng 10 phút: recover-txn → check-state/topic-check → queue-refill (hiện frozen/no-op) → production-status → commit chỉ khi có diff. Publisher dùng cùng concurrency `total-production`, nhận push bài và có cron fallback mỗi 30 phút, chỉ publish những module bài thực sự tồn tại; full audit ở workflow manual. Writer có thể là Claude/Mistral/ChatGPT phiên ngoài (1 hoặc nhiều shard không trùng), Actions không tự viết bài hoặc đánh thức phiên AI; watchdog read-only không phải writer.

@@ -239,6 +239,16 @@ function copyRepoToTmp(tag) {
   // không còn chọn chúng. Suite này kiểm cơ chế pair trên slot PLANNED dựng sẵn => ledger topic rỗng trong BẢN SAO (repo thật không đổi).
   // Hành vi đóng slot được test riêng ở mục 2 (unit isClosed) và test-writer-pack.js (integration trên repo thật).
   fs.writeFileSync(path.join(tmp, 'factory', 'state', 'topic-matrix.jsonl'), '');
+  // Fixture isolation (backlog đang chờ publisher): khi chạy suite, repo thật có thể đang có module bài của writer chưa PUBLISHED (publisher/phiên khác
+  // đang xử lý). Các test e2e khẳng định "hết backlog sau pair"/"pause không che backlog" nên bản sao phải bắt đầu KHÔNG có backlog article-backed:
+  // bỏ module của slot chưa PUBLISHED khỏi BẢN SAO (repo thật không đổi). Trước đây suite đỏ ngẫu nhiên đúng lúc có lô đang chờ publish.
+  try {
+    const mx = JSON.parse(fs.readFileSync(path.join(tmp, 'factory', 'state', 'matrix.json'), 'utf8'));
+    for (const sl of mx.slots) {
+      if (sl.state === 'PUBLISHED') continue;
+      fs.rmSync(path.join(tmp, 'factory', 'data', 'articles', sl.slug + '.js'), { force: true });
+    }
+  } catch (_) { /* matrix lỗi: để test tự báo */ }
   return tmp;
 }
 function P(tmp) {
