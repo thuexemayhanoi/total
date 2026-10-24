@@ -31328,11 +31328,13 @@
    "title": "Xin giấy phép lái xe quốc tế (IDP) ở Việt Nam: ai được cấp, hồ sơ, bao lâu có và dùng trong nước được không?",
    "primaryIntent": "informational/xin-giay-phep-lai-xe-quoc-te-idp-o-viet-nam-ai-duoc-cap-ho-so-thoi-han-va-dung-trong-nuoc-duoc-khong",
    "notes": "source=topic-v2 topicId=T002326",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:13:19.074Z",
-   "updatedAt": "2026-10-24T13:13:19.074Z"
+   "updatedAt": "2026-10-24T13:23:50.271Z",
+   "seoScore": 100,
+   "words": 3511
   },
   {
    "id": "S02134",
@@ -31369,11 +31371,13 @@
    "title": "Tai nạn giao thông: không dừng xe, không giúp người bị nạn hoặc xóa dấu vết hiện trường bị phạt bao nhiêu?",
    "primaryIntent": "informational/tai-nan-giao-thong-khong-dung-xe-khong-giup-nguoi-bi-nan-hoac-xoa-dau-vet-hien-truong-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002329",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:13:32.387Z",
-   "updatedAt": "2026-10-24T13:13:32.387Z"
+   "updatedAt": "2026-10-24T13:23:50.270Z",
+   "seoScore": 100,
+   "words": 3558
   }
  ]
 }
