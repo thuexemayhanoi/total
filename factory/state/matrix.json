@@ -29352,11 +29352,13 @@
    "title": "Đặt chỗ nghỉ trước cả chuyến hay đến đâu tìm đó khi đi xe máy nhiều ngày: ưu nhược theo mùa, nhóm và lịch trình",
    "primaryIntent": "informational/dat-cho-nghi-truoc-ca-chuyen-hay-den-dau-tim-do-khi-di-xe-may-nhieu-ngay-uu-nhuoc-theo-mua-nhom-va-lich-trinh",
    "notes": "source=topic-v2 topicId=T002188",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:10:27.694Z",
-   "updatedAt": "2026-10-24T06:10:27.694Z"
+   "updatedAt": "2026-10-24T06:19:11.871Z",
+   "seoScore": 100,
+   "words": 3065
   }
  ]
 }
