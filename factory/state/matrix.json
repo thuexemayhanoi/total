@@ -29626,11 +29626,13 @@
    "title": "Chữ “rơ” trong tiếng thợ xe: độ rơ có chủ ý ở tay ga, tay phanh, xích khác độ rơ do mòn ở cổ lái, bánh xe ra sao",
    "primaryIntent": "informational/chu-ro-trong-tieng-tho-xe-do-ro-co-chu-y-o-tay-ga-tay-phanh-xich-khac-do-ro-do-mon-o-co-lai-banh-xe-ra-sao",
    "notes": "source=topic-v2 topicId=T002206",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:02:07.926Z",
-   "updatedAt": "2026-10-24T07:02:07.926Z"
+   "updatedAt": "2026-10-24T07:15:04.483Z",
+   "seoScore": 100,
+   "words": 3156
   },
   {
    "id": "S02020",
