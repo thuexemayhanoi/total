@@ -30999,11 +30999,13 @@
    "title": "Không có hoặc không mang theo bảo hiểm xe máy bắt buộc: điều khoản nào áp dụng và phạt bao nhiêu?",
    "primaryIntent": "informational/khong-co-hoac-khong-mang-theo-bao-hiem-xe-may-bat-buoc-dieu-khoan-nao-ap-dung-va-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002305",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:06:32.837Z",
-   "updatedAt": "2026-10-24T12:06:32.837Z"
+   "updatedAt": "2026-10-24T12:26:25.794Z",
+   "seoScore": 100,
+   "words": 3569
   },
   {
    "id": "S02113",
