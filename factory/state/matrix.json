@@ -30539,11 +30539,13 @@
    "title": "Xe máy được chạy tối đa bao nhiêu km/h và chạy quá tốc độ bị phạt theo mấy bậc?",
    "primaryIntent": "informational/toc-do-toi-da-cua-xe-may-theo-thong-tu-38-va-ba-bac-phat-chay-qua-toc-do",
    "notes": "source=topic-v2 topicId=T002270",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T11:03:58.028Z",
-   "updatedAt": "2026-10-24T11:03:58.028Z"
+   "updatedAt": "2026-10-24T11:17:14.273Z",
+   "seoScore": 100,
+   "words": 3346
   },
   {
    "id": "S02081",
