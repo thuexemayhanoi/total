@@ -36,7 +36,7 @@ Mọi agent phải đọc file này trước khi sửa repo.
 
 ## Vòng đời nội dung
 PLANNED → RESEARCH → WRITING → QA → PASS → PUBLISHED (lỗi: QA → REPAIR → QA → BLOCKED).
-Dùng `node factory/factory.js` (status/plan/list/research/write/qa/qa-preview/publish/audit/resume/expand-capacity/set-planned-target/backlog/check-state/plan-chunk/verify-invariant/drain-bound/drain-iteration + hot path pair: publish-pair/verify-pair/verify-sources/push-scope/publish-plan/change-mode/recover-txn + production cycle: cycle-plan/cycle-qa/cycle-publish/queue-refill + content index: manifest-sync/index-rebuild/index-check) — không sửa JSON state tay khi factory đang chạy.
+Dùng `node factory/factory.js`: **hot path** `writer-pack`/`verify-batch`/`push-scope`/`publish-batch`; **monitor/recovery** `status`/`production-status`/`backlog`/`check-state`/`plan-chunk`/`recover-txn`/`resume`; **legacy/manual** `publish-pair`/`verify-pair`/`cycle-plan`/`cycle-qa`/`cycle-publish`; **coordinator** `topic-propose`/`topic-approve`/`manifest-sync`/`index-refresh`/`index-rebuild`/`index-check`. Không sửa JSON state/ma trận bằng tay khi factory đang chạy.
 
 **WRITER FAST MODE (docs/FAST-WRITER-LOOP.md):** Có thể dùng 1 Writer hoặc tối đa 3 phiên ngoài độc lập (W1/W2/W3), mỗi phiên chọn một shard `--shard 1/3`, `2/3`, `3/3` của các slot PLANNED chưa có bài; không bắt buộc chạy 3 phiên. Dùng `writer-pack --count 10 [--shard k/3]` → tạo tối đa 10 module bài hợp lệ → `verify-batch` → push. GitHub Actions `factory-publish.yml` nhận exact push scope hoặc phục hồi backlog 30 phút/lượt → verify-batch → `publish-batch` (1–10 bài trong một transaction) → scoped 404 gate → commit state. Không có AI/API tạo prose trong GitHub Actions. `publish-pair`/cycle là legacy recovery, không phải đường nóng.
 
