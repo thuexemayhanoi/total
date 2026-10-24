@@ -31106,11 +31106,13 @@
    "title": "Xe máy đi ngược chiều, lên vỉa hè hoặc vào đường cao tốc: phạt bao nhiêu, trừ mấy điểm, có bị tạm giữ xe?",
    "primaryIntent": "informational/xe-may-di-nguoc-chieu-len-via-he-hoac-vao-duong-cao-toc-bi-phat-tru-diem-va-tam-giu-xe-the-nao",
    "notes": "source=topic-v2 topicId=T002312",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T12:08:30.249Z",
-   "updatedAt": "2026-10-24T12:08:30.249Z"
+   "updatedAt": "2026-10-24T12:40:38.247Z",
+   "seoScore": 100,
+   "words": 3573
   },
   {
    "id": "S02120",
