@@ -31354,11 +31354,13 @@
    "title": "Người ngồi sau xe máy tự bị phạt khi nào: không đội mũ, cầm ô, bám kéo đẩy xe khác hay ngồi trên tay lái?",
    "primaryIntent": "informational/nguoi-ngoi-sau-xe-may-tu-bi-phat-khi-nao-khong-doi-mu-cam-o-bam-keo-day-hay-ngoi-tren-tay-lai",
    "notes": "source=topic-v2 topicId=T002328",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T13:13:28.006Z",
-   "updatedAt": "2026-10-24T13:13:28.006Z"
+   "updatedAt": "2026-10-24T13:21:10.275Z",
+   "seoScore": 100,
+   "words": 3380
   },
   {
    "id": "S02136",
