@@ -29896,11 +29896,13 @@
    "title": "Xe chế hòa khí rỉ hoặc chảy xăng xuống gầm sau khi tắt máy: kim phao kẹt, phao lệch hay khóa xăng quên đóng",
    "primaryIntent": "troubleshooting/xe-che-hoa-khi-ri-hoac-chay-xang-xuong-gam-sau-khi-tat-may-kim-phao-ket-phao-lech-hay-khoa-xang-quen-dong",
    "notes": "source=topic-v2 topicId=T002226",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:54:15.837Z",
-   "updatedAt": "2026-10-24T07:54:15.837Z"
+   "updatedAt": "2026-10-24T08:07:13.963Z",
+   "seoScore": 100,
+   "words": 2880
   },
   {
    "id": "S02038",
