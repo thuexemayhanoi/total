@@ -29553,11 +29553,13 @@
    "title": "Chữ “chai” trong tiếng thợ xe: má phanh chai, dây curoa chai, cao su chai, bugi chai và ắc quy chai khác nhau ra sao",
    "primaryIntent": "informational/chu-chai-trong-tieng-tho-xe-ma-phanh-chai-day-curoa-chai-cao-su-chai-bugi-chai-va-ac-quy-chai-khac-nhau-ra-sao",
    "notes": "source=topic-v2 topicId=T002201",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:01:57.964Z",
-   "updatedAt": "2026-10-24T07:01:57.965Z"
+   "updatedAt": "2026-10-24T07:10:03.844Z",
+   "seoScore": 100,
+   "words": 3180
   },
   {
    "id": "S02015",
