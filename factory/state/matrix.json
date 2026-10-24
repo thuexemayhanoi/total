@@ -30271,11 +30271,13 @@
    "title": "Xe máy đỗ ngoài nắng gắt, bình xăng đầy có nổ không: hơi xăng, lỗ thông hơi và cách đỗ cho yên tâm",
    "primaryIntent": "informational/xe-may-do-ngoai-nang-gat-binh-xang-day-co-no-khong-hoi-xang-lo-thong-hoi-va-cach-do-cho-yen-tam",
    "notes": "source=topic-v2 topicId=T002251",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T09:41:43.299Z",
-   "updatedAt": "2026-10-24T09:41:43.299Z"
+   "updatedAt": "2026-10-24T09:46:52.744Z",
+   "seoScore": 100,
+   "words": 3192
   }
  ]
 }
