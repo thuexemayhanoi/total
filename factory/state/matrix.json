@@ -29148,11 +29148,13 @@
    "title": "Thay nhớt sớm hơn lịch cho chắc ăn: có thật sự tốt hơn, khi nào hợp lý và khi nào chỉ là thói quen tốn công",
    "primaryIntent": "informational/thay-nhot-som-hon-lich-cho-chac-an-co-that-su-tot-hon-khi-nao-hop-ly-va-khi-nao-chi-la-thoi-quen-ton-cong",
    "notes": "source=topic-v2 topicId=T002173",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T06:02:31.493Z",
-   "updatedAt": "2026-10-24T06:02:31.493Z"
+   "updatedAt": "2026-10-24T06:09:13.785Z",
+   "seoScore": 100,
+   "words": 3188
   },
   {
    "id": "S01988",
