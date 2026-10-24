@@ -29748,11 +29748,13 @@
    "title": "Nút nhỏ trên tay lái và đồng hồ xe máy (SET, SEL, MODE, nháy pha): mỗi nút làm gì và nút nào không nên bấm khi đang chạy",
    "primaryIntent": "informational/nut-nho-tren-tay-lai-va-dong-ho-xe-may-set-sel-mode-nhay-pha-moi-nut-lam-gi-va-nut-nao-khong-nen-bam-khi-dang-chay",
    "notes": "source=topic-v2 topicId=T002215",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:11.561Z",
-   "updatedAt": "2026-10-24T07:48:11.562Z"
+   "updatedAt": "2026-10-24T08:01:10.972Z",
+   "seoScore": 100,
+   "words": 3198
   },
   {
    "id": "S02028",

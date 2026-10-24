@@ -38069,6 +38069,41 @@
  },
  {
   "kind": "article",
+  "url": "docs/huong-dan-su-dung/nut-nho-tren-tay-lai-va-dong-ho-xe-may-set-sel-mode-nhay-pha-moi-nut-lam-gi-va-nut-nao-khong-nen-bam-khi-dang-chay/",
+  "title": "Nút nhỏ trên tay lái và đồng hồ xe máy (SET, SEL, MODE, nháy pha): mỗi nút làm gì và nút nào không nên bấm khi đang chạy",
+  "description": "Gom nút nhỏ trên tay lái và đồng hồ xe máy thành ba nhóm, giải thích bấm ngắn khác giữ lâu, cách làm quen khi đứng yên và nút nào không nên bấm lúc đang chạy.",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "entities": [
+   "nút trên tay lái",
+   "đồng hồ xe máy",
+   "nút SET",
+   "nút SEL",
+   "nút MODE",
+   "bấm ngắn và giữ lâu",
+   "nháy pha",
+   "sách hướng dẫn sử dụng"
+  ],
+  "keywords": [
+   "ý nghĩa các nút trên xe máy",
+   "nút SET SEL MODE trên đồng hồ xe máy",
+   "nút nhỏ trên tay lái xe máy",
+   "nút nào không nên bấm khi đang chạy",
+   "bấm ngắn và giữ lâu trên đồng hồ xe máy"
+  ],
+  "seoTitle": "Nút nhỏ trên tay lái, đồng hồ xe máy: SET, SEL, MODE làm gì",
+  "primaryKeyword": "ý nghĩa các nút trên xe máy",
+  "headings": [
+   "Vì sao xe máy có nhiều nút nhỏ và mỗi dòng xe ghi ký hiệu một kiểu",
+   "Cụm tay lái: pha cốt, xi nhan, còi, nháy pha, đề và tắt máy",
+   "Cụm đồng hồ: SET, SEL, MODE đổi hiển thị, cài giờ và đặt lại quãng chuyến thế nào",
+   "Nút tiện ích: tạm ngắt máy khi dừng, chế độ lái và đèn khẩn cấp dùng lúc nào",
+   "Làm quen nút của xe mình khi đứng yên, nút nào không bấm lúc chạy và nơi tra ký hiệu"
+  ],
+  "summary": "Nhiều người nhìn thấy mấy nút nhỏ ghi SET, SEL, MODE hay ký hiệu lạ quanh tay lái và đồng hồ mà không biết bấm để làm gì, rồi ngại bấm thử vì sợ xóa số đã lưu hay đổi cài đặt. Bài này gom các nút thành ba nhóm theo vị trí và việc chúng làm: ánh sáng và tín hiệ"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dien-xe/o-khoa-dien-xe-may-khoa-xoay-ket/",
   "title": "Ổ khóa điện xe máy khó xoay hoặc kẹt: nguyên nhân từ chìa, ruột khóa và khóa cổ",
   "description": "Chìa xoay nặng hoặc kẹt trong ổ khóa điện xe máy: cách phân biệt chìa mòn, ruột khóa bẩn hay khóa cổ bị ép, việc nên tránh và lúc nào cần thợ khóa.",

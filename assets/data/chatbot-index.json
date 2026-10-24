@@ -31251,6 +31251,37 @@
   ]
  },
  {
+  "url": "docs/huong-dan-su-dung/nut-nho-tren-tay-lai-va-dong-ho-xe-may-set-sel-mode-nhay-pha-moi-nut-lam-gi-va-nut-nao-khong-nen-bam-khi-dang-chay/",
+  "title": "Nút nhỏ trên tay lái và đồng hồ xe máy (SET, SEL, MODE, nháy pha): mỗi nút làm gì và nút nào không nên bấm khi đang chạy",
+  "category": "Tài liệu",
+  "hub": "Hướng dẫn sử dụng",
+  "summary": "Nhiều người nhìn thấy mấy nút nhỏ ghi SET, SEL, MODE hay ký hiệu lạ quanh tay lái và đồng hồ mà không biết bấm để làm gì, rồi ngại bấm thử vì sợ xóa số đã lưu hay đổi cài đặt. Bài này gom các nút thành ba nhóm theo vị trí và việc chúng làm: ánh sáng và tín hiệu ở tay lái, điều khiển máy, và chỉnh hiển thị trên đồng hồ. Bài cũng giải thích bấm ngắn khác giữ lâu, cách đảo lại khi lỡ đổi cài đặt, cách lập bảng nút nhỏ cho xe mình, nút nào không nên bấm lúc đang chạy và nơi tra ký hiệu.",
+  "quickAnswer": "Hãy chia nút thành ba nhóm: ánh sáng và tín hiệu ở tay lái, điều khiển máy, và chỉnh hiển thị trên đồng hồ. Chỉ nhóm tay lái gắn với việc lái mới bấm khi đang chạy, bằng ngón cái và không nhìn xuống. Nhóm đồng hồ, chế độ lái, tạm ngắt máy và mọi thao tác giữ lâu nên làm khi đã dừng hẳn, vì giữ lâu thường là xóa, đặt lại hoặc vào cài đặt. Ký hiệu mỗi xe một kiểu nên hãy đối chiếu sách hướng dẫn hoặc tem trên xe, rồi thử từng nút lúc đứng yên.",
+  "keyPoints": [
+   "Nút nhỏ trên xe máy chia được thành ba nhóm: ánh sáng và tín hiệu ở tay lái, điều khiển máy, và chỉnh hiển thị trên đồng hồ.",
+   "Bấm ngắn thường chỉ duyệt hoặc đổi lựa chọn, còn giữ lâu thường là xóa, đặt lại hoặc vào chế độ cài đặt.",
+   "Cùng một ký hiệu, mỗi xe có thể làm một việc khác, nên đối chiếu sách hướng dẫn hoặc tem trên xe thay vì đoán theo xe quen.",
+   "Khi đang chạy chỉ dùng pha cốt, xi nhan, còi và nháy pha ngắn; nhóm đồng hồ, chế độ lái, nút phụ để lúc dừng hẳn."
+  ],
+  "entities": [
+   "nút trên tay lái",
+   "đồng hồ xe máy",
+   "nút SET",
+   "nút SEL",
+   "nút MODE",
+   "bấm ngắn và giữ lâu",
+   "nháy pha",
+   "sách hướng dẫn sử dụng"
+  ],
+  "keywords": [
+   "ý nghĩa các nút trên xe máy",
+   "nút SET SEL MODE trên đồng hồ xe máy",
+   "nút nhỏ trên tay lái xe máy",
+   "nút nào không nên bấm khi đang chạy",
+   "bấm ngắn và giữ lâu trên đồng hồ xe máy"
+  ]
+ },
+ {
   "url": "wiki/dien-xe/o-khoa-dien-xe-may-khoa-xoay-ket/",
   "title": "Ổ khóa điện xe máy khó xoay hoặc kẹt: nguyên nhân từ chìa, ruột khóa và khóa cổ",
   "category": "Bách khoa xe",
