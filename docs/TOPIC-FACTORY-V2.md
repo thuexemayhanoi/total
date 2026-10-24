@@ -199,7 +199,7 @@ Hạn chế trung thực: `--reviewed` là **kiểm soát quy trình** (không c
 | `topic-reject <T…> --reason … [--merge-into slug --by NAME]` | coordinator | từ chối / gộp vào bài đã có |
 | `topic-reopen <T…> --by NAME --reason …` | coordinator | mở lại topic V2 nếu gate vẫn ACCEPT |
 | `topic-index-rebuild` / `topic-index-check` | coordinator / read-only | cache SQLite chữ ký headline (derived, không commit) |
-| `writer-pack [--count N] [--shard k/n]` | writer | chỉ slot APPROVED; kèm TOPIC_BRIEF/GAIN/OUTLINE/SCOPE; `--shard` để nhiều writer song song không trùng |
+| `writer-pack [--count N] [--shard k/n]` | writer | **FAST MODE hiện hành:** nhận cả slot PLANNED legacy chưa APPROVED (`mode=off`), kèm brief nếu có; trong chế độ enforce lịch sử chỉ nhận APPROVED; shard lọc PLANNED nhưng không khóa/lease slot in-flight |
 
 Lệnh ghi **từ chối khi `topic-matrix.jsonl` có dòng hỏng** (không ghi đè để khỏi làm mất dữ liệu). `queue-refill` in `QUEUE_REFILL frozen` và không ghi state khi `v1Generation=frozen`.
 
