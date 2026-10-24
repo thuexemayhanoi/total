@@ -29686,11 +29686,13 @@
    "title": "Vừa suýt ngã hoặc suýt va chạm khi đi xe máy: tay còn run, tim đập nhanh — dừng ở đâu, nghỉ ra sao và khi nào đi tiếp",
    "primaryIntent": "troubleshooting/vua-suyt-nga-hoac-suyt-va-cham-khi-di-xe-may-tay-con-run-tim-dap-nhanh-dung-o-dau-nghi-ra-sao-va-khi-nao-di-tiep",
    "notes": "source=topic-v2 topicId=T002210",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T07:48:03.099Z",
-   "updatedAt": "2026-10-24T07:48:03.099Z"
+   "updatedAt": "2026-10-24T07:53:36.398Z",
+   "seoScore": 100,
+   "words": 3182
   },
   {
    "id": "S02024",
