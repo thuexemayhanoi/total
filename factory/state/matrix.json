@@ -33663,11 +33663,13 @@
    "title": "Cho thuê xe máy của mình: doanh thu một năm đến mức nào thì chưa phải nộp thuế TNCN và thuế GTGT?",
    "primaryIntent": "informational/cho-thue-xe-may-doanh-thu-nam-den-muc-nao-thi-chua-phai-nop-thue-tncn-va-thue-gtgt",
    "notes": "source=topic-v2 topicId=T002485",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:06:59.782Z",
-   "updatedAt": "2026-10-25T15:06:59.782Z"
+   "updatedAt": "2026-10-25T18:31:04.105Z",
+   "seoScore": 100,
+   "words": 3619
   },
   {
    "id": "S02289",
@@ -33676,11 +33678,13 @@
    "title": "Cho thuê xe máy có phải dùng hóa đơn điện tử không? Mốc doanh thu 01 tỷ đồng và trường hợp đăng ký tự nguyện",
    "primaryIntent": "informational/cho-thue-xe-may-co-phai-dung-hoa-don-dien-tu-khong-moc-doanh-thu-01-ty-dong-va-truong-hop-dang-ky-tu-nguyen",
    "notes": "source=topic-v2 topicId=T002486",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:05.397Z",
-   "updatedAt": "2026-10-25T15:07:05.397Z"
+   "updatedAt": "2026-10-25T18:31:04.105Z",
+   "seoScore": 100,
+   "words": 3914
   },
   {
    "id": "S02290",
@@ -33689,11 +33693,13 @@
    "title": "Cho thuê vài chiếc xe máy của mình có phải đăng ký hộ kinh doanh không? Mã số thuế của cá nhân là gì?",
    "primaryIntent": "informational/cho-thue-vai-xe-may-cua-minh-co-phai-dang-ky-ho-kinh-doanh-khong-va-ma-so-thue-cua-ca-nhan-la-gi",
    "notes": "source=topic-v2 topicId=T002487",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:10.976Z",
-   "updatedAt": "2026-10-25T15:07:10.977Z"
+   "updatedAt": "2026-10-25T18:31:04.104Z",
+   "seoScore": 100,
+   "words": 3607
   },
   {
    "id": "S02291",
