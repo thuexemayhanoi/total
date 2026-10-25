@@ -957,7 +957,9 @@ function coverageFor(corpus, qs) {
   const seen = new Set(exact.map(x => x.slug));
   // Tín hiệu sàng lọc: các từ khóa của truy vấn (theo trọng số idf) có mặt trong title/H2/keywords của bài.
   // Không chứng minh bài trả lời đúng câu hỏi — phải xem query→URL trong Search Console / đọc bài.
-  const cov = corpus.queryCoverage(qs[0].query, 5).filter(c => !seen.has(c.meta.slug) && c.matched >= Math.min(2, c.tokens));
+  // Ngoài tỷ lệ idf còn đòi ít nhất một nửa số từ khóa của truy vấn có mặt: một từ hiếm trùng ngẫu nhiên (vd. “nấu” trong mục “Lửa, nấu ăn…”
+  // của bài cắm trại) cộng với một từ phổ thông không được đẩy truy vấn ngoài chủ đề lên NEARBY.
+  const cov = corpus.queryCoverage(qs[0].query, 5).filter(c => !seen.has(c.meta.slug) && c.matched >= Math.min(2, c.tokens) && c.matched / c.tokens >= COVER_MIN_SHARE);
   const strong = cov.filter(c => c.tokens >= 2 && c.coverage >= COVER_HIGH).map(c => pack(c.meta, 'query-terms', c.coverage));
   if (exact.length || strong.length) return { state: 'COVERED', existing: exact.concat(strong.slice(0, 3)) };
   const near = cov.filter(c => c.coverage >= COVER_MID).slice(0, 3).map(c => pack(c.meta, 'query-terms', c.coverage));
@@ -965,6 +967,7 @@ function coverageFor(corpus, qs) {
 }
 const COVER_HIGH = 0.85;
 const COVER_MID = 0.6;
+const COVER_MIN_SHARE = 0.5;
 
 // Đọc export Search Console (Queries): gom truy vấn theo intent key, KHÔNG sinh topic, KHÔNG bịa số.
 function cmdImport(args, deps) {
