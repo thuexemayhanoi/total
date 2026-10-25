@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02189 (topic V2 T002386); CHỈ nêu dữ kiện đã kiểm chứng từ Thông tư 73/2024/TT-BCA, Thông tư 13/2025/TT-BCA và VBHN 55/VBHN-VPQH (truy xuất 2026-10-24): Điều 15 khoản 1, 2, 3, Điều 23 khoản 1 điểm e, Điều 32 khoản 1, 2 điểm a Thông tư 73; Điều 11, Điều 14 khoản 1 Thông tư 13; Điều 67 khoản 1, 2 Luật.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'bi-bao-vi-pham-bang-thiet-bi-do-hoac-camera-co-duoc-xem-lai-hinh-anh-chi-so-do-va-xem-o-dau-theo-thong-tu-73',
+  title: 'Bị báo vi phạm bằng thiết bị đo hoặc camera: có được xem lại hình ảnh, chỉ số đo và xem ở đâu?',
+  seoTitle: 'Xem lại hình ảnh, chỉ số đo khi bị báo vi phạm: Thông tư 73',
+  metaDescription: 'Theo Điều 15 khoản 3 Thông tư 73/2024/TT-BCA: cho xem hình ảnh, kết quả thu thập tại nơi kiểm soát hoặc hướng dẫn xem ở trụ sở. Nêu rõ phần chưa đối chiếu.',
+  summary: 'Khi bị báo vi phạm bằng thiết bị đo hoặc camera, người đi xe máy thường hỏi có được xem lại hình ảnh, chỉ số đo hay không. Bài đọc hai nội dung của Thông tư 73/2024/TT-BCA ngày 15/11/2024: Điều 15 và Điều 23 khoản 1 điểm e. Điều 15 nêu kết quả thu thập gồm bản ảnh, hình ảnh, phiếu in, chỉ số đo, dữ liệu lưu trong bộ nhớ, cùng trách nhiệm hợp tác của người điều khiển phương tiện, rồi ở khoản 3 phân biệt việc cho xem tại nơi kiểm soát với việc hướng dẫn xem khi đến xử lý tại trụ sở đơn vị. Điều 23 khoản 1 điểm e nêu việc cho xem kết quả khi giải quyết vụ việc theo thông báo vi phạm hành chính. Theo đối chiếu ngày 24 tháng 10 năm 2026, Điều 11 Thông tư 13/2025/TT-BCA không sửa hai nội dung này; bài nói rõ phần chưa đối chiếu và không kết luận cho một lần kiểm tra cụ thể.',
+  quickAnswer: 'Theo Điều 15 khoản 3 điểm a Thông tư 73/2024/TT-BCA, khi người vi phạm đề nghị được xem thông tin, hình ảnh, kết quả thu thập được về hành vi vi phạm, Tổ Cảnh sát giao thông cho xem tại nơi kiểm soát. Nếu chưa có thông tin, hình ảnh, kết quả tại nơi kiểm soát thì hướng dẫn người vi phạm xem khi đến xử lý vi phạm tại trụ sở đơn vị. Điều 15 khoản 2 liệt kê kết quả thu thập gồm bản ảnh, hình ảnh, phiếu in, chỉ số đo và dữ liệu lưu trong bộ nhớ của thiết bị. Điều 23 khoản 1 điểm e nêu việc cho xem kết quả khi giải quyết vụ việc theo thông báo vi phạm hành chính. Đây là cách đọc điều khoản đã đối chiếu ngày 24/10/2026, không phải kết luận cho một lần kiểm tra cụ thể.',
+  keyPoints: [
+    'Điều 15 khoản 3 điểm a Thông tư 73/2024/TT-BCA: khi người vi phạm đề nghị được xem thông tin, hình ảnh, kết quả thu thập được, Tổ Cảnh sát giao thông cho xem tại nơi kiểm soát.',
+    'Cũng ở điểm a: nếu chưa có thông tin, hình ảnh, kết quả tại nơi kiểm soát thì hướng dẫn xem khi đến xử lý vi phạm tại trụ sở đơn vị.',
+    'Điều 15 khoản 2: kết quả thu thập gồm bản ảnh, hình ảnh, phiếu in, chỉ số đo, dữ liệu lưu trong bộ nhớ của thiết bị; khoản 1 nêu trách nhiệm hợp tác của người điều khiển phương tiện.',
+    'Điều 23 khoản 1 điểm e: khi giải quyết vụ việc theo thông báo vi phạm hành chính có việc cho người vi phạm xem kết quả thu thập được bằng thiết bị kỹ thuật nghiệp vụ.',
+    'Kiểm tra ngày 24/10/2026: Điều 11 Thông tư 13/2025/TT-BCA không sửa Điều 15 và Điều 23 khoản 1; bài không nêu mức phạt, không kết luận cho một lần kiểm tra cụ thể và nhắc tra lại văn bản còn hiệu lực.'
+  ],
+  category: 'learn',
+  hub: 'kien-thuc-phap-ly',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['Thông tư 73/2024/TT-BCA', 'Thông tư 13/2025/TT-BCA', 'Cảnh sát giao thông', 'Tổ Cảnh sát giao thông', 'thiết bị kỹ thuật nghiệp vụ', 'nơi kiểm soát', 'trụ sở đơn vị', 'thông báo vi phạm hành chính'],
+  keywords: ['xem lại hình ảnh vi phạm giao thông', 'camera ghi nhận vi phạm có được xem lại không', 'hình ảnh chỉ số đo thiết bị kỹ thuật nghiệp vụ', 'đề nghị xem kết quả tại nơi kiểm soát', 'trụ sở đơn vị nơi xem kết quả thu thập'],
+  sections: [
+    P('Văn bản đang áp dụng, hiệu lực và căn cứ luật cho việc dùng thiết bị kỹ thuật nghiệp vụ', [
+      'Bài này đọc một câu hỏi quen thuộc của người đi xe máy: khi được báo rằng thiết bị đo hoặc camera đã ghi nhận một hành vi vi phạm, người điều khiển phương tiện có được xem lại hình ảnh, chỉ số đo hay không, và xem ở đâu. Văn bản chính là Thông tư số 73/2024/TT-BCA ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Công an quy định công tác tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông. Theo Điều 32 khoản 1, thông tư có hiệu lực từ ngày 01 tháng 01 năm 2025; Điều 32 khoản 2 điểm a bãi bỏ Thông tư số 32/2023/TT-BCA ngày 01/8/2023. Các văn bản trong bài được truy xuất ngày 24 tháng 10 năm 2026.',
+      'Thông tư số 13/2025/TT-BCA ngày 28 tháng 02 năm 2025 của Bộ trưởng Bộ Công an sửa đổi, bổ sung một số điều của các thông tư quy định về trật tự, an toàn giao thông đường bộ, đường sắt và đường thủy nội địa. Theo Điều 14 khoản 1, thông tư này có hiệu lực từ ngày 01 tháng 3 năm 2025; Điều 11 của nó sửa đổi, bổ sung một số điều của Thông tư 73/2024/TT-BCA. Kết quả đối chiếu ghi rằng Điều 11 không sửa Điều 15 và Điều 23 khoản 1 của Thông tư 73, nên với hai nội dung mà bài đọc không có bản gốc và bản đã sửa để đặt cạnh nhau, chỉ có một bản.',
+      'Về tình trạng hiệu lực, trang của Thông tư 73/2024/TT-BCA trên Cơ sở dữ liệu quốc gia về pháp luật (vbpl.vn) ghi “In Force, Effective Date: 01/01/2025, Update Date: 30/03/2026”; bài không suy ra nội dung của lần cập nhật đó. Theo kiểm tra ngày 24/10/2026, văn bản đang áp dụng là Thông tư 73/2024/TT-BCA. Trước khi dựa vào bài cho việc quan trọng, bạn nên tra lại văn bản còn hiệu lực.',
+      'Ở cấp luật, bài đã đối chiếu Điều 67 khoản 1 và khoản 2 của Văn bản hợp nhất số 55/VBHN-VPQH, hợp nhất Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 ngày 27 tháng 6 năm 2024, có hiệu lực từ ngày 01 tháng 01 năm 2025, được sửa đổi, bổ sung bởi Luật số 118/2025/QH15 ngày 10 tháng 12 năm 2025, có hiệu lực từ ngày 01 tháng 7 năm 2026. Khoản 1 nêu việc vận hành, sử dụng hệ thống giám sát bảo đảm an ninh, trật tự, an toàn giao thông đường bộ; hệ thống camera trên tuyến giao thông, trong đô thị; công trình, hệ thống thiết bị kỹ thuật nghiệp vụ kiểm tra, kiểm soát tải trọng xe cơ giới. Khoản 2 nêu việc sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ. Bài chưa đối chiếu câu dẫn của Điều 67 và không nói Luật số 118/2025/QH15 có sửa điều này hay không.'
+    ]),
+    P('Điều 15 khoản 1 và khoản 2: kết quả thu thập gồm những gì và trách nhiệm hợp tác', [
+      'Điều 15 khoản 1 của Thông tư 73 nêu chủ thể và mục đích: cán bộ Cảnh sát giao thông sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ để phát hiện, thu thập hành vi vi phạm pháp luật của người và phương tiện tham gia giao thông đường bộ. Theo câu chữ, người sử dụng thiết bị là cán bộ Cảnh sát giao thông. Phần đã đối chiếu không nêu tên loại thiết bị nào, và bài không bổ sung chi tiết đó.',
+      'Cũng ở khoản 1, điều khoản nêu trách nhiệm của người điều khiển phương tiện tham gia giao thông: hợp tác theo yêu cầu kiểm tra, kiểm soát thông qua phương tiện, thiết bị kỹ thuật nghiệp vụ của cán bộ Cảnh sát giao thông. Điều khoản không nói hợp tác cụ thể là làm những việc gì, nên bài không liệt kê thêm. Trách nhiệm hợp tác ở khoản 1 và việc cho xem ở khoản 3 cùng nằm trong Điều 15; điều khoản không nói thêm về quan hệ giữa hai nội dung này nên bài không kết luận về quan hệ đó. Vì sự an toàn, bạn nên giảm tốc và dừng ở nơi an toàn khi được yêu cầu; đây là lời nhắc về an toàn của bài, không phải nội dung điều khoản.',
+      'Khoản 2 trả lời câu hỏi kết quả thu thập là gì. Theo điều khoản, kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ là bản ảnh, hình ảnh, phiếu in, chỉ số đo, dữ liệu lưu trong bộ nhớ của các phương tiện, thiết bị kỹ thuật nghiệp vụ. Danh sách gồm cả thứ nhìn được như bản ảnh, hình ảnh, phiếu in và thứ thể hiện bằng số như chỉ số đo. Điều khoản không giải thích từng loại và không gắn từng loại với một thiết bị, nên bài không đoán chỉ số đo thuộc thiết bị nào.',
+      'Phần sau của khoản 2 nói về nơi đi tiếp của các kết quả này: được thống kê, lập danh sách, in thành bản ảnh hoặc bản ghi thu về hành vi vi phạm và lưu trữ trong hồ sơ vụ việc vi phạm hành chính theo quy định của pháp luật và của Bộ Công an về công tác hồ sơ. Chỉ có cụm “kết quả thu thập được” trùng giữa khoản 2, khoản 3 và Điều 23 khoản 1 điểm e. Điều khoản không nêu chỉ số đo cụ thể có nằm trong phần được xem hay không, và bài không kết luận điều đó; điểm này nằm trong phần chưa đối chiếu. Quy định về công tác hồ sơ bài chưa đối chiếu, nên không nêu thời gian lưu trữ hay người được tiếp cận hồ sơ.'
+    ]),
+    P('Điều 15 khoản 3 điểm a: xem tại nơi kiểm soát, hoặc xem khi đến xử lý tại trụ sở đơn vị', [
+      'Điều 15 khoản 3 là phần trả lời trực tiếp nhất cho câu hỏi của bài. Câu dẫn viết rằng khi phương tiện, thiết bị kỹ thuật nghiệp vụ phát hiện, thu thập được thông tin, hình ảnh về hành vi vi phạm pháp luật của người, phương tiện tham gia giao thông đường bộ, người có thẩm quyền xử phạt thực hiện như sau, rồi tách thành điểm a và điểm b theo việc lực lượng có dừng được phương tiện hay không. Đoạn này đọc điểm a; điểm b nằm ở đoạn cuối của phần này.',
+      'Điểm a có hai bước. Bước thứ nhất là tổ chức lực lượng dừng phương tiện giao thông để kiểm soát, xử lý vi phạm theo quy định. Bước thứ hai: “Trường hợp người vi phạm đề nghị được xem thông tin, hình ảnh, kết quả thu thập được về hành vi vi phạm, Tổ Cảnh sát giao thông cho xem tại nơi kiểm soát”. Theo cách đọc của bài, việc dừng phương tiện và việc cho xem là hai việc tách nhau: việc đầu là người có thẩm quyền xử phạt tổ chức lực lượng dừng phương tiện, việc sau gắn với đề nghị của người vi phạm. Cụm “người vi phạm” là cách gọi trong điều khoản; bài không dùng nó để kết luận về ai.',
+      'Vế tiếp theo của điểm a nêu tình huống khác: nếu chưa có thông tin, hình ảnh, kết quả tại nơi kiểm soát thì hướng dẫn người vi phạm xem thông tin, hình ảnh, kết quả khi đến xử lý vi phạm tại trụ sở đơn vị. Như vậy câu chữ phân hai tình huống khi người vi phạm đề nghị xem: nếu đã có thông tin, hình ảnh, kết quả tại nơi kiểm soát thì Tổ Cảnh sát giao thông cho xem tại nơi kiểm soát; nếu chưa có thì hướng dẫn xem khi đến xử lý vi phạm tại trụ sở đơn vị. Điều khoản dùng động từ “hướng dẫn”; bài không nêu thêm thời điểm, địa chỉ trụ sở hay thủ tục, vì phần đã đối chiếu không có.',
+      'Điểm b nói về trường hợp không dừng được phương tiện giao thông vi phạm để kiểm soát, xử lý vi phạm: khi đó thực hiện theo quy định tại Điều 24 của chính thông tư. Bài chỉ ghi nhận điểm b chuyển sang Điều 24 và chưa đối chiếu nội dung Điều 24, nên không nói gì về cách xử lý trong trường hợp đó. Bạn có thể xem bài về phạt nguội xe máy trên trang; bài này không so khớp Điều 24 với bài đó.'
+    ]),
+    P('Điều 23 khoản 1 điểm e: xem kết quả khi giải quyết vụ việc theo thông báo vi phạm hành chính', [
+      'Điều 23 khoản 1 điểm e nói về việc giải quyết vụ việc theo thông báo vi phạm hành chính về trật tự, an toàn giao thông đường bộ. Nội dung điểm e: kiểm tra, đối chiếu các thông tin trên giấy thông báo, giấy tờ tùy thân; cho người vi phạm xem kết quả thu thập được hành vi vi phạm bằng phương tiện, thiết bị kỹ thuật nghiệp vụ; lập biên bản vi phạm hành chính và thực hiện xử lý vi phạm theo quy định. Bài mới đối chiếu điểm e, chưa đối chiếu câu dẫn của khoản 1 và các điểm khác, nên không nói ai thực hiện và thực hiện ở đâu theo câu dẫn đó.',
+      'Cách đọc điểm e: đây là một chuỗi việc nối bằng dấu chấm phẩy, trong đó việc cho xem kết quả đứng sau việc kiểm tra, đối chiếu giấy thông báo và giấy tờ tùy thân, và đứng trước việc lập biên bản vi phạm hành chính. Đó là thứ tự liệt kê trong câu; bài không kết luận từng việc phải làm vào thời điểm nào. Điều đáng ghi nhận là việc cho xem kết quả thu thập bằng thiết bị được nêu thành một việc riêng trong chuỗi.',
+      'So với Điều 15 khoản 3 điểm a, điểm e nêu việc cho xem trong một ngữ cảnh khác: giải quyết vụ việc theo thông báo vi phạm hành chính. Bài không kết luận hai chỗ mô tả cùng một buổi làm việc hay hai buổi khác nhau, vì câu chữ đã đối chiếu không nói. Một tình huống để người đọc tự đối chiếu, không phải mô tả quy trình chính thức: một người nhận được giấy thông báo vi phạm hành chính và đến để giải quyết vụ việc; trong chuỗi việc ở điểm e có việc cho xem kết quả thu thập được.',
+      'Điểm e không nói gì về thời hạn giải quyết, nơi giải quyết, loại giấy tờ tùy thân cụ thể, nội dung giấy thông báo hay hình thức cho xem, và bài không điền vào những chỗ trống đó. Với các nội dung gần kề, bạn có thể xem trên trang bài về phạt nguội xe máy, bài về thời hạn ra quyết định xử phạt và thời hiệu xử phạt, và bài về đăng ký, kiểm định xe và đổi bằng lái khi chưa giải quyết xong vi phạm.'
+    ]),
+    P('Phần bài chưa đối chiếu và cách tra lại văn bản còn hiệu lực', [
+      'Bài đã đối chiếu với Thông tư 73/2024/TT-BCA các nội dung sau: Điều 15 khoản 1, khoản 2 và khoản 3 (câu dẫn, điểm a và điểm b); Điều 23 khoản 1 điểm e; Điều 32 khoản 1 và khoản 2 điểm a. Bài cũng đã đối chiếu Điều 11 và Điều 14 khoản 1 của Thông tư 13/2025/TT-BCA, trang vbpl.vn của Thông tư 73 và Điều 67 khoản 1, khoản 2 trong Văn bản hợp nhất 55/VBHN-VPQH.',
+      'Bài chưa đối chiếu: nội dung Điều 24 của Thông tư 73 về trường hợp không dừng được phương tiện; câu dẫn và các điểm khác của Điều 23 khoản 1; thời hạn, hình thức và thủ tục xem kết quả; việc chỉ số đo cụ thể có nằm trong phần được xem hay không; việc cấp bản sao kết quả; quy định của Bộ Công an về công tác hồ sơ; cùng các văn bản hướng dẫn khác. Bài không nêu số tiền phạt nào. Mức xử phạt trong một vụ việc cụ thể do người có thẩm quyền xác định theo hành vi, tình tiết và văn bản hiện hành; bài chỉ đọc các điều khoản đã đối chiếu và nội dung có thể khác khi văn bản được sửa đổi.',
+      'Cách tự tra: vào Công báo điện tử Chính phủ, tìm Thông tư số 73/2024/TT-BCA (Công báo số 1339 + 1340 ngày 14-12-2024) và Thông tư số 13/2025/TT-BCA (Công báo số 475 + 476 ngày 15-3-2025). Xem thêm trang văn bản trên vbpl.vn để biết tình trạng hiệu lực và ngày cập nhật, đọc đúng Điều 15 và Điều 23 khoản 1, rồi tìm xem có văn bản nào sửa đổi, bổ sung hoặc thay thế sau thời điểm bài truy xuất hay không.',
+      'Đây là bài tổng hợp để tham khảo, không phải tư vấn pháp lý và không đánh giá một lần kiểm tra hay một thông báo vi phạm cụ thể. Nếu bạn có thắc mắc về vụ việc của mình, hãy hỏi cơ quan có thẩm quyền hoặc người có chuyên môn pháp lý. Căn cứ dừng phương tiện nằm ngoài bài này; bạn có thể xem bài về các trường hợp Cảnh sát giao thông được dừng xe kiểm tra trên trang. Trước khi dựa vào bất kỳ nội dung nào ở đây, hãy tra lại văn bản còn hiệu lực; ngày truy xuất của bài là ngày 24 tháng 10 năm 2026.'
+    ])
+  ],
+  checklist: [
+    'Xác định đúng văn bản: Thông tư 73/2024/TT-BCA ngày 15/11/2024 và Thông tư 13/2025/TT-BCA ngày 28/02/2025.',
+    'Đọc Điều 15 khoản 1 và khoản 2 về trách nhiệm hợp tác và các loại kết quả thu thập bằng thiết bị.',
+    'Đọc Điều 15 khoản 3 điểm a và điểm b để phân biệt trường hợp dừng được và không dừng được phương tiện.',
+    'Đọc Điều 23 khoản 1 điểm e về việc cho xem kết quả khi giải quyết vụ việc theo thông báo vi phạm hành chính.',
+    'Ghi lại tên văn bản, số hiệu, ngày hiệu lực và ngày tra cứu khi dựa vào quy định cho việc quan trọng.',
+    'Tra lại văn bản còn hiệu lực trên Công báo hoặc cơ sở dữ liệu quốc gia trước khi quyết định.'
+  ],
+  steps: [
+    { title: 'Xác định văn bản', detail: 'Mở Thông tư 73/2024/TT-BCA trên Công báo điện tử Chính phủ và xem ngày hiệu lực 01/01/2025.' },
+    { title: 'Đối chiếu văn bản sửa đổi', detail: 'Xem Điều 11 Thông tư 13/2025/TT-BCA có sửa nội dung bạn cần đọc hay không; ngày 24/10/2026 bài ghi nhận là không sửa Điều 15 và Điều 23 khoản 1.' },
+    { title: 'Đọc Điều 15', detail: 'Đọc khoản 1, khoản 2 và khoản 3 theo đúng câu chữ, chú ý hai trường hợp ở điểm a và điểm b của khoản 3.' },
+    { title: 'Đọc Điều 23 khoản 1 điểm e', detail: 'Đọc việc cho xem kết quả thu thập được trong chuỗi việc khi giải quyết vụ việc theo thông báo vi phạm hành chính, và nhớ rằng bài chưa đối chiếu các điểm khác của khoản này.' },
+    { title: 'Kiểm tra hiệu lực và hỏi cơ quan có thẩm quyền', detail: 'Xem trang văn bản trên vbpl.vn để biết tình trạng hiệu lực và ngày cập nhật; với thắc mắc về một vụ việc cụ thể, hãy hỏi cơ quan có thẩm quyền hoặc người có chuyên môn.' }
+  ],
+  warnings: [
+    'Không dùng bài này để kết luận một lần kiểm tra hay một thông báo vi phạm cụ thể là đúng hay sai; bài chỉ đọc các điều khoản đã đối chiếu.',
+    'Điều 15 khoản 1 nêu trách nhiệm hợp tác của người điều khiển phương tiện; vì sự an toàn, nên giảm tốc và dừng ở nơi an toàn khi được yêu cầu.',
+    'Bài không nêu số tiền phạt hay thời hạn xử lý nào; văn bản có thể được sửa đổi hoặc thay thế sau ngày 24/10/2026, nên luôn tra lại văn bản còn hiệu lực.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: Thông tư 73/2024/TT-BCA ngày 15/11/2024 (Công báo số 1339 + 1340 ngày 14-12-2024), Thông tư 13/2025/TT-BCA ngày 28/02/2025 (Công báo số 475 + 476 ngày 15-3-2025), trang vbpl.vn của Thông tư 73/2024/TT-BCA và Văn bản hợp nhất 55/VBHN-VPQH, truy xuất ngày 24/10/2026.',
+    'Bài tổng hợp để tham khảo, không phải tư vấn pháp lý và không đánh giá một lần kiểm tra cụ thể.'
+  ],
+  references: [
+    'Thông tư số 73/2024/TT-BCA ngày 15/11/2024 của Bộ trưởng Bộ Công an quy định công tác tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông (Điều 15, Điều 23 khoản 1 điểm e, Điều 32), cùng Thông tư số 13/2025/TT-BCA ngày 28/02/2025 (Điều 11, Điều 14 khoản 1) và Văn bản hợp nhất 55/VBHN-VPQH (Điều 67 khoản 1, 2); truy xuất ngày 24/10/2026',
+    'Công báo điện tử Chính phủ và Cơ sở dữ liệu quốc gia về pháp luật (vbpl.vn)'
+  ],
+  related: [
+    'phat-nguoi-xe-may-thong-bao-bang-cach-nao-chu-xe-phai-lam-gi-va-ket-qua-camera-dung-duoc-bao-lau',
+    'canh-sat-giao-thong-duoc-dung-xe-kiem-tra-trong-truong-hop-nao',
+    'chua-giai-quyet-xong-vi-pham-co-duoc-dang-ky-dang-kiem-doi-bang-khong',
+    'bi-tru-het-diem-giay-phep-lai-xe-ho-so-kiem-tra-kien-thuc-phap-luat-de-phuc-hoi-diem-va-thi-lai',
+    'lap-bien-ban-giao-thong-xong-bao-lau-thi-co-quyet-dinh-xu-phat-va-thoi-hieu-xu-phat-la-bao-lau'
+  ]
+};
