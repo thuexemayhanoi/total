@@ -33468,11 +33468,13 @@
    "title": "Đơn khởi kiện đòi tiền cọc hoặc bồi thường xe máy phải ghi những gì, kèm tài liệu nào và nộp bằng cách nào?",
    "primaryIntent": "informational/don-khoi-kien-doi-tien-coc-hoac-boi-thuong-xe-may-phai-ghi-nhung-gi-kem-tai-lieu-nao-va-nop-bang-cach-nao",
    "notes": "source=topic-v2 topicId=T002472",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:01:26.096Z",
-   "updatedAt": "2026-10-25T11:01:26.096Z"
+   "updatedAt": "2026-10-25T14:17:04.756Z",
+   "seoScore": 100,
+   "words": 3782
   },
   {
    "id": "S02276",
@@ -33481,11 +33483,13 @@
    "title": "Nộp đơn khởi kiện xong khi nào Tòa thụ lý vụ án: các mốc 03 ngày, 05 ngày, 07 ngày nộp tạm ứng án phí?",
    "primaryIntent": "informational/nop-don-khoi-kien-xong-khi-nao-toa-thu-ly-vu-an-cac-moc-03-ngay-05-ngay-07-ngay-nop-tam-ung-an-phi",
    "notes": "source=topic-v2 topicId=T002473",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:01:31.984Z",
-   "updatedAt": "2026-10-25T11:01:31.984Z"
+   "updatedAt": "2026-10-25T14:17:04.757Z",
+   "seoScore": 100,
+   "words": 3832
   },
   {
    "id": "S02277",
@@ -33494,11 +33498,13 @@
    "title": "Kiện đòi tiền cọc hoặc bồi thường giá trị nhỏ: tạm ứng án phí bao nhiêu, mốc 6.000.000 đồng và 5% ra sao?",
    "primaryIntent": "informational/kien-doi-tien-coc-hoac-boi-thuong-gia-tri-nho-tam-ung-an-phi-bao-nhieu-moc-6000000-dong-va-5-phan-tram",
    "notes": "source=topic-v2 topicId=T002474",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:01:37.878Z",
-   "updatedAt": "2026-10-25T11:01:37.879Z"
+   "updatedAt": "2026-10-25T14:17:04.757Z",
+   "seoScore": 100,
+   "words": 3870
   },
   {
    "id": "S02278",
@@ -33507,11 +33513,13 @@
    "title": "Kiện đòi cọc mua xe máy hoặc đòi xe cho mượn: thắng một phần ai chịu án phí, hòa giải thành giảm bao nhiêu?",
    "primaryIntent": "informational/kien-doi-coc-mua-xe-may-hoac-doi-xe-cho-muon-thang-mot-phan-thi-ai-chiu-an-phi-hoa-giai-thanh-giam-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002475",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:01:43.265Z",
-   "updatedAt": "2026-10-25T11:01:43.265Z"
+   "updatedAt": "2026-10-25T14:17:04.756Z",
+   "seoScore": 100,
+   "words": 3849
   },
   {
    "id": "S02279",
@@ -33520,11 +33528,13 @@
    "title": "Hòa giải tại Tòa án trước khi kiện: Tòa thông báo mấy ngày, hòa giải tối đa bao lâu và có phải trả phí không?",
    "primaryIntent": "informational/hoa-giai-tai-toa-an-truoc-khi-kien-toa-thong-bao-may-ngay-hoa-giai-toi-da-bao-lau-va-co-phai-tra-phi-khong",
    "notes": "source=topic-v2 topicId=T002476",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:01:48.528Z",
-   "updatedAt": "2026-10-25T11:01:48.528Z"
+   "updatedAt": "2026-10-25T14:17:04.756Z",
+   "seoScore": 100,
+   "words": 3860
   },
   {
    "id": "S02280",
@@ -33533,11 +33543,13 @@
    "title": "Không đội mũ bảo hiểm hoặc không cài quai khi đi xe máy: người lái và người ngồi sau bị phạt thế nào?",
    "primaryIntent": "informational/khong-doi-mu-bao-hiem-hoac-khong-cai-quai-khi-di-xe-may-nguoi-lai-va-nguoi-ngoi-sau-bi-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002477",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:01:54.358Z",
-   "updatedAt": "2026-10-25T11:01:54.359Z"
+   "updatedAt": "2026-10-25T14:17:04.756Z",
+   "seoScore": 100,
+   "words": 3383
   },
   {
    "id": "S02281",
@@ -33546,11 +33558,13 @@
    "title": "Xe máy kéo hoặc đẩy xe khác khi đang lái, như xe hết xăng hay xe hỏng: người lái bị phạt bao nhiêu?",
    "primaryIntent": "informational/xe-may-keo-hoac-day-xe-khac-khi-dang-lai-nhu-xe-het-xang-hay-xe-hong-nguoi-lai-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002478",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:02:00.335Z",
-   "updatedAt": "2026-10-25T11:02:00.335Z"
+   "updatedAt": "2026-10-25T14:17:04.757Z",
+   "seoScore": 100,
+   "words": 3379
   },
   {
    "id": "S02282",
@@ -33559,11 +33573,13 @@
    "title": "Đi xe máy vào đường cấm hoặc khu vực cấm: phạt bao nhiêu, trừ mấy điểm và từ 15/8/2026 có gì thay đổi?",
    "primaryIntent": "informational/di-xe-may-vao-duong-cam-hoac-khu-vuc-cam-phat-bao-nhieu-tru-may-diem-va-tu-15-8-2026-co-gi-thay-doi",
    "notes": "source=topic-v2 topicId=T002479",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:02:06.191Z",
-   "updatedAt": "2026-10-25T11:02:06.191Z"
+   "updatedAt": "2026-10-25T14:17:04.756Z",
+   "seoScore": 100,
+   "words": 3598
   },
   {
    "id": "S02283",
@@ -33572,11 +33588,13 @@
    "title": "Quay đầu xe máy bị cấm ở những chỗ nào và quay đầu sai chỗ hoặc trong hầm đường bộ bị phạt bao nhiêu?",
    "primaryIntent": "informational/quay-dau-xe-may-bi-cam-o-nhung-cho-nao-va-quay-dau-sai-cho-hoac-trong-ham-duong-bo-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002480",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:02:11.780Z",
-   "updatedAt": "2026-10-25T11:02:11.781Z"
+   "updatedAt": "2026-10-25T14:17:04.757Z",
+   "seoScore": 100,
+   "words": 3514
   },
   {
    "id": "S02284",
@@ -33585,11 +33603,13 @@
    "title": "Gắn còi hú hoặc đèn nháy lên xe máy: Luật cấm thế nào, phạt bao nhiêu và thiết bị có bị tịch thu không?",
    "primaryIntent": "informational/gan-coi-hu-hoac-den-nhay-len-xe-may-luat-cam-the-nao-phat-bao-nhieu-va-thiet-bi-co-bi-tich-thu-khong",
    "notes": "source=topic-v2 topicId=T002481",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:02:17.195Z",
-   "updatedAt": "2026-10-25T11:02:17.196Z"
+   "updatedAt": "2026-10-25T14:17:04.756Z",
+   "seoScore": 100,
+   "words": 3442
   },
   {
    "id": "S02285",
