@@ -32609,11 +32609,13 @@
    "title": "Xe máy của người đã mất không có di chúc: ai được thừa kế, ba hàng thừa kế gồm những ai và chia thế nào?",
    "primaryIntent": "informational/xe-may-cua-nguoi-da-mat-khong-co-di-chuc-ai-duoc-thua-ke-ba-hang-thua-ke-va-cach-chia-theo-bo-luat-dan-su",
    "notes": "source=topic-v2 topicId=T002415",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:23:37.530Z",
-   "updatedAt": "2026-10-25T04:23:37.531Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3522
   },
   {
    "id": "S02219",
@@ -32622,11 +32624,13 @@
    "title": "Xe máy của người đã mất để nhiều năm chưa chia: thời hiệu chia di sản động sản là bao lâu và hết hạn thì sao?",
    "primaryIntent": "informational/xe-may-cua-nguoi-da-mat-de-nhieu-nam-chua-chia-thoi-hieu-chia-di-san-dong-san-10-nam-va-het-han-thi-sao",
    "notes": "source=topic-v2 topicId=T002416",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:23:42.241Z",
-   "updatedAt": "2026-10-25T04:23:42.241Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3702
   },
   {
    "id": "S02220",
@@ -32635,11 +32639,13 @@
    "title": "Chồng hoặc vợ mất, xe máy là tài sản chung: ai giữ xe và khi chia di sản thì xe được chia đôi trước ra sao?",
    "primaryIntent": "informational/chong-hoac-vo-mat-xe-may-la-tai-san-chung-ai-giu-xe-va-khi-chia-di-san-thi-xe-duoc-chia-doi-truoc-ra-sao",
    "notes": "source=topic-v2 topicId=T002417",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:23:46.878Z",
-   "updatedAt": "2026-10-25T04:23:46.879Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3780
   },
   {
    "id": "S02221",
@@ -32648,11 +32654,13 @@
    "title": "Anh chị em cùng thừa kế một chiếc xe máy: thỏa thuận, định giá, ai nhận xe và khi nào phải bán để chia?",
    "primaryIntent": "informational/anh-chi-em-cung-thua-ke-mot-chiec-xe-may-thoa-thuan-dinh-gia-ai-nhan-xe-va-khi-nao-phai-ban-de-chia",
    "notes": "source=topic-v2 topicId=T002418",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:23:51.927Z",
-   "updatedAt": "2026-10-25T04:23:51.927Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3413
   },
   {
    "id": "S02222",
@@ -32661,11 +32669,13 @@
    "title": "Viết di chúc để lại xe máy: tự viết tay có hợp pháp không, phải ghi những gì và có bắt buộc công chứng?",
    "primaryIntent": "informational/viet-di-chuc-de-lai-xe-may-tu-viet-tay-co-hop-phap-khong-phai-ghi-nhung-gi-va-co-bat-buoc-cong-chung",
    "notes": "source=topic-v2 topicId=T002419",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:23:56.648Z",
-   "updatedAt": "2026-10-25T04:23:56.648Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3645
   },
   {
    "id": "S02223",
@@ -32674,11 +32684,13 @@
    "title": "Xe máy mua sau khi cưới nhưng đăng ký chỉ ghi tên một người: là tài sản chung hay riêng khi có tranh chấp?",
    "primaryIntent": "informational/xe-may-mua-sau-khi-cuoi-nhung-dang-ky-chi-ghi-ten-mot-nguoi-la-tai-san-chung-hay-rieng-khi-co-tranh-chap",
    "notes": "source=topic-v2 topicId=T002420",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:01.403Z",
-   "updatedAt": "2026-10-25T04:24:01.403Z"
+   "updatedAt": "2026-10-25T05:49:22.064Z",
+   "seoScore": 100,
+   "words": 3754
   },
   {
    "id": "S02224",
@@ -32687,11 +32699,13 @@
    "title": "Ly hôn chia xe máy: chia đôi hay tính công sức, ai nhận xe thì phải trả bù phần chênh lệch thế nào?",
    "primaryIntent": "informational/ly-hon-chia-xe-may-chia-doi-hay-tinh-cong-suc-ai-nhan-xe-thi-phai-tra-bu-phan-chenh-lech-the-nao",
    "notes": "source=topic-v2 topicId=T002421",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:06.095Z",
-   "updatedAt": "2026-10-25T04:24:06.095Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3296
   },
   {
    "id": "S02225",
@@ -32700,11 +32714,13 @@
    "title": "Nhận xe máy thừa kế, được tặng cho hay chia khi ly hôn: lệ phí trước bạ được miễn ở trường hợp nào?",
    "primaryIntent": "informational/nhan-xe-may-thua-ke-duoc-tang-cho-hay-chia-khi-ly-hon-le-phi-truoc-ba-duoc-mien-o-truong-hop-nao",
    "notes": "source=topic-v2 topicId=T002422",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:10.892Z",
-   "updatedAt": "2026-10-25T04:24:10.892Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3568
   },
   {
    "id": "S02226",
@@ -32713,11 +32729,13 @@
    "title": "Xe máy đỗ chắn lối vào của xe chữa cháy: Luật PCCC cấm gì, phạt bao nhiêu và ai được dời xe?",
    "primaryIntent": "informational/xe-may-do-chan-loi-vao-cua-xe-chua-chay-luat-pccc-cam-gi-phat-bao-nhieu-va-ai-duoc-doi-xe",
    "notes": "source=topic-v2 topicId=T002423",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:15.782Z",
-   "updatedAt": "2026-10-25T04:24:15.783Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3334
   },
   {
    "id": "S02227",
@@ -32726,11 +32744,13 @@
    "title": "Để xe ở hành lang, cầu thang chung cư: Luật Nhà ở cấm gì, chắn lối thoát nạn bị phạt thế nào?",
    "primaryIntent": "informational/de-xe-o-hanh-lang-cau-thang-chung-cu-luat-nha-o-cam-tu-y-dung-phan-chung-chan-loi-thoat-nan-bi-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002424",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:20.600Z",
-   "updatedAt": "2026-10-25T04:24:20.601Z"
+   "updatedAt": "2026-10-25T05:49:22.063Z",
+   "seoScore": 100,
+   "words": 3685
   },
   {
    "id": "S02228",

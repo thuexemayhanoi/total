@@ -1600,6 +1600,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/anh-chi-em-cung-thua-ke-mot-chiec-xe-may-thoa-thuan-dinh-gia-ai-nhan-xe-va-khi-nao-phai-ban-de-chia/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/ao-khoac-phong-gio-bay-phan-phat-khi-di-xe-may-vi-sao-keo-vai-che-guong-quat-vao-tay-va-cach-cai-gom-ao-cho-gon/index.html",
   "kind": "article"
  },
@@ -2420,6 +2424,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/chong-hoac-vo-mat-xe-may-la-tai-san-chung-ai-giu-xe-va-khi-chia-di-san-thi-xe-duoc-chia-doi-truoc-ra-sao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/xu-ly-su-co/chong-mat-hoac-choang-vang-khi-dang-lai-xe-may-dung-xe-va-khi-nao-di-kham/index.html",
   "kind": "article"
  },
@@ -2801,6 +2809,10 @@
  },
  {
   "rel": "learn/cham-soc-xe/de-xe-noi-am/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/de-xe-o-hanh-lang-cau-thang-chung-cu-luat-nha-o-cam-tu-y-dung-phan-chung-chan-loi-thoat-nan-bi-phat-the-nao/index.html",
   "kind": "article"
  },
  {
@@ -4644,6 +4656,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/ly-hon-chia-xe-may-chia-doi-hay-tinh-cong-suc-ai-nhan-xe-thi-phai-tra-bu-phan-chenh-lech-the-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/thuat-ngu-xe/ly-hop-chong-truot-va-con-tro-luc-tren-xe-con-tay/index.html",
   "kind": "article"
  },
@@ -5193,6 +5209,10 @@
  },
  {
   "rel": "docs/checklist/nhan-xe-may-sau-khi-sua-vi-nga-hoac-va-cham-tay-lai-banh-phanh-va-nhung-cho-nen-thu-truoc-khi-tra-tien/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/nhan-xe-may-thua-ke-duoc-tang-cho-hay-chia-khi-ly-hon-le-phi-truoc-ba-duoc-mien-o-truong-hop-nao/index.html",
   "kind": "article"
  },
  {
@@ -7364,6 +7384,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/viet-di-chuc-de-lai-xe-may-tu-viet-tay-co-hop-phap-khong-phai-ghi-nhung-gi-va-co-bat-buoc-cong-chung/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "market/mua-ban-xe-cu/viet-tin-dang-ban-xe-may-cu/index.html",
   "kind": "article"
  },
@@ -7628,6 +7652,14 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-cua-nguoi-da-mat-de-nhieu-nam-chua-chia-thoi-hieu-chia-di-san-dong-san-10-nam-va-het-han-thi-sao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-cua-nguoi-da-mat-khong-co-di-chuc-ai-duoc-thua-ke-ba-hang-thua-ke-va-cach-chia-theo-bo-luat-dan-su/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/checklist/xe-may-da-het-doi-xang-ac-quy-hoac-pin-nhot-chia-va-do-ca-nhan-can-xu-ly-truoc-khi-giao-cho-tho-hay-nguoi-thu-mua/index.html",
   "kind": "article"
  },
@@ -7732,6 +7764,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-do-chan-loi-vao-cua-xe-chua-chay-luat-pccc-cam-gi-phat-bao-nhieu-va-ai-duoc-doi-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "map/bai-do-xe/xe-may-do-chung-cho-voi-o-to-trong-gara-san-chung-hay-ham-cua-xe-bat-mo-o-to-lui-va-cach-dat-xe-cho-an-toan/index.html",
   "kind": "article"
  },
@@ -7797,6 +7833,10 @@
  },
  {
   "rel": "guide/mua-xe/xe-may-moi-nhung-da-nam-kho-hay-trung-bay-lau-lop-ac-quy-xang-cu-va-cao-su-doi-gi-nhin-gi-va-hoi-gi-truoc-khi-nhan/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-mua-sau-khi-cuoi-nhung-dang-ky-chi-ghi-ten-mot-nguoi-la-tai-san-chung-hay-rieng-khi-co-tranh-chap/index.html",
   "kind": "article"
  },
  {
