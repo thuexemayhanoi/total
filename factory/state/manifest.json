@@ -1808,6 +1808,18 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/bien-cam-co-hieu-luc-tu-dau-den-dau-va-bien-phu-ghi-gio-loai-xe-hay-ngoai-le-thay-doi-dieu-gi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/bien-cam-o-to-co-cam-xe-may-khong-phan-biet-bien-cam-xe-may-cam-xe-gan-may-va-cam-o-to-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/bien-cam-re-trai-co-cam-quay-dau-xe-khong-phan-biet-bien-cam-re-bien-cam-quay-dau-va-den-mui-ten-re-trai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "news/gia-xe/bien-dong-gia-xe/index.html",
   "kind": "article"
  },
@@ -1981,6 +1993,10 @@
  },
  {
   "rel": "wiki/dong-co/cam-bien-tren-xe-phun-xang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/cam-dung-xe-va-cam-do-xe-khac-nhau-the-nao-bien-cam-vach-vang-dut-vach-vang-lien-va-vach-chu-m-xe-buyt/index.html",
   "kind": "article"
  },
  {
@@ -4484,6 +4500,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/lan-danh-rieng-cho-xe-may-hoac-xe-buyt-bien-xanh-chu-tren-mat-duong-va-vach-net-dut-net-lien-nghia-la-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/lan-dau-doi-tu-xe-may-xang-sang-xe-may-dien-ga-nhay-khong-tieng-may-phanh-khac-va-thoi-quen-sac-thay-cho-ghe-cay-xang/index.html",
   "kind": "article"
  },
@@ -4984,6 +5004,14 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/mua-xe-may-qua-mang-khi-chua-xem-xe-ban-sai-hoac-thieu-thong-tin-thi-duoc-cham-dut-hop-dong-trong-may-ngay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/mua-xe-may-tra-cham-hoac-tra-dan-cho-nguoi-ban-bo-luat-dan-su-bat-lap-van-ban-khong-va-ai-giu-quyen-so-huu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-mua-xe/mua-xe-tra-gop/index.html",
   "kind": "article"
  },
@@ -5389,6 +5417,10 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/o-to-dung-don-tra-khach-va-cua-xe-mo-bat-ngo-khi-di-xe-may/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "ride/an-toan-giao-thong/o-vach-vang-mat-vong-o-nga-tu-va-vung-vach-cheo-trang-xe-may-co-duoc-dung-hoac-di-vao-khong/index.html",
   "kind": "article"
  },
  {
@@ -7356,6 +7388,10 @@
   "kind": "article"
  },
  {
+  "rel": "ride/an-toan-giao-thong/vach-lien-vach-dut-va-vach-doi-xe-may-duoc-de-vach-sang-lan-nguoc-chieu-hoac-chuyen-lan-khi-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/bao-duong-dinh-ky/vai-ngay-sau-khi-tho-lam-xong-soi-lai-xe-tai-nha-nhung-dieu-chi-lo-ra-khi-xe-da-qua-dem-va-chay-that/index.html",
   "kind": "article"
  },
@@ -7929,6 +7965,10 @@
  },
  {
   "rel": "learn/kien-thuc-phap-ly/xe-may-mua-sau-khi-cuoi-nhung-dang-ky-chi-ghi-ten-mot-nguoi-la-tai-san-chung-hay-rieng-khi-co-tranh-chap/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-mua-ve-bi-nguoi-thu-ba-doi-hoac-tranh-chap-nguoi-ban-phai-bao-dam-gi-va-nguoi-mua-biet-truoc-thi-sao/index.html",
   "kind": "article"
  },
  {
