@@ -32339,11 +32339,13 @@
    "title": "Thuê xe máy bị giữ căn cước hoặc hộ chiếu làm tin: luật cấm giữ trái quy định, cầm cố và mức phạt thế nào?",
    "primaryIntent": "informational/thue-xe-may-bi-giu-can-cuoc-hoac-ho-chieu-lam-tin-luat-cam-giu-trai-quy-dinh-cam-co-va-muc-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002397",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:14.042Z",
-   "updatedAt": "2026-10-25T00:53:14.042Z"
+   "updatedAt": "2026-10-25T03:07:56.071Z",
+   "seoScore": 100,
+   "words": 3370
   },
   {
    "id": "S02201",
@@ -32352,11 +32354,13 @@
    "title": "Dùng căn cước hoặc tài khoản định danh điện tử của người khác để thuê xe máy: luật cấm gì và phạt bao nhiêu?",
    "primaryIntent": "informational/dung-can-cuoc-hoac-tai-khoan-dinh-danh-dien-tu-cua-nguoi-khac-de-thue-xe-may-luat-cam-gi-va-muc-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002398",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:18.838Z",
-   "updatedAt": "2026-10-25T00:53:18.838Z"
+   "updatedAt": "2026-10-25T03:07:56.070Z",
+   "seoScore": 100,
+   "words": 3427
   },
   {
    "id": "S02202",
@@ -32365,11 +32369,13 @@
    "title": "Mất thẻ căn cước khi đang thuê xe hoặc đi đường: cấp lại ở đâu, mấy ngày, lệ phí và khóa căn cước điện tử?",
    "primaryIntent": "informational/mat-the-can-cuoc-khi-dang-thue-xe-hoac-di-duong-cap-lai-o-dau-trong-bao-nhieu-ngay-le-phi-va-khoa-can-cuoc-dien-tu",
    "notes": "source=topic-v2 topicId=T002399",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:23.561Z",
-   "updatedAt": "2026-10-25T00:53:23.562Z"
+   "updatedAt": "2026-10-25T03:07:56.071Z",
+   "seoScore": 100,
+   "words": 3536
   },
   {
    "id": "S02203",
@@ -32378,11 +32384,13 @@
    "title": "Chứng minh nhân dân và thẻ căn cước công dân cũ còn dùng được đến khi nào, có bắt buộc đổi sang thẻ căn cước?",
    "primaryIntent": "informational/chung-minh-nhan-dan-va-the-can-cuoc-cong-dan-cu-con-dung-duoc-den-khi-nao-co-bat-buoc-doi-sang-the-can-cuoc-khong",
    "notes": "source=topic-v2 topicId=T002400",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:28.179Z",
-   "updatedAt": "2026-10-25T00:53:28.180Z"
+   "updatedAt": "2026-10-25T03:07:56.070Z",
+   "seoScore": 100,
+   "words": 3677
   },
   {
    "id": "S02204",
@@ -32391,11 +32399,13 @@
    "title": "Tiệm thuê xe chụp ảnh căn cước và bằng lái của khách: cần sự đồng ý nào, ảnh căn cước là dữ liệu loại gì?",
    "primaryIntent": "informational/tiem-thue-xe-chup-anh-can-cuoc-va-bang-lai-cua-khach-can-su-dong-y-the-nao-va-anh-can-cuoc-thuoc-nhom-du-lieu-nao",
    "notes": "source=topic-v2 topicId=T002401",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:32.798Z",
-   "updatedAt": "2026-10-25T00:53:32.798Z"
+   "updatedAt": "2026-10-25T03:07:56.071Z",
+   "seoScore": 100,
+   "words": 3694
   },
   {
    "id": "S02205",
@@ -32469,11 +32479,13 @@
    "title": "Khiếu nại hoặc khởi kiện phạt giao thông chưa xong: vẫn phải nộp phạt hay được tạm đình chỉ thi hành?",
    "primaryIntent": "informational/khieu-nai-hoac-khoi-kien-phat-giao-thong-chua-xong-van-phai-nop-phat-hay-duoc-tam-dinh-chi-thi-hanh",
    "notes": "source=topic-v2 topicId=T002407",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:00.595Z",
-   "updatedAt": "2026-10-25T00:54:00.595Z"
+   "updatedAt": "2026-10-25T03:07:56.070Z",
+   "seoScore": 100,
+   "words": 3767
   },
   {
    "id": "S02211",
@@ -32482,11 +32494,13 @@
    "title": "Kiện ra Tòa án hành chính vì bị phạt giao thông: thời hiệu bao lâu, Tòa nào xử và có cần khiếu nại trước?",
    "primaryIntent": "informational/kien-ra-toa-an-hanh-chinh-vi-bi-phat-giao-thong-thoi-hieu-bao-lau-toa-nao-xu-va-co-can-khieu-nai-truoc",
    "notes": "source=topic-v2 topicId=T002408",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:05.177Z",
-   "updatedAt": "2026-10-25T00:54:05.177Z"
+   "updatedAt": "2026-10-25T03:07:56.070Z",
+   "seoScore": 100,
+   "words": 3811
   },
   {
    "id": "S02212",
@@ -32495,11 +32509,13 @@
    "title": "Quyết định xử phạt giao thông sai sót hoặc phạt nhầm người: khi nào phải hủy, khi nào chỉ đính chính hay sửa?",
    "primaryIntent": "informational/quyet-dinh-xu-phat-giao-thong-sai-sot-hoac-phat-nham-nguoi-khi-nao-phai-huy-khi-nao-chi-dinh-chinh-hay-sua",
    "notes": "source=topic-v2 topicId=T002409",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:09.729Z",
-   "updatedAt": "2026-10-25T00:54:09.729Z"
+   "updatedAt": "2026-10-25T03:07:56.071Z",
+   "seoScore": 100,
+   "words": 3497
   },
   {
    "id": "S02213",
@@ -32508,11 +32524,13 @@
    "title": "Giấy ủy quyền xe máy không ghi thời hạn: hiệu lực mấy năm, ủy quyền lại và chấm dứt ủy quyền thế nào?",
    "primaryIntent": "informational/giay-uy-quyen-xe-may-khong-ghi-thoi-han-hieu-luc-may-nam-uy-quyen-lai-va-cham-dut-uy-quyen-the-nao",
    "notes": "source=topic-v2 topicId=T002410",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:14.469Z",
-   "updatedAt": "2026-10-25T00:54:14.469Z"
+   "updatedAt": "2026-10-25T03:07:56.070Z",
+   "seoScore": 100,
+   "words": 3596
   },
   {
    "id": "S02214",
