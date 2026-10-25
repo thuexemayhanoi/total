@@ -33708,11 +33708,13 @@
    "title": "Doanh thu cho thuê xe máy để tính thuế gồm khoản nào: tiền thuê trả trước nhiều năm, phụ thu, bồi thường?",
    "primaryIntent": "informational/doanh-thu-cho-thue-xe-may-de-tinh-thue-gom-khoan-nao-tien-thue-tra-truoc-nhieu-nam-phu-thu-va-tien-boi-thuong",
    "notes": "source=topic-v2 topicId=T002488",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:16.436Z",
-   "updatedAt": "2026-10-25T15:07:16.436Z"
+   "updatedAt": "2026-10-25T18:31:53.820Z",
+   "seoScore": 100,
+   "words": 3645
   },
   {
    "id": "S02292",
@@ -33721,11 +33723,13 @@
    "title": "Hộ từng nộp thuế khoán cho thuê xe máy: từ 2026 hết khoán, hết môn bài và các năm cũ có bị tính lại không?",
    "primaryIntent": "informational/ho-cho-thue-xe-may-tung-nop-thue-khoan-tu-2026-het-khoan-het-mon-bai-va-cac-nam-cu-co-bi-tinh-lai-khong",
    "notes": "source=topic-v2 topicId=T002489",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:21.621Z",
-   "updatedAt": "2026-10-25T15:07:21.621Z"
+   "updatedAt": "2026-10-25T18:31:53.820Z",
+   "seoScore": 100,
+   "words": 3640
   },
   {
    "id": "S02293",
@@ -33734,11 +33738,13 @@
    "title": "Sạc xe máy điện ở nhà có bị tính giá điện riêng không? Thông tư 60/2025 nói gì và đã áp dụng chưa?",
    "primaryIntent": "informational/sac-xe-may-dien-o-nha-co-bi-tinh-gia-dien-rieng-khong-thong-tu-60-2025-noi-gi-va-da-ap-dung-chua",
    "notes": "source=topic-v2 topicId=T002490",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:26.954Z",
-   "updatedAt": "2026-10-25T15:07:26.954Z"
+   "updatedAt": "2026-10-25T18:31:53.820Z",
+   "seoScore": 100,
+   "words": 3672
   },
   {
    "id": "S02294",
