@@ -32909,11 +32909,13 @@
    "title": "Mua phải xe máy không giấy tờ hoặc xe do người khác phạm tội mà có: tội chứa chấp, tiêu thụ ở Điều 323 nói gì?",
    "primaryIntent": "informational/mua-phai-xe-may-khong-giay-to-hoac-xe-do-nguoi-khac-pham-toi-ma-co-toi-chua-chap-tieu-thu-o-dieu-323-noi-gi",
    "notes": "source=topic-v2 topicId=T002435",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:25:13.045Z",
-   "updatedAt": "2026-10-25T04:25:13.045Z"
+   "updatedAt": "2026-10-25T07:02:31.915Z",
+   "seoScore": 100,
+   "words": 3668
   },
   {
    "id": "S02239",
@@ -32922,11 +32924,13 @@
    "title": "Xe máy bị chiếm đoạt rồi được thu hồi làm vật chứng: chủ xe nhận lại khi nào, ai quyết định và xe được bảo quản ra sao?",
    "primaryIntent": "informational/xe-may-bi-chiem-doat-roi-duoc-thu-hoi-lam-vat-chung-chu-xe-nhan-lai-khi-nao-ai-quyet-dinh-va-xe-duoc-bao-quan-ra-sao",
    "notes": "source=topic-v2 topicId=T002436",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:25:17.641Z",
-   "updatedAt": "2026-10-25T04:25:17.641Z"
+   "updatedAt": "2026-10-25T07:02:31.915Z",
+   "seoScore": 100,
+   "words": 3920
   },
   {
    "id": "S02240",
@@ -32935,11 +32939,13 @@
    "title": "Gửi xe máy ở bãi, quán hay nhà người quen rồi bị mất: bên giữ xe có phải bồi thường theo Bộ luật Dân sự không?",
    "primaryIntent": "informational/gui-xe-may-o-bai-quan-hay-nha-nguoi-quen-roi-bi-mat-ben-giu-xe-co-phai-boi-thuong-theo-bo-luat-dan-su-khong",
    "notes": "source=topic-v2 topicId=T002437",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:25:22.435Z",
-   "updatedAt": "2026-10-25T04:25:22.436Z"
+   "updatedAt": "2026-10-25T07:02:31.914Z",
+   "seoScore": 100,
+   "words": 3315
   }
  ]
 }
