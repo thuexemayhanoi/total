@@ -1712,6 +1712,18 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/bao-hiem-xe-may-bat-buoc-boi-thuong-cho-ai-va-toi-da-bao-nhieu-cho-nguoi-bi-nan-va-cho-tai-san/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/bao-hiem-xe-may-bat-buoc-mua-toi-thieu-toi-da-may-nam-mua-trung-hai-hop-dong-va-doi-chu-xe-thi-sao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/bao-hiem-xe-may-bat-buoc-tinh-tien-boi-thuong-the-nao-ty-le-ton-thuong-muc-do-loi-va-tien-duoc-chi-cho-ai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/bao-tay-gan-tay-lai-xe-may-giu-am-che-nang-va-khong-can-phanh/index.html",
   "kind": "article"
  },
@@ -2529,6 +2541,10 @@
  },
  {
   "rel": "wiki/dien-xe/coi-xe/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/con-chua-thanh-nien-chay-xe-may-gay-tai-nan-cha-me-co-phai-boi-thuong-theo-bo-luat-dan-su-khong/index.html",
   "kind": "article"
  },
  {
@@ -3684,6 +3700,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/gay-tai-nan-xe-may-bao-cong-ty-bao-hiem-trong-bao-lau-khi-nao-duoc-tam-ung-han-nop-ho-so-va-han-tra-tien/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/ghe-ngoi-gan-xe-may-va-dai-deo-cho-tre-nho-kiem-tra-gi-truoc-khi-dung/index.html",
   "kind": "article"
  },
@@ -4092,6 +4112,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/thu-tuc-xe/ho-so-yeu-cau-boi-thuong-bao-hiem-xe-may-bat-buoc-gom-nhung-giay-to-gi-va-ai-phai-gom-tung-loai/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "wiki/dong-co/hoa-khi-dam-va-hoa-khi-ngheo-tren-xe-may-la-gi-xang-nhieu-hay-gio-nhieu-dau-hieu-nhan-ra-va-dieu-gi-lam-lech/index.html",
   "kind": "article"
  },
@@ -4137,6 +4161,10 @@
  },
  {
   "rel": "docs/bieu-mau-thu-tuc/hop-dong-thue-xe-mau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/hop-dong-thue-xe-may-in-san-ghi-mien-trach-nhiem-cho-chu-xe-hoac-kho-hieu-bo-luat-dan-su-noi-gi/index.html",
   "kind": "article"
  },
  {
@@ -5204,6 +5232,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/nhung-truong-hop-bao-hiem-xe-may-bat-buoc-khong-boi-thuong-khong-co-bang-lai-nong-do-con-bo-chay/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/checklist/nhuong-han-xe-may-cho-nguoi-nha-dung-lau-dai-kiem-an-toan-dan-tinh-net-xe-trao-chia-va-hoi-tham-sau-it-tuan/index.html",
   "kind": "article"
  },
@@ -5341,6 +5373,10 @@
  },
  {
   "rel": "guide/thu-tuc-xe/phat-nguoi-xe-may-thong-bao-bang-cach-nao-chu-xe-phai-lam-gi-va-ket-qua-camera-dung-duoc-bao-lau/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/phi-bao-hiem-xe-may-bat-buoc-mot-nam-la-bao-nhieu-theo-tung-loai-xe-va-duoc-tang-giam-toi-da-bao-nhieu/index.html",
   "kind": "article"
  },
  {
@@ -7417,6 +7453,10 @@
  },
  {
   "rel": "moto/xe-ga/xe-ga/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xe-gay-tai-nan-bo-chay-hoac-khong-co-bao-hiem-quy-bao-hiem-xe-co-gioi-ho-tro-nhan-dao-nguoi-bi-nan-the-nao/index.html",
   "kind": "article"
  },
  {

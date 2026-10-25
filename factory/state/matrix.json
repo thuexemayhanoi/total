@@ -31814,11 +31814,13 @@
    "title": "Con chưa thành niên chạy xe máy gây tai nạn: cha mẹ có phải bồi thường theo Bộ luật Dân sự không?",
    "primaryIntent": "informational/con-chua-thanh-nien-chay-xe-may-gay-tai-nan-cha-me-co-phai-boi-thuong-theo-bo-luat-dan-su-khong",
    "notes": "source=topic-v2 topicId=T002359",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:45.526Z",
-   "updatedAt": "2026-10-24T18:07:45.526Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3459
   },
   {
    "id": "S02166",
@@ -31827,11 +31829,13 @@
    "title": "Hợp đồng thuê xe máy in sẵn ghi miễn trách nhiệm cho chủ xe hoặc khó hiểu: Bộ luật Dân sự nói gì?",
    "primaryIntent": "informational/hop-dong-thue-xe-may-in-san-ghi-mien-trach-nhiem-cho-chu-xe-hoac-kho-hieu-bo-luat-dan-su-noi-gi",
    "notes": "source=topic-v2 topicId=T002360",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:50.141Z",
-   "updatedAt": "2026-10-24T18:07:50.141Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3631
   },
   {
    "id": "S02167",
@@ -31840,11 +31844,13 @@
    "title": "Bảo hiểm xe máy bắt buộc bồi thường cho ai và tối đa bao nhiêu cho người bị nạn và cho tài sản?",
    "primaryIntent": "informational/bao-hiem-xe-may-bat-buoc-boi-thuong-cho-ai-va-toi-da-bao-nhieu-cho-nguoi-bi-nan-va-cho-tai-san",
    "notes": "source=topic-v2 topicId=T002361",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:07:57.030Z",
-   "updatedAt": "2026-10-24T18:07:57.031Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3507
   },
   {
    "id": "S02168",
@@ -31853,11 +31859,13 @@
    "title": "Những trường hợp bảo hiểm xe máy bắt buộc không bồi thường: không có bằng lái, nồng độ cồn, bỏ chạy",
    "primaryIntent": "informational/nhung-truong-hop-bao-hiem-xe-may-bat-buoc-khong-boi-thuong-khong-co-bang-lai-nong-do-con-bo-chay",
    "notes": "source=topic-v2 topicId=T002362",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:08:04.416Z",
-   "updatedAt": "2026-10-24T18:08:04.416Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3631
   },
   {
    "id": "S02169",
@@ -31866,11 +31874,13 @@
    "title": "Xe gây tai nạn bỏ chạy hoặc không có bảo hiểm: Quỹ bảo hiểm xe cơ giới hỗ trợ nhân đạo người bị nạn thế nào?",
    "primaryIntent": "informational/xe-gay-tai-nan-bo-chay-hoac-khong-co-bao-hiem-quy-bao-hiem-xe-co-gioi-ho-tro-nhan-dao-nguoi-bi-nan-the-nao",
    "notes": "source=topic-v2 topicId=T002363",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:08:11.769Z",
-   "updatedAt": "2026-10-24T18:08:11.769Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3759
   },
   {
    "id": "S02170",
@@ -31879,11 +31889,13 @@
    "title": "Gây tai nạn xe máy: báo công ty bảo hiểm trong bao lâu, khi nào được tạm ứng, hạn nộp hồ sơ và hạn trả tiền?",
    "primaryIntent": "informational/gay-tai-nan-xe-may-bao-cong-ty-bao-hiem-trong-bao-lau-khi-nao-duoc-tam-ung-han-nop-ho-so-va-han-tra-tien",
    "notes": "source=topic-v2 topicId=T002364",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:08:18.738Z",
-   "updatedAt": "2026-10-24T18:08:18.739Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3626
   },
   {
    "id": "S02171",
@@ -31892,11 +31904,13 @@
    "title": "Hồ sơ yêu cầu bồi thường bảo hiểm xe máy bắt buộc gồm những giấy tờ gì và ai phải gom từng loại?",
    "primaryIntent": "informational/ho-so-yeu-cau-boi-thuong-bao-hiem-xe-may-bat-buoc-gom-nhung-giay-to-gi-va-ai-phai-gom-tung-loai",
    "notes": "source=topic-v2 topicId=T002365",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:08:25.924Z",
-   "updatedAt": "2026-10-24T18:08:25.925Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3473
   },
   {
    "id": "S02172",
@@ -31905,11 +31919,13 @@
    "title": "Bảo hiểm xe máy bắt buộc tính tiền bồi thường thế nào: tỷ lệ tổn thương, mức độ lỗi và tiền được chi cho ai?",
    "primaryIntent": "informational/bao-hiem-xe-may-bat-buoc-tinh-tien-boi-thuong-the-nao-ty-le-ton-thuong-muc-do-loi-va-tien-duoc-chi-cho-ai",
    "notes": "source=topic-v2 topicId=T002366",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:08:32.808Z",
-   "updatedAt": "2026-10-24T18:08:32.809Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3638
   },
   {
    "id": "S02173",
@@ -31918,11 +31934,13 @@
    "title": "Phí bảo hiểm xe máy bắt buộc một năm là bao nhiêu theo từng loại xe và được tăng, giảm tối đa bao nhiêu?",
    "primaryIntent": "informational/phi-bao-hiem-xe-may-bat-buoc-mot-nam-la-bao-nhieu-theo-tung-loai-xe-va-duoc-tang-giam-toi-da-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002367",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:08:40.018Z",
-   "updatedAt": "2026-10-24T18:08:40.019Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3734
   },
   {
    "id": "S02174",
@@ -31931,11 +31949,13 @@
    "title": "Bảo hiểm xe máy bắt buộc mua tối thiểu, tối đa mấy năm, mua trùng hai hợp đồng và đổi chủ xe thì sao?",
    "primaryIntent": "informational/bao-hiem-xe-may-bat-buoc-mua-toi-thieu-toi-da-may-nam-mua-trung-hai-hop-dong-va-doi-chu-xe-thi-sao",
    "notes": "source=topic-v2 topicId=T002368",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T18:08:44.930Z",
-   "updatedAt": "2026-10-24T18:08:44.930Z"
+   "updatedAt": "2026-10-25T00:19:57.013Z",
+   "seoScore": 100,
+   "words": 3644
   },
   {
    "id": "S02175",
