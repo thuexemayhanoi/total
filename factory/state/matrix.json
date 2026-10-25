@@ -32759,11 +32759,13 @@
    "title": "Sạc xe điện trong nhà: Luật PCCC yêu cầu gì về bộ sạc, nơi sạc và khu sạc tập trung, phạt bao nhiêu?",
    "primaryIntent": "informational/sac-xe-dien-trong-nha-luat-pccc-doi-gi-ve-bo-sac-noi-sac-va-khu-sac-tap-trung-thieu-ngan-chay-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002425",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:25.463Z",
-   "updatedAt": "2026-10-25T04:24:25.463Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3494
   },
   {
    "id": "S02229",
@@ -32772,11 +32774,13 @@
    "title": "Thuê trọ, mượn hoặc ở nhờ nhà: chủ nhà và người thuê ai lo phòng cháy khi để xe máy, sạc xe điện?",
    "primaryIntent": "informational/thue-tro-muon-hoac-o-nho-nha-chu-nha-va-nguoi-thue-ai-lo-phong-chay-khi-de-xe-may-sac-xe-dien",
    "notes": "source=topic-v2 topicId=T002426",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:30.293Z",
-   "updatedAt": "2026-10-25T04:24:30.293Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3637
   },
   {
    "id": "S02230",
@@ -32785,11 +32789,13 @@
    "title": "Chung cư phải có khu vực để xe điện và sạc riêng từ 15/12/2026? Quy chuẩn mới nói gì, chung cư đang ở ra sao",
    "primaryIntent": "informational/chung-cu-phai-co-khu-vuc-de-xe-dien-va-sac-rieng-tu-15-12-2026-quy-chuan-moi-noi-gi-chung-cu-dang-o-ra-sao",
    "notes": "source=topic-v2 topicId=T002427",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:34.893Z",
-   "updatedAt": "2026-10-25T04:24:34.893Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3492
   },
   {
    "id": "S02231",
@@ -32798,11 +32804,13 @@
    "title": "Chỗ để xe máy ở nhà chung cư thuộc sở hữu chung hay của chủ đầu tư? Luật Nhà ở 2023 khác gì với chỗ để ô tô",
    "primaryIntent": "informational/cho-de-xe-may-o-nha-chung-cu-thuoc-so-huu-chung-hay-cua-chu-dau-tu-luat-nha-o-2023-khac-gi-voi-cho-de-o-to",
    "notes": "source=topic-v2 topicId=T002428",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:39.616Z",
-   "updatedAt": "2026-10-25T04:24:39.616Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3607
   },
   {
    "id": "S02232",
@@ -32811,11 +32819,13 @@
    "title": "Sửa xe máy hoặc mở dịch vụ xe trong căn hộ chung cư, nhà ở riêng lẻ: Luật Nhà ở cấm hành vi nào?",
    "primaryIntent": "informational/sua-xe-may-hoac-mo-dich-vu-xe-trong-can-ho-chung-cu-nha-o-rieng-le-luat-nha-o-cam-hanh-vi-nao",
    "notes": "source=topic-v2 topicId=T002429",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:44.379Z",
-   "updatedAt": "2026-10-25T04:24:44.379Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3515
   },
   {
    "id": "S02233",
@@ -32824,11 +32834,13 @@
    "title": "Bị mất xe máy: báo bằng lời hay bằng văn bản, nơi nào phải tiếp nhận và có được từ chối nhận tố giác không?",
    "primaryIntent": "informational/bi-mat-xe-may-bao-bang-loi-hay-bang-van-ban-noi-nao-phai-tiep-nhan-va-co-duoc-tu-choi-nhan-to-giac-khong",
    "notes": "source=topic-v2 topicId=T002430",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:49.119Z",
-   "updatedAt": "2026-10-25T04:24:49.119Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3626
   },
   {
    "id": "S02234",
@@ -32837,11 +32849,13 @@
    "title": "Đã báo mất xe máy: Cơ quan điều tra phải kiểm tra, xác minh trong mấy ngày và khi nào được kéo dài hoặc tạm đình chỉ?",
    "primaryIntent": "informational/da-bao-mat-xe-may-co-quan-dieu-tra-phai-kiem-tra-xac-minh-trong-may-ngay-va-khi-nao-duoc-keo-dai-hoac-tam-dinh-chi",
    "notes": "source=topic-v2 topicId=T002431",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:53.762Z",
-   "updatedAt": "2026-10-25T04:24:53.762Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3594
   },
   {
    "id": "S02235",
@@ -32850,11 +32864,13 @@
    "title": "Báo mất xe máy mà nhận quyết định không khởi tố: người báo được thông báo gì, khiếu nại trong mấy ngày và gửi ai?",
    "primaryIntent": "informational/bao-mat-xe-may-ma-nhan-quyet-dinh-khong-khoi-to-nguoi-bao-duoc-thong-bao-gi-khieu-nai-trong-may-ngay-va-gui-ai",
    "notes": "source=topic-v2 topicId=T002432",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:24:58.665Z",
-   "updatedAt": "2026-10-25T04:24:58.665Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3712
   },
   {
    "id": "S02236",
@@ -32863,11 +32879,13 @@
    "title": "Nhặt được xe máy hoặc đồ người khác đánh rơi, bỏ quên: trả lại hay giao nộp ở đâu và sau 01 năm tài sản thuộc ai?",
    "primaryIntent": "informational/nhat-duoc-xe-may-hoac-do-nguoi-khac-danh-roi-bo-quen-tra-lai-hay-giao-nop-o-dau-va-sau-01-nam-tai-san-thuoc-ai",
    "notes": "source=topic-v2 topicId=T002433",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:25:03.513Z",
-   "updatedAt": "2026-10-25T04:25:03.513Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3700
   },
   {
    "id": "S02237",
@@ -32876,11 +32894,13 @@
    "title": "Giữ xe máy hoặc tài sản nhặt được, bị giao nhầm mà không trả khi chủ đòi: Điều 176 Bộ luật Hình sự quy định gì?",
    "primaryIntent": "informational/giu-xe-may-hoac-tai-san-nhat-duoc-bi-giao-nham-ma-khong-tra-khi-chu-doi-dieu-176-bo-luat-hinh-su-quy-dinh-gi",
    "notes": "source=topic-v2 topicId=T002434",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T04:25:08.147Z",
-   "updatedAt": "2026-10-25T04:25:08.147Z"
+   "updatedAt": "2026-10-25T07:01:56.955Z",
+   "seoScore": 100,
+   "words": 3652
   },
   {
    "id": "S02238",
