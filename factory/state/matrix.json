@@ -32414,11 +32414,13 @@
    "title": "Trả xe rồi tiệm vẫn giữ ảnh căn cước: yêu cầu xóa hoặc rút lại đồng ý thế nào, tiệm phải trả lời mấy ngày?",
    "primaryIntent": "informational/tra-xe-may-roi-tiem-van-giu-anh-can-cuoc-cua-khach-yeu-cau-xoa-hoac-rut-lai-su-dong-y-the-nao-va-tiem-phai-tra-loi-trong-bao-lau",
    "notes": "source=topic-v2 topicId=T002402",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:37.517Z",
-   "updatedAt": "2026-10-25T00:53:37.518Z"
+   "updatedAt": "2026-10-25T03:37:29.738Z",
+   "seoScore": 100,
+   "words": 3789
   },
   {
    "id": "S02206",
@@ -32427,11 +32429,13 @@
    "title": "Chủ xe gắn thiết bị định vị lên xe cho thuê: có cần người thuê đồng ý không và Nghị định 330 phạt bao nhiêu?",
    "primaryIntent": "informational/chu-xe-gan-thiet-bi-dinh-vi-len-xe-cho-thue-luat-bao-ve-du-lieu-ca-nhan-doi-su-dong-y-nao-va-nghi-dinh-330-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002403",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:42.205Z",
-   "updatedAt": "2026-10-25T00:53:42.205Z"
+   "updatedAt": "2026-10-25T03:37:29.738Z",
+   "seoScore": 100,
+   "words": 3769
   },
   {
    "id": "S02207",
@@ -32440,11 +32444,13 @@
    "title": "Quay camera hành trình trên xe máy rồi đăng video có hình người, biển số: Luật Bảo vệ dữ liệu cá nhân nói gì?",
    "primaryIntent": "informational/quay-camera-hanh-trinh-tren-xe-may-roi-dang-video-co-hinh-nguoi-va-bien-so-luat-bao-ve-du-lieu-ca-nhan-noi-gi",
    "notes": "source=topic-v2 topicId=T002404",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:46.943Z",
-   "updatedAt": "2026-10-25T00:53:46.944Z"
+   "updatedAt": "2026-10-25T03:37:29.738Z",
+   "seoScore": 100,
+   "words": 3815
   },
   {
    "id": "S02208",
@@ -32453,11 +32459,13 @@
    "title": "Bị phạt giao thông mà thấy không đúng: khiếu nại trong bao lâu, gửi cho ai và đơn khiếu nại cần ghi những gì?",
    "primaryIntent": "informational/bi-phat-giao-thong-ma-thay-khong-dung-khieu-nai-trong-bao-lau-gui-cho-ai-va-don-khieu-nai-can-ghi-nhung-gi",
    "notes": "source=topic-v2 topicId=T002405",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:51.549Z",
-   "updatedAt": "2026-10-25T00:53:51.550Z"
+   "updatedAt": "2026-10-25T03:37:29.738Z",
+   "seoScore": 100,
+   "words": 3812
   },
   {
    "id": "S02209",
@@ -32466,11 +32474,13 @@
    "title": "Khiếu nại phạt giao thông lần đầu: cơ quan thụ lý trong mấy ngày và bao lâu thì phải có kết quả?",
    "primaryIntent": "informational/khieu-nai-phat-giao-thong-lan-dau-co-quan-thu-ly-trong-may-ngay-va-bao-lau-thi-phai-co-ket-qua",
    "notes": "source=topic-v2 topicId=T002406",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:53:56.058Z",
-   "updatedAt": "2026-10-25T00:53:56.059Z"
+   "updatedAt": "2026-10-25T03:37:29.738Z",
+   "seoScore": 100,
+   "words": 3447
   },
   {
    "id": "S02210",
