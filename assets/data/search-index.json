@@ -49840,6 +49840,42 @@
  },
  {
   "kind": "article",
+  "url": "docs/tai-lieu-tham-khao/thong-bao-trieu-hoi-xe-may-xac-nhan-tin-that-kiem-tra-xe-minh-co-thuoc-dien-khong-va-viec-nen-lam-trong-luc-cho/",
+  "title": "Thông báo triệu hồi xe máy: xác nhận tin thật, kiểm tra xe mình có thuộc diện không và việc nên làm trong lúc chờ",
+  "description": "Nhận tin triệu hồi xe máy: cách xác nhận thông báo thật, đối chiếu dòng xe và số khung, việc nên làm trong lúc chờ lịch và hỏi gì khi mang xe đến.",
+  "category": "Tài liệu",
+  "hub": "Tài liệu tham khảo",
+  "entities": [
+   "triệu hồi xe máy",
+   "thông báo triệu hồi",
+   "đại lý ủy quyền",
+   "số khung",
+   "đời xe và phiên bản",
+   "kênh thông báo chính thức",
+   "tin nhắn giả mạo",
+   "mã xác nhận một lần",
+   "phiếu tiếp nhận và hoàn tất"
+  ],
+  "keywords": [
+   "triệu hồi xe máy",
+   "thông báo triệu hồi xe máy thật hay giả",
+   "kiểm tra xe có bị triệu hồi không",
+   "tra số khung xe máy triệu hồi",
+   "xe máy bị triệu hồi có nên chạy tiếp"
+  ],
+  "seoTitle": "Triệu hồi xe máy: xác nhận tin thật, xe mình có thuộc diện không",
+  "primaryKeyword": "triệu hồi xe máy",
+  "headings": [
+   "Triệu hồi xe máy là gì và khác gì với một đợt bảo dưỡng thường",
+   "Xác nhận thông báo là thật trước khi làm theo",
+   "Đối chiếu dòng xe, đời xe và số khung để biết xe mình có thuộc diện không",
+   "Trong lúc chờ lịch: đọc dấu hiệu lỗi và quyết định có nên dùng xe",
+   "Khi mang xe đến: hỏi gì, ghi gì và theo dõi sau khi xử lý"
+  ],
+  "summary": "Bạn nghe nói dòng xe mình đang bị triệu hồi, hoặc nhận một tin nhắn, một cuộc gọi, một lá thư báo như vậy. Câu hỏi dồn dập cùng lúc: tin này thật hay giả, xe mình có nằm trong diện không, phải mang đến đâu, và trong lúc chưa kịp đi thì có nên chạy tiếp hay khô"
+ },
+ {
+  "kind": "article",
   "url": "docs/thong-so-ky-thuat/thong-so-dong-co/",
   "title": "Tổng hợp kiến thức: thông số động cơ",
   "description": "Tổng hợp kiến thức về thông số động cơ xe máy: dung tích, hành trình piston, tỷ số nén, làm mát, xupap, phun xăng điện tử và ý nghĩa từng thông số với người cưỡi xe.",
@@ -64529,6 +64565,43 @@
    "Mô tả cho thợ và lúc giao thợ"
   ],
   "summary": "Bài hướng dẫn phân loại vì sao xe máy hụt hơi, chạy ì khi lên dốc hoặc chở thêm người. Nội dung bắt đầu bằng cách so sánh xe với chính nó trong điều kiện tương tự, rồi loại trừ lốp non, phanh bó, tải nặng, gió ngược và dốc dài. Tiếp theo là nhóm truyền động gồ"
+ },
+ {
+  "kind": "article",
+  "url": "hub/van-de-thuong-gap/xe-minh-co-loi-ma-nghe-nguoi-cung-dong-cung-gap-loi-chung-cua-dong-xe-hay-hong-rieng-hoi-ai-va-ghi-gi-cho-ro/",
+  "title": "Xe mình có lỗi mà nghe người cùng dòng cũng gặp: lỗi chung của dòng xe hay hỏng riêng, hỏi ai và ghi gì cho rõ",
+  "description": "Xe có lỗi mà nghe người cùng dòng cũng gặp: cách phân biệt đặc tính bình thường, điểm yếu chung và hỏng riêng, hỏi ai trước và ghi triệu chứng sao cho rõ.",
+  "category": "Trung tâm chủ đề",
+  "hub": "Vấn đề thường gặp",
+  "entities": [
+   "lỗi chung của dòng xe",
+   "điểm yếu chung của dòng xe",
+   "đặc tính bình thường của xe",
+   "hỏng riêng của xe",
+   "thợ lâu năm",
+   "nơi bảo hành và đại lý ủy quyền",
+   "nhóm chủ xe trên mạng",
+   "nhật ký triệu chứng",
+   "lịch sử bảo dưỡng",
+   "mẹo truyền miệng"
+  ],
+  "keywords": [
+   "lỗi chung của dòng xe",
+   "xe cùng dòng hay bị lỗi",
+   "lỗi chung hay hỏng riêng",
+   "hỏi ai khi xe có lỗi lặp lại",
+   "ghi triệu chứng xe máy cho thợ"
+  ],
+  "seoTitle": "Lỗi chung của dòng xe hay hỏng riêng: hỏi ai và ghi gì cho rõ",
+  "primaryKeyword": "lỗi chung của dòng xe",
+  "headings": [
+   "Vì sao nhiều xe cùng dòng hay gặp chung một lỗi",
+   "Phân biệt đặc tính bình thường, điểm yếu chung và hỏng riêng của xe mình",
+   "Hỏi ai trước: thợ lâu năm, nơi bảo hành rồi mới đến nhóm chủ xe trên mạng",
+   "Ghi triệu chứng và lịch sử xe để so sánh công bằng với người khác",
+   "Khi đúng là lỗi chung: sửa sớm, hỏi hãng về cải tiến và tránh mẹo truyền miệng"
+  ],
+  "summary": "Xe bạn có một triệu chứng cứ lặp đi lặp lại, hỏi quanh thì thấy nhiều người cùng dòng cũng bị. Từ đó nảy ra câu hỏi khó chịu: đây là điểm yếu chung của dòng xe, một đặc tính vốn vậy mà mình chưa quen, hay chỉ là xe mình hỏng riêng. Bài này giải thích vì sao ng"
  },
  {
   "kind": "article",

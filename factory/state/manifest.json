@@ -6240,6 +6240,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/tai-lieu-tham-khao/thong-bao-trieu-hoi-xe-may-xac-nhan-tin-that-kiem-tra-xe-minh-co-thuoc-dien-khong-va-viec-nen-lam-trong-luc-cho/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/thong-so-ky-thuat/thong-so-dong-co/index.html",
   "kind": "article"
  },
@@ -8093,6 +8097,10 @@
  },
  {
   "rel": "garage/dong-co/xe-may-yeu-may-khong-boc-khi-leo-doc-hoac-cho-nang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "hub/van-de-thuong-gap/xe-minh-co-loi-ma-nghe-nguoi-cung-dong-cung-gap-loi-chung-cua-dong-xe-hay-hong-rieng-hoi-ai-va-ghi-gi-cho-ro/index.html",
   "kind": "article"
  },
  {
