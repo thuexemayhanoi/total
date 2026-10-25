@@ -2060,6 +2060,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/cap-cuu-sau-tai-nan-o-benh-vien-khong-dang-ky-bao-hiem-y-te-ban-dau-huong-muc-nao-va-luc-nao-xuat-trinh-the/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-xe-dien/cat-xe-may-dien-lau-ngay-khong-dung-de-pin-o-muc-lung-chung-sac-nhac-lai-chon-cho-de-va-kiem-gi-truoc-khi-dung-lai/index.html",
   "kind": "article"
  },
@@ -4964,6 +4968,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/mua-xe-may-cu-roi-moi-thay-khuyet-tat-bo-luat-dan-su-cho-doi-nguoi-ban-gi-va-khi-nao-nguoi-ban-duoc-mien/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/thu-tuc-xe/mua-xe-may-da-qua-nhieu-doi-chu-khong-co-giay-to-cua-chu-dung-ten-sang-ten-the-nao-theo-dieu-32-thong-tu-79/index.html",
   "kind": "article"
  },
@@ -5065,6 +5073,10 @@
  },
  {
   "rel": "ride/du-lich-xe-may/nghi-dem-doc-duong-khi-di-xe-may-duong-dai-chon-cho-ngu-giu-xe-va-cat-do/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/nghi-dieu-tri-sau-tai-nan-khi-di-lam-bang-xe-may-che-do-om-dau-nghi-may-ngay-va-nhan-bao-nhieu-phan-tram-luong/index.html",
   "kind": "article"
  },
  {
@@ -5912,6 +5924,14 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/tai-nan-di-lam-huong-che-do-tai-nan-lao-dong-khi-nao-tuyen-duong-hop-ly-suy-giam-tu-5-phan-tram-va-nguyen-nhan-bi-loai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/bieu-mau-thu-tuc/tai-nan-di-lam-khong-co-canh-sat-giao-thong-lap-bien-ban-xin-giay-xac-nhan-o-dau-va-don-ghi-nhung-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/kien-thuc-phap-ly/tai-nan-giao-thong-khong-dung-xe-khong-giup-nguoi-bi-nan-hoac-xoa-dau-vet-hien-truong-bi-phat-bao-nhieu/index.html",
   "kind": "article"
  },
@@ -5921,6 +5941,14 @@
  },
  {
   "rel": "ride/an-toan-giao-thong/tai-nan-lai-xay-ra-ngay-gan-nha-vi-sao-tuyen-quen-lam-nguoi-lo-la-va-thoi-quen-can-doi/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/tai-nan-lao-dong-cong-ty-nop-ho-so-cho-co-quan-bao-hiem-xa-hoi-trong-may-ngay-va-bao-lau-co-quyet-dinh/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/tai-nan-tren-duong-di-lam-do-nguoi-khac-gay-ra-hoac-khong-xac-dinh-duoc-nguoi-gay-ra-cong-ty-tro-cap-theo-muc-nao/index.html",
   "kind": "article"
  },
  {
@@ -7632,6 +7660,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-bao-hanh-nhieu-lan-van-chua-het-loi-luat-cho-doi-xe-moi-hoac-tra-lai-tien-khi-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "garage/loi-thuong-gap/xe-may-bi-bo-may-khi-dang-chay-dau-hieu-som-phan-xa-an-toan-va-vi-sao-khong-de-lai/index.html",
   "kind": "article"
  },
@@ -7641,6 +7673,10 @@
  },
  {
   "rel": "learn/kien-thuc-phap-ly/xe-may-bi-chiem-doat-roi-duoc-thu-hoi-lam-vat-chung-chu-xe-nhan-lai-khi-nao-ai-quyet-dinh-va-xe-duoc-bao-quan-ra-sao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-bi-hang-thu-hoi-trieu-hoi-vi-khuyet-tat-hang-phai-ngung-ban-cong-khai-va-thong-bao-trong-may-ngay/index.html",
   "kind": "article"
  },
  {
@@ -7685,6 +7721,10 @@
  },
  {
   "rel": "garage/bao-duong-dinh-ky/xe-may-chi-chay-quang-ngan-moi-ngay-may-it-khi-du-nong-va-nhung-hang-muc-can-de-y/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-co-khuyet-tat-gay-thiet-hai-cho-nguoi-dung-hang-nha-nhap-khau-hay-cua-hang-ban-xe-phai-boi-thuong/index.html",
   "kind": "article"
  },
  {

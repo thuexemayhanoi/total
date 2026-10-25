@@ -32954,11 +32954,13 @@
    "title": "Nghỉ điều trị sau tai nạn khi đi làm bằng xe máy: chế độ ốm đau nghỉ mấy ngày, nhận bao nhiêu phần trăm lương?",
    "primaryIntent": "informational/nghi-dieu-tri-sau-tai-nan-khi-di-lam-bang-xe-may-che-do-om-dau-nghi-may-ngay-va-nhan-bao-nhieu-phan-tram-luong",
    "notes": "source=topic-v2 topicId=T002438",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:09.981Z",
-   "updatedAt": "2026-10-25T07:44:09.982Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3522
   },
   {
    "id": "S02242",
@@ -32967,11 +32969,13 @@
    "title": "Tai nạn đi làm hưởng chế độ tai nạn lao động khi nào: tuyến đường hợp lý, suy giảm từ 5%, nguyên nhân bị loại",
    "primaryIntent": "informational/tai-nan-di-lam-huong-che-do-tai-nan-lao-dong-khi-nao-tuyen-duong-hop-ly-suy-giam-tu-5-phan-tram-va-nguyen-nhan-bi-loai",
    "notes": "source=topic-v2 topicId=T002439",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:14.849Z",
-   "updatedAt": "2026-10-25T07:44:14.849Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3450
   },
   {
    "id": "S02243",
@@ -32980,11 +32984,13 @@
    "title": "Tai nạn đi làm không có cảnh sát giao thông lập biên bản: xin giấy xác nhận ở đâu và đơn ghi những gì?",
    "primaryIntent": "informational/tai-nan-di-lam-khong-co-canh-sat-giao-thong-lap-bien-ban-xin-giay-xac-nhan-o-dau-va-don-ghi-nhung-gi",
    "notes": "source=topic-v2 topicId=T002440",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:19.915Z",
-   "updatedAt": "2026-10-25T07:44:19.915Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3572
   },
   {
    "id": "S02244",
@@ -32993,11 +32999,13 @@
    "title": "Tai nạn trên đường đi làm do người khác gây ra hoặc không rõ người gây ra: công ty trợ cấp theo mức nào?",
    "primaryIntent": "informational/tai-nan-tren-duong-di-lam-do-nguoi-khac-gay-ra-hoac-khong-xac-dinh-duoc-nguoi-gay-ra-cong-ty-tro-cap-theo-muc-nao",
    "notes": "source=topic-v2 topicId=T002441",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:24.980Z",
-   "updatedAt": "2026-10-25T07:44:24.981Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3763
   },
   {
    "id": "S02245",
@@ -33006,11 +33014,13 @@
    "title": "Tai nạn lao động: công ty nộp hồ sơ cho cơ quan bảo hiểm xã hội trong mấy ngày và bao lâu có quyết định?",
    "primaryIntent": "informational/tai-nan-lao-dong-cong-ty-nop-ho-so-cho-co-quan-bao-hiem-xa-hoi-trong-may-ngay-va-bao-lau-co-quyet-dinh",
    "notes": "source=topic-v2 topicId=T002442",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:29.687Z",
-   "updatedAt": "2026-10-25T07:44:29.688Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3596
   },
   {
    "id": "S02246",
@@ -33019,11 +33029,13 @@
    "title": "Cấp cứu sau tai nạn ở bệnh viện không đăng ký bảo hiểm y tế ban đầu: hưởng mức nào và lúc nào xuất trình thẻ?",
    "primaryIntent": "informational/cap-cuu-sau-tai-nan-o-benh-vien-khong-dang-ky-bao-hiem-y-te-ban-dau-huong-muc-nao-va-luc-nao-xuat-trinh-the",
    "notes": "source=topic-v2 topicId=T002443",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:34.450Z",
-   "updatedAt": "2026-10-25T07:44:34.450Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3609
   },
   {
    "id": "S02247",
@@ -33032,11 +33044,13 @@
    "title": "Xe máy bảo hành nhiều lần vẫn chưa hết lỗi: Luật cho đổi xe mới hoặc trả lại tiền khi nào?",
    "primaryIntent": "informational/xe-may-bao-hanh-nhieu-lan-van-chua-het-loi-luat-cho-doi-xe-moi-hoac-tra-lai-tien-khi-nao",
    "notes": "source=topic-v2 topicId=T002444",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:39.415Z",
-   "updatedAt": "2026-10-25T07:44:39.415Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3525
   },
   {
    "id": "S02248",
@@ -33045,11 +33059,13 @@
    "title": "Xe máy bị hãng thu hồi (triệu hồi) vì khuyết tật: hãng phải ngừng bán, công khai và thông báo trong mấy ngày?",
    "primaryIntent": "informational/xe-may-bi-hang-thu-hoi-trieu-hoi-vi-khuyet-tat-hang-phai-ngung-ban-cong-khai-va-thong-bao-trong-may-ngay",
    "notes": "source=topic-v2 topicId=T002445",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:44.544Z",
-   "updatedAt": "2026-10-25T07:44:44.544Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3718
   },
   {
    "id": "S02249",
@@ -33058,11 +33074,13 @@
    "title": "Xe máy có khuyết tật gây thiệt hại cho người dùng: hãng, nhà nhập khẩu hay cửa hàng bán xe phải bồi thường?",
    "primaryIntent": "informational/xe-may-co-khuyet-tat-gay-thiet-hai-cho-nguoi-dung-hang-nha-nhap-khau-hay-cua-hang-ban-xe-phai-boi-thuong",
    "notes": "source=topic-v2 topicId=T002446",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:49.700Z",
-   "updatedAt": "2026-10-25T07:44:49.700Z"
+   "updatedAt": "2026-10-25T09:10:46.991Z",
+   "seoScore": 100,
+   "words": 3168
   },
   {
    "id": "S02250",
@@ -33071,11 +33089,13 @@
    "title": "Mua xe máy cũ rồi mới thấy khuyết tật: Bộ luật Dân sự cho đòi người bán gì và khi nào người bán được miễn?",
    "primaryIntent": "informational/mua-xe-may-cu-roi-moi-thay-khuyet-tat-bo-luat-dan-su-cho-doi-nguoi-ban-gi-va-khi-nao-nguoi-ban-duoc-mien",
    "notes": "source=topic-v2 topicId=T002447",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:44:54.390Z",
-   "updatedAt": "2026-10-25T07:44:54.390Z"
+   "updatedAt": "2026-10-25T09:10:46.990Z",
+   "seoScore": 100,
+   "words": 3522
   },
   {
    "id": "S02251",
