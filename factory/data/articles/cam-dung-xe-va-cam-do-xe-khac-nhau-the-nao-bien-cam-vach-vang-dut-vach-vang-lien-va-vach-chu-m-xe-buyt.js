@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02256 (topic V2 T002453); CHỈ nêu dữ kiện đã kiểm chứng từ QCVN 41:2024/BGTVT ban hành kèm Thông tư 51/2024/TT-BGTVT (truy xuất 2026-10-24).
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'cam-dung-xe-va-cam-do-xe-khac-nhau-the-nao-bien-cam-vach-vang-dut-vach-vang-lien-va-vach-chu-m-xe-buyt',
+  title: 'Cấm dừng xe và cấm đỗ xe khác nhau thế nào: biển cấm, vạch vàng đứt, vạch vàng liền và vạch chữ M xe buýt?',
+  seoTitle: 'Cấm dừng xe, cấm đỗ xe khác nhau thế nào: P.130, P.131, vạch vàng',
+  metaDescription: 'Đọc đúng chữ QCVN 41:2024/BGTVT: biển P.130 cấm dừng và đỗ, P.131 cấm đỗ, vạch 6.1, 6.2 và vạch chữ M 9.2 ở điểm xe buýt. Có ngày truy xuất, không nêu mức phạt.',
+  summary: 'Bài đọc đúng chữ Quy chuẩn kỹ thuật quốc gia QCVN 41:2024/BGTVT về báo hiệu đường bộ, ban hành kèm Thông tư số 51/2024/TT-BGTVT, để trả lời cấm dừng xe và cấm đỗ xe khác nhau ở điểm nào, thay vì nhớ chung rằng vạch vàng là cấm đỗ. Phụ lục B mục B.30 nêu biển P.130 “Cấm dừng xe và đỗ xe”, mục B.31 nêu biển P.131 “Cấm đỗ xe” gồm P.131a, P.131b, P.131c, còn biển số S.508 (a, b) được nêu cho trường hợp chỉ cấm vào thời gian nhất định. Phụ lục G tách vạch 6.1 báo không được phép đỗ xe bên đường với vạch 6.2 báo không được phép dừng xe, đỗ xe bên đường, rồi nêu vạch 9.2 hình chữ M và khoảng cách 15 m từ vị trí vạch về hai phía. Bài nêu ngày truy xuất 24 tháng 10 năm 2026 và hiệu lực của văn bản, nhưng không bàn định nghĩa dừng xe, đỗ xe theo Luật, mức phạt hay biển và vạch tại một đoạn đường cụ thể. Người đọc cần tra lại văn bản còn hiệu lực trước khi dựa vào bài.',
+  quickAnswer: 'Theo Phụ lục B mục B.30 điểm a của QCVN 41:2024/BGTVT, biển P.130 “Cấm dừng xe và đỗ xe” cấm các loại xe cơ giới dừng và đỗ ở phía đường có đặt biển, trừ các xe được ưu tiên theo quy định, còn mục B.31 điểm a nêu biển P.131 “Cấm đỗ xe”, trong đó P.131a cấm các loại xe cơ giới đỗ ở phía đường có đặt biển (đoạn chép không nói về việc dừng xe), P.131b cấm đỗ vào những ngày lẻ và P.131c vào những ngày chẵn, cũng trừ các xe được ưu tiên theo quy định. Phụ lục G mục G1.6 nêu vạch 6.1 báo không được phép đỗ xe bên đường và vạch 6.2 báo không được phép dừng xe, đỗ xe bên đường; mục G4 nêu vạch 9.2 hình chữ M quy định vị trí dừng xe của các phương tiện vận tải hành khách công cộng trên đường như xe buýt, xe tắc xi; các loại phương tiện khác và người đi bộ không được dừng, đỗ trong phạm vi kẻ vạch và trong khoảng cách 15 m từ vị trí vạch về hai phía theo phương dọc đường. Bài chỉ đọc nghĩa văn bản, không kết luận về một đoạn đường hay một hành vi cụ thể, không nêu mức phạt, và nhắc tra lại văn bản còn hiệu lực.',
+  keyPoints: [
+    'Phụ lục B mục B.30 điểm a: biển P.130 “Cấm dừng xe và đỗ xe” cấm các loại xe cơ giới dừng và đỗ ở phía đường có đặt biển, trừ các xe được ưu tiên theo quy định.',
+    'Mục B.31 điểm a: biển P.131 “Cấm đỗ xe” gồm P.131a cấm đỗ, P.131b cấm đỗ vào những ngày lẻ và P.131c vào những ngày chẵn; theo mục B.30 điểm c (mục B.31 điểm b dẫn áp dụng cho biển P.131), trong trường hợp chỉ cấm dừng, đỗ xe vào thời gian nhất định thì dùng biển số S.508 (a, b).',
+    'Hiệu lực cấm của biển bắt đầu từ vị trí đặt biển đến nơi đường giao nhau hoặc đến vị trí quy định đỗ xe, dừng xe, hoặc đến vị trí đặt biển số DP.135 “Hết tất cả các lệnh cấm” nếu đồng thời có nhiều biển cấm khác hết tác dụng.',
+    'Phụ lục G mục G1.6: vạch 6.1 là vạch đứt khúc màu vàng báo không được phép đỗ xe bên đường; vạch 6.2 là vạch liền nét màu vàng báo không được phép dừng xe, đỗ xe bên đường.',
+    'Mục G4: vạch 9.2 dạng gãy khúc hình chữ M quy định vị trí dừng xe của các phương tiện vận tải hành khách công cộng trên đường như xe buýt, xe tắc xi; các loại phương tiện khác và người đi bộ không được dừng, đỗ trong phạm vi kẻ vạch và trong khoảng cách 15 m từ vị trí vạch về hai phía theo phương dọc đường.'
+  ],
+  category: 'learn',
+  hub: 'kien-thuc-phap-ly',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['QCVN 41:2024/BGTVT', 'Thông tư 51/2024/TT-BGTVT', 'báo hiệu đường bộ', 'biển P.130', 'biển P.131', 'vạch 6.1 và vạch 6.2', 'vạch 9.2', 'điểm dừng xe buýt'],
+  keywords: ['sự khác nhau giữa cấm dừng xe và cấm đỗ xe', 'QCVN 41:2024/BGTVT biển P.130 và P.131', 'ý nghĩa vạch vàng đứt và vạch vàng liền', 'khoảng cách 15 m vạch chữ M điểm xe buýt', 'phân biệt biển cấm đỗ xe ngày lẻ ngày chẵn'],
+  sections: [
+    P('Biển P.130 “Cấm dừng xe và đỗ xe” và biển P.131 “Cấm đỗ xe” khác nhau ở điểm nào', [
+      'Câu hỏi cấm dừng xe và cấm đỗ xe khác nhau thế nào hay bị trả lời bằng câu nhớ chung kiểu vạch vàng là cấm đỗ. Bài này đọc đúng chữ của Quy chuẩn kỹ thuật quốc gia về báo hiệu đường bộ, ký hiệu QCVN 41:2024/BGTVT, ban hành kèm Thông tư số 51/2024/TT-BGTVT ngày 15/11/2024 của Bộ trưởng Bộ Giao thông vận tải, truy xuất ngày 24 tháng 10 năm 2026. Bài chỉ đọc Quy chuẩn kỹ thuật quốc gia về báo hiệu đường bộ; bài chưa đối chiếu văn bản nào về xử lý vi phạm nên không nêu mức phạt.',
+      'Phụ lục B mục B.30 điểm a viết rằng để báo nơi cấm dừng xe và đỗ xe thì đặt biển số P.130 “Cấm dừng xe và đỗ xe”, và biển có hiệu lực cấm các loại xe cơ giới dừng và đỗ ở phía đường có đặt biển, trừ các xe được ưu tiên theo quy định. Cụm “dừng và đỗ” cho thấy biển nêu cả hai trạng thái; cụm “ở phía đường có đặt biển” cho thấy phạm vi nói về phía đường nơi biển được đặt; còn ngoại lệ “các xe được ưu tiên theo quy định” không được đoạn chép liệt kê, nên bài không kể tên loại xe nào.',
+      'Mục B.31 điểm a viết rằng để báo nơi cấm đỗ xe, trừ các xe được ưu tiên theo quy định, thì đặt biển số P.131 (a, b, c) “Cấm đỗ xe”. Biển số P.131a có hiệu lực cấm các loại xe cơ giới đỗ ở phía đường có đặt biển. Đặt hai mục cạnh nhau, khác biệt về chữ nằm ở động từ: biển P.130 nêu dừng và đỗ, còn biển P.131a chỉ nêu đỗ. Đó là câu trả lời theo văn bản cho câu hỏi ở tiêu đề, và cũng là lý do không nên đọc hai biển thay cho nhau.',
+      'Chỉ nêu đỗ không có nghĩa là bài khẳng định dừng xe ở phía đường có biển P.131a là được phép: đoạn chép của mục B.31 không nói về việc dừng xe, bài chưa đối chiếu điều đó nên không kết luận được phép hay không. Cụm “các loại xe cơ giới” cũng không kể tên từng loại xe, nên bài không xếp xe máy hay loại xe cụ thể nào vào cụm này. Có thể xem thêm bài về dừng xe, đỗ xe máy sai chỗ bị phạt bao nhiêu trên trang.'
+    ]),
+    P('Biển cấm đỗ xe ngày lẻ, ngày chẵn và biển số S.508 khi chỉ cấm vào thời gian nhất định', [
+      'Biển P.131 trong mục B.31 điểm a gồm ba biển a, b và c. Theo đoạn đã chép, biển số P.131a có hiệu lực cấm các loại xe cơ giới đỗ ở phía đường có đặt biển; biển số P.131b có hiệu lực cấm các loại xe cơ giới đỗ ở phía đường có đặt biển vào những ngày lẻ; còn biển số P.131c cấm vào những ngày chẵn. Cả ba cùng mang tên “Cấm đỗ xe” và cùng chung ngoại lệ là các xe được ưu tiên theo quy định.',
+      'Ba biển khác nhau ở một cụm: P.131a không kèm cụm về ngày, P.131b kèm “vào những ngày lẻ”, P.131c kèm “vào những ngày chẵn”. Đoạn chép không giải thích cách xác định một ngày là lẻ hay chẵn và không nói gì về việc đỗ xe ở phía đường đó vào ngày còn lại. Vì vậy bài không trả lời câu hỏi hôm nay ở một chỗ cụ thể có đỗ được không; câu đó cần đọc biển tại chỗ và hỏi cơ quan có thẩm quyền.',
+      'Mục B.30 điểm c viết rằng trong trường hợp chỉ cấm dừng, đỗ xe vào thời gian nhất định thì dùng biển số S.508 (a, b), và mục B.31 điểm b dẫn áp dụng điểm b, c của mục B.30 cho biển P.131. Bài gọi S.508 là biển phụ cho dễ theo dõi; đoạn chép chỉ nêu số hiệu và trường hợp dùng, không mô tả nội dung hay hình dạng của biển nên bài cũng không mô tả.',
+      'Thử một tình huống đời thường: bạn gặp biển có tên P.131 “Cấm đỗ xe” và có biển số S.508 đi kèm. Theo chữ đã chép, cần tách ba câu hỏi: biển chính là P.130 hay P.131, nếu là P.131 thì thuộc loại a, b hay c, và cần đọc biển S.508 theo văn bản chính thức. Có thể xem thêm bài về dừng đỗ xe máy đúng quy định và bài về kinh nghiệm quy định đỗ xe dành cho người mới trên trang. Quy chuẩn không được bài đối chiếu cho trường hợp biển bị che hoặc khó hiểu; cần tra văn bản còn hiệu lực và hỏi cơ quan có thẩm quyền.'
+    ]),
+    P('Hiệu lực của biển cấm dừng đỗ: từ vị trí đặt biển đến nơi đường giao nhau hoặc vị trí quy định', [
+      'Phụ lục B mục B.30 điểm b viết rằng hiệu lực cấm của biển bắt đầu từ vị trí đặt biển đến nơi đường giao nhau hoặc đến vị trí quy định đỗ xe, dừng xe, hoặc đến vị trí đặt biển số DP.135 “Hết tất cả các lệnh cấm” nếu đồng thời có nhiều biển cấm khác hết tác dụng. Mục B.31 điểm b dẫn áp dụng điểm b và điểm c của mục B.30 cho biển P.131, nên theo cách dẫn đó đoạn này cũng áp dụng cho nhóm biển cấm đỗ xe.',
+      'Đọc từng cụm. Điểm bắt đầu là “vị trí đặt biển”. Điểm kết thúc có ba mốc được nêu: “nơi đường giao nhau”; “vị trí quy định đỗ xe, dừng xe”; và vị trí đặt biển DP.135 khi đồng thời có nhiều biển cấm khác hết tác dụng. Đoạn chép không đo bằng mét, không giải thích chữ “nơi đường giao nhau” gồm những chỗ nào, nên bài không bổ sung những chi tiết đó.',
+      'Cũng cần chú ý chữ “ở phía đường có đặt biển” ở điểm a của cả hai mục B.30 và B.31: biển nói về phía đường nơi nó được đặt, còn phía đường đối diện không được đoạn chép nhắc tới nên bài không kết luận gì cho phía đó. Đoạn chép của mục B.30 còn có dấu lược giữa điểm b và điểm c; bài chỉ dùng phần đã chép và không đoán phần bị lược.',
+      'Có hai hiểu lầm nên tránh. Thứ nhất, tự đoán rằng biển có hiệu lực trên cả con phố hoặc đến một mốc do mình tưởng tượng; văn bản gắn hiệu lực với vị trí đặt biển và các mốc nêu trên. Thứ hai, nghĩ rằng qua nơi đường giao nhau thì chỗ nào phía sau cũng dừng, đỗ được; đoạn chép chỉ nêu nơi đường giao nhau là một mốc kết thúc hiệu lực của biển đó, không nói về biển, vạch hay quy định khác ở đoạn tiếp theo. Bài không kết luận biển ở một địa điểm cụ thể kết thúc ở đâu.'
+    ]),
+    P('Vạch vàng đứt và vạch vàng liền sơn trên bó vỉa hoặc mặt đường: cấm đỗ hay cấm cả dừng và đỗ', [
+      'Phụ lục G mục G1.6 của Quy chuẩn nêu hai vạch màu vàng được sơn trên bó vỉa hoặc trên mặt đường. Điểm a là vạch 6.1 với tên “Vạch cấm đỗ xe trên đường”, điểm b là vạch 6.2 với tên “Vạch cấm dừng xe, cấm đỗ xe trên đường”. Chỉ riêng hai tên gọi đã cho thấy vì sao câu nhớ chung vạch vàng là cấm đỗ chưa đủ: văn bản có một vạch chỉ nói cấm đỗ và một vạch nói cả cấm dừng lẫn cấm đỗ.',
+      'Về vạch 6.1, mục G1.6 điểm a ghi ý nghĩa sử dụng là báo hiệu không được phép đỗ xe bên đường. Văn bản mô tả đây là vạch đứt khúc màu vàng được sơn trên bó vỉa sát mép mặt đường phía cấm đỗ xe, hoặc sơn trên mặt đường phía cấm đỗ xe, cách mép mặt đường 30 cm khi không có bó vỉa sát mép mặt đường. Số 30 cm chỉ gắn với trường hợp không có bó vỉa sát mép mặt đường. Đoạn chép của điểm này chỉ nói về đỗ xe; bài không suy ra điều gì về việc dừng xe ở nơi có vạch 6.1.',
+      'Về vạch 6.2, mục G1.6 điểm b ghi ý nghĩa sử dụng là báo hiệu không được phép dừng xe, đỗ xe bên đường. Văn bản mô tả đây là vạch liền nét màu vàng được sơn trên bó vỉa sát mép mặt đường phía cấm dừng xe hoặc đỗ xe, hoặc sơn trên mặt đường phía cấm dừng xe hoặc đỗ xe, cách mép mặt đường 30 cm khi không có bó vỉa sát mép mặt đường. Cách mô tả vị trí giống vạch 6.1; khác biệt nằm ở nét vạch, liền nét thay vì đứt khúc, và ở ý nghĩa nhắc cả dừng xe lẫn đỗ xe.',
+      'Vì vậy chỉ thấy một đường kẻ vàng ở bó vỉa thì chưa đủ để biết đó là cấm đỗ hay cấm cả dừng và đỗ; theo chữ văn bản, cần xem là vạch đứt khúc 6.1 hay vạch liền nét 6.2. Đoạn chép không nói gì về chỗ không có vạch, nên bài không suy ra chỗ đó được dừng hay đỗ, và cũng không xét một đoạn bó vỉa cụ thể. Quy chuẩn không được bài đối chiếu cho trường hợp vạch đã mờ hoặc khó phân biệt; cần tra văn bản còn hiệu lực và hỏi cơ quan có thẩm quyền. Có thể xem thêm bài về đỗ xe ở đâu trên trang.'
+    ]),
+    P('Vạch chữ M màu vàng ở điểm xe buýt, khoảng cách 15 m và những điều bài chưa đối chiếu', [
+      'Phụ lục G mục G4 điểm b nêu vạch 9.2 với tên “Vạch quy định vị trí dừng đỗ của phương tiện giao thông công cộng trên đường”. Ý nghĩa sử dụng được ghi là quy định vị trí dừng xe của các phương tiện vận tải hành khách công cộng trên đường như xe buýt, xe tắc xi. Về dạng vạch, văn bản chép rằng vạch 9.2 là vạch đơn liền, màu vàng, và được vẽ dạng gãy khúc, có dạng hình chữ M, nhiều đỉnh. Bài chỉ lặp lại những chữ này, không mô tả thêm hình dạng hay kích thước.',
+      'Câu quan trọng nhất với người đi đường nằm ở phần sau: các loại phương tiện khác và người đi bộ không được dừng, đỗ trong phạm vi kẻ vạch và trong khoảng cách 15 m từ vị trí vạch về hai phía theo phương dọc đường. Con số 15 m vì thế gắn với ba chi tiết trong chữ của văn bản: đo từ vị trí vạch, tính về hai phía, và theo phương dọc đường. Bài chỉ đọc phần chữ của mục G4 và chưa đối chiếu quy tắc khác về lái xe gần điểm dừng xe buýt.',
+      'Phần bài chưa đối chiếu gồm những điều sau. Cụm “các loại phương tiện khác” không kể tên loại xe nào, nên bài không xếp xe máy của người đọc vào cụm đó và không kết luận một vị trí cụ thể ở điểm xe buýt. Bài chưa đối chiếu định nghĩa dừng xe, đỗ xe theo Luật, mức phạt dừng đỗ sai chỗ, việc xe bị di chuyển hay các biển, vạch khác của Quy chuẩn. Quy chuẩn mô tả báo hiệu bằng chữ và hình vẽ; bài chỉ dùng phần chữ đã chép, nên không mô tả hình ảnh biển hoặc vạch ngoài những gì văn bản nêu. Bài cũng không kết luận biển, vạch tại một đoạn đường cụ thể hay một hành vi cụ thể có vi phạm hay không. Việc biển, vạch hay một hành vi cụ thể có vi phạm hay không do cơ quan có thẩm quyền xác định theo từng vụ việc và theo văn bản còn hiệu lực; bài chỉ đọc phần Quy chuẩn đã đối chiếu. Có thể xem thêm bài về dừng đỗ xe máy đúng quy định và bài về đường cấm xe máy Hà Nội trên trang.',
+      'Về hiệu lực, Thông tư số 51/2024/TT-BGTVT ngày 15/11/2024, Điều 2, ghi thông tư có hiệu lực từ ngày 01 tháng 01 năm 2025 và thay thế Thông tư số 54/2019/TT-BGTVT ngày 31 tháng 12 năm 2019 ban hành QCVN 41:2019/BGTVT; Lời nói đầu của Quy chuẩn ghi QCVN 41:2024/BGTVT thay thế QCVN 41:2019/BGTVT. Cổng tra cứu tieuchuanxaydung.vsqi.gov.vn ghi quy chuẩn ở “Tình trạng A - Còn hiệu lực”, còn trang Công báo điện tử của thông tư ghi 0 ở các mục lược đồ về văn bản sửa đổi và văn bản bị thay thế. Đến ngày truy xuất 24 tháng 10 năm 2026, người tra cứu không thấy văn bản sửa đổi, bổ sung hoặc thay thế trên các cổng chính thức đã tra; đó là kết quả tìm kiếm, không phải bảo đảm tuyệt đối. Điều 83 nói về báo hiệu đã lắp: khoản 83.1 viết rằng báo hiệu có nội dung và ý nghĩa sai khác, không đúng với Quy chuẩn phải được thay thế, điều chỉnh ngay; khoản 83.2 viết rằng báo hiệu lắp trước ngày thông tư có hiệu lực, có biểu tượng, ký hiệu, kích thước, màu sắc, đường viền chưa hoàn toàn phù hợp nhưng không gây hiểu nhầm, hiểu sai khác về ý nghĩa sử dụng thì được tiếp tục sử dụng cho đến khi có sửa chữa, và phải hoàn thành việc thay thế trước ngày 20/8/2030. Dòng chép của khoản này có phần lược nên bài không kết luận biển hay vạch nào ngoài thực tế thuộc khoản đó. Hãy mở toàn văn, tìm các mục B.30, B.31, G1.6 và G4, và kiểm tra văn bản còn hiệu lực trước khi dựa vào bài; bài không phải tư vấn pháp lý.'
+    ])
+  ],
+  checklist: [
+    'Mở toàn văn QCVN 41:2024/BGTVT trên cổng chính thức và tìm Phụ lục B mục B.30, B.31, Phụ lục G mục G1.6 và G4.',
+    'Xác định đang đọc biển P.130 “Cấm dừng xe và đỗ xe” hay biển P.131 “Cấm đỗ xe”, và nếu là P.131 thì thuộc loại a, b hay c.',
+    'Xem biển có kèm biển số S.508 (a, b) hay không, vì văn bản nêu biển này cho trường hợp chỉ cấm vào thời gian nhất định.',
+    'Với vạch vàng, phân biệt vạch đứt khúc 6.1 (không được phép đỗ xe bên đường) và vạch liền nét 6.2 (không được phép dừng xe, đỗ xe bên đường).',
+    'Với vạch chữ M 9.2, đọc phạm vi kẻ vạch và khoảng cách 15 m từ vị trí vạch về hai phía theo phương dọc đường.',
+    'Ghi tên văn bản, số hiệu, mục đã đọc và ngày tra cứu; kiểm tra văn bản còn hiệu lực và hỏi cơ quan có thẩm quyền khi cần kết luận cho một đoạn đường cụ thể.'
+  ],
+  steps: [
+    { title: 'Xác định tên biển hoặc vạch', detail: 'Đọc mã và tên: P.130 “Cấm dừng xe và đỗ xe”, P.131 (a, b, c) “Cấm đỗ xe”, vạch 6.1, vạch 6.2 hoặc vạch 9.2.' },
+    { title: 'Mở đúng mục của Quy chuẩn', detail: 'Tìm Phụ lục B mục B.30 và B.31 cho biển, Phụ lục G mục G1.6 cho vạch 6.1 và 6.2, mục G4 cho vạch 9.2.' },
+    { title: 'Đọc hiệu lực và thời gian', detail: 'Với biển, đọc điểm b về hiệu lực từ vị trí đặt biển và điểm c về biển số S.508 (a, b) khi chỉ cấm vào thời gian nhất định.' },
+    { title: 'Đối chiếu hiệu lực văn bản', detail: 'Xem Thông tư số 51/2024/TT-BGTVT, Điều 2, và kiểm tra trên cổng chính thức xem có văn bản sửa đổi hay thay thế Quy chuẩn không.' },
+    { title: 'Hỏi nơi có thẩm quyền khi còn băn khoăn', detail: 'Với biển, vạch tại một đoạn đường cụ thể hoặc việc xử lý vi phạm, hỏi cơ quan quản lý đường hoặc lực lượng có thẩm quyền thay vì tự suy đoán.' }
+  ],
+  warnings: [
+    'Không kết luận chỉ từ màu vàng: vạch đứt khúc 6.1 và vạch liền nét 6.2 có ý nghĩa khác nhau theo Phụ lục G mục G1.6.',
+    'Không dùng bài này để kết luận biển hay vạch tại một đoạn đường cụ thể, hay một hành vi cụ thể có vi phạm hay không; bài cũng không nêu mức phạt.',
+    'Quy chuẩn có thể được sửa đổi sau ngày truy xuất 24 tháng 10 năm 2026; luôn kiểm tra văn bản còn hiệu lực.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: QCVN 41:2024/BGTVT ban hành kèm Thông tư số 51/2024/TT-BGTVT ngày 15/11/2024 của Bộ trưởng Bộ Giao thông vận tải, truy xuất ngày 24/10/2026 từ cổng datafiles.chinhphu.vn, kèm trang Công báo điện tử và cổng tra cứu quy chuẩn.',
+    'Bài tổng hợp để tham khảo, không phải tư vấn pháp lý; bài chỉ dùng phần chữ của Quy chuẩn, không mô tả hình ảnh biển hay vạch, và chưa đối chiếu văn bản về xử lý vi phạm.'
+  ],
+  references: [
+    'QCVN 41:2024/BGTVT — Quy chuẩn kỹ thuật quốc gia về báo hiệu đường bộ, ban hành kèm Thông tư số 51/2024/TT-BGTVT ngày 15/11/2024 của Bộ trưởng Bộ Giao thông vận tải (Phụ lục B mục B.30, B.31; Phụ lục G mục G1.6, G4; Điều 83)',
+    'Công báo điện tử Chính phủ (congbao.chinhphu.vn) và cổng tra cứu quy chuẩn tieuchuanxaydung.vsqi.gov.vn'
+  ],
+  related: [
+    'dung-do-xe-may-dung-quy-dinh',
+    'dung-xe-do-xe-may-sai-cho-bi-phat-bao-nhieu-long-duong-via-he-vach-nguoi-di-bo-cau-ham',
+    'do-xe-o-dau',
+    'quy-dinh-do-xe',
+    'duong-cam-xe-may-ha-noi'
+  ]
+};
