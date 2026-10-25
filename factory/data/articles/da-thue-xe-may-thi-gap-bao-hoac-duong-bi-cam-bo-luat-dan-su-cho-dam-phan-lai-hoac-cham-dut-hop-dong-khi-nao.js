@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02270 (topic V2 T002467); CHỈ nêu dữ kiện đã kiểm chứng từ Bộ luật Dân sự 91/2015/QH13 (truy xuất 2026-10-24).
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'da-thue-xe-may-thi-gap-bao-hoac-duong-bi-cam-bo-luat-dan-su-cho-dam-phan-lai-hoac-cham-dut-hop-dong-khi-nao',
+  title: 'Đã thuê xe máy thì gặp bão hoặc đường bị cấm: Bộ luật Dân sự cho đàm phán lại hoặc chấm dứt hợp đồng khi nào?',
+  seoTitle: 'Thuê xe máy gặp bão, đường bị cấm: Điều 420 Bộ luật Dân sự',
+  metaDescription: 'Đã thuê xe máy mà gặp bão hoặc đường bị cấm: Điều 420 Bộ luật Dân sự 91/2015/QH13 nêu năm điều kiện, đàm phán lại, Tòa án và phần bài chưa đối chiếu.',
+  summary: 'Bài đọc Bộ luật Dân sự số 91/2015/QH13 để trả lời câu hỏi người đã thuê xe máy mà gặp bão hoặc đường bị cấm thì luật cho đàm phán lại hoặc chấm dứt hợp đồng khi nào. Điều 420 khoản 1 nêu hoàn cảnh thay đổi cơ bản khi có đủ năm điều kiện; khoản 2 cho bên có lợi ích bị ảnh hưởng quyền yêu cầu bên kia đàm phán lại trong một thời hạn hợp lý; khoản 3 cho một trong các bên yêu cầu Tòa án chấm dứt hoặc sửa đổi hợp đồng nếu không thỏa thuận được; khoản 4 nói các bên vẫn phải tiếp tục thực hiện nghĩa vụ trong lúc chờ, trừ khi có thỏa thuận khác. Điều 422 khoản 6 ghi chấm dứt theo Điều 420 là một trường hợp hợp đồng chấm dứt, còn Điều 414 và Điều 351 khoản 2 trả lời những câu hỏi khác. Bài không kết luận một cơn bão, một lệnh cấm đường hay một hợp đồng cụ thể thuộc điều nào, không nêu số tiền hoàn lại và không phải tư vấn pháp lý. Nội dung truy xuất ngày 24 tháng 10 năm 2026; hãy tra lại văn bản còn hiệu lực.',
+  quickAnswer: 'Điều 420 khoản 1 của Bộ luật Dân sự gọi là hoàn cảnh thay đổi cơ bản khi có đủ năm điều kiện, và khoản 2 cho bên có lợi ích bị ảnh hưởng quyền yêu cầu bên kia đàm phán lại hợp đồng trong một thời hạn hợp lý. Nếu các bên không thể thỏa thuận được việc sửa đổi trong thời hạn đó, khoản 3 cho một trong các bên yêu cầu Tòa án chấm dứt hợp đồng tại một thời điểm xác định hoặc sửa đổi hợp đồng. Trong lúc đàm phán hoặc chờ Tòa án, khoản 4 viết rằng các bên vẫn phải tiếp tục thực hiện nghĩa vụ của mình theo hợp đồng, trừ trường hợp có thỏa thuận khác. Một cơn bão hay một lệnh cấm đường cụ thể có đủ năm điều kiện hay không là điều bài không kết luận.',
+  keyPoints: [
+    'Hoàn cảnh thay đổi cơ bản chỉ có khi đủ năm điều kiện của Điều 420 khoản 1, từ nguyên nhân khách quan xảy ra sau khi giao kết hợp đồng đến việc bên bị ảnh hưởng đã áp dụng mọi biện pháp cần thiết mà không thể ngăn chặn, giảm thiểu.',
+    'Theo khoản 2, bên có lợi ích bị ảnh hưởng có quyền yêu cầu bên kia đàm phán lại hợp đồng trong một thời hạn hợp lý; bài không có con số nào cho mốc này.',
+    'Theo khoản 3, nếu các bên không thể thỏa thuận được việc sửa đổi, một trong các bên có thể yêu cầu Tòa án chấm dứt hợp đồng tại một thời điểm xác định hoặc sửa đổi hợp đồng; Điều 422 khoản 6 ghi chấm dứt theo Điều 420 là một trường hợp hợp đồng chấm dứt.',
+    'Theo khoản 4, trong lúc đàm phán hoặc Tòa án giải quyết vụ việc, các bên vẫn phải tiếp tục thực hiện nghĩa vụ của mình theo hợp đồng, trừ trường hợp có thỏa thuận khác.',
+    'Điều 414 và Điều 351 khoản 2 trả lời những câu hỏi khác; bài truy xuất ngày 24 tháng 10 năm 2026, không kết luận một cơn bão hay lệnh cấm cụ thể, không nêu số tiền và không phải tư vấn pháp lý.'
+  ],
+  category: 'learn',
+  hub: 'kien-thuc-phap-ly',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['Bộ luật Dân sự 91/2015/QH13', 'hoàn cảnh thay đổi cơ bản', 'Điều 420', 'đàm phán lại hợp đồng', 'Tòa án', 'chấm dứt hợp đồng', 'bất khả kháng', 'hợp đồng thuê tài sản'],
+  keywords: ['hoàn cảnh thay đổi cơ bản hợp đồng thuê xe máy', 'gặp bão khi đã thuê xe máy', 'đường bị cấm khi thuê xe máy', 'đàm phán lại hợp đồng thuê xe', 'Bộ luật Dân sự Điều 420 hợp đồng thuê xe'],
+  sections: [
+    P('Hoàn cảnh thay đổi cơ bản là gì: năm điều kiện của Điều 420 khoản 1', [
+      'Người thuê xe máy cho chuyến đi xa, đã đặt, đã trả tiền hoặc đã nhận xe, rồi gặp bão hoặc nghe tin đường bị cấm, thường hỏi luật cho đàm phán lại hoặc chấm dứt hợp đồng khi nào, và trong lúc chưa thỏa thuận có phải tiếp tục thực hiện hợp đồng không. Bài đối chiếu câu hỏi này với Điều 420 của Bộ luật Dân sự số 91/2015/QH13 ngày 24/11/2015 của Quốc hội; điều khoản có áp dụng cho một hợp đồng thuê xe cụ thể hay không do cơ quan có thẩm quyền xác định. Phạm vi đọc gồm Điều 420 khoản 1 đến 4, Điều 422 khoản 6, Điều 414, Điều 351 khoản 2 và Điều 689, theo bản truy xuất ngày 24 tháng 10 năm 2026, và không kết luận một cơn bão, một lệnh cấm đường hay một hợp đồng cụ thể thuộc điều nào.',
+      'Về hiệu lực, Cơ sở dữ liệu quốc gia về pháp luật (vbpl.vn) ghi Bộ luật ở trạng thái "Còn hiệu lực", ngày có hiệu lực 01/01/2017, ngày cập nhật 04/04/2026. Cổng thông tin điện tử Công báo đăng văn bản ở Công báo số 1243+1244 và 1245+1246 ngày 28/12/2015, và mục Lược đồ ghi 0 văn bản sửa đổi, bổ sung. Điều 689 viết: "Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2017." Đến ngày 24 tháng 10 năm 2026, người tra cứu không tìm thấy trên các cổng chính thức đã đọc văn bản nào sửa đổi hoặc thay thế Bộ luật này. Câu đó chỉ mô tả điều đã đọc vào ngày truy xuất; hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào bài.',
+      'Khoản 1 Điều 420 mở đầu bằng câu: "Hoàn cảnh thay đổi cơ bản khi có đủ các điều kiện sau đây:", rồi liệt kê năm điểm. Điểm a: "Sự thay đổi hoàn cảnh do nguyên nhân khách quan xảy ra sau khi giao kết hợp đồng". Điểm b: "Tại thời điểm giao kết hợp đồng, các bên không thể lường trước được về sự thay đổi hoàn cảnh". Điểm c: "Hoàn cảnh thay đổi lớn đến mức nếu như các bên biết trước thì hợp đồng đã không được giao kết hoặc được giao kết nhưng với nội dung hoàn toàn khác".',
+      'Điểm d: "Việc tiếp tục thực hiện hợp đồng mà không có sự thay đổi nội dung hợp đồng sẽ gây thiệt hại nghiêm trọng cho một bên". Điểm đ: "Bên có lợi ích bị ảnh hưởng đã áp dụng mọi biện pháp cần thiết trong khả năng cho phép, phù hợp với tính chất của hợp đồng mà không thể ngăn chặn, giảm thiểu mức độ ảnh hưởng đến lợi ích." Chữ "đủ" ở câu mở đầu cho thấy cần có cả năm điểm. Năm điểm không nêu riêng loại hợp đồng nào và không giải thích thế nào là nguyên nhân khách quan hay thiệt hại nghiêm trọng; khoản 1 không nhắc bão hay lệnh cấm đường. Bài không nói một cơn bão hay một lệnh cấm có đủ năm điều kiện hay không.'
+    ]),
+    P('Quyền yêu cầu đàm phán lại hợp đồng trong thời hạn hợp lý: Điều 420 khoản 2', [
+      'Khoản 2 Điều 420 viết: "Trong trường hợp hoàn cảnh thay đổi cơ bản, bên có lợi ích bị ảnh hưởng có quyền yêu cầu bên kia đàm phán lại hợp đồng trong một thời hạn hợp lý." Điều kiện đứng trước là "hoàn cảnh thay đổi cơ bản", tức hoàn cảnh mà khoản 1 mô tả bằng năm điểm; chủ thể có quyền là "bên có lợi ích bị ảnh hưởng"; nội dung của quyền là "yêu cầu bên kia đàm phán lại hợp đồng"; mốc thời gian là "một thời hạn hợp lý".',
+      'Cụm "bên có lợi ích bị ảnh hưởng" không gắn riêng với bên thuê hay bên cho thuê. Trong một hợp đồng thuê xe, bên nào có lợi ích bị ảnh hưởng là chuyện của từng vụ việc, và bài không kết luận người thuê hay chủ xe đứng ở vị trí ấy. Cũng nên tách quyền khỏi kết quả: khoản 2 cho quyền "yêu cầu" bên kia đàm phán lại, còn câu chữ không viết rằng bên kia phải đồng ý đổi giá, đổi ngày hay hoàn khoản nào.',
+      'Mốc thời gian ở khoản 2 là "một thời hạn hợp lý". Câu chữ không quy đổi cụm này thành số ngày hay số giờ và không nêu cách xác định thế nào là hợp lý, nên bài không có con số nào để nêu. Câu chữ của khoản 2 và khoản 3 không nói ai xác định thời hạn hợp lý, và bài không kết luận điều đó. Cụm ấy xuất hiện lại ở khoản 3, khi nói các bên không thể thỏa thuận được việc sửa đổi hợp đồng "trong một thời hạn hợp lý".',
+      'Khoản 2 không nêu hình thức yêu cầu và không nói thế nào là bên kia đã nhận được yêu cầu; bài chưa đối chiếu điều nào quy định những điểm ấy. Hợp đồng thuê xe của bạn có thể có điều khoản về đổi lịch trình, hủy, hoãn hay cách thông báo, và đó là chỗ cần đọc song song. Nếu hai bên chỉ thỏa thuận bằng lời nói hoặc tin nhắn, bài về thuê xe máy chỉ nói miệng hoặc nhắn tin không ký giấy trên trang đọc riêng trường hợp ấy.'
+    ]),
+    P('Không thỏa thuận được: Tòa án chấm dứt hoặc sửa đổi hợp đồng (Điều 420 khoản 3 và Điều 422 khoản 6)', [
+      'Khoản 3 Điều 420 viết: "Trường hợp các bên không thể thỏa thuận được về việc sửa đổi hợp đồng trong một thời hạn hợp lý, một trong các bên có thể yêu cầu Tòa án:", rồi nêu hai hướng. Điểm a: "Chấm dứt hợp đồng tại một thời điểm xác định". Điểm b: "Sửa đổi hợp đồng để cân bằng quyền và lợi ích hợp pháp của các bên do hoàn cảnh thay đổi cơ bản".',
+      'Điều kiện để mở đường này là các bên "không thể thỏa thuận được" trong một thời hạn hợp lý. Chủ thể là "một trong các bên", nên theo câu chữ bên nào trong hợp đồng cũng đứng được ở vị trí này. Câu dùng chữ "có thể yêu cầu Tòa án", tức là các bên đề nghị Tòa án quyết định, chứ không viết rằng hợp đồng tự chấm dứt hay tự đổi nội dung. Bài không nêu Tòa án nào hay thủ tục nộp đơn ra sao, vì chưa đối chiếu điều nào về việc đó.',
+      'Câu cuối khoản 3 đặt giới hạn riêng cho việc sửa đổi: "Tòa án chỉ được quyết định việc sửa đổi hợp đồng trong trường hợp việc chấm dứt hợp đồng sẽ gây thiệt hại lớn hơn so với các chi phí để thực hiện hợp đồng nếu được sửa đổi." Câu này so sánh hai vế: thiệt hại nếu chấm dứt hợp đồng và chi phí thực hiện hợp đồng nếu được sửa đổi. Câu không gán giá trị nào cho hai vế, nên bài không có số tiền nào và không kết luận vế nào lớn hơn trong một hợp đồng thuê xe.',
+      'Điều 422 nói về các trường hợp hợp đồng chấm dứt. Câu dẫn viết: "Hợp đồng chấm dứt trong trường hợp sau đây:", và khoản 6 viết: "Hợp đồng chấm dứt theo quy định tại Điều 420 của Bộ luật này;". Hai điều nối với nhau: Điều 420 nêu đường đi khi hoàn cảnh thay đổi cơ bản, còn Điều 422 khoản 6 ghi chấm dứt theo Điều 420 là một trường hợp hợp đồng chấm dứt. Bài chỉ đọc câu dẫn và khoản 6, không nói việc chấm dứt kéo theo hệ quả gì với tiền thuê, tiền cọc hay việc trả xe.'
+    ]),
+    P('Trong lúc đàm phán hoặc chờ Tòa án vẫn phải thực hiện nghĩa vụ: Điều 420 khoản 4', [
+      'Khoản 4 Điều 420 viết: "Trong quá trình đàm phán sửa đổi, chấm dứt hợp đồng, Tòa án giải quyết vụ việc, các bên vẫn phải tiếp tục thực hiện nghĩa vụ của mình theo hợp đồng, trừ trường hợp có thỏa thuận khác." Câu này nói về hai giai đoạn nối nhau: "đàm phán sửa đổi, chấm dứt hợp đồng" và "Tòa án giải quyết vụ việc". Ở cả hai giai đoạn, chủ thể là "các bên", tức là cả hai bên của hợp đồng, và nghĩa vụ là nghĩa vụ "của mình theo hợp đồng".',
+      'Cụm "vẫn phải tiếp tục" đặt ra nguyên tắc tiếp tục thực hiện nghĩa vụ suốt hai giai đoạn trên. Ngoại lệ là "trừ trường hợp có thỏa thuận khác", nên thỏa thuận của các bên về cách xử lý trong lúc chờ là chỗ phải đọc tiếp. Khoản 4 không liệt kê nghĩa vụ cụ thể nào của hợp đồng thuê xe, như trả tiền thuê hay trả lại xe, và bài không kết luận nghĩa vụ nào còn lại trong một hợp đồng cụ thể.',
+      'Khoản 4 nói về nghĩa vụ theo hợp đồng; nó không phải hướng dẫn đi đường, và bài không dùng nó để nói rằng ai phải cầm lái khi đang có bão hoặc khi đường đã bị cấm. Việc có chạy xe hay không trong điều kiện nguy hiểm là chuyện an toàn của chính người đi và người khác trên đường: hãy theo thông báo của cơ quan có thẩm quyền về thời tiết và tuyến đường bị cấm, đặt an toàn lên trước, và hỏi bên cho thuê hoặc cơ quan có thẩm quyền khi chưa rõ.',
+      'Khoản 4 để ngỏ hai điều và bài không kết luận: các bên đã có thỏa thuận khác hay chưa trong một vụ cụ thể, và thế nào là nghĩa vụ "của mình" khi hợp đồng thuê xe có nhiều điều khoản. Bài cũng không nói ai sẽ được hoàn tiền hay phải trả khoản nào khi hợp đồng bị sửa đổi hoặc chấm dứt. Khi câu chuyện đi tới Tòa án, thời hạn khởi kiện là câu hỏi riêng, được đọc ở bài về thời hiệu khởi kiện đòi lại tiền cọc thuê xe hoặc đòi bồi thường trên trang; bài này không nêu thời hạn nào.'
+    ]),
+    P('Khác Điều 414 và bất khả kháng ở Điều 351 khoản 2, và phần bài chưa đối chiếu', [
+      'Điều 414 viết: "Trong hợp đồng song vụ, nếu một bên không thực hiện được nghĩa vụ mà các bên đều không có lỗi thì bên không thực hiện được nghĩa vụ không có quyền yêu cầu bên kia thực hiện nghĩa vụ đối với mình. Trường hợp một bên đã thực hiện được một phần nghĩa vụ thì có quyền yêu cầu bên kia thực hiện phần nghĩa vụ tương ứng đối với mình." Bài không kết luận một hợp đồng thuê xe cụ thể là hợp đồng song vụ hay một bên đã "không thực hiện được" nghĩa vụ.',
+      'Khoản 2 Điều 351 viết: "Trường hợp bên có nghĩa vụ không thực hiện đúng nghĩa vụ do sự kiện bất khả kháng thì không phải chịu trách nhiệm dân sự, trừ trường hợp có thoả thuận khác hoặc pháp luật có quy định khác." Hệ quả ở đây là chuyện trách nhiệm dân sự của bên có nghĩa vụ, khác với hệ quả ở Điều 420 là quyền yêu cầu đàm phán lại và yêu cầu Tòa án. Bài về trả xe máy thuê muộn trên trang đọc điều khoản này trong tình huống chậm trả xe.',
+      'Ba điều khoản trả lời ba câu hỏi khác nhau. Điều 420 hỏi hoàn cảnh có thay đổi cơ bản theo năm điều kiện hay không, và nếu có thì đàm phán lại, nhờ Tòa án chấm dứt hoặc sửa đổi. Điều 414 hỏi quyền yêu cầu bên kia ra sao khi một bên không thực hiện được nghĩa vụ mà các bên đều không có lỗi. Điều 351 khoản 2 hỏi bên có nghĩa vụ có phải chịu trách nhiệm dân sự hay không khi không thực hiện đúng nghĩa vụ do bất khả kháng. Bài chưa đối chiếu định nghĩa bất khả kháng, nên không nói một cơn bão hay lệnh cấm đường có phải bất khả kháng hay không.',
+      'Phần bài chưa đối chiếu: bài chỉ đọc Điều 420 khoản 1 đến 4, Điều 422 (câu dẫn và khoản 6), Điều 414, Điều 351 khoản 2 và Điều 689 của Bộ luật Dân sự số 91/2015/QH13 theo bản truy xuất ngày 24 tháng 10 năm 2026; các khoản khác của những điều ấy chưa được đối chiếu. Bài cũng chưa đối chiếu các điều khác về hợp đồng thuê tài sản, thủ tục khởi kiện, thông báo của cơ quan nhà nước về bão hay lệnh cấm đường và chính sách hủy, hoãn của nơi cho thuê. Luật Phục hồi, phá sản số 142/2025/QH15 (Công báo số 44 ngày 22/01/2026, hiệu lực 01/03/2026) được đối chiếu ở Điều 86 khoản 5 và Điều 87 khoản 1: Điều 86 khoản 5 chỉ thay các cụm từ về phá sản trong các luật, nghị quyết của Quốc hội ban hành trước, và trong Bộ luật Dân sự các cụm từ này chỉ nằm ở Điều 95, 96 và 384, không thuộc các điều dùng trong bài này. Việc một vụ việc cụ thể có đủ năm điều kiện của Điều 420 khoản 1 hay không, và điều khoản nào áp dụng, do cơ quan có thẩm quyền xác định theo văn bản còn hiệu lực; bài chỉ đọc các điều khoản đã đối chiếu. Bài là giải thích tham khảo, không phải tư vấn pháp lý; hãy tra văn bản còn hiệu lực trên các cổng chính thức và hỏi người có chuyên môn pháp lý hoặc cơ quan có thẩm quyền khi có tranh chấp thật.'
+    ])
+  ],
+  checklist: [
+    'Mở hợp đồng thuê xe và tìm điều khoản về đổi lịch trình, hủy, hoãn và cách thông báo cho bên kia.',
+    'Đọc Điều 420 khoản 1 và đối chiếu từng điểm trong năm điều kiện với sự việc, thay vì chỉ dựa vào tên gọi bão hay đường bị cấm.',
+    'Đọc Điều 420 khoản 2, 3 và 4 để nắm thứ tự đàm phán lại, yêu cầu Tòa án và nghĩa vụ trong lúc chờ.',
+    'Phân biệt Điều 420 với Điều 414 và Điều 351 khoản 2, vì mỗi điều trả lời một câu hỏi khác.',
+    'Ghi tên văn bản, số hiệu, ngày bạn tra cứu và kiểm tra văn bản còn hiệu lực.',
+    'Hỏi người có chuyên môn pháp lý hoặc cơ quan có thẩm quyền trước khi kết luận về một vụ việc cụ thể.'
+  ],
+  steps: [
+    { title: 'Xác định sự việc và điều đã thỏa thuận', detail: 'Ghi rõ điều gì đã xảy ra sau khi hai bên giao kết hợp đồng và hai bên đã thỏa thuận gì về việc thay đổi, hủy hoặc hoãn.' },
+    { title: 'Đọc năm điều kiện ở Điều 420 khoản 1', detail: 'Đọc từng điểm a, b, c, d, đ và nhớ rằng câu mở đầu đòi có đủ các điều kiện, không phải một vài điều kiện.' },
+    { title: 'Đọc các bước ở Điều 420 khoản 2, 3, 4', detail: 'Đọc quyền yêu cầu đàm phán lại, quyền yêu cầu Tòa án chấm dứt hoặc sửa đổi hợp đồng và nghĩa vụ phải tiếp tục trong lúc chờ.' },
+    { title: 'Phân biệt với Điều 414 và Điều 351 khoản 2', detail: 'Đọc hai điều này để thấy chúng trả lời câu hỏi khác; bài không kết luận điều nào áp dụng cho một vụ việc cụ thể.' },
+    { title: 'Kiểm tra hiệu lực và hỏi nơi có thẩm quyền', detail: 'Tra lại văn bản còn hiệu lực trên cổng chính thức, theo dõi thông báo của cơ quan có thẩm quyền về an toàn và hỏi người có chuyên môn pháp lý khi cần quyết định thật.' }
+  ],
+  warnings: [
+    'Không suy ra từ bài rằng một cơn bão hay một lệnh cấm đường đã đủ năm điều kiện, hay rằng ai đó sẽ được hoàn tiền hoặc phải trả khoản nào; bài không nêu số tiền và không kết luận cho một chuyến thuê cụ thể.',
+    'Không dùng bài để quyết định có lái xe trong lúc có bão hoặc khi đường bị cấm; hãy theo thông báo của cơ quan có thẩm quyền và đặt an toàn lên trước.',
+    'Không dùng bài thay cho tư vấn pháp lý; văn bản có thể thay đổi sau ngày truy xuất, hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: Bộ luật Dân sự số 91/2015/QH13 ngày 24/11/2015 của Quốc hội, Cơ sở dữ liệu quốc gia về pháp luật (vbpl.vn) và Cổng thông tin điện tử Công báo, truy xuất ngày 24/10/2026; Luật Phục hồi, phá sản số 142/2025/QH15 chỉ được đối chiếu ở Điều 86 khoản 5 và Điều 87 khoản 1.',
+    'Bài là giải thích tham khảo, không phải tư vấn pháp lý; không có mức tiền hay kết luận cho một tình huống cụ thể, và cần kiểm tra văn bản còn hiệu lực trước khi dùng.'
+  ],
+  references: [
+    'Bộ luật Dân sự số 91/2015/QH13 ngày 24/11/2015 của Quốc hội (Điều 351 khoản 2, Điều 414, Điều 420 khoản 1 đến 4, Điều 422 khoản 6, Điều 689), truy xuất ngày 24/10/2026',
+    'Cơ sở dữ liệu quốc gia về pháp luật (vbpl.vn) và Cổng thông tin điện tử Công báo, nơi tra cứu văn bản còn hiệu lực'
+  ],
+  related: [
+    'tra-xe-may-thue-muon-bo-luat-dan-su-cho-ben-cho-thue-doi-nhung-khoan-nao-va-rui-ro-hong-mat-thuoc-ve-ai',
+    'giay-uy-quyen-xe-may-khong-ghi-thoi-han-hieu-luc-may-nam-uy-quyen-lai-va-cham-dut-uy-quyen-the-nao',
+    'gui-xe-may-o-bai-quan-hay-nha-nguoi-quen-roi-bi-mat-ben-giu-xe-co-phai-boi-thuong-theo-bo-luat-dan-su-khong',
+    'thue-xe-may-chi-noi-mieng-hoac-nhan-tin-khong-ky-giay-bo-luat-dan-su-co-coi-la-hop-dong-khong',
+    'thoi-hieu-khoi-kien-doi-lai-tien-coc-thue-xe-hoac-doi-boi-thuong-03-nam-tinh-tu-ngay-nao-va-khi-nao-tinh-lai'
+  ]
+};
