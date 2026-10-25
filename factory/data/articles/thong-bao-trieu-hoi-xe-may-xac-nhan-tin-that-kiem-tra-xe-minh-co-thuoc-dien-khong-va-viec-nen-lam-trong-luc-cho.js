@@ -1,0 +1,96 @@
+// AI WIKI TOTAL — S02157 (topic V2); không nêu số liệu, giá hay tên hãng.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'thong-bao-trieu-hoi-xe-may-xac-nhan-tin-that-kiem-tra-xe-minh-co-thuoc-dien-khong-va-viec-nen-lam-trong-luc-cho',
+  title: 'Thông báo triệu hồi xe máy: xác nhận tin thật, kiểm tra xe mình có thuộc diện không và việc nên làm trong lúc chờ',
+  seoTitle: 'Triệu hồi xe máy: xác nhận tin thật, xe mình có thuộc diện không',
+  metaDescription: 'Nhận tin triệu hồi xe máy: cách xác nhận thông báo thật, đối chiếu dòng xe và số khung, việc nên làm trong lúc chờ lịch và hỏi gì khi mang xe đến.',
+  summary: 'Bạn nghe nói dòng xe mình đang bị triệu hồi, hoặc nhận một tin nhắn, một cuộc gọi, một lá thư báo như vậy. Câu hỏi dồn dập cùng lúc: tin này thật hay giả, xe mình có nằm trong diện không, phải mang đến đâu, và trong lúc chưa kịp đi thì có nên chạy tiếp hay không. Bài này đi theo đúng thứ tự đó: hiểu triệu hồi khác gì một đợt bảo dưỡng thường và khác gì tin đồn trên mạng, tự tìm kênh chính thức để xác nhận thay vì làm theo đường dẫn trong tin, đối chiếu dòng xe, đời xe và số khung với nội dung thông báo, đọc phần mô tả lỗi để quyết định có nên hạn chế dùng xe, rồi chuẩn bị gì, hỏi gì và giữ lại gì khi mang xe đến nơi tiếp nhận. Bài không hướng dẫn tự sửa, và không kết luận xe nào an toàn hay nguy hiểm khi chưa có thông tin từ hãng.',
+  quickAnswer: 'Triệu hồi là việc nhà sản xuất mời chủ xe thuộc một nhóm xe nhất định mang xe đến nơi được chỉ định để kiểm tra hoặc xử lý một lỗi có thể ảnh hưởng an toàn; nó khác bảo dưỡng định kỳ và khác tin đồn trên mạng. Khi nhận được thông báo, đừng bấm đường dẫn, đừng gọi số trong tin và tuyệt đối không đọc mã xác nhận cho người gọi: hãy tự tìm kênh chính thức của hãng hoặc đại lý ủy quyền, rồi đối chiếu tên dòng xe, đời xe và số khung của xe mình với nội dung thông báo. Trong lúc chờ lịch, đọc kỹ phần mô tả lỗi và khuyến nghị đi kèm; nếu thông báo yêu cầu hạn chế hoặc ngừng dùng xe thì làm theo, nếu chưa rõ thì hỏi đại lý rồi giảm rủi ro bằng cách đi ít, đi chậm, tránh tải nặng và đường xấu. Không tự tháo, tự sửa chi tiết được nêu tên; khi mang xe đến, ghi lại nội dung đã làm và giữ phiếu hoàn tất.',
+  keyPoints: [
+    'Triệu hồi do nhà sản xuất khởi xướng cho một nhóm xe cụ thể, nhằm kiểm tra hoặc xử lý một lỗi có thể ảnh hưởng an toàn; bảo dưỡng định kỳ là việc chăm sóc theo lịch do chủ xe chủ động, còn tin đồn trên mạng thì chưa có căn cứ nào.',
+    'Thông báo triệu hồi là cái cớ rất hợp để kẻ xấu lừa người lo xe: không bấm đường dẫn lạ, không gọi số trong tin, không đọc mã xác nhận, không chuyển tiền; hãy tự tìm kênh chính thức rồi hỏi lại.',
+    'Tên dòng xe giống nhau chưa đủ để kết luận; cần đối chiếu cả phiên bản, đời xe và số khung với phạm vi nêu trong thông báo, và nhờ kênh chính thức tra giúp theo số khung.',
+    'Phần mô tả lỗi và khuyến nghị tạm thời trong thông báo quyết định bạn nên đặt lịch sớm hay hạn chế dùng xe; chưa có thông tin từ hãng thì không khẳng định xe an toàn hay nguy hiểm, chỉ giảm rủi ro và hỏi đại lý.',
+    'Khi mang xe đến, hỏi rõ đợt này làm gì, tách riêng hạng mục phát sinh ngoài đợt, giữ phiếu tiếp nhận và phiếu hoàn tất, rồi theo dõi đúng bộ phận được xử lý trong những ngày đầu.'
+  ],
+  category: 'docs',
+  hub: 'tai-lieu-tham-khao',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['triệu hồi xe máy', 'thông báo triệu hồi', 'đại lý ủy quyền', 'số khung', 'đời xe và phiên bản', 'kênh thông báo chính thức', 'tin nhắn giả mạo', 'mã xác nhận một lần', 'phiếu tiếp nhận và hoàn tất'],
+  keywords: ['triệu hồi xe máy', 'thông báo triệu hồi xe máy thật hay giả', 'kiểm tra xe có bị triệu hồi không', 'tra số khung xe máy triệu hồi', 'xe máy bị triệu hồi có nên chạy tiếp'],
+  sections: [
+    P('Triệu hồi xe máy là gì và khác gì với một đợt bảo dưỡng thường', [
+      'Triệu hồi là việc nhà sản xuất, sau khi tự phát hiện hoặc nhận ra một lỗi có thể ảnh hưởng an toàn ở một nhóm xe nhất định, mời chủ xe mang xe đến nơi được chỉ định để kiểm tra hoặc xử lý. Hai chữ đáng nhớ nhất là nhóm xe nhất định. Lỗi được gắn với một lô, một dòng, một giai đoạn sản xuất, chứ không phải chuyện xe nào cũng có. Lời mời xuất phát từ phía hãng, không phải từ chuyện bạn thấy xe trục trặc rồi chủ động mang đi sửa. Vì thế một chiếc xe đang chạy rất êm vẫn có thể nhận được thông báo, và ngược lại, xe đang có triệu chứng lạ chưa chắc đã nằm trong diện.',
+      'Cách dễ nhất để phân biệt với bảo dưỡng định kỳ là hỏi ai khởi xướng và nhắm vào cái gì. Bảo dưỡng định kỳ do chủ xe quyết định theo lịch trong sách hướng dẫn, nhắm vào những thứ hao mòn bình thường như nhớt, lọc, bugi, má phanh. Triệu hồi do hãng khởi xướng, nhắm vào một chi tiết hoặc một cụm cụ thể được nêu tên trong thông báo, và lý do là một khiếm khuyết có thể xuất hiện dù bạn chăm xe rất đều. Chăm xe kỹ không thay được việc xử lý khiếm khuyết đó, cũng như xử lý khiếm khuyết đó không thay được việc bảo dưỡng theo lịch.',
+      'Triệu hồi cũng khác với tin đồn. Trên các nhóm mạng của chủ xe, câu dòng này bị triệu hồi rồi lan rất nhanh, nhưng nhiều khi đó chỉ là một người kể lại lời người khác, hoặc là nhầm lẫn với những chuyện gần giống: đợt chăm sóc khách hàng, đợt nâng cấp phần mềm, khuyến nghị kỹ thuật chung hay một đợt tặng quà kiểm tra xe. Thông báo triệu hồi đúng nghĩa có nội dung xác định: nói rõ dòng xe nào, giai đoạn nào, chi tiết nào, việc sẽ làm là gì. Tin đồn thì thường mơ hồ, kiểu nghe nói, có bạn bảo, và không chỉ ra được chi tiết nào.',
+      'Một điều cần giữ trong đầu ngay từ đầu: nghe tin chưa phải là có căn cứ. Bạn chưa thể kết luận xe mình nguy hiểm, cũng chưa thể kết luận xe mình vô can, cho tới khi hai việc được làm xong là xác nhận thông báo có thật và đối chiếu xe mình với phạm vi của nó. Bài này đi theo đúng thứ tự ấy, từ lúc nhận tin tới lúc xe được xử lý. Phần điều khoản bảo hành và quyền lợi của chủ xe nằm ở tài liệu của hãng; cách đọc và dùng các tài liệu chính hãng đã có bài riêng trên trang về hướng dẫn chính hãng, nên ở đây không bàn lại.'
+    ]),
+    P('Xác nhận thông báo là thật trước khi làm theo', [
+      'Người chủ xe nghe nói xe có thể có lỗi an toàn thường rất dễ làm theo chỉ dẫn, và kẻ xấu hiểu điều đó. Một tin nhắn giả mạo thông báo triệu hồi có thể dẫn tới trang web giả để lấy thông tin cá nhân, xin mã xác nhận gửi về điện thoại, yêu cầu cài một ứng dụng lạ, hoặc đòi chuyển khoản để giữ chỗ hay để xử lý hồ sơ. Vì vậy nguyên tắc đầu tiên là không làm theo bất kỳ chỉ dẫn nào nằm ngay trong tin nhắn hay cuộc gọi đó, dù nội dung nghe rất khẩn cấp và rất đúng tên xe của bạn.',
+      'Cách xác nhận đáng tin nhất là tự đi tìm kênh chính thức, không đi theo con đường mà thông báo chỉ sẵn. Bạn có thể tự tìm trang thông tin của hãng bằng cách gõ tên hãng lên công cụ tìm kiếm rồi kiểm tra đó có đúng là trang chính thức không; lấy số liên hệ in trong sổ bảo hành hay sách hướng dẫn; hoặc ghé thẳng đại lý ủy quyền mà bạn từng mua xe hay bảo dưỡng. Sau đó hỏi một câu thật cụ thể: dòng xe này, đời này, phiên bản này hiện có thông báo kiểm tra an toàn nào không. Nhân viên có thể tra theo số khung, và câu trả lời của họ đáng tin hơn bất kỳ ảnh chụp màn hình nào bạn nhận được.',
+      'Có một số dấu hiệu đáng ngờ nên nhận ra sớm. Tin giục giã kiểu phải xử lý ngay hôm nay nếu không xe sẽ nguy hiểm; đường dẫn lạ hoặc đã rút gọn; tên miền nhìn gần giống tên hãng nhưng sai vài ký tự; yêu cầu cài ứng dụng ngoài kho ứng dụng thông thường; yêu cầu cung cấp mật khẩu, ảnh thẻ ngân hàng hay mã xác nhận một lần gửi về điện thoại; và bất kỳ yêu cầu chuyển tiền nào trước khi bạn đến nơi tiếp nhận. Một lời mời kiểm tra xe đúng nghĩa không cần bạn đọc mã xác nhận cho người gọi. Nếu có người tự xưng nhân viên gọi tới, hãy cúp máy, tìm số chính thức rồi tự gọi lại.',
+      'Cũng cần cẩn thận với cả những tin có thể là thật nhưng đã đi sai đường: ảnh chụp thông báo của một đợt khác, của một dòng xe khác, hoặc một thông báo cũ đã được xử lý xong. Ảnh đã qua nhiều lần chia sẻ có thể bị cắt, bị sửa, hoặc thiếu đúng phần quan trọng là phạm vi áp dụng. Đừng chuyển tiếp tin cho người khác khi bạn chưa xác nhận, vì làm vậy chính là tiếp tay cho tin giả lan nhanh hơn. Nếu nghi ngờ tin là giả, đừng bấm vào, chặn số gửi và báo lại cho đại lý để họ biết. Các thông báo khác cũng hay bị giả mạo, như thông báo phạt nguội, cần cùng một nguyên tắc tự xác nhận qua kênh chính thức; phần đó đã có bài riêng trên trang.'
+    ]),
+    P('Đối chiếu dòng xe, đời xe và số khung để biết xe mình có thuộc diện không', [
+      'Thông báo triệu hồi thường khoanh vùng theo dòng xe, theo giai đoạn sản xuất, và đôi khi theo từng dải số khung. Vì vậy chỉ giống tên gọi thì chưa đủ để kết luận. Cùng một tên dòng xe có thể có nhiều phiên bản, nhiều đời, và chỉ một phần trong số đó nằm trong phạm vi. Bạn cần ba thông tin về xe mình: tên dòng xe kèm phiên bản, đời hay năm sản xuất, và số khung. Có đủ ba thứ ấy, việc đối chiếu mới có nghĩa.',
+      'Số khung là một dãy chữ và số được đóng hoặc khắc trên khung xe, đồng thời được in trên giấy tờ xe; vị trí cụ thể trên xe tùy từng dòng, và sách hướng dẫn thường có hình chỉ chỗ. Hãy chụp ảnh lại bằng điện thoại, đọc lại từng ký tự cho thật kỹ vì nhiều ký tự rất dễ nhầm với nhau khi dính bụi hay mờ. Đừng gửi ảnh số khung cho người lạ qua tin nhắn; chỉ cung cấp cho kênh chính thức mà bạn đã tự tìm và tự xác nhận. Nếu sách hướng dẫn của xe đã thất lạc, bài về tài liệu kỹ thuật xe trên trang hướng dẫn cách tìm lại và giữ gìn các tài liệu này.',
+      'Có trường hợp phạm vi trong thông báo gắn với một đặc điểm kỹ thuật mà chủ xe không phải ai cũng biết rõ, chẳng hạn xe dùng loại hệ thống nhiên liệu nào. Khi đó bạn cần biết xe mình thuộc loại nào trước khi đối chiếu; cách nhận ra xe phun xăng điện tử hay chế hòa khí bằng dấu hiệu nhìn được, nghe được đã có bài riêng trên trang. Nhưng nếu còn lưỡng lự, cách chắc chắn nhất vẫn là đưa số khung cho kênh chính thức tra, vì hãng lưu danh sách xe theo số khung nên kết quả chính xác hơn nhiều so với việc tự suy ra theo tên dòng hay hình dáng.',
+      'Kết quả đối chiếu có ba khả năng: thuộc diện, không thuộc diện, hoặc chưa rõ. Dù là khả năng nào, hãy ghi lại ngày giờ hỏi, người trả lời và nội dung trả lời. Không thuộc diện chỉ có nghĩa xe không nằm trong đợt này, không có nghĩa xe được bảo đảm không có vấn đề nào khác. Chưa rõ thì hỏi thêm, đừng đoán. Xe đã qua tay người khác cần đặc biệt lưu ý: thông tin liên hệ trong hệ thống của hãng nhiều khi vẫn là của chủ đầu tiên, nên thông báo có thể chưa bao giờ tới người đang dùng xe. Ai mua xe cũ nên chủ động hỏi theo số khung, và ai bán xe nên báo cho người mua nếu biết có thông báo chưa xử lý.'
+    ]),
+    P('Trong lúc chờ lịch: đọc dấu hiệu lỗi và quyết định có nên dùng xe', [
+      'Một thông báo nghiêm túc thường có phần mô tả: chi tiết hay cụm nào bị ảnh hưởng, lỗi có thể biểu hiện ra sao, và hãng khuyến nghị gì trong lúc chờ xử lý. Đây là phần quan trọng nhất để bạn quyết định mình nên làm gì, nên hãy đọc nguyên văn thay vì dựa vào bản tóm tắt của người khác. Chú ý các cụm từ chỉ mức độ: tạm ngừng sử dụng, hạn chế sử dụng, hay đặt lịch vào thời gian thuận tiện. Mỗi cụm từ dẫn tới một cách hành xử khác nhau, và bạn không nên tự diễn giải theo hướng dễ chịu cho mình.',
+      'Nếu thông báo khuyến cáo ngừng hoặc hạn chế dùng xe thì hãy làm đúng như vậy; đừng tự thử xem có sao không, vì không có cách nào để một người dùng xe thông thường biết chi tiết đó còn chịu được hay không. Nếu thông báo chỉ nói đặt lịch, bạn vẫn nên đặt sớm thay vì để đó rồi quên. Nếu thông báo không nói gì về mức độ, hãy hỏi thẳng đại lý rằng trong lúc chờ lịch tôi có nên chạy xe không, và nếu có thì cần tránh những gì. Chép lại câu trả lời, vì đó là hướng dẫn của người có thông tin chính thức trong tay.',
+      'Khi chưa có thông tin rõ từ hãng, đừng khẳng định xe an toàn và cũng đừng khẳng định xe nguy hiểm; cả hai đều là phỏng đoán. Điều bạn làm được là giảm rủi ro. Đi ít hơn, chọn quãng ngắn và đường quen thay vì đường dài hay đường đèo dốc, giảm tốc sớm hơn thường lệ, giữ khoảng cách rộng hơn với xe phía trước, tránh chở nặng, tránh chạy trời mưa hay ban đêm nếu có thể. Nếu có phương tiện khác để đi thì dùng nó cho những chuyến dài. Đây là cách nghĩ chung, còn mức độ cần thận trọng tới đâu tùy nội dung thông báo và tùy chi tiết được nêu.',
+      'Có hai việc không nên làm trong lúc chờ. Một là tự tháo, tự chỉnh, tự thay chi tiết được nêu tên, hoặc nhờ thợ vặt làm thay đợt xử lý của hãng; cách sửa không đúng quy trình có thể làm kết quả kiểm tra sau này khó hơn và có thể gây thêm hỏng hóc. Hai là bỏ qua những biểu hiện bất thường vì nghĩ mình đang chờ lịch rồi. Nếu xe có tiếng lạ, mùi khét, cảm giác lái khác thường hoặc tay phanh thay đổi, hãy dừng ở chỗ an toàn, không cố chạy tiếp, nhờ chở xe hoặc gọi đại lý. Chụp ảnh hay quay video ngắn khi xe đã đứng yên và ghi lại thời điểm, vì chi tiết này giúp người kiểm tra làm việc nhanh hơn.'
+    ]),
+    P('Khi mang xe đến: hỏi gì, ghi gì và theo dõi sau khi xử lý', [
+      'Trước khi đi, hãy đặt lịch qua kênh chính thức mà bạn đã tự xác nhận, rồi hỏi rõ vài điều: việc này kéo dài khoảng bao lâu, xe có phải để lại hay không, cần mang theo những gì. Thông thường nên mang giấy tờ xe để chứng minh bạn là người được phép làm việc, sổ bảo dưỡng nếu có, bản chụp thông báo, và điện thoại có sẵn ảnh số khung. Nếu nhờ người nhà mang xe đi thay mình, hãy dặn trước ai được đồng ý hạng mục nào và nhận xe ra sao; những điều cần dặn đã có bài riêng trên trang về việc nhờ người nhà mang xe đi sửa hoặc bảo dưỡng.',
+      'Khi tiếp nhận, hỏi cho rõ đợt này kiểm tra hay thay chi tiết, và nếu kiểm tra xong không thấy lỗi thì kết quả được ghi thế nào. Nếu có thay, hỏi chi tiết cũ được xử lý ra sao và có được ghi lại hay không. Quan trọng nhất là tách bạch giữa việc nằm trong đợt này và những hạng mục khác được đề xuất làm thêm: hạng mục ngoài đợt là chuyện riêng, bạn có quyền cân nhắc và quyết định, đừng ký một tờ giấy chung chung kiểu đồng ý mọi hạng mục. Hỏi rõ phần nào do hãng đảm nhận trong đợt này và phần nào là phát sinh riêng, để không nhầm hai thứ vào nhau.',
+      'Hãy ghi và giữ lại những gì chứng minh xe đã được xử lý: phiếu tiếp nhận, phiếu hoàn tất ghi nội dung đã làm, ngày, nơi thực hiện và tên người phụ trách, tin nhắn xác nhận lịch hẹn. Chụp ảnh tình trạng bên ngoài của xe và số hiển thị trên đồng hồ lúc giao và lúc nhận. Cất các giấy tờ này cùng sổ bảo dưỡng, và ghi thêm một dòng vào sổ ghi chép riêng của bạn. Về sau, khi bán xe, khi xe có sự cố hay khi cần chứng minh mình đã xử lý đúng hạn, những tờ giấy này giúp bạn nhiều hơn mọi lời kể.',
+      'Sau khi nhận xe, vài ngày đầu hãy để ý đúng bộ phận vừa được xử lý: cảm giác lái, tiếng động, mùi, và bất cứ hiện tượng nào giống mô tả trong thông báo. Nếu triệu chứng cũ vẫn còn hoặc xuất hiện triệu chứng mới, quay lại đúng nơi đã tiếp nhận, mang theo phiếu hoàn tất và kể rõ, thay vì tự thử sửa. Xử lý xong cũng không có nghĩa là bỏ qua lịch bảo dưỡng định kỳ; hai việc này luôn đi song song. Giữ thói quen thỉnh thoảng hỏi đại lý xem dòng xe của mình có thông báo mới không, nhất là khi xe đã đổi chủ hoặc thông tin liên hệ của bạn đã đổi.'
+    ])
+  ],
+  checklist: [
+    'Nhận tin triệu hồi: không bấm đường dẫn, không gọi số trong tin, không đọc mã xác nhận, không chuyển tiền cho bất kỳ ai.',
+    'Tự tìm kênh chính thức: trang của hãng, số liên hệ in trong sổ bảo hành hoặc đại lý ủy quyền; hỏi lại xem dòng xe và đời xe mình có thông báo không.',
+    'Chuẩn bị đủ ba thông tin về xe: tên dòng xe kèm phiên bản, đời xe và số khung đọc chính xác từng ký tự.',
+    'Ghi lại kết quả đối chiếu: ngày giờ, người trả lời, thuộc diện, không thuộc diện hay chưa rõ.',
+    'Đọc nguyên văn phần mô tả lỗi và khuyến nghị tạm thời; chưa rõ mức độ thì hỏi đại lý có nên chạy xe trong lúc chờ không.',
+    'Trong lúc chờ: đi ít, đi chậm, tránh tải nặng và đường xấu; không tự tháo hay sửa chi tiết được nêu tên.',
+    'Khi đến nơi tiếp nhận: tách hạng mục trong đợt khỏi hạng mục phát sinh, xin phiếu tiếp nhận và phiếu hoàn tất, chụp ảnh xe lúc giao và lúc nhận.',
+    'Sau xử lý: theo dõi đúng bộ phận được làm trong vài ngày đầu, quay lại cùng nơi tiếp nhận nếu triệu chứng còn hoặc có triệu chứng mới.'
+  ],
+  steps: [
+    { title: 'Giữ bình tĩnh và đừng làm theo tin', detail: 'Chưa bấm đường dẫn, chưa gọi số trong tin, chưa đọc mã xác nhận; chụp lại nội dung tin để đối chiếu về sau.' },
+    { title: 'Tự tìm kênh chính thức', detail: 'Tìm trang của hãng, lấy số liên hệ từ sổ bảo hành hay sách hướng dẫn, hoặc ghé đại lý ủy quyền; hỏi xem dòng xe và đời xe mình có thông báo không.' },
+    { title: 'Đối chiếu dòng xe, đời xe và số khung', detail: 'Đọc chính xác số khung trên xe hoặc giấy tờ, nhờ kênh chính thức tra theo số khung, rồi ghi lại kết quả cùng thời điểm hỏi.' },
+    { title: 'Đọc mô tả lỗi và quyết định cách dùng xe', detail: 'Làm đúng khuyến nghị trong thông báo; nếu thông báo không nói rõ thì hỏi đại lý và giảm rủi ro bằng cách đi ít, đi chậm, tránh tải nặng.' },
+    { title: 'Đặt lịch và chuẩn bị mang xe đến', detail: 'Đặt qua kênh chính thức, mang giấy tờ xe, sổ bảo dưỡng, bản chụp thông báo; hỏi rõ xe có phải để lại hay không và việc kéo dài khoảng bao lâu.' },
+    { title: 'Tiếp nhận, giữ chứng từ và theo dõi', detail: 'Hỏi rõ việc làm trong đợt, tách hạng mục phát sinh, giữ phiếu hoàn tất; vài ngày đầu để ý bộ phận được xử lý và quay lại nếu còn bất thường.' }
+  ],
+  warnings: [
+    'Không đọc mã xác nhận gửi về điện thoại cho bất kỳ người gọi nào, kể cả khi họ tự xưng là nhân viên của hãng; không chuyển tiền để giữ chỗ hay xử lý hồ sơ trước khi đến nơi tiếp nhận.',
+    'Không bấm đường dẫn hay cài ứng dụng do tin nhắn chỉ sẵn; chỉ dùng kênh chính thức mà bạn tự tìm và tự xác nhận.',
+    'Không tự tháo, tự chỉnh hay nhờ thợ vặt sửa chi tiết được nêu tên trong thông báo; việc kiểm tra và xử lý phải theo quy trình của hãng tại nơi tiếp nhận.',
+    'Không khẳng định xe an toàn hay nguy hiểm khi chưa có thông tin từ hãng; trong lúc chờ chỉ giảm rủi ro và hỏi đại lý.',
+    'Xe có biểu hiện bất thường khi đang đi thì dừng ở chỗ an toàn, không cố chạy tiếp để về nhà hay tới đại lý; nhờ chở xe hoặc gọi hỗ trợ.'
+  ],
+  notes: [
+    'Phạm vi, cách xử lý và khuyến nghị trong một đợt triệu hồi do từng hãng quyết định và khác nhau theo từng đợt; bài chỉ nêu quy trình chung, nội dung cụ thể phải theo thông báo chính thức đã được xác nhận.',
+    'Bài không bàn điều khoản bảo hành hay quyền lợi của chủ xe; hãy đọc tài liệu của hãng đi kèm xe và hỏi trực tiếp đại lý ủy quyền khi cần.'
+  ],
+  references: [
+    'Sách hướng dẫn sử dụng và sổ bảo hành, bảo dưỡng của nhà sản xuất xe, phần liên hệ và thông tin kỹ thuật',
+    'Tài liệu đào tạo lái xe an toàn và hướng dẫn nhận biết thông tin giả mạo, lừa đảo qua tin nhắn và cuộc gọi'
+  ],
+  related: [
+    'huong-dan-chinh-hang',
+    'phat-nguoi-xe-may-thong-bao-bang-cach-nao-chu-xe-phai-lam-gi-va-ket-qua-camera-dung-duoc-bao-lau',
+    'xe-cua-minh-la-phun-xang-dien-tu-hay-che-hoa-khi-dau-hieu-nhin-duoc-nghe-duoc-va-cach-xac-nhan-truoc-khi-noi-voi-tho',
+    'nho-nguoi-nha-mang-xe-may-di-sua-hoac-bao-duong-thay-minh-dan-gi-ai-duoc-dong-y-hang-muc-va-nhan-xe-ra-sao',
+    'tai-lieu-ky-thuat-xe'
+  ]
+};
