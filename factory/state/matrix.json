@@ -33269,11 +33269,13 @@
    "title": "Đăng ký xe máy lần đầu nộp lệ phí bao nhiêu: ba mốc trị giá xe, khu vực I và khu vực II gồm những nơi nào?",
    "primaryIntent": "informational/dang-ky-xe-may-lan-dau-nop-le-phi-bao-nhieu-ba-moc-tri-gia-xe-khu-vuc-i-va-khu-vuc-ii-gom-nhung-noi-nao",
    "notes": "source=topic-v2 topicId=T002459",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:13.562Z",
-   "updatedAt": "2026-10-25T11:00:13.562Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3318
   },
   {
    "id": "S02263",
@@ -33282,11 +33284,13 @@
    "title": "Sang tên, đổi hoặc cấp lại giấy đăng ký xe máy: lệ phí 70.000, 35.000 hay 50.000 đồng khác nhau ở đâu?",
    "primaryIntent": "informational/sang-ten-doi-hoac-cap-lai-giay-dang-ky-xe-may-le-phi-70-000-35-000-hay-50-000-dong-khac-nhau-o-dau",
    "notes": "source=topic-v2 topicId=T002460",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:19.022Z",
-   "updatedAt": "2026-10-25T11:00:19.022Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3057
   },
   {
    "id": "S02264",
@@ -33295,11 +33299,13 @@
    "title": "Ai được miễn lệ phí đăng ký xe máy: xe máy điện có được miễn không và xe ba bánh của người khuyết tật ra sao?",
    "primaryIntent": "informational/ai-duoc-mien-le-phi-dang-ky-xe-may-xe-may-dien-co-duoc-mien-khong-va-xe-ba-banh-cua-nguoi-khuyet-tat-ra-sao",
    "notes": "source=topic-v2 topicId=T002461",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:24.477Z",
-   "updatedAt": "2026-10-25T11:00:24.477Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3752
   },
   {
    "id": "S02265",
@@ -33308,11 +33314,13 @@
    "title": "Đấu giá biển số xe máy cần chuẩn bị bao nhiêu tiền: tiền hồ sơ, tiền đặt trước và bước giá 500 nghìn đồng?",
    "primaryIntent": "informational/dau-gia-bien-so-xe-may-can-chuan-bi-bao-nhieu-tien-tien-ho-so-tien-dat-truoc-va-buoc-gia-500-nghin-dong",
    "notes": "source=topic-v2 topicId=T002462",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:29.907Z",
-   "updatedAt": "2026-10-25T11:00:29.907Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3549
   },
   {
    "id": "S02266",
@@ -33321,11 +33329,13 @@
    "title": "Cho người khác thuê lại xe máy đang thuê hoặc nhường hợp đồng thuê: Bộ luật Dân sự có đòi chủ xe đồng ý không?",
    "primaryIntent": "informational/cho-nguoi-khac-thue-lai-xe-may-dang-thue-hoac-nhuong-hop-dong-thue-bo-luat-dan-su-co-doi-chu-xe-dong-y-khong",
    "notes": "source=topic-v2 topicId=T002463",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:35.042Z",
-   "updatedAt": "2026-10-25T11:00:35.042Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3369
   },
   {
    "id": "S02267",
@@ -33334,11 +33344,13 @@
    "title": "Muốn trả xe máy thuê sớm hơn thời hạn: Bộ luật Dân sự cho đơn phương chấm dứt hợp đồng khi nào?",
    "primaryIntent": "informational/muon-tra-xe-may-thue-som-hon-thoi-han-bo-luat-dan-su-cho-don-phuong-cham-dut-hop-dong-khi-nao",
    "notes": "source=topic-v2 topicId=T002464",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:40.702Z",
-   "updatedAt": "2026-10-25T11:00:40.702Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3493
   },
   {
    "id": "S02268",
@@ -33347,11 +33359,13 @@
    "title": "Chủ xe giao xe máy thuê chậm hoặc sai chất lượng: người thuê được gia hạn, giảm giá hay hủy hợp đồng?",
    "primaryIntent": "informational/chu-xe-giao-xe-may-thue-cham-hoac-sai-chat-luong-nguoi-thue-duoc-gia-han-giam-gia-hay-huy-hop-dong",
    "notes": "source=topic-v2 topicId=T002465",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:46.085Z",
-   "updatedAt": "2026-10-25T11:00:46.085Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3628
   },
   {
    "id": "S02269",
@@ -33360,11 +33374,13 @@
    "title": "Hợp đồng thuê xe máy không ghi ngày trả tiền thuê: trả khi nào và chậm ba kỳ liên tiếp thì chủ xe được làm gì?",
    "primaryIntent": "informational/hop-dong-thue-xe-may-khong-ghi-ngay-tra-tien-thue-tra-khi-nao-va-cham-ba-ky-lien-tiep-thi-chu-xe-duoc-lam-gi",
    "notes": "source=topic-v2 topicId=T002466",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:51.882Z",
-   "updatedAt": "2026-10-25T11:00:51.883Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3434
   },
   {
    "id": "S02270",
@@ -33373,11 +33389,13 @@
    "title": "Đã thuê xe máy thì gặp bão hoặc đường bị cấm: Bộ luật Dân sự cho đàm phán lại hoặc chấm dứt hợp đồng khi nào?",
    "primaryIntent": "informational/da-thue-xe-may-thi-gap-bao-hoac-duong-bi-cam-bo-luat-dan-su-cho-dam-phan-lai-hoac-cham-dut-hop-dong-khi-nao",
    "notes": "source=topic-v2 topicId=T002467",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:00:57.653Z",
-   "updatedAt": "2026-10-25T11:00:57.653Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3499
   },
   {
    "id": "S02271",
@@ -33386,11 +33404,13 @@
    "title": "Trả xe máy thuê ở đâu nếu hợp đồng không ghi địa điểm: Bộ luật Dân sự quy định nơi trả xe và chi phí thế nào?",
    "primaryIntent": "informational/tra-xe-may-thue-o-dau-neu-hop-dong-khong-ghi-dia-diem-bo-luat-dan-su-quy-dinh-noi-tra-xe-va-chi-phi-the-nao",
    "notes": "source=topic-v2 topicId=T002468",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:01:03.666Z",
-   "updatedAt": "2026-10-25T11:01:03.666Z"
+   "updatedAt": "2026-10-25T12:39:32.862Z",
+   "seoScore": 100,
+   "words": 3426
   },
   {
    "id": "S02272",

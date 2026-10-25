@@ -1584,6 +1584,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/ai-duoc-mien-le-phi-dang-ky-xe-may-xe-may-dien-co-duoc-mien-khong-va-xe-ba-banh-cua-nguoi-khuyet-tat-ra-sao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/an-toan-giao-thong/index.html",
   "kind": "article"
  },
@@ -2348,6 +2352,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/cho-nguoi-khac-thue-lai-xe-may-dang-thue-hoac-nhuong-hop-dong-thue-bo-luat-dan-su-co-doi-chu-xe-dong-y-khong/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "tips/meo-lai-xe/cho-nguoi-khiem-thi-ngoi-sau-xe-may-dan-len-xe-bao-truoc-o-ga-va-cach-mang-gay-do-duong/index.html",
   "kind": "article"
  },
@@ -2497,6 +2505,10 @@
  },
  {
   "rel": "learn/kien-thuc-phap-ly/chu-xe-gan-thiet-bi-dinh-vi-len-xe-cho-thue-luat-bao-ve-du-lieu-ca-nhan-doi-su-dong-y-nao-va-nghi-dinh-330-phat-bao-nhieu/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/chu-xe-giao-xe-may-thue-cham-hoac-sai-chat-luong-nguoi-thue-duoc-gia-han-giam-gia-hay-huy-hop-dong/index.html",
   "kind": "article"
  },
  {
@@ -2712,6 +2724,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/da-thue-xe-may-thi-gap-bao-hoac-duong-bi-cam-bo-luat-dan-su-cho-dam-phan-lai-hoac-cham-dut-hop-dong-khi-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "ride/an-toan-giao-thong/da-uong-ruou-bia-thi-khong-lai-xe-may/index.html",
   "kind": "article"
  },
@@ -2733,6 +2749,10 @@
  },
  {
   "rel": "ride/du-lich-xe-may/dang-anh-story-va-check-in-khi-dang-di-xa-bang-xe-may-lo-cho-nghi-nha-vang-bien-xe-va-nen-dang-luc-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/dang-ky-xe-may-lan-dau-nop-le-phi-bao-nhieu-ba-moc-tri-gia-xe-khu-vuc-i-va-khu-vuc-ii-gom-nhung-noi-nao/index.html",
   "kind": "article"
  },
  {
@@ -2773,6 +2793,10 @@
  },
  {
   "rel": "tips/meo-lai-xe/dau-dau-goi-khi-di-xe-may-tu-the-chan-chong-chan-khi-dung-gio-lanh-va-khi-nao-di-kham/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/dau-gia-bien-so-xe-may-can-chuan-bi-bao-nhieu-tien-tien-ho-so-tien-dat-truoc-va-buoc-gia-500-nghin-dong/index.html",
   "kind": "article"
  },
  {
@@ -4256,6 +4280,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/hop-dong-thue-xe-may-khong-ghi-ngay-tra-tien-thue-tra-khi-nao-va-cham-ba-ky-lien-tiep-thi-chu-xe-duoc-lam-gi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "docs/tai-lieu-tham-khao/huong-dan-chinh-hang/index.html",
   "kind": "article"
  },
@@ -5033,6 +5061,10 @@
  },
  {
   "rel": "guide/su-dung-xe/muon-hay-cho-muon-mu-bao-hiem-thu-vua-dau-lop-lot-co-sach-khong-mu-da-tung-va-dap-chua-va-tra-lai-the-nao/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/muon-tra-xe-may-thue-som-hon-thoi-han-bo-luat-dan-su-cho-don-phuong-cham-dut-hop-dong-khi-nao/index.html",
   "kind": "article"
  },
  {
@@ -5829,6 +5861,10 @@
  },
  {
   "rel": "guide/xu-ly-su-co/sang-ra-thay-xang-xe-may-voi-bat-thuong-sau-mot-dem-do-xe-bi-hut-trom-ro-ri-hay-dong-ho-bao-sai-va-cach-phong/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/sang-ten-doi-hoac-cap-lai-giay-dang-ky-xe-may-le-phi-70-000-35-000-hay-50-000-dong-khac-nhau-o-dau/index.html",
   "kind": "article"
  },
  {
@@ -7241,6 +7277,10 @@
  },
  {
   "rel": "learn/kien-thuc-phap-ly/tra-xe-may-thue-muon-bo-luat-dan-su-cho-ben-cho-thue-doi-nhung-khoan-nao-va-rui-ro-hong-mat-thuoc-ve-ai/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/tra-xe-may-thue-o-dau-neu-hop-dong-khong-ghi-dia-diem-bo-luat-dan-su-quy-dinh-noi-tra-xe-va-chi-phi-the-nao/index.html",
   "kind": "article"
  },
  {
