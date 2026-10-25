@@ -33753,11 +33753,13 @@
    "title": "Quán, cửa hàng hay bãi giữ xe có ổ sạc xe điện cho khách: giá điện tính theo mục đích nào, cần công tơ riêng?",
    "primaryIntent": "informational/quan-cua-hang-hay-bai-giu-xe-co-o-sac-xe-dien-cho-khach-gia-dien-tinh-theo-muc-dich-nao-can-cong-to-rieng",
    "notes": "source=topic-v2 topicId=T002491",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:32.047Z",
-   "updatedAt": "2026-10-25T15:07:32.047Z"
+   "updatedAt": "2026-10-25T23:35:14.500Z",
+   "seoScore": 100,
+   "words": 3692
   },
   {
    "id": "S02295",
@@ -33766,11 +33768,13 @@
    "title": "Bị thương sau tai nạn xin giám định thương tích: đề nghị ai, cơ quan xem xét bao lâu, khi nào tự yêu cầu?",
    "primaryIntent": "informational/bi-thuong-sau-tai-nan-xin-giam-dinh-thuong-tich-de-nghi-ai-co-quan-xem-xet-bao-lau-khi-nao-tu-yeu-cau",
    "notes": "source=topic-v2 topicId=T002492",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:37.368Z",
-   "updatedAt": "2026-10-25T15:07:37.368Z"
+   "updatedAt": "2026-10-25T23:35:14.500Z",
+   "seoScore": 100,
+   "words": 3730
   },
   {
    "id": "S02296",
@@ -33779,11 +33783,13 @@
    "title": "Tự yêu cầu giám định thương tích: văn bản ghi gì, nộp hồ sơ ra sao, bao lâu có thông báo tiếp nhận?",
    "primaryIntent": "informational/tu-yeu-cau-giam-dinh-thuong-tich-van-ban-ghi-gi-nop-ho-so-ra-sao-bao-lau-co-thong-bao-tiep-nhan",
    "notes": "source=topic-v2 topicId=T002493",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:42.720Z",
-   "updatedAt": "2026-10-25T15:07:42.720Z"
+   "updatedAt": "2026-10-25T23:35:14.500Z",
+   "seoScore": 100,
+   "words": 3575
   },
   {
    "id": "S02297",
