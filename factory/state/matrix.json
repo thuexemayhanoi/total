@@ -33618,11 +33618,13 @@
    "title": "Lái xe máy khi trong cơ thể có ma túy hoặc chất kích thích khác: phạt bao nhiêu và tước bằng mấy tháng?",
    "primaryIntent": "informational/lai-xe-may-khi-trong-co-the-co-ma-tuy-hoac-chat-kich-thich-khac-phat-bao-nhieu-va-tuoc-giay-phep-lai-xe-may-thang",
    "notes": "source=topic-v2 topicId=T002482",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:02:22.879Z",
-   "updatedAt": "2026-10-25T11:02:22.879Z"
+   "updatedAt": "2026-10-25T14:17:59.426Z",
+   "seoScore": 100,
+   "words": 3475
   },
   {
    "id": "S02286",
@@ -33631,11 +33633,13 @@
    "title": "Rải đinh, đổ chất gây trơn trượt hoặc đặt vật cản trên đường bộ: Luật cấm thế nào và phạt cá nhân bao nhiêu?",
    "primaryIntent": "informational/rai-dinh-do-chat-gay-tron-truot-hoac-dat-vat-can-tren-duong-bo-luat-cam-the-nao-va-phat-ca-nhan-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002483",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:02:28.512Z",
-   "updatedAt": "2026-10-25T11:02:28.512Z"
+   "updatedAt": "2026-10-25T14:17:59.426Z",
+   "seoScore": 100,
+   "words": 3396
   },
   {
    "id": "S02287",
@@ -33644,11 +33648,13 @@
    "title": "Sửa xe, rửa xe hoặc bày bán trên vỉa hè, lòng đường: phạt cá nhân bao nhiêu và khi nào được dùng tạm thời?",
    "primaryIntent": "informational/tiem-sua-xe-rua-xe-hoac-bay-ban-tren-via-he-long-duong-phat-ca-nhan-bao-nhieu-va-khi-nao-duoc-dung-tam-thoi",
    "notes": "source=topic-v2 topicId=T002484",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T11:02:33.952Z",
-   "updatedAt": "2026-10-25T11:02:33.952Z"
+   "updatedAt": "2026-10-25T14:17:59.426Z",
+   "seoScore": 100,
+   "words": 3680
   }
  ]
 }
