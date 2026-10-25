@@ -32094,11 +32094,13 @@
    "title": "Công an cấp xã có được dừng xe máy xử lý vi phạm giao thông không: huy động khi nào và xử lý những lỗi nào?",
    "primaryIntent": "informational/cong-an-cap-xa-duoc-dung-xe-may-xu-ly-vi-pham-giao-thong-khi-nao-huy-dong-tuyen-duong-va-nhung-loi-nao",
    "notes": "source=topic-v2 topicId=T002382",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:08.095Z",
-   "updatedAt": "2026-10-24T22:25:08.095Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3381
   },
   {
    "id": "S02186",
@@ -32107,11 +32109,13 @@
    "title": "Cảnh sát giao thông ra hiệu lệnh dừng bằng tín hiệu nào và người đi xe máy phải làm gì khi nhận hiệu lệnh?",
    "primaryIntent": "informational/canh-sat-giao-thong-ra-hieu-lenh-dung-bang-tin-hieu-nao-va-nguoi-di-xe-may-phai-lam-gi-khi-nhan-hieu-lenh",
    "notes": "source=topic-v2 topicId=T002383",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:12.413Z",
-   "updatedAt": "2026-10-24T22:25:12.413Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3226
   },
   {
    "id": "S02187",
@@ -32120,11 +32124,13 @@
    "title": "Điểm kiểm soát của Cảnh sát giao thông phải có gì: rào chắn, đèn ban đêm, áo phản quang và camera ghi hình?",
    "primaryIntent": "informational/diem-kiem-soat-cua-canh-sat-giao-thong-phai-bo-tri-the-nao-rao-chan-den-ban-dem-ao-phan-quang-va-camera-ghi-hinh",
    "notes": "source=topic-v2 topicId=T002384",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:16.563Z",
-   "updatedAt": "2026-10-24T22:25:16.564Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3271
   },
   {
    "id": "S02188",
@@ -32133,11 +32139,13 @@
    "title": "Cảnh sát giao thông kiểm soát những gì khi dừng xe máy: giấy tờ, điều kiện xe, số người chở, hàng hóa?",
    "primaryIntent": "informational/canh-sat-giao-thong-kiem-soat-nhung-noi-dung-nao-khi-dung-xe-may-giay-to-dieu-kien-xe-so-nguoi-cho-va-hang-hoa",
    "notes": "source=topic-v2 topicId=T002385",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:21.144Z",
-   "updatedAt": "2026-10-24T22:25:21.144Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3448
   },
   {
    "id": "S02189",
@@ -32146,11 +32154,13 @@
    "title": "Bị báo vi phạm bằng thiết bị đo hoặc camera: có được xem lại hình ảnh, chỉ số đo và xem ở đâu?",
    "primaryIntent": "informational/bi-bao-vi-pham-bang-thiet-bi-do-hoac-camera-co-duoc-xem-lai-hinh-anh-chi-so-do-va-xem-o-dau-theo-thong-tu-73",
    "notes": "source=topic-v2 topicId=T002386",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:25.350Z",
-   "updatedAt": "2026-10-24T22:25:25.350Z"
+   "updatedAt": "2026-10-25T00:06:31.683Z",
+   "seoScore": 100,
+   "words": 3345
   },
   {
    "id": "S02190",
@@ -32159,11 +32169,13 @@
    "title": "Cảnh sát giao thông có được khám người hoặc khám xe không: căn cứ, quyết định và người chứng kiến?",
    "primaryIntent": "informational/canh-sat-giao-thong-co-duoc-kham-nguoi-hoac-kham-xe-khi-kiem-tra-khong-can-cu-quyet-dinh-va-nguoi-chung-kien",
    "notes": "source=topic-v2 topicId=T002387",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:29.602Z",
-   "updatedAt": "2026-10-24T22:25:29.602Z"
+   "updatedAt": "2026-10-25T00:06:31.683Z",
+   "seoScore": 100,
+   "words": 3625
   },
   {
    "id": "S02191",
@@ -32172,11 +32184,13 @@
    "title": "Cảnh sát giao thông mặc thường phục có được yêu cầu dừng xe máy không và tổ hóa trang được làm gì?",
    "primaryIntent": "informational/canh-sat-giao-thong-mac-thuong-phuc-co-duoc-yeu-cau-dung-xe-may-khong-to-hoa-trang-lam-gi-va-khi-nao-ra-hieu-dung",
    "notes": "source=topic-v2 topicId=T002388",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:33.837Z",
-   "updatedAt": "2026-10-24T22:25:33.837Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3116
   },
   {
    "id": "S02192",
@@ -32185,11 +32199,13 @@
    "title": "Quán bán rượu bia tại chỗ phải nhắc khách không lái xe: không nhắc hoặc thiếu biển cảnh báo bị phạt bao nhiêu?",
    "primaryIntent": "informational/quan-ban-ruou-bia-tai-cho-phai-nhac-khach-khong-lai-xe-khong-nhac-hoac-thieu-bien-canh-bao-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002389",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:38.352Z",
-   "updatedAt": "2026-10-24T22:25:38.352Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3446
   },
   {
    "id": "S02193",
@@ -32198,11 +32214,13 @@
    "title": "Thuê xe máy bị thu phụ phí không báo trước, không cho kiểm tra xe hoặc giao xe sai quảng cáo: luật cấm gì?",
    "primaryIntent": "informational/thue-xe-may-bi-thu-phu-phi-khong-bao-truoc-khong-cho-kiem-tra-xe-hoac-giao-xe-sai-quang-cao-luat-cam-gi",
    "notes": "source=topic-v2 topicId=T002390",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:42.842Z",
-   "updatedAt": "2026-10-24T22:25:42.842Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3620
   },
   {
    "id": "S02194",
@@ -32211,11 +32229,13 @@
    "title": "Khiếu nại nơi cho thuê xe máy về cọc hoặc phí: phải phản hồi trong mấy ngày, thương lượng và hòa giải ra sao?",
    "primaryIntent": "informational/khieu-nai-noi-cho-thue-xe-may-ve-coc-hoac-phi-phai-phan-hoi-trong-may-ngay-thuong-luong-va-hoa-giai-ra-sao",
    "notes": "source=topic-v2 topicId=T002391",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:47.147Z",
-   "updatedAt": "2026-10-24T22:25:47.147Z"
+   "updatedAt": "2026-10-25T00:06:31.684Z",
+   "seoScore": 100,
+   "words": 3935
   },
   {
    "id": "S02195",
