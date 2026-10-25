@@ -32539,11 +32539,13 @@
    "title": "Từ 01/7/2026 Hà Nội có cấm hết xe máy xăng trong Vành đai 1 không? Bốn giai đoạn của Đề án vùng phát thải thấp",
    "primaryIntent": "informational/ha-noi-co-cam-het-xe-may-xang-trong-vanh-dai-1-tu-01-7-2026-bon-giai-doan-cua-de-an-vung-phat-thai-thap",
    "notes": "source=topic-v2 topicId=T002411",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:19.368Z",
-   "updatedAt": "2026-10-25T00:54:19.368Z"
+   "updatedAt": "2026-10-25T03:29:40.369Z",
+   "seoScore": 100,
+   "words": 3283
   },
   {
    "id": "S02215",
@@ -32552,11 +32554,13 @@
    "title": "Xe máy điện có được vào vùng phát thải thấp ở Hà Nội không? Nghị quyết 57 phân biệt xe điện, hybrid, xe xăng",
    "primaryIntent": "informational/xe-may-dien-co-duoc-vao-vung-phat-thai-thap-ha-noi-nghi-quyet-57-phan-biet-xe-dien-hybrid-xe-xang",
    "notes": "source=topic-v2 topicId=T002412",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:24.002Z",
-   "updatedAt": "2026-10-25T00:54:24.002Z"
+   "updatedAt": "2026-10-25T03:29:40.369Z",
+   "seoScore": 100,
+   "words": 3576
   },
   {
    "id": "S02216",
@@ -32565,11 +32569,13 @@
    "title": "Tối thứ Sáu, thứ Bảy, Chủ nhật quanh hồ Hoàn Kiếm: xe máy bị cấm từ mấy giờ, ở khu vực nào và ai được miễn?",
    "primaryIntent": "informational/toi-cuoi-tuan-quanh-ho-hoan-kiem-xe-may-bi-cam-tu-may-gio-khu-vuc-1-vung-phat-thai-thap",
    "notes": "source=topic-v2 topicId=T002413",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:28.576Z",
-   "updatedAt": "2026-10-25T00:54:28.576Z"
+   "updatedAt": "2026-10-25T03:29:40.369Z",
+   "seoScore": 100,
+   "words": 3274
   },
   {
    "id": "S02217",
@@ -32578,11 +32584,13 @@
    "title": "Xe máy trước 2008, xe gắn máy trước 2016 và mức khí thải 3: khi nào bị hạn chế trong Vành đai 1 Hà Nội?",
    "primaryIntent": "informational/xe-may-san-xuat-truoc-2008-xe-gan-may-truoc-2016-va-muc-khi-thai-3-khi-nao-bi-han-che-trong-vanh-dai-1-ha-noi",
    "notes": "source=topic-v2 topicId=T002414",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T00:54:33.259Z",
-   "updatedAt": "2026-10-25T00:54:33.259Z"
+   "updatedAt": "2026-10-25T03:29:40.369Z",
+   "seoScore": 100,
+   "words": 3664
   }
  ]
 }
