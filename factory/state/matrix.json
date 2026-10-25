@@ -32244,11 +32244,13 @@
    "title": "Mượn xe máy của bạn bè hoặc người thân: Bộ luật Dân sự buộc người mượn giữ gìn, trả xe và bồi thường khi nào?",
    "primaryIntent": "informational/muon-xe-may-cua-ban-be-hoac-nguoi-than-bo-luat-dan-su-buoc-nguoi-muon-giu-gin-tra-xe-va-boi-thuong-khi-nao",
    "notes": "source=topic-v2 topicId=T002392",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:51.402Z",
-   "updatedAt": "2026-10-24T22:25:51.402Z"
+   "updatedAt": "2026-10-25T00:07:31.083Z",
+   "seoScore": 100,
+   "words": 3494
   },
   {
    "id": "S02196",
@@ -32257,11 +32259,13 @@
    "title": "Chó, trâu bò làm xe máy ngã hoặc cây đổ, công trình gây thiệt hại: ai phải bồi thường cho người đi xe?",
    "primaryIntent": "informational/cho-trau-bo-lam-xe-may-nga-hoac-cay-do-cong-trinh-gay-thiet-hai-ai-phai-boi-thuong-cho-nguoi-di-xe",
    "notes": "source=topic-v2 topicId=T002393",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:25:55.899Z",
-   "updatedAt": "2026-10-24T22:25:55.899Z"
+   "updatedAt": "2026-10-25T00:07:31.083Z",
+   "seoScore": 100,
+   "words": 3635
   },
   {
    "id": "S02197",
@@ -32270,11 +32274,13 @@
    "title": "Thời hiệu khởi kiện đòi lại tiền cọc thuê xe hoặc đòi bồi thường: 03 năm tính từ ngày nào và khi nào tính lại?",
    "primaryIntent": "informational/thoi-hieu-khoi-kien-doi-lai-tien-coc-thue-xe-hoac-doi-boi-thuong-03-nam-tinh-tu-ngay-nao-va-khi-nao-tinh-lai",
    "notes": "source=topic-v2 topicId=T002394",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:26:00.348Z",
-   "updatedAt": "2026-10-24T22:26:00.348Z"
+   "updatedAt": "2026-10-25T00:07:31.083Z",
+   "seoScore": 100,
+   "words": 3566
   },
   {
    "id": "S02198",
@@ -32283,11 +32289,13 @@
    "title": "Thuê hoặc mượn xe máy rồi bỏ trốn hoặc cố tình không trả: khi nào Điều 175 Bộ luật Hình sự coi là phạm tội?",
    "primaryIntent": "informational/thue-hoac-muon-xe-may-roi-bo-tron-hoac-co-tinh-khong-tra-khi-nao-dieu-175-bo-luat-hinh-su-coi-la-pham-toi",
    "notes": "source=topic-v2 topicId=T002395",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:26:04.761Z",
-   "updatedAt": "2026-10-24T22:26:04.761Z"
+   "updatedAt": "2026-10-25T00:07:31.083Z",
+   "seoScore": 100,
+   "words": 3656
   },
   {
    "id": "S02199",
@@ -32296,11 +32304,13 @@
    "title": "Giấy chứng nhận bảo hiểm xe máy bắt buộc phải ghi những gì, bản điện tử cần đáp ứng gì và mất giấy thì sao?",
    "primaryIntent": "informational/giay-chung-nhan-bao-hiem-xe-may-bat-buoc-phai-ghi-nhung-gi-ban-dien-tu-can-dap-ung-gi-va-mat-giay-thi-sao",
    "notes": "source=topic-v2 topicId=T002396",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-24T22:26:09.259Z",
-   "updatedAt": "2026-10-24T22:26:09.260Z"
+   "updatedAt": "2026-10-25T00:07:31.083Z",
+   "seoScore": 100,
+   "words": 3339
   }
  ]
 }
