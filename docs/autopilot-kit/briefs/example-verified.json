@@ -1,0 +1,55 @@
+{
+ "slug": "giay-phep-lai-xe-a1-khong-thoi-han",
+ "title": "Giấy phép lái xe hạng A1, A và B1 không thời hạn: hiểu đúng khái niệm và những việc vẫn phải làm",
+ "hub": "learn/kien-thuc-phap-ly",
+ "subtopic": "",
+ "intent": "informational",
+ "contentType": "explainer",
+ "priority": "P1",
+ "primaryKeyword": "giấy phép lái xe A1 không thời hạn",
+ "secondaryKeywords": [
+  "bằng lái xe máy có hết hạn không",
+  "GPLX A1 A B1 không thời hạn"
+ ],
+ "userProblem": "Người dùng nghe nói bằng lái xe máy không thời hạn nên nghĩ không cần quan tâm gì thêm, dễ bỏ sót nghĩa vụ liên quan.",
+ "informationGain": "Chỉ nêu những điều đã kiểm chứng từ văn bản hợp nhất của Luật (không thời hạn với hạng A1, A, B1; sửa đổi từ 01/07/2026) và hướng dẫn người đọc tra cứu các nghĩa vụ khác thay vì tự suy diễn.",
+ "outline": [
+  "Không thời hạn nghĩa là gì",
+  "Quy định đã được kiểm chứng ở văn bản hợp nhất của Luật",
+  "Phạm vi áp dụng theo từng hạng",
+  "Những nội dung cần tra cứu thêm ở nguồn chính thức",
+  "Cách theo dõi thay đổi của văn bản luật"
+ ],
+ "schemaOrg": "Article",
+ "evidence": {
+  "type": "official-source",
+  "status": "verified",
+  "sources": [
+   {
+    "label": "Văn bản hợp nhất số 55/VBHN-VPQH — Luật Trật tự, an toàn giao thông đường bộ (36/2024/QH15), Điều 57 khoản 5",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/55-vbhn-vpqh.pdf",
+    "retrievedAt": "2026-10-12"
+   }
+  ],
+  "verifiedFacts": [
+   {
+    "fact": "Giấy phép lái xe các hạng A1, A, B1 không thời hạn.",
+    "cite": "Điều 57 khoản 5 điểm a, VBHN 55/VBHN-VPQH"
+   },
+   {
+    "fact": "Luật 36/2024/QH15 có hiệu lực từ 01/01/2025 và được sửa đổi bởi Luật 118/2025/QH15, có hiệu lực từ 01/07/2026.",
+    "cite": "Trang đầu VBHN 55/VBHN-VPQH"
+   }
+  ]
+ },
+ "demand": {
+  "source": "none"
+ },
+ "factualScope": "verified-facts-only",
+ "requiresVerifiedData": true,
+ "internalLinks": [
+  "xe-50cc-can-bang-lai-khong",
+  "dieu-kien-lai-xe-may",
+  "giay-to-khi-lai-xe"
+ ]
+}

@@ -1,0 +1,39 @@
+BẰNG CHỨNG TÌNH TRẠNG HIỆU LỰC — SCOUT P1 (tải ngày 2026-10-24 bằng công cụ fetch phía máy chủ; chép nguyên văn phần liên quan, bỏ giao diện web)
+
+=== 1. Bộ luật Dân sự số 91/2015/QH13 ===
+Nguồn A: https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942 (Cơ sở dữ liệu quốc gia về pháp luật, Bộ Tư pháp)
+Dòng đầu trang: "Bộ luật Dân sự số 91/2015/QH13 — Còn hiệu lực — Ngày có hiệu lực: 01/01/2017 — Ngày cập nhật: 04/04/2026"
+Toàn văn đã lưu: law/blds-91-2015-qh13.txt (689 điều)
+Điều 689. Hiệu lực thi hành: "Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2017. Bộ luật dân sự số 33/2005/QH11 hết hiệu lực kể từ ngày Bộ luật này có hiệu lực."
+Nguồn B: https://congbao.chinhphu.vn/van-ban/luat-so-91-2015-qh13-18397/12965.htm (Cổng thông tin điện tử Công báo)
+Thuộc tính: Loại văn bản Luật; Số, ký hiệu 91/2015/QH13; Ngày ban hành 24/11/2015; Trích yếu Bộ luật dân sự; Người ký Nguyễn Sinh Hùng; Ngày hiệu lực 01/01/2017; Nằm trong các Công báo 1243+1244 và 1245+1246 ngày 2015-12-28.
+Mục Lược đồ trên trang: "Văn bản sửa đổi bổ sung/đính chính [0]; Văn bản thay thế/bãi bỏ/hủy bỏ/đình chỉ một phần [0]; Văn bản dẫn chiếu [2]".
+Kiểm tra bổ sung: tìm kiếm các cổng chính thức (quochoi.vn, chinhphu.vn, baochinhphu.vn, vbpl.vn, congbao.chinhphu.vn) không cho thấy luật nào sửa đổi hoặc thay thế Bộ luật Dân sự 2015 đến 2026-10-24. Các thông cáo báo chí về Kỳ họp thứ 2, Quốc hội khóa XVI (khai mạc 17/10/2026, dự kiến bế mạc 21/11/2026) đã tra liệt kê Bộ luật Hình sự (sửa đổi), Bộ luật Tố tụng hình sự (sửa đổi) và các luật khác, không thấy dự án Bộ luật Dân sự (sửa đổi) trong các nội dung đã đọc (không phải bản rà soát toàn bộ chương trình kỳ họp).
+
+=== 2. Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 ===
+Nguồn A: https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15--161263
+Dòng đầu trang: "Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 — Còn hiệu lực — Ngày có hiệu lực: 01/07/2024 — Ngày cập nhật: 04/04/2026"
+Toàn văn đã lưu: law/luat-bvqlntd-19-2023-qh15.txt (80 điều)
+Điều 79. Hiệu lực thi hành: "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024."
+Nguồn B: https://congbao.chinhphu.vn/van-ban/luat-so-19-2023-qh15-39843.htm — Ban hành 20/06/2023; Hiệu lực 01/07/2024; Công báo số 865 + 866 ngày 2023-07-30.
+Nguồn C (bản PDF Công báo): https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf (đã tải toàn văn, đối chiếu Điều 23, 25 với bản vbpl.vn).
+
+--- Luật sửa đổi đã ban hành: Luật An ninh mạng số 116/2025/QH15 ---
+Nguồn: https://vbpl.vn/van-ban/chi-tiet/187039 (LUẬT AN NINH MẠNG SỐ 116/2025/QH15; trang ghi "Hết hiệu lực một phần", ngày có hiệu lực 01/07/2026)
+Điều 43. Sửa đổi, bổ sung một số điều của các luật có liên quan
+2. Thay thế, bãi bỏ một số cụm từ của Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 như sau:
+a) Thay thế cụm từ “an toàn thông tin” bằng cụm từ “an ninh thông tin” tại điểm d khoản 1 Điều 16; cụm từ “an toàn, an ninh thông tin” bằng cụm từ “an ninh mạng” tại khoản 1 Điều 15, tên Điều 19, khoản 1 và khoản 3 Điều 19;
+b) Bãi bỏ cụm từ “an toàn thông tin mạng,” tại khoản 3 Điều 19.
+Điều 44. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.
+=> Chỉ đụng tới Điều 15, 16, 19 của Luật 19/2023/QH15; không đụng tới Điều 3, 24, 25, 26 (các điều dùng trong bài).
+Ghi chú: văn bản hợp nhất 47/VBHN-VPQH ngày 17/3/2026 của Văn phòng Quốc hội (hợp nhất Luật 19/2023/QH15 với Luật 116/2025/QH15) có tại https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/47-vbhn-vpqh.pdf nhưng là bản quét hình ảnh, công cụ chỉ đọc được "47 17 3"; Firecrawl hết credit nên không OCR được. Vì vậy trạng thái được xác nhận bằng chính Điều 43 khoản 2 và Điều 44 khoản 1 của Luật 116/2025/QH15 ở trên và trang thuộc tính vbpl.vn.
+
+--- Dự án luật sửa đổi đang trình Quốc hội (CHƯA thông qua đến 2026-10-24) ---
+Nguồn: https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=102300 (Thông cáo báo chí số 4, Kỳ họp thứ Hai, Quốc hội Khóa XVI, 20/10/2026)
+Chiều 20/10/2026: "Bộ trưởng Bộ Công Thương Lê Mạnh Hùng, thừa ủy quyền của Thủ tướng Chính phủ trình bày tờ trình về 02 dự án: Luật sửa đổi, bổ sung một số điều của Luật Thương mại, Luật Cạnh tranh, Luật Quản lý ngoại thương, Luật Bảo vệ quyền lợi người tiêu dùng; Luật sửa đổi, bổ sung một số điều của Luật Điện lực" và "Từ 14 giờ 30: Quốc hội thảo luận ở Tổ về 03 nội dung: (1) Dự án Luật sửa đổi, bổ sung một số điều của Luật Thương mại, Luật Cạnh tranh, Luật Quản lý ngoại thương, Luật Bảo vệ quyền lợi người tiêu dùng".
+Bài tin liên quan: https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=102286 ("Bảo vệ người tiêu dùng: Đề xuất kiểm soát chặt các điều khoản bất lợi trong hợp đồng theo mẫu", 20/10/2026): đại biểu thảo luận tổ về dự thảo; dự thảo nêu việc đăng ký hợp đồng theo mẫu, điều kiện giao dịch chung. Đây mới là thảo luận, chưa phải luật đã ban hành.
+
+=== 3. Luật Trật tự, an toàn giao thông đường bộ (văn bản hợp nhất 55/VBHN-VPQH) — dùng ở topic T5 ===
+Nguồn: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/55-vbhn-vpqh.pdf (tải lại ngày 2026-10-24); toàn văn đã lưu: law/vbhn55-luat-tt-atgt-p1.txt
+Trang đầu: "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 ngày 27 tháng 6 năm 2024 của Quốc hội, có hiệu lực kể từ ngày 01 tháng 01 năm 2025, được sửa đổi, bổ sung bởi: Luật số 118/2025/QH15 ngày 10 tháng 12 năm 2025 của Quốc hội sửa đổi, bổ sung một số điều của 10 luật có liên quan đến an ninh, trật tự, có hiệu lực kể từ ngày 01 tháng 7 năm 2026."

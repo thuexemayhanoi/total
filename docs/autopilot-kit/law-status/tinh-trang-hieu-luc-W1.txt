@@ -1,0 +1,47 @@
+BẰNG CHỨNG TÌNH TRẠNG HIỆU LỰC — SCOUT W1 (thuế và đăng ký kinh doanh khi cá nhân/hộ kinh doanh cho thuê xe máy), kiểm tra ngày 2026-10-24
+Mọi văn bản dưới đây TẢI MỚI bằng mcp__Parallel_Search__web_fetch (full_content) và lưu trong law/W1/ (trừ khi ghi khác). Dòng tình trạng đã dùng trong verifiedFacts của file cands-verified-W1.jsonl.
+
+1. LUẬT THUẾ THU NHẬP CÁ NHÂN — dùng VĂN BẢN HỢP NHẤT 112/VBHN-VPQH ngày 20/05/2026 của Văn phòng Quốc hội
+   URL tải: https://vbpl.vn/van-ban/chi-tiet/van-ban-hop-nhat-so-112-vbhn-vpqh-luat-thue-thu-nhap-ca-nhan-so-109-2025-qh15--c8a8f120-64b1-11f1-8e19-af8449ba8d1f (trang ghi "Ngày cập nhật: 28/08/2026"). Trang Công báo: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-112-vbhn-vpqh-469595.htm (Công báo số 302 ngày 2026-06-02; chỉ thấy metadata, không dùng làm nguồn tải).
+   File: law/W1/vbhn112-luat-tncn-clean.txt (+ .raw)
+   Trang đầu: "Luật Thuế thu nhập cá nhân số 109/2025/QH15 ngày 10 tháng 12 năm 2025 của Quốc hội, có hiệu lực kể từ ngày 01 tháng 7 năm 2026, được sửa đổi, bổ sung bởi: Luật số 09/2026/QH16 ngày 24 tháng 4 năm 2026 ... có hiệu lực thi hành kể từ ngày 24 tháng 4 năm 2026."
+   Điều 29 khoản 2: "Các quy định liên quan đến thu nhập từ kinh doanh, từ tiền lương, tiền công của cá nhân cư trú áp dụng từ kỳ tính thuế năm 2026." Điều 29 khoản 3: Luật TNCN 04/2007/QH12 và các luật sửa đổi hết hiệu lực từ ngày Luật này có hiệu lực (riêng phần kinh doanh, tiền lương từ kỳ tính thuế năm 2026).
+   Khoản 1 Điều 7 được sửa bởi Điều 1 Luật 09/2026/QH16 (chú thích 2 của bản hợp nhất: hiệu lực từ 01/01/2026).
+
+2. LUẬT 09/2026/QH16 ngày 24/04/2026 (sửa đổi Luật TNCN, GTGT, TNDN, TTĐB)
+   URL: https://congbao.chinhphu.vn/van-ban/luat-so-09-2026-qh16-469536/64900.htm (Ban hành 24/04/2026; Hiệu lực 24/04/2026; Công báo số 286 ngày 27-05-2026); toàn văn lấy từ PDF Công báo của chính trang này (g7.cdnchinhphu.vn, 2026_286_09/2026/QH16.pdf). File: law/W1/luat-09-2026-qh16-congbao.txt
+   Điều 5: hiệu lực từ ngày thông qua (24/04/2026); Điều 1, 2, 3 hiệu lực từ 01/01/2026.
+
+3. NGHỊ ĐỊNH 68/2026/NĐ-CP ngày 05/03/2026 — dùng VĂN BẢN HỢP NHẤT 25/2026/VBHN-BTC ngày 13/08/2026 của Bộ Tài chính (hợp nhất NĐ 68/2026 và NĐ 141/2026/NĐ-CP)
+   URL: https://vbpl.vn/en/van-ban/chi-tiet/van-ban-hop-nhat-so-25-2026-vbhn-btc-2026-hop-nhat-nghi-dinh-so-68-2026-nd-cp-ngay-05-thang-3-nam-2026-cua-chinh-phu-quy-dinh-ve-chinh-sach-thue-va-quan-ly-thue-doi-voi-ho-kinh-doanh-ca-nhan-kinh-doanh--e81796a0-9bb2-11f1-99d5-832c0b171152 (trang ghi "Update Date: 20/08/2026"). File: law/W1/vbhn25-2026-clean.txt (+ vbhn25-2026-raw.txt)
+   Trang đầu: "Nghị định số 68/2026/NĐ-CP ngày 05 tháng 3 năm 2026 ... có hiệu lực kể từ ngày 05 tháng 3 năm 2026, được sửa đổi, bổ sung bởi: Nghị định số 141/2026/NĐ-CP ngày 29 tháng 4 năm 2026 ... có hiệu lực kể từ ngày 01 tháng 01 năm 2026."
+   Điều 19: "Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành."
+   Chú thích (2) đến (22), (24) đến (35), (37): cụm từ "500 triệu đồng" được thay bằng "01 tỷ đồng" theo khoản 1 Điều 1 NĐ 141/2026/NĐ-CP, hiệu lực 01/01/2026. Chú thích (23): khoản 5 Điều 8 được sửa theo khoản 2 Điều 1 NĐ 141/2026/NĐ-CP, hiệu lực 01/01/2026. Chú thích (36): Điều 3, 4, 5 NĐ 141/2026/NĐ-CP (hiệu lực 01/01/2026, chuyển tiếp).
+   Kiểm tra thêm: tìm kiếm cổng chính thức và báo (đến 2026-10-24) không thấy văn bản nào sửa NĐ 68/2026 sau NĐ 141/2026; bài báo cơ quan thuế ngày 13/10/2026 và 26/09/2026 vẫn dẫn NĐ 68/2026 đã sửa bởi NĐ 141/2026 với ngưỡng 01 tỷ đồng. (Kết quả tìm kiếm, không phải bảo đảm tuyệt đối.)
+
+4. LUẬT QUẢN LÝ THUẾ 108/2025/QH15 ngày 10/12/2025 (thay Luật 38/2019/QH14)
+   URL: https://vbpl.vn/van-ban/chi-tiet/luat-quan-ly-thue-so-108-2025-qh15--187043 — đầu trang: "Còn hiệu lực; Ngày có hiệu lực: 01/07/2026; Ngày cập nhật: 21/09/2026". Đối chiếu Công báo: https://congbao.chinhphu.vn/van-ban/luat-so-108-2025-qh15-468670.htm (Công báo số 38 ngày 2026-01-22; hiệu lực 01/07/2026). File: law/W1/luat-qlt-108-2025-clean.txt
+   Điều 52 khoản 1: hiệu lực từ 01/07/2026, trừ khoản 2; khoản 2: "Quy định tại Điều 13 và việc sử dụng hóa đơn điện tử của hộ kinh doanh, cá nhân kinh doanh quy định tại Điều 26 của Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026."; khoản 3: Luật Quản lý thuế 38/2019/QH14 (đã sửa bởi Luật 56/2024/QH15) hết hiệu lực từ ngày Luật 108/2025 có hiệu lực (trừ khoản 1, 3 Điều 53; riêng Điều 51 Luật 38/2019 hết hiệu lực từ 01/01/2026). => Luật Quản lý thuế 38/2019/QH14 KHÔNG còn là bản áp dụng; dùng Luật 108/2025/QH15.
+
+5. NGHỊ ĐỊNH 168/2025/NĐ-CP ngày 30/06/2025 (đăng ký doanh nghiệp, đăng ký hộ kinh doanh) — dùng VĂN BẢN HỢP NHẤT 29/2026/VBHN-NĐ-BTC ngày 28/08/2026 của Bộ Tài chính (Công báo số 506-VBHN ngày 10-09-2026), hợp nhất NĐ 168/2025 và NĐ 296/2026/NĐ-CP (23/07/2026, hiệu lực 23/07/2026)
+   URL trang: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-29-2026-vbhn-nd-btc-470413.htm ; toàn văn lấy từ file PDF của chính trang (g7.cdnchinhphu.vn, 2026_506-VBHN_29/2026/VBHN-NĐ-BTC.pdf). File: law/W1/vbhn29-nd168-clean.txt (PDF có chữ tách do OCR, đã so khớp bằng cách bỏ khoảng trắng; Điều 82 khoản 1 bị ngắt trang nên chép thành hai đoạn liền nhau).
+   Trang đầu: "Nghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp, có hiệu lực kể từ ngày 01 tháng 7 năm 2025, được sửa đổi, bổ sung bởi: Nghị định số 296/2026/NĐ-CP ngày 23 tháng 7 năm 2026 ... có hiệu lực kể từ ngày 23 tháng 7 năm 2026."
+   Điều 82, 83 trong bản hợp nhất không có chú thích sửa đổi.
+   Bổ trợ: Bộ Tài chính, Hỏi đáp CSTC (câu hỏi ngày 19/06/2026) https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/162205 — file law/W1/mof-hoidap-162205-dkhkd.txt (đây là văn bản trả lời của cơ quan, không phải văn bản quy phạm).
+
+6. NGHỊ QUYẾT 198/2025/QH15 ngày 17/05/2025 (kinh tế tư nhân)
+   URL: https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=94167 ; Công báo: https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-198-2025-qh15-44898.htm (Công báo số 713 + 714 ngày 2025-05-29; hiệu lực 17/05/2025). Điều 17 khoản 1: hiệu lực từ ngày thông qua. File: law/W1/nq198-2025-qh15-quochoi.txt
+   Tìm kiếm đến 2026-10-24: không thấy văn bản sửa/thay Điều 10 khoản 6, 7.
+
+7. NGHỊ QUYẾT 43/2026/QH16 ngày 24/08/2026 (giảm 30% thuế TNCN, TNDN kỳ tính thuế 2026, 2027)
+   URL: https://vietlaw.quochoi.vn/Pages/vbpq-print.aspx?ItemID=29902 (VietLaw, quochoi.vn). Điều 2 khoản 1: hiệu lực từ 24/08/2026, áp dụng kỳ tính thuế 2026, 2027; khoản 2: Chính phủ quy định chi tiết. File: law/W1/nq43-2026-qh16-vietlaw.txt
+   Lưu ý: chỉ thấy DỰ THẢO Nghị định chi tiết (đăng 08-11/09/2026), chưa thấy Nghị định ban hành đến 2026-10-24.
+
+8. BỘ LUẬT DÂN SỰ 91/2015/QH13 (Điều 105, 107): dùng law/blds-91-2015-qh13.txt đã lưu; dòng tình trạng: xem tinh-trang-hieu-luc-P1.txt mục 1 (vbpl.vn "Còn hiệu lực", hiệu lực 01/01/2017, cập nhật 04/04/2026).
+
+KHÔNG DÙNG LÀM DỮ KIỆN (ghi để coordinator biết):
+- Thông tư 18/2026/TT-BTC sửa bởi Thông tư 50/2026/TT-BTC, văn bản hợp nhất 24/2026/VBHN-TT-BTC ngày 05/08/2026 (https://chinhphu.vn/?docid=219107&pageid=27160 ; PDF https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/24-vbhn-btc.signed.pdf): file PDF chỉ trả về dòng chữ ký số (dạng ảnh), trang HTML xaydungchinhsach.chinhphu.vn chỉ có ảnh các trang => KHÔNG đọc được toàn văn => bỏ mọi nội dung phụ thuộc Thông tư (hạn thông báo số tài khoản, mẫu 01/BK-STK, 01/TKN-CNKD, hồ sơ cụ thể).
+- Nghị định 117/2025/NĐ-CP (khấu trừ thuế thương mại điện tử): không tải; không dùng chủ đề nền tảng.
+- Nghị định 245/2026/NĐ-CP (27/06/2026, gia hạn nộp thuế GTGT/TNDN/TNCN đến 30/12/2026 cho hộ kinh doanh, doanh nghiệp thuộc Phụ lục I): chỉ thấy qua cổng tin, không tải toàn văn Công báo; vì làm thay đổi hạn nộp tạm thời nên BỎ chủ đề "hạn khai/nộp thuế theo quý".
+- Luật Thuế GTGT 48/2024/QH15 (và bản hợp nhất), Nghị định 362/2025/NĐ-CP (môn bài), Nghị định hướng dẫn Luật GTGT: không tải; không dùng tỷ lệ % GTGT, không dùng chi tiết môn bài ngoài Nghị quyết 198.
+- Dự án Luật Phát triển doanh nghiệp nhỏ và vừa (Điều 33 dự thảo: nâng ngưỡng chọn tính thuế đơn giản từ 03 tỷ lên 10 tỷ đồng) và các dự án luật thuế trình Kỳ họp thứ 2 Quốc hội khóa XVI (khai mạc 17/10/2026, thông cáo báo chí quochoi.vn số 6, số 7): CHƯA thông qua đến 2026-10-24. Ứng viên số 2 (mốc 03 tỷ) có thể lỗi thời sau kỳ họp.

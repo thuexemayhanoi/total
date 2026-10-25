@@ -1,0 +1,39 @@
+TÌNH TRẠNG HIỆU LỰC — scout S1 (tải mới), kiểm tra ngày 2026-10-24
+Chỉ dùng cổng chính thức: vbpl.vn, congbao.chinhphu.vn (toàn văn đọc từ tệp PDF đính kèm trang Công báo), datafiles.chinhphu.vn.
+Lưu ý: mục "Lược đồ" của congbao.chinhphu.vn hiển thị [0] cho cả Luật 118/2025/QH15 (văn bản chắc chắn sửa Luật Căn cước) nên KHÔNG dùng làm bằng chứng "không có văn bản sửa đổi".
+
+1) Luật Căn cước số 26/2023/QH15 ngày 27/11/2023 (Quốc hội)
+   - vbpl.vn (https://vbpl.vn/van-ban/chi-tiet/luat-can-cuoc-so-26-2023-qh15--165958): "Còn hiệu lực", ngày có hiệu lực 01/07/2024, ngày cập nhật 02/04/2026. Trang đánh dấu "Điều khoản được sửa đổi, bổ sung/thay thế/bổ sung/bãi bỏ" ở nhiều chỗ nhưng nội dung hiển thị là bản gốc.
+   - Công báo số 35 + 36 ngày 2024-01-08 (https://congbao.chinhphu.vn/van-ban/luat-so-26-2023-qh15-40850/47828.htm), ban hành 27/11/2023, hiệu lực 01/07/2024. Toàn văn lưu: law/luat-can-cuoc-26-2023-congbao-raw.txt (nguồn chính) và law/luat-can-cuoc-26-2023-vbpl-raw.txt (đối chiếu); bản sạch: *-clean.txt. Mọi đoạn trích đã được kiểm khớp NGUYÊN VĂN ở cả hai nguồn.
+   - Điều 45 khoản 1: "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024, trừ trường hợp quy định tại khoản 2 Điều này."
+   - Sửa đổi: Luật 118/2025/QH15 (Điều 5, hiệu lực 01/07/2026): khoản 18 Điều 3; bổ sung khoản 10 vào Điều 7; khoản 11 Điều 10; khoản 4 Điều 25; thay Điều 27; điểm a khoản 1 Điều 29; điểm a khoản 4 Điều 30; bổ sung khoản 3 vào Điều 33; khoản 1 và khoản 10 Điều 41; khoản 3 Điều 42; thay cụm từ tại khoản 3 Điều 4, 6, 8, 14, điểm b khoản 4 Điều 30, điểm c khoản 1 Điều 39; bỏ cụm từ tại khoản 4 Điều 10 và khoản 1 Điều 30; bãi bỏ khoản 4 Điều 42. Các điều dùng trong ứng viên: Điều 5 (khoản 3), 7 (khoản 2, 5, 7), 19 (khoản 2), 21, 24 (khoản 2), 26, 29 (khoản 2, 5c), 31 (khoản 1), 33 (khoản 1), 34, 38 (khoản 3), 46 KHÔNG bị sửa; khoản 4 Điều 25 và Điều 27 dùng bản của Luật 118/2025/QH15.
+   - Đã tìm kiếm văn bản sửa đổi/thay thế khác đến 2026-10-24 (Luật QH16 năm 2026): không thấy.
+
+2) Luật số 118/2025/QH15 ngày 10/12/2025 sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự
+   - Công báo số 35 ngày 2026-01-21 (https://congbao.chinhphu.vn/van-ban/luat-so-118-2025-qh15-468680.htm; PDF Công báo đọc toàn văn: law/luat-118-2025-qh15-congbao-raw.txt). Bản PDF trên datafiles.chinhphu.vn (luatso118.2025.pdf) cho text OCR mất dấu (law/luat-118-2025-qh15-raw.txt) — KHÔNG dùng.
+   - Điều 11 khoản 1: "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026, trừ quy định tại khoản 2 Điều này." (khoản 2 chỉ là điểm a khoản 20 Điều 7 về Luật Trật tự, an toàn giao thông đường bộ).
+
+3) Nghị định 282/2025/NĐ-CP ngày 30/10/2025 (Chính phủ) quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội; phòng, chống tệ nạn xã hội; phòng, chống bạo lực gia đình
+   - Công báo số 1583 + 1584 ngày 2025-11-17 (https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-282-2025-nd-cp-46543/59667.htm). Toàn văn: law/nd282-2025-nd-cp-congbao-raw.txt.
+   - Điều 69 khoản 1: hiệu lực 15/12/2025; khoản 4 thay thế Nghị định 144/2021/NĐ-CP.
+   - Sửa đổi: Nghị định 347/2026/NĐ-CP ngày 08/9/2026 (Công báo số 516 ngày 2026-09-18; Điều 41 khoản 1 hiệu lực 15/9/2026), Chương IV (Điều 33–38) CHỈ sửa khoản 6 Điều 3, điểm đ khoản 2 Điều 8, điểm đ khoản 2/điểm b khoản 3/điểm d khoản 4 Điều 10, điểm c khoản 7 và điểm a khoản 8 Điều 15 (và bãi bỏ một số điểm Điều 15), điểm a, b khoản 1 Điều 16. KHÔNG sửa Điều 5, 11, 21, 28 (các điều dùng trong ứng viên). Toàn văn: law/nd347-2026-nd-cp-congbao-raw.txt.
+
+4) Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 ngày 26/6/2025 (Quốc hội)
+   - vbpl.vn (https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252): "Còn hiệu lực", hiệu lực 01/01/2026, cập nhật 24/03/2026. Công báo số 971 + 972 ngày 2025-07-24 (https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm).
+   - Điều 38 khoản 1: "Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026."
+   - CẢNH BÁO nguồn: trang vbpl.vn khi tải bằng công cụ kèm phần "Chính sách bảo vệ dữ liệu cá nhân" của chính website vbpl.vn (có các con số 02 ngày làm việc, 10/15/20 ngày, 72 giờ...). Đó là chính sách của website, KHÔNG phải điều luật; đã cắt bỏ phần chân trang khi xử lý (law/luat-bvdlcn-91-2025-vbpl-raw.txt còn nguyên để đối chiếu; chỉ dùng phần trước chữ ký Chủ tịch Quốc hội).
+   - Chưa thấy văn bản sửa đổi/thay thế đến 2026-10-24.
+
+5) Nghị định 356/2025/NĐ-CP ngày 31/12/2025 (Chính phủ) quy định chi tiết một số điều và biện pháp thi hành Luật Bảo vệ dữ liệu cá nhân
+   - Công báo số 18 ngày 2026-01-18 (https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371/61065.htm). Toàn văn: law/nd356-2025-nd-cp-congbao-raw.txt. (Trang vbpl.vn của nghị định này khi tải chỉ trả về chính sách bảo mật của website, đã bỏ.)
+   - Điều 42 khoản 1: hiệu lực 01/01/2026; khoản 2: Nghị định 13/2023/NĐ-CP hết hiệu lực kể từ ngày đó.
+   - Chưa thấy văn bản sửa đổi/thay thế đến 2026-10-24.
+
+6) Nghị định 330/2026/NĐ-CP ngày 19/8/2026 (Chính phủ) quy định xử phạt vi phạm hành chính trong lĩnh vực an ninh mạng và bảo vệ dữ liệu cá nhân
+   - Công báo số 498 ngày 2026-09-04 (https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-330-2026-nd-cp-470339/67933.htm). Toàn văn: law/nd330-2026-nd-cp-congbao-raw.txt.
+   - Điều 80: hiệu lực 19/8/2026; Điều 81 khoản 1: hành vi xảy ra trước ngày đó áp dụng nghị định có hiệu lực tại thời điểm thực hiện hành vi, trừ khi Nghị định 330/2026/NĐ-CP quy định nhẹ hơn hoặc không quy định trách nhiệm pháp lý.
+   - Mục 6 Chương II (Điều 39–71) là mức phạt đối với TỔ CHỨC; cá nhân bằng một phần hai (Điều 7 khoản 1); hộ kinh doanh áp dụng mức như cá nhân (Điều 2 khoản 3).
+   - Chưa thấy văn bản sửa đổi/thay thế đến 2026-10-24.
+
+7) Đã tải nhưng KHÔNG dùng làm dữ kiện ứng viên
+   - Nghị định 70/2024/NĐ-CP (vbpl.vn, bản gốc; law/nd70-2024-nd-cp-vbpl-raw.txt) và Nghị định 58/2026/NĐ-CP (hiệu lực 15/3/2026, Điều 5 sửa Nghị định 70/2024/NĐ-CP, đáng chú ý khoản 10 sửa khoản 2 Điều 21 về cấp lại thẻ qua Cổng dịch vụ công/VNeID; law/nd58-2026-nd-cp-vbpl-raw.txt): nội dung cấp lại thẻ trùng ý khoản 4 Điều 25 Luật Căn cước đã dùng; không có điều khoản riêng về "mức độ 2" trong hai văn bản này (mức độ tài khoản định danh nằm ở Nghị định 69/2024/NĐ-CP, được sửa bởi Nghị định 320/2026/NĐ-CP hiệu lực 28/9/2026 — chưa tải toàn văn nên không dùng).

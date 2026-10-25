@@ -1,0 +1,37 @@
+BẰNG CHỨNG TÌNH TRẠNG HIỆU LỰC — SCOUT R1 (Thông tư tuần tra, kiểm soát của CSGT; Luật Phòng, chống tác hại của rượu, bia), kiểm tra ngày 2026-10-24
+=====================================================================================================================================
+
+0. Văn bản được giao nêu tên "Thông tư 32/2023/TT-BCA" ĐÃ HẾT HIỆU LỰC. Thông tư 73/2024/TT-BCA, Điều 32 khoản 1 và khoản 2 điểm a (đã tải từ Công báo): "1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2025. 2. Bãi bỏ các văn bản sau đây: a) Thông tư số 32/2023/TT-BCA ngày 01/8/2023 ..." => văn bản đang áp dụng là Thông tư 73/2024/TT-BCA.
+
+1. THÔNG TƯ 73/2024/TT-BCA ngày 15/11/2024 của Bộ trưởng Bộ Công an — quy định công tác tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông
+  Trang văn bản: https://congbao.chinhphu.vn/van-ban/thong-tu-so-73-2024-tt-bca-43336/53041.htm  ("Ban hành: 15/11/2024 - Hiệu lực: 01/01/2025", Công báo số 1339 + 1340 ngày 2024-12-14)
+  Toàn văn PDF Công báo (g7.cdnchinhphu.vn) tải bằng web_fetch full_content: law/tt73-2024-bca-raw.txt (thô, dùng để trích), law/tt73-2024-bca-clean.txt (làm sạch, đọc nhanh; một số số "1." đầu khoản có thể mất — khi trích dùng bản thô).
+  Cơ sở dữ liệu quốc gia về pháp luật (Bộ Tư pháp): https://vbpl.vn/en/van-ban/chi-tiet/x--174932 -> "In Force / Effective Date: 01/01/2025 / Update Date: 30/03/2026" (law/tt73-vbpl-status-R1.txt).
+
+2. THÔNG TƯ 13/2025/TT-BCA ngày 28/02/2025 (sửa đổi một số điều của các thông tư về trật tự, an toàn giao thông đường bộ, đường sắt, đường thủy nội địa)
+  Trang Công báo: https://congbao.chinhphu.vn/van-ban/thong-tu-so-13-2025-tt-bca-44372/55293.htm ("Ban hành: 28/02/2025 - Hiệu lực: 01/03/2025", Công báo số 475 + 476 ngày 15-3-2025); PDF: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/2/44372/55293-1-2025475-47613-2025-tt-bca.pdf -> law/tt13-2025-bca-raw.txt
+  Điều 14 khoản 1: "Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 3 năm 2025."
+  Điều 11 sửa Thông tư 73/2024/TT-BCA: (1) điểm b, c khoản 1 Điều 24; (2) điểm b khoản 1 Điều 29; (3) điểm a khoản 1 Điều 30; (4) điểm c khoản 2 Điều 30; (5) thay cụm từ ở Điều 24 (khoản 2-5), Điều 25 khoản 5; (6) bỏ cụm từ ở khoản 4 Điều 6, điểm a khoản 3 Điều 7, khoản 3 và khoản 4 Điều 10; (7) bãi bỏ điểm c khoản 1 Điều 25, điểm c khoản 1 Điều 29; (8) thay các mẫu số 01, 02, 03, 05.
+  Trang văn bản của Cổng TTĐT Bộ Công an: https://vanban.bocongan.gov.vn/co-so-du-lieu-van-ban/thong-tu-sua-doi-bo-sung-mot-so-dieu-cua-cac-thong-tu-quy-dinh-ve-trat-tu-an-toan-giao-thong-duong-bo-duong-sat-va-duong-thuy-noi-dia-1245 -> "Số ký hiệu: 13/2025/TT-BCA - Tình trạng: Còn hiệu lực - Ngày có hiệu lực: 01/03/2025".
+  Văn bản hợp nhất 19/VBHN-BCA ngày 26/04/2025 (hợp nhất TT 73/2024 + TT 13/2025) chỉ tìm thấy trên trang thương mại (thuvienphapluat, luatvietnam) — KHÔNG dùng làm nguồn; không tải được bản trên cổng chính thức.
+  Tìm văn bản sửa đổi/thay thế Thông tư 73/2024/TT-BCA sau Thông tư 13/2025/TT-BCA (đến 2026-10-24): không thấy (tìm trên bocongan.gov.vn, vbpl.vn, congbao.chinhphu.vn, kết quả tìm kiếm). Đây là kết quả tìm kiếm, không phải bảo đảm tuyệt đối.
+  Ghi chú: Thông tư 73 dẫn Nghị định 135/2021/NĐ-CP ở Điều 5, 9, 24, 25, 26; Nghị định 135/2021 đã bị bãi bỏ bởi Nghị định 61/2026/NĐ-CP (ngày 13/02/2026, hiệu lực 01/4/2026 — chỉ biết qua trang Công an tỉnh Vĩnh Long và trang thương mại; chưa tải toàn văn). Vì vậy KHÔNG dùng Điều 5, 9 khoản 4, 24, 25, 26 của Thông tư 73 làm chủ đề.
+  Điều dùng trong lô R1: Điều 6 khoản 2; Điều 7 khoản 1, 2, 3 điểm a (hai câu đầu), điểm b; Điều 8; Điều 9 khoản 1, khoản 2 (câu dẫn, điểm b, điểm d); Điều 12; Điều 13; Điều 14; Điều 15; Điều 23 khoản 1 điểm e; Điều 27 khoản 2; Điều 28; Điều 29 khoản 1 (câu dẫn, điểm a; điểm b theo TT 13); Điều 30 khoản 1 điểm a và khoản 2 điểm c (theo TT 13); Điều 32. Các điều khoản này không nằm trong phần bị Điều 11 TT 13/2025 thay đổi, trừ những chỗ ghi rõ "theo bản đã sửa" (Điều 29 khoản 1 điểm b, Điều 30 khoản 1 điểm a, Điều 30 khoản 2 điểm c) — các chỗ này chép NGUYÊN VĂN bản sửa từ Điều 11 Thông tư 13/2025/TT-BCA.
+
+3. LUẬT TRẬT TỰ, AN TOÀN GIAO THÔNG ĐƯỜNG BỘ — dùng văn bản hợp nhất 55/VBHN-VPQH do coordinator đã tải (law/vbhn55-clean.txt), dòng tình trạng theo VERIFIED-SCOUT-BRIEF-M.md mục 1. Điều dùng: Điều 65 khoản 3, khoản 5 điểm a; Điều 67 khoản 1, 2 (khoản 3 có chú thích 39 sửa đổi — KHÔNG dùng).
+
+4. LUẬT XỬ LÝ VI PHẠM HÀNH CHÍNH — văn bản hợp nhất 171/2026/VBHN-LQ-VPQH ngày 30/9/2026 (đã đánh giá ở Q1: law/tinh-trang-hieu-luc-Q1.txt). Điều dùng: Điều 123 khoản 1 (câu dẫn, điểm a, b; chú thích 226: sửa bởi khoản 24 Điều 1 Luật 88/2025/QH15 từ 01/7/2025 — văn bản hợp nhất đã gồm); Điều 127; Điều 128 (khoản 4 sửa bởi Luật 67/2020/QH14 từ 01/01/2022, đã gồm trong văn bản hợp nhất). Điểm e khoản 1 Điều 123 sẽ sửa bởi Luật 11/2026/QH16 từ 01/3/2027 nhưng KHÔNG được trích.
+
+5. LUẬT PHÒNG, CHỐNG TÁC HẠI CỦA RƯỢU, BIA số 44/2019/QH14 ngày 14/6/2019 — chỉ tìm được bản NGUYÊN VĂN ban hành
+  Trang Công báo: https://congbao.chinhphu.vn/van-ban/luat-so-44-2019-qh14-29251.htm ("Ban hành: 14/06/2019 - Hiệu lực: 01/01/2020", Công báo số 559 + 560 ngày 17-7-2019); PDF Công báo (g7.cdnchinhphu.vn) -> law/luat-pctahrb-44-2019-qh14-congbao-raw.txt. Bản PDF trên datafiles.chinhphu.vn (44.signed.pdf) là ảnh quét, không có lớp chữ nên không dùng.
+  Điều 36 khoản 1: "Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2020."
+  Không tìm thấy văn bản hợp nhất hay luật thay thế. Trang thương mại liệt kê "Luật Quảng cáo sửa đổi 2025" và "Luật Đường bộ 2024" như "văn bản sửa đổi" — đã đọc TOÀN VĂN Luật 75/2025/QH15 (Công báo 967+968): chỉ sửa Luật Quảng cáo và Luật Thương mại (Điều 2), KHÔNG có điều nào sửa Luật 44/2019/QH14. Luật Đường bộ 35/2024/QH15 (Công báo số 983 + 984; tải toàn văn từ https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/35-2024-qh15.pdf -> law/luat-duong-bo-35-2024-qh15-raw.txt) đã đọc: không có chữ "rượu", chỉ nhắc Luật 44/2019/QH14 ở Điều 85 khoản 3 (Luật Giao thông đường bộ 2008 đã được Luật 35/2018/QH14 và Luật 44/2019/QH14 sửa đổi thì hết hiệu lực) — tức KHÔNG sửa Luật 44. Luật 118/2025/QH15 sửa 10 luật (danh sách ghi ở law/tinh-trang-hieu-luc-Q2.txt mục 2) không có Luật 44. Điều dùng: Điều 5 khoản 6; Điều 21 khoản 1; Điều 32 khoản 6 — là các điều không liên quan phần quảng cáo, thương mại điện tử, đào tạo. Chưa xác nhận được trên vbpl.vn (không tìm được URL trang). Mức độ chắc chắn: trung bình-cao; bài nên có "hạn dùng" và dòng "tại thời điểm 24/10/2026".
+
+6. NGHỊ ĐỊNH 90/2026/NĐ-CP ngày 30/3/2026 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực y tế
+  Trang Công báo: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-90-2026-nd-cp-469243.htm ("Ban hành: 30/03/2026 - Hiệu lực: 15/05/2026", Công báo số 213 ngày 2026-04-15); PDF Công báo -> law/nd90-2026-nd-cp-congbao-raw.txt (156 trang).
+  Điều 115 khoản 1: "Nghị định này có hiệu lực thi hành từ ngày 15 tháng 5 năm 2026."; khoản 2 điểm a: Nghị định 117/2020/NĐ-CP hết hiệu lực.
+  Điều dùng: Điều 2 khoản 3; Điều 4 khoản 5; Điều 35 khoản 1 (câu dẫn, điểm b). Tìm văn bản sửa đổi Nghị định 90/2026 (đến 2026-10-24): không thấy.
+
+7. GHI CHÚ NGUỒN KHÔNG ĐÁNG TIN / BỊ BỎ
+  - thuvienphapluat.vn, luatvietnam.vn, vnetraffic.org, lawplayer.com, các trang báo: chỉ dùng làm manh mối, không dùng làm bằng chứng.
+  - Không có kết quả công cụ nào chứa lời nhắc/chỉ dẫn lạ ngoài nhiệm vụ trong phiên R1.
