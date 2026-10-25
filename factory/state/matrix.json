@@ -33798,11 +33798,13 @@
    "title": "Phí giám định thương tích ai trả: cơ quan trưng cầu hay người yêu cầu, tạm ứng khi nào, nhà nước chi khi nào?",
    "primaryIntent": "informational/phi-giam-dinh-thuong-tich-ai-tra-co-quan-trung-cau-hay-nguoi-yeu-cau-tam-ung-khi-nao-nha-nuoc-chi-khi-nao",
    "notes": "source=topic-v2 topicId=T002494",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:47.871Z",
-   "updatedAt": "2026-10-25T15:07:47.871Z"
+   "updatedAt": "2026-10-25T23:35:58.858Z",
+   "seoScore": 100,
+   "words": 3869
   },
   {
    "id": "S02298",
