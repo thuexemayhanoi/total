@@ -17641,6 +17641,37 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/den-mui-ten-xanh-mui-ten-do-hoac-den-hinh-xe-xe-may-duoc-di-huong-nao-khi-mui-ten-sang-cung-den-do-hay-vang/",
+  "title": "Đèn mũi tên xanh, mũi tên đỏ hoặc đèn hình xe: xe máy được đi hướng nào khi mũi tên sáng cùng đèn đỏ hay vàng?",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Bài đọc đúng chữ Điều 6 của QCVN 41:2024/BGTVT về các đèn có hình mũi tên, hình một loại phương tiện hoặc hình người đi bộ, được lắp trên mặt phẳng ngang với đèn tín hiệu. Bài nêu mũi tên xanh chỉ cho đi khi mũi tên bật sáng cho phép, mũi tên xanh sáng cùng tín hiệu đỏ hoặc vàng thì đi theo hướng mũi tên nhưng phải nhường các hướng khác đang được đi, còn mũi tên đỏ sáng cùng đèn chính xanh thì không được đi theo hướng mũi tên. Bài cũng nêu đèn hình phương tiện màu xanh hoặc đỏ và đèn hình chữ thập đỏ theo từng điểm của Điều 6. Bài chỉ đối chiếu các điểm đã nêu của Quy chuẩn và chưa đối chiếu văn bản nào về xử lý vi phạm, nên không nêu mức phạt và không kết luận cho một hành vi hay một ngã tư cụ thể. Bài truy xuất ngày 24 tháng 10 năm 2026, nêu rõ phần chưa đối chiếu và nhắc tra lại văn bản còn hiệu lực.",
+  "quickAnswer": "Theo Điều 6 khoản 6.4 điểm 6.4.3 của QCVN 41:2024/BGTVT, khi tín hiệu mũi tên màu xanh bật sáng cùng một lúc với tín hiệu đỏ hoặc vàng thì các phương tiện đi theo hướng mũi tên nhưng phải nhường đường cho các loại phương tiện đi từ các hướng khác đang được phép đi. Điểm 6.4.4 nêu mũi tên đỏ sáng cùng đèn chính xanh thì phương tiện không được đi theo hướng mũi tên và nơi đó cần bố trí làn chờ. Điểm 6.2.4 nêu đèn hình chữ thập đỏ báo xe phải dừng lại, xe đã ở trong nút giao thì nhanh chóng đi ra khỏi nút giao. Bài chưa đối chiếu văn bản xử lý vi phạm nào nên không nêu mức phạt; bài truy xuất ngày 24 tháng 10 năm 2026, hãy tra lại văn bản còn hiệu lực.",
+  "keyPoints": [
+   "Điều 6 khoản 6.2 điểm 6.2.1: đèn có hình mũi tên hoặc các hình có ký hiệu được lắp trên mặt phẳng ngang với đèn tín hiệu; hình có thể là một loại phương tiện hoặc người đi bộ.",
+   "Điểm 6.4.1 (câu đầu): nếu đèn có lắp mũi tên màu xanh thì các loại phương tiện chỉ được đi khi tín hiệu mũi tên bật sáng cho phép.",
+   "Điểm 6.4.3: mũi tên xanh sáng cùng một lúc với tín hiệu đỏ hoặc vàng thì đi theo hướng mũi tên nhưng phải nhường đường cho phương tiện từ các hướng khác đang được phép đi.",
+   "Điểm 6.4.4: mũi tên đỏ sáng cùng đèn chính xanh thì phương tiện không được đi theo hướng mũi tên. Điểm 6.4.5: đèn hình một loại phương tiện màu đỏ sáng cùng đèn chính xanh thì loại phương tiện đó không được đi. Cả hai điểm đều nêu nơi bố trí đèn cần bố trí làn chờ."
+  ],
+  "entities": [
+   "QCVN 41:2024/BGTVT",
+   "Thông tư 51/2024/TT-BGTVT",
+   "đèn mũi tên",
+   "đèn hình phương tiện",
+   "đèn hình chữ thập đỏ",
+   "làn chờ",
+   "nút giao",
+   "báo hiệu đường bộ"
+  ],
+  "keywords": [
+   "QCVN 41:2024/BGTVT Điều 6 đèn tín hiệu",
+   "nhường đường khi mũi tên xanh sáng cùng đèn đỏ",
+   "chữ thập đỏ ở nút giao",
+   "làn chờ khi có mũi tên đỏ",
+   "phương tiện đi theo hướng mũi tên"
+  ]
+ },
+ {
   "url": "docs/huong-dan-su-dung/den-nhac-bao-duong-hay-bieu-tuong-co-le-tren-dong-ho-xe-may-vi-sao-sang-da-thay-nhot-ma-van-sang-va-ai-dat-lai/",
   "title": "Đèn nhắc bảo dưỡng hay biểu tượng cờ lê trên đồng hồ xe máy: vì sao sáng, đã thay nhớt mà vẫn sáng và ai đặt lại",
   "category": "Tài liệu",

@@ -33254,11 +33254,13 @@
    "title": "Đèn mũi tên xanh, mũi tên đỏ hoặc đèn hình xe: xe máy được đi hướng nào khi mũi tên sáng cùng đèn đỏ hay vàng?",
    "primaryIntent": "informational/den-mui-ten-xanh-mui-ten-do-hoac-den-hinh-xe-xe-may-duoc-di-huong-nao-khi-mui-ten-sang-cung-den-do-hay-vang",
    "notes": "source=topic-v2 topicId=T002458",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T07:45:48.009Z",
-   "updatedAt": "2026-10-25T07:45:48.009Z"
+   "updatedAt": "2026-10-25T10:12:37.470Z",
+   "seoScore": 100,
+   "words": 3315
   }
  ]
 }
