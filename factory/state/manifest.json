@@ -2528,6 +2528,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/thu-tuc-xe/chu-xe-may-gia-yeu-nam-vien-hoac-kho-di-lai-cong-chung-vien-co-den-tan-noi-duoc-khong-ly-do-hop-le-va-ai-tra-chi-phi/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "learn/ky-thuat-lai-xe/chua-biet-di-xe-dap-co-tap-duoc-xe-may-khong-tap-giu-thang-bang-truoc-va-luc-nao-moi-van-ga/index.html",
   "kind": "article"
  },
@@ -2649,6 +2653,10 @@
  },
  {
   "rel": "ride/lai-xe-trong-thanh-pho/cong-bai-giu-xe-va-khu-chung-cu-buoi-sang-dong-nguoi-va-xe-ra-mot-cua/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "docs/bieu-mau-thu-tuc/cong-chung-hop-dong-ban-xe-may-can-mang-giay-to-gi-va-mat-toi-da-may-ngay-lam-viec/index.html",
   "kind": "article"
  },
  {
@@ -5321,6 +5329,10 @@
  },
  {
   "rel": "hub/nhu-cau-su-dung/nguoi-nha-lo-moi-lan-minh-di-xe-may-toi-hoac-di-xa-nghe-noi-lo-dua-ke-hoach-cu-the-va-thong-nhat-cach-bao-tin/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "guide/thu-tuc-xe/nguoi-nuoc-ngoai-hoac-nguoi-khong-thong-thao-tieng-viet-cong-chung-ban-xe-may-khi-nao-can-nguoi-phien-dich/index.html",
   "kind": "article"
  },
  {

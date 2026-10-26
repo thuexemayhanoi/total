@@ -33963,11 +33963,13 @@
    "title": "Công chứng hợp đồng bán xe máy cần mang giấy tờ gì và mất tối đa mấy ngày làm việc?",
    "primaryIntent": "informational/cong-chung-hop-dong-ban-xe-may-can-mang-giay-to-gi-va-mat-toi-da-may-ngay-lam-viec",
    "notes": "source=topic-v2 topicId=T002505",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:33:36.602Z",
-   "updatedAt": "2026-10-25T18:33:36.602Z"
+   "updatedAt": "2026-10-26T17:15:28.472Z",
+   "seoScore": 100,
+   "words": 3803
   },
   {
    "id": "S02309",
@@ -33976,11 +33978,13 @@
    "title": "Chủ xe máy già yếu, nằm viện hoặc khó đi lại: công chứng viên có đến tận nơi được không, ai trả chi phí?",
    "primaryIntent": "informational/chu-xe-may-gia-yeu-nam-vien-hoac-kho-di-lai-cong-chung-vien-co-den-tan-noi-duoc-khong-ly-do-hop-le-va-ai-tra-chi-phi",
    "notes": "source=topic-v2 topicId=T002506",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:33:43.352Z",
-   "updatedAt": "2026-10-25T18:33:43.352Z"
+   "updatedAt": "2026-10-26T17:15:28.472Z",
+   "seoScore": 100,
+   "words": 3566
   },
   {
    "id": "S02310",
@@ -33989,11 +33993,13 @@
    "title": "Người nước ngoài hoặc người không thông thạo tiếng Việt công chứng bán xe máy: khi nào cần người phiên dịch?",
    "primaryIntent": "informational/nguoi-nuoc-ngoai-hoac-nguoi-khong-thong-thao-tieng-viet-cong-chung-ban-xe-may-khi-nao-can-nguoi-phien-dich",
    "notes": "source=topic-v2 topicId=T002507",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:33:50.241Z",
-   "updatedAt": "2026-10-25T18:33:50.241Z"
+   "updatedAt": "2026-10-26T17:15:28.472Z",
+   "seoScore": 100,
+   "words": 3562
   },
   {
    "id": "S02311",
