@@ -33918,11 +33918,13 @@
    "title": "Mua bán xe máy có bắt buộc công chứng không? Điều 3 Luật Công chứng và chứng từ chuyển quyền sở hữu xe",
    "primaryIntent": "informational/mua-ban-xe-may-co-bat-buoc-cong-chung-khong-dieu-3-luat-cong-chung-va-chung-tu-chuyen-quyen-so-huu-xe",
    "notes": "source=topic-v2 topicId=T002502",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:33:19.684Z",
-   "updatedAt": "2026-10-25T18:33:19.685Z"
+   "updatedAt": "2026-10-26T17:14:42.770Z",
+   "seoScore": 100,
+   "words": 3524
   },
   {
    "id": "S02306",
@@ -33931,11 +33933,13 @@
    "title": "Giấy bán xe máy viết tay có chứng thực chữ ký được không? Chứng thực giao dịch khác công chứng ở chỗ nào?",
    "primaryIntent": "informational/giay-ban-xe-may-viet-tay-co-chung-thuc-chu-ky-duoc-khong-chung-thuc-giao-dich-khac-cong-chung-o-cho-nao",
    "notes": "source=topic-v2 topicId=T002503",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:33:25.214Z",
-   "updatedAt": "2026-10-25T18:33:25.214Z"
+   "updatedAt": "2026-10-26T17:14:42.770Z",
+   "seoScore": 100,
+   "words": 3522
   },
   {
    "id": "S02307",
@@ -33944,11 +33948,13 @@
    "title": "Tặng cho xe máy cho người thân có phải công chứng không? Bộ luật Dân sự tách động sản và bất động sản thế nào?",
    "primaryIntent": "informational/tang-cho-xe-may-cho-nguoi-than-co-phai-cong-chung-khong-bo-luat-dan-su-tach-dong-san-va-bat-dong-san-the-nao",
    "notes": "source=topic-v2 topicId=T002504",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:33:30.671Z",
-   "updatedAt": "2026-10-25T18:33:30.671Z"
+   "updatedAt": "2026-10-26T17:14:42.770Z",
+   "seoScore": 100,
+   "words": 3660
   },
   {
    "id": "S02308",

@@ -3900,6 +3900,10 @@
   "kind": "article"
  },
  {
+  "rel": "docs/bieu-mau-thu-tuc/giay-ban-xe-may-viet-tay-co-chung-thuc-chu-ky-duoc-khong-chung-thuc-giao-dich-khac-cong-chung-o-cho-nao/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/thu-tuc-xe/giay-chung-nhan-bao-hiem-xe-may-bat-buoc-phai-ghi-nhung-gi-ban-dien-tu-can-dap-ung-gi-va-mat-giay-thi-sao/index.html",
   "kind": "article"
  },
@@ -5052,6 +5056,10 @@
   "kind": "article"
  },
  {
+  "rel": "guide/thu-tuc-xe/mua-ban-xe-may-co-bat-buoc-cong-chung-khong-dieu-3-luat-cong-chung-va-chung-tu-chuyen-quyen-so-huu-xe/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/thu-tuc-xe/mua-ban-xe-may-khong-lam-thu-tuc-sang-ten-doi-hoac-thu-hoi-dang-ky-nghi-dinh-168-phat-bao-nhieu/index.html",
   "kind": "article"
  },
@@ -6145,6 +6153,10 @@
  },
  {
   "rel": "garage/truyen-dong/tam-truot-xich-tren-cang-sau-xe-so-bi-mon-rach-hoac-roi-xich-co-vao-cang-tieng-keu-khi-di-cham-va-luc-nen-thay/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/tang-cho-xe-may-cho-nguoi-than-co-phai-cong-chung-khong-bo-luat-dan-su-tach-dong-san-va-bat-dong-san-the-nao/index.html",
   "kind": "article"
  },
  {
