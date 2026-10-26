@@ -33813,11 +33813,13 @@
    "title": "Giám định thương tích sau tai nạn ở tổ chức nào: Trung tâm Pháp y tỉnh, Công an tỉnh hay Viện Pháp y?",
    "primaryIntent": "informational/giam-dinh-thuong-tich-sau-tai-nan-o-to-chuc-nao-trung-tam-phap-y-tinh-cong-an-tinh-hay-vien-phap-y",
    "notes": "source=topic-v2 topicId=T002495",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:53.047Z",
-   "updatedAt": "2026-10-25T15:07:53.047Z"
+   "updatedAt": "2026-10-26T00:15:43.426Z",
+   "seoScore": 100,
+   "words": 3507
   },
   {
    "id": "S02299",
@@ -33826,11 +33828,13 @@
    "title": "Va chạm xe máy có nhờ tổ hòa giải ở khu phố được không: phần nào hòa giải được, phần nào phải xử lý riêng?",
    "primaryIntent": "informational/va-cham-xe-may-co-nho-to-hoa-giai-o-khu-pho-duoc-khong-phan-nao-hoa-giai-duoc-phan-nao-phai-xu-ly-rieng",
    "notes": "source=topic-v2 topicId=T002496",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:07:58.069Z",
-   "updatedAt": "2026-10-25T15:07:58.069Z"
+   "updatedAt": "2026-10-26T00:15:43.426Z",
+   "seoScore": 100,
+   "words": 3816
   },
   {
    "id": "S02300",
@@ -33839,11 +33843,13 @@
    "title": "Tổ hòa giải khu phố mời sau va chạm xe máy: có bắt buộc đến, được từ chối, chọn hòa giải viên hay dừng không?",
    "primaryIntent": "informational/to-hoa-giai-khu-pho-moi-sau-va-cham-xe-may-co-bat-buoc-den-duoc-tu-choi-chon-hoa-giai-vien-hay-dung-khong",
    "notes": "source=topic-v2 topicId=T002497",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:08:03.012Z",
-   "updatedAt": "2026-10-25T15:08:03.012Z"
+   "updatedAt": "2026-10-26T00:15:43.426Z",
+   "seoScore": 100,
+   "words": 3834
   },
   {
    "id": "S02301",
