@@ -33858,11 +33858,13 @@
    "title": "Nhờ tổ hòa giải ở tổ dân phố: ai yêu cầu được, hòa giải viên bắt đầu trong mấy ngày và hòa giải ở đâu?",
    "primaryIntent": "informational/nho-to-hoa-giai-o-to-dan-pho-ai-yeu-cau-duoc-hoa-giai-vien-bat-dau-trong-may-ngay-va-hoa-giai-o-dau",
    "notes": "source=topic-v2 topicId=T002498",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:08:08.183Z",
-   "updatedAt": "2026-10-25T15:08:08.183Z"
+   "updatedAt": "2026-10-26T00:16:30.991Z",
+   "seoScore": 100,
+   "words": 3678
   },
   {
    "id": "S02302",
@@ -33871,11 +33873,13 @@
    "title": "Văn bản hòa giải thành ở tổ hòa giải khu phố gồm những nội dung nào, ai ký và các bên có phải làm theo không?",
    "primaryIntent": "informational/van-ban-hoa-giai-thanh-o-to-hoa-giai-khu-pho-gom-nhung-noi-dung-nao-ai-ky-va-cac-ben-co-phai-lam-theo-khong",
    "notes": "source=topic-v2 topicId=T002499",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:08:13.338Z",
-   "updatedAt": "2026-10-25T15:08:13.338Z"
+   "updatedAt": "2026-10-26T00:16:30.991Z",
+   "seoScore": 100,
+   "words": 3767
   },
   {
    "id": "S02303",
@@ -33884,11 +33888,13 @@
    "title": "Hòa giải ở khu phố không đạt thỏa thuận: kết thúc khi nào, có lập văn bản không và các bên đi tiếp thế nào?",
    "primaryIntent": "informational/hoa-giai-o-khu-pho-khong-dat-thoa-thuan-ket-thuc-khi-nao-co-lap-van-ban-khong-va-cac-ben-di-tiep-the-nao",
    "notes": "source=topic-v2 topicId=T002500",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:08:18.008Z",
-   "updatedAt": "2026-10-25T15:08:18.008Z"
+   "updatedAt": "2026-10-26T00:16:30.991Z",
+   "seoScore": 100,
+   "words": 3808
   },
   {
    "id": "S02304",
