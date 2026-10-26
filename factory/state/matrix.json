@@ -33903,11 +33903,13 @@
    "title": "Nhờ Tòa án công nhận kết quả hòa giải thành ngoài Tòa: hạn 06 tháng, điều kiện và hiệu lực quyết định ra sao?",
    "primaryIntent": "informational/nho-toa-an-cong-nhan-ket-qua-hoa-giai-thanh-ngoai-toa-an-han-06-thang-dieu-kien-va-quyet-dinh-co-hieu-luc-ra-sao",
    "notes": "source=topic-v2 topicId=T002501",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T15:08:23.109Z",
-   "updatedAt": "2026-10-25T15:08:23.110Z"
+   "updatedAt": "2026-10-26T00:17:41.026Z",
+   "seoScore": 100,
+   "words": 3742
   },
   {
    "id": "S02305",
