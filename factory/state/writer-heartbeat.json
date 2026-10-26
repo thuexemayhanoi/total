@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-25T23:34:44.635Z",
+ "at": "2026-10-26T07:45:34.974Z",
  "phase": "writing",
  "pair": null,
- "note": "vòng 181 lô W: S02288–S02293 đã xuất bản; S02294–S02297 verify-batch OK đang push 3 bài mỗi lần; S02298–S02304 đang sửa và viết; lô X (S02305–S02322) đã duyệt topic, chờ viết"
+ "note": "vòng 184 lô X: S02305–S02322 đang viết lại sau khi hết giới hạn phiên; lô W xuất bản đủ (2.004 bài xác minh được); scout lô Y chờ"
 }
