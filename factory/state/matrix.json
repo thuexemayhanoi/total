@@ -34021,11 +34021,13 @@
    "title": "Mũ bảo hiểm làm theo quy chuẩn cũ 2008 còn được bán đến khi nào: mốc 01/01/2024 và hạn chuyển tiếp 31/12/2024",
    "primaryIntent": "informational/mu-bao-hiem-lam-theo-quy-chuan-cu-2008-con-duoc-ban-den-khi-nao-moc-01-01-2024-va-han-chuyen-tiep-31-12-2024",
    "notes": "source=topic-v2 topicId=T002509",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:03.395Z",
-   "updatedAt": "2026-10-25T18:34:03.396Z"
+   "updatedAt": "2026-10-26T17:16:11.705Z",
+   "seoScore": 100,
+   "words": 3281
   },
   {
    "id": "S02313",
