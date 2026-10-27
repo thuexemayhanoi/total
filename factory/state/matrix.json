@@ -34137,11 +34137,13 @@
    "title": "Sợ lộ tên hoặc bị trả thù khi tố cáo: người tố cáo được bảo vệ những gì và đề nghị bảo vệ ra sao?",
    "primaryIntent": "informational/so-lo-ten-hoac-bi-tra-thu-khi-to-cao-nguoi-to-cao-duoc-bao-ve-nhung-gi-va-de-nghi-bao-ve-ra-sao",
    "notes": "source=topic-v2 topicId=T002517",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:48.110Z",
-   "updatedAt": "2026-10-25T18:34:48.110Z"
+   "updatedAt": "2026-10-27T06:44:00.805Z",
+   "seoScore": 100,
+   "words": 4123
   },
   {
    "id": "S02321",
@@ -34150,11 +34152,13 @@
    "title": "Tố cáo sai sự thật: người tố cáo phải chịu trách nhiệm gì và người bị tố cáo được khôi phục ra sao?",
    "primaryIntent": "informational/to-cao-sai-su-that-nguoi-to-cao-phai-chiu-trach-nhiem-gi-va-nguoi-bi-to-cao-duoc-khoi-phuc-ra-sao",
    "notes": "source=topic-v2 topicId=T002518",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:53.275Z",
-   "updatedAt": "2026-10-25T18:34:53.275Z"
+   "updatedAt": "2026-10-27T06:44:00.805Z",
+   "seoScore": 100,
+   "words": 4221
   },
   {
    "id": "S02322",
