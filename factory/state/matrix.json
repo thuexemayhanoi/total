@@ -34473,11 +34473,13 @@
    "title": "Tiệm sửa xe thay ắc quy, pin cho khách: bình cũ tháo ra được cất giữ bao lâu và phải giao cho ai?",
    "primaryIntent": "informational/tiem-sua-xe-thay-ac-quy-pin-cho-khach-binh-cu-thao-ra-duoc-cat-giu-bao-lau-va-phai-giao-cho-ai",
    "notes": "source=topic-v2 topicId=T002539",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:07:28.147Z",
-   "updatedAt": "2026-10-27T08:07:28.147Z"
+   "updatedAt": "2026-10-27T23:41:55.876Z",
+   "seoScore": 100,
+   "words": 3386
   },
   {
    "id": "S02343",
