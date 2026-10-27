@@ -34098,11 +34098,13 @@
    "title": "Nộp đơn tố cáo rồi chờ bao lâu: xử lý ban đầu 07 ngày làm việc, thụ lý, giải quyết 30 ngày và gia hạn",
    "primaryIntent": "informational/nop-don-to-cao-roi-cho-bao-lau-xu-ly-ban-dau-07-ngay-lam-viec-thu-ly-giai-quyet-30-ngay-va-gia-han",
    "notes": "source=topic-v2 topicId=T002514",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:32.305Z",
-   "updatedAt": "2026-10-25T18:34:32.305Z"
+   "updatedAt": "2026-10-27T06:44:30.576Z",
+   "seoScore": 100,
+   "words": 4161
   },
   {
    "id": "S02318",
