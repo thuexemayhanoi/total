@@ -34293,11 +34293,13 @@
    "title": "Thời hiệu yêu cầu thi hành án 05 năm tính từ ngày nào, và người phải thi hành chưa có điều kiện thì sao?",
    "primaryIntent": "informational/thoi-hieu-yeu-cau-thi-hanh-an-05-nam-tinh-tu-ngay-nao-va-nguoi-phai-thi-hanh-chua-co-dieu-kien-thi-sao",
    "notes": "source=topic-v2 topicId=T002527",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:06:01.168Z",
-   "updatedAt": "2026-10-27T08:06:01.168Z"
+   "updatedAt": "2026-10-27T12:44:27.400Z",
+   "seoScore": 100,
+   "words": 3931
   },
   {
    "id": "S02331",
