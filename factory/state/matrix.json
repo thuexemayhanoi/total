@@ -34130,11 +34130,11 @@
    "notes": "source=topic-v2 topicId=T002516",
    "state": "PUBLISHED",
    "qaScore": 100,
-   "attempts": 1,
+   "attempts": 2,
    "createdAt": "2026-10-25T18:34:42.826Z",
-   "updatedAt": "2026-10-27T06:45:02.687Z",
+   "updatedAt": "2026-10-27T06:47:03.325Z",
    "seoScore": 100,
-   "words": 3742
+   "words": 3770
   },
   {
    "id": "S02320",
