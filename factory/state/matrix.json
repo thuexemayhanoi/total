@@ -34368,11 +34368,13 @@
    "title": "Đò ngang chở xe máy: Luật yêu cầu người lái đò làm gì trước khi rời bến và hành khách phải làm gì?",
    "primaryIntent": "informational/do-ngang-cho-xe-may-luat-yeu-cau-nguoi-lai-do-lam-gi-truoc-khi-roi-ben-va-hanh-khach-phai-lam-gi",
    "notes": "source=topic-v2 topicId=T002532",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:06:36.327Z",
-   "updatedAt": "2026-10-27T08:06:36.327Z"
+   "updatedAt": "2026-10-27T18:04:43.226Z",
+   "seoScore": 100,
+   "words": 3350
   },
   {
    "id": "S02336",

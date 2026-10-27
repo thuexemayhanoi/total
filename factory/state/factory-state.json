@@ -2,8 +2,7 @@
  "version": 1,
  "slots": [],
  "lastAction": {
-  "action": "set-planned-target:16000->20000",
-  "at": "2026-10-27T17:46:31.078Z",
-  "prevPlannedTarget": 16000
+  "action": "publish-pair:S02335",
+  "at": "2026-10-27T18:04:43.235Z"
  }
 }
