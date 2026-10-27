@@ -34488,11 +34488,13 @@
    "title": "Từ 2027 hãng xe phải tái chế phương tiện: xe máy có nằm trong danh mục của Nghị định 110/2026 không?",
    "primaryIntent": "informational/tu-2027-hang-xe-phai-tai-che-phuong-tien-xe-may-co-nam-trong-danh-muc-cua-nghi-dinh-110-2026-khong",
    "notes": "source=topic-v2 topicId=T002540",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:07:35.578Z",
-   "updatedAt": "2026-10-27T08:07:35.578Z"
+   "updatedAt": "2026-10-27T23:43:34.654Z",
+   "seoScore": 100,
+   "words": 3322
   },
   {
    "id": "S02344",
