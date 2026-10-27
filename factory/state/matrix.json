@@ -34248,11 +34248,13 @@
    "title": "Khiếu nại việc bị xử lý sai: chi phí đi lại, gửi đơn và thuê người bảo vệ có được Nhà nước bồi thường không?",
    "primaryIntent": "informational/khieu-nai-bi-xu-ly-sai-chi-phi-di-lai-gui-don-va-thue-nguoi-bao-ve-co-duoc-nha-nuoc-boi-thuong-khong",
    "notes": "source=topic-v2 topicId=T002524",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:05:38.275Z",
-   "updatedAt": "2026-10-27T08:05:38.275Z"
+   "updatedAt": "2026-10-27T09:00:41.319Z",
+   "seoScore": 100,
+   "words": 3497
   },
   {
    "id": "S02328",
