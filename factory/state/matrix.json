@@ -34278,11 +34278,13 @@
    "title": "Có quyết định thi hành án rồi: 10 ngày tự nguyện tính từ khi nào và thỏa thuận thi hành án phải làm sao?",
    "primaryIntent": "informational/co-quyet-dinh-thi-hanh-an-roi-10-ngay-tu-nguyen-tinh-tu-khi-nao-va-thoa-thuan-thi-hanh-an-phai-lam-sao",
    "notes": "source=topic-v2 topicId=T002526",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:05:53.628Z",
-   "updatedAt": "2026-10-27T08:05:53.628Z"
+   "updatedAt": "2026-10-27T12:43:25.683Z",
+   "seoScore": 100,
+   "words": 3771
   },
   {
    "id": "S02330",
