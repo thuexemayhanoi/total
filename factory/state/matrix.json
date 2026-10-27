@@ -34308,11 +34308,13 @@
    "title": "Gửi hành lý ký gửi bằng đường sắt cần những gì: vé hành lý, tờ khai gửi hàng và giấy tờ khi nhận hàng?",
    "primaryIntent": "informational/gui-hanh-ly-ky-gui-theo-tau-hoa-can-nhung-gi-ve-hanh-ly-to-khai-gui-hang-va-giay-to-khi-nhan",
    "notes": "source=topic-v2 topicId=T002528",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:06:08.065Z",
-   "updatedAt": "2026-10-27T08:06:08.065Z"
+   "updatedAt": "2026-10-27T12:46:17.442Z",
+   "seoScore": 100,
+   "words": 3512
   },
   {
    "id": "S02332",
