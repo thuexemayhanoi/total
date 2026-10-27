@@ -34428,11 +34428,13 @@
    "title": "Đại lý bán xe hay bán ắc quy có bắt buộc nhận lại pin, ắc quy cũ của khách không? Luật nói gì",
    "primaryIntent": "informational/dai-ly-ban-xe-hay-ban-ac-quy-co-bat-buoc-nhan-lai-pin-ac-quy-cu-cua-khach-khong-luat-noi-gi",
    "notes": "source=topic-v2 topicId=T002536",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:07:06.097Z",
-   "updatedAt": "2026-10-27T08:07:06.097Z"
+   "updatedAt": "2026-10-27T18:10:37.585Z",
+   "seoScore": 100,
+   "words": 3265
   },
   {
    "id": "S02340",
@@ -34441,11 +34443,13 @@
    "title": "Tách riêng ắc quy, pin cũ khỏi rác nhà mình thì có phải trả tiền dịch vụ thu gom rác không?",
    "primaryIntent": "informational/tach-rieng-ac-quy-pin-cu-khoi-rac-nha-minh-co-phai-tra-tien-dich-vu-thu-gom-rac-khong-dieu-79-luat-bao-ve-moi-truong",
    "notes": "source=topic-v2 topicId=T002537",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:07:13.370Z",
-   "updatedAt": "2026-10-27T08:07:13.370Z"
+   "updatedAt": "2026-10-27T18:10:37.585Z",
+   "seoScore": 100,
+   "words": 3298
   },
   {
    "id": "S02341",
