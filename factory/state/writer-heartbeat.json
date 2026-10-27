@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-27T17:46:41.699Z",
+ "at": "2026-10-27T23:26:28.828Z",
  "phase": "writing",
  "pair": null,
- "note": "lô Y (S02323–S02359): 12 bài đã xuất bản, S02335–S02359 đang viết/kiểm sau lần chạy lại 17:33 UTC; capacity 24.000, plannedTarget 20.000 theo lệnh chủ repo"
+ "note": "lô Y: S02323–S02340 đã xuất bản (18 bài); chạy lại workflow lúc 23:27 UTC cho S02341–S02359 sau giới hạn phiên"
 }
