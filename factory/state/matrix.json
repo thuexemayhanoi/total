@@ -34398,11 +34398,13 @@
    "title": "Mang pin lithium rời hoặc pin xe điện lên máy bay: danh mục vật phẩm nguy hiểm 2026 cho phép đến đâu?",
    "primaryIntent": "informational/mang-pin-lithium-roi-hoac-pin-xe-dien-len-may-bay-danh-muc-vat-pham-nguy-hiem-2026-cho-phep-den-dau",
    "notes": "source=topic-v2 topicId=T002534",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:06:51.407Z",
-   "updatedAt": "2026-10-27T08:06:51.407Z"
+   "updatedAt": "2026-10-27T18:09:08.454Z",
+   "seoScore": 100,
+   "words": 3466
   },
   {
    "id": "S02338",
