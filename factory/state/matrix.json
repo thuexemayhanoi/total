@@ -1,7 +1,7 @@
 {
  "version": 1,
- "capacity": 20000,
- "plannedTarget": 16000,
+ "capacity": 24000,
+ "plannedTarget": 20000,
  "reserved": {
   "total": 4000,
   "gsc-query-discovery": 900,
