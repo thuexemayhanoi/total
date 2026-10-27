@@ -34338,11 +34338,13 @@
    "title": "Đồ gửi theo đường sắt bị hư hỏng hoặc mất: nhận hàng phải báo ngay thế nào và được bồi thường theo giá nào?",
    "primaryIntent": "informational/hanh-ly-ky-gui-tren-tau-hoa-bi-hu-hong-hoac-mat-phai-bao-ngay-the-nao-va-duong-sat-boi-thuong-theo-gia-nao",
    "notes": "source=topic-v2 topicId=T002530",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:06:21.815Z",
-   "updatedAt": "2026-10-27T08:06:21.815Z"
+   "updatedAt": "2026-10-27T12:47:39.811Z",
+   "seoScore": 100,
+   "words": 3698
   },
   {
    "id": "S02334",
@@ -34351,11 +34353,13 @@
    "title": "Hành lý ký gửi trên tàu hỏa không ai nhận hoặc tàu tắc đường: mốc 60 ngày, đổi ga đến và đổi người nhận",
    "primaryIntent": "informational/hanh-ly-ky-gui-tren-tau-hoa-khong-ai-den-nhan-hoac-tau-bi-tac-duong-moc-60-ngay-va-quyen-doi-ga-den-doi-nguoi-nhan",
    "notes": "source=topic-v2 topicId=T002531",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:06:28.915Z",
-   "updatedAt": "2026-10-27T08:06:28.915Z"
+   "updatedAt": "2026-10-27T12:47:39.811Z",
+   "seoScore": 100,
+   "words": 3597
   },
   {
    "id": "S02335",
