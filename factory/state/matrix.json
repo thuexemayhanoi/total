@@ -34188,11 +34188,13 @@
    "title": "Bị xử phạt giao thông sai và quyết định bị hủy: Nhà nước có bồi thường không và cần văn bản nào làm căn cứ?",
    "primaryIntent": "informational/nhan-quyet-dinh-xu-phat-giao-thong-sai-nha-nuoc-co-boi-thuong-khong-dieu-17-luat-trach-nhiem-boi-thuong",
    "notes": "source=topic-v2 topicId=T002520",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:05:06.718Z",
-   "updatedAt": "2026-10-27T08:05:06.718Z"
+   "updatedAt": "2026-10-27T08:56:41.430Z",
+   "seoScore": 100,
+   "words": 3602
   },
   {
    "id": "S02324",
