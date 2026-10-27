@@ -34008,11 +34008,13 @@
    "title": "Đã công chứng bán hoặc tặng xe máy muốn sửa, hủy hợp đồng hoặc sửa lỗi đánh máy: làm ở đâu, ai phải đồng ý?",
    "primaryIntent": "informational/da-cong-chung-ban-hoac-tang-xe-may-muon-sua-huy-hop-dong-hoac-sua-loi-danh-may-lam-o-dau-ai-phai-dong-y",
    "notes": "source=topic-v2 topicId=T002508",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:33:57.076Z",
-   "updatedAt": "2026-10-25T18:33:57.076Z"
+   "updatedAt": "2026-10-27T06:36:16.355Z",
+   "seoScore": 100,
+   "words": 3688
   },
   {
    "id": "S02312",
@@ -34036,11 +34038,13 @@
    "title": "Trên nhãn mũ bảo hiểm phải có những gì và dấu hợp quy CR in ở đâu, kèm thông tin nào?",
    "primaryIntent": "informational/tren-nhan-mu-bao-hiem-phai-co-nhung-gi-va-dau-hop-quy-cr-in-o-dau-kem-thong-tin-nao",
    "notes": "source=topic-v2 topicId=T002510",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:08.994Z",
-   "updatedAt": "2026-10-25T18:34:08.994Z"
+   "updatedAt": "2026-10-27T06:36:16.355Z",
+   "seoScore": 100,
+   "words": 3533
   },
   {
    "id": "S02314",
@@ -34049,11 +34053,13 @@
    "title": "Mũ nửa đầu, ba phần tư, cả đầu, mũ có lưỡi trai hay kính che: loại nào thuộc phạm vi quy chuẩn mũ bảo hiểm?",
    "primaryIntent": "informational/mu-nua-dau-ba-phan-tu-ca-dau-mu-co-luoi-trai-hay-kinh-che-loai-nao-thuoc-pham-vi-quy-chuan-mu-bao-hiem",
    "notes": "source=topic-v2 topicId=T002511",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:14.687Z",
-   "updatedAt": "2026-10-25T18:34:14.687Z"
+   "updatedAt": "2026-10-27T06:36:16.355Z",
+   "seoScore": 100,
+   "words": 3352
   },
   {
    "id": "S02315",
