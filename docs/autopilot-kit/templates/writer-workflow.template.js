@@ -29,6 +29,7 @@ const GRP = {
 
 function writerPrompt(s) {
   return `Bạn là writer của AI WIKI TOTAL (repo /home/user/total). Viết ĐÚNG MỘT module bài cho slot ${s.id}.
+CHỐT AN TOÀN (bắt buộc, làm đầu tiên): chạy cd /home/user/total && node -e "const m=require('./factory/state/matrix.json');const x=m.slots.find(z=>z.id==='${s.id}');console.log(x?x.state:'NONE')"; nếu kết quả là PUBLISHED thì bài đã xuất bản (workflow đang được chạy lại): KHÔNG tạo, KHÔNG sửa file nào, trả về ngay theo schema với ghi chú 'đã PUBLISHED, bỏ qua'.
 
 PACK=${PACK} (khối \`ITEM ${s.id}\`; lấy bằng: awk '/^ITEM ${s.id} /{f=1;print;next} /^ITEM /{f=0} f' ${PACK})
 Đọc theo thứ tự và tuân thủ tuyệt đối: (1) ${SP}/WRITER-BRIEF-VERIFIED.md, (2) ${SP}/WRITER-BRIEF-PENALTY.md (phụ lục thủ tục/số liệu, ưu tiên hơn khi khác). Thân bài 1.500–2.300 từ, đúng 5 H2 mỗi H2 4 đoạn, một H2 cuối nêu rõ phần bài chưa đối chiếu. File đích: ${ART}${s.slug}.js
@@ -50,6 +51,7 @@ Kiểm: (a) câu khẳng định điều luật/quy trình/điều kiện/thời
 
 function fixPrompt(s, issues) {
   return `Bạn là người sửa bài ${s.id} (repo /home/user/total). Chỉ sửa file ${ART}${s.slug}.js bằng công cụ Edit (không viết lại cả bài, không chạy git, không sửa file khác).
+CHỐT AN TOÀN (bắt buộc, làm đầu tiên): chạy cd /home/user/total && node -e "const m=require('./factory/state/matrix.json');const x=m.slots.find(z=>z.id==='${s.id}');console.log(x?x.state:'NONE')"; nếu kết quả là PUBLISHED thì bài đã xuất bản (workflow đang được chạy lại): KHÔNG tạo, KHÔNG sửa file nào, trả về ngay theo schema với ghi chú 'đã PUBLISHED, bỏ qua'.
 Các lỗi verifier tìm ra:
 ${JSON.stringify(issues, null, 1)}
 Dữ kiện gốc: ${PACK}, khối ITEM ${s.id} (awk '/^ITEM ${s.id} /{f=1;print;next} /^ITEM /{f=0} f' ${PACK}). Với MỖI lỗi, trước khi sửa hãy tự đối chiếu với dòng VERIFIED_FACTS; nếu lỗi do verifier hiểu sai (bài đã đúng dữ kiện) thì KHÔNG sửa và ghi rõ vì sao. Nếu lỗi thật: sửa TỐI THIỂU (đưa câu về đúng chữ trong VERIFIED_FACTS, hoặc bỏ cụm không có trong dữ kiện, hoặc chuyển thành "bài chưa đối chiếu"); không thêm dữ kiện ngoài ITEM. Giữ đúng 5 H2 mỗi H2 4 đoạn, thân bài 1.500–2.300 từ, giữ nguyên slug/title/related. Sau khi sửa chạy: cd /home/user/total && node -e "require('./factory/data/articles/${s.slug}.js')" && node factory/factory.js qa-preview ${s.id} (QA ≥ 90, không cảnh báo). Trả về JSON: fixed (true nếu mọi lỗi thật đã xử lý), qa, words, notes (từng lỗi: đã sửa thế nào / không sửa vì sao).`
