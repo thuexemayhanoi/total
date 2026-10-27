@@ -26883,6 +26883,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-phap-ly/gui-xe-may-chay-xang-hoac-chay-dien-theo-tau-hoa-danh-muc-hang-nguy-hiem-duong-sat-ghi-nhung-muc-nao/",
+  "title": "Gửi xe máy chạy xăng hoặc chạy điện theo tàu hỏa: Danh mục hàng nguy hiểm đường sắt ghi những mục nào?",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "summary": "Người định gửi xe máy chạy xăng hoặc chạy điện theo tàu hỏa thường lo xăng trong bình hay pin của xe bị coi là hàng nguy hiểm. Bài đối chiếu ba văn bản hiện hành: Luật Đường sắt 95/2025/QH15, Nghị định 16/2026/NĐ-CP và Thông tư 33/2025/TT-BXD. Trọng tâm là những mục của Danh mục hàng nguy hiểm đường sắt ở Phụ lục III có liên quan: xăng, xe chạy bằng chất lỏng dễ cháy, xe chạy ắc quy và ắc quy ion liti, kèm số hiệu UN và loại. Bài cũng nêu quyền yêu cầu tuân thủ hoặc từ chối vận chuyển của doanh nghiệp tại ga đi. Bài không kết luận một chiếc xe cụ thể được hay không được gửi, và chỉ ra những câu cần hỏi doanh nghiệp đường sắt.",
+  "quickAnswer": "Phụ lục III Nghị định 16/2026/NĐ-CP ghi “nhiên liệu động cơ hoặc xăng hoặc dầu” là UN 1203, loại 3; xe chạy bằng chất lỏng dễ cháy là UN 3166, loại 9; xe chạy ắc quy là UN 3171, loại 9; ắc quy ion liti là UN 3480, còn ắc quy ion liti có trong hoặc đóng gói kèm theo thiết bị là UN 3481, cả hai loại 9, nhãn 9A. Trong các mục bài đối chiếu, Danh mục chỉ ghi tên gọi, số hiệu và phân loại, không có mục nào mang đúng tên xe máy, nên không tự trả lời một chiếc xe cụ thể thuộc mục nào. Theo Điều 143 khoản 2 điểm a Thông tư 33/2025/TT-BXD, nếu hành lý ký gửi là hàng nguy hiểm không đủ điều kiện được phát hiện tại ga đi, doanh nghiệp được yêu cầu người gửi tuân thủ, không đáp ứng thì từ chối vận chuyển. Vì vậy hãy hỏi doanh nghiệp vận tải đường sắt trước khi mang xe ra ga.",
+  "keyPoints": [
+   "Điều 50 khoản 3 Luật Đường sắt 95/2025/QH15 định nghĩa vận tải hàng hóa nguy hiểm; khoản 6 giao Chính phủ quy định chi tiết.",
+   "Điều 45 khoản 1 Nghị định 16/2026/NĐ-CP chia hàng nguy hiểm thành 9 loại và nhóm loại; Điều 46 khoản 1 dẫn tới Danh mục ở Phụ lục III.",
+   "Phụ lục III ghi xăng là UN 1203 loại 3; xe chạy bằng chất lỏng dễ cháy UN 3166, xe chạy ắc quy UN 3171, ắc quy ion liti UN 3480 và ắc quy ion liti có trong hoặc đóng gói kèm theo thiết bị UN 3481 đều loại 9.",
+   "Thông tư 33/2025/TT-BXD: hàng nguy hiểm không được mang theo người; hành lý ký gửi là hàng nguy hiểm không đủ điều kiện, nếu phát hiện tại ga đi, doanh nghiệp được yêu cầu người gửi tuân thủ và từ chối vận chuyển nếu người gửi không đáp ứng."
+  ],
+  "entities": [
+   "Luật Đường sắt 95/2025/QH15",
+   "Nghị định 16/2026/NĐ-CP",
+   "Thông tư 33/2025/TT-BXD",
+   "Phụ lục III danh mục hàng nguy hiểm",
+   "số hiệu UN",
+   "ắc quy ion liti",
+   "hành lý ký gửi",
+   "doanh nghiệp kinh doanh vận tải đường sắt"
+  ],
+  "keywords": [
+   "gửi xe máy theo tàu hỏa có xăng được không",
+   "danh mục hàng nguy hiểm đường sắt",
+   "UN 1203 xăng loại 3",
+   "ắc quy ion liti UN 3480 UN 3481",
+   "Nghị định 16/2026/NĐ-CP Phụ lục III"
+  ]
+ },
+ {
   "url": "learn/kien-thuc-xe-dien/gui-xe-may-dien-hoac-pin-di-xa-bang-xe-khach-tau-hay-xe-tai-tat-nguon-thao-pin-va-nhung-dieu-phai-hoi-noi-nhan/",
   "title": "Gửi xe máy điện hoặc pin đi xa bằng xe khách, tàu hay xe tải: tắt nguồn, tháo pin và những điều phải hỏi nơi nhận",
   "category": "Kiến thức chuyên sâu",
