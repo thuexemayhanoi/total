@@ -17180,6 +17180,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-phap-ly/dat-thue-xe-tren-website-hoac-ung-dung-bi-nhap-nham-ngay-so-luong-khi-nao-duoc-rut-lai-thong-tin-da-nhap/",
+  "title": "Đặt thuê xe trên website hoặc ứng dụng bị nhập nhầm ngày, số lượng: khi nào được rút lại thông tin đã nhập?",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "summary": "Người đặt thuê xe trên website hoặc ứng dụng đôi khi lỡ chọn nhầm ngày, nhầm số lượng rồi mới thấy trang không cho sửa, và muốn biết luật có cho rút lại thông tin đã nhập hay không. Bài đọc Điều 14 khoản 3 và khoản 4 Luật Giao dịch điện tử số 20/2023/QH15 qua văn bản hợp nhất 36/VBHN-VPQH: quyền rút chỉ đặt ra khi lỗi nhập xảy ra qua hệ thống thông tin tự động không cho cơ hội sửa lỗi, người mắc lỗi phải báo ngay khi nhận ra và chưa sử dụng hay nhận lợi ích nào từ các bên. Bài đặt quy định đó cạnh Điều 3 khoản 16, Điều 34 khoản 1, Điều 35 và Điều 36 khoản 3 về hợp đồng điện tử giao kết với hệ thống tự động. Bài không kết luận một đơn đặt cụ thể bị hủy hay còn hiệu lực và không phải tư vấn pháp lý. Văn bản truy xuất ngày 27 tháng 10 năm 2026; hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào bài.",
+  "quickAnswer": "Theo Điều 14 khoản 3 Luật Giao dịch điện tử số 20/2023/QH15 (văn bản hợp nhất 36/VBHN-VPQH), khi một bên mắc lỗi nhập thông tin thông qua hệ thống thông tin tự động mà hệ thống đó không cung cấp cho bên đó cơ hội sửa lỗi, bên mắc lỗi có quyền rút lại thông tin đã nhập nếu đáp ứng đủ hai yêu cầu. Hai yêu cầu đó là đã thông báo về lỗi nhập cho các bên liên quan ngay khi nhận ra lỗi, và chưa sử dụng hoặc nhận được bất kỳ lợi ích nào (nếu có) từ các bên. Điều 14 khoản 4 nêu quyền này không ảnh hưởng đến trách nhiệm giải quyết hậu quả phát sinh do lỗi theo quy định khác của pháp luật có liên quan. Một đơn đặt thuê xe cụ thể nhập nhầm ngày hay số lượng có đủ các điều kiện ấy hay không là điều bài không kết luận.",
+  "keyPoints": [
+   "Điều 14 khoản 3 chỉ đặt ra quyền rút lại thông tin đã nhập khi một bên mắc lỗi nhập qua hệ thống thông tin tự động mà hệ thống đó không cung cấp cơ hội sửa lỗi.",
+   "Người mắc lỗi phải đáp ứng đủ hai yêu cầu: thông báo lỗi cho các bên liên quan ngay khi nhận ra, và chưa sử dụng hoặc nhận được lợi ích nào (nếu có) từ các bên.",
+   "Điều 14 khoản 4: quyền rút thông tin có lỗi không ảnh hưởng đến trách nhiệm giải quyết hậu quả phát sinh do lỗi theo quy định khác của pháp luật có liên quan.",
+   "Điều 34 khoản 1: hợp đồng điện tử giao kết với hệ thống thông tin tự động không bị phủ nhận giá trị pháp lý chỉ vì không có sự kiểm tra của con người."
+  ],
+  "entities": [
+   "Luật Giao dịch điện tử",
+   "văn bản hợp nhất 36/VBHN-VPQH",
+   "hệ thống thông tin tự động",
+   "lỗi nhập thông tin",
+   "quyền rút lại thông tin đã nhập",
+   "hợp đồng điện tử",
+   "thông điệp dữ liệu",
+   "Luật số 20/2026/QH16"
+  ],
+  "keywords": [
+   "nhập nhầm thông tin khi đặt thuê xe trên ứng dụng",
+   "rút lại thông tin đã nhập khi đặt thuê xe",
+   "quyền rút thông tin có lỗi Luật Giao dịch điện tử",
+   "đặt thuê xe trên website chọn nhầm ngày hoặc số lượng",
+   "hợp đồng điện tử với hệ thống thông tin tự động"
+  ]
+ },
+ {
   "url": "tips/meo-xu-ly-su-co/dat-xe-may-khi-lop-da-xep-banh-truoc-hay-banh-sau-xep-giu-vanh-va-lop-the-nao-va-nen-dat-den-dau/",
   "title": "Dắt xe máy khi lốp đã xẹp: bánh trước hay bánh sau xẹp, giữ vành và lốp thế nào và nên dắt đến đâu",
   "category": "Mẹo",
@@ -31848,6 +31879,37 @@
    "di xe may giua dong xe",
    "luon xe an toan",
    "doc khe dong xe"
+  ]
+ },
+ {
+  "url": "learn/kien-thuc-phap-ly/luu-hop-dong-thue-xe-va-lich-su-chuyen-khoan-coc-dang-file-khi-nao-co-gia-tri-nhu-ban-goc-in-ra-giay-can-gi/",
+  "title": "Lưu hợp đồng thuê xe và lịch sử chuyển khoản cọc dạng file: khi nào có giá trị như bản gốc, in ra giấy cần gì?",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "summary": "Nhiều người thuê và cho thuê xe máy chỉ giữ hợp đồng, biên nhận cọc và lịch sử chuyển khoản dạng file trên điện thoại, rồi băn khoăn bản điện tử ấy có được coi như bản gốc không và khi in ra giấy cần những gì. Bài đọc Luật Giao dịch điện tử số 20/2023/QH15 qua văn bản hợp nhất 36/VBHN-VPQH ở ba điều hay bị gộp làm một: Điều 10 về giá trị như bản gốc, Điều 13 về lưu trữ dưới dạng thông điệp dữ liệu và Điều 12 khoản 2, 3, 4 về văn bản giấy chuyển đổi từ thông điệp dữ liệu. Bài đọc thêm Điều 10 khoản 1 Nghị định 52/2024/NĐ-CP về quyền của chủ tài khoản yêu cầu cung cấp thông tin giao dịch. Bài không kết luận một tệp, một ảnh chụp màn hình hay một bản in cụ thể có đáp ứng các yêu cầu hay không. Văn bản truy xuất ngày 27 tháng 10 năm 2026; hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào bài.",
+  "quickAnswer": "Theo Luật Giao dịch điện tử số 20/2023/QH15 (văn bản hợp nhất 36/VBHN-VPQH), Điều 10 nêu thông điệp dữ liệu có giá trị như bản gốc khi đáp ứng đủ hai yêu cầu: thông tin được bảo đảm toàn vẹn kể từ khi được khởi tạo lần đầu tiên dưới dạng một thông điệp dữ liệu hoàn chỉnh, và có thể truy cập, sử dụng được dưới dạng hoàn chỉnh. Điều 13 khoản 1 nêu ba yêu cầu để lưu trữ dưới dạng thông điệp dữ liệu khi pháp luật yêu cầu lưu trữ, còn khoản 2 cho phép chọn lưu bằng văn bản giấy hay thông điệp dữ liệu khi thông điệp dữ liệu đáp ứng các yêu cầu ở khoản 1, trừ trường hợp pháp luật có quy định khác. Khi in ra giấy, Điều 12 khoản 2 đòi văn bản giấy chuyển đổi bảo đảm toàn vẹn, có thông tin xác định hệ thống thông tin và chủ quản hệ thống lưu thông điệp gốc, có ký hiệu riêng xác nhận đã chuyển đổi kèm thông tin người chuyển đổi; khoản 3 để giá trị pháp lý theo pháp luật có liên quan. Với lịch sử chuyển khoản cọc, Điều 10 khoản 1 Nghị định 52/2024/NĐ-CP nêu chủ tài khoản thanh toán có quyền yêu cầu cung cấp thông tin giao dịch trên tài khoản của mình theo thỏa thuận với nơi mở tài khoản. Bài không kết luận một tệp hay bản in cụ thể và không phải tư vấn pháp lý.",
+  "keyPoints": [
+   "Điều 10 Luật Giao dịch điện tử: thông điệp dữ liệu có giá trị như bản gốc khi thông tin toàn vẹn kể từ lần khởi tạo hoàn chỉnh đầu tiên và truy cập, sử dụng được dưới dạng hoàn chỉnh.",
+   "Thông tin được xem là toàn vẹn khi chưa bị thay đổi, trừ những thay đổi về hình thức phát sinh trong quá trình gửi, lưu trữ hoặc hiển thị.",
+   "Điều 13 khoản 1: khi pháp luật yêu cầu lưu trữ, có thể lưu dưới dạng thông điệp dữ liệu nếu đáp ứng đủ ba yêu cầu: truy cập được để tham chiếu, giữ khuôn dạng hoặc khuôn dạng thể hiện chính xác, xác định được nguồn gốc khởi tạo, người gửi, người nhận, thời gian gửi, nhận; khoản 2 cho chọn lưu giấy hay thông điệp dữ liệu khi thông điệp dữ liệu đáp ứng khoản 1, trừ khi pháp luật có quy định khác.",
+   "Điều 12 khoản 2 điểm a, b, c: văn bản giấy chuyển đổi phải toàn vẹn, có thông tin xác định hệ thống thông tin và chủ quản hệ thống thông tin tạo lập, gửi, nhận, lưu trữ thông điệp gốc để tra cứu, có ký hiệu riêng xác nhận chuyển đổi kèm thông tin của cơ quan, tổ chức, cá nhân thực hiện chuyển đổi; khoản 3 để giá trị pháp lý theo pháp luật liên quan, khoản 4 giao Chính phủ quy định chi tiết."
+  ],
+  "entities": [
+   "thông điệp dữ liệu",
+   "Luật Giao dịch điện tử",
+   "văn bản hợp nhất 36/VBHN-VPQH",
+   "bản gốc",
+   "văn bản giấy chuyển đổi",
+   "lưu trữ thông điệp dữ liệu",
+   "Nghị định 52/2024/NĐ-CP",
+   "chủ tài khoản thanh toán"
+  ],
+  "keywords": [
+   "lưu hợp đồng thuê xe dạng file có giá trị như bản gốc",
+   "lịch sử chuyển khoản cọc thuê xe",
+   "in hợp đồng điện tử ra giấy cần gì",
+   "giá trị như bản gốc của thông điệp dữ liệu",
+   "quyền yêu cầu cung cấp thông tin giao dịch tài khoản"
   ]
  },
  {

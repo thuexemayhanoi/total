@@ -34518,11 +34518,13 @@
    "title": "Lưu hợp đồng thuê xe và lịch sử chuyển khoản cọc dạng file: khi nào có giá trị như bản gốc, in ra giấy cần gì?",
    "primaryIntent": "informational/luu-hop-dong-thue-xe-va-lich-su-chuyen-khoan-coc-dang-file-khi-nao-co-gia-tri-nhu-ban-goc-in-ra-giay-can-gi",
    "notes": "source=topic-v2 topicId=T002542",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:07:51.176Z",
-   "updatedAt": "2026-10-27T08:07:51.176Z"
+   "updatedAt": "2026-10-27T23:46:52.746Z",
+   "seoScore": 100,
+   "words": 3587
   },
   {
    "id": "S02346",
@@ -34531,11 +34533,13 @@
    "title": "Đặt thuê xe trên website hoặc ứng dụng bị nhập nhầm ngày, số lượng: khi nào được rút lại thông tin đã nhập?",
    "primaryIntent": "informational/dat-thue-xe-tren-website-hoac-ung-dung-bi-nhap-nham-ngay-so-luong-khi-nao-duoc-rut-lai-thong-tin-da-nhap",
    "notes": "source=topic-v2 topicId=T002543",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:07:59.336Z",
-   "updatedAt": "2026-10-27T08:07:59.337Z"
+   "updatedAt": "2026-10-27T23:46:52.746Z",
+   "seoScore": 100,
+   "words": 3367
   },
   {
    "id": "S02347",
