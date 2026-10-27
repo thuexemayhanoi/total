@@ -34458,11 +34458,13 @@
    "title": "Pin, ắc quy xe cũ trong nhà có phải chất thải nguy hại không? Mã 16 01 12 trong danh mục chất thải",
    "primaryIntent": "informational/pin-ac-quy-xe-cu-trong-nha-co-phai-chat-thai-nguy-hai-khong-ma-16-01-12-trong-danh-muc-chat-thai",
    "notes": "source=topic-v2 topicId=T002538",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:07:20.648Z",
-   "updatedAt": "2026-10-27T08:07:20.648Z"
+   "updatedAt": "2026-10-27T23:28:52.869Z",
+   "seoScore": 100,
+   "words": 3169
   },
   {
    "id": "S02342",
