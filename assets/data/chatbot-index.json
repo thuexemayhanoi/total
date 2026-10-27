@@ -49406,6 +49406,37 @@
   ]
  },
  {
+  "url": "ride/an-toan-giao-thong/thuyen-cho-khach-loai-nho-phai-co-gi-so-dang-ky-vach-dau-mon-nuoc-ao-phao-va-so-nguoi-duoc-cho/",
+  "title": "Thuyền chở khách loại nhỏ phải có gì: số đăng ký, vạch dấu mớn nước, áo phao và số người được chở",
+  "category": "Hành trình",
+  "hub": "An toàn giao thông",
+  "summary": "Bài dành cho người sắp dắt xe máy lên một chiếc thuyền chở khách loại nhỏ gắn máy để sang sông và muốn biết luật đòi chiếc thuyền ấy phải có những gì nhìn thấy được. Nội dung đọc Điều 24, Điều 80 và Điều 8 khoản 5, khoản 7 của Luật Giao thông đường thủy nội địa theo Văn bản hợp nhất 56/VBHN-VPQH, truy xuất ngày 27 tháng 10 năm 2026. Bài giải thích cách luật chia phương tiện theo trọng tải, công suất máy và sức chở, rồi đi qua từng điều kiện phải có: giấy chứng nhận đăng ký, số đăng ký trên phương tiện, số người được phép chở, vạch dấu mớn nước an toàn với kích thước cụ thể và đủ áo phao hoặc dụng cụ cứu sinh. Bài cũng nói rõ phần chưa đối chiếu, không nêu mức phạt và không kết luận một chiếc thuyền cụ thể có hợp lệ hay không.",
+  "quickAnswer": "Theo Điều 24 khoản 3 Luật Giao thông đường thủy nội địa (Văn bản hợp nhất 56/VBHN-VPQH), phương tiện có động cơ công suất máy chính dưới 5 sức ngựa hoặc có sức chở dưới 5 người phải có giấy chứng nhận đăng ký phương tiện thủy nội địa. Phương tiện phải được kẻ hoặc gắn số đăng ký, ghi số lượng người được phép chở và sơn vạch dấu mớn nước an toàn; khi chở người, chở hàng không được ngập qua vạch. Phương tiện chở người phải có đủ chỗ ngồi cân bằng và đủ áo phao hoặc dụng cụ cứu sinh cho số người được phép chở. Điều 8 khoản 7 cấm chở quá sức chở người của phương tiện hoặc quá vạch dấu mớn nước an toàn.",
+  "keyPoints": [
+   "Điều 24 chia phương tiện thủy nội địa thành các nhóm theo trọng tải toàn phần, công suất máy chính và sức chở; mỗi nhóm có điều kiện riêng.",
+   "Thuyền có động cơ công suất máy chính dưới 5 sức ngựa hoặc sức chở dưới 5 người thuộc khoản 3: phải có giấy chứng nhận đăng ký, thân chắc không rò nước, đèn ánh sáng trắng khi đi đêm; nếu chở người thì phải đủ chỗ ngồi cân bằng.",
+   "Phương tiện phải được kẻ hoặc gắn số đăng ký và ghi số lượng người được phép chở trên phương tiện.",
+   "Vạch dấu mớn nước an toàn rộng 25 milimét, dài 250 milimét, sơn ngang trên hai bên mạn ở vị trí giữa chiều dài lớn nhất; với phương tiện chở người, mép trên vạch cách mép mạn 200 milimét."
+  ],
+  "entities": [
+   "Luật Giao thông đường thủy nội địa",
+   "Văn bản hợp nhất 56/VBHN-VPQH",
+   "vạch dấu mớn nước an toàn",
+   "giấy chứng nhận đăng ký phương tiện thủy nội địa",
+   "áo phao",
+   "dụng cụ cứu sinh",
+   "sức chở người",
+   "phương tiện thủy nội địa"
+  ],
+  "keywords": [
+   "vạch dấu mớn nước an toàn thuyền chở khách",
+   "thuyền chở khách loại nhỏ phải có gì",
+   "áo phao cho số người được phép chở",
+   "giấy chứng nhận đăng ký phương tiện thủy nội địa",
+   "Luật Giao thông đường thủy nội địa Điều 24"
+  ]
+ },
+ {
   "url": "map/diem-sua-xe/tiem-hen-lay-xe-roi-lui-mai-hoi-tien-do-the-nao-ghi-lai-gi-va-luc-nao-nen-can-nhac-lay-xe-ve/",
   "title": "Tiệm hẹn lấy xe rồi lùi mãi: hỏi tiến độ thế nào, ghi lại gì và lúc nào nên cân nhắc lấy xe về",
   "category": "Bản đồ",
