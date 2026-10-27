@@ -34068,11 +34068,13 @@
    "title": "Tố cáo hành vi trong lúc tuần tra, kiểm soát giao thông: quyền này nằm ở đâu và Công an cấp nào giải quyết?",
    "primaryIntent": "informational/to-cao-hanh-vi-trong-luc-tuan-tra-kiem-soat-giao-thong-quyen-nay-nam-o-dau-va-cong-an-cap-nao-giai-quyet",
    "notes": "source=topic-v2 topicId=T002512",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:20.635Z",
-   "updatedAt": "2026-10-25T18:34:20.635Z"
+   "updatedAt": "2026-10-27T06:39:58.367Z",
+   "seoScore": 100,
+   "words": 3517
   },
   {
    "id": "S02316",
@@ -34081,11 +34083,13 @@
    "title": "Tố cáo và khiếu nại khác nhau thế nào: khi bị xử phạt giao thông, việc nào dành cho tình huống nào?",
    "primaryIntent": "informational/to-cao-va-khieu-nai-khac-nhau-the-nao-khi-bi-xu-phat-giao-thong-viec-nao-danh-cho-tinh-huong-nao",
    "notes": "source=topic-v2 topicId=T002513",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-25T18:34:26.527Z",
-   "updatedAt": "2026-10-25T18:34:26.527Z"
+   "updatedAt": "2026-10-27T06:39:58.367Z",
+   "seoScore": 100,
+   "words": 3740
   },
   {
    "id": "S02317",
