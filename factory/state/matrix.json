@@ -35117,11 +35117,13 @@
    "title": "Từ 01/6/2026 cây xăng chỉ còn bán xăng E10? Xăng E5RON92 còn được bán đến khi nào?",
    "primaryIntent": "informational/tu-01-6-2026-cay-xang-chi-con-ban-xang-e10-xang-e5ron92-con-duoc-ban-den-khi-nao",
    "notes": "source=topic-v2 topicId=T002583",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:36:51.670Z",
-   "updatedAt": "2026-10-28T05:36:51.671Z"
+   "updatedAt": "2026-10-28T12:04:58.068Z",
+   "seoScore": 100,
+   "words": 3426
   },
   {
    "id": "S02387",
