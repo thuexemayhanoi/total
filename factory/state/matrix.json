@@ -34638,11 +34638,13 @@
    "title": "Thuê xe máy tự lái rồi chạy xe ôm, giao hàng lấy tiền: từ 01/7/2026 Luật Đường bộ cho phép ra sao?",
    "primaryIntent": "informational/thue-xe-may-tu-lai-roi-chay-xe-om-giao-hang-lay-tien-tu-01-7-2026-luat-duong-bo-cho-phep-ra-sao",
    "notes": "source=topic-v2 topicId=T002550",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:08:56.256Z",
-   "updatedAt": "2026-10-27T08:08:56.256Z"
+   "updatedAt": "2026-10-28T01:09:19.147Z",
+   "seoScore": 100,
+   "words": 3363
   },
   {
    "id": "S02354",
