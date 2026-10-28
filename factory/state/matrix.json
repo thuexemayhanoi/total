@@ -35326,11 +35326,13 @@
    "title": "Xe máy chạy trên mặt đê: khi nào bị cấm, gặp biển cấm lúc lũ bão mà vẫn đi thì bị phạt bao nhiêu?",
    "primaryIntent": "informational/xe-may-chay-tren-mat-de-khi-nao-bi-cam-va-gap-bien-cam-luc-lu-bao-van-di-thi-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002597",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:38:14.986Z",
-   "updatedAt": "2026-10-28T05:38:14.986Z"
+   "updatedAt": "2026-10-28T13:39:00.844Z",
+   "seoScore": 100,
+   "words": 3403
   },
   {
    "id": "S02400",
