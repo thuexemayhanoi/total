@@ -34758,11 +34758,13 @@
    "title": "Khám sức khỏe thi bằng lái cho người khuyết tật: theo nhóm tiêu chuẩn nào và có phải khám cơ xương khớp?",
    "primaryIntent": "informational/kham-suc-khoe-thi-bang-lai-cho-nguoi-khuyet-tat-theo-nhom-tieu-chuan-nao-va-co-phai-kham-co-xuong-khop",
    "notes": "source=topic-v2 topicId=T002558",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:53:27.772Z",
-   "updatedAt": "2026-10-28T00:53:27.772Z"
+   "updatedAt": "2026-10-28T04:48:09.251Z",
+   "seoScore": 100,
+   "words": 3461
   },
   {
    "id": "S02362",

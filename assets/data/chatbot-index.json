@@ -28844,6 +28844,37 @@
   ]
  },
  {
+  "url": "guide/thu-tuc-xe/kham-suc-khoe-thi-bang-lai-cho-nguoi-khuyet-tat-theo-nhom-tieu-chuan-nao-va-co-phai-kham-co-xuong-khop/",
+  "title": "Khám sức khỏe thi bằng lái cho người khuyết tật: theo nhóm tiêu chuẩn nào và có phải khám cơ xương khớp?",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "summary": "Bài dành cho người khuyết tật chuẩn bị thi giấy phép lái xe hạng A1 để điều khiển xe mô tô ba bánh dùng cho người khuyết tật và đang lo khâu khám sức khỏe. Bài đọc Điều 59 khoản 2 Luật Trật tự, an toàn giao thông đường bộ qua văn bản hợp nhất 55/VBHN-VPQH, Điều 1, Điều 2 và Phụ lục II Thông tư 36/2024/TT-BYT, cùng Điều 16 Thông tư 108/2026/TT-BCA. Nội dung chính gồm nhóm tiêu chuẩn áp dụng cho hạng A1, ngoại lệ không phải khám chuyên khoa Cơ Xương Khớp, dòng kết luận trên giấy khám, thời hạn 12 tháng và cách nộp giấy khám bản điện tử. Bài không nêu ngưỡng bệnh, tật trong Phụ lục I và không kết luận một người cụ thể đủ hay không đủ điều kiện lái xe. Người đọc nên hỏi cơ sở khám sức khỏe và nơi tổ chức sát hạch trước khi quyết định.",
+  "quickAnswer": "Theo Điều 2 khoản 2 điểm a Thông tư 36/2024/TT-BYT, việc khám sức khỏe để cấp giấy phép lái xe hạng A1 thuộc Nhóm 1. Điều 2 khoản 4 nêu người khuyết tật đề nghị cấp hạng A1 hoặc hạng B theo khoản 2 Điều 57 Luật Trật tự, an toàn giao thông đường bộ được khám theo tiêu chuẩn tại Phụ lục I nhưng không phải khám chuyên khoa Cơ Xương Khớp. Mẫu giấy khám ở Phụ lục II có dòng kết luận đủ điều kiện sức khỏe lái xe hạng A1 đối với người khuyết tật điều khiển xe mô tô ba bánh dùng cho người khuyết tật, và giấy có giá trị 12 tháng kể từ ngày ký kết luận. Điều 16 khoản 2 điểm b Thông tư 108/2026/TT-BCA yêu cầu hồ sơ đề nghị sát hạch có giấy khám còn hiệu lực (bản điện tử); trường hợp hệ thống bị lỗi thì dùng bản giấy do cơ sở khám bệnh, chữa bệnh đủ tiêu chuẩn cấp. Kết luận sức khỏe của từng người do cơ sở khám xác định.",
+  "keyPoints": [
+   "Điều 59 khoản 2 Luật Trật tự, an toàn giao thông đường bộ giao Bộ trưởng Bộ Y tế quy định tiêu chuẩn sức khỏe và việc khám sức khỏe đối với người lái xe.",
+   "Điều 2 khoản 2 Thông tư 36/2024/TT-BYT chia tiêu chuẩn thành 3 nhóm; Nhóm 1 áp dụng khi khám để cấp hạng A1, B1, Nhóm 2 áp dụng cho hạng A và B.",
+   "Người khuyết tật đề nghị cấp hạng A1 hoặc hạng B theo khoản 2 Điều 57 của Luật được khám theo tiêu chuẩn tại Phụ lục I nhưng không phải khám chuyên khoa Cơ Xương Khớp.",
+   "Mẫu giấy khám ở Phụ lục II có dòng kết luận riêng cho người khuyết tật điều khiển xe mô tô ba bánh dùng cho người khuyết tật và có giá trị 12 tháng kể từ ngày ký kết luận."
+  ],
+  "entities": [
+   "Thông tư 36/2024/TT-BYT",
+   "Thông tư 108/2026/TT-BCA",
+   "văn bản hợp nhất 55/VBHN-VPQH",
+   "người khuyết tật",
+   "giấy phép lái xe hạng A1",
+   "xe mô tô ba bánh dùng cho người khuyết tật",
+   "chuyên khoa Cơ Xương Khớp",
+   "giấy khám sức khỏe của người lái xe"
+  ],
+  "keywords": [
+   "khám sức khỏe thi bằng lái người khuyết tật",
+   "tiêu chuẩn sức khỏe hạng A1 Thông tư 36/2024/TT-BYT",
+   "chuyên khoa Cơ Xương Khớp khi khám lái xe",
+   "thời hạn giấy khám sức khỏe lái xe",
+   "hồ sơ sát hạch giấy khám sức khỏe điện tử"
+  ]
+ },
+ {
   "url": "wiki/thuat-ngu-xe/khen-xe-boc-dam-nhay-nhe-lai-em-moi-chu-noi-ve-phan-nao-cua-xe-va-dieu-gi-no-khong-noi/",
   "title": "Khen xe “bốc”, “đầm”, “nhạy”, “nhẹ lái”, “êm”: mỗi chữ nói về phần nào của xe và điều gì nó không nói",
   "category": "Bách khoa xe",
