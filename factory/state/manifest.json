@@ -4488,6 +4488,10 @@
   "kind": "article"
  },
  {
+  "rel": "learn/kien-thuc-phap-ly/khai-so-tien-bao-hiem-cao-hon-hay-thap-hon-gia-xe-may-hoac-mua-o-hai-noi-duoc-boi-thuong-bao-nhieu/index.html",
+  "kind": "article"
+ },
+ {
   "rel": "guide/thu-tuc-xe/kham-suc-khoe-thi-bang-lai-cho-nguoi-khuyet-tat-theo-nhom-tieu-chuan-nao-va-co-phai-kham-co-xuong-khop/index.html",
   "kind": "article"
  },
@@ -8161,6 +8165,10 @@
  },
  {
   "rel": "garage/dong-co/xe-may-bi-ngap-xang/index.html",
+  "kind": "article"
+ },
+ {
+  "rel": "learn/kien-thuc-phap-ly/xe-may-bi-nguoi-khac-dam-hong-bao-hiem-da-tra-tien-sua-chu-xe-con-tu-doi-nguoi-gay-tai-nan-duoc-khong/index.html",
   "kind": "article"
  },
  {

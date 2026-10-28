@@ -34953,11 +34953,13 @@
    "title": "Khai số tiền bảo hiểm cao hơn hay thấp hơn giá xe máy, hoặc mua ở hai nơi: được bồi thường bao nhiêu?",
    "primaryIntent": "informational/khai-so-tien-bao-hiem-cao-hon-hay-thap-hon-gia-xe-may-hoac-mua-o-hai-noi-duoc-boi-thuong-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002571",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:25.381Z",
-   "updatedAt": "2026-10-28T00:54:25.381Z"
+   "updatedAt": "2026-10-28T06:17:41.883Z",
+   "seoScore": 100,
+   "words": 3642
   },
   {
    "id": "S02375",
@@ -34966,11 +34968,13 @@
    "title": "Xe máy bị người khác đâm hỏng, bảo hiểm đã trả tiền sửa: chủ xe còn tự đòi người gây tai nạn được không?",
    "primaryIntent": "informational/xe-may-bi-nguoi-khac-dam-hong-bao-hiem-da-tra-tien-sua-chu-xe-con-tu-doi-nguoi-gay-tai-nan-duoc-khong",
    "notes": "source=topic-v2 topicId=T002572",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:29.766Z",
-   "updatedAt": "2026-10-28T00:54:29.766Z"
+   "updatedAt": "2026-10-28T06:17:41.883Z",
+   "seoScore": 100,
+   "words": 3623
   },
   {
    "id": "S02376",
