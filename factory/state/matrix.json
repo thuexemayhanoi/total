@@ -35088,11 +35088,13 @@
    "title": "Tự ráp xe máy điện từ khung, động cơ, pin mua lẻ có đăng ký được không và quy định chứng nhận nói gì?",
    "primaryIntent": "informational/tu-rap-xe-may-dien-tu-khung-dong-co-pin-mua-le-co-dang-ky-duoc-khong-luat-va-quy-dinh-chung-nhan-kieu-loai-noi-gi",
    "notes": "source=topic-v2 topicId=T002580",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:55:04.574Z",
-   "updatedAt": "2026-10-28T00:55:04.575Z"
+   "updatedAt": "2026-10-28T12:32:03.957Z",
+   "seoScore": 100,
+   "words": 3541
   },
   {
    "id": "S02384",
