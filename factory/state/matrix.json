@@ -35283,11 +35283,13 @@
    "title": "Xe máy đang thế chấp khoản vay: chủ xe có được bán, cho thuê hay cho mượn mà không hỏi bên cho vay?",
    "primaryIntent": "informational/xe-may-dang-the-chap-khoan-vay-chu-xe-co-duoc-ban-cho-thue-hay-cho-muon-ma-khong-hoi-ben-cho-vay",
    "notes": "source=topic-v2 topicId=T002593",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:37:50.398Z",
-   "updatedAt": "2026-10-28T05:37:50.399Z"
+   "updatedAt": "2026-10-28T12:58:29.287Z",
+   "seoScore": 100,
+   "words": 3741
   },
   {
    "id": "S02397",
