@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-28T11:47:43.669Z",
+ "at": "2026-10-28T12:57:13.670Z",
  "phase": "writing",
  "pair": null,
- "note": "sau giới hạn phiên (reset 09:30 UTC): chạy lại lô Z (đã xuất bản S02360–S02377, còn S02378–S02385) và lô AA (S02386–S02420, 5 bản nháp đang kiểm/sửa) lúc 11:48 UTC"
+ "note": "lô Z xong (26 bài); lô AA: S02386–S02397 đã đẩy, đang viết S02396, S02398–S02420; scout lô AB đang chạy"
 }
