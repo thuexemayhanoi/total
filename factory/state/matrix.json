@@ -35118,11 +35118,13 @@
    "title": "Lắp động cơ mạnh hơn hoặc đổi loại pin xe máy điện: khi nào phải chứng nhận cải tạo theo Thông tư 30/2026?",
    "primaryIntent": "informational/lap-dong-co-manh-hon-hoac-doi-loai-pin-cho-xe-may-dien-khi-nao-la-cai-tao-phai-chung-nhan-theo-thong-tu-30-2026",
    "notes": "source=topic-v2 topicId=T002582",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:55:13.402Z",
-   "updatedAt": "2026-10-28T00:55:13.402Z"
+   "updatedAt": "2026-10-28T12:46:29.992Z",
+   "seoScore": 100,
+   "words": 3479
   },
   {
    "id": "S02386",
