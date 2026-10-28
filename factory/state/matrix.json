@@ -35013,11 +35013,13 @@
    "title": "Ai mua được bảo hiểm vật chất cho xe máy: chủ xe, người thuê, người mượn và bán xe thì hợp đồng ra sao?",
    "primaryIntent": "informational/ai-mua-duoc-bao-hiem-vat-chat-cho-xe-may-chu-xe-nguoi-thue-nguoi-muon-va-ban-xe-thi-hop-dong-ra-sao",
    "notes": "source=topic-v2 topicId=T002575",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:42.477Z",
-   "updatedAt": "2026-10-28T00:54:42.477Z"
+   "updatedAt": "2026-10-28T12:27:04.871Z",
+   "seoScore": 100,
+   "words": 3666
   },
   {
    "id": "S02379",
