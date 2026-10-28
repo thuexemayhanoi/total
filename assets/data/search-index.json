@@ -44266,6 +44266,41 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/nho-le-tan-hoac-nguoi-quen-nhan-tin-dat-xe-ho-luat-giao-dich-dien-tu-xac-dinh-ai-la-nguoi-gui-ai-la-trung-gian/",
+  "title": "Nhờ lễ tân hoặc người quen nhắn tin đặt xe hộ: Luật Giao dịch điện tử xác định ai là người gửi, ai là trung gian?",
+  "description": "Nhờ lễ tân hoặc người quen nhắn tin đặt xe hộ: Điều 3, 14 và 16 Luật Giao dịch điện tử định nghĩa người khởi tạo, người nhận và người trung gian ra sao.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "Luật Giao dịch điện tử",
+   "văn bản hợp nhất 36/VBHN-VPQH",
+   "thông điệp dữ liệu",
+   "người khởi tạo thông điệp dữ liệu",
+   "người nhận thông điệp dữ liệu",
+   "người trung gian",
+   "phương pháp xác minh",
+   "Luật số 20/2026/QH16"
+  ],
+  "keywords": [
+   "nhờ người khác nhắn tin đặt xe hộ",
+   "lễ tân khách sạn nhắn tin thuê xe máy hộ",
+   "khởi tạo thông điệp dữ liệu theo Điều 14",
+   "trung gian chuyển thông điệp dữ liệu",
+   "ai là người gửi tin nhắn đặt thuê xe"
+  ],
+  "seoTitle": "Nhờ lễ tân, người quen nhắn đặt xe hộ: ai là người gửi theo luật?",
+  "primaryKeyword": "nhờ người khác nhắn tin đặt xe hộ",
+  "headings": [
+   "Người khởi tạo, người nhận và người trung gian là ai theo Luật Giao dịch điện tử",
+   "Tin nhắn được xem là của người khởi tạo trong ba trường hợp ở Điều 14 khoản 2 điểm a",
+   "Phương pháp xác minh được chấp thuận và ngoại lệ lỗi kỹ thuật ở điểm b, điểm c",
+   "Người trung gian và người nhận được chỉ định khác nhau ở đâu",
+   "Đại diện hay trung gian trong một tình huống cụ thể: phần bài chưa đối chiếu"
+  ],
+  "summary": "Du khách nhờ lễ tân khách sạn hoặc người quen nhắn tin đặt thuê xe máy hộ, rồi không rõ tin nhắn ấy được xem là của ai, ai là người nhận và người nhắn hộ đứng ở vị trí nào. Bài đọc Luật Giao dịch điện tử số 20/2023/QH15 qua văn bản hợp nhất 36/VBHN-VPQH ở Điều"
+ },
+ {
+  "kind": "article",
   "url": "guide/bao-duong/nho-nguoi-nha-mang-xe-may-di-sua-hoac-bao-duong-thay-minh-dan-gi-ai-duoc-dong-y-hang-muc-va-nhan-xe-ra-sao/",
   "title": "Nhờ người nhà mang xe máy đi sửa hoặc bảo dưỡng thay mình: dặn gì, ai được đồng ý hạng mục và nhận xe ra sao",
   "description": "Nhờ người khác mang xe máy đi sửa hoặc bảo dưỡng: ghi triệu chứng và lịch sử xe, thỏa thuận việc nào được đồng ý, giữ liên lạc với tiệm và nhận xe thay.",
