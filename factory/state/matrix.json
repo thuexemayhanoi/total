@@ -34818,11 +34818,13 @@
    "title": "Giá gửi xe máy do ai quyết định: bên trông xe tự đặt hay phải theo giá cụ thể của UBND tỉnh?",
    "primaryIntent": "informational/gia-gui-xe-may-do-ai-quyet-dinh-bai-tu-dinh-gia-va-bai-dau-tu-bang-ngan-sach-theo-gia-ubnd-tinh",
    "notes": "source=topic-v2 topicId=T002562",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:53:45.345Z",
-   "updatedAt": "2026-10-28T00:53:45.346Z"
+   "updatedAt": "2026-10-28T04:52:38.278Z",
+   "seoScore": 100,
+   "words": 3544
   },
   {
    "id": "S02366",
