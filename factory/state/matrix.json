@@ -35236,11 +35236,13 @@
    "title": "Quá hạn chưa chuộc được xe máy cầm đồ: bên nhận cầm có được tự bán, phải báo trước ra sao và tiền dư trả ai?",
    "primaryIntent": "informational/qua-han-chua-chuoc-duoc-xe-may-cam-do-ben-nhan-cam-co-duoc-tu-ban-phai-bao-truoc-ra-sao-va-tien-du-tra-ai",
    "notes": "source=topic-v2 topicId=T002590",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:37:32.070Z",
-   "updatedAt": "2026-10-28T05:37:32.070Z"
+   "updatedAt": "2026-10-28T12:52:39.296Z",
+   "seoScore": 100,
+   "words": 3458
   },
   {
    "id": "S02394",
