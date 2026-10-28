@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02357 (topic V2 T002554); CHỈ nêu dữ kiện đã kiểm chứng từ VBHN 144/2026/VBHN-LQ-VPQH (Luật Đường bộ 35/2024/QH15: Điều 2 khoản 2, khoản 6, khoản 7; Điều 21 khoản 3 điểm c, khoản 4; Điều 22 khoản 1 điểm a, b, c; Điều 35 khoản 5) và VBHN 65/VBHN-BXD (Nghị định 165/2024/NĐ-CP: Điều 20 khoản 1 điểm b, khoản 7, khoản 8) (mốc hiệu lực 2026-10-24; truy xuất nguồn 2026-10-27); không nêu số điện thoại, thời hạn sửa, mức phạt hay quyền bồi thường.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'thay-o-ga-sau-ho-sut-hay-bien-bao-do-tren-duong-bao-cho-ai-va-ben-quan-ly-duong-phai-lam-gi',
+  title: 'Thấy ổ gà sâu, hố sụt hay biển báo đổ trên đường: báo cho ai và bên quản lý đường phải làm gì?',
+  seoTitle: 'Thấy ổ gà, hố sụt, biển báo đổ trên đường: báo ai, ai phải sửa',
+  metaDescription: 'Khoản 4 Điều 21 Luật Đường bộ: người phát hiện công trình đường bộ hư hỏng phải báo Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc công an nơi gần nhất.',
+  summary: 'Bài đọc Luật Đường bộ số 35/2024/QH15 theo văn bản hợp nhất 144/2026/VBHN-LQ-VPQH để trả lời câu hỏi thấy ổ gà sâu, hố sụt hay biển báo đổ trên đường thì báo cho ai. Khoản 4 Điều 21 yêu cầu người phát hiện công trình đường bộ bị hư hỏng kịp thời thông báo cho Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc cơ quan công an nơi gần nhất, khi cần thì báo hiệu ngay cho người đi đường. Khoản 2 Điều 2 và khoản 1 Điều 22 cho thấy báo hiệu đường bộ (trừ hiệu lệnh của người điều khiển giao thông), công trình an toàn giao thông đường bộ, hệ thống thoát nước đường bộ nằm trong phạm vi đường bộ, còn khoản 6, khoản 7 Điều 2 định nghĩa cơ quan quản lý đường bộ và người quản lý, sử dụng đường bộ. Điểm c khoản 3 Điều 21 buộc bên quản lý phải xử lý, sửa chữa, khắc phục kịp thời; khoản 5 Điều 35 và Điều 20 Nghị định 165/2024/NĐ-CP nói về sửa chữa đột xuất và tuần đường, tuần kiểm. Mốc xét hiệu lực là ngày 24 tháng 10 năm 2026, và bài nói rõ phần chưa đối chiếu.',
+  quickAnswer: 'Theo khoản 4 Điều 21 Luật Đường bộ, tổ chức, cá nhân phát hiện công trình đường bộ bị hư hỏng phải kịp thời thông báo cho Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc cơ quan công an nơi gần nhất để xử lý, và trường hợp cần thiết có biện pháp báo hiệu ngay cho người tham gia giao thông biết. Khi nhận tin, cơ quan có trách nhiệm phải nhanh chóng khắc phục để giao thông thông suốt, an toàn. Người quản lý, sử dụng đường bộ phải xử lý, sửa chữa, khắc phục kịp thời khi phát hiện hư hỏng hay nguy cơ mất an toàn trên đường mình quản lý (điểm c khoản 3 Điều 21). Các điều khoản đã đối chiếu không nêu số điện thoại, thời hạn sửa hay mức phạt.',
+  keyPoints: [
+    'Khoản 4 Điều 21 Luật Đường bộ: người phát hiện công trình đường bộ hư hỏng phải kịp thời báo Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc cơ quan công an nơi gần nhất.',
+    'Cùng khoản 4: trường hợp cần thiết có biện pháp báo hiệu ngay cho người đi đường; khi nhận được tin báo, cơ quan có trách nhiệm phải nhanh chóng thực hiện các biện pháp khắc phục.',
+    'Khoản 2 Điều 2 và khoản 1 Điều 22: báo hiệu đường bộ (trừ hiệu lệnh của người điều khiển giao thông), công trình an toàn giao thông đường bộ, hệ thống thoát nước đường bộ là công trình phụ trợ gắn liền với đường bộ.',
+    'Khoản 6 Điều 2, bản sửa đổi áp dụng từ ngày 01 tháng 7 năm 2026, kể cả Ủy ban nhân dân cấp xã là cơ quan quản lý đường bộ.',
+    'Điểm c khoản 3 Điều 21, khoản 5 Điều 35 và Điều 20 Nghị định 165/2024/NĐ-CP nói về sửa chữa kịp thời, sửa chữa đột xuất, tuần đường và tuần kiểm.'
+  ],
+  category: 'ride',
+  hub: 'an-toan-giao-thong',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['Luật Đường bộ 35/2024/QH15', 'Văn bản hợp nhất 144/2026/VBHN-LQ-VPQH', 'Nghị định 165/2024/NĐ-CP', 'công trình phụ trợ gắn liền với đường bộ', 'cơ quan quản lý đường bộ', 'người quản lý, sử dụng đường bộ', 'Ủy ban nhân dân cấp xã', 'tuần đường, tuần kiểm'],
+  keywords: ['thấy ổ gà trên đường báo cho ai', 'hố sụt mặt đường báo cơ quan nào', 'biển báo giao thông bị đổ báo ai', 'trách nhiệm sửa chữa đường bộ bị hư hỏng', 'tuần đường tuần kiểm đường bộ'],
+  sections: [
+    P('Ổ gà, rãnh thoát nước, biển báo có phải là công trình đường bộ không', [
+      'Đi xe máy, ai cũng từng gặp một ổ gà sâu giữa làn, một mảng mặt đường sụt sau trận mưa, nắp rãnh thoát nước vỡ hay tấm biển báo gãy chân nằm nghiêng ra lòng đường. Bài này trả lời ba câu hỏi: luật có yêu cầu người phát hiện báo tin không, báo cho nơi nào, và bên quản lý con đường phải làm gì. Cách nhìn và đi qua ổ gà đã có ở bài về ổ gà và vết san trên đường trên trang; bài này chỉ đọc câu chữ của các điều khoản liên quan.',
+      'Bài dựa trên hai văn bản: Luật Đường bộ số 35/2024/QH15 ngày 27 tháng 6 năm 2024, đọc theo Văn bản hợp nhất 144/2026/VBHN-LQ-VPQH ngày 23 tháng 9 năm 2026 (Công báo số 528-VBHN ngày 25 tháng 9 năm 2026), và Nghị định 165/2024/NĐ-CP ngày 26 tháng 12 năm 2024 quy định chi tiết một số điều của Luật Đường bộ, đọc theo Văn bản hợp nhất 65/VBHN-BXD do Bộ Xây dựng xác thực ngày 27 tháng 8 năm 2026. Mốc xét hiệu lực trong bài là ngày 24 tháng 10 năm 2026; hai văn bản được truy xuất từ cổng chính thức ngày 27 tháng 10 năm 2026, và các mốc sửa đổi mà hai văn bản hợp nhất liệt kê không rơi vào giữa hai ngày này.',
+      'Khoản 2 Điều 2 của Luật ghi: đường bộ bao gồm đường, cầu đường bộ, cống đường bộ, hầm đường bộ, bến phà đường bộ, cầu phao đường bộ, đường cứu nạn và các công trình phụ trợ gắn liền với đường bộ. Khoản 1 Điều 22 kể các công trình phụ trợ gắn liền với đường bộ, trong đó điểm a là báo hiệu đường bộ, trừ hiệu lệnh của người điều khiển giao thông; điểm b là công trình an toàn giao thông đường bộ; điểm c là hệ thống thoát nước đường bộ. Khoản 1 còn những điểm khác bài chưa đối chiếu.',
+      'Ghép hai khoản lại: ổ gà hay hố sụt là hư hỏng ở chính mặt đường, phần đầu tiên trong danh sách của khoản 2 Điều 2. Biển báo gãy đổ là hư hỏng của báo hiệu đường bộ; rãnh thoát nước vỡ, nếu thuộc hệ thống thoát nước của con đường, là hư hỏng của hệ thống thoát nước đường bộ; cả hai nằm trong khoản 1 Điều 22. Luật dùng cụm “công trình đường bộ” ở Điều 21 nhưng bài chưa đối chiếu định nghĩa riêng của cụm này, nên đây chỉ là cách đọc dựa trên hai khoản trên, không áp cho mọi vật bên đường như dây cáp võng thấp hay cây đổ.'
+    ]),
+    P('Luật yêu cầu người phát hiện hư hỏng báo cho ai', [
+      'Câu trả lời trực tiếp nằm ở khoản 4 Điều 21 của Luật: tổ chức, cá nhân phát hiện công trình đường bộ bị hư hỏng hoặc bị xâm hại, hành lang an toàn đường bộ bị lấn chiếm phải kịp thời thông báo cho Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc cơ quan công an nơi gần nhất để xử lý. Khoản này không có chú thích sửa đổi trong văn bản hợp nhất, nên đây là câu chữ đang áp dụng ở mốc ngày 24 tháng 10 năm 2026.',
+      '“Tổ chức, cá nhân” là cách gọi chung, nên người đi xe máy phát hiện hư hỏng cũng nằm trong đối tượng của câu. Chữ “phải” cho thấy đây là một yêu cầu chứ không chỉ là lời khuyến khích; còn không báo thì bị xử lý ra sao, bài chưa đối chiếu. Cụm “kịp thời” không đi kèm số giờ hay số ngày nào. Chữ “hoặc” giữa ba nơi nhận tin cho thấy, theo câu chữ, người báo tin có thể chọn một trong ba nơi; khoản 4 không đòi người dân phải tự tìm ra đúng đơn vị đang quản lý tuyến đường.',
+      'Ba nơi đó là Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ và cơ quan công an, kèm cụm “nơi gần nhất”. Khoản 6 Điều 2, sau khi được sửa đổi theo khoản 1 Điều 8 Luật số 118/2025/QH15, định nghĩa cơ quan quản lý đường bộ là cơ quan thuộc Bộ Xây dựng giúp Bộ trưởng Bộ Xây dựng thực hiện chức năng quản lý nhà nước về hoạt động đường bộ; cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh; Ủy ban nhân dân cấp xã. Như vậy, Ủy ban nhân dân cấp xã vừa được kể riêng ở khoản 4 Điều 21, vừa nằm trong định nghĩa cơ quan quản lý đường bộ.',
+      'Luật số 118/2025/QH15 ngày 10 tháng 12 năm 2025 có hiệu lực từ ngày 01 tháng 7 năm 2026, nên bản sửa của khoản 6 là bản đang áp dụng ở mốc ngày 24 tháng 10 năm 2026; bài chưa đối chiếu câu chữ trước ngày 01 tháng 7 năm 2026 nên không so sánh bản cũ với bản mới. Cách dùng thực tế: ghi nhớ địa điểm, báo một trong ba nơi gần nhất mà khoản 4 kể, nói rõ vị trí, loại hư hỏng và thời điểm thấy. Các điều khoản đã đối chiếu không nêu số điện thoại, ứng dụng hay mẫu tin báo nào.'
+    ]),
+    P('Khi nào nên báo hiệu ngay cho người đi đường', [
+      'Vế tiếp theo của khoản 4 Điều 21 ghi: trường hợp cần thiết có biện pháp báo hiệu ngay cho người tham gia giao thông đường bộ biết. Câu này đứng ngay sau nghĩa vụ báo tin và cùng chủ thể là tổ chức, cá nhân phát hiện hư hỏng. Như vậy, văn bản tính tới việc chính người phát hiện, khi cần, cho người đến sau biết phía trước có nguy hiểm.',
+      'Văn bản không định nghĩa thế nào là “trường hợp cần thiết” và không kể biện pháp báo hiệu cụ thể nào. Theo lẽ thường, mức cần thiết cao hơn khi hư hỏng nằm giữa làn xe chạy, khó thấy từ xa, trời tối hoặc mưa, đường đông và xe đi nhanh; một ổ gà nông sát mép đường giữa trưa thì khác hẳn. Đó là cách người đọc tự cân nhắc, không phải tiêu chí ghi trong luật. Bài không kết luận một tình huống cụ thể đã là “cần thiết” hay chưa, cũng không nói bỏ qua thì bị xử lý thế nào.',
+      'Điều quan trọng nhất là báo hiệu không được đánh đổi bằng an toàn của chính bạn. Hãy dừng hẳn ra khỏi làn chạy, ở chỗ người đến sau nhìn thấy bạn từ xa, rồi mới quan sát và ghi lại. Không đứng giữa lòng đường để vẫy, không quay lại đúng chỗ hư hỏng khi dòng xe đang chạy liên tục, không tự dựng lại tấm biển nặng hay kéo vật cản lớn. Nếu không làm được gì mà vẫn an toàn, hãy báo ngay một trong ba nơi ở khoản 4 và mô tả rõ mức nguy hiểm.',
+      'Khi đang lái, gặp ổ gà, hố sụt hay dây cáp võng thấp ngang đường, lời khuyên chung đều giống nhau: giảm tốc từ xa, tránh xa vùng nguy hiểm, giữ khoảng cách với xe trước để còn nhìn thấy mặt đường, không phanh gấp hay đánh lái đột ngột sát chỗ hư hỏng, không chạm vào dây, rồi báo nơi có thẩm quyền khi đã dừng ở chỗ an toàn. Bài này không kết luận dây cáp có thuộc công trình đường bộ hay không. Nếu vừa đâm vào ổ gà, hãy xem bài về xe máy vừa đâm ổ gà mạnh trên trang; nếu đó là xe thuê, báo nơi cho thuê biết sự việc, còn bên nào chịu chi phí thì bài không kết luận.'
+    ]),
+    P('Người quản lý đường và cơ quan quản lý đường bộ phải làm gì sau khi nhận tin', [
+      'Câu cuối khoản 4 Điều 21 nói về phía nhận tin: khi nhận được tin báo, cơ quan có trách nhiệm phải nhanh chóng thực hiện các biện pháp khắc phục để bảo đảm giao thông thông suốt, an toàn. Chữ “nhanh chóng” cũng không đi kèm thời hạn. Cụm “cơ quan có trách nhiệm” không gọi tên một cơ quan cụ thể, nên bài không suy ra rằng nơi nhận tin luôn là nơi trực tiếp sửa; việc khắc phục có thể thuộc một bên khác, tùy phạm vi quản lý.',
+      'Bên trực tiếp lo con đường được định nghĩa ở khoản 7 Điều 2: người quản lý, sử dụng đường bộ là chủ sở hữu trực tiếp quản lý, sử dụng, vận hành, khai thác công trình đường bộ hoặc tổ chức, cá nhân được giao quản lý, sử dụng, vận hành, khai thác công trình đường bộ. Khoản 7 không có chú thích sửa đổi. Người đi đường thường không biết tuyến mình đi được giao cho ai, nên việc khoản 4 Điều 21 kể ba nơi nhận tin (Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc cơ quan công an nơi gần nhất) có ý nghĩa thực tế.',
+      'Nghĩa vụ của người quản lý, sử dụng đường bộ nằm ở điểm c khoản 3 Điều 21: có trách nhiệm bảo vệ kết cấu hạ tầng đường bộ thuộc phạm vi quản lý; trường hợp phát hiện công trình bị hư hỏng, nguy cơ gây ra sự cố công trình, nguy cơ mất an toàn giao thông đường bộ thì phải xử lý, sửa chữa, khắc phục kịp thời. Câu chữ gồm ba tình huống: công trình đã hư hỏng, có nguy cơ sự cố công trình, có nguy cơ mất an toàn giao thông. Điểm c còn phần sau mà bài chưa đối chiếu.',
+      'Như vậy, khi nhận được tin báo, cơ quan có trách nhiệm phải nhanh chóng khắc phục, còn người quản lý, sử dụng đường bộ phải sửa kịp thời phần thuộc phạm vi mình. Các điều khoản đã đối chiếu không nói sửa trong bao lâu, sửa tới mức nào, có phải phản hồi người báo tin hay không. Vì vậy, nếu vài ngày sau ổ gà vẫn còn, bài không kết luận ai đã làm sai; bạn có thể báo lại, kèm ngày đã báo lần trước. Chuyện ai bồi thường khi hư hỏng gây thiệt hại thuộc phần khác; có thể tham khảo bài về cây đổ, công trình gây thiệt hại và ai phải bồi thường trên trang.'
+    ]),
+    P('Tuần đường, tuần kiểm, sửa chữa đột xuất và phần bài chưa đối chiếu', [
+      'Theo Văn bản hợp nhất 65/VBHN-BXD, điểm b khoản 1 Điều 20 Nghị định 165/2024/NĐ-CP ghi: thực hiện tuần đường, tuần kiểm đường bộ để theo dõi tình trạng kết cấu hạ tầng đường bộ; phát hiện và có biện pháp xử lý đối với các hư hỏng, xuống cấp của kết cấu hạ tầng đường bộ. Khoản 7 ghi: Ủy ban nhân dân cấp xã trực tiếp tổ chức thực hiện bảo vệ kết cấu hạ tầng đường bộ quy định tại khoản 1 và khoản 2 Điều này đối với kết cấu hạ tầng đường bộ thuộc phạm vi quản lý. Khoản 8 ghi: người quản lý, sử dụng đường bộ trực tiếp tổ chức thực hiện bảo vệ kết cấu hạ tầng đường bộ đối với kết cấu hạ tầng đường bộ thuộc phạm vi quản lý.',
+      'Bài chưa đối chiếu câu dẫn của khoản 1, nên chỉ nói điểm b là một nội dung của khoản 1, và khoản 7 dẫn chiếu tới khoản 1. Khoản 7 được sửa đổi theo khoản 2 Điều 9 Nghị định 241/2026/NĐ-CP, có hiệu lực từ ngày 01 tháng 7 năm 2026, nên bản đang áp dụng ở mốc ngày 24 tháng 10 năm 2026 là bản đã sửa; bài chưa đối chiếu bản trước đó. Điểm b khoản 1 và khoản 8 không có chú thích sửa đổi. Nghị định có hiệu lực từ ngày 01 tháng 01 năm 2025, được sửa đổi bởi Nghị định 243/2025/NĐ-CP (hiệu lực từ ngày 11 tháng 9 năm 2025) và Nghị định 241/2026/NĐ-CP.',
+      'Khoản 5 Điều 35 của Luật kể ba nhóm sửa chữa đột xuất: a) khắc phục điểm hay xảy ra tai nạn giao thông đường bộ, điểm tiềm ẩn tai nạn giao thông đường bộ; b) khắc phục hậu quả thiên tai; c) sửa chữa khi bộ phận công trình bị hư hỏng đột xuất trong quá trình vận hành, khai thác, sử dụng và các trường hợp cần thiết khác để bảo đảm an toàn công trình, an toàn giao thông. Bài không xếp một hư hỏng cụ thể vào điểm nào của khoản 5, chưa đối chiếu quy định về việc ai xác định loại sửa chữa và không nói sửa chữa đột xuất phải xong trong bao lâu.',
+      'Phần bài chưa đối chiếu: câu dẫn, các điểm khác của khoản 1 và khoản 2 Điều 20 Nghị định; phần còn lại của điểm c khoản 3 Điều 21 và các điểm khác của khoản 1 Điều 22; định nghĩa kết cấu hạ tầng đường bộ; kênh tiếp nhận tin báo; thời hạn sửa; mức phạt với hành vi làm hư hỏng công trình hoặc không báo tin; quyền đòi bồi thường. Luật Đường bộ có hiệu lực từ ngày 01 tháng 01 năm 2025, được sửa đổi bởi Luật số 118/2025/QH15 (hiệu lực từ ngày 01 tháng 7 năm 2026) và Luật số 24/2026/QH16 (hiệu lực từ ngày 01 tháng 3 năm 2027, chưa tới ở mốc ngày 24 tháng 10 năm 2026); khoản 2, khoản 7 Điều 2, điểm c khoản 3 và khoản 4 Điều 21, khoản 1 Điều 22, khoản 5 Điều 35 không có chú thích sửa đổi. Việc kết luận trong từng vụ việc cụ thể do cơ quan, người có thẩm quyền xác định; hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào, bài không phải tư vấn pháp lý.'
+    ])
+  ],
+  checklist: [
+    'Giảm tốc từ xa khi thấy mặt đường đổi màu, sụt lún, có nước đọng che lấp hay biển báo nằm nghiêng ra lòng đường.',
+    'Dừng hẳn ra khỏi làn chạy, ở chỗ an toàn, rồi mới quan sát, chụp ảnh hay ghi lại vị trí hư hỏng.',
+    'Báo một trong ba nơi ở khoản 4 Điều 21: Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc cơ quan công an nơi gần nhất.',
+    'Khi báo, nói rõ địa điểm, loại hư hỏng, mức nguy hiểm và thời điểm bạn thấy.',
+    'Chỉ báo hiệu cho người đến sau khi làm được mà không phải đứng trong làn xe chạy; không tự dựng lại biển nặng hay kéo vật cản lớn.',
+    'Kiểm tra văn bản hợp nhất Luật Đường bộ và Nghị định 165/2024/NĐ-CP còn hiệu lực, ghi lại ngày tra cứu.'
+  ],
+  steps: [
+    { title: 'Giảm tốc và tránh xa', detail: 'Thấy ổ gà, hố sụt, biển đổ hay dây võng thấp, giảm tốc từ xa, không phanh gấp hay đánh lái đột ngột sát chỗ hư hỏng.' },
+    { title: 'Dừng ở chỗ an toàn', detail: 'Đi qua rồi dừng ở nơi không cản đường, ngoài làn chạy, để ghi lại vị trí và điều đã thấy.' },
+    { title: 'Báo đúng nơi nhận tin', detail: 'Báo Ủy ban nhân dân cấp xã, cơ quan quản lý đường bộ hoặc cơ quan công an nơi gần nhất, như khoản 4 Điều 21 Luật Đường bộ kể.' },
+    { title: 'Cân nhắc báo hiệu cho người đến sau', detail: 'Chỉ làm khi cần thiết và không phải đứng trong làn xe chạy; nếu không an toàn thì mô tả rõ mức nguy hiểm khi báo tin.' },
+    { title: 'Theo dõi và tra văn bản', detail: 'Nếu hư hỏng vẫn còn, báo lại kèm ngày đã báo; đọc lại Điều 2, Điều 21, Điều 22, Điều 35 Luật và Điều 20 Nghị định trên cổng chính thức.' }
+  ],
+  warnings: [
+    'Không đứng giữa lòng đường để vẫy xe hay báo hiệu; an toàn của chính bạn đứng trước mọi việc khác.',
+    'Không tự kết luận bên quản lý đường đã vi phạm chỉ vì hư hỏng chưa được sửa; các điều khoản đã đối chiếu không nêu thời hạn sửa.',
+    'Không chụp ảnh hay gọi điện khi đang lái qua chỗ hư hỏng; dừng hẳn ở nơi an toàn rồi mới làm.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: Văn bản hợp nhất 144/2026/VBHN-LQ-VPQH (Công báo số 528-VBHN ngày 25/9/2026) và Văn bản hợp nhất 65/VBHN-BXD; mốc xét hiệu lực ngày 24/10/2026, truy xuất nguồn ngày 27/10/2026.',
+    'Bài tổng hợp để tham khảo, không phải tư vấn pháp lý; văn bản có thể được sửa đổi sau thời điểm đối chiếu.'
+  ],
+  references: [
+    'Văn bản hợp nhất 144/2026/VBHN-LQ-VPQH ngày 23/9/2026, Luật Đường bộ số 35/2024/QH15 (Điều 2 khoản 2, khoản 6, khoản 7; Điều 21 khoản 3 điểm c, khoản 4; Điều 22 khoản 1 điểm a, b, c; Điều 35 khoản 5); Văn bản hợp nhất 65/VBHN-BXD, Nghị định 165/2024/NĐ-CP (Điều 20 khoản 1 điểm b, khoản 7, khoản 8)',
+    'Cổng Công báo Chính phủ và Cổng thông tin điện tử Chính phủ, cơ sở dữ liệu quốc gia về văn bản pháp luật'
+  ],
+  related: [
+    'tai-nan-giao-thong-luat-yeu-cau-gi-voi-nguoi-gay-tai-nan-va-nguoi-di-qua',
+    'nhat-duoc-xe-may-hoac-do-nguoi-khac-danh-roi-bo-quen-tra-lai-hay-giao-nop-o-dau-va-sau-01-nam-tai-san-thuoc-ai',
+    'phat-nguoi-xe-may-thong-bao-bang-cach-nao-chu-xe-phai-lam-gi-va-ket-qua-camera-dung-duoc-bao-lau',
+    'lap-bien-ban-giao-thong-xong-bao-lau-thi-co-quyet-dinh-xu-phat-va-thoi-hieu-xu-phat-la-bao-lau',
+    'quay-dau-xe-may-bi-cam-o-nhung-cho-nao-va-quay-dau-sai-cho-hoac-trong-ham-duong-bo-bi-phat-bao-nhieu'
+  ]
+};
