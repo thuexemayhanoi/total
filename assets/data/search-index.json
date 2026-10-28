@@ -47780,6 +47780,41 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/pin-xe-may-dien-phai-qua-nhung-thu-nghiem-an-toan-nao-theo-qcvn-31-2026-bxd-va-tren-vo-pin-phai-ghi-gi/",
+  "title": "Pin xe máy điện phải qua những thử nghiệm an toàn nào theo QCVN 31:2026/BXD và trên vỏ pin phải ghi gì?",
+  "description": "QCVN 31:2026/BXD hiệu lực từ 09/10/2026: vỏ pin xe máy điện phải ghi gì, pin phải qua thử nạp quá mức, rung, ngâm nước muối và khi nào phải thử thả rơi.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "QCVN 31:2026/BXD",
+   "Thông tư 13/2026/TT-BXD",
+   "QCVN 91:2024/BGTVT",
+   "Thông tư 55/2024/TT-BGTVT",
+   "Văn bản hợp nhất 70/2026/VBHN-TT-BXD",
+   "Thông tư 45/2026/TT-BXD",
+   "ắc quy điện áp cao",
+   "ắc quy tháo rời"
+  ],
+  "keywords": [
+   "QCVN 31:2026/BXD ắc quy xe máy điện",
+   "Thông tư 13/2026/TT-BXD quy chuẩn ắc quy xe điện",
+   "ký hiệu bắt buộc trên vỏ pin xe máy điện",
+   "biểu tượng ắc quy điện áp cao lớn hơn 60 V",
+   "ngâm nước muối và thả rơi pin tháo rời"
+  ],
+  "seoTitle": "Pin xe máy điện theo QCVN 31:2026/BXD: phép thử và ký hiệu vỏ",
+  "primaryKeyword": "QCVN 31:2026/BXD ắc quy xe máy điện",
+  "headings": [
+   "QCVN 31:2026/BXD áp dụng cho pin nào và có hiệu lực từ ngày nào",
+   "Những thông số và ký hiệu bắt buộc phải có trên vỏ pin",
+   "Bốn phép thử nạp quá mức, phóng quá mức, rung và ngắn mạch",
+   "Ngâm nước muối và thả rơi: phạm vi khác nhau, thả rơi chỉ dành cho pin tháo rời",
+   "Pin cùng kiểu loại, vì sao xe giao khách phải lắp đúng kiểu pin đã đăng ký và phần bài chưa đối chiếu"
+  ],
+  "summary": "Nhiều người lo pin xe máy điện cháy nổ, ngấm nước hay vỡ khi rơi và muốn biết pin bán kèm xe phải qua những phép thử an toàn nào trước khi ra thị trường. Bài đọc QCVN 31:2026/BXD, quy chuẩn kỹ thuật quốc gia về ắc quy sử dụng cho xe mô tô điện, xe gắn máy điện"
+ },
+ {
+  "kind": "article",
   "url": "wiki/dong-co/piston-xy-lanh/",
   "title": "Hướng dẫn chi tiết về piston xy lanh",
   "description": "Piston và xy lanh là cặp đôi sinh công của động cơ: cấu tạo, các dấu hiệu mòn piston xy lanh và thói quen giúp cặp đôi này bền nhất.",

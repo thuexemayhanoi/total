@@ -35043,11 +35043,13 @@
    "title": "Pin xe máy điện phải qua những thử nghiệm an toàn nào theo QCVN 31:2026/BXD và trên vỏ pin phải ghi gì?",
    "primaryIntent": "informational/pin-xe-may-dien-phai-qua-nhung-thu-nghiem-an-toan-nao-theo-qcvn-31-2026-bxd-va-tren-vo-pin-phai-ghi-gi",
    "notes": "source=topic-v2 topicId=T002577",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:51.141Z",
-   "updatedAt": "2026-10-28T00:54:51.141Z"
+   "updatedAt": "2026-10-28T12:30:05.793Z",
+   "seoScore": 100,
+   "words": 3388
   },
   {
    "id": "S02381",

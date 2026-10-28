@@ -39839,6 +39839,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/pin-xe-may-dien-phai-qua-nhung-thu-nghiem-an-toan-nao-theo-qcvn-31-2026-bxd-va-tren-vo-pin-phai-ghi-gi/",
+  "title": "Pin xe máy điện phải qua những thử nghiệm an toàn nào theo QCVN 31:2026/BXD và trên vỏ pin phải ghi gì?",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Nhiều người lo pin xe máy điện cháy nổ, ngấm nước hay vỡ khi rơi và muốn biết pin bán kèm xe phải qua những phép thử an toàn nào trước khi ra thị trường. Bài đọc QCVN 31:2026/BXD, quy chuẩn kỹ thuật quốc gia về ắc quy sử dụng cho xe mô tô điện, xe gắn máy điện ban hành kèm Thông tư 13/2026/TT-BXD, có hiệu lực từ 09/10/2026 và thay thế QCVN 91:2024/BGTVT. Trọng tâm là các ký hiệu bắt buộc trên vỏ pin, bốn phép thử nạp quá mức, phóng quá mức, rung, ngắn mạch, cùng phép ngâm nước muối và phép thả rơi với phạm vi áp dụng khác nhau. Bài cũng giải thích thế nào là ắc quy cùng kiểu loại và quy định xe điện mà phải tháo rời pin khi lưu kho, vận chuyển thì phải lắp đầy đủ pin đúng kiểu loại đã đăng ký trong hồ sơ chứng nhận kiểu loại xe trước khi giao khách, theo Điều 11 khoản 11 Thông tư 55/2024/TT-BGTVT trong Văn bản hợp nhất 70/2026/VBHN-TT-BXD. Cuối bài nêu rõ những nội dung chưa đối chiếu và cách tự tra văn bản còn hiệu lực.",
+  "quickAnswer": "Theo mục 1.1 và 3.1 của QCVN 31:2026/BXD, ắc quy mới dùng cho xe mô tô điện, xe gắn máy điện trong sản xuất, lắp ráp, nhập khẩu phải được kiểm tra, thử nghiệm, chứng nhận theo quy định về chất lượng an toàn kỹ thuật và bảo vệ môi trường đối với phụ tùng xe cơ giới. Trên vỏ phải có dấu cộng, dấu trừ ở hai cực, điện áp danh định, dung lượng danh định ở chế độ 3 giờ, và với ắc quy có điện áp danh định lớn hơn 60 V thì thêm biểu tượng nền vàng tại Phụ lục C. Các phép thử an toàn gồm nạp quá mức, phóng quá mức, rung, ngắn mạch (mục 2.3.1 đến 2.3.4), ngâm nước muối (mục 2.3.5) và thả rơi từ độ cao 1,0 m (mục 2.3.6, chỉ với ắc quy tháo rời); ngắn mạch, ngâm nước muối và thả rơi không áp dụng đối với ắc quy chì axit; phép nào cũng đòi ắc quy không cháy, không nổ. Quy chuẩn ban hành kèm Thông tư 13/2026/TT-BXD, có hiệu lực từ 09/10/2026.",
+  "keyPoints": [
+   "QCVN 31:2026/BXD ban hành kèm Thông tư 13/2026/TT-BXD ngày 09/4/2026, có hiệu lực từ 09/10/2026 và thay thế QCVN 91:2024/BGTVT.",
+   "Quy chuẩn áp dụng cho ắc quy mới dùng cho xe mô tô điện, xe gắn máy điện trong sản xuất, lắp ráp, nhập khẩu và theo yêu cầu của cơ quan quản lý.",
+   "Vỏ ắc quy phải có dấu (+), dấu (-), điện áp danh định, dung lượng danh định ở chế độ 3 giờ; ắc quy có điện áp danh định lớn hơn 60 V thêm biểu tượng tại Phụ lục C.",
+   "Nạp quá mức, phóng quá mức, rung và ngắn mạch đòi hỏi không rò rỉ, không cháy, không nổ, không vỡ trong lúc thử và sau một giờ; ngâm nước muối đòi hỏi không cháy, không nổ; ngắn mạch và ngâm nước muối không áp dụng đối với ắc quy chì axit."
+  ],
+  "entities": [
+   "QCVN 31:2026/BXD",
+   "Thông tư 13/2026/TT-BXD",
+   "QCVN 91:2024/BGTVT",
+   "Thông tư 55/2024/TT-BGTVT",
+   "Văn bản hợp nhất 70/2026/VBHN-TT-BXD",
+   "Thông tư 45/2026/TT-BXD",
+   "ắc quy điện áp cao",
+   "ắc quy tháo rời"
+  ],
+  "keywords": [
+   "QCVN 31:2026/BXD ắc quy xe máy điện",
+   "Thông tư 13/2026/TT-BXD quy chuẩn ắc quy xe điện",
+   "ký hiệu bắt buộc trên vỏ pin xe máy điện",
+   "biểu tượng ắc quy điện áp cao lớn hơn 60 V",
+   "ngâm nước muối và thả rơi pin tháo rời"
+  ]
+ },
+ {
   "url": "wiki/dong-co/piston-xy-lanh/",
   "title": "Hướng dẫn chi tiết về piston xy lanh",
   "category": "Bách khoa xe",
