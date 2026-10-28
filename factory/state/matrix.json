@@ -34893,11 +34893,13 @@
    "title": "Người nước ngoài muốn học và thi bằng lái xe máy A1 ở Việt Nam: cần thẻ tạm trú hay thị thực còn bao lâu?",
    "primaryIntent": "informational/nguoi-nuoc-ngoai-muon-hoc-va-thi-bang-lai-xe-may-a1-o-viet-nam-can-the-tam-tru-hay-thi-thuc-con-bao-lau",
    "notes": "source=topic-v2 topicId=T002567",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:07.619Z",
-   "updatedAt": "2026-10-28T00:54:07.619Z"
+   "updatedAt": "2026-10-28T05:36:12.425Z",
+   "seoScore": 100,
+   "words": 3647
   },
   {
    "id": "S02371",
@@ -34906,11 +34908,13 @@
    "title": "Khai sai hoặc giấu thông tin khi mua bảo hiểm xe máy: bị hủy hợp đồng và mất quyền bồi thường không?",
    "primaryIntent": "informational/khai-sai-hoac-giau-thong-tin-khi-mua-bao-hiem-xe-may-bi-huy-hop-dong-va-mat-quyen-boi-thuong-khong",
    "notes": "source=topic-v2 topicId=T002568",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:12.184Z",
-   "updatedAt": "2026-10-28T00:54:12.184Z"
+   "updatedAt": "2026-10-28T05:36:12.425Z",
+   "seoScore": 100,
+   "words": 3463
   },
   {
    "id": "S02372",
