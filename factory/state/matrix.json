@@ -35223,11 +35223,13 @@
    "title": "Mang xe máy đi cầm đồ: tiệm phải kiểm tra giấy tờ gì, giữ bản chính giấy nào và khi nào bị cấm nhận cầm?",
    "primaryIntent": "informational/mang-xe-may-di-cam-do-tiem-phai-kiem-tra-giay-to-gi-giu-ban-chinh-giay-nao-va-khi-nao-bi-cam-nhan-cam",
    "notes": "source=topic-v2 topicId=T002589",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:37:26.493Z",
-   "updatedAt": "2026-10-28T05:37:26.493Z"
+   "updatedAt": "2026-10-28T12:53:37.663Z",
+   "seoScore": 100,
+   "words": 3591
   },
   {
    "id": "S02393",
