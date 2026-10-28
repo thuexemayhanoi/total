@@ -35192,11 +35192,13 @@
    "title": "Nghi đổ phải xăng kém chất lượng: cây xăng phải lưu mẫu, công khai loại xăng và trách nhiệm xác định thế nào?",
    "primaryIntent": "informational/nghi-do-phai-xang-kem-chat-luong-cay-xang-phai-luu-mau-cong-khai-loai-xang-va-trach-nhiem-xac-dinh-the-nao",
    "notes": "source=topic-v2 topicId=T002588",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:37:20.551Z",
-   "updatedAt": "2026-10-28T05:37:20.551Z"
+   "updatedAt": "2026-10-28T12:09:05.138Z",
+   "seoScore": 100,
+   "words": 3677
   },
   {
    "id": "S02392",
