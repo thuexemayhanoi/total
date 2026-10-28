@@ -34728,11 +34728,13 @@
    "title": "Trạm dừng nghỉ, bến xe có bắt buộc có chỗ sạc xe điện không: Luật Đường bộ nói gì với xe máy điện?",
    "primaryIntent": "informational/tram-dung-nghi-ben-xe-co-bat-buoc-co-cho-sac-xe-dien-khong-luat-duong-bo-noi-gi-voi-xe-may-dien",
    "notes": "source=topic-v2 topicId=T002556",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:09:41.916Z",
-   "updatedAt": "2026-10-27T08:09:41.916Z"
+   "updatedAt": "2026-10-28T01:26:08.678Z",
+   "seoScore": 100,
+   "words": 3456
   },
   {
    "id": "S02360",
