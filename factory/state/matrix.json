@@ -34998,11 +34998,13 @@
    "title": "Dừng bảo hiểm vật chất xe máy giữa chừng hoặc bị công ty bảo hiểm chấm dứt: khi nào được và phí hoàn ra sao?",
    "primaryIntent": "informational/dung-bao-hiem-vat-chat-xe-may-giua-chung-hoac-bi-cong-ty-bao-hiem-cham-dut-khi-nao-duoc-va-phi-hoan-ra-sao",
    "notes": "source=topic-v2 topicId=T002574",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:38.252Z",
-   "updatedAt": "2026-10-28T00:54:38.252Z"
+   "updatedAt": "2026-10-28T06:19:29.957Z",
+   "seoScore": 100,
+   "words": 3761
   },
   {
    "id": "S02378",
