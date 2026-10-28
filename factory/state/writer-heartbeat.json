@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-28T01:26:33.237Z",
+ "at": "2026-10-28T04:32:55.649Z",
  "phase": "writing",
  "pair": null,
- "note": "lô Y xong: S02323–S02359 đã xuất bản (37 bài, tổng 2.059); lô Z S02360–S02385 đang viết (workflow wf_d6760275-e10)"
+ "note": "sau giới hạn phiên (reset 04:20 UTC): chạy lại workflow lô Z (S02360–S02385, 6 bài đã có bản nháp đang sửa/kiểm) và scout lô AA lúc 04:33 UTC"
 }
