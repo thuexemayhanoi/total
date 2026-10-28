@@ -34623,11 +34623,13 @@
    "title": "Nơi cho thuê xe máy tự lái phải kiểm tra bằng lái của khách thế nào và hợp đồng thuê phải kèm giấy gì?",
    "primaryIntent": "informational/noi-cho-thue-xe-may-tu-lai-phai-kiem-tra-bang-lai-cua-khach-the-nao-va-hop-dong-thue-phai-kem-giay-gi",
    "notes": "source=topic-v2 topicId=T002549",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:08:48.540Z",
-   "updatedAt": "2026-10-27T08:08:48.540Z"
+   "updatedAt": "2026-10-28T00:29:08.122Z",
+   "seoScore": 100,
+   "words": 3353
   },
   {
    "id": "S02353",
