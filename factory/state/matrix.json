@@ -34833,11 +34833,13 @@
    "title": "Bị thu tiền gửi xe cao hơn bảng giá đã niêm yết: phạt bao nhiêu, có được trả lại tiền chênh và báo ai?",
    "primaryIntent": "informational/bi-thu-tien-gui-xe-cao-hon-bang-gia-da-niem-yet-phat-bao-nhieu-co-duoc-tra-lai-tien-chenh-va-bao-ai",
    "notes": "source=topic-v2 topicId=T002563",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:53:49.703Z",
-   "updatedAt": "2026-10-28T00:53:49.703Z"
+   "updatedAt": "2026-10-28T05:29:22.036Z",
+   "seoScore": 100,
+   "words": 3413
   },
   {
    "id": "S02367",
