@@ -34561,11 +34561,13 @@
    "title": "Ký hợp đồng xe máy trên điện thoại: chữ ký điện tử khác chữ ký số thế nào và loại nào ngang chữ ký tay?",
    "primaryIntent": "informational/ky-hop-dong-xe-may-tren-dien-thoai-chu-ky-dien-tu-khac-chu-ky-so-the-nao-va-loai-nao-ngang-chu-ky-tay",
    "notes": "source=topic-v2 topicId=T002545",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:08:15.876Z",
-   "updatedAt": "2026-10-27T08:08:15.877Z"
+   "updatedAt": "2026-10-28T00:24:08.606Z",
+   "seoScore": 100,
+   "words": 3407
   },
   {
    "id": "S02349",

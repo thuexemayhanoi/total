@@ -29781,6 +29781,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-phap-ly/ky-hop-dong-xe-may-tren-dien-thoai-chu-ky-dien-tu-khac-chu-ky-so-the-nao-va-loai-nao-ngang-chu-ky-tay/",
+  "title": "Ký hợp đồng xe máy trên điện thoại: chữ ký điện tử khác chữ ký số thế nào và loại nào ngang chữ ký tay?",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "summary": "Khi thuê hoặc mua bán xe máy, nhiều người được mời ký hợp đồng trên điện thoại, máy tính bảng hay bằng một mã xác nhận mà không rõ chữ ký điện tử khác chữ ký số ở đâu và loại nào ngang chữ ký tay trên giấy. Bài đọc Luật Giao dịch điện tử số 20/2023/QH15 qua văn bản hợp nhất 36/VBHN-VPQH ở Điều 3 khoản 11 và khoản 12, Điều 22 khoản 1, khoản 3 và khoản 4, Điều 23 và Điều 4 khoản 2. Trọng tâm là khác biệt giữa việc chữ ký điện tử không bị phủ nhận giá trị chỉ vì ở dạng điện tử theo Điều 23 khoản 1 và việc tương đương chữ ký trong văn bản giấy mà khoản 2 chỉ nêu cho hai loại chữ ký. Bài không xếp một cách ký cụ thể trên ứng dụng vào loại nào và không kết luận một hợp đồng cụ thể có giá trị hay vô hiệu. Văn bản được truy xuất ngày 27 tháng 10 năm 2026; hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào bài.",
+  "quickAnswer": "Theo Luật Giao dịch điện tử số 20/2023/QH15 (văn bản hợp nhất 36/VBHN-VPQH), Điều 3 khoản 11 định nghĩa chữ ký điện tử là chữ ký tạo lập dưới dạng dữ liệu điện tử, gắn liền hoặc kết hợp một cách lô gíc với thông điệp dữ liệu để xác nhận chủ thể ký và sự chấp thuận của chủ thể đó; khoản 12 nêu chữ ký số là chữ ký điện tử dùng thuật toán khóa không đối xứng, gồm khóa bí mật và khóa công khai. Điều 22 khoản 3 đòi chữ ký số đáp ứng đủ các yêu cầu từ điểm a đến điểm đ, trong đó có việc phải được bảo đảm bởi chứng thư chữ ký số. Điều 23 khoản 1 nêu chữ ký điện tử không bị phủ nhận giá trị pháp lý chỉ vì ở dạng điện tử, còn khoản 2 chỉ nêu chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương chữ ký của cá nhân đó trong văn bản giấy. Bài không xếp một cách ký cụ thể trên điện thoại vào loại nào và không phải tư vấn pháp lý.",
+  "keyPoints": [
+   "Điều 3 khoản 11: chữ ký điện tử là chữ ký ở dạng dữ liệu điện tử gắn liền hoặc kết hợp lô gíc với thông điệp dữ liệu, để xác nhận chủ thể ký và sự chấp thuận của chủ thể đó.",
+   "Điều 3 khoản 12: chữ ký số là chữ ký điện tử dùng thuật toán khóa không đối xứng; nó bảo đảm tính xác thực, toàn vẹn, chống chối bỏ nhưng không bảo đảm tính bí mật.",
+   "Điều 22 khoản 3 đòi chữ ký số đáp ứng đủ các yêu cầu từ điểm a đến điểm đ, trong đó có việc phải được bảo đảm bởi chứng thư chữ ký số.",
+   "Điều 23 khoản 2 chỉ nêu chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số là tương đương chữ ký của cá nhân trong văn bản giấy; khoản 1 chỉ chặn việc phủ nhận vì hình thức điện tử."
+  ],
+  "entities": [
+   "chữ ký điện tử",
+   "chữ ký số",
+   "Luật Giao dịch điện tử",
+   "văn bản hợp nhất 36/VBHN-VPQH",
+   "chứng thư chữ ký số",
+   "thông điệp dữ liệu",
+   "chữ ký số công cộng",
+   "hợp đồng điện tử"
+  ],
+  "keywords": [
+   "khác nhau giữa chữ ký điện tử và chữ ký số",
+   "giá trị pháp lý của chữ ký điện tử",
+   "loại chữ ký điện tử nào tương đương chữ ký trên giấy",
+   "hợp đồng xe máy ký trên điện thoại",
+   "phân loại chữ ký điện tử theo Luật Giao dịch điện tử"
+  ]
+ },
+ {
   "url": "ride/di-phuot/ky-nang-phuot/",
   "title": "Hướng dẫn chi tiết về kỹ năng phượt",
   "category": "Hành trình",
