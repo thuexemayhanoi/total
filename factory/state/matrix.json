@@ -35073,11 +35073,13 @@
    "title": "Xe gắn máy điện nhập khẩu có phần mềm “mở khóa” chạy vượt vận tốc công bố: từ 01/7/2026 bị xử lý ra sao?",
    "primaryIntent": "informational/xe-gan-may-dien-nhap-khau-co-phan-mem-mo-khoa-chay-vuot-van-toc-cong-bo-tu-01-7-2026-bi-xu-ly-ra-sao",
    "notes": "source=topic-v2 topicId=T002579",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:55:00.314Z",
-   "updatedAt": "2026-10-28T00:55:00.314Z"
+   "updatedAt": "2026-10-28T12:30:42.499Z",
+   "seoScore": 100,
+   "words": 3581
   },
   {
    "id": "S02383",
