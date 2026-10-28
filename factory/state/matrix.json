@@ -35253,11 +35253,13 @@
    "title": "Lãi cầm đồ, vay tiền tối đa bao nhiêu một năm: phần lãi vượt mức có hiệu lực không và lãi chậm trả tính sao?",
    "primaryIntent": "informational/lai-cam-do-vay-tien-toi-da-bao-nhieu-mot-nam-phan-lai-vuot-muc-co-hieu-luc-khong-va-lai-cham-tra-tinh-sao",
    "notes": "source=topic-v2 topicId=T002591",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:37:38.323Z",
-   "updatedAt": "2026-10-28T05:37:38.324Z"
+   "updatedAt": "2026-10-28T12:56:18.839Z",
+   "seoScore": 100,
+   "words": 3542
   },
   {
    "id": "S02395",
@@ -35266,11 +35268,13 @@
    "title": "Xe máy đang cầm ở tiệm bị hỏng, mất hoặc bị đem chạy, cho thuê: bên nhận cầm cố chịu trách nhiệm gì?",
    "primaryIntent": "informational/xe-may-dang-cam-o-tiem-bi-hong-mat-hoac-bi-dem-chay-cho-thue-ben-nhan-cam-co-chiu-trach-nhiem-gi",
    "notes": "source=topic-v2 topicId=T002592",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:37:44.393Z",
-   "updatedAt": "2026-10-28T05:37:44.394Z"
+   "updatedAt": "2026-10-28T12:56:18.839Z",
+   "seoScore": 100,
+   "words": 3562
   },
   {
    "id": "S02396",
