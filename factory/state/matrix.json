@@ -35028,11 +35028,13 @@
    "title": "Phiếu kiểm tra chất lượng xuất xưởng xe máy là gì: ai cấp, bản điện tử hay bản giấy và mất phiếu thì sao?",
    "primaryIntent": "informational/phieu-kiem-tra-chat-luong-xuat-xuong-xe-may-la-gi-ai-cap-ban-dien-tu-hay-ban-giay-va-mat-phieu-thi-sao",
    "notes": "source=topic-v2 topicId=T002576",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:46.743Z",
-   "updatedAt": "2026-10-28T00:54:46.743Z"
+   "updatedAt": "2026-10-28T12:28:14.834Z",
+   "seoScore": 100,
+   "words": 3424
   },
   {
    "id": "S02380",
