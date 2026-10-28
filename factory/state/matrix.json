@@ -34743,11 +34743,13 @@
    "title": "Người khuyết tật lái xe mô tô ba bánh: cần bằng hạng nào, thi sát hạch ra sao và bằng ghi hạn chế gì?",
    "primaryIntent": "informational/nguoi-khuyet-tat-lai-xe-mo-to-ba-banh-can-bang-hang-nao-thi-sat-hach-ra-sao-va-bang-ghi-han-che-gi",
    "notes": "source=topic-v2 topicId=T002557",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:53:23.320Z",
-   "updatedAt": "2026-10-28T00:53:23.320Z"
+   "updatedAt": "2026-10-28T04:36:07.962Z",
+   "seoScore": 100,
+   "words": 3408
   },
   {
    "id": "S02361",
