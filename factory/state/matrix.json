@@ -34803,11 +34803,13 @@
    "title": "Bãi giữ xe máy có bắt buộc niêm yết giá không và bảng giá phải ghi những gì theo Luật Giá?",
    "primaryIntent": "informational/bai-giu-xe-may-co-bat-buoc-niem-yet-gia-khong-va-bang-gia-phai-ghi-the-nao-theo-luat-gia",
    "notes": "source=topic-v2 topicId=T002561",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:53:41.020Z",
-   "updatedAt": "2026-10-28T00:53:41.022Z"
+   "updatedAt": "2026-10-28T04:51:40.434Z",
+   "seoScore": 100,
+   "words": 3573
   },
   {
    "id": "S02365",
