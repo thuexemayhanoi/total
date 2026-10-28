@@ -34848,11 +34848,13 @@
    "title": "Sau bão lũ, chỗ gửi xe tránh ngập hay tiệm sửa xe ngập nước tăng giá vọt: Luật Giá cấm trường hợp nào?",
    "primaryIntent": "informational/sau-bao-lu-cho-gui-xe-tranh-ngap-hay-tiem-sua-xe-ngap-nuoc-tang-gia-vot-luat-gia-cam-truong-hop-nao",
    "notes": "source=topic-v2 topicId=T002564",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:53:54.119Z",
-   "updatedAt": "2026-10-28T00:53:54.119Z"
+   "updatedAt": "2026-10-28T05:32:14.584Z",
+   "seoScore": 100,
+   "words": 3508
   },
   {
    "id": "S02368",
