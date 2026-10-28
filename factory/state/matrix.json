@@ -34878,11 +34878,13 @@
    "title": "Người Hàn Quốc có bằng lái quốc tế Công ước 1949 có được lái xe máy ở Việt Nam không, lái được bao lâu?",
    "primaryIntent": "informational/nguoi-han-quoc-co-bang-lai-quoc-te-cong-uoc-1949-co-duoc-lai-xe-may-o-viet-nam-khong-lai-duoc-bao-lau",
    "notes": "source=topic-v2 topicId=T002566",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:03.050Z",
-   "updatedAt": "2026-10-28T00:54:03.050Z"
+   "updatedAt": "2026-10-28T05:34:07.388Z",
+   "seoScore": 100,
+   "words": 3428
   },
   {
    "id": "S02370",
