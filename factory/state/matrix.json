@@ -34788,11 +34788,13 @@
    "title": "Xe lăn điện của người khuyết tật có phải xe máy điện không: được đi ở đâu, có cần bằng lái và biển số?",
    "primaryIntent": "informational/xe-lan-dien-cua-nguoi-khuyet-tat-co-phai-xe-may-dien-khong-duoc-di-o-dau-co-can-bang-lai-va-bien-so",
    "notes": "source=topic-v2 topicId=T002560",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:53:36.551Z",
-   "updatedAt": "2026-10-28T00:53:36.551Z"
+   "updatedAt": "2026-10-28T04:51:06.473Z",
+   "seoScore": 100,
+   "words": 3686
   },
   {
    "id": "S02364",
