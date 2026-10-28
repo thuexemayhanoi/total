@@ -16424,6 +16424,37 @@
   ]
  },
  {
+  "url": "learn/kien-thuc-xe-dien/cong-suat-danh-dinh-va-cong-suat-lon-nhat-cua-dong-co-xe-may-dien-khac-nhau-the-nao-qcvn-30-2026-bat-ghi-gi/",
+  "title": "Công suất danh định và công suất lớn nhất của động cơ xe máy điện khác nhau thế nào, QCVN 30:2026 bắt ghi gì?",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "summary": "Bảng thông số xe máy điện thường ghi hai con số công suất động cơ chênh nhau xa, khiến người mua khó biết đâu là công suất danh định, đâu là công suất lớn nhất. Bài đọc QCVN 30:2026/BXD, quy chuẩn kỹ thuật quốc gia về động cơ sử dụng cho xe mô tô điện, xe gắn máy điện ban hành kèm Thông tư 12/2026/TT-BXD, có hiệu lực từ 09/10/2026 và thay thế QCVN 90:2024/BGTVT. Trọng tâm là định nghĩa hai loại công suất tại mục 1.3.4, 1.3.5, các thông tin bắt buộc trên thân động cơ và bộ điều khiển, khái niệm động cơ cùng kiểu loại, biên sai khác ± 5%, ngưỡng hiệu suất và độ tăng nhiệt khi thử nghiệm. Bài cũng chỉ ra phiếu kiểm tra chất lượng xuất xưởng xe theo Văn bản hợp nhất 70/2026/VBHN-TT-BXD ghi công suất động cơ điện lớn nhất ở mục 12.1. Cuối bài nêu rõ những nội dung chưa đối chiếu và cách tự tra văn bản còn hiệu lực.",
+  "quickAnswer": "Theo mục 1.3.4 và 1.3.5 của QCVN 30:2026/BXD, công suất danh định là công suất đầu ra do nhà sản xuất quy định khi động cơ điện hoạt động ở điều kiện danh định mà không vượt quá giới hạn nhiệt cho phép, còn công suất lớn nhất là công suất đầu ra lớn nhất của động cơ điện ở chế độ ngắn hạn. Các mục 2.1.3, 2.1.4 bắt thân động cơ thể hiện điện áp danh định và công suất danh định ở vị trí quan sát được sau khi lắp hoàn chỉnh, rõ ràng, không thể xóa, kèm số động cơ không được đục sửa, tẩy xóa; các mục 2.1.5, 2.8 bắt bộ điều khiển có nhãn hiệu, số loại/mã kiểu loại, điện áp sử dụng và tính năng bảo vệ khi sụt áp, quá dòng. Khi thử nghiệm theo điểm A.3 Phụ lục A, cả hai con số công suất và tốc độ quay danh định chỉ được sai khác không quá ± 5% so với giá trị tương ứng đăng ký (mục 2.2). Quy chuẩn ban hành kèm Thông tư 12/2026/TT-BXD, có hiệu lực từ 09/10/2026 và thay thế QCVN 90:2024/BGTVT.",
+  "keyPoints": [
+   "QCVN 30:2026/BXD ban hành kèm Thông tư 12/2026/TT-BXD ngày 09/4/2026, có hiệu lực từ 09/10/2026 và thay thế QCVN 90:2024/BGTVT.",
+   "Công suất danh định là công suất đầu ra do nhà sản xuất quy định ở điều kiện danh định mà không vượt quá giới hạn nhiệt cho phép; công suất lớn nhất là công suất đầu ra lớn nhất ở chế độ ngắn hạn (mục 1.3.4, 1.3.5).",
+   "Thân động cơ phải thể hiện điện áp danh định, công suất danh định ở vị trí quan sát được sau khi lắp, không thể xóa; số động cơ không được đục sửa, tẩy xóa; bộ điều khiển phải có nhãn hiệu, số loại/mã kiểu loại, điện áp sử dụng.",
+   "Khi thử theo điểm A.3 Phụ lục A, công suất lớn nhất, công suất danh định, tốc độ quay danh định sai khác không quá ± 5% so với giá trị đăng ký; hiệu suất và độ tăng nhiệt của cuộn dây, vỏ động cơ phải đạt ngưỡng tại mục 2.3, 2.6."
+  ],
+  "entities": [
+   "QCVN 30:2026/BXD",
+   "Thông tư 12/2026/TT-BXD",
+   "QCVN 90:2024/BGTVT",
+   "công suất danh định",
+   "công suất lớn nhất",
+   "bộ điều khiển điện",
+   "Thông tư 55/2024/TT-BGTVT",
+   "Văn bản hợp nhất 70/2026/VBHN-TT-BXD"
+  ],
+  "keywords": [
+   "QCVN 30:2026/BXD động cơ xe máy điện",
+   "công suất danh định động cơ xe máy điện",
+   "nhãn bắt buộc trên thân động cơ và bộ điều khiển xe điện",
+   "sai khác ± 5% công suất động cơ điện khi thử nghiệm",
+   "phiếu kiểm tra chất lượng xuất xưởng ghi công suất động cơ điện lớn nhất"
+  ]
+ },
+ {
   "url": "learn/doc-thong-so/cong-suat-mo-men-xoan/",
   "title": "Công suất và mô-men xoắn dành cho người mới: hiểu bằng ví dụ đời thường",
   "category": "Kiến thức chuyên sâu",

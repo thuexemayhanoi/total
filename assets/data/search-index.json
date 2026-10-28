@@ -21106,6 +21106,41 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-xe-dien/cong-suat-danh-dinh-va-cong-suat-lon-nhat-cua-dong-co-xe-may-dien-khac-nhau-the-nao-qcvn-30-2026-bat-ghi-gi/",
+  "title": "Công suất danh định và công suất lớn nhất của động cơ xe máy điện khác nhau thế nào, QCVN 30:2026 bắt ghi gì?",
+  "description": "QCVN 30:2026/BXD định nghĩa công suất danh định, công suất lớn nhất của động cơ xe máy điện; thân động cơ, bộ điều khiển phải ghi gì và sai khác ± 5% khi thử.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức xe điện",
+  "entities": [
+   "QCVN 30:2026/BXD",
+   "Thông tư 12/2026/TT-BXD",
+   "QCVN 90:2024/BGTVT",
+   "công suất danh định",
+   "công suất lớn nhất",
+   "bộ điều khiển điện",
+   "Thông tư 55/2024/TT-BGTVT",
+   "Văn bản hợp nhất 70/2026/VBHN-TT-BXD"
+  ],
+  "keywords": [
+   "QCVN 30:2026/BXD động cơ xe máy điện",
+   "công suất danh định động cơ xe máy điện",
+   "nhãn bắt buộc trên thân động cơ và bộ điều khiển xe điện",
+   "sai khác ± 5% công suất động cơ điện khi thử nghiệm",
+   "phiếu kiểm tra chất lượng xuất xưởng ghi công suất động cơ điện lớn nhất"
+  ],
+  "seoTitle": "Công suất danh định và lớn nhất của động cơ xe điện: QCVN 30:2026",
+  "primaryKeyword": "QCVN 30:2026/BXD động cơ xe máy điện",
+  "headings": [
+   "QCVN 30:2026/BXD thay QCVN 90:2024/BGTVT từ ngày 09/10/2026",
+   "Công suất danh định và công suất lớn nhất được định nghĩa ra sao",
+   "Thông tin bắt buộc trên thân động cơ và trên bộ điều khiển",
+   "Sai lệch ± 5%, hiệu suất và độ tăng nhiệt khi thử nghiệm động cơ",
+   "Phiếu xuất xưởng xe ghi công suất động cơ điện ở mục nào và phần bài chưa đối chiếu"
+  ],
+  "summary": "Bảng thông số xe máy điện thường ghi hai con số công suất động cơ chênh nhau xa, khiến người mua khó biết đâu là công suất danh định, đâu là công suất lớn nhất. Bài đọc QCVN 30:2026/BXD, quy chuẩn kỹ thuật quốc gia về động cơ sử dụng cho xe mô tô điện, xe gắn "
+ },
+ {
+  "kind": "article",
   "url": "learn/doc-thong-so/cong-suat-mo-men-xoan/",
   "title": "Công suất và mô-men xoắn dành cho người mới: hiểu bằng ví dụ đời thường",
   "description": "Công suất và mô-men xoắn là hai con số hay bị nhầm lẫn nhất khi đọc thông số xe. Bài viết giải thích hai khái niệm bằng ví dụ đời thường và cách áp dụng khi chọn xe.",

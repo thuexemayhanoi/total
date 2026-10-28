@@ -35103,11 +35103,13 @@
    "title": "Công suất danh định và công suất lớn nhất của động cơ xe máy điện khác nhau thế nào, QCVN 30:2026 bắt ghi gì?",
    "primaryIntent": "informational/cong-suat-danh-dinh-va-cong-suat-lon-nhat-cua-dong-co-xe-may-dien-khac-nhau-the-nao-qcvn-30-2026-bat-ghi-gi",
    "notes": "source=topic-v2 topicId=T002581",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:55:08.961Z",
-   "updatedAt": "2026-10-28T00:55:08.961Z"
+   "updatedAt": "2026-10-28T12:45:40.279Z",
+   "seoScore": 100,
+   "words": 3389
   },
   {
    "id": "S02385",
