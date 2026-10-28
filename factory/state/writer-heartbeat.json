@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-28T04:32:55.649Z",
+ "at": "2026-10-28T05:33:36.496Z",
  "phase": "writing",
  "pair": null,
- "note": "sau giới hạn phiên (reset 04:20 UTC): chạy lại workflow lô Z (S02360–S02385, 6 bài đã có bản nháp đang sửa/kiểm) và scout lô AA lúc 04:33 UTC"
+ "note": "lô Z: S02360–S02369 đã đẩy/xuất bản; đang sửa S02370–S02371, còn S02372–S02385; scout lô AA đã xong 4/5 nhóm"
 }
