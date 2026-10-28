@@ -35474,6 +35474,71 @@
    "attempts": 0,
    "createdAt": "2026-10-28T05:39:51.160Z",
    "updatedAt": "2026-10-28T05:39:51.160Z"
+  },
+  {
+   "id": "S02415",
+   "hub": "guide/thu-tuc-xe",
+   "slug": "thi-bang-lai-xe-may-a1-ton-bao-nhieu-phi-sat-hach-le-phi-cap-bang-thi-lai-bo-thi-tinh-the-nao",
+   "title": "Thi bằng lái xe máy A1 tốn bao nhiêu phí sát hạch, lệ phí cấp bằng; thi lại hay bỏ thi tính tiền ra sao?",
+   "primaryIntent": "informational/thi-bang-lai-xe-may-a1-ton-bao-nhieu-phi-sat-hach-le-phi-cap-bang-thi-lai-bo-thi-tinh-the-nao",
+   "notes": "source=topic-v2 topicId=T002613",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-28T05:52:02.652Z",
+   "updatedAt": "2026-10-28T05:52:02.652Z"
+  },
+  {
+   "id": "S02416",
+   "hub": "guide/thu-tuc-xe",
+   "slug": "doi-cap-lai-bang-lai-xe-may-hoac-xin-bang-lai-quoc-te-le-phi-bao-nhieu-tu-2026-va-nop-luc-nao",
+   "title": "Đổi, cấp lại bằng lái xe máy hoặc xin bằng lái quốc tế: lệ phí bao nhiêu từ 2026 và nộp vào lúc nào?",
+   "primaryIntent": "informational/doi-cap-lai-bang-lai-xe-may-hoac-xin-bang-lai-quoc-te-le-phi-bao-nhieu-tu-2026-va-nop-luc-nao",
+   "notes": "source=topic-v2 topicId=T002614",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-28T05:52:08.544Z",
+   "updatedAt": "2026-10-28T05:52:08.545Z"
+  },
+  {
+   "id": "S02417",
+   "hub": "learn/doc-thong-so",
+   "slug": "nhan-nang-luong-tren-xe-may-dien-va-xe-may-xang-moi-ghi-gi-con-so-wh-km-l-100km-doc-the-nao",
+   "title": "Nhãn năng lượng trên xe máy điện, xe máy xăng mới ghi gì và con số Wh/km, l/100km đọc thế nào?",
+   "primaryIntent": "informational/nhan-nang-luong-tren-xe-may-dien-va-xe-may-xang-moi-ghi-gi-con-so-wh-km-l-100km-doc-the-nao",
+   "notes": "source=topic-v2 topicId=T002615",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-28T05:52:14.492Z",
+   "updatedAt": "2026-10-28T05:52:14.493Z"
+  },
+  {
+   "id": "S02418",
+   "hub": "local/ha-noi",
+   "slug": "ha-noi-phat-cao-hon-tu-01-7-2026-bon-loi-giao-thong-nao-bi-tang-va-loi-cua-nguoi-di-xe-may-co-bi-tang-khong",
+   "title": "Từ 01/7/2026 Hà Nội phạt cao gấp đôi những lỗi giao thông nào, lỗi của người đi xe máy có bị tăng không?",
+   "primaryIntent": "informational/ha-noi-phat-cao-hon-tu-01-7-2026-bon-loi-giao-thong-nao-bi-tang-va-loi-cua-nguoi-di-xe-may-co-bi-tang-khong",
+   "notes": "source=topic-v2 topicId=T002616",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-28T05:52:20.313Z",
+   "updatedAt": "2026-10-28T05:52:20.314Z"
+  },
+  {
+   "id": "S02419",
+   "hub": "tips/meo-mua-xe",
+   "slug": "mua-xe-may-moi-khong-thay-nhan-nang-luong-hoac-chi-co-nhan-tieng-nuoc-ngoai-xe-nao-duoc-mien-va-tra-cuu-o-dau",
+   "title": "Xe máy mới không có nhãn năng lượng hoặc chỉ có nhãn tiếng nước ngoài: xe nào được miễn, tra cứu ở đâu?",
+   "primaryIntent": "informational/mua-xe-may-moi-khong-thay-nhan-nang-luong-hoac-chi-co-nhan-tieng-nuoc-ngoai-xe-nao-duoc-mien-va-tra-cuu-o-dau",
+   "notes": "source=topic-v2 topicId=T002617",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-28T05:52:25.994Z",
+   "updatedAt": "2026-10-28T05:52:25.994Z"
   }
  ]
 }
