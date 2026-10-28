@@ -34578,11 +34578,13 @@
    "title": "Công chứng hợp đồng mua bán xe máy trực tuyến, không cần đến văn phòng: công chứng điện tử áp dụng thế nào?",
    "primaryIntent": "informational/cong-chung-hop-dong-mua-ban-xe-may-truc-tuyen-khong-can-den-van-phong-cong-chung-dien-tu-ap-dung-the-nao",
    "notes": "source=topic-v2 topicId=T002546",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:08:24.375Z",
-   "updatedAt": "2026-10-27T08:08:24.375Z"
+   "updatedAt": "2026-10-28T00:26:01.317Z",
+   "seoScore": 100,
+   "words": 3583
   },
   {
    "id": "S02350",

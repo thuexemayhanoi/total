@@ -16057,6 +16057,37 @@
   ]
  },
  {
+  "url": "guide/thu-tuc-xe/cong-chung-hop-dong-mua-ban-xe-may-truc-tuyen-khong-can-den-van-phong-cong-chung-dien-tu-ap-dung-the-nao/",
+  "title": "Công chứng hợp đồng mua bán xe máy trực tuyến, không cần đến văn phòng: công chứng điện tử áp dụng thế nào?",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "summary": "Người bán và người mua xe máy ở hai nơi thường hỏi có thể công chứng hợp đồng mua bán trực tuyến, không cùng đến văn phòng công chứng hay không. Bài đọc Luật Công chứng số 46/2024/QH15 qua văn bản hợp nhất 50/VBHN-VPQH ở Điều 62 về khái niệm công chứng điện tử và việc Chính phủ quy định phạm vi giao dịch, Điều 65 khoản 1 về hai quy trình trực tiếp và trực tuyến, Điều 64 khoản 1 và khoản 2 về hiệu lực của văn bản công chứng điện tử. Bài đọc tiếp Điều 48 khoản 1, khoản 2 và Điều 50 khoản 1 Nghị định 104/2025/NĐ-CP về phạm vi áp dụng và chữ ký số công cộng của người tham gia, cùng Điều 9 khoản 2 Luật Giao dịch điện tử theo văn bản hợp nhất 36/VBHN-VPQH. Bài không khẳng định tổ chức hành nghề công chứng nào đã cung cấp dịch vụ, không nêu phí và không nói mua bán xe máy bắt buộc phải công chứng. Văn bản được truy xuất ngày 24 và ngày 27 tháng 10 năm 2026; hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào bài.",
+  "quickAnswer": "Theo Điều 65 khoản 1 điểm b Luật Công chứng (văn bản hợp nhất 50/VBHN-VPQH), công chứng điện tử trực tuyến là việc các bên không có mặt tại cùng một địa điểm, giao kết giao dịch qua phương tiện trực tuyến trước sự chứng kiến trực tiếp của công chứng viên, rồi công chứng viên và tổ chức hành nghề công chứng chứng nhận bằng chữ ký số. Điều 48 khoản 2 Nghị định 104/2025/NĐ-CP nêu cách này được áp dụng với các giao dịch dân sự, trừ di chúc và giao dịch dân sự là hành vi pháp lý đơn phương khác; Điều 50 khoản 1 nêu người tham gia sử dụng chữ ký số công cộng hoặc chữ ký số, chứng thư chữ ký số nước ngoài được công nhận tại Việt Nam, trừ trường hợp pháp luật quy định khác. Theo Điều 64 khoản 2 Luật Công chứng, văn bản công chứng điện tử có hiệu lực kể từ thời điểm được ký bằng chữ ký số của công chứng viên và của tổ chức hành nghề công chứng. Luật không viết rằng không bên nào phải đến văn phòng, và bài không khẳng định nơi nào đã cung cấp dịch vụ.",
+  "keyPoints": [
+   "Điều 62 Luật Công chứng: công chứng điện tử là việc công chứng bằng phương tiện điện tử để tạo lập văn bản công chứng điện tử; Chính phủ quy định phạm vi các giao dịch được công chứng điện tử trong từng thời kỳ.",
+   "Điều 65 khoản 1: cả quy trình trực tiếp và trực tuyến đều diễn ra trước sự chứng kiến trực tiếp của công chứng viên, và công chứng viên cùng tổ chức hành nghề công chứng chứng nhận giao dịch bằng chữ ký số; trực tuyến là khi các bên không có mặt tại cùng một địa điểm và giao kết giao dịch thông qua phương tiện trực tuyến.",
+   "Điều 48 Nghị định 104/2025/NĐ-CP: trực tiếp áp dụng đối với tất cả các giao dịch dân sự; trực tuyến áp dụng với giao dịch dân sự, trừ di chúc và giao dịch dân sự là hành vi pháp lý đơn phương khác.",
+   "Điều 50 khoản 1 Nghị định 104/2025/NĐ-CP: người tham gia sử dụng chữ ký số công cộng hoặc chữ ký số, chứng thư chữ ký số nước ngoài được công nhận tại Việt Nam, trừ trường hợp pháp luật quy định khác."
+  ],
+  "entities": [
+   "công chứng điện tử",
+   "công chứng điện tử trực tuyến",
+   "Luật Công chứng 46/2024/QH15",
+   "văn bản hợp nhất 50/VBHN-VPQH",
+   "Nghị định 104/2025/NĐ-CP",
+   "chữ ký số công cộng",
+   "văn bản công chứng điện tử",
+   "Luật Giao dịch điện tử 20/2023/QH15"
+  ],
+  "keywords": [
+   "mua bán xe máy qua công chứng điện tử trực tuyến",
+   "thủ tục công chứng trực tuyến không cần đến văn phòng",
+   "phạm vi giao dịch được công chứng điện tử trực tuyến",
+   "chữ ký số công cộng khi công chứng điện tử",
+   "hiệu lực của văn bản công chứng điện tử"
+  ]
+ },
+ {
   "url": "news/cong-nghe-xe/cong-nghe-xe-may/",
   "title": "Công nghệ xe máy — những điều cần biết",
   "category": "Tin tức",
