@@ -35132,11 +35132,13 @@
    "title": "Cây xăng treo biển hết hàng hay tạm nghỉ: khi nào cửa hàng được ngừng bán và phải báo cho ai?",
    "primaryIntent": "informational/cay-xang-treo-bien-het-hang-hay-tam-nghi-khi-nao-cua-hang-duoc-ngung-ban-va-phai-bao-cho-ai",
    "notes": "source=topic-v2 topicId=T002584",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:36:57.355Z",
-   "updatedAt": "2026-10-28T05:36:57.355Z"
+   "updatedAt": "2026-10-28T12:06:50.350Z",
+   "seoScore": 100,
+   "words": 3578
   },
   {
    "id": "S02388",
