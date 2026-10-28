@@ -34936,11 +34936,13 @@
    "title": "Xe máy có bảo hiểm vật chất bị hư hỏng: báo muộn có bị trừ tiền, ai giám định và được sửa hay nhận tiền?",
    "primaryIntent": "informational/xe-may-co-bao-hiem-vat-chat-bi-hu-hong-bao-muon-co-bi-tru-tien-ai-giam-dinh-va-duoc-sua-hay-nhan-tien",
    "notes": "source=topic-v2 topicId=T002570",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:21.014Z",
-   "updatedAt": "2026-10-28T00:54:21.014Z"
+   "updatedAt": "2026-10-28T06:15:35.183Z",
+   "seoScore": 100,
+   "words": 3630
   },
   {
    "id": "S02374",
