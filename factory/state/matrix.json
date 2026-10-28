@@ -35177,11 +35177,13 @@
    "title": "Trụ bơm xăng mini ven đường: thiết bị bán xăng dầu quy mô nhỏ được hoạt động ở đâu và với điều kiện gì?",
    "primaryIntent": "informational/tru-bom-xang-mini-ven-duong-thiet-bi-ban-xang-dau-quy-mo-nho-duoc-hoat-dong-o-dau-va-voi-dieu-kien-gi",
    "notes": "source=topic-v2 topicId=T002587",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:37:14.800Z",
-   "updatedAt": "2026-10-28T05:37:14.801Z"
+   "updatedAt": "2026-10-28T12:08:19.842Z",
+   "seoScore": 100,
+   "words": 3605
   },
   {
    "id": "S02391",
