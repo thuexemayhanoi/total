@@ -34923,11 +34923,13 @@
    "title": "Công ty bảo hiểm từ chối bồi thường xe máy: khi nào được từ chối và lý do có phải ghi bằng văn bản?",
    "primaryIntent": "informational/cong-ty-bao-hiem-tu-choi-boi-thuong-xe-may-khi-nao-duoc-tu-choi-va-ly-do-co-phai-ghi-bang-van-ban",
    "notes": "source=topic-v2 topicId=T002569",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:16.648Z",
-   "updatedAt": "2026-10-28T00:54:16.648Z"
+   "updatedAt": "2026-10-28T06:16:36.540Z",
+   "seoScore": 100,
+   "words": 3588
   },
   {
    "id": "S02373",
