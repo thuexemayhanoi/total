@@ -34711,11 +34711,13 @@
    "title": "Dây cáp viễn thông, dây điện võng thấp ngang đường: luật quy định cao tối thiểu bao nhiêu và báo cho ai?",
    "primaryIntent": "informational/day-cap-vien-thong-day-dien-vong-thap-ngang-duong-luat-quy-dinh-cao-toi-thieu-bao-nhieu-va-bao-cho-ai",
    "notes": "source=topic-v2 topicId=T002555",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-27T08:09:34.797Z",
-   "updatedAt": "2026-10-27T08:09:34.797Z"
+   "updatedAt": "2026-10-28T01:12:42.642Z",
+   "seoScore": 100,
+   "words": 3390
   },
   {
    "id": "S02359",
