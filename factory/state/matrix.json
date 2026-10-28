@@ -34983,11 +34983,13 @@
    "title": "Bảo hiểm tai nạn người ngồi trên xe máy đã chi trả: người gây tai nạn có còn phải bồi thường không?",
    "primaryIntent": "informational/bao-hiem-tai-nan-nguoi-ngoi-tren-xe-may-da-chi-tra-nguoi-gay-tai-nan-co-con-phai-boi-thuong-khong",
    "notes": "source=topic-v2 topicId=T002573",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:33.980Z",
-   "updatedAt": "2026-10-28T00:54:33.980Z"
+   "updatedAt": "2026-10-28T06:18:37.007Z",
+   "seoScore": 100,
+   "words": 3549
   },
   {
    "id": "S02377",
