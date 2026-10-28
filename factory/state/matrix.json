@@ -35313,11 +35313,13 @@
    "title": "Trả xong nợ vay mua xe: khi nào được nhận lại giấy tờ xe và ai làm thủ tục xóa đăng ký thế chấp?",
    "primaryIntent": "informational/tra-xong-no-vay-mua-xe-khi-nao-duoc-nhan-lai-giay-to-xe-va-ai-lam-thu-tuc-xoa-dang-ky-the-chap",
    "notes": "source=topic-v2 topicId=T002596",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:38:08.735Z",
-   "updatedAt": "2026-10-28T05:38:08.735Z"
+   "updatedAt": "2026-10-28T13:39:50.806Z",
+   "seoScore": 100,
+   "words": 3674
   },
   {
    "id": "S02399",
