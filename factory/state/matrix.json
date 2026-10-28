@@ -35056,11 +35056,13 @@
    "title": "Xe đạp điện còn phải theo QCVN 68 và được Đăng kiểm chứng nhận chất lượng không? Văn bản bị bãi bỏ từ 2025",
    "primaryIntent": "informational/xe-dap-dien-con-phai-theo-qcvn-68-va-duoc-dang-kiem-chung-nhan-chat-luong-khong-nhung-van-ban-bi-bai-bo-tu-2025",
    "notes": "source=topic-v2 topicId=T002578",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T00:54:55.857Z",
-   "updatedAt": "2026-10-28T00:54:55.857Z"
+   "updatedAt": "2026-10-28T12:28:58.341Z",
+   "seoScore": 100,
+   "words": 3511
   },
   {
    "id": "S02382",
