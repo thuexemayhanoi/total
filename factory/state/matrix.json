@@ -35508,11 +35508,13 @@
    "title": "Mua tour xe máy: hợp đồng lữ hành phải ghi gì, ai mua bảo hiểm và công ty có được tự đổi cung đường?",
    "primaryIntent": "informational/mua-tour-xe-may-hop-dong-lu-hanh-phai-ghi-gi-ai-mua-bao-hiem-va-cong-ty-co-duoc-tu-doi-cung-duong",
    "notes": "source=topic-v2 topicId=T002609",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:30.927Z",
-   "updatedAt": "2026-10-28T05:39:30.927Z"
+   "updatedAt": "2026-10-29T04:05:14.172Z",
+   "seoScore": 100,
+   "words": 3645
   },
   {
    "id": "S02412",
