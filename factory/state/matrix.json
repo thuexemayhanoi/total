@@ -35416,11 +35416,13 @@
    "title": "Dựng xe máy, đỗ xe trên kè chống sạt lở, kè biển để câu cá, hóng mát: từ 10/7/2026 bị phạt thế nào?",
    "primaryIntent": "informational/dung-xe-may-do-xe-tren-ke-chong-sat-lo-ke-bien-de-cau-ca-hong-mat-tu-10-7-2026-bi-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002603",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:38:50.697Z",
-   "updatedAt": "2026-10-28T05:38:50.697Z"
+   "updatedAt": "2026-10-29T03:23:36.683Z",
+   "seoScore": 100,
+   "words": 3430
   },
   {
    "id": "S02406",
@@ -35667,11 +35669,13 @@
    "title": "Mua xe máy trả góp: thuế GTGT tính trên giá trả một lần hay cả tiền lãi, hóa đơn lập vào lúc nào?",
    "primaryIntent": "informational/mua-xe-may-tra-gop-thue-gtgt-tinh-tren-gia-tra-mot-lan-hay-ca-tien-lai-hoa-don-lap-vao-luc-nao",
    "notes": "source=topic-v2 topicId=T002621",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:11.562Z",
-   "updatedAt": "2026-10-29T02:37:11.562Z"
+   "updatedAt": "2026-10-29T03:23:36.683Z",
+   "seoScore": 100,
+   "words": 3418
   },
   {
    "id": "S02425",
