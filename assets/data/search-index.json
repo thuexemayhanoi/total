@@ -22530,6 +22530,41 @@
  },
  {
   "kind": "article",
+  "url": "guide/mua-xe/dat-mua-xe-may-phu-tung-online-nguoi-ban-phai-cong-khai-thong-tin-gi-va-nhan-biet-tai-khoan-nguoi-ban-the-nao/",
+  "title": "Đặt mua xe máy, phụ tùng online: người bán phải công khai thông tin gì, nhận biết tài khoản người bán ra sao?",
+  "description": "Người bán online khai tên, địa chỉ với nền tảng, công khai thông tin hàng hóa trừ số khung, số máy (Luật TMĐT); Nghị định 248: xác thực người bán từ 01/01/2027.",
+  "category": "Hướng dẫn",
+  "hub": "Mua xe",
+  "entities": [
+   "Luật Thương mại điện tử số 122/2025/QH15",
+   "Nghị định 248/2026/NĐ-CP",
+   "người bán trên nền tảng thương mại điện tử",
+   "chủ quản nền tảng thương mại điện tử trung gian",
+   "mạng xã hội hoạt động thương mại điện tử",
+   "dấu hiệu tài khoản người bán",
+   "xác thực điện tử danh tính",
+   "nhãn hàng hóa"
+  ],
+  "keywords": [
+   "công khai thông tin người bán trên sàn",
+   "nhận biết tài khoản người bán trên mạng xã hội",
+   "đặt mua xe máy phụ tùng online cần xem gì",
+   "Luật Thương mại điện tử 122/2025/QH15 Điều 21",
+   "xác thực danh tính người bán từ 01/01/2027"
+  ],
+  "seoTitle": "Mua xe máy, phụ tùng online: người bán phải công khai gì?",
+  "primaryKeyword": "công khai thông tin người bán trên sàn",
+  "headings": [
+   "Người bán trên sàn và trên mạng xã hội phải cung cấp tên, địa chỉ nào",
+   "Thông tin hàng hóa bắt buộc công khai và vì sao số khung, số máy có thể không hiện trên tin đăng",
+   "Sàn phải công khai thông tin người bán, mạng xã hội phải gắn dấu hiệu tài khoản người bán",
+   "Xác thực danh tính người bán và mốc 01/01/2027",
+   "Người bán chỉ dùng tài khoản thanh toán của mình, tình trạng hiệu lực và phần bài chưa đối chiếu"
+  ],
+  "summary": "Người định đặt mua xe máy, mũ bảo hiểm hay phụ tùng online qua sàn hoặc trang bán hàng trên mạng xã hội thường muốn biết người bán phải công khai thông tin gì và nhận biết tài khoản người bán ra sao. Bài đọc Điều 21 Luật Thương mại điện tử số 122/2025/QH15: ng"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/dat-thue-xe-tren-website-hoac-ung-dung-bi-nhap-nham-ngay-so-luong-khi-nao-duoc-rut-lai-thong-tin-da-nhap/",
   "title": "Đặt thuê xe trên website hoặc ứng dụng bị nhập nhầm ngày, số lượng: khi nào được rút lại thông tin đã nhập?",
   "description": "Đặt thuê xe trên website, ứng dụng bị nhập nhầm ngày, số lượng: Điều 14 Luật Giao dịch điện tử cho rút lại thông tin khi nào, cần báo lỗi ngay ra sao.",
@@ -61593,6 +61628,41 @@
    "Theo dõi mức tiêu thụ và thí nghiệm nhỏ mỗi tuần"
   ],
   "summary": "Hướng dẫn chi tiết về tiết kiệm xăng cho xe máy không bắt đầu từ phụ gia hay mẹo vặt mà từ năm nhóm việc làm đúng lặp lại: giữ tay ga ở vùng tua kinh tế, bảo dưỡng lọc gió bugi dầu nhớt và áp suất lốp đúng hạn, giảm tải trọng và cản gió, nhả ga sớm thay vì pha"
+ },
+ {
+  "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/tin-ban-phu-tung-xe-may-gia-tren-san-san-phai-go-trong-bao-lau-va-phan-anh-len-online-gov-vn-the-nao/",
+  "title": "Tin bán phụ tùng xe máy giả trên sàn: sàn phải gỡ trong bao lâu và phản ánh lên online.gov.vn thế nào?",
+  "description": "Luật buộc sàn kiểm tra, rà soát, gỡ bỏ kịp thời khi nhận phản ánh vi phạm; mốc 24 giờ ở Nghị định 248/2026/NĐ-CP tính từ yêu cầu của cơ quan nhà nước.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "Luật Thương mại điện tử số 122/2025/QH15",
+   "Nghị định 248/2026/NĐ-CP",
+   "chủ quản nền tảng thương mại điện tử",
+   "gỡ bỏ thông tin hàng hóa vi phạm",
+   "cơ quan nhà nước có thẩm quyền",
+   "nền tảng số lớn",
+   "Hệ thống quản lý hoạt động thương mại điện tử",
+   "Bộ Công Thương"
+  ],
+  "keywords": [
+   "sàn thương mại điện tử phải gỡ hàng vi phạm trong bao lâu",
+   "online.gov.vn phản ánh người bán vi phạm",
+   "Nghị định 248/2026/NĐ-CP gỡ bỏ trong 24 giờ",
+   "hệ thống quản lý hoạt động thương mại điện tử tiếp nhận phản ánh",
+   "báo cáo tin bán phụ tùng xe máy giả trên sàn"
+  ],
+  "seoTitle": "Phụ tùng giả trên sàn: hạn gỡ tin và phản ánh lên online.gov.vn",
+  "primaryKeyword": "sàn thương mại điện tử phải gỡ hàng vi phạm trong bao lâu",
+  "headings": [
+   "Luật yêu cầu sàn gỡ hàng vi phạm kịp thời khi phát hiện hoặc nhận phản ánh",
+   "Mốc 24 giờ trong Nghị định 248/2026/NĐ-CP tính từ yêu cầu của cơ quan nhà nước",
+   "Sàn lớn phải có hệ thống gỡ bỏ tự động và báo cáo kết quả gỡ bỏ trong 48 giờ",
+   "Gửi phản ánh lên Hệ thống quản lý hoạt động thương mại điện tử tại online.gov.vn: cần khai những gì",
+   "Những điều dễ hiểu nhầm về thời hạn gỡ bỏ, hiệu lực văn bản và phần bài chưa đối chiếu"
+  ],
+  "summary": "Người đi xe máy thấy tin rao phụ tùng nghi giả hoặc mũ bảo hiểm không rõ nguồn gốc trên sàn thương mại điện tử, đã báo cáo mà tin vẫn còn, thường hỏi sàn phải gỡ trong bao lâu và phản ánh lên online.gov.vn thế nào. Bài đọc Luật Thương mại điện tử số 122/2025/Q"
  },
  {
   "kind": "article",

@@ -35753,11 +35753,13 @@
    "title": "Đặt mua xe máy, phụ tùng online: người bán phải công khai thông tin gì, nhận biết tài khoản người bán ra sao?",
    "primaryIntent": "informational/dat-mua-xe-may-phu-tung-online-nguoi-ban-phai-cong-khai-thong-tin-gi-va-nhan-biet-tai-khoan-nguoi-ban-the-nao",
    "notes": "source=topic-v2 topicId=T002625",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:31.817Z",
-   "updatedAt": "2026-10-29T02:37:31.817Z"
+   "updatedAt": "2026-10-29T04:10:24.458Z",
+   "seoScore": 100,
+   "words": 3731
   },
   {
    "id": "S02429",
@@ -35766,11 +35768,13 @@
    "title": "Tin bán phụ tùng xe máy giả trên sàn: sàn phải gỡ trong bao lâu và phản ánh lên online.gov.vn thế nào?",
    "primaryIntent": "informational/tin-ban-phu-tung-xe-may-gia-tren-san-san-phai-go-trong-bao-lau-va-phan-anh-len-online-gov-vn-the-nao",
    "notes": "source=topic-v2 topicId=T002626",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:36.830Z",
-   "updatedAt": "2026-10-29T02:37:36.830Z"
+   "updatedAt": "2026-10-29T04:10:24.458Z",
+   "seoScore": 100,
+   "words": 3703
   },
   {
    "id": "S02430",
