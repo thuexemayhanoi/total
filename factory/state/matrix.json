@@ -35783,11 +35783,13 @@
    "title": "Website bán xe máy đã thông báo, đăng ký chưa: biểu tượng xác nhận nghĩa là gì và tra danh sách ở đâu?",
    "primaryIntent": "informational/website-ban-xe-may-da-thong-bao-dang-ky-chua-bieu-tuong-xac-nhan-nghia-la-gi-va-tra-danh-sach-o-dau",
    "notes": "source=topic-v2 topicId=T002627",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:41.937Z",
-   "updatedAt": "2026-10-29T02:37:41.938Z"
+   "updatedAt": "2026-10-29T04:12:46.511Z",
+   "seoScore": 100,
+   "words": 3687
   },
   {
    "id": "S02431",
