@@ -36062,11 +36062,13 @@
    "title": "Chủ xe, cơ sở kinh doanh vận tải có phải ngăn tài xế uống rượu bia trước khi chạy, bỏ mặc phạt bao nhiêu?",
    "primaryIntent": "informational/chu-xe-co-so-kinh-doanh-van-tai-co-phai-ngan-tai-xe-uong-ruou-bia-truoc-khi-chay-bo-mac-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002648",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T04:15:29.990Z",
-   "updatedAt": "2026-10-29T04:15:29.990Z"
+   "updatedAt": "2026-10-29T10:44:36.765Z",
+   "seoScore": 100,
+   "words": 3534
   },
   {
    "id": "S02452",
