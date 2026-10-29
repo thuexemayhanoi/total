@@ -35403,11 +35403,13 @@
    "title": "Bị huy động xe máy, nhân lực để chống bão lũ, hộ đê: có bắt buộc, được trả lại và bồi thường thế nào?",
    "primaryIntent": "informational/bi-huy-dong-xe-may-nhan-luc-de-chong-bao-lu-ho-de-co-bat-buoc-duoc-tra-lai-va-boi-thuong-the-nao",
    "notes": "source=topic-v2 topicId=T002602",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:38:44.844Z",
-   "updatedAt": "2026-10-28T05:38:44.845Z"
+   "updatedAt": "2026-10-29T03:25:12.957Z",
+   "seoScore": 100,
+   "words": 3662
   },
   {
    "id": "S02405",
