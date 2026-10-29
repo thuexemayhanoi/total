@@ -35358,11 +35358,13 @@
    "title": "Có lệnh sơ tán vì bão lũ mà không chịu đi: chính quyền có được cưỡng chế và người dân bị phạt thế nào?",
    "primaryIntent": "informational/co-lenh-so-tan-vi-bao-lu-ma-khong-chiu-di-chinh-quyen-co-duoc-cuong-che-va-nguoi-dan-bi-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002599",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:38:26.893Z",
-   "updatedAt": "2026-10-28T05:38:26.893Z"
+   "updatedAt": "2026-10-29T02:42:05.438Z",
+   "seoScore": 100,
+   "words": 3448
   },
   {
    "id": "S02402",
