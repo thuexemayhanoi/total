@@ -35463,11 +35463,13 @@
    "title": "Trưởng đoàn dẫn tour xe máy có phải hướng dẫn viên du lịch không, khi nào phải có thẻ và đeo thẻ?",
    "primaryIntent": "informational/truong-doan-dan-tour-xe-may-co-phai-huong-dan-vien-du-lich-khong-khi-nao-phai-co-the-va-deo-the",
    "notes": "source=topic-v2 topicId=T002606",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:10.018Z",
-   "updatedAt": "2026-10-28T05:39:10.019Z"
+   "updatedAt": "2026-10-29T03:26:57.148Z",
+   "seoScore": 100,
+   "words": 3480
   },
   {
    "id": "S02409",
@@ -35692,11 +35694,13 @@
    "title": "Mua phụ tùng xe máy trên sàn bị giao hàng giả hoặc không đúng mô tả: Luật Thương mại điện tử bắt sàn làm gì?",
    "primaryIntent": "informational/mua-phu-tung-xe-may-tren-san-bi-giao-hang-gia-hoac-khong-dung-mo-ta-luat-thuong-mai-dien-tu-bat-san-lam-gi",
    "notes": "source=topic-v2 topicId=T002622",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:16.586Z",
-   "updatedAt": "2026-10-29T02:37:16.586Z"
+   "updatedAt": "2026-10-29T03:26:57.148Z",
+   "seoScore": 100,
+   "words": 3596
   },
   {
    "id": "S02426",
