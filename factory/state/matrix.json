@@ -35373,11 +35373,13 @@
    "title": "Cố đi xe máy qua đường ngập sâu, ngầm tràn đã bị chặn khi lũ: luật phòng, chống thiên tai xử lý thế nào?",
    "primaryIntent": "informational/co-di-xe-may-qua-duong-ngap-sau-ngam-tran-da-bi-chan-khi-lu-luat-phong-chong-thien-tai-xu-ly-the-nao",
    "notes": "source=topic-v2 topicId=T002600",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:38:32.877Z",
-   "updatedAt": "2026-10-28T05:38:32.877Z"
+   "updatedAt": "2026-10-29T02:43:22.563Z",
+   "seoScore": 100,
+   "words": 3405
   },
   {
    "id": "S02403",
