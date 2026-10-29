@@ -35913,11 +35913,13 @@
    "title": "Xe máy gắn loa rao bán hàng, quảng cáo dịch vụ chạy trong phố: Luật Quảng cáo cấm ở đâu và phạt thế nào?",
    "primaryIntent": "informational/xe-may-gan-loa-rao-ban-hang-quang-cao-dich-vu-chay-trong-pho-luat-quang-cao-cam-o-dau-va-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002635",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:23.119Z",
-   "updatedAt": "2026-10-29T02:38:23.119Z"
+   "updatedAt": "2026-10-29T11:09:51.532Z",
+   "seoScore": 100,
+   "words": 3758
   },
   {
    "id": "S02439",
