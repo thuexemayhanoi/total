@@ -36171,11 +36171,13 @@
    "title": "Học xong khóa bằng lái xe máy A1, A có phải kiểm tra cuối khóa không, giấy xác nhận hoàn thành ghi gì?",
    "primaryIntent": "informational/hoc-xong-khoa-bang-lai-xe-may-a1-a-co-phai-kiem-tra-cuoi-khoa-khong-giay-xac-nhan-hoan-thanh-ghi-gi",
    "notes": "source=topic-v2 topicId=T002653",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:12:28.230Z",
-   "updatedAt": "2026-10-29T11:12:28.230Z"
+   "updatedAt": "2026-10-29T12:01:42.319Z",
+   "seoScore": 100,
+   "words": 3516
   },
   {
    "id": "S02457",
