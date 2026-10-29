@@ -35813,11 +35813,13 @@
    "title": "Nhận phụ tùng mua trên sàn có được mở kiểm hàng trước khi trả tiền không: sàn phải công khai chính sách nào?",
    "primaryIntent": "informational/nhan-phu-tung-mua-tren-san-co-duoc-mo-kiem-hang-truoc-khi-tra-tien-khong-san-phai-cong-khai-chinh-sach-nao",
    "notes": "source=topic-v2 topicId=T002629",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:52.050Z",
-   "updatedAt": "2026-10-29T02:37:52.050Z"
+   "updatedAt": "2026-10-29T04:14:29.843Z",
+   "seoScore": 100,
+   "words": 3558
   },
   {
    "id": "S02433",
