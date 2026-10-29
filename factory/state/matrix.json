@@ -36075,11 +36075,13 @@
    "title": "Uống bia ở công viên, nhà chờ xe buýt hay sân thể thao có bị phạt không, nơi nào luật cấm uống rượu bia?",
    "primaryIntent": "informational/uong-bia-o-cong-vien-nha-cho-xe-buyt-hay-san-the-thao-co-bi-phat-khong-noi-nao-luat-cam-uong-ruou-bia",
    "notes": "source=topic-v2 topicId=T002649",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T04:15:35.341Z",
-   "updatedAt": "2026-10-29T04:15:35.342Z"
+   "updatedAt": "2026-10-29T10:42:29.444Z",
+   "seoScore": 100,
+   "words": 3596
   },
   {
    "id": "S02453",
