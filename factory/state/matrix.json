@@ -36092,11 +36092,13 @@
    "title": "Đặt bia rượu qua mạng giao tận nhà: người bán phải kiểm tra tuổi người nhận ra sao, sai phạm phạt bao nhiêu?",
    "primaryIntent": "informational/dat-bia-ruou-qua-mang-giao-tan-nha-nguoi-ban-phai-kiem-tra-tuoi-nguoi-nhan-ra-sao-sai-pham-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002650",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T04:15:40.463Z",
-   "updatedAt": "2026-10-29T04:15:40.464Z"
+   "updatedAt": "2026-10-29T10:46:24.044Z",
+   "seoScore": 100,
+   "words": 3686
   }
  ]
 }
