@@ -35478,11 +35478,13 @@
    "title": "Dẫn khách nước ngoài đi tour xe máy: công ty cần giấy phép lữ hành quốc tế và hướng dẫn viên thẻ gì?",
    "primaryIntent": "informational/dan-khach-nuoc-ngoai-di-tour-xe-may-cong-ty-can-giay-phep-lu-hanh-quoc-te-va-huong-dan-vien-the-gi",
    "notes": "source=topic-v2 topicId=T002607",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:16.117Z",
-   "updatedAt": "2026-10-28T05:39:16.117Z"
+   "updatedAt": "2026-10-29T03:27:51.806Z",
+   "seoScore": 100,
+   "words": 3632
   },
   {
    "id": "S02410",
