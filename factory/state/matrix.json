@@ -35796,11 +35796,13 @@
    "title": "Mua phụ tùng xe máy trên sàn nước ngoài bị lỗi, sai hàng: ai giải quyết khiếu nại cho người mua ở Việt Nam?",
    "primaryIntent": "informational/mua-phu-tung-xe-may-tren-san-nuoc-ngoai-bi-loi-sai-hang-ai-giai-quyet-khieu-nai-cho-nguoi-mua-o-viet-nam",
    "notes": "source=topic-v2 topicId=T002628",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:46.941Z",
-   "updatedAt": "2026-10-29T02:37:46.941Z"
+   "updatedAt": "2026-10-29T04:11:48.539Z",
+   "seoScore": 100,
+   "words": 3647
   },
   {
    "id": "S02432",
