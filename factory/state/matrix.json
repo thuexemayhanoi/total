@@ -35928,11 +35928,13 @@
    "title": "Cửa hàng xe treo băng-rôn khuyến mãi, khai trương: phải thông báo trước không, treo mấy ngày, chỗ nào cấm?",
    "primaryIntent": "informational/cua-hang-xe-treo-bang-ron-khuyen-mai-khai-truong-phai-thong-bao-truoc-khong-treo-may-ngay-va-cho-nao-cam",
    "notes": "source=topic-v2 topicId=T002636",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:28.297Z",
-   "updatedAt": "2026-10-29T02:38:28.298Z"
+   "updatedAt": "2026-10-29T11:53:04.284Z",
+   "seoScore": 100,
+   "words": 3860
   },
   {
    "id": "S02440",
