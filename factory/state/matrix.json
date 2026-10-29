@@ -35656,11 +35656,13 @@
    "title": "Mua xe máy năm 2026, hóa đơn ghi thuế GTGT 8% hay 10%? Vì sao xe trên 125 phân khối không được giảm 2%",
    "primaryIntent": "informational/mua-xe-may-nam-2026-hoa-don-ghi-thue-gtgt-8-hay-10-vi-sao-xe-tren-125-phan-khoi-khong-duoc-giam-2",
    "notes": "source=topic-v2 topicId=T002620",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:06.424Z",
-   "updatedAt": "2026-10-29T02:37:06.424Z"
+   "updatedAt": "2026-10-29T03:24:25.460Z",
+   "seoScore": 100,
+   "words": 3305
   },
   {
    "id": "S02424",
