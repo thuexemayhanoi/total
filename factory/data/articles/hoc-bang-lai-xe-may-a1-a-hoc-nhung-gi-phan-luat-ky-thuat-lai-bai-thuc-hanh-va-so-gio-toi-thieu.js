@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02455 (topic V2 T002652); CHỈ nêu dữ kiện đã kiểm chứng từ VBHN 27/VBHN-BXD (Thông tư 14/2025/TT-BXD sửa đổi, bổ sung bởi Thông tư 17/2026/TT-BXD: Điều 5 khoản 1 và 2, Điều 9 khoản 1, Mục A Phụ lục I, Điều 33 khoản 1 và 2, chú thích 25 và 27) (truy xuất 2026-10-28; hiệu lực xét tại 2026-10-29); không nêu học phí, giáo trình hay tên cơ sở đào tạo nào; đề, bài sát hạch và lệ phí chỉ dẫn sang bài sẵn có.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'hoc-bang-lai-xe-may-a1-a-hoc-nhung-gi-phan-luat-ky-thuat-lai-bai-thuc-hanh-va-so-gio-toi-thieu',
+  title: 'Học bằng lái xe máy A1, A học những gì: phần luật, kỹ thuật lái, bài thực hành và số giờ tối thiểu?',
+  seoTitle: 'Học bằng lái xe máy A1, A gồm những môn gì và tối thiểu mấy giờ',
+  metaDescription: 'Theo Thông tư 14/2025/TT-BXD, hạng A1 học tối thiểu 12 giờ, hạng A 32 giờ; bài nêu ba phần môn luật, bốn nội dung kỹ thuật lái và sáu nội dung thực hành.',
+  summary: 'Người sắp học bằng lái xe máy thường muốn biết trước khóa học hạng A1 hoặc A dạy những phần nào, tập bài gì và tối thiểu bao nhiêu giờ. Bài đọc Thông tư 14/2025/TT-BXD qua văn bản hợp nhất 27/VBHN-BXD (sửa đổi, bổ sung bởi Thông tư 17/2026/TT-BXD), truy xuất ngày 28/10/2026: bảng giờ ở Điều 5 khoản 1, thời gian khóa ở khoản 2, giáo trình ở Điều 9 khoản 1 và chương trình khung ở Mục A Phụ lục I. Theo bảng, hạng A1 học tối thiểu 12 giờ (9 giờ lý thuyết, 3 giờ thực hành), hạng A tối thiểu 32 giờ (20 giờ lý thuyết, 12 giờ thực hành), còn tổng thời gian khóa đào tạo không quá 10 ngày. Chương trình khung nêu môn pháp luật ba phần, môn kỹ thuật lái xe bốn nội dung và môn thực hành sáu nội dung, từ tập lái trong sân, trong hình, phanh gấp, vòng cua đến ôn luyện theo nội dung sát hạch. Bài tách chương trình đào tạo khỏi đề và bài sát hạch, không nêu học phí hay giáo trình của cơ sở nào và nói rõ những phần chưa đối chiếu.',
+  quickAnswer: 'Theo bảng ở Điều 5 khoản 1 Thông tư 14/2025/TT-BXD (văn bản hợp nhất 27/VBHN-BXD), hạng A1 học tối thiểu 9 giờ lý thuyết, gồm pháp luật về giao thông đường bộ 7 giờ và kỹ thuật lái xe 2 giờ, cộng 3 giờ thực hành, tổng 12 giờ; hạng A học 20 giờ lý thuyết (16 giờ pháp luật, 4 giờ kỹ thuật lái xe) cộng 12 giờ thực hành, tổng 32 giờ. Mục A Phụ lục I chia môn pháp luật thành ba phần: Luật Trật tự, an toàn giao thông đường bộ; hệ thống báo hiệu đường bộ; xử lý các tình huống giao thông. Môn kỹ thuật lái xe có bốn nội dung, còn môn thực hành có sáu nội dung từ tập lái trong sân tập, trong hình, phanh gấp, vòng cua, bài tập tổng hợp đến ôn luyện theo nội dung sát hạch. Điều 5 khoản 2 giới hạn tổng thời gian khóa đào tạo không quá 10 ngày; hãy kiểm tra văn bản còn hiệu lực trước khi đăng ký.',
+  keyPoints: [
+    'Điều 5 khoản 1 Thông tư 14/2025/TT-BXD: hạng A1 học tối thiểu 12 giờ, gồm 9 giờ lý thuyết (pháp luật 7 giờ, kỹ thuật lái xe 2 giờ) và 3 giờ thực hành, ghi là thời gian học thực hành lái xe của 01 học viên.',
+    'Hạng A học tối thiểu 32 giờ, gồm 20 giờ lý thuyết (pháp luật 16 giờ, kỹ thuật lái xe 4 giờ) và 12 giờ thực hành.',
+    'Môn pháp luật ở Mục A Phụ lục I có ba phần: Luật Trật tự, an toàn giao thông đường bộ (sáu chương), hệ thống báo hiệu đường bộ và xử lý các tình huống giao thông.',
+    'Môn kỹ thuật lái xe có bốn nội dung; môn thực hành có sáu nội dung, từ tập lái trong sân tập, trong hình, phanh gấp, vòng cua, bài tập tổng hợp đến ôn luyện theo nội dung sát hạch.',
+    'Tổng thời gian khóa đào tạo không quá 10 ngày theo Điều 5 khoản 2; giáo trình của cơ sở phải phù hợp chương trình khung theo Điều 9 khoản 1; đề và bài sát hạch thuộc văn bản khác.'
+  ],
+  category: 'learn',
+  hub: 'kien-thuc-phap-ly',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['Thông tư 14/2025/TT-BXD', 'văn bản hợp nhất 27/VBHN-BXD', 'Thông tư 17/2026/TT-BXD', 'chương trình khung đào tạo lái xe mô tô', 'giấy phép lái xe hạng A1', 'giấy phép lái xe hạng A', 'cơ sở đào tạo lái xe', 'giáo trình đào tạo lái xe'],
+  keywords: ['chương trình học bằng lái xe máy A1', 'số giờ học lái xe máy hạng A1 và hạng A', 'môn pháp luật giao thông đường bộ khi học lái xe mô tô', 'tập lái xe trong hình, phanh gấp, vòng cua khi học bằng A1', 'giáo trình đào tạo lái xe mô tô hạng A1, A'],
+  sections: [
+    P('Số giờ tối thiểu của hạng A1 và hạng A theo bảng ở Điều 5 khoản 1: 12 giờ và 32 giờ', [
+      'Người sắp đăng ký học bằng lái xe máy thường muốn biết trước khóa học hạng A1 hoặc hạng A dạy những phần nào, tập bài gì và kéo dài tối thiểu bao nhiêu giờ. Bài đọc Thông tư 14/2025/TT-BXD của Bộ trưởng Bộ Xây dựng quy định về đào tạo lái xe; bồi dưỡng, kiểm tra, cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ, qua văn bản hợp nhất 27/VBHN-BXD ngày 12 tháng 6 năm 2026, truy xuất ngày 28 tháng 10 năm 2026 từ kho văn bản của Chính phủ. Điều khoản đã dùng: Điều 5 khoản 1 và 2, Điều 9 khoản 1, Mục A Phụ lục I, Điều 33 khoản 1 và 2, chú thích 25 và 27.',
+      'Thông tư 14/2025/TT-BXD ban hành ngày 30 tháng 6 năm 2025; Điều 33 khoản 1 nêu thông tư có hiệu lực thi hành từ ngày 01 tháng 9 năm 2025, còn khoản 2 bãi bỏ Thông tư số 35/2024/TT-BGTVT. Tài liệu cũ còn dẫn chương trình theo Thông tư 35/2024/TT-BGTVT là dựa vào văn bản đã bị bãi bỏ. Thông tư 14/2025/TT-BXD được sửa đổi, bổ sung bởi Thông tư số 17/2026/TT-BXD ngày 29 tháng 4 năm 2026, có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026 theo chú thích 25. Xét tại ngày 29 tháng 10 năm 2026, cả hai mốc đều đã qua và chưa thấy văn bản sửa đổi, thay thế mới hơn.',
+      'Điều 5 khoản 1, đọc theo bản sửa đổi tại khoản 1 Điều 1 Thông tư 17/2026/TT-BXD, là bảng khối lượng chương trình và phân bổ thời gian đào tạo tối thiểu. Ở cột hạng A1, đào tạo lý thuyết là 9 giờ, gồm pháp luật về giao thông đường bộ 7 giờ và kỹ thuật lái xe 2 giờ; đào tạo thực hành là 3 giờ, ghi rõ là thời gian học thực hành lái xe của 01 học viên; tổng thời gian đào tạo là 12 giờ. Cụm ghi chú ấy gắn giờ thực hành với từng học viên; bài không suy ra cách cơ sở đào tạo chia ca hay xếp nhóm.',
+      'Ở cột hạng A, đào tạo lý thuyết là 20 giờ, gồm pháp luật về giao thông đường bộ 16 giờ và kỹ thuật lái xe 4 giờ; đào tạo thực hành là 12 giờ; tổng thời gian đào tạo là 32 giờ. So hai cột, hạng A nhiều hơn hạng A1 ở cả lý thuyết lẫn thực hành. Vì bảng ghi thời gian tối thiểu, các con số là mức sàn của chương trình, không phải thời lượng cố định của mọi khóa. Bài không kết luận một khóa cụ thể kéo dài bao nhiêu giờ.'
+    ]),
+    P('Môn pháp luật về giao thông đường bộ: ba phần của chương trình khung ở Mục A Phụ lục I', [
+      'Nội dung từng môn nằm ở Mục A Phụ lục I, chương trình khung đào tạo lái xe mô tô hạng A1, A. Chú thích 27 ghi phụ lục này được thay thế theo quy định tại điểm a khoản 2 Điều 14 Thông tư số 17/2026/TT-BXD ngày 29 tháng 4 năm 2026, có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2026; xét tại ngày 29 tháng 10 năm 2026, mốc này đã qua. Bài chưa đối chiếu Phụ lục I trước khi bị thay thế, nên không so sánh chương trình cũ với mới.',
+      'Môn học pháp luật về giao thông đường bộ, ở mục 2 phần I của Mục A, gồm ba phần. Phần I là Luật Trật tự, an toàn giao thông đường bộ, chia sáu chương: Chương I, những quy định chung; Chương II, quy tắc giao thông đường bộ; Chương III, xe mô tô tham gia giao thông đường bộ; Chương IV, người lái xe mô tô tham gia giao thông đường bộ; Chương V, nhận thức về Bộ luật hình sự liên quan đến nhóm tội phạm quy định về giao thông; Chương VI, pháp luật về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ. Hai chương cuối nói về hậu quả pháp lý khi vi phạm.',
+      'Phần II là hệ thống báo hiệu đường bộ, trong đó có hiệu lệnh điều khiển giao thông, biển báo hiệu, các báo hiệu đường bộ khác, tốc độ và khoảng cách. Bài chỉ nêu những mục đã đối chiếu, không khẳng định đó là toàn bộ phần II. Theo cách sắp xếp của chương trình khung, tốc độ và khoảng cách nằm trong phần báo hiệu chứ không phải một môn riêng. Bài không nêu mức tốc độ hay khoảng cách cụ thể.',
+      'Phần III là xử lý các tình huống giao thông, gồm các đặc điểm của sa hình, các nguyên tắc đi sa hình và nhận thức về phòng ngừa tai nạn giao thông. Đây là phần vận dụng quy tắc vào tình huống cụ thể, gắn với an toàn của người học và người khác trên đường. Theo Điều 5 khoản 1, cả ba phần của môn này được học trong 7 giờ với hạng A1 và 16 giờ với hạng A. Số câu hỏi và điểm đạt của phần thi lý thuyết thuộc quy định về sát hạch, có ở bài thi lý thuyết bằng lái xe máy A1 trên trang.'
+    ]),
+    P('Môn kỹ thuật lái xe: bốn nội dung cho xe mô tô hạng A1, A', [
+      'Môn học kỹ thuật lái xe, ở mục 2 phần II của Mục A Phụ lục I, có bốn nội dung. Nội dung 1 là vị trí, tác dụng các bộ phận chủ yếu của xe mô tô; nội dung 2 là kỹ thuật lái xe cơ bản. Theo Điều 5 khoản 1, môn này thuộc đào tạo lý thuyết, học trong 2 giờ với hạng A1 và 4 giờ với hạng A. Nghĩa là môn kỹ thuật lái xe giải thích cách làm, còn việc cầm lái thật nằm ở môn thực hành. Bài chỉ nêu tên các nội dung đã đối chiếu, không nêu chi tiết hơn.',
+      'Nội dung 3 ghi: kỹ thuật kiểm tra, quan sát an toàn, chỉnh gương chiếu hậu trước khi cho xe tập lái xuất phát; bật tín hiệu chuyển hướng rẽ tại tất cả các bài tập lái khi thay đổi hướng chuyển động của xe tập lái. Câu chữ biến hai thói quen thành nội dung học: quan sát, chỉnh gương trước khi xuất phát, và bật tín hiệu mỗi lần đổi hướng ở mọi bài tập lái, không chỉ ở một bài. Đây là những thao tác ngắn, dễ bị xem nhẹ khi đã quen tay, nên đáng tập thành phản xạ ngay từ buổi đầu.',
+      'Nội dung 4 là kỹ thuật thực hiện các tình huống học lái xe mô tô như: xuất phát; xử lý tình huống từ đường nhánh ra đường chính hoặc từ đường không ưu tiên ra đường ưu tiên; chuyển hướng rẽ phải; chuyển hướng rẽ trái; chuyển hướng quay đầu; vượt xe; nhường đường cho người đi bộ sang đường; qua đường sắt; xử lý tình huống khi gặp chướng ngại vật, sang đường, khi dừng đèn đỏ. Chữ như đứng trước danh sách cho thấy đây là cách liệt kê ví dụ, nên bài không khẳng định danh sách đã đủ.',
+      'Các tình huống ở nội dung 4 gồm: từ đường nhánh ra đường chính hoặc từ đường không ưu tiên ra đường ưu tiên, rẽ, quay đầu, vượt, nhường người đi bộ, qua đường sắt, dừng đèn đỏ. Một cách dùng thực tế là lấy danh sách này làm bảng tự kiểm: tình huống nào còn lúng túng thì ghi lại để hỏi giáo viên trong giờ học. Bài không dạy cách xử lý từng tình huống và không nói cách chấm điểm khi thi. Thói quen quan sát khi đổi hướng có ở bài nhìn qua vai trước khi chuyển hướng trên trang.'
+    ]),
+    P('Môn thực hành lái xe: sáu nội dung từ sân tập, trong hình đến ôn luyện theo nội dung sát hạch', [
+      'Môn học thực hành lái xe, ở mục 2 phần III của Mục A Phụ lục I, có sáu nội dung: tập lái xe trong sân tập lái; tập lái xe trong hình; tập phanh gấp; tập lái vòng cua; bài tập tổng hợp; ôn luyện theo các nội dung sát hạch lái xe. Thứ tự đi từ làm quen xe, qua các bài kỹ năng, đến bài tổng hợp và ôn luyện. Bài chưa đối chiếu phân bổ thời gian cho từng nội dung, nên không nói mỗi nội dung chiếm bao nhiêu giờ hay có bắt buộc học đúng thứ tự đó không.',
+      'Mục 1.1 của phần III nêu mục đích của môn: các kỹ năng cơ bản lái xe an toàn, kỹ năng lái xe chở hàng, có khả năng điều khiển xe mô tô các hạng A1, A ở các điều kiện giao thông khác nhau. Ý kỹ năng lái xe chở hàng ít người để ý; cách tập nội dung này bài chưa đối chiếu. Mục tiêu được viết rộng hơn việc qua kỳ sát hạch: giờ thực hành không chỉ để thuộc đường đi trong sân, mà để lái được khi ra đường thật.',
+      'Theo Điều 5 khoản 1, đào tạo thực hành là 3 giờ với hạng A1, ghi là thời gian học thực hành lái xe của 01 học viên, và 12 giờ với hạng A. Với sáu nội dung phải đi qua, quỹ giờ cầm lái của hạng A1 khá ngắn, nên người học có lợi nếu đến lớp đã nắm phần bộ phận xe và thao tác quan sát. Phanh gấp và vòng cua dễ ngã xe khi mới tập; hãy tập trong sân tập dưới sự hướng dẫn của giáo viên, đội mũ bảo hiểm cài quai đúng cách, và không tự thử phanh gấp trên đường có người, xe qua lại.',
+      'Hai nội dung dễ gây nhầm là tập lái xe trong hình và ôn luyện theo các nội dung sát hạch. Đây là nội dung đào tạo theo Thông tư 14/2025/TT-BXD, không phải bài thi. Hình thi, số bài sát hạch, lỗi bị trừ điểm, lỗi bị đình chỉ và điểm đạt thuộc quy định về sát hạch, được nói ở bài thi thực hành bằng lái xe máy A1: bài số 1, bài số 2 trên trang. Muốn biết mình sẽ thi gì, hãy đọc văn bản về sát hạch còn hiệu lực.'
+    ]),
+    P('Giáo trình của cơ sở, khóa học không quá 10 ngày, chỗ khác với đề, bài sát hạch và phần bài chưa đối chiếu', [
+      'Điều 9 khoản 1 nêu: giáo trình đào tạo lái xe phù hợp với chương trình khung đào tạo lái xe quy định tại Phụ lục I; cơ sở đào tạo lái xe thực hiện việc biên soạn, thẩm định, ban hành giáo trình đào tạo theo trình tự quy định tại Điều 10. Theo câu chữ, giáo trình ở mỗi nơi do chính cơ sở đào tạo biên soạn, ban hành, còn thước đo chung là chương trình khung. Khi nhận tài liệu học, bạn có thể so mục lục với ba phần, bốn nội dung và sáu nội dung nêu trên. Trình tự ở Điều 10 bài chưa đối chiếu.',
+      'Điều 5 khoản 2 nêu cơ sở đào tạo lái xe căn cứ các nội dung gồm khối lượng chương trình và phân bổ thời gian đào tạo quy định tại khoản 1 và Phụ lục I, thời gian ôn tập, kiểm tra hết môn và nghỉ lễ, Tết để xây dựng tổng thời gian khóa đào tạo trong chương trình đào tạo lái xe không quá 10 ngày. Mốc 10 ngày là giới hạn trên của khóa, đã tính các căn cứ kể trên. Điều khoản không nói về thời gian chờ đến kỳ sát hạch hay cách tổ chức kiểm tra hết môn, nên bài không suy ra hai việc này.',
+      'Chương trình đào tạo khác với đề và bài sát hạch. Thông tư 14/2025/TT-BXD của Bộ Xây dựng quy định học gì và tối thiểu bao nhiêu giờ; còn đề lý thuyết, bài thực hành, điểm đạt và mốc áp dụng của kỳ sát hạch thuộc văn bản của Bộ Công an, có ở bài thi bằng lái xe máy hạng A1 theo Thông tư 108/2026/TT-BCA, bài thi lý thuyết và bài thi thực hành bằng lái xe máy A1 trên trang. Phí sát hạch, lệ phí cấp bằng có ở bài thi bằng lái xe máy A1 tốn bao nhiêu phí trên trang; hình thức tự học hay học tập trung phần lý thuyết và hồ sơ học có ở bài người nước ngoài muốn học và thi bằng lái xe máy A1 trên trang.',
+      'Phần bài chưa đối chiếu gồm: hình thức đào tạo, hồ sơ học, hợp đồng đào tạo, việc công khai thông tin của cơ sở; cách tổ chức kiểm tra hết môn; phân bổ giờ cho từng nội dung trong Phụ lục I; trình tự ở Điều 10; Phụ lục I và Điều 5 khoản 1 trước khi sửa; quy định của Chính phủ về hoạt động đào tạo lái xe; loại xe được lái của từng hạng; điều kiện tuổi, sức khỏe; học phí. Bài không khẳng định một người cụ thể đủ điều kiện dự sát hạch. Cách tự tra: đọc Điều 5, Điều 9, Mục A Phụ lục I trong văn bản hợp nhất 27/VBHN-BXD, rồi xem có văn bản mới hơn không. Bài chỉ để tham khảo, không phải tư vấn pháp lý; kết luận cho từng trường hợp cụ thể do cơ quan có thẩm quyền xác định theo văn bản còn hiệu lực, nên hãy kiểm tra văn bản còn hiệu lực trước khi đăng ký.'
+    ])
+  ],
+  checklist: [
+    'Xác định mình học hạng A1 hay hạng A để đối chiếu đúng cột ở bảng Điều 5 khoản 1.',
+    'Ghi lại số giờ tối thiểu của hạng mình học: 12 giờ với hạng A1, 32 giờ với hạng A.',
+    'So mục lục giáo trình được phát với ba phần của môn pháp luật và bốn nội dung của môn kỹ thuật lái xe.',
+    'Đánh dấu những tình huống ở nội dung 4 môn kỹ thuật lái xe mà bạn còn lúng túng để hỏi giáo viên.',
+    'Hỏi cơ sở đào tạo về lịch học, hình thức học và cách bố trí giờ thực hành trước khi đăng ký.',
+    'Ghi tên văn bản, điều khoản, ngày tra cứu và kiểm tra văn bản còn hiệu lực trước khi đăng ký.'
+  ],
+  steps: [
+    { title: 'Mở đúng văn bản', detail: 'Tra văn bản hợp nhất 27/VBHN-BXD của Thông tư 14/2025/TT-BXD trên cổng thông tin chính thức và xem chú thích 25, 27 về Thông tư 17/2026/TT-BXD.' },
+    { title: 'Đọc bảng giờ ở Điều 5 khoản 1', detail: 'Tìm cột của hạng mình học, ghi số giờ lý thuyết, thực hành và tổng thời gian đào tạo tối thiểu.' },
+    { title: 'Đọc Mục A Phụ lục I', detail: 'Đọc nội dung ba môn: pháp luật về giao thông đường bộ, kỹ thuật lái xe và thực hành lái xe.' },
+    { title: 'So với giáo trình và lịch học', detail: 'Đem mục lục giáo trình, lịch học của cơ sở so với chương trình khung và giới hạn không quá 10 ngày ở Điều 5 khoản 2.' },
+    { title: 'Tra riêng phần sát hạch', detail: 'Đọc văn bản về sát hạch còn hiệu lực để biết đề lý thuyết, bài thực hành và điểm đạt; chương trình đào tạo không quy định những nội dung đó.' }
+  ],
+  warnings: [
+    'Không coi số giờ ở Điều 5 khoản 1 là thời lượng cố định của mọi khóa học; bảng ghi mức tối thiểu.',
+    'Không nhầm nội dung tập lái xe trong hình hay ôn luyện theo nội dung sát hạch với bài thi; đề và bài sát hạch thuộc văn bản khác.',
+    'Không tự tập phanh gấp, vòng cua trên đường đang có người, xe qua lại; hãy tập trong sân tập dưới sự hướng dẫn của giáo viên.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: văn bản hợp nhất 27/VBHN-BXD ngày 12/06/2026 của Bộ Xây dựng (Thông tư 14/2025/TT-BXD, sửa đổi, bổ sung bởi Thông tư 17/2026/TT-BXD), Điều 5 khoản 1 và 2, Điều 9 khoản 1, Mục A Phụ lục I, Điều 33 khoản 1 và 2, chú thích 25 và 27, truy xuất ngày 28/10/2026 từ kho văn bản của Chính phủ.',
+    'Bài tổng hợp để tham khảo, không phải tư vấn pháp lý; tình trạng hiệu lực xét tại ngày 29/10/2026 và văn bản có thể được sửa đổi sau đó, hãy kiểm tra văn bản còn hiệu lực trước khi quyết định.'
+  ],
+  references: [
+    'Văn bản hợp nhất 27/VBHN-BXD ngày 12/06/2026 của Bộ Xây dựng — Thông tư 14/2025/TT-BXD quy định về đào tạo lái xe; bồi dưỡng, kiểm tra, cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (sửa đổi, bổ sung bởi Thông tư 17/2026/TT-BXD), Điều 5, Điều 9, Điều 33 và Mục A Phụ lục I',
+    'Cổng thông tin điện tử Chính phủ và cơ sở dữ liệu quốc gia về văn bản pháp luật, dùng để tra cứu văn bản chính thức còn hiệu lực'
+  ],
+  related: [
+    'nguoi-nuoc-ngoai-muon-hoc-va-thi-bang-lai-xe-may-a1-o-viet-nam-can-the-tam-tru-hay-thi-thuc-con-bao-lau',
+    'thi-bang-lai-xe-may-a1-theo-thong-tu-108-2026-ai-duoc-mien-ly-thuyet-va-cac-moc-ap-dung',
+    'thi-thuc-hanh-bang-lai-xe-may-a1-bai-so-1-bai-so-2-loi-tru-diem-va-dinh-chi',
+    'thi-ly-thuyet-bang-lai-xe-may-a1-so-cau-diem-dat-bao-luu-ket-qua-va-thi-lai',
+    'thi-bang-lai-xe-may-a1-ton-bao-nhieu-phi-sat-hach-le-phi-cap-bang-thi-lai-bo-thi-tinh-the-nao'
+  ]
+};
