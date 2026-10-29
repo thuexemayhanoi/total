@@ -35868,11 +35868,13 @@
    "title": "Biển hiệu tiệm sửa xe, cửa hàng xe máy phải ghi những gì, to tối đa bao nhiêu và chữ nước ngoài đặt ở đâu?",
    "primaryIntent": "informational/bien-hieu-tiem-sua-xe-cua-hang-xe-may-phai-ghi-nhung-gi-to-toi-da-bao-nhieu-va-chu-nuoc-ngoai-dat-o-dau",
    "notes": "source=topic-v2 topicId=T002632",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:07.412Z",
-   "updatedAt": "2026-10-29T02:38:07.412Z"
+   "updatedAt": "2026-10-29T11:05:59.821Z",
+   "seoScore": 100,
+   "words": 3547
   },
   {
    "id": "S02436",
