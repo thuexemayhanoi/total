@@ -35628,11 +35628,13 @@
    "title": "Xe máy mới không có nhãn năng lượng hoặc chỉ có nhãn tiếng nước ngoài: xe nào được miễn, tra cứu ở đâu?",
    "primaryIntent": "informational/mua-xe-may-moi-khong-thay-nhan-nang-luong-hoac-chi-co-nhan-tieng-nuoc-ngoai-xe-nao-duoc-mien-va-tra-cuu-o-dau",
    "notes": "source=topic-v2 topicId=T002617",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:52:25.994Z",
-   "updatedAt": "2026-10-28T05:52:25.994Z"
+   "updatedAt": "2026-10-29T10:53:06.709Z",
+   "seoScore": 100,
+   "words": 3565
   },
   {
    "id": "S02420",
