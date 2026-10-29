@@ -35883,11 +35883,13 @@
    "title": "Phát tờ rơi cho người đi xe máy ở ngã tư hay dán quảng cáo lên cột điện: luật cấm thế nào, ai bị phạt?",
    "primaryIntent": "informational/phat-to-roi-cho-nguoi-di-xe-may-o-nga-tu-hay-dan-quang-cao-len-cot-dien-luat-cam-the-nao-ai-bi-phat",
    "notes": "source=topic-v2 topicId=T002633",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:12.567Z",
-   "updatedAt": "2026-10-29T02:38:12.567Z"
+   "updatedAt": "2026-10-29T11:09:06.293Z",
+   "seoScore": 100,
+   "words": 3749
   },
   {
    "id": "S02437",
@@ -35896,11 +35898,13 @@
    "title": "Quảng cáo xe máy, xe điện ghi “nhất”, “số một” hay so với hãng khác: phải có tài liệu chứng minh gì?",
    "primaryIntent": "informational/quang-cao-xe-may-xe-dien-ghi-nhat-so-mot-hay-so-voi-hang-khac-phai-co-tai-lieu-chung-minh-gi",
    "notes": "source=topic-v2 topicId=T002634",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:17.826Z",
-   "updatedAt": "2026-10-29T02:38:17.827Z"
+   "updatedAt": "2026-10-29T11:09:06.293Z",
+   "seoScore": 100,
+   "words": 3815
   },
   {
    "id": "S02438",
