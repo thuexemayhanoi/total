@@ -36141,11 +36141,13 @@
    "title": "Học bằng lái xe máy A1, A có được tự học lý thuyết, học online không và phần thực hành phải học ở đâu?",
    "primaryIntent": "informational/hoc-bang-lai-xe-may-a1-a-co-duoc-tu-hoc-ly-thuyet-hoc-online-khong-va-thuc-hanh-phai-hoc-o-dau",
    "notes": "source=topic-v2 topicId=T002651",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:12:15.616Z",
-   "updatedAt": "2026-10-29T11:12:15.616Z"
+   "updatedAt": "2026-10-29T12:01:01.035Z",
+   "seoScore": 100,
+   "words": 3503
   },
   {
    "id": "S02455",
