@@ -35639,11 +35639,13 @@
    "title": "Thuế tiêu thụ đặc biệt của xe mô tô phân khối lớn đã nằm trong giá bán chưa, ai nộp và tính trên giá nào?",
    "primaryIntent": "informational/thue-tieu-thu-dac-biet-cua-xe-mo-to-phan-khoi-lon-da-nam-trong-gia-ban-chua-ai-nop-va-tinh-tren-gia-nao",
    "notes": "source=topic-v2 topicId=T002619",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:01.256Z",
-   "updatedAt": "2026-10-29T02:37:01.256Z"
+   "updatedAt": "2026-10-29T03:22:31.964Z",
+   "seoScore": 100,
+   "words": 3658
   },
   {
    "id": "S02423",
