@@ -35493,11 +35493,13 @@
    "title": "Đi tour xe máy gặp tai nạn, sự cố giữa đường: công ty lữ hành phải làm gì và khách được quyền gì?",
    "primaryIntent": "informational/di-tour-xe-may-gap-tai-nan-su-co-giua-duong-cong-ty-lu-hanh-phai-lam-gi-va-khach-duoc-quyen-gi",
    "notes": "source=topic-v2 topicId=T002608",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:23.795Z",
-   "updatedAt": "2026-10-28T05:39:23.795Z"
+   "updatedAt": "2026-10-29T04:04:11.087Z",
+   "seoScore": 100,
+   "words": 3806
   },
   {
    "id": "S02411",
