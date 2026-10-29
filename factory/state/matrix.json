@@ -35738,11 +35738,13 @@
    "title": "Mua phụ tùng qua livestream thấy sai lời giới thiệu: bản ghi phiên live được lưu bao lâu và phản ánh ở đâu?",
    "primaryIntent": "informational/mua-phu-tung-qua-livestream-thay-sai-loi-gioi-thieu-ban-ghi-phien-live-duoc-luu-bao-lau-va-phan-anh-o-dau",
    "notes": "source=topic-v2 topicId=T002624",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:26.731Z",
-   "updatedAt": "2026-10-29T02:37:26.731Z"
+   "updatedAt": "2026-10-29T04:08:12.894Z",
+   "seoScore": 100,
+   "words": 3539
   },
   {
    "id": "S02428",
