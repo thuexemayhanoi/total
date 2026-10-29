@@ -35523,11 +35523,13 @@
    "title": "Tour mô tô địa hình trên núi, đồi cát: vì sao là sản phẩm du lịch có nguy cơ và bên tổ chức phải làm gì?",
    "primaryIntent": "informational/tour-mo-to-dia-hinh-tren-nui-doi-cat-vi-sao-la-san-pham-du-lich-co-nguy-co-va-ben-to-chuc-phai-lam-gi",
    "notes": "source=topic-v2 topicId=T002610",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:38.021Z",
-   "updatedAt": "2026-10-28T05:39:38.021Z"
+   "updatedAt": "2026-10-29T04:06:18.549Z",
+   "seoScore": 100,
+   "words": 3666
   },
   {
    "id": "S02413",
@@ -35536,11 +35538,13 @@
    "title": "Ghé khu, điểm du lịch khi đi phượt: không theo nội quy hay ứng xử thiếu văn minh có bị phạt không?",
    "primaryIntent": "informational/ghe-khu-diem-du-lich-khi-di-phuot-khong-theo-noi-quy-hay-ung-xu-thieu-van-minh-co-bi-phat-khong",
    "notes": "source=topic-v2 topicId=T002611",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:45.298Z",
-   "updatedAt": "2026-10-28T05:39:45.298Z"
+   "updatedAt": "2026-10-29T04:06:18.549Z",
+   "seoScore": 100,
+   "words": 3515
   },
   {
    "id": "S02414",
