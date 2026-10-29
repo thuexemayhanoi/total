@@ -36054,6 +36054,45 @@
    "attempts": 0,
    "createdAt": "2026-10-29T02:39:26.962Z",
    "updatedAt": "2026-10-29T02:39:26.962Z"
+  },
+  {
+   "id": "S02451",
+   "hub": "learn/kien-thuc-phap-ly",
+   "slug": "chu-xe-co-so-kinh-doanh-van-tai-co-phai-ngan-tai-xe-uong-ruou-bia-truoc-khi-chay-bo-mac-phat-bao-nhieu",
+   "title": "Chủ xe, cơ sở kinh doanh vận tải có phải ngăn tài xế uống rượu bia trước khi chạy, bỏ mặc phạt bao nhiêu?",
+   "primaryIntent": "informational/chu-xe-co-so-kinh-doanh-van-tai-co-phai-ngan-tai-xe-uong-ruou-bia-truoc-khi-chay-bo-mac-phat-bao-nhieu",
+   "notes": "source=topic-v2 topicId=T002648",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-29T04:15:29.990Z",
+   "updatedAt": "2026-10-29T04:15:29.990Z"
+  },
+  {
+   "id": "S02452",
+   "hub": "learn/kien-thuc-phap-ly",
+   "slug": "uong-bia-o-cong-vien-nha-cho-xe-buyt-hay-san-the-thao-co-bi-phat-khong-noi-nao-luat-cam-uong-ruou-bia",
+   "title": "Uống bia ở công viên, nhà chờ xe buýt hay sân thể thao có bị phạt không, nơi nào luật cấm uống rượu bia?",
+   "primaryIntent": "informational/uong-bia-o-cong-vien-nha-cho-xe-buyt-hay-san-the-thao-co-bi-phat-khong-noi-nao-luat-cam-uong-ruou-bia",
+   "notes": "source=topic-v2 topicId=T002649",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-29T04:15:35.341Z",
+   "updatedAt": "2026-10-29T04:15:35.342Z"
+  },
+  {
+   "id": "S02453",
+   "hub": "learn/kien-thuc-phap-ly",
+   "slug": "dat-bia-ruou-qua-mang-giao-tan-nha-nguoi-ban-phai-kiem-tra-tuoi-nguoi-nhan-ra-sao-sai-pham-phat-bao-nhieu",
+   "title": "Đặt bia rượu qua mạng giao tận nhà: người bán phải kiểm tra tuổi người nhận ra sao, sai phạm phạt bao nhiêu?",
+   "primaryIntent": "informational/dat-bia-ruou-qua-mang-giao-tan-nha-nguoi-ban-phai-kiem-tra-tuoi-nguoi-nhan-ra-sao-sai-pham-phat-bao-nhieu",
+   "notes": "source=topic-v2 topicId=T002650",
+   "state": "PLANNED",
+   "qaScore": null,
+   "attempts": 0,
+   "createdAt": "2026-10-29T04:15:40.463Z",
+   "updatedAt": "2026-10-29T04:15:40.464Z"
   }
  ]
 }
