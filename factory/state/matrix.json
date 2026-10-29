@@ -36201,11 +36201,13 @@
    "title": "Cơ sở dạy lái xe giải thể khi đang học dở: học viên được chuyển nơi khác học tiếp hay thanh lý hợp đồng?",
    "primaryIntent": "informational/co-so-day-lai-xe-giai-the-khi-dang-hoc-do-hoc-vien-duoc-chuyen-noi-khac-hoc-tiep-hay-thanh-ly-hop-dong",
    "notes": "source=topic-v2 topicId=T002655",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:12:40.325Z",
-   "updatedAt": "2026-10-29T11:12:40.325Z"
+   "updatedAt": "2026-10-29T16:18:02.336Z",
+   "seoScore": 100,
+   "words": 3563
   },
   {
    "id": "S02459",
