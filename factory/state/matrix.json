@@ -35973,11 +35973,13 @@
    "title": "Thuê ô tô tự lái hoặc mượn xe đi Lào, Campuchia: xe không đứng tên có xin được giấy phép liên vận không?",
    "primaryIntent": "informational/thue-o-to-tu-lai-hoac-muon-xe-di-lao-campuchia-xe-khong-dung-ten-co-xin-duoc-giay-phep-lien-van-khong",
    "notes": "source=topic-v2 topicId=T002639",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:44.179Z",
-   "updatedAt": "2026-10-29T02:38:44.180Z"
+   "updatedAt": "2026-10-29T11:57:20.558Z",
+   "seoScore": 100,
+   "words": 3725
   },
   {
    "id": "S02443",
@@ -36001,11 +36003,13 @@
    "title": "Tự lái ô tô cá nhân qua cửa khẩu sang Lào, Campuchia: phải mang theo giấy tờ gì cho xe và cho người lái?",
    "primaryIntent": "informational/tu-lai-o-to-ca-nhan-qua-cua-khau-sang-lao-campuchia-phai-mang-theo-giay-to-gi-cho-xe-va-cho-nguoi-lai",
    "notes": "source=topic-v2 topicId=T002641",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:54.981Z",
-   "updatedAt": "2026-10-29T02:38:54.981Z"
+   "updatedAt": "2026-10-29T11:57:20.558Z",
+   "seoScore": 100,
+   "words": 3745
   },
   {
    "id": "S02445",
