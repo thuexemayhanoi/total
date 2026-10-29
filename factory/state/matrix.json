@@ -35853,11 +35853,13 @@
    "title": "Thuê đoàn xe máy diễu hành quảng cáo khai trương: phải thông báo ở đâu, hồ sơ gồm gì, sai thì phạt ra sao?",
    "primaryIntent": "informational/thue-doan-xe-may-dieu-hanh-quang-cao-khai-truong-phai-thong-bao-o-dau-ho-so-gom-gi-sai-thi-phat-ra-sao",
    "notes": "source=topic-v2 topicId=T002631",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:38:02.253Z",
-   "updatedAt": "2026-10-29T02:38:02.253Z"
+   "updatedAt": "2026-10-29T11:05:07.022Z",
+   "seoScore": 100,
+   "words": 3669
   },
   {
    "id": "S02435",
