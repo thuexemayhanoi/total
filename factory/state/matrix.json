@@ -36186,11 +36186,13 @@
    "title": "Đăng ký học bằng lái xe máy A1: đơn gồm gì, hợp đồng đào tạo phải ghi gì, cơ sở phải công khai những gì?",
    "primaryIntent": "informational/dang-ky-hoc-bang-lai-xe-may-a1-don-gom-gi-hop-dong-dao-tao-phai-ghi-gi-co-so-phai-cong-khai-gi",
    "notes": "source=topic-v2 topicId=T002654",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:12:34.290Z",
-   "updatedAt": "2026-10-29T11:12:34.290Z"
+   "updatedAt": "2026-10-29T12:02:32.423Z",
+   "seoScore": 100,
+   "words": 3607
   },
   {
    "id": "S02458",
