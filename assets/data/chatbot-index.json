@@ -37698,6 +37698,37 @@
   ]
  },
  {
+  "url": "learn/doc-thong-so/nhan-nang-luong-tren-xe-may-dien-va-xe-may-xang-moi-ghi-gi-con-so-wh-km-l-100km-doc-the-nao/",
+  "title": "Nhãn năng lượng trên xe máy điện, xe máy xăng mới ghi gì và con số Wh/km, l/100km đọc thế nào?",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Đọc thông số",
+  "summary": "Theo mẫu mới, nhãn năng lượng trên xe máy điện và xe máy xăng mới là tấm nhãn nền xanh lá cây nhạt, ghi con số tiêu thụ kèm đơn vị Wh/km hoặc l/100km. Bài đọc Thông tư 69/2025/TT-BXD của Bộ trưởng Bộ Xây dựng, có hiệu lực từ 01/01/2026: Phụ lục I đưa xe mô tô hai bánh và xe gắn máy hai bánh vào danh mục phải dán nhãn, Phụ lục II có bốn mẫu nhãn cho xe thuần điện, hai kiểu hybrid và xe chỉ dùng động cơ đốt trong. Bài giải thích từng dòng trên nhãn như Số BCTN, nhãn hiệu, mã kiểu loại, cơ sở sản xuất hoặc doanh nghiệp nhập khẩu, chu trình thử, cùng cách đọc hai đơn vị đo. Theo Điều 3, con số trên nhãn phải phù hợp với báo cáo thử nghiệm, còn ghi chú in trên nhãn nói mức thực tế có thể thay đổi. Bài cũng nêu ai in và dán nhãn, nhãn in theo quy định trước được dùng đến hết 31/12/2027 cho kiểu loại đã được cấp giấy chứng nhận mức tiêu thụ năng lượng hoặc giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường kết hợp mức tiêu thụ năng lượng trước ngày thông tư có hiệu lực, và những điều bài chưa đối chiếu.",
+  "quickAnswer": "Theo Điều 4 và mục 1 Phụ lục I Thông tư 69/2025/TT-BXD, xe mô tô hai bánh và xe gắn máy hai bánh thuộc danh mục phải dán nhãn năng lượng. Phụ lục II STT 5 đến 8 có bốn mẫu nhãn: xe thuần điện ghi Wh/km tiêu thụ điện năng, xe hybrid nạp điện ngoài ghi cả Wh/km lẫn l/100km, xe hybrid không nạp điện ngoài và xe chỉ dùng động cơ đốt trong ghi l/100km tiêu thụ nhiên liệu. Điều 3 buộc con số in trên nhãn phù hợp với báo cáo thử nghiệm, còn ghi chú trên nhãn nói mức tiêu thụ thực tế có thể thay đổi do điều kiện sử dụng, kỹ năng lái xe và tình trạng bảo dưỡng kỹ thuật của xe. Thông tư có hiệu lực từ 01/01/2026; hãy kiểm tra văn bản còn hiệu lực trước khi dựa vào bài.",
+  "keyPoints": [
+   "Điều 4 và mục 1 Phụ lục I Thông tư 69/2025/TT-BXD: danh mục phải dán nhãn năng lượng gồm ô tô con, xe mô tô hai bánh và xe gắn máy hai bánh.",
+   "Phụ lục II STT 5 đến 8 có bốn mẫu cho xe mô tô, xe máy: thuần điện, hybrid nạp điện ngoài, hybrid không nạp điện ngoài, chỉ dùng động cơ đốt trong; cùng quy cách 50 mm x 70 mm, nền xanh lá cây nhạt, chữ và số màu đen.",
+   "Xe thuần điện ghi Wh/km tiêu thụ điện năng, xe dùng nhiên liệu ghi l/100km tiêu thụ nhiên liệu, xe hybrid nạp điện ngoài ghi cả hai; không so trực tiếp hai đơn vị và không cộng hai con số.",
+   "Điều 3: con số trên nhãn phải phù hợp với báo cáo thử nghiệm; ghi chú trên nhãn nói mức thực tế có thể thay đổi do điều kiện sử dụng, kỹ năng lái xe và tình trạng bảo dưỡng kỹ thuật."
+  ],
+  "entities": [
+   "Thông tư 69/2025/TT-BXD",
+   "nhãn năng lượng",
+   "Bộ Xây dựng",
+   "xe mô tô hai bánh",
+   "xe gắn máy hai bánh",
+   "Wh/km",
+   "l/100km",
+   "báo cáo thử nghiệm mức tiêu thụ năng lượng"
+  ],
+  "keywords": [
+   "đọc nhãn năng lượng xe máy điện",
+   "Wh/km tiêu thụ điện năng là gì",
+   "l/100km trên nhãn năng lượng xe máy xăng",
+   "Thông tư 69/2025/TT-BXD dán nhãn năng lượng",
+   "mẫu nhãn năng lượng xe mô tô, xe máy hybrid"
+  ]
+ },
+ {
   "url": "guide/mua-xe/nhan-phu-tung-mua-tren-san-co-duoc-mo-kiem-hang-truoc-khi-tra-tien-khong-san-phai-cong-khai-chinh-sach-nao/",
   "title": "Nhận phụ tùng mua trên sàn có được mở kiểm hàng trước khi trả tiền không: sàn phải công khai chính sách nào?",
   "category": "Hướng dẫn",
