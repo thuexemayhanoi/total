@@ -35433,11 +35433,13 @@
    "title": "Đi xe qua thấy đê, bờ kênh hay kè có dấu hiệu sạt lở, hư hỏng: người dân phải báo cho ai theo luật?",
    "primaryIntent": "informational/di-xe-qua-thay-de-bo-kenh-hay-ke-co-dau-hieu-sat-lo-hu-hong-nguoi-dan-phai-bao-cho-ai-theo-luat",
    "notes": "source=topic-v2 topicId=T002604",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:38:58.396Z",
-   "updatedAt": "2026-10-28T05:38:58.396Z"
+   "updatedAt": "2026-10-29T03:25:44.841Z",
+   "seoScore": 100,
+   "words": 3563
   },
   {
    "id": "S02407",
@@ -35701,11 +35703,13 @@
    "title": "Người livestream bán xe máy, phụ tùng phải nhận giấy tờ gì từ người bán và không được nói sai điều gì?",
    "primaryIntent": "informational/nguoi-livestream-ban-xe-may-phu-tung-phai-nhan-giay-to-gi-tu-nguoi-ban-va-khong-duoc-noi-sai-dieu-gi",
    "notes": "source=topic-v2 topicId=T002623",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:37:21.673Z",
-   "updatedAt": "2026-10-29T02:37:21.674Z"
+   "updatedAt": "2026-10-29T03:25:44.842Z",
+   "seoScore": 100,
+   "words": 3532
   },
   {
    "id": "S02427",
