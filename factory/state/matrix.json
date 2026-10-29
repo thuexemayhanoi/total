@@ -35583,11 +35583,13 @@
    "title": "Đổi, cấp lại bằng lái xe máy hoặc xin bằng lái quốc tế: lệ phí bao nhiêu từ 2026 và nộp vào lúc nào?",
    "primaryIntent": "informational/doi-cap-lai-bang-lai-xe-may-hoac-xin-bang-lai-quoc-te-le-phi-bao-nhieu-tu-2026-va-nop-luc-nao",
    "notes": "source=topic-v2 topicId=T002614",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:52:08.544Z",
-   "updatedAt": "2026-10-28T05:52:08.545Z"
+   "updatedAt": "2026-10-29T10:49:11.520Z",
+   "seoScore": 100,
+   "words": 3509
   },
   {
    "id": "S02417",
