@@ -35553,11 +35553,13 @@
    "title": "Tiệm thuê xe, homestay nhận bán tour hộ công ty lữ hành: thế nào là đại lý lữ hành và phải làm gì?",
    "primaryIntent": "informational/tiem-thue-xe-homestay-nhan-ban-tour-ho-cong-ty-lu-hanh-the-nao-la-dai-ly-lu-hanh-va-phai-lam-gi",
    "notes": "source=topic-v2 topicId=T002612",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:51.160Z",
-   "updatedAt": "2026-10-28T05:39:51.160Z"
+   "updatedAt": "2026-10-29T04:07:03.238Z",
+   "seoScore": 100,
+   "words": 3586
   },
   {
    "id": "S02415",
@@ -35566,11 +35568,13 @@
    "title": "Thi bằng lái xe máy A1 tốn bao nhiêu phí sát hạch, lệ phí cấp bằng; thi lại hay bỏ thi tính tiền ra sao?",
    "primaryIntent": "informational/thi-bang-lai-xe-may-a1-ton-bao-nhieu-phi-sat-hach-le-phi-cap-bang-thi-lai-bo-thi-tinh-the-nao",
    "notes": "source=topic-v2 topicId=T002613",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:52:02.652Z",
-   "updatedAt": "2026-10-28T05:52:02.652Z"
+   "updatedAt": "2026-10-29T04:07:03.237Z",
+   "seoScore": 100,
+   "words": 3367
   },
   {
    "id": "S02416",
