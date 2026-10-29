@@ -35448,11 +35448,13 @@
    "title": "Nhóm phượt tự lên lịch trình rồi thu tiền người đi cùng: khi nào thành kinh doanh lữ hành phải có giấy phép?",
    "primaryIntent": "informational/nhom-phuot-len-lich-trinh-roi-thu-tien-nguoi-di-cung-khi-nao-thanh-kinh-doanh-lu-hanh-phai-co-giay-phep",
    "notes": "source=topic-v2 topicId=T002605",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-28T05:39:04.132Z",
-   "updatedAt": "2026-10-28T05:39:04.133Z"
+   "updatedAt": "2026-10-29T03:26:21.990Z",
+   "seoScore": 100,
+   "words": 3581
   },
   {
    "id": "S02408",
