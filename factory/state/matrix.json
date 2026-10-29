@@ -36216,11 +36216,13 @@
    "title": "Người dân tộc thiểu số không biết đọc, viết tiếng Việt muốn học bằng lái xe máy A1: học ở đâu và học thế nào?",
    "primaryIntent": "informational/nguoi-dan-toc-thieu-so-khong-biet-doc-viet-tieng-viet-muon-hoc-bang-lai-xe-may-a1-hoc-o-dau-va-hoc-the-nao",
    "notes": "source=topic-v2 topicId=T002656",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:12:46.670Z",
-   "updatedAt": "2026-10-29T11:12:46.670Z"
+   "updatedAt": "2026-10-29T16:20:03.916Z",
+   "seoScore": 100,
+   "words": 3429
   },
   {
    "id": "S02460",
