@@ -35624,11 +35624,13 @@
    "title": "Xe máy trên 125 phân khối chịu thuế tiêu thụ đặc biệt bao nhiêu, xe 125cc trở xuống và xe điện có chịu không?",
    "primaryIntent": "informational/xe-may-tren-125-phan-khoi-chiu-thue-tieu-thu-dac-biet-bao-nhieu-xe-125cc-tro-xuong-va-xe-dien-co-chiu-khong",
    "notes": "source=topic-v2 topicId=T002618",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:36:56.106Z",
-   "updatedAt": "2026-10-29T02:36:56.106Z"
+   "updatedAt": "2026-10-29T03:21:36.811Z",
+   "seoScore": 100,
+   "words": 3336
   },
   {
    "id": "S02422",
