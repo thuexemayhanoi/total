@@ -17691,6 +17691,41 @@
  },
  {
   "kind": "article",
+  "url": "docs/bieu-mau-thu-tuc/chay-xe-cong-nghe-phai-dua-so-dinh-danh-ma-so-thue-cho-ai-co-phai-bao-tai-khoan-nhan-tien-cho-co-quan-thue/",
+  "title": "Chạy xe công nghệ phải đưa số định danh, mã số thuế cho ai? Có phải báo tài khoản nhận tiền cho cơ quan thuế?",
+  "description": "Điều 13 Nghị định 68/2026/NĐ-CP: đưa mã số thuế hoặc số định danh cho chủ quản nền tảng; báo tài khoản, ví điện tử cho cơ quan thuế. Truy xuất 24/10/2026.",
+  "category": "Tài liệu",
+  "hub": "Biểu mẫu thủ tục",
+  "entities": [
+   "Nghị định 68/2026/NĐ-CP",
+   "văn bản hợp nhất 25/2026/VBHN-BTC",
+   "Luật Quản lý thuế 108/2025/QH15",
+   "Nghị định 252/2026/NĐ-CP",
+   "chủ quản nền tảng thương mại điện tử",
+   "số định danh cá nhân",
+   "mã số thuế",
+   "ví điện tử"
+  ],
+  "keywords": [
+   "chạy xe công nghệ cung cấp số định danh mã số thuế",
+   "báo số tài khoản nhận tiền cho cơ quan thuế",
+   "mã số thuế cá nhân là số định danh cá nhân",
+   "chủ quản nền tảng kê khai nộp thay theo thông tin cung cấp",
+   "nghị định 68/2026/NĐ-CP điều 13 cá nhân kinh doanh trên nền tảng"
+  ],
+  "seoTitle": "Chạy xe công nghệ đưa số định danh cho ai, có phải báo tài khoản?",
+  "primaryKeyword": "chạy xe công nghệ cung cấp số định danh mã số thuế",
+  "headings": [
+   "Đưa cho ai: thông tin cung cấp cho chủ quản nền tảng theo Điều 13 khoản 8 Nghị định 68/2026/NĐ-CP",
+   "Chưa đăng ký mã số thuế: mã số thuế của cá nhân là số định danh cá nhân",
+   "Vì sao số định danh phải đúng: nền tảng khấu trừ, kê khai, nộp thay theo thông tin được cung cấp",
+   "Có phải báo tài khoản nhận tiền cho cơ quan thuế: Điều 13 khoản 4",
+   "Tự kê khai đủ doanh thu, hiệu lực văn bản và phần bài chưa đối chiếu"
+  ],
+  "summary": "Người chạy xe công nghệ hay giao hàng qua ứng dụng thường được yêu cầu nhập số định danh cá nhân hoặc mã số thuế, rồi băn khoăn có phải báo cả tài khoản nhận tiền cho cơ quan thuế không. Bài đọc Điều 13 khoản 8 Nghị định 68/2026/NĐ-CP (văn bản hợp nhất 25/2026"
+ },
+ {
+  "kind": "article",
   "url": "ride/lai-xe-duong-dai/chay-xe-duong-truong/",
   "title": "Kinh nghiệm chạy xe đường trường dành cho người mới",
   "description": "Kinh nghiệm chạy xe đường trường cho người mới: đọc mặt đường, vượt xe an toàn, đi đêm, qua thị trấn và xử lý thời tiết xấu trên đường trường.",

@@ -37257,11 +37257,13 @@
    "title": "Chạy xe công nghệ phải đưa số định danh, mã số thuế cho ai? Có phải báo tài khoản nhận tiền cho cơ quan thuế?",
    "primaryIntent": "informational/chay-xe-cong-nghe-phai-dua-so-dinh-danh-ma-so-thue-cho-ai-co-phai-bao-tai-khoan-nhan-tien-cho-co-quan-thue",
    "notes": "source=topic-v2 topicId=T002725",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T16:36:44.953Z",
-   "updatedAt": "2026-10-30T16:36:44.954Z"
+   "updatedAt": "2026-10-30T17:31:51.395Z",
+   "seoScore": 100,
+   "words": 3869
   },
   {
    "id": "S02529",
