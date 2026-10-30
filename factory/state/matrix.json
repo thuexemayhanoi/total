@@ -36078,11 +36078,13 @@
    "title": "Con chưa đủ 18 tuổi uống rượu bia bị xử lý thế nào, cha mẹ có bị phạt vì không giám sát, nhắc nhở?",
    "primaryIntent": "informational/con-chua-du-18-tuoi-uong-ruou-bia-bi-xu-ly-the-nao-cha-me-co-bi-phat-vi-khong-giam-sat-nhac-nho",
    "notes": "source=topic-v2 topicId=T002646",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:39:21.496Z",
-   "updatedAt": "2026-10-29T02:39:21.496Z"
+   "updatedAt": "2026-10-30T02:33:53.644Z",
+   "seoScore": 100,
+   "words": 3487
   },
   {
    "id": "S02450",
