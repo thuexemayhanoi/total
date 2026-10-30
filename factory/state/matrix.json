@@ -36393,11 +36393,13 @@
    "title": "Đổ cát đá, đào đường, thi công sai quy định làm người đi xe máy chết, bị thương: thành tội cản trở giao thông?",
    "primaryIntent": "informational/do-cat-da-dao-duong-thi-cong-sai-quy-dinh-lam-nguoi-di-xe-may-chet-bi-thuong-thanh-toi-can-tro-giao-thong",
    "notes": "source=topic-v2 topicId=T002667",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:56.377Z",
-   "updatedAt": "2026-10-29T11:13:56.377Z"
+   "updatedAt": "2026-10-30T03:37:57.930Z",
+   "seoScore": 100,
+   "words": 3661
   },
   {
    "id": "S02471",
