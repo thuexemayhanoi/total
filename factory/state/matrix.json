@@ -36976,11 +36976,13 @@
    "title": "Quay được cảnh người khác vi phạm giao thông: gửi cơ quan nào, qua kênh nào, khi nào được dùng để xử phạt?",
    "primaryIntent": "informational/quay-duoc-canh-nguoi-khac-vi-pham-giao-thong-gui-co-quan-nao-qua-kenh-nao-khi-nao-duoc-dung-de-xu-phat",
    "notes": "source=topic-v2 topicId=T002706",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:50.561Z",
-   "updatedAt": "2026-10-30T10:03:50.561Z"
+   "updatedAt": "2026-10-30T16:26:45.193Z",
+   "seoScore": 100,
+   "words": 3537
   },
   {
    "id": "S02510",
