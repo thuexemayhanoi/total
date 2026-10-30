@@ -36408,11 +36408,13 @@
    "title": "Từng bị phạt vì đua xe mà còn đua, hay đua làm người khác bị thương: khi nào thành tội đua xe trái phép?",
    "primaryIntent": "informational/tung-bi-phat-vi-dua-xe-ma-con-dua-hay-dua-lam-nguoi-khac-bi-thuong-khi-nao-thanh-toi-dua-xe-trai-phep",
    "notes": "source=topic-v2 topicId=T002668",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:02.287Z",
-   "updatedAt": "2026-10-29T11:14:02.287Z"
+   "updatedAt": "2026-10-30T03:38:39.891Z",
+   "seoScore": 100,
+   "words": 3869
   },
   {
    "id": "S02472",
