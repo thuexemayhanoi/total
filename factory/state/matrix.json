@@ -36314,11 +36314,13 @@
    "title": "Tiệm sửa xe đổ nhớt thải xuống cống hay ra đất: Nghị định 45/2022 phạt theo khối lượng ra sao?",
    "primaryIntent": "informational/tiem-sua-xe-do-nhot-thai-xuong-cong-hay-ra-dat-nghi-dinh-45-2022-phat-theo-khoi-luong-ra-sao",
    "notes": "source=topic-v2 topicId=T002662",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:23.431Z",
-   "updatedAt": "2026-10-29T11:13:23.431Z"
+   "updatedAt": "2026-10-30T02:38:18.915Z",
+   "seoScore": 100,
+   "words": 3484
   },
   {
    "id": "S02466",
