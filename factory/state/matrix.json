@@ -36884,11 +36884,13 @@
    "title": "Tự khai thuế TNCN khi nhận xe máy được cho hoặc thừa kế: nộp hồ sơ ở đâu, hạn 10 ngày tính từ lúc nào?",
    "primaryIntent": "informational/tu-khai-thue-tncn-khi-nhan-xe-may-duoc-cho-hoac-thua-ke-nop-ho-so-o-dau-han-10-ngay-tinh-tu-luc-nao",
    "notes": "source=topic-v2 topicId=T002700",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:13.130Z",
-   "updatedAt": "2026-10-30T10:03:13.130Z"
+   "updatedAt": "2026-10-30T15:34:26.627Z",
+   "seoScore": 100,
+   "words": 3962
   },
   {
    "id": "S02504",
