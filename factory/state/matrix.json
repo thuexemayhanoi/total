@@ -36798,11 +36798,13 @@
    "title": "Tiệm sửa xe, bãi giữ xe bao nhiêu người làm thì phải lập đội phòng cháy cơ sở, ít hơn thì phân công thế nào?",
    "primaryIntent": "informational/tiem-sua-xe-bai-giu-xe-bao-nhieu-nguoi-lam-thi-phai-lap-doi-phong-chay-co-so-it-hon-thi-phan-cong-va-huan-luyen-ra-sao",
    "notes": "source=topic-v2 topicId=T002694",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:37.704Z",
-   "updatedAt": "2026-10-30T03:23:37.704Z"
+   "updatedAt": "2026-10-30T10:51:59.613Z",
+   "seoScore": 100,
+   "words": 3698
   },
   {
    "id": "S02498",
