@@ -36333,11 +36333,13 @@
    "title": "Bán nhớt thải cho người thu mua ve chai: tiệm sửa xe vi phạm điều gì và bị phạt bao nhiêu?",
    "primaryIntent": "informational/ban-nhot-thai-cho-nguoi-thu-mua-ve-chai-tiem-sua-xe-vi-pham-dieu-gi-va-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002663",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:29.678Z",
-   "updatedAt": "2026-10-29T11:13:29.679Z"
+   "updatedAt": "2026-10-30T03:24:58.189Z",
+   "seoScore": 100,
+   "words": 3591
   },
   {
    "id": "S02467",
