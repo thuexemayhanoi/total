@@ -36625,11 +36625,13 @@
    "title": "Đi xe điện chở khách tham quan: xe được chở mấy người, phải niêm yết gì và hành khách vi phạm bị phạt ra sao?",
    "primaryIntent": "informational/di-xe-dien-cho-khach-tham-quan-xe-duoc-cho-may-nguoi-phai-niem-yet-gi-va-hanh-khach-vi-pham-bi-phat-ra-sao",
    "notes": "source=topic-v2 topicId=T002683",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:31.414Z",
-   "updatedAt": "2026-10-30T03:22:31.414Z"
+   "updatedAt": "2026-10-30T09:06:53.182Z",
+   "seoScore": 100,
+   "words": 3521
   },
   {
    "id": "S02487",
