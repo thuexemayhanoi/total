@@ -37083,11 +37083,13 @@
    "title": "Xe máy bị tạm giữ hết hạn mà không đến nhận: được thông báo mấy lần và sau bao lâu thì bị tịch thu?",
    "primaryIntent": "informational/xe-may-bi-tam-giu-het-han-ma-khong-den-nhan-thong-bao-may-lan-va-sau-bao-lau-bi-tich-thu",
    "notes": "source=topic-v2 topicId=T002713",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:04:35.718Z",
-   "updatedAt": "2026-10-30T10:04:35.718Z"
+   "updatedAt": "2026-10-30T17:18:26.474Z",
+   "seoScore": 100,
+   "words": 3698
   },
   {
    "id": "S02517",
@@ -37096,11 +37098,13 @@
    "title": "Nhận lại xe máy bị tạm giữ có phải trả phí lưu kho, bến bãi không và trường hợp nào không phải trả?",
    "primaryIntent": "informational/nhan-lai-xe-may-bi-tam-giu-co-phai-tra-phi-luu-kho-ben-bai-khong-va-truong-hop-nao-khong-phai-tra",
    "notes": "source=topic-v2 topicId=T002714",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:04:43.410Z",
-   "updatedAt": "2026-10-30T10:04:43.410Z"
+   "updatedAt": "2026-10-30T17:18:26.473Z",
+   "seoScore": 100,
+   "words": 3582
   },
   {
    "id": "S02518",
