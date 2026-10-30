@@ -36243,11 +36243,13 @@
    "title": "Đã có bằng A1, muốn lái xe máy trên 125 cm³: học bằng A có phải là nâng hạng không và học bao nhiêu giờ?",
    "primaryIntent": "informational/da-co-bang-a1-muon-lai-xe-may-tren-125-cm3-hoc-bang-a-co-phai-la-nang-hang-khong-va-hoc-bao-nhieu-gio",
    "notes": "source=topic-v2 topicId=T002657",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:12:52.488Z",
-   "updatedAt": "2026-10-29T11:12:52.488Z"
+   "updatedAt": "2026-10-30T02:35:30.189Z",
+   "seoScore": 100,
+   "words": 3346
   },
   {
    "id": "S02461",
