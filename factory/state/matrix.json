@@ -36766,11 +36766,13 @@
    "title": "Nội quy phòng cháy ở tiệm sửa xe, bãi giữ xe phải ghi gì, dán ở đâu và thiếu biển cấm bị phạt bao nhiêu?",
    "primaryIntent": "informational/noi-quy-phong-chay-o-tiem-sua-xe-bai-giu-xe-may-phai-ghi-gi-niem-yet-o-dau-thieu-bien-cam-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002692",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:25.977Z",
-   "updatedAt": "2026-10-30T03:23:25.977Z"
+   "updatedAt": "2026-10-30T10:48:57.744Z",
+   "seoScore": 100,
+   "words": 3585
   },
   {
    "id": "S02496",
