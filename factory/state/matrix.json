@@ -36558,11 +36558,13 @@
    "title": "Người bị tai nạn tử vong mà không có giấy tờ, không ai nhận: bệnh viện và Ủy ban nhân dân xã phải làm gì?",
    "primaryIntent": "informational/nguoi-bi-tai-nan-tu-vong-khong-co-giay-to-khong-ai-nhan-benh-vien-va-uy-ban-xa-phai-lam-gi",
    "notes": "source=topic-v2 topicId=T002678",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:15:07.380Z",
-   "updatedAt": "2026-10-29T11:15:07.380Z"
+   "updatedAt": "2026-10-30T09:28:49.480Z",
+   "seoScore": 100,
+   "words": 3833
   },
   {
    "id": "S02482",
