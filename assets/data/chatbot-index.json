@@ -39083,6 +39083,37 @@
   ]
  },
  {
+  "url": "wiki/dau-nhot/nhot-thai-loc-nhot-gie-dinh-dau-va-vo-chai-nhot-loai-nao-luon-la-chat-thai-nguy-hai-loai-nao-phai-xet-nguong/",
+  "title": "Nhớt thải, lọc nhớt, giẻ dính dầu, vỏ chai nhớt: món nào luôn là chất thải nguy hại, món nào phải xét ngưỡng?",
+  "category": "Bách khoa xe",
+  "hub": "Dầu nhớt",
+  "summary": "Sau mỗi lần thay nhớt, ở nhà hay ở tiệm sửa xe, thường còn lại nhớt thải, lọc nhớt cũ, giẻ dính dầu và vỏ chai nhớt rỗng, và nhiều người gom chung cả bốn vào một túi. Bài đọc Danh mục chất thải tại Mẫu số 01 Phụ lục III Thông tư 02/2022/TT-BTNMT theo Văn bản hợp nhất 55/VBHN-BNNMT để chỉ ra món nào luôn là chất thải nguy hại và món nào phải xét ngưỡng. Nhớt máy thải thuộc phân nhóm 17 02, dầu phanh thải mã 15 01 07, bộ lọc dầu mã 15 01 02 và dầu mỡ thải hộ gia đình mã 16 01 08 đều mang ký hiệu NH. Giẻ lau nhiễm thành phần nguy hại mã 18 02 01 và bao bì nhựa cứng mã 18 01 03 mang ký hiệu KS, phải áp ngưỡng chất thải nguy hại theo quy chuẩn kỹ thuật để phân định. Bài không nêu giá trị ngưỡng, không nêu mức phạt và nói rõ phần chưa đối chiếu.",
+  "quickAnswer": "Theo Danh mục chất thải tại Mẫu số 01 Phụ lục III Thông tư 02/2022/TT-BTNMT (Văn bản hợp nhất 55/VBHN-BNNMT), nhớt máy thải thuộc phân nhóm 17 02 với ba mã 17 02 02, 17 02 03, 17 02 04, dầu phanh thải mang mã 15 01 07 và bộ lọc dầu mang mã 15 01 02; tất cả đều ký hiệu NH, tức chất thải nguy hại trong mọi trường hợp. Giẻ lau bị nhiễm các thành phần nguy hại (mã 18 02 01) và bao bì nhựa cứng đã chứa chất khi thải ra là chất thải nguy hại (mã 18 01 03) mang ký hiệu KS, nghĩa là phải áp ngưỡng chất thải nguy hại theo quy chuẩn kỹ thuật để phân định. Trong nhóm chất thải hộ gia đình, phân nhóm 16 01 “Các thành phần chất thải đã được thu gom, phân loại (trừ các loại nêu phân nhóm mã 18 01)” có mã 16 01 08 “Các loại dầu mỡ thải”, cũng ký hiệu NH; bài không khẳng định đây là mã duy nhất áp cho nhớt thay ở nhà. Điều 68 khoản 1 Nghị định 08/2022/NĐ-CP nêu việc phân định chất thải nguy hại thực hiện theo mã, danh mục và ngưỡng.",
+  "keyPoints": [
+   "Nhớt máy và nhớt hộp số thải nằm ở phân nhóm 17 02; cả ba mã 17 02 02, 17 02 03, 17 02 04 đều ghi tính chất Đ, ĐS, C, trạng thái Lỏng và ký hiệu NH.",
+   "Bộ lọc dầu mang mã 15 01 02 (Đ, ĐS, Rắn, NH) và dầu phanh thải mang mã 15 01 07 (Đ, ĐS, C, Lỏng, NH), cùng nhóm chất thải từ bảo dưỡng phương tiện giao thông vận tải.",
+   "Giẻ lau bị nhiễm các thành phần nguy hại mang mã 18 02 01, ký hiệu KS; giẻ lau khác với loại đó mang mã 18 02 02, ký hiệu TT.",
+   "Bao bì nhựa cứng đã chứa chất khi thải ra là chất thải nguy hại mang mã 18 01 03, ký hiệu KS, phải áp ngưỡng chất thải nguy hại theo quy chuẩn kỹ thuật để phân định."
+  ],
+  "entities": [
+   "chất thải nguy hại",
+   "Danh mục chất thải",
+   "Thông tư 02/2022/TT-BTNMT",
+   "Văn bản hợp nhất 55/VBHN-BNNMT",
+   "Nghị định 08/2022/NĐ-CP",
+   "Văn bản hợp nhất 49/VBHN-BNNMT",
+   "ngưỡng chất thải nguy hại",
+   "ký hiệu NH, KS, TT"
+  ],
+  "keywords": [
+   "nhớt thải có phải chất thải nguy hại",
+   "lọc nhớt cũ mã 15 01 02 bộ lọc dầu",
+   "giẻ lau dính dầu mã 18 02 01",
+   "ký hiệu NH KS TT trong danh mục chất thải",
+   "vỏ chai nhớt rỗng mã 18 01 03"
+  ]
+ },
+ {
   "url": "garage/dong-co/nhot-xe-may-chuyen-mau-nau-sua-hoac-co-bot-kem-nuoc-lan-vao-tu-dau-nguy-co-cho-may-va-viec-can-lam-truoc-khi-no-may-tiep/",
   "title": "Nhớt xe máy chuyển màu nâu sữa hoặc có bọt kem: nước lẫn vào từ đâu, nguy cơ cho máy và việc cần làm trước khi nổ máy",
   "category": "Sửa chữa",

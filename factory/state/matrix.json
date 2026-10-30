@@ -36288,11 +36288,13 @@
    "title": "Nhớt thải, lọc nhớt, giẻ dính dầu, vỏ chai nhớt: món nào luôn là chất thải nguy hại, món nào phải xét ngưỡng?",
    "primaryIntent": "informational/nhot-thai-loc-nhot-gie-dinh-dau-va-vo-chai-nhot-loai-nao-luon-la-chat-thai-nguy-hai-loai-nao-phai-xet-nguong",
    "notes": "source=topic-v2 topicId=T002660",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:10.849Z",
-   "updatedAt": "2026-10-29T11:13:10.850Z"
+   "updatedAt": "2026-10-30T02:39:01.693Z",
+   "seoScore": 100,
+   "words": 3373
   },
   {
    "id": "S02464",
