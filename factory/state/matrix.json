@@ -36865,11 +36865,13 @@
    "title": "Được bố mẹ, anh chị em ruột tặng hoặc để lại thừa kế xe máy có phải nộp thuế thu nhập cá nhân không?",
    "primaryIntent": "informational/duoc-bo-me-anh-chi-em-ruot-tang-hoac-de-lai-thua-ke-xe-may-co-phai-nop-thue-thu-nhap-ca-nhan-khong",
    "notes": "source=topic-v2 topicId=T002699",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:06.784Z",
-   "updatedAt": "2026-10-30T10:03:06.785Z"
+   "updatedAt": "2026-10-30T10:52:44.495Z",
+   "seoScore": 100,
+   "words": 3499
   },
   {
    "id": "S02503",
