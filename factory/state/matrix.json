@@ -36468,11 +36468,13 @@
    "title": "Người bị tai nạn vào viện không có người thân, không giấy tờ: bệnh viện giữ tài sản và tìm thân nhân thế nào?",
    "primaryIntent": "informational/nguoi-bi-tai-nan-vao-vien-khong-co-nguoi-than-khong-giay-to-benh-vien-giu-tai-san-va-tim-than-nhan-the-nao",
    "notes": "source=topic-v2 topicId=T002672",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:28.772Z",
-   "updatedAt": "2026-10-29T11:14:28.772Z"
+   "updatedAt": "2026-10-30T08:55:31.769Z",
+   "seoScore": 100,
+   "words": 3674
   },
   {
    "id": "S02476",
@@ -36559,11 +36561,13 @@
    "title": "Xe điện chở khách tham quan có phải xe ô tô không? Luật định nghĩa xe chở người bốn bánh có gắn động cơ",
    "primaryIntent": "informational/xe-dien-cho-khach-tham-quan-co-phai-xe-o-to-khong-luat-dinh-nghia-xe-cho-nguoi-bon-banh-co-gan-dong-co",
    "notes": "source=topic-v2 topicId=T002679",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:08.256Z",
-   "updatedAt": "2026-10-30T03:22:08.257Z"
+   "updatedAt": "2026-10-30T08:55:31.770Z",
+   "seoScore": 100,
+   "words": 3484
   },
   {
    "id": "S02483",
