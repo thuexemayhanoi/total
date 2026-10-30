@@ -36944,11 +36944,13 @@
    "title": "Bán lại xe máy cũ của mình có phải nộp thuế thu nhập cá nhân? Đọc đúng danh mục thu nhập chịu thuế trong Luật",
    "primaryIntent": "informational/ban-lai-xe-may-cu-cua-minh-co-phai-nop-thue-thu-nhap-ca-nhan-doc-dung-danh-muc-thu-nhap-chiu-thue-trong-luat",
    "notes": "source=topic-v2 topicId=T002704",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:38.039Z",
-   "updatedAt": "2026-10-30T10:03:38.040Z"
+   "updatedAt": "2026-10-30T15:46:58.269Z",
+   "seoScore": 100,
+   "words": 3337
   },
   {
    "id": "S02508",
