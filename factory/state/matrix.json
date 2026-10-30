@@ -36993,11 +36993,13 @@
    "title": "Gửi clip vi phạm giao thông cho công an: có bị lộ tên, có được báo kết quả và người gửi chịu trách nhiệm gì?",
    "primaryIntent": "informational/gui-clip-vi-pham-giao-thong-cho-cong-an-co-bi-lo-ten-co-duoc-bao-ket-qua-va-nguoi-gui-chiu-trach-nhiem-gi",
    "notes": "source=topic-v2 topicId=T002707",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:56.704Z",
-   "updatedAt": "2026-10-30T10:03:56.705Z"
+   "updatedAt": "2026-10-30T16:28:23.322Z",
+   "seoScore": 100,
+   "words": 3538
   },
   {
    "id": "S02511",
