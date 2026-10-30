@@ -36363,11 +36363,13 @@
    "title": "Giao xe máy cho người biết rõ đang say hoặc chưa có bằng lái: chủ xe, nơi cho thuê có bị xử lý hình sự?",
    "primaryIntent": "informational/giao-xe-may-cho-nguoi-biet-ro-dang-say-hoac-chua-co-bang-lai-chu-xe-noi-cho-thue-co-bi-xu-ly-hinh-su",
    "notes": "source=topic-v2 topicId=T002665",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:44.566Z",
-   "updatedAt": "2026-10-29T11:13:44.566Z"
+   "updatedAt": "2026-10-30T03:27:02.629Z",
+   "seoScore": 100,
+   "words": 3494
   },
   {
    "id": "S02469",
@@ -36376,11 +36378,13 @@
    "title": "Biết xe máy hỏng phanh vẫn cho thuê, cho mượn: người cho phép đưa xe vào sử dụng chịu trách nhiệm hình sự gì?",
    "primaryIntent": "informational/biet-xe-may-hong-phanh-van-cho-thue-cho-muon-nguoi-cho-phep-dua-xe-vao-su-dung-chiu-trach-nhiem-hinh-su-gi",
    "notes": "source=topic-v2 topicId=T002666",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:50.461Z",
-   "updatedAt": "2026-10-29T11:13:50.461Z"
+   "updatedAt": "2026-10-30T03:27:02.629Z",
+   "seoScore": 100,
+   "words": 3610
   },
   {
    "id": "S02470",
