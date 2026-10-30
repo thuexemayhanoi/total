@@ -36828,11 +36828,13 @@
    "title": "Tiệm sửa xe, nhà để xe phải lắp thiết bị truyền tin báo cháy trước 01/7/2027? Ai trả tiền, không lắp phạt sao",
    "primaryIntent": "informational/thiet-bi-truyen-tin-bao-chay-tiem-sua-xe-nha-de-xe-thuoc-dien-quan-ly-phai-lap-truoc-01-7-2027-ai-tra-tien-khong-lap-phat-sao",
    "notes": "source=topic-v2 topicId=T002696",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:49.423Z",
-   "updatedAt": "2026-10-30T03:23:49.424Z"
+   "updatedAt": "2026-10-30T15:32:47.475Z",
+   "seoScore": 100,
+   "words": 3745
   },
   {
    "id": "S02500",
