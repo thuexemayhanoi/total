@@ -36929,11 +36929,13 @@
    "title": "Bán xe máy kèm biển số trúng đấu giá có phải nộp thuế TNCN? Mức 5% tính trên phần chênh nào",
    "primaryIntent": "informational/ban-xe-may-kem-bien-so-trung-dau-gia-co-phai-nop-thue-tncn-muc-5-tinh-tren-phan-chenh-nao",
    "notes": "source=topic-v2 topicId=T002703",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:31.687Z",
-   "updatedAt": "2026-10-30T10:03:31.687Z"
+   "updatedAt": "2026-10-30T15:46:24.036Z",
+   "seoScore": 100,
+   "words": 3511
   },
   {
    "id": "S02507",
