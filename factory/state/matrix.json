@@ -36048,11 +36048,13 @@
    "title": "Ép hay xúi giục bạn nhậu uống thêm rượu bia có bị phạt không, lôi kéo và ép buộc khác mức phạt thế nào?",
    "primaryIntent": "informational/ep-hay-xui-giuc-nguoi-khac-uong-ruou-bia-co-bi-phat-khong-loi-keo-va-ep-buoc-khac-muc-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002644",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:39:10.894Z",
-   "updatedAt": "2026-10-29T02:39:10.895Z"
+   "updatedAt": "2026-10-30T02:33:06.476Z",
+   "seoScore": 100,
+   "words": 3380
   },
   {
    "id": "S02448",
