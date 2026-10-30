@@ -36258,11 +36258,13 @@
    "title": "Thi bằng lái xe máy ở sân tập lái hay trung tâm sát hạch: sân thi phải được ai chấp thuận và có những gì?",
    "primaryIntent": "informational/thi-bang-lai-xe-may-o-san-tap-lai-hay-trung-tam-sat-hach-san-thi-phai-duoc-ai-chap-thuan-va-co-nhung-gi",
    "notes": "source=topic-v2 topicId=T002658",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:12:58.510Z",
-   "updatedAt": "2026-10-29T11:12:58.511Z"
+   "updatedAt": "2026-10-30T02:36:15.168Z",
+   "seoScore": 100,
+   "words": 3707
   },
   {
    "id": "S02462",
