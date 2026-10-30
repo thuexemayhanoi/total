@@ -36693,11 +36693,13 @@
    "title": "Thuê ô tô tự lái cần bằng hạng nào: bằng B mới hay B1, B2 cũ, và xe bao nhiêu chỗ thuộc diện cho thuê tự lái?",
    "primaryIntent": "informational/thue-o-to-tu-lai-can-bang-hang-nao-bang-b-moi-hay-b1-b2-cu-va-xe-bao-nhieu-cho-thuoc-dien-cho-thue-tu-lai",
    "notes": "source=topic-v2 topicId=T002687",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:53.849Z",
-   "updatedAt": "2026-10-30T03:22:53.850Z"
+   "updatedAt": "2026-10-30T09:54:56.345Z",
+   "seoScore": 100,
+   "words": 3587
   },
   {
    "id": "S02491",
