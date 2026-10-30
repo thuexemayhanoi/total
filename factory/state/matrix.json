@@ -37053,11 +37053,13 @@
    "title": "Bị gán lỗi sai trong clip giao thông trên mạng: Bộ luật Dân sự cho đòi gỡ, xin lỗi, bồi thường thế nào?",
    "primaryIntent": "informational/bi-gan-loi-sai-trong-clip-giao-thong-tren-mang-bo-luat-dan-su-cho-doi-go-xin-loi-boi-thuong-the-nao",
    "notes": "source=topic-v2 topicId=T002711",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:04:22.916Z",
-   "updatedAt": "2026-10-30T10:04:22.917Z"
+   "updatedAt": "2026-10-30T17:15:12.145Z",
+   "seoScore": 100,
+   "words": 3371
   },
   {
    "id": "S02515",
