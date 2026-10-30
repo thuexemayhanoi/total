@@ -36914,11 +36914,13 @@
    "title": "Công ty thưởng xe máy cho nhân viên, kể cả giải trong cuộc thi, sự kiện nội bộ: tính thuế TNCN như tiền lương?",
    "primaryIntent": "informational/cong-ty-thuong-xe-may-cho-nhan-vien-ke-ca-giai-trong-cuoc-thi-su-kien-noi-bo-tinh-thue-tncn-nhu-tien-luong",
    "notes": "source=topic-v2 topicId=T002702",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:25.290Z",
-   "updatedAt": "2026-10-30T10:03:25.290Z"
+   "updatedAt": "2026-10-30T15:45:33.407Z",
+   "seoScore": 100,
+   "words": 3507
   },
   {
    "id": "S02506",
