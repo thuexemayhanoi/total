@@ -37227,11 +37227,13 @@
    "title": "Chạy nhiều ứng dụng hoặc nhận thêm khách ngoài: doanh thu năm cộng thế nào, khai ở đâu, khi nào quyết toán?",
    "primaryIntent": "informational/chay-nhieu-ung-dung-hoac-nhan-them-khach-ngoai-doanh-thu-nam-cong-the-nao-khai-o-dau-khi-nao-quyet-toan",
    "notes": "source=topic-v2 topicId=T002723",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T16:36:32.972Z",
-   "updatedAt": "2026-10-30T16:36:32.972Z"
+   "updatedAt": "2026-10-30T17:28:49.357Z",
+   "seoScore": 100,
+   "words": 3977
   },
   {
    "id": "S02527",
