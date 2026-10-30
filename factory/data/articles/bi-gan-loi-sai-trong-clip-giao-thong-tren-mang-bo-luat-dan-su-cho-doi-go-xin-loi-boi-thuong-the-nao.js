@@ -1,0 +1,91 @@
+// AI WIKI TOTAL — S02514 (topic V2 T002711); CHỈ nêu dữ kiện đã kiểm chứng từ Bộ luật Dân sự số 91/2015/QH13 (Điều 34 khoản 1, khoản 2 đoạn thứ nhất, khoản 3, 4, 5; Điều 592 khoản 1, 2; Điều 689) (truy xuất 2026-10-24). Không nêu con số mức lương cơ sở; không kết luận một clip, lời bình hay người cụ thể; thời hiệu và tố cáo sai sự thật chỉ dẫn sang bài sẵn có.
+'use strict';
+const P = (h2, ps) => ({ h2, html: ps.map(p => '<p>' + p + '</p>').join('\n') });
+module.exports = {
+  slug: 'bi-gan-loi-sai-trong-clip-giao-thong-tren-mang-bo-luat-dan-su-cho-doi-go-xin-loi-boi-thuong-the-nao',
+  title: 'Bị gán lỗi sai trong clip giao thông trên mạng: Bộ luật Dân sự cho đòi gỡ, xin lỗi, bồi thường thế nào?',
+  seoTitle: 'Bị gán lỗi sai trong clip giao thông: đòi gỡ, xin lỗi, bồi thường',
+  metaDescription: 'Bị clip giao thông trên mạng gán lỗi sai? Điều 34 và Điều 592 Bộ luật Dân sự cho yêu cầu bác bỏ, gỡ bỏ, cải chính, xin lỗi và bồi thường thiệt hại.',
+  summary: 'Người đi xe máy bị đăng clip giao thông về va chạm hay cự cãi trên đường kèm lời bình gán lỗi sai thường muốn biết luật cho mình đòi gỡ, xin lỗi và bồi thường thế nào. Bài đọc Điều 34 Bộ luật Dân sự số 91/2015/QH13 về quyền được bảo vệ danh dự, nhân phẩm, uy tín: yêu cầu Tòa án bác bỏ thông tin, gỡ bỏ và cải chính bằng chính phương tiện đã đăng, hủy bỏ thông tin bị cất giữ, và yêu cầu Tòa án tuyên bố thông tin không đúng khi không xác định được người đưa tin. Bài tiếp tục với khoản 5 Điều 34 về xin lỗi, cải chính công khai, bồi thường, và Điều 592 về các khoản thiệt hại cùng khoản bù đắp tổn thất tinh thần. Văn bản được truy xuất ngày 24/10/2026 và còn hiệu lực tại ngày đó. Bài không kết luận về một clip hay lời bình cụ thể và nói rõ phần nằm ngoài phạm vi đối chiếu.',
+  quickAnswer: 'Theo Điều 34 Bộ luật Dân sự số 91/2015/QH13, danh dự, nhân phẩm, uy tín của cá nhân là bất khả xâm phạm; cá nhân có quyền yêu cầu Tòa án bác bỏ thông tin làm ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín của mình, và thông tin ảnh hưởng xấu đó đăng trên phương tiện thông tin đại chúng nào thì phải được gỡ bỏ, cải chính bằng chính phương tiện đó. Khoản 4 cho yêu cầu Tòa án tuyên bố thông tin là không đúng khi không xác định được người đưa tin; khoản 5 cho yêu cầu người đưa ra thông tin xin lỗi, cải chính công khai và bồi thường thiệt hại. Điều 592 tính chi phí hợp lý để hạn chế, khắc phục thiệt hại, thu nhập thực tế bị mất hoặc bị giảm sút, thiệt hại khác do luật quy định, cộng một khoản bù đắp tổn thất về tinh thần do các bên thỏa thuận, nếu không thỏa thuận được thì tối đa không quá mười lần mức lương cơ sở cho một người. Bài không kết luận một lời bình cụ thể trong clip giao thông trên mạng có sai hay không.',
+  keyPoints: [
+    'Khoản 1 Điều 34 Bộ luật Dân sự: danh dự, nhân phẩm, uy tín của cá nhân là bất khả xâm phạm và được pháp luật bảo vệ; khoản 2 cho quyền yêu cầu Tòa án bác bỏ thông tin làm ảnh hưởng xấu.',
+    'Khoản 3 Điều 34: thông tin ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín của cá nhân đăng trên phương tiện thông tin đại chúng nào thì phải được gỡ bỏ, cải chính bằng chính phương tiện đó; nếu thông tin này được cơ quan, tổ chức, cá nhân cất giữ thì phải được hủy bỏ.',
+    'Khoản 4 Điều 34: không xác định được người đưa tin thì người bị đưa tin có quyền yêu cầu Tòa án tuyên bố thông tin đó là không đúng.',
+    'Khoản 5 Điều 34 và khoản 1 Điều 592: yêu cầu xin lỗi, cải chính công khai, bồi thường chi phí hợp lý để hạn chế, khắc phục thiệt hại, thu nhập thực tế bị mất hoặc bị giảm sút và thiệt hại khác do luật quy định.',
+    'Khoản 2 Điều 592: khoản bù đắp tổn thất về tinh thần do các bên thỏa thuận, nếu không thỏa thuận được thì tối đa không quá mười lần mức lương cơ sở cho một người; bài không nêu con số mức lương cơ sở.'
+  ],
+  category: 'learn',
+  hub: 'kien-thuc-phap-ly',
+  date: '2026-10-24',
+  updated: '2026-10-24',
+  entities: ['Bộ luật Dân sự 91/2015/QH13', 'Điều 34 Bộ luật Dân sự', 'Điều 592 Bộ luật Dân sự', 'danh dự, nhân phẩm, uy tín', 'bác bỏ thông tin', 'gỡ bỏ, cải chính', 'tổn thất về tinh thần', 'Tòa án'],
+  keywords: ['đăng clip kèm thông tin sai đòi gỡ bỏ và cải chính', 'clip giao thông gán lỗi sai trên mạng', 'xin lỗi cải chính công khai theo Điều 34 Bộ luật Dân sự', 'bồi thường khi danh dự nhân phẩm uy tín bị xâm phạm', 'tổn thất tinh thần do thông tin sai trên mạng'],
+  sections: [
+    P('Danh dự, nhân phẩm, uy tín được Bộ luật Dân sự bảo vệ thế nào', [
+      'Bạn đi xe máy, gặp một va chạm nhẹ hoặc một lần cự cãi bên đường, rồi vài hôm sau thấy cảnh đó thành clip trên mạng kèm lời bình nói bạn chạy ẩu, cố tình gây sự hoặc làm một việc bạn không hề làm. Clip được chia sẻ sang nhiều nơi, người quen nhắn hỏi, còn bạn muốn biết pháp luật dân sự cho mình yêu cầu những gì. Bài này đọc Bộ luật Dân sự số 91/2015/QH13 ngày 24/11/2015 của Quốc hội, tra trên Cơ sở dữ liệu quốc gia về pháp luật và đối chiếu Công báo số 1243+1244 và số 1245+1246 ngày 28/12/2015, truy xuất ngày 24 tháng 10 năm 2026.',
+      'Điều khoản trung tâm là Điều 34, nói về quyền được bảo vệ danh dự, nhân phẩm, uy tín. Khoản 1 viết rằng danh dự, nhân phẩm, uy tín của cá nhân là bất khả xâm phạm và được pháp luật bảo vệ. Khoản 2, ở đoạn thứ nhất, cho cá nhân quyền yêu cầu Tòa án bác bỏ thông tin làm ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín của mình. Khoản 1 không nhắc riêng đến clip hay mạng xã hội; các khoản sau mới nói người bị ảnh hưởng được yêu cầu gì và yêu cầu ai.',
+      'Với tình huống bị gán lỗi sai, nên tách hai thứ thường bị gộp làm một: hình ảnh trong clip và lời bình đi kèm. Câu chữ của Điều 34 nói về thông tin làm ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín. Trong nhiều clip, phần gán cho bạn một hành vi không có nằm ở chú thích, giọng thuyết minh hay lời bình bên dưới, chứ không ở bản thân cảnh quay. Những câu hỏi về việc người khác quay và đăng hình ảnh của bạn nằm ngoài các điều khoản bài đã đối chiếu nên không bàn ở đây.',
+      'Ai quyết định một lời bình có sai sự thật và có làm ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín hay không? Theo khoản 2, người bị ảnh hưởng yêu cầu Tòa án xem xét; đó không phải việc bài viết hay người xem clip có thể kết luận. Bài không đánh giá bất kỳ clip hay lời bình cụ thể nào, kể cả khi người trong clip thật sự có lỗi ở một phần sự việc. Nếu clip đồng thời được gửi cho cơ quan có thẩm quyền để phản ánh lỗi, việc đó nằm ngoài các điều khoản bài đã đối chiếu; có bài về việc bị quay clip gửi công an phản ánh lỗi giao thông trên trang.'
+    ]),
+    P('Yêu cầu Tòa án bác bỏ thông tin và gỡ bỏ, cải chính trên chính nơi đã đăng', [
+      'Quyền đầu tiên người bị gán lỗi sai có thể nghĩ tới là yêu cầu Tòa án bác bỏ thông tin, theo đoạn thứ nhất khoản 2 Điều 34. Điều khoản gọi đúng tên nơi nhận yêu cầu là Tòa án, và đối tượng của yêu cầu là thông tin làm ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín. Các điều khoản đã đối chiếu không nói hồ sơ gồm gì, ai phải chứng minh điều gì, nộp ở Tòa án nào hay mất bao lâu. Những câu hỏi đó thuộc quy định tố tụng mà bài chưa đối chiếu, nên bài không tự đặt ra thủ tục.',
+      'Khoản 3 Điều 34 trả lời câu hỏi thông tin sai phải được xử lý ở đâu. Thông tin ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín của cá nhân được đăng tải trên phương tiện thông tin đại chúng nào thì phải được gỡ bỏ, cải chính bằng chính phương tiện thông tin đại chúng đó. Theo câu chữ, việc gỡ bỏ, cải chính gắn với chính nơi đã đăng, không phải một nơi nào khác.',
+      'Cần thận trọng với cụm "phương tiện thông tin đại chúng". Các điều khoản đã đối chiếu không định nghĩa cụm này và không nhắc riêng đến trang cá nhân, nhóm trò chuyện, diễn đàn hay kênh chia sẻ video. Vì vậy bài không kết luận một nơi đăng cụ thể có thuộc phạm vi khoản 3 hay không. Bài cũng không kết luận cách áp dụng khi cùng một clip đã được chia sẻ lại ở nhiều nơi, mỗi nơi do một người khác nhau đăng. Đây là những điểm nên hỏi người có chuyên môn pháp lý khi bạn chuẩn bị yêu cầu.',
+      'Câu thứ hai của khoản 3 nói về trường hợp thông tin này được cơ quan, tổ chức, cá nhân cất giữ: khi đó thông tin phải được hủy bỏ. Điều khoản không nói ai phát hiện, ai yêu cầu và hủy bằng cách nào, nên bài không tự đặt cách làm. Bài cũng không hướng dẫn và không khuyến khích việc tự ý xâm nhập thiết bị, tài khoản của người khác hay theo dõi họ để tìm bản lưu; điều khoản đã đối chiếu chỉ nói thông tin phải được hủy bỏ, không nói người bị đưa tin tự mình làm việc đó.'
+    ]),
+    P('Không biết ai đưa tin: yêu cầu Tòa án tuyên bố thông tin đó là không đúng', [
+      'Clip đi đường thường lan theo kiểu người này tải về rồi đăng lại, có khi bằng tài khoản không rõ tên thật, đến mức không ai biết lời bình sai xuất hiện lần đầu ở đâu. Khoản 4 Điều 34 nói về trường hợp không xác định được người đã đưa tin, với câu chữ: trường hợp không xác định được người đã đưa tin ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín của mình thì người bị đưa tin có quyền yêu cầu Tòa án tuyên bố thông tin đó là không đúng. Điều khoản không nói người đưa tin là người đăng đầu tiên hay người chia sẻ lại, nên bài không coi việc không biết ai đăng đầu tiên là đã thuộc trường hợp của khoản 4.',
+      'Nên đặt khoản 4 cạnh khoản 5 để không đọc quá chữ. Khoản 4 nói về một yêu cầu cụ thể gửi Tòa án: tuyên bố thông tin là không đúng. Khoản 5, đọc ở phần sau, nói về yêu cầu xin lỗi, cải chính công khai và bồi thường, và người bị yêu cầu là người đưa ra thông tin. Câu chữ khoản 4 không nhắc đến xin lỗi hay bồi thường. Bài không suy ra rằng khi chưa xác định được người đưa tin thì các quyền khác mất đi, cũng không suy ra điều ngược lại; đó là câu hỏi cho người có chuyên môn và cho Tòa án.',
+      'Điều khoản cũng không nói phải tìm kiếm đến mức nào thì mới coi là không xác định được người đưa tin, và bài không đặt ra ngưỡng đó. Điều bạn có thể tự làm một cách chính đáng là ghi lại những gì mình thấy công khai: nơi đăng, tên tài khoản hiển thị, đường dẫn, thời điểm bạn nhìn thấy, ảnh chụp màn hình còn hiện ngày giờ. Bài chưa đối chiếu quy định về chứng cứ, nên không nói những thứ đó có giá trị đến đâu; việc ghi lại chỉ giúp bạn trình bày sự việc rõ ràng hơn khi cần.',
+      'Một rủi ro hay gặp là tự đoán người đăng đầu tiên rồi công khai tên, ảnh, nơi làm việc của người đó để đáp trả. Nếu đoán sai, bạn có thể đặt người khác vào đúng tình huống mà Điều 34 nói tới, chỉ là ở phía ngược lại. Bài không hướng dẫn tìm danh tính, theo dõi hay quay lén người nào. Nếu bạn định tố cáo một người với cơ quan có thẩm quyền, hãy chắc chắn về điều mình nêu; về trách nhiệm khi tố cáo sai sự thật, có bài về tố cáo sai sự thật và việc khôi phục quyền lợi người bị tố cáo trên trang.'
+    ]),
+    P('Xin lỗi, cải chính công khai và các khoản thiệt hại được bồi thường', [
+      'Khoản 5 Điều 34 viết rằng cá nhân bị thông tin làm ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín thì ngoài quyền yêu cầu bác bỏ thông tin đó còn có quyền yêu cầu người đưa ra thông tin xin lỗi, cải chính công khai và bồi thường thiệt hại. Chữ "ngoài" cho thấy các yêu cầu này đứng cạnh quyền yêu cầu bác bỏ, không thay thế nó. Ba yêu cầu được nêu cùng nhau là xin lỗi, cải chính công khai và bồi thường thiệt hại, và cả ba đều hướng tới người đưa ra thông tin.',
+      'Khoản 5 nêu xin lỗi và cải chính công khai liền nhau trong cùng một câu. Điều khoản đã đối chiếu không định nghĩa xin lỗi và cải chính công khai; bài không tự đặt nội dung cho hai việc này. Điều khoản dùng chữ "công khai" nhưng không nói hình thức hay nơi thực hiện. Điều khoản cũng không nói lời xin lỗi, cải chính phải viết thế nào, đăng ở đâu, giữ trong bao lâu, nên bài không tự đặt mẫu, nơi đăng hay mốc thời gian cho việc này.',
+      'Về bồi thường, Điều 592 khoản 1 liệt kê thiệt hại do danh dự, nhân phẩm, uy tín bị xâm phạm thành ba điểm. Điểm a là chi phí hợp lý để hạn chế, khắc phục thiệt hại. Điểm b là thu nhập thực tế bị mất hoặc bị giảm sút. Điểm c là thiệt hại khác do luật quy định. Trong đời thường, người bị gán lỗi sai có thể ghi lại những khoản đã bỏ ra để hạn chế việc thông tin lan tiếp, hoặc khoản thu nhập giảm đi sau khi clip lan truyền, chẳng hạn khi khách quen hủy hẹn. Bài không kết luận khoản nào sẽ được tính; việc đó tùy chứng cứ và sự xem xét trong từng vụ việc.',
+      'Chữ "thực tế" ở điểm b cho thấy điều khoản nói về khoản thu nhập đã thật sự mất hoặc giảm; bài không kết luận cách chứng minh khoản đó. Với điểm c, bài chưa đối chiếu luật nào quy định thêm loại thiệt hại khác. Cũng cần phân biệt với bồi thường khi va chạm làm người khác bị thương hoặc hỏng xe: ở đó thiệt hại đến từ tổn hại sức khỏe, tài sản; ở đây thiệt hại đến từ thông tin ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín. Về các khoản khi va chạm, có bài về va chạm xe máy làm người khác bị thương hoặc hỏng xe trên trang.'
+    ]),
+    P('Khoản bù đắp tổn thất tinh thần và những điều bài không kết luận', [
+      'Ngoài các khoản ở khoản 1, Điều 592 khoản 2 yêu cầu người chịu trách nhiệm bồi thường trả thêm một khoản tiền khác để bù đắp tổn thất về tinh thần mà người bị xâm phạm danh dự, nhân phẩm, uy tín gánh chịu. Mức bù đắp do các bên thỏa thuận; nếu không thỏa thuận được thì mức tối đa cho một người có danh dự, nhân phẩm, uy tín bị xâm phạm không quá mười lần mức lương cơ sở do Nhà nước quy định. Câu này cần đọc đúng thứ tự: thỏa thuận đứng trước, còn mức trần chỉ được nói tới khi các bên không thỏa thuận được.',
+      'Cụm "mức tối đa" và chữ "không quá" cho thấy đây là giới hạn trên, không phải một mức cố định mà ai cũng nhận được. Bài không nêu con số của mức lương cơ sở, vì mức này do Nhà nước quy định ở văn bản khác mà bài chưa đối chiếu tại thời điểm bạn đọc. Bài cũng không ước tính một vụ việc cụ thể sẽ được bù đắp bao nhiêu. Mức trong từng vụ việc phụ thuộc vào thỏa thuận của các bên hoặc sự xem xét của Tòa án dựa trên tình tiết, chứng cứ và văn bản hiện hành.',
+      'Những điều bài chưa đối chiếu và không kết luận gồm: một lời bình cụ thể có sai sự thật, có làm ảnh hưởng xấu đến danh dự, nhân phẩm, uy tín hay không; một trang hay nhóm cụ thể có phải phương tiện thông tin đại chúng hay không; hồ sơ, Tòa án có thẩm quyền, án phí, chứng cứ và thời gian giải quyết; trách nhiệm hành chính hay hình sự của người đăng tin sai, nếu có; việc người khác quay và đăng hình ảnh của bạn. Về hình ảnh, có bài về quyền của người trong clip đối với hình ảnh theo Bộ luật Dân sự trên trang; về thời hạn đòi bồi thường, có bài về thời hiệu khởi kiện đòi lại tiền cọc thuê xe hoặc đòi bồi thường trên trang; về dữ liệu cá nhân trong video, có bài về quay camera hành trình rồi đăng video có hình người và biển số trên trang.',
+      'Về hiệu lực, Điều 689 viết Bộ luật có hiệu lực thi hành từ ngày 01 tháng 01 năm 2017. Cơ sở dữ liệu quốc gia về pháp luật ghi văn bản "Còn hiệu lực", ngày cập nhật 04/04/2026; trang Công báo ghi mục văn bản sửa đổi, bổ sung, đính chính bằng 0; tra cứu các cổng chính thức đến ngày 24/10/2026 không thấy luật sửa đổi hoặc thay thế Bộ luật. Như vậy, xét tại ngày 24 tháng 10 năm 2026, Bộ luật còn hiệu lực. Trước khi quyết định, hãy kiểm tra lại văn bản còn hiệu lực và hỏi luật sư hoặc người có chuyên môn; bài là thông tin pháp luật, không phải tư vấn cho vụ việc của bạn.'
+    ])
+  ],
+  checklist: [
+    'Ghi lại nơi đăng, đường dẫn, tên tài khoản hiển thị và thời điểm bạn thấy clip cùng lời bình.',
+    'Chụp màn hình phần lời bình gán lỗi sai, giữ cả ngày giờ hiển thị nếu có.',
+    'Tách phần hình ảnh trong clip với phần lời bình, chú thích mà bạn cho là sai.',
+    'Đọc lại Điều 34 và Điều 592 trong bản Bộ luật Dân sự đang còn hiệu lực.',
+    'Ghi lại các khoản chi phí đã bỏ ra và thu nhập thực tế bị giảm, kèm giấy tờ nếu có.',
+    'Hỏi luật sư hoặc người có chuyên môn trước khi gửi yêu cầu đến Tòa án.'
+  ],
+  steps: [
+    { title: 'Giữ bình tĩnh, không đáp trả', detail: 'Không bình luận lăng mạ, không công khai thông tin cá nhân của người bạn nghi là người đã đăng clip.' },
+    { title: 'Ghi lại những gì đang công khai', detail: 'Lưu đường dẫn, ảnh chụp màn hình, tên tài khoản hiển thị và thời điểm thấy thông tin; không xâm nhập tài khoản hay thiết bị của người khác.' },
+    { title: 'Xác định điều mình muốn yêu cầu', detail: 'Bác bỏ thông tin, gỡ bỏ và cải chính tại nơi đã đăng, xin lỗi, cải chính công khai, bồi thường theo Điều 34 và Điều 592.' },
+    { title: 'Tập hợp các khoản thiệt hại', detail: 'Ghi lại chi phí hợp lý đã bỏ ra để hạn chế, khắc phục thiệt hại và thu nhập thực tế bị mất hoặc bị giảm sút.' },
+    { title: 'Hỏi người có chuyên môn', detail: 'Nhờ luật sư hoặc người có chuyên môn xem thủ tục, Tòa án có thẩm quyền và thời hiệu trước khi gửi yêu cầu.' }
+  ],
+  warnings: [
+    'Không tự kết luận lời bình nào là sai sự thật hay xúc phạm thay cho Tòa án; bài cũng không kết luận điều đó.',
+    'Không tìm danh tính, theo dõi, quay lén hay công khai thông tin cá nhân của người bạn nghi đã đăng clip.',
+    'Không coi mười lần mức lương cơ sở là mức chắc chắn được nhận: đó là mức tối đa khi các bên không thỏa thuận được.'
+  ],
+  notes: [
+    'Nguồn đối chiếu: Bộ luật Dân sự số 91/2015/QH13 ngày 24/11/2015 của Quốc hội, Điều 34, Điều 592 và Điều 689, tra trên Cơ sở dữ liệu quốc gia về pháp luật, đối chiếu Công báo số 1243+1244 và 1245+1246 ngày 28/12/2015, truy xuất ngày 24/10/2026.',
+    'Bài là thông tin pháp luật để tham khảo, không phải tư vấn pháp lý; tình trạng còn hiệu lực xét tại ngày 24/10/2026, hãy kiểm tra lại văn bản trước khi quyết định.'
+  ],
+  references: [
+    'Bộ luật Dân sự số 91/2015/QH13 ngày 24/11/2015 của Quốc hội, Điều 34, Điều 592, Điều 689 (Cơ sở dữ liệu quốc gia về pháp luật, vbpl.vn; đối chiếu Công báo số 1243+1244 và 1245+1246 ngày 28/12/2015; truy xuất 24/10/2026)',
+    'Cơ sở dữ liệu quốc gia về pháp luật và trang Công báo của Chính phủ, dùng để tra tình trạng hiệu lực của văn bản'
+  ],
+  related: [
+    'thoi-hieu-khoi-kien-doi-lai-tien-coc-thue-xe-hoac-doi-boi-thuong-03-nam-tinh-tu-ngay-nao-va-khi-nao-tinh-lai',
+    'va-cham-xe-may-lam-nguoi-khac-bi-thuong-hoac-hong-xe-bo-luat-dan-su-tinh-cac-khoan-boi-thuong-the-nao',
+    'to-cao-sai-su-that-nguoi-to-cao-phai-chiu-trach-nhiem-gi-va-nguoi-bi-to-cao-duoc-khoi-phuc-ra-sao',
+    'da-thue-xe-may-thi-gap-bao-hoac-duong-bi-cam-bo-luat-dan-su-cho-dam-phan-lai-hoac-cham-dut-hop-dong-khi-nao',
+    'nhat-duoc-xe-may-hoac-do-nguoi-khac-danh-roi-bo-quen-tra-lai-hay-giao-nop-o-dau-va-sau-01-nam-tai-san-thuoc-ai'
+  ]
+};
