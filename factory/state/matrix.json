@@ -36543,11 +36543,13 @@
    "title": "Cùng lực lượng chức năng cứu người bị kẹt sau tai nạn hoặc bị huy động xe máy: có được bồi dưỡng, bồi thường?",
    "primaryIntent": "informational/cung-luc-luong-chuc-nang-cuu-nguoi-bi-ket-sau-tai-nan-hoac-bi-huy-dong-xe-may-co-duoc-boi-duong-boi-thuong",
    "notes": "source=topic-v2 topicId=T002677",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:15:00.074Z",
-   "updatedAt": "2026-10-29T11:15:00.075Z"
+   "updatedAt": "2026-10-30T09:27:59.401Z",
+   "seoScore": 100,
+   "words": 3544
   },
   {
    "id": "S02481",
