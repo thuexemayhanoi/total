@@ -36738,11 +36738,13 @@
    "title": "Bị trừ phí đường bộ hai lần hoặc sai loại xe: đề nghị tra soát ở đâu, xử lý mấy ngày và khi nào được bồi hoàn?",
    "primaryIntent": "informational/bi-tru-phi-duong-bo-hai-lan-hoac-sai-loai-xe-de-nghi-tra-soat-o-dau-xu-ly-may-ngay-va-khi-nao-duoc-boi-hoan",
    "notes": "source=topic-v2 topicId=T002690",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:12.565Z",
-   "updatedAt": "2026-10-30T03:23:12.565Z"
+   "updatedAt": "2026-10-30T09:59:22.679Z",
+   "seoScore": 100,
+   "words": 3797
   },
   {
    "id": "S02494",
