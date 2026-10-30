@@ -36580,11 +36580,13 @@
    "title": "Lái xe điện chở khách tham quan cần bằng lái hạng nào, từ bao nhiêu tuổi và không có bằng bị phạt ra sao?",
    "primaryIntent": "informational/lai-xe-dien-cho-khach-tham-quan-can-bang-lai-hang-nao-tu-bao-nhieu-tuoi-va-khong-co-bang-bi-phat-ra-sao",
    "notes": "source=topic-v2 topicId=T002680",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:14.242Z",
-   "updatedAt": "2026-10-30T03:22:14.243Z"
+   "updatedAt": "2026-10-30T09:03:10.752Z",
+   "seoScore": 100,
+   "words": 3524
   },
   {
    "id": "S02484",
