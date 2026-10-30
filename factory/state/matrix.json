@@ -36033,11 +36033,13 @@
    "title": "Giấy thông hành biên giới thay hộ chiếu đi Lào, Campuchia, Trung Quốc: ai được cấp, xin ở đâu, dùng bao lâu?",
    "primaryIntent": "informational/giay-thong-hanh-bien-gioi-thay-ho-chieu-di-lao-campuchia-trung-quoc-ai-duoc-cap-xin-o-dau-dung-bao-lau",
    "notes": "source=topic-v2 topicId=T002643",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:39:05.609Z",
-   "updatedAt": "2026-10-29T02:39:05.610Z"
+   "updatedAt": "2026-10-30T02:31:10.175Z",
+   "seoScore": 100,
+   "words": 3524
   },
   {
    "id": "S02447",
