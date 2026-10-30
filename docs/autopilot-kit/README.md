@@ -40,7 +40,7 @@ Cụm từ nội bộ lọt vào văn bản đã xuất bản: "dòng đã đố
 
 ## Vị trí dừng (cập nhật mỗi lô)
 
-- Đã duyệt topic đến T002738 → S02541 (lô AF duyệt ngày 30/10/2026, commit `1234d52`). Số bài xuất bản xác minh lúc 16:50 UTC 30/10/2026: 2.213 (manifest, ma trận, sitemap khớp, `tools/count-published.js`); mốc "300 bài mới" (PUBLISHED ≥ 2.287) chưa đạt. Lô AD 20/20 đã xuất bản đủ; slot còn PLANNED có pack: S02514–S02522 (lô AE, `pack-193.txt`) và S02523–S02541 (lô AF, `pack-194.txt`).
+- Đã duyệt topic đến T002738 → S02541 (lô AF duyệt ngày 30/10/2026, commit `1234d52`). Số bài xuất bản xác minh lúc 16:39 UTC 30/10/2026: 2.213 (manifest, ma trận, sitemap khớp, `tools/count-published.js`); mốc "300 bài mới" (PUBLISHED ≥ 2.287) chưa đạt. Lô AD 20/20 đã xuất bản đủ; slot còn PLANNED có pack: S02514–S02522 (lô AE, `pack-193.txt`) và S02523–S02541 (lô AF, `pack-194.txt`).
 - Lô W (S02288–S02304) và lô X (S02305–S02322) đã xuất bản đủ; S02317–S02321 là bài của phiên session_015UkZHFXvuzKfueyV31Fr4t.
 - Lô Y (S02323–S02359, 37 bài) đã xuất bản đủ ngày 28/10/2026.
 - Lô Z (S02360–S02385, 26 bài) đã xuất bản đủ ngày 28/10/2026.
