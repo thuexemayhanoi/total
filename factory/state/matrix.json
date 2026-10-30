@@ -36813,11 +36813,13 @@
    "title": "Tiệm sửa xe, nhà để xe tự kiểm tra phòng cháy bao lâu một lần, nộp báo cáo hạn nào, ai đến kiểm tra?",
    "primaryIntent": "informational/chu-tiem-sua-xe-nha-de-xe-tu-kiem-tra-phong-chay-bao-lau-mot-lan-gui-bao-cao-truoc-ngay-nao-va-ai-den-kiem-tra-dinh-ky",
    "notes": "source=topic-v2 topicId=T002695",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:43.424Z",
-   "updatedAt": "2026-10-30T03:23:43.424Z"
+   "updatedAt": "2026-10-30T10:53:25.590Z",
+   "seoScore": 100,
+   "words": 3835
   },
   {
    "id": "S02499",
