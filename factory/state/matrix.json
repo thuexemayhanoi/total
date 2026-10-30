@@ -36610,11 +36610,13 @@
    "title": "Xe điện bốn bánh chở khách có phải đăng ký, gắn biển số và đăng kiểm không, bao lâu kiểm định một lần?",
    "primaryIntent": "informational/xe-dien-bon-banh-cho-khach-co-phai-dang-ky-gan-bien-so-va-dang-kiem-khong-bao-lau-kiem-dinh-mot-lan",
    "notes": "source=topic-v2 topicId=T002682",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:25.916Z",
-   "updatedAt": "2026-10-30T03:22:25.916Z"
+   "updatedAt": "2026-10-30T09:06:08.640Z",
+   "seoScore": 100,
+   "words": 3669
   },
   {
    "id": "S02486",
