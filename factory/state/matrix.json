@@ -36708,11 +36708,13 @@
    "title": "Ô tô thuê tự lái bị phạt nguội: thông báo gửi ai, chủ xe cho thuê phải làm gì và người thuê giải quyết ở đâu?",
    "primaryIntent": "informational/o-to-thue-tu-lai-bi-phat-nguoi-thong-bao-gui-ai-chu-xe-cho-thue-phai-lam-gi-va-nguoi-thue-giai-quyet-o-dau",
    "notes": "source=topic-v2 topicId=T002688",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:59.321Z",
-   "updatedAt": "2026-10-30T03:22:59.321Z"
+   "updatedAt": "2026-10-30T09:56:27.446Z",
+   "seoScore": 100,
+   "words": 3853
   },
   {
    "id": "S02492",
@@ -36721,11 +36723,13 @@
    "title": "Ô tô thuê qua trạm thu phí không dừng: trừ tài khoản giao thông của ai, hết tiền hay không gắn thẻ thì sao?",
    "primaryIntent": "informational/o-to-thue-qua-tram-thu-phi-khong-dung-tru-tai-khoan-giao-thong-cua-ai-het-tien-hay-khong-gan-the-thi-sao",
    "notes": "source=topic-v2 topicId=T002689",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:04.978Z",
-   "updatedAt": "2026-10-30T03:23:04.978Z"
+   "updatedAt": "2026-10-30T09:56:27.446Z",
+   "seoScore": 100,
+   "words": 3674
   },
   {
    "id": "S02493",
