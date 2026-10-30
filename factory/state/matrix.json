@@ -36899,11 +36899,13 @@
    "title": "Trúng thưởng xe máy khi mua hàng hoặc bốc thăm khuyến mại: thuế TNCN 10% tính trên phần nào, ai khấu trừ?",
    "primaryIntent": "informational/trung-thuong-xe-may-khi-mua-hang-hoac-boc-tham-khuyen-mai-thue-tncn-10-tinh-tren-phan-nao-va-ai-khau-tru",
    "notes": "source=topic-v2 topicId=T002701",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:03:19.076Z",
-   "updatedAt": "2026-10-30T10:03:19.076Z"
+   "updatedAt": "2026-10-30T15:44:28.784Z",
+   "seoScore": 100,
+   "words": 3545
   },
   {
    "id": "S02505",
