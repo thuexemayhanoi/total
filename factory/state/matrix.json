@@ -36453,11 +36453,13 @@
    "title": "Người bị tai nạn không mang tiền, không giấy tờ: bệnh viện có được từ chối hay chậm cấp cứu không?",
    "primaryIntent": "informational/nguoi-bi-tai-nan-khong-mang-tien-khong-giay-to-benh-vien-co-duoc-tu-choi-hay-cham-cap-cuu-khong",
    "notes": "source=topic-v2 topicId=T002671",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:21.113Z",
-   "updatedAt": "2026-10-29T11:14:21.114Z"
+   "updatedAt": "2026-10-30T08:47:07.681Z",
+   "seoScore": 100,
+   "words": 3506
   },
   {
    "id": "S02475",
