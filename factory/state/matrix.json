@@ -36528,11 +36528,13 @@
    "title": "Tai nạn có người bị kẹt dưới gầm xe hay rơi xuống mương: gọi 114 được không và ai chỉ huy cứu nạn?",
    "primaryIntent": "informational/tai-nan-co-nguoi-bi-ket-duoi-gam-xe-hay-roi-xuong-muong-goi-114-duoc-khong-va-ai-chi-huy-cuu-nan",
    "notes": "source=topic-v2 topicId=T002676",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:54.304Z",
-   "updatedAt": "2026-10-29T11:14:54.304Z"
+   "updatedAt": "2026-10-30T09:27:12.367Z",
+   "seoScore": 100,
+   "words": 3556
   },
   {
    "id": "S02480",
