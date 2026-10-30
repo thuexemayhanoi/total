@@ -29045,6 +29045,41 @@
  },
  {
   "kind": "article",
+  "url": "guide/thu-tuc-xe/doanh-thu-ca-nam-khong-qua-01-ty-dong-ma-ung-dung-da-khau-tru-thue-tai-xe-xin-hoan-o-dau-so-nho-xu-ly-sao/",
+  "title": "Doanh thu cả năm không quá 01 tỷ đồng mà ứng dụng đã khấu trừ thuế: tài xế xin hoàn ở đâu, số nhỏ xử lý sao?",
+  "description": "Doanh thu năm không quá 01 tỷ đồng, ứng dụng đã khấu trừ thuế: Nghị định 68/2026 nêu bù trừ, hoàn trả, nơi nộp hồ sơ; Nghị định 252/2026 nêu mốc 50.000 đồng.",
+  "category": "Hướng dẫn",
+  "hub": "Thủ tục xe",
+  "entities": [
+   "Nghị định 68/2026/NĐ-CP",
+   "văn bản hợp nhất 25/2026/VBHN-BTC",
+   "Nghị định 141/2026/NĐ-CP",
+   "Nghị định 252/2026/NĐ-CP",
+   "Luật Quản lý thuế",
+   "chủ quản nền tảng số",
+   "hoàn trả tiền thuế nộp thừa",
+   "cơ quan thuế nơi cư trú"
+  ],
+  "keywords": [
+   "ứng dụng đã khấu trừ thuế doanh thu dưới 01 tỷ có được hoàn không",
+   "xin hoàn thuế đã bị khấu trừ khi chạy xe công nghệ",
+   "nơi nhận hồ sơ hoàn thuế của người chỉ kinh doanh trên nền tảng",
+   "bù trừ số thuế nộp thừa từ 50.000 đồng trở xuống",
+   "chạy xe ôm giao hàng doanh thu thấp bị trừ thuế"
+  ],
+  "seoTitle": "Ứng dụng đã khấu trừ thuế, doanh thu không quá 01 tỷ: hoàn ở đâu?",
+  "primaryKeyword": "ứng dụng đã khấu trừ thuế doanh thu dưới 01 tỷ có được hoàn không",
+  "headings": [
+   "Mốc doanh thu năm 01 tỷ đồng: không chịu thuế GTGT, không phải nộp thuế TNCN",
+   "Đã bị ứng dụng khấu trừ trong năm nhưng doanh thu thực tế không vượt mốc",
+   "Bù trừ, hoàn trả hay hoàn trả kiêm bù trừ thu ngân sách",
+   "Chỉ chạy qua nền tảng thì nộp hồ sơ hoàn ở cơ quan thuế nơi cư trú",
+   "Số nộp thừa cả năm từ 50.000 đồng trở xuống, phần hồ sơ do Bộ trưởng Bộ Tài chính quy định và phần bài chưa đối chiếu"
+  ],
+  "summary": "Bài dành cho người chạy xe ôm công nghệ, giao hàng bằng xe máy qua ứng dụng có doanh thu cả năm không quá 01 tỷ đồng nhưng đã bị trừ thuế trong năm. Theo văn bản hợp nhất 25/2026/VBHN-BTC, Điều 3 khoản 1 và Điều 4 khoản 1 Nghị định 68/2026/NĐ-CP đặt mốc doanh "
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/doanh-thu-cho-thue-xe-may-de-tinh-thue-gom-khoan-nao-tien-thue-tra-truoc-nhieu-nam-phu-thu-va-tien-boi-thuong/",
   "title": "Doanh thu cho thuê xe máy để tính thuế gồm khoản nào: tiền thuê trả trước nhiều năm, phụ thu, bồi thường?",
   "description": "Điều 5 Nghị định 68/2026/NĐ-CP nêu doanh thu gồm phụ thu, bồi thường; tiền thuê trả trước nhiều năm được phân bổ hoặc xác định theo doanh thu trả tiền một lần.",

@@ -37212,11 +37212,13 @@
    "title": "Doanh thu cả năm không quá 01 tỷ đồng mà ứng dụng đã khấu trừ thuế: tài xế xin hoàn ở đâu, số nhỏ xử lý sao?",
    "primaryIntent": "informational/doanh-thu-ca-nam-khong-qua-01-ty-dong-ma-ung-dung-da-khau-tru-thue-tai-xe-xin-hoan-o-dau-so-nho-xu-ly-sao",
    "notes": "source=topic-v2 topicId=T002722",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T16:36:26.835Z",
-   "updatedAt": "2026-10-30T16:36:26.835Z"
+   "updatedAt": "2026-10-30T17:27:41.205Z",
+   "seoScore": 100,
+   "words": 3702
   },
   {
    "id": "S02526",
