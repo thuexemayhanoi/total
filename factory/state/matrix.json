@@ -36498,11 +36498,13 @@
    "title": "Đưa người bị tai nạn giao thông đi cấp cứu: người đưa có phải trả viện phí, được Quỹ hỗ trợ bao nhiêu?",
    "primaryIntent": "informational/dua-nguoi-bi-tai-nan-giao-thong-di-cap-cuu-nguoi-dua-co-phai-tra-vien-phi-va-duoc-quy-ho-tro-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002674",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:41.467Z",
-   "updatedAt": "2026-10-29T11:14:41.467Z"
+   "updatedAt": "2026-10-30T08:58:14.786Z",
+   "seoScore": 100,
+   "words": 3633
   },
   {
    "id": "S02478",
