@@ -36423,11 +36423,13 @@
    "title": "Rủ nhóm, hẹn giờ, đặt cược cho một cuộc đua xe máy: người tổ chức bị xử lý hình sự dù chưa ai bị thương?",
    "primaryIntent": "informational/ru-nhom-hen-gio-dat-cuoc-cho-mot-cuoc-dua-xe-may-nguoi-to-chuc-bi-xu-ly-hinh-su-du-chua-ai-bi-thuong",
    "notes": "source=topic-v2 topicId=T002669",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:08.343Z",
-   "updatedAt": "2026-10-29T11:14:08.344Z"
+   "updatedAt": "2026-10-30T04:07:31.313Z",
+   "seoScore": 100,
+   "words": 3679
   },
   {
    "id": "S02473",
