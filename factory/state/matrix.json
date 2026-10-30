@@ -36843,11 +36843,13 @@
    "title": "Garage sửa xe, bãi giữ xe trong nhà khi nào phải mua bảo hiểm cháy, nổ bắt buộc và không mua bị phạt bao nhiêu?",
    "primaryIntent": "informational/garage-sua-xe-bai-giu-xe-trong-nha-khi-nao-phai-mua-bao-hiem-chay-no-bat-buoc-va-khong-mua-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002697",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:55.257Z",
-   "updatedAt": "2026-10-30T03:23:55.257Z"
+   "updatedAt": "2026-10-30T15:53:29.578Z",
+   "seoScore": 100,
+   "words": 3740
   },
   {
    "id": "S02501",
@@ -36856,11 +36858,13 @@
    "title": "Hồ sơ phòng cháy của garage sửa xe, nhà để xe gồm những gì, lưu bao lâu và thiếu hồ sơ bị phạt bao nhiêu?",
    "primaryIntent": "informational/ho-so-phong-chay-chua-chay-cua-garage-sua-xe-nha-de-xe-gom-nhung-gi-luu-bao-lau-va-thieu-ho-so-bi-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002698",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:24:02.072Z",
-   "updatedAt": "2026-10-30T03:24:02.072Z"
+   "updatedAt": "2026-10-30T15:53:29.578Z",
+   "seoScore": 100,
+   "words": 3796
   },
   {
    "id": "S02502",
