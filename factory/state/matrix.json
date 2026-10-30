@@ -36438,11 +36438,13 @@
    "title": "Con 14 hoặc 15 tuổi lái xe máy làm chết người hay đi đua xe: đã đến tuổi chịu trách nhiệm hình sự chưa?",
    "primaryIntent": "informational/con-14-hoac-15-tuoi-lai-xe-may-lam-chet-nguoi-hay-di-dua-xe-da-den-tuoi-chiu-trach-nhiem-hinh-su-chua",
    "notes": "source=topic-v2 topicId=T002670",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:14.135Z",
-   "updatedAt": "2026-10-29T11:14:14.135Z"
+   "updatedAt": "2026-10-30T04:09:23.683Z",
+   "seoScore": 100,
+   "words": 3621
   },
   {
    "id": "S02474",
