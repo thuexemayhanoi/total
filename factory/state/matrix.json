@@ -36753,11 +36753,13 @@
    "title": "Nhà để xe máy, tiệm sửa xe, cửa hàng trưng bày xe từ bao nhiêu mét vuông thì thuộc diện quản lý phòng cháy?",
    "primaryIntent": "informational/nha-de-xe-may-tiem-sua-xe-cua-hang-trung-bay-xe-tu-bao-nhieu-met-vuong-thi-thuoc-dien-quan-ly-phong-chay-chua-chay",
    "notes": "source=topic-v2 topicId=T002691",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:19.988Z",
-   "updatedAt": "2026-10-30T03:23:19.988Z"
+   "updatedAt": "2026-10-30T10:51:17.313Z",
+   "seoScore": 100,
+   "words": 3753
   },
   {
    "id": "S02495",
@@ -36781,11 +36783,13 @@
    "title": "Tiệm sửa xe, bãi giữ xe không có bình chữa cháy, để bình hỏng hay bị che khuất: Nghị định 106 phạt thế nào?",
    "primaryIntent": "informational/tiem-sua-xe-bai-giu-xe-khong-co-binh-chua-chay-binh-hong-hoac-bi-che-khuat-nghi-dinh-106-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002693",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:23:31.917Z",
-   "updatedAt": "2026-10-30T03:23:31.918Z"
+   "updatedAt": "2026-10-30T10:51:17.313Z",
+   "seoScore": 100,
+   "words": 3722
   },
   {
    "id": "S02497",
