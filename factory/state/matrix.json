@@ -37036,11 +37036,13 @@
    "title": "Bị quay lúc gặp nạn trên đường rồi đăng lên mạng: Bộ luật Dân sự cho người trong clip quyền gì với hình ảnh?",
    "primaryIntent": "informational/bi-quay-luc-gap-nan-tren-duong-roi-dang-len-mang-bo-luat-dan-su-cho-nguoi-trong-clip-quyen-gi-voi-hinh-anh",
    "notes": "source=topic-v2 topicId=T002710",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:04:16.091Z",
-   "updatedAt": "2026-10-30T10:04:16.092Z"
+   "updatedAt": "2026-10-30T16:30:27.826Z",
+   "seoScore": 100,
+   "words": 3328
   },
   {
    "id": "S02514",
