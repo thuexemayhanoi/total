@@ -36595,11 +36595,13 @@
    "title": "Xe điện chở khách tham quan được chạy đường nào, ai quyết định giờ chạy và chạy sai phạm vi bị phạt ra sao?",
    "primaryIntent": "informational/xe-dien-cho-khach-tham-quan-duoc-chay-tren-duong-nao-ai-quyet-dinh-gio-chay-va-chay-sai-pham-vi-bi-phat-ra-sao",
    "notes": "source=topic-v2 topicId=T002681",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:20.363Z",
-   "updatedAt": "2026-10-30T03:22:20.363Z"
+   "updatedAt": "2026-10-30T09:04:44.132Z",
+   "seoScore": 100,
+   "words": 3631
   },
   {
    "id": "S02485",
