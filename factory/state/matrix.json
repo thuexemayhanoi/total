@@ -36513,11 +36513,13 @@
    "title": "Gọi xe cấp cứu ngoại viện cho người bị tai nạn giao thông: chi phí vận chuyển do ai trả theo luật?",
    "primaryIntent": "informational/goi-xe-cap-cuu-ngoai-vien-cho-nguoi-bi-tai-nan-giao-thong-chi-phi-van-chuyen-do-ai-tra",
    "notes": "source=topic-v2 topicId=T002675",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:48.557Z",
-   "updatedAt": "2026-10-29T11:14:48.557Z"
+   "updatedAt": "2026-10-30T09:26:13.753Z",
+   "seoScore": 100,
+   "words": 3427
   },
   {
    "id": "S02479",
