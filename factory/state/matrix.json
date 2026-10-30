@@ -36061,11 +36061,13 @@
    "title": "Bán bia cho khách chưa đủ 18 tuổi bị phạt thế nào, quán có được yêu cầu xuất trình giấy tờ kiểm tra tuổi?",
    "primaryIntent": "informational/ban-bia-cho-khach-chua-du-18-tuoi-bi-phat-the-nao-quan-co-duoc-yeu-cau-xuat-trinh-giay-to-kiem-tra-tuoi",
    "notes": "source=topic-v2 topicId=T002645",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:39:16.248Z",
-   "updatedAt": "2026-10-29T02:39:16.248Z"
+   "updatedAt": "2026-10-30T02:32:27.391Z",
+   "seoScore": 100,
+   "words": 3646
   },
   {
    "id": "S02449",
