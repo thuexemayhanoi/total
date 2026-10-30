@@ -37113,11 +37113,13 @@
    "title": "Đi nhận lại xe máy bị tạm giữ: ai được nhận, phải mang giấy tờ gì và nhờ người khác nhận thay thế nào?",
    "primaryIntent": "informational/di-nhan-lai-xe-may-bi-tam-giu-ai-duoc-nhan-mang-giay-to-gi-va-nho-nguoi-khac-nhan-thay-the-nao",
    "notes": "source=topic-v2 topicId=T002715",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:04:49.666Z",
-   "updatedAt": "2026-10-30T10:04:49.666Z"
+   "updatedAt": "2026-10-30T17:19:20.519Z",
+   "seoScore": 100,
+   "words": 3662
   },
   {
    "id": "S02519",
@@ -37126,11 +37128,13 @@
    "title": "Xe máy bị tạm giữ chờ nộp phạt có xin mang về tự giữ được không: điều kiện, đơn và trường hợp bị từ chối?",
    "primaryIntent": "informational/xe-may-bi-tam-giu-cho-nop-phat-co-xin-mang-ve-tu-giu-duoc-khong-dieu-kien-don-va-truong-hop-bi-tu-choi",
    "notes": "source=topic-v2 topicId=T002716",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:04:55.765Z",
-   "updatedAt": "2026-10-30T10:04:55.765Z"
+   "updatedAt": "2026-10-30T17:19:20.520Z",
+   "seoScore": 100,
+   "words": 3879
   },
   {
    "id": "S02520",
