@@ -66815,6 +66815,41 @@
  },
  {
   "kind": "article",
+  "url": "learn/kien-thuc-phap-ly/ung-dung-goi-xe-giao-hang-co-tu-khau-tru-thue-thay-tai-xe-khong-tieu-chi-nen-tang-co-chuc-nang-thanh-toan/",
+  "title": "Ứng dụng gọi xe, giao hàng có tự khấu trừ thuế thay tài xế không? Tiêu chí nền tảng có chức năng thanh toán",
+  "description": "Luật Quản lý thuế 108/2025, NĐ 252/2026: nền tảng có chức năng đặt hàng trực tuyến và thanh toán thì khấu trừ thay; không có thì hộ, cá nhân kinh doanh tự khai.",
+  "category": "Kiến thức chuyên sâu",
+  "hub": "Kiến thức pháp lý",
+  "entities": [
+   "Luật Thuế thu nhập cá nhân 109/2025/QH15",
+   "văn bản hợp nhất 112/VBHN-VPQH",
+   "Luật Quản lý thuế 108/2025/QH15",
+   "Nghị định 252/2026/NĐ-CP",
+   "Nghị định 68/2026/NĐ-CP",
+   "Nghị định 117/2025/NĐ-CP",
+   "chủ quản nền tảng số",
+   "chức năng đặt hàng trực tuyến và chức năng thanh toán"
+  ],
+  "keywords": [
+   "ứng dụng gọi xe có khấu trừ thuế thay tài xế không",
+   "tiêu chí nền tảng có chức năng thanh toán",
+   "tài xế giao hàng qua ứng dụng có phải tự khai thuế",
+   "chủ quản nền tảng khấu trừ khai thay nộp thay thuế",
+   "chạy xe ôm công nghệ có phải nộp thuế thu nhập cá nhân"
+  ],
+  "seoTitle": "Ứng dụng gọi xe có khấu trừ thuế thay tài xế? Tiêu chí thanh toán",
+  "primaryKeyword": "ứng dụng gọi xe có khấu trừ thuế thay tài xế không",
+  "headings": [
+   "Tiền chạy xe ôm, giao hàng qua ứng dụng được Luật xếp vào loại thu nhập nào",
+   "Hai trường hợp Luật Quản lý thuế 108/2025 phân biệt với người kinh doanh trên nền tảng",
+   "Ba tiêu chí để nền tảng được coi là có chức năng đặt hàng trực tuyến và thanh toán",
+   "Nền tảng thuộc diện khấu trừ những loại thuế nào, không thuộc diện thì ai tự khai",
+   "Nghị định 117/2025 đã bị thay thế: văn bản nào đang áp dụng, phần bài chưa đối chiếu và cách tự kiểm tra"
+  ],
+  "summary": "Bài dành cho người chạy xe ôm công nghệ, giao hàng bằng xe máy qua ứng dụng muốn biết ứng dụng có tự khấu trừ thuế thay mình không. Điều 3 khoản 1 điểm d Luật Thuế thu nhập cá nhân (văn bản hợp nhất 112/VBHN-VPQH) xếp thu nhập từ kinh doanh dựa trên nền tảng s"
+ },
+ {
+  "kind": "article",
   "url": "learn/kien-thuc-phap-ly/uong-bia-luc-nghi-trua-roi-chay-xe-may-ve-cho-lam-luat-cam-ai-uong-trong-gio-lam-viec-va-phat-bao-nhieu/",
   "title": "Uống bia lúc nghỉ trưa rồi chạy xe máy về chỗ làm: luật cấm ai uống trong giờ làm việc và phạt bao nhiêu?",
   "description": "Nghỉ trưa uống bia rồi chạy xe máy về chỗ làm: bài đọc Điều 5 khoản 5 Luật 44/2019/QH14 và hai khung phạt cho người uống, người đứng đầu ở Nghị định 90/2026.",

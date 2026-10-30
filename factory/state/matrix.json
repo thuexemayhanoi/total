@@ -37182,11 +37182,13 @@
    "title": "Ứng dụng gọi xe, giao hàng có tự khấu trừ thuế thay tài xế không? Tiêu chí nền tảng có chức năng thanh toán",
    "primaryIntent": "informational/ung-dung-goi-xe-giao-hang-co-tu-khau-tru-thue-thay-tai-xe-khong-tieu-chi-nen-tang-co-chuc-nang-thanh-toan",
    "notes": "source=topic-v2 topicId=T002720",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T16:36:11.521Z",
-   "updatedAt": "2026-10-30T16:36:11.522Z"
+   "updatedAt": "2026-10-30T17:25:06.063Z",
+   "seoScore": 100,
+   "words": 3708
   },
   {
    "id": "S02524",
