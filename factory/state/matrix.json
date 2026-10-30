@@ -36273,11 +36273,13 @@
    "title": "Mở tiệm sửa xe, thay nhớt hay rửa xe máy có phải đăng ký môi trường với UBND cấp xã không?",
    "primaryIntent": "informational/mo-tiem-sua-xe-thay-nhot-hay-rua-xe-may-co-phai-dang-ky-moi-truong-voi-ubnd-cap-xa-khong",
    "notes": "source=topic-v2 topicId=T002659",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:04.661Z",
-   "updatedAt": "2026-10-29T11:13:04.661Z"
+   "updatedAt": "2026-10-30T02:37:11.040Z",
+   "seoScore": 100,
+   "words": 3605
   },
   {
    "id": "S02463",
