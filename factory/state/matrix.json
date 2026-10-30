@@ -37197,11 +37197,13 @@
    "title": "Ứng dụng khấu trừ thuế của tài xế tính trên khoản tiền nào, theo tỷ lệ nhóm nào và vào lúc nào?",
    "primaryIntent": "informational/ung-dung-khau-tru-thue-cua-tai-xe-tinh-tren-khoan-tien-nao-ty-le-theo-nhom-nao-va-vao-luc-nao",
    "notes": "source=topic-v2 topicId=T002721",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T16:36:20.156Z",
-   "updatedAt": "2026-10-30T16:36:20.156Z"
+   "updatedAt": "2026-10-30T17:25:52.960Z",
+   "seoScore": 100,
+   "words": 3793
   },
   {
    "id": "S02525",
