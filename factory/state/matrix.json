@@ -37008,11 +37008,13 @@
    "title": "Bị quay clip gửi công an phản ánh lỗi giao thông: xác minh trong bao lâu, làm việc với ai, khi nào không phạt?",
    "primaryIntent": "informational/bi-quay-clip-gui-cong-an-phan-anh-loi-giao-thong-xac-minh-trong-bao-lau-lam-viec-voi-ai-khi-nao-khong-phat",
    "notes": "source=topic-v2 topicId=T002708",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:04:03.262Z",
-   "updatedAt": "2026-10-30T10:04:03.263Z"
+   "updatedAt": "2026-10-30T16:29:24.598Z",
+   "seoScore": 100,
+   "words": 3335
   },
   {
    "id": "S02512",
