@@ -36348,11 +36348,13 @@
    "title": "Tiệm rửa xe xả nước thải ra vỉa hè, lòng đường hay thẳng xuống cống: luật yêu cầu gì và phạt thế nào?",
    "primaryIntent": "informational/tiem-rua-xe-may-xa-nuoc-thai-ra-via-he-long-duong-hay-thang-xuong-cong-luat-yeu-cau-gi-va-phat-the-nao",
    "notes": "source=topic-v2 topicId=T002664",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:13:35.773Z",
-   "updatedAt": "2026-10-29T11:13:35.773Z"
+   "updatedAt": "2026-10-30T03:25:50.472Z",
+   "seoScore": 100,
+   "words": 3681
   },
   {
    "id": "S02468",
