@@ -36093,11 +36093,13 @@
    "title": "Uống bia lúc nghỉ trưa rồi chạy xe máy về chỗ làm: luật cấm ai uống trong giờ làm việc và phạt bao nhiêu?",
    "primaryIntent": "informational/uong-bia-luc-nghi-trua-roi-chay-xe-may-ve-cho-lam-luat-cam-ai-uong-trong-gio-lam-viec-va-phat-bao-nhieu",
    "notes": "source=topic-v2 topicId=T002647",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T02:39:26.962Z",
-   "updatedAt": "2026-10-29T02:39:26.962Z"
+   "updatedAt": "2026-10-30T02:34:40.449Z",
+   "seoScore": 100,
+   "words": 3660
   },
   {
    "id": "S02451",
