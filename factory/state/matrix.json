@@ -36663,11 +36663,13 @@
    "title": "Trường học, nhà máy dùng xe điện bốn bánh đưa đón người của mình không thu tiền: luật gọi là gì, phải làm gì?",
    "primaryIntent": "informational/truong-hoc-nha-may-dung-xe-dien-bon-banh-dua-don-nguoi-cua-minh-khong-thu-tien-luat-goi-la-gi-phai-lam-gi",
    "notes": "source=topic-v2 topicId=T002685",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:42.553Z",
-   "updatedAt": "2026-10-30T03:22:42.554Z"
+   "updatedAt": "2026-10-30T09:51:18.364Z",
+   "seoScore": 100,
+   "words": 3708
   },
   {
    "id": "S02489",
