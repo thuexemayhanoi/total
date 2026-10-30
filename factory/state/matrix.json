@@ -36640,11 +36640,13 @@
    "title": "Muốn kinh doanh xe điện chở khách du lịch: cá nhân có được tự chạy không, cần giấy phép và phù hiệu gì?",
    "primaryIntent": "informational/muon-kinh-doanh-xe-dien-cho-khach-du-lich-ca-nhan-co-duoc-tu-chay-khong-can-giay-phep-va-phu-hieu-gi",
    "notes": "source=topic-v2 topicId=T002684",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T03:22:36.863Z",
-   "updatedAt": "2026-10-30T03:22:36.863Z"
+   "updatedAt": "2026-10-30T09:07:41.442Z",
+   "seoScore": 100,
+   "words": 3684
   },
   {
    "id": "S02488",
