@@ -36483,11 +36483,13 @@
    "title": "Người bị tai nạn bất tỉnh cần mổ gấp khi người nhà chưa tới: ai được quyết định thay theo luật?",
    "primaryIntent": "informational/nguoi-bi-tai-nan-bat-tinh-can-mo-gap-khi-nguoi-nha-chua-toi-ai-duoc-quyet-dinh-thay-theo-luat",
    "notes": "source=topic-v2 topicId=T002673",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-29T11:14:35.148Z",
-   "updatedAt": "2026-10-29T11:14:35.148Z"
+   "updatedAt": "2026-10-30T08:56:25.904Z",
+   "seoScore": 100,
+   "words": 3469
   },
   {
    "id": "S02477",
