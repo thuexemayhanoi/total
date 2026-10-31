@@ -37143,11 +37143,13 @@
    "title": "Đặt tiền bảo lãnh để lấy xe máy bị tạm giữ về: đặt ít nhất bao nhiêu, khi nào được trả, khi nào bị khấu trừ?",
    "primaryIntent": "informational/dat-tien-bao-lanh-de-lay-xe-may-bi-tam-giu-ve-dat-it-nhat-bao-nhieu-khi-nao-duoc-tra-va-khi-nao-bi-khau-tru",
    "notes": "source=topic-v2 topicId=T002717",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:05:02.067Z",
-   "updatedAt": "2026-10-30T10:05:02.067Z"
+   "updatedAt": "2026-10-31T02:22:57.491Z",
+   "seoScore": 100,
+   "words": 3734
   },
   {
    "id": "S02521",
