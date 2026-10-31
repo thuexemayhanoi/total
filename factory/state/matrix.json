@@ -37158,11 +37158,13 @@
    "title": "Xe máy bị người khác dùng để vi phạm rồi bị tạm giữ: khi nào chủ xe hoặc bên nhận thế chấp được nhận lại?",
    "primaryIntent": "informational/xe-may-bi-nguoi-khac-dung-de-vi-pham-roi-bi-tam-giu-khi-nao-chu-xe-hoac-ben-nhan-the-chap-duoc-nhan-lai",
    "notes": "source=topic-v2 topicId=T002718",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:05:08.076Z",
-   "updatedAt": "2026-10-30T10:05:08.077Z"
+   "updatedAt": "2026-10-31T02:24:22.604Z",
+   "seoScore": 100,
+   "words": 3550
   },
   {
    "id": "S02522",
