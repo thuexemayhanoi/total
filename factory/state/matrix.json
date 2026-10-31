@@ -37173,11 +37173,13 @@
    "title": "Xe máy bị tạm giữ có phải niêm phong không, bị mất đồ hay tráo linh kiện thì ai chịu trách nhiệm?",
    "primaryIntent": "informational/xe-may-bi-tam-giu-co-phai-niem-phong-khong-bi-mat-do-hay-trao-linh-kien-thi-ai-chiu-trach-nhiem",
    "notes": "source=topic-v2 topicId=T002719",
-   "state": "PLANNED",
-   "qaScore": null,
-   "attempts": 0,
+   "state": "PUBLISHED",
+   "qaScore": 100,
+   "attempts": 1,
    "createdAt": "2026-10-30T10:05:13.974Z",
-   "updatedAt": "2026-10-30T10:05:13.975Z"
+   "updatedAt": "2026-10-31T02:26:29.528Z",
+   "seoScore": 100,
+   "words": 3688
   },
   {
    "id": "S02523",
