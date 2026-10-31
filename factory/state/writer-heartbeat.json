@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "at": "2026-10-31T02:13:20.096Z",
+ "at": "2026-10-31T10:38:29.068Z",
  "phase": "writing",
  "pair": null,
- "note": "02:13 UTC 31/10 tiếp tục sau giới hạn phiên 5 giờ (cắt ~17:50 UTC 30/10): đã đẩy tới S02519 và S02528; còn S02520–S02522 (lô AE) và S02529–S02541 (lô AF) đang viết/kiểm"
+ "note": "10:39 UTC 31/10 tiếp tục sau giới hạn phiên 5 giờ (cắt ~03:00 UTC, reset 07:10): lô AE 21/21 xuất bản; lô AF đã đẩy tới S02528, còn S02529–S02541 đang viết/kiểm; scout lô AG chạy lại"
 }
